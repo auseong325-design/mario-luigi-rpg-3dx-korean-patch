@@ -1,0 +1,2078 @@
+{
+ "batch": "FMsg__o_zutsuda_01__and9",
+ "rooms": [
+  "o_zutsuda_01",
+  "o_zutsuda_04_after",
+  "o_zutsuda_04_before",
+  "o_zutsuda_06",
+  "o_zutsuda_09",
+  "o_zutsuda_10_after",
+  "o_zutsuda_10_before",
+  "o_zutsuda_15",
+  "o_zutsuda_16_after",
+  "o_zutsuda_16_before"
+ ],
+ "ds_rooms": [
+  "0C6",
+  "0C8",
+  "0C9",
+  "0CA",
+  "0F8",
+  "0F9",
+  "0FA",
+  "0FB",
+  "0FC",
+  "105",
+  "108",
+  "112",
+  "13D"
+ ],
+ "ds_reference": [
+  "DS0C6#0: 에…! 에…!",
+  "DS0C6#1: 에취~~~~~~!!!",
+  "DS0C8#0: 윽! 어둡군!",
+  "DS0C8#1: 분명 전에도 이런 적이…",
+  "DS0C8#2: 그때는 이 다음에…",
+  "DS0C9#0: 크핫핫핫핫!",
+  "DS0C9#1: 성이건 타워건\n다 덤벼라!!",
+  "DS0C9#2: 저 녀석은… 혹시!",
+  "DS0C9#3: 어이! 거기 너!\n멈춰라!!",
+  "DS0CA#0: …뭐지?\n저런 곳에 프로펠러가…[Next]하늘을 나는 기계인가?",
+  "DS0CA#1: 하늘을 날 수 있다면 숲까지\n쉽게 갈 수 있을 텐데…",
+  "DS0F8#0: 저 호탕한 발소리는!?",
+  "DS0F8#1: 혹시 쿠파님!?",
+  "DS0F8#2: 누구냐!?",
+  "DS0F8#3: 저희들입니다!!\n엉금엉금 군단입니다!!",
+  "DS0F8#4: 쿠파님!!",
+  "DS0F8#5: 쿠파님~!!",
+  "DS0F8#6: 이 앞인 것 같은데…",
+  "DS0F8#7: 젠장! 단단하군!",
+  "DS0F8#8: 쿠파님이 와 주셨으니\n이제 안심할 수 있어!",
+  "DS0F8#9: 하지만 돌벽 때문에\n여기까지 못 오시는 것 같아.",
+  "DS0F8#10: 쿠파님이라면 이런 돌벽 따위\n뚝딱 부술 수 있는 거 아냐?",
+  "DS0F8#11: 맞아!\n누가 뭐래도 우리 쿠파님인걸!",
+  "DS0F8#12: 맞아!\n쿠파님이라고!",
+  "DS0F8#13: 크… 크핫… 크핫핫핫핫!!",
+  "DS0F8#14: 다… 당연한 것 아니냐!\n이딴 벽은 뚝딱하면 땡이다!!",
+  "DS0F8#15: 역시 대단해요!\n쿠파님!!",
+  "DS0F8#16: 쿠 파 님!!",
+  "DS0F8#17: 젠장! 커다란 뭔가를\n부딪치지 않으면 안 되려나…?[Next]커다란 뭔가부터…\n찾아봐야겠군.",
+  "DS0F8#18: ↑버섯 타운\n↓이아파 비치",
+  "DS0F9#0: 까까까까깜짝이야~!!",
+  "DS0F9#1: 엄청난 게 지나갔어~!!",
+  "DS0F9#2: 나왔다~!!!",
+  "DS0F9#3: 엉금엉금 군단이 동료가 되었다!\n배틀에서 엉금엉금부대를\n사용할 수 있게 되었다![Next]연습해 볼까요?\n예  아니요",
+  "DS0F9#4: 우와~ 역시\n쿠파님은 대단하세요![Next]우리를 깜짝 놀라게 하기 위해\n배로 오시다니!!",
+  "DS0F9#5: 쉽게 부수면\n재미가 없긴 하죠!!",
+  "DS0F9#6: 역시 쿠파님은 달라!!",
+  "DS0F9#7: 쿠 파 님!!",
+  "DS0F9#8: 크… 크핫핫핫핫!!",
+  "DS0F9#9: 마, 맞다!\n깜짝 놀랐느냐!?[Next]일부러 너희들을 위해\n준비한 비장의 카드다!",
+  "DS0F9#10: 아! 오셨군요~",
+  "DS0F9#11: 쿠 파 님!!",
+  "DS0F9#12: 앗! 마리오잖아?",
+  "DS0F9#13: 뭐하러 왔냐!!",
+  "DS0F9#14: 뭐 구경 났어?\n당장 가 버려!",
+  "DS0F9#15: 너 같은 녀석은\n쿠파님한테\n호되게 당해야 돼!",
+  "DS0F9#16: 옳소! 옳소!",
+  "DS0F9#17: 쿠파님이 얼마나 대단한데![Next]아까 전엔 이~~만한 배를\n슥~ 슥~ 움직이셨어!",
+  "DS0F9#18: 맞아![Next]우리를 위해서\n배를 움직여 주셨어!!",
+  "DS0F9#19: 그래!\n우리를 위해서!",
+  "DS0F9#20: 쿠파님이\n얼마나 착한데!",
+  "DS0F9#21: 하지만…",
+  "DS0F9#22: 철창에서 우리를\n꺼내 주진 않으셨어…",
+  "DS0F9#23: 왜 그러셨을까…?",
+  "DS0F9#24: 뭣 때문일까…?",
+  "DS0F9#25: 저리 못 가?",
+  "DS0F9#26: ↑버섯 타운\n↓이아파 비치",
+  "DS0FA#0: 아~! 시원하다![Next]이 몸은 재채기도\n호탕하군!!",
+  "DS0FB#0: 또 이 향기가…",
+  "DS0FB#1: 자꾸… 맡고 싶은걸…",
+  "DS0FB#2: 에…! 에…!",
+  "DS0FB#3: 에취~~~~~~!!!",
+  "DS0FC#0: 저건… 배인가…?",
+  "DS0FC#1: 저 배를 부딪치면…\n돌벽을 부술 수 있을지도 몰라…",
+  "DS105#0: 방금 누가 이 몸의\n이야기를 했나?",
+  "DS105#1: 흥! 어쨌든 마리오보다 먼저\n스타 백신을 손에 넣을 테다![Next]볼조개 숲은 어디냐!?",
+  "DS105#2: 오더 플리즈?\n장비 사기\n아이템 사기\n블캐츠에 대해\n구입하지 않음",
+  "DS105#3: 오우! 신사!\n이 블록을 지나치지 않았군요.[Next]왓 디스 블록!?\n이 블록은! 맞습니다!\n상점블록입니다![Next]이 블록이 있다면\n언제든지 쇼핑을\n즐길 수 있습니다.[Next]예전에 우리 블도그를\n찾으러 다니면서 여러 장소에\n세팅해 두었습니다.[Next]이제 언제든지\n신사와 만날 수 있겠군요.\n하우 나이스![Next]자, 신사.\n왓 두 유 원트?",
+  "DS105#4: 오더 플리즈?\n장비 사기\n아이템 사기\n블캐츠에 대해\n구입하지 않음",
+  "DS105#5: 오더 플리즈?\n장비 사기\n아이템 사기\n구입하지 않음",
+  "DS105#6: 귀여운 블캐츠를\n많이 찾으셨군요.[Next]시간 날 때\n미가 있는 곳으로 커밍!\n사례를 해 드리겠습니다!",
+  "DS105#7: 수집한 블캐츠 보기\n블캐츠가 뭐더라?\n뒤로",
+  "DS105#8: 하이~! 신사~\n하우 아 유?[Next]귀여운 블캐츠들은\n잘 찾고 계신가요~?",
+  "DS105#9: 하우 아 유,\n신사~?[Next]레이크의 컬러가\n샤이닝 블루네요.",
+  "DS105#10: 하이! 신사~[Next]나도 레이크 근처에서\n애프터눈 티를\n즐기고 싶네요~",
+  "DS105#11: 원하신다면 음이온의 파워로\n회복도 시켜 드릴 수 있어요~![Next]HP나 SP가 줄었다면\n꼭 한번 해 보세요, 플리즈~",
+  "DS105#12: 음이온으로\n완전 회복하실래요~?\n10코인이면 오케이입니다!\n회복한다  하지 않는다",
+  "DS105#13: 음이온\n고~~~!!!",
+  "DS105#14: 쏘리… 신사…\n코인이 부족해요…",
+  "DS105#15: HP와 SP 완전 회복!!",
+  "DS105#16: 트",
+  "DS105#17: 귀여운 블캐츠에 대해\n길~게 말해도 될까요?\n듣기  듣지 않기",
+  "DS105#18: 알립니다! 알립니다~!",
+  "DS105#19: 무조건 세 번째 백신을\n빨리 찾아야 합니다!",
+  "DS105#20: 이아파 비치는 남쪽이야!",
+  "DS105#21: ←블로즈 숍\n지금은 휴업 중.[Next]마사지해 주실 분을\n찾고 있습니다.",
+  "DS108#0: 고라파 레이크의 어택피스를\n개째 획득했다![Next]고라파 레이크의 나머지\n어택피스는 개다!",
+  "DS108#1: 고라파 레이크의 어택피스를\n개째 획득했다![Next]고라파 레이크의 나머지\n어택피스는 개다!",
+  "DS108#2: 고라파 레이크의 어택피스를\n개째 획득했다![Next]고라파 레이크의 어택피스를\n모두 모았다!![Next]새로운 스페셜 어택이\n완성되었다!!",
+  "DS108#3: 고라파 레이크의 어택피스를\n개째 획득했다![Next]고라파 레이크의 어택피스를\n모두 모았다!![Next]새로운 스페셜 어택이\n완성되었다!!",
+  "DS108#4: 어이!!",
+  "DS108#5: 너\n굼비 아니냐!?",
+  "DS108#6: 쿠, 쿠파님~!!\n무사하셨습니까~!!",
+  "DS108#7: 당연하지!!",
+  "DS108#8: 그것보다 다른 녀석들…",
+  "DS108#9: 펄러크와 헤이포는\n어디에 있느냐?",
+  "DS108#10: 함께 있는 것 아니었냐?",
+  "DS108#11: 그게…",
+  "DS108#12: 볼조개 숲에서 갑자기 커지신\n쿠파님에게 밟히지 않으려고\n필사적으로 도망쳤어요…",
+  "DS108#13: 여기저기\n도망치다 보니\n모두와 떨어지게 돼서…[Next]지금은 저 혼자예요…",
+  "DS108#14: 그, 그러냐…",
+  "DS108#15: 쿠파님은 이런 곳에서\n뭘 하고 계신 거예요?",
+  "DS108#16: 음… 실은…",
+  "DS108#17: …그래서 스타 백신을\n모으러 가는 중이다.",
+  "DS108#18: 쿠파님! 혹시\n그 스타 백신이란 게…",
+  "DS108#19: 이렇게 생기지\n않았나요?",
+  "DS108#20: …이 몸도 아직 본 적은 없다만\n아마도 그런 모양일 거다.",
+  "DS108#21: 어째서 네가 알고 있지?",
+  "DS108#22: 쿠파님!",
+  "DS108#23: 쿠파 성에 스타 백신이\n하나 있습니다!!",
+  "DS108#24: 뭐라고!?",
+  "DS108#25: 바닷가에 있는 바다거북 러즐이\n퍼즐을 완성한 기념 선물로\n줬다는 이야기를 들었습니다.[Next]뭐, 정말로 받은 건지\n아니면 강제로 빼앗은 건지는\n잘 모르겠지만…[Next]그 스타 백신을\n쿠파 성의 지하 금고실에\n숨겨 놨을 겁니다.",
+  "DS108#26: …음, 그러냐?",
+  "DS108#27: 흠… 그러고 보니…\n그런 일이… 있었던 것 같기도…",
+  "DS108#28: 알립니다! 알립니다~!",
+  "DS108#29: 마리오님, 루이지님,\n난폭한 분 들으세요~[Next]버섯 타운의\n오키노 선생님으로부터~[Next]메시지가 도착했습니다~!!",
+  "DS108#30: 아~ 아아~ 아~\n…아! 연결된 건가!?[Next]…에헴!",
+  "DS108#31: 실은 방금\n두 번째 현인이 누구인지\n알게 되었습니다.[Next]두 번째 현인은\n바닷가에 있는\n바다거북 러즐이지요.",
+  "DS108#32: 크핫핫핫핫!",
+  "DS108#33: 역시 그런 거냐![Next]그 녀석의 스타 백신은 이미\n이 몸의 성에 있다고 한다!",
+  "DS108#34: 참고로 첫 번째 스타 백신은\n마리오님과 루이지님이\n손에 넣었습니다.[Next]축하합니다!!",
+  "DS108#35: 뭐라고~!!",
+  "DS108#36: 젠장!\n선수를 치다니!![Next]두 번째 스타 백신은 무슨 일이\n있어도 이 몸이 얻을 것이다!",
+  "DS108#37: 당장 쿠파 성으로 간다!\n스타 백신은 지하 금고실에\n있다고 했겠다?",
+  "DS108#38: 예!",
+  "DS108#39: 좋았어!\n이 몸은 쿠파 성으로 가겠다!",
+  "DS108#40: 너는 어쩔 셈이냐?",
+  "DS108#41: 저는… 저…",
+  "DS108#42: 펄러크와 헤이포를\n찾은 후에 쿠파님 계신 곳으로\n향하겠습니다…",
+  "DS108#43: 마음대로 해라!",
+  "DS108#44: 두 번째 스타 백신은\n쿠파 성에 있구나…",
+  "DS108#45: 일단 쿠파에게\n맡겨 보기로 하자.",
+  "DS108#46: ↑버섯 타운\n→귀여미 초원",
+  "DS112#0: 고라파 레이크의 어택피스를\n개째 획득했다![Next]고라파 레이크의 나머지\n어택피스는 개다!",
+  "DS112#1: 고라파 레이크의 어택피스를\n개째 획득했다![Next]고라파 레이크의 나머지\n어택피스는 개다!",
+  "DS112#2: 고라파 레이크의 어택피스를\n개째 획득했다![Next]고라파 레이크의 어택피스를\n모두 모았다!![Next]새로운 스페셜 어택이\n완성되었다!!",
+  "DS112#3: 고라파 레이크의 어택피스를\n개째 획득했다![Next]고라파 레이크의 어택피스를\n모두 모았다!![Next]새로운 스페셜 어택이\n완성되었다!!",
+  "DS112#4: →볼조개 숲\n↓이아파 비치",
+  "DS13D#0: 이 냄새는 뭐지…?",
+  "DS13D#1: 향기가… 좋군…",
+  "DS13D#2: 에…! 에…!",
+  "DS13D#3: 에취~~~~~~!!!"
+ ],
+ "glossary": [
+  {
+   "jp": "ボコスカノコノコ",
+   "ko": "엉금엉금부대",
+   "type": "attack",
+   "basis": "DS",
+   "source": "BData__mfset_AItmN#10",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "クッパ",
+   "ko": "쿠파",
+   "type": "boss",
+   "basis": "DS",
+   "source": "BData__mfset_MonN#65",
+   "note": "마리오 일행이 싸우는 쿠파. glossary 확정값과 동일 [gl_enemies]"
+  },
+  {
+   "jp": "Dr.コキノ",
+   "ko": "오키노 선생",
+   "type": "character",
+   "basis": "DS",
+   "source": "DS 대사 '오키노 선생(님)' 22회",
+   "note": "기본 '오키노 선생(님)'. DS대로 첫 소개 장면(o_peach_op_04 #1·#48 ↔ DS218 #21·#22)과 병원 이름('닥터 오키노 병원', DS129#27)만 '닥터 오키노'"
+  },
+  {
+   "jp": "Dr.コキノさま",
+   "ko": "오키노 선생님",
+   "type": "character",
+   "basis": "DS",
+   "source": "o_zutsuda_15#14 <-> DS108#29",
+   "note": "전령 대사 [gl_characters]"
+  },
+  {
+   "jp": "らんぼうものさん",
+   "ko": "난폭한 분",
+   "type": "character",
+   "basis": "DS",
+   "source": "o_zutsuda_15#14 <-> DS108#29",
+   "note": "전령이 쿠파를 부르는 말. 엔딩 배달 장면(o_koopa_end_01#24)은 DS23E#6대로 '괴팍한 분'"
+  },
+  {
+   "jp": "クリッキー",
+   "ko": "굼비",
+   "type": "character",
+   "basis": "DS",
+   "source": "FEvent:23E#21",
+   "note": "glossary 확정값. 엘리트 3인방 [gl_enemies]"
+  },
+  {
+   "jp": "パタボン",
+   "ko": "펄러크",
+   "type": "character",
+   "basis": "DS",
+   "source": "FEvent:23E#21",
+   "note": "glossary 확정값. 엘리트 3인방 [gl_enemies]"
+  },
+  {
+   "jp": "ヘイファー",
+   "ko": "헤이포",
+   "type": "character",
+   "basis": "DS",
+   "source": "FEvent:23E#21",
+   "note": "glossary 확정값. 엘리트 3인방 [gl_enemies]"
+  },
+  {
+   "jp": "マリオ",
+   "ko": "마리오",
+   "type": "character",
+   "basis": "DS",
+   "source": "BData__mfset_Help#19",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "マリオさん",
+   "ko": "마리오님",
+   "type": "character",
+   "basis": "DS",
+   "source": "o_town_33#0 <-> DS0F2#46 ; i_kinopio_01#3 <-> DS16A#10",
+   "note": "키노피오·블록 상점 신사 등이 부를 때('마리오 씨' 아님). 3DX 106회 [gl_characters]"
+  },
+  {
+   "jp": "リューグー",
+   "ko": "러즐",
+   "type": "character",
+   "basis": "DS",
+   "source": "DS020 \"러즐이 있는 곳으로 가져가자!\"",
+   "note": "퍼즐피스를 받는 캐릭터"
+  },
+  {
+   "jp": "ルイージ",
+   "ko": "루이지",
+   "type": "character",
+   "basis": "DS",
+   "source": "BData__mfset_Help#20",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "ルイージさん",
+   "ko": "루이지님",
+   "type": "character",
+   "basis": "DS",
+   "source": "o_peach_op_01#2 <-> DS21A#2 ; o_town_33#0 <-> DS0F2#46",
+   "note": "[gl_characters]"
+  },
+  {
+   "jp": "ノコノコ",
+   "ko": "엉금엉금",
+   "type": "enemy",
+   "basis": "DS",
+   "source": "BData__mfset_AItmE#10",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "ブリローズ",
+   "ko": "블로즈",
+   "type": "enemy",
+   "basis": "DS",
+   "source": "BData__mfset_MiniGame#7",
+   "note": "glossary 확정값. DS에선 마사지 NPC, 3DX 쿠파주니어 RPG에서 적으로 등장 [gl_enemies]"
+  },
+  {
+   "jp": "スターワクチン",
+   "ko": "스타 백신",
+   "type": "key_item",
+   "basis": "DS",
+   "source": "MData__mfset_MenuMes#58",
+   "note": "DS '3개의 스타 백신을 합성해서' [gl_items]"
+  },
+  {
+   "jp": "ブロキャット",
+   "ko": "블캐츠",
+   "type": "key_item",
+   "basis": "DS",
+   "source": "MData__mfset_MenuMes#67",
+   "note": "15마리 공통 이름 [gl_items]"
+  },
+  {
+   "jp": "ワクチン",
+   "ko": "백신",
+   "type": "key_item",
+   "basis": "DS",
+   "source": "MData__mfset_MenuMes#52",
+   "note": "[gl_menu_places]"
+  },
+  {
+   "jp": "ノコノコ軍団",
+   "ko": "엉금엉금 군단",
+   "type": "other",
+   "basis": "DS",
+   "source": "FEvent#048.33",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "マッサージ",
+   "ko": "마사지",
+   "type": "other",
+   "basis": "DS",
+   "source": "BData__mfset_MiniGame#7",
+   "note": "블로즈 미니 게임. DS 이름은 '블로즈 마사지'(MiniGame#10) [gl_attacks]"
+  },
+  {
+   "jp": "ムッシュ",
+   "ko": "신사",
+   "type": "other",
+   "basis": "DS",
+   "source": "o_ibiki_01#3 <-> DS134#7 ; o_koopa_r_33#8 <-> DS145#7",
+   "note": "correction(note만): 블록 상점 신사가 쿠파(전투 중엔 마리오도)를 부르는 말. 기존 note의 '블로크'는 DS 표기가 아님(상점 주인의 본명은 JP·DS 대사에 없음) [gl_characters]"
+  },
+  {
+   "jp": "イビッキタワー",
+   "ko": "드르렁 타워",
+   "type": "place",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesPlace#9",
+   "note": "세이브 파일 장소명(3DX MES_EMesPlace_place9 = DS #9) [gl_menu_places]"
+  },
+  {
+   "jp": "エクボン",
+   "ko": "볼조개",
+   "type": "place",
+   "basis": "DS",
+   "source": "MData__mfset_MenuMes#17",
+   "note": "エクボンの森 약칭(エクボンパーツ=볼조개 피스) [gl_menu_places]"
+  },
+  {
+   "jp": "エクボンの森",
+   "ko": "볼조개 숲",
+   "type": "place",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesPlace#2",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "オタプク草原",
+   "ko": "귀여미 초원",
+   "type": "place",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesPlace#11",
+   "note": "세이브 파일 장소명(3DX MES_EMesPlace_place11 = DS #11) [gl_menu_places]"
+  },
+  {
+   "jp": "キノコタウン",
+   "ko": "버섯 타운",
+   "type": "place",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesPlace#8",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "クッパ城",
+   "ko": "쿠파 성",
+   "type": "place",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesPlace#6",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "タワー",
+   "ko": "타워",
+   "type": "place",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesOutline#21",
+   "note": "[gl_menu_places]"
+  },
+  {
+   "jp": "ブリローズのお店",
+   "ko": "블로즈 숍",
+   "type": "place",
+   "basis": "DS",
+   "source": "DS105#21",
+   "note": "표지판 [gl_menu_places]"
+  },
+  {
+   "jp": "ムッシーバビーチ",
+   "ko": "이아파 비치",
+   "type": "place",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesPlace#4",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "レイク",
+   "ko": "레이크",
+   "type": "place",
+   "basis": "DS",
+   "source": "DS283#23",
+   "note": "ヅツーダレイク를 줄여 부를 때 [gl_menu_places]"
+  },
+  {
+   "jp": "地下",
+   "ko": "지하",
+   "type": "place",
+   "basis": "DS",
+   "source": "DS093#0",
+   "note": "[gl_menu_places]"
+  },
+  {
+   "jp": "草原",
+   "ko": "초원",
+   "type": "place",
+   "basis": "DS",
+   "source": "DS283#23",
+   "note": "オタプク草原을 줄여 부를 때 [gl_menu_places]"
+  },
+  {
+   "jp": "金庫室",
+   "ko": "금고실",
+   "type": "place",
+   "basis": "DS",
+   "source": "DS097#0",
+   "note": "쿠파 성 표지판 [gl_menu_places]"
+  },
+  {
+   "jp": "イカダ",
+   "ko": "뗏목",
+   "type": "term",
+   "basis": "DS",
+   "source": "o_town_17#1 ↔ DS0EF#1",
+   "note": "room-align"
+  },
+  {
+   "jp": "クッパ様",
+   "ko": "쿠파님",
+   "type": "term",
+   "basis": "DS",
+   "source": "BAI__BMes_cf:0#0",
+   "note": "부하들이 부를 때 [gl_kj]"
+  },
+  {
+   "jp": "バトル",
+   "ko": "배틀",
+   "type": "term",
+   "basis": "DS",
+   "source": "BAI__BMes_cf#2.13",
+   "note": "명사는 '배틀'. 동사 'バトルする/した'는 DS처럼 '싸우다'로 써도 된다"
+  },
+  {
+   "jp": "マリオ達",
+   "ko": "마리오 일행",
+   "type": "term",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesOutline#16",
+   "note": "기본값. 같은 장면의 DS 문장이 다른 표현을 쓰면 DS대로(쿠파 몸속 터치 미니게임 DS155·1AB '마리오 형제', DS0F4 '마리오와 루이지'). 조사 주의(형제를/형제가)"
+  },
+  {
+   "jp": "ミー",
+   "ko": "미",
+   "type": "term",
+   "basis": "DS",
+   "source": "o_areanone_allmap_bcat_U#4 ↔ DS283#2",
+   "note": "room-align"
+  },
+  {
+   "jp": "ムッシュ～",
+   "ko": "신사",
+   "type": "term",
+   "basis": "DS",
+   "source": "o_koopa_37#3 ↔ DS23C#8",
+   "note": "room-align"
+  },
+  {
+   "jp": "ワガハイ",
+   "ko": "이 몸",
+   "type": "term",
+   "basis": "DS",
+   "source": "FEvent:025#7",
+   "note": "쿠파의 1인칭 [gl_kj]"
+  },
+  {
+   "jp": "仲間",
+   "ko": "동료",
+   "type": "term",
+   "basis": "DS",
+   "source": "FEvent:048#29",
+   "note": "「仲間になった」→'동료가 되었다' [gl_kj]"
+  },
+  {
+   "jp": "巨大化",
+   "ko": "거대화",
+   "type": "term",
+   "basis": "coined",
+   "source": "",
+   "note": "DS는 '커지다'(BAI__BMes_ji#2.9 커지셨을 때의 배틀)로 풀어 씀 [gl_attacks]"
+  },
+  {
+   "jp": "巨大化バトル",
+   "ko": "거대화 배틀",
+   "type": "term",
+   "basis": "coined",
+   "source": "",
+   "note": "DS는 '커지셨을 때의 배틀'(BAI__BMes_ji#2.9) [gl_attacks]"
+  },
+  {
+   "jp": "賢者",
+   "ko": "현인",
+   "type": "term",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesOutline#27",
+   "note": "[gl_menu_places]"
+  },
+  {
+   "jp": "軍団",
+   "ko": "군단",
+   "type": "term",
+   "basis": "DS",
+   "source": "BAI__BMes_cf#0.20",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "金庫",
+   "ko": "금고",
+   "type": "term",
+   "basis": "DS",
+   "source": "o_koopa_18#20 <-> DS089#11 ; i_kioku_03#3 <-> DS14B#2",
+   "note": "金庫室=금고실(glossary) [gl_characters]"
+  },
+  {
+   "jp": "練習",
+   "ko": "연습",
+   "type": "ui",
+   "basis": "DS",
+   "source": "DS16A#13",
+   "note": "[gl_menu_places]"
+  }
+ ],
+ "messages": [
+  {
+   "id": "FMsg/o_zutsuda_01#2",
+   "label": "MES_Shop_blk_mes_05",
+   "style": 6,
+   "src": "{1:align}ハ～イ！ ムッシュ～\nコマンタレブ？{2:wait}[Next]{3:align}{4:color}ブロキャット{5:color}{6:color}ちゃんは\n探して くれていますか～？{7:wait}{8:color}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]",
+    "3": "[0001:0004:]",
+    "4": "[Color #2C64FF]",
+    "5": "[Color #373737]",
+    "6": "[Color #373737]",
+    "7": "[0002:0001:]",
+    "8": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_zutsuda_01#3",
+   "label": "MES_Shop_blk_mes_06",
+   "style": 6,
+   "src": "{1:align}ハウ アー ユー\nムッシュ～{2:wait}[Next]{3:align}レイクの ブルーが\nまぶしく シャイニングですね。{4:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]",
+    "3": "[0001:0004:]",
+    "4": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_zutsuda_01#4",
+   "label": "MES_Shop_blk_mes_07",
+   "style": 6,
+   "src": "{1:align}ハイ！ ムッシュ～{2:wait}[Next]{3:align}ミーも レイクのほとりで\nアフタヌーンティーを\n楽しみたいですね～{4:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]",
+    "3": "[0001:0004:]",
+    "4": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_zutsuda_01#5",
+   "label": "MES_LZutsuda_01_kanban_mes",
+   "style": 12,
+   "src": "{1:align}{2:align}{3:mode}← ブリローズのお店\nただいま 休業中{4:wait}[Next]{5:align}{6:align}{7:mode}マッサージして いただけるかたを\n探しています。{8:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0005:0000:]",
+    "4": "[0002:0001:]",
+    "5": "[0001:0004:]",
+    "6": "[0001:0001:]",
+    "7": "[0005:0000:]",
+    "8": "[0002:0001:]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_zutsuda_01#7",
+   "label": "MES_LZutsuda_01_LZ01_koopa_02",
+   "style": 6,
+   "src": "{1:align}今 だれかワガハイの\nウワサでも していたのか？{2:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_zutsuda_01#8",
+   "label": "MES_LZutsuda_01_LZ01_koopa_03",
+   "style": 6,
+   "src": "{1:align}ふん！ マリオ達よりも先に\nスターワクチンを 手に入れるぞ！{2:wait}[Next]{3:align}{4:align}エクボンの森は どっちだ！？{5:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]",
+    "3": "[0001:0004:]",
+    "4": "[0001:0001:]",
+    "5": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_zutsuda_01#9",
+   "label": "MES_LZutsuda_01_LZ01_kocky_ev_00",
+   "style": 6,
+   "src": " \n [Next]{1:align}{2:align}  おしらせ おしらせ～！{3:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_zutsuda_01#10",
+   "label": "MES_LZutsuda_01_LZ01_kocky_ev_01",
+   "style": 6,
+   "src": "{1:align}とにかく ３つ目のワクチンを\nはやく 見つけるでしょう！{2:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_zutsuda_01#13",
+   "label": "MES_EV_SKoopa_09_2_LZ01_koopa_01",
+   "style": 10,
+   "src": "{1:align}{2:align}ハ～ックション！！{3:pause}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0000:28 00]"
+   },
+   "header": "[0009:0000:0A 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_zutsuda_04_after#0",
+   "label": "MES_LZutsuda_04_after_LZ4A_kanban",
+   "style": 12,
+   "src": "{1:align}{2:align}{3:mode}↑ キノコタウン\n↓ ムッシーバビーチ{4:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0005:0000:]",
+    "4": "[0002:0001:]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": [
+    "FMsg/o_zutsuda_04_before#2"
+   ]
+  },
+  {
+   "id": "FMsg/o_zutsuda_04_after#1",
+   "label": "MES_LZutsuda_04_after_LZ04A_koopa_01",
+   "style": 6,
+   "src": "{1:align}{2:align}ガ…{3:pause} ガハハハハ！！{4:pause}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0000:0A 00]",
+    "4": "[0002:0000:1E 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_zutsuda_04_after#2",
+   "label": "MES_LZutsuda_04_after_LZ04A_koopa_02",
+   "style": 6,
+   "src": "{1:align}そ{2:pause} そうだ！\nビックリしただろう！？{3:wait}[Next]わざわざ オマエ達のために\n用意して やったんだ！{4:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0000:0A 00]",
+    "3": "[0002:0001:]",
+    "4": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_zutsuda_04_after#3",
+   "label": "MES_LZutsuda_04_after_LZ04A_noko_01",
+   "style": 6,
+   "src": "{1:align}{2:align}ビビビビビックリした～！！{3:pause}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0000:14 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_zutsuda_04_after#4",
+   "label": "MES_LZutsuda_04_after_LZ04A_noko_02",
+   "style": 6,
+   "src": "{1:align}{2:align}すっごいの きたな～！！{3:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_zutsuda_04_after#5",
+   "label": "MES_LZutsuda_04_after_LZ04A_noko_03",
+   "style": 9,
+   "src": "{1:align}{2:align}出られた～！！！{3:pause}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0000:14 00]"
+   },
+   "header": "[0009:0000:09 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_zutsuda_04_after#6",
+   "label": "MES_LZutsuda_04_after_LZ04A_noko_04",
+   "style": 6,
+   "src": "{1:align}いや～ しかし さすが\nクッパ様ですね！{2:wait}[Next]{3:align}わたし達を ビックリさせるために\nまさか 船でくるとは！！{4:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]",
+    "3": "[0001:0004:]",
+    "4": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_zutsuda_04_after#7",
+   "label": "MES_LZutsuda_04_after_LZ04A_noko_05",
+   "style": 6,
+   "src": "{1:align}かんたんに こわしたら\nおもしろくないですもんね！！{2:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_zutsuda_04_after#8",
+   "label": "MES_LZutsuda_04_after_LZ04A_noko_06",
+   "style": 6,
+   "src": "{1:align}{2:align}さすが クッパ様だ！！{3:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_zutsuda_04_after#9",
+   "label": "MES_LZutsuda_04_after_LZ04A_noko_07",
+   "style": 6,
+   "src": "{1:align}{2:align}クッ{3:pause} パッ{4:pause} さまっ！！{5:pause}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0000:0A 00]",
+    "4": "[0002:0000:0A 00]",
+    "5": "[0002:0000:14 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/o_zutsuda_04_after#12",
+    "FMsg/o_zutsuda_04_before#3"
+   ]
+  },
+  {
+   "id": "FMsg/o_zutsuda_04_after#10",
+   "label": "MES_LZutsuda_04_after_LZ04A_noko_08",
+   "style": 6,
+   "src": "{1:align}{2:align}あ そ～れ！{3:pause}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0000:05 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_zutsuda_04_after#11",
+   "label": "MES_LZutsuda_04_after_LZ04A_system",
+   "style": 12,
+   "src": "{1:mode}{2:align}ノコノコ軍団が 仲間になった！\nバトルで {3:color}ボコスカノコノコ{4:color}{5:color}が\n使えるようになるぞ！{6:pause}{7:wait}[Next]{8:mode}{9:align}{10:align}練習して いきますか？{11:pause}\n{12:align}{13:choice}いいえ{14:tab}{15:choice}はい{16:pause}{17:color}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[0001:0001:]",
+    "3": "[Color #4ED4FF]",
+    "4": "[Color #E6E6E6]",
+    "5": "[Color #373737]",
+    "6": "[0002:0000:1E 00]",
+    "7": "[0002:0001:]",
+    "8": "[0005:0000:]",
+    "9": "[0001:0004:]",
+    "10": "[0001:0001:]",
+    "11": "[0002:0000:0A 00]",
+    "12": "[0001:0001:]",
+    "13": "[0004:0001:]",
+    "14": "[0006:0000:28 00]",
+    "15": "[0004:0001:]",
+    "16": "[0002:0000:0A 00]",
+    "17": "[Color #E6E6E6]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_zutsuda_04_after#13",
+   "label": "MES_LZutsuda_04_after_LZ04A_noko_ml_01",
+   "style": 6,
+   "src": "{1:align}{2:align}あ！ マリオじゃないか！{3:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_zutsuda_04_after#14",
+   "label": "MES_LZutsuda_04_after_LZ04A_noko_ml_02",
+   "style": 6,
+   "src": "{1:align}{2:align}なにしに きたんだ！！{3:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_zutsuda_04_after#15",
+   "label": "MES_LZutsuda_04_after_LZ04A_noko_ml_03",
+   "style": 6,
+   "src": "{1:align}見世物じゃ ないぞ！\nあっち 行け！{2:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_zutsuda_04_after#16",
+   "label": "MES_LZutsuda_04_after_LZ04A_noko_ml_04",
+   "style": 6,
+   "src": "{1:align}オマエなんか\nクッパ様に コテンパンに\nされちゃえば いいんだ！{2:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_zutsuda_04_after#17",
+   "label": "MES_LZutsuda_04_after_LZ04A_noko_ml_05",
+   "style": 6,
+   "src": "{1:align}{2:align}そうだ！ そうだ！{3:pause}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0000:14 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_zutsuda_04_after#18",
+   "label": "MES_LZutsuda_04_after_LZ04A_noko_ml_06",
+   "style": 6,
+   "src": "{1:align}クッパ様は すごいんだぞ！{2:wait}[Next]{3:align}さっきだって こ～んな 大きな船を\nズゴ～ン！と 動かしたんだ！{4:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]",
+    "3": "[0001:0004:]",
+    "4": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_zutsuda_04_after#19",
+   "label": "MES_LZutsuda_04_after_LZ04A_noko_ml_07",
+   "style": 6,
+   "src": "{1:align}そうだぞ！{2:wait}[Next]{3:align}ぼく達の ために\n船を 動かしてくれたんだ！！{4:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]",
+    "3": "[0001:0004:]",
+    "4": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_zutsuda_04_after#20",
+   "label": "MES_LZutsuda_04_after_LZ04A_noko_ml_08",
+   "style": 6,
+   "src": "{1:align}そうだぞ！\nぼく達の ために！{2:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_zutsuda_04_after#21",
+   "label": "MES_LZutsuda_04_after_LZ04A_noko_ml_09",
+   "style": 6,
+   "src": "{1:align}クッパ様は\nやさしいんだぞ！{2:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_zutsuda_04_after#23",
+   "label": "MES_work_omit_08",
+   "style": 12,
+   "src": "{1:align}{2:align}{3:mode}=== 仮・未実装 ===\n{4:align}{5:align}{6:mode}イカダによる地形攻略の一部が未実装です。\n{7:align}{8:align}{9:mode}地形攻略の終了地点までスキップします。{10:pause}{11:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0005:0000:]",
+    "4": "[0001:0004:]",
+    "5": "[0001:0001:]",
+    "6": "[0005:0000:]",
+    "7": "[0001:0004:]",
+    "8": "[0001:0001:]",
+    "9": "[0005:0000:]",
+    "10": "[0002:0000:0A 00]",
+    "11": "[0002:0001:]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_zutsuda_04_after#24",
+   "label": "MES_LZutsuda_04_after_LZ04A_noko_ml_10",
+   "style": 6,
+   "src": "{1:align}でも…{2:pause}{3:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0000:0A 00]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_zutsuda_04_after#25",
+   "label": "MES_LZutsuda_04_after_LZ04A_noko_ml_11",
+   "style": 6,
+   "src": "{1:align}この オリからは\n出してくれなかったね…{2:pause}{3:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0000:0A 00]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_zutsuda_04_after#26",
+   "label": "MES_LZutsuda_04_after_LZ04A_noko_ml_12",
+   "style": 6,
+   "src": "{1:align}それは…{2:pause}{3:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0000:0A 00]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_zutsuda_04_after#27",
+   "label": "MES_LZutsuda_04_after_LZ04A_noko_ml_13",
+   "style": 6,
+   "src": "{1:align}{2:align}なんだよ…{3:pause}{4:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0000:0A 00]",
+    "4": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_zutsuda_04_after#28",
+   "label": "MES_LZutsuda_04_after_LZ04A_noko_ml_14",
+   "style": 6,
+   "src": "{1:align}{2:align}あっち 行けよ…{3:pause}{4:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0000:0A 00]",
+    "4": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_zutsuda_04_before#0",
+   "label": "MES_LZutsuda_04_before_LZ04B_noko_10",
+   "style": 6,
+   "src": "{1:align}そうだよ！\nクッパ様だぜ！{2:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_zutsuda_04_before#1",
+   "label": "MES_LZutsuda_04_before_LZ04B_noko_11",
+   "style": 6,
+   "src": "{1:align}やっぱりだ！\nさすが クッパ様！！{2:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_zutsuda_04_before#4",
+   "label": "MES_LZutsuda_04_before_LZ04B_noko_01",
+   "style": 6,
+   "src": "{1:align}{2:align}その ごうかいな足音は！？{3:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_zutsuda_04_before#5",
+   "label": "MES_LZutsuda_04_before_LZ04B_noko_02",
+   "style": 6,
+   "src": "{1:align}{2:align}もしや クッパ様！？{3:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_zutsuda_04_before#6",
+   "label": "MES_LZutsuda_04_before_LZ04B_noko_03",
+   "style": 6,
+   "src": "{1:align}我々です！！\nノコノコ軍団ですっ！！{2:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_zutsuda_04_before#7",
+   "label": "MES_LZutsuda_04_before_LZ04B_noko_04",
+   "style": 6,
+   "src": "{1:align}{2:align}クッパ様！！{3:pause}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0000:14 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_zutsuda_04_before#8",
+   "label": "MES_LZutsuda_04_before_LZ04B_noko_05",
+   "style": 6,
+   "src": "{1:align}{2:align}クッパ様～！！{3:pause}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0000:14 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_zutsuda_04_before#9",
+   "label": "MES_LZutsuda_04_before_LZ04B_noko_06",
+   "style": 6,
+   "src": "{1:align}クッパ様が きてくれたから\nもう 安心だな！{2:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_zutsuda_04_before#10",
+   "label": "MES_LZutsuda_04_before_LZ04B_noko_07",
+   "style": 6,
+   "src": "{1:align}でも かべがあって\nこっちに こられないみたいだぞ。{2:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_zutsuda_04_before#11",
+   "label": "MES_LZutsuda_04_before_LZ04B_noko_08",
+   "style": 6,
+   "src": "{1:align}クッパ様なら こんなかべくらい\nちょちょいと こわせるだろ！{2:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_zutsuda_04_before#12",
+   "label": "MES_LZutsuda_04_before_LZ04B_noko_09",
+   "style": 6,
+   "src": "{1:align}そうだよな！\nなんたって クッパ様 だもんな！{2:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_zutsuda_04_before#13",
+   "label": "MES_LZutsuda_04_before_LZ04B_koopa_01",
+   "style": 9,
+   "src": "{1:align}{2:align}だれだ！？{3:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:09 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_zutsuda_04_before#14",
+   "label": "MES_LZutsuda_04_before_LZ04B_koopa_02",
+   "style": 6,
+   "src": "{1:align}{2:align}このかべの 向こうか…{3:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_zutsuda_04_before#15",
+   "label": "MES_LZutsuda_04_before_LZ04B_koopa_03",
+   "style": 6,
+   "src": "{1:align}{2:align}くそっ！ かたいな！{3:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_zutsuda_04_before#16",
+   "label": "MES_LZutsuda_04_before_LZ04B_koopa_04",
+   "style": 6,
+   "src": "{1:align}{2:align}ガ…{3:pause} ガハッ…{4:pause} ガハハハハ！！{5:pause}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0000:0A 00]",
+    "4": "[0002:0000:14 00]",
+    "5": "[0002:0000:1E 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_zutsuda_04_before#17",
+   "label": "MES_LZutsuda_04_before_LZ04B_koopa_05",
+   "style": 6,
+   "src": "{1:align}あ…{2:pause} あたりまえではないか！\nこんなかべ ちょちょいのちょいだ！！{3:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0000:0A 00]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_zutsuda_04_before#18",
+   "label": "MES_LZutsuda_04_before_LZ04B_koopa_06",
+   "style": 6,
+   "src": "{1:align}くそっ！{2:pause} なにか でかいものでも\nぶち当てないと ダメか…？{3:wait}[Next]{4:align}でかいもの…{5:pause}\nとりあえず 探してみるか。{6:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0000:0A 00]",
+    "3": "[0002:0001:]",
+    "4": "[0001:0004:]",
+    "5": "[0002:0000:14 00]",
+    "6": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_zutsuda_06#0",
+   "label": "MES_LZutsuda_06_LZ06_kanban",
+   "style": 12,
+   "src": "{1:align}{2:align}{3:mode}→ エクボンの森\n↓ ムッシーバビーチ{4:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0005:0000:]",
+    "4": "[0002:0001:]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_zutsuda_09#0",
+   "label": "MES_LZutsuda_09_LZ09_koopa_05",
+   "style": 6,
+   "src": "{1:align}{2:align}あ～！ すっきりだ！{3:wait}[Next]{4:align}{5:align}ワガハイは くしゃみも\nごうかいだな！！{6:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0001:]",
+    "4": "[0001:0004:]",
+    "5": "[0001:0000:]",
+    "6": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_zutsuda_10_after#0",
+   "label": "MES_EV_LZutsuda_10_LZ10A_koopa_01",
+   "style": 6,
+   "src": "{1:align}{2:align}また このにおいか…{3:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_zutsuda_10_after#1",
+   "label": "MES_EV_LZutsuda_10_LZ10A_koopa_02",
+   "style": 6,
+   "src": "{1:align}{2:align}ちょっと…{3:pause} クセになるな…{4:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0000:14 00]",
+    "4": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_zutsuda_10_before#0",
+   "label": "MES_work_omit_07",
+   "style": 12,
+   "src": "{1:align}{2:align}{3:mode}=== 仮・未実装 ===\n{4:align}{5:align}{6:mode}イカダによる地形攻略と\n{7:align}{8:align}{9:mode}くしゃみイベントが未実装です。\n{10:align}{11:align}{12:mode}くしゃみイベントの終了地点までスキップします。{13:pause}{14:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0005:0000:]",
+    "4": "[0001:0004:]",
+    "5": "[0001:0001:]",
+    "6": "[0005:0000:]",
+    "7": "[0001:0004:]",
+    "8": "[0001:0001:]",
+    "9": "[0005:0000:]",
+    "10": "[0001:0004:]",
+    "11": "[0001:0001:]",
+    "12": "[0005:0000:]",
+    "13": "[0002:0000:0A 00]",
+    "14": "[0002:0001:]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_zutsuda_10_before#2",
+   "label": "MES_LZutsuda_10_before_LZ10B_koopa_01",
+   "style": 6,
+   "src": "{1:align}{2:align}あれは…{3:pause} 船か…？{4:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0000:0A 00]",
+    "4": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_zutsuda_10_before#3",
+   "label": "MES_LZutsuda_10_before_LZ10B_koopa_02",
+   "style": 6,
+   "src": "{1:align}あの船を ぶつければ…{2:pause}\nかべを こわせるかもしれんな…{3:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0000:0A 00]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_zutsuda_15#0",
+   "label": "MES_LZutsuda_15_LZ15_koopa_16",
+   "style": 6,
+   "src": "{1:align}{2:align}やっぱり そうか！{3:wait}[Next]{4:align}{5:align}そいつの スターワクチンは\nすでに ワガハイの城にあるそうだ！{6:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0001:]",
+    "4": "[0001:0004:]",
+    "5": "[0001:0000:]",
+    "6": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_zutsuda_15#1",
+   "label": "MES_LZutsuda_15_LZ15_koopa_17",
+   "style": 10,
+   "src": "{1:align}{2:align}なにい～っ！！{3:pause}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0000:1E 00]"
+   },
+   "header": "[0009:0000:0A 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_zutsuda_15#2",
+   "label": "MES_LZutsuda_15_LZ15_koopa_18",
+   "style": 6,
+   "src": "{1:align}くそっ！\n先をこされたぞ！！{2:wait}[Next]{3:align}２つ目のスターワクチンは\nなにがなんでも 手に入れるのだ！{4:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]",
+    "3": "[0001:0004:]",
+    "4": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_zutsuda_15#3",
+   "label": "MES_LZutsuda_15_LZ15_koopa_19",
+   "style": 6,
+   "src": "{1:align}今すぐ {2:color}クッパ城{3:color}{4:color}へもどるぞ！{5:wait}[Next]{6:align}スターワクチンは {7:color}{8:color}地下の金庫室{9:color}{10:color}に\nあるんだな？{11:wait}{12:color}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[Color #2C64FF]",
+    "3": "[Color #373737]",
+    "4": "[Color #373737]",
+    "5": "[0002:0001:]",
+    "6": "[0001:0004:]",
+    "7": "[Color #373737]",
+    "8": "[Color #2C64FF]",
+    "9": "[Color #373737]",
+    "10": "[Color #373737]",
+    "11": "[0002:0001:]",
+    "12": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_zutsuda_15#4",
+   "label": "MES_LZutsuda_15_LZ15_kuriki_01",
+   "style": 6,
+   "src": "ク{1:pause} クッパ様～！！\nご無事でしたか～！！{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_zutsuda_15#5",
+   "label": "MES_LZutsuda_15_LZ15_kuriki_02",
+   "style": 6,
+   "src": "{1:align}{2:align}はい…{3:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_zutsuda_15#6",
+   "label": "MES_LZutsuda_15_LZ15_kuriki_03",
+   "style": 6,
+   "src": "{1:align}エクボンの森で 大きくなった\nクッパ様に ふまれないようにと\n必死で 逃げ回ってたんですよ。{2:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_zutsuda_15#7",
+   "label": "MES_LZutsuda_15_LZ15_kuriki_04",
+   "style": 6,
+   "src": "{1:align}あっちこっちと\n逃げ回っているうちに\nみんなと はぐれちまって…{2:wait}[Next]{3:align}{4:align}今は オレ１人だけなんです…{5:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]",
+    "3": "[0001:0004:]",
+    "4": "[0001:0001:]",
+    "5": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_zutsuda_15#8",
+   "label": "MES_LZutsuda_15_LZ15_kuriki_05",
+   "style": 6,
+   "src": "{1:align}クッパ様は こんなところで\nなにを してるんですか？{2:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_zutsuda_15#9",
+   "label": "MES_LZutsuda_15_LZ15_kuriki_06",
+   "style": 6,
+   "src": "{1:align}クッパ様！{2:pause} もしや\nその スターワクチンってのは…{3:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0000:0A 00]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_zutsuda_15#10",
+   "label": "MES_LZutsuda_15_LZ15_kuriki_07",
+   "style": 6,
+   "src": "{1:align}こんな\n形じゃないですか？{2:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_zutsuda_15#11",
+   "label": "MES_LZutsuda_15_LZ15_kuriki_08",
+   "style": 6,
+   "src": "{1:align}{2:align}クッパ様！{3:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_zutsuda_15#12",
+   "label": "MES_LZutsuda_15_LZ15_kuriki_09",
+   "style": 6,
+   "src": "{1:align}スターワクチンは {2:color}クッパ城{3:color}{4:color}に１つ\nありますよ！！{5:wait}{6:color}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[Color #2C64FF]",
+    "3": "[Color #373737]",
+    "4": "[Color #373737]",
+    "5": "[0002:0001:]",
+    "6": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_zutsuda_15#13",
+   "label": "MES_LZutsuda_15_LZ15_bird_01",
+   "style": 6,
+   "src": "{1:align}おしらせ！ おしらせ～！{2:pause}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0000:1E 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_zutsuda_15#14",
+   "label": "MES_LZutsuda_15_LZ15_bird_02",
+   "style": 6,
+   "src": "{1:align}マリオさん ルイージさんと\nらんぼうものさん あてに～{2:wait}[Next]{3:align}キノコタウンの\nDr.コキノさまから～{4:wait}[Next]{5:align}{6:align}メッセージでございます～！！{7:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]",
+    "3": "[0001:0004:]",
+    "4": "[0002:0001:]",
+    "5": "[0001:0004:]",
+    "6": "[0001:0001:]",
+    "7": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_zutsuda_15#15",
+   "label": "MES_LZutsuda_15_LZ15_bird_03",
+   "style": 6,
+   "src": "{1:align}あ～{2:pause} ああ～{3:pause} あ～{4:pause}\n…{5:pause} あ！{6:pause} これつながってる！？{7:wait}[Next]{8:align}{9:align}…{10:pause} コホン。{11:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0000:0A 00]",
+    "3": "[0002:0000:0A 00]",
+    "4": "[0002:0000:14 00]",
+    "5": "[0002:0000:1E 00]",
+    "6": "[0002:0000:0A 00]",
+    "7": "[0002:0001:]",
+    "8": "[0001:0004:]",
+    "9": "[0001:0001:]",
+    "10": "[0002:0000:0A 00]",
+    "11": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_zutsuda_15#16",
+   "label": "MES_LZutsuda_15_LZ15_bird_04",
+   "style": 6,
+   "src": "{1:align}実は 今さっき\n２人目の 賢者が\nだれか わかったでしょう。{2:wait}[Next]{3:align}２人目の 賢者は\n浜辺にいる\n海ガメの {4:color}リューグー{5:color}{6:color}でしょう。{7:wait}{8:color}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]",
+    "3": "[0001:0004:]",
+    "4": "[Color #2C64FF]",
+    "5": "[Color #373737]",
+    "6": "[Color #373737]",
+    "7": "[0002:0001:]",
+    "8": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_zutsuda_15#17",
+   "label": "MES_LZutsuda_15_LZ15_bird_05",
+   "style": 6,
+   "src": "{1:align}ちなみに １つ目のスターワクチンは\nマリオさんと ルイージさんが\n手に入れたでしょう。{2:wait}[Next]{3:align}{4:align}おめでとうでしょう！！{5:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]",
+    "3": "[0001:0004:]",
+    "4": "[0001:0001:]",
+    "5": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_zutsuda_15#18",
+   "label": "MES_LZutsuda_15_LZ15_koopa_01",
+   "style": 9,
+   "src": "{1:align}{2:align}おい！！{3:pause}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0000:1E 00]"
+   },
+   "header": "[0009:0000:09 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_zutsuda_15#19",
+   "label": "MES_LZutsuda_15_LZ15_koopa_02",
+   "style": 6,
+   "src": "{1:align}オマエ\nクリッキーじゃないか！？{2:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_zutsuda_15#20",
+   "label": "MES_LZutsuda_15_LZ15_koopa_03",
+   "style": 6,
+   "src": "{1:align}{2:align}あたりまえだ！！{3:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_zutsuda_15#21",
+   "label": "MES_LZutsuda_15_LZ15_koopa_04",
+   "style": 6,
+   "src": "{1:align}{2:align}それより 他のやつら…{3:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_zutsuda_15#22",
+   "label": "MES_LZutsuda_15_LZ15_koopa_05",
+   "style": 6,
+   "src": "{1:align}パタボンと ヘイファーは\nどうしたんだ？{2:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_zutsuda_15#23",
+   "label": "MES_LZutsuda_15_LZ15_koopa_06",
+   "style": 6,
+   "src": "{1:align}{2:align}いっしょ じゃないのか？{3:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_zutsuda_15#24",
+   "label": "MES_LZutsuda_15_LZ15_koopa_07",
+   "style": 6,
+   "src": "{1:align}{2:align}そ{3:pause} そうか…{4:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0000:05 00]",
+    "4": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_zutsuda_15#25",
+   "label": "MES_LZutsuda_15_LZ15_koopa_08",
+   "style": 6,
+   "src": "{1:align}{2:align}うむ… 実はな…{3:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_zutsuda_15#26",
+   "label": "MES_LZutsuda_15_LZ15_koopa_09",
+   "style": 6,
+   "src": "{1:align}…というわけで スターワクチンを\n集めに行くとちゅうなのだ。{2:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_zutsuda_15#27",
+   "label": "MES_LZutsuda_15_LZ15_koopa_20",
+   "style": 6,
+   "src": "{1:align}よし！\nワガハイはクッパ城へ急ぐぞ！{2:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_zutsuda_15#28",
+   "label": "MES_LZutsuda_15_LZ15_koopa_21",
+   "style": 6,
+   "src": "{1:align}{2:align}オマエは どうする？{3:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_zutsuda_15#29",
+   "label": "MES_LZutsuda_15_LZ15_koopa_22",
+   "style": 6,
+   "src": "{1:align}{2:align}そうか！ 好きにしろ！{3:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_zutsuda_15#30",
+   "label": "MES_LZutsuda_15_LZ15_kuriki_10",
+   "style": 6,
+   "src": "{1:align}浜辺にいる 海ガメの {2:color}リューグー{3:color}{4:color}から\nパズルを完成させた 景品として\nもらってきたと 聞きましたよ。{5:wait}[Next]{6:align}まあ ほんとに もらったのか\nはたまた うばってきたのかは\nさておき…{7:wait}[Next]{8:align}その スターワクチンを\n{9:color}{10:color}クッパ城{11:color}{12:color}の {13:color}{14:color}地下の金庫室{15:color}{16:color}に\nしまっておいたはずです。{17:wait}{18:color}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[Color #2C64FF]",
+    "3": "[Color #373737]",
+    "4": "[Color #373737]",
+    "5": "[0002:0001:]",
+    "6": "[0001:0004:]",
+    "7": "[0002:0001:]",
+    "8": "[0001:0004:]",
+    "9": "[Color #373737]",
+    "10": "[Color #2C64FF]",
+    "11": "[Color #373737]",
+    "12": "[Color #373737]",
+    "13": "[Color #373737]",
+    "14": "[Color #2C64FF]",
+    "15": "[Color #373737]",
+    "16": "[Color #373737]",
+    "17": "[0002:0001:]",
+    "18": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_zutsuda_15#31",
+   "label": "MES_LZutsuda_15_LZ15_kuriki_11",
+   "style": 6,
+   "src": "{1:align}{2:align}はい！{3:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_zutsuda_15#32",
+   "label": "MES_LZutsuda_15_LZ15_kuriki_12",
+   "style": 6,
+   "src": "{1:align}{2:align}オレは… あの…{3:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_zutsuda_15#33",
+   "label": "MES_LZutsuda_15_LZ15_kuriki_13",
+   "style": 6,
+   "src": "{1:align}パタボンと ヘイファーを\n探してから クッパ様のところへ\n向かいます…{2:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_zutsuda_15#36",
+   "label": "MES_LZutsuda_15_LZ15_kanban",
+   "style": 12,
+   "src": "{1:align}{2:align}{3:mode}↑ キノコタウン\n→ オタプク草原{4:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0005:0000:]",
+    "4": "[0002:0001:]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_zutsuda_15#37",
+   "label": "MES_LZutsuda_15_LZ15_koopa_10",
+   "style": 6,
+   "src": "{1:align}…{2:pause}ワガハイも まだ見たことはないが\nたぶん そんな形だと思うぞ。{3:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0000:0A 00]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_zutsuda_15#38",
+   "label": "MES_LZutsuda_15_LZ15_koopa_11",
+   "style": 6,
+   "src": "{1:align}{2:align}どうして オマエが知ってるんだ？{3:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_zutsuda_15#39",
+   "label": "MES_LZutsuda_15_LZ15_koopa_13",
+   "style": 6,
+   "src": "{1:align}{2:align}…そ そうか？{3:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_zutsuda_15#40",
+   "label": "MES_LZutsuda_15_LZ15_koopa_14",
+   "style": 6,
+   "src": "{1:align}う～む… そういえば…{2:pause}\nそんなことも…{3:pause} あったような…{4:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0000:14 00]",
+    "3": "[0002:0000:14 00]",
+    "4": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_zutsuda_16_after#1",
+   "label": "MES_LZutsuda_16_after_LZ16A_koopa_02",
+   "style": 9,
+   "src": "{1:align}城だろうが タワーだろうが\nこわいものなしだ！！{2:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:09 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_zutsuda_16_after#2",
+   "label": "MES_LZutsuda_16_after_LZ16A_koopa_03",
+   "style": 6,
+   "src": "{1:align}{2:align}あれは…{3:pause} もしや！{4:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0000:0A 00]",
+    "4": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_zutsuda_16_after#3",
+   "label": "MES_LZutsuda_16_after_LZ16A_koopa_04",
+   "style": 6,
+   "src": "{1:align}おい！ そこのやつ！\nちょっと 待て！！{2:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_zutsuda_16_before#0",
+   "label": "MES_LZutsuda_16_before_LZ16B_koopa_01",
+   "style": 6,
+   "src": "{1:align}…なんだ？{2:pause}\nあんなところに プロペラが…{3:wait}[Next]{4:align}空を飛べるマシンでも あるのか？{5:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0000:14 00]",
+    "3": "[0002:0001:]",
+    "4": "[0001:0004:]",
+    "5": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_zutsuda_16_before#1",
+   "label": "MES_LZutsuda_16_before_LZ16B_koopa_02",
+   "style": 6,
+   "src": "{1:align}空を飛べれば 森までかんたんに\n行けそうだがな…{2:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_zutsuda_16_before#2",
+   "label": "MES_work_omit_09",
+   "style": 12,
+   "src": "{1:align}{2:align}{3:mode}=== 仮・未実装 ===\n{4:align}{5:align}{6:mode}イビッキタワーが出現するイベントが未実装です。\n{7:align}{8:align}{9:mode}巨大化バトルの終了時点までスキップします。{10:pause}{11:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0005:0000:]",
+    "4": "[0001:0004:]",
+    "5": "[0001:0001:]",
+    "6": "[0005:0000:]",
+    "7": "[0001:0004:]",
+    "8": "[0001:0001:]",
+    "9": "[0005:0000:]",
+    "10": "[0002:0000:0A 00]",
+    "11": "[0002:0001:]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_zutsuda_16_before#4",
+   "label": "MES_EV_LZutsuda_16_3_EVLZ163_koopa_01",
+   "style": 6,
+   "src": "{1:align}{2:align}ムッ！ 暗いぞ！{3:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_zutsuda_16_before#5",
+   "label": "MES_EV_LZutsuda_16_3_EVLZ163_koopa_02",
+   "style": 6,
+   "src": "{1:align}{2:align}確か 前にもこんなことが…{3:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_zutsuda_16_before#6",
+   "label": "MES_EV_LZutsuda_16_3_EVLZ163_koopa_03",
+   "style": 6,
+   "src": "{1:align}{2:align}あのときは この後に…{3:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  }
+ ]
+}

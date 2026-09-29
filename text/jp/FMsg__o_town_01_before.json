@@ -1,0 +1,33 @@
+{
+ "source": "Msg/JP_ja/FMsg.dat:o_town_01_before",
+ "messages": [
+  {
+   "id": "FMsg/o_town_01_before#0",
+   "label": "MES_TKinoko_01_before_Kinoko_town_chka_koopa_00_1",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Color #2C64FF]キノコタウン[Color #373737][Color #373737]に\nついたのか！？[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/o_town_01_before#1",
+   "label": "MES_TKinoko_01_after_Kinoko_town_chka_koopa_11",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]この[Ruby 部屋;へや]からは\n[Ruby 先;さき]に[Ruby 進;すす]めないわ…[0002:0001:][Next][0001:0004:]べつの[Ruby 道;みち]を [Ruby 行;い]きましょう。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_01_before#2",
+   "label": "MES_TKinoko_01_before_Kinoko_town_chka_koopa_00",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ガハハハハ！[0002:0000:0A 00]\n[Ruby 少;すこ]し [Ruby 調子;ちょうし]に[Ruby 乗;の]りすぎたな！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_01_before#3",
+   "label": "MES_TKinoko_01_before_Kinoko_town_chka_koopa_09",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]この[Ruby 地下;ちか]のガード[Ruby 装置;そうち]なのね…[0002:0001:][Next][Ruby 今;いま]の[Ruby 部屋;へや]は クッパみたいに\n[Ruby 気絶;きぜつ]させられちゃいそうだし…[0002:0001:][Next]べつの[Ruby 道;みち]を[Ruby 探;さが]してみましょう！[0002:0001:]"
+  }
+ ]
+}

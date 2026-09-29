@@ -1,0 +1,26 @@
+{
+ "batch": "FMsg__o_evselect_U",
+ "rooms": [
+  "o_evselect_U"
+ ],
+ "ds_rooms": [],
+ "ds_reference": [],
+ "glossary": [],
+ "messages": [
+  {
+   "id": "FMsg/o_evselect_U#0",
+   "label": "MES_work_omit_01",
+   "style": 6,
+   "src": "{1:align}{2:mode}{3:icon}ケタの移動 {4:icon}数値の変更 {5:icon}決定",
+   "tags": {
+    "1": "[0001:0001:]",
+    "2": "[0005:0000:]",
+    "3": "[U+E07E]",
+    "4": "[U+E07D]",
+    "5": "[U+E000]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  }
+ ]
+}

@@ -1,0 +1,75 @@
+{
+ "source": "Msg/JP_ja/FMsg.dat:o_ekubon_16",
+ "messages": [
+  {
+   "id": "FMsg/o_ekubon_16#0",
+   "label": "MES_Ekubon_16_Ekubon_opening_01",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]えいっ！[0002:0000:14 00]"
+  },
+  {
+   "id": "FMsg/o_ekubon_16#1",
+   "label": "MES_Ekubon_16_Ekubon_opening_02",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]それ～っ！！[0002:0000:28 00]"
+  },
+  {
+   "id": "FMsg/o_ekubon_16#2",
+   "label": "MES_Ekubon_16_Ekubon_opening_03",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]これで もうだいじょうぶです。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_ekubon_16#3",
+   "label": "MES_Ekubon_16_Ekubon_opening_04",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]まったく あたまにくるやつらだ！\nこのままでは [Ruby 終;お]わらせないぞ！[0002:0001:][Next][Ruby 今;いま]すぐ ピーチ[Ruby 城;じょう]にもどって\n[Ruby 次;つぎ]こそ ピーチ[Ruby 姫;ひめ]をさらってやる！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_ekubon_16#4",
+   "label": "MES_Ekubon_16_Ekubon_opening_05",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]しかし… マリオがいては\nまた [Ruby 同;おな]じ[Ruby 目;め]に…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_ekubon_16#5",
+   "label": "MES_Ekubon_16_Ekubon_opening_06",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]その[Ruby 名前;なまえ]を [Ruby 言;い]うな～！！！！[0002:0000:1E 00]"
+  },
+  {
+   "id": "FMsg/o_ekubon_16#6",
+   "label": "MES_Ekubon_16_Ekubon_opening_07",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 思;おも]い[Ruby 出;だ]しただけでも\nハラが[Ruby 立;た]つわ！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_ekubon_16#7",
+   "label": "MES_Ekubon_16_Ekubon_opening_08",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ひ～[0002:0000:0A 00] こわいこわい…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_ekubon_16#8",
+   "label": "MES_Ekubon_16_Ekubon_opening_09",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ふん！[0002:0000:0A 00] さっそく\nピーチ[Ruby 城;じょう]へ[Ruby 行;い]くぞ！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_ekubon_16#9",
+   "label": "MES_Ekubon_16_Ekubon_opening_10",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]それにしても ここはどこだ？[0002:0001:]"
+  }
+ ]
+}

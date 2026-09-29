@@ -1,0 +1,61 @@
+{
+ "source": "Msg/JP_ja/FMsg.dat:o_peach_t_06_lastboss_02_L",
+ "messages": [
+  {
+   "id": "FMsg/o_peach_t_06_lastboss_02_L#0",
+   "label": "MES_EV_MAIN_TPeach_06_Last_battle_30",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]さ[0002:0000:05 00] さすが… ワガハイの\nマネをしただけはあるぞ…[0002:0001:][Next]だが しょせんニセモノ…\nこのクッパ[Ruby 様;さま]の [Ruby 相手;あいて]ではないわ…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_peach_t_06_lastboss_02_L#1",
+   "label": "MES_EV_MAIN_TPeach_06_Last_battle_32",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]そうだ…[0002:0000:0A 00] オマエは…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_peach_t_06_lastboss_02_L#2",
+   "label": "MES_EV_MAIN_TPeach_06_Last_battle_33",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 負;ま]けたのだ…[0002:0000:3C 00]"
+  },
+  {
+   "id": "FMsg/o_peach_t_06_lastboss_02_L#3",
+   "label": "MES_EV_MAIN_TPeach_06_Last_battle_22",
+   "style": 7,
+   "attr": "00000000",
+   "jp": "[0009:0000:07 00]ガハハハハ！！[0002:0000:1E 00]"
+  },
+  {
+   "id": "FMsg/o_peach_t_06_lastboss_02_L#4",
+   "label": "MES_EV_MAIN_TPeach_06_Last_battle_23",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]なかなか おもしろい[Ruby 光景;こうけい]だぞ！[0002:0001:][Next][Ruby 最後;さいご]の[Ruby 戦;たたか]いに ふさわしい[Ruby 舞台;ぶたい]を\n[Ruby 用意;ようい]したって わけか！[0002:0001:][Next][0001:0004:]なかなか [Ruby 気;き]がきくじゃないか！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_peach_t_06_lastboss_02_L#5",
+   "label": "MES_EV_MAIN_TPeach_06_Last_battle_26",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]フン！[0002:0000:0A 00] この[Ruby 国;くに]が\n[Ruby 消;き]えていくだと？[0002:0001:][Next][0001:0004:][0001:0001:]ふざけるな！！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_peach_t_06_lastboss_02_L#6",
+   "label": "MES_EV_MAIN_TPeach_06_Last_battle_27",
+   "style": 10,
+   "attr": "00000000",
+   "jp": "[0009:0000:0A 00][0005:0000:][0001:0001:]この[Ruby 国;くに]は\nワガハイのものだ！！[0002:0000:1E 00][0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_peach_t_06_lastboss_02_L#7",
+   "label": "MES_EV_MAIN_TPeach_06_Last_battle_28",
+   "style": 10,
+   "attr": "00000000",
+   "jp": "[0009:0000:0A 00][0005:0000:][0001:0001:]オマエこそ\n[Ruby 消;き]えるがいい！！！[0002:0000:1E 00][0002:0001:]"
+  }
+ ]
+}

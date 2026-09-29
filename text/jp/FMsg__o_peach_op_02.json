@@ -1,0 +1,40 @@
+{
+ "source": "Msg/JP_ja/FMsg.dat:o_peach_op_02",
+ "messages": [
+  {
+   "id": "FMsg/o_peach_op_02#0",
+   "label": "MES_OPeach_02_Opening_tut_10",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]あ [Color #00BB27]ルイージ[Color #373737][Color #373737]さん！[0002:0000:0A 00]\nおひさしぶりです！[0002:0001:][Next][Ruby 今日;きょう]は おるすばんじゃ\nないんですね！！[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/o_peach_op_02#1",
+   "label": "MES_OPeach_02_Opening_tut_05",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]マリオさん！ [Ruby 今日;きょう]も[Ruby 元気;げんき]に\n[Color #2C64FF]ジャンプ[Color #373737][Color #373737] しまくりですか？[0002:0001:][Next][Color #373737][Color #FF4343]マリオ[Color #373737][Color #373737]さんは [Color #373737][Color #FF4343][U+E000][Color #373737][Color #373737]ボタン！\n[Color #373737][Color #00BB27]ルイージ[Color #373737][Color #373737]さんは [Color #373737][Color #00BB27][U+E001][Color #373737][Color #373737]ボタンですよね！[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/o_peach_op_02#2",
+   "label": "MES_OPeach_02_Opening_tut_07",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 話;はなし]を [Ruby 聞;き]きたいときは\n[Color #FF4343][U+E000][Color #373737][Color #373737]ボタンで [Ruby 話;はな]しかけてくださいね。[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/o_peach_op_02#3",
+   "label": "MES_OPeach_02_Opening_tut_08",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ご[Ruby 存知;ぞんじ]のとおり\nここは [Color #2C64FF]ピーチ[Ruby 城;じょう][Color #373737][Color #373737]ですよ！[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/o_peach_op_02#4",
+   "label": "MES_OPeach_02_Opening_tut_09",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]あ～ マリオさ～ん！[0002:0001:][Next]やった～！[0002:0000:0A 00] マリオさんなら\nこの[Ruby 体 治;からだなお]してくれますよね～！[0002:0001:][Next][Ruby 期待;きたい]して [Ruby 待;ま]ってますよ～！\nがんばってください～！[0002:0001:]"
+  }
+ ]
+}

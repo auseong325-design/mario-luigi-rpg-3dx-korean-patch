@@ -1,0 +1,212 @@
+{
+ "batch": "FMsg__o_ekubon_39_1",
+ "rooms": [
+  "o_ekubon_39_1"
+ ],
+ "ds_rooms": [
+  "190"
+ ],
+ "ds_reference": [
+  "DS190#0: 내 거야꿀꺽!",
+  "DS190#1: 아니야! 내 거야꿀꺽!",
+  "DS190#2: 맨 먼저 발견한 건\n나라고꿀꺽![Next]내가 쪽쪽해서\n꿀꺽할 거야꿀꺽!",
+  "DS190#3: 너는 블록을 꿀꺽하면\n되잖아꿀꺽!",
+  "DS190#4: 뭐야, 너![Next]너도 이 빨간 녀석을\n꿀꺽하고 싶단 거야꿀꺽!?",
+  "DS190#5: 2명이나 꿀꺽하려고 하다니\n욕심이 과하잖아꿀꺽!",
+  "DS190#6: 너한텐\n블록이 있잖아꿀꺽!",
+  "DS190#7: 이제 블록은\n질렸어꿀꺽!!",
+  "DS190#8: 시끄러워꿀꺽![Next]빨간 녀석은\n내 거야꿀꺽!!",
+  "DS190#9: 뭐라고꿀꺽?",
+  "DS190#10: 뭐야!? 당신\n꿀꺽양말이 아니야꿀꺽!?",
+  "DS190#11: 잘됐어꿀꺽![Next]2명 모두 내가\n꿀꺽할 거야꿀꺽!",
+  "DS190#12: 여… 여긴\n어디지꿀꺽?",
+  "DS190#13: 기절한 꿀꺽양말 안에\n들어가서 우릴 속이다니…[Next]비겁하다꿀꺽!!"
+ ],
+ "glossary": [
+  {
+   "jp": "ショクチュ",
+   "ko": "꿀꺽양말",
+   "type": "character",
+   "basis": "DS",
+   "source": "o_ekubon_37#2 ↔ DS18E#2",
+   "note": "room-align"
+  },
+  {
+   "jp": "気絶",
+   "ko": "기절",
+   "type": "term",
+   "basis": "DS",
+   "source": "BData__mfset_RankUpE#14",
+   "note": "[gl_attacks]"
+  }
+ ],
+ "messages": [
+  {
+   "id": "FMsg/o_ekubon_39_1#0",
+   "label": "MES_Ekubon_39_Ekubon_schu_10",
+   "style": 6,
+   "src": "オマエは ブロックをチューチュー\nしていればいいっチュ！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_ekubon_39_1#1",
+   "label": "MES_Ekubon_39_Ekubon_schu_11",
+   "style": 6,
+   "src": "{1:align}なんだ オマエ！{2:wait}[Next]オマエも この赤いやつ\nチューチューするって言うっチュ！？{3:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_ekubon_39_1#2",
+   "label": "MES_Ekubon_39_Ekubon_schu_12",
+   "style": 6,
+   "src": "２人も チューチューしようなんて\nぜいたくっチュ！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_ekubon_39_1#3",
+   "label": "MES_Ekubon_39_Ekubon_schu_13",
+   "style": 6,
+   "src": "オマエには\nブロックがあるだろっチューに！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_ekubon_39_1#4",
+   "label": "MES_Ekubon_39_Ekubon_schu_14",
+   "style": 6,
+   "src": "もうブロックは\nあきたっチュ！！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_ekubon_39_1#5",
+   "label": "MES_Ekubon_39_Ekubon_schu_15",
+   "style": 6,
+   "src": "{1:align}うるさいっチュ！{2:wait}[Next]この赤いのは\nオレのっチュ！！{3:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_ekubon_39_1#6",
+   "label": "MES_Ekubon_39_Ekubon_schu_16",
+   "style": 6,
+   "src": "なんだっチューの！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_ekubon_39_1#7",
+   "label": "MES_Ekubon_39_Ekubon_schu_17",
+   "style": 6,
+   "src": "なんだ！？{1:pause} オマエ\nショクチュじゃないっチュか！？{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_ekubon_39_1#8",
+   "label": "MES_Ekubon_39_Ekubon_schu_18",
+   "style": 6,
+   "src": "{1:align}なーに 都合がいいっチュ！{2:wait}[Next]２人まとめて オレが\nチューチューするっチュ！{3:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_ekubon_39_1#9",
+   "label": "MES_Ekubon_39_Ekubon_schu_19",
+   "style": 6,
+   "src": "こ…{1:pause} ここは\nどこだっチュ？{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_ekubon_39_1#10",
+   "label": "MES_Ekubon_39_Ekubon_schu_07",
+   "style": 6,
+   "src": "オレのだっチューの！{1:pause}",
+   "tags": {
+    "1": "[0002:0000:1E 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_ekubon_39_1#11",
+   "label": "MES_Ekubon_39_Ekubon_schu_08",
+   "style": 6,
+   "src": "いや！{1:pause} オレのだっチューの！{2:pause}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0000:1E 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_ekubon_39_1#12",
+   "label": "MES_Ekubon_39_Ekubon_schu_09",
+   "style": 6,
+   "src": "最初に見つけたの\nオレだっチューに！{1:wait}[Next]オレがチューチューするに\n決まってるっチュ！{2:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_ekubon_39_1#13",
+   "label": "MES_Ekubon_39_Ekubon_schu_20",
+   "style": 6,
+   "src": "気絶している ショクチュに\n入り込んで ダマすなんて…{1:wait}[Next]{2:align}{3:align}ヒキョーだっチュ！！{4:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0001:0004:]",
+    "3": "[0001:0001:]",
+    "4": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  }
+ ]
+}

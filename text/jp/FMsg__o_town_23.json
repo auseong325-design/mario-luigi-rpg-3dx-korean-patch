@@ -1,0 +1,313 @@
+{
+ "source": "Msg/JP_ja/FMsg.dat:o_town_23",
+ "messages": [
+  {
+   "id": "FMsg/o_town_23#0",
+   "label": "MES_TKinoko_23_Kinoko_town_koura_tut_20",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]よし！[0002:0000:0A 00] ルールはかんたんだ！[0002:0001:][Next]すばやく[Ruby 動;うご]く このオレを\nふっ[Ruby 飛;と]ばしてみろ！[0002:0000:0A 00] それだけだ！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_23#1",
+   "label": "MES_TKinoko_23_Kinoko_town_koura_tut_21",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ゴー！[0002:0000:08 00]"
+  },
+  {
+   "id": "FMsg/o_town_23#2",
+   "label": "MES_TKinoko_23_Kinoko_town_koura_tut_22",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ゴゴー！[0002:0000:14 00]"
+  },
+  {
+   "id": "FMsg/o_town_23#3",
+   "label": "MES_TKinoko_23_Kinoko_town_koura_tut_23",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]オレの スピードに\nついてこれるかな？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_23#4",
+   "label": "MES_TKinoko_23_Kinoko_town_koura_tut_25",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0005:0000:]すんげぇ！[0002:0000:08 00] はえぇ！[0002:0000:3C 00]"
+  },
+  {
+   "id": "FMsg/o_town_23#5",
+   "label": "MES_TKinoko_23_Kinoko_town_koura_tut_26",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0001:]あ。[0002:0000:5A 00]"
+  },
+  {
+   "id": "FMsg/o_town_23#6",
+   "label": "MES_TKinoko_23_Kinoko_town_koura_tut_27",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]なかなかやるじゃねぇか…\n[Ruby 次;つぎ]は… こうだ！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_23#7",
+   "label": "MES_TKinoko_23_Kinoko_town_koura_tut_28",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0005:0000:]すんげぇ！[0002:0000:08 00]\n[Ruby 分身;ぶんしん]してるみてぇだ！[0002:0000:50 00]"
+  },
+  {
+   "id": "FMsg/o_town_23#8",
+   "label": "MES_TKinoko_23_Kinoko_town_koura_tut_29",
+   "style": 9,
+   "attr": "00000000",
+   "jp": "[0009:0000:09 00][0001:0001:]おめーさん ホンモノだ！[0002:0001:][Next][0001:0000:][Color #2C64FF]コウラ[Color #373737][Color #373737]の[Ruby 重;おも]さを ものともしねぇ！[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/o_town_23#9",
+   "label": "MES_TKinoko_23_Kinoko_town_koura_tut_34_1",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]おめーさん\nナニモンだ？[0002:0001:][Next]まあ いいか…\nとにかく すげぇな…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_23#10",
+   "label": "MES_TKinoko_23_Kinoko_town_koura_tut_34_2",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Color #2C64FF]コウラ[Color #373737][Color #373737]を かぶりたかったら\nおめーさんが ばらまいた\n[Color #373737][Color #2C64FF]コウラブロック[Color #373737][Color #373737] [Ruby 叩;たた]きゃあいいさ…[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/o_town_23#11",
+   "label": "MES_TKinoko_23_Kinoko_town_koura_tut_10",
+   "style": 9,
+   "attr": "00000000",
+   "jp": "[0009:0000:09 00]うるせぇ！ うるせぇ！[0002:0000:3C 00]"
+  },
+  {
+   "id": "FMsg/o_town_23#12",
+   "label": "MES_TKinoko_23_Kinoko_town_koura_tut_11",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 返;かえ]せなんて ちいせぇこたぁ\n[Ruby 言;い]わねぇよ…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_23#13",
+   "label": "MES_TKinoko_23_Kinoko_town_koura_tut_12",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]よく[Ruby 見;み]りゃ なかなかの\nツラがまえ してるじゃねぇの。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_23#14",
+   "label": "MES_TKinoko_23_Kinoko_town_koura_tut_13",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]おめーさん…[0002:0000:14 00]\n[Color #2C64FF]コウラ[Color #373737][Color #373737]をかぶったこたぁ…[0002:0000:14 00] あるか？[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/o_town_23#15",
+   "label": "MES_TKinoko_23_Kinoko_town_koura_tut_14",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Color #2C64FF]コウラ[Color #373737][Color #373737]ってのはなぁ…[0002:0000:0A 00]\nなっかなか [Ruby 重;おも]くてよぉ…[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/o_town_23#16",
+   "label": "MES_TKinoko_23_Kinoko_town_koura_tut_15",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]そう… つまってんだ…[0002:0000:0A 00]\nいっぱい…[0002:0000:0A 00] つまってんだ…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_23#17",
+   "label": "MES_TKinoko_23_Kinoko_town_koura_tut_16",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]わかるか！？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_23#18",
+   "label": "MES_TKinoko_23_Kinoko_town_koura_tut_17",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]おめーさんの その\nツラがまえに めんじてよぉ…[0002:0001:][Next][0001:0004:]ゆるして やらねぇこともねぇ。[0002:0001:][Next]そーだな…[0002:0000:0A 00]\nひとつゲームをしよう…[0002:0001:][Next][Color #2C64FF]コウラ[Color #373737][Color #373737]の[Ruby 重;おも]みが [Ruby 痛;いた]いほどわかる\nハッピーな ゲームだ。[0002:0001:][Next]おめーさんが [Ruby 勝利;しょうり]をかざれば\n[Ruby 今起;いまお]きたことは…[0002:0000:0A 00] [Ruby 全部;ぜんぶ]ナシだ。[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/o_town_23#19",
+   "label": "MES_TKinoko_23_Kinoko_town_koura_tut_18",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]おめーさんが ばらまいた\n[Color #2C64FF]コウラブロック[Color #373737][Color #373737]の １つだ！[0002:0001:][Next][0001:0004:]まずは そいつを[Ruby 叩;たた]きな！[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/o_town_23#20",
+   "label": "MES_TKinoko_23_Kinoko_town_koura_tut_19",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]へー[0002:0000:0A 00] なかなか\nにあうじゃねぇか。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_23#21",
+   "label": "MES_TKinoko_23_Kinoko_town_koura_tut_20_1",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]その[Ruby 重;おも]たい[Color #2C64FF]コウラ[Color #373737][Color #373737]を [Ruby 背負;せお]いながら\nはたして [Ruby 動;うご]けるかな…？[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/o_town_23#22",
+   "label": "MES_TKinoko_23_Kinoko_town_koura_tut_20_2",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]クックック…[0002:0000:1E 00]"
+  },
+  {
+   "id": "FMsg/o_town_23#23",
+   "label": "MES_TKinoko_23_Kinoko_town_koura_tut_20_3",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]な…[0002:0000:0A 00] なかなか\nいい[Ruby 動;うご]きするじゃねぇか…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_23#24",
+   "label": "MES_TKinoko_23_Kinoko_town_koura_tut_20_4",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]まあいい！[0002:0000:0A 00] その[Ruby 動;うご]きで\nオレを とらえられるなら\nやってみな！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_23#25",
+   "label": "MES_TKinoko_23_Kinoko_town_koura_tut_30",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]こいつを[Ruby 持;も]っていきな！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_23#26",
+   "label": "MES_TKinoko_23_Kinoko_town_koura_tut_31",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0005:0000:][0001:0001:]キノコタウンの アタックパーツを\nいっぺんに１０[Ruby 個;こ] もらった！[0002:0000:1E 00][0002:0001:][Next][0005:0000:][0001:0001:]キノコタウンのアタックパーツが\n[Ruby 全部;ぜんぶ] そろった！！[0002:0000:0F 00][0002:0001:][Next][0005:0000:][0001:0001:][Ruby 新;あたら]しい [Color #4ED4FF]ブラザーアタック[Color #E6E6E6][Color #373737]が\n[Ruby 完成;かんせい]するぞ！！[0002:0000:0F 00][0002:0001:][Color #E6E6E6]"
+  },
+  {
+   "id": "FMsg/o_town_23#27",
+   "label": "MES_TKinoko_23_Kinoko_town_koura_tut_32",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]きっと なにかの[Ruby 役;やく]に\n[Ruby 立;た]ってくれるだろうよ…[0002:0001:][Next]この[Ruby 先;さき] その[Ruby 重;おも]たい\n[Color #2C64FF]コウラ[Color #373737][Color #373737]を[Ruby 背負;せお]って [Ruby 生;い]きてくのは…[0002:0001:][Next]シロートには ちょっぴり\nつれぇってもんだ…[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/o_town_23#28",
+   "label": "MES_TKinoko_23_Kinoko_town_koura_tut_33",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]え？[0002:0000:0A 00] どうやって\n[Color #2C64FF]コウラ[Color #373737][Color #373737]を ぬぐのかだって？[0002:0001:][Next]もう ぬぎたいのか…[0002:0000:0A 00]\nそうか…[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/o_town_23#29",
+   "label": "MES_TKinoko_23_Kinoko_town_koura_tut_34",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Color #2C64FF]ジャンプ[Color #373737][Color #373737]でも すれば\n[Color #373737][Color #2C64FF]コウラ[Color #373737][Color #373737]も ぬげちまうだろうが…[0002:0001:][Next]おめーさん…[0002:0000:0A 00] [Color #373737][Color #2C64FF]コウラ[Color #373737][Color #373737]を[Ruby 背負;せお]って\n[Color #373737][Color #2C64FF]ジャンプ[Color #373737][Color #373737]なんて できるか？[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/o_town_23#30",
+   "label": "MES_TKinoko_23_Kinoko_town_koura_tut_35",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]んじゃあ たっしゃでな！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_23#31",
+   "label": "MES_TKinoko_23_Kinoko_town_koura_tut_36",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ばい。[0002:0000:10 00]"
+  },
+  {
+   "id": "FMsg/o_town_23#32",
+   "label": "MES_TKinoko_23_Kinoko_town_koura_tut_37",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ばいばーい。[0002:0000:14 00]"
+  },
+  {
+   "id": "FMsg/o_town_23#33",
+   "label": "MES_sys_guide_add",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0005:0000:][0001:0001:][Color #4ED4FF]フィールドガイド[Color #E6E6E6]に\n[Ruby 項目;こうもく]が[Ruby 追加;ついか]されました。[0002:0000:1E 00][0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_23#34",
+   "label": "MES_TKinoko_23_Kinoko_town_koura_tut_29_1",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ひさびさに ホネのあるやつに\n[Ruby 出会;であ]えて キブンサイコーだぜ！！[0002:0001:][Next]おめーさんなら [Color #2C64FF]コウラ[Color #373737][Color #373737]を\nうまく [Ruby 使;つか]いこなせるだろうよ！！[0002:0001:][Next][Color #373737][Color #2C64FF]コウラブロック[Color #373737][Color #373737]！！[0002:0000:0A 00]\nじゃんじゃん [Ruby 叩;たた]いてくれよ！[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/o_town_23#35",
+   "label": "MES_TKinoko_23_Kinoko_town_koura_tut_29_2",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]おっと それから！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_23#36",
+   "label": "MES_TKinoko_23_Kinoko_town_koura_tut_01",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ヘイ！[0002:0000:08 00]"
+  },
+  {
+   "id": "FMsg/o_town_23#37",
+   "label": "MES_TKinoko_23_Kinoko_town_koura_tut_02",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ヘヘヘーイ！[0002:0000:14 00]"
+  },
+  {
+   "id": "FMsg/o_town_23#38",
+   "label": "MES_TKinoko_23_Kinoko_town_koura_tut_03",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]おめーさん[Ruby 達;たち]\n[Ruby 今;いま]ここにあった でっけぇブロック\n[Ruby 叩;たた]いちまったな？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_23#39",
+   "label": "MES_TKinoko_23_Kinoko_town_koura_tut_05",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0005:0000:][Ruby 叩;たた]いた！[0002:0000:0C 00]"
+  },
+  {
+   "id": "FMsg/o_town_23#40",
+   "label": "MES_TKinoko_23_Kinoko_town_koura_tut_06",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0005:0000:][Ruby 叩;たた]いたー！[0002:0000:18 00]"
+  },
+  {
+   "id": "FMsg/o_town_23#41",
+   "label": "MES_TKinoko_23_Kinoko_town_koura_tut_07",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:][0001:0001:][Ruby 今;いま] [Ruby 見;み]たとおり！[0002:0001:][Next][0001:0000:]あのでっけぇ ブロックには\nそりゃ すんげー[Ruby 数;かず]の\nコウラが つまってたわけよ！[0002:0001:][Next]そいつを おめーさん…[0002:0000:0A 00]\nあろうことか…[0002:0000:0A 00]\nバラしちまったなぁ！？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_23#42",
+   "label": "MES_TKinoko_23_Kinoko_town_koura_tut_08",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 今;いま]ごろ このキノコ[Ruby 王国中;おうこくじゅう]に\nたくさんの [Color #2C64FF]コウラブロック[Color #373737][Color #373737]が\nちらばってらぁなぁ…[0002:0001:][Next]あのコウラ[Ruby 達;たち]が だれのモノか\nおめーさん[Ruby 達;たち]…[0002:0000:0A 00]\nわかってねぇよなぁ…[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/o_town_23#43",
+   "label": "MES_TKinoko_23_Kinoko_town_koura_tut_09",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]かー[0002:0000:03 00]えー[0002:0000:03 00]せ。[0002:0000:12 00]"
+  }
+ ]
+}

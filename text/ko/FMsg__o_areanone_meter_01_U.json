@@ -1,0 +1,17 @@
+{
+  "batch": "FMsg__o_areanone_meter_01_U",
+  "translations": {
+    "FMsg/o_areanone_meter_01_U#0": "자, 가볍게 숨을 들이마시세요~{1:wait}",
+    "FMsg/o_areanone_meter_01_U#1": "준비되셨나요~?{1:wait}",
+    "FMsg/o_areanone_meter_01_U#2": "힘껏 내쉬세요~!",
+    "FMsg/o_areanone_meter_01_U#3": "자, 숨을 내쉬세요~",
+    "FMsg/o_areanone_meter_01_U#4": "다시 한번 갑니다~{1:wait}",
+    "FMsg/o_areanone_meter_01_U#5": "흐으음… 전혀 안 되겠군요.",
+    "FMsg/o_areanone_meter_01_U#6": "네. 오케이~"
+  },
+  "new_terms": [],
+  "notes": {
+    "FMsg/o_areanone_meter_01_U#0": "폐활량 측정 마이크 안내(o_town_36 병원의 오키노 선생, dups로 o_town_36에도 복사). DS12A에 대응 문장이 없어 새로 씀. 같은 방 DS 번역(o_town_36#8~11: '그럼 마리오님! 이것을 물고~')에 맞춰 부드러운 존댓말.",
+    "FMsg/o_areanone_meter_01_U#6": "はい。OK～ → '네. 오케이~'(DS 블록 상점 '오케이입니다!'처럼 한글 음차)."
+  }
+}

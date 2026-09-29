@@ -1,0 +1,51 @@
+{
+ "batch": "FMsg__minimap_o_mushiba_01",
+ "rooms": [
+  "minimap_o_mushiba_01"
+ ],
+ "ds_rooms": [
+  "044"
+ ],
+ "ds_reference": [
+  "DS044#0: 아마 이 근처 어디랑…",
+  "DS044#1: 여기 어디랑…",
+  "DS044#2: 아마 여기…\n였었지…?"
+ ],
+ "glossary": [],
+ "messages": [
+  {
+   "id": "FMsg/minimap_o_mushiba_01#0",
+   "label": "MES_Guide_Mushiba_01_Ryugu_guide_mes_01",
+   "style": 6,
+   "src": "たしか このへんと…{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/minimap_o_mushiba_01#1",
+   "label": "MES_Guide_Mushiba_01_Ryugu_guide_mes_02",
+   "style": 6,
+   "src": "このへんと…{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/minimap_o_mushiba_01#2",
+   "label": "MES_Guide_Mushiba_01_Ryugu_guide_mes_03",
+   "style": 6,
+   "src": "たぶん ここ…{1:pause}\nじゃったかのう…{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  }
+ ]
+}

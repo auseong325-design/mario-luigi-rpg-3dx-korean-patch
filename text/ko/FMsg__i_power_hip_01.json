@@ -1,0 +1,21 @@
+{
+ "batch": "FMsg__i_power_hip_01",
+ "translations": {
+  "FMsg/i_power_hip_01#0": "나는 아마 {1:color}저장{2:color}{3:color}도 해 주는\n헬로글로빈…{4:wait}[Next]{5:align}{6:align}{7:font}맞습니다!{8:wait}[Next]{9:align}{10:align}{11:font}{12:font}게다가…{13:wait}[Next]아마 가끔씩만 나타나는\n{14:font}{15:color}{16:font}{17:color}저장{18:color}{19:color}도 해 주는 헬로글로빈…{20:wait}[Next]{21:align}{22:align}{23:color}{24:font}{25:color}{26:font}맞습니다!{27:wait}[Next]{28:font}{29:font}아마 일단은 {30:font}{31:color}{32:font}{33:color}저장{34:color}{35:color}할까요?{36:pause}\n{37:align}{38:choice}안 하기{39:tab}{40:choice}저장하기{41:color}{42:font}{43:pause}",
+  "FMsg/i_power_hip_01#1": "……………{1:wait}",
+  "FMsg/i_power_hip_01#2": "우리의 주인, 쿠파의 생명을\n구해 주길 바란다…{1:wait}",
+  "FMsg/i_power_hip_01#3": "우리의 주인, 쿠파의 부활을\n빌어 주길 바란다…{1:wait}",
+  "FMsg/i_power_hip_01#4": "{1:align}{2:align}우리는 헬로글로인…{3:wait}[Next]{4:align}헬로글로빈의 정신 레벨이\n고도로 진화된 형태…{5:wait}",
+  "FMsg/i_power_hip_01#5": "{1:align}{2:align}우리는 헬로글로인…{3:wait}[Next]{4:align}정신의 파동으로 손발이 자라난\n일시적인 형태…{5:wait}",
+  "FMsg/i_power_hip_01#6": "쿠파의 생명 에너지가\n위험에 처했음을 알리기 위해…{1:wait}[Next]이 신성한 장소에서\n당신들을 기다리고 있었습니다…{2:wait}",
+  "FMsg/i_power_hip_01#7": "우리 오른쪽에 있는 헬로글로빈을\n두드려 {1:color}저장{2:color}{3:color}을 마쳤다면…{4:wait}[Next]쿠파의 생명 에너지를\n부활시키기 위해…{5:wait}[Next]눈앞에 있는 부활의 보트를 타고\n아드레리버를 건너 주십시오…{6:wait}{7:color}",
+  "FMsg/i_power_hip_01#8": "부활의 보트에 타시겠습니까?{1:pause}\n{2:align}{3:choice}저장하고 오기{4:tab}{5:choice}타기{6:pause}",
+  "FMsg/i_power_hip_01#9": "다시 한번 아드레리버를\n건너시겠습니까?{1:pause}\n{2:align}{3:choice}건너지 않기{4:tab}{5:choice}건너기{6:pause}"
+ },
+ "new_terms": [],
+ "notes": {
+  "FMsg/i_power_hip_01#0": "DS077#9 그대로(ちがいますか？→맞습니다!). 3DX 선택지는 的な 없는 しない/しておく라 '아마' 없이 '안 하기/저장하기'로 옮김(원문 순서 유지, DS는 아마 예/아마 아니요).",
+  "FMsg/i_power_hip_01#8": "선택지 순서는 3DX 원문(저장하고 오기/타기) 기준. DS077#7은 순서가 반대.",
+  "FMsg/i_power_hip_01#9": "선택지 순서는 3DX 원문(건너지 않기/건너기) 기준. DS077#8은 순서가 반대."
+ }
+}

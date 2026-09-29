@@ -1,0 +1,15 @@
+# Python deps for the Korean patch toolchain (pinned). Install: .venv\Scripts\python -m pip install -r requirements.txt
+mnllib==0.2.3        # Mario & Luigi BIS (DS) containers, text tables, compression
+mnlscript==0.2.5     # BIS (DS) event script decompiler
+mnltools==1.0.1      # NDS ROM unpack/pack for M&L games
+pymsbmnl==1.1.0      # MSBT/MSBF text (3DX message files)
+structured-classes==3.1.0
+ndspy==4.2.0         # generic NDS formats + compression
+pillow==12.3.0       # glyph rendering / image conversion
+numpy==2.5.3
+fonttools==4.66.0    # TTF coverage checks
+etcpak==0.9.15       # ETC1/ETC1A4 encoder for 3DS textures (scripts/libtex3ds.py)
+archspec==0.2.6      # dependency of etcpak
+texture2ddecoder==1.0.6  # ETC1 decoder
+scipy==1.18.1        # morphology / distance transforms for image text
+opencv-python-headless==4.14.0.94  # inpainting and image ops for image text

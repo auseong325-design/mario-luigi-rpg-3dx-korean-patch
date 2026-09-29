@@ -1,0 +1,217 @@
+jp	ko	type	basis	source	note
+ブラザーアタック	스페셜 어택	attack	DS	BAI__BMes_cf#4.1	DS 대응문(어택피스로 스페셜 어택을↔アタックパーツでブラザーアタックが)으로 같은 대상 확인. 3DX에서 スペシャルアタック을 개칭한 것. 후속작 공식 표기는 '브라더 어택'(https://www.nintendo.com/kr/switch/a8e6a/battle/index.html) — 개칭 반영 여부 확인 필요
+ボコスカアタック	스페셜 어택	attack	DS	BAI__BMes_cf#0.3	DS는 쿠파 쪽도 '스페셜 어택'(FEvent#063.43 퀴즈 선택지도 같음). 마리오 쪽과 구분하려면 DS 장비명 부대공격팔찌(ボコスカうでわ, WearN#300)의 '부대'를 딴 '부대 어택' 안 — 확인 필요
+アタック	어택	term	DS	BDataMiniGame__mfset_MesDat_MiniGame#5	스페셜 어택을 줄여 부를 때. 단 퀴즈의 パンチアタック/ファイアアタック은 DS대로 '~ 공격'
+BP	SP	term	DS	BAI__BMes_cf#4.13	3DX의 BP(브라더/보코스카 포인트)=DS의 SP. 3DX 화면 이미지(능력치·HUD)의 BP 표기와 맞출지 결정 필요 — 확인 필요. 후속작 공식은 'BP(브라더 포인트)'
+ブラザーポイント	스페셜 포인트	term	DS	BData__mfset_RankUpE#16	마리오·루이지용. BP 항목 결정에 따름 — 확인 필요
+ボコスカポイント	스페셜 포인트	term	DS	BData__mfset_RankUpE#17	쿠파용. BP 항목 결정에 따름 — 확인 필요
+消費BP	소비 SP	term	DS	BData__mfset_WearE#62	BP 항목 결정에 따름
+アタックパーツ	어택피스	key_item	DS	BAI__BMes_cf#4.1	붙여 씀. 개별 이름(ガラクタパーツ→잡동사니 피스 등)은 MData__mfset_MenuMes#9~18
+あたっくぱーつ	어택피스	key_item	DS	BAI__BMes_cf#4.1	노인 말투의 히라가나 표기(o_mushiba_25)
+みどりコウラ	초록등껍질	attack	DS	BData__mfset_AItmN#8	
+ファイアフラワー	파이어플라워	attack	DS	BData__mfset_AItmN#17	
+はね～るメット	점프점프헬멧	attack	DS	BData__mfset_AItmN#13	
+ぶんしんタルたいほう	분신나무통대포	attack	DS	BData__mfset_AItmN#4	
+くるりんボール	빙글빙글볼	attack	DS	BData__mfset_AItmN#14	
+ワンダーメテオ	원더메테오	attack	DS	BData__mfset_AItmN#16	
+スイーツバスケット	스위트바스켓	attack	DS	BData__mfset_AItmN#21	
+あちこちウィンドウ	아무데나창문	attack	DS	BData__mfset_AItmN#19	
+こいこいスター	스타&스타	attack	DS	BData__mfset_AItmN#24	설명(AItmE#24)과 대응 확인
+スピンどかん	스핀토관	attack	DS	BData__mfset_AItmN#3	
+ボコスカクリボー	굼바부대	attack	DS	BData__mfset_AItmN#6	
+ボコスカヘイホー	헤이호부대	attack	DS	BData__mfset_AItmN#7	
+ボコスカノコノコ	엉금엉금부대	attack	DS	BData__mfset_AItmN#10	
+ボコスカボムへい	폭탄병부대	attack	DS	BData__mfset_AItmN#5	
+ボコスカカメック	마귀부대	attack	DS	BData__mfset_AItmN#20	
+ボコスカブロドッグ	블도그부대	attack	DS	BData__mfset_AItmN#23	
+フィニッシュ	피니시	term	coined		스페셜 어택 설명의 마무리 동작. 문맥에 따라 '마무리'도 가능
+ボールプレス	볼 프레스	attack	coined		빙글빙글볼의 마지막 누르기. DS 설명(AItmE#14)엔 이름 없음
+キック	킥	ability	DS	BData__mfset_AItmE#8	
+連打	연타	term	DS	BData__mfset_AItmE#17	
+スライド	슬라이드	term	DS	BData__mfset_AItmE#5	터치펜 조작
+タッチ	터치	ui	DS	BData__mfset_AItmE#6	
+タッチペン	터치펜	ui	DS	BAI__BMes_cf#0.4	붙여 씀
+アッチコッチ	아무데나	other	coined		あちこちウィンドウ 설명의 말장난. DS 이름 '아무데나창문'에 맞춤
+クッパ軍団	쿠파 군단	other	DS	FEvent#23E.19	
+クリボー軍団	굼바 군단	other	DS	FEvent#048.29	
+ノコノコ軍団	엉금엉금 군단	other	DS	FEvent#048.33	
+ボムへい軍団	폭탄병 군단	other	DS	FEvent#048.34	
+ヘイホー軍団	헤이호 군단	other	DS	FEvent#048.35	
+カメック軍団	마귀 군단	other	DS	FEvent#1A3.13	
+パタパタ軍団	펄럭펄럭 군단	other	DS	FEvent#0D1.73	
+軍団	군단	term	DS	BAI__BMes_cf#0.20	
+アクションアイコン	액션 아이콘	ui	DS	FEvent#068.3	
+アクション	액션	term	DS	FEvent#152.21	
+ジャンプ	점프	ability	DS	BData__mfset_Help#9	필드 액션·배틀 커맨드 공통
+ハンマー	해머	ability	DS	BData__mfset_Help#10	필드 액션·배틀 커맨드 공통(입수 아이템명도 해머, MenuMes#41). 힘을 ためる→'파워를 모으다'(BAI__BMes_cf#5.5)
+２人同時ジャンプ	2명 동시 점프	ability	coined		3DX 신규 액션명. DS식 표현 '2명이 함께'(FEvent#068.6)에 맞춤
+ちびマリオ	꼬마 마리오	ability	coined		DS는 이름 없이 '작아진 마리오'(FEvent#00D.18)로만 씀. 공식 '○○ 마리오' 띄어쓰기(코끼리 마리오 등)에 맞춤
+スピンジャンプ	스핀 점프	ability	DS	FEvent#068.3	
+コウラマリオ	등껍질 마리오	ability	coined		DS는 이름 없이 '등껍질을 짊어진 상태'(FEvent#0CF.20)로만 씀. 등껍질블록(DS)에 맞춤
+コウラブロック	등껍질블록	other	DS	FEvent#0CF.7	붙여 씀
+ブラザードリル	브라더 드릴	ability	DS	FEvent#0E5.1	
+バルーンマリオ	풍선 마리오	ability	coined		DS는 '풍선처럼 변했던 것'(FEvent#0F2.46)으로만 씀
+パンチ	펀치	ability	DS	BData__mfset_Help#14	필드 액션·배틀 커맨드 공통
+ほのお	화염	ability	DS	FEvent#01A.25	쿠파의 필드 액션(아이콘명)·불 뿜기. 배틀 커맨드 ファイア는 '파이어'
+スライディングパンチ	슬라이딩 펀치	ability	coined		DS 한국판은 이름 없이 '걸으면서 펀치'(FEvent#03C.11). DS 말장난 '슬라이딩 다이어트'(FEvent#055.0)와 이어짐
+ボディプレス	바디프레스	ability	DS	FEvent#13A.13	붙여 씀. 스위트바스켓의 루이지 동작도 같음(AItmE#21)
+スパイクボール	스파이크 볼	ability	DS	FEvent#152.21	
+くぼみ	구덩이	other	coined		콩이 나오는 땅의 표시. DS는 '수상해 보이는 땅'(FEvent#16A.27)처럼 풀어 씀
+くぼみアイコン	구덩이 아이콘	ui	coined		3DX 신규 미니맵 아이콘
+あやしいポイント	수상한 지점	other	DS	FEvent#0E5.7	
+コマンドブロック	커맨드 블록	ui	DS	BAI__BMes_cf#2.12	
+コマンド	커맨드	ui	official	https://www.nintendo.com/kr/switch/a8e6a/battle/index.html	DS는 '커맨드 블록'으로만 씀
+アイテム	아이템	ui	DS	BData__mfset_Help#13	
+にげる	도망가기	ui	DS	BData__mfset_Help#12	커맨드명. 문장에서는 '도망가다'
+ファイア	파이어	attack	DS	BData__mfset_Help#15	쿠파의 배틀 커맨드. 파이어플라워 설명의 불덩이는 DS '파이어볼'(AItmE#17)
+バキューム	배큐엄	ability	DS	BData__mfset_Help#16	쿠파의 배틀 커맨드
+バキュームブロック	배큐엄블록	key_item	DS	MData__mfset_MenuMes#43	붙여 씀
+吸い込み	빨아들이기	ability	DS	FEvent#063.43	'빨아들이기 능력'. 吸い込む→빨아들이다
+すいこみ	빨아들이기	ability	DS	FEvent#063.43	히라가나 표기
+バキュームパワー	빨아들이기 파워	term	DS	BAI__BMes_cf#7.7	
+ヒント	힌트	ui	coined		3DX 신규 커맨드 블록
+ヒントメッセージ	힌트 메시지	ui	coined		3DX 신규
+ガイド	가이드	ui	coined		3DX 신규 커맨드 블록(배틀 가이드를 연다)
+ガイドブロック	가이드 블록	ui	coined		3DX 신규
+ぜんたい	전부	ui	DS	BData__mfset_Help#25	공격 대상 선택
+パンチアタック	펀치 공격	attack	DS	FEvent#063.43	퀴즈 선택지
+ファイアアタック	파이어 공격	attack	DS	FEvent#063.43	퀴즈 선택지
+ファイア攻撃	파이어 공격	attack	DS	FEvent#063.43	
+ジャンプ攻撃	점프 공격	attack	DS	BAI__BMes_cf#5.4	
+ひっさつパンチ	필살 펀치	attack	DS	BAI__BMes_ji#4.2	
+防御	방어	term	DS	BAI__BMes_cf#3.8	
+ぼうぎょ	방어	term	DS	BAI__BMes_cf#3.8	히라가나 표기
+ジャンプ防御	점프 방어	ability	coined		DS는 '점프로 피하다'(BAI__BMes_cf#9.21)로 풀어 씀. 펀치 방어(DS)와 같은 꼴
+ハンマー防御	해머 방어	ability	coined		DS는 '해머로 방어'(BAI__BMes_cf#5.13)
+パンチ防御	펀치 방어	ability	DS	BAI__BMes_ji#2.51	거대화 배틀에서도 같은 이름
+コウラ防御	등껍질 방어	ability	coined		DS는 '등껍질로 방어'(BAI__BMes_cf#8.1). 동작 しゃがむ는 '웅크리다'(BAI__BMes_cf#8.4)
+コウラ	등껍질	term	DS	BAI__BMes_cf#8.1	쿠파의 방어 커맨드(Y)·등껍질 일반
+きんきゅうガード	긴급 가드	ability	coined		3DX 신규(버튼을 누르고 있으면 막음)
+ガード	가드	term	official	https://www.nintendo.com/kr/switch/a8e6a/battle/index.html	배틀 방어 동작. 장치 등 일반 명사는 문맥대로(DS 地下の防御装置→방어 장치, FEvent#0F5.2)
+かいひ	회피	term	coined		DS는 동사 '피하다'(BAI__BMes_cf#9.21)로 씀
+カウンター	반격	term	DS	BAI__BMes_cf#2.1	カウンターする→반격하다
+カウンターパンチ	반격 펀치	attack	coined		DS 반격+펀치
+バトル	배틀	term	DS	BAI__BMes_cf#2.13	
+モンスター	몬스터	term	DS	BAI__BMes_cf#2.1	
+攻撃	공격	term	DS	BAI__BMes_cf#2.1	
+ダメージ	타격	term	DS	BAI__BMes_cf#4.12	DS는 주로 '타격을 입히다/입다'. 합성어·브로크 말투에선 '대미지'(WearE#22 노 대미지)
+ノーダメージ	노 대미지	term	DS	BData__mfset_WearE#22	
+ターン	턴	term	DS	BAI__BMes_ji#0.0	
+タイミング	타이밍	term	DS	BAI__BMes_cf#4.12	
+マーカー	마커	ui	coined		어시스트 기능의 표적 표시
+先制攻撃	선제공격	term	DS	FEvent#28D.25	붙여 씀
+エンカウント攻撃	선제공격	term	DS	FEvent#28D.25	3DX 장비 설명의 표현. 先制攻撃과 같은 것으로 봄
+エンカウント	인카운트	term	coined		DS는 '몬스터와 닿으면 배틀이 시작'(FEvent#16A.22)처럼 풀어 씀. 문장에선 풀어 써도 됨
+HP	HP	term	DS	BAI__BMes_cf#2.11	
+体力	체력	term	DS	BData__mfset_RankUpE#14	
+POW	POW	term	DS	BData__mfset_WearE#35	
+攻撃力	공격력	term	DS	BData__mfset_RankUpE#18	
+こうげき力	공격력	term	DS	FEvent#16A.29	히라가나 섞인 표기
+DEF	DEF	term	DS	BData__mfset_WearE#23	
+防御力	방어력	term	DS	BData__mfset_RankUpE#20	
+SPEED	SPEED	term	DS	BData__mfset_MonN#52	DS 설명문은 '스피드'(RankUpE#22)
+すばやさ	스피드	term	DS	BData__mfset_RankUpE#22	
+HIGE	SUYEOM	term	DS	FEvent#16A.17	DS식 로마자(수염). 3DX 화면 이미지 표기와 맞출 것
+TSUNO	PPUL	term	DS	FEvent#16A.17	DS식 로마자(뿔). 3DX 화면 이미지 표기와 맞출 것
+ヒゲ	수염	term	DS	BAI__BMes_cf#6.21	ヒゲ兄弟→수염 형제
+ツノ	뿔	term	DS	FEvent#1A3.21	
+EXP	EXP	term	DS	BData__mfset_BadgeEffectE#11	
+レベル	레벨	term	DS	FEvent#16A.19	
+レベルアップ	레벨 업	term	DS	FEvent#16A.19	띄어 씀
+ボーナスポイント	보너스 포인트	term	DS	FEvent#16A.14	레벨 업 보너스
+スロット	점수 표	ui	DS	FEvent#16A.19	레벨 업 보너스 슬롯(DS '점수 표에서 돌아가는 숫자')
+ステータス	능력치	term	coined		DS는 문맥에 따라 '능력'(FEvent#16A.27)·'항목'(FEvent#16A.19)으로 옮김. 스타 메뉴 항목명과 통일 필요 — 확인 필요
+気絶	기절	term	DS	BData__mfset_RankUpE#14	
+ゲームオーバー	게임 오버	term	coined		DS 한국판 텍스트에 용례 없음
+ラッキーヒット	럭키 히트	term	DS	BData__mfset_RankUpE#24	
+ラッキー！ヒット	럭키 히트	term	DS	FEvent#16A.14	'！' 들어간 표기 변형
+ラッキー！	LUCKY	ui	DS	FEvent#16A.17	공격할 때 뜨는 표시
+クリティカル！ヒット	크리티컬 히트	term	DS	FEvent#16A.14	화면 표시는 'CRITICAL!'(FEvent#16A.18)
+クリティカル	크리티컬	term	DS	FEvent#16A.14	
+威力	위력	term	DS	BData__mfset_WearE#11	
+いりょく	위력	term	DS	BData__mfset_WearE#11	히라가나 표기
+必殺技	필살기	term	coined		DS는 ひっさつ를 '필살'로 옮김(WearE#70)
+Excellent	Excellent	term	DS	BData__mfset_BadgeEffectE#1	영문 그대로. 4단계 평가의 최고
+Great	Great	term	DS	BData__mfset_BadgeEffectE#2	3DX 텍스트엔 없음(평가 이미지)
+Good	Good	term	DS	BData__mfset_BadgeEffectE#1	3DX 텍스트엔 없음(평가 이미지)
+状態変化	상태 변화	term	DS	FEvent#28D.25	
+どく	독	term	coined		DS 한국판에 용례 없음
+やけど	화상	term	DS	BData__mfset_AItmE2#6	
+めまわし	어질어질	term	DS	BData__mfset_AItmE2#3	'어질어질 상태'(WearE#54)
+かぜ	감기	term	DS	FEvent#28D.23	
+ころび	넘어짐	term	coined		DS에서 대응 상태를 못 찾음 — 확인 필요
+いかり	분노	term	DS	FEvent#28D.23	'분노 중에'(WearE#102)
+ひっさつ	필살	term	DS	BData__mfset_WearE#70	'필살 상태'
+POW DOWN	POW 다운	term	DS	BData__mfset_AItmE2#16	
+DEF DOWN	DEF 다운	term	DS	BData__mfset_AItmE2#24	
+POW UP	POW 업	term	coined		POW 다운(DS AItmE2#16)에 맞춘 꼴
+DEF UP	DEF 업	term	coined		DEF 다운(DS AItmE2#24)에 맞춘 꼴
+メーター	게이지	term	DS	BAI__BMes_cf#6.7	배지 게이지를 가리킬 때. 다른 계기(コレメーター 등)는 해당 항목대로
+バッジメーター	배지 게이지	term	coined		DS는 '게이지'(BAI__BMes_cf#6.7)
+バッジパワー	배지 파워	term	coined		배지 게이지를 채우는 것. 3DX 신규 체계
+バッジストック	배지 스톡	term	coined		3DX 신규 체계
+バッジ効果	배지 효과	term	coined		DS는 '배지의 기능'(BAI__BMes_cf#6.9). 3DX バッジのパワー가 이 뜻일 때도 같음
+バッジのつけかえ	배지 교환	ui	DS	BData__mfset_Help#17	배틀 커맨드. 스타 메뉴 설명은 '배지를 갈아 끼우다'(MenuMes#2)
+バトルガイド	배틀 가이드	ui	coined		3DX 신규
+バトルきほん	배틀 기본	ui	coined		배틀 가이드 항목(3DX 신규)
+バトルアタック	배틀 어택	ui	coined		배틀 가이드 항목(3DX 신규)
+おてほん	시범	ui	DS	MAI__MMes_yo#2.12	
+れんしゅう	연습	ui	DS	MAI__MMes_yo#2.12	
+おてほんムービー	시범 영상	ui	coined		DS는 '시범 화면'(FEvent#16A.21)
+アシストきのう	어시스트 기능	ui	coined		3DX 신규 설정
+イージーモード	이지 모드	ui	coined		3DX 신규 설정
+かんたんアタックモード	간단 어택 모드	ui	coined		3DX 신규
+ボーナスカード	보너스 카드	other	coined		DS는 '스크래치 카드'(SAI__SMes_yo#0.64). 3DX에서 이름·방식(칸 고르기)이 바뀜 — DS 표기 유지 여부 확인 필요
+ランク	랭크	term	DS	MData__mfset_MenuMes#116	
+キノコランク	버섯 랭크	term	DS	MData__mfset_MenuMes#115	
+コウラランク	등껍질 랭크	term	DS	MData__mfset_MenuMes#116	
+フラワーランク	플라워 랭크	term	DS	MData__mfset_MenuMes#117	
+ブーメランランク	부메랑 랭크	term	coined		DS 원판은 シャインランク→'샤인 랭크'(MenuMes#118). 3DX에서 이름이 바뀌어 새 이름을 따름 — 확인 필요
+スターランク	스타 랭크	term	DS	MData__mfset_MenuMes#119	
+レインボーランク	레인보우 랭크	term	DS	MData__mfset_MenuMes#120	
+ブロンズランク	브론즈 랭크	term	coined		DS '브론즈 보스 랭크'(MenuMes#121)에서 3DX 개명(ボス 삭제) 반영. DS 표기 유지 여부 확인 필요
+シルバーランク	실버 랭크	term	coined		DS '실버 보스 랭크'(MenuMes#122)에서 3DX 개명 반영. DS 표기 유지 여부 확인 필요
+ゴールドランク	골드 랭크	term	coined		DS '골드 보스 랭크'(MenuMes#123)에서 3DX 개명 반영. DS 표기 유지 여부 확인 필요
+ラスボスランク	파이널 보스 랭크	term	DS	MData__mfset_MenuMes#124	
+マスターランク	마스터 랭크	term	coined		3DX 신규 쿠파 최고 랭크
+ランクアップ	랭크 업	term	coined		DS는 '○○ 랭크가 되었다!'(RankUpE#0)로만 씀. 레벨 업(DS) 띄어쓰기에 맞춤
+ランクアップボーナス	랭크 업 보너스	term	coined		3DX 신규
+マッスルブラザー	머슬 브라더	term	coined		랭크 업 보너스(POW·HP 추가 상승). ブラザー→브라더(DS 브라더 드릴)
+カリスマブラザー	카리스마 브라더	term	coined		랭크 업 보너스(BP·HIGE 추가 상승)
+カチカチボディ	탄탄 바디	term	coined		랭크 업 보너스(받는 타격 경감). 의태어는 DS 탄탄이빨, 바디는 DS 바디프레스에 맞춤
+バッジチャージ＋	배지 차지+	term	coined		랭크 업 보너스(배지 파워 증가)
+パワフルラッキー	파워풀 럭키	term	coined		랭크 업 보너스. DS식 '파워풀 ○○'(WearE#11)
+お気楽ブラザー	느긋한 브라더	term	coined		랭크 업 보너스(소비 BP 감소). お気楽=느긋·태평
+カリスマ大魔王	카리스마 대마왕	term	coined		랭크 업 보너스(쿠파). 대마왕은 DS 표기(FEvent#02D.8)
+にくしょくけい大魔王	육식계 대마왕	term	coined		랭크 업 보너스(쿠파, 치킨 회복량 증가)
+大魔王のちから	대마왕의 힘	term	coined		랭크 업 보너스(쿠파)
+大魔王のいげん	대마왕의 위엄	term	coined		랭크 업 보너스(쿠파)
+大魔王の幸運	대마왕의 행운	term	coined		랭크 업 보너스(쿠파)
+巨大化	거대화	term	coined		DS는 '커지다'(BAI__BMes_ji#2.9 커지셨을 때의 배틀)로 풀어 씀
+巨大化バトル	거대화 배틀	term	coined		DS는 '커지셨을 때의 배틀'(BAI__BMes_ji#2.9)
+巨大化バトル ターボ	거대화 배틀 터보	other	coined		3DX 신규(챌린지 홀)
+ターボモード	터보 모드	ui	coined		3DX 신규(콜로세움의 거대화 배틀)
+バトルの基本	배틀의 기본	ui	coined		거대화 배틀 가이드 항목
+ファイナルアタック	파이널 어택	attack	coined		3DX 신규 마무리 기술. DS식 '스페셜 어택' 표기에 맞춤
+ファイアブレス	파이어 브레스	attack	coined		거대화 배틀의 불 뿜기. DS는 '파이어'(BAI__BMes_ji#2.28, 마이크 조작). 3DX에서 이름·조작이 바뀜
+ファイアボール	파이어볼	attack	DS	BAI__BMes_ji#2.58	
+パンチボタン	펀치 버튼	ui	DS	BAI__BMes_ji#2.29	
+ファイアボタン	파이어 버튼	ui	DS	BAI__BMes_ji#2.30	
+ミニゲーム	미니 게임	other	DS	BDataMiniGame__mfset_MesDat_MiniGame#27	
+チャレンジホール	챌린지 홀	place	DS	FEvent#28A.0	
+バトルコロシアム	배틀 콜로세움	other	DS	FEvent#28A.3	
+コロシアム	콜로세움	other	DS	FEvent#28A.3	
+コレステチューブ	콜레스테로드	other	DS	FEvent#28A.54	스페셜 어택 미니 게임장
+ザ・ブロック９９	블록99	other	DS	FEvent#28A.99	
+チャレンジ	챌린지	term	DS	FEvent#28A.60	
+エンドレス	엔드리스	other	DS	BData__mfset_MiniGame#0	DS 모드명 '엔드리스 모드'
+コレメーター	콜레미터	other	coined		점프점프헬멧 미니 게임의 거리 수치. 콜레스테론+미터
+マッサージ	마사지	other	DS	BData__mfset_MiniGame#7	블로즈 미니 게임. DS 이름은 '블로즈 마사지'(MiniGame#10)
+コリ	뭉친 근육	other	DS	BDataMiniGame__mfset_MesDat_MiniGame#14	블로즈의 결림. 懲りない의 コリ와 구별
+スコア	스코어	ui	DS	BDataMiniGame__mfset_MesDat_MiniGame#24	
+金メダル	금메달	other	coined		3DX 신규(DS는 A랭크/B랭크)
+銀メダル	은메달	other	coined		3DX 신규
+銅メダル	동메달	other	coined		3DX 신규
+ゴールド	골드	other	coined		ゴールドたっせい=골드 달성(금메달 조건)
+クラス	클래스	other	DS	FEvent#28A.97	배틀 콜로세움의 단계
+トロフィー	트로피	other	DS	FEvent#28A.34	

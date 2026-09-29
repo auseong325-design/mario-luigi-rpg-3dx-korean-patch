@@ -1,0 +1,19 @@
+{
+ "source": "Msg/JP_ja/FMsg.dat:o_test_ho_01",
+ "messages": [
+  {
+   "id": "FMsg/o_test_ho_01#0",
+   "label": "MES_work_ho_01",
+   "style": 8,
+   "attr": "00000000",
+   "jp": "[0009:0000:08 00]けんしゅう１"
+  },
+  {
+   "id": "FMsg/o_test_ho_01#1",
+   "label": "MES_work_ho_02",
+   "style": 5,
+   "attr": "00000000",
+   "jp": "[0009:0000:05 00]けんしゅう２"
+  }
+ ]
+}

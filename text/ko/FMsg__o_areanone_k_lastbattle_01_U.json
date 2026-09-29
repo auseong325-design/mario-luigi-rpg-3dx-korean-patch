@@ -1,0 +1,12 @@
+{
+ "batch": "FMsg__o_areanone_k_lastbattle_01_U",
+ "translations": {
+  "FMsg/o_areanone_k_lastbattle_01_U#0": "쿠파 군단이다!{1:wait}",
+  "FMsg/o_areanone_k_lastbattle_01_U#1": "나는 쿠파주니어!{1:wait}[Next]쿠파 군단은…{2:wait}",
+  "FMsg/o_areanone_k_lastbattle_01_U#2": "나와 아빠의 군단이다!{1:wait}"
+ },
+ "new_terms": [],
+ "notes": {
+  "FMsg/o_areanone_k_lastbattle_01_U#2": "퀘스트 제목 BMsg/b_sys#25 'ボクとお父さんの軍団'='나와 아빠의 군단'과 맞춤"
+ }
+}

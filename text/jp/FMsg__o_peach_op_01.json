@@ -1,0 +1,33 @@
+{
+ "source": "Msg/JP_ja/FMsg.dat:o_peach_op_01",
+ "messages": [
+  {
+   "id": "FMsg/o_peach_op_01#0",
+   "label": "MES_OPeach_01_Opening_tut_01",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]あ！ [Color #FF4343]マリオ[Color #373737][Color #373737]さん！[0002:0000:0A 00]\nはやく はやく！！[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/o_peach_op_01#1",
+   "label": "MES_OPeach_01_Opening_tut_02",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 会議;かいぎ]ですよ！\n[Ruby 会議;かいぎ]！！[0002:0000:0A 00] [Ruby 急;いそ]いでください！[0002:0001:][Next]みなさん [Color #2C64FF][Ruby 会議;かいぎ][Ruby 室;しつ][Color #373737][Color #373737]で\nマリオさんを [Ruby 待;ま]っていますよ。[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/o_peach_op_01#2",
+   "label": "MES_OPeach_01_Opening_tut_03",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]…あ。[Color #00BB27]ルイージ[Color #373737][Color #373737]さんが\nくるのも ね。[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/o_peach_op_01#3",
+   "label": "MES_OPeach_01_Opening_tut_04",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:][Color #2C64FF][Ruby 会議;かいぎ][Ruby 室;しつ][Color #373737][Color #373737]は この[Ruby 奥;おく]ですよ。\n[Ruby 急;いそ]いでください！！[0002:0001:][Color #373737]"
+  }
+ ]
+}

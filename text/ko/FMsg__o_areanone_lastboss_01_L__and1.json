@@ -1,0 +1,34 @@
+{
+ "batch": "FMsg__o_areanone_lastboss_01_L__and1",
+ "translations": {
+  "FMsg/o_areanone_lastboss_01_L#0": "{1:align}{2:font}{3:color}마리오{4:color}{5:color}와 {6:color}{7:color}루이지{8:color}{9:color}야!!{10:wait}{11:color}{12:font}",
+  "FMsg/o_areanone_lastboss_01_L#1": "눈앞의 적과\n싸울 때…{1:wait}[Next]우리를\n잊지 말아 줘!!{2:wait}",
+  "FMsg/o_areanone_lastboss_01_L#2": "몸속에 있는 우리도 도울게!{1:wait}[Next]함께 녀석을 물리치는 거야!!{2:wait}",
+  "FMsg/o_areanone_lastboss_01_L#3": "맞아!!{1:pause} 여기에 있는 건\n나 혼자가 아니야!!{2:wait}",
+  "FMsg/o_areanone_lastboss_01_L#4": "여기에…{1:pause}\n너의 몸속에 있는 건…{2:wait}",
+  "FMsg/o_areanone_lastboss_01_L#5": "어쨌든…{1:pause} 우리…{2:pause}들이\n있다는 걸…{3:pause}",
+  "FMsg/o_areanone_lastboss_01_L#6": "{1:mode}잊지 말아 줘!!!{2:pause}",
+  "FMsg/o_areanone_lastboss_01_L#7": "{1:align}드디어 결전의 때가 왔나 봐!{2:wait}[Next]지금까지와는 차원이 다른\n암흑의 파워가 여기서도 느껴져!{3:wait}",
+  "FMsg/o_areanone_lastboss_01_L#8": "저기!!{1:pause}\n부탁이 하나 있어!!{2:wait}",
+  "FMsg/o_areanone_lastboss_03_L#0": "그럼… 사라지지로…\n사라지지로로로로…{1:wait}[Next]{2:align}{3:font}사라지지로로로로…{4:wait}{5:font}",
+  "FMsg/o_areanone_lastboss_03_L#1": "네놈들과\n함께――――!{1:pause}",
+  "FMsg/o_areanone_lastboss_03_L#2": "아.{1:pause} 괜한 말을\n하고 말았어…{2:wait}",
+  "FMsg/o_areanone_lastboss_03_L#3": "뭐야…?{1:pause} 또 해보자는 거야?{2:wait}",
+  "FMsg/o_areanone_lastboss_03_L#4": "{1:align}왜일까…{2:pause}로로…{3:pause}{4:wait}",
+  "FMsg/o_areanone_lastboss_03_L#5": "너희…들…{1:pause} 따위…에게\n왜…{2:pause} 몇 번이고…{3:wait}",
+  "FMsg/o_areanone_lastboss_03_L#6": "나는… 단지… 이 나라를\n정복하고 싶었을 뿐인데로로…{1:wait}[Next]{2:font}나름대로…\n노력했는데로로…{3:wait}{4:font}",
+  "FMsg/o_areanone_lastboss_03_L#7": "때로는… 누군가에게…\n이용도… 당하고…{1:wait}[Next]{2:font}구질구질한 곳에서… 열심히\n일한 적도… 있었어로로…{3:wait}{4:font}",
+  "FMsg/o_areanone_lastboss_03_L#8": "언제나… 언제나…\n너희…들이 나타나서…{1:wait}[Next]언제나… 언제나…\n언제나… 언제나… 방해했었어로로…{2:wait}",
+  "FMsg/o_areanone_lastboss_03_L#9": "이젠 포기하는 게 어때?{1:wait}[Next]나쁜 짓은 결국…{2:wait}[Next]실패하게 되어 있어.{3:wait}",
+  "FMsg/o_areanone_lastboss_03_L#10": "{1:align}{2:align}로로로로로…{3:wait}",
+  "FMsg/o_areanone_lastboss_03_L#11": "알았다로로…\n포기하지로로…{1:wait}[Next]{2:font}이대로 모습을\n감추지…로로…{3:wait}{4:font}",
+  "FMsg/o_areanone_lastboss_03_L#12": "{1:align}잘 생각했어.{2:wait}[Next]{3:align}이제 나쁜 짓은 하지 마!{4:wait}",
+  "FMsg/o_areanone_lastboss_03_L#13": "다크스타가…\n드디어 사라졌어.{1:wait}",
+  "FMsg/o_areanone_lastboss_03_L#14": "그런데 피치공주는?{1:wait}[Next]피치공주는 무사해?{2:wait}"
+ },
+ "new_terms": [],
+ "notes": {
+  "FMsg/o_areanone_lastboss_01_L#0": "DS223#12 2쪽 '마리오와 루이지야!!'. 3DX는 #4(여기에…)와 #0으로 나뉨",
+  "FMsg/o_areanone_lastboss_03_L#1": "DS281#18 그대로(까르코비츠 자폭 직전 외침)"
+ }
+}

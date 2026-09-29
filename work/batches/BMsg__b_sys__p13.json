@@ -1,0 +1,2201 @@
+{
+ "batch": "BMsg__b_sys__p13",
+ "rooms": [
+  "b_sys"
+ ],
+ "ds_rooms": [],
+ "ds_reference": [
+  "@file work/batches/_refs_BMsg.txt (460 DS lines shared by all BMsg batches - read it once)"
+ ],
+ "glossary": [
+  {
+   "jp": "ほのお",
+   "ko": "화염",
+   "type": "ability",
+   "basis": "DS",
+   "source": "FEvent#01A.25",
+   "note": "쿠파의 필드 액션(아이콘명)·불 뿜기. 배틀 커맨드 ファイア는 '파이어' [gl_attacks]"
+  },
+  {
+   "jp": "ジャンプ",
+   "ko": "점프",
+   "type": "ability",
+   "basis": "DS",
+   "source": "BData__mfset_Help#9",
+   "note": "필드 액션·배틀 커맨드 공통 [gl_attacks]"
+  },
+  {
+   "jp": "ハンマー",
+   "ko": "해머",
+   "type": "ability",
+   "basis": "DS",
+   "source": "BData__mfset_Help#10",
+   "note": "필드 액션·배틀 커맨드 공통(입수 아이템명도 해머, MenuMes#41). 힘을 ためる→'파워를 모으다'(BAI__BMes_cf#5.5) [gl_attacks]"
+  },
+  {
+   "jp": "バキューム",
+   "ko": "배큐엄",
+   "type": "ability",
+   "basis": "DS",
+   "source": "BData__mfset_Help#16",
+   "note": "쿠파의 배틀 커맨드 [gl_attacks]"
+  },
+  {
+   "jp": "DEFアップ",
+   "ko": "DEF 업",
+   "type": "attack",
+   "basis": "coined",
+   "source": "BMsg/b_sys#51",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "POWアップ",
+   "ko": "POW 업",
+   "type": "attack",
+   "basis": "coined",
+   "source": "BMsg/b_sys#994",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "たたきつけ",
+   "ko": "내리치기",
+   "type": "attack",
+   "basis": "coined",
+   "source": "BMsg/b_sys#1774",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "つきあげ",
+   "ko": "올려치기",
+   "type": "attack",
+   "basis": "coined",
+   "source": "BMsg/b_sys#113",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "ジャンプ攻撃",
+   "ko": "점프 공격",
+   "type": "attack",
+   "basis": "DS",
+   "source": "BAI__BMes_cf#5.4",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "スピンアタック",
+   "ko": "스핀 어택",
+   "type": "attack",
+   "basis": "coined",
+   "source": "BMsg/b_sys#1751",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "ブン回し",
+   "ko": "휘두르기",
+   "type": "attack",
+   "basis": "coined",
+   "source": "BMsg/b_sys:KJGuide_BA07",
+   "note": "가이드 제목의 표기 변형 [gl_kj]"
+  },
+  {
+   "jp": "ボコスカカメック",
+   "ko": "마귀부대",
+   "type": "attack",
+   "basis": "DS",
+   "source": "BData__mfset_AItmN#20",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "ボコスカノコノコ",
+   "ko": "엉금엉금부대",
+   "type": "attack",
+   "basis": "DS",
+   "source": "BData__mfset_AItmN#10",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "ボコスカブロドッグ",
+   "ko": "블도그부대",
+   "type": "attack",
+   "basis": "DS",
+   "source": "BData__mfset_AItmN#23",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "ボコスカボムへい",
+   "ko": "폭탄병부대",
+   "type": "attack",
+   "basis": "DS",
+   "source": "BData__mfset_AItmN#5",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "連続ふみつけ",
+   "ko": "연속 밟기",
+   "type": "attack",
+   "basis": "coined",
+   "source": "BMsg/b_sys#843",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "イモーヌ",
+   "ko": "애번느",
+   "type": "boss",
+   "basis": "DS",
+   "source": "BData__mfset_MonN#38",
+   "note": "glossary 확정값과 동일. 부하 ストロー=빨대(#39) [gl_enemies]"
+  },
+  {
+   "jp": "ガラクタモンスター",
+   "ko": "잡동스터",
+   "type": "boss",
+   "basis": "DS",
+   "source": "BData__mfset_MonN#73",
+   "note": "ガラクタ=잡동사니. 부하 ガラクタコブン=잡동부대(#89) [gl_enemies]"
+  },
+  {
+   "jp": "キュット",
+   "ko": "큐티",
+   "type": "boss",
+   "basis": "coined",
+   "source": "BMsg/b_sys#1463",
+   "note": "glossary 확정값. 3DX 신규(SS컴퍼니의 '큐트' 담당) [gl_enemies]"
+  },
+  {
+   "jp": "クッパ",
+   "ko": "쿠파",
+   "type": "boss",
+   "basis": "DS",
+   "source": "BData__mfset_MonN#65",
+   "note": "마리오 일행이 싸우는 쿠파. glossary 확정값과 동일 [gl_enemies]"
+  },
+  {
+   "jp": "クッパメモリー",
+   "ko": "쿠파메모리",
+   "type": "boss",
+   "basis": "DS",
+   "source": "BData__mfset_MonN#66·67",
+   "note": "DS '쿠파메모리M/L'(붙여 씀). 콜로세움 クッパメモリーMLX=쿠파메모리MLX"
+  },
+  {
+   "jp": "ダークスター",
+   "ko": "다크스타",
+   "type": "boss",
+   "basis": "DS",
+   "source": "BData__mfset_MonN#70",
+   "note": "glossary 확정값과 동일 [gl_enemies]"
+  },
+  {
+   "jp": "賢者イモーヌ",
+   "ko": "현인애번느",
+   "type": "boss",
+   "basis": "DS",
+   "source": "BData__mfset_MonN#53",
+   "note": "賢者=현인(DS). イモーヌ=애번느(#38) [gl_enemies]"
+  },
+  {
+   "jp": "SSカンパニー",
+   "ko": "SS컴퍼니",
+   "type": "character",
+   "basis": "coined",
+   "source": "BMsg/b_sys#902",
+   "note": "'SS' 두문자 말장난(슈퍼 서플리먼트/순삭)을 살리려고 SS 유지 [gl_kj]"
+  },
+  {
+   "jp": "カメック",
+   "ko": "마귀",
+   "type": "character",
+   "basis": "DS",
+   "source": "FEvent:1A3#13",
+   "note": "쿠파주니어의 돌보미(카멕 개인)도 같은 표기. RPG1 DX 한국판 쿠파군단 RPG도 '마귀' [gl_kj]"
+  },
+  {
+   "jp": "クッパJr.",
+   "ko": "쿠파주니어",
+   "type": "character",
+   "basis": "official",
+   "source": "https://www.nintendo.com/kr/switch/aabpa/sp/character/",
+   "note": "glossary 확정값. 부하들이 부를 때는 '쿠파주니어님' [gl_enemies]"
+  },
+  {
+   "jp": "マリオ",
+   "ko": "마리오",
+   "type": "character",
+   "basis": "DS",
+   "source": "BData__mfset_Help#19",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "モートン",
+   "ko": "모톤",
+   "type": "character",
+   "basis": "official",
+   "source": "https://www.nintendo.com/kr/switch/aabpa/sp/character/",
+   "note": "glossary 확정값. 쿠파 7인조. '모턴' 아님 [gl_enemies]"
+  },
+  {
+   "jp": "ラリー",
+   "ko": "래리",
+   "type": "character",
+   "basis": "official",
+   "source": "https://www.nintendo.com/kr/switch/aabpa/sp/character/",
+   "note": "쿠파 7인조. 등껍질을 주고받는 'ラリー'(rally)는 DS AItmE#10대로 '랠리'"
+  },
+  {
+   "jp": "ルイージ",
+   "ko": "루이지",
+   "type": "character",
+   "basis": "DS",
+   "source": "BData__mfset_Help#20",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "大魔王クッパ",
+   "ko": "대마왕쿠파",
+   "type": "character",
+   "basis": "DS",
+   "source": "o_koopa_13_2#6 ↔ DS0D1#30",
+   "note": "room-align"
+  },
+  {
+   "jp": "究極合体スーパーSSカンパニー",
+   "ko": "궁극합체 슈퍼 SS컴퍼니",
+   "type": "character",
+   "basis": "coined",
+   "source": "BMsg/b_sys#1393",
+   "note": "KGS3C의 정식 명칭 [gl_kj]"
+  },
+  {
+   "jp": "ガボン",
+   "ko": "가봉",
+   "type": "enemy",
+   "basis": "official",
+   "source": "https://namu.wiki/w/%EB%A7%88%EB%A6%AC%EC%98%A4%26%EB%A3%A8%EC%9D%B4%EC%A7%80%20RPG%201%20DX",
+   "note": "glossary 확정값. 3DX 신규 [gl_enemies]"
+  },
+  {
+   "jp": "クリボー",
+   "ko": "굼바",
+   "type": "enemy",
+   "basis": "DS",
+   "source": "BAI__BMes_cf:0#1",
+   "note": "glossary 확정값 [gl_enemies]"
+  },
+  {
+   "jp": "ゲラプー",
+   "ko": "까르뚜",
+   "type": "enemy",
+   "basis": "DS",
+   "source": "BData__mfset_MonN#25",
+   "note": "ゲラ=까르, プー=뚜(DS チョロプー兄弟=쪼르뚜 형제). メタルゲラプー=메탈까르뚜(#108) [gl_enemies]"
+  },
+  {
+   "jp": "サンボ",
+   "ko": "선인",
+   "type": "enemy",
+   "basis": "official",
+   "source": "https://namu.wiki/w/%EC%BF%A0%ED%8C%8C%EA%B5%B0%EB%8B%A8",
+   "note": "glossary 확정값. 3DX 신규. DS '이빨선인'(ハガサンボン)과도 일치 [gl_enemies]"
+  },
+  {
+   "jp": "タネやん",
+   "ko": "씨앗군",
+   "type": "enemy",
+   "basis": "DS",
+   "source": "BData__mfset_MonN#12",
+   "note": "タネ=씨앗, ～やん=～군 [gl_enemies]"
+  },
+  {
+   "jp": "タワークリボー",
+   "ko": "타워굼바",
+   "type": "enemy",
+   "basis": "official",
+   "source": "https://namu.wiki/w/%EB%A7%88%EB%A6%AC%EC%98%A4%26%EB%A3%A8%EC%9D%B4%EC%A7%80%20RPG%201%20DX",
+   "note": "glossary 확정값. 3DX 신규. RPG1 DX 한국판 유닛명 [gl_enemies]"
+  },
+  {
+   "jp": "タンパくん",
+   "ko": "프로프",
+   "type": "enemy",
+   "basis": "DS",
+   "source": "BData__mfset_MonN#35",
+   "note": "タンパク(단백질, protein)=프로-. DS 쿠파 몸속 적 18종 1:1 대응에서 남는 짝(ポリップー=폴리프) [gl_enemies]"
+  },
+  {
+   "jp": "ダークトレジャン",
+   "ko": "다크트레전",
+   "type": "enemy",
+   "basis": "DS",
+   "source": "BData__mfset_MonN#86",
+   "note": "블캐츠 설명 대응(3DX Menu#720 ↔ DS MData__mfset_MenuMes#94) [gl_enemies]"
+  },
+  {
+   "jp": "ノコノコ",
+   "ko": "엉금엉금",
+   "type": "enemy",
+   "basis": "DS",
+   "source": "BData__mfset_AItmE#10",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "ハガサンボン",
+   "ko": "이빨선인",
+   "type": "enemy",
+   "basis": "DS",
+   "source": "BData__mfset_MonN#14",
+   "note": "블캐츠 설명 대응(3DX Menu#486 ↔ DS MData__mfset_MenuMes#70). サンボ=선인 [gl_enemies]"
+  },
+  {
+   "jp": "ハナムーチョ",
+   "ko": "꽃무우쵸",
+   "type": "enemy",
+   "basis": "DS",
+   "source": "BData__mfset_MonN#13",
+   "note": "블캐츠 설명 대응(3DX Menu#512 ↔ DS MData__mfset_MenuMes#76) [gl_enemies]"
+  },
+  {
+   "jp": "パタクリボー",
+   "ko": "펄럭굼바",
+   "type": "enemy",
+   "basis": "official",
+   "source": "https://namu.wiki/w/%EB%A7%88%EB%A6%AC%EC%98%A4%26%EB%A3%A8%EC%9D%B4%EC%A7%80%20RPG%201%20DX",
+   "note": "glossary 확정값. 3DX 신규. RPG1 DX 한국판 유닛명 [gl_enemies]"
+  },
+  {
+   "jp": "パタパタ",
+   "ko": "펄럭펄럭",
+   "type": "enemy",
+   "basis": "DS",
+   "source": "FEvent:063#44",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "ビフィーズ人",
+   "ko": "비삐더스",
+   "type": "enemy",
+   "basis": "DS",
+   "source": "BData__mfset_MonN#48",
+   "note": "애번느전의 부하. DS 한국판은 '人' 없이 씀 [gl_enemies]"
+  },
+  {
+   "jp": "ヘイホー",
+   "ko": "헤이호",
+   "type": "enemy",
+   "basis": "DS",
+   "source": "FEvent:048#35",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "ヘイホー（青）",
+   "ko": "헤이호(파랑)",
+   "type": "enemy",
+   "basis": "coined",
+   "source": "BMsg/b_sys#1404",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "メカコビッツ",
+   "ko": "메카코비츠",
+   "type": "enemy",
+   "basis": "DS",
+   "source": "BData__mfset_MonN#60",
+   "note": "블캐츠 설명 대응(3DX Menu#697 ↔ DS MData__mfset_MenuMes#90) [gl_enemies]"
+  },
+  {
+   "jp": "ヤリホー",
+   "ko": "창창호",
+   "type": "enemy",
+   "basis": "official",
+   "source": "https://namu.wiki/w/%EB%A7%88%EB%A6%AC%EC%98%A4%26%EB%A3%A8%EC%9D%B4%EC%A7%80%20RPG%201%20DX",
+   "note": "glossary 확정값. 3DX 신규. RPG1 DX 한국판 유닛명 [gl_enemies]"
+  },
+  {
+   "jp": "ワンワン",
+   "ko": "멍멍이",
+   "type": "enemy",
+   "basis": "DS",
+   "source": "FEvent:063#45",
+   "note": "glossary 확정값 [gl_enemies]"
+  },
+  {
+   "jp": "ヒコウEXPマメDX",
+   "ko": "비행EXP콩DX",
+   "type": "item",
+   "basis": "coined",
+   "source": "BMsg/b_sys#1672",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "ドンドクドンダZ",
+   "ko": "독독파워Z",
+   "type": "key_item",
+   "basis": "coined",
+   "source": "BMsg/b_sys#12",
+   "note": "독독개구리 성분으로 몬스터를 광폭화시키는 영양제. SS컴퍼니 커맨드명으로도 쓰임 [gl_kj]"
+  },
+  {
+   "jp": "どかん",
+   "ko": "토관",
+   "type": "place",
+   "basis": "DS",
+   "source": "DS0EC#14",
+   "note": "どかんひろば=토관 광장 [gl_menu_places]"
+  },
+  {
+   "jp": "マメーリア",
+   "ko": "콩글리아",
+   "type": "place",
+   "basis": "official",
+   "source": "https://www.mariowiki.com/Beanbean_Kingdom",
+   "note": ""
+  },
+  {
+   "jp": "マメーリア王国",
+   "ko": "콩글리아 왕국",
+   "type": "place",
+   "basis": "official",
+   "source": "https://www.mariowiki.com/Beanbean_Kingdom",
+   "note": "마리오&루이지 RPG1 DX 한국판 표기"
+  },
+  {
+   "jp": "マリンパイプの像",
+   "ko": "마린파이프상",
+   "type": "place",
+   "basis": "DS",
+   "source": "i_tainai_01#27 ↔ DS28B#3",
+   "note": "room-align"
+  },
+  {
+   "jp": "DEF",
+   "ko": "DEF",
+   "type": "term",
+   "basis": "DS",
+   "source": "BData__mfset_WearE#23",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "EXP",
+   "ko": "EXP",
+   "type": "term",
+   "basis": "DS",
+   "source": "BData__mfset_BadgeEffectE#11",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "GDD",
+   "ko": "GDH",
+   "type": "term",
+   "basis": "official",
+   "source": "https://namu.wiki/w/%EB%A7%88%EB%A6%AC%EC%98%A4%26%EB%A3%A8%EC%9D%B4%EC%A7%80%20RPG%201%20DX",
+   "note": "軍団魂(군단혼)의 약자. RPG1 DX 한국판 'GDH'(나무위키 기재) — 확인 필요 [gl_kj]"
+  },
+  {
+   "jp": "HP",
+   "ko": "HP",
+   "type": "term",
+   "basis": "DS",
+   "source": "BAI__BMes_cf#2.11",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "LCK",
+   "ko": "LCK",
+   "type": "term",
+   "basis": "coined",
+   "source": "BMsg/b_sys#324",
+   "note": "행운 수치, 약자 유지 [gl_kj]"
+  },
+  {
+   "jp": "POW",
+   "ko": "POW",
+   "type": "term",
+   "basis": "DS",
+   "source": "BData__mfset_WearE#35",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "POWダウン",
+   "ko": "POW 다운",
+   "type": "term",
+   "basis": "DS",
+   "source": "BData__mfset_AItmE2#16",
+   "note": "스페셜 어택 효과·상태 이름. 장비 설명의 'POW DOWN状態'도 'POW 다운 상태'(DEF·SPEED도 같고, UP은 '업': 'POW 업 상태')"
+  },
+  {
+   "jp": "SPEED",
+   "ko": "SPEED",
+   "type": "term",
+   "basis": "DS",
+   "source": "BData__mfset_MonN#52",
+   "note": "DS 설명문은 '스피드'(RankUpE#22) [gl_attacks]"
+  },
+  {
+   "jp": "いりょく",
+   "ko": "위력",
+   "type": "term",
+   "basis": "DS",
+   "source": "BData__mfset_WearE#11",
+   "note": "히라가나 표기 [gl_attacks]"
+  },
+  {
+   "jp": "えんきょり",
+   "ko": "원거리",
+   "type": "term",
+   "basis": "official",
+   "source": "https://namu.wiki/w/%EB%A7%88%EB%A6%AC%EC%98%A4%26%EB%A3%A8%EC%9D%B4%EC%A7%80%20RPG%201%20DX",
+   "note": "타입명 단독 [gl_kj]"
+  },
+  {
+   "jp": "えんきょりタイプ",
+   "ko": "원거리 타입",
+   "type": "term",
+   "basis": "official",
+   "source": "https://namu.wiki/w/%EB%A7%88%EB%A6%AC%EC%98%A4%26%EB%A3%A8%EC%9D%B4%EC%A7%80%20RPG%201%20DX",
+   "note": "RPG1 DX 한국판 타입명 [gl_kj]"
+  },
+  {
+   "jp": "とつげき",
+   "ko": "돌격",
+   "type": "term",
+   "basis": "official",
+   "source": "https://namu.wiki/w/%EB%A7%88%EB%A6%AC%EC%98%A4%26%EB%A3%A8%EC%9D%B4%EC%A7%80%20RPG%201%20DX",
+   "note": "타입명 단독 [gl_kj]"
+  },
+  {
+   "jp": "とつげきタイプ",
+   "ko": "돌격 타입",
+   "type": "term",
+   "basis": "official",
+   "source": "https://namu.wiki/w/%EB%A7%88%EB%A6%AC%EC%98%A4%26%EB%A3%A8%EC%9D%B4%EC%A7%80%20RPG%201%20DX",
+   "note": "RPG1 DX 한국판 쿠파군단 RPG 타입명 [gl_kj]"
+  },
+  {
+   "jp": "にくしょくけい大魔王",
+   "ko": "육식계 대마왕",
+   "type": "term",
+   "basis": "coined",
+   "source": "",
+   "note": "랭크 업 보너스(쿠파, 치킨 회복량 증가) [gl_attacks]"
+  },
+  {
+   "jp": "はしご",
+   "ko": "사다리",
+   "type": "term",
+   "basis": "coined",
+   "source": "BMsg/b_sys#1432",
+   "note": "진형 이름 [gl_kj]"
+  },
+  {
+   "jp": "ひこう",
+   "ko": "비행",
+   "type": "term",
+   "basis": "official",
+   "source": "https://namu.wiki/w/%EB%A7%88%EB%A6%AC%EC%98%A4%26%EB%A3%A8%EC%9D%B4%EC%A7%80%20RPG%201%20DX",
+   "note": "타입명 단독 [gl_kj]"
+  },
+  {
+   "jp": "ひこうタイプ",
+   "ko": "비행 타입",
+   "type": "term",
+   "basis": "official",
+   "source": "https://namu.wiki/w/%EB%A7%88%EB%A6%AC%EC%98%A4%26%EB%A3%A8%EC%9D%B4%EC%A7%80%20RPG%201%20DX",
+   "note": "RPG1 DX 한국판 타입명 [gl_kj]"
+  },
+  {
+   "jp": "めいちゅう",
+   "ko": "명중",
+   "type": "term",
+   "basis": "coined",
+   "source": "BMsg/b_sys#69",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "わっか",
+   "ko": "고리",
+   "type": "term",
+   "basis": "coined",
+   "source": "BMsg/b_sys#1415",
+   "note": "진형 이름 [gl_kj]"
+  },
+  {
+   "jp": "アタック",
+   "ko": "어택",
+   "type": "term",
+   "basis": "DS",
+   "source": "BDataMiniGame__mfset_MesDat_MiniGame#5",
+   "note": "스페셜 어택을 줄여 부를 때. 단 퀴즈의 パンチアタック/ファイアアタック은 DS대로 '~ 공격' [gl_attacks]"
+  },
+  {
+   "jp": "アップ",
+   "ko": "업",
+   "type": "term",
+   "basis": "DS",
+   "source": "FEvent:0EC#11",
+   "note": "이름 안의 アップ는 '업'(POW 업, 파워 업). 설명 문장의 'アップする/アップ!'는 DS 장비·아이템 설명대로 '증가'"
+  },
+  {
+   "jp": "カリスマブラザー",
+   "ko": "카리스마 브라더",
+   "type": "term",
+   "basis": "coined",
+   "source": "",
+   "note": "랭크 업 보너스(BP·HIGE 추가 상승) [gl_attacks]"
+  },
+  {
+   "jp": "カリスマ大魔王",
+   "ko": "카리스마 대마왕",
+   "type": "term",
+   "basis": "coined",
+   "source": "",
+   "note": "랭크 업 보너스(쿠파). 대마왕은 DS 표기(FEvent#02D.8) [gl_attacks]"
+  },
+  {
+   "jp": "クリティカル",
+   "ko": "크리티컬",
+   "type": "term",
+   "basis": "DS",
+   "source": "FEvent#16A.14",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "グループアタック",
+   "ko": "그룹 어택",
+   "type": "term",
+   "basis": "coined",
+   "source": "BMsg/b_sys#24",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "コイン",
+   "ko": "코인",
+   "type": "term",
+   "basis": "DS",
+   "source": "BData__mfset_WearE#22",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "コウラ",
+   "ko": "등껍질",
+   "type": "term",
+   "basis": "DS",
+   "source": "BAI__BMes_cf#8.1",
+   "note": "쿠파의 방어 커맨드(Y)·등껍질 일반 [gl_attacks]"
+  },
+  {
+   "jp": "スキル",
+   "ko": "스킬",
+   "type": "term",
+   "basis": "coined",
+   "source": "MenuKJ#76",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "タイミング",
+   "ko": "타이밍",
+   "type": "term",
+   "basis": "DS",
+   "source": "BAI__BMes_cf#4.12",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "ダウン",
+   "ko": "다운",
+   "type": "term",
+   "basis": "DS",
+   "source": "BData__mfset_AItmE2#16",
+   "note": "이름 안의 ダウン은 '다운'(POW 다운). 설명 문장의 'ダウンする/させる'는 DS대로 '감소/줄여 주는'"
+  },
+  {
+   "jp": "ダメージ",
+   "ko": "타격",
+   "type": "term",
+   "basis": "DS",
+   "source": "DS '타격' 32회 / '대미지' 5회",
+   "note": "'타격을 입히다/입다'. 숫자·연속 공격 문맥은 '대미지' 허용(DS: 연속 대미지)"
+  },
+  {
+   "jp": "チキン",
+   "ko": "치킨",
+   "type": "term",
+   "basis": "DS",
+   "source": "BData__mfset_WearE#98",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "チャレンジ",
+   "ko": "챌린지",
+   "type": "term",
+   "basis": "DS",
+   "source": "FEvent#28A.60",
+   "note": "챌린지 홀 등 이름은 '챌린지'. 일반 '도전하다' 뜻(もう１度 チャレンジ)은 DS대로 '도전'"
+  },
+  {
+   "jp": "ツノ",
+   "ko": "뿔",
+   "type": "term",
+   "basis": "DS",
+   "source": "DS16A",
+   "note": ""
+  },
+  {
+   "jp": "トゲダメージ",
+   "ko": "가시 대미지",
+   "type": "term",
+   "basis": "coined",
+   "source": "BMsg/b_sys:KJGuide_BB15",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "ドーナツ",
+   "ko": "도넛",
+   "type": "term",
+   "basis": "DS",
+   "source": "BData__mfset_MonN#77",
+   "note": "진형 이름 [gl_kj]"
+  },
+  {
+   "jp": "バトル",
+   "ko": "배틀",
+   "type": "term",
+   "basis": "DS",
+   "source": "BAI__BMes_cf#2.13",
+   "note": "명사는 '배틀'. 동사 'バトルする/した'는 DS처럼 '싸우다'로 써도 된다"
+  },
+  {
+   "jp": "ブーメラン",
+   "ko": "부메랑",
+   "type": "term",
+   "basis": "coined",
+   "source": "BMsg/b_sys#1628",
+   "note": "진형 이름 [gl_kj]"
+  },
+  {
+   "jp": "マッスルブラザー",
+   "ko": "머슬 브라더",
+   "type": "term",
+   "basis": "coined",
+   "source": "",
+   "note": "랭크 업 보너스(POW·HP 추가 상승). ブラザー→브라더(DS 브라더 드릴) [gl_attacks]"
+  },
+  {
+   "jp": "マメ",
+   "ko": "콩",
+   "type": "term",
+   "basis": "DS",
+   "source": "MData__mfset_MenuMes#136",
+   "note": "DS '콩이라는 아이템', '획득한 콩의 수' [gl_items]"
+  },
+  {
+   "jp": "マリオ達",
+   "ko": "마리오 일행",
+   "type": "term",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesOutline#16",
+   "note": "기본값. 같은 장면의 DS 문장이 다른 표현을 쓰면 DS대로(쿠파 몸속 터치 미니게임 DS155·1AB '마리오 형제', DS0F4 '마리오와 루이지'). 조사 주의(형제를/형제가)"
+  },
+  {
+   "jp": "メンバー",
+   "ko": "멤버",
+   "type": "term",
+   "basis": "coined",
+   "source": "MenuKJ#93",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "モンスター",
+   "ko": "몬스터",
+   "type": "term",
+   "basis": "DS",
+   "source": "BAI__BMes_cf#2.1",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "ラッキーヒット",
+   "ko": "럭키 히트",
+   "type": "term",
+   "basis": "DS",
+   "source": "BData__mfset_RankUpE#24",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "仲間",
+   "ko": "동료",
+   "type": "term",
+   "basis": "DS",
+   "source": "FEvent:048#29",
+   "note": "「仲間になった」→'동료가 되었다' [gl_kj]"
+  },
+  {
+   "jp": "体力",
+   "ko": "체력",
+   "type": "term",
+   "basis": "DS",
+   "source": "BData__mfset_RankUpE#14",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "大魔王",
+   "ko": "대마왕",
+   "type": "term",
+   "basis": "DS",
+   "source": "o_koopa_13_2#6 <-> DS0D1#30 ; o_mushiba_25#10 <-> DS287#44",
+   "note": "correction(note만): 「大魔王クッパ」는 DS에서 '대마왕쿠파'로 붙여 씀(DS0B7#7·DS0D1#30·DS241#6·DS287#44, '대마왕 쿠파' 0회). 기존 note의 '대마왕 쿠파'는 틀림 [gl_characters]"
+  },
+  {
+   "jp": "大魔王のいげん",
+   "ko": "대마왕의 위엄",
+   "type": "term",
+   "basis": "coined",
+   "source": "",
+   "note": "랭크 업 보너스(쿠파) [gl_attacks]"
+  },
+  {
+   "jp": "大魔王のちから",
+   "ko": "대마왕의 힘",
+   "type": "term",
+   "basis": "coined",
+   "source": "",
+   "note": "랭크 업 보너스(쿠파) [gl_attacks]"
+  },
+  {
+   "jp": "攻撃",
+   "ko": "공격",
+   "type": "term",
+   "basis": "DS",
+   "source": "BAI__BMes_cf#2.1",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "経験値",
+   "ko": "EXP",
+   "type": "term",
+   "basis": "DS",
+   "source": "BData__mfset_WearE#28 (DS에 '경험치' 표기 없음)",
+   "note": ""
+  },
+  {
+   "jp": "賢者",
+   "ko": "현인",
+   "type": "term",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesOutline#27",
+   "note": "[gl_menu_places]"
+  },
+  {
+   "jp": "軍団",
+   "ko": "군단",
+   "type": "term",
+   "basis": "DS",
+   "source": "BAI__BMes_cf#0.20",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "配置",
+   "ko": "배치",
+   "type": "term",
+   "basis": "coined",
+   "source": "MenuKJ#50",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "防御",
+   "ko": "방어",
+   "type": "term",
+   "basis": "DS",
+   "source": "BAI__BMes_cf#3.8",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "おてほん",
+   "ko": "시범",
+   "type": "ui",
+   "basis": "DS",
+   "source": "MAI__MMes_yo#2.12",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "かんたんアタックモード",
+   "ko": "간단 어택 모드",
+   "type": "ui",
+   "basis": "coined",
+   "source": "",
+   "note": "3DX 신규 [gl_attacks]"
+  },
+  {
+   "jp": "へんせい",
+   "ko": "편성",
+   "type": "ui",
+   "basis": "coined",
+   "source": "MenuKJ#61",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "やりなおす",
+   "ko": "다시 시작",
+   "type": "ui",
+   "basis": "DS",
+   "source": "BData__mfset_Help#26",
+   "note": "배틀을 처음부터 다시 하기 [gl_menu_places]"
+  },
+  {
+   "jp": "れんしゅう",
+   "ko": "연습",
+   "type": "ui",
+   "basis": "DS",
+   "source": "MAI__MMes_yo#2.12",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "キャラクター",
+   "ko": "캐릭터",
+   "type": "ui",
+   "basis": "coined",
+   "source": "",
+   "note": "[gl_menu_places]"
+  },
+  {
+   "jp": "クエスト",
+   "ko": "퀘스트",
+   "type": "ui",
+   "basis": "coined",
+   "source": "MenuKJ#97",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "サブリーダーコマンド",
+   "ko": "서브 리더 커맨드",
+   "type": "ui",
+   "basis": "coined",
+   "source": "BMsg/b_sys:KJGuide_BB12",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "ステータス",
+   "ko": "능력",
+   "type": "ui",
+   "basis": "DS",
+   "source": "DS16A#27",
+   "note": "스타 메뉴 항목명도 '능력'"
+  },
+  {
+   "jp": "ボタン",
+   "ko": "버튼",
+   "type": "ui",
+   "basis": "DS",
+   "source": "MAI__MMes_yo#1.16",
+   "note": "[gl_menu_places]"
+  },
+  {
+   "jp": "上画面",
+   "ko": "위 화면",
+   "type": "ui",
+   "basis": "DS",
+   "source": "BDataMiniGame__mfset_MesDat_MiniGame#9",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "軍団へんせい",
+   "ko": "군단 편성",
+   "type": "ui",
+   "basis": "coined",
+   "source": "MenuKJ#64",
+   "note": "[gl_kj]"
+  }
+ ],
+ "messages": [
+  {
+   "id": "BMsg/b_sys#1382",
+   "label": "Hint_Imonu_0_2",
+   "style": 11,
+   "src": "ビフィーズ人が近くにいるときは ビフィーズ人を\n食べてヤリ吐きをしてくることがあります。\nヤリの向きに注目し避けましょう。",
+   "tags": {},
+   "header": "[0009:0000:0B 00]",
+   "dups": []
+  },
+  {
+   "id": "BMsg/b_sys#1383",
+   "label": "Hint_Mechaco_0_1",
+   "style": 11,
+   "src": "メカコビッツが上空から落下してくる攻撃は\nしゃがみ防御が早すぎると\n途中で耐えられなくなります。\n十分に引きつけてから しゃがみ防御しましょう。",
+   "tags": {},
+   "header": "[0009:0000:0B 00]",
+   "dups": []
+  },
+  {
+   "id": "BMsg/b_sys#1384",
+   "label": "Imonu2",
+   "style": 13,
+   "src": "賢者イモーヌ",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": []
+  },
+  {
+   "id": "BMsg/b_sys#1385",
+   "label": "KJGuide_BA07",
+   "style": 12,
+   "src": "ブン回し",
+   "tags": {},
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "BMsg/b_sys#1386",
+   "label": "KJGuide_BB12",
+   "style": 12,
+   "src": "サブリーダーコマンドについて",
+   "tags": {},
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "BMsg/b_sys#1387",
+   "label": "Kj_Btl_slc_koushou_10",
+   "style": 6,
+   "src": "{1:mode}我々は争うべきではない。",
+   "tags": {
+    "1": "[0005:0000:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "BMsg/b_sys#1388",
+   "label": "Kj_Btl_slc_odateru_28",
+   "style": 6,
+   "src": "すごくやる気出てきた！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "BMsg/b_sys#1389",
+   "label": "Menu_KJ_Chr_exp_borodo",
+   "style": 13,
+   "src": "たくさん動いて 非力をカバー。\nその目で 誰に狙いをつけている？",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": []
+  },
+  {
+   "id": "BMsg/b_sys#1390",
+   "label": "Menu_KJ_Chr_exp_hsambo",
+   "style": 13,
+   "src": "サンボに似ているモンスター。\n{1:color}ブーメラン攻撃{2:color}が苦手な所も似ている。",
+   "tags": {
+    "1": "[Color #4ED4FF]",
+    "2": "[Color #E6E6E6]"
+   },
+   "header": "[0009:0000:0D 00]",
+   "dups": []
+  },
+  {
+   "id": "BMsg/b_sys#1391",
+   "label": "Menu_KJ_Chr_exp_koopa_jr_e",
+   "style": 13,
+   "src": "大魔王クッパの１人息子。\n{1:color}カメック{2:color}には強いらしい。{3:color}{4:color}",
+   "tags": {
+    "1": "[Color #FF7070]",
+    "2": "[Color #E6E6E6]",
+    "3": "[Color #FF7070]",
+    "4": "[Color #E6E6E6]"
+   },
+   "header": "[0009:0000:0D 00]",
+   "dups": [
+    "BMsg/b_sys#1449",
+    "BMsg/b_sys#1668"
+   ]
+  },
+  {
+   "id": "BMsg/b_sys#1392",
+   "label": "Menu_KJ_Chr_exp_kusug_bl",
+   "style": 13,
+   "src": "マメーリア王国のどこかに生息する謎の生物。\n連続ふみつけが得意で {1:color}ヤリホー{2:color}がキライ。",
+   "tags": {
+    "1": "[Color #4ED4FF]",
+    "2": "[Color #E6E6E6]"
+   },
+   "header": "[0009:0000:0D 00]",
+   "dups": []
+  },
+  {
+   "id": "BMsg/b_sys#1393",
+   "label": "Menu_KJ_Chr_exp_union3",
+   "style": 13,
+   "src": "正式には「究極合体スーパーSSカンパニー」。\nSSカンパニーが合体した究極の姿。",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": []
+  },
+  {
+   "id": "BMsg/b_sys#1395",
+   "label": "Menu_KJ_fb_name_06",
+   "style": 13,
+   "src": "ドーナツ",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": []
+  },
+  {
+   "id": "BMsg/b_sys#1396",
+   "label": "Patakuribo",
+   "style": 13,
+   "src": "パタクリボー",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": []
+  },
+  {
+   "id": "BMsg/b_sys#1397",
+   "label": "RankUpBonusExp_K_5",
+   "style": 5,
+   "src": "ラッキーヒットの いりょくがアップ！",
+   "tags": {},
+   "header": "[0009:0000:05 00]",
+   "dups": []
+  },
+  {
+   "id": "BMsg/b_sys#1398",
+   "label": "Retry_item_retry",
+   "style": 12,
+   "src": "やりなおす",
+   "tags": {},
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "BMsg/b_sys#1399",
+   "label": "SpAtk_12",
+   "style": 12,
+   "src": "ボコスカノコノコ",
+   "tags": {},
+   "header": "[0009:0000:0C 00]",
+   "dups": [
+    "Item#192",
+    "Menu#642"
+   ]
+  },
+  {
+   "id": "BMsg/b_sys#1400",
+   "label": "BtlGuide_27_2",
+   "style": 11,
+   "src": "ほのお をはき始めたら {1:color}{2:icon}{3:color}ボタンを\n{4:color}押しっぱなし{5:color}にすることを\n忘れないようにしましょう。",
+   "tags": {
+    "1": "[Color #FF9600]",
+    "2": "[U+E002]",
+    "3": "[Color #E6E6E6]",
+    "4": "[Color #2C64FF]",
+    "5": "[Color #E6E6E6]"
+   },
+   "header": "[0009:0000:0B 00]",
+   "dups": [
+    "Menu#643"
+   ]
+  },
+  {
+   "id": "BMsg/b_sys#1401",
+   "label": "Btl_KJ_skill_exp_03",
+   "style": 11,
+   "src": "{1:mode}POW１０％↑GDD１０％↑",
+   "tags": {
+    "1": "[0005:0000:]"
+   },
+   "header": "[0009:0000:0B 00]",
+   "dups": []
+  },
+  {
+   "id": "BMsg/b_sys#1402",
+   "label": "DTreajan",
+   "style": 13,
+   "src": "ダークトレジャン",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": []
+  },
+  {
+   "id": "BMsg/b_sys#1403",
+   "label": "E_ItemSpd",
+   "style": 3,
+   "src": "食べるとSPEEDが{1:color}１{2:color}アップするマメ。",
+   "tags": {
+    "1": "[Color #4ED4FF]",
+    "2": "[Color #E6E6E6]"
+   },
+   "header": "[0009:0000:03 00]",
+   "dups": []
+  },
+  {
+   "id": "BMsg/b_sys#1404",
+   "label": "Heyho_b",
+   "style": 13,
+   "src": "ヘイホー（青）",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": []
+  },
+  {
+   "id": "BMsg/b_sys#1405",
+   "label": "Hsambo",
+   "style": 13,
+   "src": "ハガサンボン",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": []
+  },
+  {
+   "id": "BMsg/b_sys#1406",
+   "label": "KJGuide_BA08",
+   "style": 12,
+   "src": "スピンアタック",
+   "tags": {},
+   "header": "[0009:0000:0C 00]",
+   "dups": [
+    "BMsg/b_sys#1751"
+   ]
+  },
+  {
+   "id": "BMsg/b_sys#1407",
+   "label": "KJGuide_BB13",
+   "style": 12,
+   "src": "チャレンジについて",
+   "tags": {},
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "BMsg/b_sys#1408",
+   "label": "KJGuide_O03_0",
+   "style": 11,
+   "src": "クエスト選択の上画面には\nバトルに向かう隊の情報があります。\n{1:color}{2:icon}{3:icon}{4:color}ボタンで切り替えることができます。",
+   "tags": {
+    "1": "[Color #FF4343]",
+    "2": "[U+E004]",
+    "3": "[U+E005]",
+    "4": "[Color #E6E6E6]"
+   },
+   "header": "[0009:0000:0B 00]",
+   "dups": []
+  },
+  {
+   "id": "BMsg/b_sys#1409",
+   "label": "Kj_Btl_cmd_msg_patabroth2",
+   "style": 6,
+   "src": "よ よし…\nペシッとやってくっか！",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "BMsg/b_sys#1410",
+   "label": "Kj_Btl_slc_koushou_11",
+   "style": 6,
+   "src": "{1:mode}さあ お行きなさい。",
+   "tags": {
+    "1": "[0005:0000:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "BMsg/b_sys#1411",
+   "label": "Kj_Btl_slc_odateru_29",
+   "style": 9,
+   "src": "めちゃくちゃやる気出てきたー！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:09 00]",
+   "dups": []
+  },
+  {
+   "id": "BMsg/b_sys#1412",
+   "label": "Kmemory_m_x",
+   "style": 13,
+   "src": "クッパメモリーMX",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": []
+  },
+  {
+   "id": "BMsg/b_sys#1413",
+   "label": "Marine_douzou",
+   "style": 13,
+   "src": "マリンパイプの像",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": []
+  },
+  {
+   "id": "BMsg/b_sys#1414",
+   "label": "Menu_KJ_Chr_exp_ksinbo",
+   "style": 13,
+   "src": "クリボーに似たぽっちゃり型のモンスター。\nお菓子を食べてるせいか体力はやたらにある。",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": []
+  },
+  {
+   "id": "BMsg/b_sys#1415",
+   "label": "Menu_KJ_fb_name_07",
+   "style": 13,
+   "src": "わっか",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": []
+  },
+  {
+   "id": "BMsg/b_sys#1416",
+   "label": "Ns_ItemExpF_DX",
+   "style": 4,
+   "src": "ヒコウEXPマメDX",
+   "tags": {},
+   "header": "[0009:0000:04 00]",
+   "dups": [
+    "BMsg/b_sys#1672"
+   ]
+  },
+  {
+   "id": "BMsg/b_sys#1417",
+   "label": "SpAtk_13",
+   "style": 12,
+   "src": "ボコスカボムへい",
+   "tags": {},
+   "header": "[0009:0000:0C 00]",
+   "dups": [
+    "Item#556",
+    "Menu#650"
+   ]
+  },
+  {
+   "id": "BMsg/b_sys#1418",
+   "label": "Taneyan",
+   "style": 13,
+   "src": "タネやん",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": []
+  },
+  {
+   "id": "BMsg/b_sys#1419",
+   "label": "Btl_KJ_skill_exp_04",
+   "style": 11,
+   "src": "{1:mode}めいちゅう１０％↑LCK１０％↑",
+   "tags": {
+    "1": "[0005:0000:]"
+   },
+   "header": "[0009:0000:0B 00]",
+   "dups": []
+  },
+  {
+   "id": "BMsg/b_sys#1420",
+   "label": "E_ItemExpC_L",
+   "style": 3,
+   "src": "{1:color}クッパJr.{2:color}の経験値が{3:color}１０００{4:color}アップ。\n他のキャラにはあげられない",
+   "tags": {
+    "1": "[Color #FF7070]",
+    "2": "[Color #E6E6E6]",
+    "3": "[Color #4ED4FF]",
+    "4": "[Color #E6E6E6]"
+   },
+   "header": "[0009:0000:03 00]",
+   "dups": []
+  },
+  {
+   "id": "BMsg/b_sys#1422",
+   "label": "KJGuide_BA09",
+   "style": 12,
+   "src": "たたきつけ",
+   "tags": {},
+   "header": "[0009:0000:0C 00]",
+   "dups": [
+    "BMsg/b_sys#1774"
+   ]
+  },
+  {
+   "id": "BMsg/b_sys#1423",
+   "label": "KJGuide_BA24_0",
+   "style": 11,
+   "src": "ぶつかった相手を頭上へはねとばし\n落ちてきた後ツノやトゲでさらにつきあげます。",
+   "tags": {},
+   "header": "[0009:0000:0B 00]",
+   "dups": []
+  },
+  {
+   "id": "BMsg/b_sys#1424",
+   "label": "KJGuide_BB14",
+   "style": 12,
+   "src": "クリティカル",
+   "tags": {},
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "BMsg/b_sys#1425",
+   "label": "KJGuide_O03_1",
+   "style": 11,
+   "src": "バトルに向かうメンバー達の\n強さやスキルを見ることができます。",
+   "tags": {},
+   "header": "[0009:0000:0B 00]",
+   "dups": []
+  },
+  {
+   "id": "BMsg/b_sys#1426",
+   "label": "Kj_Btl_cmd_msg_patabroth3",
+   "style": 6,
+   "src": "ククク…\n何が出るか楽しみだな…",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "BMsg/b_sys#1427",
+   "label": "Kj_Btl_cmd_msg_shoubuda",
+   "style": 7,
+   "src": "勝負だ！",
+   "tags": {},
+   "header": "[0009:0000:07 00]",
+   "dups": []
+  },
+  {
+   "id": "BMsg/b_sys#1428",
+   "label": "Kj_Btl_lose_msg_zutuda_27",
+   "style": 12,
+   "src": "{1:mode}{2:color}ひこうタイプ{3:color}が多く出てきますが\n{4:color}他のタイプ{5:color}も登場するので\n油断できません。{6:pause}{7:wait}[Next]{8:mode}{9:color}ひこうタイプ{10:color}を{11:color}前方{12:color}に少し入れながら\n{13:color}えんきょりタイプ{14:color}を{15:color}多く{16:color}後方に\n配置するのが安心です。{17:pause}{18:wait}[Next]{19:mode}ウワサでは{20:color}ガボン{21:color}は\n{22:color}ノコノコ{23:color}や{24:color}パタパタ{25:color}のコウラに\nシューリンガンを当てるのが好きだとか…{26:pause}{27:wait}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[Color #4ED4FF]",
+    "3": "[Color #E6E6E6]",
+    "4": "[Color #4ED4FF]",
+    "5": "[Color #E6E6E6]",
+    "6": "[0002:0000:14 00]",
+    "7": "[0002:0001:]",
+    "8": "[0005:0000:]",
+    "9": "[Color #FF7070]",
+    "10": "[Color #E6E6E6]",
+    "11": "[Color #FF7070]",
+    "12": "[Color #E6E6E6]",
+    "13": "[Color #FF7070]",
+    "14": "[Color #E6E6E6]",
+    "15": "[Color #FF7070]",
+    "16": "[Color #E6E6E6]",
+    "17": "[0002:0000:14 00]",
+    "18": "[0002:0001:]",
+    "19": "[0005:0000:]",
+    "20": "[Color #FF7070]",
+    "21": "[Color #E6E6E6]",
+    "22": "[Color #4ED4FF]",
+    "23": "[Color #E6E6E6]",
+    "24": "[Color #4ED4FF]",
+    "25": "[Color #E6E6E6]",
+    "26": "[0002:0000:0A 00]",
+    "27": "[0002:0001:]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "BMsg/b_sys#1429",
+   "label": "Kj_Btl_param_change_01",
+   "style": 12,
+   "src": "{1:mode}味方のPOWアップ！",
+   "tags": {
+    "1": "[0005:0000:]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "BMsg/b_sys#1430",
+   "label": "Kj_Btl_slc_koushou_12",
+   "style": 6,
+   "src": "{1:mode}２００００コインでどうかな？",
+   "tags": {
+    "1": "[0005:0000:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "BMsg/b_sys#1431",
+   "label": "MES_KGarakuta_08_mes_05",
+   "style": 6,
+   "src": "{1:align}ハンマーはパワーをためすぎても{2:color}\n失敗しちゃうからほどほどにね。{3:wait}{4:color}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[Color #373737]",
+    "3": "[0002:0001:]",
+    "4": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "BMsg/b_sys#1432",
+   "label": "Menu_KJ_fb_name_08",
+   "style": 13,
+   "src": "はしご",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": []
+  },
+  {
+   "id": "BMsg/b_sys#1433",
+   "label": "RankUpBonusName_K_1",
+   "style": 13,
+   "src": "カリスマ大魔王",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": []
+  },
+  {
+   "id": "BMsg/b_sys#1434",
+   "label": "SpAtk_14",
+   "style": 12,
+   "src": "ボコスカカメック",
+   "tags": {},
+   "header": "[0009:0000:0C 00]",
+   "dups": [
+    "Item#649",
+    "Menu#654"
+   ]
+  },
+  {
+   "id": "BMsg/b_sys#1435",
+   "label": "Btl_KJ_skill_exp_05",
+   "style": 11,
+   "src": "{1:mode}SPEED５％↑HP１５％↑",
+   "tags": {
+    "1": "[0005:0000:]"
+   },
+   "header": "[0009:0000:0B 00]",
+   "dups": []
+  },
+  {
+   "id": "BMsg/b_sys#1436",
+   "label": "E_ItemExpC_M",
+   "style": 3,
+   "src": "{1:color}クッパJr.{2:color}の経験値が{3:color}１００{4:color}アップ。\n他のキャラにはあげられない",
+   "tags": {
+    "1": "[Color #FF7070]",
+    "2": "[Color #E6E6E6]",
+    "3": "[Color #4ED4FF]",
+    "4": "[Color #E6E6E6]"
+   },
+   "header": "[0009:0000:03 00]",
+   "dups": []
+  },
+  {
+   "id": "BMsg/b_sys#1437",
+   "label": "Hint_Tanpa_0",
+   "style": 12,
+   "src": "どんどん大きくなるタンパくん",
+   "tags": {},
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "BMsg/b_sys#1438",
+   "label": "KJGuide_BA15_0",
+   "style": 11,
+   "src": "クチからほのおをまき散らして\n{1:color}前方の敵にダメージ{2:color}を与えます。",
+   "tags": {
+    "1": "[Color #2C64FF]",
+    "2": "[Color #E6E6E6]"
+   },
+   "header": "[0009:0000:0B 00]",
+   "dups": []
+  },
+  {
+   "id": "BMsg/b_sys#1439",
+   "label": "KJGuide_BA24_1",
+   "style": 11,
+   "src": "相手にぶつかる時に{1:color}{2:icon}{3:color}ボタン！\nはねとばした相手が落ちてきたタイミングで\n更にもう一度{4:color}{5:icon}{6:color}ボタンを押してつきあげましょう！",
+   "tags": {
+    "1": "[Color #FF4343]",
+    "2": "[U+E000]",
+    "3": "[Color #E6E6E6]",
+    "4": "[Color #FF4343]",
+    "5": "[U+E000]",
+    "6": "[Color #E6E6E6]"
+   },
+   "header": "[0009:0000:0B 00]",
+   "dups": []
+  },
+  {
+   "id": "BMsg/b_sys#1440",
+   "label": "KJGuide_BB10_0",
+   "style": 11,
+   "src": "同種のキャラクターを複数 連れて行くと\n１体で行うアタックよりもさらに強力な\nグループアタックを行います。",
+   "tags": {},
+   "header": "[0009:0000:0B 00]",
+   "dups": []
+  },
+  {
+   "id": "BMsg/b_sys#1441",
+   "label": "KJGuide_BB15",
+   "style": 12,
+   "src": "トゲダメージ",
+   "tags": {},
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "BMsg/b_sys#1443",
+   "label": "KJGuide_O03_2",
+   "style": 11,
+   "src": "メンバーは「軍団へんせい」で\n入れかえることができます。",
+   "tags": {},
+   "header": "[0009:0000:0B 00]",
+   "dups": []
+  },
+  {
+   "id": "BMsg/b_sys#1444",
+   "label": "KJ_Msg_quest_40",
+   "style": 13,
+   "src": "はじめてのバトル",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": []
+  },
+  {
+   "id": "BMsg/b_sys#1445",
+   "label": "Kj_Btl_cmd_msg_patabroth4",
+   "style": 6,
+   "src": "ククク…\nこの攻撃に耐えられるかな…",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "BMsg/b_sys#1446",
+   "label": "Kj_Btl_param_change_02",
+   "style": 12,
+   "src": "{1:mode}敵のPOWアップ！",
+   "tags": {
+    "1": "[0005:0000:]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "BMsg/b_sys#1447",
+   "label": "Kj_Btl_slc_koushou_13",
+   "style": 6,
+   "src": "{1:mode}キミだけ見逃してあげよう。",
+   "tags": {
+    "1": "[0005:0000:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "BMsg/b_sys#1448",
+   "label": "MES_KGarakuta_08_mes_06",
+   "style": 6,
+   "src": "{1:align}{2:align}{3:mode}マリオ！{4:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0005:0000:]",
+    "4": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "BMsg/b_sys#1450",
+   "label": "Menu_KJ_Chr_exp_togemet",
+   "style": 13,
+   "src": "鋭いトゲとカタいコウラで背中の守りはカンペキ。\nトゲを使ってのつきあげは 極力うちけしたい。",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": []
+  },
+  {
+   "id": "BMsg/b_sys#1451",
+   "label": "Menu_KJ_Chr_exp_wanwan",
+   "style": 13,
+   "src": "鎖を離したら最後 誰にも止めることができない。\nハズしやすいが その破壊力はバツグン。",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": []
+  },
+  {
+   "id": "BMsg/b_sys#1453",
+   "label": "RankUpBonusName_K_2",
+   "style": 13,
+   "src": "にくしょくけい大魔王",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": []
+  },
+  {
+   "id": "BMsg/b_sys#1454",
+   "label": "SpAtk_15",
+   "style": 12,
+   "src": "ボコスカブロドッグ",
+   "tags": {},
+   "header": "[0009:0000:0C 00]",
+   "dups": [
+    "Item#680",
+    "Menu#661"
+   ]
+  },
+  {
+   "id": "BMsg/b_sys#1455",
+   "label": "Btl_KJ_skill_exp_06",
+   "style": 11,
+   "src": "{1:mode}DEF１５％↑HP５％↑",
+   "tags": {
+    "1": "[0005:0000:]"
+   },
+   "header": "[0009:0000:0B 00]",
+   "dups": []
+  },
+  {
+   "id": "BMsg/b_sys#1456",
+   "label": "Hint_Hmucho_0",
+   "style": 12,
+   "src": "ハナムーチョの花びらを吸い込もう",
+   "tags": {},
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "BMsg/b_sys#1457",
+   "label": "KJGuide_BA15_1",
+   "style": 11,
+   "src": "サークルがキャラクターの\n真ん中に来たら{1:color}{2:icon}{3:color}ボタンを押しましょう。\nタイミングが良ければ 多くのほのおをまき散らします。",
+   "tags": {
+    "1": "[Color #FF4343]",
+    "2": "[U+E000]",
+    "3": "[Color #E6E6E6]"
+   },
+   "header": "[0009:0000:0B 00]",
+   "dups": []
+  },
+  {
+   "id": "BMsg/b_sys#1458",
+   "label": "KJGuide_BA24_2",
+   "style": 11,
+   "src": "グループアタックの場合は\nはねとばした相手を別の仲間に向かって飛ばし\n続けてつきあげを行うことができます。",
+   "tags": {},
+   "header": "[0009:0000:0B 00]",
+   "dups": []
+  },
+  {
+   "id": "BMsg/b_sys#1459",
+   "label": "KJGuide_BB06_0",
+   "style": 11,
+   "src": "モンスターは大きく分けて\n３つのタイプに分けられます。",
+   "tags": {},
+   "header": "[0009:0000:0B 00]",
+   "dups": []
+  },
+  {
+   "id": "BMsg/b_sys#1461",
+   "label": "Kj_Btl_param_change_03",
+   "style": 12,
+   "src": "{1:mode}味方のPOWダウン！",
+   "tags": {
+    "1": "[0005:0000:]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "BMsg/b_sys#1462",
+   "label": "Kj_Btl_slc_koushou_14",
+   "style": 6,
+   "src": "{1:mode}よく考えるんだ。",
+   "tags": {
+    "1": "[0005:0000:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "BMsg/b_sys#1463",
+   "label": "Kyutto",
+   "style": 13,
+   "src": "キュット",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": []
+  },
+  {
+   "id": "BMsg/b_sys#1464",
+   "label": "RankUpBonusName_K_3",
+   "style": 13,
+   "src": "大魔王のちから",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": []
+  },
+  {
+   "id": "BMsg/b_sys#1465",
+   "label": "RankUpBonusName_ML_1",
+   "style": 13,
+   "src": "マッスルブラザー",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": []
+  },
+  {
+   "id": "BMsg/b_sys#1466",
+   "label": "Wanwan",
+   "style": 13,
+   "src": "ワンワン",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": [
+    "BMsg/b_sys#1775"
+   ]
+  },
+  {
+   "id": "BMsg/b_sys#1467",
+   "label": "Btl_KJ_skill_exp_07",
+   "style": 11,
+   "src": "{1:mode}POW２０％↑",
+   "tags": {
+    "1": "[0005:0000:]"
+   },
+   "header": "[0009:0000:0B 00]",
+   "dups": []
+  },
+  {
+   "id": "BMsg/b_sys#1468",
+   "label": "Dstar_x",
+   "style": 13,
+   "src": "ダークスターX",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": [
+    "Menu#149"
+   ]
+  },
+  {
+   "id": "BMsg/b_sys#1469",
+   "label": "E_ItemEv",
+   "style": 3,
+   "src": "モートンからもらった焼きすぎてコゲたチキン。\nニガそうで食べる気がしない…",
+   "tags": {},
+   "header": "[0009:0000:03 00]",
+   "dups": []
+  },
+  {
+   "id": "BMsg/b_sys#1470",
+   "label": "Gmonster_x",
+   "style": 13,
+   "src": "ガラクタモンスターX",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": [
+    "Menu#639"
+   ]
+  },
+  {
+   "id": "BMsg/b_sys#1471",
+   "label": "Hint_Hsambo_0",
+   "style": 12,
+   "src": "ハガサンボンはバキュームで一網打尽",
+   "tags": {},
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "BMsg/b_sys#1472",
+   "label": "Hint_pcatk_0",
+   "style": 11,
+   "src": "攻撃が 成功しないときは\n「{1:color}おてほん{2:color}」や「{3:color}れんしゅう{4:color}」を 使ってみましょう。",
+   "tags": {
+    "1": "[Color #2C64FF]",
+    "2": "[Color #E6E6E6]",
+    "3": "[Color #2C64FF]",
+    "4": "[Color #E6E6E6]"
+   },
+   "header": "[0009:0000:0B 00]",
+   "dups": []
+  },
+  {
+   "id": "BMsg/b_sys#1473",
+   "label": "KJGuide_BA15_2",
+   "style": 11,
+   "src": "グループアタックの場合は\n全員が一斉にほのおを吐きます。",
+   "tags": {},
+   "header": "[0009:0000:0B 00]",
+   "dups": []
+  },
+  {
+   "id": "BMsg/b_sys#1474",
+   "label": "KJGuide_BB06_1",
+   "style": 11,
+   "src": "敵に突撃する「{1:color}とつげきタイプ{2:color}」は\n「えんきょりタイプ」に対して有利ですが\n「ひこうタイプ」が苦手です。",
+   "tags": {
+    "1": "[Color #2C64FF]",
+    "2": "[Color #E6E6E6]"
+   },
+   "header": "[0009:0000:0B 00]",
+   "dups": []
+  },
+  {
+   "id": "BMsg/b_sys#1476",
+   "label": "Kj_Btl_cmd_msg_kurae",
+   "style": 9,
+   "src": "くらえ！",
+   "tags": {},
+   "header": "[0009:0000:09 00]",
+   "dups": []
+  },
+  {
+   "id": "BMsg/b_sys#1477",
+   "label": "Kj_Btl_koopa_e_7_01",
+   "style": 6,
+   "src": "{1:color}{2:var}{3:color}秒だけ…{4:pause} 遊んでやる。{5:wait}",
+   "tags": {
+    "1": "[Color #2C64FF]",
+    "2": "[0003:0000:00 00 00 00 00 00]",
+    "3": "[Color #373737]",
+    "4": "[0002:0000:14 00]",
+    "5": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "BMsg/b_sys#1478",
+   "label": "Kj_Btl_param_change_04",
+   "style": 12,
+   "src": "{1:mode}敵のPOWダウン！",
+   "tags": {
+    "1": "[0005:0000:]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "BMsg/b_sys#1479",
+   "label": "Kj_Btl_slc_koushou_15",
+   "style": 6,
+   "src": "{1:mode}条件を聞こう。",
+   "tags": {
+    "1": "[0005:0000:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "BMsg/b_sys#1480",
+   "label": "MES_KGarakuta_08_mes_08",
+   "style": 6,
+   "src": "{1:align}このトゲがあるモンスターには\nジャンプ攻撃ができないみたい。{2:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "BMsg/b_sys#1481",
+   "label": "Menu_KJ_Chr_exp_schu",
+   "style": 13,
+   "src": "かわいい見た目だが 油断は禁物。\n燃えやすいため{1:color}ほのおの攻撃{2:color}が苦手らしい。",
+   "tags": {
+    "1": "[Color #4ED4FF]",
+    "2": "[Color #E6E6E6]"
+   },
+   "header": "[0009:0000:0D 00]",
+   "dups": []
+  },
+  {
+   "id": "BMsg/b_sys#1483",
+   "label": "RankUpBonusName_K_4",
+   "style": 13,
+   "src": "大魔王のいげん",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": []
+  },
+  {
+   "id": "BMsg/b_sys#1484",
+   "label": "RankUpBonusName_ML_2",
+   "style": 13,
+   "src": "カリスマブラザー",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": []
+  },
+  {
+   "id": "BMsg/b_sys#1485",
+   "label": "SpAtk_09_0",
+   "style": 11,
+   "src": "マリオ達がどかんに入って グルグル回転してから\nモンスターをふみつけるので どちらが下にいるのかを\n判断してボタンを入力しましょう。",
+   "tags": {},
+   "header": "[0009:0000:0B 00]",
+   "dups": [
+    "Menu#673"
+   ]
+  },
+  {
+   "id": "BMsg/b_sys#1486",
+   "label": "Tkuribo",
+   "style": 13,
+   "src": "タワークリボー",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": []
+  },
+  {
+   "id": "BMsg/b_sys#1487",
+   "label": "BtlGuide_25_0",
+   "style": 11,
+   "src": "モンスターの攻撃中{1:color} {2:icon}{3:color}ボタンを押すと\nその場に伏せて {4:color}コウラで防御{5:color}します。",
+   "tags": {
+    "1": "[Color #FF9600]",
+    "2": "[U+E003]",
+    "3": "[Color #E6E6E6]",
+    "4": "[Color #2C64FF]",
+    "5": "[Color #E6E6E6]"
+   },
+   "header": "[0009:0000:0B 00]",
+   "dups": [
+    "Menu#677"
+   ]
+  },
+  {
+   "id": "BMsg/b_sys#1488",
+   "label": "E_ItemGdd_C",
+   "style": 3,
+   "src": "{1:color}クッパJr.{2:color}が食べると\nGDDが{3:color}１{4:color}アップするチキン。",
+   "tags": {
+    "1": "[Color #FF7070]",
+    "2": "[Color #E6E6E6]",
+    "3": "[Color #4ED4FF]",
+    "4": "[Color #E6E6E6]"
+   },
+   "header": "[0009:0000:03 00]",
+   "dups": []
+  },
+  {
+   "id": "BMsg/b_sys#1489",
+   "label": "E_ItemSpd_C",
+   "style": 3,
+   "src": "{1:color}クッパJr.{2:color}が食べると\nSPEEDが{3:color}１{4:color}アップするチキン。",
+   "tags": {
+    "1": "[Color #FF7070]",
+    "2": "[Color #E6E6E6]",
+    "3": "[Color #4ED4FF]",
+    "4": "[Color #E6E6E6]"
+   },
+   "header": "[0009:0000:03 00]",
+   "dups": []
+  },
+  {
+   "id": "BMsg/b_sys#1490",
+   "label": "Hint_Gerapoo_0",
+   "style": 12,
+   "src": "ゲラプーの石投げの避け方",
+   "tags": {},
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "BMsg/b_sys#1491",
+   "label": "Hint_Ydrill_0_0",
+   "style": 11,
+   "src": "攻撃する時 まず目で確認します。\n上を見たらマリオに\n下を見たらルイージに攻撃します。",
+   "tags": {},
+   "header": "[0009:0000:0B 00]",
+   "dups": []
+  },
+  {
+   "id": "BMsg/b_sys#1492",
+   "label": "Hint_pcatk_1",
+   "style": 11,
+   "src": "それでも うまくできない時は\n「{1:color}かんたんアタックモード{2:color}」を 使ってみましょう。",
+   "tags": {
+    "1": "[Color #2C64FF]",
+    "2": "[Color #E6E6E6]"
+   },
+   "header": "[0009:0000:0B 00]",
+   "dups": []
+  },
+  {
+   "id": "BMsg/b_sys#1493",
+   "label": "KJGuide_BB06_2",
+   "style": 11,
+   "src": "空を飛べる「{1:color}ひこうタイプ{2:color}」は\n「とつげきタイプ」に対して有利ですが\n「えんきょりタイプ」が苦手です。",
+   "tags": {
+    "1": "[Color #2C64FF]",
+    "2": "[Color #E6E6E6]"
+   },
+   "header": "[0009:0000:0B 00]",
+   "dups": []
+  },
+  {
+   "id": "BMsg/b_sys#1494",
+   "label": "KJGuide_BC23",
+   "style": 12,
+   "src": "ドンドクドンダZ",
+   "tags": {},
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "BMsg/b_sys#1495",
+   "label": "KJ_Msg_quest_43",
+   "style": 13,
+   "src": "ザコも集まれば…",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": []
+  },
+  {
+   "id": "BMsg/b_sys#1496",
+   "label": "Kj_Btl_koopa_e_7_02",
+   "style": 6,
+   "src": "…そこまでだ。{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "BMsg/b_sys#1497",
+   "label": "Kj_Btl_param_change_05",
+   "style": 12,
+   "src": "{1:mode}味方のDEFアップ！",
+   "tags": {
+    "1": "[0005:0000:]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "BMsg/b_sys#1498",
+   "label": "Larry",
+   "style": 13,
+   "src": "ラリー",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": []
+  },
+  {
+   "id": "BMsg/b_sys#1499",
+   "label": "LvUp1stExp",
+   "style": 12,
+   "src": "{1:align}{2:align}{3:mode}ここではステータスのどれか１つに\nボーナスを割り振ることができます{4:wait}",
+   "tags": {
+    "1": "[0001:0001:]",
+    "2": "[0001:0004:]",
+    "3": "[0005:0000:]",
+    "4": "[0002:0001:]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  }
+ ]
+}

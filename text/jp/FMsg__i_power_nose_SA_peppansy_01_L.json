@@ -1,0 +1,138 @@
+{
+ "source": "Msg/JP_ja/FMsg.dat:i_power_nose_SA_peppansy_01_L",
+ "messages": [
+  {
+   "id": "FMsg/i_power_nose_SA_peppansy_01_L#0",
+   "label": "MES_SA_SUB_KPower_nose_02_SA_NOSE_TUT_11AT",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]こんなふうに\nマリオ[Ruby 達;たち]を [Ruby 動;うご]かして… "
+  },
+  {
+   "id": "FMsg/i_power_nose_SA_peppansy_01_L#1",
+   "label": "MES_SA_SUB_KPower_nose_02_SA_NOSE_TUT_3AT",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]マリオ[Ruby 達;たち]を タッチペンで\n[Color #2C64FF]すばやく スライド[Color #373737][Color #373737]すれば\n[Ruby 花粉;かふん]を[Color #2C64FF] [Color #373737]はじき[Ruby 飛;と]ばせそうね。[Color #373737]"
+  },
+  {
+   "id": "FMsg/i_power_nose_SA_peppansy_01_L#2",
+   "label": "MES_SA_SUB_KPower_nose_02_SA_NOSE_TUT_4BT",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]この[Ruby 調子;ちょうし]で [Ruby 全部;ぜんぶ]の かべに\n[Ruby 花粉;かふん]を [Ruby 当;あ]ててみましょう！ "
+  },
+  {
+   "id": "FMsg/i_power_nose_SA_peppansy_01_L#3",
+   "label": "MES_SA_SUB_KPower_nose_02_SA_NOSE_TUT_8T",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]マリオ！ トゲ[Ruby 花粉;かふん]に\n[Ruby 当;あ]たらないように[Ruby 気;き]をつけてね！ "
+  },
+  {
+   "id": "FMsg/i_power_nose_SA_peppansy_01_L#4",
+   "label": "MES_SA_SUB_KPower_nose_02_SA_NOSE_TUT_01BT",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]それで クッパの[Ruby 鼻;はな]が\n[Ruby 反応;はんのう]してたのね！ "
+  },
+  {
+   "id": "FMsg/i_power_nose_SA_peppansy_01_L#5",
+   "label": "MES_SA_SUB_KPower_nose_02_SA_NOSE_TUT_10T",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Color #2C64FF]スライド[Color #373737][Color #373737]した[Ruby 方向;ほうこう]に\n[Ruby 動;うご]けるわ！ [Color #373737]"
+  },
+  {
+   "id": "FMsg/i_power_nose_SA_peppansy_01_L#6",
+   "label": "MES_SA_SUB_KPower_nose_02_coin_dsp",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0005:0000:][0003:0000:01 00 06 00 00 00]"
+  },
+  {
+   "id": "FMsg/i_power_nose_SA_peppansy_01_L#7",
+   "label": "MES_SA_SUB_KPower_nose_02_SA_NOSE_TUT_6AT",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:][0005:0000:]なに！？ [0002:0000:0F 00]"
+  },
+  {
+   "id": "FMsg/i_power_nose_SA_peppansy_01_L#8",
+   "label": "MES_SA_SUB_KPower_nose_02_SA_NOSE_TUT_7BT",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ハートが\nなくならないように\n[Ruby 気;き]をつけてね！ "
+  },
+  {
+   "id": "FMsg/i_power_nose_SA_peppansy_01_L#9",
+   "label": "MES_SA_SUB_KPower_nose_02_SA_NOSE_TUT_4AT",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 花粉;かふん]が かべに[Ruby 当;あ]たると\n[Ruby 反応;はんのう]して [Ruby 色;いろ]が かわるのね！ "
+  },
+  {
+   "id": "FMsg/i_power_nose_SA_peppansy_01_L#10",
+   "label": "MES_SA_SUB_KPower_nose_02_SA_NOSE_TUT_5BT",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 次;つぎ]は このかべをマリオ[Ruby 達;たち]で\n[Ruby 直接;ちょくせつ] シゲキしちゃいましょう！ "
+  },
+  {
+   "id": "FMsg/i_power_nose_SA_peppansy_01_L#11",
+   "label": "MES_SA_SUB_KPower_nose_02_SA_NOSE_TUT_01AT",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 上;うえ]から [Ruby 落;お]ちてくるのは\n[Ruby 花粉;かふん]だわ… "
+  },
+  {
+   "id": "FMsg/i_power_nose_SA_peppansy_01_L#12",
+   "label": "MES_SA_SUB_KPower_nose_02_SA_NOSE_TUT_11BT",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 花粉;かふん]を かべの[Ruby 方;ほう]に\nはじき[Ruby 飛;と]ばしてみましょう！ "
+  },
+  {
+   "id": "FMsg/i_power_nose_SA_peppansy_01_L#13",
+   "label": "MES_SA_SUB_KPower_nose_02_SA_NOSE_TUT_9T",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]たとえば こうやって\nマリオ[Ruby 達;たち]を なぞると… "
+  },
+  {
+   "id": "FMsg/i_power_nose_SA_peppansy_01_L#14",
+   "label": "MES_SA_SUB_KPower_nose_02_SA_NOSE_TUT_02T",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]このかべに [Ruby 花粉;かふん]を [Ruby 当;あ]てれば\nクッパの[Ruby 体;からだ]に なにか\n[Ruby 起;お]きるんじゃないかしら？ "
+  },
+  {
+   "id": "FMsg/i_power_nose_SA_peppansy_01_L#15",
+   "label": "MES_SA_SUB_KPower_nose_02_SA_NOSE_TUT_7AT",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]トゲ[Ruby 花粉;かふん]に [Ruby 当;あ]たると\nハートが １つ\n[Ruby 減;へ]っちゃうのね… "
+  },
+  {
+   "id": "FMsg/i_power_nose_SA_peppansy_01_L#16",
+   "label": "MES_sys_minigame_relief_01",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0001:0001:]クリアしたことにして\nお[Ruby 話;はなし]を [Ruby 先;さき]に[Ruby 進;すす]めますか？[0002:0000:0A 00]\n[0005:0000:][0004:0000:]いいえ[0006:0000:28 00][0004:0000:]はい"
+  },
+  {
+   "id": "FMsg/i_power_nose_SA_peppansy_01_L#17",
+   "label": "MES_SA_SUB_KPower_nose_02_SA_NOSE_TUT_5AT",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]かべが [Ruby 激;はげ]しく[Ruby 反応;はんのう]してるわね… "
+  },
+  {
+   "id": "FMsg/i_power_nose_SA_peppansy_01_L#18",
+   "label": "MES_SA_SUB_KPower_nose_02_SA_NOSE_TUT_6BT",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]これは さっきの\n[Ruby 花粉;かふん]とは ちがうわ！ "
+  }
+ ]
+}

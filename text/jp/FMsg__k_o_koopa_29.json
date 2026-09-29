@@ -1,0 +1,19 @@
+{
+ "source": "Msg/JP_ja/FMsg.dat:k_o_koopa_29",
+ "messages": [
+  {
+   "id": "FMsg/k_o_koopa_29#0",
+   "label": "Kjrpg_01_Koopa_op01_22",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]よいーしょ…\nよいーしょ…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/k_o_koopa_29#1",
+   "label": "Kjrpg_01_Koopa_op01_23",
+   "style": 9,
+   "attr": "00000000",
+   "jp": "[0009:0000:09 00][0000:0001:02 00]うわー！[0000:0001:FF FF]"
+  }
+ ]
+}

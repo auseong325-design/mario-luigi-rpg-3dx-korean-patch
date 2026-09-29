@@ -1,0 +1,166 @@
+{
+ "source": "Msg/JP_ja/FMsg.dat:i_odoroki_01",
+ "messages": [
+  {
+   "id": "FMsg/i_odoroki_01#0",
+   "label": "MES_KHatena_a_01_Khatena_a_01_mes_01",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]この[Ruby 場所;ばしょ]は…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_odoroki_01#1",
+   "label": "MES_KHatena_a_01_Khatena_a_01_mes_02",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ちょっと [Ruby 待;ま]っててくれる？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_odoroki_01#2",
+   "label": "MES_KHatena_a_01_Khatena_a_01_mes_03",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]これは いったい…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_odoroki_01#3",
+   "label": "MES_KHatena_a_01_Khatena_a_01_mes_04",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]もしかしたら これって…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_odoroki_01#4",
+   "label": "MES_KHatena_a_01_Khatena_a_01_mes_05",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]そうか！ きっとそうね！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_odoroki_01#5",
+   "label": "MES_KHatena_a_01_Khatena_a_01_mes_06",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:][0001:0001:][Ruby 待;ま]たせてゴメンね。[0002:0001:][Next][0001:0000:]この[Ruby 先;さき]に [Ruby 気;き]になるものを\n[Ruby 見;み]つけたわ。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_odoroki_01#6",
+   "label": "MES_KHatena_a_01_Khatena_a_01_mes_07",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 説明;せつめい]するより [Ruby 直接;ちょくせつ]\n[Ruby 見;み]てもらったほうが\n[Ruby 早;はや]いと [Ruby 思;おも]うわ。[0002:0001:][Next][0001:0004:][0001:0001:]この[Ruby 奥;おく]へ [Ruby 進;すす]んでみて！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_odoroki_01#7",
+   "label": "MES_KHatena_a_01_Khatena_a_01_mes_08",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]この[Ruby 奥;おく]に [Ruby 気;き]になるものを\n[Ruby 見;み]つけたわ。[0002:0001:][Next][0001:0004:][0001:0001:]とにかく [Ruby 進;すす]んでみて！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_odoroki_01#8",
+   "label": "MES_KHatena_a_01_Khatena_a_01_mes_09",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]この[Ruby 奥;おく]にあった [Ruby 神経;しんけい]の\n[Ruby 突;つ]き[Ruby 出;で]た[Ruby 部分;ぶぶん]…[0002:0001:][Next]あそこに シゲキをあたえれば\nなにか[Ruby 変化;へんか]が [Ruby 起;お]きると[Ruby 思;おも]うけど…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_odoroki_01#9",
+   "label": "MES_KHatena_a_01_Khatena_a_01_mes_20",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]どうくつ…？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_odoroki_01#10",
+   "label": "MES_KHatena_a_01_Khatena_a_01_mes_21",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:][0001:0001:]おかしいわねぇ…[0002:0001:][Next][0001:0000:][Ruby 私達;わたしたち]を [Ruby 吸;す]い[Ruby 込;こ]んだ\nことも [Ruby 覚;おぼ]えてない…[0002:0001:][Next][Ruby 今;いま] [Ruby 自分;じぶん]がいるところも\nわからないなんて…[0002:0001:][Next][0001:0004:]なにが あったのかしら…？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_odoroki_01#11",
+   "label": "MES_KHatena_a_01_Khatena_a_01_mes_22",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ねえ！ まずは その\nどうくつから [Ruby 出;で]たほうが\nいいんじゃない？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_odoroki_01#12",
+   "label": "MES_KHatena_a_01_Khatena_a_01_mes_23",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]しばらく クッパの[Ruby 様子;ようす]を\n[Ruby 見;み]ていましょう。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_odoroki_01#13",
+   "label": "MES_KHatena_a_01_Khatena_a_01_mes_10",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]これこれ！ これよ！\nこの[Ruby 突;つ]き[Ruby 出;で]た[Ruby 部分;ぶぶん]…[0002:0001:][Next]クッパの[Ruby 体内;たいない]の [Ruby 太;ふと]い[Ruby 神経;しんけい]に\nつながっているみたいよ。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_odoroki_01#14",
+   "label": "MES_KHatena_a_01_Khatena_a_01_mes_11",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ここにシゲキを あたえれば\nなにか[Ruby 変化;へんか]が [Ruby 起;お]きると[Ruby 思;おも]うわ…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_odoroki_01#15",
+   "label": "MES_KHatena_a_01_Khatena_a_01_mes_12",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 目;め]が[Ruby 覚;さ]めたようね。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_odoroki_01#16",
+   "label": "MES_KHatena_a_01_Khatena_a_01_mes_13",
+   "style": 10,
+   "attr": "00000000",
+   "jp": "[0009:0000:0A 00]ねえ！ きこえる～！？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_odoroki_01#17",
+   "label": "MES_KHatena_a_01_Khatena_a_01_mes_14",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:][0001:0001:][Ruby 探;さが]しても ムダよ！[0002:0001:][Next][0001:0000:][Ruby 私;わたし] あなたの[Ruby 体;からだ]の[Ruby 中;なか]に\nいるんですもの！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_odoroki_01#18",
+   "label": "MES_KHatena_a_01_Khatena_a_01_mes_15",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]あなた [Ruby 覚;おぼ]えてないの？\nさっき ピーチ[Ruby 城;じょう]で…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_odoroki_01#19",
+   "label": "MES_KHatena_a_01_Khatena_a_01_mes_16",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]え… [Ruby 覚;おぼ]えてないの？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_odoroki_01#20",
+   "label": "MES_KHatena_a_01_Khatena_a_01_mes_17",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 今;いま]は [Ruby 私達;わたしたち]を[Ruby 吸;す]い[Ruby 込;こ]んだことは\n[Ruby 教;おし]えないで おきましょう。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_odoroki_01#21",
+   "label": "MES_KHatena_a_01_Khatena_a_01_mes_18",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 私;わたし]のことは [Ruby 後;あと]で\n[Ruby 説明;せつめい]するわ！[0002:0001:][Next][0001:0004:][0001:0001:][Ruby 話;はな]すと [Ruby 長;なが]くなるし…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_odoroki_01#22",
+   "label": "MES_KHatena_a_01_Khatena_a_01_mes_19",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:][0001:0001:]え… そ そうかしら？[0002:0001:][Next][0001:0000:]そ そんなことより\n[Ruby 今;いま] どこにいるの？[0002:0001:]"
+  }
+ ]
+}

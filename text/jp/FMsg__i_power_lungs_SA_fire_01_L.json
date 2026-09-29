@@ -1,0 +1,89 @@
+{
+ "source": "Msg/JP_ja/FMsg.dat:i_power_lungs_SA_fire_01_L",
+ "messages": [
+  {
+   "id": "FMsg/i_power_lungs_SA_fire_01_L#0",
+   "label": "MES_SA_SUB_KPower_lungs_01_SA_LUG_TUT_8BT",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]マリオ[Ruby 達;たち]を いろんな[Ruby 方向;ほうこう]に\nはじいて クッパを\n[Ruby 上;うえ]まで [Ruby 行;い]かせましょう！ "
+  },
+  {
+   "id": "FMsg/i_power_lungs_SA_fire_01_L#1",
+   "label": "MES_SA_SUB_KPower_lungs_01_SA_LUG_TUT_5T",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 思;おも]いっきり [Ruby 引;ひ]っ[Ruby 張;ぱ]れば\n[Ruby 高;たか]く [Ruby 飛;と]べるんじゃない？ "
+  },
+  {
+   "id": "FMsg/i_power_lungs_SA_fire_01_L#2",
+   "label": "MES_SA_SUB_KPower_lungs_01_SA_LUG_TUT_7T",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]うまくいったわね！"
+  },
+  {
+   "id": "FMsg/i_power_lungs_SA_fire_01_L#3",
+   "label": "MES_SA_SUB_KPower_lungs_01_SA_LUG_TUT_02AT",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]やっぱり そうだわ！ "
+  },
+  {
+   "id": "FMsg/i_power_lungs_SA_fire_01_L#4",
+   "label": "MES_SA_SUB_KPower_lungs_01_SA_LUG_TUT_01BT",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 今;いま] クッパが ちょっと\nジャンプしなかった？ "
+  },
+  {
+   "id": "FMsg/i_power_lungs_SA_fire_01_L#5",
+   "label": "MES_SA_SUB_KPower_lungs_01_SA_LUG_TUT_8AT",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]マリオ[Ruby 達;たち]を はじいた[Ruby 方向;ほうこう]に\nクッパが [Ruby 飛;と]ぶみたいだから… "
+  },
+  {
+   "id": "FMsg/i_power_lungs_SA_fire_01_L#6",
+   "label": "MES_SA_SUB_KPower_lungs_01_SA_LUG_TUT_4T",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]タッチペンを はなすと\nマリオ[Ruby 達;たち]が はじかれて\nクッパも [Ruby 飛;と]び[Ruby 上;あ]がるわ！ "
+  },
+  {
+   "id": "FMsg/i_power_lungs_SA_fire_01_L#7",
+   "label": "MES_SA_SUB_KPower_lungs_01_SA_LUG_TUT_6T",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]マリオ！ こっちよ！"
+  },
+  {
+   "id": "FMsg/i_power_lungs_SA_fire_01_L#8",
+   "label": "MES_sys_minigame_relief_01",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0001:0001:]クリアしたことにして\nお[Ruby 話;はなし]を [Ruby 先;さき]に[Ruby 進;すす]めますか？[0002:0000:0A 00]\n[0005:0000:][0004:0000:]いいえ[0006:0000:28 00][0004:0000:]はい"
+  },
+  {
+   "id": "FMsg/i_power_lungs_SA_fire_01_L#9",
+   "label": "MES_SA_SUB_KPower_lungs_01_SA_LUG_TUT_01AT",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0001:][0005:0000:]ねえ！ [0002:0000:0A 00]"
+  },
+  {
+   "id": "FMsg/i_power_lungs_SA_fire_01_L#10",
+   "label": "MES_SA_SUB_KPower_lungs_01_SA_LUG_TUT_02BT",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]マリオ[Ruby 達;たち]を はじくと\nその[Ruby 反動;はんどう]で クッパが\n[Ruby 飛;と]び[Ruby 上;あ]がるのよ！ "
+  },
+  {
+   "id": "FMsg/i_power_lungs_SA_fire_01_L#11",
+   "label": "MES_SA_SUB_KPower_lungs_01_SA_LUG_TUT_3T",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]タッチペンで マリオ[Ruby 達;たち]を\n[Ruby 引;ひ]っ[Ruby 張;ぱ]って… "
+  }
+ ]
+}

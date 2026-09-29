@@ -1,0 +1,16 @@
+{
+ "batch": "FMsg__o_areanone_dstar_setumei_01_L",
+ "translations": {
+  "FMsg/o_areanone_dstar_setumei_01_L#0": "{1:align}{2:align}{3:color}다크스타{4:color}{5:color}를 버섯 타운의\n지하 깊숙이 봉인해 두었답니다…{6:color}",
+  "FMsg/o_areanone_dstar_setumei_01_L#1": "{1:align}{2:align}아득히 먼 옛날, 버섯 왕국의\n대지 깊숙한 곳에 잠들어 있던\n스타가 세상으로 나오게 되었어요…{3:color}{4:wait}{5:color}",
+  "FMsg/o_areanone_dstar_setumei_01_L#2": "{1:align}{2:align}하지만 그 스타는\n악의 힘을 갖고 있던\n끔찍한 스타…{3:color}{4:wait}{5:color}",
+  "FMsg/o_areanone_dstar_setumei_01_L#3": "{1:align}{2:align}{3:color}다크스타{4:color}{5:color}였어요.{6:wait}{7:color}",
+  "FMsg/o_areanone_dstar_setumei_01_L#4": "{1:align}{2:align}악한 마음을 가진 자가 {3:color}다크스타{4:color}{5:color}를\n손에 넣으면 세계는 순식간에\n암흑의 세계로 변하게 되며…{6:wait}{7:color}",
+  "FMsg/o_areanone_dstar_setumei_01_L#5": "{1:align}{2:align}이를 우려한 스타의 정령들은\n오랜 세월 동안\n수많은 희생을 치르며…{3:color}{4:wait}{5:color}",
+  "FMsg/o_areanone_dstar_setumei_01_L#6": "{1:align}{2:align}그 악한 마음을 가진 자가\n세계를 지배하게 되고 말지요…{3:color}{4:wait}{5:color}"
+ },
+ "new_terms": [],
+ "notes": {
+  "FMsg/o_areanone_dstar_setumei_01_L#1": "DS095#0 그대로. 3DX 'ほり出されました'(파내졌다)를 DS는 '세상으로 나오게 되었어요'로 옮겼고 뜻이 통해 유지"
+ }
+}

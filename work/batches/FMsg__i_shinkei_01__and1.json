@@ -1,0 +1,374 @@
+{
+ "batch": "FMsg__i_shinkei_01__and1",
+ "rooms": [
+  "i_shinkei_01",
+  "i_shinkei_03"
+ ],
+ "ds_rooms": [
+  "03A",
+  "03C"
+ ],
+ "ds_reference": [
+  "DS03A#0: 이건 아까 밭에 있던\n애벌레의 일종인가?",
+  "DS03A#1: 아마 쿠파가 먹은 당근에\n붙어 있었나 봐!",
+  "DS03A#2: 그런데 어쩌다가 이렇게\n덩치가 커진 걸까…",
+  "DS03A#3: 방금 그 하얀 녀석들이 애벌레를\n크게 키운 원인인가 봐!",
+  "DS03A#4: 마리오, 어쩌지?",
+  "DS03A#5: 하긴 그래… 지금 쿠파가\n움직여 주지 않으면 안 되긴 해.",
+  "DS03A#6: 이 애벌레한텐 미안하지만\n지금 쓰러뜨려 버리자!",
+  "DS03C#0: 아무래도 갇혀 버렸나 봐!",
+  "DS03C#1: 왠지 익숙한 목소리…[Next]거기에 혹시\n마리오님이 계신가요?",
+  "DS03C#2: 여, 역시! 마리오님![Next]전 키노클입니다!",
+  "DS03C#3: 저도 피치 성에서\n쿠파에게 먹히고 말았어요.[Next]아아~ 여기에서 이렇게\n만나다니 기쁘기도 하고\n슬프기도 하고…",
+  "DS03C#4: 당신도 하얀 녀석들한테\n당해서 여기로 떨어진 거야?",
+  "DS03C#5: 네…[Next]그 하얀 녀석들은 쿠파의 몸속에\n들어온 방해꾼들을 물리치는\n역할을 하는 것 같더군요.",
+  "DS03C#6: …그건 그렇고 여긴\n꽤나 재미있는 곳입니다![Next]처음 보는 것들뿐이라\n모든 것이 새로운 발견입니다!",
+  "DS03C#7: 네? 피치공주님?[Next]그랬군요… 피치공주님까지\n쿠파가 빨아들이고 말았군요…[Next]하지만 이 근처에는\n피치공주님이 안 계십니다…[Next]분명 깊숙한 안쪽까지\n들어가신 게 아닐까요…?[Next]조금 더 안쪽으로\n가 보는 수밖에 없겠어요.",
+  "DS03C#8: 우선은 여기에서 나가야 돼…",
+  "DS03C#9: 아무래도 쿠파의 팔에\n변화가 생겼나 봅니다.",
+  "DS03C#10: 팔에 변화?",
+  "DS03C#11: 제 조사에 따르면 이 신경은\n쿠파의 팔에 큰 영향을 주는\n신경입니다…[Next]방금 자극을 받은 덕분에\n걸으면서 펀치를 하면 아마도\n펀치가 더 강해질 것입니다!",
+  "DS03C#12: 내 말 들려?\n펀치의 힘이 강해졌나 봐!\n걸으면서 펀치해 보지 않을래?",
+  "DS03C#13: 그래! 어쩌면\n지금껏 부수지 못했던 것을\n부술 수 있을지도 몰라!",
+  "DS03C#14: 정중하게\n사양하겠어…",
+  "DS03C#15: 그럼 전\n다른 장소도 좀 더\n조사해 보고 오겠습니다.[Next]새로운 걸 알게 되면\n여러분께도 알려 드릴게요.\n그럼 또 봬요!"
+ ],
+ "glossary": [
+  {
+   "jp": "パンチ",
+   "ko": "펀치",
+   "type": "ability",
+   "basis": "DS",
+   "source": "BData__mfset_Help#14",
+   "note": "필드 액션·배틀 커맨드 공통 [gl_attacks]"
+  },
+  {
+   "jp": "キノックル",
+   "ko": "키노클",
+   "type": "character",
+   "basis": "DS",
+   "source": "i_kinopio_01#3 ↔ DS16A#10",
+   "note": "room-align"
+  },
+  {
+   "jp": "クッパ",
+   "ko": "쿠파",
+   "type": "character",
+   "basis": "DS",
+   "source": "BData__mfset_Help#21",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "ピーチ姫",
+   "ko": "피치공주",
+   "type": "character",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesOutline#13",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "マリオ",
+   "ko": "마리오",
+   "type": "character",
+   "basis": "DS",
+   "source": "BData__mfset_Help#19",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "ピーチ城",
+   "ko": "피치 성",
+   "type": "place",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesPlace#1",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "仲間",
+   "ko": "동료",
+   "type": "term",
+   "basis": "DS",
+   "source": "FEvent:048#29",
+   "note": "「仲間になった」→'동료가 되었다' [gl_kj]"
+  }
+ ],
+ "messages": [
+  {
+   "id": "FMsg/i_shinkei_01#0",
+   "label": "MES_KHatena_c_01_Khatena_c_01_mes_1",
+   "style": 6,
+   "src": "これ さっきの畑にいた\nイモムシの仲間？{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_shinkei_01#1",
+   "label": "MES_KHatena_c_01_Khatena_c_01_mes_2",
+   "style": 6,
+   "src": "きっと クッパが食べたニンジンに\nくっついていたんだわ！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_shinkei_01#2",
+   "label": "MES_KHatena_c_01_Khatena_c_01_mes_3",
+   "style": 6,
+   "src": "でも どうしてこんなに\n大きくなったのかしら…{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_shinkei_01#3",
+   "label": "MES_KHatena_c_01_Khatena_c_01_mes_4",
+   "style": 6,
+   "src": "あの白いやつらが このイモムシが\n大きくなった 原因だったのね！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_shinkei_01#4",
+   "label": "MES_KHatena_c_01_Khatena_c_01_mes_5",
+   "style": 6,
+   "src": "マリオ どうする？{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_shinkei_01#5",
+   "label": "MES_KHatena_c_01_Khatena_c_01_mes_6",
+   "style": 6,
+   "src": "そうね… 今は クッパに\n歩いてもらわないと こまるものね。{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_shinkei_01#6",
+   "label": "MES_KHatena_c_01_Khatena_c_01_mes_7",
+   "style": 6,
+   "src": "このイモムシには 悪いけど\nここで たいじしましょう！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_shinkei_03#0",
+   "label": "MES_KHatena_c_03_Khatena_c_03_mes_1",
+   "style": 6,
+   "src": "どうやら 閉じ込められたみたいね…{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_shinkei_03#1",
+   "label": "MES_KHatena_c_03_Khatena_c_03_mes_2",
+   "style": 6,
+   "src": "{1:align}なんだか 聞き覚えのある声…{2:wait}[Next]そこにいるのは もしや\nマリオさん？{3:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_shinkei_03#2",
+   "label": "MES_KHatena_c_03_Khatena_c_03_mes_3",
+   "style": 6,
+   "src": "や やっぱり！ マリオさん！{1:wait}[Next]ボクです！ キノックルです！{2:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_shinkei_03#3",
+   "label": "MES_KHatena_c_03_Khatena_c_03_mes_4",
+   "style": 6,
+   "src": "{1:align}ボクも ピーチ城で\nクッパに 吸い込まれたんです。{2:wait}[Next]ああ こんなところで\nこんな かたちで会うなんて\nうれしいような かなしいような…{3:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_shinkei_03#4",
+   "label": "MES_KHatena_c_03_Khatena_c_03_mes_5",
+   "style": 6,
+   "src": "あなたも あの白いやつらに\nおそわれて ここに落ちたの？{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_shinkei_03#5",
+   "label": "MES_KHatena_c_03_Khatena_c_03_mes_6",
+   "style": 6,
+   "src": "{1:align}はい…{2:wait}[Next]あの白いやつらは クッパの体に\n入ってきた ジャマなモノを\nやっつけるのが 仕事のようです。{3:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_shinkei_03#6",
+   "label": "MES_KHatena_c_03_Khatena_c_03_mes_7",
+   "style": 6,
+   "src": "…でも ここはなかなか\n面白い ところですよ！{1:wait}[Next]見たことないような ものだらけで\n新しい発見で いっぱいです！{2:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_shinkei_03#7",
+   "label": "MES_KHatena_c_03_Khatena_c_03_mes_8",
+   "style": 6,
+   "src": "{1:align}{2:align}えっ？ ピーチ姫？{3:wait}[Next]{4:align}そうですか ピーチ姫も\nクッパに 吸い込まれたんですね…{5:wait}[Next]残念ながら このあたりには\nピーチ姫は いないようです…{6:wait}[Next]きっと もっと深いところに\n入り込んでしまったんでしょう…{7:wait}[Next]もう少しがんばって 奥まで\n進んでいくしかないようです。{8:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0001:]",
+    "4": "[0001:0000:]",
+    "5": "[0002:0001:]",
+    "6": "[0002:0001:]",
+    "7": "[0002:0001:]",
+    "8": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_shinkei_03#8",
+   "label": "MES_KHatena_c_03_Khatena_c_03_mes_9",
+   "style": 6,
+   "src": "でもその前に ここから出ないと…{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_shinkei_03#9",
+   "label": "MES_KHatena_c_03_Khatena_c_03_mes_10",
+   "style": 6,
+   "src": "どうやら クッパのうでに\n変化を 起こしたようですね。{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_shinkei_03#10",
+   "label": "MES_KHatena_c_03_Khatena_c_03_mes_11",
+   "style": 6,
+   "src": "うでに変化？{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_shinkei_03#11",
+   "label": "MES_KHatena_c_03_Khatena_c_03_mes_12",
+   "style": 6,
+   "src": "ボクの調査では このポイントは\nクッパのうでに 大きな変化を\nあたえるはず…{1:wait}[Next]たぶん {2:color}歩きながらパンチ{3:color}{4:color}すると\n今までより 強いパンチに\nなるはずです！{5:wait}{6:color}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[Color #2C64FF]",
+    "3": "[Color #373737]",
+    "4": "[Color #373737]",
+    "5": "[0002:0001:]",
+    "6": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_shinkei_03#12",
+   "label": "MES_KHatena_c_03_Khatena_c_03_mes_13",
+   "style": 6,
+   "src": "ねえ！\nパンチのチカラが 上がったらしいわ！\n{1:color}歩きながらパンチ{2:color}{3:color} してみて！{4:wait}{5:color}",
+   "tags": {
+    "1": "[Color #2C64FF]",
+    "2": "[Color #373737]",
+    "3": "[Color #373737]",
+    "4": "[0002:0001:]",
+    "5": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_shinkei_03#13",
+   "label": "MES_KHatena_c_03_Khatena_c_03_mes_14",
+   "style": 6,
+   "src": "そう！ そうすれば\n今まで こわせなかったモノも\nこわせるんじゃない？{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_shinkei_03#14",
+   "label": "MES_KHatena_c_03_Khatena_c_03_mes_15",
+   "style": 6,
+   "src": "ありがたく\nえんりょします…{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_shinkei_03#15",
+   "label": "MES_KHatena_c_03_Khatena_c_03_mes_16",
+   "style": 6,
+   "src": "それでは ボクは\nもう少し 他の場所も調べに\n行ってきます。{1:wait}[Next]また なにか発見をしたら\nみなさんに 教えますね。\nそれでは また！{2:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  }
+ ]
+}

@@ -1,0 +1,103 @@
+{
+ "source": "Msg/JP_ja/FMsg.dat:o_town_41",
+ "messages": [
+  {
+   "id": "FMsg/o_town_41#0",
+   "label": "MES_TKinoko_41_Kinoko_town_kinopio_22",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]よろしければ\nヒゲそりのサービスも\n[Ruby 用意;ようい]して ございますが…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_41#1",
+   "label": "MES_TKinoko_41_Kinoko_town_kinopio_23",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]いかがですか？ [0002:0000:0A 00]よろしければ\n[Ruby 上;うえ]をごらんください。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_41#2",
+   "label": "MES_TKinoko_41_Kinoko_town_kinopio_24",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 満天;まんてん]の[Ruby 星空;ほしぞら]の[Ruby 下;した]で\nお[Ruby 時間;じかん]のゆるす[Ruby 限;かぎ]り お[Ruby 買;か]いものを\nお[Ruby 楽;たの]しみになってください。[0002:0001:][Next][0001:0004:]では ご[Ruby 注文;ちゅうもん]をうけたまわります。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_41#3",
+   "label": "MES_TKinoko_41_Kinoko_town_kinopio_25",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ありがとうございました～！\nまたの ご[Ruby 来店;らいてん]をこころより\nお[Ruby 待;ま]ちしております～！[0002:0000:3C 00]"
+  },
+  {
+   "id": "FMsg/o_town_41#4",
+   "label": "MES_TKinoko_41_Kinoko_town_kinopio_26",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ありがとうございました。\nまたの ご[Ruby 来店;らいてん]をこころより\nお[Ruby 待;ま]ちしております。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_41#5",
+   "label": "MES_TKinoko_41_Kinoko_town_kinopio_27",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]お[Ruby 客様;きゃくさま]… [Ruby 本日;ほんじつ]は…[0002:0000:0A 00]\n[0004:0001:][0006:0001:14 00]とっとと [Ruby 買;か]いものをすませる\n[0004:0001:][0006:0001:14 00]ゆったりと サービスしてもらう[0002:0000:0A 00]"
+  },
+  {
+   "id": "FMsg/o_town_41#6",
+   "label": "MES_TKinoko_41_Kinoko_town_kinopio_27_r",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0005:0000:][0001:0004:][0001:0001:]HPとBP[Ruby 全回復;ぜんかいふく]！！[0002:0000:28 00][0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_41#7",
+   "label": "MES_TKinoko_41_Kinoko_town_kinopio_16",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]お[Ruby 客様;きゃくさま]…[0002:0000:0A 00] いらっしゃる[Ruby 場所;ばしょ]を\nおまちがえのようですね。[0002:0001:][Next][Ruby 当店;とうてん]は [Color #2C64FF]スターランク[Color #373737][Color #373737][Ruby 以上;いじょう]の\nお[Ruby 客様;きゃくさま]のみ ご[Ruby 利用;りよう]いただけます。[0002:0001:][Next][0001:0004:]どうぞ おひきとりを。[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/o_town_41#8",
+   "label": "MES_TKinoko_41_Kinoko_town_kinopio_17",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]お[Ruby 待;ま]ちしておりました。\nマリオ[Ruby 様;さま]に ルイージ[Ruby 様;さま]ですね。[0002:0001:][Next]どうぞ そちらのステージ[Ruby 台;だい]に\nお[Ruby 乗;の]りください。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_41#9",
+   "label": "MES_TKinoko_41_Kinoko_town_kinopio_18",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]いらっしゃいませ～！[0002:0000:28 00]"
+  },
+  {
+   "id": "FMsg/o_town_41#10",
+   "label": "MES_TKinoko_41_Kinoko_town_kinopio_19",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 本日;ほんじつ]は [Ruby 当店;とうてん]をご[Ruby 指名;しめい]\nご[Ruby 来店;らいてん]いただき まことに\nありがとうございます。[0002:0001:][Next]お[Ruby 客様;きゃくさま]の [Ruby 担当;たんとう]をさせていただく\nキノーピオンです。\nどうぞ お[Ruby 見知;みし]りおきを。[0002:0001:][Next]さて [Ruby 当店;とうてん]では\nお[Ruby 客様;きゃくさま]のために １００[Ruby 点満点;てんまんてん]の\nサービスを [Ruby 用意;ようい]しております。[0002:0001:][Next]まずは こちらの[Ruby 席;せき]へ\nおかけくださいませ。\nさあ どうぞどうぞ。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_41#11",
+   "label": "MES_TKinoko_41_Kinoko_town_kinopio_23_1",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 失礼;しつれい]いたしました。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_41#12",
+   "label": "MES_TKinoko_41_Kinoko_town_kinopio_20",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ロイヤルキノコティーで\nございます。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_41#13",
+   "label": "MES_TKinoko_41_Kinoko_town_kinopio_21",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 足;あし]のマッサージを\nさせていただきます。[0002:0001:]"
+  }
+ ]
+}

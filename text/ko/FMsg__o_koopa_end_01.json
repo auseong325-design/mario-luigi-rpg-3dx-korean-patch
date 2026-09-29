@@ -1,0 +1,38 @@
+{
+ "batch": "FMsg__o_koopa_end_01",
+ "translations": {
+  "FMsg/o_koopa_end_01#0": "저희들… 쿠파 군단으로\n돌아가고 싶습니다~{1:wait}",
+  "FMsg/o_koopa_end_01#1": "까르코비츠 따위에게\n마음을 허락하다니…{1:wait}[Next]정신이 나갔었나 봅니다~\n저희에겐 쿠파님밖에 없습니다~{2:wait}",
+  "FMsg/o_koopa_end_01#2": "굼비와 헤이포,\n그리고 펄러크!!{1:wait}[Next]너희들 아직도 있었느냐?\n당장 나가라!{2:wait}",
+  "FMsg/o_koopa_end_01#3": "{1:align}어흐흑…{2:pause}",
+  "FMsg/o_koopa_end_01#4": "너희들도다!\n당장 쿠파 성을 고쳐라!!{1:wait}",
+  "FMsg/o_koopa_end_01#5": "저희들… 쿠파 군단으로\n복귀시켜 주시는 겁니까!?{1:wait}",
+  "FMsg/o_koopa_end_01#6": "{1:align}알았으니까 빨리 가라!!{2:wait}[Next]다음엔 반드시\n마리오를 물리칠 것이다!{3:wait}",
+  "FMsg/o_koopa_end_01#7": "가,{1:pause} 감사합니다~!!{2:pause}",
+  "FMsg/o_koopa_end_01#8": "피치 성을 덮치러 또\n오는 게 아닐까 싶어서…{1:wait}[Next]{2:align}보러 온 거야.{3:wait}",
+  "FMsg/o_koopa_end_01#9": "{1:align}{2:align}흥!!!{3:wait}[Next]{4:align}이번 일로 이 몸의 성도\n많이 부서지고 말았다.{5:wait}[Next]{6:align}잠시 동안은 얌전히 있어 주마!{7:wait}",
+  "FMsg/o_koopa_end_01#10": "아하하하하!{1:wait}[Next]아주 잘 생각했어!{2:wait}",
+  "FMsg/o_koopa_end_01#11": "시끄럽다!!{1:pause} 당장 돌아가라!{2:wait}",
+  "FMsg/o_koopa_end_01#12": "{1:align}알았어. 돌아갈 거야.{2:wait}[Next]이건 피치공주가 주는\n선물이야!!{3:wait}",
+  "FMsg/o_koopa_end_01#13": "필요 없다!{1:pause} 이런 거!!{2:wait}",
+  "FMsg/o_koopa_end_01#14": "쿠파님…{1:pause}\n안 보실 겁니까?{2:wait}",
+  "FMsg/o_koopa_end_01#15": "시끄럽다!{1:pause} 네 녀석도\n당장 일하러 가라!!{2:wait}",
+  "FMsg/o_koopa_end_01#17": "쿠파님~{1:pause}\n기분은 어떠신가요~?{2:wait}",
+  "FMsg/o_koopa_end_01#18": "배달입니다~ 배달입니다~!{1:wait}[Next]피치 성에서 배달 왔습니다~!{2:wait}",
+  "FMsg/o_koopa_end_01#19": "뭐냐, 뭐야!?{1:wait}",
+  "FMsg/o_koopa_end_01#20": "어이! 아무나\n이 새를 쫓아내라!!{1:wait}",
+  "FMsg/o_koopa_end_01#21": "피치 성에서 뭔가가\n도착한 모양입니다.{1:wait}",
+  "FMsg/o_koopa_end_01#22": "뭐? 피치 성!?{1:wait}",
+  "FMsg/o_koopa_end_01#23": "보내는 사람에 피치공주 이름이…{1:wait}",
+  "FMsg/o_koopa_end_01#24": "{1:align}배달입니다~ 배달입니다~!{2:wait}[Next]피치공주님에게서 몸집이 큰\n괴팍한 분에게 배달 왔습니다~!{3:wait}",
+  "FMsg/o_koopa_end_01#25": "안녕~!!{1:pause}",
+  "FMsg/o_koopa_end_01#26": "뭐야! 너냐?\n대체 무슨 볼일이냐!!{1:wait}"
+ },
+ "new_terms": [],
+ "notes": {
+  "FMsg/o_koopa_end_01#3": "이 문장은 FMsg/o_peach_op_04#38(오프닝, 아이가 병에 걸린 키노피오)에도 자동 복사됨. 여기는 DS23E#22 '어흐흑…'을 썼고, 그쪽 DS218#4는 '으흑흑…'. 둘 다 울음소리라 한쪽으로 통일해도 무리는 없음.",
+  "FMsg/o_koopa_end_01#9": "글로서리 경고(ダメージ→타격)는 의도함: 같은 장면의 DS23E#10 '많이 부서지고 말았다'를 그대로 씀.",
+  "FMsg/o_koopa_end_01#13": "DS23E#14 '이런 거 필요없다!!'의 어순을 바꿔 {1:pause}를 'いらん！' 뒤와 같은 자리(필요없다! 뒤)에 둠. review: DS 오기 수정: '필요없다' → '필요 없다'(띄어쓰기. DS 참조 전체에서 '필요 없' 12회 / '필요없' 1회, 다른 번역 파일도 모두 띄움).",
+  "FMsg/o_koopa_end_01#24": "3DX는 'ピーチ姫から'(DS23E#6은 '피치 성에서')라 '피치공주님에게서'로 고침."
+ }
+}

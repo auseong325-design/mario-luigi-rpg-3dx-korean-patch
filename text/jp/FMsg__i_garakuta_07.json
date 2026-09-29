@@ -1,0 +1,12 @@
+{
+ "source": "Msg/JP_ja/FMsg.dat:i_garakuta_07",
+ "messages": [
+  {
+   "id": "FMsg/i_garakuta_07#0",
+   "label": "MES_KGarakuta_07_KG07_hemoguro",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:][Ruby 私;わたし]は ヘモグロびん[Ruby 的;てき]な\n[Color #2C64FF]セーブブロック[Color #373737][Color #373737]びん。[0002:0001:][Next][0001:0004:]でも しばらくしたら [Ruby 消;き]えちゃう[Ruby 的;てき]な\n[Color #373737][Color #2C64FF]セーブブロック[Color #373737][Color #373737]びん。[0002:0001:][Next][0001:0004:][Color #373737][Color #2C64FF]セーブ[Color #373737][Color #373737]したい[Ruby 的;てき]な？[0002:0000:0A 00]\n[0001:0001:][0004:0001:]いいえ[Ruby 的;てき]な[0006:0000:28 00][0004:0001:]はい[Ruby 的;てき]な[Color #373737][0002:0000:0A 00]"
+  }
+ ]
+}

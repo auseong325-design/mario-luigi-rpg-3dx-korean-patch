@@ -1,0 +1,331 @@
+{
+ "updated": "2026-09-30T03:35+09:00",
+ "phase": "image-text fix round 2 (B, I3, I6, A continuing + fresh 1DX term review); TEXT PASS installed; logo drafts awaiting user approval",
+ "build": {
+  "latest": "2026-09-30T02:55+09:00: TEXT PASS (work/textpass_20260930.py: 24 edits in 11 batch files + 4 glossary rows) -> merge_ko --check-all 130/130 0 errors -> --merge (28 ids changed incl. dups Menu#81 b_sys#477 #1475 #1556) -> build_patch --fonts --out work/build/msg_stage/romfs (verify 9,623 msgs 0 problems; fonts cover 1,255 chars, 1,162 Hangul; 1DX glyphs pixel-identical) -> Azahar not running -> installed the 6 changed files (BMsg, FMsg, Menu, font, font_l, font_btl) into patch/.../Msg/JP_ja, SHA-256 match incl. the Azahar junction. Replaced files kept in work/build/prev_msg_before_textpass_20260930/.",
+  "user_test": "2026-09-29 15:20 user installed base + v1.2 update from the two standard CIAs in the project root (sdmc title/00040000/001ca900 and 0004000e/001ca900). Azahar log (%APPDATA%/Azahar/log/azahar_log.txt, previous run in azahar_log.old.txt) shows Program ID 00040000001CA900 and 'LayeredFS replacement file in use' for all 10 Msg/JP_ja files, on the base RomFS and again on the update RomFS. The user only reached the title screen (run 2) and the file-select CROs SaveLoad/LoadMenu for 5 s (run 1); title logo, ゲームスタート and Ver. 1.2 are images (no message text), so they stay Japanese until the image-text phase. Still waiting for the first-dialogue test.",
+  "fallback": "if the game freezes or text breaks: copy work/build/same_size_romfs/Msg/JP_ja/*.bffnt over patch/.../romfs/Msg/JP_ja/ (or build_font.py --same-size --only <font>); rebuilt 17:35 from the 1DX glyphs too (font drops 0 chars, font_l 631, font_btl 103). To go back to the NanumSquareRound look: copy work/build/prev_fonts_nanum/*.bffnt into patch/.../Msg/JP_ja/.",
+  "hb_hold": "work/build/hb_stage/romfs/HB/ = I6 second pass (imgtext 1.3, 2026-09-30 02:50), lead-verified 03:15 (identity 23/23, selftest PASS, lead rebuild byte-identical to the stage 12/12). Still held: install with the integration build after the small-text follow-up (3 textures)."
+ },
+ "review_wave": {
+  "launched": "2026-09-29T11:48+09:00, keep=true, max_turns=500",
+  "status_before": "translation complete: round1 100/100 + round2 42/42 OK (130 unique batches), merge_ko --merge = 130 batches, 9,617 messages, 0 failed (6 tag-only messages keep JP)",
+  "brief": "work/REVIEW_TASK.md; assignment work/review/_assign_review.json; triage work/review/triage.json (scripts/review_triage.py: new 3146, edited 357, ds 2797, short 1790); lead items work/review/review_items.md; each reviewer logs work/review/<RID>.md",
+  "agents": {
+   "R01 b_sys p1-4": "d546273a",
+   "R02 b_sys p5-8": "e571f220",
+   "R03 b_sys p9-12": "fa94ffb1",
+   "R04 b_sys p13-16": "116e8c78",
+   "R05 KJ ekubon/gepu": "5c5614ea",
+   "R06 KJ koopa": "d09aee14",
+   "R07 KJ koopa_r": "b541fa7a",
+   "R08 KJ mushiba/zutsuda": "0c3d9d90",
+   "R09 Item": "a9ed3074",
+   "R10 Menu p1-3 + InitLoad": "a5ff05d1",
+   "R11 Menu p4-6 + MenuKJ + HugeBattle": "eb503e99",
+   "R12 field i_* + common": "422fe2c8",
+   "R13 field o_*": "cb246923"
+  },
+  "build_engineer": {
+   "B01": "61cee750",
+   "task": "scripts/build_patch.py (7 message files, --identity byte test) + scripts/build_font.py (font/font_l/font_btl with every char of work/ko_final.json, A4 sheets, previews in work/font_preview) -> patch/00040000001CA900/romfs/Msg/JP_ja/; must not run merge_ko --merge or touch text/"
+  },
+  "results": {
+   "R03 fa94ffb1": "b_sys p9-p12: 8 fixes (Morton 돌아가도 돼 / 돌려보내고 싶을 때, 골드 달성 시 … 증정, 알맞은 타이밍에, 에게 타격, …), 0 errors. Lead: Blorb speech decided (soft feminine 반말 to Junior's side, 해요체 to Kamek) -> p9 #935 #955 #975 changed, style_guide 5.1 rule added; p9 #950 speaker left neutral.",
+   "R04 116e8c78": "b_sys p13-p16: 9 fixes (방어력을 증가시켜요, 번개 조심, 따라 그리면, 반격할 수 있어요, colour boundary #1754, #1820 re-wrapped), 0 errors. Lead applied its out-of-scope finds: p14 #1569 #1595 알맞은 타이밍에, p12 #1326 = p5 #476 wording, p14 #1609 아무 데나 (+ glossary override アッチコッチ; attack name 아무데나창문 kept). Steered R01 for p3 #314 (스피드를 증가시켜) and p1 #23.",
+   "R06 d09aee14": "KJ koopa (7 batches, 438 msgs): 7 fixes (k_o_koopa_80 #28 #69 meaning flipped -> '어지간한 자신감 없이는 못 할 일이야!', #38 쓴맛이 났다, 39#20 먹는 거야, 19#19 히이익(male minion), 14#142 로이님, 12#5 더듬기 쉼표), 0 errors 0 warnings (lead re-checked). Settled: KJ field notice boxes keep 하십시오체 statements + 해요체 suggestion (k_o_koopa_39#2, k_o_ekubon_80#170, k_o_gepu_80#11 unchanged); Roy's fake honorific may use ~ㅂ니다요 or ~습죠/~깝쇼; style_guide Roy row fixed to 로이님. In game: k_o_koopa_80#70 speaker (Wendy vs Kamek).",
+   "R05 5c5614ea": "KJ ekubon/gepu (7 batches): 20 fixes, 0 errors (lead re-checked). Cutie's ordinary lines -> ~용 (16 lines; outbursts #22 #52 and true-self #67 #72 stay 반말), #81 용건 pun restored, allmap_01_U#0 '성을 지키던 웬디랑 래리도' (they had gone back, not stayed), 19#6 저희 손에 들어오고, #170 matched k_o_gepu_80#11. Lead: steered R08 for the remaining Cutie 반말 lines (k_o_mushiba_16#32, k_o_zutsuda_80 #70 #161 #186) + Blorb rule; style_guide ch.4 SS Company names fixed to 수림/큐티/무지오. In game: k_o_ekubon_80 #2 #89 speaker (Ludwig or Roy), #21, k_o_gepu_08#12 ワシャシャ (Morton?).",
+   "R01 d546273a": "b_sys p1-p4: 12 fixes (p1 #60 응원으로, p3 #276 여유만만해 보이지만, p1 #35 RankUpBonus1stExp -> 해요체 like p13 #1499, p3 #314 증가시켜, p2 #187 귀여운 꼬리 조심, 두 가지, 랜덤으로, 넣을 때는, 입히는 타격, 몸통에 반격하면, p1 #23 나갈 부대), 0 errors (lead re-checked). Kept: KJGuide_BB15 title 가시 대미지 (term) with body 가시의 타격 (DS style).",
+   "R02 e571f220": "b_sys p5-p8: 5 fixes (#559 봐주지 않겠다, #899 = p6 #674, #484 보시는 겁니다, #875 짓눌러요, #478 하늘/호수 위를 누비는), 0 errors (lead re-checked). Lead applied cross-file finds: p10 #1084 마음만 먹으시면, p6 #619 세상에 보기 드문 (= p12 #1332), FMsg/o_peach_1f_09#2 대마왕쿠파님 (R13 file, R13 not started yet). p10 #1087 and p11 #1190 had already been fixed by R03.",
+   "R10 a5ff05d1": "Menu p1-p3 + InitLoad: 46 fixes, 0 errors (lead re-checked). Guides in p2/p3 were 하십시오체 -> 해요체 (30 lines, like p1/p4-p6 and style_guide 5.1-4); special-attack unlock lines -> DS MAI__MMes_yo table 2 (_refs_Menu.txt had missed MAI__MMes_yo - it is only in _refs_BMsg.txt); #409 되돌릴 수 있어요; #454 #471 back to DS '그럼 천천히 골라 봐.'; #433 도전하시겠습니까. Lead: routed Menu p4/p5 findings to R11 (badge-exchange tutorial = DS MAI table 0, #610 손님!, #775 = p3 #346, 切り替えて = 바꾸고). Kept: InitLoad そのままで = DS '잠시 기다려 주십시오.' (DS omits 그대로); Menu#361 후리가나 option stays literal (decide in game).",
+   "R08 0c3d9d90": "KJ mushiba/zutsuda (5 batches): 13 fixes, 0 errors 0 warnings (lead re-checked). Cutie ~용 applied (k_o_mushiba_16#32, k_o_zutsuda_80 #41 #70 #91 #110 #161 #175 #186), Blorb to Junior 반말 (k_o_zutsuda_30#24), #106 똑똑히 봤습니다 (meaning), 29#12 저 사람은. Open: k_o_zutsuda_30 #4 #15 share one translation (dups) with main-game o_zutsuda_30 #11 #22 (Blorb to Bowser, DS 해요체) -> see pending_fixes.",
+   "B01 61cee750": "DONE. scripts/build_patch.py (--identity 7/7 byte-identical, re-read check 9,623 msgs 0 problems; lead re-ran --identity: OK), scripts/build_font.py (+ scripts/libbffnt.py): font 1->2 sheets (NanumSquareRound EB 16px), font_l 1->3 sheets (EB 23px), font_btl 1->2 sheets (B 12px, gamma 0.6); original glyphs pixel-identical; all 1,257 chars used by the text covered in all 3 fonts; previews work/font_preview/sample_font*.png look good (lead checked). Rebuild: .venv\\Scripts\\python scripts\\build_patch.py --fonts. Main risk: fonts +920 KiB / 7 sheets (fixed font heap?) -> fallback work/build/same_size_romfs/Msg/JP_ja/*.bffnt (replaces kana/kanji slots; font_l loses 631 rare chars as '?', font_btl 104).",
+   "R07 b541fa7a": "KJ koopa_r (4 batches, 391 msgs): 9 fixes, 0 errors 0 warnings (lead re-checked). 27#23 '쿠파 군단을 위해서가 아니야!' (meaning), r_80#103 Ludwig to Sulim '자네일세.', #317 Roy sigh '에휴~', r_31#17 male minion '히야아―', #244 전력으로, 27#25 Kamek ~구먼, 28#11 !?, r_31#0 조금 전…, #59 period after ~ removed. 奥の手 = 비장의 무기 and #33 빵빵 pun kept. Lead fixed style_guide 대장 콰르텟 -> 대장 4총사 (glossary). In game: r_31#7 speaker (Cutie -> 맡겨 주세용~!?), r_28#3 speaker (Junior or Roy), r_80#246 size tag code 06 around '마' (unique in the game).",
+   "R09 a9ed3074": "Item p1-p6: 3 text fixes, 0 errors (lead re-checked). All 319 names match the glossary and every other file; description formats consistent. Item#32 '살찐 루이지를 … 바디프레스!' (DS AItmE#21, b_sys#774), #463 #480 次のアタック = '다음 공격의 위력 N배!!' (DS BadgeEffectE) -> glossary override アタック note added. b_sys#604 ボコスカアタックガイド kept as '배틀 어택 가이드' (pairs with 배틀 기본/커맨드 가이드 #625 #647; KJGuide_BA* are troop attacks, not Bowser's special attack) - check the guide tab name in game.",
+   "R11 eb503e99": "Menu p4-p6 + MenuKJ + HugeBattle: 25 fixes, 0 errors (lead re-checked). Badge-exchange tutorial = DS MAI__MMes_yo table 0 (#573 #586 #771 #778), #610 #761 손님! … !, #519 꼬마 마리오가 되어 떨어져 있으면, 上書き 활용 덮어써도/덮어쓴, #775 = p3, MenuKJ#27 #55 colour boundaries, HugeBattle battle-guide bodies -> 해요체 (lead: confirmed, rule added to style_guide 5.1), MenuKJ#19 #56 #81 stay 하십시오체 (system notice). Lead correction: my steer '切り替え = 바꾸고' was based on an incomplete count; DS/field dialogue uses 전환 in 11 lines, so the 9 Menu action-guide lines were changed to 전환하고/전환할 (Menu#269 #275 #326 #396 #397 #619 #655 #706 #768) and the rule added to style_guide 5.1.",
+   "R12 422fe2c8": "field i_* + common (32 batches): 3 colour-boundary fixes (i_power_hip_SA_adorena_01_L#0, i_pump_02#2, i_pump_08#3), 0 errors. 3DX control changes (「열기」 button, L/R, slide pad) all reflected; touch minigames rightly keep DS. Confirmed review_items for i_challenge, puzzle, i_tainai, W07, W08 (quiz answers match o_koopa_13_2). Found make_batches MAX_REF_LINES=400 truncating i_tainai_01 refs (DS195/DS209) -> triage marks some DS lines as new.",
+   "R13 cb246923": "field o_* (43 batches): 4 fixes (gerashow#4 '다들 그렇게 외쳐라!!', o_koopa_end_01#13 필요 없다 (DS 오기), o_gepu_11#0 and o_otapuku_02#0 arrows attached), 0 errors. All 'follow 3DX - confirm' review_items judged correct; warp line and Broque shop menu match the lead decisions everywhere."
+  },
+  "notes": "R07-R13 and B01 were still queued at 12:20 (another project's 3 runs share the slots); R08 will read the Blorb rule from style_guide 5.1 when it starts (steer returned not_found).",
+  "status": "FINISHED 13/13 reviewers; merge_ko --check-all 130/130 batches 0 errors"
+ },
+ "wave1": {
+  "assignments": "work/batches/_assign_round1.json (T01-T30, 100 batches) + 3 retries (alignment rest, enemies glossary, characters glossary)",
+  "note": "finished: 33 agents delivered; 28 translators produced 88 batches (0 errors); 5 ended without output (T03, T04, T17, T23, T24) -> their 12 batches are in wave 2",
+  "delivered": [
+   "T02",
+   "T03(failed)",
+   "T04(failed)",
+   "T08",
+   "alignment-rest",
+   "27b31936",
+   "enemies fa035efa",
+   "T01 af5b72ca",
+   "T09 b040870b",
+   "characters a967e516",
+   "T06 50f451ae",
+   "T07 30b464f9",
+   "T11 8f1e0e25",
+   "o_gepu/o_ibiki 5a0f3093",
+   "T10 b6c29283",
+   "o_koopa_13_2/18 9c4239ce",
+   "o_koopa_01/gerashow 26bedbcb",
+   "o_koopa_19/end/r_20 340a95b8",
+   "T16 35857e97",
+   "T19 ac52e6d2",
+   "T18 73f792bb",
+   "4ccd91c3(no response, no output - one of T23/T24/T26-T30; round_status after wave 1 shows which batches)",
+   "2ccb39a4(ended right after reading instructions - no output; its batches show up as missing in round_status)",
+   "T21 24acbe5f (o_town_33, InitLoad)",
+   "T22 4ea3c1f2 (o_town_34_suishou)",
+   "T20 5cb69831 (o_town_23, o_town_31)",
+   "b356e373 (ended after one sentence, no output - with 4ccd91c3 these were T23 and T24)",
+   "T25 d3b69553 (Item__p1-p3)",
+   "T26 f2e75fe9 (Item__p4-p6)",
+   "T27 24b5f0f3 (Menu__p1, Menu__p6)",
+   "T30 4a8a829d (MenuKJ)",
+   "T28 7e3c81d8 (Menu__p2, Menu__p3)",
+   "T29 67934602 (Menu__p4, Menu__p5)"
+  ],
+  "failed_agents": {
+   "T03": [
+    "FMsg__i_kinopio_01",
+    "FMsg__i_kioku_02__and1",
+    "FMsg__i_koopa_13_beam_01_L__and1"
+   ],
+   "T04": [
+    "FMsg__i_koshi_01",
+    "FMsg__i_metaboru_02__and9",
+    "FMsg__i_metaboru_19"
+   ]
+  }
+ },
+ "pending_fixes": [],
+ "decisions": [
+  "씨 is attached to names like DS (쿠파씨/러즐씨/차크란씨): 수림씨, 마귀씨, 돼지씨 applied to 7 KJ files; override スーさん=수림씨.",
+  "T10 applied リューギー=러기 itself (k_o_mushiba_80 #39 #142, k_o_mushiba_16#39).",
+  "o_koopa_02#6 ゲラコビッツシークレットシューズ = 까르코비츠 키높이 신발 (3DX meaning; DS026 '특제 주스' looks like a シューズ/ジュース misreading).",
+  "Broque shop menu (3DX merged buy-gear/buy-items): 買い物をする = 물건 사기, ブロキャットについて = 블캐츠에 대해, なにも 買わない = 구입하지 않음 (DS0D2#0 style); applied to o_koopa_37#2; glossary overrides added. o_chika_01 #0 #1 and o_ekubon_02_after#11 (wave 2) must match.",
+  "merge_ko.py: a glossary warning is skipped when a longer matched glossary term containing it was used (買い物をする covers 買い物).",
+  "AGENTS.md 4.6: obvious DS spelling/spacing slips are fixed with note 'DS 오기 수정' (o_town_14#15 미비->미미, o_town_14#4 성쪽->성 쪽); consistent DS conventions (쿠파씨) are kept.",
+  "AGENTS.md 4.1: colour switches sit on word boundaries, never between a verb stem and its ending (o_town_06 #0-#3 now '[다리를 돌릴] 때는 [레버]를').",
+  "merge_ko._word_in fixed: hiragana particles/する forms after a term no longer hide it (ボムへい|が, とっしん|する); katakana glued to katakana still counts as a longer word. make_batches uses the same rule.",
+  "38 idle batches (30 unassigned + T03/T04/T17's 8) regenerated with the current glossary; messages unchanged. Backup of the previous files: $KIROCREW_SCRATCH/batches_before_w2 (session scratch only). Batches of the still-unknown failed agent 4ccd91c3 must be regenerated the same way before wave 2.",
+  "Glossary context rules added (overrides): アップ/ダウン names vs sentences, チャレンジ name vs 도전, お父さん 아빠 only for Junior, お気に入り UI only, らんぼうものさん ending scene 괴팍한 분, さいだいHIGE/TSUNO patterns use SUYEOM/PPUL, Dr.コキノ intro scene 닥터 오키노.",
+  "TRANSLATE_TASK.md has a wave-2 section (tool call in every message, checker output to file, follow style_guide 5.1 and current glossary).",
+  "マリオ達: default 마리오 일행; when the matching DS sentence says 마리오 형제 (touch minigames DS155/1AB) use 마리오 형제 with 를/가. Applied to i_power_lungs_SA_fire_01_L and i_power_nose_01.",
+  "リューギー = 러기 (nickname of リューグー=러즐, rhymes with 이기). Old 용기 dropped.",
+  "BP = SP everywhere (pairs with 스페셜 어택). HUD/status IMAGES that say BP must be edited to SP in the image phase.",
+  "ガード: battle term 방어; story obstacles keep DS 방어벽/벽/장치.",
+  "リタイア = 포기 (DS EMesJig#21). キノノ = 느타리 (DS09C).",
+  "Style guide 5.1: questions/confirmations 하십시오체, hints/advice 해요체; Kokino でしょう flattened; 히익~/꺄~ split; minions say 저희; Junior calls Bowser 아빠.",
+  "make_batches.py now lists glossary terms with the checker's word-boundary rule (_word_in).",
+  "o_town_33 #18 #31 #34 超強力なアタック = 초강력한 어택 (3DX meaning; DS0F2 '초능력 같은 어택' looks like a 超強力/超能力 misreading).",
+  "Glossary context notes: マリオ達 same-scene DS wording wins (마리오 형제, 마리오와 루이지); ハズレ verb = 문맥대로; バトル verb may be 싸우다; 星空 only the KJ formation name is 별하늘; InitLoad delete sentence shortened to fit (모든 게임 데이터가 삭제됩니다.).",
+  "Bonus cards: whole family follows the 3DX rename (보너스 카드 / 슈퍼 보너스 카드 / 울트라 보너스 카드 / 보통(블록 상점은 노멀) 보너스 카드); 3DX never mentions scratching. ラリー: Koopaling 래리, shell rally 랠리.",
+  "Bonus-card sweep done: Menu__p2 (7) and Menu__p3 (22) '스크래치 카드' -> '보너스 카드', review notes added; translator's JSON layout kept. No other file used 스크래치.",
+  "兄弟: dialogue 형제; equipment/badge descriptions for the partner 브라더 (DS WearE#25) - Item#43 changed to 브라더 (matches Item#434 #518).",
+  "体 counter: KJ own troops 명, enemies/monsters 마리 (DS). Stat states: POW/DEF/SPEED 다운 상태 / 업 상태.",
+  "よろしいですか？ stays 계속하시겠습니까? after warnings; quit prompts merge into '~하시겠습니까?' (MenuKJ#65 '쿠파주니어 RPG를 종료하시겠습니까?').",
+  "New glossary rows from wave 1: てきのじょうほう 적 정보, せいとん 정렬, クッパメモリー 쿠파메모리, ハナちゃん 꽃충이; メット note (헬멧 when it is the common noun).",
+  "Kinoda (boutique) clerk keeps DS voice '어머나! 손님!' (DS 0.21/0.37/0.45/0.53); Menu#322 and #343 reverted from 어라!/이야!. Menu#465 keeps DS '계속 마사지해 주자!' (same Blorb massage minigame).",
+  "リューグーさん: fans 러즐님, acquaintances such as Blorb 러즐씨 (DS289#57). Blorb's アタック lines keep DS wording (마사지 / 때려 주면), like Menu#465.",
+  "Broque's 1st person ミー = 미 even where one DS line says 나 (o_zutsuda_01#4 '미도'): consistent character voice.",
+  "Chakron warp line なんや～ 飛びたいんか～？ = '뭐꼬~ 날고 싶나~?' with choices '안 날래 / 날래' (o_chika_04#0, shared by 8 rooms) - style_guide 5.1 3-2.",
+  "ボコスカアタック stays DS '스페셜 어택' (settled); when both sides appear in one sentence, name the owner ('마리오 형제의/쿠파의 스페셜 어택'). ボコスカポイント/ブラザーポイント = 스페셜 포인트 (SP).",
+  "b_sys conventions agreed by the battle translators: counts use '회' (100회 이상), skill effect strings have no spaces (POW10%↑DEF10%↑), 羽音 = 날갯소리; particles after a parenthesis follow the word before it ('마귀(파랑)가').",
+  "Button icon spacing: '{icon} 버튼' spaced everywhere (DS FEvent 'Ⓡ 버튼' 40x + orthography); 104 messages / 122 places changed by script, dry-run showed 0 new errors; rule in style_guide 5.1.",
+  "merge_ko: dup copies are now restored with their OWN hidden tags (117 copies had a different box header 0C/0D/05/01, 23 different pause/colour/icon tags - they used to inherit the primary's); text/ko/_dup_overrides.json gives copies scene-specific wording, validated per id (5 entries: KJ Blorb #4 #15 반말, ending o_koopa_end_01#16 DS23E '꺄~', o_ekubon_19#10 DS0A8 '허억!!', opening o_peach_op_04#38 DS218 '으흑흑…'). Documented in AGENTS.md 5.2.",
+  "Korean title = '마리오&루이지 RPG3 DX' (user, 2026-09-29: the remake has no !!! even in Japanese; DS Korean title was '마리오&루이지 RPG3'). Bowser Jr. mode = '쿠파주니어 RPG'.",
+  "Staff roll follows 1DX KR: only the title line is Korean ('마리오&루이지 RPG3 DX'); roles, names, '(Koopa Jr. RPG)' and copyright stay as the 3DX original. People in both games keep their 3DX spelling (e.g. #291 Galia Rodríguez Hornedo, #288 Ryan Kelley).",
+  "Image-viewing rule for every agent: images opened with the read tool must be <= 1600 px per side (a > 2000 px image in a many-image conversation is rejected by the API and poisons the conversation - I2/I3 wave-1 runs died this way). Added to IMAGE_TASK.md ch.3; I1/I4/I6 steered at 21:50; lesson saved.",
+  "Layout image words (I1 review): keep in-game translation over 1DX where they differ - btn_KJ_ESC やめる = 그만두기 (3DX flow: b_sys#496 퀘스트를 그만두고; 1DX said 도망가기 for にげる), btn_equip そうび = 착용하기 (DS verb, shop text 착용), TOP_MENU_TEXT_3 ステータス = 능력 (DS star-menu item), くぼみ = 홈 (DS), チャレンジ = 챌린지 (name). Rank names follow DS MenuMes (골드 보스 랭크 ...). English kept: RANK UP!!, CONGRATULATIONS!, COMPLETE, KOOPA, SOLD OUT, WIN!, LOSE..., START, BEST SCORE. Coined words accepted (목표 스코어, 베스트 스코어/턴, 보스 배틀, 모험 계속하기, 장비 중, 종족, 럭셔리 숍, 블도그 숍, 블로크 숍, 배지 숍, 사용하기, 슬롯, 있음/없음).",
+  "Lead decisions 22:05: KJ_ST_GDD -> GDH (text already uses GDH in 17 lines = 1DX KR); NEW_DATA_text -> NEW GAME (1DX KR same texture); うちけし = 스킬 지우기 (1DX KR official command name, beats coined 무효화 per AGENTS ch.0 priority) - image now, text sweep pending; ETC check = alpha-premultiplied PSNR >= 30 dB (plain PSNR of a mere re-encode is only 24.6-32.5 dB).",
+  "Lettering rule by size (22:25, after I6 pass 1): 1DX bitmap font / its compositions only up to ~1.25x native cell (font 18 px, font_l 24 px); larger text = 1DX image lettering (same word / one bank cluster) else the OFL vector font closest to the 1DX image lettering, rendered crisp at 4x (Google Fonts OFL Korean faces allowed, licence kept in fonts/); stroke and outline widths within +-10% of the Japanese original (do not thin for legibility, pick a heavier face). In IMAGE_TASK.md ch.1 and RESTART_I2.md; I4 steered.",
+  "ETC encoder (lead, 2026-09-30): libtex3ds.encode ETC1/ETC1A4 = etcpak first pass, then every block with a visible pixel is searched again (both flips, individual 4:4:4 and differential 5:5:5 modes, all 8 tables, base colours within 2/3 steps of the alpha-weighted mean), error weighted by the stored 4-bit alpha squared (floor 0.01); per block the lower weighted error wins, so it is never worse than etcpak. Packed words decode bit-exactly with texture2ddecoder (selftest). Re-encoding the Japanese originals: 24-28 dB (etcpak) -> 33-70 dB. At most LIBTEX3DS_ETC_MAX=2048 blocks refined per texture (every text texture has <= 1,024); LIBTEX3DS_ETC=fast = old behaviour. Cost 1-3 s per text texture; build_lyt --selftest 160 s. Checked after the change: libtex3ds selftest, build_lyt --selftest/--identity, build_hb selftest, build_fmdl --selftest, build_obj selftest.",
+  "ころび = 꽈당 (lead, 2026-09-30): 1DX KR shows 「꽈당」 in the same bui_sys_badstatname cell. Korean Nintendo official (rule 3) outranks the coined 넘어짐 (glossary row was 'coined - 확인 필요'), same principle as うちけし = 스킬 지우기. Sprite via I3; dialogue (BMsg/b_sys#179, Menu#81 status lists) and the glossary row in the TEXT PASS.",
+  "KJ skill names follow the 1DX KR buttons (lead, 2026-09-30): サンダー = 선더 (1DX btn_KGLA_TX_n05; our 썬더 was coined), ドッスンおとし = 쿵쿵 떨어트리기 (1DX btn_KGLA_TX_n08 and 1DX text k_sys#123/#847 both read 트; corrected 02:55 - the lead misread it as 떨어뜨리기 at 01:04; our 쿵쿵 떨구기 was coined). Rule: Korean Nintendo official (rule 3) outranks coined, as for うちけし and ころび. Images via A; dialogue in the TEXT PASS.",
+  "Sprite donors (lead, 2026-09-30): a region copied from 1DX keeps the 1DX glyph shapes but takes the 3DX original's colours (outline, shadow, fill ramp) - the approved rule for group 가. Found after the fix round: 1DX sprite outlines are dark brown (51,34,17), 3DX uses (17,17,17).",
+  "1DX KR text as evidence (lead, 2026-09-30): scripts/dump_1dx_text.py dumps ml 1dx/3romfs/Msg/KR_ko (7,867 messages) to work/ref_1dx_ko.tsv. For Bowser Jr. RPG terms (no DS source) the 1DX Bowser's Minions wording is Nintendo Korea's official term (glossary rule 3) and outranks our coinages; DS terms still win where DS has the thing. The TEXT PASS used it: うちけし 스킬 지우기, ころび 꽈당, サンダー 선더, ドッスンおとし 쿵쿵 떨어트리기 (glossary rows now basis=official, source=1DX-KR:<file>#<n>)."
+ ],
+ "review_items": [
+  "KJ voice consistency across T06-T11 and T09: 큐티 ~용~, 로이 fake honorific ~ㅂ니다요, 웬디 반말 (해요체 only where JP is desu/masu), 수림 theatrical 반말, 루드윅 하게체; Iggy 나님 undecided",
+  "k_o_koopa_r_80: 奥の手 = 비장의 무기 (check against the room that reveals it); pun p1#33 빵빵 is weak; speaker guesses",
+  "i_challenge_01: glossary chosen over DS (#10 공격->어택, #113 점수->스코어, #17 적->몬스터) - confirm",
+  "i_areanone_puzzle_01: memory-voice robot tics flattened like DS (#6 #9 #10)",
+  "enemy names still 확인 필요: でかテレサ 점보부끄부끄, ブル 불, Fテクテクパックン 파이어총총뻐끔, バサバサ 스우푸",
+  "KJ speaker guesses: k_o_ekubon_80 #0 #21 #40 #41, k_o_ekubon_15 #0 #9 #11, k_o_koopa_08 #0 #1 #12 (Roy?), k_o_koopa_14 #212 #217 #221",
+  "i_tainai_01 #1 #2 #32: DS sentence adjusted to 3DX wording - confirm",
+  "特別冷凍室 = 특별 보관실 (glossary); k_o_gepu_80#32 冷凍室 = 냉동 보관실 - o_koopa batches must match",
+  "o_ibiki_03 #4 #5: DS 머신/발자국 마크 changed to 라이트/위치 마크 per 3DX text - check the floor mark shape in game",
+  "o_ibiki_01#1: DS 배큐엄블록 shortened to 배큐엄 (3DX バキューム) - confirm",
+  "o_koopa_13_2 #40 #46 #50 and o_koopa_18 #31, kinko_01#3: 3DX wording chosen over DS - confirm; o_koopa_14#11 ナイッ kept as DS '안 불렀다!!' (lead: keep, the cut-off question still reads as a gag)",
+  "o_koopa_01 #15 #39, o_koopa_02#5 p2, gerashow #4 p1 and #27-#30 (audience 'power' call; DS '함성 소리가 안 들리지롱롱~~!'), o_koopa_13_1#10: 3DX chosen over DS - confirm; Boo/Koopa couple speech mixes 해요체/반말 inside DS itself (kept)",
+  "o_koopa_24 #0 #1, o_koopa_28 (scene changed in 3DX), o_koopa_38#0, o_koopa_end_01 #13 #24: 3DX chosen over DS - confirm; o_koopa_end_01#3 '어흐흑…' is shared with opening o_peach_op_04#38 (DS218#4 '으흑흑…') - pick one",
+  "T16 (o_mushiba_01, o_peach_1f_03, o_peach_2f_04): 3DX chosen over DS where DS JP is unknown - o_mushiba_12#14 (DS '포기브 미' vs 3DX アイ ミス ユ), o_peach_1f_03#36 (DS groan vs 3DX ハハ… laugh), o_peach_2f_04#13 (뿔->가시), o_peach_3f_15#6 (DS '새하얀 재' vs 黒こげ '새까만 숯덩이'); new Fawful lines #0 #1 #55 - check voice",
+  "T18 (o_peach_g_02, o_peach_op_01): 3DX chosen over DS - g_04 #7 #8, g_06#2, g_18_1#9, g_10#7 (song lyric changed in 3DX), op_02#4, op_03#3 (여자분->간호사분), op_04#59; ワガハイ=이 몸 replaced DS '나'/'가짜 쿠파' in g_06 #9 #16",
+  "k_o_mushiba: マブダチ = 깐부 (5x, old slang; Squid Game association) - keep unless reviewer objects; amnesiac Iggy's retro slang; speaker guesses zutsuda_16_after #0-5, zutsuda_80 #43 #97 #98 #99",
+  "after wave 1: run the checker and list glossary warnings for enemy/character terms (wave-1 batch files were generated before the 116 enemy/character terms were added, e.g. Menu bestiary)",
+  "T22 o_town_34_suishou: o_town_41#2 p2 ('그럼 주문을 받겠습니다') and #7 p3 ('이만 돌아가 주십시오') follow 3DX over DS; 3DX shop changes 보너스 카드, 플라워 랭크, 바지/팬츠 (DS 글러브/웨어); o_town_40#9 팬츠 can read as underwear (JP パンツ is ambiguous too)",
+  "T21 o_town_33: #10 p2, #17 p1-2 (new button help), o_town_34#3 follow 3DX; choices #36 #44 use DS '싫어요/예' (order from 3DX)",
+  "T20 o_town_23/o_town_31: o_town_31 #4 #16 スレンダーボディ = 날씬한 몸매 (DS '근육질 몸매'); #33 完成記念 = 오픈을 기념하여 (DS '새 단장'); o_town_23#4 matched to DS0CF#27; new 3DX pages o_town_28#1 p4-5, o_town_31#13 p2-3, #29 p2, o_town_32#7 p3",
+  "MenuKJ tutorial speakers (in game): 00-07 Ludwig (하십시오체), 10-21 unknown Koopaling (plain 반말), 30-36 Wendy, 40 Kamek? (해요체; if Ludwig -> 하십시오체); party sub-leader words end with a space (#4 #12 #25 #26 #59 #60 #62 #88) - check '1. 무적의 돌격대' on screen",
+  "Menu: badge-exchange tutorial lines (#19 #56 #92 #821 in p1; #373 #402 #573 #586 #771 #778 in p3-p5) should all follow DS MAI__MMes_yo table 0; Boutique Kinoda clerk kept DS female speech (3DX reads male: やや!, ~な!)",
+  "Item: special-attack descriptions use '공격 대상: 랜덤' (DS '전부(랜덤)') and three spaces before '효과:'; 自由に設定 = 자유 설정; badge descriptions end with a period (DS style); Item#188 ［とくしゅ効果なし］ -> 「특수 효과 없음」",
+  "Menu (T28/T29): Menu#610 #761 high-end shop lines end with '.' (3DX 。) instead of DS '!'; Menu#534 #535 {var} assumed to be an attack name ('{var}에서 은메달을 획득!'); icon U+E077 read as slide pad with 를/로 (#662 #676); labels wider than JP: 초록색 열쇠, 꺼억 케이프 (+21px), BGM 소용돌이치는 검은 그림자 (+74px), some Bowser rank names - check on screen",
+  "W08 i_metaboru: 찡글로빈(ワルグロびん) quiz options changed from DS to match 3DX and Bowser's answers in o_koopa_13_2 (뒤룩뒤룩해진->꾸르륵거리게 된, 섹시&쿨->센세이셔널&쿨 ...); kept DS where unclear (i_metaboru_06#16, i_metaboru_19#15); 第{var}問 = 제{var}문; in game: quiz choice order (i_metaboru_06 #10 #19 #25 #26 #27), big-text '정답로빈~~!!!' (#31) fits the balloon; new 3DX tutorial lines i_metaboru_10 #4 #5 #8 #9, i_metaboru_07 #7 #9, i_metaboru_12#25 p2-3",
+  "W06 HugeBattle: 3DX over DS at #99 (キタナイゾ 반칙이다) and #77 (大ぶり); DS kept at #139; slide direction follows 3DX 左 = 왼쪽 (DS said 오른쪽) at #16 #39 #84 #115 #146 - verify the real input direction in game; robot voice ステマショウ -> '~할 것!' (#21 #116); speaker guesses #40 #55 and the katakana machine voice in battle 4",
+  "W07: i_koopa_13_escape_01_L #13 #14 follow 3DX まだまだ (DS '빨라~~!!'); i_kinopio_01#22 keeps DS '2번째 피치 성'; i_kioku_03#13 '예. 그렇습니다.' for a consistent robot voice; new 3DX help lines (「열기」 button, L+R, guide demo) in i_kinopio_01; in game: i_koshi_01#19 big-text lines fit the box",
+  "W10: 3DX over DS in o_zutsuda_04_after #10 #18 #26 #27, o_zutsuda_15#29, o_zutsuda_30 #5 p2, #4 p4 (러즐 catchphrase), #15 new line; in game: o_zutsuda_30#20 choice order 싫다!/좋다! (DS reversed) starts the minigame on 좋다!, o_zutsuda_01#13 sneeze (style 10) fits one line, o_zutsuda_01#9 two leading spaces",
+  "W12: chika_09_before#29 follows 3DX 続けるぞ ('당장 계속하겠다!!', DS '당장 교환해라!!'); bcat_U#0 p2 new 3DX text; meter_01_U (Dr. Kokino mic guide, new, 해요체, also used in o_town_36); in game: warp line leading space, recovery choices '회복하지 않는다 / 회복한다' fit one line, speaker of chika_09_before #30 #31",
+  "W03: choices つづける/やめる = '계속하기/그만두기' (p7 #712) - make p11/p12 odateru_21-24 match; speaker guesses koopa_e_2_10-14 (마귀), koopa_e_1_05/2_16 (로이), bunshin_02 (웬디), zutsuda_3_01-03 (블로즈), koopa_8_09 (수림); in game: p7 #720 'ハッ!' = '앗!'",
+  "b_sys W01/W02/W04/W05 (reports lost at reboot, read from notes): speaker guesses p1 #10 모톤, #26 로이(거친 반말), #27 마귀, #64 KGS3C; p2 #111 koopa_8_13-19 written neutral, #208 쿠파주니어; p4 #341 래리, #344 쿠파주니어; p10 #1070 마귀; p11 #1186 루드윅; p16 koopa_8_04_0-5 = 마귀·이기·레미·웬디·래리·루드윅 (with p1 _6 모톤, _7 로이); p13/p14 koopa_e_7_01-03 unknown (cold 반말); koopa_e_1/e_2 narration = 마귀 해요체. In game: p16 #1820 line 1 is 404px of 405px; localisations #1768 주 5일 근무제, #1807 근무 방식에 혁명을, #1809 アデュー = 바이바이",
+  "cross-review sweep: button icon spacing is mixed - '{icon}버튼' attached 120x vs '{icon} 버튼' spaced 45x (e.g. o_ekubon_14#17, i_garakuta_08) - pick one (attached is the majority) and normalise by script",
+  "Staff roll: in game, check the ending title line '마리오&루이지 RPG3 DX' (thin 1DX hangul next to the bold Latin face, same as 1DX KR) and that the scroll timing is unchanged.",
+  "C layout art: ST_HIGE 42x12 'SUYEOM' fills the whole 42 px texture (JP TSUNO 35 px) - check it does not touch the number beside it in the item/shop/equip/status menus; if it does, use the 88% width variant (scripts/lyt_C_stat.py JOBS fit). Rank names (battle result + status screen) read slightly lighter than the kana on dense syllables (랭·등·껍); boss rank names are 3-5 px wider than the Japanese lettering. 'GET!' and 'LV' are the original pixels.",
+  "I3/B image checks in game: bui_sys_button もどる = 「뒤로」 (1DX) while BMsg/b_sys#1821 says 「돌아가기」 - if both show on one screen, change the text to 뒤로; 힌트/배큐엄 block names legible at 1x; set_tab 있음/없음 - which setting it is (후리가나 표시?); where 「슬롯」 (btn_SLOT) appears.",
+  "D layout art in game: dense 틀/블 at 12 px (블록 x2, 블로즈, 배틀 x6 list titles) and the three record buttons now on one line (어택 미니 게임, 어택피스, 배틀 콜로세움) - check they read cleanly inside the button.",
+  "btn_KJ_LA_24 「쿵쿵 떨어트리기」 (after A's re-render): one line at 100% width, the faint outline edge touches both texture edge columns (the original ドキドキボックス also runs to the right edge). If it looks cramped in the Bowser Jr. battle skill list, A can squeeze it to 95% width (about 3 px each side, slightly softer letters).",
+  "Giant battles (I6 second pass): action prompts use a bold vector face 13-18% taller than the kana (kept deliberately); check they do not look oversized next to the battle HUD. After the small-text follow-up: 쪼르미터 meter label (64x16) readable, boss notices crisp. The 12 changed HB archives use our own LZH8 compressor - check that every giant battle loads."
+ ],
+ "wave2_brief_additions": [
+  "3 wave-1 translators (T03, T04, 2ccb39a4) ended after a narration-only message ('Reading ... now.') with no tool call: tell agents every message before the final report must contain a tool call; spawn with keep=true so a stalled run can be resumed with spawn_continue instead of restarting",
+  "the shell console can drop lines containing Korean/Japanese: redirect merge_ko.py output to a file and read it with the read tool",
+  "follow text/style_guide.md 5.1 (lead decisions) and the CURRENT text/glossary.tsv; batch-embedded glossary notes may be older"
+ ],
+ "font_phase": [
+  "※ is now in all three fonts (1DX glyph; font_l rendered) and in merge_ko's charset: restore it in k_o_koopa_08 #9 #11 (now '*') and b_sys #670 (p6), #1546 (p14) - a text change, left for after the font test",
+  "HUD/status images: BP -> SP",
+  "o_town_31#18 tea-cafe price list is aligned with spaces sized for 16px Hangul / 5px space; re-check the alignment once the Korean font widths are final",
+  "Menu#361 'メッセージにふりがなを表示' is translated literally (후리가나 표시) but Korean text has no ruby: decide in game whether to relabel or hide the option",
+  "lower-screen button image 'ひらく' must read '열기' (Menu#717)",
+  "【】 brackets are used in button descriptions (HugeBattle #59 #93 #112 #140, b_sys p3/p11): the Korean font must contain 【 and 】",
+  "※ also dropped in b_sys #670 (p6) and #1546 (p14, '단,'): restore once ※ is in the font",
+  "KJ menu button 「クッパJr.RPGをおわる」 is not in any MSBT (probably an image): b_sys #557 calls it 「쿠파주니어 RPG 종료」 - make the image match",
+  "b_sys #1706 enemy-profile label 「苦手な仲間」 = 「약점인 동료」 - check the profile screen (label may be an image)",
+  "DONE 2026-09-30T02:55+09:00 (work/textpass_20260930.py): ※ restored in k_o_koopa_08 #9 #11, b_sys #670 #1546; うちけし -> 스킬 지우기 in b_sys #12 #208 #238 #239 #273 #293 #1008 #1055 #1134 #1847 (+dup #1556), verb forms #225 '지워 버렸다', #495 'N마리의 스킬을 지웠다!', #510 'N명의 스킬이 지워졌다!', #528 '스킬을 지우지 못했다!', #1450 '되도록 지우고 싶다'; ころび -> 꽈당 in b_sys#179 (+dup Menu#81); サンダー 선더 in #195 (+dup #477) #969 #990; ドッスンおとし 쿵쿵 떨어트리기 in #600 (+dup #1475); 4 glossary rows. Installed (see build.latest)."
+ ],
+ "next": [
+  "process the fix-round-2 completions (B 48549046, I3 275a896a, I6 fd1d1f1c, A 5bd99856, term review f3678bee): re-run each builder's checks (build_lyt / build_obj / build_hb identity+selftest+build), view the new sheets (<= 1600 px), record in image_fix_round_2.results; apply B's reported plan-row changes and any toolkit requests",
+  "term review: read work/review/kj_1dx_terms.tsv/.md, decide switches (rule: official 1DX > coined; DS wins), show the user the switch list, then TEXT PASS 2 (text/ko + glossary) and image re-renders for affected textures",
+  "then wave 3: cross-review by fresh agents (original | Korean per family, across groups for same-style buttons; no 1DX-copied pixels keeping 1DX colours - e.g. I4's 게임 시작 button; broken syllables), one combined build_lyt --dry-run, integration build into patch/ (Msg + Lyt + Obj + FMdl + HB + Staffroll; logos only after the user's OK), tell the user what to look at in Azahar",
+  "still open: in-game review_items, make_batches ref gaps (only before any batch regeneration)"
+ ],
+ "wave2": {
+  "assignment": "work/batches/_assign_round2.json (13 translators W01-W13, 42 batches, 2,744 messages)",
+  "batches_regenerated": "all 42 regenerated with the current glossary/word-boundary rule (messages unchanged)",
+  "launch_rules": "spawn only after all 33 wave-1 completion events are delivered; keep=true; each agent reads AGENTS.md, text/style_guide.md (incl. 5.1), work/TRANSLATE_TASK.md (incl. wave-2 section); writes only text/ko/<its batches>.json; stops only when every batch passes merge_ko.py --check with 0 errors; if a run ends without output, resume it with spawn_continue",
+  "launched": "2026-09-29T08:44+09:00, keep=true, max_turns=300",
+  "agents": {
+   "W01": "9539a9d5",
+   "W02": "0c52f9c9",
+   "W03": "3deddd88",
+   "W04": "1df705fd",
+   "W05": "f8b520b6",
+   "W06": "bd2f6a5f",
+   "W07": "17d75d22",
+   "W08": "20a269ae",
+   "W09": "5af6feb5",
+   "W10": "54462f1e",
+   "W11": "76b76c23",
+   "W12": "81f762a0",
+   "W13": "0d416fc8"
+  },
+  "results": {
+   "W09 5af6feb5": "ended with no response and no files (6th silent failure). Lead translated FMsg__o_otapuku_02__and1 (5 msgs, 0 errors/0 warnings). FMsg__o_mushiba_16__and2 (108 msgs) still open -> spawn_continue(5af6feb5) once all wave-2 results are delivered",
+   "W08 20a269ae": "i_metaboru_02__and9 (109, 4 intended warnings), i_metaboru_19 (19): 0 errors",
+   "W06 bd2f6a5f": "HugeBattle__p1 (105), HugeBattle__p2 (31): 0 errors, 0 warnings; new term チョロメーター = 쪼르미터 (DS BAI__BMes_ji#3.2)",
+   "W07 17d75d22": "i_kinopio_01 (41, 6 intended warnings), i_kioku_02__and1 (23), i_koopa_13_beam_01_L__and1 (26), i_koshi_01 (30): 0 errors",
+   "W10 54462f1e": "o_zutsuda_01__and9 (108, 1 warning), o_zutsuda_30 (55, 6 warnings): 0 errors",
+   "W11 76b76c23": "worked ~35 tool calls (reading/lookups) then ended with no response and no files (7th silent failure); conversation kept -> spawn_continue",
+   "W12 81f762a0": "o_chika_01__and3 (59), o_chika_geraexpress_04 (7), i_test_dnh_01 (1), minimap_o_mushiba_01 (3), o_areanone_allmap_bcat_U (11, 1 intended warning), o_areanone_meter_01_U (7): 0 errors",
+   "W03 3deddd88": "BMsg__b_sys__p7 (110, 2 warnings), p8 (110, 3), p9 (110, 3): 0 errors; new terms ダークメカコビッツV２ 다크메카코비츠2.0, ゲッソーの像 징오징오상 (both DS)",
+   "W05 f8b520b6 (resumed as 92617cc5)": "BMsg__b_sys__p13 (110, 6w), p14 (110, 5w), p15 (110, 7w), p16 (93, 7w): 0 errors, re-checked by lead; all warnings intended (アップ/ダウン -> 증가/감소 in descriptions, Broque '대미지', general チャレンジ = 도전, spoken ラッキー！ = 럭키!). Applied the steer (lose_msg 해요체, p15 #1698 = p4 #407, 가시철구, 요술지팡이). Coined, add to glossary_overrides with the last 3 translators' new_terms: フリフリバケツ 흔들흔들 양동이, 目隠しプレス 눈가림 프레스 (only in p16).",
+   "fresh 72c2418d": "FMsg__o_mushiba_16__and2 (108, 7 intended warnings: ポーズ 자세, スコア 점수, DS paraphrases): 0 errors, re-checked by lead. Lead fixed o_mushiba_24#29 p1 (3DX あかん = '안 된다! 안 돼!' like #27/DS170#10). Kept: 24#2 #6 choices '그만둔다/부탁한다' (not the common warp line), '퍼즐피스 위치 듣기', DS dialect 지긋이/냅 둬라.",
+   "fresh 3d4c8661": "FMsg__o_ekubon_09_1__and3 (86, 1 intended warning): 0 errors, re-checked by lead. Kept: o_ekubon_14#0 dup shared with o_ekubon_19#10 (both Bowser groans), 09_1#29 DS '꺄아~~~~' (style_guide 히익~ rule is for new lines only), 14#16 DS wording vs k_o_ekubon_80#155 (different scene/listener). Lead aligned k_o_ekubon_80#73 숲속 -> 숲 속 (DS convention)."
+  }
+ },
+ "tooling": [
+  "make_batches shared refs miss DS tables: _refs_Menu.txt lacks MAI__MMes_yo (badge-exchange tutorial, special-attack unlock lines), _refs_Item.txt lacks BData__mfset_AItmE and BadgeEffectE. Fix the ref selection before any batch regeneration.",
+  "merge_ko: per-id overrides for dup-shared translations (see pending_fixes).",
+  "make_batches MAX_REF_LINES=400 truncates big rooms' DS refs (FMsg__i_tainai_01: DS195/DS209 cut) - raise or split before regenerating batches; review_triage then undercounts 'ds'.",
+  "libtex3ds HQ ETC encoder: builds that encode ETC textures are slower (build_lyt full build about +1 min for C's 15 ETC1A4 textures, HB about +1 min for its 25, build_lyt --selftest 160 s). Use timeouts >= 10 min, or LIBTEX3DS_ETC=fast for quick smoke runs only (never for a build that gets installed).",
+  "scripts/dump_1dx_text.py -> work/ref_1dx_ko.tsv (key, index, label, text; 7,867 Korean 1DX messages, read-only on ml 1dx/). Use it to confirm 1DX official wording before coining a Bowser Jr. RPG term."
+ ],
+ "image_wave1": {
+  "brief": "work/IMAGE_TASK.md (streams I1-I6, rules: 1DX glyph shapes + 3DX-measured decoration; word choice = in-game translation > glossary > 1DX official image; outputs only to work/build/<stream>_stage and work/img; never patch/)",
+  "prepared_by_lead": "scripts/libtex3ds.py (all PICA formats incl. ETC1/ETC1A4, selftest OK), scripts/lytimg.py (BFLIM rot90/transpose storage, check: 6,690/6,690 lossless textures byte-identical), work/img/lyt_manifest.json (3DX 4,485 textures / 1,158 unique, 214 _JP_ja; 1DX 4,511 / 1,088, 194 _KR_ko), scripts/img_sheets.py + work/img/sheets/*, lib3dx.blz_compress/rebuild_bg4/bg4_plain (identity OK on Lyt x6, Obj x4 incl. FUI 0xFF 4-byte padding, FMdl, FMsg, BMsg); pinned etcpak 0.9.15, texture2ddecoder 1.0.6, scipy 1.18.1, opencv-python-headless 4.14.0.94",
+  "launched": "2026-09-29T21:10+09:00, keep=true, max_turns=800, reasoning_effort=high, include_memory=false",
+  "agents": {
+   "I2 imgtext toolkit": "484f633b",
+   "I1 Lyt builder + inventory": "51649b84",
+   "I4 FMdl/BCH + logos": "e0a6fc7a",
+   "I3 Obj sprites": "f6f2d185",
+   "I6 HugeBattle UI": "d4e7f988",
+   "I5 staff roll": "a1c5ec36"
+  },
+  "dependencies": "I2 writes work/img/toolkit/READY; I3/I4/I6 use it for new Korean art. Wave 2 (Lyt Korean art by style family, 3-4 agents per I1 'groups') starts when I1's lyt_plan.json and I2's READY exist. Wave 3 = cross-review by fresh agents, then lead integration build and user Azahar test.",
+  "results": {
+   "I5 a1c5ec36": "DONE, lead re-verified. Staffroll.bin = BLZ + u32 count + 96-byte records (44 UTF-16 chars, u32 colour, f32 size); 3DX 416 lines, 1DX KR 305; identity OK for both .bin and 3 fonts. Field.cro loads rom:/Staffroll/mario_font.bffnt + JP/Staffroll.bin. Only line #28 'Mario&LuigiRPG3 DX' -> '마리오&루이지 RPG3 DX' (1DX KR also translates only its title line; all roles/names stay English). mario_font 344 -> 350 glyphs (루리마오이지 copied pixel-for-pixel from 1DX mario_font_kr), original mapping/widths/KRNG kept, 1 sheet. libbffnt.py got backward-compatible KRNG read/write (28 fonts parse->build identical; build_patch --identity 7/7). Installed 21:40 into patch/.../romfs/Staffroll/ (JP/Staffroll.bin, mario_font.bffnt), SHA-256 match incl. Azahar junction.",
+   "I2 484f633b": "FAILED (API: an image over 2000 px in a many-image conversation - its own review sheets I2_bank_01-03 are ~500x2500). Conversation poisoned (spawn_status shows only the error). Saved: scripts/imgtext.py (1,002 lines), scripts/imgtext_bank.py (758), work/img/toolkit/bank (412 glyph entries, 154 syllables), bank_report: 1DX image lettering vs 1DX bitmap font IoU 0.62/0.63 (font strokes 0.83-0.87x), same syllable across 1DX images IoU 0.60 (mixed styles), OFL pick NanumSquareRoundEB 0.54. Missing: demos, README, READY. Restart brief: work/img/RESTART_I2.md",
+   "I3 f6f2d185": "FAILED (same 2000-px error; review sheet I3_KUI.png is 1298x2720). Saved: scripts/libobj.py (format, 3DX 247 / 1DX 184 objects), scripts/build_obj.py (identity + selftest pass, lead re-ran 21:55), work/img/obj (3DX 11,558 PNG, 1DX 5,203), scripts/libobj_ko.py donor jobs (BUI badstatname/block_name/tuto, KUI jump/statname/fukubikiblock) -> work/img/obj_ko 41 files. Missing: obj_plan.json, build. Restart brief: work/img/RESTART_I3.md",
+   "I1 51649b84": "DONE, lead re-verified (build_lyt.py --identity: 6 dats byte-identical; --selftest: 13 fake textures / 11 formats, 347 copies OK). scripts/build_lyt.py (--identity --selftest --dry-run --ko --out --report), scripts/make_lyt_plan.py, work/img/lyt_plan_src.tsv (hand classification), lyt_plan.json (1,158 items; after lead decisions 178 replace / 980 keep), lyt_families.json (32 families), family sheets <=1600 px. No txt1/fnl1 in any bflyt (3DX 561, 1DX 617): all visible layout text is in images or drawn from MSBT. Groups: A KJ 49, B menu/shop/file 46, C battle/result/minigame 36 (weighted 50), D list titles/guides/records 43, I4 logos 4.",
+   "I6 d4e7f988": "DONE first pass, lead re-verified (build_hb.py identity PASS 23/23 - unchanged files keep original compressed bytes; selftest PASS). HB/*.arc.z = Nintendo CX 'LH' (LZH8, 0x40) + nameless SARC + BFLIM (text textures ETC1A4); own LZH8 codec scripts/libhb_lzh8.py (ours 0-3% smaller). 187 textures (166 unique): 20 Japanese words -> Korean in 25 places (incl. HB/parts.arc.z outside JP_ja), 8 English kept (GET! WIN! START EXCELLENT! GREAT! GOOD! OK MISS...); 431 BCH textures in HB/*.bch.z have no text. New words: 본체를 가로로 / 바꿔 들어 주세요, 터치펜을 / 꺼내 주세요; shortened: 건너뛰기, 배틀 건너뛰기, 맞받아쳐!; 쪼르미터 (HugeBattle#69). Output work/build/hb_stage/romfs/HB/ (11 JP_ja arcs + parts.arc.z), PSNR >= 36.6 dB. Lead review of I6_02/I6_04: legible and outline colours right, but big text is thinner and blurrier than the Japanese (1DX bitmap font upscaled, strokes 0.7x) -> NOT installed; re-render after the fresh I2 READY (libhb_ko.py -> build_hb.py build -> review). Risk to test in game: our LZH8 re-compression of the 12 changed files (giant battles). particle.ptcl.z not inspected.",
+   "I4 e0a6fc7a": "DONE, lead re-verified (build_fmdl.py --identity OK 16,018,524 bytes, self-replace 12 models OK). scripts/libbch.py (205 models, 793 textures; BCH rows top-down -> flip=False), scripts/build_fmdl.py. fmdl_plan.json 27 items / 5 replaced: title logo (title_logo_JP_bottom/top/M_JP/L_JP: 1DX KR logo letters 마리오&루이지 + 디럭스, 3DX-measured navy 5 px outline, 3D extrusion, row face colours, gloss; RPG/3/DX/&/silhouettes original pixels) and fmd_title_start (1DX btn_GAMESTART '게임 시작' at 1.00x, yellow plate restored). fmd_ev_tfp (Thank you for playing!) identical to 1DX KR -> kept. File-select logos LOAD_GAME_IMG_ML_L/R (마리오&루이지 RPG3, no DX) and KJ_L/R (쿠파주니어 RPG: 쿠·파 from the 1DX KG logo, 주·니·어 built from the same strokes, ruby dropped) -> work/img/ko/lyt/MLyt/MENU_FILE_LOAD_JP_ja/, build_lyt --out lyt_stage_I4 OK. Stage: work/build/fmdl_stage/romfs/FMdl/JP/FMdl.dat (2 models recompressed). Open: Korean line starts ~12 px further left (x 31 vs 43), 마리오/루이지 slightly smaller than RPG (43 vs 48 px, 81% width), silhouettes moved above 마/루, 1DX sprout on 지 removed, 쿠파주니어 stroke 6 px vs JP 8.5, 게임 시작 3.5 vs 4 px (thicker closes ㅍ/ㅇ/임), layer order top-over-bottom assumed. Review: work/img/review/I4_*.png (20, <=1600 px). Lead: logo looks right; shown to the user for approval before install."
+  }
+ },
+ "image_wave2": {
+  "launched": "2026-09-29T22:50+09:00 (execution cap 6), keep=true, max_turns=800, reasoning_effort=high, include_memory=false",
+  "agents": {
+   "I2 fresh (RESTART_I2.md)": "6bce9a4a",
+   "I3 fresh (RESTART_I3.md)": "d9796d7b",
+   "B menu/shop/file": "387bced5",
+   "C battle/result/minigame": "f8a8979d",
+   "A Bowser Jr. RPG": "02028381",
+   "D list titles/guides/records": "dc93f6b4"
+  },
+  "coordination": "A-D wait for work/img/toolkit/READY (wait 10 min loops) and send tool requests via work/img/TOOLKIT_REQUESTS.md; I2 answers every 30 min. Each group builds only to work/build/lyt_stage_<G>; lead does the combined build.",
+  "kept_conversations": "I4 e0a6fc7a (logo revisions after user feedback), I6 d4e7f988 (re-render after READY), C f8a8979d (fixes after cross-review), I3 d9796d7b (sprite fixes), B 387bced5 (lettering fixes), A 02028381 (skill-name fixes), I2 6bce9a4a (toolkit requests on demand)",
+  "results": {
+   "C f8a8979d": "DONE, lead re-verified 2026-09-30T00:40+09:00. 36/36 PNGs, sizes match, words = lyt_plan ko. battle_btn 6, rank_name 11, stat_en 7 (scripts/lyt_C_stat.py: 3DX pixel letters reused, Y/M/L drawn on the same grid: SP, SUYEOM, PPUL, GDH), panel_label 2, field_btn 2, minigame_btn 5, result_banner 3. Sources: same_word 취소/시작, compose (rank names, 베스트 턴 갱신), font (rest), OFL GothicA1 only for 「상품」 in GET_PRIZE (em 21, size rule). Lead found grey inner rims on the ETC1A4 lettering; cause = etcpak (the RGBA8 render is clean) -> new libtex3ds ETC encoder (decisions), then re-ran scripts/lyt_C.py make rank_name,battle_btn,minigame_btn,result_banner (LA4 items reproduce byte-identically, imgtext 1.2). build_lyt --dry-run: 178 textures, 0 errors/warnings; C's 15 ETC1A4 PSNR 36.4-41.7 -> 51.7-99 dB. Accepted: STbr_HIGE/KJ_ST_GDD kind 가->나 (1DX lettering style differs), boss rank names 3-5 px wider than the JP ink (inside the texture), '글자 높이 비' 1.14-1.2 flags on small LA4 labels (hangul fills the em more than kana, visually matched), rank-name stroke 0.79-0.82 on dense syllables (toolkit gap protection). work/build/lyt_stage_C predates the new encoder: never install from it. Before/after sheet: work/img/review/lead_C_etc.png.",
+   "I3 d9796d7b": "DONE, lead re-verified 2026-09-30T00:58+09:00. obj_plan.json 73 items: replace 49 (17 objects, 74 frames, 124 region PNGs in work/img/obj_ko), keep 17, review 7. 17 items copied from 1DX KR sprites (어질어질/화상/독, 점프/해머/아이템/도망가기, 시범, 명중/회피, 돌격/비행/원거리/전체 대미지), 32 drawn with imgtext 1.2 (넘어짐/감기/분노/필살, 스페셜 어택/펀치/파이어/배큐엄/가이드/힌트, 뒤로/이지 모드/긴급 가드/난이도/보통/쉬움/연습 모드/시범 모드, 콜레미터, 터치펜을 꺼내 주세요 x3, 본체를 세로로 바꿔 들어 주세요 x2, 전환/되돌리기/결정/다시 한번/앞으로). Lead re-ran build_obj identity (4 dats byte-identical), selftest, check (BUI 90 / FUI 5 / KUI 24 / Menu 5 regions exact, rest byte-identical). Formats RGBA4/RGBA8 only (no ETC): the 23:56 stage is not affected by the encoder change. Lead viewed all 11 sheets: fixes listed in pending_fixes. Accepted: もどる = 뒤로 (1DX button), ブラザー/ボコスカアタック = 스페셜 어택 (DS + dialogue, not 1DX 브라더 어택), fukubikiblock 대미지 labels as 1DX (no dialogue line uses them), あと = 앞으로, English kept (CHALLENGE START!, THE END, QUEST COMPLETE!!, YOU ARE A SUPER PLAYER!!), silhouette-only and dev-art objects untouched. Stage: work/build/obj_stage/romfs/Obj/JP/*.dat (not installed; re-build after the fixes).",
+   "B 387bced5": "DONE, lead re-verified 2026-09-30T00:58+09:00. 46/46 PNGs (all LA4, 48 slots incl. copies), own script scripts/lyt_B.py (1DX same-word images at 0.75-1.09x for 20, 1DX bitmap font + compositions for 25, NEW GAME with original N/E/W/A/E pixels + G/M from BlackHanSans). B compared imgtext 1.1 defaults and kept its own renders (imgtext skipped 1DX image lettering under em 14, and 등껍질/가이드 closed up). Full build_lyt --dry-run with every group's PNGs: 178 textures, 0 errors, 0 warnings (76 s). I4's LOAD_GAME_IMG logos untouched (22:19/22:40). Lead viewed all 9 sheets: menu_top, shop_top, shop_btn, status_label, set_tab, file_btn crisp and matching; fixes in pending_fixes (「숍」 in 6 shop titles, LABEL_MLRPG hangul weight, 슬롯). Accepted: set_tab あり/なし = 있음/없음 (ON/OFF tabs stay English), 착용하기, 슬롯 = file slot (glossary スロット=점수 표 is the level-up slot), dense-syllable strokes 0.65-0.8 where they still read solid (등껍질 looks fine at 1x).",
+   "A 02028381": "DONE, lead re-verified 2026-09-30T01:04+09:00. 49/49 KLyt PNGs (LA4, 9 families, 74 slots incl. copies in MENU_SHOP_Lyt / MENU_FILE_LOAD: btn_NO1, btn_YES1, PARTY_LV), scripts/lyt_A.py on imgtext 1.1+: 1DX bitmap font (font or font_btl by size), 썬 composed, family-median decoration; 1DX same-word images for 배틀 시작 and 군단, original LV pixels. Strokes 0.955-1.08 for 45/49 (DECISION 1.11, ENEMYINFO 1.17 = thin-stroke measuring error, 예 1.27 = README 6 weight rule, looks equal to はい). The full build_lyt --dry-run (178 textures, 0 errors) already held A's final PNGs. Lead viewed A_overview: consistent white/black-outline lettering across kj_skill, menu, small, faint, dark, sort, type and label families. Accepted: kind 가 x7 drawn from the 1DX font for in-family consistency (the 1DX image lettering failed the toolkit size/quality rules), 그만두기 (lead 22:05), 돌격~!. Lead checked the 1DX KR buttons: n05 = 「선더」 (plan note '썬더' was a misreading), n08 = 「쿵쿵 떨어뜨리기」 -> both names changed (decisions); fix in pending_fixes.",
+   "D dc93f6b4": "DONE, lead re-verified 2026-09-30T01:08+09:00. 43/43 PNGs (LA4; list_title 24, list_title_faint 2, guide_pnl 8, record_btn 9; 50 slots incl. copies), scripts/lyt_D.py: 1DX dialogue font (em 15) scaled to 12 px with edge contrast and a 1/4 px phase search for the crispest result; the two faint titles (베스트 스코어/베스트 턴) use imgtext 1.2 defaults (1DX font_btl at native size); kind 가 x2 (블록) drawn the same way because the 1DX image lettering blurs at this size. Strokes 0.7-0.85 of the kana (heavier merges hangul bars) - lead viewed list_title, guide_pnl and record_btn sheets: crisp and legible at 1x, accepted. Record buttons 어택 미니 게임 / 어택피스 / 배틀 콜로세움 moved from two lines to one (88x24 two-line hangul would be 10 px) - accepted; spellings match the dialogue and DS (미니 게임 spaced, 어택피스 joined). 챌린지 and 홈 kept over 1DX 도전/구덩이 (DS glossary + dialogue, lead decision 22:05). Coined 장비 중 / 베스트 스코어 / 베스트 턴 / 보스 배틀 match C's words. TOOLKIT_REQUESTS D-3 (font_btl native merges 틀/블) left for I2. The full dry-run (178 textures, 0 errors) held D's final PNGs.",
+   "I2 6bce9a4a": "DONE, lead re-verified 2026-09-30T01:38+09:00: imgtext selftest OK (1.3). v1.3 + READY + README (ch.7 ETC note rewritten for the lead's HQ encoder). Line-level source choice, 1.25x upscale cap, bank only from 1DX images em >= 14 with quality/cluster checks, same-cluster A+B-B' compose, GothicA1 Bold/ExtraBold/Black as the vector fallback (IoU 0.564, best of 9), gap-protected thicken + re-measure, 1DX font_btl source, height fit, two-line split, original Latin reuse (jp_text/donors), fixed kmeans seed. Smoke test 194 replace textures (lyt + hb): 0 errors, 94% within +-10% stroke (median 0.986), deterministic. All 7 TOOLKIT_REQUESTS answered (I3-2 in 1.3: bitmaps >1.3x too heavy go to the next source). Limits: dense syllables 0.75-0.9; HB source mixing on one screen (passed to I6). A/D workaround code: their outputs are inside tolerance, no action."
+  },
+  "status": "FINISHED 6/6 (C, I3, B, A, D, I2), all lead-verified"
+ },
+ "image_fix_round": {
+  "launched": "2026-09-30T01:38+09:00 via spawn_continue (briefs = the former pending_fixes, plus: I6 pins one source per same-screen family; I3 may use 1.3 auto for 보통; A checks the lyt_A inner-layer double weight)",
+  "runs": {
+   "I6 HB re-render (conv d4e7f988)": "74d50cd7",
+   "I3 sprite fixes x5 (conv d9796d7b)": "6359b970",
+   "B lettering fixes x3 (conv 387bced5)": "04c0e2a4",
+   "A skill names x2 (conv 02028381)": "ada2963f"
+  },
+  "if_failed": "image-size API error or conversation_gone -> fresh spawn with a restart brief built from the agent's work/img/<ID>.md; silent end -> fresh spawn (no spawn_continue on silent ends)",
+  "results": {
+   "A ada2963f": "DONE, lead checked 2026-09-30T01:49+09:00. btn_KJ_LA_14 = 「선더」 (1DX font 선/더, em 15, 100% width), btn_KJ_LA_24 = 「쿵쿵 떨어뜨리기」 one line at 100% (110.5 of 111.5 px). Same settings as the other 20 kj_skill buttons (imgtext 1.3, source=font, family median decoration); stroke ratio 1.013 / 0.975 vs family 0.971-1.024; lyt_A.py has no inner-layer thickening any more (weight applied once). A's build_lyt --out lyt_stage_A: 178 textures, 0 errors, all 74 A copies read back identical. Lead viewed the rebuilt kj_skill sheet and overview: both buttons match the family.",
+   "I3 4e052a24 (conv d9796d7b)": "DONE, lead re-verified 2026-09-30T02:45+09:00: build_obj.py identity (4 dats rebuild==original, pixel round trip), selftest OK, check = 125 Korean regions decode back exactly (BUI 90, FUI 5, KUI 25, Menu 5), other entries byte-identical. Five fixes done: block names redrawn at the 1DX copies' em 13 px / stroke 2.2 px (result 12-14 px, 2.17-2.30), tuto f1 시범 yellow fill (3DX f0->f1 rule reproduces 100%), 보통 tracking -3 (0 empty columns like 쉬움), ko_ui_statname f6/f7 GDH (3DX G/D + 1DX H, outline -> 3DX black), badstatname f0 = 1DX 꽈당; obj_plan 75 items, 51 replace all made. Lead viewed I3_BUI_00-03, I3_KUI_00-01: sizes/weights now match. Lead palette check found the 1DX donor copies still carry the 1DX outline brown (51,34,17) where the 3DX originals use (17,17,17): block_name (whole family, drawn ones matched to the copies), badstatname (copies brown, drawn 감기/분노/필살 black -> mixed family), ko_ui_statname 명중/회피, ko_ui_fukubikiblock, ko_ui_jump 점프, bui_tuto 시범 (JP おてほん has no dark opaque outline at all); ko_ui_special f011 「앞으로」 has only white opaque pixels (outline weaker than JP 「あと」). -> pending_fixes (I3 palette pass).",
+   "I6 52d8ac44 (conv d4e7f988)": "DONE, lead re-verified 2026-09-30T03:15+09:00: build_hb.py identity PASS 23/23, selftest PASS (LZH8 23/23, fake replace 54.6 dB), lead rebuild into a temp folder byte-identical to work/build/hb_stage 12/12 files (temp removed). 20 textures -> 25 copies, bad 0; weight 0.904-0.992; one source per screen group (prompt 7 = GothicA1-Black tracking 2 gap_min 2; rescue 6 = 1DX font tracking 2; yes/no/skip 3, meter 2, boss 2 = GothicA1-Black). Lead viewed I6_01-05: prompts, rescue menu, yes/no, 역까지 crisp white on black like the JP. Accepted: Korean prompts 13-18% taller than the kana (same call as C's small labels), grey counters in 슬/빠. NOT accepted yet: s_ui_cyorometer_distance 「쪼르미터」 and the two boss notices look soft and grey - white-pixel share of opaque pixels KO 0.00 / 0.08 / 0.14 vs JP 0.10 / 0.21 / 0.20, brightest fill (95th pct luminance) 204 / 225 / 233 vs JP 242 / 255 / 255; the 쪼르미터 fill also has a pinkish cast. -> pending_fixes.",
+   "B f3db2f0a (conv 387bced5)": "FAILED turn_limit:100 at ~03:00 after writing (02:58-02:59) 11 PNGs (SHOP_TIT_* x8, LABEL_MLRPG, LABEL_KJRPG, btn_SLOT), B_make.json, B_fixcheck.txt/json, lyt_plan_src.tsv 02:58:31 + lyt_plan.json 02:58:48 (lead's btn_KJ_LA_24 edit survived in both), lyt_stage_B (178 textures, 0 errors). No sheets/report. Lead viewed the PNGs: blur gone (no partial alpha, crisp) but now too thin - stroke ratio SHOP_TIT 0.70-0.92, btn_SLOT 0.55, LABEL_MLRPG 0.86 (hangul/Latin 0.72), LABEL_KJRPG 0.94 (0.77). Continued in fix round 2."
+  },
+  "interruptions": [
+   "2026-09-30T01:55+09:00 the Kiro Crew gateway restarted (new gateway process started 01:55:04) and cancelled I6 74d50cd7, I3 6359b970, B 04c0e2a4 mid-work (spawn_status: 'Orphaned: cancelled'). No stray project python processes. Last saved files: I6 scripts/libhb_ko.py 01:45, work/img/hb_ko/_explore.json 01:49, review/I6_src_*.png 01:47-01:49 (all <= 1180 px); B scripts/lyt_B.py 01:48; I3 scripts/libobj_ko.py 01:54:59 (possibly mid-edit). Genuine interruption, not a silent end or image-size poisoning (no sheet > 1600 px except the old I2/I5 ones) -> resumed 02:15 with spawn_continue on the same conversations (I6 d4e7f988, I3 d9796d7b, B 387bced5); new run ids arrive with the completion events."
+  ]
+ },
+ "image_fix_round_2": {
+  "launched": "2026-09-30T03:30+09:00 (execution cap 4, one queued)",
+  "runs": {
+   "B weight fix, continuation (conv 387bced5, max_turns 300)": "48549046",
+   "I3 donor-palette pass (conv d9796d7b, max_turns 300)": "275a896a",
+   "I6 small-text crispness x3 (conv d4e7f988, max_turns 300)": "fd1d1f1c",
+   "A btn_KJ_LA_24 떨어트리기 (conv 02028381, max_turns 150)": "5bd99856",
+   "1DX term alignment review, FRESH, read-only (bulk_data)": "f3678bee"
+  },
+  "shared_file_rule": "all five were told not to write lyt_plan_src.tsv, lyt_plan.json, TOOLKIT_REQUESTS.md, lead_state.json, AGENTS.md, IMAGE_TASK.md (they report plan changes and toolkit requests; the lead applies them). Outputs only in their own files and stages.",
+  "if_failed": "turn_limit -> spawn_continue with a higher max_turns (work is saved); image-size API error or conversation_gone -> fresh spawn with a restart brief from work/img/<ID>.md; silent end -> fresh spawn (no spawn_continue on silent ends)",
+  "results": {}
+ }
+}

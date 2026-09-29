@@ -1,0 +1,19 @@
+{
+ "source": "Msg/JP_ja/FMsg.dat:k_i_koopa_13_escape_01_U",
+ "messages": [
+  {
+   "id": "FMsg/k_i_koopa_13_escape_01_U#0",
+   "label": "Kjrpg_08_Ekubon_qst04_32_01",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]みかけ[Ruby 倒;だお]しの [Ruby 巨体;きょたい]だったな。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/k_i_koopa_13_escape_01_U#1",
+   "label": "Kjrpg_08_Ekubon_qst04_32_02",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]さて。[0002:0001:][Next][Ruby 次;つぎ]は おじょうちゃん。\nキミの[Ruby 番;ばん]だ。[0002:0001:]"
+  }
+ ]
+}

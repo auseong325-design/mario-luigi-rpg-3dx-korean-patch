@@ -1,0 +1,384 @@
+{
+ "batch": "FMsg__i_metaboru_19",
+ "rooms": [
+  "i_metaboru_19"
+ ],
+ "ds_rooms": [
+  "0B8"
+ ],
+ "ds_reference": [
+  "DS0B8#0: 놀랄 것 없도다.[Next]나는 이 지방바닥을 통치하는\n지방공주라 하느니라.",
+  "DS0B8#1: 그대가 방금 이 지방바닥에\n무엇인가를 떨어뜨렸느냐?",
+  "DS0B8#2: 그대가 이 지방바닥에\n떨어뜨린 것은 이\n굉장한 보물이냐?",
+  "DS0B8#3: 아니면 이\n흐느적거리는 초록색 수염이냐?",
+  "DS0B8#4: 지금부터 둘 중 하나를\n선택하면 되느니라.",
+  "DS0B8#5: 그대가 떨어뜨린 것은\n어느 것이더냐?\n 굉장한 보물\n 흐느적거리는 초록색 수염",
+  "DS0B8#6: 앗! 혹시 지금\n굉장한 보물을 선택하고 싶은\n충동에 사로잡히지 않았느냐?",
+  "DS0B8#7: 예끼!",
+  "DS0B8#8: 굉장한 보물에 마음을 빼앗긴 걸\n그대의 작은 표정 변화로\n알아챘느니라!",
+  "DS0B8#9: 호오…\n이 흐느적거리는 초록색은 동생이라\n굉장한 보물보다 소중하다는 게냐?",
+  "DS0B8#10: …흐음, 알았느니라.[Next]그럼 그대가 떨어뜨린 것은\n흐느적거리는 초록색이라고\n해 두자!",
+  "DS0B8#11: 호호호! 흐느적거리는 것치고는\n꽤 멋진 착지였느니라![Next]흐느적거리는 초록색과 동생을 걱정\n하는 빨간색 수염에게는 특별히 이\n굉장한 보물을 선물로 주겠노라!",
+  "DS0B8#12: 굉장한 보물을 획득했다!",
+  "DS0B8#13: 정직한 자에게는 복이 오나니…[Next]어디선가 비슷한 말을 듣게 된다면\n나를 기억할 지어다.",
+  "DS0B8#14: 부디 행복하길!",
+  "DS0B8#15: 방금 받은 굉장한 보물은\n대체 뭘까?",
+  "DS0B8#16: 2개의 배지를 획득했다!",
+  "DS0B8#17: 대단해!![Next]그 배지는 말야, 몸에 장착하면\n배틀에서 특별한 효과를\n낼 수 있게 되는 굉장한 거야!",
+  "DS0B8#18: 잘만 사용하면 배틀을 유리하게\n끌고 갈 수 있을 거야.",
+  "DS0B8#19: 또 다른 것도 들어 있나?"
+ ],
+ "glossary": [
+  {
+   "jp": "ネンマク姫",
+   "ko": "지방공주",
+   "type": "character",
+   "basis": "DS",
+   "source": "i_metaboru_19#0 ↔ DS0B8#0",
+   "note": "room-align"
+  },
+  {
+   "jp": "緑のヒゲ",
+   "ko": "초록색 수염",
+   "type": "character",
+   "basis": "DS",
+   "source": "o_peach_t_06_lastboss_01_U#3 ↔ DS223#9 (쿠파가 루이지를 부르는 말)",
+   "note": "room-align"
+  },
+  {
+   "jp": "赤いヒゲ",
+   "ko": "빨간색 수염",
+   "type": "character",
+   "basis": "DS",
+   "source": "i_metaboru_19#12 <-> DS0B8#11",
+   "note": "지방공주 '弟思いの赤いヒゲ' → '동생을 걱정 하는 빨간색 수염'. 緑のヒゲ=초록색 수염 [gl_characters]"
+  },
+  {
+   "jp": "すごくいい宝物",
+   "ko": "굉장한 보물",
+   "type": "item",
+   "basis": "DS",
+   "source": "i_metaboru_19#13 ↔ DS0B8#12",
+   "note": "room-align"
+  },
+  {
+   "jp": "ネンマク床",
+   "ko": "지방바닥",
+   "type": "place",
+   "basis": "DS",
+   "source": "i_metaboru_19#0 ↔ DS0B8#0",
+   "note": "room-align"
+  },
+  {
+   "jp": "バッジ",
+   "ko": "배지",
+   "type": "term",
+   "basis": "DS",
+   "source": "BData__mfset_BadgeN#0",
+   "note": "AGENTS.md 4.4 확정 표기 [gl_items]"
+  },
+  {
+   "jp": "バトル",
+   "ko": "배틀",
+   "type": "term",
+   "basis": "DS",
+   "source": "BAI__BMes_cf#2.13",
+   "note": "명사는 '배틀'. 동사 'バトルする/した'는 DS처럼 '싸우다'로 써도 된다"
+  },
+  {
+   "jp": "ヒゲ",
+   "ko": "수염",
+   "type": "term",
+   "basis": "DS",
+   "source": "DS '수염' 21회",
+   "note": ""
+  },
+  {
+   "jp": "を手に入れた！",
+   "ko": "획득했다!",
+   "type": "ui",
+   "basis": "DS",
+   "source": "BAI__BMes_ji#1.0",
+   "note": "시스템 알림 '○○을/를 획득했다!'(조사는 받침에 맞게) [gl_menu_places]"
+  }
+ ],
+ "messages": [
+  {
+   "id": "FMsg/i_metaboru_19#0",
+   "label": "MES_KMetaboru_19_KMetaboru_19_mes01",
+   "style": 6,
+   "src": "{1:align}{2:align}おどろくでない。{3:wait}[Next]{4:align}われは このネンマク床をおさめる\nネンマク姫で あるぞよ。{5:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0001:]",
+    "4": "[0001:0000:]",
+    "5": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_metaboru_19#1",
+   "label": "MES_KMetaboru_19_KMetaboru_19_mes02",
+   "style": 6,
+   "src": "そなた 今このネンマク床に\nなにか落とし物を したであろう？{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_metaboru_19#2",
+   "label": "MES_KMetaboru_19_KMetaboru_19_mes03",
+   "style": 6,
+   "src": "そなたが 落としたのは\nこちらの {1:color}すごくいい宝物{2:color}{3:color}か？{4:wait}{5:color}",
+   "tags": {
+    "1": "[Color #2C64FF]",
+    "2": "[Color #373737]",
+    "3": "[Color #373737]",
+    "4": "[0002:0001:]",
+    "5": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_metaboru_19#3",
+   "label": "MES_KMetaboru_19_KMetaboru_19_mes04",
+   "style": 6,
+   "src": "それとも この\n{1:color}ヨレヨレになった緑のヒゲ{2:color}{3:color}か？{4:wait}{5:color}",
+   "tags": {
+    "1": "[Color #00BB27]",
+    "2": "[Color #373737]",
+    "3": "[Color #373737]",
+    "4": "[0002:0001:]",
+    "5": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_metaboru_19#4",
+   "label": "MES_KMetaboru_19_KMetaboru_19_mes05",
+   "style": 6,
+   "src": "どちらなのか 今から\n２択で 聞くぞよ。{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_metaboru_19#5",
+   "label": "MES_KMetaboru_19_KMetaboru_19_mes06",
+   "style": 6,
+   "src": "{1:mode}そなたが 落としたのは\nどちらぞよ？{2:pause}\n{3:mode}{4:indent}すごくいい宝物\n{5:mode}{6:indent}ヨレヨレの緑のヒゲ{7:pause}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[0002:0000:14 00]",
+    "3": "[0005:0000:]",
+    "4": "[0006:0001:14 00]",
+    "5": "[0005:0000:]",
+    "6": "[0006:0001:14 00]",
+    "7": "[0002:0000:28 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_metaboru_19#6",
+   "label": "MES_KMetaboru_19_KMetaboru_19_mes07",
+   "style": 6,
+   "src": "あ！ そなた 今…{1:wait}[Next]{2:color}すごくいい宝物{3:color}{4:color} を選びたい\nしょうどうに かられたぞよ？{5:wait}{6:color}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[Color #2C64FF]",
+    "3": "[Color #373737]",
+    "4": "[Color #373737]",
+    "5": "[0002:0001:]",
+    "6": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_metaboru_19#7",
+   "label": "MES_KMetaboru_19_KMetaboru_19_mes08",
+   "style": 6,
+   "src": "ウソウソ！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_metaboru_19#8",
+   "label": "MES_KMetaboru_19_KMetaboru_19_mes09",
+   "style": 6,
+   "src": "{1:color}すごくいい宝物{2:color}{3:color}に\nこころひかれたのであろう！{4:wait}[Next]そなたの ビミョーな表情の\n変化で わかったぞよ！{5:wait}{6:color}",
+   "tags": {
+    "1": "[Color #2C64FF]",
+    "2": "[Color #373737]",
+    "3": "[Color #373737]",
+    "4": "[0002:0001:]",
+    "5": "[0002:0001:]",
+    "6": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_metaboru_19#9",
+   "label": "MES_KMetaboru_19_KMetaboru_19_mes20",
+   "style": 6,
+   "src": "まだなにか 入っているのかしら？{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_metaboru_19#10",
+   "label": "MES_KMetaboru_19_KMetaboru_19_mes10",
+   "style": 6,
+   "src": "{1:align}ほほぉ…{2:wait}[Next]{3:align}この{4:color}ヨレヨレの緑{5:color}{6:color}は 自分の弟だから\nすごくいい宝物より 大切だと？{7:wait}{8:color}",
+   "tags": {
+    "1": "[0001:0001:]",
+    "2": "[0002:0001:]",
+    "3": "[0001:0000:]",
+    "4": "[Color #00BB27]",
+    "5": "[Color #373737]",
+    "6": "[Color #373737]",
+    "7": "[0002:0001:]",
+    "8": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_metaboru_19#11",
+   "label": "MES_KMetaboru_19_KMetaboru_19_mes11",
+   "style": 6,
+   "src": "{1:align}{2:align}…ふふん まぁ よろしい。{3:wait}[Next]{4:align}では そなたが落としたのは{5:color}ヨレヨレ緑\n{6:color}{7:color}ということにしておくぞよ！{8:wait}{9:color}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0001:]",
+    "4": "[0001:0000:]",
+    "5": "[Color #00BB27]",
+    "6": "[Color #373737]",
+    "7": "[Color #373737]",
+    "8": "[0002:0001:]",
+    "9": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_metaboru_19#12",
+   "label": "MES_KMetaboru_19_KMetaboru_19_mes12",
+   "style": 6,
+   "src": "{1:align}ほほほ ヨレヨレにしては\nなかなか見事な 着地っぷりぞよ。{2:wait}[Next]緑のヨレヨレと \n弟思いの赤いヒゲには…{3:wait}[Next]特別に この{4:color}すごくいい宝物{5:color}{6:color}も\nあげるぞよ！{7:wait}{8:color}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0001:]",
+    "4": "[Color #2C64FF]",
+    "5": "[Color #373737]",
+    "6": "[Color #373737]",
+    "7": "[0002:0001:]",
+    "8": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_metaboru_19#13",
+   "label": "MES_KMetaboru_19_KMetaboru_19_mes13",
+   "style": 12,
+   "src": "{1:mode}{2:color}すごくいい宝物{3:color}{4:color}を手に入れた！{5:pause}{6:wait}{7:color}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[Color #4ED4FF]",
+    "3": "[Color #E6E6E6]",
+    "4": "[Color #373737]",
+    "5": "[0002:0000:1E 00]",
+    "6": "[0002:0001:]",
+    "7": "[Color #E6E6E6]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_metaboru_19#14",
+   "label": "MES_KMetaboru_19_KMetaboru_19_mes14",
+   "style": 6,
+   "src": "{1:align}{2:align}正直者は いつも得をする…{3:wait}[Next]{4:align}どこかで にたような話を聞いたなら\nわれのことを 思い出すがよいぞよ。{5:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0001:]",
+    "4": "[0001:0000:]",
+    "5": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_metaboru_19#15",
+   "label": "MES_KMetaboru_19_KMetaboru_19_mes15",
+   "style": 6,
+   "src": "さらばである！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_metaboru_19#16",
+   "label": "MES_KMetaboru_19_KMetaboru_19_mes16",
+   "style": 6,
+   "src": "今もらった {1:color}すごくいい宝物{2:color}{3:color}\nって なにかしら？{4:wait}{5:color}",
+   "tags": {
+    "1": "[Color #2C64FF]",
+    "2": "[Color #373737]",
+    "3": "[Color #373737]",
+    "4": "[0002:0001:]",
+    "5": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_metaboru_19#17",
+   "label": "MES_KMetaboru_19_KMetaboru_19_mes18",
+   "style": 6,
+   "src": "{1:align}{2:align}すごいわ！！{3:wait}[Next]{4:align}そのバッジはね 身に着けると\nバトルで 特別な効果が\n出せるように なるのよ！{5:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0001:]",
+    "4": "[0001:0000:]",
+    "5": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_metaboru_19#18",
+   "label": "MES_KMetaboru_19_KMetaboru_19_mes19",
+   "style": 6,
+   "src": "上手に使えば バトルを有利に\n進められるかもしれないわね。{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  }
+ ]
+}

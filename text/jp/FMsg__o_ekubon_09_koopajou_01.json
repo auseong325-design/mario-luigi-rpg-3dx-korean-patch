@@ -1,0 +1,26 @@
+{
+ "source": "Msg/JP_ja/FMsg.dat:o_ekubon_09_koopajou_01",
+ "messages": [
+  {
+   "id": "FMsg/o_ekubon_09_koopajou_01#0",
+   "label": "MES_EV_Ekubon_09_Ekubon_koopa_giant_12",
+   "style": 10,
+   "attr": "00000000",
+   "jp": "[0009:0000:0A 00][0001:0004:]うえですーーーーー！！[0002:0000:1E 00]"
+  },
+  {
+   "id": "FMsg/o_ekubon_09_koopajou_01#1",
+   "label": "MES_EV_Ekubon_09_Ekubon_koopa_giant_13",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]なんだ？[0002:0000:0A 00] なにやら\n[Ruby 暗;くら]いぞ！[0002:0000:0A 00] もう[Ruby 夜;よる]か？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_ekubon_09_koopajou_01#2",
+   "label": "MES_EV_Ekubon_09_Ekubon_koopa_giant_14",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]…で[0002:0000:0A 00] クッパ[Ruby 城;じょう]は\nどこに いったんだ？[0002:0001:]"
+  }
+ ]
+}

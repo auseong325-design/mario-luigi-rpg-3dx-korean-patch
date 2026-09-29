@@ -1,0 +1,870 @@
+{
+ "batch": "Menu__p6",
+ "rooms": [
+  "Menu"
+ ],
+ "ds_rooms": [],
+ "ds_reference": [
+  "@file work/batches/_refs_Menu.txt (498 DS lines shared by all Menu batches - read it once)"
+ ],
+ "glossary": [
+  {
+   "jp": "コウラマリオ",
+   "ko": "등껍질 마리오",
+   "type": "ability",
+   "basis": "coined",
+   "source": "",
+   "note": "DS는 이름 없이 '등껍질을 짊어진 상태'(FEvent#0CF.20)로만 씀. 등껍질블록(DS)에 맞춤 [gl_attacks]"
+  },
+  {
+   "jp": "ジャンプ",
+   "ko": "점프",
+   "type": "ability",
+   "basis": "DS",
+   "source": "BData__mfset_Help#9",
+   "note": "필드 액션·배틀 커맨드 공통 [gl_attacks]"
+  },
+  {
+   "jp": "スライディングパンチ",
+   "ko": "슬라이딩 펀치",
+   "type": "ability",
+   "basis": "coined",
+   "source": "",
+   "note": "DS 한국판은 이름 없이 '걸으면서 펀치'(FEvent#03C.11). DS 말장난 '슬라이딩 다이어트'(FEvent#055.0)와 이어짐 [gl_attacks]"
+  },
+  {
+   "jp": "バルーンマリオ",
+   "ko": "풍선 마리오",
+   "type": "ability",
+   "basis": "coined",
+   "source": "",
+   "note": "DS는 '풍선처럼 변했던 것'(FEvent#0F2.46)으로만 씀 [gl_attacks]"
+  },
+  {
+   "jp": "パンチ",
+   "ko": "펀치",
+   "type": "ability",
+   "basis": "DS",
+   "source": "BData__mfset_Help#14",
+   "note": "필드 액션·배틀 커맨드 공통 [gl_attacks]"
+  },
+  {
+   "jp": "ブラザードリル",
+   "ko": "브라더 드릴",
+   "type": "ability",
+   "basis": "DS",
+   "source": "FEvent#0E5.1",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "クッパ",
+   "ko": "쿠파",
+   "type": "character",
+   "basis": "DS",
+   "source": "BData__mfset_Help#21",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "ゲラコビッツ",
+   "ko": "까르코비츠",
+   "type": "character",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesOutline#5",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "マリオ",
+   "ko": "마리오",
+   "type": "character",
+   "basis": "DS",
+   "source": "BData__mfset_Help#19",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "ルイージ",
+   "ko": "루이지",
+   "type": "character",
+   "basis": "DS",
+   "source": "BData__mfset_Help#20",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "キノコ",
+   "ko": "버섯",
+   "type": "item",
+   "basis": "DS",
+   "source": "BData__mfset_UItmN#0",
+   "note": "일반 명사 キノコ도 버섯(キノコタウン=버섯 타운) [gl_items]"
+  },
+  {
+   "jp": "ボーナスカード",
+   "ko": "보너스 카드",
+   "type": "item",
+   "basis": "coined",
+   "source": "3DX 개명(DS 스크래치 카드와 방식이 다름)",
+   "note": "3DX에서 이름·방식이 바뀌어 3DX 이름을 따름"
+  },
+  {
+   "jp": "しっかりきっちりばっちりと",
+   "ko": "야무지게 꼼꼼하게 완벽하게",
+   "type": "other",
+   "basis": "coined",
+   "source": "",
+   "note": "BGM 제목(3DX 신규, DX판·원곡판 공통). ~っり 3연속 운율을 '-게' 3연속으로 [gl_menu_places]"
+  },
+  {
+   "jp": "やっとクッパ城にたどりついたが… なんとゲラコビッツシアター？に作りかえられていた！",
+   "ko": "드디어 쿠파 성에 도착했지만… 뭐? 까르코비츠 홀로 바뀌었다고!?",
+   "type": "other",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesOutline#11",
+   "note": "줄거리 문장(3DX storyN = DS #N) [gl_menu_places]"
+  },
+  {
+   "jp": "クラス",
+   "ko": "클래스",
+   "type": "other",
+   "basis": "DS",
+   "source": "FEvent#28A.97",
+   "note": "배틀 콜로세움의 단계 [gl_attacks]"
+  },
+  {
+   "jp": "コロシアム",
+   "ko": "콜로세움",
+   "type": "other",
+   "basis": "DS",
+   "source": "FEvent#28A.3",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "スライディングパンチもできるようになったクッパ。再びクッパ城へ向けて出発だ！",
+   "ko": "슬라이딩 펀치를 할 수 있게 된 쿠파. 다시 쿠파 성을 향해 출발!",
+   "type": "other",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesOutline#10",
+   "note": "줄거리 문장(3DX storyN = DS #N) [gl_menu_places]"
+  },
+  {
+   "jp": "トロフィー",
+   "ko": "트로피",
+   "type": "other",
+   "basis": "DS",
+   "source": "FEvent#28A.34",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "新しいページをめくって",
+   "ko": "새로운 페이지를 넘기며",
+   "type": "other",
+   "basis": "coined",
+   "source": "",
+   "note": "BGM 제목(3DX 신규, DX판·원곡판 공통). [gl_menu_places]"
+  },
+  {
+   "jp": "エアースペース",
+   "ko": "에어 스페이스",
+   "type": "place",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesPlace#24",
+   "note": "세이브 파일 장소명(3DX MES_EMesPlace_place24 = DS #24) [gl_menu_places]"
+  },
+  {
+   "jp": "エネルギースペース",
+   "ko": "에너지 스페이스",
+   "type": "place",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesPlace#23",
+   "note": "세이브 파일 장소명(3DX MES_EMesPlace_place23 = DS #23) [gl_menu_places]"
+  },
+  {
+   "jp": "クッパの体内",
+   "ko": "쿠파의 몸속",
+   "type": "place",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesOutline#2",
+   "note": "[gl_menu_places]"
+  },
+  {
+   "jp": "クッパ城",
+   "ko": "쿠파 성",
+   "type": "place",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesPlace#6",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "ゲラコビッツシアター",
+   "ko": "까르코비츠 홀",
+   "type": "place",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesOutline#11",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "パワースペース",
+   "ko": "파워 스페이스",
+   "type": "place",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesPlace#25",
+   "note": "부위가 붙으면 DS처럼 괄호: 파워 스페이스(팔) [gl_menu_places]"
+  },
+  {
+   "jp": "パワースペース いぶくろ",
+   "ko": "파워 스페이스(위)",
+   "type": "place",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesPlace#26",
+   "note": "세이브 파일 장소명(3DX MES_EMesPlace_place26 = DS #26) [gl_menu_places]"
+  },
+  {
+   "jp": "パワースペース うで",
+   "ko": "파워 스페이스(팔)",
+   "type": "place",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesPlace#25",
+   "note": "세이브 파일 장소명(3DX MES_EMesPlace_place25 = DS #25) [gl_menu_places]"
+  },
+  {
+   "jp": "メタボルスペース",
+   "ko": "군살 스페이스",
+   "type": "place",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesPlace#22",
+   "note": "세이브 파일 장소명(3DX MES_EMesPlace_place22 = DS #22) [gl_menu_places]"
+  },
+  {
+   "jp": "体内",
+   "ko": "몸속",
+   "type": "place",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesOutline#6",
+   "note": "[gl_menu_places]"
+  },
+  {
+   "jp": "BP",
+   "ko": "SP",
+   "type": "term",
+   "basis": "DS",
+   "source": "BAI__BMes_cf#4.13",
+   "note": "3DX의 BP(브라더/보코스카 포인트)=DS의 SP. 3DX 화면 이미지(능력치·HUD)의 BP 표기와 맞출지 결정 필요 — 확인 필요. 후속작 공식은 'BP(브라더 포인트)' [gl_attacks]"
+  },
+  {
+   "jp": "HP",
+   "ko": "HP",
+   "type": "term",
+   "basis": "DS",
+   "source": "BAI__BMes_cf#2.11",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "アクション",
+   "ko": "액션",
+   "type": "term",
+   "basis": "DS",
+   "source": "FEvent#152.21",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "キノコランク",
+   "ko": "버섯 랭크",
+   "type": "term",
+   "basis": "DS",
+   "source": "MData__mfset_MenuMes#115",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "コイン",
+   "ko": "코인",
+   "type": "term",
+   "basis": "DS",
+   "source": "BData__mfset_WearE#22",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "コウラ",
+   "ko": "등껍질",
+   "type": "term",
+   "basis": "DS",
+   "source": "BAI__BMes_cf#8.1",
+   "note": "쿠파의 방어 커맨드(Y)·등껍질 일반 [gl_attacks]"
+  },
+  {
+   "jp": "コウラランク",
+   "ko": "등껍질 랭크",
+   "type": "term",
+   "basis": "DS",
+   "source": "MData__mfset_MenuMes#116",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "スターランク",
+   "ko": "스타 랭크",
+   "type": "term",
+   "basis": "DS",
+   "source": "MData__mfset_MenuMes#119",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "バッジ",
+   "ko": "배지",
+   "type": "term",
+   "basis": "DS",
+   "source": "BData__mfset_BadgeN#0",
+   "note": "AGENTS.md 4.4 확정 표기 [gl_items]"
+  },
+  {
+   "jp": "バトル",
+   "ko": "배틀",
+   "type": "term",
+   "basis": "DS",
+   "source": "BAI__BMes_cf#2.13",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "フラワーランク",
+   "ko": "플라워 랭크",
+   "type": "term",
+   "basis": "DS",
+   "source": "MData__mfset_MenuMes#117",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "ブーメラン",
+   "ko": "부메랑",
+   "type": "term",
+   "basis": "coined",
+   "source": "BMsg/b_sys#1628",
+   "note": "진형 이름 [gl_kj]"
+  },
+  {
+   "jp": "ブーメランランク",
+   "ko": "부메랑 랭크",
+   "type": "term",
+   "basis": "coined",
+   "source": "",
+   "note": "DS 원판은 シャインランク→'샤인 랭크'(MenuMes#118). 3DX에서 이름이 바뀌어 새 이름을 따름 — 확인 필요 [gl_attacks]"
+  },
+  {
+   "jp": "マリオ達",
+   "ko": "마리오 일행",
+   "type": "term",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesOutline#16",
+   "note": "[gl_menu_places]"
+  },
+  {
+   "jp": "メーター",
+   "ko": "게이지",
+   "type": "term",
+   "basis": "DS",
+   "source": "BAI__BMes_cf#6.7",
+   "note": "배지 게이지를 가리킬 때. 다른 계기(コレメーター 등)는 해당 항목대로 [gl_attacks]"
+  },
+  {
+   "jp": "ランク",
+   "ko": "랭크",
+   "type": "term",
+   "basis": "DS",
+   "source": "MData__mfset_MenuMes#116",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "HIGE",
+   "ko": "SUYEOM",
+   "type": "ui",
+   "basis": "DS",
+   "source": "DS16A#17 \"SUYEOM이나 PPUL 포인트\"",
+   "note": "능력치 로마자 표기. 일본어 ヒゲ(일반 명사)는 '수염'"
+  },
+  {
+   "jp": "お買い物",
+   "ko": "쇼핑",
+   "type": "ui",
+   "basis": "DS",
+   "source": "SAI__SMes_yo#0.48",
+   "note": "[gl_menu_places]"
+  },
+  {
+   "jp": "アイテム",
+   "ko": "아이템",
+   "type": "ui",
+   "basis": "DS",
+   "source": "BData__mfset_Help#13",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "アタリ",
+   "ko": "당첨",
+   "type": "ui",
+   "basis": "DS",
+   "source": "SAI__SMes_yo#0.72",
+   "note": "[gl_menu_places]"
+  },
+  {
+   "jp": "ウルトラボーナスカード",
+   "ko": "울트라 스크래치 카드",
+   "type": "ui",
+   "basis": "DS",
+   "source": "SAI__SMes_yo#0.32",
+   "note": "[gl_menu_places]"
+  },
+  {
+   "jp": "スーパーボーナスカード",
+   "ko": "슈퍼 스크래치 카드",
+   "type": "ui",
+   "basis": "DS",
+   "source": "SAI__SMes_yo#0.28",
+   "note": "[gl_menu_places]"
+  },
+  {
+   "jp": "セーブ",
+   "ko": "저장",
+   "type": "ui",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesSys#9",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "セーブ中です。",
+   "ko": "저장 중입니다.",
+   "type": "ui",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesSys#11",
+   "note": "[gl_menu_places]"
+  },
+  {
+   "jp": "ノーマルボーナスカード",
+   "ko": "보통 스크래치 카드",
+   "type": "ui",
+   "basis": "DS",
+   "source": "SAI__SMes_yo#0.28",
+   "note": "블로크 숍 말투에서는 '노멀 스크래치 카드'(SAI__SMes_yo#0.100) [gl_menu_places]"
+  },
+  {
+   "jp": "ハズレ",
+   "ko": "꽝",
+   "type": "ui",
+   "basis": "DS",
+   "source": "SAI__SMes_yo#0.3",
+   "note": "[gl_menu_places]"
+  },
+  {
+   "jp": "ボタン",
+   "ko": "버튼",
+   "type": "ui",
+   "basis": "DS",
+   "source": "MAI__MMes_yo#1.16",
+   "note": "[gl_menu_places]"
+  },
+  {
+   "jp": "獲得",
+   "ko": "획득",
+   "type": "ui",
+   "basis": "DS",
+   "source": "BAI__BMes_cf#7.10",
+   "note": "[gl_menu_places]"
+  },
+  {
+   "jp": "組み合わせ",
+   "ko": "조합",
+   "type": "ui",
+   "basis": "DS",
+   "source": "MAI__MMes_yo#0.8",
+   "note": "배지의 조합 [gl_menu_places]"
+  },
+  {
+   "jp": "買い物",
+   "ko": "쇼핑",
+   "type": "ui",
+   "basis": "DS",
+   "source": "SAI__SMes_yo#0.64",
+   "note": "[gl_menu_places]"
+  },
+  {
+   "jp": "賞品",
+   "ko": "상품",
+   "type": "ui",
+   "basis": "DS",
+   "source": "BDataMiniGame__mfset_MesDat_MiniGame#31",
+   "note": "[gl_menu_places]"
+  },
+  {
+   "jp": "電源",
+   "ko": "전원",
+   "type": "ui",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesSys#15",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "電源をOFFにしないでください。",
+   "ko": "전원을 끄지 마십시오.",
+   "type": "ui",
+   "basis": "coined",
+   "source": "",
+   "note": "DS EMesSys#11 '전원을 끄거나 DS 카드를 뽑지 마십시오.'에서 카드 부분 제외 [gl_menu_places]"
+  }
+ ],
+ "messages": [
+  {
+   "id": "Menu#802",
+   "label": "MES_tuto_yo_scrratch_tuto_ml5_kinoda",
+   "style": 6,
+   "src": "お買い物で 使ったコインの一部が\nもどってくる… という しくみ！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#805",
+   "label": "ActGuide_07",
+   "style": 12,
+   "src": "コウラマリオ",
+   "tags": {},
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#809",
+   "label": "MES_EMesPlace_place22",
+   "style": 13,
+   "src": "メタボルスペース",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#810",
+   "label": "MES_MenuMes_ml_lank1",
+   "style": 6,
+   "src": "キノコランク",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#811",
+   "label": "MES_tuto_yo_nice_hige4",
+   "style": 6,
+   "src": "これからは お買い物ごとに\nスーパーボーナスカードを\nさしあげます！{1:wait}[Next]{2:align}これまでより アタリが\n出やすくなってますよ！{3:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0001:0004:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#812",
+   "label": "MES_tuto_yo_scrratch_tuto_ml6_kinoda",
+   "style": 6,
+   "src": "ボーナスカードのしくみ\nわかりましたか？{1:pause}\n{2:align}{3:choice}いいえ{4:tab}{5:choice}はい{6:pause}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0001:0001:]",
+    "3": "[0004:0001:]",
+    "4": "[0006:0000:28 00]",
+    "5": "[0004:0001:]",
+    "6": "[0002:0000:0A 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#814",
+   "label": "ActGuide_08",
+   "style": 12,
+   "src": "ブラザードリル",
+   "tags": {},
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#818",
+   "label": "MES_EMesColosseum_guide_item_02_00",
+   "style": 3,
+   "src": "このバトルではマリオ達が\n持っているアイテムは使えません。\nコロシアムが用意した\nアイテムを使って 戦います。",
+   "tags": {},
+   "header": "[0009:0000:03 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#819",
+   "label": "MES_EMesPlace_place23",
+   "style": 13,
+   "src": "エネルギースペース",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#820",
+   "label": "MES_MenuMes_ml_lank2",
+   "style": 6,
+   "src": "コウラランク",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#821",
+   "label": "MES_menu_tuto_badge_change_badge_change_ok",
+   "style": 6,
+   "src": "バッジの 組み合わせが\n決まったら {1:color}{2:icon}{3:color}{4:color}ボタンで決定だよ！{5:wait}{6:color}",
+   "tags": {
+    "1": "[Color #2C64FF]",
+    "2": "[U+E000]",
+    "3": "[Color #373737]",
+    "4": "[Color #373737]",
+    "5": "[0002:0001:]",
+    "6": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#822",
+   "label": "MES_tuto_yo_bad_hige3_badge",
+   "style": 6,
+   "src": "これじゃ 残念だけど\nスーパーボーナスカードは\nプレゼントできないね…{1:wait}[Next]{2:align}ノーマルボーナスカードなら\nプレゼントできるけどね。{3:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0001:0004:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#823",
+   "label": "MES_tuto_yo_nice_hige5",
+   "style": 6,
+   "src": "マリオさん！ ルイージさん！\n最高にステキな HIGEに\nなりましたね！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#824",
+   "label": "menu_save_01",
+   "style": 3,
+   "src": "セーブ中です。\n電源をOFFにしないでください。",
+   "tags": {},
+   "header": "[0009:0000:03 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#826",
+   "label": "ActGuide_09",
+   "style": 12,
+   "src": "バルーンマリオ",
+   "tags": {},
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#829",
+   "label": "MES_EMesColosseum_guide_item_02_01",
+   "style": 3,
+   "src": "クラスによって\n用意されるアイテムは変わります。",
+   "tags": {},
+   "header": "[0009:0000:03 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#830",
+   "label": "MES_EMesPlace_place24",
+   "style": 13,
+   "src": "エアースペース",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#831",
+   "label": "MES_MenuMes_ml_lank3",
+   "style": 6,
+   "src": "フラワーランク",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#832",
+   "label": "MES_tuto_yo_nice_hige6",
+   "style": 6,
+   "src": "これからは お買い物ごとに\nウルトラボーナスカードを\nさしあげます！{1:wait}[Next]{2:align}これまでより アタリが\n出やすくなってますよ！{3:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0001:0004:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#833",
+   "label": "MES_tuto_yo_scrres_fail_00",
+   "style": 5,
+   "src": "ハズレです…\n残念でしたね。",
+   "tags": {},
+   "header": "[0009:0000:05 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#834",
+   "label": "ActGuide_00_1",
+   "style": 11,
+   "src": "{1:color}{2:icon}{3:icon}{4:color}を {5:color}同時に押す{6:color}ことで\nマリオとルイージは「{7:color}ジャンプ{8:color}」\nクッパは「{9:color}パンチ{10:color}」へ戻せます。",
+   "tags": {
+    "1": "[Color #2C64FF]",
+    "2": "[U+E004]",
+    "3": "[U+E005]",
+    "4": "[Color #E6E6E6]",
+    "5": "[Color #2C64FF]",
+    "6": "[Color #E6E6E6]",
+    "7": "[Color #2C64FF]",
+    "8": "[Color #E6E6E6]",
+    "9": "[Color #2C64FF]",
+    "10": "[Color #E6E6E6]"
+   },
+   "header": "[0009:0000:0B 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#836",
+   "label": "FldGuide_04_0",
+   "style": 11,
+   "src": "マリオは{1:color}{2:icon}{3:color}ボタン ルイージは{4:color}{5:icon}{6:color}ボタン \nクッパは{7:color}{8:icon}{9:color}ボタンでアクションができます。",
+   "tags": {
+    "1": "[Color #FF4343]",
+    "2": "[U+E000]",
+    "3": "[Color #E6E6E6]",
+    "4": "[Color #00BB27]",
+    "5": "[U+E001]",
+    "6": "[Color #E6E6E6]",
+    "7": "[Color #FF9600]",
+    "8": "[U+E002]",
+    "9": "[Color #E6E6E6]"
+   },
+   "header": "[0009:0000:0B 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#837",
+   "label": "MES_EMesColosseum_class_1_prize",
+   "style": 12,
+   "src": "{1:mode}{2:align}{3:align}トロフィーを獲得！\n賞品は {4:color}{5:var}{6:color}コインと\n{7:color}{8:var}{9:color}！{10:pause}{11:wait}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[0001:0001:]",
+    "3": "[0001:0004:]",
+    "4": "[Color #4ED4FF]",
+    "5": "[0003:0000:00 00 05 00 00 00]",
+    "6": "[Color #E6E6E6]",
+    "7": "[Color #4ED4FF]",
+    "8": "[0003:0001:00 00 00 00 01 00]",
+    "9": "[Color #E6E6E6]",
+    "10": "[0002:0000:1E 00]",
+    "11": "[0002:0001:]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#838",
+   "label": "MES_EMesColosseum_guide_item_02_02",
+   "style": 3,
+   "src": "バトルが始まるとき\nHPとBPは マンタンになりますが\nバッジのメーターは \nゼロからのスタートとなります。",
+   "tags": {},
+   "header": "[0009:0000:03 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#839",
+   "label": "MES_EMesOutline_story10",
+   "style": 4,
+   "src": "スライディングパンチもできるようになったクッパ。再びクッパ城へ向けて出発だ！",
+   "tags": {},
+   "header": "[0009:0000:04 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#840",
+   "label": "MES_EMesPlace_place25",
+   "style": 13,
+   "src": "パワースペース うで",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#841",
+   "label": "MES_MenuMes_ml_lank4",
+   "style": 6,
+   "src": "ブーメランランク",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#842",
+   "label": "MES_bgm_title_02_legacy",
+   "style": 6,
+   "src": "新しいページをめくって",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#845",
+   "label": "FldGuide_04_1",
+   "style": 11,
+   "src": "マリオとルイージがクッパの体内に\nいないとき クッパの操作はできません。",
+   "tags": {},
+   "header": "[0009:0000:0B 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#846",
+   "label": "MES_EMesOutline_story11",
+   "style": 4,
+   "src": "やっとクッパ城にたどりついたが… なんとゲラコビッツシアター？に作りかえられていた！",
+   "tags": {},
+   "header": "[0009:0000:04 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#847",
+   "label": "MES_EMesPlace_place26",
+   "style": 13,
+   "src": "パワースペース いぶくろ",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#848",
+   "label": "MES_MenuMes_ml_lank5",
+   "style": 6,
+   "src": "スターランク",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#849",
+   "label": "MES_bgm_title_03_legacy",
+   "style": 6,
+   "src": "しっかりきっちりばっちりと",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  }
+ ]
+}

@@ -1,0 +1,138 @@
+{
+ "source": "Msg/JP_ja/FMsg.dat:o_peach_t_06_lastboss_04_L",
+ "messages": [
+  {
+   "id": "FMsg/o_peach_t_06_lastboss_04_L#0",
+   "label": "MES_EV_MAIN_TPeach_06_2_Last_battle_58",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ひゃ～～！！\nま[0002:0000:05 00] またしても～～！[0002:0001:][Next][0001:0004:][Ruby 姫様;ひめさま]！ お[Ruby 逃;に]げください～！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_peach_t_06_lastboss_04_L#1",
+   "label": "MES_EV_MAIN_TPeach_06_2_Last_battle_46",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]おお！！ ここはどこですか！？\nもしや ここは…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_peach_t_06_lastboss_04_L#2",
+   "label": "MES_EV_MAIN_TPeach_06_2_Last_battle_47",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]そう！！[0002:0000:0A 00]\nクッパの[Ruby 体;からだ]の[Ruby 外;そと]よ！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_peach_t_06_lastboss_04_L#3",
+   "label": "MES_EV_SUB_TPeach_06_2_Peach_talk_01",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]マリオ…！！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_peach_t_06_lastboss_04_L#4",
+   "label": "MES_EV_SUB_TPeach_06_2_Peach_talk_02",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ルイージ！ [Ruby 起;お]きて！\nみんな [Ruby 外;そと]に[Ruby 出;で]たわよ！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_peach_t_06_lastboss_04_L#5",
+   "label": "MES_EV_SUB_TPeach_06_2_Peach_talk_03",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]イエロースター！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_peach_t_06_lastboss_04_L#6",
+   "label": "MES_EV_SUB_TPeach_06_2_Peach_talk_04",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]みんな… よく[Ruby 無事;ぶじ]で…[0002:0001:][Next][0001:0001:]よかった…！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_peach_t_06_lastboss_04_L#7",
+   "label": "MES_EV_SUB_TPeach_06_2_Peach_talk_05",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ルイージ…！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_peach_t_06_lastboss_04_L#8",
+   "label": "MES_EV_MAIN_TPeach_06_2_Last_battle_58_1",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]マリオ！[0002:0000:0A 00] ルイージ！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_peach_t_06_lastboss_04_L#9",
+   "label": "MES_EV_MAIN_TPeach_06_2_Last_battle_58_2",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:][0001:0001:][Ruby 心配;しんぱい]は ご[Ruby 無用;むよう]ですぞ！[0002:0001:][Next][0001:0000:]マリオどのと ルイージどのならば\n[Ruby 必;かなら]ず[Ruby 勝;か]つに [Ruby 決;き]まっていますとも！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_peach_t_06_lastboss_04_L#10",
+   "label": "MES_EV_MAIN_TPeach_06_2_Last_battle_58_3",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]…がんばってね！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_peach_t_06_lastboss_04_L#11",
+   "label": "MES_EV_MAIN_TPeach_06_2_Last_battle_58_4",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]さあ はやく！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_peach_t_06_lastboss_04_L#12",
+   "label": "MES_EV_MAIN_TPeach_06_2_Last_battle_58_5",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]マリオ！[0002:0000:14 00][0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_peach_t_06_lastboss_04_L#13",
+   "label": "MES_EV_MAIN_TPeach_06_2_Last_battle_58_6",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ルイージ！[0002:0000:14 00][0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_peach_t_06_lastboss_04_L#14",
+   "label": "MES_EV_MAIN_TPeach_06_2_Last_battle_47_1",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ゲラコビッツは [Ruby 最後;さいご]の[Ruby 最後;さいご]まで\n[Ruby 失敗;しっぱい]したみたいね。[0002:0001:][Next][Ruby 自爆;じばく]した いきおいで\n[Ruby 私達;わたしたち]を [Ruby 助;たす]けるなんて！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_peach_t_06_lastboss_04_L#15",
+   "label": "MES_EV_MAIN_TPeach_06_2_Last_battle_50",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]みんな…[0002:0000:0A 00] ありがとう…[0002:0001:][Next]これで キノコ[Ruby 王国;おうこく]は\n[Ruby 救;すく]われました。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_peach_t_06_lastboss_04_L#16",
+   "label": "MES_EV_MAIN_TPeach_06_2_Last_battle_51",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 姫様;ひめさま]！！[0002:0000:0A 00] [Ruby 姫様;ひめさま]～！！[0002:0000:0A 00]\nよくぞ…[0002:0000:0A 00] よくぞ ご[Ruby 無事;ぶじ]で～！[0002:0001:][Next][0001:0004:]じいは うれしゅうございますぞ～！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_peach_t_06_lastboss_04_L#17",
+   "label": "MES_EV_MAIN_TPeach_06_2_Last_battle_54",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]あんまり [Ruby 深;ふか]く[Ruby 考;かんが]えない[Ruby 方;ほう]が\nいいわよ！！[0002:0001:][Next][Ruby 今;いま]さら [Ruby 知;し]ったところで\nどうにも ならないでしょ！？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_peach_t_06_lastboss_04_L#18",
+   "label": "MES_EV_MAIN_TPeach_06_2_Last_battle_56",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ええ。[0002:0000:0A 00]あなたの[Ruby 子分;こぶん]のね。[0002:0001:]"
+  }
+ ]
+}

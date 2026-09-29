@@ -1,0 +1,89 @@
+{
+ "source": "Msg/JP_ja/FMsg.dat:i_metaboru_03",
+ "messages": [
+  {
+   "id": "FMsg/i_metaboru_03#0",
+   "label": "MES_KMetaboru_aparts_get_pl",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0005:0000:][0001:0001:]メタボルスペースのアタックパーツ\n[Color #4ED4FF][0003:0000:00 00 02 00 00 00][Color #E6E6E6][Color #373737][Ruby 個目;こめ]を [Ruby 手;て]に[Ruby 入;い]れた！[0002:0001:][Next][0005:0000:][0001:0001:]メタボルスペースのアタックパーツは\nのこりあと [Color #E6E6E6][Color #4ED4FF][0003:0000:00 00 02 00 01 00][Color #E6E6E6][Color #373737][Ruby 個;こ]だ！[0002:0000:1E 00][0002:0001:][Color #E6E6E6]"
+  },
+  {
+   "id": "FMsg/i_metaboru_03#1",
+   "label": "MES_KMetaboru_aparts_comp",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0005:0000:][0001:0001:]メタボルスペースのアタックパーツ\n[Color #4ED4FF][0003:0000:00 00 02 00 00 00][Color #E6E6E6][Color #373737][Ruby 個目;こめ]を [Ruby 手;て]に[Ruby 入;い]れた！[0002:0000:1E 00][0002:0001:][Next][0005:0000:][0001:0001:]メタボルスペースのアタックパーツが\n[Ruby 全部;ぜんぶ] そろった！！[0002:0000:0F 00][0002:0001:][Next][0005:0000:][0001:0001:][Ruby 新;あたら]しい [Color #E6E6E6][Color #4ED4FF]ブラザーアタック[Color #E6E6E6][Color #373737]が\n[Ruby 完成;かんせい]するぞ！！[0002:0000:0F 00][0002:0001:][Color #E6E6E6]"
+  },
+  {
+   "id": "FMsg/i_metaboru_03#2",
+   "label": "MES_KMetaboru_aparts_get",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0005:0000:][0001:0001:]メタボルスペースのアタックパーツ\n[Color #4ED4FF][0003:0000:00 00 02 00 00 00][Color #E6E6E6][Color #373737][Ruby 個目;こめ]を [Ruby 手;て]に[Ruby 入;い]れた！[0002:0001:][Next][0005:0000:][0001:0001:]メタボルスペースのアタックパーツは\nのこりあと [Color #E6E6E6][Color #4ED4FF][0003:0000:00 00 02 00 01 00][Color #E6E6E6][Color #373737][Ruby 個;こ]だ！[0002:0000:1E 00][0002:0001:][Color #E6E6E6]"
+  },
+  {
+   "id": "FMsg/i_metaboru_03#3",
+   "label": "MES_KMetaboru_03_KMetaboru_03_mes_01",
+   "style": 10,
+   "attr": "00000000",
+   "jp": "[0009:0000:0A 00][0005:0000:]キャーーッ！！！[0002:0000:1E 00]"
+  },
+  {
+   "id": "FMsg/i_metaboru_03#4",
+   "label": "MES_KMetaboru_03_KMetaboru_03_mes_02",
+   "style": 10,
+   "attr": "00000000",
+   "jp": "[0009:0000:0A 00][0005:0000:]マリオ！！[0002:0000:1E 00]"
+  },
+  {
+   "id": "FMsg/i_metaboru_03#5",
+   "label": "MES_KMetaboru_03_KMetaboru_03_mes_03",
+   "style": 10,
+   "attr": "00000000",
+   "jp": "[0009:0000:0A 00][0005:0000:]ルイージ！！[0002:0000:1E 00]"
+  },
+  {
+   "id": "FMsg/i_metaboru_03#6",
+   "label": "MES_KMetaboru_03_KMetaboru_03_mes_04",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]あなた[Ruby 達;たち]も クッパに\n[Ruby 吸;す]い[Ruby 込;こ]まれたのですね！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_metaboru_03#7",
+   "label": "MES_KMetaboru_03_KMetaboru_03_mes_05",
+   "style": 9,
+   "attr": "00000000",
+   "jp": "[0009:0000:09 00]ピーチ[Ruby 姫;ひめ]！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_metaboru_03#8",
+   "label": "MES_KMetaboru_03_KMetaboru_03_mes_06",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]イエロースター！！\nあなたも いっしょだったのね！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_metaboru_03#9",
+   "label": "MES_KMetaboru_03_KMetaboru_03_mes_07",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 私達;わたしたち] ピーチ[Ruby 姫;ひめ]を\nずっと [Ruby 探;さが]していたのよ！[0002:0001:][Next]いったい なにがあったの？\nそいつらは なんなの？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_metaboru_03#10",
+   "label": "MES_KMetaboru_03_KMetaboru_03_mes_08",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]わからないわ！\n[Ruby 出口;でぐち]を [Ruby 探;さが]していたら\n[Ruby 突然;とつぜん] おそわれて…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_metaboru_03#11",
+   "label": "MES_KMetaboru_03_KMetaboru_03_mes_09",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]は はやく あのコロコロした\nやつらを [Ruby 取;と]りのぞかないと\nピーチ[Ruby 姫;ひめ]が [Ruby 危;あぶ]ないわ！[0002:0001:][Next][0001:0004:][0001:0001:][Ruby 急;いそ]いで [Ruby 後;あと]を[Ruby 追;お]いましょう！[0002:0001:]"
+  }
+ ]
+}

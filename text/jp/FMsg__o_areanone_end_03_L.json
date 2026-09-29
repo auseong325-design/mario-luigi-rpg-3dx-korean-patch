@@ -1,0 +1,82 @@
+{
+ "source": "Msg/JP_ja/FMsg.dat:o_areanone_end_03_L",
+ "messages": [
+  {
+   "id": "FMsg/o_areanone_end_03_L#0",
+   "label": "MES_EV_last_score_01_Rank_mes_k_01",
+   "style": 3,
+   "attr": "00000000",
+   "jp": "[0009:0000:03 00][0005:0000:]ブロンズランク"
+  },
+  {
+   "id": "FMsg/o_areanone_end_03_L#1",
+   "label": "MES_EV_last_score_01_Rank_mes_ml_01",
+   "style": 3,
+   "attr": "00000000",
+   "jp": "[0009:0000:03 00][0005:0000:]キノコランク"
+  },
+  {
+   "id": "FMsg/o_areanone_end_03_L#2",
+   "label": "MES_EV_last_score_01_Rank_mes_k_02",
+   "style": 3,
+   "attr": "00000000",
+   "jp": "[0009:0000:03 00][0005:0000:]シルバーランク"
+  },
+  {
+   "id": "FMsg/o_areanone_end_03_L#3",
+   "label": "MES_EV_last_score_01_Rank_mes_ml_02",
+   "style": 3,
+   "attr": "00000000",
+   "jp": "[0009:0000:03 00][0005:0000:]コウラランク"
+  },
+  {
+   "id": "FMsg/o_areanone_end_03_L#4",
+   "label": "MES_EV_last_score_01_Rank_mes_k_03",
+   "style": 3,
+   "attr": "00000000",
+   "jp": "[0009:0000:03 00][0005:0000:]ゴールドランク"
+  },
+  {
+   "id": "FMsg/o_areanone_end_03_L#5",
+   "label": "MES_EV_last_score_01_Rank_mes_ml_03",
+   "style": 3,
+   "attr": "00000000",
+   "jp": "[0009:0000:03 00][0005:0000:]フラワーランク"
+  },
+  {
+   "id": "FMsg/o_areanone_end_03_L#6",
+   "label": "MES_EV_last_score_01_Rank_mes_k_04",
+   "style": 3,
+   "attr": "00000000",
+   "jp": "[0009:0000:03 00][0005:0000:]ラスボスランク"
+  },
+  {
+   "id": "FMsg/o_areanone_end_03_L#7",
+   "label": "MES_EV_last_score_01_Rank_mes_ml_04",
+   "style": 3,
+   "attr": "00000000",
+   "jp": "[0009:0000:03 00][0005:0000:]ブーメランランク"
+  },
+  {
+   "id": "FMsg/o_areanone_end_03_L#8",
+   "label": "MES_EV_last_score_01_Rank_mes_k_05",
+   "style": 3,
+   "attr": "00000000",
+   "jp": "[0009:0000:03 00][0005:0000:]マスターランク"
+  },
+  {
+   "id": "FMsg/o_areanone_end_03_L#9",
+   "label": "MES_EV_last_score_01_Rank_mes_ml_05",
+   "style": 3,
+   "attr": "00000000",
+   "jp": "[0009:0000:03 00][0005:0000:]スターランク"
+  },
+  {
+   "id": "FMsg/o_areanone_end_03_L#10",
+   "label": "MES_EV_last_score_01_Rank_mes_ml_06",
+   "style": 3,
+   "attr": "00000000",
+   "jp": "[0009:0000:03 00][0005:0000:]レインボーランク"
+  }
+ ]
+}

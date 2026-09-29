@@ -1,0 +1,103 @@
+{
+ "source": "Msg/JP_ja/FMsg.dat:i_fire_02",
+ "messages": [
+  {
+   "id": "FMsg/i_fire_02#0",
+   "label": "MES_KHatena_b_02_Khatena_b_02_mes_10",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]え え～と [Ruby 名前;なまえ]は\nえ～と その…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_fire_02#1",
+   "label": "MES_KHatena_b_02_Khatena_b_02_mes_11",
+   "style": 7,
+   "attr": "00000000",
+   "jp": "[0009:0000:07 00][0001:0004:]チッピーよ！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_fire_02#2",
+   "label": "MES_KHatena_b_02_Khatena_b_02_mes_12",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]…な [Ruby 名前;なまえ]なんて\nこのさい [Ruby 関係;かんけい]ないわ。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_fire_02#3",
+   "label": "MES_KHatena_b_02_Khatena_b_02_mes_13",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]え？ そ そんなこと\n[Ruby 言;い]ったかしら？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_fire_02#4",
+   "label": "MES_KHatena_b_02_Khatena_b_02_mes_14",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]ここには ピーチ[Ruby 姫;ひめ]は\nいないようね…[0002:0001:][Next]しかたないわ…\nしばらく クッパの[Ruby 様子;ようす]を\n[Ruby 見;み]ていましょう。[0002:0001:][Next][0001:0004:][Ruby 体内;たいない]でも またなにか\n[Ruby 変化;へんか]が [Ruby 起;お]きるかもしれないわ。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_fire_02#5",
+   "label": "MES_KHatena_b_02_Khatena_b_02_mes_1",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]これは エクボンの[Ruby 森;もり]に\nすみついている モンスターだわ。[0002:0001:][Next]きっと こいつもクッパに\n[Ruby 吸;す]い[Ruby 込;こ]まれたのね…[0002:0001:][Next]でも こんなに [Ruby 大;おお]きくなるなんて…\nへんなものでも [Ruby 食;た]べたのかしら？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_fire_02#6",
+   "label": "MES_KHatena_b_02_Khatena_b_02_mes_2",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]…そうか こいつがここで\nほのおを ふさいでいるから\nクッパがほのおを はけないのね！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_fire_02#7",
+   "label": "MES_KHatena_b_02_Khatena_b_02_mes_3",
+   "style": 10,
+   "attr": "00000000",
+   "jp": "[0009:0000:0A 00][0005:0000:]キャーーーッ！！[0002:0000:14 00]"
+  },
+  {
+   "id": "FMsg/i_fire_02#8",
+   "label": "MES_KHatena_b_02_Khatena_b_02_mes_4",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]アイタタタタ…\nつい [Ruby 油断;ゆだん]しちゃったわ…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_fire_02#9",
+   "label": "MES_KHatena_b_02_Khatena_b_02_mes_5",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]あなた[Ruby 達;たち]に かりが\nできちゃったわね。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_fire_02#10",
+   "label": "MES_KHatena_b_02_Khatena_b_02_mes_6",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]あなたが どこかで[Ruby 吸;す]い[Ruby 込;こ]んだ\nモンスターのせいで ほのおが\nはけなくなっていたのよ！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_fire_02#11",
+   "label": "MES_KHatena_b_02_Khatena_b_02_mes_7",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]でも [Ruby 私達;わたしたち]が\n[Ruby 倒;たお]したから もう[Ruby 安心;あんしん]よ！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_fire_02#12",
+   "label": "MES_KHatena_b_02_Khatena_b_02_mes_8",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]えんりょするわ！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_fire_02#13",
+   "label": "MES_KHatena_b_02_Khatena_b_02_mes_9",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]え… な [Ruby 名前;なまえ]？[0002:0001:]"
+  }
+ ]
+}

@@ -1,0 +1,40 @@
+# Original game data (copyrighted) - never commit or upload
+/romfs/
+/romf2/
+/exefs2/
+/ml 1dx/
+/exefs/
+/unpacked/
+*.nds
+*.3ds
+*.cci
+*.cia
+*.cxi
+
+# Downloaded tools / fonts (re-downloadable; see README of each source)
+/tools/
+/fonts/*.ttf
+/fonts/*.otf
+
+# Generated
+/.venv/
+/work/*
+!/work/batches/
+!/work/align/
+!/work/gloss/
+!/work/review/
+!/work/ko_final.json
+!/work/ref_1dx_ko.tsv
+!/work/*.md
+!/work/*.json
+!/work/*.tsv
+!/work/*.py
+!/work/kr_font/
+/patch/
+__pycache__/
+*.pyc
+*.log
+
+# Local Kiro CLI state
+/.kiro/settings/*.lock
+/work/kr_font/**/*.png

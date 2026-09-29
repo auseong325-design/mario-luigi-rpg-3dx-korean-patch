@@ -1,0 +1,47 @@
+{
+ "source": "Msg/JP_ja/FMsg.dat:i_garakuta_08",
+ "messages": [
+  {
+   "id": "FMsg/i_garakuta_08#0",
+   "label": "MES_KGarakuta_08_KG08_hemoguro_20",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:][0001:0001:]びんび～ん！[0002:0000:1E 00]"
+  },
+  {
+   "id": "FMsg/i_garakuta_08#1",
+   "label": "MES_KGarakuta_08_KG08_hemoguro_21",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ふたたび さすらいヘモグロびん。\n[Ruby 私;わたし]の[Ruby 知識;ちしき]を さずけにきたびん。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_garakuta_08#2",
+   "label": "MES_KGarakuta_08_KG08_hemoguro_22",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]このすきまの[Ruby 開;あ]いた ミゾを\nうまく[Ruby 飛;と]びこすコツを[Ruby 教;おし]えるびん。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_garakuta_08#3",
+   "label": "MES_KGarakuta_08_KG08_hemoguro_23",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]それは…[0002:0000:1E 00]\n[Color #2C64FF][U+E003][Color #373737]ボタンを[Ruby 押;お]して\n[Ruby ２人;ふたり][Ruby 同時;どうじ]にジャンプするびん！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_garakuta_08#4",
+   "label": "MES_KGarakuta_08_KG08_hemoguro_24",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Color #2C64FF][U+E077][Color #373737]で [Ruby 移動;いどう]しながら\n[Color #2C64FF][U+E003][Color #373737]ボタンで [Ruby 同時;どうじ]にジャンプ！！[0002:0001:][Next]これで らくらく\nミゾを[Ruby 飛;と]び[Ruby 越;こ]えられるびん！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_garakuta_08#5",
+   "label": "MES_KGarakuta_08_KG08_hemoguro_25",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]さらば び～ん！[0002:0000:1E 00]"
+  }
+ ]
+}

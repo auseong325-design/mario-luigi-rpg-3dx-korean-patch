@@ -1,0 +1,194 @@
+{
+ "source": "Msg/JP_ja/FMsg.dat:o_koopa_end_01",
+ "messages": [
+  {
+   "id": "FMsg/o_koopa_end_01#0",
+   "label": "MES_EV_MAIN_SKoopa_last_Ending_20",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ボクら… クッパ[Ruby 軍団;ぐんだん]に\nもどりたいんです～[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_koopa_end_01#1",
+   "label": "MES_EV_MAIN_SKoopa_last_Ending_21",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ゲラコビッツなんかに\nこころをゆるすなんて…[0002:0001:][Next]どうか していました～\nボクらには クッパ[Ruby 様;さま]だけです～[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_koopa_end_01#2",
+   "label": "MES_EV_MAIN_SKoopa_last_Ending_22",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]クリッキーに ヘイファー\nパタボン！！[0002:0001:][Next]オマエ[Ruby 達;たち] まだいたのか！\nはやく [Ruby 出;で]ていけ！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_koopa_end_01#3",
+   "label": "MES_EV_MAIN_SKoopa_last_Ending_23",
+   "style": 5,
+   "attr": "00000000",
+   "jp": "[0009:0000:05 00][0001:0004:]ううう…[0002:0000:1E 00]"
+  },
+  {
+   "id": "FMsg/o_koopa_end_01#4",
+   "label": "MES_EV_MAIN_SKoopa_last_Ending_24",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]オマエ[Ruby 達;たち]もだ！\nさっさと クッパ[Ruby 城;じょう]をなおせ！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_koopa_end_01#5",
+   "label": "MES_EV_MAIN_SKoopa_last_Ending_25",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ボク[Ruby 達;たち]… クッパ[Ruby 軍団;ぐんだん]に\nもどって いいんですか！？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_koopa_end_01#6",
+   "label": "MES_EV_MAIN_SKoopa_last_Ending_26",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]いいから はやくいけ！！[0002:0001:][Next][Ruby 次;つぎ]こそ マリオを\nやっつけるのだ！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_koopa_end_01#7",
+   "label": "MES_EV_MAIN_SKoopa_last_Ending_27",
+   "style": 9,
+   "attr": "00000000",
+   "jp": "[0009:0000:09 00]あ[0002:0000:0A 00] ありがとうございます～！！[0002:0000:1E 00]"
+  },
+  {
+   "id": "FMsg/o_koopa_end_01#8",
+   "label": "MES_EV_MAIN_SKoopa_last_Ending_10",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]またピーチ[Ruby 城;じょう]を おそいに\nくるんじゃないかと [Ruby 思;おも]ってね。[0002:0001:][Next][0001:0004:][Ruby 様子;ようす]を [Ruby 見;み]にきたのよ。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_koopa_end_01#9",
+   "label": "MES_EV_MAIN_SKoopa_last_Ending_11",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:][0001:0001:]ふん！！！[0002:0001:][Next][0001:0000:]こんどのことで ワガハイの[Ruby 城;しろ]も\nダメージを うけているんだ。[0002:0001:][Next][0001:0004:]しばらくは おとなしくしているぞ！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_koopa_end_01#10",
+   "label": "MES_EV_MAIN_SKoopa_last_Ending_12",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]あはははは！[0002:0001:][Next]それは いいこころがけね！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_koopa_end_01#11",
+   "label": "MES_EV_MAIN_SKoopa_last_Ending_13",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]うるさい！！[0002:0000:0A 00] はやく[Ruby 帰;かえ]れ！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_koopa_end_01#12",
+   "label": "MES_EV_MAIN_SKoopa_last_Ending_14",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]はいはい [Ruby 帰;かえ]りますよ。[0002:0001:][Next]これは ピーチ[Ruby 姫;ひめ]からの\nプレゼントよ！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_koopa_end_01#13",
+   "label": "MES_EV_MAIN_SKoopa_last_Ending_15",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]いらん！[0002:0000:0A 00] こんなもの！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_koopa_end_01#14",
+   "label": "MES_EV_MAIN_SKoopa_last_Ending_16",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]クッパ[Ruby 様;さま]…[0002:0000:0A 00]\n[Ruby 開;あ]けないんですか？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_koopa_end_01#15",
+   "label": "MES_EV_MAIN_SKoopa_last_Ending_17",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]うるさい！[0002:0000:0A 00] オマエも\nはやく [Ruby 作業;さぎょう]にもどれ！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_koopa_end_01#16",
+   "label": "MES_EV_MAIN_SKoopa_last_Ending_18",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ひ～[0002:0000:0A 00] こわいこわい…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_koopa_end_01#17",
+   "label": "MES_EV_MAIN_SKoopa_last_Ending_19",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]クッパ[Ruby 様;さま]～[0002:0000:0A 00]\nごきげんは いかがですか～？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_koopa_end_01#18",
+   "label": "MES_EV_MAIN_SKoopa_last_Ending_01",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]おとどけ おとどけ～！[0002:0001:][Next]ピーチ[Ruby 城;じょう]から おとどけ～！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_koopa_end_01#19",
+   "label": "MES_EV_MAIN_SKoopa_last_Ending_02",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]なんだ なんだ！？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_koopa_end_01#20",
+   "label": "MES_EV_MAIN_SKoopa_last_Ending_03",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]おいっ！ だれか\nこの[Ruby 鳥;とり]を [Ruby 追;お]いはらえ！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_koopa_end_01#21",
+   "label": "MES_EV_MAIN_SKoopa_last_Ending_04",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ピーチ[Ruby 城;じょう]から なにか\nとどいたようです。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_koopa_end_01#22",
+   "label": "MES_EV_MAIN_SKoopa_last_Ending_05",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]なに！ ピーチ[Ruby 城;じょう]！？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_koopa_end_01#23",
+   "label": "MES_EV_MAIN_SKoopa_last_Ending_06",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 差出人;さしだしにん]は ピーチ[Ruby 姫;ひめ]だとか…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_koopa_end_01#24",
+   "label": "MES_EV_MAIN_SKoopa_last_Ending_07",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]おとどけ おとどけ～！[0002:0001:][Next]ピーチ[Ruby 姫;ひめ]から [Ruby 体;からだ]のでかい\nらんぼうものさんに おとどけ～！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_koopa_end_01#25",
+   "label": "MES_EV_MAIN_SKoopa_last_Ending_08",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]はあ～い！！[0002:0000:1E 00]"
+  },
+  {
+   "id": "FMsg/o_koopa_end_01#26",
+   "label": "MES_EV_MAIN_SKoopa_last_Ending_09",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]なんだ！ オマエか！\nいったい なんの[Ruby 用;よう]だ！！[0002:0001:]"
+  }
+ ]
+}

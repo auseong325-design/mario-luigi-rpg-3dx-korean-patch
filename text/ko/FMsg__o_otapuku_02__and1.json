@@ -1,0 +1,18 @@
+{
+ "batch": "FMsg__o_otapuku_02__and1",
+ "translations": {
+  "FMsg/o_otapuku_02#0": "{1:align}{2:align}{3:mode}←고라파 레이크\n→쿠파 성{4:wait}",
+  "FMsg/o_otapuku_02#1": " \n [Next]{1:align}{2:align}알립니다! 알립니다~!{3:wait}",
+  "FMsg/o_otapuku_02#2": "{1:align}다른 길로 새지 않았나요?\n어서 세 번째 백신을\n찾아 주시지요!{2:wait}",
+  "FMsg/o_otapuku_02#3": " \n [Next]{1:align}{2:align}{3:color}  이아파 비치{4:color}{5:color}는 남쪽이야!{6:wait}{7:color}",
+  "FMsg/o_otapuku_04#0": "{1:align}{2:align}{3:mode}요즘 버섯 왕국에서 선풍적 인기!\n{4:color}슬라이딩 다이어트{5:color}{6:color}!{7:wait}[Next]{8:align}{9:align}{10:mode}발에 힘을 꽉 주고\n{11:color}{12:color}걸으면서 펀치{13:color}{14:color}!{15:wait}[Next]{16:align}{17:align}{18:mode}쓸모없는 지방도\n쓸데없는 기억도\n모두 날아가 버린다!!{19:wait}[Next]{20:align}{21:align}{22:mode}지금까지 가지 못했던\n바로 그 장소로도\n{23:color}{24:color}날아갈 수 있을지{25:color}{26:color}도 몰라!!{27:wait}[Next]{28:align}{29:align}{30:mode}당신도 {31:color}{32:color}슬라이딩 다이어트{33:color}{34:color}로\n그 친구의 마음속으로\n뛰어들어 버려!!{35:wait}{36:color}"
+ },
+ "new_terms": [],
+ "notes": {
+  "FMsg/o_otapuku_02#0": "DS05A#0 그대로. 화살표 뒤 띄어쓰기만 3DX 원문대로 둠. 리드 번역(2차 W09가 출력 없이 종료). review: 표지판 화살표를 뒤 글자에 붙임(style_guide 2.1, 같은 장면 DS05A#0도 붙임).",
+  "FMsg/o_otapuku_02#1": "DS05A#1 그대로. 원문의 빈 첫 페이지(' \\n ')는 그대로 둠.",
+  "FMsg/o_otapuku_02#2": "DS05A#2 그대로.",
+  "FMsg/o_otapuku_02#3": "DS05A#3 그대로. o_zutsuda_01#11에도 복사됨. 색 태그 안 앞 공백 2칸은 원문대로.",
+  "FMsg/o_otapuku_04#0": "DS055#0 기반. 3DX에서 달라진 곳만 고침: 2쪽 足のふんばりをきかせて(DS '뒤쪽 발에 힘을 주고')→'발에 힘을 꽉 주고', 4쪽 飛んでいけちゃう かも(DS '날아갈 수 있다는 사실!!')→'날아갈 수 있을지도 몰라!!', 5쪽 飛び込んじゃえよ(DS '날아가 보는 건 어떨까!?')→'마음속으로 뛰어들어 버려!!'."
+ }
+}

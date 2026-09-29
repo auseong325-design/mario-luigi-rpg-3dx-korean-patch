@@ -1,0 +1,177 @@
+{
+ "batch": "FMsg__i_power_lungs_SA_fire_01_L",
+ "rooms": [
+  "i_power_lungs_SA_fire_01_L"
+ ],
+ "ds_rooms": [
+  "1AB"
+ ],
+ "ds_reference": [
+  "DS1AB#0: 혹시!",
+  "DS1AB#1: 방금 쿠파가 조금\n점프하지 않았어?",
+  "DS1AB#2: 역시 맞나 봐!",
+  "DS1AB#3: 마리오 형제를 튕기면\n그 반동으로 쿠파가\n튕겨 올라가나 봐!",
+  "DS1AB#4: 터치펜으로 이렇게\n당겼다가…",
+  "DS1AB#5: 터치펜을 떼면\n튕기는 반동으로\n쿠파도 튕겨 올라가!",
+  "DS1AB#6: 힘차게 당기면\n높이 올라가지 않을까?",
+  "DS1AB#7: 마리오! 이쪽이야!",
+  "DS1AB#8: 잘했어!",
+  "DS1AB#9: 마리오 형제를 튕기는 방향으로\n쿠파가 올라가는 것 같으니까…",
+  "DS1AB#10: 다양한 방향으로 튕겨서\n쿠파를 위쪽까지\n올려 보내 주자!"
+ ],
+ "glossary": [
+  {
+   "jp": "ジャンプ",
+   "ko": "점프",
+   "type": "ability",
+   "basis": "DS",
+   "source": "BData__mfset_Help#9",
+   "note": "필드 액션·배틀 커맨드 공통 [gl_attacks]"
+  },
+  {
+   "jp": "クッパ",
+   "ko": "쿠파",
+   "type": "character",
+   "basis": "DS",
+   "source": "BData__mfset_Help#21",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "マリオ",
+   "ko": "마리오",
+   "type": "character",
+   "basis": "DS",
+   "source": "BData__mfset_Help#19",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "マリオ達",
+   "ko": "마리오 일행",
+   "type": "term",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesOutline#16",
+   "note": "[gl_menu_places]"
+  },
+  {
+   "jp": "タッチ",
+   "ko": "터치",
+   "type": "ui",
+   "basis": "DS",
+   "source": "BData__mfset_AItmE#6",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "タッチペン",
+   "ko": "터치펜",
+   "type": "ui",
+   "basis": "DS",
+   "source": "BAI__BMes_cf#0.4",
+   "note": "붙여 씀 [gl_attacks]"
+  }
+ ],
+ "messages": [
+  {
+   "id": "FMsg/i_power_lungs_SA_fire_01_L#0",
+   "label": "MES_SA_SUB_KPower_lungs_01_SA_LUG_TUT_8BT",
+   "style": 6,
+   "src": "マリオ達を いろんな方向に\nはじいて クッパを\n上まで 行かせましょう！ ",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_power_lungs_SA_fire_01_L#1",
+   "label": "MES_SA_SUB_KPower_lungs_01_SA_LUG_TUT_5T",
+   "style": 6,
+   "src": "思いっきり 引っ張れば\n高く 飛べるんじゃない？ ",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_power_lungs_SA_fire_01_L#2",
+   "label": "MES_SA_SUB_KPower_lungs_01_SA_LUG_TUT_7T",
+   "style": 6,
+   "src": "うまくいったわね！",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_power_lungs_SA_fire_01_L#3",
+   "label": "MES_SA_SUB_KPower_lungs_01_SA_LUG_TUT_02AT",
+   "style": 6,
+   "src": "やっぱり そうだわ！ ",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_power_lungs_SA_fire_01_L#4",
+   "label": "MES_SA_SUB_KPower_lungs_01_SA_LUG_TUT_01BT",
+   "style": 6,
+   "src": "今 クッパが ちょっと\nジャンプしなかった？ ",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_power_lungs_SA_fire_01_L#5",
+   "label": "MES_SA_SUB_KPower_lungs_01_SA_LUG_TUT_8AT",
+   "style": 6,
+   "src": "マリオ達を はじいた方向に\nクッパが 飛ぶみたいだから… ",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_power_lungs_SA_fire_01_L#6",
+   "label": "MES_SA_SUB_KPower_lungs_01_SA_LUG_TUT_4T",
+   "style": 6,
+   "src": "タッチペンを はなすと\nマリオ達が はじかれて\nクッパも 飛び上がるわ！ ",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_power_lungs_SA_fire_01_L#7",
+   "label": "MES_SA_SUB_KPower_lungs_01_SA_LUG_TUT_6T",
+   "style": 6,
+   "src": "マリオ！ こっちよ！",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_power_lungs_SA_fire_01_L#9",
+   "label": "MES_SA_SUB_KPower_lungs_01_SA_LUG_TUT_01AT",
+   "style": 6,
+   "src": "{1:align}{2:mode}ねえ！ {3:pause}",
+   "tags": {
+    "1": "[0001:0001:]",
+    "2": "[0005:0000:]",
+    "3": "[0002:0000:0A 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_power_lungs_SA_fire_01_L#10",
+   "label": "MES_SA_SUB_KPower_lungs_01_SA_LUG_TUT_02BT",
+   "style": 6,
+   "src": "マリオ達を はじくと\nその反動で クッパが\n飛び上がるのよ！ ",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_power_lungs_SA_fire_01_L#11",
+   "label": "MES_SA_SUB_KPower_lungs_01_SA_LUG_TUT_3T",
+   "style": 6,
+   "src": "タッチペンで マリオ達を\n引っ張って… ",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  }
+ ]
+}

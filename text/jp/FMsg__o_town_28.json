@@ -1,0 +1,19 @@
+{
+ "source": "Msg/JP_ja/FMsg.dat:o_town_28",
+ "messages": [
+  {
+   "id": "FMsg/o_town_28#0",
+   "label": "MES_TKinoko_28_Kinoko_town_kinopio_05",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]マリオさんは [Ruby 健康;けんこう]に\n[Ruby 気;き]を [Ruby 使;つか]ってますよね？[0002:0001:][Next]いつも あんなに\n[Ruby 元気;げんき]なジャンプを\n[Ruby 見;み]せてくれますもんね！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_28#1",
+   "label": "MES_TKinoko_28_Kinoko_town_kinopio_06",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 新;あたら]しくできた\n[Color #2C64FF]ショッピングモール[Color #373737][Color #373737]には\nもう [Ruby 行;い]きましたか？[0002:0001:][Next]なにやら ものすごく\n[Ruby 高級;こうきゅう]なショップが\nあるそうなんですが…[0002:0001:][Next][0001:0004:][Color #373737][Color #2C64FF]ランク[Color #373737][Color #373737]が [Ruby 高;たか]くないと\n[Ruby 入;い]れてもらえないとか…[0002:0001:][Next]ランクを[Ruby 上;あ]げるには\nモンスターをたくさん[Ruby 倒;たお]して[0002:0001:][Next][Ruby 何度;なんど]もレベルアップすると\nいいらしいですよ！[0002:0001:][Color #373737]"
+  }
+ ]
+}

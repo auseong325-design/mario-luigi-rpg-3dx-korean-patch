@@ -1,0 +1,5962 @@
+{
+ "source": "Msg/JP_ja/Menu.msbt",
+ "messages": [
+  {
+   "id": "Menu#0",
+   "label": "BtlGuide_02",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][Ruby 基本;きほん]②：ダメージを[Ruby 与;あた]えて[Ruby 倒;たお]す"
+  },
+  {
+   "id": "Menu#1",
+   "label": "MES_EMesOutline_story12",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00]ブクブクに太ってしまったクッパ… クッパ体内のメタボルスペースの奥に進めそうだ！"
+  },
+  {
+   "id": "Menu#2",
+   "label": "MES_EMesPlace_place27",
+   "style": 13,
+   "attr": "00000000",
+   "jp": "[0009:0000:0D 00]パワースペース おしり"
+  },
+  {
+   "id": "Menu#3",
+   "label": "MES_MenuMes_ml_lank6",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]レインボーランク"
+  },
+  {
+   "id": "Menu#4",
+   "label": "MES_ShopMes_Menu_no_equip_acce",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0005:0000:]アクセサリーは ２つそうび\nできません。[0002:0001:]"
+  },
+  {
+   "id": "Menu#5",
+   "label": "MES_bgm_title_01",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]マリオ＆ルイージ＆クッパ！"
+  },
+  {
+   "id": "Menu#6",
+   "label": "MES_tuto_yo_scrratch_tuto_ml3_badge",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ボーナスカードの マスを[Ruby 選;えら]んで…[0002:0001:]"
+  },
+  {
+   "id": "Menu#7",
+   "label": "SpAtk_03_0",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]８つのタルにマリオとルイージが４[Ruby 人;にん]ずつ\n[Ruby 入;はい]っているので どこにだれがいるのか\n[Ruby 最初;さいしょ]によく[Ruby 見;み]て おぼえましょう。"
+  },
+  {
+   "id": "Menu#8",
+   "label": "SpAtk_12_1",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]ノコノコはだんだんスピードアップしながら\n[Ruby 数;かず]も[Ruby 増;ふ]えていくので クッパをすばやく[Ruby 動;うご]かし\nノコノコをモンスターにぶつけていきましょう。"
+  },
+  {
+   "id": "Menu#9",
+   "label": "BtlGuide_03",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00]ジャンプでの[Ruby 攻撃;こうげき]"
+  },
+  {
+   "id": "Menu#10",
+   "label": "MES_EMesOutline_story13",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00]やっと出会えたピーチ姫がモンスターにさらわれた！ 後を追いかけて助け出そう！"
+  },
+  {
+   "id": "Menu#11",
+   "label": "MES_EMesPlace_place28",
+   "style": 13,
+   "attr": "00000000",
+   "jp": "[0009:0000:0D 00]パワースペース あし"
+  },
+  {
+   "id": "Menu#12",
+   "label": "MES_bgm_title_02",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]新しいページをめくって DX"
+  },
+  {
+   "id": "Menu#13",
+   "label": "SpAtk_03_1",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]マリオが[Ruby 入;はい]ったタルがモンスターを[Ruby 狙;ねら]ったら [Color #FF4343][U+E000][Color #E6E6E6]\nルイージが[Ruby 入;はい]ったタルがモンスターを[Ruby 狙;ねら]ったら [Color #00BB27][U+E001]\n[Color #E6E6E6]ボタンを[Ruby 押;お]して たいほう[Ruby 発射;はっしゃ]！"
+  },
+  {
+   "id": "Menu#14",
+   "label": "BtlGuide_04",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00]バトルきほんとバトルアタック"
+  },
+  {
+   "id": "Menu#15",
+   "label": "BtlGuide_15_0",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]モンスターの[Ruby 攻撃中;こうげきちゅう]に[Color #2C64FF][U+E003][Color #E6E6E6]ボタンを[Ruby 押;お]し[Ruby 続;つづ]けると\n[Ruby 攻撃;こうげき]をガードして ダメージを[Ruby 減;へ]らせます。"
+  },
+  {
+   "id": "Menu#16",
+   "label": "MES_EMesOutline_story14",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00]やっとピーチ姫を助け出せた！ 次はクッパの体内から外へ出る方法を見つけないと…"
+  },
+  {
+   "id": "Menu#17",
+   "label": "MES_EMesPlace_place29",
+   "style": 13,
+   "attr": "00000000",
+   "jp": "[0009:0000:0D 00]パワースペース はな"
+  },
+  {
+   "id": "Menu#18",
+   "label": "MES_bgm_title_03",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]しっかりきっちりばっちりと DX"
+  },
+  {
+   "id": "Menu#19",
+   "label": "MES_menu_tuto_badge_change_caution",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]そうそう バッジの[Ruby 組;く]み[Ruby 合;あ]わせを\nかえると メーターが\nリセットされるよ！[0002:0001:][Next]せっかく[Ruby 限界;げんかい]まで ためたのに\n０になって[Ruby 泣;な]く…[0002:0000:05 00] なんてことに\nならないように [Ruby 気;き]をつけな！[0002:0001:][Next]それと バッジのつけかえは\nバトル[Ruby 中;ちゅう]でも できるからね！\n[Ruby 忘;わす]れるんじゃないよ！[0002:0001:]"
+  },
+  {
+   "id": "Menu#20",
+   "label": "MES_tuto_yo_scrratch_tuto_no_ml_koukyuu",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 失礼;しつれい]しました。\nさすが お[Ruby 客様;きゃくさま]。[0002:0001:][Next]それでは お[Ruby 買;か]い[Ruby 物;もの]を\nお[Ruby 楽;たの]しみください。[0002:0001:]"
+  },
+  {
+   "id": "Menu#21",
+   "label": "BtlGuide_05",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00]おてほん と れんしゅう"
+  },
+  {
+   "id": "Menu#22",
+   "label": "BtlGuide_06_0",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]モンスターの[Ruby 攻撃;こうげき]で ダメージを[Ruby 受;う]けると\nマリオ[Ruby 達;たち]の[Color #E6E6E6]HP[Color #E6E6E6]が [Ruby 減;へ]っていきます。\n[Color #2C64FF]HPがゼロ[Color #E6E6E6]になると [Color #2C64FF][Ruby 気絶;きぜつ][Color #E6E6E6]して[Ruby 動;うご]けなくなります。"
+  },
+  {
+   "id": "Menu#23",
+   "label": "BtlGuide_15_1",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]モンスターの[Ruby 攻撃;こうげき]は [Ruby 全;すべ]てかいひできるので\nよけられるならば\nきんきゅうガードを[Ruby 使;つか]う[Ruby 必要;ひつよう]はありません。"
+  },
+  {
+   "id": "Menu#24",
+   "label": "MES_EMesOutline_story15",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00]クッパ城からふき飛ばされたクッパ。どこかの地下に落下してしまったらしいが…"
+  },
+  {
+   "id": "Menu#25",
+   "label": "MES_bgm_title_04",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]めぐるめぐる思い出の旅 DX"
+  },
+  {
+   "id": "Menu#26",
+   "label": "MES_tuto_yo_bad_hige2_koukyuu",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]これでは ボーナスカードは\nプレゼントできませんね…[0002:0001:]"
+  },
+  {
+   "id": "Menu#27",
+   "label": "BtlGuide_06",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][Ruby 基本;きほん]③：HPに[Ruby 注意;ちゅうい]"
+  },
+  {
+   "id": "Menu#28",
+   "label": "BtlGuide_06_1",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00][Color #FF4343]マリオ[Color #E6E6E6] と [Color #00BB27]ルイージ[Color #E6E6E6]のバトルでは\n[Ruby ２人;ふたり]とも[Color #2C64FF]HPがゼロ[Color #E6E6E6]になって[Color #2C64FF][Ruby 気絶;きぜつ][Color #E6E6E6]すると\nゲームオーバーになります。"
+  },
+  {
+   "id": "Menu#29",
+   "label": "BtlGuide_15_2",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]どうしても かいひできない\n[Ruby 苦手;にがて]な[Ruby 攻撃;こうげき]があったら[Ruby 使;つか]ってみましょう。"
+  },
+  {
+   "id": "Menu#30",
+   "label": "MES_EMesOutline_story0",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00]ピーチ城でのきんきゅうかいぎに向かうマリオとルイージ。"
+  },
+  {
+   "id": "Menu#31",
+   "label": "MES_EMesOutline_story16",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00]クッパの体内から外へ出ることができたマリオ達。ダークスターが封印された場所へ急げ！"
+  },
+  {
+   "id": "Menu#32",
+   "label": "MES_bgm_title_05",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]やさしいお別れ DX"
+  },
+  {
+   "id": "Menu#33",
+   "label": "BtlGuide_06_2",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00][Color #FF9600]クッパ[Color #E6E6E6]は[Ruby １人;ひとり]で[Ruby 行動;こうどう]しているので\n[Color #2C64FF]HPがゼロ[Color #E6E6E6]になった[Ruby 時点;じてん]で\n[Color #2C64FF]ゲームオーバー[Color #E6E6E6]になります。"
+  },
+  {
+   "id": "Menu#34",
+   "label": "BtlGuide_07",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][Ruby 防御;ぼうぎょ]"
+  },
+  {
+   "id": "Menu#35",
+   "label": "FldGuide_02_0",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]マリオは[Color #FF4343][U+E000][Color #E6E6E6]ボタン ルイージは[Color #00BB27][U+E001][Color #E6E6E6]ボタン で\nアクションができます。"
+  },
+  {
+   "id": "Menu#36",
+   "label": "MES_EMesOutline_story17",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00]なんとダークスターがうばわれてしまった！ ピーチ城はだいじょうぶか？"
+  },
+  {
+   "id": "Menu#37",
+   "label": "MES_MenuMes_EventItemE_vacuum_blk",
+   "style": 13,
+   "attr": "00000000",
+   "jp": "[0009:0000:0D 00]ブリロックからもらった レアなブロック。\nバトルで[Ruby 使;つか]うと クッパがすいこみ～！"
+  },
+  {
+   "id": "Menu#38",
+   "label": "MES_bgm_title_06",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]What a news！ DX"
+  },
+  {
+   "id": "Menu#39",
+   "label": "MES_tuto_yo_scrratch_tuto_ml7_koukyuu",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]それでは もう１[Ruby 度;ど]\n[Ruby 説明;せつめい]させていただきます。[0002:0001:]"
+  },
+  {
+   "id": "Menu#40",
+   "label": "BtlGuide_06_3",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]ゲームオーバーになると バトルをはじめから\nやりなおしになってしまいます。"
+  },
+  {
+   "id": "Menu#41",
+   "label": "BtlGuide_08",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00]ジャンプ[Ruby 防御;ぼうぎょ]"
+  },
+  {
+   "id": "Menu#42",
+   "label": "MES_EMesOutline_story18",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00]ピーチ城へ続く橋に出現した暗黒パワーガード… このままではピーチ城に入れない！ いったいどうすれば…"
+  },
+  {
+   "id": "Menu#43",
+   "label": "MES_EMesOutline_story2",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00]クッパの体内に吸い込まれてしまったマリオ… 他のみんなはどうしてる？"
+  },
+  {
+   "id": "Menu#44",
+   "label": "MES_bgm_title_07",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]I'm the rule！ DX"
+  },
+  {
+   "id": "Menu#45",
+   "label": "MES_tuto_yo_nice_hige2_koukyuu",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 当店;とうてん]では りっぱな\nおHIGEの[Ruby 方;かた]に ボーナスカードを\nさしあげております。[0002:0001:][Next]ボーナスカードの\n[Ruby 説明;せつめい]は いたしましょうか？[0002:0000:0A 00]\n[0001:0001:][0004:0001:]いいえ[0006:0000:28 00][0004:0001:]はい[0002:0000:0A 00]"
+  },
+  {
+   "id": "Menu#46",
+   "label": "MES_tuto_yo_nice_hige4_kinoda",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]これからは お[Ruby 買;か]い[Ruby 物;もの]ごとに\nスーパーボーナスカードを\nさしあげましょ！[0002:0001:][Next][0001:0004:]これまでより アタリが\n[Ruby 出;で]やすくなっておりますよ！[0002:0001:]"
+  },
+  {
+   "id": "Menu#47",
+   "label": "SpAtk_10_0",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00][Ruby 左側;ひだりがわ]から[Ruby 次々;つぎつぎ]やってくる[Color #2C64FF]クリボーをタッチ[Color #E6E6E6]すると\nクッパが ほのお をはきだし [Ruby 火;ひ]をつけます。"
+  },
+  {
+   "id": "Menu#48",
+   "label": "BtlGuide_06_4",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]HPが[Ruby 減;へ]ってきたり [Ruby 動;うご]けなくなってしまったら\nコマンドブロックから「[Color #2C64FF]アイテム[Color #E6E6E6]」を[Ruby 選;えら]び\nアイテムを[Ruby 使;つか]って [Ruby 回復;かいふく]しましょう。"
+  },
+  {
+   "id": "Menu#49",
+   "label": "BtlGuide_09",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][Ruby 基本;きほん]④：[Ruby 勝利;しょうり]すると[Ruby 強;つよ]くなる"
+  },
+  {
+   "id": "Menu#50",
+   "label": "MES_EMesOutline_story19",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00]ピーチ城の暗黒パワーガードを打ち破る３つのスターワクチン… １つ目はクッパ体内にいるイモムシが持っている？"
+  },
+  {
+   "id": "Menu#51",
+   "label": "MES_EMesOutline_story3",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00]クッパの体内に吸い込まれてしまったマリオ。ルイージと力を合わせて奥へ進んでいこう。"
+  },
+  {
+   "id": "Menu#52",
+   "label": "MES_MenuMes_EventItemE_pazzle1",
+   "style": 13,
+   "attr": "00000000",
+   "jp": "[0009:0000:0D 00]パズルが[Ruby 入;はい]ったふくろ リューグーにわたそう。"
+  },
+  {
+   "id": "Menu#53",
+   "label": "MES_MenuMes_EventItemNs_kinoko_capsule",
+   "style": 13,
+   "attr": "00000000",
+   "jp": "[0009:0000:0D 00]キノコボール"
+  },
+  {
+   "id": "Menu#54",
+   "label": "MES_bgm_title_08",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ハチャメチャMusic DX"
+  },
+  {
+   "id": "Menu#55",
+   "label": "MES_bgm_title_09_legacy",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ゲラコビッツがそこにいる"
+  },
+  {
+   "id": "Menu#56",
+   "label": "MES_menu_tuto_badge_change_badge_change_menu",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]いいかい…[0002:0001:]"
+  },
+  {
+   "id": "Menu#57",
+   "label": "MES_tuto_yo_nice_hige5_kinoda",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]やや！ お[Ruby 客;きゃく]さん！\n[Ruby 最高;さいこう]にステキな HIGEに\nなりましたな！[0002:0001:]"
+  },
+  {
+   "id": "Menu#58",
+   "label": "MES_tuto_yo_scrratch_tuto_end_k",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]それでは さっそく ショッピング！\nア～ンド ボーナスカードに\nチャレンジしてみてください。[0002:0001:]"
+  },
+  {
+   "id": "Menu#59",
+   "label": "MES_tuto_yo_scrratch_tuto_ml7_badge",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]それじゃ もう１[Ruby 度;ど]\n[Ruby 説明;せつめい]するからね！[0002:0001:] "
+  },
+  {
+   "id": "Menu#60",
+   "label": "SpAtk_01_0",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]マリオがもっているファイアが[Ruby 大;おお]きいときは [Color #FF4343][U+E000]\n[Color #E6E6E6]ルイージがもっているファイアが[Ruby 大;おお]きいときは [Color #00BB27][U+E001]\n[Color #E6E6E6]ボタンを[Ruby 連打;れんだ]してファイアをたくさん[Ruby 投;な]げましょう。"
+  },
+  {
+   "id": "Menu#61",
+   "label": "SpAtk_10_1",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00][Ruby 火;ひ]がついたクリボーは[Ruby 飛;と]び[Ruby 上;あ]がり [Ruby 最後;さいご]に\nまとめてモンスターの[Ruby 頭上;ずじょう]に[Ruby 落下;らっか]します。\n[Ruby 落;お]ちてくるクリボーの[Ruby 数;かず]が[Ruby 多;おお]いほど[Ruby 大;だい]ダメージ！"
+  },
+  {
+   "id": "Menu#62",
+   "label": "BtlGuide_06_5",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00][Color #2C64FF]HP[Color #E6E6E6]は[Color #FF4343]マリオ[Color #E6E6E6]と[Color #00BB27]ルイージ[Color #E6E6E6]は「[Color #2C64FF]キノコ[Color #E6E6E6]」で\n[Color #FF9600]クッパ[Color #E6E6E6]は「[Color #2C64FF]チキン[Color #E6E6E6]」で [Ruby 回復;かいふく]します。"
+  },
+  {
+   "id": "Menu#63",
+   "label": "MES_EMesOutline_story4",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00]ようやく目が覚めたクッパ。どうやらそこはどうくつの中らしいが…"
+  },
+  {
+   "id": "Menu#64",
+   "label": "MES_MenuMes_EventItemE_pazzle2",
+   "style": 13,
+   "attr": "00000000",
+   "jp": "[0009:0000:0D 00]パズルが[Ruby 入;はい]ったふくろ リューグーにわたそう。"
+  },
+  {
+   "id": "Menu#65",
+   "label": "MES_bgm_title_09",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ゲラコビッツがそこにいる DX"
+  },
+  {
+   "id": "Menu#66",
+   "label": "MES_bgm_title_23_legacy",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ディープ・キャッスル"
+  },
+  {
+   "id": "Menu#67",
+   "label": "MES_tuto_yo_bad_tsuno2_bdog",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ガルルル ガウ ガウ！\n（[Ruby 残念;ざんねん] ボーナスカード\nあげない。）[0002:0001:]"
+  },
+  {
+   "id": "Menu#68",
+   "label": "MES_tuto_yo_scrratch_tuto_end_ml_koukyuu",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]それでは お[Ruby 買;か]い[Ruby 物;もの]を\nお[Ruby 楽;たの]しみください。[0002:0001:]"
+  },
+  {
+   "id": "Menu#69",
+   "label": "SoloHammer_M_00",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00]ハンマー"
+  },
+  {
+   "id": "Menu#70",
+   "label": "SpAtk_01_1",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]ファイアをたくさん[Ruby 投;な]げることができたら\nさいごに [Ruby ２人同時;ふたりどうじ]に[Ruby 大;おお]きいファイアを\n[Ruby 投;な]げることが できるようになります。"
+  },
+  {
+   "id": "Menu#71",
+   "label": "amiibo_seq_01_02",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0005:0000:][0001:0001:]すでに タッチした[Ruby amiibo;アミーボ]です。\n[Ruby 日付;ひづけ]が[Ruby 変;か]われば またタッチできます。"
+  },
+  {
+   "id": "Menu#72",
+   "label": "BtlGuide_06_6",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00][Color #2C64FF][Ruby 気絶;きぜつ][Color #E6E6E6]は「[Color #2C64FF]１UPキノコ[Color #E6E6E6]」で [Ruby 回復;かいふく]できます。"
+  },
+  {
+   "id": "Menu#73",
+   "label": "BtlGuide_13_0",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00][Color #2C64FF]アシストきのう[Color #E6E6E6]を ONにすれば \n[Ruby 狙;ねら]われるキャラクターに[Color #2C64FF]マーカー[Color #E6E6E6]が[Ruby 表示;ひょうじ]されます。"
+  },
+  {
+   "id": "Menu#74",
+   "label": "MES_EMesOutline_story5",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00]ゲラコビッツがこんどの事件の犯人だ！ クッパは自分の城へ向かうことに。"
+  },
+  {
+   "id": "Menu#75",
+   "label": "MES_MenuMes_EventItemE_pazzle3",
+   "style": 13,
+   "attr": "00000000",
+   "jp": "[0009:0000:0D 00]パズルが[Ruby 入;はい]ったふくろ リューグーにわたそう。"
+  },
+  {
+   "id": "Menu#76",
+   "label": "MES_bgm_title_24_legacy",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ワルツ・イン・ザ・レイク"
+  },
+  {
+   "id": "Menu#77",
+   "label": "MES_tuto_yo_bad_hige1_badge",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]おや！ アンタ[Ruby 達;たち]！\nどうしたんだい！？\nHIGEが [Ruby 前;まえ]よりヨレヨレだよ！[0002:0001:]"
+  },
+  {
+   "id": "Menu#78",
+   "label": "SpAtk_01_2",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]ファイアをたくさん[Ruby 投;な]げるほど\nモンスターにあたえるダメージはアップします。\nがんばって[Ruby 連打;れんだ]しましょう。"
+  },
+  {
+   "id": "Menu#79",
+   "label": "amiibo_seq_01_03",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0005:0000:][0001:0001:][Ruby 本日;ほんじつ]はこれ[Ruby 以上;いじょう][Ruby amiibo;アミーボ]を\n[Ruby 読;よ]み[Ruby 込;こ]むことはできません。\n[Ruby 日付;ひづけ]が[Ruby 変;か]わったらまたタッチしてください。"
+  },
+  {
+   "id": "Menu#80",
+   "label": "BtlGuide_04_0",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00][Color #2C64FF]バトルきほん[Color #E6E6E6]では バトルのせつめいや\n[Ruby 戦;たたか]いかた [Ruby 勝;か]つためのコツを\nかくにんすることができます。"
+  },
+  {
+   "id": "Menu#81",
+   "label": "BtlGuide_06_7",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00][Color #2C64FF]どく やけど めまわし かぜ ころび[Color #E6E6E6] は\n「[Color #2C64FF]リフレッシュハーブ[Color #E6E6E6]」で [Ruby 回復;かいふく]できます。"
+  },
+  {
+   "id": "Menu#82",
+   "label": "BtlGuide_13_1",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]マリオの[Ruby 足元;あしもと]に [Ruby 赤;あか]いマーカーが[Ruby 出;で]たら\nマリオが[Ruby 狙;ねら]われています。"
+  },
+  {
+   "id": "Menu#83",
+   "label": "MES_EMesOutline_story6",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00]クッパが水を飲んだら体の中にも水が！ クッパ体内のポンプスペースをたんさくしよう！"
+  },
+  {
+   "id": "Menu#84",
+   "label": "MES_MenuMes_EventItemE_pazzle4",
+   "style": 13,
+   "attr": "00000000",
+   "jp": "[0009:0000:0D 00]パズルが[Ruby 入;はい]ったふくろ リューグーにわたそう。"
+  },
+  {
+   "id": "Menu#85",
+   "label": "MES_bgm_title_25_legacy",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ドクター・コキノ"
+  },
+  {
+   "id": "Menu#86",
+   "label": "menu_load_home_01",
+   "style": 3,
+   "attr": "00000000",
+   "jp": "[0009:0000:03 00][U+E073]を[Ruby 押;お]すとHOMEメニューにもどります"
+  },
+  {
+   "id": "Menu#87",
+   "label": "BtlGuide_04_1",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00][Color #2C64FF]バトルアタック[Color #E6E6E6]では \n[Ruby 攻撃;こうげき]の[Color #2C64FF]おてほん[Color #E6E6E6]を[Ruby 見;み]たり\n[Ruby 入力;にゅうりょく]の[Color #2C64FF]れんしゅう[Color #E6E6E6]ができます。"
+  },
+  {
+   "id": "Menu#88",
+   "label": "BtlGuide_06_8",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]アイテムは [Ruby 使;つか]えば[Ruby 減;へ]ります。\nショップで[Ruby 買;か]うか\nモンスターを[Ruby 倒;たお]して[Ruby 入手;にゅうしゅ]しましょう。"
+  },
+  {
+   "id": "Menu#89",
+   "label": "BtlGuide_13_2",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]ルイージの[Ruby 足元;あしもと]に [Ruby 緑;みどり]のマーカーが[Ruby 出;で]たら\nルイージが[Ruby 狙;ねら]われています。"
+  },
+  {
+   "id": "Menu#90",
+   "label": "MES_EMesColosseum_class_2_enemy",
+   "style": 1,
+   "attr": "00000000",
+   "jp": "[0009:0000:01 00]アルカロテンX"
+  },
+  {
+   "id": "Menu#91",
+   "label": "MES_EMesOutline_story7",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00]ファイアパイプへ行けるようになったぞ！ そこにはなにがある？"
+  },
+  {
+   "id": "Menu#92",
+   "label": "MES_menu_tuto_badge_change_badge_effect2",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ここを [Ruby 見;み]れば\nいちもくりょうぜん！[0002:0001:]"
+  },
+  {
+   "id": "Menu#93",
+   "label": "MES_tuto_yo_nice_tsuno3_bdog",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ガウ！ ガウ ガウ！ ガウ！\n（オマエ！ TSUNO すごい！ さらに！）[0002:0001:]"
+  },
+  {
+   "id": "Menu#94",
+   "label": "BtlGuide_06_9",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]モンスターが[Ruby 強;つよ]くて どうしても[Ruby 勝;か]てないときは\nコマンドブロックの「[Color #2C64FF]にげる[Color #E6E6E6]」で [Ruby 逃;に]げられます。\n[Ruby 逃;に]げてばかりだと [Ruby 強;つよ]くなれないのでほどほどに。"
+  },
+  {
+   "id": "Menu#95",
+   "label": "BtlGuide_13_3",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]クッパの [Color #2C64FF]アシストきのう[Color #E6E6E6]は\nモンスターの[Ruby 攻撃;こうげき]を かいひできる\nボタンだけが [Ruby 表示;ひょうじ]されるようになります。"
+  },
+  {
+   "id": "Menu#96",
+   "label": "FldGuide_00_0",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00][Color #2C64FF][U+E077][Color #E6E6E6]で [Ruby 移動;いどう]できます。"
+  },
+  {
+   "id": "Menu#97",
+   "label": "MES_EMesOutline_story8",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00]やっとほのおをはけるようになったクッパ。再びクッパ城へ向けて出発だ！"
+  },
+  {
+   "id": "Menu#98",
+   "label": "MES_record_bage_num",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]バッジ使用回数"
+  },
+  {
+   "id": "Menu#99",
+   "label": "MES_tuto_yo_scrratch_tuto_k6_bdog",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]ガウ？ ガウガウ？\n（どうだ？ わかったか？）[0002:0000:0A 00]\n[0001:0001:][0004:0001:]いいえ[0006:0000:28 00][0004:0001:]はい[0002:0000:0A 00]"
+  },
+  {
+   "id": "Menu#100",
+   "label": "BtlGuide_13_4",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]どうしても モンスターの[Ruby 攻撃;こうげき]サインが\n[Ruby 見;み]つけられない[Ruby 時;とき]は\n[Color #2C64FF]アシストきのう[Color #E6E6E6]を ONにしてみてください。"
+  },
+  {
+   "id": "Menu#101",
+   "label": "FldGuide_00_1",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]マリオの[Ruby 後;うし]ろには ルイージが[Ruby 自動;じどう]でついてきます。"
+  },
+  {
+   "id": "Menu#102",
+   "label": "MES_EMesColosseum_guide_huge_battle_00",
+   "style": 3,
+   "attr": "00000000",
+   "jp": "[0009:0000:03 00]コロシアムでの[Ruby 巨大化;きょだいか]バトルは\nターボモードとなり\n[Ruby 全体;ぜんたい]のスピードが[Ruby 上;あ]がります。"
+  },
+  {
+   "id": "Menu#103",
+   "label": "MES_EMesOutline_story9",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00]森のどこかに落ちているキラーを見つけてたいほうで発射しよう！"
+  },
+  {
+   "id": "Menu#104",
+   "label": "MES_tuto_yo_scrratch_tuto_k1",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]オーケー ティーチング スタ～ト！[0002:0001:] "
+  },
+  {
+   "id": "Menu#105",
+   "label": "MES_tuto_yo_scrratch_tuto_ml1_badge",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]それじゃ [Ruby 説明;せつめい]しようかね。[0002:0001:]"
+  },
+  {
+   "id": "Menu#106",
+   "label": "MES_tuto_yo_scrratch_tuto_ml1_koukyuu",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]コホン それでは\n[Ruby 説明;せつめい]させていただきます。[0002:0001:]"
+  },
+  {
+   "id": "Menu#107",
+   "label": "amiibo_sys_err_01",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0005:0000:][0001:0001:][Ruby 対応;たいおう]していない[Ruby amiibo;アミーボ]です。[0002:0001:]"
+  },
+  {
+   "id": "Menu#108",
+   "label": "BtlGuide_13_5",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00][Color #2C64FF]アシストきのう[Color #E6E6E6]は [Color #2C64FF]スターメニューの「せってい」[Color #E6E6E6]で\n[Color #2C64FF]ON OFF [Color #E6E6E6]をきりかえられます。\nバトルがむずかしいと[Ruby 思;おも]ったら [Ruby 使;つか]ってみましょう。"
+  },
+  {
+   "id": "Menu#109",
+   "label": "MES_EMesColosseum_guide_huge_battle_01",
+   "style": 3,
+   "attr": "00000000",
+   "jp": "[0009:0000:03 00]また [Ruby 回復;かいふく]アイテムである\nキノコが[Ruby 出現;しゅつげん]しません。\n[Ruby 敵;てき]の[Ruby 攻撃;こうげき]をいかに\nしのぐかがポイントです。"
+  },
+  {
+   "id": "Menu#110",
+   "label": "MES_MenuMes_EventItemE_starvaccine_g",
+   "style": 13,
+   "attr": "00000000",
+   "jp": "[0009:0000:0D 00]ムッシーバビーチの チャクランが\nもっていた １０００ねんモノのワクチン。"
+  },
+  {
+   "id": "Menu#111",
+   "label": "MES_tuto_yo_scrratch_tuto_k2",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]これが ボーナスカードです。[0002:0001:][Next]ショッピングごとに プレゼント\nしています。[0002:0001:]"
+  },
+  {
+   "id": "Menu#112",
+   "label": "SpAtk_00",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00]みどりコウラ"
+  },
+  {
+   "id": "Menu#113",
+   "label": "amiibo_sys_err_02",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0005:0000:][0001:0001:][Ruby 無線通信;むせんつうしん]が[Color #4ED4FF]OFF[Color #E6E6E6]になっているため\n[Ruby amiibo;アミーボ]を[Ruby 使;つか]えません。\n[Ruby 無線通信;むせんつうしん]を[Color #4ED4FF]ON[Color #E6E6E6]にしてください。[0002:0001:]"
+  },
+  {
+   "id": "Menu#114",
+   "label": "BtlGuide_20",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00]ハンマー[Ruby 防御;ぼうぎょ]"
+  },
+  {
+   "id": "Menu#115",
+   "label": "MES_EMesOutline_story30",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00]新しいブラザーアタック「スイーツバスケット」をゲットした！ これで３人目の賢者を倒せるぞ！"
+  },
+  {
+   "id": "Menu#116",
+   "label": "MES_MenuMes_EventItemN_buri_cat1",
+   "style": 13,
+   "attr": "00000000",
+   "jp": "[0009:0000:0D 00]ブロキャット"
+  },
+  {
+   "id": "Menu#117",
+   "label": "MES_ShopMes_Info_Stock",
+   "style": 0,
+   "attr": "00000000",
+   "jp": "[0009:0000:00 00][Color #FFFAF1]もっているかず[Color #373737]"
+  },
+  {
+   "id": "Menu#118",
+   "label": "MES_tuto_yo_scrratch_tuto_k3",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ボーナスカードの マスを[Ruby 選;えら]んで…[0002:0001:]"
+  },
+  {
+   "id": "Menu#119",
+   "label": "SpAtk_01",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00]ファイアフラワー"
+  },
+  {
+   "id": "Menu#120",
+   "label": "amiibo_sys_err_03",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0005:0000:][0001:0001:][Ruby amiibo;アミーボ]のデータ[Ruby 読;よ]み[Ruby 込;こ]み[Ruby 中;ちゅう]に\nエラーが[Ruby 発生;はっせい]しました。\nもう１[Ruby 度;ど]お[Ruby 試;ため]しください。[0002:0001:]"
+  },
+  {
+   "id": "Menu#121",
+   "label": "ActGuide_09_0",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]マリオとルイージが[Ruby ２人;ふたり]いっしょにいるときに\n[Ruby 行;おこな]えるアクションです。"
+  },
+  {
+   "id": "Menu#122",
+   "label": "BtlGuide_11_0",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]マリオ[Ruby 達;たち]の[Ruby 強;つよ]さは スターメニューの\n「[Color #2C64FF]ステータス[Color #E6E6E6]」で[Ruby 確認;かくにん]できます。"
+  },
+  {
+   "id": "Menu#123",
+   "label": "BtlGuide_21",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][Ruby 状態変化;じょうたいへんか]"
+  },
+  {
+   "id": "Menu#124",
+   "label": "MES_EMesColosseum_class_7_enemy_1",
+   "style": 1,
+   "attr": "00000000",
+   "jp": "[0009:0000:01 00]第１回戦 イモーヌX"
+  },
+  {
+   "id": "Menu#125",
+   "label": "MES_EMesOutline_story31",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00]スターワクチンをすべて集めたぞ！ キノコタウンのDr.コキノのもとへもどろう。"
+  },
+  {
+   "id": "Menu#126",
+   "label": "MES_MenuMes_EventItemN_buri_cat2",
+   "style": 13,
+   "attr": "00000000",
+   "jp": "[0009:0000:0D 00]ブロキャット"
+  },
+  {
+   "id": "Menu#127",
+   "label": "MES_bgm_title_20",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]キノコタウンでひとやすみ DX"
+  },
+  {
+   "id": "Menu#128",
+   "label": "MES_tuto_yo_scrratch_tuto_k4",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]オウ！ アタリが[Ruby 出;で]たら！[0002:0001:]"
+  },
+  {
+   "id": "Menu#129",
+   "label": "SoloFire_00_0",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00][Ruby 息;いき]を[Ruby 吸;す]って[Ruby 最大;さいだい]までためたら [Color #FF9600][U+E002][Color #E6E6E6]ボタン！\nほのおがとぎれるまで ボタンを[Ruby 押;お]し[Ruby 続;つづ]けて\n[Color #2C64FF]Excellent[Color #E6E6E6] を[Ruby 狙;ねら]い[Color #E6E6E6]ましょう。[Color #E6E6E6]"
+  },
+  {
+   "id": "Menu#130",
+   "label": "SpAtk_02",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00]はね～るメット"
+  },
+  {
+   "id": "Menu#131",
+   "label": "amiibo_sys_err_04",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0005:0000:][0001:0001:]NFCリーダー/ライターの[Ruby 電源;でんげん]を[Ruby 入;い]れて\n[Ruby 本体;ほんたい]の [Ruby 赤外線受発光部を;せきがいせんじゅはっこうぶ]\n[Ruby 向;むか]い[Ruby 合;あわ]せてください。"
+  },
+  {
+   "id": "Menu#132",
+   "label": "ActGuide_09_1",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00][Color #2C64FF][Ruby 空気;くうき]が[Ruby 出;で]ている[Ruby 管;くだ][Color #E6E6E6]に[Ruby 近;ちか]づくと\nマリオが[Ruby 空気;くうき]を[Ruby 吸;す]い[Ruby 込;こ]み\n[Color #2C64FF]バルーンマリオ[Color #E6E6E6]になります。"
+  },
+  {
+   "id": "Menu#133",
+   "label": "BtlGuide_02_0",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]「[Color #2C64FF]ジャンプ[Color #E6E6E6]」や「[Color #2C64FF]パンチ[Color #E6E6E6]」などで\nモンスターを[Ruby 攻撃;こうげき]すれば ダメージを[Ruby 与;あた]えられます。\nモンスターのHPを[Color #2C64FF]ゼロ[Color #E6E6E6]にすれば [Ruby 倒;たお]せます。"
+  },
+  {
+   "id": "Menu#134",
+   "label": "BtlGuide_11_1",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]「[Color #2C64FF]HP[Color #E6E6E6]」「[Color #2C64FF]BP[Color #E6E6E6]」「[Color #2C64FF]POW[Color #E6E6E6]」「[Color #2C64FF]DEF[Color #E6E6E6]」\n「[Color #2C64FF]SPEED[Color #E6E6E6]」「[Color #2C64FF]HIGE[Color #E6E6E6]」「[Color #2C64FF]TSUNO[Color #E6E6E6]」があります。"
+  },
+  {
+   "id": "Menu#135",
+   "label": "BtlGuide_22",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00]パンチでの[Ruby 攻撃;こうげき]"
+  },
+  {
+   "id": "Menu#136",
+   "label": "MES_EMesColosseum_class_7_enemy_2",
+   "style": 1,
+   "attr": "00000000",
+   "jp": "[0009:0000:01 00]第２回戦 アルカロテンX"
+  },
+  {
+   "id": "Menu#137",
+   "label": "MES_EMesOutline_story32",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00]ミラクルワクチンを手に入れた！ これでピーチ城の暗黒パワーガードを打ち破れるぞ！"
+  },
+  {
+   "id": "Menu#138",
+   "label": "MES_MenuMes_EventItemN_buri_cat3",
+   "style": 13,
+   "attr": "00000000",
+   "jp": "[0009:0000:0D 00]ブロキャット"
+  },
+  {
+   "id": "Menu#139",
+   "label": "MES_bgm_title_21",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]あの草原をどこまでも DX"
+  },
+  {
+   "id": "Menu#140",
+   "label": "MES_tuto_yo_scrratch_tuto_end_k_bdog",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ガウガウ ガウガウガウ。\n（[Ruby 買;か]い[Ruby 物;もの]して\nボーナス チャレンジ。）[0002:0001:]"
+  },
+  {
+   "id": "Menu#141",
+   "label": "MES_tuto_yo_scrratch_tuto_k5",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ショッピングで [Ruby 使;つか]ったコインが\n[Ruby 一部;いちぶ]もどってくる ハッピーな\nシステムなのです！[0002:0001:]"
+  },
+  {
+   "id": "Menu#142",
+   "label": "SpAtk_03",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00]ぶんしんタルたいほう"
+  },
+  {
+   "id": "Menu#143",
+   "label": "amiibo_sys_err_05",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0005:0000:][0001:0001:]NFCリーダー/ライターの[Ruby 更新;こうしん]が[Ruby 必要;ひつよう]です。\n[0004:0001:]やめる[0006:0000:20 00][0004:0001:][Ruby 更新;こうしん]する[0002:0000:0A 00]"
+  },
+  {
+   "id": "Menu#144",
+   "label": "amiibo_sys_err_09a",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0005:0000:][0001:0001:]これは[Ruby amiibo;アミーボ]ではありません。\n[Color #4ED4FF]NFCエリア[Color #E6E6E6]から[Ruby 離;はな]してください｡[0002:0001:]"
+  },
+  {
+   "id": "Menu#145",
+   "label": "ActGuide_09_2",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00][Color #00BB27][U+E001][Color #E6E6E6]ボタンでジャンプすると\nいつもより[Ruby 高;たか]くジャンプすることができます。"
+  },
+  {
+   "id": "Menu#146",
+   "label": "BtlGuide_02_1",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00][Ruby 攻撃;こうげき]するときに [Color #2C64FF]ボタン[Color #E6E6E6]や[Color #2C64FF]スライドパッド\nタッチペン[Color #E6E6E6]をうまく[Ruby 入力;にゅうりょく]できれば\nダメージが[Ruby 増;ふ]えます。"
+  },
+  {
+   "id": "Menu#147",
+   "label": "BtlGuide_11_2",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00][Color #2C64FF]HP[Color #E6E6E6] は [Ruby 体力;たいりょく]。\nダメージを[Ruby 受;う]けると[Ruby 減;へ]り ゼロになると[Ruby 気絶;きぜつ]します。"
+  },
+  {
+   "id": "Menu#148",
+   "label": "BtlGuide_23",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00]どの[Ruby 防御;ぼうぎょ]で かいひするかを[Ruby 見極;みきわ]めよう"
+  },
+  {
+   "id": "Menu#149",
+   "label": "MES_EMesColosseum_class_6_enemy",
+   "style": 1,
+   "attr": "00000000",
+   "jp": "[0009:0000:01 00]ダークスターX"
+  },
+  {
+   "id": "Menu#150",
+   "label": "MES_EMesColosseum_class_7_enemy_3",
+   "style": 1,
+   "attr": "00000000",
+   "jp": "[0009:0000:01 00]第３回戦 賢者イモーヌX"
+  },
+  {
+   "id": "Menu#151",
+   "label": "MES_EMesColosseum_guite_turn_battle_00",
+   "style": 3,
+   "attr": "00000000",
+   "jp": "[0009:0000:03 00]ターンとは マリオ[Ruby 達;たち]とモンスターの\n[Ruby 行動回数;こうどうかいすう]のことです。\nマリオ ルイージ モンスターが\nそれぞれ１[Ruby 回;かい]ずつ[Ruby 行動;こうどう]すると １ターン。"
+  },
+  {
+   "id": "Menu#152",
+   "label": "MES_EMesOutline_story33",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00]ついにゲラコビッツ達がひそむピーチ城へ入れるようになった！ 庭から城の中への入口を探せ！"
+  },
+  {
+   "id": "Menu#153",
+   "label": "MES_MenuMes_EventItemN_buri_cat4",
+   "style": 13,
+   "attr": "00000000",
+   "jp": "[0009:0000:0D 00]ブロキャット"
+  },
+  {
+   "id": "Menu#154",
+   "label": "MES_bgm_title_11_legacy",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]いつでもハッピー"
+  },
+  {
+   "id": "Menu#155",
+   "label": "MES_bgm_title_22",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]Area of dark DX"
+  },
+  {
+   "id": "Menu#156",
+   "label": "MES_tuto_yo_nice_hige1_koukyuu",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]お[Ruby 客様;きゃくさま] たいへんりっぱな\nおHIGEですね。[0002:0001:]"
+  },
+  {
+   "id": "Menu#157",
+   "label": "MES_tuto_yo_scrratch_tuto_k6",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]どうです？ ボーナスカードの\nしくみ わかりましたか？[0002:0000:0A 00]\n[0001:0001:][0004:0001:]いいえ[0006:0000:28 00][0004:0001:]はい[0002:0000:0A 00]"
+  },
+  {
+   "id": "Menu#158",
+   "label": "SpAtk_04",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00]くるりんボール"
+  },
+  {
+   "id": "Menu#159",
+   "label": "amiibo_sys_err_06",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0005:0000:][0001:0001:][Ruby 赤外線通信;せきがいせんつうしん]エラーが [Ruby 発生;はっせい]しました。\n[Ruby 本体;ほんたい]の[Ruby 電源;でんげん]をOFFにしてから\nやり[Ruby 直;なお]してください。[0002:0001:][Next][0005:0000:][0001:0001:][Ruby 症状;しょうじょう]が[Ruby 直;なお]らない[Ruby 場合;ばあい]は[Ruby 本体;ほんたい]の \n[Ruby 取扱説明書;とりあつかいせつめいしょ]に [Ruby 記載;きさい]されている\n[Ruby 任天堂;にんてんどう]サービスセンターへお[Ruby 問;と]い[Ruby 合;あ]わせください。[0002:0001:]"
+  },
+  {
+   "id": "Menu#160",
+   "label": "amiibo_sys_err_09b",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0005:0000:][0001:0001:]これは[Ruby amiibo;アミーボ]ではありません。\n[Color #4ED4FF][Ruby 下画面;したがめん][Color #E6E6E6]から[Ruby 離;はな]してください｡[0002:0001:]"
+  },
+  {
+   "id": "Menu#161",
+   "label": "menu_load_10",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00]データをコピーしました。"
+  },
+  {
+   "id": "Menu#162",
+   "label": "ActGuide_09_3",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00][Color #FF4343][U+E000][Color #E6E6E6]ボタンで[Ruby 空気;くうき]を[Ruby 吐;は]き[Ruby 出;だ]すことができます。\n[Color #2C64FF]バルーンマリオ[Color #E6E6E6]のとき ジャンプ[Ruby 以外;いがい]の\nアクションをすることはできません。"
+  },
+  {
+   "id": "Menu#163",
+   "label": "BtlGuide_02_2",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00][Ruby 入力;にゅうりょく]のうまさは[Color #2C64FF]４[Ruby 段階で評価;だんかいひょうか][Color #E6E6E6]されます。\n[Ruby 最高評価;さいこうひょうか]の [Color #2C64FF]Excellent[Color #E6E6E6]をめざしましょう！"
+  },
+  {
+   "id": "Menu#164",
+   "label": "BtlGuide_11_3",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00][Color #2C64FF]BP[Color #E6E6E6] は ブラザーポイント と ボコスカポイント。\nブラザーアタック と ボコスカアタック に\n[Ruby 必要;ひつよう]なポイントで [Ruby 使;つか]うと[Ruby 減;へ]っていきます。"
+  },
+  {
+   "id": "Menu#165",
+   "label": "BtlGuide_24",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00]パンチ[Ruby 防御;ぼうぎょ]"
+  },
+  {
+   "id": "Menu#166",
+   "label": "MES_EMesColosseum_class_7_enemy_4",
+   "style": 1,
+   "attr": "00000000",
+   "jp": "[0009:0000:01 00]第４回戦 クッパメモリーMLX"
+  },
+  {
+   "id": "Menu#167",
+   "label": "MES_EMesColosseum_guite_turn_battle_01",
+   "style": 3,
+   "attr": "00000000",
+   "jp": "[0009:0000:03 00][Ruby 全員が攻撃;ぜんいんこうげき]したり\nアイテムを[Ruby 使;つか]うなどの [Ruby 行動;こうどう]をして…\n[Ruby 全員;ぜんいん]が １[Ruby 回;かい]ずつ[Ruby 行動;こうどう]をとると\nターンが１つ [Ruby 終;お]わったことになります。"
+  },
+  {
+   "id": "Menu#168",
+   "label": "MES_EMesOutline_story34",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00]スパイクボールができるようになったクッパ。カベをのぼってピーチ城をたんさくしよう！"
+  },
+  {
+   "id": "Menu#169",
+   "label": "MES_MenuMes_EventItemE_kinoko_capsule",
+   "style": 13,
+   "attr": "00000000",
+   "jp": "[0009:0000:0D 00]キノコタウンにいる キノコボールおじさんに\nわたせば なかみがもらえるぞ！"
+  },
+  {
+   "id": "Menu#170",
+   "label": "MES_MenuMes_EventItemN_blue_key",
+   "style": 13,
+   "attr": "00000000",
+   "jp": "[0009:0000:0D 00]青のカギ"
+  },
+  {
+   "id": "Menu#171",
+   "label": "MES_MenuMes_EventItemN_buri_cat5",
+   "style": 13,
+   "attr": "00000000",
+   "jp": "[0009:0000:0D 00]ブロキャット"
+  },
+  {
+   "id": "Menu#172",
+   "label": "MES_MesDat_MiniGame_end_info20",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0005:0000:]すべての[Ruby 金;きん]メダル[Color #373737]を[Ruby 獲得;かくとく]！\n[Ruby 賞品;しょうひん]は[Color #4ED4FF]おうさまコウラ[Color #373737]！[Color #E6E6E6][0002:0001:]"
+  },
+  {
+   "id": "Menu#173",
+   "label": "MES_bgm_title_12_legacy",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]リラックス×２"
+  },
+  {
+   "id": "Menu#174",
+   "label": "MES_bgm_title_23",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ディープ・キャッスル DX"
+  },
+  {
+   "id": "Menu#175",
+   "label": "MES_tuto_yo_scrratch_tuto_k7",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]オーケー ティーチング\nワンスモア！[0002:0001:]"
+  },
+  {
+   "id": "Menu#176",
+   "label": "SpAtk_05",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00]ワンダーメテオ"
+  },
+  {
+   "id": "Menu#177",
+   "label": "amiibo_sys_err_07",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0005:0000:][0001:0001:][0001:0004:]NFCリーダー/ライターとの\n[Ruby 通信;つうしん]に[Ruby 失敗;しっぱい]しました。[0002:0001:][Next][0005:0000:][0001:0001:][0001:0004:]NFCリーダー/ライターの\n[Ruby 電源;でんげん]をOFFにしてからやり[Ruby 直;なお]してください。[0002:0001:][Next][0005:0000:][0001:0001:][Ruby 症状;しょうじょう]が[Ruby 直;なお]らない[Ruby 場合;ばあい]は[Ruby 本体;ほんたい]の \n[Ruby 取扱説明書;とりあつかいせつめいしょ]に [Ruby 記載;きさい]されている\n[Ruby 任天堂;にんてんどう]サービスセンターへお[Ruby 問;と]い[Ruby 合;あ]わせください。[0002:0001:]"
+  },
+  {
+   "id": "Menu#178",
+   "label": "BtlGuide_11_4",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00][Color #2C64FF]POW[Color #E6E6E6] は [Ruby 攻撃力;こうげきりょく]。\n[Ruby 数字;すうじ]が[Ruby 大;おお]きいほど [Ruby 与;あた]えるダメージが[Ruby 大;おお]きくなります。"
+  },
+  {
+   "id": "Menu#179",
+   "label": "BtlGuide_25",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00]コウラ[Ruby 防御;ぼうぎょ]"
+  },
+  {
+   "id": "Menu#180",
+   "label": "BtlGuide_28_0",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00][Ruby 大;おお]きく[Ruby 息;いき]を[Ruby 吸;す]い[Ruby 込;こ]み[Ruby 続;つづ]けて\n[Ruby 体;からだ]の[Ruby 小;ちい]さいモンスターや モンスターの[Ruby 体;からだ]の\n[Ruby 一部;いちぶ]を [Color #2C64FF][Ruby 吸;す]い[Ruby 込;こ]む[Color #E6E6E6]ことができます。"
+  },
+  {
+   "id": "Menu#181",
+   "label": "MES_EMesColosseum_class_7_enemy_5",
+   "style": 1,
+   "attr": "00000000",
+   "jp": "[0009:0000:01 00]第５回戦 ガラクタモンスターX"
+  },
+  {
+   "id": "Menu#182",
+   "label": "MES_EMesColosseum_guite_turn_battle_02",
+   "style": 3,
+   "attr": "00000000",
+   "jp": "[0009:0000:03 00][Ruby 全員の行動;ぜんいんこうどう]が １[Ruby 周;しゅう]し[Ruby 終;お]わったら\n１ターン[Ruby 目;め]が[Ruby 終了;しゅうりょう]…\n[Ruby 全員の行動;ぜんいんこうどう]が ２[Ruby 周;しゅう]し[Ruby 終;お]わったら\n２ターン[Ruby 目;め]が[Ruby 終了;しゅうりょう]…"
+  },
+  {
+   "id": "Menu#183",
+   "label": "MES_EMesOutline_story35",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00]ピーチ城のカギを持って逃げたゲラパト３匹を見つけ出そう！"
+  },
+  {
+   "id": "Menu#184",
+   "label": "MES_MenuMes_EventItemE_kokky",
+   "style": 13,
+   "attr": "00000000",
+   "jp": "[0009:0000:0D 00]Dr.コキノの ペット。\n[Ruby 道;みち]あんないを してくれる。"
+  },
+  {
+   "id": "Menu#185",
+   "label": "MES_MenuMes_EventItemN_buri_cat10",
+   "style": 13,
+   "attr": "00000000",
+   "jp": "[0009:0000:0D 00]ブロキャット"
+  },
+  {
+   "id": "Menu#186",
+   "label": "MES_MenuMes_EventItemN_buri_cat6",
+   "style": 13,
+   "attr": "00000000",
+   "jp": "[0009:0000:0D 00]ブロキャット"
+  },
+  {
+   "id": "Menu#187",
+   "label": "MES_bgm_title_13_legacy",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]決戦のとき！"
+  },
+  {
+   "id": "Menu#188",
+   "label": "MES_bgm_title_24",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ワルツ・イン・ザ・レイク DX"
+  },
+  {
+   "id": "Menu#189",
+   "label": "MES_tuto_yo_scrratch_tuto_k3_bdog",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ガガガウ ガウ…\n（ボーナスカード マス[Ruby 選;えら]ぶ…）[0002:0001:]"
+  },
+  {
+   "id": "Menu#190",
+   "label": "Menu_Sys_rem_equip",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00]そうびをはずす"
+  },
+  {
+   "id": "Menu#191",
+   "label": "SpAtk_06",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00]スイーツバスケット"
+  },
+  {
+   "id": "Menu#192",
+   "label": "amiibo_sys_err_08",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0005:0000:][0001:0001:]マリオ&ルイージRPG３ DX では\n[0005:0000:][0001:0001:][Ruby 対応;たいおう]していないキャラクターの[Ruby amiibo;アミーボ]です。[0002:0001:]"
+  },
+  {
+   "id": "Menu#193",
+   "label": "BtlGuide_11_5",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00][Color #2C64FF]DEF[Color #E6E6E6] は [Ruby 防御力;ぼうぎょりょく]。\n[Ruby 数字;すうじ]が[Ruby 大;おお]きいほど [Ruby 受;う]けるダメージが\n[Ruby 小;ちい]さくなります。"
+  },
+  {
+   "id": "Menu#194",
+   "label": "BtlGuide_26",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00]ボコスカアタックでの[Ruby 攻撃;こうげき]"
+  },
+  {
+   "id": "Menu#195",
+   "label": "BtlGuide_28_1",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00][Ruby 吸;す]い[Ruby 込;こ]みに[Ruby 成功;せいこう]すると [Color #2C64FF]モンスターが[Ruby 弱;よわ]くなったり\nクッパが[Ruby 回復;かいふく]やパワーアップ[Color #E6E6E6]します。"
+  },
+  {
+   "id": "Menu#196",
+   "label": "MES_EMesColosseum_class_7_enemy_6",
+   "style": 1,
+   "attr": "00000000",
+   "jp": "[0009:0000:01 00]第６回戦 ダークスターX"
+  },
+  {
+   "id": "Menu#197",
+   "label": "MES_EMesColosseum_guite_turn_battle_03",
+   "style": 3,
+   "attr": "00000000",
+   "jp": "[0009:0000:03 00]バトルが[Ruby 長;なが]く[Ruby 続;つづ]くと\nターン[Ruby 数;すう]も ふえていきます。\n１ターンの[Ruby 間;あいだ]に [Ruby 連続;れんぞく]で\n[Ruby 行動;こうどう]をする モンスターもいます。"
+  },
+  {
+   "id": "Menu#198",
+   "label": "MES_EMesOutline_story36",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00]いよいよピーチ城の奥へ進めるぞ！ ピーチ姫は？ ダークスターは？ いったいどこに？"
+  },
+  {
+   "id": "Menu#199",
+   "label": "MES_MenuMes_EventItemN_buri_cat11",
+   "style": 13,
+   "attr": "00000000",
+   "jp": "[0009:0000:0D 00]ブロキャット"
+  },
+  {
+   "id": "Menu#200",
+   "label": "MES_MenuMes_EventItemN_buri_cat7",
+   "style": 13,
+   "attr": "00000000",
+   "jp": "[0009:0000:0D 00]ブロキャット"
+  },
+  {
+   "id": "Menu#201",
+   "label": "MES_bgm_title_25",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ドクター・コキノ DX"
+  },
+  {
+   "id": "Menu#202",
+   "label": "MES_tuto_yo_nice_tsuno1",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]オウ！ ムッシュ～\nムッシュ～の TSUNO\nベリー クールになりましたね！[0002:0001:]"
+  },
+  {
+   "id": "Menu#203",
+   "label": "Menu_Sys_invalid_equip_name",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00]そうびなし"
+  },
+  {
+   "id": "Menu#204",
+   "label": "SpAtk_07",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00]あちこちウィンドウ"
+  },
+  {
+   "id": "Menu#205",
+   "label": "BtlGuide_11_6",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00][Color #2C64FF]SPEED[Color #E6E6E6] は すばやさ。\n[Ruby 数字;すうじ]が[Ruby 大;おお]きいほど モンスターよりも[Ruby 先;さき]に\n[Ruby 行動;こうどう]できるように なります。"
+  },
+  {
+   "id": "Menu#206",
+   "label": "BtlGuide_27",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00]ファイア[Ruby 攻撃;こうげき]"
+  },
+  {
+   "id": "Menu#207",
+   "label": "BtlGuide_28_2",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00][Ruby 体;からだ]の[Ruby 小;ちい]さいモンスターを[Ruby 吸;す]い[Ruby 込;こ]んだ[Ruby 場合;ばあい]は\n[Color #2C64FF][Ruby 体内;たいない]にいるマリオ[Ruby 達;たち]が そのモンスターと\nバトル[Color #E6E6E6]する[Ruby 場合;ばあい]もあります。"
+  },
+  {
+   "id": "Menu#208",
+   "label": "MES_EMesColosseum_class_7_enemy_7",
+   "style": 1,
+   "attr": "00000000",
+   "jp": "[0009:0000:01 00]第７回戦 クッパX"
+  },
+  {
+   "id": "Menu#209",
+   "label": "MES_EMesColosseum_guite_turn_battle_04",
+   "style": 3,
+   "attr": "00000000",
+   "jp": "[0009:0000:03 00]ターン[Ruby 数;すう]は [Ruby 常;つね]に[Ruby 注意;ちゅうい]して\n[Ruby 見;み]ておきましょう。"
+  },
+  {
+   "id": "Menu#210",
+   "label": "MES_EMesOutline_story37",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00]ダークスターがクッパの体の中に逃げ込んだ！？ エアースペースの奥へ追っていこう！"
+  },
+  {
+   "id": "Menu#211",
+   "label": "MES_MenuMes_EventItemN_buri_cat12",
+   "style": 13,
+   "attr": "00000000",
+   "jp": "[0009:0000:0D 00]ブロキャット"
+  },
+  {
+   "id": "Menu#212",
+   "label": "MES_MenuMes_EventItemN_buri_cat8",
+   "style": 13,
+   "attr": "00000000",
+   "jp": "[0009:0000:0D 00]ブロキャット"
+  },
+  {
+   "id": "Menu#213",
+   "label": "MES_bgm_title_26",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]スーパーポンプアップ！ DX"
+  },
+  {
+   "id": "Menu#214",
+   "label": "MES_tuto_yo_nice_tsuno2",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]クールな ムッシュ～には\nボーナスカードを\nプレゼントしているのですよ！[0002:0001:][Next]ボーナスカードの\n[Ruby 説明;せつめい]は[Ruby 必要;ひつよう]ですか？[0002:0000:0A 00]\n[0001:0001:][0004:0001:]いいえ[0006:0000:28 00][0004:0001:]はい[0002:0000:0A 00]"
+  },
+  {
+   "id": "Menu#215",
+   "label": "SpAtk_08",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00]こいこいスター"
+  },
+  {
+   "id": "Menu#216",
+   "label": "ActGuide_07_0",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]マリオとルイージが[Ruby ２人;ふたり]いっしょにいるときに\n[Ruby 行;おこな]えるアクションです。"
+  },
+  {
+   "id": "Menu#217",
+   "label": "BtlGuide_11_7",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00][Color #2C64FF]HIGE[Color #E6E6E6]と [Color #2C64FF]TSUNO[Color #E6E6E6]は ヒゲ と ツノ。\n[Ruby 数字;すうじ]が[Ruby 大;おお]きいほど ラッキーヒットが[Ruby 出;で]やすくなり\nアタリが[Ruby 出;で]やすい ボーナスカードがもらえます。"
+  },
+  {
+   "id": "Menu#218",
+   "label": "BtlGuide_28",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00]バキュームについて"
+  },
+  {
+   "id": "Menu#219",
+   "label": "MES_EMesOutline_story38",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00]ダークスターがクッパ？に変身！ このままでは大変なことに！ やつを追いかけよう！"
+  },
+  {
+   "id": "Menu#220",
+   "label": "MES_MenuMes_EventItemN_buri_cat13",
+   "style": 13,
+   "attr": "00000000",
+   "jp": "[0009:0000:0D 00]ブロキャット"
+  },
+  {
+   "id": "Menu#221",
+   "label": "MES_MenuMes_EventItemN_buri_cat9",
+   "style": 13,
+   "attr": "00000000",
+   "jp": "[0009:0000:0D 00]ブロキャット"
+  },
+  {
+   "id": "Menu#222",
+   "label": "MES_bgm_title_27",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]Oki Doki！！ DX"
+  },
+  {
+   "id": "Menu#223",
+   "label": "MES_tuto_yo_nice_tsuno3",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]オウ！ ムッシュ～\nさらにステキな TSUNOに\nなりましたね！[0002:0001:]"
+  },
+  {
+   "id": "Menu#224",
+   "label": "SpAtk_09",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00]スピンどかん"
+  },
+  {
+   "id": "Menu#225",
+   "label": "ActGuide_07_1",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]「[Color #2C64FF]コウラブロック[Color #E6E6E6]」を[Ruby 叩;たた]くと\nマリオがコウラを[Ruby 着;き]て\n[Color #2C64FF]コウラマリオ[Color #E6E6E6]に[Ruby 変身;へんしん]します。"
+  },
+  {
+   "id": "Menu#226",
+   "label": "BtlGuide_29",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00]バッジメーターについて"
+  },
+  {
+   "id": "Menu#227",
+   "label": "MES_EMesOutline_story39",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00]ダーククッパを追いつめろ！ いよいよ最後の決戦だ！ 準備はいいか？"
+  },
+  {
+   "id": "Menu#228",
+   "label": "MES_MenuMes_EventItemN_buri_cat14",
+   "style": 13,
+   "attr": "00000000",
+   "jp": "[0009:0000:0D 00]ブロキャット"
+  },
+  {
+   "id": "Menu#229",
+   "label": "MES_MesDat_MiniGame_end_info25",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][Color #373737][Ruby 賞品;しょうひん]は[Color #E6E6E6][Color #4ED4FF][0003:0000:00 00 05 00 00 00][Color #E6E6E6][Color #373737]コイン！[Color #E6E6E6][0002:0001:]"
+  },
+  {
+   "id": "Menu#230",
+   "label": "MES_bgm_title_28",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]SHOW TIME！ DX"
+  },
+  {
+   "id": "Menu#231",
+   "label": "MES_tuto_yo_bad_hige3_koukyuu",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]これでは [Ruby 残念;ざんねん]ですが\nスーパーボーナスカードは\nプレゼントできませんね…[0002:0001:][Next]でも [Ruby 安心;あんしん]なさってください。\nノーマルボーナスカードは\nプレゼントできますので。[0002:0001:]"
+  },
+  {
+   "id": "Menu#232",
+   "label": "MES_tuto_yo_nice_tsuno4",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]これからは お[Ruby 買;か]い[Ruby 物;もの]ごとに\nスーパーボーナスカードを\nプレゼント！[0002:0001:][Next][0001:0004:]これまでより アタリが\n[Ruby 出;で]やすくなってますよ！[0002:0001:]"
+  },
+  {
+   "id": "Menu#233",
+   "label": "MES_tuto_yo_scrratch_tuto_ml2_kinoda",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]これがボーナスカードです。[0002:0001:][Next]ボーナスカードは [Ruby 買;か]い[Ruby 物;もの]ごとに\n１まい さしあげてます。[0002:0001:]"
+  },
+  {
+   "id": "Menu#234",
+   "label": "ActGuide_07_2",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00][Color #00BB27][U+E001][Color #E6E6E6]ボタンで[Color #2C64FF]コウラマリオ[Color #E6E6E6]を[Ruby 前;まえ]に[Ruby 飛;と]ばして\n[Ruby 離;はな]れた[Ruby 場所;ばしょ]のスイッチやブロックなどを\n[Ruby 叩;たた]くことができます。"
+  },
+  {
+   "id": "Menu#235",
+   "label": "MES_MenuMes_EventItemE_starvaccine_r",
+   "style": 13,
+   "attr": "00000000",
+   "jp": "[0009:0000:0D 00][Ruby １人目;ひとりめ]の[Ruby 賢者;けんじゃ] イモーヌがもっていた\nワクチン。[Ruby 手;て]に[Ruby 入;い]れるまで[Ruby 長;なが]い[Ruby 道;みち]のりだった…"
+  },
+  {
+   "id": "Menu#236",
+   "label": "MES_MenuMes_EventItemN_buri_cat15",
+   "style": 13,
+   "attr": "00000000",
+   "jp": "[0009:0000:0D 00]ブロキャット"
+  },
+  {
+   "id": "Menu#237",
+   "label": "MES_MesDat_MiniGame_end_info26",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0005:0000:][Color #373737][Ruby 賞品;しょうひん]は[Color #E6E6E6][Color #4ED4FF][0003:0000:00 00 05 00 00 00][Color #E6E6E6][Color #373737]コインと\n[Color #E6E6E6][Color #4ED4FF]おたからゆびわ[Color #E6E6E6][Color #373737]！[Color #E6E6E6][0002:0001:]"
+  },
+  {
+   "id": "Menu#238",
+   "label": "MES_bgm_title_29",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ちょいと強い奴らに要注意！？ DX"
+  },
+  {
+   "id": "Menu#239",
+   "label": "MES_tuto_yo_nice_hige2_badge",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]アタシんとこでは りっぱな\nHIGEの[Ruby 人;ひと]には ボーナスカードを\nあげてるんだけど…[0002:0001:][Next]ボーナスカードの\n[Ruby 説明;せつめい]は[Ruby 必要;ひつよう]かねぇ？[0002:0000:0A 00]\n[0001:0001:][0004:0001:]いいえ[0006:0000:28 00][0004:0001:]はい[0002:0000:0A 00]"
+  },
+  {
+   "id": "Menu#240",
+   "label": "MES_tuto_yo_nice_tsuno5",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]オウ！ ムッシュ～\n[Ruby 最高;さいこう]にステキな TSUNOに\nなりましたね！[0002:0001:]"
+  },
+  {
+   "id": "Menu#241",
+   "label": "MES_tuto_yo_scrratch_tuto_ml3_kinoda",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ボーナスカードの マスを[Ruby 選;えら]んで…[0002:0001:]"
+  },
+  {
+   "id": "Menu#242",
+   "label": "ActGuide_07_3",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00][Color #FF4343][U+E000][Color #E6E6E6]ボタンでコウラを[Ruby 脱;ぬ]ぐことができます。\n[Color #2C64FF]コウラマリオ[Color #E6E6E6]のとき\n[Ruby 他;ほか]のアクションをすることはできません。"
+  },
+  {
+   "id": "Menu#243",
+   "label": "MES_Menu_reitem_01_Ekubon_brilock_shop_06_hur",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 見;み]つけましたか？ はやくミーのもとへ！"
+  },
+  {
+   "id": "Menu#244",
+   "label": "MES_MesDat_MiniGame_end_info27",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0005:0000:][Color #373737][Ruby 賞品;しょうひん]は[Color #E6E6E6][Color #4ED4FF][0003:0000:00 00 05 00 00 00][Color #E6E6E6][Color #373737]コインと\n[Color #E6E6E6][Color #4ED4FF]ほねほねきば[Color #E6E6E6][Color #373737]！[Color #E6E6E6][0002:0001:]"
+  },
+  {
+   "id": "Menu#245",
+   "label": "MES_tuto_yo_nice_tsuno6",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]これからは お[Ruby 買;か]い[Ruby 物;もの]ごとに\nウルトラボーナスカードを\nプレゼント！[0002:0001:][Next][0001:0004:]これまでより アタリが\n[Ruby 出;で]やすくなってますよ！[0002:0001:]"
+  },
+  {
+   "id": "Menu#246",
+   "label": "MES_tuto_yo_scrratch_tuto_ml4_kinoda",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]アタリが[Ruby 出;で]たら…[0002:0001:]"
+  },
+  {
+   "id": "Menu#247",
+   "label": "amiibo_seq_02_a",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00][Ruby amiibo;アミーボ]を[Ruby 読;よ]み[Ruby 込;こ]んでいます。"
+  },
+  {
+   "id": "Menu#248",
+   "label": "BtlGuide_26_0",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00][Color #2C64FF]ボコスカアタック[Color #E6E6E6]を[Ruby 選;えら]ぶと クッパが\nクッパ[Ruby 軍団;ぐんだん]をよびだします。"
+  },
+  {
+   "id": "Menu#249",
+   "label": "MES_EMesOutline_story_def",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00]マリオ＆ルイージ と クッパ（？）の大冒険！"
+  },
+  {
+   "id": "Menu#250",
+   "label": "MES_EMesOutline_story_kj_01",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00]メタコロ病に効くサプリの材料を集めるために クッパJr.が立ち上がった！"
+  },
+  {
+   "id": "Menu#251",
+   "label": "MES_MesDat_MiniGame_end_info28",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0005:0000:][Color #373737][Ruby 賞品;しょうひん]は[Color #E6E6E6][Color #4ED4FF][0003:0000:00 00 05 00 00 00][Color #E6E6E6][Color #373737]コインと\n[Color #E6E6E6][Color #4ED4FF]いかりうでわ[Color #E6E6E6][Color #373737]！[Color #E6E6E6][0002:0001:]"
+  },
+  {
+   "id": "Menu#252",
+   "label": "MES_tuto_yo_nice_hige3_koukyuu",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]お[Ruby 客様;きゃくさま] さらにステキな\nおHIGEに なられましたね。[0002:0001:]"
+  },
+  {
+   "id": "Menu#253",
+   "label": "amiibo_seq_02_b",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00][Ruby amiibo;アミーボ]を[Ruby 読;よ]み[Ruby 込;こ]んでいます。"
+  },
+  {
+   "id": "Menu#254",
+   "label": "BtlGuide_26_1",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]クッパ[Ruby 軍団;ぐんだん]には [Color #2C64FF]タッチペンを[Ruby 使;つか]って[Ruby 指示;しじ][Color #E6E6E6]します。\nボコスカアタックのコマンドブロックを[Ruby 叩;たた]いたら\n[Color #2C64FF]タッチペン[Color #E6E6E6]を[Ruby 準備;じゅんび]しましょう。"
+  },
+  {
+   "id": "Menu#255",
+   "label": "MES_EMesOutline_story_kj_02",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00]クッパ軍団の教え（？）を受けながら サプリの材料を求めて進むクッパJr."
+  },
+  {
+   "id": "Menu#256",
+   "label": "MES_MenuMes_EventItemE_mkiller",
+   "style": 13,
+   "attr": "00000000",
+   "jp": "[0009:0000:0D 00][Ruby 大;おお]きくてくろびかりした スッゴイやつ！\nこれをはっしゃされたら ひとたまりもない！"
+  },
+  {
+   "id": "Menu#257",
+   "label": "MES_MenuMes_EventItemN_green_key",
+   "style": 13,
+   "attr": "00000000",
+   "jp": "[0009:0000:0D 00]緑のカギ"
+  },
+  {
+   "id": "Menu#258",
+   "label": "MES_MesDat_MiniGame_end_info29",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0005:0000:][Color #373737][Ruby 賞品;しょうひん]は[Color #E6E6E6][Color #4ED4FF][0003:0000:00 00 05 00 00 00][Color #E6E6E6][Color #373737]コインと\n[Color #E6E6E6][Color #4ED4FF]ごうかいゆびわ[Color #E6E6E6][Color #373737]！[Color #E6E6E6][0002:0001:]"
+  },
+  {
+   "id": "Menu#259",
+   "label": "MES_bgm_title_19_legacy",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]うばわれたクッパ城"
+  },
+  {
+   "id": "Menu#260",
+   "label": "MES_tuto_yo_scrratch_tuto_no_k",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]オウ そうですか。\nそれでは さっそく ショッピング！[0002:0001:][Next]ア～ンド ボーナスカードに\nチャレンジしてみてください。[0002:0001:]"
+  },
+  {
+   "id": "Menu#261",
+   "label": "SoloHammer_L_00_0",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]ハンマーを[Ruby 振;ふ]りかぶったら [Color #00BB27][U+E001][Color #E6E6E6]ボタン！\n[Ruby 成功;せいこう]させて [Color #2C64FF]Excellent[Color #E6E6E6] を[Ruby 狙;ねら]い[Color #E6E6E6]ましょう。[Color #E6E6E6]"
+  },
+  {
+   "id": "Menu#262",
+   "label": "ActGuide_14_0",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]クッパが[Ruby 行;おこな]えるアクションです。"
+  },
+  {
+   "id": "Menu#263",
+   "label": "BtlGuide_26_2",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]ボコスカアタックを[Ruby 使;つか]うと BPを[Ruby 消費;しょうひ]します。\nアイテムの「[Color #2C64FF]チーズ[Color #E6E6E6]」などで [Ruby 回復;かいふく]しましょう。"
+  },
+  {
+   "id": "Menu#264",
+   "label": "MES_EMesOutline_story_kj_03",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00]サプリの材料の１つ ギガニンジンを求めてエクボンの森へ向かうクッパJr.達。しかし背後に怪しい影が…"
+  },
+  {
+   "id": "Menu#265",
+   "label": "MES_MenuMes_EventItemN_pazzle1",
+   "style": 13,
+   "attr": "00000000",
+   "jp": "[0009:0000:0D 00]パズルピース１"
+  },
+  {
+   "id": "Menu#266",
+   "label": "MES_bgm_title_33_legacy",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ザ・ジャイアント"
+  },
+  {
+   "id": "Menu#267",
+   "label": "SoloJump_M_00_0",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]ふみつける[Ruby 時;とき]に[Color #FF4343][U+E000][Color #E6E6E6]ボタン。[Ruby 成功;せいこう]したら もう１[Ruby 回;かい]！\nすべて[Ruby 成功;せいこう]させて [Color #2C64FF]Excellent[Color #E6E6E6] を[Ruby 狙;ねら]いましょう。"
+  },
+  {
+   "id": "Menu#268",
+   "label": "ActGuide_05_0",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]マリオとルイージが[Ruby ２人;ふたり]いっしょにいるときに\n[Ruby 行;おこな]えるアクションです。"
+  },
+  {
+   "id": "Menu#269",
+   "label": "ActGuide_14_1",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]アクションアイコンを「[Color #2C64FF]スパイクボール[Color #E6E6E6]」に\n[Ruby 切;き]り[Ruby 替;か]えて [Color #FF9600][U+E002][Color #E6E6E6]ボタンで[Color #2C64FF]スパイクボール[Color #E6E6E6]を\n[Ruby 行;おこな]うことができます。"
+  },
+  {
+   "id": "Menu#270",
+   "label": "MES_EMesOutline_story_kj_04",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00]突然襲ってきたクッパ軍団… 乱れつつあるチームワーク… 不安がつのるクッパJr.達の旅…"
+  },
+  {
+   "id": "Menu#271",
+   "label": "MES_EMesPlace_place1",
+   "style": 13,
+   "attr": "00000000",
+   "jp": "[0009:0000:0D 00]ピーチ城"
+  },
+  {
+   "id": "Menu#272",
+   "label": "MES_MenuMes_EventItemN_pazzle2",
+   "style": 13,
+   "attr": "00000000",
+   "jp": "[0009:0000:0D 00]パズルピース２"
+  },
+  {
+   "id": "Menu#273",
+   "label": "MES_bgm_title_01_legacy",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]新しい冒険へ！"
+  },
+  {
+   "id": "Menu#274",
+   "label": "MES_bgm_title_34_legacy",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]The Winner is…"
+  },
+  {
+   "id": "Menu#275",
+   "label": "ActGuide_05_1",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]アクションアイコンを 「ハンマー」に[Ruby 切;き]り[Ruby 替;か]えて\n[Color #00BB27][U+E001][Color #E6E6E6]ボタンを[Ruby 押;お]せば マリオを[Color #2C64FF]ちびマリオ[Color #E6E6E6]にできます。"
+  },
+  {
+   "id": "Menu#276",
+   "label": "ActGuide_14_2",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00][Color #2C64FF]スパイクボール[Color #E6E6E6]を[Ruby 行;おこな]うとクッパが[Ruby 丸;まる]まります。\n[Color #2C64FF][U+E077][Color #E6E6E6]で[Ruby 移動;いどう]することができます。"
+  },
+  {
+   "id": "Menu#277",
+   "label": "FldGuide_09_0",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00][Color #2C64FF]くぼみ[Color #E6E6E6]のあるマップは[Color #2C64FF][Ruby 左上;ひだりうえ]にアイコン[Color #E6E6E6]がつきます。\nマップ[Ruby 内;ない]のくぼみを[Ruby 全;すべ]て[Ruby 取;と]ると[Ruby 消;き]えます。"
+  },
+  {
+   "id": "Menu#278",
+   "label": "MES_EMesColosseum_class_4_enemy",
+   "style": 1,
+   "attr": "00000000",
+   "jp": "[0009:0000:01 00]クッパメモリーMLX"
+  },
+  {
+   "id": "Menu#279",
+   "label": "MES_EMesOutline_story_kj_05",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00]ギガニンジンを手に入れた！ しかしクッパJr.から次々に離れていく７人衆…"
+  },
+  {
+   "id": "Menu#280",
+   "label": "MES_EMesPlace_place2",
+   "style": 13,
+   "attr": "00000000",
+   "jp": "[0009:0000:0D 00]エクボンの森"
+  },
+  {
+   "id": "Menu#281",
+   "label": "MES_MenuMes_EventItemE_birinpa",
+   "style": 13,
+   "attr": "00000000",
+   "jp": "[0009:0000:0D 00]いわゆるビリビリしてそうなアレ。こんな\nビリビリしてそうなものは どこで[Ruby 使;つか]うんだっけ？"
+  },
+  {
+   "id": "Menu#282",
+   "label": "MES_MenuMes_EventItemN_pazzle3",
+   "style": 13,
+   "attr": "00000000",
+   "jp": "[0009:0000:0D 00]パズルピース３"
+  },
+  {
+   "id": "Menu#283",
+   "label": "MES_tuto_yo_scrratch_tuto_no_ml",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]さすが マリオさんと ルイージさん\nものしりですね！[0002:0001:][Next]それでは お[Ruby 買;か]い[Ruby 物;もの]を\nお[Ruby 楽;たの]しみください～[0002:0001:]"
+  },
+  {
+   "id": "Menu#284",
+   "label": "ActGuide_05_2",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]ちびマリオなら [Ruby 小;ちい]さなすきまを[Ruby 通;とお]りぬけて\n[Ruby １人;ひとり]で[Ruby 行動;こうどう]することができます。"
+  },
+  {
+   "id": "Menu#285",
+   "label": "ActGuide_14_3",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]やわらかい[Ruby 壁;かべ]にトゲを[Ruby 刺;さ]してのぼったり\nトゲトゲの[Ruby 床;ゆか]でも[Ruby 通;とお]れるようになります。"
+  },
+  {
+   "id": "Menu#286",
+   "label": "MES_EMesOutline_story_kj_06",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00]ゲプーキュウコンを手に入れた！ サプリの材料は残りあと１つ！"
+  },
+  {
+   "id": "Menu#287",
+   "label": "MES_EMesPlace_place3",
+   "style": 13,
+   "attr": "00000000",
+   "jp": "[0009:0000:0D 00]ゲプー岬"
+  },
+  {
+   "id": "Menu#288",
+   "label": "MES_MenuMes_EventItemE_starvaccine_y",
+   "style": 13,
+   "attr": "00000000",
+   "jp": "[0009:0000:0D 00]クッパ[Ruby 城;じょう]にあった ２つ[Ruby 目;め]のワクチン。\nクッパがのみこんだおかげで ベッタベタ～！"
+  },
+  {
+   "id": "Menu#289",
+   "label": "MES_MenuMes_EventItemN_pazzle4",
+   "style": 13,
+   "attr": "00000000",
+   "jp": "[0009:0000:0D 00]パズルピース４"
+  },
+  {
+   "id": "Menu#290",
+   "label": "MES_MenuMes_EventItemN_starvaccine_g",
+   "style": 13,
+   "attr": "00000000",
+   "jp": "[0009:0000:0D 00]スターワクチン緑"
+  },
+  {
+   "id": "Menu#291",
+   "label": "MES_tuto_yo_nice_hige6_badge",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]これからは [Ruby 買;か]い[Ruby 物;もの]ごとに\nウルトラボーナスカードを\nあげようかね！[0002:0001:][Next][0001:0004:]これまでより アタリが\n[Ruby 出;で]やすくなってるよ！[0002:0001:]"
+  },
+  {
+   "id": "Menu#292",
+   "label": "amiibo_seq_05_a_1",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00]マリオがアイテムを[Ruby 持;も]ってきてくれました！"
+  },
+  {
+   "id": "Menu#293",
+   "label": "ActGuide_05_3",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]マリオが[Ruby １人;ひとり]で[Ruby 行動;こうどう]しているとき\nルイージを[Ruby 操作;そうさ]することはできません。"
+  },
+  {
+   "id": "Menu#294",
+   "label": "ActGuide_14_4",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]ブロックや[Ruby 銅像;どうぞう]などを\n[Ruby 転;ころ]がりながら[Ruby 壊;こわ]すこともできます。"
+  },
+  {
+   "id": "Menu#295",
+   "label": "MES_EMesOutline_story_kj_07",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00]マンネンアイスを手に入れた！ ３つの材料を持ってヅツーダレイクへ！"
+  },
+  {
+   "id": "Menu#296",
+   "label": "MES_EMesPlace_place4",
+   "style": 13,
+   "attr": "00000000",
+   "jp": "[0009:0000:0D 00]ムッシーバビーチ"
+  },
+  {
+   "id": "Menu#297",
+   "label": "MES_bgm_title_40",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]これがボコスカバトル！"
+  },
+  {
+   "id": "Menu#298",
+   "label": "SpAtk_08_0",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00][U+E077]で[Color #2C64FF]イエロースター[Color #E6E6E6]が[Ruby 変身;へんしん]した\n[Color #2C64FF][Ruby 目印;めじるし][Color #E6E6E6]を[Ruby 動;うご]かして [Ruby 上画面;うえがめん] を[Ruby 移動;いどう]する\n[Ruby 大;おお]きなスターを [Ruby 追;お]いかけましょう。"
+  },
+  {
+   "id": "Menu#299",
+   "label": "amiibo_seq_05_a_2",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00]ルイージがアイテムを[Ruby 持;も]ってきてくれました！"
+  },
+  {
+   "id": "Menu#300",
+   "label": "ActGuide_05_4",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]マリオとルイージが[Ruby ２人;ふたり]いっしょにいるときに\nもう[Ruby 一度;いちど][Color #00BB27][U+E001][Color #E6E6E6]ボタンを[Ruby 押;お]すと\nちびマリオから [Ruby 元;もと]に[Ruby 戻;もど]せます。"
+  },
+  {
+   "id": "Menu#301",
+   "label": "BtlGuide_24_0",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]モンスターの[Ruby 攻撃;こうげきちゅう]中[Color #FF9600] [U+E002][Color #E6E6E6]ボタンを[Ruby 押;お]すと\n[Color #2C64FF]パンチ[Color #E6E6E6]します。"
+  },
+  {
+   "id": "Menu#302",
+   "label": "MES_EMesOutline_story_kj_08",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00]仲間の大切さを強く感じたクッパJr.　奪われたサプリと離れていった仲間を探しに 今また旅立つ！"
+  },
+  {
+   "id": "Menu#303",
+   "label": "MES_EMesPlace_place5",
+   "style": 13,
+   "attr": "00000000",
+   "jp": "[0009:0000:0D 00]クッパ城へ続く道"
+  },
+  {
+   "id": "Menu#304",
+   "label": "MES_bgm_title_41",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]クッパ軍団 行進曲"
+  },
+  {
+   "id": "Menu#305",
+   "label": "MES_tuto_yo_scrratch_tuto_end_ml_kinoda",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]それでは お[Ruby 買;か]い[Ruby 物;もの]を\nお[Ruby 楽;たの]しみください～[0002:0001:]"
+  },
+  {
+   "id": "Menu#306",
+   "label": "MES_tuto_yo_scrratch_tuto_ml2_koukyuu",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]これがボーナスカードです。[0002:0001:][Next]ボーナスカードは [Ruby 買;か]い[Ruby 物;もの]ごとに\n１まい さしあげております。[0002:0001:]"
+  },
+  {
+   "id": "Menu#307",
+   "label": "SpAtk_08_1",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00][Ruby 大;おお]きいスターが[Color #FF4343][Ruby 赤;あか][Color #E6E6E6]なら[Color #FF4343][U+E000][Color #E6E6E6] [Color #00BB27][Ruby 緑;みどり][Color #E6E6E6]なら[Color #00BB27][U+E001][Color #E6E6E6]を[Ruby 押;お]して\n[Ruby 小;ちい]さいスターを[Ruby 投;な]げ [Ruby 大;おお]きいスターにくっつけます。\n[Color #2C64FF][Ruby 目印;めじるし][Color #E6E6E6]が[Ruby 光;ひか]った[Ruby 時;とき]に[Ruby 投;な]げると [Ruby 当;あ]たりやすくなります。"
+  },
+  {
+   "id": "Menu#308",
+   "label": "amiibo_seq_05_a_3",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00]ピーチ[Ruby 姫;ひめ]がアイテムを[Ruby 持;も]ってきてくれました！"
+  },
+  {
+   "id": "Menu#309",
+   "label": "BtlGuide_24_1",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]モンスターの[Ruby 体当;たいあ]たりを [Ruby 止;と]めたり\n[Ruby 飛;と]んできたものを [Ruby 打;う]ち[Ruby 落;お]とせます。"
+  },
+  {
+   "id": "Menu#310",
+   "label": "MES_EMesOutline_story_kj_09",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00]記憶をなくしていたイギーがクッパ軍団に戻ってきた！ イカス―！ あと６人！"
+  },
+  {
+   "id": "Menu#311",
+   "label": "MES_EMesPlace_place10",
+   "style": 13,
+   "attr": "00000000",
+   "jp": "[0009:0000:0D 00]ヅツーダレイク"
+  },
+  {
+   "id": "Menu#312",
+   "label": "MES_EMesPlace_place6",
+   "style": 13,
+   "attr": "00000000",
+   "jp": "[0009:0000:0D 00]クッパ城"
+  },
+  {
+   "id": "Menu#313",
+   "label": "MES_record_btl_num",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]バトル回数"
+  },
+  {
+   "id": "Menu#314",
+   "label": "MES_tuto_yo_bad_tsuno1",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]オウ！ ムッシュ～\nワッツハップ～ン！？[0002:0001:][Next]ミーの[Ruby 目;め]が\nクラウディなのでしょうか？[0002:0001:][Next]ムッシュ～の TSUNO\n[Ruby 前;まえ]より チープなようです！[0002:0001:]"
+  },
+  {
+   "id": "Menu#315",
+   "label": "MES_tuto_yo_scrratch_tuto_ml1",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]コホン それでは\n[Ruby 説明;せつめい]しますね。[0002:0001:]"
+  },
+  {
+   "id": "Menu#316",
+   "label": "SpAtk_08_2",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00][Ruby 小;ちい]さいスターをくっつけた[Ruby 数;かず]が[Ruby 多;おお]いほど\nモンスターに[Ruby 与;あた]えるダメージがアップするので\nボタンを[Ruby 連打;れんだ]して どんどんくっつけましょう。"
+  },
+  {
+   "id": "Menu#317",
+   "label": "amiibo_seq_05_a_4",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00]キノピオがアイテムを[Ruby 持;も]ってきてくれました！"
+  },
+  {
+   "id": "Menu#318",
+   "label": "ActGuide_12_0",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]クッパが[Ruby 行;おこな]えるアクションです。"
+  },
+  {
+   "id": "Menu#319",
+   "label": "MES_EMesPlace_place11",
+   "style": 13,
+   "attr": "00000000",
+   "jp": "[0009:0000:0D 00]オタプク草原"
+  },
+  {
+   "id": "Menu#320",
+   "label": "MES_EMesPlace_place7",
+   "style": 13,
+   "attr": "00000000",
+   "jp": "[0009:0000:0D 00]地下トンネル"
+  },
+  {
+   "id": "Menu#321",
+   "label": "MES_tuto_yo_bad_tsuno2",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 残念;ざんねん]ですが これでは\nボーナスカードは\nプレゼントできません。[0002:0001:]"
+  },
+  {
+   "id": "Menu#322",
+   "label": "MES_tuto_yo_nice_hige1_kinoda",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]おや！ お[Ruby 客;きゃく]さん！\nりっぱな HIGEですね！[0002:0001:]"
+  },
+  {
+   "id": "Menu#323",
+   "label": "MES_tuto_yo_scrratch_tuto_ml2",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]これがボーナスカードです。[0002:0001:][Next]ボーナスカードは [Ruby 買;か]い[Ruby 物;もの]ごとに\n１まい さしあげております。[0002:0001:]"
+  },
+  {
+   "id": "Menu#324",
+   "label": "amiibo_seq_05_a_5",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00]クッパがアイテムを[Ruby 持;も]ってきてくれました！"
+  },
+  {
+   "id": "Menu#325",
+   "label": "ActGuide_03_0",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]マリオが[Ruby 行;おこな]えるアクションです。"
+  },
+  {
+   "id": "Menu#326",
+   "label": "ActGuide_12_1",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]アクションアイコンを「[Color #2C64FF]パンチ[Color #E6E6E6]」に[Ruby 切;き]り[Ruby 替;か]えて\nクッパが[Ruby 歩;ある]いているときに[Color #FF9600][U+E002][Color #E6E6E6]ボタンを[Ruby 押;お]すと\n[Color #2C64FF]スライディングパンチ[Color #E6E6E6]をすることができます。"
+  },
+  {
+   "id": "Menu#327",
+   "label": "MES_EMesPlace_place12",
+   "style": 13,
+   "attr": "00000000",
+   "jp": "[0009:0000:0D 00]ガラクタスペース"
+  },
+  {
+   "id": "Menu#328",
+   "label": "MES_EMesPlace_place8",
+   "style": 13,
+   "attr": "00000000",
+   "jp": "[0009:0000:0D 00]キノコタウン"
+  },
+  {
+   "id": "Menu#329",
+   "label": "MES_tuto_yo_bad_tsuno3",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 残念;ざんねん]ですが これでは\nスーパーボーナスカードは\nプレゼントできません。[0002:0001:][Next]バット！ [Ruby 安心;あんしん]してください！\nノーマルボーナスカードは\nプレゼントできます！[0002:0001:]"
+  },
+  {
+   "id": "Menu#330",
+   "label": "MES_tuto_yo_nice_hige2_kinoda",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]この[Ruby 店;みせ]では りっぱな\nHIGEの[Ruby 人;ひと]に ボーナスカードを\nあげているんですが…[0002:0001:][Next]ボーナスカードの\n[Ruby 説明;せつめい]は[Ruby 必要;ひつよう]ですかね？[0002:0000:0A 00]\n[0001:0001:][0004:0001:]いいえ[0006:0000:28 00][0004:0001:]はい[0002:0000:0A 00]"
+  },
+  {
+   "id": "Menu#331",
+   "label": "MES_tuto_yo_scrratch_tuto_ml3",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ボーナスカードの マスを[Ruby 選;えら]んで…[0002:0001:]"
+  },
+  {
+   "id": "Menu#332",
+   "label": "amiibo_seq_05_a_6",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00]クッパJr.がアイテムを[Ruby 持;も]ってきてくれました！"
+  },
+  {
+   "id": "Menu#333",
+   "label": "ActGuide_03_1",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]アクションアイコンを「[Color #2C64FF]ハンマー[Color #E6E6E6]」にきりかえて\n[Color #FF4343][U+E000][Color #E6E6E6]ボタンでハンマーを[Ruby 振;ふ]ることができます。"
+  },
+  {
+   "id": "Menu#334",
+   "label": "ActGuide_12_2",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]パンチでは[Ruby 壊;こわ]せないカタい[Ruby 岩;いわ]などを[Ruby 壊;こわ]したり\nちょっとした[Ruby 溝;みぞ]でも[Ruby 通;とお]りこせるようになります。"
+  },
+  {
+   "id": "Menu#335",
+   "label": "FldGuide_07_0",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]「[Color #2C64FF]セーブブロック[Color #E6E6E6]」や「[Color #2C64FF][Ruby 一部;いちぶ]のヘモグロびん[Color #E6E6E6]」を\n[Ruby 叩;たた]くと セーブすることができます。"
+  },
+  {
+   "id": "Menu#336",
+   "label": "MES_EMesPlace_place13",
+   "style": 13,
+   "attr": "00000000",
+   "jp": "[0009:0000:0D 00]オドロキボーン"
+  },
+  {
+   "id": "Menu#337",
+   "label": "MES_EMesPlace_place9",
+   "style": 13,
+   "attr": "00000000",
+   "jp": "[0009:0000:0D 00]イビッキタワー"
+  },
+  {
+   "id": "Menu#338",
+   "label": "MES_MenuMes_EventItemE_blue_key",
+   "style": 13,
+   "attr": "00000000",
+   "jp": "[0009:0000:0D 00]ピーチ[Ruby 城;じょう]の ２かいにある\n[Ruby 青;あお]のトビラを あけるためのカギ。"
+  },
+  {
+   "id": "Menu#339",
+   "label": "MES_Menu_reitem_01_Ekubon_brilock_shop_06_20",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]これこそ いやしのきわみですね！"
+  },
+  {
+   "id": "Menu#340",
+   "label": "MES_bgm_title_07_legacy",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]I'm the rule！"
+  },
+  {
+   "id": "Menu#341",
+   "label": "MES_tuto_yo_bad_hige3_kinoda",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]これでは [Ruby 残念;ざんねん]ながら\nスーパーボーナスカードは\nプレゼントできないね…[0002:0001:][Next]でも [Ruby 安心;あんしん]してください。\nノーマルボーナスカードは\nプレゼントしますから！[0002:0001:]"
+  },
+  {
+   "id": "Menu#342",
+   "label": "MES_tuto_yo_bad_tsuno4",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 残念;ざんねん]ですが これでは\nウルトラボーナスカードは\nプレゼントできません。[0002:0001:][Next]バット！ [Ruby 安心;あんしん]してください！\nスーパーボーナスカードは\nプレゼントできます！[0002:0001:]"
+  },
+  {
+   "id": "Menu#343",
+   "label": "MES_tuto_yo_nice_hige3_kinoda",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]やや！ お[Ruby 客;きゃく]さん！\nさらにステキな HIGEに\nなりましたね！[0002:0001:]"
+  },
+  {
+   "id": "Menu#344",
+   "label": "MES_tuto_yo_scrratch_tuto_ml4",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]アタリが[Ruby 出;で]たら…[0002:0001:]"
+  },
+  {
+   "id": "Menu#345",
+   "label": "amiibo_seq_05_a_7",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00]クリボーがアイテムを[Ruby 持;も]ってきてくれました！"
+  },
+  {
+   "id": "Menu#346",
+   "label": "ActGuide_03_2",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]スイッチを[Ruby 押;お]したり [Ruby 様々;さまざま]な[Ruby 使;つか]い[Ruby 方;かた]ができます。\nいろいろな[Ruby 場所;ばしょ]で [Ruby 使;つか]ってみましょう。"
+  },
+  {
+   "id": "Menu#347",
+   "label": "FldGuide_07_1",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]ゲームオーバーになって タイトルへ[Ruby 戻;もど]ると\n[Ruby 最後;さいご]にセーブをした[Ruby 場所;ばしょ]からの[Ruby 再開;さいかい]になります。"
+  },
+  {
+   "id": "Menu#348",
+   "label": "MES_EMesPlace_place14",
+   "style": 13,
+   "attr": "00000000",
+   "jp": "[0009:0000:0D 00]ファイアパイプ"
+  },
+  {
+   "id": "Menu#349",
+   "label": "MES_Menu_reitem_01_Ekubon_brilock_shop_06_21",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]プリティー ビューティー キューティー！"
+  },
+  {
+   "id": "Menu#350",
+   "label": "MES_bgm_title_08_legacy",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ハチャメチャMusic"
+  },
+  {
+   "id": "Menu#351",
+   "label": "MES_bgm_title_21_legacy",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]あの草原をどこまでも"
+  },
+  {
+   "id": "Menu#352",
+   "label": "MES_tuto_yo_bad_hige4_kinoda",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]これでは [Ruby 残念;ざんねん]ですが\nウルトラボーナスカードは\nプレゼントできないね…[0002:0001:][Next]でも [Ruby 安心;あんしん]してください。\nスーパーボーナスカードは\nプレゼントしますから！[0002:0001:]"
+  },
+  {
+   "id": "Menu#353",
+   "label": "MES_tuto_yo_bad_tsuno3_bdog_1",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ガルルル ガウ ガウ！\n（スーパーボーナスカード\n[Ruby 残念;ざんねん] あげない。）[0002:0001:]"
+  },
+  {
+   "id": "Menu#354",
+   "label": "MES_tuto_yo_scrratch_tuto_ml5",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]お[Ruby 買;か]い[Ruby 物;もの]で [Ruby 使;つか]ったコインの\n[Ruby 一部;いちぶ]が もどってくる…[0002:0001:][Next][0001:0004:]という しくみになっております。[0002:0001:]"
+  },
+  {
+   "id": "Menu#355",
+   "label": "SpAtk_15_0",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00][Color #2C64FF][Ruby 泡;あわ]まみれになったブロドッグをこする[Color #E6E6E6]と [Ruby 泡;あわ]が[Ruby 落;お]ちて\nきれいになっていきます。"
+  },
+  {
+   "id": "Menu#356",
+   "label": "amiibo_seq_05_a_8",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00]ノコノコがアイテムを[Ruby 持;も]ってきてくれました！"
+  },
+  {
+   "id": "Menu#357",
+   "label": "FldGuide_07_2",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]セーブができる[Ruby 場所;ばしょ]があったら\nこまめに セーブをしましょう。"
+  },
+  {
+   "id": "Menu#358",
+   "label": "MES_EMesPlace_place15",
+   "style": 13,
+   "attr": "00000000",
+   "jp": "[0009:0000:0D 00]しんけいスポット"
+  },
+  {
+   "id": "Menu#359",
+   "label": "MES_Menu_reitem_01_Ekubon_brilock_shop_06_22",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]も～！ [Ruby 食;た]べちゃいたいです！"
+  },
+  {
+   "id": "Menu#360",
+   "label": "MES_bgm_title_22_legacy",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]Area of dark"
+  },
+  {
+   "id": "Menu#361",
+   "label": "MES_setting_ruby",
+   "style": 5,
+   "attr": "00000000",
+   "jp": "[0009:0000:05 00]メッセージにふりがな"
+  },
+  {
+   "id": "Menu#362",
+   "label": "MES_tuto_yo_bad_hige4_badge",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]これじゃ [Ruby 残念;ざんねん]だけど\nウルトラボーナスカードは\nプレゼントできないね…[0002:0001:][Next][0001:0004:]スーパーボーナスカードなら\nプレゼントできるけどね。[0002:0001:]"
+  },
+  {
+   "id": "Menu#363",
+   "label": "MES_tuto_yo_bad_tsuno3_bdog_2",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ガウ ガウ ガガガウ ガウ。\n（でも [Ruby 安心;あんしん] あげる。\nノーマルボーナスカード。）[0002:0001:]"
+  },
+  {
+   "id": "Menu#364",
+   "label": "MES_tuto_yo_bad_tsuno4_bdog_1",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ガルルル ガウ ガウ！\n（ウルトラボーナスカード\n[Ruby 残念;ざんねん] あげない。）[0002:0001:]"
+  },
+  {
+   "id": "Menu#365",
+   "label": "MES_tuto_yo_scrratch_tuto_ml6",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ボーナスカードのしくみ\nおわかり いただけましたか？[0002:0000:0A 00]\n[0001:0001:][0004:0001:]いいえ[0006:0000:28 00][0004:0001:]はい[0002:0000:0A 00]"
+  },
+  {
+   "id": "Menu#366",
+   "label": "SpAtk_06_0",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]バスケットから[Ruby 飛;と]び[Ruby 出;だ]したスイーツが\nふってくるので ルイージを[Color #2C64FF][U+E077]の[Ruby 左右;さゆう][Color #E6E6E6]で[Ruby 動;うご]かし\nどんどん[Ruby 食;た]べさせます。"
+  },
+  {
+   "id": "Menu#367",
+   "label": "SpAtk_15_1",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]ブロドッグをきれいにするほど\nアタックのダメージがアップするので\n[Ruby 全身;ぜんしん]をまんべんなく こすりましょう。"
+  },
+  {
+   "id": "Menu#368",
+   "label": "amiibo_seq_05_a_9",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00]テレサがアイテムを[Ruby 持;も]ってきてくれました！"
+  },
+  {
+   "id": "Menu#369",
+   "label": "BtlGuide_22_0",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00][Color #2C64FF]パンチ[Color #E6E6E6]を[Ruby 選;えら]べば クッパがパンチで[Ruby 攻撃;こうげき]して\nモンスターに ダメージを[Ruby 与;あた]えられます。"
+  },
+  {
+   "id": "Menu#370",
+   "label": "MES_EMesPlace_place16",
+   "style": 13,
+   "attr": "00000000",
+   "jp": "[0009:0000:0D 00]プレスタワー"
+  },
+  {
+   "id": "Menu#371",
+   "label": "MES_MenuMes_EventItemN_kinoko_capsule",
+   "style": 13,
+   "attr": "00000000",
+   "jp": "[0009:0000:0D 00]キノコボール"
+  },
+  {
+   "id": "Menu#372",
+   "label": "MES_Menu_reitem_01_Ekubon_brilock_shop_06_23",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]こんにちは～ ブロキャットちゃ～ん！"
+  },
+  {
+   "id": "Menu#373",
+   "label": "MES_menu_tuto_badge_change_badge_effect",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]メーターを\n[Ruby 発動;はつどう]した[Ruby 時;とき]の [Ruby 効果;こうか]は…[0002:0001:]"
+  },
+  {
+   "id": "Menu#374",
+   "label": "MES_tuto_yo_bad_hige1",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]マリオさん！ ルイージさん！\nどうしたんですか！？\nHIGEが [Ruby 前;まえ]よりヨレヨレですよ！[0002:0001:]"
+  },
+  {
+   "id": "Menu#375",
+   "label": "MES_tuto_yo_bad_tsuno4_bdog_2",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ガウ ガウ ガガガウ ガウ。\n（でも [Ruby 安心;あんしん] あげる。\nスーパーボーナスカード。）[0002:0001:]"
+  },
+  {
+   "id": "Menu#376",
+   "label": "MES_tuto_yo_scrratch_tuto_ml7",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]それでは もう１[Ruby 度;ど]\n[Ruby 説明;せつめい]させていただきます。[0002:0001:]"
+  },
+  {
+   "id": "Menu#377",
+   "label": "SpAtk_06_1",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]スイーツを[Ruby 食;た]べて[Ruby 太;ふと]ったルイージが マリオの[Ruby 上;うえ]に\n[Ruby 移動;いどう]したら [Color #FF4343][U+E000][Color #E6E6E6][Ruby 連打;れんだ]で[Ruby 持;も]ち[Ruby 上;あ]げ [Ruby 真上;まうえ]に[Ruby 高;たか]く\n[Ruby 投;な]げ[Ruby 飛;と]ばします。"
+  },
+  {
+   "id": "Menu#378",
+   "label": "BtlGuide_18_0",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]ブラザーアタックやボコスカアタックが\n[Ruby 難;むずか]しい[Ruby 時;とき]は [Color #2C64FF]かんたんアタックモード[Color #E6E6E6]を\n[Ruby 選;えら]んでみましょう。"
+  },
+  {
+   "id": "Menu#379",
+   "label": "BtlGuide_22_1",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00][Ruby 飛;と]んでいるモンスターには\nとどかないので [Ruby 注意;ちゅうい]しましょう。"
+  },
+  {
+   "id": "Menu#380",
+   "label": "MES_EMesPlace_place17",
+   "style": 13,
+   "attr": "00000000",
+   "jp": "[0009:0000:0D 00]どかんひろば"
+  },
+  {
+   "id": "Menu#381",
+   "label": "MES_Menu_reitem_01_Ekubon_brilock_shop_06_24",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]オウ！ [Ruby 今;いま]！ [Ruby 顔;かお]をペロペロしましたよ！"
+  },
+  {
+   "id": "Menu#382",
+   "label": "MES_tuto_yo_bad_hige2",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]これでは ボーナスカードは\nプレゼントできませんね…[0002:0001:]"
+  },
+  {
+   "id": "Menu#383",
+   "label": "SpAtk_06_2",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]ルイージが[Ruby 空中;くうちゅう]でジタバタしはじめたら\n[Color #00BB27][U+E001][Color #E6E6E6]を[Ruby 押;お]してボディプレス！\nルイージの[Ruby 太;ふと]りぐあいでダメージと[Ruby 評価;ひょうか]が[Ruby 変化;へんか]！"
+  },
+  {
+   "id": "Menu#384",
+   "label": "ActGuide_10_0",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]クッパが[Ruby 行;おこな]えるアクションです。"
+  },
+  {
+   "id": "Menu#385",
+   "label": "BtlGuide_09_0",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]モンスターを[Ruby 全滅;ぜんめつ]させて バトルに[Ruby 勝利;しょうり]すれば\nマリオ[Ruby 達;たち]の [Color #2C64FF]EXP[Color #E6E6E6]がたまっていきます。\nある[Ruby 程度;ていど]たまれば [Color #2C64FF]レベル[Color #E6E6E6]が[Ruby 上;あ]がります。"
+  },
+  {
+   "id": "Menu#386",
+   "label": "BtlGuide_18_1",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00][Ruby 消費;しょうひ]BPが [Ruby 少;すこ]しだけ[Ruby 増;ふ]える[Ruby 代;か]わりに\nタイミングが[Ruby 成功;せいこう]しやすくなります。"
+  },
+  {
+   "id": "Menu#387",
+   "label": "MES_EMesColosseum_guide_turn_clear_00",
+   "style": 3,
+   "attr": "00000000",
+   "jp": "[0009:0000:03 00]このバトルでは ボスごとにクリアまでに\n[Ruby 必要;ひつよう]なターン[Ruby 数;すう]が [Ruby 決;き]められています。\n"
+  },
+  {
+   "id": "Menu#388",
+   "label": "MES_EMesPlace_place18",
+   "style": 13,
+   "attr": "00000000",
+   "jp": "[0009:0000:0D 00]こしのツボ"
+  },
+  {
+   "id": "Menu#389",
+   "label": "MES_MenuMes_EventItemN_starvaccine_r",
+   "style": 13,
+   "attr": "00000000",
+   "jp": "[0009:0000:0D 00]スターワクチン赤"
+  },
+  {
+   "id": "Menu#390",
+   "label": "MES_Menu_reitem_01_Ekubon_brilock_shop_06_25",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ポリポリするところも たまりませ～ん！"
+  },
+  {
+   "id": "Menu#391",
+   "label": "MES_spatk_00_yo_test_00",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]みどりコウラが\n[Ruby 使;つか]えるようになったわ！[0002:0001:]"
+  },
+  {
+   "id": "Menu#392",
+   "label": "MES_tuto_yo_bad_hige3",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]これでは [Ruby 残念;ざんねん]ですが\nスーパーボーナスカードは\nプレゼントできませんね…[0002:0001:][Next]でも [Ruby 安心;あんしん]してください。\nノーマルボーナスカードは\nプレゼントできますので！[0002:0001:]"
+  },
+  {
+   "id": "Menu#393",
+   "label": "MES_tuto_yo_nice_tsuno4_bdog_1",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ガウ ガウ ガガガウ。\n（[Ruby 買;か]い[Ruby 物;もの]する プレゼント\nスーパーボーナスカード。）[0002:0001:]"
+  },
+  {
+   "id": "Menu#394",
+   "label": "MES_tuto_yo_scrratch_tuto_k7_bdog",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ガルルル… ガウガウ ガウ！\n（しょうがない [Ruby 説明;せつめい] もう１[Ruby 回;かい]！）[0002:0001:]"
+  },
+  {
+   "id": "Menu#395",
+   "label": "SpAtk_06_3",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00][Ruby 光;ひか]るスイーツが[Ruby 落;お]ちてきたら\n[Color #00BB27][U+E001][Color #E6E6E6]でルイージをジャンプさせて [Ruby 食;た]べさせましょう。\nかんたんに [Ruby 太;ふと]らせることができます。"
+  },
+  {
+   "id": "Menu#396",
+   "label": "ActGuide_01_0",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00][Color #2C64FF][U+E004]ボタン[Color #E6E6E6]か[Color #2C64FF][U+E005]ボタン [Color #E6E6E6]を[Ruby 押;お]すことで\nアクションアイコンをきりかえることができます。"
+  },
+  {
+   "id": "Menu#397",
+   "label": "ActGuide_10_1",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]アクションアイコンを「[Color #2C64FF]パンチ[Color #E6E6E6]」に[Ruby 切;き]り[Ruby 替;か]えて\n[Color #FF9600][U+E002][Color #E6E6E6]ボタンでパンチをすることができます。"
+  },
+  {
+   "id": "Menu#398",
+   "label": "BtlGuide_09_1",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]レベルが[Ruby 上;あ]がると [Ruby 与;あた]えるダメージが[Ruby 上;あ]がったり\nマリオ[Ruby 達;たち]の HPが[Ruby 増;ふ]えたりして\nモンスターを [Ruby 倒;たお]しやすくなります。"
+  },
+  {
+   "id": "Menu#399",
+   "label": "BtlGuide_18_2",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]かんたんアタックモードを [Ruby 使;つか]うには\nアタックを[Ruby 選;えら]んでいる[Ruby 時;とき]に [Color #2C64FF][U+E003][Color #E6E6E6]ボタンを[Ruby 押;お]します。"
+  },
+  {
+   "id": "Menu#400",
+   "label": "MES_EMesColosseum_guide_turn_clear_01",
+   "style": 3,
+   "attr": "00000000",
+   "jp": "[0009:0000:03 00]たとえば クリアターン[Ruby 数;すう]が\n１０と[Ruby 決;き]められたボスは\n１０ターン[Ruby 内;ない]で [Ruby 倒;たお]さないと\nチャレンジ[Ruby 失敗;しっぱい]となります。"
+  },
+  {
+   "id": "Menu#401",
+   "label": "MES_EMesPlace_place19",
+   "style": 13,
+   "attr": "00000000",
+   "jp": "[0009:0000:0D 00]きおくそうこ"
+  },
+  {
+   "id": "Menu#402",
+   "label": "MES_menu_tuto_badge_change_farst",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]まずは 「バッジ」を [Ruby 選;えら]びな！[0002:0001:]"
+  },
+  {
+   "id": "Menu#403",
+   "label": "MES_record_escape_num",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]逃げた回数"
+  },
+  {
+   "id": "Menu#404",
+   "label": "MES_spatk_00_yo_test_01",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ファイアフラワーが\n[Ruby 使;つか]えるようになったわ！[0002:0001:]"
+  },
+  {
+   "id": "Menu#405",
+   "label": "MES_tuto_yo_bad_hige4",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]これでは [Ruby 残念;ざんねん]ですが\nウルトラボーナスカードは\nプレゼントできませんね…[0002:0001:][Next]でも [Ruby 安心;あんしん]してください！\nスーパーボーナスカードは\nプレゼントできますので！[0002:0001:]"
+  },
+  {
+   "id": "Menu#406",
+   "label": "MES_tuto_yo_nice_tsuno4_bdog_2",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ガウ ガウ ガウ。\n（アタリ [Ruby 出;で]る さらに。）[0002:0001:]"
+  },
+  {
+   "id": "Menu#407",
+   "label": "MES_tuto_yo_scrratch_tuto_ml4_badge",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]アタリが[Ruby 出;で]たら…[0002:0001:]"
+  },
+  {
+   "id": "Menu#408",
+   "label": "SoloJump_L_00",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00]ジャンプ"
+  },
+  {
+   "id": "Menu#409",
+   "label": "ActGuide_01_1",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00][Color #2C64FF][U+E004][U+E005][Color #E6E6E6]を [Color #2C64FF][Ruby 同時;どうじ]に[Ruby 押;お]す[Color #E6E6E6]ことで\nマリオとルイージは「[Color #2C64FF]ジャンプ[Color #E6E6E6]」\nクッパは「[Color #2C64FF]パンチ[Color #E6E6E6]」「[Color #2C64FF]ほのお[Color #E6E6E6]」へ[Ruby 戻;もど]せます。"
+  },
+  {
+   "id": "Menu#410",
+   "label": "ActGuide_10_2",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00][Ruby 岩;いわ]などをこわしたり [Ruby 様々;さまざま]な[Ruby 使;つか]い[Ruby 方;かた]ができます。\nいろいろな[Ruby 場所;ばしょ]で [Ruby 使;つか]ってみましょう。"
+  },
+  {
+   "id": "Menu#411",
+   "label": "BtlGuide_09_2",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]モンスターが[Ruby 強;つよ]いと [Ruby 感;かん]じたら\n[Ruby 倒;たお]しやすいモンスターと バトルして\nレベルを[Ruby 上;あ]げてから [Ruby 進;すす]みましょう。"
+  },
+  {
+   "id": "Menu#412",
+   "label": "BtlGuide_18_3",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00][Ruby 与;あた]えるダメージは [Ruby 変;か]わりません。\n[Ruby 苦手;にがて]なアタックがあれば [Ruby 使;つか]ってみましょう。"
+  },
+  {
+   "id": "Menu#413",
+   "label": "FldGuide_05_0",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00][Ruby 手;て]に[Ruby 入;い]れたアイテムは\n[Color #2C64FF]スターメニュー[Color #E6E6E6]から [Ruby 使;つか]うことができます。"
+  },
+  {
+   "id": "Menu#414",
+   "label": "MES_EMesColosseum_guide_turn_clear_02",
+   "style": 3,
+   "attr": "00000000",
+   "jp": "[0009:0000:03 00]バトル[Ruby 中;ちゅう] ターン[Ruby 数;すう]は\nいつも [Ruby 注意;ちゅうい]しておきましょう。"
+  },
+  {
+   "id": "Menu#415",
+   "label": "MES_ShopMes_Menu_no_equip_bangle",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0005:0000:]うでわは ２つそうびできません。[0002:0001:]"
+  },
+  {
+   "id": "Menu#416",
+   "label": "MES_spatk_00_yo_test_02",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]はね～るメットが\n[Ruby 使;つか]えるようになったわ！[0002:0001:]"
+  },
+  {
+   "id": "Menu#417",
+   "label": "MES_tuto_yo_bad_hige4_koukyuu",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]これでは [Ruby 残念;ざんねん]ですが\nウルトラボーナスカードは\nプレゼントできませんね…[0002:0001:][Next]でも [Ruby 安心;あんしん]なさってください。\nスーパーボーナスカードは\nプレゼントできますので。[0002:0001:]"
+  },
+  {
+   "id": "Menu#418",
+   "label": "MES_tuto_yo_nice_hige4_badge",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]これからは [Ruby 買;か]い[Ruby 物;もの]ごとに\nスーパーボーナスカードを\nあげようかね！[0002:0001:][Next][0001:0004:]これまでより アタリが\n[Ruby 出;で]やすくなってるよ！[0002:0001:]"
+  },
+  {
+   "id": "Menu#419",
+   "label": "MES_tuto_yo_nice_tsuno6_bdog_1",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ガウ ガウ ガガガウ。\n（[Ruby 買;か]い[Ruby 物;もの]する プレゼント\nウルトラボーナスカード。）[0002:0001:]"
+  },
+  {
+   "id": "Menu#420",
+   "label": "FldGuide_05_1",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00][Color #2C64FF]HP[Color #E6E6E6]や[Color #2C64FF]BP[Color #E6E6E6]が[Ruby 減;へ]っていたら\nバトルの[Ruby 前;まえ]に [Ruby 回復;かいふく]しておきましょう。"
+  },
+  {
+   "id": "Menu#421",
+   "label": "MES_spatk_00_yo_test_03",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ぶんしんタルたいほうが\n[Ruby 使;つか]えるようになったわ！[0002:0001:]"
+  },
+  {
+   "id": "Menu#422",
+   "label": "MES_tuto_yo_nice_tsuno6_bdog_2",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ガウ ガウ ガウ。\n（アタリ [Ruby 出;で]る さらに。）[0002:0001:]"
+  },
+  {
+   "id": "Menu#423",
+   "label": "SpAtk_13_0",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00][Color #2C64FF][Ruby 整列;せいれつ]したボムへいを スライド[Color #E6E6E6]させて\n[Ruby 攻撃;こうげき]したいモンスターの[Ruby 正面;しょうめん]に[Ruby 移動;いどう]させましょう。"
+  },
+  {
+   "id": "Menu#424",
+   "label": "ActGuide_10",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00]パンチ"
+  },
+  {
+   "id": "Menu#425",
+   "label": "FldGuide_05_2",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]バトル[Ruby 中;ちゅう]しか[Ruby 使;つか]えないアイテムもあります。\n[Ruby 新;あたら]しく[Ruby 手;て]に[Ruby 入;い]れたものは\nチェックしておきましょう。"
+  },
+  {
+   "id": "Menu#426",
+   "label": "MES_EMesColosseum_title_clear_turn_2",
+   "style": 0,
+   "attr": "00000000",
+   "jp": "[0009:0000:00 00][0003:0000:00 00 03 00 00 00]ターン内で倒す"
+  },
+  {
+   "id": "Menu#427",
+   "label": "MES_setting_easy",
+   "style": 5,
+   "attr": "00000000",
+   "jp": "[0009:0000:05 00]イージーモード"
+  },
+  {
+   "id": "Menu#428",
+   "label": "MES_spatk_00_yo_test_04",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]くるりんボールが\n[Ruby 使;つか]えるようになったわ！[0002:0001:]"
+  },
+  {
+   "id": "Menu#429",
+   "label": "SpAtk_04_0",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]ボールの[Ruby 上;うえ]のルイージを[Ruby 落;お]とさないように\n[Color #2C64FF][U+E077]の[Ruby 左右;さゆう][Color #E6E6E6]でボールを[Ruby 回転;かいてん]させながら モンスターを\n[Ruby 押;お]しつぶします。"
+  },
+  {
+   "id": "Menu#430",
+   "label": "SpAtk_13_1",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]１[Ruby 体;たい]のモンスターにボムへいを[Ruby 集中;しゅうちゅう]させるほど\n[Ruby 爆発;ばくはつ]が[Ruby 大;おお]きくなり あたえるダメージもアップします。"
+  },
+  {
+   "id": "Menu#431",
+   "label": "ActGuide_11",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00]ほのお"
+  },
+  {
+   "id": "Menu#432",
+   "label": "BtlGuide_20_0",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]モンスターの[Ruby 攻撃中;こうげきちゅう]に マリオ[Ruby 達;たち]が\nハンマーを[Ruby 構;かま]えたら [Color #2C64FF]ハンマー[Ruby 防御;ぼうぎょ][Color #E6E6E6]の[Ruby 合図;あいず]です。"
+  },
+  {
+   "id": "Menu#433",
+   "label": "MES_MesDat_MiniGame_end_info3",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00]もう[Ruby 一度;いちど]チャレンジしますか？"
+  },
+  {
+   "id": "Menu#434",
+   "label": "MES_bgm_title_28_legacy",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]SHOW TIME！"
+  },
+  {
+   "id": "Menu#435",
+   "label": "MES_spatk_00_yo_test_05",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ワンダーメテオが\n[Ruby 使;つか]えるようになったわ！[0002:0001:]"
+  },
+  {
+   "id": "Menu#436",
+   "label": "MES_tuto_yo_nice_hige4_koukyuu",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]これからは お[Ruby 買;か]い[Ruby 物;もの]ごとに\nスーパーボーナスカードを\nさしあげます。[0002:0001:][Next][0001:0004:]これまでより アタリが\n[Ruby 出;で]やすくなっておりますよ。[0002:0001:]"
+  },
+  {
+   "id": "Menu#437",
+   "label": "SpAtk_04_1",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]モンスターをボールで[Ruby 押;お]しつぶすタイミングで\n[Color #00BB27][U+E001][Color #E6E6E6]を[Ruby 押;お]すと ボールがふたたびマリオのほうに\n[Ruby 戻;もど]ってくるので タイミングよく[Color #FF4343][U+E000][Color #E6E6E6]でトス！"
+  },
+  {
+   "id": "Menu#438",
+   "label": "ActGuide_12",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00]スライディングパンチ"
+  },
+  {
+   "id": "Menu#439",
+   "label": "BtlGuide_16_0",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00][Color #2C64FF]イージーモード[Color #E6E6E6]を[Ruby 使;つか]えば マリオ[Ruby 達;たち]が[Ruby 強;つよ]くなり\nモンスターを [Ruby 倒;たお]しやすくなります。"
+  },
+  {
+   "id": "Menu#440",
+   "label": "BtlGuide_20_1",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]キャラクターのボタンを[Ruby 押;お]し[Ruby 続;つづ]けて\nハンマーを[Ruby 振;ふ]りかぶりましょう。"
+  },
+  {
+   "id": "Menu#441",
+   "label": "MES_MesDat_MiniGame_end_info4",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0005:0000:]すべての[Ruby 金;きん]メダル[Color #373737]を[Ruby 獲得;かくとく]！！\n[Ruby 賞品;しょうひん]は[Color #E6E6E6][Color #4ED4FF]ミラクルバッジ[Color #E6E6E6][Color #373737]！[0002:0001:][Color #E6E6E6]"
+  },
+  {
+   "id": "Menu#442",
+   "label": "MES_bgm_title_29_legacy",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ちょいと強い奴らに要注意！？"
+  },
+  {
+   "id": "Menu#443",
+   "label": "MES_spatk_00_yo_test_06",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]スピンどかんが\n[Ruby 使;つか]えるようになったわ！[0002:0001:]"
+  },
+  {
+   "id": "Menu#444",
+   "label": "SpAtk_04_2",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]さいごはルイージの２[Ruby 段;だん]がまえのボールプレス！\nボールでつぶした[Ruby 直後;ちょくご]に さらに[Color #00BB27][U+E001][Color #E6E6E6]でフィニッシュ！"
+  },
+  {
+   "id": "Menu#445",
+   "label": "ActGuide_13",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00]ボディプレス"
+  },
+  {
+   "id": "Menu#446",
+   "label": "BtlGuide_07_0",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]モンスターの[Ruby 攻撃中;こうげきちゅう]も アクションでき\nそのアクションでモンスターの[Ruby 攻撃;こうげき]を\nよけられれば ダメージをゼロにできます。"
+  },
+  {
+   "id": "Menu#447",
+   "label": "BtlGuide_16_1",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]イージーモードは スターメニューの「せってい」か\nまたは ゲームオーバーになると[Ruby 選;えら]べます。\n[Ruby 難;むずか]しいなと[Ruby 感;かん]じたら [Ruby 使;つか]ってみましょう。"
+  },
+  {
+   "id": "Menu#448",
+   "label": "BtlGuide_20_2",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00][Ruby 振;ふ]りかぶった[Ruby 後;あと] [Color #2C64FF]ボタンを[Ruby 離;はな]せば[Color #E6E6E6]\nハンマーを[Ruby 振;ふ]り[Ruby 下;お]ろすことができます。"
+  },
+  {
+   "id": "Menu#449",
+   "label": "MES_MenuMes_EventItemN_mkiller",
+   "style": 13,
+   "attr": "00000000",
+   "jp": "[0009:0000:0D 00]マグナムキラー"
+  },
+  {
+   "id": "Menu#450",
+   "label": "MES_MenuMes_EventItemN_starvaccine_y",
+   "style": 13,
+   "attr": "00000000",
+   "jp": "[0009:0000:0D 00]スターワクチン黄"
+  },
+  {
+   "id": "Menu#451",
+   "label": "MES_bgm_title_10_legacy",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]うずまく黒い影"
+  },
+  {
+   "id": "Menu#452",
+   "label": "MES_spatk_00_yo_test_07",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]スイーツバスケットが\n[Ruby 使;つか]えるようになったわ！[0002:0001:]"
+  },
+  {
+   "id": "Menu#453",
+   "label": "MES_tuto_yo_nice_tsuno1_bdog",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ガウガウガウ！\n（オマエ！ TSUNO すごい！）[0002:0001:]"
+  },
+  {
+   "id": "Menu#454",
+   "label": "MES_tuto_yo_scrratch_tuto_end_ml_badge",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]それじゃ [Ruby 買;か]い[Ruby 物;もの]を\n[Ruby 楽;たの]しんでおいき。[0002:0001:]"
+  },
+  {
+   "id": "Menu#455",
+   "label": "ActGuide_14",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00]スパイクボール"
+  },
+  {
+   "id": "Menu#456",
+   "label": "MES_MiniGame_Mg05",
+   "style": 0,
+   "attr": "00000000",
+   "jp": "[0009:0000:00 00]ブラザーアタックを しっぱいするまで\nコレステロンを [Ruby 倒;たお]し[Ruby 続;つづ]けるモード。"
+  },
+  {
+   "id": "Menu#457",
+   "label": "MES_spatk_00_yo_test_08",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]あちこちウィンドウが\n[Ruby 使;つか]えるようになったわ！[0002:0001:]"
+  },
+  {
+   "id": "Menu#458",
+   "label": "MES_tuto_yo_scrratch_tuto_k4_bdog",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ガウ ガウ…\n（アタリ [Ruby 出;で]たら…）[0002:0001:]"
+  },
+  {
+   "id": "Menu#459",
+   "label": "FldGuide_03_0",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]マリオは[Color #FF4343][U+E000][Color #E6E6E6]ボタン ルイージは[Color #00BB27][U+E001][Color #E6E6E6]ボタン\nクッパは[Color #FF9600][U+E002][Color #E6E6E6]ボタンでアクションができます。"
+  },
+  {
+   "id": "Menu#460",
+   "label": "MES_EMesPlace_place30",
+   "style": 13,
+   "attr": "00000000",
+   "jp": "[0009:0000:0D 00]パワースペース むね"
+  },
+  {
+   "id": "Menu#461",
+   "label": "MES_MiniGame_Mg06",
+   "style": 0,
+   "attr": "00000000",
+   "jp": "[0009:0000:00 00]ブラザーアタックのはね～るメットで\nどこまでも すすみ[Ruby 続;つづ]けるモード。"
+  },
+  {
+   "id": "Menu#462",
+   "label": "MES_record_excellent_num",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]Excellent回数"
+  },
+  {
+   "id": "Menu#463",
+   "label": "MES_spatk_00_yo_test_09",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]こいこいスターが\n[Ruby 使;つか]えるようになったわ！[0002:0001:]"
+  },
+  {
+   "id": "Menu#464",
+   "label": "MES_EMesPlace_place31",
+   "style": 13,
+   "attr": "00000000",
+   "jp": "[0009:0000:0D 00]チャレンジホール"
+  },
+  {
+   "id": "Menu#465",
+   "label": "MES_MiniGame_Mg07",
+   "style": 0,
+   "attr": "00000000",
+   "jp": "[0009:0000:00 00]ボコスカアタックで ブリローズに\nアタックし[Ruby 続;つづ]けよう！"
+  },
+  {
+   "id": "Menu#466",
+   "label": "MES_tuto_yo_bad_hige2_badge",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]これでは ボーナスカードは\nプレゼントできませんね…[0002:0001:]"
+  },
+  {
+   "id": "Menu#467",
+   "label": "SpAtk_11_0",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]スパイクボールになった[Color #2C64FF]クッパを[Ruby 左;ひだり]に[Ruby 向;む]かって\nスライド[Color #E6E6E6]すると ヘイホー[Ruby 軍団;ぐんだん]が\nヒモを[Ruby 引;ひ]っ[Ruby 張;ぱ]ります。"
+  },
+  {
+   "id": "Menu#468",
+   "label": "MES_EMesPlace_place32",
+   "style": 13,
+   "attr": "00000000",
+   "jp": "[0009:0000:0D 00]クッパ城周辺・東"
+  },
+  {
+   "id": "Menu#469",
+   "label": "MES_MiniGame_Mg08",
+   "style": 0,
+   "attr": "00000000",
+   "jp": "[0009:0000:00 00]このモードは まだあそべません。"
+  },
+  {
+   "id": "Menu#470",
+   "label": "MES_ShopMes_Menu_no_equip_boots",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0005:0000:]ブーツは ２つそうびできません。[0002:0001:]"
+  },
+  {
+   "id": "Menu#471",
+   "label": "MES_tuto_yo_scrratch_tuto_no_ml_badge",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]お！ アンタ[Ruby 達;たち]\nものしりだね！[0002:0001:][Next]それじゃ [Ruby 買;か]い[Ruby 物;もの]を\n[Ruby 楽;たの]しんでおいき。[0002:0001:]"
+  },
+  {
+   "id": "Menu#472",
+   "label": "SpAtk_02_0",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]はね～るメットをルイージがかぶり\nマリオが[Ruby 飛;と]び[Ruby 乗;の]って [Color #FF4343][U+E000][Color #E6E6E6]ボタンで[Ruby 大;だい]ジャンプ！"
+  },
+  {
+   "id": "Menu#473",
+   "label": "SpAtk_11_1",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]ヒモを[Ruby 引;ひ]っ[Ruby 張;ぱ]るほど モンスターにあたえる\nダメージがアップ！"
+  },
+  {
+   "id": "Menu#474",
+   "label": "MES_EMesColosseum_class_3_enemy",
+   "style": 1,
+   "attr": "00000000",
+   "jp": "[0009:0000:01 00]賢者イモーヌX"
+  },
+  {
+   "id": "Menu#475",
+   "label": "MES_EMesOutline_story_kj_def",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00]クッパJr.が クッパ軍団を引き連れて 大冒険！"
+  },
+  {
+   "id": "Menu#476",
+   "label": "MES_EMesPlace_place33",
+   "style": 13,
+   "attr": "00000000",
+   "jp": "[0009:0000:0D 00]クッパ城周辺・西"
+  },
+  {
+   "id": "Menu#477",
+   "label": "MES_MenuMes_AtkPartsE_00",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00]ブラザーアタックのパーツ。\nたりないときは ガラクタスペースを[Ruby 探;さが]そう。"
+  },
+  {
+   "id": "Menu#478",
+   "label": "MES_MenuMes_EventItemE_buri_cat1",
+   "style": 13,
+   "attr": "00000000",
+   "jp": "[0009:0000:0D 00]クリシンボーの[Ruby 中;なか]にいた ブロキャット。"
+  },
+  {
+   "id": "Menu#479",
+   "label": "MES_MenuMes_EventItemN_starpanel",
+   "style": 13,
+   "attr": "00000000",
+   "jp": "[0009:0000:0D 00]スターパネル"
+  },
+  {
+   "id": "Menu#480",
+   "label": "MES_tuto_yo_scrratch_tuto_ml3_koukyuu",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ボーナスカードの マスを[Ruby 選;えら]んで…[0002:0001:]"
+  },
+  {
+   "id": "Menu#481",
+   "label": "MES_tuto_yo_scrratch_tuto_no_k_bdog",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ガウガウ ガウガウガウ。\n（[Ruby 買;か]い[Ruby 物;もの]して\nボーナス チャレンジ。）[0002:0001:]"
+  },
+  {
+   "id": "Menu#482",
+   "label": "SpAtk_02_1",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]ルイージを[Color #2C64FF][U+E077]の[Ruby 左右;さゆう][Color #E6E6E6]で[Ruby 動;うご]かして\nジャンプしたマリオを[Ruby 受;う]け[Ruby 止;と]めましょう。"
+  },
+  {
+   "id": "Menu#483",
+   "label": "BtlGuide_14_0",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00][Color #2C64FF]ブラザーアタック[Color #E6E6E6]を[Ruby 選;えら]ぶと\nマリオとルイージが[Ruby 協力;きょうりょく]して[Ruby 攻撃;こうげき]します！"
+  },
+  {
+   "id": "Menu#484",
+   "label": "MES_EMesPlace_place34",
+   "style": 13,
+   "attr": "00000000",
+   "jp": "[0009:0000:0D 00]地下溶岩地帯"
+  },
+  {
+   "id": "Menu#485",
+   "label": "MES_MenuMes_AtkPartsE_01",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00]ブラザーアタックのパーツ。\nたりないときは ポンプスペースを[Ruby 探;さが]そう。"
+  },
+  {
+   "id": "Menu#486",
+   "label": "MES_MenuMes_EventItemE_buri_cat2",
+   "style": 13,
+   "attr": "00000000",
+   "jp": "[0009:0000:0D 00]ハガサンボンの[Ruby 中;なか]にいた ブロキャット。"
+  },
+  {
+   "id": "Menu#487",
+   "label": "MES_tuto_yo_scrratch_tuto_ml1_kinoda",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ゴホン それでは\n[Ruby 説明;せつめい]させていただきます。[0002:0001:]"
+  },
+  {
+   "id": "Menu#488",
+   "label": "SpAtk_02_2",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]はね～るメットに[Ruby 着地;ちゃくち]するたびに[Color #FF4343][U+E000][Color #E6E6E6]ボタンを[Ruby 押;お]して\n[Ruby 連続;れんぞく]ジャンプを[Ruby 成功;せいこう]させていきましょう。\n[Ruby 最後;さいご]にモンスターをふみつけてフィニッシュ！"
+  },
+  {
+   "id": "Menu#489",
+   "label": "BtlGuide_05_0",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00][Color #2C64FF]おてほん[Color #E6E6E6]では おてほんムービーが[Ruby 見;み]られます。\nアクション[Ruby 成功;せいこう]の タイミングを[Ruby 見;み]ておきましょう。"
+  },
+  {
+   "id": "Menu#490",
+   "label": "BtlGuide_10",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00]エンカウント"
+  },
+  {
+   "id": "Menu#491",
+   "label": "BtlGuide_14_1",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00][Color #E6E6E6]ブラザーアタック[Color #E6E6E6]を[Ruby 使;つか]えば アクション[Ruby 成功;せいこう]で\nモンスターに [Ruby 大;だい]ダメージを[Ruby 与;あた]えられます。"
+  },
+  {
+   "id": "Menu#492",
+   "label": "FldGuide_00",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00]キャラクターの[Ruby 移動;いどう]"
+  },
+  {
+   "id": "Menu#493",
+   "label": "MES_EMesOutline_story20",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00]イモムシはクッパ体内の奥へ逃げてしまった… とりあえずクッパでヅツーダレイクをたんさくだ。"
+  },
+  {
+   "id": "Menu#494",
+   "label": "MES_MenuMes_AtkPartsE_02",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00]ブラザーアタックのパーツ。\nたりないときは メタボルスペースを[Ruby 探;さが]そう。"
+  },
+  {
+   "id": "Menu#495",
+   "label": "MES_MenuMes_EventItemE_buri_cat3",
+   "style": 13,
+   "attr": "00000000",
+   "jp": "[0009:0000:0D 00]マガツリーの[Ruby 中;なか]にいた ブロキャット。"
+  },
+  {
+   "id": "Menu#496",
+   "label": "MES_tuto_yo_scrratch_tuto_ml2_badge",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]これがボーナスカードだよ！[0002:0001:][Next]ボーナスカードは [Ruby 買;か]い[Ruby 物;もの]ごとに\n１まい あげてるよ！[0002:0001:]"
+  },
+  {
+   "id": "Menu#497",
+   "label": "BtlGuide_05_1",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00][Color #2C64FF]れんしゅう[Color #E6E6E6]では アタックを[Ruby 実際;じっさい]にためせます。\n[Ruby 繰;く]り[Ruby 返;かえ]し れんしゅうしてコツをつかみましょう。"
+  },
+  {
+   "id": "Menu#498",
+   "label": "BtlGuide_11",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][Ruby 基本;きほん]⑤：ステータスについて"
+  },
+  {
+   "id": "Menu#499",
+   "label": "BtlGuide_14_2",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]アタックを[Ruby 使;つか]うと [Color #2C64FF]BP[Color #E6E6E6]を[Ruby 消費;しょうひ]します。\nアイテムの「[Color #2C64FF]シロップ[Color #E6E6E6]」などで [Ruby 回復;かいふく]しましょう。"
+  },
+  {
+   "id": "Menu#500",
+   "label": "FldGuide_01",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00]キャラクターの[Ruby 移動;いどう]"
+  },
+  {
+   "id": "Menu#501",
+   "label": "MES_EMesOutline_story21",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00]突然あらわれた大きなタワー？ いやロボ？ 中にはいったいなにがある？"
+  },
+  {
+   "id": "Menu#502",
+   "label": "MES_MenuMes_AtkPartsE_03",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00]ブラザーアタックのパーツ。\nたりないときは キノコタウンを[Ruby 探;さが]そう。"
+  },
+  {
+   "id": "Menu#503",
+   "label": "MES_MenuMes_EventItemE_buri_cat4",
+   "style": 13,
+   "attr": "00000000",
+   "jp": "[0009:0000:0D 00]トレジャンの[Ruby 中;なか]にいた ブロキャット。"
+  },
+  {
+   "id": "Menu#504",
+   "label": "MES_bgm_title_10",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]うずまく黒い影 DX"
+  },
+  {
+   "id": "Menu#505",
+   "label": "MES_bgm_title_16_legacy",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ビーチサイド・ドリーム"
+  },
+  {
+   "id": "Menu#506",
+   "label": "menu_save_err_01",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0005:0000:][0001:0001:]ゲームデータが[Ruby 壊;こわ]れています。\nゲームデータを[Ruby 作;つく]り[Ruby 直;なお]しますか？[0002:0000:0A 00]\n[0001:0001:][0004:0001:]いいえ[0006:0000:20 00][0004:0001:]はい[0002:0000:0A 00]"
+  },
+  {
+   "id": "Menu#507",
+   "label": "BtlGuide_12",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][Ruby 狙;ねら]われるキャラクターの[Ruby 見分;みわ]け[Ruby 方;かた]"
+  },
+  {
+   "id": "Menu#508",
+   "label": "FldGuide_01_0",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00][Color #2C64FF][U+E077][Color #E6E6E6]で [Ruby 移動;いどう]できます。"
+  },
+  {
+   "id": "Menu#509",
+   "label": "FldGuide_02",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00]キャラクターのボタン"
+  },
+  {
+   "id": "Menu#510",
+   "label": "MES_EMesOutline_story22",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00]スターワクチンを手に入れるために再びクッパの体内へ。新しい体内のスペースをたんさくしよう！"
+  },
+  {
+   "id": "Menu#511",
+   "label": "MES_MenuMes_AtkPartsE_04",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00]ブラザーアタックのパーツ。\nたりないときは エネルギースペースを[Ruby 探;さが]そう。"
+  },
+  {
+   "id": "Menu#512",
+   "label": "MES_MenuMes_EventItemE_buri_cat5",
+   "style": 13,
+   "attr": "00000000",
+   "jp": "[0009:0000:0D 00]ハナムーチョの[Ruby 中;なか]にいた ブロキャット。"
+  },
+  {
+   "id": "Menu#513",
+   "label": "MES_bgm_title_11",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]いつでもハッピー DX"
+  },
+  {
+   "id": "Menu#514",
+   "label": "MES_bgm_title_17_legacy",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]不思議の森で会いましょう"
+  },
+  {
+   "id": "Menu#515",
+   "label": "MES_tuto_yo_scrratch_tuto_k1_bdog",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ガウ ガウ。\n（いいぞ [Ruby 説明;せつめい]。）[0002:0001:]"
+  },
+  {
+   "id": "Menu#516",
+   "label": "SoloHammer_M_00_0",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]ハンマーを[Ruby 振;ふ]りかぶったら [Color #FF4343][U+E000][Color #E6E6E6]ボタン！\n[Ruby 成功;せいこう]させて [Color #2C64FF]Excellent[Color #E6E6E6] を[Ruby 狙;ねら]い[Color #E6E6E6]ましょう。[Color #E6E6E6]"
+  },
+  {
+   "id": "Menu#517",
+   "label": "menu_save_err_02",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0005:0000:][0001:0001:]ゲームデータを[Ruby 作;つく]り[Ruby 直;なお]しています。\nそのままでお[Ruby 待;ま]ちください。"
+  },
+  {
+   "id": "Menu#518",
+   "label": "BtlGuide_13",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00]アシストきのう"
+  },
+  {
+   "id": "Menu#519",
+   "label": "FldGuide_01_1",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]マリオの[Ruby 後;うし]ろには ルイージが[Ruby 自動;じどう]でついてきます。\n[Color #2C64FF]ちびマリオ[Color #E6E6E6]で[Ruby 離;はな]れたときは ついてきません。"
+  },
+  {
+   "id": "Menu#520",
+   "label": "FldGuide_03",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00]キャラクターのボタン"
+  },
+  {
+   "id": "Menu#521",
+   "label": "MES_EMesOutline_story23",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00]ボディプレスができるようになったクッパ。エクボンの森へ向かうつもりだが…"
+  },
+  {
+   "id": "Menu#522",
+   "label": "MES_MenuMes_AtkPartsE_05",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00]ブラザーアタックのパーツ。\nたりないときは クッパ[Ruby 城;じょう]を[Ruby 探;さが]そう。"
+  },
+  {
+   "id": "Menu#523",
+   "label": "MES_MenuMes_EventItemE_buri_cat6",
+   "style": 13,
+   "attr": "00000000",
+   "jp": "[0009:0000:0D 00]ゲラワンワンの[Ruby 中;なか]にいた ブロキャット。"
+  },
+  {
+   "id": "Menu#524",
+   "label": "MES_ShopMes_Info_Equip",
+   "style": 1,
+   "attr": "00000000",
+   "jp": "[0009:0000:01 00]いまそうびしますか？"
+  },
+  {
+   "id": "Menu#525",
+   "label": "MES_bgm_title_12",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]リラックス×２ DX"
+  },
+  {
+   "id": "Menu#526",
+   "label": "MES_bgm_title_18_legacy",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]秘密へと続く道"
+  },
+  {
+   "id": "Menu#527",
+   "label": "SoloPunch_00_0",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]こぶしを[Ruby 振;ふ]りかぶって[Ruby 最大;さいだい]までためたら [Color #FF9600][U+E002][Color #E6E6E6]ボタン！\n[Ruby 成功;せいこう]させて [Color #2C64FF]Excellent[Color #E6E6E6] を[Ruby 狙;ねら]い[Color #E6E6E6]ましょう。[Color #E6E6E6]"
+  },
+  {
+   "id": "Menu#528",
+   "label": "menu_save_err_03",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0005:0000:][0001:0001:]ゲームを[Ruby 終了;しゅうりょう]します。\n[U+E073]ボタンを[Ruby 押;お]して\nHOMEメニューに[Ruby 戻;もど]ってください。"
+  },
+  {
+   "id": "Menu#529",
+   "label": "BtlGuide_14",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00]ブラザーアタックでの[Ruby 攻撃;こうげき]"
+  },
+  {
+   "id": "Menu#530",
+   "label": "FldGuide_04",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00]キャラクターのボタン"
+  },
+  {
+   "id": "Menu#531",
+   "label": "MES_EMesOutline_story24",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00]なんと２つ目のスターワクチンはクッパ城の地下に？ またしてもクッパ城へ向かうことに！"
+  },
+  {
+   "id": "Menu#532",
+   "label": "MES_MenuMes_AtkPartsE_06",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00]ブラザーアタックのパーツ。\nたりないときは ムッシーバビーチを[Ruby 探;さが]そう。"
+  },
+  {
+   "id": "Menu#533",
+   "label": "MES_MenuMes_EventItemE_buri_cat7",
+   "style": 13,
+   "attr": "00000000",
+   "jp": "[0009:0000:0D 00]キカンボーの[Ruby 中;なか]にいた ブロキャット。"
+  },
+  {
+   "id": "Menu#534",
+   "label": "MES_MesDat_MiniGame_end_info10",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0005:0000:][0003:0001:00 00 00 00 00 00]\nで [Ruby 銀;ぎん]メダルを[Ruby 獲得;かくとく]！[0002:0001:][Next][0005:0000:][Color #373737][Ruby 賞品;しょうひん]は[Color #E6E6E6][Color #4ED4FF][0003:0000:00 00 05 00 01 00][Color #E6E6E6][Color #373737]コイン！[0002:0001:][Color #E6E6E6]"
+  },
+  {
+   "id": "Menu#535",
+   "label": "MES_MesDat_MiniGame_end_info10_add",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0005:0000:][0003:0001:00 00 00 00 00 00]\nで [Ruby 銅;どう]メダルを[Ruby 獲得;かくとく]！[0002:0001:][Next][0005:0000:][Color #373737][Ruby 賞品;しょうひん]は[Color #E6E6E6][Color #4ED4FF][0003:0000:00 00 05 00 01 00][Color #E6E6E6][Color #373737]コイン！[0002:0001:][Color #E6E6E6]"
+  },
+  {
+   "id": "Menu#536",
+   "label": "MES_bgm_title_13",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]決戦のとき！ DX"
+  },
+  {
+   "id": "Menu#537",
+   "label": "MES_bgm_title_32_legacy",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]イン・ザ・ファイナル"
+  },
+  {
+   "id": "Menu#538",
+   "label": "SpAtk_00_0",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]マリオが [Color #FF4343][U+E000][Color #E6E6E6]ボタン ルイージが [Color #00BB27][U+E001][Color #E6E6E6]ボタンで\nみどりコウラを [Ruby 交互;こうご]に キックします。"
+  },
+  {
+   "id": "Menu#539",
+   "label": "menu_load_01",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00]このファイルを[Ruby 消;け]しますか？"
+  },
+  {
+   "id": "Menu#540",
+   "label": "BtlGuide_15",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00]きんきゅうガード"
+  },
+  {
+   "id": "Menu#541",
+   "label": "FldGuide_05",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00]アイテム"
+  },
+  {
+   "id": "Menu#542",
+   "label": "MES_EMesColosseum_h_class_enemy_1",
+   "style": 1,
+   "attr": "00000000",
+   "jp": "[0009:0000:01 00]クッパ城"
+  },
+  {
+   "id": "Menu#543",
+   "label": "MES_EMesOutline_story25",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00]２つ目のスターワクチンが入った金庫の暗証番号が思い出せない！ クッパのきおくを取りもどせ！"
+  },
+  {
+   "id": "Menu#544",
+   "label": "MES_MenuMes_AtkPartsE_07",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00]ブラザーアタックのパーツ。\nたりないときは ピーチ[Ruby 城;じょう]のにわを[Ruby 探;さが]そう。"
+  },
+  {
+   "id": "Menu#545",
+   "label": "MES_MenuMes_EventItemE_buri_cat8",
+   "style": 13,
+   "attr": "00000000",
+   "jp": "[0009:0000:0D 00]ビーハウスの[Ruby 中;なか]にいた ブロキャット。"
+  },
+  {
+   "id": "Menu#546",
+   "label": "MES_MesDat_MiniGame_end_info11",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0001:0001:][0005:0000:][Ruby 金;きん]メダル[Color #373737]を[Ruby 獲得;かくとく]！\n[Ruby 賞品;しょうひん]は[Color #E6E6E6][Color #4ED4FF][0003:0000:00 00 05 00 00 00][Color #E6E6E6][Color #373737]コインと\n[Color #E6E6E6][Color #4ED4FF]ビッグシェル[Color #E6E6E6][Color #373737]！[0002:0001:][Color #E6E6E6]"
+  },
+  {
+   "id": "Menu#547",
+   "label": "MES_bgm_title_14",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]Peaceful DX"
+  },
+  {
+   "id": "Menu#548",
+   "label": "MES_tuto_yo_scrres_suc_00",
+   "style": 5,
+   "attr": "00000000",
+   "jp": "[0009:0000:05 00][0003:0000:00 00 01 00 00 00][Ruby 等;とう]がアタリました！\nこうにゅう[Ruby 金額;きんがく]の [0003:0000:00 00 03 00 01 00]％のコインを お[Ruby 返;かえ]しします！"
+  },
+  {
+   "id": "Menu#549",
+   "label": "SpAtk_00_1",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]みどりコウラは キックするたびにスピードアップ\nするので ボタンを[Ruby 押;お]すタイミングには[Ruby 注意;ちゅうい]！"
+  },
+  {
+   "id": "Menu#550",
+   "label": "menu_load_02",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00][Ruby 消;け]したゲームデータはもとに\n[Ruby 戻;もど]りませんが よろしいですか？"
+  },
+  {
+   "id": "Menu#551",
+   "label": "BtlGuide_12_0",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]モンスターが[Ruby 攻撃;こうげき]するまでの しぐさの[Ruby 中;なか]に\n[Ruby 見;み]わけるサインが あります。\nそれを[Ruby 見;み]つけましょう。"
+  },
+  {
+   "id": "Menu#552",
+   "label": "BtlGuide_16",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00]イージーモード"
+  },
+  {
+   "id": "Menu#553",
+   "label": "FldGuide_06",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00]そうび[Ruby 品;ひん]"
+  },
+  {
+   "id": "Menu#554",
+   "label": "MES_EMesColosseum_h_class_enemy_2",
+   "style": 1,
+   "attr": "00000000",
+   "jp": "[0009:0000:01 00]イビッキタワー"
+  },
+  {
+   "id": "Menu#555",
+   "label": "MES_EMesOutline_story26",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00]３つ目のスターワクチンはどこに？ キノコタウンのDr.コキノのところへもどってみよう。"
+  },
+  {
+   "id": "Menu#556",
+   "label": "MES_MenuMes_AtkPartsE_08",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00]ブラザーアタックのパーツ。\nたりないときは エクボンの[Ruby 森;もり]を[Ruby 探;さが]そう。"
+  },
+  {
+   "id": "Menu#557",
+   "label": "MES_MenuMes_AtkPartsN_00",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ガラクタパーツ"
+  },
+  {
+   "id": "Menu#558",
+   "label": "MES_MenuMes_EventItemE_buri_cat9",
+   "style": 13,
+   "attr": "00000000",
+   "jp": "[0009:0000:0D 00]ゲタゲターの[Ruby 中;なか]にいた ブロキャット。"
+  },
+  {
+   "id": "Menu#559",
+   "label": "MES_MesDat_MiniGame_end_info12",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0001:0001:][0005:0000:][Ruby 金;きん]メダル[Color #373737]を[Ruby 獲得;かくとく]！\n[Ruby 賞品;しょうひん]は[Color #E6E6E6][Color #4ED4FF][0003:0000:00 00 05 00 00 00][Color #E6E6E6][Color #373737]コインと\n[Color #E6E6E6][Color #4ED4FF]ブラザーソックス[Color #E6E6E6][Color #373737]！[0002:0001:][Color #E6E6E6]"
+  },
+  {
+   "id": "Menu#560",
+   "label": "MES_bgm_title_15",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ゲプー岬に吹く風は DX"
+  },
+  {
+   "id": "Menu#561",
+   "label": "SoloHammer_L_00",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00]ハンマー"
+  },
+  {
+   "id": "Menu#562",
+   "label": "SpAtk_00_2",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]さいごに パスされたみどりコウラを キックして\nフィニッシュ！\nすべて[Ruby 成功;せいこう]させて [Color #2C64FF]Excellent[Color #E6E6E6]を[Ruby 狙;ねら]いましょう！"
+  },
+  {
+   "id": "Menu#563",
+   "label": "menu_load_03",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00]データを[Ruby 消;け]しています。"
+  },
+  {
+   "id": "Menu#564",
+   "label": "BtlGuide_03_0",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00][Color #2C64FF]ジャンプ[Color #E6E6E6]を[Ruby 選;えら]べば モンスターを\nふみつけて ダメージを[Ruby 与;あた]えられます。"
+  },
+  {
+   "id": "Menu#565",
+   "label": "BtlGuide_17",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00]ヒント"
+  },
+  {
+   "id": "Menu#566",
+   "label": "FldGuide_07",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00]セーブ"
+  },
+  {
+   "id": "Menu#567",
+   "label": "MES_EMesColosseum_h_class_enemy_3",
+   "style": 1,
+   "attr": "00000000",
+   "jp": "[0009:0000:01 00]ゲラエクスプレス"
+  },
+  {
+   "id": "Menu#568",
+   "label": "MES_EMesOutline_story27",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00]３人目の賢者はムッシーバビーチのどこかにいる？ マリオとルイージでビーチをたんさくだ！"
+  },
+  {
+   "id": "Menu#569",
+   "label": "MES_MenuMes_AtkPartsE_09",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00]ブラザーアタックのパーツ。\nDr.コキノの じょしゅからもらった。"
+  },
+  {
+   "id": "Menu#570",
+   "label": "MES_MenuMes_AtkPartsN_01",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ポンプパーツ"
+  },
+  {
+   "id": "Menu#571",
+   "label": "MES_MesDat_MiniGame_end_info13",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0001:0001:][0005:0000:][Ruby 金;きん]メダル[Color #373737]を[Ruby 獲得;かくとく]！\n[Ruby 賞品;しょうひん]は[Color #E6E6E6][Color #4ED4FF][0003:0000:00 00 05 00 00 00][Color #E6E6E6][Color #373737]コインと\n[Color #E6E6E6][Color #4ED4FF]グルグルブーツ[Color #E6E6E6][Color #373737]！[0002:0001:][Color #E6E6E6]"
+  },
+  {
+   "id": "Menu#572",
+   "label": "MES_bgm_title_16",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ビーチサイド・ドリーム DX"
+  },
+  {
+   "id": "Menu#573",
+   "label": "MES_menu_tuto_badge_change_tuto_end",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]どうだい？ バッジの\nつけかえなんて かんたんだろ？[0002:0001:][Next]いろんな [Ruby 組;く]み[Ruby 合;あ]わせをためすのも\nずーっと [Ruby 同;おな]じ[Ruby 組;く]み[Ruby 合;あ]わせで\nやってくのも アンタらしだいさ！[0002:0001:][Next]バッジが ただのガラクタに\nならんよう [Ruby 使;つか]いまくって\nバトルの[Ruby 役;やく]に [Ruby 立;た]ててくれや！[0002:0001:]"
+  },
+  {
+   "id": "Menu#574",
+   "label": "MES_tuto_yo_scrratch_tuto_ml5_koukyuu",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]お[Ruby 買;か]い[Ruby 物;もの]で [Ruby 使;つか]ったコインの\n[Ruby 一部;いちぶ]が もどってくる…[0002:0001:][Next][0001:0004:]という しくみになっております。[0002:0001:]"
+  },
+  {
+   "id": "Menu#575",
+   "label": "MES_tuto_yo_scrratch_tuto_ml6_badge",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]どうだい？ ボーナスカードのしくみ\nわかったかい？[0002:0000:0A 00]\n[0001:0001:][0004:0001:]いいえ[0006:0000:28 00][0004:0001:]はい[0002:0000:0A 00]"
+  },
+  {
+   "id": "Menu#576",
+   "label": "MES_tuto_yo_scrratch_tuto_ml7_kinoda",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]それでは もう１[Ruby 度;ど]\n[Ruby 説明;せつめい]いたしましょ。[0002:0001:]"
+  },
+  {
+   "id": "Menu#577",
+   "label": "menu_load_04",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00]データを[Ruby 消;け]しました。"
+  },
+  {
+   "id": "Menu#578",
+   "label": "BtlGuide_03_1",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00][Ruby 空;そら]を[Ruby 飛;と]んでいるモンスターに\nとくに[Ruby 有効;ゆうこう]な[Ruby 攻撃;こうげき]です。"
+  },
+  {
+   "id": "Menu#579",
+   "label": "BtlGuide_18",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00]かんたんアタックモード"
+  },
+  {
+   "id": "Menu#580",
+   "label": "FldGuide_08",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00]マップ"
+  },
+  {
+   "id": "Menu#581",
+   "label": "MES_EMesColosseum_h_class_enemy_4",
+   "style": 1,
+   "attr": "00000000",
+   "jp": "[0009:0000:01 00]スーパーピーチロボ"
+  },
+  {
+   "id": "Menu#582",
+   "label": "MES_EMesOutline_story28",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00]３人目の賢者を倒す？ためエクボンの森でアタックパーツを集めよう！"
+  },
+  {
+   "id": "Menu#583",
+   "label": "MES_MenuMes_AtkPartsN_02",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]メタボルパーツ"
+  },
+  {
+   "id": "Menu#584",
+   "label": "MES_MesDat_MiniGame_end_info14",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0001:0001:][0005:0000:][Ruby 金;きん]メダル[Color #373737]を[Ruby 獲得;かくとく]！\n[Ruby 賞品;しょうひん]は[Color #E6E6E6][Color #4ED4FF][0003:0000:00 00 05 00 00 00][Color #E6E6E6][Color #373737]コインと\n[Color #E6E6E6][Color #4ED4FF]EXバッジリング[Color #E6E6E6][Color #373737]！[0002:0001:][Color #E6E6E6]"
+  },
+  {
+   "id": "Menu#585",
+   "label": "MES_bgm_title_17",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]不思議の森で会いましょう DX"
+  },
+  {
+   "id": "Menu#586",
+   "label": "MES_menu_tuto_badge_change_no_here",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]そこじゃないよ！\n「バッジ」を [Ruby 選;えら]ぶんだよ！[0002:0001:]"
+  },
+  {
+   "id": "Menu#587",
+   "label": "menu_load_05",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00]このファイルをコピーしますか？"
+  },
+  {
+   "id": "Menu#588",
+   "label": "BtlGuide_19",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00]ハンマーでの[Ruby 攻撃;こうげき]"
+  },
+  {
+   "id": "Menu#589",
+   "label": "FldGuide_09",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00]くぼみアイコン"
+  },
+  {
+   "id": "Menu#590",
+   "label": "MES_EMesOutline_story29",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00]森でマリオがモンスターに連れさられた！？ ルイージ１人でマリオを助け出そう！"
+  },
+  {
+   "id": "Menu#591",
+   "label": "MES_MenuMes_AtkPartsN_03",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]キノコパーツ"
+  },
+  {
+   "id": "Menu#592",
+   "label": "MES_MesDat_MiniGame_end_info15",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0001:0001:][0005:0000:][Ruby 金;きん]メダル[Color #373737]を[Ruby 獲得;かくとく]！\n[Ruby 賞品;しょうひん]は[Color #E6E6E6][Color #4ED4FF][0003:0000:00 00 05 00 00 00][Color #E6E6E6][Color #373737]コインと\n[Color #E6E6E6][Color #4ED4FF]スペシャルグラブDX[Color #E6E6E6][Color #373737]！[0002:0001:][Color #E6E6E6]"
+  },
+  {
+   "id": "Menu#593",
+   "label": "MES_bgm_title_18",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]秘密へと続く道 DX"
+  },
+  {
+   "id": "Menu#594",
+   "label": "menu_load_06",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00]ファイル２はすでにデータが\n[Ruby 保存;ほぞん]されています。\nファイル１のゲームデータを\nコピーしてファイル２に\n[Ruby 上書;うわが]きしてもよいですか？"
+  },
+  {
+   "id": "Menu#595",
+   "label": "BtlGuide_29_0",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]バトル[Ruby 中;ちゅう] モンスターにマリオ[Ruby 達;たち]がダメージを\n[Ruby 与;あた]えると [Color #2C64FF]バッジパワー[Color #E6E6E6]が[Ruby 出現;しゅつげん]し\n[Color #2C64FF]バッジメーター[Color #E6E6E6]にたまることがあります。"
+  },
+  {
+   "id": "Menu#596",
+   "label": "MES_MenuMes_AtkPartsN_04",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]エネルギーパーツ"
+  },
+  {
+   "id": "Menu#597",
+   "label": "MES_MesDat_MiniGame_end_info16",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0001:0001:][0005:0000:][Ruby 金;きん]メダル[Color #373737]を[Ruby 獲得;かくとく]！\n[Ruby 賞品;しょうひん]は[Color #E6E6E6][Color #4ED4FF][0003:0000:00 00 05 00 00 00][Color #E6E6E6][Color #373737]コインと\n[Color #E6E6E6][Color #4ED4FF]ハラハラブーツ[Color #E6E6E6][Color #373737]！[0002:0001:][Color #E6E6E6]"
+  },
+  {
+   "id": "Menu#598",
+   "label": "MES_bgm_title_19",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]うばわれたクッパ城 DX"
+  },
+  {
+   "id": "Menu#599",
+   "label": "menu_load_07",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00]ファイル１はすでにデータが\n[Ruby 保存;ほぞん]されています。\nファイル２のゲームデータを\nコピーしてファイル１に\n[Ruby 上書;うわが]きしてもよいですか？"
+  },
+  {
+   "id": "Menu#600",
+   "label": "BtlGuide_29_1",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]アタックの[Ruby 評価;ひょうか]がいいほど\n[Color #2C64FF]バッジパワー[Color #E6E6E6]は たくさんもらえます。"
+  },
+  {
+   "id": "Menu#601",
+   "label": "MES_EMesColosseum_class_1_enemy",
+   "style": 1,
+   "attr": "00000000",
+   "jp": "[0009:0000:01 00]イモーヌX"
+  },
+  {
+   "id": "Menu#602",
+   "label": "MES_MenuMes_AtkPartsN_05",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]クッパ城パーツ"
+  },
+  {
+   "id": "Menu#603",
+   "label": "MES_MenuMes_EventItemE_green_key",
+   "style": 13,
+   "attr": "00000000",
+   "jp": "[0009:0000:0D 00]ピーチ[Ruby 城;じょう]の ２かいにある\n[Ruby 緑;みどり]のトビラを あけるためのカギ。"
+  },
+  {
+   "id": "Menu#604",
+   "label": "MES_bgm_title_04_legacy",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]めぐるめぐる思い出の旅"
+  },
+  {
+   "id": "Menu#605",
+   "label": "menu_load_08",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00][Ruby 上書;うわが]きされたデータは\nもとに[Ruby 戻;もど]りませんがよろしいですか？"
+  },
+  {
+   "id": "Menu#606",
+   "label": "MES_MenuMes_AtkPartsN_06",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ムッシーバパーツ"
+  },
+  {
+   "id": "Menu#607",
+   "label": "MES_bgm_title_05_legacy",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]やさしいお別れ"
+  },
+  {
+   "id": "Menu#608",
+   "label": "MES_tuto_yo_bad_hige1_kinoda",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]やや！ お[Ruby 客;きゃく]さん！\nどうしたんです！？\nHIGEが [Ruby 前;まえ]よりヨレヨレですよ！[0002:0001:]"
+  },
+  {
+   "id": "Menu#609",
+   "label": "MES_tuto_yo_nice_hige3_badge",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]おや！ アンタ[Ruby 達;たち]！\nちょっと[Ruby 見;み]ない[Ruby 間;あいだ]に HIGEに\nみがきが かかったねぇ！[0002:0001:]"
+  },
+  {
+   "id": "Menu#610",
+   "label": "MES_tuto_yo_nice_hige5_koukyuu",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]お[Ruby 客様 最高;きゃくさまさいこう]にステキな\nおHIGEに なられましたね。[0002:0001:]"
+  },
+  {
+   "id": "Menu#611",
+   "label": "amiibo_seq_06",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00][0003:0001:00 00 00 00 00 00]"
+  },
+  {
+   "id": "Menu#612",
+   "label": "menu_load_09",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00]データをコピーしています。"
+  },
+  {
+   "id": "Menu#613",
+   "label": "ActGuide_08_0",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]マリオとルイージが[Ruby ２人;ふたり]いっしょにいるときに\n[Ruby 行;おこな]えるアクションです。"
+  },
+  {
+   "id": "Menu#614",
+   "label": "BtlGuide_10_0",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]モンスターにふれると エンカウント！\nバトル[Ruby 開始;かいし]です。"
+  },
+  {
+   "id": "Menu#615",
+   "label": "MES_MenuMes_AtkPartsN_07",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ピーチ城パーツ"
+  },
+  {
+   "id": "Menu#616",
+   "label": "MES_MenuMes_EventItemE_mvaccine",
+   "style": 13,
+   "attr": "00000000",
+   "jp": "[0009:0000:0D 00]３つのスターワクチンを ごうせいして[Ruby 作;つく]りあげた\nまさにミラクルなワクチン！ ききめはきょうれつ！"
+  },
+  {
+   "id": "Menu#617",
+   "label": "MES_bgm_title_06_legacy",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]What a news！"
+  },
+  {
+   "id": "Menu#618",
+   "label": "MES_tuto_yo_bad_hige2_kinoda",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]これでは ボーナスカードは\nプレゼントできませんね…[0002:0001:]"
+  },
+  {
+   "id": "Menu#619",
+   "label": "ActGuide_08_1",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]アクションアイコンを 「[Color #2C64FF]ブラザードリル[Color #E6E6E6]」に\n[Ruby 切;き]り[Ruby 替;か]え[Color #00BB27][U+E001][Color #E6E6E6]→[Color #00BB27][U+E001][Color #E6E6E6]ボタンで\nブラザードリルができます。"
+  },
+  {
+   "id": "Menu#620",
+   "label": "BtlGuide_01_0",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00][Color #E6E6E6]マリオ[Ruby 達;たち]はそれぞれ アクションするボタンが\n[Ruby 決;き]まっています。[Color #E6E6E6]"
+  },
+  {
+   "id": "Menu#621",
+   "label": "BtlGuide_10_1",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]モンスターを ふんで エンカウントすると\nダメージをあたえて バトルを[Ruby 開始;かいし]できます。"
+  },
+  {
+   "id": "Menu#622",
+   "label": "MES_MenuMes_AtkPartsN_08",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]エクボンパーツ"
+  },
+  {
+   "id": "Menu#623",
+   "label": "MES_MenuMes_EventItemE_red_key",
+   "style": 13,
+   "attr": "00000000",
+   "jp": "[0009:0000:0D 00]ピーチ[Ruby 城;じょう]の ２かいにある\n[Ruby 赤;あか]のトビラを あけるためのカギ。"
+  },
+  {
+   "id": "Menu#624",
+   "label": "MES_bgm_title_20_legacy",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]キノコタウンでひとやすみ"
+  },
+  {
+   "id": "Menu#625",
+   "label": "ActGuide_08_2",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]ブラザードリルをすると[Ruby 地中;ちちゅう]にもぐり\n[Ruby 柵;さく]の[Ruby 下;した]やスキマの[Ruby 下;した]を\n[Ruby 通;とお]りぬけることができます。"
+  },
+  {
+   "id": "Menu#626",
+   "label": "BtlGuide_01_1",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]マリオは[Color #FF4343][U+E000][Color #E6E6E6]ボタン ルイージは[Color #00BB27][U+E001][Color #E6E6E6]ボタン\nクッパは[Color #FF9600][U+E002][Color #E6E6E6]ボタン でアクションをします。"
+  },
+  {
+   "id": "Menu#627",
+   "label": "MES_MenuMes_AtkPartsN_09",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]クリニックパーツ"
+  },
+  {
+   "id": "Menu#628",
+   "label": "ActGuide_08_3",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00][Color #FF4343][U+E000][Color #E6E6E6]ボタンか [Color #00BB27][U+E001][Color #E6E6E6]ボタンで[Ruby 飛;と]び[Ruby 出;だ]して [Ruby 元;もと]に[Ruby 戻;もど]れます。\n「[Color #2C64FF]くぼみ[Color #E6E6E6]」の[Ruby 下;した]から [Ruby 飛;と]び[Ruby 出;だ]せば\n[Color #2C64FF]マメ[Color #E6E6E6]を[Ruby 掘;ほ]り[Ruby 返;かえ]すことができます。"
+  },
+  {
+   "id": "Menu#629",
+   "label": "BtlGuide_01_2",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00][Ruby 行動順が;こうどうじゅん]きたら [Color #2C64FF]コマンドブロック[Color #E6E6E6]を[Ruby 選;えら]んで\n[Ruby 行動;こうどう]しましょう。"
+  },
+  {
+   "id": "Menu#630",
+   "label": "MES_tuto_yo_nice_tsuno5_bdog",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ガウ！ ガウ ガウ！ ガウ！\n（オマエ！ TSUNO すごい！ [Ruby 最高;さいこう]！）[0002:0001:]"
+  },
+  {
+   "id": "Menu#631",
+   "label": "SpAtk_10",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00]ボコスカクリボー"
+  },
+  {
+   "id": "Menu#632",
+   "label": "BtlGuide_01_3",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00][Color #2C64FF][U+E077]の[Ruby 左右;さゆう][Color #E6E6E6]で コマンドブロックを[Ruby 選;えら]び\nキャラクターのボタンを[Ruby 押;お]せば [Ruby 決定;けってい]できます。"
+  },
+  {
+   "id": "Menu#633",
+   "label": "BtlGuide_27_0",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00][Ruby 大;おお]きく[Ruby 息;いき]を[Ruby 吸;す]い[Ruby 込;こ]んで ほのお をはきます。\n[Color #FF9600][U+E002][Color #E6E6E6]ボタンを[Color #2C64FF][Ruby 押;お]しっぱなしにすると\n[Ruby 連続;れんぞく]でダメージ[Color #E6E6E6]をあたえられます。"
+  },
+  {
+   "id": "Menu#634",
+   "label": "BtlGuide_30",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00]バッジストックとバッジ[Ruby 効果;こうか]"
+  },
+  {
+   "id": "Menu#635",
+   "label": "MES_tuto_yo_nice_tsuno2_bdog_1",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ガウ ガウガウ…\n（すごい TSUNOのやつ…）[0002:0001:]"
+  },
+  {
+   "id": "Menu#636",
+   "label": "SpAtk_11",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00]ボコスカヘイホー"
+  },
+  {
+   "id": "Menu#637",
+   "label": "BtlGuide_01_4",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]モンスターを[Ruby 攻撃;こうげき]して [Ruby 全員倒;ぜんいんたお]せば[Ruby 勝利;しょうり]できます。\nまずは「[Color #2C64FF]ジャンプ[Color #E6E6E6]」や「[Color #2C64FF]パンチ[Color #E6E6E6]」の\nコマンドブロックを[Ruby 選;えら]んで [Ruby 攻撃;こうげき]してみましょう。"
+  },
+  {
+   "id": "Menu#638",
+   "label": "BtlGuide_27_1",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]また バトルにいる[Ruby 全;すべ]てのモンスターに\nダメージを[Ruby 与;あた]えられる[Ruby 攻撃;こうげき]です。\n[Ruby 一定;いってい]の[Ruby 確率;かくりつ]で「[Color #2C64FF]やけど[Color #E6E6E6]」にすることもできます。"
+  },
+  {
+   "id": "Menu#639",
+   "label": "MES_EMesColosseum_class_5_enemy",
+   "style": 1,
+   "attr": "00000000",
+   "jp": "[0009:0000:01 00]ガラクタモンスターX"
+  },
+  {
+   "id": "Menu#640",
+   "label": "MES_bgm_title_30",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]暗黒パワーを打ち砕け！ DX"
+  },
+  {
+   "id": "Menu#641",
+   "label": "MES_tuto_yo_nice_tsuno2_bdog_2",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ガウガウ ガウガウ ガウガウ。\n（[Ruby 買;か]い[Ruby 物;もの]する ボーナスカード\nプレゼント。）[0002:0001:]"
+  },
+  {
+   "id": "Menu#642",
+   "label": "SpAtk_12",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00]ボコスカノコノコ"
+  },
+  {
+   "id": "Menu#643",
+   "label": "BtlGuide_27_2",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]ほのお をはき[Ruby 始;はじ]めたら [Color #FF9600][U+E002][Color #E6E6E6]ボタンを\n[Color #2C64FF][Ruby 押;お]しっぱなし[Color #E6E6E6]にすることを\n[Ruby 忘;わす]れないようにしましょう。"
+  },
+  {
+   "id": "Menu#644",
+   "label": "MES_ShopMes_Info_Price",
+   "style": 0,
+   "attr": "00000000",
+   "jp": "[0009:0000:00 00][Color #FFFAF1]ねだん[Color #373737]"
+  },
+  {
+   "id": "Menu#645",
+   "label": "MES_bgm_title_31",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]インネンの対決！ DX"
+  },
+  {
+   "id": "Menu#646",
+   "label": "MES_tuto_yo_nice_hige6_kinoda",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]これからは お[Ruby 買;か]い[Ruby 物;もの]ごとに\nウルトラボーナスカードを\nさしあげましょ！[0002:0001:][Next][0001:0004:]これまでより アタリが\n[Ruby 出;で]やすくなってますよ！[0002:0001:]"
+  },
+  {
+   "id": "Menu#647",
+   "label": "MES_tuto_yo_nice_tsuno2_bdog_3",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ガガガウガウガウ ガウ ガウ？\n（ボーナスカード [Ruby 説明;せつめい] [Ruby 必要;ひつよう]？）[0002:0000:0A 00]\n[0001:0001:][0004:0001:]いいえ[0006:0000:28 00][0004:0001:]はい[0002:0000:0A 00]"
+  },
+  {
+   "id": "Menu#648",
+   "label": "MES_tuto_yo_scrratch_tuto_ml4_koukyuu",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]アタリが[Ruby 出;で]ましたら…[0002:0001:]"
+  },
+  {
+   "id": "Menu#649",
+   "label": "MES_tuto_yo_scrratch_tuto_no_ml_kinoda",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]さすが お[Ruby 客;きゃく]さん\nものしりですね！[0002:0001:][Next]それでは お[Ruby 買;か]い[Ruby 物;もの]を\nお[Ruby 楽;たの]しみください～[0002:0001:]"
+  },
+  {
+   "id": "Menu#650",
+   "label": "SpAtk_13",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00]ボコスカボムへい"
+  },
+  {
+   "id": "Menu#651",
+   "label": "ActGuide_06_0",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]マリオとルイージが[Ruby ２人;ふたり]いっしょにいるときに\n[Ruby 行;おこな]えるアクションです。"
+  },
+  {
+   "id": "Menu#652",
+   "label": "MES_Menu_reitem_01_Ekubon_brilock_shop_06_3",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Color #2C64FF][Ruby 岬;みさき][Color #373737][Color #373737]か[Color #373737][Color #2C64FF]ビーチ[Color #373737][Color #373737]にいるらしいです…[Color #373737]"
+  },
+  {
+   "id": "Menu#653",
+   "label": "MES_bgm_title_32",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]イン・ザ・ファイナル DX"
+  },
+  {
+   "id": "Menu#654",
+   "label": "SpAtk_14",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00]ボコスカカメック"
+  },
+  {
+   "id": "Menu#655",
+   "label": "ActGuide_06_1",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]アクションアイコンを「[Color #2C64FF]スピンジャンプ[Color #E6E6E6]」に\n[Ruby 切;き]り[Ruby 替;か]えて[Color #FF4343][U+E000][Color #E6E6E6]→[Color #FF4343][U+E000][Color #E6E6E6]ボタンで\nスピンジャンプができます。"
+  },
+  {
+   "id": "Menu#656",
+   "label": "MES_MenuMes_EventItemN_kokky",
+   "style": 13,
+   "attr": "00000000",
+   "jp": "[0009:0000:0D 00]コッキーちゃん"
+  },
+  {
+   "id": "Menu#657",
+   "label": "MES_MenuMes_EventItemN_vacuum_blk",
+   "style": 13,
+   "attr": "00000000",
+   "jp": "[0009:0000:0D 00]バキュームブロック"
+  },
+  {
+   "id": "Menu#658",
+   "label": "MES_Menu_reitem_01_Ekubon_brilock_shop_06_4",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Color #2C64FF]ムッシーバビーチ[Color #373737][Color #373737]にいるらしいです…[Color #373737]"
+  },
+  {
+   "id": "Menu#659",
+   "label": "MES_bgm_title_33",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ザ・ジャイアント DX"
+  },
+  {
+   "id": "Menu#660",
+   "label": "MES_tuto_yo_bad_tsuno1_bdog",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ガルルル ガウガウ！\n（オマエ TSUNO ニオウぞ！）[0002:0001:]"
+  },
+  {
+   "id": "Menu#661",
+   "label": "SpAtk_15",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00]ボコスカブロドッグ"
+  },
+  {
+   "id": "Menu#662",
+   "label": "ActGuide_06_2",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]スピン[Ruby 中;ちゅう]に [Color #2C64FF][U+E077][Color #E6E6E6]を[Ruby 動;うご]かせば\nそのまま [Ruby 移動;いどう]ができます。\n[Color #2C64FF][U+E077][Color #E6E6E6]を[Ruby 離;はな]せば [Ruby 移動;いどう]をやめます。"
+  },
+  {
+   "id": "Menu#663",
+   "label": "MES_Menu_reitem_01_Ekubon_brilock_shop_06_5",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Color #2C64FF]エクボンの[Ruby 森;もり][Color #373737][Color #373737]にいるらしいです…[Color #373737]"
+  },
+  {
+   "id": "Menu#664",
+   "label": "MES_bgm_title_26_legacy",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]スーパーポンプアップ！"
+  },
+  {
+   "id": "Menu#665",
+   "label": "MES_bgm_title_34",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]The Winner is… DX"
+  },
+  {
+   "id": "Menu#666",
+   "label": "amiibo_seq_05_b_1",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00]マリオがアイテムを[Ruby 持;も]ってきてくれました！"
+  },
+  {
+   "id": "Menu#667",
+   "label": "ActGuide_06_3",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]スピン[Ruby 中;ちゅう]に [Color #FF4343][U+E000][Color #E6E6E6]ボタンか[Color #00BB27][U+E001][Color #E6E6E6]ボタンを[Ruby 押;お]せば\nすぐに やめることができます。"
+  },
+  {
+   "id": "Menu#668",
+   "label": "MES_MenuMes_k_lank1",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ブロンズランク"
+  },
+  {
+   "id": "Menu#669",
+   "label": "MES_Menu_reitem_01_Ekubon_brilock_shop_06_10",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Color #2C64FF]クッパ[Ruby 城;じょう][Color #373737][Color #373737]にいるらしいです…[Color #373737]"
+  },
+  {
+   "id": "Menu#670",
+   "label": "MES_Menu_reitem_01_Ekubon_brilock_shop_06_6",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Color #2C64FF]オタプク[Ruby 草原;そうげん][Color #373737][Color #373737]にいるらしいです…[Color #373737]"
+  },
+  {
+   "id": "Menu#671",
+   "label": "MES_bgm_title_27_legacy",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]Oki Doki！！"
+  },
+  {
+   "id": "Menu#672",
+   "label": "MES_bgm_title_35",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ザ・ボコスカバトル！"
+  },
+  {
+   "id": "Menu#673",
+   "label": "SpAtk_09_0",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]マリオ[Ruby 達;たち]がどかんに[Ruby 入;はい]って グルグル[Ruby 回転;かいてん]してから\nモンスターをふみつけるので どちらが[Ruby 下;した]にいるのかを\n[Ruby 判断;はんだん]してボタンを[Ruby 入力;にゅうりょく]しましょう。"
+  },
+  {
+   "id": "Menu#674",
+   "label": "amiibo_seq_01_a",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00]このゲームに[Ruby 対応;たいおう]した[Ruby amiibo;アミーボ]を[Ruby 読;よ]み[Ruby 込;こ]んで\nゲーム[Ruby 内;ない]で[Ruby 使;つか]える アイテムをもらいましょう。"
+  },
+  {
+   "id": "Menu#675",
+   "label": "amiibo_seq_05_b_2",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00]ルイージがアイテムを[Ruby 持;も]ってきてくれました！"
+  },
+  {
+   "id": "Menu#676",
+   "label": "ActGuide_06_4",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00][Ruby 肩車;かたぐるま]のときは [Color #2C64FF][U+E077][Color #E6E6E6]で\nそのまま[Ruby 移動;いどう]ができます。"
+  },
+  {
+   "id": "Menu#677",
+   "label": "BtlGuide_25_0",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]モンスターの[Ruby 攻撃;こうげきちゅう]中[Color #FF9600] [U+E003][Color #E6E6E6]ボタンを[Ruby 押;お]すと\nその[Ruby 場;ば]に[Ruby 伏;ふ]せて [Color #2C64FF]コウラで[Ruby 防御;ぼうぎょ][Color #E6E6E6]します。"
+  },
+  {
+   "id": "Menu#678",
+   "label": "MES_MenuMes_EventItemE_buri_cat10",
+   "style": 13,
+   "attr": "00000000",
+   "jp": "[0009:0000:0D 00]ジェイルンの[Ruby 中;なか]にいた ブロキャット。"
+  },
+  {
+   "id": "Menu#679",
+   "label": "MES_MenuMes_k_lank2",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]シルバーランク"
+  },
+  {
+   "id": "Menu#680",
+   "label": "MES_Menu_reitem_01_Ekubon_brilock_shop_06_11",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Color #2C64FF]ピーチ[Ruby 城;じょう][Color #373737][Color #373737]にいるらしいです…[Color #373737]"
+  },
+  {
+   "id": "Menu#681",
+   "label": "MES_Menu_reitem_01_Ekubon_brilock_shop_06_7",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Color #2C64FF]クッパ[Ruby 城;じょう]へ[Ruby 続;つづ]く[Ruby 道;みち][Color #373737][Color #373737]にいるらしいです…[Color #373737]"
+  },
+  {
+   "id": "Menu#682",
+   "label": "MES_bgm_title_36",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]Go Forward！"
+  },
+  {
+   "id": "Menu#683",
+   "label": "MES_spatk_00_yo_test_play2",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]どうする？ おてほん[Ruby 見;み]ていく？[0002:0000:0A 00]\n[0001:0001:][0004:0001:]あとでいい[0006:0000:28 00][0004:0001:]そうする[0002:0000:0A 00]"
+  },
+  {
+   "id": "Menu#684",
+   "label": "SpAtk_09_1",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]マリオが[Ruby 下;した]と[Ruby 思;おも]ったら[Color #FF4343][U+E000][Color #E6E6E6] ルイージが[Ruby 下;した]と[Ruby 思;おも]ったら[Color #00BB27][U+E001]\n[Color #E6E6E6]どちらか[Ruby 片方;かたほう]から[Ruby 目;め]を[Ruby 離;はな]さず [Ruby 追;お]いかけて\n[Ruby 押;お]すボタンを[Ruby 決;き]めましょう。"
+  },
+  {
+   "id": "Menu#685",
+   "label": "amiibo_seq_01_b",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00]このゲームに[Ruby 対応;たいおう]した[Ruby amiibo;アミーボ]を[Ruby 読;よ]み[Ruby 込;こ]んで\nゲーム[Ruby 内;ない]で[Ruby 使;つか]える アイテムをもらいましょう。"
+  },
+  {
+   "id": "Menu#686",
+   "label": "amiibo_seq_05_b_3",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00]ピーチ[Ruby 姫;ひめ]がアイテムを[Ruby 持;も]ってきてくれました！"
+  },
+  {
+   "id": "Menu#687",
+   "label": "BtlGuide_25_1",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00][Ruby 落下;らっか]してくるものを コウラのトゲで\nはね[Ruby 返;かえ]して[Ruby 防御;ぼうぎょ]します。\nまた [Ruby 突進;とっしん]してくるものを[Ruby 避;さ]けたりもできます。"
+  },
+  {
+   "id": "Menu#688",
+   "label": "MES_MenuMes_EventItemE_buri_cat11",
+   "style": 13,
+   "attr": "00000000",
+   "jp": "[0009:0000:0D 00]ヅッツンの[Ruby 中;なか]にいた ブロキャット。"
+  },
+  {
+   "id": "Menu#689",
+   "label": "MES_MenuMes_k_lank3",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ゴールドランク"
+  },
+  {
+   "id": "Menu#690",
+   "label": "MES_Menu_reitem_01_Ekubon_brilock_shop_06_12",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]どこにいるか まだわかりません…"
+  },
+  {
+   "id": "Menu#691",
+   "label": "MES_Menu_reitem_01_Ekubon_brilock_shop_06_8",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Color #2C64FF][Ruby 地下;ちか]トンネル[Color #373737][Color #373737]にいるらしいです…[Color #373737]"
+  },
+  {
+   "id": "Menu#692",
+   "label": "MES_bgm_title_37",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]とつげき！ げきとつ！"
+  },
+  {
+   "id": "Menu#693",
+   "label": "MES_tuto_yo_nice_hige1_badge",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]おや！ アンタ[Ruby 達;たち]！\nりっぱな HIGEだねぇ！[0002:0001:]"
+  },
+  {
+   "id": "Menu#694",
+   "label": "MES_tuto_yo_scrratch_tuto_k5_bdog",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ガウガウ ガウガウガウ。\n（[Ruby 買;か]い[Ruby 物;もの]で [Ruby 使;つか]った コイン\n[Ruby 一部;いちぶ]もどる オマエ しあわせ。）[0002:0001:]"
+  },
+  {
+   "id": "Menu#695",
+   "label": "amiibo_seq_05_b_4",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00]キノピオがアイテムを[Ruby 持;も]ってきてくれました！"
+  },
+  {
+   "id": "Menu#696",
+   "label": "ActGuide_13_0",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]クッパが[Ruby 行;おこな]えるアクションです。"
+  },
+  {
+   "id": "Menu#697",
+   "label": "MES_MenuMes_EventItemE_buri_cat12",
+   "style": 13,
+   "attr": "00000000",
+   "jp": "[0009:0000:0D 00]メカコビッツの[Ruby 中;なか]にいた ブロキャット。"
+  },
+  {
+   "id": "Menu#698",
+   "label": "MES_MenuMes_EventItemE_hammer",
+   "style": 13,
+   "attr": "00000000",
+   "jp": "[0009:0000:0D 00]ガラクタスペースで [Ruby 見;み]つけたハンマー。\nこれでかたいものを ガツンとこわせるぞ！"
+  },
+  {
+   "id": "Menu#699",
+   "label": "MES_MenuMes_k_lank4",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ラスボスランク"
+  },
+  {
+   "id": "Menu#700",
+   "label": "MES_Menu_reitem_01_Ekubon_brilock_shop_06_13",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ん～ よくあそんでいますね～"
+  },
+  {
+   "id": "Menu#701",
+   "label": "MES_Menu_reitem_01_Ekubon_brilock_shop_06_9",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Color #2C64FF]ヅツーダレイク[Color #373737][Color #373737]にいるらしいです…[Color #373737]"
+  },
+  {
+   "id": "Menu#702",
+   "label": "MES_bgm_title_38",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]It's me！ Jr.！"
+  },
+  {
+   "id": "Menu#703",
+   "label": "MES_tuto_yo_bad_hige1_koukyuu",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]お[Ruby 客様;きゃくさま]！ どうなされたのですか！？\nおHIGEが [Ruby 前;まえ]よりヨレヨレですよ！[0002:0001:]"
+  },
+  {
+   "id": "Menu#704",
+   "label": "amiibo_seq_05_b_5",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00]クッパがアイテムを[Ruby 持;も]ってきてくれました！"
+  },
+  {
+   "id": "Menu#705",
+   "label": "ActGuide_04_0",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]マリオとルイージが[Ruby ２人;ふたり]いっしょにいるときに\n[Ruby 行;おこな]えるアクションです。"
+  },
+  {
+   "id": "Menu#706",
+   "label": "ActGuide_13_1",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]アクションアイコンを「[Color #2C64FF]ボディプレス[Color #E6E6E6]」に[Ruby 切;き]り[Ruby 替;か]えて\n[Color #FF9600][U+E003][Color #E6E6E6]ボタンでジャンプし [Ruby 空中;くうちゅう]でもう[Ruby 一度;いちど][Color #FF9600][U+E003][Color #E6E6E6]ボタンで\nボディプレスを[Ruby 行;おこな]うことができます。"
+  },
+  {
+   "id": "Menu#707",
+   "label": "MES_EMesColosseum_class_0",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00]－－－－－－－－－"
+  },
+  {
+   "id": "Menu#708",
+   "label": "MES_MenuMes_EventItemE_buri_cat13",
+   "style": 13,
+   "attr": "00000000",
+   "jp": "[0009:0000:0D 00]ゴーネムの[Ruby 中;なか]にいた ブロキャット。"
+  },
+  {
+   "id": "Menu#709",
+   "label": "MES_MenuMes_EventItemN_mvaccine",
+   "style": 13,
+   "attr": "00000000",
+   "jp": "[0009:0000:0D 00]ミラクルワクチン"
+  },
+  {
+   "id": "Menu#710",
+   "label": "MES_MenuMes_k_lank5",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]マスターランク"
+  },
+  {
+   "id": "Menu#711",
+   "label": "MES_Menu_reitem_01_Ekubon_brilock_shop_06_14",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ソー キュート！ たまりません！"
+  },
+  {
+   "id": "Menu#712",
+   "label": "MES_ShopMes_Menu_no_equip_glove",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0005:0000:]グラブは ２つそうびできません。[0002:0001:]"
+  },
+  {
+   "id": "Menu#713",
+   "label": "MES_bgm_title_39",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]It's me！ Jr.！ オルゴールVer."
+  },
+  {
+   "id": "Menu#714",
+   "label": "amiibo_seq_05_b_6",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00]クッパJr.がアイテムを[Ruby 持;も]ってきてくれました！"
+  },
+  {
+   "id": "Menu#715",
+   "label": "ActGuide_04_1",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00][Color #2C64FF][U+E003][Color #E6E6E6]ボタンを[Ruby 押;お]すことで[Ruby ２人;ふたり]いっしょに\nジャンプすることができます。"
+  },
+  {
+   "id": "Menu#716",
+   "label": "ActGuide_13_2",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]ボディプレスでしか[Ruby 壊;こわ]せない[Ruby 床;ゆか]や\n[Ruby 押;お]せないスイッチがあります。\nあやしい[Ruby 場所;ばしょ]があったら[Ruby 使;つか]ってみましょう。"
+  },
+  {
+   "id": "Menu#717",
+   "label": "FldGuide_08_0",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00][Ruby 下画面;したがめん]の[Ruby 右下;みぎした]にある「[Color #2C64FF]ひらく[Color #E6E6E6]」ボタンを\nタッチすると [Color #2C64FF]ミニマップ[Color #E6E6E6]が[Ruby 表示;ひょうじ]されて\n[Ruby 今;いま]いる[Ruby 場所;ばしょ]がわかるようになります。"
+  },
+  {
+   "id": "Menu#718",
+   "label": "MES_EMesColosseum_class_1",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00]クラス１"
+  },
+  {
+   "id": "Menu#719",
+   "label": "MES_EMesOutline_story_kj_10",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00]ルドウィッグがクッパ軍団に戻ってきた！ あと５人！"
+  },
+  {
+   "id": "Menu#720",
+   "label": "MES_MenuMes_EventItemE_buri_cat14",
+   "style": 13,
+   "attr": "00000000",
+   "jp": "[0009:0000:0D 00]ダークトレジャンの[Ruby 中;なか]にいた\nブロキャット。"
+  },
+  {
+   "id": "Menu#721",
+   "label": "MES_Menu_reitem_01_Ekubon_brilock_shop_06_15",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]どこから[Ruby 見;み]ても かわいいですね～"
+  },
+  {
+   "id": "Menu#722",
+   "label": "MES_tuto_yo_scrratch_tuto_ml6_koukyuu",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ボーナスカードのしくみ\nおわかり いただけましたか？[0002:0000:0A 00]\n[0001:0001:][0004:0001:]いいえ[0006:0000:28 00][0004:0001:]はい[0002:0000:0A 00]"
+  },
+  {
+   "id": "Menu#723",
+   "label": "amiibo_seq_05_b_7",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00]クリボーがアイテムを[Ruby 持;も]ってきてくれました！"
+  },
+  {
+   "id": "Menu#724",
+   "label": "FldGuide_08_1",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00][Color #2C64FF][U+E006][Color #E6E6E6]ボタンを[Ruby 押;お]すことで[Ruby 周;まわ]りのマップを\n[Ruby 見;み]ることができます。\n"
+  },
+  {
+   "id": "Menu#725",
+   "label": "MES_EMesColosseum_class_2",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00]クラス２"
+  },
+  {
+   "id": "Menu#726",
+   "label": "MES_EMesOutline_story_kj_11",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00]ラリーとレミーがクッパ軍団に戻ってきた！ あと３人！ お父さんも頑張っている！ 行こう！ クッパ城へ！"
+  },
+  {
+   "id": "Menu#727",
+   "label": "MES_MenuMes_EventItemE_buri_cat15",
+   "style": 13,
+   "attr": "00000000",
+   "jp": "[0009:0000:0D 00]ダークメカコビッツの[Ruby 中;なか]にいた\nブロキャット。"
+  },
+  {
+   "id": "Menu#728",
+   "label": "MES_MenuMes_EventItemN_birinpa",
+   "style": 13,
+   "attr": "00000000",
+   "jp": "[0009:0000:0D 00]ビリビリンパ"
+  },
+  {
+   "id": "Menu#729",
+   "label": "MES_Menu_reitem_01_Ekubon_brilock_shop_06_16",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]やさしそうな[Ruby 目;め]を していますね～"
+  },
+  {
+   "id": "Menu#730",
+   "label": "amiibo_seq_05_b_8",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00]ノコノコがアイテムを[Ruby 持;も]ってきてくれました！"
+  },
+  {
+   "id": "Menu#731",
+   "label": "FldGuide_08_2",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00][Color #2C64FF]Cスティック[Color #E6E6E6]でも\n[Ruby 周;まわ]りのマップを [Ruby 見;み]ることができます。\n※Newニンテンドー3DSのみ"
+  },
+  {
+   "id": "Menu#732",
+   "label": "MES_EMesColosseum_class_3",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00]クラス３"
+  },
+  {
+   "id": "Menu#733",
+   "label": "MES_EMesOutline_story_kj_12",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00]ウェンディがクッパ軍団に戻ってきた！ あとはロイとモートンだけ！"
+  },
+  {
+   "id": "Menu#734",
+   "label": "MES_Menu_reitem_01_Ekubon_brilock_shop_06_17",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ちょっと こわがってますか～？"
+  },
+  {
+   "id": "Menu#735",
+   "label": "MES_tuto_yo_scrconf_00",
+   "style": 5,
+   "attr": "00000000",
+   "jp": "[0009:0000:05 00]ボーナスカードに チャレンジしますか？"
+  },
+  {
+   "id": "Menu#736",
+   "label": "SpAtk_07_0",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]アッチコッチに[Ruby 出現;しゅつげん]する[Ruby 窓;まど]から つぎつぎと\nマリオとルイージがあらわれては モンスターを\nふんでいくので [Ruby 出;で]てきたほうのボタンを[Ruby 押;お]します。"
+  },
+  {
+   "id": "Menu#737",
+   "label": "amiibo_seq_05_b_9",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00]テレサがアイテムを[Ruby 持;も]ってきてくれました！"
+  },
+  {
+   "id": "Menu#738",
+   "label": "BtlGuide_23_0",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]クッパはモンスターの[Ruby 攻撃中;こうげきちゅう] つねに\n２[Ruby 種類;しゅるい]の[Ruby 防御;ぼうぎょ]を[Ruby 自由;じゆう]に[Ruby 選;えら]んで[Ruby 使;つか]うことができます。"
+  },
+  {
+   "id": "Menu#739",
+   "label": "MES_EMesColosseum_class_4",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00]クラス４"
+  },
+  {
+   "id": "Menu#740",
+   "label": "MES_EMesOutline_story_kj_13",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00]ロイがクッパ軍団に戻ってきた！ あとは…モートンだけ！ いざ！ クッパ城内へ！"
+  },
+  {
+   "id": "Menu#741",
+   "label": "MES_Menu_reitem_01_Ekubon_brilock_shop_06_18",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]オウ！ マイ ブロキャットちゃ～ん！"
+  },
+  {
+   "id": "Menu#742",
+   "label": "MES_tuto_yo_scrratch_tuto_ml5_badge",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]お[Ruby 買;か]い[Ruby 物;もの]で [Ruby 使;つか]ったコインの[Ruby 一部;いちぶ]が\nもどってくる… ってな[Ruby 感;かん]じさ！[0002:0001:]"
+  },
+  {
+   "id": "Menu#743",
+   "label": "SoloPunch_00",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00]パンチ"
+  },
+  {
+   "id": "Menu#744",
+   "label": "SpAtk_07_1",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]マリオが[Ruby 出;で]てきたら[Color #FF4343][U+E000][Color #E6E6E6] ルイージが[Ruby 出;で]てきたら[Color #00BB27][U+E001][Color #E6E6E6]\n[Ruby ２人;ふたり]が[Ruby 同時;どうじ]に[Ruby 出;で]てきたら[Color #FF4343][U+E000][Color #E6E6E6][Color #00BB27][U+E001][Color #E6E6E6]を[Ruby 同時;どうじ]に[Ruby 押;お]しましょう。"
+  },
+  {
+   "id": "Menu#745",
+   "label": "ActGuide_00",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00]アクションアイコン"
+  },
+  {
+   "id": "Menu#746",
+   "label": "BtlGuide_19_0",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00][Color #2C64FF]ハンマー[Color #E6E6E6]を[Ruby 選;えら]べば モンスターを[Ruby 叩;たた]いて\nダメージを[Ruby 与;あた]えられます。"
+  },
+  {
+   "id": "Menu#747",
+   "label": "BtlGuide_23_1",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00][Color #FF9600][U+E002][Color #E6E6E6]ボタンで「[Color #2C64FF]パンチ[Color #E6E6E6]」 [Color #FF9600][U+E003][Color #E6E6E6]ボタンで「[Color #2C64FF]コウラ[Color #E6E6E6]」\n[Color #2C64FF]パンチは[Ruby 正面の攻撃;しょうめんこうげき][Color #E6E6E6]を [Color #2C64FF]コウラは[Ruby 上;うえ]からの[Ruby 攻撃;こうげき][Color #E6E6E6]を\nおもに[Ruby 防御;ぼうぎょ]できます。"
+  },
+  {
+   "id": "Menu#748",
+   "label": "MES_EMesColosseum_class_5",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00]クラス５"
+  },
+  {
+   "id": "Menu#749",
+   "label": "MES_EMesColosseum_guide_title_01",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00]アイテムについて"
+  },
+  {
+   "id": "Menu#750",
+   "label": "MES_EMesOutline_story_kj_14",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00]モートンがクッパ軍団に戻ってきた！ ７人衆が全員そろった！ さあ！ 最終決戦！"
+  },
+  {
+   "id": "Menu#751",
+   "label": "MES_Menu_reitem_01_Ekubon_brilock_shop_06_19",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]このパーフェクトな [Ruby 四角;しかく]いボディ！"
+  },
+  {
+   "id": "Menu#752",
+   "label": "MES_bgm_title_14_legacy",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]Peaceful"
+  },
+  {
+   "id": "Menu#753",
+   "label": "MES_tuto_yo_nice_hige5_badge",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]おや！ アンタ[Ruby 達;たち]！\nHIGEが [Ruby 最高;さいこう]に\nよくなったねぇ！[0002:0001:]"
+  },
+  {
+   "id": "Menu#754",
+   "label": "ActGuide_01",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00]アクションアイコン"
+  },
+  {
+   "id": "Menu#755",
+   "label": "ActGuide_11_0",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]クッパが[Ruby 行;おこな]えるアクションです。"
+  },
+  {
+   "id": "Menu#756",
+   "label": "BtlGuide_19_1",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]トゲが[Ruby 生;は]えているなど ふめないモンスターには\nハンマーで[Ruby 攻撃;こうげき]しましょう。"
+  },
+  {
+   "id": "Menu#757",
+   "label": "MES_EMesColosseum_class_6",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00]クラス６"
+  },
+  {
+   "id": "Menu#758",
+   "label": "MES_EMesColosseum_guide_title_02",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00]バトルのターンについて"
+  },
+  {
+   "id": "Menu#759",
+   "label": "MES_EMesOutline_story_kj_15",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00]クッパ城を取り戻したクッパJr.と７人衆。けど… まだまだクッパJr.の試練は続く…？"
+  },
+  {
+   "id": "Menu#760",
+   "label": "MES_bgm_title_15_legacy",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ゲプー岬に吹く風は"
+  },
+  {
+   "id": "Menu#761",
+   "label": "MES_tuto_yo_nice_hige6_koukyuu",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]これからは お[Ruby 買;か]い[Ruby 物;もの]ごとに\nウルトラボーナスカードを\nさしあげます。[0002:0001:][Next][0001:0004:]これまでより アタリが\n[Ruby 出;で]やすくなっておりますよ。[0002:0001:]"
+  },
+  {
+   "id": "Menu#762",
+   "label": "MES_tuto_yo_scrratch_tuto_end_ml",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]それでは お[Ruby 買;か]い[Ruby 物;もの]を\nお[Ruby 楽;たの]しみください～[0002:0001:]"
+  },
+  {
+   "id": "Menu#763",
+   "label": "MES_tuto_yo_scrratch_tuto_k2_bdog",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ガウガガガウ ガウガウガウ。\n（これ ボーナスカード。\n[Ruby 買;か]い[Ruby 物;もの]した プレゼント。）[0002:0001:]"
+  },
+  {
+   "id": "Menu#764",
+   "label": "SoloFire_00",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00]ファイア"
+  },
+  {
+   "id": "Menu#765",
+   "label": "SoloJump_M_00",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00]ジャンプ"
+  },
+  {
+   "id": "Menu#766",
+   "label": "ActGuide_02",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00]ジャンプ"
+  },
+  {
+   "id": "Menu#767",
+   "label": "ActGuide_02_0",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]マリオとルイージが[Ruby 行;おこな]えるアクションです。"
+  },
+  {
+   "id": "Menu#768",
+   "label": "ActGuide_11_1",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]アクションアイコンを「[Color #2C64FF]ほのお[Color #E6E6E6]」に[Ruby 切;き]り[Ruby 替;か]えて\n[Color #FF9600][U+E003][Color #E6E6E6]ボタンでほのおを[Ruby 吐;は]くことができます。"
+  },
+  {
+   "id": "Menu#769",
+   "label": "MES_EMesColosseum_class_7",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00]クラス７"
+  },
+  {
+   "id": "Menu#770",
+   "label": "MES_EMesColosseum_guide_title_03",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00]クリア[Ruby 条件;じょうけん]について"
+  },
+  {
+   "id": "Menu#771",
+   "label": "MES_menu_tuto_badge_change_badge_change_l",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Color #2C64FF][U+E004][Color #373737][Color #373737]ボタンで [Color #373737][Color #00BB27][Ruby 緑;みどり]のアンタ[Color #373737][Color #373737]の\nバッジを [Ruby 選;えら]ぶ！[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "Menu#772",
+   "label": "MES_record_kill_mon_num",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]やっつけたモンスターの数"
+  },
+  {
+   "id": "Menu#773",
+   "label": "ActGuide_02_1",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]アクションアイコンを「[Color #2C64FF]ジャンプ[Color #E6E6E6]」にして\nマリオは[Color #FF4343][U+E000][Color #E6E6E6]ボタン ルイージは[Color #00BB27][U+E001][Color #E6E6E6]ボタンで\nジャンプすることができます。"
+  },
+  {
+   "id": "Menu#774",
+   "label": "ActGuide_03",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00]ハンマー"
+  },
+  {
+   "id": "Menu#775",
+   "label": "ActGuide_11_2",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00][Ruby 木;き]や[Ruby 草;くさ]を[Ruby 燃;も]やしたり [Ruby 様々;さまざま]な[Ruby 使;つか]い[Ruby 方;かた]ができます。\nいろいろな[Ruby 場所;ばしょ]で [Ruby 使;つか]ってみましょう。"
+  },
+  {
+   "id": "Menu#776",
+   "label": "FldGuide_06_0",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00][Ruby 手;て]に[Ruby 入;い]れた[Color #2C64FF]そうび[Ruby 品;ひん][Color #E6E6E6]は そうびしてみましょう。\nそうびをしないと [Ruby 効果;こうか]がありません。"
+  },
+  {
+   "id": "Menu#777",
+   "label": "MES_EMesColosseum_guide_title_04",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00][Ruby 巨大化;きょだいか]バトルについて"
+  },
+  {
+   "id": "Menu#778",
+   "label": "MES_menu_tuto_badge_change_badge_change_m",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Color #2C64FF][U+E005][Color #373737][Color #373737]ボタンで [Color #373737][Color #FF4343][Ruby 赤;あか]いアンタ[Color #373737][Color #373737]の\nバッジを [Ruby 選;えら]ぶ！[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "Menu#779",
+   "label": "MES_setting_assist",
+   "style": 5,
+   "attr": "00000000",
+   "jp": "[0009:0000:05 00]アシストきのう"
+  },
+  {
+   "id": "Menu#780",
+   "label": "ActGuide_02_2",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]ジャンプをすると [Ruby 高;たか]い[Ruby 場所;ばしょ]へ[Ruby 登;のぼ]ったり\nブロックを [Ruby 叩;たた]いたりできます。"
+  },
+  {
+   "id": "Menu#781",
+   "label": "ActGuide_04",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][Ruby ２人同時;ふたりどうじ]ジャンプ"
+  },
+  {
+   "id": "Menu#782",
+   "label": "FldGuide_06_1",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]そうび[Ruby 品;ひん]は [Color #2C64FF]スターメニュー[Color #E6E6E6]で\nそうびすることができます。"
+  },
+  {
+   "id": "Menu#783",
+   "label": "MES_MenuMes_EventItemN_red_key",
+   "style": 13,
+   "attr": "00000000",
+   "jp": "[0009:0000:0D 00]赤のカギ"
+  },
+  {
+   "id": "Menu#784",
+   "label": "MES_tuto_yo_nice_hige1",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]マリオさん！ ルイージさん！\nりっぱな HIGEになりましたね！[0002:0001:]"
+  },
+  {
+   "id": "Menu#785",
+   "label": "SpAtk_14_0",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00][Ruby 整列;せいれつ]した[Color #2C64FF]カメック[Ruby 達;たち]の[Ruby 杖;つえ]の[Ruby 光;ひかり]を [Ruby 素早;すばや]くなぞる[Color #E6E6E6]と\nクッパがほのおをはいて [Ruby 光;ひかり]を[Ruby 強;つよ]くします。"
+  },
+  {
+   "id": "Menu#786",
+   "label": "ActGuide_02_3",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]ブロックによって [Ruby 道;みち]が[Ruby 開;ひら]けることもあります。\nあやしいブロックは [Ruby 叩;たた]いてみましょう。"
+  },
+  {
+   "id": "Menu#787",
+   "label": "ActGuide_05",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00]ちびマリオ"
+  },
+  {
+   "id": "Menu#788",
+   "label": "BtlGuide_30_0",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00][Color #2C64FF]バッジメーター[Color #E6E6E6]が[Ruby 満;まん]タンになると[Color #2C64FF]バッジストック[Color #E6E6E6]に\n[Ruby 変化;へんか]し マリオ[Ruby 達;たち]がコマンド[Ruby 選択時;せんたくじ]に\n[Color #2C64FF][Ruby 下画面の右側に表示;したがめんみぎがわひょうじ][Color #E6E6E6]されます。"
+  },
+  {
+   "id": "Menu#789",
+   "label": "MES_EMesPlace_place20",
+   "style": 13,
+   "attr": "00000000",
+   "jp": "[0009:0000:0D 00]キノピオひろば"
+  },
+  {
+   "id": "Menu#790",
+   "label": "MES_MenuMes_EventItemN_hammer",
+   "style": 13,
+   "attr": "00000000",
+   "jp": "[0009:0000:0D 00]ハンマー"
+  },
+  {
+   "id": "Menu#791",
+   "label": "MES_tuto_yo_nice_hige2",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 当店;とうてん]では りっぱな\nHIGEの[Ruby 方;かた]に ボーナスカードを\nさしあげているんですが…[0002:0001:][Next]ボーナスカードの\n[Ruby 説明;せつめい]は いたしましょうか？[0002:0000:0A 00]\n[0001:0001:][0004:0001:]いいえ[0006:0000:28 00][0004:0001:]はい[0002:0000:0A 00]"
+  },
+  {
+   "id": "Menu#792",
+   "label": "SpAtk_05_0",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00][Ruby 上;うえ]からふってくる[Ruby 隕石;いんせき]の [Ruby 落下地点;らっかちてん]に\nマリオとルイージを [Color #2C64FF][U+E077]の[Ruby 左右;さゆう]で[Ruby 移動;いどう][Color #E6E6E6]させます。"
+  },
+  {
+   "id": "Menu#793",
+   "label": "SpAtk_14_1",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00][Ruby 強;つよ]くなった[Ruby 光;ひかり]が[Ruby 多;おお]いほど カメックのはなつ\n[Ruby 魔法;まほう]のダメージがアップします。"
+  },
+  {
+   "id": "Menu#794",
+   "label": "ActGuide_06",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00]スピンジャンプ"
+  },
+  {
+   "id": "Menu#795",
+   "label": "BtlGuide_21_0",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]バトル[Ruby 中;ちゅう] モンスターの[Ruby 攻撃;こうげき]によって\n[Color #2C64FF][Ruby 状態変化;じょうたいへんか][Color #E6E6E6]が [Ruby 引;ひ]きおこされることが あります。"
+  },
+  {
+   "id": "Menu#796",
+   "label": "BtlGuide_30_1",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]バッジストックをコマンド[Ruby 選択時;せんたくじ]にタッチすると\nそのバッジストックの[Color #2C64FF]バッジ[Ruby 効果;こうか][Color #E6E6E6]が[Ruby 使;つか]えます。"
+  },
+  {
+   "id": "Menu#797",
+   "label": "MES_EMesPlace_place21",
+   "style": 13,
+   "attr": "00000000",
+   "jp": "[0009:0000:0D 00]ポンプスペース"
+  },
+  {
+   "id": "Menu#798",
+   "label": "MES_MenuMes_EventItemE_starpanel",
+   "style": 13,
+   "attr": "00000000",
+   "jp": "[0009:0000:0D 00]エネルギースペースの スターのパネルから\nうまれおちたスターパネル。かたちはさまざま。"
+  },
+  {
+   "id": "Menu#799",
+   "label": "MES_ShopMes_Menu_no_equip_pants",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0005:0000:]ソックスは ２つそうびできません。[0002:0001:]"
+  },
+  {
+   "id": "Menu#800",
+   "label": "MES_ShopMes_Menu_no_equip_ring",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0005:0000:]ゆびわは ２つそうびできません。[0002:0001:]"
+  },
+  {
+   "id": "Menu#801",
+   "label": "MES_tuto_yo_nice_hige3",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]おや？ マリオさん ルイージさん。\nさらにステキな HIGEに\nなりましたね！[0002:0001:]"
+  },
+  {
+   "id": "Menu#802",
+   "label": "MES_tuto_yo_scrratch_tuto_ml5_kinoda",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]お[Ruby 買;か]い[Ruby 物;もの]で [Ruby 使;つか]ったコインの[Ruby 一部;いちぶ]が\nもどってくる… という しくみ！[0002:0001:]"
+  },
+  {
+   "id": "Menu#803",
+   "label": "SpAtk_05_1",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]マリオなら [Color #FF4343][U+E000] [Color #E6E6E6]ルイージなら [Color #00BB27][U+E001] [Color #E6E6E6]ボタンで\nハンマーをかまえて [Ruby 隕石;いんせき]をモンスターにむかって\n[Ruby 打;う]ち[Ruby 返;かえ]しましょう。"
+  },
+  {
+   "id": "Menu#804",
+   "label": "amiibo_btn_pnl",
+   "style": 3,
+   "attr": "00000000",
+   "jp": "[0009:0000:03 00]もどる"
+  },
+  {
+   "id": "Menu#805",
+   "label": "ActGuide_07",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00]コウラマリオ"
+  },
+  {
+   "id": "Menu#806",
+   "label": "BtlGuide_17_0",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]イージーモード[Ruby 中;ちゅう]や\nマリオ[Ruby 達;たち]が[Ruby 全員;ぜんいん]やられて やりなおしたバトルでは\n[Color #2C64FF]ヒントメッセージ[Color #E6E6E6]が [Ruby 出現;しゅつげん]することがあります。"
+  },
+  {
+   "id": "Menu#807",
+   "label": "BtlGuide_21_1",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00][Ruby 状態変化;じょうたいへんか]がおこると [Ruby 行動;こうどう]が[Ruby 制限;せいげん]されたり\nHPが[Ruby 減;へ]ったりします。"
+  },
+  {
+   "id": "Menu#808",
+   "label": "BtlGuide_30_2",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]バッジ[Ruby 効果;こうか]はコマンド[Ruby 選択時;せんたくじ]のみ[Ruby 利用;りよう]できます。\nバッジ[Ruby 効果;こうか]を[Ruby 使;つか]ってもコマンドは[Ruby 選択;せんたく]できるので\nコマンドを[Ruby 選択;せんたく]する[Ruby 前;まえ]にタッチしましょう。"
+  },
+  {
+   "id": "Menu#809",
+   "label": "MES_EMesPlace_place22",
+   "style": 13,
+   "attr": "00000000",
+   "jp": "[0009:0000:0D 00]メタボルスペース"
+  },
+  {
+   "id": "Menu#810",
+   "label": "MES_MenuMes_ml_lank1",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]キノコランク"
+  },
+  {
+   "id": "Menu#811",
+   "label": "MES_tuto_yo_nice_hige4",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]これからは お[Ruby 買;か]い[Ruby 物;もの]ごとに\nスーパーボーナスカードを\nさしあげます！[0002:0001:][Next][0001:0004:]これまでより アタリが\n[Ruby 出;で]やすくなってますよ！[0002:0001:]"
+  },
+  {
+   "id": "Menu#812",
+   "label": "MES_tuto_yo_scrratch_tuto_ml6_kinoda",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ボーナスカードのしくみ\nわかりましたか？[0002:0000:0A 00]\n[0001:0001:][0004:0001:]いいえ[0006:0000:28 00][0004:0001:]はい[0002:0000:0A 00]"
+  },
+  {
+   "id": "Menu#813",
+   "label": "SpAtk_05_2",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]このアタックを[Ruby 最後;さいご]まで[Ruby 成功;せいこう]させ [Color #2C64FF]Excellent[Color #E6E6E6] に\nなったら[Ruby 隕石;いんせき]が[Ruby 割;わ]れて [Ruby 中;なか]からアイテムが[Ruby 出現;しゅつげん]！\n[Ruby 何;なに]が[Ruby 出;で]るかはお[Ruby 楽;たの]しみ。"
+  },
+  {
+   "id": "Menu#814",
+   "label": "ActGuide_08",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00]ブラザードリル"
+  },
+  {
+   "id": "Menu#815",
+   "label": "BtlGuide_08_0",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]モンスターの[Ruby 攻撃中;こうげきちゅう]\nマリオ[Ruby 達;たち]が [Ruby 腰;こし]を[Ruby 落;お]として[Ruby 構;かま]えたら\n[Color #2C64FF]ジャンプ[Ruby 防御;ぼうぎょ][Color #E6E6E6]の[Ruby 合図;あいず]です。"
+  },
+  {
+   "id": "Menu#816",
+   "label": "BtlGuide_17_1",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]ヒントを[Ruby 見;み]るには 「[Color #2C64FF]ヒント[Color #E6E6E6]」のコマンドブロックを\nえらびましょう。"
+  },
+  {
+   "id": "Menu#817",
+   "label": "BtlGuide_21_2",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00][Ruby 時間;じかん]がたてば なおります。\nアイテム「[Color #2C64FF]リフレッシュハーブ[Color #E6E6E6]」を[Ruby 使;つか]うと\nすぐ なおせます。"
+  },
+  {
+   "id": "Menu#818",
+   "label": "MES_EMesColosseum_guide_item_02_00",
+   "style": 3,
+   "attr": "00000000",
+   "jp": "[0009:0000:03 00]このバトルではマリオ[Ruby 達;たち]が\n[Ruby 持;も]っているアイテムは[Ruby 使;つか]えません。\nコロシアムが[Ruby 用意;ようい]した\nアイテムを[Ruby 使;つか]って [Ruby 戦;たたか]います。"
+  },
+  {
+   "id": "Menu#819",
+   "label": "MES_EMesPlace_place23",
+   "style": 13,
+   "attr": "00000000",
+   "jp": "[0009:0000:0D 00]エネルギースペース"
+  },
+  {
+   "id": "Menu#820",
+   "label": "MES_MenuMes_ml_lank2",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]コウラランク"
+  },
+  {
+   "id": "Menu#821",
+   "label": "MES_menu_tuto_badge_change_badge_change_ok",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]バッジの [Ruby 組;く]み[Ruby 合;あ]わせが\n[Ruby 決;き]まったら [Color #2C64FF][U+E000][Color #373737][Color #373737]ボタンで[Ruby 決定;けってい]だよ！[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "Menu#822",
+   "label": "MES_tuto_yo_bad_hige3_badge",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]これじゃ [Ruby 残念;ざんねん]だけど\nスーパーボーナスカードは\nプレゼントできないね…[0002:0001:][Next][0001:0004:]ノーマルボーナスカードなら\nプレゼントできるけどね。[0002:0001:]"
+  },
+  {
+   "id": "Menu#823",
+   "label": "MES_tuto_yo_nice_hige5",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]マリオさん！ ルイージさん！\n[Ruby 最高;さいこう]にステキな HIGEに\nなりましたね！[0002:0001:]"
+  },
+  {
+   "id": "Menu#824",
+   "label": "menu_save_01",
+   "style": 3,
+   "attr": "00000000",
+   "jp": "[0009:0000:03 00]セーブ[Ruby 中;ちゅう]です。\n[Ruby 電源;でんげん]をOFFにしないでください。"
+  },
+  {
+   "id": "Menu#825",
+   "label": "ActGuide_00_0",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00][Color #2C64FF][U+E004]ボタン[Color #E6E6E6]か[Color #2C64FF][U+E005]ボタン [Color #E6E6E6]を[Ruby 押;お]すことで\nアクションアイコンをきりかえることができます。"
+  },
+  {
+   "id": "Menu#826",
+   "label": "ActGuide_09",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00]バルーンマリオ"
+  },
+  {
+   "id": "Menu#827",
+   "label": "BtlGuide_08_1",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]キャラクターのボタンを[Ruby 押;お]せば ジャンプできます。"
+  },
+  {
+   "id": "Menu#828",
+   "label": "BtlGuide_17_2",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]モンスターを[Ruby 倒;たお]すヒントだけでなく お[Ruby 得;とく]な\n[Ruby 情報;じょうほう]が[Ruby 得;え]られることもあります。\nえらべるようになったら すぐ[Ruby 確認;かくにん]してみましょう。"
+  },
+  {
+   "id": "Menu#829",
+   "label": "MES_EMesColosseum_guide_item_02_01",
+   "style": 3,
+   "attr": "00000000",
+   "jp": "[0009:0000:03 00]クラスによって\n[Ruby 用意;ようい]されるアイテムは[Ruby 変;か]わります。"
+  },
+  {
+   "id": "Menu#830",
+   "label": "MES_EMesPlace_place24",
+   "style": 13,
+   "attr": "00000000",
+   "jp": "[0009:0000:0D 00]エアースペース"
+  },
+  {
+   "id": "Menu#831",
+   "label": "MES_MenuMes_ml_lank3",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]フラワーランク"
+  },
+  {
+   "id": "Menu#832",
+   "label": "MES_tuto_yo_nice_hige6",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]これからは お[Ruby 買;か]い[Ruby 物;もの]ごとに\nウルトラボーナスカードを\nさしあげます！[0002:0001:][Next][0001:0004:]これまでより アタリが\n[Ruby 出;で]やすくなってますよ！[0002:0001:]"
+  },
+  {
+   "id": "Menu#833",
+   "label": "MES_tuto_yo_scrres_fail_00",
+   "style": 5,
+   "attr": "00000000",
+   "jp": "[0009:0000:05 00]ハズレです…\n[Ruby 残念;ざんねん]でしたね。"
+  },
+  {
+   "id": "Menu#834",
+   "label": "ActGuide_00_1",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00][Color #2C64FF][U+E004][U+E005][Color #E6E6E6]を [Color #2C64FF][Ruby 同時;どうじ]に[Ruby 押;お]す[Color #E6E6E6]ことで\nマリオとルイージは「[Color #2C64FF]ジャンプ[Color #E6E6E6]」\nクッパは「[Color #2C64FF]パンチ[Color #E6E6E6]」へ[Ruby 戻;もど]せます。"
+  },
+  {
+   "id": "Menu#835",
+   "label": "BtlGuide_08_2",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]ジャンプすれば [Ruby 攻撃;こうげき]をかいひできます。\nうまくモンスターをふめば ダメージを[Ruby 与;あた]えられます。"
+  },
+  {
+   "id": "Menu#836",
+   "label": "FldGuide_04_0",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]マリオは[Color #FF4343][U+E000][Color #E6E6E6]ボタン ルイージは[Color #00BB27][U+E001][Color #E6E6E6]ボタン \nクッパは[Color #FF9600][U+E002][Color #E6E6E6]ボタンでアクションができます。"
+  },
+  {
+   "id": "Menu#837",
+   "label": "MES_EMesColosseum_class_1_prize",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0005:0000:][0001:0001:][0001:0004:]トロフィーを[Ruby 獲得;かくとく]！\n[Ruby 賞品;しょうひん]は [Color #4ED4FF][0003:0000:00 00 05 00 00 00][Color #E6E6E6]コインと\n[Color #4ED4FF][0003:0001:00 00 00 00 01 00][Color #E6E6E6]！[0002:0000:1E 00][0002:0001:]"
+  },
+  {
+   "id": "Menu#838",
+   "label": "MES_EMesColosseum_guide_item_02_02",
+   "style": 3,
+   "attr": "00000000",
+   "jp": "[0009:0000:03 00]バトルが[Ruby 始;はじ]まるとき\nHPとBPは マンタンになりますが\nバッジのメーターは \nゼロからのスタートとなります。"
+  },
+  {
+   "id": "Menu#839",
+   "label": "MES_EMesOutline_story10",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00]スライディングパンチもできるようになったクッパ。再びクッパ城へ向けて出発だ！"
+  },
+  {
+   "id": "Menu#840",
+   "label": "MES_EMesPlace_place25",
+   "style": 13,
+   "attr": "00000000",
+   "jp": "[0009:0000:0D 00]パワースペース うで"
+  },
+  {
+   "id": "Menu#841",
+   "label": "MES_MenuMes_ml_lank4",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ブーメランランク"
+  },
+  {
+   "id": "Menu#842",
+   "label": "MES_bgm_title_02_legacy",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]新しいページをめくって"
+  },
+  {
+   "id": "Menu#843",
+   "label": "SoloJump_L_00_0",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]ふみつける[Ruby 時;とき]に[Color #00BB27][U+E001][Color #E6E6E6]ボタン。[Ruby 成功;せいこう]したら もう１[Ruby 回;かい]！\nすべて[Ruby 成功;せいこう]させて [Color #2C64FF]Excellent[Color #E6E6E6] を[Ruby 狙;ねら]いましょう。"
+  },
+  {
+   "id": "Menu#844",
+   "label": "BtlGuide_01",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][Ruby 基本;きほん]①：コマンドを[Ruby 選;えら]んで[Ruby 攻撃;こうげき]"
+  },
+  {
+   "id": "Menu#845",
+   "label": "FldGuide_04_1",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]マリオとルイージがクッパの[Ruby 体内;たいない]に\nいないとき クッパの[Ruby 操作;そうさ]はできません。"
+  },
+  {
+   "id": "Menu#846",
+   "label": "MES_EMesOutline_story11",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00]やっとクッパ城にたどりついたが… なんとゲラコビッツシアター？に作りかえられていた！"
+  },
+  {
+   "id": "Menu#847",
+   "label": "MES_EMesPlace_place26",
+   "style": 13,
+   "attr": "00000000",
+   "jp": "[0009:0000:0D 00]パワースペース いぶくろ"
+  },
+  {
+   "id": "Menu#848",
+   "label": "MES_MenuMes_ml_lank5",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]スターランク"
+  },
+  {
+   "id": "Menu#849",
+   "label": "MES_bgm_title_03_legacy",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]しっかりきっちりばっちりと"
+  },
+  {
+   "id": "Menu#850",
+   "label": "SpAtk_12_0",
+   "style": 11,
+   "attr": "00000000",
+   "jp": "[0009:0000:0B 00]モンスターに[Ruby 体当;たいあ]たりして はね[Ruby 返;かえ]ってきたノコノコを\n[Color #2C64FF]クッパをスライドさせて[Ruby 上下;じょうげ]に[Ruby 動;うご]かし[Color #E6E6E6] ふたたび\nモンスターにむかって はね[Ruby 返;かえ]しましょう。"
+  }
+ ]
+}

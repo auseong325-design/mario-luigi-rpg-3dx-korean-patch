@@ -1,0 +1,152 @@
+{
+ "source": "Msg/JP_ja/FMsg.dat:i_metaboru_15",
+ "messages": [
+  {
+   "id": "FMsg/i_metaboru_15#0",
+   "label": "MES_KMetaboru_15_KMetaboru_15_mes_20",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:][0001:0001:]マリオ ルイージ お[Ruby 願;ねが]いね。[0002:0001:][Next][0001:0000:]わたくしもこれから どうしたらいいか\nイエロースターと [Ruby 考;かんが]えてみます。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_metaboru_15#1",
+   "label": "MES_KMetaboru_15_KMetaboru_15_mes_4_2",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]わたくしは いったい…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_metaboru_15#2",
+   "label": "MES_KMetaboru_15_KMetaboru_15_mes_10",
+   "style": 10,
+   "attr": "00000000",
+   "jp": "[0009:0000:0A 00][0005:0000:]じょうだんはやめて！[0002:0000:28 00]"
+  },
+  {
+   "id": "FMsg/i_metaboru_15#3",
+   "label": "MES_KMetaboru_15_KMetaboru_15_mes_11",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]マリオ！ ルイージ！\nありがとう！！！[0002:0001:][Next]きっと [Ruby 助;たす]けにきてくれると\n[Ruby 信;しん]じていました。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_metaboru_15#4",
+   "label": "MES_KMetaboru_15_KMetaboru_15_mes_12",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ピーチ[Ruby 姫;ひめ]…\nみんな クッパに[Ruby 吸;す]い[Ruby 込;こ]まれて\n[Ruby 体内;たいない]にいるのよ…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_metaboru_15#5",
+   "label": "MES_KMetaboru_15_KMetaboru_15_mes_13",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]まぁ… それなら みんなで[Ruby 早;はや]く\nここから[Ruby 抜;ぬ]け[Ruby 出;だ]しましょう。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_metaboru_15#6",
+   "label": "MES_KMetaboru_15_KMetaboru_15_mes_14",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]え？ [Ruby 外;そと]に[Ruby 出;で]られないかも\nしれないですって？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_metaboru_15#7",
+   "label": "MES_KMetaboru_15_KMetaboru_15_mes_15",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]まぁ… どうしましょう…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_metaboru_15#8",
+   "label": "MES_KMetaboru_15_KMetaboru_15_mes_16",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]そうね… いままでは\nピーチ[Ruby 姫;ひめ]を [Ruby 助;たす]けることしか\n[Ruby 考;かんが]えてなかったけど…[0002:0001:][Next][0001:0004:][Ruby 今度;こんど]は [Ruby 外;そと]に[Ruby 出;で]る[Ruby 方法;ほうほう]を\n[Ruby 探;さが]さないと…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_metaboru_15#9",
+   "label": "MES_KMetaboru_15_KMetaboru_15_mes_17",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 見;み]て！ まだ この[Ruby 先;さき]にも\n[Ruby 部屋;へや]が [Ruby 続;つづ]いているみたいだわ。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_metaboru_15#10",
+   "label": "MES_KMetaboru_15_KMetaboru_15_mes_18",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]もう[Ruby 少;すこ]し [Ruby 進;すす]めば [Ruby 出口;でぐち]が\n[Ruby 見;み]つかるかもしれないわね…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_metaboru_15#11",
+   "label": "MES_KMetaboru_15_KMetaboru_15_mes_19",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 私;わたし]はここで ピーチ[Ruby 姫;ひめ]を\n[Ruby 守;まも]ってるわ。[0002:0001:][Next]あなた[Ruby 達;たち] この[Ruby 先;さき]に\n[Ruby 出口;でぐち]がないか [Ruby 調;しら]べてちょうだい。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_metaboru_15#12",
+   "label": "MES_KMetaboru_15_KMetaboru_15_mes_1",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]やっと [Ruby 見;み]つけたわ！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_metaboru_15#13",
+   "label": "MES_KMetaboru_15_KMetaboru_15_mes_2",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]はやく [Ruby 中;なか]に[Ruby 閉;と]じ[Ruby 込;こ]められた\nピーチ[Ruby 姫;ひめ]を [Ruby 助;たす]けましょう！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_metaboru_15#14",
+   "label": "MES_KMetaboru_15_KMetaboru_15_mes_3",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]…マリオ ルイージ\n[Ruby 気;き]をつけて。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_metaboru_15#15",
+   "label": "MES_KMetaboru_15_KMetaboru_15_mes_4",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]こいつら [Ruby 押;お]したり [Ruby 叩;たた]いたり\nしたぐらいじゃ [Ruby 取;と]りのぞけないわ…[0002:0001:][Next]なんとか [Ruby 取;と]りのぞく[Ruby 方法;ほうほう]を\n[Ruby 考;かんが]えないと…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_metaboru_15#16",
+   "label": "MES_KMetaboru_15_KMetaboru_15_mes_5",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:][0001:0001:]…みんな！[0002:0001:][Next][0001:0000:]…[Ruby 助;たす]けてくれたのね！\nありがとう！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_metaboru_15#17",
+   "label": "MES_KMetaboru_15_KMetaboru_15_mes_6",
+   "style": 9,
+   "attr": "00000000",
+   "jp": "[0009:0000:09 00][0001:0001:]マリオ！ ルイージ！[0002:0001:][Next][0001:0001:][Ruby 見;み]て！ もどってきたわ！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_metaboru_15#18",
+   "label": "MES_KMetaboru_15_KMetaboru_15_mes_7",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]マリオ！ ルイージ！\nあいつを [Ruby 食;く]い[Ruby 止;と]めて！[0002:0001:][Next][0001:0004:][0001:0001:][Ruby 私;わたし]は ピーチ[Ruby 姫;ひめ]を[Ruby 守;まも]ってるわ！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_metaboru_15#19",
+   "label": "MES_KMetaboru_15_KMetaboru_15_mes_8",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]え？ あんたが ピーチ[Ruby 姫;ひめ]を\n[Ruby 守;まも]るですって？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_metaboru_15#20",
+   "label": "MES_KMetaboru_15_KMetaboru_15_mes_9",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]じゃあ [Ruby 私;わたし]とマリオで\nあいつと [Ruby 戦;たたか]えってこと？[0002:0001:]"
+  }
+ ]
+}

@@ -1,0 +1,82 @@
+{
+ "source": "Msg/JP_ja/FMsg.dat:i_garakuta_10",
+ "messages": [
+  {
+   "id": "FMsg/i_garakuta_10#0",
+   "label": "MES_KGarakuta_10_KG10_init_ystar_03_add",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]さっそく[Ruby 使;つか]ってみましょう！[0002:0001:][Next][Ruby 分;わ]からないことがあったら\n[Ruby 私;わたし]に [Ruby 話;はな]しかけてね。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_garakuta_10#1",
+   "label": "MES_KGarakuta_10_KG10_hammer_get",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0005:0000:][0001:0004:][0001:0001:][Color #4ED4FF]ハンマー[Color #E6E6E6][Color #373737]を[Ruby 手;て]に[Ruby 入;い]れた！[0002:0000:1E 00][0002:0001:][Color #E6E6E6]"
+  },
+  {
+   "id": "FMsg/i_garakuta_10#2",
+   "label": "MES_KGarakuta_10_KG10_init_ystar_01",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]ずいぶん いろんなガラクタを\n[Ruby 吸;す]い[Ruby 込;こ]んだ みたいねぇ…[0002:0001:][Next]なにか [Ruby 役;やく]に[Ruby 立;た]ちそうな\n[Ruby 道具;どうぐ]でもあれば いいんだけど…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_garakuta_10#3",
+   "label": "MES_KGarakuta_10_KG10_init_ystar_02",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]この[Ruby 木箱;きばこ]…[0002:0000:14 00]\nなんとかして こわせそうね…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_garakuta_10#4",
+   "label": "MES_KGarakuta_10_KG10_init_ystar_03",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]その[Color #2C64FF]ハンマー[Color #373737][Color #373737]なら\nいろんなものを こわせそうね！[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/i_garakuta_10#5",
+   "label": "MES_KGarakuta_10_KG10_init_ystar_04",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:][Color #2C64FF][U+E004][U+E005][Color #373737][Color #373737]ボタンで アクションアイコンを\n[Color #373737][Color #2C64FF]ハンマー[Color #373737][Color #373737]に [Ruby 切;き]りかえて…[Color #373737][0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_garakuta_10#6",
+   "label": "MES_KGarakuta_10_KG10_init_ystar_05",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:][Color #FF4343][U+E000][Color #373737][Color #373737]ボタンを [Ruby 押;お]せば\n[Color #373737][Color #2C64FF]ハンマー[Color #373737][Color #373737]を ふることが できるわよ！[Color #373737][0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_garakuta_10#7",
+   "label": "MES_KGarakuta_10_KG10_init_ystar_06",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]ばっちりね！[0002:0000:0A 00]\nいろんな ところで[Ruby 使;つか]えそう！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_garakuta_10#8",
+   "label": "MES_KGarakuta_10_KG10_init_ystar_07",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ハンマーのことは\nガイドに[Ruby 追加;ついか]しておいたから[0002:0001:][Next][Ruby 困;こま]った[Ruby 時;とき]は\nスターメニューから[Ruby 確認;かくにん]してね！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_garakuta_10#9",
+   "label": "MES_KGarakuta_10_KG10_hemoguro",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:][Ruby 私;わたし]は ヘモグロびん[Ruby 的;てき]な\n[Color #2C64FF]セーブブロック[Color #373737][Color #373737]びん。[0002:0001:][Next][0001:0004:]でも しばらくしたら [Ruby 消;き]えちゃう[Ruby 的;てき]な\n[Color #373737][Color #2C64FF]セーブブロック[Color #373737][Color #373737]びん。[0002:0001:][Next][0001:0004:][Color #373737][Color #2C64FF]セーブ[Color #373737][Color #373737]したい[Ruby 的;てき]な？[0002:0000:0A 00]\n[0001:0001:][0004:0001:]いいえ[Ruby 的;てき]な[0006:0000:28 00][0004:0001:]はい[Ruby 的;てき]な[Color #373737][0002:0000:0A 00]"
+  },
+  {
+   "id": "FMsg/i_garakuta_10#10",
+   "label": "MES_sys_guide_add",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0005:0000:][0001:0001:][Color #4ED4FF]フィールドガイド[Color #E6E6E6]に\n[Ruby 項目;こうもく]が[Ruby 追加;ついか]されました。[0002:0000:1E 00][0002:0001:]"
+  }
+ ]
+}

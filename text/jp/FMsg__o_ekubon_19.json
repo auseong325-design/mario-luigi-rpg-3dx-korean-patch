@@ -1,0 +1,159 @@
+{
+ "source": "Msg/JP_ja/FMsg.dat:o_ekubon_19",
+ "messages": [
+  {
+   "id": "FMsg/o_ekubon_19#0",
+   "label": "MES_Ekubon_19_Ekubon_opening_27",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]クッパ[Ruby 様;さま]！！ かなりあやしいですよ！\nやめましょう！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_ekubon_19#1",
+   "label": "MES_Ekubon_19_Ekubon_opening_28",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]なに [Ruby 言;い]ってるんだ！\nマリオに[Ruby 勝;か]てるんだぞ！？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_ekubon_19#2",
+   "label": "MES_Ekubon_19_Ekubon_opening_29",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]おい！！ ワガハイに\nラッキーキノコをよこせ！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_ekubon_19#3",
+   "label": "MES_Ekubon_19_Ekubon_opening_29_2",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]どうぞどうぞ！！\nおいしく [Ruby 食;た]べるるる！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_ekubon_19#4",
+   "label": "MES_Ekubon_19_Ekubon_opening_29_3",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0005:0000:][0001:0001:]ラッキーキノコ？を[Ruby 手;て]に[Ruby 入;い]れた！[0002:0000:1E 00][0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_ekubon_19#5",
+   "label": "MES_Ekubon_19_Ekubon_opening_15",
+   "style": 10,
+   "attr": "00000000",
+   "jp": "[0009:0000:0A 00]おめでとうございま～す！！[0002:0000:1E 00]"
+  },
+  {
+   "id": "FMsg/o_ekubon_19#6",
+   "label": "MES_Ekubon_19_Ekubon_opening_16",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]なんだ？[0002:0000:0A 00]\nなにごとだ！？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_ekubon_19#7",
+   "label": "MES_Ekubon_19_Ekubon_opening_17",
+   "style": 7,
+   "attr": "00000000",
+   "jp": "[0009:0000:07 00][Ruby 大当;おおあ]たりでございま～す！！[0002:0000:5A 00]"
+  },
+  {
+   "id": "FMsg/o_ekubon_19#8",
+   "label": "MES_Ekubon_19_Ekubon_opening_18",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]クッパ[Ruby 様;さま]！\nなにごとですか！？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_ekubon_19#9",
+   "label": "MES_Ekubon_19_Ekubon_opening_19",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]お[Ruby 客様;きゃくさま] ラッキーです！[0002:0001:][Next]お[Ruby 客様;きゃくさま]に [Color #2C64FF]ラッキーキノコ[Color #373737][Color #373737]が\n[Ruby 当;あ]たりました～～～！[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/o_ekubon_19#10",
+   "label": "MES_Ekubon_19_Ekubon_opening_30",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ムム！！[0002:0000:14 00] ムムム～ッ！？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_ekubon_19#11",
+   "label": "MES_Ekubon_19_Ekubon_opening_31",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]どうしました！？\nクッパ[Ruby 様;さま]～！！[0002:0001:][Next]だから やめましょうって\n[Ruby 言;い]ったのに！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_ekubon_19#12",
+   "label": "MES_Ekubon_19_Ekubon_opening_32",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]おい！ オマエ！[0002:0000:0A 00]\nクッパ[Ruby 様;さま]に なにを[Ruby 食;た]べさせた！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_ekubon_19#13",
+   "label": "MES_Ekubon_19_Ekubon_opening_33",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 気持;きも]ち[Ruby 悪;わる]いくらい\nうまくいったるるる～～！！[0002:0001:][Next][Ruby 作戦成功;さくせんせいこう]！！[0002:0000:0A 00]\nワレは おさらばするるる！！[0002:0001:][Next]オマエは そのまま\nピーチ[Ruby 城;じょう]へいくるるる～！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_ekubon_19#14",
+   "label": "MES_Ekubon_19_Ekubon_opening_34",
+   "style": 7,
+   "attr": "00000000",
+   "jp": "[0009:0000:07 00]ぬがぁ～～～～～！！！[0002:0000:1E 00]"
+  },
+  {
+   "id": "FMsg/o_ekubon_19#15",
+   "label": "MES_Ekubon_19_Ekubon_opening_20",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ラッキーキノコ？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_ekubon_19#16",
+   "label": "MES_Ekubon_19_Ekubon_opening_21",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ワガハイはなにも [Ruby 買;か]っていないぞ！[0002:0001:][Next][0001:0001:]なんで [Ruby 大当;おおあ]たりなんだ！？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_ekubon_19#17",
+   "label": "MES_Ekubon_19_Ekubon_opening_22",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 細;こま]かいことは [Ruby 気;き]にしない！\n[Ruby 気;き]にしない！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_ekubon_19#18",
+   "label": "MES_Ekubon_19_Ekubon_opening_23",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]こんなに すばらしい\nラッキーキノコ！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_ekubon_19#19",
+   "label": "MES_Ekubon_19_Ekubon_opening_24",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]これさえ[Ruby 食;た]べれば あなたの[Ruby 運命;うんめい]も\nスーパーラッキー！！[0002:0001:][Next][0001:0004:]マリオにだって きっと[Ruby 勝;か]てますよ！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_ekubon_19#20",
+   "label": "MES_Ekubon_19_Ekubon_opening_25",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]マリオに[Ruby 勝;か]てる！？[0002:0000:0A 00]\n[Ruby 本当;ほんとう]か！？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_ekubon_19#21",
+   "label": "MES_Ekubon_19_Ekubon_opening_26",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:][0001:0001:][Ruby 本当;ほんとう]に [Ruby 本当;ほんとう]！！[0002:0001:][Next][0001:0000:]バトルでアタックするたびに\nラッキーヒットが [Ruby 出;で]まくるる！[0002:0001:][Next][0001:0004:]もう バッコバコのボッコボコ！[0002:0001:][Next][0001:0000:]どんなに[Ruby 強;つよ]い[Ruby 相手;あいて]でも\nあっというまに [Ruby 倒;たお]せるる！[0002:0001:]"
+  }
+ ]
+}

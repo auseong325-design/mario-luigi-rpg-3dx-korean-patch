@@ -1,0 +1,662 @@
+{
+ "batch": "Item__p6",
+ "rooms": [
+  "Item"
+ ],
+ "ds_rooms": [],
+ "ds_reference": [
+  "@file work/batches/_refs_Item.txt (462 DS lines shared by all Item batches - read it once)"
+ ],
+ "glossary": [
+  {
+   "jp": "キック",
+   "ko": "킥",
+   "type": "ability",
+   "basis": "DS",
+   "source": "BData__mfset_AItmE#8",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "ジャンプ",
+   "ko": "점프",
+   "type": "ability",
+   "basis": "DS",
+   "source": "BData__mfset_Help#9",
+   "note": "필드 액션·배틀 커맨드 공통 [gl_attacks]"
+  },
+  {
+   "jp": "みどりコウラ",
+   "ko": "초록등껍질",
+   "type": "attack",
+   "basis": "DS",
+   "source": "BData__mfset_AItmN#8",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "ブラザーアタック",
+   "ko": "스페셜 어택",
+   "type": "attack",
+   "basis": "DS",
+   "source": "BAI__BMes_cf#4.1",
+   "note": "DS 대응문(어택피스로 스페셜 어택을↔アタックパーツでブラザーアタックが)으로 같은 대상 확인. 3DX에서 スペシャルアタック을 개칭한 것. 후속작 공식 표기는 '브라더 어택'(https://www.nintendo.com/kr/switch/a8e6a/battle/index.html) — 개칭 반영 여부 확인 필요 [gl_attacks]"
+  },
+  {
+   "jp": "エキスパートバッジ",
+   "ko": "엑스퍼트배지",
+   "type": "badge",
+   "basis": "coined",
+   "source": "Item:N_Badge09",
+   "note": "3DX 신규 등급 배지. DS의 같은 역할 Excellent!!배지(BadgeN#21) [gl_items]"
+  },
+  {
+   "jp": "ビギナーバッジ",
+   "ko": "비기너배지",
+   "type": "badge",
+   "basis": "coined",
+   "source": "Item:N_Badge06",
+   "note": "3DX 신규 등급 배지. DS의 같은 역할 Good배지(BadgeN#12)와 이름이 달라 새로 지음 [gl_items]"
+  },
+  {
+   "jp": "ベテランバッジ",
+   "ko": "베테랑배지",
+   "type": "badge",
+   "basis": "coined",
+   "source": "Item:N_Badge07",
+   "note": "3DX 신규 등급 배지. DS의 같은 역할 Great배지(BadgeN#15) [gl_items]"
+  },
+  {
+   "jp": "マスターバッジ",
+   "ko": "마스터배지",
+   "type": "badge",
+   "basis": "coined",
+   "source": "Item:N_Badge08",
+   "note": "3DX 신규 등급 배지. DS의 같은 역할 Excellent!배지(BadgeN#18). DS 마스터웨어 짜임 [gl_items]"
+  },
+  {
+   "jp": "マリオ",
+   "ko": "마리오",
+   "type": "character",
+   "basis": "DS",
+   "source": "BData__mfset_Help#19",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "ラリー",
+   "ko": "래리",
+   "type": "character",
+   "basis": "official",
+   "source": "https://www.nintendo.com/kr/switch/aabpa/sp/character/",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "ルイージ",
+   "ko": "루이지",
+   "type": "character",
+   "basis": "DS",
+   "source": "BData__mfset_Help#20",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "あばれんぼコウラ",
+   "ko": "난폭등껍질",
+   "type": "gear",
+   "basis": "DS",
+   "source": "BData__mfset_WearN#276",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "がんせきコウラ",
+   "ko": "암석등껍질",
+   "type": "gear",
+   "basis": "DS",
+   "source": "BData__mfset_WearN#270",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "けっせんコウラ",
+   "ko": "결전등껍질",
+   "type": "gear",
+   "basis": "DS",
+   "source": "BData__mfset_WearN#267",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "まじんコウラ",
+   "ko": "괴물등껍질",
+   "type": "gear",
+   "basis": "DS",
+   "source": "BData__mfset_WearN#282",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "ゴーカイワッペン",
+   "ko": "호탕패치",
+   "type": "gear",
+   "basis": "DS",
+   "source": "BData__mfset_WearN#198",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "キノコ",
+   "ko": "버섯",
+   "type": "item",
+   "basis": "DS",
+   "source": "BData__mfset_UItmN#0",
+   "note": "일반 명사 キノコ도 버섯(キノコタウン=버섯 타운) [gl_items]"
+  },
+  {
+   "jp": "チーズ",
+   "ko": "치즈",
+   "type": "item",
+   "basis": "coined",
+   "source": "Item:N_Cheese",
+   "note": "3DX 신규(쿠파 BP 회복). DS 시럽 계열 짜임 [gl_items]"
+  },
+  {
+   "jp": "ミラクルチーズ",
+   "ko": "미라클치즈",
+   "type": "item",
+   "basis": "coined",
+   "source": "Item:N_MaxCheese",
+   "note": "3DX 신규. DS ミラクル=미라클 [gl_items]"
+  },
+  {
+   "jp": "BP",
+   "ko": "SP",
+   "type": "term",
+   "basis": "DS",
+   "source": "BAI__BMes_cf#4.13",
+   "note": "3DX의 BP(브라더/보코스카 포인트)=DS의 SP. 3DX 화면 이미지(능력치·HUD)의 BP 표기와 맞출지 결정 필요 — 확인 필요. 후속작 공식은 'BP(브라더 포인트)' [gl_attacks]"
+  },
+  {
+   "jp": "DEF",
+   "ko": "DEF",
+   "type": "term",
+   "basis": "DS",
+   "source": "BData__mfset_WearE#23",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "DEFがアップ",
+   "ko": "DEF가 증가",
+   "type": "term",
+   "basis": "DS",
+   "source": "BData__mfset_WearE#23",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "HP",
+   "ko": "HP",
+   "type": "term",
+   "basis": "DS",
+   "source": "BAI__BMes_cf#2.11",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "HPはんぶんで ふっかつ",
+   "ko": "HP 1/2로 부활",
+   "type": "term",
+   "basis": "DS",
+   "source": "BData__mfset_UItmE2#2",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "POW",
+   "ko": "POW",
+   "type": "term",
+   "basis": "DS",
+   "source": "BData__mfset_WearE#35",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "POWがアップ",
+   "ko": "POW가 증가",
+   "type": "term",
+   "basis": "DS",
+   "source": "BData__mfset_WearE#35",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "きば",
+   "ko": "이빨",
+   "type": "term",
+   "basis": "DS",
+   "source": "BData__mfset_WearN#327",
+   "note": "장비 종류명(쿠파). DS 파워이빨 등 [gl_items]"
+  },
+  {
+   "jp": "ふっかつ",
+   "ko": "부활",
+   "type": "term",
+   "basis": "DS",
+   "source": "BData__mfset_UItmE2#2",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "めまわし",
+   "ko": "어질어질",
+   "type": "term",
+   "basis": "DS",
+   "source": "BData__mfset_AItmE2#3",
+   "note": "'어질어질 상태'(WearE#54) [gl_attacks]"
+  },
+  {
+   "jp": "アタック",
+   "ko": "어택",
+   "type": "term",
+   "basis": "DS",
+   "source": "BDataMiniGame__mfset_MesDat_MiniGame#5",
+   "note": "스페셜 어택을 줄여 부를 때. 단 퀴즈의 パンチアタック/ファイアアタック은 DS대로 '~ 공격' [gl_attacks]"
+  },
+  {
+   "jp": "アップ",
+   "ko": "업",
+   "type": "term",
+   "basis": "DS",
+   "source": "FEvent:0EC#11",
+   "note": "「POWアップ」→'POW 업'(DS '파워 업') [gl_kj]"
+  },
+  {
+   "jp": "コウラ",
+   "ko": "등껍질",
+   "type": "term",
+   "basis": "DS",
+   "source": "BAI__BMes_cf#8.1",
+   "note": "쿠파의 방어 커맨드(Y)·등껍질 일반 [gl_attacks]"
+  },
+  {
+   "jp": "スライド",
+   "ko": "슬라이드",
+   "type": "term",
+   "basis": "DS",
+   "source": "BData__mfset_AItmE#5",
+   "note": "터치펜 조작 [gl_attacks]"
+  },
+  {
+   "jp": "ターゲット：",
+   "ko": "공격 대상:",
+   "type": "term",
+   "basis": "DS",
+   "source": "BData__mfset_AItmE2#3",
+   "note": "스페셜 어택 설명 끝줄(Item.json E_AItm) [gl_items]"
+  },
+  {
+   "jp": "ダメージ",
+   "ko": "타격",
+   "type": "term",
+   "basis": "DS",
+   "source": "DS '타격' 32회 / '대미지' 5회",
+   "note": "'타격을 입히다/입다'. 숫자·연속 공격 문맥은 '대미지' 허용(DS: 연속 대미지)"
+  },
+  {
+   "jp": "バッジ",
+   "ko": "배지",
+   "type": "term",
+   "basis": "DS",
+   "source": "BData__mfset_BadgeN#0",
+   "note": "AGENTS.md 4.4 확정 표기 [gl_items]"
+  },
+  {
+   "jp": "ブーツ",
+   "ko": "부츠",
+   "type": "term",
+   "basis": "DS",
+   "source": "MData__mfset_ShopMes#45",
+   "note": "장비 종류명 [gl_items]"
+  },
+  {
+   "jp": "ワッペン",
+   "ko": "패치",
+   "type": "term",
+   "basis": "DS",
+   "source": "BData__mfset_WearN#192",
+   "note": "DS オススメワッペン=추천패치 [gl_items]"
+  },
+  {
+   "jp": "倒れた なかまが",
+   "ko": "기절한 파트너가",
+   "type": "term",
+   "basis": "DS",
+   "source": "BData__mfset_UItmE2#2",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "効果：",
+   "ko": "효과:",
+   "type": "term",
+   "basis": "DS",
+   "source": "BData__mfset_AItmE2#3",
+   "note": "'効果：なし'=효과: 없음(AItmE2#4) [gl_items]"
+  },
+  {
+   "jp": "大幅にアップ",
+   "ko": "대폭 증가",
+   "type": "term",
+   "basis": "coined",
+   "source": "BData__mfset_WearE#35",
+   "note": "DS 'アップ=증가' 문형 [gl_items]"
+  },
+  {
+   "jp": "威力",
+   "ko": "위력",
+   "type": "term",
+   "basis": "DS",
+   "source": "BData__mfset_WearE#11",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "威力がアップ",
+   "ko": "위력이 증가",
+   "type": "term",
+   "basis": "DS",
+   "source": "BData__mfset_WearE#11",
+   "note": "DS 일본판 '威力が25%アップ' = '위력이 25% 증가' [gl_items]"
+  },
+  {
+   "jp": "少しアップ",
+   "ko": "조금 증가",
+   "type": "term",
+   "basis": "coined",
+   "source": "BData__mfset_WearE#35",
+   "note": "DS 'アップ=증가' 문형에 정도 부사만 더함 [gl_items]"
+  },
+  {
+   "jp": "攻撃",
+   "ko": "공격",
+   "type": "term",
+   "basis": "DS",
+   "source": "BAI__BMes_cf#2.1",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "消費BP",
+   "ko": "소비 SP",
+   "type": "term",
+   "basis": "DS",
+   "source": "BData__mfset_WearE#62",
+   "note": "BP 항목 결정에 따름 [gl_attacks]"
+  },
+  {
+   "jp": "はいっぱいです！",
+   "ko": "FULL!",
+   "type": "ui",
+   "basis": "DS",
+   "source": "BData__mfset_UItmN#2",
+   "note": "소지 한도 메시지. DS는 '이름 FULL!' 형식(버섯 FULL!): 이름 뒤 한 칸 띄우고 FULL! [gl_items]"
+  },
+  {
+   "jp": "マス",
+   "ko": "칸",
+   "type": "ui",
+   "basis": "coined",
+   "source": "MenuKJ#71",
+   "note": "[gl_kj]"
+  }
+ ],
+ "messages": [
+  {
+   "id": "Item#757",
+   "label": "N_Badge06",
+   "style": 13,
+   "src": "ビギナーバッジ",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": []
+  },
+  {
+   "id": "Item#763",
+   "label": "E_AItm07",
+   "style": 5,
+   "src": "{1:align}←向きに 素早く何度もスライドして\nヒモを引っ張り ダメージアップ！\nターゲット：{2:color}１体　{3:color}効果：{4:color}なし{5:color}",
+   "tags": {
+    "1": "[0001:0001:]",
+    "2": "[Color #2C64FF]",
+    "3": "[Color #373737]",
+    "4": "[Color #2C64FF]",
+    "5": "[Color #373737]"
+   },
+   "header": "[0009:0000:05 00]",
+   "dups": []
+  },
+  {
+   "id": "Item#764",
+   "label": "E_Accessory06",
+   "style": 3,
+   "src": "ブラザーアタックの消費BPが増えるが\n威力も上がるワッペン。",
+   "tags": {},
+   "header": "[0009:0000:03 00]",
+   "dups": []
+  },
+  {
+   "id": "Item#765",
+   "label": "E_Boots02",
+   "style": 3,
+   "src": "HPが満タンの時に POWがアップするブーツ。",
+   "tags": {},
+   "header": "[0009:0000:03 00]",
+   "dups": []
+  },
+  {
+   "id": "Item#766",
+   "label": "E_Fung09",
+   "style": 3,
+   "src": "ブリロックからもらったきば。\nDEFがアップする効果。",
+   "tags": {},
+   "header": "[0009:0000:03 00]",
+   "dups": []
+  },
+  {
+   "id": "Item#767",
+   "label": "F_Accessory07",
+   "style": 12,
+   "src": "{1:color}ゴーカイワッペン{2:color}はいっぱいです！",
+   "tags": {
+    "1": "[Color #4ED4FF]",
+    "2": "[Color #E6E6E6]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "Item#768",
+   "label": "F_Shell03",
+   "style": 12,
+   "src": "{1:color}けっせんコウラ{2:color}はいっぱいです！",
+   "tags": {
+    "1": "[Color #4ED4FF]",
+    "2": "[Color #E6E6E6]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "Item#769",
+   "label": "N_Badge07",
+   "style": 13,
+   "src": "ベテランバッジ",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": []
+  },
+  {
+   "id": "Item#772",
+   "label": "E_AItm08",
+   "style": 5,
+   "src": "{1:align}マリオ{2:color}{3:icon}{4:color} ルイージ{5:color}{6:icon}{7:color} でキック！\nラリーを続けるほどダメージアップ！\nターゲット：{8:color}１体　{9:color}効果：{10:color}なし{11:color}",
+   "tags": {
+    "1": "[0001:0001:]",
+    "2": "[Color #FF4343]",
+    "3": "[U+E000]",
+    "4": "[Color #373737]",
+    "5": "[Color #00BB27]",
+    "6": "[U+E001]",
+    "7": "[Color #373737]",
+    "8": "[Color #2C64FF]",
+    "9": "[Color #373737]",
+    "10": "[Color #2C64FF]",
+    "11": "[Color #373737]"
+   },
+   "header": "[0009:0000:05 00]",
+   "dups": []
+  },
+  {
+   "id": "Item#773",
+   "label": "E_Accessory07",
+   "style": 3,
+   "src": "ブラザーアタックの消費BPと\n威力を大幅に上げるワッペン。",
+   "tags": {},
+   "header": "[0009:0000:03 00]",
+   "dups": []
+  },
+  {
+   "id": "Item#774",
+   "label": "E_Boots03",
+   "style": 3,
+   "src": "ブラザーアタックの威力が少しアップするブーツ。",
+   "tags": {},
+   "header": "[0009:0000:03 00]",
+   "dups": []
+  },
+  {
+   "id": "Item#775",
+   "label": "F_Shell04",
+   "style": 12,
+   "src": "{1:color}がんせきコウラ{2:color}はいっぱいです！",
+   "tags": {
+    "1": "[Color #4ED4FF]",
+    "2": "[Color #E6E6E6]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "Item#776",
+   "label": "N_Badge08",
+   "style": 13,
+   "src": "マスターバッジ",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": []
+  },
+  {
+   "id": "Item#778",
+   "label": "E_1upKinoko",
+   "style": 13,
+   "src": "倒れた なかまが\nHPはんぶんで ふっかつ。",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": []
+  },
+  {
+   "id": "Item#779",
+   "label": "E_Accessory08",
+   "style": 3,
+   "src": "敵の攻撃を１度だけ防いでくれる小さな貝殻。",
+   "tags": {},
+   "header": "[0009:0000:03 00]",
+   "dups": []
+  },
+  {
+   "id": "Item#780",
+   "label": "E_Boots04",
+   "style": 3,
+   "src": "ずっしり重たいヘビィなブーツ。\nジャンプの威力がアップする効果。",
+   "tags": {},
+   "header": "[0009:0000:03 00]",
+   "dups": []
+  },
+  {
+   "id": "Item#781",
+   "label": "F_MaxCheese",
+   "style": 12,
+   "src": "{1:color}ミラクルチーズ{2:color}はいっぱいです！",
+   "tags": {
+    "1": "[Color #4ED4FF]",
+    "2": "[Color #E6E6E6]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "Item#782",
+   "label": "N_Badge09",
+   "style": 13,
+   "src": "エキスパートバッジ",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": []
+  },
+  {
+   "id": "Item#785",
+   "label": "E_Accessory09",
+   "style": 3,
+   "src": "敵の攻撃を何回か防いでくれる大きな貝殻。",
+   "tags": {},
+   "header": "[0009:0000:03 00]",
+   "dups": []
+  },
+  {
+   "id": "Item#786",
+   "label": "E_Boots05",
+   "style": 3,
+   "src": "POWが大幅にアップするが ダメージを受けると\n一発でたおれてしまう とっても危険なブーツ。",
+   "tags": {},
+   "header": "[0009:0000:03 00]",
+   "dups": []
+  },
+  {
+   "id": "Item#787",
+   "label": "F_Shell06",
+   "style": 12,
+   "src": "{1:color}あばれんぼコウラ{2:color}はいっぱいです！",
+   "tags": {
+    "1": "[Color #4ED4FF]",
+    "2": "[Color #E6E6E6]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "Item#789",
+   "label": "E_Boots06",
+   "style": 3,
+   "src": "ブラザーアタック「みどりコウラ」の\n威力がアップするブーツ。",
+   "tags": {},
+   "header": "[0009:0000:03 00]",
+   "dups": []
+  },
+  {
+   "id": "Item#790",
+   "label": "F_Kinoko",
+   "style": 12,
+   "src": "{1:color}キノコ{2:color}はいっぱいです！",
+   "tags": {
+    "1": "[Color #4ED4FF]",
+    "2": "[Color #E6E6E6]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "Item#796",
+   "label": "E_Boots07",
+   "style": 3,
+   "src": "ジャンプで攻撃した敵を たまに\nめまわし状態にするブーツ。",
+   "tags": {},
+   "header": "[0009:0000:03 00]",
+   "dups": []
+  },
+  {
+   "id": "Item#797",
+   "label": "F_Shell08",
+   "style": 12,
+   "src": "{1:color}まじんコウラ{2:color}はいっぱいです！",
+   "tags": {
+    "1": "[Color #4ED4FF]",
+    "2": "[Color #E6E6E6]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  }
+ ]
+}

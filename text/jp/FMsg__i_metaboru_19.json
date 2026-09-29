@@ -1,0 +1,138 @@
+{
+ "source": "Msg/JP_ja/FMsg.dat:i_metaboru_19",
+ "messages": [
+  {
+   "id": "FMsg/i_metaboru_19#0",
+   "label": "MES_KMetaboru_19_KMetaboru_19_mes01",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:][0001:0001:]おどろくでない。[0002:0001:][Next][0001:0000:]われは このネンマク[Ruby 床;ゆか]をおさめる\nネンマク[Ruby 姫;ひめ]で あるぞよ。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_metaboru_19#1",
+   "label": "MES_KMetaboru_19_KMetaboru_19_mes02",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]そなた [Ruby 今;いま]このネンマク[Ruby 床;ゆか]に\nなにか[Ruby 落;お]とし[Ruby 物;もの]を したであろう？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_metaboru_19#2",
+   "label": "MES_KMetaboru_19_KMetaboru_19_mes03",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]そなたが [Ruby 落;お]としたのは\nこちらの [Color #2C64FF]すごくいい[Ruby 宝物;たからもの][Color #373737][Color #373737]か？[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/i_metaboru_19#3",
+   "label": "MES_KMetaboru_19_KMetaboru_19_mes04",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]それとも この\n[Color #00BB27]ヨレヨレになった[Ruby 緑;みどり]のヒゲ[Color #373737][Color #373737]か？[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/i_metaboru_19#4",
+   "label": "MES_KMetaboru_19_KMetaboru_19_mes05",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]どちらなのか [Ruby 今;いま]から\n２[Ruby 択;たく]で [Ruby 聞;き]くぞよ。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_metaboru_19#5",
+   "label": "MES_KMetaboru_19_KMetaboru_19_mes06",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0005:0000:]そなたが [Ruby 落;お]としたのは\nどちらぞよ？[0002:0000:14 00]\n[0005:0000:][0006:0001:14 00]すごくいい[Ruby 宝物;たからもの]\n[0005:0000:][0006:0001:14 00]ヨレヨレの[Ruby 緑;みどり]のヒゲ[0002:0000:28 00]"
+  },
+  {
+   "id": "FMsg/i_metaboru_19#6",
+   "label": "MES_KMetaboru_19_KMetaboru_19_mes07",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]あ！ そなた [Ruby 今;いま]…[0002:0001:][Next][Color #2C64FF]すごくいい[Ruby 宝物;たからもの][Color #373737][Color #373737] を[Ruby 選;えら]びたい\nしょうどうに かられたぞよ？[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/i_metaboru_19#7",
+   "label": "MES_KMetaboru_19_KMetaboru_19_mes08",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ウソウソ！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_metaboru_19#8",
+   "label": "MES_KMetaboru_19_KMetaboru_19_mes09",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Color #2C64FF]すごくいい[Ruby 宝物;たからもの][Color #373737][Color #373737]に\nこころひかれたのであろう！[0002:0001:][Next]そなたの ビミョーな[Ruby 表情;ひょうじょう]の\n[Ruby 変化;へんか]で わかったぞよ！[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/i_metaboru_19#9",
+   "label": "MES_KMetaboru_19_KMetaboru_19_mes20",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]まだなにか [Ruby 入;はい]っているのかしら？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_metaboru_19#10",
+   "label": "MES_KMetaboru_19_KMetaboru_19_mes10",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0001:]ほほぉ…[0002:0001:][Next][0001:0000:]この[Color #00BB27]ヨレヨレの[Ruby 緑;みどり][Color #373737][Color #373737]は [Ruby 自分;じぶん]の[Ruby 弟;おとうと]だから\nすごくいい[Ruby 宝物;たからもの]より [Ruby 大切;たいせつ]だと？[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/i_metaboru_19#11",
+   "label": "MES_KMetaboru_19_KMetaboru_19_mes11",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:][0001:0001:]…ふふん まぁ よろしい。[0002:0001:][Next][0001:0000:]では そなたが[Ruby 落;お]としたのは[Color #00BB27]ヨレヨレ[Ruby 緑;みどり]\n[Color #373737][Color #373737]ということにしておくぞよ！[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/i_metaboru_19#12",
+   "label": "MES_KMetaboru_19_KMetaboru_19_mes12",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]ほほほ ヨレヨレにしては\nなかなか[Ruby 見事;みごと]な [Ruby 着地;ちゃくち]っぷりぞよ。[0002:0001:][Next][Ruby 緑;みどり]のヨレヨレと \n[Ruby 弟思;おとうとおも]いの[Ruby 赤;あか]いヒゲには…[0002:0001:][Next][Ruby 特別;とくべつ]に この[Color #2C64FF]すごくいい[Ruby 宝物;たからもの][Color #373737][Color #373737]も\nあげるぞよ！[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/i_metaboru_19#13",
+   "label": "MES_KMetaboru_19_KMetaboru_19_mes13",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0005:0000:][Color #4ED4FF]すごくいい[Ruby 宝物;たからもの][Color #E6E6E6][Color #373737]を[Ruby 手;て]に[Ruby 入;い]れた！[0002:0000:1E 00][0002:0001:][Color #E6E6E6]"
+  },
+  {
+   "id": "FMsg/i_metaboru_19#14",
+   "label": "MES_KMetaboru_19_KMetaboru_19_mes14",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:][0001:0001:][Ruby 正直者;しょうじきもの]は いつも[Ruby 得;とく]をする…[0002:0001:][Next][0001:0000:]どこかで にたような[Ruby 話;はなし]を[Ruby 聞;き]いたなら\nわれのことを [Ruby 思;おも]い[Ruby 出;だ]すがよいぞよ。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_metaboru_19#15",
+   "label": "MES_KMetaboru_19_KMetaboru_19_mes15",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]さらばである！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_metaboru_19#16",
+   "label": "MES_KMetaboru_19_KMetaboru_19_mes16",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 今;いま]もらった [Color #2C64FF]すごくいい[Ruby 宝物;たからもの][Color #373737][Color #373737]\nって なにかしら？[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/i_metaboru_19#17",
+   "label": "MES_KMetaboru_19_KMetaboru_19_mes18",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:][0001:0001:]すごいわ！！[0002:0001:][Next][0001:0000:]そのバッジはね [Ruby 身;み]に[Ruby 着;つ]けると\nバトルで [Ruby 特別;とくべつ]な[Ruby 効果;こうか]が\n[Ruby 出;だ]せるように なるのよ！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_metaboru_19#18",
+   "label": "MES_KMetaboru_19_KMetaboru_19_mes19",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 上手;じょうず]に[Ruby 使;つか]えば バトルを[Ruby 有利;ゆうり]に\n[Ruby 進;すす]められるかもしれないわね。[0002:0001:]"
+  }
+ ]
+}

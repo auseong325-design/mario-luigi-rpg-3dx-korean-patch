@@ -1,0 +1,33 @@
+{
+ "source": "Msg/JP_ja/FMsg.dat:o_zutsuda_16_after",
+ "messages": [
+  {
+   "id": "FMsg/o_zutsuda_16_after#0",
+   "label": "MES_LZutsuda_16_after_LZ16A_koopa_01",
+   "style": 9,
+   "attr": "00000000",
+   "jp": "[0009:0000:09 00][0005:0000:][0001:0004:][0001:0001:]ガハハハハ！[0002:0000:1E 00]"
+  },
+  {
+   "id": "FMsg/o_zutsuda_16_after#1",
+   "label": "MES_LZutsuda_16_after_LZ16A_koopa_02",
+   "style": 9,
+   "attr": "00000000",
+   "jp": "[0009:0000:09 00][0001:0004:][Ruby 城;しろ]だろうが タワーだろうが\nこわいものなしだ！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_zutsuda_16_after#2",
+   "label": "MES_LZutsuda_16_after_LZ16A_koopa_03",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:][0001:0001:]あれは…[0002:0000:0A 00] もしや！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_zutsuda_16_after#3",
+   "label": "MES_LZutsuda_16_after_LZ16A_koopa_04",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]おい！ そこのやつ！\nちょっと [Ruby 待;ま]て！！[0002:0001:]"
+  }
+ ]
+}

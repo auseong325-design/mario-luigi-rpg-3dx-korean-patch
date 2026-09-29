@@ -1,0 +1,19 @@
+{
+ "source": "Msg/JP_ja/FMsg.dat:o_ekubon_18",
+ "messages": [
+  {
+   "id": "FMsg/o_ekubon_18#0",
+   "label": "MES_Ekubon_18_Ekubon_opening_13",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]クッパ[Ruby 様;さま]～[0002:0000:1E 00]"
+  },
+  {
+   "id": "FMsg/o_ekubon_18#1",
+   "label": "MES_Ekubon_18_Ekubon_opening_14",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ここは どうやら[Ruby 森;もり]のようです。\n[Color #FF9600][U+E003][Color #373737][Color #373737]ボタンで [Color #373737][Color #FF9600]ほのお[Color #373737][Color #373737]をはいて\n[Ruby 木;き]を [Ruby 燃;も]やせますが…[0002:0001:][Next]あんまり ほのおをはきすぎると\nつかれて しまいますので\n[Ruby 気;き]をつけてください。[0002:0001:][Color #373737]"
+  }
+ ]
+}

@@ -1,0 +1,75 @@
+{
+ "source": "Msg/JP_ja/FMsg.dat:o_koopa_07_after",
+ "messages": [
+  {
+   "id": "FMsg/o_koopa_07_after#0",
+   "label": "MES_SKoopa_07_after_SK07A_kuribo_01",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:][Ruby 本日;ほんじつ]の コンサートは\n[Ruby 終了;しゅうりょう]しました～！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_koopa_07_after#1",
+   "label": "MES_SKoopa_07_after_SK07A_kuribo_02",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:][0001:0001:]た～[0002:0000:14 00]"
+  },
+  {
+   "id": "FMsg/o_koopa_07_after#2",
+   "label": "MES_SKoopa_07_after_SK07A_kuribo_03",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]すみやかに\nご[Ruby 退場;たいじょう] くださ～い！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_koopa_07_after#3",
+   "label": "MES_SKoopa_07_after_SK07A_kuribo_04",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:][0001:0001:]さ～い。[0002:0000:14 00]"
+  },
+  {
+   "id": "FMsg/o_koopa_07_after#4",
+   "label": "MES_SKoopa_07_after_SK07A_karon_01",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]はぁ…\n[Ruby 終;お]わっちゃった…[0002:0001:][Next][0001:0004:][Ruby 次;つぎ]こそは いちばん[Ruby 前;まえ]の[Ruby 席;せき]を\nゲットしてやるぞ！！ [Ruby 次;つぎ]こそ！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_koopa_07_after#5",
+   "label": "MES_SKoopa_07_after_SK07A_baka_01",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]すばらしかったな ハニー。\nゲラコビッツ[Ruby 様;さま]の ステージは\nやっぱりサイコーだ ハニー。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_koopa_07_after#6",
+   "label": "MES_SKoopa_07_after_SK07A_baka_02",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]ほんとよね ダーリン[Color #FF4343][U+E017][0002:0001:][Next][0001:0004:][Color #373737][Color #373737]でも やっぱり ダーリンの[Ruby 方;ほう]が\nサイコーよ ダーリン[Color #373737][Color #FF4343][U+E017][0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/o_koopa_07_after#7",
+   "label": "MES_SKoopa_07_after_SK07A_baka_03",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]そういう ハニーこそ\nサイコーの テレサだぜ ハニー[Color #FF4343][U+E017][0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/o_koopa_07_after#8",
+   "label": "MES_SKoopa_07_after_SK07A_baka_04",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]ああん[Color #FF4343][U+E017] [Color #373737][Color #373737]ダーリンって\nほんとに サイコーのノコノコッ[Color #373737][Color #FF4343][U+E017][0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/o_koopa_07_after#9",
+   "label": "MES_SKoopa_07_after_SK07A_baka_05",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]ナンバ～ワ～ン\nゲラコビッツ[Ruby 様;さま]～[Color #FF4343][U+E017][0002:0001:][Color #373737]"
+  }
+ ]
+}

@@ -1,0 +1,2234 @@
+{
+ "batch": "FMsg__o_ekubon_02__and7",
+ "rooms": [
+  "o_ekubon_02",
+  "o_ekubon_02_after",
+  "o_ekubon_03",
+  "o_ekubon_04_1",
+  "o_ekubon_04_2",
+  "o_ekubon_06",
+  "o_ekubon_07_1",
+  "o_ekubon_07_2"
+ ],
+ "ds_rooms": [
+  "02E",
+  "046",
+  "047",
+  "048",
+  "049",
+  "053",
+  "178",
+  "28D"
+ ],
+ "ds_reference": [
+  "DS02E#0: 볼조개 숲의 어택피스를\n개째 획득했다![Next]볼조개 숲의 나머지\n어택피스는 개다!",
+  "DS02E#1: 볼조개 숲의 어택피스를\n개째 획득했다![Next]볼조개 숲의 나머지\n어택피스는 개다!",
+  "DS02E#2: 볼조개 숲의 어택피스를\n개째 획득했다![Next]볼조개 숲의 어택피스를\n모두 모았다!![Next]새로운 스페셜 어택이\n완성되었다!!",
+  "DS02E#3: 볼조개 숲의 어택피스를\n개째 획득했다![Next]볼조개 숲의 어택피스를\n모두 모았다!![Next]새로운 스페셜 어택이\n완성되었다!!",
+  "DS046#0: ↑ 숲 출구&초원 입구\n↓ 이아파 비치",
+  "DS047#0: ↑ 숲 출구",
+  "DS047#1: 내 불렀나? 이동하고 싶나~?\n이동할래  이동 안 할래",
+  "DS048#0: 으으~~~!",
+  "DS048#1: 야! 가만있어!",
+  "DS048#2: 아야야야야!",
+  "DS048#3: 살려 줘~",
+  "DS048#4: 숨 막혀~",
+  "DS048#5: 집에 가고 싶어~",
+  "DS048#6: 어이! 너희들!\n거기에서 뭐 하냐!?",
+  "DS048#7: 이 몸의 성이 비상사태다![Next]지금 그런 곳에서 한가하게\n놀고 있을 땐 줄 아느냐?",
+  "DS048#8: 쿠파님!!",
+  "DS048#9: 쿠파님! 쿠파님!",
+  "DS048#10: 안 보여!\n저리 비켜!",
+  "DS048#11: 쿠파님~\n살려 주세요~",
+  "DS048#12: 까르코비츤가 하는 녀석한테\n쿠파 성을 빼앗기고…[Next]우리 굼바 군단은\n이런 철창에 갇혀\n버려지고 말았어요~",
+  "DS048#13: 뭐라고?\n무슨 꼴이냐!![Next]적이 쳐들어오면\n가장 먼저 달려들어야지![Next]그게 너희 굼바 군단의\n사명 아니었느냐!!",
+  "DS048#14: 그게… 너무 갑작스럽게\n일어난 일이라…[Next]부끄럽습니다~\n쿠파님~",
+  "DS048#15: 한심한 녀석들…\n다른 군단은 어디 있느냐!?[Next]설마 너희처럼\n당하진 않았겠지?",
+  "DS048#16: 아마…\n모두 저희처럼…",
+  "DS048#17: 크아아아아―――――!!",
+  "DS048#18: 너희들은 기강이 해이해졌다!\n그러니까 마리오에게 매번 지지!",
+  "DS048#19: 면목이 없습니다.\n쿠파님~",
+  "DS048#20: 지금 구해 줄 테니\n이 몸을 따라와라!",
+  "DS048#21: 가, 감사합니다~!",
+  "DS048#22: 그런데 어떻게\n이쪽 섬으로\n오실 건가요~?",
+  "DS048#23: 발판이든 다리든\n만들면 되잖느냐![Next]이 몸의 힘으로\n어떻게든 될 것이다!",
+  "DS048#24: 나왔어~!",
+  "DS048#25: 감사합니다~",
+  "DS048#26: 쿠파님~",
+  "DS048#27: 좋아! 지금부터\n쿠파 성으로 향한다!!",
+  "DS048#28: 네!",
+  "DS048#29: 굼바 군단이 동료가 되었다!\n배틀에서 굼바부대를\n사용할 수 있게 되었다!",
+  "DS048#30: 롱롱롱롱~\n눈물의 재회로군롱롱![Next]드라마틱한 전개에\n감동했지롱롱~",
+  "DS048#31: 시끄럽다! 귀여운 부하에게\n무슨 짓을 한 거냐![Next]절대 용서 않겠다!!",
+  "DS048#32: 롱롱롱롱~ 귀여운 부하들은\n아직도 여기저기에\n버려져 있지롱롱~[Next]생방송으로 그들의 목소리를\n들려줄 거지롱롱롱~",
+  "DS048#33: 쿠파님~\n엉금엉금 군단을\n구해 주세요~!",
+  "DS048#34: SOS! SOS!\n여기는 폭탄병 군단![Next]SOS! 지원을 요청한다!\n여기는 폭탄벼…",
+  "DS048#35: 헤이호 군단!\n전원 붙잡혔습니다![Next]원통합니다~~~!!",
+  "DS048#36: 제, 젠장~~~!![Next]절대로 용서 못 한다!!",
+  "DS048#37: 롱롱롱롱!! 쿠파 성이\n내 차지가 되는 건\n시간문제지롱롱롱![Next]네가 와도\n네 편은 하나도 없지롱롱![Next]하긴, 쿠파 성까지\n올 수나 있으려나 모르겠지롱…",
+  "DS048#38: 롱롱롱롱롱롱롱!!",
+  "DS048#39: 여기에서 재미있게\n놀다 가롱롱!!",
+  "DS049#0: 이걸 다리로\n쓸 수 있을까…?",
+  "DS049#1: 흐아아아아아아아압!",
+  "DS049#2: 조금만 더…!",
+  "DS049#3: 굼바 군단부터\n구해 줘야지…",
+  "DS053#0: 요즘 버섯 왕국에서 선풍적 인기!\n발사 다이어트![Next]방법은 초간단!\n발사대에 올라서면 끝![Next]아차차! 그 전에\n발사대 준비가 필요하다![Next]준비 방법은…\n이미 알고 있겠지?[Next]준비된 발사대에 올라서면\n퍼엉! 하고 폭발!\n피융! 하고 발사![Next]엄청난 공기의 압력으로\n군살 속 지방을 태워 준다!!\n즐겁게 시작하는 발사 다이어트!",
+  "DS178#0: → 숲 출구",
+  "DS28D#0: 으르렁… 으르렁…",
+  "DS28D#1: 비 콰이어트~\n우리 블도그 착하지~[Next]손님이\n도망가잖아~",
+  "DS28D#2: 오우 신사~!\n이렇게 몇 번이고 만나게 되니\n운명적인 뭔가가 느껴지네요.",
+  "DS28D#3: 여기에서 미가 뭘 하는 걸까요?\n그렇습니다! 미는 바로\n상점의 경영자랍니다.[Next]우리 블도그의 비싸디 비싼\n사료값을 대기 위해서\n숍을 오픈했습니다![Next]자, 신사~\n즐거운 쇼핑 되세요~",
+  "DS28D#4: 앤~드 여유가 되신다면\n우리 블도그에게\n코인을 줘 보세요.[Next]블도그는 코인을 좋아하니까\n나이스한 장비와\n트레이드해 줄 거예요, 메이비~",
+  "DS28D#5: 웨이~~~트!\n잠깐만요!!",
+  "DS28D#6: 무슨 일이냐?\n또 할 말이 남았냐?",
+  "DS28D#7: 신사는\n강하고 부드러운 남자니까…[Next]부탁이 있습니다!!",
+  "DS28D#8: 이 몸은 바쁘시단 말이다!\n용건만 말해라!",
+  "DS28D#9: 오우! 그렇다면\n용건만 간단히 설명드리죠!",
+  "DS28D#10: 아시다시피 미는\n블록 컬렉터입니다![Next]이래 봬도 컬렉터 사이에서는\n미의 명성이 높죠![Next]하지만 미가 아직\n갖지 못한 블록이 있습니다![Next]그것은 살아 있는 블록…[Next]바로 블캐츠!!!",
+  "DS28D#11: 룩스는 대강\n이런 느낌입니다![Next]이건 미가 만든\n가짜지만…",
+  "DS28D#12: 진짜는 진땀 나도록\n쏘 큐~~~~트![Next]지금 미는 무조건\n귀여운 블캐츠가 필요해요![Next]우리 숍의 마스코트로 삼게\n반드시 갖고 싶다고요!",
+  "DS28D#13: 우리 블도그한텐 미안하게 됐지만\n지금은 무조건 블캐츠![Next]귀여운 블캐츠가 갖고 싶어\n참을 수가 없어요!!",
+  "DS28D#14: 정리하자면… 레어 블록인\n블캐츠를\n찾아 주시면 고맙겠습니다~[Next]상냥한 젠틀맨이라면\nOK하겠죠? 역시! 땡큐![Next]자세히 얘기해 드릴까요?\n말해 봐라\n지금은 귀찮다",
+  "DS28D#15: 역시 젠틀맨은 달라!\n부탁을 들어줄 거로군요!![Next]그럼 귀여운 블캐츠에 대해\n설명해 드리죠~",
+  "DS28D#16: 오우! 설명이\n필요 없다는 말씀이신가요?[Next]정말 괜찮겠어요?\n말해 봐라\n지금은 귀찮다",
+  "DS28D#17: 리얼리?\n말해 봐라\n지금은 귀찮다!",
+  "DS28D#18: 그렇습니까! 그렇다면\n신사에게 맡기도록 하죠![Next]앞으로 분명 귀여운 블캐츠를\n얻게 되는 날이 올 겁니다![Next]그땐 주저 말고 미의 숍에\n언제든지 컴 백!![Next]신사에게 플러스가 될 거라고\n감히 말씀드리는 바입니다![Next]자세한 얘기가 듣고 싶다면\n언제든지 들려드리죠~!!",
+  "DS28D#19: 메이 아이 헬프 유~?[Next]아이템 사기\n블캐츠에 대해\n배틀에 대해 듣기\n별 용건 없음",
+  "DS28D#20: 메이 아이 헬프 유~?[Next]아이템 사기\n배틀에 대해 듣기\n별 용건 없음",
+  "DS28D#21: 미는 아이템과 장비를\n구비해 놓고 있습니다~!![Next]아이템 사기\n장비 사기\n배틀에 대해 듣기\n별 용건 없음",
+  "DS28D#22: 수집한 블캐츠 보기\n블캐츠가 뭐더라?\n뒤로",
+  "DS28D#23: 먼저 감기! 감기를 조심하세요![Next]감기에 걸리면 행동할 때마다\nHP가 줄어들게 되거든요![Next]감기에 걸리면 바로\n회복허브를 먹어 주세요![Next]우리 숍에도 있으니까\n구입해 주세요, 플리즈![Next]그리고 너무 분노하면 안 좋아요![Next]공격을 계속 당하면 초조해지고\n스트레스도 쌓일 거예요![Next]초조함이 극도에 도달하면…\n그래요! 분노하게 되죠![Next]분노하면 POW가 세집니다!\n몬스터도 쉽게 물리칠 수 있죠![Next]벗! 하지만! 분노하면\nDEF는 약해집니다![Next]쓰러뜨리기 쉬우나 쓰러지기도 쉬운\n덴저러스한 상태인 것입니다![Next]우리 블도그도 화를 주체하지\n못하고 종종 당하곤 하죠…[Next]되도록 항상 해피하게\n웃으며 지내면 좋잖아요…[Next]그러니까 공격을 계속 당해서\n분노하지 않도록 주의하세요!",
+  "DS28D#24: 버섯 왕국에는 무서~운\n몬스터가 우글거리고 있어요![Next]그런 녀석들을 먼저\n어택하는 방법이 있답니다![Next]그래요! 배틀에 들어가기 전에\n별안간 펀치를 날리는 겁니다![Next]또는! 배틀에 들어가기 전에\n별안간 화염을 내뿜는 겁니다![Next]몬스터의 움직임을 룩!\n허점이 보이면 바로! 어택![Next]그러면 신사의 배틀은 아마도\n백전백승이지 않을까요!",
+  "DS28D#25: 상태 변화에 대해 듣기\n선제공격에 대해 듣기\n뒤로",
+  "DS28D#26: 귀여운 블캐츠에 대해\n길~게 말해도 될까요?\n듣기  듣지 않기",
+  "DS28D#27: 땡큐 신사~!\n다음에 또 오세요!",
+  "DS28D#28: 오우! 귀여운 블캐츠를\n데리고 오셨나 보네요![Next]땡큐 베리 머치!\n블캐츠야~ 이리 오렴~!",
+  "DS28D#29: 기대하고 있겠습니다! 신사!",
+  "DS28D#30: 우리 숍이\n이제 활기차죠?[Next]이건 작은\n마음의 선물입니다!!",
+  "DS28D#31: 블록팔찌를 획득했다!!",
+  "DS28D#32: 블록이빨을 획득했다!!",
+  "DS28D#33: 블록반지를 획득했다!!",
+  "DS28D#34: d  I353",
+  "DS28D#35: 마지막 블캐츠까지\n다 모였네~!!",
+  "DS28D#36: 너도 기쁘지~\n우리 블도그야~![Next]이제 우리 블도그도\n산책할 수 있게 됐어~!",
+  "DS28D#37: 뭐냐?",
+  "DS28D#38: 우리 블도그 좀 봐!\n너무 좋은가 보네!",
+  "DS28D#39: 어이, 뭐냐니까?",
+  "DS28D#40: 날 산책시켜 줘!\n당장 가자고! 베이비![Next]우리 블도그가\n이렇게 말하고 있네요!",
+  "DS28D#41: 내가 왜?",
+  "DS28D#42: 블도그가 동료가 되었다!\n배틀에서 블도그부대를\n사용할 수 있게 되었다![Next]연습해 볼까요?\n예  아니요",
+  "DS28D#43: 미는 너무나 만족합니다![Next]신사와는\n포에버 프렌드입니다!",
+  "DS28D#44: 잊으셨나요?\n우리 블도그는 최강입니다![Next]베리 패스트한 움직임!\n베리 스트롱한 어택![Next]그렇고 그런 적들은\n순식간에 바이바이랍니다!",
+  "DS28D#45: 그러냐? 그럼 쿠파 군단의 일원으로\n데리고 다녀 주마!",
+  "DS28D#46: 가자!",
+  "DS28D#47: 오우! 서프라이즈!\n마리오님이시군요![Next]어딘가에서 만난 것 같지만…\n음~ 생각나지 않네요…[Next]그건 그렇다 치고,\n바이 더 웨이!![Next]당신은 블록 컬렉터 사이에서\n베리 페이머스하더군요![Next]블록만 봤다 하면\n무조건 두드린다고…[Next]블록 혼이\n전혀 없는 크레이지 가이![Next]블록은 한번 두드리면\n가치가 없어진다고요![Next]그런 당신과는 유익한\n트레이드를 할 수 없겠네요~[Next]안녕~ 다시는 오지 마세요~\n아임 쏘리!",
+  "DS28D#48: 당신과는 유익한\n트레이드를 할 수 없어요~[Next]안녕~ 다시는 오지 마세요~\n아임 쏘리!",
+  "DS28D#49: ↑ 숲 출구&초원 입구\n↓ 이아파 비치"
+ ],
+ "glossary": [
+  {
+   "jp": "ほのお",
+   "ko": "화염",
+   "type": "ability",
+   "basis": "DS",
+   "source": "FEvent#01A.25",
+   "note": "쿠파의 필드 액션(아이콘명)·불 뿜기. 배틀 커맨드 ファイア는 '파이어' [gl_attacks]"
+  },
+  {
+   "jp": "パンチ",
+   "ko": "펀치",
+   "type": "ability",
+   "basis": "DS",
+   "source": "BData__mfset_Help#14",
+   "note": "필드 액션·배틀 커맨드 공통 [gl_attacks]"
+  },
+  {
+   "jp": "ブラザーアタック",
+   "ko": "스페셜 어택",
+   "type": "attack",
+   "basis": "DS",
+   "source": "BAI__BMes_cf#4.1",
+   "note": "DS 대응문(어택피스로 스페셜 어택을↔アタックパーツでブラザーアタックが)으로 같은 대상 확인. 3DX에서 スペシャルアタック을 개칭한 것. 후속작 공식 표기는 '브라더 어택'(https://www.nintendo.com/kr/switch/a8e6a/battle/index.html) — 개칭 반영 여부 확인 필요 [gl_attacks]"
+  },
+  {
+   "jp": "ボコスカクリボー",
+   "ko": "굼바부대",
+   "type": "attack",
+   "basis": "DS",
+   "source": "BData__mfset_AItmN#6",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "ボコスカブロドッグ",
+   "ko": "블도그부대",
+   "type": "attack",
+   "basis": "DS",
+   "source": "BData__mfset_AItmN#23",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "クッパ",
+   "ko": "쿠파",
+   "type": "boss",
+   "basis": "DS",
+   "source": "BData__mfset_MonN#65",
+   "note": "마리오 일행이 싸우는 쿠파. glossary 확정값과 동일 [gl_enemies]"
+  },
+  {
+   "jp": "ブロドッグ",
+   "ko": "블도그",
+   "type": "boss",
+   "basis": "DS",
+   "source": "BData__mfset_MonN#23",
+   "note": "glossary 확정값과 동일 [gl_enemies]"
+  },
+  {
+   "jp": "ゲラコビッツ",
+   "ko": "까르코비츠",
+   "type": "character",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesOutline#5",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "ブロドッグちゃん",
+   "ko": "우리 블도그",
+   "type": "character",
+   "basis": "DS",
+   "source": "o_mushiba_12#4 <-> DS035#6 ; o_mushiba_12#12 <-> DS035#14 ; o_ekubon_02_after#13 <-> DS28D#1",
+   "note": "블록 상점 신사의 말. ちゃん은 '우리'로 살림. 앞에 소유격이 있으면 '블도그'만(DS035#3) [gl_characters]"
+  },
+  {
+   "jp": "マリオ",
+   "ko": "마리오",
+   "type": "character",
+   "basis": "DS",
+   "source": "BData__mfset_Help#19",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "マリオさん",
+   "ko": "마리오님",
+   "type": "character",
+   "basis": "DS",
+   "source": "o_town_33#0 <-> DS0F2#46 ; i_kinopio_01#3 <-> DS16A#10",
+   "note": "키노피오·블록 상점 신사 등이 부를 때('마리오 씨' 아님). 3DX 106회 [gl_characters]"
+  },
+  {
+   "jp": "クリボー",
+   "ko": "굼바",
+   "type": "enemy",
+   "basis": "DS",
+   "source": "BAI__BMes_cf:0#1",
+   "note": "glossary 확정값 [gl_enemies]"
+  },
+  {
+   "jp": "ノコノコ",
+   "ko": "엉금엉금",
+   "type": "enemy",
+   "basis": "DS",
+   "source": "BData__mfset_AItmE#10",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "ヘイホー",
+   "ko": "헤이호",
+   "type": "enemy",
+   "basis": "DS",
+   "source": "FEvent:048#35",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "ボムへい",
+   "ko": "폭탄병",
+   "type": "enemy",
+   "basis": "DS",
+   "source": "FEvent:063#45",
+   "note": "glossary 확정값. RPG1 DX 한국판도 '폭탄병' [gl_enemies]"
+  },
+  {
+   "jp": "ブロックうでわ",
+   "ko": "블록팔찌",
+   "type": "gear",
+   "basis": "DS",
+   "source": "BData__mfset_WearN#321",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "ブロックきば",
+   "ko": "블록이빨",
+   "type": "gear",
+   "basis": "DS",
+   "source": "BData__mfset_WearN#354",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "ブロックゆびわ",
+   "ko": "블록반지",
+   "type": "gear",
+   "basis": "DS",
+   "source": "BData__mfset_WearN#399",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "はねとびプレート",
+   "ko": "발사대",
+   "type": "item",
+   "basis": "DS",
+   "source": "o_ekubon_06#0 ↔ DS053#0",
+   "note": "room-align"
+  },
+  {
+   "jp": "キノコ",
+   "ko": "버섯",
+   "type": "item",
+   "basis": "DS",
+   "source": "BData__mfset_UItmN#0",
+   "note": "일반 명사 キノコ도 버섯(キノコタウン=버섯 타운) [gl_items]"
+  },
+  {
+   "jp": "リフレッシュハーブ",
+   "ko": "회복허브",
+   "type": "item",
+   "basis": "DS",
+   "source": "BData__mfset_UItmN#30",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "アタックパーツ",
+   "ko": "어택피스",
+   "type": "key_item",
+   "basis": "DS",
+   "source": "BAI__BMes_cf#4.1",
+   "note": "붙여 씀. 개별 이름(ガラクタパーツ→잡동사니 피스 등)은 MData__mfset_MenuMes#9~18 [gl_attacks]"
+  },
+  {
+   "jp": "ブロキャット",
+   "ko": "블캐츠",
+   "type": "key_item",
+   "basis": "DS",
+   "source": "MData__mfset_MenuMes#67",
+   "note": "15마리 공통 이름 [gl_items]"
+  },
+  {
+   "jp": "いつでもハッピー",
+   "ko": "언제나 해피",
+   "type": "other",
+   "basis": "coined",
+   "source": "",
+   "note": "BGM 제목(3DX 신규, DX판·원곡판 공통). [gl_menu_places]"
+  },
+  {
+   "jp": "クッパ軍団",
+   "ko": "쿠파 군단",
+   "type": "other",
+   "basis": "DS",
+   "source": "FEvent#23E.19",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "クリボー軍団",
+   "ko": "굼바 군단",
+   "type": "other",
+   "basis": "DS",
+   "source": "FEvent#048.29",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "ノコノコ軍団",
+   "ko": "엉금엉금 군단",
+   "type": "other",
+   "basis": "DS",
+   "source": "FEvent#048.33",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "ヘイホー軍団",
+   "ko": "헤이호 군단",
+   "type": "other",
+   "basis": "DS",
+   "source": "FEvent#048.35",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "ボムへい軍団",
+   "ko": "폭탄병 군단",
+   "type": "other",
+   "basis": "DS",
+   "source": "FEvent#048.34",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "ムッシュ",
+   "ko": "신사",
+   "type": "other",
+   "basis": "DS",
+   "source": "o_ibiki_01#3 <-> DS134#7 ; o_koopa_r_33#8 <-> DS145#7",
+   "note": "correction(note만): 블록 상점 신사가 쿠파(전투 중엔 마리오도)를 부르는 말. 기존 note의 '블로크'는 DS 표기가 아님(상점 주인의 본명은 JP·DS 대사에 없음) [gl_characters]"
+  },
+  {
+   "jp": "エクボン",
+   "ko": "볼조개",
+   "type": "place",
+   "basis": "DS",
+   "source": "MData__mfset_MenuMes#17",
+   "note": "エクボンの森 약칭(エクボンパーツ=볼조개 피스) [gl_menu_places]"
+  },
+  {
+   "jp": "エクボンの森",
+   "ko": "볼조개 숲",
+   "type": "place",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesPlace#2",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "キノコ王国",
+   "ko": "버섯 왕국",
+   "type": "place",
+   "basis": "DS",
+   "source": "FEvent:011#0",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "クッパ城",
+   "ko": "쿠파 성",
+   "type": "place",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesPlace#6",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "ムッシーバビーチ",
+   "ko": "이아파 비치",
+   "type": "place",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesPlace#4",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "出口",
+   "ko": "출구",
+   "type": "place",
+   "basis": "DS",
+   "source": "DS047#0",
+   "note": "[gl_menu_places]"
+  },
+  {
+   "jp": "森の出口",
+   "ko": "숲 출구",
+   "type": "place",
+   "basis": "DS",
+   "source": "DS047#0",
+   "note": "표지판 [gl_menu_places]"
+  },
+  {
+   "jp": "草原",
+   "ko": "초원",
+   "type": "place",
+   "basis": "DS",
+   "source": "DS283#23",
+   "note": "オタプク草原을 줄여 부를 때 [gl_menu_places]"
+  },
+  {
+   "jp": "DEF",
+   "ko": "DEF",
+   "type": "term",
+   "basis": "DS",
+   "source": "BData__mfset_WearE#23",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "HP",
+   "ko": "HP",
+   "type": "term",
+   "basis": "DS",
+   "source": "BAI__BMes_cf#2.11",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "POW",
+   "ko": "POW",
+   "type": "term",
+   "basis": "DS",
+   "source": "BData__mfset_WearE#35",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "うでわ",
+   "ko": "팔찌",
+   "type": "term",
+   "basis": "DS",
+   "source": "MData__mfset_ShopMes#48",
+   "note": "장비 종류명 [gl_items]"
+  },
+  {
+   "jp": "おこり",
+   "ko": "분노",
+   "type": "term",
+   "basis": "DS",
+   "source": "o_ekubon_02_after#16 ↔ DS28D#23",
+   "note": "room-align"
+  },
+  {
+   "jp": "きば",
+   "ko": "이빨",
+   "type": "term",
+   "basis": "DS",
+   "source": "BData__mfset_WearN#327",
+   "note": "장비 종류명(쿠파). DS 파워이빨 등 [gl_items]"
+  },
+  {
+   "jp": "はねとびダイエット",
+   "ko": "발사 다이어트",
+   "type": "term",
+   "basis": "DS",
+   "source": "o_ekubon_06#0 ↔ DS053#0",
+   "note": "room-align"
+  },
+  {
+   "jp": "ゆびわ",
+   "ko": "반지",
+   "type": "term",
+   "basis": "DS",
+   "source": "MData__mfset_ShopMes#49",
+   "note": "장비 종류명 [gl_items]"
+  },
+  {
+   "jp": "アタック",
+   "ko": "어택",
+   "type": "term",
+   "basis": "DS",
+   "source": "BDataMiniGame__mfset_MesDat_MiniGame#5",
+   "note": "스페셜 어택을 줄여 부를 때. 단 퀴즈의 パンチアタック/ファイアアタック은 DS대로 '~ 공격' [gl_attacks]"
+  },
+  {
+   "jp": "アップ",
+   "ko": "업",
+   "type": "term",
+   "basis": "DS",
+   "source": "FEvent:0EC#11",
+   "note": "이름 안의 アップ는 '업'(POW 업, 파워 업). 설명 문장의 'アップする/アップ!'는 DS 장비·아이템 설명대로 '증가'"
+  },
+  {
+   "jp": "カゼ",
+   "ko": "감기",
+   "type": "term",
+   "basis": "DS",
+   "source": "o_ekubon_02_after#16 ↔ DS28D#23",
+   "note": "room-align"
+  },
+  {
+   "jp": "クッパ様",
+   "ko": "쿠파님",
+   "type": "term",
+   "basis": "DS",
+   "source": "BAI__BMes_cf:0#0",
+   "note": "부하들이 부를 때 [gl_kj]"
+  },
+  {
+   "jp": "コイン",
+   "ko": "코인",
+   "type": "term",
+   "basis": "DS",
+   "source": "BData__mfset_WearE#22",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "ジェントルマン",
+   "ko": "젠틀맨",
+   "type": "term",
+   "basis": "DS",
+   "source": "o_ekubon_02_after#34 ↔ DS28D#14",
+   "note": "room-align"
+  },
+  {
+   "jp": "ダウン",
+   "ko": "다운",
+   "type": "term",
+   "basis": "DS",
+   "source": "BData__mfset_AItmE2#16",
+   "note": "이름 안의 ダウン은 '다운'(POW 다운). 설명 문장의 'ダウンする/させる'는 DS대로 '감소/줄여 주는'"
+  },
+  {
+   "jp": "ダメージ",
+   "ko": "타격",
+   "type": "term",
+   "basis": "DS",
+   "source": "DS '타격' 32회 / '대미지' 5회",
+   "note": "'타격을 입히다/입다'. 숫자·연속 공격 문맥은 '대미지' 허용(DS: 연속 대미지)"
+  },
+  {
+   "jp": "バトル",
+   "ko": "배틀",
+   "type": "term",
+   "basis": "DS",
+   "source": "BAI__BMes_cf#2.13",
+   "note": "명사는 '배틀'. 동사 'バトルする/した'는 DS처럼 '싸우다'로 써도 된다"
+  },
+  {
+   "jp": "ブロックだましい",
+   "ko": "블록 혼",
+   "type": "term",
+   "basis": "DS",
+   "source": "o_mushiba_05_after#8 ↔ DS03D#6",
+   "note": "room-align"
+  },
+  {
+   "jp": "ブロックコレクター",
+   "ko": "블록 컬렉터",
+   "type": "term",
+   "basis": "DS",
+   "source": "o_mushiba_05_after#12 ↔ DS03D#10",
+   "note": "room-align"
+  },
+  {
+   "jp": "ミー",
+   "ko": "미",
+   "type": "term",
+   "basis": "DS",
+   "source": "o_areanone_allmap_bcat_U#4 ↔ DS283#2",
+   "note": "room-align"
+  },
+  {
+   "jp": "ムッシュ～",
+   "ko": "신사",
+   "type": "term",
+   "basis": "DS",
+   "source": "o_koopa_37#3 ↔ DS23C#8",
+   "note": "room-align"
+  },
+  {
+   "jp": "モンスター",
+   "ko": "몬스터",
+   "type": "term",
+   "basis": "DS",
+   "source": "BAI__BMes_cf#2.1",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "ワガハイ",
+   "ko": "이 몸",
+   "type": "term",
+   "basis": "DS",
+   "source": "FEvent:025#7",
+   "note": "쿠파의 1인칭 [gl_kj]"
+  },
+  {
+   "jp": "仲間",
+   "ko": "동료",
+   "type": "term",
+   "basis": "DS",
+   "source": "FEvent:048#29",
+   "note": "「仲間になった」→'동료가 되었다' [gl_kj]"
+  },
+  {
+   "jp": "先制攻撃",
+   "ko": "선제공격",
+   "type": "term",
+   "basis": "DS",
+   "source": "FEvent#28D.25",
+   "note": "붙여 씀 [gl_attacks]"
+  },
+  {
+   "jp": "手下",
+   "ko": "부하",
+   "type": "term",
+   "basis": "DS",
+   "source": "o_ekubon_07_1#17 <-> DS048#31 ; o_koopa_01#32 <-> DS025#15",
+   "note": "'かわいい手下' → '귀여운 부하' [gl_characters]"
+  },
+  {
+   "jp": "攻撃",
+   "ko": "공격",
+   "type": "term",
+   "basis": "DS",
+   "source": "BAI__BMes_cf#2.1",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "状態変化",
+   "ko": "상태 변화",
+   "type": "term",
+   "basis": "DS",
+   "source": "FEvent#28D.25",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "軍団",
+   "ko": "군단",
+   "type": "term",
+   "basis": "DS",
+   "source": "BAI__BMes_cf#0.20",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "そうび",
+   "ko": "장비",
+   "type": "ui",
+   "basis": "DS",
+   "source": "MData__mfset_MenuMes#1",
+   "note": "명사(스타 메뉴 항목·장비품). 동사 そうびする는 '착용하다'(ShopMes#14) [gl_menu_places]"
+  },
+  {
+   "jp": "そうび品",
+   "ko": "장비",
+   "type": "ui",
+   "basis": "DS",
+   "source": "MData__mfset_MenuMes#1",
+   "note": "동사 そうびする는 '착용하다'(ShopMes#14) [gl_menu_places]"
+  },
+  {
+   "jp": "を手に入れた！",
+   "ko": "획득했다!",
+   "type": "ui",
+   "basis": "DS",
+   "source": "BAI__BMes_ji#1.0",
+   "note": "시스템 알림 '○○을/를 획득했다!'(조사는 받침에 맞게) [gl_menu_places]"
+  },
+  {
+   "jp": "アイテム",
+   "ko": "아이템",
+   "type": "ui",
+   "basis": "DS",
+   "source": "BData__mfset_Help#13",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "ショップ",
+   "ko": "숍",
+   "type": "ui",
+   "basis": "DS",
+   "source": "DS0A3#1",
+   "note": "[gl_menu_places]"
+  },
+  {
+   "jp": "ブロキャットについて",
+   "ko": "블캐츠에 대해",
+   "type": "ui",
+   "basis": "DS",
+   "source": "DS0D2#0",
+   "note": "블록 상점 선택지"
+  },
+  {
+   "jp": "練習",
+   "ko": "연습",
+   "type": "ui",
+   "basis": "DS",
+   "source": "DS16A#13",
+   "note": "[gl_menu_places]"
+  },
+  {
+   "jp": "買い物",
+   "ko": "쇼핑",
+   "type": "ui",
+   "basis": "DS",
+   "source": "SAI__SMes_yo#0.64",
+   "note": "[gl_menu_places]"
+  },
+  {
+   "jp": "買い物をする",
+   "ko": "물건 사기",
+   "type": "ui",
+   "basis": "DS",
+   "source": "DS0D2#0 '장비 사기/아이템 사기'",
+   "note": "블록 상점 선택지. 3DX는 장비·아이템 사기를 하나로 합침(o_koopa_37#2)"
+  }
+ ],
+ "messages": [
+  {
+   "id": "FMsg/o_ekubon_02#0",
+   "label": "MES_Ekubon_02_after_Yajirushi_kanban_02",
+   "style": 12,
+   "src": "{1:align}{2:align}{3:mode}↑ 森の出口 草原へ\n{4:align}↓ ムッシーバビーチ{5:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0005:0000:]",
+    "4": "[0001:0001:]",
+    "5": "[0002:0001:]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": [
+    "FMsg/o_ekubon_02_after#41"
+   ]
+  },
+  {
+   "id": "FMsg/o_ekubon_02_after#0",
+   "label": "MES_Ekubon_02_after_Ekubon_brilock_shop_04_21",
+   "style": 6,
+   "src": "ウェーーイト！{1:pause}\nお待ちください！！{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_ekubon_02_after#1",
+   "label": "MES_Ekubon_02_after_Ekubon_brilock_shop_04_22",
+   "style": 6,
+   "src": "なんだ？{1:pause}\nまだ なにかあるのか？{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_ekubon_02_after#2",
+   "label": "MES_Ekubon_02_after_Ekubon_brilock_shop_04_23",
+   "style": 6,
+   "src": "ムッシュ～が\n強く やさしいことをみこんで…{1:wait}[Next]{2:align}{3:align}お願いがあります！！{4:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0001:0004:]",
+    "3": "[0001:0001:]",
+    "4": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_ekubon_02_after#3",
+   "label": "MES_Ekubon_02_after_Ekubon_brilock_shop_04_24",
+   "style": 6,
+   "src": "ワガハイは いそがしいんだ！{1:pause}\nさっさと言え！{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_ekubon_02_after#5",
+   "label": "MES_Ekubon_02_after_Ekubon_brilock_shop_06_1",
+   "style": 6,
+   "src": "オウ！{1:color} ブロキャット{2:color}ちゃんを\n連れてきてくれた みたいですね！{3:wait}[Next]サンキュー！ メルシー！\n{4:color}ブロキャット{5:color}ちゃん おいで～！{6:wait}",
+   "tags": {
+    "1": "[Color #2C64FF]",
+    "2": "[Color #373737]",
+    "3": "[0002:0001:]",
+    "4": "[Color #2C64FF]",
+    "5": "[Color #373737]",
+    "6": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_ekubon_02_after#6",
+   "label": "MES_Ekubon_02_after_Ekubon_brilock_shop_06_2",
+   "style": 6,
+   "src": "きたいしていますよ！ ムッシュ～！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_ekubon_02_after#7",
+   "label": "MES_Ekubon_02_after_Ekubon_brilock_shop_06_20",
+   "style": 6,
+   "src": "なんだ？{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/o_gepu_02#9"
+   ]
+  },
+  {
+   "id": "FMsg/o_ekubon_02_after#8",
+   "label": "MES_Ekubon_02_after_Ekubon_brilock_shop_05_d",
+   "style": 6,
+   "src": "{1:align}メーアイ ヘルプ ユ～？{2:wait}[Next]{3:choice}{4:indent}アイテム{5:color}を買う\n{6:choice}{7:indent}バトルについて 聞く\n{8:choice}{9:indent}とくに用はない{10:color}{11:pause}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]",
+    "3": "[0004:0001:]",
+    "4": "[0006:0001:14 00]",
+    "5": "[Color #373737]",
+    "6": "[0004:0001:]",
+    "7": "[0006:0001:14 00]",
+    "8": "[0004:0001:]",
+    "9": "[0006:0001:14 00]",
+    "10": "[Color #373737]",
+    "11": "[0002:0000:0A 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_ekubon_02_after#9",
+   "label": "MES_Ekubon_02_after_Ekubon_brilock_shop_06_21",
+   "style": 6,
+   "src": "ブロドッグちゃんってば\nそんなに はしゃいじゃって！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_ekubon_02_after#10",
+   "label": "MES_Ekubon_02_after_Ekubon_brilock_shop_01",
+   "style": 6,
+   "src": "ガルルルルル…{1:pause}",
+   "tags": {
+    "1": "[0002:0000:1E 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/o_mushiba_12#13"
+   ]
+  },
+  {
+   "id": "FMsg/o_ekubon_02_after#11",
+   "label": "MES_Ekubon_02_after_Ekubon_brilock_shop_05_e",
+   "style": 6,
+   "src": "{1:align}ミーが アイテムもそうび品も\nケアー しますよ～！！{2:wait}[Next]{3:choice}{4:indent}{5:color}買い物をする\n{6:choice}{7:indent}バトルについて 聞く\n{8:choice}{9:indent}とくに用はない{10:color}{11:pause}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]",
+    "3": "[0004:0001:]",
+    "4": "[0006:0001:14 00]",
+    "5": "[Color #373737]",
+    "6": "[0004:0001:]",
+    "7": "[0006:0001:14 00]",
+    "8": "[0004:0001:]",
+    "9": "[0006:0001:14 00]",
+    "10": "[Color #373737]",
+    "11": "[0002:0000:0A 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_ekubon_02_after#12",
+   "label": "MES_Ekubon_02_after_Ekubon_brilock_shop_06_22",
+   "style": 6,
+   "src": "おい。なんなんだ？{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_ekubon_02_after#13",
+   "label": "MES_Ekubon_02_after_Ekubon_brilock_shop_02",
+   "style": 6,
+   "src": "ビー クワイエ～ット{1:pause}\nブロドッグちゃ～ん。{2:wait}[Next]お客さんが\n逃げちゃうでしょ～{3:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_ekubon_02_after#14",
+   "label": "MES_Ekubon_02_after_Ekubon_brilock_shop_06_23",
+   "style": 6,
+   "src": "さんぽに 連れてってくれんだろ！{1:pause}\nはやく行こうぜ！ ベイビー！{2:wait}[Next]ブロドッグちゃんは\nそう 言っているのです！{3:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_ekubon_02_after#15",
+   "label": "MES_Ekubon_02_after_Ekubon_brilock_shop_03",
+   "style": 6,
+   "src": "オウ{1:pause} ムッシュ～！{2:pause}\nこう何度も お会いすると\n運命的なものを 感じますね。{3:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0000:0A 00]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_ekubon_02_after#16",
+   "label": "MES_Ekubon_02_after_Ekubon_brilock_shop_05_g",
+   "style": 6,
+   "src": "{1:align}まず {2:color}カゼ{3:color}{4:color}！{5:pause} {6:color}{7:color}カゼ{8:color}{9:color}に注意です！{10:wait}[Next]{11:color}{12:color}カゼ{13:color}{14:color}をひくと 行動を起こすたびに\n{15:color}{16:color}HP{17:color}{18:color}が 減っていってしまいます！{19:wait}[Next]{20:color}{21:color}カゼ{22:color}{23:color}になったら\n{24:color}{25:color}リフレッシュハーブ{26:color}{27:color}を 飲みましょう！{28:wait}[Next]ウチにも おいてあります！\nぜひ お買い上げシルブプレ！{29:wait}[Next]それから {30:color}{31:color}おこり{32:color}{33:color}すぎに 注意です！{34:wait}[Next]{35:align}攻撃を 受けつづけると\nイライラと ストレスがたまります！{36:wait}[Next]イライラが 頂点に達すると…\nそう！ {37:color}{38:color}おこり{39:color}{40:color}ます！{41:wait}[Next]{42:color}{43:color}おこる{44:color}{45:color}と {46:color}{47:color}POW{48:color}{49:color}が{50:color}{51:color}アップ{52:color}{53:color}するのです！\nモンスターも 倒しやすいでしょう！{54:wait}[Next]バット！ しかし！ {55:color}{56:color}おこる{57:color}{58:color}と\n{59:color}{60:color}DEF{61:color}{62:color}は{63:color}{64:color}ダウン{65:color}{66:color}するのです！{67:wait}[Next]倒しやすく！ 倒されやすい！\nデンジャラスな 状態なのです！{68:wait}[Next]ブロドッグちゃんも おこりすぎで\nやられちゃうことがしばしば…{69:wait}[Next]できれば いつでもハッピーに\n笑っていたいものです…{70:wait}[Next]ということで 攻撃を受けつづけると\nおこりやすくなることに 注意です！{71:wait}{72:color}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[Color #2C64FF]",
+    "3": "[Color #373737]",
+    "4": "[Color #373737]",
+    "5": "[0002:0000:0A 00]",
+    "6": "[Color #373737]",
+    "7": "[Color #2C64FF]",
+    "8": "[Color #373737]",
+    "9": "[Color #373737]",
+    "10": "[0002:0001:]",
+    "11": "[Color #373737]",
+    "12": "[Color #2C64FF]",
+    "13": "[Color #373737]",
+    "14": "[Color #373737]",
+    "15": "[Color #373737]",
+    "16": "[Color #2C64FF]",
+    "17": "[Color #373737]",
+    "18": "[Color #373737]",
+    "19": "[0002:0001:]",
+    "20": "[Color #373737]",
+    "21": "[Color #2C64FF]",
+    "22": "[Color #373737]",
+    "23": "[Color #373737]",
+    "24": "[Color #373737]",
+    "25": "[Color #2C64FF]",
+    "26": "[Color #373737]",
+    "27": "[Color #373737]",
+    "28": "[0002:0001:]",
+    "29": "[0002:0001:]",
+    "30": "[Color #373737]",
+    "31": "[Color #2C64FF]",
+    "32": "[Color #373737]",
+    "33": "[Color #373737]",
+    "34": "[0002:0001:]",
+    "35": "[0001:0000:]",
+    "36": "[0002:0001:]",
+    "37": "[Color #373737]",
+    "38": "[Color #2C64FF]",
+    "39": "[Color #373737]",
+    "40": "[Color #373737]",
+    "41": "[0002:0001:]",
+    "42": "[Color #373737]",
+    "43": "[Color #2C64FF]",
+    "44": "[Color #373737]",
+    "45": "[Color #373737]",
+    "46": "[Color #373737]",
+    "47": "[Color #2C64FF]",
+    "48": "[Color #373737]",
+    "49": "[Color #373737]",
+    "50": "[Color #373737]",
+    "51": "[Color #2C64FF]",
+    "52": "[Color #373737]",
+    "53": "[Color #373737]",
+    "54": "[0002:0001:]",
+    "55": "[Color #373737]",
+    "56": "[Color #2C64FF]",
+    "57": "[Color #373737]",
+    "58": "[Color #373737]",
+    "59": "[Color #373737]",
+    "60": "[Color #2C64FF]",
+    "61": "[Color #373737]",
+    "62": "[Color #373737]",
+    "63": "[Color #373737]",
+    "64": "[Color #2C64FF]",
+    "65": "[Color #373737]",
+    "66": "[Color #373737]",
+    "67": "[0002:0001:]",
+    "68": "[0002:0001:]",
+    "69": "[0002:0001:]",
+    "70": "[0002:0001:]",
+    "71": "[0002:0001:]",
+    "72": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_ekubon_02_after#17",
+   "label": "MES_Ekubon_02_after_Ekubon_brilock_shop_06_24",
+   "style": 6,
+   "src": "役に 立つのか？{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_ekubon_02_after#18",
+   "label": "MES_Ekubon_02_after_Ekubon_brilock_shop_04",
+   "style": 6,
+   "src": "ここで ミーがなにをしているか…{1:pause}\nそれは そう{2:pause}\nミーも いち経営者なのです。{3:wait}[Next]ブロドッグちゃんの 高い高い\nお食事代のために\n{4:color}ショップ{5:color}{6:color}を オープニング！{7:wait}[Next]{8:align}さあ ムッシュ～{9:pause}\nお買い上げ シルブプレ～{10:wait}{11:color}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0000:0A 00]",
+    "3": "[0002:0001:]",
+    "4": "[Color #2C64FF]",
+    "5": "[Color #373737]",
+    "6": "[Color #373737]",
+    "7": "[0002:0001:]",
+    "8": "[0001:0004:]",
+    "9": "[0002:0000:0A 00]",
+    "10": "[0002:0001:]",
+    "11": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_ekubon_02_after#19",
+   "label": "MES_Ekubon_02_after_Ekubon_brilock_shop_04_2",
+   "style": 6,
+   "src": "ア～ンド よろしかったら\nブロドッグちゃんにも 大好物の\nコインを あげてくださいな。{1:wait}[Next]大好きな コインをあげれば\nナイスな {2:color}そうび品{3:color}{4:color}と\nトレードしてくれますよ メイビ～{5:wait}{6:color}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[Color #2C64FF]",
+    "3": "[Color #373737]",
+    "4": "[Color #373737]",
+    "5": "[0002:0001:]",
+    "6": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_ekubon_02_after#20",
+   "label": "MES_Ekubon_02_after_Ekubon_brilock_shop_05_h",
+   "style": 6,
+   "src": "キノコ王国には こわーい\nモンスターが うようよしています！{1:wait}[Next]そんなやつらに 先に\nダメージをあたえる 方法があります！{2:wait}[Next]そう！{3:pause} バトルになる前に\nいきなり パンチをブチ当てるのです！{4:wait}[Next]オア！{5:pause} バトルになる前に\nいきなり ほのおをはくのです！{6:wait}[Next]モンスターの動きを よーくルック！{7:pause}\nスキあらば ガツーン！{8:pause} ボワー！{9:wait}[Next]これで ムッシュ～のバトルも\n楽勝になること まちがいなしです！{10:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0000:0A 00]",
+    "4": "[0002:0001:]",
+    "5": "[0002:0000:0A 00]",
+    "6": "[0002:0001:]",
+    "7": "[0002:0000:0A 00]",
+    "8": "[0002:0000:0A 00]",
+    "9": "[0002:0001:]",
+    "10": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_ekubon_02_after#21",
+   "label": "MES_Ekubon_02_after_Ekubon_brilock_shop_06_25",
+   "style": 12,
+   "src": "{1:mode}{2:align}ブロドッグが 仲間になった！\nバトルで {3:color}ボコスカブロドッグ{4:color}{5:color}が\n使えるようになるぞ！{6:pause}{7:wait}[Next]{8:mode}{9:align}{10:align}練習して いきますか？{11:pause}\n{12:align}{13:choice}いいえ{14:tab}{15:choice}はい{16:color}{17:pause}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[0001:0001:]",
+    "3": "[Color #4ED4FF]",
+    "4": "[Color #E6E6E6]",
+    "5": "[Color #373737]",
+    "6": "[0002:0000:1E 00]",
+    "7": "[0002:0001:]",
+    "8": "[0005:0000:]",
+    "9": "[0001:0004:]",
+    "10": "[0001:0001:]",
+    "11": "[0002:0000:0A 00]",
+    "12": "[0001:0001:]",
+    "13": "[0004:0001:]",
+    "14": "[0006:0000:28 00]",
+    "15": "[0004:0001:]",
+    "16": "[Color #E6E6E6]",
+    "17": "[0002:0000:0A 00]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_ekubon_02_after#22",
+   "label": "MES_Ekubon_02_after_Ekubon_brilock_shop_04_3",
+   "style": 6,
+   "src": "オウ！{1:pause} それでは\nてみじかに 説明しましょう！{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_ekubon_02_after#23",
+   "label": "MES_Ekubon_02_after_Ekubon_brilock_shop_05",
+   "style": 6,
+   "src": "{1:align}メーアイ ヘルプ ユ～？{2:wait}[Next]{3:choice}{4:indent}アイテム{5:color}を買う\n{6:choice}{7:indent}ブロキャットについて\n{8:choice}{9:indent}バトルについて 聞く\n{10:choice}{11:indent}とくに用はない{12:color}{13:pause}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]",
+    "3": "[0004:0001:]",
+    "4": "[0006:0001:14 00]",
+    "5": "[Color #373737]",
+    "6": "[0004:0001:]",
+    "7": "[0006:0001:14 00]",
+    "8": "[0004:0001:]",
+    "9": "[0006:0001:14 00]",
+    "10": "[0004:0001:]",
+    "11": "[0006:0001:14 00]",
+    "12": "[Color #373737]",
+    "13": "[0002:0000:0A 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_ekubon_02_after#24",
+   "label": "MES_Ekubon_02_after_Ekubon_brilock_shop_05_i",
+   "style": 6,
+   "src": "{1:choice}{2:indent}状態変化について 聞く\n{3:choice}{4:indent}先制攻撃について 聞く\n{5:choice}{6:indent}もどる{7:pause}",
+   "tags": {
+    "1": "[0004:0001:]",
+    "2": "[0006:0001:14 00]",
+    "3": "[0004:0001:]",
+    "4": "[0006:0001:14 00]",
+    "5": "[0004:0001:]",
+    "6": "[0006:0001:14 00]",
+    "7": "[0002:0000:0A 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_ekubon_02_after#25",
+   "label": "MES_Ekubon_02_after_Ekubon_brilock_shop_06_26",
+   "style": 6,
+   "src": "{1:align}ミーは とても満足です！{2:wait}[Next]ムッシュ～とは\nフォーエバー フレンドです！{3:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_ekubon_02_after#26",
+   "label": "MES_Ekubon_02_after_Ekubon_brilock_shop_04_4",
+   "style": 6,
+   "src": "ご存知のとおり ミーは\nいち ブロックコレクターです！{1:wait}[Next]コレクターのあいだでも\nミーの名を 知らない者はいません！{2:wait}[Next]そんなミーも まだ\n手に入れてない ブロックがあります！{3:wait}[Next]{4:align}それは 生きたブロック…{5:pause}{6:wait}[Next]{7:align}{8:align}{9:font}{10:color}ブロキャット{11:color}{12:color}ちゃん！！！{13:pause}{14:wait}{15:color}{16:font}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0001:]",
+    "4": "[0001:0004:]",
+    "5": "[0002:0000:0A 00]",
+    "6": "[0002:0001:]",
+    "7": "[0001:0004:]",
+    "8": "[0001:0001:]",
+    "9": "[0000:0001:02 00]",
+    "10": "[Color #2C64FF]",
+    "11": "[Color #373737]",
+    "12": "[Color #373737]",
+    "13": "[0002:0000:14 00]",
+    "14": "[0002:0001:]",
+    "15": "[Color #373737]",
+    "16": "[0000:0001:FF FF]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_ekubon_02_after#27",
+   "label": "MES_Ekubon_02_after_Ekubon_brilock_shop_06_27",
+   "style": 6,
+   "src": "お忘れですか？{1:pause}\nブロドッグちゃんは 最強です！{2:wait}[Next]ベリーファストな 動き！{3:pause}\nベリーストロングな アタック！{4:wait}[Next]そこらへんの敵は あっというまに\nぶっとばすこと まちがいナシ！{5:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0000:0A 00]",
+    "4": "[0002:0001:]",
+    "5": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_ekubon_02_after#28",
+   "label": "MES_Ekubon_02_after_Ekubon_brilock_shop_04_5",
+   "style": 6,
+   "src": "ホンモノの かわいさたるや\nソーキュート！{1:wait}[Next]いまミーは とにかく\n{2:color}ブロキャット{3:color}{4:color}ちゃんが ほしい！{5:wait}[Next]このお店の マスコットキャラとして\nぜひとも 手に入れたいのです！{6:wait}{7:color}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[Color #2C64FF]",
+    "3": "[Color #373737]",
+    "4": "[Color #373737]",
+    "5": "[0002:0001:]",
+    "6": "[0002:0001:]",
+    "7": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_ekubon_02_after#29",
+   "label": "MES_Ekubon_02_after_Ekubon_brilock_shop_06_28",
+   "style": 6,
+   "src": "そうか！ ならクッパ軍団の一員として\nたっぷり 使ってやるぞ！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_ekubon_02_after#30",
+   "label": "MES_Ekubon_02_after_Ekubon_brilock_shop_07",
+   "style": 6,
+   "src": "オウ！ マイ！{1:pause}\nマリオさんですよね！{2:wait}[Next]どこかで お会いしたような…\nん～ 思い出せませんね…{3:wait}[Next]それは さておき\nバイ ザ ウェイ！！{4:wait}[Next]あなた ブロックコレクターに\nベリーフェイマスです！{5:wait}[Next]とにかく ブロック叩いて\n茶色くしちゃう…{6:wait}[Next]ブロックだましいが\n感じられない クレイジーガイ！{7:wait}[Next]ブロックは １度叩くと\nその価値 ナッスィング！{8:wait}[Next]そんなあなたとは ゆうえきな\nトレードできませんね～{9:wait}[Next]おととい カミング！\nアーイム ソーリーでーす。{10:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0001:]",
+    "4": "[0002:0001:]",
+    "5": "[0002:0001:]",
+    "6": "[0002:0001:]",
+    "7": "[0002:0001:]",
+    "8": "[0002:0001:]",
+    "9": "[0002:0001:]",
+    "10": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_ekubon_02_after#31",
+   "label": "MES_Ekubon_02_after_Ekubon_brilock_shop_04_6",
+   "style": 6,
+   "src": "ブロドッグちゃんには 悪いのですが\nいまは {1:color}ブロキャット{2:color}{3:color}ちゃん！{4:wait}[Next]とにかく {5:color}{6:color}ブロキャット{7:color}{8:color}ちゃんが\nほしくて たまらんのです！！{9:wait}{10:color}",
+   "tags": {
+    "1": "[Color #2C64FF]",
+    "2": "[Color #373737]",
+    "3": "[Color #373737]",
+    "4": "[0002:0001:]",
+    "5": "[Color #373737]",
+    "6": "[Color #2C64FF]",
+    "7": "[Color #373737]",
+    "8": "[Color #373737]",
+    "9": "[0002:0001:]",
+    "10": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_ekubon_02_after#33",
+   "label": "MES_Ekubon_02_after_Ekubon_brilock_shop_08",
+   "style": 6,
+   "src": "あなたとは ゆうえきな\nトレードできませんね～{1:wait}[Next]おととい カミング！\nアーイム ソーリーでーす。{2:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_ekubon_02_after#34",
+   "label": "MES_Ekubon_02_after_Ekubon_brilock_shop_04_7",
+   "style": 6,
+   "src": "…ようするに レアなブロックの\n{1:color}ブロキャット{2:color}{3:color}ちゃんを\nゲットしてきて ほしいのです～{4:wait}[Next]{5:align}やさしいジェントルマンなら\nOKしますよね！ ハイ！ 決定！{6:wait}[Next]くわしい話 聞きますか？{7:pause}\n{8:choice}{9:indent}くわしい話を聞く\n{10:choice}{11:indent}あとでいい{12:color}{13:pause}",
+   "tags": {
+    "1": "[Color #2C64FF]",
+    "2": "[Color #373737]",
+    "3": "[Color #373737]",
+    "4": "[0002:0001:]",
+    "5": "[0001:0004:]",
+    "6": "[0002:0001:]",
+    "7": "[0002:0000:0A 00]",
+    "8": "[0004:0001:]",
+    "9": "[0006:0001:14 00]",
+    "10": "[0004:0001:]",
+    "11": "[0006:0001:14 00]",
+    "12": "[Color #373737]",
+    "13": "[0002:0000:0A 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_ekubon_02_after#35",
+   "label": "MES_Ekubon_02_after_Ekubon_brilock_shop_04_8",
+   "style": 6,
+   "src": "さすが ジェントルマン！\nゲットする気 まんまんですね！！{1:wait}[Next]では {2:color}ブロキャット{3:color}{4:color}ちゃんについて\n説明いたしましょう～{5:wait}{6:color}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[Color #2C64FF]",
+    "3": "[Color #373737]",
+    "4": "[Color #373737]",
+    "5": "[0002:0001:]",
+    "6": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_ekubon_02_after#36",
+   "label": "MES_Ekubon_02_after_Ekubon_brilock_shop_04_9",
+   "style": 6,
+   "src": "{1:align}オウ！ 説明なんて\nいらないと おっしゃる！{2:wait}[Next]ほんとに だいじょうぶですか？{3:pause}\n{4:choice}{5:indent}くわしい話を聞く\n{6:choice}{7:indent}あとでいい{8:pause}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0000:0A 00]",
+    "4": "[0004:0001:]",
+    "5": "[0006:0001:14 00]",
+    "6": "[0004:0001:]",
+    "7": "[0006:0001:14 00]",
+    "8": "[0002:0000:0A 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_ekubon_02_after#37",
+   "label": "MES_Ekubon_02_after_Ekubon_brilock_shop_04_10",
+   "style": 6,
+   "src": "リアリー OK？{1:pause}\n{2:choice}{3:indent}くわしい話を聞く\n{4:choice}{5:indent}あとでいい！{6:pause}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0004:0001:]",
+    "3": "[0006:0001:14 00]",
+    "4": "[0004:0001:]",
+    "5": "[0006:0001:14 00]",
+    "6": "[0002:0000:0A 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_ekubon_02_after#38",
+   "label": "MES_Ekubon_02_after_Ekubon_brilock_shop_04_11",
+   "style": 6,
+   "src": "そうですか！ それならば\nムッシュ～に まかせちゃいます！{1:wait}[Next]この先 きっと{2:color}ブロキャット{3:color}ちゃんを\nゲットすることが あると思います！{4:wait}[Next]そのときは ミーのところへ\nいつでも カムバック！！{5:wait}[Next]ムッシュ～に とっても\nプラスになること まちがいナシ！{6:wait}[Next]くわしい話が 聞きたかったら\nいつでも 話しますよ～！！{7:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[Color #2C64FF]",
+    "3": "[Color #373737]",
+    "4": "[0002:0001:]",
+    "5": "[0002:0001:]",
+    "6": "[0002:0001:]",
+    "7": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_ekubon_02_after#42",
+   "label": "MES_Ekubon_02_after_Ekubon_brilock_shop_04_4b",
+   "style": 6,
+   "src": "ルックスは\nこんなかんじです！{1:wait}[Next]これは ミーが作った\nニセモノですが…{2:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_ekubon_02_after#43",
+   "label": "MES_Ekubon_02_after_Ekubon_brilock_shop_06_13",
+   "style": 6,
+   "src": "なかなか お店も\nにぎわってきました！{1:wait}[Next]これは ささやかな\nプレゼント フォーユー！！{2:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_ekubon_02_after#44",
+   "label": "MES_Ekubon_02_after_Ekubon_brilock_shop_06_14",
+   "style": 12,
+   "src": "{1:mode}{2:color}ブロックうでわ{3:color}{4:color}を手に入れた！！{5:pause}{6:wait}{7:color}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[Color #4ED4FF]",
+    "3": "[Color #E6E6E6]",
+    "4": "[Color #373737]",
+    "5": "[0002:0000:1E 00]",
+    "6": "[0002:0001:]",
+    "7": "[Color #E6E6E6]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_ekubon_02_after#45",
+   "label": "MES_Ekubon_02_after_Ekubon_brilock_shop_06_15",
+   "style": 12,
+   "src": "{1:mode}{2:color}ブロックきば{3:color}{4:color}を手に入れた！！{5:pause}{6:wait}{7:color}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[Color #4ED4FF]",
+    "3": "[Color #E6E6E6]",
+    "4": "[Color #373737]",
+    "5": "[0002:0000:1E 00]",
+    "6": "[0002:0001:]",
+    "7": "[Color #E6E6E6]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_ekubon_02_after#46",
+   "label": "MES_Ekubon_02_after_Ekubon_brilock_shop_06_16",
+   "style": 12,
+   "src": "{1:mode}{2:color}ブロックゆびわ{3:color}{4:color}を手に入れた！！{5:pause}{6:wait}{7:color}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[Color #4ED4FF]",
+    "3": "[Color #E6E6E6]",
+    "4": "[Color #373737]",
+    "5": "[0002:0000:1E 00]",
+    "6": "[0002:0001:]",
+    "7": "[Color #E6E6E6]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_ekubon_02_after#47",
+   "label": "MES_Ekubon_02_after_Ekubon_brilock_shop_06_18",
+   "style": 6,
+   "src": "最後の{1:color} ブロキャット{2:color}ちゃん\nカミーーング！！{3:wait}",
+   "tags": {
+    "1": "[Color #2C64FF]",
+    "2": "[Color #373737]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_ekubon_02_after#48",
+   "label": "MES_Ekubon_02_after_Ekubon_brilock_shop_06_19",
+   "style": 6,
+   "src": "やったね～\nブロドッグちゃ～ん！{1:wait}[Next]これで ブロドッグちゃんも\nおさんぽが できるよ～！{2:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_ekubon_03#0",
+   "label": "MES_Ekubon_aparts_get_pl",
+   "style": 12,
+   "src": "{1:mode}{2:align}エクボンの森のアタックパーツ\n{3:color}{4:var}{5:color}{6:color}個目を 手に入れた！{7:wait}[Next]{8:mode}{9:align}エクボンの森のアタックパーツは\nのこりあと {10:color}{11:color}{12:var}{13:color}{14:color}個だ！{15:pause}{16:wait}{17:color}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[0001:0001:]",
+    "3": "[Color #4ED4FF]",
+    "4": "[0003:0000:00 00 02 00 00 00]",
+    "5": "[Color #E6E6E6]",
+    "6": "[Color #373737]",
+    "7": "[0002:0001:]",
+    "8": "[0005:0000:]",
+    "9": "[0001:0001:]",
+    "10": "[Color #E6E6E6]",
+    "11": "[Color #4ED4FF]",
+    "12": "[0003:0000:00 00 02 00 01 00]",
+    "13": "[Color #E6E6E6]",
+    "14": "[Color #373737]",
+    "15": "[0002:0000:1E 00]",
+    "16": "[0002:0001:]",
+    "17": "[Color #E6E6E6]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": [
+    "FMsg/o_ekubon_03#2",
+    "FMsg/o_ekubon_12#0",
+    "FMsg/o_ekubon_12#2",
+    "FMsg/o_ekubon_13#0",
+    "FMsg/o_ekubon_13#2",
+    "FMsg/o_ekubon_21#0",
+    "FMsg/o_ekubon_21#2",
+    "FMsg/o_ekubon_22#0",
+    "FMsg/o_ekubon_22#2",
+    "FMsg/o_ekubon_25#0",
+    "FMsg/o_ekubon_25#2",
+    "FMsg/o_ekubon_36#0",
+    "FMsg/o_ekubon_36#2",
+    "FMsg/o_ekubon_38#0",
+    "FMsg/o_ekubon_38#2",
+    "FMsg/o_ekubon_39_2#0",
+    "FMsg/o_ekubon_39_2#2"
+   ]
+  },
+  {
+   "id": "FMsg/o_ekubon_03#1",
+   "label": "MES_Ekubon_aparts_comp",
+   "style": 12,
+   "src": "{1:mode}{2:align}エクボンの森のアタックパーツ\n{3:color}{4:var}{5:color}{6:color}個目を 手に入れた！{7:pause}{8:wait}[Next]{9:mode}{10:align}エクボンの森のアタックパーツが\n全部 そろった！！{11:pause}{12:wait}[Next]{13:mode}{14:align}新しい {15:color}{16:color}ブラザーアタック{17:color}{18:color}が\n完成するぞ！！{19:pause}{20:wait}{21:color}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[0001:0001:]",
+    "3": "[Color #4ED4FF]",
+    "4": "[0003:0000:00 00 02 00 00 00]",
+    "5": "[Color #E6E6E6]",
+    "6": "[Color #373737]",
+    "7": "[0002:0000:1E 00]",
+    "8": "[0002:0001:]",
+    "9": "[0005:0000:]",
+    "10": "[0001:0001:]",
+    "11": "[0002:0000:0F 00]",
+    "12": "[0002:0001:]",
+    "13": "[0005:0000:]",
+    "14": "[0001:0001:]",
+    "15": "[Color #E6E6E6]",
+    "16": "[Color #4ED4FF]",
+    "17": "[Color #E6E6E6]",
+    "18": "[Color #373737]",
+    "19": "[0002:0000:0F 00]",
+    "20": "[0002:0001:]",
+    "21": "[Color #E6E6E6]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": [
+    "FMsg/o_ekubon_12#1",
+    "FMsg/o_ekubon_13#1",
+    "FMsg/o_ekubon_21#1",
+    "FMsg/o_ekubon_22#1",
+    "FMsg/o_ekubon_25#1",
+    "FMsg/o_ekubon_36#1",
+    "FMsg/o_ekubon_38#1",
+    "FMsg/o_ekubon_39_2#1"
+   ]
+  },
+  {
+   "id": "FMsg/o_ekubon_04_1#1",
+   "label": "MES_Ekubon_04_Ekubon_04_kanban_01",
+   "style": 12,
+   "src": "{1:mode}↑ 森の出口{2:wait}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_ekubon_04_2#0",
+   "label": "MES_Ekubon_04_2_Ekubon_04_kanban_02",
+   "style": 12,
+   "src": "{1:mode}→ 森の出口{2:wait}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_ekubon_06#0",
+   "label": "MES_Ekubon_06_Ekubon_kanban_mes_01",
+   "style": 12,
+   "src": "{1:align}{2:align}{3:mode}今 キノコ王国中で 大人気！\n{4:color}はねとびダイエット{5:color}{6:color}！{7:wait}[Next]{8:align}{9:align}{10:mode}やりかたは いたってカンタン！{11:pause}\n{12:color}{13:color}はねとびプレートに乗る{14:color}{15:color}だけさ！{16:wait}[Next]{17:align}{18:align}{19:mode}おぉっと！ その前に\nはねとびプレートの {20:color}{21:color}準備{22:color}{23:color}をしなくちゃ！{24:wait}[Next]{25:align}{26:align}{27:mode}準備のしかたは…\nもう わかっているよね！{28:wait}[Next]{29:align}{30:align}{31:mode}準備ができた はねとびプレートに乗れば\nボカーン！と {32:color}{33:color}バクハツ{34:color}{35:color}！\nバビューン！と はねとんじゃうぞ！{36:wait}[Next]{37:align}{38:align}{39:mode}ものすごい 空気の圧力で\nムダな お肉をシェイプアップ！！\n楽しくできる {40:color}{41:color}はねとびダイエット{42:color}{43:color}！！{44:wait}{45:color}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0005:0000:]",
+    "4": "[Color #4ED4FF]",
+    "5": "[Color #E6E6E6]",
+    "6": "[Color #373737]",
+    "7": "[0002:0001:]",
+    "8": "[0001:0004:]",
+    "9": "[0001:0001:]",
+    "10": "[0005:0000:]",
+    "11": "[0002:0000:0A 00]",
+    "12": "[Color #E6E6E6]",
+    "13": "[Color #4ED4FF]",
+    "14": "[Color #E6E6E6]",
+    "15": "[Color #373737]",
+    "16": "[0002:0001:]",
+    "17": "[0001:0004:]",
+    "18": "[0001:0001:]",
+    "19": "[0005:0000:]",
+    "20": "[Color #E6E6E6]",
+    "21": "[Color #4ED4FF]",
+    "22": "[Color #E6E6E6]",
+    "23": "[Color #373737]",
+    "24": "[0002:0001:]",
+    "25": "[0001:0004:]",
+    "26": "[0001:0001:]",
+    "27": "[0005:0000:]",
+    "28": "[0002:0001:]",
+    "29": "[0001:0004:]",
+    "30": "[0001:0001:]",
+    "31": "[0005:0000:]",
+    "32": "[Color #E6E6E6]",
+    "33": "[Color #4ED4FF]",
+    "34": "[Color #E6E6E6]",
+    "35": "[Color #373737]",
+    "36": "[0002:0001:]",
+    "37": "[0001:0004:]",
+    "38": "[0001:0001:]",
+    "39": "[0005:0000:]",
+    "40": "[Color #E6E6E6]",
+    "41": "[Color #4ED4FF]",
+    "42": "[Color #E6E6E6]",
+    "43": "[Color #373737]",
+    "44": "[0002:0001:]",
+    "45": "[Color #E6E6E6]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_ekubon_07_1#0",
+   "label": "MES_Ekubon_07_Ekubon_bokosuka_k_40",
+   "style": 6,
+   "src": "ふるるるる！！{1:pause} クッパ城が\nワレのものに なるのも\n時間の問題るるる！！{2:wait}[Next]{3:align}オマエが きても\n味方は いないるるよ！{4:wait}[Next]{5:align}まぁ クッパ城まで\nたどりつければの話だけど…{6:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]",
+    "3": "[0001:0004:]",
+    "4": "[0002:0001:]",
+    "5": "[0001:0004:]",
+    "6": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_ekubon_07_1#1",
+   "label": "MES_Ekubon_07_Ekubon_bokosuka_k_41",
+   "style": 10,
+   "src": "{1:align}ふるるるるるるる！！{2:pause}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0000:28 00]"
+   },
+   "header": "[0009:0000:0A 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_ekubon_07_1#2",
+   "label": "MES_Ekubon_07_Ekubon_bokosuka_k_42",
+   "style": 6,
+   "src": "ここで ゆっくり\nあそんでいくるるよ！！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_ekubon_07_1#3",
+   "label": "MES_Ekubon_07_Ekubon_bokosuka_k_10",
+   "style": 6,
+   "src": "{1:mode}クッパ様！ クッパ様！{2:pause}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[0002:0000:1E 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_ekubon_07_1#4",
+   "label": "MES_Ekubon_07_Ekubon_bokosuka_k_11",
+   "style": 6,
+   "src": "{1:mode}見えないぞ！\nそっち つめろ！{2:pause}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[0002:0000:1E 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_ekubon_07_1#5",
+   "label": "MES_Ekubon_07_Ekubon_bokosuka_k_12",
+   "style": 6,
+   "src": "クッパ様～{1:pause}\nお助けください～{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_ekubon_07_1#6",
+   "label": "MES_Ekubon_07_Ekubon_bokosuka_k_13",
+   "style": 6,
+   "src": "{1:align}ゲラコビッツとかいう やつに\nクッパ城が おそわれて…{2:wait}[Next]我々 クリボー軍団は\nこんなオリに 閉じ込められて\n捨てられて しまいました～{3:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_ekubon_07_1#7",
+   "label": "MES_Ekubon_07_Ekubon_bokosuka_k_14",
+   "style": 6,
+   "src": "なんだと！{1:pause}\nなんというザマだ！！{2:wait}[Next]敵が おそってきたら\n真っ先につっこむ！{3:wait}[Next]それが オマエ達\nクリボー軍団の役目だろ！！{4:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0001:]",
+    "4": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_ekubon_07_1#8",
+   "label": "MES_Ekubon_07_Ekubon_bokosuka_k_15",
+   "style": 6,
+   "src": "それが あまりにも\n突然のことで…{1:wait}[Next]めんぼくない～\nクッパ様～{2:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_ekubon_07_1#9",
+   "label": "MES_Ekubon_07_Ekubon_bokosuka_k_16",
+   "style": 6,
+   "src": "{1:align}情けない…{2:pause}\n他の軍団はどうした！？{3:wait}[Next]まさか 同じ目に\nあっているのか？{4:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0000:0A 00]",
+    "3": "[0002:0001:]",
+    "4": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_ekubon_07_1#10",
+   "label": "MES_Ekubon_07_Ekubon_bokosuka_k_17",
+   "style": 6,
+   "src": "たぶん…\nみんな 同じ目に…{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_ekubon_07_1#11",
+   "label": "MES_Ekubon_07_Ekubon_bokosuka_k_18",
+   "style": 10,
+   "src": "{1:align}ガァーーーーー！！{2:pause}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0000:28 00]"
+   },
+   "header": "[0009:0000:0A 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_ekubon_07_1#12",
+   "label": "MES_Ekubon_07_Ekubon_bokosuka_k_19",
+   "style": 6,
+   "src": "オマエ達 訓練が足りんぞ！{1:pause}\nだから マリオに毎回負けるのだ！！{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_ekubon_07_1#13",
+   "label": "MES_Ekubon_07_Ekubon_bokosuka_k_30",
+   "style": 6,
+   "src": "よし！{1:pause}\nクッパ城へ 急ぐぞ！！{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_ekubon_07_1#14",
+   "label": "MES_Ekubon_07_Ekubon_bokosuka_k_31",
+   "style": 6,
+   "src": "はい！{1:pause}",
+   "tags": {
+    "1": "[0002:0000:1E 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_ekubon_07_1#15",
+   "label": "MES_Ekubon_07_Ekubon_bokosuka_k_32",
+   "style": 12,
+   "src": "{1:mode}{2:align}クリボー軍団が 仲間になった！\nバトルで {3:color}ボコスカクリボー{4:color}{5:color}が\n使えるようになるぞ！{6:pause}{7:wait}{8:color}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[0001:0001:]",
+    "3": "[Color #4ED4FF]",
+    "4": "[Color #E6E6E6]",
+    "5": "[Color #373737]",
+    "6": "[0002:0000:1E 00]",
+    "7": "[0002:0001:]",
+    "8": "[Color #E6E6E6]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_ekubon_07_1#16",
+   "label": "MES_Ekubon_07_Ekubon_bokosuka_k_33",
+   "style": 6,
+   "src": "ふるるるる～{1:pause}\nなみだの ご対面るるね！{2:wait}[Next]なかなか ドラマチックで\n感動したるるよ～{3:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_ekubon_07_1#17",
+   "label": "MES_Ekubon_07_Ekubon_bokosuka_k_34",
+   "style": 6,
+   "src": "うるさい！{1:pause} かわいい手下に\nひどいことを しやがって！{2:wait}[Next]{3:align}{4:align}絶対に ゆるさんぞ！！{5:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]",
+    "3": "[0001:0004:]",
+    "4": "[0001:0001:]",
+    "5": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_ekubon_07_1#18",
+   "label": "MES_Ekubon_07_Ekubon_bokosuka_k_35",
+   "style": 6,
+   "src": "ふるるるる～{1:pause} かわいい手下は\nまだまだ いろんなところに\n捨てられてるるよ～{2:wait}[Next]{3:align}生放送で そいつらの\n声を 聞かせてやるるる～{4:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]",
+    "3": "[0001:0004:]",
+    "4": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_ekubon_07_1#19",
+   "label": "MES_Ekubon_07_Ekubon_bokosuka_k_36",
+   "style": 6,
+   "src": "クッパ様～{1:pause}\nノコノコ軍団を\nお助けください～！{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_ekubon_07_1#20",
+   "label": "MES_Ekubon_07_Ekubon_bokosuka_k_37",
+   "style": 6,
+   "src": "SOS！{1:pause} SOS！{2:pause}\nこちら ボムへい軍団！{3:wait}[Next]SOS！{4:pause} 助けを求む！{5:pause}\nこちら ボムへ…{6:pause}{7:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0000:0A 00]",
+    "3": "[0002:0001:]",
+    "4": "[0002:0000:0A 00]",
+    "5": "[0002:0000:0A 00]",
+    "6": "[0002:0000:0A 00]",
+    "7": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_ekubon_07_1#21",
+   "label": "MES_Ekubon_07_Ekubon_bokosuka_k_38",
+   "style": 6,
+   "src": "ヘイホー軍団！{1:pause}\n全員 つかまりました！{2:wait}[Next]{3:align}{4:align}ムネンなり～～～！！{5:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]",
+    "3": "[0001:0004:]",
+    "4": "[0001:0001:]",
+    "5": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_ekubon_07_1#22",
+   "label": "MES_Ekubon_07_Ekubon_bokosuka_k_39",
+   "style": 6,
+   "src": "くっ{1:pause} くそ～～～！！{2:wait}[Next]{3:align}絶対に ゆるさん！！{4:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]",
+    "3": "[0001:0001:]",
+    "4": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_ekubon_07_1#23",
+   "label": "MES_Ekubon_07_Ekubon_bokosuka_k_01",
+   "style": 6,
+   "src": "ぐわ～～！{1:pause}",
+   "tags": {
+    "1": "[0002:0000:28 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_ekubon_07_1#24",
+   "label": "MES_Ekubon_07_Ekubon_bokosuka_k_02",
+   "style": 6,
+   "src": "コラ！{1:pause} 動くな！{2:pause}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0000:28 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_ekubon_07_1#25",
+   "label": "MES_Ekubon_07_Ekubon_bokosuka_k_03",
+   "style": 6,
+   "src": "{1:mode}イタタタタタ！{2:pause}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[0002:0000:28 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_ekubon_07_1#26",
+   "label": "MES_Ekubon_07_Ekubon_bokosuka_k_04",
+   "style": 6,
+   "src": "{1:mode}助けて～{2:pause}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[0002:0000:28 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_ekubon_07_1#27",
+   "label": "MES_Ekubon_07_Ekubon_bokosuka_k_05",
+   "style": 6,
+   "src": "{1:mode}息ぐるしい～{2:pause}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[0002:0000:28 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_ekubon_07_1#28",
+   "label": "MES_Ekubon_07_Ekubon_bokosuka_k_06",
+   "style": 6,
+   "src": "{1:mode}おうちに 帰りたい～{2:pause}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[0002:0000:28 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_ekubon_07_1#29",
+   "label": "MES_Ekubon_07_Ekubon_bokosuka_k_07",
+   "style": 6,
+   "src": "オイ！{1:pause} オマエら！{2:pause}\nなにやってるんだ！？{3:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0000:0A 00]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_ekubon_07_1#30",
+   "label": "MES_Ekubon_07_Ekubon_bokosuka_k_08",
+   "style": 6,
+   "src": "{1:align}ワガハイの城が 非常事態なんだぞ！{2:wait}[Next]そんなところで のんきに\nあそんでる 場合か！{3:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_ekubon_07_1#31",
+   "label": "MES_Ekubon_07_Ekubon_bokosuka_k_09",
+   "style": 6,
+   "src": "{1:mode}クッパ様！！{2:pause}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[0002:0000:1E 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_ekubon_07_1#32",
+   "label": "MES_Ekubon_07_Ekubon_bokosuka_k_20",
+   "style": 6,
+   "src": "もうしわけありません\nクッパ様～{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_ekubon_07_1#33",
+   "label": "MES_Ekubon_07_Ekubon_bokosuka_k_21",
+   "style": 6,
+   "src": "{1:align}今 助けてやるから\nワガハイに ついてこい！{2:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_ekubon_07_1#34",
+   "label": "MES_Ekubon_07_Ekubon_bokosuka_k_22",
+   "style": 6,
+   "src": "あ{1:pause} ありがとうございます～！{2:wait}",
+   "tags": {
+    "1": "[0002:0000:05 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_ekubon_07_1#35",
+   "label": "MES_Ekubon_07_Ekubon_bokosuka_k_23",
+   "style": 6,
+   "src": "でも どうやって\nこっちの島に\nわたるんですか～？{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_ekubon_07_1#36",
+   "label": "MES_Ekubon_07_Ekubon_bokosuka_k_24",
+   "style": 6,
+   "src": "足場なり 橋なりをつくれば\nいいんだろうが！{1:wait}[Next]ワガハイの チカラで\nなんとでもなるわ！{2:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_ekubon_07_1#37",
+   "label": "MES_Ekubon_07_Ekubon_bokosuka_k_27",
+   "style": 6,
+   "src": "やった～！{1:pause}",
+   "tags": {
+    "1": "[0002:0000:28 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_ekubon_07_1#38",
+   "label": "MES_Ekubon_07_Ekubon_bokosuka_k_28",
+   "style": 6,
+   "src": "助かった～{1:pause}",
+   "tags": {
+    "1": "[0002:0000:28 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_ekubon_07_1#39",
+   "label": "MES_Ekubon_07_Ekubon_bokosuka_k_29",
+   "style": 6,
+   "src": "クッパ様～{1:pause}",
+   "tags": {
+    "1": "[0002:0000:28 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/o_ekubon_17#0",
+    "FMsg/o_ekubon_18#0"
+   ]
+  },
+  {
+   "id": "FMsg/o_ekubon_07_2#0",
+   "label": "MES_Ekubon_07_2_Ekubon_bokosuka_k_26_2",
+   "style": 6,
+   "src": "クリボー軍団を\n助けてやらねば…{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_ekubon_07_2#2",
+   "label": "MES_Ekubon_07_2_Ekubon_bokosuka_k_25_2",
+   "style": 9,
+   "src": "ぬおおおおおおおお！{1:pause}",
+   "tags": {
+    "1": "[0002:0000:1E 00]"
+   },
+   "header": "[0009:0000:09 00]",
+   "dups": [
+    "FMsg/o_ekubon_15#8"
+   ]
+  },
+  {
+   "id": "FMsg/o_ekubon_07_2#3",
+   "label": "MES_Ekubon_07_2_Ekubon_bokosuka_k_25",
+   "style": 6,
+   "src": "こいつを 橋がわりに\nできるか…？{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_ekubon_07_2#4",
+   "label": "MES_Ekubon_07_2_Ekubon_bokosuka_k_26",
+   "style": 9,
+   "src": "{1:align}あと少しで いけそうだ！{2:pause}",
+   "tags": {
+    "1": "[0001:0001:]",
+    "2": "[0002:0000:28 00]"
+   },
+   "header": "[0009:0000:09 00]",
+   "dups": []
+  }
+ ]
+}

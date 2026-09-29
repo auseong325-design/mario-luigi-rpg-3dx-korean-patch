@@ -1,0 +1,47 @@
+{
+ "source": "Msg/JP_ja/FMsg.dat:o_town_37",
+ "messages": [
+  {
+   "id": "FMsg/o_town_37#0",
+   "label": "MES_TKinoko_37_Kinoko_street_30_1",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]いらっしゃい。\nここは バッジ[Ruby 屋;や]だよ。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_37#1",
+   "label": "MES_TKinoko_37_Kinoko_street_30_2",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]アンタ[Ruby 達;たち]…[0002:0000:0A 00]\n[Color #2C64FF]バッジのつけかえ[Color #373737][Color #373737]は\nちゃんと できるのかい？[0002:0000:0A 00]\n[0006:0001:14 00][0004:0001:]できない[0006:0000:28 00][0004:0001:]できる[Color #373737][0002:0000:0A 00]"
+  },
+  {
+   "id": "FMsg/o_town_37#2",
+   "label": "MES_TKinoko_37_Kinoko_street_30_3",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]よし わかった\n[Ruby 教;おし]えてやるよ。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_37#3",
+   "label": "MES_TKinoko_37_Kinoko_street_30_4",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]そうか わかった\nがんばんなよ。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_37#4",
+   "label": "MES_TKinoko_37_Kinoko_street_30_5",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]また きなよ。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_37#5",
+   "label": "MES_TKinoko_37_Kinoko_street_30",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]いらっしゃい。\nここは バッジ[Ruby 屋;や]だよ。[0002:0001:][Next]アンタ[Ruby 達;たち]… ウチのバッジが\n[Ruby 使;つか]いこなせるのかい？[0002:0001:]"
+  }
+ ]
+}

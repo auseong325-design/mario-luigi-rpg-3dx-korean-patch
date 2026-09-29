@@ -1,0 +1,117 @@
+{
+ "source": "Msg/JP_ja/FMsg.dat:i_shinkei_03",
+ "messages": [
+  {
+   "id": "FMsg/i_shinkei_03#0",
+   "label": "MES_KHatena_c_03_Khatena_c_03_mes_1",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]どうやら [Ruby 閉;と]じ[Ruby 込;こ]められたみたいね…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_shinkei_03#1",
+   "label": "MES_KHatena_c_03_Khatena_c_03_mes_2",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]なんだか [Ruby 聞;き]き[Ruby 覚;おぼ]えのある[Ruby 声;こえ]…[0002:0001:][Next]そこにいるのは もしや\nマリオさん？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_shinkei_03#2",
+   "label": "MES_KHatena_c_03_Khatena_c_03_mes_3",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]や やっぱり！ マリオさん！[0002:0001:][Next]ボクです！ キノックルです！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_shinkei_03#3",
+   "label": "MES_KHatena_c_03_Khatena_c_03_mes_4",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]ボクも ピーチ[Ruby 城;じょう]で\nクッパに [Ruby 吸;す]い[Ruby 込;こ]まれたんです。[0002:0001:][Next]ああ こんなところで\nこんな かたちで[Ruby 会;あ]うなんて\nうれしいような かなしいような…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_shinkei_03#4",
+   "label": "MES_KHatena_c_03_Khatena_c_03_mes_5",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]あなたも あの[Ruby 白;しろ]いやつらに\nおそわれて ここに[Ruby 落;お]ちたの？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_shinkei_03#5",
+   "label": "MES_KHatena_c_03_Khatena_c_03_mes_6",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]はい…[0002:0001:][Next]あの[Ruby 白;しろ]いやつらは クッパの[Ruby 体;からだ]に\n[Ruby 入;はい]ってきた ジャマなモノを\nやっつけるのが [Ruby 仕事;しごと]のようです。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_shinkei_03#6",
+   "label": "MES_KHatena_c_03_Khatena_c_03_mes_7",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]…でも ここはなかなか\n[Ruby 面白;おもしろ]い ところですよ！[0002:0001:][Next][Ruby 見;み]たことないような ものだらけで\n[Ruby 新;あたら]しい[Ruby 発見;はっけん]で いっぱいです！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_shinkei_03#7",
+   "label": "MES_KHatena_c_03_Khatena_c_03_mes_8",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:][0001:0001:]えっ？ ピーチ[Ruby 姫;ひめ]？[0002:0001:][Next][0001:0000:]そうですか ピーチ[Ruby 姫;ひめ]も\nクッパに [Ruby 吸;す]い[Ruby 込;こ]まれたんですね…[0002:0001:][Next][Ruby 残念;ざんねん]ながら このあたりには\nピーチ[Ruby 姫;ひめ]は いないようです…[0002:0001:][Next]きっと もっと[Ruby 深;ふか]いところに\n[Ruby 入;はい]り[Ruby 込;こ]んでしまったんでしょう…[0002:0001:][Next]もう[Ruby 少;すこ]しがんばって [Ruby 奥;おく]まで\n[Ruby 進;すす]んでいくしかないようです。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_shinkei_03#8",
+   "label": "MES_KHatena_c_03_Khatena_c_03_mes_9",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]でもその[Ruby 前;まえ]に ここから[Ruby 出;で]ないと…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_shinkei_03#9",
+   "label": "MES_KHatena_c_03_Khatena_c_03_mes_10",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]どうやら クッパのうでに\n[Ruby 変化;へんか]を [Ruby 起;お]こしたようですね。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_shinkei_03#10",
+   "label": "MES_KHatena_c_03_Khatena_c_03_mes_11",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]うでに[Ruby 変化;へんか]？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_shinkei_03#11",
+   "label": "MES_KHatena_c_03_Khatena_c_03_mes_12",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ボクの[Ruby 調査;ちょうさ]では このポイントは\nクッパのうでに [Ruby 大;おお]きな[Ruby 変化;へんか]を\nあたえるはず…[0002:0001:][Next]たぶん [Color #2C64FF][Ruby 歩;ある]きながらパンチ[Color #373737][Color #373737]すると\n[Ruby 今;いま]までより [Ruby 強;つよ]いパンチに\nなるはずです！[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/i_shinkei_03#12",
+   "label": "MES_KHatena_c_03_Khatena_c_03_mes_13",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ねえ！\nパンチのチカラが [Ruby 上;あ]がったらしいわ！\n[Color #2C64FF][Ruby 歩;ある]きながらパンチ[Color #373737][Color #373737] してみて！[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/i_shinkei_03#13",
+   "label": "MES_KHatena_c_03_Khatena_c_03_mes_14",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]そう！ そうすれば\n[Ruby 今;いま]まで こわせなかったモノも\nこわせるんじゃない？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_shinkei_03#14",
+   "label": "MES_KHatena_c_03_Khatena_c_03_mes_15",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ありがたく\nえんりょします…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_shinkei_03#15",
+   "label": "MES_KHatena_c_03_Khatena_c_03_mes_16",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]それでは ボクは\nもう[Ruby 少;すこ]し [Ruby 他;ほか]の[Ruby 場所;ばしょ]も[Ruby 調;しら]べに\n[Ruby 行;い]ってきます。[0002:0001:][Next]また なにか[Ruby 発見;はっけん]をしたら\nみなさんに [Ruby 教;おし]えますね。\nそれでは また！[0002:0001:]"
+  }
+ ]
+}

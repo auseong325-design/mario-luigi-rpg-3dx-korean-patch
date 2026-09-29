@@ -1,0 +1,425 @@
+{
+ "batch": "FMsg__o_areanone_allmap_01_U",
+ "rooms": [
+  "o_areanone_allmap_01_U"
+ ],
+ "ds_rooms": [
+  "283"
+ ],
+ "ds_reference": [
+  "DS283#0: 블캐츠란\n슈퍼 레어한 블록을 말합니다![Next]큐티 앤드 프리티!\n우리 숍의 얼굴로 딱이죠!![Next]전부 합하면 15마리!\n버섯 왕국 어딘가에 있습니다!!",
+  "DS283#1: 어디에 있을까요? 서프라이즈!\n몬스터 안에 있습니다!",
+  "DS283#2: 그래요! 블록 컬렉터의 길은\n멀고도 험난합니다!![Next]미는 너무 야리야리해서\n몬스터와 잘 싸우지 못합니다!!",
+  "DS283#3: 강한 몬스터의 몸속에\n들어 있는 귀여운 블캐츠!",
+  "DS283#4: 어떻게 얻을 수 있느냐…?\n빨아들이는 겁니다! 댓츠 잇!",
+  "DS283#5: 몬스터를 발견하면 빨아들이세요!\n무조건 말입니다!",
+  "DS283#6: 무서운 몬스터로부터\n귀여운 블캐츠를 빨아들이는 건…[Next]배큐엄블록을 가진\n신사라면 가능할 터![Next]귀여운 블캐츠를 찾으면\n미에게 데려다 주세요, 플리즈~",
+  "DS283#7: 사례는 섭섭하지 않게\n해 드립니다! 아이 프라미스!![Next]숍에선 구할 수 없는\n레어 장비를 드리지요!!",
+  "DS283#8: 앤드 모어!\n끝이 아닙니다!!",
+  "DS283#9: 모두 모아 주신다면~\n우리 블도그를 드리지요![Next]블도그와 함께라면\n누구를 만나도 든든할걸요!!",
+  "DS283#10: 지금처럼 눈을 부라리며\n눈앞의 적을 쓰러뜨리거든요![Next]누구보다 강하죠!\n베리 스트롱!![Next]신사의 배틀은\n백전백승일 겁니다!",
+  "DS283#11: 요 언저리가 좋긋네~",
+  "DS283#12: 그라모 간대이~",
+  "DS283#13: 호잇! 얍!",
+  "DS283#14: 아까 있던 장소를 골라 봐라~\nⓍ)를 눌러 결정하는 기다.",
+  "DS283#15: 거기는 지금 있는 데고…",
+  "DS283#16: 꺼억 케이프의 동굴",
+  "DS283#17: 꺼억 케이프의 출구",
+  "DS283#18: 이아파 비치",
+  "DS283#19: 볼조개 숲",
+  "DS283#20: 귀여미 초원",
+  "DS283#21: 쿠파 성",
+  "DS283#22: 지하 터널",
+  "DS283#23: 초원과 레이크 사이",
+  "DS283#24: 드르렁 타워",
+  "DS283#25: 피치 성",
+  "DS283#26: 피치 성 꼭대기",
+  "DS283#27: 뭐꼬, 그만두는 기가?\n그만둘래  안 그만둬",
+  "DS283#28: 그 장소로 갈 끼가?\n갈래  바꿀래",
+  "DS283#29: Ⓧ) 버튼 결정",
+  "DS283#30: Ⓨ) 버튼 취소"
+ ],
+ "glossary": [
+  {
+   "jp": "クッパ",
+   "ko": "쿠파",
+   "type": "boss",
+   "basis": "DS",
+   "source": "BData__mfset_MonN#65",
+   "note": "마리오 일행이 싸우는 쿠파. glossary 확정값과 동일 [gl_enemies]"
+  },
+  {
+   "jp": "エクボン",
+   "ko": "볼조개",
+   "type": "place",
+   "basis": "DS",
+   "source": "MData__mfset_MenuMes#17",
+   "note": "エクボンの森 약칭(エクボンパーツ=볼조개 피스) [gl_menu_places]"
+  },
+  {
+   "jp": "エクボンの森",
+   "ko": "볼조개 숲",
+   "type": "place",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesPlace#2",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "クッパ城",
+   "ko": "쿠파 성",
+   "type": "place",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesPlace#6",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "ゲプー岬",
+   "ko": "꺼억 케이프",
+   "type": "place",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesPlace#3",
+   "note": "세이브 파일 장소명(3DX MES_EMesPlace_place3 = DS #3) [gl_menu_places]"
+  },
+  {
+   "jp": "ゲプー岬のどうくつ",
+   "ko": "꺼억 케이프의 동굴",
+   "type": "place",
+   "basis": "DS",
+   "source": "DS283#16",
+   "note": "워프 지도 지명 [gl_menu_places]"
+  },
+  {
+   "jp": "ゲプー岬の出口",
+   "ko": "꺼억 케이프의 출구",
+   "type": "place",
+   "basis": "DS",
+   "source": "DS283#17",
+   "note": "워프 지도 지명 [gl_menu_places]"
+  },
+  {
+   "jp": "ピーチ城",
+   "ko": "피치 성",
+   "type": "place",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesPlace#1",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "ピーチ城のてっぺん",
+   "ko": "피치 성 꼭대기",
+   "type": "place",
+   "basis": "DS",
+   "source": "DS283#26",
+   "note": "워프 지도 지명(o_areanone_allmap_01_U) [gl_menu_places]"
+  },
+  {
+   "jp": "ムッシーバビーチ",
+   "ko": "이아파 비치",
+   "type": "place",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesPlace#4",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "レイク",
+   "ko": "레이크",
+   "type": "place",
+   "basis": "DS",
+   "source": "DS283#23",
+   "note": "ヅツーダレイク를 줄여 부를 때 [gl_menu_places]"
+  },
+  {
+   "jp": "出口",
+   "ko": "출구",
+   "type": "place",
+   "basis": "DS",
+   "source": "DS047#0",
+   "note": "[gl_menu_places]"
+  },
+  {
+   "jp": "地下",
+   "ko": "지하",
+   "type": "place",
+   "basis": "DS",
+   "source": "DS093#0",
+   "note": "[gl_menu_places]"
+  },
+  {
+   "jp": "地下トンネル",
+   "ko": "지하 터널",
+   "type": "place",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesPlace#7",
+   "note": "세이브 파일 장소명(3DX MES_EMesPlace_place7 = DS #7) [gl_menu_places]"
+  },
+  {
+   "jp": "草原",
+   "ko": "초원",
+   "type": "place",
+   "basis": "DS",
+   "source": "DS283#23",
+   "note": "オタプク草原을 줄여 부를 때 [gl_menu_places]"
+  },
+  {
+   "jp": "草原とレイクのあいだ",
+   "ko": "초원과 레이크 사이",
+   "type": "place",
+   "basis": "DS",
+   "source": "DS283#23",
+   "note": "워프 지도 지명 [gl_menu_places]"
+  },
+  {
+   "jp": "けってい",
+   "ko": "결정",
+   "type": "ui",
+   "basis": "DS",
+   "source": "DS283#29",
+   "note": "버튼 안내 [gl_menu_places]"
+  },
+  {
+   "jp": "ボタン",
+   "ko": "버튼",
+   "type": "ui",
+   "basis": "DS",
+   "source": "MAI__MMes_yo#1.16",
+   "note": "[gl_menu_places]"
+  }
+ ],
+ "messages": [
+  {
+   "id": "FMsg/o_areanone_allmap_01_U#0",
+   "label": "MES_EVnog_kinoko_all_map_bcat_K_warp_tut_22",
+   "style": 4,
+   "src": "さっきの場所 選んでみ～\n{1:color}{2:icon}{3:color}{4:color}ボタンで決定やで。{5:color}",
+   "tags": {
+    "1": "[Color #FF9600]",
+    "2": "[U+E002]",
+    "3": "[Color #E6E6E6]",
+    "4": "[Color #373737]",
+    "5": "[Color #E6E6E6]"
+   },
+   "header": "[0009:0000:04 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_areanone_allmap_01_U#1",
+   "label": "MES_EVnog_kinoko_all_map_bcat_K_warp_tut_23",
+   "style": 4,
+   "src": " そこは今 おる場所やで。{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:04 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_areanone_allmap_01_U#2",
+   "label": "MES_EVnog_kinoko_all_map_bcat_K_warp_selsect_10",
+   "style": 4,
+   "src": "{1:align}{2:align}{3:mode}ピーチ城",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0005:0000:]"
+   },
+   "header": "[0009:0000:04 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_areanone_allmap_01_U#3",
+   "label": "MES_EVnog_kinoko_all_map_bcat_K_warp_selsect_11",
+   "style": 4,
+   "src": "{1:align}{2:align}{3:mode}ピーチ城のてっぺん",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0005:0000:]"
+   },
+   "header": "[0009:0000:04 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_areanone_allmap_01_U#4",
+   "label": "MES_EVnog_kinoko_all_map_bcat_K_warp_selsect_12",
+   "style": 4,
+   "src": "{1:align}なんや やめるんか？{2:pause}\n{3:mode}{4:choice}やめない{5:tab}{6:choice}やめる{7:pause}",
+   "tags": {
+    "1": "[0001:0001:]",
+    "2": "[0002:0000:0A 00]",
+    "3": "[0005:0000:]",
+    "4": "[0004:0001:]",
+    "5": "[0006:0000:28 00]",
+    "6": "[0004:0001:]",
+    "7": "[0002:0000:0A 00]"
+   },
+   "header": "[0009:0000:04 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_areanone_allmap_01_U#5",
+   "label": "MES_EVnog_kinoko_all_map_bcat_K_warp_selsect_13",
+   "style": 4,
+   "src": "{1:align}その場所で ええんか？{2:pause}\n{3:mode}{4:choice}かえる{5:tab}{6:choice}そこでいい{7:pause}",
+   "tags": {
+    "1": "[0001:0001:]",
+    "2": "[0002:0000:0A 00]",
+    "3": "[0005:0000:]",
+    "4": "[0004:0001:]",
+    "5": "[0006:0000:28 00]",
+    "6": "[0004:0001:]",
+    "7": "[0002:0000:0A 00]"
+   },
+   "header": "[0009:0000:04 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_areanone_allmap_01_U#6",
+   "label": "MES_EVnog_kinoko_all_map_bcat_K_warp_selsect_14",
+   "style": 11,
+   "src": "{1:mode}{2:color}{3:icon}{4:color}{5:color}ボタン：やめる    {6:color}{7:color}{8:icon}{9:color}{10:color}ボタン：けってい{11:color}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[Color #4ED4FF]",
+    "3": "[U+E003]",
+    "4": "[Color #E6E6E6]",
+    "5": "[Color #373737]",
+    "6": "[Color #E6E6E6]",
+    "7": "[Color #4ED4FF]",
+    "8": "[U+E002]",
+    "9": "[Color #E6E6E6]",
+    "10": "[Color #373737]",
+    "11": "[Color #E6E6E6]"
+   },
+   "header": "[0009:0000:0B 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_areanone_allmap_01_U#7",
+   "label": "MES_EVnog_kinoko_all_map_bcat_K_warp_tut_15",
+   "style": 4,
+   "src": "{1:align}このへんが よさげやな～{2:wait}",
+   "tags": {
+    "1": "[0001:0001:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:04 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_areanone_allmap_01_U#8",
+   "label": "MES_EVnog_kinoko_all_map_bcat_K_warp_tut_16",
+   "style": 4,
+   "src": "{1:align}ほな いくで～{2:wait}",
+   "tags": {
+    "1": "[0001:0001:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:04 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_areanone_allmap_01_U#9",
+   "label": "MES_EVnog_kinoko_all_map_bcat_K_warp_tut_17",
+   "style": 4,
+   "src": "{1:align}ホイっ{2:pause}と！{3:pause}",
+   "tags": {
+    "1": "[0001:0001:]",
+    "2": "[0002:0000:0A 00]",
+    "3": "[0002:0000:14 00]"
+   },
+   "header": "[0009:0000:04 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_areanone_allmap_01_U#10",
+   "label": "MES_EVnog_kinoko_all_map_bcat_K_warp_selsect_01",
+   "style": 4,
+   "src": "{1:align}{2:align}{3:mode}ゲプー岬のどうくつ",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0005:0000:]"
+   },
+   "header": "[0009:0000:04 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_areanone_allmap_01_U#11",
+   "label": "MES_EVnog_kinoko_all_map_bcat_K_warp_selsect_02",
+   "style": 4,
+   "src": "{1:align}{2:align}{3:mode}ゲプー岬の出口",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0005:0000:]"
+   },
+   "header": "[0009:0000:04 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_areanone_allmap_01_U#12",
+   "label": "MES_EVnog_kinoko_all_map_bcat_K_warp_selsect_03",
+   "style": 4,
+   "src": "{1:align}{2:align}{3:mode}ムッシーバビーチ",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0005:0000:]"
+   },
+   "header": "[0009:0000:04 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_areanone_allmap_01_U#13",
+   "label": "MES_EVnog_kinoko_all_map_bcat_K_warp_selsect_04",
+   "style": 4,
+   "src": "{1:align}{2:align}{3:mode}エクボンの森",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0005:0000:]"
+   },
+   "header": "[0009:0000:04 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_areanone_allmap_01_U#14",
+   "label": "MES_EVnog_kinoko_all_map_bcat_K_warp_selsect_06",
+   "style": 4,
+   "src": "{1:align}{2:align}{3:mode}クッパ城",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0005:0000:]"
+   },
+   "header": "[0009:0000:04 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_areanone_allmap_01_U#15",
+   "label": "MES_EVnog_kinoko_all_map_bcat_K_warp_selsect_07",
+   "style": 4,
+   "src": "{1:align}{2:align}{3:mode}地下トンネル",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0005:0000:]"
+   },
+   "header": "[0009:0000:04 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_areanone_allmap_01_U#16",
+   "label": "MES_EVnog_kinoko_all_map_bcat_K_warp_selsect_08",
+   "style": 4,
+   "src": "{1:align}{2:align}{3:mode}草原とレイクのあいだ",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0005:0000:]"
+   },
+   "header": "[0009:0000:04 00]",
+   "dups": []
+  }
+ ]
+}

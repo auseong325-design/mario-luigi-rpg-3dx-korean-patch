@@ -1,0 +1,488 @@
+{
+ "source": "Msg/JP_ja/FMsg.dat:o_peach_op_04",
+ "messages": [
+  {
+   "id": "FMsg/o_peach_op_04#0",
+   "label": "MES_OPeach_04_Opening_opeach_10",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ねえ…[0002:0000:0A 00] あの[Ruby 人;ひと]だれなの？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_peach_op_04#1",
+   "label": "MES_OPeach_04_Opening_opeach_11",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Color #2C64FF]Dr.コキノ[Color #373737][Color #373737]の\n[Ruby 助手;じょしゅ]ですよ。[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/o_peach_op_04#2",
+   "label": "MES_OPeach_04_Opening_opeach_12",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ふ～ん…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_peach_op_04#3",
+   "label": "MES_OPeach_04_Opening_opeach_13",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 患者;かんじゃ]を ほうってはおけないので\n[Ruby 私;わたし]は これで[Ruby 失礼;しつれい]しますわ。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_peach_op_04#4",
+   "label": "MES_OPeach_04_Opening_opeach_14",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]おお… お[Ruby 医者様;いしゃさま]でもムリ…\nスターの[Ruby 精;せい]でも ムリ…[0002:0001:][Next]わしらは だれをたよりに\nすれば いいのですじゃ…！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_peach_op_04#5",
+   "label": "MES_OPeach_04_Opening_opeach_15",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]なにも できなくて\nわるかったわね！[0002:0001:][Next]スターの[Ruby 精;せい]だって\nできないことも あるわよ！[0002:0001:][Next][0001:0004:][0001:0001:]あきらめてちょうだい！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_peach_op_04#6",
+   "label": "MES_OPeach_04_Opening_opeach_16",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ムッ！[0002:0000:0A 00] なんという[Ruby 言;い]いぐさ！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_peach_op_04#7",
+   "label": "MES_OPeach_04_Opening_opeach_17",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby ２人;ふたり]とも…\n[Ruby 落;お]ちついてちょうだい。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_peach_op_04#8",
+   "label": "MES_OPeach_04_Opening_opeach_18",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ご[Ruby 安心;あんしん]ください！\nキノじい！！[0002:0001:][Next]ボクらには [Ruby 頼;たよ]れる[Ruby 人;ひと]が\nいるじゃないですか！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_peach_op_04#9",
+   "label": "MES_OPeach_04_Opening_opeach_19",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:][0001:0001:]おお！！ そうだった！！[0002:0001:][Next][0001:0000:]わしらには\nまだ [Ruby 希望;きぼう]がありますぞ！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_peach_op_04#10",
+   "label": "MES_OPeach_04_Opening_opeach_30",
+   "style": 9,
+   "attr": "00000000",
+   "jp": "[0009:0000:09 00]だれか ワガハイの\n[Ruby 名前;なまえ]を [Ruby 呼;よ]んだか！？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_peach_op_04#11",
+   "label": "MES_OPeach_04_Opening_opeach_31",
+   "style": 10,
+   "attr": "00000000",
+   "jp": "[0009:0000:0A 00][0001:0004:][0001:0001:]ピーチ[Ruby 姫;ひめ]！！！[0002:0000:28 00]"
+  },
+  {
+   "id": "FMsg/o_peach_op_04#12",
+   "label": "MES_OPeach_04_Opening_opeach_32",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]いったい ここになんの[Ruby 用;よう]です！？[0002:0001:][Next][Ruby 今;いま]は この[Ruby 国;くに]を[Ruby 救;すく]うための\n[Ruby 大切;たいせつ]な [Ruby 会議;かいぎ]の[Ruby 最中;さいちゅう]ですよ！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_peach_op_04#13",
+   "label": "MES_OPeach_04_Opening_opeach_36_2",
+   "style": 10,
+   "attr": "00000000",
+   "jp": "[0009:0000:0A 00][0001:0004:][0001:0001:]マリオ～～～～！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_peach_op_04#14",
+   "label": "MES_OPeach_04_Opening_opeach_33",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]なんだと！！[0002:0000:0A 00]\nワガハイも この[Ruby 国;くに]の[Ruby 国民;こくみん]だぞ！！[0002:0001:][Next]ワガハイにも この[Ruby 会議;かいぎ]に[Ruby 参加;さんか]する\n[Ruby 権利;けんり]は あるはずだ！！[0002:0001:][Next]そうだろ！！ どうなんだ！？\nキノじい！！ どうなんだ！？[0002:0001:] "
+  },
+  {
+   "id": "FMsg/o_peach_op_04#15",
+   "label": "MES_OPeach_04_Opening_opeach_34",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]あ[0002:0000:0A 00] あの…[0002:0000:0A 00]\nそれは…[0002:0000:0A 00] その…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_peach_op_04#16",
+   "label": "MES_OPeach_04_Opening_opeach_35",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]あなたに そんな[Ruby 権利;けんり]ないわよ！\nはやく ここから[Ruby 出;で]てって！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_peach_op_04#17",
+   "label": "MES_OPeach_04_Opening_opeach_36",
+   "style": 9,
+   "attr": "00000000",
+   "jp": "[0009:0000:09 00]なんだとぉ～～！！[0002:0000:1E 00]"
+  },
+  {
+   "id": "FMsg/o_peach_op_04#18",
+   "label": "MES_OPeach_04_Opening_opeach_37",
+   "style": 9,
+   "attr": "00000000",
+   "jp": "[0009:0000:09 00]またしても ワガハイの\nジャマをする[Ruby 気;き]か～～！？[0002:0001:][Next][Ruby 今日;きょう]は マジメな[Ruby 会議;かいぎ]だと[Ruby 聞;き]いて\nおとなしくする つもりだったが…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_peach_op_04#19",
+   "label": "MES_OPeach_04_Opening_opeach_38",
+   "style": 9,
+   "attr": "00000000",
+   "jp": "[0009:0000:09 00]オマエの[Ruby 顔;かお]を [Ruby 見;み]たら\n[Ruby 気;き]が[Ruby 変;か]わったぁ！！！[0002:0001:][Next]こんどこそ ピーチ[Ruby 姫;ひめ]を\nもらって いくぞ！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_peach_op_04#20",
+   "label": "MES_OPeach_04_Opening_opeach_39",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:][0001:0001:]ど[0002:0000:0A 00] どうしたことだ…[0002:0001:][Next][0001:0000:]いつものような\nチカラが[Ruby 出;で]ないぞ…[0002:0001:][Next]ワガハイが こんな[Ruby 簡単;かんたん]に\n[Ruby 負;ま]けるはずがない…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_peach_op_04#21",
+   "label": "MES_OPeach_04_Opening_opeach_50",
+   "style": 7,
+   "attr": "00000000",
+   "jp": "[0009:0000:07 00]んがあああ～～～～～！！[0002:0000:1E 00]"
+  },
+  {
+   "id": "FMsg/o_peach_op_04#22",
+   "label": "MES_OPeach_04_Opening_opeach_51",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]…ハハハハ[0002:0000:0A 00] …ハハ[0002:0000:1E 00]"
+  },
+  {
+   "id": "FMsg/o_peach_op_04#23",
+   "label": "MES_OPeach_04_Opening_opeach_06_10",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 姫様;ひめさま]…[0002:0000:0A 00] この[Ruby 小;ちい]さいのが…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_peach_op_04#24",
+   "label": "MES_OPeach_04_Opening_opeach_52",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]るるるるる！！\nこれで うまくいったるる！！[0002:0001:][Next]さっそく [Ruby 次;つぎ]なるワレの[Ruby 計画;けいかく]を\n[Ruby 進;すす]めるるるよ！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_peach_op_04#25",
+   "label": "MES_OPeach_04_Opening_opeach_06_11",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]はじめまして\n[Color #2C64FF]イエロースター[Color #373737][Color #373737]よ！[0002:0001:][Next]キノコ[Ruby 王国;おうこく]が ピンチだという\nしらせを ピーチ[Ruby 姫;ひめ]からうけて…[0002:0001:][Next]スターの[Ruby 精;せい]を [Ruby 代表;だいひょう]して\n[Ruby 急;いそ]いで かけつけてきたの！[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/o_peach_op_04#26",
+   "label": "MES_OPeach_04_Opening_opeach_53",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0001:]おいっ！ メタボス！！[0002:0001:][Next]こいつを [Ruby 頼;たの]んだるるよ！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_peach_op_04#27",
+   "label": "MES_OPeach_04_Opening_opeach_06_12",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:][0001:0001:]よろしくね！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_peach_op_04#28",
+   "label": "MES_OPeach_04_Opening_opeach_54",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]カシコマリマシタ…\nゲラコビッツ サマ…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_peach_op_04#29",
+   "label": "MES_OPeach_04_Opening_opeach_06_13",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]おお！ [Ruby 元気;げんき]いっぱいですな！\nたのもしいですぞ！[0002:0001:][Next]それでは メタコロ[Ruby 病;びょう]のことも\nスパーっと[Ruby 解決;かいけつ]！！[0002:0000:0A 00] ですな！？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_peach_op_04#30",
+   "label": "MES_OPeach_04_Opening_opeach_06_14",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]あ…[0002:0000:0A 00] それが…[0002:0000:0A 00]\nその…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_peach_op_04#31",
+   "label": "MES_OPeach_04_Opening_opeach_05",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]おお…！ なんとおそろしい…[0002:0001:][Next]こんなことは この[Ruby 国;くに]\n[Ruby 始;はじ]まっていらい [Ruby 初;はじ]めてですぞ…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_peach_op_04#32",
+   "label": "MES_OPeach_04_Opening_opeach_06",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]このままでは キノコ[Ruby 王国;おうこく]の[Ruby 国民;こくみん]が\nすべて メタコロ[Ruby 病;びょう]になってしまう…[0002:0001:][Next]はやく [Ruby 原因;げんいん]を[Ruby 見;み]つけ[Ruby 出;だ]して\n[Ruby 平和;へいわ]な[Ruby 国;くに]に もどさなければ…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_peach_op_04#33",
+   "label": "MES_OPeach_04_Opening_opeach_07",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]なんと… スターの[Ruby 精;せい]でも\nどうすることも できないとは…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_peach_op_04#34",
+   "label": "MES_OPeach_04_Opening_opeach_06_2",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]しかし こんな[Ruby 事態;じたい]は\n[Ruby 初;はじ]めてですよ！[0002:0001:][Next]どうしたらいいのか\nさっぱり わかりません！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_peach_op_04#35",
+   "label": "MES_OPeach_04_Opening_opeach_08",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 同;おな]じような[Ruby 病気;びょうき]を いろいろと\n[Ruby 調;しら]べたんだけど…[0002:0001:][Next]メタコロ[Ruby 病;びょう]は もっとタチのわるい\n[Ruby 病気;びょうき]みたい… [Ruby 治;なお]しようがないの…[0002:0001:][Next]せめて この[Ruby 病気;びょうき]の[Ruby 原因;げんいん]がわかれば\nなんとか なるかもしれないけど…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_peach_op_04#36",
+   "label": "MES_OPeach_04_Opening_opeach_06_3",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]なやんでいる ヒマなんてない！\nとにかく [Ruby 手;て]を[Ruby 打;う]たないと！！[0002:0001:][Next]わたしの [Ruby 子供;こども]も…\nメタコロ[Ruby 病;びょう]に…！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_peach_op_04#37",
+   "label": "MES_OPeach_04_Opening_opeach_09",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 私達 医者;わたしたちいしゃ]も ふくれ[Ruby 続;つづ]けるのを\nふせぐ[Ruby 手立;てだ]ては [Ruby 打;う]ったのですが…[0002:0001:][Next][Ruby 完全;かんぜん]に[Ruby 治;なお]す[Ruby 方法;ほうほう]は [Ruby 今;いま]のところ\nわからないのです…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_peach_op_04#38",
+   "label": "MES_OPeach_04_Opening_opeach_06_4",
+   "style": 5,
+   "attr": "00000000",
+   "jp": "[0009:0000:05 00][0001:0004:]ううう…[0002:0000:1E 00]"
+  },
+  {
+   "id": "FMsg/o_peach_op_04#39",
+   "label": "MES_OPeach_04_Opening_opeach_06_5",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 姫様;ひめさま]！！[0002:0000:0A 00]\n[Ruby 例;れい]の[Ruby 件;けん]は まだ…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_peach_op_04#40",
+   "label": "MES_OPeach_04_Opening_opeach_06_6",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ええ…[0002:0000:0A 00] [Color #2C64FF]スターの[Ruby 精;せい][Color #373737][Color #373737]にも\n[Ruby 助;たす]けを お[Ruby 願;ねが]いしたのですが…[0002:0001:][Next]まだ なんのしらせも\nこないの…[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/o_peach_op_04#41",
+   "label": "MES_OPeach_04_Opening_opeach_06_7",
+   "style": 10,
+   "attr": "00000000",
+   "jp": "[0009:0000:0A 00]ごめんなさ～い！！！[0002:0000:28 00]"
+  },
+  {
+   "id": "FMsg/o_peach_op_04#42",
+   "label": "MES_OPeach_04_Opening_opeach_06_8",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]お！ ウワサをすれば\n[Color #2C64FF]スターの[Ruby 精;せい][Color #373737][Color #373737]のご[Ruby 到着;とうちゃく]ですな！！[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/o_peach_op_04#43",
+   "label": "MES_OPeach_04_Opening_opeach_06_9",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]おくれちゃった！\nお[Ruby 城;しろ]って [Ruby 広;ひろ]いわね～！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_peach_op_04#44",
+   "label": "MES_OPeach_04_Opening_opeach_20",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]って… あれ？\nまだ きていないんですか？[0002:0001:][Next][0001:0004:][0001:0001:]あの[Color #2C64FF][Ruby 兄弟;きょうだい][Color #373737][Color #373737]は…[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/o_peach_op_04#45",
+   "label": "MES_OPeach_04_Opening_opeach_21",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]おお！！ マリオどの！\nルイージどの！！[0002:0001:][Next]お[Ruby 待;ま]ちしておりましたぞ！\nさあ [Ruby 会議;かいぎ]を[Ruby 続;つづ]けましょう！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_peach_op_04#46",
+   "label": "MES_OPeach_04_Opening_opeach_22",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]というわけで… [Ruby 少;すく]ない[Ruby 情報;じょうほう]から\n[Ruby 出;で]た [Ruby 結果;けっか]ではありますが…[0002:0001:][Next][Ruby 原因;げんいん]は とある[Ruby 商人;しょうにん]が\n[Ruby 売;う]っていた キノコですね。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_peach_op_04#47",
+   "label": "MES_OPeach_04_Opening_opeach_23",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:][0001:0001:]まあ！ キノコ？[0002:0001:][Next][0001:0000:]キノコが [Ruby 原因;げんいん]で\nメタコロ[Ruby 病;びょう]になったのですか？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_peach_op_04#48",
+   "label": "MES_OPeach_04_Opening_opeach_11_2",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Color #2C64FF]Dr.コキノ[Color #373737][Color #373737]？[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/o_peach_op_04#49",
+   "label": "MES_OPeach_04_Opening_opeach_24",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]メタコロ[Ruby 病;びょう]になった キノピオ[Ruby 達;たち]に\n[Ruby 聞;き]き[Ruby 込;こ]みを したのですが…[0002:0001:][Next]みんな [Color #2C64FF]メタコロキノコ[Color #373737][Color #373737]という\nキノコを[Ruby 買;か]って [Ruby 食;た]べたそうです。[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/o_peach_op_04#50",
+   "label": "MES_OPeach_04_Opening_opeach_11_3",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]この[Ruby 国;くに]のことなら なんでもわかる\n[Ruby 有名;ゆうめい]な お[Ruby 医者様;いしゃさま]です。[0002:0001:][Next][Ruby 今日;きょう]は[Ruby 会議;かいぎ]に [Ruby 出席;しゅっせき]できないので\n[Ruby 助手;じょしゅ]に きてもらったのです。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_peach_op_04#51",
+   "label": "MES_OPeach_04_Opening_opeach_25",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:][0001:0001:][Color #2C64FF]メタコロキノコ[Color #373737][Color #373737]？[0002:0001:][Next][0001:0000:]むむむ… それはこの[Ruby 国;くに]のものでは\nありませんぞ…[0002:0001:][Next]いったい だれがそんなものを\n[Ruby 売;う]っていたのだ！？[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/o_peach_op_04#52",
+   "label": "MES_OPeach_04_Opening_opeach_26",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 目撃者;もくげきしゃ]の[Ruby 話;はなし]では その[Ruby 商人;しょうにん]\nマントをはおった [Ruby 男;おとこ]だそうです。[0002:0001:][Next]どう[Ruby 見;み]ても キノコ[Ruby 王国;おうこく]の[Ruby 者;もの]では\nなかったそうです。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_peach_op_04#53",
+   "label": "MES_OPeach_04_Opening_opeach_27",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]なるほど… そいつは\nかなりあやしいわね。[0002:0001:][Next][Ruby 決;き]まり！！\nそいつを [Ruby 見;み]つけ[Ruby 出;だ]しましょう！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_peach_op_04#54",
+   "label": "MES_OPeach_04_Opening_opeach_28",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]マリオどの！！ ルイージどの！！\n[Ruby 出番;でばん]ですぞ！！！[0002:0001:][Next]いつも クッパを[Ruby 倒;たお]すように\nボコボコに やっつけてくだされ！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_peach_op_04#55",
+   "label": "MES_OPeach_04_Opening_opeach_29",
+   "style": 10,
+   "attr": "00000000",
+   "jp": "[0009:0000:0A 00][0005:0000:]ガハハハハ！[0002:0000:1E 00]"
+  },
+  {
+   "id": "FMsg/o_peach_op_04#56",
+   "label": "MES_OPeach_04_Opening_opeach_40",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 私;わたし]の スターパワーと\nピーチ[Ruby 姫;ひめ]の いのりのパワーよ！[0002:0001:][Next]あなたの チカラを[Ruby 弱;よわ]めるには\n[Ruby 十分;じゅうぶん]すぎるでしょ！？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_peach_op_04#57",
+   "label": "MES_OPeach_04_Opening_opeach_41",
+   "style": 5,
+   "attr": "00000000",
+   "jp": "[0009:0000:05 00][0001:0004:]な…[0002:0000:0A 00] なんだとぉ…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_peach_op_04#58",
+   "label": "MES_OPeach_04_Opening_opeach_42",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]さあ！[0002:0000:0A 00] ピーチ[Ruby 姫;ひめ]！！[0002:0001:][Next]この ジャマモノを\nかたづけちゃいましょ！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_peach_op_04#59",
+   "label": "MES_OPeach_04_Opening_opeach_43",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]また あなたに\n[Ruby 助;たす]けて もらいましたね。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_peach_op_04#60",
+   "label": "MES_OPeach_04_Opening_opeach_44",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]せっかくの [Ruby 大切;たいせつ]な[Ruby 会議;かいぎ]が\n[Ruby 台無;だいな]しに なってしまいました…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_peach_op_04#61",
+   "label": "MES_OPeach_04_Opening_opeach_45",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]もう [Ruby 会議;かいぎ]どころじゃ\nないですね…[0002:0001:][Next][0001:0004:][Ruby 中止;ちゅうし]にしましょうか？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_peach_op_04#62",
+   "label": "MES_OPeach_04_Opening_opeach_46",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]むむむ… しかし[Ruby 今;いま]は\nこの[Ruby 国;くに]の [Ruby 一大事;いちだいじ]ですぞ。[0002:0001:][Next]このまま [Ruby 中止;ちゅうし]にしてしまっては\n[Ruby 問題;もんだい]が [Ruby 解決;かいけつ]しませんぞ。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_peach_op_04#63",
+   "label": "MES_OPeach_04_Opening_opeach_47",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]そうですわ。クッパのことより\nメタコロ[Ruby 病;びょう]の [Ruby 問題;もんだい]が[Ruby 優先;ゆうせん]です。[0002:0001:][Next][0001:0004:][Ruby 会議;かいぎ]は このまま[Ruby 続;つづ]けましょう！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_peach_op_04#64",
+   "label": "MES_OPeach_04_Opening_opeach_48",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]おお さすが[Ruby 姫様;ひめさま]！！[0002:0001:][Next]それでこそ わが[Ruby 国;くに]の\nプリンセスですぞ！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_peach_op_04#65",
+   "label": "MES_OPeach_04_Opening_opeach_49",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]しかし この[Ruby 部屋;へや]は\nもう [Ruby 使;つか]えませんな…[0002:0001:][Next][Ruby 別;べつ]の[Ruby 部屋;へや]で\n[Ruby 会議;かいぎ]の[Ruby 続;つづ]きをしましょう。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_peach_op_04#66",
+   "label": "MES_OPeach_04_Opening_opeach_31_2",
+   "style": 9,
+   "attr": "00000000",
+   "jp": "[0009:0000:09 00]よくも ワガハイだけ\nのけものに したなっ！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_peach_op_04#67",
+   "label": "MES_OPeach_04_Opening_opeach_09_2",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]なんとか ならないんですか？\n[Ruby 国;くに]の[Ruby 一大事;いちだいじ]なんですよ！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_peach_op_04#68",
+   "label": "MES_OPeach_04_Opening_opeach_09_3",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 私達;わたしたち]だって\nなんとかしたいですよ！！[0002:0001:]"
+  }
+ ]
+}

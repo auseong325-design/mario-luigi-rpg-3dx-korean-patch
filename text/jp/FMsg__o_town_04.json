@@ -1,0 +1,68 @@
+{
+ "source": "Msg/JP_ja/FMsg.dat:o_town_04",
+ "messages": [
+  {
+   "id": "FMsg/o_town_04#0",
+   "label": "MES_TKinoko_04_Kinoko_town_chka_map_tut_01",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]やっと クッパの[Ruby 体;からだ]から\n[Ruby 出;で]れたと [Ruby 思;おも]ったら…[0002:0001:][Next]ここは どこかしら…\nどこかの[Ruby 地下;ちか]みたいだけど…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_04#1",
+   "label": "MES_SAVE_BLOCK_recovery",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0001:0001:][0005:0000:]HPとBPの[Ruby 回復;かいふく]も\n[Ruby 忘;わす]れないようにしましょう。[0002:0000:0A 00][0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_04#2",
+   "label": "MES_TKinoko_04_Kinoko_town_chka_map_tut_02",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]え？[0002:0000:0A 00] ここが\n[Color #2C64FF]キノコタウンの[Ruby 地下;ちか][Color #373737][Color #373737]？[0002:0001:][Next]そうなの？[0002:0000:0A 00] でもマリオが\n[Ruby 言;い]うのなら [Ruby 確;たし]かよね…[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/o_town_04#3",
+   "label": "MES_TKinoko_04_Kinoko_town_chka_map_tut_03",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]そういえば！[0002:0000:0A 00] [Ruby 確;たし]かピーチ[Ruby 姫;ひめ]が\n[Ruby 言;い]ってたわね！[0002:0001:][Next][Color #2C64FF]ダークスター[Color #373737][Color #373737]が\nキノコタウンの[Ruby 地下;ちか]にあるって！[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/o_town_04#4",
+   "label": "MES_TKinoko_04_Kinoko_town_chka_map_tut_04",
+   "style": 5,
+   "attr": "00000000",
+   "jp": "[0009:0000:05 00]ふるるるるるる～[0002:0000:1E 00]"
+  },
+  {
+   "id": "FMsg/o_town_04#5",
+   "label": "MES_TKinoko_04_Kinoko_town_chka_map_tut_05",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 今;いま] なにか[Ruby 聞;き]こえたわね…[0002:0001:][Next]ゲラコビッツが きている…！？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_04#6",
+   "label": "MES_TKinoko_04_Kinoko_town_chka_map_tut_06",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]こまったわ！[0002:0000:0A 00] ピーチ[Ruby 姫;ひめ]は\nゲラコビッツのところにいる…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_04#7",
+   "label": "MES_TKinoko_04_Kinoko_town_chka_map_tut_07",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]このうえ [Color #2C64FF]ダークスター[Color #373737][Color #373737]も\nうばわれたら [Ruby 大変;たいへん]なことに…！！[0002:0001:][Next]ゲラコビッツよりも [Ruby 先;さき]に\n[Color #373737][Color #2C64FF]ダークスター[Color #373737][Color #373737]を [Ruby 見;み]つけないと！[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/o_town_04#8",
+   "label": "MES_TKinoko_04_Kinoko_town_chka_map_tut_08",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 迷;まよ]ったら [Color #2C64FF][Ruby 下画面;したがめん]のマップ[Color #373737][Color #373737]で\n[Ruby 自分;じぶん]のいる[Ruby 場所;ばしょ]を\n[Ruby 確認;かくにん]すると いいわね。[0002:0001:][Next][0001:0004:][0001:0001:][Ruby 急;いそ]ぎましょう！！[0002:0001:][Color #373737]"
+  }
+ ]
+}

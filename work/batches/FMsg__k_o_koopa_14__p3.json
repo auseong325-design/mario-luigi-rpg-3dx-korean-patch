@@ -1,0 +1,213 @@
+{
+ "batch": "FMsg__k_o_koopa_14__p3",
+ "rooms": [
+  "k_o_koopa_14"
+ ],
+ "ds_rooms": [],
+ "ds_reference": [],
+ "glossary": [
+  {
+   "jp": "クッパ",
+   "ko": "쿠파",
+   "type": "character",
+   "basis": "DS",
+   "source": "BData__mfset_Help#21",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "クッパJr.",
+   "ko": "쿠파주니어",
+   "type": "character",
+   "basis": "official",
+   "source": "https://www.nintendo.com/kr/switch/aabpa/sp/character/",
+   "note": "한국닌텐도 공식 표기(마리오 카트 8 디럭스 등). 부하들이 부를 때는 '쿠파주니어님' [gl_kj]"
+  },
+  {
+   "jp": "ロイ",
+   "ko": "로이",
+   "type": "character",
+   "basis": "official",
+   "source": "https://www.nintendo.com/kr/switch/aabpa/sp/character/",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "クリボー",
+   "ko": "굼바",
+   "type": "enemy",
+   "basis": "DS",
+   "source": "BAI__BMes_cf:0#1",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "お父さん",
+   "ko": "아빠",
+   "type": "term",
+   "basis": "coined",
+   "source": "FMsg/k_o_koopa_14#55",
+   "note": "쿠파주니어가 쿠파를 부르는 말(어린이 말투) [gl_kj]"
+  },
+  {
+   "jp": "とつげき",
+   "ko": "돌격",
+   "type": "term",
+   "basis": "official",
+   "source": "https://namu.wiki/w/%EB%A7%88%EB%A6%AC%EC%98%A4%26%EB%A3%A8%EC%9D%B4%EC%A7%80%20RPG%201%20DX",
+   "note": "타입명 단독 [gl_kj]"
+  },
+  {
+   "jp": "とつげきタイプ",
+   "ko": "돌격 타입",
+   "type": "term",
+   "basis": "official",
+   "source": "https://namu.wiki/w/%EB%A7%88%EB%A6%AC%EC%98%A4%26%EB%A3%A8%EC%9D%B4%EC%A7%80%20RPG%201%20DX",
+   "note": "RPG1 DX 한국판 쿠파군단 RPG 타입명 [gl_kj]"
+  },
+  {
+   "jp": "ぼっちゃん",
+   "ko": "도련님",
+   "type": "term",
+   "basis": "coined",
+   "source": "MenuKJ#93",
+   "note": "마귀·쿠파 7인조·부하들이 쿠파주니어를 부르는 말. DS에 없음 [gl_kj]"
+  },
+  {
+   "jp": "クッパJr.様",
+   "ko": "쿠파주니어님",
+   "type": "term",
+   "basis": "coined",
+   "source": "FMsg/k_o_koopa_r_80#45",
+   "note": "DS의 '쿠파님'·'마리오님' 호칭 방식 [gl_kj]"
+  },
+  {
+   "jp": "クッパ様",
+   "ko": "쿠파님",
+   "type": "term",
+   "basis": "DS",
+   "source": "BAI__BMes_cf:0#0",
+   "note": "부하들이 부를 때 [gl_kj]"
+  }
+ ],
+ "messages": [
+  {
+   "id": "FMsg/k_o_koopa_14#225",
+   "label": "Kjrpg_12_Koopa_exqst_3_75",
+   "style": 1,
+   "src": "{1:color}ぼっちゃんとクッパ様の\n対決は たびたび行われて…{2:wait}{3:color}",
+   "tags": {
+    "1": "[Color #FFFAF1]",
+    "2": "[0002:0001:]",
+    "3": "[Color #373737]"
+   },
+   "header": "[0009:0000:01 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#226",
+   "label": "Kjrpg_01_Koopa_op01_12",
+   "style": 6,
+   "src": "お父さん！{1:pause} あれ見てよ！{2:wait}",
+   "tags": {
+    "1": "[0002:0000:08 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#228",
+   "label": "Kjrpg_01_Koopa_op01_14",
+   "style": 6,
+   "src": "あれは…{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/k_o_koopa_19#31"
+   ]
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#229",
+   "label": "Kjrpg_01_Koopa_op02_20",
+   "style": 6,
+   "src": "クッパJr.様！{1:pause}\n増えてますって～！{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#230",
+   "label": "Kjrpg_01_Koopa_op01_15",
+   "style": 6,
+   "src": "ク{1:pause} クリボーか！？{2:wait}",
+   "tags": {
+    "1": "[0002:0000:04 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#231",
+   "label": "Kjrpg_12_Koopa_exqst_3_24",
+   "style": 6,
+   "src": "フン… {1:pause}\nとつげきタイプが足らんか…{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#232",
+   "label": "Kjrpg_12_Koopa_exqst_2_01",
+   "style": 6,
+   "src": "なあ。{1:pause}ロイ。{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#233",
+   "label": "Kjrpg_12_Koopa_exqst_2_02",
+   "style": 6,
+   "src": "ヘイ。{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#234",
+   "label": "Kjrpg_12_Koopa_exqst_2_03",
+   "style": 6,
+   "src": "…{1:pause}ヒマだな。{2:wait}",
+   "tags": {
+    "1": "[0002:0000:05 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#235",
+   "label": "Kjrpg_12_Koopa_exqst_2_04",
+   "style": 6,
+   "src": "…{1:pause}ですね。{2:wait}",
+   "tags": {
+    "1": "[0002:0000:05 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  }
+ ]
+}

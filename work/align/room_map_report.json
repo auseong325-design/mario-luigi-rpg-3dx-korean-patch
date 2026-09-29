@@ -1,0 +1,2265 @@
+{
+ "cs_scn_01_metakoro_03_U": {
+  "ds": [
+   "09C"
+  ],
+  "confidence": "high",
+  "note": "오프닝 뚱뚱데굴병 장면의 비명 1줄 = DS09C#12 '꺄악―――!! 여보―――!'"
+ },
+ "ev_MAIN_town_20": {
+  "ds": [
+   "21D"
+  ],
+  "confidence": "high",
+  "note": "지명 표시 キノコタウン = DS21D '버섯 타운'"
+ },
+ "ev_zutsuda_09": {
+  "ds": [
+   "13D"
+  ],
+  "confidence": "high",
+  "note": "쿠파가 냄새 맡고 재채기하려는 장면, #0~2 = DS13D#0~2 (DS#3 '에취~'는 3DX 이 방에 없음)"
+ },
+ "fcommon": {
+  "ds": [],
+  "confidence": "none",
+  "note": "3DX 시스템 안내문(캐릭터 지형 끼임 → 안전한 곳으로 이동), DS에 없음"
+ },
+ "i_air_01": {
+  "ds": [
+   "181"
+  ],
+  "confidence": "high",
+  "note": "에어 스페이스 추위·아이스 스모크 장면, #0~7 = DS181#0~7. #8은 3DX 공통 HP/BP 회복 안내(DS에 없음)"
+ },
+ "i_air_06": {
+  "ds": [],
+  "confidence": "none",
+  "note": "3DX 공통 대체 문구 'HPとBPの回復も…' 1줄뿐, DS에 대응 문장 없음"
+ },
+ "i_air_07": {
+  "ds": [
+   "17F"
+  ],
+  "confidence": "high",
+  "note": "약해진 다크스타 발견 장면, 4줄 모두 DS17F와 일치"
+ },
+ "i_air_08": {
+  "ds": [
+   "17C"
+  ],
+  "confidence": "high",
+  "note": "헬로글로빈 힌트(얼면 떨어지는 블록) = DS17C. 3DX 끝의 버튼 안내(赤のヒゲ/緑のヒゲ)는 DS에 없음"
+ },
+ "i_air_12": {
+  "ds": [
+   "180"
+  ],
+  "confidence": "high",
+  "note": "다크스타 추격, #0~4 = DS180#0~4. #5는 3DX 공통 HP/BP 회복 안내"
+ },
+ "i_air_13": {
+  "ds": [
+   "1F1"
+  ],
+  "confidence": "high",
+  "note": "리프트로빈 조작 설명, 13줄 모두 DS1F1과 순서대로 일치"
+ },
+ "i_air_14": {
+  "ds": [
+   "1F2"
+  ],
+  "confidence": "high",
+  "note": "토템헬로글로빈 시험, 순서는 다르나 18줄 모두 DS1F2에 대응(で/き/ま/し/た = 하/셨/습/니/다)"
+ },
+ "i_air_17": {
+  "ds": [
+   "1F4"
+  ],
+  "confidence": "high",
+  "note": "다크스타를 또 놓친 뒤 대사 = DS1F4"
+ },
+ "i_air_20": {
+  "ds": [],
+  "confidence": "none",
+  "note": "3DX 공통 대체 문구 'HPとBPの回復も…' 1줄뿐, DS에 대응 문장 없음"
+ },
+ "i_air_21": {
+  "ds": [],
+  "confidence": "none",
+  "note": "3DX 디버그/미구현 안내문. #1 'タリナイ…'는 DS20F#15 '부족하다…'와 같은 대사(참고)"
+ },
+ "i_air_22": {
+  "ds": [],
+  "confidence": "none",
+  "note": "3DX 공통 대체 문구 'HPとBPの回復も…' 1줄뿐, DS에 대응 문장 없음"
+ },
+ "i_areanone_op_02_L": {
+  "ds": [
+   "29D"
+  ],
+  "confidence": "high",
+  "note": "오프닝 뚱뚱데굴병 내레이션, 6줄 모두 DS29D와 일치"
+ },
+ "i_areanone_puzzle_01_L": {
+  "ds": [],
+  "confidence": "none",
+  "note": "FEvent 밖 대응: 비밀번호 기억 퍼즐 = DS EDataSave__mfset_EMesJig#0~11 (14줄 거의 1:1). 배치에 수동 연결 필요"
+ },
+ "i_areanone_puzzle_01_U": {
+  "ds": [],
+  "confidence": "none",
+  "note": "_L과 동일 내용. FEvent 밖 대응: DS EDataSave__mfset_EMesJig#0~11. 배치에 수동 연결 필요"
+ },
+ "i_areanone_puzzle_02_L": {
+  "ds": [],
+  "confidence": "none",
+  "note": "FEvent 밖 대응: 러즐의 직소 퍼즐 설명·진행 = DS EDataSave__mfset_EMesJig#11~26 (대부분 1:1). 러즐 말투 참고는 DS287. 배치에 수동 연결 필요"
+ },
+ "i_areanone_puzzle_02_U": {
+  "ds": [],
+  "confidence": "none",
+  "note": "_L과 동일 내용. FEvent 밖 대응: DS EDataSave__mfset_EMesJig#11~26. 배치에 수동 연결 필요"
+ },
+ "i_challenge_01": {
+  "ds": [
+   "28A"
+  ],
+  "confidence": "high",
+  "note": "챌린지 홀(배틀 콜로세움·콜레스테로드·블록99) 대부분 DS28A와 일치. 巨大化バトル ターボ 관련 줄(#1,9,21,32,58)은 3DX 신규"
+ },
+ "i_dokan_01": {
+  "ds": [
+   "12E"
+  ],
+  "confidence": "high",
+  "note": "쿠파가 빨아들인 토관 방(토관 안내 헬로글로빈), 32줄 거의 모두 DS12E와 일치"
+ },
+ "i_energy_01": {
+  "ds": [
+   "0A4"
+  ],
+  "confidence": "high",
+  "note": "애벌레를 놓친 뒤/벽이 사라진 장면, 9줄 모두 DS0A4에 대응(순서 다름)"
+ },
+ "i_energy_02": {
+  "ds": [
+   "0A5"
+  ],
+  "confidence": "high",
+  "note": "헬로글로빈 상식(빛을 비추면 보임) = DS0A5. #1은 3DX 공통 HP/BP 회복 안내"
+ },
+ "i_energy_05": {
+  "ds": [
+   "0B9"
+  ],
+  "confidence": "high",
+  "note": "스타 패널·게이트·어택피스, 19줄 모두 DS0B9에 대응(#13 HP/BP 안내만 3DX 공통 문구)"
+ },
+ "i_energy_08": {
+  "ds": [
+   "0DF"
+  ],
+  "confidence": "high",
+  "note": "스타 패널 게이트 안내 2줄 = DS0DF(DS0E3도 같은 2줄, 짝 구분 불가하나 문구 동일)"
+ },
+ "i_energy_11": {
+  "ds": [
+   "0BD"
+  ],
+  "confidence": "high",
+  "note": "부끄부끄 노래(헬로글로빈 작사·작곡) = DS0BD"
+ },
+ "i_energy_14": {
+  "ds": [
+   "0C0"
+  ],
+  "confidence": "high",
+  "note": "어택피스 안내 헬로글로빈 3줄 = DS0C0"
+ },
+ "i_energy_15": {
+  "ds": [
+   "0E1"
+  ],
+  "confidence": "medium",
+  "note": "정형 문구(에너지 스페이스 어택피스 획득)뿐. 같은 문구의 DS 방이 여럿(0A7/0BB/0BE/0E1/0E2/10B)이라 방 특정 불가, 문구 참조용 대표 연결"
+ },
+ "i_energy_16": {
+  "ds": [
+   "0E2"
+  ],
+  "confidence": "medium",
+  "note": "정형 문구(에너지 스페이스 어택피스 획득)뿐. 같은 문구의 DS 방이 여럿(0A7/0BB/0BE/0E1/0E2/10B)이라 방 특정 불가, 문구 참조용 대표 연결"
+ },
+ "i_energy_18": {
+  "ds": [
+   "0C2"
+  ],
+  "confidence": "high",
+  "note": "어택피스 안내 헬로글로빈 3줄 = DS0C2 (ミニマップ ↔ SELECT 버튼 지도, ブラザーアタック ↔ 스페셜 어택)"
+ },
+ "i_energy_19": {
+  "ds": [
+   "0E3"
+  ],
+  "confidence": "high",
+  "note": "스타 패널 게이트 안내 2줄 = DS0E3(DS0DF도 같은 2줄, 짝 구분 불가하나 문구 동일)"
+ },
+ "i_energy_20": {
+  "ds": [
+   "0E4"
+  ],
+  "confidence": "high",
+  "note": "헬로글로빈 의문(땅의 수상한 지점) = DS0E4#0"
+ },
+ "i_energy_22": {
+  "ds": [
+   "0E5"
+  ],
+  "confidence": "medium",
+  "note": "브라더 드릴 튜토리얼. #0,#2 = DS0E5#0,#7 그대로, #1·#6은 조작 설명 축약/변경, #3~5는 3DX 신규(필드 가이드 등)"
+ },
+ "i_energy_24": {
+  "ds": [
+   "0E6"
+  ],
+  "confidence": "high",
+  "note": "어택피스 안내 헬로글로빈 #0~2 = DS0E6#5~7. #3 리플렉트 월 힌트는 DS0E6#0과 같은 주제지만 내용 변경"
+ },
+ "i_energy_25": {
+  "ds": [
+   "0E7"
+  ],
+  "confidence": "medium",
+  "note": "정형 문구(어택피스 획득)뿐. 'いっぺんに' 문구 = DS0E7 '단번에'(방 순서상 0E6 다음). '個目' 3줄은 같은 정형문(DS0E1 등)으로 DS0E7에는 없음"
+ },
+ "i_energy_31": {
+  "ds": [],
+  "confidence": "none",
+  "note": "3DX 공통 대체 문구 'HPとBPの回復も…' 1줄뿐, DS에 대응 문장 없음"
+ },
+ "i_energy_32": {
+  "ds": [
+   "110"
+  ],
+  "confidence": "high",
+  "note": "애번느와의 대결·첫 번째 스타 백신, 22줄 DS110과 일치. #10 '=== １月末版 終了 ==='은 3DX 디버그 문구"
+ },
+ "i_fire_02": {
+  "ds": [
+   "039"
+  ],
+  "confidence": "high",
+  "note": "화염 기관을 막은 몬스터 격파 후 '치피' 이름 장면, 14줄 모두 DS039와 일치"
+ },
+ "i_garakuta_02": {
+  "ds": [
+   "1FE"
+  ],
+  "confidence": "high",
+  "note": "첫 헬로글로빈(안 가르쳐 주지~, 저장블록), 6줄 모두 DS1FE와 일치"
+ },
+ "i_garakuta_03": {
+  "ds": [
+   "210"
+  ],
+  "confidence": "high",
+  "note": "아메바에 붙잡힌 옐로스타 구출 + 유랑하는 헬로글로빈, 23줄 모두 DS210에 대응(순서 다름)"
+ },
+ "i_garakuta_04": {
+  "ds": [
+   "203"
+  ],
+  "confidence": "high",
+  "note": "저장블록 헬로글로빈 1줄 = DS203(DS205·21B#0도 같은 문장, 짝 구분 불가하나 문구 동일)"
+ },
+ "i_garakuta_05": {
+  "ds": [
+   "204"
+  ],
+  "confidence": "high",
+  "note": "회복해 주는 마음씨 고운 헬로글로빈, 5줄 모두 DS204와 일치"
+ },
+ "i_garakuta_06": {
+  "ds": [
+   "207"
+  ],
+  "confidence": "high",
+  "note": "루이지 구출·피치공주 수색·스타 메뉴. 줄거리 대사는 DS207과 일치, 조작 안내(#0,4,5,15,17,18: 가이드·미니맵)는 3DX용으로 변경/신규"
+ },
+ "i_garakuta_07": {
+  "ds": [
+   "205"
+  ],
+  "confidence": "high",
+  "note": "저장블록 헬로글로빈 1줄 = DS205(DS203·21B#0도 같은 문장, 짝 구분 불가하나 문구 동일)"
+ },
+ "i_garakuta_08": {
+  "ds": [
+   "211",
+   "210"
+  ],
+  "confidence": "medium",
+  "note": "3DX가 재구성한 '다시 온 유랑 헬로글로빈' 팁. 틈새 동시 점프 설명(#2~4) = DS211#13~15, 인사·작별(#0,1,5) = DS210#19,20,22 ('ふたたび'는 3DX 추가)"
+ },
+ "i_garakuta_10": {
+  "ds": [
+   "21B"
+  ],
+  "confidence": "high",
+  "note": "해머 획득·사용법 + 저장블록, DS21B와 일치. #8,#10 가이드 안내는 3DX 신규"
+ },
+ "i_garakuta_11": {
+  "ds": [
+   "212"
+  ],
+  "confidence": "high",
+  "note": "어택피스 첫 설명 + 획득 2줄, 7줄 모두 DS212와 일치"
+ },
+ "i_garakuta_12": {
+  "ds": [
+   "213"
+  ],
+  "confidence": "high",
+  "note": "잡동사니 스페이스 어택피스 획득 2줄 = DS213 (212→213→214 순서로 1:1)"
+ },
+ "i_garakuta_13": {
+  "ds": [
+   "214"
+  ],
+  "confidence": "high",
+  "note": "어택피스 완성 + 스페셜 어택 설명, 5줄 모두 DS214와 일치"
+ },
+ "i_kinopio_01": {
+  "ds": [
+   "16A"
+  ],
+  "confidence": "high",
+  "note": "쿠파 몸속 키노피오 광장(가게·정보·키노영감·주스 카페), 대부분 DS16A와 일치. 특별 세일 1코인 줄(#17,21,35,36)은 3DX 신규. #43~46 챌린지 홀 뉴스는 DS28A#95~98(i_challenge_01과 같은 문장)"
+ },
+ "i_kioku_02": {
+  "ds": [
+   "14A"
+  ],
+  "confidence": "high",
+  "note": "기억 창고 저장블록('しかも！' = '게다가!') = DS14A"
+ },
+ "i_kioku_03": {
+  "ds": [
+   "14B"
+  ],
+  "confidence": "high",
+  "note": "쿠파의 기억 창고·금고 비밀번호 장면, 23줄 모두 DS14B에 대응"
+ },
+ "i_koopa_13_beam_01_L": {
+  "ds": [
+   "051"
+  ],
+  "confidence": "high",
+  "note": "까르코비츠가 계획을 밝히고 피치공주를 꺼내는 장면, 7줄 모두 DS051과 일치"
+ },
+ "i_koopa_13_escape_01_L": {
+  "ds": [
+   "05E"
+  ],
+  "confidence": "high",
+  "note": "피치공주를 빼앗기고 폭탄병 보관 창고에서 다이어트, 20줄 모두 DS05E와 일치"
+ },
+ "i_koshi_01": {
+  "ds": [
+   "152"
+  ],
+  "confidence": "high",
+  "note": "허리 자극(키노영감·키노클 차 마시기)·스파이크 볼 습득·피치 성 도착, 30줄 모두 DS152와 일치(#9 DS 본체 문구는 3DX용으로 변경)"
+ },
+ "i_metaboru_01_after": {
+  "ds": [],
+  "confidence": "none",
+  "note": "3DX 공통 대체 문구 'HPとBPの回復も…' 1줄뿐, DS에 대응 문장 없음"
+ },
+ "i_metaboru_02": {
+  "ds": [
+   "04D"
+  ],
+  "confidence": "high",
+  "note": "헬로글로빈 조사(핑크 바닥 점프) + 어택피스 = DS04D"
+ },
+ "i_metaboru_03": {
+  "ds": [
+   "04E"
+  ],
+  "confidence": "high",
+  "note": "군살 스페이스에서 피치공주 발견 장면 + 어택피스, DS04E와 일치"
+ },
+ "i_metaboru_04": {
+  "ds": [
+   "061"
+  ],
+  "confidence": "medium",
+  "note": "정형 문구(군살 스페이스 어택피스 획득)뿐. 방 순서상 DS061로 추정, 같은 문구 방(061/083/084) 구분 불가"
+ },
+ "i_metaboru_05": {
+  "ds": [
+   "062"
+  ],
+  "confidence": "medium",
+  "note": "정형 문구뿐. 'いっぺんに' 문구 = DS062 '단번에'(방 순서도 일치). '個目' 3줄은 같은 정형문(DS061 등)으로 DS062에는 없음"
+ },
+ "i_metaboru_06": {
+  "ds": [
+   "063"
+  ],
+  "confidence": "high",
+  "note": "찡글로빈의 쿠파 퀴즈 1(정답 경로: 오른쪽 위층 빨간 파이프 기관), 45줄 DS063과 일치"
+ },
+ "i_metaboru_07": {
+  "ds": [
+   "064"
+  ],
+  "confidence": "high",
+  "note": "찡글로빈의 쿠파 퀴즈 2(멀리 나는 기술 유무에 따라 초록/빨간 파이프 기관), DS064와 일치. 경로 안내는 2줄(#7,#9)로 나뉨"
+ },
+ "i_metaboru_09": {
+  "ds": [
+   "065"
+  ],
+  "confidence": "medium",
+  "note": "정형 문구뿐. 'いっぺんに' 문구 = DS065 '단번에'(방 순서도 일치). '個目' 3줄은 같은 정형문, #3은 3DX 공통 HP/BP 안내"
+ },
+ "i_metaboru_10": {
+  "ds": [
+   "068"
+  ],
+  "confidence": "medium",
+  "note": "회오리바람·스핀 점프 튜토리얼. #0~3 = DS068#0~3 그대로, 조작 설명(#4,5,7,8,9)은 3DX용으로 변경/신규, #12 필드 가이드 안내 신규"
+ },
+ "i_metaboru_11": {
+  "ds": [
+   "083"
+  ],
+  "confidence": "medium",
+  "note": "정형 문구(군살 스페이스 어택피스 획득)뿐. 같은 문구 방(083/084) 구분 불가, 문구 참조용 대표 연결"
+ },
+ "i_metaboru_12": {
+  "ds": [
+   "069"
+  ],
+  "confidence": "high",
+  "note": "찡글로빈의 쿠파 퀴즈 3(오른쪽 빨간 파이프 기관), DS069와 일치. 경로 안내 #25에 '다음은 초록' 추가됨"
+ },
+ "i_metaboru_14": {
+  "ds": [],
+  "confidence": "none",
+  "note": "3DX 공통 대체 문구 'HPとBPの回復も…' 1줄뿐, DS에 대응 문장 없음"
+ },
+ "i_metaboru_15": {
+  "ds": [
+   "04F"
+  ],
+  "confidence": "high",
+  "note": "피치공주 구출 후 출구 탐색 장면, 21줄 모두 DS04F에 대응(순서 다름)"
+ },
+ "i_metaboru_16": {
+  "ds": [
+   "042"
+  ],
+  "confidence": "high",
+  "note": "군살 스페이스, 피치공주·키노피오와 출구 찾기·다크스타 봉인 대화, 대사 대부분 일치"
+ },
+ "i_metaboru_17_main": {
+  "ds": [
+   "05F"
+  ],
+  "confidence": "high",
+  "note": "피치공주가 걱정돼서 와 버린 장면, 4대사 모두 일치"
+ },
+ "i_metaboru_19": {
+  "ds": [
+   "0B8"
+  ],
+  "confidence": "high",
+  "note": "금도끼 은도끼 패러디(굉장한 보물/초록색 수염), 대사 거의 전부 일치. 3DX 이름 ネンマク(점막)姫·床 ↔ DS 지방공주·지방바닥(원작 명칭 변경)"
+ },
+ "i_odoroki_01": {
+  "ds": [
+   "1FC"
+  ],
+  "confidence": "high",
+  "note": "옐로스타가 쿠파 몸속 첫 등장·신경 돌기 발견, 23대사 전부 일치"
+ },
+ "i_power_arm_01": {
+  "ds": [
+   "01C"
+  ],
+  "confidence": "high",
+  "note": "쿠파 팔 근육 전기공 장면, 일치. 3DX 디버그 문구(仮・未実装, クリアしたことにして…)는 DS에 없음"
+ },
+ "i_power_arm_02": {
+  "ds": [
+   "284",
+   "28C"
+  ],
+  "confidence": "high",
+  "note": "모양이 달라진 볼 경고 2대사 일치. DS284와 DS28C는 완전히 같은 내용(어느 쪽인지 구분 불가). 디버그 문구 1개 제외"
+ },
+ "i_power_hip_01": {
+  "ds": [
+   "077"
+  ],
+  "confidence": "high",
+  "note": "헬로글로인·부활의 보트·아드레리버 안내, 10대사 전부 일치"
+ },
+ "i_power_hip_01_before": {
+  "ds": [
+   "077"
+  ],
+  "confidence": "medium",
+  "note": "대사 1개(……………)뿐. 같은 장소 i_power_hip_01의 DS077#0과 동일 문구"
+ },
+ "i_power_hip_SA_adorena_01_L": {
+  "ds": [
+   "0FF",
+   "0FE"
+  ],
+  "confidence": "high",
+  "note": "아드레날린 미니게임. 설명은 DS0FF, 에너지 회복 3대사는 DS0FE(동일 내용 DS286도 있음). 디버그 문구 제외 전부 일치"
+ },
+ "i_power_leg_SA_push_01_L": {
+  "ds": [
+   "136"
+  ],
+  "confidence": "high",
+  "note": "다리 근육 밟기 미니게임, 디버그 문구 제외 전부 일치"
+ },
+ "i_power_lungs_SA_fire_01_L": {
+  "ds": [
+   "1AB"
+  ],
+  "confidence": "high",
+  "note": "터치펜으로 마리오 형제를 튕겨 쿠파를 띄우는 미니게임, 디버그 문구 제외 전부 일치"
+ },
+ "i_power_nose_01": {
+  "ds": [
+   "155"
+  ],
+  "confidence": "high",
+  "note": "코 꽃가루 미니게임, 전부 일치(i_power_nose_SA_peppansy_01_L과 같은 내용)"
+ },
+ "i_power_nose_SA_peppansy_01_L": {
+  "ds": [
+   "155"
+  ],
+  "confidence": "high",
+  "note": "코 꽃가루 미니게임, 디버그 문구 제외 전부 일치"
+ },
+ "i_power_stomach_02": {
+  "ds": [
+   "16E"
+  ],
+  "confidence": "high",
+  "note": "두 번째 스타 백신 획득, 4대사 전부 일치"
+ },
+ "i_power_stomach_15_SA_giganin_01_L": {
+  "ds": [
+   "034",
+   "16D"
+  ],
+  "confidence": "high",
+  "note": "당근 먹기 미니게임. 진행자(~です) 대사는 DS034, 옐로스타 대사는 DS16D. 디버그 문구 제외 일치"
+ },
+ "i_press_01": {
+  "ds": [
+   "13A"
+  ],
+  "confidence": "high",
+  "note": "키노클이 바디프레스·급소 3곳 설명, 24대사 전부 일치"
+ },
+ "i_pump_01": {
+  "ds": [
+   "005"
+  ],
+  "confidence": "high",
+  "note": "쿠파가 물을 마시면 벽이 떠오르는 장면·수영 설명, 일치(수영 버튼 설명은 3DX에서 변경)"
+ },
+ "i_pump_02": {
+  "ds": [
+   "006"
+  ],
+  "confidence": "high",
+  "note": "헬로글로빈의 파이프 기관 힌트가 DS006과 일치. これはテストです(디버그), HPとBPの回復も…(3DX 신규)는 DS에 없음"
+ },
+ "i_pump_04": {
+  "ds": [
+   "00A"
+  ],
+  "confidence": "medium",
+  "note": "펌프 스페이스 어택피스 획득 문구만(+디버그 문구). 같은 문구만 있는 DS방이 7개(00A·00E·00F·015·016·021·022)라 방 특정 불가, 대표로 DS00A. 문구 자체는 완전히 같음"
+ },
+ "i_pump_08": {
+  "ds": [
+   "009",
+   "00A"
+  ],
+  "confidence": "high",
+  "note": "헬로글로빈의 DNA 문 힌트 3대사가 DS009와 일치. 어택피스 문구는 DS009에 없어 동일 문구 대표 DS00A 추가. HPとBPの回復も…는 3DX 신규"
+ },
+ "i_pump_09": {
+  "ds": [
+   "00A"
+  ],
+  "confidence": "medium",
+  "note": "펌프 스페이스 어택피스 획득 문구만. 같은 문구만 있는 DS방 7개(00A·00E·00F·015·016·021·022) 중 특정 불가, 대표 DS00A"
+ },
+ "i_pump_11": {
+  "ds": [
+   "00A"
+  ],
+  "confidence": "medium",
+  "note": "펌프 스페이스 어택피스 획득 문구만. 같은 문구만 있는 DS방 7개(00A·00E·00F·015·016·021·022) 중 특정 불가, 대표 DS00A"
+ },
+ "i_pump_12": {
+  "ds": [
+   "00A"
+  ],
+  "confidence": "medium",
+  "note": "펌프 스페이스 어택피스 획득 문구만. 같은 문구만 있는 DS방 7개(00A·00E·00F·015·016·021·022) 중 특정 불가, 대표 DS00A"
+ },
+ "i_pump_13": {
+  "ds": [
+   "00C"
+  ],
+  "confidence": "high",
+  "note": "어택피스 문구 + 찌릿찌릿 림프 획득. 림프 문구가 있는 펌프 방은 DS00C뿐"
+ },
+ "i_pump_14": {
+  "ds": [
+   "00A"
+  ],
+  "confidence": "medium",
+  "note": "펌프 스페이스 어택피스 획득 문구만. 같은 문구만 있는 DS방 7개(00A·00E·00F·015·016·021·022) 중 특정 불가, 대표 DS00A"
+ },
+ "i_pump_15": {
+  "ds": [
+   "014"
+  ],
+  "confidence": "high",
+  "note": "어택피스 문구 + 헬로글로빈의 칼칼슘 힌트. 그 힌트가 있는 펌프 방은 DS014뿐"
+ },
+ "i_pump_16": {
+  "ds": [
+   "00D"
+  ],
+  "confidence": "high",
+  "note": "키노영감 구출·미니 마리오(해머로 작아지기) 장면, 대사 대부분 일치. 가이드/스타메뉴 안내·디버그(α版 終了 등)·HPとBP 문구는 3DX 신규"
+ },
+ "i_pump_17": {
+  "ds": [
+   "00A"
+  ],
+  "confidence": "medium",
+  "note": "펌프 스페이스 어택피스 획득 문구만. 같은 문구만 있는 DS방 7개(00A·00E·00F·015·016·021·022) 중 특정 불가, 대표 DS00A"
+ },
+ "i_pump_18": {
+  "ds": [
+   "00A"
+  ],
+  "confidence": "medium",
+  "note": "펌프 스페이스 어택피스 획득 문구만. 같은 문구만 있는 DS방 7개(00A·00E·00F·015·016·021·022) 중 특정 불가, 대표 DS00A"
+ },
+ "i_shinkei_01": {
+  "ds": [
+   "03A"
+  ],
+  "confidence": "high",
+  "note": "당근에 붙어 온 거대 애벌레 발견, 7대사 전부 일치"
+ },
+ "i_shinkei_03": {
+  "ds": [
+   "03C"
+  ],
+  "confidence": "high",
+  "note": "키노클과 재회·펀치 강화, 16대사 전부 일치"
+ },
+ "i_tainai_01": {
+  "ds": [
+   "01B",
+   "195",
+   "209",
+   "16C",
+   "08F",
+   "03E",
+   "1D9",
+   "19E",
+   "28B",
+   "1A5",
+   "067",
+   "089",
+   "15D",
+   "241",
+   "108",
+   "1FB",
+   "0B7",
+   "01A",
+   "0EA",
+   "033",
+   "0D1",
+   "0DA"
+  ],
+  "confidence": "medium",
+  "note": "3DX 몸속 지도 화면용 모음 방. 장소 이름 20개=DS01B, 옐로스타 대사는 DS 쿠파 쪽 이벤트 방들에 흩어져 있음(195·209 듣고 있어/복사/각오, 08F 뒤룩뒤룩, 089 금고 비밀번호, 1FB 지도 설명, 1D9 다크스타 삼킴 등). 상점 공지(お知らせ・品ぞろえ・ヘモグロジュース セール)·フィールドガイド·디버그 문구와 일부 짧은 대사(あらあら 苦労…, はいはい 聞こえてる…, 次に会う時は…)는 DS에서 못 찾음"
+ },
+ "i_tainai_SA_adorena_01_U": {
+  "ds": [
+   "0FF",
+   "286"
+  ],
+  "confidence": "high",
+  "note": "아드레날린 미니게임(i_power_hip_SA_adorena_01_L과 같은 내용). 설명은 DS0FF, 에너지 회복 3대사는 DS286(=DS0FE와 동일 내용)"
+ },
+ "i_test_ay_01": {
+  "ds": [
+   "01C",
+   "03E",
+   "28B",
+   "01A"
+  ],
+  "confidence": "high",
+  "note": "3DX 테스트 방(옐로스타 대사 5개 모음, 원래 i_power_arm_01·i_tainai_01의 대사). #0=DS01C#10, #1=DS03E#26, #2=DS28B#3, #3·#4=DS01A#6·7(같은 뜻 DS0B7#29·30도 있음). 5대사 전부 일치"
+ },
+ "i_test_dnh_01": {
+  "ds": [
+   "00A"
+  ],
+  "confidence": "medium",
+  "note": "3DX 테스트 방. 펌프 스페이스 어택피스 획득 문구 4개(같은 문구만 있는 DS방 7개 중 대표 DS00A) + テスト(디버그)"
+ },
+ "i_test_hk_01": {
+  "ds": [],
+  "confidence": "none",
+  "note": "3DX 테스트 방, テスト 한 줄뿐(디버그)"
+ },
+ "i_test_jk_01": {
+  "ds": [],
+  "confidence": "none",
+  "note": "3DX 테스트 방, テスト 한 줄뿐(디버그)"
+ },
+ "i_test_mo_01": {
+  "ds": [
+   "00A"
+  ],
+  "confidence": "medium",
+  "note": "3DX 테스트 방. 펌프 스페이스 어택피스 획득 문구 4개(대표 DS00A) + これはテストです·テスト(디버그)"
+ },
+ "i_test_mo_02": {
+  "ds": [],
+  "confidence": "none",
+  "note": "3DX 테스트 방, テスト 한 줄뿐(디버그)"
+ },
+ "i_test_mo_03": {
+  "ds": [],
+  "confidence": "none",
+  "note": "3DX 테스트 방, テスト 한 줄뿐(디버그)"
+ },
+ "i_test_mo_04": {
+  "ds": [
+   "00A"
+  ],
+  "confidence": "medium",
+  "note": "3DX 테스트 방. 펌프 스페이스 어택피스 획득 문구 4개(대표 DS00A) + テスト(디버그)"
+ },
+ "i_test_mo_05": {
+  "ds": [
+   "00A"
+  ],
+  "confidence": "medium",
+  "note": "3DX 테스트 방. 펌프 스페이스 어택피스 획득 문구 4개(대표 DS00A) + テスト(디버그). HPとBPの回復も…는 3DX 신규"
+ },
+ "minimap_o_mushiba_01": {
+  "ds": [
+   "044"
+  ],
+  "confidence": "high",
+  "note": "이아파 비치 미니맵에서 노인이 장소를 짚는 대사, 3대사 전부 일치"
+ },
+ "o_areanone_allmap_01_U": {
+  "ds": [
+   "283"
+  ],
+  "confidence": "high",
+  "note": "전체 지도 워프 안내(간사이 사투리 ↔ DS 경상도 사투리)·선택지·장소 이름. DS283#11~30과 17대사 전부 대응(DS283#0~10은 블캐츠 설명). DS의 귀여미 초원·드르렁 타워 항목은 이 방에 없음"
+ },
+ "o_areanone_allmap_bcat_U": {
+  "ds": [
+   "283"
+  ],
+  "confidence": "high",
+  "note": "블록 컬렉터의 블캐츠 설명(전체 지도 화면). DS283#0~10과 11대사 전부 일치(3DX#0·1=DS#9·10, 순서만 다름)"
+ },
+ "o_areanone_dstar_setumei_01_L": {
+  "ds": [
+   "095"
+  ],
+  "confidence": "high",
+  "note": "다크스타 전설 설명, 7대사 전부 일치(3DX#0=DS#6, 순서만 다름)"
+ },
+ "o_areanone_end_02_U": {
+  "ds": [
+   "29F"
+  ],
+  "confidence": "high",
+  "note": "엔딩 후 랭크 평가(간사이 사투리 ↔ DS 경상도 사투리), 5대사 전부 일치"
+ },
+ "o_areanone_end_03_L": {
+  "ds": [
+   "2A1"
+  ],
+  "confidence": "high",
+  "note": "랭크 이름 목록(마리오 형제 랭크와 쿠파 랭크가 번갈아 나옴). キノコ·コウラ·フラワー·スター·レインボー=버섯·등껍질·플라워·스타·레인보우 랭크, ブロンズ·シルバー·ゴールド·ラスボス=브론즈·실버·골드·파이널 보스 랭크. ブーメランランク는 DS 샤인 랭크 자리(3DX 이름 변경), マスターランク는 3DX 신규"
+ },
+ "o_areanone_k_iggy_01_U": {
+  "ds": [],
+  "confidence": "none",
+  "note": "3DX 신규 쿠파Jr. RPG(이기 기억상실 에피소드, k_o_mushiba_80과 같은 대사). DS에 없음"
+ },
+ "o_areanone_k_lastbattle_01_U": {
+  "ds": [],
+  "confidence": "none",
+  "note": "3DX 신규 쿠파Jr. RPG(쿠파Jr. 등장 대사). DS에 없음"
+ },
+ "o_areanone_lastboss_01_L": {
+  "ds": [
+   "223"
+  ],
+  "confidence": "high",
+  "note": "최종 결전 직전 옐로스타가 쿠파에게 '우리를 잊지 마' 부탁하는 장면. 3DX는 옐로스타 대사 9개만(쿠파 대사 없음), 전부 DS223과 일치"
+ },
+ "o_areanone_lastboss_03_L": {
+  "ds": [
+   "281"
+  ],
+  "confidence": "high",
+  "note": "최종 보스 격파 후 퇴장 대사(3DX 말끝 リュリュ ↔ DS 로로)와 옐로스타 대사, 15대사 전부 DS281#1~18과 일치"
+ },
+ "o_areanone_meter_01_U": {
+  "ds": [
+   "12A"
+  ],
+  "confidence": "low",
+  "note": "오키노 선생의 폐활량 검사 진행 대사 7개(o_town_36#0-2,4,7,12,13과 같은 문구). 이 대사들은 3DX 신규라 DS에 같은 문장 없음. 같은 장면·화자 말투 참고용으로 DS12A"
+ },
+ "o_areanone_suishou_01_L": {
+  "ds": [
+   "13E"
+  ],
+  "confidence": "medium",
+  "note": "대사 1개(ガハハハハ！). 오키노 수정구 점 장면의 아래 화면(o_town_34_suishou_01_U#30 '쿠파 바이러스' 직후와 같은 문구) → DS13E#8 크핫핫핫핫!"
+ },
+ "o_chika_01": {
+  "ds": [
+   "0D2"
+  ],
+  "confidence": "high",
+  "note": "지하 터널의 블록 컬렉터 상점블록(블캐츠·음이온 회복), 대사 대부분 일치. 'ここは… どこだ？'(DS0D2#14 여긴… 어디냐?)가 있는 상점 방은 DS0D2뿐. 3DX는 구입 선택지를 하나로 합침. 1月末版 終了(디버그)·HPとBPの回復も…(3DX 신규)는 DS에 없음"
+ },
+ "o_chika_04": {
+  "ds": [
+   "0D5"
+  ],
+  "confidence": "medium",
+  "note": "워프 캐릭터 1줄(DS '내 불렀나? 이동하고 싶나~?'가 3DX에서 '날고 싶나'로 바뀜). 같은 문구의 DS 단독 방 0D5/23B/29B 중 23B·29B는 o_peach_t_07·o_otapuku_08에 배정됨, 지하 방(DS0D2·0DA) 사이 번호인 DS0D5로 추정. 참조 문장은 동일"
+ },
+ "o_chika_09_before": {
+  "ds": [
+   "0DA"
+  ],
+  "confidence": "high",
+  "note": "쪼르뚜 형제의 비밀 터널(프로젝트 K) 공사·드릴 머신 전지 미니게임, 41대사 중 40개 일치(순서만 다름). ミニゲーム失敗/成功는 3DX 디버그, DS#22는 3DX에 없음"
+ },
+ "o_chika_12": {
+  "ds": [
+   "136",
+   "137"
+  ],
+  "confidence": "high",
+  "note": "지하 터널 굴착 중 쿠파 다리 근육 밟기 미니게임. 옐로스타 설명 7대사=DS136(i_power_leg_SA_push_01_L과 같은 내용), 드릴 머신 전지 경고 3대사=DS137. クリアしたことにして…(디버그)는 DS에 없음"
+ },
+ "o_chika_geraexpress_04": {
+  "ds": [
+   "157"
+  ],
+  "confidence": "high",
+  "note": "쿠파가 스타 백신을 떠올리고 성의 금고를 확인하러 가려는 장면, 7대사 전부 일치(순서만 다름)"
+ },
+ "o_ekubon_02": {
+  "ds": [
+   "046"
+  ],
+  "confidence": "high",
+  "note": "숲 출구·초원/이아파 비치 표지판 1줄 일치. 같은 문장이 DS28D#49에도 있으나 표지판 단독 방은 DS046(02_after↔28D와 짝)"
+ },
+ "o_ekubon_02_after": {
+  "ds": [
+   "28D"
+  ],
+  "confidence": "high",
+  "note": "블록 컬렉터의 숲 상점·블캐츠 부탁·블도그 동료 가입·보상 장비·표지판. 49대사 중 48개가 DS28D와 일치(순서만 다름), #4 仮・未実装은 3DX 디버그. DS#27·#34는 3DX에 없음"
+ },
+ "o_ekubon_03": {
+  "ds": [
+   "02E"
+  ],
+  "confidence": "medium",
+  "note": "볼조개 숲 어택피스 획득 공통 문구 3줄(문구 자체는 완전 일치). 같은 문구 DS방 9개 중 6개는 다른 3DX 방(21·22·25·36·38·39_2)에 배정됨. 남은 02E·031·04C를 DS 번호대(02E~033 / 046~04C) 안에서 3DX 방 순서가 유지되게 배정: 03→02E(09_1→02F 앞)"
+ },
+ "o_ekubon_04_1": {
+  "ds": [
+   "047"
+  ],
+  "confidence": "high",
+  "note": "'↑ 森の出口' 표지판 + 워프 캐릭터(DS '이동하고 싶나~?' → 3DX '날고 싶나') 2줄 일치. HPとBPの回復も…는 3DX 신규"
+ },
+ "o_ekubon_04_2": {
+  "ds": [
+   "178"
+  ],
+  "confidence": "high",
+  "note": "'→ 森の出口' 표지판 1줄. 같은 문장(→ 숲 출구)이 있는 DS방은 178뿐"
+ },
+ "o_ekubon_06": {
+  "ds": [
+   "053"
+  ],
+  "confidence": "high",
+  "note": "발사 다이어트 안내판 1줄(긴 문장) 일치"
+ },
+ "o_ekubon_07_1": {
+  "ds": [
+   "048"
+  ],
+  "confidence": "high",
+  "note": "철창에 갇힌 굼바 군단 구출·까르코비츠 생방송(3DX 말끝 るる ↔ DS 롱롱), 40대사 전부 일치(순서만 다름)"
+ },
+ "o_ekubon_07_2": {
+  "ds": [
+   "049"
+  ],
+  "confidence": "high",
+  "note": "굼바 군단에게 가는 다리 만들기, 4대사 일치. #1 仮・未実装은 3DX 디버그"
+ },
+ "o_ekubon_09_1": {
+  "ds": [
+   "02F"
+  ],
+  "confidence": "high",
+  "note": "쿠파 부하들의 매그넘킬러 대포·킬러 찾기 장면, 48대사 전부 일치(순서만 다름)"
+ },
+ "o_ekubon_09_2": {
+  "ds": [
+   "050"
+  ],
+  "confidence": "high",
+  "note": "거대화 직후 치피(옐로스타)의 설명과 쿠파 성 진격, 6대사 전부 일치"
+ },
+ "o_ekubon_09_koopajou_01": {
+  "ds": [
+   "067"
+  ],
+  "confidence": "high",
+  "note": "쿠파 성이 머리 위에 나타난 장면, 3대사 전부 DS067#0~2와 일치(DS067#3~5 옐로스타 대사는 이 방에 없음)"
+ },
+ "o_ekubon_12": {
+  "ds": [
+   "04C"
+  ],
+  "confidence": "medium",
+  "note": "볼조개 숲 어택피스 공통 문구 3줄(문구 완전 일치). 남은 02E·031·04C 중 번호 순서로 추정: 12→04C(07_2→049 다음)"
+ },
+ "o_ekubon_13": {
+  "ds": [
+   "031"
+  ],
+  "confidence": "medium",
+  "note": "볼조개 숲 어택피스 공통 문구 3줄(문구 완전 일치). 남은 02E·031·04C 중 번호 순서로 추정: 13→031(14→032·15→033과 연속)"
+ },
+ "o_ekubon_14": {
+  "ds": [
+   "032"
+  ],
+  "confidence": "high",
+  "note": "꽃충이 일족의 밭·쿠파 복통·걸으면서 펀치 습득·치피 부하 결정, 32대사 중 31개 일치(순서만 다름). #27 フィールドガイド 항목 추가 안내는 3DX 신규"
+ },
+ "o_ekubon_15": {
+  "ds": [
+   "033"
+  ],
+  "confidence": "high",
+  "note": "볼조개 숲 밭: 꽃충이의 기가 당근 마구 먹기 게임, 매그넘킬러 획득. 대사 거의 전부 일치(DS#29·32·36은 3DX에 없음, 3DX#22 미니게임 결과 문구는 3DX 전용)"
+ },
+ "o_ekubon_15_SA": {
+  "ds": [
+   "034"
+  ],
+  "confidence": "high",
+  "note": "기가 당근 먹기 연습(소화 성분·조각 설명). 13줄 모두 대응, 3DX#6(효소 효과 약화 설명)만 내용 변경"
+ },
+ "o_ekubon_15_SA_giganin_01_U": {
+  "ds": [
+   "034",
+   "16D"
+  ],
+  "confidence": "high",
+  "note": "15_SA의 꽃충이 설명 13줄(DS034) + 조각 터치 튜토리얼 17줄(DS16D)로 나뉨. 30줄 모두 일치"
+ },
+ "o_ekubon_16": {
+  "ds": [
+   "07F"
+  ],
+  "confidence": "high",
+  "note": "숲에 떨어진 쿠파를 부하가 구출, 피치 성으로 가겠다는 장면. 10줄 1:1 일치"
+ },
+ "o_ekubon_17": {
+  "ds": [
+   "080"
+  ],
+  "confidence": "high",
+  "note": "부하의 펀치 버튼 안내. 2줄 1:1 일치"
+ },
+ "o_ekubon_18": {
+  "ds": [
+   "081"
+  ],
+  "confidence": "high",
+  "note": "부하의 화염(나무 태우기) 버튼 안내. 2줄 1:1 일치"
+ },
+ "o_ekubon_19": {
+  "ds": [
+   "0A8"
+  ],
+  "confidence": "high",
+  "note": "변장한 까르코비츠가 쿠파에게 럭키버섯을 건네는 장면. 22줄 모두 일치"
+ },
+ "o_ekubon_21": {
+  "ds": [
+   "0AA"
+  ],
+  "confidence": "high",
+  "note": "볼조개 숲 어택피스 획득 공통 문구 3줄(DS 볼조개 숲 어택피스 방 9개가 모두 같은 문구). 방 번호는 19→0A8에 이어지는 번호 순서(21→0AA)로 특정"
+ },
+ "o_ekubon_22": {
+  "ds": [
+   "0AB"
+  ],
+  "confidence": "high",
+  "note": "볼조개 숲 어택피스 공통 문구. 번호 순서(22→0AB)로 특정"
+ },
+ "o_ekubon_25": {
+  "ds": [
+   "0AE"
+  ],
+  "confidence": "high",
+  "note": "볼조개 숲 어택피스 공통 문구. 번호 순서(25→0AE)로 특정; 3DX 20·23·24와 DS 0A9·0AC·0AD가 모두 없어 구조도 일치"
+ },
+ "o_ekubon_31": {
+  "ds": [],
+  "confidence": "none",
+  "note": "3DX 신규 세이브 블록 안내문(HP/BP 회복)만 있음. DS에 해당 문구 없음"
+ },
+ "o_ekubon_33": {
+  "ds": [],
+  "confidence": "none",
+  "note": "3DX 신규 세이브 블록 안내문(HP/BP 회복)만 있음. DS에 해당 문구 없음"
+ },
+ "o_ekubon_34": {
+  "ds": [
+   "188"
+  ],
+  "confidence": "high",
+  "note": "꽃충이 경비의 어택피스 회수 요구·경계 태세 해제. 대사 전부 일치, #8 세이브 블록 안내문만 3DX 신규"
+ },
+ "o_ekubon_36": {
+  "ds": [
+   "18B"
+  ],
+  "confidence": "high",
+  "note": "볼조개 숲 어택피스 공통 문구. 34(DS188)와 37(DS18E) 사이의 유일한 어택피스 방 18B로 특정"
+ },
+ "o_ekubon_37": {
+  "ds": [
+   "18E"
+  ],
+  "confidence": "high",
+  "note": "꿀꺽양말(ショクチュ)의 잡담. 6줄 1:1 일치"
+ },
+ "o_ekubon_38": {
+  "ds": [
+   "18F"
+  ],
+  "confidence": "high",
+  "note": "볼조개 숲 어택피스 공통 문구. 37(DS18E)과 39_1(DS190) 사이의 유일한 어택피스 방 18F로 특정"
+ },
+ "o_ekubon_39_1": {
+  "ds": [
+   "190"
+  ],
+  "confidence": "high",
+  "note": "꿀꺽양말들이 빨간 녀석을 두고 다투는 장면. 14줄 모두 일치(순서만 다름)"
+ },
+ "o_ekubon_39_2": {
+  "ds": [
+   "19C"
+  ],
+  "confidence": "medium",
+  "note": "볼조개 숲 어택피스 공통 문구(문구 자체는 완전 일치). 방 번호는 추정: 3x번대 방이 DS188~190에 대응하고 그 뒤 남은 3줄형 어택피스 방이 19C뿐"
+ },
+ "o_evselect_U": {
+  "ds": [],
+  "confidence": "none",
+  "note": "디버그용 이벤트 선택 UI 문구(자리 이동/수치 변경/결정). DS에 없음"
+ },
+ "o_gepu_01": {
+  "ds": [
+   "1FB"
+  ],
+  "confidence": "high",
+  "note": "동굴에서 깨어난 쿠파가 몸속 목소리와 대화. 3DX 18줄 = DS#0~17 1:1(DS#18~21 몸속 지도 안내는 3DX 이 방에 없음)"
+ },
+ "o_gepu_02": {
+  "ds": [
+   "209"
+  ],
+  "confidence": "high",
+  "note": "마리오/쿠파 조작 전환 안내, 빈티지호 안내문, 차크라 이동. 3DX 17줄 중 16줄 일치(#13 신규), DS의 조작 연습 대사 다수는 3DX에서 삭제"
+ },
+ "o_gepu_03": {
+  "ds": [
+   "20A"
+  ],
+  "confidence": "high",
+  "note": "화염이 안 나오는 쿠파와 몸속 목소리의 말다툼. 12줄 1:1 일치"
+ },
+ "o_gepu_04": {
+  "ds": [],
+  "confidence": "none",
+  "note": "3DX 신규 세이브 블록 안내문(HP/BP 회복)만 있음. DS에 해당 문구 없음"
+ },
+ "o_gepu_05_1": {
+  "ds": [
+   "15D",
+   "277"
+  ],
+  "confidence": "high",
+  "note": "동굴에서 까르코비츠·메타보스와 대면. 까르코비츠 대사는 DS15D, 메타보스 대사는 DS277에 나뉨. 39줄 모두 대응"
+ },
+ "o_gepu_05_after": {
+  "ds": [
+   "15D",
+   "277"
+  ],
+  "confidence": "high",
+  "note": "05_1의 재도전 버전(같은 장면 일부). DS15D·DS277과 일치, #16(레벨업해서 다시 오겠다)만 3DX 신규"
+ },
+ "o_gepu_08": {
+  "ds": [
+   "163"
+  ],
+  "confidence": "high",
+  "note": "하늘의 소리가 차크라를 가르쳐 주는 장면. 43줄 모두 일치(순서만 다름)"
+ },
+ "o_gepu_11": {
+  "ds": [
+   "20C"
+  ],
+  "confidence": "high",
+  "note": "표지판(고라파 레이크/이아파 비치, 지하 터널 공사 중). 2줄 1:1 일치"
+ },
+ "o_ibiki_01": {
+  "ds": [
+   "134"
+  ],
+  "confidence": "high",
+  "note": "드르렁 타워 입구 상점블록(블록 신사) 첫 안내·블캐츠·회복. '메카니컬한 플레이스' 대사로 DS134 특정. #9 세이브 안내문만 3DX 신규"
+ },
+ "o_ibiki_03": {
+  "ds": [
+   "0B7",
+   "144"
+  ],
+  "confidence": "high",
+  "note": "드르렁 타워: 드르렁·부끄부끄 라이트 머신(DS0B7) + 바디프레스 습득(DS144). #40 필드 가이드 안내와 #47 디버그 문구(=== 仮・未実装 ===)는 3DX 전용"
+ },
+ "o_koopa_01": {
+  "ds": [
+   "025"
+  ],
+  "confidence": "high",
+  "note": "쿠파 성(까르코비츠 홀) 로비 NPC들과 입장 장면. 46줄 1:1 일치"
+ },
+ "o_koopa_02": {
+  "ds": [
+   "026"
+  ],
+  "confidence": "high",
+  "note": "까르코비츠 홀 기념품 판매·NPC 잡담. 7줄 모두 일치(DS#3 열쇠고리 소리 줄은 3DX에 없음)"
+ },
+ "o_koopa_03": {
+  "ds": [
+   "027"
+  ],
+  "confidence": "high",
+  "note": "까르코비츠 홀 NPC 잡담 8줄 모두 일치(DS027 앞쪽의 쿠파 성 어택피스 문구 4줄은 이 방에 없음)"
+ },
+ "o_koopa_04": {
+  "ds": [
+   "028"
+  ],
+  "confidence": "high",
+  "note": "콘서트 홀 입구 안내판 일치. #1 세이브 안내문만 3DX 신규"
+ },
+ "o_koopa_07": {
+  "ds": [
+   "02B"
+  ],
+  "confidence": "high",
+  "note": "콘서트장 자리 소동과 스페셜 좌석 안내. 38줄 모두 일치"
+ },
+ "o_koopa_07_after": {
+  "ds": [
+   "185"
+  ],
+  "confidence": "high",
+  "note": "콘서트 종료 후 퇴장 안내·커플 대화. 10줄 1:1 일치"
+ },
+ "o_koopa_08": {
+  "ds": [
+   "02C"
+  ],
+  "confidence": "high",
+  "note": "지하 통로가 막힌 방, 공사 안내판, 차크라. 4줄 1:1 일치"
+ },
+ "o_koopa_09_2_gerashow_01_U": {
+  "ds": [
+   "02D"
+  ],
+  "confidence": "high",
+  "note": "까르코비츠 콘서트, 메타보스전, 축하 자리로 안내. 39줄 모두 일치(순서만 다름)"
+ },
+ "o_koopa_10_2": {
+  "ds": [
+   "093"
+  ],
+  "confidence": "high",
+  "note": "표지판(↑발코니 ↓지하) 일치"
+ },
+ "o_koopa_10_3": {
+  "ds": [],
+  "confidence": "none",
+  "note": "3DX 신규 세이브 블록 안내문(HP/BP 회복)만 있음. DS에 해당 문구 없음"
+ },
+ "o_koopa_12": {
+  "ds": [
+   "08E"
+  ],
+  "confidence": "high",
+  "note": "VIP룸 안내판 일치"
+ },
+ "o_koopa_13_1": {
+  "ds": [
+   "041"
+  ],
+  "confidence": "high",
+  "note": "우승 축하 식사(고칼로리 고지방 요리) 장면. 14줄 1:1 일치"
+ },
+ "o_koopa_13_2": {
+  "ds": [
+   "0D1"
+  ],
+  "confidence": "high",
+  "note": "살찐 쿠파가 바닥에 끼임, 피치공주 흡입 사실 판명, 몸속 질문 코너. 대사 거의 전부 일치(DS#62~67 질문 문구는 3DX에 없음)"
+ },
+ "o_koopa_13_sub": {
+  "ds": [
+   "05D"
+  ],
+  "confidence": "high",
+  "note": "피치공주를 빼앗겨 분노하는 쿠파. 4줄 1:1 일치"
+ },
+ "o_koopa_14": {
+  "ds": [
+   "070"
+  ],
+  "confidence": "high",
+  "note": "메타보스 측에 매그넘킬러 접근 보고, 숲으로 출동. 21줄 1:1 일치"
+ },
+ "o_koopa_16": {
+  "ds": [
+   "097"
+  ],
+  "confidence": "high",
+  "note": "금고실 안내판 일치"
+ },
+ "o_koopa_17": {
+  "ds": [
+   "098"
+  ],
+  "confidence": "high",
+  "note": "보물 보관 방 안내판 일치"
+ },
+ "o_koopa_18": {
+  "ds": [
+   "089"
+  ],
+  "confidence": "high",
+  "note": "금고 비밀번호를 잊은 쿠파, 치피에게 부탁, 부하들의 배신. 3DX 53줄 모두 일치(DS#28~30 마리오 측 대사는 3DX에 없음)"
+ },
+ "o_koopa_18_2_kinko_01": {
+  "ds": [
+   "16C"
+  ],
+  "confidence": "high",
+  "note": "금고에 갇혀 버려진 쿠파와 치피의 대화, 스타 백신. 12줄 모두 일치"
+ },
+ "o_koopa_18_geraexpress_01": {
+  "ds": [
+   "16B"
+  ],
+  "confidence": "high",
+  "note": "쿠파 성에 생긴 까르열차(비밀 터널 매수). 37줄 모두 일치"
+ },
+ "o_koopa_19": {
+  "ds": [
+   "08B"
+  ],
+  "confidence": "high",
+  "note": "까르코비츠 상 파괴, 부하들과 밀어내기 미니게임. 대사 모두 일치(#7 미니게임 결과 문구는 3DX 전용)"
+ },
+ "o_koopa_22": {
+  "ds": [
+   "08C"
+  ],
+  "confidence": "high",
+  "note": "비상구 입구 안내 표지판, 문장 일치"
+ },
+ "o_koopa_24": {
+  "ds": [
+   "094"
+  ],
+  "confidence": "high",
+  "note": "쿠파 성 폭탄병 군단 구출 + 비밀의 메모(■는 ●보다 하나 많다), 대사 대부분 일치. #8 仮・未実装 문구는 3DX 전용, DS094#0-3 어택피스 문구는 이 방에 없음"
+ },
+ "o_koopa_25": {
+  "ds": [
+   "099"
+  ],
+  "confidence": "high",
+  "note": "비밀의 메모 2장(■●▲ 순서 / ●는 한 번만) + 반응 대사, 전부 일치"
+ },
+ "o_koopa_27": {
+  "ds": [
+   "174"
+  ],
+  "confidence": "high",
+  "note": "비밀의 메모(■는 ▲보다 하나 적다) + 반응 대사, 전부 일치"
+ },
+ "o_koopa_28": {
+  "ds": [
+   "08F"
+  ],
+  "confidence": "high",
+  "note": "쿠파 성 남은 음식 장면. #0·#2·#3·#4 일치(순서 다름), #1은 DS#3(또 뒤룩뒤룩 살찌고 싶어!?)에서 변경. DS#5-9는 이 방에 없음(#9는 i_tainai_01로 옮겨짐)"
+ },
+ "o_koopa_30": {
+  "ds": [],
+  "confidence": "none",
+  "note": "3DX 공통 HP/BP 회복 안내문뿐, DS에 대응 문장 없음"
+ },
+ "o_koopa_32": {
+  "ds": [
+   "19B"
+  ],
+  "confidence": "high",
+  "note": "특별 냉동실(DS: 특별 보관실) 출입 금지 표지판"
+ },
+ "o_koopa_34": {
+  "ds": [
+   "175"
+  ],
+  "confidence": "high",
+  "note": "빠져보 시소 다이어트 표지판, 문장 일치"
+ },
+ "o_koopa_36": {
+  "ds": [],
+  "confidence": "none",
+  "note": "3DX 공통 HP/BP 회복 안내문뿐, DS에 대응 문장 없음"
+ },
+ "o_koopa_37": {
+  "ds": [
+   "23C"
+  ],
+  "confidence": "high",
+  "note": "쿠파 성 블록 무슈 상점('베리 핫한 곳' 대사로 DS23C 특정). 상점 메뉴 선택지는 3DX에서 '買い物をする'로 통합, #7 HP/BP 안내는 3DX 신규"
+ },
+ "o_koopa_38": {
+  "ds": [
+   "28E"
+  ],
+  "confidence": "high",
+  "note": "특별 보관실 버튼 퍼즐 방, 대사 전부 일치(순서 다름)"
+ },
+ "o_koopa_39": {
+  "ds": [
+   "28F"
+  ],
+  "confidence": "high",
+  "note": "특별 보관실 안 외계인(과거 침략자) 장면 + 어택피스 10개, 대사 전부 일치"
+ },
+ "o_koopa_end_01": {
+  "ds": [
+   "23E"
+  ],
+  "confidence": "high",
+  "note": "엔딩 쿠파 성: 부하 복귀 + 치피 방문 + 피치 성 배달, 대사 전부 일치(순서 다름)"
+ },
+ "o_koopa_r_20": {
+  "ds": [],
+  "confidence": "none",
+  "note": "아이템 이름/'가득 찼다' 안내 목록(3DX 공통 보상 처리, o_peach_2f_16·o_zutsuda_12와 동일 내용). DS의 '× 5' 보상 목록(078/115/1CC)과는 아이템 구성이 달라 대응 없음. 아이템명은 DS 아이템 표 참조"
+ },
+ "o_koopa_r_22": {
+  "ds": [
+   "07A"
+  ],
+  "confidence": "high",
+  "note": "지상/쿠파 성 지름길 방향 표지판, 문장 일치"
+ },
+ "o_koopa_r_24": {
+  "ds": [
+   "06D"
+  ],
+  "confidence": "high",
+  "note": "헤이호 군단 구출 + 셰이프 러닝 표지판, 대사 전부 일치(순서 다름). #12 仮・未実装 문구는 3DX 전용"
+ },
+ "o_koopa_r_27": {
+  "ds": [
+   "07C"
+  ],
+  "confidence": "high",
+  "note": "쿠파 '또 무슨 수작을…' 2줄 일치, #2 HP/BP 안내는 3DX 신규"
+ },
+ "o_koopa_r_28": {
+  "ds": [],
+  "confidence": "none",
+  "note": "3DX 공통 HP/BP 회복 안내문뿐, DS에 대응 문장 없음"
+ },
+ "o_koopa_r_31": {
+  "ds": [
+   "06E"
+  ],
+  "confidence": "high",
+  "note": "쿠파 성 앞 아이언 볼 대결, 대사 대부분 일치. DS#3·#11-12(아이언 볼 리턴)는 이 방에 없음"
+ },
+ "o_koopa_r_33": {
+  "ds": [
+   "145"
+  ],
+  "confidence": "high",
+  "note": "블록 무슈 상점 + 쪼르뚜 형제 공사 안내 표지판, 대사 일치. #6 HP/BP 안내는 3DX 신규"
+ },
+ "o_mushiba_01": {
+  "ds": [
+   "010"
+  ],
+  "confidence": "high",
+  "note": "이아파 비치 입구: 환영 문구·알림·'낭떠러지는 북쪽'·토관 이동 안내 일치, #1 HP/BP 안내는 3DX 신규"
+ },
+ "o_mushiba_02": {
+  "ds": [
+   "011"
+  ],
+  "confidence": "high",
+  "note": "뗏목 다이어트 표지판, 문장 일치"
+ },
+ "o_mushiba_04": {
+  "ds": [
+   "013"
+  ],
+  "confidence": "medium",
+  "note": "퍼즐피스 획득 1줄. 같은 문구의 DS 방이 013/020/023/036 네 개(3DX도 o_mushiba_04/06/10/13 = 라벨 pazzule_01~04)라 어느 맵인지 특정 불가, 번호순 배정. 참조 문장은 동일"
+ },
+ "o_mushiba_05_after": {
+  "ds": [
+   "03D"
+  ],
+  "confidence": "high",
+  "note": "섬 구출 후 블록 무슈가 배큐엄블록 전달, 대사 전부 일치"
+ },
+ "o_mushiba_05_before": {
+  "ds": [
+   "03E"
+  ],
+  "confidence": "high",
+  "note": "떠 있는 섬의 블록 무슈 구조 요청, 대사 전부 일치(순서 다름). #10 仮・未実装 문구는 3DX 전용"
+ },
+ "o_mushiba_06": {
+  "ds": [
+   "020"
+  ],
+  "confidence": "medium",
+  "note": "퍼즐피스 획득 1줄. 같은 문구의 DS 방 013/020/023/036 중 번호순 배정, 맵 특정 불가. 참조 문장은 동일"
+ },
+ "o_mushiba_10": {
+  "ds": [
+   "023"
+  ],
+  "confidence": "medium",
+  "note": "퍼즐피스 획득 1줄. 같은 문구의 DS 방 013/020/023/036 중 번호순 배정, 맵 특정 불가. 참조 문장은 동일"
+ },
+ "o_mushiba_11": {
+  "ds": [
+   "01A",
+   "28B"
+  ],
+  "confidence": "high",
+  "note": "DS 두 방으로 나뉨: 물 마시고 불 뿜기·치피 이름(DS01A) + 마린파이프상 석상 장면(DS28B). 대사 전부 일치"
+ },
+ "o_mushiba_12": {
+  "ds": [
+   "035"
+  ],
+  "confidence": "high",
+  "note": "블록 무슈의 미아 블도그 장면, 대사 전부 일치"
+ },
+ "o_mushiba_13": {
+  "ds": [
+   "036"
+  ],
+  "confidence": "medium",
+  "note": "퍼즐피스 획득 1줄. 같은 문구의 DS 방 013/020/023/036 중 번호순 배정, 맵 특정 불가. 참조 문장은 동일"
+ },
+ "o_mushiba_14": {
+  "ds": [
+   "037"
+  ],
+  "confidence": "high",
+  "note": "볼조개 숲 입구 표지판 + 알림('낭떠러지는 남쪽'), 문장 일치. #3 HP/BP 안내는 3DX 신규"
+ },
+ "o_mushiba_16": {
+  "ds": [
+   "154"
+  ],
+  "confidence": "high",
+  "note": "알림('낭떠러지는 서쪽', 세 번째 백신 재촉), 문장 일치. #1 HP/BP 안내는 3DX 신규"
+ },
+ "o_mushiba_23": {
+  "ds": [],
+  "confidence": "none",
+  "note": "3DX 공통 HP/BP 회복 안내문뿐, DS에 대응 문장 없음"
+ },
+ "o_mushiba_24": {
+  "ds": [
+   "170"
+  ],
+  "confidence": "high",
+  "note": "현인 차크란(사투리)에게서 세 번째 스타 백신 획득 + 버섯 타운 발사, 대사 전부 일치. #36 仮・未実装 문구는 3DX 전용"
+ },
+ "o_mushiba_25": {
+  "ds": [
+   "287"
+  ],
+  "confidence": "high",
+  "note": "러즐의 퍼즐 집, 대사 대부분 일치. 콩 보상 문구가 '全てのマメを~個ずつ'로 바뀜, #64-65(バリアウェア 보상)는 3DX 신규"
+ },
+ "o_otapuku_01": {
+  "ds": [],
+  "confidence": "none",
+  "note": "3DX 공통 HP/BP 회복 안내문뿐, DS에 대응 문장 없음"
+ },
+ "o_otapuku_02": {
+  "ds": [
+   "05A"
+  ],
+  "confidence": "high",
+  "note": "고라파 레이크/쿠파 성 방향 표지판 + 알림(백신 재촉, 이아파 비치는 남쪽), 문장 일치"
+ },
+ "o_otapuku_04": {
+  "ds": [
+   "055"
+  ],
+  "confidence": "high",
+  "note": "슬라이딩 다이어트 표지판, 문장 일치"
+ },
+ "o_otapuku_08": {
+  "ds": [
+   "29B"
+  ],
+  "confidence": "medium",
+  "note": "토관 이동 안내 1줄('내 불렀나? 이동하고 싶나~?'). 같은 문구의 DS 단독 방이 0D5/23B/29B 세 개(3DX 단독 방은 o_chika_04/o_otapuku_08/o_peach_t_07)라 맵 특정 불가. 참조 문장은 동일"
+ },
+ "o_peach_1f_01": {
+  "ds": [
+   "1D7"
+  ],
+  "confidence": "high",
+  "note": "피치 성 1층 블록 무슈 상점. 인사 대사 3개(배큐엄블록/왓 두 유 원트/하우 아 유)가 DS1D7에만 모두 있음. #6 '１月末版 終了' 디버그 문구·#9 HP/BP 안내는 3DX 전용"
+ },
+ "o_peach_1f_03": {
+  "ds": [
+   "1D9",
+   "20E",
+   "20F"
+  ],
+  "confidence": "high",
+  "note": "피치 성 알현실 대장면이 DS 세 방으로 나뉨: 다크스타 부활·메타보스 파워업(DS20E), 다크쿠파 탄생·파워 부족(DS20F), 다크스타를 삼킨 쿠파(DS1D9). 대사 대부분 일치, #0·#1·#55 등 일부는 3DX 신규"
+ },
+ "o_peach_1f_04": {
+  "ds": [],
+  "confidence": "none",
+  "note": "3DX 공통 HP/BP 회복 안내문뿐, DS에 대응 문장 없음"
+ },
+ "o_peach_1f_08": {
+  "ds": [
+   "298"
+  ],
+  "confidence": "high",
+  "note": "다크쿠파가 까르코비츠를 흡수한 뒤 쿠파·치피 대화, 대사 전부 일치"
+ },
+ "o_peach_1f_09": {
+  "ds": [
+   "241"
+  ],
+  "confidence": "high",
+  "note": "쿠파 vs 까르코비츠 전투 전후 + 치피의 불길한 예감, 대사 전부 일치(순서 다름)"
+ },
+ "o_peach_2f_01": {
+  "ds": [
+   "1BF"
+  ],
+  "confidence": "high",
+  "note": "쿠파 '녀석을 쫓아가야겠다' 1줄 일치"
+ },
+ "o_peach_2f_04": {
+  "ds": [
+   "1A3"
+  ],
+  "confidence": "high",
+  "note": "마귀 군단 구출 + 까르코비츠 도발, 대사 전부 일치(순서 다름). #11 仮・未実装 문구는 3DX 전용"
+ },
+ "o_peach_2f_09": {
+  "ds": [
+   "1C5"
+  ],
+  "confidence": "high",
+  "note": "빨간색 열쇠 획득 1줄 일치"
+ },
+ "o_peach_2f_14": {
+  "ds": [],
+  "confidence": "none",
+  "note": "3DX 공통 HP/BP 회복 안내문뿐, DS에 대응 문장 없음"
+ },
+ "o_peach_2f_16": {
+  "ds": [],
+  "confidence": "none",
+  "note": "아이템 이름/'가득 찼다' 안내 목록(o_koopa_r_20과 동일한 3DX 공통 보상 처리), DS에 같은 내용 없음"
+ },
+ "o_peach_2f_19": {
+  "ds": [
+   "1CF"
+  ],
+  "confidence": "high",
+  "note": "초록색 열쇠 획득 1줄 일치"
+ },
+ "o_peach_2f_25": {
+  "ds": [
+   "1D5"
+  ],
+  "confidence": "high",
+  "note": "파란색 열쇠 획득 1줄 일치"
+ },
+ "o_peach_3f_01": {
+  "ds": [],
+  "confidence": "none",
+  "note": "3DX 공통 HP/BP 회복 안내문뿐, DS에 대응 문장 없음"
+ },
+ "o_peach_3f_12": {
+  "ds": [],
+  "confidence": "none",
+  "note": "3DX 공통 HP/BP 회복 안내문뿐, DS에 대응 문장 없음"
+ },
+ "o_peach_3f_13": {
+  "ds": [],
+  "confidence": "none",
+  "note": "3DX 디버그/미구현 안내문(=== 仮・未実装 === 캐터펄트)"
+ },
+ "o_peach_3f_15": {
+  "ds": [
+   "1A5"
+  ],
+  "confidence": "high",
+  "note": "까르코비츠가 키운 거대뻐끔 등장 장면, 대사 전부 일치(순서 다름). DS#7 치피 대사는 이 방에 없음"
+ },
+ "o_peach_3f_15_SA_fire_packun_01_U": {
+  "ds": [],
+  "confidence": "none",
+  "note": "3DX 디버그 문구('クリアしたことにして…' 스킵 확인)"
+ },
+ "o_peach_g_02": {
+  "ds": [
+   "1AF"
+  ],
+  "confidence": "medium",
+  "note": "피치 성 어택피스 획득 3줄. 같은 문구의 DS 방이 1AF/1E3/1E6 세 개(3DX는 o_peach_g_02/08/09)라 맵 특정 불가, 번호순 배정. 참조 문장은 동일"
+ },
+ "o_peach_g_04": {
+  "ds": [
+   "1AA"
+  ],
+  "confidence": "high",
+  "note": "엉금엉금 형님들의 코인 요구 + 어택피스 7개, 대사 전부 일치(순서 다름)"
+ },
+ "o_peach_g_06": {
+  "ds": [
+   "195"
+  ],
+  "confidence": "high",
+  "note": "피치 성 앞: 가짜 쿠파 설명, 뒷 정원, 까르코비츠의 슈퍼 피치 로봇, 대사 전부 일치(순서 다름)"
+ },
+ "o_peach_g_08": {
+  "ds": [
+   "1E3"
+  ],
+  "confidence": "medium",
+  "note": "피치 성 어택피스 획득 3줄. 같은 문구의 DS 방 1AF/1E3/1E6 중 번호순 배정, 맵 특정 불가. 참조 문장은 동일"
+ },
+ "o_peach_g_09": {
+  "ds": [
+   "1E6"
+  ],
+  "confidence": "medium",
+  "note": "피치 성 어택피스 획득 3줄. 같은 문구의 DS 방 1AF/1E3/1E6 중 번호순 배정, 맵 특정 불가. 참조 문장은 동일"
+ },
+ "o_peach_g_10": {
+  "ds": [
+   "1EB"
+  ],
+  "confidence": "high",
+  "note": "피치 성 블록 무슈 상점('그곳은 설마 피치 성?', 케세라세라) + 토관 이동 안내, 대사 일치"
+ },
+ "o_peach_g_15": {
+  "ds": [],
+  "confidence": "none",
+  "note": "3DX 공통 HP/BP 회복 안내문뿐, DS에 대응 문장 없음"
+ },
+ "o_peach_g_16": {
+  "ds": [],
+  "confidence": "none",
+  "note": "3DX 공통 HP/BP 회복 안내문뿐, DS에 대응 문장 없음"
+ },
+ "o_peach_g_17": {
+  "ds": [
+   "19D"
+  ],
+  "confidence": "high",
+  "note": "소화용 물 안내 표지판, 문장 일치"
+ },
+ "o_peach_g_18_1": {
+  "ds": [
+   "19E"
+  ],
+  "confidence": "high",
+  "note": "허리 다친 쿠파 회복 + 가시 볼 기술 습득 + 피치 성 도착 확인, 대사 대부분 일치. #11 필드 가이드 안내는 3DX 신규, DS#0·#1·#3·#5 치피 대사는 이 방에 없음"
+ },
+ "o_peach_g_18_2": {
+  "ds": [
+   "1A7"
+  ],
+  "confidence": "high",
+  "note": "잡동사니 더미의 까르코비츠 부하와 슈퍼 울트라 메가 그레이트 울트라 슈퍼 로봇, 대사 전부 일치"
+ },
+ "o_peach_op_01": {
+  "ds": [
+   "21A"
+  ],
+  "confidence": "high",
+  "note": "오프닝 키노피오의 회의 재촉, 3DX 4줄 모두 일치. DS#3 후반~#11 액션 아이콘 튜토리얼은 3DX에서 삭제"
+ },
+ "o_peach_op_02": {
+  "ds": [
+   "216"
+  ],
+  "confidence": "high",
+  "note": "오프닝 피치 성 키노피오들(버튼 안내·아픈 키노피오), 대사 일치. #0 후반('おるすばん')은 DS#5에서 약간 변경"
+ },
+ "o_peach_op_03": {
+  "ds": [
+   "217"
+  ],
+  "confidence": "high",
+  "note": "저장블록 안내 키노피오들, 대사 일치(#3 ナースさん ↔ DS '여자분'). #4 HP/BP 안내는 3DX 신규"
+ },
+ "o_peach_op_04": {
+  "ds": [
+   "218"
+  ],
+  "confidence": "high",
+  "note": "오프닝 뚱뚱데굴병 긴급회의 + 쿠파 난입, 69줄 전부 일치(순서 다름)"
+ },
+ "o_peach_t_02": {
+  "ds": [
+   "237"
+  ],
+  "confidence": "high",
+  "note": "쿠파가 다크쿠파를 쫓는 장면(능력 복사·암흑 파워 내놔라), 3줄 모두 일치(#0↔DS#1, #1↔DS#0 순서만 다름)"
+ },
+ "o_peach_t_04": {
+  "ds": [
+   "239"
+  ],
+  "confidence": "high",
+  "note": "추격 계속(숨바꼭질도 마지막이다), #1-3이 DS239#0-2와 일치. #0 HP·BP 회복 안내는 3DX 추가 문구"
+ },
+ "o_peach_t_06": {
+  "ds": [
+   "22C"
+  ],
+  "confidence": "high",
+  "note": "최종 결전 무대: 다크쿠파 각성·도발·패배 대사(DS22C#0,1,7,15,17). 3DX는 #5 '잘 보거라'를 따로 분리"
+ },
+ "o_peach_t_06_lastboss_01_U": {
+  "ds": [
+   "223"
+  ],
+  "confidence": "high",
+  "note": "최종전 도중 쿠파↔치피 대화(바람만 일으키냐, 마리오 목소리가…), 8줄 모두 DS223에 있음"
+ },
+ "o_peach_t_06_lastboss_02_L": {
+  "ds": [
+   "22C"
+  ],
+  "confidence": "high",
+  "note": "다크쿠파 격파 후 쿠파 대사(어차피 가짜, 이 나라는 이 몸의 것), DS22C#8-19와 8줄 일치"
+ },
+ "o_peach_t_06_lastboss_03_U": {
+  "ds": [
+   "281"
+  ],
+  "confidence": "high",
+  "note": "다크스타 소멸 후 쿠파 복통·마리오 일행 탈출·치피 정체 발각, DS281#2-45에 12줄 모두 있음"
+ },
+ "o_peach_t_06_lastboss_04_L": {
+  "ds": [
+   "281",
+   "282"
+  ],
+  "confidence": "high",
+  "note": "쿠파 몸 밖 탈출 후 피치공주·키노영감·스타로우 대사. DS281#24-43 + DS282 전체(마리오…!!!, 옐로스타!)"
+ },
+ "o_peach_t_07": {
+  "ds": [
+   "23B"
+  ],
+  "confidence": "medium",
+  "note": "이동(워프) 캐릭터 1줄. DS '이동하고 싶나~?'가 3DX에서 '날고 싶나'로 바뀜. 같은 대사가 DS 9개 방에 있어 피치 성 꼭대기 구역(DS237/239 인접)으로 추정, 대안 DS29B"
+ },
+ "o_peach_t_3f_15_SA_fire_packun_01_U": {
+  "ds": [],
+  "confidence": "none",
+  "note": "3DX 신규: 미니게임을 클리어 처리하고 진행할지 묻는 스킵 문구"
+ },
+ "o_peach_t_SA_fire_dkoopa_01_U": {
+  "ds": [],
+  "confidence": "none",
+  "note": "3DX 신규: 미니게임을 클리어 처리하고 진행할지 묻는 스킵 문구"
+ },
+ "o_test_ay_01": {
+  "ds": [],
+  "confidence": "none",
+  "note": "디버그 방('テスト')"
+ },
+ "o_test_dnh_01": {
+  "ds": [],
+  "confidence": "none",
+  "note": "테스트 방: HP·BP 회복 안내(3DX 추가 문구) 1줄뿐"
+ },
+ "o_test_fh_01": {
+  "ds": [],
+  "confidence": "none",
+  "note": "디버그 방(점멸 테스트·Y버튼으로 닫기)"
+ },
+ "o_test_fh_02": {
+  "ds": [],
+  "confidence": "none",
+  "note": "디버그 방(점멸 테스트·Y버튼으로 닫기)"
+ },
+ "o_test_fo_01": {
+  "ds": [
+   "170"
+  ],
+  "confidence": "medium",
+  "note": "테스트 방이지만 차크란(o_mushiba_24) 대사 복사본 2줄이 DS170#35(날려 보내 줄까), DS170#18(땅이 흔들리는 어택)과 일치"
+ },
+ "o_test_hk_01": {
+  "ds": [],
+  "confidence": "none",
+  "note": "디버그 방('テスト')"
+ },
+ "o_test_ho_01": {
+  "ds": [],
+  "confidence": "none",
+  "note": "디버그 방('けんしゅう1/2')"
+ },
+ "o_test_jk_01": {
+  "ds": [],
+  "confidence": "none",
+  "note": "디버그 방('テスト')"
+ },
+ "o_test_mk_01": {
+  "ds": [],
+  "confidence": "none",
+  "note": "디버그 방('テストテキスト')"
+ },
+ "o_test_mo_01": {
+  "ds": [],
+  "confidence": "none",
+  "note": "디버그 방('テスト')"
+ },
+ "o_test_mo_02": {
+  "ds": [],
+  "confidence": "none",
+  "note": "디버그 방('テスト')"
+ },
+ "o_test_mo_03": {
+  "ds": [],
+  "confidence": "none",
+  "note": "디버그 방('テスト')"
+ },
+ "o_test_mo_04": {
+  "ds": [],
+  "confidence": "none",
+  "note": "테스트 방: 아이템 획득/가득 참 메시지(3DX 공통 목록, o_zutsuda_12 등과 같음) + 워프 대사. 참고: 워프 대사(#2)는 DS170#35, DS 아이템 메시지 방은 DS078/115/1CC"
+ },
+ "o_test_mo_05": {
+  "ds": [],
+  "confidence": "none",
+  "note": "디버그 방('テスト' + HP·BP 회복 안내)"
+ },
+ "o_town_01_after": {
+  "ds": [
+   "0F6"
+  ],
+  "confidence": "high",
+  "note": "지하 방어 장치 방(이후): '여기서는 다른 곳으로 갈 수 없어' 1줄 일치, DS0F5(이전)와 짝"
+ },
+ "o_town_01_before": {
+  "ds": [
+   "0F5"
+  ],
+  "confidence": "high",
+  "note": "쿠파 몸에서 나온 쿠파가 지하 방어 장치에 기절, 4줄 모두 일치"
+ },
+ "o_town_03": {
+  "ds": [
+   "0EA"
+  ],
+  "confidence": "high",
+  "note": "진입 금지 경보·기절한 쿠파 발견, 5줄 일치(DS#3-5 둘러보기 안내는 3DX 이 방에 없음)"
+ },
+ "o_town_04": {
+  "ds": [
+   "120"
+  ],
+  "confidence": "high",
+  "note": "버섯 타운 지하 도착, 스타로우 대사 8줄 일치(#1 HP·BP 회복 안내는 3DX 추가)"
+ },
+ "o_town_06": {
+  "ds": [
+   "121"
+  ],
+  "confidence": "high",
+  "note": "지하 보안 장치 점검 온 키노피오(다리·레버), 4줄 일치"
+ },
+ "o_town_08": {
+  "ds": [
+   "123"
+  ],
+  "confidence": "high",
+  "note": "다크스타 보관소 경비 키노피오·까르코비츠 부하 등장, 7줄 일치(#7 회복 안내는 3DX 추가)"
+ },
+ "o_town_09": {
+  "ds": [
+   "0EB"
+  ],
+  "confidence": "high",
+  "note": "까르코비츠가 다크스타 탈취, 13줄 모두 일치(るるる↔롱롱)"
+ },
+ "o_town_14": {
+  "ds": [
+   "0EC"
+  ],
+  "confidence": "high",
+  "note": "공사 중 버섯 타운 안내 키노피오·콩 힌트. #10 仮・未実装, #12 필드가이드, 콩 힌트 중 미니맵 문장은 3DX 추가"
+ },
+ "o_town_15": {
+  "ds": [
+   "0ED"
+  ],
+  "confidence": "high",
+  "note": "피치 성 앞 방어벽 발견·까르코비츠 도발·미라클 백신 사용, 8줄 일치"
+ },
+ "o_town_17": {
+  "ds": [
+   "0EF"
+  ],
+  "confidence": "high",
+  "note": "버섯 타운 입구 경비 키노피오들, 6줄 일치"
+ },
+ "o_town_20": {
+  "ds": [
+   "0CC"
+  ],
+  "confidence": "high",
+  "note": "버섯 타운 광장 주민(뚱뚱데굴병·쇼핑몰 개장), 대부분 일치"
+ },
+ "o_town_20_op_01_U": {
+  "ds": [
+   "21D"
+  ],
+  "confidence": "high",
+  "note": "지역명 타이틀 '버섯 타운' 1줄(DS에서 이 문구만 있는 방은 DS21D뿐)"
+ },
+ "o_town_23": {
+  "ds": [
+   "0CF"
+  ],
+  "confidence": "high",
+  "note": "엉금엉금의 등껍질블록 이벤트·버섯 타운 어택피스 10개, 44줄 대응(#33 필드가이드는 3DX 추가)"
+ },
+ "o_town_24": {
+  "ds": [
+   "09B"
+  ],
+  "confidence": "high",
+  "note": "찜질방처럼 집을 덥히는 키노피오(뚱뚱데굴병 예방), 4줄 일치"
+ },
+ "o_town_25_after": {
+  "ds": [
+   "09D"
+  ],
+  "confidence": "high",
+  "note": "벽이 무너진 집 가족(이후), 5줄 일치"
+ },
+ "o_town_25_before": {
+  "ds": [
+   "09C"
+  ],
+  "confidence": "high",
+  "note": "아빠가 뚱뚱데굴병으로 부풀어 오르는 장면, 13줄 일치"
+ },
+ "o_town_26": {
+  "ds": [
+   "09E"
+  ],
+  "confidence": "high",
+  "note": "'공부할 필요가 없어졌네' 1줄 일치"
+ },
+ "o_town_28": {
+  "ds": [
+   "0A1"
+  ],
+  "confidence": "high",
+  "note": "건강·고급 숍 랭크 소문 2줄 일치(3DX는 랭크업 방법 문장 추가)"
+ },
+ "o_town_29": {
+  "ds": [
+   "0A0"
+  ],
+  "confidence": "high",
+  "note": "뚱뚱데굴병 확산 걱정/완치 인사 2줄 일치"
+ },
+ "o_town_30": {
+  "ds": [
+   "0A2"
+  ],
+  "confidence": "high",
+  "note": "피치공주 사진을 보는 키노피오 1줄 일치"
+ },
+ "o_town_31": {
+  "ds": [
+   "128"
+  ],
+  "confidence": "high",
+  "note": "쇼핑몰 안내·티 카페·버섯 볼 찾기 이벤트. 보상 목록은 3DX에서 일부 변경(실드배지·디펜스콩 등 추가, 재도전시계 없음)"
+ },
+ "o_town_32": {
+  "ds": [
+   "129"
+  ],
+  "confidence": "high",
+  "note": "쇼핑몰 2구역(배지 가게·병원 계단·숨바꼭질 아이·토관), 대부분 일치(#21 회복 안내는 3DX 추가)"
+ },
+ "o_town_33": {
+  "ds": [
+   "0F2"
+  ],
+  "confidence": "high",
+  "note": "오키노 병원: 오키오키 소동·풍선 마리오·스페셜 어택 수령·기억 잃은 모험가 오빠, 대부분 일치"
+ },
+ "o_town_34": {
+  "ds": [
+   "0F4"
+  ],
+  "confidence": "high",
+  "note": "미라클 오키노 백신 완성·현인 위치 안내, 27줄 일치. #8 '1월말판 종료'는 3DX 디버그"
+ },
+ "o_town_34_suishou_01_U": {
+  "ds": [
+   "13E"
+  ],
+  "confidence": "high",
+  "note": "오키노의 수정구 점(쿠파 바이러스·3개의 스타 백신·첫 번째 현인 애벌레), 62줄 대응"
+ },
+ "o_town_35": {
+  "ds": [
+   "0F3"
+  ],
+  "confidence": "high",
+  "note": "병원 대기실 뚱뚱데굴병 환자들(루이지 팬 등), 9줄 모두 일치"
+ },
+ "o_town_36": {
+  "ds": [
+   "12A"
+  ],
+  "confidence": "high",
+  "note": "오키노의 폐활량 검사 머신, DS12A 7줄 일치. 3DX는 호흡 측정 진행 대사(#0-2,4,7,12,13)가 추가됨"
+ },
+ "o_town_37": {
+  "ds": [
+   "12B"
+  ],
+  "confidence": "high",
+  "note": "배지 가게 점원(배지 교환 설명), 6줄 일치"
+ },
+ "o_town_38": {
+  "ds": [
+   "12C"
+  ],
+  "confidence": "high",
+  "note": "아이템 숍(스크래치 카드 꽝·숨바꼭질 아이), 3줄 일치"
+ },
+ "o_town_39": {
+  "ds": [
+   "12D"
+  ],
+  "confidence": "high",
+  "note": "누구나 이용하는 장비 가게 인사 1줄 일치"
+ },
+ "o_town_40": {
+  "ds": [
+   "0A3"
+  ],
+  "confidence": "high",
+  "note": "부티크 키노다, 13줄 대응. 3DX는 입장 랭크(DS 샤인 랭크→フラワーランク)와 상품(글러브/웨어→ズボン/パンツ)이 바뀜"
+ },
+ "o_town_41": {
+  "ds": [
+   "0F1"
+  ],
+  "confidence": "high",
+  "note": "스타 랭크 전용 고급 숍(키노피온의 서비스·로열 버섯 티·발 마사지), 14줄 일치"
+ },
+ "o_zutsuda_01": {
+  "ds": [
+   "105"
+  ],
+  "confidence": "high",
+  "note": "고라파 레이크: 상점블록(블캐츠)·쿠파 혼잣말·알림 새·블로즈 숍 휴업 간판, 22줄 대응(#13 재채기, #15 회복 안내는 DS105에 없음)"
+ },
+ "o_zutsuda_04_after": {
+  "ds": [
+   "0F9"
+  ],
+  "confidence": "high",
+  "note": "쿠파가 배로 돌벽을 부수고 엉금엉금 군단 합류·철창 속 부하들, 대부분 일치(#22,23 仮・未実装 디버그)"
+ },
+ "o_zutsuda_04_before": {
+  "ds": [
+   "0F8"
+  ],
+  "confidence": "high",
+  "note": "철창 속 엉금엉금 군단과 돌벽 앞 쿠파, 19줄 일치"
+ },
+ "o_zutsuda_06": {
+  "ds": [
+   "112"
+  ],
+  "confidence": "high",
+  "note": "표지판 '→볼조개 숲 ↓이아파 비치' 1줄 일치(DS112의 어택피스 획득 문구는 3DX 이 방에 없음)"
+ },
+ "o_zutsuda_09": {
+  "ds": [
+   "0FA",
+   "13D"
+  ],
+  "confidence": "high",
+  "note": "첫 재채기: 냄새 대사 3줄(이 냄새는 뭐지…/향기가 좋군/에…!)은 DS13D, '재채기도 호탕하군'은 DS0FA"
+ },
+ "o_zutsuda_10_after": {
+  "ds": [
+   "0FB"
+  ],
+  "confidence": "high",
+  "note": "두 번째 재채기(또 이 향기가…/자꾸 맡고 싶은걸), 3줄 일치 + 3DX 회복 안내"
+ },
+ "o_zutsuda_10_after_2": {
+  "ds": [],
+  "confidence": "none",
+  "note": "HP·BP 회복 안내(3DX 추가 문구) 1줄뿐"
+ },
+ "o_zutsuda_10_before": {
+  "ds": [
+   "0FC"
+  ],
+  "confidence": "high",
+  "note": "배 발견(부딪치면 돌벽을 부술 수 있을지도), 2줄 일치. #0 仮・未実装, #1 회복 안내는 3DX"
+ },
+ "o_zutsuda_12": {
+  "ds": [
+   "115"
+  ],
+  "confidence": "low",
+  "note": "아이템 획득/가득 참 메시지뿐. 3DX는 공통 목록(폭발치킨·회복허브 등)으로 바뀌어 대사 일치 없음. 같은 성격의 DS 방(DS078/115/1CC) 중 레이크 구역(DS111/112 인접)인 DS115로 추정"
+ },
+ "o_zutsuda_15": {
+  "ds": [
+   "108"
+  ],
+  "confidence": "high",
+  "note": "굼비와 재회·쿠파 성 지하 금고실의 스타 백신·오키노 메시지(두 번째 현인 러즐), 42줄 대응"
+ },
+ "o_zutsuda_16_after": {
+  "ds": [
+   "0C9"
+  ],
+  "confidence": "high",
+  "note": "드르렁 타워 거대전 후 쿠파(성이건 타워건 다 덤벼라), 4줄 일치"
+ },
+ "o_zutsuda_16_before": {
+  "ds": [
+   "0CA",
+   "0C8",
+   "0C6"
+  ],
+  "confidence": "high",
+  "note": "프로펠러 발견(DS0CA)·어둠 속 회상(DS0C8)·재채기(DS0C6)로 나뉘어 있음. #2 仮・未実装"
+ },
+ "o_zutsuda_27": {
+  "ds": [],
+  "confidence": "none",
+  "note": "HP·BP 회복 안내(3DX 추가 문구) 1줄뿐"
+ },
+ "o_zutsuda_30": {
+  "ds": [
+   "289"
+  ],
+  "confidence": "high",
+  "note": "블로즈 마사지 가게(굼바 군단 마사지·러즐/외계인/소중한 사람 이야기), 대부분 일치. #15 쿠파Jr. 암시는 3DX 추가"
+ }
+}

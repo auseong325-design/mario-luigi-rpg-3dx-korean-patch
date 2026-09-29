@@ -1,0 +1,117 @@
+{
+ "source": "Msg/JP_ja/FMsg.dat:k_o_zutsuda_29",
+ "messages": [
+  {
+   "id": "FMsg/k_o_zutsuda_29#0",
+   "label": "Kjrpg_06_Zutsuda_qst03_30",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]マンネンアイスをくだいて…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/k_o_zutsuda_29#1",
+   "label": "Kjrpg_06_Zutsuda_qst03_31",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ゆっくり こうして…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/k_o_zutsuda_29#2",
+   "label": "Kjrpg_06_Zutsuda_qst03_32",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]やさしく ああして…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/k_o_zutsuda_29#3",
+   "label": "Kjrpg_06_Zutsuda_qst03_33",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 最後;さいご]に…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/k_o_zutsuda_29#4",
+   "label": "Kjrpg_06_Zutsuda_qst03_34",
+   "style": 7,
+   "attr": "00000000",
+   "jp": "[0009:0000:07 00]ドーン！"
+  },
+  {
+   "id": "FMsg/k_o_zutsuda_29#5",
+   "label": "Kjrpg_06_Zutsuda_qst03_35",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ドーンって[Ruby 言;い]っちゃったよ。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/k_o_zutsuda_29#6",
+   "label": "Kjrpg_06_Zutsuda_qst03_36",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ドーンって[Ruby 言;い]っちゃいましたね…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/k_o_zutsuda_29#7",
+   "label": "Kjrpg_06_Zutsuda_qst03_38",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 終;お]わったわ。[0002:0000:14 00]どうぞ。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/k_o_zutsuda_29#8",
+   "label": "Kjrpg_06_Zutsuda_qst03_39",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]マジか！？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/k_o_zutsuda_29#9",
+   "label": "Kjrpg_06_Zutsuda_qst03_22",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]まずは…[0002:0000:1E 00]\nしたごしらえね…[0002:0001:][Next]ギガニンジンと\nゲプーキュウコンをみじん[Ruby 切;ぎ]り…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/k_o_zutsuda_29#10",
+   "label": "Kjrpg_06_Zutsuda_qst03_24",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 次;つぎ]に…[0002:0000:1E 00]\n[Ruby 弱火;よわび]で じっくり やさしく いためて…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/k_o_zutsuda_29#11",
+   "label": "Kjrpg_06_Zutsuda_qst03_25",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]だいじょうぶか？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/k_o_zutsuda_29#12",
+   "label": "Kjrpg_06_Zutsuda_qst03_26",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 彼女;かのじょ]は[Ruby 信頼;しんらい]できます。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/k_o_zutsuda_29#13",
+   "label": "Kjrpg_06_Zutsuda_qst03_27",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]さらに ていねいに やさしくすりつぶす…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/k_o_zutsuda_29#14",
+   "label": "Kjrpg_06_Zutsuda_qst03_28",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]おいおい…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/k_o_zutsuda_29#15",
+   "label": "Kjrpg_06_Zutsuda_qst03_29",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]たしかにセリフと\n[Ruby 状況;じょうきょう]がかみあってない[Ruby 気;き]が…[0002:0001:]"
+  }
+ ]
+}

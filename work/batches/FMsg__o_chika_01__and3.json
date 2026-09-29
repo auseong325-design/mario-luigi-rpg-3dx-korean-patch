@@ -1,0 +1,1244 @@
+{
+ "batch": "FMsg__o_chika_01__and3",
+ "rooms": [
+  "o_chika_01",
+  "o_chika_04",
+  "o_chika_09_before",
+  "o_chika_12"
+ ],
+ "ds_rooms": [
+  "0D2",
+  "0D5",
+  "0DA",
+  "136",
+  "137"
+ ],
+ "ds_reference": [
+  "DS0D2#0: 오더 플리즈?\n장비 사기\n아이템 사기\n블캐츠에 대해\n구입하지 않음",
+  "DS0D2#1: 오우! 신사!\n이 블록을 지나치지 않았군요.[Next]왓 디스 블록!?\n이 블록은! 맞습니다!\n상점블록입니다![Next]이 블록이 있다면\n언제든지 쇼핑을\n즐길 수 있습니다.[Next]예전에 우리 블도그를\n찾으러 다니면서 여러 장소에\n세팅해 두었습니다.[Next]이제 언제든지\n신사와 만날 수 있겠군요.\n하우 나이스![Next]자, 신사.\n왓 두 유 원트?",
+  "DS0D2#2: 오더 플리즈?\n장비 사기\n아이템 사기\n블캐츠에 대해\n구입하지 않음",
+  "DS0D2#3: 귀여운 블캐츠를\n많이 찾으셨군요.[Next]시간 날 때\n미가 있는 곳으로 커밍!\n사례를 해 드리겠습니다!",
+  "DS0D2#4: 수집한 블캐츠 보기\n블캐츠가 뭐더라?\n뒤로",
+  "DS0D2#5: 하이, 신사~\n컨디션은 어떠신가요?[Next]귀여운 블캐츠는\n많이 수집했나요~?",
+  "DS0D2#6: 하이, 신사~\n그쪽 날씨는 어떤가요?[Next]미는 블록을 닦느라\n여념이 없네요~",
+  "DS0D2#7: 하이, 신사~\n컨디션은 어떠신가요?[Next]배큐엄블록 상태는\n괜찮은가요?",
+  "DS0D2#8: 원하신다면 음이온의 파워로\n회복도 시켜 드릴 수 있어요~![Next]HP나 SP가 줄었다면\n꼭 한번 해 보세요, 플리즈~",
+  "DS0D2#9: 음이온으로\n완전 회복하실래요~?\n10코인이면 오케이입니다!\n회복한다  하지 않는다",
+  "DS0D2#10: 음이온\n고~~~!!!",
+  "DS0D2#11: 쏘리… 신사…\n코인이 부족해요…",
+  "DS0D2#12: HP와 SP 완전 회복!!",
+  "DS0D2#13: 트",
+  "DS0D2#14: 여긴… 어디냐?",
+  "DS0D2#15: 오더 플리즈?\n장비 사기\n아이템 사기\n구입하지 않음",
+  "DS0D2#16: 귀여운 블캐츠에 대해\n길~게 말해도 될까요?\n듣기  듣지 않기",
+  "DS0D5#0: 내 불렀나? 이동하고 싶나~?\n이동할래  이동 안 할래",
+  "DS0DA#0: 어~이! 아까부터\n하나도 진행이 안 됐잖아~![Next]드릴의 파워를\n좀 더 높여~~!!",
+  "DS0DA#1: 이게 최고로\n높인 거예요~!",
+  "DS0DA#2: 포기하지 마~!\n마지막까지 희망을 버리지 마~!",
+  "DS0DA#3: 우리들은 쿠파님에게 선택받은\n엘리트 중의 엘리트란 말이다~![Next]이 정도 시련으로\n포기해선 안 된다~!!",
+  "DS0DA#4: 어이! 뭐 하는 거냐!?",
+  "DS0DA#5: 쿠, 쿠파님!?",
+  "DS0DA#6: 여, 여기 집중!\n잠시 작업 중지~!",
+  "DS0DA#7: 명령하신 비밀 터널은\n순조롭게 뚫리고 있습니다!",
+  "DS0DA#8: 비밀 터널?\n그게 뭐냐!?",
+  "DS0DA#9: 쿠파님이 피치공주를\n납치해서 떠날 때 쉽게 도망갈 수\n있도록 지하 터널을 뚫으라고…",
+  "DS0DA#10: 비밀 터널…\n이름하여 프로젝트 K![Next]그 프로젝트에\n저희 쪼르뚜 형제들이\n임명되었습니다!",
+  "DS0DA#11: 그러고 보니 그런 말을\n했던 것 같기도 하군…",
+  "DS0DA#12: 하지만 너희 작업을\n아까부터 보아하니 전혀\n진행이 안 되고 있지 않느냐![Next]성의가 부족하다!",
+  "DS0DA#13: 죄죄죄… 죄송합니다![Next]여기를 쭉 뚫으면\n버섯 타운 지하로\n이어지게 됩니다만…",
+  "DS0DA#14: 땅이 너무 단단해서\n좀처럼 진행이 안 되고 있습니다!",
+  "DS0DA#15: 쭉 뚫으면 버섯 타운과\n이어진다고!?",
+  "DS0DA#16: 예! 일직선으로\n뚫기만 하면 됩니다!!",
+  "DS0DA#17: 그렇군! 그렇다면 더더욱\n빨리 뚫어야 한다!!",
+  "DS0DA#18: 그러니까\n땅이 단단해서…",
+  "DS0DA#19: 에잇! 믿을 놈 없다더니!\n이 몸이 직접 해결하겠다!!",
+  "DS0DA#20: 쿠파님~~\n괜찮으십니까~?",
+  "DS0DA#21: 흐아아아아아아!!",
+  "DS0DA#22: 또 무조건 힘으로\n해결하려고 하고 있어…",
+  "DS0DA#23: 슈퍼 액션 다리 발동 후",
+  "DS0DA#24: 아.",
+  "DS0DA#25: 왜 그래?",
+  "DS0DA#26: 드릴 머신의 전지가…\n1분 30초밖에 안 남았어…[Next]중간에 닳으면\n돌아와서 교환해야 돼…",
+  "DS0DA#27: 게다가 저 전지는 하나에\n50코인이나 하는데…",
+  "DS0DA#28: 쿠파님이라면 기꺼이\n지불해 주시겠지…[Next]아니, 쿠파님이라면\n1분 30초 안에 버섯 타운까지\n길을 뚫어 주시겠지!!",
+  "DS0DA#29: 1분 30초만에 다 닳아 버리는\n뭐 이런 전지가 다 있느냐!!",
+  "DS0DA#30: 드릴 머신의 파워가\n워낙에 강력해서요…",
+  "DS0DA#31: 당장 교환해라!!",
+  "DS0DA#32: 저기~~ 쿠파님…[Next]드릴 머신의 전지는\n하나에 50코인입니다…",
+  "DS0DA#33: 에잇! 낼 테니까\n당장 교환해라!!",
+  "DS0DA#34: 무슨 일이지!?",
+  "DS0DA#35: 네가 보고 와!!",
+  "DS0DA#36: 설마 방금 쿠파님이\n힘들게 뚫어 놓은 길이\n붕괴되어 막힌 건 아니겠지…?",
+  "DS0DA#37: 큰일입니다!!",
+  "DS0DA#38: 방금 쿠파님이\n힘들게 뚫어 놓은 길이\n붕괴되어 막히고 말았습니다!!",
+  "DS0DA#39: 크으으으윽!![Next]1분 30초 안에 버섯 타운까지\n뚫으면 될 것 아니냐!![Next]하면 되잖느냐!!",
+  "DS0DA#40: 크으으으! 이 몸은 지금\n가진 코인이 없다!!",
+  "DS0DA#41: 그렇다면 제가\n빌려 드리도록 하지요…[Next]나중에 꼭 갚으셔야 합니다!",
+  "DS0DA#42: 트",
+  "DS136#0: 쿠파가 힘을 낼 수 있도록\n근육을 자극해 보자!",
+  "DS136#1: 점프만 해서는\n자극이 부족한 것 같아…[Next]착지할 때 버튼을 눌러서\n꾹~ 하고 세게 밟아 봐!",
+  "DS136#2: 이번엔 루이지야!",
+  "DS136#3: 마리오와 루이지 중에\n아래에 있는 사람 버튼을\n누르면 되는 것 같아.",
+  "DS136#4: 좌우 교대로 계속 누르다 보면\n점프 높이가 높아져서\n자극도 세지는 것 같아.[Next]점프가 계속 이어질 수 있도록\n알맞은 타이밍에\n버튼을 눌러 줘!",
+  "DS136#5: 아!",
+  "DS136#6: 버튼을 누르고 있는 동안에는\n계속 힘이 나는 모양이니까[Next]잠시 동안 버튼을 누른 상태로\n자극하는 게 좋을 것 같아!",
+  "DS137#0: 전지가 닳아 버렸습니다!!",
+  "DS137#1: 앞으로 30초면 전지가 닳습니다!",
+  "DS137#2: 앞으로 10초!!"
+ ],
+ "glossary": [
+  {
+   "jp": "クッパ",
+   "ko": "쿠파",
+   "type": "boss",
+   "basis": "DS",
+   "source": "BData__mfset_MonN#65",
+   "note": "마리오 일행이 싸우는 쿠파. glossary 확정값과 동일 [gl_enemies]"
+  },
+  {
+   "jp": "ブロドッグ",
+   "ko": "블도그",
+   "type": "boss",
+   "basis": "DS",
+   "source": "BData__mfset_MonN#23",
+   "note": "glossary 확정값과 동일 [gl_enemies]"
+  },
+  {
+   "jp": "チョロプー兄弟",
+   "ko": "쪼르뚜 형제",
+   "type": "character",
+   "basis": "DS",
+   "source": "o_koopa_r_33#0 ↔ DS145#16",
+   "note": "room-align"
+  },
+  {
+   "jp": "ピーチ姫",
+   "ko": "피치공주",
+   "type": "character",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesOutline#13",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "ブロキャットちゃん",
+   "ko": "귀여운 블캐츠",
+   "type": "character",
+   "basis": "DS",
+   "source": "o_areanone_allmap_bcat_U#5 <-> DS283#3 ; o_ekubon_02_after#28 <-> DS28D#12 ; o_ekubon_02_after#31 <-> DS28D#13",
+   "note": "ちゃん은 대개 '귀여운'으로 살림. 짧게 부를 땐 '블캐츠'만(DS28D#10·28) [gl_characters]"
+  },
+  {
+   "jp": "ブロドッグちゃん",
+   "ko": "우리 블도그",
+   "type": "character",
+   "basis": "DS",
+   "source": "o_mushiba_12#4 <-> DS035#6 ; o_mushiba_12#12 <-> DS035#14 ; o_ekubon_02_after#13 <-> DS28D#1",
+   "note": "블록 상점 신사의 말. ちゃん은 '우리'로 살림. 앞에 소유격이 있으면 '블도그'만(DS035#3) [gl_characters]"
+  },
+  {
+   "jp": "ドリルマシン",
+   "ko": "드릴 머신",
+   "type": "item",
+   "basis": "DS",
+   "source": "o_chika_09_before#7 ↔ DS0DA#26",
+   "note": "room-align"
+  },
+  {
+   "jp": "バキュームブロック",
+   "ko": "배큐엄블록",
+   "type": "key_item",
+   "basis": "DS",
+   "source": "MData__mfset_MenuMes#43",
+   "note": "붙여 씀 [gl_attacks]"
+  },
+  {
+   "jp": "ブロキャット",
+   "ko": "블캐츠",
+   "type": "key_item",
+   "basis": "DS",
+   "source": "MData__mfset_MenuMes#67",
+   "note": "15마리 공통 이름 [gl_items]"
+  },
+  {
+   "jp": "ミニゲーム",
+   "ko": "미니 게임",
+   "type": "other",
+   "basis": "DS",
+   "source": "BDataMiniGame__mfset_MesDat_MiniGame#27",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "ムッシュ",
+   "ko": "신사",
+   "type": "other",
+   "basis": "DS",
+   "source": "o_ibiki_01#3 <-> DS134#7 ; o_koopa_r_33#8 <-> DS145#7",
+   "note": "correction(note만): 블록 상점 신사가 쿠파(전투 중엔 마리오도)를 부르는 말. 기존 note의 '블로크'는 DS 표기가 아님(상점 주인의 본명은 JP·DS 대사에 없음) [gl_characters]"
+  },
+  {
+   "jp": "ひみつトンネル",
+   "ko": "비밀 터널",
+   "type": "place",
+   "basis": "DS",
+   "source": "DS0DA#7",
+   "note": "쪼르뚜 형제가 파는 터널 [gl_menu_places]"
+  },
+  {
+   "jp": "キノコタウン",
+   "ko": "버섯 타운",
+   "type": "place",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesPlace#8",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "地下",
+   "ko": "지하",
+   "type": "place",
+   "basis": "DS",
+   "source": "DS093#0",
+   "note": "[gl_menu_places]"
+  },
+  {
+   "jp": "地下トンネル",
+   "ko": "지하 터널",
+   "type": "place",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesPlace#7",
+   "note": "세이브 파일 장소명(3DX MES_EMesPlace_place7 = DS #7) [gl_menu_places]"
+  },
+  {
+   "jp": "BP",
+   "ko": "SP",
+   "type": "term",
+   "basis": "DS",
+   "source": "BAI__BMes_cf#4.13",
+   "note": "확정: 3DX의 BP는 DS대로 SP(스페셜 어택과 짝). 화면 이미지(HUD·능력치)의 BP도 이미지 작업 때 SP로 고친다"
+  },
+  {
+   "jp": "HP",
+   "ko": "HP",
+   "type": "term",
+   "basis": "DS",
+   "source": "BAI__BMes_cf#2.11",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "クッパ様",
+   "ko": "쿠파님",
+   "type": "term",
+   "basis": "DS",
+   "source": "BAI__BMes_cf:0#0",
+   "note": "부하들이 부를 때 [gl_kj]"
+  },
+  {
+   "jp": "コイン",
+   "ko": "코인",
+   "type": "term",
+   "basis": "DS",
+   "source": "BData__mfset_WearE#22",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "プロジェクトK",
+   "ko": "프로젝트 K",
+   "type": "term",
+   "basis": "DS",
+   "source": "o_chika_09_before#16 ↔ DS0DA#10",
+   "note": "room-align"
+  },
+  {
+   "jp": "マイナスイオン",
+   "ko": "음이온",
+   "type": "term",
+   "basis": "DS",
+   "source": "o_ibiki_01#11 ↔ DS134#10",
+   "note": "room-align"
+  },
+  {
+   "jp": "ミー",
+   "ko": "미",
+   "type": "term",
+   "basis": "DS",
+   "source": "o_areanone_allmap_bcat_U#4 ↔ DS283#2",
+   "note": "room-align"
+  },
+  {
+   "jp": "ムッシュ～",
+   "ko": "신사",
+   "type": "term",
+   "basis": "DS",
+   "source": "o_koopa_37#3 ↔ DS23C#8",
+   "note": "room-align"
+  },
+  {
+   "jp": "ワガハイ",
+   "ko": "이 몸",
+   "type": "term",
+   "basis": "DS",
+   "source": "FEvent:025#7",
+   "note": "쿠파의 1인칭 [gl_kj]"
+  },
+  {
+   "jp": "電池",
+   "ko": "전지",
+   "type": "term",
+   "basis": "DS",
+   "source": "o_chika_12#7 ↔ DS137#0",
+   "note": "room-align"
+  },
+  {
+   "jp": "なにも 買わない",
+   "ko": "구입하지 않음",
+   "type": "ui",
+   "basis": "DS",
+   "source": "DS0D2#0",
+   "note": "블록 상점 선택지"
+  },
+  {
+   "jp": "ショッピング",
+   "ko": "쇼핑",
+   "type": "ui",
+   "basis": "DS",
+   "source": "SAI__SMes_yo#0.48",
+   "note": "[gl_menu_places]"
+  },
+  {
+   "jp": "ショップブロック",
+   "ko": "상점블록",
+   "type": "ui",
+   "basis": "DS",
+   "source": "DS0D2#1",
+   "note": "붙여 씀 [gl_menu_places]"
+  },
+  {
+   "jp": "買い物",
+   "ko": "쇼핑",
+   "type": "ui",
+   "basis": "DS",
+   "source": "SAI__SMes_yo#0.64",
+   "note": "[gl_menu_places]"
+  },
+  {
+   "jp": "買い物をする",
+   "ko": "물건 사기",
+   "type": "ui",
+   "basis": "DS",
+   "source": "DS0D2#0 '장비 사기/아이템 사기'",
+   "note": "블록 상점 선택지. 3DX는 장비·아이템 사기를 하나로 합침(o_koopa_37#2)"
+  }
+ ],
+ "messages": [
+  {
+   "id": "FMsg/o_chika_01#0",
+   "label": "MES_Shop_blk_menu_01",
+   "style": 6,
+   "src": "オーダー プリーズ シルブプレ？{1:pause}\n{2:choice}{3:indent}{4:color}買い物をする\n{5:choice}{6:indent}{7:color}ブロキャット{8:color}について\n{9:choice}{10:indent}なにも 買わない{11:color}{12:pause}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0004:0001:]",
+    "3": "[0006:0001:14 00]",
+    "4": "[Color #373737]",
+    "5": "[0004:0001:]",
+    "6": "[0006:0001:14 00]",
+    "7": "[Color #373737]",
+    "8": "[Color #373737]",
+    "9": "[0004:0001:]",
+    "10": "[0006:0001:14 00]",
+    "11": "[Color #373737]",
+    "12": "[0002:0000:0A 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/o_ibiki_01#0",
+    "FMsg/o_koopa_37#0",
+    "FMsg/o_koopa_r_33#1",
+    "FMsg/o_peach_1f_01#0",
+    "FMsg/o_peach_g_10#0",
+    "FMsg/o_zutsuda_01#0"
+   ]
+  },
+  {
+   "id": "FMsg/o_chika_01#1",
+   "label": "MES_Shop_blk_menu_02",
+   "style": 6,
+   "src": "オーダー プリーズ シルブプレ？{1:pause}\n{2:choice}{3:indent}{4:color}買い物をする\n{5:choice}{6:indent}なにも 買わない{7:color}{8:pause}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0004:0001:]",
+    "3": "[0006:0001:14 00]",
+    "4": "[Color #373737]",
+    "5": "[0004:0001:]",
+    "6": "[0006:0001:14 00]",
+    "7": "[Color #373737]",
+    "8": "[0002:0000:0A 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/o_ibiki_01#2",
+    "FMsg/o_koopa_37#1",
+    "FMsg/o_koopa_r_33#2",
+    "FMsg/o_peach_1f_01#1",
+    "FMsg/o_peach_g_10#1",
+    "FMsg/o_zutsuda_01#1"
+   ]
+  },
+  {
+   "id": "FMsg/o_chika_01#2",
+   "label": "MES_Shop_blk_mes_bcat",
+   "style": 6,
+   "src": "{1:align}ブロキャットちゃんを\nだいぶ 見つけたみたいですね。{2:wait}[Next]{3:align}おヒマなときに\nミーのところへ カミング！\nお礼を さしあげますよ！{4:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]",
+    "3": "[0001:0004:]",
+    "4": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/o_ibiki_01#6",
+    "FMsg/o_koopa_37#4",
+    "FMsg/o_koopa_r_33#3",
+    "FMsg/o_peach_1f_01#5",
+    "FMsg/o_peach_g_10#2",
+    "FMsg/o_zutsuda_01#6"
+   ]
+  },
+  {
+   "id": "FMsg/o_chika_01#3",
+   "label": "MES_Chika_01_Chika_koopa_01",
+   "style": 6,
+   "src": "ここは…{1:pause} どこだ？{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_chika_01#5",
+   "label": "MES_Shop_mes_bcat_menu_01",
+   "style": 6,
+   "src": "{1:choice}{2:indent}集めた{3:color}ブロキャット{4:color}{5:color}を見る\n{6:choice}{7:indent}{8:color}{9:color}ブロキャット{10:color}{11:color}ってなに？\n{12:choice}{13:indent}もどる{14:color}{15:pause}",
+   "tags": {
+    "1": "[0004:0001:]",
+    "2": "[0006:0001:14 00]",
+    "3": "[Color #2C64FF]",
+    "4": "[Color #373737]",
+    "5": "[Color #373737]",
+    "6": "[0004:0001:]",
+    "7": "[0006:0001:14 00]",
+    "8": "[Color #373737]",
+    "9": "[Color #2C64FF]",
+    "10": "[Color #373737]",
+    "11": "[Color #373737]",
+    "12": "[0004:0001:]",
+    "13": "[0006:0001:14 00]",
+    "14": "[Color #373737]",
+    "15": "[0002:0000:0A 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/o_ekubon_02_after#39",
+    "FMsg/o_ibiki_01#7",
+    "FMsg/o_koopa_37#5",
+    "FMsg/o_koopa_r_33#4",
+    "FMsg/o_peach_1f_01#7",
+    "FMsg/o_peach_g_10#3",
+    "FMsg/o_zutsuda_01#12"
+   ]
+  },
+  {
+   "id": "FMsg/o_chika_01#6",
+   "label": "MES_Shop_mes_bcat_menu_02",
+   "style": 6,
+   "src": "{1:align}ブロキャットちゃんの かわいさを\n長～く 語っちゃいますよ～！{2:pause}\n{3:align}{4:choice}聞かない{5:tab}{6:choice}聞く{7:pause}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0000:0A 00]",
+    "3": "[0001:0001:]",
+    "4": "[0004:0001:]",
+    "5": "[0006:0000:28 00]",
+    "6": "[0004:0001:]",
+    "7": "[0002:0000:0A 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/o_ekubon_02_after#40",
+    "FMsg/o_ibiki_01#8",
+    "FMsg/o_koopa_37#6",
+    "FMsg/o_koopa_r_33#5",
+    "FMsg/o_peach_1f_01#8",
+    "FMsg/o_peach_g_10#4",
+    "FMsg/o_zutsuda_01#14"
+   ]
+  },
+  {
+   "id": "FMsg/o_chika_01#8",
+   "label": "MES_Shop_blk_mes_10",
+   "style": 6,
+   "src": "ハーイ ムッシュ～\nごきげん ストレート？{1:wait}[Next]{2:color}ブロキャット{3:color}{4:color}ちゃんは\n集まっていますか～？{5:wait}{6:color}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[Color #2C64FF]",
+    "3": "[Color #373737]",
+    "4": "[Color #373737]",
+    "5": "[0002:0001:]",
+    "6": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/o_koopa_37#8",
+    "FMsg/o_koopa_r_33#7",
+    "FMsg/o_peach_g_10#5"
+   ]
+  },
+  {
+   "id": "FMsg/o_chika_01#9",
+   "label": "MES_Shop_blk_mes_11",
+   "style": 6,
+   "src": "ハーイ ムッシュ～\nそちらの天気は いかが？{1:wait}[Next]ミーは ブロックみがきに\nいそしんでいます～{2:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_chika_01#10",
+   "label": "MES_Shop_blk_mes_12",
+   "style": 6,
+   "src": "ハーイ ムッシュ～\nごきげん ストレート？{1:wait}[Next]バキュームブロックの\n調子はいかが？{2:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_chika_01#11",
+   "label": "MES_Shop_blk_mes_first1",
+   "style": 6,
+   "src": "{1:align}オウ！ ムッシュ～！{2:pause}\n気づきましたね このブロックに。{3:wait}[Next]{4:align}ホワッツ ディス ブロック！？{5:pause}\nこのブロックは！{6:pause} そう！{7:pause}\n{8:color}ショップブロック{9:color}{10:color}です！{11:wait}[Next]{12:align}このブロックがあれば\nいつでも ショッピングを\n楽しむことが できますよ。{13:wait}[Next]{14:align}ブロドッグちゃんを 探しているとき\nついでに いろいろな場所に\nセッティング してきたのです。{15:wait}[Next]{16:align}これで いつでも\nムッシュ～と お会いできますね。\nハウ ナイス！{17:wait}[Next]{18:align}さあ ムッシュ～。\nホワット ドゥー ユー ウォ～ント？{19:wait}{20:color}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0000:0A 00]",
+    "3": "[0002:0001:]",
+    "4": "[0001:0004:]",
+    "5": "[0002:0000:0A 00]",
+    "6": "[0002:0000:0A 00]",
+    "7": "[0002:0000:0A 00]",
+    "8": "[Color #2C64FF]",
+    "9": "[Color #373737]",
+    "10": "[Color #373737]",
+    "11": "[0002:0001:]",
+    "12": "[0001:0004:]",
+    "13": "[0002:0001:]",
+    "14": "[0001:0004:]",
+    "15": "[0002:0001:]",
+    "16": "[0001:0004:]",
+    "17": "[0002:0001:]",
+    "18": "[0001:0004:]",
+    "19": "[0002:0001:]",
+    "20": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/o_ibiki_01#10",
+    "FMsg/o_koopa_37#11",
+    "FMsg/o_koopa_r_33#10",
+    "FMsg/o_peach_1f_01#10",
+    "FMsg/o_peach_g_10#9",
+    "FMsg/o_zutsuda_01#16"
+   ]
+  },
+  {
+   "id": "FMsg/o_chika_01#12",
+   "label": "MES_Shop_blk_mes_cure_01",
+   "style": 6,
+   "src": "よろしかったら マイナスイオンの\nパワーで 回復もさせますよ～！{1:wait}[Next]HPやBPが なくなったら\nぜひおためし シルブプレ～{2:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/o_ibiki_01#11",
+    "FMsg/o_koopa_37#12",
+    "FMsg/o_koopa_r_33#11",
+    "FMsg/o_peach_1f_01#11",
+    "FMsg/o_peach_g_10#10",
+    "FMsg/o_zutsuda_01#17"
+   ]
+  },
+  {
+   "id": "FMsg/o_chika_01#13",
+   "label": "MES_Shop_blk_mes_cure_02",
+   "style": 6,
+   "src": "マイナスイオンで\n全回復しちゃいますか～？\n１０コインで ソーファイン！{1:pause}\n{2:align}{3:choice}回復しない {4:choice}{5:tab}回復する{6:pause}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0001:0001:]",
+    "3": "[0004:0001:]",
+    "4": "[0004:0001:]",
+    "5": "[0006:0000:28 00]",
+    "6": "[0002:0000:0A 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/o_ibiki_01#12",
+    "FMsg/o_koopa_37#13",
+    "FMsg/o_koopa_r_33#12",
+    "FMsg/o_peach_1f_01#12",
+    "FMsg/o_peach_g_10#11",
+    "FMsg/o_zutsuda_01#18"
+   ]
+  },
+  {
+   "id": "FMsg/o_chika_01#14",
+   "label": "MES_Shop_blk_mes_cure_03",
+   "style": 6,
+   "src": "マイナス イオーーン\nレッツ ゴ～！！！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/o_ibiki_01#13",
+    "FMsg/o_koopa_37#14",
+    "FMsg/o_koopa_r_33#13",
+    "FMsg/o_peach_1f_01#13",
+    "FMsg/o_peach_g_10#12",
+    "FMsg/o_zutsuda_01#19"
+   ]
+  },
+  {
+   "id": "FMsg/o_chika_01#15",
+   "label": "MES_Shop_blk_mes_cure_04",
+   "style": 6,
+   "src": "ソーリー… ムッシュ～\nコインが 足りません…{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/o_ibiki_01#14",
+    "FMsg/o_koopa_37#15",
+    "FMsg/o_koopa_r_33#14",
+    "FMsg/o_peach_1f_01#14",
+    "FMsg/o_peach_g_10#13",
+    "FMsg/o_zutsuda_01#20"
+   ]
+  },
+  {
+   "id": "FMsg/o_chika_04#0",
+   "label": "MES_K_warp_decicde",
+   "style": 4,
+   "src": "{1:align} なんや～ 飛びたいんか～？{2:pause}\n{3:mode}{4:choice}飛ばない{5:tab}{6:choice}飛ぶ{7:pause}",
+   "tags": {
+    "1": "[0001:0001:]",
+    "2": "[0002:0000:0A 00]",
+    "3": "[0005:0000:]",
+    "4": "[0004:0000:]",
+    "5": "[0006:0000:28 00]",
+    "6": "[0004:0000:]",
+    "7": "[0002:0000:0A 00]"
+   },
+   "header": "[0009:0000:04 00]",
+   "dups": [
+    "FMsg/o_ekubon_04_1#2",
+    "FMsg/o_gepu_02#16",
+    "FMsg/o_gepu_08#38",
+    "FMsg/o_koopa_08#3",
+    "FMsg/o_mushiba_01#2",
+    "FMsg/o_otapuku_08#0",
+    "FMsg/o_peach_g_10#8",
+    "FMsg/o_peach_t_07#0"
+   ]
+  },
+  {
+   "id": "FMsg/o_chika_09_before#0",
+   "label": "MES_Chika_09_before_Chika_drill_macine_08",
+   "style": 6,
+   "src": "ご命令の ひみつトンネル作りは\n順調に進んでいるで あります！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_chika_09_before#1",
+   "label": "MES_Chika_09_before_Chika_drill_macine_09",
+   "style": 6,
+   "src": "ひみつトンネル作り？{1:pause}\nなんだ それは！？{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_chika_09_before#2",
+   "label": "MES_Chika_09_before_Chika_drill_macine_20",
+   "style": 6,
+   "src": "ええい！{1:pause} 頼りにならんやつらだ！\nワガハイが なんとかするわ！！{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_chika_09_before#3",
+   "label": "MES_Chika_09_before_Chika_drill_macine_21",
+   "style": 6,
+   "src": "クッパ様～～\nだいじょうぶですか～？{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_chika_09_before#4",
+   "label": "MES_Chika_09_before_Chika_drill_macine_22",
+   "style": 9,
+   "src": "ぬおおおおおおお！！{1:pause}",
+   "tags": {
+    "1": "[0002:0000:1E 00]"
+   },
+   "header": "[0009:0000:09 00]",
+   "dups": [
+    "FMsg/o_koopa_19#13"
+   ]
+  },
+  {
+   "id": "FMsg/o_chika_09_before#5",
+   "label": "MES_Chika_09_before_Chika_drill_macine_25",
+   "style": 6,
+   "src": "{1:align}あ。{2:pause}{3:wait}",
+   "tags": {
+    "1": "[0001:0001:]",
+    "2": "[0002:0000:0A 00]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_chika_09_before#6",
+   "label": "MES_Chika_09_before_Chika_drill_macine_26",
+   "style": 6,
+   "src": "どうした？{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_chika_09_before#7",
+   "label": "MES_Chika_09_before_Chika_drill_macine_27",
+   "style": 6,
+   "src": "ドリルマシンの電池…\n{1:color}１{2:color}{3:color}分{4:color}{5:color}３０{6:color}{7:color}秒しかもたないぞ…{8:wait}[Next]とちゅうで切れたら もどってきて\n取りかえないと…{9:wait}{10:color}",
+   "tags": {
+    "1": "[Color #2C64FF]",
+    "2": "[Color #373737]",
+    "3": "[Color #373737]",
+    "4": "[Color #373737]",
+    "5": "[Color #2C64FF]",
+    "6": "[Color #373737]",
+    "7": "[Color #373737]",
+    "8": "[0002:0001:]",
+    "9": "[0002:0001:]",
+    "10": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_chika_09_before#8",
+   "label": "MES_Chika_09_before_Chika_drill_macine_28",
+   "style": 6,
+   "src": "しかも あの電池 １つ\n{1:color}５０{2:color}{3:color}コインも するんだよな…{4:wait}{5:color}",
+   "tags": {
+    "1": "[Color #2C64FF]",
+    "2": "[Color #373737]",
+    "3": "[Color #373737]",
+    "4": "[0002:0001:]",
+    "5": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_chika_09_before#9",
+   "label": "MES_Chika_09_before_Chika_drill_macine_29",
+   "style": 6,
+   "src": "{1:align}クッパ様なら こころよく\nはらって くれるだろ…{2:wait}[Next]いや{3:pause} クッパ様なら\n{4:color}１{5:color}{6:color}分{7:color}{8:color}３０{9:color}{10:color}秒以内に キノコタウンまで\nいっきに 行ってくれるだろ！{11:wait}{12:color}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0000:0A 00]",
+    "4": "[Color #2C64FF]",
+    "5": "[Color #373737]",
+    "6": "[Color #373737]",
+    "7": "[Color #373737]",
+    "8": "[Color #2C64FF]",
+    "9": "[Color #373737]",
+    "10": "[Color #373737]",
+    "11": "[0002:0001:]",
+    "12": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_chika_09_before#10",
+   "label": "MES_Chika_09_before_Chika_drill_macine_40",
+   "style": 6,
+   "src": "今 クッパ様が\n苦労して ほっていった道が\nくずれてうまって しまいました！！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_chika_09_before#11",
+   "label": "MES_Chika_09_before_Chika_drill_macine_41",
+   "style": 6,
+   "src": "{1:align}ぐううううううう！！{2:wait}[Next]{3:color}１{4:color}{5:color}分{6:color}{7:color}３０{8:color}{9:color}秒以内に キノコタウンまで\nたどりつけば いいんだろ！！{10:wait}[Next]{11:align}やってやるわ！！{12:wait}{13:color}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]",
+    "3": "[Color #2C64FF]",
+    "4": "[Color #373737]",
+    "5": "[Color #373737]",
+    "6": "[Color #373737]",
+    "7": "[Color #2C64FF]",
+    "8": "[Color #373737]",
+    "9": "[Color #373737]",
+    "10": "[0002:0001:]",
+    "11": "[0001:0004:]",
+    "12": "[0002:0001:]",
+    "13": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_chika_09_before#12",
+   "label": "MES_Chika_09_before_Chika_drill_macine_42",
+   "style": 6,
+   "src": "ぐむむむ！ ワガハイも\n持ち合わせが ないぞ！！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_chika_09_before#13",
+   "label": "MES_Chika_09_before_Chika_drill_macine_43",
+   "style": 6,
+   "src": "じゃあ ここは私が\nたてかえておきます…{1:wait}[Next]{2:align}あとで はらってくださいね…{3:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0001:0004:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_chika_09_before#14",
+   "label": "MES_work_omit_06",
+   "style": 6,
+   "src": "{1:choice}ミニゲーム失敗\n{2:choice}ミニゲーム成功{3:pause}",
+   "tags": {
+    "1": "[0004:0001:]",
+    "2": "[0004:0001:]",
+    "3": "[0002:0000:1E 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/o_ekubon_15#22",
+    "FMsg/o_koopa_19#7"
+   ]
+  },
+  {
+   "id": "FMsg/o_chika_09_before#15",
+   "label": "MES_Chika_09_before_Chika_drill_macine_10",
+   "style": 6,
+   "src": "クッパ様が ピーチ姫を\n連れさったとき 逃げやすいように\n地下トンネルを作れと…{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_chika_09_before#16",
+   "label": "MES_Chika_09_before_Chika_drill_macine_11",
+   "style": 6,
+   "src": "{1:align}ひみつトンネル作り…\n名づけて プロジェクトK！{2:wait}[Next]その プロジェクトに\n我々 チョロプー兄弟が\n任命されたであります！{3:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_chika_09_before#17",
+   "label": "MES_Chika_09_before_Chika_drill_macine_12",
+   "style": 6,
+   "src": "そういえば そんなことを\n言ったような 気もするな。{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_chika_09_before#18",
+   "label": "MES_Chika_09_before_Chika_drill_macine_13",
+   "style": 6,
+   "src": "しかし オマエ達\nさっきから 見てたが\nぜんぜん 進んでないじゃないか！{1:wait}[Next]{2:align}{3:align}気合いが 足らんぞ！{4:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0001:0004:]",
+    "3": "[0001:0001:]",
+    "4": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_chika_09_before#19",
+   "label": "MES_Chika_09_before_Chika_drill_macine_14",
+   "style": 6,
+   "src": "{1:align}ももも… 申しわけありません！{2:wait}[Next]ここを 進んでいけば\n{3:color}キノコタウン{4:color}{5:color}の地下に\nつながるはずなんですが…{6:wait}{7:color}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]",
+    "3": "[Color #2C64FF]",
+    "4": "[Color #373737]",
+    "5": "[Color #373737]",
+    "6": "[0002:0001:]",
+    "7": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_chika_09_before#20",
+   "label": "MES_Chika_09_before_Chika_drill_macine_15",
+   "style": 6,
+   "src": "土が かたすぎて\n行きづまっているであります！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_chika_09_before#21",
+   "label": "MES_Chika_09_before_Chika_drill_macine_16",
+   "style": 6,
+   "src": "この先は {1:color}キノコタウン{2:color}{3:color}に\nつながっているのか！？{4:wait}{5:color}",
+   "tags": {
+    "1": "[Color #2C64FF]",
+    "2": "[Color #373737]",
+    "3": "[Color #373737]",
+    "4": "[0002:0001:]",
+    "5": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_chika_09_before#22",
+   "label": "MES_Chika_09_before_Chika_drill_macine_17",
+   "style": 6,
+   "src": "はい！{1:pause} 一直線に\n進むだけであります！！{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_chika_09_before#23",
+   "label": "MES_Chika_09_before_Chika_drill_macine_18",
+   "style": 6,
+   "src": "そうか！{1:pause} それなら\nさっさと ほりまくるのだ！！{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_chika_09_before#24",
+   "label": "MES_Chika_09_before_Chika_drill_macine_19",
+   "style": 6,
+   "src": "ですから\n土が かたくて…{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_chika_09_before#25",
+   "label": "MES_Chika_09_before_Chika_drill_macine_31",
+   "style": 6,
+   "src": "{1:color}１{2:color}{3:color}分{4:color}{5:color}３０{6:color}{7:color}秒しかもたない 電池なんて\n聞いたことないぞ！！{8:wait}{9:color}",
+   "tags": {
+    "1": "[Color #2C64FF]",
+    "2": "[Color #373737]",
+    "3": "[Color #373737]",
+    "4": "[Color #373737]",
+    "5": "[Color #2C64FF]",
+    "6": "[Color #373737]",
+    "7": "[Color #373737]",
+    "8": "[0002:0001:]",
+    "9": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_chika_09_before#26",
+   "label": "MES_Chika_09_before_Chika_drill_macine_32",
+   "style": 6,
+   "src": "なにぶん ドリルマシンの\nパワーが 強力なもんで…{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_chika_09_before#27",
+   "label": "MES_Chika_09_before_Chika_drill_macine_33",
+   "style": 6,
+   "src": "はやく とりかえろ！！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_chika_09_before#28",
+   "label": "MES_Chika_09_before_Chika_drill_macine_34",
+   "style": 6,
+   "src": "{1:align}え～っと クッパ様…{2:wait}[Next]ドリルマシンの電池\n１つ {3:color}５０{4:color}{5:color}コインします…{6:wait}{7:color}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]",
+    "3": "[Color #2C64FF]",
+    "4": "[Color #373737]",
+    "5": "[Color #373737]",
+    "6": "[0002:0001:]",
+    "7": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_chika_09_before#29",
+   "label": "MES_Chika_09_before_Chika_drill_macine_35",
+   "style": 6,
+   "src": "ええい！ はらってやるから\nさっさと 続けるぞ！！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_chika_09_before#30",
+   "label": "MES_Chika_09_before_Chika_drill_macine_36",
+   "style": 6,
+   "src": "どうした！？{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_chika_09_before#31",
+   "label": "MES_Chika_09_before_Chika_drill_macine_37",
+   "style": 6,
+   "src": "オマエ！{1:pause} 様子を見てこい！！{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_chika_09_before#32",
+   "label": "MES_Chika_09_before_Chika_drill_macine_38",
+   "style": 6,
+   "src": "まさか 今 クッパ様が\n苦労して ほっていった道が\nくずれてうまって しまった… とか。{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_chika_09_before#33",
+   "label": "MES_Chika_09_before_Chika_drill_macine_39",
+   "style": 9,
+   "src": "大変です！！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:09 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_chika_09_before#34",
+   "label": "MES_Chika_09_before_Chika_drill_macine_01",
+   "style": 9,
+   "src": "お～い！{1:pause} さっきから\nぜんぜん 進んでね～ぞ～！{2:wait}[Next]ドリルのパワーを もっと\n上げるんだ～～！！{3:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:09 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_chika_09_before#35",
+   "label": "MES_Chika_09_before_Chika_drill_macine_02",
+   "style": 6,
+   "src": "も{1:pause} もうこれが\n限界ですぜ～！{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_chika_09_before#36",
+   "label": "MES_Chika_09_before_Chika_drill_macine_03",
+   "style": 9,
+   "src": "あきらめるな～！\n最後まで 希望を捨てるな～！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:09 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_chika_09_before#37",
+   "label": "MES_Chika_09_before_Chika_drill_macine_04",
+   "style": 9,
+   "src": "オレ達は クッパ様に選ばれた\nエリート中の エリートなんだぞ～！{1:wait}[Next]こんなことくらいで\nあきらめるな～！！{2:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:09 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_chika_09_before#38",
+   "label": "MES_Chika_09_before_Chika_drill_macine_05",
+   "style": 6,
+   "src": "おい！{1:pause} なにやってるんだ！？{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_chika_09_before#39",
+   "label": "MES_Chika_09_before_Chika_drill_macine_06",
+   "style": 6,
+   "src": "ク{1:pause} クッパ様！？{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_chika_09_before#40",
+   "label": "MES_Chika_09_before_Chika_drill_macine_07",
+   "style": 6,
+   "src": "オ{1:pause} オマエ達！{2:pause}\nいったん 作業中止～！{3:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0000:0A 00]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_chika_12#7",
+   "label": "MES_Chika_12_Chika_drill_macine_30",
+   "style": 9,
+   "src": "で 電池が切れました！！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:09 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_chika_12#8",
+   "label": "MES_Chika_12_Chika_drill_macine_31",
+   "style": 9,
+   "src": "あと {1:color}３０{2:color}{3:color}秒で電池が切れます！{4:pause}{5:color}",
+   "tags": {
+    "1": "[Color #2C64FF]",
+    "2": "[Color #373737]",
+    "3": "[Color #373737]",
+    "4": "[0002:0000:3C 00]",
+    "5": "[Color #373737]"
+   },
+   "header": "[0009:0000:09 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_chika_12#9",
+   "label": "MES_Chika_12_Chika_drill_macine_32",
+   "style": 9,
+   "src": "あと {1:color}１０{2:color}{3:color}秒！！{4:pause}{5:color}",
+   "tags": {
+    "1": "[Color #2C64FF]",
+    "2": "[Color #373737]",
+    "3": "[Color #373737]",
+    "4": "[0002:0000:3C 00]",
+    "5": "[Color #373737]"
+   },
+   "header": "[0009:0000:09 00]",
+   "dups": []
+  }
+ ]
+}

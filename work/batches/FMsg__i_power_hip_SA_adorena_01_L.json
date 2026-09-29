@@ -1,0 +1,317 @@
+{
+ "batch": "FMsg__i_power_hip_SA_adorena_01_L",
+ "rooms": [
+  "i_power_hip_SA_adorena_01_L"
+ ],
+ "ds_rooms": [
+  "0FE",
+  "0FF"
+ ],
+ "ds_reference": [
+  "DS0FE#0: 에너지가 돌아왔나 봐!",
+  "DS0FE#1: 에너지가 강해졌어!",
+  "DS0FE#2: 쿠파가 움직이기 시작했나 봐!",
+  "DS0FE#3: 에너지가 약해졌나 봐!",
+  "DS0FF#0: 아드레리버에서 뭘 하면\n되는 걸까?",
+  "DS0FF#1: 이게 아드레날린인가!?[Next]빨간 아드레날린이니까\n마리오가 쏴 봐!",
+  "DS0FF#2: 날아오는 아드레날린을\n빔으로 쏘면 되는 건가 봐.",
+  "DS0FF#3: 이번엔 초록색이니까\n루이지 차례야![Next]좀 더 왼쪽이야!",
+  "DS0FF#4: 아드레날린을 맞히면\n이 아드레미터가\n조금씩 채워져!",
+  "DS0FF#5: 아드레미터를\n가득 채우면[Next]아드레날린의 작용으로\n쿠파의 에너지가\n부활하는 게 아닐까?[Next]빨간색은 마리오,\n초록색은 루이지가 쏘는 거야!\n틀리지 않게 조심해!",
+  "DS0FF#6: 아드레날린이\n부활의 보트에 부딪히면\n하트가 줄어드나 봐.[Next]아드레날린에 맞지 않도록\n조심해야겠어!",
+  "DS0FF#7: 저게 뭐지!?",
+  "DS0FF#8: 저 아드레날린은 한 번에\n없어지지 않을지도 몰라.",
+  "DS0FF#9: 마리오! 루이지!\n둘이 힘을 합해 함께\n쏴 보는 게 어때?[Next]둘의 버튼을\n길게 눌러서\n계속 쏴 보는 거야!",
+  "DS0FF#10: 트",
+  "DS0FF#11: 트"
+ ],
+ "glossary": [
+  {
+   "jp": "クッパ",
+   "ko": "쿠파",
+   "type": "character",
+   "basis": "DS",
+   "source": "BData__mfset_Help#21",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "マリオ",
+   "ko": "마리오",
+   "type": "character",
+   "basis": "DS",
+   "source": "BData__mfset_Help#19",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "ルイージ",
+   "ko": "루이지",
+   "type": "character",
+   "basis": "DS",
+   "source": "BData__mfset_Help#20",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "復活のボート",
+   "ko": "부활의 보트",
+   "type": "item",
+   "basis": "DS",
+   "source": "i_power_hip_01#7 ↔ DS077#6",
+   "note": "room-align"
+  },
+  {
+   "jp": "アドレナリバー",
+   "ko": "아드레리버",
+   "type": "place",
+   "basis": "DS",
+   "source": "i_power_hip_01#7 ↔ DS077#6",
+   "note": "room-align"
+  },
+  {
+   "jp": "アドレナメーター",
+   "ko": "아드레미터",
+   "type": "term",
+   "basis": "DS",
+   "source": "i_power_hip_SA_adorena_01_L#11 ↔ DS0FF#4",
+   "note": "room-align"
+  },
+  {
+   "jp": "アドレナリン",
+   "ko": "아드레날린",
+   "type": "term",
+   "basis": "DS",
+   "source": "i_power_hip_SA_adorena_01_L#8 ↔ DS0FF#1",
+   "note": "room-align"
+  },
+  {
+   "jp": "メーター",
+   "ko": "게이지",
+   "type": "term",
+   "basis": "DS",
+   "source": "BAI__BMes_cf#6.7",
+   "note": "배지 게이지를 가리킬 때. 다른 계기(コレメーター 등)는 해당 항목대로 [gl_attacks]"
+  },
+  {
+   "jp": "復活",
+   "ko": "부활",
+   "type": "term",
+   "basis": "DS",
+   "source": "BData__mfset_UItmE2#2",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "ボタン",
+   "ko": "버튼",
+   "type": "ui",
+   "basis": "DS",
+   "source": "MAI__MMes_yo#1.16",
+   "note": "[gl_menu_places]"
+  }
+ ],
+ "messages": [
+  {
+   "id": "FMsg/i_power_hip_SA_adorena_01_L#0",
+   "label": "MES_SA_SUB_KPower_big_01_SA_BIG_TUT_10",
+   "style": 6,
+   "src": "マリオ！ ルイージ！\nこれは ２人で いっしょに\nうってみて！{1:wait}[Next]両方の ボタンを\n{2:color}押しっぱなし{3:color}{4:color}にして\nたくさん うってみましょう！{5:wait}{6:color}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[Color #2C64FF]",
+    "3": "[Color #373737]",
+    "4": "[Color #373737]",
+    "5": "[0002:0001:]",
+    "6": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/i_tainai_SA_adorena_01_U#0"
+   ]
+  },
+  {
+   "id": "FMsg/i_power_hip_SA_adorena_01_L#1",
+   "label": "MES_SA_MAIN_KPower_big_01_koopa_lvup_1",
+   "style": 6,
+   "src": "エネルギーが もどってきたみたい！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/i_power_hip_SA_adorena_01_L#4",
+    "FMsg/i_tainai_SA_adorena_01_U#1",
+    "FMsg/i_tainai_SA_adorena_01_U#4"
+   ]
+  },
+  {
+   "id": "FMsg/i_power_hip_SA_adorena_01_L#2",
+   "label": "MES_SA_MAIN_KPower_big_01_koopa_lvup_2",
+   "style": 6,
+   "src": "エネルギーが 強くなってきたわ！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/i_power_hip_SA_adorena_01_L#5",
+    "FMsg/i_tainai_SA_adorena_01_U#2",
+    "FMsg/i_tainai_SA_adorena_01_U#5"
+   ]
+  },
+  {
+   "id": "FMsg/i_power_hip_SA_adorena_01_L#3",
+   "label": "MES_SA_MAIN_KPower_big_01_koopa_lvup_3",
+   "style": 6,
+   "src": "クッパが 動きだしたみたいよ！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/i_power_hip_SA_adorena_01_L#6",
+    "FMsg/i_tainai_SA_adorena_01_U#3",
+    "FMsg/i_tainai_SA_adorena_01_U#6"
+   ]
+  },
+  {
+   "id": "FMsg/i_power_hip_SA_adorena_01_L#7",
+   "label": "MES_SA_SUB_KPower_big_01_SA_BIG_TUT_01",
+   "style": 6,
+   "src": "アドレナリバーで なにをすれば\nいいのかしら？{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/i_tainai_SA_adorena_01_U#7"
+   ]
+  },
+  {
+   "id": "FMsg/i_power_hip_SA_adorena_01_L#8",
+   "label": "MES_SA_SUB_KPower_big_01_SA_BIG_TUT_02",
+   "style": 6,
+   "src": "{1:align}これは アドレナリン！？{2:wait}[Next]{3:color}赤いアドレナリン{4:color}だから\n{5:color}マリオ{6:color}が うってみて！{7:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]",
+    "3": "[Color #FF4343]",
+    "4": "[Color #373737]",
+    "5": "[Color #FF4343]",
+    "6": "[Color #373737]",
+    "7": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/i_tainai_SA_adorena_01_U#8"
+   ]
+  },
+  {
+   "id": "FMsg/i_power_hip_SA_adorena_01_L#9",
+   "label": "MES_SA_SUB_KPower_big_01_SA_BIG_TUT_03",
+   "style": 6,
+   "src": "飛んできた アドレナリンを\nビームで うち返せばいいのね。{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/i_tainai_SA_adorena_01_U#9"
+   ]
+  },
+  {
+   "id": "FMsg/i_power_hip_SA_adorena_01_L#10",
+   "label": "MES_SA_SUB_KPower_big_01_SA_BIG_TUT_04",
+   "style": 6,
+   "src": "こんどは {1:color}緑{2:color}だから\n{3:color}ルイージ{4:color}ね！{5:wait}[Next]{6:align}もう少し 左よ！{7:wait}",
+   "tags": {
+    "1": "[Color #00BB27]",
+    "2": "[Color #373737]",
+    "3": "[Color #00BB27]",
+    "4": "[Color #373737]",
+    "5": "[0002:0001:]",
+    "6": "[0001:0004:]",
+    "7": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/i_tainai_SA_adorena_01_U#10"
+   ]
+  },
+  {
+   "id": "FMsg/i_power_hip_SA_adorena_01_L#11",
+   "label": "MES_SA_SUB_KPower_big_01_SA_BIG_TUT_05",
+   "style": 6,
+   "src": "アドレナリンを うち返すと\nこの アドレナメーターが\nふえていくわ！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/i_tainai_SA_adorena_01_U#11"
+   ]
+  },
+  {
+   "id": "FMsg/i_power_hip_SA_adorena_01_L#12",
+   "label": "MES_SA_SUB_KPower_big_01_SA_BIG_TUT_06",
+   "style": 6,
+   "src": "{1:align}アドレナメーターを\nいっぱいにすれば{2:wait}[Next]アドレナリンの 作用で\nクッパの エネルギーが\n復活するんじゃないかしら！{3:wait}[Next]{4:color}赤い{5:color}のは {6:color}マリオ{7:color}\n{8:color}緑{9:color}のは {10:color}ルイージ{11:color}が うつのよ！\nまちがえないでね！{12:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0001:]",
+    "4": "[Color #FF4343]",
+    "5": "[Color #373737]",
+    "6": "[Color #FF4343]",
+    "7": "[Color #373737]",
+    "8": "[Color #00BB27]",
+    "9": "[Color #373737]",
+    "10": "[Color #00BB27]",
+    "11": "[Color #373737]",
+    "12": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/i_tainai_SA_adorena_01_U#12"
+   ]
+  },
+  {
+   "id": "FMsg/i_power_hip_SA_adorena_01_L#13",
+   "label": "MES_SA_SUB_KPower_big_01_SA_BIG_TUT_07",
+   "style": 6,
+   "src": "アドレナリンが 復活のボートに\n当たると ハートが\n減ってしまうようね。{1:wait}[Next]{2:align}アドレナリンに 当たらないように\n気をつけてね！{3:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0001:0004:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/i_tainai_SA_adorena_01_U#13"
+   ]
+  },
+  {
+   "id": "FMsg/i_power_hip_SA_adorena_01_L#14",
+   "label": "MES_SA_SUB_KPower_big_01_SA_BIG_TUT_08",
+   "style": 6,
+   "src": "なに これ！？{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/i_tainai_SA_adorena_01_U#14"
+   ]
+  },
+  {
+   "id": "FMsg/i_power_hip_SA_adorena_01_L#15",
+   "label": "MES_SA_SUB_KPower_big_01_SA_BIG_TUT_09",
+   "style": 6,
+   "src": "あのアドレナリンは １回では\nうち返せないかも しれないわね。{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/i_tainai_SA_adorena_01_U#15"
+   ]
+  }
+ ]
+}

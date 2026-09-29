@@ -1,0 +1,61 @@
+{
+ "source": "Msg/JP_ja/FMsg.dat:o_town_08",
+ "messages": [
+  {
+   "id": "FMsg/o_town_08#0",
+   "label": "MES_TKinoko_08_Kinoko_town_chka_ml_01_2",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Color #2C64FF]ダークスター[Color #373737][Color #373737]でしょ！？[0002:0000:0A 00]\nねえ！[0002:0000:0A 00] ゲラコビッツこなかった？[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/o_town_08#1",
+   "label": "MES_TKinoko_08_Kinoko_town_chka_ml_01_3",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ゲラコビッツ？[0002:0000:0A 00] だれですか？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_08#2",
+   "label": "MES_TKinoko_08_Kinoko_town_chka_ml_01_4",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]おかしいわね… この[Ruby 地下;ちか]にいる\nへんなやつらは なんなの？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_08#3",
+   "label": "MES_TKinoko_08_Kinoko_town_chka_ml_01_5",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]へんなやつら？[0002:0000:0A 00]\nへんなやつらって…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_08#4",
+   "label": "MES_TKinoko_08_Kinoko_town_chka_ml_01_6",
+   "style": 9,
+   "attr": "00000000",
+   "jp": "[0009:0000:09 00]こんなやつらでしたか！？[0002:0000:1E 00]"
+  },
+  {
+   "id": "FMsg/o_town_08#5",
+   "label": "MES_TKinoko_08_Kinoko_town_chka_ml_01_7",
+   "style": 10,
+   "attr": "00000000",
+   "jp": "[0009:0000:0A 00]ふるるるるる！！！[0002:0000:1E 00]"
+  },
+  {
+   "id": "FMsg/o_town_08#6",
+   "label": "MES_TKinoko_08_Kinoko_town_chka_ml_01",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]マリオさん！[0002:0000:0A 00] この[Ruby 先;さき]は\nいくら マリオさんでも[Ruby 通;とお]せませんよ！[0002:0001:][Next][Ruby 大事;だいじ]な [Ruby 大事;だいじ]なものが\n[Ruby 保管;ほかん]されているんですから！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_08#7",
+   "label": "MES_SAVE_BLOCK_recovery",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0001:0001:][0005:0000:]HPとBPの[Ruby 回復;かいふく]も\n[Ruby 忘;わす]れないようにしましょう。[0002:0000:0A 00][0002:0001:]"
+  }
+ ]
+}

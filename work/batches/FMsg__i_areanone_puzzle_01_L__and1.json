@@ -1,0 +1,545 @@
+{
+ "batch": "FMsg__i_areanone_puzzle_01_L__and1",
+ "rooms": [
+  "i_areanone_puzzle_01_L",
+  "i_areanone_puzzle_02_L"
+ ],
+ "ds_rooms": [],
+ "ds_reference": [
+  "DS:EDataSave__mfset_EMesJig#0: 이건… 설마\n비밀번호의 기억이\n산산조각 난 거야!?",
+  "DS:EDataSave__mfset_EMesJig#1: 예. 그렇습니다.\n상당한 충격을 입었습니다.[Next]그래서 이 기억이 손상되었습니다.\n예. 그렇습니다.",
+  "DS:EDataSave__mfset_EMesJig#2: 아까 까르열차에 밀려\n돌에 부딪혔을 때 손상된 거야.[Next]그래서 비밀번호를\n기억해 내지 못하나 봐…\n이걸 어떻게 하면 되는데?",
+  "DS:EDataSave__mfset_EMesJig#3: 예. 터치펜입니다.\n터치펜으로 피스를 터치합니다.",
+  "DS:EDataSave__mfset_EMesJig#4: 피스를 터치한 채\n퍼즐 판 위로 이동시킵니다.",
+  "DS:EDataSave__mfset_EMesJig#5: 피스가 퍼즐 판에 끼워져\n움직이지 않으면\n그곳이 올바른 장소입니다.",
+  "DS:EDataSave__mfset_EMesJig#6: 퍼즐 판 아래의 버튼을\n터치하면 선택한 피스가\n빙글빙글 회전합니다.[Next]이렇게 피스를 올바른 방향으로\n돌리는 것도 중요합니다.",
+  "DS:EDataSave__mfset_EMesJig#7: 이렇게 해서 산산조각 난\n피스를 맞춰 주시면 됩니다.[Next]아시겠습니까?\n예   아니요",
+  "DS:EDataSave__mfset_EMesJig#8: 마리오! 루이지!",
+  "DS:EDataSave__mfset_EMesJig#9: 어서 이 산산조각 난\n기억을 되찾아 보자!",
+  "DS:EDataSave__mfset_EMesJig#10: 완성했어!\n9898 88241 983\n이게 비밀번호야!",
+  "DS:EDataSave__mfset_EMesJig#11: 터치펜으로 피스 이동.\n회전 버튼을 터치해서 피스 회전.",
+  "DS:EDataSave__mfset_EMesJig#12: 자네, 직소 퍼즐이라고\n들어 봤겠지?",
+  "DS:EDataSave__mfset_EMesJig#13: 보는 바와 같이\n여러 조각으로 나뉜 그림을\n맞춰 완성시키는 퍼즐이라네.",
+  "DS:EDataSave__mfset_EMesJig#14: 터치펜을 준비하게나.\n터치펜으로 피스를\n터치해야 한다네…",
+  "DS:EDataSave__mfset_EMesJig#15: 피스를 터치한 채\n퍼즐 판 위로 이동시키게나.",
+  "DS:EDataSave__mfset_EMesJig#16: 피스가 퍼즐 판에 끼워져\n움직이지 않으면\n그곳이 올바른 장소라네.",
+  "DS:EDataSave__mfset_EMesJig#17: 퍼즐 판 아래의 버튼을\n터치하면 선택한 피스가\n90도씩 회전할 거라네.[Next]이렇게 피스를 올바른 방향으로\n돌리는 것도 중요하다네.",
+  "DS:EDataSave__mfset_EMesJig#18: 이렇게 그림을 완성하면 된다네.\n아주 쉽지?[Next]설명은 다했는데 알아듣겠는가?\n예   아니요",
+  "DS:EDataSave__mfset_EMesJig#19: 이런 그림이었던 것 같네만…",
+  "DS:EDataSave__mfset_EMesJig#20: 이런 느낌의 디자인\n이었던 것 같네만…",
+  "DS:EDataSave__mfset_EMesJig#21: 포기하시겠습니까?",
+  "DS:EDataSave__mfset_EMesJig#22: 준비됐는가? 그럼 시작해 주게나!",
+  "DS:EDataSave__mfset_EMesJig#23: 30초 지났다네!",
+  "DS:EDataSave__mfset_EMesJig#24: 분 지났다네!",
+  "DS:EDataSave__mfset_EMesJig#25: 분 30초라네!",
+  "DS:EDataSave__mfset_EMesJig#26: 너무 느리구먼…"
+ ],
+ "glossary": [
+  {
+   "jp": "マリオ",
+   "ko": "마리오",
+   "type": "character",
+   "basis": "DS",
+   "source": "BData__mfset_Help#19",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "ルイージ",
+   "ko": "루이지",
+   "type": "character",
+   "basis": "DS",
+   "source": "BData__mfset_Help#20",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "ゲラエクスプレス",
+   "ko": "까르열차",
+   "type": "other",
+   "basis": "DS",
+   "source": "i_areanone_puzzle_01_L#2 ↔ DS:EDataSave__mfset_EMesJig#2 (FEvent DS16B·DS22E에도 '까르열차')",
+   "note": "room-align"
+  },
+  {
+   "jp": "やりなおす",
+   "ko": "다시 시작",
+   "type": "ui",
+   "basis": "DS",
+   "source": "BData__mfset_Help#26",
+   "note": "배틀을 처음부터 다시 하기 [gl_menu_places]"
+  },
+  {
+   "jp": "タッチ",
+   "ko": "터치",
+   "type": "ui",
+   "basis": "DS",
+   "source": "BData__mfset_AItmE#6",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "タッチペン",
+   "ko": "터치펜",
+   "type": "ui",
+   "basis": "DS",
+   "source": "BAI__BMes_cf#0.4",
+   "note": "붙여 씀 [gl_attacks]"
+  },
+  {
+   "jp": "ボタン",
+   "ko": "버튼",
+   "type": "ui",
+   "basis": "DS",
+   "source": "MAI__MMes_yo#1.16",
+   "note": "[gl_menu_places]"
+  }
+ ],
+ "messages": [
+  {
+   "id": "FMsg/i_areanone_puzzle_01_L#0",
+   "label": "MES_EMesJig_tutorial1",
+   "style": 6,
+   "src": "これは… もしかして\n暗証番号のきおくが\nバラバラに！？{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/i_areanone_puzzle_01_U#0"
+   ]
+  },
+  {
+   "id": "FMsg/i_areanone_puzzle_01_L#1",
+   "label": "MES_EMesJig_tutorial2",
+   "style": 6,
+   "src": "はい そうです。\nとても大きな しょうげきが起きた。{1:wait}[Next]それで このきおくが こわれた。\nはい そうです。{2:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/i_areanone_puzzle_01_U#1"
+   ]
+  },
+  {
+   "id": "FMsg/i_areanone_puzzle_01_L#2",
+   "label": "MES_EMesJig_tutorial3",
+   "style": 6,
+   "src": "{1:align}さっき ゲラエクスプレスに\nつぶされた時に こわれたんだわ。{2:wait}[Next]だから 暗証番号を\n思い出せなくなっていたのね…\nどうやって もどしたらいいの？{3:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/i_areanone_puzzle_01_U#2"
+   ]
+  },
+  {
+   "id": "FMsg/i_areanone_puzzle_01_L#3",
+   "label": "MES_EMesJig_tutorial4",
+   "style": 6,
+   "src": "はい タッチペンです。\nタッチペンで ピースをタッチです。{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/i_areanone_puzzle_01_U#3"
+   ]
+  },
+  {
+   "id": "FMsg/i_areanone_puzzle_01_L#4",
+   "label": "MES_EMesJig_tutorial5",
+   "style": 6,
+   "src": "ピースをタッチしたまま パネルの\n上に移動です。{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/i_areanone_puzzle_01_U#4"
+   ]
+  },
+  {
+   "id": "FMsg/i_areanone_puzzle_01_L#5",
+   "label": "MES_EMesJig_tutorial6",
+   "style": 6,
+   "src": "ピースが パネルにはまって\n動かせなくなったら そこが\n正解の場所。{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/i_areanone_puzzle_01_U#5"
+   ]
+  },
+  {
+   "id": "FMsg/i_areanone_puzzle_01_L#6",
+   "label": "MES_EMesJig_tutorial7",
+   "style": 6,
+   "src": "パネルの 下にあるボタンを\nタッチすると 選んだピースが\n回転 回転 か い て ん。{1:wait}[Next]{2:align}こうやって ピースを正しい向きに\nなおすことも はい 大切。{3:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0001:0004:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/i_areanone_puzzle_01_U#6"
+   ]
+  },
+  {
+   "id": "FMsg/i_areanone_puzzle_01_L#7",
+   "label": "MES_EMesJig_tutorial8",
+   "style": 6,
+   "src": "こうやって バラバラになった\nピースを もとにもどすのです。{1:wait}[Next]説明は わかりましたか？{2:pause}\n{3:align}{4:choice}いいえ{5:tab}{6:choice}はい{7:pause}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0000:0A 00]",
+    "3": "[0001:0001:]",
+    "4": "[0004:0001:]",
+    "5": "[0006:0000:28 00]",
+    "6": "[0004:0001:]",
+    "7": "[0002:0000:0A 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/i_areanone_puzzle_01_U#7"
+   ]
+  },
+  {
+   "id": "FMsg/i_areanone_puzzle_01_L#8",
+   "label": "MES_EMesJig_tutorial9",
+   "style": 6,
+   "src": "マリオ！ ルイージ！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/i_areanone_puzzle_01_U#8"
+   ]
+  },
+  {
+   "id": "FMsg/i_areanone_puzzle_01_L#9",
+   "label": "MES_EMesJig_tutorial7_a",
+   "style": 6,
+   "src": "パネルの 下にあるボタンを\nタッチすると 選んだピースが\n回転 かいてん か い て ん。{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/i_areanone_puzzle_01_U#9"
+   ]
+  },
+  {
+   "id": "FMsg/i_areanone_puzzle_01_L#10",
+   "label": "MES_EMesJig_tutorial7_b",
+   "style": 6,
+   "src": "こうやって ピースを正しい向きに\nなおすことも はい 大切。{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/i_areanone_puzzle_01_U#10"
+   ]
+  },
+  {
+   "id": "FMsg/i_areanone_puzzle_01_L#11",
+   "label": "MES_EMesJig_tutorial10",
+   "style": 6,
+   "src": "さっそく このバラバラになった\nきおくを もとにもどしましょう！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/i_areanone_puzzle_01_U#11"
+   ]
+  },
+  {
+   "id": "FMsg/i_areanone_puzzle_01_L#12",
+   "label": "MES_EMesJig_tutorial11",
+   "style": 6,
+   "src": "できたわ！\n９８９８ ８８２４１ ９８３\nこれが 暗証番号ね！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/i_areanone_puzzle_01_U#12"
+   ]
+  },
+  {
+   "id": "FMsg/i_areanone_puzzle_01_L#13",
+   "label": "MES_EMesJig_tutorial12",
+   "style": 12,
+   "src": "{1:mode}{2:align}タッチペンでピースを移動。\n回転ボタンをタッチでピースの回転。",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[0001:0001:]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": [
+    "FMsg/i_areanone_puzzle_01_U#13",
+    "FMsg/i_areanone_puzzle_02_L#11",
+    "FMsg/i_areanone_puzzle_02_U#11"
+   ]
+  },
+  {
+   "id": "FMsg/i_areanone_puzzle_02_L#0",
+   "label": "MES_EMesJig_tutorial18_a",
+   "style": 6,
+   "src": "パネルの 下にあるボタンを\nタッチすると 選んだピースが\n回転するぞい。{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/i_areanone_puzzle_02_U#0"
+   ]
+  },
+  {
+   "id": "FMsg/i_areanone_puzzle_02_L#1",
+   "label": "MES_EMesJig_tutorial18_b",
+   "style": 6,
+   "src": "こうやって ピースを正しい向きに\nなおすことも 大事じゃぞ。{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/i_areanone_puzzle_02_U#1"
+   ]
+  },
+  {
+   "id": "FMsg/i_areanone_puzzle_02_L#2",
+   "label": "MES_EMesJig_tutorial20",
+   "style": 6,
+   "src": "たしかこんな形をしていたのう…{1:pause}",
+   "tags": {
+    "1": "[0002:0000:3C 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/i_areanone_puzzle_02_U#2"
+   ]
+  },
+  {
+   "id": "FMsg/i_areanone_puzzle_02_L#3",
+   "label": "MES_EMesJig_tutorial21",
+   "style": 6,
+   "src": "たしかこんな感じの\nでざいんじゃったのう…{1:pause}",
+   "tags": {
+    "1": "[0002:0000:3C 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/i_areanone_puzzle_02_U#3"
+   ]
+  },
+  {
+   "id": "FMsg/i_areanone_puzzle_02_L#4",
+   "label": "MES_EMesJig_tutorial23",
+   "style": 6,
+   "src": "じゅんびはいいか？ れっつごーじゃ！{1:pause}",
+   "tags": {
+    "1": "[0002:0000:3C 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/i_areanone_puzzle_02_U#4"
+   ]
+  },
+  {
+   "id": "FMsg/i_areanone_puzzle_02_L#5",
+   "label": "MES_EMesJig_tutorial24",
+   "style": 6,
+   "src": "{1:align}３０秒経過じゃ！",
+   "tags": {
+    "1": "[0001:0004:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/i_areanone_puzzle_02_U#5"
+   ]
+  },
+  {
+   "id": "FMsg/i_areanone_puzzle_02_L#6",
+   "label": "MES_EMesJig_tutorial25",
+   "style": 6,
+   "src": "{1:align}{2:var}分経過じゃ！",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0003:0000:00 00 02 00 00 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/i_areanone_puzzle_02_U#6"
+   ]
+  },
+  {
+   "id": "FMsg/i_areanone_puzzle_02_L#7",
+   "label": "MES_EMesJig_tutorial26",
+   "style": 6,
+   "src": "{1:align}{2:var}分３０秒経過じゃ！",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0003:0000:00 00 02 00 00 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/i_areanone_puzzle_02_U#7"
+   ]
+  },
+  {
+   "id": "FMsg/i_areanone_puzzle_02_L#8",
+   "label": "MES_EMesJig_tutorial27",
+   "style": 6,
+   "src": "{1:align}ちと おそすぎるのう…",
+   "tags": {
+    "1": "[0001:0004:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/i_areanone_puzzle_02_U#8"
+   ]
+  },
+  {
+   "id": "FMsg/i_areanone_puzzle_02_L#9",
+   "label": "MES_EMesJig_tutorial28",
+   "style": 12,
+   "src": "{1:align}リタイアしますか？{2:pause}\n{3:choice}{4:indent}リタイアする\n{5:choice}{6:indent}やりなおす\n{7:choice}{8:indent}つづける{9:pause}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0000:0A 00]",
+    "3": "[0004:0001:]",
+    "4": "[0006:0001:14 00]",
+    "5": "[0004:0001:]",
+    "6": "[0006:0001:14 00]",
+    "7": "[0004:0001:]",
+    "8": "[0006:0001:14 00]",
+    "9": "[0002:0000:0A 00]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": [
+    "FMsg/i_areanone_puzzle_02_U#9"
+   ]
+  },
+  {
+   "id": "FMsg/i_areanone_puzzle_02_L#10",
+   "label": "MES_EMesJig_tutorial29",
+   "style": 3,
+   "src": "{1:mode}やめる",
+   "tags": {
+    "1": "[0005:0000:]"
+   },
+   "header": "[0009:0000:03 00]",
+   "dups": [
+    "FMsg/i_areanone_puzzle_02_U#10"
+   ]
+  },
+  {
+   "id": "FMsg/i_areanone_puzzle_02_L#12",
+   "label": "MES_EMesJig_tutorial13",
+   "style": 6,
+   "src": "おぬしも ジグソーパズルくらい\nやったことあるじゃろ。{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/i_areanone_puzzle_02_U#12"
+   ]
+  },
+  {
+   "id": "FMsg/i_areanone_puzzle_02_L#13",
+   "label": "MES_EMesJig_tutorial14",
+   "style": 6,
+   "src": "見てのとおり\nバラバラになったピースを\n正確に はめていくだけじゃ。{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/i_areanone_puzzle_02_U#13"
+   ]
+  },
+  {
+   "id": "FMsg/i_areanone_puzzle_02_L#14",
+   "label": "MES_EMesJig_tutorial15",
+   "style": 6,
+   "src": "タッチペンを用意するのじゃ。\nタッチペンで ピースを\nタッチするのじゃ。{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/i_areanone_puzzle_02_U#14"
+   ]
+  },
+  {
+   "id": "FMsg/i_areanone_puzzle_02_L#15",
+   "label": "MES_EMesJig_tutorial16",
+   "style": 6,
+   "src": "ピースをタッチしたまま パネルの\n上に移動するのじゃ。{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/i_areanone_puzzle_02_U#15"
+   ]
+  },
+  {
+   "id": "FMsg/i_areanone_puzzle_02_L#16",
+   "label": "MES_EMesJig_tutorial17",
+   "style": 6,
+   "src": "ピースが パネルにはまって\n動かせなくなったら\nそこが正解の場所じゃ。{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/i_areanone_puzzle_02_U#16"
+   ]
+  },
+  {
+   "id": "FMsg/i_areanone_puzzle_02_L#17",
+   "label": "MES_EMesJig_tutorial18",
+   "style": 6,
+   "src": "パネルの 下にあるボタンを\nタッチすると 選んだピースが\n回転するぞい。{1:wait}[Next]{2:align}こうやって ピースを正しい向きに\nなおすことも 大事じゃぞ。{3:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0001:0004:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/i_areanone_puzzle_02_U#17"
+   ]
+  },
+  {
+   "id": "FMsg/i_areanone_puzzle_02_L#18",
+   "label": "MES_EMesJig_tutorial19",
+   "style": 6,
+   "src": "こうやって 絵を完成させるだけじゃ。\nかんたんじゃろ？{1:wait}[Next]説明は以上じゃ。わかったか？{2:pause}\n{3:align}{4:choice}いいえ{5:tab}{6:choice}はい{7:pause}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0000:0A 00]",
+    "3": "[0001:0001:]",
+    "4": "[0004:0001:]",
+    "5": "[0006:0000:28 00]",
+    "6": "[0004:0001:]",
+    "7": "[0002:0000:0A 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/i_areanone_puzzle_02_U#18"
+   ]
+  }
+ ]
+}

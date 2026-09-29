@@ -1,0 +1,33 @@
+{
+ "source": "Msg/JP_ja/FMsg.dat:o_town_24",
+ "messages": [
+  {
+   "id": "FMsg/o_town_24#0",
+   "label": "MES_TKinoko_24_Kinoko_town_kinopio_01",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]メタコロ[Ruby 病;びょう]を [Ruby 予防;よぼう]するために\n[Ruby 部屋;へや]を サウナみたいに\nあつ～く しているんです。[0002:0001:][Next]アセをたくさん かけば\n[Ruby 太;ふと]らないはず！[0002:0000:0A 00]\nだから [Ruby 火;ひ]は[Ruby 消;け]しちゃだめですよ。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_24#1",
+   "label": "MES_TKinoko_24_Kinoko_town_kinopio_01_2",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ふー ふー ふー！[0002:0000:0A 00]\nふー ふー ふー！[0002:0001:][Next]アセかいて やせるぞ～！[0002:0000:0A 00]\nふー ふー ふー！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_24#2",
+   "label": "MES_TKinoko_24_Kinoko_town_kinopio_01_4",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]あ！ マリオさん！[0002:0001:][Next][Ruby 見;み]てください！[0002:0000:0A 00]\nメタコロ[Ruby 病;びょう]が [Ruby 治;なお]ったんです！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_24#3",
+   "label": "MES_TKinoko_24_Kinoko_town_kinopio_01_5",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]メタコロ[Ruby 病;びょう]が\n[Ruby 治;なお]ったそうですね！[0002:0001:]"
+  }
+ ]
+}

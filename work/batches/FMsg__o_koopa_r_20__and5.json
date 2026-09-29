@@ -1,0 +1,1363 @@
+{
+ "batch": "FMsg__o_koopa_r_20__and5",
+ "rooms": [
+  "o_koopa_r_20",
+  "o_koopa_r_22",
+  "o_koopa_r_24",
+  "o_koopa_r_27",
+  "o_koopa_r_31",
+  "o_koopa_r_33"
+ ],
+ "ds_rooms": [
+  "06D",
+  "06E",
+  "07A",
+  "07C",
+  "145"
+ ],
+ "ds_reference": [
+  "DS06D#0: 요즘 버섯 왕국에서 선풍적 인기!\n셰이프 러닝!![Next]회전하는 바닥의 반대로 걸으면\n허리 주변에 탄력이 생긴다![Next]회전하는 방향으로 걸으면…\n그곳은 파라다이스 월드!![Next]걸으면서 펀치를 하면\n하늘을 나는 기분!![Next]자! 이대로 쿠파 성까지\n고! 고고! 고―――!!",
+  "DS06D#1: 아~ 배고파~",
+  "DS06D#2: 나가고 싶어~",
+  "DS06D#3: 아~ 허리 아파…",
+  "DS06D#4: 계속 서 있는 거\n너무 피곤해~",
+  "DS06D#5: 빨리 쿠파님\n안 오시나~",
+  "DS06D#6: 나왔다~!",
+  "DS06D#7: 쿠파님~!",
+  "DS06D#8: 감사합니다~!",
+  "DS06D#9: 헤이호 군단이 동료가 되었다!\n배틀에서 헤이호부대를\n사용할 수 있게 되었다![Next]연습해 볼까요?\n예  아니요",
+  "DS06D#10: 좋아!\n너희들도 가자!!",
+  "DS06D#11: 겨우 나왔네~",
+  "DS06D#12: 역시 쿠파님은 달라~!",
+  "DS06D#13: 어이!\n뭘 꾸물대는…",
+  "DS06D#14: 뭘 꾸물대는 거냐…",
+  "DS06D#15: 당장 출발한다!!",
+  "DS06D#16: 옙!!",
+  "DS06D#17: 앗! 마리오다!",
+  "DS06D#18: 마리오다!",
+  "DS06D#19: 수염 난 마리오다!",
+  "DS06D#20: 어이! 뒤에 있는\n초록색 수염은 누구지?",
+  "DS06D#21: 누굴까?",
+  "DS06D#22: 몰라…",
+  "DS06D#23: 마리오 흉내를\n내고 있는 거 아냐?",
+  "DS06D#24: 맞아!",
+  "DS06D#25: 바로 그거야!",
+  "DS06D#26: 그런데\n색이 달라!",
+  "DS06D#27: 진짜네!\n마리오는 빨간색인데!",
+  "DS06D#28: 틀렸네!",
+  "DS06D#29: 촌스러워!",
+  "DS06D#30: 어이! 아무나 가서\n색이 틀렸다고 알려 줘!",
+  "DS06D#31: 뭐~?",
+  "DS06D#32: 그냥 내버려 둬!\n재밌잖아~",
+  "DS06E#0: 무하하하하하!",
+  "DS06E#1: 쿠파!\n이번엔 아까처럼\n되진 않을 것이다!!",
+  "DS06E#2: 뭘 중얼거리는 거냐!\n당장 덤벼라!!",
+  "DS06E#3: 크하!!",
+  "DS06E#4: 흥!!\n큰소리칠 수 있는 것도\n지금뿐인 줄 알아라!!",
+  "DS06E#5: 간다!! 까르코비츠님이\n준비해 주신\n스페셜 무기!!",
+  "DS06E#6: 슈퍼 울트라 원더\n얼티메이트 섹시\n그레이트 아이언 볼…",
+  "DS06E#7: 발사!",
+  "DS06E#8: 크으으으으!!!",
+  "DS06E#9: 우오오오!!!!",
+  "DS06E#10: 크아아아아아!!!",
+  "DS06E#11: 미라클 파워풀\n쿠파 스페셜…[Next]아이언 볼 리턴!!",
+  "DS06E#12: 먹어라아아아!!",
+  "DS06E#13: 흥!!",
+  "DS06E#14: 얄팍한 수작을 부리다니…",
+  "DS06E#15: 하지만…",
+  "DS06E#16: 이 몸의 성이…",
+  "DS06E#17: 용서 못 해!!",
+  "DS07A#0: ←지상으로 돌아가려면 이쪽\n→쿠파 성 지름길은 이쪽",
+  "DS07C#0: 또 무슨 수작을 부릴 셈이군.",
+  "DS07C#1: 무슨 짓을 하든\n배로 갚아 주겠다!!",
+  "DS145#0: 오더 플리즈?\n장비 사기\n아이템 사기\n블캐츠에 대해\n구입하지 않음",
+  "DS145#1: 오우! 신사!\n이 블록을 지나치지 않았군요.[Next]왓 디스 블록!?\n이 블록은! 맞습니다!\n상점블록입니다![Next]이 블록이 있다면\n언제든지 쇼핑을\n즐길 수 있습니다.[Next]예전에 우리 블도그를\n찾으러 다니면서 여러 장소에\n세팅해 두었습니다.[Next]이제 언제든지\n신사와 만날 수 있겠군요.\n하우 나이스![Next]자, 신사.\n왓 두 유 원트?",
+  "DS145#2: 오더 플리즈?\n장비 사기\n아이템 사기\n블캐츠에 대해\n구입하지 않음",
+  "DS145#3: 오더 플리즈?\n장비 사기\n아이템 사기\n구입하지 않음",
+  "DS145#4: 귀여운 블캐츠를\n많이 찾으셨군요.[Next]시간 날 때\n미가 있는 곳으로 커밍!\n사례를 해 드리겠습니다!",
+  "DS145#5: 수집한 블캐츠 보기\n블캐츠가 뭐더라?\n뒤로",
+  "DS145#6: 하이, 신사~\n컨디션은 어떠신가요?[Next]귀여운 블캐츠는\n많이 수집했나요~?",
+  "DS145#7: 하이~ 신사~\n항상 이용해 줘서 땡큐 베리 머치~",
+  "DS145#8: 헬로~ 신사~\n하우 아 유?[Next]가끔은 미가 있는 곳으로\n컴 백 플리즈~",
+  "DS145#9: 원하신다면 음이온의 파워로\n회복도 시켜 드릴 수 있어요~![Next]HP나 SP가 줄었다면\n꼭 한번 해 보세요, 플리즈~",
+  "DS145#10: 음이온으로\n완전 회복하실래요~?\n10코인이면 오케이입니다!\n회복한다  하지 않는다",
+  "DS145#11: 음이온\n고~~~!!!",
+  "DS145#12: 쏘리… 신사…\n코인이 부족해요…",
+  "DS145#13: HP와 SP 완전 회복!!",
+  "DS145#14: 트",
+  "DS145#15: 귀여운 블캐츠에 대해\n길~게 말해도 될까요?\n듣기  듣지 않기",
+  "DS145#16: 공사의 엘리트 집단\n쪼르뚜 형제의 알림.[Next]↑쿠파 성으로 가는\n이 앞의 지름길은\n공사 중이므로 통행금지.[Next]위로 올라타서 점프하고\n그대로 쿵!! 내려가면\n위험하므로 삼가시오.[Next]특히 체중이 무거운 사람은\n바닥이 꺼질 우려가 있음.[Next]부상을 당할 경우, 쪼르뚜 형제는\n일절 책임을 지지 않으므로\n스스로 주의하시길…"
+ ],
+ "glossary": [
+  {
+   "jp": "ジャンプ",
+   "ko": "점프",
+   "type": "ability",
+   "basis": "DS",
+   "source": "BData__mfset_Help#9",
+   "note": "필드 액션·배틀 커맨드 공통 [gl_attacks]"
+  },
+  {
+   "jp": "パンチ",
+   "ko": "펀치",
+   "type": "ability",
+   "basis": "DS",
+   "source": "BData__mfset_Help#14",
+   "note": "필드 액션·배틀 커맨드 공통 [gl_attacks]"
+  },
+  {
+   "jp": "ばくはつ",
+   "ko": "폭발",
+   "type": "attack",
+   "basis": "coined",
+   "source": "BMsg/b_sys#1670",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "ボコスカヘイホー",
+   "ko": "헤이호부대",
+   "type": "attack",
+   "basis": "DS",
+   "source": "BData__mfset_AItmN#7",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "クッパ",
+   "ko": "쿠파",
+   "type": "character",
+   "basis": "DS",
+   "source": "BData__mfset_Help#21",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "ゲラコビッツ",
+   "ko": "까르코비츠",
+   "type": "character",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesOutline#5",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "チョロプー兄弟",
+   "ko": "쪼르뚜 형제",
+   "type": "character",
+   "basis": "DS",
+   "source": "o_koopa_r_33#0 ↔ DS145#16",
+   "note": "room-align"
+  },
+  {
+   "jp": "マリオ",
+   "ko": "마리오",
+   "type": "character",
+   "basis": "DS",
+   "source": "BData__mfset_Help#19",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "緑のヒゲ",
+   "ko": "초록색 수염",
+   "type": "character",
+   "basis": "DS",
+   "source": "o_peach_t_06_lastboss_01_U#3 ↔ DS223#9 (쿠파가 루이지를 부르는 말)",
+   "note": "room-align"
+  },
+  {
+   "jp": "ヘイホー",
+   "ko": "헤이호",
+   "type": "enemy",
+   "basis": "DS",
+   "source": "FEvent:048#35",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "メット",
+   "ko": "하잉바",
+   "type": "enemy",
+   "basis": "official",
+   "source": "https://namu.wiki/w/%EB%A7%88%EB%A6%AC%EC%98%A4%26%EB%A3%A8%EC%9D%B4%EC%A7%80%20RPG%201%20DX",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "ばくはつチキン",
+   "ko": "폭발치킨",
+   "type": "item",
+   "basis": "DS",
+   "source": "BData__mfset_UItmN#72",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "キノコ",
+   "ko": "버섯",
+   "type": "item",
+   "basis": "DS",
+   "source": "BData__mfset_UItmN#0",
+   "note": "일반 명사 キノコ도 버섯(キノコタウン=버섯 타운) [gl_items]"
+  },
+  {
+   "jp": "ゴーストクッキー",
+   "ko": "고스트쿠키",
+   "type": "item",
+   "basis": "official",
+   "source": "https://www.mariowiki.com/Boo_Biscuit",
+   "note": "3DX 신규(DS엔 없음). 정발작(드림 어드벤처·브라더십 등) Boo Biscuit의 한국어명(위키 기재, 출처 미표기) [gl_items]"
+  },
+  {
+   "jp": "チーズ",
+   "ko": "치즈",
+   "type": "item",
+   "basis": "coined",
+   "source": "Item:N_Cheese",
+   "note": "3DX 신규(쿠파 BP 회복). DS 시럽 계열 짜임 [gl_items]"
+  },
+  {
+   "jp": "チーズチキン",
+   "ko": "치즈치킨",
+   "type": "item",
+   "basis": "coined",
+   "source": "Item:N_CheeseChicken",
+   "note": "3DX 신규(쿠파 HP·BP 완전 회복). DS 치킨 짜임 [gl_items]"
+  },
+  {
+   "jp": "ミラクルチーズ",
+   "ko": "미라클치즈",
+   "type": "item",
+   "basis": "coined",
+   "source": "Item:N_MaxCheese",
+   "note": "3DX 신규. DS ミラクル=미라클 [gl_items]"
+  },
+  {
+   "jp": "リフレッシュハーブ",
+   "ko": "회복허브",
+   "type": "item",
+   "basis": "DS",
+   "source": "BData__mfset_UItmN#30",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "シェイプランニング",
+   "ko": "셰이프 러닝",
+   "type": "object",
+   "basis": "DS",
+   "source": "o_koopa_r_24#33 ↔ DS06D#0",
+   "note": "room-align"
+  },
+  {
+   "jp": "ヘイホー軍団",
+   "ko": "헤이호 군단",
+   "type": "other",
+   "basis": "DS",
+   "source": "FEvent#048.35",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "ムッシュ",
+   "ko": "신사",
+   "type": "other",
+   "basis": "DS",
+   "source": "SAI__SMes_yo#0.97",
+   "note": "블로크의 호칭(ムッシュ～ → 신사~) [gl_menu_places]"
+  },
+  {
+   "jp": "キノコ王国",
+   "ko": "버섯 왕국",
+   "type": "place",
+   "basis": "DS",
+   "source": "FEvent:011#0",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "クッパ城",
+   "ko": "쿠파 성",
+   "type": "place",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesPlace#6",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "クッパ城近道",
+   "ko": "쿠파 성 지름길",
+   "type": "place",
+   "basis": "DS",
+   "source": "DS07A#0",
+   "note": "표지판 [gl_menu_places]"
+  },
+  {
+   "jp": "近道",
+   "ko": "지름길",
+   "type": "place",
+   "basis": "DS",
+   "source": "DS07A#0",
+   "note": "[gl_menu_places]"
+  },
+  {
+   "jp": "アップ",
+   "ko": "업",
+   "type": "term",
+   "basis": "DS",
+   "source": "FEvent:0EC#11",
+   "note": "「POWアップ」→'POW 업'(DS '파워 업') [gl_kj]"
+  },
+  {
+   "jp": "クッパ様",
+   "ko": "쿠파님",
+   "type": "term",
+   "basis": "DS",
+   "source": "BAI__BMes_cf:0#0",
+   "note": "부하들이 부를 때 [gl_kj]"
+  },
+  {
+   "jp": "コイン",
+   "ko": "코인",
+   "type": "term",
+   "basis": "DS",
+   "source": "BData__mfset_WearE#22",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "チキン",
+   "ko": "치킨",
+   "type": "term",
+   "basis": "DS",
+   "source": "BData__mfset_WearE#98",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "バトル",
+   "ko": "배틀",
+   "type": "term",
+   "basis": "DS",
+   "source": "BAI__BMes_cf#2.13",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "ヒゲ",
+   "ko": "수염",
+   "type": "term",
+   "basis": "DS",
+   "source": "DS '수염' 21회",
+   "note": ""
+  },
+  {
+   "jp": "ムッシュ～",
+   "ko": "신사",
+   "type": "term",
+   "basis": "DS",
+   "source": "o_koopa_37#3 ↔ DS23C#8",
+   "note": "room-align"
+  },
+  {
+   "jp": "ワガハイ",
+   "ko": "이 몸",
+   "type": "term",
+   "basis": "DS",
+   "source": "FEvent:025#7",
+   "note": "쿠파의 1인칭 [gl_kj]"
+  },
+  {
+   "jp": "仲間",
+   "ko": "동료",
+   "type": "term",
+   "basis": "DS",
+   "source": "FEvent:048#29",
+   "note": "「仲間になった」→'동료가 되었다' [gl_kj]"
+  },
+  {
+   "jp": "軍団",
+   "ko": "군단",
+   "type": "term",
+   "basis": "DS",
+   "source": "BAI__BMes_cf#0.20",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "はいっぱいです！",
+   "ko": "FULL!",
+   "type": "ui",
+   "basis": "DS",
+   "source": "BData__mfset_UItmN#2",
+   "note": "소지 한도 메시지. DS는 '이름 FULL!' 형식(버섯 FULL!): 이름 뒤 한 칸 띄우고 FULL! [gl_items]"
+  },
+  {
+   "jp": "練習",
+   "ko": "연습",
+   "type": "ui",
+   "basis": "DS",
+   "source": "DS16A#13",
+   "note": "[gl_menu_places]"
+  }
+ ],
+ "messages": [
+  {
+   "id": "FMsg/o_koopa_r_20#0",
+   "label": "MES_BPITEM_e_chicken",
+   "style": 12,
+   "src": "{1:align}{2:align}{3:mode}ばくはつチキン{4:pause}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0005:0000:]",
+    "4": "[0002:0000:1E 00]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": [
+    "FMsg/o_peach_2f_16#0",
+    "FMsg/o_test_mo_04#0",
+    "FMsg/o_zutsuda_12#0"
+   ]
+  },
+  {
+   "id": "FMsg/o_koopa_r_20#1",
+   "label": "MES_BPITEM_r_herb_false",
+   "style": 12,
+   "src": "{1:mode}{2:color}リフレッシュハーブ{3:color}はいっぱいです！{4:pause}{5:wait}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[Color #4ED4FF]",
+    "3": "[Color #E6E6E6]",
+    "4": "[0002:0000:1E 00]",
+    "5": "[0002:0001:]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": [
+    "FMsg/o_peach_2f_16#1",
+    "FMsg/o_test_mo_04#1",
+    "FMsg/o_zutsuda_12#1"
+   ]
+  },
+  {
+   "id": "FMsg/o_koopa_r_20#2",
+   "label": "MES_BPITEM_r_herb",
+   "style": 12,
+   "src": "{1:align}{2:align}{3:mode}リフレッシュハーブ{4:pause}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0005:0000:]",
+    "4": "[0002:0000:1E 00]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": [
+    "FMsg/o_peach_2f_16#2",
+    "FMsg/o_test_mo_04#4",
+    "FMsg/o_zutsuda_12#2"
+   ]
+  },
+  {
+   "id": "FMsg/o_koopa_r_20#3",
+   "label": "MES_BPITEM_m_cheese_false",
+   "style": 12,
+   "src": "{1:mode}{2:color}ミラクルチーズ{3:color}はいっぱいです！{4:pause}{5:wait}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[Color #4ED4FF]",
+    "3": "[Color #E6E6E6]",
+    "4": "[0002:0000:1E 00]",
+    "5": "[0002:0001:]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": [
+    "FMsg/o_peach_2f_16#3",
+    "FMsg/o_test_mo_04#5",
+    "FMsg/o_zutsuda_12#3"
+   ]
+  },
+  {
+   "id": "FMsg/o_koopa_r_20#4",
+   "label": "MES_BPITEM_m_cheese",
+   "style": 12,
+   "src": "{1:align}{2:align}{3:mode}ミラクルチーズ{4:pause}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0005:0000:]",
+    "4": "[0002:0000:1E 00]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": [
+    "FMsg/o_peach_2f_16#4",
+    "FMsg/o_test_mo_04#6",
+    "FMsg/o_zutsuda_12#4"
+   ]
+  },
+  {
+   "id": "FMsg/o_koopa_r_20#5",
+   "label": "MES_BPITEM_e_chicken_false",
+   "style": 12,
+   "src": "{1:mode}{2:color}ばくはつチキン{3:color}はいっぱいです！{4:pause}{5:wait}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[Color #4ED4FF]",
+    "3": "[Color #E6E6E6]",
+    "4": "[0002:0000:1E 00]",
+    "5": "[0002:0001:]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": [
+    "FMsg/o_peach_2f_16#5",
+    "FMsg/o_test_mo_04#7",
+    "FMsg/o_zutsuda_12#5"
+   ]
+  },
+  {
+   "id": "FMsg/o_koopa_r_20#6",
+   "label": "MES_BPITEM_g_cookie",
+   "style": 12,
+   "src": "{1:align}{2:align}{3:mode}ゴーストクッキー{4:pause}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0005:0000:]",
+    "4": "[0002:0000:1E 00]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": [
+    "FMsg/o_peach_2f_16#6",
+    "FMsg/o_test_mo_04#8",
+    "FMsg/o_zutsuda_12#6"
+   ]
+  },
+  {
+   "id": "FMsg/o_koopa_r_20#7",
+   "label": "MES_BPITEM_100coin",
+   "style": 12,
+   "src": "{1:align}{2:align}{3:mode}１００コイン{4:pause}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0005:0000:]",
+    "4": "[0002:0000:1E 00]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": [
+    "FMsg/o_peach_2f_16#7",
+    "FMsg/o_test_mo_04#9",
+    "FMsg/o_zutsuda_12#7"
+   ]
+  },
+  {
+   "id": "FMsg/o_koopa_r_20#8",
+   "label": "MES_BPITEM_c_chicken_false",
+   "style": 12,
+   "src": "{1:mode}{2:color}チーズチキン{3:color}はいっぱいです！{4:pause}{5:wait}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[Color #4ED4FF]",
+    "3": "[Color #E6E6E6]",
+    "4": "[0002:0000:1E 00]",
+    "5": "[0002:0001:]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": [
+    "FMsg/o_peach_2f_16#8",
+    "FMsg/o_test_mo_04#10",
+    "FMsg/o_zutsuda_12#8"
+   ]
+  },
+  {
+   "id": "FMsg/o_koopa_r_20#9",
+   "label": "MES_BPITEM_g_cookie_false",
+   "style": 12,
+   "src": "{1:mode}{2:color}ゴーストクッキー{3:color}はいっぱいです！{4:pause}{5:wait}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[Color #4ED4FF]",
+    "3": "[Color #E6E6E6]",
+    "4": "[0002:0000:1E 00]",
+    "5": "[0002:0001:]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": [
+    "FMsg/o_peach_2f_16#9",
+    "FMsg/o_test_mo_04#11",
+    "FMsg/o_zutsuda_12#9"
+   ]
+  },
+  {
+   "id": "FMsg/o_koopa_r_20#10",
+   "label": "MES_BPITEM_c_chicken",
+   "style": 12,
+   "src": "{1:align}{2:align}{3:mode}チーズチキン{4:pause}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0005:0000:]",
+    "4": "[0002:0000:1E 00]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": [
+    "FMsg/o_peach_2f_16#10",
+    "FMsg/o_test_mo_04#12",
+    "FMsg/o_zutsuda_12#10"
+   ]
+  },
+  {
+   "id": "FMsg/o_koopa_r_22#0",
+   "label": "MES_EOtapuku_22_EO22_kanban_mes",
+   "style": 12,
+   "src": "{1:align}{2:align}{3:mode}← 地上にもどるにはこちら\n→ クッパ城近道はこちら{4:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0005:0000:]",
+    "4": "[0002:0001:]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_koopa_r_24#0",
+   "label": "MES_EOtapuku_24_EO24_heyho_ml_10",
+   "style": 6,
+   "src": "{1:align}それにしては\n色を まちがってるぞ。{2:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_koopa_r_24#1",
+   "label": "MES_EOtapuku_24_EO24_heyho_ml_11",
+   "style": 6,
+   "src": "{1:align}ほんとだ！\nマリオは 赤なのに！{2:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_koopa_r_24#2",
+   "label": "MES_EOtapuku_24_EO24_heyho_ml_12",
+   "style": 6,
+   "src": "{1:align}{2:align}{3:mode}まちがってる！{4:pause}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0005:0000:]",
+    "4": "[0002:0000:14 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_koopa_r_24#3",
+   "label": "MES_EOtapuku_24_EO24_heyho_ml_13",
+   "style": 6,
+   "src": "{1:align}{2:align}{3:mode}ダサい！{4:pause}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0005:0000:]",
+    "4": "[0002:0000:14 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_koopa_r_24#4",
+   "label": "MES_EOtapuku_24_EO24_heyho_ml_14",
+   "style": 6,
+   "src": "{1:align}おい。だれか\n色がちがうって 教えてあげなよ。{2:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_koopa_r_24#5",
+   "label": "MES_EOtapuku_24_EO24_heyho_ml_15",
+   "style": 6,
+   "src": "{1:align}{2:align}え～{3:pause}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0000:14 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_koopa_r_24#6",
+   "label": "MES_EOtapuku_24_EO24_koopa_01",
+   "style": 6,
+   "src": "{1:align}よし！\nオマエらも 行くぞ！！{2:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_koopa_r_24#7",
+   "label": "MES_EOtapuku_24_EO24_heyho_ml_16",
+   "style": 6,
+   "src": "{1:align}これは これで\nおもしろいのに～{2:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_koopa_r_24#8",
+   "label": "MES_EOtapuku_24_EO24_koopa_02",
+   "style": 6,
+   "src": "{1:align}おいっ！\nなに グダグダ言って…{2:pause}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0000:14 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_koopa_r_24#9",
+   "label": "MES_EOtapuku_24_EO24_koopa_03",
+   "style": 6,
+   "src": "{1:align}なに グダグダ言ってる…{2:pause}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0000:14 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_koopa_r_24#10",
+   "label": "MES_EOtapuku_24_EO24_koopa_04",
+   "style": 9,
+   "src": "{1:align}{2:align}{3:mode}はやく 行くぞ！！{4:pause}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0005:0000:]",
+    "4": "[0002:0000:14 00]"
+   },
+   "header": "[0009:0000:09 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_koopa_r_24#11",
+   "label": "MES_EOtapuku_24_EO24_sys_heyho_get",
+   "style": 12,
+   "src": "{1:mode}{2:align}{3:align}ヘイホー軍団が 仲間になった！\nバトルで {4:color}ボコスカヘイホー{5:color}{6:color}が\n使えるようになるぞ！{7:pause}{8:wait}[Next]{9:mode}{10:align}{11:align}練習して いきますか？{12:pause}\n{13:align}{14:choice}いいえ{15:tab}{16:choice}はい{17:pause}{18:color}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[0001:0004:]",
+    "3": "[0001:0001:]",
+    "4": "[Color #4ED4FF]",
+    "5": "[Color #E6E6E6]",
+    "6": "[Color #373737]",
+    "7": "[0002:0000:1E 00]",
+    "8": "[0002:0001:]",
+    "9": "[0005:0000:]",
+    "10": "[0001:0004:]",
+    "11": "[0001:0001:]",
+    "12": "[0002:0000:0A 00]",
+    "13": "[0001:0001:]",
+    "14": "[0004:0001:]",
+    "15": "[0006:0000:28 00]",
+    "16": "[0004:0001:]",
+    "17": "[0002:0000:0A 00]",
+    "18": "[Color #E6E6E6]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_koopa_r_24#13",
+   "label": "MES_EOtapuku_24_EO24_heyho_resc_04_2",
+   "style": 6,
+   "src": "{1:align}はやく クッパ様が\nきてくれないかな～{2:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_koopa_r_24#14",
+   "label": "MES_EOtapuku_24_EO24_heyho_resc_01",
+   "style": 6,
+   "src": "{1:align}{2:align}お腹 空いたな～{3:pause}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0000:1E 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_koopa_r_24#15",
+   "label": "MES_EOtapuku_24_EO24_heyho_resc_02",
+   "style": 6,
+   "src": "{1:align}{2:align}はやく 出たいよ～{3:pause}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0000:1E 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_koopa_r_24#16",
+   "label": "MES_EOtapuku_24_EO24_heyho_resc_03",
+   "style": 6,
+   "src": "{1:align}{2:align}あ～ こしが痛い…{3:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_koopa_r_24#17",
+   "label": "MES_EOtapuku_24_EO24_heyho_resc_04",
+   "style": 6,
+   "src": "{1:align}立ちっぱなしは\nつかれるな～{2:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_koopa_r_24#18",
+   "label": "MES_EOtapuku_24_EO24_heyho_ml_01",
+   "style": 6,
+   "src": "{1:align}{2:align}あっ！ マリオだ！{3:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_koopa_r_24#19",
+   "label": "MES_EOtapuku_24_EO24_heyho_ml_02",
+   "style": 6,
+   "src": "{1:align}{2:align}{3:mode}マリオだ！{4:pause}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0005:0000:]",
+    "4": "[0002:0000:14 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_koopa_r_24#20",
+   "label": "MES_EOtapuku_24_EO24_heyho_ml_03",
+   "style": 6,
+   "src": "{1:align}{2:align}{3:mode}ヒゲの マリオだ！{4:pause}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0005:0000:]",
+    "4": "[0002:0000:14 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_koopa_r_24#21",
+   "label": "MES_EOtapuku_24_EO24_heyho_ml_04",
+   "style": 6,
+   "src": "{1:align}おい。うしろの\n緑のヒゲは だれだ？{2:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_koopa_r_24#22",
+   "label": "MES_EOtapuku_24_EO24_heyho_ml_05",
+   "style": 6,
+   "src": "{1:align}{2:align}{3:mode}だれだ？{4:pause}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0005:0000:]",
+    "4": "[0002:0000:14 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_koopa_r_24#23",
+   "label": "MES_EOtapuku_24_EO24_heyho_01",
+   "style": 6,
+   "src": "{1:align}{2:align}出られた～！{3:pause}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0000:28 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_koopa_r_24#24",
+   "label": "MES_EOtapuku_24_EO24_heyho_ml_06",
+   "style": 6,
+   "src": "{1:align}{2:align}{3:mode}知らない。{4:pause}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0005:0000:]",
+    "4": "[0002:0000:14 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_koopa_r_24#25",
+   "label": "MES_EOtapuku_24_EO24_heyho_02",
+   "style": 6,
+   "src": "{1:align}{2:align}クッパ様～！{3:pause}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0000:28 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_koopa_r_24#26",
+   "label": "MES_EOtapuku_24_EO24_heyho_ml_07",
+   "style": 6,
+   "src": "{1:align}マリオの マネを\nしてるんじゃないか？{2:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_koopa_r_24#27",
+   "label": "MES_EOtapuku_24_EO24_heyho_03",
+   "style": 6,
+   "src": "{1:align}{2:align}ありがとうございます～！{3:pause}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0000:28 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_koopa_r_24#28",
+   "label": "MES_EOtapuku_24_EO24_heyho_ml_08",
+   "style": 6,
+   "src": "{1:align}{2:align}{3:mode}そうだ！{4:pause}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0005:0000:]",
+    "4": "[0002:0000:14 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_koopa_r_24#29",
+   "label": "MES_EOtapuku_24_EO24_heyho_04",
+   "style": 6,
+   "src": "{1:align}{2:align}やっと 出られたね～{3:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_koopa_r_24#30",
+   "label": "MES_EOtapuku_24_EO24_heyho_ml_09",
+   "style": 6,
+   "src": "{1:align}{2:align}{3:mode}きっと そうだよ！{4:pause}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0005:0000:]",
+    "4": "[0002:0000:14 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_koopa_r_24#31",
+   "label": "MES_EOtapuku_24_EO24_heyho_05",
+   "style": 6,
+   "src": "{1:align}{2:align}さすが クッパ様だよな～！{3:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_koopa_r_24#32",
+   "label": "MES_EOtapuku_24_EO24_heyho_06",
+   "style": 10,
+   "src": "{1:align}{2:align}{3:mode}はいっ！！{4:pause}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0005:0000:]",
+    "4": "[0002:0000:1E 00]"
+   },
+   "header": "[0009:0000:0A 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_koopa_r_24#33",
+   "label": "MES_EOtapuku_24_EO24_kanban_mes",
+   "style": 12,
+   "src": "{1:align}{2:align}{3:mode}今 キノコ王国中で 大人気！\n{4:color}シェイプランニング{5:color}{6:color}！！{7:wait}[Next]{8:align}{9:align}{10:mode}回転するバーに さからって歩けば\nこしまわりの シェイプアップ！{11:wait}[Next]{12:align}{13:align}{14:mode}回転する方向に 歩けば…\nそこは パラダイスワールド！！{15:wait}[Next]{16:align}{17:align}{18:color}{19:mode}{20:color}歩きながらパンチ{21:color}{22:color} なんてしたら\n{23:color}{24:color}空中に浮いちゃう{25:color}{26:color} 気分だよね！{27:wait}[Next]{28:align}{29:align}{30:mode}さあ！ このままクッパ城まで\nゴー！ ゴゴー！ ゴー！！{31:wait}{32:color}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0005:0000:]",
+    "4": "[Color #4ED4FF]",
+    "5": "[Color #E6E6E6]",
+    "6": "[Color #373737]",
+    "7": "[0002:0001:]",
+    "8": "[0001:0004:]",
+    "9": "[0001:0001:]",
+    "10": "[0005:0000:]",
+    "11": "[0002:0001:]",
+    "12": "[0001:0004:]",
+    "13": "[0001:0001:]",
+    "14": "[0005:0000:]",
+    "15": "[0002:0001:]",
+    "16": "[0001:0004:]",
+    "17": "[0001:0001:]",
+    "18": "[Color #E6E6E6]",
+    "19": "[0005:0000:]",
+    "20": "[Color #4ED4FF]",
+    "21": "[Color #E6E6E6]",
+    "22": "[Color #373737]",
+    "23": "[Color #E6E6E6]",
+    "24": "[Color #4ED4FF]",
+    "25": "[Color #E6E6E6]",
+    "26": "[Color #373737]",
+    "27": "[0002:0001:]",
+    "28": "[0001:0004:]",
+    "29": "[0001:0001:]",
+    "30": "[0005:0000:]",
+    "31": "[0002:0001:]",
+    "32": "[Color #E6E6E6]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_koopa_r_27#0",
+   "label": "MES_EOtapuku_27_EO27_koopa_01",
+   "style": 6,
+   "src": "{1:align}{2:align}また なにかをやる気だな。{3:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_koopa_r_27#1",
+   "label": "MES_EOtapuku_27_EO27_koopa_02",
+   "style": 6,
+   "src": "{1:align}なんであろうが\n返りうちに してくれるわ！！{2:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_koopa_r_31#0",
+   "label": "MES_EOtapuku_31_EO31_castle_04_2",
+   "style": 10,
+   "src": "{1:align}{2:align}ハッシャ！{3:pause}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0000:14 00]"
+   },
+   "header": "[0009:0000:0A 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_koopa_r_31#1",
+   "label": "MES_EOtapuku_31_EO31_castle_02_3",
+   "style": 9,
+   "src": "{1:align}フン！！\nツヨガッテ イラレルノモ\nイマノ ウチダ！！{2:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:09 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_koopa_r_31#2",
+   "label": "MES_EOtapuku_31_EO31_koopa_01",
+   "style": 6,
+   "src": "{1:align}なにを ごちゃごちゃ 言ってる！\nさっさと かかってきてみろ！！{2:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_koopa_r_31#3",
+   "label": "MES_EOtapuku_31_EO31_koopa_02",
+   "style": 10,
+   "src": "{1:mode}{2:align}{3:align}ぐおおおおお！！！{4:pause}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[0001:0004:]",
+    "3": "[0001:0001:]",
+    "4": "[0002:0000:1E 00]"
+   },
+   "header": "[0009:0000:0A 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_koopa_r_31#4",
+   "label": "MES_EOtapuku_31_EO31_koopa_03",
+   "style": 10,
+   "src": "{1:mode}{2:align}{3:align}おおおお！！！！{4:pause}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[0001:0004:]",
+    "3": "[0001:0001:]",
+    "4": "[0002:0000:1E 00]"
+   },
+   "header": "[0009:0000:0A 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_koopa_r_31#5",
+   "label": "MES_EOtapuku_31_EO31_koopa_06",
+   "style": 6,
+   "src": "{1:align}{2:align}ふん！！{3:pause}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0000:1E 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_koopa_r_31#6",
+   "label": "MES_EOtapuku_31_EO31_koopa_07",
+   "style": 6,
+   "src": "{1:align}{2:align}こざかしいマネを しおって。{3:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_koopa_r_31#7",
+   "label": "MES_EOtapuku_31_EO31_koopa_08",
+   "style": 6,
+   "src": "{1:align}{2:align}しかし…{3:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_koopa_r_31#8",
+   "label": "MES_EOtapuku_31_EO31_koopa_03_2",
+   "style": 10,
+   "src": "{1:mode}{2:align}{3:align}ぬおおおおおお！！！！{4:pause}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[0001:0004:]",
+    "3": "[0001:0001:]",
+    "4": "[0002:0000:1E 00]"
+   },
+   "header": "[0009:0000:0A 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_koopa_r_31#9",
+   "label": "MES_EOtapuku_31_EO31_koopa_09",
+   "style": 6,
+   "src": "{1:align}{2:align}ワガハイの城が…{3:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_koopa_r_31#10",
+   "label": "MES_EOtapuku_31_EO31_castle_01",
+   "style": 10,
+   "src": "{1:mode}{2:align}{3:align}ブハハハハハ！{4:pause}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[0001:0004:]",
+    "3": "[0001:0001:]",
+    "4": "[0002:0000:1E 00]"
+   },
+   "header": "[0009:0000:0A 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_koopa_r_31#11",
+   "label": "MES_EOtapuku_31_EO31_castle_02",
+   "style": 9,
+   "src": "{1:align}クッパ！\nコンドハ サッキノ ヨウニハ\nイカナイゾ！！{2:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:09 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_koopa_r_31#12",
+   "label": "MES_EOtapuku_31_EO31_castle_03",
+   "style": 9,
+   "src": "{1:align}イクゾ！！ ゲラコビッツ サマ ガ\nヨウイシテ クレタ\nスペシャル ウェポン！！{2:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:09 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_koopa_r_31#13",
+   "label": "MES_EOtapuku_31_EO31_castle_04",
+   "style": 9,
+   "src": "{1:align}スーパーウルトラワンダー\nアルティメットセクシー\nグレイトアイアンボール…{2:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:09 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_koopa_r_31#14",
+   "label": "MES_EOtapuku_31_EO31_koopa_10",
+   "style": 9,
+   "src": "{1:align}{2:align}ゆるさんぞっ！！{3:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:09 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_koopa_r_33#0",
+   "label": "MES_EOtapuku_33_EO32_kanban_mes",
+   "style": 12,
+   "src": "{1:align}{2:align}{3:mode}工事のエリート集団\nチョロプー兄弟からの おしらせ{4:wait}[Next]{5:align}{6:align}{7:mode}↑ この先にある\nクッパ城への近道は\n工事中のため 通れません。{8:wait}[Next]{9:align}{10:align}{11:mode}上に乗って {12:color}ジャンプして{13:color}{14:color}\nそのまま {15:color}{16:color}ドーン！！{17:color}{18:color} とすると\n危険なので おやめください。{19:wait}[Next]{20:align}{21:align}{22:mode}特に 体の重い人は\n底が抜ける 可能性があります。{23:wait}[Next]{24:align}{25:align}{26:mode}ケガをした場合 チョロプー兄弟は\n責任を負えませんので\nあしからず。{27:wait}{28:color}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0005:0000:]",
+    "4": "[0002:0001:]",
+    "5": "[0001:0004:]",
+    "6": "[0001:0001:]",
+    "7": "[0005:0000:]",
+    "8": "[0002:0001:]",
+    "9": "[0001:0004:]",
+    "10": "[0001:0001:]",
+    "11": "[0005:0000:]",
+    "12": "[Color #4ED4FF]",
+    "13": "[Color #E6E6E6]",
+    "14": "[Color #373737]",
+    "15": "[Color #E6E6E6]",
+    "16": "[Color #4ED4FF]",
+    "17": "[Color #E6E6E6]",
+    "18": "[Color #373737]",
+    "19": "[0002:0001:]",
+    "20": "[0001:0004:]",
+    "21": "[0001:0001:]",
+    "22": "[0005:0000:]",
+    "23": "[0002:0001:]",
+    "24": "[0001:0004:]",
+    "25": "[0001:0001:]",
+    "26": "[0005:0000:]",
+    "27": "[0002:0001:]",
+    "28": "[Color #E6E6E6]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_koopa_r_33#8",
+   "label": "MES_Shop_blk_mes_13",
+   "style": 6,
+   "src": "{1:align}ボンジュ～ル ムッシュ～\nまいど ご利用 メルシ～ね。{2:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_koopa_r_33#9",
+   "label": "MES_Shop_blk_mes_14",
+   "style": 6,
+   "src": "{1:align}ハロ～ ムッシュ～\nコマンタレブ？{2:wait}[Next]{3:align}たまには ミーのところに\nカムバック シルブプレ。{4:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]",
+    "3": "[0001:0004:]",
+    "4": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  }
+ ]
+}

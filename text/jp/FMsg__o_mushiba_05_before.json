@@ -1,0 +1,201 @@
+{
+ "source": "Msg/JP_ja/FMsg.dat:o_mushiba_05_before",
+ "messages": [
+  {
+   "id": "FMsg/o_mushiba_05_before#0",
+   "label": "MES_Mushiba_05_before_Mushiba_brilock_38",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ワガハイの チカラを\n[Ruby 見;み]せてやるわ！！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_mushiba_05_before#1",
+   "label": "MES_Mushiba_05_before_Mushiba_brilock_01",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ヘ～イ！[0002:0000:32 00]"
+  },
+  {
+   "id": "FMsg/o_mushiba_05_before#2",
+   "label": "MES_Mushiba_05_before_Mushiba_brilock_02",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ヘイヘイヘイ！[0002:0000:0A 00]\nそこの ムッシュ～！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_mushiba_05_before#3",
+   "label": "MES_Mushiba_05_before_Mushiba_brilock_03",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]そこの ムッシュ～！[0002:0000:0A 00]\nヘルプミー！[0002:0000:0A 00]\n[Ruby 助;たす]けて シルブプレ～！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_mushiba_05_before#4",
+   "label": "MES_Mushiba_05_before_Mushiba_brilock_04",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]なんだ オマエは？\nそこで なにをしているんだ？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_mushiba_05_before#5",
+   "label": "MES_Mushiba_05_before_Mushiba_brilock_05",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]オウ！[0002:0000:0A 00] ボンジュール ムッシュ～[0002:0000:0A 00]\nここでなにを？ とたずねられても…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_mushiba_05_before#6",
+   "label": "MES_Mushiba_05_before_Mushiba_brilock_06",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ルック！[0002:0000:0A 00] このとおり ミーは\nミーの コレクションを\nクリーニング していたのですが…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_mushiba_05_before#7",
+   "label": "MES_Mushiba_05_before_Mushiba_brilock_07",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ビーチに もどる[Ruby 橋;はし]が\nこわれて しまって\nこまっていたんですよ！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_mushiba_05_before#8",
+   "label": "MES_Mushiba_05_before_Mushiba_brilock_08",
+   "style": 7,
+   "attr": "00000000",
+   "jp": "[0009:0000:07 00][0005:0000:][0001:0004:]ガハハハハ！[0002:0000:24 00]"
+  },
+  {
+   "id": "FMsg/o_mushiba_05_before#9",
+   "label": "MES_Mushiba_05_before_Mushiba_brilock_09",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 残念;ざんねん]だが その[Ruby 逆;ぎゃく]の[Ruby 性格;せいかく]だ！！[0002:0000:0A 00]\nワガハイは [Ruby 今;いま]いそがしい！[0002:0001:][Next][0001:0004:]オマエに かまっているヒマはない！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_mushiba_05_before#10",
+   "label": "MES_work_omit_00",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0001:0004:][0001:0001:][0005:0000:]=== 仮・未実装 ===\n[0001:0004:][0001:0001:][0005:0000:]イベントが仮または未実装の[Ruby 状態;じょうたい]です。[0002:0000:0A 00][0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_mushiba_05_before#11",
+   "label": "MES_Mushiba_05_before_Mushiba_brilock_20_2",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]そこのロープを パワフルに[Ruby 引;ひ]っ[Ruby 張;ぱ]れば\nこの[Ruby 島全体;しまぜんたい]を [Ruby 動;うご]かせるはずです！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_mushiba_05_before#12",
+   "label": "MES_Mushiba_05_before_Mushiba_brilock_07_2",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ムッシュ～！[0002:0000:0A 00] あなたからは\nジェントルマンの においがします！[0002:0001:][Next]こまっている[Ruby 人;ひと]を [Ruby 見捨;みす]てられない\nそんな ナイスガイのはずですね！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_mushiba_05_before#13",
+   "label": "MES_Mushiba_05_before_Mushiba_brilock_20",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ルック！[0002:0000:0A 00] この[Ruby 小;ちい]さな[Ruby 島;しま]は\nなーんとなんと [Ruby 海;うみ]の[Ruby 上;うえ]に\n[Ruby 浮;う]かんでいるのです サプライズ！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_mushiba_05_before#14",
+   "label": "MES_Mushiba_05_before_Mushiba_brilock_21",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ふん！[0002:0000:0A 00] ロープを[Ruby 引;ひ]っ[Ruby 張;ぱ]るだけか？[0002:0000:0A 00]\nそんなことなら [Ruby 朝;あさ]メシ[Ruby 前;まえ]だ！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_mushiba_05_before#15",
+   "label": "MES_KPower_arm_01_KPower_arm_tut_08",
+   "style": 9,
+   "attr": "00000000",
+   "jp": "[0009:0000:09 00][0001:0004:]おお！？[0002:0000:0A 00] なんだか チカラが\nわいてきた [Ruby 気;き]がするぞ！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_mushiba_05_before#16",
+   "label": "MES_Mushiba_05_before_Mushiba_brilock_14_2",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0005:0000:]ルック！！[0002:0000:1E 00]"
+  },
+  {
+   "id": "FMsg/o_mushiba_05_before#17",
+   "label": "MES_Mushiba_05_before_Mushiba_brilock_10",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ストーーーーーーーーップ！！！[0002:0000:0A 00]\nお[Ruby 待;ま]ちください ジェントルマン！[0002:0000:0A 00]\nとは [Ruby 逆;ぎゃく]の[Ruby 性格;せいかく]のあなた！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_mushiba_05_before#18",
+   "label": "MES_Mushiba_05_before_Mushiba_brilock_11",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]うるさい！[0002:0000:0A 00] オマエを [Ruby 助;たす]けても\nなんの [Ruby 得;とく]にもならんだろ！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_mushiba_05_before#19",
+   "label": "MES_Mushiba_05_before_Mushiba_brilock_12",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]なにを おっしゃいます！[0002:0000:05 00]\n[Ruby 助;たす]けてくれた お[Ruby 礼;れい]は\nたーっぷり いたしますよ！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_mushiba_05_before#20",
+   "label": "MES_Mushiba_05_before_Mushiba_brilock_13",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]なに？[0002:0000:0A 00] お[Ruby 礼;れい]だと？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_mushiba_05_before#21",
+   "label": "MES_Mushiba_05_before_Mushiba_brilock_14",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]オウ！[0002:0000:0A 00] きょうみを[Ruby 持;も]ちましたね！？[0002:0000:0A 00]\nワンダフル！[0002:0000:0A 00] すばらしい！[0002:0001:][Next]あなたには キョーレツな\nブロックだましいを [Ruby 感;かん]じます！[0002:0001:][Next][Ruby 熱;あつ]い [Ruby 熱;あつ]い ブロックだましい…[0002:0000:0A 00]\nそう[0002:0000:05 00] そんなあなたには…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_mushiba_05_before#22",
+   "label": "MES_Mushiba_05_before_Mushiba_brilock_15",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:][Ruby 助;たす]けてくれた お[Ruby 礼;れい]として\nこれを さしあげましょう！！[0002:0001:][Next][Ruby 熱;あつ]い ブロックだましいを[Ruby 持;も]つ\nあなたに ふさわしい…[0002:0001:][Next][Ruby 世;よ]にも めずらしいブロックです。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_mushiba_05_before#23",
+   "label": "MES_Mushiba_05_before_Mushiba_brilock_16",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]なんだ…[0002:0000:0A 00]\nただの ブロックじゃないか！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_mushiba_05_before#24",
+   "label": "MES_Mushiba_05_before_Mushiba_brilock_17",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]オウ！[0002:0000:0A 00] テーリブル！！[0002:0000:0A 00]\nこの ビューティフルブロックを\nバカにしては いけません！[0002:0001:][Next]このブロックは コレクターの[Ruby 中;なか]で\n１００００００コインもの [Ruby 値;ね]がつく\nベリーレアな ブロックなのですよ！[0002:0001:][Next]１[Ruby 度;ど] [Ruby 叩;たた]けば ワンダフル！[0002:0000:0A 00]\nものすごい ひみつに\nサプライズすること まちがいナシ！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_mushiba_05_before#25",
+   "label": "MES_Mushiba_05_before_Mushiba_brilock_18",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ふーん…[0002:0000:0A 00] ひみつか…[0002:0000:0A 00][0002:0001:][Next]で…[0002:0000:0A 00] どうすりゃいいんだ？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_mushiba_05_before#26",
+   "label": "MES_Mushiba_05_before_Mushiba_brilock_19",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]オウ！[0002:0000:0A 00] サンキュウ！[0002:0000:0A 00] メルシー！[0002:0001:][Next]やっぱり あなたはジェントルマンね！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_mushiba_05_before#27",
+   "label": "MES_KPower_arm_01_KPower_arm_tut_10",
+   "style": 9,
+   "attr": "00000000",
+   "jp": "[0009:0000:09 00][0001:0004:]ぬおおおおおおおおおおお！！[0002:0001:]"
+  }
+ ]
+}

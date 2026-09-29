@@ -1,0 +1,341 @@
+{
+ "source": "Msg/JP_ja/FMsg.dat:o_ekubon_09_1",
+ "messages": [
+  {
+   "id": "FMsg/o_ekubon_09_1#0",
+   "label": "MES_Ekubon_09_Ekubon_killer_dx_16",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]おお～！[0002:0000:0A 00]\nこころ[Ruby 強;づよ]い お[Ruby 言葉;ことば]！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_ekubon_09_1#1",
+   "label": "MES_Ekubon_09_Ekubon_koopa_giant_07",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]いつでも\n[Ruby 発射;はっしゃ]できます！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_ekubon_09_1#2",
+   "label": "MES_Ekubon_09_Ekubon_killer_dx_17",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]で[0002:0000:0A 00] オマエ[Ruby 達;たち]\nこのたいほうを どうするつもりだ？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_ekubon_09_1#3",
+   "label": "MES_Ekubon_09_Ekubon_koopa_giant_08",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 導火線;どうかせん]に [Ruby 火;ひ]をつければ\nドカ～ン！ とふっ[Ruby 飛;と]びます！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_ekubon_09_1#4",
+   "label": "MES_Ekubon_09_Ekubon_killer_dx_18",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]はい！[0002:0000:0A 00] この マグナムキラーたいほうを\nクッパ[Ruby 城;じょう]に [Ruby 向;む]けて\nガツンと [Ruby 発射;はっしゃ]するつもりです！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_ekubon_09_1#5",
+   "label": "MES_Ekubon_09_Ekubon_koopa_giant_09",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]よし！！[0002:0000:0A 00] ワガハイのほのおで\n[Ruby 点火;てんか]してやる！！[0002:0001:][Next][Ruby 見;み]ていろ！[0002:0000:0A 00]\n[Ruby 思;おも]い[Ruby 知;し]らせてやるわ！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_ekubon_09_1#6",
+   "label": "MES_Ekubon_09_Ekubon_killer_dx_19",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 城;しろ]を[Ruby 乗;の]っ[Ruby 取;と]った やつらを\nギャフンと[Ruby 言;い]わせてみせます！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_ekubon_09_1#7",
+   "label": "MES_Ekubon_09_Ekubon_killer_dx_30",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]なに！？[0002:0000:1E 00]"
+  },
+  {
+   "id": "FMsg/o_ekubon_09_1#8",
+   "label": "MES_Ekubon_09_Ekubon_killer_dx_31",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]あいつら だけじゃ\nちょっと たよりないわよ。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_ekubon_09_1#9",
+   "label": "MES_Ekubon_09_Ekubon_killer_dx_32",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ふん！[0002:0000:0A 00] いちいち うるさいぞ！[0002:0000:0A 00]\n[Ruby 今;いま] [Ruby 行;い]こうと[Ruby 思;おも]っていたところだ！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_ekubon_09_1#10",
+   "label": "MES_Ekubon_09_Ekubon_killer_dx_01",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ハァ[0002:0000:0A 00] ハァ[0002:0000:0A 00] ハァ…[0002:0000:0A 00]\nも[0002:0000:0A 00] もうダメ…[0002:0000:0A 00]\nこしが…[0002:0000:0A 00] こしが[Ruby 痛;いた]い…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_ekubon_09_1#11",
+   "label": "MES_Ekubon_09_Ekubon_killer_dx_02",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]と[0002:0000:0A 00] とりあえず このへんで\n[Ruby 様子;ようす]を みよう…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_ekubon_09_1#12",
+   "label": "MES_Ekubon_09_Ekubon_killer_dx_03",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 他;ほか]のみんなは\n[Ruby 今;いま]ごろ どうしているのかな…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_ekubon_09_1#13",
+   "label": "MES_Ekubon_09_Ekubon_killer_dx_04",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]きっと あいつらに\nひどい[Ruby 目;め]に あわされているに\nちがいない！[0002:0000:0A 00] かわいそうに…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_ekubon_09_1#14",
+   "label": "MES_Ekubon_09_Ekubon_killer_dx_05",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]うまく [Ruby 逃;に]げ[Ruby 出;だ]せたのは\nオレ[Ruby 達;たち]だけなのか？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_ekubon_09_1#15",
+   "label": "MES_Ekubon_09_Ekubon_killer_dx_06",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]たぶん そうだろ…[0002:0000:0A 00]\nまったく ひどい[Ruby 話;はなし]だ！[0002:0001:][Next]クッパ[Ruby 様;さま]が いないときを\n[Ruby 狙;ねら]って おそってくるなんて！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_ekubon_09_1#16",
+   "label": "MES_Ekubon_09_Ekubon_killer_dx_07",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ああ…[0002:0000:0A 00] こんなときに\nクッパ[Ruby 様;さま]が いてくれたら…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_ekubon_09_1#17",
+   "label": "MES_Ekubon_09_Ekubon_killer_dx_08",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]クッパ[Ruby 様;さま]…[0002:0000:0A 00] [Ruby 今;いま]どこで\nなにを しておられるのか…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_ekubon_09_1#18",
+   "label": "MES_Ekubon_09_Ekubon_killer_dx_09",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]おい！[0002:0000:0A 00] オマエらっ！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_ekubon_09_1#19",
+   "label": "MES_Ekubon_09_Ekubon_koopa_giant_10",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]あれ～～？[0002:0000:0A 00]\nなんだか クッパ[Ruby 城;じょう]が\nだんだん [Ruby 近;ちか]づいてきます～！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_ekubon_09_1#20",
+   "label": "MES_Ekubon_09_Ekubon_killer_dx_20",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]おお！[0002:0000:0A 00] オマエ[Ruby 達;たち]にしては\nなかなか いい[Ruby 考;かんが]えだ！[0002:0001:][Next]よし！！[0002:0000:0A 00]\nさっそく キラーを[Ruby 発射;はっしゃ]しろ！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_ekubon_09_1#21",
+   "label": "MES_Ekubon_09_Ekubon_koopa_giant_11",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]なんだと！？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_ekubon_09_1#22",
+   "label": "MES_Ekubon_09_Ekubon_killer_dx_21",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]いえ…[0002:0000:0A 00] あの…[0002:0000:0A 00]\nそ[0002:0000:0A 00] それが…[0002:0001:][Next][Ruby 実;じつ]は [Ruby 今;いま]はキラーを\n[Ruby 発射;はっしゃ]できないというか…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_ekubon_09_1#23",
+   "label": "MES_Ekubon_09_Ekubon_killer_dx_22",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 正確;せいかく]に[Ruby 言;い]うと [Ruby 実;じつ]はかんじんの\nキラーが ここにないというか…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_ekubon_09_1#24",
+   "label": "MES_Ekubon_09_Ekubon_killer_dx_23",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]もっと [Ruby 正確;せいかく]に[Ruby 言;い]うと\n[Ruby 実;じつ]は キラーを[Ruby 持;も]ってくるのを\n[Ruby 忘;わす]れてしまったというか…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_ekubon_09_1#25",
+   "label": "MES_Ekubon_09_Ekubon_killer_dx_24",
+   "style": 10,
+   "attr": "00000000",
+   "jp": "[0009:0000:0A 00][0001:0004:]バカもの～～～～！！！[0002:0000:1E 00]"
+  },
+  {
+   "id": "FMsg/o_ekubon_09_1#26",
+   "label": "MES_Ekubon_09_Ekubon_killer_dx_25",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]ふん！[0002:0000:0A 00] キラーがないなら\n[Ruby 探;さが]してこい！！！[0002:0001:][Next]この[Ruby 森;もり]にも [Ruby 昔;むかし] ワガハイが[Ruby 発射;はっしゃ]した\nキラーの １つや２つ\nころがっているだろう！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_ekubon_09_1#27",
+   "label": "MES_Ekubon_09_Ekubon_killer_dx_26",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]なるほど！[0002:0000:0A 00] ではさっそく\nキラーを [Ruby 探;さが]しに[Ruby 行;い]ってきます！[0002:0001:][Next]…で[0002:0000:0A 00] キラーは どこらへんに\nあるのでしょうか？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_ekubon_09_1#28",
+   "label": "MES_Ekubon_09_Ekubon_killer_dx_27",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]どこにあるか わからんから\n[Ruby 探;さが]しに[Ruby 行;い]けと [Ruby 言;い]ってるんだ～！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_ekubon_09_1#29",
+   "label": "MES_Ekubon_09_Ekubon_killer_dx_28",
+   "style": 9,
+   "attr": "00000000",
+   "jp": "[0009:0000:09 00]ひぇ～～～～～[0002:0000:0A 00]\n[Ruby 行;い]って まいります～！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_ekubon_09_1#30",
+   "label": "MES_Ekubon_09_Ekubon_killer_dx_29",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ねえ！[0002:0000:0A 00] あなたも\n[Ruby 探;さが]しに[Ruby 行;い]ってくれば？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_ekubon_09_1#31",
+   "label": "MES_Ekubon_09_Ekubon_koopa_giant_03_1",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ガンコだし…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_ekubon_09_1#32",
+   "label": "MES_Ekubon_09_Ekubon_koopa_giant_03_2",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ワガママだし…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_ekubon_09_1#33",
+   "label": "MES_Ekubon_09_Ekubon_koopa_giant_03_3",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]エラそうな わりに\nどこか [Ruby 抜;ぬ]けてるし…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_ekubon_09_1#34",
+   "label": "MES_Ekubon_09_Ekubon_koopa_giant_01_2",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 見;み]つかったか？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_ekubon_09_1#35",
+   "label": "MES_Ekubon_09_Ekubon_koopa_giant_01_3",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]どこにもないよ…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_ekubon_09_1#36",
+   "label": "MES_Ekubon_09_Ekubon_killer_dx_10",
+   "style": 10,
+   "attr": "00000000",
+   "jp": "[0009:0000:0A 00][0001:0004:]クッパ[Ruby 様;さま]ぁ～～～～～！！！[0002:0000:1E 00]"
+  },
+  {
+   "id": "FMsg/o_ekubon_09_1#37",
+   "label": "MES_Ekubon_09_Ekubon_koopa_giant_01",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 森;もり]の[Ruby 中;なか]に キラーなんかが\nあるわけ ないよな…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_ekubon_09_1#38",
+   "label": "MES_Ekubon_09_Ekubon_killer_dx_11",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]そうか…[0002:0000:0A 00] ワガハイの[Ruby 城;しろ]が\n[Ruby 乗;の]っ[Ruby 取;と]られて しまったか…[0002:0001:][Next]ゲラコビッツの[Ruby 話;はなし]は\n[Ruby 本当;ほんとう]だったのだな…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_ekubon_09_1#39",
+   "label": "MES_Ekubon_09_Ekubon_koopa_giant_02",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]そうだよ…[0002:0000:0A 00] あいかわらず\nクッパ[Ruby 様;さま]が [Ruby 言;い]うことは\nメチャクチャだよな…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_ekubon_09_1#40",
+   "label": "MES_Ekubon_09_Ekubon_killer_dx_12",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]は[0002:0000:05 00] はい…[0002:0000:0A 00] へんな[Ruby ２人組;ふたりぐみ]が\n[Ruby 突然;とつぜん] おそってきまして…[0002:0001:][Next]あっというまに\n[Ruby 城;しろ]を[Ruby 乗;の]っ[Ruby 取;と]られて しまいました…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_ekubon_09_1#41",
+   "label": "MES_Ekubon_09_Ekubon_koopa_giant_03",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]クッパ[Ruby 様;さま]って いつも\nこうなんだよな…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_ekubon_09_1#42",
+   "label": "MES_Ekubon_09_Ekubon_killer_dx_13",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]なにかの [Ruby 役;やく]に[Ruby 立;た]つかと[Ruby 思;おも]って\nこのたいほうを [Ruby 持;も]って\n[Ruby 逃;に]げてきたのです…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_ekubon_09_1#43",
+   "label": "MES_Ekubon_09_Ekubon_koopa_giant_04",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ふん！[0002:0000:0A 00] [Ruby 役立;やくた]たずどもめ！[0002:0000:0A 00]\nさっさと このキラーをつめこめ！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_ekubon_09_1#44",
+   "label": "MES_Ekubon_09_Ekubon_killer_dx_14",
+   "style": 7,
+   "attr": "00000000",
+   "jp": "[0009:0000:07 00][0005:0000:][0001:0004:]ガハハハハ！[0002:0000:1E 00]"
+  },
+  {
+   "id": "FMsg/o_ekubon_09_1#45",
+   "label": "MES_Ekubon_09_Ekubon_koopa_giant_05",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]さ[0002:0000:0A 00] さすがは クッパ[Ruby 様;さま]～！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_ekubon_09_1#46",
+   "label": "MES_Ekubon_09_Ekubon_killer_dx_15",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 安心;あんしん]しろ！！[0002:0000:0A 00] クッパ[Ruby 城;じょう]は\nワガハイが すぐに[Ruby 取;と]りもどしてやる！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_ekubon_09_1#47",
+   "label": "MES_Ekubon_09_Ekubon_koopa_giant_06",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]クッパ[Ruby 様;さま]！[0002:0000:0A 00]\nキラーを たいほうに\nつめこみました！！[0002:0001:]"
+  }
+ ]
+}

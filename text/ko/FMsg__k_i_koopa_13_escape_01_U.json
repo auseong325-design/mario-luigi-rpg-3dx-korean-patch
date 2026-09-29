@@ -1,0 +1,11 @@
+{
+ "batch": "FMsg__k_i_koopa_13_escape_01_U",
+ "translations": {
+  "FMsg/k_i_koopa_13_escape_01_U#0": "덩치만 컸지 별것 아니었군.{1:wait}",
+  "FMsg/k_i_koopa_13_escape_01_U#1": "자, 그럼.{1:wait}[Next]다음은 아가씨.\n자네 차례일세.{2:wait}"
+ },
+ "new_terms": [],
+ "notes": {
+  "FMsg/k_i_koopa_13_escape_01_U#1": "화자는 루드윅(k_o_ekubon_80#54와 같은 문장, 같은 번역). 스타일 가이드 제안대로 적에게 하게체+'자네'. おじょうちゃん(큐티)=아가씨."
+ }
+}

@@ -1,0 +1,40 @@
+{
+ "source": "Msg/JP_ja/FMsg.dat:o_areanone_end_02_U",
+ "messages": [
+  {
+   "id": "FMsg/o_areanone_end_02_U#0",
+   "label": "MES_EVnog_ending_Clear_mes_01",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00]よ～ がんばったな～\nず～っと [Ruby 見;み]てたで～[0002:0001:][Next]あんたのランク…\n[Ruby 教;おし]えたるわ～[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_areanone_end_02_U#1",
+   "label": "MES_EVnog_ending_Clear_mes_02",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00]なかなかやな…\nけど まだがんばれるで…[0002:0001:][Next]さらに [Ruby 上;うえ]のランクになったら…\nええこと あるかもしれんな…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_areanone_end_02_U#2",
+   "label": "MES_EVnog_ending_Clear_mes_03",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00]このランクで よくダークスター\nやっつけたな…[0002:0001:][Next]ある[Ruby 意味;いみ] すごいで…\nよ～ やったな～[0002:0001:][Next]さらに [Ruby 上;うえ]のランクになったら…\nええこと あるかもしれんな…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_areanone_end_02_U#3",
+   "label": "MES_EVnog_ending_Clear_mes_04",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00]みんな めっちゃ\n[Ruby 強;つよ]くなっとるやん…[0002:0001:][Next]あんた すごいで…\nよ～ やったな～！[0002:0001:][Next]ワシは あんまり\n[Ruby 人;ひと]のこと ほめんけど…[0002:0001:][Next]あんた ほんま\nすごいで！！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_areanone_end_02_U#4",
+   "label": "MES_EVnog_ending_Clear_mes_05",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00][0001:0004:][0001:0001:]ほな またな～[0002:0001:]"
+  }
+ ]
+}

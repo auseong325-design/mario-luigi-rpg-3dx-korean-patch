@@ -1,0 +1,145 @@
+{
+ "source": "Msg/JP_ja/FMsg.dat:i_koopa_13_escape_01_L",
+ "messages": [
+  {
+   "id": "FMsg/i_koopa_13_escape_01_L#0",
+   "label": "MES_EV_SKoopa_13_sub_EV_SK_13_sub_geraco_01",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]か かんぺきに [Ruby 脂肪;しぼう]だらけの\n[Ruby 体;からだ]になってしまった クッパ！！[0002:0001:][Next][0001:0004:]オ オマエの[Ruby 中;なか]にいた ピーチ[Ruby 姫;ひめ]は\nワ ワレが もらっていくるる！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_koopa_13_escape_01_L#1",
+   "label": "MES_EV_SKoopa_13_sub_EV_SK_13_sub_geraco_02",
+   "style": 5,
+   "attr": "00000000",
+   "jp": "[0009:0000:05 00][0001:0004:][0001:0001:]お… [Ruby 重;おも]いるる…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_koopa_13_escape_01_L#2",
+   "label": "MES_EV_SKoopa_13_sub_EV_SK_13_sub_geraco_03",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]さあ！\nこれで [Ruby 準備;じゅんび]は[Ruby 整;ととの]ったるる！[0002:0001:][Next][0001:0004:]ついに ワレの[Ruby 時代;じだい]が\nやってくるるるっ！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_koopa_13_escape_01_L#3",
+   "label": "MES_EV_SKoopa_13_sub_EV_SK_13_sub_geraco_04",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:][0001:0001:]お… [Ruby 重;おも]いるる…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_koopa_13_escape_01_L#4",
+   "label": "MES_EV_SKoopa_13_sub_EV_SK_13_sub_geraco_05",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:][0001:0001:]メ… メタボス！ [Ruby 手伝;てつだ]うるる！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_koopa_13_escape_01_L#5",
+   "label": "MES_EV_SKoopa_13_sub_EV_SK_13_sub_geraco_06",
+   "style": 9,
+   "attr": "00000000",
+   "jp": "[0009:0000:09 00][0001:0004:][0001:0001:]ちょ！ メタボス！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_koopa_13_escape_01_L#6",
+   "label": "MES_EV_SKoopa_13_sub_EV_SK_13_sub_geraco_07",
+   "style": 10,
+   "attr": "00000000",
+   "jp": "[0009:0000:0A 00][0005:0000:][0001:0004:][0001:0001:]メタボスッ！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_koopa_13_escape_01_L#7",
+   "label": "MES_EV_SKoopa_13_sub_EV_SK_13_sub_koopa_10",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]え～と なになに…[0002:0001:][Next][0001:0004:]ボムへい [Ruby 保管庫;ほかんこ]\n[Ruby 火;ひ]あそびは [Ruby 絶対;ぜったい]にダメ！！\nバクハツに[Ruby 注意;ちゅうい]！！[0002:0001:][Next][0001:0004:]…か。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_koopa_13_escape_01_L#8",
+   "label": "MES_EV_SKoopa_13_sub_EV_SK_13_sub_koopa_11",
+   "style": 9,
+   "attr": "00000000",
+   "jp": "[0009:0000:09 00][0001:0004:]うわ～～～～～～っ！！\n[Ruby 待;ま]った！ [Ruby 待;ま]った！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_koopa_13_escape_01_L#9",
+   "label": "MES_EV_SKoopa_13_sub_EV_SK_13_sub_koopa_12",
+   "style": 9,
+   "attr": "00000000",
+   "jp": "[0009:0000:09 00][0001:0004:][0001:0001:]ちょっと [Ruby 待;ま]て～～！！[0002:0000:1E 00]"
+  },
+  {
+   "id": "FMsg/i_koopa_13_escape_01_L#10",
+   "label": "MES_EV_SKoopa_13_sub_EV_SK_13_sub_geraco_03_2",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]クッパよ！ オマエはこれで\nダイエットでもしてるがいいるる！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_koopa_13_escape_01_L#11",
+   "label": "MES_EV_SKoopa_13_sub_EV_SK_13_sub_koopa_01",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:][0001:0001:]おおっ！？[0002:0000:1E 00]"
+  },
+  {
+   "id": "FMsg/i_koopa_13_escape_01_L#12",
+   "label": "MES_EV_SKoopa_13_sub_EV_SK_13_sub_koopa_02",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]はぁ…[0002:0000:0A 00] はぁ…[0002:0000:0A 00]\n[Ruby 足;あし]が[Ruby 勝手;かって]に[0002:0000:0A 00] [Ruby 走;はし]り[Ruby 続;つづ]けているぞ！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_koopa_13_escape_01_L#13",
+   "label": "MES_EV_SKoopa_13_sub_EV_SK_13_sub_koopa_03",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:][0001:0001:]まだまだ～！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_koopa_13_escape_01_L#14",
+   "label": "MES_EV_SKoopa_13_sub_EV_SK_13_sub_koopa_04",
+   "style": 9,
+   "attr": "00000000",
+   "jp": "[0009:0000:09 00][0001:0004:][0001:0001:]まだまだまだぁ～！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_koopa_13_escape_01_L#15",
+   "label": "MES_EV_SKoopa_13_sub_EV_SK_13_sub_koopa_05",
+   "style": 10,
+   "attr": "00000000",
+   "jp": "[0009:0000:0A 00][0001:0004:][0001:0001:]ぬおぉ～～っ！！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_koopa_13_escape_01_L#16",
+   "label": "MES_EV_SKoopa_13_sub_EV_SK_13_sub_koopa_06",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]ムッ！ [Ruby 熱;あつ]いぞ！！\nなにが [Ruby 燃;も]えてるんだ！？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_koopa_13_escape_01_L#17",
+   "label": "MES_EV_SKoopa_13_sub_EV_SK_13_sub_koopa_07",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]ん？ ワガハイか？\nワガハイが [Ruby 燃;も]えてるのか！？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_koopa_13_escape_01_L#18",
+   "label": "MES_EV_SKoopa_13_sub_EV_SK_13_sub_koopa_08",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]おお！！ [Ruby 脂肪;しぼう]が！！\nワガハイの ムダについた[Ruby 脂肪;しぼう]が\n[Ruby 全部;ぜんぶ] [Ruby 燃;も]えてくぞ！！[0002:0001:][Next][0001:0004:]ガハハハハハハ！！！\nダイエットに[Ruby 成功;せいこう]だ～！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_koopa_13_escape_01_L#19",
+   "label": "MES_EV_SKoopa_13_sub_EV_SK_13_sub_koopa_09",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]そういえば\nここは なんの[Ruby 部屋;へや]だったか…？[0002:0001:]"
+  }
+ ]
+}

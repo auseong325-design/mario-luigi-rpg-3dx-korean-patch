@@ -1,0 +1,15 @@
+[
+{"agent": "W01", "area": "전투 문구 BMsg b_sys 1/5", "batches": ["BMsg__b_sys__p1", "BMsg__b_sys__p2", "BMsg__b_sys__p3"]},
+{"agent": "W02", "area": "전투 문구 BMsg b_sys 2/5", "batches": ["BMsg__b_sys__p4", "BMsg__b_sys__p5", "BMsg__b_sys__p6"]},
+{"agent": "W03", "area": "전투 문구 BMsg b_sys 3/5", "batches": ["BMsg__b_sys__p7", "BMsg__b_sys__p8", "BMsg__b_sys__p9"]},
+{"agent": "W04", "area": "전투 문구 BMsg b_sys 4/5", "batches": ["BMsg__b_sys__p10", "BMsg__b_sys__p11", "BMsg__b_sys__p12"]},
+{"agent": "W05", "area": "전투 문구 BMsg b_sys 5/5", "batches": ["BMsg__b_sys__p13", "BMsg__b_sys__p14", "BMsg__b_sys__p15", "BMsg__b_sys__p16"]},
+{"agent": "W06", "area": "거대 전투 HugeBattle", "batches": ["HugeBattle__p1", "HugeBattle__p2"]},
+{"agent": "W07", "area": "쿠파 몸속: 키노피오들, 기억 창고, 빔, 허리 급소", "batches": ["FMsg__i_kinopio_01", "FMsg__i_kioku_02__and1", "FMsg__i_koopa_13_beam_01_L__and1", "FMsg__i_koshi_01"]},
+{"agent": "W08", "area": "쿠파 몸속: 군살 스페이스", "batches": ["FMsg__i_metaboru_02__and9", "FMsg__i_metaboru_19"]},
+{"agent": "W09", "area": "이아파 비치, 귀여미 초원", "batches": ["FMsg__o_mushiba_16__and2", "FMsg__o_otapuku_02__and1"]},
+{"agent": "W10", "area": "고라파 레이크", "batches": ["FMsg__o_zutsuda_01__and9", "FMsg__o_zutsuda_30"]},
+{"agent": "W11", "area": "볼조개 숲", "batches": ["FMsg__o_ekubon_02__and7", "FMsg__o_ekubon_09_1__and3"]},
+{"agent": "W12", "area": "버섯 타운 지하, 까르코비츠 익스프레스, 지도·게이지 안내", "batches": ["FMsg__o_chika_01__and3", "FMsg__o_chika_geraexpress_04", "FMsg__i_test_dnh_01", "FMsg__minimap_o_mushiba_01", "FMsg__o_areanone_allmap_bcat_U", "FMsg__o_areanone_meter_01_U"]},
+{"agent": "W13", "area": "지역 공통 안내, 최종 보스, 엔딩", "batches": ["FMsg__o_areanone_allmap_01_U", "FMsg__o_areanone_end_02_U__and1", "FMsg__o_areanone_lastboss_01_L__and1", "FMsg__o_areanone_dstar_setumei_01_L", "FMsg__o_areanone_k_lastbattle_01_U", "FMsg__o_areanone_suishou_01_L"]}
+]

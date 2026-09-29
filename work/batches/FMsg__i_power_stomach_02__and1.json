@@ -1,0 +1,562 @@
+{
+ "batch": "FMsg__i_power_stomach_02__and1",
+ "rooms": [
+  "i_power_stomach_02",
+  "i_power_stomach_15_SA_giganin_01_L"
+ ],
+ "ds_rooms": [
+  "034",
+  "16D",
+  "16E"
+ ],
+ "ds_reference": [
+  "DS034#0: 아!",
+  "DS034#1: 이 당근에는\n소화를 빨리 시켜 주는\n성분이 들어 있습니다.",
+  "DS034#2: 그 성분이 포함된 부분을\n먹으면 이렇게\n반짝반짝 빛나게 됩니다.",
+  "DS034#3: 입이 반짝하고 빛났을 때\n먹은 조각을 주목하세요~",
+  "DS034#4: 그 조각에는\n이런 성분이\n들어 있습니다.",
+  "DS034#5: 붉은 상태일 때 사용하면\n먹은 조각을 단번에\n소화시킵니다~",
+  "DS034#6: 하지만 시간이 지나\n색이 바뀌면 소화의 효과가\n약해집니다.",
+  "DS034#7: 아! 그 밖의 조각 중에는\n이런 작은 성분이\n들어 있기도 합니다.",
+  "DS034#8: 이건 먹은 음식을\n조금 소화시켜 주는\n성분입니다~",
+  "DS034#9: 좋아요, 좋아~\n맛은 충분히 봤죠?",
+  "DS034#10: 맛보기치곤\n많이 드셨네요~",
+  "DS034#11: 준비되셨죠?",
+  "DS034#12: 그럼 지금부터\n마구 드십시오~",
+  "DS16D#0: 이 엄청난 양의 당근 조각을\n잘게 잘게 부숴 준다면…",
+  "DS16D#1: 쿠파가 많이 먹을 수\n있지 않을까?",
+  "DS16D#2: 조각을 터치해서\n부숴 보자!",
+  "DS16D#3: 쿠파가 먹은 당근 조각을\n모두 터치하는 게\n이렇게 어려울 줄이야…",
+  "DS16D#4: 좀 더 쉽게 조각을\n부수는 방법이 없을까?",
+  "DS16D#5: 이 얘기 들었어!?",
+  "DS16D#6: 쿠파의 입이 반짝일 때\n떨어지는 조각 안에는\n소화를 돕는 성분이 있나 봐!",
+  "DS16D#7: 지금은 붉은색일 테니까\n조각을 단번에\n소화시킬 수 있겠네!",
+  "DS16D#8: 이 조각의 위치를\n기억해 둬야겠어!!",
+  "DS16D#9: 방금 기억한 조각을\n부숴 볼까?",
+  "DS16D#10: 찾았어!",
+  "DS16D#11: 이걸 사용하면 조각을\n빨리 소화시킬 수 있대…",
+  "DS16D#12: 터치해 보자!",
+  "DS16D#13: 어!?",
+  "DS16D#14: 아까 들렸던\n작은 성분이란 게\n이건가 봐!",
+  "DS16D#15: 쿠파의 입이 반짝일 때\n떨어진 조각을 기억했다가…",
+  "DS16D#16: 그 조각 안에 있는\n성분을 빨리 찾아서\n사용하면 되겠어!",
+  "DS16E#0: 저기 좀 봐![Next]스타 백신이야!!",
+  "DS16E#1: 두 번째 스타 백신을\n획득했다![Next]쿠파의 위액이 섞여서\n끈적끈적하다…[Next]나중에 잘 닦아야겠다…",
+  "DS16E#2: 쿠파에겐 미안하지만\n우리는 밖으로 나가자.[Next]이제 여기에서 볼일은 없어.",
+  "DS16E#3: 스타 백신도 이제 하나 남았어…[Next]지금쯤 오키노 선생도\n세 번째 현인이 어디에 있는지\n알아내지 않았을까?[Next]버섯 타운으로 돌아가 보자."
+ ],
+ "glossary": [
+  {
+   "jp": "Dr.コキノ",
+   "ko": "오키노 선생",
+   "type": "character",
+   "basis": "DS",
+   "source": "DS 대사 '오키노 선생(님)' 22회",
+   "note": "병원 이름은 '닥터 오키노 병원'(DS)"
+  },
+  {
+   "jp": "クッパ",
+   "ko": "쿠파",
+   "type": "character",
+   "basis": "DS",
+   "source": "BData__mfset_Help#21",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "キノコ",
+   "ko": "버섯",
+   "type": "item",
+   "basis": "DS",
+   "source": "BData__mfset_UItmN#0",
+   "note": "일반 명사 キノコ도 버섯(キノコタウン=버섯 타운) [gl_items]"
+  },
+  {
+   "jp": "スターワクチン",
+   "ko": "스타 백신",
+   "type": "key_item",
+   "basis": "DS",
+   "source": "MData__mfset_MenuMes#58",
+   "note": "DS '3개의 스타 백신을 합성해서' [gl_items]"
+  },
+  {
+   "jp": "ワクチン",
+   "ko": "백신",
+   "type": "key_item",
+   "basis": "DS",
+   "source": "MData__mfset_MenuMes#52",
+   "note": "[gl_menu_places]"
+  },
+  {
+   "jp": "キノコタウン",
+   "ko": "버섯 타운",
+   "type": "place",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesPlace#8",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "賢者",
+   "ko": "현인",
+   "type": "term",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesOutline#27",
+   "note": "[gl_menu_places]"
+  },
+  {
+   "jp": "タッチ",
+   "ko": "터치",
+   "type": "ui",
+   "basis": "DS",
+   "source": "BData__mfset_AItmE#6",
+   "note": "[gl_attacks]"
+  }
+ ],
+ "messages": [
+  {
+   "id": "FMsg/i_power_stomach_02#0",
+   "label": "MES_SA_SUB_KPower_stomach_02_Kpower_stomach_mes_01",
+   "style": 6,
+   "src": "{1:align}ねえ！ あれ！{2:wait}[Next]{3:align}{4:color}スターワクチン{5:color}{6:color}じゃない！？{7:wait}{8:color}",
+   "tags": {
+    "1": "[0001:0001:]",
+    "2": "[0002:0001:]",
+    "3": "[0001:0001:]",
+    "4": "[Color #2C64FF]",
+    "5": "[Color #373737]",
+    "6": "[Color #373737]",
+    "7": "[0002:0001:]",
+    "8": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_power_stomach_02#1",
+   "label": "MES_SA_SUB_KPower_stomach_02_Kpower_stomach_mes_02",
+   "style": 12,
+   "src": "{1:mode}{2:align}２つ目の{3:color}スターワクチン{4:color}{5:color}を\n手に入れた！{6:pause}{7:wait}[Next]{8:mode}{9:align}クッパの胃液に まみれて\nネットリ ドロドロしている…{10:pause}{11:wait}[Next]{12:mode}{13:align}{14:align}あとで よ～く 洗っておこう…{15:pause}{16:wait}{17:color}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[0001:0001:]",
+    "3": "[Color #4ED4FF]",
+    "4": "[Color #E6E6E6]",
+    "5": "[Color #373737]",
+    "6": "[0002:0000:1E 00]",
+    "7": "[0002:0001:]",
+    "8": "[0005:0000:]",
+    "9": "[0001:0001:]",
+    "10": "[0002:0000:1E 00]",
+    "11": "[0002:0001:]",
+    "12": "[0005:0000:]",
+    "13": "[0001:0004:]",
+    "14": "[0001:0001:]",
+    "15": "[0002:0000:1E 00]",
+    "16": "[0002:0001:]",
+    "17": "[Color #E6E6E6]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_power_stomach_02#2",
+   "label": "MES_SA_SUB_KPower_stomach_02_Kpower_stomach_mes_03",
+   "style": 6,
+   "src": "クッパには 悪いけど\n私達は 外へ出ましょう。{1:wait}[Next]{2:align}{3:align}もうここに 用はないわ。{4:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0001:0004:]",
+    "3": "[0001:0001:]",
+    "4": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_power_stomach_02#3",
+   "label": "MES_SA_SUB_KPower_stomach_02_Kpower_stomach_mes_04",
+   "style": 6,
+   "src": "{1:align}{2:align}スターワクチンも のこりあと１つ…{3:wait}[Next]{4:align}そろそろ Dr.コキノも\n３人目の賢者が どこにいるか\nわかったかも しれないわね。{5:wait}[Next]{6:align}{7:align}キノコタウンへ もどってみましょう。{8:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0001:]",
+    "4": "[0001:0000:]",
+    "5": "[0002:0001:]",
+    "6": "[0001:0004:]",
+    "7": "[0001:0001:]",
+    "8": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_power_stomach_15_SA_giganin_01_L#0",
+   "label": "MES_SA_MAIN_KPower_stomach_01_Ekubon_giga_carrot_tut_11AT",
+   "style": 6,
+   "src": "クッパの クチが光ったときに\n落ちてきたカケラを 覚えて… ",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/o_ekubon_15_SA_giganin_01_U#0"
+   ]
+  },
+  {
+   "id": "FMsg/i_power_stomach_15_SA_giganin_01_L#1",
+   "label": "MES_Ekubon_15_SA_Ekubon_gcarrot_tut_h5BT",
+   "style": 6,
+   "src": "おためしにしては\nちょっと 食べすぎです～ ",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/o_ekubon_15_SA#0",
+    "FMsg/o_ekubon_15_SA_giganin_01_U#1"
+   ]
+  },
+  {
+   "id": "FMsg/i_power_stomach_15_SA_giganin_01_L#2",
+   "label": "MES_SA_MAIN_KPower_stomach_01_Ekubon_giga_carrot_tut_07AT",
+   "style": 6,
+   "src": "今の 聞こえた！？{1:pause}",
+   "tags": {
+    "1": "[0002:0000:0A 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/o_ekubon_15_SA_giganin_01_U#2"
+   ]
+  },
+  {
+   "id": "FMsg/i_power_stomach_15_SA_giganin_01_L#3",
+   "label": "MES_SA_MAIN_KPower_stomach_01_Ekubon_giga_carrot_tut_08BT",
+   "style": 6,
+   "src": "このカケラの 場所を\n覚えておきましょう！！ ",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/o_ekubon_15_SA_giganin_01_U#3"
+   ]
+  },
+  {
+   "id": "FMsg/i_power_stomach_15_SA_giganin_01_L#4",
+   "label": "MES_Ekubon_15_SA_Ekubon_gcarrot_tut_h3BT",
+   "style": 6,
+   "src": "その成分が ふくまれた部分を\n食べると このように\nキラリと光るです。",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/o_ekubon_15_SA#1",
+    "FMsg/o_ekubon_15_SA_giganin_01_U#4"
+   ]
+  },
+  {
+   "id": "FMsg/i_power_stomach_15_SA_giganin_01_L#5",
+   "label": "MES_SA_MAIN_KPower_stomach_01_Ekubon_giga_carrot_tut_05AT",
+   "style": 6,
+   "src": "この大量のカケラを\n細かく くずしてあげれば… ",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/o_ekubon_15_SA_giganin_01_U#5"
+   ]
+  },
+  {
+   "id": "FMsg/i_power_stomach_15_SA_giganin_01_L#6",
+   "label": "MES_SA_MAIN_KPower_stomach_01_Ekubon_giga_carrot_tut_10BT",
+   "style": 6,
+   "src": "これを 使えば カケラを\nはやく消化できるのね… ",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/o_ekubon_15_SA_giganin_01_U#6"
+   ]
+  },
+  {
+   "id": "FMsg/i_power_stomach_15_SA_giganin_01_L#7",
+   "label": "MES_SA_MAIN_KPower_stomach_01_Ekubon_giga_carrot_tut_06BT",
+   "style": 6,
+   "src": "もっと かんたんに カケラを\nくずす方法は ないかしら… ",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/o_ekubon_15_SA_giganin_01_U#7"
+   ]
+  },
+  {
+   "id": "FMsg/i_power_stomach_15_SA_giganin_01_L#8",
+   "label": "MES_Ekubon_15_SA_Ekubon_gcarrot_tut_h4T",
+   "style": 6,
+   "src": "おクチが キラリと光ったときに\n飲み込んだカケラに 注目です～ ",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/o_ekubon_15_SA#2",
+    "FMsg/o_ekubon_15_SA_giganin_01_U#8"
+   ]
+  },
+  {
+   "id": "FMsg/i_power_stomach_15_SA_giganin_01_L#9",
+   "label": "MES_SA_MAIN_KPower_stomach_01_Ekubon_giga_carrot_tut_05CT",
+   "style": 6,
+   "src": "どんどん{1:color}タッチ{2:color}{3:color}して\nカケラを くずしましょう！ {4:color}",
+   "tags": {
+    "1": "[Color #2C64FF]",
+    "2": "[Color #373737]",
+    "3": "[Color #373737]",
+    "4": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/o_ekubon_15_SA_giganin_01_U#9"
+   ]
+  },
+  {
+   "id": "FMsg/i_power_stomach_15_SA_giganin_01_L#10",
+   "label": "MES_Ekubon_15_SA_Ekubon_gcarrot_tut_k1AT",
+   "style": 6,
+   "src": "そのカケラには\nこんな成分が\n入っているです。",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/o_ekubon_15_SA#3",
+    "FMsg/o_ekubon_15_SA_giganin_01_U#10"
+   ]
+  },
+  {
+   "id": "FMsg/i_power_stomach_15_SA_giganin_01_L#11",
+   "label": "MES_SA_MAIN_KPower_stomach_01_Ekubon_giga_carrot_tut_10DT",
+   "style": 6,
+   "src": "あらっ！？ {1:pause}",
+   "tags": {
+    "1": "[0002:0000:14 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/o_ekubon_15_SA_giganin_01_U#11"
+   ]
+  },
+  {
+   "id": "FMsg/i_power_stomach_15_SA_giganin_01_L#12",
+   "label": "MES_Ekubon_15_SA_Ekubon_gcarrot_tut_k2BT",
+   "style": 6,
+   "src": "これは 食べたものを\n少し消化してくれる\n成分です～ ",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/o_ekubon_15_SA#4",
+    "FMsg/o_ekubon_15_SA_giganin_01_U#12"
+   ]
+  },
+  {
+   "id": "FMsg/i_power_stomach_15_SA_giganin_01_L#13",
+   "label": "MES_SA_MAIN_KPower_stomach_01_Ekubon_giga_carrot_tut_9T",
+   "style": 6,
+   "src": "さっき 覚えたカケラを\nくずしてみましょう！ ",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/o_ekubon_15_SA_giganin_01_U#13"
+   ]
+  },
+  {
+   "id": "FMsg/i_power_stomach_15_SA_giganin_01_L#14",
+   "label": "MES_Ekubon_15_SA_Ekubon_gcarrot_tut_h5AT",
+   "style": 6,
+   "src": "はいはいは～い。\nおためし 終了です～ ",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/o_ekubon_15_SA#5",
+    "FMsg/o_ekubon_15_SA_giganin_01_U#14"
+   ]
+  },
+  {
+   "id": "FMsg/i_power_stomach_15_SA_giganin_01_L#15",
+   "label": "MES_Ekubon_15_SA_Ekubon_gcarrot_tut_k1CT",
+   "style": 6,
+   "src": "でも カケラをテキトーに消すだけだと\n消化酵素のききめが\n弱くなっていっちゃうです。",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/o_ekubon_15_SA#6",
+    "FMsg/o_ekubon_15_SA_giganin_01_U#15"
+   ]
+  },
+  {
+   "id": "FMsg/i_power_stomach_15_SA_giganin_01_L#16",
+   "label": "MES_Ekubon_15_SA_NINJIN_START_BT",
+   "style": 6,
+   "src": "それでは 食いまくり\nスタートです～ ",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/o_ekubon_15_SA#7",
+    "FMsg/o_ekubon_15_SA_giganin_01_U#16"
+   ]
+  },
+  {
+   "id": "FMsg/i_power_stomach_15_SA_giganin_01_L#17",
+   "label": "MES_SA_MAIN_KPower_stomach_01_Ekubon_giga_carrot_tut_08AT",
+   "style": 6,
+   "src": "今は 赤いみたいだから\nカケラをいっきに\n消化できるってわけね！ ",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/o_ekubon_15_SA_giganin_01_U#17"
+   ]
+  },
+  {
+   "id": "FMsg/i_power_stomach_15_SA_giganin_01_L#18",
+   "label": "MES_Ekubon_15_SA_Ekubon_gcarrot_tut_h3AT",
+   "style": 6,
+   "src": "このニンジンには 食べたものを\nはやく消化する成分が\nふくまれているです。",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/o_ekubon_15_SA#8",
+    "FMsg/o_ekubon_15_SA_giganin_01_U#18"
+   ]
+  },
+  {
+   "id": "FMsg/i_power_stomach_15_SA_giganin_01_L#19",
+   "label": "MES_SA_MAIN_KPower_stomach_01_Ekubon_giga_carrot_tut_10AT",
+   "style": 6,
+   "src": "あった！ {1:pause}",
+   "tags": {
+    "1": "[0002:0000:14 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/o_ekubon_15_SA_giganin_01_U#19"
+   ]
+  },
+  {
+   "id": "FMsg/i_power_stomach_15_SA_giganin_01_L#20",
+   "label": "MES_SA_MAIN_KPower_stomach_01_Ekubon_giga_carrot_tut_06AT",
+   "style": 6,
+   "src": "クッパが 食べたカケラを\n全部{1:color}タッチ{2:color}{3:color}するなんて\nなかなか 大変ね… {4:color}",
+   "tags": {
+    "1": "[Color #2C64FF]",
+    "2": "[Color #373737]",
+    "3": "[Color #373737]",
+    "4": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/o_ekubon_15_SA_giganin_01_U#20"
+   ]
+  },
+  {
+   "id": "FMsg/i_power_stomach_15_SA_giganin_01_L#21",
+   "label": "MES_SA_MAIN_KPower_stomach_01_Ekubon_giga_carrot_tut_11BT",
+   "style": 6,
+   "src": "そのカケラの中にある\n成分を はやく見つけて\n使えば いいのね！ ",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/o_ekubon_15_SA_giganin_01_U#21"
+   ]
+  },
+  {
+   "id": "FMsg/i_power_stomach_15_SA_giganin_01_L#22",
+   "label": "MES_SA_MAIN_KPower_stomach_01_Ekubon_giga_carrot_tut_07BT",
+   "style": 6,
+   "src": "クッパのクチが 光ったとき\n落ちてくる カケラの中に\n消化する成分が あるらしいわ！ ",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/o_ekubon_15_SA_giganin_01_U#22"
+   ]
+  },
+  {
+   "id": "FMsg/i_power_stomach_15_SA_giganin_01_L#23",
+   "label": "MES_SA_MAIN_KPower_stomach_01_Ekubon_giga_carrot_tut_05BT",
+   "style": 6,
+   "src": "クッパは たくさん食べられるように\nなるんじゃないかしら。",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/o_ekubon_15_SA_giganin_01_U#23"
+   ]
+  },
+  {
+   "id": "FMsg/i_power_stomach_15_SA_giganin_01_L#24",
+   "label": "MES_SA_MAIN_KPower_stomach_01_Ekubon_giga_carrot_tut_10CT",
+   "style": 6,
+   "src": "{1:color}タッチ{2:color}{3:color}してみましょう！ {4:pause}{5:color}",
+   "tags": {
+    "1": "[Color #2C64FF]",
+    "2": "[Color #373737]",
+    "3": "[Color #373737]",
+    "4": "[0002:0000:0A 00]",
+    "5": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/o_ekubon_15_SA_giganin_01_U#24"
+   ]
+  },
+  {
+   "id": "FMsg/i_power_stomach_15_SA_giganin_01_L#25",
+   "label": "MES_Ekubon_15_SA_Ekubon_gcarrot_tut_k2AT",
+   "style": 6,
+   "src": "あ そのほかのカケラに\nこんな 小さな成分が\n入っていることもあるです。",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/o_ekubon_15_SA#9",
+    "FMsg/o_ekubon_15_SA_giganin_01_U#25"
+   ]
+  },
+  {
+   "id": "FMsg/i_power_stomach_15_SA_giganin_01_L#26",
+   "label": "MES_Ekubon_15_SA_Ekubon_gcarrot_tut_h2",
+   "style": 6,
+   "src": "あ。{1:pause}",
+   "tags": {
+    "1": "[0002:0000:1E 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/o_ekubon_15_SA#10",
+    "FMsg/o_ekubon_15_SA_giganin_01_U#26"
+   ]
+  },
+  {
+   "id": "FMsg/i_power_stomach_15_SA_giganin_01_L#27",
+   "label": "MES_Ekubon_15_SA_Ekubon_gcarrot_tut_k1BT",
+   "style": 6,
+   "src": "赤いうちに 使われると\n食べたものを いっきに\n消化しちゃうです～ ",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/o_ekubon_15_SA#11",
+    "FMsg/o_ekubon_15_SA_giganin_01_U#27"
+   ]
+  },
+  {
+   "id": "FMsg/i_power_stomach_15_SA_giganin_01_L#28",
+   "label": "MES_Ekubon_15_SA_NINJIN_START_AT",
+   "style": 6,
+   "src": "準備 できましたね。{1:pause}",
+   "tags": {
+    "1": "[0002:0000:0A 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/o_ekubon_15_SA#12",
+    "FMsg/o_ekubon_15_SA_giganin_01_U#28"
+   ]
+  },
+  {
+   "id": "FMsg/i_power_stomach_15_SA_giganin_01_L#30",
+   "label": "MES_SA_MAIN_KPower_stomach_01_Ekubon_giga_carrot_tut_10ET",
+   "style": 6,
+   "src": "さっき聞こえた\n小さな成分って\nこれのことね！ ",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/o_ekubon_15_SA_giganin_01_U#29"
+   ]
+  }
+ ]
+}

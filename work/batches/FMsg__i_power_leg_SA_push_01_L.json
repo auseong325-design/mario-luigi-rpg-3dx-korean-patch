@@ -1,0 +1,174 @@
+{
+ "batch": "FMsg__i_power_leg_SA_push_01_L",
+ "rooms": [
+  "i_power_leg_SA_push_01_L"
+ ],
+ "ds_rooms": [
+  "136"
+ ],
+ "ds_reference": [
+  "DS136#0: 쿠파가 힘을 낼 수 있도록\n근육을 자극해 보자!",
+  "DS136#1: 점프만 해서는\n자극이 부족한 것 같아…[Next]착지할 때 버튼을 눌러서\n꾹~ 하고 세게 밟아 봐!",
+  "DS136#2: 이번엔 루이지야!",
+  "DS136#3: 마리오와 루이지 중에\n아래에 있는 사람 버튼을\n누르면 되는 것 같아.",
+  "DS136#4: 좌우 교대로 계속 누르다 보면\n점프 높이가 높아져서\n자극도 세지는 것 같아.[Next]점프가 계속 이어질 수 있도록\n알맞은 타이밍에\n버튼을 눌러 줘!",
+  "DS136#5: 아!",
+  "DS136#6: 버튼을 누르고 있는 동안에는\n계속 힘이 나는 모양이니까[Next]잠시 동안 버튼을 누른 상태로\n자극하는 게 좋을 것 같아!"
+ ],
+ "glossary": [
+  {
+   "jp": "ジャンプ",
+   "ko": "점프",
+   "type": "ability",
+   "basis": "DS",
+   "source": "BData__mfset_Help#9",
+   "note": "필드 액션·배틀 커맨드 공통 [gl_attacks]"
+  },
+  {
+   "jp": "クッパ",
+   "ko": "쿠파",
+   "type": "character",
+   "basis": "DS",
+   "source": "BData__mfset_Help#21",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "マリオ",
+   "ko": "마리오",
+   "type": "character",
+   "basis": "DS",
+   "source": "BData__mfset_Help#19",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "ルイージ",
+   "ko": "루이지",
+   "type": "character",
+   "basis": "DS",
+   "source": "BData__mfset_Help#20",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "タイミング",
+   "ko": "타이밍",
+   "type": "term",
+   "basis": "DS",
+   "source": "BAI__BMes_cf#4.12",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "ボタン",
+   "ko": "버튼",
+   "type": "ui",
+   "basis": "DS",
+   "source": "MAI__MMes_yo#1.16",
+   "note": "[gl_menu_places]"
+  }
+ ],
+ "messages": [
+  {
+   "id": "FMsg/i_power_leg_SA_push_01_L#0",
+   "label": "MES_SA_SUB_KPower_leg_01_SA_LEG_TUT_01",
+   "style": 6,
+   "src": "クッパが チカラを 出せるように\n筋肉を シゲキしてみましょう！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/o_chika_12#0"
+   ]
+  },
+  {
+   "id": "FMsg/i_power_leg_SA_push_01_L#1",
+   "label": "MES_SA_SUB_KPower_leg_01_SA_LEG_TUT_02",
+   "style": 6,
+   "src": "ジャンプしているだけじゃ\nシゲキが 足りないようね…{1:wait}[Next]着地のときに ボタンを押して\nぎゅ～っと ふみつけてみて！{2:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/o_chika_12#1"
+   ]
+  },
+  {
+   "id": "FMsg/i_power_leg_SA_push_01_L#2",
+   "label": "MES_SA_SUB_KPower_leg_01_SA_LEG_TUT_03",
+   "style": 6,
+   "src": "{1:mode}こんどは ルイージよ！",
+   "tags": {
+    "1": "[0005:0000:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/o_chika_12#2"
+   ]
+  },
+  {
+   "id": "FMsg/i_power_leg_SA_push_01_L#3",
+   "label": "MES_SA_SUB_KPower_leg_01_SA_LEG_TUT_04",
+   "style": 6,
+   "src": "マリオ ルイージ どちらか\n{1:color}下にいる方{2:color}{3:color}の ボタンを\n押せば いいみたいね。{4:wait}{5:color}",
+   "tags": {
+    "1": "[Color #2C64FF]",
+    "2": "[Color #373737]",
+    "3": "[Color #373737]",
+    "4": "[0002:0001:]",
+    "5": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/o_chika_12#3"
+   ]
+  },
+  {
+   "id": "FMsg/i_power_leg_SA_push_01_L#4",
+   "label": "MES_SA_SUB_KPower_leg_01_SA_LEG_TUT_05",
+   "style": 6,
+   "src": "左右こうごに ふみ続ければ\nジャンプが 高くなって\nシゲキも 強くなるようよ。{1:wait}[Next]ジャンプを 続けられるように\nタイミングよく ボタンを\n押してね！{2:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/o_chika_12#4"
+   ]
+  },
+  {
+   "id": "FMsg/i_power_leg_SA_push_01_L#5",
+   "label": "MES_SA_SUB_KPower_leg_01_SA_LEG_TUT_06",
+   "style": 6,
+   "src": "{1:align}{2:mode}あ！{3:pause}",
+   "tags": {
+    "1": "[0001:0001:]",
+    "2": "[0005:0000:]",
+    "3": "[0002:0000:1E 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/o_chika_12#5"
+   ]
+  },
+  {
+   "id": "FMsg/i_power_leg_SA_push_01_L#6",
+   "label": "MES_SA_SUB_KPower_leg_01_SA_LEG_TUT_07",
+   "style": 6,
+   "src": "ボタンを 押しているあいだは\nずっと ふんばれるみたいだから{1:wait}[Next]しばらく ボタンを {2:color}押したまま{3:color}{4:color}で\nシゲキすると いいんじゃない？{5:wait}{6:color}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[Color #2C64FF]",
+    "3": "[Color #373737]",
+    "4": "[Color #373737]",
+    "5": "[0002:0001:]",
+    "6": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/o_chika_12#6"
+   ]
+  }
+ ]
+}

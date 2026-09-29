@@ -1,0 +1,96 @@
+{
+ "source": "Msg/JP_ja/FMsg.dat:o_town_25_before",
+ "messages": [
+  {
+   "id": "FMsg/o_town_25_before#0",
+   "label": "MES_TKinoko_25_before_Opening_Tkinoko_10",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]どうしたの！？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_25_before#1",
+   "label": "MES_TKinoko_25_before_Opening_Tkinoko_11",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]お[Ruby 父;とう]さんが！！[0002:0000:0A 00]\nお[Ruby 父;とう]さんがっ！！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_25_before#2",
+   "label": "MES_TKinoko_25_before_Opening_Tkinoko_12",
+   "style": 10,
+   "attr": "00000000",
+   "jp": "[0009:0000:0A 00][0005:0000:]イヤーー！！ あなたーー！"
+  },
+  {
+   "id": "FMsg/o_town_25_before#3",
+   "label": "MES_TKinoko_25_before_Opening_Tkinoko_01",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]お[Ruby 母;かあ]さん ただいま～！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_25_before#4",
+   "label": "MES_TKinoko_25_before_Opening_Tkinoko_02",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]おかえりなさい。\n[Ruby 今日;きょう]は はやかったのねぇ？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_25_before#5",
+   "label": "MES_TKinoko_25_before_Opening_Tkinoko_03",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]だって キノノ[Ruby 先生;せんせい]のお[Ruby 話;はなし]\nすーっごく [Ruby 長;なが]いんだもん。[0002:0001:][Next]ボク こっそり\n[Ruby 抜;ぬ]け[Ruby 出;だ]して きちゃった！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_25_before#6",
+   "label": "MES_TKinoko_25_before_Opening_Tkinoko_04",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]まぁ！ いけない[Ruby 子;こ]ね！[0002:0001:][Next]そんなことじゃ りっぱな\nキノピオに なれませんよ。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_25_before#7",
+   "label": "MES_TKinoko_25_before_Opening_Tkinoko_05",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]は～い わかりました～[0002:0001:][Next]ねぇねぇ ごはんまだぁ？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_25_before#8",
+   "label": "MES_TKinoko_25_before_Opening_Tkinoko_06",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]はいはい [Ruby 今;いま]できますよ。[0002:0001:][Next]その[Ruby 前;まえ]に お[Ruby 父;とう]さんを\n[Ruby 呼;よ]んできてちょうだいな。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_25_before#9",
+   "label": "MES_TKinoko_25_before_Opening_Tkinoko_07",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]わかった～！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_25_before#10",
+   "label": "MES_TKinoko_25_before_Opening_Tkinoko_08",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]お[Ruby 父;とう]さ～ん！！[0002:0000:0A 00]\nごはんだよ～！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_25_before#11",
+   "label": "MES_TKinoko_25_before_Opening_Tkinoko_09",
+   "style": 9,
+   "attr": "00000000",
+   "jp": "[0009:0000:09 00]キャーーーーーー！！！[0002:0000:1E 00]"
+  },
+  {
+   "id": "FMsg/o_town_25_before#12",
+   "label": "MES_TKinoko_25_before_Opening_Tkinoko_08_2",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]お[Ruby 父;とう]さ～ん？[0002:0001:]"
+  }
+ ]
+}

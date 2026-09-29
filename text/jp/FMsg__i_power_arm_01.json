@@ -1,0 +1,96 @@
+{
+ "source": "Msg/JP_ja/FMsg.dat:i_power_arm_01",
+ "messages": [
+  {
+   "id": "FMsg/i_power_arm_01#0",
+   "label": "MES_KPower_arm_01_KPower_arm_tut_12",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]クッパの[Ruby 筋肉;きんにく]が シゲキを\nうけて [Ruby 大;おお]きくなってるの！？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_power_arm_01#1",
+   "label": "MES_KPower_arm_01_KPower_arm_tut_13",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ねえ！[0002:0000:0A 00] あの[Ruby 電気;でんき]のような\nボールを もっと[Ruby 当;あ]ててみない！？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_power_arm_01#2",
+   "label": "MES_KPower_arm_01_KPower_arm_tut_14",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]なるほどね… クッパの[Ruby 体;からだ]に\n[Ruby 今;いま]みたいに シゲキをあたえると…[0002:0001:][Next]ものすごい チカラを\n[Ruby 発揮;はっき]するみたいね…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_power_arm_01#3",
+   "label": "MES_work_omit_00",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0001:0004:][0001:0001:][0005:0000:]=== 仮・未実装 ===\n[0001:0004:][0001:0001:][0005:0000:]イベントが仮または未実装の[Ruby 状態;じょうたい]です。[0002:0000:0A 00][0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_power_arm_01#4",
+   "label": "MES_KPower_arm_01_KPower_arm_tut_01",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]これが クッパの\nうでの[Ruby 筋肉;きんにく]…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_power_arm_01#5",
+   "label": "MES_KPower_arm_01_KPower_arm_tut_03",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]なにかに [Ruby 反応;はんのう]しているみたい！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_power_arm_01#6",
+   "label": "MES_KPower_arm_01_KPower_arm_tut_05",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]きっとクッパが なにかを[Ruby 運;はこ]んだり\n[Ruby 動;うご]かそうとしたり しているんだわ…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_power_arm_01#7",
+   "label": "MES_KPower_arm_01_KPower_arm_tut_06",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]なにかの スイッチみたいね…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_power_arm_01#8",
+   "label": "MES_KPower_arm_01_KPower_arm_tut_07",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0005:0000:][Color #FF4343]マリオ[Color #373737][Color #373737]！！ [Ruby 危;あぶ]ない！！[0002:0000:14 00][Color #373737]"
+  },
+  {
+   "id": "FMsg/i_power_arm_01#9",
+   "label": "MES_KPower_arm_01_KPower_arm_tut_08",
+   "style": 9,
+   "attr": "00000000",
+   "jp": "[0009:0000:09 00][0001:0004:]おお！？[0002:0000:0A 00] なんだか チカラが\nわいてきた [Ruby 気;き]がするぞ！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_power_arm_01#10",
+   "label": "MES_KPower_arm_01_KPower_arm_tut_09",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]なに？[0002:0000:0A 00]\nなにが [Ruby 起;お]きたの？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_power_arm_01#11",
+   "label": "MES_sys_minigame_relief_01",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0001:0001:]クリアしたことにして\nお[Ruby 話;はなし]を [Ruby 先;さき]に[Ruby 進;すす]めますか？[0002:0000:0A 00]\n[0005:0000:][0004:0000:]いいえ[0006:0000:28 00][0004:0000:]はい"
+  },
+  {
+   "id": "FMsg/i_power_arm_01#12",
+   "label": "MES_KPower_arm_01_KPower_arm_tut_10",
+   "style": 9,
+   "attr": "00000000",
+   "jp": "[0009:0000:09 00][0001:0004:]ぬおおおおおおおおおおお！！[0002:0001:]"
+  }
+ ]
+}

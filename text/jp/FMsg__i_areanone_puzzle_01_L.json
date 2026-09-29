@@ -1,0 +1,103 @@
+{
+ "source": "Msg/JP_ja/FMsg.dat:i_areanone_puzzle_01_L",
+ "messages": [
+  {
+   "id": "FMsg/i_areanone_puzzle_01_L#0",
+   "label": "MES_EMesJig_tutorial1",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]これは… もしかして\n[Ruby 暗証番号;あんしょうばんごう]のきおくが\nバラバラに！？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_areanone_puzzle_01_L#1",
+   "label": "MES_EMesJig_tutorial2",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]はい そうです。\nとても[Ruby 大;おお]きな しょうげきが[Ruby 起;お]きた。[0002:0001:][Next]それで このきおくが こわれた。\nはい そうです。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_areanone_puzzle_01_L#2",
+   "label": "MES_EMesJig_tutorial3",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]さっき ゲラエクスプレスに\nつぶされた[Ruby 時;とき]に こわれたんだわ。[0002:0001:][Next]だから [Ruby 暗証番号;あんしょうばんごう]を\n[Ruby 思;おも]い[Ruby 出;だ]せなくなっていたのね…\nどうやって もどしたらいいの？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_areanone_puzzle_01_L#3",
+   "label": "MES_EMesJig_tutorial4",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]はい タッチペンです。\nタッチペンで ピースをタッチです。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_areanone_puzzle_01_L#4",
+   "label": "MES_EMesJig_tutorial5",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ピースをタッチしたまま パネルの\n[Ruby 上;うえ]に[Ruby 移動;いどう]です。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_areanone_puzzle_01_L#5",
+   "label": "MES_EMesJig_tutorial6",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ピースが パネルにはまって\n[Ruby 動;うご]かせなくなったら そこが\n[Ruby 正解;せいかい]の[Ruby 場所;ばしょ]。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_areanone_puzzle_01_L#6",
+   "label": "MES_EMesJig_tutorial7",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]パネルの [Ruby 下;した]にあるボタンを\nタッチすると [Ruby 選;えら]んだピースが\n[Ruby 回転;かいてん] [Ruby 回転;かいてん] か い て ん。[0002:0001:][Next][0001:0004:]こうやって ピースを[Ruby 正;ただ]しい[Ruby 向;む]きに\nなおすことも はい [Ruby 大切;たいせつ]。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_areanone_puzzle_01_L#7",
+   "label": "MES_EMesJig_tutorial8",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]こうやって バラバラになった\nピースを もとにもどすのです。[0002:0001:][Next][Ruby 説明;せつめい]は わかりましたか？[0002:0000:0A 00]\n[0001:0001:][0004:0001:]いいえ[0006:0000:28 00][0004:0001:]はい[0002:0000:0A 00]"
+  },
+  {
+   "id": "FMsg/i_areanone_puzzle_01_L#8",
+   "label": "MES_EMesJig_tutorial9",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]マリオ！ ルイージ！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_areanone_puzzle_01_L#9",
+   "label": "MES_EMesJig_tutorial7_a",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]パネルの [Ruby 下;した]にあるボタンを\nタッチすると [Ruby 選;えら]んだピースが\n[Ruby 回転;かいてん] かいてん か い て ん。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_areanone_puzzle_01_L#10",
+   "label": "MES_EMesJig_tutorial7_b",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]こうやって ピースを[Ruby 正;ただ]しい[Ruby 向;む]きに\nなおすことも はい [Ruby 大切;たいせつ]。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_areanone_puzzle_01_L#11",
+   "label": "MES_EMesJig_tutorial10",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]さっそく このバラバラになった\nきおくを もとにもどしましょう！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_areanone_puzzle_01_L#12",
+   "label": "MES_EMesJig_tutorial11",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]できたわ！\n９８９８ ８８２４１ ９８３\nこれが [Ruby 暗証番号;あんしょうばんごう]ね！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_areanone_puzzle_01_L#13",
+   "label": "MES_EMesJig_tutorial12",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0005:0000:][0001:0001:]タッチペンでピースを[Ruby 移動;いどう]。\n[Ruby 回転;かいてん]ボタンをタッチでピースの[Ruby 回転;かいてん]。"
+  }
+ ]
+}

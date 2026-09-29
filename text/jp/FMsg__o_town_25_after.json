@@ -1,0 +1,40 @@
+{
+ "source": "Msg/JP_ja/FMsg.dat:o_town_25_after",
+ "messages": [
+  {
+   "id": "FMsg/o_town_25_after#0",
+   "label": "MES_TKinoko_25_after_Kinoko_town_kinopio_03_2",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]お[Ruby 父;とう]さんが\n[Ruby 帰;かえ]ってきた～！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_25_after#1",
+   "label": "MES_TKinoko_25_after_Kinoko_town_kinopio_03_3",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]いや～ すっかり\nこわれてしまったな…[0002:0001:][Next][0001:0004:]また リフォームしなければ…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_25_after#2",
+   "label": "MES_TKinoko_25_after_Kinoko_town_kinopio_02",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]リフォームしてから\nまだ まもないのに…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_25_after#3",
+   "label": "MES_TKinoko_25_after_Kinoko_town_kinopio_03",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]お[Ruby 父;とう]さんが コロコロの\nボテボテになって\nドカーン！ ってなったんだ！[0002:0001:][Next][0001:0004:]ボクも いつかは\nお[Ruby 父;とう]さんみたいに なるのかな？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_25_after#4",
+   "label": "MES_TKinoko_25_after_Kinoko_town_kinopio_02_2",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]お[Ruby 父;とう]さん！ もう\nへんな キノコ[Ruby 食;た]べたらだめよ！[0002:0001:]"
+  }
+ ]
+}

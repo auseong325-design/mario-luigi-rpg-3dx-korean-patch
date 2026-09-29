@@ -1,0 +1,150 @@
+{
+ "batch": "FMsg__i_areanone_op_02_L",
+ "rooms": [
+  "i_areanone_op_02_L"
+ ],
+ "ds_rooms": [
+  "29D"
+ ],
+ "ds_reference": [
+  "DS29D#0: 뚱뚱데굴병!!!!",
+  "DS29D#1: 버섯 왕국에 돌연 퍼진 의문의 병!\n그것이 뚱뚱데굴병이다!!",
+  "DS29D#2: 어느 날 갑자기 몸이\n뚱뚱하게 부풀어 올라\n공처럼 데굴데굴 구르게 되는\n소름 끼치게 끔찍한 병…",
+  "DS29D#3: 아직까지 원인도\n치료 방법도 찾지 못한 채…",
+  "DS29D#4: 뚱뚱데굴병에 걸리는\n키노피오들은\n날마다 늘어만 가고…",
+  "DS29D#5: 사태의 심각성을 깨달은 피치공주는\n피치 성에서 긴급회의를\n소집하게 되는데…"
+ ],
+ "glossary": [
+  {
+   "jp": "キノピオ",
+   "ko": "키노피오",
+   "type": "character",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesPlace#20",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "ピーチ姫",
+   "ko": "피치공주",
+   "type": "character",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesOutline#13",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "キノコ",
+   "ko": "버섯",
+   "type": "item",
+   "basis": "DS",
+   "source": "BData__mfset_UItmN#0",
+   "note": "일반 명사 キノコ도 버섯(キノコタウン=버섯 타운) [gl_items]"
+  },
+  {
+   "jp": "キノコ王国",
+   "ko": "버섯 왕국",
+   "type": "place",
+   "basis": "DS",
+   "source": "FEvent:011#0",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "ピーチ城",
+   "ko": "피치 성",
+   "type": "place",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesPlace#1",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "メタコロ",
+   "ko": "뚱뚱데굴",
+   "type": "term",
+   "basis": "coined",
+   "source": "FMsg/k_o_koopa_r_80#301",
+   "note": "DS 병명에서. 「メタコロクリボー」→'뚱뚱데굴 굼바' [gl_kj]"
+  },
+  {
+   "jp": "メタコロ病",
+   "ko": "뚱뚱데굴병",
+   "type": "term",
+   "basis": "DS",
+   "source": "FEvent:09B#0",
+   "note": "[gl_kj]"
+  }
+ ],
+ "messages": [
+  {
+   "id": "FMsg/i_areanone_op_02_L#0",
+   "label": "MES_TKinoko_25_before_Opening_opeach_01",
+   "style": 4,
+   "src": "{1:align}{2:mode}メタコロ病！！！！{3:pause}",
+   "tags": {
+    "1": "[0001:0001:]",
+    "2": "[0005:0000:]",
+    "3": "[0002:0000:1E 00]"
+   },
+   "header": "[0009:0000:04 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_areanone_op_02_L#1",
+   "label": "MES_TKinoko_25_before_Opening_opeach_02",
+   "style": 4,
+   "src": "{1:align}{2:mode}キノコ王国で とつじょはやりだした\nナゾの病気！ それがメタコロ病！！",
+   "tags": {
+    "1": "[0001:0001:]",
+    "2": "[0005:0000:]"
+   },
+   "header": "[0009:0000:04 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_areanone_op_02_L#2",
+   "label": "MES_TKinoko_25_before_Opening_opeach_03",
+   "style": 4,
+   "src": "{1:align}{2:mode}ある日突然 体がコロコロと\n丸くなり ふくれあがって\n転がり続けてしまう\nとても おそろしい病気…",
+   "tags": {
+    "1": "[0001:0001:]",
+    "2": "[0005:0000:]"
+   },
+   "header": "[0009:0000:04 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_areanone_op_02_L#3",
+   "label": "MES_TKinoko_25_before_Opening_opeach_04",
+   "style": 4,
+   "src": "{1:align}{2:mode}今のところ 原因も\n治す方法も 見つからず…",
+   "tags": {
+    "1": "[0001:0001:]",
+    "2": "[0005:0000:]"
+   },
+   "header": "[0009:0000:04 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_areanone_op_02_L#4",
+   "label": "MES_TKinoko_25_before_Opening_opeach_04_2",
+   "style": 4,
+   "src": "{1:align}{2:mode}メタコロ病になる\nキノピオ達は 日に日に\nふえていくばかり…",
+   "tags": {
+    "1": "[0001:0001:]",
+    "2": "[0005:0000:]"
+   },
+   "header": "[0009:0000:04 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_areanone_op_02_L#5",
+   "label": "MES_TKinoko_25_before_Opening_opeach_04_3",
+   "style": 4,
+   "src": "{1:align}{2:mode}事態を重く見た ピーチ姫は\nピーチ城にて きゅうきょ\nかいぎを 開くことに…",
+   "tags": {
+    "1": "[0001:0001:]",
+    "2": "[0005:0000:]"
+   },
+   "header": "[0009:0000:04 00]",
+   "dups": []
+  }
+ ]
+}

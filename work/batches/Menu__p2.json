@@ -1,0 +1,2295 @@
+{
+ "batch": "Menu__p2",
+ "rooms": [
+  "Menu"
+ ],
+ "ds_rooms": [],
+ "ds_reference": [
+  "@file work/batches/_refs_Menu.txt (498 DS lines shared by all Menu batches - read it once)"
+ ],
+ "glossary": [
+  {
+   "jp": "ちびマリオ",
+   "ko": "꼬마 마리오",
+   "type": "ability",
+   "basis": "coined",
+   "source": "",
+   "note": "DS는 이름 없이 '작아진 마리오'(FEvent#00D.18)로만 씀. 공식 '○○ 마리오' 띄어쓰기(코끼리 마리오 등)에 맞춤 [gl_attacks]"
+  },
+  {
+   "jp": "コウラマリオ",
+   "ko": "등껍질 마리오",
+   "type": "ability",
+   "basis": "coined",
+   "source": "",
+   "note": "DS는 이름 없이 '등껍질을 짊어진 상태'(FEvent#0CF.20)로만 씀. 등껍질블록(DS)에 맞춤 [gl_attacks]"
+  },
+  {
+   "jp": "スパイクボール",
+   "ko": "스파이크 볼",
+   "type": "ability",
+   "basis": "DS",
+   "source": "FEvent#152.21",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "スライディングパンチ",
+   "ko": "슬라이딩 펀치",
+   "type": "ability",
+   "basis": "coined",
+   "source": "",
+   "note": "DS 한국판은 이름 없이 '걸으면서 펀치'(FEvent#03C.11). DS 말장난 '슬라이딩 다이어트'(FEvent#055.0)와 이어짐 [gl_attacks]"
+  },
+  {
+   "jp": "ハンマー",
+   "ko": "해머",
+   "type": "ability",
+   "basis": "DS",
+   "source": "BData__mfset_Help#10",
+   "note": "필드 액션·배틀 커맨드 공통(입수 아이템명도 해머, MenuMes#41). 힘을 ためる→'파워를 모으다'(BAI__BMes_cf#5.5) [gl_attacks]"
+  },
+  {
+   "jp": "パンチ",
+   "ko": "펀치",
+   "type": "ability",
+   "basis": "DS",
+   "source": "BData__mfset_Help#14",
+   "note": "필드 액션·배틀 커맨드 공통 [gl_attacks]"
+  },
+  {
+   "jp": "Dr.コキノ",
+   "ko": "오키노 선생",
+   "type": "character",
+   "basis": "DS",
+   "source": "DS 대사 '오키노 선생(님)' 22회",
+   "note": "병원 이름은 '닥터 오키노 병원'(DS)"
+  },
+  {
+   "jp": "イギー",
+   "ko": "이기",
+   "type": "character",
+   "basis": "official",
+   "source": "https://www.nintendo.com/kr/switch/aabpa/sp/character/",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "イモーヌ",
+   "ko": "애번느",
+   "type": "character",
+   "basis": "DS",
+   "source": "i_energy_32#13 ↔ DS110#2",
+   "note": "room-align"
+  },
+  {
+   "jp": "キノピオ",
+   "ko": "키노피오",
+   "type": "character",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesPlace#20",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "クッパ",
+   "ko": "쿠파",
+   "type": "character",
+   "basis": "DS",
+   "source": "BData__mfset_Help#21",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "クッパJr.",
+   "ko": "쿠파주니어",
+   "type": "character",
+   "basis": "official",
+   "source": "https://www.nintendo.com/kr/switch/aabpa/sp/character/",
+   "note": "한국닌텐도 공식 표기(마리오 카트 8 디럭스 등). 부하들이 부를 때는 '쿠파주니어님' [gl_kj]"
+  },
+  {
+   "jp": "ダーククッパ",
+   "ko": "다크쿠파",
+   "type": "character",
+   "basis": "DS",
+   "source": "i_tainai_01#2 ↔ DS195#24",
+   "note": "room-align"
+  },
+  {
+   "jp": "ダークスター",
+   "ko": "다크스타",
+   "type": "character",
+   "basis": "DS",
+   "source": "i_air_07#1 ↔ DS17F#1",
+   "note": "room-align"
+  },
+  {
+   "jp": "ピーチ姫",
+   "ko": "피치공주",
+   "type": "character",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesOutline#13",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "マリオ",
+   "ko": "마리오",
+   "type": "character",
+   "basis": "DS",
+   "source": "BData__mfset_Help#19",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "ルイージ",
+   "ko": "루이지",
+   "type": "character",
+   "basis": "DS",
+   "source": "BData__mfset_Help#20",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "７人衆",
+   "ko": "7인조",
+   "type": "character",
+   "basis": "official",
+   "source": "https://namu.wiki/w/%EC%BF%A0%ED%8C%8C%207%EC%9D%B8%EC%A1%B0",
+   "note": "「アタシ達 ７人衆」→'우리 7인조' [gl_kj]"
+  },
+  {
+   "jp": "いかりうでわ",
+   "ko": "분노팔찌",
+   "type": "gear",
+   "basis": "DS",
+   "source": "BData__mfset_WearN#324",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "おたからゆびわ",
+   "ko": "보물반지",
+   "type": "gear",
+   "basis": "DS",
+   "source": "BData__mfset_WearN#390",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "ごうかいゆびわ",
+   "ko": "호탕반지",
+   "type": "gear",
+   "basis": "DS",
+   "source": "BData__mfset_WearN#366",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "ほねほねきば",
+   "ko": "탄탄이빨",
+   "type": "gear",
+   "basis": "DS",
+   "source": "BData__mfset_WearN#348",
+   "note": "DS·3DX 미니게임 상품 자리도 일치(MesDat_MiniGame#50) [gl_items]"
+  },
+  {
+   "jp": "キノコ",
+   "ko": "버섯",
+   "type": "item",
+   "basis": "DS",
+   "source": "BData__mfset_UItmN#0",
+   "note": "일반 명사 キノコ도 버섯(キノコタウン=버섯 타운) [gl_items]"
+  },
+  {
+   "jp": "ギガニンジン",
+   "ko": "기가 당근",
+   "type": "item",
+   "basis": "DS",
+   "source": "DS033 \"기가 당근!!\"",
+   "note": ""
+  },
+  {
+   "jp": "ボーナスカード",
+   "ko": "보너스 카드",
+   "type": "item",
+   "basis": "coined",
+   "source": "3DX 개명(DS 스크래치 카드와 방식이 다름)",
+   "note": "3DX에서 이름·방식이 바뀌어 3DX 이름을 따름"
+  },
+  {
+   "jp": "カギ",
+   "ko": "열쇠",
+   "type": "key_item",
+   "basis": "DS",
+   "source": "MData__mfset_MenuMes#59",
+   "note": "[gl_menu_places]"
+  },
+  {
+   "jp": "ゲプーキュウコン",
+   "ko": "꺼억구근",
+   "type": "key_item",
+   "basis": "coined",
+   "source": "FMsg/k_o_ekubon_15#7",
+   "note": "ゲップー(DS '꺼억 케이프')+球根 [gl_kj]"
+  },
+  {
+   "jp": "サプリ",
+   "ko": "영양제",
+   "type": "key_item",
+   "basis": "coined",
+   "source": "Menu#250",
+   "note": "뚱뚱데굴병 치료 영양제. 회사명 속 サプリ만 '서플리먼트' [gl_kj]"
+  },
+  {
+   "jp": "スターワクチン",
+   "ko": "스타 백신",
+   "type": "key_item",
+   "basis": "DS",
+   "source": "MData__mfset_MenuMes#58",
+   "note": "DS '3개의 스타 백신을 합성해서' [gl_items]"
+  },
+  {
+   "jp": "スターワクチン緑",
+   "ko": "그린 스타 백신",
+   "type": "key_item",
+   "basis": "DS",
+   "source": "MData__mfset_MenuMes#55",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "パズルピース",
+   "ko": "퍼즐피스",
+   "type": "key_item",
+   "basis": "DS",
+   "source": "MData__mfset_MenuMes#99",
+   "note": "AGENTS.md 4.4 확정 표기 [gl_items]"
+  },
+  {
+   "jp": "パズルピース１",
+   "ko": "퍼즐피스1",
+   "type": "key_item",
+   "basis": "DS",
+   "source": "MData__mfset_MenuMes#99",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "パズルピース２",
+   "ko": "퍼즐피스2",
+   "type": "key_item",
+   "basis": "DS",
+   "source": "MData__mfset_MenuMes#101",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "パズルピース３",
+   "ko": "퍼즐피스3",
+   "type": "key_item",
+   "basis": "DS",
+   "source": "MData__mfset_MenuMes#103",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "パズルピース４",
+   "ko": "퍼즐피스4",
+   "type": "key_item",
+   "basis": "DS",
+   "source": "MData__mfset_MenuMes#105",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "マンネンアイス",
+   "ko": "만년얼음",
+   "type": "key_item",
+   "basis": "coined",
+   "source": "FMsg/k_o_ekubon_15#7",
+   "note": "이름을 틀리는 개그(テンネンボイス 등)는 '만년얼음'에 맞춰 재구성 [gl_kj]"
+  },
+  {
+   "jp": "ワクチン",
+   "ko": "백신",
+   "type": "key_item",
+   "basis": "DS",
+   "source": "MData__mfset_MenuMes#52",
+   "note": "[gl_menu_places]"
+  },
+  {
+   "jp": "緑のカギ",
+   "ko": "초록색 열쇠",
+   "type": "key_item",
+   "basis": "DS",
+   "source": "MData__mfset_MenuMes#61",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "Oki Doki！！",
+   "ko": "Oki Doki!!",
+   "type": "other",
+   "basis": "coined",
+   "source": "",
+   "note": "BGM 제목(3DX 신규, DX판·원곡판 공통). 영어 제목 그대로 [gl_menu_places]"
+  },
+  {
+   "jp": "SHOW TIME！",
+   "ko": "SHOW TIME!",
+   "type": "other",
+   "basis": "coined",
+   "source": "",
+   "note": "BGM 제목(3DX 신규, DX판·원곡판 공통). 영어 제목 그대로 [gl_menu_places]"
+  },
+  {
+   "jp": "The Winner is…",
+   "ko": "The Winner is…",
+   "type": "other",
+   "basis": "coined",
+   "source": "",
+   "note": "BGM 제목(3DX 신규, DX판·원곡판 공통). 영어 제목 그대로 [gl_menu_places]"
+  },
+  {
+   "jp": "いよいよピーチ城の奥へ進めるぞ！ ピーチ姫は？ ダークスターは？ いったいどこに？",
+   "ko": "드디어 피치 성 안쪽으로 갈 수 있다! 피치공주는? 다크스타는? 대체 어디에 있는 걸까?",
+   "type": "other",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesOutline#36",
+   "note": "줄거리 문장(3DX storyN = DS #N) [gl_menu_places]"
+  },
+  {
+   "jp": "うばわれたクッパ城",
+   "ko": "빼앗긴 쿠파 성",
+   "type": "other",
+   "basis": "coined",
+   "source": "",
+   "note": "BGM 제목(3DX 신규, DX판·원곡판 공통). [gl_menu_places]"
+  },
+  {
+   "jp": "これがボコスカバトル！",
+   "ko": "이것이 난투 배틀!",
+   "type": "other",
+   "basis": "coined",
+   "source": "",
+   "note": "BGM 제목(3DX 신규, DX판·원곡판 공통). [gl_menu_places]"
+  },
+  {
+   "jp": "ちょいと強い奴らに要注意！？",
+   "ko": "좀 센 녀석들을 조심해!?",
+   "type": "other",
+   "basis": "coined",
+   "source": "",
+   "note": "BGM 제목(3DX 신규, DX판·원곡판 공통). [gl_menu_places]"
+  },
+  {
+   "jp": "クッパ軍団",
+   "ko": "쿠파 군단",
+   "type": "other",
+   "basis": "DS",
+   "source": "FEvent#23E.19",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "クッパ軍団 行進曲",
+   "ko": "쿠파 군단 행진곡",
+   "type": "other",
+   "basis": "coined",
+   "source": "",
+   "note": "BGM 제목(3DX 신규, DX판·원곡판 공통). 쿠파 군단=DS [gl_menu_places]"
+  },
+  {
+   "jp": "コウラブロック",
+   "ko": "등껍질블록",
+   "type": "other",
+   "basis": "DS",
+   "source": "FEvent#0CF.7",
+   "note": "붙여 씀 [gl_attacks]"
+  },
+  {
+   "jp": "ザ・ジャイアント",
+   "ko": "더 자이언트",
+   "type": "other",
+   "basis": "coined",
+   "source": "",
+   "note": "BGM 제목(3DX 신규, DX판·원곡판 공통). [gl_menu_places]"
+  },
+  {
+   "jp": "スーパーポンプアップ！",
+   "ko": "슈퍼 펌프 업!",
+   "type": "other",
+   "basis": "coined",
+   "source": "",
+   "note": "BGM 제목(3DX 신규, DX판·원곡판 공통). [gl_menu_places]"
+  },
+  {
+   "jp": "ダーククッパを追いつめろ！ いよいよ最後の決戦だ！ 準備はいいか？",
+   "ko": "다크쿠파가 저곳에! 드디어 최후의 결전이다! 준비하고 출발!",
+   "type": "other",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesOutline#39",
+   "note": "줄거리 문장(3DX storyN = DS #N). 3DX 표현(追いつめろ/準備はいいか)과 조금 다르나 뜻이 같아 DS 유지 [gl_menu_places]"
+  },
+  {
+   "jp": "ダークスターがクッパの体の中に逃げ込んだ！？ エアースペースの奥へ追っていこう！",
+   "ko": "다크스타가 쿠파의 몸속으로 도망갔다!? 에어 스페이스의 안쪽으로 쫓아가 보자!",
+   "type": "other",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesOutline#37",
+   "note": "줄거리 문장(3DX storyN = DS #N) [gl_menu_places]"
+  },
+  {
+   "jp": "ダークスターがクッパ？に変身！ このままでは大変なことに！ やつを追いかけよう！",
+   "ko": "다크스타가 쿠파로 변신!? 이대로 두면 큰일이 일어나고 말 거야! 어서 쫓아가 보자!",
+   "type": "other",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesOutline#38",
+   "note": "줄거리 문장(3DX storyN = DS #N) [gl_menu_places]"
+  },
+  {
+   "jp": "ドクター・コキノ",
+   "ko": "닥터 오키노",
+   "type": "other",
+   "basis": "coined",
+   "source": "",
+   "note": "BGM 제목(3DX 신규, DX판·원곡판 공통). DS218#21 '닥터 오키노' 표기 [gl_menu_places]"
+  },
+  {
+   "jp": "ピーチ城のカギを持って逃げたゲラパト３匹を見つけ出そう！",
+   "ko": "피치 성의 열쇠를 갖고 도망친 까르트롤 3마리를 찾아보자!",
+   "type": "other",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesOutline#35",
+   "note": "줄거리 문장(3DX storyN = DS #N) [gl_menu_places]"
+  },
+  {
+   "jp": "ムッシュ",
+   "ko": "신사",
+   "type": "other",
+   "basis": "DS",
+   "source": "SAI__SMes_yo#0.97",
+   "note": "블로크의 호칭(ムッシュ～ → 신사~) [gl_menu_places]"
+  },
+  {
+   "jp": "ワルツ・イン・ザ・レイク",
+   "ko": "왈츠 인 더 레이크",
+   "type": "other",
+   "basis": "coined",
+   "source": "",
+   "note": "BGM 제목(3DX 신규, DX판·원곡판 공통). [gl_menu_places]"
+  },
+  {
+   "jp": "新しい冒険へ！",
+   "ko": "새로운 모험으로!",
+   "type": "other",
+   "basis": "coined",
+   "source": "",
+   "note": "BGM 제목(3DX 신규, DX판·원곡판 공통). [gl_menu_places]"
+  },
+  {
+   "jp": "決戦のとき！",
+   "ko": "결전의 때!",
+   "type": "other",
+   "basis": "coined",
+   "source": "",
+   "note": "BGM 제목(3DX 신규, DX판·원곡판 공통). DS223#2 '결전의 때가 왔나 봐!' 표현 [gl_menu_places]"
+  },
+  {
+   "jp": "エアースペース",
+   "ko": "에어 스페이스",
+   "type": "place",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesPlace#24",
+   "note": "세이브 파일 장소명(3DX MES_EMesPlace_place24 = DS #24) [gl_menu_places]"
+  },
+  {
+   "jp": "エクボン",
+   "ko": "볼조개",
+   "type": "place",
+   "basis": "DS",
+   "source": "MData__mfset_MenuMes#17",
+   "note": "エクボンの森 약칭(エクボンパーツ=볼조개 피스) [gl_menu_places]"
+  },
+  {
+   "jp": "エクボンの森",
+   "ko": "볼조개 숲",
+   "type": "place",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesPlace#2",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "オタプク草原",
+   "ko": "귀여미 초원",
+   "type": "place",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesPlace#11",
+   "note": "세이브 파일 장소명(3DX MES_EMesPlace_place11 = DS #11) [gl_menu_places]"
+  },
+  {
+   "jp": "ガラクタスペース",
+   "ko": "잡동사니 스페이스",
+   "type": "place",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesPlace#12",
+   "note": "세이브 파일 장소명(3DX MES_EMesPlace_place12 = DS #12) [gl_menu_places]"
+  },
+  {
+   "jp": "キノコタウン",
+   "ko": "버섯 타운",
+   "type": "place",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesPlace#8",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "クッパの体の中",
+   "ko": "쿠파의 몸속",
+   "type": "place",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesOutline#37",
+   "note": "[gl_menu_places]"
+  },
+  {
+   "jp": "クッパ城",
+   "ko": "쿠파 성",
+   "type": "place",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesPlace#6",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "クッパ城へ続く道",
+   "ko": "쿠파 성 가는 길",
+   "type": "place",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesPlace#5",
+   "note": "세이브 파일 장소명(3DX MES_EMesPlace_place5 = DS #5) [gl_menu_places]"
+  },
+  {
+   "jp": "ゲプー岬",
+   "ko": "꺼억 케이프",
+   "type": "place",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesPlace#3",
+   "note": "세이브 파일 장소명(3DX MES_EMesPlace_place3 = DS #3) [gl_menu_places]"
+  },
+  {
+   "jp": "ヅツーダレイク",
+   "ko": "고라파 레이크",
+   "type": "place",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesPlace#10",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "ビーチ",
+   "ko": "비치",
+   "type": "place",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesOutline#27",
+   "note": "ムッシーバビーチ를 줄여 부를 때 [gl_menu_places]"
+  },
+  {
+   "jp": "ピーチ城",
+   "ko": "피치 성",
+   "type": "place",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesPlace#1",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "ムッシーバ",
+   "ko": "이아파",
+   "type": "place",
+   "basis": "DS",
+   "source": "MData__mfset_MenuMes#15",
+   "note": "ムッシーバビーチ 약칭(ムッシーバパーツ=이아파 피스) [gl_menu_places]"
+  },
+  {
+   "jp": "ムッシーバビーチ",
+   "ko": "이아파 비치",
+   "type": "place",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesPlace#4",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "レイク",
+   "ko": "레이크",
+   "type": "place",
+   "basis": "DS",
+   "source": "DS283#23",
+   "note": "ヅツーダレイク를 줄여 부를 때 [gl_menu_places]"
+  },
+  {
+   "jp": "地下",
+   "ko": "지하",
+   "type": "place",
+   "basis": "DS",
+   "source": "DS093#0",
+   "note": "[gl_menu_places]"
+  },
+  {
+   "jp": "地下トンネル",
+   "ko": "지하 터널",
+   "type": "place",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesPlace#7",
+   "note": "세이브 파일 장소명(3DX MES_EMesPlace_place7 = DS #7) [gl_menu_places]"
+  },
+  {
+   "jp": "草原",
+   "ko": "초원",
+   "type": "place",
+   "basis": "DS",
+   "source": "DS283#23",
+   "note": "オタプク草原을 줄여 부를 때 [gl_menu_places]"
+  },
+  {
+   "jp": "いかり",
+   "ko": "분노",
+   "type": "term",
+   "basis": "DS",
+   "source": "FEvent#28D.23",
+   "note": "'분노 중에'(WearE#102) [gl_attacks]"
+  },
+  {
+   "jp": "うでわ",
+   "ko": "팔찌",
+   "type": "term",
+   "basis": "DS",
+   "source": "MData__mfset_ShopMes#48",
+   "note": "장비 종류명 [gl_items]"
+  },
+  {
+   "jp": "きば",
+   "ko": "이빨",
+   "type": "term",
+   "basis": "DS",
+   "source": "BData__mfset_WearN#327",
+   "note": "장비 종류명(쿠파). DS 파워이빨 등 [gl_items]"
+  },
+  {
+   "jp": "くぼみ",
+   "ko": "홈",
+   "type": "term",
+   "basis": "DS",
+   "source": "FEvent DS0EC \"홈 아래를 파고\"",
+   "note": "DS 표기"
+  },
+  {
+   "jp": "ゆびわ",
+   "ko": "반지",
+   "type": "term",
+   "basis": "DS",
+   "source": "MData__mfset_ShopMes#49",
+   "note": "장비 종류명 [gl_items]"
+  },
+  {
+   "jp": "アクション",
+   "ko": "액션",
+   "type": "term",
+   "basis": "DS",
+   "source": "FEvent#152.21",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "アップ",
+   "ko": "업",
+   "type": "term",
+   "basis": "DS",
+   "source": "FEvent:0EC#11",
+   "note": "「POWアップ」→'POW 업'(DS '파워 업') [gl_kj]"
+  },
+  {
+   "jp": "キュウコン",
+   "ko": "구근",
+   "type": "term",
+   "basis": "coined",
+   "source": "FMsg/k_o_gepu_08#8",
+   "note": "「球の根っこ」는 '알뿌리'로 풀이 [gl_kj]"
+  },
+  {
+   "jp": "コイン",
+   "ko": "코인",
+   "type": "term",
+   "basis": "DS",
+   "source": "BData__mfset_WearE#22",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "コウラ",
+   "ko": "등껍질",
+   "type": "term",
+   "basis": "DS",
+   "source": "BAI__BMes_cf#8.1",
+   "note": "쿠파의 방어 커맨드(Y)·등껍질 일반 [gl_attacks]"
+  },
+  {
+   "jp": "ターン",
+   "ko": "턴",
+   "type": "term",
+   "basis": "DS",
+   "source": "BAI__BMes_ji#0.0",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "チャレンジ",
+   "ko": "챌린지",
+   "type": "term",
+   "basis": "DS",
+   "source": "FEvent#28A.60",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "バトル",
+   "ko": "배틀",
+   "type": "term",
+   "basis": "DS",
+   "source": "BAI__BMes_cf#2.13",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "ボコスカバトル",
+   "ko": "난투 배틀",
+   "type": "term",
+   "basis": "coined",
+   "source": "",
+   "note": "확인 필요: BGM 제목 속 쿠파주니어 RPG 전투. 쿠파주니어 RPG 용어집과 맞출 것 [gl_menu_places]"
+  },
+  {
+   "jp": "ムッシュ～",
+   "ko": "신사",
+   "type": "term",
+   "basis": "DS",
+   "source": "o_koopa_37#3 ↔ DS23C#8",
+   "note": "room-align"
+  },
+  {
+   "jp": "メタコロ",
+   "ko": "뚱뚱데굴",
+   "type": "term",
+   "basis": "coined",
+   "source": "FMsg/k_o_koopa_r_80#301",
+   "note": "DS 병명에서. 「メタコロクリボー」→'뚱뚱데굴 굼바' [gl_kj]"
+  },
+  {
+   "jp": "メタコロ病",
+   "ko": "뚱뚱데굴병",
+   "type": "term",
+   "basis": "DS",
+   "source": "FEvent:09B#0",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "モンスター",
+   "ko": "몬스터",
+   "type": "term",
+   "basis": "DS",
+   "source": "BAI__BMes_cf#2.1",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "リーダー",
+   "ko": "리더",
+   "type": "term",
+   "basis": "official",
+   "source": "https://namu.wiki/w/%EB%A7%88%EB%A6%AC%EC%98%A4%26%EB%A3%A8%EC%9D%B4%EC%A7%80%20RPG%201%20DX",
+   "note": "RPG1 DX 한국판 'LP(리더 포인트)' [gl_kj]"
+  },
+  {
+   "jp": "仲間",
+   "ko": "동료",
+   "type": "term",
+   "basis": "DS",
+   "source": "FEvent:048#29",
+   "note": "「仲間になった」→'동료가 되었다' [gl_kj]"
+  },
+  {
+   "jp": "大冒険",
+   "ko": "대모험",
+   "type": "term",
+   "basis": "coined",
+   "source": "",
+   "note": "줄거리 기본 문장(story_def·story_kj_def) [gl_menu_places]"
+  },
+  {
+   "jp": "最後の決戦",
+   "ko": "최후의 결전",
+   "type": "term",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesOutline#39",
+   "note": "[gl_menu_places]"
+  },
+  {
+   "jp": "賢者",
+   "ko": "현인",
+   "type": "term",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesOutline#27",
+   "note": "[gl_menu_places]"
+  },
+  {
+   "jp": "軍団",
+   "ko": "군단",
+   "type": "term",
+   "basis": "DS",
+   "source": "BAI__BMes_cf#0.20",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "HIGE",
+   "ko": "SUYEOM",
+   "type": "ui",
+   "basis": "DS",
+   "source": "DS16A#17 \"SUYEOM이나 PPUL 포인트\"",
+   "note": "능력치 로마자 표기. 일본어 ヒゲ(일반 명사)는 '수염'"
+  },
+  {
+   "jp": "NFCリーダー/ライター",
+   "ko": "NFC 리더/라이터",
+   "type": "ui",
+   "basis": "official",
+   "source": "https://www.nintendo.co.kr/amiibo/modal02.html",
+   "note": "공식 페이지 표기 '닌텐도 3DS NFC 리더/ 라이터' [gl_menu_places]"
+  },
+  {
+   "jp": "TSUNO",
+   "ko": "PPUL",
+   "type": "ui",
+   "basis": "DS",
+   "source": "DS16A#17",
+   "note": "능력치 로마자 표기. 일본어 ツノ(일반 명사)는 '뿔'"
+  },
+  {
+   "jp": "amiibo",
+   "ko": "amiibo",
+   "type": "ui",
+   "basis": "official",
+   "source": "https://www.nintendo.com/kr/switch/aea2a/",
+   "note": "한국닌텐도도 영문 'amiibo' 그대로 표기 [gl_kj]"
+  },
+  {
+   "jp": "お買い物",
+   "ko": "쇼핑",
+   "type": "ui",
+   "basis": "DS",
+   "source": "SAI__SMes_yo#0.48",
+   "note": "[gl_menu_places]"
+  },
+  {
+   "jp": "そうび",
+   "ko": "장비",
+   "type": "ui",
+   "basis": "DS",
+   "source": "MData__mfset_MenuMes#1",
+   "note": "명사(스타 메뉴 항목·장비품). 동사 そうびする는 '착용하다'(ShopMes#14) [gl_menu_places]"
+  },
+  {
+   "jp": "そうびをはずす",
+   "ko": "장비 해제",
+   "type": "ui",
+   "basis": "DS",
+   "source": "MData__mfset_MenuMes#8",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "を手に入れた！",
+   "ko": "획득했다!",
+   "type": "ui",
+   "basis": "DS",
+   "source": "BAI__BMes_ji#1.0",
+   "note": "시스템 알림 '○○을/를 획득했다!'(조사는 받침에 맞게) [gl_menu_places]"
+  },
+  {
+   "jp": "アイテム",
+   "ko": "아이템",
+   "type": "ui",
+   "basis": "DS",
+   "source": "BData__mfset_Help#13",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "アクションアイコン",
+   "ko": "액션 아이콘",
+   "type": "ui",
+   "basis": "DS",
+   "source": "FEvent#068.3",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "アタリ",
+   "ko": "당첨",
+   "type": "ui",
+   "basis": "DS",
+   "source": "SAI__SMes_yo#0.72",
+   "note": "[gl_menu_places]"
+  },
+  {
+   "jp": "ウルトラボーナスカード",
+   "ko": "울트라 스크래치 카드",
+   "type": "ui",
+   "basis": "DS",
+   "source": "SAI__SMes_yo#0.32",
+   "note": "[gl_menu_places]"
+  },
+  {
+   "jp": "キャラクター",
+   "ko": "캐릭터",
+   "type": "ui",
+   "basis": "coined",
+   "source": "",
+   "note": "[gl_menu_places]"
+  },
+  {
+   "jp": "ショッピング",
+   "ko": "쇼핑",
+   "type": "ui",
+   "basis": "DS",
+   "source": "SAI__SMes_yo#0.48",
+   "note": "[gl_menu_places]"
+  },
+  {
+   "jp": "スーパーボーナスカード",
+   "ko": "슈퍼 스크래치 카드",
+   "type": "ui",
+   "basis": "DS",
+   "source": "SAI__SMes_yo#0.28",
+   "note": "[gl_menu_places]"
+  },
+  {
+   "jp": "ノーマルボーナスカード",
+   "ko": "보통 스크래치 카드",
+   "type": "ui",
+   "basis": "DS",
+   "source": "SAI__SMes_yo#0.28",
+   "note": "블로크 숍 말투에서는 '노멀 스크래치 카드'(SAI__SMes_yo#0.100) [gl_menu_places]"
+  },
+  {
+   "jp": "バトル回数",
+   "ko": "배틀 횟수",
+   "type": "ui",
+   "basis": "coined",
+   "source": "",
+   "note": "3DX 신규 기록 [gl_menu_places]"
+  },
+  {
+   "jp": "ボタン",
+   "ko": "버튼",
+   "type": "ui",
+   "basis": "DS",
+   "source": "MAI__MMes_yo#1.16",
+   "note": "[gl_menu_places]"
+  },
+  {
+   "jp": "マス",
+   "ko": "칸",
+   "type": "ui",
+   "basis": "coined",
+   "source": "MenuKJ#71",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "マップ",
+   "ko": "지도",
+   "type": "ui",
+   "basis": "DS",
+   "source": "MData__mfset_MenuMes#5",
+   "note": "[gl_menu_places]"
+  },
+  {
+   "jp": "マリオ&ルイージRPG３ DX",
+   "ko": "마리오&루이지 RPG3 DX",
+   "type": "ui",
+   "basis": "coined",
+   "source": "Menu#192",
+   "note": "DS 한국판 제목 '마리오&루이지 RPG3!!!' 기준. RPG1 DX 한국판은 'RPG 1 DX'로 띄어 씀 — 확인 필요 [gl_kj]"
+  },
+  {
+   "jp": "任天堂サービスセンター",
+   "ko": "닌텐도 서비스 센터",
+   "type": "ui",
+   "basis": "coined",
+   "source": "Menu#159",
+   "note": "한국 공식 창구 명칭 미확인 — 확인 필요 [gl_kj]"
+  },
+  {
+   "jp": "取扱説明書",
+   "ko": "취급설명서",
+   "type": "ui",
+   "basis": "coined",
+   "source": "Menu#159",
+   "note": "한국닌텐도 표기 추정 — 확인 필요 [gl_kj]"
+  },
+  {
+   "jp": "回戦",
+   "ko": "회전",
+   "type": "ui",
+   "basis": "coined",
+   "source": "",
+   "note": "第１回戦 → 제1회전 [gl_menu_places]"
+  },
+  {
+   "jp": "回数",
+   "ko": "횟수",
+   "type": "ui",
+   "basis": "coined",
+   "source": "",
+   "note": "기록 화면 [gl_menu_places]"
+  },
+  {
+   "jp": "本体",
+   "ko": "본체",
+   "type": "ui",
+   "basis": "coined",
+   "source": "Menu#131",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "読み込",
+   "ko": "읽어 들이",
+   "type": "ui",
+   "basis": "official",
+   "source": "https://www.nintendo.co.kr/amiibo/connect/index.html",
+   "note": "'읽어 들이다'의 어간(공식 amiibo 용어). 예: amiiboを読み込んでいます → amiibo를 읽어 들이고 있습니다 [gl_menu_places]"
+  },
+  {
+   "jp": "買い物",
+   "ko": "쇼핑",
+   "type": "ui",
+   "basis": "DS",
+   "source": "SAI__SMes_yo#0.64",
+   "note": "[gl_menu_places]"
+  },
+  {
+   "jp": "賞品",
+   "ko": "상품",
+   "type": "ui",
+   "basis": "DS",
+   "source": "BDataMiniGame__mfset_MesDat_MiniGame#31",
+   "note": "[gl_menu_places]"
+  },
+  {
+   "jp": "電源",
+   "ko": "전원",
+   "type": "ui",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesSys#15",
+   "note": "[gl_kj]"
+  }
+ ],
+ "messages": [
+  {
+   "id": "Menu#177",
+   "label": "amiibo_sys_err_07",
+   "style": 12,
+   "src": "{1:mode}{2:align}{3:align}NFCリーダー/ライターとの\n通信に失敗しました。{4:wait}[Next]{5:mode}{6:align}{7:align}NFCリーダー/ライターの\n電源をOFFにしてからやり直してください。{8:wait}[Next]{9:mode}{10:align}症状が直らない場合は本体の \n取扱説明書に 記載されている\n任天堂サービスセンターへお問い合わせください。{11:wait}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[0001:0001:]",
+    "3": "[0001:0004:]",
+    "4": "[0002:0001:]",
+    "5": "[0005:0000:]",
+    "6": "[0001:0001:]",
+    "7": "[0001:0004:]",
+    "8": "[0002:0001:]",
+    "9": "[0005:0000:]",
+    "10": "[0001:0001:]",
+    "11": "[0002:0001:]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#181",
+   "label": "MES_EMesColosseum_class_7_enemy_5",
+   "style": 1,
+   "src": "第５回戦 ガラクタモンスターX",
+   "tags": {},
+   "header": "[0009:0000:01 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#182",
+   "label": "MES_EMesColosseum_guite_turn_battle_02",
+   "style": 3,
+   "src": "全員の行動が １周し終わったら\n１ターン目が終了…\n全員の行動が ２周し終わったら\n２ターン目が終了…",
+   "tags": {},
+   "header": "[0009:0000:03 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#183",
+   "label": "MES_EMesOutline_story35",
+   "style": 4,
+   "src": "ピーチ城のカギを持って逃げたゲラパト３匹を見つけ出そう！",
+   "tags": {},
+   "header": "[0009:0000:04 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#184",
+   "label": "MES_MenuMes_EventItemE_kokky",
+   "style": 13,
+   "src": "Dr.コキノの ペット。\n道あんないを してくれる。",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#187",
+   "label": "MES_bgm_title_13_legacy",
+   "style": 6,
+   "src": "決戦のとき！",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#188",
+   "label": "MES_bgm_title_24",
+   "style": 6,
+   "src": "ワルツ・イン・ザ・レイク DX",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#189",
+   "label": "MES_tuto_yo_scrratch_tuto_k3_bdog",
+   "style": 6,
+   "src": "ガガガウ ガウ…\n（ボーナスカード マス選ぶ…）{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#190",
+   "label": "Menu_Sys_rem_equip",
+   "style": 4,
+   "src": "そうびをはずす",
+   "tags": {},
+   "header": "[0009:0000:04 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#192",
+   "label": "amiibo_sys_err_08",
+   "style": 12,
+   "src": "{1:mode}{2:align}マリオ&ルイージRPG３ DX では\n{3:mode}{4:align}対応していないキャラクターのamiiboです。{5:wait}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[0001:0001:]",
+    "3": "[0005:0000:]",
+    "4": "[0001:0001:]",
+    "5": "[0002:0001:]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#196",
+   "label": "MES_EMesColosseum_class_7_enemy_6",
+   "style": 1,
+   "src": "第６回戦 ダークスターX",
+   "tags": {},
+   "header": "[0009:0000:01 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#197",
+   "label": "MES_EMesColosseum_guite_turn_battle_03",
+   "style": 3,
+   "src": "バトルが長く続くと\nターン数も ふえていきます。\n１ターンの間に 連続で\n行動をする モンスターもいます。",
+   "tags": {},
+   "header": "[0009:0000:03 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#198",
+   "label": "MES_EMesOutline_story36",
+   "style": 4,
+   "src": "いよいよピーチ城の奥へ進めるぞ！ ピーチ姫は？ ダークスターは？ いったいどこに？",
+   "tags": {},
+   "header": "[0009:0000:04 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#201",
+   "label": "MES_bgm_title_25",
+   "style": 6,
+   "src": "ドクター・コキノ DX",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#202",
+   "label": "MES_tuto_yo_nice_tsuno1",
+   "style": 6,
+   "src": "オウ！ ムッシュ～\nムッシュ～の TSUNO\nベリー クールになりましたね！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#208",
+   "label": "MES_EMesColosseum_class_7_enemy_7",
+   "style": 1,
+   "src": "第７回戦 クッパX",
+   "tags": {},
+   "header": "[0009:0000:01 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#209",
+   "label": "MES_EMesColosseum_guite_turn_battle_04",
+   "style": 3,
+   "src": "ターン数は 常に注意して\n見ておきましょう。",
+   "tags": {},
+   "header": "[0009:0000:03 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#210",
+   "label": "MES_EMesOutline_story37",
+   "style": 4,
+   "src": "ダークスターがクッパの体の中に逃げ込んだ！？ エアースペースの奥へ追っていこう！",
+   "tags": {},
+   "header": "[0009:0000:04 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#213",
+   "label": "MES_bgm_title_26",
+   "style": 6,
+   "src": "スーパーポンプアップ！ DX",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#214",
+   "label": "MES_tuto_yo_nice_tsuno2",
+   "style": 6,
+   "src": "クールな ムッシュ～には\nボーナスカードを\nプレゼントしているのですよ！{1:wait}[Next]ボーナスカードの\n説明は必要ですか？{2:pause}\n{3:align}{4:choice}いいえ{5:tab}{6:choice}はい{7:pause}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0000:0A 00]",
+    "3": "[0001:0001:]",
+    "4": "[0004:0001:]",
+    "5": "[0006:0000:28 00]",
+    "6": "[0004:0001:]",
+    "7": "[0002:0000:0A 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#219",
+   "label": "MES_EMesOutline_story38",
+   "style": 4,
+   "src": "ダークスターがクッパ？に変身！ このままでは大変なことに！ やつを追いかけよう！",
+   "tags": {},
+   "header": "[0009:0000:04 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#222",
+   "label": "MES_bgm_title_27",
+   "style": 6,
+   "src": "Oki Doki！！ DX",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#223",
+   "label": "MES_tuto_yo_nice_tsuno3",
+   "style": 6,
+   "src": "オウ！ ムッシュ～\nさらにステキな TSUNOに\nなりましたね！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#225",
+   "label": "ActGuide_07_1",
+   "style": 11,
+   "src": "「{1:color}コウラブロック{2:color}」を叩くと\nマリオがコウラを着て\n{3:color}コウラマリオ{4:color}に変身します。",
+   "tags": {
+    "1": "[Color #2C64FF]",
+    "2": "[Color #E6E6E6]",
+    "3": "[Color #2C64FF]",
+    "4": "[Color #E6E6E6]"
+   },
+   "header": "[0009:0000:0B 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#227",
+   "label": "MES_EMesOutline_story39",
+   "style": 4,
+   "src": "ダーククッパを追いつめろ！ いよいよ最後の決戦だ！ 準備はいいか？",
+   "tags": {},
+   "header": "[0009:0000:04 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#229",
+   "label": "MES_MesDat_MiniGame_end_info25",
+   "style": 12,
+   "src": "{1:color}賞品は{2:color}{3:color}{4:var}{5:color}{6:color}コイン！{7:color}{8:wait}",
+   "tags": {
+    "1": "[Color #373737]",
+    "2": "[Color #E6E6E6]",
+    "3": "[Color #4ED4FF]",
+    "4": "[0003:0000:00 00 05 00 00 00]",
+    "5": "[Color #E6E6E6]",
+    "6": "[Color #373737]",
+    "7": "[Color #E6E6E6]",
+    "8": "[0002:0001:]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#230",
+   "label": "MES_bgm_title_28",
+   "style": 6,
+   "src": "SHOW TIME！ DX",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#231",
+   "label": "MES_tuto_yo_bad_hige3_koukyuu",
+   "style": 6,
+   "src": "これでは 残念ですが\nスーパーボーナスカードは\nプレゼントできませんね…{1:wait}[Next]でも 安心なさってください。\nノーマルボーナスカードは\nプレゼントできますので。{2:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#232",
+   "label": "MES_tuto_yo_nice_tsuno4",
+   "style": 6,
+   "src": "これからは お買い物ごとに\nスーパーボーナスカードを\nプレゼント！{1:wait}[Next]{2:align}これまでより アタリが\n出やすくなってますよ！{3:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0001:0004:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#233",
+   "label": "MES_tuto_yo_scrratch_tuto_ml2_kinoda",
+   "style": 6,
+   "src": "{1:align}これがボーナスカードです。{2:wait}[Next]ボーナスカードは 買い物ごとに\n１まい さしあげてます。{3:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#234",
+   "label": "ActGuide_07_2",
+   "style": 11,
+   "src": "{1:color}{2:icon}{3:color}ボタンで{4:color}コウラマリオ{5:color}を前に飛ばして\n離れた場所のスイッチやブロックなどを\n叩くことができます。",
+   "tags": {
+    "1": "[Color #00BB27]",
+    "2": "[U+E001]",
+    "3": "[Color #E6E6E6]",
+    "4": "[Color #2C64FF]",
+    "5": "[Color #E6E6E6]"
+   },
+   "header": "[0009:0000:0B 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#235",
+   "label": "MES_MenuMes_EventItemE_starvaccine_r",
+   "style": 13,
+   "src": "１人目の賢者 イモーヌがもっていた\nワクチン。手に入れるまで長い道のりだった…",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#237",
+   "label": "MES_MesDat_MiniGame_end_info26",
+   "style": 12,
+   "src": "{1:mode}{2:color}賞品は{3:color}{4:color}{5:var}{6:color}{7:color}コインと\n{8:color}{9:color}おたからゆびわ{10:color}{11:color}！{12:color}{13:wait}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[Color #373737]",
+    "3": "[Color #E6E6E6]",
+    "4": "[Color #4ED4FF]",
+    "5": "[0003:0000:00 00 05 00 00 00]",
+    "6": "[Color #E6E6E6]",
+    "7": "[Color #373737]",
+    "8": "[Color #E6E6E6]",
+    "9": "[Color #4ED4FF]",
+    "10": "[Color #E6E6E6]",
+    "11": "[Color #373737]",
+    "12": "[Color #E6E6E6]",
+    "13": "[0002:0001:]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#238",
+   "label": "MES_bgm_title_29",
+   "style": 6,
+   "src": "ちょいと強い奴らに要注意！？ DX",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#239",
+   "label": "MES_tuto_yo_nice_hige2_badge",
+   "style": 6,
+   "src": "アタシんとこでは りっぱな\nHIGEの人には ボーナスカードを\nあげてるんだけど…{1:wait}[Next]ボーナスカードの\n説明は必要かねぇ？{2:pause}\n{3:align}{4:choice}いいえ{5:tab}{6:choice}はい{7:pause}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0000:0A 00]",
+    "3": "[0001:0001:]",
+    "4": "[0004:0001:]",
+    "5": "[0006:0000:28 00]",
+    "6": "[0004:0001:]",
+    "7": "[0002:0000:0A 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#240",
+   "label": "MES_tuto_yo_nice_tsuno5",
+   "style": 6,
+   "src": "オウ！ ムッシュ～\n最高にステキな TSUNOに\nなりましたね！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#242",
+   "label": "ActGuide_07_3",
+   "style": 11,
+   "src": "{1:color}{2:icon}{3:color}ボタンでコウラを脱ぐことができます。\n{4:color}コウラマリオ{5:color}のとき\n他のアクションをすることはできません。",
+   "tags": {
+    "1": "[Color #FF4343]",
+    "2": "[U+E000]",
+    "3": "[Color #E6E6E6]",
+    "4": "[Color #2C64FF]",
+    "5": "[Color #E6E6E6]"
+   },
+   "header": "[0009:0000:0B 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#243",
+   "label": "MES_Menu_reitem_01_Ekubon_brilock_shop_06_hur",
+   "style": 6,
+   "src": "見つけましたか？ はやくミーのもとへ！",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#244",
+   "label": "MES_MesDat_MiniGame_end_info27",
+   "style": 12,
+   "src": "{1:mode}{2:color}賞品は{3:color}{4:color}{5:var}{6:color}{7:color}コインと\n{8:color}{9:color}ほねほねきば{10:color}{11:color}！{12:color}{13:wait}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[Color #373737]",
+    "3": "[Color #E6E6E6]",
+    "4": "[Color #4ED4FF]",
+    "5": "[0003:0000:00 00 05 00 00 00]",
+    "6": "[Color #E6E6E6]",
+    "7": "[Color #373737]",
+    "8": "[Color #E6E6E6]",
+    "9": "[Color #4ED4FF]",
+    "10": "[Color #E6E6E6]",
+    "11": "[Color #373737]",
+    "12": "[Color #E6E6E6]",
+    "13": "[0002:0001:]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#245",
+   "label": "MES_tuto_yo_nice_tsuno6",
+   "style": 6,
+   "src": "これからは お買い物ごとに\nウルトラボーナスカードを\nプレゼント！{1:wait}[Next]{2:align}これまでより アタリが\n出やすくなってますよ！{3:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0001:0004:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#246",
+   "label": "MES_tuto_yo_scrratch_tuto_ml4_kinoda",
+   "style": 6,
+   "src": "アタリが出たら…{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "Menu#344",
+    "Menu#407"
+   ]
+  },
+  {
+   "id": "Menu#247",
+   "label": "amiibo_seq_02_a",
+   "style": 4,
+   "src": "amiiboを読み込んでいます。",
+   "tags": {},
+   "header": "[0009:0000:04 00]",
+   "dups": [
+    "Menu#253"
+   ]
+  },
+  {
+   "id": "Menu#249",
+   "label": "MES_EMesOutline_story_def",
+   "style": 4,
+   "src": "マリオ＆ルイージ と クッパ（？）の大冒険！",
+   "tags": {},
+   "header": "[0009:0000:04 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#250",
+   "label": "MES_EMesOutline_story_kj_01",
+   "style": 4,
+   "src": "メタコロ病に効くサプリの材料を集めるために クッパJr.が立ち上がった！",
+   "tags": {},
+   "header": "[0009:0000:04 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#251",
+   "label": "MES_MesDat_MiniGame_end_info28",
+   "style": 12,
+   "src": "{1:mode}{2:color}賞品は{3:color}{4:color}{5:var}{6:color}{7:color}コインと\n{8:color}{9:color}いかりうでわ{10:color}{11:color}！{12:color}{13:wait}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[Color #373737]",
+    "3": "[Color #E6E6E6]",
+    "4": "[Color #4ED4FF]",
+    "5": "[0003:0000:00 00 05 00 00 00]",
+    "6": "[Color #E6E6E6]",
+    "7": "[Color #373737]",
+    "8": "[Color #E6E6E6]",
+    "9": "[Color #4ED4FF]",
+    "10": "[Color #E6E6E6]",
+    "11": "[Color #373737]",
+    "12": "[Color #E6E6E6]",
+    "13": "[0002:0001:]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#252",
+   "label": "MES_tuto_yo_nice_hige3_koukyuu",
+   "style": 6,
+   "src": "お客様 さらにステキな\nおHIGEに なられましたね。{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#255",
+   "label": "MES_EMesOutline_story_kj_02",
+   "style": 4,
+   "src": "クッパ軍団の教え（？）を受けながら サプリの材料を求めて進むクッパJr.",
+   "tags": {},
+   "header": "[0009:0000:04 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#256",
+   "label": "MES_MenuMes_EventItemE_mkiller",
+   "style": 13,
+   "src": "大きくてくろびかりした スッゴイやつ！\nこれをはっしゃされたら ひとたまりもない！",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#257",
+   "label": "MES_MenuMes_EventItemN_green_key",
+   "style": 13,
+   "src": "緑のカギ",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#258",
+   "label": "MES_MesDat_MiniGame_end_info29",
+   "style": 12,
+   "src": "{1:mode}{2:color}賞品は{3:color}{4:color}{5:var}{6:color}{7:color}コインと\n{8:color}{9:color}ごうかいゆびわ{10:color}{11:color}！{12:color}{13:wait}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[Color #373737]",
+    "3": "[Color #E6E6E6]",
+    "4": "[Color #4ED4FF]",
+    "5": "[0003:0000:00 00 05 00 00 00]",
+    "6": "[Color #E6E6E6]",
+    "7": "[Color #373737]",
+    "8": "[Color #E6E6E6]",
+    "9": "[Color #4ED4FF]",
+    "10": "[Color #E6E6E6]",
+    "11": "[Color #373737]",
+    "12": "[Color #E6E6E6]",
+    "13": "[0002:0001:]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#259",
+   "label": "MES_bgm_title_19_legacy",
+   "style": 6,
+   "src": "うばわれたクッパ城",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#260",
+   "label": "MES_tuto_yo_scrratch_tuto_no_k",
+   "style": 6,
+   "src": "オウ そうですか。\nそれでは さっそく ショッピング！{1:wait}[Next]ア～ンド ボーナスカードに\nチャレンジしてみてください。{2:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#262",
+   "label": "ActGuide_14_0",
+   "style": 11,
+   "src": "クッパが行えるアクションです。",
+   "tags": {},
+   "header": "[0009:0000:0B 00]",
+   "dups": [
+    "Menu#318",
+    "Menu#384",
+    "Menu#696",
+    "Menu#755"
+   ]
+  },
+  {
+   "id": "Menu#264",
+   "label": "MES_EMesOutline_story_kj_03",
+   "style": 4,
+   "src": "サプリの材料の１つ ギガニンジンを求めてエクボンの森へ向かうクッパJr.達。しかし背後に怪しい影が…",
+   "tags": {},
+   "header": "[0009:0000:04 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#265",
+   "label": "MES_MenuMes_EventItemN_pazzle1",
+   "style": 13,
+   "src": "パズルピース１",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#266",
+   "label": "MES_bgm_title_33_legacy",
+   "style": 6,
+   "src": "ザ・ジャイアント",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#269",
+   "label": "ActGuide_14_1",
+   "style": 11,
+   "src": "アクションアイコンを「{1:color}スパイクボール{2:color}」に\n切り替えて {3:color}{4:icon}{5:color}ボタンで{6:color}スパイクボール{7:color}を\n行うことができます。",
+   "tags": {
+    "1": "[Color #2C64FF]",
+    "2": "[Color #E6E6E6]",
+    "3": "[Color #FF9600]",
+    "4": "[U+E002]",
+    "5": "[Color #E6E6E6]",
+    "6": "[Color #2C64FF]",
+    "7": "[Color #E6E6E6]"
+   },
+   "header": "[0009:0000:0B 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#270",
+   "label": "MES_EMesOutline_story_kj_04",
+   "style": 4,
+   "src": "突然襲ってきたクッパ軍団… 乱れつつあるチームワーク… 不安がつのるクッパJr.達の旅…",
+   "tags": {},
+   "header": "[0009:0000:04 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#271",
+   "label": "MES_EMesPlace_place1",
+   "style": 13,
+   "src": "ピーチ城",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#272",
+   "label": "MES_MenuMes_EventItemN_pazzle2",
+   "style": 13,
+   "src": "パズルピース２",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#273",
+   "label": "MES_bgm_title_01_legacy",
+   "style": 6,
+   "src": "新しい冒険へ！",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#274",
+   "label": "MES_bgm_title_34_legacy",
+   "style": 6,
+   "src": "The Winner is…",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#275",
+   "label": "ActGuide_05_1",
+   "style": 11,
+   "src": "アクションアイコンを 「ハンマー」に切り替えて\n{1:color}{2:icon}{3:color}ボタンを押せば マリオを{4:color}ちびマリオ{5:color}にできます。",
+   "tags": {
+    "1": "[Color #00BB27]",
+    "2": "[U+E001]",
+    "3": "[Color #E6E6E6]",
+    "4": "[Color #2C64FF]",
+    "5": "[Color #E6E6E6]"
+   },
+   "header": "[0009:0000:0B 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#276",
+   "label": "ActGuide_14_2",
+   "style": 11,
+   "src": "{1:color}スパイクボール{2:color}を行うとクッパが丸まります。\n{3:color}{4:icon}{5:color}で移動することができます。",
+   "tags": {
+    "1": "[Color #2C64FF]",
+    "2": "[Color #E6E6E6]",
+    "3": "[Color #2C64FF]",
+    "4": "[U+E077]",
+    "5": "[Color #E6E6E6]"
+   },
+   "header": "[0009:0000:0B 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#277",
+   "label": "FldGuide_09_0",
+   "style": 11,
+   "src": "{1:color}くぼみ{2:color}のあるマップは{3:color}左上にアイコン{4:color}がつきます。\nマップ内のくぼみを全て取ると消えます。",
+   "tags": {
+    "1": "[Color #2C64FF]",
+    "2": "[Color #E6E6E6]",
+    "3": "[Color #2C64FF]",
+    "4": "[Color #E6E6E6]"
+   },
+   "header": "[0009:0000:0B 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#278",
+   "label": "MES_EMesColosseum_class_4_enemy",
+   "style": 1,
+   "src": "クッパメモリーMLX",
+   "tags": {},
+   "header": "[0009:0000:01 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#279",
+   "label": "MES_EMesOutline_story_kj_05",
+   "style": 4,
+   "src": "ギガニンジンを手に入れた！ しかしクッパJr.から次々に離れていく７人衆…",
+   "tags": {},
+   "header": "[0009:0000:04 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#280",
+   "label": "MES_EMesPlace_place2",
+   "style": 13,
+   "src": "エクボンの森",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#281",
+   "label": "MES_MenuMes_EventItemE_birinpa",
+   "style": 13,
+   "src": "いわゆるビリビリしてそうなアレ。こんな\nビリビリしてそうなものは どこで使うんだっけ？",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#282",
+   "label": "MES_MenuMes_EventItemN_pazzle3",
+   "style": 13,
+   "src": "パズルピース３",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#283",
+   "label": "MES_tuto_yo_scrratch_tuto_no_ml",
+   "style": 6,
+   "src": "さすが マリオさんと ルイージさん\nものしりですね！{1:wait}[Next]それでは お買い物を\nお楽しみください～{2:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#284",
+   "label": "ActGuide_05_2",
+   "style": 11,
+   "src": "ちびマリオなら 小さなすきまを通りぬけて\n１人で行動することができます。",
+   "tags": {},
+   "header": "[0009:0000:0B 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#285",
+   "label": "ActGuide_14_3",
+   "style": 11,
+   "src": "やわらかい壁にトゲを刺してのぼったり\nトゲトゲの床でも通れるようになります。",
+   "tags": {},
+   "header": "[0009:0000:0B 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#286",
+   "label": "MES_EMesOutline_story_kj_06",
+   "style": 4,
+   "src": "ゲプーキュウコンを手に入れた！ サプリの材料は残りあと１つ！",
+   "tags": {},
+   "header": "[0009:0000:04 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#287",
+   "label": "MES_EMesPlace_place3",
+   "style": 13,
+   "src": "ゲプー岬",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#288",
+   "label": "MES_MenuMes_EventItemE_starvaccine_y",
+   "style": 13,
+   "src": "クッパ城にあった ２つ目のワクチン。\nクッパがのみこんだおかげで ベッタベタ～！",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#289",
+   "label": "MES_MenuMes_EventItemN_pazzle4",
+   "style": 13,
+   "src": "パズルピース４",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#290",
+   "label": "MES_MenuMes_EventItemN_starvaccine_g",
+   "style": 13,
+   "src": "スターワクチン緑",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#291",
+   "label": "MES_tuto_yo_nice_hige6_badge",
+   "style": 6,
+   "src": "これからは 買い物ごとに\nウルトラボーナスカードを\nあげようかね！{1:wait}[Next]{2:align}これまでより アタリが\n出やすくなってるよ！{3:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0001:0004:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#292",
+   "label": "amiibo_seq_05_a_1",
+   "style": 4,
+   "src": "マリオがアイテムを持ってきてくれました！",
+   "tags": {},
+   "header": "[0009:0000:04 00]",
+   "dups": [
+    "Menu#666"
+   ]
+  },
+  {
+   "id": "Menu#293",
+   "label": "ActGuide_05_3",
+   "style": 11,
+   "src": "マリオが１人で行動しているとき\nルイージを操作することはできません。",
+   "tags": {},
+   "header": "[0009:0000:0B 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#294",
+   "label": "ActGuide_14_4",
+   "style": 11,
+   "src": "ブロックや銅像などを\n転がりながら壊すこともできます。",
+   "tags": {},
+   "header": "[0009:0000:0B 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#295",
+   "label": "MES_EMesOutline_story_kj_07",
+   "style": 4,
+   "src": "マンネンアイスを手に入れた！ ３つの材料を持ってヅツーダレイクへ！",
+   "tags": {},
+   "header": "[0009:0000:04 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#296",
+   "label": "MES_EMesPlace_place4",
+   "style": 13,
+   "src": "ムッシーバビーチ",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#297",
+   "label": "MES_bgm_title_40",
+   "style": 6,
+   "src": "これがボコスカバトル！",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#299",
+   "label": "amiibo_seq_05_a_2",
+   "style": 4,
+   "src": "ルイージがアイテムを持ってきてくれました！",
+   "tags": {},
+   "header": "[0009:0000:04 00]",
+   "dups": [
+    "Menu#675"
+   ]
+  },
+  {
+   "id": "Menu#300",
+   "label": "ActGuide_05_4",
+   "style": 11,
+   "src": "マリオとルイージが２人いっしょにいるときに\nもう一度{1:color}{2:icon}{3:color}ボタンを押すと\nちびマリオから 元に戻せます。",
+   "tags": {
+    "1": "[Color #00BB27]",
+    "2": "[U+E001]",
+    "3": "[Color #E6E6E6]"
+   },
+   "header": "[0009:0000:0B 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#302",
+   "label": "MES_EMesOutline_story_kj_08",
+   "style": 4,
+   "src": "仲間の大切さを強く感じたクッパJr.　奪われたサプリと離れていった仲間を探しに 今また旅立つ！",
+   "tags": {},
+   "header": "[0009:0000:04 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#303",
+   "label": "MES_EMesPlace_place5",
+   "style": 13,
+   "src": "クッパ城へ続く道",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#304",
+   "label": "MES_bgm_title_41",
+   "style": 6,
+   "src": "クッパ軍団 行進曲",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#305",
+   "label": "MES_tuto_yo_scrratch_tuto_end_ml_kinoda",
+   "style": 6,
+   "src": "それでは お買い物を\nお楽しみください～{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "Menu#762"
+   ]
+  },
+  {
+   "id": "Menu#306",
+   "label": "MES_tuto_yo_scrratch_tuto_ml2_koukyuu",
+   "style": 6,
+   "src": "{1:align}これがボーナスカードです。{2:wait}[Next]ボーナスカードは 買い物ごとに\n１まい さしあげております。{3:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "Menu#323"
+   ]
+  },
+  {
+   "id": "Menu#308",
+   "label": "amiibo_seq_05_a_3",
+   "style": 4,
+   "src": "ピーチ姫がアイテムを持ってきてくれました！",
+   "tags": {},
+   "header": "[0009:0000:04 00]",
+   "dups": [
+    "Menu#686"
+   ]
+  },
+  {
+   "id": "Menu#310",
+   "label": "MES_EMesOutline_story_kj_09",
+   "style": 4,
+   "src": "記憶をなくしていたイギーがクッパ軍団に戻ってきた！ イカス―！ あと６人！",
+   "tags": {},
+   "header": "[0009:0000:04 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#311",
+   "label": "MES_EMesPlace_place10",
+   "style": 13,
+   "src": "ヅツーダレイク",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#312",
+   "label": "MES_EMesPlace_place6",
+   "style": 13,
+   "src": "クッパ城",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": [
+    "Menu#542"
+   ]
+  },
+  {
+   "id": "Menu#313",
+   "label": "MES_record_btl_num",
+   "style": 6,
+   "src": "バトル回数",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#314",
+   "label": "MES_tuto_yo_bad_tsuno1",
+   "style": 6,
+   "src": "オウ！ ムッシュ～\nワッツハップ～ン！？{1:wait}[Next]ミーの目が\nクラウディなのでしょうか？{2:wait}[Next]ムッシュ～の TSUNO\n前より チープなようです！{3:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#315",
+   "label": "MES_tuto_yo_scrratch_tuto_ml1",
+   "style": 6,
+   "src": "コホン それでは\n説明しますね。{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#317",
+   "label": "amiibo_seq_05_a_4",
+   "style": 4,
+   "src": "キノピオがアイテムを持ってきてくれました！",
+   "tags": {},
+   "header": "[0009:0000:04 00]",
+   "dups": [
+    "Menu#695"
+   ]
+  },
+  {
+   "id": "Menu#319",
+   "label": "MES_EMesPlace_place11",
+   "style": 13,
+   "src": "オタプク草原",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#320",
+   "label": "MES_EMesPlace_place7",
+   "style": 13,
+   "src": "地下トンネル",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#321",
+   "label": "MES_tuto_yo_bad_tsuno2",
+   "style": 6,
+   "src": "残念ですが これでは\nボーナスカードは\nプレゼントできません。{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#322",
+   "label": "MES_tuto_yo_nice_hige1_kinoda",
+   "style": 6,
+   "src": "おや！ お客さん！\nりっぱな HIGEですね！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#324",
+   "label": "amiibo_seq_05_a_5",
+   "style": 4,
+   "src": "クッパがアイテムを持ってきてくれました！",
+   "tags": {},
+   "header": "[0009:0000:04 00]",
+   "dups": [
+    "Menu#704"
+   ]
+  },
+  {
+   "id": "Menu#325",
+   "label": "ActGuide_03_0",
+   "style": 11,
+   "src": "マリオが行えるアクションです。",
+   "tags": {},
+   "header": "[0009:0000:0B 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#326",
+   "label": "ActGuide_12_1",
+   "style": 11,
+   "src": "アクションアイコンを「{1:color}パンチ{2:color}」に切り替えて\nクッパが歩いているときに{3:color}{4:icon}{5:color}ボタンを押すと\n{6:color}スライディングパンチ{7:color}をすることができます。",
+   "tags": {
+    "1": "[Color #2C64FF]",
+    "2": "[Color #E6E6E6]",
+    "3": "[Color #FF9600]",
+    "4": "[U+E002]",
+    "5": "[Color #E6E6E6]",
+    "6": "[Color #2C64FF]",
+    "7": "[Color #E6E6E6]"
+   },
+   "header": "[0009:0000:0B 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#327",
+   "label": "MES_EMesPlace_place12",
+   "style": 13,
+   "src": "ガラクタスペース",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#328",
+   "label": "MES_EMesPlace_place8",
+   "style": 13,
+   "src": "キノコタウン",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": []
+  },
+  {
+   "id": "Menu#329",
+   "label": "MES_tuto_yo_bad_tsuno3",
+   "style": 6,
+   "src": "残念ですが これでは\nスーパーボーナスカードは\nプレゼントできません。{1:wait}[Next]バット！ 安心してください！\nノーマルボーナスカードは\nプレゼントできます！{2:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  }
+ ]
+}

@@ -1,0 +1,152 @@
+{
+ "batch": "FMsg__o_chika_geraexpress_04",
+ "rooms": [
+  "o_chika_geraexpress_04"
+ ],
+ "ds_rooms": [
+  "157"
+ ],
+ "ds_reference": [
+  "DS157#0: 아.",
+  "DS157#1: 크핫핫핫핫!",
+  "DS157#2: 여전히 이 몸은\n무적이다!!",
+  "DS157#3: 근데…",
+  "DS157#4: 뭘 하던 중이었더라…",
+  "DS157#5: 맞다!\n스타 백신이다!!",
+  "DS157#6: 성에 돌아가서\n금고를 확인해야지…!"
+ ],
+ "glossary": [
+  {
+   "jp": "スターワクチン",
+   "ko": "스타 백신",
+   "type": "key_item",
+   "basis": "DS",
+   "source": "MData__mfset_MenuMes#58",
+   "note": "DS '3개의 스타 백신을 합성해서' [gl_items]"
+  },
+  {
+   "jp": "ワガハイ",
+   "ko": "이 몸",
+   "type": "term",
+   "basis": "DS",
+   "source": "FEvent:025#7",
+   "note": "쿠파의 1인칭 [gl_kj]"
+  },
+  {
+   "jp": "金庫",
+   "ko": "금고",
+   "type": "term",
+   "basis": "DS",
+   "source": "o_koopa_18#20 <-> DS089#11 ; i_kioku_03#3 <-> DS14B#2",
+   "note": "金庫室=금고실(glossary) [gl_characters]"
+  }
+ ],
+ "messages": [
+  {
+   "id": "FMsg/o_chika_geraexpress_04#0",
+   "label": "MES_EV_Chika_16_1_EVCH16_1_koopa_01",
+   "style": 9,
+   "src": "{1:mode}{2:align}{3:align}ガハハハハ！{4:pause}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[0001:0004:]",
+    "3": "[0001:0001:]",
+    "4": "[0002:0000:1E 00]"
+   },
+   "header": "[0009:0000:09 00]",
+   "dups": [
+    "FMsg/o_ibiki_03#33",
+    "FMsg/o_koopa_09_2_gerashow_01_U#3",
+    "FMsg/o_koopa_13_1#9",
+    "FMsg/o_koopa_18#7",
+    "FMsg/o_mushiba_11#51",
+    "FMsg/o_peach_1f_03#5",
+    "FMsg/o_peach_1f_03#31",
+    "FMsg/o_peach_1f_09#19",
+    "FMsg/o_peach_2f_04#8",
+    "FMsg/o_peach_3f_15#2",
+    "FMsg/o_zutsuda_15#41",
+    "FMsg/o_zutsuda_16_after#0"
+   ]
+  },
+  {
+   "id": "FMsg/o_chika_geraexpress_04#1",
+   "label": "MES_EV_Chika_16_1_EVCH16_1_koopa_02",
+   "style": 6,
+   "src": "{1:align}あいかわらず ワガハイは\n無敵だな！！{2:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_chika_geraexpress_04#2",
+   "label": "MES_EV_Chika_16_1_EVCH16_1_koopa_03",
+   "style": 6,
+   "src": "{1:align}{2:align}さて…{3:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_chika_geraexpress_04#3",
+   "label": "MES_EV_Chika_16_1_EVCH16_1_koopa_04",
+   "style": 6,
+   "src": "{1:align}{2:align}なにを していたんだっけか…{3:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_chika_geraexpress_04#4",
+   "label": "MES_EV_Chika_16_1_EVCH16_1_koopa_05",
+   "style": 6,
+   "src": "{1:align}そうだ！\n{2:color}スターワクチン{3:color}{4:color}だ！！{5:wait}{6:color}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[Color #2C64FF]",
+    "3": "[Color #373737]",
+    "4": "[Color #373737]",
+    "5": "[0002:0001:]",
+    "6": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_chika_geraexpress_04#5",
+   "label": "MES_EV_Chika_16_1_EVCH16_1_koopa_06",
+   "style": 6,
+   "src": "{1:align}城にもどって\n金庫を 確認せねば…{2:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_chika_geraexpress_04#6",
+   "label": "MES_EV_Chika_16_1_EVCH16_1_koopa_ev",
+   "style": 6,
+   "src": "{1:align}{2:align}{3:mode}あ。",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0005:0000:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "source": "Msg/JP_ja/FMsg.dat:i_pump_02",
+ "messages": [
+  {
+   "id": "FMsg/i_pump_02#0",
+   "label": "MES_KPump_02_Kpump_02_hemo_mes_test",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]これはテストです。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_pump_02#1",
+   "label": "MES_SAVE_BLOCK_recovery",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0001:0001:][0005:0000:]HPとBPの[Ruby 回復;かいふく]も\n[Ruby 忘;わす]れないようにしましょう。[0002:0000:0A 00][0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_pump_02#2",
+   "label": "MES_KPump_02_Kpump_02_hemo_mes_1",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]ヘモグロびん[Ruby 的;てき]な [Ruby 知識;ちしき]としては…[0002:0001:][Next][Ruby 今;いま] あなたが[Ruby 立;た]っているような\n[Color #2C64FF]パイプ[Ruby 器官;きかん][Color #373737][Color #373737]の[Ruby 上;うえ]で [Color #373737][Color #2C64FF][U+E077]を[Ruby 下;した]にする[Color #373737]と[Color #2C64FF][Color #373737][Color #373737]\nもぐれることが あるびん。[0002:0001:][Next][0001:0004:][0001:0001:]ためしてみると いいびん。[0002:0001:][Color #373737]"
+  }
+ ]
+}

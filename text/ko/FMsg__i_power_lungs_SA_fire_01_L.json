@@ -1,0 +1,23 @@
+{
+ "batch": "FMsg__i_power_lungs_SA_fire_01_L",
+ "translations": {
+  "FMsg/i_power_lungs_SA_fire_01_L#0": "마리오 형제를 다양한 방향으로\n튕겨서 쿠파를 위쪽까지\n올려 보내 주자! ",
+  "FMsg/i_power_lungs_SA_fire_01_L#1": "힘차게 당기면\n높이 올라가지 않을까? ",
+  "FMsg/i_power_lungs_SA_fire_01_L#2": "잘했어!",
+  "FMsg/i_power_lungs_SA_fire_01_L#3": "역시 맞나 봐! ",
+  "FMsg/i_power_lungs_SA_fire_01_L#4": "방금 쿠파가 조금\n점프하지 않았어? ",
+  "FMsg/i_power_lungs_SA_fire_01_L#5": "마리오 형제를 튕기는 방향으로\n쿠파가 올라가는 것 같으니까… ",
+  "FMsg/i_power_lungs_SA_fire_01_L#6": "터치펜을 떼면\n마리오 형제가 튕겨 나가는 반동으로\n쿠파도 튕겨 올라가! ",
+  "FMsg/i_power_lungs_SA_fire_01_L#7": "마리오! 이쪽이야!",
+  "FMsg/i_power_lungs_SA_fire_01_L#9": "{1:align}{2:mode}저기! {3:pause}",
+  "FMsg/i_power_lungs_SA_fire_01_L#10": "마리오 형제를 튕기면\n그 반동으로 쿠파가\n튕겨 올라가나 봐! ",
+  "FMsg/i_power_lungs_SA_fire_01_L#11": "터치펜으로 마리오 형제를\n이렇게 당겼다가… "
+ },
+ "new_terms": [],
+ "notes": {
+  "FMsg/i_power_lungs_SA_fire_01_L#0": "マリオ達: DS1AB 같은 장면대로 '마리오 형제'(review: 리드 결정, glossary 기본값 '마리오 일행'의 예외). #5·#6·#10·#11도 같음. 원문 끝 공백은 그대로 둠.",
+  "FMsg/i_power_lungs_SA_fire_01_L#6": "DS1AB#5는 マリオ達が はじかれて를 생략. 3DX 원문대로 '마리오 일행이 튕겨 나가는 반동으로'를 넣음.",
+  "FMsg/i_power_lungs_SA_fire_01_L#9": "DS1AB#0은 '혹시!'이지만 3DX 원문 ねえ！에 맞춰 옐로스타의 DS 관례 '저기!'로 씀.",
+  "FMsg/i_power_lungs_SA_fire_01_L#11": "DS1AB#4에 없는 マリオ達を를 3DX 원문대로 넣음."
+ }
+}

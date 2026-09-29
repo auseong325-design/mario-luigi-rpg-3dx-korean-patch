@@ -1,0 +1,34 @@
+{
+ "batch": "FMsg__i_odoroki_01",
+ "translations": {
+  "FMsg/i_odoroki_01#0": "여긴…{1:wait}",
+  "FMsg/i_odoroki_01#1": "잠깐만 기다려 줄래?{1:wait}",
+  "FMsg/i_odoroki_01#2": "이건 대체…{1:wait}",
+  "FMsg/i_odoroki_01#3": "혹시 이건…{1:wait}",
+  "FMsg/i_odoroki_01#4": "그래! 분명히 그거야!{1:wait}",
+  "FMsg/i_odoroki_01#5": "{1:align}{2:align}기다리게 해서 미안해.{3:wait}[Next]{4:align}저쪽에서 흥미로운 걸\n발견했어.{5:wait}",
+  "FMsg/i_odoroki_01#6": "백 마디 설명보다\n직접 한 번 보는 게\n빠를 거야.{1:wait}[Next]{2:align}{3:align}저쪽으로 가 보자!{4:wait}",
+  "FMsg/i_odoroki_01#7": "안쪽에서 흥미로운 걸\n발견했어.{1:wait}[Next]{2:align}{3:align}어서 저쪽으로 가 보자!{4:wait}",
+  "FMsg/i_odoroki_01#8": "이 안쪽에 있었던\n신경이 튀어나온 부분…{1:wait}[Next]거기에 자극을 주면\n어떤 변화가 일어날 것 같은데…{2:wait}",
+  "FMsg/i_odoroki_01#9": "동굴…?{1:wait}",
+  "FMsg/i_odoroki_01#10": "{1:align}{2:align}이상하다…{3:wait}[Next]{4:align}우리를 빨아들인 기억도\n없는 것 같고…{5:wait}[Next]지금 자신이 있는 장소도\n모르겠다니…{6:wait}[Next]{7:align}무슨 일이 있었던 거지…?{8:wait}",
+  "FMsg/i_odoroki_01#11": "저기! 일단 그 동굴에서\n빠져나오는 게\n좋을 것 같아!{1:wait}",
+  "FMsg/i_odoroki_01#12": "당분간 쿠파를\n지켜보기로 하자.{1:wait}",
+  "FMsg/i_odoroki_01#13": "이거! 바로 이거야!\n이 튀어나온 부분…{1:wait}[Next]쿠파의 몸속에 있는 주요 신경과\n연결되어 있는 것 같아.{2:wait}",
+  "FMsg/i_odoroki_01#14": "여기에 자극을 주면\n어떤 변화가 일어날 거야…{1:wait}",
+  "FMsg/i_odoroki_01#15": "정신이 들었나 봐.{1:wait}",
+  "FMsg/i_odoroki_01#16": "저기! 내 말 들려~!?{1:wait}",
+  "FMsg/i_odoroki_01#17": "{1:align}{2:align}찾아도 소용없어!{3:wait}[Next]{4:align}왜냐하면 난\n네 몸속에 있거든!{5:wait}",
+  "FMsg/i_odoroki_01#18": "설마 기억 못 하는 거야?\n아까 피치 성에서…{1:wait}",
+  "FMsg/i_odoroki_01#19": "뭐? 기억나지 않아?{1:wait}",
+  "FMsg/i_odoroki_01#20": "아직은 우리를 빨아들인 사실에 대해\n잠자코 있는 게 좋겠어.{1:wait}",
+  "FMsg/i_odoroki_01#21": "내가 누군지는\n천천히 알려 줄게!{1:wait}[Next]{2:align}{3:align}말하면 길어지니까…{4:wait}",
+  "FMsg/i_odoroki_01#22": "{1:align}{2:align}어…? 그, 그런가?{3:wait}[Next]{4:align}그, 그것보다\n지금 어디에 있어?{5:wait}"
+ },
+ "new_terms": [],
+ "notes": {
+  "FMsg/i_odoroki_01#8": "DS1FC#8에 없는 神経(신경)을 3DX 원문대로 추가.",
+  "FMsg/i_odoroki_01#13": "DS1FC#9 '쿠파 몸속의 주요 신경에'를 글로서리(クッパの体内=쿠파의 몸속)에 맞춰 '쿠파의 몸속에 있는 주요 신경과'로 조정.",
+  "FMsg/i_odoroki_01#20": "DS1FC#16의 3줄을 3DX 2줄에 맞추느라 '우리들을'→'우리를'."
+ }
+}

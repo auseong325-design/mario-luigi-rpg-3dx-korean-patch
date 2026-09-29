@@ -1,0 +1,145 @@
+{
+ "batch": "InitLoad",
+ "rooms": [
+  "InitLoad"
+ ],
+ "ds_rooms": [],
+ "ds_reference": [
+  "@file work/batches/_refs_InitLoad.txt (11 DS lines shared by all InitLoad batches - read it once)"
+ ],
+ "glossary": [
+  {
+   "jp": "すべてのゲームデータを 消します。",
+   "ko": "이 게임의 모든 저장 데이터가 삭제됩니다.",
+   "type": "ui",
+   "basis": "DS",
+   "source": "MData__mfset_InitLoadMes#5",
+   "note": "[gl_menu_places]"
+  },
+  {
+   "jp": "そのままでお待ちください。",
+   "ko": "잠시 기다려 주십시오.",
+   "type": "ui",
+   "basis": "DS",
+   "source": "MData__mfset_InitLoadMes#6",
+   "note": "しばらく そのままで… 도 같음 [gl_menu_places]"
+  },
+  {
+   "jp": "よろしいですか？",
+   "ko": "계속하시겠습니까?",
+   "type": "ui",
+   "basis": "DS",
+   "source": "MData__mfset_InitLoadMes#5",
+   "note": "삭제·덮어쓰기 확인 질문 [gl_menu_places]"
+  },
+  {
+   "jp": "ゲームデータ",
+   "ko": "게임 데이터",
+   "type": "ui",
+   "basis": "coined",
+   "source": "",
+   "note": "DS는 '저장 데이터'(InitLoadMes#5)·'데이터' [gl_menu_places]"
+  },
+  {
+   "jp": "ゲームデータが壊れています。",
+   "ko": "게임 데이터가 손상되었습니다.",
+   "type": "ui",
+   "basis": "coined",
+   "source": "",
+   "note": "DS InitLoadMes#1 '손상되었으므로' 용어 [gl_menu_places]"
+  },
+  {
+   "jp": "データ",
+   "ko": "데이터",
+   "type": "ui",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesSys#17",
+   "note": "[gl_menu_places]"
+  }
+ ],
+ "messages": [
+  {
+   "id": "InitLoad#0",
+   "label": "SaveAccident",
+   "style": 12,
+   "src": "{1:align}{2:align}{3:mode}ゲームデータが壊れています。\n{4:align}ゲームデータを作り直します。{5:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0005:0000:]",
+    "4": "[0001:0001:]",
+    "5": "[0002:0001:]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "InitLoad#1",
+   "label": "InitFormat",
+   "style": 12,
+   "src": "{1:align}{2:align}{3:mode}ゲームを始める準備をしています。\n{4:align}しばらく そのままでお待ちください。",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0005:0000:]",
+    "4": "[0001:0001:]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "InitLoad#2",
+   "label": "Data_Clear_00",
+   "style": 12,
+   "src": "{1:align}{2:align}{3:mode}すべてのゲームデータを 消します。\n{4:align}よろしいですか？{5:pause}\n{6:align}{7:choice}いいえ{8:tab}{9:choice}はい{10:pause}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0005:0000:]",
+    "4": "[0001:0001:]",
+    "5": "[0002:0000:0A 00]",
+    "6": "[0001:0001:]",
+    "7": "[0004:0001:]",
+    "8": "[0006:0000:20 00]",
+    "9": "[0004:0001:]",
+    "10": "[0002:0000:0A 00]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "InitLoad#3",
+   "label": "Data_Clear_01",
+   "style": 12,
+   "src": "{1:align}{2:align}{3:mode}消したゲームデータは もとに\n{4:align}戻せませんが よろしいですか？{5:pause}\n{6:align}{7:choice}いいえ{8:tab}{9:choice}はい{10:pause}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0005:0000:]",
+    "4": "[0001:0001:]",
+    "5": "[0002:0000:0A 00]",
+    "6": "[0001:0001:]",
+    "7": "[0004:0001:]",
+    "8": "[0006:0000:20 00]",
+    "9": "[0004:0001:]",
+    "10": "[0002:0000:0A 00]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "InitLoad#4",
+   "label": "Data_Clear_02",
+   "style": 12,
+   "src": "{1:align}{2:align}{3:mode}ゲームデータを 消しています。\n{4:align}しばらく そのままでお待ちください。",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0005:0000:]",
+    "4": "[0001:0001:]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  }
+ ]
+}

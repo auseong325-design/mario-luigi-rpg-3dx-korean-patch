@@ -1,0 +1,12 @@
+{
+ "source": "Msg/JP_ja/FMsg.dat:o_evselect_U",
+ "messages": [
+  {
+   "id": "FMsg/o_evselect_U#0",
+   "label": "MES_work_omit_01",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0001:][0005:0000:][U+E07E]ケタの移動 [U+E07D]数値の変更 [U+E000]決定"
+  }
+ ]
+}

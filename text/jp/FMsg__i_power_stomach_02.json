@@ -1,0 +1,33 @@
+{
+ "source": "Msg/JP_ja/FMsg.dat:i_power_stomach_02",
+ "messages": [
+  {
+   "id": "FMsg/i_power_stomach_02#0",
+   "label": "MES_SA_SUB_KPower_stomach_02_Kpower_stomach_mes_01",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0001:]ねえ！ あれ！[0002:0001:][Next][0001:0001:][Color #2C64FF]スターワクチン[Color #373737][Color #373737]じゃない！？[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/i_power_stomach_02#1",
+   "label": "MES_SA_SUB_KPower_stomach_02_Kpower_stomach_mes_02",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0005:0000:][0001:0001:]２つ[Ruby 目;め]の[Color #4ED4FF]スターワクチン[Color #E6E6E6][Color #373737]を\n[Ruby 手;て]に[Ruby 入;い]れた！[0002:0000:1E 00][0002:0001:][Next][0005:0000:][0001:0001:]クッパの[Ruby 胃液;いえき]に まみれて\nネットリ ドロドロしている…[0002:0000:1E 00][0002:0001:][Next][0005:0000:][0001:0004:][0001:0001:]あとで よ～く [Ruby 洗;あら]っておこう…[0002:0000:1E 00][0002:0001:][Color #E6E6E6]"
+  },
+  {
+   "id": "FMsg/i_power_stomach_02#2",
+   "label": "MES_SA_SUB_KPower_stomach_02_Kpower_stomach_mes_03",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]クッパには [Ruby 悪;わる]いけど\n[Ruby 私達;わたしたち]は [Ruby 外;そと]へ[Ruby 出;で]ましょう。[0002:0001:][Next][0001:0004:][0001:0001:]もうここに [Ruby 用;よう]はないわ。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_power_stomach_02#3",
+   "label": "MES_SA_SUB_KPower_stomach_02_Kpower_stomach_mes_04",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:][0001:0001:]スターワクチンも のこりあと１つ…[0002:0001:][Next][0001:0000:]そろそろ Dr.コキノも\n３[Ruby 人目;にんめ]の[Ruby 賢者;けんじゃ]が どこにいるか\nわかったかも しれないわね。[0002:0001:][Next][0001:0004:][0001:0001:]キノコタウンへ もどってみましょう。[0002:0001:]"
+  }
+ ]
+}

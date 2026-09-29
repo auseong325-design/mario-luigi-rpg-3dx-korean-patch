@@ -1,0 +1,117 @@
+{
+ "source": "Msg/JP_ja/FMsg.dat:o_peach_g_18_1",
+ "messages": [
+  {
+   "id": "FMsg/o_peach_g_18_1#0",
+   "label": "MES_GPeach_18_Koopa_sball_tut_14",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]すごいぞ！[0002:0000:0A 00]\nさすが ワガハイ！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_peach_g_18_1#1",
+   "label": "MES_GPeach_18_Koopa_sball_tut_15",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ところで チッピー！[0002:0000:0A 00]\nここは どこだ！？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_peach_g_18_1#2",
+   "label": "MES_GPeach_18_Koopa_sball_tut_16",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]なんだと！[0002:0000:0A 00] いつのまに\nワガハイは ピーチ[Ruby 城;じょう]に[Ruby 入;はい]ったんだ！？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_peach_g_18_1#3",
+   "label": "MES_GPeach_18_Koopa_sball_tut_17",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:][Ruby 言;い]われなくても わかってるわ！[0002:0001:][Next]ゲラコビッツ[Ruby 達;たち]から\nピーチ[Ruby 姫;ひめ]を うばい[Ruby 返;かえ]してやるわ！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_peach_g_18_1#4",
+   "label": "MES_GPeach_18_Koopa_sball_tut_18",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0005:0000:][0001:0001:][Color #4ED4FF][U+E005][Color #E6E6E6][Color #373737]ボタンで アクション[Ruby 切;き]りかえ。\n[0001:0001:][Color #E6E6E6][Color #FFDE32][U+E002][Color #E6E6E6][Color #373737]ボタンで ボールになる。[Color #E6E6E6]"
+  },
+  {
+   "id": "FMsg/o_peach_g_18_1#5",
+   "label": "MES_GPeach_18_Koopa_sball_tut_17_2",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]こんなところは とっとと[Ruby 出;で]て[Ruby 行;い]くぞ！\n[Ruby 新;あたら]しい[Ruby 技;わざ]を [Ruby 使;つか]いまくってやるのだ！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_peach_g_18_1#6",
+   "label": "MES_GPeach_18_Koopa_sball_tut_03",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]イタタタタタ…[0002:0000:0A 00]\nこしが…[0002:0000:0A 00] こしが[Ruby 痛;いた]い…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_peach_g_18_1#7",
+   "label": "MES_GPeach_18_Koopa_sball_tut_05",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]とても [Ruby 動;うご]けそうにないぞ…\nアイタタタタ…[0002:0001:][Next]な[0002:0000:0A 00] なんとかしてくれ…[0002:0000:0A 00]\nいや[0002:0000:0A 00] なんとかして… [0002:0000:0A 00]ください。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_peach_g_18_1#8",
+   "label": "MES_GPeach_18_Koopa_sball_tut_07",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]おおお！ こしのあたりが\nじんわ～りと [Ruby 軽;かる]くなったぞ！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_peach_g_18_1#9",
+   "label": "MES_GPeach_18_Koopa_sball_tut_08",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]おおーーーーーーっ！[0002:0001:][Next][Ruby 完全復活;かんぜんふっかつ]だーーーーー！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_peach_g_18_1#10",
+   "label": "MES_GPeach_18_Koopa_sball_tut_09",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]ふん！！ [Ruby 心配;しんぱい]はいらん！！[0002:0001:][Next][Ruby 前;まえ]よりも [Ruby 体;からだ]の[Ruby 調子;ちょうし]が\nよくなったみたいだ！！[0002:0001:][Next][0001:0004:][0001:0001:]ほれ [Ruby 見;み]ろ！！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_peach_g_18_1#11",
+   "label": "MES_sys_guide_add",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0005:0000:][0001:0001:][Color #4ED4FF]フィールドガイド[Color #E6E6E6]に\n[Ruby 項目;こうもく]が[Ruby 追加;ついか]されました。[0002:0000:1E 00][0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_peach_g_18_1#12",
+   "label": "MES_GPeach_18_Koopa_sball_tut_10",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]こんなことが\nできるようになったぞ！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_peach_g_18_1#13",
+   "label": "MES_GPeach_18_Koopa_sball_tut_11",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:][0001:0001:]こいつは いいぞ！[0002:0001:][Next][0001:0000:][Color #2C64FF][U+E005][Color #373737][Color #373737]ボタンで\nアクションを [Ruby 切;き]りかえて\n[Color #373737][Color #FF9600][U+E002][Color #373737][Color #373737]ボタンで [Ruby 発動;はつどう]できるのだ！！[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/o_peach_g_18_1#14",
+   "label": "MES_GPeach_18_Koopa_sball_tut_12",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]このまま [Color #2C64FF][U+E077][Color #373737][Color #373737]で[Ruby 移動;いどう]すれば\nトゲの[Ruby 上;うえ]でも [Ruby 痛;いた]くないぞ！[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/o_peach_g_18_1#15",
+   "label": "MES_GPeach_18_Koopa_sball_tut_13",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]おまけに トゲがつきささりそうな\nかべなら [Ruby 登;のぼ]っていけそうだぞ！[0002:0001:]"
+  }
+ ]
+}

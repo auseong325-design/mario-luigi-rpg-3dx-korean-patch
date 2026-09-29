@@ -1,0 +1,198 @@
+{
+ "batch": "FMsg__o_otapuku_02__and1",
+ "rooms": [
+  "o_otapuku_02",
+  "o_otapuku_04"
+ ],
+ "ds_rooms": [
+  "055",
+  "05A"
+ ],
+ "ds_reference": [
+  "DS055#0: 요즘 버섯 왕국에서 선풍적 인기!\n슬라이딩 다이어트![Next]뒤쪽 발에 힘을 주고\n걸으면서 펀치![Next]쓸모없는 지방도\n쓸데없는 기억도\n모두 날아가 버린다!![Next]지금까지 가지 못했던\n바로 그 장소로도\n날아갈 수 있다는 사실!![Next]당신도 슬라이딩 다이어트로\n그 친구의 마음속에\n날아가 보는 건 어떨까!?",
+  "DS05A#0: ←고라파 레이크\n→쿠파 성",
+  "DS05A#1: 알립니다! 알립니다~!",
+  "DS05A#2: 다른 길로 새지 않았나요?\n어서 세 번째 백신을\n찾아 주시지요!",
+  "DS05A#3: 이아파 비치는 남쪽이야!"
+ ],
+ "glossary": [
+  {
+   "jp": "パンチ",
+   "ko": "펀치",
+   "type": "ability",
+   "basis": "DS",
+   "source": "BData__mfset_Help#14",
+   "note": "필드 액션·배틀 커맨드 공통 [gl_attacks]"
+  },
+  {
+   "jp": "クッパ",
+   "ko": "쿠파",
+   "type": "boss",
+   "basis": "DS",
+   "source": "BData__mfset_MonN#65",
+   "note": "마리오 일행이 싸우는 쿠파. glossary 확정값과 동일 [gl_enemies]"
+  },
+  {
+   "jp": "キノコ",
+   "ko": "버섯",
+   "type": "item",
+   "basis": "DS",
+   "source": "BData__mfset_UItmN#0",
+   "note": "일반 명사 キノコ도 버섯(キノコタウン=버섯 타운) [gl_items]"
+  },
+  {
+   "jp": "ワクチン",
+   "ko": "백신",
+   "type": "key_item",
+   "basis": "DS",
+   "source": "MData__mfset_MenuMes#52",
+   "note": "[gl_menu_places]"
+  },
+  {
+   "jp": "スライ・ディーング",
+   "ko": "슬라이딩 다이어트",
+   "type": "object",
+   "basis": "DS",
+   "source": "o_otapuku_04#0 ↔ DS055#0",
+   "note": "room-align"
+  },
+  {
+   "jp": "キノコ王国",
+   "ko": "버섯 왕국",
+   "type": "place",
+   "basis": "DS",
+   "source": "FEvent:011#0",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "クッパ城",
+   "ko": "쿠파 성",
+   "type": "place",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesPlace#6",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "ヅツーダレイク",
+   "ko": "고라파 레이크",
+   "type": "place",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesPlace#10",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "ムッシーバビーチ",
+   "ko": "이아파 비치",
+   "type": "place",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesPlace#4",
+   "note": "[gl_kj]"
+  }
+ ],
+ "messages": [
+  {
+   "id": "FMsg/o_otapuku_02#0",
+   "label": "MES_EOtapuku_02_EO02_kanban_mes",
+   "style": 12,
+   "src": "{1:align}{2:align}{3:mode}← ヅツーダレイク\n→ クッパ城{4:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0005:0000:]",
+    "4": "[0002:0001:]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_otapuku_02#1",
+   "label": "MES_EOtapuku_02_EO02_kocky_ev_00",
+   "style": 6,
+   "src": " \n [Next]{1:align}{2:align}おしらせ おしらせ～！{3:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_otapuku_02#2",
+   "label": "MES_EOtapuku_02_EO02_kocky_ev_01",
+   "style": 6,
+   "src": "{1:align}より道 していないでしょうか？\nとっとと ３つ目のワクチンを\n探すでしょう！{2:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_otapuku_02#3",
+   "label": "MES_EOtapuku_02_EO02_kocky_ev_02",
+   "style": 6,
+   "src": " \n [Next]{1:align}{2:align}{3:color}  ムッシーバビーチ{4:color}{5:color}は 南だよ！{6:wait}{7:color}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[Color #2C64FF]",
+    "4": "[Color #373737]",
+    "5": "[Color #373737]",
+    "6": "[0002:0001:]",
+    "7": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/o_zutsuda_01#11"
+   ]
+  },
+  {
+   "id": "FMsg/o_otapuku_04#0",
+   "label": "MES_EOtapuku_04_EO04_kanban_mes",
+   "style": 12,
+   "src": "{1:align}{2:align}{3:mode}今 キノコ王国中で 大人気！\n{4:color}スライ・ディーング{5:color}{6:color}！{7:wait}[Next]{8:align}{9:align}{10:mode}足のふんばりを きかせて\n{11:color}{12:color}歩きながらパンチ{13:color}{14:color}！{15:wait}[Next]{16:align}{17:align}{18:mode}ムダな 脂肪も\nイヤな 思い出も\n全部 飛んでっちゃうぞ！！{19:wait}[Next]{20:align}{21:align}{22:mode}今まで とどかなかった\nあの場所にも\n{23:color}{24:color}飛んでいけちゃう{25:color}{26:color} かも！！{27:wait}[Next]{28:align}{29:align}{30:mode}キミも {31:color}{32:color}スライ・ディーング{33:color}{34:color}で\nあの子のハートへ\n飛び込んじゃえよ！！{35:wait}{36:color}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0005:0000:]",
+    "4": "[Color #4ED4FF]",
+    "5": "[Color #E6E6E6]",
+    "6": "[Color #373737]",
+    "7": "[0002:0001:]",
+    "8": "[0001:0004:]",
+    "9": "[0001:0001:]",
+    "10": "[0005:0000:]",
+    "11": "[Color #E6E6E6]",
+    "12": "[Color #4ED4FF]",
+    "13": "[Color #E6E6E6]",
+    "14": "[Color #373737]",
+    "15": "[0002:0001:]",
+    "16": "[0001:0004:]",
+    "17": "[0001:0001:]",
+    "18": "[0005:0000:]",
+    "19": "[0002:0001:]",
+    "20": "[0001:0004:]",
+    "21": "[0001:0001:]",
+    "22": "[0005:0000:]",
+    "23": "[Color #E6E6E6]",
+    "24": "[Color #4ED4FF]",
+    "25": "[Color #E6E6E6]",
+    "26": "[Color #373737]",
+    "27": "[0002:0001:]",
+    "28": "[0001:0004:]",
+    "29": "[0001:0001:]",
+    "30": "[0005:0000:]",
+    "31": "[Color #E6E6E6]",
+    "32": "[Color #4ED4FF]",
+    "33": "[Color #E6E6E6]",
+    "34": "[Color #373737]",
+    "35": "[0002:0001:]",
+    "36": "[Color #E6E6E6]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  }
+ ]
+}

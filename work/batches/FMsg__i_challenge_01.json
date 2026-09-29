@@ -1,0 +1,1787 @@
+{
+ "batch": "FMsg__i_challenge_01",
+ "rooms": [
+  "i_challenge_01"
+ ],
+ "ds_rooms": [
+  "28A"
+ ],
+ "ds_reference": [
+  "DS28A#0: 챌린지 홀에 오신 걸",
+  "DS28A#1: 환영합니다!",
+  "DS28A#2: 이 문으로 들어가면…",
+  "DS28A#3: 배틀 콜로세움!",
+  "DS28A#4: 강한 적과 배틀을 벌여 자신의",
+  "DS28A#5: 몸과[Next]마음을",
+  "DS28A#6: 단련하는 곳로빈!",
+  "DS28A#7: ………………",
+  "DS28A#8: ………………",
+  "DS28A#9: 저런…",
+  "DS28A#10: 저런…",
+  "DS28A#11: 저러~언!",
+  "DS28A#12: 당신들",
+  "DS28A#13: 아직은",
+  "DS28A#14: 여기에서 배틀을 펼치기에",
+  "DS28A#15: 너~무너무",
+  "DS28A#16: 약해 빠졌어로빈!",
+  "DS28A#17: 약해 빠졌어로빈!",
+  "DS28A#18: 좀 더 강한 몬스터와 싸워서\n배틀의 경험을 쌓기 전까지는…",
+  "DS28A#19: 우리 배틀 콜로세움에\n들어올 수 없어로빈!",
+  "DS28A#20: 다음에 다시 와로빈!",
+  "DS28A#21: 경험을 쌓고 다시 와로빈!",
+  "DS28A#22: 후후…",
+  "DS28A#23: 이제 보니 배틀의 경험을",
+  "DS28A#24: 호호…",
+  "DS28A#25: 웬만큼 쌓고 왔네로빈!?",
+  "DS28A#26: 좋아!",
+  "DS28A#27: 좋아!",
+  "DS28A#28: 당신들은 이 안의\n배틀 콜로세움에 들어갈 자격",
+  "DS28A#29: 있음!",
+  "DS28A#30: 내가 당신들의\n기억을 읽어서",
+  "DS28A#31: 더욱더 강한 몬스터를\n만들어 낼 거야로빈!",
+  "DS28A#32: 그리고 그 몬스터와 배틀을 펼쳐서\n승리하게 된다면…",
+  "DS28A#33: 된다면?",
+  "DS28A#34: 엄청 멋있는 트로피와\n상품을 선물로 줄게로빈~!",
+  "DS28A#35: 머, 멋지다~!",
+  "DS28A#36: 자! 자신의 기술과\n체력의 한계에…",
+  "DS28A#37: 자! 자신의 기술과\n체력의 한계에…",
+  "DS28A#38: 챌린지해 볼래로빈?",
+  "DS28A#39: 챌린지할래요  안 할래요",
+  "DS28A#40: 굿 럭!",
+  "DS28A#41: 그래로빈…?",
+  "DS28A#42: 말도 안 돼로빈…",
+  "DS28A#43: 어쩔 수 없지로빈…",
+  "DS28A#44: 서글프다로빈…",
+  "DS28A#45: 어서 오세요!",
+  "DS28A#46: 배틀 콜로세움입니다!",
+  "DS28A#47: 당신들의 기억을 읽어서 더욱더\n강한 몬스터를 만들 거야로빈!",
+  "DS28A#48: 그 몬스터와 물러설 수 없는\n한판 배틀에 챌린지해 볼래로빈?",
+  "DS28A#49: 당신들의 기억을 읽어서 더욱더\n강한 몬스터를 만들 거야로빈![Next]…어라? 에어 스페이스에\n갈 수 있게 된 거야로빈?[Next]빠르게 레벨 업하고 싶다면…[Next]에어 스페이스 몬스터와의\n배틀을 추천해로빈!",
+  "DS28A#50: 자… 물러설 수 없는\n한판 배틀에 챌린지해 볼래로빈?",
+  "DS28A#51: 챌린지 홀에 오신 걸",
+  "DS28A#52: 환영합니다!",
+  "DS28A#53: 이 문으로 들어가면…",
+  "DS28A#54: 콜레스테로드!",
+  "DS28A#55: 아주 몸에 나빠 보이는",
+  "DS28A#56: 콜레스테론의 소굴로빈!",
+  "DS28A#57: 이 문 안의 콜레스테론들을\n자신 있는 어택으로…[Next]언제까지나…[Next]어디까지나…[Next]사정없이…[Next]쓰러뜨리는 거야로빈!",
+  "DS28A#58: 「콜레스테론」\n볼록볼록하게 생긴 지방 덩어리 몬스터.\n쉽게 쓰러뜨릴 수 있지만 그 수가 많다.",
+  "DS28A#59: 언제까지나… 어디까지나…[Next]콜레스테론을 쓰러뜨리면서\n공격 테크닉의 한계에",
+  "DS28A#60: 챌린지!",
+  "DS28A#61: 챌린지!",
+  "DS28A#62: 하는",
+  "DS28A#63: 거야로빈!",
+  "DS28A#64: 게다가! 이 챌린지에서\n높은 점수를 낸다면…",
+  "DS28A#65: 낸다면?",
+  "DS28A#66: 엄청난 코인과 호화로운 상품을\n선물로 줄게로빈~!",
+  "DS28A#67: 끄, 끝내준다로빈~!",
+  "DS28A#68: 자! 이렇게 매력적인\n콜레스테로드에…",
+  "DS28A#69: 자! 이렇게 매력적인\n콜레스테로드에…",
+  "DS28A#70: 들어가 볼래로빈?",
+  "DS28A#71: 들어갈래요  안 들어가요",
+  "DS28A#72: 렛츠 고!",
+  "DS28A#73: 저… 정말로빈…?",
+  "DS28A#74: 왜… 왜지로빈…?",
+  "DS28A#75: 챌린지하고 싶어지면\n언제든지 말을 걸면 돼로빈!",
+  "DS28A#76: 장난치지 말고로빈!",
+  "DS28A#77: 어서 오세요!",
+  "DS28A#78: 콜레스테로드입니다!",
+  "DS28A#79: 얼마나 오래 공격을 지속하는지\n챌린지하는 거야로빈~!",
+  "DS28A#80: 안으로 들어가 볼래로빈?\n들어갈래요  안 들어가요",
+  "DS28A#81: ……………",
+  "DS28A#82: ……………",
+  "DS28A#83: 당신들",
+  "DS28A#84: 아직은",
+  "DS28A#85: 여기에서 챌린지하기에",
+  "DS28A#86: 경험이…",
+  "DS28A#87: 부족해로빈!",
+  "DS28A#88: 부족해로빈!",
+  "DS28A#89: 배틀에서 스페셜 어택을 사용해서\n어택 실력을 갈고닦기 전에…",
+  "DS28A#90: 우리 콜레스테로드에\n들어가는 건 위험해로빈!",
+  "DS28A#91: 나중에 다시 와로빈!",
+  "DS28A#92: 실력을 쌓고 다시 와로빈!",
+  "DS28A#93: 어라? 못 보던 얼굴이네로빈…[Next]당신들도 여기 챌린지 홀에서\n자신의 한계에 챌린지해 볼래로빈?",
+  "DS28A#94: 후후후후…\n여긴 다른 곳과는 달라로빈.[Next]자세한 내용은 아래에 있는\n다른 녀석들이 알려 줄 거야로빈.[Next]아래에서 점프해서 말을 걸면\n재밌는 걸 알려 줄 거야로빈!",
+  "DS28A#95: 챌린지 홀 뉴스!",
+  "DS28A#96: ~ 콜레스테로드 ~\n새로운 챌린지가 생겼음로빈![Next]어서 가 보길로빈!",
+  "DS28A#97: ~ 배틀 콜로세움 ~\n새로운 클래스가 생겼음로빈![Next]어서 가 보길로빈!",
+  "DS28A#98: ~ 콜레스테로드 ~\n새로운 챌린지가 생겼음로빈![Next]~ 배틀 콜로세움 ~\n새로운 클래스가 생겼음로빈![Next]어서 가 보길로빈!",
+  "DS28A#99: 예고[Next]처음 경험하는…\n스릴과 흥분![Next]처음 경험하는…\n환희와 감동![Next]당신의 한계를 뛰어넘을 자는\n오직 당신뿐…[Next]블록99[Next]현재 준비 중!",
+  "DS28A#100: 가끔씩 이곳 상황을\n보러 와로빈.",
+  "DS28A#101: 조금만 기다려 줘로빈.\n곧 플레이할 수 있게 돼로빈!",
+  "DS28A#102: 블록99[Next]왼쪽에 떠 있는 블록을…\n너희 둘은 과연 몇 번까지\n계속 두드릴 수 있을까로빈?[Next]만약 99번 두드리는 데 성공하면\n현재 갖고 있는 코인을 무려!\n2배로 만들어 줄게로빈!",
+  "DS28A#103: 블록99[Next]왼쪽에 떠 있는 블록을…\n너희 둘은 과연 몇 번까지\n계속 두드릴 수 있을까로빈?[Next]만약 99번 두드리는 데 성공하면\n현재 갖고 있는 코인을 무려!\n2배로 만들어 줄게로빈![Next]참고로 지금까지의\n최고 기록은 번로빈!",
+  "DS28A#104: 블록99 성공로빈~!",
+  "DS28A#105: 축하해로빈![Next]약속대로 당신들이\n갖고 있는 코인을\n2배로 만들어 줄게로빈![Next]참고로 이 선물은\n이번 한 번뿐로빈.\n지금 바로 2배로 해 줄까로빈?[Next]아니면 좀 더 코인을 모아 오면\n2배로 해 줄까로빈?\n나중에 2배  지금 바로 2배",
+  "DS28A#106: 블록99의 선물은 갖고 있는\n코인을 2배로 만들어 주는 것!\n지금 바로 2배로 해 줄까로빈?[Next]아니면 좀 더 코인을 모아 오면\n2배로 해 줄까로빈?\n나중에 2배  지금 바로 2배",
+  "DS28A#107: 정말로 지금 2배로 해 줄까로빈?\n나중에…  지금 바로 2배!",
+  "DS28A#108: 오케이!",
+  "DS28A#109: 번구십구면리드두인코배",
+  "DS28A#110: 두―!!",
+  "DS28A#111: …방금 그건 코인을 늘리는\n주문이야로빈.[Next]블록99의 선물은\n이번 한 번뿐로빈.[Next]그럼 안녕! 로빈!",
+  "DS28A#112: 그래로빈? 그럼 코인을\n2배로 늘리고 싶어지면\n나를 두드리러 와로빈.",
+  "DS28A#113: 트"
+ ],
+ "glossary": [
+  {
+   "jp": "ブラザーアタック",
+   "ko": "스페셜 어택",
+   "type": "attack",
+   "basis": "DS",
+   "source": "BAI__BMes_cf#4.1",
+   "note": "DS 대응문(어택피스로 스페셜 어택을↔アタックパーツでブラザーアタックが)으로 같은 대상 확인. 3DX에서 スペシャルアタック을 개칭한 것. 후속작 공식 표기는 '브라더 어택'(https://www.nintendo.com/kr/switch/a8e6a/battle/index.html) — 개칭 반영 여부 확인 필요 [gl_attacks]"
+  },
+  {
+   "jp": "コレステロン",
+   "ko": "콜레스테론",
+   "type": "enemy",
+   "basis": "DS",
+   "source": "i_challenge_01#111 ↔ DS28A#58",
+   "note": "room-align"
+  },
+  {
+   "jp": "ブル",
+   "ko": "불",
+   "type": "enemy",
+   "basis": "official",
+   "source": "https://namu.wiki/w/%EC%BF%A0%ED%8C%8C%EA%B5%B0%EB%8B%A8",
+   "note": "Chargin' Chuck. RPG1 DX 한국판 설명문에도 '불'. 불(火)과 헷갈리지 않게 문맥 주의 — 확인 필요 [gl_kj]"
+  },
+  {
+   "jp": "クラス",
+   "ko": "클래스",
+   "type": "other",
+   "basis": "DS",
+   "source": "FEvent#28A.97",
+   "note": "배틀 콜로세움의 단계 [gl_attacks]"
+  },
+  {
+   "jp": "コレステチューブ",
+   "ko": "콜레스테로드",
+   "type": "other",
+   "basis": "DS",
+   "source": "FEvent#28A.54",
+   "note": "스페셜 어택 미니 게임장 [gl_attacks]"
+  },
+  {
+   "jp": "コロシアム",
+   "ko": "콜로세움",
+   "type": "other",
+   "basis": "DS",
+   "source": "FEvent#28A.3",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "ザ・ブロック９９",
+   "ko": "블록99",
+   "type": "other",
+   "basis": "DS",
+   "source": "FEvent#28A.99",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "トロフィー",
+   "ko": "트로피",
+   "type": "other",
+   "basis": "DS",
+   "source": "FEvent#28A.34",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "バトルコロシアム",
+   "ko": "배틀 콜로세움",
+   "type": "other",
+   "basis": "DS",
+   "source": "FEvent#28A.3",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "巨大化バトル ターボ",
+   "ko": "거대화 배틀 터보",
+   "type": "other",
+   "basis": "coined",
+   "source": "",
+   "note": "3DX 신규(챌린지 홀) [gl_attacks]"
+  },
+  {
+   "jp": "エアースペース",
+   "ko": "에어 스페이스",
+   "type": "place",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesPlace#24",
+   "note": "세이브 파일 장소명(3DX MES_EMesPlace_place24 = DS #24) [gl_menu_places]"
+  },
+  {
+   "jp": "チャレンジホール",
+   "ko": "챌린지 홀",
+   "type": "place",
+   "basis": "DS",
+   "source": "FEvent#28A.0",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "アタック",
+   "ko": "어택",
+   "type": "term",
+   "basis": "DS",
+   "source": "BDataMiniGame__mfset_MesDat_MiniGame#5",
+   "note": "스페셜 어택을 줄여 부를 때. 단 퀴즈의 パンチアタック/ファイアアタック은 DS대로 '~ 공격' [gl_attacks]"
+  },
+  {
+   "jp": "アップ",
+   "ko": "업",
+   "type": "term",
+   "basis": "DS",
+   "source": "FEvent:0EC#11",
+   "note": "「POWアップ」→'POW 업'(DS '파워 업') [gl_kj]"
+  },
+  {
+   "jp": "コイン",
+   "ko": "코인",
+   "type": "term",
+   "basis": "DS",
+   "source": "BData__mfset_WearE#22",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "チャレンジ",
+   "ko": "챌린지",
+   "type": "term",
+   "basis": "DS",
+   "source": "FEvent#28A.60",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "バトル",
+   "ko": "배틀",
+   "type": "term",
+   "basis": "DS",
+   "source": "BAI__BMes_cf#2.13",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "モンスター",
+   "ko": "몬스터",
+   "type": "term",
+   "basis": "DS",
+   "source": "BAI__BMes_cf#2.1",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "レベル",
+   "ko": "레벨",
+   "type": "term",
+   "basis": "DS",
+   "source": "FEvent#16A.19",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "レベルアップ",
+   "ko": "레벨 업",
+   "type": "term",
+   "basis": "DS",
+   "source": "FEvent#16A.19",
+   "note": "띄어 씀 [gl_attacks]"
+  },
+  {
+   "jp": "体力",
+   "ko": "체력",
+   "type": "term",
+   "basis": "DS",
+   "source": "BData__mfset_RankUpE#14",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "巨大化",
+   "ko": "거대화",
+   "type": "term",
+   "basis": "coined",
+   "source": "",
+   "note": "DS는 '커지다'(BAI__BMes_ji#2.9 커지셨을 때의 배틀)로 풀어 씀 [gl_attacks]"
+  },
+  {
+   "jp": "巨大化バトル",
+   "ko": "거대화 배틀",
+   "type": "term",
+   "basis": "coined",
+   "source": "",
+   "note": "DS는 '커지셨을 때의 배틀'(BAI__BMes_ji#2.9) [gl_attacks]"
+  },
+  {
+   "jp": "そうび",
+   "ko": "장비",
+   "type": "ui",
+   "basis": "DS",
+   "source": "MData__mfset_MenuMes#1",
+   "note": "명사(스타 메뉴 항목·장비품). 동사 そうびする는 '착용하다'(ShopMes#14) [gl_menu_places]"
+  },
+  {
+   "jp": "スコア",
+   "ko": "스코어",
+   "type": "ui",
+   "basis": "DS",
+   "source": "BDataMiniGame__mfset_MesDat_MiniGame#24",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "チャレンジホール ニュース！",
+   "ko": "챌린지 홀 뉴스!",
+   "type": "ui",
+   "basis": "DS",
+   "source": "DS28A#95",
+   "note": "[gl_menu_places]"
+  },
+  {
+   "jp": "賞品",
+   "ko": "상품",
+   "type": "ui",
+   "basis": "DS",
+   "source": "BDataMiniGame__mfset_MesDat_MiniGame#31",
+   "note": "[gl_menu_places]"
+  }
+ ],
+ "messages": [
+  {
+   "id": "FMsg/i_challenge_01#0",
+   "label": "MES_KCharenge_01_Kcharenge_99blk_04",
+   "style": 6,
+   "src": "{1:mode}オーケー！{2:pause}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[0002:0000:14 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_challenge_01#1",
+   "label": "MES_KCharenge_01_Kcharenge_btl_new3_up",
+   "style": 6,
+   "src": "強大なチカラとチカラがぶつかりあう\n巨大化バトルが {1:color}スピードアップ{2:color}！",
+   "tags": {
+    "1": "[Color #2C64FF]",
+    "2": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_challenge_01#2",
+   "label": "MES_KCharenge_01_Kcharenge_mini_03_up",
+   "style": 6,
+   "src": "{1:mode}とっても体に わるそうな{2:pause}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[0002:0000:05 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_challenge_01#3",
+   "label": "MES_KCharenge_01_Kcharenge_99blk_05",
+   "style": 6,
+   "src": "テントラ{1:pause}ポッコスタタ{2:pause}ブルルン{3:pause}{4:wait}",
+   "tags": {
+    "1": "[0002:0000:05 00]",
+    "2": "[0002:0000:05 00]",
+    "3": "[0002:0000:05 00]",
+    "4": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_challenge_01#4",
+   "label": "MES_KCharenge_01_Kcharenge_btl_20_up",
+   "style": 6,
+   "src": "チャレンジしてみる？ びん？",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_challenge_01#5",
+   "label": "MES_KCharenge_01_Kcharenge_mini_13_down",
+   "style": 5,
+   "src": "な… なぜだびん…{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:05 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_challenge_01#6",
+   "label": "MES_KCharenge_01_Kcharenge_99blk_00_a",
+   "style": 6,
+   "src": "{1:mode}{2:align}{3:align}予告{4:pause}{5:wait}[Next]かつてない…{6:pause}\nスリルと こうふん！{7:wait}[Next]かつてない…{8:pause}\nねっきょうと 感動！{9:wait}[Next]あなたの限界を こえるのは\nあなたしかいない…{10:wait}[Next]{11:mode}{12:font}{13:align}{14:align}ザ・ブロック{15:color}９９{16:color}{17:font}{18:color}{19:font}{20:pause}{21:wait}[Next]{22:align}{23:align}ただいま 準備中！{24:wait}{25:font}{26:color}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[0001:0004:]",
+    "3": "[0001:0001:]",
+    "4": "[0002:0000:0F 00]",
+    "5": "[0002:0001:]",
+    "6": "[0002:0000:0F 00]",
+    "7": "[0002:0001:]",
+    "8": "[0002:0000:0F 00]",
+    "9": "[0002:0001:]",
+    "10": "[0002:0001:]",
+    "11": "[0005:0000:]",
+    "12": "[0000:0001:02 00]",
+    "13": "[0001:0004:]",
+    "14": "[0001:0001:]",
+    "15": "[Color #2C64FF]",
+    "16": "[Color #373737]",
+    "17": "[0000:0001:FF FF]",
+    "18": "[Color #373737]",
+    "19": "[0000:0001:01 00]",
+    "20": "[0002:0000:0F 00]",
+    "21": "[0002:0001:]",
+    "22": "[0001:0004:]",
+    "23": "[0001:0001:]",
+    "24": "[0002:0001:]",
+    "25": "[0000:0001:FF FF]",
+    "26": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_challenge_01#7",
+   "label": "MES_KCharenge_01_Kcharenge_99blk_06",
+   "style": 7,
+   "src": "{1:mode}パー！！{2:pause}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[0002:0000:19 00]"
+   },
+   "header": "[0009:0000:07 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_challenge_01#8",
+   "label": "MES_KCharenge_01_Kcharenge_btl_05_down",
+   "style": 6,
+   "src": "おおっと{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/i_challenge_01#41"
+   ]
+  },
+  {
+   "id": "FMsg/i_challenge_01#9",
+   "label": "MES_KCharenge_01_Kcharenge_btl_new4_down",
+   "style": 6,
+   "src": "キミは このコーフンの奔流に\n流されず ついてこられるか？{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_challenge_01#10",
+   "label": "MES_KCharenge_01_Kcharenge_mini_16_up",
+   "style": 6,
+   "src": "どこまで アタックが続けられるか\nチャレンジだ び～ん！",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_challenge_01#11",
+   "label": "MES_KCharenge_01_Kcharenge_99blk_00_b",
+   "style": 6,
+   "src": "ときどき ここに\n様子を 見にきてびん。{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_challenge_01#12",
+   "label": "MES_KCharenge_01_Kcharenge_99blk_07",
+   "style": 6,
+   "src": "…今のは コインがふえる\nじゅもんだびん。{1:wait}[Next]ザ・ブロック９９の ごほうびは\nこれ１回きりびん。{2:wait}[Next]{3:align}{4:align}それでは ごきげんよう！びん。{5:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]",
+    "3": "[0001:0004:]",
+    "4": "[0001:0001:]",
+    "5": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_challenge_01#13",
+   "label": "MES_KCharenge_01_Kcharenge_btl_23_up",
+   "style": 6,
+   "src": "まぁ しかたないびん…",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_challenge_01#14",
+   "label": "MES_KCharenge_01_Kcharenge_99blk_00_c",
+   "style": 6,
+   "src": "もう少し 待ってほしいびん。\nもう少しで 遊べるようになるびん！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_challenge_01#15",
+   "label": "MES_KCharenge_01_Kcharenge_99blk_08",
+   "style": 6,
+   "src": "そうびんか。それでは\nコインを {1:color}２{2:color}{3:color}倍にしたくなったら\nわれを 叩くびんよ。{4:wait}{5:color}",
+   "tags": {
+    "1": "[Color #2C64FF]",
+    "2": "[Color #373737]",
+    "3": "[Color #373737]",
+    "4": "[0002:0001:]",
+    "5": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_challenge_01#16",
+   "label": "MES_KCharenge_01_Kcharenge_mini_19_up",
+   "style": 6,
+   "src": "ここでチャレンジするには",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_challenge_01#17",
+   "label": "MES_KCharenge_01_Kcharenge_btl_03_up",
+   "style": 6,
+   "src": "強いモンスターとバトルして おのれの",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_challenge_01#18",
+   "label": "MES_KCharenge_01_Kcharenge_btl_03_2_down",
+   "style": 6,
+   "src": "きたえあげるびん！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_challenge_01#19",
+   "label": "MES_KCharenge_01_Kcharenge_btl_16_up",
+   "style": 6,
+   "src": "私が キミ達の\nきおくを 読み取って",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_challenge_01#20",
+   "label": "MES_KCharenge_01_Kcharenge_btl_17_down",
+   "style": 6,
+   "src": "倒せたら？{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_challenge_01#21",
+   "label": "MES_KCharenge_01_Kcharenge_btl_new2_down",
+   "style": 6,
+   "src": "タタタ… ターボとは～？{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_challenge_01#22",
+   "label": "MES_KCharenge_01_Kcharenge_btl_19_up",
+   "style": 6,
+   "src": "さあ！ 自分の技と\n体力の限界に…",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_challenge_01#23",
+   "label": "MES_KCharenge_01_Kcharenge_mini_10_down",
+   "style": 6,
+   "src": "さあ！ こんなに みりょく的な\n{1:color}コレステチューブ{2:color}{3:color}に…{4:wait}{5:color}",
+   "tags": {
+    "1": "[Color #2C64FF]",
+    "2": "[Color #373737]",
+    "3": "[Color #373737]",
+    "4": "[0002:0001:]",
+    "5": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_challenge_01#24",
+   "label": "MES_KCharenge_01_Kcharenge_mini_14_up",
+   "style": 6,
+   "src": "チャレンジしたくなったら\nいつでも 声をかけるびん！",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_challenge_01#25",
+   "label": "MES_KCharenge_01_Kcharenge_mini_22_down",
+   "style": 6,
+   "src": "うでをみがいて 出なおすびん！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_challenge_01#26",
+   "label": "MES_KCharenge_01_Kcharenge_btl_14_down",
+   "style": 7,
+   "src": "{1:mode}よろしい！{2:pause}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[0002:0000:28 00]"
+   },
+   "header": "[0009:0000:07 00]",
+   "dups": [
+    "FMsg/i_challenge_01#28"
+   ]
+  },
+  {
+   "id": "FMsg/i_challenge_01#27",
+   "label": "MES_KCharenge_01_Kcharenge_mini_07_up",
+   "style": 6,
+   "src": "{1:mode}だ{2:pause}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[0002:0000:05 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_challenge_01#29",
+   "label": "MES_KCharenge_01_Kcharenge_btl_27_up",
+   "style": 6,
+   "src": "キミ達のきおくを 読み取って\nさらなる 強い敵を作り出すびん！{1:wait}[Next]…おや？ {2:color}エアースペース{3:color}{4:color}にも\n進めるように なったびんね！{5:wait}[Next]{6:align}早くレベルアップ したいなら…{7:wait}[Next]{8:color}{9:color}エアースペース{10:color}{11:color}の モンスターと\nバトルするのが おすすめびん！{12:wait}{13:color}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[Color #2C64FF]",
+    "3": "[Color #373737]",
+    "4": "[Color #373737]",
+    "5": "[0002:0001:]",
+    "6": "[0001:0004:]",
+    "7": "[0002:0001:]",
+    "8": "[Color #373737]",
+    "9": "[Color #2C64FF]",
+    "10": "[Color #373737]",
+    "11": "[Color #373737]",
+    "12": "[0002:0001:]",
+    "13": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_challenge_01#30",
+   "label": "MES_KCharenge_01_Kcharenge_mini_19_down",
+   "style": 6,
+   "src": "経験が…{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_challenge_01#31",
+   "label": "MES_KCharenge_01_Kcharenge_mini_22_up",
+   "style": 6,
+   "src": "しばらくしてから またくるびん！",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/i_challenge_01#61"
+   ]
+  },
+  {
+   "id": "FMsg/i_challenge_01#32",
+   "label": "MES_KCharenge_01_Kcharenge_btl_new2_up",
+   "style": 6,
+   "src": "{1:color}巨大化バトル ターボ{2:color}にも\nチャレンジできるびん ！",
+   "tags": {
+    "1": "[Color #2C64FF]",
+    "2": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_challenge_01#33",
+   "label": "MES_KCharenge_01_Kcharenge_btl_11_down",
+   "style": 6,
+   "src": "経験つんで 出なおすびん！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_challenge_01#34",
+   "label": "MES_KCharenge_01_Kcharenge_mini_05_up",
+   "style": 6,
+   "src": "{1:align}{2:align}どこまでも… とことん…{3:wait}[Next]{4:align}{5:color}コレステロン{6:color}{7:color}を 倒しながら\n自分の テクニックの限界に{8:wait}{9:color}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0001:]",
+    "4": "[0001:0000:]",
+    "5": "[Color #2C64FF]",
+    "6": "[Color #373737]",
+    "7": "[Color #373737]",
+    "8": "[0002:0001:]",
+    "9": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_challenge_01#35",
+   "label": "MES_KCharenge_01_Kcharenge_btl_09_down",
+   "style": 7,
+   "src": "{1:mode}よわすぎるびん！{2:pause}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[0002:0000:32 00]"
+   },
+   "header": "[0009:0000:07 00]",
+   "dups": [
+    "FMsg/i_challenge_01#55"
+   ]
+  },
+  {
+   "id": "FMsg/i_challenge_01#36",
+   "label": "MES_KCharenge_01_Kcharenge_btl_22_up",
+   "style": 6,
+   "src": "そうびんか…",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_challenge_01#37",
+   "label": "MES_KCharenge_01_Kcharenge_mini_16_down",
+   "style": 6,
+   "src": "この先へ 入るびん？{1:pause}\n{2:align}{3:color}{4:indent}{5:color}{6:choice}入りません{7:tab}{8:choice}入ります{9:pause}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0001:0001:]",
+    "3": "[Color #373737]",
+    "4": "[0006:0001:14 00]",
+    "5": "[Color #373737]",
+    "6": "[0004:0001:]",
+    "7": "[0006:0000:28 00]",
+    "8": "[0004:0001:]",
+    "9": "[0002:0000:0A 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_challenge_01#38",
+   "label": "MES_KCharenge_01_Kcharenge_mini_18_up",
+   "style": 6,
+   "src": "キミ達",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/i_challenge_01#67"
+   ]
+  },
+  {
+   "id": "FMsg/i_challenge_01#39",
+   "label": "MES_KCharenge_01_Kcharenge_mini_02_down",
+   "style": 7,
+   "src": "{1:mode}{2:color}コレステチューブ{3:color}{4:color}！{5:wait}{6:color}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[Color #2C64FF]",
+    "3": "[Color #373737]",
+    "4": "[Color #373737]",
+    "5": "[0002:0001:]",
+    "6": "[Color #373737]"
+   },
+   "header": "[0009:0000:07 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_challenge_01#40",
+   "label": "MES_KCharenge_01_Kcharenge_btl_23_down",
+   "style": 5,
+   "src": "なさけないびん…{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:05 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_challenge_01#42",
+   "label": "MES_KCharenge_01_Kcharenge_btl_18_up",
+   "style": 6,
+   "src": "すっごくカッコイイ トロフィーや\n賞品が プレゼントされるび～ん！",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_challenge_01#43",
+   "label": "MES_KCharenge_01_Kcharenge_mini_14_down",
+   "style": 5,
+   "src": "ひやかしは ごめんだびん！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:05 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_challenge_01#44",
+   "label": "MES_KCharenge_01_Kcharenge_mini_13_up",
+   "style": 6,
+   "src": "そ… そうびんか…",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_challenge_01#45",
+   "label": "MES_KCharenge_01_Kcharenge_btl_20_down",
+   "style": 6,
+   "src": "{1:mode}{2:align}{3:color}{4:indent}{5:color}{6:choice}しません{7:tab}{8:choice}チャレンジします{9:pause}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[0001:0001:]",
+    "3": "[Color #373737]",
+    "4": "[0006:0001:14 00]",
+    "5": "[Color #373737]",
+    "6": "[0004:0001:]",
+    "7": "[0006:0000:28 00]",
+    "8": "[0004:0001:]",
+    "9": "[0002:0000:0A 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_challenge_01#46",
+   "label": "MES_KCharenge_01_Kcharenge_btl_13_up",
+   "style": 5,
+   "src": "ほうほう…",
+   "tags": {},
+   "header": "[0009:0000:05 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_challenge_01#47",
+   "label": "MES_KCharenge_01_Kcharenge_btl_18_down",
+   "style": 6,
+   "src": "な なんと～！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_challenge_01#48",
+   "label": "MES_KCharenge_01_Kcharenge_mini_09_up",
+   "style": 6,
+   "src": "大量のコインや ごうか賞品が\nプレゼントされるび～ん！",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_challenge_01#49",
+   "label": "MES_KCharenge_01_Kcharenge_mini_11_down",
+   "style": 6,
+   "src": "{1:mode}{2:align}{3:color}{4:indent}{5:color}{6:choice}入りません{7:tab}{8:choice}入ります{9:pause}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[0001:0001:]",
+    "3": "[Color #373737]",
+    "4": "[0006:0001:14 00]",
+    "5": "[Color #373737]",
+    "6": "[0004:0001:]",
+    "7": "[0006:0000:28 00]",
+    "8": "[0004:0001:]",
+    "9": "[0002:0000:0A 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_challenge_01#50",
+   "label": "MES_KCharenge_01_Kcharenge_btl_03_down",
+   "style": 6,
+   "src": "{1:align}体と{2:wait}[Next]{3:align}こころを{4:wait}",
+   "tags": {
+    "1": "[0001:0001:]",
+    "2": "[0002:0001:]",
+    "3": "[0001:0001:]",
+    "4": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_challenge_01#51",
+   "label": "MES_KCharenge_01_Kcharenge_99blk_03_a",
+   "style": 6,
+   "src": "{1:align}{2:align}おめでとうだびん！{3:wait}[Next]{4:align}約束どおり キミ達の\n持っているコインを {5:color}２{6:color}{7:color}倍に\nしてあげるびんよ！{8:wait}[Next]ちなみに このごほうびは\nこれ１回きりびん。\n今すぐ {9:color}{10:color}２{11:color}{12:color}倍にしたいびん？{13:wait}[Next]それとも もう少しコインをためてから\n{14:color}{15:color}２{16:color}{17:color}倍にするびん？{18:pause}\n{19:align}{20:choice}後で２倍{21:tab}{22:choice}今すぐ２倍{23:pause}{24:color}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0001:]",
+    "4": "[0001:0000:]",
+    "5": "[Color #2C64FF]",
+    "6": "[Color #373737]",
+    "7": "[Color #373737]",
+    "8": "[0002:0001:]",
+    "9": "[Color #373737]",
+    "10": "[Color #2C64FF]",
+    "11": "[Color #373737]",
+    "12": "[Color #373737]",
+    "13": "[0002:0001:]",
+    "14": "[Color #373737]",
+    "15": "[Color #2C64FF]",
+    "16": "[Color #373737]",
+    "17": "[Color #373737]",
+    "18": "[0002:0000:0A 00]",
+    "19": "[0001:0001:]",
+    "20": "[0004:0001:]",
+    "21": "[0006:0000:28 00]",
+    "22": "[0004:0001:]",
+    "23": "[0002:0000:0A 00]",
+    "24": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_challenge_01#52",
+   "label": "MES_KCharenge_01_Kcharenge_mini_11_up",
+   "style": 6,
+   "src": "入ってみませんか？ びん？",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_challenge_01#53",
+   "label": "MES_KCharenge_01_Kcharenge_99blk_03_b",
+   "style": 6,
+   "src": "ザ・ブロック９９の ごほうびは\n持っているコインの{1:color}２{2:color}{3:color}倍！\n今すぐ {4:color}{5:color}２{6:color}{7:color}倍にしたいびん？{8:wait}[Next]それとも もう少しコインをためてから\n{9:color}{10:color}２{11:color}{12:color}倍にするびん？{13:pause}\n{14:align}{15:choice}後で２倍{16:tab}{17:choice}今すぐ２倍{18:pause}{19:color}",
+   "tags": {
+    "1": "[Color #2C64FF]",
+    "2": "[Color #373737]",
+    "3": "[Color #373737]",
+    "4": "[Color #373737]",
+    "5": "[Color #2C64FF]",
+    "6": "[Color #373737]",
+    "7": "[Color #373737]",
+    "8": "[0002:0001:]",
+    "9": "[Color #373737]",
+    "10": "[Color #2C64FF]",
+    "11": "[Color #373737]",
+    "12": "[Color #373737]",
+    "13": "[0002:0000:0A 00]",
+    "14": "[0001:0001:]",
+    "15": "[0004:0001:]",
+    "16": "[0006:0000:28 00]",
+    "17": "[0004:0001:]",
+    "18": "[0002:0000:0A 00]",
+    "19": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_challenge_01#54",
+   "label": "MES_KCharenge_01_Kcharenge_99blk_03_c",
+   "style": 6,
+   "src": "本当に 今すぐ{1:color}２{2:color}{3:color}倍にするびん？{4:pause}\n{5:align}{6:indent}{7:choice}やっぱり後で…{8:tab}{9:choice}今すぐ２倍！{10:pause}{11:color}",
+   "tags": {
+    "1": "[Color #2C64FF]",
+    "2": "[Color #373737]",
+    "3": "[Color #373737]",
+    "4": "[0002:0000:0A 00]",
+    "5": "[0001:0001:]",
+    "6": "[0006:0001:14 00]",
+    "7": "[0004:0001:]",
+    "8": "[0006:0000:28 00]",
+    "9": "[0004:0001:]",
+    "10": "[0002:0000:0A 00]",
+    "11": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_challenge_01#56",
+   "label": "MES_KCharenge_01_Kcharenge_mini_08_down",
+   "style": 6,
+   "src": "出せたら？{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_challenge_01#57",
+   "label": "MES_KCharenge_01_Kcharenge_btl_15_down",
+   "style": 7,
+   "src": "あり！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:07 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_challenge_01#58",
+   "label": "MES_KCharenge_01_Kcharenge_btl_new4_up",
+   "style": 6,
+   "src": "圧倒的な パワー！\n圧倒的な スピード！",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_challenge_01#59",
+   "label": "MES_KCharenge_01_Kcharenge_mini_04_up",
+   "style": 6,
+   "src": "この先にいる {1:color}コレステロン{2:color}{3:color}達を\nお得意の アタックで…{4:wait}[Next]{5:align}{6:align}どこまでも…{7:wait}[Next]{8:align}{9:align}とことん…{10:wait}[Next]{11:align}{12:align}バッサバッサと…{13:wait}[Next]{14:align}{15:align}倒しまくれるびん！{16:wait}{17:color}",
+   "tags": {
+    "1": "[Color #2C64FF]",
+    "2": "[Color #373737]",
+    "3": "[Color #373737]",
+    "4": "[0002:0001:]",
+    "5": "[0001:0004:]",
+    "6": "[0001:0001:]",
+    "7": "[0002:0001:]",
+    "8": "[0001:0004:]",
+    "9": "[0001:0001:]",
+    "10": "[0002:0001:]",
+    "11": "[0001:0004:]",
+    "12": "[0001:0001:]",
+    "13": "[0002:0001:]",
+    "14": "[0001:0004:]",
+    "15": "[0001:0001:]",
+    "16": "[0002:0001:]",
+    "17": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_challenge_01#60",
+   "label": "MES_KCharenge_01_Kcharenge_btl_01_down",
+   "style": 7,
+   "src": "{1:mode}チャレンジホールへ！{2:wait}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:07 00]",
+   "dups": [
+    "FMsg/i_challenge_01#116"
+   ]
+  },
+  {
+   "id": "FMsg/i_challenge_01#62",
+   "label": "MES_KCharenge_01_Kcharenge_99blk_01_a",
+   "style": 7,
+   "src": "{1:mode}{2:align}{3:align}ザ・ブロック{4:color}９９{5:color}{6:color}{7:font}{8:pause}{9:wait}[Next]{10:align}左側に浮いているブロック…\nさーて ２人で何回まで\n叩き続けられるびん？{11:wait}[Next]もし{12:font}{13:color}{14:font}{15:color}９９{16:color}{17:color}回まで 叩き続けられたら\n今もっているコインを なんと！\n{18:color}{19:color}２{20:color}{21:color}倍にしてあげるびん！{22:wait}{23:color}{24:font}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[0001:0004:]",
+    "3": "[0001:0001:]",
+    "4": "[Color #2C64FF]",
+    "5": "[Color #373737]",
+    "6": "[Color #373737]",
+    "7": "[0000:0001:01 00]",
+    "8": "[0002:0000:0F 00]",
+    "9": "[0002:0001:]",
+    "10": "[0001:0000:]",
+    "11": "[0002:0001:]",
+    "12": "[0000:0001:FF FF]",
+    "13": "[Color #373737]",
+    "14": "[0000:0001:01 00]",
+    "15": "[Color #2C64FF]",
+    "16": "[Color #373737]",
+    "17": "[Color #373737]",
+    "18": "[Color #373737]",
+    "19": "[Color #2C64FF]",
+    "20": "[Color #373737]",
+    "21": "[Color #373737]",
+    "22": "[0002:0001:]",
+    "23": "[Color #373737]",
+    "24": "[0000:0001:FF FF]"
+   },
+   "header": "[0009:0000:07 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_challenge_01#63",
+   "label": "MES_KCharenge_01_Kcharenge_btl_24_up",
+   "style": 7,
+   "src": "{1:mode}ようこそ！{2:pause}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[0002:0000:05 00]"
+   },
+   "header": "[0009:0000:07 00]",
+   "dups": [
+    "FMsg/i_challenge_01#71",
+    "FMsg/i_challenge_01#93",
+    "FMsg/i_challenge_01#99"
+   ]
+  },
+  {
+   "id": "FMsg/i_challenge_01#64",
+   "label": "MES_KCharenge_01_Kcharenge_99blk_01_b",
+   "style": 7,
+   "src": "{1:mode}{2:align}{3:align}ザ・ブロック{4:color}９９{5:color}{6:color}{7:font}{8:pause}{9:wait}[Next]{10:align}左側に浮いているブロック…\nさーて ２人で何回まで\n叩き続けられるびん？{11:wait}[Next]もし{12:font}{13:color}{14:font}{15:color}９９{16:color}{17:color}回まで 叩き続けられたら\n今もっているコインを なんと！\n{18:color}{19:color}２{20:color}{21:color}倍にしてあげるびん！{22:wait}[Next]{23:align}ちなみに これまでの\n最高記録は {24:var}回だびん！{25:wait}{26:color}{27:font}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[0001:0004:]",
+    "3": "[0001:0001:]",
+    "4": "[Color #2C64FF]",
+    "5": "[Color #373737]",
+    "6": "[Color #373737]",
+    "7": "[0000:0001:01 00]",
+    "8": "[0002:0000:0F 00]",
+    "9": "[0002:0001:]",
+    "10": "[0001:0000:]",
+    "11": "[0002:0001:]",
+    "12": "[0000:0001:FF FF]",
+    "13": "[Color #373737]",
+    "14": "[0000:0001:01 00]",
+    "15": "[Color #2C64FF]",
+    "16": "[Color #373737]",
+    "17": "[Color #373737]",
+    "18": "[Color #373737]",
+    "19": "[Color #2C64FF]",
+    "20": "[Color #373737]",
+    "21": "[Color #373737]",
+    "22": "[0002:0001:]",
+    "23": "[0001:0004:]",
+    "24": "[0003:0000:00 00 02 00 00 00]",
+    "25": "[0002:0001:]",
+    "26": "[Color #373737]",
+    "27": "[0000:0001:FF FF]"
+   },
+   "header": "[0009:0000:07 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_challenge_01#65",
+   "label": "MES_KCharenge_01_Kcharenge_mini_06_down",
+   "style": 7,
+   "src": "{1:mode}チャレンジ！{2:pause}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[0002:0000:28 00]"
+   },
+   "header": "[0009:0000:07 00]",
+   "dups": [
+    "FMsg/i_challenge_01#84"
+   ]
+  },
+  {
+   "id": "FMsg/i_challenge_01#66",
+   "label": "MES_KCharenge_01_Kcharenge_btl_04_up",
+   "style": 6,
+   "src": "……………",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/i_challenge_01#98"
+   ]
+  },
+  {
+   "id": "FMsg/i_challenge_01#68",
+   "label": "MES_KCharenge_01_Kcharenge_mini_20_down",
+   "style": 7,
+   "src": "{1:mode}たりないびん！{2:pause}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[0002:0000:32 00]"
+   },
+   "header": "[0009:0000:07 00]",
+   "dups": [
+    "FMsg/i_challenge_01#117"
+   ]
+  },
+  {
+   "id": "FMsg/i_challenge_01#69",
+   "label": "MES_KCharenge_01_Kcharenge_btl_12_down",
+   "style": 6,
+   "src": "どうやら バトルの経験を{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_challenge_01#70",
+   "label": "MES_KCharenge_01_Kcharenge_mini_02_up",
+   "style": 6,
+   "src": "{1:mode}このゲートの先は…{2:pause}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[0002:0000:05 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/i_challenge_01#75"
+   ]
+  },
+  {
+   "id": "FMsg/i_challenge_01#72",
+   "label": "MES_KCharenge_01_Kcharenge_mini_17_down",
+   "style": 6,
+   "src": "……………{1:pause}",
+   "tags": {
+    "1": "[0002:0000:28 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/i_challenge_01#85"
+   ]
+  },
+  {
+   "id": "FMsg/i_challenge_01#73",
+   "label": "MES_KCharenge_01_Kcharenge_mini_03_down",
+   "style": 6,
+   "src": "{1:mode}{2:color}コレステロン{3:color}{4:color}の すみかだびん！{5:wait}{6:color}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[Color #2C64FF]",
+    "3": "[Color #373737]",
+    "4": "[Color #373737]",
+    "5": "[0002:0001:]",
+    "6": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_challenge_01#74",
+   "label": "MES_KCharenge_01_Kcharenge_btl_24_down",
+   "style": 7,
+   "src": "{1:mode}{2:color}バトルコロシアム{3:color}{4:color}へ！{5:wait}{6:color}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[Color #2C64FF]",
+    "3": "[Color #373737]",
+    "4": "[Color #373737]",
+    "5": "[0002:0001:]",
+    "6": "[Color #373737]"
+   },
+   "header": "[0009:0000:07 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_challenge_01#76",
+   "label": "MES_KCharenge_01_Kcharenge_btl_10_down",
+   "style": 6,
+   "src": "この {1:color}バトルコロシアム{2:color}{3:color}には\n入れないびん！{4:wait}{5:color}",
+   "tags": {
+    "1": "[Color #2C64FF]",
+    "2": "[Color #373737]",
+    "3": "[Color #373737]",
+    "4": "[0002:0001:]",
+    "5": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_challenge_01#77",
+   "label": "MES_KCharenge_01_Kcharenge_btl_15_up",
+   "style": 6,
+   "src": "キミ達は この先\n{1:color}バトルコロシアム{2:color}{3:color}に 入るしかく{4:color}",
+   "tags": {
+    "1": "[Color #2C64FF]",
+    "2": "[Color #373737]",
+    "3": "[Color #373737]",
+    "4": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_challenge_01#78",
+   "label": "MES_KCharenge_01_Kcharenge_mini_15_down",
+   "style": 7,
+   "src": "{1:mode}{2:color}コレステチューブ{3:color}{4:color}へ！{5:wait}{6:color}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[Color #2C64FF]",
+    "3": "[Color #373737]",
+    "4": "[Color #373737]",
+    "5": "[0002:0001:]",
+    "6": "[Color #373737]"
+   },
+   "header": "[0009:0000:07 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_challenge_01#79",
+   "label": "MES_KCharenge_01_Kcharenge_btl_07_down",
+   "style": 5,
+   "src": "まだまだ{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:05 00]",
+   "dups": [
+    "FMsg/i_challenge_01#109"
+   ]
+  },
+  {
+   "id": "FMsg/i_challenge_01#80",
+   "label": "MES_KCharenge_01_Kcharenge_btl_28_up",
+   "style": 6,
+   "src": "さて… やるかやられるかの\nバトルに チャレンジするびん？",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_challenge_01#81",
+   "label": "MES_KCharenge_01_Kcharenge_mini_10_up",
+   "style": 6,
+   "src": "さあ！ こんなに みりょく的な\n{1:color}コレステチューブ{2:color}{3:color}に…{4:color}",
+   "tags": {
+    "1": "[Color #2C64FF]",
+    "2": "[Color #373737]",
+    "3": "[Color #373737]",
+    "4": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_challenge_01#82",
+   "label": "MES_KCharenge_01_Kcharenge_btl_10_up",
+   "style": 6,
+   "src": "もっと強いモンスターと 戦って\nバトルの経験を つまないと…",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_challenge_01#83",
+   "label": "MES_KCharenge_01_Kcharenge_btl_19_down",
+   "style": 6,
+   "src": "さあ！ 自分の技と\n体力の限界に…{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_challenge_01#86",
+   "label": "MES_KCharenge_01_Kcharenge_btl_new3_down",
+   "style": 6,
+   "src": "そいつは すごそうだ！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_challenge_01#87",
+   "label": "MES_KCharenge_01_Kcharenge_btl_26_up",
+   "style": 6,
+   "src": "その敵と やるかやられるかの\nバトルに チャレンジするびん？",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_challenge_01#88",
+   "label": "MES_KCharenge_01_Kcharenge_btl_06_up",
+   "style": 7,
+   "src": "おっとっと！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:07 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_challenge_01#89",
+   "label": "MES_KCharenge_01_Kcharenge_mini_09_down",
+   "style": 6,
+   "src": "す すごい！び～ん！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_challenge_01#90",
+   "label": "MES_KCharenge_01_Kcharenge_mini_21_up",
+   "style": 6,
+   "src": "バトルで ブラザーアタックを使って\nアタックの うでをみがかないと…",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_challenge_01#91",
+   "label": "MES_KCharenge_01_Kcharenge_btl_16_down",
+   "style": 6,
+   "src": "さらなる 強いモンスターを\n作り出すびん！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_challenge_01#92",
+   "label": "MES_KCharenge_01_Kcharenge_btl_new1_up",
+   "style": 6,
+   "src": "さらに！",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_challenge_01#94",
+   "label": "MES_KCharenge_01_Kcharenge_btl_02_down",
+   "style": 7,
+   "src": "{1:mode}{2:color}バトルコロシアム{3:color}{4:color}！{5:wait}{6:color}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[Color #2C64FF]",
+    "3": "[Color #373737]",
+    "4": "[Color #373737]",
+    "5": "[0002:0001:]",
+    "6": "[Color #373737]"
+   },
+   "header": "[0009:0000:07 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_challenge_01#95",
+   "label": "MES_KCharenge_01_Kcharenge_btl_new1_down",
+   "style": 6,
+   "src": "さらに～！？{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_challenge_01#96",
+   "label": "MES_KCharenge_01_Kcharenge_btl_21_up",
+   "style": 7,
+   "src": "{1:mode}グッドラック！{2:pause}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[0002:0000:1E 00]"
+   },
+   "header": "[0009:0000:07 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_challenge_01#97",
+   "label": "MES_KCharenge_01_Kcharenge_mini_07_down",
+   "style": 7,
+   "src": "{1:mode}びん！{2:pause}{3:wait}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[0002:0000:14 00]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:07 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_challenge_01#100",
+   "label": "MES_KCharenge_01_Kcharenge_info_01",
+   "style": 6,
+   "src": "{1:align}{2:align}おや？ 見かけない顔びんね…{3:wait}[Next]{4:align}キミ達も この{5:color}チャレンジホール{6:color}{7:color}で\n自分の限界に チャレンジするびん？{8:wait}{9:color}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0001:]",
+    "4": "[0001:0000:]",
+    "5": "[Color #2C64FF]",
+    "6": "[Color #373737]",
+    "7": "[Color #373737]",
+    "8": "[0002:0001:]",
+    "9": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_challenge_01#101",
+   "label": "MES_KCharenge_01_Kcharenge_mini_21_down",
+   "style": 6,
+   "src": "この {1:color}コレステチューブ{2:color}{3:color}に\n入るのは 危険だびん！{4:wait}{5:color}",
+   "tags": {
+    "1": "[Color #2C64FF]",
+    "2": "[Color #373737]",
+    "3": "[Color #373737]",
+    "4": "[0002:0001:]",
+    "5": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_challenge_01#102",
+   "label": "MES_KCharenge_01_Kcharenge_btl_13_down",
+   "style": 6,
+   "src": "つんできたみたいだびんね！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_challenge_01#103",
+   "label": "MES_KCharenge_01_Kcharenge_info_02",
+   "style": 6,
+   "src": "ふふふふ…\nここは他の場所とは ちがうびん。{1:wait}[Next]くわしいことは この下にいる\n他のやつらに 聞くといいびん。{2:wait}[Next]下から叩いて 話しかければ\n楽しいこと 教えてくれるびん！{3:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_challenge_01#104",
+   "label": "MES_KCharenge_01_Kcharenge_btl_17_up",
+   "style": 6,
+   "src": "そして そのモンスターとバトルして\n見事 倒せたら…",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_challenge_01#105",
+   "label": "MES_KCharenge_01_Kcharenge_info_03",
+   "style": 6,
+   "src": "{1:mode}チャレンジホール ニュース！{2:wait}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/i_kinopio_01#43"
+   ]
+  },
+  {
+   "id": "FMsg/i_challenge_01#106",
+   "label": "MES_KCharenge_01_Kcharenge_info_04",
+   "style": 6,
+   "src": "{1:align}～ コレステチューブ ～\n{2:align}新しいチャレンジが ふえたびん！{3:wait}[Next]{4:align}{5:align}さっそく 行ってみるびん！{6:wait}",
+   "tags": {
+    "1": "[0001:0001:]",
+    "2": "[0001:0000:]",
+    "3": "[0002:0001:]",
+    "4": "[0001:0004:]",
+    "5": "[0001:0001:]",
+    "6": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/i_kinopio_01#44"
+   ]
+  },
+  {
+   "id": "FMsg/i_challenge_01#107",
+   "label": "MES_KCharenge_01_Kcharenge_info_05",
+   "style": 6,
+   "src": "{1:align}～ バトルコロシアム ～\n{2:align}新しいクラスが ふえたびん！{3:wait}[Next]{4:align}{5:align}さっそく 行ってみるびん！{6:wait}",
+   "tags": {
+    "1": "[0001:0001:]",
+    "2": "[0001:0000:]",
+    "3": "[0002:0001:]",
+    "4": "[0001:0004:]",
+    "5": "[0001:0001:]",
+    "6": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/i_kinopio_01#45"
+   ]
+  },
+  {
+   "id": "FMsg/i_challenge_01#108",
+   "label": "MES_KCharenge_01_Kcharenge_mini_12_up",
+   "style": 7,
+   "src": "{1:mode}レッツゴー！{2:pause}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[0002:0000:1E 00]"
+   },
+   "header": "[0009:0000:07 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_challenge_01#110",
+   "label": "MES_KCharenge_01_Kcharenge_info_06",
+   "style": 6,
+   "src": "{1:align}～ コレステチューブ ～\n{2:align}新しいチャレンジが ふえたびん！{3:wait}[Next]{4:align}～ バトルコロシアム ～\n{5:align}新しいクラスが ふえたびん！{6:wait}[Next]{7:align}{8:align}さっそく 行ってみるびん！{9:wait}",
+   "tags": {
+    "1": "[0001:0001:]",
+    "2": "[0001:0000:]",
+    "3": "[0002:0001:]",
+    "4": "[0001:0001:]",
+    "5": "[0001:0000:]",
+    "6": "[0002:0001:]",
+    "7": "[0001:0004:]",
+    "8": "[0001:0001:]",
+    "9": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/i_kinopio_01#46"
+   ]
+  },
+  {
+   "id": "FMsg/i_challenge_01#111",
+   "label": "MES_KCharenge_01_Kcharenge_mini_04_down",
+   "style": 5,
+   "src": "{1:mode}「{2:color}コレステロン{3:color}{4:color}」\nブヨブヨした 脂肪だらけのやつ。\nかんたんに倒せるが かずがおおい。{5:color}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[Color #2C64FF]",
+    "3": "[Color #373737]",
+    "4": "[Color #373737]",
+    "5": "[Color #373737]"
+   },
+   "header": "[0009:0000:05 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_challenge_01#112",
+   "label": "MES_KCharenge_01_Kcharenge_btl_12_up",
+   "style": 5,
+   "src": "ふんふん…",
+   "tags": {},
+   "header": "[0009:0000:05 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_challenge_01#113",
+   "label": "MES_KCharenge_01_Kcharenge_mini_08_up",
+   "style": 6,
+   "src": "しかも！ このチャレンジで\n見事な スコアを出せたら…",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_challenge_01#114",
+   "label": "MES_KCharenge_01_Kcharenge_btl_08_down",
+   "style": 5,
+   "src": "ぜーんぜん{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:05 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_challenge_01#115",
+   "label": "MES_KCharenge_01_Kcharenge_btl_25_up",
+   "style": 6,
+   "src": "キミ達のきおくを 読み取って\nさらなる 強い敵を作り出すびん！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_challenge_01#118",
+   "label": "MES_KCharenge_01_Kcharenge_btl_22_down",
+   "style": 5,
+   "src": "ありえないびん…{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:05 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_challenge_01#119",
+   "label": "MES_KCharenge_01_Kcharenge_99blk_02",
+   "style": 6,
+   "src": "{1:mode}ザ・ブロック９９ 成功だび～ん！{2:pause}{3:wait}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[0002:0000:3C 00]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_challenge_01#120",
+   "label": "MES_KCharenge_01_Kcharenge_btl_08_up",
+   "style": 6,
+   "src": "ここでバトルするには",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  }
+ ]
+}

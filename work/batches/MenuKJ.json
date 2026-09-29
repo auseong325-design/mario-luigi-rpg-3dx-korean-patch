@@ -1,0 +1,1894 @@
+{
+ "batch": "MenuKJ",
+ "rooms": [
+  "MenuKJ"
+ ],
+ "ds_rooms": [],
+ "ds_reference": [],
+ "glossary": [
+  {
+   "jp": "クッパ",
+   "ko": "쿠파",
+   "type": "character",
+   "basis": "DS",
+   "source": "BData__mfset_Help#21",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "クッパJr.",
+   "ko": "쿠파주니어",
+   "type": "character",
+   "basis": "official",
+   "source": "https://www.nintendo.com/kr/switch/aabpa/sp/character/",
+   "note": "한국닌텐도 공식 표기(마리오 카트 8 디럭스 등). 부하들이 부를 때는 '쿠파주니어님' [gl_kj]"
+  },
+  {
+   "jp": "ルドウィッグ",
+   "ko": "루드윅",
+   "type": "character",
+   "basis": "official",
+   "source": "https://www.nintendo.com/kr/switch/aabpa/sp/character/",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "ロイ",
+   "ko": "로이",
+   "type": "character",
+   "basis": "official",
+   "source": "https://www.nintendo.com/kr/switch/aabpa/sp/character/",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "７人衆",
+   "ko": "7인조",
+   "type": "character",
+   "basis": "official",
+   "source": "https://namu.wiki/w/%EC%BF%A0%ED%8C%8C%207%EC%9D%B8%EC%A1%B0",
+   "note": "「アタシ達 ７人衆」→'우리 7인조' [gl_kj]"
+  },
+  {
+   "jp": "クリボー",
+   "ko": "굼바",
+   "type": "enemy",
+   "basis": "DS",
+   "source": "BAI__BMes_cf:0#1",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "テレサ",
+   "ko": "부끄부끄",
+   "type": "enemy",
+   "basis": "DS",
+   "source": "FEvent:063#44",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "ヘイホー",
+   "ko": "헤이호",
+   "type": "enemy",
+   "basis": "DS",
+   "source": "FEvent:048#35",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "クラス",
+   "ko": "클래스",
+   "type": "other",
+   "basis": "DS",
+   "source": "FEvent#28A.97",
+   "note": "배틀 콜로세움의 단계 [gl_attacks]"
+  },
+  {
+   "jp": "クッパ城",
+   "ko": "쿠파 성",
+   "type": "place",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesPlace#6",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "ビーチ",
+   "ko": "비치",
+   "type": "place",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesOutline#27",
+   "note": "ムッシーバビーチ를 줄여 부를 때 [gl_menu_places]"
+  },
+  {
+   "jp": "ムッシーバ",
+   "ko": "이아파",
+   "type": "place",
+   "basis": "DS",
+   "source": "MData__mfset_MenuMes#15",
+   "note": "ムッシーバビーチ 약칭(ムッシーバパーツ=이아파 피스) [gl_menu_places]"
+  },
+  {
+   "jp": "ムッシーバビーチ",
+   "ko": "이아파 비치",
+   "type": "place",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesPlace#4",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "LP",
+   "ko": "LP",
+   "type": "term",
+   "basis": "official",
+   "source": "https://namu.wiki/w/%EB%A7%88%EB%A6%AC%EC%98%A4%26%EB%A3%A8%EC%9D%B4%EC%A7%80%20RPG%201%20DX",
+   "note": "RPG1 DX 한국판 [gl_kj]"
+  },
+  {
+   "jp": "えんきょり",
+   "ko": "원거리",
+   "type": "term",
+   "basis": "official",
+   "source": "https://namu.wiki/w/%EB%A7%88%EB%A6%AC%EC%98%A4%26%EB%A3%A8%EC%9D%B4%EC%A7%80%20RPG%201%20DX",
+   "note": "타입명 단독 [gl_kj]"
+  },
+  {
+   "jp": "えんきょりタイプ",
+   "ko": "원거리 타입",
+   "type": "term",
+   "basis": "official",
+   "source": "https://namu.wiki/w/%EB%A7%88%EB%A6%AC%EC%98%A4%26%EB%A3%A8%EC%9D%B4%EC%A7%80%20RPG%201%20DX",
+   "note": "RPG1 DX 한국판 타입명 [gl_kj]"
+  },
+  {
+   "jp": "とつげき",
+   "ko": "돌격",
+   "type": "term",
+   "basis": "official",
+   "source": "https://namu.wiki/w/%EB%A7%88%EB%A6%AC%EC%98%A4%26%EB%A3%A8%EC%9D%B4%EC%A7%80%20RPG%201%20DX",
+   "note": "타입명 단독 [gl_kj]"
+  },
+  {
+   "jp": "とつげきタイプ",
+   "ko": "돌격 타입",
+   "type": "term",
+   "basis": "official",
+   "source": "https://namu.wiki/w/%EB%A7%88%EB%A6%AC%EC%98%A4%26%EB%A3%A8%EC%9D%B4%EC%A7%80%20RPG%201%20DX",
+   "note": "RPG1 DX 한국판 쿠파군단 RPG 타입명 [gl_kj]"
+  },
+  {
+   "jp": "ひこう",
+   "ko": "비행",
+   "type": "term",
+   "basis": "official",
+   "source": "https://namu.wiki/w/%EB%A7%88%EB%A6%AC%EC%98%A4%26%EB%A3%A8%EC%9D%B4%EC%A7%80%20RPG%201%20DX",
+   "note": "타입명 단독 [gl_kj]"
+  },
+  {
+   "jp": "ひこうタイプ",
+   "ko": "비행 타입",
+   "type": "term",
+   "basis": "official",
+   "source": "https://namu.wiki/w/%EB%A7%88%EB%A6%AC%EC%98%A4%26%EB%A3%A8%EC%9D%B4%EC%A7%80%20RPG%201%20DX",
+   "note": "RPG1 DX 한국판 타입명 [gl_kj]"
+  },
+  {
+   "jp": "ぼっちゃん",
+   "ko": "도련님",
+   "type": "term",
+   "basis": "coined",
+   "source": "MenuKJ#93",
+   "note": "마귀·쿠파 7인조·부하들이 쿠파주니어를 부르는 말. DS에 없음 [gl_kj]"
+  },
+  {
+   "jp": "サブリーダー",
+   "ko": "서브 리더",
+   "type": "term",
+   "basis": "coined",
+   "source": "MenuKJ#71",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "スキル",
+   "ko": "스킬",
+   "type": "term",
+   "basis": "coined",
+   "source": "MenuKJ#76",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "チャレンジ",
+   "ko": "챌린지",
+   "type": "term",
+   "basis": "DS",
+   "source": "FEvent#28A.60",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "バトル",
+   "ko": "배틀",
+   "type": "term",
+   "basis": "DS",
+   "source": "BAI__BMes_cf#2.13",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "マメ",
+   "ko": "콩",
+   "type": "term",
+   "basis": "DS",
+   "source": "MData__mfset_MenuMes#136",
+   "note": "DS '콩이라는 아이템', '획득한 콩의 수' [gl_items]"
+  },
+  {
+   "jp": "メンバー",
+   "ko": "멤버",
+   "type": "term",
+   "basis": "coined",
+   "source": "MenuKJ#93",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "リーダー",
+   "ko": "리더",
+   "type": "term",
+   "basis": "official",
+   "source": "https://namu.wiki/w/%EB%A7%88%EB%A6%AC%EC%98%A4%26%EB%A3%A8%EC%9D%B4%EC%A7%80%20RPG%201%20DX",
+   "note": "RPG1 DX 한국판 'LP(리더 포인트)' [gl_kj]"
+  },
+  {
+   "jp": "レベル",
+   "ko": "레벨",
+   "type": "term",
+   "basis": "DS",
+   "source": "FEvent#16A.19",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "仲間",
+   "ko": "동료",
+   "type": "term",
+   "basis": "DS",
+   "source": "FEvent:048#29",
+   "note": "「仲間になった」→'동료가 되었다' [gl_kj]"
+  },
+  {
+   "jp": "軍団",
+   "ko": "군단",
+   "type": "term",
+   "basis": "DS",
+   "source": "BAI__BMes_cf#0.20",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "配置",
+   "ko": "배치",
+   "type": "term",
+   "basis": "coined",
+   "source": "MenuKJ#50",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "STARTボタン",
+   "ko": "START 버튼",
+   "type": "ui",
+   "basis": "DS",
+   "source": "MAI__MMes_yo#1.28",
+   "note": "[gl_menu_places]"
+  },
+  {
+   "jp": "えんきょり隊",
+   "ko": "원거리대",
+   "type": "ui",
+   "basis": "coined",
+   "source": "MenuKJ#73",
+   "note": "파티 이름 [gl_kj]"
+  },
+  {
+   "jp": "おわかれ",
+   "ko": "작별",
+   "type": "ui",
+   "basis": "coined",
+   "source": "BMsg/b_sys:KJGuide_O06",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "くわしく",
+   "ko": "자세히",
+   "type": "ui",
+   "basis": "coined",
+   "source": "MenuKJ#43",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "ぐんだんメニュー",
+   "ko": "군단 메뉴",
+   "type": "ui",
+   "basis": "coined",
+   "source": "BMsg/b_sys:KJGuide_O03",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "ぐんだんメニューガイド",
+   "ko": "군단 메뉴 가이드",
+   "type": "ui",
+   "basis": "coined",
+   "source": "MenuKJ#8",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "こんせい隊",
+   "ko": "혼성대",
+   "type": "ui",
+   "basis": "coined",
+   "source": "MenuKJ#75",
+   "note": "파티 이름 [gl_kj]"
+  },
+  {
+   "jp": "とじる",
+   "ko": "닫기",
+   "type": "ui",
+   "basis": "DS",
+   "source": "MAI__MMes_yo#1.28",
+   "note": "[gl_menu_places]"
+  },
+  {
+   "jp": "とつげき隊",
+   "ko": "돌격대",
+   "type": "ui",
+   "basis": "coined",
+   "source": "MenuKJ#57",
+   "note": "파티 이름 [gl_kj]"
+  },
+  {
+   "jp": "はいちがえ",
+   "ko": "배치 변경",
+   "type": "ui",
+   "basis": "coined",
+   "source": "MenuKJ#58",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "ひこう隊",
+   "ko": "비행대",
+   "type": "ui",
+   "basis": "coined",
+   "source": "MenuKJ#63",
+   "note": "파티 이름 [gl_kj]"
+  },
+  {
+   "jp": "へんせい",
+   "ko": "편성",
+   "type": "ui",
+   "basis": "coined",
+   "source": "MenuKJ#61",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "むてきの",
+   "ko": "무적의",
+   "type": "ui",
+   "basis": "coined",
+   "source": "MenuKJ#4",
+   "note": "서브 리더 수식어(모톤) [gl_kj]"
+  },
+  {
+   "jp": "よろしいですか？",
+   "ko": "계속하시겠습니까?",
+   "type": "ui",
+   "basis": "DS",
+   "source": "MData__mfset_InitLoadMes#5",
+   "note": "삭제·덮어쓰기 확인 질문 [gl_menu_places]"
+  },
+  {
+   "jp": "わるがしこい",
+   "ko": "교활한",
+   "type": "ui",
+   "basis": "coined",
+   "source": "MenuKJ#25",
+   "note": "서브 리더 수식어(마귀) [gl_kj]"
+  },
+  {
+   "jp": "アイテム",
+   "ko": "아이템",
+   "type": "ui",
+   "basis": "DS",
+   "source": "BData__mfset_Help#13",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "オトメな",
+   "ko": "소녀 같은",
+   "type": "ui",
+   "basis": "coined",
+   "source": "MenuKJ#62",
+   "note": "서브 리더 수식어(웬디) [gl_kj]"
+  },
+  {
+   "jp": "ガイド",
+   "ko": "가이드",
+   "type": "ui",
+   "basis": "coined",
+   "source": "",
+   "note": "3DX 신규 커맨드 블록(배틀 가이드를 연다) [gl_attacks]"
+  },
+  {
+   "jp": "キャラクター",
+   "ko": "캐릭터",
+   "type": "ui",
+   "basis": "coined",
+   "source": "",
+   "note": "[gl_menu_places]"
+  },
+  {
+   "jp": "キャラクターおわかれ",
+   "ko": "캐릭터 작별",
+   "type": "ui",
+   "basis": "coined",
+   "source": "MenuKJ#67",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "クエスト",
+   "ko": "퀘스트",
+   "type": "ui",
+   "basis": "coined",
+   "source": "MenuKJ#97",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "クッパJr.RPG",
+   "ko": "쿠파주니어 RPG",
+   "type": "ui",
+   "basis": "coined",
+   "source": "MenuKJ#65",
+   "note": "RPG1 DX 한국판 'クッパ軍団RPG'→'쿠파군단 RPG' 방식(https://www.mariowiki.com/Minion_Quest:_The_Search_for_Bowser) [gl_kj]"
+  },
+  {
+   "jp": "クリア",
+   "ko": "클리어",
+   "type": "ui",
+   "basis": "coined",
+   "source": "",
+   "note": "[gl_menu_places]"
+  },
+  {
+   "jp": "コマンド",
+   "ko": "커맨드",
+   "type": "ui",
+   "basis": "DS",
+   "source": "BAI__BMes_cf#2.12",
+   "note": "[gl_menu_places]"
+  },
+  {
+   "jp": "ゴールド",
+   "ko": "골드",
+   "type": "ui",
+   "basis": "DS",
+   "source": "BData__mfset_RankUpE#10",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "サブリーダースキル",
+   "ko": "서브 리더 스킬",
+   "type": "ui",
+   "basis": "coined",
+   "source": "MenuKJ#76",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "シルバー",
+   "ko": "실버",
+   "type": "ui",
+   "basis": "DS",
+   "source": "BData__mfset_RankUpE#8",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "スピーディな",
+   "ko": "재빠른",
+   "type": "ui",
+   "basis": "coined",
+   "source": "MenuKJ#88",
+   "note": "서브 리더 수식어(레미) [gl_kj]"
+  },
+  {
+   "jp": "セーブ",
+   "ko": "저장",
+   "type": "ui",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesSys#9",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "セーブ中です。",
+   "ko": "저장 중입니다.",
+   "type": "ui",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesSys#11",
+   "note": "[gl_menu_places]"
+  },
+  {
+   "jp": "タイプがえ",
+   "ko": "타입 변경",
+   "type": "ui",
+   "basis": "coined",
+   "source": "MenuKJ#14",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "タッチ",
+   "ko": "터치",
+   "type": "ui",
+   "basis": "DS",
+   "source": "BData__mfset_AItmE#6",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "トリッキー",
+   "ko": "트리키한",
+   "type": "ui",
+   "basis": "coined",
+   "source": "MenuKJ#12",
+   "note": "서브 리더 수식어(이기) [gl_kj]"
+  },
+  {
+   "jp": "パワフル",
+   "ko": "파워풀",
+   "type": "ui",
+   "basis": "coined",
+   "source": "MenuKJ#60",
+   "note": "서브 리더 수식어(로이). DS '파워풀배지' 표기 [gl_kj]"
+  },
+  {
+   "jp": "パーティ",
+   "ko": "파티",
+   "type": "ui",
+   "basis": "coined",
+   "source": "MenuKJ#96",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "ブロンズ",
+   "ko": "브론즈",
+   "type": "ui",
+   "basis": "DS",
+   "source": "MData__mfset_MenuMes#121",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "プロフィール",
+   "ko": "프로필",
+   "type": "ui",
+   "basis": "coined",
+   "source": "BMsg/b_sys:KJGuide_O07",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "ボタン",
+   "ko": "버튼",
+   "type": "ui",
+   "basis": "DS",
+   "source": "MAI__MMes_yo#1.16",
+   "note": "[gl_menu_places]"
+  },
+  {
+   "jp": "マス",
+   "ko": "칸",
+   "type": "ui",
+   "basis": "coined",
+   "source": "MenuKJ#71",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "レコード",
+   "ko": "기록",
+   "type": "ui",
+   "basis": "coined",
+   "source": "MenuKJ#13",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "上画面",
+   "ko": "위 화면",
+   "type": "ui",
+   "basis": "DS",
+   "source": "BDataMiniGame__mfset_MesDat_MiniGame#9",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "下画面",
+   "ko": "아래 화면",
+   "type": "ui",
+   "basis": "DS",
+   "source": "BAI__BMes_cf:7#7",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "保存",
+   "ko": "저장",
+   "type": "ui",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesSys#9",
+   "note": "[gl_menu_places]"
+  },
+  {
+   "jp": "回数",
+   "ko": "횟수",
+   "type": "ui",
+   "basis": "coined",
+   "source": "",
+   "note": "기록 화면 [gl_menu_places]"
+  },
+  {
+   "jp": "必中の",
+   "ko": "백발백중",
+   "type": "ui",
+   "basis": "coined",
+   "source": "MenuKJ#59",
+   "note": "서브 리더 수식어(래리) [gl_kj]"
+  },
+  {
+   "jp": "知てきな",
+   "ko": "지적인",
+   "type": "ui",
+   "basis": "coined",
+   "source": "MenuKJ#26",
+   "note": "서브 리더 수식어(루드윅) [gl_kj]"
+  },
+  {
+   "jp": "軍団へんせい",
+   "ko": "군단 편성",
+   "type": "ui",
+   "basis": "coined",
+   "source": "MenuKJ#64",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "電源",
+   "ko": "전원",
+   "type": "ui",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesSys#15",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "電源をOFFにしないでください。",
+   "ko": "전원을 끄지 마십시오.",
+   "type": "ui",
+   "basis": "coined",
+   "source": "",
+   "note": "DS EMesSys#11 '전원을 끄거나 DS 카드를 뽑지 마십시오.'에서 카드 부분 제외 [gl_menu_places]"
+  }
+ ],
+ "messages": [
+  {
+   "id": "MenuKJ#0",
+   "label": "Menu_KJ_record_title_00",
+   "style": 6,
+   "src": "クエストクリア回数",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "MenuKJ#1",
+   "label": "Menu_KJ_manu_gide_17_00",
+   "style": 6,
+   "src": "前の列にいると苦手なとつげきタイプと\nすぐ戦うことになっちゃう。{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "MenuKJ#2",
+   "label": "Menu_KJ_record_title_01",
+   "style": 6,
+   "src": "バトルで勝った回数",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "MenuKJ#3",
+   "label": "Menu_KJ_record_title_02",
+   "style": 6,
+   "src": "やっつけた敵の数",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "MenuKJ#4",
+   "label": "Menu_KJ_com_sub_morton ",
+   "style": 1,
+   "src": "むてきの",
+   "tags": {},
+   "header": "[0009:0000:01 00]",
+   "dups": []
+  },
+  {
+   "id": "MenuKJ#6",
+   "label": "Menu_KJ_result_save",
+   "style": 12,
+   "src": "{1:mode}{2:align}セーブ中です。\n電源をOFFにしないでください。",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[0001:0001:]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "MenuKJ#7",
+   "label": "Menu_KJ_record_title_04",
+   "style": 6,
+   "src": "仲間にした数",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "MenuKJ#8",
+   "label": "Menu_KJ_manu_gide_h08",
+   "style": 12,
+   "src": "{1:color}ぐんだんメニューガイド{2:color}に\n項目が追加されました！{3:wait}",
+   "tags": {
+    "1": "[Color #4ED4FF]",
+    "2": "[Color #E6E6E6]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "MenuKJ#9",
+   "label": "Menu_KJ_manu_gide_20",
+   "style": 6,
+   "src": "{1:color}配置によっては何か発動する{2:color}とか\nルドウィッグが言ってた気もするけれど…{3:wait}[Next]忘れちゃった。\nイロイロとやってみてよ。{4:wait}[Next]配置が決まったら また\n{5:color}{6:icon}{7:color}ボタンで戻ってね。じゃあね！{8:wait}",
+   "tags": {
+    "1": "[Color #2C64FF]",
+    "2": "[Color #373737]",
+    "3": "[0002:0001:]",
+    "4": "[0002:0001:]",
+    "5": "[Color #FF4343]",
+    "6": "[U+E002]",
+    "7": "[Color #373737]",
+    "8": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "MenuKJ#10",
+   "label": "Menu_KJ_manu_gide_32_00",
+   "style": 6,
+   "src": "{1:color}{2:icon}{3:color}ボタンで はいちがえを選んで。",
+   "tags": {
+    "1": "[Color #FF4343]",
+    "2": "[U+E002]",
+    "3": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "MenuKJ#11",
+   "label": "Menu_KJ_manu_gide_21",
+   "style": 6,
+   "src": "バトル参加メンバーは{1:color}{2:color}最大９体{3:color}{4:color}だよ{5:color}{6:color}。\n…ありゃ {7:pause}もうイッパイだね。{8:wait}[Next]とつげきタイプと入れかえよう。\nヘイホーを クリボーの上に移動するね。{9:wait}",
+   "tags": {
+    "1": "[Color #FF4343]",
+    "2": "[Color #2C64FF]",
+    "3": "[Color #FF4343]",
+    "4": "[Color #373737]",
+    "5": "[Color #FF4343]",
+    "6": "[Color #373737]",
+    "7": "[0002:0000:0A 00]",
+    "8": "[0002:0001:]",
+    "9": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "MenuKJ#12",
+   "label": "Menu_KJ_com_sub_iggy ",
+   "style": 1,
+   "src": "トリッキー",
+   "tags": {},
+   "header": "[0009:0000:01 00]",
+   "dups": []
+  },
+  {
+   "id": "MenuKJ#13",
+   "label": "Menu_KJ_record_title",
+   "style": 4,
+   "src": "レコード",
+   "tags": {},
+   "header": "[0009:0000:04 00]",
+   "dups": []
+  },
+  {
+   "id": "MenuKJ#14",
+   "label": "Menu_KJ_organize_leader_type_change",
+   "style": 0,
+   "src": "{1:color}タイプがえ{2:color}",
+   "tags": {
+    "1": "[Color #FFFAF1]",
+    "2": "[Color #373737]"
+   },
+   "header": "[0009:0000:00 00]",
+   "dups": []
+  },
+  {
+   "id": "MenuKJ#15",
+   "label": "Menu_KJ_organize_divorce_exp",
+   "style": 1,
+   "src": "本当にわかれますか？",
+   "tags": {},
+   "header": "[0009:0000:01 00]",
+   "dups": []
+  },
+  {
+   "id": "MenuKJ#16",
+   "label": "Menu_KJ_organize_return_exp",
+   "style": 1,
+   "src": "変更を反映せずに戻ります。\nよろしいですか？",
+   "tags": {},
+   "header": "[0009:0000:01 00]",
+   "dups": []
+  },
+  {
+   "id": "MenuKJ#17",
+   "label": "Menu_KJ_result_get_challenge",
+   "style": 1,
+   "src": "{1:color}チャレンジたっせい！{2:color}",
+   "tags": {
+    "1": "[Color #FFFAF1]",
+    "2": "[Color #373737]"
+   },
+   "header": "[0009:0000:01 00]",
+   "dups": []
+  },
+  {
+   "id": "MenuKJ#18",
+   "label": "Menu_KJ_quest_config_title",
+   "style": 4,
+   "src": "１度見たイベントを再生する",
+   "tags": {},
+   "header": "[0009:0000:04 00]",
+   "dups": []
+  },
+  {
+   "id": "MenuKJ#19",
+   "label": "Menu_KJ_result_challenge_ex",
+   "style": 12,
+   "src": "{1:mode}{2:color}{3:color}レコードの{4:color}チャレンジ{5:color}で\n内容を確認することができます。{6:wait}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[Color #4ED4FF]",
+    "3": "[Color #FFFAF1]",
+    "4": "[Color #4ED4FF]",
+    "5": "[Color #E6E6E6]",
+    "6": "[0002:0001:]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "MenuKJ#20",
+   "label": "Menu_KJ_manu_gide_40",
+   "style": 6,
+   "src": "さあここからは ぼっちゃんが\nへんせいしてみてください！{1:wait}[Next]次はとつげきタイプが多いので\nひこうタイプを入れるのがいいでしょう。{2:wait}[Next]さっき仲間になったテレサが\n３体もいれば まあ十分勝てる…{3:wait}[Next]…っと もう分かってますよね。\nそれでは よろしくお願いします。{4:wait}[Next]得意な相手と戦えるよう味方を\n配置をすることをお忘れなく！{5:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0001:]",
+    "4": "[0002:0001:]",
+    "5": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "MenuKJ#21",
+   "label": "Menu_KJ_quest_config_title2",
+   "style": 4,
+   "src": "せいとんのルール",
+   "tags": {},
+   "header": "[0009:0000:04 00]",
+   "dups": []
+  },
+  {
+   "id": "MenuKJ#22",
+   "label": "Menu_KJ_manu_gide_41",
+   "style": 12,
+   "src": "{1:mode}アイテムを１つも持っていません。{2:wait}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "MenuKJ#23",
+   "label": "Menu_KJ_item_get_la",
+   "style": 12,
+   "src": "{1:mode}{2:align}{3:var}は\n「{4:var}」を覚えた！{5:pause}{6:wait}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[0001:0001:]",
+    "3": "[0003:0001:00 00 00 00 00 00]",
+    "4": "[0003:0001:00 00 00 00 01 00]",
+    "5": "[0002:0000:0A 00]",
+    "6": "[0002:0001:]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "MenuKJ#24",
+   "label": "Menu_KJ_quest_musshiba_clear",
+   "style": 12,
+   "src": "{1:color}クッパ城{2:color}に 新たなクエストが出現しました！\nメンバーを揃えて挑戦してみましょう！{3:wait}",
+   "tags": {
+    "1": "[Color #4ED4FF]",
+    "2": "[Color #E6E6E6]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "MenuKJ#25",
+   "label": "Menu_KJ_com_sub_kameck_bl",
+   "style": 1,
+   "src": "わるがしこい",
+   "tags": {},
+   "header": "[0009:0000:01 00]",
+   "dups": []
+  },
+  {
+   "id": "MenuKJ#26",
+   "label": "Menu_KJ_com_sub_ludwig",
+   "style": 1,
+   "src": "知てきな",
+   "tags": {},
+   "header": "[0009:0000:01 00]",
+   "dups": []
+  },
+  {
+   "id": "MenuKJ#27",
+   "label": "Menu_KJ_manu_gide_34_00",
+   "style": 6,
+   "src": "{1:color}{2:color}{3:icon}{4:color}{5:color}ボタン{6:color}{7:color}{8:color}で戻{9:color}ってみて。",
+   "tags": {
+    "1": "[Color #00BB27]",
+    "2": "[Color #FF4343]",
+    "3": "[U+E002]",
+    "4": "[Color #00BB27]",
+    "5": "[Color #373737]",
+    "6": "[Color #00BB27]",
+    "7": "[Color #373737]",
+    "8": "[Color #373737]",
+    "9": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "MenuKJ#28",
+   "label": "Menu_KJ_result_add_member",
+   "style": 12,
+   "src": "{1:mode}仲間にできる数が\n{2:var}から{3:var}になりました！",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[0003:0000:00 00 00 00 00 00]",
+    "3": "[0003:0000:00 00 00 00 01 00]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "MenuKJ#29",
+   "label": "Menu_KJ_com_party_num_01",
+   "style": 1,
+   "src": "１. ",
+   "tags": {},
+   "header": "[0009:0000:01 00]",
+   "dups": []
+  },
+  {
+   "id": "MenuKJ#30",
+   "label": "Menu_KJ_result_up_lp",
+   "style": 1,
+   "src": "{1:color}{2:var}はLPが{3:var}増えた！{4:color}",
+   "tags": {
+    "1": "[Color #FFFAF1]",
+    "2": "[0003:0001:00 00 00 00 00 00]",
+    "3": "[0003:0000:00 00 00 00 01 00]",
+    "4": "[Color #373737]"
+   },
+   "header": "[0009:0000:01 00]",
+   "dups": []
+  },
+  {
+   "id": "MenuKJ#31",
+   "label": "Menu_KJ_com_party_num_02",
+   "style": 1,
+   "src": "２. ",
+   "tags": {},
+   "header": "[0009:0000:01 00]",
+   "dups": []
+  },
+  {
+   "id": "MenuKJ#32",
+   "label": "Menu_KJ_com_party_num_03",
+   "style": 1,
+   "src": "３. ",
+   "tags": {},
+   "header": "[0009:0000:01 00]",
+   "dups": []
+  },
+  {
+   "id": "MenuKJ#33",
+   "label": "Menu_KJ_com_party_num_04",
+   "style": 1,
+   "src": "４. ",
+   "tags": {},
+   "header": "[0009:0000:01 00]",
+   "dups": []
+  },
+  {
+   "id": "MenuKJ#34",
+   "label": "Menu_KJ_com_party_num_05",
+   "style": 1,
+   "src": "５. ",
+   "tags": {},
+   "header": "[0009:0000:01 00]",
+   "dups": []
+  },
+  {
+   "id": "MenuKJ#35",
+   "label": "Menu_KJ_com_party_num_06",
+   "style": 1,
+   "src": "６. ",
+   "tags": {},
+   "header": "[0009:0000:01 00]",
+   "dups": []
+  },
+  {
+   "id": "MenuKJ#36",
+   "label": "Menu_KJ_com_party_num_07",
+   "style": 1,
+   "src": "７. ",
+   "tags": {},
+   "header": "[0009:0000:01 00]",
+   "dups": []
+  },
+  {
+   "id": "MenuKJ#37",
+   "label": "Menu_KJ_com_party_num_08",
+   "style": 1,
+   "src": "８. ",
+   "tags": {},
+   "header": "[0009:0000:01 00]",
+   "dups": []
+  },
+  {
+   "id": "MenuKJ#38",
+   "label": "Menu_KJ_com_party_num_09",
+   "style": 1,
+   "src": "９. ",
+   "tags": {},
+   "header": "[0009:0000:01 00]",
+   "dups": []
+  },
+  {
+   "id": "MenuKJ#39",
+   "label": "Menu_KJ_manu_gide_10",
+   "style": 6,
+   "src": "ルドウィッグが\n「バトンタッチだ…」だってさ。{1:wait}[Next]ぼっちゃん 聞いてるー？\n{2:color}参加メンバーの変え方{3:color} 教えるよ。{4:wait}[Next]次のクエストに出てくるのは…{5:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[Color #2C64FF]",
+    "3": "[Color #373737]",
+    "4": "[0002:0001:]",
+    "5": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "MenuKJ#40",
+   "label": "Menu_KJ_manu_gide_11",
+   "style": 6,
+   "src": "飛んでいる敵だね。{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "MenuKJ#41",
+   "label": "Menu_KJ_result_get_item",
+   "style": 1,
+   "src": "{1:color}アイテムかくとく！{2:color}",
+   "tags": {
+    "1": "[Color #FFFAF1]",
+    "2": "[Color #373737]"
+   },
+   "header": "[0009:0000:01 00]",
+   "dups": []
+  },
+  {
+   "id": "MenuKJ#42",
+   "label": "Menu_KJ_manu_gide_12",
+   "style": 6,
+   "src": "ここではバトルに参加させるメンバーを\n入れかえることができるんだ。{1:wait}[Next]次のクエストには\nひこうタイプの敵が出てくる。{2:wait}[Next]ひこうタイプに強い\nえんきょりタイプを入れよう。{3:wait}[Next]明るくなっているヘイホーを\n{4:color}{5:icon}{6:color}ボタンで選んでくれる？",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0001:]",
+    "4": "[Color #FF4343]",
+    "5": "[U+E000]",
+    "6": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "MenuKJ#43",
+   "label": "Menu_KJ_com_enemy_detail",
+   "style": 0,
+   "src": "{1:color}くわしく{2:color}",
+   "tags": {
+    "1": "[Color #FFFAF1]",
+    "2": "[Color #373737]"
+   },
+   "header": "[0009:0000:00 00]",
+   "dups": []
+  },
+  {
+   "id": "MenuKJ#44",
+   "label": "Menu_KJ_manu_gide_13",
+   "style": 6,
+   "src": "{1:color}{2:icon}{3:color}ボタンで ヘイホーとクリボーを\n入れかえてみて。",
+   "tags": {
+    "1": "[Color #FF4343]",
+    "2": "[U+E000]",
+    "3": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "MenuKJ#45",
+   "label": "Menu_KJ_quest_koopa_clear",
+   "style": 12,
+   "src": "{1:color}ムッシーバビーチ{2:color}に\n新たなクエストが出現しました！\nレベルを上げて挑戦してみましょう！{3:wait}",
+   "tags": {
+    "1": "[Color #4ED4FF]",
+    "2": "[Color #E6E6E6]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "MenuKJ#46",
+   "label": "Menu_KJ_manu_gide_14",
+   "style": 6,
+   "src": "えんきょりタイプが増えたね。\nひこうタイプの敵に さらに有利になったよ。{1:wait}[Next]へんせいに入れた仲間を\nリストに戻したいという時は…{2:wait}[Next]下画面で外す仲間を選んで \n{3:color}{4:icon}{5:color}ボタンを押せば 戻ってくるからね。{6:wait}[Next]へんせいのやり方は分かった？\n色々試してみてね！{7:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]",
+    "3": "[Color #FF4343]",
+    "4": "[U+E000]",
+    "5": "[Color #373737]",
+    "6": "[0002:0001:]",
+    "7": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "MenuKJ#47",
+   "label": "Menu_KJ_manu_gide_33_00",
+   "style": 6,
+   "src": "ここに \nアタシを入れて。",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "MenuKJ#48",
+   "label": "Menu_KJ_manu_gide_it_open",
+   "style": 12,
+   "src": "{1:color}キャラクターの強化{2:color}ができるようになりました！\nバトルで{3:color}マメ{4:color}など{5:color}アイテム{6:color}を手に入れたら\n軍団キャラクターに使ってみましょう。{7:wait}",
+   "tags": {
+    "1": "[Color #4ED4FF]",
+    "2": "[Color #E6E6E6]",
+    "3": "[Color #F0F0F0]",
+    "4": "[Color #E6E6E6]",
+    "5": "[Color #4ED4FF]",
+    "6": "[Color #E6E6E6]",
+    "7": "[0002:0001:]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "MenuKJ#49",
+   "label": "Menu_KJ_manu_gide_15",
+   "style": 10,
+   "src": "あー！ 忘れてた！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:0A 00]",
+   "dups": []
+  },
+  {
+   "id": "MenuKJ#50",
+   "label": "Menu_KJ_manu_gide_16",
+   "style": 6,
+   "src": "これは\nこれから戦う敵の配置図だよ。{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "MenuKJ#51",
+   "label": "Menu_KJ_manu_gide_17",
+   "style": 6,
+   "src": "いま入れたヘイホーなんだけど…{1:pause}{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0F 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "MenuKJ#52",
+   "label": "Menu_KJ_manu_typechg_01",
+   "style": 12,
+   "src": "軍団へんせいで クッパJr. を\n{1:color}えんきょりタイプ{2:color}に変えられるようになった！{3:wait}",
+   "tags": {
+    "1": "[Color #FF7070]",
+    "2": "[Color #E6E6E6]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "MenuKJ#53",
+   "label": "Menu_KJ_manu_gide_18",
+   "style": 6,
+   "src": "前の列にいるヘイホーを{1:color}{2:icon}{3:color}ボタンで\nつかんで 後ろの列に移動しよう。",
+   "tags": {
+    "1": "[Color #FF4343]",
+    "2": "[U+E000]",
+    "3": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "MenuKJ#54",
+   "label": "Menu_KJ_manu_typechg_02",
+   "style": 12,
+   "src": "軍団へんせいで クッパJr. を\n{1:color}ひこうタイプ{2:color}に変えられるようになった！{3:wait}",
+   "tags": {
+    "1": "[Color #FF7070]",
+    "2": "[Color #E6E6E6]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "MenuKJ#55",
+   "label": "Menu_KJ_manu_gide_19",
+   "style": 6,
+   "src": "オッケー！ {1:pause}\nこれでヘイホー達は\nぞんぶんにチカラを発揮できるぞ！{2:wait}[Next]へんせいした味方を どの列に置くか…{3:pause}\nけっこう 大事だよ。{4:wait}[Next]敵のじょうほうを見て\n{5:color}味方が相性のよい敵に当たる{6:color}ように\n調整してね。{7:wait}",
+   "tags": {
+    "1": "[0002:0000:0F 00]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0000:0F 00]",
+    "4": "[0002:0001:]",
+    "5": "[Color #2C64FF]",
+    "6": "[Color #373737]",
+    "7": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "MenuKJ#56",
+   "label": "Menu_KJ_manu_typechg_03",
+   "style": 12,
+   "src": "クッパJr.を選んで {1:color}{2:icon}{3:color}ボタンを押せば\nクッパJr.のタイプを変えられます。{4:wait}",
+   "tags": {
+    "1": "[Color #FF7070]",
+    "2": "[U+E000]",
+    "3": "[Color #E6E6E6]",
+    "4": "[0002:0001:]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "MenuKJ#57",
+   "label": "Menu_KJ_com_party_name_a",
+   "style": 1,
+   "src": "{1:var}{2:var}とつげき隊",
+   "tags": {
+    "1": "[0003:0001:00 00 00 00 00 00]",
+    "2": "[0003:0001:00 00 00 00 01 00]"
+   },
+   "header": "[0009:0000:01 00]",
+   "dups": []
+  },
+  {
+   "id": "MenuKJ#58",
+   "label": "Menu_KJ_organize_leader_rearrange",
+   "style": 0,
+   "src": "{1:color}はいちがえ{2:color}",
+   "tags": {
+    "1": "[Color #FFFAF1]",
+    "2": "[Color #373737]"
+   },
+   "header": "[0009:0000:00 00]",
+   "dups": []
+  },
+  {
+   "id": "MenuKJ#59",
+   "label": "Menu_KJ_com_sub_larry",
+   "style": 1,
+   "src": "必中の",
+   "tags": {},
+   "header": "[0009:0000:01 00]",
+   "dups": []
+  },
+  {
+   "id": "MenuKJ#60",
+   "label": "Menu_KJ_com_sub_roy",
+   "style": 1,
+   "src": "パワフル",
+   "tags": {},
+   "header": "[0009:0000:01 00]",
+   "dups": []
+  },
+  {
+   "id": "MenuKJ#61",
+   "label": "Menu_KJ_manu_gide_31_00",
+   "style": 6,
+   "src": "アタシを\nへんせいに入れて。",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "MenuKJ#62",
+   "label": "Menu_KJ_com_sub_wendy",
+   "style": 1,
+   "src": "オトメな",
+   "tags": {},
+   "header": "[0009:0000:01 00]",
+   "dups": []
+  },
+  {
+   "id": "MenuKJ#63",
+   "label": "Menu_KJ_com_party_name_f",
+   "style": 1,
+   "src": "{1:var}{2:var}ひこう隊",
+   "tags": {
+    "1": "[0003:0001:00 00 00 00 00 00]",
+    "2": "[0003:0001:00 00 00 00 01 00]"
+   },
+   "header": "[0009:0000:01 00]",
+   "dups": []
+  },
+  {
+   "id": "MenuKJ#64",
+   "label": "Menu_KJ_manu_gide_11_00",
+   "style": 6,
+   "src": "STARTボタンか タッチで\n{1:color}軍団へんせい{2:color}を選んで。",
+   "tags": {
+    "1": "[Color #2C64FF]",
+    "2": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "MenuKJ#65",
+   "label": "Menu_KJ_quest_exit_warning",
+   "style": 1,
+   "src": "クッパJr.RPGを終了します。\nよろしいですか？",
+   "tags": {},
+   "header": "[0009:0000:01 00]",
+   "dups": []
+  },
+  {
+   "id": "MenuKJ#66",
+   "label": "Menu_KJ_manu_gide_30",
+   "style": 6,
+   "src": "ルドウィッグ… 様子が変だったわ…\nなにか胸騒ぎがする…{1:wait}[Next]ぼっちゃん。\n少し気を引き締めていきましょう。{2:wait}[Next]{3:color}{4:color}サブリーダー{5:color}{6:color}について教えるわ。{7:color}{8:color}{9:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]",
+    "3": "[Color #FF4343]",
+    "4": "[Color #2C64FF]",
+    "5": "[Color #FF4343]",
+    "6": "[Color #373737]",
+    "7": "[Color #FF4343]",
+    "8": "[Color #373737]",
+    "9": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "MenuKJ#67",
+   "label": "Menu_KJ_quest_Farewell",
+   "style": 12,
+   "src": "{1:color}メニュー{2:color}の中にある{3:color}「キャラクターおわかれ」\n{4:color}から仲間にしたキャラクターと\n{5:color}お別れが{6:color}できるようになりました。{7:wait}",
+   "tags": {
+    "1": "[Color #4ED4FF]",
+    "2": "[Color #E6E6E6]",
+    "3": "[Color #4ED4FF]",
+    "4": "[Color #E6E6E6]",
+    "5": "[Color #F0F0F0]",
+    "6": "[Color #E6E6E6]",
+    "7": "[0002:0001:]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "MenuKJ#68",
+   "label": "Menu_KJ_manu_gide_31",
+   "style": 6,
+   "src": "軍団へんせいを選んで。",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "MenuKJ#69",
+   "label": "Menu_KJ_record_form_num",
+   "style": 13,
+   "src": "{1:color}（{2:var}体）{3:color}",
+   "tags": {
+    "1": "[Color #4ED4FF]",
+    "2": "[0003:0000:00 00 00 00 00 00]",
+    "3": "[Color #E6E6E6]"
+   },
+   "header": "[0009:0000:0D 00]",
+   "dups": []
+  },
+  {
+   "id": "MenuKJ#70",
+   "label": "Menu_KJ_manu_gide_32",
+   "style": 6,
+   "src": "アタシ達 ７人衆が\nぼっちゃんのサポートに回ります。{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "MenuKJ#71",
+   "label": "Menu_KJ_manu_gide_33",
+   "style": 6,
+   "src": "ここが“{1:color}サブリーダー{2:color}”のマスよ。{3:wait}",
+   "tags": {
+    "1": "[Color #2C64FF]",
+    "2": "[Color #373737]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "MenuKJ#73",
+   "label": "Menu_KJ_com_party_name_l",
+   "style": 1,
+   "src": "{1:var}{2:var}えんきょり隊",
+   "tags": {
+    "1": "[0003:0001:00 00 00 00 00 00]",
+    "2": "[0003:0001:00 00 00 00 01 00]"
+   },
+   "header": "[0009:0000:01 00]",
+   "dups": []
+  },
+  {
+   "id": "MenuKJ#74",
+   "label": "Menu_KJ_manu_gide_34",
+   "style": 6,
+   "src": "ここはアタシ達７人衆クラスしか\n入れられない特別なマスなの。{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "MenuKJ#75",
+   "label": "Menu_KJ_com_party_name_m",
+   "style": 1,
+   "src": "{1:var}{2:var}こんせい隊",
+   "tags": {
+    "1": "[0003:0001:00 00 00 00 00 00]",
+    "2": "[0003:0001:00 00 00 00 01 00]"
+   },
+   "header": "[0009:0000:01 00]",
+   "dups": []
+  },
+  {
+   "id": "MenuKJ#76",
+   "label": "Menu_KJ_manu_gide_35",
+   "style": 6,
+   "src": "これが {1:color}サブリーダースキル{2:color}。\nサブリーダーを誰にするかによって\nスキルの内容が変わるわ。{3:wait}",
+   "tags": {
+    "1": "[Color #2C64FF]",
+    "2": "[Color #373737]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "MenuKJ#77",
+   "label": "Menu_KJ_manu_gide_36",
+   "style": 6,
+   "src": "敵のリーダーのタイプに合わせて\n他のメンバーも試すといいわね。{1:wait}[Next]あ… {2:pause}そうそう！{3:wait}[Next]ついでに 便利な\nコマンドを教えておくわね！{4:wait}[Next]{5:color}{6:icon}{7:icon}{8:color}ボタンを同時押しすると\n{9:color}へんせいをリセット{10:color}できるの。{11:wait}[Next]イチからへんせいをやり直したい\n時なんかに使うといいわ。{12:wait}[Next]さ！ 先を急ぎましょ！{13:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0000:14 00]",
+    "3": "[0002:0001:]",
+    "4": "[0002:0001:]",
+    "5": "[Color #FF4343]",
+    "6": "[U+E004]",
+    "7": "[U+E005]",
+    "8": "[Color #373737]",
+    "9": "[Color #2C64FF]",
+    "10": "[Color #373737]",
+    "11": "[0002:0001:]",
+    "12": "[0002:0001:]",
+    "13": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "MenuKJ#78",
+   "label": "Menu_KJ_result_get_army",
+   "style": 1,
+   "src": "{1:color}なかまがふえた！{2:color}",
+   "tags": {
+    "1": "[Color #FFFAF1]",
+    "2": "[Color #373737]"
+   },
+   "header": "[0009:0000:01 00]",
+   "dups": []
+  },
+  {
+   "id": "MenuKJ#79",
+   "label": "Menu_KJ_organize_wnd_warning_00",
+   "style": 12,
+   "src": "{1:mode}{2:align}軍団の数がいっぱいです。\n誰かとおわかれしなければなりません。{3:wait}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "MenuKJ#80",
+   "label": "Menu_KJ_organize_wnd_warning_01",
+   "style": 12,
+   "src": "{1:mode}{2:align}{3:color}{4:var}{5:color}は{6:color}{7:var}{8:color}体までしか\n仲間にできません。\nおわかれしなければなりません。{9:wait}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[0001:0001:]",
+    "3": "[Color #4ED4FF]",
+    "4": "[0003:0001:00 00 00 00 00 00]",
+    "5": "[Color #E6E6E6]",
+    "6": "[Color #4ED4FF]",
+    "7": "[0003:0000:00 00 00 00 01 00]",
+    "8": "[Color #E6E6E6]",
+    "9": "[0002:0001:]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "MenuKJ#81",
+   "label": "Menu_KJ_result_add_party_firsttime",
+   "style": 12,
+   "src": "{1:color}{2:icon} {3:icon}{4:color}ボタンで上画面のパーティを\n切り替えることができます。",
+   "tags": {
+    "1": "[Color #4ED4FF]",
+    "2": "[U+E004]",
+    "3": "[U+E005]",
+    "4": "[Color #E6E6E6]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "MenuKJ#82",
+   "label": "Menu_KJ_result_get_la",
+   "style": 1,
+   "src": "{1:color}{2:var}は「{3:var}」を覚えた！{4:color}",
+   "tags": {
+    "1": "[Color #FFFAF1]",
+    "2": "[0003:0001:00 00 00 00 00 00]",
+    "3": "[0003:0001:00 00 00 00 01 00]",
+    "4": "[Color #373737]"
+   },
+   "header": "[0009:0000:01 00]",
+   "dups": []
+  },
+  {
+   "id": "MenuKJ#83",
+   "label": "Menu_KJ_manu_gide_15_00",
+   "style": 6,
+   "src": "{1:color}メンバーの配置{2:color}も変えられるよ！{3:wait}",
+   "tags": {
+    "1": "[Color #2C64FF]",
+    "2": "[Color #373737]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "MenuKJ#84",
+   "label": "Menu_KJ_organize_warning_01",
+   "style": 1,
+   "src": "メンバーが９体そろっていませんが\nよろしいですか？",
+   "tags": {},
+   "header": "[0009:0000:01 00]",
+   "dups": []
+  },
+  {
+   "id": "MenuKJ#85",
+   "label": "Menu_KJ_item_up_lp",
+   "style": 12,
+   "src": "{1:mode}{2:align}{3:var}は\nLPが{4:var}増えた！{5:pause}{6:wait}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[0001:0001:]",
+    "3": "[0003:0001:00 00 00 00 00 00]",
+    "4": "[0003:0000:00 00 00 00 01 00]",
+    "5": "[0002:0000:0A 00]",
+    "6": "[0002:0001:]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "MenuKJ#86",
+   "label": "Menu_KJ_manu_gide_15_01",
+   "style": 6,
+   "src": "{1:color}{2:icon}{3:color}ボタンを押してみて！",
+   "tags": {
+    "1": "[Color #FF4343]",
+    "2": "[U+E002]",
+    "3": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "MenuKJ#87",
+   "label": "Menu_KJ_organize_warning_02",
+   "style": 12,
+   "src": "{1:mode}{2:align}クッパJr.以外の参加メンバーを\nすべてはずしますか？\n{3:align}{4:choice}いいえ{5:tab}{6:choice}はい",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[0001:0001:]",
+    "3": "[0001:0001:]",
+    "4": "[0004:0001:]",
+    "5": "[0006:0000:20 00]",
+    "6": "[0004:0001:]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "MenuKJ#88",
+   "label": "Menu_KJ_com_sub_lemmy",
+   "style": 1,
+   "src": "スピーディな",
+   "tags": {},
+   "header": "[0009:0000:01 00]",
+   "dups": []
+  },
+  {
+   "id": "MenuKJ#89",
+   "label": "Menu_KJ_organize_wnd_divorce_bonus_00",
+   "style": 12,
+   "src": "{1:var}は\n{2:color}{3:var}{4:color}を\n置いて去っていきました。{5:wait}",
+   "tags": {
+    "1": "[0003:0001:00 00 00 00 00 00]",
+    "2": "[Color #4ED4FF]",
+    "3": "[0003:0001:00 00 00 00 01 00]",
+    "4": "[Color #E6E6E6]",
+    "5": "[0002:0001:]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "MenuKJ#90",
+   "label": "Menu_KJ_record_medal_00",
+   "style": 12,
+   "src": "ゴールド",
+   "tags": {},
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "MenuKJ#91",
+   "label": "Menu_KJ_com_enemy_detail_close",
+   "style": 0,
+   "src": "{1:color}とじる{2:color}",
+   "tags": {
+    "1": "[Color #FFFAF1]",
+    "2": "[Color #373737]"
+   },
+   "header": "[0009:0000:00 00]",
+   "dups": []
+  },
+  {
+   "id": "MenuKJ#92",
+   "label": "Menu_KJ_record_medal_01",
+   "style": 12,
+   "src": "シルバー",
+   "tags": {},
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "MenuKJ#93",
+   "label": "Menu_KJ_manu_gide_00",
+   "style": 6,
+   "src": "ぼっちゃん。軍団を率いるためです。\n今から話すことを しっかり聞いてください。{1:wait}[Next]上画面ではバトルに参加する\nメンバーの強さを見ることができます。{2:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "MenuKJ#94",
+   "label": "Menu_KJ_record_medal_02",
+   "style": 12,
+   "src": "ブロンズ",
+   "tags": {},
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "MenuKJ#95",
+   "label": "Menu_KJ_manu_gide_01",
+   "style": 6,
+   "src": "これが{1:color}軍団のレベル{2:color}です。{3:wait}[Next]メンバーが強くなると\nこのレベルも上がります。{4:wait}",
+   "tags": {
+    "1": "[Color #2C64FF]",
+    "2": "[Color #373737]",
+    "3": "[0002:0001:]",
+    "4": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "MenuKJ#96",
+   "label": "Menu_KJ_result_add_party",
+   "style": 12,
+   "src": "{1:mode}保存できるパーティの数が\n{2:var}から{3:var}になりました！",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[0003:0000:00 00 00 00 00 00]",
+    "3": "[0003:0000:00 00 00 00 01 00]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "MenuKJ#97",
+   "label": "Menu_KJ_manu_gide_02",
+   "style": 6,
+   "src": "下画面で次に進むクエストを選びます。\nこのときに…{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "MenuKJ#98",
+   "label": "Menu_KJ_manu_gide_03",
+   "style": 6,
+   "src": "これが登場する{1:color}敵のレベル{2:color}…\n敵の強さの目安になりますね。{3:wait}",
+   "tags": {
+    "1": "[Color #2C64FF]",
+    "2": "[Color #373737]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "MenuKJ#99",
+   "label": "Menu_KJ_manu_gide_04",
+   "style": 6,
+   "src": "少し位 負けていても\nへんせいに自信があるなら\n思いきって進むのもいいでしょう。{1:wait}[Next]それでも勝てない時は\n前のクエストで なかま集めや\nレベルを上げてみるのもいいですね。{2:wait}[Next]他にも相手の情報がほしい場合は…{3:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "MenuKJ#100",
+   "label": "Menu_KJ_manu_gide_05",
+   "style": 6,
+   "src": "敵をタッチすると\n{1:color}敵のプロフィール{2:color}が見られます。{3:wait}",
+   "tags": {
+    "1": "[Color #2C64FF]",
+    "2": "[Color #373737]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "MenuKJ#101",
+   "label": "Menu_KJ_manu_gide_06",
+   "style": 6,
+   "src": "{1:color}{2:icon}{3:color}ボタンで {4:color}敵のじょうほう{5:color}を\n確認するのもいいでしょう。{6:wait}[Next]敵の配置やバトルの回数など…\n色々なことが分かります。{7:wait}",
+   "tags": {
+    "1": "[Color #FF4343]",
+    "2": "[U+E003]",
+    "3": "[Color #373737]",
+    "4": "[Color #2C64FF]",
+    "5": "[Color #373737]",
+    "6": "[0002:0001:]",
+    "7": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "MenuKJ#102",
+   "label": "Menu_KJ_manu_gide_07",
+   "style": 6,
+   "src": "ぼっちゃん…\n聞いてます…{1:pause}よね？{2:wait}[Next]{3:speed}…{4:speed}それでは。{5:wait}",
+   "tags": {
+    "1": "[0002:0000:1E 00]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0002:0A 00]",
+    "4": "[0002:0002:64 00]",
+    "5": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  }
+ ]
+}

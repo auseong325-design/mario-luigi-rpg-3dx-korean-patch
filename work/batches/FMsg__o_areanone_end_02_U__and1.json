@@ -1,0 +1,321 @@
+{
+ "batch": "FMsg__o_areanone_end_02_U__and1",
+ "rooms": [
+  "o_areanone_end_02_U",
+  "o_areanone_end_03_L"
+ ],
+ "ds_rooms": [
+  "29F",
+  "2A1"
+ ],
+ "ds_reference": [
+  "DS29F#0: 참말로~ 수고했다~\n쭈~욱 보고 있었다~[Next]니 랭크를…\n알려 줄꾸마~",
+  "DS29F#1: 잘했다…\n그래도 아직 갈 길은 있다…[Next]더 높은 랭크로 올라가면…\n좋은 일이 생길지도 모른다…",
+  "DS29F#2: 이 랭크로 다크스타를\n우째 무찔렀노…?[Next]이건 또 이거대로 대단하네…\n참말로~ 잘했다~[Next]더 높은 랭크로 올라가면…\n좋은 일이 생길지도 모른다…",
+  "DS29F#3: 다들…\n억수로 강하네…[Next]니 대단하대이…\n참말로~ 잘했대이~![Next]내는 웬만하면 남 칭찬\n같은 거 안 하지만서도…[Next]니는 참말로\n대단하대이!!!",
+  "DS29F#4: 그라모 또 보재이~",
+  "DS2A1#0: 버섯 랭크",
+  "DS2A1#1: 등껍질 랭크",
+  "DS2A1#2: 플라워 랭크",
+  "DS2A1#3: 샤인 랭크",
+  "DS2A1#4: 스타 랭크",
+  "DS2A1#5: 레인보우 랭크",
+  "DS2A1#6: 브론즈 보스 랭크",
+  "DS2A1#7: 실버 보스 랭크",
+  "DS2A1#8: 골드 보스 랭크",
+  "DS2A1#9: 파이널 보스 랭크"
+ ],
+ "glossary": [
+  {
+   "jp": "ダークスター",
+   "ko": "다크스타",
+   "type": "boss",
+   "basis": "DS",
+   "source": "BData__mfset_MonN#70",
+   "note": "glossary 확정값과 동일 [gl_enemies]"
+  },
+  {
+   "jp": "キノコランク",
+   "ko": "버섯 랭크",
+   "type": "term",
+   "basis": "DS",
+   "source": "MData__mfset_MenuMes#115",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "コウラランク",
+   "ko": "등껍질 랭크",
+   "type": "term",
+   "basis": "DS",
+   "source": "MData__mfset_MenuMes#116",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "スターランク",
+   "ko": "스타 랭크",
+   "type": "term",
+   "basis": "DS",
+   "source": "MData__mfset_MenuMes#119",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "フラワーランク",
+   "ko": "플라워 랭크",
+   "type": "term",
+   "basis": "DS",
+   "source": "MData__mfset_MenuMes#117",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "ブーメランランク",
+   "ko": "부메랑 랭크",
+   "type": "term",
+   "basis": "coined",
+   "source": "",
+   "note": "DS 원판은 シャインランク→'샤인 랭크'(MenuMes#118). 3DX에서 이름이 바뀌어 새 이름을 따름 — 확인 필요 [gl_attacks]"
+  },
+  {
+   "jp": "ラスボスランク",
+   "ko": "파이널 보스 랭크",
+   "type": "term",
+   "basis": "DS",
+   "source": "MData__mfset_MenuMes#124",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "ランク",
+   "ko": "랭크",
+   "type": "term",
+   "basis": "DS",
+   "source": "MData__mfset_MenuMes#116",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "レインボーランク",
+   "ko": "레인보우 랭크",
+   "type": "term",
+   "basis": "DS",
+   "source": "MData__mfset_MenuMes#120",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "ゴールドランク",
+   "ko": "골드 보스 랭크",
+   "type": "ui",
+   "basis": "DS",
+   "source": "MData__mfset_MenuMes",
+   "note": "쿠파 랭크"
+  },
+  {
+   "jp": "シルバーランク",
+   "ko": "실버 보스 랭크",
+   "type": "ui",
+   "basis": "DS",
+   "source": "MData__mfset_MenuMes",
+   "note": "쿠파 랭크"
+  },
+  {
+   "jp": "ブロンズランク",
+   "ko": "브론즈 보스 랭크",
+   "type": "ui",
+   "basis": "DS",
+   "source": "MData__mfset_MenuMes#121",
+   "note": "쿠파 랭크. DS 한국판 표기"
+  },
+  {
+   "jp": "マスターランク",
+   "ko": "마스터 보스 랭크",
+   "type": "ui",
+   "basis": "coined",
+   "source": "DS 'X 보스 랭크' 체계",
+   "note": ""
+  }
+ ],
+ "messages": [
+  {
+   "id": "FMsg/o_areanone_end_02_U#0",
+   "label": "MES_EVnog_ending_Clear_mes_01",
+   "style": 4,
+   "src": "よ～ がんばったな～\nず～っと 見てたで～{1:wait}[Next]あんたのランク…\n教えたるわ～{2:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:04 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_areanone_end_02_U#1",
+   "label": "MES_EVnog_ending_Clear_mes_02",
+   "style": 4,
+   "src": "なかなかやな…\nけど まだがんばれるで…{1:wait}[Next]さらに 上のランクになったら…\nええこと あるかもしれんな…{2:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:04 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_areanone_end_02_U#2",
+   "label": "MES_EVnog_ending_Clear_mes_03",
+   "style": 4,
+   "src": "このランクで よくダークスター\nやっつけたな…{1:wait}[Next]ある意味 すごいで…\nよ～ やったな～{2:wait}[Next]さらに 上のランクになったら…\nええこと あるかもしれんな…{3:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:04 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_areanone_end_02_U#3",
+   "label": "MES_EVnog_ending_Clear_mes_04",
+   "style": 4,
+   "src": "みんな めっちゃ\n強くなっとるやん…{1:wait}[Next]あんた すごいで…\nよ～ やったな～！{2:wait}[Next]ワシは あんまり\n人のこと ほめんけど…{3:wait}[Next]あんた ほんま\nすごいで！！！{4:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0001:]",
+    "4": "[0002:0001:]"
+   },
+   "header": "[0009:0000:04 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_areanone_end_02_U#4",
+   "label": "MES_EVnog_ending_Clear_mes_05",
+   "style": 4,
+   "src": "{1:align}{2:align}ほな またな～{3:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:04 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_areanone_end_03_L#0",
+   "label": "MES_EV_last_score_01_Rank_mes_k_01",
+   "style": 3,
+   "src": "{1:mode}ブロンズランク",
+   "tags": {
+    "1": "[0005:0000:]"
+   },
+   "header": "[0009:0000:03 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_areanone_end_03_L#1",
+   "label": "MES_EV_last_score_01_Rank_mes_ml_01",
+   "style": 3,
+   "src": "{1:mode}キノコランク",
+   "tags": {
+    "1": "[0005:0000:]"
+   },
+   "header": "[0009:0000:03 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_areanone_end_03_L#2",
+   "label": "MES_EV_last_score_01_Rank_mes_k_02",
+   "style": 3,
+   "src": "{1:mode}シルバーランク",
+   "tags": {
+    "1": "[0005:0000:]"
+   },
+   "header": "[0009:0000:03 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_areanone_end_03_L#3",
+   "label": "MES_EV_last_score_01_Rank_mes_ml_02",
+   "style": 3,
+   "src": "{1:mode}コウラランク",
+   "tags": {
+    "1": "[0005:0000:]"
+   },
+   "header": "[0009:0000:03 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_areanone_end_03_L#4",
+   "label": "MES_EV_last_score_01_Rank_mes_k_03",
+   "style": 3,
+   "src": "{1:mode}ゴールドランク",
+   "tags": {
+    "1": "[0005:0000:]"
+   },
+   "header": "[0009:0000:03 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_areanone_end_03_L#5",
+   "label": "MES_EV_last_score_01_Rank_mes_ml_03",
+   "style": 3,
+   "src": "{1:mode}フラワーランク",
+   "tags": {
+    "1": "[0005:0000:]"
+   },
+   "header": "[0009:0000:03 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_areanone_end_03_L#6",
+   "label": "MES_EV_last_score_01_Rank_mes_k_04",
+   "style": 3,
+   "src": "{1:mode}ラスボスランク",
+   "tags": {
+    "1": "[0005:0000:]"
+   },
+   "header": "[0009:0000:03 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_areanone_end_03_L#7",
+   "label": "MES_EV_last_score_01_Rank_mes_ml_04",
+   "style": 3,
+   "src": "{1:mode}ブーメランランク",
+   "tags": {
+    "1": "[0005:0000:]"
+   },
+   "header": "[0009:0000:03 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_areanone_end_03_L#8",
+   "label": "MES_EV_last_score_01_Rank_mes_k_05",
+   "style": 3,
+   "src": "{1:mode}マスターランク",
+   "tags": {
+    "1": "[0005:0000:]"
+   },
+   "header": "[0009:0000:03 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_areanone_end_03_L#9",
+   "label": "MES_EV_last_score_01_Rank_mes_ml_05",
+   "style": 3,
+   "src": "{1:mode}スターランク",
+   "tags": {
+    "1": "[0005:0000:]"
+   },
+   "header": "[0009:0000:03 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_areanone_end_03_L#10",
+   "label": "MES_EV_last_score_01_Rank_mes_ml_06",
+   "style": 3,
+   "src": "{1:mode}レインボーランク",
+   "tags": {
+    "1": "[0005:0000:]"
+   },
+   "header": "[0009:0000:03 00]",
+   "dups": []
+  }
+ ]
+}

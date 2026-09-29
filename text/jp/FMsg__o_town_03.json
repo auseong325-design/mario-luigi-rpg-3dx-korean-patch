@@ -1,0 +1,40 @@
+{
+ "source": "Msg/JP_ja/FMsg.dat:o_town_03",
+ "messages": [
+  {
+   "id": "FMsg/o_town_03#0",
+   "label": "MES_TKinoko_03_Kinoko_town_chka_koopa_01",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00]シンニュウ キンシ！\nシンニュウ キンシ！\nタダチニ ヒキカエセ！[0002:0001:][Next]シンニュウ キンシ！\nシンニュウ キンシ！\nタダチニ ヒキカエセ！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_03#1",
+   "label": "MES_TKinoko_03_Kinoko_town_chka_koopa_02",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]なんだ！？ やかましい！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_03#2",
+   "label": "MES_TKinoko_03_Kinoko_town_chka_koopa_03",
+   "style": 9,
+   "attr": "00000000",
+   "jp": "[0009:0000:09 00]ンガガガガガガガガ！！！[0002:0000:3C 00]"
+  },
+  {
+   "id": "FMsg/o_town_03#3",
+   "label": "MES_TKinoko_03_Kinoko_town_chka_koopa_07",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]クッパ…[0002:0000:0A 00] よね？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_03#4",
+   "label": "MES_TKinoko_03_Kinoko_town_chka_koopa_08",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 私達;わたしたち] さっきまで\nこいつの [Ruby 体;からだ]の[Ruby 中;なか]にいたのよね…[0002:0001:][Next]でも どうしてここで\n[Ruby 気絶;きぜつ]しているのかしら…[0002:0001:]"
+  }
+ ]
+}

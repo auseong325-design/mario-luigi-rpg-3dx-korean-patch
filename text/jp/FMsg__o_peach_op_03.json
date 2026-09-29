@@ -1,0 +1,47 @@
+{
+ "source": "Msg/JP_ja/FMsg.dat:o_peach_op_03",
+ "messages": [
+  {
+   "id": "FMsg/o_peach_op_03#0",
+   "label": "MES_OPeach_03_Opening_tut_12",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]この [Color #2C64FF]セーブブロック[Color #373737][Color #373737]を[Ruby 見;み]つけたら\n[Color #373737][Color #2C64FF]ジャンプ[Color #373737][Color #373737]で [Ruby 叩;たた]いてください。[0002:0001:][Next]セーブさえ しておけば\nなにがあっても [Ruby 安心;あんしん]です。[0002:0001:][Next]セーブブロックを [Ruby 見;み]つけたら\nこまめに セーブする…[0002:0001:][Next]これ ボクのおじいちゃんの\nくちぐせでした。[0002:0001:][Next]ブロックを [Ruby 叩;たた]くのは\n[Color #373737][Color #00BB27]ルイージ[Color #373737][Color #373737]さんでも OKですよ！！[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/o_peach_op_03#1",
+   "label": "MES_OPeach_03_Opening_tut_13",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]こまめに [Color #2C64FF]セーブ[Color #373737][Color #373737]！\nこれが [Ruby 大事;だいじ]ですよ！！[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/o_peach_op_03#2",
+   "label": "MES_OPeach_03_Opening_tut_14",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0001:]この[Ruby 奥;おく]が [Color #2C64FF][Ruby 会議;かいぎ][Ruby 室;しつ][Color #373737][Color #373737]です！[0002:0001:][Next][0001:0000:]もう [Ruby 会議;かいぎ]は[Ruby 始;はじ]まってますよ！！[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/o_peach_op_03#3",
+   "label": "MES_OPeach_03_Opening_tut_15",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]さっき ここを[Ruby 通;とお]った\nナースさん…[0002:0001:][Next][0001:0004:]かわいかったなぁ…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_peach_op_03#4",
+   "label": "MES_SAVE_BLOCK_recovery",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0001:0001:][0005:0000:]HPとBPの[Ruby 回復;かいふく]も\n[Ruby 忘;わす]れないようにしましょう。[0002:0000:0A 00][0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_peach_op_03#5",
+   "label": "MES_OPeach_03_Opening_tut_11",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]こっちは [Color #2C64FF][Ruby 会議;かいぎ][Ruby 室;しつ][Color #373737][Color #373737]じゃないですよ～[0002:0001:][Next][Color #373737][Color #2C64FF][Ruby 会議;かいぎ][Ruby 室;しつ][Color #373737][Color #373737]は あっちですよ～[0002:0001:][Color #373737]"
+  }
+ ]
+}

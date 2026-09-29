@@ -1,0 +1,22 @@
+{
+ "batch": "FMsg__o_test_mk_01",
+ "rooms": [
+  "o_test_mk_01"
+ ],
+ "ds_rooms": [],
+ "ds_reference": [],
+ "glossary": [],
+ "messages": [
+  {
+   "id": "FMsg/o_test_mk_01#0",
+   "label": "MES_work_mk_01",
+   "style": 6,
+   "src": "テストテキスト{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  }
+ ]
+}

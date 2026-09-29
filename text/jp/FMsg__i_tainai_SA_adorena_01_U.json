@@ -1,0 +1,117 @@
+{
+ "source": "Msg/JP_ja/FMsg.dat:i_tainai_SA_adorena_01_U",
+ "messages": [
+  {
+   "id": "FMsg/i_tainai_SA_adorena_01_U#0",
+   "label": "MES_SA_SUB_KPower_big_01_SA_BIG_TUT_10",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]マリオ！ ルイージ！\nこれは [Ruby ２人;ふたり]で いっしょに\nうってみて！[0002:0001:][Next][Ruby 両方;りょうほう]の ボタンを\n[Color #2C64FF][Ruby 押;お]しっぱなし[Color #373737][Color #373737]にして\nたくさん うってみましょう！[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/i_tainai_SA_adorena_01_U#1",
+   "label": "MES_SA_MAIN_KPower_big_01_koopa_lvup_1",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]エネルギーが もどってきたみたい！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_tainai_SA_adorena_01_U#2",
+   "label": "MES_SA_MAIN_KPower_big_01_koopa_lvup_2",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]エネルギーが [Ruby 強;つよ]くなってきたわ！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_tainai_SA_adorena_01_U#3",
+   "label": "MES_SA_MAIN_KPower_big_01_koopa_lvup_3",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]クッパが [Ruby 動;うご]きだしたみたいよ！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_tainai_SA_adorena_01_U#4",
+   "label": "MES_SA_MAIN_KPower_big_02_koopa_lvup_1",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]エネルギーが もどってきたみたい！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_tainai_SA_adorena_01_U#5",
+   "label": "MES_SA_MAIN_KPower_big_02_koopa_lvup_2",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]エネルギーが [Ruby 強;つよ]くなってきたわ！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_tainai_SA_adorena_01_U#6",
+   "label": "MES_SA_MAIN_KPower_big_02_koopa_lvup_3",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]クッパが [Ruby 動;うご]きだしたみたいよ！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_tainai_SA_adorena_01_U#7",
+   "label": "MES_SA_SUB_KPower_big_01_SA_BIG_TUT_01",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]アドレナリバーで なにをすれば\nいいのかしら？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_tainai_SA_adorena_01_U#8",
+   "label": "MES_SA_SUB_KPower_big_01_SA_BIG_TUT_02",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]これは アドレナリン！？[0002:0001:][Next][Color #FF4343][Ruby 赤;あか]いアドレナリン[Color #373737]だから\n[Color #FF4343]マリオ[Color #373737]が うってみて！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_tainai_SA_adorena_01_U#9",
+   "label": "MES_SA_SUB_KPower_big_01_SA_BIG_TUT_03",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 飛;と]んできた アドレナリンを\nビームで うち[Ruby 返;かえ]せばいいのね。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_tainai_SA_adorena_01_U#10",
+   "label": "MES_SA_SUB_KPower_big_01_SA_BIG_TUT_04",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]こんどは [Color #00BB27][Ruby 緑;みどり][Color #373737]だから\n[Color #00BB27]ルイージ[Color #373737]ね！[0002:0001:][Next][0001:0004:]もう[Ruby 少;すこ]し [Ruby 左;ひだり]よ！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_tainai_SA_adorena_01_U#11",
+   "label": "MES_SA_SUB_KPower_big_01_SA_BIG_TUT_05",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]アドレナリンを うち[Ruby 返;かえ]すと\nこの アドレナメーターが\nふえていくわ！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_tainai_SA_adorena_01_U#12",
+   "label": "MES_SA_SUB_KPower_big_01_SA_BIG_TUT_06",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]アドレナメーターを\nいっぱいにすれば[0002:0001:][Next]アドレナリンの [Ruby 作用;さよう]で\nクッパの エネルギーが\n[Ruby 復活;ふっかつ]するんじゃないかしら！[0002:0001:][Next][Color #FF4343][Ruby 赤;あか]い[Color #373737]のは [Color #FF4343]マリオ[Color #373737]\n[Color #00BB27][Ruby 緑;みどり][Color #373737]のは [Color #00BB27]ルイージ[Color #373737]が うつのよ！\nまちがえないでね！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_tainai_SA_adorena_01_U#13",
+   "label": "MES_SA_SUB_KPower_big_01_SA_BIG_TUT_07",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]アドレナリンが [Ruby 復活;ふっかつ]のボートに\n[Ruby 当;あ]たると ハートが\n[Ruby 減;へ]ってしまうようね。[0002:0001:][Next][0001:0004:]アドレナリンに [Ruby 当;あ]たらないように\n[Ruby 気;き]をつけてね！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_tainai_SA_adorena_01_U#14",
+   "label": "MES_SA_SUB_KPower_big_01_SA_BIG_TUT_08",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]なに これ！？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_tainai_SA_adorena_01_U#15",
+   "label": "MES_SA_SUB_KPower_big_01_SA_BIG_TUT_09",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]あのアドレナリンは １[Ruby 回;かい]では\nうち[Ruby 返;かえ]せないかも しれないわね。[0002:0001:]"
+  }
+ ]
+}

@@ -1,0 +1,154 @@
+{
+ "batch": "FMsg__k_o_koopa_end_01",
+ "rooms": [
+  "k_o_koopa_end_01"
+ ],
+ "ds_rooms": [],
+ "ds_reference": [],
+ "glossary": [
+  {
+   "jp": "お父さん",
+   "ko": "아빠",
+   "type": "term",
+   "basis": "coined",
+   "source": "FMsg/k_o_koopa_14#55",
+   "note": "쿠파주니어가 쿠파를 부르는 말(어린이 말투) [gl_kj]"
+  }
+ ],
+ "messages": [
+  {
+   "id": "FMsg/k_o_koopa_end_01#0",
+   "label": "Kjrpg_11_Koopa_ed06_01",
+   "style": 6,
+   "src": "んごおおおおお…{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/k_o_koopa_end_01#2",
+    "FMsg/k_o_koopa_end_01#4",
+    "FMsg/k_o_koopa_end_01#5",
+    "FMsg/k_o_koopa_end_01#7",
+    "FMsg/k_o_koopa_end_01#10",
+    "FMsg/k_o_koopa_end_01#12"
+   ]
+  },
+  {
+   "id": "FMsg/k_o_koopa_end_01#1",
+   "label": "Kjrpg_11_Koopa_ed06_02",
+   "style": 6,
+   "src": "お父さん…{1:pause}\n寝てる？{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_end_01#3",
+   "label": "Kjrpg_11_Koopa_ed06_04",
+   "style": 6,
+   "src": "話をしに\nきたんだけど…{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_end_01#6",
+   "label": "Kjrpg_11_Koopa_ed06_08",
+   "style": 6,
+   "src": "…{1:pause}起きないか。{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_end_01#8",
+   "label": "Kjrpg_11_Koopa_ed06_06_01",
+   "style": 6,
+   "src": "みんなと冒険して…{1:wait}[Next]楽しかったこととか…{2:wait}[Next]つらかったこととか…{3:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_end_01#9",
+   "label": "Kjrpg_11_Koopa_ed06_06_02",
+   "style": 6,
+   "src": "色々と話そうと\n思ったんだけど…{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_end_01#11",
+   "label": "Kjrpg_11_Koopa_ed06_12",
+   "style": 6,
+   "src": "お父さん。{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_end_01#13",
+   "label": "Kjrpg_11_Koopa_ed06_14",
+   "style": 6,
+   "src": "ありがとう。{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_end_01#14",
+   "label": "Kjrpg_11_Koopa_ed06_15",
+   "style": 6,
+   "src": "んご…{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_end_01#15",
+   "label": "Kjrpg_11_Koopa_ed06_16",
+   "style": 6,
+   "src": "フン…{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/k_o_koopa_r_28#31"
+   ]
+  },
+  {
+   "id": "FMsg/k_o_koopa_end_01#16",
+   "label": "Kjrpg_11_Koopa_ed06_17",
+   "style": 6,
+   "src": "少し見ない間に\n大きくなるもんだ…{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  }
+ ]
+}

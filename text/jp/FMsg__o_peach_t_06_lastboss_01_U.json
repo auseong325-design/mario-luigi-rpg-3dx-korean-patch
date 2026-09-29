@@ -1,0 +1,61 @@
+{
+ "source": "Msg/JP_ja/FMsg.dat:o_peach_t_06_lastboss_01_U",
+ "messages": [
+  {
+   "id": "FMsg/o_peach_t_06_lastboss_01_U#0",
+   "label": "MES_EV_MAIN_TPeach_15_Last_battle_05_2",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]なんだ！？[0002:0000:0A 00] [Ruby 暗黒;あんこく]のパワーってのは\n[Ruby 風;かぜ]を[Ruby 起;お]こすだけか！！[0002:0001:][Next][0001:0004:]たいしたこと ないな！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_peach_t_06_lastboss_01_U#1",
+   "label": "MES_EV_MAIN_TPeach_15_Last_battle_05_3",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ぬぐぐぐぐ…[0002:0000:1E 00]"
+  },
+  {
+   "id": "FMsg/o_peach_t_06_lastboss_01_U#2",
+   "label": "MES_EV_MAIN_TPeach_15_Last_battle_11",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]どういうことだ？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_peach_t_06_lastboss_01_U#3",
+   "label": "MES_EV_MAIN_TPeach_15_Last_battle_13",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]なんだ！？[0002:0000:0A 00] こんなときに\n[Color #FF4343]マリオ[Color #373737][Color #373737]と [Color #373737][Color #00BB27][Ruby 緑;みどり]のヒゲ[Color #373737][Color #373737]の[Ruby 声;こえ]が…[0002:0001:] [Color #373737]"
+  },
+  {
+   "id": "FMsg/o_peach_t_06_lastboss_01_U#4",
+   "label": "MES_EV_MAIN_TPeach_15_Last_battle_15",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]なに！？ なんだと！？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_peach_t_06_lastboss_01_U#5",
+   "label": "MES_EV_MAIN_TPeach_15_Last_battle_17",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]なんだ！？ \nよく [Ruby 聞;き]こえないぞ！！[0002:0001:][Next]おい！ チッピー！\nオマエの[Ruby 他;ほか]に だれがいるんだ！？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_peach_t_06_lastboss_01_U#6",
+   "label": "MES_EV_MAIN_TPeach_15_Last_battle_07",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]おっ チッピーか！？[0002:0001:][Next][Ruby 外;そと]は なかなか\nすごいことになっているぞ！[0002:0001:][Next]オマエに [Ruby 見;み]せられなくて\nザンネンだ！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_peach_t_06_lastboss_01_U#7",
+   "label": "MES_EV_MAIN_TPeach_15_Last_battle_09",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]なんだ？ こんなときに！！[0002:0001:]"
+  }
+ ]
+}

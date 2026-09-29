@@ -1,0 +1,264 @@
+{
+ "source": "Msg/JP_ja/FMsg.dat:o_koopa_18_geraexpress_01",
+ "messages": [
+  {
+   "id": "FMsg/o_koopa_18_geraexpress_01#0",
+   "label": "MES_EV_SKoopa_18_EVSK18_koopa_01",
+   "style": 9,
+   "attr": "00000000",
+   "jp": "[0009:0000:09 00][0001:0004:][0005:0000:]のわ～～～～～～っ！！\nなんだこれは～～～～っ！！[0002:0000:1E 00]"
+  },
+  {
+   "id": "FMsg/o_koopa_18_geraexpress_01#1",
+   "label": "MES_EV_SKoopa_18_EVSK18_koopa_02",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:][0001:0001:]いつのまに こんなものを！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_koopa_18_geraexpress_01#2",
+   "label": "MES_EV_SKoopa_18_EVSK18_koopa_03",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:][0001:0001:][Ruby 無事;ぶじ]なもんか！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_koopa_18_geraexpress_01#3",
+   "label": "MES_EV_SKoopa_18_EVSK18_koopa_04",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]オ[0002:0000:05 00] オマエら！！\nこれはいったい どういうことだっ！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_koopa_18_geraexpress_01#4",
+   "label": "MES_EV_SKoopa_18_EVSK18_koopa_05",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:][0001:0001:]くっ！[0002:0000:0A 00] [Ruby 確;たし]かにそうだったが…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_koopa_18_geraexpress_01#5",
+   "label": "MES_EV_SKoopa_18_EVSK18_koopa_06",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]しかし こんなところに\n[Ruby 線路;せんろ]を [Ruby 作;つく]れなどと\n[Ruby 言;い]った[Ruby 覚;おぼ]えはないぞ！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_koopa_18_geraexpress_01#6",
+   "label": "MES_EV_SKoopa_18_EVSK18_koopa_07",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:][0001:0001:]すっかり あやつられおって！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_koopa_18_geraexpress_01#7",
+   "label": "MES_EV_SKoopa_18_EVSK18_koopa_08",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]そうだ！ [Color #2C64FF]スターワクチン[Color #373737][Color #373737]だ！\nこの[Ruby 部屋;へや]にあるはずだ！[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/o_koopa_18_geraexpress_01#8",
+   "label": "MES_EV_SKoopa_18_EVSK18_koopa_09",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:][0001:0001:][Ruby 金庫;きんこ]だと？ どこだ！？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_koopa_18_geraexpress_01#9",
+   "label": "MES_EV_SKoopa_18_EVSK18_koopa_03_2",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:][0001:0001:]このレールを [Ruby 見;み]てみろ！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_koopa_18_geraexpress_01#10",
+   "label": "MES_EV_SKoopa_18_EVSK18_cholopu_01",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:][0001:0001:]クッパ[Ruby 城;じょう]～[0002:0000:0A 00] クッパ[Ruby 城;じょう]～[0002:0000:14 00]"
+  },
+  {
+   "id": "FMsg/o_koopa_18_geraexpress_01#11",
+   "label": "MES_EV_SKoopa_18_EVSK18_cholopu_02",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:][Ruby 古;ふる]くなって [Ruby 建;た]てなおしが[Ruby 必要;ひつよう]なのに\nケチンボ[Ruby 大魔王;だいまおう]のせいで いつまでも\nボロいままの クッパ[Ruby 城;じょう]に[Ruby 到着;とうちゃく]～！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_koopa_18_geraexpress_01#12",
+   "label": "MES_EV_SKoopa_18_EVSK18_cholopu_03",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:][0001:0001:]どうと[Ruby 言;い]われても…[0002:0000:05 00] ねぇ。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_koopa_18_geraexpress_01#13",
+   "label": "MES_EV_SKoopa_18_EVSK18_cholopu_04",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]ごらんのとおり あんたの\n[Ruby 命令;めいれい]どおりの ひみつトンネルが\n[Ruby 完成;かんせい]したってことよ！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_koopa_18_geraexpress_01#14",
+   "label": "MES_EV_SKoopa_18_EVSK18_cholopu_05",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]あんただって いっしょにドリルで\n[Ruby 穴;あな]を ほったじゃねぇか！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_koopa_18_geraexpress_01#15",
+   "label": "MES_EV_SKoopa_18_EVSK18_cholopu_06",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:][0001:0001:]ふん！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_koopa_18_geraexpress_01#16",
+   "label": "MES_EV_SKoopa_18_EVSK18_cholopu_07",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]その ひみつトンネルを\nゲラコビッツ[Ruby 財団;ざいだん]が [Ruby 買;か]い[Ruby 取;と]ったのさ！[0002:0001:][Next][0001:0004:]バイシューってやつだよ！\nわかるかい？[0002:0000:0A 00] バ[0002:0000:05 00]・イ[0002:0000:05 00]・シュー！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_koopa_18_geraexpress_01#17",
+   "label": "MES_EV_SKoopa_18_EVSK18_cholopu_08",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]おかげで [Ruby 穴;あな]ほりの[Ruby 仕事;しごと]を\n[Ruby 他;ほか]のやつらに まかせられるように\nなったんだよ！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_koopa_18_geraexpress_01#18",
+   "label": "MES_EV_SKoopa_18_EVSK18_cholopu_09",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:][Ruby 今;いま]じゃオレ[Ruby 達;たち]\nゲラエクスプレスの エリート[Ruby 社員;しゃいん]さ！！\n[Ruby 給料;きゅうりょう]も いいんだぜ！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_koopa_18_geraexpress_01#19",
+   "label": "MES_EV_SKoopa_18_EVSK18_patabon_01",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]クッパ[Ruby 様;さま]～！！\nまたお[Ruby 会;あ]いできて [Ruby 光栄;こうえい]です～！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_koopa_18_geraexpress_01#20",
+   "label": "MES_EV_SKoopa_18_EVSK18_patabon_02",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:][0001:0001:]そうです！ そうです！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_koopa_18_geraexpress_01#21",
+   "label": "MES_EV_SKoopa_18_EVSK18_patabon_03",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]それよりも [Color #2C64FF]スターワクチン[Color #373737][Color #373737]を\n[Ruby 探;さが]しにきたのですよね？[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/o_koopa_18_geraexpress_01#22",
+   "label": "MES_EV_SKoopa_18_EVSK18_kuriki_01",
+   "style": 9,
+   "attr": "00000000",
+   "jp": "[0009:0000:09 00][0001:0004:][0001:0001:][0005:0000:]クッパ[Ruby 様;さま]！[0002:0000:1E 00]"
+  },
+  {
+   "id": "FMsg/o_koopa_18_geraexpress_01#23",
+   "label": "MES_EV_SKoopa_18_EVSK18_kuriki_02",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]パタボンと ヘイファーが\n[Ruby 見;み]つかりました！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_koopa_18_geraexpress_01#24",
+   "label": "MES_EV_SKoopa_18_EVSK18_koopa_10",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:][0001:0001:]あれか！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_koopa_18_geraexpress_01#25",
+   "label": "MES_EV_SKoopa_18_EVSK18_kuriki_03",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:][0001:0001:]うわっ！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_koopa_18_geraexpress_01#26",
+   "label": "MES_EV_SKoopa_18_EVSK18_koopa_11",
+   "style": 10,
+   "attr": "00000000",
+   "jp": "[0009:0000:0A 00][0001:0004:][0001:0001:]のわ～～！！[0002:0000:1E 00]"
+  },
+  {
+   "id": "FMsg/o_koopa_18_geraexpress_01#27",
+   "label": "MES_EV_SKoopa_18_EVSK18_kuriki_04",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]だれが こんなところに\n[Ruby 線路;せんろ]を [Ruby 敷;し]いたんだ！？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_koopa_18_geraexpress_01#28",
+   "label": "MES_EV_SKoopa_18_EVSK18_kuriki_05",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:][0001:0001:]クッパ[Ruby 様;さま]！ クッパ[Ruby 様;さま]！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_koopa_18_geraexpress_01#29",
+   "label": "MES_EV_SKoopa_18_EVSK18_kuriki_06",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]あんなやつら [Ruby 相手;あいて]に\nしちゃいけません！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_koopa_18_geraexpress_01#30",
+   "label": "MES_EV_SKoopa_18_EVSK18_cholopu_10",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]ゲラコビッツ[Ruby 様;さま]が [Ruby 作;つく]った\nこのゲラエクスプレスは [Ruby 最高;さいこう]さ～！\nあんたも [Ruby 乗;の]ってみるかい？[0002:0001:][Next][0001:0004:]おっと…[0002:0000:0A 00]\nそういえば [Ruby 乗車料金;じょうしゃりょうきん]は\nと～っても [Ruby 高;たか]かったよね～？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_koopa_18_geraexpress_01#31",
+   "label": "MES_EV_SKoopa_18_EVSK18_cholopu_11",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]このボロっちい[Ruby 城;しろ]を [Ruby 売;う]っても\nはらいきれない だろうね～[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_koopa_18_geraexpress_01#32",
+   "label": "MES_EV_SKoopa_18_EVSK18_heyfa_01",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]この[Ruby 城;しろ]も [Ruby 無事;ぶじ]のようで\n[Ruby 安心;あんしん]しました～！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_koopa_18_geraexpress_01#33",
+   "label": "MES_EV_SKoopa_18_EVSK18_cholopu_12",
+   "style": 10,
+   "attr": "00000000",
+   "jp": "[0009:0000:0A 00][0001:0004:][0001:0001:][0005:0000:]ワハハハハハハ！！[0002:0000:1E 00]"
+  },
+  {
+   "id": "FMsg/o_koopa_18_geraexpress_01#34",
+   "label": "MES_EV_SKoopa_18_EVSK18_heyfa_02",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:][0001:0001:][Color #2C64FF]スターワクチン[Color #373737][Color #373737]なら [Ruby 確;たし]か…[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/o_koopa_18_geraexpress_01#35",
+   "label": "MES_EV_SKoopa_18_EVSK18_cholopu_13",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:][0001:0001:]ゲラエクスプレス [Ruby 出発;しゅっぱつ]～～！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_koopa_18_geraexpress_01#36",
+   "label": "MES_EV_SKoopa_18_EVSK18_heyfa_03",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]あの[Ruby 金庫;きんこ]の[Ruby 中;なか]に しまって\nあるはずです！[0002:0001:]"
+  }
+ ]
+}

@@ -1,0 +1,86 @@
+{
+ "batch": "FMsg__o_areanone_k_lastbattle_01_U",
+ "rooms": [
+  "o_areanone_k_lastbattle_01_U"
+ ],
+ "ds_rooms": [],
+ "ds_reference": [],
+ "glossary": [
+  {
+   "jp": "クッパ",
+   "ko": "쿠파",
+   "type": "boss",
+   "basis": "DS",
+   "source": "BData__mfset_MonN#65",
+   "note": "마리오 일행이 싸우는 쿠파. glossary 확정값과 동일 [gl_enemies]"
+  },
+  {
+   "jp": "クッパJr.",
+   "ko": "쿠파주니어",
+   "type": "character",
+   "basis": "official",
+   "source": "https://www.nintendo.com/kr/switch/aabpa/sp/character/",
+   "note": "glossary 확정값. 부하들이 부를 때는 '쿠파주니어님' [gl_enemies]"
+  },
+  {
+   "jp": "クッパ軍団",
+   "ko": "쿠파 군단",
+   "type": "other",
+   "basis": "DS",
+   "source": "FEvent#23E.19",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "お父さん",
+   "ko": "아빠",
+   "type": "term",
+   "basis": "coined",
+   "source": "FMsg/k_o_koopa_14#55",
+   "note": "쿠파주니어가 쿠파를 부를 때 '아빠'. 다른 장면은 문맥대로(아내가 남편을 부르면 DS09D대로 '여보')"
+  },
+  {
+   "jp": "軍団",
+   "ko": "군단",
+   "type": "term",
+   "basis": "DS",
+   "source": "BAI__BMes_cf#0.20",
+   "note": "[gl_attacks]"
+  }
+ ],
+ "messages": [
+  {
+   "id": "FMsg/o_areanone_k_lastbattle_01_U#0",
+   "label": " Kjrpg_11_Koopa_qst08_17_01",
+   "style": 10,
+   "src": "クッパ軍団だ！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:0A 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_areanone_k_lastbattle_01_U#1",
+   "label": " Kjrpg_11_Koopa_qst08_17_02",
+   "style": 9,
+   "src": "ボクはクッパJr.！{1:wait}[Next]クッパ軍団は…{2:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:09 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_areanone_k_lastbattle_01_U#2",
+   "label": " Kjrpg_11_Koopa_qst08_17_03",
+   "style": 10,
+   "src": "ボクとお父さんの軍団だ！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:0A 00]",
+   "dups": []
+  }
+ ]
+}

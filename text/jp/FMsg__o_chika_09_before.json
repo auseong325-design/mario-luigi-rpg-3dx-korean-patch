@@ -1,0 +1,292 @@
+{
+ "source": "Msg/JP_ja/FMsg.dat:o_chika_09_before",
+ "messages": [
+  {
+   "id": "FMsg/o_chika_09_before#0",
+   "label": "MES_Chika_09_before_Chika_drill_macine_08",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ご[Ruby 命令;めいれい]の ひみつトンネル[Ruby 作;づく]りは\n[Ruby 順調;じゅんちょう]に[Ruby 進;すす]んでいるで あります！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_chika_09_before#1",
+   "label": "MES_Chika_09_before_Chika_drill_macine_09",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ひみつトンネル[Ruby 作;づく]り？[0002:0000:0A 00]\nなんだ それは！？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_chika_09_before#2",
+   "label": "MES_Chika_09_before_Chika_drill_macine_20",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ええい！[0002:0000:0A 00] [Ruby 頼;たよ]りにならんやつらだ！\nワガハイが なんとかするわ！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_chika_09_before#3",
+   "label": "MES_Chika_09_before_Chika_drill_macine_21",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]クッパ[Ruby 様;さま]～～\nだいじょうぶですか～？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_chika_09_before#4",
+   "label": "MES_Chika_09_before_Chika_drill_macine_22",
+   "style": 9,
+   "attr": "00000000",
+   "jp": "[0009:0000:09 00]ぬおおおおおおお！！[0002:0000:1E 00]"
+  },
+  {
+   "id": "FMsg/o_chika_09_before#5",
+   "label": "MES_Chika_09_before_Chika_drill_macine_25",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0001:]あ。[0002:0000:0A 00][0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_chika_09_before#6",
+   "label": "MES_Chika_09_before_Chika_drill_macine_26",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]どうした？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_chika_09_before#7",
+   "label": "MES_Chika_09_before_Chika_drill_macine_27",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ドリルマシンの[Ruby 電池;でんち]…\n[Color #2C64FF]１[Color #373737][Color #373737][Ruby 分;ぷん][Color #373737][Color #2C64FF]３０[Color #373737][Color #373737][Ruby 秒;びょう]しかもたないぞ…[0002:0001:][Next]とちゅうで[Ruby 切;き]れたら もどってきて\n[Ruby 取;と]りかえないと…[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/o_chika_09_before#8",
+   "label": "MES_Chika_09_before_Chika_drill_macine_28",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]しかも あの[Ruby 電池;でんち] １つ\n[Color #2C64FF]５０[Color #373737][Color #373737]コインも するんだよな…[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/o_chika_09_before#9",
+   "label": "MES_Chika_09_before_Chika_drill_macine_29",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]クッパ[Ruby 様;さま]なら こころよく\nはらって くれるだろ…[0002:0001:][Next]いや[0002:0000:0A 00] クッパ[Ruby 様;さま]なら\n[Color #2C64FF]１[Color #373737][Color #373737][Ruby 分;ぷん][Color #373737][Color #2C64FF]３０[Color #373737][Color #373737][Ruby 秒以内;びょういない]に キノコタウンまで\nいっきに [Ruby 行;い]ってくれるだろ！[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/o_chika_09_before#10",
+   "label": "MES_Chika_09_before_Chika_drill_macine_40",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 今;いま] クッパ[Ruby 様;さま]が\n[Ruby 苦労;くろう]して ほっていった[Ruby 道;みち]が\nくずれてうまって しまいました！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_chika_09_before#11",
+   "label": "MES_Chika_09_before_Chika_drill_macine_41",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]ぐううううううう！！[0002:0001:][Next][Color #2C64FF]１[Color #373737][Color #373737][Ruby 分;ぷん][Color #373737][Color #2C64FF]３０[Color #373737][Color #373737][Ruby 秒以内;びょういない]に キノコタウンまで\nたどりつけば いいんだろ！！[0002:0001:][Next][0001:0004:]やってやるわ！！[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/o_chika_09_before#12",
+   "label": "MES_Chika_09_before_Chika_drill_macine_42",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ぐむむむ！ ワガハイも\n[Ruby 持;も]ち[Ruby 合;あ]わせが ないぞ！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_chika_09_before#13",
+   "label": "MES_Chika_09_before_Chika_drill_macine_43",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]じゃあ ここは[Ruby 私;わたし]が\nたてかえておきます…[0002:0001:][Next][0001:0004:]あとで はらってくださいね…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_chika_09_before#14",
+   "label": "MES_work_omit_06",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0004:0001:]ミニゲーム失敗\n[0004:0001:]ミニゲーム成功[0002:0000:1E 00]"
+  },
+  {
+   "id": "FMsg/o_chika_09_before#15",
+   "label": "MES_Chika_09_before_Chika_drill_macine_10",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]クッパ[Ruby 様;さま]が ピーチ[Ruby 姫;ひめ]を\n[Ruby 連;つ]れさったとき [Ruby 逃;に]げやすいように\n[Ruby 地下;ちか]トンネルを[Ruby 作;つく]れと…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_chika_09_before#16",
+   "label": "MES_Chika_09_before_Chika_drill_macine_11",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]ひみつトンネル[Ruby 作;づく]り…\n[Ruby 名;な]づけて プロジェクトK！[0002:0001:][Next]その プロジェクトに\n[Ruby 我々;われわれ] チョロプー[Ruby 兄弟;きょうだい]が\n[Ruby 任命;にんめい]されたであります！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_chika_09_before#17",
+   "label": "MES_Chika_09_before_Chika_drill_macine_12",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]そういえば そんなことを\n[Ruby 言;い]ったような [Ruby 気;き]もするな。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_chika_09_before#18",
+   "label": "MES_Chika_09_before_Chika_drill_macine_13",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]しかし オマエ[Ruby 達;たち]\nさっきから [Ruby 見;み]てたが\nぜんぜん [Ruby 進;すす]んでないじゃないか！[0002:0001:][Next][0001:0004:][0001:0001:][Ruby 気合;きあ]いが [Ruby 足;た]らんぞ！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_chika_09_before#19",
+   "label": "MES_Chika_09_before_Chika_drill_macine_14",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]ももも… [Ruby 申;もう]しわけありません！[0002:0001:][Next]ここを [Ruby 進;すす]んでいけば\n[Color #2C64FF]キノコタウン[Color #373737][Color #373737]の[Ruby 地下;ちか]に\nつながるはずなんですが…[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/o_chika_09_before#20",
+   "label": "MES_Chika_09_before_Chika_drill_macine_15",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 土;つち]が かたすぎて\n[Ruby 行;い]きづまっているであります！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_chika_09_before#21",
+   "label": "MES_Chika_09_before_Chika_drill_macine_16",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]この[Ruby 先;さき]は [Color #2C64FF]キノコタウン[Color #373737][Color #373737]に\nつながっているのか！？[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/o_chika_09_before#22",
+   "label": "MES_Chika_09_before_Chika_drill_macine_17",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]はい！[0002:0000:0A 00] [Ruby 一直線;いっちょくせん]に\n[Ruby 進;すす]むだけであります！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_chika_09_before#23",
+   "label": "MES_Chika_09_before_Chika_drill_macine_18",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]そうか！[0002:0000:0A 00] それなら\nさっさと ほりまくるのだ！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_chika_09_before#24",
+   "label": "MES_Chika_09_before_Chika_drill_macine_19",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ですから\n[Ruby 土;つち]が かたくて…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_chika_09_before#25",
+   "label": "MES_Chika_09_before_Chika_drill_macine_31",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Color #2C64FF]１[Color #373737][Color #373737][Ruby 分;ぷん][Color #373737][Color #2C64FF]３０[Color #373737][Color #373737][Ruby 秒;びょう]しかもたない [Ruby 電池;でんち]なんて\n[Ruby 聞;き]いたことないぞ！！[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/o_chika_09_before#26",
+   "label": "MES_Chika_09_before_Chika_drill_macine_32",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]なにぶん ドリルマシンの\nパワーが [Ruby 強力;きょうりょく]なもんで…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_chika_09_before#27",
+   "label": "MES_Chika_09_before_Chika_drill_macine_33",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]はやく とりかえろ！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_chika_09_before#28",
+   "label": "MES_Chika_09_before_Chika_drill_macine_34",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]え～っと クッパ[Ruby 様;さま]…[0002:0001:][Next]ドリルマシンの[Ruby 電池;でんち]\n１つ [Color #2C64FF]５０[Color #373737][Color #373737]コインします…[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/o_chika_09_before#29",
+   "label": "MES_Chika_09_before_Chika_drill_macine_35",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ええい！ はらってやるから\nさっさと [Ruby 続;つづ]けるぞ！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_chika_09_before#30",
+   "label": "MES_Chika_09_before_Chika_drill_macine_36",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]どうした！？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_chika_09_before#31",
+   "label": "MES_Chika_09_before_Chika_drill_macine_37",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]オマエ！[0002:0000:0A 00] [Ruby 様子;ようす]を[Ruby 見;み]てこい！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_chika_09_before#32",
+   "label": "MES_Chika_09_before_Chika_drill_macine_38",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]まさか [Ruby 今;いま] クッパ[Ruby 様;さま]が\n[Ruby 苦労;くろう]して ほっていった[Ruby 道;みち]が\nくずれてうまって しまった… とか。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_chika_09_before#33",
+   "label": "MES_Chika_09_before_Chika_drill_macine_39",
+   "style": 9,
+   "attr": "00000000",
+   "jp": "[0009:0000:09 00][Ruby 大変;たいへん]です！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_chika_09_before#34",
+   "label": "MES_Chika_09_before_Chika_drill_macine_01",
+   "style": 9,
+   "attr": "00000000",
+   "jp": "[0009:0000:09 00]お～い！[0002:0000:0A 00] さっきから\nぜんぜん [Ruby 進;すす]んでね～ぞ～！[0002:0001:][Next]ドリルのパワーを もっと\n[Ruby 上;あ]げるんだ～～！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_chika_09_before#35",
+   "label": "MES_Chika_09_before_Chika_drill_macine_02",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]も[0002:0000:0A 00] もうこれが\n[Ruby 限界;げんかい]ですぜ～！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_chika_09_before#36",
+   "label": "MES_Chika_09_before_Chika_drill_macine_03",
+   "style": 9,
+   "attr": "00000000",
+   "jp": "[0009:0000:09 00]あきらめるな～！\n[Ruby 最後;さいご]まで [Ruby 希望;きぼう]を[Ruby 捨;す]てるな～！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_chika_09_before#37",
+   "label": "MES_Chika_09_before_Chika_drill_macine_04",
+   "style": 9,
+   "attr": "00000000",
+   "jp": "[0009:0000:09 00]オレ[Ruby 達;たち]は クッパ[Ruby 様;さま]に[Ruby 選;えら]ばれた\nエリート[Ruby 中;ちゅう]の エリートなんだぞ～！[0002:0001:][Next]こんなことくらいで\nあきらめるな～！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_chika_09_before#38",
+   "label": "MES_Chika_09_before_Chika_drill_macine_05",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]おい！[0002:0000:0A 00] なにやってるんだ！？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_chika_09_before#39",
+   "label": "MES_Chika_09_before_Chika_drill_macine_06",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ク[0002:0000:0A 00] クッパ[Ruby 様;さま]！？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_chika_09_before#40",
+   "label": "MES_Chika_09_before_Chika_drill_macine_07",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]オ[0002:0000:0A 00] オマエ[Ruby 達;たち]！[0002:0000:0A 00]\nいったん [Ruby 作業中止;さぎょうちゅうし]～！[0002:0001:]"
+  }
+ ]
+}

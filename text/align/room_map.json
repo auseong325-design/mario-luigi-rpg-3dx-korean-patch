@@ -1,0 +1,933 @@
+{
+"cs_scn_01_metakoro_03_U": [
+"09C"
+],
+"ev_MAIN_town_20": [
+"21D"
+],
+"ev_zutsuda_09": [
+"13D"
+],
+"fcommon": [],
+"i_air_01": [
+"181"
+],
+"i_air_06": [],
+"i_air_07": [
+"17F"
+],
+"i_air_08": [
+"17C"
+],
+"i_air_12": [
+"180"
+],
+"i_air_13": [
+"1F1"
+],
+"i_air_14": [
+"1F2"
+],
+"i_air_17": [
+"1F4"
+],
+"i_air_20": [],
+"i_air_21": [],
+"i_air_22": [],
+"i_areanone_op_02_L": [
+"29D"
+],
+"i_areanone_puzzle_01_L": [],
+"i_areanone_puzzle_01_U": [],
+"i_areanone_puzzle_02_L": [],
+"i_areanone_puzzle_02_U": [],
+"i_challenge_01": [
+"28A"
+],
+"i_dokan_01": [
+"12E"
+],
+"i_energy_01": [
+"0A4"
+],
+"i_energy_02": [
+"0A5"
+],
+"i_energy_05": [
+"0B9"
+],
+"i_energy_08": [
+"0DF"
+],
+"i_energy_11": [
+"0BD"
+],
+"i_energy_14": [
+"0C0"
+],
+"i_energy_15": [
+"0E1"
+],
+"i_energy_16": [
+"0E2"
+],
+"i_energy_18": [
+"0C2"
+],
+"i_energy_19": [
+"0E3"
+],
+"i_energy_20": [
+"0E4"
+],
+"i_energy_22": [
+"0E5"
+],
+"i_energy_24": [
+"0E6"
+],
+"i_energy_25": [
+"0E7"
+],
+"i_energy_31": [],
+"i_energy_32": [
+"110"
+],
+"i_fire_02": [
+"039"
+],
+"i_garakuta_02": [
+"1FE"
+],
+"i_garakuta_03": [
+"210"
+],
+"i_garakuta_04": [
+"203"
+],
+"i_garakuta_05": [
+"204"
+],
+"i_garakuta_06": [
+"207"
+],
+"i_garakuta_07": [
+"205"
+],
+"i_garakuta_08": [
+"211",
+"210"
+],
+"i_garakuta_10": [
+"21B"
+],
+"i_garakuta_11": [
+"212"
+],
+"i_garakuta_12": [
+"213"
+],
+"i_garakuta_13": [
+"214"
+],
+"i_kinopio_01": [
+"16A"
+],
+"i_kioku_02": [
+"14A"
+],
+"i_kioku_03": [
+"14B"
+],
+"i_koopa_13_beam_01_L": [
+"051"
+],
+"i_koopa_13_escape_01_L": [
+"05E"
+],
+"i_koshi_01": [
+"152"
+],
+"i_metaboru_01_after": [],
+"i_metaboru_02": [
+"04D"
+],
+"i_metaboru_03": [
+"04E"
+],
+"i_metaboru_04": [
+"061"
+],
+"i_metaboru_05": [
+"062"
+],
+"i_metaboru_06": [
+"063"
+],
+"i_metaboru_07": [
+"064"
+],
+"i_metaboru_09": [
+"065"
+],
+"i_metaboru_10": [
+"068"
+],
+"i_metaboru_11": [
+"083"
+],
+"i_metaboru_12": [
+"069"
+],
+"i_metaboru_14": [],
+"i_metaboru_15": [
+"04F"
+],
+"i_metaboru_16": [
+"042"
+],
+"i_metaboru_17_main": [
+"05F"
+],
+"i_metaboru_19": [
+"0B8"
+],
+"i_odoroki_01": [
+"1FC"
+],
+"i_power_arm_01": [
+"01C"
+],
+"i_power_arm_02": [
+"284",
+"28C"
+],
+"i_power_hip_01": [
+"077"
+],
+"i_power_hip_01_before": [
+"077"
+],
+"i_power_hip_SA_adorena_01_L": [
+"0FF",
+"0FE"
+],
+"i_power_leg_SA_push_01_L": [
+"136"
+],
+"i_power_lungs_SA_fire_01_L": [
+"1AB"
+],
+"i_power_nose_01": [
+"155"
+],
+"i_power_nose_SA_peppansy_01_L": [
+"155"
+],
+"i_power_stomach_02": [
+"16E"
+],
+"i_power_stomach_15_SA_giganin_01_L": [
+"034",
+"16D"
+],
+"i_press_01": [
+"13A"
+],
+"i_pump_01": [
+"005"
+],
+"i_pump_02": [
+"006"
+],
+"i_pump_04": [
+"00A"
+],
+"i_pump_08": [
+"009",
+"00A"
+],
+"i_pump_09": [
+"00A"
+],
+"i_pump_11": [
+"00A"
+],
+"i_pump_12": [
+"00A"
+],
+"i_pump_13": [
+"00C"
+],
+"i_pump_14": [
+"00A"
+],
+"i_pump_15": [
+"014"
+],
+"i_pump_16": [
+"00D"
+],
+"i_pump_17": [
+"00A"
+],
+"i_pump_18": [
+"00A"
+],
+"i_shinkei_01": [
+"03A"
+],
+"i_shinkei_03": [
+"03C"
+],
+"i_tainai_01": [
+"01B",
+"195",
+"209",
+"16C",
+"08F",
+"03E",
+"1D9",
+"19E",
+"28B",
+"1A5",
+"067",
+"089",
+"15D",
+"241",
+"108",
+"1FB",
+"0B7",
+"01A",
+"0EA",
+"033",
+"0D1",
+"0DA"
+],
+"i_tainai_SA_adorena_01_U": [
+"0FF",
+"286"
+],
+"i_test_ay_01": [
+"01C",
+"03E",
+"28B",
+"01A"
+],
+"i_test_dnh_01": [
+"00A"
+],
+"i_test_hk_01": [],
+"i_test_jk_01": [],
+"i_test_mo_01": [
+"00A"
+],
+"i_test_mo_02": [],
+"i_test_mo_03": [],
+"i_test_mo_04": [
+"00A"
+],
+"i_test_mo_05": [
+"00A"
+],
+"minimap_o_mushiba_01": [
+"044"
+],
+"o_areanone_allmap_01_U": [
+"283"
+],
+"o_areanone_allmap_bcat_U": [
+"283"
+],
+"o_areanone_dstar_setumei_01_L": [
+"095"
+],
+"o_areanone_end_02_U": [
+"29F"
+],
+"o_areanone_end_03_L": [
+"2A1"
+],
+"o_areanone_k_iggy_01_U": [],
+"o_areanone_k_lastbattle_01_U": [],
+"o_areanone_lastboss_01_L": [
+"223"
+],
+"o_areanone_lastboss_03_L": [
+"281"
+],
+"o_areanone_meter_01_U": [
+"12A"
+],
+"o_areanone_suishou_01_L": [
+"13E"
+],
+"o_chika_01": [
+"0D2"
+],
+"o_chika_04": [
+"0D5"
+],
+"o_chika_09_before": [
+"0DA"
+],
+"o_chika_12": [
+"136",
+"137"
+],
+"o_chika_geraexpress_04": [
+"157"
+],
+"o_ekubon_02": [
+"046"
+],
+"o_ekubon_02_after": [
+"28D"
+],
+"o_ekubon_03": [
+"02E"
+],
+"o_ekubon_04_1": [
+"047"
+],
+"o_ekubon_04_2": [
+"178"
+],
+"o_ekubon_06": [
+"053"
+],
+"o_ekubon_07_1": [
+"048"
+],
+"o_ekubon_07_2": [
+"049"
+],
+"o_ekubon_09_1": [
+"02F"
+],
+"o_ekubon_09_2": [
+"050"
+],
+"o_ekubon_09_koopajou_01": [
+"067"
+],
+"o_ekubon_12": [
+"04C"
+],
+"o_ekubon_13": [
+"031"
+],
+"o_ekubon_14": [
+"032"
+],
+"o_ekubon_15": [
+"033"
+],
+"o_ekubon_15_SA": [
+"034"
+],
+"o_ekubon_15_SA_giganin_01_U": [
+"034",
+"16D"
+],
+"o_ekubon_16": [
+"07F"
+],
+"o_ekubon_17": [
+"080"
+],
+"o_ekubon_18": [
+"081"
+],
+"o_ekubon_19": [
+"0A8"
+],
+"o_ekubon_21": [
+"0AA"
+],
+"o_ekubon_22": [
+"0AB"
+],
+"o_ekubon_25": [
+"0AE"
+],
+"o_ekubon_31": [],
+"o_ekubon_33": [],
+"o_ekubon_34": [
+"188"
+],
+"o_ekubon_36": [
+"18B"
+],
+"o_ekubon_37": [
+"18E"
+],
+"o_ekubon_38": [
+"18F"
+],
+"o_ekubon_39_1": [
+"190"
+],
+"o_ekubon_39_2": [
+"19C"
+],
+"o_evselect_U": [],
+"o_gepu_01": [
+"1FB"
+],
+"o_gepu_02": [
+"209"
+],
+"o_gepu_03": [
+"20A"
+],
+"o_gepu_04": [],
+"o_gepu_05_1": [
+"15D",
+"277"
+],
+"o_gepu_05_after": [
+"15D",
+"277"
+],
+"o_gepu_08": [
+"163"
+],
+"o_gepu_11": [
+"20C"
+],
+"o_ibiki_01": [
+"134"
+],
+"o_ibiki_03": [
+"0B7",
+"144"
+],
+"o_koopa_01": [
+"025"
+],
+"o_koopa_02": [
+"026"
+],
+"o_koopa_03": [
+"027"
+],
+"o_koopa_04": [
+"028"
+],
+"o_koopa_07": [
+"02B"
+],
+"o_koopa_07_after": [
+"185"
+],
+"o_koopa_08": [
+"02C"
+],
+"o_koopa_09_2_gerashow_01_U": [
+"02D"
+],
+"o_koopa_10_2": [
+"093"
+],
+"o_koopa_10_3": [],
+"o_koopa_12": [
+"08E"
+],
+"o_koopa_13_1": [
+"041"
+],
+"o_koopa_13_2": [
+"0D1"
+],
+"o_koopa_13_sub": [
+"05D"
+],
+"o_koopa_14": [
+"070"
+],
+"o_koopa_16": [
+"097"
+],
+"o_koopa_17": [
+"098"
+],
+"o_koopa_18": [
+"089"
+],
+"o_koopa_18_2_kinko_01": [
+"16C"
+],
+"o_koopa_18_geraexpress_01": [
+"16B"
+],
+"o_koopa_19": [
+"08B"
+],
+"o_koopa_22": [
+"08C"
+],
+"o_koopa_24": [
+"094"
+],
+"o_koopa_25": [
+"099"
+],
+"o_koopa_27": [
+"174"
+],
+"o_koopa_28": [
+"08F"
+],
+"o_koopa_30": [],
+"o_koopa_32": [
+"19B"
+],
+"o_koopa_34": [
+"175"
+],
+"o_koopa_36": [],
+"o_koopa_37": [
+"23C"
+],
+"o_koopa_38": [
+"28E"
+],
+"o_koopa_39": [
+"28F"
+],
+"o_koopa_end_01": [
+"23E"
+],
+"o_koopa_r_20": [],
+"o_koopa_r_22": [
+"07A"
+],
+"o_koopa_r_24": [
+"06D"
+],
+"o_koopa_r_27": [
+"07C"
+],
+"o_koopa_r_28": [],
+"o_koopa_r_31": [
+"06E"
+],
+"o_koopa_r_33": [
+"145"
+],
+"o_mushiba_01": [
+"010"
+],
+"o_mushiba_02": [
+"011"
+],
+"o_mushiba_04": [
+"013"
+],
+"o_mushiba_05_after": [
+"03D"
+],
+"o_mushiba_05_before": [
+"03E"
+],
+"o_mushiba_06": [
+"020"
+],
+"o_mushiba_10": [
+"023"
+],
+"o_mushiba_11": [
+"01A",
+"28B"
+],
+"o_mushiba_12": [
+"035"
+],
+"o_mushiba_13": [
+"036"
+],
+"o_mushiba_14": [
+"037"
+],
+"o_mushiba_16": [
+"154"
+],
+"o_mushiba_23": [],
+"o_mushiba_24": [
+"170"
+],
+"o_mushiba_25": [
+"287"
+],
+"o_otapuku_01": [],
+"o_otapuku_02": [
+"05A"
+],
+"o_otapuku_04": [
+"055"
+],
+"o_otapuku_08": [
+"29B"
+],
+"o_peach_1f_01": [
+"1D7"
+],
+"o_peach_1f_03": [
+"1D9",
+"20E",
+"20F"
+],
+"o_peach_1f_04": [],
+"o_peach_1f_08": [
+"298"
+],
+"o_peach_1f_09": [
+"241"
+],
+"o_peach_2f_01": [
+"1BF"
+],
+"o_peach_2f_04": [
+"1A3"
+],
+"o_peach_2f_09": [
+"1C5"
+],
+"o_peach_2f_14": [],
+"o_peach_2f_16": [],
+"o_peach_2f_19": [
+"1CF"
+],
+"o_peach_2f_25": [
+"1D5"
+],
+"o_peach_3f_01": [],
+"o_peach_3f_12": [],
+"o_peach_3f_13": [],
+"o_peach_3f_15": [
+"1A5"
+],
+"o_peach_3f_15_SA_fire_packun_01_U": [],
+"o_peach_g_02": [
+"1AF"
+],
+"o_peach_g_04": [
+"1AA"
+],
+"o_peach_g_06": [
+"195"
+],
+"o_peach_g_08": [
+"1E3"
+],
+"o_peach_g_09": [
+"1E6"
+],
+"o_peach_g_10": [
+"1EB"
+],
+"o_peach_g_15": [],
+"o_peach_g_16": [],
+"o_peach_g_17": [
+"19D"
+],
+"o_peach_g_18_1": [
+"19E"
+],
+"o_peach_g_18_2": [
+"1A7"
+],
+"o_peach_op_01": [
+"21A"
+],
+"o_peach_op_02": [
+"216"
+],
+"o_peach_op_03": [
+"217"
+],
+"o_peach_op_04": [
+"218"
+],
+"o_peach_t_02": [
+"237"
+],
+"o_peach_t_04": [
+"239"
+],
+"o_peach_t_06": [
+"22C"
+],
+"o_peach_t_06_lastboss_01_U": [
+"223"
+],
+"o_peach_t_06_lastboss_02_L": [
+"22C"
+],
+"o_peach_t_06_lastboss_03_U": [
+"281"
+],
+"o_peach_t_06_lastboss_04_L": [
+"281",
+"282"
+],
+"o_peach_t_07": [
+"23B"
+],
+"o_peach_t_3f_15_SA_fire_packun_01_U": [],
+"o_peach_t_SA_fire_dkoopa_01_U": [],
+"o_test_ay_01": [],
+"o_test_dnh_01": [],
+"o_test_fh_01": [],
+"o_test_fh_02": [],
+"o_test_fo_01": [
+"170"
+],
+"o_test_hk_01": [],
+"o_test_ho_01": [],
+"o_test_jk_01": [],
+"o_test_mk_01": [],
+"o_test_mo_01": [],
+"o_test_mo_02": [],
+"o_test_mo_03": [],
+"o_test_mo_04": [],
+"o_test_mo_05": [],
+"o_town_01_after": [
+"0F6"
+],
+"o_town_01_before": [
+"0F5"
+],
+"o_town_03": [
+"0EA"
+],
+"o_town_04": [
+"120"
+],
+"o_town_06": [
+"121"
+],
+"o_town_08": [
+"123"
+],
+"o_town_09": [
+"0EB"
+],
+"o_town_14": [
+"0EC"
+],
+"o_town_15": [
+"0ED"
+],
+"o_town_17": [
+"0EF"
+],
+"o_town_20": [
+"0CC"
+],
+"o_town_20_op_01_U": [
+"21D"
+],
+"o_town_23": [
+"0CF"
+],
+"o_town_24": [
+"09B"
+],
+"o_town_25_after": [
+"09D"
+],
+"o_town_25_before": [
+"09C"
+],
+"o_town_26": [
+"09E"
+],
+"o_town_28": [
+"0A1"
+],
+"o_town_29": [
+"0A0"
+],
+"o_town_30": [
+"0A2"
+],
+"o_town_31": [
+"128"
+],
+"o_town_32": [
+"129"
+],
+"o_town_33": [
+"0F2"
+],
+"o_town_34": [
+"0F4"
+],
+"o_town_34_suishou_01_U": [
+"13E"
+],
+"o_town_35": [
+"0F3"
+],
+"o_town_36": [
+"12A"
+],
+"o_town_37": [
+"12B"
+],
+"o_town_38": [
+"12C"
+],
+"o_town_39": [
+"12D"
+],
+"o_town_40": [
+"0A3"
+],
+"o_town_41": [
+"0F1"
+],
+"o_zutsuda_01": [
+"105"
+],
+"o_zutsuda_04_after": [
+"0F9"
+],
+"o_zutsuda_04_before": [
+"0F8"
+],
+"o_zutsuda_06": [
+"112"
+],
+"o_zutsuda_09": [
+"0FA",
+"13D"
+],
+"o_zutsuda_10_after": [
+"0FB"
+],
+"o_zutsuda_10_after_2": [],
+"o_zutsuda_10_before": [
+"0FC"
+],
+"o_zutsuda_12": [
+"115"
+],
+"o_zutsuda_15": [
+"108"
+],
+"o_zutsuda_16_after": [
+"0C9"
+],
+"o_zutsuda_16_before": [
+"0CA",
+"0C8",
+"0C6"
+],
+"o_zutsuda_27": [],
+"o_zutsuda_30": [
+"289"
+]
+}

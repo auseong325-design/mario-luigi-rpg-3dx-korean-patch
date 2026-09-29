@@ -1,0 +1,222 @@
+{
+ "source": "Msg/JP_ja/FMsg.dat:i_power_stomach_15_SA_giganin_01_L",
+ "messages": [
+  {
+   "id": "FMsg/i_power_stomach_15_SA_giganin_01_L#0",
+   "label": "MES_SA_MAIN_KPower_stomach_01_Ekubon_giga_carrot_tut_11AT",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]クッパの クチが[Ruby 光;ひか]ったときに\n[Ruby 落;お]ちてきたカケラを [Ruby 覚;おぼ]えて… "
+  },
+  {
+   "id": "FMsg/i_power_stomach_15_SA_giganin_01_L#1",
+   "label": "MES_Ekubon_15_SA_Ekubon_gcarrot_tut_h5BT",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]おためしにしては\nちょっと [Ruby 食;た]べすぎです～ "
+  },
+  {
+   "id": "FMsg/i_power_stomach_15_SA_giganin_01_L#2",
+   "label": "MES_SA_MAIN_KPower_stomach_01_Ekubon_giga_carrot_tut_07AT",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 今;いま]の [Ruby 聞;き]こえた！？[0002:0000:0A 00]"
+  },
+  {
+   "id": "FMsg/i_power_stomach_15_SA_giganin_01_L#3",
+   "label": "MES_SA_MAIN_KPower_stomach_01_Ekubon_giga_carrot_tut_08BT",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]このカケラの [Ruby 場所;ばしょ]を\n[Ruby 覚;おぼ]えておきましょう！！ "
+  },
+  {
+   "id": "FMsg/i_power_stomach_15_SA_giganin_01_L#4",
+   "label": "MES_Ekubon_15_SA_Ekubon_gcarrot_tut_h3BT",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]その[Ruby 成分;せいぶん]が ふくまれた[Ruby 部分;ぶぶん]を\n[Ruby 食;た]べると このように\nキラリと[Ruby 光;ひか]るです。"
+  },
+  {
+   "id": "FMsg/i_power_stomach_15_SA_giganin_01_L#5",
+   "label": "MES_SA_MAIN_KPower_stomach_01_Ekubon_giga_carrot_tut_05AT",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]この[Ruby 大量;たいりょう]のカケラを\n[Ruby 細;こま]かく くずしてあげれば… "
+  },
+  {
+   "id": "FMsg/i_power_stomach_15_SA_giganin_01_L#6",
+   "label": "MES_SA_MAIN_KPower_stomach_01_Ekubon_giga_carrot_tut_10BT",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]これを [Ruby 使;つか]えば カケラを\nはやく[Ruby 消化;しょうか]できるのね… "
+  },
+  {
+   "id": "FMsg/i_power_stomach_15_SA_giganin_01_L#7",
+   "label": "MES_SA_MAIN_KPower_stomach_01_Ekubon_giga_carrot_tut_06BT",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]もっと かんたんに カケラを\nくずす[Ruby 方法;ほうほう]は ないかしら… "
+  },
+  {
+   "id": "FMsg/i_power_stomach_15_SA_giganin_01_L#8",
+   "label": "MES_Ekubon_15_SA_Ekubon_gcarrot_tut_h4T",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]おクチが キラリと[Ruby 光;ひか]ったときに\n[Ruby 飲;の]み[Ruby 込;こ]んだカケラに [Ruby 注目;ちゅうもく]です～ "
+  },
+  {
+   "id": "FMsg/i_power_stomach_15_SA_giganin_01_L#9",
+   "label": "MES_SA_MAIN_KPower_stomach_01_Ekubon_giga_carrot_tut_05CT",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]どんどん[Color #2C64FF]タッチ[Color #373737][Color #373737]して\nカケラを くずしましょう！ [Color #373737]"
+  },
+  {
+   "id": "FMsg/i_power_stomach_15_SA_giganin_01_L#10",
+   "label": "MES_Ekubon_15_SA_Ekubon_gcarrot_tut_k1AT",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]そのカケラには\nこんな[Ruby 成分;せいぶん]が\n[Ruby 入;はい]っているです。"
+  },
+  {
+   "id": "FMsg/i_power_stomach_15_SA_giganin_01_L#11",
+   "label": "MES_SA_MAIN_KPower_stomach_01_Ekubon_giga_carrot_tut_10DT",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]あらっ！？ [0002:0000:14 00]"
+  },
+  {
+   "id": "FMsg/i_power_stomach_15_SA_giganin_01_L#12",
+   "label": "MES_Ekubon_15_SA_Ekubon_gcarrot_tut_k2BT",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]これは [Ruby 食;た]べたものを\n[Ruby 少;すこ]し[Ruby 消化;しょうか]してくれる\n[Ruby 成分;せいぶん]です～ "
+  },
+  {
+   "id": "FMsg/i_power_stomach_15_SA_giganin_01_L#13",
+   "label": "MES_SA_MAIN_KPower_stomach_01_Ekubon_giga_carrot_tut_9T",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]さっき [Ruby 覚;おぼ]えたカケラを\nくずしてみましょう！ "
+  },
+  {
+   "id": "FMsg/i_power_stomach_15_SA_giganin_01_L#14",
+   "label": "MES_Ekubon_15_SA_Ekubon_gcarrot_tut_h5AT",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]はいはいは～い。\nおためし [Ruby 終了;しゅうりょう]です～ "
+  },
+  {
+   "id": "FMsg/i_power_stomach_15_SA_giganin_01_L#15",
+   "label": "MES_Ekubon_15_SA_Ekubon_gcarrot_tut_k1CT",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]でも カケラをテキトーに[Ruby 消;け]すだけだと\n[Ruby 消化酵素;しょうかこうそ]のききめが\n[Ruby 弱;よわ]くなっていっちゃうです。"
+  },
+  {
+   "id": "FMsg/i_power_stomach_15_SA_giganin_01_L#16",
+   "label": "MES_Ekubon_15_SA_NINJIN_START_BT",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]それでは [Ruby 食;く]いまくり\nスタートです～ "
+  },
+  {
+   "id": "FMsg/i_power_stomach_15_SA_giganin_01_L#17",
+   "label": "MES_SA_MAIN_KPower_stomach_01_Ekubon_giga_carrot_tut_08AT",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 今;いま]は [Ruby 赤;あか]いみたいだから\nカケラをいっきに\n[Ruby 消化;しょうか]できるってわけね！ "
+  },
+  {
+   "id": "FMsg/i_power_stomach_15_SA_giganin_01_L#18",
+   "label": "MES_Ekubon_15_SA_Ekubon_gcarrot_tut_h3AT",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]このニンジンには [Ruby 食;た]べたものを\nはやく[Ruby 消化;しょうか]する[Ruby 成分;せいぶん]が\nふくまれているです。"
+  },
+  {
+   "id": "FMsg/i_power_stomach_15_SA_giganin_01_L#19",
+   "label": "MES_SA_MAIN_KPower_stomach_01_Ekubon_giga_carrot_tut_10AT",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]あった！ [0002:0000:14 00]"
+  },
+  {
+   "id": "FMsg/i_power_stomach_15_SA_giganin_01_L#20",
+   "label": "MES_SA_MAIN_KPower_stomach_01_Ekubon_giga_carrot_tut_06AT",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]クッパが [Ruby 食;た]べたカケラを\n[Ruby 全部;ぜんぶ][Color #2C64FF]タッチ[Color #373737][Color #373737]するなんて\nなかなか [Ruby 大変;たいへん]ね… [Color #373737]"
+  },
+  {
+   "id": "FMsg/i_power_stomach_15_SA_giganin_01_L#21",
+   "label": "MES_SA_MAIN_KPower_stomach_01_Ekubon_giga_carrot_tut_11BT",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]そのカケラの[Ruby 中;なか]にある\n[Ruby 成分;せいぶん]を はやく[Ruby 見;み]つけて\n[Ruby 使;つか]えば いいのね！ "
+  },
+  {
+   "id": "FMsg/i_power_stomach_15_SA_giganin_01_L#22",
+   "label": "MES_SA_MAIN_KPower_stomach_01_Ekubon_giga_carrot_tut_07BT",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]クッパのクチが [Ruby 光;ひか]ったとき\n[Ruby 落;お]ちてくる カケラの[Ruby 中;なか]に\n[Ruby 消化;しょうか]する[Ruby 成分;せいぶん]が あるらしいわ！ "
+  },
+  {
+   "id": "FMsg/i_power_stomach_15_SA_giganin_01_L#23",
+   "label": "MES_SA_MAIN_KPower_stomach_01_Ekubon_giga_carrot_tut_05BT",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]クッパは たくさん[Ruby 食;た]べられるように\nなるんじゃないかしら。"
+  },
+  {
+   "id": "FMsg/i_power_stomach_15_SA_giganin_01_L#24",
+   "label": "MES_SA_MAIN_KPower_stomach_01_Ekubon_giga_carrot_tut_10CT",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Color #2C64FF]タッチ[Color #373737][Color #373737]してみましょう！ [0002:0000:0A 00][Color #373737]"
+  },
+  {
+   "id": "FMsg/i_power_stomach_15_SA_giganin_01_L#25",
+   "label": "MES_Ekubon_15_SA_Ekubon_gcarrot_tut_k2AT",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]あ そのほかのカケラに\nこんな [Ruby 小;ちい]さな[Ruby 成分;せいぶん]が\n[Ruby 入;はい]っていることもあるです。"
+  },
+  {
+   "id": "FMsg/i_power_stomach_15_SA_giganin_01_L#26",
+   "label": "MES_Ekubon_15_SA_Ekubon_gcarrot_tut_h2",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]あ。[0002:0000:1E 00]"
+  },
+  {
+   "id": "FMsg/i_power_stomach_15_SA_giganin_01_L#27",
+   "label": "MES_Ekubon_15_SA_Ekubon_gcarrot_tut_k1BT",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 赤;あか]いうちに [Ruby 使;つか]われると\n[Ruby 食;た]べたものを いっきに\n[Ruby 消化;しょうか]しちゃうです～ "
+  },
+  {
+   "id": "FMsg/i_power_stomach_15_SA_giganin_01_L#28",
+   "label": "MES_Ekubon_15_SA_NINJIN_START_AT",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 準備;じゅんび] できましたね。[0002:0000:0A 00]"
+  },
+  {
+   "id": "FMsg/i_power_stomach_15_SA_giganin_01_L#29",
+   "label": "MES_sys_minigame_relief_01",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0001:0001:]クリアしたことにして\nお[Ruby 話;はなし]を [Ruby 先;さき]に[Ruby 進;すす]めますか？[0002:0000:0A 00]\n[0005:0000:][0004:0000:]いいえ[0006:0000:28 00][0004:0000:]はい"
+  },
+  {
+   "id": "FMsg/i_power_stomach_15_SA_giganin_01_L#30",
+   "label": "MES_SA_MAIN_KPower_stomach_01_Ekubon_giga_carrot_tut_10ET",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]さっき[Ruby 聞;き]こえた\n[Ruby 小;ちい]さな[Ruby 成分;せいぶん]って\nこれのことね！ "
+  }
+ ]
+}

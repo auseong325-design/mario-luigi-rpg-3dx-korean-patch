@@ -1,0 +1,89 @@
+{
+ "source": "Msg/JP_ja/FMsg.dat:o_peach_t_06_lastboss_03_U",
+ "messages": [
+  {
+   "id": "FMsg/o_peach_t_06_lastboss_03_U#0",
+   "label": "MES_EV_MAIN_TPeach_06_2_Last_battle_57",
+   "style": 9,
+   "attr": "00000000",
+   "jp": "[0009:0000:09 00]んがああああああ\nああああああああ！！[0002:0000:28 00]"
+  },
+  {
+   "id": "FMsg/o_peach_t_06_lastboss_03_U#1",
+   "label": "MES_EV_MAIN_TPeach_06_2_Last_battle_59",
+   "style": 9,
+   "attr": "00000000",
+   "jp": "[0009:0000:09 00]ワガハイの[Ruby 体;からだ]の[Ruby 中;なか]で\n[Ruby 勝手;かって]なことばかり しおって～！[0002:0001:][Next][Ruby 絶対;ぜったい]に [Ruby 絶対;ぜったい]に\n[Ruby 絶対;ぜったい]に ゆるさんぞ！！[0002:0001:][Next]そして こんどこそ\nピーチ[Ruby 姫;ひめ]を [Ruby 連;つ]れさってやるわ！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_peach_t_06_lastboss_03_U#2",
+   "label": "MES_EV_MAIN_TPeach_06_2_Last_battle_42",
+   "style": 9,
+   "attr": "00000000",
+   "jp": "[0009:0000:09 00]ぐおおおおお！！！[0002:0000:1E 00]"
+  },
+  {
+   "id": "FMsg/o_peach_t_06_lastboss_03_U#3",
+   "label": "MES_EV_MAIN_TPeach_06_2_Last_battle_43",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]く[0002:0000:0A 00] くるしい…[0002:0000:1E 00]"
+  },
+  {
+   "id": "FMsg/o_peach_t_06_lastboss_03_U#4",
+   "label": "MES_EV_MAIN_TPeach_06_2_Last_battle_44",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]くるしいぞ…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_peach_t_06_lastboss_03_U#5",
+   "label": "MES_EV_MAIN_TPeach_06_2_Last_battle_45",
+   "style": 10,
+   "attr": "00000000",
+   "jp": "[0009:0000:0A 00]ぬがああぁぁぁぁ！！！[0002:0000:28 00]"
+  },
+  {
+   "id": "FMsg/o_peach_t_06_lastboss_03_U#6",
+   "label": "MES_EV_MAIN_TPeach_06_2_Last_battle_60",
+   "style": 10,
+   "attr": "00000000",
+   "jp": "[0009:0000:0A 00]かくごしろ！！！[0002:0000:1E 00][0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_peach_t_06_lastboss_03_U#7",
+   "label": "MES_EV_MAIN_TPeach_06_2_Last_battle_37",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]そうだ。かなり\n[Ruby 手;て]ごわかったぞ。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_peach_t_06_lastboss_03_U#8",
+   "label": "MES_EV_MAIN_TPeach_06_2_Last_battle_39",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]そうだ！！[0002:0000:0A 00]\nすっかり[Ruby 忘;わす]れていたぞ！[0002:0001:][Next]ピーチ[Ruby 姫;ひめ]を [Ruby 連;つ]れさるには\n[Ruby 今;いま]が チャンスではないか！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_peach_t_06_lastboss_03_U#9",
+   "label": "MES_EV_MAIN_TPeach_06_2_Last_battle_52",
+   "style": 9,
+   "attr": "00000000",
+   "jp": "[0009:0000:09 00][0001:0001:]い[0002:0000:0A 00] いったい…[0002:0001:][Next][0005:0000:][0000:0001:02 00]どういうことだーーーー！[0002:0001:][0000:0001:FF FF]"
+  },
+  {
+   "id": "FMsg/o_peach_t_06_lastboss_03_U#10",
+   "label": "MES_EV_MAIN_TPeach_06_2_Last_battle_53",
+   "style": 9,
+   "attr": "00000000",
+   "jp": "[0009:0000:09 00]どうして ワガハイのクチから\nマリオや [Ruby 緑;みどり]のヒゲが[Ruby 出;で]てくるのだ！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_peach_t_06_lastboss_03_U#11",
+   "label": "MES_EV_MAIN_TPeach_06_2_Last_battle_55",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:][0001:0001:]オ[0002:0000:0A 00] オマエ！！[0002:0001:][Next][0001:0004:][0001:0001:]その[Ruby 声;こえ]は…[0002:0001:][Next][0001:0004:][0001:0001:]チッピーか！？[0002:0001:][Next][0001:0000:]オマエが\nチッピーだったのか！？[0002:0001:]"
+  }
+ ]
+}

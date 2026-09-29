@@ -1,0 +1,26 @@
+{
+ "source": "Msg/JP_ja/FMsg.dat:minimap_o_mushiba_01",
+ "messages": [
+  {
+   "id": "FMsg/minimap_o_mushiba_01#0",
+   "label": "MES_Guide_Mushiba_01_Ryugu_guide_mes_01",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]たしか このへんと…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/minimap_o_mushiba_01#1",
+   "label": "MES_Guide_Mushiba_01_Ryugu_guide_mes_02",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]このへんと…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/minimap_o_mushiba_01#2",
+   "label": "MES_Guide_Mushiba_01_Ryugu_guide_mes_03",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]たぶん ここ…[0002:0000:0A 00]\nじゃったかのう…[0002:0001:]"
+  }
+ ]
+}

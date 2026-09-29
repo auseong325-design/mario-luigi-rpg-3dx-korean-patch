@@ -1,0 +1,1245 @@
+{
+ "batch": "FMsg__o_town_23__and7",
+ "rooms": [
+  "o_town_23",
+  "o_town_24",
+  "o_town_25_after",
+  "o_town_25_before",
+  "o_town_26",
+  "o_town_28",
+  "o_town_29",
+  "o_town_30"
+ ],
+ "ds_rooms": [
+  "09B",
+  "09C",
+  "09D",
+  "09E",
+  "0A0",
+  "0A1",
+  "0A2",
+  "0CF"
+ ],
+ "ds_reference": [
+  "DS09B#0: 뚱뚱데굴병을 예방하기 위해서\n집을 찜질방처럼\n뜨겁~게 덥히고 있어요.[Next]땀을 많이 흘리면\n살이 찌지 않을 테니까요!\n그러니까 불은 끄면 안 돼요.",
+  "DS09B#1: 후우~ 후우~ 후우~!\n후우~ 후우~ 후우~![Next]땀 흘려서 살을 뺄 거야~!\n후우~ 후우~ 후우~!",
+  "DS09B#2: 불은 끄면 안 돼요~!",
+  "DS09B#3: 아! 마리오님![Next]절 좀 보세요!\n뚱뚱데굴병이 나았어요!",
+  "DS09B#4: 뚱뚱데굴병이\n고쳐졌대요!",
+  "DS09C#0: 엄마~ 저 왔어요!",
+  "DS09C#1: 어, 왔니?\n오늘은 빨리 들어왔네?",
+  "DS09C#2: 느타리 선생님 수업이\n너~무 길고 지루해서[Next]나 혼자 몰래\n빠져나왔어요!!",
+  "DS09C#3: 어머! 혼 좀 나야겠네~[Next]그런 행동을 하면 훌륭한\n키노피오가 될 수 없단다.",
+  "DS09C#4: 네에~ 잘 알았어요~[Next]근데 밥은 아직이에요?",
+  "DS09C#5: 후훗, 다 되어 간단다.[Next]방에 가서 아빠한테\n식사하시라고 해라.",
+  "DS09C#6: 알았어요~!",
+  "DS09C#7: 아빠~!!\n식사하세요~!!",
+  "DS09C#8: 아…빠?",
+  "DS09C#9: 꺄아――――――――!!!",
+  "DS09C#10: 무슨 일이니!?",
+  "DS09C#11: 아빠가…!!\n아빠가!!!!!!",
+  "DS09C#12: 꺄악―――!! 여보―――!",
+  "DS09D#0: 인테리어 바꾼 지\n얼마 되지도 않았는데…",
+  "DS09D#1: 여보! 앞으로는\n이상한 버섯 드시면 안 돼요!",
+  "DS09D#2: 아빠가 뒤룩뒤룩 살쪄서\n데굴데굴 구르더니\n우르르! 하고 벽이 무너졌어요![Next]나도 언젠가는\n아빠처럼 되는 걸까요?",
+  "DS09D#3: 아빠가\n돌아왔어요~!",
+  "DS09D#4: 아이고~ 완전히\n부서져 버렸네…[Next]다시 공사해야겠다…",
+  "DS09E#0: d  \n.",
+  "DS09E#1: 뚱뚱데굴병이 고쳐졌구나…[Next]공부할 필요가 없어졌네…[Next]나가서 놀아야겠다…",
+  "DS0A0#0: 우리 버섯 타운에\n뚱뚱데굴병이 완전히\n퍼지고 말았어요…[Next]다들 겁에 질려\n갑자기 다이어트니 뭐니\n여러 시도를 하고 있긴 한데…[Next]제대로 고치는 방법을\n알 수가 없어요…[Next]마리오님!\n언제나처럼\n우리를 구해 주세요!!",
+  "DS0A0#1: 뚱뚱데굴병이\n고쳐졌나 봐요!![Next]마리오님 덕분이겠죠!?\n고마워요!!",
+  "DS0A1#0: 마리오님은\n건강 잘 챙기고 계시죠?[Next]항상 활기찬 점프를 보면\n말하지 않아도\n알 수 있어요!",
+  "DS0A1#1: 새로 생긴\n쇼핑몰에는\n가 보셨나요?[Next]소문에 따르면\n아주 고급스러운 숍이\n있다고 하던데…[Next]랭크가 높지 않으면\n구경시켜 주지도 않는대요…",
+  "DS0A2#0: 매일 아침 피치공주님 사진을\n바라보는 게 제 취미예요.[Next]하지만 얼마 전에…\n피치공주님이 뚱뚱데굴병에\n걸려 버리는 꿈을 꿨어요…[Next]그때부턴\n저 사진 보기가\n괜히 머뭇거려져요…",
+  "DS0CF#0: 헤이!",
+  "DS0CF#1: 헤헤헤―이!",
+  "DS0CF#2: 너희들 지금\n여기에 있던 커다란 블록\n두드렸지?",
+  "DS0CF#3: 두드렸지―?",
+  "DS0CF#4: 두드렸어!",
+  "DS0CF#5: 두드렸어―!",
+  "DS0CF#6: 방금 본 바와 같이![Next]그 커다란 블록은\n엄청난 수의 등껍질로\n꽉 차 있었어![Next]그걸 니가…\n너란 녀석이…\n흩어지게 했겠다!?",
+  "DS0CF#7: 지금쯤 이 버섯 왕국 안에\n수많은 등껍질블록이\n흩어지게 됐을 거야…[Next]그 등껍질이 누구 것인지\n너희들은…\n알지도 못하면서…",
+  "DS0CF#8: 찾―아―와!",
+  "DS0CF#9: 시끄럽다! 시끄러워!",
+  "DS0CF#10: 찾아오라는 쪼잔한 말은\n하지 않겠다…",
+  "DS0CF#11: 잘 보니 생김새가\n보통 인물은 아닌 것 같고…",
+  "DS0CF#12: 너…\n등껍질을 등에 진 적… 있어?",
+  "DS0CF#13: 등껍질이라는 건…\n보통 무게가 아니지…",
+  "DS0CF#14: 그래… 꽉 차 있어…\n꽉… 꽉… 들어차 있어…",
+  "DS0CF#15: 알겠냐!?",
+  "DS0CF#16: 너의 그\n생김새를 봐서…[Next]용서해 줄까…?[Next]그렇다면…\n게임을 하나 하도록 하지…[Next]등껍질의 무게를 아프리만치\n느낄 수 있는 해피한 게임이다.[Next]니가 승리를 장식하면\n방금 전의 일은… 모두 덮어 주지.",
+  "DS0CF#17: 니가 흩어지게 한\n등껍질블록 중 하나다![Next]우선 그걸 두드려 봐라!",
+  "DS0CF#18: 와― 제법\n잘 어울리는걸.",
+  "DS0CF#19: 좋아! 규칙은 간단하다![Next]재빠르게 움직이는 나를\n맞혀 봐라! 그뿐이다!",
+  "DS0CF#20: 그 무거운 등껍질을 짊어진\n상태로 과연 움직일 수 있을까…?",
+  "DS0CF#21: 큭큭큭…",
+  "DS0CF#22: 우… 움직임이\n나쁘지 않군…",
+  "DS0CF#23: 좋아! 지금처럼 해서\n나를 잡을 수 있다면\n한번 해 봐라!!",
+  "DS0CF#24: 내 속도를\n따라잡을 수 있을까?",
+  "DS0CF#25: 고―!",
+  "DS0CF#26: 고고―!",
+  "DS0CF#27: 오오! 빠르다!",
+  "DS0CF#28: 엄청… 빠르다!",
+  "DS0CF#29: 아.",
+  "DS0CF#30: 꽤 하는군…\n다음은… 이거다!",
+  "DS0CF#31: 끝내준다!\n분신술이라도 쓴 것 같아!",
+  "DS0CF#32: 넌 진짜구나![Next]등껍질의 무게에도 끄떡없어!",
+  "DS0CF#33: 오랜만에 강단 있는 녀석을\n만나게 돼서 기분이 째진다!![Next]너라면 등껍질을\n제대로 사용할 수 있겠어!![Next]등껍질블록!!\n마음껏 두드리는 것을 허락한다!",
+  "DS0CF#34: 아, 그리고!",
+  "DS0CF#35: 이걸 가져가라!",
+  "DS0CF#36: 버섯 타운의 어택피스를\n단번에 10개나 받았다![Next]버섯 타운의 어택피스를\n모두 모았다!![Next]새로운 스페셜 어택이\n완성되었다!!",
+  "DS0CF#37: 분명 어딘가에서\n도움이 될 것이다…[Next]앞으로 그 무거운 등껍질을\n짊어지고 사는 것이…[Next]초짜에게는 조금\n버거운 일이 될 테지…",
+  "DS0CF#38: 뭐? 어떻게 하면\n등껍질을 벗을 수 있냐고?[Next]벌써 벗고 싶은 거냐…?\n그런 거냐…?",
+  "DS0CF#39: 점프를 하면\n등껍질을 벗을 수 있지만…[Next]너… 등껍질을 등에 지고\n점프는 할 수 있겠냐?",
+  "DS0CF#40: 너!\n도대체 뭐냐?[Next]뭐, 좋다…\n대단한 거 인정한다…",
+  "DS0CF#41: 등껍질을 쓰고 싶을 땐\n니가 온 동네에 뿌려 놓은\n등껍질블록을 두드려라…",
+  "DS0CF#42: 그럼 잘 살아라!",
+  "DS0CF#43: 바이.",
+  "DS0CF#44: 바이바이."
+ ],
+ "glossary": [
+  {
+   "jp": "ジャンプ",
+   "ko": "점프",
+   "type": "ability",
+   "basis": "DS",
+   "source": "BData__mfset_Help#9",
+   "note": "필드 액션·배틀 커맨드 공통 [gl_attacks]"
+  },
+  {
+   "jp": "ブラザーアタック",
+   "ko": "스페셜 어택",
+   "type": "attack",
+   "basis": "DS",
+   "source": "BAI__BMes_cf#4.1",
+   "note": "DS 대응문(어택피스로 스페셜 어택을↔アタックパーツでブラザーアタックが)으로 같은 대상 확인. 3DX에서 スペシャルアタック을 개칭한 것. 후속작 공식 표기는 '브라더 어택'(https://www.nintendo.com/kr/switch/a8e6a/battle/index.html) — 개칭 반영 여부 확인 필요 [gl_attacks]"
+  },
+  {
+   "jp": "キノノ先生",
+   "ko": "느타리 선생님",
+   "type": "character",
+   "basis": "DS",
+   "source": "o_town_25_before#5 ↔ DS09C#2",
+   "note": "room-align"
+  },
+  {
+   "jp": "キノピオ",
+   "ko": "키노피오",
+   "type": "character",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesPlace#20",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "ピーチ姫",
+   "ko": "피치공주",
+   "type": "character",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesOutline#13",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "マリオ",
+   "ko": "마리오",
+   "type": "character",
+   "basis": "DS",
+   "source": "BData__mfset_Help#19",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "キノコ",
+   "ko": "버섯",
+   "type": "item",
+   "basis": "DS",
+   "source": "BData__mfset_UItmN#0",
+   "note": "일반 명사 キノコ도 버섯(キノコタウン=버섯 타운) [gl_items]"
+  },
+  {
+   "jp": "アタックパーツ",
+   "ko": "어택피스",
+   "type": "key_item",
+   "basis": "DS",
+   "source": "BAI__BMes_cf#4.1",
+   "note": "붙여 씀. 개별 이름(ガラクタパーツ→잡동사니 피스 등)은 MData__mfset_MenuMes#9~18 [gl_attacks]"
+  },
+  {
+   "jp": "パーツ",
+   "ko": "피스",
+   "type": "key_item",
+   "basis": "DS",
+   "source": "MData__mfset_MenuMes#19",
+   "note": "어택피스 조각. ガラクタパーツ=잡동사니 피스 [gl_menu_places]"
+  },
+  {
+   "jp": "コウラブロック",
+   "ko": "등껍질블록",
+   "type": "other",
+   "basis": "DS",
+   "source": "FEvent#0CF.7",
+   "note": "붙여 씀 [gl_attacks]"
+  },
+  {
+   "jp": "キノコタウン",
+   "ko": "버섯 타운",
+   "type": "place",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesPlace#8",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "キノコ王国",
+   "ko": "버섯 왕국",
+   "type": "place",
+   "basis": "DS",
+   "source": "FEvent:011#0",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "ショッピングモール",
+   "ko": "쇼핑몰",
+   "type": "place",
+   "basis": "DS",
+   "source": "DS0EC#3",
+   "note": "[gl_menu_places]"
+  },
+  {
+   "jp": "お父さん",
+   "ko": "아빠",
+   "type": "term",
+   "basis": "coined",
+   "source": "FMsg/k_o_koopa_14#55",
+   "note": "쿠파주니어가 쿠파를 부르는 말(어린이 말투) [gl_kj]"
+  },
+  {
+   "jp": "アタック",
+   "ko": "어택",
+   "type": "term",
+   "basis": "DS",
+   "source": "BDataMiniGame__mfset_MesDat_MiniGame#5",
+   "note": "스페셜 어택을 줄여 부를 때. 단 퀴즈의 パンチアタック/ファイアアタック은 DS대로 '~ 공격' [gl_attacks]"
+  },
+  {
+   "jp": "アップ",
+   "ko": "업",
+   "type": "term",
+   "basis": "DS",
+   "source": "FEvent:0EC#11",
+   "note": "「POWアップ」→'POW 업'(DS '파워 업') [gl_kj]"
+  },
+  {
+   "jp": "コウラ",
+   "ko": "등껍질",
+   "type": "term",
+   "basis": "DS",
+   "source": "BAI__BMes_cf#8.1",
+   "note": "쿠파의 방어 커맨드(Y)·등껍질 일반 [gl_attacks]"
+  },
+  {
+   "jp": "メタコロ",
+   "ko": "뚱뚱데굴",
+   "type": "term",
+   "basis": "coined",
+   "source": "FMsg/k_o_koopa_r_80#301",
+   "note": "DS 병명에서. 「メタコロクリボー」→'뚱뚱데굴 굼바' [gl_kj]"
+  },
+  {
+   "jp": "メタコロ病",
+   "ko": "뚱뚱데굴병",
+   "type": "term",
+   "basis": "DS",
+   "source": "FEvent:09B#0",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "モンスター",
+   "ko": "몬스터",
+   "type": "term",
+   "basis": "DS",
+   "source": "BAI__BMes_cf#2.1",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "ランク",
+   "ko": "랭크",
+   "type": "term",
+   "basis": "DS",
+   "source": "MData__mfset_MenuMes#116",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "レベル",
+   "ko": "레벨",
+   "type": "term",
+   "basis": "DS",
+   "source": "FEvent#16A.19",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "レベルアップ",
+   "ko": "레벨 업",
+   "type": "term",
+   "basis": "DS",
+   "source": "FEvent#16A.19",
+   "note": "띄어 씀 [gl_attacks]"
+  },
+  {
+   "jp": "ショッピング",
+   "ko": "쇼핑",
+   "type": "ui",
+   "basis": "DS",
+   "source": "SAI__SMes_yo#0.48",
+   "note": "[gl_menu_places]"
+  },
+  {
+   "jp": "ショップ",
+   "ko": "숍",
+   "type": "ui",
+   "basis": "DS",
+   "source": "DS0A3#1",
+   "note": "[gl_menu_places]"
+  }
+ ],
+ "messages": [
+  {
+   "id": "FMsg/o_town_23#0",
+   "label": "MES_TKinoko_23_Kinoko_town_koura_tut_20",
+   "style": 6,
+   "src": "{1:align}よし！{2:pause} ルールはかんたんだ！{3:wait}[Next]すばやく動く このオレを\nふっ飛ばしてみろ！{4:pause} それだけだ！{5:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0000:0A 00]",
+    "3": "[0002:0001:]",
+    "4": "[0002:0000:0A 00]",
+    "5": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_23#1",
+   "label": "MES_TKinoko_23_Kinoko_town_koura_tut_21",
+   "style": 6,
+   "src": "ゴー！{1:pause}",
+   "tags": {
+    "1": "[0002:0000:08 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_23#2",
+   "label": "MES_TKinoko_23_Kinoko_town_koura_tut_22",
+   "style": 6,
+   "src": "ゴゴー！{1:pause}",
+   "tags": {
+    "1": "[0002:0000:14 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_23#3",
+   "label": "MES_TKinoko_23_Kinoko_town_koura_tut_23",
+   "style": 6,
+   "src": "オレの スピードに\nついてこれるかな？{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_23#4",
+   "label": "MES_TKinoko_23_Kinoko_town_koura_tut_25",
+   "style": 6,
+   "src": "{1:mode}すんげぇ！{2:pause} はえぇ！{3:pause}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[0002:0000:08 00]",
+    "3": "[0002:0000:3C 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_23#5",
+   "label": "MES_TKinoko_23_Kinoko_town_koura_tut_26",
+   "style": 6,
+   "src": "{1:align}あ。{2:pause}",
+   "tags": {
+    "1": "[0001:0001:]",
+    "2": "[0002:0000:5A 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_23#6",
+   "label": "MES_TKinoko_23_Kinoko_town_koura_tut_27",
+   "style": 6,
+   "src": "なかなかやるじゃねぇか…\n次は… こうだ！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_23#7",
+   "label": "MES_TKinoko_23_Kinoko_town_koura_tut_28",
+   "style": 6,
+   "src": "{1:mode}すんげぇ！{2:pause}\n分身してるみてぇだ！{3:pause}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[0002:0000:08 00]",
+    "3": "[0002:0000:50 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_23#8",
+   "label": "MES_TKinoko_23_Kinoko_town_koura_tut_29",
+   "style": 9,
+   "src": "{1:align}おめーさん ホンモノだ！{2:wait}[Next]{3:align}{4:color}コウラ{5:color}{6:color}の重さを ものともしねぇ！{7:wait}{8:color}",
+   "tags": {
+    "1": "[0001:0001:]",
+    "2": "[0002:0001:]",
+    "3": "[0001:0000:]",
+    "4": "[Color #2C64FF]",
+    "5": "[Color #373737]",
+    "6": "[Color #373737]",
+    "7": "[0002:0001:]",
+    "8": "[Color #373737]"
+   },
+   "header": "[0009:0000:09 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_23#9",
+   "label": "MES_TKinoko_23_Kinoko_town_koura_tut_34_1",
+   "style": 6,
+   "src": "おめーさん\nナニモンだ？{1:wait}[Next]まあ いいか…\nとにかく すげぇな…{2:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_23#10",
+   "label": "MES_TKinoko_23_Kinoko_town_koura_tut_34_2",
+   "style": 6,
+   "src": "{1:color}コウラ{2:color}{3:color}を かぶりたかったら\nおめーさんが ばらまいた\n{4:color}{5:color}コウラブロック{6:color}{7:color} 叩きゃあいいさ…{8:wait}{9:color}",
+   "tags": {
+    "1": "[Color #2C64FF]",
+    "2": "[Color #373737]",
+    "3": "[Color #373737]",
+    "4": "[Color #373737]",
+    "5": "[Color #2C64FF]",
+    "6": "[Color #373737]",
+    "7": "[Color #373737]",
+    "8": "[0002:0001:]",
+    "9": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_23#11",
+   "label": "MES_TKinoko_23_Kinoko_town_koura_tut_10",
+   "style": 9,
+   "src": "うるせぇ！ うるせぇ！{1:pause}",
+   "tags": {
+    "1": "[0002:0000:3C 00]"
+   },
+   "header": "[0009:0000:09 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_23#12",
+   "label": "MES_TKinoko_23_Kinoko_town_koura_tut_11",
+   "style": 6,
+   "src": "返せなんて ちいせぇこたぁ\n言わねぇよ…{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_23#13",
+   "label": "MES_TKinoko_23_Kinoko_town_koura_tut_12",
+   "style": 6,
+   "src": "よく見りゃ なかなかの\nツラがまえ してるじゃねぇの。{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_23#14",
+   "label": "MES_TKinoko_23_Kinoko_town_koura_tut_13",
+   "style": 6,
+   "src": "おめーさん…{1:pause}\n{2:color}コウラ{3:color}{4:color}をかぶったこたぁ…{5:pause} あるか？{6:wait}{7:color}",
+   "tags": {
+    "1": "[0002:0000:14 00]",
+    "2": "[Color #2C64FF]",
+    "3": "[Color #373737]",
+    "4": "[Color #373737]",
+    "5": "[0002:0000:14 00]",
+    "6": "[0002:0001:]",
+    "7": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_23#15",
+   "label": "MES_TKinoko_23_Kinoko_town_koura_tut_14",
+   "style": 6,
+   "src": "{1:color}コウラ{2:color}{3:color}ってのはなぁ…{4:pause}\nなっかなか 重くてよぉ…{5:wait}{6:color}",
+   "tags": {
+    "1": "[Color #2C64FF]",
+    "2": "[Color #373737]",
+    "3": "[Color #373737]",
+    "4": "[0002:0000:0A 00]",
+    "5": "[0002:0001:]",
+    "6": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_23#16",
+   "label": "MES_TKinoko_23_Kinoko_town_koura_tut_15",
+   "style": 6,
+   "src": "そう… つまってんだ…{1:pause}\nいっぱい…{2:pause} つまってんだ…{3:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0000:0A 00]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_23#17",
+   "label": "MES_TKinoko_23_Kinoko_town_koura_tut_16",
+   "style": 6,
+   "src": "わかるか！？{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_23#18",
+   "label": "MES_TKinoko_23_Kinoko_town_koura_tut_17",
+   "style": 6,
+   "src": "おめーさんの その\nツラがまえに めんじてよぉ…{1:wait}[Next]{2:align}ゆるして やらねぇこともねぇ。{3:wait}[Next]そーだな…{4:pause}\nひとつゲームをしよう…{5:wait}[Next]{6:color}コウラ{7:color}{8:color}の重みが 痛いほどわかる\nハッピーな ゲームだ。{9:wait}[Next]おめーさんが 勝利をかざれば\n今起きたことは…{10:pause} 全部ナシだ。{11:wait}{12:color}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0001:0004:]",
+    "3": "[0002:0001:]",
+    "4": "[0002:0000:0A 00]",
+    "5": "[0002:0001:]",
+    "6": "[Color #2C64FF]",
+    "7": "[Color #373737]",
+    "8": "[Color #373737]",
+    "9": "[0002:0001:]",
+    "10": "[0002:0000:0A 00]",
+    "11": "[0002:0001:]",
+    "12": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_23#19",
+   "label": "MES_TKinoko_23_Kinoko_town_koura_tut_18",
+   "style": 6,
+   "src": "おめーさんが ばらまいた\n{1:color}コウラブロック{2:color}{3:color}の １つだ！{4:wait}[Next]{5:align}まずは そいつを叩きな！{6:wait}{7:color}",
+   "tags": {
+    "1": "[Color #2C64FF]",
+    "2": "[Color #373737]",
+    "3": "[Color #373737]",
+    "4": "[0002:0001:]",
+    "5": "[0001:0004:]",
+    "6": "[0002:0001:]",
+    "7": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_23#20",
+   "label": "MES_TKinoko_23_Kinoko_town_koura_tut_19",
+   "style": 6,
+   "src": "へー{1:pause} なかなか\nにあうじゃねぇか。{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_23#21",
+   "label": "MES_TKinoko_23_Kinoko_town_koura_tut_20_1",
+   "style": 6,
+   "src": "その重たい{1:color}コウラ{2:color}{3:color}を 背負いながら\nはたして 動けるかな…？{4:wait}{5:color}",
+   "tags": {
+    "1": "[Color #2C64FF]",
+    "2": "[Color #373737]",
+    "3": "[Color #373737]",
+    "4": "[0002:0001:]",
+    "5": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_23#22",
+   "label": "MES_TKinoko_23_Kinoko_town_koura_tut_20_2",
+   "style": 6,
+   "src": "クックック…{1:pause}",
+   "tags": {
+    "1": "[0002:0000:1E 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_23#23",
+   "label": "MES_TKinoko_23_Kinoko_town_koura_tut_20_3",
+   "style": 6,
+   "src": "な…{1:pause} なかなか\nいい動きするじゃねぇか…{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_23#24",
+   "label": "MES_TKinoko_23_Kinoko_town_koura_tut_20_4",
+   "style": 6,
+   "src": "まあいい！{1:pause} その動きで\nオレを とらえられるなら\nやってみな！！{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_23#25",
+   "label": "MES_TKinoko_23_Kinoko_town_koura_tut_30",
+   "style": 6,
+   "src": "こいつを持っていきな！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_23#26",
+   "label": "MES_TKinoko_23_Kinoko_town_koura_tut_31",
+   "style": 12,
+   "src": "{1:mode}{2:align}キノコタウンの アタックパーツを\nいっぺんに１０個 もらった！{3:pause}{4:wait}[Next]{5:mode}{6:align}キノコタウンのアタックパーツが\n全部 そろった！！{7:pause}{8:wait}[Next]{9:mode}{10:align}新しい {11:color}ブラザーアタック{12:color}{13:color}が\n完成するぞ！！{14:pause}{15:wait}{16:color}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0000:1E 00]",
+    "4": "[0002:0001:]",
+    "5": "[0005:0000:]",
+    "6": "[0001:0001:]",
+    "7": "[0002:0000:0F 00]",
+    "8": "[0002:0001:]",
+    "9": "[0005:0000:]",
+    "10": "[0001:0001:]",
+    "11": "[Color #4ED4FF]",
+    "12": "[Color #E6E6E6]",
+    "13": "[Color #373737]",
+    "14": "[0002:0000:0F 00]",
+    "15": "[0002:0001:]",
+    "16": "[Color #E6E6E6]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_23#27",
+   "label": "MES_TKinoko_23_Kinoko_town_koura_tut_32",
+   "style": 6,
+   "src": "{1:align}きっと なにかの役に\n立ってくれるだろうよ…{2:wait}[Next]この先 その重たい\n{3:color}コウラ{4:color}{5:color}を背負って 生きてくのは…{6:wait}[Next]シロートには ちょっぴり\nつれぇってもんだ…{7:wait}{8:color}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]",
+    "3": "[Color #2C64FF]",
+    "4": "[Color #373737]",
+    "5": "[Color #373737]",
+    "6": "[0002:0001:]",
+    "7": "[0002:0001:]",
+    "8": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_23#28",
+   "label": "MES_TKinoko_23_Kinoko_town_koura_tut_33",
+   "style": 6,
+   "src": "え？{1:pause} どうやって\n{2:color}コウラ{3:color}{4:color}を ぬぐのかだって？{5:wait}[Next]もう ぬぎたいのか…{6:pause}\nそうか…{7:wait}{8:color}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[Color #2C64FF]",
+    "3": "[Color #373737]",
+    "4": "[Color #373737]",
+    "5": "[0002:0001:]",
+    "6": "[0002:0000:0A 00]",
+    "7": "[0002:0001:]",
+    "8": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_23#29",
+   "label": "MES_TKinoko_23_Kinoko_town_koura_tut_34",
+   "style": 6,
+   "src": "{1:color}ジャンプ{2:color}{3:color}でも すれば\n{4:color}{5:color}コウラ{6:color}{7:color}も ぬげちまうだろうが…{8:wait}[Next]おめーさん…{9:pause} {10:color}{11:color}コウラ{12:color}{13:color}を背負って\n{14:color}{15:color}ジャンプ{16:color}{17:color}なんて できるか？{18:wait}{19:color}",
+   "tags": {
+    "1": "[Color #2C64FF]",
+    "2": "[Color #373737]",
+    "3": "[Color #373737]",
+    "4": "[Color #373737]",
+    "5": "[Color #2C64FF]",
+    "6": "[Color #373737]",
+    "7": "[Color #373737]",
+    "8": "[0002:0001:]",
+    "9": "[0002:0000:0A 00]",
+    "10": "[Color #373737]",
+    "11": "[Color #2C64FF]",
+    "12": "[Color #373737]",
+    "13": "[Color #373737]",
+    "14": "[Color #373737]",
+    "15": "[Color #2C64FF]",
+    "16": "[Color #373737]",
+    "17": "[Color #373737]",
+    "18": "[0002:0001:]",
+    "19": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_23#30",
+   "label": "MES_TKinoko_23_Kinoko_town_koura_tut_35",
+   "style": 6,
+   "src": "んじゃあ たっしゃでな！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_23#31",
+   "label": "MES_TKinoko_23_Kinoko_town_koura_tut_36",
+   "style": 6,
+   "src": "ばい。{1:pause}",
+   "tags": {
+    "1": "[0002:0000:10 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_23#32",
+   "label": "MES_TKinoko_23_Kinoko_town_koura_tut_37",
+   "style": 6,
+   "src": "ばいばーい。{1:pause}",
+   "tags": {
+    "1": "[0002:0000:14 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_23#34",
+   "label": "MES_TKinoko_23_Kinoko_town_koura_tut_29_1",
+   "style": 6,
+   "src": "ひさびさに ホネのあるやつに\n出会えて キブンサイコーだぜ！！{1:wait}[Next]おめーさんなら {2:color}コウラ{3:color}{4:color}を\nうまく 使いこなせるだろうよ！！{5:wait}[Next]{6:color}{7:color}コウラブロック{8:color}{9:color}！！{10:pause}\nじゃんじゃん 叩いてくれよ！{11:wait}{12:color}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[Color #2C64FF]",
+    "3": "[Color #373737]",
+    "4": "[Color #373737]",
+    "5": "[0002:0001:]",
+    "6": "[Color #373737]",
+    "7": "[Color #2C64FF]",
+    "8": "[Color #373737]",
+    "9": "[Color #373737]",
+    "10": "[0002:0000:0A 00]",
+    "11": "[0002:0001:]",
+    "12": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_23#35",
+   "label": "MES_TKinoko_23_Kinoko_town_koura_tut_29_2",
+   "style": 6,
+   "src": "おっと それから！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_23#37",
+   "label": "MES_TKinoko_23_Kinoko_town_koura_tut_02",
+   "style": 6,
+   "src": "ヘヘヘーイ！{1:pause}",
+   "tags": {
+    "1": "[0002:0000:14 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_23#38",
+   "label": "MES_TKinoko_23_Kinoko_town_koura_tut_03",
+   "style": 6,
+   "src": "おめーさん達\n今ここにあった でっけぇブロック\n叩いちまったな？{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_23#39",
+   "label": "MES_TKinoko_23_Kinoko_town_koura_tut_05",
+   "style": 6,
+   "src": "{1:mode}叩いた！{2:pause}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[0002:0000:0C 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_23#40",
+   "label": "MES_TKinoko_23_Kinoko_town_koura_tut_06",
+   "style": 6,
+   "src": "{1:mode}叩いたー！{2:pause}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[0002:0000:18 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_23#41",
+   "label": "MES_TKinoko_23_Kinoko_town_koura_tut_07",
+   "style": 6,
+   "src": "{1:align}{2:align}今 見たとおり！{3:wait}[Next]{4:align}あのでっけぇ ブロックには\nそりゃ すんげー数の\nコウラが つまってたわけよ！{5:wait}[Next]そいつを おめーさん…{6:pause}\nあろうことか…{7:pause}\nバラしちまったなぁ！？{8:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0001:]",
+    "4": "[0001:0000:]",
+    "5": "[0002:0001:]",
+    "6": "[0002:0000:0A 00]",
+    "7": "[0002:0000:0A 00]",
+    "8": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_23#42",
+   "label": "MES_TKinoko_23_Kinoko_town_koura_tut_08",
+   "style": 6,
+   "src": "今ごろ このキノコ王国中に\nたくさんの {1:color}コウラブロック{2:color}{3:color}が\nちらばってらぁなぁ…{4:wait}[Next]あのコウラ達が だれのモノか\nおめーさん達…{5:pause}\nわかってねぇよなぁ…{6:wait}{7:color}",
+   "tags": {
+    "1": "[Color #2C64FF]",
+    "2": "[Color #373737]",
+    "3": "[Color #373737]",
+    "4": "[0002:0001:]",
+    "5": "[0002:0000:0A 00]",
+    "6": "[0002:0001:]",
+    "7": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_23#43",
+   "label": "MES_TKinoko_23_Kinoko_town_koura_tut_09",
+   "style": 6,
+   "src": "かー{1:pause}えー{2:pause}せ。{3:pause}",
+   "tags": {
+    "1": "[0002:0000:03 00]",
+    "2": "[0002:0000:03 00]",
+    "3": "[0002:0000:12 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_24#0",
+   "label": "MES_TKinoko_24_Kinoko_town_kinopio_01",
+   "style": 6,
+   "src": "メタコロ病を 予防するために\n部屋を サウナみたいに\nあつ～く しているんです。{1:wait}[Next]アセをたくさん かけば\n太らないはず！{2:pause}\nだから 火は消しちゃだめですよ。{3:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0000:0A 00]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_24#1",
+   "label": "MES_TKinoko_24_Kinoko_town_kinopio_01_2",
+   "style": 6,
+   "src": "ふー ふー ふー！{1:pause}\nふー ふー ふー！{2:wait}[Next]アセかいて やせるぞ～！{3:pause}\nふー ふー ふー！{4:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0000:0A 00]",
+    "4": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_24#2",
+   "label": "MES_TKinoko_24_Kinoko_town_kinopio_01_4",
+   "style": 6,
+   "src": "あ！ マリオさん！{1:wait}[Next]見てください！{2:pause}\nメタコロ病が 治ったんです！{3:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0000:0A 00]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_24#3",
+   "label": "MES_TKinoko_24_Kinoko_town_kinopio_01_5",
+   "style": 6,
+   "src": "メタコロ病が\n治ったそうですね！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_25_after#0",
+   "label": "MES_TKinoko_25_after_Kinoko_town_kinopio_03_2",
+   "style": 6,
+   "src": "お父さんが\n帰ってきた～！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_25_after#1",
+   "label": "MES_TKinoko_25_after_Kinoko_town_kinopio_03_3",
+   "style": 6,
+   "src": "いや～ すっかり\nこわれてしまったな…{1:wait}[Next]{2:align}また リフォームしなければ…{3:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0001:0004:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_25_after#2",
+   "label": "MES_TKinoko_25_after_Kinoko_town_kinopio_02",
+   "style": 6,
+   "src": "リフォームしてから\nまだ まもないのに…{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_25_after#3",
+   "label": "MES_TKinoko_25_after_Kinoko_town_kinopio_03",
+   "style": 6,
+   "src": "お父さんが コロコロの\nボテボテになって\nドカーン！ ってなったんだ！{1:wait}[Next]{2:align}ボクも いつかは\nお父さんみたいに なるのかな？{3:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0001:0004:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_25_after#4",
+   "label": "MES_TKinoko_25_after_Kinoko_town_kinopio_02_2",
+   "style": 6,
+   "src": "お父さん！ もう\nへんな キノコ食べたらだめよ！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_25_before#0",
+   "label": "MES_TKinoko_25_before_Opening_Tkinoko_10",
+   "style": 6,
+   "src": "どうしたの！？{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_25_before#1",
+   "label": "MES_TKinoko_25_before_Opening_Tkinoko_11",
+   "style": 6,
+   "src": "お父さんが！！{1:pause}\nお父さんがっ！！！{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_25_before#3",
+   "label": "MES_TKinoko_25_before_Opening_Tkinoko_01",
+   "style": 6,
+   "src": "お母さん ただいま～！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_25_before#4",
+   "label": "MES_TKinoko_25_before_Opening_Tkinoko_02",
+   "style": 6,
+   "src": "おかえりなさい。\n今日は はやかったのねぇ？{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_25_before#5",
+   "label": "MES_TKinoko_25_before_Opening_Tkinoko_03",
+   "style": 6,
+   "src": "だって キノノ先生のお話\nすーっごく 長いんだもん。{1:wait}[Next]ボク こっそり\n抜け出して きちゃった！！{2:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_25_before#6",
+   "label": "MES_TKinoko_25_before_Opening_Tkinoko_04",
+   "style": 6,
+   "src": "{1:align}まぁ！ いけない子ね！{2:wait}[Next]そんなことじゃ りっぱな\nキノピオに なれませんよ。{3:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_25_before#7",
+   "label": "MES_TKinoko_25_before_Opening_Tkinoko_05",
+   "style": 6,
+   "src": "は～い わかりました～{1:wait}[Next]ねぇねぇ ごはんまだぁ？{2:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_25_before#8",
+   "label": "MES_TKinoko_25_before_Opening_Tkinoko_06",
+   "style": 6,
+   "src": "{1:align}はいはい 今できますよ。{2:wait}[Next]その前に お父さんを\n呼んできてちょうだいな。{3:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_25_before#9",
+   "label": "MES_TKinoko_25_before_Opening_Tkinoko_07",
+   "style": 6,
+   "src": "わかった～！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_25_before#10",
+   "label": "MES_TKinoko_25_before_Opening_Tkinoko_08",
+   "style": 6,
+   "src": "お父さ～ん！！{1:pause}\nごはんだよ～！！{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_25_before#11",
+   "label": "MES_TKinoko_25_before_Opening_Tkinoko_09",
+   "style": 9,
+   "src": "キャーーーーーー！！！{1:pause}",
+   "tags": {
+    "1": "[0002:0000:1E 00]"
+   },
+   "header": "[0009:0000:09 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_25_before#12",
+   "label": "MES_TKinoko_25_before_Opening_Tkinoko_08_2",
+   "style": 6,
+   "src": "お父さ～ん？{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_26#0",
+   "label": "MES_TKinoko_26_Kinoko_town_kinopio_04_2",
+   "style": 6,
+   "src": "メタコロ病が 治ったのか…{1:wait}[Next]勉強する 必要なくなったな…{2:wait}[Next]外で あそんじゃおうかな…{3:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_28#0",
+   "label": "MES_TKinoko_28_Kinoko_town_kinopio_05",
+   "style": 6,
+   "src": "{1:align}マリオさんは 健康に\n気を 使ってますよね？{2:wait}[Next]いつも あんなに\n元気なジャンプを\n見せてくれますもんね！{3:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_28#1",
+   "label": "MES_TKinoko_28_Kinoko_town_kinopio_06",
+   "style": 6,
+   "src": "新しくできた\n{1:color}ショッピングモール{2:color}{3:color}には\nもう 行きましたか？{4:wait}[Next]なにやら ものすごく\n高級なショップが\nあるそうなんですが…{5:wait}[Next]{6:align}{7:color}{8:color}ランク{9:color}{10:color}が 高くないと\n入れてもらえないとか…{11:wait}[Next]ランクを上げるには\nモンスターをたくさん倒して{12:wait}[Next]何度もレベルアップすると\nいいらしいですよ！{13:wait}{14:color}",
+   "tags": {
+    "1": "[Color #2C64FF]",
+    "2": "[Color #373737]",
+    "3": "[Color #373737]",
+    "4": "[0002:0001:]",
+    "5": "[0002:0001:]",
+    "6": "[0001:0004:]",
+    "7": "[Color #373737]",
+    "8": "[Color #2C64FF]",
+    "9": "[Color #373737]",
+    "10": "[Color #373737]",
+    "11": "[0002:0001:]",
+    "12": "[0002:0001:]",
+    "13": "[0002:0001:]",
+    "14": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_29#0",
+   "label": "MES_TKinoko_29_Kinoko_town_kinopio_07_2",
+   "style": 6,
+   "src": "メタコロ病が 治った\nみたいですよ！！{1:wait}[Next]マリオさんの おかげなんでしょ！？\nありがとう！！{2:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_29#1",
+   "label": "MES_TKinoko_29_Kinoko_town_kinopio_07",
+   "style": 6,
+   "src": "このキノコタウンも\nすっかり メタコロ病が\nはやってしまいました…{1:wait}[Next]みんな こわがって\n急にダイエットを 始めたり\nいろいろ ためしていますが…{2:wait}[Next]{3:align}ちゃんと 治せる方法は\nわかっていないんです…{4:wait}[Next]マリオさん！{5:pause}\nいつものように\nボク達を 救ってください！！{6:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]",
+    "3": "[0001:0004:]",
+    "4": "[0002:0001:]",
+    "5": "[0002:0000:0A 00]",
+    "6": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_30#0",
+   "label": "MES_TKinoko_30_Kinoko_town_kinopio_08",
+   "style": 6,
+   "src": "{1:align}朝起きて ピーチ姫の写真を\nながめるのが 好きなんです。{2:wait}[Next]でも このあいだ…\nピーチ姫が メタコロ病に\nかかってしまう 夢を見て…{3:wait}[Next]それからは ちょっと\nあの写真を 見るのを\nためらっちゃいます…{4:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0001:]",
+    "4": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  }
+ ]
+}

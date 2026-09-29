@@ -1,0 +1,24 @@
+{
+ "batch": "FMsg__i_power_arm_01__and1",
+ "translations": {
+  "FMsg/i_power_arm_01#0": "쿠파의 근육이\n자극을 받아 커진 건가!?{1:wait}",
+  "FMsg/i_power_arm_01#1": "저기!{1:pause} 아까처럼\n전기공 같은 걸 더 맞혀 보지 않을래!?{2:wait}",
+  "FMsg/i_power_arm_01#2": "{1:align}그렇구나! 쿠파의 몸에\n지금처럼 자극을 주면…{2:wait}[Next]엄청난 힘을\n발휘하는 모양이야…{3:wait}",
+  "FMsg/i_power_arm_01#3": "{1:align}{2:align}{3:mode}=== 임시·미구현 ===\n{4:align}{5:align}{6:mode}이벤트가 임시 또는 미구현 상태입니다.{7:pause}{8:wait}",
+  "FMsg/i_power_arm_01#4": "이게 쿠파의\n팔 근육…?{1:wait}",
+  "FMsg/i_power_arm_01#5": "뭔가에 반응하고 있나 봐!!{1:wait}",
+  "FMsg/i_power_arm_01#6": "분명 쿠파가 뭔가를 옮기거나\n움직이게 하려는 중인 것 같아…{1:wait}",
+  "FMsg/i_power_arm_01#7": "마치 스위치처럼 생겼네…{1:wait}",
+  "FMsg/i_power_arm_01#8": "{1:mode}{2:color}마리오{3:color}{4:color}!! 위험해!!{5:pause}{6:color}",
+  "FMsg/i_power_arm_01#9": "{1:align}오오!?{2:pause} 왠지 힘이\n솟아오르는 것 같은데?{3:wait}",
+  "FMsg/i_power_arm_01#10": "뭐지?{1:pause}\n무슨 일이 일어난 거지?{2:wait}",
+  "FMsg/i_power_arm_01#11": "{1:align}클리어한 것으로 처리하고\n이야기를 계속 진행하시겠습니까?{2:pause}\n{3:mode}{4:choice}아니요{5:tab}{6:choice}예",
+  "FMsg/i_power_arm_01#12": "{1:align}흐아아아아아아아아압!!{2:wait}",
+  "FMsg/i_power_arm_02#1": "어쩐지 지금까지와는\n모양이 다르게 생겼어…{1:wait}",
+  "FMsg/i_power_arm_02#2": "나오는 볼이 지금까지와는\n다를지 모르니까\n조심해야 돼!{1:wait}"
+ },
+ "new_terms": [],
+ "notes": {
+  "FMsg/i_power_arm_01#11": "미니게임 건너뛰기 확인창(dups 10곳 공유). 시스템 확인문이라 하십시오체, 선택지는 원문 순서대로 아니요/예."
+ }
+}

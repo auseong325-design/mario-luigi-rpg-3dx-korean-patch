@@ -1,0 +1,63 @@
+jp	ko	type	basis	source	note
+姫様	공주님	character	DS	i_pump_16#11 <-> DS00D#3 ; i_pump_16#13 <-> DS00D#5	키노영감이 피치공주를 부를 때. 키노피오는 '피치공주님'
+姫さま	공주님	character	DS	i_kinopio_01#13 <-> DS16A#24	키노영감. 말더듬 개그 'しめさま/しめさば' → '봉주님/봉자님'(DS16A#24)
+マリオさん	마리오님	character	DS	o_town_33#0 <-> DS0F2#46 ; i_kinopio_01#3 <-> DS16A#10	키노피오·블록 상점 신사 등이 부를 때('마리오 씨' 아님). 3DX 106회
+ルイージさん	루이지님	character	DS	o_peach_op_01#2 <-> DS21A#2 ; o_town_33#0 <-> DS0F2#46	
+マリオ様	마리오님	character	DS	o_town_41#8 <-> DS0F1#1	
+ルイージ様	루이지님	character	DS	o_town_41#8 <-> DS0F1#1	
+マリオどの	마리오님	character	DS	i_kinopio_01#13 <-> DS16A#24 ; i_koshi_01#1 <-> DS152#11	키노영감. 흔히 '마리오님, 그리고 루이지님'
+ルイージどの	루이지님	character	DS	i_kinopio_01#13 <-> DS16A#24 ; i_koshi_01#1 <-> DS152#11	키노영감
+マリオどの達	두 분	character	DS	i_pump_16#18 <-> DS00D#21	키노영감이 마리오 형제를 함께 부를 때
+お２人	두 분	character	DS	i_kinopio_01#8 <-> DS16A#12	키노피오 등이 마리오 형제를 부를 때
+キノックルさん	키노클님	character	DS	i_kinopio_01#3 <-> DS16A#10	키노피오가 부를 때
+キノックルどの	키노클님	character	DS	i_koshi_01#1 <-> DS152#11	키노영감이 부를 때
+キノピオ達	키노피오들	character	DS	i_areanone_op_02_L#4 <-> DS29D#4 ; i_pump_16#20 <-> DS00D#23 ; o_peach_op_04#49 <-> DS218#36	
+助手	조수	character	DS	o_peach_op_04#1 <-> DS218#21	오키노 선생의 조수(여성, 해요체). 'Dr.コキノの 助手' → '닥터 오키노의 조수'
+Dr.コキノさま	오키노 선생님	character	DS	o_zutsuda_15#14 <-> DS108#29	전령 대사
+らんぼうものさん	난폭한 분	character	DS	o_zutsuda_15#14 <-> DS108#29	전령이 쿠파를 부르는 말
+賢者様	현인님	character	DS	i_energy_32#7 <-> DS110#16	
+チャクラン様	차크란님	character	DS	o_mushiba_24#7 <-> DS170#0	자칭 'このチャクラン様' → '이 차크란님'
+チャクランさん	차크란씨	character	DS	o_mushiba_24#25 <-> DS170#28	옐로스타가 부를 때. DS는 '씨'를 붙여 씀
+リューグーさん	러즐님	character	DS	o_mushiba_25#9 <-> DS287#43	팬들의 환호 'すてきー！ リューグーさん！' → '멋져요―! 러즐님!'
+イビッキ様	드르렁님	character	DS	o_ibiki_03#43 <-> DS0B7#26	자화자찬 'さすが イビッキ様' → '역시 드르렁님은'
+メタボス様	메타보스님	character	DS	o_koopa_14#13 <-> DS070#9 ; o_koopa_14#18 <-> DS070#13 ; o_koopa_19#14 <-> DS08B#6	까르코비츠 측 부하가 부를 때
+ゲラコビッツサマ	까르코비츠님	character	DS	o_gepu_05_1#2 <-> DS277#10	메타보스의 가타카나 말투 표기. 한국어는 보통 표기로
+ピーチヒメ	피치공주	character	DS	o_gepu_05_1#2 <-> DS277#10	메타보스의 가타카나 말투 표기. 붙여 씀
+テレサさん	부끄부끄씨	character	DS	i_energy_11#0 <-> DS0BD#0	헬로글로빈 노래 가사. DS는 '씨'를 붙여 씀
+クッパさん	쿠파씨	character	DS	o_zutsuda_30#19 <-> DS289#31	블로즈가 부를 때. DS는 '씨'를 붙여 씀
+ぼうや達	우리 친구들	character	DS	o_zutsuda_30#5 <-> DS289#58	블로즈가 마리오 형제를 부를 때
+赤と緑のスーパースター	빨강과 초록 슈퍼스타	character	DS	o_zutsuda_30#5 <-> DS289#58	블로즈가 들은 소문 속 마리오 형제(RPG2의 외계인 사건)
+赤と緑のヒゲ	빨간색과 초록색 수염	character	DS	o_peach_1f_09#17 <-> DS241#11	까르코비츠가 마리오 형제를 부르는 말
+赤いヒゲ	빨간색 수염	character	DS	i_metaboru_19#12 <-> DS0B8#11	지방공주 '弟思いの赤いヒゲ' → '동생을 걱정 하는 빨간색 수염'. 緑のヒゲ=초록색 수염
+赤のヒゲ	빨간색 수염	character	DS	i_metaboru_19#12 <-> DS0B8#11	i_air_08#0의 3DX 추가 문구(DS17C#0에는 없음). 표기는 DS '빨간색 수염'을 따름
+ブロドッグちゃん	우리 블도그	character	DS	o_mushiba_12#4 <-> DS035#6 ; o_mushiba_12#12 <-> DS035#14 ; o_ekubon_02_after#13 <-> DS28D#1	블록 상점 신사의 말. ちゃん은 '우리'로 살림. 앞에 소유격이 있으면 '블도그'만(DS035#3)
+ブロキャットちゃん	귀여운 블캐츠	character	DS	o_areanone_allmap_bcat_U#5 <-> DS283#3 ; o_ekubon_02_after#28 <-> DS28D#12 ; o_ekubon_02_after#31 <-> DS28D#13	ちゃん은 대개 '귀여운'으로 살림. 짧게 부를 땐 '블캐츠'만(DS28D#10·28)
+ハニー	허니	character	DS	o_koopa_01#21 <-> DS025#19 ; o_koopa_07#26 <-> DS02B#1	까르코비츠 홀 커플(남자 쪽 말버릇). DS는 '허니~'·'허니♥'
+ダーリン	달링	character	DS	o_koopa_01#3 <-> DS025#20 ; o_koopa_07#37 <-> DS02B#2	커플(여자 쪽 말버릇). DS는 '달링♥'(♥는 DS가 덧붙임)
+さすらいヘモグロびん	유랑하는 헬로글로빈	character	DS	i_garakuta_03#17 <-> DS210#20	
+親切なヘモグロびん	친절한 헬로글로빈	character	DS	i_dokan_01#16 <-> DS12E#21	토관 안내 헬로글로빈
+イモムシ	애벌레	character	DS	i_energy_01#4 <-> DS0A4#1 ; i_metaboru_06#39 <-> DS063#29	첫 번째 현인 애번느(イモーヌ)의 정체. '大きなイモムシ' → '커다란 애벌레'
+商人	상인	character	DS	o_peach_op_04#46 <-> DS218#34 ; o_peach_op_04#52 <-> DS218#38	뚱뚱데굴버섯을 판 망토 남자(정체는 까르코비츠). 'マントをはおった男' → '망토를 두른 남자'
+手下	부하	term	DS	o_ekubon_07_1#17 <-> DS048#31 ; o_koopa_01#32 <-> DS025#15	'かわいい手下' → '귀여운 부하'
+子分	부하	term	DS	o_ekubon_14#22 <-> DS032#28 ; o_mushiba_11#16 <-> DS01A#19	'ワガハイの子分' → '이 몸의 부하'
+シロートさん	초짜	term	DS	o_mushiba_24#13 <-> DS170#6	차크란(경상도 사투리)이 마리오 일행을 이르는 말
+宇宙人	외계인	term	DS	o_koopa_39#3 <-> DS28F#3 ; o_zutsuda_30#5 <-> DS289#58	RPG2의 침략자(게돈코). 쿠파 성에 보관된 것
+封印	봉인	term	DS	o_areanone_dstar_setumei_01_L#0 <-> DS095#6 ; o_town_09#4 <-> DS0EB#11 ; i_metaboru_16#10 <-> DS042#13	'ダークスターの封印' → '다크스타의 봉인'
+暗証番号	비밀번호	term	DS	o_koopa_18#20 <-> DS089#11 ; i_tainai_01#35 <-> DS089#17 ; i_areanone_puzzle_01_L#0 <-> EDataSave__mfset_EMesJig#0	쿠파 성 금고의 비밀번호
+金庫	금고	term	DS	o_koopa_18#20 <-> DS089#11 ; i_kioku_03#3 <-> DS14B#2	金庫室=금고실(glossary)
+ダークスターのガード	다크스타의 방어벽	term	DS	o_town_15#1 <-> DS0ED#1 ; o_town_32#15 <-> DS129#25 ; o_town_34_suishou_01_U#35 <-> DS13E#23	피치 성 다리의 방어벽. i_energy_32#7 ↔ DS110#16만 '다크스타의 벽'
+ふしぎなガード	불길해 보이는 방어벽	term	DS	o_town_34_suishou_01_U#60 <-> DS13E#18	
+不思議なガード	불길해 보이는 방어벽	term	DS	o_town_34#13 <-> DS0F4#10	
+暗黒のガード	암흑의 벽	term	DS	o_town_34_suishou_01_U#50 <-> DS13E#32	
+ガード装置	방어 장치	term	DS	o_town_01_before#3 <-> DS0F5#2	버섯 타운 지하의 장치. o_town_06#0 ↔ DS121#0은 '보안 장치'
+会議室	회의실	place	DS	o_peach_op_01#1 <-> DS21A#1 ; o_peach_op_03#5 <-> DS217#0	오프닝 긴급회의 장소(3DX는 강조색)
+ゲキタイプログラム	퇴치 프로그램	term	DS	i_kioku_03#7 <-> DS14B#6	쿠파 기억 속 방어 프로그램. '起動' → '기동'
+クッパクイズ	쿠파 퀴즈	term	DS	i_metaboru_06#12 <-> DS063#5	찡글로빈의 퀴즈. 'オールアバウト クッパクイズ～' → DS '쿠파 퀴즈~'(DS063#3·14)
+パズルガイ	퍼즐 가이	term	DS	o_mushiba_25#28 <-> DS287#68	러즐이 주는 칭호(スーパーパズルガイ=슈퍼 퍼즐 가이)
+パズルボーイ	퍼즐 보이	term	DS	o_mushiba_25#28 <-> DS287#68	
+ウルトラスーパーパズルガイ	울트라 슈퍼 퍼즐 가이	term	DS	o_mushiba_25#28 <-> DS287#68	
+すたーわくちん	스타 백신	key_item	DS	o_mushiba_25#7 <-> DS287#40	러즐의 히라가나 표기(あたっくぱーつ=어택피스와 같은 경우). 한국어는 보통 표기
+ガード	방어벽	term	DS	o_town_15#1 <-> DS0ED#1 ; o_town_34#5 <-> DS0F4#16 ; o_town_34_suishou_01_U#38 <-> DS13E#26 ; o_peach_1f_03#64 <-> DS20E#8	correction: 본편 FMsg의 ガード 16곳에 전투 의미는 0곳. 다크스타의 방어벽 11곳(DS '방어벽', 일부 '벽' DS110#16·DS13E#32), ガード装置 3곳(방어/보안 장치), 토템헬로글로빈의 벽 2곳(DS1F2#0). 현 override '방어'는 전투·배지(BMsg/Item)에만 맞음 → FMsg 배치엔 '방어벽'이 되도록 override 범위 조정 필요
+大魔王	대마왕	term	DS	o_koopa_13_2#6 <-> DS0D1#30 ; o_mushiba_25#10 <-> DS287#44	correction(note만): 「大魔王クッパ」는 DS에서 '대마왕쿠파'로 붙여 씀(DS0B7#7·DS0D1#30·DS241#6·DS287#44, '대마왕 쿠파' 0회). 기존 note의 '대마왕 쿠파'는 틀림
+ムッシュ	신사	other	DS	o_ibiki_01#3 <-> DS134#7 ; o_koopa_r_33#8 <-> DS145#7	correction(note만): 블록 상점 신사가 쿠파(전투 중엔 마리오도)를 부르는 말. 기존 note의 '블로크'는 DS 표기가 아님(상점 주인의 본명은 JP·DS 대사에 없음)
+リューギー	러기	character	coined	k_o_mushiba_80#39	correction: 기존 '용기'는 폐기된 リューグー=용궁 안에 맞춘 별명. リューグー=러즐(DS287#2, override)이므로 러(즐)+(이)기로 이기(イギー)와 끝소리를 맞춤. 쿠파Jr. RPG 범위 — 확인 필요

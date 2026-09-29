@@ -1,0 +1,14 @@
+{
+ "batch": "FMsg__i_power_leg_SA_push_01_L",
+ "translations": {
+  "FMsg/i_power_leg_SA_push_01_L#0": "쿠파가 힘을 낼 수 있도록\n근육을 자극해 보자!{1:wait}",
+  "FMsg/i_power_leg_SA_push_01_L#1": "점프만 해서는\n자극이 부족한 것 같아…{1:wait}[Next]착지할 때 버튼을 눌러서\n꾹~ 하고 세게 밟아 봐!{2:wait}",
+  "FMsg/i_power_leg_SA_push_01_L#2": "{1:mode}이번엔 루이지야!",
+  "FMsg/i_power_leg_SA_push_01_L#3": "마리오와 루이지 중에\n{1:color}아래에 있는 사람{2:color}{3:color} 버튼을\n누르면 되는 것 같아.{4:wait}{5:color}",
+  "FMsg/i_power_leg_SA_push_01_L#4": "좌우 교대로 계속 누르다 보면\n점프 높이가 높아져서\n자극도 세지는 것 같아.{1:wait}[Next]점프가 계속 이어질 수 있도록\n알맞은 타이밍에\n버튼을 눌러 줘!{2:wait}",
+  "FMsg/i_power_leg_SA_push_01_L#5": "{1:align}{2:mode}아!{3:pause}",
+  "FMsg/i_power_leg_SA_push_01_L#6": "버튼을 누르고 있는 동안에는\n계속 힘이 나는 모양이니까{1:wait}[Next]잠시 동안 버튼을 {2:color}누른 상태{3:color}{4:color}로\n자극하는 게 좋을 것 같아!{5:wait}{6:color}"
+ },
+ "new_terms": [],
+ "notes": {}
+}

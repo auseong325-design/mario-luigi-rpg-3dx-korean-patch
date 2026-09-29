@@ -1,0 +1,2040 @@
+{
+ "batch": "FMsg__o_town_34_suishou_01_U__and7",
+ "rooms": [
+  "o_town_34_suishou_01_U",
+  "o_town_35",
+  "o_town_36",
+  "o_town_37",
+  "o_town_38",
+  "o_town_39",
+  "o_town_40",
+  "o_town_41"
+ ],
+ "ds_rooms": [
+  "0A3",
+  "0F1",
+  "0F3",
+  "12A",
+  "12B",
+  "12C",
+  "12D",
+  "13E"
+ ],
+ "ds_reference": [
+  "DS0A3#0: 어서 오세요~ 부티크 키노다에\n오신 것을 환영합니다~",
+  "DS0A3#1: 어서 오세요~ 부티크 키노다에\n오신 것을 환영합니다~[Next]저희 숍은 샤인 랭크 이상인 분께\n어울리는 상품만을\n취급하고 있습니다~[Next]손님은 아직\n샤인 랭크가\n되지 않으셨군요~[Next]그 랭크로 우리 제품을\n구입하려고 하다니…[Next]후후후후…\n어림도 없는 일이죠.[Next]다른 가게를\n찾아보시는 게\n어떨는지요?",
+  "DS0A3#2: 감사합니다~",
+  "DS0A3#3: 여기는\n피팅룸입니다~",
+  "DS0A3#4: 휴우…\n멋 좀 내려고 했더니\n코인이 문제네…",
+  "DS0A3#5: 저 글러브… 나한테\n잘 어울렸는데…",
+  "DS0A3#6: 이 글러브가 3000코인!?\n너무 비싼 거 아닌가요?",
+  "DS0A3#7: 아니죠, 손님~\n이 원단을 생각하면\n아주 합리적인 가격이죠!",
+  "DS0A3#8: 이 웨어가 6000코인이라고요!?\n누가 이 코인 내고 사겠어요!!",
+  "DS0A3#9: 아니죠, 손님~\n이 원단을 생각하면\n아주 양심적인 가격이죠!",
+  "DS0A3#10: 저희 가게에서는\n엄선된 원단으로 만든 상품만을\n취급하고 있습니다.[Next]게다가 모든 상품에는\n아주 합리적이고 양심적인\n가격이 매겨져 있습니다.",
+  "DS0A3#11: 계산은 중앙 계산대에서\n코인으로만\n받고 있습니다~",
+  "DS0A3#12: 에고~! 들켰다!\n마리오님은 역시 대단해요![Next]하지만 다음엔 못 찾을걸요~\n준비~ 시작~!!",
+  "DS0F1#0: 손님… 아무래도 숍을\n잘못 찾아오신 것 같습니다.[Next]저희 숍은 스타 랭크 이상인\n분들만 이용하실 수 있습니다.[Next]죄송합니다.",
+  "DS0F1#1: 어서 오십시오.\n마리오님, 루이지님.[Next]자, 안쪽에 있는 발판 위로\n올라가 주십시오.",
+  "DS0F1#2: 어서 오십시오~!",
+  "DS0F1#3: 저희 가게를\n찾아 주신 데 대해\n진심으로 감사드립니다.[Next]두 분을 담당하게 된\n키노피온입니다.\n앞으로 잘 부탁드립니다.[Next]저희 숍에서는\n두 분을 위해 빈틈없는\n서비스를 준비했습니다.[Next]우선 제 뒤쪽 좌석에\n편히 앉아 주십시오.\n자, 이쪽으로 오십시오.",
+  "DS0F1#4: 로열 버섯 티\n입니다.",
+  "DS0F1#5: 발 마사지를\n해 드리겠습니다.",
+  "DS0F1#6: 원하신다면\n서비스로 수염도\n깎아 드립니다만…",
+  "DS0F1#7: 실례했습니다.",
+  "DS0F1#8: 어떠신가요? 위를 한번\n올려다봐 주시겠습니까?",
+  "DS0F1#9: 별이 빛나는 하늘 아래에서\n시간이 허락하는 한 편안하게\n쇼핑을 즐겨 주시기 바랍니다.[Next]그럼 즐거운 시간 되십시오.",
+  "DS0F1#10: 감사합니다~!\n또 뵙기를 바랍니다!\n안녕히 가십시오~!",
+  "DS0F1#11: 감사합니다.\n또 뵙기를 바랍니다!\n안녕히 가십시오.",
+  "DS0F1#12: 손님… 오늘은…\n쇼핑만 빨리 하기\n여유 있게 서비스 받기",
+  "DS0F1#13: HP와 SP 모두 회복!!",
+  "DS0F3#0: 마리오님!\n도와주세요~",
+  "DS0F3#1: 사랑하는 허니랑\n아들을 보고 싶어요~!",
+  "DS0F3#2: 정말 싫어~!!\n내 몸이 너무 싫다고~!!",
+  "DS0F3#3: 더워요~ 괴로워요~\n덥고 괴로워요~!!",
+  "DS0F3#4: 오키노 선생님~!\n아직인가요~!?",
+  "DS0F3#5: 마리오님도\n조심하세요~[Next]몸이 이렇게 되면\n점프도 못 해요~",
+  "DS0F3#6: 로열 버섯 티를\n마시고 싶어요~",
+  "DS0F3#7: 나았어! 나았다고~!",
+  "DS0F3#8: d",
+  "DS0F3#9: 아~ 루이지님![Next]전 루이지님의\n팬이에요~[Next]루이지님을 만나게\n되다니 너무 기뻐요~[Next]마리오님은\n자주 뵙거든요…[Next]루이지님이라면 제 몸을\n고쳐 주시겠죠~?[Next]기대하고 있을게요~!\n힘내세요~!",
+  "DS12A#0: 이것은 공기를 마시는 양과\n내쉬는 양을 조사하는\n머신입니다.",
+  "DS12A#1: 그럼 마리오님!\n이것을 물고~",
+  "DS12A#2: 오오오…!\n정말로 놀랍습니다.[Next]이 정도면 아무리 높은 곳에\n올라가도 식은 죽 먹기겠네요.",
+  "DS12A#3: 그럼 다음으로 루이지님.\n이것을 물고~",
+  "DS12A#4: 선생님! 큰일입니다!\n여기저기에서 공기가\n새어 나오고 있어요!",
+  "DS12A#5: 이 머신의 파이프는\n여러 곳과\n연결되어 있습니다![Next]이 머신이 부서진 탓에\n공기가 새게 되었습니다!",
+  "DS12A#6: 네네! 루이지님도\n문제없습니다![Next]오히려 폐활량이\n너무 뛰어나서 문제군요![Next]어서 빨리 이아파 비치로\n향해 주시지요![Next]저는 이 머신을\n고쳐야겠습니다!",
+  "DS12B#0: 어서 와.\n여긴 배지 가게야.[Next]당신들… 배지는\n사용할 줄 알아?",
+  "DS12B#1: 어서 와.\n여긴 배지 가게야.",
+  "DS12B#2: 당신들…\n배지 교환은\n할 줄 아는 거야?\n몰라요  알아요",
+  "DS12B#3: 알았어! 그럼\n알려 줄게.",
+  "DS12B#4: 그렇군, 알았어!\n그럼 수고해!",
+  "DS12B#5: 다음에 또 와!",
+  "DS12C#0: 어서 오세요.\n아이템 숍입니다.",
+  "DS12C#1: 에이~ 또 꽝이네!\n이 스크래치 카드는 왜 이렇게\n당첨이 안 되는 거야!?",
+  "DS12C#2: 에고~! 들켰다!\n마리오님은 역시 대단해요![Next]하지만 다음엔 못 찾을걸요~\n준비~ 시작~!!",
+  "DS12D#0: 어서 오세요.[Next]여기는 누구나 부담 없이 장비를\n구입할 수 있는 가게입니다.",
+  "DS13E#0: 다음 환자분이\n들어오셨습니다.",
+  "DS13E#1: 저기~ 선생님?",
+  "DS13E#2: 심각하군요!!",
+  "DS13E#3: 두 분은 형용할 수 없는\n엄청난 중병에 걸리고 말았군요![Next]당장 두 분을 좀먹고 있는\n바이러스를 퇴치하지 않으면\n큰일이 나고 말 겁니다!!",
+  "DS13E#4: 조용! 당신들을\n좀먹는 바이러스…[Next]그 바이러스의 정체가\n보이기 시작했습니다…",
+  "DS13E#5: 선생님은 직접 보지 않아도\n환자의 병을 알 수 있으세요.[Next]잘 보세요.",
+  "DS13E#6: 아~~ 보인다. 보일 거다.\n보이기 시작했다… 시작할 거다.[Next]당신들을 갉아먹고 있는\n무시무시한 바이러스…[Next]그것은… 그것은…",
+  "DS13E#7: 쿠파 바이러스입니다!!",
+  "DS13E#8: 크핫핫핫핫!",
+  "DS13E#9: 이 몸의 이름을\n불렀느냐?",
+  "DS13E#10: 어떤가요?\n바로 나왔네요![Next]이것이 바로 당신들을\n갉아먹고 있는 바이러스입니다![Next]음, 보기만 해도\n몸과 마음에 안 좋아 보이네요.",
+  "DS13E#11: 뭐, 뭐라고? 이놈!!",
+  "DS13E#12: 저 바이러스는\n매우 고약합니다.[Next]나을 때까지 상당한\n시간이 걸리겠네요.[Next]우선 약을 10일분\n처방해 드리지요.[Next]하루 3번, 식후에\n드시기 바랍니다.",
+  "DS13E#13: 어이! 마리오! 초록색 수염!",
+  "DS13E#14: 네놈들도 다크스타를\n찾고 있는 것이냐!?[Next]그리고 피치공주도\n찾으려고 하는 거겠지!?",
+  "DS13E#15: 다크스타와 피치공주를\n찾는 것은 바로 이 몸이다![Next]방해하면 용서치 않겠다!!",
+  "DS13E#16: 아, 아직…\n컨디션이… 돌아오지 않았…다.[Next]분…하…다…",
+  "DS13E#17: 그렇군요. 그래서 당신들이\n이곳에 온 거로군요.[Next]이대로 방치하다간\n버섯 왕국이 위험하다니…",
+  "DS13E#18: 당신은 버섯 왕국의 일이라면\n뭐든지 알고 있다는\n소문을 들었어…[Next]피치 성 앞을 가로막고 있는\n불길해 보이는 방어벽을\n없애 줄 순 없을까…?",
+  "DS13E#19: 하하하하하하…",
+  "DS13E#20: 히히히히히히…",
+  "DS13E#21: 우호호호호호호호호\n호―호호호호호호호호…",
+  "DS13E#22: 불가능합니다!",
+  "DS13E#23: 물론 저는 모르는 것 없이\n모든 것을 알고 있지요.[Next]하지만! 아무리 제가\n유능하고 신비로운 힘을\n갖고 있다 해도…[Next]다크스타의 파워로 만들어진\n강력한 방어벽을 깨뜨리는 건…[Next]도저히! 절대로!\n완전히~~~ 불가능합니다!",
+  "DS13E#24: 꼭… 그렇게까지\n자신 있게 말할 건 없잖아…[Next]이대로라면 피치 성에\n갈 수 없게 되고…[Next]이 왕국이 멸망할지도\n모르는데…",
+  "DS13E#25: 실망하기엔\n아직 이릅니다.",
+  "DS13E#26: 저에겐 방어벽을 부술 만한\n힘은 없지만…[Next]다른 방법이\n없다는 것은 아닙니다.",
+  "DS13E#27: 정말?",
+  "DS13E#28: 스타 백신!",
+  "DS13E#29: 스타 백신?",
+  "DS13E#30: 스타… 스타 백신…[Next]3개의 스타 백신…[Next]3명의 현인이 갖고 있는\n3개의 스타 백신…[Next]온갖 사악한 파워를\n제압할 수 있는 백신…",
+  "DS13E#31: 3개의 스타 백신이란 걸\n모으면 되는 거구나!?[Next]그걸로 다크스타도\n물리칠 수 있는 거지?",
+  "DS13E#32: 지금 버섯 왕국을 위협하는\n두려운 질병, 뚱뚱데굴병…[Next]그 뚱뚱데굴병을 치료하기 위해서도\n스타 백신이 필요하지만…[Next]3개의 스타 백신이\n모이면 분명…[Next]당신들이 말하고 있는 암흑의 벽도\n부술 수 있을 겁니다.[Next]다크스타도 물리칠 수 있는지…\n그것까지는 잘 모르겠지만…[Next]우선 스타 백신부터\n모으는 게 어떨까요?",
+  "DS13E#33: 뚱뚱데굴병을 고칠 수 있구나!\n그럼 당장 모아야지!![Next]그래서? 스타 백신은\n어디에 있는데?",
+  "DS13E#34: 3개의 스타 백신은\n3명의 현인이 각각\n하나씩 갖고 있지요.",
+  "DS13E#35: 그 얘긴 들었으니까 됐고!\n그 현인들이 어디에 있는데?",
+  "DS13E#36: 바로! 그중 한 명은\n숲 속에 있지요!!",
+  "DS13E#37: 숲이라면…\n볼조개 숲인가 보다!!",
+  "DS13E#38: 이야기는\n모두 들었다![Next]스타 백신인가 뭔가를\n3개 모으면 된다는 거 아니냐!",
+  "DS13E#39: 너는 못 찾을걸![Next]마리오와 루이지가\n3개 모두 찾을 테니까!",
+  "DS13E#40: 으으으으으! 네놈!\n말투가 내 화를 돋우는구나![Next]이 몸의 몸속에 있는\n치피인가 하는 녀석이랑 똑같다!",
+  "DS13E#41: 뭐, 상관없다!\n어이! 마리오! 초록색 수염!\n먼저 찾는 자가 임자다![Next]이 몸이 먼저 3개를 모아서\n피치 성으로 입성할 것이다!!",
+  "DS13E#42: 저기! 첫 번째 현인은\n어떤 사람이야?",
+  "DS13E#43: 음… 으으으음…[Next]그걸 알려면\n시간이 걸립니다…",
+  "DS13E#44: 좋아… 우리도 어서\n볼조개 숲으로 가 보자.",
+  "DS13E#45: 기다리십시오! 나왔습니다!",
+  "DS13E#46: 여기를 보시지요![Next]자! 첫 번째 현인이\n또렷하게 보일 것입니다!",
+  "DS13E#47: 어라? 이 애벌레…\n쿠파의 몸속에서 싸웠던\n그 애벌레인가?",
+  "DS13E#48: 어… 음…\n아! 기억났어![Next]그러고 보니 이 애벌레…\n싸운 다음에 도망갔었어![Next]이 애벌레가 첫 번째 현인이야?",
+  "DS13E#49: 제가 보는 점은\n틀린 적이 없습니다.[Next]틀림없이 이 애벌레가\n첫 번째 현인입니다.[Next]이 애벌레가 스타 백신을\n100% 갖고 있을 것입니다.",
+  "DS13E#50: 숲에는 없어! 이 애벌레는\n쿠파의 몸속에 있다고![Next]볼조개 숲에서 쿠파에게 먹혔어!\n쿠파의 몸속을 돌아다닌다고![Next]당신이 보는 점은\n엉망진창이잖아!",
+  "DS13E#51: 무슨 말인지 알 수 없는\n복잡한 사정까지는\n점칠 수 없지요!![Next]원래 숲에 있던 애벌레라면\n저의 점은\n아슬아슬하게 맞았습니다![Next]게다가 덕분에\n쿠파에게 빼앗길 일도\n없어지지 않았습니까!",
+  "DS13E#52: 그… 그건 그래.\n첫 번째 현인이 쿠파의 몸속에\n있다니 운이 좋은 거야![Next]우린 그럼 쿠파의 몸속으로\n돌아가서 이 애벌레한테\n스타 백신을 달라고 하자!",
+  "DS13E#53: 왠지 귀찮은 일에\n휘말린 것 같군요…",
+  "DS13E#54: 바다… 모래사장… 낭떠러지…[Next]세 번째 현인은 이런 경치가\n보이는 곳의 어딘가에 있습니다…",
+  "DS13E#55: 바다라면…\n이아파 비치구나!!",
+  "DS13E#56: 으으음… 바다이긴 하지만\n상당히 높은 곳…[Next]공기가 희박해질 정도로 높은 곳에\n세 번째 현인이 있습니다.",
+  "DS13E#57: 일단 가 보자!\n생각만 한다고 뭐가 되겠어?",
+  "DS13E#58: 하지만… 의사로서\n그렇게 높은 장소에 그냥\n보낼 수는 없습니다…",
+  "DS13E#59: 그러고 보니 당신…\n의사였지…?",
+  "DS13E#60: 공기가 희박한 곳에서도\n문제가 없을지…\n두 분을 검사하겠습니다.",
+  "DS13E#61: 이쪽으로…"
+ ],
+ "glossary": [
+  {
+   "jp": "ジャンプ",
+   "ko": "점프",
+   "type": "ability",
+   "basis": "DS",
+   "source": "BData__mfset_Help#9",
+   "note": "필드 액션·배틀 커맨드 공통 [gl_attacks]"
+  },
+  {
+   "jp": "キノーピオン",
+   "ko": "키노피온",
+   "type": "character",
+   "basis": "DS",
+   "source": "o_town_41#10 ↔ DS0F1#3",
+   "note": "room-align"
+  },
+  {
+   "jp": "クッパ",
+   "ko": "쿠파",
+   "type": "character",
+   "basis": "DS",
+   "source": "BData__mfset_Help#21",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "コキノ先生",
+   "ko": "오키노 선생님",
+   "type": "character",
+   "basis": "DS",
+   "source": "o_town_20#11 ↔ DS0CC#8",
+   "note": "room-align"
+  },
+  {
+   "jp": "ダークスター",
+   "ko": "다크스타",
+   "type": "character",
+   "basis": "DS",
+   "source": "i_air_07#1 ↔ DS17F#1",
+   "note": "room-align"
+  },
+  {
+   "jp": "チッピー",
+   "ko": "치피",
+   "type": "character",
+   "basis": "DS",
+   "source": "i_fire_02#1 ↔ DS039#10",
+   "note": "room-align"
+  },
+  {
+   "jp": "ピーチ姫",
+   "ko": "피치공주",
+   "type": "character",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesOutline#13",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "マリオ",
+   "ko": "마리오",
+   "type": "character",
+   "basis": "DS",
+   "source": "BData__mfset_Help#19",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "ルイージ",
+   "ko": "루이지",
+   "type": "character",
+   "basis": "DS",
+   "source": "BData__mfset_Help#20",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "ロイ",
+   "ko": "로이",
+   "type": "character",
+   "basis": "official",
+   "source": "https://www.nintendo.com/kr/switch/aabpa/sp/character/",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "緑のヒゲ",
+   "ko": "초록색 수염",
+   "type": "character",
+   "basis": "DS",
+   "source": "o_peach_t_06_lastboss_01_U#3 ↔ DS223#9 (쿠파가 루이지를 부르는 말)",
+   "note": "room-align"
+  },
+  {
+   "jp": "ブル",
+   "ko": "불",
+   "type": "enemy",
+   "basis": "official",
+   "source": "https://namu.wiki/w/%EC%BF%A0%ED%8C%8C%EA%B5%B0%EB%8B%A8",
+   "note": "Chargin' Chuck. RPG1 DX 한국판 설명문에도 '불'. 불(火)과 헷갈리지 않게 문맥 주의 — 확인 필요 [gl_kj]"
+  },
+  {
+   "jp": "キノコ",
+   "ko": "버섯",
+   "type": "item",
+   "basis": "DS",
+   "source": "BData__mfset_UItmN#0",
+   "note": "일반 명사 キノコ도 버섯(キノコタウン=버섯 타운) [gl_items]"
+  },
+  {
+   "jp": "キノコティー",
+   "ko": "버섯 티",
+   "type": "item",
+   "basis": "DS",
+   "source": "o_peach_g_04#0 ↔ DS1AA#25",
+   "note": "room-align"
+  },
+  {
+   "jp": "ボーナスカード",
+   "ko": "보너스 카드",
+   "type": "item",
+   "basis": "coined",
+   "source": "3DX 개명(DS 스크래치 카드와 방식이 다름)",
+   "note": "3DX에서 이름·방식이 바뀌어 3DX 이름을 따름"
+  },
+  {
+   "jp": "ロイヤルキノコティー",
+   "ko": "로열 버섯 티",
+   "type": "item",
+   "basis": "DS",
+   "source": "o_town_31#3 ↔ DS128#7",
+   "note": "room-align"
+  },
+  {
+   "jp": "スターワクチン",
+   "ko": "스타 백신",
+   "type": "key_item",
+   "basis": "DS",
+   "source": "MData__mfset_MenuMes#58",
+   "note": "DS '3개의 스타 백신을 합성해서' [gl_items]"
+  },
+  {
+   "jp": "ワクチン",
+   "ko": "백신",
+   "type": "key_item",
+   "basis": "DS",
+   "source": "MData__mfset_MenuMes#52",
+   "note": "[gl_menu_places]"
+  },
+  {
+   "jp": "マッサージ",
+   "ko": "마사지",
+   "type": "other",
+   "basis": "DS",
+   "source": "BData__mfset_MiniGame#7",
+   "note": "블로즈 미니 게임. DS 이름은 '블로즈 마사지'(MiniGame#10) [gl_attacks]"
+  },
+  {
+   "jp": "そうび品屋",
+   "ko": "장비 가게",
+   "type": "place",
+   "basis": "coined",
+   "source": "",
+   "note": "DS12D#0은 '장비를 구입할 수 있는 가게'로 풀어 씀. 배지 가게(DS)와 짝 [gl_menu_places]"
+  },
+  {
+   "jp": "アイテムショップ",
+   "ko": "아이템 숍",
+   "type": "place",
+   "basis": "DS",
+   "source": "DS12C#0",
+   "note": "[gl_menu_places]"
+  },
+  {
+   "jp": "エクボン",
+   "ko": "볼조개",
+   "type": "place",
+   "basis": "DS",
+   "source": "MData__mfset_MenuMes#17",
+   "note": "エクボンの森 약칭(エクボンパーツ=볼조개 피스) [gl_menu_places]"
+  },
+  {
+   "jp": "エクボンの森",
+   "ko": "볼조개 숲",
+   "type": "place",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesPlace#2",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "キノコ王国",
+   "ko": "버섯 왕국",
+   "type": "place",
+   "basis": "DS",
+   "source": "FEvent:011#0",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "クッパの体の中",
+   "ko": "쿠파의 몸속",
+   "type": "place",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesOutline#37",
+   "note": "[gl_menu_places]"
+  },
+  {
+   "jp": "バッジ屋",
+   "ko": "배지 가게",
+   "type": "place",
+   "basis": "DS",
+   "source": "DS12B#0",
+   "note": "[gl_menu_places]"
+  },
+  {
+   "jp": "ビーチ",
+   "ko": "비치",
+   "type": "place",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesOutline#27",
+   "note": "ムッシーバビーチ를 줄여 부를 때 [gl_menu_places]"
+  },
+  {
+   "jp": "ピーチ城",
+   "ko": "피치 성",
+   "type": "place",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesPlace#1",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "ブティック キノダ",
+   "ko": "부티크 키노다",
+   "type": "place",
+   "basis": "DS",
+   "source": "DS0A3#0",
+   "note": "[gl_menu_places]"
+  },
+  {
+   "jp": "ムッシーバ",
+   "ko": "이아파",
+   "type": "place",
+   "basis": "DS",
+   "source": "MData__mfset_MenuMes#15",
+   "note": "ムッシーバビーチ 약칭(ムッシーバパーツ=이아파 피스) [gl_menu_places]"
+  },
+  {
+   "jp": "ムッシーバビーチ",
+   "ko": "이아파 비치",
+   "type": "place",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesPlace#4",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "ガード",
+   "ko": "방어",
+   "type": "term",
+   "basis": "DS",
+   "source": "DS 대사 '방어' 34회, '가드' 0회",
+   "note": "'가드 성공' 등도 '방어'로"
+  },
+  {
+   "jp": "クッパウィルス",
+   "ko": "쿠파 바이러스",
+   "type": "term",
+   "basis": "DS",
+   "source": "o_town_34_suishou_01_U#29 ↔ DS13E#7",
+   "note": "room-align"
+  },
+  {
+   "jp": "コイン",
+   "ko": "코인",
+   "type": "term",
+   "basis": "DS",
+   "source": "BData__mfset_WearE#22",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "スターランク",
+   "ko": "스타 랭크",
+   "type": "term",
+   "basis": "DS",
+   "source": "MData__mfset_MenuMes#119",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "バッジ",
+   "ko": "배지",
+   "type": "term",
+   "basis": "DS",
+   "source": "BData__mfset_BadgeN#0",
+   "note": "AGENTS.md 4.4 확정 표기 [gl_items]"
+  },
+  {
+   "jp": "バトル",
+   "ko": "배틀",
+   "type": "term",
+   "basis": "DS",
+   "source": "BAI__BMes_cf#2.13",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "ヒゲ",
+   "ko": "수염",
+   "type": "term",
+   "basis": "DS",
+   "source": "DS '수염' 21회",
+   "note": ""
+  },
+  {
+   "jp": "フラワーランク",
+   "ko": "플라워 랭크",
+   "type": "term",
+   "basis": "DS",
+   "source": "MData__mfset_MenuMes#117",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "メタコロ",
+   "ko": "뚱뚱데굴",
+   "type": "term",
+   "basis": "coined",
+   "source": "FMsg/k_o_koopa_r_80#301",
+   "note": "DS 병명에서. 「メタコロクリボー」→'뚱뚱데굴 굼바' [gl_kj]"
+  },
+  {
+   "jp": "メタコロ病",
+   "ko": "뚱뚱데굴병",
+   "type": "term",
+   "basis": "DS",
+   "source": "FEvent:09B#0",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "ランク",
+   "ko": "랭크",
+   "type": "term",
+   "basis": "DS",
+   "source": "MData__mfset_MenuMes#116",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "ワガハイ",
+   "ko": "이 몸",
+   "type": "term",
+   "basis": "DS",
+   "source": "FEvent:025#7",
+   "note": "쿠파의 1인칭 [gl_kj]"
+  },
+  {
+   "jp": "星空",
+   "ko": "별하늘",
+   "type": "term",
+   "basis": "coined",
+   "source": "BMsg/b_sys#620",
+   "note": "진형 이름 [gl_kj]"
+  },
+  {
+   "jp": "賢者",
+   "ko": "현인",
+   "type": "term",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesOutline#27",
+   "note": "[gl_menu_places]"
+  },
+  {
+   "jp": "そうび",
+   "ko": "장비",
+   "type": "ui",
+   "basis": "DS",
+   "source": "MData__mfset_MenuMes#1",
+   "note": "명사(스타 메뉴 항목·장비품). 동사 そうびする는 '착용하다'(ShopMes#14) [gl_menu_places]"
+  },
+  {
+   "jp": "そうび品",
+   "ko": "장비",
+   "type": "ui",
+   "basis": "DS",
+   "source": "MData__mfset_MenuMes#1",
+   "note": "동사 そうびする는 '착용하다'(ShopMes#14) [gl_menu_places]"
+  },
+  {
+   "jp": "つけかえ",
+   "ko": "교환",
+   "type": "ui",
+   "basis": "DS",
+   "source": "MAI__MMes_yo#0.9",
+   "note": "バッジのつけかえ=배지 교환 [gl_menu_places]"
+  },
+  {
+   "jp": "アイテム",
+   "ko": "아이템",
+   "type": "ui",
+   "basis": "DS",
+   "source": "BData__mfset_Help#13",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "アタリ",
+   "ko": "당첨",
+   "type": "ui",
+   "basis": "DS",
+   "source": "SAI__SMes_yo#0.72",
+   "note": "[gl_menu_places]"
+  },
+  {
+   "jp": "ショップ",
+   "ko": "숍",
+   "type": "ui",
+   "basis": "DS",
+   "source": "DS0A3#1",
+   "note": "[gl_menu_places]"
+  },
+  {
+   "jp": "ハズレ",
+   "ko": "꽝",
+   "type": "ui",
+   "basis": "DS",
+   "source": "SAI__SMes_yo#0.3",
+   "note": "[gl_menu_places]"
+  },
+  {
+   "jp": "バッジのつけかえ",
+   "ko": "배지 교환",
+   "type": "ui",
+   "basis": "DS",
+   "source": "BData__mfset_Help#17",
+   "note": "배틀 커맨드. 스타 메뉴 설명은 '배지를 갈아 끼우다'(MenuMes#2) [gl_attacks]"
+  }
+ ],
+ "messages": [
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#0",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_a_54_2",
+   "style": 6,
+   "src": "私のうらないは\nハズレたことがないでしょう。{1:wait}[Next]まちがいなく このイモムシが\n１人目の 賢者でしょう。{2:wait}[Next]このイモムシが {3:color}スターワクチン{4:color}{5:color}を\n１００％ 持っているでしょう。{6:wait}{7:color}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]",
+    "3": "[Color #2C64FF]",
+    "4": "[Color #373737]",
+    "5": "[Color #373737]",
+    "6": "[0002:0001:]",
+    "7": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#1",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_a_54_3",
+   "style": 6,
+   "src": "森じゃないわよ！{1:pause} このイモムシは\n{2:color}クッパの体の中{3:color}{4:color}に いるのよ！{5:wait}[Next]エクボンの森で クッパに食べられて\n{6:color}{7:color}クッパの体の中{8:color}{9:color}を ウロウロしてるの！{10:wait}[Next]あなたの うらない\nハズレまくってるわよ！{11:wait}{12:color}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[Color #2C64FF]",
+    "3": "[Color #373737]",
+    "4": "[Color #373737]",
+    "5": "[0002:0001:]",
+    "6": "[Color #373737]",
+    "7": "[Color #2C64FF]",
+    "8": "[Color #373737]",
+    "9": "[Color #373737]",
+    "10": "[0002:0001:]",
+    "11": "[0002:0001:]",
+    "12": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#2",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_a_40",
+   "style": 6,
+   "src": "{1:align}スター…{2:pause} {3:color}スターワクチン{4:color}{5:color}…{6:wait}[Next]{7:align}{8:color}{9:color}３つのスターワクチン{10:color}{11:color}…{12:wait}[Next]３人の賢者が持つ\n{13:color}{14:color}３つのスターワクチン{15:color}{16:color}…{17:wait}[Next]あらゆる 悪しきパワーを\nふきとばすことが できるワクチン…{18:wait}{19:color}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0000:0A 00]",
+    "3": "[Color #2C64FF]",
+    "4": "[Color #373737]",
+    "5": "[Color #373737]",
+    "6": "[0002:0001:]",
+    "7": "[0001:0004:]",
+    "8": "[Color #373737]",
+    "9": "[Color #2C64FF]",
+    "10": "[Color #373737]",
+    "11": "[Color #373737]",
+    "12": "[0002:0001:]",
+    "13": "[Color #373737]",
+    "14": "[Color #2C64FF]",
+    "15": "[Color #373737]",
+    "16": "[Color #373737]",
+    "17": "[0002:0001:]",
+    "18": "[0002:0001:]",
+    "19": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#3",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_a_54_4",
+   "style": 6,
+   "src": "そんな わけのわからない\nフクザツな事情まで\nうらなえないでしょう！！{1:wait}[Next]もともと森にいた イモムシなら\nうらないも かろうじて\n当たっているでしょう！{2:wait}[Next]しかも おかげで\nクッパに 先をこされずに\nすんだでしょう！{3:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#4",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_a_41",
+   "style": 6,
+   "src": "{1:color}３つのスターワクチン{2:color}{3:color}ってのを\n集めればいいのね！？{4:wait}[Next]それで ダークスターも\nやっつけちゃえるのね？{5:wait}{6:color}",
+   "tags": {
+    "1": "[Color #2C64FF]",
+    "2": "[Color #373737]",
+    "3": "[Color #373737]",
+    "4": "[0002:0001:]",
+    "5": "[0002:0001:]",
+    "6": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#5",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_a_42",
+   "style": 6,
+   "src": "{1:color}３つのスターワクチン{2:color}{3:color}は\n３人の賢者が それぞれ\n１つずつ 持っているでしょう。{4:wait}{5:color}",
+   "tags": {
+    "1": "[Color #2C64FF]",
+    "2": "[Color #373737]",
+    "3": "[Color #373737]",
+    "4": "[0002:0001:]",
+    "5": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#6",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_a_43",
+   "style": 6,
+   "src": "森といえば…{1:pause}\nエクボンの森ね！！{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#7",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_a_44",
+   "style": 6,
+   "src": "話は全部\n聞かせてもらったぞ！{1:wait}[Next]{2:color}スターワクチン{3:color}{4:color}とやらを\n３つ集めれば いいんだな！？{5:wait}{6:color}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[Color #2C64FF]",
+    "3": "[Color #373737]",
+    "4": "[Color #373737]",
+    "5": "[0002:0001:]",
+    "6": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#8",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_a_45",
+   "style": 6,
+   "src": "{1:align}{2:align}あなたには ムリよ！{3:wait}[Next]{4:align}マリオと ルイージが ３つとも\n集めるに 決まってるわ！{5:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0001:]",
+    "4": "[0001:0000:]",
+    "5": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#9",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_a_46",
+   "style": 6,
+   "src": "ムムムムム！ オマエ！\nあたまにくるしゃべり方をするな！{1:wait}[Next]ワガハイの 体の中にいる\nチッピーとかいうやつに そっくりだ！{2:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#10",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_a_47",
+   "style": 6,
+   "src": "まあ いいわ！{1:pause}\nおい！ マリオ！ 緑のヒゲ！{2:pause}\nはやいもの勝ちだぞ！{3:wait}[Next]{4:align}ワガハイが 先に３つ集めて\nピーチ城へ 入ってやる！！{5:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0000:0A 00]",
+    "3": "[0002:0001:]",
+    "4": "[0001:0004:]",
+    "5": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#11",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_a_48",
+   "style": 6,
+   "src": "ねえ！{1:pause} １人目の賢者って\nどんな人なの？{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#12",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_a_49",
+   "style": 6,
+   "src": "{1:align}む…{2:pause} むむむむ…{3:wait}[Next]それが わかるには\n時間がかかるでしょう…{4:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0000:0A 00]",
+    "3": "[0002:0001:]",
+    "4": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#13",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_a_11_2",
+   "style": 6,
+   "src": "あの～{1:pause} 先生？{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#14",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_b_03",
+   "style": 6,
+   "src": "{1:align}{2:align}海…{3:pause} 砂浜…{4:pause} ガケ…{5:pause}{6:wait}[Next]３人目の賢者は この景色の\n見える場所の どこかにいる…{7:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0000:14 00]",
+    "4": "[0002:0000:14 00]",
+    "5": "[0002:0000:14 00]",
+    "6": "[0002:0001:]",
+    "7": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#15",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_b_04",
+   "style": 6,
+   "src": "海というと…{1:pause}\n{2:color}ムッシーバビーチ{3:color}{4:color}ね！！{5:wait}{6:color}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[Color #2C64FF]",
+    "3": "[Color #373737]",
+    "4": "[Color #373737]",
+    "5": "[0002:0001:]",
+    "6": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#16",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_b_05",
+   "style": 6,
+   "src": "むむむ…{1:pause} 海と言っても\nとても高い場所…{2:wait}[Next]空気がうす～くなるほど 高い場所に\n３人目の賢者は いるでしょう。{3:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#17",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_b_06",
+   "style": 6,
+   "src": "とりあえず行ってみましょう！{1:pause}\n考えていても しかたがないわ！{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#18",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_b_07",
+   "style": 6,
+   "src": "しかし… 医者として \nそんな高い場所に 行かせるわけには\nいかないでしょう…{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#19",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_b_08",
+   "style": 6,
+   "src": "そういえば あなた\n医者だったわね…{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#20",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_b_09",
+   "style": 6,
+   "src": "空気がうす～い場所でも\n問題ないかどうか…\n２人を 検査するでしょう。{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#21",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_a_11",
+   "style": 6,
+   "src": "先生{1:pause} 次の患者さんが\nいらっしゃいました。{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#22",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_a_12",
+   "style": 7,
+   "src": "{1:mode}重症でしょう！！{2:pause}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[0002:0000:3C 00]"
+   },
+   "header": "[0009:0000:07 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#23",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_a_42_2",
+   "style": 6,
+   "src": "それは わかったから！{1:pause}\nその賢者達は どこにいるの？{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#24",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_a_13",
+   "style": 6,
+   "src": "{1:align}その２人は とてつもない\n大きな病気に かかっているでしょう！{2:wait}[Next]はやく ２人にとりついている\nウィルスを たいじしないと\n大変なことになるでしょう！！{3:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#25",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_a_42_3",
+   "style": 6,
+   "src": "ズバリ！{1:pause} １人は\n森の中にいるでしょう！！{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#26",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_a_14",
+   "style": 6,
+   "src": "お静かに！{1:pause} あなた達に\nとりついている ウィルス…{2:wait}[Next]そのウィルスが だんだんと\n見えてきているでしょう…{3:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#27",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_a_15",
+   "style": 6,
+   "src": "先生は こうしているだけで\n患者さんの 病気がわかるのよ。{1:wait}[Next]{2:align}よーく 見ててくださいね。{3:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0001:0004:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#28",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_a_16",
+   "style": 6,
+   "src": "あ～{1:pause} 出る出る。{2:pause}出ちゃうでしょう。{3:pause}\n出てきた…{4:pause} 出てきたでしょう。{5:wait}[Next]あなた達を むしばむ\nおそろしい ウィルス…{6:wait}[Next]{7:align}{8:align}これは…{9:pause} これは…{10:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0000:0A 00]",
+    "3": "[0002:0000:0A 00]",
+    "4": "[0002:0000:0A 00]",
+    "5": "[0002:0001:]",
+    "6": "[0002:0001:]",
+    "7": "[0001:0004:]",
+    "8": "[0001:0001:]",
+    "9": "[0002:0000:0A 00]",
+    "10": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#29",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_a_17",
+   "style": 7,
+   "src": "{1:mode}クッパウィルスでしょう！！{2:pause}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[0002:0000:32 00]"
+   },
+   "header": "[0009:0000:07 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#31",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_a_19",
+   "style": 6,
+   "src": "ワガハイの\n名前を呼んだか？{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#32",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_a_30",
+   "style": 6,
+   "src": "ひひひひひひ…{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#33",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_a_31",
+   "style": 6,
+   "src": "うほほほほほほほほ\nほーほほほほほほほ…{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#34",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_a_32",
+   "style": 7,
+   "src": "{1:mode}ムリでしょう！{2:pause}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[0002:0000:28 00]"
+   },
+   "header": "[0009:0000:07 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#35",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_a_33",
+   "style": 6,
+   "src": "{1:align}確かに この私に\nわからないことは ないでしょう。{2:wait}[Next]しかーし！{3:pause} いくら私が\n有能でかつ マジカルなチカラを\n持っていると 言っても…{4:wait}[Next]{5:align}ダークスターの パワーによる\n強力なガードを 打ち破るなど…{6:wait}[Next]{7:align}絶対！{8:pause} 絶対！{9:pause}\nぜ～～っったいにムリでしょう！{10:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0000:0A 00]",
+    "4": "[0002:0001:]",
+    "5": "[0001:0004:]",
+    "6": "[0002:0001:]",
+    "7": "[0001:0004:]",
+    "8": "[0002:0000:0A 00]",
+    "9": "[0002:0000:0A 00]",
+    "10": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#36",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_a_34",
+   "style": 6,
+   "src": "そんな…{1:pause} そこまで\n自信を持って 言わなくても…{2:wait}[Next]このままでは ピーチ城へ\n近づけない…{3:wait}[Next]この国が ほろんでしまうかも\nしれないのに…{4:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0001:]",
+    "4": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#37",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_a_35",
+   "style": 6,
+   "src": "ガッカリするのは\nまだ はやいでしょう。{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#38",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_a_36",
+   "style": 6,
+   "src": "私には ガードを打ち破る\nチカラは ありませんが…{1:wait}[Next]他に方法が\nないわけではないでしょう。{2:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#40",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_a_38",
+   "style": 7,
+   "src": "{1:color}スターワクチン{2:color}{3:color}！{4:wait}{5:color}",
+   "tags": {
+    "1": "[Color #2C64FF]",
+    "2": "[Color #373737]",
+    "3": "[Color #373737]",
+    "4": "[0002:0001:]",
+    "5": "[Color #373737]"
+   },
+   "header": "[0009:0000:07 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#41",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_a_39",
+   "style": 6,
+   "src": "{1:color}スターワクチン{2:color}{3:color}？{4:wait}{5:color}",
+   "tags": {
+    "1": "[Color #2C64FF]",
+    "2": "[Color #373737]",
+    "3": "[Color #373737]",
+    "4": "[0002:0001:]",
+    "5": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#42",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_a_50",
+   "style": 6,
+   "src": "そうね… 私達も\nエクボンの森へ 急ぎましょうか。{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#43",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_a_51",
+   "style": 6,
+   "src": "待つでしょう！{1:pause} 出たでしょう！{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#44",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_a_52",
+   "style": 6,
+   "src": "{1:align}これを 見るといいでしょう！{2:wait}[Next]ほーら！{3:pause} １人目の賢者が\nくっきりと 見えるでしょう！{4:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0000:0A 00]",
+    "4": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#45",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_a_53",
+   "style": 6,
+   "src": "え？ このイモムシ…{1:pause}\nクッパの体の中で\nバトルした イモムシなの？{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#46",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_a_54",
+   "style": 6,
+   "src": "あ… えーっと…{1:pause}\nああ！ 思い出したわ！{2:wait}[Next]そういえば このイモムシ\n戦ったあと 逃げていったわね！{3:wait}[Next]{4:align}このイモムシが １人目の賢者なの？{5:wait}",
+   "tags": {
+    "1": "[0002:0000:1E 00]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0001:]",
+    "4": "[0001:0004:]",
+    "5": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#47",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_a_55",
+   "style": 6,
+   "src": "そ…{1:pause} そうね。\n１人目の賢者が {2:color}クッパの体の中{3:color}{4:color}に\nいるなんて ラッキーだわ！{5:wait}[Next]私達は {6:color}{7:color}クッパの体の中{8:color}{9:color}に\nもどって このイモムシから\n{10:color}{11:color}スターワクチン{12:color}{13:color}をいただきましょう！{14:wait}[Next]{15:color}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[Color #2C64FF]",
+    "3": "[Color #373737]",
+    "4": "[Color #373737]",
+    "5": "[0002:0001:]",
+    "6": "[Color #373737]",
+    "7": "[Color #2C64FF]",
+    "8": "[Color #373737]",
+    "9": "[Color #373737]",
+    "10": "[Color #373737]",
+    "11": "[Color #2C64FF]",
+    "12": "[Color #373737]",
+    "13": "[Color #373737]",
+    "14": "[0002:0001:]",
+    "15": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#48",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_a_56",
+   "style": 6,
+   "src": "なんだか めんどうなことに\nまきこまれちゃったでしょう…{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#49",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_b_10",
+   "style": 6,
+   "src": "こちらへ。{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#50",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_a_41_2",
+   "style": 6,
+   "src": "いま キノコ王国をおびやかす\nおそろしい病気 メタコロ病…{1:wait}[Next]そのメタコロ病を 治すためにも\nスターワクチンが 必要なのですが…{2:wait}[Next]{3:color}３つのスターワクチン{4:color}{5:color}が\nそろえば きっと…{6:wait}[Next]あなた達の言う 暗黒のガードも\nこわすことができるでしょう。{7:wait}[Next]ダークスターも やっつけちゃえる…\nかどうかは わかりませんが…{8:wait}[Next]まずは スターワクチンを\n集めることが オススメでしょう！{9:wait}{10:color}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]",
+    "3": "[Color #2C64FF]",
+    "4": "[Color #373737]",
+    "5": "[Color #373737]",
+    "6": "[0002:0001:]",
+    "7": "[0002:0001:]",
+    "8": "[0002:0001:]",
+    "9": "[0002:0001:]",
+    "10": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#51",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_a_41_3",
+   "style": 6,
+   "src": "メタコロ病を 治せるのね！\nさっそく 集めなきゃ！！{1:wait}[Next]それで？{2:pause} {3:color}スターワクチン{4:color}{5:color}は\nどこにあるの？{6:wait}{7:color}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0000:0A 00]",
+    "3": "[Color #2C64FF]",
+    "4": "[Color #373737]",
+    "5": "[Color #373737]",
+    "6": "[0002:0001:]",
+    "7": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#52",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_a_20",
+   "style": 6,
+   "src": "ほーら！{1:pause}\nさっそく出たでしょう！{2:wait}[Next]これが あなた達に\nとりついている ウィルスでしょう！{3:wait}[Next]うーん。{4:pause}見るからに\nこころと体に わるそうでしょう。{5:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0001:]",
+    "4": "[0002:0000:0A 00]",
+    "5": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#53",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_a_21",
+   "style": 6,
+   "src": "な{1:pause} なんだと キサマ！！{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#54",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_a_22",
+   "style": 6,
+   "src": "そのウィルスは\nタチがわるいでしょう。{1:wait}[Next]治るまでに 相当の\n時間がかかるでしょう。{2:wait}[Next]とりあえず お薬を１０日分\n出しておきます。{3:wait}[Next]１日 ３回 食後に\n飲むといいでしょう。{4:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0001:]",
+    "4": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#55",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_a_23",
+   "style": 6,
+   "src": "おい！{1:pause} マリオ！ 緑のヒゲ！{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#56",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_a_24",
+   "style": 6,
+   "src": "オマエ達も ダークスターを\n手に入れようとしているな！？{1:wait}[Next]おまけに ピーチ姫も\n取りもどそうとしているだろ！{2:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#57",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_a_25",
+   "style": 6,
+   "src": "ダークスターと ピーチ姫を\n取りもどすのは このワガハイだ！{1:wait}[Next]{2:align}{3:align}ジャマは させないぞ！！{4:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0001:0004:]",
+    "3": "[0001:0001:]",
+    "4": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#58",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_a_26",
+   "style": 6,
+   "src": "ま{1:pause} まだ…{2:pause}\n調子が…{3:pause} もどってない…ぞ。{4:wait}[Next]{5:align}{6:align}く…{7:pause} や…{8:pause} しい…{9:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0000:0A 00]",
+    "3": "[0002:0000:0A 00]",
+    "4": "[0002:0001:]",
+    "5": "[0001:0004:]",
+    "6": "[0001:0001:]",
+    "7": "[0002:0000:0A 00]",
+    "8": "[0002:0000:0A 00]",
+    "9": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#59",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_a_27",
+   "style": 6,
+   "src": "なるほど。そういうわけで\nあなた達は ここにきたのですね。{1:wait}[Next]このままでは\nキノコ王国が 危ないと…{2:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#60",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_a_28",
+   "style": 6,
+   "src": "あなたは キノコ王国のことなら\nなんでも 知っているって\nウワサを聞いたわ…{1:wait}[Next]ピーチ城の前に 現れた\nあの ふしぎなガードも\n打ち破ってくれないかしら…？{2:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#61",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_a_29",
+   "style": 6,
+   "src": "はははははは…{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_35#0",
+   "label": "MES_TKinoko_35_Kinoko_metacoro_01",
+   "style": 6,
+   "src": "マリオさーん\n助けてください～{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_35#1",
+   "label": "MES_TKinoko_35_Kinoko_metacoro_02",
+   "style": 6,
+   "src": "愛する ハニーと\nムスコに 会いたい～！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_35#2",
+   "label": "MES_TKinoko_35_Kinoko_metacoro_03",
+   "style": 6,
+   "src": "もう イヤだ～！！\nこんな体は もうイヤだ～！！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_35#3",
+   "label": "MES_TKinoko_35_Kinoko_metacoro_04",
+   "style": 6,
+   "src": "あつい～ くるしい～\nあつくるしい～！！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_35#4",
+   "label": "MES_TKinoko_35_Kinoko_metacoro_05",
+   "style": 6,
+   "src": "コキノ先生～！{1:pause}\nまだ ですか～！？{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_35#5",
+   "label": "MES_TKinoko_35_Kinoko_metacoro_06",
+   "style": 6,
+   "src": "マリオさんも 気をつけて\nくださいね～{1:wait}[Next]こんな体に なったら\nジャンプもできませんよ～{2:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_35#6",
+   "label": "MES_TKinoko_35_Kinoko_metacoro_07",
+   "style": 6,
+   "src": "ロイヤルキノコティーが\n飲みたいよ～{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_35#7",
+   "label": "MES_TKinoko_35_Kinoko_metacoro_08",
+   "style": 6,
+   "src": "治った！ 治ったぞ～！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_35#8",
+   "label": "MES_TKinoko_35_Kinoko_metacoro_10",
+   "style": 6,
+   "src": "{1:align}あ～ ルイージさーん！{2:wait}[Next]ボク ルイージさんの\nファンなんですよ～{3:wait}[Next]ルイージさんに\n会えるなんて うれしいな～{4:wait}[Next]マリオさんは\nよく 見かけるんだけど…{5:wait}[Next]ルイージさんなら\nボクの体 治してくれますよね～？{6:wait}[Next]きたいしてますよ～！\nがんばってください～！{7:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0001:]",
+    "4": "[0002:0001:]",
+    "5": "[0002:0001:]",
+    "6": "[0002:0001:]",
+    "7": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_36#3",
+   "label": "MES_TKinoko_36_Kinoko_town_clinic_b_22",
+   "style": 6,
+   "src": "先生！ 大変です！\nあちらこちらから\n空気がふきだしてます！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_36#5",
+   "label": "MES_TKinoko_36_Kinoko_town_clinic_b_23",
+   "style": 6,
+   "src": "このマシーンの パイプは\nいろんなところに\nつながっているでしょう！{1:wait}[Next]{2:align}このマシーンが こわれたせいで\n空気が ふきだしちゃったでしょう！{3:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0001:0004:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_36#6",
+   "label": "MES_TKinoko_36_Kinoko_town_clinic_b_24",
+   "style": 6,
+   "src": "はいはい ルイージさんも\n問題ナシ！{1:wait}[Next]というか 息を はく量が\n多すぎるでしょう！{2:wait}[Next]はやく {3:color}ムッシーバビーチ{4:color}{5:color}に\n向かうがいいでしょう！{6:wait}[Next]私は このマシーンを\nなおさなくては ならないでしょう！{7:wait}{8:color}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]",
+    "3": "[Color #2C64FF]",
+    "4": "[Color #373737]",
+    "5": "[Color #373737]",
+    "6": "[0002:0001:]",
+    "7": "[0002:0001:]",
+    "8": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_36#8",
+   "label": "MES_TKinoko_36_Kinoko_town_clinic_b_11",
+   "style": 6,
+   "src": "これは 空気を吸う量と\nはき出す量を\n調べるマシーンでしょう。{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_36#9",
+   "label": "MES_TKinoko_36_Kinoko_town_clinic_b_12",
+   "style": 6,
+   "src": "それでは マリオさん\nこれを くわえて～{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_36#10",
+   "label": "MES_TKinoko_36_Kinoko_town_clinic_b_17",
+   "style": 6,
+   "src": "{1:align}むむむ…！\nこれは すごいでしょう。{2:wait}[Next]これならどんなに 高い場所に\nのぼっても へっちゃらでしょう。{3:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_36#11",
+   "label": "MES_TKinoko_36_Kinoko_town_clinic_b_18",
+   "style": 6,
+   "src": "では 次にルイージさん。{1:pause}\nこれを くわえて～{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_37#0",
+   "label": "MES_TKinoko_37_Kinoko_street_30_1",
+   "style": 6,
+   "src": "いらっしゃい。\nここは バッジ屋だよ。{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_37#1",
+   "label": "MES_TKinoko_37_Kinoko_street_30_2",
+   "style": 6,
+   "src": "アンタ達…{1:pause}\n{2:color}バッジのつけかえ{3:color}{4:color}は\nちゃんと できるのかい？{5:pause}\n{6:indent}{7:choice}できない{8:tab}{9:choice}できる{10:color}{11:pause}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[Color #2C64FF]",
+    "3": "[Color #373737]",
+    "4": "[Color #373737]",
+    "5": "[0002:0000:0A 00]",
+    "6": "[0006:0001:14 00]",
+    "7": "[0004:0001:]",
+    "8": "[0006:0000:28 00]",
+    "9": "[0004:0001:]",
+    "10": "[Color #373737]",
+    "11": "[0002:0000:0A 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_37#2",
+   "label": "MES_TKinoko_37_Kinoko_street_30_3",
+   "style": 6,
+   "src": "よし わかった\n教えてやるよ。{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_37#3",
+   "label": "MES_TKinoko_37_Kinoko_street_30_4",
+   "style": 6,
+   "src": "そうか わかった\nがんばんなよ。{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_37#4",
+   "label": "MES_TKinoko_37_Kinoko_street_30_5",
+   "style": 6,
+   "src": "また きなよ。{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_37#5",
+   "label": "MES_TKinoko_37_Kinoko_street_30",
+   "style": 6,
+   "src": "いらっしゃい。\nここは バッジ屋だよ。{1:wait}[Next]アンタ達… ウチのバッジが\n使いこなせるのかい？{2:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_38#1",
+   "label": "MES_TKinoko_38_Kinoko_street_28",
+   "style": 6,
+   "src": "いらっしゃいませ。\nアイテムショップです。{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_38#2",
+   "label": "MES_TKinoko_38_Kinoko_street_29",
+   "style": 6,
+   "src": "うわ！{1:pause} またハズレた！\nなかなか アタリが出ないぞ\nこの ボーナスカード！{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_39#0",
+   "label": "MES_TKinoko_39_Kinoko_street_27_4",
+   "style": 6,
+   "src": "{1:align}{2:align}いらっしゃい。{3:wait}[Next]{4:align}ここは だれでも手軽に\n入れる そうび品屋だよ。{5:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0001:]",
+    "4": "[0001:0000:]",
+    "5": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_40#0",
+   "label": "MES_TKinoko_40_Kinoko_town_kinopio_13",
+   "style": 6,
+   "src": "う～ん…{1:pause}\nおしゃれをするのには\nコインが かかるなぁ…{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_40#1",
+   "label": "MES_TKinoko_40_Kinoko_town_kinopio_14",
+   "style": 6,
+   "src": "このズボンが３０００コイン！？{1:pause}\nちょっと 高すぎるでしょ！{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_40#2",
+   "label": "MES_TKinoko_40_Kinoko_town_kinopio_15",
+   "style": 6,
+   "src": "お会計は 中央のレジにて\nコインでの おしはらいのみ\nうけたまわって おります～{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_40#3",
+   "label": "MES_TKinoko_40_Kinoko_town_kinopio_13_1",
+   "style": 6,
+   "src": "あのズボン ボクに\nぴったりなのになぁ…{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_40#4",
+   "label": "MES_TKinoko_40_Kinoko_town_kinopio_09",
+   "style": 6,
+   "src": "いらっしゃいませ～\nブティック キノダへ ようこそ～{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_40#5",
+   "label": "MES_TKinoko_40_Kinoko_town_kinopio_09_1",
+   "style": 6,
+   "src": "{1:align}いらっしゃいませ～\nブティック キノダへ ようこそ～{2:wait}[Next]当店は {3:color}フラワーランク{4:color}{5:color}以上の方に\nふさわしい商品のみを\nとりそろえております～{6:wait}[Next]お客様は まだ\n{7:color}{8:color}フラワーランク{9:color}{10:color}では\nありませんね～{11:wait}[Next]{12:align}そのランクで 当店の品を\nお買い求めになろうと思うなんて…{13:wait}[Next]{14:align}ふふふふ…\nジョーダンにも ほどがあります。{15:wait}[Next]べつのお店を\nお探しになられては\nいかがですか？{16:wait}{17:color}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]",
+    "3": "[Color #2C64FF]",
+    "4": "[Color #373737]",
+    "5": "[Color #373737]",
+    "6": "[0002:0001:]",
+    "7": "[Color #373737]",
+    "8": "[Color #2C64FF]",
+    "9": "[Color #373737]",
+    "10": "[Color #373737]",
+    "11": "[0002:0001:]",
+    "12": "[0001:0004:]",
+    "13": "[0002:0001:]",
+    "14": "[0001:0004:]",
+    "15": "[0002:0001:]",
+    "16": "[0002:0001:]",
+    "17": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_40#6",
+   "label": "MES_TKinoko_40_Kinoko_town_kinopio_09_2",
+   "style": 6,
+   "src": "ありがとうございました～{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_40#8",
+   "label": "MES_TKinoko_40_Kinoko_town_kinopio_14_1",
+   "style": 6,
+   "src": "いえいえ お客様{1:pause}\nこのそざいで このお値段は\nとても リーズナブルですよ。{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_40#9",
+   "label": "MES_TKinoko_40_Kinoko_town_kinopio_14_2",
+   "style": 6,
+   "src": "このパンツが６０００コイン！？{1:pause}\nこんなの 買えないよ！！{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_40#10",
+   "label": "MES_TKinoko_40_Kinoko_town_kinopio_14_3",
+   "style": 6,
+   "src": "いえいえ お客様{1:pause}\nこのそざいで このお値段は\nとても 良心的ですよ。{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_40#11",
+   "label": "MES_TKinoko_40_Kinoko_town_kinopio_14_4",
+   "style": 6,
+   "src": "当店では\nそざいに こだわった商品を\nとりそろえております。{1:wait}[Next]どの 商品も非常に\nリーズナブルで 良心的な\nお値段になっております。{2:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_40#12",
+   "label": "MES_TKinoko_40_Kinoko_town_kinopio_10",
+   "style": 6,
+   "src": "こちらは\nきがえ室でございますよ～{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_41#0",
+   "label": "MES_TKinoko_41_Kinoko_town_kinopio_22",
+   "style": 6,
+   "src": "よろしければ\nヒゲそりのサービスも\n用意して ございますが…{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_41#1",
+   "label": "MES_TKinoko_41_Kinoko_town_kinopio_23",
+   "style": 6,
+   "src": "いかがですか？ {1:pause}よろしければ\n上をごらんください。{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_41#2",
+   "label": "MES_TKinoko_41_Kinoko_town_kinopio_24",
+   "style": 6,
+   "src": "満天の星空の下で\nお時間のゆるす限り お買いものを\nお楽しみになってください。{1:wait}[Next]{2:align}では ご注文をうけたまわります。{3:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0001:0004:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_41#3",
+   "label": "MES_TKinoko_41_Kinoko_town_kinopio_25",
+   "style": 6,
+   "src": "ありがとうございました～！\nまたの ご来店をこころより\nお待ちしております～！{1:pause}",
+   "tags": {
+    "1": "[0002:0000:3C 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_41#4",
+   "label": "MES_TKinoko_41_Kinoko_town_kinopio_26",
+   "style": 6,
+   "src": "ありがとうございました。\nまたの ご来店をこころより\nお待ちしております。{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_41#5",
+   "label": "MES_TKinoko_41_Kinoko_town_kinopio_27",
+   "style": 6,
+   "src": "お客様… 本日は…{1:pause}\n{2:choice}{3:indent}とっとと 買いものをすませる\n{4:choice}{5:indent}ゆったりと サービスしてもらう{6:pause}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0004:0001:]",
+    "3": "[0006:0001:14 00]",
+    "4": "[0004:0001:]",
+    "5": "[0006:0001:14 00]",
+    "6": "[0002:0000:0A 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_41#7",
+   "label": "MES_TKinoko_41_Kinoko_town_kinopio_16",
+   "style": 6,
+   "src": "お客様…{1:pause} いらっしゃる場所を\nおまちがえのようですね。{2:wait}[Next]当店は {3:color}スターランク{4:color}{5:color}以上の\nお客様のみ ご利用いただけます。{6:wait}[Next]{7:align}どうぞ おひきとりを。{8:wait}{9:color}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]",
+    "3": "[Color #2C64FF]",
+    "4": "[Color #373737]",
+    "5": "[Color #373737]",
+    "6": "[0002:0001:]",
+    "7": "[0001:0004:]",
+    "8": "[0002:0001:]",
+    "9": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_41#8",
+   "label": "MES_TKinoko_41_Kinoko_town_kinopio_17",
+   "style": 6,
+   "src": "お待ちしておりました。\nマリオ様に ルイージ様ですね。{1:wait}[Next]どうぞ そちらのステージ台に\nお乗りください。{2:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_41#9",
+   "label": "MES_TKinoko_41_Kinoko_town_kinopio_18",
+   "style": 6,
+   "src": "いらっしゃいませ～！{1:pause}",
+   "tags": {
+    "1": "[0002:0000:28 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_41#10",
+   "label": "MES_TKinoko_41_Kinoko_town_kinopio_19",
+   "style": 6,
+   "src": "本日は 当店をご指名\nご来店いただき まことに\nありがとうございます。{1:wait}[Next]お客様の 担当をさせていただく\nキノーピオンです。\nどうぞ お見知りおきを。{2:wait}[Next]さて 当店では\nお客様のために １００点満点の\nサービスを 用意しております。{3:wait}[Next]まずは こちらの席へ\nおかけくださいませ。\nさあ どうぞどうぞ。{4:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0001:]",
+    "4": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_41#11",
+   "label": "MES_TKinoko_41_Kinoko_town_kinopio_23_1",
+   "style": 6,
+   "src": "失礼いたしました。{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_41#12",
+   "label": "MES_TKinoko_41_Kinoko_town_kinopio_20",
+   "style": 6,
+   "src": "ロイヤルキノコティーで\nございます。{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_41#13",
+   "label": "MES_TKinoko_41_Kinoko_town_kinopio_21",
+   "style": 6,
+   "src": "足のマッサージを\nさせていただきます。{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  }
+ ]
+}

@@ -1,0 +1,54 @@
+{
+ "source": "Msg/JP_ja/FMsg.dat:i_garakuta_11",
+ "messages": [
+  {
+   "id": "FMsg/i_garakuta_11#0",
+   "label": "MES_KGarakuta_11_kG11_ystar_01",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:][0001:0001:]それ [Color #2C64FF]アタックパーツ[Color #373737][Color #373737]じゃない！？[0002:0001:][Next][0001:0004:][0001:0000:]クッパったら そんなものまで\n[Ruby 飲;の]み[Ruby 込;こ]んでたのね…[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/i_garakuta_11#1",
+   "label": "MES_KGarakuta_11_kG11_ystar_02",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]あら？ [Ruby 知;し]らない？[0002:0000:0A 00]\nそれは [Color #2C64FF]アタックパーツ[Color #373737][Color #373737]と [Ruby 言;い]って\n[Color #373737][Color #2C64FF]ブラザーアタック[Color #373737][Color #373737]の カケラなの。[0002:0001:][Next][0001:0004:][Color #373737][Color #2C64FF]１０[Color #373737][Color #373737][Ruby 個;こ]にわかれた [Color #373737][Color #2C64FF]アタックパーツ[Color #373737][Color #373737]を\n[Ruby 全部集;ぜんぶあつ]めれば [Color #373737][Color #2C64FF]ブラザーアタック[Color #373737][Color #373737]を\n[Ruby 使;つか]えるように なるはずよ。[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/i_garakuta_11#2",
+   "label": "MES_KGarakuta_11_kG11_ystar_03",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:][Color #2C64FF]ブラザーアタック[Color #373737][Color #373737]って いうのは…[0002:0000:14 00]\nま[0002:0000:0A 00] これは [Ruby 後;あと]で[Ruby 教;おし]えるわね。[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/i_garakuta_11#3",
+   "label": "MES_KGarakuta_11_kG11_ystar_04",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]ここに [Color #2C64FF]アタックパーツ[Color #373737][Color #373737]が\n１つあるってことは [Ruby 他;ほか]のいくつかも\n[Ruby 近;ちか]くにあるかも しれないわね。[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/i_garakuta_11#4",
+   "label": "MES_KGarakuta_11_kG11_ystar_05",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:][0001:0001:][Ruby 探;さが]してみましょう！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_garakuta_11#5",
+   "label": "MES_KGarakuta_11_KGarakuta_11_aparts_get_pl",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0005:0000:][0001:0001:]ガラクタスペースのアタックパーツ\n[Color #4ED4FF][0003:0000:00 00 02 00 00 00][Color #E6E6E6][Color #373737][Ruby 個目;こめ]を [Ruby 手;て]に[Ruby 入;い]れた！[0002:0001:][Next][0005:0000:][0001:0001:]ガラクタスペースのアタックパーツは\nのこりあと [Color #E6E6E6][Color #4ED4FF][0003:0000:00 00 02 00 01 00][Color #E6E6E6][Color #373737][Ruby 個;こ]だ！[0002:0000:1E 00][0002:0001:][Color #E6E6E6]"
+  },
+  {
+   "id": "FMsg/i_garakuta_11#6",
+   "label": "MES_KGarakuta_11_KGarakuta_11_aparts_get",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0005:0000:][0001:0001:]ガラクタスペースのアタックパーツ\n[Color #4ED4FF][0003:0000:00 00 02 00 00 00][Color #E6E6E6][Color #373737][Ruby 個目;こめ]を [Ruby 手;て]に[Ruby 入;い]れた！[0002:0001:][Next][0005:0000:][0001:0001:]ガラクタスペースのアタックパーツは\nのこりあと [Color #E6E6E6][Color #4ED4FF][0003:0000:00 00 02 00 01 00][Color #E6E6E6][Color #373737][Ruby 個;こ]だ！[0002:0000:1E 00][0002:0001:][Color #E6E6E6]"
+  }
+ ]
+}

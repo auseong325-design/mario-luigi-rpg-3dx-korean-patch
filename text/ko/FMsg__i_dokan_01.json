@@ -1,0 +1,42 @@
+{
+ "batch": "FMsg__i_dokan_01",
+ "translations": {
+  "FMsg/i_dokan_01#0": "{1:align}나는 친절한 헬로글로빈.\n토관과 이어진 장소를\n알려 주지로빈.{2:wait}[Next]{3:align}어때? 알고 싶어로빈?{4:pause}\n{5:align}{6:choice}필요 없어{7:tab}{8:choice}알고 싶어{9:pause}",
+  "FMsg/i_dokan_01#1": "{1:align}여기 파란색 토관은\n{2:color}고라파 레이크{3:color}{4:color}행 토관로빈.{5:wait}[Next]{6:align}아래의 고라파 레이크행 토관과\n다른 곳으로 이어지니까\n조심해야 돼로빈.{7:wait}{8:color}",
+  "FMsg/i_dokan_01#2": "{1:align}{2:align}응? 밖으로 나가고 싶어?{3:wait}[Next]{4:align}{5:align}만약… 몸속에서 반응이 없다면\n나가도 상관없겠지만…{6:wait}[Next]{7:align}반응하고 있을 땐\n그 장소부터 가 보자!{8:wait}",
+  "FMsg/i_dokan_01#3": "{1:align}초록색 토관은\n{2:color}볼조개 숲{3:color}{4:color}과 이어져 있어로빈.{5:wait}[Next]{6:align}그리고 검은색 토관은\n우리의 주인 쿠파의 성!\n그 유명한 {7:color}{8:color}쿠파 성{9:color}{10:color}이야로빈!{11:wait}{12:color}",
+  "FMsg/i_dokan_01#4": "{1:align}예쁘장한 핑크 토관은\n예쁜 {2:color}피치 성{3:color}{4:color}과\n이어져 있어로빈.{5:wait}[Next]{6:align}지금은 까르코비츠가 헤집어서\n별로 예쁘지 않을지도\n모르지만로빈…{7:wait}{8:color}",
+  "FMsg/i_dokan_01#5": "{1:align}아래쪽 토관은\n아래에 있는 헬로글로빈에게\n물어보도록 해로빈.{2:wait}",
+  "FMsg/i_dokan_01#6": "{1:align}보라색 토관은\n{2:color}버섯 타운{3:color}{4:color} 지하와\n이어져 있어로빈.{5:wait}{6:color}",
+  "FMsg/i_dokan_01#7": "{1:align}마리오!\n몸속에서 반응하는 곳이 있어!\n그곳으로 가 보자!{2:wait}",
+  "FMsg/i_dokan_01#8": "{1:align}기다려!!\n어디 가는 거야!!{2:wait}[Next]{3:align}어서 저 애벌레를\n쫓아야지!!{4:wait}",
+  "FMsg/i_dokan_01#9": "{1:align}예쁘장한 핑크 토관은\n예쁜 {2:color}피치 성{3:color}{4:color}과\n이어져 있어로빈.{5:wait}{6:color}",
+  "FMsg/i_dokan_01#10": "{1:align}{2:align}앗! 마리오님!{3:wait}",
+  "FMsg/i_dokan_01#11": "{1:align}방금 전의 큰 충격으로\n안쪽까지 들어갈 수\n있게 된 것 같아요!{2:wait}",
+  "FMsg/i_dokan_01#12": "{1:align}여길 봐 주세요!{2:wait}",
+  "FMsg/i_dokan_01#13": "{1:align}{2:align}기다려!{3:wait}",
+  "FMsg/i_dokan_01#14": "{1:align}여긴 쿠파가 빨아들인 토관이\n모여 있는 곳인가 봐요.{2:wait}",
+  "FMsg/i_dokan_01#15": "{1:align}당신이 첫 번째 현인 맞지?\n당신에게 할 말이 있어!{2:wait}",
+  "FMsg/i_dokan_01#16": "{1:align}나는 친절한 헬로글로빈.\n토관과 이어진 장소를\n알려 주지로빈.{2:wait}[Next]{3:align}어때? 알고 싶어로빈?{4:pause}\n{5:align}{6:choice}필요 없어{7:tab}{8:choice}알고 싶어{9:pause}",
+  "FMsg/i_dokan_01#17": "{1:align}{2:align}바로 그거죠!{3:wait}",
+  "FMsg/i_dokan_01#18": "{1:align}마리오!{2:pause} 루이지!{3:pause}\n정신 차려!!{4:wait}",
+  "FMsg/i_dokan_01#19": "{1:align}노란색과 보라색 토관은\n{2:color}버섯 타운{3:color}{4:color}과 이어져 있어로빈.{5:wait}[Next]{6:align}보라색은 지하로 연결돼로빈.\n쇼핑을 하고 싶다면\n노란색 토관으로 들어가면 돼로빈.{7:wait}{8:color}",
+  "FMsg/i_dokan_01#20": "{1:align}여기에 있는 토관은 버섯 왕국\n어딘가와 이어져 있을 거예요.{2:wait}[Next]{3:align}이걸 이용하면\n밖으로 나갈 수 있을 거라고요!{4:wait}",
+  "FMsg/i_dokan_01#21": "{1:align}{2:align}어서 저 애벌레를 쫓아가자!{3:wait}",
+  "FMsg/i_dokan_01#22": "{1:align}파란색 토관은\n{2:color}고라파 레이크{3:color}{4:color}와 연결돼로빈.{5:wait}[Next]{6:align}레이크 주변에서 일광욕…\n부럽다로빈…{7:wait}{8:color}",
+  "FMsg/i_dokan_01#23": "{1:align}한번 이 토관 안으로\n들어가 보세요!!{2:wait}",
+  "FMsg/i_dokan_01#24": "{1:align}쿠파가\n뭔가를 하려고 하나 봐.{2:wait}[Next]{3:align}잠시 이대로\n지켜보자.{4:wait}",
+  "FMsg/i_dokan_01#25": "{1:align}위쪽 토관은\n위에 있는 헬로글로빈에게\n물어보도록 해로빈.{2:wait}",
+  "FMsg/i_dokan_01#26": "{1:align}{2:align}자! 어서요!!{3:wait}",
+  "FMsg/i_dokan_01#27": "{1:align}마리오! 쿠파가\n뭔가를 하려고 하나 봐.{2:wait}[Next]{3:align}잠시 이대로\n지켜보는 건 어때?{4:wait}",
+  "FMsg/i_dokan_01#28": "{1:align}마리오! 쿠파가\n뭔가를 하려고 하나 봐.{2:wait}[Next]{3:align}몸속에서 반응하는 곳도 있어.{4:wait}",
+  "FMsg/i_dokan_01#29": "{1:align}{2:align}응? 밖으로 나가고 싶어?{3:wait}[Next]{4:align}{5:align}만약… 쿠파가 저 이상한\n머신에서 내려온다면\n상관없겠지만…{6:wait}[Next]{7:align}뭔가를 하려고 할 때는\n잠시 지켜보기로 하자.{8:wait}",
+  "FMsg/i_dokan_01#30": "{1:align}마리오! 왜 그래?\n밖으로 나가고 싶어?{2:wait}",
+  "FMsg/i_dokan_01#31": "{1:align}{2:align}하긴…{3:wait}[Next]{4:align}{5:align}하지만 쿠파가 저렇게\n뒤룩뒤룩 쪄서야…{6:wait}[Next]{7:align}쿠파가 예전으로 돌아갈 때까지\n기다려 보기로 하자.{8:wait}"
+ },
+ "new_terms": [],
+ "notes": {
+  "FMsg/i_dokan_01#0": "Choice order follows 3DX (ほしくない first) → 필요 없어 / 알고 싶어 (DS12E#26 order was reversed). Same for #16.",
+  "FMsg/i_dokan_01#19": "DS12E#22 line break '노란색\\n토관으로' moved so 노란색 토관 stays on one line."
+ }
+}

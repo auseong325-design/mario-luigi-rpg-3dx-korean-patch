@@ -1,0 +1,278 @@
+{
+ "batch": "FMsg__i_power_arm_01__and1",
+ "rooms": [
+  "i_power_arm_01",
+  "i_power_arm_02"
+ ],
+ "ds_rooms": [
+  "01C",
+  "284",
+  "28C"
+ ],
+ "ds_reference": [
+  "DS01C#0: 이게 쿠파의\n팔 근육…?",
+  "DS01C#1: 뭔가에 반응하고 있나 봐!!",
+  "DS01C#2: 분명 쿠파가 뭔가를 옮기거나\n움직이게 하려는 중인 것 같아…",
+  "DS01C#3: 마치 스위치처럼 생겼네…",
+  "DS01C#4: 마리오!! 위험해!!",
+  "DS01C#5: 오오!? 왠지 힘이\n솟아오르는 것 같은데?",
+  "DS01C#6: 뭐지?\n무슨 일이 일어난 거지?",
+  "DS01C#7: 흐아아아아아아아아압!!",
+  "DS01C#8: 쿠파의 근육이\n자극을 받아 커진 건가!?",
+  "DS01C#9: 저기! 아까처럼 전기공\n같은 걸 더 맞혀 보지 않을래!?",
+  "DS01C#10: 그렇구나! 쿠파의 몸에\n지금처럼 자극을 주면…[Next]엄청난 힘을\n발휘하는 모양이야…",
+  "DS01C#11: 하악… 하악…",
+  "DS01C#12: 트",
+  "DS284#0: 어쩐지 지금까지와는\n모양이 다르게 생겼어…",
+  "DS284#1: 나오는 볼이 지금까지와는\n다를지 모르니까\n조심해야 돼!",
+  "DS284#2: 트",
+  "DS28C#0: 어쩐지 지금까지와는\n모양이 다르게 생겼어…",
+  "DS28C#1: 나오는 볼이 지금까지와는\n다를지 모르니까\n조심해야 돼!",
+  "DS28C#2: 트"
+ ],
+ "glossary": [
+  {
+   "jp": "クッパ",
+   "ko": "쿠파",
+   "type": "character",
+   "basis": "DS",
+   "source": "BData__mfset_Help#21",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "マリオ",
+   "ko": "마리오",
+   "type": "character",
+   "basis": "DS",
+   "source": "BData__mfset_Help#19",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "クリア",
+   "ko": "클리어",
+   "type": "ui",
+   "basis": "coined",
+   "source": "",
+   "note": "[gl_menu_places]"
+  }
+ ],
+ "messages": [
+  {
+   "id": "FMsg/i_power_arm_01#0",
+   "label": "MES_KPower_arm_01_KPower_arm_tut_12",
+   "style": 6,
+   "src": "クッパの筋肉が シゲキを\nうけて 大きくなってるの！？{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_power_arm_01#1",
+   "label": "MES_KPower_arm_01_KPower_arm_tut_13",
+   "style": 6,
+   "src": "ねえ！{1:pause} あの電気のような\nボールを もっと当ててみない！？{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_power_arm_01#2",
+   "label": "MES_KPower_arm_01_KPower_arm_tut_14",
+   "style": 6,
+   "src": "{1:align}なるほどね… クッパの体に\n今みたいに シゲキをあたえると…{2:wait}[Next]ものすごい チカラを\n発揮するみたいね…{3:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/i_test_ay_01#0"
+   ]
+  },
+  {
+   "id": "FMsg/i_power_arm_01#3",
+   "label": "MES_work_omit_00",
+   "style": 12,
+   "src": "{1:align}{2:align}{3:mode}=== 仮・未実装 ===\n{4:align}{5:align}{6:mode}イベントが仮または未実装の状態です。{7:pause}{8:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0005:0000:]",
+    "4": "[0001:0004:]",
+    "5": "[0001:0001:]",
+    "6": "[0005:0000:]",
+    "7": "[0002:0000:0A 00]",
+    "8": "[0002:0001:]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": [
+    "FMsg/i_pump_16#6",
+    "FMsg/i_tainai_01#24",
+    "FMsg/o_ekubon_02_after#4",
+    "FMsg/o_ekubon_07_2#1",
+    "FMsg/o_koopa_24#8",
+    "FMsg/o_koopa_r_24#12",
+    "FMsg/o_mushiba_05_before#10",
+    "FMsg/o_peach_2f_04#11",
+    "FMsg/o_town_14#10",
+    "FMsg/o_zutsuda_04_after#22"
+   ]
+  },
+  {
+   "id": "FMsg/i_power_arm_01#4",
+   "label": "MES_KPower_arm_01_KPower_arm_tut_01",
+   "style": 6,
+   "src": "これが クッパの\nうでの筋肉…{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_power_arm_01#5",
+   "label": "MES_KPower_arm_01_KPower_arm_tut_03",
+   "style": 6,
+   "src": "なにかに 反応しているみたい！！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_power_arm_01#6",
+   "label": "MES_KPower_arm_01_KPower_arm_tut_05",
+   "style": 6,
+   "src": "きっとクッパが なにかを運んだり\n動かそうとしたり しているんだわ…{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_power_arm_01#7",
+   "label": "MES_KPower_arm_01_KPower_arm_tut_06",
+   "style": 6,
+   "src": "なにかの スイッチみたいね…{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_power_arm_01#8",
+   "label": "MES_KPower_arm_01_KPower_arm_tut_07",
+   "style": 6,
+   "src": "{1:mode}{2:color}マリオ{3:color}{4:color}！！ 危ない！！{5:pause}{6:color}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[Color #FF4343]",
+    "3": "[Color #373737]",
+    "4": "[Color #373737]",
+    "5": "[0002:0000:14 00]",
+    "6": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_power_arm_01#9",
+   "label": "MES_KPower_arm_01_KPower_arm_tut_08",
+   "style": 9,
+   "src": "{1:align}おお！？{2:pause} なんだか チカラが\nわいてきた 気がするぞ！{3:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0000:0A 00]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:09 00]",
+   "dups": [
+    "FMsg/o_mushiba_05_before#15"
+   ]
+  },
+  {
+   "id": "FMsg/i_power_arm_01#10",
+   "label": "MES_KPower_arm_01_KPower_arm_tut_09",
+   "style": 6,
+   "src": "なに？{1:pause}\nなにが 起きたの？{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_power_arm_01#11",
+   "label": "MES_sys_minigame_relief_01",
+   "style": 12,
+   "src": "{1:align}クリアしたことにして\nお話を 先に進めますか？{2:pause}\n{3:mode}{4:choice}いいえ{5:tab}{6:choice}はい",
+   "tags": {
+    "1": "[0001:0001:]",
+    "2": "[0002:0000:0A 00]",
+    "3": "[0005:0000:]",
+    "4": "[0004:0000:]",
+    "5": "[0006:0000:28 00]",
+    "6": "[0004:0000:]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": [
+    "FMsg/i_power_arm_02#0",
+    "FMsg/i_power_hip_SA_adorena_01_L#16",
+    "FMsg/i_power_leg_SA_push_01_L#7",
+    "FMsg/i_power_lungs_SA_fire_01_L#8",
+    "FMsg/i_power_nose_SA_peppansy_01_L#16",
+    "FMsg/i_power_stomach_15_SA_giganin_01_L#29",
+    "FMsg/o_chika_12#10",
+    "FMsg/o_peach_3f_15_SA_fire_packun_01_U#0",
+    "FMsg/o_peach_t_3f_15_SA_fire_packun_01_U#0",
+    "FMsg/o_peach_t_SA_fire_dkoopa_01_U#0"
+   ]
+  },
+  {
+   "id": "FMsg/i_power_arm_01#12",
+   "label": "MES_KPower_arm_01_KPower_arm_tut_10",
+   "style": 9,
+   "src": "{1:align}ぬおおおおおおおおおおお！！{2:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:09 00]",
+   "dups": [
+    "FMsg/o_mushiba_05_before#27"
+   ]
+  },
+  {
+   "id": "FMsg/i_power_arm_02#1",
+   "label": "MES_KPower_arm_02_RENEW_1",
+   "style": 6,
+   "src": "なんだか これまでと\n形が ちがっているわね…{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_power_arm_02#2",
+   "label": "MES_KPower_arm_02_RENEW_2",
+   "style": 6,
+   "src": "出てくる ボールが かわって\nいるかも しれないから\n気をつけてね！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  }
+ ]
+}

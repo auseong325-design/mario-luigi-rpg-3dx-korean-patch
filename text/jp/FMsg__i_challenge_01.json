@@ -1,0 +1,852 @@
+{
+ "source": "Msg/JP_ja/FMsg.dat:i_challenge_01",
+ "messages": [
+  {
+   "id": "FMsg/i_challenge_01#0",
+   "label": "MES_KCharenge_01_Kcharenge_99blk_04",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0005:0000:]オーケー！[0002:0000:14 00]"
+  },
+  {
+   "id": "FMsg/i_challenge_01#1",
+   "label": "MES_KCharenge_01_Kcharenge_btl_new3_up",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 強大;きょうだい]なチカラとチカラがぶつかりあう\n[Ruby 巨大化;きょだいか]バトルが [Color #2C64FF]スピードアップ[Color #373737]！"
+  },
+  {
+   "id": "FMsg/i_challenge_01#2",
+   "label": "MES_KCharenge_01_Kcharenge_mini_03_up",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0005:0000:]とっても[Ruby 体;からだ]に わるそうな[0002:0000:05 00]"
+  },
+  {
+   "id": "FMsg/i_challenge_01#3",
+   "label": "MES_KCharenge_01_Kcharenge_99blk_05",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]テントラ[0002:0000:05 00]ポッコスタタ[0002:0000:05 00]ブルルン[0002:0000:05 00][0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_challenge_01#4",
+   "label": "MES_KCharenge_01_Kcharenge_btl_20_up",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]チャレンジしてみる？ びん？"
+  },
+  {
+   "id": "FMsg/i_challenge_01#5",
+   "label": "MES_KCharenge_01_Kcharenge_mini_13_down",
+   "style": 5,
+   "attr": "00000000",
+   "jp": "[0009:0000:05 00]な… なぜだびん…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_challenge_01#6",
+   "label": "MES_KCharenge_01_Kcharenge_99blk_00_a",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0005:0000:][0001:0004:][0001:0001:][Ruby 予告;よこく][0002:0000:0F 00][0002:0001:][Next]かつてない…[0002:0000:0F 00]\nスリルと こうふん！[0002:0001:][Next]かつてない…[0002:0000:0F 00]\nねっきょうと [Ruby 感動;かんどう]！[0002:0001:][Next]あなたの[Ruby 限界;げんかい]を こえるのは\nあなたしかいない…[0002:0001:][Next][0005:0000:][0000:0001:02 00][0001:0004:][0001:0001:]ザ・ブロック[Color #2C64FF]９９[Color #373737][0000:0001:FF FF][Color #373737][0000:0001:01 00][0002:0000:0F 00][0002:0001:][Next][0001:0004:][0001:0001:]ただいま [Ruby 準備中;じゅんびちゅう]！[0002:0001:][0000:0001:FF FF][Color #373737]"
+  },
+  {
+   "id": "FMsg/i_challenge_01#7",
+   "label": "MES_KCharenge_01_Kcharenge_99blk_06",
+   "style": 7,
+   "attr": "00000000",
+   "jp": "[0009:0000:07 00][0005:0000:]パー！！[0002:0000:19 00]"
+  },
+  {
+   "id": "FMsg/i_challenge_01#8",
+   "label": "MES_KCharenge_01_Kcharenge_btl_05_down",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]おおっと[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_challenge_01#9",
+   "label": "MES_KCharenge_01_Kcharenge_btl_new4_down",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]キミは このコーフンの[Ruby 奔流;ほんりゅう]に\n[Ruby 流;なが]されず ついてこられるか？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_challenge_01#10",
+   "label": "MES_KCharenge_01_Kcharenge_mini_16_up",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]どこまで アタックが[Ruby 続;つづ]けられるか\nチャレンジだ び～ん！"
+  },
+  {
+   "id": "FMsg/i_challenge_01#11",
+   "label": "MES_KCharenge_01_Kcharenge_99blk_00_b",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ときどき ここに\n[Ruby 様子;ようす]を [Ruby 見;み]にきてびん。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_challenge_01#12",
+   "label": "MES_KCharenge_01_Kcharenge_99blk_07",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]…[Ruby 今;いま]のは コインがふえる\nじゅもんだびん。[0002:0001:][Next]ザ・ブロック９９の ごほうびは\nこれ１[Ruby 回;かい]きりびん。[0002:0001:][Next][0001:0004:][0001:0001:]それでは ごきげんよう！びん。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_challenge_01#13",
+   "label": "MES_KCharenge_01_Kcharenge_btl_23_up",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]まぁ しかたないびん…"
+  },
+  {
+   "id": "FMsg/i_challenge_01#14",
+   "label": "MES_KCharenge_01_Kcharenge_99blk_00_c",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]もう[Ruby 少;すこ]し [Ruby 待;ま]ってほしいびん。\nもう[Ruby 少;すこ]しで [Ruby 遊;あそ]べるようになるびん！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_challenge_01#15",
+   "label": "MES_KCharenge_01_Kcharenge_99blk_08",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]そうびんか。それでは\nコインを [Color #2C64FF]２[Color #373737][Color #373737][Ruby 倍;ばい]にしたくなったら\nわれを [Ruby 叩;たた]くびんよ。[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/i_challenge_01#16",
+   "label": "MES_KCharenge_01_Kcharenge_mini_19_up",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ここでチャレンジするには"
+  },
+  {
+   "id": "FMsg/i_challenge_01#17",
+   "label": "MES_KCharenge_01_Kcharenge_btl_03_up",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 強;つよ]いモンスターとバトルして おのれの"
+  },
+  {
+   "id": "FMsg/i_challenge_01#18",
+   "label": "MES_KCharenge_01_Kcharenge_btl_03_2_down",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]きたえあげるびん！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_challenge_01#19",
+   "label": "MES_KCharenge_01_Kcharenge_btl_16_up",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 私;わたし]が キミ[Ruby 達;たち]の\nきおくを [Ruby 読;よ]み[Ruby 取;と]って"
+  },
+  {
+   "id": "FMsg/i_challenge_01#20",
+   "label": "MES_KCharenge_01_Kcharenge_btl_17_down",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 倒;たお]せたら？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_challenge_01#21",
+   "label": "MES_KCharenge_01_Kcharenge_btl_new2_down",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]タタタ… ターボとは～？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_challenge_01#22",
+   "label": "MES_KCharenge_01_Kcharenge_btl_19_up",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]さあ！ [Ruby 自分;じぶん]の[Ruby 技;わざ]と\n[Ruby 体力;たいりょく]の[Ruby 限界;げんかい]に…"
+  },
+  {
+   "id": "FMsg/i_challenge_01#23",
+   "label": "MES_KCharenge_01_Kcharenge_mini_10_down",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]さあ！ こんなに みりょく[Ruby 的;てき]な\n[Color #2C64FF]コレステチューブ[Color #373737][Color #373737]に…[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/i_challenge_01#24",
+   "label": "MES_KCharenge_01_Kcharenge_mini_14_up",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]チャレンジしたくなったら\nいつでも [Ruby 声;こえ]をかけるびん！"
+  },
+  {
+   "id": "FMsg/i_challenge_01#25",
+   "label": "MES_KCharenge_01_Kcharenge_mini_22_down",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]うでをみがいて [Ruby 出;で]なおすびん！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_challenge_01#26",
+   "label": "MES_KCharenge_01_Kcharenge_btl_14_down",
+   "style": 7,
+   "attr": "00000000",
+   "jp": "[0009:0000:07 00][0005:0000:]よろしい！[0002:0000:28 00]"
+  },
+  {
+   "id": "FMsg/i_challenge_01#27",
+   "label": "MES_KCharenge_01_Kcharenge_mini_07_up",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0005:0000:]だ[0002:0000:05 00]"
+  },
+  {
+   "id": "FMsg/i_challenge_01#28",
+   "label": "MES_KCharenge_01_Kcharenge_btl_14_up",
+   "style": 7,
+   "attr": "00000000",
+   "jp": "[0009:0000:07 00][0005:0000:]よろしい！[0002:0000:28 00]"
+  },
+  {
+   "id": "FMsg/i_challenge_01#29",
+   "label": "MES_KCharenge_01_Kcharenge_btl_27_up",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]キミ[Ruby 達;たち]のきおくを [Ruby 読;よ]み[Ruby 取;と]って\nさらなる [Ruby 強;つよ]い[Ruby 敵;てき]を[Ruby 作;つく]り[Ruby 出;だ]すびん！[0002:0001:][Next]…おや？ [Color #2C64FF]エアースペース[Color #373737][Color #373737]にも\n[Ruby 進;すす]めるように なったびんね！[0002:0001:][Next][0001:0004:][Ruby 早;はや]くレベルアップ したいなら…[0002:0001:][Next][Color #373737][Color #2C64FF]エアースペース[Color #373737][Color #373737]の モンスターと\nバトルするのが おすすめびん！[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/i_challenge_01#30",
+   "label": "MES_KCharenge_01_Kcharenge_mini_19_down",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 経験;けいけん]が…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_challenge_01#31",
+   "label": "MES_KCharenge_01_Kcharenge_mini_22_up",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]しばらくしてから またくるびん！"
+  },
+  {
+   "id": "FMsg/i_challenge_01#32",
+   "label": "MES_KCharenge_01_Kcharenge_btl_new2_up",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Color #2C64FF][Ruby 巨大化;きょだいか]バトル ターボ[Color #373737]にも\nチャレンジできるびん ！"
+  },
+  {
+   "id": "FMsg/i_challenge_01#33",
+   "label": "MES_KCharenge_01_Kcharenge_btl_11_down",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 経験;けいけん]つんで [Ruby 出;で]なおすびん！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_challenge_01#34",
+   "label": "MES_KCharenge_01_Kcharenge_mini_05_up",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:][0001:0001:]どこまでも… とことん…[0002:0001:][Next][0001:0000:][Color #2C64FF]コレステロン[Color #373737][Color #373737]を [Ruby 倒;たお]しながら\n[Ruby 自分;じぶん]の テクニックの[Ruby 限界;げんかい]に[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/i_challenge_01#35",
+   "label": "MES_KCharenge_01_Kcharenge_btl_09_down",
+   "style": 7,
+   "attr": "00000000",
+   "jp": "[0009:0000:07 00][0005:0000:]よわすぎるびん！[0002:0000:32 00]"
+  },
+  {
+   "id": "FMsg/i_challenge_01#36",
+   "label": "MES_KCharenge_01_Kcharenge_btl_22_up",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]そうびんか…"
+  },
+  {
+   "id": "FMsg/i_challenge_01#37",
+   "label": "MES_KCharenge_01_Kcharenge_mini_16_down",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]この[Ruby 先;さき]へ [Ruby 入;はい]るびん？[0002:0000:0A 00]\n[0001:0001:][Color #373737][0006:0001:14 00][Color #373737][0004:0001:][Ruby 入;はい]りません[0006:0000:28 00][0004:0001:][Ruby 入;はい]ります[0002:0000:0A 00]"
+  },
+  {
+   "id": "FMsg/i_challenge_01#38",
+   "label": "MES_KCharenge_01_Kcharenge_mini_18_up",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]キミ[Ruby 達;たち]"
+  },
+  {
+   "id": "FMsg/i_challenge_01#39",
+   "label": "MES_KCharenge_01_Kcharenge_mini_02_down",
+   "style": 7,
+   "attr": "00000000",
+   "jp": "[0009:0000:07 00][0005:0000:][Color #2C64FF]コレステチューブ[Color #373737][Color #373737]！[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/i_challenge_01#40",
+   "label": "MES_KCharenge_01_Kcharenge_btl_23_down",
+   "style": 5,
+   "attr": "00000000",
+   "jp": "[0009:0000:05 00]なさけないびん…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_challenge_01#41",
+   "label": "MES_KCharenge_01_Kcharenge_btl_05_up",
+   "style": 5,
+   "attr": "00000000",
+   "jp": "[0009:0000:05 00]おおっと[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_challenge_01#42",
+   "label": "MES_KCharenge_01_Kcharenge_btl_18_up",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]すっごくカッコイイ トロフィーや\n[Ruby 賞品;しょうひん]が プレゼントされるび～ん！"
+  },
+  {
+   "id": "FMsg/i_challenge_01#43",
+   "label": "MES_KCharenge_01_Kcharenge_mini_14_down",
+   "style": 5,
+   "attr": "00000000",
+   "jp": "[0009:0000:05 00]ひやかしは ごめんだびん！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_challenge_01#44",
+   "label": "MES_KCharenge_01_Kcharenge_mini_13_up",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]そ… そうびんか…"
+  },
+  {
+   "id": "FMsg/i_challenge_01#45",
+   "label": "MES_KCharenge_01_Kcharenge_btl_20_down",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0005:0000:][0001:0001:][Color #373737][0006:0001:14 00][Color #373737][0004:0001:]しません[0006:0000:28 00][0004:0001:]チャレンジします[0002:0000:0A 00]"
+  },
+  {
+   "id": "FMsg/i_challenge_01#46",
+   "label": "MES_KCharenge_01_Kcharenge_btl_13_up",
+   "style": 5,
+   "attr": "00000000",
+   "jp": "[0009:0000:05 00]ほうほう…"
+  },
+  {
+   "id": "FMsg/i_challenge_01#47",
+   "label": "MES_KCharenge_01_Kcharenge_btl_18_down",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]な なんと～！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_challenge_01#48",
+   "label": "MES_KCharenge_01_Kcharenge_mini_09_up",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 大量;たいりょう]のコインや ごうか[Ruby 賞品;しょうひん]が\nプレゼントされるび～ん！"
+  },
+  {
+   "id": "FMsg/i_challenge_01#49",
+   "label": "MES_KCharenge_01_Kcharenge_mini_11_down",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0005:0000:][0001:0001:][Color #373737][0006:0001:14 00][Color #373737][0004:0001:][Ruby 入;はい]りません[0006:0000:28 00][0004:0001:][Ruby 入;はい]ります[0002:0000:0A 00]"
+  },
+  {
+   "id": "FMsg/i_challenge_01#50",
+   "label": "MES_KCharenge_01_Kcharenge_btl_03_down",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0001:][Ruby 体;からだ]と[0002:0001:][Next][0001:0001:]こころを[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_challenge_01#51",
+   "label": "MES_KCharenge_01_Kcharenge_99blk_03_a",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:][0001:0001:]おめでとうだびん！[0002:0001:][Next][0001:0000:][Ruby 約束;やくそく]どおり キミ[Ruby 達;たち]の\n[Ruby 持;も]っているコインを [Color #2C64FF]２[Color #373737][Color #373737][Ruby 倍;ばい]に\nしてあげるびんよ！[0002:0001:][Next]ちなみに このごほうびは\nこれ１[Ruby 回;かい]きりびん。\n[Ruby 今;いま]すぐ [Color #373737][Color #2C64FF]２[Color #373737][Color #373737][Ruby 倍;ばい]にしたいびん？[0002:0001:][Next]それとも もう[Ruby 少;すこ]しコインをためてから\n[Color #373737][Color #2C64FF]２[Color #373737][Color #373737][Ruby 倍;ばい]にするびん？[0002:0000:0A 00]\n[0001:0001:][0004:0001:][Ruby 後;あと]で２[Ruby 倍;ばい][0006:0000:28 00][0004:0001:][Ruby 今;いま]すぐ２[Ruby 倍;ばい][0002:0000:0A 00][Color #373737]"
+  },
+  {
+   "id": "FMsg/i_challenge_01#52",
+   "label": "MES_KCharenge_01_Kcharenge_mini_11_up",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 入;はい]ってみませんか？ びん？"
+  },
+  {
+   "id": "FMsg/i_challenge_01#53",
+   "label": "MES_KCharenge_01_Kcharenge_99blk_03_b",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ザ・ブロック９９の ごほうびは\n[Ruby 持;も]っているコインの[Color #2C64FF]２[Color #373737][Color #373737][Ruby 倍;ばい]！\n[Ruby 今;いま]すぐ [Color #373737][Color #2C64FF]２[Color #373737][Color #373737][Ruby 倍;ばい]にしたいびん？[0002:0001:][Next]それとも もう[Ruby 少;すこ]しコインをためてから\n[Color #373737][Color #2C64FF]２[Color #373737][Color #373737][Ruby 倍;ばい]にするびん？[0002:0000:0A 00]\n[0001:0001:][0004:0001:][Ruby 後;あと]で２[Ruby 倍;ばい][0006:0000:28 00][0004:0001:][Ruby 今;いま]すぐ２[Ruby 倍;ばい][0002:0000:0A 00][Color #373737]"
+  },
+  {
+   "id": "FMsg/i_challenge_01#54",
+   "label": "MES_KCharenge_01_Kcharenge_99blk_03_c",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 本当;ほんとう]に [Ruby 今;いま]すぐ[Color #2C64FF]２[Color #373737][Color #373737][Ruby 倍;ばい]にするびん？[0002:0000:0A 00]\n[0001:0001:][0006:0001:14 00][0004:0001:]やっぱり[Ruby 後;あと]で…[0006:0000:28 00][0004:0001:][Ruby 今;いま]すぐ２[Ruby 倍;ばい]！[0002:0000:0A 00][Color #373737]"
+  },
+  {
+   "id": "FMsg/i_challenge_01#55",
+   "label": "MES_KCharenge_01_Kcharenge_btl_09_up",
+   "style": 7,
+   "attr": "00000000",
+   "jp": "[0009:0000:07 00][0005:0000:]よわすぎるびん！[0002:0000:32 00]"
+  },
+  {
+   "id": "FMsg/i_challenge_01#56",
+   "label": "MES_KCharenge_01_Kcharenge_mini_08_down",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 出;だ]せたら？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_challenge_01#57",
+   "label": "MES_KCharenge_01_Kcharenge_btl_15_down",
+   "style": 7,
+   "attr": "00000000",
+   "jp": "[0009:0000:07 00]あり！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_challenge_01#58",
+   "label": "MES_KCharenge_01_Kcharenge_btl_new4_up",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 圧倒的;あっとうてき]な パワー！\n[Ruby 圧倒的;あっとうてき]な スピード！"
+  },
+  {
+   "id": "FMsg/i_challenge_01#59",
+   "label": "MES_KCharenge_01_Kcharenge_mini_04_up",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]この[Ruby 先;さき]にいる [Color #2C64FF]コレステロン[Color #373737][Color #373737][Ruby 達;たち]を\nお[Ruby 得意;とくい]の アタックで…[0002:0001:][Next][0001:0004:][0001:0001:]どこまでも…[0002:0001:][Next][0001:0004:][0001:0001:]とことん…[0002:0001:][Next][0001:0004:][0001:0001:]バッサバッサと…[0002:0001:][Next][0001:0004:][0001:0001:][Ruby 倒;たお]しまくれるびん！[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/i_challenge_01#60",
+   "label": "MES_KCharenge_01_Kcharenge_btl_01_down",
+   "style": 7,
+   "attr": "00000000",
+   "jp": "[0009:0000:07 00][0005:0000:]チャレンジホールへ！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_challenge_01#61",
+   "label": "MES_KCharenge_01_Kcharenge_btl_11_up",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]しばらくしてから またくるびん！"
+  },
+  {
+   "id": "FMsg/i_challenge_01#62",
+   "label": "MES_KCharenge_01_Kcharenge_99blk_01_a",
+   "style": 7,
+   "attr": "00000000",
+   "jp": "[0009:0000:07 00][0005:0000:][0001:0004:][0001:0001:]ザ・ブロック[Color #2C64FF]９９[Color #373737][Color #373737][0000:0001:01 00][0002:0000:0F 00][0002:0001:][Next][0001:0000:][Ruby 左側;ひだりがわ]に[Ruby 浮;う]いているブロック…\nさーて [Ruby ２人;ふたり]で[Ruby 何回;なんかい]まで\n[Ruby 叩;たた]き[Ruby 続;つづ]けられるびん？[0002:0001:][Next]もし[0000:0001:FF FF][Color #373737][0000:0001:01 00][Color #2C64FF]９９[Color #373737][Color #373737][Ruby 回;かい]まで [Ruby 叩;たた]き[Ruby 続;つづ]けられたら\n[Ruby 今;いま]もっているコインを なんと！\n[Color #373737][Color #2C64FF]２[Color #373737][Color #373737][Ruby 倍;ばい]にしてあげるびん！[0002:0001:][Color #373737][0000:0001:FF FF]"
+  },
+  {
+   "id": "FMsg/i_challenge_01#63",
+   "label": "MES_KCharenge_01_Kcharenge_btl_24_up",
+   "style": 7,
+   "attr": "00000000",
+   "jp": "[0009:0000:07 00][0005:0000:]ようこそ！[0002:0000:05 00]"
+  },
+  {
+   "id": "FMsg/i_challenge_01#64",
+   "label": "MES_KCharenge_01_Kcharenge_99blk_01_b",
+   "style": 7,
+   "attr": "00000000",
+   "jp": "[0009:0000:07 00][0005:0000:][0001:0004:][0001:0001:]ザ・ブロック[Color #2C64FF]９９[Color #373737][Color #373737][0000:0001:01 00][0002:0000:0F 00][0002:0001:][Next][0001:0000:][Ruby 左側;ひだりがわ]に[Ruby 浮;う]いているブロック…\nさーて [Ruby ２人;ふたり]で[Ruby 何回;なんかい]まで\n[Ruby 叩;たた]き[Ruby 続;つづ]けられるびん？[0002:0001:][Next]もし[0000:0001:FF FF][Color #373737][0000:0001:01 00][Color #2C64FF]９９[Color #373737][Color #373737][Ruby 回;かい]まで [Ruby 叩;たた]き[Ruby 続;つづ]けられたら\n[Ruby 今;いま]もっているコインを なんと！\n[Color #373737][Color #2C64FF]２[Color #373737][Color #373737][Ruby 倍;ばい]にしてあげるびん！[0002:0001:][Next][0001:0004:]ちなみに これまでの\n[Ruby 最高記録;さいこうきろく]は [0003:0000:00 00 02 00 00 00][Ruby 回;かい]だびん！[0002:0001:][Color #373737][0000:0001:FF FF]"
+  },
+  {
+   "id": "FMsg/i_challenge_01#65",
+   "label": "MES_KCharenge_01_Kcharenge_mini_06_down",
+   "style": 7,
+   "attr": "00000000",
+   "jp": "[0009:0000:07 00][0005:0000:]チャレンジ！[0002:0000:28 00]"
+  },
+  {
+   "id": "FMsg/i_challenge_01#66",
+   "label": "MES_KCharenge_01_Kcharenge_btl_04_up",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]……………"
+  },
+  {
+   "id": "FMsg/i_challenge_01#67",
+   "label": "MES_KCharenge_01_Kcharenge_btl_07_up",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]キミ[Ruby 達;たち]"
+  },
+  {
+   "id": "FMsg/i_challenge_01#68",
+   "label": "MES_KCharenge_01_Kcharenge_mini_20_down",
+   "style": 7,
+   "attr": "00000000",
+   "jp": "[0009:0000:07 00][0005:0000:]たりないびん！[0002:0000:32 00]"
+  },
+  {
+   "id": "FMsg/i_challenge_01#69",
+   "label": "MES_KCharenge_01_Kcharenge_btl_12_down",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]どうやら バトルの[Ruby 経験;けいけん]を[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_challenge_01#70",
+   "label": "MES_KCharenge_01_Kcharenge_mini_02_up",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0005:0000:]このゲートの[Ruby 先;さき]は…[0002:0000:05 00]"
+  },
+  {
+   "id": "FMsg/i_challenge_01#71",
+   "label": "MES_KCharenge_01_Kcharenge_mini_15_up",
+   "style": 7,
+   "attr": "00000000",
+   "jp": "[0009:0000:07 00][0005:0000:]ようこそ！[0002:0000:05 00]"
+  },
+  {
+   "id": "FMsg/i_challenge_01#72",
+   "label": "MES_KCharenge_01_Kcharenge_mini_17_down",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]……………[0002:0000:28 00]"
+  },
+  {
+   "id": "FMsg/i_challenge_01#73",
+   "label": "MES_KCharenge_01_Kcharenge_mini_03_down",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0005:0000:][Color #2C64FF]コレステロン[Color #373737][Color #373737]の すみかだびん！[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/i_challenge_01#74",
+   "label": "MES_KCharenge_01_Kcharenge_btl_24_down",
+   "style": 7,
+   "attr": "00000000",
+   "jp": "[0009:0000:07 00][0005:0000:][Color #2C64FF]バトルコロシアム[Color #373737][Color #373737]へ！[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/i_challenge_01#75",
+   "label": "MES_KCharenge_01_Kcharenge_btl_02_up",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0005:0000:]このゲートの[Ruby 先;さき]は…[0002:0000:05 00]"
+  },
+  {
+   "id": "FMsg/i_challenge_01#76",
+   "label": "MES_KCharenge_01_Kcharenge_btl_10_down",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]この [Color #2C64FF]バトルコロシアム[Color #373737][Color #373737]には\n[Ruby 入;はい]れないびん！[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/i_challenge_01#77",
+   "label": "MES_KCharenge_01_Kcharenge_btl_15_up",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]キミ[Ruby 達;たち]は この[Ruby 先;さき]\n[Color #2C64FF]バトルコロシアム[Color #373737][Color #373737]に [Ruby 入;はい]るしかく[Color #373737]"
+  },
+  {
+   "id": "FMsg/i_challenge_01#78",
+   "label": "MES_KCharenge_01_Kcharenge_mini_15_down",
+   "style": 7,
+   "attr": "00000000",
+   "jp": "[0009:0000:07 00][0005:0000:][Color #2C64FF]コレステチューブ[Color #373737][Color #373737]へ！[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/i_challenge_01#79",
+   "label": "MES_KCharenge_01_Kcharenge_btl_07_down",
+   "style": 5,
+   "attr": "00000000",
+   "jp": "[0009:0000:05 00]まだまだ[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_challenge_01#80",
+   "label": "MES_KCharenge_01_Kcharenge_btl_28_up",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]さて… やるかやられるかの\nバトルに チャレンジするびん？"
+  },
+  {
+   "id": "FMsg/i_challenge_01#81",
+   "label": "MES_KCharenge_01_Kcharenge_mini_10_up",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]さあ！ こんなに みりょく[Ruby 的;てき]な\n[Color #2C64FF]コレステチューブ[Color #373737][Color #373737]に…[Color #373737]"
+  },
+  {
+   "id": "FMsg/i_challenge_01#82",
+   "label": "MES_KCharenge_01_Kcharenge_btl_10_up",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]もっと[Ruby 強;つよ]いモンスターと [Ruby 戦;たたか]って\nバトルの[Ruby 経験;けいけん]を つまないと…"
+  },
+  {
+   "id": "FMsg/i_challenge_01#83",
+   "label": "MES_KCharenge_01_Kcharenge_btl_19_down",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]さあ！ [Ruby 自分;じぶん]の[Ruby 技;わざ]と\n[Ruby 体力;たいりょく]の[Ruby 限界;げんかい]に…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_challenge_01#84",
+   "label": "MES_KCharenge_01_Kcharenge_mini_06_up",
+   "style": 7,
+   "attr": "00000000",
+   "jp": "[0009:0000:07 00][0005:0000:]チャレンジ！[0002:0000:28 00]"
+  },
+  {
+   "id": "FMsg/i_challenge_01#85",
+   "label": "MES_KCharenge_01_Kcharenge_btl_04_down",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]……………[0002:0000:28 00]"
+  },
+  {
+   "id": "FMsg/i_challenge_01#86",
+   "label": "MES_KCharenge_01_Kcharenge_btl_new3_down",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]そいつは すごそうだ！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_challenge_01#87",
+   "label": "MES_KCharenge_01_Kcharenge_btl_26_up",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]その[Ruby 敵;てき]と やるかやられるかの\nバトルに チャレンジするびん？"
+  },
+  {
+   "id": "FMsg/i_challenge_01#88",
+   "label": "MES_KCharenge_01_Kcharenge_btl_06_up",
+   "style": 7,
+   "attr": "00000000",
+   "jp": "[0009:0000:07 00]おっとっと！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_challenge_01#89",
+   "label": "MES_KCharenge_01_Kcharenge_mini_09_down",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]す すごい！び～ん！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_challenge_01#90",
+   "label": "MES_KCharenge_01_Kcharenge_mini_21_up",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]バトルで ブラザーアタックを[Ruby 使;つか]って\nアタックの うでをみがかないと…"
+  },
+  {
+   "id": "FMsg/i_challenge_01#91",
+   "label": "MES_KCharenge_01_Kcharenge_btl_16_down",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]さらなる [Ruby 強;つよ]いモンスターを\n[Ruby 作;つく]り[Ruby 出;だ]すびん！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_challenge_01#92",
+   "label": "MES_KCharenge_01_Kcharenge_btl_new1_up",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]さらに！"
+  },
+  {
+   "id": "FMsg/i_challenge_01#93",
+   "label": "MES_KCharenge_01_Kcharenge_mini_01_up",
+   "style": 7,
+   "attr": "00000000",
+   "jp": "[0009:0000:07 00][0005:0000:]ようこそ！[0002:0000:05 00]"
+  },
+  {
+   "id": "FMsg/i_challenge_01#94",
+   "label": "MES_KCharenge_01_Kcharenge_btl_02_down",
+   "style": 7,
+   "attr": "00000000",
+   "jp": "[0009:0000:07 00][0005:0000:][Color #2C64FF]バトルコロシアム[Color #373737][Color #373737]！[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/i_challenge_01#95",
+   "label": "MES_KCharenge_01_Kcharenge_btl_new1_down",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]さらに～！？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_challenge_01#96",
+   "label": "MES_KCharenge_01_Kcharenge_btl_21_up",
+   "style": 7,
+   "attr": "00000000",
+   "jp": "[0009:0000:07 00][0005:0000:]グッドラック！[0002:0000:1E 00]"
+  },
+  {
+   "id": "FMsg/i_challenge_01#97",
+   "label": "MES_KCharenge_01_Kcharenge_mini_07_down",
+   "style": 7,
+   "attr": "00000000",
+   "jp": "[0009:0000:07 00][0005:0000:]びん！[0002:0000:14 00][0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_challenge_01#98",
+   "label": "MES_KCharenge_01_Kcharenge_mini_17_up",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]……………"
+  },
+  {
+   "id": "FMsg/i_challenge_01#99",
+   "label": "MES_KCharenge_01_Kcharenge_btl_01_up",
+   "style": 7,
+   "attr": "00000000",
+   "jp": "[0009:0000:07 00][0005:0000:]ようこそ！[0002:0000:05 00]"
+  },
+  {
+   "id": "FMsg/i_challenge_01#100",
+   "label": "MES_KCharenge_01_Kcharenge_info_01",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:][0001:0001:]おや？ [Ruby 見;み]かけない[Ruby 顔;かお]びんね…[0002:0001:][Next][0001:0000:]キミ[Ruby 達;たち]も この[Color #2C64FF]チャレンジホール[Color #373737][Color #373737]で\n[Ruby 自分;じぶん]の[Ruby 限界;げんかい]に チャレンジするびん？[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/i_challenge_01#101",
+   "label": "MES_KCharenge_01_Kcharenge_mini_21_down",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]この [Color #2C64FF]コレステチューブ[Color #373737][Color #373737]に\n[Ruby 入;はい]るのは [Ruby 危険;きけん]だびん！[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/i_challenge_01#102",
+   "label": "MES_KCharenge_01_Kcharenge_btl_13_down",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]つんできたみたいだびんね！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_challenge_01#103",
+   "label": "MES_KCharenge_01_Kcharenge_info_02",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ふふふふ…\nここは[Ruby 他;ほか]の[Ruby 場所;ばしょ]とは ちがうびん。[0002:0001:][Next]くわしいことは この[Ruby 下;した]にいる\n[Ruby 他;ほか]のやつらに [Ruby 聞;き]くといいびん。[0002:0001:][Next][Ruby 下;した]から[Ruby 叩;たた]いて [Ruby 話;はな]しかければ\n[Ruby 楽;たの]しいこと [Ruby 教;おし]えてくれるびん！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_challenge_01#104",
+   "label": "MES_KCharenge_01_Kcharenge_btl_17_up",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]そして そのモンスターとバトルして\n[Ruby 見事;みごと] [Ruby 倒;たお]せたら…"
+  },
+  {
+   "id": "FMsg/i_challenge_01#105",
+   "label": "MES_KCharenge_01_Kcharenge_info_03",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0005:0000:]チャレンジホール ニュース！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_challenge_01#106",
+   "label": "MES_KCharenge_01_Kcharenge_info_04",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0001:]～ コレステチューブ ～\n[0001:0000:][Ruby 新;あたら]しいチャレンジが ふえたびん！[0002:0001:][Next][0001:0004:][0001:0001:]さっそく [Ruby 行;い]ってみるびん！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_challenge_01#107",
+   "label": "MES_KCharenge_01_Kcharenge_info_05",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0001:]～ バトルコロシアム ～\n[0001:0000:][Ruby 新;あたら]しいクラスが ふえたびん！[0002:0001:][Next][0001:0004:][0001:0001:]さっそく [Ruby 行;い]ってみるびん！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_challenge_01#108",
+   "label": "MES_KCharenge_01_Kcharenge_mini_12_up",
+   "style": 7,
+   "attr": "00000000",
+   "jp": "[0009:0000:07 00][0005:0000:]レッツゴー！[0002:0000:1E 00]"
+  },
+  {
+   "id": "FMsg/i_challenge_01#109",
+   "label": "MES_KCharenge_01_Kcharenge_mini_18_down",
+   "style": 5,
+   "attr": "00000000",
+   "jp": "[0009:0000:05 00]まだまだ[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_challenge_01#110",
+   "label": "MES_KCharenge_01_Kcharenge_info_06",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0001:]～ コレステチューブ ～\n[0001:0000:][Ruby 新;あたら]しいチャレンジが ふえたびん！[0002:0001:][Next][0001:0001:]～ バトルコロシアム ～\n[0001:0000:][Ruby 新;あたら]しいクラスが ふえたびん！[0002:0001:][Next][0001:0004:][0001:0001:]さっそく [Ruby 行;い]ってみるびん！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_challenge_01#111",
+   "label": "MES_KCharenge_01_Kcharenge_mini_04_down",
+   "style": 5,
+   "attr": "00000000",
+   "jp": "[0009:0000:05 00][0005:0000:]「[Color #2C64FF]コレステロン[Color #373737][Color #373737]」\nブヨブヨした [Ruby 脂肪;しぼう]だらけのやつ。\nかんたんに[Ruby 倒;たお]せるが かずがおおい。[Color #373737]"
+  },
+  {
+   "id": "FMsg/i_challenge_01#112",
+   "label": "MES_KCharenge_01_Kcharenge_btl_12_up",
+   "style": 5,
+   "attr": "00000000",
+   "jp": "[0009:0000:05 00]ふんふん…"
+  },
+  {
+   "id": "FMsg/i_challenge_01#113",
+   "label": "MES_KCharenge_01_Kcharenge_mini_08_up",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]しかも！ このチャレンジで\n[Ruby 見事;みごと]な スコアを[Ruby 出;だ]せたら…"
+  },
+  {
+   "id": "FMsg/i_challenge_01#114",
+   "label": "MES_KCharenge_01_Kcharenge_btl_08_down",
+   "style": 5,
+   "attr": "00000000",
+   "jp": "[0009:0000:05 00]ぜーんぜん[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_challenge_01#115",
+   "label": "MES_KCharenge_01_Kcharenge_btl_25_up",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]キミ[Ruby 達;たち]のきおくを [Ruby 読;よ]み[Ruby 取;と]って\nさらなる [Ruby 強;つよ]い[Ruby 敵;てき]を[Ruby 作;つく]り[Ruby 出;だ]すびん！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_challenge_01#116",
+   "label": "MES_KCharenge_01_Kcharenge_mini_01_down",
+   "style": 7,
+   "attr": "00000000",
+   "jp": "[0009:0000:07 00][0005:0000:]チャレンジホールへ！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_challenge_01#117",
+   "label": "MES_KCharenge_01_Kcharenge_mini_20_up",
+   "style": 7,
+   "attr": "00000000",
+   "jp": "[0009:0000:07 00][0005:0000:]たりないびん！[0002:0000:32 00]"
+  },
+  {
+   "id": "FMsg/i_challenge_01#118",
+   "label": "MES_KCharenge_01_Kcharenge_btl_22_down",
+   "style": 5,
+   "attr": "00000000",
+   "jp": "[0009:0000:05 00]ありえないびん…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_challenge_01#119",
+   "label": "MES_KCharenge_01_Kcharenge_99blk_02",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0005:0000:]ザ・ブロック９９ [Ruby 成功;せいこう]だび～ん！[0002:0000:3C 00][0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_challenge_01#120",
+   "label": "MES_KCharenge_01_Kcharenge_btl_08_up",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ここでバトルするには"
+  }
+ ]
+}

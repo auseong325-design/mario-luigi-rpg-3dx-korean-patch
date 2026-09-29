@@ -1,0 +1,348 @@
+{
+ "source": "Msg/JP_ja/FMsg.dat:o_ekubon_02_after",
+ "messages": [
+  {
+   "id": "FMsg/o_ekubon_02_after#0",
+   "label": "MES_Ekubon_02_after_Ekubon_brilock_shop_04_21",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ウェーーイト！[0002:0000:0A 00]\nお[Ruby 待;ま]ちください！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_ekubon_02_after#1",
+   "label": "MES_Ekubon_02_after_Ekubon_brilock_shop_04_22",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]なんだ？[0002:0000:0A 00]\nまだ なにかあるのか？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_ekubon_02_after#2",
+   "label": "MES_Ekubon_02_after_Ekubon_brilock_shop_04_23",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ムッシュ～が\n[Ruby 強;つよ]く やさしいことをみこんで…[0002:0001:][Next][0001:0004:][0001:0001:]お[Ruby 願;ねが]いがあります！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_ekubon_02_after#3",
+   "label": "MES_Ekubon_02_after_Ekubon_brilock_shop_04_24",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ワガハイは いそがしいんだ！[0002:0000:0A 00]\nさっさと[Ruby 言;い]え！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_ekubon_02_after#4",
+   "label": "MES_work_omit_00",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0001:0004:][0001:0001:][0005:0000:]=== 仮・未実装 ===\n[0001:0004:][0001:0001:][0005:0000:]イベントが仮または未実装の[Ruby 状態;じょうたい]です。[0002:0000:0A 00][0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_ekubon_02_after#5",
+   "label": "MES_Ekubon_02_after_Ekubon_brilock_shop_06_1",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]オウ！[Color #2C64FF] ブロキャット[Color #373737]ちゃんを\n[Ruby 連;つ]れてきてくれた みたいですね！[0002:0001:][Next]サンキュー！ メルシー！\n[Color #2C64FF]ブロキャット[Color #373737]ちゃん おいで～！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_ekubon_02_after#6",
+   "label": "MES_Ekubon_02_after_Ekubon_brilock_shop_06_2",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]きたいしていますよ！ ムッシュ～！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_ekubon_02_after#7",
+   "label": "MES_Ekubon_02_after_Ekubon_brilock_shop_06_20",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]なんだ？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_ekubon_02_after#8",
+   "label": "MES_Ekubon_02_after_Ekubon_brilock_shop_05_d",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]メーアイ ヘルプ ユ～？[0002:0001:][Next][0004:0001:][0006:0001:14 00]アイテム[Color #373737]を[Ruby 買;か]う\n[0004:0001:][0006:0001:14 00]バトルについて [Ruby 聞;き]く\n[0004:0001:][0006:0001:14 00]とくに[Ruby 用;よう]はない[Color #373737][0002:0000:0A 00]"
+  },
+  {
+   "id": "FMsg/o_ekubon_02_after#9",
+   "label": "MES_Ekubon_02_after_Ekubon_brilock_shop_06_21",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ブロドッグちゃんってば\nそんなに はしゃいじゃって！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_ekubon_02_after#10",
+   "label": "MES_Ekubon_02_after_Ekubon_brilock_shop_01",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ガルルルルル…[0002:0000:1E 00]"
+  },
+  {
+   "id": "FMsg/o_ekubon_02_after#11",
+   "label": "MES_Ekubon_02_after_Ekubon_brilock_shop_05_e",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]ミーが アイテムもそうび[Ruby 品;ひん]も\nケアー しますよ～！！[0002:0001:][Next][0004:0001:][0006:0001:14 00][Color #373737][Ruby 買;か]い[Ruby 物;もの]をする\n[0004:0001:][0006:0001:14 00]バトルについて [Ruby 聞;き]く\n[0004:0001:][0006:0001:14 00]とくに[Ruby 用;よう]はない[Color #373737][0002:0000:0A 00]"
+  },
+  {
+   "id": "FMsg/o_ekubon_02_after#12",
+   "label": "MES_Ekubon_02_after_Ekubon_brilock_shop_06_22",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]おい。なんなんだ？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_ekubon_02_after#13",
+   "label": "MES_Ekubon_02_after_Ekubon_brilock_shop_02",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ビー クワイエ～ット[0002:0000:0A 00]\nブロドッグちゃ～ん。[0002:0001:][Next]お[Ruby 客;きゃく]さんが\n[Ruby 逃;に]げちゃうでしょ～[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_ekubon_02_after#14",
+   "label": "MES_Ekubon_02_after_Ekubon_brilock_shop_06_23",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]さんぽに [Ruby 連;つ]れてってくれんだろ！[0002:0000:0A 00]\nはやく[Ruby 行;い]こうぜ！ ベイビー！[0002:0001:][Next]ブロドッグちゃんは\nそう [Ruby 言;い]っているのです！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_ekubon_02_after#15",
+   "label": "MES_Ekubon_02_after_Ekubon_brilock_shop_03",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]オウ[0002:0000:0A 00] ムッシュ～！[0002:0000:0A 00]\nこう[Ruby 何度;なんど]も お[Ruby 会;あ]いすると\n[Ruby 運命的;うんめいてき]なものを [Ruby 感;かん]じますね。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_ekubon_02_after#16",
+   "label": "MES_Ekubon_02_after_Ekubon_brilock_shop_05_g",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]まず [Color #2C64FF]カゼ[Color #373737][Color #373737]！[0002:0000:0A 00] [Color #373737][Color #2C64FF]カゼ[Color #373737][Color #373737]に[Ruby 注意;ちゅうい]です！[0002:0001:][Next][Color #373737][Color #2C64FF]カゼ[Color #373737][Color #373737]をひくと [Ruby 行動;こうどう]を[Ruby 起;お]こすたびに\n[Color #373737][Color #2C64FF]HP[Color #373737][Color #373737]が [Ruby 減;へ]っていってしまいます！[0002:0001:][Next][Color #373737][Color #2C64FF]カゼ[Color #373737][Color #373737]になったら\n[Color #373737][Color #2C64FF]リフレッシュハーブ[Color #373737][Color #373737]を [Ruby 飲;の]みましょう！[0002:0001:][Next]ウチにも おいてあります！\nぜひ お[Ruby 買;か]い[Ruby 上;あ]げシルブプレ！[0002:0001:][Next]それから [Color #373737][Color #2C64FF]おこり[Color #373737][Color #373737]すぎに [Ruby 注意;ちゅうい]です！[0002:0001:][Next][0001:0000:][Ruby 攻撃;こうげき]を [Ruby 受;う]けつづけると\nイライラと ストレスがたまります！[0002:0001:][Next]イライラが [Ruby 頂点;ちょうてん]に[Ruby 達;たっ]すると…\nそう！ [Color #373737][Color #2C64FF]おこり[Color #373737][Color #373737]ます！[0002:0001:][Next][Color #373737][Color #2C64FF]おこる[Color #373737][Color #373737]と [Color #373737][Color #2C64FF]POW[Color #373737][Color #373737]が[Color #373737][Color #2C64FF]アップ[Color #373737][Color #373737]するのです！\nモンスターも [Ruby 倒;たお]しやすいでしょう！[0002:0001:][Next]バット！ しかし！ [Color #373737][Color #2C64FF]おこる[Color #373737][Color #373737]と\n[Color #373737][Color #2C64FF]DEF[Color #373737][Color #373737]は[Color #373737][Color #2C64FF]ダウン[Color #373737][Color #373737]するのです！[0002:0001:][Next][Ruby 倒;たお]しやすく！ [Ruby 倒;たお]されやすい！\nデンジャラスな [Ruby 状態;じょうたい]なのです！[0002:0001:][Next]ブロドッグちゃんも おこりすぎで\nやられちゃうことがしばしば…[0002:0001:][Next]できれば いつでもハッピーに\n[Ruby 笑;わら]っていたいものです…[0002:0001:][Next]ということで [Ruby 攻撃;こうげき]を[Ruby 受;う]けつづけると\nおこりやすくなることに [Ruby 注意;ちゅうい]です！[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/o_ekubon_02_after#17",
+   "label": "MES_Ekubon_02_after_Ekubon_brilock_shop_06_24",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 役;やく]に [Ruby 立;た]つのか？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_ekubon_02_after#18",
+   "label": "MES_Ekubon_02_after_Ekubon_brilock_shop_04",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ここで ミーがなにをしているか…[0002:0000:0A 00]\nそれは そう[0002:0000:0A 00]\nミーも いち[Ruby 経営者;けいえいしゃ]なのです。[0002:0001:][Next]ブロドッグちゃんの [Ruby 高;たか]い[Ruby 高;たか]い\nお[Ruby 食事代;しょくじだい]のために\n[Color #2C64FF]ショップ[Color #373737][Color #373737]を オープニング！[0002:0001:][Next][0001:0004:]さあ ムッシュ～[0002:0000:0A 00]\nお[Ruby 買;か]い[Ruby 上;あ]げ シルブプレ～[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/o_ekubon_02_after#19",
+   "label": "MES_Ekubon_02_after_Ekubon_brilock_shop_04_2",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ア～ンド よろしかったら\nブロドッグちゃんにも [Ruby 大好物;だいこうぶつ]の\nコインを あげてくださいな。[0002:0001:][Next][Ruby 大好;だいす]きな コインをあげれば\nナイスな [Color #2C64FF]そうび[Ruby 品;ひん][Color #373737][Color #373737]と\nトレードしてくれますよ メイビ～[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/o_ekubon_02_after#20",
+   "label": "MES_Ekubon_02_after_Ekubon_brilock_shop_05_h",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]キノコ[Ruby 王国;おうこく]には こわーい\nモンスターが うようよしています！[0002:0001:][Next]そんなやつらに [Ruby 先;さき]に\nダメージをあたえる [Ruby 方法;ほうほう]があります！[0002:0001:][Next]そう！[0002:0000:0A 00] バトルになる[Ruby 前;まえ]に\nいきなり パンチをブチ[Ruby 当;あ]てるのです！[0002:0001:][Next]オア！[0002:0000:0A 00] バトルになる[Ruby 前;まえ]に\nいきなり ほのおをはくのです！[0002:0001:][Next]モンスターの[Ruby 動;うご]きを よーくルック！[0002:0000:0A 00]\nスキあらば ガツーン！[0002:0000:0A 00] ボワー！[0002:0001:][Next]これで ムッシュ～のバトルも\n[Ruby 楽勝;らくしょう]になること まちがいなしです！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_ekubon_02_after#21",
+   "label": "MES_Ekubon_02_after_Ekubon_brilock_shop_06_25",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0005:0000:][0001:0001:]ブロドッグが [Ruby 仲間;なかま]になった！\nバトルで [Color #4ED4FF]ボコスカブロドッグ[Color #E6E6E6][Color #373737]が\n[Ruby 使;つか]えるようになるぞ！[0002:0000:1E 00][0002:0001:][Next][0005:0000:][0001:0004:][0001:0001:][Ruby 練習;れんしゅう]して いきますか？[0002:0000:0A 00]\n[0001:0001:][0004:0001:]いいえ[0006:0000:28 00][0004:0001:]はい[Color #E6E6E6][0002:0000:0A 00]"
+  },
+  {
+   "id": "FMsg/o_ekubon_02_after#22",
+   "label": "MES_Ekubon_02_after_Ekubon_brilock_shop_04_3",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]オウ！[0002:0000:0A 00] それでは\nてみじかに [Ruby 説明;せつめい]しましょう！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_ekubon_02_after#23",
+   "label": "MES_Ekubon_02_after_Ekubon_brilock_shop_05",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]メーアイ ヘルプ ユ～？[0002:0001:][Next][0004:0001:][0006:0001:14 00]アイテム[Color #373737]を[Ruby 買;か]う\n[0004:0001:][0006:0001:14 00]ブロキャットについて\n[0004:0001:][0006:0001:14 00]バトルについて [Ruby 聞;き]く\n[0004:0001:][0006:0001:14 00]とくに[Ruby 用;よう]はない[Color #373737][0002:0000:0A 00]"
+  },
+  {
+   "id": "FMsg/o_ekubon_02_after#24",
+   "label": "MES_Ekubon_02_after_Ekubon_brilock_shop_05_i",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0004:0001:][0006:0001:14 00][Ruby 状態変化;じょうたいへんか]について [Ruby 聞;き]く\n[0004:0001:][0006:0001:14 00][Ruby 先制攻撃;せんせいこうげき]について [Ruby 聞;き]く\n[0004:0001:][0006:0001:14 00]もどる[0002:0000:0A 00]"
+  },
+  {
+   "id": "FMsg/o_ekubon_02_after#25",
+   "label": "MES_Ekubon_02_after_Ekubon_brilock_shop_06_26",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]ミーは とても[Ruby 満足;まんぞく]です！[0002:0001:][Next]ムッシュ～とは\nフォーエバー フレンドです！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_ekubon_02_after#26",
+   "label": "MES_Ekubon_02_after_Ekubon_brilock_shop_04_4",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ご[Ruby 存知;ぞんじ]のとおり ミーは\nいち ブロックコレクターです！[0002:0001:][Next]コレクターのあいだでも\nミーの[Ruby 名;な]を [Ruby 知;し]らない[Ruby 者;もの]はいません！[0002:0001:][Next]そんなミーも まだ\n[Ruby 手;て]に[Ruby 入;い]れてない ブロックがあります！[0002:0001:][Next][0001:0004:]それは [Ruby 生;い]きたブロック…[0002:0000:0A 00][0002:0001:][Next][0001:0004:][0001:0001:][0000:0001:02 00][Color #2C64FF]ブロキャット[Color #373737][Color #373737]ちゃん！！！[0002:0000:14 00][0002:0001:][Color #373737][0000:0001:FF FF]"
+  },
+  {
+   "id": "FMsg/o_ekubon_02_after#27",
+   "label": "MES_Ekubon_02_after_Ekubon_brilock_shop_06_27",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]お[Ruby 忘;わす]れですか？[0002:0000:0A 00]\nブロドッグちゃんは [Ruby 最強;さいきょう]です！[0002:0001:][Next]ベリーファストな [Ruby 動;うご]き！[0002:0000:0A 00]\nベリーストロングな アタック！[0002:0001:][Next]そこらへんの[Ruby 敵;てき]は あっというまに\nぶっとばすこと まちがいナシ！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_ekubon_02_after#28",
+   "label": "MES_Ekubon_02_after_Ekubon_brilock_shop_04_5",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ホンモノの かわいさたるや\nソーキュート！[0002:0001:][Next]いまミーは とにかく\n[Color #2C64FF]ブロキャット[Color #373737][Color #373737]ちゃんが ほしい！[0002:0001:][Next]このお[Ruby 店;みせ]の マスコットキャラとして\nぜひとも [Ruby 手;て]に[Ruby 入;い]れたいのです！[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/o_ekubon_02_after#29",
+   "label": "MES_Ekubon_02_after_Ekubon_brilock_shop_06_28",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]そうか！ ならクッパ[Ruby 軍団;ぐんだん]の[Ruby 一員;いちいん]として\nたっぷり [Ruby 使;つか]ってやるぞ！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_ekubon_02_after#30",
+   "label": "MES_Ekubon_02_after_Ekubon_brilock_shop_07",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]オウ！ マイ！[0002:0000:0A 00]\nマリオさんですよね！[0002:0001:][Next]どこかで お[Ruby 会;あ]いしたような…\nん～ [Ruby 思;おも]い[Ruby 出;だ]せませんね…[0002:0001:][Next]それは さておき\nバイ ザ ウェイ！！[0002:0001:][Next]あなた ブロックコレクターに\nベリーフェイマスです！[0002:0001:][Next]とにかく ブロック[Ruby 叩;たた]いて\n[Ruby 茶色;ちゃいろ]くしちゃう…[0002:0001:][Next]ブロックだましいが\n[Ruby 感;かん]じられない クレイジーガイ！[0002:0001:][Next]ブロックは １[Ruby 度;ど][Ruby 叩;たた]くと\nその[Ruby 価値;かち] ナッスィング！[0002:0001:][Next]そんなあなたとは ゆうえきな\nトレードできませんね～[0002:0001:][Next]おととい カミング！\nアーイム ソーリーでーす。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_ekubon_02_after#31",
+   "label": "MES_Ekubon_02_after_Ekubon_brilock_shop_04_6",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ブロドッグちゃんには [Ruby 悪;わる]いのですが\nいまは [Color #2C64FF]ブロキャット[Color #373737][Color #373737]ちゃん！[0002:0001:][Next]とにかく [Color #373737][Color #2C64FF]ブロキャット[Color #373737][Color #373737]ちゃんが\nほしくて たまらんのです！！[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/o_ekubon_02_after#32",
+   "label": "MES_Ekubon_02_after_Ekubon_brilock_shop_06_29",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]いくぞ！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_ekubon_02_after#33",
+   "label": "MES_Ekubon_02_after_Ekubon_brilock_shop_08",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]あなたとは ゆうえきな\nトレードできませんね～[0002:0001:][Next]おととい カミング！\nアーイム ソーリーでーす。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_ekubon_02_after#34",
+   "label": "MES_Ekubon_02_after_Ekubon_brilock_shop_04_7",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]…ようするに レアなブロックの\n[Color #2C64FF]ブロキャット[Color #373737][Color #373737]ちゃんを\nゲットしてきて ほしいのです～[0002:0001:][Next][0001:0004:]やさしいジェントルマンなら\nOKしますよね！ ハイ！ [Ruby 決定;けってい]！[0002:0001:][Next]くわしい[Ruby 話;はなし] [Ruby 聞;き]きますか？[0002:0000:0A 00]\n[0004:0001:][0006:0001:14 00]くわしい[Ruby 話;はなし]を[Ruby 聞;き]く\n[0004:0001:][0006:0001:14 00]あとでいい[Color #373737][0002:0000:0A 00]"
+  },
+  {
+   "id": "FMsg/o_ekubon_02_after#35",
+   "label": "MES_Ekubon_02_after_Ekubon_brilock_shop_04_8",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]さすが ジェントルマン！\nゲットする[Ruby 気;き] まんまんですね！！[0002:0001:][Next]では [Color #2C64FF]ブロキャット[Color #373737][Color #373737]ちゃんについて\n[Ruby 説明;せつめい]いたしましょう～[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/o_ekubon_02_after#36",
+   "label": "MES_Ekubon_02_after_Ekubon_brilock_shop_04_9",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]オウ！ [Ruby 説明;せつめい]なんて\nいらないと おっしゃる！[0002:0001:][Next]ほんとに だいじょうぶですか？[0002:0000:0A 00]\n[0004:0001:][0006:0001:14 00]くわしい[Ruby 話;はなし]を[Ruby 聞;き]く\n[0004:0001:][0006:0001:14 00]あとでいい[0002:0000:0A 00]"
+  },
+  {
+   "id": "FMsg/o_ekubon_02_after#37",
+   "label": "MES_Ekubon_02_after_Ekubon_brilock_shop_04_10",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]リアリー OK？[0002:0000:0A 00]\n[0004:0001:][0006:0001:14 00]くわしい[Ruby 話;はなし]を[Ruby 聞;き]く\n[0004:0001:][0006:0001:14 00]あとでいい！[0002:0000:0A 00]"
+  },
+  {
+   "id": "FMsg/o_ekubon_02_after#38",
+   "label": "MES_Ekubon_02_after_Ekubon_brilock_shop_04_11",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]そうですか！ それならば\nムッシュ～に まかせちゃいます！[0002:0001:][Next]この[Ruby 先;さき] きっと[Color #2C64FF]ブロキャット[Color #373737]ちゃんを\nゲットすることが あると[Ruby 思;おも]います！[0002:0001:][Next]そのときは ミーのところへ\nいつでも カムバック！！[0002:0001:][Next]ムッシュ～に とっても\nプラスになること まちがいナシ！[0002:0001:][Next]くわしい[Ruby 話;はなし]が [Ruby 聞;き]きたかったら\nいつでも [Ruby 話;はな]しますよ～！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_ekubon_02_after#39",
+   "label": "MES_Shop_mes_bcat_menu_01",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0004:0001:][0006:0001:14 00][Ruby 集;あつ]めた[Color #2C64FF]ブロキャット[Color #373737][Color #373737]を[Ruby 見;み]る\n[0004:0001:][0006:0001:14 00][Color #373737][Color #2C64FF]ブロキャット[Color #373737][Color #373737]ってなに？\n[0004:0001:][0006:0001:14 00]もどる[Color #373737][0002:0000:0A 00]"
+  },
+  {
+   "id": "FMsg/o_ekubon_02_after#40",
+   "label": "MES_Shop_mes_bcat_menu_02",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]ブロキャットちゃんの かわいさを\n[Ruby 長;なが]～く [Ruby 語;かた]っちゃいますよ～！[0002:0000:0A 00]\n[0001:0001:][0004:0001:][Ruby 聞;き]かない[0006:0000:28 00][0004:0001:][Ruby 聞;き]く[0002:0000:0A 00]"
+  },
+  {
+   "id": "FMsg/o_ekubon_02_after#41",
+   "label": "MES_Ekubon_02_after_Yajirushi_kanban_02",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0001:0004:][0001:0001:][0005:0000:]↑ [Ruby 森;もり]の[Ruby 出口;でぐち] [Ruby 草原;そうげん]へ\n[0001:0001:]↓ ムッシーバビーチ[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_ekubon_02_after#42",
+   "label": "MES_Ekubon_02_after_Ekubon_brilock_shop_04_4b",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ルックスは\nこんなかんじです！[0002:0001:][Next]これは ミーが[Ruby 作;つく]った\nニセモノですが…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_ekubon_02_after#43",
+   "label": "MES_Ekubon_02_after_Ekubon_brilock_shop_06_13",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]なかなか お[Ruby 店;みせ]も\nにぎわってきました！[0002:0001:][Next]これは ささやかな\nプレゼント フォーユー！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_ekubon_02_after#44",
+   "label": "MES_Ekubon_02_after_Ekubon_brilock_shop_06_14",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0005:0000:][Color #4ED4FF]ブロックうでわ[Color #E6E6E6][Color #373737]を[Ruby 手;て]に[Ruby 入;い]れた！！[0002:0000:1E 00][0002:0001:][Color #E6E6E6]"
+  },
+  {
+   "id": "FMsg/o_ekubon_02_after#45",
+   "label": "MES_Ekubon_02_after_Ekubon_brilock_shop_06_15",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0005:0000:][Color #4ED4FF]ブロックきば[Color #E6E6E6][Color #373737]を[Ruby 手;て]に[Ruby 入;い]れた！！[0002:0000:1E 00][0002:0001:][Color #E6E6E6]"
+  },
+  {
+   "id": "FMsg/o_ekubon_02_after#46",
+   "label": "MES_Ekubon_02_after_Ekubon_brilock_shop_06_16",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0005:0000:][Color #4ED4FF]ブロックゆびわ[Color #E6E6E6][Color #373737]を[Ruby 手;て]に[Ruby 入;い]れた！！[0002:0000:1E 00][0002:0001:][Color #E6E6E6]"
+  },
+  {
+   "id": "FMsg/o_ekubon_02_after#47",
+   "label": "MES_Ekubon_02_after_Ekubon_brilock_shop_06_18",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 最後;さいご]の[Color #2C64FF] ブロキャット[Color #373737]ちゃん\nカミーーング！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_ekubon_02_after#48",
+   "label": "MES_Ekubon_02_after_Ekubon_brilock_shop_06_19",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]やったね～\nブロドッグちゃ～ん！[0002:0001:][Next]これで ブロドッグちゃんも\nおさんぽが できるよ～！[0002:0001:]"
+  }
+ ]
+}

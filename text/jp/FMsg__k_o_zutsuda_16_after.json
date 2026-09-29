@@ -1,0 +1,75 @@
+{
+ "source": "Msg/JP_ja/FMsg.dat:k_o_zutsuda_16_after",
+ "messages": [
+  {
+   "id": "FMsg/k_o_zutsuda_16_after#0",
+   "label": "Kjrpg_09_Zutsuda_qst07_04",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]クッパ[Ruby 様;さま]！[0002:0000:18 00]\n[Ruby 大丈夫;だいじょうぶ]ですか！？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/k_o_zutsuda_16_after#1",
+   "label": "Kjrpg_09_Zutsuda_qst07_05",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]クッパ[Ruby 様;さま]～！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/k_o_zutsuda_16_after#2",
+   "label": "Kjrpg_09_Zutsuda_qst07_06",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ラリー！[0002:0000:0C 00]\nレミー！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/k_o_zutsuda_16_after#3",
+   "label": "Kjrpg_09_Zutsuda_qst07_07",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]は！[0002:0000:0E 00]\nぼっちゃん！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/k_o_zutsuda_16_after#4",
+   "label": "Kjrpg_09_Zutsuda_qst07_08",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ぼっちゃん！[0002:0000:10 00]\n[Ruby 大変;たいへん]なんです！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/k_o_zutsuda_16_after#5",
+   "label": "Kjrpg_09_Zutsuda_qst07_09",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]クッパ[Ruby 様;さま]が このデッカいのに\n[Ruby 潰;つぶ]されちゃったんです！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/k_o_zutsuda_16_after#6",
+   "label": "Kjrpg_09_Zutsuda_qst07_10",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ええええ！？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/k_o_zutsuda_16_after#7",
+   "label": "Kjrpg_09_Zutsuda_qst07_11",
+   "style": 9,
+   "attr": "00000000",
+   "jp": "[0009:0000:09 00]うわわわわわ！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/k_o_zutsuda_16_after#8",
+   "label": "Kjrpg_09_Zutsuda_qst07_12",
+   "style": 9,
+   "attr": "00000000",
+   "jp": "[0009:0000:09 00]ぼっちゃん！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/k_o_zutsuda_16_after#9",
+   "label": "Kjrpg_09_Zutsuda_qst07_13",
+   "style": 9,
+   "attr": "00000000",
+   "jp": "[0009:0000:09 00]ここは[Ruby 危険;きけん]です。[0002:0000:14 00]\n[Ruby 離;はな]れましょう！[0002:0001:]"
+  }
+ ]
+}

@@ -1,0 +1,96 @@
+{
+ "source": "Msg/JP_ja/FMsg.dat:i_metaboru_10",
+ "messages": [
+  {
+   "id": "FMsg/i_metaboru_10#0",
+   "label": "MES_KMetaboru_10_Kmetaboru_10_mes_01",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0001:]ねえ… この[Color #2C64FF]たつまき[Color #373737][Color #373737]…[0002:0001:][Next][0001:0001:]なんとか [Ruby 利用;りよう]できないかしら？[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/i_metaboru_10#1",
+   "label": "MES_KMetaboru_10_Kmetaboru_10_mes_02",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]たとえば あなた[Ruby 達;たち]が\nこの[Ruby 中;なか]へ [Ruby 飛;と]び[Ruby 込;こ]んでみるとか…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_metaboru_10#2",
+   "label": "MES_KMetaboru_10_Kmetaboru_10_mes_03",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]なにか いいアイディアでも\n[Ruby 浮;う]かんだの？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_metaboru_10#3",
+   "label": "MES_KMetaboru_10_Kmetaboru_10_mes_04",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Color #2C64FF][U+E004][U+E005][Color #373737][Color #373737]ボタンで アクションアイコンを\nスピンジャンプに[Ruby 切;き]りかえて…[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/i_metaboru_10#4",
+   "label": "MES_KMetaboru_10_Kmetaboru_10_mes_05",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Color #FF4343][U+E000][Color #373737][Color #373737]ボタンで [Color #373737][Color #FF4343]マリオ[Color #373737][Color #373737]が\n[Color #373737][Color #00BB27]ルイージ[Color #373737][Color #373737]の[Ruby 上;うえ]に[Ruby 乗;の]って…\nもう１[Ruby 度;ど] [Color #373737][Color #FF4343][U+E000][Color #373737][Color #373737]ボタンでスピンジャンプ！[Color #373737][0002:0001:][Next]スピンジャンプ[Ruby 中;ちゅう]は スライドパッドで\n[Ruby 動;うご]くこともできるのよね。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_metaboru_10#5",
+   "label": "MES_KMetaboru_10_Kmetaboru_10_mes_05_add_02",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]どこへ[Ruby 行;い]くの？[0002:0000:0A 00]\nアクションを ためしてみましょ！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_metaboru_10#6",
+   "label": "MES_KMetaboru_aparts_get_pl",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0005:0000:][0001:0001:]メタボルスペースのアタックパーツ\n[Color #4ED4FF][0003:0000:00 00 02 00 00 00][Color #E6E6E6][Color #373737][Ruby 個目;こめ]を [Ruby 手;て]に[Ruby 入;い]れた！[0002:0001:][Next][0005:0000:][0001:0001:]メタボルスペースのアタックパーツは\nのこりあと [Color #E6E6E6][Color #4ED4FF][0003:0000:00 00 02 00 01 00][Color #E6E6E6][Color #373737][Ruby 個;こ]だ！[0002:0000:1E 00][0002:0001:][Color #E6E6E6]"
+  },
+  {
+   "id": "FMsg/i_metaboru_10#7",
+   "label": "MES_KMetaboru_10_Kmetaboru_10_mes_03_add_01",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ふむふむ…[0002:0000:78 00]"
+  },
+  {
+   "id": "FMsg/i_metaboru_10#8",
+   "label": "MES_KMetaboru_10_Kmetaboru_10_mes_03_add_02",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]さっそく [Ruby 新;あたら]しいアクションを\nためしてみましょ！[0002:0001:][Next][Ruby 何;なに]か わからないことがあったら\n[Ruby 私;わたし]に[Ruby 話;はな]しかけてね。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_metaboru_10#9",
+   "label": "MES_KMetaboru_10_Kmetaboru_10_mes_05_add",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0001:]さすがね！[0002:0001:][Next][0001:0000:]この アクションならこれまでより\n[Ruby 遠;とお]くまで [Ruby 飛;と]んでいけそう！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_metaboru_10#10",
+   "label": "MES_KMetaboru_aparts_comp",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0005:0000:][0001:0001:]メタボルスペースのアタックパーツ\n[Color #4ED4FF][0003:0000:00 00 02 00 00 00][Color #E6E6E6][Color #373737][Ruby 個目;こめ]を [Ruby 手;て]に[Ruby 入;い]れた！[0002:0000:1E 00][0002:0001:][Next][0005:0000:][0001:0001:]メタボルスペースのアタックパーツが\n[Ruby 全部;ぜんぶ] そろった！！[0002:0000:0F 00][0002:0001:][Next][0005:0000:][0001:0001:][Ruby 新;あたら]しい [Color #E6E6E6][Color #4ED4FF]ブラザーアタック[Color #E6E6E6][Color #373737]が\n[Ruby 完成;かんせい]するぞ！！[0002:0000:0F 00][0002:0001:][Color #E6E6E6]"
+  },
+  {
+   "id": "FMsg/i_metaboru_10#11",
+   "label": "MES_KMetaboru_aparts_get",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0005:0000:][0001:0001:]メタボルスペースのアタックパーツ\n[Color #4ED4FF][0003:0000:00 00 02 00 00 00][Color #E6E6E6][Color #373737][Ruby 個目;こめ]を [Ruby 手;て]に[Ruby 入;い]れた！[0002:0001:][Next][0005:0000:][0001:0001:]メタボルスペースのアタックパーツは\nのこりあと [Color #E6E6E6][Color #4ED4FF][0003:0000:00 00 02 00 01 00][Color #E6E6E6][Color #373737][Ruby 個;こ]だ！[0002:0000:1E 00][0002:0001:][Color #E6E6E6]"
+  },
+  {
+   "id": "FMsg/i_metaboru_10#12",
+   "label": "MES_sys_guide_add",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0005:0000:][0001:0001:][Color #4ED4FF]フィールドガイド[Color #E6E6E6]に\n[Ruby 項目;こうもく]が[Ruby 追加;ついか]されました。[0002:0000:1E 00][0002:0001:]"
+  }
+ ]
+}

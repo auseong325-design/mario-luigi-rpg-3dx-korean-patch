@@ -1,0 +1,40 @@
+{
+ "source": "Msg/JP_ja/FMsg.dat:o_koopa_25",
+ "messages": [
+  {
+   "id": "FMsg/o_koopa_25#0",
+   "label": "MES_SKoopa_25_kanban_mes1",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0005:0000:][0001:0004:][0001:0001:]～ひみつのメモ～\n[Color #4ED4FF]■[Color #E6E6E6][Color #373737] [Color #E6E6E6][Color #4ED4FF]●[Color #E6E6E6][Color #373737] [Color #E6E6E6][Color #4ED4FF]▲[Color #E6E6E6][Color #373737] [Ruby 最後;さいご]に[Color #E6E6E6][Color #4ED4FF]トビラ[Color #E6E6E6][Color #373737] の[Ruby 順番;じゅんばん][0002:0001:][Color #E6E6E6]"
+  },
+  {
+   "id": "FMsg/o_koopa_25#1",
+   "label": "MES_SKoopa_25_kanban_mes2",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0001:0004:][0001:0001:][0005:0000:]～ひみつのメモ～\n[Color #4ED4FF]●[Color #E6E6E6][Color #373737]は １[Ruby 回;かい]だけ[0002:0001:][Color #E6E6E6]"
+  },
+  {
+   "id": "FMsg/o_koopa_25#2",
+   "label": "MES_SKoopa_24_ystar_mes_01",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:][Color #2C64FF]ひみつのメモ[Color #373737][Color #373737]…？\nなにかしら これ？[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/o_koopa_25#3",
+   "label": "MES_SKoopa_24_ystar_mes_02",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]あやしいわ…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_koopa_25#4",
+   "label": "MES_SKoopa_24_ystar_mes_03",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]もしかしたら なにかの\nヒントかも しれないわね。[0002:0001:][Next][0001:0004:]ねんのため [Ruby 覚;おぼ]えておきましょう。\n[Ruby 私;わたし]も [Ruby 忘;わす]れないようにするから。[0002:0001:]"
+  }
+ ]
+}

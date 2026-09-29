@@ -1,0 +1,54 @@
+{
+ "source": "Msg/JP_ja/FMsg.dat:o_areanone_meter_01_U",
+ "messages": [
+  {
+   "id": "FMsg/o_areanone_meter_01_U#0",
+   "label": "MES_EMesMic_ML_start_a",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]はい [Ruby 軽;かる]く[Ruby 息;いき]を[Ruby 吸;す]って～[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_areanone_meter_01_U#1",
+   "label": "MES_EMesMic_ML_start_b",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 準備;じゅんび]は いいですか～？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_areanone_meter_01_U#2",
+   "label": "MES_EMesMic_Luigi_run",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ドーンと はいて～！"
+  },
+  {
+   "id": "FMsg/o_areanone_meter_01_U#3",
+   "label": "MES_EMesMic_ML_run",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]はい [Ruby 息;いき]をはいて～"
+  },
+  {
+   "id": "FMsg/o_areanone_meter_01_U#4",
+   "label": "MES_EMesMic_Luigi_start",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]もう１[Ruby 度;ど] いきますよ～[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_areanone_meter_01_U#5",
+   "label": "MES_EMesMic_Luigi_end",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]むむむ… ぜんぜんダメですね。"
+  },
+  {
+   "id": "FMsg/o_areanone_meter_01_U#6",
+   "label": "MES_EMesMic_Mario_end",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]はい。OK～"
+  }
+ ]
+}

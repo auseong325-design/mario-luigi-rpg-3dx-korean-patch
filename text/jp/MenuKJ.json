@@ -1,0 +1,726 @@
+{
+ "source": "Msg/JP_ja/MenuKJ.msbt",
+ "messages": [
+  {
+   "id": "MenuKJ#0",
+   "label": "Menu_KJ_record_title_00",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]クエストクリア回数"
+  },
+  {
+   "id": "MenuKJ#1",
+   "label": "Menu_KJ_manu_gide_17_00",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 前;まえ]の[Ruby 列;れつ]にいると[Ruby 苦手;にがて]なとつげきタイプと\nすぐ[Ruby 戦;たたか]うことになっちゃう。[0002:0001:]"
+  },
+  {
+   "id": "MenuKJ#2",
+   "label": "Menu_KJ_record_title_01",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]バトルで勝った回数"
+  },
+  {
+   "id": "MenuKJ#3",
+   "label": "Menu_KJ_record_title_02",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]やっつけた敵の数"
+  },
+  {
+   "id": "MenuKJ#4",
+   "label": "Menu_KJ_com_sub_morton ",
+   "style": 1,
+   "attr": "00000000",
+   "jp": "[0009:0000:01 00]むてきの"
+  },
+  {
+   "id": "MenuKJ#5",
+   "label": "Menu_KJ_record_title_03",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]Excellent回数"
+  },
+  {
+   "id": "MenuKJ#6",
+   "label": "Menu_KJ_result_save",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0005:0000:][0001:0001:]セーブ[Ruby 中;ちゅう]です。\n[Ruby 電源;でんげん]をOFFにしないでください。"
+  },
+  {
+   "id": "MenuKJ#7",
+   "label": "Menu_KJ_record_title_04",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]仲間にした数"
+  },
+  {
+   "id": "MenuKJ#8",
+   "label": "Menu_KJ_manu_gide_h08",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][Color #4ED4FF]ぐんだんメニューガイド[Color #E6E6E6]に\n[Ruby 項目;こうもく]が[Ruby 追加;ついか]されました！[0002:0001:]"
+  },
+  {
+   "id": "MenuKJ#9",
+   "label": "Menu_KJ_manu_gide_20",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Color #2C64FF][Ruby 配置;はいち]によっては[Ruby 何;なに]か[Ruby 発動;はつどう]する[Color #373737]とか\nルドウィッグが[Ruby 言;い]ってた[Ruby 気;き]もするけれど…[0002:0001:][Next][Ruby 忘;わす]れちゃった。\nイロイロとやってみてよ。[0002:0001:][Next][Ruby 配置;はいち]が[Ruby 決;き]まったら また\n[Color #FF4343][U+E002][Color #373737]ボタンで[Ruby 戻;もど]ってね。じゃあね！[0002:0001:]"
+  },
+  {
+   "id": "MenuKJ#10",
+   "label": "Menu_KJ_manu_gide_32_00",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Color #FF4343][U+E002][Color #373737]ボタンで はいちがえを[Ruby 選;えら]んで。"
+  },
+  {
+   "id": "MenuKJ#11",
+   "label": "Menu_KJ_manu_gide_21",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]バトル[Ruby 参加;さんか]メンバーは[Color #FF4343][Color #2C64FF][Ruby 最大;さいだい]９[Ruby 体;たい][Color #FF4343][Color #373737]だよ[Color #FF4343][Color #373737]。\n…ありゃ [0002:0000:0A 00]もうイッパイだね。[0002:0001:][Next]とつげきタイプと[Ruby 入;い]れかえよう。\nヘイホーを クリボーの[Ruby 上;うえ]に[Ruby 移動;いどう]するね。[0002:0001:]"
+  },
+  {
+   "id": "MenuKJ#12",
+   "label": "Menu_KJ_com_sub_iggy ",
+   "style": 1,
+   "attr": "00000000",
+   "jp": "[0009:0000:01 00]トリッキー"
+  },
+  {
+   "id": "MenuKJ#13",
+   "label": "Menu_KJ_record_title",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00]レコード"
+  },
+  {
+   "id": "MenuKJ#14",
+   "label": "Menu_KJ_organize_leader_type_change",
+   "style": 0,
+   "attr": "00000000",
+   "jp": "[0009:0000:00 00][Color #FFFAF1]タイプがえ[Color #373737]"
+  },
+  {
+   "id": "MenuKJ#15",
+   "label": "Menu_KJ_organize_divorce_exp",
+   "style": 1,
+   "attr": "00000000",
+   "jp": "[0009:0000:01 00][Ruby 本当;ほんとう]にわかれますか？"
+  },
+  {
+   "id": "MenuKJ#16",
+   "label": "Menu_KJ_organize_return_exp",
+   "style": 1,
+   "attr": "00000000",
+   "jp": "[0009:0000:01 00][Ruby 変更;へんこう]を[Ruby 反映;はんえい]せずに[Ruby 戻;もど]ります。\nよろしいですか？"
+  },
+  {
+   "id": "MenuKJ#17",
+   "label": "Menu_KJ_result_get_challenge",
+   "style": 1,
+   "attr": "00000000",
+   "jp": "[0009:0000:01 00][Color #FFFAF1]チャレンジたっせい！[Color #373737]"
+  },
+  {
+   "id": "MenuKJ#18",
+   "label": "Menu_KJ_quest_config_title",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00]１[Ruby 度;ど][Ruby 見;み]たイベントを[Ruby 再生;さいせい]する"
+  },
+  {
+   "id": "MenuKJ#19",
+   "label": "Menu_KJ_result_challenge_ex",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0005:0000:][Color #4ED4FF][Color #FFFAF1]レコードの[Color #4ED4FF]チャレンジ[Color #E6E6E6]で\n[Ruby 内容;ないよう]を[Ruby 確認;かくにん]することができます。[0002:0001:]"
+  },
+  {
+   "id": "MenuKJ#20",
+   "label": "Menu_KJ_manu_gide_40",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]さあここからは ぼっちゃんが\nへんせいしてみてください！[0002:0001:][Next][Ruby 次;つぎ]はとつげきタイプが[Ruby 多;おお]いので\nひこうタイプを[Ruby 入;い]れるのがいいでしょう。[0002:0001:][Next]さっき[Ruby 仲間;なかま]になったテレサが\n３[Ruby 体;たい]もいれば まあ[Ruby 十分勝;じゅうぶんか]てる…[0002:0001:][Next]…っと もう[Ruby 分;わ]かってますよね。\nそれでは よろしくお[Ruby 願;ねが]いします。[0002:0001:][Next][Ruby 得意;とくい]な[Ruby 相手;あいて]と[Ruby 戦;たたか]えるよう[Ruby 味方;みかた]を\n[Ruby 配置;はいち]をすることをお[Ruby 忘;わす]れなく！[0002:0001:]"
+  },
+  {
+   "id": "MenuKJ#21",
+   "label": "Menu_KJ_quest_config_title2",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00]せいとんのルール"
+  },
+  {
+   "id": "MenuKJ#22",
+   "label": "Menu_KJ_manu_gide_41",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0005:0000:]アイテムを１つも[Ruby 持;も]っていません。[0002:0001:]"
+  },
+  {
+   "id": "MenuKJ#23",
+   "label": "Menu_KJ_item_get_la",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0005:0000:][0001:0001:][0003:0001:00 00 00 00 00 00]は\n「[0003:0001:00 00 00 00 01 00]」を[Ruby 覚;おぼ]えた！[0002:0000:0A 00][0002:0001:]"
+  },
+  {
+   "id": "MenuKJ#24",
+   "label": "Menu_KJ_quest_musshiba_clear",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][Color #4ED4FF]クッパ[Ruby 城;じょう][Color #E6E6E6]に [Ruby 新;あら]たなクエストが[Ruby 出現;しゅつげん]しました！\nメンバーを[Ruby 揃;そろ]えて[Ruby 挑戦;ちょうせん]してみましょう！[0002:0001:]"
+  },
+  {
+   "id": "MenuKJ#25",
+   "label": "Menu_KJ_com_sub_kameck_bl",
+   "style": 1,
+   "attr": "00000000",
+   "jp": "[0009:0000:01 00]わるがしこい"
+  },
+  {
+   "id": "MenuKJ#26",
+   "label": "Menu_KJ_com_sub_ludwig",
+   "style": 1,
+   "attr": "00000000",
+   "jp": "[0009:0000:01 00]知てきな"
+  },
+  {
+   "id": "MenuKJ#27",
+   "label": "Menu_KJ_manu_gide_34_00",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Color #00BB27][Color #FF4343][U+E002][Color #00BB27][Color #373737]ボタン[Color #00BB27][Color #373737][Color #373737]で[Ruby 戻;もど][Color #373737]ってみて。"
+  },
+  {
+   "id": "MenuKJ#28",
+   "label": "Menu_KJ_result_add_member",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0005:0000:][Ruby 仲間;なかま]にできる[Ruby 数;かず]が\n[0003:0000:00 00 00 00 00 00]から[0003:0000:00 00 00 00 01 00]になりました！"
+  },
+  {
+   "id": "MenuKJ#29",
+   "label": "Menu_KJ_com_party_num_01",
+   "style": 1,
+   "attr": "00000000",
+   "jp": "[0009:0000:01 00]１. "
+  },
+  {
+   "id": "MenuKJ#30",
+   "label": "Menu_KJ_result_up_lp",
+   "style": 1,
+   "attr": "00000000",
+   "jp": "[0009:0000:01 00][Color #FFFAF1][0003:0001:00 00 00 00 00 00]はLPが[0003:0000:00 00 00 00 01 00][Ruby 増;ふ]えた！[Color #373737]"
+  },
+  {
+   "id": "MenuKJ#31",
+   "label": "Menu_KJ_com_party_num_02",
+   "style": 1,
+   "attr": "00000000",
+   "jp": "[0009:0000:01 00]２. "
+  },
+  {
+   "id": "MenuKJ#32",
+   "label": "Menu_KJ_com_party_num_03",
+   "style": 1,
+   "attr": "00000000",
+   "jp": "[0009:0000:01 00]３. "
+  },
+  {
+   "id": "MenuKJ#33",
+   "label": "Menu_KJ_com_party_num_04",
+   "style": 1,
+   "attr": "00000000",
+   "jp": "[0009:0000:01 00]４. "
+  },
+  {
+   "id": "MenuKJ#34",
+   "label": "Menu_KJ_com_party_num_05",
+   "style": 1,
+   "attr": "00000000",
+   "jp": "[0009:0000:01 00]５. "
+  },
+  {
+   "id": "MenuKJ#35",
+   "label": "Menu_KJ_com_party_num_06",
+   "style": 1,
+   "attr": "00000000",
+   "jp": "[0009:0000:01 00]６. "
+  },
+  {
+   "id": "MenuKJ#36",
+   "label": "Menu_KJ_com_party_num_07",
+   "style": 1,
+   "attr": "00000000",
+   "jp": "[0009:0000:01 00]７. "
+  },
+  {
+   "id": "MenuKJ#37",
+   "label": "Menu_KJ_com_party_num_08",
+   "style": 1,
+   "attr": "00000000",
+   "jp": "[0009:0000:01 00]８. "
+  },
+  {
+   "id": "MenuKJ#38",
+   "label": "Menu_KJ_com_party_num_09",
+   "style": 1,
+   "attr": "00000000",
+   "jp": "[0009:0000:01 00]９. "
+  },
+  {
+   "id": "MenuKJ#39",
+   "label": "Menu_KJ_manu_gide_10",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ルドウィッグが\n「バトンタッチだ…」だってさ。[0002:0001:][Next]ぼっちゃん [Ruby 聞;き]いてるー？\n[Color #2C64FF][Ruby 参加;さんか]メンバーの[Ruby 変;か]え[Ruby 方;かた][Color #373737] [Ruby 教;おし]えるよ。[0002:0001:][Next][Ruby 次;つぎ]のクエストに[Ruby 出;で]てくるのは…[0002:0001:]"
+  },
+  {
+   "id": "MenuKJ#40",
+   "label": "Menu_KJ_manu_gide_11",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 飛;と]んでいる[Ruby 敵;てき]だね。[0002:0001:]"
+  },
+  {
+   "id": "MenuKJ#41",
+   "label": "Menu_KJ_result_get_item",
+   "style": 1,
+   "attr": "00000000",
+   "jp": "[0009:0000:01 00][Color #FFFAF1]アイテムかくとく！[Color #373737]"
+  },
+  {
+   "id": "MenuKJ#42",
+   "label": "Menu_KJ_manu_gide_12",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ここではバトルに[Ruby 参加;さんか]させるメンバーを\n[Ruby 入;い]れかえることができるんだ。[0002:0001:][Next][Ruby 次;つぎ]のクエストには\nひこうタイプの[Ruby 敵;てき]が[Ruby 出;で]てくる。[0002:0001:][Next]ひこうタイプに[Ruby 強;つよ]い\nえんきょりタイプを[Ruby 入;い]れよう。[0002:0001:][Next][Ruby 明;あか]るくなっているヘイホーを\n[Color #FF4343][U+E000][Color #373737]ボタンで[Ruby 選;えら]んでくれる？"
+  },
+  {
+   "id": "MenuKJ#43",
+   "label": "Menu_KJ_com_enemy_detail",
+   "style": 0,
+   "attr": "00000000",
+   "jp": "[0009:0000:00 00][Color #FFFAF1]くわしく[Color #373737]"
+  },
+  {
+   "id": "MenuKJ#44",
+   "label": "Menu_KJ_manu_gide_13",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Color #FF4343][U+E000][Color #373737]ボタンで ヘイホーとクリボーを\n[Ruby 入;い]れかえてみて。"
+  },
+  {
+   "id": "MenuKJ#45",
+   "label": "Menu_KJ_quest_koopa_clear",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][Color #4ED4FF]ムッシーバビーチ[Color #E6E6E6]に\n[Ruby 新;あら]たなクエストが[Ruby 出現;しゅつげん]しました！\nレベルを[Ruby 上;あ]げて[Ruby 挑戦;ちょうせん]してみましょう！[0002:0001:]"
+  },
+  {
+   "id": "MenuKJ#46",
+   "label": "Menu_KJ_manu_gide_14",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]えんきょりタイプが[Ruby 増;ふ]えたね。\nひこうタイプの[Ruby 敵;てき]に さらに[Ruby 有利;ゆうり]になったよ。[0002:0001:][Next]へんせいに[Ruby 入;い]れた[Ruby 仲間;なかま]を\nリストに[Ruby 戻;もど]したいという[Ruby 時;とき]は…[0002:0001:][Next][Ruby 下画面;したがめん]で[Ruby 外;はず]す[Ruby 仲間;なかま]を[Ruby 選;えら]んで \n[Color #FF4343][U+E000][Color #373737]ボタンを[Ruby 押;お]せば [Ruby 戻;もど]ってくるからね。[0002:0001:][Next]へんせいのやり[Ruby 方;かた]は[Ruby 分;わ]かった？\n[Ruby 色々試;いろいろため]してみてね！[0002:0001:]"
+  },
+  {
+   "id": "MenuKJ#47",
+   "label": "Menu_KJ_manu_gide_33_00",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ここに \nアタシを[Ruby 入;い]れて。"
+  },
+  {
+   "id": "MenuKJ#48",
+   "label": "Menu_KJ_manu_gide_it_open",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][Color #4ED4FF]キャラクターの[Ruby 強化;きょうか][Color #E6E6E6]ができるようになりました！\nバトルで[Color #F0F0F0]マメ[Color #E6E6E6]など[Color #4ED4FF]アイテム[Color #E6E6E6]を[Ruby 手;て]に[Ruby 入;い]れたら\n[Ruby 軍団;ぐんだん]キャラクターに[Ruby 使;つか]ってみましょう。[0002:0001:]"
+  },
+  {
+   "id": "MenuKJ#49",
+   "label": "Menu_KJ_manu_gide_15",
+   "style": 10,
+   "attr": "00000000",
+   "jp": "[0009:0000:0A 00]あー！ [Ruby 忘;わす]れてた！[0002:0001:]"
+  },
+  {
+   "id": "MenuKJ#50",
+   "label": "Menu_KJ_manu_gide_16",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]これは\nこれから[Ruby 戦;たたか]う[Ruby 敵;てき]の[Ruby 配置図;はいちず]だよ。[0002:0001:]"
+  },
+  {
+   "id": "MenuKJ#51",
+   "label": "Menu_KJ_manu_gide_17",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]いま[Ruby 入;い]れたヘイホーなんだけど…[0002:0000:0F 00][0002:0001:]"
+  },
+  {
+   "id": "MenuKJ#52",
+   "label": "Menu_KJ_manu_typechg_01",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][Ruby 軍団;ぐんだん]へんせいで クッパJr. を\n[Color #FF7070]えんきょりタイプ[Color #E6E6E6]に[Ruby 変;か]えられるようになった！[0002:0001:]"
+  },
+  {
+   "id": "MenuKJ#53",
+   "label": "Menu_KJ_manu_gide_18",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 前;まえ]の[Ruby 列;れつ]にいるヘイホーを[Color #FF4343][U+E000][Color #373737]ボタンで\nつかんで [Ruby 後;うし]ろの[Ruby 列;れつ]に[Ruby 移動;いどう]しよう。"
+  },
+  {
+   "id": "MenuKJ#54",
+   "label": "Menu_KJ_manu_typechg_02",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][Ruby 軍団;ぐんだん]へんせいで クッパJr. を\n[Color #FF7070]ひこうタイプ[Color #E6E6E6]に[Ruby 変;か]えられるようになった！[0002:0001:]"
+  },
+  {
+   "id": "MenuKJ#55",
+   "label": "Menu_KJ_manu_gide_19",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]オッケー！ [0002:0000:0F 00]\nこれでヘイホー[Ruby 達;たち]は\nぞんぶんにチカラを[Ruby 発揮;はっき]できるぞ！[0002:0001:][Next]へんせいした[Ruby 味方;みかた]を どの[Ruby 列;れつ]に[Ruby 置;お]くか…[0002:0000:0F 00]\nけっこう [Ruby 大事;だいじ]だよ。[0002:0001:][Next][Ruby 敵;てき]のじょうほうを[Ruby 見;み]て\n[Color #2C64FF][Ruby 味方;みかた]が[Ruby 相性;あいしょう]のよい[Ruby 敵;てき]に[Ruby 当;あ]たる[Color #373737]ように\n[Ruby 調整;ちょうせい]してね。[0002:0001:]"
+  },
+  {
+   "id": "MenuKJ#56",
+   "label": "Menu_KJ_manu_typechg_03",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00]クッパJr.を[Ruby 選;えら]んで [Color #FF7070][U+E000][Color #E6E6E6]ボタンを[Ruby 押;お]せば\nクッパJr.のタイプを[Ruby 変;か]えられます。[0002:0001:]"
+  },
+  {
+   "id": "MenuKJ#57",
+   "label": "Menu_KJ_com_party_name_a",
+   "style": 1,
+   "attr": "00000000",
+   "jp": "[0009:0000:01 00][0003:0001:00 00 00 00 00 00][0003:0001:00 00 00 00 01 00]とつげき隊"
+  },
+  {
+   "id": "MenuKJ#58",
+   "label": "Menu_KJ_organize_leader_rearrange",
+   "style": 0,
+   "attr": "00000000",
+   "jp": "[0009:0000:00 00][Color #FFFAF1]はいちがえ[Color #373737]"
+  },
+  {
+   "id": "MenuKJ#59",
+   "label": "Menu_KJ_com_sub_larry",
+   "style": 1,
+   "attr": "00000000",
+   "jp": "[0009:0000:01 00]必中の"
+  },
+  {
+   "id": "MenuKJ#60",
+   "label": "Menu_KJ_com_sub_roy",
+   "style": 1,
+   "attr": "00000000",
+   "jp": "[0009:0000:01 00]パワフル"
+  },
+  {
+   "id": "MenuKJ#61",
+   "label": "Menu_KJ_manu_gide_31_00",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]アタシを\nへんせいに[Ruby 入;い]れて。"
+  },
+  {
+   "id": "MenuKJ#62",
+   "label": "Menu_KJ_com_sub_wendy",
+   "style": 1,
+   "attr": "00000000",
+   "jp": "[0009:0000:01 00]オトメな"
+  },
+  {
+   "id": "MenuKJ#63",
+   "label": "Menu_KJ_com_party_name_f",
+   "style": 1,
+   "attr": "00000000",
+   "jp": "[0009:0000:01 00][0003:0001:00 00 00 00 00 00][0003:0001:00 00 00 00 01 00]ひこう隊"
+  },
+  {
+   "id": "MenuKJ#64",
+   "label": "Menu_KJ_manu_gide_11_00",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]STARTボタンか タッチで\n[Color #2C64FF][Ruby 軍団;ぐんだん]へんせい[Color #373737]を[Ruby 選;えら]んで。"
+  },
+  {
+   "id": "MenuKJ#65",
+   "label": "Menu_KJ_quest_exit_warning",
+   "style": 1,
+   "attr": "00000000",
+   "jp": "[0009:0000:01 00]クッパJr.RPGを[Ruby 終了;しゅうりょう]します。\nよろしいですか？"
+  },
+  {
+   "id": "MenuKJ#66",
+   "label": "Menu_KJ_manu_gide_30",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ルドウィッグ… [Ruby 様子;ようす]が[Ruby 変;へん]だったわ…\nなにか[Ruby 胸騒;むなさわ]ぎがする…[0002:0001:][Next]ぼっちゃん。\n[Ruby 少;すこ]し[Ruby 気;き]を[Ruby 引;ひ]き[Ruby 締;し]めていきましょう。[0002:0001:][Next][Color #FF4343][Color #2C64FF]サブリーダー[Color #FF4343][Color #373737]について[Ruby 教;おし]えるわ。[Color #FF4343][Color #373737][0002:0001:]"
+  },
+  {
+   "id": "MenuKJ#67",
+   "label": "Menu_KJ_quest_Farewell",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][Color #4ED4FF]メニュー[Color #E6E6E6]の[Ruby 中;なか]にある[Color #4ED4FF]「キャラクターおわかれ」\n[Color #E6E6E6]から[Ruby 仲間;なかま]にしたキャラクターと\n[Color #F0F0F0]お[Ruby 別;わか]れが[Color #E6E6E6]できるようになりました。[0002:0001:]"
+  },
+  {
+   "id": "MenuKJ#68",
+   "label": "Menu_KJ_manu_gide_31",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 軍団;ぐんだん]へんせいを[Ruby 選;えら]んで。"
+  },
+  {
+   "id": "MenuKJ#69",
+   "label": "Menu_KJ_record_form_num",
+   "style": 13,
+   "attr": "00000000",
+   "jp": "[0009:0000:0D 00][Color #4ED4FF]（[0003:0000:00 00 00 00 00 00][Ruby 体;たい]）[Color #E6E6E6]"
+  },
+  {
+   "id": "MenuKJ#70",
+   "label": "Menu_KJ_manu_gide_32",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]アタシ[Ruby 達;たち] ７[Ruby 人衆;にんしゅう]が\nぼっちゃんのサポートに[Ruby 回;まわ]ります。[0002:0001:]"
+  },
+  {
+   "id": "MenuKJ#71",
+   "label": "Menu_KJ_manu_gide_33",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ここが“[Color #2C64FF]サブリーダー[Color #373737]”のマスよ。[0002:0001:]"
+  },
+  {
+   "id": "MenuKJ#72",
+   "label": "Menu_KJ_record_invalid",
+   "style": 13,
+   "attr": "00000000",
+   "jp": "[0009:0000:0D 00]？？？？"
+  },
+  {
+   "id": "MenuKJ#73",
+   "label": "Menu_KJ_com_party_name_l",
+   "style": 1,
+   "attr": "00000000",
+   "jp": "[0009:0000:01 00][0003:0001:00 00 00 00 00 00][0003:0001:00 00 00 00 01 00]えんきょり隊"
+  },
+  {
+   "id": "MenuKJ#74",
+   "label": "Menu_KJ_manu_gide_34",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ここはアタシ[Ruby 達;たち]７[Ruby 人衆;にんしゅう]クラスしか\n[Ruby 入;い]れられない[Ruby 特別;とくべつ]なマスなの。[0002:0001:]"
+  },
+  {
+   "id": "MenuKJ#75",
+   "label": "Menu_KJ_com_party_name_m",
+   "style": 1,
+   "attr": "00000000",
+   "jp": "[0009:0000:01 00][0003:0001:00 00 00 00 00 00][0003:0001:00 00 00 00 01 00]こんせい隊"
+  },
+  {
+   "id": "MenuKJ#76",
+   "label": "Menu_KJ_manu_gide_35",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]これが [Color #2C64FF]サブリーダースキル[Color #373737]。\nサブリーダーを[Ruby 誰;だれ]にするかによって\nスキルの[Ruby 内容;ないよう]が[Ruby 変;か]わるわ。[0002:0001:]"
+  },
+  {
+   "id": "MenuKJ#77",
+   "label": "Menu_KJ_manu_gide_36",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 敵;てき]のリーダーのタイプに[Ruby 合;あ]わせて\n[Ruby 他;ほか]のメンバーも[Ruby 試;ため]すといいわね。[0002:0001:][Next]あ… [0002:0000:14 00]そうそう！[0002:0001:][Next]ついでに [Ruby 便利;べんり]な\nコマンドを[Ruby 教;おし]えておくわね！[0002:0001:][Next][Color #FF4343][U+E004][U+E005][Color #373737]ボタンを[Ruby 同時押;どうじお]しすると\n[Color #2C64FF]へんせいをリセット[Color #373737]できるの。[0002:0001:][Next]イチからへんせいをやり[Ruby 直;なお]したい\n[Ruby 時;とき]なんかに[Ruby 使;つか]うといいわ。[0002:0001:][Next]さ！ [Ruby 先;さき]を[Ruby 急;いそ]ぎましょ！[0002:0001:]"
+  },
+  {
+   "id": "MenuKJ#78",
+   "label": "Menu_KJ_result_get_army",
+   "style": 1,
+   "attr": "00000000",
+   "jp": "[0009:0000:01 00][Color #FFFAF1]なかまがふえた！[Color #373737]"
+  },
+  {
+   "id": "MenuKJ#79",
+   "label": "Menu_KJ_organize_wnd_warning_00",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0005:0000:][0001:0001:][Ruby 軍団;ぐんだん]の[Ruby 数;かず]がいっぱいです。\n[Ruby 誰;だれ]かとおわかれしなければなりません。[0002:0001:]"
+  },
+  {
+   "id": "MenuKJ#80",
+   "label": "Menu_KJ_organize_wnd_warning_01",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0005:0000:][0001:0001:][Color #4ED4FF][0003:0001:00 00 00 00 00 00][Color #E6E6E6]は[Color #4ED4FF][0003:0000:00 00 00 00 01 00][Color #E6E6E6][Ruby 体;たい]までしか\n[Ruby 仲間;なかま]にできません。\nおわかれしなければなりません。[0002:0001:]"
+  },
+  {
+   "id": "MenuKJ#81",
+   "label": "Menu_KJ_result_add_party_firsttime",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][Color #4ED4FF][U+E004] [U+E005][Color #E6E6E6]ボタンで[Ruby 上画面;うえがめん]のパーティを\n[Ruby 切;き]り[Ruby 替;か]えることができます。"
+  },
+  {
+   "id": "MenuKJ#82",
+   "label": "Menu_KJ_result_get_la",
+   "style": 1,
+   "attr": "00000000",
+   "jp": "[0009:0000:01 00][Color #FFFAF1][0003:0001:00 00 00 00 00 00]は「[0003:0001:00 00 00 00 01 00]」を覚えた！[Color #373737]"
+  },
+  {
+   "id": "MenuKJ#83",
+   "label": "Menu_KJ_manu_gide_15_00",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Color #2C64FF]メンバーの[Ruby 配置;はいち][Color #373737]も[Ruby 変;か]えられるよ！[0002:0001:]"
+  },
+  {
+   "id": "MenuKJ#84",
+   "label": "Menu_KJ_organize_warning_01",
+   "style": 1,
+   "attr": "00000000",
+   "jp": "[0009:0000:01 00]メンバーが９[Ruby 体;たい]そろっていませんが\nよろしいですか？"
+  },
+  {
+   "id": "MenuKJ#85",
+   "label": "Menu_KJ_item_up_lp",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0005:0000:][0001:0001:][0003:0001:00 00 00 00 00 00]は\nLPが[0003:0000:00 00 00 00 01 00][Ruby 増;ふ]えた！[0002:0000:0A 00][0002:0001:]"
+  },
+  {
+   "id": "MenuKJ#86",
+   "label": "Menu_KJ_manu_gide_15_01",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Color #FF4343][U+E002][Color #373737]ボタンを[Ruby 押;お]してみて！"
+  },
+  {
+   "id": "MenuKJ#87",
+   "label": "Menu_KJ_organize_warning_02",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0005:0000:][0001:0001:]クッパJr.[Ruby 以外;いがい]の[Ruby 参加;さんか]メンバーを\nすべてはずしますか？\n[0001:0001:][0004:0001:]いいえ[0006:0000:20 00][0004:0001:]はい"
+  },
+  {
+   "id": "MenuKJ#88",
+   "label": "Menu_KJ_com_sub_lemmy",
+   "style": 1,
+   "attr": "00000000",
+   "jp": "[0009:0000:01 00]スピーディな"
+  },
+  {
+   "id": "MenuKJ#89",
+   "label": "Menu_KJ_organize_wnd_divorce_bonus_00",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0003:0001:00 00 00 00 00 00]は\n[Color #4ED4FF][0003:0001:00 00 00 00 01 00][Color #E6E6E6]を\n[Ruby 置;お]いて[Ruby 去;さ]っていきました。[0002:0001:]"
+  },
+  {
+   "id": "MenuKJ#90",
+   "label": "Menu_KJ_record_medal_00",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00]ゴールド"
+  },
+  {
+   "id": "MenuKJ#91",
+   "label": "Menu_KJ_com_enemy_detail_close",
+   "style": 0,
+   "attr": "00000000",
+   "jp": "[0009:0000:00 00][Color #FFFAF1]とじる[Color #373737]"
+  },
+  {
+   "id": "MenuKJ#92",
+   "label": "Menu_KJ_record_medal_01",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00]シルバー"
+  },
+  {
+   "id": "MenuKJ#93",
+   "label": "Menu_KJ_manu_gide_00",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ぼっちゃん。[Ruby 軍団;ぐんだん]を[Ruby 率;ひき]いるためです。\n[Ruby 今;いま]から[Ruby 話;はな]すことを しっかり[Ruby 聞;き]いてください。[0002:0001:][Next][Ruby 上画面;うえがめん]ではバトルに[Ruby 参加;さんか]する\nメンバーの[Ruby 強;つよ]さを[Ruby 見;み]ることができます。[0002:0001:]"
+  },
+  {
+   "id": "MenuKJ#94",
+   "label": "Menu_KJ_record_medal_02",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00]ブロンズ"
+  },
+  {
+   "id": "MenuKJ#95",
+   "label": "Menu_KJ_manu_gide_01",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]これが[Color #2C64FF][Ruby 軍団;ぐんだん]のレベル[Color #373737]です。[0002:0001:][Next]メンバーが[Ruby 強;つよ]くなると\nこのレベルも[Ruby 上;あ]がります。[0002:0001:]"
+  },
+  {
+   "id": "MenuKJ#96",
+   "label": "Menu_KJ_result_add_party",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0005:0000:][Ruby 保存;ほぞん]できるパーティの[Ruby 数;かず]が\n[0003:0000:00 00 00 00 00 00]から[0003:0000:00 00 00 00 01 00]になりました！"
+  },
+  {
+   "id": "MenuKJ#97",
+   "label": "Menu_KJ_manu_gide_02",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 下画面;したがめん]で[Ruby 次;つぎ]に[Ruby 進;すす]むクエストを[Ruby 選;えら]びます。\nこのときに…[0002:0001:]"
+  },
+  {
+   "id": "MenuKJ#98",
+   "label": "Menu_KJ_manu_gide_03",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]これが[Ruby 登場;とうじょう]する[Color #2C64FF][Ruby 敵;てき]のレベル[Color #373737]…\n[Ruby 敵;てき]の[Ruby 強;つよ]さの[Ruby 目安;めやす]になりますね。[0002:0001:]"
+  },
+  {
+   "id": "MenuKJ#99",
+   "label": "Menu_KJ_manu_gide_04",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 少;すこ]し[Ruby 位;くらい] [Ruby 負;ま]けていても\nへんせいに[Ruby 自信;じしん]があるなら\n[Ruby 思;おも]いきって[Ruby 進;すす]むのもいいでしょう。[0002:0001:][Next]それでも[Ruby 勝;か]てない[Ruby 時;とき]は\n[Ruby 前;まえ]のクエストで なかま[Ruby 集;あつ]めや\nレベルを[Ruby 上;あ]げてみるのもいいですね。[0002:0001:][Next][Ruby 他;ほか]にも[Ruby 相手;あいて]の[Ruby 情報;じょうほう]がほしい[Ruby 場合;ばあい]は…[0002:0001:]"
+  },
+  {
+   "id": "MenuKJ#100",
+   "label": "Menu_KJ_manu_gide_05",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 敵;てき]をタッチすると\n[Color #2C64FF][Ruby 敵;てき]のプロフィール[Color #373737]が[Ruby 見;み]られます。[0002:0001:]"
+  },
+  {
+   "id": "MenuKJ#101",
+   "label": "Menu_KJ_manu_gide_06",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Color #FF4343][U+E003][Color #373737]ボタンで [Color #2C64FF][Ruby 敵;てき]のじょうほう[Color #373737]を\n[Ruby 確認;かくにん]するのもいいでしょう。[0002:0001:][Next][Ruby 敵;てき]の[Ruby 配置;はいち]やバトルの[Ruby 回数;かいすう]など…\n[Ruby 色々;いろいろ]なことが[Ruby 分;わ]かります。[0002:0001:]"
+  },
+  {
+   "id": "MenuKJ#102",
+   "label": "Menu_KJ_manu_gide_07",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ぼっちゃん…\n[Ruby 聞;き]いてます…[0002:0000:1E 00]よね？[0002:0001:][Next][0002:0002:0A 00]…[0002:0002:64 00]それでは。[0002:0001:]"
+  }
+ ]
+}

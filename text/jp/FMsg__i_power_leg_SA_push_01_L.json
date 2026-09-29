@@ -1,0 +1,61 @@
+{
+ "source": "Msg/JP_ja/FMsg.dat:i_power_leg_SA_push_01_L",
+ "messages": [
+  {
+   "id": "FMsg/i_power_leg_SA_push_01_L#0",
+   "label": "MES_SA_SUB_KPower_leg_01_SA_LEG_TUT_01",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]クッパが チカラを [Ruby 出;だ]せるように\n[Ruby 筋肉;きんにく]を シゲキしてみましょう！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_power_leg_SA_push_01_L#1",
+   "label": "MES_SA_SUB_KPower_leg_01_SA_LEG_TUT_02",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ジャンプしているだけじゃ\nシゲキが [Ruby 足;た]りないようね…[0002:0001:][Next][Ruby 着地;ちゃくち]のときに ボタンを[Ruby 押;お]して\nぎゅ～っと ふみつけてみて！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_power_leg_SA_push_01_L#2",
+   "label": "MES_SA_SUB_KPower_leg_01_SA_LEG_TUT_03",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0005:0000:]こんどは ルイージよ！"
+  },
+  {
+   "id": "FMsg/i_power_leg_SA_push_01_L#3",
+   "label": "MES_SA_SUB_KPower_leg_01_SA_LEG_TUT_04",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]マリオ ルイージ どちらか\n[Color #2C64FF][Ruby 下;した]にいる[Ruby 方;ほう][Color #373737][Color #373737]の ボタンを\n[Ruby 押;お]せば いいみたいね。[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/i_power_leg_SA_push_01_L#4",
+   "label": "MES_SA_SUB_KPower_leg_01_SA_LEG_TUT_05",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 左右;さゆう]こうごに ふみ[Ruby 続;つづ]ければ\nジャンプが [Ruby 高;たか]くなって\nシゲキも [Ruby 強;つよ]くなるようよ。[0002:0001:][Next]ジャンプを [Ruby 続;つづ]けられるように\nタイミングよく ボタンを\n[Ruby 押;お]してね！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_power_leg_SA_push_01_L#5",
+   "label": "MES_SA_SUB_KPower_leg_01_SA_LEG_TUT_06",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0001:][0005:0000:]あ！[0002:0000:1E 00]"
+  },
+  {
+   "id": "FMsg/i_power_leg_SA_push_01_L#6",
+   "label": "MES_SA_SUB_KPower_leg_01_SA_LEG_TUT_07",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ボタンを [Ruby 押;お]しているあいだは\nずっと ふんばれるみたいだから[0002:0001:][Next]しばらく ボタンを [Color #2C64FF][Ruby 押;お]したまま[Color #373737][Color #373737]で\nシゲキすると いいんじゃない？[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/i_power_leg_SA_push_01_L#7",
+   "label": "MES_sys_minigame_relief_01",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0001:0001:]クリアしたことにして\nお[Ruby 話;はなし]を [Ruby 先;さき]に[Ruby 進;すす]めますか？[0002:0000:0A 00]\n[0005:0000:][0004:0000:]いいえ[0006:0000:28 00][0004:0000:]はい"
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "source": "Msg/JP_ja/FMsg.dat:o_town_38",
+ "messages": [
+  {
+   "id": "FMsg/o_town_38#0",
+   "label": "MES_TKinoko_38_Kinoko_street_39",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]うわ～！[0002:0000:0A 00] [Ruby 見;み]つかっちゃった！\nさすが マリオさん！[0002:0001:][Next][Ruby 次;つぎ]は [Ruby 見;み]つからないよ～\nよーい[0002:0000:0A 00] はじめ～！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_38#1",
+   "label": "MES_TKinoko_38_Kinoko_street_28",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]いらっしゃいませ。\nアイテムショップです。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_38#2",
+   "label": "MES_TKinoko_38_Kinoko_street_29",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]うわ！[0002:0000:0A 00] またハズレた！\nなかなか アタリが[Ruby 出;で]ないぞ\nこの ボーナスカード！[0002:0001:]"
+  }
+ ]
+}

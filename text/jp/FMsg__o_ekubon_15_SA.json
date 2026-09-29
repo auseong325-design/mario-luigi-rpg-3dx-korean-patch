@@ -1,0 +1,96 @@
+{
+ "source": "Msg/JP_ja/FMsg.dat:o_ekubon_15_SA",
+ "messages": [
+  {
+   "id": "FMsg/o_ekubon_15_SA#0",
+   "label": "MES_Ekubon_15_SA_Ekubon_gcarrot_tut_h5BT",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]おためしにしては\nちょっと [Ruby 食;た]べすぎです～ "
+  },
+  {
+   "id": "FMsg/o_ekubon_15_SA#1",
+   "label": "MES_Ekubon_15_SA_Ekubon_gcarrot_tut_h3BT",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]その[Ruby 成分;せいぶん]が ふくまれた[Ruby 部分;ぶぶん]を\n[Ruby 食;た]べると このように\nキラリと[Ruby 光;ひか]るです。"
+  },
+  {
+   "id": "FMsg/o_ekubon_15_SA#2",
+   "label": "MES_Ekubon_15_SA_Ekubon_gcarrot_tut_h4T",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]おクチが キラリと[Ruby 光;ひか]ったときに\n[Ruby 飲;の]み[Ruby 込;こ]んだカケラに [Ruby 注目;ちゅうもく]です～ "
+  },
+  {
+   "id": "FMsg/o_ekubon_15_SA#3",
+   "label": "MES_Ekubon_15_SA_Ekubon_gcarrot_tut_k1AT",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]そのカケラには\nこんな[Ruby 成分;せいぶん]が\n[Ruby 入;はい]っているです。"
+  },
+  {
+   "id": "FMsg/o_ekubon_15_SA#4",
+   "label": "MES_Ekubon_15_SA_Ekubon_gcarrot_tut_k2BT",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]これは [Ruby 食;た]べたものを\n[Ruby 少;すこ]し[Ruby 消化;しょうか]してくれる\n[Ruby 成分;せいぶん]です～ "
+  },
+  {
+   "id": "FMsg/o_ekubon_15_SA#5",
+   "label": "MES_Ekubon_15_SA_Ekubon_gcarrot_tut_h5AT",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]はいはいは～い。\nおためし [Ruby 終了;しゅうりょう]です～ "
+  },
+  {
+   "id": "FMsg/o_ekubon_15_SA#6",
+   "label": "MES_Ekubon_15_SA_Ekubon_gcarrot_tut_k1CT",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]でも カケラをテキトーに[Ruby 消;け]すだけだと\n[Ruby 消化酵素;しょうかこうそ]のききめが\n[Ruby 弱;よわ]くなっていっちゃうです。"
+  },
+  {
+   "id": "FMsg/o_ekubon_15_SA#7",
+   "label": "MES_Ekubon_15_SA_NINJIN_START_BT",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]それでは [Ruby 食;く]いまくり\nスタートです～ "
+  },
+  {
+   "id": "FMsg/o_ekubon_15_SA#8",
+   "label": "MES_Ekubon_15_SA_Ekubon_gcarrot_tut_h3AT",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]このニンジンには [Ruby 食;た]べたものを\nはやく[Ruby 消化;しょうか]する[Ruby 成分;せいぶん]が\nふくまれているです。"
+  },
+  {
+   "id": "FMsg/o_ekubon_15_SA#9",
+   "label": "MES_Ekubon_15_SA_Ekubon_gcarrot_tut_k2AT",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]あ そのほかのカケラに\nこんな [Ruby 小;ちい]さな[Ruby 成分;せいぶん]が\n[Ruby 入;はい]っていることもあるです。"
+  },
+  {
+   "id": "FMsg/o_ekubon_15_SA#10",
+   "label": "MES_Ekubon_15_SA_Ekubon_gcarrot_tut_h2",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]あ。[0002:0000:1E 00]"
+  },
+  {
+   "id": "FMsg/o_ekubon_15_SA#11",
+   "label": "MES_Ekubon_15_SA_Ekubon_gcarrot_tut_k1BT",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 赤;あか]いうちに [Ruby 使;つか]われると\n[Ruby 食;た]べたものを いっきに\n[Ruby 消化;しょうか]しちゃうです～ "
+  },
+  {
+   "id": "FMsg/o_ekubon_15_SA#12",
+   "label": "MES_Ekubon_15_SA_NINJIN_START_AT",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 準備;じゅんび] できましたね。[0002:0000:0A 00]"
+  }
+ ]
+}

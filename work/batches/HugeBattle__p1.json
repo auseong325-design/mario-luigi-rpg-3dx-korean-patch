@@ -1,0 +1,1630 @@
+{
+ "batch": "HugeBattle__p1",
+ "rooms": [
+  "HugeBattle"
+ ],
+ "ds_rooms": [],
+ "ds_reference": [
+  "@file work/batches/_refs_HugeBattle.txt (193 DS lines shared by all HugeBattle batches - read it once)"
+ ],
+ "glossary": [
+  {
+   "jp": "ほのお",
+   "ko": "화염",
+   "type": "ability",
+   "basis": "DS",
+   "source": "FEvent#01A.25",
+   "note": "쿠파의 필드 액션(아이콘명)·불 뿜기. 배틀 커맨드 ファイア는 '파이어' [gl_attacks]"
+  },
+  {
+   "jp": "パンチ",
+   "ko": "펀치",
+   "type": "ability",
+   "basis": "DS",
+   "source": "BData__mfset_Help#14",
+   "note": "필드 액션·배틀 커맨드 공통 [gl_attacks]"
+  },
+  {
+   "jp": "パンチ防御",
+   "ko": "펀치 방어",
+   "type": "ability",
+   "basis": "DS",
+   "source": "BAI__BMes_ji#2.51",
+   "note": "거대화 배틀에서도 같은 이름 [gl_attacks]"
+  },
+  {
+   "jp": "ファイア",
+   "ko": "파이어",
+   "type": "attack",
+   "basis": "DS",
+   "source": "BData__mfset_Help#15",
+   "note": "쿠파의 배틀 커맨드. 파이어플라워 설명의 불덩이는 DS '파이어볼'(AItmE#17) [gl_attacks]"
+  },
+  {
+   "jp": "ファイアブレス",
+   "ko": "파이어 브레스",
+   "type": "attack",
+   "basis": "coined",
+   "source": "",
+   "note": "거대화 배틀의 불 뿜기. DS는 '파이어'(BAI__BMes_ji#2.28, 마이크 조작). 3DX에서 이름·조작이 바뀜 [gl_attacks]"
+  },
+  {
+   "jp": "ファイアボール",
+   "ko": "파이어볼",
+   "type": "attack",
+   "basis": "DS",
+   "source": "BAI__BMes_ji#2.58",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "ファイナルアタック",
+   "ko": "파이널 어택",
+   "type": "attack",
+   "basis": "coined",
+   "source": "",
+   "note": "3DX 신규 마무리 기술. DS식 '스페셜 어택' 표기에 맞춤 [gl_attacks]"
+  },
+  {
+   "jp": "クッパ",
+   "ko": "쿠파",
+   "type": "boss",
+   "basis": "DS",
+   "source": "BData__mfset_MonN#65",
+   "note": "마리오 일행이 싸우는 쿠파. glossary 확정값과 동일 [gl_enemies]"
+  },
+  {
+   "jp": "キノコ",
+   "ko": "버섯",
+   "type": "item",
+   "basis": "DS",
+   "source": "BData__mfset_UItmN#0",
+   "note": "일반 명사 キノコ도 버섯(キノコタウン=버섯 타운) [gl_items]"
+  },
+  {
+   "jp": "ブラックホール",
+   "ko": "블랙홀",
+   "type": "other",
+   "basis": "DS",
+   "source": "BAI__BMes_yo#2.16",
+   "note": "[gl_menu_places]"
+  },
+  {
+   "jp": "Excellent",
+   "ko": "Excellent",
+   "type": "term",
+   "basis": "DS",
+   "source": "BData__mfset_BadgeEffectE#1",
+   "note": "영문 그대로. 4단계 평가의 최고 [gl_attacks]"
+  },
+  {
+   "jp": "HP",
+   "ko": "HP",
+   "type": "term",
+   "basis": "DS",
+   "source": "BAI__BMes_cf#2.11",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "アクション",
+   "ko": "액션",
+   "type": "term",
+   "basis": "DS",
+   "source": "FEvent#152.21",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "クッパ様",
+   "ko": "쿠파님",
+   "type": "term",
+   "basis": "DS",
+   "source": "BAI__BMes_cf:0#0",
+   "note": "부하들이 부를 때 [gl_kj]"
+  },
+  {
+   "jp": "ゲームオーバー",
+   "ko": "게임 오버",
+   "type": "term",
+   "basis": "coined",
+   "source": "",
+   "note": "DS 한국판 텍스트에 용례 없음 [gl_attacks]"
+  },
+  {
+   "jp": "スライド",
+   "ko": "슬라이드",
+   "type": "term",
+   "basis": "DS",
+   "source": "BData__mfset_AItmE#5",
+   "note": "터치펜 조작 [gl_attacks]"
+  },
+  {
+   "jp": "タイミング",
+   "ko": "타이밍",
+   "type": "term",
+   "basis": "DS",
+   "source": "BAI__BMes_cf#4.12",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "ダメージ",
+   "ko": "타격",
+   "type": "term",
+   "basis": "DS",
+   "source": "DS '타격' 32회 / '대미지' 5회",
+   "note": "'타격을 입히다/입다'. 숫자·연속 공격 문맥은 '대미지' 허용(DS: 연속 대미지)"
+  },
+  {
+   "jp": "バトル",
+   "ko": "배틀",
+   "type": "term",
+   "basis": "DS",
+   "source": "BAI__BMes_cf#2.13",
+   "note": "명사는 '배틀'. 동사 'バトルする/した'는 DS처럼 '싸우다'로 써도 된다"
+  },
+  {
+   "jp": "ワガハイ",
+   "ko": "이 몸",
+   "type": "term",
+   "basis": "DS",
+   "source": "FEvent:025#7",
+   "note": "쿠파의 1인칭 [gl_kj]"
+  },
+  {
+   "jp": "巨大化",
+   "ko": "거대화",
+   "type": "term",
+   "basis": "coined",
+   "source": "",
+   "note": "DS는 '커지다'(BAI__BMes_ji#2.9 커지셨을 때의 배틀)로 풀어 씀 [gl_attacks]"
+  },
+  {
+   "jp": "必殺技",
+   "ko": "필살기",
+   "type": "term",
+   "basis": "coined",
+   "source": "",
+   "note": "DS는 ひっさつ를 '필살'로 옮김(WearE#70) [gl_attacks]"
+  },
+  {
+   "jp": "攻撃",
+   "ko": "공격",
+   "type": "term",
+   "basis": "DS",
+   "source": "BAI__BMes_cf#2.1",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "連打",
+   "ko": "연타",
+   "type": "term",
+   "basis": "DS",
+   "source": "BData__mfset_AItmE#17",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "防御",
+   "ko": "방어",
+   "type": "term",
+   "basis": "DS",
+   "source": "BAI__BMes_cf#3.8",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "イージーモード",
+   "ko": "이지 모드",
+   "type": "ui",
+   "basis": "coined",
+   "source": "",
+   "note": "3DX 신규 설정 [gl_attacks]"
+  },
+  {
+   "jp": "タッチ",
+   "ko": "터치",
+   "type": "ui",
+   "basis": "DS",
+   "source": "BData__mfset_AItmE#6",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "タッチペン",
+   "ko": "터치펜",
+   "type": "ui",
+   "basis": "DS",
+   "source": "BAI__BMes_cf#0.4",
+   "note": "붙여 씀 [gl_attacks]"
+  },
+  {
+   "jp": "バトルの基本",
+   "ko": "배틀의 기본",
+   "type": "ui",
+   "basis": "coined",
+   "source": "",
+   "note": "거대화 배틀 가이드 항목 [gl_attacks]"
+  },
+  {
+   "jp": "バトルガイド",
+   "ko": "배틀 가이드",
+   "type": "ui",
+   "basis": "coined",
+   "source": "",
+   "note": "3DX 신규 [gl_attacks]"
+  },
+  {
+   "jp": "パンチボタン",
+   "ko": "펀치 버튼",
+   "type": "ui",
+   "basis": "DS",
+   "source": "BAI__BMes_ji#2.29",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "ファイアボタン",
+   "ko": "파이어 버튼",
+   "type": "ui",
+   "basis": "DS",
+   "source": "BAI__BMes_ji#2.30",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "練習",
+   "ko": "연습",
+   "type": "ui",
+   "basis": "DS",
+   "source": "DS16A#13",
+   "note": "[gl_menu_places]"
+  }
+ ],
+ "messages": [
+  {
+   "id": "HugeBattle#0",
+   "label": "3_battle_10",
+   "style": 9,
+   "src": "さすが アニキ！{1:wait}[Next]あいつの くやしがる顔が\n目に浮かぶようだぜ！{2:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:09 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#1",
+   "label": "3_battle_11",
+   "style": 9,
+   "src": "こいつが 戦っている間に\nさっさと修理するんだ！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:09 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#3",
+   "label": "3_battle_12",
+   "style": 9,
+   "src": "あちち！{1:pause}",
+   "tags": {
+    "1": "[0002:0000:14 00]"
+   },
+   "header": "[0009:0000:09 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#4",
+   "label": "4_event_end_01",
+   "style": 6,
+   "src": "ガッハッハッ！{1:pause}\nワガハイにかなうわけが\nなかろう！",
+   "tags": {
+    "1": "[0002:0000:05 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#5",
+   "label": "tutorial_p010",
+   "style": 6,
+   "src": "Excellentが 出せれば\n相手に 大ダメージを\nあたえられます！{1:wait}[Next]でっかくなったときの\n{2:color}パンチ{3:color}の説明を\nしておきましょうか？{4:pause}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[Color #2C64FF]",
+    "3": "[Color #373737]",
+    "4": "[0002:0000:1E 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#6",
+   "label": "battleguide_punch_d",
+   "style": 5,
+   "src": "敵の攻撃をクッパの\nアクションで迎え撃ちます。\n成功するとクッパはダメージを\n受けず さらに敵にダメージを\n与えることができます。",
+   "tags": {},
+   "header": "[0009:0000:05 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#7",
+   "label": "tutorial_p011",
+   "style": 6,
+   "src": "わかりました！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#8",
+   "label": "1_battle_01",
+   "style": 5,
+   "src": "クッパ様 ファイト！{1:pause}",
+   "tags": {
+    "1": "[0002:0000:32 00]"
+   },
+   "header": "[0009:0000:05 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#9",
+   "label": "tutorial_fb010",
+   "style": 6,
+   "src": "もう一度 やりますか？",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "HugeBattle#20",
+    "HugeBattle#51",
+    "HugeBattle#128"
+   ]
+  },
+  {
+   "id": "HugeBattle#10",
+   "label": "tutorial_p012",
+   "style": 6,
+   "src": "こいつで\n練習してみましょう！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#11",
+   "label": "1_battle_02",
+   "style": 5,
+   "src": "クッパ様 負けないで！{1:pause}",
+   "tags": {
+    "1": "[0002:0000:3C 00]"
+   },
+   "header": "[0009:0000:05 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#12",
+   "label": "tutorial_p013",
+   "style": 6,
+   "src": "{1:mode}{2:color}パンチボタン{3:color}を\n{4:color}タッチ{5:color}してください。{6:wait}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[Color #2C64FF]",
+    "3": "[Color #373737]",
+    "4": "[Color #2C64FF]",
+    "5": "[Color #373737]",
+    "6": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#13",
+   "label": "1_battle_03",
+   "style": 9,
+   "src": "{1:speed}まかせろ！{2:pause}",
+   "tags": {
+    "1": "[0002:0002:3C 00]",
+    "2": "[0002:0000:3C 00]"
+   },
+   "header": "[0009:0000:09 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#14",
+   "label": "tutorial_p014",
+   "style": 6,
+   "src": "{1:pause}クッパ様が こぶしを\nふりかぶれば {2:color}やじるし{3:color}が\n画面に表示されます。{4:wait}",
+   "tags": {
+    "1": "[0002:0000:05 00]",
+    "2": "[Color #2C64FF]",
+    "3": "[Color #373737]",
+    "4": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#15",
+   "label": "finalattack_pata01",
+   "style": 6,
+   "src": "クッパ様！{1:pause}\n相手が弱っています！{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#16",
+   "label": "tutorial_p015",
+   "style": 6,
+   "src": "{1:mode}そこで{2:color}タッチペン{3:color}を\nすばやく {4:color}左にスライド{5:color}\nしてください！",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[Color #2C64FF]",
+    "3": "[Color #373737]",
+    "4": "[Color #2C64FF]",
+    "5": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#17",
+   "label": "finalattack_pata02",
+   "style": 6,
+   "src": "必殺技で とどめを\nさしましょう！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#18",
+   "label": "tutorial_pd_success",
+   "style": 6,
+   "src": "さすが クッパ様！\n防御成功です！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#19",
+   "label": "finalattack_pata03",
+   "style": 6,
+   "src": "ファイナルアタックの\nアイコンをタッチです！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#21",
+   "label": "4_battle_10",
+   "style": 6,
+   "src": "アツク{1:pause} ナッタラ{2:pause}\nステマショウ！{3:pause}{4:color}{5:wait}{6:color} ",
+   "tags": {
+    "1": "[0002:0000:0F 00]",
+    "2": "[0002:0000:0F 00]",
+    "3": "[0002:0000:0F 00]",
+    "4": "[Color #373737]",
+    "5": "[0002:0001:]",
+    "6": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#22",
+   "label": "battleguide_kihon",
+   "style": 5,
+   "src": "巨大化したクッパと敵が\n交互に行動を決めて戦います。\n攻撃を与えて 相手の{1:color}HPを\nゼロにすれば勝利{2:color}です。\n攻撃を受けるとHPが減ります。\n{3:color}クッパのHPがゼロになったら\nゲームオーバー{4:color}です。",
+   "tags": {
+    "1": "[Color #2C64FF]",
+    "2": "[Color #373737]",
+    "3": "[Color #2C64FF]",
+    "4": "[Color #373737]"
+   },
+   "header": "[0009:0000:05 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#23",
+   "label": "tutorial_guide",
+   "style": 6,
+   "src": "わからないことがあれば\nここを 見てくださいね！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#24",
+   "label": "tutorial_f010",
+   "style": 6,
+   "src": "Excellentが 出せれば\n相手に 大ダメージを\nあたえられます！{1:wait}[Next]{2:color}ファイアブレス{3:color}の説明を\nしておきましょうか？{4:pause}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[Color #2C64FF]",
+    "3": "[Color #373737]",
+    "4": "[0002:0000:1E 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#25",
+   "label": "4_battle_12",
+   "style": 6,
+   "src": "イマノ{1:pause} コウゲキ{2:pause}\nナカナカ{3:pause} キイタゾ！{4:pause} {5:color}{6:wait}[Next]{7:color}ブラックホール ヲ{8:pause}\nツカッテ{9:pause} タイアタリ{10:pause}\nスルトハ…{11:pause} {12:color}{13:wait}{14:color}",
+   "tags": {
+    "1": "[0002:0000:0F 00]",
+    "2": "[0002:0000:0F 00]",
+    "3": "[0002:0000:0F 00]",
+    "4": "[0002:0000:0F 00]",
+    "5": "[Color #373737]",
+    "6": "[0002:0001:]",
+    "7": "[Color #373737]",
+    "8": "[0002:0000:0F 00]",
+    "9": "[0002:0000:0F 00]",
+    "10": "[0002:0000:0F 00]",
+    "11": "[0002:0000:0F 00]",
+    "12": "[Color #373737]",
+    "13": "[0002:0001:]",
+    "14": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#26",
+   "label": "4_battle_13",
+   "style": 6,
+   "src": "ナカナカ ヤルナ{1:pause}\nシカシ{2:pause} コノ コウゲキハ{3:pause}\nサケラレナイ…{4:pause}",
+   "tags": {
+    "1": "[0002:0000:0F 00]",
+    "2": "[0002:0000:0F 00]",
+    "3": "[0002:0000:0F 00]",
+    "4": "[0002:0000:0F 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#27",
+   "label": "tutorial_f012",
+   "style": 6,
+   "src": "こいつでファイアブレスの\n練習をしてみましょう！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#28",
+   "label": "4_battle_14",
+   "style": 6,
+   "src": "イクラ{1:pause} テイコウ シテモ{2:pause}\nムダダゾ！{3:pause} クラエ！{4:pause} ",
+   "tags": {
+    "1": "[0002:0000:0F 00]",
+    "2": "[0002:0000:0F 00]",
+    "3": "[0002:0000:0F 00]",
+    "4": "[0002:0000:0F 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#29",
+   "label": "4_battle_15",
+   "style": 6,
+   "src": "また アレを\n出すつもりだな！？",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#30",
+   "label": "battleguide_title_kihon",
+   "style": 6,
+   "src": "バトルの基本",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#31",
+   "label": "tutorial_f014",
+   "style": 6,
+   "src": "くちもとの ファイアが\nどんどん 大きくなるので…{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#32",
+   "label": "tutorial_pd010",
+   "style": 6,
+   "src": "{1:color}パンチ防御{2:color}の\n説明をしておきましょうか？",
+   "tags": {
+    "1": "[Color #2C64FF]",
+    "2": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#33",
+   "label": "4_battle_16",
+   "style": 6,
+   "src": "フン！{1:pause} あんなもの\nワガハイの ほのおで\nうち落として くれるわ！",
+   "tags": {
+    "1": "[0002:0000:1E 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#34",
+   "label": "tutorial_f015",
+   "style": 6,
+   "src": "よく 見ててください！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#35",
+   "label": "tutorial_pd011",
+   "style": 6,
+   "src": "敵がクッパ様の\n近くまで来たら…{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#36",
+   "label": "2_battle_01",
+   "style": 6,
+   "src": "湖か…{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#37",
+   "label": "4_battle_17",
+   "style": 6,
+   "src": "ガハハハ！{1:pause} 見たか！{2:pause}\nワガハイの チカラを！",
+   "tags": {
+    "1": "[0002:0000:1E 00]",
+    "2": "[0002:0000:14 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#38",
+   "label": "tutorial_f016",
+   "style": 6,
+   "src": "まだまだ\n大きくなりますよ！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#39",
+   "label": "tutorial_pd012",
+   "style": 6,
+   "src": "{1:color}タッチペン{2:color}を\nすばやく {3:color}左にスライド{4:color}\nしてください！{5:wait}",
+   "tags": {
+    "1": "[Color #2C64FF]",
+    "2": "[Color #373737]",
+    "3": "[Color #2C64FF]",
+    "4": "[Color #373737]",
+    "5": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#40",
+   "label": "2_battle_02",
+   "style": 9,
+   "src": "こっちもか！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:09 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#41",
+   "label": "4_battle_18",
+   "style": 6,
+   "src": "セイフティー システム{1:pause}\nプログラム{2:pause} サドウ！{3:pause} {4:color}{5:wait}{6:color}",
+   "tags": {
+    "1": "[0002:0000:0F 00]",
+    "2": "[0002:0000:0F 00]",
+    "3": "[0002:0000:0F 00]",
+    "4": "[Color #373737]",
+    "5": "[0002:0001:]",
+    "6": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#42",
+   "label": "tutorial_f017",
+   "style": 6,
+   "src": "あと少し！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#43",
+   "label": "tutorial_pd013",
+   "style": 6,
+   "src": "敵が{1:color}右画面{2:color}に入ってきたら\nすかさず{3:color}スライド{4:color}です！{5:wait}",
+   "tags": {
+    "1": "[Color #2C64FF]",
+    "2": "[Color #373737]",
+    "3": "[Color #2C64FF]",
+    "4": "[Color #373737]",
+    "5": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#44",
+   "label": "4_battle_19",
+   "style": 6,
+   "src": "コレデ{1:pause} ショウメン\nカラノ{2:pause} コウゲキハ{3:pause}\nカンゼンニ{4:pause} ガードダ！{5:pause} {6:color}{7:wait}{8:color}",
+   "tags": {
+    "1": "[0002:0000:0F 00]",
+    "2": "[0002:0000:0F 00]",
+    "3": "[0002:0000:0F 00]",
+    "4": "[0002:0000:0F 00]",
+    "5": "[0002:0000:0F 00]",
+    "6": "[Color #373737]",
+    "7": "[0002:0001:]",
+    "8": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#45",
+   "label": "battleguide_finalattack",
+   "style": 5,
+   "src": "敵のHPが 残りわずかに\nなったときに繰り出す\nクッパの必殺技です。\n連打タッチと\n回転スライドの操作で\nかっこよく 豪快に\nバトルを終わらせましょう。",
+   "tags": {},
+   "header": "[0009:0000:05 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#46",
+   "label": "tutorial_f018",
+   "style": 6,
+   "src": "ここです！{1:pause} この時に画面を\nタッチすれば一番強い\nファイアブレスが出ます！{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#47",
+   "label": "tutorial_pd014",
+   "style": 6,
+   "src": "よーく 敵を\n見ててくださいね！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#48",
+   "label": "2_battle_04",
+   "style": 6,
+   "src": "抜け出す気だな！\nそうはさせんぞ！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#49",
+   "label": "tutorial_f019",
+   "style": 6,
+   "src": "タッチしてみてください！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#50",
+   "label": "2_battle_05",
+   "style": 6,
+   "src": "よし！{1:pause} 湖に落ちたぞ！{2:wait}",
+   "tags": {
+    "1": "[0002:0000:05 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#52",
+   "label": "2_battle_06",
+   "style": 6,
+   "src": "{1:color}あたま{2:color}を狙う\nチャンス だな！{3:wait}",
+   "tags": {
+    "1": "[Color #2C64FF]",
+    "2": "[Color #373737]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#53",
+   "label": "2_battle_07",
+   "style": 6,
+   "src": "攻撃がきかないな…{1:wait}[Next]コイツを 湖に落として\n{2:color}あたま{3:color}を 狙えないか…{4:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[Color #2C64FF]",
+    "3": "[Color #373737]",
+    "4": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#54",
+   "label": "3_event_start_10",
+   "style": 9,
+   "src": "全力前進～！",
+   "tags": {},
+   "header": "[0009:0000:09 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#55",
+   "label": "2_battle_08",
+   "style": 5,
+   "src": "みんなで 修理だ！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:05 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#56",
+   "label": "3_event_start_11",
+   "style": 9,
+   "src": "…って やっぱり\nデカ～い！！！\n",
+   "tags": {},
+   "header": "[0009:0000:09 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#58",
+   "label": "tutorial_p_GREAT_OK",
+   "style": 6,
+   "src": "まっすぐ！ はやく！\n長めに{1:color}スライド{2:color}すれば\nもっと よくなりますよ！{3:wait}",
+   "tags": {
+    "1": "[Color #2C64FF]",
+    "2": "[Color #373737]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#59",
+   "label": "firebless_button",
+   "style": 5,
+   "src": "{1:mode}【ファイア】\nチカラがたまるほど強力！",
+   "tags": {
+    "1": "[0005:0000:]"
+   },
+   "header": "[0009:0000:05 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#60",
+   "label": "1_event_start_02_b",
+   "style": 9,
+   "src": "浮かんでいるであります！！",
+   "tags": {},
+   "header": "[0009:0000:09 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#61",
+   "label": "battleguide_firebless",
+   "style": 5,
+   "src": "タイミングよく画面をタッチして\nファイアブレスを出します。\nタッチするタイミングを\n逃すと失敗してしまいます。\nクッパが{1:color}ファイアを\nためきるときを見計らって\n画面をタッチ{2:color}しましょう。",
+   "tags": {
+    "1": "[Color #2C64FF]",
+    "2": "[Color #373737]"
+   },
+   "header": "[0009:0000:05 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#62",
+   "label": "buttleguide_add",
+   "style": 11,
+   "src": "{1:mode}{2:color}バトルガイド{3:color}に項目が\n追加されました。{4:pause}{5:wait}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[Color #4ED4FF]",
+    "3": "[Color #E6E6E6]",
+    "4": "[0002:0000:0A 00]",
+    "5": "[0002:0001:]"
+   },
+   "header": "[0009:0000:0B 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#63",
+   "label": "3_battle_01",
+   "style": 9,
+   "src": "やばいぜ！\nどうする！？{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:09 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#64",
+   "label": "battleguide_fireball",
+   "style": 5,
+   "src": "クッパの目の前の範囲を\nタッチするとファイアボールが\nその方向へ飛んでいきます。\n{1:color}ファイアボールは続けて飛ばすと\n小さくなっていく{2:color}ので\nよく狙って飛ばしましょう。[Next]少し待てば 元の大きさの\nファイアボールを\n飛ばせるようになります。",
+   "tags": {
+    "1": "[Color #2C64FF]",
+    "2": "[Color #373737]"
+   },
+   "header": "[0009:0000:05 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#65",
+   "label": "3_battle_02",
+   "style": 9,
+   "src": "だいじょうぶだ！\nあれを見ろ！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:09 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#66",
+   "label": "3_battle_03",
+   "style": 9,
+   "src": "ほら！ あそこに\n{1:color}ボロボロの橋{2:color}{3:color}が\n見えるだろう！{4:wait}[Next]あいつが のれば\nあの橋は 重さで\nカンタンに こわれるぞ！{5:wait}[Next]そうすれば あいつは\nふか～い 谷底に\nまっさかさまだ！{6:wait}[Next]いくら体が でかくても\nイチコロだぜ！{7:wait}{8:color}",
+   "tags": {
+    "1": "[Color #2C64FF]",
+    "2": "[Color #373737]",
+    "3": "[Color #373737]",
+    "4": "[0002:0001:]",
+    "5": "[0002:0001:]",
+    "6": "[0002:0001:]",
+    "7": "[0002:0001:]",
+    "8": "[Color #373737]"
+   },
+   "header": "[0009:0000:09 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#67",
+   "label": "3_battle_04",
+   "style": 9,
+   "src": "さすが アニキ！\nあたま いい～！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:09 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#68",
+   "label": "3_battle_05",
+   "style": 9,
+   "src": "急いで あの\n{1:color}橋の手前の駅{2:color}{3:color} まで\n行くんだ！{4:wait}[Next]あの駅を 通過すれば\nオレ達の 勝利は\n確実だぜ！{5:wait}{6:color}",
+   "tags": {
+    "1": "[Color #2C64FF]",
+    "2": "[Color #373737]",
+    "3": "[Color #373737]",
+    "4": "[0002:0001:]",
+    "5": "[0002:0001:]",
+    "6": "[Color #373737]"
+   },
+   "header": "[0009:0000:09 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#69",
+   "label": "3_battle_06",
+   "style": 9,
+   "src": "{1:color}橋の手前の駅{2:color}までの\n距離…{3:pause} およそ\n{4:color}１００{5:color}チョロメーター！{6:wait}",
+   "tags": {
+    "1": "[Color #2C64FF]",
+    "2": "[Color #373737]",
+    "3": "[0002:0000:14 00]",
+    "4": "[Color #2C64FF]",
+    "5": "[Color #373737]",
+    "6": "[0002:0001:]"
+   },
+   "header": "[0009:0000:09 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#70",
+   "label": "tutorial_p001",
+   "style": 9,
+   "src": "クッパ様！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:09 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#71",
+   "label": "3_battle_07",
+   "style": 9,
+   "src": "くるぞ！\n急げ～！！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:09 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#72",
+   "label": "tutorial_p002",
+   "style": 6,
+   "src": "急に でっかく\nなっちゃいましたけど\nだいじょうぶですか？{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#73",
+   "label": "3_battle_08",
+   "style": 9,
+   "src": "止まっちまって…\nだいじょうぶなのか！？{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:09 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#74",
+   "label": "gameover_easy_retry_check",
+   "style": 6,
+   "src": "{1:mode}{2:color}イージーモード{3:color}を選ぶと\nクッパが強くなり\n敵を倒しやすくなります。\n進行に影響はありません。",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[Color #2C64FF]",
+    "3": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#75",
+   "label": "tutorial_fb001",
+   "style": 6,
+   "src": "こいつらでファイアボールの\n練習をしてみましょう！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#76",
+   "label": "tutorial_p003",
+   "style": 6,
+   "src": "クッパ…{1:pause}ノヨウニ ミエルガ{2:pause}\nオオキスギル ヨウナ…{3:wait}[Next]テイサツブタイ！{4:wait}[Next]イッテ アレガ ナンナノカ\nシラベテ クルノダ！{5:wait}",
+   "tags": {
+    "1": "[0002:0000:28 00]",
+    "2": "[0002:0000:1E 00]",
+    "3": "[0002:0001:]",
+    "4": "[0002:0001:]",
+    "5": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#77",
+   "label": "3_battle_09",
+   "style": 9,
+   "src": "心配すんな！{1:wait}[Next]あいつの{2:color}パンチ{3:color}{4:color}は\nめちゃくちゃ大ぶりだ！{5:wait}[Next]{6:color}{7:color}ファイア{8:color}{9:color}さえ\nはかれなければ…{10:wait}[Next]オレ達は ダメージを\n全く うけないってことよ！{11:wait}{12:color}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[Color #2C64FF]",
+    "3": "[Color #373737]",
+    "4": "[Color #373737]",
+    "5": "[0002:0001:]",
+    "6": "[Color #373737]",
+    "7": "[Color #2C64FF]",
+    "8": "[Color #373737]",
+    "9": "[Color #373737]",
+    "10": "[0002:0001:]",
+    "11": "[0002:0001:]",
+    "12": "[Color #373737]"
+   },
+   "header": "[0009:0000:09 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#78",
+   "label": "tutorial_fb002",
+   "style": 6,
+   "src": "この範囲内のどこを\nタッチするかでファイアを\n飛ばす方向が決まります。{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#79",
+   "label": "tutorial_p004",
+   "style": 6,
+   "src": "あっ！{1:pause} ちょうどいい！{2:wait}[Next]こいつで {3:color}パンチ{4:color}の\n練習をしてみましょう！{5:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]",
+    "3": "[Color #2C64FF]",
+    "4": "[Color #373737]",
+    "5": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#81",
+   "label": "tutorial_fb003",
+   "style": 6,
+   "src": "{1:color}飛ばしたい方向{2:color}に{3:color}タッチ{4:color}して\n{5:color}ファイアボール{6:color}を\n飛ばしてみましょう！{7:wait}",
+   "tags": {
+    "1": "[Color #2C64FF]",
+    "2": "[Color #373737]",
+    "3": "[Color #2C64FF]",
+    "4": "[Color #373737]",
+    "5": "[Color #2C64FF]",
+    "6": "[Color #373737]",
+    "7": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#82",
+   "label": "tutorial_p005",
+   "style": 6,
+   "src": "{1:mode}{2:color}パンチボタン{3:color}を\n{4:color}タッチ{5:color}してください。",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[Color #2C64FF]",
+    "3": "[Color #373737]",
+    "4": "[Color #2C64FF]",
+    "5": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#83",
+   "label": "tutorial_fb004",
+   "style": 6,
+   "src": "そうだ。ファイアボールは\n飛ばし続けていると\n小さくなってしまって…{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#84",
+   "label": "tutorial_p006",
+   "style": 6,
+   "src": "{1:mode}{2:color}タッチペン{3:color}を\nすばやく {4:color}左にスライド{5:color}\nしてください！",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[Color #2C64FF]",
+    "3": "[Color #373737]",
+    "4": "[Color #2C64FF]",
+    "5": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#85",
+   "label": "tutorial_fb005",
+   "style": 6,
+   "src": "しまいには 出せなく\nなってしまいます。{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#86",
+   "label": "tutorial_fb_success",
+   "style": 6,
+   "src": "さすがは クッパ様！{1:pause}\nすべて やっつけましたね！{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#87",
+   "label": "tutorial_fb006",
+   "style": 6,
+   "src": "ムダに出さず 狙いをつけて\nしっかり当てましょう！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#88",
+   "label": "battleguide_title_finalattack",
+   "style": 6,
+   "src": "ファイナルアタック",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#89",
+   "label": "battleguide_title_firebless",
+   "style": 6,
+   "src": "ファイアブレス",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#90",
+   "label": "tutorial_fb007",
+   "style": 6,
+   "src": "ファイアボールの\n説明をしておきましょうか？",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#91",
+   "label": "battleguide_title_kinoko",
+   "style": 6,
+   "src": "キノコ",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "Item#73",
+    "Item#407"
+   ]
+  },
+  {
+   "id": "HugeBattle#92",
+   "label": "tutorial_fb008",
+   "style": 6,
+   "src": "またまた 小さいのが\nたくさん きます！{1:wait}[Next]{2:color}ファイアボール{3:color}で\n倒しちゃいましょう！{4:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[Color #2C64FF]",
+    "3": "[Color #373737]",
+    "4": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#93",
+   "label": "kinoko_button",
+   "style": 5,
+   "src": "{1:mode}【キノコ】\n食べるとクッパのHPが回復！",
+   "tags": {
+    "1": "[0005:0000:]"
+   },
+   "header": "[0009:0000:05 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#94",
+   "label": "tutorial_f_GOOD_OK",
+   "style": 6,
+   "src": "光ったら すぐに\n{1:color}タッチ{2:color}してみましょう！{3:wait}",
+   "tags": {
+    "1": "[Color #2C64FF]",
+    "2": "[Color #373737]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#95",
+   "label": "tutorial_fb009",
+   "style": 6,
+   "src": "{1:color}飛ばしたい方向{2:color}に{3:color}タッチ{4:color}して\n{5:color}ファイアボール{6:color}を\n飛ばしてみてください！{7:wait}",
+   "tags": {
+    "1": "[Color #2C64FF]",
+    "2": "[Color #373737]",
+    "3": "[Color #2C64FF]",
+    "4": "[Color #373737]",
+    "5": "[Color #2C64FF]",
+    "6": "[Color #373737]",
+    "7": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#96",
+   "label": "4_battle_01",
+   "style": 6,
+   "src": "なにを するつもりだ？",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#97",
+   "label": "4_battle_02",
+   "style": 6,
+   "src": "なんだ？ 花火か？\nおめでたいヤツだな…",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#98",
+   "label": "tutorial_f001",
+   "style": 6,
+   "src": "今度は 小さいのが\nたくさん きました！{1:wait}[Next]{2:color}ファイアブレス{3:color}で まとめて\n倒しちゃいましょう！{4:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[Color #2C64FF]",
+    "3": "[Color #373737]",
+    "4": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#99",
+   "label": "1_event_end_01",
+   "style": 9,
+   "src": "ソンナニ デッカク\nナレルナンテ キタナイゾ！",
+   "tags": {},
+   "header": "[0009:0000:09 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#100",
+   "label": "4_battle_03",
+   "style": 6,
+   "src": "ん？{1:pause} なにも起きんぞ。\n失敗したのか？",
+   "tags": {
+    "1": "[0002:0000:0A 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#101",
+   "label": "tutorial_f002",
+   "style": 6,
+   "src": "{1:mode}{2:color}ファイアボタン{3:color}を\n{4:color}タッチ{5:color}してください！",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[Color #2C64FF]",
+    "3": "[Color #373737]",
+    "4": "[Color #2C64FF]",
+    "5": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#102",
+   "label": "1_event_end_02",
+   "style": 6,
+   "src": "くやしかったら オマエも\nでっかく なってみろ！",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#103",
+   "label": "4_battle_04",
+   "style": 6,
+   "src": "かわった 花火だな…{1:pause}\nまぁいい{2:pause} 花火は\nほっといて…",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0000:05 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#104",
+   "label": "result_item_question",
+   "style": 3,
+   "src": "??????",
+   "tags": {},
+   "header": "[0009:0000:03 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#105",
+   "label": "tutorial_f003",
+   "style": 6,
+   "src": "くちもとのファイアが\nたまりきったら\n画面を{1:color}タッチ{2:color}です！{3:wait}",
+   "tags": {
+    "1": "[Color #2C64FF]",
+    "2": "[Color #373737]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#106",
+   "label": "1_event_end_03",
+   "style": 9,
+   "src": "{1:align}コノ ヒキョウモノ！",
+   "tags": {
+    "1": "[0001:0001:]"
+   },
+   "header": "[0009:0000:09 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#107",
+   "label": "4_battle_05",
+   "style": 6,
+   "src": "コイツを\nなんとかしないとな！",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#108",
+   "label": "easymode_gameover_battleskip_check",
+   "style": 6,
+   "src": "バトルをスキップして\n次に進みますか？",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#109",
+   "label": "4_battle_06",
+   "style": 6,
+   "src": "ぬおー！{1:pause} ワガハイを\n吸い込む気か！{2:color}{3:wait}{4:color}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[Color #373737]",
+    "3": "[0002:0001:]",
+    "4": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#110",
+   "label": "tutorial_pd001",
+   "style": 9,
+   "src": "ナニヲ モタモタ\nシテイル！？{1:wait}[Next]モット セッキンシテ\nヨ～ク カンサツ\nスルノダ！{2:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:09 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#111",
+   "label": "4_battle_07",
+   "style": 6,
+   "src": "そうは いくか！{1:color}{2:wait}{3:color}",
+   "tags": {
+    "1": "[Color #373737]",
+    "2": "[0002:0001:]",
+    "3": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#112",
+   "label": "punch_button",
+   "style": 5,
+   "src": "{1:mode}【パンチ】\nはやくスライドするほど強力！",
+   "tags": {
+    "1": "[0005:0000:]"
+   },
+   "header": "[0009:0000:05 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#113",
+   "label": "tutorial_pd002",
+   "style": 6,
+   "src": "敵が 攻撃してきます！\n{1:color}パンチ防御{2:color}の\n練習を してみましょう！{3:wait}",
+   "tags": {
+    "1": "[Color #2C64FF]",
+    "2": "[Color #373737]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#114",
+   "label": "4_battle_08",
+   "style": 6,
+   "src": "アツイ！{1:pause} アツイ！{2:pause} \nカジダ！{3:pause} カジダ！{4:pause} {5:color}{6:wait}{7:color}",
+   "tags": {
+    "1": "[0002:0000:0F 00]",
+    "2": "[0002:0000:0F 00]",
+    "3": "[0002:0000:0F 00]",
+    "4": "[0002:0000:0F 00]",
+    "5": "[Color #373737]",
+    "6": "[0002:0001:]",
+    "7": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  }
+ ]
+}

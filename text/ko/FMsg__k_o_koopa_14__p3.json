@@ -1,0 +1,20 @@
+{
+ "batch": "FMsg__k_o_koopa_14__p3",
+ "translations": {
+  "FMsg/k_o_koopa_14#225": "{1:color}도련님과 쿠파님의\n대결은 몇 번이고 계속되어…{2:wait}{3:color}",
+  "FMsg/k_o_koopa_14#226": "아빠!{1:pause} 저것 좀 봐!{2:wait}",
+  "FMsg/k_o_koopa_14#228": "저건…{1:wait}",
+  "FMsg/k_o_koopa_14#229": "쿠파주니어님!{1:pause}\n늘었다니까요~!{2:wait}",
+  "FMsg/k_o_koopa_14#230": "굼,{1:pause} 굼바냐!?{2:wait}",
+  "FMsg/k_o_koopa_14#231": "흥…{1:pause}\n돌격 타입이 부족한가…{2:wait}",
+  "FMsg/k_o_koopa_14#232": "저기.{1:pause} 로이.{2:wait}",
+  "FMsg/k_o_koopa_14#233": "예이.{1:wait}",
+  "FMsg/k_o_koopa_14#234": "…{1:pause}심심하네.{2:wait}",
+  "FMsg/k_o_koopa_14#235": "…{1:pause}그렇습죠.{2:wait}"
+ },
+ "new_terms": [],
+ "notes": {
+  "FMsg/k_o_koopa_14#225": "화자는 도련님·쿠파님이라 부르는 내레이터(마귀로 추정). 스타일 1 내레이션이라 해라체 서술로 옮김.",
+  "FMsg/k_o_koopa_14#235": "로이가 쿠파주니어에게 쓰는 비꼬는 가짜 존대(style_guide 4장 제안)를 따라 '~습죠'로 옮김."
+ }
+}

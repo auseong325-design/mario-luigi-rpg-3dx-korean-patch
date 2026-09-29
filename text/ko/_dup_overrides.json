@@ -1,0 +1,17 @@
+{
+ "about": "Scene-specific wording for messages that share one translation (batch 'dups'). Applied by scripts/merge_ko.py --merge after validation against each id's own Japanese text.",
+ "translations": {
+  "FMsg/k_o_zutsuda_30#4": "{1:align}{2:align}어서 와…{3:wait}",
+  "FMsg/k_o_zutsuda_30#15": "{1:align}그럼…{2:pause} 부탁해…{3:wait}",
+  "FMsg/o_koopa_end_01#16": "꺄~{1:pause} 무서워, 무서워…{2:wait}",
+  "FMsg/o_ekubon_19#10": "허억!!{1:pause} 크허어~억!?{2:wait}",
+  "FMsg/o_peach_op_04#38": "{1:align}으흑흑…{2:pause}"
+ },
+ "notes": {
+  "FMsg/k_o_zutsuda_30#4": "쿠파Jr. 편 블로즈 마사지 미니게임(주니어 일행에게): style_guide 5.1 블로즈 규칙대로 반말. 본편 복사본 o_zutsuda_30#11은 DS289#1 '어서 와요…'(쿠파에게) 그대로.",
+  "FMsg/k_o_zutsuda_30#15": "#4와 같음. 본편 o_zutsuda_30#22는 DS289#41 '그럼… 부탁해요…' 그대로.",
+  "FMsg/o_koopa_end_01#16": "엔딩 장면은 DS23E#17 '꺄~ 무서워, 무서워…'. 원문을 공유하는 o_ekubon_16#7은 DS07F#7 '히익~ 무섭다, 무서워…'.",
+  "FMsg/o_ekubon_19#10": "이 장면은 DS0A8#17 '허억!! 크허어~억!?'. 원문을 공유하는 o_ekubon_14#0은 DS032#8 '으으!! 아아아~!'.",
+  "FMsg/o_peach_op_04#38": "오프닝은 DS218#4 '으흑흑…'. 원문을 공유하는 엔딩 o_koopa_end_01#3은 DS '어흐흑…'."
+ }
+}

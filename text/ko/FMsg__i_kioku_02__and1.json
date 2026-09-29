@@ -1,0 +1,34 @@
+{
+  "batch": "FMsg__i_kioku_02__and1",
+  "translations": {
+    "FMsg/i_kioku_02#0": "{1:align}나는 아마 헬로글로빈 같은{2:pause}\n{3:color}저장블록{4:color}{5:color}…{6:wait}[Next]게다가!\n아마 조금 뒤 사라지는{7:pause}\n{8:color}{9:color}저장블록{10:color}{11:color}…{12:wait}[Next]아마 지금 일단\n{13:color}{14:color}저장{15:color}{16:color}하고 싶지?{17:pause}\n{18:align}{19:choice}아마 아니요{20:tab}{21:choice}아마 예{22:color}{23:pause}",
+    "FMsg/i_kioku_03#0": "{1:mode}하라!{2:pause}",
+    "FMsg/i_kioku_03#1": "여기가 쿠파의 기억 창고인가 봐…{1:wait}",
+    "FMsg/i_kioku_03#2": "의외로 잘 정리되어 있는데…?{1:wait}",
+    "FMsg/i_kioku_03#3": "{1:align}{2:align}저… 저기…{3:wait}[Next]{4:align}우리는 쿠파 성\n금고의 비밀번호를\n찾으러 왔어…{5:wait}",
+    "FMsg/i_kioku_03#4": "{1:mode}바이러스 침입!\n바이러스 침입!\n바이러스 침입!{2:wait}",
+    "FMsg/i_kioku_03#5": "가장 주의해야 할 바이러스가\n데이터베이스 내에 침입!{1:wait}",
+    "FMsg/i_kioku_03#6": "데이터 백업 완료!{1:wait}",
+    "FMsg/i_kioku_03#7": "퇴치 프로그램 기동!{1:wait}",
+    "FMsg/i_kioku_03#8": "{1:mode}퇴치하라!{2:pause}",
+    "FMsg/i_kioku_03#9": "{1:mode}퇴치{2:pause}",
+    "FMsg/i_kioku_03#10": "{1:align}{2:align}예. 그렇습니다.{3:wait}[Next]{4:align}기억이 복구되었습니다.\n그것은 정답입니다.{5:wait}",
+    "FMsg/i_kioku_03#11": "비밀번호의 기억을\n찾아냈어!{1:wait}",
+    "FMsg/i_kioku_03#13": "{1:align}{2:align}예. 그렇습니다.{3:wait}[Next]{4:align}저는 이곳에서 기억을\n관리하고 있습니다.{5:wait}[Next]당신들을 퇴치하는 데는\n실패했습니다.{6:wait}",
+    "FMsg/i_kioku_03#14": "{1:align}{2:align}하지만 문제없습니다.{3:wait}[Next]{4:align}지금부터 일시적으로 당신들을\n관찰하는 프로그램으로\n전환하겠습니다.{5:wait}[Next]{6:align}{7:align}예. 그렇습니다.{8:wait}",
+    "FMsg/i_kioku_03#15": "왜 그런 모습을 하는 거야?{1:wait}",
+    "FMsg/i_kioku_03#16": "예. 그렇습니다.\n당신들과 교신하기 쉬운\n모습으로 저는 변화합니다.{1:wait}[Next]이 모습은 이 창고 안에서\n가장 소중히 저장되어 있는\n기억을 토대로 만든 것입니다.{2:wait}",
+    "FMsg/i_kioku_03#17": "우리는 쿠파 성\n금고의 비밀번호를\n찾으러 온 건데…{1:wait}",
+    "FMsg/i_kioku_03#18": "예. 금고… 말입니까?{1:wait}",
+    "FMsg/i_kioku_03#19": "예. 알겠습니다.\n금고의 비밀번호입니다.{1:wait}[Next]그것은 위기 회피에\n실패했습니다.{2:wait}[Next]{3:align}{4:align}예. 그렇습니다.{5:wait}",
+    "FMsg/i_kioku_03#20": "{1:align}{2:align}실패? 그게 무슨 얘기야?{3:wait}[Next]{4:align}금고의 비밀번호가\n여기 없다는 말이야?{5:wait}",
+    "FMsg/i_kioku_03#21": "{1:align}{2:align}아니요. 올바르지 않습니다.{3:wait}[Next]{4:align}금고의 비밀번호는\n여기에 있습니다.{5:wait}",
+    "FMsg/i_kioku_03#22": "예. 그렇습니다.\n이것이 비밀번호입니다.{1:wait}"
+  },
+  "new_terms": [],
+  "notes": {
+    "FMsg/i_kioku_02#0": "DS14A#0 그대로. 선택지는 3DX 순서(いいえ的な/はい的な)대로 '아마 아니요/아마 예'. 강조색 '저장' 처리는 i_garakuta_02#3·#5와 같게 둠.",
+    "FMsg/i_kioku_03#13": "DS14B#11만 '네. 그렇습니다.'라서 이 캐릭터의 다른 대사(DS14B#12·14·17·20·21)와 같게 '예. 그렇습니다.'로 통일함.",
+    "FMsg/i_kioku_03#14": "DS14B#12는 '관찰하는 프로그램을 기동시키겠습니다'지만 3DX가 '切りかえます'라서 '관찰하는 프로그램으로 전환하겠습니다'로 고침."
+  }
+}

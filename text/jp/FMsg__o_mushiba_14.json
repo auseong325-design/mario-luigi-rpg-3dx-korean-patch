@@ -1,0 +1,40 @@
+{
+ "source": "Msg/JP_ja/FMsg.dat:o_mushiba_14",
+ "messages": [
+  {
+   "id": "FMsg/o_mushiba_14#0",
+   "label": "MES_Mushiba_14_Kocky_mes_03",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]ビーチについたでしょうか？[0002:0001:][Next]３つ[Ruby 目;め]のワクチンは\n[Color #2C64FF]ガケの[Ruby 上;うえ][Color #373737][Color #373737]にあるでしょう！[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/o_mushiba_14#1",
+   "label": "MES_Mushiba_14_Kocky_mes_04",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]おしらせ！ おしらせ～！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_mushiba_14#2",
+   "label": "MES_Mushiba_14_Kocky_mes_05",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Color #2C64FF]ガケ[Color #373737][Color #373737]は ここから[Color #373737][Color #2C64FF][Ruby 南;みなみ][Color #373737][Color #373737]だよ～！[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/o_mushiba_14#3",
+   "label": "MES_SAVE_BLOCK_recovery",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0001:0001:][0005:0000:]HPとBPの[Ruby 回復;かいふく]も\n[Ruby 忘;わす]れないようにしましょう。[0002:0000:0A 00][0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_mushiba_14#4",
+   "label": "MES_Mushiba_14_Mushiba_14_kanban",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0005:0000:][0001:0004:][0001:0001:]この[Ruby 先;さき] [Color #4ED4FF]エクボンの[Ruby 森;もり][Color #E6E6E6][Color #373737][0002:0001:][Next][0005:0000:]この[Ruby 森;もり]の[Ruby 木;き]は [Ruby 火;ひ]をつけると\nとてもよく [Ruby 燃;も]えますが…[0002:0001:][Next][0005:0000:][Ruby 燃;も]やしても ものすごい[Ruby 生命力;せいめいりょく]で\nいつか もとどおりになります。[0002:0001:][Color #E6E6E6]"
+  }
+ ]
+}

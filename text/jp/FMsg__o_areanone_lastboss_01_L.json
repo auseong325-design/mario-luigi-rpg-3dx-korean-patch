@@ -1,0 +1,68 @@
+{
+ "source": "Msg/JP_ja/FMsg.dat:o_areanone_lastboss_01_L",
+ "messages": [
+  {
+   "id": "FMsg/o_areanone_lastboss_01_L#0",
+   "label": "MES_EV_MAIN_TPeach_15_Last_battle_16_2",
+   "style": 7,
+   "attr": "00000000",
+   "jp": "[0009:0000:07 00][0001:0004:][0000:0001:02 00][Color #FF4343]マリオ[Color #373737][Color #373737]と [Color #373737][Color #00BB27]ルイージ[Color #373737][Color #373737]よ！！[0002:0001:][Color #373737][0000:0001:FF FF]"
+  },
+  {
+   "id": "FMsg/o_areanone_lastboss_01_L#1",
+   "label": "MES_EV_MAIN_TPeach_15_Last_battle_10",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 目;め]の[Ruby 前;まえ]にいるやつと\n[Ruby 戦;たたか]っているとき…[0002:0001:][Next][Ruby 私達;わたしたち]のことを\n[Ruby 忘;わす]れないで！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_areanone_lastboss_01_L#2",
+   "label": "MES_EV_MAIN_TPeach_15_Last_battle_12",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 体内;たいない]の [Ruby 私達;わたしたち]も[Ruby 協力;きょうりょく]するの！[0002:0001:][Next]いっしょに やつを[Ruby 倒;たお]すのよ！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_areanone_lastboss_01_L#3",
+   "label": "MES_EV_MAIN_TPeach_15_Last_battle_14",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]そう！！[0002:0000:0A 00] ここにいるのは\n[Ruby 私;わたし]だけじゃないわ！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_areanone_lastboss_01_L#4",
+   "label": "MES_EV_MAIN_TPeach_15_Last_battle_16",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ここに…[0002:0000:0A 00]\nあなたの [Ruby 体;からだ]の[Ruby 中;なか]にいるのは…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_areanone_lastboss_01_L#5",
+   "label": "MES_EV_MAIN_TPeach_15_Last_battle_18",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]とにかく…[0002:0000:0A 00] [Ruby 私;わたし]…[0002:0000:05 00] [Ruby 達;たち]も\nいるってことを…[0002:0000:28 00]"
+  },
+  {
+   "id": "FMsg/o_areanone_lastboss_01_L#6",
+   "label": "MES_EV_MAIN_TPeach_15_Last_battle_19",
+   "style": 10,
+   "attr": "00000000",
+   "jp": "[0009:0000:0A 00][0005:0000:]わすれないで！！！[0002:0000:1E 00]"
+  },
+  {
+   "id": "FMsg/o_areanone_lastboss_01_L#7",
+   "label": "MES_EV_MAIN_TPeach_15_Last_battle_06",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]ついに[Ruby 決戦;けっせん]のときが きたようね！[0002:0001:][Next]これまでにない [Ruby 暗黒;あんこく]のパワーを\nここにいても [Ruby 感;かん]じるわ！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_areanone_lastboss_01_L#8",
+   "label": "MES_EV_MAIN_TPeach_15_Last_battle_08",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ねえ！！[0002:0000:0A 00]\n[Ruby 私;わたし]から お[Ruby 願;ねが]いがあるの！！[0002:0001:]"
+  }
+ ]
+}

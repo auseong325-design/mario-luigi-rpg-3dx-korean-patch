@@ -1,0 +1,47 @@
+{
+ "source": "Msg/JP_ja/FMsg.dat:o_ekubon_09_2",
+ "messages": [
+  {
+   "id": "FMsg/o_ekubon_09_2#0",
+   "label": "MES_Ekubon_09_2_Ekubon_koopa_giant_18",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]す[0002:0000:05 00] すごいぞ！[0002:0000:0A 00]\nワガハイの[Ruby 体;からだ]に\nなにが[Ruby 起;お]きたんだ！？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_ekubon_09_2#1",
+   "label": "MES_Ekubon_09_2_Ekubon_koopa_giant_19",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 危険;きけん]な[Ruby 状態;じょうたい]になった あなたの\n[Ruby 体;からだ]の[Ruby 中;なか]で いろいろとシゲキを\nあたえてみたんだけど…[0002:0001:][Next][0001:0004:]それが[Ruby 原因;げんいん]で ケタちがいに\n[Ruby 体;からだ]が [Ruby 大;おお]きくなったみたい。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_ekubon_09_2#2",
+   "label": "MES_Ekubon_09_2_Ekubon_koopa_giant_20",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 本当;ほんとう]か！？[0002:0000:0A 00] それなら\nゲラコビッツの やつも\nイチコロで [Ruby 倒;たお]せるではないか！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_ekubon_09_2#3",
+   "label": "MES_Ekubon_09_2_Ekubon_koopa_giant_21",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 残念;ざんねん]だけど [Ruby 本当;ほんとう]に\n[Ruby 危;あぶ]ない[Ruby 状態;じょうたい] じゃないと\nムリみたい…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_ekubon_09_2#4",
+   "label": "MES_Ekubon_09_2_Ekubon_koopa_giant_22",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]そうか。[0002:0000:0A 00]まあ よいわ！[0002:0001:][Next][Ruby 大;おお]きくなくても ワガハイなら\nどんな[Ruby 相手;あいて]でも イチコロだ！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_ekubon_09_2#5",
+   "label": "MES_Ekubon_09_2_Ekubon_koopa_giant_23",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ワガハイの[Ruby 城;しろ]まで もうすぐだ！[0002:0000:0A 00]\nいっきに [Ruby 攻;せ]め[Ruby 込;こ]むぞ！！[0002:0001:]"
+  }
+ ]
+}

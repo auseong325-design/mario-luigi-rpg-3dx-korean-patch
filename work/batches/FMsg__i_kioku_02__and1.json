@@ -1,0 +1,443 @@
+{
+ "batch": "FMsg__i_kioku_02__and1",
+ "rooms": [
+  "i_kioku_02",
+  "i_kioku_03"
+ ],
+ "ds_rooms": [
+  "14A",
+  "14B"
+ ],
+ "ds_reference": [
+  "DS14A#0: 나는 아마 헬로글로빈 같은\n저장블록…[Next]게다가!\n아마 조금 뒤 사라지는\n저장블록…[Next]아마 지금 일단\n저장하고 싶지?\n아마 예  아마 아니요",
+  "DS14B#0: 여기가 쿠파의 기억 창고인가 봐…",
+  "DS14B#1: 의외로 잘 정리되어 있는데…?",
+  "DS14B#2: 저… 저기…[Next]우리는 쿠파 성\n금고의 비밀번호를\n찾으러 왔어…",
+  "DS14B#3: 바이러스 침입!\n바이러스 침입!\n바이러스 침입!",
+  "DS14B#4: 가장 주의해야 할 바이러스가\n데이터베이스 내에 침입!",
+  "DS14B#5: 데이터 백업 완료!",
+  "DS14B#6: 퇴치 프로그램 기동!",
+  "DS14B#7: 퇴치하라!",
+  "DS14B#8: 퇴치하라!",
+  "DS14B#9: 퇴치",
+  "DS14B#10: 하라!",
+  "DS14B#11: 네. 그렇습니다.[Next]저는 이곳에서 기억을\n관리하고 있습니다.[Next]당신들을 퇴치하는 데는\n실패했습니다.",
+  "DS14B#12: 하지만 문제없습니다.[Next]지금부터 일시적으로 당신들을\n관찰하는 프로그램을\n기동시키겠습니다.[Next]예. 그렇습니다.",
+  "DS14B#13: 왜 그런 모습을 하는 거야?",
+  "DS14B#14: 예. 그렇습니다.\n당신들과 교신하기 쉬운\n모습으로 저는 변화합니다.[Next]이 모습은 이 창고 안에서\n가장 소중히 저장되어 있는\n기억을 토대로 만든 것입니다.",
+  "DS14B#15: 우리는 쿠파 성\n금고의 비밀번호를\n찾으러 온 건데…",
+  "DS14B#16: 예. 금고… 말입니까?",
+  "DS14B#17: 예. 알겠습니다.\n금고의 비밀번호입니다.[Next]그것은 위기 회피에\n실패했습니다.[Next]예. 그렇습니다.",
+  "DS14B#18: 실패? 그게 무슨 얘기야?[Next]금고의 비밀번호가\n여기 없다는 말이야?",
+  "DS14B#19: 아니요. 올바르지 않습니다.[Next]금고의 비밀번호는\n여기에 있습니다.",
+  "DS14B#20: 예. 그렇습니다.\n이것이 비밀번호입니다.",
+  "DS14B#21: 예. 그렇습니다.[Next]기억이 복구되었습니다.\n그것은 정답입니다.",
+  "DS14B#22: 비밀번호의 기억을\n찾아냈어!"
+ ],
+ "glossary": [
+  {
+   "jp": "クッパ",
+   "ko": "쿠파",
+   "type": "boss",
+   "basis": "DS",
+   "source": "BData__mfset_MonN#65",
+   "note": "마리오 일행이 싸우는 쿠파. glossary 확정값과 동일 [gl_enemies]"
+  },
+  {
+   "jp": "ヘモグロびん",
+   "ko": "헬로글로빈",
+   "type": "character",
+   "basis": "DS",
+   "source": "i_air_08#0 ↔ DS17C#0",
+   "note": "room-align"
+  },
+  {
+   "jp": "クッパ城",
+   "ko": "쿠파 성",
+   "type": "place",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesPlace#6",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "かいひ",
+   "ko": "회피",
+   "type": "term",
+   "basis": "coined",
+   "source": "",
+   "note": "DS는 동사 '피하다'(BAI__BMes_cf#9.21)로 씀 [gl_attacks]"
+  },
+  {
+   "jp": "ゲキタイプログラム",
+   "ko": "퇴치 프로그램",
+   "type": "term",
+   "basis": "DS",
+   "source": "i_kioku_03#7 <-> DS14B#6",
+   "note": "쿠파 기억 속 방어 프로그램. '起動' → '기동' [gl_characters]"
+  },
+  {
+   "jp": "暗証番号",
+   "ko": "비밀번호",
+   "type": "term",
+   "basis": "DS",
+   "source": "o_koopa_18#20 <-> DS089#11 ; i_tainai_01#35 <-> DS089#17 ; i_areanone_puzzle_01_L#0 <-> EDataSave__mfset_EMesJig#0",
+   "note": "쿠파 성 금고의 비밀번호 [gl_characters]"
+  },
+  {
+   "jp": "金庫",
+   "ko": "금고",
+   "type": "term",
+   "basis": "DS",
+   "source": "o_koopa_18#20 <-> DS089#11 ; i_kioku_03#3 <-> DS14B#2",
+   "note": "金庫室=금고실(glossary) [gl_characters]"
+  },
+  {
+   "jp": "セーブ",
+   "ko": "저장",
+   "type": "ui",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesSys#9",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "セーブブロック",
+   "ko": "저장블록",
+   "type": "ui",
+   "basis": "DS",
+   "source": "DS217#1",
+   "note": "붙여 씀 [gl_menu_places]"
+  },
+  {
+   "jp": "データ",
+   "ko": "데이터",
+   "type": "ui",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesSys#17",
+   "note": "[gl_menu_places]"
+  },
+  {
+   "jp": "保存",
+   "ko": "저장",
+   "type": "ui",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesSys#9",
+   "note": "[gl_menu_places]"
+  }
+ ],
+ "messages": [
+  {
+   "id": "FMsg/i_kioku_02#0",
+   "label": "MES_KHatena_h_02_KHatena_h_02_mes_01",
+   "style": 6,
+   "src": "{1:align}私は ヘモグロびん的な{2:pause}\n{3:color}セーブブロック{4:color}{5:color}…{6:wait}[Next]しかも！\nしばらくしたら 消えちゃう的な{7:pause}\n{8:color}{9:color}セーブブロック{10:color}{11:color}…{12:wait}[Next]ここで ひとまず\n{13:color}{14:color}セーブ{15:color}{16:color}しておこう的な？{17:pause}\n{18:align}{19:choice}いいえ的な{20:tab}{21:choice}はい的な{22:color}{23:pause}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0000:14 00]",
+    "3": "[Color #2C64FF]",
+    "4": "[Color #373737]",
+    "5": "[Color #373737]",
+    "6": "[0002:0001:]",
+    "7": "[0002:0000:14 00]",
+    "8": "[Color #373737]",
+    "9": "[Color #2C64FF]",
+    "10": "[Color #373737]",
+    "11": "[Color #373737]",
+    "12": "[0002:0001:]",
+    "13": "[Color #373737]",
+    "14": "[Color #2C64FF]",
+    "15": "[Color #373737]",
+    "16": "[Color #373737]",
+    "17": "[0002:0000:0A 00]",
+    "18": "[0001:0001:]",
+    "19": "[0004:0001:]",
+    "20": "[0006:0000:28 00]",
+    "21": "[0004:0001:]",
+    "22": "[Color #373737]",
+    "23": "[0002:0000:0A 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_kioku_03#0",
+   "label": "MES_KHatena_h_03_Khatena_h_03_mes_09_b",
+   "style": 7,
+   "src": "{1:mode}せよ！{2:pause}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[0002:0000:0F 00]"
+   },
+   "header": "[0009:0000:07 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_kioku_03#1",
+   "label": "MES_KHatena_h_03_Khatena_h_03_mes_01",
+   "style": 6,
+   "src": "ここが クッパのきおくの倉庫ね…{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_kioku_03#2",
+   "label": "MES_KHatena_h_03_Khatena_h_03_mes_02",
+   "style": 6,
+   "src": "意外と キレイに整理されてるわ…{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_kioku_03#3",
+   "label": "MES_KHatena_h_03_Khatena_h_03_mes_03",
+   "style": 6,
+   "src": "{1:align}{2:align}あ… あの…{3:wait}[Next]{4:align}私達 クッパ城の\n金庫の 暗証番号を\n知りたいんだけど…{5:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0001:]",
+    "4": "[0001:0000:]",
+    "5": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_kioku_03#4",
+   "label": "MES_KHatena_h_03_Khatena_h_03_mes_04",
+   "style": 6,
+   "src": "{1:mode}ウィルス しんにゅう！\nウィルス しんにゅう！\nウィルス しんにゅう！{2:wait}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_kioku_03#5",
+   "label": "MES_KHatena_h_03_Khatena_h_03_mes_05",
+   "style": 6,
+   "src": "もっとも注意すべき ウィルスが\nデータベース内に しんにゅう！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_kioku_03#6",
+   "label": "MES_KHatena_h_03_Khatena_h_03_mes_06",
+   "style": 6,
+   "src": "データのバックアップ 完了！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_kioku_03#7",
+   "label": "MES_KHatena_h_03_Khatena_h_03_mes_07",
+   "style": 6,
+   "src": "ゲキタイプログラムを 起動！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_kioku_03#8",
+   "label": "MES_KHatena_h_03_Khatena_h_03_mes_08",
+   "style": 6,
+   "src": "{1:mode}ゲキタイ せよ！{2:pause}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[0002:0000:14 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/i_kioku_03#12"
+   ]
+  },
+  {
+   "id": "FMsg/i_kioku_03#9",
+   "label": "MES_KHatena_h_03_Khatena_h_03_mes_09",
+   "style": 7,
+   "src": "{1:mode}ゲキタイ{2:pause}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[0002:0000:0F 00]"
+   },
+   "header": "[0009:0000:07 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_kioku_03#10",
+   "label": "MES_KHatena_h_03_Khatena_h_03_mes_20",
+   "style": 6,
+   "src": "{1:align}{2:align}はい。そうです。{3:wait}[Next]{4:align}きおくは 修復されました。\nこれは 正確です。{5:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0001:]",
+    "4": "[0001:0000:]",
+    "5": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_kioku_03#11",
+   "label": "MES_KHatena_h_03_Khatena_h_03_mes_21",
+   "style": 6,
+   "src": "暗証番号の きおくを\nもとに もどしたわ！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_kioku_03#13",
+   "label": "MES_KHatena_h_03_Khatena_h_03_mes_10",
+   "style": 6,
+   "src": "{1:align}{2:align}はい。そうです。{3:wait}[Next]{4:align}私は きおくの管理を\nここで 行っています。{5:wait}[Next]あなた達の はいじょは\n失敗しました。{6:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0001:]",
+    "4": "[0001:0000:]",
+    "5": "[0002:0001:]",
+    "6": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_kioku_03#14",
+   "label": "MES_KHatena_h_03_Khatena_h_03_mes_11",
+   "style": 6,
+   "src": "{1:align}{2:align}しかし 問題はありません。{3:wait}[Next]{4:align}今から一時的に あなた達を\n観察する プログラムに\n切りかえます。{5:wait}[Next]{6:align}{7:align}はい。そうです。{8:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0001:]",
+    "4": "[0001:0000:]",
+    "5": "[0002:0001:]",
+    "6": "[0001:0004:]",
+    "7": "[0001:0001:]",
+    "8": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_kioku_03#15",
+   "label": "MES_KHatena_h_03_Khatena_h_03_mes_12",
+   "style": 6,
+   "src": "どうして その姿になったの？{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_kioku_03#16",
+   "label": "MES_KHatena_h_03_Khatena_h_03_mes_13",
+   "style": 6,
+   "src": "はい。そうです。\nあなた達と 交信しやすい姿に\n私は 変化します。{1:wait}[Next]この姿は この倉庫の中で\n最も 大切に保存されている\nきおくをもとに 作りました。{2:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_kioku_03#17",
+   "label": "MES_KHatena_h_03_Khatena_h_03_mes_14",
+   "style": 6,
+   "src": "私達 クッパ城の\n金庫の 暗証番号を\n知りたいんだけど…{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_kioku_03#18",
+   "label": "MES_KHatena_h_03_Khatena_h_03_mes_15",
+   "style": 6,
+   "src": "はい 金庫です… か？{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_kioku_03#19",
+   "label": "MES_KHatena_h_03_Khatena_h_03_mes_16",
+   "style": 6,
+   "src": "はい。わかりました。\n金庫の 暗証番号です。{1:wait}[Next]それは 危険のかいひを\n失敗しました。{2:wait}[Next]{3:align}{4:align}はい。そうです。{5:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]",
+    "3": "[0001:0004:]",
+    "4": "[0001:0001:]",
+    "5": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_kioku_03#20",
+   "label": "MES_KHatena_h_03_Khatena_h_03_mes_17",
+   "style": 6,
+   "src": "{1:align}{2:align}失敗？ それ どういう意味？{3:wait}[Next]{4:align}金庫の 暗証番号は\nここにはないの？{5:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0001:]",
+    "4": "[0001:0000:]",
+    "5": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_kioku_03#21",
+   "label": "MES_KHatena_h_03_Khatena_h_03_mes_18",
+   "style": 6,
+   "src": "{1:align}{2:align}いいえ。正しくはないです。{3:wait}[Next]{4:align}金庫の 暗証番号は\nここに あります。{5:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0001:]",
+    "4": "[0001:0000:]",
+    "5": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_kioku_03#22",
+   "label": "MES_KHatena_h_03_Khatena_h_03_mes_19",
+   "style": 6,
+   "src": "はい。そうです。\nこれが 暗証番号です。{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  }
+ ]
+}

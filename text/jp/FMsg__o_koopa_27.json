@@ -1,0 +1,33 @@
+{
+ "source": "Msg/JP_ja/FMsg.dat:o_koopa_27",
+ "messages": [
+  {
+   "id": "FMsg/o_koopa_27#0",
+   "label": "MES_SKoopa_24_ystar_mes_01",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:][Color #2C64FF]ひみつのメモ[Color #373737][Color #373737]…？\nなにかしら これ？[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/o_koopa_27#1",
+   "label": "MES_SKoopa_24_ystar_mes_02",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]あやしいわ…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_koopa_27#2",
+   "label": "MES_SKoopa_24_ystar_mes_03",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]もしかしたら なにかの\nヒントかも しれないわね。[0002:0001:][Next][0001:0004:]ねんのため [Ruby 覚;おぼ]えておきましょう。\n[Ruby 私;わたし]も [Ruby 忘;わす]れないようにするから。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_koopa_27#3",
+   "label": "MES_SKoopa_27_kanban_mes",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0001:0004:][0001:0001:][0005:0000:]～ひみつのメモ～\n[Color #4ED4FF]■[Color #E6E6E6][Color #373737]は [Color #E6E6E6][Color #4ED4FF]▲[Color #E6E6E6][Color #373737]より １[Ruby 回;かい][Ruby 少;すく]ない[0002:0001:][Color #E6E6E6]"
+  }
+ ]
+}

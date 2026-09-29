@@ -1,0 +1,40 @@
+{
+ "source": "Msg/JP_ja/FMsg.dat:i_test_ay_01",
+ "messages": [
+  {
+   "id": "FMsg/i_test_ay_01#0",
+   "label": "MES_KPower_arm_01_KPower_arm_tut_14",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]なるほどね… クッパの[Ruby 体;からだ]に\n[Ruby 今;いま]みたいに シゲキをあたえると…[0002:0001:][Next]ものすごい チカラを\n[Ruby 発揮;はっき]するみたいね…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_test_ay_01#1",
+   "label": "MES_Mushiba_05_before_Mushiba_brilock_39",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]クッパの [Color #2C64FF]うで[Color #373737][Color #373737]に\nなにか [Ruby 起;お]きたみたい！！[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/i_test_ay_01#2",
+   "label": "MES_EV_Mushiba_11_Mushi_11_ystar_01",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:][Ruby 浜辺;はまべ]を[Ruby 見;み]つめる[Ruby 石像;せきぞう]…\n[0002:0000:0A 00]それは [Color #2C64FF]マリンパイプの[Ruby 像;ぞう][Color #373737][Color #373737]だわ。[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/i_test_ay_01#3",
+   "label": "MES_Mushiba_11_Mushi_11_ystar_06",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:][Ruby 見;み]て！[0002:0000:0A 00]\nあそこのスペース…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_test_ay_01#4",
+   "label": "MES_Mushiba_11_Mushi_11_ystar_07",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]なにか[Ruby 変化;へんか]が [Ruby 起;お]きたみたいだわ！\n[Ruby 行;い]ってみましょう！[0002:0001:]"
+  }
+ ]
+}

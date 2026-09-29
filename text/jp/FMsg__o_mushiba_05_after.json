@@ -1,0 +1,103 @@
+{
+ "source": "Msg/JP_ja/FMsg.dat:o_mushiba_05_after",
+ "messages": [
+  {
+   "id": "FMsg/o_mushiba_05_after#0",
+   "label": "MES_KPower_arm_01_KPower_arm_tut_16",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ハァ…[0002:0000:14 00] ハァ…[0002:0000:14 00]"
+  },
+  {
+   "id": "FMsg/o_mushiba_05_after#1",
+   "label": "MES_Mushiba_05_after_Mushiba_brilock_25",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]うーん…[0002:0000:0A 00] なにやら[Ruby 景色;けしき]が\nアップサイドダウン…[0002:0001:][Next]ともあれ [Ruby 助;たす]けてくれて\nサンキュウ ベリーベリーマッチ！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_mushiba_05_after#2",
+   "label": "MES_Mushiba_05_after_Mushiba_brilock_26",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]オイ！[0002:0000:0A 00] ひみつのブロック\nとやらを さっさとよこせ！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_mushiba_05_after#3",
+   "label": "MES_Mushiba_05_after_Mushiba_brilock_27",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]オフコース！[0002:0000:0A 00] ミーからの\nブロックの！[0002:0000:05 00] ブロックによる！[0002:0000:05 00]\nブロックのための お[Ruby 礼;れい]！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_mushiba_05_after#4",
+   "label": "MES_Mushiba_05_after_Mushiba_brilock_28",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]うけとってください！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_mushiba_05_after#5",
+   "label": "MES_Mushiba_05_after_Mushiba_brilock_29",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0001:0004:][0005:0000:][Color #4ED4FF]バキュームブロック[Color #E6E6E6][Color #373737]を[Ruby 手;て]に[Ruby 入;い]れた！[0002:0000:1E 00][0002:0001:][Color #E6E6E6]"
+  },
+  {
+   "id": "FMsg/o_mushiba_05_after#6",
+   "label": "MES_Mushiba_05_after_KPower_arm_tut_17",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]どうだ！[0002:0000:0A 00]\nこれが ワガハイのチカラだ！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_mushiba_05_after#7",
+   "label": "MES_Mushiba_05_after_Mushiba_brilock_30",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]やっぱり ただのブロックにしか\n[Ruby 見;み]えないぞ！！[0002:0000:05 00] だましたな！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_mushiba_05_after#8",
+   "label": "MES_Mushiba_05_after_Mushiba_brilock_31",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]オウ！[0002:0000:0A 00] ノンノン！[0002:0000:0A 00] それが\nフツーのブロックに [Ruby 見;み]えるとは…[0002:0001:][Next][0001:0004:]あなたの ブロックだましいも\nまだまだ ソー スイートです。[0002:0001:][Next]それは [Color #2C64FF]バキュームブロック[Color #373737][Color #373737]といって\n[Ruby 叩;たた]くと [Ruby 目;め]の[Ruby 前;まえ]にあるものを\n[Ruby 吸;す]い[Ruby 込;こ]めるように なるのです！[0002:0001:][Next]バトルのときに これを[Ruby 使;つか]えば\n[Ruby 相手;あいて]を [Ruby 吸;す]い[Ruby 込;こ]んでしまえる\nトレビア～ンな ブロックです！[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/o_mushiba_05_after#9",
+   "label": "MES_Mushiba_05_after_Mushiba_brilock_32",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 相手;あいて]を [Ruby 吸;す]い[Ruby 込;こ]むだと？\nバトル[Ruby 中;ちゅう]に [Ruby 相手;あいて]を[Ruby 吸;す]い[Ruby 込;こ]むのか？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_mushiba_05_after#10",
+   "label": "MES_Mushiba_05_after_Mushiba_brilock_34",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 案;あん]ずるより [Ruby 産;う]むがイージー！[0002:0000:0A 00]\nためしに ミーとバトルをしましょう！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_mushiba_05_after#11",
+   "label": "MES_Mushiba_05_after_Mushiba_brilock_35",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]さあ！[0002:0000:0A 00] そのブロックの\nトレビアンな はだざわりに\nよいしれて みましょう！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_mushiba_05_after#12",
+   "label": "MES_Mushiba_05_after_Mushiba_brilock_36",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ハウ ワズ イット！[0002:0000:0A 00] いかがでしたか？\n[Color #2C64FF]バキュームブロック[Color #373737][Color #373737]の\n[Ruby 色;いろ]！[0002:0000:0A 00] ツヤ！[0002:0000:0A 00] はだざわり！[0002:0001:][Next][0001:0004:]トレビア～ン！[0002:0000:0A 00]\nイッツ アメイジングでしょ？[0002:0001:][Next]あなたも いつの[Ruby 日;ひ]か\nブロックコレクターとして\n[Ruby 第;だい]２の[Ruby 人生;じんせい]を [Ruby 歩;あゆ]むといいですよ。[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/o_mushiba_05_after#13",
+   "label": "MES_Mushiba_05_after_Mushiba_brilock_37",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]それでは またお[Ruby 会;あ]いしましょう！[0002:0000:0A 00]\nシー ユー アゲイン！！[0002:0001:]"
+  }
+ ]
+}

@@ -1,0 +1,568 @@
+{
+ "batch": "HugeBattle__p2",
+ "rooms": [
+  "HugeBattle"
+ ],
+ "ds_rooms": [],
+ "ds_reference": [
+  "@file work/batches/_refs_HugeBattle.txt (193 DS lines shared by all HugeBattle batches - read it once)"
+ ],
+ "glossary": [
+  {
+   "jp": "パンチ",
+   "ko": "펀치",
+   "type": "ability",
+   "basis": "DS",
+   "source": "BData__mfset_Help#14",
+   "note": "필드 액션·배틀 커맨드 공통 [gl_attacks]"
+  },
+  {
+   "jp": "ファイア",
+   "ko": "파이어",
+   "type": "attack",
+   "basis": "DS",
+   "source": "BData__mfset_Help#15",
+   "note": "쿠파의 배틀 커맨드. 파이어플라워 설명의 불덩이는 DS '파이어볼'(AItmE#17) [gl_attacks]"
+  },
+  {
+   "jp": "ファイアボール",
+   "ko": "파이어볼",
+   "type": "attack",
+   "basis": "DS",
+   "source": "BAI__BMes_ji#2.58",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "ファイナルアタック",
+   "ko": "파이널 어택",
+   "type": "attack",
+   "basis": "coined",
+   "source": "",
+   "note": "3DX 신규 마무리 기술. DS식 '스페셜 어택' 표기에 맞춤 [gl_attacks]"
+  },
+  {
+   "jp": "クッパ",
+   "ko": "쿠파",
+   "type": "boss",
+   "basis": "DS",
+   "source": "BData__mfset_MonN#65",
+   "note": "마리오 일행이 싸우는 쿠파. glossary 확정값과 동일 [gl_enemies]"
+  },
+  {
+   "jp": "ゲラコビッツ",
+   "ko": "까르코비츠",
+   "type": "character",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesOutline#5",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "テレサ",
+   "ko": "부끄부끄",
+   "type": "enemy",
+   "basis": "DS",
+   "source": "FEvent:063#44",
+   "note": "glossary 확정값 [gl_enemies]"
+  },
+  {
+   "jp": "キノコ",
+   "ko": "버섯",
+   "type": "item",
+   "basis": "DS",
+   "source": "BData__mfset_UItmN#0",
+   "note": "일반 명사 キノコ도 버섯(キノコタウン=버섯 타운) [gl_items]"
+  },
+  {
+   "jp": "ゲラエクスプレス",
+   "ko": "까르열차",
+   "type": "other",
+   "basis": "DS",
+   "source": "i_areanone_puzzle_01_L#2 ↔ DS:EDataSave__mfset_EMesJig#2 (FEvent DS16B·DS22E에도 '까르열차')",
+   "note": "room-align"
+  },
+  {
+   "jp": "ブラックホール",
+   "ko": "블랙홀",
+   "type": "other",
+   "basis": "DS",
+   "source": "BAI__BMes_yo#2.16",
+   "note": "[gl_menu_places]"
+  },
+  {
+   "jp": "Excellent",
+   "ko": "Excellent",
+   "type": "term",
+   "basis": "DS",
+   "source": "BData__mfset_BadgeEffectE#1",
+   "note": "영문 그대로. 4단계 평가의 최고 [gl_attacks]"
+  },
+  {
+   "jp": "HP",
+   "ko": "HP",
+   "type": "term",
+   "basis": "DS",
+   "source": "BAI__BMes_cf#2.11",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "ガード",
+   "ko": "방어",
+   "type": "term",
+   "basis": "DS",
+   "source": "DS 대사 '방어' 34회, '가드' 0회",
+   "note": "전투 용어('가드 성공' 등)는 '방어'. 본편 대사에서 장애물·장치 뜻(ダークスターのガード 등)이면 DS대로 '방어벽/벽/장치'"
+  },
+  {
+   "jp": "クッパ様",
+   "ko": "쿠파님",
+   "type": "term",
+   "basis": "DS",
+   "source": "BAI__BMes_cf:0#0",
+   "note": "부하들이 부를 때 [gl_kj]"
+  },
+  {
+   "jp": "ゲラコビッツ様",
+   "ko": "까르코비츠님",
+   "type": "term",
+   "basis": "DS",
+   "source": "FEvent:070#17",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "スライド",
+   "ko": "슬라이드",
+   "type": "term",
+   "basis": "DS",
+   "source": "BData__mfset_AItmE#5",
+   "note": "터치펜 조작 [gl_attacks]"
+  },
+  {
+   "jp": "ダメージ",
+   "ko": "타격",
+   "type": "term",
+   "basis": "DS",
+   "source": "DS '타격' 32회 / '대미지' 5회",
+   "note": "'타격을 입히다/입다'. 숫자·연속 공격 문맥은 '대미지' 허용(DS: 연속 대미지)"
+  },
+  {
+   "jp": "バトル",
+   "ko": "배틀",
+   "type": "term",
+   "basis": "DS",
+   "source": "BAI__BMes_cf#2.13",
+   "note": "명사는 '배틀'. 동사 'バトルする/した'는 DS처럼 '싸우다'로 써도 된다"
+  },
+  {
+   "jp": "巨大化",
+   "ko": "거대화",
+   "type": "term",
+   "basis": "coined",
+   "source": "",
+   "note": "DS는 '커지다'(BAI__BMes_ji#2.9 커지셨을 때의 배틀)로 풀어 씀 [gl_attacks]"
+  },
+  {
+   "jp": "巨大化バトル",
+   "ko": "거대화 배틀",
+   "type": "term",
+   "basis": "coined",
+   "source": "",
+   "note": "DS는 '커지셨을 때의 배틀'(BAI__BMes_ji#2.9) [gl_attacks]"
+  },
+  {
+   "jp": "タッチ",
+   "ko": "터치",
+   "type": "ui",
+   "basis": "DS",
+   "source": "BData__mfset_AItmE#6",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "タッチペン",
+   "ko": "터치펜",
+   "type": "ui",
+   "basis": "DS",
+   "source": "BAI__BMes_cf#0.4",
+   "note": "붙여 씀 [gl_attacks]"
+  }
+ ],
+ "messages": [
+  {
+   "id": "HugeBattle#115",
+   "label": "tutorial_pd003",
+   "style": 6,
+   "src": "敵が近くまできたら\nタッチペンを すばやく\n{1:color}左にスライド{2:color}です！{3:wait}",
+   "tags": {
+    "1": "[Color #2C64FF]",
+    "2": "[Color #373737]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#116",
+   "label": "4_battle_09",
+   "style": 6,
+   "src": "モエソウナ{1:pause} モノハ{2:pause}\nステマショウ！{3:pause} {4:color}{5:wait}{6:color}",
+   "tags": {
+    "1": "[0002:0000:0F 00]",
+    "2": "[0002:0000:0F 00]",
+    "3": "[0002:0000:0F 00]",
+    "4": "[Color #373737]",
+    "5": "[0002:0001:]",
+    "6": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#117",
+   "label": "finalattack_koopa01",
+   "style": 9,
+   "src": "{1:speed}まかせておけ！{2:wait}",
+   "tags": {
+    "1": "[0002:0002:3C 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:09 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#118",
+   "label": "3_event_start_01",
+   "style": 6,
+   "src": "案外 クッパのやつも\nチョロかったな～",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#119",
+   "label": "3_event_start_02",
+   "style": 6,
+   "src": "これで ゲラコビッツ様も\n喜んでくれるだろ。",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#120",
+   "label": "3_event_start_03",
+   "style": 6,
+   "src": "このゲラエクスプレスに\n比べたら クッパのやつも\nちっちゃく 見えるもんだね～",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#121",
+   "label": "3_event_start_04",
+   "style": 9,
+   "src": "ハハハハハハ！！",
+   "tags": {},
+   "header": "[0009:0000:09 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#122",
+   "label": "4_battle_20",
+   "style": 6,
+   "src": "セイフティー システム{1:pause}\nプログラム{2:pause} エラー！{3:pause}\nガード{4:pause} ショウメツ！{5:pause} {6:color}{7:wait}{8:color}",
+   "tags": {
+    "1": "[0002:0000:0F 00]",
+    "2": "[0002:0000:0F 00]",
+    "3": "[0002:0000:0F 00]",
+    "4": "[0002:0000:0F 00]",
+    "5": "[0002:0000:0F 00]",
+    "6": "[Color #373737]",
+    "7": "[0002:0001:]",
+    "8": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#123",
+   "label": "3_event_start_05",
+   "style": 9,
+   "src": "ななな なんだ～！？",
+   "tags": {},
+   "header": "[0009:0000:09 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#124",
+   "label": "4_battle_21",
+   "style": 6,
+   "src": "テレサ システム{1:pause} サドウ！{2:pause}\nトチュウデ{3:pause} スガタ ガ{4:pause}\nミエナク{5:pause} ナレバ…{6:pause} {7:color}{8:wait}{9:color}",
+   "tags": {
+    "1": "[0002:0000:0F 00]",
+    "2": "[0002:0000:14 00]",
+    "3": "[0002:0000:0F 00]",
+    "4": "[0002:0000:0F 00]",
+    "5": "[0002:0000:0F 00]",
+    "6": "[0002:0000:0F 00]",
+    "7": "[Color #373737]",
+    "8": "[0002:0001:]",
+    "9": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#125",
+   "label": "4_battle_22",
+   "style": 6,
+   "src": "ハンゲキノ{1:pause} タイミングモ{2:pause}\nワカラ ナク ナル{3:pause} ハズダ！{4:pause} {5:color}{6:wait}{7:color}",
+   "tags": {
+    "1": "[0002:0000:0F 00]",
+    "2": "[0002:0000:0F 00]",
+    "3": "[0002:0000:0F 00]",
+    "4": "[0002:0000:0F 00]",
+    "5": "[Color #373737]",
+    "6": "[0002:0001:]",
+    "7": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#126",
+   "label": "3_event_start_07",
+   "style": 9,
+   "src": "に 逃げろー！",
+   "tags": {},
+   "header": "[0009:0000:09 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#127",
+   "label": "4_battle_23",
+   "style": 6,
+   "src": "ナカナカ ヤルナ{1:pause}\nシカシ{2:pause} コレニ{3:pause}\nタエラレル カナ？{4:pause} ",
+   "tags": {
+    "1": "[0002:0000:0F 00]",
+    "2": "[0002:0000:0F 00]",
+    "3": "[0002:0000:0F 00]",
+    "4": "[0002:0000:0F 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#129",
+   "label": "tutorial_f_EXCELLENT_GREAT_01",
+   "style": 8,
+   "src": "すごい はくりょく！{1:pause}",
+   "tags": {
+    "1": "[0002:0000:1E 00]"
+   },
+   "header": "[0009:0000:08 00]",
+   "dups": [
+    "HugeBattle#137"
+   ]
+  },
+  {
+   "id": "HugeBattle#130",
+   "label": "3_event_start_08",
+   "style": 9,
+   "src": "待てよ！？{1:pause} \nよく見たらそんなに\nデカくもないか！？",
+   "tags": {
+    "1": "[0002:0000:05 00]"
+   },
+   "header": "[0009:0000:09 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#131",
+   "label": "4_battle_24",
+   "style": 6,
+   "src": "ウシロニ{1:pause} サガッタラ\nサイゴ…{2:pause}",
+   "tags": {
+    "1": "[0002:0000:0F 00]",
+    "2": "[0002:0000:0F 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#132",
+   "label": "tutorial_f_EXCELLENT_GREAT_02",
+   "style": 6,
+   "src": "さすが クッパ様！\nかんぺきな\nファイアでしたね！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#133",
+   "label": "3_event_start_09",
+   "style": 9,
+   "src": "そうだ！ビビるな！{1:pause} \nもういちど\nつぶしてやる！",
+   "tags": {
+    "1": "[0002:0000:0A 00]"
+   },
+   "header": "[0009:0000:09 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#134",
+   "label": "4_battle_25",
+   "style": 6,
+   "src": "ブラックホール{1:pause} イキノ{2:pause}\nデスマッチダ！{3:pause}",
+   "tags": {
+    "1": "[0002:0000:0F 00]",
+    "2": "[0002:0000:0F 00]",
+    "3": "[0002:0000:0F 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#135",
+   "label": "4_battle_26",
+   "style": 6,
+   "src": "オマエノ{1:pause} ツヨサ ハ{2:pause}\nヨク ワカッタ！{3:pause} {4:color}{5:wait}{6:color}[Next]ダガ{7:pause} オマエモ{8:pause}\nコレデ オワリダ！{9:pause}{10:color}{11:wait}{12:color} ",
+   "tags": {
+    "1": "[0002:0000:0F 00]",
+    "2": "[0002:0000:0F 00]",
+    "3": "[0002:0000:0F 00]",
+    "4": "[Color #373737]",
+    "5": "[0002:0001:]",
+    "6": "[Color #373737]",
+    "7": "[0002:0000:0F 00]",
+    "8": "[0002:0000:0F 00]",
+    "9": "[0002:0000:0F 00]",
+    "10": "[Color #373737]",
+    "11": "[0002:0001:]",
+    "12": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#136",
+   "label": "tutorial_fb_failure",
+   "style": 6,
+   "src": "おちついて… 狙って\n{1:color}タッチ{2:color}しましょう！{3:wait}",
+   "tags": {
+    "1": "[Color #2C64FF]",
+    "2": "[Color #373737]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#138",
+   "label": "tutorial_pd011_a",
+   "style": 6,
+   "src": "ストーップ！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#139",
+   "label": "1_event_end_03_b",
+   "style": 9,
+   "src": "モトノ オオキサニ\nモドルマデ ショウブハ\nオアズケダ！",
+   "tags": {},
+   "header": "[0009:0000:09 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#140",
+   "label": "FA_button",
+   "style": 5,
+   "src": "{1:mode}【ファイナルアタック】\nとどめの大技！",
+   "tags": {
+    "1": "[0005:0000:]"
+   },
+   "header": "[0009:0000:05 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#141",
+   "label": "tutorial_p_EXCELLENT_GREAT_02",
+   "style": 6,
+   "src": "さすが クッパ様！\nかんぺきな\nパンチでしたね！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#142",
+   "label": "battleguide_kinoko",
+   "style": 5,
+   "src": "巨大化バトル中に キノコを\n手に入れることがあります。\n{1:color}キノコを食べれば\nクッパのHPが回復{2:color}します。\nキノコを使うと 次は\n相手の行動になります。\n状況をよく考えて使いましょう。",
+   "tags": {
+    "1": "[Color #2C64FF]",
+    "2": "[Color #373737]"
+   },
+   "header": "[0009:0000:05 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#143",
+   "label": "1_event_start_01",
+   "style": 9,
+   "src": "{1:align}ナ{2:pause} ナニゴトダ！！",
+   "tags": {
+    "1": "[0001:0001:]",
+    "2": "[0002:0000:14 00]"
+   },
+   "header": "[0009:0000:09 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#144",
+   "label": "1_event_start_02",
+   "style": 9,
+   "src": "ししししし… 城が勝手に…",
+   "tags": {},
+   "header": "[0009:0000:09 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#145",
+   "label": "1_event_start_03",
+   "style": 9,
+   "src": "{1:align}ナ！{2:pause} ナンダアレハー！！{3:pause}",
+   "tags": {
+    "1": "[0001:0001:]",
+    "2": "[0002:0000:14 00]",
+    "3": "[0002:0000:28 00]"
+   },
+   "header": "[0009:0000:09 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#146",
+   "label": "battleguide_punch",
+   "style": 5,
+   "src": "タッチペンを{1:color}右から左に\nスライドするとパンチ{2:color}します。\n速くスライドするほど 相手に\n多くのダメージを与えられます。\n速く長くスライドをして\nExcellentを狙いましょう。",
+   "tags": {
+    "1": "[Color #2C64FF]",
+    "2": "[Color #373737]"
+   },
+   "header": "[0009:0000:05 00]",
+   "dups": []
+  },
+  {
+   "id": "HugeBattle#147",
+   "label": "battleguide_title_fireball",
+   "style": 6,
+   "src": "ファイアボール",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  }
+ ]
+}

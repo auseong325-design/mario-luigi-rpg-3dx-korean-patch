@@ -1,0 +1,50 @@
+{
+ "batch": "FMsg__k_o_areanone_allmap_01_U",
+ "rooms": [
+  "k_o_areanone_allmap_01_U"
+ ],
+ "ds_rooms": [],
+ "ds_reference": [],
+ "glossary": [
+  {
+   "jp": "ウェンディ",
+   "ko": "웬디",
+   "type": "character",
+   "basis": "official",
+   "source": "https://www.nintendo.com/kr/switch/aabpa/sp/character/",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "ラリー",
+   "ko": "래리",
+   "type": "character",
+   "basis": "official",
+   "source": "https://www.nintendo.com/kr/switch/aabpa/sp/character/",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "７人衆",
+   "ko": "7인조",
+   "type": "character",
+   "basis": "official",
+   "source": "https://namu.wiki/w/%EC%BF%A0%ED%8C%8C%207%EC%9D%B8%EC%A1%B0",
+   "note": "「アタシ達 ７人衆」→'우리 7인조' [gl_kj]"
+  }
+ ],
+ "messages": [
+  {
+   "id": "FMsg/k_o_areanone_allmap_01_U#0",
+   "label": "Kjrpg_07_Mushiba_qst01_19",
+   "style": 6,
+   "src": "いま ７人衆はまさにバラバラ…{1:wait}[Next]留守をしていた ウェンディやラリーも\nもはや 無事かどうかわかりません。{2:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/k_o_mushiba_80#12"
+   ]
+  }
+ ]
+}

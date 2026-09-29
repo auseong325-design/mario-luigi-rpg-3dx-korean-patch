@@ -1,0 +1,537 @@
+{
+ "source": "Msg/JP_ja/FMsg.dat:i_tainai_01",
+ "messages": [
+  {
+   "id": "FMsg/i_tainai_01#0",
+   "label": "MES_GPeach_06_Big_k_peach_21",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 聞;き]いてる？\nマリオ[0002:0000:0A 00] ルイージ。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_tainai_01#1",
+   "label": "MES_EV_SKoopa_18_2_ESK182_ystar_04",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:][Ruby 見;み]て！ クッパが なにか\n[Ruby 飲;の]み[Ruby 込;こ]んだみたいよ！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_tainai_01#2",
+   "label": "MES_GPeach_06_Big_k_peach_22",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ダークスターが クッパの[Ruby 能力;のうりょく]を\nコピーしてしまったみたい…[0002:0001:][Next]もう こうなったら\nやることは １つよ！[0002:0001:][Next]クッパといっしょに [Color #2C64FF]ダーククッパ[Color #373737][Color #373737]との\n[Ruby 決戦;けっせん]に[Ruby 向;む]かうしかない！[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/i_tainai_01#3",
+   "label": "MES_GPeach_06_Big_k_peach_23",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]かくごは いい？[0002:0001:][Next]やりのこした ことがあったら\n[Ruby 今;いま]のうちに すませておいて！[0002:0001:][Next]しっかりと [Ruby 準備;じゅんび]を\nととのえておきましょう！！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_tainai_01#4",
+   "label": "MES_Guide_tainai_01_kt_point_0",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00][0005:0000:]キノピオひろば"
+  },
+  {
+   "id": "FMsg/i_tainai_01#5",
+   "label": "MES_Guide_tainai_01_kt_point_1",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00][0005:0000:]ガラクタスペース"
+  },
+  {
+   "id": "FMsg/i_tainai_01#6",
+   "label": "MES_Guide_tainai_01_kt_point_2",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00][0005:0000:]オドロキボーン"
+  },
+  {
+   "id": "FMsg/i_tainai_01#7",
+   "label": "MES_Guide_tainai_01_kt_point_3",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00][0005:0000:]パワースペース うで"
+  },
+  {
+   "id": "FMsg/i_tainai_01#8",
+   "label": "MES_SKoopa_28_SK28_ystar_04",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]あ～あ。\nまた ブクブクになった。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_tainai_01#9",
+   "label": "MES_Guide_tainai_01_kt_point_4",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00][0005:0000:]ポンプスペース"
+  },
+  {
+   "id": "FMsg/i_tainai_01#10",
+   "label": "MES_SKoopa_28_SK28_ystar_05",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]また あのスペースに\n[Ruby 行;い]けるみたいだけど…[0002:0001:][Next][0001:0004:][0001:0001:][Ruby 特;とく]に [Ruby 用;よう]はないわね。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_tainai_01#11",
+   "label": "MES_Guide_tainai_01_kt_point_5",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00][0005:0000:]ファイアパイプ"
+  },
+  {
+   "id": "FMsg/i_tainai_01#12",
+   "label": "MES_SKoopa_28_SK28_ystar_06",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]はやく もとにもどって\nくれないかしら。[0002:0001:][Next][0001:0004:][Ruby 食;く]い[Ruby 意地;いじ] ばっかり\nはってるんだから… もう…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_tainai_01#13",
+   "label": "MES_Chika_09_before_Chika_drill_macine_23",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]また チカラだけでなにか\nやろうとしているわね…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_tainai_01#14",
+   "label": "MES_Guide_tainai_01_kt_point_6",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00][0005:0000:]パワースペース いぶくろ"
+  },
+  {
+   "id": "FMsg/i_tainai_01#15",
+   "label": "MES_Guide_tainai_01_kt_point_7",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00][0005:0000:]しんけいスポット"
+  },
+  {
+   "id": "FMsg/i_tainai_01#16",
+   "label": "MES_Mushiba_05_before_Mushiba_brilock_39",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]クッパの [Color #2C64FF]うで[Color #373737][Color #373737]に\nなにか [Ruby 起;お]きたみたい！！[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/i_tainai_01#17",
+   "label": "MES_Guide_tainai_01_kt_point_8",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00][0005:0000:]パワースペース おしり"
+  },
+  {
+   "id": "FMsg/i_tainai_01#18",
+   "label": "MES_SPeach_1F_03_INORI_ystar_00",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:][0001:0001:]ど[0002:0000:05 00] どうしたの？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_tainai_01#19",
+   "label": "MES_Guide_tainai_01_kt_point_9",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00][0005:0000:]メタボルスペース"
+  },
+  {
+   "id": "FMsg/i_tainai_01#20",
+   "label": "MES_SKoopa_01_Skoopa_01_ystar_01",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]あらあら。\n[Ruby 苦労;くろう]してるみたいね。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_tainai_01#21",
+   "label": "MES_SPeach_1F_03_INORI_ystar_03",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]こうなったら [Ruby 私達;わたしたち]で\nダークスターを つかまえましょう！[0002:0001:][Next][0001:0004:]このまま ダークスターが\nクッパの[Ruby 中;なか]にいたら…[0002:0001:][Next][0001:0004:]どれだけ [Ruby 大変;たいへん]なことに\nなるのか [Ruby 想像;そうぞう]もつかないわ。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_tainai_01#22",
+   "label": "MES_SPeach_1F_03_INORI_ystar_04",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:][0001:0001:]さあ！ いきましょう！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_tainai_01#23",
+   "label": "MES_Gepu_02_Gepu_koopa_20_2",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 聞;き]いてる？\n[Color #FF4343]マリオ[Color #373737][Color #373737][0002:0000:0A 00] [Color #373737][Color #00BB27]ルイージ[Color #373737][Color #373737]。[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/i_tainai_01#24",
+   "label": "MES_work_omit_00",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0001:0004:][0001:0001:][0005:0000:]=== 仮・未実装 ===\n[0001:0004:][0001:0001:][0005:0000:]イベントが仮または未実装の[Ruby 状態;じょうたい]です。[0002:0000:0A 00][0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_tainai_01#25",
+   "label": "MES_GPeach_18_Koopa_sball_tut_02",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ねえ！[0002:0000:0A 00] [Ruby 聞;き]こえる！？\n[Ruby 相談;そうだん]があるんだけど！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_tainai_01#26",
+   "label": "MES_GPeach_18_Koopa_sball_tut_04",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]こし？[0002:0000:0A 00] こしを[Ruby 痛;いた]めたの？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_tainai_01#27",
+   "label": "MES_EV_Mushiba_11_Mushi_11_ystar_01",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:][Ruby 浜辺;はまべ]を[Ruby 見;み]つめる[Ruby 石像;せきぞう]…\n[0002:0000:0A 00]それは [Color #2C64FF]マリンパイプの[Ruby 像;ぞう][Color #373737][Color #373737]だわ。[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/i_tainai_01#28",
+   "label": "MES_GPeach_18_Koopa_sball_tut_06",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]まったくもう…\n[Ruby 世話;せわ]が [Ruby 焼;や]けるわね…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_tainai_01#29",
+   "label": "MES_SPeach_3F_15_SP3F_15_ystar_01",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]こんどは あのスペースに\n[Ruby 反応;はんのう]ありよ！！[0002:0001:][Next][0001:0004:][0001:0001:]いきましょう！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_tainai_01#30",
+   "label": "MES_work_omit_05",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0001:0004:][0001:0001:][0005:0000:]=== １月末版 終了 ===\n[0001:0004:][0001:0001:][0005:0000:]１月末版は ここまでとなります。\n[0001:0004:][0001:0001:][0005:0000:]ご確認ありがとうございました。[0002:0000:0A 00][0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_tainai_01#31",
+   "label": "MES_SKoopa_13_2_Skoopa_13_ystar_01",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]はいはい。\n[Ruby 聞;き]こえてるわよ。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_tainai_01#32",
+   "label": "MES_EV_Ekubon_09_Ekubon_koopa_giant_15",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ねえ！[0002:0000:0A 00] だいじょうぶ！？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_tainai_01#33",
+   "label": "MES_EV_Ekubon_09_Ekubon_koopa_giant_16",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 返事;へんじ]がないって ことは\nかなり [Ruby 危険;きけん]な[Ruby 状態;じょうたい]かも…[0002:0001:][Next][Ruby 反応;はんのう]がでている ところに\n[Ruby 急;いそ]いで [Ruby 行;い]ってみましょう！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_tainai_01#34",
+   "label": "MES_SKoopa_13_2_Skoopa_13_ystar_06",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]これだけ [Ruby 太;ふと]ったんなら\n[Ruby 体;からだ]の[Ruby 中;なか]のどこかにも [Ruby 変化;へんか]が\n[Ruby 起;お]きてるはずだわ…[0002:0001:][Next][0001:0004:]この[Ruby 機会;きかい]に ピーチ[Ruby 姫;ひめ]を\n[Ruby 探;さが]しに[Ruby 歩;ある]き[Ruby 回;まわ]ってみましょう！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_tainai_01#35",
+   "label": "MES_SKoopa_18_SK18_cash_ystar_01",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:][Ruby 大声出;おおごえだ]さなくても [Ruby 聞;き]こえるわ。\n[Ruby 金庫;きんこ]の[Ruby 暗証番号;あんしょうばんごう]を [Ruby 忘;わす]れたんでしょ。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_tainai_01#36",
+   "label": "MES_Gepu_05_Gepu_gerako_38",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 仕方;しかた]がないわね…\nしばらく クッパの[Ruby 様子;ようす]を[Ruby 見;み]ましょう。[0002:0001:][Next][Ruby 体;からだ]の[Ruby 中;なか]にも なにか[Ruby 変化;へんか]が\n[Ruby 起;お]きるかもしれないわ…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_tainai_01#37",
+   "label": "MES_Gepu_05_Gepu_gerako_39",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 次;つぎ]に[Ruby 会;あ]う[Ruby 時;とき]は\nタダではすまさんぞ。[0002:0001:][Next]モンスターを[Ruby 倒;たお]して\n[Color #2C64FF]レベルアップ[Color #373737]して…[0002:0001:][Next][Ruby 何;なに]もさせずに コテンパンに\nやっつけてくれるわ。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_tainai_01#38",
+   "label": "MES_Guide_tainai_01_kt_point_10",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00][0005:0000:]パワースペース あし"
+  },
+  {
+   "id": "FMsg/i_tainai_01#39",
+   "label": "MES_SPeach_1F_09_SP1F_09_ystar_01",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]ゲラコビッツを\nやっつけたのね。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_tainai_01#40",
+   "label": "MES_Guide_tainai_01_kt_point_11",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00][0005:0000:]どかんひろば"
+  },
+  {
+   "id": "FMsg/i_tainai_01#41",
+   "label": "MES_LZutsuda_15_LZ15_ystar_01",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]２つ[Ruby 目;め]の スターワクチンは\n[Color #2C64FF]クッパ[Ruby 城;じょう][Color #373737][Color #373737]ね…[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/i_tainai_01#42",
+   "label": "MES_Guide_tainai_01_kt_point_12",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00][0005:0000:]パワースペース はな"
+  },
+  {
+   "id": "FMsg/i_tainai_01#43",
+   "label": "MES_LZutsuda_15_LZ15_ystar_02",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]ここは クッパに\nまかせてみましょう。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_tainai_01#44",
+   "label": "MES_SKoopa_18_SK18_cash_ystar_06",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:][0001:0001:]これは チャンスね！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_tainai_01#45",
+   "label": "MES_Guide_tainai_01_kt_point_13",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00][0005:0000:]エネルギースペース"
+  },
+  {
+   "id": "FMsg/i_tainai_01#46",
+   "label": "MES_SKoopa_18_SK18_cash_ystar_07",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]クッパより[Ruby 先;さき]に [Ruby 金庫;きんこ]の[Ruby 暗証番号;あんしょうばんごう]が\nわかれば ２つ[Ruby 目;め]の[Color #2C64FF]スターワクチン[Color #373737][Color #373737]も\n[Ruby 私達;わたしたち]が [Ruby 手;て]に[Ruby 入;い]れられるかも…[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/i_tainai_01#47",
+   "label": "MES_Guide_tainai_01_kt_point_14",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00][0005:0000:]プレスタワー"
+  },
+  {
+   "id": "FMsg/i_tainai_01#48",
+   "label": "MES_SKoopa_18_SK18_cash_ystar_08",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]さっそく クッパのあたまの[Ruby 中;なか]へ\n[Ruby 入;はい]ってみましょう！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_tainai_01#49",
+   "label": "MES_Guide_tainai_01_kt_point_15",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00][0005:0000:]きおくそうこ"
+  },
+  {
+   "id": "FMsg/i_tainai_01#50",
+   "label": "MES_Gepu_02_Gepu_koopa_21",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:][Ruby 大事;だいじ]なこと [Ruby 言;い]い[Ruby 忘;わす]れたわ。[0002:0001:][Next][Ruby 今;いま]は [U+E077]で\n[Color #FF9600]クッパ[Color #373737][Color #373737]が[Ruby 動;うご]いているわよね。[0002:0001:][Next][Color #373737][Color #FF4343][U+E000][Color #373737][Color #373737]ボタンか[Color #373737][Color #00BB27][U+E001][Color #373737][Color #373737]ボタンを[Ruby 押;お]すと\n[Color #373737][Color #FF4343]マリオ[Color #373737][Ruby 達;たち][Color #373737]が [Ruby 動;うご]けるようになるの。[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/i_tainai_01#51",
+   "label": "MES_Guide_tainai_01_kt_point_16",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00][0005:0000:]こしのツボ"
+  },
+  {
+   "id": "FMsg/i_tainai_01#52",
+   "label": "MES_Guide_tainai_01_kt_point_17",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00][0005:0000:]パワースペース むね"
+  },
+  {
+   "id": "FMsg/i_tainai_01#53",
+   "label": "MES_EV_SPeach_1F_08_SP1F08_ystar_01",
+   "style": 9,
+   "attr": "00000000",
+   "jp": "[0009:0000:09 00][0001:0004:][0001:0001:]どうしたの！？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_tainai_01#54",
+   "label": "MES_Gepu_01_Gepu_koopa_ystar_01",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]クッパの[Ruby 体;からだ]の[Ruby 中;なか]には [Ruby 他;ほか]にも\n[Ruby 部屋;へや]が あるのね…[0002:0001:][Next][Color #2C64FF][Ruby 丸;まる]いポイント[Color #373737][Color #373737]が\n[Ruby 部屋;へや]のある[Ruby 場所;ばしょ]なんだわ。[0002:0001:][Next][Ruby 道;みち]をたどって いろんな[Ruby 部屋;へや]に\n[Ruby 入;はい]ってみましょう。[0002:0001:][Next][0001:0004:][Color #2C64FF][U+E077][Color #373737]で[Ruby 動;うご]いても いいし…[0002:0001:][Next][Ruby 行;い]きたいポイントに\n[Color #373737][Color #2C64FF]タッチ[Color #373737][Color #373737]してもOKよ。[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/i_tainai_01#55",
+   "label": "MES_Gepu_02_Gepu_koopa_23",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Color #FF4343]マリオ[Color #373737][Ruby 達;たち][Color #373737]が[Ruby 動;うご]きたいときは\n[Color #373737][Color #FF4343][U+E000][Color #373737][Color #373737]ボタンか[Color #373737][Color #00BB27][U+E001][Color #373737][Color #373737]ボタン。[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/i_tainai_01#56",
+   "label": "MES_Guide_tainai_01_kt_point_18",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00][0005:0000:]エアースペース"
+  },
+  {
+   "id": "FMsg/i_tainai_01#57",
+   "label": "MES_Gepu_01_Gepu_koopa_ystar_02",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]やっと ゴチャゴチャしたところから\nぬけだせた みたいね…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_tainai_01#58",
+   "label": "MES_Guide_tainai_01_kt_point_19",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00][0005:0000:]チャレンジホール"
+  },
+  {
+   "id": "FMsg/i_tainai_01#59",
+   "label": "MES_Mushiba_11_Mushi_11_ystar_06",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:][Ruby 見;み]て！[0002:0000:0A 00]\nあそこのスペース…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_tainai_01#60",
+   "label": "MES_Gepu_01_Gepu_koopa_ystar_03",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ふーん…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_tainai_01#61",
+   "label": "MES_Mushiba_11_Mushi_11_ystar_07",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]なにか[Ruby 変化;へんか]が [Ruby 起;お]きたみたいだわ！\n[Ruby 行;い]ってみましょう！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_tainai_01#62",
+   "label": "MES_i_tainai_01_kinopio_00",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]お[Ruby 知;し]らせで～す！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_tainai_01#63",
+   "label": "MES_Gepu_01_Gepu_koopa_ystar_04",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]どこかに これからの\n[Ruby 準備;じゅんび]が できる[Ruby 場所;ばしょ]…[0002:0001:][Next][0001:0004:]ないかしら…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_tainai_01#64",
+   "label": "MES_TKinoko_03_Kinoko_town_chka_koopa_04",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]なんだったの？ [Ruby 今;いま]のは！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_tainai_01#65",
+   "label": "MES_i_tainai_01_kinopio_01",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]そうびショップの [Ruby 品;しな]ぞろえが\n[Ruby 新;あたら]しくなりました！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_tainai_01#66",
+   "label": "MES_TKinoko_03_Kinoko_town_chka_koopa_05",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ねえ！[0002:0000:0A 00] なにがあったの？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_tainai_01#67",
+   "label": "MES_i_tainai_01_kinopio_02",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]アイテムショップの [Ruby 品;しな]ぞろえが\n[Ruby 新;あたら]しくなりました！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_tainai_01#68",
+   "label": "MES_sys_guide_add",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0005:0000:][0001:0001:][Color #4ED4FF]フィールドガイド[Color #E6E6E6]に\n[Ruby 項目;こうもく]が[Ruby 追加;ついか]されました。[0002:0000:1E 00][0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_tainai_01#69",
+   "label": "MES_TKinoko_03_Kinoko_town_chka_koopa_06",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]どうしたのかしら…[0002:0001:][Next]ちょっと [Ruby 歩;ある]き[Ruby 回;まわ]って\n[Ruby 様子;ようす]を[Ruby 見;み]てみましょうか。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_tainai_01#70",
+   "label": "MES_i_tainai_01_kinopio_03",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ヘモグロジュースが\n[Ruby 特別;とくべつ]セール[Ruby 中;ちゅう]です！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_tainai_01#71",
+   "label": "MES_i_tainai_01_kinopio_05",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ぜひ キノピオひろばに\nお[Ruby 立;た]ち[Ruby 寄;よ]りくださ～い！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_tainai_01#72",
+   "label": "MES_Ekubon_15_Ekubon_giga_carrot_26_3",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]クッパの [Color #2C64FF]いぶくろ[Color #373737][Color #373737]に\n[Ruby 反応;はんのう] アリよ！！[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/i_tainai_01#73",
+   "label": "MES_Ibiki_03_Tlight_tuto__ystar_01",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:][0001:0001:][Ruby 見;み]て！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_tainai_01#74",
+   "label": "MES_Ibiki_03_Tlight_tuto__ystar_02",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]なにか[Ruby 変化;へんか]が [Ruby 起;お]きたみたいだわ！\n[Ruby 行;い]ってみましょう！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_tainai_01#75",
+   "label": "MES_EV_SKoopa_18_2_ESK182_ystar_01",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]どうやら どこかに\n[Ruby 捨;す]てられちゃったようね…[0002:0001:]"
+  }
+ ]
+}

@@ -1,0 +1,40 @@
+{
+ "source": "Msg/JP_ja/FMsg.dat:o_mushiba_16",
+ "messages": [
+  {
+   "id": "FMsg/o_mushiba_16#0",
+   "label": "MES_Mushiba_16_Kocky_mes_10",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ガケは ここから[Color #2C64FF][Ruby 西;にし][Color #373737]だよ～！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_mushiba_16#1",
+   "label": "MES_SAVE_BLOCK_recovery",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0001:0001:][0005:0000:]HPとBPの[Ruby 回復;かいふく]も\n[Ruby 忘;わす]れないようにしましょう。[0002:0000:0A 00][0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_mushiba_16#2",
+   "label": "MES_Mushiba_16_Kocky_mes_06",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]おしらせ！ おしらせ～！[0002:0001:][Next][Color #2C64FF]ガケ[Color #373737][Color #373737]は ここから[Color #373737][Color #2C64FF][Ruby 西;にし][Color #373737][Color #373737]だよ～！[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/o_mushiba_16#3",
+   "label": "MES_Mushiba_16_Kocky_mes_08",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]おしらせ！ おしらせ～！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_mushiba_16#4",
+   "label": "MES_Mushiba_16_Kocky_mes_09",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]はやく ３つ[Ruby 目;め]のワクチンを\n[Ruby 見;み]つけて ほしいでしょう！[0002:0001:][Next]３つ[Ruby 目;め]のワクチンは\n[Color #2C64FF]ガケの[Ruby 上;うえ][Color #373737][Color #373737]にあるでしょう！[0002:0001:][Color #373737]"
+  }
+ ]
+}

@@ -1,0 +1,293 @@
+{
+ "batch": "FMsg__i_power_nose_01",
+ "rooms": [
+  "i_power_nose_01"
+ ],
+ "ds_rooms": [
+  "155"
+ ],
+ "ds_reference": [
+  "DS155#0: 위에서 떨어지는 건\n꽃가루야…",
+  "DS155#1: 이게 쿠파의 코를\n자극하고 있나 봐!",
+  "DS155#2: 이 벽에 꽃가루를 맞히면\n쿠파의 몸에 무슨 변화가\n일어나지 않을까?",
+  "DS155#3: 터치펜으로 마리오 형제를\n빠르게 슬라이드하면\n꽃가루를 튕겨 낼 수 있겠어.",
+  "DS155#4: 꽃가루를 튕겨 낼 수 있겠어.",
+  "DS155#5: 꽃가루가 벽에 닿으면\n반응해서 색이 바뀌나 봐!",
+  "DS155#6: 지금처럼 모든 벽에\n꽃가루를 부딪혀 봐!",
+  "DS155#7: 벽이 격렬하게\n반응하고 있어…",
+  "DS155#8: 이번엔 튀어나온 이 벽을\n마리오 형제가 직접\n자극해 보자!",
+  "DS155#9: 아야!!",
+  "DS155#10: 이건 아까\n꽃가루와는 다르네!",
+  "DS155#11: 가시 꽃가루에 닿으면\n하트가 하나\n줄어드나 봐…",
+  "DS155#12: 하트가 모두\n없어지지 않도록\n조심해!",
+  "DS155#13: 가시 꽃가루에\n닿지 않도록\n조심해, 마리오!",
+  "DS155#14: 예를 들면 이렇게\n마리오 형제를 슬라이드하면…",
+  "DS155#15: 슬라이드한 방향으로\n움직일 수 있어!",
+  "DS155#16: 이런 식으로\n마리오 형제를 움직여서…",
+  "DS155#17: 꽃가루를 벽 쪽으로\n튕겨 내 보자!",
+  "DS155#18: 트"
+ ],
+ "glossary": [
+  {
+   "jp": "クッパ",
+   "ko": "쿠파",
+   "type": "character",
+   "basis": "DS",
+   "source": "BData__mfset_Help#21",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "マリオ",
+   "ko": "마리오",
+   "type": "character",
+   "basis": "DS",
+   "source": "BData__mfset_Help#19",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "スライド",
+   "ko": "슬라이드",
+   "type": "term",
+   "basis": "DS",
+   "source": "BData__mfset_AItmE#5",
+   "note": "터치펜 조작 [gl_attacks]"
+  },
+  {
+   "jp": "トゲ花粉",
+   "ko": "가시 꽃가루",
+   "type": "term",
+   "basis": "DS",
+   "source": "i_power_nose_01#15 ↔ DS155#11",
+   "note": "room-align"
+  },
+  {
+   "jp": "マリオ達",
+   "ko": "마리오 일행",
+   "type": "term",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesOutline#16",
+   "note": "[gl_menu_places]"
+  },
+  {
+   "jp": "タッチ",
+   "ko": "터치",
+   "type": "ui",
+   "basis": "DS",
+   "source": "BData__mfset_AItmE#6",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "タッチペン",
+   "ko": "터치펜",
+   "type": "ui",
+   "basis": "DS",
+   "source": "BAI__BMes_cf#0.4",
+   "note": "붙여 씀 [gl_attacks]"
+  }
+ ],
+ "messages": [
+  {
+   "id": "FMsg/i_power_nose_01#0",
+   "label": "MES_SA_SUB_KPower_nose_02_SA_NOSE_TUT_11AT",
+   "style": 6,
+   "src": "こんなふうに\nマリオ達を 動かして… ",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/i_power_nose_SA_peppansy_01_L#0"
+   ]
+  },
+  {
+   "id": "FMsg/i_power_nose_01#1",
+   "label": "MES_SA_SUB_KPower_nose_02_SA_NOSE_TUT_3AT",
+   "style": 6,
+   "src": "マリオ達を タッチペンで\n{1:color}すばやく スライド{2:color}{3:color}すれば\n花粉を{4:color} {5:color}はじき飛ばせそうね。{6:color}",
+   "tags": {
+    "1": "[Color #2C64FF]",
+    "2": "[Color #373737]",
+    "3": "[Color #373737]",
+    "4": "[Color #2C64FF]",
+    "5": "[Color #373737]",
+    "6": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/i_power_nose_SA_peppansy_01_L#1"
+   ]
+  },
+  {
+   "id": "FMsg/i_power_nose_01#2",
+   "label": "MES_SA_SUB_KPower_nose_02_SA_NOSE_TUT_4BT",
+   "style": 6,
+   "src": "この調子で 全部の かべに\n花粉を 当ててみましょう！ ",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/i_power_nose_SA_peppansy_01_L#2"
+   ]
+  },
+  {
+   "id": "FMsg/i_power_nose_01#3",
+   "label": "MES_SA_SUB_KPower_nose_02_SA_NOSE_TUT_8T",
+   "style": 6,
+   "src": "マリオ！ トゲ花粉に\n当たらないように気をつけてね！ ",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/i_power_nose_SA_peppansy_01_L#3"
+   ]
+  },
+  {
+   "id": "FMsg/i_power_nose_01#4",
+   "label": "MES_SA_SUB_KPower_nose_02_SA_NOSE_TUT_01BT",
+   "style": 6,
+   "src": "それで クッパの鼻が\n反応してたのね！ ",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/i_power_nose_SA_peppansy_01_L#4"
+   ]
+  },
+  {
+   "id": "FMsg/i_power_nose_01#5",
+   "label": "MES_SA_SUB_KPower_nose_02_SA_NOSE_TUT_10T",
+   "style": 6,
+   "src": "{1:color}スライド{2:color}{3:color}した方向に\n動けるわ！ {4:color}",
+   "tags": {
+    "1": "[Color #2C64FF]",
+    "2": "[Color #373737]",
+    "3": "[Color #373737]",
+    "4": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/i_power_nose_SA_peppansy_01_L#5"
+   ]
+  },
+  {
+   "id": "FMsg/i_power_nose_01#7",
+   "label": "MES_SA_SUB_KPower_nose_02_SA_NOSE_TUT_6AT",
+   "style": 6,
+   "src": "{1:align}{2:mode}なに！？ {3:pause}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0005:0000:]",
+    "3": "[0002:0000:0F 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/i_power_nose_SA_peppansy_01_L#7"
+   ]
+  },
+  {
+   "id": "FMsg/i_power_nose_01#8",
+   "label": "MES_SA_SUB_KPower_nose_02_SA_NOSE_TUT_7BT",
+   "style": 6,
+   "src": "ハートが\nなくならないように\n気をつけてね！ ",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/i_power_nose_SA_peppansy_01_L#8"
+   ]
+  },
+  {
+   "id": "FMsg/i_power_nose_01#9",
+   "label": "MES_SA_SUB_KPower_nose_02_SA_NOSE_TUT_4AT",
+   "style": 6,
+   "src": "花粉が かべに当たると\n反応して 色が かわるのね！ ",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/i_power_nose_SA_peppansy_01_L#9"
+   ]
+  },
+  {
+   "id": "FMsg/i_power_nose_01#10",
+   "label": "MES_SA_SUB_KPower_nose_02_SA_NOSE_TUT_5BT",
+   "style": 6,
+   "src": "次は このかべをマリオ達で\n直接 シゲキしちゃいましょう！ ",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/i_power_nose_SA_peppansy_01_L#10"
+   ]
+  },
+  {
+   "id": "FMsg/i_power_nose_01#11",
+   "label": "MES_SA_SUB_KPower_nose_02_SA_NOSE_TUT_01AT",
+   "style": 6,
+   "src": "上から 落ちてくるのは\n花粉だわ… ",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/i_power_nose_SA_peppansy_01_L#11"
+   ]
+  },
+  {
+   "id": "FMsg/i_power_nose_01#12",
+   "label": "MES_SA_SUB_KPower_nose_02_SA_NOSE_TUT_11BT",
+   "style": 6,
+   "src": "花粉を かべの方に\nはじき飛ばしてみましょう！ ",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/i_power_nose_SA_peppansy_01_L#12"
+   ]
+  },
+  {
+   "id": "FMsg/i_power_nose_01#13",
+   "label": "MES_SA_SUB_KPower_nose_02_SA_NOSE_TUT_9T",
+   "style": 6,
+   "src": "たとえば こうやって\nマリオ達を なぞると… ",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/i_power_nose_SA_peppansy_01_L#13"
+   ]
+  },
+  {
+   "id": "FMsg/i_power_nose_01#14",
+   "label": "MES_SA_SUB_KPower_nose_02_SA_NOSE_TUT_02T",
+   "style": 6,
+   "src": "このかべに 花粉を 当てれば\nクッパの体に なにか\n起きるんじゃないかしら？ ",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/i_power_nose_SA_peppansy_01_L#14"
+   ]
+  },
+  {
+   "id": "FMsg/i_power_nose_01#15",
+   "label": "MES_SA_SUB_KPower_nose_02_SA_NOSE_TUT_7AT",
+   "style": 6,
+   "src": "トゲ花粉に 当たると\nハートが １つ\n減っちゃうのね… ",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/i_power_nose_SA_peppansy_01_L#15"
+   ]
+  },
+  {
+   "id": "FMsg/i_power_nose_01#16",
+   "label": "MES_SA_SUB_KPower_nose_02_SA_NOSE_TUT_5AT",
+   "style": 6,
+   "src": "かべが 激しく反応してるわね… ",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/i_power_nose_SA_peppansy_01_L#17"
+   ]
+  },
+  {
+   "id": "FMsg/i_power_nose_01#17",
+   "label": "MES_SA_SUB_KPower_nose_02_SA_NOSE_TUT_6BT",
+   "style": 6,
+   "src": "これは さっきの\n花粉とは ちがうわ！ ",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/i_power_nose_SA_peppansy_01_L#18"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,47 @@
+{
+ "batch": "FMsg__ev_MAIN_town_20",
+ "rooms": [
+  "ev_MAIN_town_20"
+ ],
+ "ds_rooms": [
+  "21D"
+ ],
+ "ds_reference": [
+  "DS21D#0: 버섯 타운"
+ ],
+ "glossary": [
+  {
+   "jp": "キノコ",
+   "ko": "버섯",
+   "type": "item",
+   "basis": "DS",
+   "source": "BData__mfset_UItmN#0",
+   "note": "일반 명사 キノコ도 버섯(キノコタウン=버섯 타운) [gl_items]"
+  },
+  {
+   "jp": "キノコタウン",
+   "ko": "버섯 타운",
+   "type": "place",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesPlace#8",
+   "note": "[gl_kj]"
+  }
+ ],
+ "messages": [
+  {
+   "id": "FMsg/ev_MAIN_town_20#0",
+   "label": "MES_EV_MAIN_TKinoko_20_Opening_Tkinoko_13",
+   "style": 6,
+   "src": "{1:align}{2:mode}キノコタウン{3:pause}",
+   "tags": {
+    "1": "[0001:0001:]",
+    "2": "[0005:0000:]",
+    "3": "[0002:0000:78 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/o_town_20_op_01_U#0"
+   ]
+  }
+ ]
+}

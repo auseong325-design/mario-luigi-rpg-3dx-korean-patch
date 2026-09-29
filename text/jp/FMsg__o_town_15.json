@@ -1,0 +1,68 @@
+{
+ "source": "Msg/JP_ja/FMsg.dat:o_town_15",
+ "messages": [
+  {
+   "id": "FMsg/o_town_15#0",
+   "label": "MES_TKinoko_15_Kinoko_town_bridge_01",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]これは…！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_15#1",
+   "label": "MES_TKinoko_15_Kinoko_town_bridge_02",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ダークスター…[0002:0000:0A 00]\nダークスターのパワーが\n[Ruby 目覚;めざ]め[Ruby 始;はじ]めたんだわ…[0002:0001:][Next][0001:0004:]このガードを\nなんとかしないと…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_15#2",
+   "label": "MES_TKinoko_15_Kinoko_town_bridge_03",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]そうね… ここは１[Ruby 度;ど]\nキノコタウンに [Ruby 行;い]って\n[Ruby 対策;たいさく]を [Ruby 考;かんが]えましょう。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_15#3",
+   "label": "MES_TKinoko_15_Kinoko_town_bridge_04",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]またまた ざーんねーん！[0002:0000:0A 00]\nふるるるるるるる！[0002:0001:][Next]でも まだ\n[Ruby 安心;あんしん]していられるるよ～[0002:0001:][Next]ダークスターの[Ruby 封印;ふういん]が\n[Ruby 完全;かんぜん]に とかれたとき！[0002:0001:][Next]そのときこそ このキノコ[Ruby 王国;おうこく]は\n[Ruby 暗黒;あんこく]に そまるるるる！[0002:0001:][Next]それまで せいぜい\n[Ruby 買;か]いものでも [Ruby 楽;たの]しんでおくるる～[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_15#4",
+   "label": "MES_TKinoko_15_Kinoko_town_bridge_05",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ふるるるるるる！！[0002:0000:1E 00]"
+  },
+  {
+   "id": "FMsg/o_town_15#5",
+   "label": "MES_TKinoko_15_Miracle_wak_01",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]さあ！[0002:0000:0A 00] ミラクルワクチンを！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_15#6",
+   "label": "MES_TKinoko_15_Miracle_wak_02",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]いよいよね…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_15#7",
+   "label": "MES_TKinoko_15_Miracle_wak_03",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 行;い]きましょう！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_15#8",
+   "label": "MES_SAVE_BLOCK_recovery",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0001:0001:][0005:0000:]HPとBPの[Ruby 回復;かいふく]も\n[Ruby 忘;わす]れないようにしましょう。[0002:0000:0A 00][0002:0001:]"
+  }
+ ]
+}

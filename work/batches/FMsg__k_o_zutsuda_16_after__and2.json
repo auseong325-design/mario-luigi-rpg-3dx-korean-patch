@@ -1,0 +1,763 @@
+{
+ "batch": "FMsg__k_o_zutsuda_16_after__and2",
+ "rooms": [
+  "k_o_zutsuda_16_after",
+  "k_o_zutsuda_29",
+  "k_o_zutsuda_30"
+ ],
+ "ds_rooms": [],
+ "ds_reference": [],
+ "glossary": [
+  {
+   "jp": "カメック",
+   "ko": "마귀",
+   "type": "character",
+   "basis": "DS",
+   "source": "FEvent:1A3#13",
+   "note": "쿠파주니어의 돌보미(카멕 개인)도 같은 표기. RPG1 DX 한국판 쿠파군단 RPG도 '마귀' [gl_kj]"
+  },
+  {
+   "jp": "クッパ",
+   "ko": "쿠파",
+   "type": "character",
+   "basis": "DS",
+   "source": "BData__mfset_Help#21",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "ラリー",
+   "ko": "래리",
+   "type": "character",
+   "basis": "official",
+   "source": "https://www.nintendo.com/kr/switch/aabpa/sp/character/",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "レミー",
+   "ko": "레미",
+   "type": "character",
+   "basis": "official",
+   "source": "https://www.nintendo.com/kr/switch/aabpa/sp/character/",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "ギガニンジン",
+   "ko": "기가 당근",
+   "type": "item",
+   "basis": "DS",
+   "source": "DS033 \"기가 당근!!\"",
+   "note": ""
+  },
+  {
+   "jp": "ガリナールZ",
+   "ko": "홀쭉해Z",
+   "type": "key_item",
+   "basis": "coined",
+   "source": "FMsg/k_o_koopa_08#4",
+   "note": "ガリ(홀쭉)+ナール(-해지다) 말장난 [gl_kj]"
+  },
+  {
+   "jp": "ゲプーキュウコン",
+   "ko": "꺼억구근",
+   "type": "key_item",
+   "basis": "coined",
+   "source": "FMsg/k_o_ekubon_15#7",
+   "note": "ゲップー(DS '꺼억 케이프')+球根 [gl_kj]"
+  },
+  {
+   "jp": "サプリ",
+   "ko": "영양제",
+   "type": "key_item",
+   "basis": "coined",
+   "source": "Menu#250",
+   "note": "뚱뚱데굴병 치료 영양제. 회사명 속 サプリ만 '서플리먼트' [gl_kj]"
+  },
+  {
+   "jp": "マンネンアイス",
+   "ko": "만년얼음",
+   "type": "key_item",
+   "basis": "coined",
+   "source": "FMsg/k_o_ekubon_15#7",
+   "note": "이름을 틀리는 개그(テンネンボイス 등)는 '만년얼음'에 맞춰 재구성 [gl_kj]"
+  },
+  {
+   "jp": "マッサージ",
+   "ko": "마사지",
+   "type": "other",
+   "basis": "DS",
+   "source": "BData__mfset_MiniGame#7",
+   "note": "블로즈 미니 게임. DS 이름은 '블로즈 마사지'(MiniGame#10) [gl_attacks]"
+  },
+  {
+   "jp": "ぼっちゃん",
+   "ko": "도련님",
+   "type": "term",
+   "basis": "coined",
+   "source": "MenuKJ#93",
+   "note": "마귀·쿠파 7인조·부하들이 쿠파주니어를 부르는 말. DS에 없음 [gl_kj]"
+  },
+  {
+   "jp": "キュウコン",
+   "ko": "구근",
+   "type": "term",
+   "basis": "coined",
+   "source": "FMsg/k_o_gepu_08#8",
+   "note": "「球の根っこ」는 '알뿌리'로 풀이 [gl_kj]"
+  },
+  {
+   "jp": "クッパ様",
+   "ko": "쿠파님",
+   "type": "term",
+   "basis": "DS",
+   "source": "BAI__BMes_cf:0#0",
+   "note": "부하들이 부를 때 [gl_kj]"
+  },
+  {
+   "jp": "を手に入れた！",
+   "ko": "획득했다!",
+   "type": "ui",
+   "basis": "DS",
+   "source": "BAI__BMes_ji#1.0",
+   "note": "시스템 알림 '○○을/를 획득했다!'(조사는 받침에 맞게) [gl_menu_places]"
+  },
+  {
+   "jp": "パワフル",
+   "ko": "파워풀",
+   "type": "ui",
+   "basis": "coined",
+   "source": "MenuKJ#60",
+   "note": "서브 리더 수식어(로이). DS '파워풀배지' 표기 [gl_kj]"
+  }
+ ],
+ "messages": [
+  {
+   "id": "FMsg/k_o_zutsuda_16_after#0",
+   "label": "Kjrpg_09_Zutsuda_qst07_04",
+   "style": 6,
+   "src": "クッパ様！{1:pause}\n大丈夫ですか！？{2:wait}",
+   "tags": {
+    "1": "[0002:0000:18 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_zutsuda_16_after#1",
+   "label": "Kjrpg_09_Zutsuda_qst07_05",
+   "style": 6,
+   "src": "クッパ様～！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_zutsuda_16_after#2",
+   "label": "Kjrpg_09_Zutsuda_qst07_06",
+   "style": 6,
+   "src": "ラリー！{1:pause}\nレミー！{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0C 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_zutsuda_16_after#3",
+   "label": "Kjrpg_09_Zutsuda_qst07_07",
+   "style": 6,
+   "src": "は！{1:pause}\nぼっちゃん！{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0E 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_zutsuda_16_after#4",
+   "label": "Kjrpg_09_Zutsuda_qst07_08",
+   "style": 6,
+   "src": "ぼっちゃん！{1:pause}\n大変なんです！{2:wait}",
+   "tags": {
+    "1": "[0002:0000:10 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_zutsuda_16_after#5",
+   "label": "Kjrpg_09_Zutsuda_qst07_09",
+   "style": 6,
+   "src": "クッパ様が このデッカいのに\n潰されちゃったんです！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_zutsuda_16_after#6",
+   "label": "Kjrpg_09_Zutsuda_qst07_10",
+   "style": 6,
+   "src": "ええええ！？{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_zutsuda_16_after#7",
+   "label": "Kjrpg_09_Zutsuda_qst07_11",
+   "style": 9,
+   "src": "うわわわわわ！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:09 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_zutsuda_16_after#9",
+   "label": "Kjrpg_09_Zutsuda_qst07_13",
+   "style": 9,
+   "src": "ここは危険です。{1:pause}\n離れましょう！{2:wait}",
+   "tags": {
+    "1": "[0002:0000:14 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:09 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_zutsuda_29#0",
+   "label": "Kjrpg_06_Zutsuda_qst03_30",
+   "style": 6,
+   "src": "マンネンアイスをくだいて…{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_zutsuda_29#1",
+   "label": "Kjrpg_06_Zutsuda_qst03_31",
+   "style": 6,
+   "src": "ゆっくり こうして…{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_zutsuda_29#2",
+   "label": "Kjrpg_06_Zutsuda_qst03_32",
+   "style": 6,
+   "src": "やさしく ああして…{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_zutsuda_29#3",
+   "label": "Kjrpg_06_Zutsuda_qst03_33",
+   "style": 6,
+   "src": "最後に…{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_zutsuda_29#4",
+   "label": "Kjrpg_06_Zutsuda_qst03_34",
+   "style": 7,
+   "src": "ドーン！",
+   "tags": {},
+   "header": "[0009:0000:07 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_zutsuda_29#5",
+   "label": "Kjrpg_06_Zutsuda_qst03_35",
+   "style": 6,
+   "src": "ドーンって言っちゃったよ。{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_zutsuda_29#6",
+   "label": "Kjrpg_06_Zutsuda_qst03_36",
+   "style": 6,
+   "src": "ドーンって言っちゃいましたね…{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_zutsuda_29#7",
+   "label": "Kjrpg_06_Zutsuda_qst03_38",
+   "style": 6,
+   "src": "終わったわ。{1:pause}どうぞ。{2:wait}",
+   "tags": {
+    "1": "[0002:0000:14 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_zutsuda_29#8",
+   "label": "Kjrpg_06_Zutsuda_qst03_39",
+   "style": 6,
+   "src": "マジか！？{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_zutsuda_29#9",
+   "label": "Kjrpg_06_Zutsuda_qst03_22",
+   "style": 6,
+   "src": "まずは…{1:pause}\nしたごしらえね…{2:wait}[Next]ギガニンジンと\nゲプーキュウコンをみじん切り…{3:wait}",
+   "tags": {
+    "1": "[0002:0000:1E 00]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_zutsuda_29#10",
+   "label": "Kjrpg_06_Zutsuda_qst03_24",
+   "style": 6,
+   "src": "次に…{1:pause}\n弱火で じっくり やさしく いためて…{2:wait}",
+   "tags": {
+    "1": "[0002:0000:1E 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_zutsuda_29#11",
+   "label": "Kjrpg_06_Zutsuda_qst03_25",
+   "style": 6,
+   "src": "だいじょうぶか？{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_zutsuda_29#12",
+   "label": "Kjrpg_06_Zutsuda_qst03_26",
+   "style": 6,
+   "src": "彼女は信頼できます。{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_zutsuda_29#13",
+   "label": "Kjrpg_06_Zutsuda_qst03_27",
+   "style": 6,
+   "src": "さらに ていねいに やさしくすりつぶす…{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_zutsuda_29#14",
+   "label": "Kjrpg_06_Zutsuda_qst03_28",
+   "style": 6,
+   "src": "おいおい…{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_zutsuda_29#15",
+   "label": "Kjrpg_06_Zutsuda_qst03_29",
+   "style": 6,
+   "src": "たしかにセリフと\n状況がかみあってない気が…{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_zutsuda_30#0",
+   "label": "Kjrpg_06_Zutsuda_qst03_40",
+   "style": 6,
+   "src": "できたわ…{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_zutsuda_30#1",
+   "label": "Kjrpg_06_Zutsuda_qst03_41",
+   "style": 6,
+   "src": "ひさびさだから\nフンパツ しちゃったわ…{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_zutsuda_30#2",
+   "label": "Kjrpg_06_Zutsuda_qst03_42",
+   "style": 6,
+   "src": "たくさん あるわよ。{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_zutsuda_30#3",
+   "label": "Kjrpg_06_Zutsuda_qst03_43",
+   "style": 12,
+   "src": "{1:align}{2:mode}{3:color}ガリナールZ（２００錠入り）{4:color}を手に入れた！{5:pause}{6:wait}",
+   "tags": {
+    "1": "[0001:0001:]",
+    "2": "[0005:0000:]",
+    "3": "[Color #4ED4FF]",
+    "4": "[Color #E6E6E6]",
+    "5": "[0002:0000:0A 00]",
+    "6": "[0002:0001:]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_zutsuda_30#4",
+   "label": "MES_LZutsuda_30_LZ30_rose_03",
+   "style": 6,
+   "src": "{1:align}{2:align}いらっしゃい…{3:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/o_zutsuda_30#11"
+   ]
+  },
+  {
+   "id": "FMsg/k_o_zutsuda_30#5",
+   "label": "Kjrpg_06_Zutsuda_qst03_10",
+   "style": 6,
+   "src": "そんなに話は 早くないわ。{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_zutsuda_30#6",
+   "label": "Kjrpg_06_Zutsuda_qst03_11",
+   "style": 6,
+   "src": "わたくし今 肩とか腰とかくるぶしとか…{1:pause}\nいろんなところが凝ってるの…{2:wait}",
+   "tags": {
+    "1": "[0002:0000:2D 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_zutsuda_30#7",
+   "label": "Kjrpg_06_Zutsuda_qst03_12",
+   "style": 6,
+   "src": "それをほぐさないと…{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_zutsuda_30#8",
+   "label": "Kjrpg_06_Zutsuda_qst03_13",
+   "style": 6,
+   "src": "ん？{1:pause}\nぶっ叩けばいいのか？{2:wait}",
+   "tags": {
+    "1": "[0002:0000:14 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_zutsuda_30#9",
+   "label": "Kjrpg_06_Zutsuda_qst03_14",
+   "style": 6,
+   "src": "あら。{1:pause}たのもしいわね。{2:pause}\nそうね…{3:wait}[Next]パワフルにぶっ叩くか…{4:pause}\n細かくモミモミするか…{5:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0000:1E 00]",
+    "3": "[0002:0001:]",
+    "4": "[0002:0000:2D 00]",
+    "5": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_zutsuda_30#10",
+   "label": "Kjrpg_06_Zutsuda_qst03_15",
+   "style": 6,
+   "src": "色々やってもらいたいわ。{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_zutsuda_30#11",
+   "label": "Kjrpg_06_Zutsuda_qst03_16",
+   "style": 6,
+   "src": "遠慮なしでいい ってことだな！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_zutsuda_30#12",
+   "label": "Kjrpg_06_Zutsuda_qst03_17",
+   "style": 6,
+   "src": "じゃあ やってもらおうかしら…{1:pause}\nただし…{2:wait}[Next]ちょっとでも 手が止まったら\nフヌケとみなすわよ…{3:wait}",
+   "tags": {
+    "1": "[0002:0000:2D 00]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_zutsuda_30#13",
+   "label": "Kjrpg_06_Zutsuda_qst03_18",
+   "style": 6,
+   "src": "ああ…{1:pause} いいわ…{2:pause}\nカラダの シコりがなくなって…{3:wait}",
+   "tags": {
+    "1": "[0002:0000:32 00]",
+    "2": "[0002:0000:32 00]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_zutsuda_30#14",
+   "label": "Kjrpg_06_Zutsuda_qst03_19",
+   "style": 6,
+   "src": "カラダが アツくてしかたがないわ。{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_zutsuda_30#15",
+   "label": "MES_LZutsuda_30_LZ30_rose_26",
+   "style": 6,
+   "src": "{1:align}それじゃ…{2:pause} お願いね…{3:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0000:0A 00]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/o_zutsuda_30#22"
+   ]
+  },
+  {
+   "id": "FMsg/k_o_zutsuda_30#16",
+   "label": "MES_LZutsuda_30_LZ30_rose_28",
+   "style": 6,
+   "src": "また {1:pause}マッサージにきてくれたの？{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_zutsuda_30#17",
+   "label": "Kjrpg_06_Zutsuda_qst03_01",
+   "style": 6,
+   "src": "いらっしゃい。{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_zutsuda_30#18",
+   "label": "Kjrpg_06_Zutsuda_qst03_02",
+   "style": 6,
+   "src": "ひさしぶりだね。{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_zutsuda_30#19",
+   "label": "Kjrpg_06_Zutsuda_qst03_03",
+   "style": 6,
+   "src": "まぁ…{1:pause} カメックさん。{2:pause}\nおひさしぶり。{3:wait}[Next]また お会いできてうれしいわ。{4:pause}\n最近は なにしてらしたの？{5:wait}",
+   "tags": {
+    "1": "[0002:0000:2C 00]",
+    "2": "[0002:0000:0E 00]",
+    "3": "[0002:0001:]",
+    "4": "[0002:0000:1E 00]",
+    "5": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_zutsuda_30#20",
+   "label": "Kjrpg_06_Zutsuda_qst03_04",
+   "style": 6,
+   "src": "昔から 変わらずさ。{1:pause}\nクッパ様に仕えてるよ。{2:wait}",
+   "tags": {
+    "1": "[0002:0000:14 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_zutsuda_30#21",
+   "label": "Kjrpg_06_Zutsuda_qst03_05",
+   "style": 6,
+   "src": "ああ。{1:pause}クッパ様ね…{2:pause}\nお会いしたことないけど…{3:wait}",
+   "tags": {
+    "1": "[0002:0000:08 00]",
+    "2": "[0002:0000:28 00]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_zutsuda_30#22",
+   "label": "Kjrpg_06_Zutsuda_qst03_06",
+   "style": 6,
+   "src": "そちらの方は？{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_zutsuda_30#23",
+   "label": "Kjrpg_06_Zutsuda_qst03_07",
+   "style": 6,
+   "src": "あいさつとか いいから\n早く サプリ作ってよ。{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_zutsuda_30#24",
+   "label": "Kjrpg_06_Zutsuda_qst03_08",
+   "style": 6,
+   "src": "あら。{1:pause}元気なぼっちゃんね。{2:pause}\nほほえましいわ…{3:wait}[Next]わたくしに作ってほしい\nサプリというと…{4:pause} アレのことね。{5:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0000:14 00]",
+    "3": "[0002:0001:]",
+    "4": "[0002:0000:2E 00]",
+    "5": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_zutsuda_30#25",
+   "label": "Kjrpg_06_Zutsuda_qst03_09",
+   "style": 6,
+   "src": "話が早いね。{1:pause}\nじゃあ さっそく…{2:wait}",
+   "tags": {
+    "1": "[0002:0000:14 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_zutsuda_30#26",
+   "label": "Kjrpg_06_Zutsuda_qst03_20",
+   "style": 6,
+   "src": "早く サプリ作ってよ。{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_zutsuda_30#27",
+   "label": "Kjrpg_06_Zutsuda_qst03_21",
+   "style": 6,
+   "src": "ぼうや…{1:pause}\nせっかちはいけないわ。{2:wait}[Next]オンナは色々と\n準備が必要なの…{3:wait}[Next]少しだけ わたくしに\n時間をいただけるかしら…{4:wait}",
+   "tags": {
+    "1": "[0002:0000:28 00]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0001:]",
+    "4": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  }
+ ]
+}

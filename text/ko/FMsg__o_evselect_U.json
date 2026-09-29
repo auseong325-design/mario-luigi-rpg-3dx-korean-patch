@@ -1,0 +1,10 @@
+{
+ "batch": "FMsg__o_evselect_U",
+ "translations": {
+  "FMsg/o_evselect_U#0": "{1:align}{2:mode}{3:icon}자리 이동 {4:icon}값 변경 {5:icon}결정"
+ },
+ "new_terms": [],
+ "notes": {
+  "FMsg/o_evselect_U#0": "개발용 이벤트 선택 화면(MES_work_omit_01)의 숫자 입력 조작 안내. ケタの移動=자리 이동, 数値の変更=값 변경, 決定=결정으로 짧게 옮김."
+ }
+}

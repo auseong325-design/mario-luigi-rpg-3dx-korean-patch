@@ -1,0 +1,145 @@
+{
+ "source": "Msg/JP_ja/FMsg.dat:o_koopa_19",
+ "messages": [
+  {
+   "id": "FMsg/o_koopa_19#0",
+   "label": "MES_SKoopa_19_Koopa_statue_10",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ど[0002:0000:0A 00] どうするんだよ！[0002:0001:][Next][Ruby 相手;あいて] [Ruby 強;つよ]そうだぞ！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_koopa_19#1",
+   "label": "MES_SKoopa_19_Koopa_statue_11",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 城内;じょうない]にいる[Ruby 連中;れんちゅう]を\n[Ruby 集;あつ]めてこい！！[0002:0001:][Next][0001:0004:][0001:0001:][Ruby 急;いそ]げ！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_koopa_19#2",
+   "label": "MES_SKoopa_19_Koopa_statue_12",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]い[0002:0000:0A 00] いくぞーー！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_koopa_19#3",
+   "label": "MES_SKoopa_19_Koopa_statue_13",
+   "style": 10,
+   "attr": "00000000",
+   "jp": "[0009:0000:0A 00]そりゃーーー！！！！！[0002:0000:1E 00]"
+  },
+  {
+   "id": "FMsg/o_koopa_19#4",
+   "label": "MES_SKoopa_19_Koopa_statue_15",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ふんばれ～～！[0002:0000:1E 00]"
+  },
+  {
+   "id": "FMsg/o_koopa_19#5",
+   "label": "MES_SKoopa_19_Koopa_statue_18",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]このまま [Ruby 落;お]としちゃえ～！[0002:0000:1E 00]"
+  },
+  {
+   "id": "FMsg/o_koopa_19#6",
+   "label": "MES_SKoopa_19_Koopa_statue_19",
+   "style": 9,
+   "attr": "00000000",
+   "jp": "[0009:0000:09 00][Ruby 落;お]とされてたまるか～！！[0002:0000:1E 00]"
+  },
+  {
+   "id": "FMsg/o_koopa_19#7",
+   "label": "MES_work_omit_06",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0004:0001:]ミニゲーム失敗\n[0004:0001:]ミニゲーム成功[0002:0000:1E 00]"
+  },
+  {
+   "id": "FMsg/o_koopa_19#8",
+   "label": "MES_SKoopa_19_Koopa_statue_03",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]シュミのわるい[Ruby 像;ぞう]を\n[Ruby 作;つく]りおって！！[0002:0001:][Next][0001:0004:]ぶちこわしてやる！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_koopa_19#9",
+   "label": "MES_SKoopa_19_Koopa_statue_04",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ん…？[0002:0000:0A 00] [Ruby 待;ま]てよ…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_koopa_19#10",
+   "label": "MES_SKoopa_19_Koopa_statue_05",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 確;たし]か あの[Ruby 下;した]あたりに…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_koopa_19#11",
+   "label": "MES_SKoopa_19_Koopa_statue_06",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]あれは！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_koopa_19#12",
+   "label": "MES_SKoopa_19_Koopa_statue_07",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 大変;たいへん]だ！[0002:0000:0A 00]\nゲラコビッツ[Ruby 様;さま]の[Ruby 像;ぞう]が！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_koopa_19#13",
+   "label": "MES_SKoopa_19_Koopa_statue_08",
+   "style": 9,
+   "attr": "00000000",
+   "jp": "[0009:0000:09 00]ぬおおおおおおお！！[0002:0000:1E 00]"
+  },
+  {
+   "id": "FMsg/o_koopa_19#14",
+   "label": "MES_SKoopa_19_Koopa_statue_09",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]メタボス[Ruby 様;さま]も\nゲラコビッツ[Ruby 様;さま]もいない！[0002:0001:][Next]ここは オレ[Ruby 達;たち]だけで\n[Ruby 食;く]い[Ruby 止;と]めるんだ！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_koopa_19#15",
+   "label": "MES_SKoopa_19_Koopa_statue_20",
+   "style": 9,
+   "attr": "00000000",
+   "jp": "[0009:0000:09 00]このまま いっきに\n[Ruby 押;お]し[Ruby 出;だ]してやるわーー！！[0002:0000:1E 00]"
+  },
+  {
+   "id": "FMsg/o_koopa_19#16",
+   "label": "MES_SKoopa_19_Koopa_statue_21",
+   "style": 9,
+   "attr": "00000000",
+   "jp": "[0009:0000:09 00]のわーーーー！！[0002:0000:1E 00]"
+  },
+  {
+   "id": "FMsg/o_koopa_19#17",
+   "label": "MES_SKoopa_19_Koopa_statue_22",
+   "style": 9,
+   "attr": "00000000",
+   "jp": "[0009:0000:09 00]オマエら…[0002:0000:1E 00] [Ruby 目;め]を[Ruby 覚;さ]ませ～！[0002:0000:28 00]"
+  },
+  {
+   "id": "FMsg/o_koopa_19#18",
+   "label": "MES_SKoopa_19_Koopa_statue_23",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 負;ま]けるな～！[0002:0000:1E 00]"
+  },
+  {
+   "id": "FMsg/o_koopa_19#19",
+   "label": "MES_SKoopa_19_Koopa_statue_25",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]おい！[0002:0000:0A 00] また[Ruby 来;き]たぞ！[0002:0001:][Next]こりないやつだ！[0002:0000:0A 00]\nいくぞ～！！！[0002:0001:]"
+  }
+ ]
+}

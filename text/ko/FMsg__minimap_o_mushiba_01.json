@@ -1,0 +1,12 @@
+{
+  "batch": "FMsg__minimap_o_mushiba_01",
+  "translations": {
+    "FMsg/minimap_o_mushiba_01#0": "아마 이 근처 어디랑…{1:wait}",
+    "FMsg/minimap_o_mushiba_01#1": "여기 어디랑…{1:wait}",
+    "FMsg/minimap_o_mushiba_01#2": "아마 여기…{1:pause}\n였었지…?{2:wait}"
+  },
+  "new_terms": [],
+  "notes": {
+    "FMsg/minimap_o_mushiba_01#2": "러즐(リューグー)이 지도에 표시하는 장면. DS044#0~2 그대로."
+  }
+}

@@ -1,0 +1,2390 @@
+{
+ "batch": "Item__p2",
+ "rooms": [
+  "Item"
+ ],
+ "ds_rooms": [],
+ "ds_reference": [
+  "@file work/batches/_refs_Item.txt (462 DS lines shared by all Item batches - read it once)"
+ ],
+ "glossary": [
+  {
+   "jp": "すいこみ",
+   "ko": "빨아들이기",
+   "type": "ability",
+   "basis": "DS",
+   "source": "FEvent#063.43",
+   "note": "히라가나 표기 [gl_attacks]"
+  },
+  {
+   "jp": "みきり",
+   "ko": "간파",
+   "type": "ability",
+   "basis": "coined",
+   "source": "BMsg/b_sys#1193",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "ハンマー",
+   "ko": "해머",
+   "type": "ability",
+   "basis": "DS",
+   "source": "BData__mfset_Help#10",
+   "note": "필드 액션·배틀 커맨드 공통(입수 아이템명도 해머, MenuMes#41). 힘을 ためる→'파워를 모으다'(BAI__BMes_cf#5.5) [gl_attacks]"
+  },
+  {
+   "jp": "パンチ",
+   "ko": "펀치",
+   "type": "ability",
+   "basis": "DS",
+   "source": "BData__mfset_Help#14",
+   "note": "필드 액션·배틀 커맨드 공통 [gl_attacks]"
+  },
+  {
+   "jp": "ブラザーアタック",
+   "ko": "스페셜 어택",
+   "type": "attack",
+   "basis": "DS",
+   "source": "BAI__BMes_cf#4.1",
+   "note": "DS 대응문(어택피스로 스페셜 어택을↔アタックパーツでブラザーアタックが)으로 같은 대상 확인. 3DX에서 スペシャルアタック을 개칭한 것. 후속작 공식 표기는 '브라더 어택'(https://www.nintendo.com/kr/switch/a8e6a/battle/index.html) — 개칭 반영 여부 확인 필요 [gl_attacks]"
+  },
+  {
+   "jp": "クッパ",
+   "ko": "쿠파",
+   "type": "character",
+   "basis": "DS",
+   "source": "BData__mfset_Help#21",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "マリオ",
+   "ko": "마리오",
+   "type": "character",
+   "basis": "DS",
+   "source": "BData__mfset_Help#19",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "ルイージ",
+   "ko": "루이지",
+   "type": "character",
+   "basis": "DS",
+   "source": "BData__mfset_Help#20",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "BPソックス",
+   "ko": "SP양말",
+   "type": "gear",
+   "basis": "DS",
+   "source": "BData__mfset_WearN#57",
+   "note": "DS 일본판 SPソックス가 3DX에서 BPソックス로(BP=SP) [gl_items]"
+  },
+  {
+   "jp": "BPソックスDX",
+   "ko": "SP양말DX",
+   "type": "gear",
+   "basis": "DS",
+   "source": "BData__mfset_WearN#60",
+   "note": "DS 일본판 SPソックスDX(BP=SP) [gl_items]"
+  },
+  {
+   "jp": "Dスターウェア",
+   "ko": "D스타웨어",
+   "type": "gear",
+   "basis": "DS",
+   "source": "BData__mfset_WearN#42",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "EXPソックス",
+   "ko": "EXP양말",
+   "type": "gear",
+   "basis": "DS",
+   "source": "BData__mfset_WearN#84",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "HPソックス",
+   "ko": "HP양말",
+   "type": "gear",
+   "basis": "DS",
+   "source": "BData__mfset_WearN#51",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "HPソックスDX",
+   "ko": "HP양말DX",
+   "type": "gear",
+   "basis": "DS",
+   "source": "BData__mfset_WearN#54",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "POWブーツ",
+   "ko": "POW부츠",
+   "type": "gear",
+   "basis": "DS",
+   "source": "BData__mfset_WearN#141",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "あんしんゆびわ",
+   "ko": "안심반지",
+   "type": "gear",
+   "basis": "DS",
+   "source": "BData__mfset_WearN#393",
+   "note": "DS에선 HP 20% UP 효과였으나 이름 같음 [gl_items]"
+  },
+  {
+   "jp": "あんぜんコウラ",
+   "ko": "안전등껍질",
+   "type": "gear",
+   "basis": "DS",
+   "source": "BData__mfset_WearN#264",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "おいうちスカーフ",
+   "ko": "추격스카프",
+   "type": "gear",
+   "basis": "coined",
+   "source": "Item:N_Accessory24",
+   "note": "3DX 신규(화상·어질어질 적에게 크리티컬). おいうち=추격 [gl_items]"
+  },
+  {
+   "jp": "きゅうけつうでわ",
+   "ko": "흡혈팔찌",
+   "type": "gear",
+   "basis": "DS",
+   "source": "BData__mfset_WearN#309",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "きんきらきば",
+   "ko": "반짝반짝이빨",
+   "type": "gear",
+   "basis": "DS",
+   "source": "BData__mfset_WearN#357",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "しゃくねつきば",
+   "ko": "이글이빨",
+   "type": "gear",
+   "basis": "DS",
+   "source": "BData__mfset_WearN#339",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "しゃくねつきばDX",
+   "ko": "이글이빨DX",
+   "type": "gear",
+   "basis": "coined",
+   "source": "Item:N_Fung14",
+   "note": "3DX 신규. DS 이글이빨(しゃくねつきば) + DX [gl_items]"
+  },
+  {
+   "jp": "すいこみきば",
+   "ko": "흡입이빨",
+   "type": "gear",
+   "basis": "coined",
+   "source": "Item:N_Fung13",
+   "note": "3DX 신규(バキューム으로 콩 흡입). 흡입팔찌와 통일 [gl_items]"
+  },
+  {
+   "jp": "だいおうコウラ",
+   "ko": "대왕등껍질",
+   "type": "gear",
+   "basis": "coined",
+   "source": "Item:N_Shell00",
+   "note": "DS 초기 장비 オンボロこうら=꼬질꼬질등껍질(WearN#258)이 3DX에서 だいおうコウラ(대왕)로 개명되어 새로 지음 [gl_items]"
+  },
+  {
+   "jp": "てっけんうでわ",
+   "ko": "철권팔찌",
+   "type": "gear",
+   "basis": "DS",
+   "source": "BData__mfset_WearN#306",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "でしゃばりきば",
+   "ko": "나대기이빨",
+   "type": "gear",
+   "basis": "DS",
+   "source": "BData__mfset_WearN#351",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "とくちゅうコウラ",
+   "ko": "특별제작등껍질",
+   "type": "gear",
+   "basis": "DS",
+   "source": "BData__mfset_WearN#261",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "ふいうちスカーフ",
+   "ko": "기습스카프",
+   "type": "gear",
+   "basis": "coined",
+   "source": "Item:N_Accessory25",
+   "note": "3DX 신규(선제공격 위력 UP). ふいうち=기습 [gl_items]"
+  },
+  {
+   "jp": "ほねほねきば",
+   "ko": "탄탄이빨",
+   "type": "gear",
+   "basis": "DS",
+   "source": "BData__mfset_WearN#348",
+   "note": "DS·3DX 미니게임 상품 자리도 일치(MesDat_MiniGame#50) [gl_items]"
+  },
+  {
+   "jp": "みきりグラス",
+   "ko": "간파안경",
+   "type": "gear",
+   "basis": "coined",
+   "source": "Item:N_Accessory23",
+   "note": "3DX 신규(적의 움직임을 간파해 자동 방어). みきり=간파, グラス=안경(DS 보물안경) [gl_items]"
+  },
+  {
+   "jp": "もろはのきば",
+   "ko": "양날이빨",
+   "type": "gear",
+   "basis": "coined",
+   "source": "Item:N_Fung12",
+   "note": "3DX 신규(적과 함께 대미지를 받는 위험한 이빨). もろは=양날 [gl_items]"
+  },
+  {
+   "jp": "アイテムグラブ",
+   "ko": "아이템글러브",
+   "type": "gear",
+   "basis": "DS",
+   "source": "BData__mfset_WearN#132",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "アダルトウェア",
+   "ko": "어덜트웨어",
+   "type": "gear",
+   "basis": "DS",
+   "source": "BData__mfset_WearN#18",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "イライラきば",
+   "ko": "부글부글이빨",
+   "type": "gear",
+   "basis": "DS",
+   "source": "BData__mfset_WearN#345",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "エンジェルソックス",
+   "ko": "엔젤양말",
+   "type": "gear",
+   "basis": "DS",
+   "source": "BData__mfset_WearN#102",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "カウンターゆびわ",
+   "ko": "반격반지",
+   "type": "gear",
+   "basis": "coined",
+   "source": "Item:N_Ring14",
+   "note": "3DX 신규. カウンター=반격(반격양말과 통일) [gl_items]"
+  },
+  {
+   "jp": "カウンターゆびわDX",
+   "ko": "반격반지DX",
+   "type": "gear",
+   "basis": "coined",
+   "source": "Item:N_Ring15",
+   "note": "3DX 신규. 반격반지 + DX [gl_items]"
+  },
+  {
+   "jp": "カウンターソックス",
+   "ko": "반격양말",
+   "type": "gear",
+   "basis": "coined",
+   "source": "Item:N_Socks19",
+   "note": "3DX 신규. DS는 전투 カウンター를 '반격'으로 옮김(BAI__BMes_cf#2.1) [gl_items]"
+  },
+  {
+   "jp": "カチコチゆびわ",
+   "ko": "단단반지",
+   "type": "gear",
+   "basis": "DS",
+   "source": "BData__mfset_WearN#396",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "キングウェア",
+   "ko": "킹웨어",
+   "type": "gear",
+   "basis": "DS",
+   "source": "BData__mfset_WearN#36",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "ギラギラきば",
+   "ko": "번뜩번뜩이빨",
+   "type": "gear",
+   "basis": "coined",
+   "source": "Item:N_Fung11",
+   "note": "3DX 신규. ギラギラ를 DS식 반복 의태어로 [gl_items]"
+  },
+  {
+   "jp": "コインソックス",
+   "ko": "코인양말",
+   "type": "gear",
+   "basis": "DS",
+   "source": "BData__mfset_WearN#66",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "ゴツゴツソックス",
+   "ko": "울퉁불퉁양말",
+   "type": "gear",
+   "basis": "DS",
+   "source": "BData__mfset_WearN#81",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "スタミナうでわ",
+   "ko": "스태미나팔찌",
+   "type": "gear",
+   "basis": "DS",
+   "source": "BData__mfset_WearN#312",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "スターウェア",
+   "ko": "스타웨어",
+   "type": "gear",
+   "basis": "DS",
+   "source": "BData__mfset_WearN#39",
+   "note": "jp가 マスターウェア 안에도 들어 있어 마스터웨어 문장에서 검사기 경고가 날 수 있음(무시) [gl_items]"
+  },
+  {
+   "jp": "スピードスター",
+   "ko": "스피드스타",
+   "type": "gear",
+   "basis": "coined",
+   "source": "Item:N_Accessory22",
+   "note": "3DX 신규. 음차 [gl_items]"
+  },
+  {
+   "jp": "スペシャルブーツ",
+   "ko": "스페셜부츠",
+   "type": "gear",
+   "basis": "DS",
+   "source": "BData__mfset_WearN#150",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "セツヤクベルト",
+   "ko": "절약벨트",
+   "type": "gear",
+   "basis": "DS",
+   "source": "BData__mfset_WearN#186",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "チャレンジメダル",
+   "ko": "챌린지메달",
+   "type": "gear",
+   "basis": "DS",
+   "source": "BData__mfset_WearN#237",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "テッペキソックス",
+   "ko": "철벽양말",
+   "type": "gear",
+   "basis": "DS",
+   "source": "BData__mfset_WearN#87",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "デリシャスグラブ",
+   "ko": "딜리셔스글러브",
+   "type": "gear",
+   "basis": "DS",
+   "source": "BData__mfset_WearN#120",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "ドクターソックス",
+   "ko": "닥터양말",
+   "type": "gear",
+   "basis": "DS",
+   "source": "BData__mfset_WearN#93",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "ナースソックス",
+   "ko": "간호사양말",
+   "type": "gear",
+   "basis": "DS",
+   "source": "BData__mfset_WearN#90",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "ハンターうでわ",
+   "ko": "헌터팔찌",
+   "type": "gear",
+   "basis": "DS",
+   "source": "BData__mfset_WearN#315",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "ハートウェア",
+   "ko": "하트웨어",
+   "type": "gear",
+   "basis": "DS",
+   "source": "BData__mfset_WearN#12",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "バイバイグラブ",
+   "ko": "바이바이글러브",
+   "type": "gear",
+   "basis": "DS",
+   "source": "BData__mfset_WearN#126",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "パワーうでわ",
+   "ko": "파워팔찌",
+   "type": "gear",
+   "basis": "DS",
+   "source": "BData__mfset_WearN#294",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "パワーうでわSP",
+   "ko": "파워팔찌SP",
+   "type": "gear",
+   "basis": "DS",
+   "source": "BData__mfset_WearN#297",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "ピクニックウェア",
+   "ko": "피크닉웨어",
+   "type": "gear",
+   "basis": "DS",
+   "source": "BData__mfset_WearN#3",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "ファイターウェア",
+   "ko": "파이터웨어",
+   "type": "gear",
+   "basis": "DS",
+   "source": "BData__mfset_WearN#9",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "フラワーグラブ",
+   "ko": "플라워글러브",
+   "type": "gear",
+   "basis": "DS",
+   "source": "BData__mfset_WearN#123",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "ブロックきば",
+   "ko": "블록이빨",
+   "type": "gear",
+   "basis": "DS",
+   "source": "BData__mfset_WearN#354",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "ペラペラウェア",
+   "ko": "헐렁헐렁웨어",
+   "type": "gear",
+   "basis": "DS",
+   "source": "BData__mfset_WearN#0",
+   "note": "AGENTS.md 4.4 확정 예 [gl_items]"
+  },
+  {
+   "jp": "ボコスカうでわ",
+   "ko": "부대공격팔찌",
+   "type": "gear",
+   "basis": "DS",
+   "source": "BData__mfset_WearN#300",
+   "note": "DS: 아이템명의 ボコスカ=부대공격 [gl_items]"
+  },
+  {
+   "jp": "ボコスカうでわSP",
+   "ko": "부대공격팔찌SP",
+   "type": "gear",
+   "basis": "DS",
+   "source": "BData__mfset_WearN#303",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "ボコスカきば",
+   "ko": "부대공격이빨",
+   "type": "gear",
+   "basis": "coined",
+   "source": "Item:N_Fung15",
+   "note": "3DX 신규. DS ボコスカうでわ=부대공격팔찌 짜임 [gl_items]"
+  },
+  {
+   "jp": "マスターウェア",
+   "ko": "마스터웨어",
+   "type": "gear",
+   "basis": "DS",
+   "source": "BData__mfset_WearN#33",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "マッスルウェア",
+   "ko": "울끈불끈웨어",
+   "type": "gear",
+   "basis": "DS",
+   "source": "BData__mfset_WearN#30",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "ムキムキウェア",
+   "ko": "우락부락웨어",
+   "type": "gear",
+   "basis": "DS",
+   "source": "BData__mfset_WearN#15",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "ムラムラソックス",
+   "ko": "찔끔찔끔양말",
+   "type": "gear",
+   "basis": "DS",
+   "source": "BData__mfset_WearN#96",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "メキメキソックス",
+   "ko": "부쩍부쩍양말",
+   "type": "gear",
+   "basis": "DS",
+   "source": "BData__mfset_WearN#99",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "メディカルソックス",
+   "ko": "메디컬양말",
+   "type": "gear",
+   "basis": "coined",
+   "source": "Item:N_Socks18",
+   "note": "3DX 신규. 메디컬웨어와 통일 [gl_items]"
+  },
+  {
+   "jp": "メラメラブーツ",
+   "ko": "이글이글부츠",
+   "type": "gear",
+   "basis": "coined",
+   "source": "Item:N_Boots09",
+   "note": "3DX 신규(방어 성공 시 적을 화상). DS 같은 자리 코인부츠(WearN#168)는 삭제. メラメラ=이글이글 [gl_items]"
+  },
+  {
+   "jp": "ヤワヤワグラブ",
+   "ko": "보들보들글러브",
+   "type": "gear",
+   "basis": "DS",
+   "source": "BData__mfset_WearN#129",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "リベンジワッペン",
+   "ko": "리벤지패치",
+   "type": "gear",
+   "basis": "coined",
+   "source": "Item:N_Accessory21",
+   "note": "3DX 신규. ワッペン=패치(DS 추천패치 등) [gl_items]"
+  },
+  {
+   "jp": "レンジャーウェア",
+   "ko": "레인저웨어",
+   "type": "gear",
+   "basis": "DS",
+   "source": "BData__mfset_WearN#6",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "ウルトラナッツ",
+   "ko": "울트라너트",
+   "type": "item",
+   "basis": "DS",
+   "source": "BData__mfset_UItmN#42",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "キノコ",
+   "ko": "버섯",
+   "type": "item",
+   "basis": "DS",
+   "source": "BData__mfset_UItmN#0",
+   "note": "일반 명사 キノコ도 버섯(キノコタウン=버섯 타운) [gl_items]"
+  },
+  {
+   "jp": "ゴーストクッキー",
+   "ko": "고스트쿠키",
+   "type": "item",
+   "basis": "official",
+   "source": "https://www.mariowiki.com/Boo_Biscuit",
+   "note": "3DX 신규(DS엔 없음). 정발작(드림 어드벤처·브라더십 등) Boo Biscuit의 한국어명(위키 기재, 출처 미표기) [gl_items]"
+  },
+  {
+   "jp": "シロップ",
+   "ko": "시럽",
+   "type": "item",
+   "basis": "DS",
+   "source": "BData__mfset_UItmN#18",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "ジェントルマメ",
+   "ko": "젠틀콩",
+   "type": "item",
+   "basis": "coined",
+   "source": "Item:N_LuckyMame",
+   "note": "3DX 신규(최대 HIGE 또는 TSUNO +1). ジェントル(신사=콧수염) 음차 유지, DS 콩 짜임 [gl_items]"
+  },
+  {
+   "jp": "スペシャルマメ",
+   "ko": "스페셜콩",
+   "type": "item",
+   "basis": "DS",
+   "source": "BData__mfset_UItmN#51",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "スーパーシロップ",
+   "ko": "슈퍼시럽",
+   "type": "item",
+   "basis": "DS",
+   "source": "BData__mfset_UItmN#21",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "スーパーナッツ",
+   "ko": "슈퍼너트",
+   "type": "item",
+   "basis": "DS",
+   "source": "BData__mfset_UItmN#39",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "チーズ",
+   "ko": "치즈",
+   "type": "item",
+   "basis": "coined",
+   "source": "Item:N_Cheese",
+   "note": "3DX 신규(쿠파 BP 회복). DS 시럽 계열 짜임 [gl_items]"
+  },
+  {
+   "jp": "チーズチキン",
+   "ko": "치즈치킨",
+   "type": "item",
+   "basis": "coined",
+   "source": "Item:N_CheeseChicken",
+   "note": "3DX 신규(쿠파 HP·BP 완전 회복). DS 치킨 짜임 [gl_items]"
+  },
+  {
+   "jp": "ディフェンスマメ",
+   "ko": "디펜스콩",
+   "type": "item",
+   "basis": "coined",
+   "source": "Item:N_DefMame",
+   "note": "3DX 신규. DS 콩은 하트/스페셜/파워콩 3종뿐(UItmN#48-56)이라 같은 짜임(음차+콩) [gl_items]"
+  },
+  {
+   "jp": "ナッツ",
+   "ko": "너트",
+   "type": "item",
+   "basis": "DS",
+   "source": "BData__mfset_UItmN#36",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "パワーマメ",
+   "ko": "파워콩",
+   "type": "item",
+   "basis": "DS",
+   "source": "BData__mfset_UItmN#54",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "ピリからチキン",
+   "ko": "약간매운치킨",
+   "type": "item",
+   "basis": "DS",
+   "source": "BData__mfset_UItmN#66",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "１UPキノコ",
+   "ko": "1UP버섯",
+   "type": "item",
+   "basis": "DS",
+   "source": "BData__mfset_UItmN#12",
+   "note": "3DX는 전각 １ [gl_items]"
+  },
+  {
+   "jp": "BP",
+   "ko": "SP",
+   "type": "term",
+   "basis": "DS",
+   "source": "BAI__BMes_cf#4.13",
+   "note": "3DX의 BP(브라더/보코스카 포인트)=DS의 SP. 3DX 화면 이미지(능력치·HUD)의 BP 표기와 맞출지 결정 필요 — 확인 필요. 후속작 공식은 'BP(브라더 포인트)' [gl_attacks]"
+  },
+  {
+   "jp": "DEF",
+   "ko": "DEF",
+   "type": "term",
+   "basis": "DS",
+   "source": "BData__mfset_WearE#23",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "DEFがアップ",
+   "ko": "DEF가 증가",
+   "type": "term",
+   "basis": "DS",
+   "source": "BData__mfset_WearE#23",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "EXP",
+   "ko": "EXP",
+   "type": "term",
+   "basis": "DS",
+   "source": "BData__mfset_BadgeEffectE#11",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "HP",
+   "ko": "HP",
+   "type": "term",
+   "basis": "DS",
+   "source": "BAI__BMes_cf#2.11",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "HPが ６５回復",
+   "ko": "HP를 65 회복",
+   "type": "term",
+   "basis": "DS",
+   "source": "BData__mfset_UItmE2#14",
+   "note": "DS 문형, 수치만 3DX(DS는 80) [gl_items]"
+  },
+  {
+   "jp": "HPが ８０回復",
+   "ko": "HP를 80 회복",
+   "type": "term",
+   "basis": "DS",
+   "source": "BData__mfset_UItmE2#22",
+   "note": "쿠파의 HP를 80 회복 [gl_items]"
+  },
+  {
+   "jp": "POW",
+   "ko": "POW",
+   "type": "term",
+   "basis": "DS",
+   "source": "BData__mfset_WearE#35",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "POWがアップ",
+   "ko": "POW가 증가",
+   "type": "term",
+   "basis": "DS",
+   "source": "BData__mfset_WearE#35",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "SPEED",
+   "ko": "SPEED",
+   "type": "term",
+   "basis": "DS",
+   "source": "BData__mfset_MonN#52",
+   "note": "DS 설명문은 '스피드'(RankUpE#22) [gl_attacks]"
+  },
+  {
+   "jp": "うでわ",
+   "ko": "팔찌",
+   "type": "term",
+   "basis": "DS",
+   "source": "MData__mfset_ShopMes#48",
+   "note": "장비 종류명 [gl_items]"
+  },
+  {
+   "jp": "きば",
+   "ko": "이빨",
+   "type": "term",
+   "basis": "DS",
+   "source": "BData__mfset_WearN#327",
+   "note": "장비 종류명(쿠파). DS 파워이빨 등 [gl_items]"
+  },
+  {
+   "jp": "さいだい",
+   "ko": "최대",
+   "type": "term",
+   "basis": "DS",
+   "source": "BData__mfset_UItmE2#16",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "さいだいSPEEDが １ポイントアップ",
+   "ko": "최대 SPEED가 1포인트 증가",
+   "type": "term",
+   "basis": "DS",
+   "source": "BData__mfset_UItmE2#18",
+   "note": "DS 문형 [gl_items]"
+  },
+  {
+   "jp": "ふいうち",
+   "ko": "기습",
+   "type": "term",
+   "basis": "coined",
+   "source": "Item:N_Accessory25",
+   "note": "기습스카프·기습팔찌와 통일 [gl_items]"
+  },
+  {
+   "jp": "ぼうぎょ",
+   "ko": "방어",
+   "type": "term",
+   "basis": "DS",
+   "source": "BAI__BMes_cf#3.8",
+   "note": "히라가나 표기 [gl_attacks]"
+  },
+  {
+   "jp": "ぼうぎょアクション",
+   "ko": "방어 액션",
+   "type": "term",
+   "basis": "coined",
+   "source": "Item:E_Wear07",
+   "note": "3DX 신규 표현. DS엔 대응 표기 없음 [gl_items]"
+  },
+  {
+   "jp": "ゆびわ",
+   "ko": "반지",
+   "type": "term",
+   "basis": "DS",
+   "source": "MData__mfset_ShopMes#49",
+   "note": "장비 종류명 [gl_items]"
+  },
+  {
+   "jp": "アクション",
+   "ko": "액션",
+   "type": "term",
+   "basis": "DS",
+   "source": "FEvent#152.21",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "アタック",
+   "ko": "어택",
+   "type": "term",
+   "basis": "DS",
+   "source": "BDataMiniGame__mfset_MesDat_MiniGame#5",
+   "note": "스페셜 어택을 줄여 부를 때. 단 퀴즈의 パンチアタック/ファイアアタック은 DS대로 '~ 공격' [gl_attacks]"
+  },
+  {
+   "jp": "アップ",
+   "ko": "업",
+   "type": "term",
+   "basis": "DS",
+   "source": "FEvent:0EC#11",
+   "note": "「POWアップ」→'POW 업'(DS '파워 업') [gl_kj]"
+  },
+  {
+   "jp": "ウェア",
+   "ko": "웨어",
+   "type": "term",
+   "basis": "DS",
+   "source": "MData__mfset_ShopMes#42",
+   "note": "장비 종류명 [gl_items]"
+  },
+  {
+   "jp": "エンカウント",
+   "ko": "인카운트",
+   "type": "term",
+   "basis": "coined",
+   "source": "",
+   "note": "DS는 '몬스터와 닿으면 배틀이 시작'(FEvent#16A.22)처럼 풀어 씀. 문장에선 풀어 써도 됨 [gl_attacks]"
+  },
+  {
+   "jp": "エンカウント攻撃",
+   "ko": "선제공격",
+   "type": "term",
+   "basis": "DS",
+   "source": "FEvent#28D.25",
+   "note": "3DX 장비 설명의 표현. 先制攻撃과 같은 것으로 봄 [gl_attacks]"
+  },
+  {
+   "jp": "カウンター",
+   "ko": "반격",
+   "type": "term",
+   "basis": "DS",
+   "source": "BAI__BMes_cf#2.1",
+   "note": "カウンターする→반격하다 [gl_attacks]"
+  },
+  {
+   "jp": "クリティカル",
+   "ko": "크리티컬",
+   "type": "term",
+   "basis": "DS",
+   "source": "FEvent#16A.14",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "グラブ",
+   "ko": "글러브",
+   "type": "term",
+   "basis": "DS",
+   "source": "MData__mfset_ShopMes#44",
+   "note": "장비 종류명 [gl_items]"
+  },
+  {
+   "jp": "コイン",
+   "ko": "코인",
+   "type": "term",
+   "basis": "DS",
+   "source": "BData__mfset_WearE#22",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "コウラ",
+   "ko": "등껍질",
+   "type": "term",
+   "basis": "DS",
+   "source": "BAI__BMes_cf#8.1",
+   "note": "쿠파의 방어 커맨드(Y)·등껍질 일반 [gl_attacks]"
+  },
+  {
+   "jp": "ソックス",
+   "ko": "양말",
+   "type": "term",
+   "basis": "DS",
+   "source": "MData__mfset_ShopMes#43",
+   "note": "장비 종류명 [gl_items]"
+  },
+  {
+   "jp": "ダメージ",
+   "ko": "타격",
+   "type": "term",
+   "basis": "DS",
+   "source": "DS '타격' 32회 / '대미지' 5회",
+   "note": "'타격을 입히다/입다'. 숫자·연속 공격 문맥은 '대미지' 허용(DS: 연속 대미지)"
+  },
+  {
+   "jp": "チキン",
+   "ko": "치킨",
+   "type": "term",
+   "basis": "DS",
+   "source": "BData__mfset_WearE#98",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "チャレンジ",
+   "ko": "챌린지",
+   "type": "term",
+   "basis": "DS",
+   "source": "FEvent#28A.60",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "バッジ",
+   "ko": "배지",
+   "type": "term",
+   "basis": "DS",
+   "source": "BData__mfset_BadgeN#0",
+   "note": "AGENTS.md 4.4 확정 표기 [gl_items]"
+  },
+  {
+   "jp": "バッジパワー",
+   "ko": "배지 파워",
+   "type": "term",
+   "basis": "coined",
+   "source": "",
+   "note": "배지 게이지를 채우는 것. 3DX 신규 체계 [gl_attacks]"
+  },
+  {
+   "jp": "バッジメーター",
+   "ko": "배지 게이지",
+   "type": "term",
+   "basis": "coined",
+   "source": "",
+   "note": "DS는 '게이지'(BAI__BMes_cf#6.7) [gl_attacks]"
+  },
+  {
+   "jp": "バトル",
+   "ko": "배틀",
+   "type": "term",
+   "basis": "DS",
+   "source": "BAI__BMes_cf#2.13",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "ブーツ",
+   "ko": "부츠",
+   "type": "term",
+   "basis": "DS",
+   "source": "MData__mfset_ShopMes#45",
+   "note": "장비 종류명 [gl_items]"
+  },
+  {
+   "jp": "ポイントアップ",
+   "ko": "포인트 증가",
+   "type": "term",
+   "basis": "DS",
+   "source": "BData__mfset_UItmE2#16",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "マメ",
+   "ko": "콩",
+   "type": "term",
+   "basis": "DS",
+   "source": "MData__mfset_MenuMes#136",
+   "note": "DS '콩이라는 아이템', '획득한 콩의 수' [gl_items]"
+  },
+  {
+   "jp": "マリオとルイージの",
+   "ko": "마리오와 루이지의",
+   "type": "term",
+   "basis": "DS",
+   "source": "BData__mfset_UItmE2#12",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "メーター",
+   "ko": "게이지",
+   "type": "term",
+   "basis": "DS",
+   "source": "BAI__BMes_cf#6.7",
+   "note": "배지 게이지를 가리킬 때. 다른 계기(コレメーター 등)는 해당 항목대로 [gl_attacks]"
+  },
+  {
+   "jp": "ラッキーヒット",
+   "ko": "럭키 히트",
+   "type": "term",
+   "basis": "DS",
+   "source": "BData__mfset_RankUpE#24",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "ワッペン",
+   "ko": "패치",
+   "type": "term",
+   "basis": "DS",
+   "source": "BData__mfset_WearN#192",
+   "note": "DS オススメワッペン=추천패치 [gl_items]"
+  },
+  {
+   "jp": "一撃で",
+   "ko": "일격에",
+   "type": "term",
+   "basis": "DS",
+   "source": "BData__mfset_WearE#42",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "大幅にアップ",
+   "ko": "대폭 증가",
+   "type": "term",
+   "basis": "coined",
+   "source": "BData__mfset_WearE#35",
+   "note": "DS 'アップ=증가' 문형 [gl_items]"
+  },
+  {
+   "jp": "威力",
+   "ko": "위력",
+   "type": "term",
+   "basis": "DS",
+   "source": "BData__mfset_WearE#11",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "威力がアップ",
+   "ko": "위력이 증가",
+   "type": "term",
+   "basis": "DS",
+   "source": "BData__mfset_WearE#11",
+   "note": "DS 일본판 '威力が25%アップ' = '위력이 25% 증가' [gl_items]"
+  },
+  {
+   "jp": "少しアップ",
+   "ko": "조금 증가",
+   "type": "term",
+   "basis": "coined",
+   "source": "BData__mfset_WearE#35",
+   "note": "DS 'アップ=증가' 문형에 정도 부사만 더함 [gl_items]"
+  },
+  {
+   "jp": "攻撃",
+   "ko": "공격",
+   "type": "term",
+   "basis": "DS",
+   "source": "BAI__BMes_cf#2.1",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "そうび",
+   "ko": "장비",
+   "type": "ui",
+   "basis": "DS",
+   "source": "MData__mfset_MenuMes#1",
+   "note": "명사(스타 메뉴 항목·장비품). 동사 そうびする는 '착용하다'(ShopMes#14) [gl_menu_places]"
+  },
+  {
+   "jp": "そうびなし",
+   "ko": "장비 없음",
+   "type": "ui",
+   "basis": "DS",
+   "source": "BData__mfset_WearN#417",
+   "note": "장비 칸 빈 상태(Item N_None, Menu_Sys_invalid_equip_name) [gl_items]"
+  },
+  {
+   "jp": "とくしゅ効果なし",
+   "ko": "특수 효과 없음",
+   "type": "ui",
+   "basis": "DS",
+   "source": "BData__mfset_WearE#0",
+   "note": "3DX는 전각 괄호 ［］, DS는 [ ] [gl_items]"
+  },
+  {
+   "jp": "はいっぱいです！",
+   "ko": "FULL!",
+   "type": "ui",
+   "basis": "DS",
+   "source": "BData__mfset_UItmN#2",
+   "note": "소지 한도 메시지. DS는 '이름 FULL!' 형식(버섯 FULL!): 이름 뒤 한 칸 띄우고 FULL! [gl_items]"
+  },
+  {
+   "jp": "アイテム",
+   "ko": "아이템",
+   "type": "ui",
+   "basis": "DS",
+   "source": "BData__mfset_Help#13",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "マス",
+   "ko": "칸",
+   "type": "ui",
+   "basis": "coined",
+   "source": "MenuKJ#71",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "メダル",
+   "ko": "메달",
+   "type": "ui",
+   "basis": "DS",
+   "source": "BData__mfset_WearN#237",
+   "note": "DS '챌린지메달' [gl_kj]"
+  }
+ ],
+ "messages": [
+  {
+   "id": "Item#112",
+   "label": "E_Bracelet14",
+   "style": 3,
+   "src": "パンチ攻撃で 敵をたまに\n一撃で倒せるようになるうでわ。",
+   "tags": {},
+   "header": "[0009:0000:03 00]",
+   "dups": []
+  },
+  {
+   "id": "Item#113",
+   "label": "F_Boots00",
+   "style": 12,
+   "src": "{1:color}POWブーツ{2:color}はいっぱいです！",
+   "tags": {
+    "1": "[Color #4ED4FF]",
+    "2": "[Color #E6E6E6]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "Item#114",
+   "label": "F_DefMame",
+   "style": 12,
+   "src": "{1:color}ディフェンスマメ{2:color}はいっぱいです！",
+   "tags": {
+    "1": "[Color #4ED4FF]",
+    "2": "[Color #E6E6E6]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "Item#115",
+   "label": "F_SuperSyrup",
+   "style": 12,
+   "src": "{1:color}スーパーシロップ{2:color}はいっぱいです！",
+   "tags": {
+    "1": "[Color #4ED4FF]",
+    "2": "[Color #E6E6E6]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "Item#116",
+   "label": "F_Wear02",
+   "style": 12,
+   "src": "{1:color}レンジャーウェア{2:color}はいっぱいです！",
+   "tags": {
+    "1": "[Color #4ED4FF]",
+    "2": "[Color #E6E6E6]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "Item#117",
+   "label": "N_Accessory03",
+   "style": 13,
+   "src": "セツヤクベルト",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": [
+    "Item#798"
+   ]
+  },
+  {
+   "id": "Item#118",
+   "label": "N_Socks10",
+   "style": 13,
+   "src": "ゴツゴツソックス",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": [
+    "Item#323"
+   ]
+  },
+  {
+   "id": "Item#119",
+   "label": "Ns_Accessory20",
+   "style": 13,
+   "src": "チャレンジメダル",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": [
+    "Item#225"
+   ]
+  },
+  {
+   "id": "Item#120",
+   "label": "Ns_Fung06",
+   "style": 13,
+   "src": "イライラきば",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": [
+    "Item#547"
+   ]
+  },
+  {
+   "id": "Item#121",
+   "label": "Ns_Glove07",
+   "style": 13,
+   "src": "バイバイグラブ",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": [
+    "Item#406"
+   ]
+  },
+  {
+   "id": "Item#122",
+   "label": "E_Bracelet15",
+   "style": 3,
+   "src": "ふいうちが強くなるうでわ。\nエンカウント攻撃の威力がアップする効果。",
+   "tags": {},
+   "header": "[0009:0000:03 00]",
+   "dups": []
+  },
+  {
+   "id": "Item#123",
+   "label": "F_1upKinoko",
+   "style": 12,
+   "src": "{1:color}１UPキノコ{2:color}はいっぱいです！",
+   "tags": {
+    "1": "[Color #4ED4FF]",
+    "2": "[Color #E6E6E6]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "Item#124",
+   "label": "F_Fung12",
+   "style": 12,
+   "src": "{1:color}もろはのきば{2:color}はいっぱいです！",
+   "tags": {
+    "1": "[Color #4ED4FF]",
+    "2": "[Color #E6E6E6]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "Item#125",
+   "label": "F_Wear03",
+   "style": 12,
+   "src": "{1:color}ファイターウェア{2:color}はいっぱいです！",
+   "tags": {
+    "1": "[Color #4ED4FF]",
+    "2": "[Color #E6E6E6]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "Item#127",
+   "label": "N_Socks11",
+   "style": 13,
+   "src": "EXPソックス",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": [
+    "Item#326"
+   ]
+  },
+  {
+   "id": "Item#128",
+   "label": "Ns_Accessory21",
+   "style": 13,
+   "src": "リベンジワッペン",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": [
+    "Item#238"
+   ]
+  },
+  {
+   "id": "Item#129",
+   "label": "Ns_Fung07",
+   "style": 13,
+   "src": "ほねほねきば",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": [
+    "Item#558"
+   ]
+  },
+  {
+   "id": "Item#130",
+   "label": "Ns_GhostCookie",
+   "style": 13,
+   "src": "ゴーストクッキー",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": [
+    "Item#476"
+   ]
+  },
+  {
+   "id": "Item#131",
+   "label": "Ns_Glove08",
+   "style": 13,
+   "src": "ヤワヤワグラブ",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": [
+    "Item#416"
+   ]
+  },
+  {
+   "id": "Item#132",
+   "label": "F_Wear04",
+   "style": 12,
+   "src": "{1:color}ハートウェア{2:color}はいっぱいです！",
+   "tags": {
+    "1": "[Color #4ED4FF]",
+    "2": "[Color #E6E6E6]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "Item#134",
+   "label": "N_Socks12",
+   "style": 13,
+   "src": "テッペキソックス",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": [
+    "Item#331"
+   ]
+  },
+  {
+   "id": "Item#135",
+   "label": "Ns_Accessory22",
+   "style": 13,
+   "src": "スピードスター",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": [
+    "Item#247"
+   ]
+  },
+  {
+   "id": "Item#136",
+   "label": "Ns_Fung08",
+   "style": 13,
+   "src": "でしゃばりきば",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": [
+    "Item#569"
+   ]
+  },
+  {
+   "id": "Item#137",
+   "label": "Ns_Glove09",
+   "style": 13,
+   "src": "アイテムグラブ",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": [
+    "Item#423"
+   ]
+  },
+  {
+   "id": "Item#138",
+   "label": "F_Boots03",
+   "style": 12,
+   "src": "{1:color}スペシャルブーツ{2:color}はいっぱいです！",
+   "tags": {
+    "1": "[Color #4ED4FF]",
+    "2": "[Color #E6E6E6]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "Item#139",
+   "label": "F_Fung14",
+   "style": 12,
+   "src": "{1:color}しゃくねつきばDX{2:color}はいっぱいです！",
+   "tags": {
+    "1": "[Color #4ED4FF]",
+    "2": "[Color #E6E6E6]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "Item#140",
+   "label": "F_Glove05",
+   "style": 12,
+   "src": "{1:color}デリシャスグラブ{2:color}はいっぱいです！",
+   "tags": {
+    "1": "[Color #4ED4FF]",
+    "2": "[Color #E6E6E6]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "Item#141",
+   "label": "F_Wear05",
+   "style": 12,
+   "src": "{1:color}ムキムキウェア{2:color}はいっぱいです！",
+   "tags": {
+    "1": "[Color #4ED4FF]",
+    "2": "[Color #E6E6E6]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "Item#143",
+   "label": "N_Socks13",
+   "style": 13,
+   "src": "ナースソックス",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": [
+    "Item#337"
+   ]
+  },
+  {
+   "id": "Item#144",
+   "label": "N_SuperNut",
+   "style": 13,
+   "src": "スーパーナッツ",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": [
+    "Item#784"
+   ]
+  },
+  {
+   "id": "Item#145",
+   "label": "Ns_Accessory23",
+   "style": 13,
+   "src": "みきりグラス",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": [
+    "Item#260"
+   ]
+  },
+  {
+   "id": "Item#146",
+   "label": "Ns_Fung09",
+   "style": 13,
+   "src": "ブロックきば",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": [
+    "Item#581"
+   ]
+  },
+  {
+   "id": "Item#147",
+   "label": "Ns_SpecialMame",
+   "style": 13,
+   "src": "スペシャルマメ",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": [
+    "Item#263"
+   ]
+  },
+  {
+   "id": "Item#148",
+   "label": "Ns_UltraNut",
+   "style": 13,
+   "src": "ウルトラナッツ",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": [
+    "Item#294"
+   ]
+  },
+  {
+   "id": "Item#149",
+   "label": "E_Socks20",
+   "style": 3,
+   "src": "バッジメーターが満タンになると\nPOWがアップするソックス。",
+   "tags": {},
+   "header": "[0009:0000:03 00]",
+   "dups": []
+  },
+  {
+   "id": "Item#150",
+   "label": "F_Glove06",
+   "style": 12,
+   "src": "{1:color}フラワーグラブ{2:color}はいっぱいです！",
+   "tags": {
+    "1": "[Color #4ED4FF]",
+    "2": "[Color #E6E6E6]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "Item#152",
+   "label": "N_LuckyMame",
+   "style": 13,
+   "src": "ジェントルマメ",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": [
+    "Item#571"
+   ]
+  },
+  {
+   "id": "Item#153",
+   "label": "N_Socks14",
+   "style": 13,
+   "src": "ドクターソックス",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": [
+    "Item#346"
+   ]
+  },
+  {
+   "id": "Item#154",
+   "label": "Ns_Accessory24",
+   "style": 13,
+   "src": "おいうちスカーフ",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": [
+    "Item#270"
+   ]
+  },
+  {
+   "id": "Item#155",
+   "label": "E_Socks21",
+   "style": 3,
+   "src": "キノコを持っているほど POWがアップする\nキノコ好きのためのソックス。",
+   "tags": {},
+   "header": "[0009:0000:03 00]",
+   "dups": []
+  },
+  {
+   "id": "Item#156",
+   "label": "E_SpeedMame",
+   "style": 13,
+   "src": "さいだいSPEEDが １ポイントアップ。",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": []
+  },
+  {
+   "id": "Item#157",
+   "label": "F_Glove07",
+   "style": 12,
+   "src": "{1:color}バイバイグラブ{2:color}はいっぱいです！",
+   "tags": {
+    "1": "[Color #4ED4FF]",
+    "2": "[Color #E6E6E6]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "Item#159",
+   "label": "N_Socks15",
+   "style": 13,
+   "src": "ムラムラソックス",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": [
+    "Item#356"
+   ]
+  },
+  {
+   "id": "Item#160",
+   "label": "Ns_Accessory25",
+   "style": 13,
+   "src": "ふいうちスカーフ",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": [
+    "Item#275"
+   ]
+  },
+  {
+   "id": "Item#161",
+   "label": "E_Socks22",
+   "style": 3,
+   "src": "カウンターでダメージをあたえると\nバッジパワーがもらえるソックス。",
+   "tags": {},
+   "header": "[0009:0000:03 00]",
+   "dups": []
+  },
+  {
+   "id": "Item#163",
+   "label": "N_Socks16",
+   "style": 13,
+   "src": "メキメキソックス",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": [
+    "Item#367"
+   ]
+  },
+  {
+   "id": "Item#164",
+   "label": "N_Socks17",
+   "style": 13,
+   "src": "エンジェルソックス",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": [
+    "Item#376"
+   ]
+  },
+  {
+   "id": "Item#165",
+   "label": "Ns_Bracelet00",
+   "style": 13,
+   "src": "パワーうでわ",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": [
+    "Item#182"
+   ]
+  },
+  {
+   "id": "Item#166",
+   "label": "N_Socks18",
+   "style": 13,
+   "src": "メディカルソックス",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": [
+    "Item#386"
+   ]
+  },
+  {
+   "id": "Item#167",
+   "label": "N_Wear00",
+   "style": 13,
+   "src": "ペラペラウェア",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": [
+    "Item#505"
+   ]
+  },
+  {
+   "id": "Item#168",
+   "label": "Ns_Bracelet01",
+   "style": 13,
+   "src": "パワーうでわSP",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": [
+    "Item#193"
+   ]
+  },
+  {
+   "id": "Item#169",
+   "label": "E_Ring10",
+   "style": 3,
+   "src": "敵がアイテムを落としやすくなるゆびわ。",
+   "tags": {},
+   "header": "[0009:0000:03 00]",
+   "dups": []
+  },
+  {
+   "id": "Item#170",
+   "label": "E_UltraNut",
+   "style": 13,
+   "src": "マリオとルイージの\nHPが ６５回復。",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": []
+  },
+  {
+   "id": "Item#171",
+   "label": "F_Boots09",
+   "style": 12,
+   "src": "{1:color}メラメラブーツ{2:color}はいっぱいです！",
+   "tags": {
+    "1": "[Color #4ED4FF]",
+    "2": "[Color #E6E6E6]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "Item#172",
+   "label": "F_Socks01",
+   "style": 12,
+   "src": "{1:color}HPソックスDX{2:color}はいっぱいです！",
+   "tags": {
+    "1": "[Color #4ED4FF]",
+    "2": "[Color #E6E6E6]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "Item#173",
+   "label": "N_Fung10",
+   "style": 13,
+   "src": "きんきらきば",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": [
+    "Item#512"
+   ]
+  },
+  {
+   "id": "Item#174",
+   "label": "N_Socks19",
+   "style": 13,
+   "src": "カウンターソックス",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": [
+    "Item#397"
+   ]
+  },
+  {
+   "id": "Item#175",
+   "label": "N_Wear01",
+   "style": 13,
+   "src": "ピクニックウェア",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": [
+    "Item#514"
+   ]
+  },
+  {
+   "id": "Item#176",
+   "label": "Ns_Bracelet02",
+   "style": 13,
+   "src": "ボコスカうでわ",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": [
+    "Item#203"
+   ]
+  },
+  {
+   "id": "Item#177",
+   "label": "Ns_None",
+   "style": 13,
+   "src": "そうびなし",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": [
+    "Item#281",
+    "Menu#203"
+   ]
+  },
+  {
+   "id": "Item#178",
+   "label": "Ns_PowMame",
+   "style": 13,
+   "src": "パワーマメ",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": [
+    "Item#758"
+   ]
+  },
+  {
+   "id": "Item#179",
+   "label": "E_Glove00",
+   "style": 3,
+   "src": "POWが少しアップするグラブ。",
+   "tags": {},
+   "header": "[0009:0000:03 00]",
+   "dups": []
+  },
+  {
+   "id": "Item#180",
+   "label": "E_Ring11",
+   "style": 3,
+   "src": "ぼうぎょアクションに失敗してもダメージを\nおさえてくれるゆびわ。",
+   "tags": {},
+   "header": "[0009:0000:03 00]",
+   "dups": []
+  },
+  {
+   "id": "Item#181",
+   "label": "F_Nut",
+   "style": 12,
+   "src": "{1:color}ナッツ{2:color}はいっぱいです！",
+   "tags": {
+    "1": "[Color #4ED4FF]",
+    "2": "[Color #E6E6E6]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "Item#183",
+   "label": "N_Fung11",
+   "style": 13,
+   "src": "ギラギラきば",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": [
+    "Item#520"
+   ]
+  },
+  {
+   "id": "Item#184",
+   "label": "N_Wear02",
+   "style": 13,
+   "src": "レンジャーウェア",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": [
+    "Item#522"
+   ]
+  },
+  {
+   "id": "Item#185",
+   "label": "Ns_Bracelet03",
+   "style": 13,
+   "src": "ボコスカうでわSP",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": [
+    "Item#215"
+   ]
+  },
+  {
+   "id": "Item#186",
+   "label": "Ns_Wear10",
+   "style": 13,
+   "src": "マッスルウェア",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": [
+    "Item#629"
+   ]
+  },
+  {
+   "id": "Item#187",
+   "label": "E_Glove01",
+   "style": 3,
+   "src": "POWがアップするグラブ。",
+   "tags": {},
+   "header": "[0009:0000:03 00]",
+   "dups": []
+  },
+  {
+   "id": "Item#188",
+   "label": "E_None",
+   "style": 3,
+   "src": "［とくしゅ効果なし］\n",
+   "tags": {},
+   "header": "[0009:0000:03 00]",
+   "dups": []
+  },
+  {
+   "id": "Item#189",
+   "label": "E_Ring12",
+   "style": 3,
+   "src": "DEFが少しアップするゆびわ。",
+   "tags": {},
+   "header": "[0009:0000:03 00]",
+   "dups": []
+  },
+  {
+   "id": "Item#190",
+   "label": "F_Ring11",
+   "style": 12,
+   "src": "{1:color}あんしんゆびわ{2:color}はいっぱいです！",
+   "tags": {
+    "1": "[Color #4ED4FF]",
+    "2": "[Color #E6E6E6]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "Item#191",
+   "label": "F_Socks03",
+   "style": 12,
+   "src": "{1:color}BPソックスDX{2:color}はいっぱいです！",
+   "tags": {
+    "1": "[Color #4ED4FF]",
+    "2": "[Color #E6E6E6]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "Item#194",
+   "label": "N_Fung12",
+   "style": 13,
+   "src": "もろはのきば",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": [
+    "Item#528"
+   ]
+  },
+  {
+   "id": "Item#195",
+   "label": "N_Wear03",
+   "style": 13,
+   "src": "ファイターウェア",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": [
+    "Item#530"
+   ]
+  },
+  {
+   "id": "Item#196",
+   "label": "Ns_Bracelet04",
+   "style": 13,
+   "src": "てっけんうでわ",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": [
+    "Item#226"
+   ]
+  },
+  {
+   "id": "Item#197",
+   "label": "Ns_Wear11",
+   "style": 13,
+   "src": "マスターウェア",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": [
+    "Item#635"
+   ]
+  },
+  {
+   "id": "Item#198",
+   "label": "E_Glove02",
+   "style": 3,
+   "src": "HPが減っていると 自分が行動する前に\n勝手にキノコを食べちゃうグラブ。",
+   "tags": {},
+   "header": "[0009:0000:03 00]",
+   "dups": []
+  },
+  {
+   "id": "Item#199",
+   "label": "E_Ring13",
+   "style": 3,
+   "src": "ブリロックからもらったゆびわ。\nDEFがアップする効果。",
+   "tags": {},
+   "header": "[0009:0000:03 00]",
+   "dups": []
+  },
+  {
+   "id": "Item#200",
+   "label": "F_Bracelet00",
+   "style": 12,
+   "src": "{1:color}パワーうでわ{2:color}はいっぱいです！",
+   "tags": {
+    "1": "[Color #4ED4FF]",
+    "2": "[Color #E6E6E6]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "Item#201",
+   "label": "F_PiriChicken",
+   "style": 12,
+   "src": "{1:color}ピリからチキン{2:color}はいっぱいです！",
+   "tags": {
+    "1": "[Color #4ED4FF]",
+    "2": "[Color #E6E6E6]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "Item#202",
+   "label": "F_Ring12",
+   "style": 12,
+   "src": "{1:color}カチコチゆびわ{2:color}はいっぱいです！",
+   "tags": {
+    "1": "[Color #4ED4FF]",
+    "2": "[Color #E6E6E6]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "Item#204",
+   "label": "N_Fung13",
+   "style": 13,
+   "src": "すいこみきば",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": [
+    "Item#537"
+   ]
+  },
+  {
+   "id": "Item#205",
+   "label": "N_Shell00",
+   "style": 13,
+   "src": "だいおうコウラ",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": [
+    "Item#695"
+   ]
+  },
+  {
+   "id": "Item#206",
+   "label": "N_Wear04",
+   "style": 13,
+   "src": "ハートウェア",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": [
+    "Item#539"
+   ]
+  },
+  {
+   "id": "Item#207",
+   "label": "Ns_Bracelet05",
+   "style": 13,
+   "src": "きゅうけつうでわ",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": [
+    "Item#239"
+   ]
+  },
+  {
+   "id": "Item#208",
+   "label": "Ns_Wear12",
+   "style": 13,
+   "src": "キングウェア",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": [
+    "Item#643"
+   ]
+  },
+  {
+   "id": "Item#209",
+   "label": "E_Glove03",
+   "style": 3,
+   "src": "ブラザーアタックの威力が少しアップするグラブ。",
+   "tags": {},
+   "header": "[0009:0000:03 00]",
+   "dups": []
+  },
+  {
+   "id": "Item#210",
+   "label": "E_PiriChicken",
+   "style": 13,
+   "src": "クッパのHPが ８０回復。",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": []
+  },
+  {
+   "id": "Item#211",
+   "label": "E_Ring14",
+   "style": 3,
+   "src": "カウンターダメージがアップするゆびわ。",
+   "tags": {},
+   "header": "[0009:0000:03 00]",
+   "dups": []
+  },
+  {
+   "id": "Item#212",
+   "label": "F_Bracelet01",
+   "style": 12,
+   "src": "{1:color}パワーうでわSP{2:color}はいっぱいです！",
+   "tags": {
+    "1": "[Color #4ED4FF]",
+    "2": "[Color #E6E6E6]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "Item#213",
+   "label": "F_CheeseChicken",
+   "style": 12,
+   "src": "{1:color}チーズチキン{2:color}はいっぱいです！",
+   "tags": {
+    "1": "[Color #4ED4FF]",
+    "2": "[Color #E6E6E6]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "Item#214",
+   "label": "F_Socks05",
+   "style": 12,
+   "src": "{1:color}コインソックス{2:color}はいっぱいです！",
+   "tags": {
+    "1": "[Color #4ED4FF]",
+    "2": "[Color #E6E6E6]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "Item#216",
+   "label": "N_Fung14",
+   "style": 13,
+   "src": "しゃくねつきばDX",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": [
+    "Item#549"
+   ]
+  },
+  {
+   "id": "Item#217",
+   "label": "N_Shell01",
+   "style": 13,
+   "src": "とくちゅうコウラ",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": [
+    "Item#704"
+   ]
+  },
+  {
+   "id": "Item#218",
+   "label": "N_Wear05",
+   "style": 13,
+   "src": "ムキムキウェア",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": [
+    "Item#551"
+   ]
+  },
+  {
+   "id": "Item#219",
+   "label": "Ns_Bracelet06",
+   "style": 13,
+   "src": "スタミナうでわ",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": [
+    "Item#248"
+   ]
+  },
+  {
+   "id": "Item#220",
+   "label": "Ns_Wear13",
+   "style": 13,
+   "src": "スターウェア",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": [
+    "Item#653"
+   ]
+  },
+  {
+   "id": "Item#221",
+   "label": "E_Glove04",
+   "style": 3,
+   "src": "ハンマーの威力がアップするグラブ。",
+   "tags": {},
+   "header": "[0009:0000:03 00]",
+   "dups": []
+  },
+  {
+   "id": "Item#222",
+   "label": "E_Ring15",
+   "style": 3,
+   "src": "カウンターダメージが大幅にアップするゆびわ。",
+   "tags": {},
+   "header": "[0009:0000:03 00]",
+   "dups": []
+  },
+  {
+   "id": "Item#223",
+   "label": "F_Bracelet02",
+   "style": 12,
+   "src": "{1:color}ボコスカうでわ{2:color}はいっぱいです！",
+   "tags": {
+    "1": "[Color #4ED4FF]",
+    "2": "[Color #E6E6E6]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "Item#227",
+   "label": "N_Fung15",
+   "style": 13,
+   "src": "ボコスカきば",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": [
+    "Item#559"
+   ]
+  },
+  {
+   "id": "Item#228",
+   "label": "N_Shell02",
+   "style": 13,
+   "src": "あんぜんコウラ",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": [
+    "Item#713"
+   ]
+  },
+  {
+   "id": "Item#230",
+   "label": "N_Wear06",
+   "style": 13,
+   "src": "アダルトウェア",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": [
+    "Item#561"
+   ]
+  },
+  {
+   "id": "Item#231",
+   "label": "Ns_Bracelet07",
+   "style": 13,
+   "src": "ハンターうでわ",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": [
+    "Item#261"
+   ]
+  },
+  {
+   "id": "Item#232",
+   "label": "Ns_Wear14",
+   "style": 13,
+   "src": "Dスターウェア",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": [
+    "Item#664"
+   ]
+  },
+  {
+   "id": "Item#233",
+   "label": "EFF_Badge_04_06",
+   "style": 13,
+   "src": "敵全体に ちょっぴりダメージを与える。\n飛んでいる敵には ダメージアップ！",
+   "tags": {},
+   "header": "[0009:0000:0D 00]",
+   "dups": []
+  },
+  {
+   "id": "Item#234",
+   "label": "E_Glove05",
+   "style": 3,
+   "src": "手に持ったものが美味しくなるグラブ。\nバトル中にアイテムで回復するHPが２倍になる効果。",
+   "tags": {},
+   "header": "[0009:0000:03 00]",
+   "dups": []
+  },
+  {
+   "id": "Item#235",
+   "label": "E_Ring16",
+   "style": 3,
+   "src": "クリティカルとラッキーヒットの威力が\nアップするゆびわ。",
+   "tags": {},
+   "header": "[0009:0000:03 00]",
+   "dups": []
+  },
+  {
+   "id": "Item#236",
+   "label": "F_Ring15",
+   "style": 12,
+   "src": "{1:color}カウンターゆびわDX{2:color}はいっぱいです！",
+   "tags": {
+    "1": "[Color #4ED4FF]",
+    "2": "[Color #E6E6E6]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  }
+ ]
+}

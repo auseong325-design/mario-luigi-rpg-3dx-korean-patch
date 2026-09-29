@@ -1,0 +1,782 @@
+[
+{
+"batch": "BMsg__b_sys__p1",
+"messages": 110,
+"dups": 33,
+"jp_chars": 3054
+},
+{
+"batch": "BMsg__b_sys__p2",
+"messages": 110,
+"dups": 33,
+"jp_chars": 3188
+},
+{
+"batch": "BMsg__b_sys__p3",
+"messages": 110,
+"dups": 28,
+"jp_chars": 2833
+},
+{
+"batch": "BMsg__b_sys__p4",
+"messages": 110,
+"dups": 40,
+"jp_chars": 2886
+},
+{
+"batch": "BMsg__b_sys__p5",
+"messages": 110,
+"dups": 26,
+"jp_chars": 3149
+},
+{
+"batch": "BMsg__b_sys__p6",
+"messages": 110,
+"dups": 19,
+"jp_chars": 3213
+},
+{
+"batch": "BMsg__b_sys__p7",
+"messages": 110,
+"dups": 21,
+"jp_chars": 3467
+},
+{
+"batch": "BMsg__b_sys__p8",
+"messages": 110,
+"dups": 22,
+"jp_chars": 3330
+},
+{
+"batch": "BMsg__b_sys__p9",
+"messages": 110,
+"dups": 12,
+"jp_chars": 3118
+},
+{
+"batch": "BMsg__b_sys__p10",
+"messages": 110,
+"dups": 20,
+"jp_chars": 2660
+},
+{
+"batch": "BMsg__b_sys__p11",
+"messages": 110,
+"dups": 16,
+"jp_chars": 2684
+},
+{
+"batch": "BMsg__b_sys__p12",
+"messages": 110,
+"dups": 21,
+"jp_chars": 2730
+},
+{
+"batch": "BMsg__b_sys__p13",
+"messages": 110,
+"dups": 19,
+"jp_chars": 2325
+},
+{
+"batch": "BMsg__b_sys__p14",
+"messages": 110,
+"dups": 5,
+"jp_chars": 3139
+},
+{
+"batch": "BMsg__b_sys__p15",
+"messages": 110,
+"dups": 10,
+"jp_chars": 2620
+},
+{
+"batch": "BMsg__b_sys__p16",
+"messages": 93,
+"dups": 18,
+"jp_chars": 3110
+},
+{
+"batch": "FMsg__cs_scn_01_metakoro_03_U",
+"messages": 1,
+"dups": 1,
+"jp_chars": 13
+},
+{
+"batch": "FMsg__ev_MAIN_town_20",
+"messages": 1,
+"dups": 1,
+"jp_chars": 6
+},
+{
+"batch": "FMsg__ev_zutsuda_09",
+"messages": 3,
+"dups": 5,
+"jp_chars": 36
+},
+{
+"batch": "FMsg__fcommon",
+"messages": 1,
+"dups": 0,
+"jp_chars": 90
+},
+{
+"batch": "FMsg__i_air_01__and7",
+"messages": 53,
+"dups": 54,
+"jp_chars": 2594
+},
+{
+"batch": "FMsg__i_areanone_op_02_L",
+"messages": 6,
+"dups": 0,
+"jp_chars": 183
+},
+{
+"batch": "FMsg__i_areanone_puzzle_01_L__and1",
+"messages": 32,
+"dups": 34,
+"jp_chars": 1028
+},
+{
+"batch": "FMsg__i_challenge_01",
+"messages": 106,
+"dups": 19,
+"jp_chars": 2536
+},
+{
+"batch": "FMsg__i_dokan_01",
+"messages": 32,
+"dups": 0,
+"jp_chars": 1333
+},
+{
+"batch": "FMsg__i_energy_01__and11",
+"messages": 67,
+"dups": 35,
+"jp_chars": 3590
+},
+{
+"batch": "FMsg__i_fire_02",
+"messages": 14,
+"dups": 0,
+"jp_chars": 410
+},
+{
+"batch": "FMsg__i_garakuta_02__and7",
+"messages": 76,
+"dups": 18,
+"jp_chars": 2585
+},
+{
+"batch": "FMsg__i_kinopio_01",
+"messages": 41,
+"dups": 0,
+"jp_chars": 5143
+},
+{
+"batch": "FMsg__i_kioku_02__and1",
+"messages": 23,
+"dups": 1,
+"jp_chars": 747
+},
+{
+"batch": "FMsg__i_koopa_13_beam_01_L__and1",
+"messages": 26,
+"dups": 1,
+"jp_chars": 721
+},
+{
+"batch": "FMsg__i_koshi_01",
+"messages": 30,
+"dups": 0,
+"jp_chars": 1356
+},
+{
+"batch": "FMsg__i_metaboru_02__and9",
+"messages": 109,
+"dups": 121,
+"jp_chars": 5294
+},
+{
+"batch": "FMsg__i_metaboru_19",
+"messages": 19,
+"dups": 0,
+"jp_chars": 648
+},
+{
+"batch": "FMsg__i_odoroki_01",
+"messages": 23,
+"dups": 0,
+"jp_chars": 624
+},
+{
+"batch": "FMsg__i_power_arm_01__and1",
+"messages": 15,
+"dups": 23,
+"jp_chars": 374
+},
+{
+"batch": "FMsg__i_power_hip_01",
+"messages": 10,
+"dups": 1,
+"jp_chars": 448
+},
+{
+"batch": "FMsg__i_power_hip_SA_adorena_01_L",
+"messages": 13,
+"dups": 19,
+"jp_chars": 480
+},
+{
+"batch": "FMsg__i_power_leg_SA_push_01_L",
+"messages": 7,
+"dups": 7,
+"jp_chars": 289
+},
+{
+"batch": "FMsg__i_power_lungs_SA_fire_01_L",
+"messages": 11,
+"dups": 0,
+"jp_chars": 236
+},
+{
+"batch": "FMsg__i_power_nose_01",
+"messages": 17,
+"dups": 17,
+"jp_chars": 403
+},
+{
+"batch": "FMsg__i_power_stomach_02__and1",
+"messages": 34,
+"dups": 43,
+"jp_chars": 974
+},
+{
+"batch": "FMsg__i_press_01",
+"messages": 24,
+"dups": 0,
+"jp_chars": 686
+},
+{
+"batch": "FMsg__i_pump_01__and6",
+"messages": 54,
+"dups": 56,
+"jp_chars": 2167
+},
+{
+"batch": "FMsg__i_shinkei_01__and1",
+"messages": 23,
+"dups": 0,
+"jp_chars": 904
+},
+{
+"batch": "FMsg__i_tainai_01",
+"messages": 72,
+"dups": 18,
+"jp_chars": 1743
+},
+{
+"batch": "FMsg__i_test_dnh_01",
+"messages": 1,
+"dups": 15,
+"jp_chars": 3
+},
+{
+"batch": "FMsg__k_i_koopa_13_escape_01_U",
+"messages": 2,
+"dups": 0,
+"jp_chars": 41
+},
+{
+"batch": "FMsg__k_o_areanone_allmap_01_U",
+"messages": 1,
+"dups": 1,
+"jp_chars": 57
+},
+{
+"batch": "FMsg__k_o_ekubon_15__and1",
+"messages": 38,
+"dups": 13,
+"jp_chars": 714
+},
+{
+"batch": "FMsg__k_o_ekubon_80__p1",
+"messages": 110,
+"dups": 11,
+"jp_chars": 2432
+},
+{
+"batch": "FMsg__k_o_ekubon_80__p2",
+"messages": 110,
+"dups": 6,
+"jp_chars": 2360
+},
+{
+"batch": "FMsg__k_o_gepu_08__and1",
+"messages": 47,
+"dups": 3,
+"jp_chars": 988
+},
+{
+"batch": "FMsg__k_o_gepu_80",
+"messages": 75,
+"dups": 13,
+"jp_chars": 1783
+},
+{
+"batch": "FMsg__k_o_koopa_08__and1",
+"messages": 27,
+"dups": 0,
+"jp_chars": 480
+},
+{
+"batch": "FMsg__k_o_koopa_14__p1",
+"messages": 110,
+"dups": 7,
+"jp_chars": 1929
+},
+{
+"batch": "FMsg__k_o_koopa_14__p2",
+"messages": 110,
+"dups": 8,
+"jp_chars": 1762
+},
+{
+"batch": "FMsg__k_o_koopa_14__p3",
+"messages": 10,
+"dups": 1,
+"jp_chars": 106
+},
+{
+"batch": "FMsg__k_o_koopa_19__and4",
+"messages": 92,
+"dups": 8,
+"jp_chars": 1615
+},
+{
+"batch": "FMsg__k_o_koopa_80",
+"messages": 78,
+"dups": 4,
+"jp_chars": 1316
+},
+{
+"batch": "FMsg__k_o_koopa_end_01",
+"messages": 11,
+"dups": 7,
+"jp_chars": 128
+},
+{
+"batch": "FMsg__k_o_koopa_r_27__and2",
+"messages": 77,
+"dups": 14,
+"jp_chars": 1512
+},
+{
+"batch": "FMsg__k_o_koopa_r_80__p1",
+"messages": 110,
+"dups": 3,
+"jp_chars": 2430
+},
+{
+"batch": "FMsg__k_o_koopa_r_80__p2",
+"messages": 110,
+"dups": 3,
+"jp_chars": 1975
+},
+{
+"batch": "FMsg__k_o_koopa_r_80__p3",
+"messages": 94,
+"dups": 1,
+"jp_chars": 1884
+},
+{
+"batch": "FMsg__k_o_mushiba_07__and1",
+"messages": 61,
+"dups": 61,
+"jp_chars": 1472
+},
+{
+"batch": "FMsg__k_o_mushiba_80",
+"messages": 102,
+"dups": 4,
+"jp_chars": 2235
+},
+{
+"batch": "FMsg__k_o_zutsuda_16_after__and2",
+"messages": 53,
+"dups": 2,
+"jp_chars": 938
+},
+{
+"batch": "FMsg__k_o_zutsuda_80__p1",
+"messages": 110,
+"dups": 5,
+"jp_chars": 2182
+},
+{
+"batch": "FMsg__k_o_zutsuda_80__p2",
+"messages": 71,
+"dups": 2,
+"jp_chars": 1577
+},
+{
+"batch": "FMsg__minimap_o_mushiba_01",
+"messages": 3,
+"dups": 0,
+"jp_chars": 32
+},
+{
+"batch": "FMsg__o_areanone_allmap_01_U",
+"messages": 17,
+"dups": 0,
+"jp_chars": 179
+},
+{
+"batch": "FMsg__o_areanone_allmap_bcat_U",
+"messages": 11,
+"dups": 0,
+"jp_chars": 622
+},
+{
+"batch": "FMsg__o_areanone_dstar_setumei_01_L",
+"messages": 7,
+"dups": 0,
+"jp_chars": 231
+},
+{
+"batch": "FMsg__o_areanone_end_02_U__and1",
+"messages": 16,
+"dups": 0,
+"jp_chars": 355
+},
+{
+"batch": "FMsg__o_areanone_k_lastbattle_01_U",
+"messages": 3,
+"dups": 0,
+"jp_chars": 42
+},
+{
+"batch": "FMsg__o_areanone_lastboss_01_L__and1",
+"messages": 24,
+"dups": 0,
+"jp_chars": 703
+},
+{
+"batch": "FMsg__o_areanone_meter_01_U",
+"messages": 7,
+"dups": 7,
+"jp_chars": 73
+},
+{
+"batch": "FMsg__o_areanone_suishou_01_L",
+"messages": 1,
+"dups": 2,
+"jp_chars": 6
+},
+{
+"batch": "FMsg__o_chika_01__and3",
+"messages": 59,
+"dups": 76,
+"jp_chars": 1989
+},
+{
+"batch": "FMsg__o_chika_geraexpress_04",
+"messages": 7,
+"dups": 12,
+"jp_chars": 76
+},
+{
+"batch": "FMsg__o_ekubon_02__and7",
+"messages": 94,
+"dups": 31,
+"jp_chars": 4370
+},
+{
+"batch": "FMsg__o_ekubon_09_1__and3",
+"messages": 86,
+"dups": 1,
+"jp_chars": 2721
+},
+{
+"batch": "FMsg__o_ekubon_15__and6",
+"messages": 109,
+"dups": 3,
+"jp_chars": 3857
+},
+{
+"batch": "FMsg__o_ekubon_39_1",
+"messages": 14,
+"dups": 0,
+"jp_chars": 365
+},
+{
+"batch": "FMsg__o_evselect_U",
+"messages": 1,
+"dups": 0,
+"jp_chars": 14
+},
+{
+"batch": "FMsg__o_gepu_01__and3",
+"messages": 79,
+"dups": 21,
+"jp_chars": 2690
+},
+{
+"batch": "FMsg__o_gepu_08__and1",
+"messages": 43,
+"dups": 0,
+"jp_chars": 867
+},
+{
+"batch": "FMsg__o_ibiki_01__and1",
+"messages": 50,
+"dups": 2,
+"jp_chars": 1543
+},
+{
+"batch": "FMsg__o_koopa_01__and6",
+"messages": 108,
+"dups": 5,
+"jp_chars": 5250
+},
+{
+"batch": "FMsg__o_koopa_09_2_gerashow_01_U__and3",
+"messages": 51,
+"dups": 3,
+"jp_chars": 1140
+},
+{
+"batch": "FMsg__o_koopa_13_2__and4",
+"messages": 90,
+"dups": 0,
+"jp_chars": 4131
+},
+{
+"batch": "FMsg__o_koopa_18__and2",
+"messages": 100,
+"dups": 2,
+"jp_chars": 1979
+},
+{
+"batch": "FMsg__o_koopa_19__and10",
+"messages": 102,
+"dups": 7,
+"jp_chars": 2903
+},
+{
+"batch": "FMsg__o_koopa_end_01",
+"messages": 26,
+"dups": 1,
+"jp_chars": 657
+},
+{
+"batch": "FMsg__o_koopa_r_20__and5",
+"messages": 65,
+"dups": 33,
+"jp_chars": 1244
+},
+{
+"batch": "FMsg__o_mushiba_01__and7",
+"messages": 109,
+"dups": 8,
+"jp_chars": 3491
+},
+{
+"batch": "FMsg__o_mushiba_16__and2",
+"messages": 108,
+"dups": 3,
+"jp_chars": 6953
+},
+{
+"batch": "FMsg__o_otapuku_02__and1",
+"messages": 5,
+"dups": 1,
+"jp_chars": 266
+},
+{
+"batch": "FMsg__o_peach_1f_03__and3",
+"messages": 107,
+"dups": 3,
+"jp_chars": 2862
+},
+{
+"batch": "FMsg__o_peach_2f_04__and5",
+"messages": 40,
+"dups": 0,
+"jp_chars": 1050
+},
+{
+"batch": "FMsg__o_peach_g_02__and6",
+"messages": 95,
+"dups": 7,
+"jp_chars": 3513
+},
+{
+"batch": "FMsg__o_peach_op_01__and3",
+"messages": 81,
+"dups": 0,
+"jp_chars": 3121
+},
+{
+"batch": "FMsg__o_peach_t_02__and6",
+"messages": 59,
+"dups": 0,
+"jp_chars": 1582
+},
+{
+"batch": "FMsg__o_test_fh_01",
+"messages": 2,
+"dups": 2,
+"jp_chars": 22
+},
+{
+"batch": "FMsg__o_test_ho_01",
+"messages": 2,
+"dups": 0,
+"jp_chars": 12
+},
+{
+"batch": "FMsg__o_test_mk_01",
+"messages": 1,
+"dups": 0,
+"jp_chars": 7
+},
+{
+"batch": "FMsg__o_town_01_after__and10",
+"messages": 87,
+"dups": 2,
+"jp_chars": 4552
+},
+{
+"batch": "FMsg__o_town_23__and7",
+"messages": 69,
+"dups": 0,
+"jp_chars": 2454
+},
+{
+"batch": "FMsg__o_town_31__and1",
+"messages": 96,
+"dups": 8,
+"jp_chars": 4329
+},
+{
+"batch": "FMsg__o_town_33__and1",
+"messages": 82,
+"dups": 0,
+"jp_chars": 4262
+},
+{
+"batch": "FMsg__o_town_34_suishou_01_U__and7",
+"messages": 110,
+"dups": 0,
+"jp_chars": 4829
+},
+{
+"batch": "FMsg__o_zutsuda_01__and9",
+"messages": 108,
+"dups": 3,
+"jp_chars": 2641
+},
+{
+"batch": "FMsg__o_zutsuda_30",
+"messages": 55,
+"dups": 0,
+"jp_chars": 2873
+},
+{
+"batch": "HugeBattle__p1",
+"messages": 110,
+"dups": 5,
+"jp_chars": 2957
+},
+{
+"batch": "HugeBattle__p2",
+"messages": 31,
+"dups": 1,
+"jp_chars": 763
+},
+{
+"batch": "InitLoad",
+"messages": 5,
+"dups": 0,
+"jp_chars": 166
+},
+{
+"batch": "Item__p1",
+"messages": 110,
+"dups": 46,
+"jp_chars": 2200
+},
+{
+"batch": "Item__p2",
+"messages": 110,
+"dups": 61,
+"jp_chars": 1410
+},
+{
+"batch": "Item__p3",
+"messages": 110,
+"dups": 50,
+"jp_chars": 2007
+},
+{
+"batch": "Item__p4",
+"messages": 110,
+"dups": 30,
+"jp_chars": 2265
+},
+{
+"batch": "Item__p5",
+"messages": 110,
+"dups": 19,
+"jp_chars": 1980
+},
+{
+"batch": "Item__p6",
+"messages": 25,
+"dups": 0,
+"jp_chars": 560
+},
+{
+"batch": "Menu__p1",
+"messages": 110,
+"dups": 33,
+"jp_chars": 3171
+},
+{
+"batch": "Menu__p2",
+"messages": 110,
+"dups": 15,
+"jp_chars": 3160
+},
+{
+"batch": "Menu__p3",
+"messages": 110,
+"dups": 10,
+"jp_chars": 2960
+},
+{
+"batch": "Menu__p4",
+"messages": 110,
+"dups": 3,
+"jp_chars": 2628
+},
+{
+"batch": "Menu__p5",
+"messages": 110,
+"dups": 2,
+"jp_chars": 2404
+},
+{
+"batch": "Menu__p6",
+"messages": 33,
+"dups": 0,
+"jp_chars": 824
+},
+{
+"batch": "MenuKJ",
+"messages": 101,
+"dups": 0,
+"jp_chars": 2677
+}
+]

@@ -1,0 +1,103 @@
+{
+ "source": "Msg/JP_ja/FMsg.dat:o_town_36",
+ "messages": [
+  {
+   "id": "FMsg/o_town_36#0",
+   "label": "MES_EMesMic_ML_start_a",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]はい [Ruby 軽;かる]く[Ruby 息;いき]を[Ruby 吸;す]って～[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_36#1",
+   "label": "MES_EMesMic_ML_start_b",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 準備;じゅんび]は いいですか～？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_36#2",
+   "label": "MES_EMesMic_Luigi_run",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ドーンと はいて～！"
+  },
+  {
+   "id": "FMsg/o_town_36#3",
+   "label": "MES_TKinoko_36_Kinoko_town_clinic_b_22",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 先生;せんせい]！ [Ruby 大変;たいへん]です！\nあちらこちらから\n[Ruby 空気;くうき]がふきだしてます！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_36#4",
+   "label": "MES_EMesMic_ML_run",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]はい [Ruby 息;いき]をはいて～"
+  },
+  {
+   "id": "FMsg/o_town_36#5",
+   "label": "MES_TKinoko_36_Kinoko_town_clinic_b_23",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]このマシーンの パイプは\nいろんなところに\nつながっているでしょう！[0002:0001:][Next][0001:0004:]このマシーンが こわれたせいで\n[Ruby 空気;くうき]が ふきだしちゃったでしょう！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_36#6",
+   "label": "MES_TKinoko_36_Kinoko_town_clinic_b_24",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]はいはい ルイージさんも\n[Ruby 問題;もんだい]ナシ！[0002:0001:][Next]というか [Ruby 息;いき]を はく[Ruby 量;りょう]が\n[Ruby 多;おお]すぎるでしょう！[0002:0001:][Next]はやく [Color #2C64FF]ムッシーバビーチ[Color #373737][Color #373737]に\n[Ruby 向;む]かうがいいでしょう！[0002:0001:][Next][Ruby 私;わたし]は このマシーンを\nなおさなくては ならないでしょう！[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/o_town_36#7",
+   "label": "MES_EMesMic_Luigi_start",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]もう１[Ruby 度;ど] いきますよ～[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_36#8",
+   "label": "MES_TKinoko_36_Kinoko_town_clinic_b_11",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]これは [Ruby 空気;くうき]を[Ruby 吸;す]う[Ruby 量;りょう]と\nはき[Ruby 出;だ]す[Ruby 量;りょう]を\n[Ruby 調;しら]べるマシーンでしょう。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_36#9",
+   "label": "MES_TKinoko_36_Kinoko_town_clinic_b_12",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]それでは マリオさん\nこれを くわえて～[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_36#10",
+   "label": "MES_TKinoko_36_Kinoko_town_clinic_b_17",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]むむむ…！\nこれは すごいでしょう。[0002:0001:][Next]これならどんなに [Ruby 高;たか]い[Ruby 場所;ばしょ]に\nのぼっても へっちゃらでしょう。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_36#11",
+   "label": "MES_TKinoko_36_Kinoko_town_clinic_b_18",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]では [Ruby 次;つぎ]にルイージさん。[0002:0000:0A 00]\nこれを くわえて～[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_36#12",
+   "label": "MES_EMesMic_Luigi_end",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]むむむ… ぜんぜんダメですね。"
+  },
+  {
+   "id": "FMsg/o_town_36#13",
+   "label": "MES_EMesMic_Mario_end",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]はい。OK～"
+  }
+ ]
+}

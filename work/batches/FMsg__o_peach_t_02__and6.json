@@ -1,0 +1,1006 @@
+{
+ "batch": "FMsg__o_peach_t_02__and6",
+ "rooms": [
+  "o_peach_t_02",
+  "o_peach_t_04",
+  "o_peach_t_06",
+  "o_peach_t_06_lastboss_01_U",
+  "o_peach_t_06_lastboss_02_L",
+  "o_peach_t_06_lastboss_03_U",
+  "o_peach_t_06_lastboss_04_L"
+ ],
+ "ds_rooms": [
+  "223",
+  "22C",
+  "237",
+  "239",
+  "281",
+  "282"
+ ],
+ "ds_reference": [
+  "DS223#0: 뭐냐!? 암흑의 파워라는 건\n바람을 일으키는 게 다냐!?[Next]별것 없지 않느냐!!",
+  "DS223#1: 으으으으…",
+  "DS223#2: 드디어 결전의 때가 왔나 봐![Next]지금까지와는 차원이 다른\n암흑의 파워가 여기서도 느껴져!",
+  "DS223#3: 앗! 치피냐!?[Next]밖에서 지금\n엄청난 일이 벌어지고 있다![Next]네 녀석에게 보여 주지\n못하는 게 안타까울 정도다!!",
+  "DS223#4: 저기!!\n부탁이 하나 있어!!",
+  "DS223#5: 이런 상황에서 뭐냐!?",
+  "DS223#6: 눈앞의 적과\n싸울 때…[Next]우리를\n잊지 말아 줘!!",
+  "DS223#7: 무슨 소리냐?",
+  "DS223#8: 몸속에 있는 우리도 도울게![Next]함께 녀석을 물리치는 거야!!",
+  "DS223#9: 뭐냐!? 이럴 때 왜\n마리오와 초록색 수염 목소리가…",
+  "DS223#10: 맞아!! 여기에 있는 건\n나 혼자가 아니야!!",
+  "DS223#11: 뭐!? 뭐라고!?",
+  "DS223#12: 여기에…\n너의 몸속에 있는 건…[Next]마리오와 루이지야!!",
+  "DS223#13: 뭐라고!?\n잘 들리지 않는다!![Next]어이! 치피!\n너 말고 누가 있는 거냐!?",
+  "DS223#14: 어쨌든… 우리…들이\n있다는 걸…",
+  "DS223#15: 잊지 말아 줘!!!",
+  "DS22C#0: 여기가 숨바꼭질의\n종착역인가!",
+  "DS22C#1: 기나긴 잠에서 깨어난\n암흑의 파워…[Next]활동할 때가 되었도다…[Next]잘 보거라!!!",
+  "DS22C#2: 흥! 드디어\n깨어났다는 거냐![Next]점점 더 이 몸을\n닮아 가는구나!![Next]이 몸처럼 강해 보이는 건\n마음에 든다!!",
+  "DS22C#3: 암흑의 파워가 어떤 것인지\n네놈의 눈으로 똑똑히 보거라.[Next]이 나라… 이 세계…[Next]모든 것이 암흑의 파워로\n뒤덮일 것이다!!",
+  "DS22C#4: 그러냐? 그거 좋군.[Next]하지만 그건 이 몸의 숙제다![Next]네놈이 나설 필요는 없다!![Next]필요한 게 있다면\n암흑의 파워라는 것뿐이다!",
+  "DS22C#5: 암흑의 파워는\n그 누구도 통제할 수 없다…[Next]하물며\n네놈은 더욱더 할 수 없다!![Next]방해하는 녀석은\n여기에서 사라져라!![Next]잘 보거라!!\n이것이 암흑의 파워다!!",
+  "DS22C#6: 후하하하하하!!!",
+  "DS22C#7: 어떻게 된 거냐!?\n암흑의 파워에 겁먹은 거냐!?[Next]곧 이 나라도\n사라져 버릴 것이다…[Next]네놈도 암흑의 파워에\n영원히 사라져 버려라!!",
+  "DS22C#8: 크핫핫핫핫!!",
+  "DS22C#9: 아주 재미있는 광경이다![Next]최후의 결전에 어울리는 무대를\n준비해 두었군![Next]그 점은 마음에 든다!",
+  "DS22C#10: 하지만…",
+  "DS22C#11: 그렇다면…",
+  "DS22C#12: 흥! 이 나라가\n사라질 거라고?[Next]닥쳐라!!!",
+  "DS22C#13: 이 나라는\n이 몸의 것이다!!",
+  "DS22C#14: 너야말로\n당장 사라져라!!!",
+  "DS22C#15: 학학학…\n학학학… 학…[Next]진 것인가…[Next]여기까지… 여기까지 와서…\n지고 만 것인가…",
+  "DS22C#16: 역, 역시… 이 몸의\n흉내를 낼 자격은 있군…[Next]하지만 어차피 가짜…\n이 쿠파님의 적수는 못 된다…",
+  "DS22C#17: 암흑의…\n암흑의 파워를 갖고 있어도…[Next]이루지 못하는 것이 있다는 건가…",
+  "DS22C#18: 그렇다… 네놈은…",
+  "DS22C#19: 진 것이다…",
+  "DS22C#20: 그, 그렇군…\n지고 말았군…[Next]이번엔 패배를 인정하지…[Next]이번은 인정해 주지…[Next]이…번은…",
+  "DS237#0: 어이! 거기 멈춰라![Next]피치공주와\n그 암흑 파워인가 하는 걸 내놔라!",
+  "DS237#1: 너의 능력은 이미 복사했다.\n더 이상 네놈에게 볼일은 없다.",
+  "DS237#2: 어디까지 도망갈 셈이냐!!\n당장 덤벼라! 비겁한 녀석!!",
+  "DS239#0: 계속 도망갈 테냐?\n건방진 녀석!",
+  "DS239#1: 이 앞에 있겠다!",
+  "DS239#2: 길었던 숨바꼭질도\n이제 마지막이다!",
+  "DS281#0: 로로로로로!!",
+  "DS281#1: 다크스타가…\n드디어 사라졌어.",
+  "DS281#2: 맞다. 아주\n강한 놈이었다.",
+  "DS281#3: 그런데 피치공주는?[Next]피치공주는 무사해?",
+  "DS281#4: 그렇다!!\n완전히 잊고 있었군![Next]피치공주를 데려가려면\n지금이 찬스로군!!",
+  "DS281#5: d",
+  "DS281#6: 아. 괜한 말을\n하고 말았어…",
+  "DS281#7: 뭐야…? 또 해보자는 거야?",
+  "DS281#8: 왜일까…로로…",
+  "DS281#9: 너희…들… 따위…에게\n왜… 몇 번이고…",
+  "DS281#10: 나는… 단지… 이 나라를\n정복하고 싶었을 뿐인데로로…[Next]나름대로…\n노력했는데로로…",
+  "DS281#11: 때로는… 누군가에게…\n이용도… 당하고…[Next]구질구질한 곳에서… 열심히\n일한 적도… 있었어로로…",
+  "DS281#12: 언제나… 언제나…\n너희…들이 나타나서…[Next]언제나… 언제나…\n언제나… 언제나… 방해했었어로로…",
+  "DS281#13: 이젠 포기하는 게 어때?[Next]나쁜 짓은 결국…[Next]실패하게 되어 있어.",
+  "DS281#14: 로로로로로…",
+  "DS281#15: 알았다로로…\n포기하지로로…[Next]이대로 모습을\n감추지…로로…",
+  "DS281#16: 잘 생각했어.[Next]이제 나쁜 짓은 하지 마!",
+  "DS281#17: 그럼… 사라지지로…\n사라지지로로로로…[Next]사라지지로로로로…",
+  "DS281#18: 네놈들과\n함께――――!",
+  "DS281#19: 뭐지!? 몸속이…",
+  "DS281#20: 크허어어억!!!",
+  "DS281#21: 괴, 괴로워…",
+  "DS281#22: 괴롭다고…",
+  "DS281#23: 으아아아아!!!",
+  "DS281#24: 오오!! 여기는 어디입니까!?\n혹시 여기는…",
+  "DS281#25: 맞아!!\n쿠파의 몸 밖이야!!",
+  "DS281#26: 까르코비츠는 결국 마지막까지\n실패했나 봐.[Next]자폭할 때의 충격으로\n우리를 오히려 돕고 말았어!",
+  "DS281#27: 아! 피치공주!!",
+  "DS281#28: 고마워요!!\n마리오… 루이지…!",
+  "DS281#29: 모두… 고마워요…[Next]이제 버섯 왕국은\n무사할 거예요.",
+  "DS281#30: 공주님!! 공주님~!!\n이렇게… 이렇게 무사하셔서~![Next]제가 얼마나 기쁜지 모릅니다~!",
+  "DS281#31: 도, 도대체…[Next]어떻게 된 일이냐――――!",
+  "DS281#32: 어째서 이 몸의 입에서 마리오와\n초록색 수염이 나오는 거냐!!",
+  "DS281#33: 너무 깊게 생각하지 않는 게\n좋을 거야!![Next]이제 와서 알게 된다고\n달라지는 건 없잖아!?",
+  "DS281#34: 너, 너는!![Next]이 목소리는…[Next]치피냐!?[Next]네가\n치피였냐!?",
+  "DS281#35: 맞아. 너의 부하 치피야.",
+  "DS281#36: 크아아아아아아\n아아아아아아아!!",
+  "DS281#37: 흐엑~~!!\n어, 어쩌면 또~~![Next]공주님! 어서 피하십시오~!",
+  "DS281#38: 마리오! 루이지!",
+  "DS281#39: 걱정 붙들어 매십시오![Next]마리오님과 루이지님이라면\n반드시 이길 것입니다!",
+  "DS281#40: …부탁해요!",
+  "DS281#41: 자, 이쪽으로 어서!",
+  "DS281#42: 마리오!",
+  "DS281#43: 루이지!",
+  "DS281#44: 이 몸의 몸속에서\n쓸데없는 짓이나 하고~![Next]절대로 절대로\n절대로 용서할 수 없다!![Next]그리고 이번에야말로\n피치공주를 데려가겠다!!",
+  "DS281#45: 각오해라!!!",
+  "DS282#0: 마리오…!!!",
+  "DS282#1: 루이지! 일어나!\n모두 밖으로 나왔어!",
+  "DS282#2: 옐로스타!",
+  "DS282#3: 모두들… 무사해서…[Next]다행이에요…!",
+  "DS282#4: 루이지…!"
+ ],
+ "glossary": [
+  {
+   "jp": "イエロースター",
+   "ko": "옐로스타",
+   "type": "character",
+   "basis": "DS",
+   "source": "i_metaboru_03#8 ↔ DS04E#5",
+   "note": "room-align"
+  },
+  {
+   "jp": "クッパ",
+   "ko": "쿠파",
+   "type": "character",
+   "basis": "DS",
+   "source": "BData__mfset_Help#21",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "ゲラコビッツ",
+   "ko": "까르코비츠",
+   "type": "character",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesOutline#5",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "チッピー",
+   "ko": "치피",
+   "type": "character",
+   "basis": "DS",
+   "source": "i_fire_02#1 ↔ DS039#10",
+   "note": "room-align"
+  },
+  {
+   "jp": "ピーチ姫",
+   "ko": "피치공주",
+   "type": "character",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesOutline#13",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "マリオ",
+   "ko": "마리오",
+   "type": "character",
+   "basis": "DS",
+   "source": "BData__mfset_Help#19",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "ルイージ",
+   "ko": "루이지",
+   "type": "character",
+   "basis": "DS",
+   "source": "BData__mfset_Help#20",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "緑のヒゲ",
+   "ko": "초록색 수염",
+   "type": "character",
+   "basis": "DS",
+   "source": "o_peach_t_06_lastboss_01_U#3 ↔ DS223#9 (쿠파가 루이지를 부르는 말)",
+   "note": "room-align"
+  },
+  {
+   "jp": "キノコ",
+   "ko": "버섯",
+   "type": "item",
+   "basis": "DS",
+   "source": "BData__mfset_UItmN#0",
+   "note": "일반 명사 キノコ도 버섯(キノコタウン=버섯 타운) [gl_items]"
+  },
+  {
+   "jp": "キノコ王国",
+   "ko": "버섯 왕국",
+   "type": "place",
+   "basis": "DS",
+   "source": "FEvent:011#0",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "クッパ様",
+   "ko": "쿠파님",
+   "type": "term",
+   "basis": "DS",
+   "source": "BAI__BMes_cf:0#0",
+   "note": "부하들이 부를 때 [gl_kj]"
+  },
+  {
+   "jp": "ヒゲ",
+   "ko": "수염",
+   "type": "term",
+   "basis": "DS",
+   "source": "DS '수염' 21회",
+   "note": ""
+  },
+  {
+   "jp": "ワガハイ",
+   "ko": "이 몸",
+   "type": "term",
+   "basis": "DS",
+   "source": "FEvent:025#7",
+   "note": "쿠파의 1인칭 [gl_kj]"
+  },
+  {
+   "jp": "暗黒のパワー",
+   "ko": "암흑의 파워",
+   "type": "term",
+   "basis": "DS",
+   "source": "o_peach_t_06#2 ↔ DS22C#1",
+   "note": "room-align"
+  },
+  {
+   "jp": "暗黒パワー",
+   "ko": "암흑 파워",
+   "type": "term",
+   "basis": "DS",
+   "source": "DS20E#0",
+   "note": "DS는 '암흑의 파워'도 씀 [gl_menu_places]"
+  },
+  {
+   "jp": "コピー",
+   "ko": "복사",
+   "type": "ui",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesSys#20",
+   "note": "[gl_menu_places]"
+  }
+ ],
+ "messages": [
+  {
+   "id": "FMsg/o_peach_t_02#0",
+   "label": "MES_TPeach_02_TP_dkoopa_01",
+   "style": 6,
+   "src": "{1:align}オマエの能力は すべてコピーした。\nオマエに もう 用はない。{2:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_peach_t_02#1",
+   "label": "MES_TPeach_02_TP_koopa_01",
+   "style": 6,
+   "src": "{1:align}おい！ 逃げるな！{2:wait}[Next]{3:align}ピーチ姫と\nその 暗黒パワーとやらを よこせ！{4:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]",
+    "3": "[0001:0004:]",
+    "4": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_peach_t_02#2",
+   "label": "MES_TPeach_02_TP_koopa_02",
+   "style": 6,
+   "src": "{1:align}どこまで 逃げる気だ！！\nかかってこい！ おくびょう者め！！{2:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_peach_t_04#1",
+   "label": "MES_TPeach_04_TP04_koopa_01",
+   "style": 6,
+   "src": "{1:align}どこまでも 逃げおって！\nこしゃくな やつめ！{2:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_peach_t_04#2",
+   "label": "MES_TPeach_04_TP04_koopa_02",
+   "style": 6,
+   "src": "{1:align}{2:align}この先に いるな。{3:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_peach_t_04#3",
+   "label": "MES_TPeach_04_TP04_koopa_03",
+   "style": 6,
+   "src": "{1:align}長かった 追いかけっこも\nこれで 最後に してやる！{2:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_peach_t_06#0",
+   "label": "MES_EV_MAIN_TPeach_06_Last_battle_31",
+   "style": 6,
+   "src": "暗黒の…{1:pause}\n暗黒のパワーを もってしても…{2:wait}[Next]{3:align}なしえぬことが あるというのか…{4:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]",
+    "3": "[0001:0004:]",
+    "4": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_peach_t_06#1",
+   "label": "MES_EV_MAIN_TPeach_06_Last_battle_00",
+   "style": 6,
+   "src": "ここが 追いかけっこの\nゴールか？{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_peach_t_06#2",
+   "label": "MES_EV_MAIN_TPeach_06_Last_battle_01",
+   "style": 6,
+   "src": "長き ねむりから目覚めし\n暗黒の パワー…{1:wait}[Next]{2:align}ときはなつ ときがきた…{3:pause}{4:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0001:0004:]",
+    "3": "[0002:0000:14 00]",
+    "4": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_peach_t_06#3",
+   "label": "MES_EV_MAIN_TPeach_06_Last_battle_21",
+   "style": 6,
+   "src": "どうした！？{1:pause}\n暗黒のパワーに おじけづいたか！？{2:wait}[Next]もうすぐ この国も消えて\nなくなるのだ…{3:wait}[Next]オマエも 暗黒のパワーの中で\n永遠に ねむるがいい！！{4:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0001:]",
+    "4": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_peach_t_06#4",
+   "label": "MES_EV_MAIN_TPeach_06_Last_battle_29",
+   "style": 6,
+   "src": "ははは…\nははは… は…{1:wait}[Next]{2:align}負けた{3:pause} のか…{4:wait}[Next]ここまで…{5:pause} ここまできて…{6:pause}\n負けた{7:pause} というのか…{8:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0001:0004:]",
+    "3": "[0002:0000:0A 00]",
+    "4": "[0002:0001:]",
+    "5": "[0002:0000:0A 00]",
+    "6": "[0002:0000:0A 00]",
+    "7": "[0002:0000:0A 00]",
+    "8": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_peach_t_06#5",
+   "label": "MES_EV_MAIN_TPeach_06_Last_battle_01_2",
+   "style": 7,
+   "src": "{1:align}{2:align}{3:font}見るがいい！！！{4:wait}{5:font}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0000:0001:02 00]",
+    "4": "[0002:0001:]",
+    "5": "[0000:0001:FF FF]"
+   },
+   "header": "[0009:0000:07 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_peach_t_06_lastboss_01_U#0",
+   "label": "MES_EV_MAIN_TPeach_15_Last_battle_05_2",
+   "style": 6,
+   "src": "なんだ！？{1:pause} 暗黒のパワーってのは\n風を起こすだけか！！{2:wait}[Next]{3:align}たいしたこと ないな！！{4:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]",
+    "3": "[0001:0004:]",
+    "4": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_peach_t_06_lastboss_01_U#1",
+   "label": "MES_EV_MAIN_TPeach_15_Last_battle_05_3",
+   "style": 6,
+   "src": "ぬぐぐぐぐ…{1:pause}",
+   "tags": {
+    "1": "[0002:0000:1E 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_peach_t_06_lastboss_01_U#2",
+   "label": "MES_EV_MAIN_TPeach_15_Last_battle_11",
+   "style": 6,
+   "src": "どういうことだ？{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_peach_t_06_lastboss_01_U#3",
+   "label": "MES_EV_MAIN_TPeach_15_Last_battle_13",
+   "style": 6,
+   "src": "なんだ！？{1:pause} こんなときに\n{2:color}マリオ{3:color}{4:color}と {5:color}{6:color}緑のヒゲ{7:color}{8:color}の声が…{9:wait} {10:color}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[Color #FF4343]",
+    "3": "[Color #373737]",
+    "4": "[Color #373737]",
+    "5": "[Color #373737]",
+    "6": "[Color #00BB27]",
+    "7": "[Color #373737]",
+    "8": "[Color #373737]",
+    "9": "[0002:0001:]",
+    "10": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_peach_t_06_lastboss_01_U#4",
+   "label": "MES_EV_MAIN_TPeach_15_Last_battle_15",
+   "style": 6,
+   "src": "なに！？ なんだと！？{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_peach_t_06_lastboss_01_U#5",
+   "label": "MES_EV_MAIN_TPeach_15_Last_battle_17",
+   "style": 6,
+   "src": "なんだ！？ \nよく 聞こえないぞ！！{1:wait}[Next]おい！ チッピー！\nオマエの他に だれがいるんだ！？{2:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_peach_t_06_lastboss_01_U#6",
+   "label": "MES_EV_MAIN_TPeach_15_Last_battle_07",
+   "style": 6,
+   "src": "{1:align}おっ チッピーか！？{2:wait}[Next]外は なかなか\nすごいことになっているぞ！{3:wait}[Next]オマエに 見せられなくて\nザンネンだ！！{4:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0001:]",
+    "4": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_peach_t_06_lastboss_01_U#7",
+   "label": "MES_EV_MAIN_TPeach_15_Last_battle_09",
+   "style": 6,
+   "src": "なんだ？ こんなときに！！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_peach_t_06_lastboss_02_L#0",
+   "label": "MES_EV_MAIN_TPeach_06_Last_battle_30",
+   "style": 6,
+   "src": "さ{1:pause} さすが… ワガハイの\nマネをしただけはあるぞ…{2:wait}[Next]だが しょせんニセモノ…\nこのクッパ様の 相手ではないわ…{3:wait}",
+   "tags": {
+    "1": "[0002:0000:05 00]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_peach_t_06_lastboss_02_L#1",
+   "label": "MES_EV_MAIN_TPeach_06_Last_battle_32",
+   "style": 6,
+   "src": "そうだ…{1:pause} オマエは…{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_peach_t_06_lastboss_02_L#2",
+   "label": "MES_EV_MAIN_TPeach_06_Last_battle_33",
+   "style": 6,
+   "src": "負けたのだ…{1:pause}",
+   "tags": {
+    "1": "[0002:0000:3C 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_peach_t_06_lastboss_02_L#3",
+   "label": "MES_EV_MAIN_TPeach_06_Last_battle_22",
+   "style": 7,
+   "src": "ガハハハハ！！{1:pause}",
+   "tags": {
+    "1": "[0002:0000:1E 00]"
+   },
+   "header": "[0009:0000:07 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_peach_t_06_lastboss_02_L#4",
+   "label": "MES_EV_MAIN_TPeach_06_Last_battle_23",
+   "style": 6,
+   "src": "{1:align}なかなか おもしろい光景だぞ！{2:wait}[Next]最後の戦いに ふさわしい舞台を\n用意したって わけか！{3:wait}[Next]{4:align}なかなか 気がきくじゃないか！{5:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0001:]",
+    "4": "[0001:0004:]",
+    "5": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_peach_t_06_lastboss_02_L#5",
+   "label": "MES_EV_MAIN_TPeach_06_Last_battle_26",
+   "style": 6,
+   "src": "フン！{1:pause} この国が\n消えていくだと？{2:wait}[Next]{3:align}{4:align}ふざけるな！！！{5:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]",
+    "3": "[0001:0004:]",
+    "4": "[0001:0001:]",
+    "5": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_peach_t_06_lastboss_02_L#6",
+   "label": "MES_EV_MAIN_TPeach_06_Last_battle_27",
+   "style": 10,
+   "src": "{1:mode}{2:align}この国は\nワガハイのものだ！！{3:pause}{4:wait}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0000:1E 00]",
+    "4": "[0002:0001:]"
+   },
+   "header": "[0009:0000:0A 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_peach_t_06_lastboss_02_L#7",
+   "label": "MES_EV_MAIN_TPeach_06_Last_battle_28",
+   "style": 10,
+   "src": "{1:mode}{2:align}オマエこそ\n消えるがいい！！！{3:pause}{4:wait}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0000:1E 00]",
+    "4": "[0002:0001:]"
+   },
+   "header": "[0009:0000:0A 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_peach_t_06_lastboss_03_U#0",
+   "label": "MES_EV_MAIN_TPeach_06_2_Last_battle_57",
+   "style": 9,
+   "src": "んがああああああ\nああああああああ！！{1:pause}",
+   "tags": {
+    "1": "[0002:0000:28 00]"
+   },
+   "header": "[0009:0000:09 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_peach_t_06_lastboss_03_U#1",
+   "label": "MES_EV_MAIN_TPeach_06_2_Last_battle_59",
+   "style": 9,
+   "src": "ワガハイの体の中で\n勝手なことばかり しおって～！{1:wait}[Next]絶対に 絶対に\n絶対に ゆるさんぞ！！{2:wait}[Next]そして こんどこそ\nピーチ姫を 連れさってやるわ！！{3:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:09 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_peach_t_06_lastboss_03_U#2",
+   "label": "MES_EV_MAIN_TPeach_06_2_Last_battle_42",
+   "style": 9,
+   "src": "ぐおおおおお！！！{1:pause}",
+   "tags": {
+    "1": "[0002:0000:1E 00]"
+   },
+   "header": "[0009:0000:09 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_peach_t_06_lastboss_03_U#3",
+   "label": "MES_EV_MAIN_TPeach_06_2_Last_battle_43",
+   "style": 6,
+   "src": "く{1:pause} くるしい…{2:pause}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0000:1E 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_peach_t_06_lastboss_03_U#4",
+   "label": "MES_EV_MAIN_TPeach_06_2_Last_battle_44",
+   "style": 6,
+   "src": "くるしいぞ…{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_peach_t_06_lastboss_03_U#5",
+   "label": "MES_EV_MAIN_TPeach_06_2_Last_battle_45",
+   "style": 10,
+   "src": "ぬがああぁぁぁぁ！！！{1:pause}",
+   "tags": {
+    "1": "[0002:0000:28 00]"
+   },
+   "header": "[0009:0000:0A 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_peach_t_06_lastboss_03_U#6",
+   "label": "MES_EV_MAIN_TPeach_06_2_Last_battle_60",
+   "style": 10,
+   "src": "かくごしろ！！！{1:pause}{2:wait}",
+   "tags": {
+    "1": "[0002:0000:1E 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:0A 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_peach_t_06_lastboss_03_U#7",
+   "label": "MES_EV_MAIN_TPeach_06_2_Last_battle_37",
+   "style": 6,
+   "src": "そうだ。かなり\n手ごわかったぞ。{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_peach_t_06_lastboss_03_U#8",
+   "label": "MES_EV_MAIN_TPeach_06_2_Last_battle_39",
+   "style": 6,
+   "src": "そうだ！！{1:pause}\nすっかり忘れていたぞ！{2:wait}[Next]ピーチ姫を 連れさるには\n今が チャンスではないか！！{3:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_peach_t_06_lastboss_03_U#9",
+   "label": "MES_EV_MAIN_TPeach_06_2_Last_battle_52",
+   "style": 9,
+   "src": "{1:align}い{2:pause} いったい…{3:wait}[Next]{4:mode}{5:font}どういうことだーーーー！{6:wait}{7:font}",
+   "tags": {
+    "1": "[0001:0001:]",
+    "2": "[0002:0000:0A 00]",
+    "3": "[0002:0001:]",
+    "4": "[0005:0000:]",
+    "5": "[0000:0001:02 00]",
+    "6": "[0002:0001:]",
+    "7": "[0000:0001:FF FF]"
+   },
+   "header": "[0009:0000:09 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_peach_t_06_lastboss_03_U#10",
+   "label": "MES_EV_MAIN_TPeach_06_2_Last_battle_53",
+   "style": 9,
+   "src": "どうして ワガハイのクチから\nマリオや 緑のヒゲが出てくるのだ！！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:09 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_peach_t_06_lastboss_03_U#11",
+   "label": "MES_EV_MAIN_TPeach_06_2_Last_battle_55",
+   "style": 6,
+   "src": "{1:align}{2:align}オ{3:pause} オマエ！！{4:wait}[Next]{5:align}{6:align}その声は…{7:wait}[Next]{8:align}{9:align}チッピーか！？{10:wait}[Next]{11:align}オマエが\nチッピーだったのか！？{12:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0000:0A 00]",
+    "4": "[0002:0001:]",
+    "5": "[0001:0004:]",
+    "6": "[0001:0001:]",
+    "7": "[0002:0001:]",
+    "8": "[0001:0004:]",
+    "9": "[0001:0001:]",
+    "10": "[0002:0001:]",
+    "11": "[0001:0000:]",
+    "12": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_peach_t_06_lastboss_04_L#0",
+   "label": "MES_EV_MAIN_TPeach_06_2_Last_battle_58",
+   "style": 6,
+   "src": "ひゃ～～！！\nま{1:pause} またしても～～！{2:wait}[Next]{3:align}姫様！ お逃げください～！{4:wait}",
+   "tags": {
+    "1": "[0002:0000:05 00]",
+    "2": "[0002:0001:]",
+    "3": "[0001:0004:]",
+    "4": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_peach_t_06_lastboss_04_L#1",
+   "label": "MES_EV_MAIN_TPeach_06_2_Last_battle_46",
+   "style": 6,
+   "src": "おお！！ ここはどこですか！？\nもしや ここは…{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_peach_t_06_lastboss_04_L#2",
+   "label": "MES_EV_MAIN_TPeach_06_2_Last_battle_47",
+   "style": 6,
+   "src": "そう！！{1:pause}\nクッパの体の外よ！！{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_peach_t_06_lastboss_04_L#3",
+   "label": "MES_EV_SUB_TPeach_06_2_Peach_talk_01",
+   "style": 6,
+   "src": "マリオ…！！！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_peach_t_06_lastboss_04_L#4",
+   "label": "MES_EV_SUB_TPeach_06_2_Peach_talk_02",
+   "style": 6,
+   "src": "ルイージ！ 起きて！\nみんな 外に出たわよ！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_peach_t_06_lastboss_04_L#5",
+   "label": "MES_EV_SUB_TPeach_06_2_Peach_talk_03",
+   "style": 6,
+   "src": "イエロースター！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_peach_t_06_lastboss_04_L#6",
+   "label": "MES_EV_SUB_TPeach_06_2_Peach_talk_04",
+   "style": 6,
+   "src": "みんな… よく無事で…{1:wait}[Next]{2:align}よかった…！{3:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_peach_t_06_lastboss_04_L#7",
+   "label": "MES_EV_SUB_TPeach_06_2_Peach_talk_05",
+   "style": 6,
+   "src": "ルイージ…！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_peach_t_06_lastboss_04_L#8",
+   "label": "MES_EV_MAIN_TPeach_06_2_Last_battle_58_1",
+   "style": 6,
+   "src": "マリオ！{1:pause} ルイージ！{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_peach_t_06_lastboss_04_L#9",
+   "label": "MES_EV_MAIN_TPeach_06_2_Last_battle_58_2",
+   "style": 6,
+   "src": "{1:align}{2:align}心配は ご無用ですぞ！{3:wait}[Next]{4:align}マリオどのと ルイージどのならば\n必ず勝つに 決まっていますとも！{5:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0001:]",
+    "4": "[0001:0000:]",
+    "5": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_peach_t_06_lastboss_04_L#10",
+   "label": "MES_EV_MAIN_TPeach_06_2_Last_battle_58_3",
+   "style": 6,
+   "src": "…がんばってね！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_peach_t_06_lastboss_04_L#11",
+   "label": "MES_EV_MAIN_TPeach_06_2_Last_battle_58_4",
+   "style": 6,
+   "src": "さあ はやく！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_peach_t_06_lastboss_04_L#12",
+   "label": "MES_EV_MAIN_TPeach_06_2_Last_battle_58_5",
+   "style": 6,
+   "src": "マリオ！{1:pause}{2:wait}",
+   "tags": {
+    "1": "[0002:0000:14 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_peach_t_06_lastboss_04_L#13",
+   "label": "MES_EV_MAIN_TPeach_06_2_Last_battle_58_6",
+   "style": 6,
+   "src": "ルイージ！{1:pause}{2:wait}",
+   "tags": {
+    "1": "[0002:0000:14 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_peach_t_06_lastboss_04_L#14",
+   "label": "MES_EV_MAIN_TPeach_06_2_Last_battle_47_1",
+   "style": 6,
+   "src": "ゲラコビッツは 最後の最後まで\n失敗したみたいね。{1:wait}[Next]自爆した いきおいで\n私達を 助けるなんて！{2:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_peach_t_06_lastboss_04_L#15",
+   "label": "MES_EV_MAIN_TPeach_06_2_Last_battle_50",
+   "style": 6,
+   "src": "{1:align}みんな…{2:pause} ありがとう…{3:wait}[Next]これで キノコ王国は\n救われました。{4:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0000:0A 00]",
+    "3": "[0002:0001:]",
+    "4": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_peach_t_06_lastboss_04_L#16",
+   "label": "MES_EV_MAIN_TPeach_06_2_Last_battle_51",
+   "style": 6,
+   "src": "姫様！！{1:pause} 姫様～！！{2:pause}\nよくぞ…{3:pause} よくぞ ご無事で～！{4:wait}[Next]{5:align}じいは うれしゅうございますぞ～！{6:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0000:0A 00]",
+    "3": "[0002:0000:0A 00]",
+    "4": "[0002:0001:]",
+    "5": "[0001:0004:]",
+    "6": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_peach_t_06_lastboss_04_L#17",
+   "label": "MES_EV_MAIN_TPeach_06_2_Last_battle_54",
+   "style": 6,
+   "src": "あんまり 深く考えない方が\nいいわよ！！{1:wait}[Next]今さら 知ったところで\nどうにも ならないでしょ！？{2:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_peach_t_06_lastboss_04_L#18",
+   "label": "MES_EV_MAIN_TPeach_06_2_Last_battle_56",
+   "style": 6,
+   "src": "ええ。{1:pause}あなたの子分のね。{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  }
+ ]
+}

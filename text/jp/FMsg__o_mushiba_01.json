@@ -1,0 +1,47 @@
+{
+ "source": "Msg/JP_ja/FMsg.dat:o_mushiba_01",
+ "messages": [
+  {
+   "id": "FMsg/o_mushiba_01#0",
+   "label": "MES_Mushiba_01_Yajirushi_kanban_01",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0005:0000:][0001:0004:][0001:0001:]ムッシーバビーチへようこそ！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_mushiba_01#1",
+   "label": "MES_SAVE_BLOCK_recovery",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0001:0001:][0005:0000:]HPとBPの[Ruby 回復;かいふく]も\n[Ruby 忘;わす]れないようにしましょう。[0002:0000:0A 00][0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_mushiba_01#2",
+   "label": "MES_K_warp_decicde",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00][0001:0001:] なんや～ [Ruby 飛;と]びたいんか～？[0002:0000:0A 00]\n[0005:0000:][0004:0000:][Ruby 飛;と]ばない[0006:0000:28 00][0004:0000:][Ruby 飛;と]ぶ[0002:0000:0A 00]"
+  },
+  {
+   "id": "FMsg/o_mushiba_01#3",
+   "label": "MES_Mushiba_01_Kocky_mes_00",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]おしらせ！ おしらせ～！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_mushiba_01#4",
+   "label": "MES_Mushiba_01_Kocky_mes_01",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]ビーチについたでしょうか？[0002:0001:][Next]３つ[Ruby 目;め]のワクチンは\n[Color #2C64FF]ガケの[Ruby 上;うえ][Color #373737][Color #373737]にあるでしょう！[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/o_mushiba_01#5",
+   "label": "MES_Mushiba_01_Kocky_mes_02",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Color #2C64FF]ガケ[Color #373737][Color #373737]は ここから[Color #373737][Color #2C64FF][Ruby 北;きた][Color #373737][Color #373737]だよ～！[0002:0001:][Color #373737]"
+  }
+ ]
+}

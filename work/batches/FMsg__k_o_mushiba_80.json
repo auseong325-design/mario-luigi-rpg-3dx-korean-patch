@@ -1,0 +1,1444 @@
+{
+ "batch": "FMsg__k_o_mushiba_80",
+ "rooms": [
+  "k_o_mushiba_80"
+ ],
+ "ds_rooms": [],
+ "ds_reference": [],
+ "glossary": [
+  {
+   "jp": "イギー",
+   "ko": "이기",
+   "type": "character",
+   "basis": "official",
+   "source": "https://www.nintendo.com/kr/switch/aabpa/sp/character/",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "ウェンディ",
+   "ko": "웬디",
+   "type": "character",
+   "basis": "official",
+   "source": "https://www.nintendo.com/kr/switch/aabpa/sp/character/",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "カメック",
+   "ko": "마귀",
+   "type": "character",
+   "basis": "DS",
+   "source": "FEvent:1A3#13",
+   "note": "쿠파주니어의 돌보미(카멕 개인)도 같은 표기. RPG1 DX 한국판 쿠파군단 RPG도 '마귀' [gl_kj]"
+  },
+  {
+   "jp": "クッパ",
+   "ko": "쿠파",
+   "type": "character",
+   "basis": "DS",
+   "source": "BData__mfset_Help#21",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "チャーリー",
+   "ko": "찰리",
+   "type": "character",
+   "basis": "coined",
+   "source": "FMsg/k_o_mushiba_07#0",
+   "note": "노인이 기억을 잃은 이기를 부르는 이름 [gl_kj]"
+  },
+  {
+   "jp": "モートン",
+   "ko": "모톤",
+   "type": "character",
+   "basis": "official",
+   "source": "https://www.nintendo.com/kr/switch/aabpa/sp/character/",
+   "note": "'모턴' 아님 [gl_kj]"
+  },
+  {
+   "jp": "ラリー",
+   "ko": "래리",
+   "type": "character",
+   "basis": "official",
+   "source": "https://www.nintendo.com/kr/switch/aabpa/sp/character/",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "リューギー",
+   "ko": "용기",
+   "type": "character",
+   "basis": "coined",
+   "source": "FMsg/k_o_mushiba_80#39",
+   "note": "リューグー의 별명. '이기'와 끝소리를 맞춤 [gl_kj]"
+  },
+  {
+   "jp": "リューグー",
+   "ko": "러즐",
+   "type": "character",
+   "basis": "DS",
+   "source": "DS020 \"러즐이 있는 곳으로 가져가자!\"",
+   "note": "퍼즐피스를 받는 캐릭터"
+  },
+  {
+   "jp": "ルドウィッグ",
+   "ko": "루드윅",
+   "type": "character",
+   "basis": "official",
+   "source": "https://www.nintendo.com/kr/switch/aabpa/sp/character/",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "レミー",
+   "ko": "레미",
+   "type": "character",
+   "basis": "official",
+   "source": "https://www.nintendo.com/kr/switch/aabpa/sp/character/",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "ロイ",
+   "ko": "로이",
+   "type": "character",
+   "basis": "official",
+   "source": "https://www.nintendo.com/kr/switch/aabpa/sp/character/",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "７人衆",
+   "ko": "7인조",
+   "type": "character",
+   "basis": "official",
+   "source": "https://namu.wiki/w/%EC%BF%A0%ED%8C%8C%207%EC%9D%B8%EC%A1%B0",
+   "note": "「アタシ達 ７人衆」→'우리 7인조' [gl_kj]"
+  },
+  {
+   "jp": "クリボー",
+   "ko": "굼바",
+   "type": "enemy",
+   "basis": "DS",
+   "source": "BAI__BMes_cf:0#1",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "キノコ",
+   "ko": "버섯",
+   "type": "item",
+   "basis": "DS",
+   "source": "BData__mfset_UItmN#0",
+   "note": "일반 명사 キノコ도 버섯(キノコタウン=버섯 타운) [gl_items]"
+  },
+  {
+   "jp": "シロップ",
+   "ko": "시럽",
+   "type": "item",
+   "basis": "DS",
+   "source": "BData__mfset_UItmN#18",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "クッパ軍団",
+   "ko": "쿠파 군단",
+   "type": "other",
+   "basis": "DS",
+   "source": "FEvent#23E.19",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "キノコ王国",
+   "ko": "버섯 왕국",
+   "type": "place",
+   "basis": "DS",
+   "source": "FEvent:011#0",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "お父さん",
+   "ko": "아빠",
+   "type": "term",
+   "basis": "coined",
+   "source": "FMsg/k_o_koopa_14#55",
+   "note": "쿠파주니어가 쿠파를 부르는 말(어린이 말투) [gl_kj]"
+  },
+  {
+   "jp": "ぼっちゃん",
+   "ko": "도련님",
+   "type": "term",
+   "basis": "coined",
+   "source": "MenuKJ#93",
+   "note": "마귀·쿠파 7인조·부하들이 쿠파주니어를 부르는 말. DS에 없음 [gl_kj]"
+  },
+  {
+   "jp": "クッパ様",
+   "ko": "쿠파님",
+   "type": "term",
+   "basis": "DS",
+   "source": "BAI__BMes_cf:0#0",
+   "note": "부하들이 부를 때 [gl_kj]"
+  },
+  {
+   "jp": "チキン",
+   "ko": "치킨",
+   "type": "term",
+   "basis": "DS",
+   "source": "BData__mfset_WearE#98",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "仲間",
+   "ko": "동료",
+   "type": "term",
+   "basis": "DS",
+   "source": "FEvent:048#29",
+   "note": "「仲間になった」→'동료가 되었다' [gl_kj]"
+  },
+  {
+   "jp": "軍団",
+   "ko": "군단",
+   "type": "term",
+   "basis": "DS",
+   "source": "BAI__BMes_cf#0.20",
+   "note": "[gl_attacks]"
+  }
+ ],
+ "messages": [
+  {
+   "id": "FMsg/k_o_mushiba_80#0",
+   "label": "Kjrpg_07_Mushiba_qst01_14",
+   "style": 6,
+   "src": "ぼっちゃん…{1:pause}\nわかってくれましたか…{2:wait}[Next]ふふふ…{3:pause}\nわたしはわかっていましたよ。{4:wait}[Next]ぼっちゃんが本当は\n仲間想いだってことを…{5:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0000:0A 00]",
+    "4": "[0002:0001:]",
+    "5": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_mushiba_80#1",
+   "label": "Kjrpg_07_Mushiba_op01_27",
+   "style": 5,
+   "src": "…カメック。{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:05 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_mushiba_80#2",
+   "label": "Kjrpg_07_Mushiba_qst01_15",
+   "style": 6,
+   "src": "カンチガイするなよ！{1:wait}[Next]別にあいつらと\n仲良くしたいとかじゃない！{2:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_mushiba_80#3",
+   "label": "Kjrpg_07_Mushiba_op01_28",
+   "style": 6,
+   "src": "…はい。{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_mushiba_80#4",
+   "label": "Kjrpg_07_Mushiba_qst01_16",
+   "style": 6,
+   "src": "はいはい。\nふふん…{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_mushiba_80#5",
+   "label": "Kjrpg_07_Mushiba_op01_07_1",
+   "style": 9,
+   "src": "…マグレだ！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:09 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_mushiba_80#6",
+   "label": "Kjrpg_07_Mushiba_op01_29",
+   "style": 6,
+   "src": "おなか すいた。{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_mushiba_80#7",
+   "label": "Kjrpg_07_Mushiba_qst01_17",
+   "style": 6,
+   "src": "なんだよ！ 笑うな！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_mushiba_80#9",
+   "label": "Kjrpg_07_Mushiba_op01_07_2",
+   "style": 6,
+   "src": "また あいつらのところに行って\n今度は やっつけてやる！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_mushiba_80#10",
+   "label": "Kjrpg_07_Mushiba_qst01_18",
+   "style": 6,
+   "src": "あー はいはい。\n笑ってませんよ。{1:wait}[Next]いきましょう。{2:pause}\n７人衆を探しに。{3:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0000:0F 00]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_mushiba_80#21",
+   "label": "Kjrpg_07_Mushiba_qst05_10",
+   "style": 0,
+   "src": "{1:align}{2:align}{3:mode}おっしゃることが分かりません。\nなんのことでしょう？",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0005:0000:]"
+   },
+   "header": "[0009:0000:00 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_mushiba_80#23",
+   "label": "Kjrpg_07_Mushiba_qst05_11",
+   "style": 6,
+   "src": "どうしたんじゃ？\nチャーリー。{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_mushiba_80#25",
+   "label": "Kjrpg_07_Mushiba_op01_42",
+   "style": 5,
+   "src": "…{1:pause}\nぐす…{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:05 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_mushiba_80#26",
+   "label": "Kjrpg_07_Mushiba_qst01_30",
+   "style": 6,
+   "src": "あー{1:pause}\nはいはい～{2:wait}",
+   "tags": {
+    "1": "[0002:0000:08 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_mushiba_80#27",
+   "label": "Kjrpg_07_Mushiba_qst05_12",
+   "style": 6,
+   "src": "チャ… チャ… チャーリー？{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_mushiba_80#28",
+   "label": "Kjrpg_07_Mushiba_qst05_20_1",
+   "style": 6,
+   "src": "イギーがいなくなったのって\nついこないだだよな…{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/o_areanone_k_iggy_01_U#0"
+   ]
+  },
+  {
+   "id": "FMsg/k_o_mushiba_80#29",
+   "label": "Kjrpg_07_Mushiba_op01_44",
+   "style": 5,
+   "src": "ぐすん…{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:05 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_mushiba_80#30",
+   "label": "Kjrpg_07_Mushiba_qst05_20_2",
+   "style": 6,
+   "src": "そうですね…{1:pause} この短期間で\nどれだけの思い出を…{2:wait}",
+   "tags": {
+    "1": "[0002:0000:04 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/o_areanone_k_iggy_01_U#1"
+   ]
+  },
+  {
+   "id": "FMsg/k_o_mushiba_80#31",
+   "label": "Kjrpg_07_Mushiba_qst05_15",
+   "style": 6,
+   "src": "ん？{1:pause} オマエさん達\nチャーリーのツレか？{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_mushiba_80#32",
+   "label": "Kjrpg_07_Mushiba_qst05_16",
+   "style": 6,
+   "src": "オマエ！{1:pause} イギーに何をした！{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_mushiba_80#33",
+   "label": "Kjrpg_07_Mushiba_qst05_17",
+   "style": 6,
+   "src": "なにやら ややこしいのう。{1:wait}[Next]ワシの部屋で\n話をしようじゃないか…{2:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_mushiba_80#37",
+   "label": "Kjrpg_07_Mushiba_qst03_11",
+   "style": 6,
+   "src": "約束！{1:pause}\n覚えてるか？{2:wait}",
+   "tags": {
+    "1": "[0002:0000:08 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_mushiba_80#38",
+   "label": "Kjrpg_07_Mushiba_qst03_12",
+   "style": 6,
+   "src": "約束？{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_mushiba_80#39",
+   "label": "Kjrpg_07_Mushiba_qst05_14_1",
+   "style": 0,
+   "src": "{1:align}{2:align}{3:mode}やあ！ リューグーさん！ あだなはリューギー！",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0005:0000:]"
+   },
+   "header": "[0009:0000:00 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_mushiba_80#40",
+   "label": "Kjrpg_07_Mushiba_qst03_13",
+   "style": 6,
+   "src": "ボクがクッパ軍団を救う\nって約束だよ！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_mushiba_80#41",
+   "label": "Kjrpg_07_Mushiba_qst05_05_1",
+   "style": 6,
+   "src": "なんだ～？ {1:wait}[Next]あんた達だれ？{2:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_mushiba_80#42",
+   "label": "Kjrpg_07_Mushiba_qst05_14_2",
+   "style": 0,
+   "src": "{1:align}{2:align}{3:mode}この２人が\nわけわからないことを言ってくるんだ。",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0005:0000:]"
+   },
+   "header": "[0009:0000:00 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_mushiba_80#43",
+   "label": "Kjrpg_07_Mushiba_qst03_14",
+   "style": 6,
+   "src": "あ…{1:pause} ああ！\nはい！{2:wait}",
+   "tags": {
+    "1": "[0002:0000:04 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_mushiba_80#44",
+   "label": "Kjrpg_07_Mushiba_qst05_05_2",
+   "style": 6,
+   "src": "ボクチャンは これから\nマブい ワンレンギャルと…{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_mushiba_80#45",
+   "label": "Kjrpg_07_Mushiba_qst05_14_3",
+   "style": 0,
+   "src": "{1:align}{2:align}{3:mode}もう怒り心頭さ！",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0005:0000:]"
+   },
+   "header": "[0009:0000:00 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_mushiba_80#46",
+   "label": "Kjrpg_07_Mushiba_qst03_15",
+   "style": 6,
+   "src": "しっかり 見てろよ！{1:wait}[Next]ボクが約束を\n守るところを！{2:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_mushiba_80#47",
+   "label": "Kjrpg_07_Mushiba_qst05_05_3",
+   "style": 6,
+   "src": "シャレオツに レイコー\nガム抜き キメるんだ～{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_mushiba_80#49",
+   "label": "Kjrpg_07_Mushiba_qst05_05_4",
+   "style": 6,
+   "src": "ナウい～☆{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_mushiba_80#54",
+   "label": "Kjrpg_07_Mushiba_op01_10",
+   "style": 6,
+   "src": "ぼっちゃん１人では\n勝てません。{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_mushiba_80#56",
+   "label": "Kjrpg_07_Mushiba_op01_11",
+   "style": 6,
+   "src": "なに！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_mushiba_80#58",
+   "label": "Kjrpg_07_Mushiba_op01_12",
+   "style": 6,
+   "src": "クッパ様なら\nヤツらに 勝てるでしょう。{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_mushiba_80#59",
+   "label": "Kjrpg_07_Mushiba_op01_13",
+   "style": 6,
+   "src": "ん。{1:pause}そりゃあ…{2:wait}[Next]お父さん 強いし…{3:wait}",
+   "tags": {
+    "1": "[0002:0000:10 00]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_mushiba_80#60",
+   "label": "Kjrpg_07_Mushiba_qst01_01",
+   "style": 6,
+   "src": "ヤドカリ…{1:pause} ヤドカリ…{2:pause}\nエビみたいな感じかね。{3:wait}[Next]煮てみようか\n焼いてみようか…{4:wait}[Next]{5:align}ん？{6:wait}",
+   "tags": {
+    "1": "[0002:0000:05 00]",
+    "2": "[0002:0000:05 00]",
+    "3": "[0002:0001:]",
+    "4": "[0002:0001:]",
+    "5": "[0001:0001:]",
+    "6": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_mushiba_80#61",
+   "label": "Kjrpg_07_Mushiba_op01_14",
+   "style": 6,
+   "src": "クッパ様が\nお強いのも そうですが…{1:wait}[Next]なによりも\nクッパ軍団が 強いのです。{2:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_mushiba_80#62",
+   "label": "Kjrpg_07_Mushiba_qst01_02",
+   "style": 6,
+   "src": "な{1:pause} なんだい こいつら…{2:wait}[Next]食べられるのが 分かってて\n抵抗しようってのかい？{3:wait}",
+   "tags": {
+    "1": "[0002:0000:04 00]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_mushiba_80#65",
+   "label": "Kjrpg_07_Mushiba_qst01_03",
+   "style": 6,
+   "src": "ひゃあぁー！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_mushiba_80#67",
+   "label": "Kjrpg_07_Mushiba_op01_16",
+   "style": 6,
+   "src": "クッパ軍団は みな… クッパ様に\n固い忠誠を 誓っています。{1:wait}[Next]クッパ様のためなら 喜んで\n火の中へ 海の底へ飛び込むでしょう。{2:wait}[Next]そんなクッパ軍団や７人衆を\n引き連れているからこそ…{3:wait}[Next]クッパ様は強いのです。{4:wait}[Next]強い軍団を引き連れるには…{5:pause}\n仲間を大切にする心と…{6:wait}[Next]仲間を ひきつける強いチカラが\nなくてはならないのです。{7:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0001:]",
+    "4": "[0002:0001:]",
+    "5": "[0002:0000:0A 00]",
+    "6": "[0002:0001:]",
+    "7": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_mushiba_80#68",
+   "label": "Kjrpg_07_Mushiba_qst01_04",
+   "style": 6,
+   "src": "ふ～ ザコのヤドカリでも\n集まると おそろしいもんですね…{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_mushiba_80#69",
+   "label": "Kjrpg_07_Mushiba_op01_17",
+   "style": 5,
+   "src": "ボクだって{1:pause} でき…",
+   "tags": {
+    "1": "[0002:0000:04 00]"
+   },
+   "header": "[0009:0000:05 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_mushiba_80#70",
+   "label": "Kjrpg_07_Mushiba_qst01_05",
+   "style": 5,
+   "src": "ザコでも…\n集まると…{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:05 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_mushiba_80#72",
+   "label": "Kjrpg_07_Mushiba_op01_19",
+   "style": 6,
+   "src": "あ…{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_mushiba_80#73",
+   "label": "Kjrpg_07_Mushiba_qst01_07",
+   "style": 6,
+   "src": "おい！{1:pause} \nカメック！{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_mushiba_80#75",
+   "label": "Kjrpg_07_Mushiba_qst01_08",
+   "style": 6,
+   "src": "あ。はい。{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_mushiba_80#88",
+   "label": "Kjrpg_07_Mushiba_op01_30",
+   "style": 6,
+   "src": "え？{1:pause} あ ああ。{2:pause}\nそ そうですか。{3:wait}[Next]では{4:pause} わたしはなにか\n食べものを探してきましょうね。{5:wait}",
+   "tags": {
+    "1": "[0002:0000:04 00]",
+    "2": "[0002:0000:0A 00]",
+    "3": "[0002:0001:]",
+    "4": "[0002:0000:04 00]",
+    "5": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_mushiba_80#89",
+   "label": "Kjrpg_07_Mushiba_qst01_13_1",
+   "style": 10,
+   "src": "{1:align}ラリー！{2:pause} イギー！{3:wait}[Next]{4:align}レミー！{5:pause} ルドウィッグ！{6:wait}[Next]{7:align}ロイ！{8:pause} ウェンディ！{9:wait}[Next]{10:align}モートン！{11:wait}",
+   "tags": {
+    "1": "[0001:0001:]",
+    "2": "[0002:0000:0A 00]",
+    "3": "[0002:0001:]",
+    "4": "[0001:0001:]",
+    "5": "[0002:0000:0A 00]",
+    "6": "[0002:0001:]",
+    "7": "[0001:0001:]",
+    "8": "[0002:0000:0A 00]",
+    "9": "[0002:0001:]",
+    "10": "[0001:0001:]",
+    "11": "[0002:0001:]"
+   },
+   "header": "[0009:0000:0A 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_mushiba_80#92",
+   "label": "Kjrpg_07_Mushiba_qst01_13_2",
+   "style": 6,
+   "src": "アイツらを探しにいくぞ！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_mushiba_80#93",
+   "label": "Kjrpg_07_Mushiba_qst05_01",
+   "style": 6,
+   "src": "へーイ。{1:pause}そこのジョ～カノ～{2:pause}\nチャーオー キメなーい？{3:pause} イカす～☆{4:wait}",
+   "tags": {
+    "1": "[0002:0000:04 00]",
+    "2": "[0002:0000:0A 00]",
+    "3": "[0002:0000:0A 00]",
+    "4": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_mushiba_80#97",
+   "label": "Kjrpg_07_Mushiba_qst01_20",
+   "style": 6,
+   "src": "どうします？{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_mushiba_80#98",
+   "label": "Kjrpg_07_Mushiba_qst05_02",
+   "style": 0,
+   "src": "{1:align}{2:align}{3:mode}やあ。\nそこの女性の方 お茶でも飲みませんか？",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0005:0000:]"
+   },
+   "header": "[0009:0000:00 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_mushiba_80#99",
+   "label": "Kjrpg_07_Mushiba_qst01_21",
+   "style": 9,
+   "src": "全部探すぞ！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:09 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_mushiba_80#100",
+   "label": "Kjrpg_07_Mushiba_qst05_03",
+   "style": 6,
+   "src": "{1:align}イギー！？{2:wait}[Next]{3:align}あんた！{4:pause}\nどこ 行ってたんだい！{5:wait}",
+   "tags": {
+    "1": "[0001:0001:]",
+    "2": "[0002:0001:]",
+    "3": "[0001:0000:]",
+    "4": "[0002:0000:08 00]",
+    "5": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_mushiba_80#101",
+   "label": "Kjrpg_07_Mushiba_qst01_22",
+   "style": 6,
+   "src": "え…{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_mushiba_80#102",
+   "label": "Kjrpg_07_Mushiba_qst05_04",
+   "style": 6,
+   "src": "イギー！{1:pause}\n無事だったか！？{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_mushiba_80#103",
+   "label": "Kjrpg_07_Mushiba_qst01_23",
+   "style": 9,
+   "src": "このキノコ王国を全部！{1:pause}\n回るんだ！{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:09 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_mushiba_80#104",
+   "label": "Kjrpg_07_Mushiba_qst01_24",
+   "style": 6,
+   "src": "は…{1:pause} はは…{2:pause}\nそうですか。{3:wait}[Next]ぼっちゃんらしい お考え。{4:wait}",
+   "tags": {
+    "1": "[0002:0000:04 00]",
+    "2": "[0002:0000:0A 00]",
+    "3": "[0002:0001:]",
+    "4": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_mushiba_80#105",
+   "label": "Kjrpg_07_Mushiba_qst01_25",
+   "style": 6,
+   "src": "なんだよ。{1:pause}\nなんか文句あるか！？{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_mushiba_80#106",
+   "label": "Kjrpg_07_Mushiba_qst05_07",
+   "style": 6,
+   "src": "なんか ヘンなしゃべり方…{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_mushiba_80#108",
+   "label": "Kjrpg_07_Mushiba_qst01_26",
+   "style": 6,
+   "src": "…いえ。{1:pause}\nついていきますよ。{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_mushiba_80#109",
+   "label": "Kjrpg_07_Mushiba_qst05_08",
+   "style": 6,
+   "src": "{1:align}おい！ イギー！{2:wait}[Next]{3:align}わけわかんないこと 言ってないで\nぼっちゃんと 一緒に行くよ！{4:wait}",
+   "tags": {
+    "1": "[0001:0001:]",
+    "2": "[0002:0001:]",
+    "3": "[0001:0000:]",
+    "4": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_mushiba_80#112",
+   "label": "Kjrpg_07_Mushiba_qst01_27",
+   "style": 6,
+   "src": "そうと決まったら\nすぐ いくぞ！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_mushiba_80#113",
+   "label": "Kjrpg_07_Mushiba_qst05_09",
+   "style": 6,
+   "src": "ワケワカメ～\nイミフメイ～☆{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_mushiba_80#116",
+   "label": "Kjrpg_07_Mushiba_qst01_28",
+   "style": 6,
+   "src": "{1:align}たとえ 何があっても…{2:wait}[Next]{3:align}わたしは ぼっちゃんとクッパ様に\n一生 ついていきますよ。{4:wait}",
+   "tags": {
+    "1": "[0001:0001:]",
+    "2": "[0002:0001:]",
+    "3": "[0001:0000:]",
+    "4": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_mushiba_80#117",
+   "label": "Kjrpg_07_Mushiba_qst03_01",
+   "style": 6,
+   "src": "クリボー！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_mushiba_80#120",
+   "label": "Kjrpg_07_Mushiba_qst01_29",
+   "style": 9,
+   "src": "カメックー！！{1:pause}\nなにやってんだ！！{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0F 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:09 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_mushiba_80#121",
+   "label": "Kjrpg_07_Mushiba_qst03_02",
+   "style": 6,
+   "src": "味方…？{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_mushiba_80#122",
+   "label": "Kjrpg_07_Mushiba_qst03_03",
+   "style": 6,
+   "src": "ぶはぁぁ…{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_mushiba_80#123",
+   "label": "Kjrpg_07_Mushiba_qst03_04",
+   "style": 6,
+   "src": "…じゃないですね。{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_mushiba_80#126",
+   "label": "Kjrpg_07_Mushiba_qst03_07",
+   "style": 6,
+   "src": "こいつらも\nモートンみたいに…{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_mushiba_80#127",
+   "label": "Kjrpg_07_Mushiba_qst03_08",
+   "style": 6,
+   "src": "があああ！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_mushiba_80#128",
+   "label": "Kjrpg_07_Mushiba_qst05_06_1",
+   "style": 0,
+   "src": "{1:align}{2:align}{3:mode}ボクはこれから\nキレイなワンレングスの女性と…",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0005:0000:]"
+   },
+   "header": "[0009:0000:00 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_mushiba_80#129",
+   "label": "Kjrpg_07_Mushiba_qst05_20",
+   "style": 6,
+   "src": "話し方も 忘れたようでの。\n色々と 教えてやったんじゃ。{1:wait}[Next]ナウなヤングが どのような\n暮らしをしているのかを。{2:wait}[Next]ワシも\n１人でさみしかったからのう。{3:wait}[Next]ひさびさに 孫と会えて\nワシはハッピーじゃ。{4:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0001:]",
+    "4": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/o_areanone_k_iggy_01_U#2"
+   ]
+  },
+  {
+   "id": "FMsg/k_o_mushiba_80#130",
+   "label": "Kjrpg_07_Mushiba_op01_02_1",
+   "style": 6,
+   "src": "あ！{1:pause} ぼっちゃん！{2:wait}",
+   "tags": {
+    "1": "[0002:0000:05 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_mushiba_80#132",
+   "label": "Kjrpg_07_Mushiba_qst05_06_2",
+   "style": 0,
+   "src": "{1:align}{2:align}{3:mode}オシャレにアイスコーヒーの\nガムシロップ抜きを 飲みにいくんだ！",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0005:0000:]"
+   },
+   "header": "[0009:0000:00 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_mushiba_80#134",
+   "label": "Kjrpg_07_Mushiba_op01_02_2",
+   "style": 6,
+   "src": "よかった！{1:pause}\nお気づきでしたか！{2:wait}",
+   "tags": {
+    "1": "[0002:0000:08 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_mushiba_80#135",
+   "label": "Kjrpg_07_Mushiba_qst05_06_3",
+   "style": 0,
+   "src": "{1:align}{2:align}{3:mode}いいでしょ！",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0005:0000:]"
+   },
+   "header": "[0009:0000:00 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_mushiba_80#137",
+   "label": "Kjrpg_07_Mushiba_op01_53",
+   "style": 6,
+   "src": "いや～ 水と砂ばっかりで\nなんにもないですねぇ。{1:wait}[Next]ぼっちゃん。ヤドカリって\n食べられますかね？{2:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_mushiba_80#139",
+   "label": "Kjrpg_07_Mushiba_op01_54",
+   "style": 6,
+   "src": "ぼっちゃ…{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/k_o_zutsuda_80#63"
+   ]
+  },
+  {
+   "id": "FMsg/k_o_mushiba_80#141",
+   "label": "Kjrpg_07_Mushiba_op01_55",
+   "style": 5,
+   "src": "ぐすん…{1:pause}\nこのチキン{2:pause} ニガい…{3:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0000:04 00]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:05 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_mushiba_80#142",
+   "label": "Kjrpg_07_Mushiba_qst05_13_1",
+   "style": 6,
+   "src": "ヘイ リューグーさん…\nいやさ リューギー！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_mushiba_80#143",
+   "label": "Kjrpg_07_Mushiba_op01_57",
+   "style": 5,
+   "src": "コゲコゲだよ…{1:pause}\nモートン。{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:05 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_mushiba_80#144",
+   "label": "Kjrpg_07_Mushiba_qst05_13_2",
+   "style": 6,
+   "src": "このヤカラ達が\nなんかカラんでくるんだよ～{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_mushiba_80#145",
+   "label": "Kjrpg_07_Mushiba_qst05_13_3",
+   "style": 6,
+   "src": "MK５～☆{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_mushiba_80#147",
+   "label": "Kjrpg_07_Mushiba_op01_01",
+   "style": 6,
+   "src": "う…{1:pause} うーん…{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_mushiba_80#149",
+   "label": "Kjrpg_07_Mushiba_op01_03",
+   "style": 6,
+   "src": "カメック…！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_mushiba_80#150",
+   "label": "Kjrpg_07_Mushiba_op01_04",
+   "style": 6,
+   "src": "どこかの海辺のようです。{1:wait}[Next]ヤツらに やられて\nそのまま 海に放り投げられ…{2:wait}[Next]ここに 流れ着いたんでしょう。{3:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_mushiba_80#151",
+   "label": "Kjrpg_07_Mushiba_op01_05",
+   "style": 5,
+   "src": "…ボク。{1:pause}\n負けた。{2:wait}",
+   "tags": {
+    "1": "[0002:0000:1E 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:05 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_mushiba_80#152",
+   "label": "Kjrpg_07_Mushiba_op01_08",
+   "style": 6,
+   "src": "また{1:pause} 負けると思います。{2:wait}",
+   "tags": {
+    "1": "[0002:0000:04 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_mushiba_80#153",
+   "label": "Kjrpg_07_Mushiba_op01_09",
+   "style": 6,
+   "src": "なんだと！{1:pause}\nカメック！{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0F 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_mushiba_80#161",
+   "label": "Kjrpg_07_Mushiba_qst01_15_add_1",
+   "style": 6,
+   "src": "あいつら…！{1:pause} えーっと…{2:pause}\n今ごろ やられちゃって…{3:wait}[Next]困ったり\n泣いたりしてるだろうから…{4:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0000:0F 00]",
+    "3": "[0002:0001:]",
+    "4": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_mushiba_80#164",
+   "label": "Kjrpg_07_Mushiba_op01_20",
+   "style": 6,
+   "src": "ぼっちゃんは ７人衆や\nクッパ軍団を…{1:wait}[Next]仲間を…{2:pause}\n大切にしてきましたか？{3:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0000:0F 00]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_mushiba_80#165",
+   "label": "Kjrpg_07_Mushiba_qst01_15_add_2",
+   "style": 6,
+   "src": "だから ボクが助けてやって…{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_mushiba_80#168",
+   "label": "Kjrpg_07_Mushiba_op01_18_1",
+   "style": 6,
+   "src": "ぼっちゃん…{1:pause}\n見てみてください。{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_mushiba_80#169",
+   "label": "Kjrpg_07_Mushiba_qst01_15_add_3",
+   "style": 6,
+   "src": "ボクがスゴイってところを\n見せつけてやるんだ！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_mushiba_80#171",
+   "label": "Kjrpg_07_Mushiba_op01_18_2",
+   "style": 6,
+   "src": "ここに仲間は…{1:pause}\n７人衆はいますか？{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_mushiba_80#172",
+   "label": "Kjrpg_07_Mushiba_op01_22",
+   "style": 6,
+   "src": "思い出して…{1:pause} じっくりと\n考えてみてください。{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_mushiba_80#173",
+   "label": "Kjrpg_07_Mushiba_qst01_10",
+   "style": 6,
+   "src": "いや…{1:pause} ですから ぼっちゃん。{2:wait}[Next]いまの ぼっちゃんでは\nアイツら３人組 には勝て…{3:wait}",
+   "tags": {
+    "1": "[0002:0000:08 00]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_mushiba_80#174",
+   "label": "Kjrpg_07_Mushiba_qst01_11",
+   "style": 6,
+   "src": "みんなを探しにいく！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  }
+ ]
+}

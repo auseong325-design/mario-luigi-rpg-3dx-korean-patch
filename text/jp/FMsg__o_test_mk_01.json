@@ -1,0 +1,12 @@
+{
+ "source": "Msg/JP_ja/FMsg.dat:o_test_mk_01",
+ "messages": [
+  {
+   "id": "FMsg/o_test_mk_01#0",
+   "label": "MES_work_mk_01",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]テストテキスト[0002:0001:]"
+  }
+ ]
+}

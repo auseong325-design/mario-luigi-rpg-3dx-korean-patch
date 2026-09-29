@@ -1,0 +1,104 @@
+{
+ "batch": "FMsg__o_areanone_meter_01_U",
+ "rooms": [
+  "o_areanone_meter_01_U"
+ ],
+ "ds_rooms": [
+  "12A"
+ ],
+ "ds_reference": [
+  "DS12A#0: 이것은 공기를 마시는 양과\n내쉬는 양을 조사하는\n머신입니다.",
+  "DS12A#1: 그럼 마리오님!\n이것을 물고~",
+  "DS12A#2: 오오오…!\n정말로 놀랍습니다.[Next]이 정도면 아무리 높은 곳에\n올라가도 식은 죽 먹기겠네요.",
+  "DS12A#3: 그럼 다음으로 루이지님.\n이것을 물고~",
+  "DS12A#4: 선생님! 큰일입니다!\n여기저기에서 공기가\n새어 나오고 있어요!",
+  "DS12A#5: 이 머신의 파이프는\n여러 곳과\n연결되어 있습니다![Next]이 머신이 부서진 탓에\n공기가 새게 되었습니다!",
+  "DS12A#6: 네네! 루이지님도\n문제없습니다![Next]오히려 폐활량이\n너무 뛰어나서 문제군요![Next]어서 빨리 이아파 비치로\n향해 주시지요![Next]저는 이 머신을\n고쳐야겠습니다!"
+ ],
+ "glossary": [],
+ "messages": [
+  {
+   "id": "FMsg/o_areanone_meter_01_U#0",
+   "label": "MES_EMesMic_ML_start_a",
+   "style": 6,
+   "src": "はい 軽く息を吸って～{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/o_town_36#0"
+   ]
+  },
+  {
+   "id": "FMsg/o_areanone_meter_01_U#1",
+   "label": "MES_EMesMic_ML_start_b",
+   "style": 6,
+   "src": "準備は いいですか～？{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/o_town_36#1"
+   ]
+  },
+  {
+   "id": "FMsg/o_areanone_meter_01_U#2",
+   "label": "MES_EMesMic_Luigi_run",
+   "style": 6,
+   "src": "ドーンと はいて～！",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/o_town_36#2"
+   ]
+  },
+  {
+   "id": "FMsg/o_areanone_meter_01_U#3",
+   "label": "MES_EMesMic_ML_run",
+   "style": 6,
+   "src": "はい 息をはいて～",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/o_town_36#4"
+   ]
+  },
+  {
+   "id": "FMsg/o_areanone_meter_01_U#4",
+   "label": "MES_EMesMic_Luigi_start",
+   "style": 6,
+   "src": "もう１度 いきますよ～{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/o_town_36#7"
+   ]
+  },
+  {
+   "id": "FMsg/o_areanone_meter_01_U#5",
+   "label": "MES_EMesMic_Luigi_end",
+   "style": 6,
+   "src": "むむむ… ぜんぜんダメですね。",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/o_town_36#12"
+   ]
+  },
+  {
+   "id": "FMsg/o_areanone_meter_01_U#6",
+   "label": "MES_EMesMic_Mario_end",
+   "style": 6,
+   "src": "はい。OK～",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/o_town_36#13"
+   ]
+  }
+ ]
+}

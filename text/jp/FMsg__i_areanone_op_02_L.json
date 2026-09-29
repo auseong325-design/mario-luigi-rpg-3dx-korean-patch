@@ -1,0 +1,47 @@
+{
+ "source": "Msg/JP_ja/FMsg.dat:i_areanone_op_02_L",
+ "messages": [
+  {
+   "id": "FMsg/i_areanone_op_02_L#0",
+   "label": "MES_TKinoko_25_before_Opening_opeach_01",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00][0001:0001:][0005:0000:]メタコロ[Ruby 病;びょう]！！！！[0002:0000:1E 00]"
+  },
+  {
+   "id": "FMsg/i_areanone_op_02_L#1",
+   "label": "MES_TKinoko_25_before_Opening_opeach_02",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00][0001:0001:][0005:0000:]キノコ[Ruby 王国;おうこく]で とつじょはやりだした\nナゾの[Ruby 病気;びょうき]！ それがメタコロ[Ruby 病;びょう]！！"
+  },
+  {
+   "id": "FMsg/i_areanone_op_02_L#2",
+   "label": "MES_TKinoko_25_before_Opening_opeach_03",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00][0001:0001:][0005:0000:]ある[Ruby 日突然;ひとつぜん] [Ruby 体;からだ]がコロコロと\n[Ruby 丸;まる]くなり ふくれあがって\n[Ruby 転;ころ]がり[Ruby 続;つづ]けてしまう\nとても おそろしい[Ruby 病気;びょうき]…"
+  },
+  {
+   "id": "FMsg/i_areanone_op_02_L#3",
+   "label": "MES_TKinoko_25_before_Opening_opeach_04",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00][0001:0001:][0005:0000:][Ruby 今;いま]のところ [Ruby 原因;げんいん]も\n[Ruby 治;なお]す[Ruby 方法;ほうほう]も [Ruby 見;み]つからず…"
+  },
+  {
+   "id": "FMsg/i_areanone_op_02_L#4",
+   "label": "MES_TKinoko_25_before_Opening_opeach_04_2",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00][0001:0001:][0005:0000:]メタコロ[Ruby 病;びょう]になる\nキノピオ[Ruby 達;たち]は [Ruby 日;ひ]に[Ruby 日;ひ]に\nふえていくばかり…"
+  },
+  {
+   "id": "FMsg/i_areanone_op_02_L#5",
+   "label": "MES_TKinoko_25_before_Opening_opeach_04_3",
+   "style": 4,
+   "attr": "00000000",
+   "jp": "[0009:0000:04 00][0001:0001:][0005:0000:][Ruby 事態;じたい]を[Ruby 重;おも]く[Ruby 見;み]た ピーチ[Ruby 姫;ひめ]は\nピーチ[Ruby 城;じょう]にて きゅうきょ\nかいぎを [Ruby 開;ひら]くことに…"
+  }
+ ]
+}

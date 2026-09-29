@@ -1,0 +1,19 @@
+{
+ "source": "Msg/JP_ja/FMsg.dat:o_test_mo_05",
+ "messages": [
+  {
+   "id": "FMsg/o_test_mo_05#0",
+   "label": "MES_work_omit_04",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]テスト[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_test_mo_05#1",
+   "label": "MES_SAVE_BLOCK_recovery",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0001:0001:][0005:0000:]HPとBPの[Ruby 回復;かいふく]も\n[Ruby 忘;わす]れないようにしましょう。[0002:0000:0A 00][0002:0001:]"
+  }
+ ]
+}

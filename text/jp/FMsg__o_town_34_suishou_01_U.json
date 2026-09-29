@@ -1,0 +1,439 @@
+{
+ "source": "Msg/JP_ja/FMsg.dat:o_town_34_suishou_01_U",
+ "messages": [
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#0",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_a_54_2",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 私;わたし]のうらないは\nハズレたことがないでしょう。[0002:0001:][Next]まちがいなく このイモムシが\n[Ruby １人目;ひとりめ]の [Ruby 賢者;けんじゃ]でしょう。[0002:0001:][Next]このイモムシが [Color #2C64FF]スターワクチン[Color #373737][Color #373737]を\n１００％ [Ruby 持;も]っているでしょう。[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#1",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_a_54_3",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 森;もり]じゃないわよ！[0002:0000:0A 00] このイモムシは\n[Color #2C64FF]クッパの[Ruby 体;からだ]の[Ruby 中;なか][Color #373737][Color #373737]に いるのよ！[0002:0001:][Next]エクボンの[Ruby 森;もり]で クッパに[Ruby 食;た]べられて\n[Color #373737][Color #2C64FF]クッパの[Ruby 体;からだ]の[Ruby 中;なか][Color #373737][Color #373737]を ウロウロしてるの！[0002:0001:][Next]あなたの うらない\nハズレまくってるわよ！[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#2",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_a_40",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]スター…[0002:0000:0A 00] [Color #2C64FF]スターワクチン[Color #373737][Color #373737]…[0002:0001:][Next][0001:0004:][Color #373737][Color #2C64FF]３つのスターワクチン[Color #373737][Color #373737]…[0002:0001:][Next]３[Ruby 人;にん]の[Ruby 賢者;けんじゃ]が[Ruby 持;も]つ\n[Color #373737][Color #2C64FF]３つのスターワクチン[Color #373737][Color #373737]…[0002:0001:][Next]あらゆる [Ruby 悪;あ]しきパワーを\nふきとばすことが できるワクチン…[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#3",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_a_54_4",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]そんな わけのわからない\nフクザツな[Ruby 事情;じじょう]まで\nうらなえないでしょう！！[0002:0001:][Next]もともと[Ruby 森;もり]にいた イモムシなら\nうらないも かろうじて\n[Ruby 当;あ]たっているでしょう！[0002:0001:][Next]しかも おかげで\nクッパに [Ruby 先;さき]をこされずに\nすんだでしょう！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#4",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_a_41",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Color #2C64FF]３つのスターワクチン[Color #373737][Color #373737]ってのを\n[Ruby 集;あつ]めればいいのね！？[0002:0001:][Next]それで ダークスターも\nやっつけちゃえるのね？[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#5",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_a_42",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Color #2C64FF]３つのスターワクチン[Color #373737][Color #373737]は\n３[Ruby 人;にん]の[Ruby 賢者;けんじゃ]が それぞれ\n１つずつ [Ruby 持;も]っているでしょう。[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#6",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_a_43",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 森;もり]といえば…[0002:0000:0A 00]\nエクボンの[Ruby 森;もり]ね！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#7",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_a_44",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 話;はなし]は[Ruby 全部;ぜんぶ]\n[Ruby 聞;き]かせてもらったぞ！[0002:0001:][Next][Color #2C64FF]スターワクチン[Color #373737][Color #373737]とやらを\n３つ[Ruby 集;あつ]めれば いいんだな！？[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#8",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_a_45",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:][0001:0001:]あなたには ムリよ！[0002:0001:][Next][0001:0000:]マリオと ルイージが ３つとも\n[Ruby 集;あつ]めるに [Ruby 決;き]まってるわ！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#9",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_a_46",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ムムムムム！ オマエ！\nあたまにくるしゃべり[Ruby 方;かた]をするな！[0002:0001:][Next]ワガハイの [Ruby 体;からだ]の[Ruby 中;なか]にいる\nチッピーとかいうやつに そっくりだ！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#10",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_a_47",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]まあ いいわ！[0002:0000:0A 00]\nおい！ マリオ！ [Ruby 緑;みどり]のヒゲ！[0002:0000:0A 00]\nはやいもの[Ruby 勝;が]ちだぞ！[0002:0001:][Next][0001:0004:]ワガハイが [Ruby 先;さき]に３つ[Ruby 集;あつ]めて\nピーチ[Ruby 城;じょう]へ [Ruby 入;はい]ってやる！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#11",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_a_48",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ねえ！[0002:0000:0A 00] [Ruby １人目;ひとりめ]の[Ruby 賢者;けんじゃ]って\nどんな[Ruby 人;ひと]なの？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#12",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_a_49",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]む…[0002:0000:0A 00] むむむむ…[0002:0001:][Next]それが わかるには\n[Ruby 時間;じかん]がかかるでしょう…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#13",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_a_11_2",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]あの～[0002:0000:0A 00] [Ruby 先生;せんせい]？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#14",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_b_03",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:][0001:0001:][Ruby 海;うみ]…[0002:0000:14 00] [Ruby 砂浜;すなはま]…[0002:0000:14 00] ガケ…[0002:0000:14 00][0002:0001:][Next]３[Ruby 人目;にんめ]の[Ruby 賢者;けんじゃ]は この[Ruby 景色;けしき]の\n[Ruby 見;み]える[Ruby 場所;ばしょ]の どこかにいる…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#15",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_b_04",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 海;うみ]というと…[0002:0000:0A 00]\n[Color #2C64FF]ムッシーバビーチ[Color #373737][Color #373737]ね！！[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#16",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_b_05",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]むむむ…[0002:0000:0A 00] [Ruby 海;うみ]と[Ruby 言;い]っても\nとても[Ruby 高;たか]い[Ruby 場所;ばしょ]…[0002:0001:][Next][Ruby 空気;くうき]がうす～くなるほど [Ruby 高;たか]い[Ruby 場所;ばしょ]に\n３[Ruby 人目;にんめ]の[Ruby 賢者;けんじゃ]は いるでしょう。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#17",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_b_06",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]とりあえず[Ruby 行;い]ってみましょう！[0002:0000:0A 00]\n[Ruby 考;かんが]えていても しかたがないわ！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#18",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_b_07",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]しかし… [Ruby 医者;いしゃ]として \nそんな[Ruby 高;たか]い[Ruby 場所;ばしょ]に [Ruby 行;い]かせるわけには\nいかないでしょう…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#19",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_b_08",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]そういえば あなた\n[Ruby 医者;いしゃ]だったわね…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#20",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_b_09",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 空気;くうき]がうす～い[Ruby 場所;ばしょ]でも\n[Ruby 問題;もんだい]ないかどうか…\n[Ruby ２人;ふたり]を [Ruby 検査;けんさ]するでしょう。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#21",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_a_11",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 先生;せんせい][0002:0000:0A 00] [Ruby 次;つぎ]の[Ruby 患者;かんじゃ]さんが\nいらっしゃいました。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#22",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_a_12",
+   "style": 7,
+   "attr": "00000000",
+   "jp": "[0009:0000:07 00][0005:0000:][Ruby 重症;じゅうしょう]でしょう！！[0002:0000:3C 00]"
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#23",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_a_42_2",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]それは わかったから！[0002:0000:0A 00]\nその[Ruby 賢者達;けんじゃたち]は どこにいるの？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#24",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_a_13",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]その[Ruby ２人;ふたり]は とてつもない\n[Ruby 大;おお]きな[Ruby 病気;びょうき]に かかっているでしょう！[0002:0001:][Next]はやく [Ruby ２人;ふたり]にとりついている\nウィルスを たいじしないと\n[Ruby 大変;たいへん]なことになるでしょう！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#25",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_a_42_3",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ズバリ！[0002:0000:0A 00] [Ruby １人;ひとり]は\n[Ruby 森;もり]の[Ruby 中;なか]にいるでしょう！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#26",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_a_14",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]お[Ruby 静;しず]かに！[0002:0000:0A 00] あなた[Ruby 達;たち]に\nとりついている ウィルス…[0002:0001:][Next]そのウィルスが だんだんと\n[Ruby 見;み]えてきているでしょう…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#27",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_a_15",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 先生;せんせい]は こうしているだけで\n[Ruby 患者;かんじゃ]さんの [Ruby 病気;びょうき]がわかるのよ。[0002:0001:][Next][0001:0004:]よーく [Ruby 見;み]ててくださいね。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#28",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_a_16",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]あ～[0002:0000:0A 00] [Ruby 出;で]る[Ruby 出;で]る。[0002:0000:0A 00][Ruby 出;で]ちゃうでしょう。[0002:0000:0A 00]\n[Ruby 出;で]てきた…[0002:0000:0A 00] [Ruby 出;で]てきたでしょう。[0002:0001:][Next]あなた[Ruby 達;たち]を むしばむ\nおそろしい ウィルス…[0002:0001:][Next][0001:0004:][0001:0001:]これは…[0002:0000:0A 00] これは…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#29",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_a_17",
+   "style": 7,
+   "attr": "00000000",
+   "jp": "[0009:0000:07 00][0005:0000:]クッパウィルスでしょう！！[0002:0000:32 00]"
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#30",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_a_18",
+   "style": 7,
+   "attr": "00000000",
+   "jp": "[0009:0000:07 00][0005:0000:]ガハハハハ！[0002:0000:1E 00]"
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#31",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_a_19",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ワガハイの\n[Ruby 名前;なまえ]を[Ruby 呼;よ]んだか？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#32",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_a_30",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ひひひひひひ…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#33",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_a_31",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]うほほほほほほほほ\nほーほほほほほほほ…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#34",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_a_32",
+   "style": 7,
+   "attr": "00000000",
+   "jp": "[0009:0000:07 00][0005:0000:]ムリでしょう！[0002:0000:28 00]"
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#35",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_a_33",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:][Ruby 確;たし]かに この[Ruby 私;わたし]に\nわからないことは ないでしょう。[0002:0001:][Next]しかーし！[0002:0000:0A 00] いくら[Ruby 私;わたし]が\n[Ruby 有能;ゆうのう]でかつ マジカルなチカラを\n[Ruby 持;も]っていると [Ruby 言;い]っても…[0002:0001:][Next][0001:0004:]ダークスターの パワーによる\n[Ruby 強力;きょうりょく]なガードを [Ruby 打;う]ち[Ruby 破;やぶ]るなど…[0002:0001:][Next][0001:0004:][Ruby 絶対;ぜったい]！[0002:0000:0A 00] [Ruby 絶対;ぜったい]！[0002:0000:0A 00]\nぜ～～っったいにムリでしょう！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#36",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_a_34",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]そんな…[0002:0000:0A 00] そこまで\n[Ruby 自信;じしん]を[Ruby 持;も]って [Ruby 言;い]わなくても…[0002:0001:][Next]このままでは ピーチ[Ruby 城;じょう]へ\n[Ruby 近;ちか]づけない…[0002:0001:][Next]この[Ruby 国;くに]が ほろんでしまうかも\nしれないのに…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#37",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_a_35",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ガッカリするのは\nまだ はやいでしょう。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#38",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_a_36",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 私;わたし]には ガードを[Ruby 打;う]ち[Ruby 破;やぶ]る\nチカラは ありませんが…[0002:0001:][Next][Ruby 他;ほか]に[Ruby 方法;ほうほう]が\nないわけではないでしょう。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#39",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_a_37",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ホントに？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#40",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_a_38",
+   "style": 7,
+   "attr": "00000000",
+   "jp": "[0009:0000:07 00][Color #2C64FF]スターワクチン[Color #373737][Color #373737]！[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#41",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_a_39",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Color #2C64FF]スターワクチン[Color #373737][Color #373737]？[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#42",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_a_50",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]そうね… [Ruby 私達;わたしたち]も\nエクボンの[Ruby 森;もり]へ [Ruby 急;いそ]ぎましょうか。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#43",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_a_51",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 待;ま]つでしょう！[0002:0000:0A 00] [Ruby 出;で]たでしょう！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#44",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_a_52",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]これを [Ruby 見;み]るといいでしょう！[0002:0001:][Next]ほーら！[0002:0000:0A 00] [Ruby １人目;ひとりめ]の[Ruby 賢者;けんじゃ]が\nくっきりと [Ruby 見;み]えるでしょう！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#45",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_a_53",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]え？ このイモムシ…[0002:0000:0A 00]\nクッパの[Ruby 体;からだ]の[Ruby 中;なか]で\nバトルした イモムシなの？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#46",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_a_54",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]あ… えーっと…[0002:0000:1E 00]\nああ！ [Ruby 思;おも]い[Ruby 出;だ]したわ！[0002:0001:][Next]そういえば このイモムシ\n[Ruby 戦;たたか]ったあと [Ruby 逃;に]げていったわね！[0002:0001:][Next][0001:0004:]このイモムシが [Ruby １人目;ひとりめ]の[Ruby 賢者;けんじゃ]なの？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#47",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_a_55",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]そ…[0002:0000:0A 00] そうね。\n[Ruby １人目;ひとりめ]の[Ruby 賢者;けんじゃ]が [Color #2C64FF]クッパの[Ruby 体;からだ]の[Ruby 中;なか][Color #373737][Color #373737]に\nいるなんて ラッキーだわ！[0002:0001:][Next][Ruby 私達;わたしたち]は [Color #373737][Color #2C64FF]クッパの[Ruby 体;からだ]の[Ruby 中;なか][Color #373737][Color #373737]に\nもどって このイモムシから\n[Color #373737][Color #2C64FF]スターワクチン[Color #373737][Color #373737]をいただきましょう！[0002:0001:][Next][Color #373737]"
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#48",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_a_56",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]なんだか めんどうなことに\nまきこまれちゃったでしょう…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#49",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_b_10",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]こちらへ。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#50",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_a_41_2",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]いま キノコ[Ruby 王国;おうこく]をおびやかす\nおそろしい[Ruby 病気;びょうき] メタコロ[Ruby 病;びょう]…[0002:0001:][Next]そのメタコロ[Ruby 病;びょう]を [Ruby 治;なお]すためにも\nスターワクチンが [Ruby 必要;ひつよう]なのですが…[0002:0001:][Next][Color #2C64FF]３つのスターワクチン[Color #373737][Color #373737]が\nそろえば きっと…[0002:0001:][Next]あなた[Ruby 達;たち]の[Ruby 言;い]う [Ruby 暗黒;あんこく]のガードも\nこわすことができるでしょう。[0002:0001:][Next]ダークスターも やっつけちゃえる…\nかどうかは わかりませんが…[0002:0001:][Next]まずは スターワクチンを\n[Ruby 集;あつ]めることが オススメでしょう！[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#51",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_a_41_3",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]メタコロ[Ruby 病;びょう]を [Ruby 治;なお]せるのね！\nさっそく [Ruby 集;あつ]めなきゃ！！[0002:0001:][Next]それで？[0002:0000:0A 00] [Color #2C64FF]スターワクチン[Color #373737][Color #373737]は\nどこにあるの？[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#52",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_a_20",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ほーら！[0002:0000:0A 00]\nさっそく[Ruby 出;で]たでしょう！[0002:0001:][Next]これが あなた[Ruby 達;たち]に\nとりついている ウィルスでしょう！[0002:0001:][Next]うーん。[0002:0000:0A 00][Ruby 見;み]るからに\nこころと[Ruby 体;からだ]に わるそうでしょう。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#53",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_a_21",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]な[0002:0000:0A 00] なんだと キサマ！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#54",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_a_22",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]そのウィルスは\nタチがわるいでしょう。[0002:0001:][Next][Ruby 治;なお]るまでに [Ruby 相当;そうとう]の\n[Ruby 時間;じかん]がかかるでしょう。[0002:0001:][Next]とりあえず お[Ruby 薬;くすり]を[Ruby １０日分;とおかぶん]\n[Ruby 出;だ]しておきます。[0002:0001:][Next]１[Ruby 日;にち] ３[Ruby 回;かい] [Ruby 食後;しょくご]に\n[Ruby 飲;の]むといいでしょう。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#55",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_a_23",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]おい！[0002:0000:0A 00] マリオ！ [Ruby 緑;みどり]のヒゲ！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#56",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_a_24",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]オマエ[Ruby 達;たち]も ダークスターを\n[Ruby 手;て]に[Ruby 入;い]れようとしているな！？[0002:0001:][Next]おまけに ピーチ[Ruby 姫;ひめ]も\n[Ruby 取;と]りもどそうとしているだろ！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#57",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_a_25",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ダークスターと ピーチ[Ruby 姫;ひめ]を\n[Ruby 取;と]りもどすのは このワガハイだ！[0002:0001:][Next][0001:0004:][0001:0001:]ジャマは させないぞ！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#58",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_a_26",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ま[0002:0000:0A 00] まだ…[0002:0000:0A 00]\n[Ruby 調子;ちょうし]が…[0002:0000:0A 00] もどってない…ぞ。[0002:0001:][Next][0001:0004:][0001:0001:]く…[0002:0000:0A 00] や…[0002:0000:0A 00] しい…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#59",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_a_27",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]なるほど。そういうわけで\nあなた[Ruby 達;たち]は ここにきたのですね。[0002:0001:][Next]このままでは\nキノコ[Ruby 王国;おうこく]が [Ruby 危;あぶ]ないと…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#60",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_a_28",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]あなたは キノコ[Ruby 王国;おうこく]のことなら\nなんでも [Ruby 知;し]っているって\nウワサを[Ruby 聞;き]いたわ…[0002:0001:][Next]ピーチ[Ruby 城;じょう]の[Ruby 前;まえ]に [Ruby 現;あらわ]れた\nあの ふしぎなガードも\n[Ruby 打;う]ち[Ruby 破;やぶ]ってくれないかしら…？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_34_suishou_01_U#61",
+   "label": "MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_a_29",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]はははははは…[0002:0001:]"
+  }
+ ]
+}

@@ -1,0 +1,441 @@
+{
+ "batch": "FMsg__o_areanone_lastboss_01_L__and1",
+ "rooms": [
+  "o_areanone_lastboss_01_L",
+  "o_areanone_lastboss_03_L"
+ ],
+ "ds_rooms": [
+  "223",
+  "281"
+ ],
+ "ds_reference": [
+  "DS223#0: 뭐냐!? 암흑의 파워라는 건\n바람을 일으키는 게 다냐!?[Next]별것 없지 않느냐!!",
+  "DS223#1: 으으으으…",
+  "DS223#2: 드디어 결전의 때가 왔나 봐![Next]지금까지와는 차원이 다른\n암흑의 파워가 여기서도 느껴져!",
+  "DS223#3: 앗! 치피냐!?[Next]밖에서 지금\n엄청난 일이 벌어지고 있다![Next]네 녀석에게 보여 주지\n못하는 게 안타까울 정도다!!",
+  "DS223#4: 저기!!\n부탁이 하나 있어!!",
+  "DS223#5: 이런 상황에서 뭐냐!?",
+  "DS223#6: 눈앞의 적과\n싸울 때…[Next]우리를\n잊지 말아 줘!!",
+  "DS223#7: 무슨 소리냐?",
+  "DS223#8: 몸속에 있는 우리도 도울게![Next]함께 녀석을 물리치는 거야!!",
+  "DS223#9: 뭐냐!? 이럴 때 왜\n마리오와 초록색 수염 목소리가…",
+  "DS223#10: 맞아!! 여기에 있는 건\n나 혼자가 아니야!!",
+  "DS223#11: 뭐!? 뭐라고!?",
+  "DS223#12: 여기에…\n너의 몸속에 있는 건…[Next]마리오와 루이지야!!",
+  "DS223#13: 뭐라고!?\n잘 들리지 않는다!![Next]어이! 치피!\n너 말고 누가 있는 거냐!?",
+  "DS223#14: 어쨌든… 우리…들이\n있다는 걸…",
+  "DS223#15: 잊지 말아 줘!!!",
+  "DS281#0: 로로로로로!!",
+  "DS281#1: 다크스타가…\n드디어 사라졌어.",
+  "DS281#2: 맞다. 아주\n강한 놈이었다.",
+  "DS281#3: 그런데 피치공주는?[Next]피치공주는 무사해?",
+  "DS281#4: 그렇다!!\n완전히 잊고 있었군![Next]피치공주를 데려가려면\n지금이 찬스로군!!",
+  "DS281#5: d",
+  "DS281#6: 아. 괜한 말을\n하고 말았어…",
+  "DS281#7: 뭐야…? 또 해보자는 거야?",
+  "DS281#8: 왜일까…로로…",
+  "DS281#9: 너희…들… 따위…에게\n왜… 몇 번이고…",
+  "DS281#10: 나는… 단지… 이 나라를\n정복하고 싶었을 뿐인데로로…[Next]나름대로…\n노력했는데로로…",
+  "DS281#11: 때로는… 누군가에게…\n이용도… 당하고…[Next]구질구질한 곳에서… 열심히\n일한 적도… 있었어로로…",
+  "DS281#12: 언제나… 언제나…\n너희…들이 나타나서…[Next]언제나… 언제나…\n언제나… 언제나… 방해했었어로로…",
+  "DS281#13: 이젠 포기하는 게 어때?[Next]나쁜 짓은 결국…[Next]실패하게 되어 있어.",
+  "DS281#14: 로로로로로…",
+  "DS281#15: 알았다로로…\n포기하지로로…[Next]이대로 모습을\n감추지…로로…",
+  "DS281#16: 잘 생각했어.[Next]이제 나쁜 짓은 하지 마!",
+  "DS281#17: 그럼… 사라지지로…\n사라지지로로로로…[Next]사라지지로로로로…",
+  "DS281#18: 네놈들과\n함께――――!",
+  "DS281#19: 뭐지!? 몸속이…",
+  "DS281#20: 크허어어억!!!",
+  "DS281#21: 괴, 괴로워…",
+  "DS281#22: 괴롭다고…",
+  "DS281#23: 으아아아아!!!",
+  "DS281#24: 오오!! 여기는 어디입니까!?\n혹시 여기는…",
+  "DS281#25: 맞아!!\n쿠파의 몸 밖이야!!",
+  "DS281#26: 까르코비츠는 결국 마지막까지\n실패했나 봐.[Next]자폭할 때의 충격으로\n우리를 오히려 돕고 말았어!",
+  "DS281#27: 아! 피치공주!!",
+  "DS281#28: 고마워요!!\n마리오… 루이지…!",
+  "DS281#29: 모두… 고마워요…[Next]이제 버섯 왕국은\n무사할 거예요.",
+  "DS281#30: 공주님!! 공주님~!!\n이렇게… 이렇게 무사하셔서~![Next]제가 얼마나 기쁜지 모릅니다~!",
+  "DS281#31: 도, 도대체…[Next]어떻게 된 일이냐――――!",
+  "DS281#32: 어째서 이 몸의 입에서 마리오와\n초록색 수염이 나오는 거냐!!",
+  "DS281#33: 너무 깊게 생각하지 않는 게\n좋을 거야!![Next]이제 와서 알게 된다고\n달라지는 건 없잖아!?",
+  "DS281#34: 너, 너는!![Next]이 목소리는…[Next]치피냐!?[Next]네가\n치피였냐!?",
+  "DS281#35: 맞아. 너의 부하 치피야.",
+  "DS281#36: 크아아아아아아\n아아아아아아아!!",
+  "DS281#37: 흐엑~~!!\n어, 어쩌면 또~~![Next]공주님! 어서 피하십시오~!",
+  "DS281#38: 마리오! 루이지!",
+  "DS281#39: 걱정 붙들어 매십시오![Next]마리오님과 루이지님이라면\n반드시 이길 것입니다!",
+  "DS281#40: …부탁해요!",
+  "DS281#41: 자, 이쪽으로 어서!",
+  "DS281#42: 마리오!",
+  "DS281#43: 루이지!",
+  "DS281#44: 이 몸의 몸속에서\n쓸데없는 짓이나 하고~![Next]절대로 절대로\n절대로 용서할 수 없다!![Next]그리고 이번에야말로\n피치공주를 데려가겠다!!",
+  "DS281#45: 각오해라!!!"
+ ],
+ "glossary": [
+  {
+   "jp": "ダークスター",
+   "ko": "다크스타",
+   "type": "boss",
+   "basis": "DS",
+   "source": "BData__mfset_MonN#70",
+   "note": "glossary 확정값과 동일 [gl_enemies]"
+  },
+  {
+   "jp": "ピーチ姫",
+   "ko": "피치공주",
+   "type": "character",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesOutline#13",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "マリオ",
+   "ko": "마리오",
+   "type": "character",
+   "basis": "DS",
+   "source": "BData__mfset_Help#19",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "ルイージ",
+   "ko": "루이지",
+   "type": "character",
+   "basis": "DS",
+   "source": "BData__mfset_Help#20",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "体内",
+   "ko": "몸속",
+   "type": "place",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesOutline#6",
+   "note": "[gl_menu_places]"
+  },
+  {
+   "jp": "暗黒のパワー",
+   "ko": "암흑의 파워",
+   "type": "term",
+   "basis": "DS",
+   "source": "o_peach_t_06#2 ↔ DS22C#1",
+   "note": "room-align"
+  }
+ ],
+ "messages": [
+  {
+   "id": "FMsg/o_areanone_lastboss_01_L#0",
+   "label": "MES_EV_MAIN_TPeach_15_Last_battle_16_2",
+   "style": 7,
+   "src": "{1:align}{2:font}{3:color}マリオ{4:color}{5:color}と {6:color}{7:color}ルイージ{8:color}{9:color}よ！！{10:wait}{11:color}{12:font}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0000:0001:02 00]",
+    "3": "[Color #FF4343]",
+    "4": "[Color #373737]",
+    "5": "[Color #373737]",
+    "6": "[Color #373737]",
+    "7": "[Color #00BB27]",
+    "8": "[Color #373737]",
+    "9": "[Color #373737]",
+    "10": "[0002:0001:]",
+    "11": "[Color #373737]",
+    "12": "[0000:0001:FF FF]"
+   },
+   "header": "[0009:0000:07 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_areanone_lastboss_01_L#1",
+   "label": "MES_EV_MAIN_TPeach_15_Last_battle_10",
+   "style": 6,
+   "src": "目の前にいるやつと\n戦っているとき…{1:wait}[Next]私達のことを\n忘れないで！！{2:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_areanone_lastboss_01_L#2",
+   "label": "MES_EV_MAIN_TPeach_15_Last_battle_12",
+   "style": 6,
+   "src": "体内の 私達も協力するの！{1:wait}[Next]いっしょに やつを倒すのよ！！{2:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_areanone_lastboss_01_L#3",
+   "label": "MES_EV_MAIN_TPeach_15_Last_battle_14",
+   "style": 6,
+   "src": "そう！！{1:pause} ここにいるのは\n私だけじゃないわ！！{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_areanone_lastboss_01_L#4",
+   "label": "MES_EV_MAIN_TPeach_15_Last_battle_16",
+   "style": 6,
+   "src": "ここに…{1:pause}\nあなたの 体の中にいるのは…{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_areanone_lastboss_01_L#5",
+   "label": "MES_EV_MAIN_TPeach_15_Last_battle_18",
+   "style": 6,
+   "src": "とにかく…{1:pause} 私…{2:pause} 達も\nいるってことを…{3:pause}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0000:05 00]",
+    "3": "[0002:0000:28 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_areanone_lastboss_01_L#6",
+   "label": "MES_EV_MAIN_TPeach_15_Last_battle_19",
+   "style": 10,
+   "src": "{1:mode}わすれないで！！！{2:pause}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[0002:0000:1E 00]"
+   },
+   "header": "[0009:0000:0A 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_areanone_lastboss_01_L#7",
+   "label": "MES_EV_MAIN_TPeach_15_Last_battle_06",
+   "style": 6,
+   "src": "{1:align}ついに決戦のときが きたようね！{2:wait}[Next]これまでにない 暗黒のパワーを\nここにいても 感じるわ！！{3:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_areanone_lastboss_01_L#8",
+   "label": "MES_EV_MAIN_TPeach_15_Last_battle_08",
+   "style": 6,
+   "src": "ねえ！！{1:pause}\n私から お願いがあるの！！{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_areanone_lastboss_03_L#0",
+   "label": "MES_EV_MAIN_TPeach_06_2_Last_battle_40_10",
+   "style": 5,
+   "src": "そう… きえリュ…\nきえリュリュリュリュ…{1:wait}[Next]{2:align}{3:font}きえリュリュリュリュ…{4:wait}{5:font}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0001:0004:]",
+    "3": "[0000:0001:00 00]",
+    "4": "[0002:0001:]",
+    "5": "[0000:0001:FF FF]"
+   },
+   "header": "[0009:0000:05 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_areanone_lastboss_03_L#1",
+   "label": "MES_EV_MAIN_TPeach_06_2_Last_battle_40_11",
+   "style": 10,
+   "src": "オマエ達と\nいっしょにーーーー！{1:pause}",
+   "tags": {
+    "1": "[0002:0000:3C 00]"
+   },
+   "header": "[0009:0000:0A 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_areanone_lastboss_03_L#2",
+   "label": "MES_EV_MAIN_TPeach_06_2_Last_battle_40",
+   "style": 6,
+   "src": "あ。{1:pause}よけいなこと\n言っちゃったわね…{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_areanone_lastboss_03_L#3",
+   "label": "MES_EV_MAIN_TPeach_06_2_Last_battle_40_0",
+   "style": 6,
+   "src": "なに…？{1:pause} まだやるっていうの？{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_areanone_lastboss_03_L#4",
+   "label": "MES_EV_MAIN_TPeach_06_2_Last_battle_40_1",
+   "style": 5,
+   "src": "{1:align}なんで…{2:pause} リュリュ…{3:pause}{4:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0000:05 00]",
+    "3": "[0002:0000:0A 00]",
+    "4": "[0002:0001:]"
+   },
+   "header": "[0009:0000:05 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_areanone_lastboss_03_L#5",
+   "label": "MES_EV_MAIN_TPeach_06_2_Last_battle_40_2",
+   "style": 5,
+   "src": "オマエ…達…{1:pause} なんか…に\nなんで…{2:pause} なんども…{3:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0000:0A 00]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:05 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_areanone_lastboss_03_L#6",
+   "label": "MES_EV_MAIN_TPeach_06_2_Last_battle_40_3",
+   "style": 5,
+   "src": "ワレは… ただ… このくにを\nせいふく したいだけリュリュ…{1:wait}[Next]{2:font}それなりに…\nがんばってリュ… のに…{3:wait}{4:font}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0000:0001:00 00]",
+    "3": "[0002:0001:]",
+    "4": "[0000:0001:FF FF]"
+   },
+   "header": "[0009:0000:05 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_areanone_lastboss_03_L#7",
+   "label": "MES_EV_MAIN_TPeach_06_2_Last_battle_40_4",
+   "style": 5,
+   "src": "ときには… だれかに…\nコキつかわれた… ことも…{1:wait}[Next]{2:font}じめじめと したところで… コツコツと\nはたらいたことも… あったリュリュ…{3:wait}{4:font}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0000:0001:00 00]",
+    "3": "[0002:0001:]",
+    "4": "[0000:0001:FF FF]"
+   },
+   "header": "[0009:0000:05 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_areanone_lastboss_03_L#8",
+   "label": "MES_EV_MAIN_TPeach_06_2_Last_battle_40_5",
+   "style": 5,
+   "src": "かならず… かならず\nオマエ…達が あらわれて…{1:wait}[Next]いつもいつも…\nいつもいつも ジャマすリュリュ…{2:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:05 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_areanone_lastboss_03_L#9",
+   "label": "MES_EV_MAIN_TPeach_06_2_Last_battle_40_6",
+   "style": 6,
+   "src": "もう あきらめなさいよ。{1:wait}[Next]結局 わるいことって…{2:wait}[Next]できないように なってるのよ。{3:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_areanone_lastboss_03_L#10",
+   "label": "MES_EV_MAIN_TPeach_06_2_Last_battle_40_7",
+   "style": 5,
+   "src": "{1:align}{2:align}フリュリュリュリュ…{3:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:05 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_areanone_lastboss_03_L#11",
+   "label": "MES_EV_MAIN_TPeach_06_2_Last_battle_40_8",
+   "style": 5,
+   "src": "わかったリュリュ…\nあきらめリュリュ…{1:wait}[Next]{2:font}このまま すがたを\nけす… リュリュよ…{3:wait}{4:font}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0000:0001:00 00]",
+    "3": "[0002:0001:]",
+    "4": "[0000:0001:FF FF]"
+   },
+   "header": "[0009:0000:05 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_areanone_lastboss_03_L#12",
+   "label": "MES_EV_MAIN_TPeach_06_2_Last_battle_40_9",
+   "style": 6,
+   "src": "{1:align}うん そうね。{2:wait}[Next]{3:align}もうわるいことは しないことね。{4:wait}",
+   "tags": {
+    "1": "[0001:0001:]",
+    "2": "[0002:0001:]",
+    "3": "[0001:0000:]",
+    "4": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_areanone_lastboss_03_L#13",
+   "label": "MES_EV_MAIN_TPeach_06_2_Last_battle_36",
+   "style": 6,
+   "src": "ダークスターが…\nついに 消えたのね。{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_areanone_lastboss_03_L#14",
+   "label": "MES_EV_MAIN_TPeach_06_2_Last_battle_38",
+   "style": 6,
+   "src": "ところで ピーチ姫は？{1:wait}[Next]ピーチ姫は 無事なの？{2:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  }
+ ]
+}

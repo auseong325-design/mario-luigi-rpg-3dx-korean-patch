@@ -1,0 +1,59 @@
+{
+ "batch": "FMsg__fcommon",
+ "rooms": [
+  "fcommon"
+ ],
+ "ds_rooms": [],
+ "ds_reference": [],
+ "glossary": [
+  {
+   "jp": "キャラクター",
+   "ko": "캐릭터",
+   "type": "ui",
+   "basis": "coined",
+   "source": "",
+   "note": "[gl_menu_places]"
+  },
+  {
+   "jp": "ゲームデータ",
+   "ko": "게임 데이터",
+   "type": "ui",
+   "basis": "coined",
+   "source": "",
+   "note": "DS는 '저장 데이터'(InitLoadMes#5)·'데이터' [gl_menu_places]"
+  },
+  {
+   "jp": "データ",
+   "ko": "데이터",
+   "type": "ui",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesSys#17",
+   "note": "[gl_menu_places]"
+  }
+ ],
+ "messages": [
+  {
+   "id": "FMsg/fcommon#0",
+   "label": "MES_sys_fukki_00",
+   "style": 11,
+   "src": "{1:align}{2:align}{3:mode}=== お知らせ ===\n{4:align}{5:mode}操作キャラクターが\n{6:align}{7:mode}地形に入り込んでしまったことを 確認しました。\n{8:align}{9:mode}ゲームデータが 壊れた状態にならないよう\n{10:align}{11:mode}キャラクターを安全な場所まで 移動させます。{12:pause}{13:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0005:0000:]",
+    "4": "[0001:0004:]",
+    "5": "[0005:0000:]",
+    "6": "[0001:0004:]",
+    "7": "[0005:0000:]",
+    "8": "[0001:0004:]",
+    "9": "[0005:0000:]",
+    "10": "[0001:0004:]",
+    "11": "[0005:0000:]",
+    "12": "[0002:0000:0A 00]",
+    "13": "[0002:0001:]"
+   },
+   "header": "[0009:0000:0B 00]",
+   "dups": []
+  }
+ ]
+}

@@ -1,0 +1,467 @@
+{
+ "batch": "FMsg__o_koopa_end_01",
+ "rooms": [
+  "o_koopa_end_01"
+ ],
+ "ds_rooms": [
+  "23E"
+ ],
+ "ds_reference": [
+  "DS23E#0: 배달입니다~ 배달입니다~![Next]피치 성에서 배달 왔습니다~!",
+  "DS23E#1: 뭐냐, 뭐야!?",
+  "DS23E#2: 어이! 아무나\n이 새를 쫓아내라!!",
+  "DS23E#3: 피치 성에서 뭔가가\n도착한 모양입니다.",
+  "DS23E#4: 뭐? 피치 성!?",
+  "DS23E#5: 보내는 사람에 피치공주 이름이…",
+  "DS23E#6: 배달입니다~ 배달입니다~![Next]피치 성에서 몸집이 큰\n괴팍한 분에게 배달 왔습니다~!",
+  "DS23E#7: 안녕~!!",
+  "DS23E#8: 뭐야! 너냐?\n대체 무슨 볼일이냐!!",
+  "DS23E#9: 피치 성을 덮치러 또\n오는 게 아닐까 싶어서…[Next]보러 온 거야.",
+  "DS23E#10: 흥!!![Next]이번 일로 이 몸의 성도\n많이 부서지고 말았다.[Next]잠시 동안은 얌전히 있어 주마!",
+  "DS23E#11: 아하하하하![Next]아주 잘 생각했어!",
+  "DS23E#12: 시끄럽다!! 당장 돌아가라!",
+  "DS23E#13: 알았어. 돌아갈 거야.[Next]이건 피치공주가 주는\n선물이야!!",
+  "DS23E#14: 이런 거 필요없다!!",
+  "DS23E#15: 쿠파님…\n안 보실 겁니까?",
+  "DS23E#16: 시끄럽다! 네 녀석도\n당장 일하러 가라!!",
+  "DS23E#17: 꺄~ 무서워, 무서워…",
+  "DS23E#18: 쿠파님~\n기분은 어떠신가요~?",
+  "DS23E#19: 저희들… 쿠파 군단으로\n돌아가고 싶습니다~",
+  "DS23E#20: 까르코비츠 따위에게\n마음을 허락하다니…[Next]정신이 나갔었나 봅니다~\n저희에겐 쿠파님밖에 없습니다~",
+  "DS23E#21: 굼비와 헤이포,\n그리고 펄러크!![Next]너희들 아직도 있었느냐?\n당장 나가라!",
+  "DS23E#22: 어흐흑…",
+  "DS23E#23: 너희들도다!\n당장 쿠파 성을 고쳐라!!",
+  "DS23E#24: 저희들… 쿠파 군단으로\n복귀시켜 주시는 겁니까!?",
+  "DS23E#25: 알았으니까 빨리 가라!![Next]다음엔 반드시\n마리오를 물리칠 것이다!",
+  "DS23E#26: 가, 감사합니다~!!"
+ ],
+ "glossary": [
+  {
+   "jp": "クッパ",
+   "ko": "쿠파",
+   "type": "character",
+   "basis": "DS",
+   "source": "BData__mfset_Help#21",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "クリッキー",
+   "ko": "굼비",
+   "type": "character",
+   "basis": "DS",
+   "source": "FEvent:23E#21",
+   "note": "엘리트 3인방 [gl_kj]"
+  },
+  {
+   "jp": "ゲラコビッツ",
+   "ko": "까르코비츠",
+   "type": "character",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesOutline#5",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "パタボン",
+   "ko": "펄러크",
+   "type": "character",
+   "basis": "DS",
+   "source": "FEvent:23E#21",
+   "note": "엘리트 3인방 [gl_kj]"
+  },
+  {
+   "jp": "ピーチ姫",
+   "ko": "피치공주",
+   "type": "character",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesOutline#13",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "ヘイファー",
+   "ko": "헤이포",
+   "type": "character",
+   "basis": "DS",
+   "source": "FEvent:23E#21",
+   "note": "엘리트 3인방 [gl_kj]"
+  },
+  {
+   "jp": "マリオ",
+   "ko": "마리오",
+   "type": "character",
+   "basis": "DS",
+   "source": "BData__mfset_Help#19",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "クッパ軍団",
+   "ko": "쿠파 군단",
+   "type": "other",
+   "basis": "DS",
+   "source": "FEvent#23E.19",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "クッパ城",
+   "ko": "쿠파 성",
+   "type": "place",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesPlace#6",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "ピーチ城",
+   "ko": "피치 성",
+   "type": "place",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesPlace#1",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "クッパ様",
+   "ko": "쿠파님",
+   "type": "term",
+   "basis": "DS",
+   "source": "BAI__BMes_cf:0#0",
+   "note": "부하들이 부를 때 [gl_kj]"
+  },
+  {
+   "jp": "ダメージ",
+   "ko": "타격",
+   "type": "term",
+   "basis": "DS",
+   "source": "DS '타격' 32회 / '대미지' 5회",
+   "note": "'타격을 입히다/입다'. 숫자·연속 공격 문맥은 '대미지' 허용(DS: 연속 대미지)"
+  },
+  {
+   "jp": "ワガハイ",
+   "ko": "이 몸",
+   "type": "term",
+   "basis": "DS",
+   "source": "FEvent:025#7",
+   "note": "쿠파의 1인칭 [gl_kj]"
+  },
+  {
+   "jp": "軍団",
+   "ko": "군단",
+   "type": "term",
+   "basis": "DS",
+   "source": "BAI__BMes_cf#0.20",
+   "note": "[gl_attacks]"
+  }
+ ],
+ "messages": [
+  {
+   "id": "FMsg/o_koopa_end_01#0",
+   "label": "MES_EV_MAIN_SKoopa_last_Ending_20",
+   "style": 6,
+   "src": "ボクら… クッパ軍団に\nもどりたいんです～{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_koopa_end_01#1",
+   "label": "MES_EV_MAIN_SKoopa_last_Ending_21",
+   "style": 6,
+   "src": "ゲラコビッツなんかに\nこころをゆるすなんて…{1:wait}[Next]どうか していました～\nボクらには クッパ様だけです～{2:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_koopa_end_01#2",
+   "label": "MES_EV_MAIN_SKoopa_last_Ending_22",
+   "style": 6,
+   "src": "クリッキーに ヘイファー\nパタボン！！{1:wait}[Next]オマエ達 まだいたのか！\nはやく 出ていけ！{2:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_koopa_end_01#3",
+   "label": "MES_EV_MAIN_SKoopa_last_Ending_23",
+   "style": 5,
+   "src": "{1:align}ううう…{2:pause}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0000:1E 00]"
+   },
+   "header": "[0009:0000:05 00]",
+   "dups": [
+    "FMsg/o_peach_op_04#38"
+   ]
+  },
+  {
+   "id": "FMsg/o_koopa_end_01#4",
+   "label": "MES_EV_MAIN_SKoopa_last_Ending_24",
+   "style": 6,
+   "src": "オマエ達もだ！\nさっさと クッパ城をなおせ！！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_koopa_end_01#5",
+   "label": "MES_EV_MAIN_SKoopa_last_Ending_25",
+   "style": 6,
+   "src": "ボク達… クッパ軍団に\nもどって いいんですか！？{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_koopa_end_01#6",
+   "label": "MES_EV_MAIN_SKoopa_last_Ending_26",
+   "style": 6,
+   "src": "{1:align}いいから はやくいけ！！{2:wait}[Next]次こそ マリオを\nやっつけるのだ！{3:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_koopa_end_01#7",
+   "label": "MES_EV_MAIN_SKoopa_last_Ending_27",
+   "style": 9,
+   "src": "あ{1:pause} ありがとうございます～！！{2:pause}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0000:1E 00]"
+   },
+   "header": "[0009:0000:09 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_koopa_end_01#8",
+   "label": "MES_EV_MAIN_SKoopa_last_Ending_10",
+   "style": 6,
+   "src": "またピーチ城を おそいに\nくるんじゃないかと 思ってね。{1:wait}[Next]{2:align}様子を 見にきたのよ。{3:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0001:0004:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_koopa_end_01#9",
+   "label": "MES_EV_MAIN_SKoopa_last_Ending_11",
+   "style": 6,
+   "src": "{1:align}{2:align}ふん！！！{3:wait}[Next]{4:align}こんどのことで ワガハイの城も\nダメージを うけているんだ。{5:wait}[Next]{6:align}しばらくは おとなしくしているぞ！{7:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0001:]",
+    "4": "[0001:0000:]",
+    "5": "[0002:0001:]",
+    "6": "[0001:0004:]",
+    "7": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_koopa_end_01#10",
+   "label": "MES_EV_MAIN_SKoopa_last_Ending_12",
+   "style": 6,
+   "src": "あはははは！{1:wait}[Next]それは いいこころがけね！{2:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_koopa_end_01#11",
+   "label": "MES_EV_MAIN_SKoopa_last_Ending_13",
+   "style": 6,
+   "src": "うるさい！！{1:pause} はやく帰れ！{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_koopa_end_01#12",
+   "label": "MES_EV_MAIN_SKoopa_last_Ending_14",
+   "style": 6,
+   "src": "{1:align}はいはい 帰りますよ。{2:wait}[Next]これは ピーチ姫からの\nプレゼントよ！！{3:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_koopa_end_01#13",
+   "label": "MES_EV_MAIN_SKoopa_last_Ending_15",
+   "style": 6,
+   "src": "いらん！{1:pause} こんなもの！！{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_koopa_end_01#14",
+   "label": "MES_EV_MAIN_SKoopa_last_Ending_16",
+   "style": 6,
+   "src": "クッパ様…{1:pause}\n開けないんですか？{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_koopa_end_01#15",
+   "label": "MES_EV_MAIN_SKoopa_last_Ending_17",
+   "style": 6,
+   "src": "うるさい！{1:pause} オマエも\nはやく 作業にもどれ！！{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_koopa_end_01#17",
+   "label": "MES_EV_MAIN_SKoopa_last_Ending_19",
+   "style": 6,
+   "src": "クッパ様～{1:pause}\nごきげんは いかがですか～？{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_koopa_end_01#18",
+   "label": "MES_EV_MAIN_SKoopa_last_Ending_01",
+   "style": 6,
+   "src": "おとどけ おとどけ～！{1:wait}[Next]ピーチ城から おとどけ～！{2:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_koopa_end_01#19",
+   "label": "MES_EV_MAIN_SKoopa_last_Ending_02",
+   "style": 6,
+   "src": "なんだ なんだ！？{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_koopa_end_01#20",
+   "label": "MES_EV_MAIN_SKoopa_last_Ending_03",
+   "style": 6,
+   "src": "おいっ！ だれか\nこの鳥を 追いはらえ！！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_koopa_end_01#21",
+   "label": "MES_EV_MAIN_SKoopa_last_Ending_04",
+   "style": 6,
+   "src": "ピーチ城から なにか\nとどいたようです。{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_koopa_end_01#22",
+   "label": "MES_EV_MAIN_SKoopa_last_Ending_05",
+   "style": 6,
+   "src": "なに！ ピーチ城！？{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_koopa_end_01#23",
+   "label": "MES_EV_MAIN_SKoopa_last_Ending_06",
+   "style": 6,
+   "src": "差出人は ピーチ姫だとか…{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_koopa_end_01#24",
+   "label": "MES_EV_MAIN_SKoopa_last_Ending_07",
+   "style": 6,
+   "src": "{1:align}おとどけ おとどけ～！{2:wait}[Next]ピーチ姫から 体のでかい\nらんぼうものさんに おとどけ～！{3:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_koopa_end_01#25",
+   "label": "MES_EV_MAIN_SKoopa_last_Ending_08",
+   "style": 6,
+   "src": "はあ～い！！{1:pause}",
+   "tags": {
+    "1": "[0002:0000:1E 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_koopa_end_01#26",
+   "label": "MES_EV_MAIN_SKoopa_last_Ending_09",
+   "style": 6,
+   "src": "なんだ！ オマエか！\nいったい なんの用だ！！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  }
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "batch": "FMsg__ev_zutsuda_09",
+ "rooms": [
+  "ev_zutsuda_09"
+ ],
+ "ds_rooms": [
+  "13D"
+ ],
+ "ds_reference": [
+  "DS13D#0: 이 냄새는 뭐지…?",
+  "DS13D#1: 향기가… 좋군…",
+  "DS13D#2: 에…! 에…!",
+  "DS13D#3: 에취~~~~~~!!!"
+ ],
+ "glossary": [],
+ "messages": [
+  {
+   "id": "FMsg/ev_zutsuda_09#0",
+   "label": "MES_EV_LZutsuda_09_LZ09_koopa_01",
+   "style": 6,
+   "src": "{1:align}{2:align}このにおいは なんだ…？{3:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/o_zutsuda_09#1"
+   ]
+  },
+  {
+   "id": "FMsg/ev_zutsuda_09#1",
+   "label": "MES_EV_LZutsuda_09_LZ09_koopa_02",
+   "style": 6,
+   "src": "{1:align}{2:align}なかなか…{3:pause} いいにおいだ…{4:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0000:14 00]",
+    "4": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/o_zutsuda_09#2"
+   ]
+  },
+  {
+   "id": "FMsg/ev_zutsuda_09#2",
+   "label": "MES_EV_LZutsuda_09_LZ09_koopa_03",
+   "style": 6,
+   "src": "{1:align}{2:align}ファッ…！{3:pause} ファッ…！{4:pause}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0000:14 00]",
+    "4": "[0002:0000:1E 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/o_zutsuda_09#3",
+    "FMsg/o_zutsuda_10_after#2",
+    "FMsg/o_zutsuda_16_before#3"
+   ]
+  }
+ ]
+}

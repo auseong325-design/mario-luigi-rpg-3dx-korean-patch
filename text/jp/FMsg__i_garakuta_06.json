@@ -1,0 +1,138 @@
+{
+ "source": "Msg/JP_ja/FMsg.dat:i_garakuta_06",
+ "messages": [
+  {
+   "id": "FMsg/i_garakuta_06#0",
+   "label": "MES_KGarakuta_06_KG06_ystar_add_3",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]くわしいことは [Color #2C64FF]ガイド[Color #373737]に\n[Ruby 追加;ついか]しておいたから [Ruby 後;あと]で[Ruby 見;み]てね。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_garakuta_06#1",
+   "label": "MES_KGarakuta_06_KG06_ystar_10",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]この[Ruby 先;さき]のことも [Ruby 考;かんが]えて\n[Color #2C64FF]スターメニュー[Color #373737][Color #373737]を [Ruby 見;み]られるように\nしておいたわ！[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/i_garakuta_06#2",
+   "label": "MES_KGarakuta_06_KG06_ystar_11",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:][Color #2C64FF]スターメニュー[Color #373737][Color #373737]では [Ruby 色々;いろいろ]な\n [Ruby 情報;じょうほう]を[Ruby 見;み]ることができるのよ。[0002:0001:][Next][Color #2C64FF]STARTボタン[Color #373737]で[Ruby 開;ひら]けるから\nあとで [Ruby 見;み]てみてね！[Color #373737][0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_garakuta_06#3",
+   "label": "MES_KGarakuta_06_KG06_ystar_13",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]それじゃ ピーチ[Ruby 姫;ひめ]を\n[Ruby 探;さが]しに [Ruby 行;い]きましょ！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_garakuta_06#4",
+   "label": "MES_KGarakuta_06_KG06_ystar_14",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]この[Ruby 先;さき]なにが[Ruby 起;お]きるかわからないわ…[0002:0001:][Next][Ruby ２人;ふたり]とも [Color #2C64FF]レベルアップ[Color #373737]して\n[Ruby 強;つよ]くなっておいた[Ruby 方;ほう]がいいわ。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_garakuta_06#5",
+   "label": "MES_KGarakuta_06_KG06_ystar_15",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]モンスターを[Ruby 見;み]かけたら\n[Ruby 積極的;せっきょくてき]に [Ruby 戦;たたか]っていきましょう！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_garakuta_06#6",
+   "label": "MES_KGarakuta_06_KG06_ystar_01",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]ちょっと！ あなた\nなに あそんでるのよ！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_garakuta_06#7",
+   "label": "MES_KGarakuta_06_KG06_ystar_02",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:][0001:0001:]しかたないわね…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_garakuta_06#8",
+   "label": "MES_KGarakuta_06_KG06_ystar_03",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:][0001:0001:]マリオ [Ruby 助;たす]けてあげましょう。[0002:0001:][Next][0001:0004:][0001:0000:][Color #2C64FF]ジャンプ[Color #373737][Color #373737]して つかまれば\n[Ruby 引;ひ]きずりおろせそうよ。[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/i_garakuta_06#9",
+   "label": "MES_KGarakuta_06_KG06_ystar_04",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:][0001:0001:]ふう…[0002:0001:][Next][0001:0004:][0001:0000:]クッパの [Ruby 体;からだ]の[Ruby 中;なか]には\nモンスターも すみついてるのね…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_garakuta_06#10",
+   "label": "MES_KGarakuta_06_KG06_ystar_05",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:][0001:0001:]ところで ルイージ！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_garakuta_06#11",
+   "label": "MES_KGarakuta_06_KG06_ystar_06",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]どこかで ピーチ[Ruby 姫;ひめ]を\n[Ruby 見;み]かけなかった？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_garakuta_06#12",
+   "label": "MES_KGarakuta_06_KG06_ystar_07",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]そう…\nだれも [Ruby 見;み]かけてないのね…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_garakuta_06#13",
+   "label": "MES_KGarakuta_06_KG06_ystar_08",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]どうやら そうかんたんに\n[Ruby 見;み]つかりそうに ないわね…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_garakuta_06#14",
+   "label": "MES_KGarakuta_06_KG06_ystar_09",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:][0001:0001:]あ！ そうそう！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_garakuta_06#15",
+   "label": "MES_sys_guide_add",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0005:0000:][0001:0001:][Color #4ED4FF]フィールドガイド[Color #E6E6E6]に\n[Ruby 項目;こうもく]が[Ruby 追加;ついか]されました。[0002:0000:1E 00][0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_garakuta_06#16",
+   "label": "MES_KGarakuta_06_KG06_ystar_03_2",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:][0001:0001:]マリオ！[0002:0001:][Next][0001:0004:][0001:0000:]ジャンプして\nふみつけるのよ！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_garakuta_06#17",
+   "label": "MES_KGarakuta_06_KG06_ystar_add_1",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]それと…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_garakuta_06#18",
+   "label": "MES_KGarakuta_06_KG06_ystar_add_2",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]このボタンをタッチすれば\n[Color #2C64FF]ミニマップ[Color #373737]を[Ruby 表示;ひょうじ]できるの。[0002:0001:][Next]あなた[Ruby 達;たち]が [Ruby 今;いま]どこに\nいるかを[Ruby 確認;かくにん]できるわ。[0002:0001:]"
+  }
+ ]
+}

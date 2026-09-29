@@ -1,0 +1,20 @@
+{
+ "batch": "FMsg__k_o_koopa_end_01",
+ "translations": {
+  "FMsg/k_o_koopa_end_01#0": "드르렁… 쿠우우…{1:wait}",
+  "FMsg/k_o_koopa_end_01#1": "아빠…{1:pause}\n자?{2:wait}",
+  "FMsg/k_o_koopa_end_01#3": "얘기하러\n왔는데…{1:wait}",
+  "FMsg/k_o_koopa_end_01#6": "…{1:pause}안 일어나네.{2:wait}",
+  "FMsg/k_o_koopa_end_01#8": "모두랑 모험하면서…{1:wait}[Next]즐거웠던 일이라든가…{2:wait}[Next]힘들었던 일이라든가…{3:wait}",
+  "FMsg/k_o_koopa_end_01#9": "이것저것 얘기하려고\n했는데…{1:wait}",
+  "FMsg/k_o_koopa_end_01#11": "아빠.{1:wait}",
+  "FMsg/k_o_koopa_end_01#13": "고마워.{1:wait}",
+  "FMsg/k_o_koopa_end_01#14": "드르…{1:wait}",
+  "FMsg/k_o_koopa_end_01#15": "흥…{1:wait}",
+  "FMsg/k_o_koopa_end_01#16": "잠깐 안 본 사이에\n부쩍 컸구나…{1:wait}"
+ },
+ "new_terms": [],
+ "notes": {
+  "FMsg/k_o_koopa_end_01#0": "쿠파의 코골이(んごおおおおお…). DS에 코골이 선례가 없어 '드르렁… 쿠우우…'로 새로 씀. #14 んご…는 코골이가 끊기는 소리라 '드르…'."
+ }
+}

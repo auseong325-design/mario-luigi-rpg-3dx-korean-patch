@@ -1,0 +1,138 @@
+{
+ "source": "Msg/JP_ja/FMsg.dat:o_zutsuda_04_before",
+ "messages": [
+  {
+   "id": "FMsg/o_zutsuda_04_before#0",
+   "label": "MES_LZutsuda_04_before_LZ04B_noko_10",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]そうだよ！\nクッパ[Ruby 様;さま]だぜ！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_zutsuda_04_before#1",
+   "label": "MES_LZutsuda_04_before_LZ04B_noko_11",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]やっぱりだ！\nさすが クッパ[Ruby 様;さま]！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_zutsuda_04_before#2",
+   "label": "MES_LZutsuda_04_after_LZ4A_kanban",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0001:0004:][0001:0001:][0005:0000:]↑ キノコタウン\n↓ ムッシーバビーチ[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_zutsuda_04_before#3",
+   "label": "MES_LZutsuda_04_before_LZ04B_noko_12",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:][0001:0001:]クッ[0002:0000:0A 00] パッ[0002:0000:0A 00] さまっ！！[0002:0000:14 00]"
+  },
+  {
+   "id": "FMsg/o_zutsuda_04_before#4",
+   "label": "MES_LZutsuda_04_before_LZ04B_noko_01",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:][0001:0001:]その ごうかいな[Ruby 足音;あしおと]は！？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_zutsuda_04_before#5",
+   "label": "MES_LZutsuda_04_before_LZ04B_noko_02",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:][0001:0001:]もしや クッパ[Ruby 様;さま]！？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_zutsuda_04_before#6",
+   "label": "MES_LZutsuda_04_before_LZ04B_noko_03",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:][Ruby 我々;われわれ]です！！\nノコノコ[Ruby 軍団;ぐんだん]ですっ！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_zutsuda_04_before#7",
+   "label": "MES_LZutsuda_04_before_LZ04B_noko_04",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:][0001:0001:]クッパ[Ruby 様;さま]！！[0002:0000:14 00]"
+  },
+  {
+   "id": "FMsg/o_zutsuda_04_before#8",
+   "label": "MES_LZutsuda_04_before_LZ04B_noko_05",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:][0001:0001:]クッパ[Ruby 様;さま]～！！[0002:0000:14 00]"
+  },
+  {
+   "id": "FMsg/o_zutsuda_04_before#9",
+   "label": "MES_LZutsuda_04_before_LZ04B_noko_06",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]クッパ[Ruby 様;さま]が きてくれたから\nもう [Ruby 安心;あんしん]だな！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_zutsuda_04_before#10",
+   "label": "MES_LZutsuda_04_before_LZ04B_noko_07",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]でも かべがあって\nこっちに こられないみたいだぞ。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_zutsuda_04_before#11",
+   "label": "MES_LZutsuda_04_before_LZ04B_noko_08",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]クッパ[Ruby 様;さま]なら こんなかべくらい\nちょちょいと こわせるだろ！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_zutsuda_04_before#12",
+   "label": "MES_LZutsuda_04_before_LZ04B_noko_09",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]そうだよな！\nなんたって クッパ[Ruby 様;さま] だもんな！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_zutsuda_04_before#13",
+   "label": "MES_LZutsuda_04_before_LZ04B_koopa_01",
+   "style": 9,
+   "attr": "00000000",
+   "jp": "[0009:0000:09 00][0001:0004:][0001:0001:]だれだ！？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_zutsuda_04_before#14",
+   "label": "MES_LZutsuda_04_before_LZ04B_koopa_02",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:][0001:0001:]このかべの [Ruby 向;む]こうか…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_zutsuda_04_before#15",
+   "label": "MES_LZutsuda_04_before_LZ04B_koopa_03",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:][0001:0001:]くそっ！ かたいな！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_zutsuda_04_before#16",
+   "label": "MES_LZutsuda_04_before_LZ04B_koopa_04",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:][0001:0001:]ガ…[0002:0000:0A 00] ガハッ…[0002:0000:14 00] ガハハハハ！！[0002:0000:1E 00]"
+  },
+  {
+   "id": "FMsg/o_zutsuda_04_before#17",
+   "label": "MES_LZutsuda_04_before_LZ04B_koopa_05",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]あ…[0002:0000:0A 00] あたりまえではないか！\nこんなかべ ちょちょいのちょいだ！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_zutsuda_04_before#18",
+   "label": "MES_LZutsuda_04_before_LZ04B_koopa_06",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]くそっ！[0002:0000:0A 00] なにか でかいものでも\nぶち[Ruby 当;あ]てないと ダメか…？[0002:0001:][Next][0001:0004:]でかいもの…[0002:0000:14 00]\nとりあえず [Ruby 探;さが]してみるか。[0002:0001:]"
+  }
+ ]
+}

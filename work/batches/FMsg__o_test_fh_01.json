@@ -1,0 +1,50 @@
+{
+ "batch": "FMsg__o_test_fh_01",
+ "rooms": [
+  "o_test_fh_01"
+ ],
+ "ds_rooms": [],
+ "ds_reference": [],
+ "glossary": [
+  {
+   "jp": "とじる",
+   "ko": "닫기",
+   "type": "ui",
+   "basis": "DS",
+   "source": "MAI__MMes_yo#1.28",
+   "note": "[gl_menu_places]"
+  },
+  {
+   "jp": "ボタン",
+   "ko": "버튼",
+   "type": "ui",
+   "basis": "DS",
+   "source": "MAI__MMes_yo#1.16",
+   "note": "[gl_menu_places]"
+  }
+ ],
+ "messages": [
+  {
+   "id": "FMsg/o_test_fh_01#0",
+   "label": "MES_work_fh_01",
+   "style": 8,
+   "src": "てんめつするよ！！",
+   "tags": {},
+   "header": "[0009:0000:08 00]",
+   "dups": [
+    "FMsg/o_test_fh_02#0"
+   ]
+  },
+  {
+   "id": "FMsg/o_test_fh_01#1",
+   "label": "MES_work_fh_02",
+   "style": 5,
+   "src": "Yボタンをおすと とじるよ",
+   "tags": {},
+   "header": "[0009:0000:05 00]",
+   "dups": [
+    "FMsg/o_test_fh_02#1"
+   ]
+  }
+ ]
+}

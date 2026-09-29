@@ -1,0 +1,1581 @@
+{
+ "batch": "FMsg__k_o_koopa_14__p1",
+ "rooms": [
+  "k_o_koopa_14"
+ ],
+ "ds_rooms": [],
+ "ds_reference": [],
+ "glossary": [
+  {
+   "jp": "SSカンパニー",
+   "ko": "SS컴퍼니",
+   "type": "character",
+   "basis": "coined",
+   "source": "BMsg/b_sys#902",
+   "note": "'SS' 두문자 말장난(슈퍼 서플리먼트/순삭)을 살리려고 SS 유지 [gl_kj]"
+  },
+  {
+   "jp": "カメック",
+   "ko": "마귀",
+   "type": "character",
+   "basis": "DS",
+   "source": "FEvent:1A3#13",
+   "note": "쿠파주니어의 돌보미(카멕 개인)도 같은 표기. RPG1 DX 한국판 쿠파군단 RPG도 '마귀' [gl_kj]"
+  },
+  {
+   "jp": "クッパ",
+   "ko": "쿠파",
+   "type": "character",
+   "basis": "DS",
+   "source": "BData__mfset_Help#21",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "クッパJr.",
+   "ko": "쿠파주니어",
+   "type": "character",
+   "basis": "official",
+   "source": "https://www.nintendo.com/kr/switch/aabpa/sp/character/",
+   "note": "한국닌텐도 공식 표기(마리오 카트 8 디럭스 등). 부하들이 부를 때는 '쿠파주니어님' [gl_kj]"
+  },
+  {
+   "jp": "ゲラコビッツ",
+   "ko": "까르코비츠",
+   "type": "character",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesOutline#5",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "スーパーサプリカンパニー",
+   "ko": "슈퍼 서플리먼트 컴퍼니",
+   "type": "character",
+   "basis": "coined",
+   "source": "FMsg/k_o_koopa_14#94",
+   "note": "SS = 슈퍼 서플리먼트. 일반 명사 サプリ는 '영양제' [gl_kj]"
+  },
+  {
+   "jp": "パタパタ３兄弟",
+   "ko": "펄럭펄럭 3형제",
+   "type": "character",
+   "basis": "coined",
+   "source": "BMsg/b_sys#150",
+   "note": "DS '펄럭펄럭'(パタパタ) + 3형제 [gl_kj]"
+  },
+  {
+   "jp": "メタボス",
+   "ko": "메타보스",
+   "type": "character",
+   "basis": "DS",
+   "source": "BData__mfset_MonN#34",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "モートン",
+   "ko": "모톤",
+   "type": "character",
+   "basis": "official",
+   "source": "https://www.nintendo.com/kr/switch/aabpa/sp/character/",
+   "note": "'모턴' 아님 [gl_kj]"
+  },
+  {
+   "jp": "ラリー",
+   "ko": "래리",
+   "type": "character",
+   "basis": "official",
+   "source": "https://www.nintendo.com/kr/switch/aabpa/sp/character/",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "ロイ",
+   "ko": "로이",
+   "type": "character",
+   "basis": "official",
+   "source": "https://www.nintendo.com/kr/switch/aabpa/sp/character/",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "クリボー",
+   "ko": "굼바",
+   "type": "enemy",
+   "basis": "DS",
+   "source": "BAI__BMes_cf:0#1",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "パタパタ",
+   "ko": "펄럭펄럭",
+   "type": "enemy",
+   "basis": "DS",
+   "source": "FEvent:063#44",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "キノコ",
+   "ko": "버섯",
+   "type": "item",
+   "basis": "DS",
+   "source": "BData__mfset_UItmN#0",
+   "note": "일반 명사 キノコ도 버섯(キノコタウン=버섯 타운) [gl_items]"
+  },
+  {
+   "jp": "サプリ",
+   "ko": "영양제",
+   "type": "key_item",
+   "basis": "coined",
+   "source": "Menu#250",
+   "note": "뚱뚱데굴병 치료 영양제. 회사명 속 サプリ만 '서플리먼트' [gl_kj]"
+  },
+  {
+   "jp": "マンネンアイス",
+   "ko": "만년얼음",
+   "type": "key_item",
+   "basis": "coined",
+   "source": "FMsg/k_o_ekubon_15#7",
+   "note": "이름을 틀리는 개그(テンネンボイス 등)는 '만년얼음'에 맞춰 재구성 [gl_kj]"
+  },
+  {
+   "jp": "クッパ軍団",
+   "ko": "쿠파 군단",
+   "type": "other",
+   "basis": "DS",
+   "source": "FEvent#23E.19",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "エクボン",
+   "ko": "볼조개",
+   "type": "place",
+   "basis": "DS",
+   "source": "MData__mfset_MenuMes#17",
+   "note": "エクボンの森 약칭(エクボンパーツ=볼조개 피스) [gl_menu_places]"
+  },
+  {
+   "jp": "エクボンの森",
+   "ko": "볼조개 숲",
+   "type": "place",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesPlace#2",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "キノコ王国",
+   "ko": "버섯 왕국",
+   "type": "place",
+   "basis": "DS",
+   "source": "FEvent:011#0",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "クッパ城",
+   "ko": "쿠파 성",
+   "type": "place",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesPlace#6",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "ピーチ城",
+   "ko": "피치 성",
+   "type": "place",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesPlace#1",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "お父さん",
+   "ko": "아빠",
+   "type": "term",
+   "basis": "coined",
+   "source": "FMsg/k_o_koopa_14#55",
+   "note": "쿠파주니어가 쿠파를 부르는 말(어린이 말투) [gl_kj]"
+  },
+  {
+   "jp": "ぼっちゃん",
+   "ko": "도련님",
+   "type": "term",
+   "basis": "coined",
+   "source": "MenuKJ#93",
+   "note": "마귀·쿠파 7인조·부하들이 쿠파주니어를 부르는 말. DS에 없음 [gl_kj]"
+  },
+  {
+   "jp": "クッパJr.様",
+   "ko": "쿠파주니어님",
+   "type": "term",
+   "basis": "coined",
+   "source": "FMsg/k_o_koopa_r_80#45",
+   "note": "DS의 '쿠파님'·'마리오님' 호칭 방식 [gl_kj]"
+  },
+  {
+   "jp": "クッパ様",
+   "ko": "쿠파님",
+   "type": "term",
+   "basis": "DS",
+   "source": "BAI__BMes_cf:0#0",
+   "note": "부하들이 부를 때 [gl_kj]"
+  },
+  {
+   "jp": "ゲラコビッツ様",
+   "ko": "까르코비츠님",
+   "type": "term",
+   "basis": "DS",
+   "source": "FEvent:070#17",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "ダメージ",
+   "ko": "타격",
+   "type": "term",
+   "basis": "DS",
+   "source": "DS '타격' 32회 / '대미지' 5회",
+   "note": "'타격을 입히다/입다'. 숫자·연속 공격 문맥은 '대미지' 허용(DS: 연속 대미지)"
+  },
+  {
+   "jp": "メタコロ",
+   "ko": "뚱뚱데굴",
+   "type": "term",
+   "basis": "coined",
+   "source": "FMsg/k_o_koopa_r_80#301",
+   "note": "DS 병명에서. 「メタコロクリボー」→'뚱뚱데굴 굼바' [gl_kj]"
+  },
+  {
+   "jp": "メタコロ病",
+   "ko": "뚱뚱데굴병",
+   "type": "term",
+   "basis": "DS",
+   "source": "FEvent:09B#0",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "ワガハイ",
+   "ko": "이 몸",
+   "type": "term",
+   "basis": "DS",
+   "source": "FEvent:025#7",
+   "note": "쿠파의 1인칭 [gl_kj]"
+  },
+  {
+   "jp": "仲間",
+   "ko": "동료",
+   "type": "term",
+   "basis": "DS",
+   "source": "FEvent:048#29",
+   "note": "「仲間になった」→'동료가 되었다' [gl_kj]"
+  },
+  {
+   "jp": "軍団",
+   "ko": "군단",
+   "type": "term",
+   "basis": "DS",
+   "source": "BAI__BMes_cf#0.20",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "へんせい",
+   "ko": "편성",
+   "type": "ui",
+   "basis": "coined",
+   "source": "MenuKJ#61",
+   "note": "[gl_kj]"
+  }
+ ],
+ "messages": [
+  {
+   "id": "FMsg/k_o_koopa_14#0",
+   "label": "Kjrpg_12_Koopa_exqst_2_05",
+   "style": 6,
+   "src": "ヘイ！{1:pause}",
+   "tags": {
+    "1": "[0002:0000:3C 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/o_peach_g_04#29",
+    "FMsg/o_town_23#36"
+   ]
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#1",
+   "label": "Kjrpg_05_Koopa_op01_06",
+   "style": 6,
+   "src": "メタボス様！ {1:pause}クッパがいる\nエクボンの森までもう少しです！{2:wait}",
+   "tags": {
+    "1": "[0002:0000:10 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#2",
+   "label": "Kjrpg_12_Koopa_exqst_2_06",
+   "style": 6,
+   "src": "チャンスだ！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#3",
+   "label": " Kjrpg_11_Koopa_qst08_11",
+   "style": 6,
+   "src": "ヘッ。{1:pause}どうでしょうねぇ。{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#4",
+   "label": "Kjrpg_05_Koopa_op01_07",
+   "style": 6,
+   "src": "コノママ ツキススメ！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#5",
+   "label": "Kjrpg_12_Koopa_exqst_2_07",
+   "style": 6,
+   "src": "こいつら ダメージ受けて\n倒れているところと 見た！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#6",
+   "label": "Kjrpg_05_Koopa_op01_08",
+   "style": 6,
+   "src": "フン。{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#7",
+   "label": "Kjrpg_12_Koopa_exqst_2_08",
+   "style": 6,
+   "src": "おーい！{1:pause} カメラ持ってこい！{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#8",
+   "label": " Kjrpg_11_Koopa_qst08_13",
+   "style": 6,
+   "src": "フフ…{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#9",
+   "label": "Kjrpg_01_Koopa_op01_31",
+   "style": 6,
+   "src": "といいましても…{1:wait}[Next]原因も 治す方法も\n分からないそうです…{2:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#10",
+   "label": "Kjrpg_05_Koopa_op01_09",
+   "style": 6,
+   "src": "クッパ軍団…{1:pause}\n他愛もない。{2:wait}[Next]こんなちびっ子が\n留守番とは…{3:wait}",
+   "tags": {
+    "1": "[0002:0000:1E 00]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#11",
+   "label": "Kjrpg_12_Koopa_exqst_2_09",
+   "style": 6,
+   "src": "オレ様が クッパJr.とロイを\nやっつけたっていう 劇的瞬間…{1:wait}[Next]スクープをでっちあげて\nゲラコビッツ様に 見せてやるんだ！{2:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#13",
+   "label": "Kjrpg_01_Koopa_op01_33",
+   "style": 6,
+   "src": "おい！ 待て！{1:wait}[Next]ワガハイに関係ないとは\nどういうことだ！{2:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#14",
+   "label": "Kjrpg_11_Koopa_ed07_12_01",
+   "style": 6,
+   "src": "違うよー！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#15",
+   "label": " Kjrpg_11_Koopa_qst08_16",
+   "style": 6,
+   "src": "クッパ軍団は…{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#16",
+   "label": "Kjrpg_11_Koopa_ed07_12_02",
+   "style": 6,
+   "src": "いっぺんに{1:pause} 飲みすぎなんだってー！！{2:wait}",
+   "tags": {
+    "1": "[0002:0000:04 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#17",
+   "label": "Kjrpg_01_Koopa_op01_36",
+   "style": 6,
+   "src": "そ…{1:pause} そうですね。{2:wait}[Next]メタコロ病の治し方も\nわかるかもしれませんし…{3:wait}",
+   "tags": {
+    "1": "[0002:0000:04 00]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#18",
+   "label": "Kjrpg_01_Koopa_op01_37",
+   "style": 6,
+   "src": "ワガハイを\nノケモノにしおって！{1:wait}[Next]ゆるさんぞ！{2:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#19",
+   "label": "Kjrpg_01_Koopa_op01_38",
+   "style": 6,
+   "src": "クッパJr.様…{1:pause} まだやるんですか…{2:wait}[Next]ボク達 クリボーは今\nこんなことしている場合じゃ…{3:wait}",
+   "tags": {
+    "1": "[0002:0000:08 00]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#20",
+   "label": "Kjrpg_05_Koopa_op01_20",
+   "style": 6,
+   "src": "なに？{1:pause}\n今の振動…{2:wait}",
+   "tags": {
+    "1": "[0002:0000:1E 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#21",
+   "label": "Kjrpg_11_Koopa_ed07_08_01",
+   "style": 6,
+   "src": "おお！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#22",
+   "label": "Kjrpg_12_Koopa_exqst_2_20",
+   "style": 6,
+   "src": "なにぃ？{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#23",
+   "label": "Kjrpg_05_Koopa_op01_21",
+   "style": 6,
+   "src": "クッパ城が\nどこかに着地した…？{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#24",
+   "label": "Kjrpg_11_Koopa_ed07_08_02",
+   "style": 6,
+   "src": "みるみるやせて…{1:pause}やせて…{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#25",
+   "label": "Kjrpg_11_Koopa_qst07_13",
+   "style": 6,
+   "src": "ワガハイはこれから\nピーチ城に乗り込む。{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#26",
+   "label": "Kjrpg_12_Koopa_exqst_2_21",
+   "style": 6,
+   "src": "つまり もうクッパ軍団に戻れます！{1:pause}\n…というか 戻りましょう！{2:wait}[Next]土下座して 謝りましょう！{3:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#27",
+   "label": " Kjrpg_11_Koopa_qst08_15_01",
+   "style": 6,
+   "src": "どうだ…？{1:pause}{2:wait}[Next]クッパの息子よ。{3:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#28",
+   "label": "Kjrpg_05_Koopa_op01_22",
+   "style": 6,
+   "src": "とにかく いまは\nここから逃げるわよ！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#29",
+   "label": "Kjrpg_11_Koopa_ed07_10",
+   "style": 9,
+   "src": "なんだこれはー！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:09 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#30",
+   "label": "Kjrpg_11_Koopa_qst07_14",
+   "style": 6,
+   "src": "留守を頼んだぞ。{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#31",
+   "label": "Kjrpg_12_Koopa_exqst_2_22",
+   "style": 6,
+   "src": "パタパタが 土下座…？{1:pause}\n笑わせんじゃねぇ。{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#32",
+   "label": " Kjrpg_11_Koopa_qst08_15_02",
+   "style": 6,
+   "src": "クッパ軍団は悪か？{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#33",
+   "label": "Kjrpg_05_Koopa_op01_23",
+   "style": 6,
+   "src": "クッパ様や ぼっちゃん達と\n合流して作戦を立てましょ…！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#34",
+   "label": "Kjrpg_11_Koopa_qst07_15",
+   "style": 6,
+   "src": "城を守るのがオマエ達の役目だ。{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#35",
+   "label": "Kjrpg_12_Koopa_exqst_2_23",
+   "style": 6,
+   "src": "おい 兄弟…{1:wait}[Next]道ってのは…{2:pause}\nなんのためにあるんだ？{3:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0000:0A 00]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#36",
+   "label": "Kjrpg_05_Koopa_op01_24",
+   "style": 6,
+   "src": "こっち…！{1:pause}\nいきましょ！{2:wait}",
+   "tags": {
+    "1": "[0002:0000:1E 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#37",
+   "label": "Kjrpg_11_Koopa_qst07_16",
+   "style": 9,
+   "src": "はは！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:09 00]",
+   "dups": [
+    "FMsg/k_o_koopa_14#180"
+   ]
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#38",
+   "label": "Kjrpg_12_Koopa_exqst_2_24",
+   "style": 6,
+   "src": "道ってのは\n引き返すためにあるんじゃねぇ…{1:wait}[Next]進むためにあるんだ。{2:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#39",
+   "label": "Kjrpg_11_Koopa_ed07_13",
+   "style": 1,
+   "src": "{1:color}それから ぼっちゃんは…{2:wait}{3:color}",
+   "tags": {
+    "1": "[Color #FFFAF1]",
+    "2": "[0002:0001:]",
+    "3": "[Color #373737]"
+   },
+   "header": "[0009:0000:01 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#40",
+   "label": "Kjrpg_11_Koopa_qst07_17",
+   "style": 6,
+   "src": "それから…{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#41",
+   "label": "Kjrpg_12_Koopa_exqst_2_25",
+   "style": 6,
+   "src": "オレは コイツらを倒すぞ。{1:wait}[Next]オレの意地という名の道…\n突き進むんだ。{2:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#42",
+   "label": "Kjrpg_11_Koopa_ed01_01",
+   "style": 6,
+   "src": "ぐおぉぉ…{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#43",
+   "label": "Kjrpg_11_Koopa_ed07_14",
+   "style": 1,
+   "src": "{1:color}いつものように クッパ城を飛び出して\nいたずらばかりの毎日を過ごしている…{2:wait}{3:color}",
+   "tags": {
+    "1": "[Color #FFFAF1]",
+    "2": "[0002:0001:]",
+    "3": "[Color #373737]"
+   },
+   "header": "[0009:0000:01 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#44",
+   "label": "Kjrpg_11_Koopa_qst07_18",
+   "style": 6,
+   "src": "オマエ達には\nJr.を見ていてほしい。{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#45",
+   "label": "Kjrpg_12_Koopa_exqst_2_26",
+   "style": 6,
+   "src": "で…{1:pause} オマエ達誰？{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#46",
+   "label": "Kjrpg_11_Koopa_ed01_02",
+   "style": 7,
+   "src": "おおー\nみんなー 見てよー{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:07 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#47",
+   "label": "Kjrpg_11_Koopa_ed07_03_01",
+   "style": 6,
+   "src": "ボクもがんばったけど\nクッパ軍団 みんなでがんばったよ！ {1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#48",
+   "label": "Kjrpg_11_Koopa_ed07_15",
+   "style": 1,
+   "src": "{1:color}前よりも少しだけ わたしの\n言うことを聞くようになったり…{2:wait}{3:color}",
+   "tags": {
+    "1": "[Color #FFFAF1]",
+    "2": "[0002:0001:]",
+    "3": "[Color #373737]"
+   },
+   "header": "[0009:0000:01 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#49",
+   "label": "Kjrpg_11_Koopa_qst07_19",
+   "style": 6,
+   "src": "アイツには ワガハイのように {1:wait}[Next]強く{2:pause} 賢く{3:pause} 育ってほしいのだ。{4:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0000:0A 00]",
+    "3": "[0002:0000:0A 00]",
+    "4": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#50",
+   "label": "Kjrpg_12_Koopa_exqst_2_27",
+   "style": 6,
+   "src": "え。{1:pause}覚えてない？{2:wait}",
+   "tags": {
+    "1": "[0002:0000:08 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#51",
+   "label": "Kjrpg_11_Koopa_ed07_03_02",
+   "style": 6,
+   "src": "それよりお父さんも\nこのサプリ 飲んでみてよ！ {1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#52",
+   "label": "Kjrpg_11_Koopa_ed07_16",
+   "style": 1,
+   "src": "{1:color}これまでよりも\n少しだけワガママが減ったり…{2:wait}{3:color}",
+   "tags": {
+    "1": "[Color #FFFAF1]",
+    "2": "[0002:0001:]",
+    "3": "[Color #373737]"
+   },
+   "header": "[0009:0000:01 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#53",
+   "label": "Kjrpg_12_Koopa_exqst_2_28",
+   "style": 6,
+   "src": "うん。知らない。{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#54",
+   "label": " Kjrpg_11_Koopa_qst08_10_01",
+   "style": 6,
+   "src": "ロイ！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/k_o_koopa_r_80#67",
+    "FMsg/k_o_koopa_r_80#130"
+   ]
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#55",
+   "label": "Kjrpg_04_Gepu_qst05_01",
+   "style": 6,
+   "src": "お父さん！ {1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#56",
+   "label": "Kjrpg_11_Koopa_ed07_17",
+   "style": 1,
+   "src": "{1:color}と思ったり… そうでなかったり…{2:wait}{3:color}",
+   "tags": {
+    "1": "[Color #FFFAF1]",
+    "2": "[0002:0001:]",
+    "3": "[Color #373737]"
+   },
+   "header": "[0009:0000:01 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#57",
+   "label": "Kjrpg_12_Koopa_exqst_2_29",
+   "style": 6,
+   "src": "ホントに？{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/o_town_34_suishou_01_U#39"
+   ]
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#58",
+   "label": " Kjrpg_11_Koopa_qst08_10_02",
+   "style": 6,
+   "src": "オマエもボクも悪なのか？{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#59",
+   "label": "Kjrpg_04_Gepu_qst05_02",
+   "style": 6,
+   "src": "キノコ王国には\n絶対に溶けない氷があるって…{1:wait}[Next]カメックが教えてくれたんだ！{2:wait}[Next]マンネンアイスって いうんだって！{3:pause}\n溶けないんだって！{4:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0000:0A 00]",
+    "4": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#60",
+   "label": "Kjrpg_11_Koopa_ed07_18",
+   "style": 1,
+   "src": "{1:color}クッパ様のようになるのは\nまだ 時間がかかるかねぇ…{2:wait}{3:color}",
+   "tags": {
+    "1": "[Color #FFFAF1]",
+    "2": "[0002:0001:]",
+    "3": "[Color #373737]"
+   },
+   "header": "[0009:0000:01 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#61",
+   "label": "Kjrpg_04_Gepu_qst05_03",
+   "style": 6,
+   "src": "ふむ。{1:pause}それがどうしたんだ？{2:wait}",
+   "tags": {
+    "1": "[0002:0000:04 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#62",
+   "label": "Kjrpg_11_Koopa_ed07_19",
+   "style": 1,
+   "src": "{1:color}いつまでも {2:pause}「おぼっちゃん」と\n呼ばれないようにならないとね…。{3:wait}{4:color}",
+   "tags": {
+    "1": "[Color #FFFAF1]",
+    "2": "[0002:0000:0A 00]",
+    "3": "[0002:0001:]",
+    "4": "[Color #373737]"
+   },
+   "header": "[0009:0000:01 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#63",
+   "label": "Kjrpg_04_Gepu_qst05_04",
+   "style": 6,
+   "src": "そのアイスで\nかき氷が食べたい！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#64",
+   "label": "Kjrpg_04_Gepu_qst05_05",
+   "style": 6,
+   "src": "ふむ…{1:pause} そうか…{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#65",
+   "label": "Kjrpg_04_Gepu_qst05_06",
+   "style": 1,
+   "src": "{1:color}数日後…{2:color}{3:wait}",
+   "tags": {
+    "1": "[Color #FFFAF1]",
+    "2": "[Color #373737]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:01 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#66",
+   "label": "Kjrpg_04_Gepu_qst05_07",
+   "style": 7,
+   "src": "Jr.よ！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:07 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#67",
+   "label": "Kjrpg_04_Gepu_qst05_08",
+   "style": 6,
+   "src": "オマエの言っていた\nマンネンアイスが 手に入ったぞ！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#68",
+   "label": "Kjrpg_11_Koopa_ed07_11_01",
+   "style": 6,
+   "src": "これでは{1:pause} \nやせすぎではないかー！{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#69",
+   "label": " Kjrpg_11_Koopa_qst08_19_01",
+   "style": 6,
+   "src": "今は オマエらをぶっ倒す！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#70",
+   "label": "Kjrpg_04_Gepu_qst05_09",
+   "style": 6,
+   "src": "え？{1:pause} ああ。{2:pause}そうなの？{3:wait}[Next]うん。{4:pause}それもういらない。{5:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0000:04 00]",
+    "3": "[0002:0001:]",
+    "4": "[0002:0000:0A 00]",
+    "5": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#71",
+   "label": "Kjrpg_11_Koopa_ed07_11_02",
+   "style": 9,
+   "src": "コラー！{1:pause} Jr.！{2:wait}",
+   "tags": {
+    "1": "[0002:0000:04 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:09 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#72",
+   "label": "Kjrpg_12_Koopa_exqst_2_40",
+   "style": 12,
+   "src": "{1:align}{2:mode}パタパタ３兄弟が 仲間になった！{3:pause}{4:wait}",
+   "tags": {
+    "1": "[0001:0001:]",
+    "2": "[0005:0000:]",
+    "3": "[0002:0000:0A 00]",
+    "4": "[0002:0001:]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#73",
+   "label": " Kjrpg_11_Koopa_qst08_19_02",
+   "style": 6,
+   "src": "ボクとお父さんの\nクッパ軍団を取り戻すぞ！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#74",
+   "label": "Kjrpg_01_Koopa_op01_02",
+   "style": 9,
+   "src": "たたた 大変です！{1:pause} クッパ様！{2:wait}",
+   "tags": {
+    "1": "[0002:0000:06 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:09 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#75",
+   "label": "Kjrpg_11_Koopa_ed07_11_03",
+   "style": 6,
+   "src": "このサプリは オマエのいたずらかー！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#76",
+   "label": "Kjrpg_01_Koopa_op01_03",
+   "style": 6,
+   "src": "何事だ。{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#77",
+   "label": "Kjrpg_01_Koopa_op01_04",
+   "style": 9,
+   "src": "キャー！",
+   "tags": {},
+   "header": "[0009:0000:09 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#78",
+   "label": "Kjrpg_01_Koopa_op02_10",
+   "style": 6,
+   "src": "なんだ オマエら。{1:pause}\n勝手に城に…{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#79",
+   "label": "Kjrpg_12_Koopa_exqst_3_10",
+   "style": 6,
+   "src": "モートンか？{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#80",
+   "label": "Kjrpg_12_Koopa_exqst_3_68",
+   "style": 6,
+   "src": "今日も勝つぞー！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#81",
+   "label": "Kjrpg_01_Koopa_op02_11",
+   "style": 6,
+   "src": "まあまあまあまあ…\nえ～ 本日はですね～{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#82",
+   "label": "Kjrpg_12_Koopa_exqst_3_11",
+   "style": 6,
+   "src": "ラリーか？{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#83",
+   "label": "Kjrpg_12_Koopa_exqst_3_69",
+   "style": 6,
+   "src": "こっちのセリフだ！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/k_o_koopa_r_31#22"
+   ]
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#84",
+   "label": " Kjrpg_11_Koopa_qst08_01_01",
+   "style": 6,
+   "src": "思い返せば…{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#85",
+   "label": "Kjrpg_01_Koopa_op01_06",
+   "style": 9,
+   "src": "クッパ様！{1:pause} あぶなーい！",
+   "tags": {
+    "1": "[0002:0000:0A 00]"
+   },
+   "header": "[0009:0000:09 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#86",
+   "label": "Kjrpg_11_Koopa_ed07_07_01",
+   "style": 6,
+   "src": "フン。{1:pause}なんの味もしないな。{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#87",
+   "label": "Kjrpg_12_Koopa_exqst_3_12",
+   "style": 7,
+   "src": "ガーッハッハッハ！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:07 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#88",
+   "label": " Kjrpg_11_Koopa_qst08_01_02",
+   "style": 6,
+   "src": "ここが 私達の\n出会いの場でもあったのだな…{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#89",
+   "label": "Kjrpg_01_Koopa_op01_07",
+   "style": 9,
+   "src": "{1:font}…フン！{2:font}",
+   "tags": {
+    "1": "[0000:0001:02 00]",
+    "2": "[0000:0001:FF FF]"
+   },
+   "header": "[0009:0000:09 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#90",
+   "label": "Kjrpg_01_Koopa_op02_13",
+   "style": 6,
+   "src": "SSカンパニー？{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#91",
+   "label": "Kjrpg_11_Koopa_ed07_07_02",
+   "style": 6,
+   "src": "…お？{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#92",
+   "label": "Kjrpg_12_Koopa_exqst_3_13",
+   "style": 6,
+   "src": "Jr.よ。相手は…{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#93",
+   "label": "Kjrpg_01_Koopa_op01_08",
+   "style": 6,
+   "src": "うわわわわわ！",
+   "tags": {},
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#94",
+   "label": "Kjrpg_01_Koopa_op02_14",
+   "style": 6,
+   "src": "{1:color}スーパーサプリカンパニー！{2:pause} {3:color}です～{4:wait}",
+   "tags": {
+    "1": "[Color #373737]",
+    "2": "[0002:0000:0A 00]",
+    "3": "[Color #373737]",
+    "4": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#95",
+   "label": "Kjrpg_12_Koopa_exqst_3_14",
+   "style": 7,
+   "src": "この ワガハイだ！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:07 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#96",
+   "label": "Kjrpg_01_Koopa_op01_09",
+   "style": 6,
+   "src": "Jr.…\nまたいつものイタズラか…{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#97",
+   "label": "Kjrpg_01_Koopa_op01_32_1",
+   "style": 6,
+   "src": "おしらせ おしらせー{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#98",
+   "label": "Kjrpg_12_Koopa_exqst_3_15",
+   "style": 6,
+   "src": "ワガハイが へんせいした軍団と\nワガハイを 倒してみるがいい！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#99",
+   "label": "Kjrpg_01_Koopa_op01_32_2",
+   "style": 6,
+   "src": "ピーチ城で メタコロ病対策会議が\n開かれていまーす。{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#100",
+   "label": "Kjrpg_01_Koopa_op02_16",
+   "style": 6,
+   "src": "あれれ～{1:pause} ザンネンです～{2:pause}\nそれじゃ他を あたりましょうか～{3:wait}",
+   "tags": {
+    "1": "[0002:0000:04 00]",
+    "2": "[0002:0000:0A 00]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#101",
+   "label": "Kjrpg_12_Koopa_exqst_3_16",
+   "style": 6,
+   "src": "お父さんが 相手…{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#102",
+   "label": "Kjrpg_01_Koopa_op01_32_3",
+   "style": 6,
+   "src": "あ。{1:pause}クッパさんには関係なかったー\n聞かなかったことにー{2:wait}[Next]失礼ー 失礼―{3:wait}",
+   "tags": {
+    "1": "[0002:0000:08 00]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#103",
+   "label": "Kjrpg_12_Koopa_exqst_3_17",
+   "style": 6,
+   "src": "ワクワクする…！{1:pause}\n絶対 勝つぞ！{2:wait}",
+   "tags": {
+    "1": "[0002:0000:08 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#104",
+   "label": "Kjrpg_01_Koopa_op02_18",
+   "style": 6,
+   "src": "おい！ オマエら！{1:pause}\nちょっと まて！{2:wait}",
+   "tags": {
+    "1": "[0002:0000:08 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#105",
+   "label": "Kjrpg_12_Koopa_exqst_3_18",
+   "style": 6,
+   "src": "さあ！ わが息子よ！{1:pause}\n全力で 来い！{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#106",
+   "label": "Kjrpg_11_Koopa_ed07_02_01",
+   "style": 6,
+   "src": "おお。{1:pause}それがスッキリとやせるサプリか。{2:wait}",
+   "tags": {
+    "1": "[0002:0000:04 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#107",
+   "label": "Kjrpg_12_Koopa_exqst_3_19",
+   "style": 9,
+   "src": "本当の 「強さ」を教えてやるわ！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:09 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#108",
+   "label": "Kjrpg_11_Koopa_ed07_02_02",
+   "style": 6,
+   "src": "それでメタコロ病のヤツらを治したのか。{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#109",
+   "label": "Kjrpg_11_Koopa_ed07_02_03",
+   "style": 6,
+   "src": "でかしたぞ。{1:pause}Jr.よ。\n今回は全てオマエの手柄だな。{2:wait}",
+   "tags": {
+    "1": "[0002:0000:04 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_koopa_14#110",
+   "label": "Kjrpg_01_Koopa_op01_30_1",
+   "style": 6,
+   "src": "ええい！{1:pause} 城中に\nコロコロと うっとおしい！{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  }
+ ]
+}

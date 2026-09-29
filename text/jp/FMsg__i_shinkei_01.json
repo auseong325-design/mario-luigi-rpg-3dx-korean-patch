@@ -1,0 +1,54 @@
+{
+ "source": "Msg/JP_ja/FMsg.dat:i_shinkei_01",
+ "messages": [
+  {
+   "id": "FMsg/i_shinkei_01#0",
+   "label": "MES_KHatena_c_01_Khatena_c_01_mes_1",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]これ さっきの[Ruby 畑;はたけ]にいた\nイモムシの[Ruby 仲間;なかま]？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_shinkei_01#1",
+   "label": "MES_KHatena_c_01_Khatena_c_01_mes_2",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]きっと クッパが[Ruby 食;た]べたニンジンに\nくっついていたんだわ！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_shinkei_01#2",
+   "label": "MES_KHatena_c_01_Khatena_c_01_mes_3",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]でも どうしてこんなに\n[Ruby 大;おお]きくなったのかしら…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_shinkei_01#3",
+   "label": "MES_KHatena_c_01_Khatena_c_01_mes_4",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]あの[Ruby 白;しろ]いやつらが このイモムシが\n[Ruby 大;おお]きくなった [Ruby 原因;げんいん]だったのね！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_shinkei_01#4",
+   "label": "MES_KHatena_c_01_Khatena_c_01_mes_5",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]マリオ どうする？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_shinkei_01#5",
+   "label": "MES_KHatena_c_01_Khatena_c_01_mes_6",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]そうね… [Ruby 今;いま]は クッパに\n[Ruby 歩;ある]いてもらわないと こまるものね。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_shinkei_01#6",
+   "label": "MES_KHatena_c_01_Khatena_c_01_mes_7",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]このイモムシには [Ruby 悪;わる]いけど\nここで たいじしましょう！[0002:0001:]"
+  }
+ ]
+}

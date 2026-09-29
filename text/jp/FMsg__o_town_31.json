@@ -1,0 +1,530 @@
+{
+ "source": "Msg/JP_ja/FMsg.dat:o_town_31",
+ "messages": [
+  {
+   "id": "FMsg/o_town_31#0",
+   "label": "MES_TKinoko_31_Kinoko_street_05",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]あそこにある [Ruby 高級;こうきゅう]そうなお[Ruby 店;みせ]…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_31#1",
+   "label": "MES_TKinoko_31_Kinoko_street_06",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]この３つのお[Ruby 店;みせ]で\n[Color #2C64FF]そうび[Ruby 品;ひん][Color #373737][Color #373737]が [Ruby 買;か]えますよ。[0002:0001:][Next]どんなものが [Ruby 買;か]えるかは\n[Ruby 行;い]ってからの お[Ruby 楽;たの]しみです！[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/o_town_31#2",
+   "label": "MES_TKinoko_31_Kinoko_street_07",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]では [Ruby 他;ほか]の[Ruby 場所;ばしょ]も\n[Ruby 説明;せつめい]しますね。[0002:0000:0A 00]\n[0001:0001:][Color #373737][0006:0001:14 00][Color #373737][0004:0001:]いいえ[0006:0000:28 00][0004:0001:]はい[0002:0000:0A 00]"
+  },
+  {
+   "id": "FMsg/o_town_31#3",
+   "label": "MES_TKinoko_31_Kinoko_street_08",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]あそこにあるのが\nティーカウンターです。[0002:0001:][Next][Ruby 今;いま] [Ruby 人気;にんき]なのが\nロイヤルキノコティー！[0002:0001:][Next]１[Ruby 度;ど] ためしてみては\nどうですか？[0002:0001:][Next]ちなみに [Ruby 横;よこ]のどかんからは\nタウンの[Ruby 地下;ちか]に [Ruby 行;い]けますよ。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_31#4",
+   "label": "MES_TKinoko_31_Kinoko_meta_cure_31_2",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]スレンダーボディに もとどおり！\nうれしいな～！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_31#5",
+   "label": "MES_TKinoko_31_Kinoko_street_20",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]あ！[0002:0000:0A 00] マリオさん！\nロイヤルキノコティーは\nもう[Ruby 飲;の]みましたか？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_31#6",
+   "label": "MES_TKinoko_31_Kinoko_street_sp_10",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0005:0000:]コイン[Color #4ED4FF]２００[Color #E6E6E6]まい[Color #373737]を[Ruby 手;て]に[Ruby 入;い]れた！！[0002:0000:1E 00][0002:0001:][Color #E6E6E6]"
+  },
+  {
+   "id": "FMsg/o_town_31#7",
+   "label": "MES_TKinoko_31_Kinoko_street_21",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]あ！[0002:0000:0A 00] マリオさん！\nバッジ[Ruby 屋;や]さんには [Ruby 行;い]きましたか？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_31#8",
+   "label": "MES_TKinoko_31_Kinoko_street_sp_11",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0005:0000:]スーパーナッツ[Color #4ED4FF]５[Color #E6E6E6][Ruby 個;こ][Color #373737]を[Ruby 手;て]に[Ruby 入;い]れた！！[0002:0000:1E 00][0002:0001:][Color #E6E6E6]"
+  },
+  {
+   "id": "FMsg/o_town_31#9",
+   "label": "MES_TKinoko_31_Kinoko_street_22",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]あ！[0002:0000:0A 00] マリオさん！\nアイテム[Ruby 屋;や]さんには [Ruby 行;い]きましたか？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_31#10",
+   "label": "MES_TKinoko_31_Kinoko_street_sp_12",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0005:0000:]コイン[Color #4ED4FF]３００[Color #E6E6E6]まい[Color #373737]を[Ruby 手;て]に[Ruby 入;い]れた！！[0002:0000:1E 00][0002:0001:][Color #E6E6E6]"
+  },
+  {
+   "id": "FMsg/o_town_31#11",
+   "label": "MES_TKinoko_31_Kinoko_street_23",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]あ！[0002:0000:0A 00] マリオさん！\nブティック キノダには\n[Ruby 行;い]きましたか？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_31#12",
+   "label": "MES_TKinoko_31_Kinoko_street_sp_13",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0005:0000:]１UPキノコ[Color #4ED4FF]５[Color #E6E6E6][Ruby 個;こ][Color #373737]を[Ruby 手;て]に[Ruby 入;い]れた！！[0002:0000:1E 00][0002:0001:][Color #E6E6E6]"
+  },
+  {
+   "id": "FMsg/o_town_31#13",
+   "label": "MES_TKinoko_31_Kinoko_street_24",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]マリオさん！[0002:0000:0A 00] そうび[Ruby 品;ひん]は\nちゃんと つけていますか？[0002:0001:][Next]そうび[Ruby 品;ひん]を [Ruby 上手;じょうず]に\n[Ruby 組;く]み[Ruby 合;あ]わせて つければ…[0002:0001:][Next]バトルを[Ruby 有利;ゆうり]に\n[Ruby 進;すす]められますよ！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_31#14",
+   "label": "MES_TKinoko_31_Kinoko_street_sp_14",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0005:0000:]コイン[Color #4ED4FF]５００[Color #E6E6E6]まい[Color #373737]を[Ruby 手;て]に[Ruby 入;い]れた！！[0002:0000:1E 00][0002:0001:][Color #E6E6E6]"
+  },
+  {
+   "id": "FMsg/o_town_31#15",
+   "label": "MES_TKinoko_31_Kinoko_street_sp_15",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0005:0000:][Color #4ED4FF]シールドバッジ[Color #E6E6E6][Color #373737]を[Ruby 手;て]に[Ruby 入;い]れた！！[0002:0000:1E 00][0002:0001:][Color #E6E6E6]"
+  },
+  {
+   "id": "FMsg/o_town_31#16",
+   "label": "MES_TKinoko_31_Kinoko_street_26",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]うーん ロイヤルキノコティーの\nシロップたっぷりな [Ruby 甘;あま]みと\nキノコの[Ruby 風味;ふうみ]が [Ruby 合;あ]わさって…[0002:0001:][Next]こころが いやされますよ～\n[0002:0000:0A 00]って [Ruby 体;からだ]もいやしてほしい～！[0002:0000:0A 00]\nボクの スレンダーボディ[Ruby 返;かえ]せ～！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_31#17",
+   "label": "MES_TKinoko_31_Kinoko_street_sp_16",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Color #2C64FF]キノコボール[Color #373737]は\nまだ かくされていますよ！[0002:0001:][Next][0001:0004:]あと [Color #2C64FF][0003:0000:00 00 02 00 01 00][Color #373737][Color #373737][Ruby 個;こ]ありますね！[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/o_town_31#18",
+   "label": "MES_TKinoko_31_Kinoko_street_27",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]マリオさん！\nちょっと [Ruby 一息;ひといき]ついて\n[Ruby 元気;げんき]に なってくださいな！！[0002:0001:][Next][0004:0001:][0006:0001:14 00]いらない\n[0004:0001:][0006:0001:14 00]キノコティー[0006:0000:55 00][Color #2C64FF]５[Color #373737]コイン\n[0004:0001:][0006:0001:14 00]ミルクキノコティー[0006:0000:25 00][Color #2C64FF]８[Color #373737]コイン\n[0004:0001:][0006:0001:14 00]ロイヤルキノコティー [Color #2C64FF]１０[Color #373737]コイン[0002:0000:0A 00]"
+  },
+  {
+   "id": "FMsg/o_town_31#19",
+   "label": "MES_TKinoko_31_Kinoko_street_sp_15_a",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0005:0000:]コイン[Color #4ED4FF]１０００[Color #E6E6E6]まい[Color #373737]を[Ruby 手;て]に[Ruby 入;い]れた！！[0002:0000:1E 00][0002:0001:][Color #E6E6E6]"
+  },
+  {
+   "id": "FMsg/o_town_31#20",
+   "label": "MES_TKinoko_31_Kinoko_street_sp_17",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]うわー！ さすがマリオさん！[0002:0000:0A 00]\nこれが このイベントの[Ruby 目玉;めだま]！[0002:0001:][Next][0001:0004:][0001:0001:]おめでとうございます！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_31#21",
+   "label": "MES_TKinoko_31_Kinoko_street_sp_15_b",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0005:0000:]ハートマメ[Color #4ED4FF]５[Color #E6E6E6][Ruby 個;こ][Color #373737]を[Ruby 手;て]に[Ruby 入;い]れた！！\n[0005:0000:]ディフェンスマメ[Color #4ED4FF]５[Color #373737][Ruby 個;こ]を[Ruby 手;て]に[Ruby 入;い]れた！！[0002:0000:1E 00][0002:0001:][Color #E6E6E6]"
+  },
+  {
+   "id": "FMsg/o_town_31#22",
+   "label": "MES_TKinoko_31_Kinoko_street_sp_18",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:][0001:0001:]イベントは[Ruby 終了;しゅうりょう]です！[0002:0001:][Next][0001:0000:]マリオさんの おかげで\nとても もり[Ruby 上;あ]がりました！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_31#23",
+   "label": "MES_TKinoko_31_Kinoko_street_sp_15_c",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0005:0000:]スペシャルマメ[Color #4ED4FF]５[Color #E6E6E6][Ruby 個;こ][Color #373737]を[Ruby 手;て]に[Ruby 入;い]れた！！\n[0005:0000:]ジェントルマメ[Color #4ED4FF]５[Color #373737][Ruby 個;こ]を[Ruby 手;て]に[Ruby 入;い]れた！！[0002:0000:1E 00][0002:0001:][Color #E6E6E6]"
+  },
+  {
+   "id": "FMsg/o_town_31#24",
+   "label": "MES_TKinoko_31_Kinoko_street_sp_19",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]あ！ [Color #2C64FF]キノコボール[Color #373737]！[0002:0000:0A 00]\n[0003:0000:00 00 02 00 00 00][Ruby 個;こ] [Ruby 持;も]ってるんですね！[0002:0001:][Next]では さっそく\n[Ruby 開;あ]けて [Ruby 中身;なかみ]を[Ruby 見;み]てみましょう！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_31#25",
+   "label": "MES_TKinoko_31_Kinoko_street_sp_15_d",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0005:0000:]パワーマメ[Color #4ED4FF]５[Color #E6E6E6][Ruby 個;こ][Color #373737]を[Ruby 手;て]に[Ruby 入;い]れた！！\n[0005:0000:]スピードマメ[Color #4ED4FF]５[Color #373737][Ruby 個;こ]を[Ruby 手;て]に[Ruby 入;い]れた！！[0002:0000:1E 00][0002:0001:][Color #E6E6E6]"
+  },
+  {
+   "id": "FMsg/o_town_31#26",
+   "label": "MES_TKinoko_31_Kinoko_street_sp_15_e",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0005:0000:]コイン[Color #4ED4FF]２０００[Color #E6E6E6]まい[Color #373737]を[Ruby 手;て]に[Ruby 入;い]れた！！[0002:0000:1E 00][0002:0001:][Color #E6E6E6]"
+  },
+  {
+   "id": "FMsg/o_town_31#27",
+   "label": "MES_TKinoko_31_Kinoko_street_sp_15_f",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0005:0000:][Color #4ED4FF]オタカラメガネ[Color #E6E6E6][Color #373737]を[Ruby 手;て]に[Ruby 入;い]れた！！[0002:0000:1E 00][0002:0001:][Color #E6E6E6]"
+  },
+  {
+   "id": "FMsg/o_town_31#28",
+   "label": "MES_TKinoko_31_Kinoko_street_40",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]うわ～！[0002:0000:0A 00] [Ruby 見;み]つかっちゃった！\nさすが マリオさん！[0002:0001:][Next][Ruby 次;つぎ]は [Ruby 見;み]つからないよ～\nよーい[0002:0000:0B 00] はじめ～！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_31#29",
+   "label": "MES_TKinoko_31_Kinoko_street_26_2",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 入;い]り[Ruby 口;ぐち]まで がんばって\nころがって きたけど…[0002:0001:][Next]もうダメだ！\nこれ[Ruby 以上;いじょう] [Ruby 動;うご]けない～！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_31#30",
+   "label": "MES_TKinoko_31_Kinoko_street_26_3",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ジャマですか～？\nでも [Ruby 動;うご]けないんです～[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_31#31",
+   "label": "MES_TKinoko_31_Kinoko_street_sp_03_pl",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]どうですか？ マリオさん。\n[Color #2C64FF]キノコボール[Color #373737] [Ruby 見;み]つかりました？[0002:0001:][Next][Ruby 見;み]えないブロック…\n[Ruby 地面;じめん]の[Ruby 中;なか]… かべの[Ruby 裏;うら]…[0002:0001:][Next]あやしい[Ruby 場所;ばしょ]に [Ruby 行;い]けば\nきっと [Ruby 気;き]づくはずですよ。[0002:0001:][Next][Ruby 地面;じめん]の[Ruby 中;なか]のは [Color #2C64FF]もぐれる[Color #373737][Color #373737]ように\nならないと [Ruby 取;と]れませんけどね。[0002:0001:][Next][0001:0004:]あ！ [Color #373737][Color #2C64FF]キノコボール[Color #373737][Color #373737]は[Ruby 全部;ぜんぶ]で\n[Color #373737][Color #2C64FF]１６[Color #373737][Color #373737][Ruby 個;こ] ありますよ！[0002:0001:][Next][0001:0004:]あと [Color #373737][Color #2C64FF][0003:0000:00 00 02 00 01 00][Color #373737][Color #373737][Ruby 個;こ]ありますね！[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/o_town_31#32",
+   "label": "MES_TKinoko_31_Kinoko_street_sp_16_pl",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Color #2C64FF]キノコボール[Color #373737]は\nまだ かくされていますよ！[0002:0001:][Next][0001:0004:]あと [Color #2C64FF][0003:0000:00 00 02 00 01 00][Color #373737][Color #373737][Ruby 個;こ]ありますね！[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/o_town_31#33",
+   "label": "MES_TKinoko_31_Kinoko_street_sp_01",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]マリオさん！ ルイージさん！[0002:0000:0A 00]\nショッピングモール[Ruby 完成記念;かんせいきねん]の\n[Ruby 面白;おもしろ]いイベントを やってるんです！[0002:0001:][Next][0001:0004:]どんな イベントか[Ruby 聞;き]きたいですか？[0002:0000:0A 00]\n[0001:0001:][0004:0001:]またこんど[0006:0000:28 00][0004:0001:][Ruby 聞;き]きたい[0002:0000:0A 00]"
+  },
+  {
+   "id": "FMsg/o_town_31#34",
+   "label": "MES_TKinoko_31_Kinoko_street_12",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]コキノ[Ruby 先生;せんせい]は ふしぎなチカラを\n[Ruby 持;も]っているって ウワサですよ。[0002:0001:][Next]なんでも キノコ[Ruby 王国;おうこく]のことで\nわからないことは ないんだとか…[0002:0001:][Next]なにか こまったことがあったら\nコキノ[Ruby 先生;せんせい]に [Ruby 聞;き]くといいですよ。[0002:0001:][Next][Ruby 説明;せつめい]は[Ruby 以上;いじょう]です。いろいろと\n[Ruby 歩;ある]き[Ruby 回;まわ]って [Ruby 楽;たの]しんでくださいね。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_31#35",
+   "label": "MES_TKinoko_31_Kinoko_street_sp_02",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:][Color #2C64FF]キノコボールを[Ruby 探;さが]せ！[Color #373737][Color #373737]って\nイベントなんですけどね…[0002:0001:][Next]ショッピングモールの[Ruby 中;なか]に\nかくれている [Color #373737][Color #2C64FF]キノコボール[Color #373737][Color #373737]を\nボクのところに [Ruby 持;も]ってきてください！[0002:0001:][Next][0001:0004:]ボールの[Ruby 中身;なかみ]を\nプレゼントしちゃいます！[0002:0001:][Next][0001:0004:]なにが[Ruby 入;はい]っているかは\n[Ruby 開;あ]けてからの お[Ruby 楽;たの]しみです！[0002:0001:][Next][0001:0004:][Color #373737][Color #2C64FF]キノコボール[Color #373737][Color #373737]は\n[Ruby 必;かなら]ず [Color #373737][Color #2C64FF][Ruby 見;み]えない[Color #373737][Color #373737]ところにありますよ！[0002:0001:][Next][0001:0004:][Ruby 見;み]えないブロック…\n[Ruby 地面;じめん]の[Ruby 中;なか]… かべの[Ruby 裏;うら]…[0002:0001:][Next]カンのいい マリオさんなら\nあやしい[Ruby 場所;ばしょ]に[Ruby 行;い]くと\n[Ruby 気;き]づいちゃうかも…[0002:0001:][Next][0001:0004:][Ruby 地面;じめん]の[Ruby 中;なか]のは [Color #373737][Color #2C64FF]もぐれる[Color #373737][Color #373737]ように\nならないと [Ruby 取;と]れませんけどね。[0002:0001:][Next]とにかく いろんな[Ruby 場所;ばしょ]に\nたくさん かくれていますから\nどんどん [Ruby 探;さが]してくださいね！[0002:0001:][Next][0001:0004:]あ！ [Color #373737][Color #2C64FF]キノコボール[Color #373737][Color #373737]は[Ruby 全部;ぜんぶ]で\n[Color #373737][Color #2C64FF]１６[Color #373737][Color #373737][Ruby 個;こ] ありますよ！[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/o_town_31#36",
+   "label": "MES_TKinoko_31_Kinoko_street_sp_get_cap_01",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0005:0000:][Color #4ED4FF]キノコボール[Color #E6E6E6][Color #373737]を[Ruby 手;て]に[Ruby 入;い]れた！！[0002:0000:1E 00][0002:0001:][Color #E6E6E6]"
+  },
+  {
+   "id": "FMsg/o_town_31#37",
+   "label": "MES_TKinoko_31_Kinoko_street_13",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ショッピングモールで [Ruby 迷;まよ]ったら\nボクのところに きてください。[0002:0001:][Next][0001:0004:]いつでも [Ruby 説明;せつめい]しますよ。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_31#38",
+   "label": "MES_TKinoko_31_Kinoko_street_sp_03",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]どうですか？ マリオさん。\n[Color #2C64FF]キノコボール[Color #373737] [Ruby 見;み]つかりました？[0002:0001:][Next][Ruby 見;み]えないブロック…\n[Ruby 地面;じめん]の[Ruby 中;なか]… かべの[Ruby 裏;うら]…[0002:0001:][Next]あやしい[Ruby 場所;ばしょ]に [Ruby 行;い]けば\nきっと [Ruby 気;き]づくはずですよ。[0002:0001:][Next][Ruby 地面;じめん]の[Ruby 中;なか]のは [Color #2C64FF]もぐれる[Color #373737][Color #373737]ように\nならないと [Ruby 取;と]れませんけどね。[0002:0001:][Next][0001:0004:]あ！ [Color #373737][Color #2C64FF]キノコボール[Color #373737][Color #373737]は[Ruby 全部;ぜんぶ]で\n[Color #373737][Color #2C64FF]１６[Color #373737][Color #373737][Ruby 個;こ] ありますよ！[0002:0001:][Next][0001:0004:]あと [Color #373737][Color #2C64FF][0003:0000:00 00 02 00 01 00][Color #373737][Color #373737][Ruby 個;こ]ありますね！[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/o_town_31#39",
+   "label": "MES_TKinoko_31_Kinoko_street_14",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ショッピングモールの\n[Ruby 説明;せつめい]をしましょうか？[0002:0000:0A 00]\n[0001:0001:][0004:0001:]いいえ[0006:0000:28 00][0004:0001:]はい[0002:0000:0A 00]"
+  },
+  {
+   "id": "FMsg/o_town_31#40",
+   "label": "MES_TKinoko_31_Kinoko_street_sp_04",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]あ！ [Color #2C64FF]キノコボール[Color #373737]！[0002:0000:0A 00]\n[0003:0000:00 00 02 00 00 00][Ruby 個;こ] [Ruby 持;も]ってるんですね！[0002:0001:][Next]では さっそく\n[Ruby 開;あ]けて [Ruby 中身;なかみ]を[Ruby 見;み]てみましょう！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_31#41",
+   "label": "MES_TKinoko_31_Kinoko_street_15",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:][Ruby 今日;きょう]も [Ruby 最高;さいこう]のお[Ruby 買;か]いものが\nできたざますわ～[0002:0001:][Next][0001:0004:]おまけに マッサージまで\nしてもらっちゃって…[0002:0001:][Next]ワタクシのような\n[Ruby 最高;さいこう]のランクのキノピオに\nピッタリざますわ～[0002:0001:] "
+  },
+  {
+   "id": "FMsg/o_town_31#42",
+   "label": "MES_TKinoko_31_Kinoko_street_sp_05",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]はい！[0002:0000:0A 00] どうぞ！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_31#43",
+   "label": "MES_TKinoko_31_Kinoko_street_16",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ここから[Ruby 東;ひがし]に [Ruby 行;い]っても\nショッピングモールは [Ruby 続;つづ]きます。[0002:0001:][Next]キノコタウンから [Ruby 出;で]たいのなら\nさらに[Ruby 東;ひがし]に [Ruby 行;い]けばいいのですが…[0002:0001:][Next][Ruby 今;いま]は [Ruby 工事中;こうじちゅう]なんですよ…\n[Ruby 工事中;こうじちゅう]が [Ruby 多;おお]いんだよなぁ…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_31#44",
+   "label": "MES_TKinoko_31_Kinoko_street_sp_06",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0005:0000:]コイン[Color #4ED4FF]５０[Color #E6E6E6]まい[Color #373737]を[Ruby 手;て]に[Ruby 入;い]れた！！[0002:0000:1E 00][0002:0001:][Color #E6E6E6]"
+  },
+  {
+   "id": "FMsg/o_town_31#45",
+   "label": "MES_TKinoko_31_Kinoko_street_17",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ここから[Ruby 東;ひがし]に [Ruby 行;い]っても\nショッピングモールは [Ruby 続;つづ]きます。[0002:0001:][Next]キノコタウンから [Ruby 出;で]たいのなら\nさらに[Ruby 東;ひがし]に [Ruby 行;い]くといいですよ。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_31#46",
+   "label": "MES_TKinoko_31_Kinoko_street_sp_07",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0005:0000:]スーパーキノコ[Color #4ED4FF]５[Color #E6E6E6][Ruby 個;こ][Color #373737]を[Ruby 手;て]に[Ruby 入;い]れた！！[0002:0000:1E 00][0002:0001:][Color #E6E6E6]"
+  },
+  {
+   "id": "FMsg/o_town_31#47",
+   "label": "MES_TKinoko_31_Kinoko_street_18",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 世;よ]の[Ruby 中;なか] コインだけじゃ\n[Ruby 生;い]きていけないんだ！[0002:0001:][Next]コインなんかなくても\n[Ruby 生;い]きていけるんだ！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_31#48",
+   "label": "MES_TKinoko_31_Kinoko_street_sp_08",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0005:0000:]コイン[Color #4ED4FF]１００[Color #E6E6E6]まい[Color #373737]を[Ruby 手;て]に[Ruby 入;い]れた！！[0002:0000:1E 00][0002:0001:][Color #E6E6E6]"
+  },
+  {
+   "id": "FMsg/o_town_31#49",
+   "label": "MES_TKinoko_31_Kinoko_street_19",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]あ！[0002:0000:0A 00] マリオさん！\nコキノ[Ruby 先生;せんせい]には もう[Ruby 会;あ]いましたか？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_31#50",
+   "label": "MES_TKinoko_31_Kinoko_street_sp_09",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0005:0000:]スーパーシロップ[Color #4ED4FF]５[Color #E6E6E6][Ruby 個;こ][Color #373737]を\n[Ruby 手;て]に[Ruby 入;い]れた！！[0002:0000:1E 00][0002:0001:][Color #E6E6E6]"
+  },
+  {
+   "id": "FMsg/o_town_31#51",
+   "label": "MES_TKinoko_31_Kinoko_street_sp_16_a",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 次;つぎ]はきっと もっと\nいいものが [Ruby 入;はい]ってますよ！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_31#52",
+   "label": "MES_TKinoko_31_Kinoko_street_sp_16_b",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]まだ [Ruby 目玉商品;めだましょうひん]は\n[Ruby 出;で]ていませんよ！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_31#53",
+   "label": "MES_TKinoko_31_Kinoko_street_sp_16_c",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]どうですか？ マリオさんなら\nかんたんに [Ruby 見;み]つけられるかな？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_31#54",
+   "label": "MES_TKinoko_31_Kinoko_street_sp_16_d",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 見;み]えないブロックは\nルイージさんでも [Ruby 叩;たた]けますよ！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_31#55",
+   "label": "MES_TKinoko_31_Kinoko_street_sp_16_e",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 右;みぎ]の[Ruby 地区;ちく]にも\nボールは かくれてますよ！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_31#56",
+   "label": "MES_TKinoko_31_Kinoko_street_sp_16_f",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]お[Ruby 店;みせ]のまわりとか…\nあやしい… かもしれません！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_31#57",
+   "label": "MES_TKinoko_31_Kinoko_street_31",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]コインの[Ruby 使;つか]いかたは\n[Ruby 大事;だいじ]ですよ！[0002:0001:][Next]そうび[Ruby 品;ひん]を[Ruby 買;か]ったら\nアイテムを[Ruby 買;か]えなくなった…[0002:0001:][Next]バッジを[Ruby 買;か]ったら\nアイテムを[Ruby 買;か]えなくなった…[0002:0001:][Next]なんて ならないように\nかしこい [Ruby 買;か]いものをしましょう！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_31#58",
+   "label": "MES_TKinoko_31_Kinoko_street_sp_16_g",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]がんばって [Ruby 探;さが]してくださいね！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_31#59",
+   "label": "MES_TKinoko_31_Kinoko_street_sp_16_h",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ジャンプしまくる…ってのも\nいいかもしれませんね！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_31#60",
+   "label": "MES_TKinoko_31_Kinoko_street_sp_16_i",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]なかなか [Ruby 集;あつ]まってますね！\nがんばってください！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_31#61",
+   "label": "MES_TKinoko_31_Kinoko_street_27_1",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0005:0000:][0001:0004:][0001:0001:]HP[Ruby 全回復;ぜんかいふく]！！[0002:0000:28 00][0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_31#62",
+   "label": "MES_TKinoko_31_Kinoko_street_27_2",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0005:0000:][0001:0004:][0001:0001:]BP[Ruby 全回復;ぜんかいふく]！！[0002:0000:28 00][0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_31#63",
+   "label": "MES_TKinoko_31_Kinoko_street_27_3",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0005:0000:][0001:0004:][0001:0001:]HPとBP[Ruby 全回復;ぜんかいふく]！！[0002:0000:28 00][0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_31#64",
+   "label": "MES_TKinoko_31_Kinoko_street_27_4",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]マリオさん！[0002:0000:0A 00]\nコインが たりません…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_31#65",
+   "label": "MES_TKinoko_31_Kinoko_street_27_5",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]いらっしゃいませ！\nマリオさん！ ルイージさん！[0002:0001:][Next][0001:0004:]ここは ティーカウンターです！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_31#66",
+   "label": "MES_TKinoko_31_Kinoko_street_27_6",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:][Color #2C64FF]HP[Color #373737][Color #373737]が [Ruby 減;へ]っているみたいですね！[0002:0001:][Next]そんなときは\n[Color #373737][Color #2C64FF]キノコティー[Color #373737][Color #373737]が オススメですよ！[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/o_town_31#67",
+   "label": "MES_TKinoko_31_Kinoko_street_27_7",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:][Color #2C64FF]BP[Color #373737][Color #373737]が [Ruby 減;へ]っているみたいですね！[0002:0001:][Next]そんなときは\n[Color #373737][Color #2C64FF]ミルクキノコティー[Color #373737][Color #373737]が いいですよ！[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/o_town_31#68",
+   "label": "MES_TKinoko_31_Kinoko_street_27_8",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Color #2C64FF]HP[Color #373737][Color #373737]も [Color #373737][Color #2C64FF]BP[Color #373737][Color #373737]も[Ruby 減;へ]って\n[Ruby 元気;げんき]がない みたいですね！[0002:0001:][Next]そんなときは\n[Color #373737][Color #2C64FF]ロイヤルキノコティー[Color #373737][Color #373737]で [Ruby 決;き]まり！！[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/o_town_31#69",
+   "label": "MES_TKinoko_31_Kinoko_street_27_9",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Color #2C64FF]HP[Color #373737][Color #373737]も[Color #373737][Color #2C64FF]BP[Color #373737][Color #373737]も マンタンで\nとても [Ruby 元気;げんき]みたいですね！[0002:0001:][Next]もし [Ruby 元気;げんき]がなくなったら\nぜひ [Ruby 飲;の]んでみてくださいね！！[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/o_town_31#70",
+   "label": "MES_TKinoko_31_Kinoko_street_sp_04_pl",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]あ！ [Color #2C64FF]キノコボール[Color #373737]！[0002:0000:0A 00]\n[0003:0000:00 00 02 00 00 00][Ruby 個;こ] [Ruby 持;も]ってるんですね！[0002:0001:][Next]では さっそく\n[Ruby 開;あ]けて [Ruby 中身;なかみ]を[Ruby 見;み]てみましょう！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_31#71",
+   "label": "MES_TKinoko_31_Kinoko_street_01",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]あ！ マリオさん！[0002:0000:0A 00]\nようこそ ショッピングモールへ！[0002:0001:][Next][0001:0004:]できたばかりなのに\nたくさんの[Ruby 人;ひと]が きてますよ！[0002:0001:][Next]よかったら ショッピングモールの\n[Ruby 説明;せつめい]をしましょうか？[0002:0000:0A 00]\n[0001:0001:][0004:0001:]いいえ[0006:0000:28 00][0004:0001:]はい[0002:0000:0A 00]"
+  },
+  {
+   "id": "FMsg/o_town_31#72",
+   "label": "MES_TKinoko_31_Kinoko_street_02",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ではまず [Color #2C64FF]そうび[Ruby 品;ひん][Color #373737][Color #373737]が\n[Ruby 買;か]えるお[Ruby 店;みせ]を [Ruby 教;おし]えますね。[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/o_town_31#73",
+   "label": "MES_TKinoko_31_Kinoko_street_03",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]あそこにある [Ruby 小;ちい]さなお[Ruby 店;みせ]…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_31#74",
+   "label": "MES_TKinoko_31_Kinoko_street_04",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]あそこにある ちょっと[Ruby 大;おお]きなお[Ruby 店;みせ]…[0002:0001:]"
+  }
+ ]
+}

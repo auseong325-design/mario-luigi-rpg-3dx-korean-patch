@@ -1,0 +1,68 @@
+{
+ "source": "Msg/JP_ja/FMsg.dat:o_town_35",
+ "messages": [
+  {
+   "id": "FMsg/o_town_35#0",
+   "label": "MES_TKinoko_35_Kinoko_metacoro_01",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]マリオさーん\n[Ruby 助;たす]けてください～[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_35#1",
+   "label": "MES_TKinoko_35_Kinoko_metacoro_02",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 愛;あい]する ハニーと\nムスコに [Ruby 会;あ]いたい～！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_35#2",
+   "label": "MES_TKinoko_35_Kinoko_metacoro_03",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]もう イヤだ～！！\nこんな[Ruby 体;からだ]は もうイヤだ～！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_35#3",
+   "label": "MES_TKinoko_35_Kinoko_metacoro_04",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]あつい～ くるしい～\nあつくるしい～！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_35#4",
+   "label": "MES_TKinoko_35_Kinoko_metacoro_05",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]コキノ[Ruby 先生;せんせい]～！[0002:0000:0A 00]\nまだ ですか～！？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_35#5",
+   "label": "MES_TKinoko_35_Kinoko_metacoro_06",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]マリオさんも [Ruby 気;き]をつけて\nくださいね～[0002:0001:][Next]こんな[Ruby 体;からだ]に なったら\nジャンプもできませんよ～[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_35#6",
+   "label": "MES_TKinoko_35_Kinoko_metacoro_07",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]ロイヤルキノコティーが\n[Ruby 飲;の]みたいよ～[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_35#7",
+   "label": "MES_TKinoko_35_Kinoko_metacoro_08",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Ruby 治;なお]った！ [Ruby 治;なお]ったぞ～！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_35#8",
+   "label": "MES_TKinoko_35_Kinoko_metacoro_10",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]あ～ ルイージさーん！[0002:0001:][Next]ボク ルイージさんの\nファンなんですよ～[0002:0001:][Next]ルイージさんに\n[Ruby 会;あ]えるなんて うれしいな～[0002:0001:][Next]マリオさんは\nよく [Ruby 見;み]かけるんだけど…[0002:0001:][Next]ルイージさんなら\nボクの[Ruby 体;からだ] [Ruby 治;なお]してくれますよね～？[0002:0001:][Next]きたいしてますよ～！\nがんばってください～！[0002:0001:]"
+  }
+ ]
+}

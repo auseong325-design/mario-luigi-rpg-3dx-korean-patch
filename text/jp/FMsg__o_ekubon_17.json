@@ -1,0 +1,19 @@
+{
+ "source": "Msg/JP_ja/FMsg.dat:o_ekubon_17",
+ "messages": [
+  {
+   "id": "FMsg/o_ekubon_17#0",
+   "label": "MES_Ekubon_17_Ekubon_opening_11",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]クッパ[Ruby 様;さま]～[0002:0000:1E 00]"
+  },
+  {
+   "id": "FMsg/o_ekubon_17#1",
+   "label": "MES_Ekubon_17_Ekubon_opening_12",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00]この[Ruby 先;さき]は ジャマなものが\nゴチャゴチャと あります。[0002:0001:][Next][Color #FF9600][U+E002][Color #373737][Color #373737]ボタンの [Color #373737][Color #FF9600]パンチ[Color #373737][Color #373737]でけちらして\n[Ruby 進;すす]むことを こころがけてください。[0002:0001:][Color #373737]"
+  }
+ ]
+}

@@ -1,0 +1,353 @@
+{
+ "batch": "FMsg__i_odoroki_01",
+ "rooms": [
+  "i_odoroki_01"
+ ],
+ "ds_rooms": [
+  "1FC"
+ ],
+ "ds_reference": [
+  "DS1FC#0: 여긴…",
+  "DS1FC#1: 잠깐만 기다려 줄래?",
+  "DS1FC#2: 이건 대체…",
+  "DS1FC#3: 혹시 이건…",
+  "DS1FC#4: 그래! 분명히 그거야!",
+  "DS1FC#5: 기다리게 해서 미안해.[Next]저쪽에서 흥미로운 걸\n발견했어.",
+  "DS1FC#6: 백 마디 설명보다\n직접 한 번 보는 게\n빠를 거야.[Next]저쪽으로 가 보자!",
+  "DS1FC#7: 안쪽에서 흥미로운 걸\n발견했어.[Next]어서 저쪽으로 가 보자!",
+  "DS1FC#8: 이 안쪽에 있었던\n튀어나온 부분…[Next]거기에 자극을 주면\n어떤 변화가 일어날 것 같은데…",
+  "DS1FC#9: 이거! 바로 이거야!\n이 튀어나온 부분…[Next]쿠파 몸속의 주요 신경에\n연결되어 있는 것 같아.",
+  "DS1FC#10: 여기에 자극을 주면\n어떤 변화가 일어날 거야…",
+  "DS1FC#11: 정신이 들었나 봐.",
+  "DS1FC#12: 저기! 내 말 들려~!?",
+  "DS1FC#13: 찾아도 소용없어![Next]왜냐하면 난\n네 몸속에 있거든!",
+  "DS1FC#14: 설마 기억 못 하는 거야?\n아까 피치 성에서…",
+  "DS1FC#15: 뭐? 기억나지 않아?",
+  "DS1FC#16: 아직은 우리들을\n빨아들인 사실에 대해\n잠자코 있는 게 좋겠어.",
+  "DS1FC#17: 내가 누군지는\n천천히 알려 줄게![Next]말하면 길어지니까…",
+  "DS1FC#18: 어…? 그, 그런가?[Next]그, 그것보다\n지금 어디에 있어?",
+  "DS1FC#19: 동굴…?",
+  "DS1FC#20: 이상하다…[Next]우리를 빨아들인 기억도\n없는 것 같고…[Next]지금 자신이 있는 장소도\n모르겠다니…[Next]무슨 일이 있었던 거지…?",
+  "DS1FC#21: 저기! 일단 그 동굴\n에서 빠져나오는 게\n좋을 것 같아!",
+  "DS1FC#22: 당분간 쿠파를\n지켜보기로 하자."
+ ],
+ "glossary": [
+  {
+   "jp": "クッパ",
+   "ko": "쿠파",
+   "type": "character",
+   "basis": "DS",
+   "source": "BData__mfset_Help#21",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "クッパの体内",
+   "ko": "쿠파의 몸속",
+   "type": "place",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesOutline#2",
+   "note": "[gl_menu_places]"
+  },
+  {
+   "jp": "ピーチ城",
+   "ko": "피치 성",
+   "type": "place",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesPlace#1",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "体内",
+   "ko": "몸속",
+   "type": "place",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesOutline#6",
+   "note": "[gl_menu_places]"
+  }
+ ],
+ "messages": [
+  {
+   "id": "FMsg/i_odoroki_01#0",
+   "label": "MES_KHatena_a_01_Khatena_a_01_mes_01",
+   "style": 6,
+   "src": "この場所は…{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_odoroki_01#1",
+   "label": "MES_KHatena_a_01_Khatena_a_01_mes_02",
+   "style": 6,
+   "src": "ちょっと 待っててくれる？{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_odoroki_01#2",
+   "label": "MES_KHatena_a_01_Khatena_a_01_mes_03",
+   "style": 6,
+   "src": "これは いったい…{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_odoroki_01#3",
+   "label": "MES_KHatena_a_01_Khatena_a_01_mes_04",
+   "style": 6,
+   "src": "もしかしたら これって…{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_odoroki_01#4",
+   "label": "MES_KHatena_a_01_Khatena_a_01_mes_05",
+   "style": 6,
+   "src": "そうか！ きっとそうね！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_odoroki_01#5",
+   "label": "MES_KHatena_a_01_Khatena_a_01_mes_06",
+   "style": 6,
+   "src": "{1:align}{2:align}待たせてゴメンね。{3:wait}[Next]{4:align}この先に 気になるものを\n見つけたわ。{5:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0001:]",
+    "4": "[0001:0000:]",
+    "5": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_odoroki_01#6",
+   "label": "MES_KHatena_a_01_Khatena_a_01_mes_07",
+   "style": 6,
+   "src": "説明するより 直接\n見てもらったほうが\n早いと 思うわ。{1:wait}[Next]{2:align}{3:align}この奥へ 進んでみて！{4:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0001:0004:]",
+    "3": "[0001:0001:]",
+    "4": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_odoroki_01#7",
+   "label": "MES_KHatena_a_01_Khatena_a_01_mes_08",
+   "style": 6,
+   "src": "この奥に 気になるものを\n見つけたわ。{1:wait}[Next]{2:align}{3:align}とにかく 進んでみて！{4:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0001:0004:]",
+    "3": "[0001:0001:]",
+    "4": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_odoroki_01#8",
+   "label": "MES_KHatena_a_01_Khatena_a_01_mes_09",
+   "style": 6,
+   "src": "この奥にあった 神経の\n突き出た部分…{1:wait}[Next]あそこに シゲキをあたえれば\nなにか変化が 起きると思うけど…{2:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_odoroki_01#9",
+   "label": "MES_KHatena_a_01_Khatena_a_01_mes_20",
+   "style": 6,
+   "src": "どうくつ…？{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_odoroki_01#10",
+   "label": "MES_KHatena_a_01_Khatena_a_01_mes_21",
+   "style": 6,
+   "src": "{1:align}{2:align}おかしいわねぇ…{3:wait}[Next]{4:align}私達を 吸い込んだ\nことも 覚えてない…{5:wait}[Next]今 自分がいるところも\nわからないなんて…{6:wait}[Next]{7:align}なにが あったのかしら…？{8:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0001:]",
+    "4": "[0001:0000:]",
+    "5": "[0002:0001:]",
+    "6": "[0002:0001:]",
+    "7": "[0001:0004:]",
+    "8": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_odoroki_01#11",
+   "label": "MES_KHatena_a_01_Khatena_a_01_mes_22",
+   "style": 6,
+   "src": "ねえ！ まずは その\nどうくつから 出たほうが\nいいんじゃない？{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_odoroki_01#12",
+   "label": "MES_KHatena_a_01_Khatena_a_01_mes_23",
+   "style": 6,
+   "src": "しばらく クッパの様子を\n見ていましょう。{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_odoroki_01#13",
+   "label": "MES_KHatena_a_01_Khatena_a_01_mes_10",
+   "style": 6,
+   "src": "これこれ！ これよ！\nこの突き出た部分…{1:wait}[Next]クッパの体内の 太い神経に\nつながっているみたいよ。{2:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_odoroki_01#14",
+   "label": "MES_KHatena_a_01_Khatena_a_01_mes_11",
+   "style": 6,
+   "src": "ここにシゲキを あたえれば\nなにか変化が 起きると思うわ…{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_odoroki_01#15",
+   "label": "MES_KHatena_a_01_Khatena_a_01_mes_12",
+   "style": 6,
+   "src": "目が覚めたようね。{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_odoroki_01#16",
+   "label": "MES_KHatena_a_01_Khatena_a_01_mes_13",
+   "style": 10,
+   "src": "ねえ！ きこえる～！？{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:0A 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_odoroki_01#17",
+   "label": "MES_KHatena_a_01_Khatena_a_01_mes_14",
+   "style": 6,
+   "src": "{1:align}{2:align}探しても ムダよ！{3:wait}[Next]{4:align}私 あなたの体の中に\nいるんですもの！{5:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0001:]",
+    "4": "[0001:0000:]",
+    "5": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_odoroki_01#18",
+   "label": "MES_KHatena_a_01_Khatena_a_01_mes_15",
+   "style": 6,
+   "src": "あなた 覚えてないの？\nさっき ピーチ城で…{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_odoroki_01#19",
+   "label": "MES_KHatena_a_01_Khatena_a_01_mes_16",
+   "style": 6,
+   "src": "え… 覚えてないの？{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_odoroki_01#20",
+   "label": "MES_KHatena_a_01_Khatena_a_01_mes_17",
+   "style": 6,
+   "src": "今は 私達を吸い込んだことは\n教えないで おきましょう。{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_odoroki_01#21",
+   "label": "MES_KHatena_a_01_Khatena_a_01_mes_18",
+   "style": 6,
+   "src": "私のことは 後で\n説明するわ！{1:wait}[Next]{2:align}{3:align}話すと 長くなるし…{4:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0001:0004:]",
+    "3": "[0001:0001:]",
+    "4": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_odoroki_01#22",
+   "label": "MES_KHatena_a_01_Khatena_a_01_mes_19",
+   "style": 6,
+   "src": "{1:align}{2:align}え… そ そうかしら？{3:wait}[Next]{4:align}そ そんなことより\n今 どこにいるの？{5:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0001:]",
+    "4": "[0001:0000:]",
+    "5": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  }
+ ]
+}

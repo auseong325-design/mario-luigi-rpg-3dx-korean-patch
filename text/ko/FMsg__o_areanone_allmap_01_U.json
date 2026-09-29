@@ -1,0 +1,28 @@
+{
+ "batch": "FMsg__o_areanone_allmap_01_U",
+ "translations": {
+  "FMsg/o_areanone_allmap_01_U#0": "아까 있던 장소를 골라 봐라~\n{1:color}{2:icon}{3:color}{4:color} 버튼을 눌러 결정하는 기다.{5:color}",
+  "FMsg/o_areanone_allmap_01_U#1": " 거기는 지금 있는 데고…{1:wait}",
+  "FMsg/o_areanone_allmap_01_U#2": "{1:align}{2:align}{3:mode}피치 성",
+  "FMsg/o_areanone_allmap_01_U#3": "{1:align}{2:align}{3:mode}피치 성 꼭대기",
+  "FMsg/o_areanone_allmap_01_U#4": "{1:align}뭐꼬, 그만두는 기가?{2:pause}\n{3:mode}{4:choice}안 그만둬{5:tab}{6:choice}그만둘래{7:pause}",
+  "FMsg/o_areanone_allmap_01_U#5": "{1:align}그 장소로 갈 끼가?{2:pause}\n{3:mode}{4:choice}바꿀래{5:tab}{6:choice}갈래{7:pause}",
+  "FMsg/o_areanone_allmap_01_U#6": "{1:mode}{2:color}{3:icon}{4:color}{5:color} 버튼: 취소    {6:color}{7:color}{8:icon}{9:color}{10:color} 버튼: 결정{11:color}",
+  "FMsg/o_areanone_allmap_01_U#7": "{1:align}요 언저리가 좋긋네~{2:wait}",
+  "FMsg/o_areanone_allmap_01_U#8": "{1:align}그라모 간대이~{2:wait}",
+  "FMsg/o_areanone_allmap_01_U#9": "{1:align}호잇!{2:pause} 얍!{3:pause}",
+  "FMsg/o_areanone_allmap_01_U#10": "{1:align}{2:align}{3:mode}꺼억 케이프의 동굴",
+  "FMsg/o_areanone_allmap_01_U#11": "{1:align}{2:align}{3:mode}꺼억 케이프의 출구",
+  "FMsg/o_areanone_allmap_01_U#12": "{1:align}{2:align}{3:mode}이아파 비치",
+  "FMsg/o_areanone_allmap_01_U#13": "{1:align}{2:align}{3:mode}볼조개 숲",
+  "FMsg/o_areanone_allmap_01_U#14": "{1:align}{2:align}{3:mode}쿠파 성",
+  "FMsg/o_areanone_allmap_01_U#15": "{1:align}{2:align}{3:mode}지하 터널",
+  "FMsg/o_areanone_allmap_01_U#16": "{1:align}{2:align}{3:mode}초원과 레이크 사이"
+ },
+ "new_terms": [],
+ "notes": {
+  "FMsg/o_areanone_allmap_01_U#4": "DS283#27 문구 그대로. 3DX는 선택지 순서가 DS와 반대(やめない 먼저)라 3DX 순서를 따름",
+  "FMsg/o_areanone_allmap_01_U#5": "DS283#28 문구 그대로. 3DX 순서(かえる→そこでいい)에 맞춰 '바꿀래/갈래'로 배치",
+  "FMsg/o_areanone_allmap_01_U#6": "DS283#29·30(버튼 결정/버튼 취소) 용어를 따라 やめる=취소. 전각 콜론은 반각으로"
+ }
+}

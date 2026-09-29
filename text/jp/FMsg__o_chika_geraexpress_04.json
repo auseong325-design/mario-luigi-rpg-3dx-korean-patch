@@ -1,0 +1,54 @@
+{
+ "source": "Msg/JP_ja/FMsg.dat:o_chika_geraexpress_04",
+ "messages": [
+  {
+   "id": "FMsg/o_chika_geraexpress_04#0",
+   "label": "MES_EV_Chika_16_1_EVCH16_1_koopa_01",
+   "style": 9,
+   "attr": "00000000",
+   "jp": "[0009:0000:09 00][0005:0000:][0001:0004:][0001:0001:]ガハハハハ！[0002:0000:1E 00]"
+  },
+  {
+   "id": "FMsg/o_chika_geraexpress_04#1",
+   "label": "MES_EV_Chika_16_1_EVCH16_1_koopa_02",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]あいかわらず ワガハイは\n[Ruby 無敵;むてき]だな！！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_chika_geraexpress_04#2",
+   "label": "MES_EV_Chika_16_1_EVCH16_1_koopa_03",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:][0001:0001:]さて…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_chika_geraexpress_04#3",
+   "label": "MES_EV_Chika_16_1_EVCH16_1_koopa_04",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:][0001:0001:]なにを していたんだっけか…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_chika_geraexpress_04#4",
+   "label": "MES_EV_Chika_16_1_EVCH16_1_koopa_05",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]そうだ！\n[Color #2C64FF]スターワクチン[Color #373737][Color #373737]だ！！[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/o_chika_geraexpress_04#5",
+   "label": "MES_EV_Chika_16_1_EVCH16_1_koopa_06",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:][Ruby 城;しろ]にもどって\n[Ruby 金庫;きんこ]を [Ruby 確認;かくにん]せねば…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_chika_geraexpress_04#6",
+   "label": "MES_EV_Chika_16_1_EVCH16_1_koopa_ev",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:][0001:0001:][0005:0000:]あ。"
+  }
+ ]
+}

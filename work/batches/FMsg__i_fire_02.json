@@ -1,0 +1,255 @@
+{
+ "batch": "FMsg__i_fire_02",
+ "rooms": [
+  "i_fire_02"
+ ],
+ "ds_rooms": [
+  "039"
+ ],
+ "ds_reference": [
+  "DS039#0: 이 녀석은 볼조개 숲에서\n서식하는 몬스터야.[Next]얘도 쿠파가\n빨아들였나 봐…[Next]그런데 이렇게 커지다니…\n이상한 거라도 먹었나?",
+  "DS039#1: …그렇구나! 이 녀석이 여기에서\n화염 기둥을 막고 있어서 쿠파가\n화염을 사용하지 못하나 봐!",
+  "DS039#2: 꺄아――――앗!!",
+  "DS039#3: 아야야야야…\n잠깐 방심하다가…",
+  "DS039#4: 너희들에게\n빚을 지고 말았구나.",
+  "DS039#5: 네가 어딘가에서 빨아들인\n몬스터 때문에 화염을\n쓸 수 없었던 거야!",
+  "DS039#6: 하지만 우리가\n쓰러뜨렸으니까 이제 안심해!",
+  "DS039#7: 사양할래!",
+  "DS039#8: 응? 이… 이름?",
+  "DS039#9: 음, 으~음 이름은\n으~음 그게…",
+  "DS039#10: 치피야!!",
+  "DS039#11: …내 이름이 뭐든\n지금은 상관없잖아!",
+  "DS039#12: 뭐? 그, 그런 말을\n했었다고?",
+  "DS039#13: 여기에는 피치공주가\n없는 것 같아…[Next]할 수 없지…\n당분간은 쿠파를\n지켜보기로 하자.[Next]몸 안에서 또 어떤\n변화가 일어날지 몰라."
+ ],
+ "glossary": [
+  {
+   "jp": "ほのお",
+   "ko": "화염",
+   "type": "ability",
+   "basis": "DS",
+   "source": "FEvent#01A.25",
+   "note": "쿠파의 필드 액션(아이콘명)·불 뿜기. 배틀 커맨드 ファイア는 '파이어' [gl_attacks]"
+  },
+  {
+   "jp": "クッパ",
+   "ko": "쿠파",
+   "type": "character",
+   "basis": "DS",
+   "source": "BData__mfset_Help#21",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "チッピー",
+   "ko": "치피",
+   "type": "character",
+   "basis": "DS",
+   "source": "i_fire_02#1 ↔ DS039#10",
+   "note": "room-align"
+  },
+  {
+   "jp": "ピーチ姫",
+   "ko": "피치공주",
+   "type": "character",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesOutline#13",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "エクボン",
+   "ko": "볼조개",
+   "type": "place",
+   "basis": "DS",
+   "source": "MData__mfset_MenuMes#17",
+   "note": "エクボンの森 약칭(エクボンパーツ=볼조개 피스) [gl_menu_places]"
+  },
+  {
+   "jp": "エクボンの森",
+   "ko": "볼조개 숲",
+   "type": "place",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesPlace#2",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "体内",
+   "ko": "몸속",
+   "type": "place",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesOutline#6",
+   "note": "[gl_menu_places]"
+  },
+  {
+   "jp": "モンスター",
+   "ko": "몬스터",
+   "type": "term",
+   "basis": "DS",
+   "source": "BAI__BMes_cf#2.1",
+   "note": "[gl_attacks]"
+  }
+ ],
+ "messages": [
+  {
+   "id": "FMsg/i_fire_02#0",
+   "label": "MES_KHatena_b_02_Khatena_b_02_mes_10",
+   "style": 6,
+   "src": "え え～と 名前は\nえ～と その…{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_fire_02#1",
+   "label": "MES_KHatena_b_02_Khatena_b_02_mes_11",
+   "style": 7,
+   "src": "{1:align}チッピーよ！！{2:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:07 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_fire_02#2",
+   "label": "MES_KHatena_b_02_Khatena_b_02_mes_12",
+   "style": 6,
+   "src": "…な 名前なんて\nこのさい 関係ないわ。{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_fire_02#3",
+   "label": "MES_KHatena_b_02_Khatena_b_02_mes_13",
+   "style": 6,
+   "src": "え？ そ そんなこと\n言ったかしら？{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_fire_02#4",
+   "label": "MES_KHatena_b_02_Khatena_b_02_mes_14",
+   "style": 6,
+   "src": "{1:align}ここには ピーチ姫は\nいないようね…{2:wait}[Next]しかたないわ…\nしばらく クッパの様子を\n見ていましょう。{3:wait}[Next]{4:align}体内でも またなにか\n変化が 起きるかもしれないわ。{5:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0001:]",
+    "4": "[0001:0004:]",
+    "5": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_fire_02#5",
+   "label": "MES_KHatena_b_02_Khatena_b_02_mes_1",
+   "style": 6,
+   "src": "これは エクボンの森に\nすみついている モンスターだわ。{1:wait}[Next]きっと こいつもクッパに\n吸い込まれたのね…{2:wait}[Next]でも こんなに 大きくなるなんて…\nへんなものでも 食べたのかしら？{3:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_fire_02#6",
+   "label": "MES_KHatena_b_02_Khatena_b_02_mes_2",
+   "style": 6,
+   "src": "…そうか こいつがここで\nほのおを ふさいでいるから\nクッパがほのおを はけないのね！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_fire_02#7",
+   "label": "MES_KHatena_b_02_Khatena_b_02_mes_3",
+   "style": 10,
+   "src": "{1:mode}キャーーーッ！！{2:pause}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[0002:0000:14 00]"
+   },
+   "header": "[0009:0000:0A 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_fire_02#8",
+   "label": "MES_KHatena_b_02_Khatena_b_02_mes_4",
+   "style": 6,
+   "src": "アイタタタタ…\nつい 油断しちゃったわ…{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_fire_02#9",
+   "label": "MES_KHatena_b_02_Khatena_b_02_mes_5",
+   "style": 6,
+   "src": "あなた達に かりが\nできちゃったわね。{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_fire_02#10",
+   "label": "MES_KHatena_b_02_Khatena_b_02_mes_6",
+   "style": 6,
+   "src": "あなたが どこかで吸い込んだ\nモンスターのせいで ほのおが\nはけなくなっていたのよ！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_fire_02#11",
+   "label": "MES_KHatena_b_02_Khatena_b_02_mes_7",
+   "style": 6,
+   "src": "でも 私達が\n倒したから もう安心よ！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_fire_02#12",
+   "label": "MES_KHatena_b_02_Khatena_b_02_mes_8",
+   "style": 6,
+   "src": "えんりょするわ！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_fire_02#13",
+   "label": "MES_KHatena_b_02_Khatena_b_02_mes_9",
+   "style": 6,
+   "src": "え… な 名前？{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  }
+ ]
+}

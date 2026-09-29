@@ -1,0 +1,19 @@
+{
+ "source": "Msg/JP_ja/FMsg.dat:i_energy_02",
+ "messages": [
+  {
+   "id": "FMsg/i_energy_02#0",
+   "label": "MES_KEnergy_02_Kene_02_hemo_mes",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]ヘモグロびん[Ruby 的;てき]な [Ruby 常識;じょうしき]としては\nなにもないように [Ruby 見;み]えても…[0002:0001:][Next][0001:0004:][Ruby 光;ひかり]を[Ruby 当;あ]てると その[Ruby 存在;そんざい]が\n[Ruby 浮;う]かび[Ruby 上;あ]がることが あるびん。[0002:0001:][Next][Ruby 逆;ぎゃく]に [Ruby 存在;そんざい]していても[Ruby 光;ひかり]を[Ruby 当;あ]てると\n[Ruby 見;み]えなくなることも あるびん。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_energy_02#1",
+   "label": "MES_SAVE_BLOCK_recovery",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0001:0001:][0005:0000:]HPとBPの[Ruby 回復;かいふく]も\n[Ruby 忘;わす]れないようにしましょう。[0002:0000:0A 00][0002:0001:]"
+  }
+ ]
+}

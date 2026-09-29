@@ -1,0 +1,29 @@
+{
+ "batch": "FMsg__o_test_ho_01",
+ "rooms": [
+  "o_test_ho_01"
+ ],
+ "ds_rooms": [],
+ "ds_reference": [],
+ "glossary": [],
+ "messages": [
+  {
+   "id": "FMsg/o_test_ho_01#0",
+   "label": "MES_work_ho_01",
+   "style": 8,
+   "src": "けんしゅう１",
+   "tags": {},
+   "header": "[0009:0000:08 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_test_ho_01#1",
+   "label": "MES_work_ho_02",
+   "style": 5,
+   "src": "けんしゅう２",
+   "tags": {},
+   "header": "[0009:0000:05 00]",
+   "dups": []
+  }
+ ]
+}

@@ -1,0 +1,2189 @@
+{
+ "batch": "FMsg__o_town_31__and1",
+ "rooms": [
+  "o_town_31",
+  "o_town_32"
+ ],
+ "ds_rooms": [
+  "128",
+  "129"
+ ],
+ "ds_reference": [
+  "DS128#0: 아! 마리오님!\n쇼핑몰에 오신 걸 환영해요![Next]새로 연 지 얼마 안 됐는데\n벌써 사람들이 많이 왔어요![Next]필요하시면 쇼핑몰에 대해\n설명해 드릴까요?\n예  아니요",
+  "DS128#1: 그럼 우선 장비를 살 수 있는\n가게를 알려 드릴게요.",
+  "DS128#2: 저기에 있는 작은 가게…",
+  "DS128#3: 저기에 있는 조금 큰 가게…",
+  "DS128#4: 저기에 있는 고급스러운 가게…",
+  "DS128#5: 저 3곳에서\n장비를 살 수 있어요.[Next]어떤 걸 파는지는\n직접 가서 확인해 보세요!",
+  "DS128#6: 다른 가게도\n설명해 드릴까요?\n예  아니요",
+  "DS128#7: 저기에 있는 가게가\n티 카페예요.[Next]요즘 인기 있는 건\n로열 버섯 티라더군요![Next]관심 있으시면\n한번 마셔 보세요.[Next]참고로 옆에 있는 토관은\n타운의 지하와 연결되어 있어요.",
+  "DS128#8: 오키노 선생님은 신기한 힘을\n갖고 있다고 소문이 자자해요.[Next]게다가 버섯 왕국에 대해선\n모르는 게 없다고 하더라고요…[Next]그러니까 어려운 일이 생기면\n오키노 선생님에게 가 보세요.[Next]제 설명은 끝났어요. 이제\n쇼핑몰을 직접 구경해 보세요.",
+  "DS128#9: 쇼핑몰에서 길을 잃었다면\n저에게 오세요.[Next]언제든지 설명해 드릴게요.",
+  "DS128#10: 쇼핑몰에 대해\n설명해 드릴까요?\n예  아니요",
+  "DS128#11: 오늘 쇼핑은\n정말 만족스러웠어요~[Next]게다가 마사지까지\n서비스로 받았지 뭐예요![Next]나 같은 최고 랭크의\n키노피오에게 딱 어울리는\n서비스라고 생각해요~",
+  "DS128#12: 여기에서 동쪽으로 가도\n쇼핑몰이 이어져 있어요.[Next]버섯 타운에서 나가시려면\n동쪽으로 더 많이 가면 되지만…[Next]지금은 공사 중이에요…\n무슨 공사가 그렇게 많은지…",
+  "DS128#13: 여기에서 동쪽으로 가도\n쇼핑몰이 이어져 있어요.[Next]버섯 타운에서 나가시려면\n동쪽으로 더 많이 가면 돼요.",
+  "DS128#14: 세상은 코인만으로는\n살아갈 수 없어![Next]코인 따위 없어도\n살아갈 수 있어!",
+  "DS128#15: 아! 마리오님!\n오키노 선생님은 만나 보셨나요?",
+  "DS128#16: 아! 마리오님!\n로열 버섯 티는\n마셔 보셨나요?",
+  "DS128#17: 아! 마리오님!\n배지 가게에는 가 보셨나요?",
+  "DS128#18: 아! 마리오님!\n아이템 가게에는 가 보셨나요?",
+  "DS128#19: 아! 마리오님!\n부티크 키노다에는\n가 보셨나요?",
+  "DS128#20: 마리오님! 장비는\n잘 착용하고 계신가요?[Next]랭크가 올라가면\n착용 가능한 수도 늘어난대요.[Next]아, 알고 계셨다고요?\n죄송합니다~",
+  "DS128#21: 흠~ 로열 버섯 티에\n시럽을 충분히 넣으면 단맛과\n버섯의 깊은 향이 어우러져서…[Next]마음이 안정돼요~ 하지만 그보다\n내 몸부터 안정시켜 주세요~!\n근육질 몸매를 돌려 달라고요~!",
+  "DS128#22: 입구까지 열심히\n굴러 왔건만…[Next]더 이상은\n갈 수가 없어…!",
+  "DS128#23: 비키라고요~?\n저도 그러고 싶어요~",
+  "DS128#24: 코인은 계획적으로\n사용해야 돼요![Next]장비를 샀더니\n아이템을 못 사고…[Next]배지를 샀더니\n아이템을 못 사는…[Next]그런 일이 일어나지 않도록\n현명하게 쇼핑하세요!",
+  "DS128#25: 어서 오세요, 마리오님!\n버섯 티 한잔으로\n기운을 회복하세요!![Next]필요 없어요\n버섯 티             5코인\n밀크 버섯 티         8코인\n로열 버섯 티        10코인",
+  "DS128#26: HP 모두 회복!!",
+  "DS128#27: SP 모두 회복!!",
+  "DS128#28: HP와 SP 모두 회복!!",
+  "DS128#29: 마리오님!\n코인이 부족하시네요…",
+  "DS128#30: 어서 오세요!\n마리오님! 루이지님![Next]여기는 티 카페입니다!",
+  "DS128#31: HP가 줄었네요![Next]그럴 땐\n버섯 티를 추천합니다!",
+  "DS128#32: SP가 줄었네요![Next]그럴 땐\n밀크 버섯 티가 어떨까요?",
+  "DS128#33: HP와 SP가 모두 줄어서\n힘이 없어 보이네요![Next]그럴 땐\n로열 버섯 티가 그만입니다!!",
+  "DS128#34: HP와 SP가 가득 차서\n아주 건강해 보이시네요![Next]다음에 혹시 기운이 없으실 땐\n꼭 우리 가게를 찾아 주세요!!",
+  "DS128#35: 나았어! 나았다고~!",
+  "DS128#36: 근육질 몸매로 돌아왔어!\n너무 기뻐~!",
+  "DS128#37: 에고~! 들켰다!\n마리오님은 역시 대단해요![Next]하지만 다음엔 못 찾을걸요~\n준비~ 시작~!!",
+  "DS128#38: 마리오님! 루이지님!\n쇼핑몰 새 단장을 기념하여\n재밌는 이벤트가 열리고 있어요![Next]어떤 이벤트인지 궁금하신가요?\n궁금해요  별로요",
+  "DS128#39: 버섯 볼을 찾아라!\n라고 하는 이벤트인데요…[Next]쇼핑몰 안에 숨어 있는\n버섯 볼을 찾아서\n제게 가지고 오는 이벤트입니다![Next]찾아 주시면 볼 안에 있는\n물건을 선물로 드릴게요![Next]무엇이 들어 있는지는\n열기 전까지 아무도 모른답니다![Next]참고로 모든 버섯 볼은\n보이지 않는 곳에 숨겨져 있어요![Next]보이지 않는 블록…\n땅속… 벽 뒤…[Next]마리오님은 감이 좋으시니까\n수상쩍은 장소에 가면\n눈치를 챌지도 몰라요…[Next]땅속에 있는 건 파고 들어갈 수\n없다면 못 얻겠지만 말이에요.[Next]어쨌든 다양한 장소에\n많이 숨겨져 있으니까\n꼭 찾아 주세요![Next]아! 버섯 볼은\n총 16개입니다!",
+  "DS128#40: 어떠신가요, 마리오님?\n버섯 볼은 찾으셨나요?[Next]보이지 않는 블록…\n땅속… 벽 뒤…[Next]수상쩍은 장소에 가면\n분명히 눈치챌 수 있을 거예요.[Next]땅속에 있는 건 파고 들어갈 수\n없다면 못 얻겠지만 말이에요.[Next]아! 버섯 볼은\n총 16개입니다![Next]이제 개 남았네요!",
+  "DS128#41: 어떠신가요, 마리오님?\n버섯 볼은 찾으셨나요?[Next]보이지 않는 블록…\n땅속… 벽 뒤…[Next]수상쩍은 장소에 가면\n분명히 눈치챌 수 있을 거예요.[Next]땅속에 있는 건 파고 들어갈 수\n없다면 못 얻겠지만 말이에요.[Next]아! 버섯 볼은\n총 16개입니다![Next]이제 개 남았네요!",
+  "DS128#42: 아! 버섯 볼을\n개 갖고 계시군요![Next]그럼 바로 열어서\n내용물을 확인해 보죠!",
+  "DS128#43: 아! 버섯 볼을\n개 갖고 계시군요![Next]그럼 바로 열어서\n내용물을 확인해 보죠!",
+  "DS128#44: 자! 선물입니다!",
+  "DS128#45: 10코인을 획득했다!!",
+  "DS128#46: 슈퍼버섯 5개를 획득했다!!",
+  "DS128#47: 50코인을 획득했다!!",
+  "DS128#48: 슈퍼시럽 5개를 획득했다!!",
+  "DS128#49: 100코인을 획득했다!!",
+  "DS128#50: 슈퍼너트 5개를 획득했다!!",
+  "DS128#51: 300코인을 획득했다!!",
+  "DS128#52: 1UP버섯 5개를 획득했다!!",
+  "DS128#53: 500코인을 획득했다!!",
+  "DS128#54: 재도전시계를 획득했다!!",
+  "DS128#55: 1000코인을 획득했다!!",
+  "DS128#56: 하트콩 5개를 획득했다!!",
+  "DS128#57: 스페셜콩 5개를 획득했다!!",
+  "DS128#58: 파워콩 5개를 획득했다!!",
+  "DS128#59: 2000코인을 획득했다!!",
+  "DS128#60: 보물안경을 획득했다!!",
+  "DS128#61: 버섯 볼은\n아직도 남아 있습니다![Next]이제 개 남았네요!",
+  "DS128#62: 버섯 볼은\n아직도 남아 있습니다![Next]이제 개 남았네요!",
+  "DS128#63: 아직 개를\n갖고 계시군요!",
+  "DS128#64: 아직 개를\n갖고 계시군요!",
+  "DS128#65: 우와! 역시 마리오님은 달라!\n이번 이벤트의 최고 상품입니다![Next]축하드립니다!",
+  "DS128#66: 이벤트를 마치겠습니다![Next]마리오님 덕분에\n즐거운 시간을 보냈습니다!",
+  "DS128#67: 버섯 볼을 획득했다!!",
+  "DS128#68: 트",
+  "DS128#69: 다음엔 분명히 더 좋은\n물건이 들어 있을 겁니다!",
+  "DS128#70: 아직 최고 상품은\n나오지 않았습니다!",
+  "DS128#71: 어떠신가요? 마리오님이니까\n쉽게 찾을 수 있지 않을까요…?",
+  "DS128#72: 보이지 않는 블록은\n루이지님도 두드릴 수 있습니다!",
+  "DS128#73: 볼은 오른쪽 구역에도\n숨겨져 있습니다!",
+  "DS128#74: 가게 주변이…\n수상하진… 않으신가요?",
+  "DS128#75: 열심히 찾아 주세요!",
+  "DS128#76: 마구잡이로 점프해 보는 것도…\n나쁘진 않겠네요!",
+  "DS128#77: 많이 찾으셨네요!\n앞으로도 힘내세요!!",
+  "DS128#78: 잘하고 계십니다!\n앞으로도 힘내세요!!",
+  "DS129#0: 그 길 동쪽으로 쭉 가다 보면\n작은 가게가 있는데…[Next]그곳에서는 배지를\n팔고 있어요.[Next]근데 가게 주인이 깐깐해서…[Next]자기 마음에 드는 것만\n들여다 놓고 판대요.",
+  "DS129#1: 그 옆에 있는 가게는\n아이템 가게예요.[Next]버섯이나 시럽 등을\n구입하려면 저기로 가세요.",
+  "DS129#2: 여긴 오키노 선생님의 병원이에요.\n병에 걸린 사람이나 다친 사람이\n이곳에 와서 치료를 받죠.",
+  "DS129#3: 우리 남편은 말이에요~\n스크래치 카드에 빠져서…[Next]당첨만 되면\n돈을 돌려받는다고…[Next]쓸데없는 것까지 사고 있네요…\n기가 막히죠~",
+  "DS129#4: 어이! 나가!\n나가라구~ 젠장~!",
+  "DS129#5: 우리 가게의 배지는\n장난감이 아니야![Next]애는 애답게\n숨바꼭질이나 하고 놀아!",
+  "DS129#6: 요즘 버섯 왕국에서는\n다이어트가 한창 붐이에요.[Next]여러 장소에 다이어트 용품이\n있는데 혹시 못 보셨나요?",
+  "DS129#7: 병원은 이 위에 있는데… 몸이\n이래서 계단을 못 오르겠어요~",
+  "DS129#8: 아래로 굴러 버릴 것 같아서\n너~~~무 무서워요~!",
+  "DS129#9: 여기가 어디지~?\n구르다 보니 위치를 모르겠어~",
+  "DS129#10: 아~ 마리오님!\n뚱뚱데굴병이 나았다면서요~?[Next]저요? 전 원래부터\n이런 몸이에요~",
+  "DS129#11: 아빠랑 엄마랑 만날\n쇼핑만 해서 너무 심심해요~[Next]마리오님! 숨바꼭질 안 할래요?\n숨바꼭질하자!  다음에 하자",
+  "DS129#12: 야호! 그럼 마리오님이\n술래예요![Next]이 쇼핑몰 안에서만\n숨을게요.[Next]준비~ 시작~!!",
+  "DS129#13: 에고~! 들켰다!\n마리오님은 역시 대단해요![Next]하지만 다음엔 못 찾을걸요~\n준비~ 시작~!!",
+  "DS129#14: 우와~! 같은 곳에 숨으면\n절대로 모를 줄 알았는데~![Next]아~ 재밌었어요!\n고마워요, 마리오님![Next]이걸 선물로 드릴게요!\n내가 좋아하는 거예요!",
+  "DS129#15: 작은방패를 획득했다!",
+  "DS129#16: 다음에 또 놀아요! 마리오님!",
+  "DS129#17: 어? 이 토관…\n쿠파의 몸속에 있던 것과 똑같아![Next]우린 정말 운이 좋은가 봐!!",
+  "DS129#18: 쿠파는 볼조개 숲으로\n갈 건가 봐…[Next]스타 백신을 가진 현인이\n자기 몸속에 있는 줄도 모르고…",
+  "DS129#19: 자, 들어가자!!",
+  "DS129#20: 오키노 선생니――임!!",
+  "DS129#21: 아! 마리오님!\n빅 뉴스예요!![Next]뚱뚱데굴병이 순식간에\n다 나아 버렸어요!!",
+  "DS129#22: 알고 계셨어요?\n오키노 선생님은 역시 대단해요![Next]어쨌든 버섯 타운에\n다시 평화가 찾아왔네요![Next]앞으로는 쇼핑몰도\n더 북적이게 될 거예요!",
+  "DS129#23: 아직 가 보지 않은 가게가 있다면\n들러 주세요![Next]그럼 전 들어가 볼게요!",
+  "DS129#24: 일단 뚱뚱데굴병\n문제는 해결이야![Next]앞으론 피치공주를\n찾는 일만 남았어…",
+  "DS129#25: 미라클 백신으로 피치 성 앞을\n가로막은 방어벽을 부수자!!",
+  "DS129#26: 버섯 볼을 획득했다!!",
+  "DS129#27: 닥터 오키노 병원"
+ ],
+ "glossary": [
+  {
+   "jp": "ジャンプ",
+   "ko": "점프",
+   "type": "ability",
+   "basis": "DS",
+   "source": "BData__mfset_Help#9",
+   "note": "필드 액션·배틀 커맨드 공통 [gl_attacks]"
+  },
+  {
+   "jp": "シールドバッジ",
+   "ko": "실드배지",
+   "type": "badge",
+   "basis": "coined",
+   "source": "Item:N_Badge05",
+   "note": "3DX 신규(적의 공격 방어). シールド=실드 [gl_items]"
+  },
+  {
+   "jp": "Dr.コキノ",
+   "ko": "오키노 선생",
+   "type": "character",
+   "basis": "DS",
+   "source": "DS 대사 '오키노 선생(님)' 22회",
+   "note": "병원 이름은 '닥터 오키노 병원'(DS)"
+  },
+  {
+   "jp": "キノピオ",
+   "ko": "키노피오",
+   "type": "character",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesPlace#20",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "クッパ",
+   "ko": "쿠파",
+   "type": "character",
+   "basis": "DS",
+   "source": "BData__mfset_Help#21",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "コキノ先生",
+   "ko": "오키노 선생님",
+   "type": "character",
+   "basis": "DS",
+   "source": "o_town_20#11 ↔ DS0CC#8",
+   "note": "room-align"
+  },
+  {
+   "jp": "ピーチ姫",
+   "ko": "피치공주",
+   "type": "character",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesOutline#13",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "マリオ",
+   "ko": "마리오",
+   "type": "character",
+   "basis": "DS",
+   "source": "BData__mfset_Help#19",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "ルイージ",
+   "ko": "루이지",
+   "type": "character",
+   "basis": "DS",
+   "source": "BData__mfset_Help#20",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "ロイ",
+   "ko": "로이",
+   "type": "character",
+   "basis": "official",
+   "source": "https://www.nintendo.com/kr/switch/aabpa/sp/character/",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "オタカラメガネ",
+   "ko": "보물안경",
+   "type": "gear",
+   "basis": "DS",
+   "source": "BData__mfset_WearN#231",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "スモールシェル",
+   "ko": "작은방패",
+   "type": "gear",
+   "basis": "DS",
+   "source": "BData__mfset_WearN#201",
+   "note": "DS 일본판도 スモールシェル, DS 한국판은 '방패'로 옮김. 3DX 설명의 貝殻(조개껍데기)도 방패로 맞출 것 [gl_items]"
+  },
+  {
+   "jp": "キノコ",
+   "ko": "버섯",
+   "type": "item",
+   "basis": "DS",
+   "source": "BData__mfset_UItmN#0",
+   "note": "일반 명사 キノコ도 버섯(キノコタウン=버섯 타운) [gl_items]"
+  },
+  {
+   "jp": "キノコティー",
+   "ko": "버섯 티",
+   "type": "item",
+   "basis": "DS",
+   "source": "o_peach_g_04#0 ↔ DS1AA#25",
+   "note": "room-align"
+  },
+  {
+   "jp": "シロップ",
+   "ko": "시럽",
+   "type": "item",
+   "basis": "DS",
+   "source": "BData__mfset_UItmN#18",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "ジェントルマメ",
+   "ko": "젠틀콩",
+   "type": "item",
+   "basis": "coined",
+   "source": "Item:N_LuckyMame",
+   "note": "3DX 신규(최대 HIGE 또는 TSUNO +1). ジェントル(신사=콧수염) 음차 유지, DS 콩 짜임 [gl_items]"
+  },
+  {
+   "jp": "スピードマメ",
+   "ko": "스피드콩",
+   "type": "item",
+   "basis": "coined",
+   "source": "Item:N_SpeedMame",
+   "note": "3DX 신규. DS 콩 짜임 [gl_items]"
+  },
+  {
+   "jp": "スペシャルマメ",
+   "ko": "스페셜콩",
+   "type": "item",
+   "basis": "DS",
+   "source": "BData__mfset_UItmN#51",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "スーパーキノコ",
+   "ko": "슈퍼버섯",
+   "type": "item",
+   "basis": "DS",
+   "source": "BData__mfset_UItmN#3",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "スーパーシロップ",
+   "ko": "슈퍼시럽",
+   "type": "item",
+   "basis": "DS",
+   "source": "BData__mfset_UItmN#21",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "スーパーナッツ",
+   "ko": "슈퍼너트",
+   "type": "item",
+   "basis": "DS",
+   "source": "BData__mfset_UItmN#39",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "ディフェンスマメ",
+   "ko": "디펜스콩",
+   "type": "item",
+   "basis": "coined",
+   "source": "Item:N_DefMame",
+   "note": "3DX 신규. DS 콩은 하트/스페셜/파워콩 3종뿐(UItmN#48-56)이라 같은 짜임(음차+콩) [gl_items]"
+  },
+  {
+   "jp": "ナッツ",
+   "ko": "너트",
+   "type": "item",
+   "basis": "DS",
+   "source": "BData__mfset_UItmN#36",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "ハートマメ",
+   "ko": "하트콩",
+   "type": "item",
+   "basis": "DS",
+   "source": "BData__mfset_UItmN#48",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "パワーマメ",
+   "ko": "파워콩",
+   "type": "item",
+   "basis": "DS",
+   "source": "BData__mfset_UItmN#54",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "ボーナスカード",
+   "ko": "보너스 카드",
+   "type": "item",
+   "basis": "coined",
+   "source": "3DX 개명(DS 스크래치 카드와 방식이 다름)",
+   "note": "3DX에서 이름·방식이 바뀌어 3DX 이름을 따름"
+  },
+  {
+   "jp": "ミルクキノコティー",
+   "ko": "밀크 버섯 티",
+   "type": "item",
+   "basis": "DS",
+   "source": "o_town_31#18 ↔ DS128#25",
+   "note": "room-align"
+  },
+  {
+   "jp": "ロイヤルキノコティー",
+   "ko": "로열 버섯 티",
+   "type": "item",
+   "basis": "DS",
+   "source": "o_town_31#3 ↔ DS128#7",
+   "note": "room-align"
+  },
+  {
+   "jp": "１UPキノコ",
+   "ko": "1UP버섯",
+   "type": "item",
+   "basis": "DS",
+   "source": "BData__mfset_UItmN#12",
+   "note": "3DX는 전각 １ [gl_items]"
+  },
+  {
+   "jp": "キノコボール",
+   "ko": "버섯 볼",
+   "type": "key_item",
+   "basis": "DS",
+   "source": "MData__mfset_MenuMes#65",
+   "note": "DS 띄어쓰기 그대로. 설명의 キノコボールおじさん=버섯 볼 아저씨(MenuMes#66) [gl_items]"
+  },
+  {
+   "jp": "スターワクチン",
+   "ko": "스타 백신",
+   "type": "key_item",
+   "basis": "DS",
+   "source": "MData__mfset_MenuMes#58",
+   "note": "DS '3개의 스타 백신을 합성해서' [gl_items]"
+  },
+  {
+   "jp": "ミラクルワクチン",
+   "ko": "미라클 백신",
+   "type": "key_item",
+   "basis": "DS",
+   "source": "MData__mfset_MenuMes#57",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "ワクチン",
+   "ko": "백신",
+   "type": "key_item",
+   "basis": "DS",
+   "source": "MData__mfset_MenuMes#52",
+   "note": "[gl_menu_places]"
+  },
+  {
+   "jp": "マッサージ",
+   "ko": "마사지",
+   "type": "other",
+   "basis": "DS",
+   "source": "BData__mfset_MiniGame#7",
+   "note": "블로즈 미니 게임. DS 이름은 '블로즈 마사지'(MiniGame#10) [gl_attacks]"
+  },
+  {
+   "jp": "Dr.コキノのクリニック",
+   "ko": "닥터 오키노 병원",
+   "type": "place",
+   "basis": "DS",
+   "source": "o_town_32#4 ↔ DS129#27",
+   "note": "room-align"
+  },
+  {
+   "jp": "どかん",
+   "ko": "토관",
+   "type": "place",
+   "basis": "DS",
+   "source": "DS0EC#14",
+   "note": "どかんひろば=토관 광장 [gl_menu_places]"
+  },
+  {
+   "jp": "アイテム屋さん",
+   "ko": "아이템 가게",
+   "type": "place",
+   "basis": "DS",
+   "source": "o_town_31#9 ↔ DS128#18",
+   "note": "room-align"
+  },
+  {
+   "jp": "エクボン",
+   "ko": "볼조개",
+   "type": "place",
+   "basis": "DS",
+   "source": "MData__mfset_MenuMes#17",
+   "note": "エクボンの森 약칭(エクボンパーツ=볼조개 피스) [gl_menu_places]"
+  },
+  {
+   "jp": "エクボンの森",
+   "ko": "볼조개 숲",
+   "type": "place",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesPlace#2",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "キノコタウン",
+   "ko": "버섯 타운",
+   "type": "place",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesPlace#8",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "キノコ王国",
+   "ko": "버섯 왕국",
+   "type": "place",
+   "basis": "DS",
+   "source": "FEvent:011#0",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "クッパの体の中",
+   "ko": "쿠파의 몸속",
+   "type": "place",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesOutline#37",
+   "note": "[gl_menu_places]"
+  },
+  {
+   "jp": "クリニック",
+   "ko": "병원",
+   "type": "place",
+   "basis": "DS",
+   "source": "DS0CC#8",
+   "note": "コキノ先生のクリニック=오키노 선생님의 병원. クリニックパーツ=병원 피스 [gl_menu_places]"
+  },
+  {
+   "jp": "ショッピングモール",
+   "ko": "쇼핑몰",
+   "type": "place",
+   "basis": "DS",
+   "source": "DS0EC#3",
+   "note": "[gl_menu_places]"
+  },
+  {
+   "jp": "ティーカウンター",
+   "ko": "티 카페",
+   "type": "place",
+   "basis": "DS",
+   "source": "DS128#7",
+   "note": "[gl_menu_places]"
+  },
+  {
+   "jp": "バッジ屋",
+   "ko": "배지 가게",
+   "type": "place",
+   "basis": "DS",
+   "source": "DS12B#0",
+   "note": "[gl_menu_places]"
+  },
+  {
+   "jp": "バッジ屋さん",
+   "ko": "배지 가게",
+   "type": "place",
+   "basis": "DS",
+   "source": "o_town_31#7 ↔ DS128#17",
+   "note": "room-align"
+  },
+  {
+   "jp": "ピーチ城",
+   "ko": "피치 성",
+   "type": "place",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesPlace#1",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "ブティック キノダ",
+   "ko": "부티크 키노다",
+   "type": "place",
+   "basis": "DS",
+   "source": "DS0A3#0",
+   "note": "[gl_menu_places]"
+  },
+  {
+   "jp": "地下",
+   "ko": "지하",
+   "type": "place",
+   "basis": "DS",
+   "source": "DS093#0",
+   "note": "[gl_menu_places]"
+  },
+  {
+   "jp": "BP",
+   "ko": "SP",
+   "type": "term",
+   "basis": "DS",
+   "source": "BAI__BMes_cf#4.13",
+   "note": "3DX의 BP(브라더/보코스카 포인트)=DS의 SP. 3DX 화면 이미지(능력치·HUD)의 BP 표기와 맞출지 결정 필요 — 확인 필요. 후속작 공식은 'BP(브라더 포인트)' [gl_attacks]"
+  },
+  {
+   "jp": "HP",
+   "ko": "HP",
+   "type": "term",
+   "basis": "DS",
+   "source": "BAI__BMes_cf#2.11",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "お父さん",
+   "ko": "아빠",
+   "type": "term",
+   "basis": "coined",
+   "source": "FMsg/k_o_koopa_14#55",
+   "note": "쿠파주니어가 쿠파를 부르는 말(어린이 말투) [gl_kj]"
+  },
+  {
+   "jp": "カウンター",
+   "ko": "반격",
+   "type": "term",
+   "basis": "DS",
+   "source": "BAI__BMes_cf#2.1",
+   "note": "カウンターする→반격하다 [gl_attacks]"
+  },
+  {
+   "jp": "ガード",
+   "ko": "방어",
+   "type": "term",
+   "basis": "DS",
+   "source": "DS 대사 '방어' 34회, '가드' 0회",
+   "note": "'가드 성공' 등도 '방어'로"
+  },
+  {
+   "jp": "コイン",
+   "ko": "코인",
+   "type": "term",
+   "basis": "DS",
+   "source": "BData__mfset_WearE#22",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "タカ",
+   "ko": "매",
+   "type": "term",
+   "basis": "coined",
+   "source": "BMsg/b_sys#806",
+   "note": "진형 이름 [gl_kj]"
+  },
+  {
+   "jp": "バッジ",
+   "ko": "배지",
+   "type": "term",
+   "basis": "DS",
+   "source": "BData__mfset_BadgeN#0",
+   "note": "AGENTS.md 4.4 확정 표기 [gl_items]"
+  },
+  {
+   "jp": "バトル",
+   "ko": "배틀",
+   "type": "term",
+   "basis": "DS",
+   "source": "BAI__BMes_cf#2.13",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "マメ",
+   "ko": "콩",
+   "type": "term",
+   "basis": "DS",
+   "source": "MData__mfset_MenuMes#136",
+   "note": "DS '콩이라는 아이템', '획득한 콩의 수' [gl_items]"
+  },
+  {
+   "jp": "メガネ",
+   "ko": "안경",
+   "type": "term",
+   "basis": "DS",
+   "source": "BData__mfset_WearN#231",
+   "note": "DS オタカラメガネ=보물안경 [gl_items]"
+  },
+  {
+   "jp": "メタコロ",
+   "ko": "뚱뚱데굴",
+   "type": "term",
+   "basis": "coined",
+   "source": "FMsg/k_o_koopa_r_80#301",
+   "note": "DS 병명에서. 「メタコロクリボー」→'뚱뚱데굴 굼바' [gl_kj]"
+  },
+  {
+   "jp": "メタコロ病",
+   "ko": "뚱뚱데굴병",
+   "type": "term",
+   "basis": "DS",
+   "source": "FEvent:09B#0",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "ランク",
+   "ko": "랭크",
+   "type": "term",
+   "basis": "DS",
+   "source": "MData__mfset_MenuMes#116",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "賢者",
+   "ko": "현인",
+   "type": "term",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesOutline#27",
+   "note": "[gl_menu_places]"
+  },
+  {
+   "jp": "お気に入り",
+   "ko": "즐겨찾기",
+   "type": "ui",
+   "basis": "coined",
+   "source": "BMsg/b_sys:KJGuide_O09",
+   "note": "「お気に入り（★）」→'즐겨찾기(★)' [gl_kj]"
+  },
+  {
+   "jp": "そうび",
+   "ko": "장비",
+   "type": "ui",
+   "basis": "DS",
+   "source": "MData__mfset_MenuMes#1",
+   "note": "명사(스타 메뉴 항목·장비품). 동사 そうびする는 '착용하다'(ShopMes#14) [gl_menu_places]"
+  },
+  {
+   "jp": "そうび品",
+   "ko": "장비",
+   "type": "ui",
+   "basis": "DS",
+   "source": "MData__mfset_MenuMes#1",
+   "note": "동사 そうびする는 '착용하다'(ShopMes#14) [gl_menu_places]"
+  },
+  {
+   "jp": "を手に入れた！",
+   "ko": "획득했다!",
+   "type": "ui",
+   "basis": "DS",
+   "source": "BAI__BMes_ji#1.0",
+   "note": "시스템 알림 '○○을/를 획득했다!'(조사는 받침에 맞게) [gl_menu_places]"
+  },
+  {
+   "jp": "アイテム",
+   "ko": "아이템",
+   "type": "ui",
+   "basis": "DS",
+   "source": "BData__mfset_Help#13",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "アタリ",
+   "ko": "당첨",
+   "type": "ui",
+   "basis": "DS",
+   "source": "SAI__SMes_yo#0.72",
+   "note": "[gl_menu_places]"
+  },
+  {
+   "jp": "ショッピング",
+   "ko": "쇼핑",
+   "type": "ui",
+   "basis": "DS",
+   "source": "SAI__SMes_yo#0.48",
+   "note": "[gl_menu_places]"
+  },
+  {
+   "jp": "組み合わせ",
+   "ko": "조합",
+   "type": "ui",
+   "basis": "DS",
+   "source": "MAI__MMes_yo#0.8",
+   "note": "배지의 조합 [gl_menu_places]"
+  }
+ ],
+ "messages": [
+  {
+   "id": "FMsg/o_town_31#0",
+   "label": "MES_TKinoko_31_Kinoko_street_05",
+   "style": 6,
+   "src": "あそこにある 高級そうなお店…{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_31#1",
+   "label": "MES_TKinoko_31_Kinoko_street_06",
+   "style": 6,
+   "src": "この３つのお店で\n{1:color}そうび品{2:color}{3:color}が 買えますよ。{4:wait}[Next]どんなものが 買えるかは\n行ってからの お楽しみです！{5:wait}{6:color}",
+   "tags": {
+    "1": "[Color #2C64FF]",
+    "2": "[Color #373737]",
+    "3": "[Color #373737]",
+    "4": "[0002:0001:]",
+    "5": "[0002:0001:]",
+    "6": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_31#2",
+   "label": "MES_TKinoko_31_Kinoko_street_07",
+   "style": 6,
+   "src": "では 他の場所も\n説明しますね。{1:pause}\n{2:align}{3:color}{4:indent}{5:color}{6:choice}いいえ{7:tab}{8:choice}はい{9:pause}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0001:0001:]",
+    "3": "[Color #373737]",
+    "4": "[0006:0001:14 00]",
+    "5": "[Color #373737]",
+    "6": "[0004:0001:]",
+    "7": "[0006:0000:28 00]",
+    "8": "[0004:0001:]",
+    "9": "[0002:0000:0A 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_31#3",
+   "label": "MES_TKinoko_31_Kinoko_street_08",
+   "style": 6,
+   "src": "あそこにあるのが\nティーカウンターです。{1:wait}[Next]今 人気なのが\nロイヤルキノコティー！{2:wait}[Next]１度 ためしてみては\nどうですか？{3:wait}[Next]ちなみに 横のどかんからは\nタウンの地下に 行けますよ。{4:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0001:]",
+    "4": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_31#4",
+   "label": "MES_TKinoko_31_Kinoko_meta_cure_31_2",
+   "style": 6,
+   "src": "スレンダーボディに もとどおり！\nうれしいな～！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_31#5",
+   "label": "MES_TKinoko_31_Kinoko_street_20",
+   "style": 6,
+   "src": "あ！{1:pause} マリオさん！\nロイヤルキノコティーは\nもう飲みましたか？{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_31#6",
+   "label": "MES_TKinoko_31_Kinoko_street_sp_10",
+   "style": 12,
+   "src": "{1:mode}コイン{2:color}２００{3:color}まい{4:color}を手に入れた！！{5:pause}{6:wait}{7:color}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[Color #4ED4FF]",
+    "3": "[Color #E6E6E6]",
+    "4": "[Color #373737]",
+    "5": "[0002:0000:1E 00]",
+    "6": "[0002:0001:]",
+    "7": "[Color #E6E6E6]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_31#7",
+   "label": "MES_TKinoko_31_Kinoko_street_21",
+   "style": 6,
+   "src": "あ！{1:pause} マリオさん！\nバッジ屋さんには 行きましたか？{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_31#8",
+   "label": "MES_TKinoko_31_Kinoko_street_sp_11",
+   "style": 12,
+   "src": "{1:mode}スーパーナッツ{2:color}５{3:color}個{4:color}を手に入れた！！{5:pause}{6:wait}{7:color}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[Color #4ED4FF]",
+    "3": "[Color #E6E6E6]",
+    "4": "[Color #373737]",
+    "5": "[0002:0000:1E 00]",
+    "6": "[0002:0001:]",
+    "7": "[Color #E6E6E6]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_31#9",
+   "label": "MES_TKinoko_31_Kinoko_street_22",
+   "style": 6,
+   "src": "あ！{1:pause} マリオさん！\nアイテム屋さんには 行きましたか？{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_31#10",
+   "label": "MES_TKinoko_31_Kinoko_street_sp_12",
+   "style": 12,
+   "src": "{1:mode}コイン{2:color}３００{3:color}まい{4:color}を手に入れた！！{5:pause}{6:wait}{7:color}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[Color #4ED4FF]",
+    "3": "[Color #E6E6E6]",
+    "4": "[Color #373737]",
+    "5": "[0002:0000:1E 00]",
+    "6": "[0002:0001:]",
+    "7": "[Color #E6E6E6]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_31#11",
+   "label": "MES_TKinoko_31_Kinoko_street_23",
+   "style": 6,
+   "src": "あ！{1:pause} マリオさん！\nブティック キノダには\n行きましたか？{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_31#12",
+   "label": "MES_TKinoko_31_Kinoko_street_sp_13",
+   "style": 12,
+   "src": "{1:mode}１UPキノコ{2:color}５{3:color}個{4:color}を手に入れた！！{5:pause}{6:wait}{7:color}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[Color #4ED4FF]",
+    "3": "[Color #E6E6E6]",
+    "4": "[Color #373737]",
+    "5": "[0002:0000:1E 00]",
+    "6": "[0002:0001:]",
+    "7": "[Color #E6E6E6]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_31#13",
+   "label": "MES_TKinoko_31_Kinoko_street_24",
+   "style": 6,
+   "src": "マリオさん！{1:pause} そうび品は\nちゃんと つけていますか？{2:wait}[Next]そうび品を 上手に\n組み合わせて つければ…{3:wait}[Next]バトルを有利に\n進められますよ！{4:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0001:]",
+    "4": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_31#14",
+   "label": "MES_TKinoko_31_Kinoko_street_sp_14",
+   "style": 12,
+   "src": "{1:mode}コイン{2:color}５００{3:color}まい{4:color}を手に入れた！！{5:pause}{6:wait}{7:color}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[Color #4ED4FF]",
+    "3": "[Color #E6E6E6]",
+    "4": "[Color #373737]",
+    "5": "[0002:0000:1E 00]",
+    "6": "[0002:0001:]",
+    "7": "[Color #E6E6E6]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_31#15",
+   "label": "MES_TKinoko_31_Kinoko_street_sp_15",
+   "style": 12,
+   "src": "{1:mode}{2:color}シールドバッジ{3:color}{4:color}を手に入れた！！{5:pause}{6:wait}{7:color}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[Color #4ED4FF]",
+    "3": "[Color #E6E6E6]",
+    "4": "[Color #373737]",
+    "5": "[0002:0000:1E 00]",
+    "6": "[0002:0001:]",
+    "7": "[Color #E6E6E6]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_31#16",
+   "label": "MES_TKinoko_31_Kinoko_street_26",
+   "style": 6,
+   "src": "うーん ロイヤルキノコティーの\nシロップたっぷりな 甘みと\nキノコの風味が 合わさって…{1:wait}[Next]こころが いやされますよ～\n{2:pause}って 体もいやしてほしい～！{3:pause}\nボクの スレンダーボディ返せ～！{4:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0000:0A 00]",
+    "3": "[0002:0000:0A 00]",
+    "4": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_31#17",
+   "label": "MES_TKinoko_31_Kinoko_street_sp_16",
+   "style": 6,
+   "src": "{1:color}キノコボール{2:color}は\nまだ かくされていますよ！{3:wait}[Next]{4:align}あと {5:color}{6:var}{7:color}{8:color}個ありますね！{9:wait}{10:color}",
+   "tags": {
+    "1": "[Color #2C64FF]",
+    "2": "[Color #373737]",
+    "3": "[0002:0001:]",
+    "4": "[0001:0004:]",
+    "5": "[Color #2C64FF]",
+    "6": "[0003:0000:00 00 02 00 01 00]",
+    "7": "[Color #373737]",
+    "8": "[Color #373737]",
+    "9": "[0002:0001:]",
+    "10": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/o_town_31#32"
+   ]
+  },
+  {
+   "id": "FMsg/o_town_31#18",
+   "label": "MES_TKinoko_31_Kinoko_street_27",
+   "style": 6,
+   "src": "{1:align}マリオさん！\nちょっと 一息ついて\n元気に なってくださいな！！{2:wait}[Next]{3:choice}{4:indent}いらない\n{5:choice}{6:indent}キノコティー{7:tab}{8:color}５{9:color}コイン\n{10:choice}{11:indent}ミルクキノコティー{12:tab}{13:color}８{14:color}コイン\n{15:choice}{16:indent}ロイヤルキノコティー {17:color}１０{18:color}コイン{19:pause}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]",
+    "3": "[0004:0001:]",
+    "4": "[0006:0001:14 00]",
+    "5": "[0004:0001:]",
+    "6": "[0006:0001:14 00]",
+    "7": "[0006:0000:55 00]",
+    "8": "[Color #2C64FF]",
+    "9": "[Color #373737]",
+    "10": "[0004:0001:]",
+    "11": "[0006:0001:14 00]",
+    "12": "[0006:0000:25 00]",
+    "13": "[Color #2C64FF]",
+    "14": "[Color #373737]",
+    "15": "[0004:0001:]",
+    "16": "[0006:0001:14 00]",
+    "17": "[Color #2C64FF]",
+    "18": "[Color #373737]",
+    "19": "[0002:0000:0A 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_31#19",
+   "label": "MES_TKinoko_31_Kinoko_street_sp_15_a",
+   "style": 12,
+   "src": "{1:mode}コイン{2:color}１０００{3:color}まい{4:color}を手に入れた！！{5:pause}{6:wait}{7:color}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[Color #4ED4FF]",
+    "3": "[Color #E6E6E6]",
+    "4": "[Color #373737]",
+    "5": "[0002:0000:1E 00]",
+    "6": "[0002:0001:]",
+    "7": "[Color #E6E6E6]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_31#20",
+   "label": "MES_TKinoko_31_Kinoko_street_sp_17",
+   "style": 6,
+   "src": "うわー！ さすがマリオさん！{1:pause}\nこれが このイベントの目玉！{2:wait}[Next]{3:align}{4:align}おめでとうございます！{5:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]",
+    "3": "[0001:0004:]",
+    "4": "[0001:0001:]",
+    "5": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_31#21",
+   "label": "MES_TKinoko_31_Kinoko_street_sp_15_b",
+   "style": 12,
+   "src": "{1:mode}ハートマメ{2:color}５{3:color}個{4:color}を手に入れた！！\n{5:mode}ディフェンスマメ{6:color}５{7:color}個を手に入れた！！{8:pause}{9:wait}{10:color}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[Color #4ED4FF]",
+    "3": "[Color #E6E6E6]",
+    "4": "[Color #373737]",
+    "5": "[0005:0000:]",
+    "6": "[Color #4ED4FF]",
+    "7": "[Color #373737]",
+    "8": "[0002:0000:1E 00]",
+    "9": "[0002:0001:]",
+    "10": "[Color #E6E6E6]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_31#22",
+   "label": "MES_TKinoko_31_Kinoko_street_sp_18",
+   "style": 6,
+   "src": "{1:align}{2:align}イベントは終了です！{3:wait}[Next]{4:align}マリオさんの おかげで\nとても もり上がりました！{5:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0001:]",
+    "4": "[0001:0000:]",
+    "5": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_31#23",
+   "label": "MES_TKinoko_31_Kinoko_street_sp_15_c",
+   "style": 12,
+   "src": "{1:mode}スペシャルマメ{2:color}５{3:color}個{4:color}を手に入れた！！\n{5:mode}ジェントルマメ{6:color}５{7:color}個を手に入れた！！{8:pause}{9:wait}{10:color}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[Color #4ED4FF]",
+    "3": "[Color #E6E6E6]",
+    "4": "[Color #373737]",
+    "5": "[0005:0000:]",
+    "6": "[Color #4ED4FF]",
+    "7": "[Color #373737]",
+    "8": "[0002:0000:1E 00]",
+    "9": "[0002:0001:]",
+    "10": "[Color #E6E6E6]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_31#24",
+   "label": "MES_TKinoko_31_Kinoko_street_sp_19",
+   "style": 6,
+   "src": "あ！ {1:color}キノコボール{2:color}！{3:pause}\n{4:var}個 持ってるんですね！{5:wait}[Next]では さっそく\n開けて 中身を見てみましょう！{6:wait}",
+   "tags": {
+    "1": "[Color #2C64FF]",
+    "2": "[Color #373737]",
+    "3": "[0002:0000:0A 00]",
+    "4": "[0003:0000:00 00 02 00 00 00]",
+    "5": "[0002:0001:]",
+    "6": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/o_town_31#40",
+    "FMsg/o_town_31#70"
+   ]
+  },
+  {
+   "id": "FMsg/o_town_31#25",
+   "label": "MES_TKinoko_31_Kinoko_street_sp_15_d",
+   "style": 12,
+   "src": "{1:mode}パワーマメ{2:color}５{3:color}個{4:color}を手に入れた！！\n{5:mode}スピードマメ{6:color}５{7:color}個を手に入れた！！{8:pause}{9:wait}{10:color}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[Color #4ED4FF]",
+    "3": "[Color #E6E6E6]",
+    "4": "[Color #373737]",
+    "5": "[0005:0000:]",
+    "6": "[Color #4ED4FF]",
+    "7": "[Color #373737]",
+    "8": "[0002:0000:1E 00]",
+    "9": "[0002:0001:]",
+    "10": "[Color #E6E6E6]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_31#26",
+   "label": "MES_TKinoko_31_Kinoko_street_sp_15_e",
+   "style": 12,
+   "src": "{1:mode}コイン{2:color}２０００{3:color}まい{4:color}を手に入れた！！{5:pause}{6:wait}{7:color}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[Color #4ED4FF]",
+    "3": "[Color #E6E6E6]",
+    "4": "[Color #373737]",
+    "5": "[0002:0000:1E 00]",
+    "6": "[0002:0001:]",
+    "7": "[Color #E6E6E6]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_31#27",
+   "label": "MES_TKinoko_31_Kinoko_street_sp_15_f",
+   "style": 12,
+   "src": "{1:mode}{2:color}オタカラメガネ{3:color}{4:color}を手に入れた！！{5:pause}{6:wait}{7:color}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[Color #4ED4FF]",
+    "3": "[Color #E6E6E6]",
+    "4": "[Color #373737]",
+    "5": "[0002:0000:1E 00]",
+    "6": "[0002:0001:]",
+    "7": "[Color #E6E6E6]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_31#28",
+   "label": "MES_TKinoko_31_Kinoko_street_40",
+   "style": 6,
+   "src": "うわ～！{1:pause} 見つかっちゃった！\nさすが マリオさん！{2:wait}[Next]次は 見つからないよ～\nよーい{3:pause} はじめ～！！{4:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0000:0B 00]",
+    "4": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/o_town_32#9",
+    "FMsg/o_town_38#0",
+    "FMsg/o_town_40#7"
+   ]
+  },
+  {
+   "id": "FMsg/o_town_31#29",
+   "label": "MES_TKinoko_31_Kinoko_street_26_2",
+   "style": 6,
+   "src": "入り口まで がんばって\nころがって きたけど…{1:wait}[Next]もうダメだ！\nこれ以上 動けない～！{2:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_31#30",
+   "label": "MES_TKinoko_31_Kinoko_street_26_3",
+   "style": 6,
+   "src": "ジャマですか～？\nでも 動けないんです～{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_31#31",
+   "label": "MES_TKinoko_31_Kinoko_street_sp_03_pl",
+   "style": 6,
+   "src": "どうですか？ マリオさん。\n{1:color}キノコボール{2:color} 見つかりました？{3:wait}[Next]見えないブロック…\n地面の中… かべの裏…{4:wait}[Next]あやしい場所に 行けば\nきっと 気づくはずですよ。{5:wait}[Next]地面の中のは {6:color}もぐれる{7:color}{8:color}ように\nならないと 取れませんけどね。{9:wait}[Next]{10:align}あ！ {11:color}{12:color}キノコボール{13:color}{14:color}は全部で\n{15:color}{16:color}１６{17:color}{18:color}個 ありますよ！{19:wait}[Next]{20:align}あと {21:color}{22:color}{23:var}{24:color}{25:color}個ありますね！{26:wait}{27:color}",
+   "tags": {
+    "1": "[Color #2C64FF]",
+    "2": "[Color #373737]",
+    "3": "[0002:0001:]",
+    "4": "[0002:0001:]",
+    "5": "[0002:0001:]",
+    "6": "[Color #2C64FF]",
+    "7": "[Color #373737]",
+    "8": "[Color #373737]",
+    "9": "[0002:0001:]",
+    "10": "[0001:0004:]",
+    "11": "[Color #373737]",
+    "12": "[Color #2C64FF]",
+    "13": "[Color #373737]",
+    "14": "[Color #373737]",
+    "15": "[Color #373737]",
+    "16": "[Color #2C64FF]",
+    "17": "[Color #373737]",
+    "18": "[Color #373737]",
+    "19": "[0002:0001:]",
+    "20": "[0001:0004:]",
+    "21": "[Color #373737]",
+    "22": "[Color #2C64FF]",
+    "23": "[0003:0000:00 00 02 00 01 00]",
+    "24": "[Color #373737]",
+    "25": "[Color #373737]",
+    "26": "[0002:0001:]",
+    "27": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/o_town_31#38"
+   ]
+  },
+  {
+   "id": "FMsg/o_town_31#33",
+   "label": "MES_TKinoko_31_Kinoko_street_sp_01",
+   "style": 6,
+   "src": "マリオさん！ ルイージさん！{1:pause}\nショッピングモール完成記念の\n面白いイベントを やってるんです！{2:wait}[Next]{3:align}どんな イベントか聞きたいですか？{4:pause}\n{5:align}{6:choice}またこんど{7:tab}{8:choice}聞きたい{9:pause}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]",
+    "3": "[0001:0004:]",
+    "4": "[0002:0000:0A 00]",
+    "5": "[0001:0001:]",
+    "6": "[0004:0001:]",
+    "7": "[0006:0000:28 00]",
+    "8": "[0004:0001:]",
+    "9": "[0002:0000:0A 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_31#34",
+   "label": "MES_TKinoko_31_Kinoko_street_12",
+   "style": 6,
+   "src": "コキノ先生は ふしぎなチカラを\n持っているって ウワサですよ。{1:wait}[Next]なんでも キノコ王国のことで\nわからないことは ないんだとか…{2:wait}[Next]なにか こまったことがあったら\nコキノ先生に 聞くといいですよ。{3:wait}[Next]説明は以上です。いろいろと\n歩き回って 楽しんでくださいね。{4:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0001:]",
+    "4": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_31#35",
+   "label": "MES_TKinoko_31_Kinoko_street_sp_02",
+   "style": 6,
+   "src": "{1:align}{2:color}キノコボールを探せ！{3:color}{4:color}って\nイベントなんですけどね…{5:wait}[Next]ショッピングモールの中に\nかくれている {6:color}{7:color}キノコボール{8:color}{9:color}を\nボクのところに 持ってきてください！{10:wait}[Next]{11:align}ボールの中身を\nプレゼントしちゃいます！{12:wait}[Next]{13:align}なにが入っているかは\n開けてからの お楽しみです！{14:wait}[Next]{15:align}{16:color}{17:color}キノコボール{18:color}{19:color}は\n必ず {20:color}{21:color}見えない{22:color}{23:color}ところにありますよ！{24:wait}[Next]{25:align}見えないブロック…\n地面の中… かべの裏…{26:wait}[Next]カンのいい マリオさんなら\nあやしい場所に行くと\n気づいちゃうかも…{27:wait}[Next]{28:align}地面の中のは {29:color}{30:color}もぐれる{31:color}{32:color}ように\nならないと 取れませんけどね。{33:wait}[Next]とにかく いろんな場所に\nたくさん かくれていますから\nどんどん 探してくださいね！{34:wait}[Next]{35:align}あ！ {36:color}{37:color}キノコボール{38:color}{39:color}は全部で\n{40:color}{41:color}１６{42:color}{43:color}個 ありますよ！{44:wait}{45:color}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[Color #2C64FF]",
+    "3": "[Color #373737]",
+    "4": "[Color #373737]",
+    "5": "[0002:0001:]",
+    "6": "[Color #373737]",
+    "7": "[Color #2C64FF]",
+    "8": "[Color #373737]",
+    "9": "[Color #373737]",
+    "10": "[0002:0001:]",
+    "11": "[0001:0004:]",
+    "12": "[0002:0001:]",
+    "13": "[0001:0004:]",
+    "14": "[0002:0001:]",
+    "15": "[0001:0004:]",
+    "16": "[Color #373737]",
+    "17": "[Color #2C64FF]",
+    "18": "[Color #373737]",
+    "19": "[Color #373737]",
+    "20": "[Color #373737]",
+    "21": "[Color #2C64FF]",
+    "22": "[Color #373737]",
+    "23": "[Color #373737]",
+    "24": "[0002:0001:]",
+    "25": "[0001:0004:]",
+    "26": "[0002:0001:]",
+    "27": "[0002:0001:]",
+    "28": "[0001:0004:]",
+    "29": "[Color #373737]",
+    "30": "[Color #2C64FF]",
+    "31": "[Color #373737]",
+    "32": "[Color #373737]",
+    "33": "[0002:0001:]",
+    "34": "[0002:0001:]",
+    "35": "[0001:0004:]",
+    "36": "[Color #373737]",
+    "37": "[Color #2C64FF]",
+    "38": "[Color #373737]",
+    "39": "[Color #373737]",
+    "40": "[Color #373737]",
+    "41": "[Color #2C64FF]",
+    "42": "[Color #373737]",
+    "43": "[Color #373737]",
+    "44": "[0002:0001:]",
+    "45": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_31#36",
+   "label": "MES_TKinoko_31_Kinoko_street_sp_get_cap_01",
+   "style": 12,
+   "src": "{1:mode}{2:color}キノコボール{3:color}{4:color}を手に入れた！！{5:pause}{6:wait}{7:color}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[Color #4ED4FF]",
+    "3": "[Color #E6E6E6]",
+    "4": "[Color #373737]",
+    "5": "[0002:0000:1E 00]",
+    "6": "[0002:0001:]",
+    "7": "[Color #E6E6E6]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": [
+    "FMsg/o_town_32#16"
+   ]
+  },
+  {
+   "id": "FMsg/o_town_31#37",
+   "label": "MES_TKinoko_31_Kinoko_street_13",
+   "style": 6,
+   "src": "ショッピングモールで 迷ったら\nボクのところに きてください。{1:wait}[Next]{2:align}いつでも 説明しますよ。{3:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0001:0004:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_31#39",
+   "label": "MES_TKinoko_31_Kinoko_street_14",
+   "style": 6,
+   "src": "ショッピングモールの\n説明をしましょうか？{1:pause}\n{2:align}{3:choice}いいえ{4:tab}{5:choice}はい{6:pause}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0001:0001:]",
+    "3": "[0004:0001:]",
+    "4": "[0006:0000:28 00]",
+    "5": "[0004:0001:]",
+    "6": "[0002:0000:0A 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_31#41",
+   "label": "MES_TKinoko_31_Kinoko_street_15",
+   "style": 6,
+   "src": "{1:align}今日も 最高のお買いものが\nできたざますわ～{2:wait}[Next]{3:align}おまけに マッサージまで\nしてもらっちゃって…{4:wait}[Next]ワタクシのような\n最高のランクのキノピオに\nピッタリざますわ～{5:wait} ",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]",
+    "3": "[0001:0004:]",
+    "4": "[0002:0001:]",
+    "5": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_31#42",
+   "label": "MES_TKinoko_31_Kinoko_street_sp_05",
+   "style": 6,
+   "src": "はい！{1:pause} どうぞ！{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_31#43",
+   "label": "MES_TKinoko_31_Kinoko_street_16",
+   "style": 6,
+   "src": "ここから東に 行っても\nショッピングモールは 続きます。{1:wait}[Next]キノコタウンから 出たいのなら\nさらに東に 行けばいいのですが…{2:wait}[Next]今は 工事中なんですよ…\n工事中が 多いんだよなぁ…{3:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_31#44",
+   "label": "MES_TKinoko_31_Kinoko_street_sp_06",
+   "style": 12,
+   "src": "{1:mode}コイン{2:color}５０{3:color}まい{4:color}を手に入れた！！{5:pause}{6:wait}{7:color}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[Color #4ED4FF]",
+    "3": "[Color #E6E6E6]",
+    "4": "[Color #373737]",
+    "5": "[0002:0000:1E 00]",
+    "6": "[0002:0001:]",
+    "7": "[Color #E6E6E6]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_31#45",
+   "label": "MES_TKinoko_31_Kinoko_street_17",
+   "style": 6,
+   "src": "ここから東に 行っても\nショッピングモールは 続きます。{1:wait}[Next]キノコタウンから 出たいのなら\nさらに東に 行くといいですよ。{2:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_31#46",
+   "label": "MES_TKinoko_31_Kinoko_street_sp_07",
+   "style": 12,
+   "src": "{1:mode}スーパーキノコ{2:color}５{3:color}個{4:color}を手に入れた！！{5:pause}{6:wait}{7:color}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[Color #4ED4FF]",
+    "3": "[Color #E6E6E6]",
+    "4": "[Color #373737]",
+    "5": "[0002:0000:1E 00]",
+    "6": "[0002:0001:]",
+    "7": "[Color #E6E6E6]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_31#47",
+   "label": "MES_TKinoko_31_Kinoko_street_18",
+   "style": 6,
+   "src": "世の中 コインだけじゃ\n生きていけないんだ！{1:wait}[Next]コインなんかなくても\n生きていけるんだ！{2:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_31#48",
+   "label": "MES_TKinoko_31_Kinoko_street_sp_08",
+   "style": 12,
+   "src": "{1:mode}コイン{2:color}１００{3:color}まい{4:color}を手に入れた！！{5:pause}{6:wait}{7:color}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[Color #4ED4FF]",
+    "3": "[Color #E6E6E6]",
+    "4": "[Color #373737]",
+    "5": "[0002:0000:1E 00]",
+    "6": "[0002:0001:]",
+    "7": "[Color #E6E6E6]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_31#49",
+   "label": "MES_TKinoko_31_Kinoko_street_19",
+   "style": 6,
+   "src": "あ！{1:pause} マリオさん！\nコキノ先生には もう会いましたか？{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_31#50",
+   "label": "MES_TKinoko_31_Kinoko_street_sp_09",
+   "style": 12,
+   "src": "{1:mode}スーパーシロップ{2:color}５{3:color}個{4:color}を\n手に入れた！！{5:pause}{6:wait}{7:color}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[Color #4ED4FF]",
+    "3": "[Color #E6E6E6]",
+    "4": "[Color #373737]",
+    "5": "[0002:0000:1E 00]",
+    "6": "[0002:0001:]",
+    "7": "[Color #E6E6E6]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_31#51",
+   "label": "MES_TKinoko_31_Kinoko_street_sp_16_a",
+   "style": 6,
+   "src": "次はきっと もっと\nいいものが 入ってますよ！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_31#52",
+   "label": "MES_TKinoko_31_Kinoko_street_sp_16_b",
+   "style": 6,
+   "src": "まだ 目玉商品は\n出ていませんよ！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_31#53",
+   "label": "MES_TKinoko_31_Kinoko_street_sp_16_c",
+   "style": 6,
+   "src": "どうですか？ マリオさんなら\nかんたんに 見つけられるかな？{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_31#54",
+   "label": "MES_TKinoko_31_Kinoko_street_sp_16_d",
+   "style": 6,
+   "src": "見えないブロックは\nルイージさんでも 叩けますよ！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_31#55",
+   "label": "MES_TKinoko_31_Kinoko_street_sp_16_e",
+   "style": 6,
+   "src": "右の地区にも\nボールは かくれてますよ！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_31#56",
+   "label": "MES_TKinoko_31_Kinoko_street_sp_16_f",
+   "style": 6,
+   "src": "お店のまわりとか…\nあやしい… かもしれません！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_31#57",
+   "label": "MES_TKinoko_31_Kinoko_street_31",
+   "style": 6,
+   "src": "コインの使いかたは\n大事ですよ！{1:wait}[Next]そうび品を買ったら\nアイテムを買えなくなった…{2:wait}[Next]バッジを買ったら\nアイテムを買えなくなった…{3:wait}[Next]なんて ならないように\nかしこい 買いものをしましょう！{4:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0001:]",
+    "4": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_31#58",
+   "label": "MES_TKinoko_31_Kinoko_street_sp_16_g",
+   "style": 6,
+   "src": "がんばって 探してくださいね！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_31#59",
+   "label": "MES_TKinoko_31_Kinoko_street_sp_16_h",
+   "style": 6,
+   "src": "ジャンプしまくる…ってのも\nいいかもしれませんね！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_31#60",
+   "label": "MES_TKinoko_31_Kinoko_street_sp_16_i",
+   "style": 6,
+   "src": "なかなか 集まってますね！\nがんばってください！！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_31#61",
+   "label": "MES_TKinoko_31_Kinoko_street_27_1",
+   "style": 12,
+   "src": "{1:mode}{2:align}{3:align}HP全回復！！{4:pause}{5:wait}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[0001:0004:]",
+    "3": "[0001:0001:]",
+    "4": "[0002:0000:28 00]",
+    "5": "[0002:0001:]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_31#62",
+   "label": "MES_TKinoko_31_Kinoko_street_27_2",
+   "style": 12,
+   "src": "{1:mode}{2:align}{3:align}BP全回復！！{4:pause}{5:wait}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[0001:0004:]",
+    "3": "[0001:0001:]",
+    "4": "[0002:0000:28 00]",
+    "5": "[0002:0001:]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_31#64",
+   "label": "MES_TKinoko_31_Kinoko_street_27_4",
+   "style": 6,
+   "src": "マリオさん！{1:pause}\nコインが たりません…{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_31#65",
+   "label": "MES_TKinoko_31_Kinoko_street_27_5",
+   "style": 6,
+   "src": "いらっしゃいませ！\nマリオさん！ ルイージさん！{1:wait}[Next]{2:align}ここは ティーカウンターです！{3:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0001:0004:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_31#66",
+   "label": "MES_TKinoko_31_Kinoko_street_27_6",
+   "style": 6,
+   "src": "{1:align}{2:color}HP{3:color}{4:color}が 減っているみたいですね！{5:wait}[Next]そんなときは\n{6:color}{7:color}キノコティー{8:color}{9:color}が オススメですよ！{10:wait}{11:color}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[Color #2C64FF]",
+    "3": "[Color #373737]",
+    "4": "[Color #373737]",
+    "5": "[0002:0001:]",
+    "6": "[Color #373737]",
+    "7": "[Color #2C64FF]",
+    "8": "[Color #373737]",
+    "9": "[Color #373737]",
+    "10": "[0002:0001:]",
+    "11": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_31#67",
+   "label": "MES_TKinoko_31_Kinoko_street_27_7",
+   "style": 6,
+   "src": "{1:align}{2:color}BP{3:color}{4:color}が 減っているみたいですね！{5:wait}[Next]そんなときは\n{6:color}{7:color}ミルクキノコティー{8:color}{9:color}が いいですよ！{10:wait}{11:color}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[Color #2C64FF]",
+    "3": "[Color #373737]",
+    "4": "[Color #373737]",
+    "5": "[0002:0001:]",
+    "6": "[Color #373737]",
+    "7": "[Color #2C64FF]",
+    "8": "[Color #373737]",
+    "9": "[Color #373737]",
+    "10": "[0002:0001:]",
+    "11": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_31#68",
+   "label": "MES_TKinoko_31_Kinoko_street_27_8",
+   "style": 6,
+   "src": "{1:color}HP{2:color}{3:color}も {4:color}{5:color}BP{6:color}{7:color}も減って\n元気がない みたいですね！{8:wait}[Next]そんなときは\n{9:color}{10:color}ロイヤルキノコティー{11:color}{12:color}で 決まり！！{13:wait}{14:color}",
+   "tags": {
+    "1": "[Color #2C64FF]",
+    "2": "[Color #373737]",
+    "3": "[Color #373737]",
+    "4": "[Color #373737]",
+    "5": "[Color #2C64FF]",
+    "6": "[Color #373737]",
+    "7": "[Color #373737]",
+    "8": "[0002:0001:]",
+    "9": "[Color #373737]",
+    "10": "[Color #2C64FF]",
+    "11": "[Color #373737]",
+    "12": "[Color #373737]",
+    "13": "[0002:0001:]",
+    "14": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_31#69",
+   "label": "MES_TKinoko_31_Kinoko_street_27_9",
+   "style": 6,
+   "src": "{1:color}HP{2:color}{3:color}も{4:color}{5:color}BP{6:color}{7:color}も マンタンで\nとても 元気みたいですね！{8:wait}[Next]もし 元気がなくなったら\nぜひ 飲んでみてくださいね！！{9:wait}{10:color}",
+   "tags": {
+    "1": "[Color #2C64FF]",
+    "2": "[Color #373737]",
+    "3": "[Color #373737]",
+    "4": "[Color #373737]",
+    "5": "[Color #2C64FF]",
+    "6": "[Color #373737]",
+    "7": "[Color #373737]",
+    "8": "[0002:0001:]",
+    "9": "[0002:0001:]",
+    "10": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_31#71",
+   "label": "MES_TKinoko_31_Kinoko_street_01",
+   "style": 6,
+   "src": "{1:align}あ！ マリオさん！{2:pause}\nようこそ ショッピングモールへ！{3:wait}[Next]{4:align}できたばかりなのに\nたくさんの人が きてますよ！{5:wait}[Next]よかったら ショッピングモールの\n説明をしましょうか？{6:pause}\n{7:align}{8:choice}いいえ{9:tab}{10:choice}はい{11:pause}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0000:0A 00]",
+    "3": "[0002:0001:]",
+    "4": "[0001:0004:]",
+    "5": "[0002:0001:]",
+    "6": "[0002:0000:0A 00]",
+    "7": "[0001:0001:]",
+    "8": "[0004:0001:]",
+    "9": "[0006:0000:28 00]",
+    "10": "[0004:0001:]",
+    "11": "[0002:0000:0A 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_31#72",
+   "label": "MES_TKinoko_31_Kinoko_street_02",
+   "style": 6,
+   "src": "ではまず {1:color}そうび品{2:color}{3:color}が\n買えるお店を 教えますね。{4:wait}{5:color}",
+   "tags": {
+    "1": "[Color #2C64FF]",
+    "2": "[Color #373737]",
+    "3": "[Color #373737]",
+    "4": "[0002:0001:]",
+    "5": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_31#73",
+   "label": "MES_TKinoko_31_Kinoko_street_03",
+   "style": 6,
+   "src": "あそこにある 小さなお店…{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_31#74",
+   "label": "MES_TKinoko_31_Kinoko_street_04",
+   "style": 6,
+   "src": "あそこにある ちょっと大きなお店…{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_32#0",
+   "label": "MES_TKinoko_32_Kinoko_street_10",
+   "style": 6,
+   "src": "その横に あるのが\n{1:color}アイテム屋{2:color}{3:color}さんです。{4:wait}[Next]キノコや シロップなど\n準備しておくと いいですよ。{5:wait}{6:color}",
+   "tags": {
+    "1": "[Color #2C64FF]",
+    "2": "[Color #373737]",
+    "3": "[Color #373737]",
+    "4": "[0002:0001:]",
+    "5": "[0002:0001:]",
+    "6": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_32#1",
+   "label": "MES_TKinoko_32_Kinoko_street_11",
+   "style": 6,
+   "src": "コキノ先生の クリニックです。\n病人や ケガをした人が\nここに集まってきます。{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_32#2",
+   "label": "MES_TKinoko_32_Kinoko_street_32",
+   "style": 6,
+   "src": "今 キノコ王国では\nダイエットが ブームなんですよ。{1:wait}[Next]いろんな場所に ダイエット用品が\nおいてあるのを 見ませんでした？{2:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_32#3",
+   "label": "MES_TKinoko_32_Kinoko_street_33",
+   "style": 6,
+   "src": "クリニックは この上なんだけど…{1:pause}\nこの体じゃ 階段のぼれない～{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_32#4",
+   "label": "MES_TKinoko_32_Kinoko_street_kokino_kanban",
+   "style": 12,
+   "src": "{1:align}{2:align}{3:mode}Dr.コキノのクリニック{4:pause}{5:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0005:0000:]",
+    "4": "[0002:0000:1E 00]",
+    "5": "[0002:0001:]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_32#5",
+   "label": "MES_TKinoko_32_Kinoko_street_34",
+   "style": 6,
+   "src": "お父さんも お母さんも\n買いものばっかりで つまんないよ～{1:wait}[Next]マリオさん！{2:pause} かくれんぼしない？{3:pause}\n{4:mode}{5:indent}{6:choice}またこんど{7:tab}{8:choice}かくれんぼする{9:pause}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0000:0A 00]",
+    "3": "[0002:0000:0A 00]",
+    "4": "[0005:0000:]",
+    "5": "[0006:0001:14 00]",
+    "6": "[0004:0001:]",
+    "7": "[0006:0000:28 00]",
+    "8": "[0004:0001:]",
+    "9": "[0002:0000:0A 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_32#6",
+   "label": "MES_TKinoko_32_Kinoko_meta_cure_01",
+   "style": 10,
+   "src": "コキノせんせーーい！！{1:pause}",
+   "tags": {
+    "1": "[0002:0000:1E 00]"
+   },
+   "header": "[0009:0000:0A 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_32#7",
+   "label": "MES_TKinoko_32_Kinoko_street_35",
+   "style": 6,
+   "src": "やった！{1:pause} じゃあマリオさん\nオニやってね！{2:wait}[Next]この ショッピングモールから\n外には 出ないからね。{3:wait}[Next]マリオさんが 外に出たら\n最初から やりなおしだよ！{4:wait}[Next]{5:align}よーい{6:pause} はじめ～！！",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0001:]",
+    "4": "[0002:0001:]",
+    "5": "[0001:0004:]",
+    "6": "[0002:0000:0A 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_32#8",
+   "label": "MES_TKinoko_32_Kinoko_meta_cure_02",
+   "style": 6,
+   "src": "あ！ マリオさん！\nたいへんです！！{1:wait}[Next]メタコロ病が いっきに\n治っちゃったんですよ！！{2:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_32#10",
+   "label": "MES_TKinoko_32_Kinoko_meta_cure_03",
+   "style": 6,
+   "src": "知ってました？\nさすが コキノ先生ですよね！{1:wait}[Next]とにかく またキノコタウンに\n平和が おとずれたんです！{2:wait}[Next]これで ショッピングモールも\nさらに もり上がりますよ！{3:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_32#11",
+   "label": "MES_TKinoko_32_Kinoko_street_37",
+   "style": 6,
+   "src": "うわ～！{1:pause} 前と同じところなら\nわからないと 思ったのに～！{2:wait}[Next]あ～ 楽しかった！\nありがとう マリオさん！{3:wait}[Next]お礼に これあげるね！\nボクの お気に入りだよ！{4:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0001:]",
+    "4": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_32#12",
+   "label": "MES_TKinoko_32_Kinoko_meta_cure_04",
+   "style": 6,
+   "src": "まだ行ってない お店があったら\n立ちよって みてくださいね！{1:wait}[Next]{2:align}{3:align}それじゃあ！{4:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0001:0004:]",
+    "3": "[0001:0001:]",
+    "4": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_32#13",
+   "label": "MES_TKinoko_32_Kinoko_street_38",
+   "style": 6,
+   "src": "また あそぼうね！ マリオさん！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_32#14",
+   "label": "MES_TKinoko_32_Kinoko_meta_cure_05",
+   "style": 6,
+   "src": "とりあえず メタコロ病は\n一件落着ね！{1:wait}[Next]あとは ピーチ姫を\n取りもどすだけ…{2:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_32#15",
+   "label": "MES_TKinoko_32_Kinoko_meta_cure_06",
+   "style": 6,
+   "src": "ミラクルワクチンで ピーチ城に続く\n橋のガードを こわしましょう！！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_32#17",
+   "label": "MES_TKinoko_32_Kinoko_street_09",
+   "style": 6,
+   "src": "通りを東に出て 下の方に\nある 小さなお店…{1:wait}[Next]あそこでは {2:color}バッジ{3:color}{4:color}が\n買えますよ。{5:wait}[Next]{6:align}でも店長が ガンコもので…{7:wait}[Next]自分が 気に入ったものしか\nお店にならべていないそうです。{8:wait}{9:color}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[Color #2C64FF]",
+    "3": "[Color #373737]",
+    "4": "[Color #373737]",
+    "5": "[0002:0001:]",
+    "6": "[0001:0004:]",
+    "7": "[0002:0001:]",
+    "8": "[0002:0001:]",
+    "9": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_32#18",
+   "label": "MES_TKinoko_32_Kinoko_street_badge_01",
+   "style": 6,
+   "src": "えぇーい！{1:pause} 出てった\n出てった～ こんちきしょ～！{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_32#19",
+   "label": "MES_TKinoko_32_Kinoko_street_badge_02",
+   "style": 6,
+   "src": "ウチの{1:color}バッジ{2:color}{3:color}は\nオモチャじゃねぇんだ！{4:wait}[Next]子供は おとなしく\nかくれんぼでもしてな！{5:wait}{6:color}",
+   "tags": {
+    "1": "[Color #2C64FF]",
+    "2": "[Color #373737]",
+    "3": "[Color #373737]",
+    "4": "[0002:0001:]",
+    "5": "[0002:0001:]",
+    "6": "[Color #373737]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_32#20",
+   "label": "MES_TKinoko_32_Kinoko_street_25",
+   "style": 6,
+   "src": "ウチのだんなったら\nボーナスカードに 夢中で…{1:wait}[Next]アタリが出たら\nコインがもどるんだぞ！って…{2:wait}[Next]いらないものまで 買うんですよ…\nホント ムダだわ～{3:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_32#22",
+   "label": "MES_TKinoko_32_Kinoko_street_37_1",
+   "style": 12,
+   "src": "{1:mode}{2:align}{3:color}スモールシェル{4:color}{5:color}をもらった！{6:pause}{7:wait}{8:color}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[0001:0004:]",
+    "3": "[Color #4ED4FF]",
+    "4": "[Color #E6E6E6]",
+    "5": "[Color #373737]",
+    "6": "[0002:0000:1E 00]",
+    "7": "[0002:0001:]",
+    "8": "[Color #E6E6E6]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_32#23",
+   "label": "MES_TKinoko_32_Kinoko_street_33_0",
+   "style": 6,
+   "src": "いまにも ころがり落ちそうで\nこわい～！ こわいよ～！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_32#24",
+   "label": "MES_TKinoko_32_Kinoko_street_33_1",
+   "style": 6,
+   "src": "ここは どこだ～？\nころがってたら わからなくなった～{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_32#25",
+   "label": "MES_TKinoko_32_Kinoko_street_33_2",
+   "style": 6,
+   "src": "あ～ マリオさーん。\nメタコロ病が 治ったみたいですね～{1:wait}[Next]ボク？{2:pause} ボクはもともと\nこういう体型 なんですよ～{3:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0000:0A 00]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_32#26",
+   "label": "MES_TKinoko_32_Kinoko_town_clinic_a_57",
+   "style": 6,
+   "src": "あら？{1:pause} このどかん…\nクッパの体の中にあるのと 同じよ！{2:wait}[Next]{3:align}ラッキーって 続くのね！！{4:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]",
+    "3": "[0001:0004:]",
+    "4": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_32#27",
+   "label": "MES_TKinoko_32_Kinoko_town_clinic_a_58",
+   "style": 6,
+   "src": "クッパは エクボンの森へ\n向かったみたいね…{1:wait}[Next]スターワクチンを持つ 賢者が\n自分の体の中にいるとも 知らずに…{2:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_town_32#28",
+   "label": "MES_TKinoko_32_Kinoko_town_clinic_a_59",
+   "style": 6,
+   "src": "さあ 入りましょう！！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  }
+ ]
+}

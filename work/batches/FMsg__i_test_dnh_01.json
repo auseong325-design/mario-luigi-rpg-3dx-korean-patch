@@ -1,0 +1,45 @@
+{
+ "batch": "FMsg__i_test_dnh_01",
+ "rooms": [
+  "i_test_dnh_01"
+ ],
+ "ds_rooms": [
+  "00A"
+ ],
+ "ds_reference": [
+  "DS00A#0: 펌프 스페이스의 어택피스를\n개째 획득했다![Next]펌프 스페이스의 나머지\n어택피스는 개다!",
+  "DS00A#1: 펌프 스페이스의 어택피스를\n개째 획득했다![Next]펌프 스페이스의 나머지\n어택피스는 개다!",
+  "DS00A#2: 펌프 스페이스의 어택피스를\n개째 획득했다![Next]펌프 스페이스의 어택피스를\n모두 모았다!![Next]새로운 스페셜 어택이\n완성되었다!!",
+  "DS00A#3: 펌프 스페이스의 어택피스를\n개째 획득했다![Next]펌프 스페이스의 어택피스를\n모두 모았다!![Next]새로운 스페셜 어택이\n완성되었다!!"
+ ],
+ "glossary": [],
+ "messages": [
+  {
+   "id": "FMsg/i_test_dnh_01#2",
+   "label": "MES_work_omit_04",
+   "style": 6,
+   "src": "テスト{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/i_test_hk_01#0",
+    "FMsg/i_test_jk_01#0",
+    "FMsg/i_test_mo_01#3",
+    "FMsg/i_test_mo_02#0",
+    "FMsg/i_test_mo_03#0",
+    "FMsg/i_test_mo_04#2",
+    "FMsg/i_test_mo_05#2",
+    "FMsg/o_test_ay_01#0",
+    "FMsg/o_test_hk_01#0",
+    "FMsg/o_test_jk_01#0",
+    "FMsg/o_test_mo_01#0",
+    "FMsg/o_test_mo_02#0",
+    "FMsg/o_test_mo_03#0",
+    "FMsg/o_test_mo_04#3",
+    "FMsg/o_test_mo_05#0"
+   ]
+  }
+ ]
+}

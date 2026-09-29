@@ -1,0 +1,26 @@
+{
+ "source": "Msg/JP_ja/FMsg.dat:o_areanone_k_lastbattle_01_U",
+ "messages": [
+  {
+   "id": "FMsg/o_areanone_k_lastbattle_01_U#0",
+   "label": " Kjrpg_11_Koopa_qst08_17_01",
+   "style": 10,
+   "attr": "00000000",
+   "jp": "[0009:0000:0A 00]クッパ[Ruby 軍団;ぐんだん]だ！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_areanone_k_lastbattle_01_U#1",
+   "label": " Kjrpg_11_Koopa_qst08_17_02",
+   "style": 9,
+   "attr": "00000000",
+   "jp": "[0009:0000:09 00]ボクはクッパJr.！[0002:0001:][Next]クッパ[Ruby 軍団;ぐんだん]は…[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_areanone_k_lastbattle_01_U#2",
+   "label": " Kjrpg_11_Koopa_qst08_17_03",
+   "style": 10,
+   "attr": "00000000",
+   "jp": "[0009:0000:0A 00]ボクとお[Ruby 父;とう]さんの[Ruby 軍団;ぐんだん]だ！[0002:0001:]"
+  }
+ ]
+}

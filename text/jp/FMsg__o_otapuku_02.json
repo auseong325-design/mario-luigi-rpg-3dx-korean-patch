@@ -1,0 +1,33 @@
+{
+ "source": "Msg/JP_ja/FMsg.dat:o_otapuku_02",
+ "messages": [
+  {
+   "id": "FMsg/o_otapuku_02#0",
+   "label": "MES_EOtapuku_02_EO02_kanban_mes",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0001:0004:][0001:0001:][0005:0000:]← ヅツーダレイク\n→ クッパ[Ruby 城;じょう][0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_otapuku_02#1",
+   "label": "MES_EOtapuku_02_EO02_kocky_ev_00",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00] \n [Next][0001:0004:][0001:0001:]おしらせ おしらせ～！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_otapuku_02#2",
+   "label": "MES_EOtapuku_02_EO02_kocky_ev_01",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]より[Ruby 道;みち] していないでしょうか？\nとっとと ３つ[Ruby 目;め]のワクチンを\n[Ruby 探;さが]すでしょう！[0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_otapuku_02#3",
+   "label": "MES_EOtapuku_02_EO02_kocky_ev_02",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00] \n [Next][0001:0004:][0001:0001:][Color #2C64FF]  ムッシーバビーチ[Color #373737][Color #373737]は [Ruby 南;みなみ]だよ！[0002:0001:][Color #373737]"
+  }
+ ]
+}

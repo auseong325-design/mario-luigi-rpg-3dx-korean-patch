@@ -1,0 +1,28 @@
+{
+ "batch": "FMsg__i_power_nose_01",
+ "translations": {
+  "FMsg/i_power_nose_01#0": "이런 식으로\n마리오 형제를 움직여서… ",
+  "FMsg/i_power_nose_01#1": "터치펜으로 마리오 형제를\n{1:color}빠르게 슬라이드{2:color}{3:color}하면\n꽃가루를{4:color} {5:color}튕겨 낼 수 있겠어.{6:color}",
+  "FMsg/i_power_nose_01#2": "지금처럼 모든 벽에\n꽃가루를 부딪혀 봐! ",
+  "FMsg/i_power_nose_01#3": "마리오! 가시 꽃가루에\n닿지 않도록 조심해! ",
+  "FMsg/i_power_nose_01#4": "이게 쿠파의 코를\n자극하고 있나 봐! ",
+  "FMsg/i_power_nose_01#5": "{1:color}슬라이드{2:color}{3:color}한 방향으로\n움직일 수 있어! {4:color}",
+  "FMsg/i_power_nose_01#7": "{1:align}{2:mode}뭐야!? {3:pause}",
+  "FMsg/i_power_nose_01#8": "하트가 모두\n없어지지 않도록\n조심해! ",
+  "FMsg/i_power_nose_01#9": "꽃가루가 벽에 닿으면\n반응해서 색이 바뀌나 봐! ",
+  "FMsg/i_power_nose_01#10": "이번엔 이 벽을 마리오 형제가\n직접 자극해 보자! ",
+  "FMsg/i_power_nose_01#11": "위에서 떨어지는 건\n꽃가루야… ",
+  "FMsg/i_power_nose_01#12": "꽃가루를 벽 쪽으로\n튕겨 내 보자! ",
+  "FMsg/i_power_nose_01#13": "예를 들면 이렇게\n마리오 형제를 슬라이드하면… ",
+  "FMsg/i_power_nose_01#14": "이 벽에 꽃가루를 맞히면\n쿠파의 몸에 무슨 변화가\n일어나지 않을까? ",
+  "FMsg/i_power_nose_01#15": "가시 꽃가루에 닿으면\n하트가 하나\n줄어드나 봐… ",
+  "FMsg/i_power_nose_01#16": "벽이 격렬하게 반응하고 있어… ",
+  "FMsg/i_power_nose_01#17": "이건 아까\n꽃가루와는 다르네! "
+ },
+ "new_terms": [],
+ "notes": {
+  "FMsg/i_power_nose_01#0": "マリオ達: DS 같은 장면대로 '마리오 형제'(review: 리드 결정, glossary 기본값 '마리오 일행'의 예외). #1·#10·#13도 같음. 원문 끝 공백은 그대로 둠.",
+  "FMsg/i_power_nose_01#7": "DS155#9는 '아야!!'지만 3DX 원문은 なに！？라 '뭐야!?'로 옮김.",
+  "FMsg/i_power_nose_01#10": "DS155#8의 '튀어나온'은 3DX 원문(このかべ)에 없어 뺐고, 원문 2줄에 맞춤."
+ }
+}

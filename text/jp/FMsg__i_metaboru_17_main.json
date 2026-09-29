@@ -1,0 +1,33 @@
+{
+ "source": "Msg/JP_ja/FMsg.dat:i_metaboru_17_main",
+ "messages": [
+  {
+   "id": "FMsg/i_metaboru_17_main#0",
+   "label": "MES_KMetaboru_17_main_KM17_M_peach_01",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]ごめんなさい。\n[Ruby 心配;しんぱい]で きてしまいました。[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_metaboru_17_main#1",
+   "label": "MES_KMetaboru_17_main_KM17_M_ystar_01",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:][0001:0001:]この[Ruby 光;ひかり]は いったい なに！？[0002:0001:]"
+  },
+  {
+   "id": "FMsg/i_metaboru_17_main#2",
+   "label": "MES_KMetaboru_17_main_KM17_M_ystar_02",
+   "style": 10,
+   "attr": "00000000",
+   "jp": "[0009:0000:0A 00][0001:0004:][0001:0001:][Ruby 大変;たいへん]！！！[0002:0000:1E 00]"
+  },
+  {
+   "id": "FMsg/i_metaboru_17_main#3",
+   "label": "MES_KMetaboru_17_main_KM17_M_ystar_03",
+   "style": 10,
+   "attr": "00000000",
+   "jp": "[0009:0000:0A 00][0001:0004:][0001:0001:]ピーチ[Ruby 姫;ひめ]～～～！！！[0002:0000:1E 00]"
+  }
+ ]
+}

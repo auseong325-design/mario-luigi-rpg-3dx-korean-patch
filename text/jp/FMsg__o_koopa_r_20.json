@@ -1,0 +1,82 @@
+{
+ "source": "Msg/JP_ja/FMsg.dat:o_koopa_r_20",
+ "messages": [
+  {
+   "id": "FMsg/o_koopa_r_20#0",
+   "label": "MES_BPITEM_e_chicken",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0001:0004:][0001:0001:][0005:0000:]ばくはつチキン[0002:0000:1E 00]"
+  },
+  {
+   "id": "FMsg/o_koopa_r_20#1",
+   "label": "MES_BPITEM_r_herb_false",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0005:0000:][Color #4ED4FF]リフレッシュハーブ[Color #E6E6E6]はいっぱいです！[0002:0000:1E 00][0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_koopa_r_20#2",
+   "label": "MES_BPITEM_r_herb",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0001:0004:][0001:0001:][0005:0000:]リフレッシュハーブ[0002:0000:1E 00]"
+  },
+  {
+   "id": "FMsg/o_koopa_r_20#3",
+   "label": "MES_BPITEM_m_cheese_false",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0005:0000:][Color #4ED4FF]ミラクルチーズ[Color #E6E6E6]はいっぱいです！[0002:0000:1E 00][0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_koopa_r_20#4",
+   "label": "MES_BPITEM_m_cheese",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0001:0004:][0001:0001:][0005:0000:]ミラクルチーズ[0002:0000:1E 00]"
+  },
+  {
+   "id": "FMsg/o_koopa_r_20#5",
+   "label": "MES_BPITEM_e_chicken_false",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0005:0000:][Color #4ED4FF]ばくはつチキン[Color #E6E6E6]はいっぱいです！[0002:0000:1E 00][0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_koopa_r_20#6",
+   "label": "MES_BPITEM_g_cookie",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0001:0004:][0001:0001:][0005:0000:]ゴーストクッキー[0002:0000:1E 00]"
+  },
+  {
+   "id": "FMsg/o_koopa_r_20#7",
+   "label": "MES_BPITEM_100coin",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0001:0004:][0001:0001:][0005:0000:]１００コイン[0002:0000:1E 00]"
+  },
+  {
+   "id": "FMsg/o_koopa_r_20#8",
+   "label": "MES_BPITEM_c_chicken_false",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0005:0000:][Color #4ED4FF]チーズチキン[Color #E6E6E6]はいっぱいです！[0002:0000:1E 00][0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_koopa_r_20#9",
+   "label": "MES_BPITEM_g_cookie_false",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0005:0000:][Color #4ED4FF]ゴーストクッキー[Color #E6E6E6]はいっぱいです！[0002:0000:1E 00][0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_koopa_r_20#10",
+   "label": "MES_BPITEM_c_chicken",
+   "style": 12,
+   "attr": "00000000",
+   "jp": "[0009:0000:0C 00][0001:0004:][0001:0001:][0005:0000:]チーズチキン[0002:0000:1E 00]"
+  }
+ ]
+}

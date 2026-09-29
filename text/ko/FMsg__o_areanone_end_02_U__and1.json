@@ -1,0 +1,26 @@
+{
+ "batch": "FMsg__o_areanone_end_02_U__and1",
+ "translations": {
+  "FMsg/o_areanone_end_02_U#0": "참말로~ 수고했다~\n쭈~욱 보고 있었다~{1:wait}[Next]니 랭크를…\n알려 줄꾸마~{2:wait}",
+  "FMsg/o_areanone_end_02_U#1": "잘했다…\n그래도 아직 갈 길은 있다…{1:wait}[Next]더 높은 랭크로 올라가면…\n좋은 일이 생길지도 모른다…{2:wait}",
+  "FMsg/o_areanone_end_02_U#2": "이 랭크로 다크스타를\n우째 무찔렀노…?{1:wait}[Next]이건 또 이거대로 대단하네…\n참말로~ 잘했다~{2:wait}[Next]더 높은 랭크로 올라가면…\n좋은 일이 생길지도 모른다…{3:wait}",
+  "FMsg/o_areanone_end_02_U#3": "다들…\n억수로 강하네…{1:wait}[Next]니 대단하대이…\n참말로~ 잘했대이~!{2:wait}[Next]내는 웬만하면 남 칭찬\n같은 거 안 하지만서도…{3:wait}[Next]니는 참말로\n대단하대이!!!{4:wait}",
+  "FMsg/o_areanone_end_02_U#4": "{1:align}{2:align}그라모 또 보재이~{3:wait}",
+  "FMsg/o_areanone_end_03_L#0": "{1:mode}브론즈 보스 랭크",
+  "FMsg/o_areanone_end_03_L#1": "{1:mode}버섯 랭크",
+  "FMsg/o_areanone_end_03_L#2": "{1:mode}실버 보스 랭크",
+  "FMsg/o_areanone_end_03_L#3": "{1:mode}등껍질 랭크",
+  "FMsg/o_areanone_end_03_L#4": "{1:mode}골드 보스 랭크",
+  "FMsg/o_areanone_end_03_L#5": "{1:mode}플라워 랭크",
+  "FMsg/o_areanone_end_03_L#6": "{1:mode}파이널 보스 랭크",
+  "FMsg/o_areanone_end_03_L#7": "{1:mode}부메랑 랭크",
+  "FMsg/o_areanone_end_03_L#8": "{1:mode}마스터 보스 랭크",
+  "FMsg/o_areanone_end_03_L#9": "{1:mode}스타 랭크",
+  "FMsg/o_areanone_end_03_L#10": "{1:mode}레인보우 랭크"
+ },
+ "new_terms": [],
+ "notes": {
+  "FMsg/o_areanone_end_03_L#7": "glossary 부메랑 랭크(coined, DS는 샤인 랭크). glossary 확정 시 확인",
+  "FMsg/o_areanone_end_03_L#8": "glossary 마스터 보스 랭크(coined, 3DX 신규 최상위 쿠파 랭크)"
+ }
+}

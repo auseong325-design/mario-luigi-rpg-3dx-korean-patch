@@ -1,0 +1,690 @@
+{
+ "batch": "FMsg__o_gepu_08__and1",
+ "rooms": [
+  "o_gepu_08",
+  "o_gepu_11"
+ ],
+ "ds_rooms": [
+  "163",
+  "20C"
+ ],
+ "ds_reference": [
+  "DS163#0: 거기 있는 큰 녀석~",
+  "DS163#1: 니 말이다, 니.",
+  "DS163#2: 누구냐? 어디냐?",
+  "DS163#3: 아, 찾을 생각 마라.\n내 거 가 있는 거 아이다.",
+  "DS163#4: 뭐라 얘길해야 하노…\n하늘의 소리…라고 해 두자.",
+  "DS163#5: 니 의식…",
+  "DS163#6: 쉽게 말하믄\n니 맘에 말 거는 기라.",
+  "DS163#7: 니가 내 의식에\n걸려들었다 이 말이다.",
+  "DS163#8: 내 얘기 쪼매만 들어 볼래?",
+  "DS163#9: 시끄럽다!",
+  "DS163#10: 그라지 말고~\n쫌 들어 봐라~",
+  "DS163#11: 니가 어데를 가든지 간에\n계~속 쫓아댕길 끼다~",
+  "DS163#12: 크하~! 성가시다!",
+  "DS163#13: 니한테 피해 안 끼친다.",
+  "DS163#14: 내 의식에는 아무나\n걸려드는 게 아이라카이.",
+  "DS163#15: 내 니한테 좋은 거 알려 줄꾸마.",
+  "DS163#16: 뭐냐! 빨리 끝내라!",
+  "DS163#17: 뒤에 있는 바위 뿌사 봐라~\n니 할 수 있제?",
+  "DS163#18: 오~ 있네 있어.\n그기 차크라라 카는 기다.",
+  "DS163#19: 우주와 대지에서 흘러 들어오는\n특별한 파동의 입구다.",
+  "DS163#20: 무슨 귀신 씻나락 까먹는 소리냐!\n복잡한 얘기 할 거면 관둬라!",
+  "DS163#21: 됐다. 끝났다. 일단\n그 차크라를 만져 봐라~",
+  "DS163#22: 고래 가만있어 봐라~\n꼼짝하지 말그래이.",
+  "DS163#23: 카카카. 재밌네~\n깜짝 놀랐나?",
+  "DS163#24: 마음에 드는군![Next]어이! 이걸로\n이 몸을 쿠파 성으로 보내라!",
+  "DS163#25: 거긴 지금 못 간다.",
+  "DS163#26: 갈 수 있는 곳은 오로지\n차크라를 발견한 곳뿐이다.",
+  "DS163#27: 아직 차크라를 발견 몬한\n곳으로는 갈 수 없는 기다.",
+  "DS163#28: 이 모든 것이 의식의 연계다…",
+  "DS163#29: 차크라를 발견해가 그 대지와\n우주의 의식이 연결만 되모…",
+  "DS163#30: 이동할 수 있는 기다.",
+  "DS163#31: 복잡해서 모르겠다!",
+  "DS163#32: 초짜라 그런갑다.",
+  "DS163#33: 앞으로 차크라를\n찾게 되모 만져 보그래이~",
+  "DS163#34: 단, 차크라는\n평범하게 찾아선 발견 몬한다.",
+  "DS163#35: 기운, 파동, 에너지로 변해가\n숨어 있는 기라.",
+  "DS163#36: 여러 가지 부숴 보면 될 끼다.",
+  "DS163#37: 그건 됐고, 넌 대체 누구냐!?",
+  "DS163#38: 내가 누굴까…?",
+  "DS163#39: 이 나라 어딘가에 있는 게\n확실하다는 것만 말해 줄꾸마.",
+  "DS163#40: 그라모 또 보재이~",
+  "DS163#41: 어이!",
+  "DS163#42: 내 불렀나? 이동하고 싶나~?\n이동할래  이동 안 할래",
+  "DS20C#0: ↑ 고라파 레이크\n→ 이아파 비치",
+  "DS20C#1: 지하 터널 공사 중"
+ ],
+ "glossary": [
+  {
+   "jp": "クッパ",
+   "ko": "쿠파",
+   "type": "character",
+   "basis": "DS",
+   "source": "BData__mfset_Help#21",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "クッパ城",
+   "ko": "쿠파 성",
+   "type": "place",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesPlace#6",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "ヅツーダレイク",
+   "ko": "고라파 레이크",
+   "type": "place",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesPlace#10",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "ビーチ",
+   "ko": "비치",
+   "type": "place",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesOutline#27",
+   "note": "ムッシーバビーチ를 줄여 부를 때 [gl_menu_places]"
+  },
+  {
+   "jp": "ムッシーバ",
+   "ko": "이아파",
+   "type": "place",
+   "basis": "DS",
+   "source": "MData__mfset_MenuMes#15",
+   "note": "ムッシーバビーチ 약칭(ムッシーバパーツ=이아파 피스) [gl_menu_places]"
+  },
+  {
+   "jp": "ムッシーバビーチ",
+   "ko": "이아파 비치",
+   "type": "place",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesPlace#4",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "レイク",
+   "ko": "레이크",
+   "type": "place",
+   "basis": "DS",
+   "source": "DS283#23",
+   "note": "ヅツーダレイク를 줄여 부를 때 [gl_menu_places]"
+  },
+  {
+   "jp": "地下",
+   "ko": "지하",
+   "type": "place",
+   "basis": "DS",
+   "source": "DS093#0",
+   "note": "[gl_menu_places]"
+  },
+  {
+   "jp": "地下トンネル",
+   "ko": "지하 터널",
+   "type": "place",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesPlace#7",
+   "note": "세이브 파일 장소명(3DX MES_EMesPlace_place7 = DS #7) [gl_menu_places]"
+  },
+  {
+   "jp": "やけど",
+   "ko": "화상",
+   "type": "term",
+   "basis": "DS",
+   "source": "BData__mfset_AItmE2#6",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "チャクラ",
+   "ko": "차크라",
+   "type": "term",
+   "basis": "DS",
+   "source": "o_gepu_08#35 ↔ DS163#18",
+   "note": "room-align"
+  },
+  {
+   "jp": "ワガハイ",
+   "ko": "이 몸",
+   "type": "term",
+   "basis": "DS",
+   "source": "FEvent:025#7",
+   "note": "쿠파의 1인칭 [gl_kj]"
+  }
+ ],
+ "messages": [
+  {
+   "id": "FMsg/o_gepu_08#0",
+   "label": "MES_Gepu_08_K_warp_tut_01",
+   "style": 4,
+   "src": "{1:align}そこの でっかいの～{2:pause}",
+   "tags": {
+    "1": "[0001:0001:]",
+    "2": "[0002:0000:1E 00]"
+   },
+   "header": "[0009:0000:04 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_gepu_08#1",
+   "label": "MES_Gepu_08_K_warp_tut_02",
+   "style": 4,
+   "src": "{1:align} あんたや あんた。{2:pause}{3:wait}",
+   "tags": {
+    "1": "[0001:0001:]",
+    "2": "[0002:0000:14 00]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:04 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_gepu_08#2",
+   "label": "MES_Gepu_08_K_warp_tut_03",
+   "style": 6,
+   "src": "なんだ？ どこにいる？{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_gepu_08#3",
+   "label": "MES_Gepu_08_K_warp_tut_04",
+   "style": 4,
+   "src": "あ。{1:pause}探してもムダやで。\nワシ そこにおらんねん{2:pause} と。{3:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0000:0A 00]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:04 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_gepu_08#4",
+   "label": "MES_Gepu_08_K_warp_tut_05",
+   "style": 4,
+   "src": "まあ なんちゅーか…{1:pause}\n天の声… といったらええか。{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:04 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_gepu_08#6",
+   "label": "MES_Gepu_08_K_warp_tut_07",
+   "style": 4,
+   "src": "あ～ あかんで～\nそないな 態度とったら～{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:04 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_gepu_08#7",
+   "label": "MES_Gepu_08_K_warp_tut_08",
+   "style": 6,
+   "src": "ぬが～！{1:pause} やかましい！{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_gepu_08#8",
+   "label": "MES_Gepu_08_K_warp_tut_09",
+   "style": 4,
+   "src": "{1:align} まあ 悪いようにはせんて。{2:wait}",
+   "tags": {
+    "1": "[0001:0001:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:04 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_gepu_08#9",
+   "label": "MES_Gepu_08_K_warp_tut_28_2",
+   "style": 4,
+   "src": "この先も {1:color}チャクラ{2:color}{3:color}を\n見つけたら さわってみ～や。{4:wait}{5:color}",
+   "tags": {
+    "1": "[Color #2C64FF]",
+    "2": "[Color #E6E6E6]",
+    "3": "[Color #373737]",
+    "4": "[0002:0001:]",
+    "5": "[Color #E6E6E6]"
+   },
+   "header": "[0009:0000:04 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_gepu_08#10",
+   "label": "MES_Gepu_08_K_warp_tut_28_3",
+   "style": 4,
+   "src": "ただし {1:color}チャクラ{2:color}{3:color}は\n歩いているだけじゃ 見つからん。{4:wait}{5:color}",
+   "tags": {
+    "1": "[Color #2C64FF]",
+    "2": "[Color #E6E6E6]",
+    "3": "[Color #373737]",
+    "4": "[0002:0001:]",
+    "5": "[Color #E6E6E6]"
+   },
+   "header": "[0009:0000:04 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_gepu_08#11",
+   "label": "MES_Gepu_08_K_warp_tut_28_4",
+   "style": 4,
+   "src": "気となり 波動となり エネルギーと\nなって かくれとるんや。{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:04 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_gepu_08#12",
+   "label": "MES_Gepu_08_K_warp_tut_28_5",
+   "style": 4,
+   "src": "{1:align} いろいろと こわしてみるんやな。{2:wait}",
+   "tags": {
+    "1": "[0001:0001:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:04 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_gepu_08#13",
+   "label": "MES_Gepu_08_K_warp_tut_26_2",
+   "style": 4,
+   "src": "飛んでいけるのは 見つけた\n{1:color}チャクラ{2:color}{3:color}のところだけや。{4:wait}{5:color}",
+   "tags": {
+    "1": "[Color #2C64FF]",
+    "2": "[Color #E6E6E6]",
+    "3": "[Color #373737]",
+    "4": "[0002:0001:]",
+    "5": "[Color #E6E6E6]"
+   },
+   "header": "[0009:0000:04 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_gepu_08#14",
+   "label": "MES_Gepu_08_K_warp_tut_26_3",
+   "style": 4,
+   "src": "まだ 見つけてない{1:color}チャクラ{2:color}{3:color}の\nところへは 飛んでいけへんで。{4:wait}{5:color}",
+   "tags": {
+    "1": "[Color #2C64FF]",
+    "2": "[Color #E6E6E6]",
+    "3": "[Color #373737]",
+    "4": "[0002:0001:]",
+    "5": "[Color #E6E6E6]"
+   },
+   "header": "[0009:0000:04 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_gepu_08#15",
+   "label": "MES_Gepu_08_K_warp_tut_26_4",
+   "style": 4,
+   "src": "{1:align} なにごとも 意識のつながりや…{2:wait}",
+   "tags": {
+    "1": "[0001:0001:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:04 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_gepu_08#16",
+   "label": "MES_Gepu_08_K_warp_tut_24",
+   "style": 4,
+   "src": "かっかっか。{1:pause}おもろいな～\nびっくりしたやろ～{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:04 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_gepu_08#17",
+   "label": "MES_Gepu_08_K_warp_tut_26_5",
+   "style": 4,
+   "src": "{1:color}チャクラ{2:color}{3:color}を見つけて そこの大地と\n宇宙の 意識がつながれば…{4:wait}{5:color}",
+   "tags": {
+    "1": "[Color #2C64FF]",
+    "2": "[Color #E6E6E6]",
+    "3": "[Color #373737]",
+    "4": "[0002:0001:]",
+    "5": "[Color #E6E6E6]"
+   },
+   "header": "[0009:0000:04 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_gepu_08#18",
+   "label": "MES_Gepu_08_K_warp_tut_25",
+   "style": 6,
+   "src": "{1:align}なかなか おもしろいぞ！{2:wait}[Next]おい！{3:pause} これで\nワガハイを クッパ城まで飛ばせ！{4:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0000:0A 00]",
+    "4": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_gepu_08#19",
+   "label": "MES_Gepu_08_K_warp_tut_26_6",
+   "style": 4,
+   "src": "{1:align} 飛んでいけるんや。{2:wait}",
+   "tags": {
+    "1": "[0001:0001:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:04 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_gepu_08#20",
+   "label": "MES_Gepu_08_K_warp_tut_26",
+   "style": 4,
+   "src": "{1:align} 残念やけどそれは できん。{2:wait}",
+   "tags": {
+    "1": "[0001:0001:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:04 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_gepu_08#21",
+   "label": "MES_Gepu_08_K_warp_tut_27",
+   "style": 6,
+   "src": "むずかしくて よくわからん！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_gepu_08#22",
+   "label": "MES_Gepu_08_K_warp_tut_28",
+   "style": 4,
+   "src": "{1:align} まあ シロートやからな。{2:wait}",
+   "tags": {
+    "1": "[0001:0001:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:04 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_gepu_08#23",
+   "label": "MES_Gepu_08_K_warp_tut_29",
+   "style": 6,
+   "src": "どうでもいいが オマエは何者だ！？{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_gepu_08#24",
+   "label": "MES_Gepu_08_K_warp_tut_09_2",
+   "style": 4,
+   "src": "ワシの意識に ひっかかったんや。\nこんなこと めずらしいんやで。{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:04 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_gepu_08#25",
+   "label": "MES_Gepu_08_K_warp_tut_09_3",
+   "style": 4,
+   "src": "{1:align} せっかくやから ええこと教えたる。{2:wait}",
+   "tags": {
+    "1": "[0001:0001:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:04 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_gepu_08#26",
+   "label": "MES_Gepu_08_K_warp_tut_07_2",
+   "style": 4,
+   "src": "あんたが どこにいても\nず～っと しゃべり倒すで～{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:04 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_gepu_08#27",
+   "label": "MES_Gepu_08_K_warp_tut_05_2",
+   "style": 4,
+   "src": "{1:align}つまり あんたの意識…{2:wait}",
+   "tags": {
+    "1": "[0001:0001:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:04 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_gepu_08#28",
+   "label": "MES_Gepu_08_K_warp_tut_05_3",
+   "style": 4,
+   "src": "わかりやすく言うと あんたの\nこころに 語りかけとんねん。{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:04 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_gepu_08#29",
+   "label": "MES_Gepu_08_K_warp_tut_05_4",
+   "style": 4,
+   "src": "ほいでな あんた ワシの\n意識に ひっかかったんや。{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:04 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_gepu_08#30",
+   "label": "MES_Gepu_08_K_warp_tut_05_5",
+   "style": 4,
+   "src": "{1:align} ちょっと つきあってくれんか？{2:wait}",
+   "tags": {
+    "1": "[0001:0001:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:04 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_gepu_08#31",
+   "label": "MES_Gepu_08_K_warp_tut_12_1",
+   "style": 6,
+   "src": "なんのことだか さっぱりわからんぞ！\n難しいことばかり 言うな！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_gepu_08#32",
+   "label": "MES_Gepu_08_K_warp_tut_12_2",
+   "style": 4,
+   "src": "宇宙と大地から 流れてくる\n特別な波動の 出入り口やで。{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:04 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_gepu_08#33",
+   "label": "MES_Gepu_08_K_warp_tut_10",
+   "style": 6,
+   "src": "なんだ！ はやく言え！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_gepu_08#34",
+   "label": "MES_Gepu_08_K_warp_tut_11",
+   "style": 4,
+   "src": "そこの岩 こわしてみ～\nあんたなら できるやろ～{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:04 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_gepu_08#35",
+   "label": "MES_Gepu_08_K_warp_tut_12",
+   "style": 4,
+   "src": "おお あったあった。{1:pause}\nそれは {2:color}チャクラ{3:color}{4:color}というんや。{5:wait}{6:color}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[Color #2C64FF]",
+    "3": "[Color #E6E6E6]",
+    "4": "[Color #373737]",
+    "5": "[0002:0001:]",
+    "6": "[Color #E6E6E6]"
+   },
+   "header": "[0009:0000:04 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_gepu_08#36",
+   "label": "MES_Gepu_08_K_warp_tut_13",
+   "style": 4,
+   "src": "まぁ ええわ。{1:pause}ほんなら\nその{2:color}チャクラ{3:color}{4:color}に さわってみ～{5:wait}{6:color}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[Color #2C64FF]",
+    "3": "[Color #E6E6E6]",
+    "4": "[Color #373737]",
+    "5": "[0002:0001:]",
+    "6": "[Color #E6E6E6]"
+   },
+   "header": "[0009:0000:04 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_gepu_08#37",
+   "label": "MES_Gepu_08_K_warp_tut_14",
+   "style": 4,
+   "src": "じっと しといてな～\n動いたら あかんねん{1:pause} と。{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:04 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_gepu_08#39",
+   "label": "MES_Gepu_08_K_warp_tut_30",
+   "style": 4,
+   "src": " さぁ だれやろうね…{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:04 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_gepu_08#40",
+   "label": "MES_Gepu_08_K_warp_tut_31",
+   "style": 4,
+   "src": " ほな またな～{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:04 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_gepu_08#41",
+   "label": "MES_Gepu_08_K_warp_tut_32",
+   "style": 6,
+   "src": "おいっ！{1:pause}",
+   "tags": {
+    "1": "[0002:0000:0A 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_gepu_08#42",
+   "label": "MES_Gepu_08_K_warp_tut_30_2",
+   "style": 4,
+   "src": "まぁ この国のどこかに\nいることだけは 確かやで！{1:pause} と。{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:04 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_gepu_11#0",
+   "label": "MES_Gepu_11_Gepu_choropu_01",
+   "style": 12,
+   "src": "{1:align}{2:align}{3:mode}↑ ヅツーダレイク\n{4:align}→ ムッシーバビーチ{5:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0005:0000:]",
+    "4": "[0001:0001:]",
+    "5": "[0002:0001:]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/o_gepu_11#1",
+   "label": "MES_Gepu_11_Gepu_choropu_02",
+   "style": 12,
+   "src": "{1:align}{2:align}{3:mode}地下トンネル工事中{4:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0005:0000:]",
+    "4": "[0002:0001:]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  }
+ ]
+}

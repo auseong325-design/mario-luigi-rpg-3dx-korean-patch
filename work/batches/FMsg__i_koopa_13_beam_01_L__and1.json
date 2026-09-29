@@ -1,0 +1,448 @@
+{
+ "batch": "FMsg__i_koopa_13_beam_01_L__and1",
+ "rooms": [
+  "i_koopa_13_beam_01_L",
+  "i_koopa_13_escape_01_L"
+ ],
+ "ds_rooms": [
+  "051",
+  "05E"
+ ],
+ "ds_reference": [
+  "DS051#0: 메타보스에게 이기게 만들어서\n특제 고칼로리 요리로\n뒤룩뒤룩 살찌운 것은…",
+  "DS051#1: 모두 내 계획이지롱롱!",
+  "DS051#2: 무하하하하하하하!\n보기 좋구나!\n꼴 한번 좋다!",
+  "DS051#3: 롱롱롱롱롱롱…\n사실은 계획을\n조금 바꿨지롱롱.",
+  "DS051#4: 롱롱롱롱롱롱롱롱…[Next]네게 피치공주를 빨아들이게\n한 결과, 버섯 왕국은\n나의 것이 되었지롱롱…[Next]하지만 문제가 생겨서\n피치공주가 필요해졌지롱롱롱!!",
+  "DS051#5: 그렇지롱롱…[Next]하지만 갑자기 피치공주가\n필요해졌지롱롱!!",
+  "DS051#6: 자, 나와라롱롱!!\n피치공주여~ 나와라롱롱롱!!!",
+  "DS05E#0: 와, 완벽하게 지방 덩어리의\n몸이 되었구나, 쿠파!![Next]니, 니 몸속에 있던 피치공주는\n내, 내가 저, 접수할 거지롱롱!",
+  "DS05E#1: 무… 무겁지롱롱…",
+  "DS05E#2: 좋았어!\n이걸로 준비는 갖춰졌지롱롱![Next]드디어 나의 시대가\n도래하는 거지롱롱롱!!",
+  "DS05E#3: 쿠파! 너는 여기에서\n다이어트라도 하든가롱롱!!",
+  "DS05E#4: 무… 무겁지롱롱…",
+  "DS05E#5: 메… 메타보스! 도와라롱롱!",
+  "DS05E#6: 야! 메타보스!",
+  "DS05E#7: 메! 타! 보! 쓰!!",
+  "DS05E#8: 어어!?",
+  "DS05E#9: 하… 하…\n발이 제멋대로 움직이는걸!",
+  "DS05E#10: 빨라~~!!",
+  "DS05E#11: 너무 빠르다고~!!",
+  "DS05E#12: 크아~~!!!",
+  "DS05E#13: 윽! 뜨겁다!!\n뭐가 타고 있나!?",
+  "DS05E#14: 응? 이 몸인가?\n이 몸이 타고 있는 건가!?",
+  "DS05E#15: 오오!! 지방이!!\n이 몸에 쓸모없이 붙어 있던\n지방이 전부 타고 있다!![Next]크핫핫핫핫핫핫!!!\n다이어트 성공이다~!!",
+  "DS05E#16: 가만 있자…\n근데 여기가 어디였지…?",
+  "DS05E#17: 음~ 어디 보자…[Next]폭탄병 보관 창고\n불장난은 절대 금지!!\n폭발에 주의!![Next]…그렇군.",
+  "DS05E#18: 으아~~~~~악!!\n기다려! 기다려!",
+  "DS05E#19: 기다리라고~~!!"
+ ],
+ "glossary": [
+  {
+   "jp": "クッパ",
+   "ko": "쿠파",
+   "type": "boss",
+   "basis": "DS",
+   "source": "BData__mfset_MonN#65",
+   "note": "마리오 일행이 싸우는 쿠파. glossary 확정값과 동일 [gl_enemies]"
+  },
+  {
+   "jp": "メタボス",
+   "ko": "메타보스",
+   "type": "boss",
+   "basis": "DS",
+   "source": "BData__mfset_MonN#34",
+   "note": "glossary 확정값과 동일 [gl_enemies]"
+  },
+  {
+   "jp": "ピーチ姫",
+   "ko": "피치공주",
+   "type": "character",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesOutline#13",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "ボムへい",
+   "ko": "폭탄병",
+   "type": "enemy",
+   "basis": "DS",
+   "source": "FEvent:063#45",
+   "note": "glossary 확정값. RPG1 DX 한국판도 '폭탄병' [gl_enemies]"
+  },
+  {
+   "jp": "キノコ",
+   "ko": "버섯",
+   "type": "item",
+   "basis": "DS",
+   "source": "BData__mfset_UItmN#0",
+   "note": "일반 명사 キノコ도 버섯(キノコタウン=버섯 타운) [gl_items]"
+  },
+  {
+   "jp": "キノコ王国",
+   "ko": "버섯 왕국",
+   "type": "place",
+   "basis": "DS",
+   "source": "FEvent:011#0",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "ワガハイ",
+   "ko": "이 몸",
+   "type": "term",
+   "basis": "DS",
+   "source": "FEvent:025#7",
+   "note": "쿠파의 1인칭 [gl_kj]"
+  }
+ ],
+ "messages": [
+  {
+   "id": "FMsg/i_koopa_13_beam_01_L#0",
+   "label": "MES_EV_SKoopa_13_EV_SK13_metaboss_01",
+   "style": 6,
+   "src": "{1:align}ブハハハハハハハ！\nナントモ ブザマナ\nスガタジャナイカ！{2:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_koopa_13_beam_01_L#1",
+   "label": "MES_EV_SKoopa_13_EV_SK13_geraco_01",
+   "style": 6,
+   "src": "{1:align}メタボスと戦わせて オマエを勝たせ\n特製の 高カロリー料理で\nまるまると 太らせたのは…{2:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_koopa_13_beam_01_L#2",
+   "label": "MES_EV_SKoopa_13_EV_SK13_geraco_02",
+   "style": 6,
+   "src": "{1:align}{2:align}すべてワレの計画るるよ！{3:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_koopa_13_beam_01_L#3",
+   "label": "MES_EV_SKoopa_13_EV_SK13_geraco_03",
+   "style": 6,
+   "src": "{1:align}ふるるるるる…{2:pause}\n実は ちょっと\n予定を かえたるるよ。{3:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0000:0A 00]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_koopa_13_beam_01_L#4",
+   "label": "MES_EV_SKoopa_13_EV_SK13_geraco_04",
+   "style": 6,
+   "src": "{1:align}{2:align}ふるるるるるるる…{3:pause}{4:wait}[Next]{5:align}{6:align}ピーチ姫を オマエに吸い込ませて\nキノコ王国は\nワレのものになったるる…{7:wait}[Next]{8:align}ところが 問題が発生して\nピーチ姫が 必要になったるるる！！{9:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0000:0A 00]",
+    "4": "[0002:0001:]",
+    "5": "[0001:0004:]",
+    "6": "[0001:0000:]",
+    "7": "[0002:0001:]",
+    "8": "[0001:0004:]",
+    "9": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_koopa_13_beam_01_L#5",
+   "label": "MES_EV_SKoopa_13_EV_SK13_geraco_05",
+   "style": 6,
+   "src": "{1:align}そうるる…{2:wait}[Next]{3:align}だけど そのピーチ姫が\n急に 必要になったるる！！{4:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]",
+    "3": "[0001:0004:]",
+    "4": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_koopa_13_beam_01_L#6",
+   "label": "MES_EV_SKoopa_13_EV_SK13_geraco_06",
+   "style": 6,
+   "src": "{1:align}さあ 出てくるるる！！\nピーチ姫よ 出てくるるる！！！！{2:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_koopa_13_escape_01_L#0",
+   "label": "MES_EV_SKoopa_13_sub_EV_SK_13_sub_geraco_01",
+   "style": 6,
+   "src": "{1:align}か かんぺきに 脂肪だらけの\n体になってしまった クッパ！！{2:wait}[Next]{3:align}オ オマエの中にいた ピーチ姫は\nワ ワレが もらっていくるる！！{4:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]",
+    "3": "[0001:0004:]",
+    "4": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_koopa_13_escape_01_L#1",
+   "label": "MES_EV_SKoopa_13_sub_EV_SK_13_sub_geraco_02",
+   "style": 5,
+   "src": "{1:align}{2:align}お… 重いるる…{3:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:05 00]",
+   "dups": [
+    "FMsg/i_koopa_13_escape_01_L#3"
+   ]
+  },
+  {
+   "id": "FMsg/i_koopa_13_escape_01_L#2",
+   "label": "MES_EV_SKoopa_13_sub_EV_SK_13_sub_geraco_03",
+   "style": 6,
+   "src": "{1:align}さあ！\nこれで 準備は整ったるる！{2:wait}[Next]{3:align}ついに ワレの時代が\nやってくるるるっ！！{4:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]",
+    "3": "[0001:0004:]",
+    "4": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_koopa_13_escape_01_L#4",
+   "label": "MES_EV_SKoopa_13_sub_EV_SK_13_sub_geraco_05",
+   "style": 6,
+   "src": "{1:align}{2:align}メ… メタボス！ 手伝うるる！{3:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_koopa_13_escape_01_L#5",
+   "label": "MES_EV_SKoopa_13_sub_EV_SK_13_sub_geraco_06",
+   "style": 9,
+   "src": "{1:align}{2:align}ちょ！ メタボス！{3:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:09 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_koopa_13_escape_01_L#6",
+   "label": "MES_EV_SKoopa_13_sub_EV_SK_13_sub_geraco_07",
+   "style": 10,
+   "src": "{1:mode}{2:align}{3:align}メタボスッ！！{4:wait}",
+   "tags": {
+    "1": "[0005:0000:]",
+    "2": "[0001:0004:]",
+    "3": "[0001:0001:]",
+    "4": "[0002:0001:]"
+   },
+   "header": "[0009:0000:0A 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_koopa_13_escape_01_L#7",
+   "label": "MES_EV_SKoopa_13_sub_EV_SK_13_sub_koopa_10",
+   "style": 6,
+   "src": "{1:align}え～と なになに…{2:wait}[Next]{3:align}ボムへい 保管庫\n火あそびは 絶対にダメ！！\nバクハツに注意！！{4:wait}[Next]{5:align}…か。{6:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]",
+    "3": "[0001:0004:]",
+    "4": "[0002:0001:]",
+    "5": "[0001:0004:]",
+    "6": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_koopa_13_escape_01_L#8",
+   "label": "MES_EV_SKoopa_13_sub_EV_SK_13_sub_koopa_11",
+   "style": 9,
+   "src": "{1:align}うわ～～～～～～っ！！\n待った！ 待った！{2:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:09 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_koopa_13_escape_01_L#9",
+   "label": "MES_EV_SKoopa_13_sub_EV_SK_13_sub_koopa_12",
+   "style": 9,
+   "src": "{1:align}{2:align}ちょっと 待て～～！！{3:pause}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0000:1E 00]"
+   },
+   "header": "[0009:0000:09 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_koopa_13_escape_01_L#10",
+   "label": "MES_EV_SKoopa_13_sub_EV_SK_13_sub_geraco_03_2",
+   "style": 6,
+   "src": "{1:align}クッパよ！ オマエはこれで\nダイエットでもしてるがいいるる！！{2:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_koopa_13_escape_01_L#11",
+   "label": "MES_EV_SKoopa_13_sub_EV_SK_13_sub_koopa_01",
+   "style": 6,
+   "src": "{1:align}{2:align}おおっ！？{3:pause}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0000:1E 00]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_koopa_13_escape_01_L#12",
+   "label": "MES_EV_SKoopa_13_sub_EV_SK_13_sub_koopa_02",
+   "style": 6,
+   "src": "{1:align}はぁ…{2:pause} はぁ…{3:pause}\n足が勝手に{4:pause} 走り続けているぞ！{5:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0000:0A 00]",
+    "3": "[0002:0000:0A 00]",
+    "4": "[0002:0000:0A 00]",
+    "5": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_koopa_13_escape_01_L#13",
+   "label": "MES_EV_SKoopa_13_sub_EV_SK_13_sub_koopa_03",
+   "style": 6,
+   "src": "{1:align}{2:align}まだまだ～！！{3:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_koopa_13_escape_01_L#14",
+   "label": "MES_EV_SKoopa_13_sub_EV_SK_13_sub_koopa_04",
+   "style": 9,
+   "src": "{1:align}{2:align}まだまだまだぁ～！！{3:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:09 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_koopa_13_escape_01_L#15",
+   "label": "MES_EV_SKoopa_13_sub_EV_SK_13_sub_koopa_05",
+   "style": 10,
+   "src": "{1:align}{2:align}ぬおぉ～～っ！！！{3:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:0A 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_koopa_13_escape_01_L#16",
+   "label": "MES_EV_SKoopa_13_sub_EV_SK_13_sub_koopa_06",
+   "style": 6,
+   "src": "{1:align}ムッ！ 熱いぞ！！\nなにが 燃えてるんだ！？{2:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_koopa_13_escape_01_L#17",
+   "label": "MES_EV_SKoopa_13_sub_EV_SK_13_sub_koopa_07",
+   "style": 6,
+   "src": "{1:align}ん？ ワガハイか？\nワガハイが 燃えてるのか！？{2:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_koopa_13_escape_01_L#18",
+   "label": "MES_EV_SKoopa_13_sub_EV_SK_13_sub_koopa_08",
+   "style": 6,
+   "src": "{1:align}おお！！ 脂肪が！！\nワガハイの ムダについた脂肪が\n全部 燃えてくぞ！！{2:wait}[Next]{3:align}ガハハハハハハ！！！\nダイエットに成功だ～！！{4:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]",
+    "3": "[0001:0004:]",
+    "4": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/i_koopa_13_escape_01_L#19",
+   "label": "MES_EV_SKoopa_13_sub_EV_SK_13_sub_koopa_09",
+   "style": 6,
+   "src": "{1:align}そういえば\nここは なんの部屋だったか…？{2:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  }
+ ]
+}

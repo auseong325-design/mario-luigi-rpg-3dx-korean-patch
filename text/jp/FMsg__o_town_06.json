@@ -1,0 +1,33 @@
+{
+ "source": "Msg/JP_ja/FMsg.dat:o_town_06",
+ "messages": [
+  {
+   "id": "FMsg/o_town_06#0",
+   "label": "MES_TKinoko_06_Kinoko_town_chka_bridge_01",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]うわ～[0002:0000:0A 00] マリオさーん！[0002:0001:][Next][Ruby 地下;ちか]のガード[Ruby 装置;そうち]の [Ruby 様子;ようす]を\n[Ruby 見;み]にきたんですけど…[0002:0001:][Next][Ruby 迷;まよ]っちゃったし [Ruby 橋;はし]は[Ruby 動;うご]かせないし\n[Ruby 帰;かえ]れないんですよ～！[0002:0001:][Next][Color #2C64FF][Ruby 橋;はし]を[Ruby 回;まわ]す[Color #373737][Color #373737]には[Color #373737][Color #2C64FF]レバー[Color #373737][Color #373737]を\n[Ruby 叩;たた]いて[Ruby 回;まわ]せば いいんだけど…[0002:0001:][Next]レバーを[Ruby 回;まわ]す[Ruby 道具;どうぐ]を なくしちゃって\nどうしようも できないんですよ～[0002:0001:][Next]マリオさん [Color #373737][Color #2C64FF][Ruby 遠;とお]くのものを[Ruby 叩;たた]く[Color #373737][Color #373737]\nアクション… できませんか～？[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/o_town_06#1",
+   "label": "MES_TKinoko_06_Kinoko_town_chka_bridge_02",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][0001:0004:]うわー！[0002:0000:0A 00] マリオさーん！[0002:0001:][Next][Ruby 地下;ちか]のガード[Ruby 装置;そうち]の [Ruby 様子;ようす]を\n[Ruby 見;み]にきたんですけど…[0002:0001:][Next][Ruby 迷;まよ]っちゃったし [Ruby 橋;はし]は[Ruby 動;うご]かないし\n[Ruby 帰;かえ]れないんですよ～！[0002:0001:][Next][Color #2C64FF][Ruby 橋;はし]を[Ruby 回;まわ]す[Color #373737][Color #373737]には[Color #373737][Color #2C64FF]レバー[Color #373737][Color #373737]を\n[Ruby 叩;たた]いて[Ruby 回;まわ]せば いいんだけど…[0002:0001:][Next]レバーを[Ruby 回;まわ]す[Ruby 道具;どうぐ]を なくしちゃって\nどうしようも できないんですよ～[0002:0001:][Next][0001:0004:][0001:0001:]どうしよう…[0002:0001:][Color #373737]"
+  },
+  {
+   "id": "FMsg/o_town_06#2",
+   "label": "MES_TKinoko_06_Kinoko_town_chka_bridge_03",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Color #2C64FF][Ruby 橋;はし]を[Ruby 回;まわ]す[Color #373737][Color #373737]には[Color #373737][Color #2C64FF]レバー[Color #373737][Color #373737]を\n[Ruby 叩;たた]いて[Ruby 回;まわ]せば いいんだけど…[0002:0001:][Next]レバーを[Ruby 回;まわ]す[Ruby 道具;どうぐ]を なくしちゃって\nどうしようも できないんですよ～[0002:0001:][Next]マリオさん どこかで[Color #373737][Color #2C64FF][Ruby 遠;とお]くのものを[Ruby 叩;たた]く[Color #373737][Color #373737]\nアクションを [Ruby 覚;おぼ]えてきてくれませんか？[0002:0001:][Next][0001:0001:]お[Ruby 願;ねが]いします！[Color #373737][0002:0001:]"
+  },
+  {
+   "id": "FMsg/o_town_06#3",
+   "label": "MES_TKinoko_06_Kinoko_town_chka_bridge_04",
+   "style": 6,
+   "attr": "00000000",
+   "jp": "[0009:0000:06 00][Color #2C64FF][Ruby 橋;はし]を[Ruby 回;まわ]す[Color #373737][Color #373737]には[Color #373737][Color #2C64FF]レバー[Color #373737][Color #373737]を\n[Ruby 叩;たた]いて[Ruby 回;まわ]せば いいんだけど…[0002:0001:][Next]レバーを[Ruby 回;まわ]す[Ruby 道具;どうぐ]を なくしちゃって\nどうしようも できないんですよ～[0002:0001:][Next][0001:0004:][0001:0001:]どうしよう…[0002:0001:][Color #373737]"
+  }
+ ]
+}

@@ -1,0 +1,635 @@
+{
+ "btn_USE_00_JP_ja": {
+  "ko": "사용하기",
+  "fmt": "ETC1A4",
+  "overrides": {
+   "jp_text": "つかう"
+  },
+  "sources": [
+   [
+    [
+     "사용하기",
+     "font:font"
+    ]
+   ]
+  ],
+  "fit": {
+   "hscale": 1.0,
+   "tracking": 0.0,
+   "overflow": false,
+   "width": 61.5,
+   "lines": 1
+  },
+  "weight": {
+   "target_px": 3.071,
+   "glyph_px": 2.119,
+   "achieved_px": 2.998,
+   "ratio": 0.976
+  },
+  "summary": {
+   "em_ratio": 1.062,
+   "stroke_ratio": 0.918,
+   "face_color_diff": 0.0,
+   "outline_width_diff": 0.0,
+   "outline_color_diff": 0.0,
+   "layer_count": [
+    1,
+    1
+   ],
+   "shadow_offset_diff": 0.0
+  },
+  "problems": [],
+  "sec": 1.6
+ },
+ "btn_cancel_00_JP_ja": {
+  "ko": "취소",
+  "fmt": "LA4",
+  "overrides": {
+   "jp_text": "やめる"
+  },
+  "sources": [
+   [
+    [
+     "취소",
+     "same_word"
+    ]
+   ]
+  ],
+  "fit": {
+   "hscale": 1.0,
+   "tracking": 0.0,
+   "overflow": false,
+   "width": 36.5,
+   "lines": 1
+  },
+  "weight": {
+   "target_px": 3.634,
+   "glyph_px": 2.804,
+   "achieved_px": 3.605,
+   "ratio": 0.992
+  },
+  "summary": {
+   "em_ratio": 1.062,
+   "stroke_ratio": 0.935,
+   "face_color_diff": 0.0,
+   "outline_width_diff": 0.0,
+   "outline_color_diff": 0.0,
+   "layer_count": [
+    1,
+    1
+   ],
+   "shadow_offset_diff": 0.0
+  },
+  "problems": [],
+  "sec": 0.4
+ },
+ "RANK_NAME_STAR_00_JP_ja": {
+  "ko": "스타 랭크",
+  "fmt": "ETC1A4",
+  "overrides": {
+   "jp_text": "スターランク"
+  },
+  "sources": [
+   [
+    [
+     "스타",
+     "font:font"
+    ],
+    [
+     "랭크",
+     "compose:font(랭)"
+    ]
+   ]
+  ],
+  "fit": {
+   "hscale": 1.0,
+   "tracking": 0.0,
+   "overflow": false,
+   "width": 64.0,
+   "lines": 1
+  },
+  "weight": {
+   "target_px": 2.978,
+   "glyph_px": 1.856,
+   "achieved_px": 2.904,
+   "ratio": 0.975
+  },
+  "summary": {
+   "em_ratio": 1.143,
+   "stroke_ratio": 0.731,
+   "face_color_diff": 0.0,
+   "outline_width_diff": 0.25,
+   "outline_color_diff": 0.276,
+   "layer_count": [
+    1,
+    2
+   ],
+   "shadow_offset_diff": 0.0
+  },
+  "problems": [
+   "글자 높이 비 1.143",
+   "획 두께 비 0.731",
+   "테두리 겹 수 (1, 2)",
+   "테두리 색 차 0.276"
+  ],
+  "sec": 1.4
+ },
+ "LTIT_btl_HINT_00_JP_ja": {
+  "ko": "힌트",
+  "fmt": "LA4",
+  "overrides": {
+   "jp_text": "ヒント"
+  },
+  "sources": [
+   [
+    [
+     "힌트",
+     "font:font_btl"
+    ]
+   ]
+  ],
+  "fit": {
+   "hscale": 1.0,
+   "tracking": 0.0,
+   "overflow": false,
+   "width": 22.5,
+   "lines": 1
+  },
+  "weight": {
+   "target_px": 2.262,
+   "glyph_px": 1.905,
+   "achieved_px": 2.209,
+   "ratio": 0.977
+  },
+  "summary": {
+   "em_ratio": 1.091,
+   "stroke_ratio": 0.897,
+   "face_color_diff": 0.0,
+   "outline_width_diff": 0.0,
+   "outline_color_diff": null,
+   "layer_count": [
+    0,
+    0
+   ],
+   "shadow_offset_diff": 0.0
+  },
+  "problems": [],
+  "sec": 0.3
+ },
+ "btn_KJ_LA_12_00_JP_ja": {
+  "ko": "치켜세우기",
+  "fmt": "LA4",
+  "overrides": {
+   "jp_text": "おだてる"
+  },
+  "sources": [
+   [
+    [
+     "치켜세우기",
+     "font:font"
+    ]
+   ]
+  ],
+  "fit": {
+   "hscale": 1.0,
+   "tracking": 0.0,
+   "overflow": false,
+   "width": 72.5,
+   "lines": 1
+  },
+  "weight": {
+   "target_px": 3.292,
+   "glyph_px": 2.038,
+   "achieved_px": 3.249,
+   "ratio": 0.987
+  },
+  "summary": {
+   "em_ratio": 0.938,
+   "stroke_ratio": 1.059,
+   "face_color_diff": 0.0,
+   "outline_width_diff": 0.0,
+   "outline_color_diff": 0.0,
+   "layer_count": [
+    1,
+    1
+   ],
+   "shadow_offset_diff": 0.0
+  },
+  "problems": [],
+  "sec": 0.4
+ },
+ "STbr_BP_00_JP_ja": {
+  "ko": "SP",
+  "fmt": "LA4",
+  "overrides": {
+   "jp_text": "BP",
+   "donors": [
+    [
+     "C:\\mario-luigi-rpg-3dx-korean-patch\\work\\img\\lyt\\3DX\\BLyt\\btl_RESLT_LYT_JP_ja\\STbr_BP_00_JP_ja.png",
+     "BP"
+    ],
+    [
+     "C:\\mario-luigi-rpg-3dx-korean-patch\\work\\img\\lyt\\3DX\\BLyt\\btl_RESLT_LYT_JP_ja\\STbr_SPEED_00_JP_ja.png",
+     "SPEED"
+    ]
+   ]
+  },
+  "sources": [
+   [
+    [
+     "SP",
+     "donor"
+    ]
+   ]
+  ],
+  "fit": {
+   "hscale": 1.0,
+   "tracking": 0.0,
+   "overflow": false,
+   "width": 18.5,
+   "lines": 1
+  },
+  "weight": {
+   "target_px": 2.162,
+   "glyph_px": 0.0,
+   "achieved_px": 2.239,
+   "ratio": 1.036
+  },
+  "summary": {
+   "em_ratio": 1.111,
+   "stroke_ratio": 0.949,
+   "face_color_diff": 0.179,
+   "outline_width_diff": 0.0,
+   "outline_color_diff": 0.0,
+   "layer_count": [
+    1,
+    1
+   ],
+   "shadow_offset_diff": 0.0
+  },
+  "problems": [
+   "채움색 차 0.179"
+  ],
+  "sec": 0.3
+ },
+ "LTIT_ITEM_00_JP_ja": {
+  "ko": "아이템",
+  "fmt": "LA4",
+  "overrides": {
+   "jp_text": "アイテム"
+  },
+  "sources": [
+   [
+    [
+     "아이템",
+     "font:font_btl"
+    ]
+   ]
+  ],
+  "fit": {
+   "hscale": 1.0,
+   "tracking": 0.0,
+   "overflow": false,
+   "width": 33.5,
+   "lines": 1
+  },
+  "weight": {
+   "target_px": 2.322,
+   "glyph_px": 1.844,
+   "achieved_px": 2.287,
+   "ratio": 0.985
+  },
+  "summary": {
+   "em_ratio": 1.091,
+   "stroke_ratio": 0.906,
+   "face_color_diff": 0.0,
+   "outline_width_diff": 0.0,
+   "outline_color_diff": null,
+   "layer_count": [
+    0,
+    0
+   ],
+   "shadow_offset_diff": 0.0
+  },
+  "problems": [],
+  "sec": 0.3
+ },
+ "SHOP_TIT_BADGE_00_JP_ja": {
+  "ko": "배지 숍",
+  "fmt": "LA4",
+  "overrides": {
+   "jp_text": "バッジショップ"
+  },
+  "sources": [
+   [
+    [
+     "배지",
+     "font:font_btl"
+    ],
+    [
+     "숍",
+     "font:font_btl"
+    ]
+   ]
+  ],
+  "fit": {
+   "hscale": 1.0,
+   "tracking": 0.0,
+   "overflow": false,
+   "width": 39.5,
+   "lines": 1
+  },
+  "weight": {
+   "target_px": 1.988,
+   "glyph_px": 1.963,
+   "achieved_px": 2.051,
+   "ratio": 1.032
+  },
+  "summary": {
+   "em_ratio": 0.917,
+   "stroke_ratio": 1.132,
+   "face_color_diff": 0.0,
+   "outline_width_diff": 0.0,
+   "outline_color_diff": null,
+   "layer_count": [
+    0,
+    0
+   ],
+   "shadow_offset_diff": 0.0
+  },
+  "problems": [],
+  "sec": 0.4
+ },
+ "btn_F_MAP_OPEN_00_JP_ja": {
+  "ko": "열기",
+  "fmt": "LA4",
+  "overrides": {
+   "jp_text": "ひらく"
+  },
+  "sources": [
+   [
+    [
+     "열기",
+     "font:font_btl"
+    ]
+   ]
+  ],
+  "fit": {
+   "hscale": 1.0,
+   "tracking": 0.0,
+   "overflow": false,
+   "width": 21.5,
+   "lines": 1
+  },
+  "weight": {
+   "target_px": 1.852,
+   "glyph_px": 1.981,
+   "achieved_px": 1.492,
+   "ratio": 0.805
+  },
+  "summary": {
+   "em_ratio": 1.1,
+   "stroke_ratio": 0.81,
+   "face_color_diff": 0.05,
+   "outline_width_diff": 0.0,
+   "outline_color_diff": 0.017,
+   "layer_count": [
+    1,
+    1
+   ],
+   "shadow_offset_diff": 0.0
+  },
+  "problems": [],
+  "sec": 0.3
+ },
+ "KJ_TYPE_02_00_JP_ja": {
+  "ko": "비행",
+  "fmt": "LA4",
+  "overrides": {
+   "jp_text": "ひこう"
+  },
+  "sources": [
+   [
+    [
+     "비행",
+     "bank:KG_HENSEI_TYPE_02"
+    ]
+   ]
+  ],
+  "fit": {
+   "hscale": 1.0,
+   "tracking": 0.0,
+   "overflow": false,
+   "width": 23.0,
+   "lines": 1
+  },
+  "weight": {
+   "target_px": 2.688,
+   "glyph_px": 1.891,
+   "achieved_px": 2.719,
+   "ratio": 1.012
+  },
+  "summary": {
+   "em_ratio": 1.167,
+   "stroke_ratio": 0.86,
+   "face_color_diff": 0.0,
+   "outline_width_diff": 0.0,
+   "outline_color_diff": 0.0,
+   "layer_count": [
+    1,
+    1
+   ],
+   "shadow_offset_diff": 0.0
+  },
+  "problems": [
+   "글자 높이 비 1.167"
+  ],
+  "sec": 0.3
+ },
+ "ja_slide_text": {
+  "ko": "슬라이드!",
+  "fmt": "ETC1A4",
+  "overrides": {
+   "jp_text": "スライド！"
+  },
+  "sources": [
+   [
+    [
+     "슬라이드",
+     "compose:font_l(슬)"
+    ],
+    [
+     "!",
+     "font:font_l"
+    ]
+   ]
+  ],
+  "fit": {
+   "hscale": 1.0,
+   "tracking": 0.0,
+   "overflow": false,
+   "width": 85.25,
+   "lines": 1
+  },
+  "weight": {
+   "target_px": 3.692,
+   "glyph_px": 2.611,
+   "achieved_px": 3.576,
+   "ratio": 0.969
+  },
+  "summary": {
+   "em_ratio": 1.1,
+   "stroke_ratio": 0.871,
+   "face_color_diff": 0.0,
+   "outline_width_diff": 0.0,
+   "outline_color_diff": 0.003,
+   "layer_count": [
+    1,
+    1
+   ],
+   "shadow_offset_diff": 0.0
+  },
+  "problems": [],
+  "sec": 2.6
+ },
+ "ja_modoru_text": {
+  "ko": "돌아가기",
+  "fmt": "ETC1A4",
+  "overrides": {
+   "jp_text": "もどる"
+  },
+  "sources": [
+   [
+    [
+     "돌아가기",
+     "font:font"
+    ]
+   ]
+  ],
+  "fit": {
+   "hscale": 1.0,
+   "tracking": 0.0,
+   "overflow": false,
+   "width": 61.5,
+   "lines": 1
+  },
+  "weight": {
+   "target_px": 3.498,
+   "glyph_px": 2.092,
+   "achieved_px": 3.396,
+   "ratio": 0.971
+  },
+  "summary": {
+   "em_ratio": 1.062,
+   "stroke_ratio": 0.921,
+   "face_color_diff": 0.0,
+   "outline_width_diff": 0.0,
+   "outline_color_diff": 0.008,
+   "layer_count": [
+    1,
+    1
+   ],
+   "shadow_offset_diff": 0.0
+  },
+  "problems": [],
+  "sec": 1.9
+ },
+ "ja_renzoku_slide_text": {
+  "ko": "연속 슬라이드!",
+  "fmt": "ETC1A4",
+  "overrides": {
+   "jp_text": "れんぞくスライド！"
+  },
+  "sources": [
+   [
+    [
+     "연속",
+     "compose:font_l(연)"
+    ],
+    [
+     "슬라이드",
+     "compose:font_l(슬)"
+    ],
+    [
+     "!",
+     "font:font_l"
+    ]
+   ]
+  ],
+  "fit": {
+   "hscale": 1.0,
+   "tracking": 0.0,
+   "overflow": false,
+   "width": 147.5,
+   "lines": 1
+  },
+  "weight": {
+   "target_px": 3.898,
+   "glyph_px": 2.842,
+   "achieved_px": 3.89,
+   "ratio": 0.998
+  },
+  "summary": {
+   "em_ratio": 1.19,
+   "stroke_ratio": 0.832,
+   "face_color_diff": 0.0,
+   "outline_width_diff": 0.0,
+   "outline_color_diff": 0.001,
+   "layer_count": [
+    1,
+    1
+   ],
+   "shadow_offset_diff": 0.0
+  },
+  "problems": [
+   "글자 높이 비 1.19"
+  ],
+  "sec": 3.6
+ },
+ "ja_sentaku_yes": {
+  "ko": "예",
+  "fmt": "ETC1A4",
+  "overrides": {
+   "jp_text": "はい"
+  },
+  "sources": [
+   [
+    [
+     "예",
+     "font:font"
+    ]
+   ]
+  ],
+  "fit": {
+   "hscale": 1.0,
+   "tracking": 0.0,
+   "overflow": false,
+   "width": 13.5,
+   "lines": 1
+  },
+  "weight": {
+   "target_px": 2.629,
+   "glyph_px": 3.043,
+   "achieved_px": 1.699,
+   "ratio": 0.646
+  },
+  "summary": {
+   "em_ratio": 0.867,
+   "stroke_ratio": 0.789,
+   "face_color_diff": 0.296,
+   "outline_width_diff": 0.0,
+   "outline_color_diff": 0.009,
+   "layer_count": [
+    1,
+    1
+   ],
+   "shadow_offset_diff": 0.0
+  },
+  "problems": [
+   "글자 높이 비 0.867",
+   "획 두께 비 0.789",
+   "채움색 차 0.296"
+  ],
+  "sec": 0.8
+ }
+}

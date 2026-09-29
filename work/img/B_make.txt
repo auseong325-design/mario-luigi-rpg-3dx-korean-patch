@@ -1,0 +1,46 @@
+LABEL_MLRPG_00_JP_ja           compose        [['font:font', '마리오', 0.8], ['orig', 36, 45], ['font:font', '루이지', 0.8], ['orig', 93, 131]] hs=1.0 tr=0.0 w=122.36/328.5 wd=None 
+NEW_DATA_text_00_JP_ja         newgame        BlackHanSans-Regular.ttf hs=None tr=None w=None/None wd=None 
+btn_RETURN_TITLE_00_JP_ja      compose        [['font:font', '타이틀로', 0.933], ['font:font', '돌아가기', 0.933]] hs=1.0 tr=0.0 w=118.49/167.3 wd=None 글자 높이 비 1.143
+btn_CONTINUE_00_JP_ja          compose        [['font:font', '모험', 0.933], ['font:font', '계속하기', 0.933]] hs=1.0 tr=0.0 w=88.62/167.3 wd=None 글자 높이 비 1.231
+btn_SAVE_text_00_JP_ja         1dx_same_word  1DX:MLyt/MLYT_FILE_SAVE_KR_ko/timg/btn_SAVE_text_12_KR_ko.bflim hs=1.0 tr=None w=None/None wd=0.59 
+btn_equip_00_JP_ja             compose        [['font+compose:font_l', '착*용하기', 0.762]] hs=1.0 tr=0.0 w=67.05/103.3 wd=None 글자 높이 비 1.25 획 두께 비 0.789
+SHOP_TIT_EQUIP3_00_JP_ja       compose        [['font:font', '럭셔리', 0.867], ['font:font', '숍', 0.867]] hs=1.0 tr=0.0 w=52.82/178.5 wd=None 
+SHOP_TIT_BLODOG_00_JP_ja       compose        [['font:font', '블도그', 0.867], ['font:font', '숍', 0.867]] hs=1.0 tr=0.0 w=58.89/179.5 wd=None 글자 높이 비 1.167
+btn_scratch_00_JP_ja           compose        [['font:font_l', '예', 0.762]] hs=1.0 tr=0.0 w=15.24/103.3 wd=None 
+SHOP_TIT_EQUIP1_00_JP_ja       compose        [['font:font', '장비', 0.867], ['font:font', '숍', 0.867]] hs=1.0 tr=0.0 w=42.42/178.5 wd=None 글자 높이 비 1.167
+SHOP_TIT_BADGE_00_JP_ja        compose        [['font:font', '배지', 0.867], ['font:font', '숍', 0.867]] hs=1.0 tr=0.0 w=41.56/179.5 wd=None 글자 높이 비 1.167
+SHOP_TIT_BLOCK_00_JP_ja        compose        [['font:font', '상점블록', 0.867]] hs=1.0 tr=0.0 w=52.87/179.5 wd=None 
+SHOP_TIT_BLILOCK_00_JP_ja      compose        [['font:font', '블로크', 0.867], ['font:font', '숍', 0.867]] hs=1.0 tr=0.0 w=58.89/179.5 wd=None 글자 높이 비 1.167
+shop_top_acce_text_00_JP_ja    compose        [['font:font', '액세서리', 0.867]] hs=1.0 tr=0.0 w=47.67/91.3 wd=None 글자 높이 비 1.273
+btn_sell_00_JP_ja              1dx_same_word  1DX:MLyt/MLYT_SHOP_KR_ko/timg/btn_sell_12_KR_ko.bflim hs=1.0 tr=None w=None/None wd=0.25 
+shop_top_sell_text_00_JP_ja    1dx_same_word  1DX:MLyt/MLYT_SHOP_KR_ko/timg/shop_top_sell_text_12_KR_ko.bflim hs=1.0 tr=None w=None/None wd=0.2 글자 높이 비 1.273 채움색 차 0.15
+shop_top_koura_text_00_JP_ja   compose        [['font:font', '등껍질', 0.867]] hs=1.0 tr=0.0 w=38.13/91.3 wd=None 글자 높이 비 1.364 획 두께 비 0.648
+SHOP_TIT_EQUIP2_00_JP_ja       compose        [['font:font', '부티크', 0.867], ['font:font', '키노다', 0.867]] hs=1.0 tr=0.0 w=81.42/178.5 wd=None 
+shop_top_badge_text_00_JP_ja   compose        [['font:font', '배지', 0.867]] hs=1.0 tr=0.0 w=23.4/91.3 wd=None 채움색 차 0.225
+btn_later_00_JP_ja             1dx_same_word  1DX:MLyt/MLYT_SHOP_KR_ko/timg/btn_later_12_KR_ko.bflim hs=1.0 tr=None w=None/None wd=0.324 
+shop_top_wear_text_00_JP_ja    1dx_same_word  1DX:MLyt/MLYT_SHOP_KR_ko/timg/shop_top_wear_01_text_12_KR_ko.bflim hs=1.0 tr=None w=None/None wd=0.183 글자 높이 비 1.182
+shop_top_item_text_00_JP_ja    1dx_same_word  1DX:GLyt/G_BG_12_KR_ko/timg/TOP_MENU_TEXT_1_12_KR_ko.bflim hs=1.0 tr=None w=None/None wd=0.345 글자 높이 비 1.273 채움색 차 0.263
+btn_buy_00_JP_ja               1dx_same_word  1DX:MLyt/MLYT_SHOP_KR_ko/timg/btn_buy_12_KR_ko.bflim hs=1.0 tr=None w=None/None wd=0.341 글자 높이 비 1.125
+shop_top_equip_text_00_JP_ja   1dx_same_word  1DX:GLyt/G_BG_12_KR_ko/timg/TOP_MENU_TEXT_2_12_KR_ko.bflim hs=1.0 tr=None w=None/None wd=0.28 글자 높이 비 1.25 채움색 차 0.167
+SHOP_TIT_ITEM_00_JP_ja         compose        [['font:font', '아이템', 0.867], ['font:font', '숍', 0.867]] hs=1.0 tr=0.0 w=55.42/178.5 wd=None 글자 높이 비 1.273
+TOP_MENU_TEXT_3_00_JP_ja       compose        [['font:font', '능력', 0.867]] hs=1.0 tr=0.0 w=25.13/75.3 wd=None 글자 높이 비 1.364 획 두께 비 0.781
+TOP_MENU_TEXT_1_00_JP_ja       1dx_same_word  1DX:GLyt/G_BG_12_KR_ko/timg/TOP_MENU_TEXT_1_12_KR_ko.bflim hs=1.0 tr=None w=None/None wd=0.345 글자 높이 비 1.273 채움색 차 0.263
+TOP_MENU_TEXT_6_00_JP_ja       1dx_same_word  1DX:GLyt/G_BG_12_KR_ko/timg/TOP_MENU_TEXT_4_12_KR_ko.bflim hs=1.0 tr=None w=None/None wd=0.184 글자 높이 비 1.167
+TOP_MENU_TEXT_4_00_JP_ja       1dx_same_word  1DX:MLyt/MLYT_MAIN_KR_ko/timg/TOP_MENU_TEXT_5_12_KR_ko.bflim hs=1.0 tr=None w=None/None wd=0.415 글자 높이 비 1.273 테두리 겹 수 (1, 2) 테두리 두께 차 1.25
+TOP_MENU_TEXT_2_00_JP_ja       1dx_same_word  1DX:GLyt/G_BG_12_KR_ko/timg/TOP_MENU_TEXT_2_12_KR_ko.bflim hs=1.0 tr=None w=None/None wd=0.28 글자 높이 비 1.25 채움색 차 0.167
+TOP_MENU_TEXT_5_00_JP_ja       compose        [['font:font', '배지', 0.867]] hs=1.0 tr=0.0 w=23.4/75.3 wd=None 채움색 차 0.225
+tab_SET_OFF2_00_JP_ja          compose        [['font:font_l', '없음', 0.762]] hs=1.0 tr=0.0 w=34.29/91.3 wd=None 글자 높이 비 1.188
+tab_SET_ON2_00_JP_ja           compose        [['font:font_l', '있음', 0.762]] hs=1.0 tr=0.0 w=33.52/91.3 wd=None 글자 높이 비 1.188
+btn_KJRPG_00_JP_ja             compose        [['font:font_l', '쿠파주니어', 0.762], ['orig', 132, 173]] hs=1.0 tr=0.0 w=127.8/227.3 wd=None 
+btn_SLOT_00_JP_ja              compose        [['font+compose:font_l', '슬*롯*', 0.571]] hs=1.0 tr=0.0 w=25.71/127.0 wd=None 글자 높이 비 1.273
+btn_DERACE_00_JP_ja            1dx_same_word  1DX:MLyt/MLYT_FILE_LOAD_KR_ko/timg/btn_load_DERACE_text_12_KR_ko.bflim hs=1.0 tr=None w=None/None wd=0.329 
+btn_COPY_00_JP_ja              1dx_same_word  1DX:MLyt/MLYT_FILE_LOAD_KR_ko/timg/btn_load_COPY_text_12_KR_ko.bflim hs=1.0 tr=None w=None/None wd=0.287 
+btn_CANCEL2_00_JP_ja           1dx_same_word  1DX:MLyt/MLYT_FILE_LOAD_KR_ko/timg/btn_load_DONOT_text_12_KR_ko.bflim hs=1.0 tr=None w=None/None wd=0.319 글자 높이 비 1.182
+LABEL_KJRPG_00_JP_ja           compose        [['font:font', '쿠파주니어', 0.8], ['orig', 53, 84]] hs=1.0 tr=0.0 w=94.96/254.5 wd=None 
+btn_FERASE_00_JP_ja            1dx_same_word  1DX:MLyt/MLYT_FILE_LOAD_KR_ko/timg/btn_load_FERACE_text_12_KR_ko.bflim hs=1.0 tr=None w=None/None wd=0.293 
+btn_DELETE1_00_JP_ja           1dx_same_word  1DX:MLyt/MLYT_FILE_LOAD_KR_ko/timg/btn_load_DELETE_text_12_KR_ko.bflim hs=1.0 tr=None w=None/None wd=0.245 
+btn_OWRITE_00_JP_ja            1dx_same_word  1DX:MLyt/MLYT_FILE_LOAD_KR_ko/timg/btn_load_OWRITE_text_12_KR_ko.bflim hs=1.0 tr=None w=None/None wd=0.444 글자 높이 비 1.182 획 두께 비 0.783
+btn_MLRPG3_00_JP_ja            compose        [['font:font_l', '마리오', 0.762], ['orig', 77, 89], ['font:font_l', '루이지', 0.762], ['orig', 153, 203]] hs=1.0 tr=0.0 w=165.04/227.3 wd=None 글자 높이 비 1.125
+btn_START_00_JP_ja             1dx_same_word  1DX:MLyt/MLYT_FILE_LOAD_KR_ko/timg/btn_load_START_text_12_KR_ko.bflim hs=1.0 tr=None w=None/None wd=0.539 글자 높이 비 1.125
+STATUS_EQUIP_00_JP_ja          1dx_same_word  1DX:GLyt/G_BG_12_KR_ko/timg/TOP_MENU_TEXT_2_12_KR_ko.bflim hs=1.0 tr=None w=None/None wd=0.201 글자 높이 비 1.182 채움색 차 0.2
+STATUS_RANKBONUS_00_JP_ja      compose        [['font+compose:font', '랭*크', 0.8], ['font:font', '업', 0.8], ['font:font', '보너스', 0.8]] hs=1.0 tr=0.0 w=78.32/145.3 wd=None 글자 높이 비 1.167 채움색 차 0.296

@@ -1,0 +1,46 @@
+file_label     LABEL_MLRPG_00_JP_ja           [330, 20] em12.0 st2.36 face 1.00..1.00 lay[] - box[1, 3, 130, 15] left
+file_label     NEW_DATA_text_00_JP_ja         [256, 32] em14.0 st3.24 face 1.00..1.00 lay[] - box[80, 9, 174, 22] center | 1DX em15.0 st3.98 lay 2.75 box(75, 8, 180, 23)
+file_btn       btn_RETURN_TITLE_00_JP_ja      [172, 22] em14.0 st2.98 face 0.70..0.90 lay[1.75@0.00] - box[33, 4, 139, 18] center | 1DX em16.0 st2.32 lay 2.75 box(47, 9, 180, 25)
+file_btn       btn_CONTINUE_00_JP_ja          [172, 22] em13.0 st3.05 face 0.70..0.90 lay[1.75@0.00] - box[24, 4, 148, 17] center
+file_btn       btn_SAVE_text_00_JP_ja         [128, 24] em17.0 st3.35 face 0.87..1.00 lay[1.75@0.00] - box[40, 3, 88, 20] center | 1DX em18.0 st2.38 lay 2.75 box(96, 9, 131, 26)
+shop_btn       btn_equip_00_JP_ja             [108, 24] em16.0 st3.25 face 0.74..0.70 lay[1.75@0.00] - box[29, 4, 78, 20] center | 1DX em18.0 st2.47 lay 2.75 box(28, 9, 97, 26)
+shop_title     SHOP_TIT_EQUIP3_00_JP_ja       [180, 16] em13.0 st2.16 face 1.00..1.00 lay[] - box[1, 1, 85, 13] left
+shop_title     SHOP_TIT_BLODOG_00_JP_ja       [180, 16] em12.0 st2.34 face 1.00..1.00 lay[] - box[0, 1, 95, 13] left
+shop_btn       btn_scratch_00_JP_ja           [108, 24] em15.0 st2.92 face 1.00..0.73 lay[2.00@0.00] - box[38, 5, 68, 20] center | 1DX em11.0 st2.85 lay 1.75 box(50, 7, 61, 18)
+shop_title     SHOP_TIT_EQUIP1_00_JP_ja       [180, 16] em12.0 st2.15 face 1.00..1.00 lay[] - box[1, 1, 85, 13] left
+shop_title     SHOP_TIT_BADGE_00_JP_ja        [180, 16] em12.0 st1.99 face 1.00..1.00 lay[] - box[0, 1, 85, 13] left
+shop_title     SHOP_TIT_BLOCK_00_JP_ja        [180, 16] em13.0 st2.13 face 1.00..1.00 lay[] - box[0, 1, 95, 13] left
+shop_title     SHOP_TIT_BLILOCK_00_JP_ja      [180, 16] em12.0 st2.34 face 1.00..1.00 lay[] - box[0, 1, 95, 13] left
+shop_top       shop_top_acce_text_00_JP_ja    [96, 22] em11.0 st2.38 face 0.75..0.80 lay[1.75@0.00] - box[15, 5, 81, 16] center | 1DX em15.0 st1.92 lay 3.00 box(16, 10, 63, 24)
+shop_btn       btn_sell_00_JP_ja              [108, 24] em16.0 st3.45 face 0.87..1.00 lay[1.75@0.00] - box[39, 4, 69, 20] center | 1DX em17.0 st3.00 lay 2.75 box(47, 9, 80, 26)
+shop_top       shop_top_sell_text_00_JP_ja    [96, 22] em11.0 st2.55 face 0.80..0.90 lay[1.75@0.00] - box[37, 5, 59, 16] center | 1DX em14.0 st2.19 lay 2.75 box(25, 10, 54, 24)
+shop_top       shop_top_koura_text_00_JP_ja   [96, 22] em11.0 st2.80 face 0.70..0.90 lay[1.75@0.00] - box[30, 6, 64, 17] center | 1DX em15.0 st1.92 lay 3.00 box(16, 10, 63, 24)
+shop_title     SHOP_TIT_EQUIP2_00_JP_ja       [180, 16] em12.0 st2.22 face 1.00..1.00 lay[] - box[1, 1, 98, 13] left
+shop_top       shop_top_badge_text_00_JP_ja   [96, 22] em12.0 st1.99 face 0.80..0.75 lay[1.75@0.00] - box[31, 5, 65, 17] center | 1DX em10.0 st1.93 lay 2.75 box(25, 11, 54, 21)
+shop_btn       btn_later_00_JP_ja             [108, 24] em16.0 st3.52 face 1.00..0.93 lay[1.75@0.00] - box[30, 4, 77, 20] center | 1DX em18.0 st2.96 lay 2.75 box(38, 9, 88, 27)
+shop_top       shop_top_wear_text_00_JP_ja    [96, 22] em11.0 st2.28 face 0.80..0.80 lay[1.75@0.00] - box[32, 5, 64, 16] center | 1DX em13.0 st2.06 lay 2.75 box(24, 9, 54, 22)
+shop_top       shop_top_item_text_00_JP_ja    [96, 22] em11.0 st2.32 face 0.80..0.78 lay[1.75@0.00] - box[26, 5, 70, 16] center | 1DX em15.0 st1.92 lay 3.00 box(16, 10, 63, 24)
+shop_btn       btn_buy_00_JP_ja               [108, 24] em16.0 st3.06 face 1.00..1.00 lay[1.75@0.00] - box[39, 4, 69, 20] center | 1DX em15.0 st2.41 lay 2.75 box(47, 9, 80, 24)
+shop_top       shop_top_equip_text_00_JP_ja   [96, 22] em12.0 st2.40 face 0.77..0.90 lay[1.75@0.00] - box[30, 5, 65, 17] center | 1DX em16.0 st2.01 lay 2.75 box(17, 8, 63, 24)
+shop_title     SHOP_TIT_ITEM_00_JP_ja         [180, 16] em11.0 st2.16 face 1.00..1.00 lay[] - box[1, 2, 97, 13] left
+menu_top       TOP_MENU_TEXT_3_00_JP_ja       [80, 24] em11.0 st2.39 face 0.93..0.75 lay[2.00@0.00] - box[12, 6, 68, 17] center | 1DX em14.0 st2.24 lay 2.75 box(7, 4, 88, 18)
+menu_top       TOP_MENU_TEXT_1_00_JP_ja       [80, 24] em11.0 st2.32 face 0.80..0.78 lay[1.75@0.00] - box[18, 6, 62, 17] center | 1DX em17.0 st2.12 lay 3.00 box(23, 4, 73, 20)
+menu_top       TOP_MENU_TEXT_6_00_JP_ja       [80, 24] em12.0 st2.35 face 0.87..0.90 lay[2.00@0.00] - box[24, 6, 56, 18] center | 1DX em13.0 st2.07 lay 3.00 box(23, 4, 72, 17)
+menu_top       TOP_MENU_TEXT_4_00_JP_ja       [80, 24] em11.0 st2.31 face 0.85..0.75 lay[2.00@0.00] - box[18, 6, 60, 17] center | 1DX em18.0 st2.14 lay 3.00 box(32, 4, 64, 21)
+menu_top       TOP_MENU_TEXT_2_00_JP_ja       [80, 24] em12.0 st2.40 face 0.77..0.90 lay[1.75@0.00] - box[22, 6, 57, 18] center | 1DX em17.0 st2.28 lay 3.00 box(32, 4, 63, 20)
+menu_top       TOP_MENU_TEXT_5_00_JP_ja       [80, 24] em12.0 st1.99 face 0.80..0.75 lay[1.75@0.00] - box[23, 6, 57, 18] center | 1DX em17.0 st2.12 lay 3.00 box(23, 4, 73, 20)
+set_tab        tab_SET_OFF2_00_JP_ja          [96, 24] em16.0 st3.40 face 0.93..1.00 lay[1.75@0.00] - box[33, 4, 63, 20] center | 1DX em14.0 st3.51 lay 2.75 box(47, 9, 81, 22)
+set_tab        tab_SET_ON2_00_JP_ja           [96, 24] em16.0 st3.78 face 1.00..0.93 lay[1.75@0.00] - box[33, 4, 62, 20] center | 1DX em13.0 st3.94 lay 2.75 box(51, 9, 76, 22)
+file_btn       btn_KJRPG_00_JP_ja             [232, 62] em16.0 st3.10 face 0.67..0.87 lay[1.75@0.00] - box[62, 23, 171, 39] center | 1DX em10.0 st1.58 lay 1.75 box(20, 8, 88, 18)
+file_label     btn_SLOT_00_JP_ja              [128, 16] em11.0 st2.30 face 1.00..1.00 lay[] - box[42, 2, 85, 13] center
+file_btn       btn_DERACE_00_JP_ja            [108, 22] em12.0 st2.75 face 0.70..0.87 lay[1.75@0.00] - box[18, 5, 90, 17] center | 1DX em12.0 st2.35 lay 1.75 box(24, 7, 88, 19)
+file_btn       btn_COPY_00_JP_ja              [108, 22] em12.0 st2.51 face 0.87..0.85 lay[1.75@0.00] - box[37, 5, 71, 17] center | 1DX em12.0 st2.37 lay 1.75 box(44, 7, 68, 19)
+file_btn       btn_CANCEL2_00_JP_ja           [108, 22] em11.0 st3.04 face 0.75..0.88 lay[1.75@0.00] - box[36, 5, 71, 16] center | 1DX em11.0 st2.26 lay 1.75 box(44, 7, 68, 18)
+file_label     LABEL_KJRPG_00_JP_ja           [256, 20] em11.0 st2.18 face 1.00..1.00 lay[] - box[1, 4, 82, 15] left
+file_btn       btn_FERASE_00_JP_ja            [108, 22] em11.0 st2.83 face 0.85..0.80 lay[1.75@0.00] - box[12, 5, 95, 16] center | 1DX em12.0 st2.35 lay 1.75 box(30, 7, 82, 19)
+file_btn       btn_DELETE1_00_JP_ja           [108, 22] em11.0 st2.75 face 0.82..0.75 lay[1.75@0.00] - box[42, 5, 65, 16] center | 1DX em12.0 st2.46 lay 1.75 box(45, 7, 67, 19)
+file_btn       btn_OWRITE_00_JP_ja            [108, 22] em11.0 st3.05 face 0.85..0.90 lay[1.75@0.00] - box[19, 6, 89, 17] center | 1DX em12.0 st2.10 lay 1.75 box(33, 7, 79, 19)
+file_btn       btn_MLRPG3_00_JP_ja            [232, 62] em16.0 st3.07 face 0.88..1.00 lay[2.00@0.00] - box[29, 23, 201, 38] center
+file_btn       btn_START_00_JP_ja             [128, 24] em16.0 st3.53 face 0.87..1.00 lay[1.75@0.00] - box[34, 4, 94, 20] center | 1DX em17.0 st2.51 lay 2.75 box(79, 9, 148, 26)
+status_label   STATUS_EQUIP_00_JP_ja          [150, 24] em11.0 st1.97 face 0.75..0.85 lay[1.75@0.00] - box[45, 7, 105, 18] center
+status_label   STATUS_RANKBONUS_00_JP_ja      [150, 24] em12.0 st1.86 face 0.60..0.78 lay[1.75@0.00] - box[17, 6, 136, 18] center

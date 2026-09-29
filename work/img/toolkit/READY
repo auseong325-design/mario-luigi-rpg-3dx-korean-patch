@@ -1,0 +1,1 @@
+imgtext 1.3 (2026-09-29) — redraw(jp_png, "한국어", fmt=..., jp_text="原文") 한 줄로 1DX 글자 + 3DX 꾸밈; 크기 규칙(비트맵 1.25배)·굵기 ±10%(틈 보호)·원본 영문 재사용. 사용법 work/img/toolkit/README.md, 시연 work/img/toolkit/demo/ (14장), 요청 work/img/TOOLKIT_REQUESTS.md

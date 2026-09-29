@@ -1,0 +1,228 @@
+# I1 — 3DX 레이아웃 글자 텍스처 분류 원본 (make_lyt_plan.py가 읽는다). 탭 구분. \n = 줄바꿈.
+# base	action	jp	ko	basis	family	kind	ref_1dx	notes
+btn_USE_00_JP_ja	replace	つかう	사용하기	ko_final:Menu#413(つかう→사용) + 1DX 버튼 명사형(-기: btn_sell 팔기·btn_buy 사기)	battle_btn	다	1DX:MLyt/MLYT_SHOP_KR_ko/timg/btn_buy_12_KR_ko.bflim	ETC1A4. 흰 채움+검은 굵은 테두리
+DUM_00_JP_ja	keep				dummy			지역 표시용 8x8 검은 더미(1DX에도 같은 이름 그대로 있음)
+pnl_ATCMINIGAME_MSCORE_00_jp_ja	replace	もくひょうスコア	목표 스코어	coined(스코어: ko_final FMsg/i_challenge_01#113)	panel_label	다		이름이 소문자 _jp_ja
+LTIT_GUIDE_4_00_JP_ja	replace	バトル アタック	배틀 어택	glossary:バトルアタック; 1DX LTIT_guide_battleattack(배틀 어택)	list_title	나	1DX:MLyt/MLYT_GUIDE_KR_ko/timg/LTIT_guide_battleattack_12_KR_ko.bflim	
+btn_GUIDE_PRACTICE_00_JP_ja	replace	れんしゅう	연습	glossary:れんしゅう; 1DX btn_guide_practice(연습)	battle_btn	나	1DX:BLyt/btl_attackn_KR_ko/timg/btn_guide_practice_12_KR_ko.bflim	
+btn_GUIDE_EXAMPLE_00_JP_ja	replace	おてほん	시범	glossary:おてほん; 1DX btn_guide_example(시범)	battle_btn	나	1DX:BLyt/btl_attackn_KR_ko/timg/btn_guide_example_12_KR_ko.bflim	
+LTIT_GUIDE_3_00_JP_ja	replace	バトル きほん	배틀 기본	glossary:バトルきほん; 1DX LTIT_guide_battlebasic(배틀 기본)	list_title	나	1DX:MLyt/MLYT_GUIDE_KR_ko/timg/LTIT_guide_battlebasic_12_KR_ko.bflim	
+LTIT_btl_HINT_00_JP_ja	replace	ヒント	힌트	ko_final:BMsg/b_sys#1180; glossary:ヒント	list_title	나	1DX:BLyt/btl_mainn_KR_ko/timg/btn_b_HINT_12_KR_ko.bflim	
+BR_RANKUP_o_00_JP_ja	keep	RANK UP!!		영어(1DX BR_LVUP 영어 유지와 같은 요소)	en_keep			리드 확인: RANK UP!! 영어 유지(1DX에 대응 없음)
+STbr_POW_00_JP_ja	keep	POW		1DX STbr_POW 영어 유지	stat_en		1DX:BLyt/btl_resultn_KR_ko/timg/STbr_POW_12_KR_ko.bflim	
+RANK_NAME_STAR_00_JP_ja	replace	スターランク	스타 랭크	ko_final:Menu#848; glossary	rank_name	다		ETC1A4, 흰 채움+남색 테두리
+RANK_NAME_GOLD_00_JP_ja	replace	ゴールドランク	골드 보스 랭크	ko_final:Menu#689; glossary	rank_name	다		원문보다 김(8자) → 장평/자간
+name_MARIO18056_00_JP_ja	keep	MARIO		1DX name_MARIO9632 영어 유지	en_keep		1DX:BLyt/btl_mainn_KR_ko/timg/name_MARIO9632_12_KR_ko.bflim	
+btn_cancel_00_JP_ja	replace	やめる	취소	ko_final:FMsg/o_areanone_allmap_01_U#6(ボタン:やめる→버튼: 취소); 1DX btn_cancel(취소)	battle_btn	나	1DX:MLyt/MLYT_SHOP_KR_ko/timg/btn_cancel_12_KR_ko.bflim	
+EXP2812_00_JP_ja	keep	EXP		1DX btl_RESULT_EXP 영어 유지	stat_en		1DX:BLyt/btl_resultn_KR_ko/timg/btl_RESULT_EXP_12_KR_ko.bflim	
+RANK_NAME_BRONZE_00_JP_ja	replace	ブロンズランク	브론즈 보스 랭크	ko_final:Menu#668; glossary	rank_name	다		8자 → 장평/자간
+RANK_NAME_KINOKO_00_JP_ja	replace	キノコランク	버섯 랭크	ko_final:Menu#810; glossary	rank_name	다		
+pnl_ATCMINIGAME_CONGRATULATIONS_00_JP_ja	keep	CONGRATULATIONS!		영어	en_keep			리드 확인: 1DX 대응 없음
+name_KOOPA18056_00_JP_ja	keep	KOOPA		영어(1DX MARIO/LUIGI 영어 유지)	en_keep			리드 확인: KOOPA 영어 유지
+RANK_NAME_FLOWER_00_JP_ja	replace	フラワーランク	플라워 랭크	ko_final:Menu#831; glossary	rank_name	다		
+name_LUIGI18056_00_JP_ja	keep	LUIGI		1DX name_LUIGI9632 영어 유지	en_keep		1DX:BLyt/btl_mainn_KR_ko/timg/name_LUIGI9632_12_KR_ko.bflim	
+STbr_SPEED_00_JP_ja	keep	SPEED		1DX STbr_SPEED 영어 유지	stat_en		1DX:BLyt/btl_resultn_KR_ko/timg/STbr_SPEED_12_KR_ko.bflim	
+STbr_HP_00_JP_ja	keep	HP		1DX STbr_HP 영어 유지	stat_en		1DX:BLyt/btl_resultn_KR_ko/timg/STbr_HP_12_KR_ko.bflim	
+STbr_DEF_00_JP_ja	keep	DEF		1DX STbr_DEF 영어 유지	stat_en		1DX:BLyt/btl_resultn_KR_ko/timg/STbr_DEF_12_KR_ko.bflim	
+BR_LVUP_i_00_JP_ja	keep	LEVEL UP!		1DX BR_LVUP_in 영어 유지	en_keep		1DX:BLyt/btl_resultn_KR_ko/timg/BR_LVUP_in_12_KR_ko.bflim	
+RANK_NAME_LBOSS_00_JP_ja	replace	ラスボスランク	파이널 보스 랭크	ko_final:Menu#699; glossary	rank_name	다		9자 → 장평/자간(최소 80%)이 모자라면 리드 확인
+RANK_NAME_MASTER_00_JP_ja	replace	マスターランク	마스터 보스 랭크	ko_final:Menu#710; glossary	rank_name	다		
+STbr_TSUNO_00_JP_ja	replace	TSUNO	PPUL	IMAGE_TASK 0장 확정(TSUNO→PPUL)	stat_en	나	1DX:BLyt/btl_resultn_KR_ko/timg/STbr_HIGE_12_KR_ko.bflim	영문 글자 모양은 같은 판의 3DX 원본 글자(POW의 P, LUIGI의 U, LV의 L)에서
+BR_RANKUP_i_00_JP_ja	keep	RANK UP!!		영어	en_keep			
+RANK_NAME_SILVER_00_JP_ja	replace	シルバーランク	실버 보스 랭크	ko_final:Menu#679; glossary	rank_name	다		
+BR_LVUP_hi_00_JP_ja	keep	LEVEL UP!		1DX BR_LVUP_hi 영어 유지	en_keep		1DX:BLyt/btl_resultn_KR_ko/timg/BR_LVUP_hi_12_KR_ko.bflim	
+btn_DECISION2_00_JP_ja	replace	けってい	결정	ko_final:BMsg/b_sys#151; glossary; 1DX SET_DECISION(결정)	battle_btn	나	1DX:MLyt/MLYT_SET_KR_ko/timg/SET_DECISION_12_KR_ko.bflim	
+RANK_NAME_BOOMERANG_00_JP_ja	replace	ブーメランランク	부메랑 랭크	ko_final:Menu#841; glossary	rank_name	다		
+STbr_BP_00_JP_ja	replace	BP	SP	IMAGE_TASK 0장 확정(BP→SP)	stat_en	나	1DX:BLyt/btl_resultn_KR_ko/timg/STbr_BP_12_KR_ko.bflim	1DX 한국판은 BP 그대로 → S는 같은 판 SPEED의 S
+RANK_NAME_KOURA_00_JP_ja	replace	コウラランク	등껍질 랭크	ko_final:Menu#820; glossary	rank_name	다		
+STbr_HIGE_00_JP_ja	replace	HIGE	SUYEOM	IMAGE_TASK 0장 확정; 1DX STbr_HIGE(SUYEOM)	stat_en	가	1DX:BLyt/btl_resultn_KR_ko/timg/STbr_HIGE_12_KR_ko.bflim	1DX와 같은 크기 60x16
+BR_RANKUP_hi_00_JP_ja	keep	RANK UP!!		영어	en_keep			
+btl_RESULT_LV_00_JP_ja	keep	LV		1DX btl_RESULT_LV 영어 유지	stat_en		1DX:BLyt/btl_resultn_KR_ko/timg/btl_RESULT_LV_12_KR_ko.bflim	
+BR_LVUP_o_00_JP_ja	keep	LEVEL UP!		1DX BR_LVUP_out 영어 유지	en_keep		1DX:BLyt/btl_resultn_KR_ko/timg/BR_LVUP_out_12_KR_ko.bflim	
+RANK_NAME_RAINBOW_00_JP_ja	replace	レインボーランク	레인보우 랭크	ko_final:Menu#3; glossary	rank_name	다		
+btn_DECISION_00_JP_ja	replace	けってい	결정	ko_final:BMsg/b_sys#151; glossary	battle_btn	나	1DX:MLyt/MLYT_SET_KR_ko/timg/SET_DECISION_12_KR_ko.bflim	btl_BADGE
+btn_F_MAP_CLOSE_00_JP_ja	replace	とじる	닫기	ko_final:MenuKJ#91; glossary:とじる	field_btn	나	1DX:FLyt/fld_actnnn_KR_ko/timg/btn_f_map_12_KR_ko.bflim	오른쪽 정렬
+btn_F_MAP_OPEN_00_JP_ja	replace	ひらく	열기	ko_final:Menu#717(「ひらく」ボタン→「열기」 버튼)	field_btn	나	1DX:FLyt/fld_actnnn_KR_ko/timg/btn_f_map_12_KR_ko.bflim	오른쪽 정렬
+KJ_LEVEL_UP_00_JP_ja	keep	LEVEL\nUP!		1DX GUIDE_LEVEL_UP 영어 유지	en_keep		1DX:GLyt/G_KGG_03_KR_ko/timg/GUIDE_LEVEL_UP_12_KR_ko.bflim	
+EXP3216_00_JP_ja	keep	EXP		1DX 영어 유지	stat_en			
+KJ_ST_DEF_00_JP_ja	keep	DEF		1DX GUIDE_DEF 영어 유지	stat_en			
+KJ_ST_SPEED_00_JP_ja	keep	SPEED		1DX 영어 유지	stat_en			
+PARTY_LV_00_JP_ja	replace	ぐんだん\nLV	군단\nLV	1DX KG_MEM_LV(군단 LV, 같은 크기 52x28); ko_final:BMsg/b_sys#1639(ぐんだん→군단)	kj_label	가	1DX:SLyt/KG_LACTION_KR_ko/timg/KG_MEM_LV_12_KR_ko.bflim	LV는 원본 그대로
+KJ_TYPE_02_00_JP_ja	replace	ひこう	비행	glossary:ひこう; 1DX KG_HENSEI_TYPE_02(비행)	kj_type	가	1DX:SLyt/KG_RECORDnn_KR_ko/timg/KG_HENSEI_TYPE_02_12_KR_ko.bflim	같은 크기 64x22
+KJ_NEW_00_JP_ja	keep	NEW		1DX KG_RESULT_NEW 영어 유지	en_keep		1DX:SLyt/KG_RESULT_KR_ko/timg/KG_RESULT_NEW_12_KR_ko.bflim	
+KJ_ST_GDD_00_JP_ja	replace	GDD	GDH	리드 결정: 대사 번역이 이미 GDH(ko_final BMsg/b_sys#283 등 17곳) = 1DX 한국판 ST_GDD(GDH)	stat_en	가	1DX:SLyt/KG_LACTION_KR_ko/timg/ST_GDD_12_KR_ko.bflim	리드 결정 22:05
+KJ_ST_HP_00_JP_ja	keep	HP		1DX 영어 유지	stat_en			
+KJ_TYPE_03_00_JP_ja	replace	えんきょり	원거리	glossary:えんきょり; 1DX KG_HENSEI_TYPE_03(원거리)	kj_type	가	1DX:SLyt/KG_RECORDnn_KR_ko/timg/KG_HENSEI_TYPE_03_12_KR_ko.bflim	
+LV1208_00_JP_ja	keep	LV		1DX 영어 유지	stat_en			
+KJ_ST_POW_00_JP_ja	keep	POW		1DX 영어 유지	stat_en			
+KJ_TYPE_01_00_JP_ja	replace	とつげき	돌격	glossary:とつげき; 1DX KG_HENSEI_TYPE_01(돌격)	kj_type	가	1DX:GLyt/G_KGG_05_KR_ko/timg/KG_HENSEI_TYPE_01_12_KR_ko.bflim	
+btn_text_KJ_GUIDE_pnl_4_00_JP_ja	replace	コマンド	커맨드	glossary:コマンド	guide_pnl	나	1DX:SLyt/KG_GUIDEnn_KR_ko/timg/btn_KG_p_BS1_12_KR_ko.bflim	1DX 96x40, 3DX 96x32
+btn_text_KJ_GUIDE_pnl_2_00_JP_ja	replace	バトル\nきほん	배틀\n기본	glossary:バトルきほん	guide_pnl	나	1DX:SLyt/KG_GUIDEnn_KR_ko/timg/btn_KG_p_BS0_12_KR_ko.bflim	
+btn_text_KJ_GUIDE_pnl_3_00_JP_ja	replace	アタック	어택	glossary:アタック	guide_pnl	나	1DX:SLyt/KG_GUIDEnn_KR_ko/timg/btn_KG_p_BS1_12_KR_ko.bflim	
+btn_text_KJ_GUIDE_pnl_1_00_JP_ja	replace	ぐんだん\nメニュー	군단\n메뉴	ko_final:BMsg/b_sys#1639; glossary; 1DX btn_KG_p_HENSEI(군단 메뉴)	guide_pnl	나	1DX:SLyt/KG_GUIDEnn_KR_ko/timg/btn_KG_p_HENSEI_12_KR_ko.bflim	
+LTIT_KJ_RECORD_1_00_JP_ja	replace	なかま	동료	ko_final:MenuKJ#78(なかま→동료); 1DX KG_LIST_TIT_MEMBER(동료)	list_title	나	1DX:SLyt/KG_RECORDnn_KR_ko/timg/KG_LIST_TIT_MEMBER_12_KR_ko.bflim	
+pnl_ATCMINIGAME_COMPLETE_00_JP_ja	keep	COMPLETE		영어	en_keep			리드 확인: 1DX 대응 없음
+btn_p_HATENA_00_JP_ja	keep	？？？		기호만(1DX btn_KGLA_TX_n00 ??? 유지)	record_btn			
+btn_p_FORMATION_00_JP_ja	replace	じんけい	진형	glossary:じんけい; ko_final:BMsg/b_sys#833	record_btn	다		
+LTIT_KJ_RECORD_2_00_JP_ja	replace	モンスター	몬스터	glossary; 1DX KG_LIST_TIT_ENEMY(몬스터)	list_title	나	1DX:SLyt/KG_RECORDnn_KR_ko/timg/KG_LIST_TIT_ENEMY_12_KR_ko.bflim	
+btn_p_MONSTER_00_JP_ja	replace	モンスター	몬스터	glossary; 1DX KG_REC_ENEMY(몬스터)	record_btn	나	1DX:SLyt/KG_RECORDnn_KR_ko/timg/KG_REC_ENEMY_12_KR_ko.bflim	
+btn_p_FRIEND_00_JP_ja	replace	なかま	동료	ko_final:MenuKJ#78; 1DX KG_REC_MEMBER(동료)	record_btn	나	1DX:SLyt/KG_RECORDnn_KR_ko/timg/KG_REC_MEMBER_12_KR_ko.bflim	
+btn_p_CHALLENGE_00_JP_ja	replace	チャレンジ	챌린지	glossary:チャレンジ; ko_final:BMsg/b_sys#1599(レコードとチャレンジ→기록과 챌린지)	record_btn	나	1DX:SLyt/KG_RECORDnn_KR_ko/timg/KG_REC_CHA_12_KR_ko.bflim	1DX는 '도전'. 용어집 우선
+btn_SET_TYPE_00_JP_ja	replace	しゅぞく	종족	coined(種族). 1DX SORT_TYPE '타입'은 뜻이 다름(돌격/비행/원거리)	kj_sort_btn	다	1DX:SLyt/KG_HENSEInn_KR_ko/timg/SORT_TYPE_12_KR_ko.bflim	
+EXP_s_L_00_JP_ja	keep	EXP		1DX 영어 유지	stat_en			
+NEXT_s_L_00_JP_ja	keep	NEXT		1DX ST_NEXT 영어 유지	stat_en		1DX:GLyt/G_KGG_05_KR_ko/timg/ST_NEXT_12_KR_ko.bflim	
+btn_KJ_ORDER_00_JP_ja	replace	ならびかえ	순서 변경	1DX btn_KG_Q_SORT(순서 변경)	kj_faint_label	나	1DX:SLyt/KG_HENSEInn_KR_ko/timg/btn_KG_Q_SORT_12_KR_ko.bflim	테두리 없는 흐린 흰 글자
+btn_KJ_PROF_00_JP_ja	replace	プロフィール	프로필	ko_final:BMsg/b_sys#1720; glossary	kj_dark_label	다		테두리 없는 진회색 글자
+btn_KJ_CLOSE_00_JP_ja	replace	とじる	닫기	ko_final:MenuKJ#91; glossary	kj_dark_label	다		테두리 없는 진회색 글자
+btn_SET_LV_00_JP_ja	replace	レベル	레벨	glossary:レベル	kj_sort_btn	다		
+btn_KJ_MENU_RECORD_00_JP_ja	replace	レコード	기록	ko_final:MenuKJ#13; glossary:レコード	kj_menu_btn	나	1DX:SLyt/KG_MAINnn_TOP_KR_ko/timg/btn_KG_MaL_12_KR_ko.bflim	
+btn_KJ_MENU_REMOVE_00_JP_ja	replace	キャラクター\nおわかれ	캐릭터\n작별	glossary:キャラクターおわかれ; ko_final:BMsg/b_sys#1702	kj_menu_btn	나	1DX:SLyt/KG_MAINnn_TOP_KR_ko/timg/btn_KG_MaL_12_KR_ko.bflim	두 줄
+btn_KJ_ITEM_00_JP_ja	replace	アイテム	아이템	glossary:アイテム	kj_menu_btn	나	1DX:GLyt/G_KGH_11_KR_ko/timg/btn_KG_Q_ITEM_12_KR_ko.bflim	
+btn_YES1_00_JP_ja	replace	はい	예	ko_final 선택지(はい→예, 예: BMsg/b_sys#297); 1DX btn_load_YES(예)	kj_menu_btn	나	1DX:MLyt/MLYT_FILE_LOAD_KR_ko/timg/btn_load_YES_text_12_KR_ko.bflim	
+btn_NO1_00_JP_ja	replace	いいえ	아니요	ko_final 선택지(いいえ→아니요); 1DX btn_load_NO(아니요)	kj_menu_btn	나	1DX:MLyt/MLYT_FILE_LOAD_KR_ko/timg/btn_load_NO_text_12_KR_ko.bflim	
+btn_KJ_MENU_GUIDE_00_JP_ja	replace	ガイド	가이드	glossary:ガイド; 1DX btn_KG_GUIDEs(가이드)	kj_menu_btn	나	1DX:SLyt/KG_MAINnn_TOP_KR_ko/timg/btn_KG_GUIDEs_12_KR_ko.bflim	
+btn_KJ_HENSEI_n_00_JP_ja	replace	軍団へんせい	군단 편성	glossary:軍団へんせい; ko_final:MenuKJ#68	kj_menu_btn	나	1DX:SLyt/KG_QUESTnn_KR_ko/timg/btn_KG_Q_HENSEI_12_KR_ko.bflim	
+btn_KJ_BSTART_00_JP_ja	replace	バトルスタート	배틀 시작	1DX btn_KG_BSTART(배틀 시작)	kj_menu_btn	가	1DX:SLyt/KG_QUESTnn_KR_ko/timg/btn_KG_BSTART_12_KR_ko.bflim	
+btn_KJ_STOPGAME_n_00_JP_ja	replace	クッパJr.RPGをおわる	쿠파주니어 RPG 종료	ko_final:BMsg/b_sys#557(「クッパJr.RPGをおわる」→「쿠파주니어 RPG 종료」)	kj_menu_btn	다		180x40
+btn_KJ_MENU_00_JP_ja	replace	メニュー	메뉴	1DX btn_fld_menu(메뉴); ko_final:BMsg/b_sys#1639	kj_menu_btn	나	1DX:FLyt/fld_actnnn_KR_ko/timg/btn_fld_menu_12_KR_ko.bflim	
+btn_KJ_MENU_SET_00_JP_ja	replace	せってい	설정	glossary:せってい; ko_final:BMsg/b_sys#920(「せってい」→「설정」)	kj_menu_btn	나	1DX:GLyt/G_BG_12_KR_ko/timg/TOP_MENU_TEXT_6_12_KR_ko.bflim	
+STARTx36	keep	START		영어(이름에 _JP_ja 없음, KJ_TUTORIAL 등)	en_keep			리드 확인: START 영어 유지
+btn_KJ_CANCEL_00_JP_ja	replace	やめる	취소	1DX btn_KG_cancel(취소); ko_final:FMsg/o_areanone_allmap_01_U#6	kj_small_btn	나	1DX:SLyt/KG_LACTION_KR_ko/timg/btn_KG_cancel_12_KR_ko.bflim	
+btn_KJ_DECISION_00_JP_ja	replace	けってい	결정	1DX btn_KG_decision(결정); glossary	kj_small_btn	나	1DX:SLyt/KG_LACTION_KR_ko/timg/btn_KG_decision_12_KR_ko.bflim	78x12 매우 작음
+btn_KJ_ENEMYINFO_00_JP_ja	replace	てきのじょうほう	적 정보	glossary; ko_final:BMsg/b_sys#1659; 1DX btn_ENEMYINFO(적 정보, 같은 크기 112x24)	kj_faint_label	가	1DX:SLyt/KG_HENSEInn_KR_ko/timg/btn_ENEMYINFO_12_KR_ko.bflim	
+btn_KJ_LA_11_00_JP_ja	replace	やみうち	기습	glossary; ko_final:BMsg/b_sys#683	kj_skill	나	1DX:GLyt/G_KGH_12_KR_ko/timg/btn_KGLA_TX_n01_12_KR_ko.bflim	
+btn_KJ_LA_25_00_JP_ja	replace	コウラスピン	등껍질 스핀	glossary; ko_final:BMsg/b_sys#1370; 1DX btn_KGLA_TX_l02(등껍질 스핀)	kj_skill	나	1DX:SLyt/KG_BATTLEn_KR_ko/timg/btn_KGLA_TX_l02_12_KR_ko.bflim	
+btn_KJ_LA_04_00_JP_ja	replace	とつげきー！	돌격~!	glossary; ko_final:BMsg/b_sys#1607	kj_skill	나	1DX:GLyt/G_KGH_12_KR_ko/timg/btn_KGLA_TX_n01_12_KR_ko.bflim	
+btn_KJ_ESC_00_JP_ja	replace	やめる	그만두기	ko_final:BMsg/b_sys#496(クエストをやめて→퀘스트를 그만두고)	kj_battle_btn	나	1DX:SLyt/KG_BATTLEn_KR_ko/timg/btn_KGb_ESC_12_KR_ko.bflim	리드 확인: 1DX 같은 버튼은 '도망가기'. 왼쪽 정렬
+btn_KJ_LA_18_00_JP_ja	replace	ぶんしん	분신	glossary; ko_final:BMsg/b_sys#300	kj_skill	나	1DX:GLyt/G_KGH_12_KR_ko/timg/btn_KGLA_TX_n01_12_KR_ko.bflim	
+btn_KJ_LA_23_00_JP_ja	replace	かばう	감싸기	glossary; ko_final:BMsg/b_sys#582	kj_skill	나	1DX:GLyt/G_KGH_12_KR_ko/timg/btn_KGLA_TX_n01_12_KR_ko.bflim	
+btn_KJ_LA_02_00_JP_ja	replace	きあい	기합	glossary(official); ko_final:BMsg/b_sys#1578; 1DX btn_KGLA_TX_n02(기합)	kj_skill	가	1DX:SLyt/KG_BATTLEn_KR_ko/timg/btn_KGLA_TX_n02_12_KR_ko.bflim	1DX 같은 낱말 그림
+btn_KJ_LA_16_00_JP_ja	replace	たまのりアタック	공 타기 어택	glossary; ko_final:BMsg/b_sys#1214	kj_skill	나	1DX:GLyt/G_KGH_12_KR_ko/timg/btn_KGLA_TX_n01_12_KR_ko.bflim	
+KJ_LTIT_GUIDE_3_00_JP_ja	replace	アタック	어택	glossary:アタック	list_title	나	1DX:SLyt/KG_GUIDEnn_KR_ko/timg/LTIT_KG_BS1_12_KR_ko.bflim	
+btn_KJ_LA_21_00_JP_ja	replace	こうしょう	협상	glossary; ko_final:BMsg/b_sys#436	kj_skill	나	1DX:GLyt/G_KGH_12_KR_ko/timg/btn_KGLA_TX_n01_12_KR_ko.bflim	
+mg_PAUSE_IN_00_JP_ja	keep	PAUSE		1DX mg_PAUSE_IN 영어 유지	en_keep		1DX:SLyt/KG_BATTLEn_KR_ko/timg/mg_PAUSE_IN_12_KR_ko.bflim	
+btn_KJ_GUIDE_00_JP_ja	replace	ガイド	가이드	glossary:ガイド; 1DX btn_KGb_GUIDE(가이드)	kj_battle_btn	나	1DX:BLyt/btl_mainn_KR_ko/timg/btn_KGb_GUIDE_12_KR_ko.bflim	
+btn_KJ_LA_00_00_JP_ja	keep	？？？		기호만(1DX btn_KGLA_TX_n00도 ???)	kj_skill		1DX:SLyt/KG_BATTLEn_KR_ko/timg/btn_KGLA_TX_n00_12_KR_ko.bflim	
+btn_KJ_LA_14_00_JP_ja	replace	サンダー	선더	리드 결정 01:04: 1DX 한국판 같은 버튼 btn_KGLA_TX_n05 = 선더(공식 > 신조어 썬더). 대사 BMsg/b_sys#195 등은 TEXT PASS	kj_skill	가	1DX:SLyt/KG_BATTLEn_KR_ko/timg/btn_KGLA_TX_n05_12_KR_ko.bflim	1DX 같은 낱말 그림
+btn_KJ_LA_12_00_JP_ja	replace	おだてる	치켜세우기	glossary; ko_final:BMsg/b_sys#702	kj_skill	나	1DX:GLyt/G_KGH_12_KR_ko/timg/btn_KGLA_TX_n01_12_KR_ko.bflim	
+btn_KJ_LA_26_00_JP_ja	replace	マグナムキラー	매그넘킬러	glossary; ko_final:BMsg/b_sys#1394	kj_skill	나	1DX:GLyt/G_KGH_12_KR_ko/timg/btn_KGLA_TX_n01_12_KR_ko.bflim	
+btn_KJ_LA_05_00_JP_ja	replace	ヘイホーかんたい	헤이호 함대	glossary; ko_final:BMsg/b_sys#1627	kj_skill	나	1DX:GLyt/G_KGH_12_KR_ko/timg/btn_KGLA_TX_n01_12_KR_ko.bflim	
+btn_KJ_LA_19_00_JP_ja	replace	ラリーラリー	래리랠리	glossary; ko_final:BMsg/b_sys#1333	kj_skill	나	1DX:GLyt/G_KGH_12_KR_ko/timg/btn_KGLA_TX_n01_12_KR_ko.bflim	
+btn_KJ_LA_24_00_JP_ja	replace	ドッスンおとし	쿵쿵 떨어트리기	리드 결정 01:04, 02:55 정정: 1DX 한국판 같은 버튼 btn_KGLA_TX_n08과 1DX 대사 BMsg k_sys#123·#847이 모두 「쿵쿵 떨어트리기」(트). 01:04에 '뜨'로 잘못 읽었음. 공식 > 신조어 쿵쿵 떨구기. 대사 BMsg/b_sys#600 #1475는 TEXT PASS에서 고침	kj_skill	나	1DX:SLyt/KG_BATTLEn_KR_ko/timg/btn_KGLA_TX_n08_12_KR_ko.bflim	1DX는 두 줄. kj_skill 모양으로 한 줄(장평 80% 이상)에 들어가면 한 줄, 아니면 두 줄
+btn_KJ_LA_03_00_JP_ja	replace	おやつのじかん	간식 시간	glossary; ko_final:BMsg/b_sys#1590	kj_skill	나	1DX:GLyt/G_KGH_12_KR_ko/timg/btn_KGLA_TX_n01_12_KR_ko.bflim	
+btn_KJ_LA_17_00_JP_ja	replace	ドキドキボックス	두근두근 박스	glossary; ko_final:BMsg/b_sys#278	kj_skill	나	1DX:GLyt/G_KGH_12_KR_ko/timg/btn_KGLA_TX_n01_12_KR_ko.bflim	
+mg_PAUSE_OUT_00_JP_ja	keep	PAUSE		1DX mg_PAUSE_OUT 영어 유지	en_keep		1DX:SLyt/KG_BATTLEn_KR_ko/timg/mg_PAUSE_OUT_12_KR_ko.bflim	
+KJ_LTIT_GUIDE_4_00_JP_ja	replace	コマンド	커맨드	glossary:コマンド	list_title	나	1DX:SLyt/KG_GUIDEnn_KR_ko/timg/LTIT_KG_BS0_12_KR_ko.bflim	
+btn_KJ_LA_22_00_JP_ja	replace	かえりうち	역습	glossary; ko_final:BMsg/b_sys#455	kj_skill	나	1DX:GLyt/G_KGH_12_KR_ko/timg/btn_KGLA_TX_n01_12_KR_ko.bflim	
+btn_KJ_LA_01_00_JP_ja	replace	うちけし	스킬 지우기	리드 결정: 1DX 한국판 같은 커맨드 btn_KGLA_TX_n01 = 스킬 지우기(공식 표기 > 신조어 무효화, AGENTS 0장). 대사 쪽 13곳도 리드가 맞춘다	kj_skill	가	1DX:GLyt/G_KGH_12_KR_ko/timg/btn_KGLA_TX_n01_12_KR_ko.bflim	리드 결정 22:05
+btn_KJ_LA_15_00_JP_ja	replace	みきり	간파	glossary; ko_final:BMsg/b_sys#1193	kj_skill	나	1DX:GLyt/G_KGH_12_KR_ko/timg/btn_KGLA_TX_n01_12_KR_ko.bflim	
+btn_KJ_LA_20_00_JP_ja	replace	すけっと	지원군	glossary; ko_final:BMsg/b_sys#1347	kj_skill	나	1DX:GLyt/G_KGH_12_KR_ko/timg/btn_KGLA_TX_n01_12_KR_ko.bflim	
+btn_KJ_LA_13_00_JP_ja	replace	ばいがえし	배로 갚기	glossary; ko_final:BMsg/b_sys#176	kj_skill	나	1DX:GLyt/G_KGH_12_KR_ko/timg/btn_KGLA_TX_n01_12_KR_ko.bflim	
+btn_KJ_LA_06_00_JP_ja	replace	でかボムバレー	왕폭탄 배구	glossary; ko_final:BMsg/b_sys#1652	kj_skill	나	1DX:GLyt/G_KGH_12_KR_ko/timg/btn_KGLA_TX_n01_12_KR_ko.bflim	
+btn_SET_ON_00_JP_ja	keep	ON		1DX tab_SET_ON 영어 유지	en_keep		1DX:MLyt/MLYT_SET_KR_ko/timg/tab_SET_ON_12_KR_ko.bflim	
+btn_SET_OFF_00_JP_ja	keep	OFF		1DX tab_SET_OFF 영어 유지	en_keep		1DX:MLyt/MLYT_SET_KR_ko/timg/tab_SET_OFF_12_KR_ko.bflim	
+KJ_txt_CHANGE_POS_00_JP_ja	replace	はいちがえ	배치 변경	glossary; ko_final:MenuKJ#58	kj_small_btn	다		
+KJ_txt_DECISION_00_JP_ja	replace	けってい	결정	glossary; 1DX btn_KG_decision(결정)	kj_small_btn	나	1DX:SLyt/KG_LACTION_KR_ko/timg/btn_KG_decision_12_KR_ko.bflim	
+KJ_BONUS_00_JP_ja	keep	BONUS		1DX KG_BONUS 영어 유지(같은 크기 40x16)	en_keep		1DX:SLyt/KG_LACTION_KR_ko/timg/KG_BONUS_12_KR_ko.bflim	
+ST_BP_00_JP_ja	replace	BP	SP	IMAGE_TASK 0장 확정(BP→SP)	stat_en	나	1DX:GLyt/G_BG_08_KR_ko/timg/ST_BP_12_KR_ko.bflim	S는 3DX 같은 판 글자에서(MENU_ITEM에 SPEED 없음 → STbr/KJ_ST_SPEED의 S 참고)
+name_MARIO9624_00_JP_ja	keep	MARIO		1DX name_MARIO 영어 유지	en_keep			
+name_LUIGI9624_00_JP_ja	keep	LUIGI		1DX name_LUIGI 영어 유지	en_keep			
+ST_HIGE_00_JP_ja	replace	HIGE	SUYEOM	IMAGE_TASK 0장 확정; 1DX ST_HIGE(SUYEOM)	stat_en	나	1DX:BLyt/btl_mainn_KR_ko/timg/ST_HIGE_12_KR_ko.bflim	42x12(1DX 36x16)
+name_KOOPA9624_00_JP_ja	keep	KOOPA		영어	en_keep			리드 확인: KOOPA 영어 유지
+LTIT_ITEM_00_JP_ja	replace	アイテム	아이템	glossary; ko_final:Menu#541	list_title	나	1DX:MLyt/MLYT_GUIDE_KR_ko/timg/LTIT_guide_fieldbasic_12_KR_ko.bflim	
+ST_TSUNO_00_JP_ja	replace	TSUNO	PPUL	IMAGE_TASK 0장 확정(TSUNO→PPUL)	stat_en	나	1DX:BLyt/btl_mainn_KR_ko/timg/ST_HIGE_12_KR_ko.bflim	
+LABEL_MLRPG_00_JP_ja	replace	マリオ&ルイージRPG3	마리오&루이지 RPG3	IMAGE_TASK 0장(원본이 DX를 뺀 자리)	file_label	다		RPG3는 원본 글자 유지
+NEW_DATA_text_00_JP_ja	replace	NEW DATA	NEW GAME	리드 결정: 1DX 한국판 같은 텍스처 NEW_DATA_text_12_KR_ko가 NEW GAME(IMAGE_TASK 0장 영어 규칙)	file_label	가	1DX:MLyt/MLYT_FILE_LOAD_KR_ko/timg/NEW_DATA_text_12_KR_ko.bflim	리드 결정 22:05. 영어 글자 모양·꾸밈은 3DX 원본
+btn_RETURN_TITLE_00_JP_ja	replace	タイトルにもどる	타이틀로 돌아가기	ko_final:BMsg/b_sys#1694; glossary	file_btn	나	1DX:MLyt/MLYT_MAIN_KR_ko/timg/btn_SAVESTART_12_KR_ko.bflim	
+btn_CONTINUE_00_JP_ja	replace	ぼうけんをつづける	모험 계속하기	coined(ぼうけん→모험: ko_final FMsg/k_o_koopa_end_01#8; つづける→계속하기: BMsg/b_sys#1264)	file_btn	다		
+btn_SAVE_text_00_JP_ja	replace	セーブ	저장	ko_final:Menu#566; glossary; 1DX btn_SAVE_text(저장)	file_btn	나	1DX:MLyt/MLYT_FILE_SAVE_KR_ko/timg/btn_SAVE_text_12_KR_ko.bflim	
+btn_equip_00_JP_ja	replace	そうび	착용하기	glossary:そうび(동사 そうびする=착용하다, ShopMes#14)	shop_btn	나	1DX:MLyt/MLYT_SHOP_KR_ko/timg/btn_equip_12_KR_ko.bflim	리드 확인: 1DX 같은 버튼은 '장비하기'
+SHOP_TIT_EQUIP3_00_JP_ja	replace	セレブショップ	럭셔리 숍	ko_final:Item#264(セレブウェア→럭셔리웨어)·BMsg/b_sys#503; アイテムショップ=아이템 숍(glossary)	shop_title	다		
+E_KOOPA_00_JP_ja	keep	E		1DX E_MARIO/E_LUIGI 'E' 유지	equip_marker		1DX:MLyt/MLYT_EQUIP_KR_ko/timg/E_MARIO.bflim	
+LTIT_EQUIP_00_JP_ja	replace	そうび	장비	glossary:そうび(명사)	list_title	나	1DX:MLyt/MLYT_GUIDE_KR_ko/timg/LTIT_guide_fieldbasic_12_KR_ko.bflim	
+SHOP_TIT_BLODOG_00_JP_ja	replace	ブロドッグのみせ	블도그 숍	ko_final:BMsg/b_sys#520(ブロドッグ→블도그); FMsg/o_zutsuda_01#5(ブリローズのお店→블로즈 숍)	shop_title	다		
+btn_scratch_00_JP_ja	replace	はい	예	ko_final 선택지(はい→예); 1DX btn_load_YES(예)	shop_btn	나	1DX:MLyt/MLYT_FILE_LOAD_KR_ko/timg/btn_load_YES_text_12_KR_ko.bflim	
+SHOP_TIT_EQUIP1_00_JP_ja	replace	そうびショップ	장비 숍	glossary:そうびショップ	shop_title	다		
+SHOP_TIT_BADGE_00_JP_ja	replace	バッジショップ	배지 숍	glossary:バッジ + アイテムショップ=아이템 숍 방식	shop_title	다		
+LIST_SOLDOUT_00_JP_ja	keep	SOLD OUT		영어	en_keep			리드 확인: 1DX 대응 없음
+LTIT_BADGE_00_JP_ja	replace	バッジ	배지	glossary:バッジ	list_title	나	1DX:MLyt/MLYT_GUIDE_KR_ko/timg/LTIT_guide_fieldbasic_12_KR_ko.bflim	
+SHOP_TIT_BLOCK_00_JP_ja	replace	ショップブロック	상점블록	glossary:ショップブロック(붙여 씀)	shop_title	다		
+SHOP_TIT_BLILOCK_00_JP_ja	replace	ブリロックのみせ	블로크 숍	ko_final:BMsg/b_sys#305(ブリロック→블로크); FMsg/o_zutsuda_01#5 방식	shop_title	다		
+LTIT_NOW_EQUIP_00_JP_ja	replace	そうびちゅう	장비 중	coined(glossary そうび=장비)	list_title	나	1DX:MLyt/MLYT_GUIDE_KR_ko/timg/LTIT_guide_fieldbasic_12_KR_ko.bflim	가운데 정렬
+E_LUIGI_00_JP_ja	keep	E		1DX E_LUIGI 'E' 유지	equip_marker		1DX:MLyt/MLYT_EQUIP_KR_ko/timg/E_LUIGI.bflim	
+shop_top_acce_text_00_JP_ja	replace	アクセサリー	액세서리	glossary:アクセサリー	shop_top	나	1DX:MLyt/MLYT_SHOP_KR_ko/timg/shop_top_item_text_12_KR_ko.bflim	
+btn_sell_00_JP_ja	replace	うる	팔기	1DX btn_sell(팔기)	shop_btn	나	1DX:MLyt/MLYT_SHOP_KR_ko/timg/btn_sell_12_KR_ko.bflim	
+shop_top_sell_text_00_JP_ja	replace	うる	팔기	1DX shop_top_sell_text(팔기)	shop_top	나	1DX:MLyt/MLYT_SHOP_KR_ko/timg/shop_top_sell_text_12_KR_ko.bflim	
+shop_top_koura_text_00_JP_ja	replace	コウラ	등껍질	glossary:コウラ	shop_top	나	1DX:MLyt/MLYT_SHOP_KR_ko/timg/shop_top_item_text_12_KR_ko.bflim	
+SHOP_TIT_EQUIP2_00_JP_ja	replace	ブティックキノダ	부티크 키노다	glossary:ブティック キノダ	shop_title	다		
+E_MARIO_00_JP_ja	keep	E		1DX E_MARIO 'E' 유지	equip_marker		1DX:MLyt/MLYT_EQUIP_KR_ko/timg/E_MARIO.bflim	
+shop_top_badge_text_00_JP_ja	replace	バッジ	배지	glossary; 1DX shop_top_badge_text(배지)	shop_top	나	1DX:MLyt/MLYT_SHOP_KR_ko/timg/shop_top_badge_text_12_KR_ko.bflim	
+btn_later_00_JP_ja	replace	あとで	나중에	1DX btn_later(나중에); ko_final:Menu#683	shop_btn	나	1DX:MLyt/MLYT_SHOP_KR_ko/timg/btn_later_12_KR_ko.bflim	
+shop_top_wear_text_00_JP_ja	replace	ウェア	웨어	glossary:ウェア; 1DX shop_top_wear_01_text(웨어)	shop_top	나	1DX:MLyt/MLYT_SHOP_KR_ko/timg/shop_top_wear_01_text_12_KR_ko.bflim	
+shop_top_item_text_00_JP_ja	replace	アイテム	아이템	glossary; 1DX shop_top_item_text(아이템)	shop_top	나	1DX:MLyt/MLYT_SHOP_KR_ko/timg/shop_top_item_text_12_KR_ko.bflim	
+btn_buy_00_JP_ja	replace	かう	사기	1DX btn_buy(사기)	shop_btn	나	1DX:MLyt/MLYT_SHOP_KR_ko/timg/btn_buy_12_KR_ko.bflim	
+shop_top_equip_text_00_JP_ja	replace	そうび	장비	glossary:そうび(명사); 1DX shop_top_wear_02_text는 '장비품'	shop_top	나	1DX:MLyt/MLYT_SHOP_KR_ko/timg/shop_top_wear_02_text_12_KR_ko.bflim	
+SHOP_TIT_ITEM_00_JP_ja	replace	アイテムショップ	아이템 숍	glossary:アイテムショップ	shop_title	다		
+LTIT_SELL_00_JP_ja	replace	うる	팔기	1DX btn_sell(팔기)	list_title	나	1DX:MLyt/MLYT_GUIDE_KR_ko/timg/LTIT_guide_fieldbasic_12_KR_ko.bflim	
+TOP_MENU_TEXT_3_00_JP_ja	replace	ステータス	능력	glossary:ステータス; ko_final:BMsg/b_sys#280(「ステータス」→「능력」)	menu_top	나	1DX:GLyt/G_BG_12_KR_ko/timg/TOP_MENU_TEXT_3_12_KR_ko.bflim	1DX는 '스테이터스'. 대사 번역 우선
+TOP_MENU_TEXT_1_00_JP_ja	replace	アイテム	아이템	glossary; 1DX TOP_MENU_TEXT_1(아이템)	menu_top	나	1DX:GLyt/G_BG_12_KR_ko/timg/TOP_MENU_TEXT_1_12_KR_ko.bflim	80x24(1DX 96x24)
+TOP_MENU_TEXT_6_00_JP_ja	replace	ガイド	가이드	glossary; 1DX TOP_MENU_TEXT_4(가이드)	menu_top	나	1DX:GLyt/G_BG_12_KR_ko/timg/TOP_MENU_TEXT_4_12_KR_ko.bflim	
+TOP_MENU_TEXT_4_00_JP_ja	replace	レコード	기록	glossary:レコード; 1DX TOP_MENU_TEXT_5(기록)	menu_top	나	1DX:MLyt/MLYT_MAIN_KR_ko/timg/TOP_MENU_TEXT_5_12_KR_ko.bflim	
+TOP_MENU_TEXT_2_00_JP_ja	replace	そうび	장비	glossary; 1DX TOP_MENU_TEXT_2(장비)	menu_top	가	1DX:GLyt/G_BG_12_KR_ko/timg/TOP_MENU_TEXT_2_12_KR_ko.bflim	
+TOP_MENU_TEXT_5_00_JP_ja	replace	バッジ	배지	glossary:バッジ	menu_top	나	1DX:GLyt/G_BG_12_KR_ko/timg/TOP_MENU_TEXT_1_12_KR_ko.bflim	
+tab_SET_OFF2_00_JP_ja	replace	なし	없음	coined(あり→있음: ko_final FMsg/i_challenge_01#57)	set_tab	나	1DX:MLyt/MLYT_SET_KR_ko/timg/tab_SET_OFF_12_KR_ko.bflim	리드 확인: 설정 항목(후리가나 표시?) 화면 보고 확인
+tab_SET_ON2_00_JP_ja	replace	あり	있음	ko_final:FMsg/i_challenge_01#57(あり!→있음!)	set_tab	나	1DX:MLyt/MLYT_SET_KR_ko/timg/tab_SET_ON_12_KR_ko.bflim	
+LOAD_GAME_IMG_ML_L_00_JP_ja	replace	マリオ&ルイージRPG3 (로고 왼쪽 조각)	마리오&루이지 RPG3	IMAGE_TASK 0장; 로고	logo	다	1DX:MGMap/KR/MGMap.dat:mg_map_title_logo_KR_ko	파일 선택 그림(RGB565). 로고가 L(144x208)+R(256x208)에 걸쳐 있음 → I4
+btn_KJRPG_00_JP_ja	replace	クッパJr.RPG	쿠파주니어 RPG	glossary:クッパJr.RPG; ko_final:BMsg/b_sys#1615	file_btn	나	1DX:MLyt/MLYT_MAIN_KR_ko/timg/btn_ML_KGRPG_12_KR_ko.bflim	232x62
+btn_SLOT_00_JP_ja	replace	スロット	슬롯	coined(파일 선택 칸. 용어집 スロット=점수 표는 레벨 업 슬롯이라 뜻이 다름)	file_label	다		리드 확인: 쓰이는 화면 확인
+btn_DERACE_00_JP_ja	replace	データをけす	데이터 삭제	1DX btn_load_DERACE(데이터 삭제); ko_final:Menu#577(データをけしました→데이터를 삭제했습니다)	file_btn	나	1DX:MLyt/MLYT_FILE_LOAD_KR_ko/timg/btn_load_DERACE_text_12_KR_ko.bflim	
+btn_COPY_00_JP_ja	replace	コピー	복사	glossary; 1DX btn_load_COPY(복사)	file_btn	나	1DX:MLyt/MLYT_FILE_LOAD_KR_ko/timg/btn_load_COPY_text_12_KR_ko.bflim	
+btn_CANCEL2_00_JP_ja	replace	やめる	취소	1DX btn_load_DONOT(취소); ko_final:FMsg/o_areanone_allmap_01_U#6	file_btn	나	1DX:MLyt/MLYT_FILE_LOAD_KR_ko/timg/btn_load_DONOT_text_12_KR_ko.bflim	
+LOAD_GAME_IMG_KJ_R_00_JP_ja	replace	クッパJr.RPG (로고 오른쪽 조각)	쿠파주니어 RPG	glossary:クッパJr.RPG; 로고	logo	다	1DX:MLyt/MLYT_MAIN_KR_ko/timg/KG_LOGO_TEXT_L_12_KR_ko.bflim	쿠파주니어 RPG 로고(「ジュニア」 루비 포함). L+R → I4
+LABEL_KJRPG_00_JP_ja	replace	クッパJr.RPG	쿠파주니어 RPG	glossary:クッパJr.RPG	file_label	다		
+LOAD_GAME_IMG_ML_R_00_JP_ja	replace	(ルイージRPG3 로고 오른쪽 조각)	마리오&루이지 RPG3	IMAGE_TASK 0장; 로고	logo	다	1DX:MGMap/KR/MGMap.dat:mg_map_title_logo_KR_ko	→ I4
+btn_FERASE_00_JP_ja	replace	ファイルをけす	파일 삭제	1DX btn_load_FERACE(파일 삭제)	file_btn	나	1DX:MLyt/MLYT_FILE_LOAD_KR_ko/timg/btn_load_FERACE_text_12_KR_ko.bflim	
+btn_DELETE1_00_JP_ja	replace	けす	삭제	1DX btn_load_DELETE(삭제); ko_final:Menu#577	file_btn	나	1DX:MLyt/MLYT_FILE_LOAD_KR_ko/timg/btn_load_DELETE_text_12_KR_ko.bflim	
+btn_OWRITE_00_JP_ja	replace	うわがきする	덮어쓰기	1DX btn_load_OWRITE(덮어쓰기); ko_final:Menu#605	file_btn	나	1DX:MLyt/MLYT_FILE_LOAD_KR_ko/timg/btn_load_OWRITE_text_12_KR_ko.bflim	
+LOAD_GAME_IMG_KJ_L_00_JP_ja	replace	(クッパ 로고 왼쪽 조각)	쿠파주니어 RPG	glossary; 로고	logo	다	1DX:MLyt/MLYT_MAIN_KR_ko/timg/KG_LOGO_TEXT_L_12_KR_ko.bflim	→ I4
+btn_MLRPG3_00_JP_ja	replace	マリオ&ルイージRPG3	마리오&루이지 RPG3	IMAGE_TASK 0장(원본이 DX를 뺀 자리)	file_btn	다		232x62, RPG3는 원본 글자 유지
+btn_START_00_JP_ja	replace	はじめる	시작하기	1DX btn_load_START(시작하기)	file_btn	나	1DX:MLyt/MLYT_FILE_LOAD_KR_ko/timg/btn_load_START_text_12_KR_ko.bflim	
+btn_text_guide_pnl_4_00_JP_ja	replace	バトル\nアタック	배틀\n어택	glossary; 1DX btn_text_guide_pnl_4(배틀 어택)	guide_pnl	나	1DX:MLyt/MLYT_GUIDE_KR_ko/timg/btn_text_guide_pnl_4_12_KR_ko.bflim	
+LTIT_guide_2_00_JP_ja	replace	フィールド アクション	필드 액션	1DX LTIT_guide_fieldaction(필드 액션); glossary:アクション	list_title	나	1DX:MLyt/MLYT_GUIDE_KR_ko/timg/LTIT_guide_fieldaction_12_KR_ko.bflim	
+btn_text_guide_pnl_2_00_JP_ja	replace	フィールド\nアクション	필드\n액션	1DX btn_text_guide_pnl_2(필드 액션)	guide_pnl	나	1DX:MLyt/MLYT_GUIDE_KR_ko/timg/btn_text_guide_pnl_2_12_KR_ko.bflim	
+btn_text_guide_pnl_3_00_JP_ja	replace	バトル\nきほん	배틀\n기본	glossary; 1DX btn_text_guide_pnl_3(배틀 기본)	guide_pnl	나	1DX:MLyt/MLYT_GUIDE_KR_ko/timg/btn_text_guide_pnl_3_12_KR_ko.bflim	
+LTIT_guide_1_00_JP_ja	replace	フィールド きほん	필드 기본	1DX LTIT_guide_fieldbasic(필드 기본)	list_title	나	1DX:MLyt/MLYT_GUIDE_KR_ko/timg/LTIT_guide_fieldbasic_12_KR_ko.bflim	
+btn_text_guide_pnl_1_00_JP_ja	replace	フィールド\nきほん	필드\n기본	1DX btn_text_guide_pnl_1(필드 기본)	guide_pnl	나	1DX:MLyt/MLYT_GUIDE_KR_ko/timg/btn_text_guide_pnl_1_12_KR_ko.bflim	
+LTIT_record_AP_00_JP_ja	replace	アタックパーツ	어택피스	glossary:アタックパーツ(붙여 씀)	list_title	나	1DX:MLyt/MLYT_RECORD_KR_ko/timg/LTIT_record_BLOCK_12_KR_ko.bflim	
+btn_p_BGM_00_JP_ja	keep	BGM		1DX btn_p_BGM 영어 유지	record_btn		1DX:MLyt/MLYT_RECORD_KR_ko/timg/btn_p_BGM_12_KR_ko.bflim	
+LTIT_record_KUBOMI_00_JP_ja	replace	くぼみ	홈	glossary:くぼみ(DS); ko_final:Menu#589	list_title	나	1DX:MLyt/MLYT_RECORD_KR_ko/timg/LTIT_record_KUBOMI_12_KR_ko.bflim	1DX는 '구덩이'. 용어집 우선
+LTIT_record_COLISEUM_00_JP_ja	replace	バトルコロシアム	배틀 콜로세움	glossary:バトルコロシアム	list_title	나	1DX:MLyt/MLYT_RECORD_KR_ko/timg/LTIT_record_BLOCK_12_KR_ko.bflim	
+LTIT_BSCORE_00_JP_ja	replace	ベストスコア	베스트 스코어	coined(스코어: ko_final FMsg/i_challenge_01#113)	list_title_faint	다		흐린 흰 글자, 오른쪽 정렬
+btn_p_KUBOMI_00_JP_ja	replace	くぼみ	홈	glossary:くぼみ(DS)	record_btn	나	1DX:MLyt/MLYT_RECORD_KR_ko/timg/btn_p_KUBOMI_12_KR_ko.bflim	1DX는 '구덩이'
+LTIT_BTURN_00_JP_ja	replace	ベストターン	베스트 턴	coined(ターン→턴: ko_final Menu#758)	list_title_faint	다		흐린 흰 글자, 오른쪽 정렬
+btn_p_MINIGAME_00_JP_ja	replace	アタック\nミニゲーム	어택\n미니 게임	glossary:アタック·ミニゲーム	record_btn	나	1DX:MLyt/MLYT_RECORD_KR_ko/timg/btn_p_BLOCK_12_KR_ko.bflim	두 줄 88x24
+LTIT_record_BLOCK_00_JP_ja	replace	ブロック	블록	1DX LTIT_record_BLOCK(블록); ko_final:Item#146	list_title	가	1DX:MLyt/MLYT_RECORD_KR_ko/timg/LTIT_record_BLOCK_12_KR_ko.bflim	
+LTIT_record_BGM_00_JP_ja	keep	BGM		1DX LTIT_record_BGM 영어 유지	list_title		1DX:MLyt/MLYT_RECORD_KR_ko/timg/LTIT_record_BGM_12_KR_ko.bflim	
+btn_p_ATTACK_00_JP_ja	replace	アタック\nパーツ	어택\n피스	glossary:アタックパーツ=어택피스(두 줄이라 나눔)	record_btn	나	1DX:MLyt/MLYT_RECORD_KR_ko/timg/btn_p_BLOCK_12_KR_ko.bflim	
+btn_p_BLOCK_00_JP_ja	replace	ブロック	블록	1DX btn_p_BLOCK(블록)	record_btn	가	1DX:MLyt/MLYT_RECORD_KR_ko/timg/btn_p_BLOCK_12_KR_ko.bflim	
+LTIT_record_MINIGAME_00_JP_ja	replace	アタックミニゲーム	어택 미니 게임	glossary:アタック·ミニゲーム	list_title	나	1DX:MLyt/MLYT_RECORD_KR_ko/timg/LTIT_record_BLOCK_12_KR_ko.bflim	
+btn_p_COLISEUM_00_JP_ja	replace	バトル\nコロシアム	배틀\n콜로세움	glossary:バトルコロシアム	record_btn	나	1DX:MLyt/MLYT_RECORD_KR_ko/timg/btn_p_BLOCK_12_KR_ko.bflim	
+STATUS_EQUIP_00_JP_ja	replace	そうびひん	장비	ko_final:Menu#553(そうびひん→장비)	status_label	다		
+STATUS_RANKBONUS_00_JP_ja	replace	ランクアップボーナス	랭크 업 보너스	glossary; ko_final:BMsg/b_sys#35	status_label	다		
+pnl_ATCMINIGAME_VCONDITION_00_jp_ja	replace	クリアじょうけん	클리어 조건	ko_final:Menu#770(クリアじょうけんについて→클리어 조건에 대해)	panel_label	다		
+LIST_ATCMINIGAME_BB_00_jp_ja	replace	きょだいかバトル	거대화 배틀	ko_final:Menu#777	list_title	다		
+GET_PRIZE_00_JP_ja	replace	しょうひんGET!	상품 GET!	ko_final:Menu#229(しょうひん→상품); GET!은 원본 글자 유지	result_banner	다		
+RECOMMEND_LV_00_JP_ja	replace	おすすめ\nLV	추천\nLV	ko_final:FMsg/i_challenge_01#29(おすすめ→추천)	minigame_btn	다		LV는 원본 유지
+btn_MGAME_pnl1_00_jp_ja	replace	ボス\nバトル	보스\n배틀	coined(glossary バトル=배틀)	minigame_btn	다		
+LIST_ATCMINIGAME_BC_00_jp_ja	replace	ボスバトル	보스 배틀	coined(glossary バトル=배틀)	list_title	다		
+COLISEUM_RESULT_WIN_00_jp_ja	keep	WIN!		영어	en_keep			리드 확인: 1DX 대응 없음
+NEW_BEST_TURN_00_JP_ja	replace	ベストターンこうしん	베스트 턴 갱신	coined(ターン→턴: ko_final Menu#758)	result_banner	다		ETC1A4 흰 채움+남색 테두리
+COLISEUM_RESULT_LOSE_00_jp_ja	keep	LOSE...		영어	en_keep			리드 확인: 1DX 대응 없음
+LTIT_ACTMINIGAME_GUIDE_00_JP_ja	replace	ルール	규칙	ko_final:MenuKJ#21(せいとんのルール→정렬 규칙)·FMsg/o_town_23#0	list_title	다		
+btn_MGAME_pnl2_00_jp_ja	replace	きょだいか\nバトル	거대화\n배틀	ko_final:Menu#777	minigame_btn	다		ETC1A4
+btn_restart_00_JP_ja	replace	もういちど	다시 한번	ko_final:Menu#433(もういちど→다시 한번)	minigame_btn	나	1DX:SLyt/minigamen_KR_ko/timg/btn_mini_RETIREn_12_KR_ko.bflim	
+LIST_ATCMINIGAME_BR_00_jp_ja	replace	ブリローズ	블로즈	glossary:ブリローズ; ko_final:BMsg/b_sys#1064	list_title	다		
+LIST_ATCMINIGAME_CT_00_jp_ja	replace	コレステチューブ	콜레스테로드	glossary:コレステチューブ	list_title	다		
+pnl_ATCMINIGAME_BSCORE_00_JP_ja	keep	BEST SCORE		영어(1DX MINI_BESTSCORE 'BEST' 영어 유지)	en_keep		1DX:SLyt/minigamen_KR_ko/timg/MINI_BESTSCORE_12_KR_ko.bflim	
+pnl_ATCMINIGAME_score_00_jp_ja	replace	ベストスコア	베스트 스코어	coined(스코어: ko_final FMsg/i_challenge_01#113)	result_banner	다		ETC1A4 흰 채움+남색 테두리
+btn_MINIGAME_START_00_JP_ja	replace	スタート	시작	ko_final:FMsg/i_air_14#12(スタート!→시작!)	minigame_btn	나	1DX:SLyt/GAMESTART_KR_ko/timg/btn_GAMESTART_12_KR_ko.bflim	

@@ -1,0 +1,62 @@
+{
+ "textures": [
+  "3DX:MLyt/MENU_FILE_LOAD_JP_ja/timg/LOAD_GAME_IMG_KJ_L_00_JP_ja.bflim\t144x208 RGB565\t1 copies",
+  "3DX:MLyt/MENU_FILE_LOAD_JP_ja/timg/LOAD_GAME_IMG_KJ_R_00_JP_ja.bflim\t256x208 RGB565\t1 copies",
+  "3DX:MLyt/MENU_FILE_LOAD_JP_ja/timg/LOAD_GAME_IMG_ML_L_00_JP_ja.bflim\t144x208 RGB565\t1 copies",
+  "3DX:MLyt/MENU_FILE_LOAD_JP_ja/timg/LOAD_GAME_IMG_ML_R_00_JP_ja.bflim\t256x208 RGB565\t1 copies"
+ ],
+ "warnings": [],
+ "dats": {
+  "BLyt": {
+   "textures_replaced": 0,
+   "slots_changed": 0,
+   "size_orig": 736132,
+   "size_new": 736132
+  },
+  "FLyt": {
+   "textures_replaced": 0,
+   "slots_changed": 0,
+   "size_orig": 68280,
+   "size_new": 68280
+  },
+  "GLyt": {
+   "textures_replaced": 0,
+   "slots_changed": 0,
+   "size_orig": 4740,
+   "size_new": 4740
+  },
+  "KLyt": {
+   "textures_replaced": 0,
+   "slots_changed": 0,
+   "size_orig": 3401160,
+   "size_new": 3401160
+  },
+  "MLyt": {
+   "textures_replaced": 4,
+   "slots_changed": 1,
+   "size_orig": 5130672,
+   "size_new": 5127476
+  },
+  "SLyt": {
+   "textures_replaced": 0,
+   "slots_changed": 0,
+   "size_orig": 2573012,
+   "size_new": 2573012
+  }
+ },
+ "applied": {
+  "2f9fc9246964662c": [
+   "MLyt/MENU_FILE_LOAD_JP_ja/timg/LOAD_GAME_IMG_KJ_L_00_JP_ja.bflim"
+  ],
+  "8e5d9345c7b60f54": [
+   "MLyt/MENU_FILE_LOAD_JP_ja/timg/LOAD_GAME_IMG_KJ_R_00_JP_ja.bflim"
+  ],
+  "f442bea9dc7dc82f": [
+   "MLyt/MENU_FILE_LOAD_JP_ja/timg/LOAD_GAME_IMG_ML_L_00_JP_ja.bflim"
+  ],
+  "09e121759cade671": [
+   "MLyt/MENU_FILE_LOAD_JP_ja/timg/LOAD_GAME_IMG_ML_R_00_JP_ja.bflim"
+  ]
+ },
+ "errors": []
+}

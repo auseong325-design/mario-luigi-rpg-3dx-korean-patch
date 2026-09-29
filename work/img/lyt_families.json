@@ -1,0 +1,1040 @@
+{
+ "battle_btn": {
+  "id": "battle_btn",
+  "description": "전투 화면 버튼 글자(つかう·やめる·けってい·れんしゅう·おてほん)",
+  "decoration": "흰 채움 + 검은 굵은 테두리(1겹), 가운데 정렬. btn_USE만 ETC1A4",
+  "difficulty": 1,
+  "textures": 6,
+  "to_make": 6,
+  "review": [],
+  "workload": 6,
+  "formats": {
+   "ETC1A4": 1,
+   "LA4": 5
+  },
+  "dats": [
+   "BLyt"
+  ],
+  "ref_1dx": [
+   "1DX:BLyt/btl_attackn_KR_ko/timg/btn_guide_example_12_KR_ko.bflim",
+   "1DX:BLyt/btl_attackn_KR_ko/timg/btn_guide_practice_12_KR_ko.bflim",
+   "1DX:MLyt/MLYT_SET_KR_ko/timg/SET_DECISION_12_KR_ko.bflim",
+   "1DX:MLyt/MLYT_SHOP_KR_ko/timg/btn_buy_12_KR_ko.bflim",
+   "1DX:MLyt/MLYT_SHOP_KR_ko/timg/btn_cancel_12_KR_ko.bflim"
+  ],
+  "representative": "3DX:BLyt/btl_MAIN_JP_ja/timg/btn_USE_00_JP_ja.bflim",
+  "members": [
+   "3DX:BLyt/btl_MAIN_JP_ja/timg/btn_USE_00_JP_ja.bflim",
+   "3DX:BLyt/btl_GUIDE_JP_ja/timg/btn_GUIDE_PRACTICE_00_JP_ja.bflim",
+   "3DX:BLyt/btl_GUIDE_JP_ja/timg/btn_GUIDE_EXAMPLE_00_JP_ja.bflim",
+   "3DX:BLyt/btl_RESLT_LYT_JP_ja/timg/btn_cancel_00_JP_ja.bflim",
+   "3DX:BLyt/btl_RESLT_LYT_JP_ja/timg/btn_DECISION2_00_JP_ja.bflim",
+   "3DX:BLyt/btl_BADGE_JP_ja/timg/btn_DECISION_00_JP_ja.bflim"
+  ],
+  "sheet": "work/img/sheets/family_battle_btn.png"
+ },
+ "list_title": {
+  "id": "list_title",
+  "description": "목록 제목·라벨(LTIT_*, KJ_LTIT_*, LIST_ATCMINIGAME_*) 128x16 등",
+  "decoration": "흰 채움 + 얇은 검은 테두리, 왼쪽 정렬(일부 가운데), 작은 글자(약 12px)",
+  "difficulty": 1,
+  "textures": 25,
+  "to_make": 24,
+  "review": [],
+  "workload": 24,
+  "formats": {
+   "LA4": 25
+  },
+  "dats": [
+   "BLyt",
+   "KLyt",
+   "MLyt",
+   "SLyt"
+  ],
+  "ref_1dx": [
+   "1DX:BLyt/btl_mainn_KR_ko/timg/btn_b_HINT_12_KR_ko.bflim",
+   "1DX:MLyt/MLYT_GUIDE_KR_ko/timg/LTIT_guide_battleattack_12_KR_ko.bflim",
+   "1DX:MLyt/MLYT_GUIDE_KR_ko/timg/LTIT_guide_battlebasic_12_KR_ko.bflim",
+   "1DX:MLyt/MLYT_GUIDE_KR_ko/timg/LTIT_guide_fieldaction_12_KR_ko.bflim",
+   "1DX:MLyt/MLYT_GUIDE_KR_ko/timg/LTIT_guide_fieldbasic_12_KR_ko.bflim",
+   "1DX:MLyt/MLYT_RECORD_KR_ko/timg/LTIT_record_BGM_12_KR_ko.bflim",
+   "1DX:MLyt/MLYT_RECORD_KR_ko/timg/LTIT_record_BLOCK_12_KR_ko.bflim",
+   "1DX:MLyt/MLYT_RECORD_KR_ko/timg/LTIT_record_KUBOMI_12_KR_ko.bflim"
+  ],
+  "representative": "3DX:BLyt/btl_GUIDE_JP_ja/timg/LTIT_GUIDE_4_00_JP_ja.bflim",
+  "members": [
+   "3DX:BLyt/btl_GUIDE_JP_ja/timg/LTIT_GUIDE_4_00_JP_ja.bflim",
+   "3DX:BLyt/btl_GUIDE_JP_ja/timg/LTIT_GUIDE_3_00_JP_ja.bflim",
+   "3DX:BLyt/btl_GUIDE_JP_ja/timg/LTIT_btl_HINT_00_JP_ja.bflim",
+   "3DX:KLyt/KJ_RECORD_JP_ja/timg/LTIT_KJ_RECORD_1_00_JP_ja.bflim",
+   "3DX:KLyt/KJ_RECORD_JP_ja/timg/LTIT_KJ_RECORD_2_00_JP_ja.bflim",
+   "3DX:KLyt/KJ_BATTLEn_JP_ja/timg/KJ_LTIT_GUIDE_3_00_JP_ja.bflim",
+   "3DX:KLyt/KJ_BATTLEn_JP_ja/timg/KJ_LTIT_GUIDE_4_00_JP_ja.bflim",
+   "3DX:MLyt/MENU_ITEM_Lyt_JP_ja/timg/LTIT_ITEM_00_JP_ja.bflim",
+   "3DX:MLyt/MENU_SHOP_Lyt_JP_ja/timg/LTIT_EQUIP_00_JP_ja.bflim",
+   "3DX:MLyt/MENU_SHOP_Lyt_JP_ja/timg/LTIT_BADGE_00_JP_ja.bflim",
+   "3DX:MLyt/MENU_SHOP_Lyt_JP_ja/timg/LTIT_NOW_EQUIP_00_JP_ja.bflim",
+   "3DX:MLyt/MENU_SHOP_Lyt_JP_ja/timg/LTIT_SELL_00_JP_ja.bflim",
+   "3DX:MLyt/MENU_GUIDE_JP_ja/timg/LTIT_guide_2_00_JP_ja.bflim",
+   "3DX:MLyt/MENU_GUIDE_JP_ja/timg/LTIT_guide_1_00_JP_ja.bflim",
+   "3DX:MLyt/MENU_RECORD_JP_ja/timg/LTIT_record_AP_00_JP_ja.bflim",
+   "3DX:MLyt/MENU_RECORD_JP_ja/timg/LTIT_record_KUBOMI_00_JP_ja.bflim",
+   "3DX:MLyt/MENU_RECORD_JP_ja/timg/LTIT_record_COLISEUM_00_JP_ja.bflim",
+   "3DX:MLyt/MENU_RECORD_JP_ja/timg/LTIT_record_BLOCK_00_JP_ja.bflim",
+   "3DX:MLyt/MENU_RECORD_JP_ja/timg/LTIT_record_BGM_00_JP_ja.bflim",
+   "3DX:MLyt/MENU_RECORD_JP_ja/timg/LTIT_record_MINIGAME_00_JP_ja.bflim",
+   "3DX:SLyt/COLISEUM_JP_ja/timg/LIST_ATCMINIGAME_BB_00_jp_ja.bflim",
+   "3DX:SLyt/COLISEUM_JP_ja/timg/LIST_ATCMINIGAME_BC_00_jp_ja.bflim",
+   "3DX:SLyt/COLISEUM_JP_ja/timg/LTIT_ACTMINIGAME_GUIDE_00_JP_ja.bflim",
+   "3DX:SLyt/MINIGAME_JP_ja/timg/LIST_ATCMINIGAME_BR_00_jp_ja.bflim",
+   "3DX:SLyt/MINIGAME_JP_ja/timg/LIST_ATCMINIGAME_CT_00_jp_ja.bflim"
+  ],
+  "sheet": "work/img/sheets/family_list_title.png"
+ },
+ "list_title_faint": {
+  "id": "list_title_faint",
+  "description": "기록 화면 오른쪽 정렬 흐린 제목(ベストスコア·ベストターン)",
+  "decoration": "반투명 흰 채움, 테두리 없음, 오른쪽 정렬",
+  "difficulty": 1,
+  "textures": 2,
+  "to_make": 2,
+  "review": [],
+  "workload": 2,
+  "formats": {
+   "LA4": 2
+  },
+  "dats": [
+   "MLyt"
+  ],
+  "ref_1dx": [],
+  "representative": "3DX:MLyt/MENU_RECORD_JP_ja/timg/LTIT_BSCORE_00_JP_ja.bflim",
+  "members": [
+   "3DX:MLyt/MENU_RECORD_JP_ja/timg/LTIT_BSCORE_00_JP_ja.bflim",
+   "3DX:MLyt/MENU_RECORD_JP_ja/timg/LTIT_BTURN_00_JP_ja.bflim"
+  ],
+  "sheet": "work/img/sheets/family_list_title_faint.png"
+ },
+ "panel_label": {
+  "id": "panel_label",
+  "description": "미니게임 패널 라벨(もくひょうスコア·クリアじょうけん)",
+  "decoration": "흰 채움 + 어두운 테두리, 가운데 정렬, 128x16",
+  "difficulty": 1,
+  "textures": 2,
+  "to_make": 2,
+  "review": [],
+  "workload": 2,
+  "formats": {
+   "LA4": 2
+  },
+  "dats": [
+   "BLyt",
+   "SLyt"
+  ],
+  "ref_1dx": [],
+  "representative": "3DX:BLyt/btl_ATMINIGAME_LYT_JP_ja/timg/pnl_ATCMINIGAME_MSCORE_00_jp_ja.bflim",
+  "members": [
+   "3DX:BLyt/btl_ATMINIGAME_LYT_JP_ja/timg/pnl_ATCMINIGAME_MSCORE_00_jp_ja.bflim",
+   "3DX:SLyt/COLISEUM_JP_ja/timg/pnl_ATCMINIGAME_VCONDITION_00_jp_ja.bflim"
+  ],
+  "sheet": "work/img/sheets/family_panel_label.png"
+ },
+ "rank_name": {
+  "id": "rank_name",
+  "description": "랭크 이름 11종(RANK_NAME_*) 128x42 ETC1A4",
+  "decoration": "흰 채움 + 남색 굵은 테두리 + 옅은 바깥 번짐, 기울임 없음. 원문보다 긴 것이 많아 장평 조절",
+  "difficulty": 2,
+  "textures": 11,
+  "to_make": 11,
+  "review": [],
+  "workload": 22,
+  "formats": {
+   "ETC1A4": 11
+  },
+  "dats": [
+   "BLyt"
+  ],
+  "ref_1dx": [],
+  "representative": "3DX:BLyt/btl_RESLT_LYT_JP_ja/timg/RANK_NAME_STAR_00_JP_ja.bflim",
+  "members": [
+   "3DX:BLyt/btl_RESLT_LYT_JP_ja/timg/RANK_NAME_STAR_00_JP_ja.bflim",
+   "3DX:BLyt/btl_RESLT_LYT_JP_ja/timg/RANK_NAME_GOLD_00_JP_ja.bflim",
+   "3DX:BLyt/btl_RESLT_LYT_JP_ja/timg/RANK_NAME_BRONZE_00_JP_ja.bflim",
+   "3DX:BLyt/btl_RESLT_LYT_JP_ja/timg/RANK_NAME_KINOKO_00_JP_ja.bflim",
+   "3DX:BLyt/btl_RESLT_LYT_JP_ja/timg/RANK_NAME_FLOWER_00_JP_ja.bflim",
+   "3DX:BLyt/btl_RESLT_LYT_JP_ja/timg/RANK_NAME_LBOSS_00_JP_ja.bflim",
+   "3DX:BLyt/btl_RESLT_LYT_JP_ja/timg/RANK_NAME_MASTER_00_JP_ja.bflim",
+   "3DX:BLyt/btl_RESLT_LYT_JP_ja/timg/RANK_NAME_SILVER_00_JP_ja.bflim",
+   "3DX:BLyt/btl_RESLT_LYT_JP_ja/timg/RANK_NAME_BOOMERANG_00_JP_ja.bflim",
+   "3DX:BLyt/btl_RESLT_LYT_JP_ja/timg/RANK_NAME_KOURA_00_JP_ja.bflim",
+   "3DX:BLyt/btl_RESLT_LYT_JP_ja/timg/RANK_NAME_RAINBOW_00_JP_ja.bflim"
+  ],
+  "sheet": "work/img/sheets/family_rank_name.png"
+ },
+ "stat_en": {
+  "id": "stat_en",
+  "description": "능력치 영문 라벨(STbr_*, ST_*, KJ_ST_*, EXP/LV/NEXT). BP→SP, HIGE→SUYEOM, TSUNO→PPUL만 교체",
+  "decoration": "흰 채움 + 검은 테두리 + 아래 그림자(픽셀 영문 글꼴). 영문 글자는 같은 판 원본 글자를 재조합",
+  "difficulty": 1,
+  "textures": 21,
+  "to_make": 7,
+  "review": [],
+  "workload": 7,
+  "formats": {
+   "LA4": 21
+  },
+  "dats": [
+   "BLyt",
+   "KLyt",
+   "MLyt"
+  ],
+  "ref_1dx": [
+   "1DX:BLyt/btl_mainn_KR_ko/timg/ST_HIGE_12_KR_ko.bflim",
+   "1DX:BLyt/btl_resultn_KR_ko/timg/STbr_BP_12_KR_ko.bflim",
+   "1DX:BLyt/btl_resultn_KR_ko/timg/STbr_DEF_12_KR_ko.bflim",
+   "1DX:BLyt/btl_resultn_KR_ko/timg/STbr_HIGE_12_KR_ko.bflim",
+   "1DX:BLyt/btl_resultn_KR_ko/timg/STbr_HP_12_KR_ko.bflim",
+   "1DX:BLyt/btl_resultn_KR_ko/timg/STbr_POW_12_KR_ko.bflim",
+   "1DX:BLyt/btl_resultn_KR_ko/timg/STbr_SPEED_12_KR_ko.bflim",
+   "1DX:BLyt/btl_resultn_KR_ko/timg/btl_RESULT_EXP_12_KR_ko.bflim"
+  ],
+  "representative": "3DX:BLyt/btl_RESLT_LYT_JP_ja/timg/STbr_TSUNO_00_JP_ja.bflim",
+  "members": [
+   "3DX:BLyt/btl_RESLT_LYT_JP_ja/timg/STbr_POW_00_JP_ja.bflim",
+   "3DX:BLyt/btl_RESLT_LYT_JP_ja/timg/EXP2812_00_JP_ja.bflim",
+   "3DX:BLyt/btl_RESLT_LYT_JP_ja/timg/STbr_SPEED_00_JP_ja.bflim",
+   "3DX:BLyt/btl_RESLT_LYT_JP_ja/timg/STbr_HP_00_JP_ja.bflim",
+   "3DX:BLyt/btl_RESLT_LYT_JP_ja/timg/STbr_DEF_00_JP_ja.bflim",
+   "3DX:BLyt/btl_RESLT_LYT_JP_ja/timg/STbr_TSUNO_00_JP_ja.bflim",
+   "3DX:BLyt/btl_RESLT_LYT_JP_ja/timg/STbr_BP_00_JP_ja.bflim",
+   "3DX:BLyt/btl_RESLT_LYT_JP_ja/timg/STbr_HIGE_00_JP_ja.bflim",
+   "3DX:BLyt/btl_RESLT_LYT_JP_ja/timg/btl_RESULT_LV_00_JP_ja.bflim",
+   "3DX:KLyt/KJ_RESULT_JP_ja/timg/EXP3216_00_JP_ja.bflim",
+   "3DX:KLyt/KJ_RESULT_JP_ja/timg/KJ_ST_DEF_00_JP_ja.bflim",
+   "3DX:KLyt/KJ_RESULT_JP_ja/timg/KJ_ST_SPEED_00_JP_ja.bflim",
+   "3DX:KLyt/KJ_RESULT_JP_ja/timg/KJ_ST_GDD_00_JP_ja.bflim",
+   "3DX:KLyt/KJ_RESULT_JP_ja/timg/KJ_ST_HP_00_JP_ja.bflim",
+   "3DX:KLyt/KJ_RESULT_JP_ja/timg/LV1208_00_JP_ja.bflim",
+   "3DX:KLyt/KJ_RESULT_JP_ja/timg/KJ_ST_POW_00_JP_ja.bflim",
+   "3DX:KLyt/KJ_ITEM_JP_ja/timg/EXP_s_L_00_JP_ja.bflim",
+   "3DX:KLyt/KJ_ITEM_JP_ja/timg/NEXT_s_L_00_JP_ja.bflim",
+   "3DX:MLyt/MENU_ITEM_Lyt_JP_ja/timg/ST_BP_00_JP_ja.bflim",
+   "3DX:MLyt/MENU_ITEM_Lyt_JP_ja/timg/ST_HIGE_00_JP_ja.bflim",
+   "3DX:MLyt/MENU_ITEM_Lyt_JP_ja/timg/ST_TSUNO_00_JP_ja.bflim"
+  ],
+  "sheet": "work/img/sheets/family_stat_en.png"
+ },
+ "en_keep": {
+  "id": "en_keep",
+  "description": "영어 그대로 두는 글자(RANK UP!!, LEVEL UP!, PAUSE, MARIO 등)",
+  "decoration": "변경 없음",
+  "difficulty": 1,
+  "textures": 26,
+  "to_make": 0,
+  "review": [],
+  "workload": 0,
+  "formats": {
+   "LA4": 11,
+   "LA8": 6,
+   "ETC1A4": 9
+  },
+  "dats": [
+   "BLyt",
+   "KLyt",
+   "MLyt",
+   "SLyt"
+  ],
+  "ref_1dx": [
+   "1DX:BLyt/btl_mainn_KR_ko/timg/name_LUIGI9632_12_KR_ko.bflim",
+   "1DX:BLyt/btl_mainn_KR_ko/timg/name_MARIO9632_12_KR_ko.bflim",
+   "1DX:BLyt/btl_resultn_KR_ko/timg/BR_LVUP_hi_12_KR_ko.bflim",
+   "1DX:BLyt/btl_resultn_KR_ko/timg/BR_LVUP_in_12_KR_ko.bflim",
+   "1DX:BLyt/btl_resultn_KR_ko/timg/BR_LVUP_out_12_KR_ko.bflim",
+   "1DX:GLyt/G_KGG_03_KR_ko/timg/GUIDE_LEVEL_UP_12_KR_ko.bflim",
+   "1DX:MLyt/MLYT_SET_KR_ko/timg/tab_SET_OFF_12_KR_ko.bflim",
+   "1DX:MLyt/MLYT_SET_KR_ko/timg/tab_SET_ON_12_KR_ko.bflim"
+  ],
+  "representative": "3DX:BLyt/btl_RESLT_LYT_JP_ja/timg/BR_RANKUP_o_00_JP_ja.bflim",
+  "members": [
+   "3DX:BLyt/btl_RESLT_LYT_JP_ja/timg/BR_RANKUP_o_00_JP_ja.bflim",
+   "3DX:BLyt/btl_RESLT_LYT_JP_ja/timg/name_MARIO18056_00_JP_ja.bflim",
+   "3DX:BLyt/btl_RESLT_LYT_JP_ja/timg/pnl_ATCMINIGAME_CONGRATULATIONS_00_JP_ja.bflim",
+   "3DX:BLyt/btl_RESLT_LYT_JP_ja/timg/name_KOOPA18056_00_JP_ja.bflim",
+   "3DX:BLyt/btl_RESLT_LYT_JP_ja/timg/name_LUIGI18056_00_JP_ja.bflim",
+   "3DX:BLyt/btl_RESLT_LYT_JP_ja/timg/BR_LVUP_i_00_JP_ja.bflim",
+   "3DX:BLyt/btl_RESLT_LYT_JP_ja/timg/BR_RANKUP_i_00_JP_ja.bflim",
+   "3DX:BLyt/btl_RESLT_LYT_JP_ja/timg/BR_LVUP_hi_00_JP_ja.bflim",
+   "3DX:BLyt/btl_RESLT_LYT_JP_ja/timg/BR_RANKUP_hi_00_JP_ja.bflim",
+   "3DX:BLyt/btl_RESLT_LYT_JP_ja/timg/BR_LVUP_o_00_JP_ja.bflim",
+   "3DX:KLyt/KJ_RESULT_JP_ja/timg/KJ_LEVEL_UP_00_JP_ja.bflim",
+   "3DX:KLyt/KJ_RESULT_JP_ja/timg/KJ_NEW_00_JP_ja.bflim",
+   "3DX:KLyt/KJ_RECORD_JP_ja/timg/pnl_ATCMINIGAME_COMPLETE_00_JP_ja.bflim",
+   "3DX:KLyt/KJ_QUEST_JP_ja/timg/STARTx36.bflim",
+   "3DX:KLyt/KJ_BATTLEn_JP_ja/timg/mg_PAUSE_IN_00_JP_ja.bflim",
+   "3DX:KLyt/KJ_BATTLEn_JP_ja/timg/mg_PAUSE_OUT_00_JP_ja.bflim",
+   "3DX:KLyt/KJ_SET_JP_ja/timg/btn_SET_ON_00_JP_ja.bflim",
+   "3DX:KLyt/KJ_SET_JP_ja/timg/btn_SET_OFF_00_JP_ja.bflim",
+   "3DX:KLyt/KJ_PARTY_JP_ja/timg/KJ_BONUS_00_JP_ja.bflim",
+   "3DX:MLyt/MENU_ITEM_Lyt_JP_ja/timg/name_MARIO9624_00_JP_ja.bflim",
+   "3DX:MLyt/MENU_ITEM_Lyt_JP_ja/timg/name_LUIGI9624_00_JP_ja.bflim",
+   "3DX:MLyt/MENU_ITEM_Lyt_JP_ja/timg/name_KOOPA9624_00_JP_ja.bflim",
+   "3DX:MLyt/MENU_SHOP_Lyt_JP_ja/timg/LIST_SOLDOUT_00_JP_ja.bflim",
+   "3DX:SLyt/COLISEUM_JP_ja/timg/COLISEUM_RESULT_WIN_00_jp_ja.bflim",
+   "3DX:SLyt/COLISEUM_JP_ja/timg/COLISEUM_RESULT_LOSE_00_jp_ja.bflim",
+   "3DX:SLyt/MINIGAME_JP_ja/timg/pnl_ATCMINIGAME_BSCORE_00_JP_ja.bflim"
+  ],
+  "sheet": "work/img/sheets/family_en_keep.png"
+ },
+ "kj_skill": {
+  "id": "kj_skill",
+  "description": "쿠파주니어 RPG 리더 커맨드 이름(btn_KJ_LA_*) 116x22",
+  "decoration": "흰 채움 + 검은 굵은 테두리, 가운데 정렬, 약 18px. 긴 이름은 장평",
+  "difficulty": 1,
+  "textures": 23,
+  "to_make": 22,
+  "review": [],
+  "workload": 22,
+  "formats": {
+   "LA4": 23
+  },
+  "dats": [
+   "KLyt"
+  ],
+  "ref_1dx": [
+   "1DX:GLyt/G_KGH_12_KR_ko/timg/btn_KGLA_TX_n01_12_KR_ko.bflim",
+   "1DX:SLyt/KG_BATTLEn_KR_ko/timg/btn_KGLA_TX_l02_12_KR_ko.bflim",
+   "1DX:SLyt/KG_BATTLEn_KR_ko/timg/btn_KGLA_TX_n00_12_KR_ko.bflim",
+   "1DX:SLyt/KG_BATTLEn_KR_ko/timg/btn_KGLA_TX_n02_12_KR_ko.bflim",
+   "1DX:SLyt/KG_BATTLEn_KR_ko/timg/btn_KGLA_TX_n05_12_KR_ko.bflim",
+   "1DX:SLyt/KG_BATTLEn_KR_ko/timg/btn_KGLA_TX_n08_12_KR_ko.bflim"
+  ],
+  "representative": "3DX:KLyt/KJ_BATTLEn_JP_ja/timg/btn_KJ_LA_11_00_JP_ja.bflim",
+  "members": [
+   "3DX:KLyt/KJ_BATTLEn_JP_ja/timg/btn_KJ_LA_11_00_JP_ja.bflim",
+   "3DX:KLyt/KJ_BATTLEn_JP_ja/timg/btn_KJ_LA_25_00_JP_ja.bflim",
+   "3DX:KLyt/KJ_BATTLEn_JP_ja/timg/btn_KJ_LA_04_00_JP_ja.bflim",
+   "3DX:KLyt/KJ_BATTLEn_JP_ja/timg/btn_KJ_LA_18_00_JP_ja.bflim",
+   "3DX:KLyt/KJ_BATTLEn_JP_ja/timg/btn_KJ_LA_23_00_JP_ja.bflim",
+   "3DX:KLyt/KJ_BATTLEn_JP_ja/timg/btn_KJ_LA_02_00_JP_ja.bflim",
+   "3DX:KLyt/KJ_BATTLEn_JP_ja/timg/btn_KJ_LA_16_00_JP_ja.bflim",
+   "3DX:KLyt/KJ_BATTLEn_JP_ja/timg/btn_KJ_LA_21_00_JP_ja.bflim",
+   "3DX:KLyt/KJ_BATTLEn_JP_ja/timg/btn_KJ_LA_00_00_JP_ja.bflim",
+   "3DX:KLyt/KJ_BATTLEn_JP_ja/timg/btn_KJ_LA_14_00_JP_ja.bflim",
+   "3DX:KLyt/KJ_BATTLEn_JP_ja/timg/btn_KJ_LA_12_00_JP_ja.bflim",
+   "3DX:KLyt/KJ_BATTLEn_JP_ja/timg/btn_KJ_LA_26_00_JP_ja.bflim",
+   "3DX:KLyt/KJ_BATTLEn_JP_ja/timg/btn_KJ_LA_05_00_JP_ja.bflim",
+   "3DX:KLyt/KJ_BATTLEn_JP_ja/timg/btn_KJ_LA_19_00_JP_ja.bflim",
+   "3DX:KLyt/KJ_BATTLEn_JP_ja/timg/btn_KJ_LA_24_00_JP_ja.bflim",
+   "3DX:KLyt/KJ_BATTLEn_JP_ja/timg/btn_KJ_LA_03_00_JP_ja.bflim",
+   "3DX:KLyt/KJ_BATTLEn_JP_ja/timg/btn_KJ_LA_17_00_JP_ja.bflim",
+   "3DX:KLyt/KJ_BATTLEn_JP_ja/timg/btn_KJ_LA_22_00_JP_ja.bflim",
+   "3DX:KLyt/KJ_BATTLEn_JP_ja/timg/btn_KJ_LA_01_00_JP_ja.bflim",
+   "3DX:KLyt/KJ_BATTLEn_JP_ja/timg/btn_KJ_LA_15_00_JP_ja.bflim",
+   "3DX:KLyt/KJ_BATTLEn_JP_ja/timg/btn_KJ_LA_20_00_JP_ja.bflim",
+   "3DX:KLyt/KJ_BATTLEn_JP_ja/timg/btn_KJ_LA_13_00_JP_ja.bflim",
+   "3DX:KLyt/KJ_BATTLEn_JP_ja/timg/btn_KJ_LA_06_00_JP_ja.bflim"
+  ],
+  "sheet": "work/img/sheets/family_kj_skill.png"
+ },
+ "kj_battle_btn": {
+  "id": "kj_battle_btn",
+  "description": "쿠파주니어 RPG 전투 버튼(やめる·ガイド) 128x26",
+  "decoration": "흰 채움 + 검은 테두리, 왼쪽/가운데",
+  "difficulty": 1,
+  "textures": 2,
+  "to_make": 2,
+  "review": [],
+  "workload": 2,
+  "formats": {
+   "LA4": 2
+  },
+  "dats": [
+   "KLyt"
+  ],
+  "ref_1dx": [
+   "1DX:BLyt/btl_mainn_KR_ko/timg/btn_KGb_GUIDE_12_KR_ko.bflim",
+   "1DX:SLyt/KG_BATTLEn_KR_ko/timg/btn_KGb_ESC_12_KR_ko.bflim"
+  ],
+  "representative": "3DX:KLyt/KJ_BATTLEn_JP_ja/timg/btn_KJ_ESC_00_JP_ja.bflim",
+  "members": [
+   "3DX:KLyt/KJ_BATTLEn_JP_ja/timg/btn_KJ_ESC_00_JP_ja.bflim",
+   "3DX:KLyt/KJ_BATTLEn_JP_ja/timg/btn_KJ_GUIDE_00_JP_ja.bflim"
+  ],
+  "sheet": "work/img/sheets/family_kj_battle_btn.png"
+ },
+ "kj_menu_btn": {
+  "id": "kj_menu_btn",
+  "description": "쿠파주니어 RPG 퀘스트/메뉴 버튼(KJ_QUEST)",
+  "decoration": "흰 채움 + 검은 굵은 테두리, 가운데 정렬",
+  "difficulty": 1,
+  "textures": 11,
+  "to_make": 11,
+  "review": [],
+  "workload": 11,
+  "formats": {
+   "LA4": 11
+  },
+  "dats": [
+   "KLyt"
+  ],
+  "ref_1dx": [
+   "1DX:FLyt/fld_actnnn_KR_ko/timg/btn_fld_menu_12_KR_ko.bflim",
+   "1DX:GLyt/G_BG_12_KR_ko/timg/TOP_MENU_TEXT_6_12_KR_ko.bflim",
+   "1DX:GLyt/G_KGH_11_KR_ko/timg/btn_KG_Q_ITEM_12_KR_ko.bflim",
+   "1DX:MLyt/MLYT_FILE_LOAD_KR_ko/timg/btn_load_NO_text_12_KR_ko.bflim",
+   "1DX:MLyt/MLYT_FILE_LOAD_KR_ko/timg/btn_load_YES_text_12_KR_ko.bflim",
+   "1DX:SLyt/KG_MAINnn_TOP_KR_ko/timg/btn_KG_GUIDEs_12_KR_ko.bflim",
+   "1DX:SLyt/KG_MAINnn_TOP_KR_ko/timg/btn_KG_MaL_12_KR_ko.bflim",
+   "1DX:SLyt/KG_QUESTnn_KR_ko/timg/btn_KG_BSTART_12_KR_ko.bflim"
+  ],
+  "representative": "3DX:KLyt/KJ_QUEST_JP_ja/timg/btn_KJ_MENU_RECORD_00_JP_ja.bflim",
+  "members": [
+   "3DX:KLyt/KJ_QUEST_JP_ja/timg/btn_KJ_MENU_RECORD_00_JP_ja.bflim",
+   "3DX:KLyt/KJ_QUEST_JP_ja/timg/btn_KJ_MENU_REMOVE_00_JP_ja.bflim",
+   "3DX:KLyt/KJ_QUEST_JP_ja/timg/btn_KJ_ITEM_00_JP_ja.bflim",
+   "3DX:KLyt/KJ_QUEST_JP_ja/timg/btn_YES1_00_JP_ja.bflim",
+   "3DX:KLyt/KJ_QUEST_JP_ja/timg/btn_NO1_00_JP_ja.bflim",
+   "3DX:KLyt/KJ_QUEST_JP_ja/timg/btn_KJ_MENU_GUIDE_00_JP_ja.bflim",
+   "3DX:KLyt/KJ_QUEST_JP_ja/timg/btn_KJ_HENSEI_n_00_JP_ja.bflim",
+   "3DX:KLyt/KJ_QUEST_JP_ja/timg/btn_KJ_BSTART_00_JP_ja.bflim",
+   "3DX:KLyt/KJ_QUEST_JP_ja/timg/btn_KJ_STOPGAME_n_00_JP_ja.bflim",
+   "3DX:KLyt/KJ_QUEST_JP_ja/timg/btn_KJ_MENU_00_JP_ja.bflim",
+   "3DX:KLyt/KJ_QUEST_JP_ja/timg/btn_KJ_MENU_SET_00_JP_ja.bflim"
+  ],
+  "sheet": "work/img/sheets/family_kj_menu_btn.png"
+ },
+ "kj_small_btn": {
+  "id": "kj_small_btn",
+  "description": "쿠파주니어 RPG 편성·파티 작은 버튼 글자(78x12~108x16)",
+  "decoration": "흰 채움 + 얇은 검은 테두리, 매우 작음(8~12px) → 1DX 폰트 글리프",
+  "difficulty": 1,
+  "textures": 4,
+  "to_make": 4,
+  "review": [],
+  "workload": 4,
+  "formats": {
+   "LA4": 4
+  },
+  "dats": [
+   "KLyt"
+  ],
+  "ref_1dx": [
+   "1DX:SLyt/KG_LACTION_KR_ko/timg/btn_KG_cancel_12_KR_ko.bflim",
+   "1DX:SLyt/KG_LACTION_KR_ko/timg/btn_KG_decision_12_KR_ko.bflim"
+  ],
+  "representative": "3DX:KLyt/KJ_HENSEI_JP_ja/timg/btn_KJ_CANCEL_00_JP_ja.bflim",
+  "members": [
+   "3DX:KLyt/KJ_HENSEI_JP_ja/timg/btn_KJ_CANCEL_00_JP_ja.bflim",
+   "3DX:KLyt/KJ_HENSEI_JP_ja/timg/btn_KJ_DECISION_00_JP_ja.bflim",
+   "3DX:KLyt/KJ_PARTY_JP_ja/timg/KJ_txt_CHANGE_POS_00_JP_ja.bflim",
+   "3DX:KLyt/KJ_PARTY_JP_ja/timg/KJ_txt_DECISION_00_JP_ja.bflim"
+  ],
+  "sheet": "work/img/sheets/family_kj_small_btn.png"
+ },
+ "kj_faint_label": {
+  "id": "kj_faint_label",
+  "description": "쿠파주니어 RPG 흐린 흰 라벨(ならびかえ·てきのじょうほう)",
+  "decoration": "반투명 흰 채움, 테두리 없음",
+  "difficulty": 1,
+  "textures": 2,
+  "to_make": 2,
+  "review": [],
+  "workload": 2,
+  "formats": {
+   "LA4": 2
+  },
+  "dats": [
+   "KLyt"
+  ],
+  "ref_1dx": [
+   "1DX:SLyt/KG_HENSEInn_KR_ko/timg/btn_ENEMYINFO_12_KR_ko.bflim",
+   "1DX:SLyt/KG_HENSEInn_KR_ko/timg/btn_KG_Q_SORT_12_KR_ko.bflim"
+  ],
+  "representative": "3DX:KLyt/KJ_ITEM_JP_ja/timg/btn_KJ_ORDER_00_JP_ja.bflim",
+  "members": [
+   "3DX:KLyt/KJ_ITEM_JP_ja/timg/btn_KJ_ORDER_00_JP_ja.bflim",
+   "3DX:KLyt/KJ_HENSEI_JP_ja/timg/btn_KJ_ENEMYINFO_00_JP_ja.bflim"
+  ],
+  "sheet": "work/img/sheets/family_kj_faint_label.png"
+ },
+ "kj_dark_label": {
+  "id": "kj_dark_label",
+  "description": "쿠파주니어 RPG 진회색 라벨(プロフィール·とじる)",
+  "decoration": "진회색 채움, 테두리 없음",
+  "difficulty": 1,
+  "textures": 2,
+  "to_make": 2,
+  "review": [],
+  "workload": 2,
+  "formats": {
+   "LA4": 2
+  },
+  "dats": [
+   "KLyt"
+  ],
+  "ref_1dx": [],
+  "representative": "3DX:KLyt/KJ_ITEM_JP_ja/timg/btn_KJ_PROF_00_JP_ja.bflim",
+  "members": [
+   "3DX:KLyt/KJ_ITEM_JP_ja/timg/btn_KJ_PROF_00_JP_ja.bflim",
+   "3DX:KLyt/KJ_ITEM_JP_ja/timg/btn_KJ_CLOSE_00_JP_ja.bflim"
+  ],
+  "sheet": "work/img/sheets/family_kj_dark_label.png"
+ },
+ "kj_sort_btn": {
+  "id": "kj_sort_btn",
+  "description": "쿠파주니어 RPG 정렬 버튼(しゅぞく·レベル) 128x24",
+  "decoration": "흰 채움 + 검은 굵은 테두리",
+  "difficulty": 1,
+  "textures": 2,
+  "to_make": 2,
+  "review": [],
+  "workload": 2,
+  "formats": {
+   "LA4": 2
+  },
+  "dats": [
+   "KLyt"
+  ],
+  "ref_1dx": [
+   "1DX:SLyt/KG_HENSEInn_KR_ko/timg/SORT_TYPE_12_KR_ko.bflim"
+  ],
+  "representative": "3DX:KLyt/KJ_ITEM_JP_ja/timg/btn_SET_TYPE_00_JP_ja.bflim",
+  "members": [
+   "3DX:KLyt/KJ_ITEM_JP_ja/timg/btn_SET_TYPE_00_JP_ja.bflim",
+   "3DX:KLyt/KJ_ITEM_JP_ja/timg/btn_SET_LV_00_JP_ja.bflim"
+  ],
+  "sheet": "work/img/sheets/family_kj_sort_btn.png"
+ },
+ "kj_type": {
+  "id": "kj_type",
+  "description": "쿠파주니어 RPG 타입 이름(とつげき·ひこう·えんきょり) 64x22",
+  "decoration": "흰 채움 + 검은 굵은 테두리. 1DX 같은 그림 있음",
+  "difficulty": 1,
+  "textures": 3,
+  "to_make": 3,
+  "review": [],
+  "workload": 3,
+  "formats": {
+   "LA4": 3
+  },
+  "dats": [
+   "KLyt"
+  ],
+  "ref_1dx": [
+   "1DX:GLyt/G_KGG_05_KR_ko/timg/KG_HENSEI_TYPE_01_12_KR_ko.bflim",
+   "1DX:SLyt/KG_RECORDnn_KR_ko/timg/KG_HENSEI_TYPE_02_12_KR_ko.bflim",
+   "1DX:SLyt/KG_RECORDnn_KR_ko/timg/KG_HENSEI_TYPE_03_12_KR_ko.bflim"
+  ],
+  "representative": "3DX:KLyt/KJ_RESULT_JP_ja/timg/KJ_TYPE_02_00_JP_ja.bflim",
+  "members": [
+   "3DX:KLyt/KJ_RESULT_JP_ja/timg/KJ_TYPE_02_00_JP_ja.bflim",
+   "3DX:KLyt/KJ_RESULT_JP_ja/timg/KJ_TYPE_03_00_JP_ja.bflim",
+   "3DX:KLyt/KJ_RESULT_JP_ja/timg/KJ_TYPE_01_00_JP_ja.bflim"
+  ],
+  "sheet": "work/img/sheets/family_kj_type.png"
+ },
+ "kj_label": {
+  "id": "kj_label",
+  "description": "쿠파주니어 RPG 결과 화면 '군단 LV' 52x28",
+  "decoration": "흰 채움 + 검은 테두리, 두 줄. 1DX 같은 그림 있음",
+  "difficulty": 1,
+  "textures": 1,
+  "to_make": 1,
+  "review": [],
+  "workload": 1,
+  "formats": {
+   "LA4": 1
+  },
+  "dats": [
+   "KLyt"
+  ],
+  "ref_1dx": [
+   "1DX:SLyt/KG_LACTION_KR_ko/timg/KG_MEM_LV_12_KR_ko.bflim"
+  ],
+  "representative": "3DX:KLyt/KJ_RESULT_JP_ja/timg/PARTY_LV_00_JP_ja.bflim",
+  "members": [
+   "3DX:KLyt/KJ_RESULT_JP_ja/timg/PARTY_LV_00_JP_ja.bflim"
+  ],
+  "sheet": "work/img/sheets/family_kj_label.png"
+ },
+ "guide_pnl": {
+  "id": "guide_pnl",
+  "description": "가이드 패널 두 줄 글자(MENU_GUIDE·KJ_GUIDE btn_text_*_pnl_*) 96x32",
+  "decoration": "흰 채움 + 검은 굵은 테두리, 두 줄 가운데 정렬",
+  "difficulty": 1,
+  "textures": 8,
+  "to_make": 8,
+  "review": [],
+  "workload": 8,
+  "formats": {
+   "LA4": 8
+  },
+  "dats": [
+   "KLyt",
+   "MLyt"
+  ],
+  "ref_1dx": [
+   "1DX:MLyt/MLYT_GUIDE_KR_ko/timg/btn_text_guide_pnl_1_12_KR_ko.bflim",
+   "1DX:MLyt/MLYT_GUIDE_KR_ko/timg/btn_text_guide_pnl_2_12_KR_ko.bflim",
+   "1DX:MLyt/MLYT_GUIDE_KR_ko/timg/btn_text_guide_pnl_3_12_KR_ko.bflim",
+   "1DX:MLyt/MLYT_GUIDE_KR_ko/timg/btn_text_guide_pnl_4_12_KR_ko.bflim",
+   "1DX:SLyt/KG_GUIDEnn_KR_ko/timg/btn_KG_p_BS0_12_KR_ko.bflim",
+   "1DX:SLyt/KG_GUIDEnn_KR_ko/timg/btn_KG_p_BS1_12_KR_ko.bflim",
+   "1DX:SLyt/KG_GUIDEnn_KR_ko/timg/btn_KG_p_HENSEI_12_KR_ko.bflim"
+  ],
+  "representative": "3DX:KLyt/KJ_GUIDE_JP_ja/timg/btn_text_KJ_GUIDE_pnl_4_00_JP_ja.bflim",
+  "members": [
+   "3DX:KLyt/KJ_GUIDE_JP_ja/timg/btn_text_KJ_GUIDE_pnl_4_00_JP_ja.bflim",
+   "3DX:KLyt/KJ_GUIDE_JP_ja/timg/btn_text_KJ_GUIDE_pnl_2_00_JP_ja.bflim",
+   "3DX:KLyt/KJ_GUIDE_JP_ja/timg/btn_text_KJ_GUIDE_pnl_3_00_JP_ja.bflim",
+   "3DX:KLyt/KJ_GUIDE_JP_ja/timg/btn_text_KJ_GUIDE_pnl_1_00_JP_ja.bflim",
+   "3DX:MLyt/MENU_GUIDE_JP_ja/timg/btn_text_guide_pnl_4_00_JP_ja.bflim",
+   "3DX:MLyt/MENU_GUIDE_JP_ja/timg/btn_text_guide_pnl_2_00_JP_ja.bflim",
+   "3DX:MLyt/MENU_GUIDE_JP_ja/timg/btn_text_guide_pnl_3_00_JP_ja.bflim",
+   "3DX:MLyt/MENU_GUIDE_JP_ja/timg/btn_text_guide_pnl_1_00_JP_ja.bflim"
+  ],
+  "sheet": "work/img/sheets/family_guide_pnl.png"
+ },
+ "record_btn": {
+  "id": "record_btn",
+  "description": "기록 화면 버튼(btn_p_*) 88x24/88x32",
+  "decoration": "흰 채움 + 검은 굵은 테두리, 한두 줄",
+  "difficulty": 1,
+  "textures": 11,
+  "to_make": 9,
+  "review": [],
+  "workload": 9,
+  "formats": {
+   "LA4": 11
+  },
+  "dats": [
+   "KLyt",
+   "MLyt"
+  ],
+  "ref_1dx": [
+   "1DX:MLyt/MLYT_RECORD_KR_ko/timg/btn_p_BGM_12_KR_ko.bflim",
+   "1DX:MLyt/MLYT_RECORD_KR_ko/timg/btn_p_BLOCK_12_KR_ko.bflim",
+   "1DX:MLyt/MLYT_RECORD_KR_ko/timg/btn_p_KUBOMI_12_KR_ko.bflim",
+   "1DX:SLyt/KG_RECORDnn_KR_ko/timg/KG_REC_CHA_12_KR_ko.bflim",
+   "1DX:SLyt/KG_RECORDnn_KR_ko/timg/KG_REC_ENEMY_12_KR_ko.bflim",
+   "1DX:SLyt/KG_RECORDnn_KR_ko/timg/KG_REC_MEMBER_12_KR_ko.bflim"
+  ],
+  "representative": "3DX:KLyt/KJ_RECORD_JP_ja/timg/btn_p_FORMATION_00_JP_ja.bflim",
+  "members": [
+   "3DX:KLyt/KJ_RECORD_JP_ja/timg/btn_p_HATENA_00_JP_ja.bflim",
+   "3DX:KLyt/KJ_RECORD_JP_ja/timg/btn_p_FORMATION_00_JP_ja.bflim",
+   "3DX:KLyt/KJ_RECORD_JP_ja/timg/btn_p_MONSTER_00_JP_ja.bflim",
+   "3DX:KLyt/KJ_RECORD_JP_ja/timg/btn_p_FRIEND_00_JP_ja.bflim",
+   "3DX:KLyt/KJ_RECORD_JP_ja/timg/btn_p_CHALLENGE_00_JP_ja.bflim",
+   "3DX:MLyt/MENU_RECORD_JP_ja/timg/btn_p_BGM_00_JP_ja.bflim",
+   "3DX:MLyt/MENU_RECORD_JP_ja/timg/btn_p_KUBOMI_00_JP_ja.bflim",
+   "3DX:MLyt/MENU_RECORD_JP_ja/timg/btn_p_MINIGAME_00_JP_ja.bflim",
+   "3DX:MLyt/MENU_RECORD_JP_ja/timg/btn_p_ATTACK_00_JP_ja.bflim",
+   "3DX:MLyt/MENU_RECORD_JP_ja/timg/btn_p_BLOCK_00_JP_ja.bflim",
+   "3DX:MLyt/MENU_RECORD_JP_ja/timg/btn_p_COLISEUM_00_JP_ja.bflim"
+  ],
+  "sheet": "work/img/sheets/family_record_btn.png"
+ },
+ "menu_top": {
+  "id": "menu_top",
+  "description": "스타 메뉴 윗 항목(TOP_MENU_TEXT_1~6) 80x24",
+  "decoration": "흰 채움 + 검은 굵은 테두리. 1DX 같은 역할 그림 있음(96x24)",
+  "difficulty": 1,
+  "textures": 6,
+  "to_make": 6,
+  "review": [],
+  "workload": 6,
+  "formats": {
+   "LA4": 6
+  },
+  "dats": [
+   "MLyt"
+  ],
+  "ref_1dx": [
+   "1DX:GLyt/G_BG_12_KR_ko/timg/TOP_MENU_TEXT_1_12_KR_ko.bflim",
+   "1DX:GLyt/G_BG_12_KR_ko/timg/TOP_MENU_TEXT_2_12_KR_ko.bflim",
+   "1DX:GLyt/G_BG_12_KR_ko/timg/TOP_MENU_TEXT_3_12_KR_ko.bflim",
+   "1DX:GLyt/G_BG_12_KR_ko/timg/TOP_MENU_TEXT_4_12_KR_ko.bflim",
+   "1DX:MLyt/MLYT_MAIN_KR_ko/timg/TOP_MENU_TEXT_5_12_KR_ko.bflim"
+  ],
+  "representative": "3DX:MLyt/MENU_MAIN_JP_ja/timg/TOP_MENU_TEXT_3_00_JP_ja.bflim",
+  "members": [
+   "3DX:MLyt/MENU_MAIN_JP_ja/timg/TOP_MENU_TEXT_3_00_JP_ja.bflim",
+   "3DX:MLyt/MENU_MAIN_JP_ja/timg/TOP_MENU_TEXT_1_00_JP_ja.bflim",
+   "3DX:MLyt/MENU_MAIN_JP_ja/timg/TOP_MENU_TEXT_6_00_JP_ja.bflim",
+   "3DX:MLyt/MENU_MAIN_JP_ja/timg/TOP_MENU_TEXT_4_00_JP_ja.bflim",
+   "3DX:MLyt/MENU_MAIN_JP_ja/timg/TOP_MENU_TEXT_2_00_JP_ja.bflim",
+   "3DX:MLyt/MENU_MAIN_JP_ja/timg/TOP_MENU_TEXT_5_00_JP_ja.bflim"
+  ],
+  "sheet": "work/img/sheets/family_menu_top.png"
+ },
+ "set_tab": {
+  "id": "set_tab",
+  "description": "설정 탭 あり/なし 96x24",
+  "decoration": "흰 채움 + 검은 굵은 테두리",
+  "difficulty": 1,
+  "textures": 2,
+  "to_make": 2,
+  "review": [],
+  "workload": 2,
+  "formats": {
+   "LA4": 2
+  },
+  "dats": [
+   "MLyt"
+  ],
+  "ref_1dx": [
+   "1DX:MLyt/MLYT_SET_KR_ko/timg/tab_SET_OFF_12_KR_ko.bflim",
+   "1DX:MLyt/MLYT_SET_KR_ko/timg/tab_SET_ON_12_KR_ko.bflim"
+  ],
+  "representative": "3DX:MLyt/MENU_SET_JP_ja/timg/tab_SET_OFF2_00_JP_ja.bflim",
+  "members": [
+   "3DX:MLyt/MENU_SET_JP_ja/timg/tab_SET_OFF2_00_JP_ja.bflim",
+   "3DX:MLyt/MENU_SET_JP_ja/timg/tab_SET_ON2_00_JP_ja.bflim"
+  ],
+  "sheet": "work/img/sheets/family_set_tab.png"
+ },
+ "shop_btn": {
+  "id": "shop_btn",
+  "description": "상점 버튼(かう·うる·そうび·あとで·はい) 108x24",
+  "decoration": "흰 채움 + 검은 굵은 테두리",
+  "difficulty": 1,
+  "textures": 5,
+  "to_make": 5,
+  "review": [],
+  "workload": 5,
+  "formats": {
+   "LA4": 5
+  },
+  "dats": [
+   "MLyt"
+  ],
+  "ref_1dx": [
+   "1DX:MLyt/MLYT_FILE_LOAD_KR_ko/timg/btn_load_YES_text_12_KR_ko.bflim",
+   "1DX:MLyt/MLYT_SHOP_KR_ko/timg/btn_buy_12_KR_ko.bflim",
+   "1DX:MLyt/MLYT_SHOP_KR_ko/timg/btn_equip_12_KR_ko.bflim",
+   "1DX:MLyt/MLYT_SHOP_KR_ko/timg/btn_later_12_KR_ko.bflim",
+   "1DX:MLyt/MLYT_SHOP_KR_ko/timg/btn_sell_12_KR_ko.bflim"
+  ],
+  "representative": "3DX:MLyt/MENU_SHOP_Lyt_JP_ja/timg/btn_equip_00_JP_ja.bflim",
+  "members": [
+   "3DX:MLyt/MENU_SHOP_Lyt_JP_ja/timg/btn_equip_00_JP_ja.bflim",
+   "3DX:MLyt/MENU_SHOP_Lyt_JP_ja/timg/btn_scratch_00_JP_ja.bflim",
+   "3DX:MLyt/MENU_SHOP_Lyt_JP_ja/timg/btn_sell_00_JP_ja.bflim",
+   "3DX:MLyt/MENU_SHOP_Lyt_JP_ja/timg/btn_later_00_JP_ja.bflim",
+   "3DX:MLyt/MENU_SHOP_Lyt_JP_ja/timg/btn_buy_00_JP_ja.bflim"
+  ],
+  "sheet": "work/img/sheets/family_shop_btn.png"
+ },
+ "shop_top": {
+  "id": "shop_top",
+  "description": "상점 첫 화면 항목(shop_top_*_text) 96x22",
+  "decoration": "흰 채움 + 검은 굵은 테두리",
+  "difficulty": 1,
+  "textures": 7,
+  "to_make": 7,
+  "review": [],
+  "workload": 7,
+  "formats": {
+   "LA4": 7
+  },
+  "dats": [
+   "MLyt"
+  ],
+  "ref_1dx": [
+   "1DX:MLyt/MLYT_SHOP_KR_ko/timg/shop_top_badge_text_12_KR_ko.bflim",
+   "1DX:MLyt/MLYT_SHOP_KR_ko/timg/shop_top_item_text_12_KR_ko.bflim",
+   "1DX:MLyt/MLYT_SHOP_KR_ko/timg/shop_top_sell_text_12_KR_ko.bflim",
+   "1DX:MLyt/MLYT_SHOP_KR_ko/timg/shop_top_wear_01_text_12_KR_ko.bflim",
+   "1DX:MLyt/MLYT_SHOP_KR_ko/timg/shop_top_wear_02_text_12_KR_ko.bflim"
+  ],
+  "representative": "3DX:MLyt/MENU_SHOP_Lyt_JP_ja/timg/shop_top_acce_text_00_JP_ja.bflim",
+  "members": [
+   "3DX:MLyt/MENU_SHOP_Lyt_JP_ja/timg/shop_top_acce_text_00_JP_ja.bflim",
+   "3DX:MLyt/MENU_SHOP_Lyt_JP_ja/timg/shop_top_sell_text_00_JP_ja.bflim",
+   "3DX:MLyt/MENU_SHOP_Lyt_JP_ja/timg/shop_top_koura_text_00_JP_ja.bflim",
+   "3DX:MLyt/MENU_SHOP_Lyt_JP_ja/timg/shop_top_badge_text_00_JP_ja.bflim",
+   "3DX:MLyt/MENU_SHOP_Lyt_JP_ja/timg/shop_top_wear_text_00_JP_ja.bflim",
+   "3DX:MLyt/MENU_SHOP_Lyt_JP_ja/timg/shop_top_item_text_00_JP_ja.bflim",
+   "3DX:MLyt/MENU_SHOP_Lyt_JP_ja/timg/shop_top_equip_text_00_JP_ja.bflim"
+  ],
+  "sheet": "work/img/sheets/family_shop_top.png"
+ },
+ "shop_title": {
+  "id": "shop_title",
+  "description": "상점 이름(SHOP_TIT_*) 180x16",
+  "decoration": "흰 채움 + 어두운 그림자, 왼쪽 정렬, 작은 글자",
+  "difficulty": 1,
+  "textures": 8,
+  "to_make": 8,
+  "review": [],
+  "workload": 8,
+  "formats": {
+   "LA4": 8
+  },
+  "dats": [
+   "MLyt"
+  ],
+  "ref_1dx": [],
+  "representative": "3DX:MLyt/MENU_SHOP_Lyt_JP_ja/timg/SHOP_TIT_EQUIP3_00_JP_ja.bflim",
+  "members": [
+   "3DX:MLyt/MENU_SHOP_Lyt_JP_ja/timg/SHOP_TIT_EQUIP3_00_JP_ja.bflim",
+   "3DX:MLyt/MENU_SHOP_Lyt_JP_ja/timg/SHOP_TIT_BLODOG_00_JP_ja.bflim",
+   "3DX:MLyt/MENU_SHOP_Lyt_JP_ja/timg/SHOP_TIT_EQUIP1_00_JP_ja.bflim",
+   "3DX:MLyt/MENU_SHOP_Lyt_JP_ja/timg/SHOP_TIT_BADGE_00_JP_ja.bflim",
+   "3DX:MLyt/MENU_SHOP_Lyt_JP_ja/timg/SHOP_TIT_BLOCK_00_JP_ja.bflim",
+   "3DX:MLyt/MENU_SHOP_Lyt_JP_ja/timg/SHOP_TIT_BLILOCK_00_JP_ja.bflim",
+   "3DX:MLyt/MENU_SHOP_Lyt_JP_ja/timg/SHOP_TIT_EQUIP2_00_JP_ja.bflim",
+   "3DX:MLyt/MENU_SHOP_Lyt_JP_ja/timg/SHOP_TIT_ITEM_00_JP_ja.bflim"
+  ],
+  "sheet": "work/img/sheets/family_shop_title.png"
+ },
+ "status_label": {
+  "id": "status_label",
+  "description": "능력 화면 라벨(そうびひん·ランクアップボーナス) 150x24",
+  "decoration": "흰 채움 + 검은 테두리",
+  "difficulty": 1,
+  "textures": 2,
+  "to_make": 2,
+  "review": [],
+  "workload": 2,
+  "formats": {
+   "LA4": 2
+  },
+  "dats": [
+   "MLyt"
+  ],
+  "ref_1dx": [],
+  "representative": "3DX:MLyt/MENU_STATUS_JP_ja/timg/STATUS_EQUIP_00_JP_ja.bflim",
+  "members": [
+   "3DX:MLyt/MENU_STATUS_JP_ja/timg/STATUS_EQUIP_00_JP_ja.bflim",
+   "3DX:MLyt/MENU_STATUS_JP_ja/timg/STATUS_RANKBONUS_00_JP_ja.bflim"
+  ],
+  "sheet": "work/img/sheets/family_status_label.png"
+ },
+ "file_btn": {
+  "id": "file_btn",
+  "description": "파일 선택·저장 화면 버튼",
+  "decoration": "흰 채움 + 검은 굵은 테두리, 가운데 정렬",
+  "difficulty": 1,
+  "textures": 12,
+  "to_make": 12,
+  "review": [],
+  "workload": 12,
+  "formats": {
+   "LA4": 12
+  },
+  "dats": [
+   "MLyt"
+  ],
+  "ref_1dx": [
+   "1DX:MLyt/MLYT_FILE_LOAD_KR_ko/timg/btn_load_COPY_text_12_KR_ko.bflim",
+   "1DX:MLyt/MLYT_FILE_LOAD_KR_ko/timg/btn_load_DELETE_text_12_KR_ko.bflim",
+   "1DX:MLyt/MLYT_FILE_LOAD_KR_ko/timg/btn_load_DERACE_text_12_KR_ko.bflim",
+   "1DX:MLyt/MLYT_FILE_LOAD_KR_ko/timg/btn_load_DONOT_text_12_KR_ko.bflim",
+   "1DX:MLyt/MLYT_FILE_LOAD_KR_ko/timg/btn_load_FERACE_text_12_KR_ko.bflim",
+   "1DX:MLyt/MLYT_FILE_LOAD_KR_ko/timg/btn_load_OWRITE_text_12_KR_ko.bflim",
+   "1DX:MLyt/MLYT_FILE_LOAD_KR_ko/timg/btn_load_START_text_12_KR_ko.bflim",
+   "1DX:MLyt/MLYT_FILE_SAVE_KR_ko/timg/btn_SAVE_text_12_KR_ko.bflim"
+  ],
+  "representative": "3DX:MLyt/MENU_FILE_SAVE_JP_ja/timg/btn_RETURN_TITLE_00_JP_ja.bflim",
+  "members": [
+   "3DX:MLyt/MENU_FILE_SAVE_JP_ja/timg/btn_RETURN_TITLE_00_JP_ja.bflim",
+   "3DX:MLyt/MENU_FILE_SAVE_JP_ja/timg/btn_CONTINUE_00_JP_ja.bflim",
+   "3DX:MLyt/MENU_FILE_SAVE_JP_ja/timg/btn_SAVE_text_00_JP_ja.bflim",
+   "3DX:MLyt/MENU_FILE_LOAD_JP_ja/timg/btn_KJRPG_00_JP_ja.bflim",
+   "3DX:MLyt/MENU_FILE_LOAD_JP_ja/timg/btn_DERACE_00_JP_ja.bflim",
+   "3DX:MLyt/MENU_FILE_LOAD_JP_ja/timg/btn_COPY_00_JP_ja.bflim",
+   "3DX:MLyt/MENU_FILE_LOAD_JP_ja/timg/btn_CANCEL2_00_JP_ja.bflim",
+   "3DX:MLyt/MENU_FILE_LOAD_JP_ja/timg/btn_FERASE_00_JP_ja.bflim",
+   "3DX:MLyt/MENU_FILE_LOAD_JP_ja/timg/btn_DELETE1_00_JP_ja.bflim",
+   "3DX:MLyt/MENU_FILE_LOAD_JP_ja/timg/btn_OWRITE_00_JP_ja.bflim",
+   "3DX:MLyt/MENU_FILE_LOAD_JP_ja/timg/btn_MLRPG3_00_JP_ja.bflim",
+   "3DX:MLyt/MENU_FILE_LOAD_JP_ja/timg/btn_START_00_JP_ja.bflim"
+  ],
+  "sheet": "work/img/sheets/family_file_btn.png"
+ },
+ "file_label": {
+  "id": "file_label",
+  "description": "파일 선택 화면 작은 라벨(게임 이름·スロット)",
+  "decoration": "흰 채움 + 어두운 그림자, 왼쪽 정렬, 작은 글자",
+  "difficulty": 1,
+  "textures": 4,
+  "to_make": 4,
+  "review": [],
+  "workload": 4,
+  "formats": {
+   "LA4": 4
+  },
+  "dats": [
+   "MLyt"
+  ],
+  "ref_1dx": [
+   "1DX:MLyt/MLYT_FILE_LOAD_KR_ko/timg/NEW_DATA_text_12_KR_ko.bflim"
+  ],
+  "representative": "3DX:MLyt/MENU_FILE_SAVE_JP_ja/timg/LABEL_MLRPG_00_JP_ja.bflim",
+  "members": [
+   "3DX:MLyt/MENU_FILE_SAVE_JP_ja/timg/LABEL_MLRPG_00_JP_ja.bflim",
+   "3DX:MLyt/MENU_FILE_SAVE_JP_ja/timg/NEW_DATA_text_00_JP_ja.bflim",
+   "3DX:MLyt/MENU_FILE_LOAD_JP_ja/timg/btn_SLOT_00_JP_ja.bflim",
+   "3DX:MLyt/MENU_FILE_LOAD_JP_ja/timg/LABEL_KJRPG_00_JP_ja.bflim"
+  ],
+  "sheet": "work/img/sheets/family_file_label.png"
+ },
+ "field_btn": {
+  "id": "field_btn",
+  "description": "필드 미니맵 열기/닫기 64x16",
+  "decoration": "흰 채움 + 검은 테두리, 오른쪽 정렬",
+  "difficulty": 1,
+  "textures": 2,
+  "to_make": 2,
+  "review": [],
+  "workload": 2,
+  "formats": {
+   "LA4": 2
+  },
+  "dats": [
+   "FLyt"
+  ],
+  "ref_1dx": [
+   "1DX:FLyt/fld_actnnn_KR_ko/timg/btn_f_map_12_KR_ko.bflim"
+  ],
+  "representative": "3DX:FLyt/FLD_ACT_JP_ja/timg/btn_F_MAP_CLOSE_00_JP_ja.bflim",
+  "members": [
+   "3DX:FLyt/FLD_ACT_JP_ja/timg/btn_F_MAP_CLOSE_00_JP_ja.bflim",
+   "3DX:FLyt/FLD_ACT_JP_ja/timg/btn_F_MAP_OPEN_00_JP_ja.bflim"
+  ],
+  "sheet": "work/img/sheets/family_field_btn.png"
+ },
+ "minigame_btn": {
+  "id": "minigame_btn",
+  "description": "미니게임·콜로세움 버튼 글자(スタート·もういちど·ボス/きょだいか バトル·おすすめLV)",
+  "decoration": "흰 채움 + 검은 굵은 테두리(일부 ETC1A4)",
+  "difficulty": 1,
+  "textures": 5,
+  "to_make": 5,
+  "review": [],
+  "workload": 5,
+  "formats": {
+   "LA4": 4,
+   "ETC1A4": 1
+  },
+  "dats": [
+   "SLyt"
+  ],
+  "ref_1dx": [
+   "1DX:SLyt/GAMESTART_KR_ko/timg/btn_GAMESTART_12_KR_ko.bflim",
+   "1DX:SLyt/minigamen_KR_ko/timg/btn_mini_RETIREn_12_KR_ko.bflim"
+  ],
+  "representative": "3DX:SLyt/COLISEUM_JP_ja/timg/RECOMMEND_LV_00_JP_ja.bflim",
+  "members": [
+   "3DX:SLyt/COLISEUM_JP_ja/timg/RECOMMEND_LV_00_JP_ja.bflim",
+   "3DX:SLyt/COLISEUM_JP_ja/timg/btn_MGAME_pnl1_00_jp_ja.bflim",
+   "3DX:SLyt/COLISEUM_JP_ja/timg/btn_MGAME_pnl2_00_jp_ja.bflim",
+   "3DX:SLyt/MINIGAME_JP_ja/timg/btn_restart_00_JP_ja.bflim",
+   "3DX:SLyt/MINIGAME_JP_ja/timg/btn_MINIGAME_START_00_JP_ja.bflim"
+  ],
+  "sheet": "work/img/sheets/family_minigame_btn.png"
+ },
+ "result_banner": {
+  "id": "result_banner",
+  "description": "결과 배너(ベストターンこうしん·ベストスコア·しょうひんGET!)",
+  "decoration": "흰 채움 + 남색/검은 테두리, ETC1A4·LA4",
+  "difficulty": 2,
+  "textures": 3,
+  "to_make": 3,
+  "review": [],
+  "workload": 6,
+  "formats": {
+   "LA4": 1,
+   "ETC1A4": 2
+  },
+  "dats": [
+   "SLyt"
+  ],
+  "ref_1dx": [],
+  "representative": "3DX:SLyt/COLISEUM_JP_ja/timg/GET_PRIZE_00_JP_ja.bflim",
+  "members": [
+   "3DX:SLyt/COLISEUM_JP_ja/timg/GET_PRIZE_00_JP_ja.bflim",
+   "3DX:SLyt/COLISEUM_JP_ja/timg/NEW_BEST_TURN_00_JP_ja.bflim",
+   "3DX:SLyt/MINIGAME_JP_ja/timg/pnl_ATCMINIGAME_score_00_jp_ja.bflim"
+  ],
+  "sheet": "work/img/sheets/family_result_banner.png"
+ },
+ "logo": {
+  "id": "logo",
+  "description": "게임 로고가 든 파일 선택 그림(LOAD_GAME_IMG_*) → I4",
+  "decoration": "로고(입체·그라데이션). I4 담당",
+  "difficulty": 3,
+  "textures": 4,
+  "to_make": 4,
+  "review": [],
+  "workload": 12,
+  "formats": {
+   "RGB565": 4
+  },
+  "dats": [
+   "MLyt"
+  ],
+  "ref_1dx": [
+   "1DX:MGMap/KR/MGMap.dat:mg_map_title_logo_KR_ko",
+   "1DX:MLyt/MLYT_MAIN_KR_ko/timg/KG_LOGO_TEXT_L_12_KR_ko.bflim"
+  ],
+  "representative": "3DX:MLyt/MENU_FILE_LOAD_JP_ja/timg/LOAD_GAME_IMG_ML_L_00_JP_ja.bflim",
+  "members": [
+   "3DX:MLyt/MENU_FILE_LOAD_JP_ja/timg/LOAD_GAME_IMG_ML_L_00_JP_ja.bflim",
+   "3DX:MLyt/MENU_FILE_LOAD_JP_ja/timg/LOAD_GAME_IMG_KJ_R_00_JP_ja.bflim",
+   "3DX:MLyt/MENU_FILE_LOAD_JP_ja/timg/LOAD_GAME_IMG_ML_R_00_JP_ja.bflim",
+   "3DX:MLyt/MENU_FILE_LOAD_JP_ja/timg/LOAD_GAME_IMG_KJ_L_00_JP_ja.bflim"
+  ],
+  "sheet": "work/img/sheets/family_logo.png"
+ },
+ "equip_marker": {
+  "id": "equip_marker",
+  "description": "장착 표시 'E'(1DX도 E 유지)",
+  "decoration": "변경 없음",
+  "difficulty": 1,
+  "textures": 3,
+  "to_make": 0,
+  "review": [],
+  "workload": 0,
+  "formats": {
+   "ETC1A4": 3
+  },
+  "dats": [
+   "MLyt"
+  ],
+  "ref_1dx": [
+   "1DX:MLyt/MLYT_EQUIP_KR_ko/timg/E_LUIGI.bflim",
+   "1DX:MLyt/MLYT_EQUIP_KR_ko/timg/E_MARIO.bflim"
+  ],
+  "representative": "3DX:MLyt/MENU_SHOP_Lyt_JP_ja/timg/E_KOOPA_00_JP_ja.bflim",
+  "members": [
+   "3DX:MLyt/MENU_SHOP_Lyt_JP_ja/timg/E_KOOPA_00_JP_ja.bflim",
+   "3DX:MLyt/MENU_SHOP_Lyt_JP_ja/timg/E_LUIGI_00_JP_ja.bflim",
+   "3DX:MLyt/MENU_SHOP_Lyt_JP_ja/timg/E_MARIO_00_JP_ja.bflim"
+  ],
+  "sheet": "work/img/sheets/family_equip_marker.png"
+ },
+ "dummy": {
+  "id": "dummy",
+  "description": "지역 더미 텍스처",
+  "decoration": "변경 없음",
+  "difficulty": 1,
+  "textures": 1,
+  "to_make": 0,
+  "review": [],
+  "workload": 0,
+  "formats": {
+   "ETC1A4": 1
+  },
+  "dats": [
+   "BLyt"
+  ],
+  "ref_1dx": [],
+  "representative": "3DX:BLyt/btl_MAIN_JP_ja/timg/DUM_00_JP_ja.bflim",
+  "members": [
+   "3DX:BLyt/btl_MAIN_JP_ja/timg/DUM_00_JP_ja.bflim"
+  ],
+  "sheet": "work/img/sheets/family_dummy.png"
+ }
+}

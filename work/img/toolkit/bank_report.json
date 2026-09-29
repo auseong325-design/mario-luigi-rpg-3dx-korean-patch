@@ -1,0 +1,52 @@
+{
+ "pairs": {},
+ "per_font": {
+  "font": {
+   "n": 399,
+   "iou_mean": 0.62,
+   "stroke_ratio_vs_image": 0.831,
+   "iou_small_em<=16": 0.625,
+   "iou_large_em>16": 0.594
+  },
+  "font_l": {
+   "n": 271,
+   "iou_mean": 0.629,
+   "stroke_ratio_vs_image": 0.866,
+   "iou_small_em<=16": 0.628,
+   "iou_large_em>16": 0.635
+  },
+  "NanumSquareRoundEB": {
+   "n": 399,
+   "iou_mean": 0.538,
+   "stroke_ratio_vs_image": 0.737,
+   "iou_small_em<=16": 0.538,
+   "iou_large_em>16": 0.535
+  },
+  "NanumSquareRoundB": {
+   "n": 399,
+   "iou_mean": 0.459,
+   "stroke_ratio_vs_image": 0.587,
+   "iou_small_em<=16": 0.46,
+   "iou_large_em>16": 0.458
+  },
+  "NotoSansKR-Bold": {
+   "n": 399,
+   "iou_mean": 0.526,
+   "stroke_ratio_vs_image": 0.715,
+   "iou_small_em<=16": 0.531,
+   "iou_large_em>16": 0.498
+  },
+  "NotoSansKR-Medium": {
+   "n": 399,
+   "iou_mean": 0.447,
+   "stroke_ratio_vs_image": 0.581,
+   "iou_small_em<=16": 0.451,
+   "iou_large_em>16": 0.423
+  }
+ },
+ "font_vs_font_l": 0.796,
+ "image_vs_image_same_syllable": 0.601,
+ "ofl_choice": "NanumSquareRoundEB",
+ "bank_syllables": 154,
+ "bank_not_in_font": ""
+}

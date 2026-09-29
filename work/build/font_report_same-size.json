@@ -1,0 +1,146 @@
+{
+ "mode": "same-size",
+ "used_chars": 1256,
+ "used_hangul": 1163,
+ "extra_wanted": "※",
+ "donor_root": "C:\\mario-luigi-rpg-3dx-korean-patch\\ml 1dx\\3romfs",
+ "fonts": {
+  "font": {
+   "file": "C:\\mario-luigi-rpg-3dx-korean-patch\\work\\build\\same_size_romfs\\Msg\\JP_ja\\font.bffnt",
+   "size_before": 278792,
+   "size_after": 280336,
+   "sheets_before": 1,
+   "sheets_after": 1,
+   "glyphs_before": 1248,
+   "glyphs_after": 1378,
+   "added": 1171,
+   "added_non_hangul": "!~,%:·*※",
+   "dropped": "",
+   "reclaimed": 1041,
+   "donor": "Msg/KR_ko/font.bffnt",
+   "donor_shift": [
+    1,
+    3
+   ],
+   "sources": {
+    "1dx": 1006,
+    "composed": 153,
+    "rendered-NanumSquareRoundEB-16": 2,
+    "relaxed": 5,
+    "rendered-NotoSansKR-Bold-15": 5
+   },
+   "not_from_1dx": {
+    "composed": "빵깥쏙긍넨뛴펀꺽암랭첨룹찐헥찡옙궂컨킹넉톡펙뗏렉묵뱅맣캡뜁랩룸헐눕륵몽붉융춥헴훤갯껄닳섰썬씻즙값겟긁꾹낀넙논뮤뿍솜씹엾쪘쫄챘컹콰탔튜펭폴헛헹갉겉깎껑꿨넷덴딥똘랴벅뵌빽샀숑엎엣옳젝캄톳팟펑폐혈훙겋겪곶굵굶긱넛녁댁댓덧뎌둠듦땜롯벙볶붐뻘뻤쁠쁨샘섀셰쇄쉈슉슐슥썩썽씁옹웩웹윤젓좇쥑짠짰쫌찜춘켈텍툰툴틸핵혁혓훼휙휭",
+    "rendered-NanumSquareRoundEB-16": "·*",
+    "relaxed": "쯔쾅뉜믄좔",
+    "rendered-NotoSansKR-Bold-15": "몫쬔췄핥휩"
+   },
+   "face": "NanumSquareRoundEB.ttf",
+   "px": 16,
+   "method": "hinted",
+   "baseline_cjk": 14,
+   "baseline_latin": 16,
+   "notes": [
+    "font: 1DX ',' nudged -1 px vertically to fit the cell",
+    "font: original glyphs unchanged (mapping, CWDH, pixels) 207/207 (+1041 reclaimed for Hangul)",
+    "font: pixels changed outside new glyph cells: 0",
+    "font: 1006/1006 glyphs identical to Msg/KR_ko/font.bffnt (pixels; Hangul also CWDH), shift cjk +1 latin +3",
+    "font: advances within the merge_ko width model for 1257/1257 required characters",
+    "font: lib3dx.bffnt_advances reads 1378 mapped characters, 1257/1257 required characters with the intended advance"
+   ],
+   "failures": [],
+   "previews": []
+  },
+  "font_l": {
+   "file": "C:\\mario-luigi-rpg-3dx-korean-patch\\work\\build\\same_size_romfs\\Msg\\JP_ja\\font_l.bffnt",
+   "size_before": 272560,
+   "size_after": 275628,
+   "sheets_before": 1,
+   "sheets_after": 1,
+   "glyphs_before": 355,
+   "glyphs_after": 703,
+   "added": 567,
+   "added_non_hangul": "!~,―%+」=():↑☆♪",
+   "dropped": "혹뉴닥랜칙텐괴년론벤쩍룩&듯룹컬퀘갔깨됩럴쁘산얻칭튕흔·멀잔즘큭곤광덕랍쌓왠익접쩌팅흡릿숫왓월좌찐투궁김담땐믿쇠숍육풍걱교깜낌맡숴씀죄쭉쯤춰취침핀휘깊깔꺄끌냥녕떼멈윽잃껏껴률멤벼뻐삭압책척헥꽤뀌놔닿링송쩔쿨팡굉둬뚫뭉뿔웃잇찡철첫축탕튀횟훌꿈뚜뿌쎄엑욱협흘검겐곧냈둥렬류밭셈싹욕쨌쳤홈황닐뜩락멧앉옙잉쟁찍총칸켓큼휴궂규깃꽉낮넌농덩랐봉웅죽쪼컨킹틈【】갚깝넉뇨닝땡뜻롭민밌벗센옆옵톡퉁→긋꼼낭닙덮돈빔앙엘옐웠읽칼탓펙푸학흩/곁낙낫놨둔뗏렉롤맙묵밑뱅북빡셋쓴옛옮줬쳇킥퇴팍혔굿끗낸덜뚝렀렵릇맘맣멸볍봅봇빌뼈뽀삐쩐챙캡탈툭↓■●갇겹권꿔냄냅녹늙돕뒷듬뜁랩랬럿렴룸밝뱉봬뵙샤섭솔솟숙쏠쏴얀옷율존쯔찔촌켰킵탐헐걷곡념눕늦닫닷뒀딩떡략량렘륭륵몽붉붕빅뽑섞섬슴씬앤얍융좁짱쩜찼춥푹픈헉헴헷훤'←▲갯굳껄꼴꾀꾼냉닦닳돋땀랙랠램렛릅맹묻빗섰숭슷썬씻얌즙쵸층쾅쾌톱틱팬펠펼×값겟긁꾹꿰낀넙녔논뇌눠뉜늠늬닉댄덥듭뢰맵묘뮤므믄믹밤뷰뺏뿍솜슘싱싼쌈쌍쑥씹얕엥엽엾젖젤짊짐짧쪄쪘쫄챘캔컸컹콤콰탔튜펭폴햐헛헹홍흉*①②③④⑤★갉갛갸겉깎껑꽈꽝꿇꿨뀐넓넷덴둑딥딴똘뜰랗랴렷룰릎맥밥벅뵌빚빽뺄뾰샀숑쉿썰씌엎엣옳읍잎잿젝좔줍쥐쥬즉쬐쭈촉캄톳팟펑펴폐폼헌혈훈훙훨흙객겋겪곶괘굵굶긱꽂꿉뀔끓낄낡낯넛넥녁뉘댁댓댕덧델뎌둠둡뒹듦딨땜떴뛸뜬띄랏랫렌롯뤄몫묶뭇뭣벙볕볶붐붓빴뻘뻤뼛쁠쁨삶샌샘섀섹셀셰쇄숯쉈슉슐슥썩썼썽씁얄옥옹웩웹윤젓좇줌쥑짚짠짰쫌쬔쭐찜춘춤췄칩캬켈퀸킴턱털텅텍텨툰툴틸팀팠핥핵햇혁혓훔훼휙휩휭힙※",
+   "reclaimed": 219,
+   "donor": "Msg/KR_ko/font_l.bffnt",
+   "donor_shift": [
+    2,
+    4
+   ],
+   "sources": {
+    "1dx": 248,
+    "upscaled-real": 298,
+    "rendered-NanumSquareRoundEB-23": 10,
+    "upscaled-composed": 11
+   },
+   "not_from_1dx": {
+    "upscaled-real": "면빈저몸운제데블과워튼번돌건질빨화볼틀았줄든중좋반생져명런렇력쪽찾각키노문증캐핫즐릴료심많싶앞귀힘약셨클슨백연체열또엄감통몰특된울죠떻현잊풀손둘최큰끝겨추결언업흥준헬떠참졌떤렸멋름남났혼갖붙퀴평훗빼끔똑뿐며콜범짓흑답견씩딱뛰징표닌왼납젊닮쁜끊뻔졸탱택롱때개프동득복획몬물행선련직강양길째던등메커셜완린근른브태새움올숲처껍돼빠란펌법십템랑얼뚱패변굴떨식역뒤헤받럭관달필병왈맨킨늘잡싸쓸포매순영됐션웨팔확쇼핑액께겁벌험막좀혀먼릭셔향국줘꿀벽슬밀능킬맛힌플족뭔펄밟였톤홀갑낼높눈본술꽃토활눌환넣림채청밖젠창천넘밍숨왜널찮친괜쉽찬립탁꺼챌딪독빛쿵품땅써겼꼬삼쉬싫착힐딘베빙찰렁뭘턴펜봤씨엇항칠쏘덤멍외흠뿜",
+    "rendered-NanumSquareRoundEB-23": "―%+」=():↑☆",
+    "upscaled-composed": "빵깥쏙긍넨뛴펀꺽암랭첨"
+   },
+   "face": "NanumSquareRoundEB.ttf",
+   "px": 23,
+   "method": "hinted",
+   "baseline_cjk": 20,
+   "baseline_latin": 23,
+   "notes": [
+    "font_l: tone tables 0..15 -> upscaled [0, 0, 0, 1, 3, 5, 7, 9, 11, 12, 14, 15, 15, 15, 15, 15] (283 pairs), composed [0, 1, 2, 3, 5, 5, 7, 8, 9, 10, 11, 12, 13, 15, 15, 15] (169 pairs)",
+    "font_l: '(' nudged -1 px vertically to fit the cell",
+    "font_l: ')' nudged -1 px vertically to fit the cell",
+    "font_l: 1DX ',' nudged -2 px vertically to fit the cell",
+    "font_l: '/' nudged -1 px vertically to fit the cell",
+    "font_l: upscaled '좋' nudged -1 px vertically to fit the cell",
+    "font_l: original glyphs unchanged (mapping, CWDH, pixels) 136/136 (+219 reclaimed for Hangul)",
+    "font_l: pixels changed outside new glyph cells: 0",
+    "font_l: 248/248 glyphs identical to Msg/KR_ko/font_l.bffnt (pixels; Hangul also CWDH), shift cjk +2 latin +4",
+    "font_l: lib3dx.bffnt_advances reads 703 mapped characters, 626/1257 required characters with the intended advance"
+   ],
+   "failures": [],
+   "previews": []
+  },
+  "font_btl": {
+   "file": "C:\\mario-luigi-rpg-3dx-korean-patch\\work\\build\\same_size_romfs\\Msg\\JP_ja\\font_btl.bffnt",
+   "size_before": 145624,
+   "size_after": 148300,
+   "sheets_before": 1,
+   "sheets_after": 1,
+   "glyphs_before": 949,
+   "glyphs_after": 1241,
+   "added": 1079,
+   "added_non_hangul": "!~,%:♪·↓■●'▲×*①②③④⑤",
+   "dropped": "넛넥녁뉘댁댓댕덧델뎌둠둡뒹듦딨땜떴뛸뜬띄랏랫렌롯뤄몫묶뭇뭣벙볕볶붐붓빴뻘뻤뼛쁠쁨삶샌샘섀섹셀셰쇄숯쉈슉슐슥썩썼썽씁얄옥옹웩웹윤젓좇줌쥑짚짠짰쫌쬔쭐찜춘춤췄칩캬켈퀸킴턱털텅텍텨툰툴틸팀팠핥핵햇혁혓훔훼휙휩휭힙",
+   "reclaimed": 787,
+   "donor": "Msg/KR_ko/font_btl.bffnt",
+   "donor_shift": [
+    -1,
+    0
+   ],
+   "sources": {
+    "1dx": 966,
+    "composed": 102,
+    "rendered-NanumSquareRoundB-12": 6,
+    "relaxed": 5
+   },
+   "not_from_1dx": {
+    "composed": "빵깥쏙긍넨뛴펀꺽암랭첨룹찐헥찡옙궂컨킹넉톡펙뗏렉묵뱅맣캡뜁랩룸헐눕륵몽붉융춥헴훤갯껄닳섰썬씻즙값겟긁꾹낀넙논뮤뿍솜씹엾쪘쫄챘컹콰탔튜펭폴헛헹갉겉깎껑꿨넷덴딥똘랴벅뵌빽샀숑엎엣옳젝캄톳팟펑폐혈훙겋겪곶굵굶긱",
+    "rendered-NanumSquareRoundB-12": "·■●'▲*",
+    "relaxed": "쯔쾅뉜믄좔"
+   },
+   "face": "NanumSquareRoundB.ttf",
+   "px": 12,
+   "method": "hinted",
+   "baseline_cjk": 10,
+   "baseline_latin": 11,
+   "notes": [
+    "font_btl: 1DX ',' nudged -1 px vertically to fit the cell",
+    "font_btl: original glyphs unchanged (mapping, CWDH, pixels) 162/162 (+787 reclaimed for Hangul)",
+    "font_btl: pixels changed outside new glyph cells: 0",
+    "font_btl: 966/966 glyphs identical to Msg/KR_ko/font_btl.bffnt (pixels; Hangul also CWDH), shift cjk -1 latin +0",
+    "font_btl: lib3dx.bffnt_advances reads 1241 mapped characters, 1154/1257 required characters with the intended advance"
+   ],
+   "failures": [],
+   "previews": []
+  }
+ }
+}

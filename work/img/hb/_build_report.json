@@ -1,0 +1,247 @@
+{
+ "textures": [
+  {
+   "arc": "HB/JP_ja/cyorometer.arc.z",
+   "texture": "s_ui_cyorometer_distance",
+   "fmt": "ETC1A4",
+   "psnr": 52.32,
+   "ok": true
+  },
+  {
+   "arc": "HB/JP_ja/cyorometer.arc.z",
+   "texture": "s_ui_cyorometer_station",
+   "fmt": "ETC1A4",
+   "psnr": 56.52,
+   "ok": true
+  },
+  {
+   "arc": "HB/JP_ja/demoskip.arc.z",
+   "texture": "ja_sentaku_no",
+   "fmt": "ETC1A4",
+   "psnr": 63.91,
+   "ok": true
+  },
+  {
+   "arc": "HB/JP_ja/demoskip.arc.z",
+   "texture": "i_ui_demoskip01a",
+   "fmt": "ETC1A4",
+   "psnr": 99.0,
+   "ok": true
+  },
+  {
+   "arc": "HB/JP_ja/dpunch.arc.z",
+   "texture": "ja_mukaeute_text",
+   "fmt": "ETC1A4",
+   "psnr": 74.94,
+   "ok": true
+  },
+  {
+   "arc": "HB/JP_ja/dpunch.arc.z",
+   "texture": "ja_slide_text",
+   "fmt": "ETC1A4",
+   "psnr": 61.25,
+   "ok": true
+  },
+  {
+   "arc": "HB/JP_ja/dpunch.arc.z",
+   "texture": "ja_renzoku_slide_text",
+   "fmt": "ETC1A4",
+   "psnr": 52.01,
+   "ok": true
+  },
+  {
+   "arc": "HB/JP_ja/fireball.arc.z",
+   "texture": "ja_touch_text",
+   "fmt": "ETC1A4",
+   "psnr": 52.14,
+   "ok": true
+  },
+  {
+   "arc": "HB/JP_ja/kyusai.arc.z",
+   "texture": "ja_modoru_text",
+   "fmt": "ETC1A4",
+   "psnr": 60.89,
+   "ok": true
+  },
+  {
+   "arc": "HB/JP_ja/kyusai.arc.z",
+   "texture": "ja_easymode_text",
+   "fmt": "ETC1A4",
+   "psnr": 54.71,
+   "ok": true
+  },
+  {
+   "arc": "HB/JP_ja/kyusai.arc.z",
+   "texture": "ja_yarinaosu_text",
+   "fmt": "ETC1A4",
+   "psnr": 56.14,
+   "ok": true
+  },
+  {
+   "arc": "HB/JP_ja/kyusai.arc.z",
+   "texture": "ja_title_text",
+   "fmt": "ETC1A4",
+   "psnr": 55.19,
+   "ok": true
+  },
+  {
+   "arc": "HB/JP_ja/kyusai.arc.z",
+   "texture": "ja_battleskip_text",
+   "fmt": "ETC1A4",
+   "psnr": 54.26,
+   "ok": true
+  },
+  {
+   "arc": "HB/JP_ja/kyusai.arc.z",
+   "texture": "ja_sentaku_no",
+   "fmt": "ETC1A4",
+   "psnr": 63.91,
+   "ok": true
+  },
+  {
+   "arc": "HB/JP_ja/kyusai.arc.z",
+   "texture": "ja_kettei_text",
+   "fmt": "ETC1A4",
+   "psnr": 61.72,
+   "ok": true
+  },
+  {
+   "arc": "HB/JP_ja/punch.arc.z",
+   "texture": "hayaku_slide_text",
+   "fmt": "ETC1A4",
+   "psnr": 51.86,
+   "ok": true
+  },
+  {
+   "arc": "HB/JP_ja/rotation.arc.z",
+   "texture": "ja_e_ui_boss_rotation_text",
+   "fmt": "ETC1A4",
+   "psnr": 51.47,
+   "ok": true
+  },
+  {
+   "arc": "HB/JP_ja/start.arc.z",
+   "texture": "ja_e_ui_boss_button_text",
+   "fmt": "ETC1A4",
+   "psnr": 49.94,
+   "ok": true
+  },
+  {
+   "arc": "HB/JP_ja/touchpen.arc.z",
+   "texture": "ja_renda_touch_text",
+   "fmt": "ETC1A4",
+   "psnr": 58.83,
+   "ok": true
+  },
+  {
+   "arc": "HB/JP_ja/touchpen.arc.z",
+   "texture": "ja_touch_text",
+   "fmt": "ETC1A4",
+   "psnr": 52.14,
+   "ok": true
+  },
+  {
+   "arc": "HB/JP_ja/ui_fa.arc.z",
+   "texture": "ja_kaiten_slide_text",
+   "fmt": "ETC1A4",
+   "psnr": 52.71,
+   "ok": true
+  },
+  {
+   "arc": "HB/JP_ja/yesno.arc.z",
+   "texture": "ja_sentaku_no",
+   "fmt": "ETC1A4",
+   "psnr": 63.91,
+   "ok": true
+  },
+  {
+   "arc": "HB/JP_ja/yesno.arc.z",
+   "texture": "ja_sentaku_yes",
+   "fmt": "ETC1A4",
+   "psnr": 58.37,
+   "ok": true
+  },
+  {
+   "arc": "HB/parts.arc.z",
+   "texture": "ja_sentaku_no",
+   "fmt": "ETC1A4",
+   "psnr": 63.91,
+   "ok": true
+  },
+  {
+   "arc": "HB/parts.arc.z",
+   "texture": "ja_sentaku_yes",
+   "fmt": "ETC1A4",
+   "psnr": 58.37,
+   "ok": true
+  }
+ ],
+ "applied": {
+  "s_ui_cyorometer_distance": [
+   "HB/JP_ja/cyorometer.arc.z"
+  ],
+  "s_ui_cyorometer_station": [
+   "HB/JP_ja/cyorometer.arc.z"
+  ],
+  "ja_sentaku_no": [
+   "HB/JP_ja/demoskip.arc.z",
+   "HB/JP_ja/kyusai.arc.z",
+   "HB/JP_ja/yesno.arc.z",
+   "HB/parts.arc.z"
+  ],
+  "i_ui_demoskip01a": [
+   "HB/JP_ja/demoskip.arc.z"
+  ],
+  "ja_mukaeute_text": [
+   "HB/JP_ja/dpunch.arc.z"
+  ],
+  "ja_slide_text": [
+   "HB/JP_ja/dpunch.arc.z"
+  ],
+  "ja_renzoku_slide_text": [
+   "HB/JP_ja/dpunch.arc.z"
+  ],
+  "ja_touch_text": [
+   "HB/JP_ja/fireball.arc.z",
+   "HB/JP_ja/touchpen.arc.z"
+  ],
+  "ja_modoru_text": [
+   "HB/JP_ja/kyusai.arc.z"
+  ],
+  "ja_easymode_text": [
+   "HB/JP_ja/kyusai.arc.z"
+  ],
+  "ja_yarinaosu_text": [
+   "HB/JP_ja/kyusai.arc.z"
+  ],
+  "ja_title_text": [
+   "HB/JP_ja/kyusai.arc.z"
+  ],
+  "ja_battleskip_text": [
+   "HB/JP_ja/kyusai.arc.z"
+  ],
+  "ja_kettei_text": [
+   "HB/JP_ja/kyusai.arc.z"
+  ],
+  "hayaku_slide_text": [
+   "HB/JP_ja/punch.arc.z"
+  ],
+  "ja_e_ui_boss_rotation_text": [
+   "HB/JP_ja/rotation.arc.z"
+  ],
+  "ja_e_ui_boss_button_text": [
+   "HB/JP_ja/start.arc.z"
+  ],
+  "ja_renda_touch_text": [
+   "HB/JP_ja/touchpen.arc.z"
+  ],
+  "ja_kaiten_slide_text": [
+   "HB/JP_ja/ui_fa.arc.z"
+  ],
+  "ja_sentaku_yes": [
+   "HB/JP_ja/yesno.arc.z",
+   "HB/parts.arc.z"
+  ]
+ },
+ "unused_png": []
+}

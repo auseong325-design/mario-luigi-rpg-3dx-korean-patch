@@ -1,0 +1,7 @@
+﻿#load,eff_toge
+start
+0,,,tilt,hb_good
+5,,loc_smoke01,eff,tobasare_kemuri06a
+5,,loc_smoke02,eff,tobasare_kemuri06a
+5,80,root,se,HBTL_4_SE_K_PC_KNOCKBACK,
+90,,,tilt,stop

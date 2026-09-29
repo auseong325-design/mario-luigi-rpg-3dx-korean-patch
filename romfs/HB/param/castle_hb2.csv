@@ -1,0 +1,8 @@
+﻿#load,eff_toge
+start
+0,,,tilt,hb_good
+5,,loc_smoke01,eff,tobasare_kemuri04a
+5,,loc_smoke02,eff,tobasare_kemuri04a
+5,80,koopa_castle_body,se,HBTL_SE_KC_KNOCKBACK,
+100,,koopa_castle_body,eff,koopa_castle_kemuri06a
+100,,koopa_castle_body,se,HBTL_SE_KC_LAND

@@ -1,5 +1,16 @@
 # Original game data (copyrighted) - never commit or upload
-/romfs/
+# (exception: 3DX original font files, kept in this private repo for the cloud session)
+/romfs/*
+!/romfs/Msg/
+/romfs/Msg/*
+!/romfs/Msg/JP_ja/
+/romfs/Msg/JP_ja/*
+!/romfs/Msg/JP_ja/font*.bffnt
+!/romfs/Msg/font_ruby.bffnt
+!/romfs/Msg/gaizi.bffnt
+!/romfs/Staffroll/
+/romfs/Staffroll/*
+!/romfs/Staffroll/mario_font.bffnt
 /romf2/
 /exefs2/
 /ml 1dx/

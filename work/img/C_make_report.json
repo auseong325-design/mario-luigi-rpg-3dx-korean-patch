@@ -1,0 +1,1136 @@
+{
+ "btn_USE_00_JP_ja": {
+  "family": "battle_btn",
+  "ko": "사용하기",
+  "out": "work/img/ko/lyt/BLyt/btl_MAIN_JP_ja/btn_USE_00_JP_ja.png",
+  "sources": [
+   [
+    [
+     "사용하기",
+     "font:font"
+    ]
+   ]
+  ],
+  "levels": [
+   "font"
+  ],
+  "fit": {
+   "hscale": 1.0,
+   "tracking": 0.0,
+   "overflow": false,
+   "width": 61.5,
+   "lines": 1
+  },
+  "weight": {
+   "target_px": 3.071,
+   "glyph_px": 2.057,
+   "achieved_px": 3.062,
+   "ratio": 0.997
+  },
+  "problems": [],
+  "kw": {}
+ },
+ "pnl_ATCMINIGAME_MSCORE_00_jp_ja": {
+  "family": "panel_label",
+  "ko": "목표 스코어",
+  "out": "work/img/ko/lyt/BLyt/btl_ATMINIGAME_LYT_JP_ja/pnl_ATCMINIGAME_MSCORE_00_jp_ja.png",
+  "sources": [
+   [
+    [
+     "목표",
+     "font:font_btl"
+    ],
+    [
+     "스코어",
+     "font:font_btl"
+    ]
+   ]
+  ],
+  "levels": [
+   "font"
+  ],
+  "fit": {
+   "hscale": 1.0,
+   "tracking": 0.0,
+   "overflow": false,
+   "width": 64.5,
+   "lines": 1
+  },
+  "weight": {
+   "target_px": 2.291,
+   "glyph_px": 1.517,
+   "achieved_px": 2.26,
+   "ratio": 0.986
+  },
+  "problems": [
+   "글자 높이 비 1.182"
+  ],
+  "kw": {}
+ },
+ "btn_GUIDE_PRACTICE_00_JP_ja": {
+  "family": "battle_btn",
+  "ko": "연습",
+  "out": "work/img/ko/lyt/BLyt/btl_GUIDE_JP_ja/btn_GUIDE_PRACTICE_00_JP_ja.png",
+  "sources": [
+   [
+    [
+     "연습",
+     "font:font_btl"
+    ]
+   ]
+  ],
+  "levels": [
+   "font"
+  ],
+  "fit": {
+   "hscale": 1.0,
+   "tracking": 0.0,
+   "overflow": false,
+   "width": 22.5,
+   "lines": 1
+  },
+  "weight": {
+   "target_px": 2.747,
+   "glyph_px": 1.718,
+   "achieved_px": 2.805,
+   "ratio": 1.021
+  },
+  "problems": [],
+  "kw": {}
+ },
+ "btn_GUIDE_EXAMPLE_00_JP_ja": {
+  "family": "battle_btn",
+  "ko": "시범",
+  "out": "work/img/ko/lyt/BLyt/btl_GUIDE_JP_ja/btn_GUIDE_EXAMPLE_00_JP_ja.png",
+  "sources": [
+   [
+    [
+     "시범",
+     "font:font_btl"
+    ]
+   ]
+  ],
+  "levels": [
+   "font"
+  ],
+  "fit": {
+   "hscale": 1.0,
+   "tracking": 0.0,
+   "overflow": false,
+   "width": 21.5,
+   "lines": 1
+  },
+  "weight": {
+   "target_px": 2.933,
+   "glyph_px": 1.692,
+   "achieved_px": 3.026,
+   "ratio": 1.032
+  },
+  "problems": [],
+  "kw": {}
+ },
+ "RANK_NAME_STAR_00_JP_ja": {
+  "family": "rank_name",
+  "ko": "스타 랭크",
+  "out": "work/img/ko/lyt/BLyt/btl_RESLT_LYT_JP_ja/RANK_NAME_STAR_00_JP_ja.png",
+  "sources": [
+   [
+    [
+     "스타",
+     "font:font"
+    ],
+    [
+     "랭크",
+     "compose:font(랭)"
+    ]
+   ]
+  ],
+  "levels": [
+   "compose"
+  ],
+  "fit": {
+   "hscale": 1.0,
+   "tracking": 0.0,
+   "overflow": false,
+   "width": 59.5,
+   "lines": 1
+  },
+  "weight": {
+   "target_px": 2.978,
+   "glyph_px": 1.666,
+   "achieved_px": 2.874,
+   "ratio": 0.965
+  },
+  "problems": [
+   "테두리 겹 수 (1, 2)"
+  ],
+  "kw": {
+   "em": 13.0,
+   "box": [
+    12,
+    0,
+    116,
+    42
+   ]
+  }
+ },
+ "RANK_NAME_GOLD_00_JP_ja": {
+  "family": "rank_name",
+  "ko": "골드 보스 랭크",
+  "out": "work/img/ko/lyt/BLyt/btl_RESLT_LYT_JP_ja/RANK_NAME_GOLD_00_JP_ja.png",
+  "sources": [
+   [
+    [
+     "골드",
+     "font:font"
+    ],
+    [
+     "보스",
+     "font:font"
+    ],
+    [
+     "랭크",
+     "compose:font(랭)"
+    ]
+   ]
+  ],
+  "levels": [
+   "compose"
+  ],
+  "fit": {
+   "hscale": 1.0,
+   "tracking": 0.0,
+   "overflow": false,
+   "width": 94.75,
+   "lines": 1
+  },
+  "weight": {
+   "target_px": 2.978,
+   "glyph_px": 1.732,
+   "achieved_px": 2.953,
+   "ratio": 0.991
+  },
+  "problems": [],
+  "kw": {
+   "em": 13.0,
+   "box": [
+    12,
+    0,
+    116,
+    42
+   ]
+  }
+ },
+ "btn_cancel_00_JP_ja": {
+  "family": "battle_btn",
+  "ko": "취소",
+  "out": "work/img/ko/lyt/BLyt/btl_RESLT_LYT_JP_ja/btn_cancel_00_JP_ja.png",
+  "sources": [
+   [
+    [
+     "취소",
+     "same_word"
+    ]
+   ]
+  ],
+  "levels": [
+   "same_word"
+  ],
+  "fit": {
+   "hscale": 1.0,
+   "tracking": 0.0,
+   "overflow": false,
+   "width": 36.5,
+   "lines": 1
+  },
+  "weight": {
+   "target_px": 3.634,
+   "glyph_px": 2.609,
+   "achieved_px": 3.629,
+   "ratio": 0.999
+  },
+  "problems": [],
+  "kw": {}
+ },
+ "RANK_NAME_BRONZE_00_JP_ja": {
+  "family": "rank_name",
+  "ko": "브론즈 보스 랭크",
+  "out": "work/img/ko/lyt/BLyt/btl_RESLT_LYT_JP_ja/RANK_NAME_BRONZE_00_JP_ja.png",
+  "sources": [
+   [
+    [
+     "브론즈",
+     "font:font"
+    ],
+    [
+     "보스",
+     "font:font"
+    ],
+    [
+     "랭크",
+     "compose:font(랭)"
+    ]
+   ]
+  ],
+  "levels": [
+   "compose"
+  ],
+  "fit": {
+   "hscale": 0.9506308797408632,
+   "tracking": -0.010869155504479977,
+   "overflow": false,
+   "width": 103.25,
+   "lines": 1
+  },
+  "weight": {
+   "target_px": 2.978,
+   "glyph_px": 1.657,
+   "achieved_px": 2.901,
+   "ratio": 0.974
+  },
+  "problems": [],
+  "kw": {
+   "em": 13.0,
+   "box": [
+    12,
+    0,
+    116,
+    42
+   ]
+  }
+ },
+ "RANK_NAME_KINOKO_00_JP_ja": {
+  "family": "rank_name",
+  "ko": "버섯 랭크",
+  "out": "work/img/ko/lyt/BLyt/btl_RESLT_LYT_JP_ja/RANK_NAME_KINOKO_00_JP_ja.png",
+  "sources": [
+   [
+    [
+     "버섯",
+     "font:font"
+    ],
+    [
+     "랭크",
+     "compose:font(랭)"
+    ]
+   ]
+  ],
+  "levels": [
+   "compose"
+  ],
+  "fit": {
+   "hscale": 1.0,
+   "tracking": 0.0,
+   "overflow": false,
+   "width": 57.0,
+   "lines": 1
+  },
+  "weight": {
+   "target_px": 2.978,
+   "glyph_px": 1.732,
+   "achieved_px": 2.897,
+   "ratio": 0.973
+  },
+  "problems": [
+   "테두리 겹 수 (1, 2)"
+  ],
+  "kw": {
+   "em": 13.0,
+   "box": [
+    12,
+    0,
+    116,
+    42
+   ]
+  }
+ },
+ "RANK_NAME_FLOWER_00_JP_ja": {
+  "family": "rank_name",
+  "ko": "플라워 랭크",
+  "out": "work/img/ko/lyt/BLyt/btl_RESLT_LYT_JP_ja/RANK_NAME_FLOWER_00_JP_ja.png",
+  "sources": [
+   [
+    [
+     "플라워",
+     "font:font"
+    ],
+    [
+     "랭크",
+     "compose:font(랭)"
+    ]
+   ]
+  ],
+  "levels": [
+   "compose"
+  ],
+  "fit": {
+   "hscale": 1.0,
+   "tracking": 0.0,
+   "overflow": false,
+   "width": 72.75,
+   "lines": 1
+  },
+  "weight": {
+   "target_px": 2.978,
+   "glyph_px": 1.806,
+   "achieved_px": 2.915,
+   "ratio": 0.979
+  },
+  "problems": [],
+  "kw": {
+   "em": 13.0,
+   "box": [
+    12,
+    0,
+    116,
+    42
+   ]
+  }
+ },
+ "RANK_NAME_LBOSS_00_JP_ja": {
+  "family": "rank_name",
+  "ko": "파이널 보스 랭크",
+  "out": "work/img/ko/lyt/BLyt/btl_RESLT_LYT_JP_ja/RANK_NAME_LBOSS_00_JP_ja.png",
+  "sources": [
+   [
+    [
+     "파이널",
+     "font:font"
+    ],
+    [
+     "보스",
+     "font:font"
+    ],
+    [
+     "랭크",
+     "compose:font(랭)"
+    ]
+   ]
+  ],
+  "levels": [
+   "compose"
+  ],
+  "fit": {
+   "hscale": 0.9834320275739964,
+   "tracking": -0.0032363633631907382,
+   "overflow": false,
+   "width": 103.5,
+   "lines": 1
+  },
+  "weight": {
+   "target_px": 2.978,
+   "glyph_px": 1.806,
+   "achieved_px": 2.871,
+   "ratio": 0.964
+  },
+  "problems": [
+   "테두리 겹 수 (1, 2)"
+  ],
+  "kw": {
+   "em": 13.0,
+   "box": [
+    12,
+    0,
+    116,
+    42
+   ]
+  }
+ },
+ "RANK_NAME_MASTER_00_JP_ja": {
+  "family": "rank_name",
+  "ko": "마스터 보스 랭크",
+  "out": "work/img/ko/lyt/BLyt/btl_RESLT_LYT_JP_ja/RANK_NAME_MASTER_00_JP_ja.png",
+  "sources": [
+   [
+    [
+     "마스터",
+     "font:font"
+    ],
+    [
+     "보스",
+     "font:font"
+    ],
+    [
+     "랭크",
+     "compose:font(랭)"
+    ]
+   ]
+  ],
+  "levels": [
+   "compose"
+  ],
+  "fit": {
+   "hscale": 0.9804694232947079,
+   "tracking": -0.004041441537201725,
+   "overflow": false,
+   "width": 103.5,
+   "lines": 1
+  },
+  "weight": {
+   "target_px": 2.978,
+   "glyph_px": 1.736,
+   "achieved_px": 2.888,
+   "ratio": 0.97
+  },
+  "problems": [
+   "테두리 겹 수 (1, 2)"
+  ],
+  "kw": {
+   "em": 13.0,
+   "box": [
+    12,
+    0,
+    116,
+    42
+   ]
+  }
+ },
+ "RANK_NAME_SILVER_00_JP_ja": {
+  "family": "rank_name",
+  "ko": "실버 보스 랭크",
+  "out": "work/img/ko/lyt/BLyt/btl_RESLT_LYT_JP_ja/RANK_NAME_SILVER_00_JP_ja.png",
+  "sources": [
+   [
+    [
+     "실버",
+     "font:font"
+    ],
+    [
+     "보스",
+     "font:font"
+    ],
+    [
+     "랭크",
+     "compose:font(랭)"
+    ]
+   ]
+  ],
+  "levels": [
+   "compose"
+  ],
+  "fit": {
+   "hscale": 1.0,
+   "tracking": 0.0,
+   "overflow": false,
+   "width": 91.5,
+   "lines": 1
+  },
+  "weight": {
+   "target_px": 2.978,
+   "glyph_px": 1.835,
+   "achieved_px": 2.876,
+   "ratio": 0.966
+  },
+  "problems": [],
+  "kw": {
+   "em": 13.0,
+   "box": [
+    12,
+    0,
+    116,
+    42
+   ]
+  }
+ },
+ "btn_DECISION2_00_JP_ja": {
+  "family": "battle_btn",
+  "ko": "결정",
+  "out": "work/img/ko/lyt/BLyt/btl_RESLT_LYT_JP_ja/btn_DECISION2_00_JP_ja.png",
+  "sources": [
+   [
+    [
+     "결정",
+     "font:font"
+    ]
+   ]
+  ],
+  "levels": [
+   "font"
+  ],
+  "fit": {
+   "hscale": 1.0,
+   "tracking": 0.0,
+   "overflow": false,
+   "width": 26.75,
+   "lines": 1
+  },
+  "weight": {
+   "target_px": 2.884,
+   "glyph_px": 1.961,
+   "achieved_px": 2.842,
+   "ratio": 0.985
+  },
+  "problems": [
+   "글자 높이 비 1.143"
+  ],
+  "kw": {}
+ },
+ "RANK_NAME_BOOMERANG_00_JP_ja": {
+  "family": "rank_name",
+  "ko": "부메랑 랭크",
+  "out": "work/img/ko/lyt/BLyt/btl_RESLT_LYT_JP_ja/RANK_NAME_BOOMERANG_00_JP_ja.png",
+  "sources": [
+   [
+    [
+     "부메랑",
+     "font:font"
+    ],
+    [
+     "랭크",
+     "compose:font(랭)"
+    ]
+   ]
+  ],
+  "levels": [
+   "compose"
+  ],
+  "fit": {
+   "hscale": 1.0,
+   "tracking": 0.0,
+   "overflow": false,
+   "width": 72.5,
+   "lines": 1
+  },
+  "weight": {
+   "target_px": 2.978,
+   "glyph_px": 1.718,
+   "achieved_px": 2.937,
+   "ratio": 0.986
+  },
+  "problems": [],
+  "kw": {
+   "em": 13.0,
+   "box": [
+    12,
+    0,
+    116,
+    42
+   ]
+  }
+ },
+ "RANK_NAME_KOURA_00_JP_ja": {
+  "family": "rank_name",
+  "ko": "등껍질 랭크",
+  "out": "work/img/ko/lyt/BLyt/btl_RESLT_LYT_JP_ja/RANK_NAME_KOURA_00_JP_ja.png",
+  "sources": [
+   [
+    [
+     "등껍질",
+     "font:font"
+    ],
+    [
+     "랭크",
+     "compose:font(랭)"
+    ]
+   ]
+  ],
+  "levels": [
+   "compose"
+  ],
+  "fit": {
+   "hscale": 1.0,
+   "tracking": 0.0,
+   "overflow": false,
+   "width": 71.75,
+   "lines": 1
+  },
+  "weight": {
+   "target_px": 2.978,
+   "glyph_px": 1.806,
+   "achieved_px": 2.963,
+   "ratio": 0.995
+  },
+  "problems": [
+   "획 두께 비 0.786",
+   "테두리 겹 수 (1, 2)"
+  ],
+  "kw": {
+   "em": 13.0,
+   "box": [
+    12,
+    0,
+    116,
+    42
+   ]
+  }
+ },
+ "RANK_NAME_RAINBOW_00_JP_ja": {
+  "family": "rank_name",
+  "ko": "레인보우 랭크",
+  "out": "work/img/ko/lyt/BLyt/btl_RESLT_LYT_JP_ja/RANK_NAME_RAINBOW_00_JP_ja.png",
+  "sources": [
+   [
+    [
+     "레인보우",
+     "font:font"
+    ],
+    [
+     "랭크",
+     "compose:font(랭)"
+    ]
+   ]
+  ],
+  "levels": [
+   "compose"
+  ],
+  "fit": {
+   "hscale": 1.0,
+   "tracking": 0.0,
+   "overflow": false,
+   "width": 84.5,
+   "lines": 1
+  },
+  "weight": {
+   "target_px": 2.978,
+   "glyph_px": 1.732,
+   "achieved_px": 2.871,
+   "ratio": 0.964
+  },
+  "problems": [],
+  "kw": {
+   "em": 13.0,
+   "box": [
+    12,
+    0,
+    116,
+    42
+   ]
+  }
+ },
+ "btn_DECISION_00_JP_ja": {
+  "family": "battle_btn",
+  "ko": "결정",
+  "out": "work/img/ko/lyt/BLyt/btl_BADGE_JP_ja/btn_DECISION_00_JP_ja.png",
+  "sources": [
+   [
+    [
+     "결정",
+     "font:font_btl"
+    ]
+   ]
+  ],
+  "levels": [
+   "font"
+  ],
+  "fit": {
+   "hscale": 1.0,
+   "tracking": 0.0,
+   "overflow": false,
+   "width": 21.5,
+   "lines": 1
+  },
+  "weight": {
+   "target_px": 2.238,
+   "glyph_px": 1.825,
+   "achieved_px": 2.307,
+   "ratio": 1.031
+  },
+  "problems": [
+   "글자 높이 비 1.182"
+  ],
+  "kw": {}
+ },
+ "btn_F_MAP_CLOSE_00_JP_ja": {
+  "family": "field_btn",
+  "ko": "닫기",
+  "out": "work/img/ko/lyt/FLyt/FLD_ACT_JP_ja/btn_F_MAP_CLOSE_00_JP_ja.png",
+  "sources": [
+   [
+    [
+     "닫기",
+     "font:font_btl"
+    ]
+   ]
+  ],
+  "levels": [
+   "font"
+  ],
+  "fit": {
+   "hscale": 1.0,
+   "tracking": 0.0,
+   "overflow": false,
+   "width": 18.75,
+   "lines": 1
+  },
+  "weight": {
+   "target_px": 2.098,
+   "glyph_px": 1.234,
+   "achieved_px": 2.027,
+   "ratio": 0.966
+  },
+  "problems": [],
+  "kw": {}
+ },
+ "btn_F_MAP_OPEN_00_JP_ja": {
+  "family": "field_btn",
+  "ko": "열기",
+  "out": "work/img/ko/lyt/FLyt/FLD_ACT_JP_ja/btn_F_MAP_OPEN_00_JP_ja.png",
+  "sources": [
+   [
+    [
+     "열기",
+     "font:font_btl"
+    ]
+   ]
+  ],
+  "levels": [
+   "font"
+  ],
+  "fit": {
+   "hscale": 1.0,
+   "tracking": 0.0,
+   "overflow": false,
+   "width": 19.5,
+   "lines": 1
+  },
+  "weight": {
+   "target_px": 1.852,
+   "glyph_px": 1.455,
+   "achieved_px": 1.673,
+   "ratio": 0.903
+  },
+  "problems": [
+   "채움색 차 0.167"
+  ],
+  "kw": {}
+ },
+ "pnl_ATCMINIGAME_VCONDITION_00_jp_ja": {
+  "family": "panel_label",
+  "ko": "클리어 조건",
+  "out": "work/img/ko/lyt/SLyt/COLISEUM_JP_ja/pnl_ATCMINIGAME_VCONDITION_00_jp_ja.png",
+  "sources": [
+   [
+    [
+     "클리어",
+     "font:font_btl"
+    ],
+    [
+     "조건",
+     "font:font_btl"
+    ]
+   ]
+  ],
+  "levels": [
+   "font"
+  ],
+  "fit": {
+   "hscale": 1.0,
+   "tracking": 0.0,
+   "overflow": false,
+   "width": 55.5,
+   "lines": 1
+  },
+  "weight": {
+   "target_px": 1.948,
+   "glyph_px": 1.354,
+   "achieved_px": 2.022,
+   "ratio": 1.038
+  },
+  "problems": [
+   "글자 높이 비 1.2"
+  ],
+  "kw": {}
+ },
+ "GET_PRIZE_00_JP_ja": {
+  "family": "result_banner",
+  "ko": "상품 GET!",
+  "out": "work/img/ko/lyt/SLyt/COLISEUM_JP_ja/GET_PRIZE_00_JP_ja.png",
+  "sources": [
+   [
+    [
+     "상품",
+     "ofl:GothicA1-Black"
+    ],
+    [
+     "GET!",
+     "donor"
+    ]
+   ]
+  ],
+  "levels": [
+   "ofl"
+  ],
+  "fit": {
+   "hscale": 1.0,
+   "tracking": 0.0,
+   "overflow": false,
+   "width": 121.0,
+   "lines": 1
+  },
+  "weight": {
+   "target_px": 4.424,
+   "glyph_px": 2.448,
+   "achieved_px": 4.578,
+   "ratio": 1.035
+  },
+  "problems": [],
+  "kw": {}
+ },
+ "RECOMMEND_LV_00_JP_ja": {
+  "family": "minigame_btn",
+  "ko": "추천\nLV",
+  "out": "work/img/ko/lyt/SLyt/COLISEUM_JP_ja/RECOMMEND_LV_00_JP_ja.png",
+  "sources": [
+   [
+    [
+     "추천",
+     "font:font_btl"
+    ]
+   ],
+   [
+    [
+     "LV",
+     "donor"
+    ]
+   ]
+  ],
+  "levels": [
+   "font",
+   "font"
+  ],
+  "fit": {
+   "hscale": 1.0,
+   "tracking": 0.0,
+   "overflow": false,
+   "width": 18.5,
+   "lines": 2
+  },
+  "weight": {
+   "target_px": 2.477,
+   "glyph_px": 1.294,
+   "achieved_px": 2.514,
+   "ratio": 1.015
+  },
+  "problems": [
+   "글자 높이 비 1.158"
+  ],
+  "kw": {
+   "lines": 2
+  }
+ },
+ "btn_MGAME_pnl1_00_jp_ja": {
+  "family": "minigame_btn",
+  "ko": "보스\n배틀",
+  "out": "work/img/ko/lyt/SLyt/COLISEUM_JP_ja/btn_MGAME_pnl1_00_jp_ja.png",
+  "sources": [
+   [
+    [
+     "보스",
+     "font:font_btl"
+    ]
+   ],
+   [
+    [
+     "배틀",
+     "font:font_btl"
+    ]
+   ]
+  ],
+  "levels": [
+   "font",
+   "font"
+  ],
+  "fit": {
+   "hscale": 1.0,
+   "tracking": 0.0,
+   "overflow": false,
+   "width": 23.5,
+   "lines": 2
+  },
+  "weight": {
+   "target_px": 2.287,
+   "glyph_px": 2.121,
+   "achieved_px": 2.291,
+   "ratio": 1.002
+  },
+  "problems": [
+   "채움색 차 0.136"
+  ],
+  "kw": {
+   "source": "font",
+   "lines": 2
+  }
+ },
+ "NEW_BEST_TURN_00_JP_ja": {
+  "family": "result_banner",
+  "ko": "베스트 턴 갱신",
+  "out": "work/img/ko/lyt/SLyt/COLISEUM_JP_ja/NEW_BEST_TURN_00_JP_ja.png",
+  "sources": [
+   [
+    [
+     "베스트",
+     "compose:font_l(베)"
+    ],
+    [
+     "턴",
+     "compose:font_l(턴)"
+    ],
+    [
+     "갱신",
+     "compose:font(갱)"
+    ]
+   ]
+  ],
+  "levels": [
+   "compose"
+  ],
+  "fit": {
+   "hscale": 1.0,
+   "tracking": 0.0,
+   "overflow": false,
+   "width": 121.75,
+   "lines": 1
+  },
+  "weight": {
+   "target_px": 3.748,
+   "glyph_px": 2.175,
+   "achieved_px": 3.664,
+   "ratio": 0.978
+  },
+  "problems": [
+   "글자 높이 비 1.167"
+  ],
+  "kw": {}
+ },
+ "btn_MGAME_pnl2_00_jp_ja": {
+  "family": "minigame_btn",
+  "ko": "거대화\n배틀",
+  "out": "work/img/ko/lyt/SLyt/COLISEUM_JP_ja/btn_MGAME_pnl2_00_jp_ja.png",
+  "sources": [
+   [
+    [
+     "거대화",
+     "font:font_btl"
+    ]
+   ],
+   [
+    [
+     "배틀",
+     "font:font_btl"
+    ]
+   ]
+  ],
+  "levels": [
+   "font",
+   "font"
+  ],
+  "fit": {
+   "hscale": 1.0,
+   "tracking": 0.0,
+   "overflow": false,
+   "width": 34.5,
+   "lines": 2
+  },
+  "weight": {
+   "target_px": 2.578,
+   "glyph_px": 2.158,
+   "achieved_px": 2.527,
+   "ratio": 0.98
+  },
+  "problems": [],
+  "kw": {
+   "lines": 2
+  }
+ },
+ "btn_restart_00_JP_ja": {
+  "family": "minigame_btn",
+  "ko": "다시 한번",
+  "out": "work/img/ko/lyt/SLyt/MINIGAME_JP_ja/btn_restart_00_JP_ja.png",
+  "sources": [
+   [
+    [
+     "다시",
+     "font:font"
+    ],
+    [
+     "한번",
+     "font:font"
+    ]
+   ]
+  ],
+  "levels": [
+   "font"
+  ],
+  "fit": {
+   "hscale": 1.0,
+   "tracking": 0.0,
+   "overflow": false,
+   "width": 66.5,
+   "lines": 1
+  },
+  "weight": {
+   "target_px": 3.128,
+   "glyph_px": 1.991,
+   "achieved_px": 3.06,
+   "ratio": 0.978
+  },
+  "problems": [],
+  "kw": {}
+ },
+ "pnl_ATCMINIGAME_score_00_jp_ja": {
+  "family": "result_banner",
+  "ko": "베스트 스코어",
+  "out": "work/img/ko/lyt/SLyt/MINIGAME_JP_ja/pnl_ATCMINIGAME_score_00_jp_ja.png",
+  "sources": [
+   [
+    [
+     "베스트",
+     "font:font"
+    ],
+    [
+     "스코어",
+     "font:font"
+    ]
+   ]
+  ],
+  "levels": [
+   "font"
+  ],
+  "fit": {
+   "hscale": 1.0,
+   "tracking": 0.0,
+   "overflow": false,
+   "width": 99.5,
+   "lines": 1
+  },
+  "weight": {
+   "target_px": 3.72,
+   "glyph_px": 1.844,
+   "achieved_px": 3.639,
+   "ratio": 0.978
+  },
+  "problems": [],
+  "kw": {}
+ },
+ "btn_MINIGAME_START_00_JP_ja": {
+  "family": "minigame_btn",
+  "ko": "시작",
+  "out": "work/img/ko/lyt/SLyt/MINIGAME_JP_ja/btn_MINIGAME_START_00_JP_ja.png",
+  "sources": [
+   [
+    [
+     "시작",
+     "same_word"
+    ]
+   ]
+  ],
+  "levels": [
+   "same_word"
+  ],
+  "fit": {
+   "hscale": 1.0,
+   "tracking": 0.0,
+   "overflow": false,
+   "width": 31.5,
+   "lines": 1
+  },
+  "weight": {
+   "target_px": 3.181,
+   "glyph_px": 2.303,
+   "achieved_px": 3.127,
+   "ratio": 0.983
+  },
+  "problems": [],
+  "kw": {}
+ }
+}

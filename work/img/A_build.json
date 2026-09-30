@@ -1,0 +1,866 @@
+{
+ "textures": [
+  "3DX:BLyt/btl_ATMINIGAME_LYT_JP_ja/timg/pnl_ATCMINIGAME_MSCORE_00_jp_ja.bflim\t128x16 LA4\t2 copies",
+  "3DX:BLyt/btl_BADGE_JP_ja/timg/btn_DECISION_00_JP_ja.bflim\t112x24 LA4\t4 copies",
+  "3DX:BLyt/btl_GUIDE_JP_ja/timg/LTIT_GUIDE_3_00_JP_ja.bflim\t128x16 LA4\t2 copies",
+  "3DX:BLyt/btl_GUIDE_JP_ja/timg/LTIT_GUIDE_4_00_JP_ja.bflim\t128x16 LA4\t2 copies",
+  "3DX:BLyt/btl_GUIDE_JP_ja/timg/LTIT_btl_HINT_00_JP_ja.bflim\t128x16 LA4\t1 copies",
+  "3DX:BLyt/btl_GUIDE_JP_ja/timg/btn_GUIDE_EXAMPLE_00_JP_ja.bflim\t108x20 LA4\t7 copies",
+  "3DX:BLyt/btl_GUIDE_JP_ja/timg/btn_GUIDE_PRACTICE_00_JP_ja.bflim\t108x20 LA4\t7 copies",
+  "3DX:BLyt/btl_MAIN_JP_ja/timg/btn_USE_00_JP_ja.bflim\t108x32 ETC1A4\t1 copies",
+  "3DX:BLyt/btl_RESLT_LYT_JP_ja/timg/RANK_NAME_BOOMERANG_00_JP_ja.bflim\t128x42 ETC1A4\t2 copies",
+  "3DX:BLyt/btl_RESLT_LYT_JP_ja/timg/RANK_NAME_BRONZE_00_JP_ja.bflim\t128x42 ETC1A4\t2 copies",
+  "3DX:BLyt/btl_RESLT_LYT_JP_ja/timg/RANK_NAME_FLOWER_00_JP_ja.bflim\t128x42 ETC1A4\t2 copies",
+  "3DX:BLyt/btl_RESLT_LYT_JP_ja/timg/RANK_NAME_GOLD_00_JP_ja.bflim\t128x42 ETC1A4\t2 copies",
+  "3DX:BLyt/btl_RESLT_LYT_JP_ja/timg/RANK_NAME_KINOKO_00_JP_ja.bflim\t128x42 ETC1A4\t2 copies",
+  "3DX:BLyt/btl_RESLT_LYT_JP_ja/timg/RANK_NAME_KOURA_00_JP_ja.bflim\t128x42 ETC1A4\t2 copies",
+  "3DX:BLyt/btl_RESLT_LYT_JP_ja/timg/RANK_NAME_LBOSS_00_JP_ja.bflim\t128x42 ETC1A4\t2 copies",
+  "3DX:BLyt/btl_RESLT_LYT_JP_ja/timg/RANK_NAME_MASTER_00_JP_ja.bflim\t128x42 ETC1A4\t2 copies",
+  "3DX:BLyt/btl_RESLT_LYT_JP_ja/timg/RANK_NAME_RAINBOW_00_JP_ja.bflim\t128x42 ETC1A4\t2 copies",
+  "3DX:BLyt/btl_RESLT_LYT_JP_ja/timg/RANK_NAME_SILVER_00_JP_ja.bflim\t128x42 ETC1A4\t2 copies",
+  "3DX:BLyt/btl_RESLT_LYT_JP_ja/timg/RANK_NAME_STAR_00_JP_ja.bflim\t128x42 ETC1A4\t2 copies",
+  "3DX:BLyt/btl_RESLT_LYT_JP_ja/timg/STbr_BP_00_JP_ja.bflim\t60x16 LA4\t1 copies",
+  "3DX:BLyt/btl_RESLT_LYT_JP_ja/timg/STbr_HIGE_00_JP_ja.bflim\t60x16 LA4\t1 copies",
+  "3DX:BLyt/btl_RESLT_LYT_JP_ja/timg/STbr_TSUNO_00_JP_ja.bflim\t60x16 LA4\t1 copies",
+  "3DX:BLyt/btl_RESLT_LYT_JP_ja/timg/btn_DECISION2_00_JP_ja.bflim\t108x24 LA4\t1 copies",
+  "3DX:BLyt/btl_RESLT_LYT_JP_ja/timg/btn_cancel_00_JP_ja.bflim\t108x24 LA4\t3 copies",
+  "3DX:FLyt/FLD_ACT_JP_ja/timg/btn_F_MAP_CLOSE_00_JP_ja.bflim\t64x16 LA4\t1 copies",
+  "3DX:FLyt/FLD_ACT_JP_ja/timg/btn_F_MAP_OPEN_00_JP_ja.bflim\t64x16 LA4\t1 copies",
+  "3DX:KLyt/KJ_BATTLEn_JP_ja/timg/KJ_LTIT_GUIDE_3_00_JP_ja.bflim\t128x16 LA4\t1 copies",
+  "3DX:KLyt/KJ_BATTLEn_JP_ja/timg/KJ_LTIT_GUIDE_4_00_JP_ja.bflim\t128x16 LA4\t1 copies",
+  "3DX:KLyt/KJ_BATTLEn_JP_ja/timg/btn_KJ_ESC_00_JP_ja.bflim\t128x26 LA4\t1 copies",
+  "3DX:KLyt/KJ_BATTLEn_JP_ja/timg/btn_KJ_GUIDE_00_JP_ja.bflim\t128x26 LA4\t1 copies",
+  "3DX:KLyt/KJ_BATTLEn_JP_ja/timg/btn_KJ_LA_01_00_JP_ja.bflim\t116x22 LA4\t1 copies",
+  "3DX:KLyt/KJ_BATTLEn_JP_ja/timg/btn_KJ_LA_02_00_JP_ja.bflim\t116x22 LA4\t1 copies",
+  "3DX:KLyt/KJ_BATTLEn_JP_ja/timg/btn_KJ_LA_03_00_JP_ja.bflim\t116x22 LA4\t1 copies",
+  "3DX:KLyt/KJ_BATTLEn_JP_ja/timg/btn_KJ_LA_04_00_JP_ja.bflim\t116x22 LA4\t1 copies",
+  "3DX:KLyt/KJ_BATTLEn_JP_ja/timg/btn_KJ_LA_05_00_JP_ja.bflim\t116x22 LA4\t1 copies",
+  "3DX:KLyt/KJ_BATTLEn_JP_ja/timg/btn_KJ_LA_06_00_JP_ja.bflim\t116x22 LA4\t1 copies",
+  "3DX:KLyt/KJ_BATTLEn_JP_ja/timg/btn_KJ_LA_11_00_JP_ja.bflim\t116x22 LA4\t1 copies",
+  "3DX:KLyt/KJ_BATTLEn_JP_ja/timg/btn_KJ_LA_12_00_JP_ja.bflim\t116x22 LA4\t1 copies",
+  "3DX:KLyt/KJ_BATTLEn_JP_ja/timg/btn_KJ_LA_13_00_JP_ja.bflim\t116x22 LA4\t1 copies",
+  "3DX:KLyt/KJ_BATTLEn_JP_ja/timg/btn_KJ_LA_14_00_JP_ja.bflim\t116x22 LA4\t1 copies",
+  "3DX:KLyt/KJ_BATTLEn_JP_ja/timg/btn_KJ_LA_15_00_JP_ja.bflim\t116x22 LA4\t1 copies",
+  "3DX:KLyt/KJ_BATTLEn_JP_ja/timg/btn_KJ_LA_16_00_JP_ja.bflim\t116x22 LA4\t1 copies",
+  "3DX:KLyt/KJ_BATTLEn_JP_ja/timg/btn_KJ_LA_17_00_JP_ja.bflim\t116x22 LA4\t1 copies",
+  "3DX:KLyt/KJ_BATTLEn_JP_ja/timg/btn_KJ_LA_18_00_JP_ja.bflim\t116x22 LA4\t1 copies",
+  "3DX:KLyt/KJ_BATTLEn_JP_ja/timg/btn_KJ_LA_19_00_JP_ja.bflim\t116x22 LA4\t1 copies",
+  "3DX:KLyt/KJ_BATTLEn_JP_ja/timg/btn_KJ_LA_20_00_JP_ja.bflim\t116x22 LA4\t1 copies",
+  "3DX:KLyt/KJ_BATTLEn_JP_ja/timg/btn_KJ_LA_21_00_JP_ja.bflim\t116x22 LA4\t1 copies",
+  "3DX:KLyt/KJ_BATTLEn_JP_ja/timg/btn_KJ_LA_22_00_JP_ja.bflim\t116x22 LA4\t1 copies",
+  "3DX:KLyt/KJ_BATTLEn_JP_ja/timg/btn_KJ_LA_23_00_JP_ja.bflim\t116x22 LA4\t1 copies",
+  "3DX:KLyt/KJ_BATTLEn_JP_ja/timg/btn_KJ_LA_24_00_JP_ja.bflim\t116x22 LA4\t1 copies",
+  "3DX:KLyt/KJ_BATTLEn_JP_ja/timg/btn_KJ_LA_25_00_JP_ja.bflim\t116x22 LA4\t1 copies",
+  "3DX:KLyt/KJ_BATTLEn_JP_ja/timg/btn_KJ_LA_26_00_JP_ja.bflim\t116x22 LA4\t1 copies",
+  "3DX:KLyt/KJ_GUIDE_JP_ja/timg/btn_text_KJ_GUIDE_pnl_1_00_JP_ja.bflim\t96x32 LA4\t1 copies",
+  "3DX:KLyt/KJ_GUIDE_JP_ja/timg/btn_text_KJ_GUIDE_pnl_2_00_JP_ja.bflim\t96x32 LA4\t1 copies",
+  "3DX:KLyt/KJ_GUIDE_JP_ja/timg/btn_text_KJ_GUIDE_pnl_3_00_JP_ja.bflim\t96x32 LA4\t1 copies",
+  "3DX:KLyt/KJ_GUIDE_JP_ja/timg/btn_text_KJ_GUIDE_pnl_4_00_JP_ja.bflim\t96x32 LA4\t1 copies",
+  "3DX:KLyt/KJ_HENSEI_JP_ja/timg/btn_KJ_CANCEL_00_JP_ja.bflim\t78x16 LA4\t1 copies",
+  "3DX:KLyt/KJ_HENSEI_JP_ja/timg/btn_KJ_DECISION_00_JP_ja.bflim\t78x12 LA4\t1 copies",
+  "3DX:KLyt/KJ_HENSEI_JP_ja/timg/btn_KJ_ENEMYINFO_00_JP_ja.bflim\t112x24 LA4\t1 copies",
+  "3DX:KLyt/KJ_ITEM_JP_ja/timg/btn_KJ_CLOSE_00_JP_ja.bflim\t128x16 LA4\t3 copies",
+  "3DX:KLyt/KJ_ITEM_JP_ja/timg/btn_KJ_ORDER_00_JP_ja.bflim\t96x16 LA4\t3 copies",
+  "3DX:KLyt/KJ_ITEM_JP_ja/timg/btn_KJ_PROF_00_JP_ja.bflim\t128x16 LA4\t3 copies",
+  "3DX:KLyt/KJ_ITEM_JP_ja/timg/btn_SET_LV_00_JP_ja.bflim\t128x24 LA4\t3 copies",
+  "3DX:KLyt/KJ_ITEM_JP_ja/timg/btn_SET_TYPE_00_JP_ja.bflim\t128x24 LA4\t3 copies",
+  "3DX:KLyt/KJ_PARTY_JP_ja/timg/KJ_txt_CHANGE_POS_00_JP_ja.bflim\t108x16 LA4\t1 copies",
+  "3DX:KLyt/KJ_PARTY_JP_ja/timg/KJ_txt_DECISION_00_JP_ja.bflim\t108x16 LA4\t1 copies",
+  "3DX:KLyt/KJ_QUEST_JP_ja/timg/btn_KJ_BSTART_00_JP_ja.bflim\t180x32 LA4\t2 copies",
+  "3DX:KLyt/KJ_QUEST_JP_ja/timg/btn_KJ_HENSEI_n_00_JP_ja.bflim\t106x20 LA4\t1 copies",
+  "3DX:KLyt/KJ_QUEST_JP_ja/timg/btn_KJ_ITEM_00_JP_ja.bflim\t106x20 LA4\t1 copies",
+  "3DX:KLyt/KJ_QUEST_JP_ja/timg/btn_KJ_MENU_00_JP_ja.bflim\t74x20 LA4\t1 copies",
+  "3DX:KLyt/KJ_QUEST_JP_ja/timg/btn_KJ_MENU_GUIDE_00_JP_ja.bflim\t100x24 LA4\t1 copies",
+  "3DX:KLyt/KJ_QUEST_JP_ja/timg/btn_KJ_MENU_RECORD_00_JP_ja.bflim\t100x24 LA4\t1 copies",
+  "3DX:KLyt/KJ_QUEST_JP_ja/timg/btn_KJ_MENU_REMOVE_00_JP_ja.bflim\t100x40 LA4\t1 copies",
+  "3DX:KLyt/KJ_QUEST_JP_ja/timg/btn_KJ_MENU_SET_00_JP_ja.bflim\t100x24 LA4\t1 copies",
+  "3DX:KLyt/KJ_QUEST_JP_ja/timg/btn_KJ_STOPGAME_n_00_JP_ja.bflim\t180x40 LA4\t1 copies",
+  "3DX:KLyt/KJ_QUEST_JP_ja/timg/btn_NO1_00_JP_ja.bflim\t112x24 LA4\t6 copies",
+  "3DX:KLyt/KJ_QUEST_JP_ja/timg/btn_YES1_00_JP_ja.bflim\t112x24 LA4\t5 copies",
+  "3DX:KLyt/KJ_RECORD_JP_ja/timg/LTIT_KJ_RECORD_1_00_JP_ja.bflim\t128x16 LA4\t1 copies",
+  "3DX:KLyt/KJ_RECORD_JP_ja/timg/LTIT_KJ_RECORD_2_00_JP_ja.bflim\t128x16 LA4\t1 copies",
+  "3DX:KLyt/KJ_RECORD_JP_ja/timg/btn_p_CHALLENGE_00_JP_ja.bflim\t88x32 LA4\t1 copies",
+  "3DX:KLyt/KJ_RECORD_JP_ja/timg/btn_p_FORMATION_00_JP_ja.bflim\t88x24 LA4\t1 copies",
+  "3DX:KLyt/KJ_RECORD_JP_ja/timg/btn_p_FRIEND_00_JP_ja.bflim\t88x24 LA4\t1 copies",
+  "3DX:KLyt/KJ_RECORD_JP_ja/timg/btn_p_MONSTER_00_JP_ja.bflim\t88x24 LA4\t1 copies",
+  "3DX:KLyt/KJ_RESULT_JP_ja/timg/KJ_ST_GDD_00_JP_ja.bflim\t42x12 LA4\t5 copies",
+  "3DX:KLyt/KJ_RESULT_JP_ja/timg/KJ_TYPE_01_00_JP_ja.bflim\t64x22 LA4\t2 copies",
+  "3DX:KLyt/KJ_RESULT_JP_ja/timg/KJ_TYPE_02_00_JP_ja.bflim\t64x22 LA4\t2 copies",
+  "3DX:KLyt/KJ_RESULT_JP_ja/timg/KJ_TYPE_03_00_JP_ja.bflim\t64x22 LA4\t2 copies",
+  "3DX:KLyt/KJ_RESULT_JP_ja/timg/PARTY_LV_00_JP_ja.bflim\t52x28 LA4\t3 copies",
+  "3DX:MLyt/MENU_FILE_LOAD_JP_ja/timg/LABEL_KJRPG_00_JP_ja.bflim\t256x20 LA4\t1 copies",
+  "3DX:MLyt/MENU_FILE_LOAD_JP_ja/timg/LOAD_GAME_IMG_KJ_L_00_JP_ja.bflim\t144x208 RGB565\t1 copies",
+  "3DX:MLyt/MENU_FILE_LOAD_JP_ja/timg/LOAD_GAME_IMG_KJ_R_00_JP_ja.bflim\t256x208 RGB565\t1 copies",
+  "3DX:MLyt/MENU_FILE_LOAD_JP_ja/timg/LOAD_GAME_IMG_ML_L_00_JP_ja.bflim\t144x208 RGB565\t1 copies",
+  "3DX:MLyt/MENU_FILE_LOAD_JP_ja/timg/LOAD_GAME_IMG_ML_R_00_JP_ja.bflim\t256x208 RGB565\t1 copies",
+  "3DX:MLyt/MENU_FILE_LOAD_JP_ja/timg/btn_CANCEL2_00_JP_ja.bflim\t108x22 LA4\t1 copies",
+  "3DX:MLyt/MENU_FILE_LOAD_JP_ja/timg/btn_COPY_00_JP_ja.bflim\t108x22 LA4\t1 copies",
+  "3DX:MLyt/MENU_FILE_LOAD_JP_ja/timg/btn_DELETE1_00_JP_ja.bflim\t108x22 LA4\t1 copies",
+  "3DX:MLyt/MENU_FILE_LOAD_JP_ja/timg/btn_DERACE_00_JP_ja.bflim\t108x22 LA4\t1 copies",
+  "3DX:MLyt/MENU_FILE_LOAD_JP_ja/timg/btn_FERASE_00_JP_ja.bflim\t108x22 LA4\t1 copies",
+  "3DX:MLyt/MENU_FILE_LOAD_JP_ja/timg/btn_KJRPG_00_JP_ja.bflim\t232x62 LA4\t1 copies",
+  "3DX:MLyt/MENU_FILE_LOAD_JP_ja/timg/btn_MLRPG3_00_JP_ja.bflim\t232x62 LA4\t1 copies",
+  "3DX:MLyt/MENU_FILE_LOAD_JP_ja/timg/btn_OWRITE_00_JP_ja.bflim\t108x22 LA4\t1 copies",
+  "3DX:MLyt/MENU_FILE_LOAD_JP_ja/timg/btn_SLOT_00_JP_ja.bflim\t128x16 LA4\t1 copies",
+  "3DX:MLyt/MENU_FILE_LOAD_JP_ja/timg/btn_START_00_JP_ja.bflim\t128x24 LA4\t1 copies",
+  "3DX:MLyt/MENU_FILE_SAVE_JP_ja/timg/LABEL_MLRPG_00_JP_ja.bflim\t330x20 LA4\t2 copies",
+  "3DX:MLyt/MENU_FILE_SAVE_JP_ja/timg/NEW_DATA_text_00_JP_ja.bflim\t256x32 LA4\t2 copies",
+  "3DX:MLyt/MENU_FILE_SAVE_JP_ja/timg/btn_CONTINUE_00_JP_ja.bflim\t172x22 LA4\t1 copies",
+  "3DX:MLyt/MENU_FILE_SAVE_JP_ja/timg/btn_RETURN_TITLE_00_JP_ja.bflim\t172x22 LA4\t1 copies",
+  "3DX:MLyt/MENU_FILE_SAVE_JP_ja/timg/btn_SAVE_text_00_JP_ja.bflim\t128x24 LA4\t1 copies",
+  "3DX:MLyt/MENU_GUIDE_JP_ja/timg/LTIT_guide_1_00_JP_ja.bflim\t128x16 LA4\t1 copies",
+  "3DX:MLyt/MENU_GUIDE_JP_ja/timg/LTIT_guide_2_00_JP_ja.bflim\t128x16 LA4\t1 copies",
+  "3DX:MLyt/MENU_GUIDE_JP_ja/timg/btn_text_guide_pnl_1_00_JP_ja.bflim\t96x32 LA4\t1 copies",
+  "3DX:MLyt/MENU_GUIDE_JP_ja/timg/btn_text_guide_pnl_2_00_JP_ja.bflim\t96x32 LA4\t1 copies",
+  "3DX:MLyt/MENU_GUIDE_JP_ja/timg/btn_text_guide_pnl_3_00_JP_ja.bflim\t96x32 LA4\t1 copies",
+  "3DX:MLyt/MENU_GUIDE_JP_ja/timg/btn_text_guide_pnl_4_00_JP_ja.bflim\t96x32 LA4\t1 copies",
+  "3DX:MLyt/MENU_ITEM_Lyt_JP_ja/timg/LTIT_ITEM_00_JP_ja.bflim\t128x16 LA4\t2 copies",
+  "3DX:MLyt/MENU_ITEM_Lyt_JP_ja/timg/ST_BP_00_JP_ja.bflim\t42x12 LA4\t5 copies",
+  "3DX:MLyt/MENU_ITEM_Lyt_JP_ja/timg/ST_HIGE_00_JP_ja.bflim\t42x12 LA4\t5 copies",
+  "3DX:MLyt/MENU_ITEM_Lyt_JP_ja/timg/ST_TSUNO_00_JP_ja.bflim\t42x12 LA4\t5 copies",
+  "3DX:MLyt/MENU_MAIN_JP_ja/timg/TOP_MENU_TEXT_1_00_JP_ja.bflim\t80x24 LA4\t1 copies",
+  "3DX:MLyt/MENU_MAIN_JP_ja/timg/TOP_MENU_TEXT_2_00_JP_ja.bflim\t80x24 LA4\t1 copies",
+  "3DX:MLyt/MENU_MAIN_JP_ja/timg/TOP_MENU_TEXT_3_00_JP_ja.bflim\t80x24 LA4\t1 copies",
+  "3DX:MLyt/MENU_MAIN_JP_ja/timg/TOP_MENU_TEXT_4_00_JP_ja.bflim\t80x24 LA4\t1 copies",
+  "3DX:MLyt/MENU_MAIN_JP_ja/timg/TOP_MENU_TEXT_5_00_JP_ja.bflim\t80x24 LA4\t1 copies",
+  "3DX:MLyt/MENU_MAIN_JP_ja/timg/TOP_MENU_TEXT_6_00_JP_ja.bflim\t80x24 LA4\t1 copies",
+  "3DX:MLyt/MENU_RECORD_JP_ja/timg/LTIT_BSCORE_00_JP_ja.bflim\t96x16 LA4\t2 copies",
+  "3DX:MLyt/MENU_RECORD_JP_ja/timg/LTIT_BTURN_00_JP_ja.bflim\t96x16 LA4\t2 copies",
+  "3DX:MLyt/MENU_RECORD_JP_ja/timg/LTIT_record_AP_00_JP_ja.bflim\t128x16 LA4\t1 copies",
+  "3DX:MLyt/MENU_RECORD_JP_ja/timg/LTIT_record_BLOCK_00_JP_ja.bflim\t128x16 LA4\t1 copies",
+  "3DX:MLyt/MENU_RECORD_JP_ja/timg/LTIT_record_COLISEUM_00_JP_ja.bflim\t128x16 LA4\t1 copies",
+  "3DX:MLyt/MENU_RECORD_JP_ja/timg/LTIT_record_KUBOMI_00_JP_ja.bflim\t128x16 LA4\t1 copies",
+  "3DX:MLyt/MENU_RECORD_JP_ja/timg/LTIT_record_MINIGAME_00_JP_ja.bflim\t128x16 LA4\t1 copies",
+  "3DX:MLyt/MENU_RECORD_JP_ja/timg/btn_p_ATTACK_00_JP_ja.bflim\t88x24 LA4\t1 copies",
+  "3DX:MLyt/MENU_RECORD_JP_ja/timg/btn_p_BLOCK_00_JP_ja.bflim\t88x24 LA4\t1 copies",
+  "3DX:MLyt/MENU_RECORD_JP_ja/timg/btn_p_COLISEUM_00_JP_ja.bflim\t88x24 LA4\t1 copies",
+  "3DX:MLyt/MENU_RECORD_JP_ja/timg/btn_p_KUBOMI_00_JP_ja.bflim\t88x24 LA4\t1 copies",
+  "3DX:MLyt/MENU_RECORD_JP_ja/timg/btn_p_MINIGAME_00_JP_ja.bflim\t88x24 LA4\t1 copies",
+  "3DX:MLyt/MENU_SET_JP_ja/timg/tab_SET_OFF2_00_JP_ja.bflim\t96x24 LA4\t1 copies",
+  "3DX:MLyt/MENU_SET_JP_ja/timg/tab_SET_ON2_00_JP_ja.bflim\t96x24 LA4\t1 copies",
+  "3DX:MLyt/MENU_SHOP_Lyt_JP_ja/timg/LTIT_BADGE_00_JP_ja.bflim\t128x16 LA4\t1 copies",
+  "3DX:MLyt/MENU_SHOP_Lyt_JP_ja/timg/LTIT_EQUIP_00_JP_ja.bflim\t128x16 LA4\t2 copies",
+  "3DX:MLyt/MENU_SHOP_Lyt_JP_ja/timg/LTIT_NOW_EQUIP_00_JP_ja.bflim\t128x16 LA4\t2 copies",
+  "3DX:MLyt/MENU_SHOP_Lyt_JP_ja/timg/LTIT_SELL_00_JP_ja.bflim\t128x16 LA4\t1 copies",
+  "3DX:MLyt/MENU_SHOP_Lyt_JP_ja/timg/SHOP_TIT_BADGE_00_JP_ja.bflim\t180x16 LA4\t1 copies",
+  "3DX:MLyt/MENU_SHOP_Lyt_JP_ja/timg/SHOP_TIT_BLILOCK_00_JP_ja.bflim\t180x16 LA4\t1 copies",
+  "3DX:MLyt/MENU_SHOP_Lyt_JP_ja/timg/SHOP_TIT_BLOCK_00_JP_ja.bflim\t180x16 LA4\t1 copies",
+  "3DX:MLyt/MENU_SHOP_Lyt_JP_ja/timg/SHOP_TIT_BLODOG_00_JP_ja.bflim\t180x16 LA4\t1 copies",
+  "3DX:MLyt/MENU_SHOP_Lyt_JP_ja/timg/SHOP_TIT_EQUIP1_00_JP_ja.bflim\t180x16 LA4\t1 copies",
+  "3DX:MLyt/MENU_SHOP_Lyt_JP_ja/timg/SHOP_TIT_EQUIP2_00_JP_ja.bflim\t180x16 LA4\t1 copies",
+  "3DX:MLyt/MENU_SHOP_Lyt_JP_ja/timg/SHOP_TIT_EQUIP3_00_JP_ja.bflim\t180x16 LA4\t1 copies",
+  "3DX:MLyt/MENU_SHOP_Lyt_JP_ja/timg/SHOP_TIT_ITEM_00_JP_ja.bflim\t180x16 LA4\t1 copies",
+  "3DX:MLyt/MENU_SHOP_Lyt_JP_ja/timg/btn_buy_00_JP_ja.bflim\t108x24 LA4\t1 copies",
+  "3DX:MLyt/MENU_SHOP_Lyt_JP_ja/timg/btn_equip_00_JP_ja.bflim\t108x24 LA4\t1 copies",
+  "3DX:MLyt/MENU_SHOP_Lyt_JP_ja/timg/btn_later_00_JP_ja.bflim\t108x24 LA4\t1 copies",
+  "3DX:MLyt/MENU_SHOP_Lyt_JP_ja/timg/btn_scratch_00_JP_ja.bflim\t108x24 LA4\t1 copies",
+  "3DX:MLyt/MENU_SHOP_Lyt_JP_ja/timg/btn_sell_00_JP_ja.bflim\t108x24 LA4\t1 copies",
+  "3DX:MLyt/MENU_SHOP_Lyt_JP_ja/timg/shop_top_acce_text_00_JP_ja.bflim\t96x22 LA4\t1 copies",
+  "3DX:MLyt/MENU_SHOP_Lyt_JP_ja/timg/shop_top_badge_text_00_JP_ja.bflim\t96x22 LA4\t1 copies",
+  "3DX:MLyt/MENU_SHOP_Lyt_JP_ja/timg/shop_top_equip_text_00_JP_ja.bflim\t96x22 LA4\t1 copies",
+  "3DX:MLyt/MENU_SHOP_Lyt_JP_ja/timg/shop_top_item_text_00_JP_ja.bflim\t96x22 LA4\t1 copies",
+  "3DX:MLyt/MENU_SHOP_Lyt_JP_ja/timg/shop_top_koura_text_00_JP_ja.bflim\t96x22 LA4\t1 copies",
+  "3DX:MLyt/MENU_SHOP_Lyt_JP_ja/timg/shop_top_sell_text_00_JP_ja.bflim\t96x22 LA4\t1 copies",
+  "3DX:MLyt/MENU_SHOP_Lyt_JP_ja/timg/shop_top_wear_text_00_JP_ja.bflim\t96x22 LA4\t1 copies",
+  "3DX:MLyt/MENU_STATUS_JP_ja/timg/STATUS_EQUIP_00_JP_ja.bflim\t150x24 LA4\t1 copies",
+  "3DX:MLyt/MENU_STATUS_JP_ja/timg/STATUS_RANKBONUS_00_JP_ja.bflim\t150x24 LA4\t1 copies",
+  "3DX:SLyt/COLISEUM_JP_ja/timg/GET_PRIZE_00_JP_ja.bflim\t320x46 LA4\t2 copies",
+  "3DX:SLyt/COLISEUM_JP_ja/timg/LIST_ATCMINIGAME_BB_00_jp_ja.bflim\t128x16 LA4\t1 copies",
+  "3DX:SLyt/COLISEUM_JP_ja/timg/LIST_ATCMINIGAME_BC_00_jp_ja.bflim\t128x16 LA4\t1 copies",
+  "3DX:SLyt/COLISEUM_JP_ja/timg/LTIT_ACTMINIGAME_GUIDE_00_JP_ja.bflim\t128x16 LA4\t1 copies",
+  "3DX:SLyt/COLISEUM_JP_ja/timg/NEW_BEST_TURN_00_JP_ja.bflim\t280x32 ETC1A4\t1 copies",
+  "3DX:SLyt/COLISEUM_JP_ja/timg/RECOMMEND_LV_00_JP_ja.bflim\t78x28 LA4\t1 copies",
+  "3DX:SLyt/COLISEUM_JP_ja/timg/btn_MGAME_pnl1_00_jp_ja.bflim\t108x32 LA4\t1 copies",
+  "3DX:SLyt/COLISEUM_JP_ja/timg/btn_MGAME_pnl2_00_jp_ja.bflim\t108x32 ETC1A4\t1 copies",
+  "3DX:SLyt/COLISEUM_JP_ja/timg/pnl_ATCMINIGAME_VCONDITION_00_jp_ja.bflim\t128x16 LA4\t1 copies",
+  "3DX:SLyt/MINIGAME_JP_ja/timg/LIST_ATCMINIGAME_BR_00_jp_ja.bflim\t128x16 LA4\t1 copies",
+  "3DX:SLyt/MINIGAME_JP_ja/timg/LIST_ATCMINIGAME_CT_00_jp_ja.bflim\t128x16 LA4\t1 copies",
+  "3DX:SLyt/MINIGAME_JP_ja/timg/btn_MINIGAME_START_00_JP_ja.bflim\t180x32 LA4\t1 copies",
+  "3DX:SLyt/MINIGAME_JP_ja/timg/btn_restart_00_JP_ja.bflim\t108x40 LA4\t1 copies",
+  "3DX:SLyt/MINIGAME_JP_ja/timg/pnl_ATCMINIGAME_score_00_jp_ja.bflim\t216x26 ETC1A4\t1 copies"
+ ],
+ "warnings": [],
+ "dats": {
+  "BLyt": {
+   "textures_replaced": 24,
+   "slots_changed": 5,
+   "size_orig": 736132,
+   "size_new": 732476
+  },
+  "FLyt": {
+   "textures_replaced": 2,
+   "slots_changed": 1,
+   "size_orig": 68280,
+   "size_new": 67996
+  },
+  "GLyt": {
+   "textures_replaced": 0,
+   "slots_changed": 0,
+   "size_orig": 4740,
+   "size_new": 4740
+  },
+  "KLyt": {
+   "textures_replaced": 95,
+   "slots_changed": 10,
+   "size_orig": 3401160,
+   "size_new": 3384348
+  },
+  "MLyt": {
+   "textures_replaced": 115,
+   "slots_changed": 11,
+   "size_orig": 5130672,
+   "size_new": 5111944
+  },
+  "SLyt": {
+   "textures_replaced": 22,
+   "slots_changed": 2,
+   "size_orig": 2573012,
+   "size_new": 2566280
+  }
+ },
+ "applied": {
+  "2e4cbd77d94f9667": [
+   "BLyt/btl_ATMINIGAME_LYT_JP_ja/timg/pnl_ATCMINIGAME_MSCORE_00_jp_ja.bflim",
+   "SLyt/MINIGAME_JP_ja/timg/pnl_ATCMINIGAME_MSCORE_00_jp_ja.bflim"
+  ],
+  "24aa9c0380b62c3b": [
+   "BLyt/btl_BADGE_JP_ja/timg/btn_DECISION_00_JP_ja.bflim",
+   "KLyt/KJ_SET_JP_ja/timg/btn_DECISION_00_JP_ja.bflim",
+   "MLyt/MENU_SET_JP_ja/timg/btn_DECISION_00_JP_ja.bflim",
+   "MLyt/MENU_BADGE_JP_ja/timg/btn_DECISION_00_JP_ja.bflim"
+  ],
+  "5e77d4a373b068fc": [
+   "BLyt/btl_GUIDE_JP_ja/timg/btn_GUIDE_EXAMPLE_00_JP_ja.bflim",
+   "KLyt/KJ_RESULT_JP_ja/timg/btn_GUIDE_EXAMPLE_00_JP_ja.bflim",
+   "KLyt/KJ_GUIDE_JP_ja/timg/btn_GUIDE_EXAMPLE_00_JP_ja.bflim",
+   "KLyt/KJ_ITEM_JP_ja/timg/btn_GUIDE_EXAMPLE_00_JP_ja.bflim",
+   "KLyt/KJ_BATTLEn_JP_ja/timg/btn_GUIDE_EXAMPLE_00_JP_ja.bflim",
+   "MLyt/MENU_GUIDE_JP_ja/timg/btn_GUIDE_EXAMPLE_00_JP_ja.bflim",
+   "SLyt/COLISEUM_JP_ja/timg/btn_GUIDE_EXAMPLE_00_JP_ja.bflim"
+  ],
+  "675fd82991e44fcf": [
+   "BLyt/btl_GUIDE_JP_ja/timg/btn_GUIDE_PRACTICE_00_JP_ja.bflim",
+   "KLyt/KJ_RESULT_JP_ja/timg/btn_GUIDE_PRACTICE_00_JP_ja.bflim",
+   "KLyt/KJ_GUIDE_JP_ja/timg/btn_GUIDE_PRACTICE_00_JP_ja.bflim",
+   "KLyt/KJ_ITEM_JP_ja/timg/btn_GUIDE_PRACTICE_00_JP_ja.bflim",
+   "KLyt/KJ_BATTLEn_JP_ja/timg/btn_GUIDE_PRACTICE_00_JP_ja.bflim",
+   "MLyt/MENU_GUIDE_JP_ja/timg/btn_GUIDE_PRACTICE_00_JP_ja.bflim",
+   "SLyt/COLISEUM_JP_ja/timg/btn_GUIDE_PRACTICE_00_JP_ja.bflim"
+  ],
+  "0881888e17206662": [
+   "BLyt/btl_GUIDE_JP_ja/timg/LTIT_btl_HINT_00_JP_ja.bflim"
+  ],
+  "a7e69fc2a35c1991": [
+   "BLyt/btl_GUIDE_JP_ja/timg/LTIT_GUIDE_3_00_JP_ja.bflim",
+   "MLyt/MENU_GUIDE_JP_ja/timg/LTIT_GUIDE_3_00_JP_ja.bflim"
+  ],
+  "97624f2da2c26d8c": [
+   "BLyt/btl_GUIDE_JP_ja/timg/LTIT_GUIDE_4_00_JP_ja.bflim",
+   "MLyt/MENU_GUIDE_JP_ja/timg/LTIT_GUIDE_4_00_JP_ja.bflim"
+  ],
+  "f37bd8b3dd5cb1a4": [
+   "BLyt/btl_MAIN_JP_ja/timg/btn_USE_00_JP_ja.bflim"
+  ],
+  "605699c01e3eb4f4": [
+   "BLyt/btl_RESLT_LYT_JP_ja/timg/btn_cancel_00_JP_ja.bflim",
+   "MLyt/MENU_SHOP_Lyt_JP_ja/timg/btn_cancel_00_JP_ja.bflim",
+   "SLyt/MINIGAME_JP_ja/timg/btn_quit_00_JP_ja.bflim"
+  ],
+  "b3999664427df7c8": [
+   "BLyt/btl_RESLT_LYT_JP_ja/timg/btn_DECISION2_00_JP_ja.bflim"
+  ],
+  "fe0be0673a4e582e": [
+   "BLyt/btl_RESLT_LYT_JP_ja/timg/RANK_NAME_BOOMERANG_00_JP_ja.bflim",
+   "MLyt/MENU_STATUS_JP_ja/timg/RANK_NAME_BOOMERANG_00_JP_ja.bflim"
+  ],
+  "169e126e2cfff358": [
+   "BLyt/btl_RESLT_LYT_JP_ja/timg/RANK_NAME_BRONZE_00_JP_ja.bflim",
+   "MLyt/MENU_STATUS_JP_ja/timg/RANK_NAME_BRONZE_00_JP_ja.bflim"
+  ],
+  "5e03ea3a4d37367c": [
+   "BLyt/btl_RESLT_LYT_JP_ja/timg/RANK_NAME_FLOWER_00_JP_ja.bflim",
+   "MLyt/MENU_STATUS_JP_ja/timg/RANK_NAME_FLOWER_00_JP_ja.bflim"
+  ],
+  "e42fd0c8ca9f11d1": [
+   "BLyt/btl_RESLT_LYT_JP_ja/timg/RANK_NAME_GOLD_00_JP_ja.bflim",
+   "MLyt/MENU_STATUS_JP_ja/timg/RANK_NAME_GOLD_00_JP_ja.bflim"
+  ],
+  "75ad5e17f760851d": [
+   "BLyt/btl_RESLT_LYT_JP_ja/timg/RANK_NAME_KINOKO_00_JP_ja.bflim",
+   "MLyt/MENU_STATUS_JP_ja/timg/RANK_NAME_KINOKO_00_JP_ja.bflim"
+  ],
+  "364e7e5c0b279d33": [
+   "BLyt/btl_RESLT_LYT_JP_ja/timg/RANK_NAME_KOURA_00_JP_ja.bflim",
+   "MLyt/MENU_STATUS_JP_ja/timg/RANK_NAME_KOURA_00_JP_ja.bflim"
+  ],
+  "0390db3c384aa704": [
+   "BLyt/btl_RESLT_LYT_JP_ja/timg/RANK_NAME_LBOSS_00_JP_ja.bflim",
+   "MLyt/MENU_STATUS_JP_ja/timg/RANK_NAME_LBOSS_00_JP_ja.bflim"
+  ],
+  "9929a8caa358fd53": [
+   "BLyt/btl_RESLT_LYT_JP_ja/timg/RANK_NAME_MASTER_00_JP_ja.bflim",
+   "MLyt/MENU_STATUS_JP_ja/timg/RANK_NAME_MASTER_00_JP_ja.bflim"
+  ],
+  "3195e7f11b621dd6": [
+   "BLyt/btl_RESLT_LYT_JP_ja/timg/RANK_NAME_RAINBOW_00_JP_ja.bflim",
+   "MLyt/MENU_STATUS_JP_ja/timg/RANK_NAME_RAINBOW_00_JP_ja.bflim"
+  ],
+  "7811d2b6a462590e": [
+   "BLyt/btl_RESLT_LYT_JP_ja/timg/RANK_NAME_SILVER_00_JP_ja.bflim",
+   "MLyt/MENU_STATUS_JP_ja/timg/RANK_NAME_SILVER_00_JP_ja.bflim"
+  ],
+  "5bce163b82f1d2a0": [
+   "BLyt/btl_RESLT_LYT_JP_ja/timg/RANK_NAME_STAR_00_JP_ja.bflim",
+   "MLyt/MENU_STATUS_JP_ja/timg/RANK_NAME_STAR_00_JP_ja.bflim"
+  ],
+  "83b715f0b0cb1fec": [
+   "BLyt/btl_RESLT_LYT_JP_ja/timg/STbr_BP_00_JP_ja.bflim"
+  ],
+  "144c1cb2b937cc97": [
+   "BLyt/btl_RESLT_LYT_JP_ja/timg/STbr_HIGE_00_JP_ja.bflim"
+  ],
+  "21dfc40e4742bb0a": [
+   "BLyt/btl_RESLT_LYT_JP_ja/timg/STbr_TSUNO_00_JP_ja.bflim"
+  ],
+  "241a94cbf50fd4fa": [
+   "FLyt/FLD_ACT_JP_ja/timg/btn_F_MAP_CLOSE_00_JP_ja.bflim"
+  ],
+  "94f2665ee227c5d0": [
+   "FLyt/FLD_ACT_JP_ja/timg/btn_F_MAP_OPEN_00_JP_ja.bflim"
+  ],
+  "5b043fa54ee769a8": [
+   "KLyt/KJ_BATTLEn_JP_ja/timg/btn_KJ_ESC_00_JP_ja.bflim"
+  ],
+  "95a9b370939afa2e": [
+   "KLyt/KJ_BATTLEn_JP_ja/timg/btn_KJ_GUIDE_00_JP_ja.bflim"
+  ],
+  "3e247a5c476c964c": [
+   "KLyt/KJ_BATTLEn_JP_ja/timg/btn_KJ_LA_01_00_JP_ja.bflim"
+  ],
+  "d95cbbc2ee7642ae": [
+   "KLyt/KJ_BATTLEn_JP_ja/timg/btn_KJ_LA_02_00_JP_ja.bflim"
+  ],
+  "45a0a97ae0b5525c": [
+   "KLyt/KJ_BATTLEn_JP_ja/timg/btn_KJ_LA_03_00_JP_ja.bflim"
+  ],
+  "3f8ab56f497294e9": [
+   "KLyt/KJ_BATTLEn_JP_ja/timg/btn_KJ_LA_04_00_JP_ja.bflim"
+  ],
+  "5458d5adba12cdc9": [
+   "KLyt/KJ_BATTLEn_JP_ja/timg/btn_KJ_LA_05_00_JP_ja.bflim"
+  ],
+  "7f6c1f919ccf1801": [
+   "KLyt/KJ_BATTLEn_JP_ja/timg/btn_KJ_LA_06_00_JP_ja.bflim"
+  ],
+  "54adf866745cae7c": [
+   "KLyt/KJ_BATTLEn_JP_ja/timg/btn_KJ_LA_11_00_JP_ja.bflim"
+  ],
+  "46f30a88abc72f0d": [
+   "KLyt/KJ_BATTLEn_JP_ja/timg/btn_KJ_LA_12_00_JP_ja.bflim"
+  ],
+  "d075c7ce78946f3b": [
+   "KLyt/KJ_BATTLEn_JP_ja/timg/btn_KJ_LA_13_00_JP_ja.bflim"
+  ],
+  "fa3f97db9d19028c": [
+   "KLyt/KJ_BATTLEn_JP_ja/timg/btn_KJ_LA_14_00_JP_ja.bflim"
+  ],
+  "a139393ecba1e0d6": [
+   "KLyt/KJ_BATTLEn_JP_ja/timg/btn_KJ_LA_15_00_JP_ja.bflim"
+  ],
+  "39f1fc442e5709f7": [
+   "KLyt/KJ_BATTLEn_JP_ja/timg/btn_KJ_LA_16_00_JP_ja.bflim"
+  ],
+  "878bc1d9bf570fde": [
+   "KLyt/KJ_BATTLEn_JP_ja/timg/btn_KJ_LA_17_00_JP_ja.bflim"
+  ],
+  "c084dee75a384372": [
+   "KLyt/KJ_BATTLEn_JP_ja/timg/btn_KJ_LA_18_00_JP_ja.bflim"
+  ],
+  "c57060d6a51a9a12": [
+   "KLyt/KJ_BATTLEn_JP_ja/timg/btn_KJ_LA_19_00_JP_ja.bflim"
+  ],
+  "458084e637618fd8": [
+   "KLyt/KJ_BATTLEn_JP_ja/timg/btn_KJ_LA_20_00_JP_ja.bflim"
+  ],
+  "c245f5a19f2f75a4": [
+   "KLyt/KJ_BATTLEn_JP_ja/timg/btn_KJ_LA_21_00_JP_ja.bflim"
+  ],
+  "401c36c793fee2b2": [
+   "KLyt/KJ_BATTLEn_JP_ja/timg/btn_KJ_LA_22_00_JP_ja.bflim"
+  ],
+  "996f748457d4ba2e": [
+   "KLyt/KJ_BATTLEn_JP_ja/timg/btn_KJ_LA_23_00_JP_ja.bflim"
+  ],
+  "a7ba65fc17ef7702": [
+   "KLyt/KJ_BATTLEn_JP_ja/timg/btn_KJ_LA_24_00_JP_ja.bflim"
+  ],
+  "320b2ded8f942e80": [
+   "KLyt/KJ_BATTLEn_JP_ja/timg/btn_KJ_LA_25_00_JP_ja.bflim"
+  ],
+  "933a061c6382ff82": [
+   "KLyt/KJ_BATTLEn_JP_ja/timg/btn_KJ_LA_26_00_JP_ja.bflim"
+  ],
+  "a35f50de87867c0b": [
+   "KLyt/KJ_BATTLEn_JP_ja/timg/KJ_LTIT_GUIDE_3_00_JP_ja.bflim"
+  ],
+  "b7b82bb9b2880137": [
+   "KLyt/KJ_BATTLEn_JP_ja/timg/KJ_LTIT_GUIDE_4_00_JP_ja.bflim"
+  ],
+  "f1fbf7ab57becbd2": [
+   "KLyt/KJ_GUIDE_JP_ja/timg/btn_text_KJ_GUIDE_pnl_1_00_JP_ja.bflim"
+  ],
+  "c6f3d4e8936573eb": [
+   "KLyt/KJ_GUIDE_JP_ja/timg/btn_text_KJ_GUIDE_pnl_2_00_JP_ja.bflim"
+  ],
+  "483afc65305dca5b": [
+   "KLyt/KJ_GUIDE_JP_ja/timg/btn_text_KJ_GUIDE_pnl_3_00_JP_ja.bflim"
+  ],
+  "3095cd48f8c6ff3e": [
+   "KLyt/KJ_GUIDE_JP_ja/timg/btn_text_KJ_GUIDE_pnl_4_00_JP_ja.bflim"
+  ],
+  "0066e2876aee5ef1": [
+   "KLyt/KJ_HENSEI_JP_ja/timg/btn_KJ_CANCEL_00_JP_ja.bflim"
+  ],
+  "0a0138075e0a0d7a": [
+   "KLyt/KJ_HENSEI_JP_ja/timg/btn_KJ_DECISION_00_JP_ja.bflim"
+  ],
+  "2319101ae2153269": [
+   "KLyt/KJ_HENSEI_JP_ja/timg/btn_KJ_ENEMYINFO_00_JP_ja.bflim"
+  ],
+  "74b7d0e943b65072": [
+   "KLyt/KJ_ITEM_JP_ja/timg/btn_KJ_CLOSE_00_JP_ja.bflim",
+   "KLyt/KJ_HENSEI_JP_ja/timg/btn_KJ_CLOSE_00_JP_ja.bflim",
+   "KLyt/KJ_DIVORCE_JP_ja/timg/btn_KJ_CLOSE_00_JP_ja.bflim"
+  ],
+  "b46f8b584fa4b068": [
+   "KLyt/KJ_ITEM_JP_ja/timg/btn_KJ_ORDER_00_JP_ja.bflim",
+   "KLyt/KJ_HENSEI_JP_ja/timg/btn_KJ_ORDER_00_JP_ja.bflim",
+   "KLyt/KJ_DIVORCE_JP_ja/timg/btn_KJ_ORDER_00_JP_ja.bflim"
+  ],
+  "ed96f03ba4be1659": [
+   "KLyt/KJ_ITEM_JP_ja/timg/btn_KJ_PROF_00_JP_ja.bflim",
+   "KLyt/KJ_HENSEI_JP_ja/timg/btn_KJ_PROF_00_JP_ja.bflim",
+   "KLyt/KJ_DIVORCE_JP_ja/timg/btn_KJ_PROF_00_JP_ja.bflim"
+  ],
+  "c351326e3eb3acc4": [
+   "KLyt/KJ_ITEM_JP_ja/timg/btn_SET_LV_00_JP_ja.bflim",
+   "KLyt/KJ_HENSEI_JP_ja/timg/btn_SET_LV_00_JP_ja.bflim",
+   "KLyt/KJ_DIVORCE_JP_ja/timg/btn_SET_LV_00_JP_ja.bflim"
+  ],
+  "2226302c15419714": [
+   "KLyt/KJ_ITEM_JP_ja/timg/btn_SET_TYPE_00_JP_ja.bflim",
+   "KLyt/KJ_HENSEI_JP_ja/timg/btn_SET_TYPE_00_JP_ja.bflim",
+   "KLyt/KJ_DIVORCE_JP_ja/timg/btn_SET_TYPE_00_JP_ja.bflim"
+  ],
+  "7ab44b9ca878f876": [
+   "KLyt/KJ_PARTY_JP_ja/timg/KJ_txt_CHANGE_POS_00_JP_ja.bflim"
+  ],
+  "684255c39961005a": [
+   "KLyt/KJ_PARTY_JP_ja/timg/KJ_txt_DECISION_00_JP_ja.bflim"
+  ],
+  "52e9b39f14fcd5ea": [
+   "KLyt/KJ_QUEST_JP_ja/timg/btn_KJ_BSTART_00_JP_ja.bflim",
+   "SLyt/COLISEUM_JP_ja/timg/btn_MINGAME_BSTART_00_JP_ja.bflim"
+  ],
+  "84b1ffb14ae62ecd": [
+   "KLyt/KJ_QUEST_JP_ja/timg/btn_KJ_HENSEI_n_00_JP_ja.bflim"
+  ],
+  "7b4bb9727a67e8c3": [
+   "KLyt/KJ_QUEST_JP_ja/timg/btn_KJ_ITEM_00_JP_ja.bflim"
+  ],
+  "5e4fa7738ad8d463": [
+   "KLyt/KJ_QUEST_JP_ja/timg/btn_KJ_MENU_00_JP_ja.bflim"
+  ],
+  "777acdced38cff95": [
+   "KLyt/KJ_QUEST_JP_ja/timg/btn_KJ_MENU_GUIDE_00_JP_ja.bflim"
+  ],
+  "d54395e544315d17": [
+   "KLyt/KJ_QUEST_JP_ja/timg/btn_KJ_MENU_RECORD_00_JP_ja.bflim"
+  ],
+  "ac9e61e3658a01d7": [
+   "KLyt/KJ_QUEST_JP_ja/timg/btn_KJ_MENU_REMOVE_00_JP_ja.bflim"
+  ],
+  "fcbed3731b42182d": [
+   "KLyt/KJ_QUEST_JP_ja/timg/btn_KJ_MENU_SET_00_JP_ja.bflim"
+  ],
+  "49da57184d11fa5f": [
+   "KLyt/KJ_QUEST_JP_ja/timg/btn_KJ_STOPGAME_n_00_JP_ja.bflim"
+  ],
+  "5b26d302af2af0dd": [
+   "KLyt/KJ_QUEST_JP_ja/timg/btn_NO1_00_JP_ja.bflim",
+   "KLyt/KJ_HENSEI_JP_ja/timg/btn_NO1_00_JP_ja.bflim",
+   "KLyt/KJ_BATTLEn_JP_ja/timg/btn_NO1_00_JP_ja.bflim",
+   "KLyt/KJ_DIVORCE_JP_ja/timg/btn_NO1_00_JP_ja.bflim",
+   "MLyt/MENU_SHOP_Lyt_JP_ja/timg/btn_NO1_00_JP_ja.bflim",
+   "MLyt/MENU_FILE_LOAD_JP_ja/timg/btn_NO1_00_JP_ja.bflim"
+  ],
+  "731126575958b8a5": [
+   "KLyt/KJ_QUEST_JP_ja/timg/btn_YES1_00_JP_ja.bflim",
+   "KLyt/KJ_HENSEI_JP_ja/timg/btn_YES1_00_JP_ja.bflim",
+   "KLyt/KJ_BATTLEn_JP_ja/timg/btn_YES1_00_JP_ja.bflim",
+   "KLyt/KJ_DIVORCE_JP_ja/timg/btn_YES1_00_JP_ja.bflim",
+   "MLyt/MENU_FILE_LOAD_JP_ja/timg/btn_YES1_00_JP_ja.bflim"
+  ],
+  "64387fb5c09a99b6": [
+   "KLyt/KJ_RECORD_JP_ja/timg/btn_p_CHALLENGE_00_JP_ja.bflim"
+  ],
+  "a3455a4876002d15": [
+   "KLyt/KJ_RECORD_JP_ja/timg/btn_p_FORMATION_00_JP_ja.bflim"
+  ],
+  "3455c9279270903a": [
+   "KLyt/KJ_RECORD_JP_ja/timg/btn_p_FRIEND_00_JP_ja.bflim"
+  ],
+  "ce32d0c1e6bc3bf7": [
+   "KLyt/KJ_RECORD_JP_ja/timg/btn_p_MONSTER_00_JP_ja.bflim"
+  ],
+  "e2b4dde4d5f0a4f8": [
+   "KLyt/KJ_RECORD_JP_ja/timg/LTIT_KJ_RECORD_1_00_JP_ja.bflim"
+  ],
+  "48155f411e09273a": [
+   "KLyt/KJ_RECORD_JP_ja/timg/LTIT_KJ_RECORD_2_00_JP_ja.bflim"
+  ],
+  "2e1623ecf041d105": [
+   "KLyt/KJ_RESULT_JP_ja/timg/KJ_ST_GDD_00_JP_ja.bflim",
+   "KLyt/KJ_ITEM_JP_ja/timg/KJ_ST_GDD_00_JP_ja.bflim",
+   "KLyt/KJ_HENSEI_JP_ja/timg/KJ_ST_GDD_00_JP_ja.bflim",
+   "KLyt/KJ_DIVORCE_JP_ja/timg/KJ_ST_GDD_00_JP_ja.bflim",
+   "KLyt/KJ_PARTY_JP_ja/timg/KJ_ST_GDD_00_JP_ja.bflim"
+  ],
+  "708ef2f4c05408dd": [
+   "KLyt/KJ_RESULT_JP_ja/timg/KJ_TYPE_01_00_JP_ja.bflim",
+   "KLyt/KJ_HENSEI_JP_ja/timg/KJ_TYPE_01_00_JP_ja.bflim"
+  ],
+  "555ecbae13628c20": [
+   "KLyt/KJ_RESULT_JP_ja/timg/KJ_TYPE_02_00_JP_ja.bflim",
+   "KLyt/KJ_HENSEI_JP_ja/timg/KJ_TYPE_02_00_JP_ja.bflim"
+  ],
+  "05af14f80912f391": [
+   "KLyt/KJ_RESULT_JP_ja/timg/KJ_TYPE_03_00_JP_ja.bflim",
+   "KLyt/KJ_HENSEI_JP_ja/timg/KJ_TYPE_03_00_JP_ja.bflim"
+  ],
+  "ca454cbc7d550a2c": [
+   "KLyt/KJ_RESULT_JP_ja/timg/PARTY_LV_00_JP_ja.bflim",
+   "KLyt/KJ_PARTY_JP_ja/timg/PARTY_LV_00_JP_ja.bflim",
+   "MLyt/MENU_FILE_LOAD_JP_ja/timg/PARTY_LV_00_JP_ja.bflim"
+  ],
+  "389918c1e7d39bcb": [
+   "MLyt/MENU_FILE_LOAD_JP_ja/timg/btn_CANCEL2_00_JP_ja.bflim"
+  ],
+  "d211643bd94307ed": [
+   "MLyt/MENU_FILE_LOAD_JP_ja/timg/btn_COPY_00_JP_ja.bflim"
+  ],
+  "8faae7a7f3847fba": [
+   "MLyt/MENU_FILE_LOAD_JP_ja/timg/btn_DELETE1_00_JP_ja.bflim"
+  ],
+  "22bee948e23a74e2": [
+   "MLyt/MENU_FILE_LOAD_JP_ja/timg/btn_DERACE_00_JP_ja.bflim"
+  ],
+  "68094cc3580e5078": [
+   "MLyt/MENU_FILE_LOAD_JP_ja/timg/btn_FERASE_00_JP_ja.bflim"
+  ],
+  "b24fb8f6b3106e17": [
+   "MLyt/MENU_FILE_LOAD_JP_ja/timg/btn_KJRPG_00_JP_ja.bflim"
+  ],
+  "0cfb604f5f657e96": [
+   "MLyt/MENU_FILE_LOAD_JP_ja/timg/btn_MLRPG3_00_JP_ja.bflim"
+  ],
+  "bae4b0e11d63d1e1": [
+   "MLyt/MENU_FILE_LOAD_JP_ja/timg/btn_OWRITE_00_JP_ja.bflim"
+  ],
+  "51052dd469b8f66a": [
+   "MLyt/MENU_FILE_LOAD_JP_ja/timg/btn_SLOT_00_JP_ja.bflim"
+  ],
+  "0e4e6f4b952e3409": [
+   "MLyt/MENU_FILE_LOAD_JP_ja/timg/btn_START_00_JP_ja.bflim"
+  ],
+  "f5d1e3778d2cb1c0": [
+   "MLyt/MENU_FILE_LOAD_JP_ja/timg/LABEL_KJRPG_00_JP_ja.bflim"
+  ],
+  "2f9fc9246964662c": [
+   "MLyt/MENU_FILE_LOAD_JP_ja/timg/LOAD_GAME_IMG_KJ_L_00_JP_ja.bflim"
+  ],
+  "8e5d9345c7b60f54": [
+   "MLyt/MENU_FILE_LOAD_JP_ja/timg/LOAD_GAME_IMG_KJ_R_00_JP_ja.bflim"
+  ],
+  "f442bea9dc7dc82f": [
+   "MLyt/MENU_FILE_LOAD_JP_ja/timg/LOAD_GAME_IMG_ML_L_00_JP_ja.bflim"
+  ],
+  "09e121759cade671": [
+   "MLyt/MENU_FILE_LOAD_JP_ja/timg/LOAD_GAME_IMG_ML_R_00_JP_ja.bflim"
+  ],
+  "3f98445e3685dfa0": [
+   "MLyt/MENU_FILE_SAVE_JP_ja/timg/btn_CONTINUE_00_JP_ja.bflim"
+  ],
+  "0419dd89b5faa65a": [
+   "MLyt/MENU_FILE_SAVE_JP_ja/timg/btn_RETURN_TITLE_00_JP_ja.bflim"
+  ],
+  "4770ebe41d04acaa": [
+   "MLyt/MENU_FILE_SAVE_JP_ja/timg/btn_SAVE_text_00_JP_ja.bflim"
+  ],
+  "ee60138af744bf34": [
+   "MLyt/MENU_FILE_SAVE_JP_ja/timg/LABEL_MLRPG_00_JP_ja.bflim",
+   "MLyt/MENU_FILE_LOAD_JP_ja/timg/LABEL_MLRPG_00_JP_ja.bflim"
+  ],
+  "181266ad11139988": [
+   "MLyt/MENU_FILE_SAVE_JP_ja/timg/NEW_DATA_text_00_JP_ja.bflim",
+   "MLyt/MENU_FILE_LOAD_JP_ja/timg/NEW_DATA_text_00_JP_ja.bflim"
+  ],
+  "464561aaab9727d1": [
+   "MLyt/MENU_GUIDE_JP_ja/timg/btn_text_guide_pnl_1_00_JP_ja.bflim"
+  ],
+  "e0cca8113491ff79": [
+   "MLyt/MENU_GUIDE_JP_ja/timg/btn_text_guide_pnl_2_00_JP_ja.bflim"
+  ],
+  "9b77747c4aaa9fee": [
+   "MLyt/MENU_GUIDE_JP_ja/timg/btn_text_guide_pnl_3_00_JP_ja.bflim"
+  ],
+  "a1b386a19dbbcb2a": [
+   "MLyt/MENU_GUIDE_JP_ja/timg/btn_text_guide_pnl_4_00_JP_ja.bflim"
+  ],
+  "89e08cbffd6cac9c": [
+   "MLyt/MENU_GUIDE_JP_ja/timg/LTIT_guide_1_00_JP_ja.bflim"
+  ],
+  "63eb606336d625b2": [
+   "MLyt/MENU_GUIDE_JP_ja/timg/LTIT_guide_2_00_JP_ja.bflim"
+  ],
+  "224a4b9266453e62": [
+   "MLyt/MENU_ITEM_Lyt_JP_ja/timg/LTIT_ITEM_00_JP_ja.bflim",
+   "MLyt/MENU_SHOP_Lyt_JP_ja/timg/LTIT_ITEM_00_JP_ja.bflim"
+  ],
+  "54bb4e9e27829ea6": [
+   "MLyt/MENU_ITEM_Lyt_JP_ja/timg/ST_BP_00_JP_ja.bflim",
+   "MLyt/MENU_SHOP_Lyt_JP_ja/timg/ST_BP_00_JP_ja.bflim",
+   "MLyt/MENU_MAIN_JP_ja/timg/ST_BP_00_JP_ja.bflim",
+   "MLyt/MENU_EQUIP_JP_ja/timg/ST_BP_00_JP_ja.bflim",
+   "MLyt/MENU_STATUS_JP_ja/timg/ST_BP_00_JP_ja.bflim"
+  ],
+  "4576981050bf6878": [
+   "MLyt/MENU_ITEM_Lyt_JP_ja/timg/ST_HIGE_00_JP_ja.bflim",
+   "MLyt/MENU_SHOP_Lyt_JP_ja/timg/ST_HIGE_00_JP_ja.bflim",
+   "MLyt/MENU_MAIN_JP_ja/timg/ST_HIGE_00_JP_ja.bflim",
+   "MLyt/MENU_EQUIP_JP_ja/timg/ST_HIGE_00_JP_ja.bflim",
+   "MLyt/MENU_STATUS_JP_ja/timg/ST_HIGE_00_JP_ja.bflim"
+  ],
+  "eb8e8ddd3dade6c9": [
+   "MLyt/MENU_ITEM_Lyt_JP_ja/timg/ST_TSUNO_00_JP_ja.bflim",
+   "MLyt/MENU_SHOP_Lyt_JP_ja/timg/ST_TSUNO_00_JP_ja.bflim",
+   "MLyt/MENU_MAIN_JP_ja/timg/ST_TSUNO_00_JP_ja.bflim",
+   "MLyt/MENU_EQUIP_JP_ja/timg/ST_TSUNO_00_JP_ja.bflim",
+   "MLyt/MENU_STATUS_JP_ja/timg/ST_TSUNO_00_JP_ja.bflim"
+  ],
+  "165cf5bb29d0904f": [
+   "MLyt/MENU_MAIN_JP_ja/timg/TOP_MENU_TEXT_1_00_JP_ja.bflim"
+  ],
+  "bb2883c5fd58ec91": [
+   "MLyt/MENU_MAIN_JP_ja/timg/TOP_MENU_TEXT_2_00_JP_ja.bflim"
+  ],
+  "ae58d04868efa4c0": [
+   "MLyt/MENU_MAIN_JP_ja/timg/TOP_MENU_TEXT_3_00_JP_ja.bflim"
+  ],
+  "05902b4c947b66d6": [
+   "MLyt/MENU_MAIN_JP_ja/timg/TOP_MENU_TEXT_4_00_JP_ja.bflim"
+  ],
+  "3979e5782cfc38fe": [
+   "MLyt/MENU_MAIN_JP_ja/timg/TOP_MENU_TEXT_5_00_JP_ja.bflim"
+  ],
+  "a189d600253b6e9c": [
+   "MLyt/MENU_MAIN_JP_ja/timg/TOP_MENU_TEXT_6_00_JP_ja.bflim"
+  ],
+  "a5acc9c31f8ca826": [
+   "MLyt/MENU_RECORD_JP_ja/timg/btn_p_ATTACK_00_JP_ja.bflim"
+  ],
+  "0f78da6aa0ccb88d": [
+   "MLyt/MENU_RECORD_JP_ja/timg/btn_p_BLOCK_00_JP_ja.bflim"
+  ],
+  "2f1fce38f9871c9f": [
+   "MLyt/MENU_RECORD_JP_ja/timg/btn_p_COLISEUM_00_JP_ja.bflim"
+  ],
+  "04f8ba5b3f319f95": [
+   "MLyt/MENU_RECORD_JP_ja/timg/btn_p_KUBOMI_00_JP_ja.bflim"
+  ],
+  "89a5b23835190870": [
+   "MLyt/MENU_RECORD_JP_ja/timg/btn_p_MINIGAME_00_JP_ja.bflim"
+  ],
+  "d52248a10b88fafa": [
+   "MLyt/MENU_RECORD_JP_ja/timg/LTIT_BSCORE_00_JP_ja.bflim",
+   "SLyt/MINIGAME_JP_ja/timg/LTIT_BSCORE_00_JP_ja.bflim"
+  ],
+  "5c2bfa16698e4d88": [
+   "MLyt/MENU_RECORD_JP_ja/timg/LTIT_BTURN_00_JP_ja.bflim",
+   "SLyt/COLISEUM_JP_ja/timg/LTIT_BTURN_00_JP_ja.bflim"
+  ],
+  "c8089a50624a98ad": [
+   "MLyt/MENU_RECORD_JP_ja/timg/LTIT_record_AP_00_JP_ja.bflim"
+  ],
+  "3304b9aa40bb97e9": [
+   "MLyt/MENU_RECORD_JP_ja/timg/LTIT_record_BLOCK_00_JP_ja.bflim"
+  ],
+  "e41a58f73d814943": [
+   "MLyt/MENU_RECORD_JP_ja/timg/LTIT_record_COLISEUM_00_JP_ja.bflim"
+  ],
+  "2135ec16ea036674": [
+   "MLyt/MENU_RECORD_JP_ja/timg/LTIT_record_KUBOMI_00_JP_ja.bflim"
+  ],
+  "1dcafbfd1009231b": [
+   "MLyt/MENU_RECORD_JP_ja/timg/LTIT_record_MINIGAME_00_JP_ja.bflim"
+  ],
+  "e7018d2c395157fd": [
+   "MLyt/MENU_SET_JP_ja/timg/tab_SET_OFF2_00_JP_ja.bflim"
+  ],
+  "1e332fae8c9faf9e": [
+   "MLyt/MENU_SET_JP_ja/timg/tab_SET_ON2_00_JP_ja.bflim"
+  ],
+  "34c4a20a8b670764": [
+   "MLyt/MENU_SHOP_Lyt_JP_ja/timg/btn_buy_00_JP_ja.bflim"
+  ],
+  "09eb03a897463cd8": [
+   "MLyt/MENU_SHOP_Lyt_JP_ja/timg/btn_equip_00_JP_ja.bflim"
+  ],
+  "8c3e83eae4da42e9": [
+   "MLyt/MENU_SHOP_Lyt_JP_ja/timg/btn_later_00_JP_ja.bflim"
+  ],
+  "6d3f2e1c01ca7829": [
+   "MLyt/MENU_SHOP_Lyt_JP_ja/timg/btn_scratch_00_JP_ja.bflim"
+  ],
+  "be8dd7733302c633": [
+   "MLyt/MENU_SHOP_Lyt_JP_ja/timg/btn_sell_00_JP_ja.bflim"
+  ],
+  "ab31a1de0e55f968": [
+   "MLyt/MENU_SHOP_Lyt_JP_ja/timg/LTIT_BADGE_00_JP_ja.bflim"
+  ],
+  "e1b1a1e62b8b18c5": [
+   "MLyt/MENU_SHOP_Lyt_JP_ja/timg/LTIT_EQUIP_00_JP_ja.bflim",
+   "MLyt/MENU_EQUIP_JP_ja/timg/LTIT_EQUIP_00_JP_ja.bflim"
+  ],
+  "399535d3b4fd1432": [
+   "MLyt/MENU_SHOP_Lyt_JP_ja/timg/LTIT_NOW_EQUIP_00_JP_ja.bflim",
+   "MLyt/MENU_EQUIP_JP_ja/timg/LTIT_NOW_EQUIP_00_JP_ja.bflim"
+  ],
+  "767cc4f5d6354b49": [
+   "MLyt/MENU_SHOP_Lyt_JP_ja/timg/LTIT_SELL_00_JP_ja.bflim"
+  ],
+  "1d4afc1c5bafb959": [
+   "MLyt/MENU_SHOP_Lyt_JP_ja/timg/SHOP_TIT_BADGE_00_JP_ja.bflim"
+  ],
+  "ea733a3d8c7a332b": [
+   "MLyt/MENU_SHOP_Lyt_JP_ja/timg/SHOP_TIT_BLILOCK_00_JP_ja.bflim"
+  ],
+  "c5f87dee84c50199": [
+   "MLyt/MENU_SHOP_Lyt_JP_ja/timg/SHOP_TIT_BLOCK_00_JP_ja.bflim"
+  ],
+  "a584ff0d8144daca": [
+   "MLyt/MENU_SHOP_Lyt_JP_ja/timg/SHOP_TIT_BLODOG_00_JP_ja.bflim"
+  ],
+  "9e234eab880945e0": [
+   "MLyt/MENU_SHOP_Lyt_JP_ja/timg/SHOP_TIT_EQUIP1_00_JP_ja.bflim"
+  ],
+  "b766ede0949d096f": [
+   "MLyt/MENU_SHOP_Lyt_JP_ja/timg/SHOP_TIT_EQUIP2_00_JP_ja.bflim"
+  ],
+  "d3aca108b0c8eb0c": [
+   "MLyt/MENU_SHOP_Lyt_JP_ja/timg/SHOP_TIT_EQUIP3_00_JP_ja.bflim"
+  ],
+  "eea7f2c3a046867c": [
+   "MLyt/MENU_SHOP_Lyt_JP_ja/timg/SHOP_TIT_ITEM_00_JP_ja.bflim"
+  ],
+  "93d08f80e09431d1": [
+   "MLyt/MENU_SHOP_Lyt_JP_ja/timg/shop_top_acce_text_00_JP_ja.bflim"
+  ],
+  "adfe9ab6ac87af1b": [
+   "MLyt/MENU_SHOP_Lyt_JP_ja/timg/shop_top_badge_text_00_JP_ja.bflim"
+  ],
+  "37a11af2d5d45b8d": [
+   "MLyt/MENU_SHOP_Lyt_JP_ja/timg/shop_top_equip_text_00_JP_ja.bflim"
+  ],
+  "7d5d4f4731c89c61": [
+   "MLyt/MENU_SHOP_Lyt_JP_ja/timg/shop_top_item_text_00_JP_ja.bflim"
+  ],
+  "77f98f0528c5e7e3": [
+   "MLyt/MENU_SHOP_Lyt_JP_ja/timg/shop_top_koura_text_00_JP_ja.bflim"
+  ],
+  "1fc3e5716e00e27a": [
+   "MLyt/MENU_SHOP_Lyt_JP_ja/timg/shop_top_sell_text_00_JP_ja.bflim"
+  ],
+  "215a6cb31ca5cf8f": [
+   "MLyt/MENU_SHOP_Lyt_JP_ja/timg/shop_top_wear_text_00_JP_ja.bflim"
+  ],
+  "e70e4f417d03cf19": [
+   "MLyt/MENU_STATUS_JP_ja/timg/STATUS_EQUIP_00_JP_ja.bflim"
+  ],
+  "ca3c6640b94c5a17": [
+   "MLyt/MENU_STATUS_JP_ja/timg/STATUS_RANKBONUS_00_JP_ja.bflim"
+  ],
+  "60d0489c521bc531": [
+   "SLyt/COLISEUM_JP_ja/timg/btn_MGAME_pnl1_00_jp_ja.bflim"
+  ],
+  "b3ebac09fb8f4114": [
+   "SLyt/COLISEUM_JP_ja/timg/btn_MGAME_pnl2_00_jp_ja.bflim"
+  ],
+  "1b2e59c352c70a77": [
+   "SLyt/COLISEUM_JP_ja/timg/GET_PRIZE_00_JP_ja.bflim",
+   "SLyt/MINIGAME_JP_ja/timg/GET_PRIZE_00_JP_ja.bflim"
+  ],
+  "2071b5358f555e9b": [
+   "SLyt/COLISEUM_JP_ja/timg/LIST_ATCMINIGAME_BB_00_jp_ja.bflim"
+  ],
+  "e419f52cb772cb21": [
+   "SLyt/COLISEUM_JP_ja/timg/LIST_ATCMINIGAME_BC_00_jp_ja.bflim"
+  ],
+  "2141036d978c9d2d": [
+   "SLyt/COLISEUM_JP_ja/timg/LTIT_ACTMINIGAME_GUIDE_00_JP_ja.bflim"
+  ],
+  "963275eba6e96ecf": [
+   "SLyt/COLISEUM_JP_ja/timg/NEW_BEST_TURN_00_JP_ja.bflim"
+  ],
+  "bd6cf9f888f10989": [
+   "SLyt/COLISEUM_JP_ja/timg/pnl_ATCMINIGAME_VCONDITION_00_jp_ja.bflim"
+  ],
+  "1eafad75307a3de9": [
+   "SLyt/COLISEUM_JP_ja/timg/RECOMMEND_LV_00_JP_ja.bflim"
+  ],
+  "2afb8f0eaffac8be": [
+   "SLyt/MINIGAME_JP_ja/timg/btn_MINIGAME_START_00_JP_ja.bflim"
+  ],
+  "f89615419d7a10f0": [
+   "SLyt/MINIGAME_JP_ja/timg/btn_restart_00_JP_ja.bflim"
+  ],
+  "22683b6152036682": [
+   "SLyt/MINIGAME_JP_ja/timg/LIST_ATCMINIGAME_BR_00_jp_ja.bflim"
+  ],
+  "24fef79864cc69a0": [
+   "SLyt/MINIGAME_JP_ja/timg/LIST_ATCMINIGAME_CT_00_jp_ja.bflim"
+  ],
+  "c3c36cd3dbfe4627": [
+   "SLyt/MINIGAME_JP_ja/timg/pnl_ATCMINIGAME_score_00_jp_ja.bflim"
+  ]
+ },
+ "errors": [],
+ "etc_psnr": {
+  "BLyt/btl_MAIN_JP_ja/timg/btn_USE_00_JP_ja.bflim": 99.0,
+  "BLyt/btl_RESLT_LYT_JP_ja/timg/RANK_NAME_STAR_00_JP_ja.bflim": 60.3,
+  "BLyt/btl_RESLT_LYT_JP_ja/timg/RANK_NAME_GOLD_00_JP_ja.bflim": 56.8,
+  "BLyt/btl_RESLT_LYT_JP_ja/timg/RANK_NAME_BRONZE_00_JP_ja.bflim": 57.1,
+  "BLyt/btl_RESLT_LYT_JP_ja/timg/RANK_NAME_KINOKO_00_JP_ja.bflim": 62.6,
+  "BLyt/btl_RESLT_LYT_JP_ja/timg/RANK_NAME_FLOWER_00_JP_ja.bflim": 57.4,
+  "BLyt/btl_RESLT_LYT_JP_ja/timg/RANK_NAME_LBOSS_00_JP_ja.bflim": 51.7,
+  "BLyt/btl_RESLT_LYT_JP_ja/timg/RANK_NAME_MASTER_00_JP_ja.bflim": 60.3,
+  "BLyt/btl_RESLT_LYT_JP_ja/timg/RANK_NAME_SILVER_00_JP_ja.bflim": 57.0,
+  "BLyt/btl_RESLT_LYT_JP_ja/timg/RANK_NAME_BOOMERANG_00_JP_ja.bflim": 55.2,
+  "BLyt/btl_RESLT_LYT_JP_ja/timg/RANK_NAME_KOURA_00_JP_ja.bflim": 53.3,
+  "BLyt/btl_RESLT_LYT_JP_ja/timg/RANK_NAME_RAINBOW_00_JP_ja.bflim": 55.4,
+  "MLyt/MENU_STATUS_JP_ja/timg/RANK_NAME_STAR_00_JP_ja.bflim": 60.3,
+  "MLyt/MENU_STATUS_JP_ja/timg/RANK_NAME_GOLD_00_JP_ja.bflim": 56.8,
+  "MLyt/MENU_STATUS_JP_ja/timg/RANK_NAME_BRONZE_00_JP_ja.bflim": 57.1,
+  "MLyt/MENU_STATUS_JP_ja/timg/RANK_NAME_KINOKO_00_JP_ja.bflim": 62.6,
+  "MLyt/MENU_STATUS_JP_ja/timg/RANK_NAME_FLOWER_00_JP_ja.bflim": 57.4,
+  "MLyt/MENU_STATUS_JP_ja/timg/RANK_NAME_LBOSS_00_JP_ja.bflim": 51.7,
+  "MLyt/MENU_STATUS_JP_ja/timg/RANK_NAME_MASTER_00_JP_ja.bflim": 60.3,
+  "MLyt/MENU_STATUS_JP_ja/timg/RANK_NAME_SILVER_00_JP_ja.bflim": 57.0,
+  "MLyt/MENU_STATUS_JP_ja/timg/RANK_NAME_BOOMERANG_00_JP_ja.bflim": 55.2,
+  "MLyt/MENU_STATUS_JP_ja/timg/RANK_NAME_KOURA_00_JP_ja.bflim": 53.3,
+  "MLyt/MENU_STATUS_JP_ja/timg/RANK_NAME_RAINBOW_00_JP_ja.bflim": 55.4,
+  "SLyt/COLISEUM_JP_ja/timg/NEW_BEST_TURN_00_JP_ja.bflim": 73.9,
+  "SLyt/COLISEUM_JP_ja/timg/btn_MGAME_pnl2_00_jp_ja.bflim": 99.0,
+  "SLyt/MINIGAME_JP_ja/timg/pnl_ATCMINIGAME_score_00_jp_ja.bflim": 58.3
+ }
+}

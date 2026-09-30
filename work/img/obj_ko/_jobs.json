@@ -1,0 +1,1115 @@
+[
+ {
+  "dat": "BUI",
+  "obj": "bui_sys_badstatname_JP_ja",
+  "frames": [
+   0
+  ],
+  "regions": [
+   "b00000_64x32",
+   "b00032_64x32"
+  ],
+  "donor": [
+   "BUI",
+   "bui_sys_badstatname_KR_ko",
+   0
+  ],
+  "png": null,
+  "mode": "text",
+  "text": null,
+  "fn": null,
+  "note": null
+ },
+ {
+  "dat": "BUI",
+  "obj": "bui_sys_badstatname_JP_ja",
+  "frames": [
+   1
+  ],
+  "regions": [
+   "b00084_64x32",
+   "b00116_64x32"
+  ],
+  "donor": [
+   "BUI",
+   "bui_sys_badstatname_KR_ko",
+   1
+  ],
+  "png": null,
+  "mode": "text",
+  "text": null,
+  "fn": null,
+  "note": null
+ },
+ {
+  "dat": "BUI",
+  "obj": "bui_sys_badstatname_JP_ja",
+  "frames": [
+   2
+  ],
+  "regions": [
+   "b00148_64x32",
+   "b00180_64x32"
+  ],
+  "donor": [
+   "BUI",
+   "bui_sys_badstatname_KR_ko",
+   2
+  ],
+  "png": null,
+  "mode": "text",
+  "text": null,
+  "fn": null,
+  "note": null
+ },
+ {
+  "dat": "BUI",
+  "obj": "bui_sys_badstatname_JP_ja",
+  "frames": [
+   10
+  ],
+  "regions": [
+   "b00496_64x32",
+   "b00528_64x32"
+  ],
+  "donor": [
+   "BUI",
+   "bui_sys_badstatname_KR_ko",
+   10
+  ],
+  "png": null,
+  "mode": "text",
+  "text": null,
+  "fn": null,
+  "note": null
+ },
+ {
+  "dat": "BUI",
+  "obj": "bui_sys_block_name_JP_ja",
+  "frames": [
+   0
+  ],
+  "regions": [
+   "b00000_64x32",
+   "b00032_16x32",
+   "b00040_64x32",
+   "b00072_64x32"
+  ],
+  "donor": [
+   "BUI",
+   "bui_sys_block_name_KR_ko",
+   0
+  ],
+  "png": null,
+  "mode": "frame",
+  "text": null,
+  "fn": null,
+  "note": null
+ },
+ {
+  "dat": "BUI",
+  "obj": "bui_sys_block_name_JP_ja",
+  "frames": [
+   1
+  ],
+  "regions": [
+   "b00104_64x32",
+   "b00136_64x32",
+   "b00168_64x32"
+  ],
+  "donor": [
+   "BUI",
+   "bui_sys_block_name_KR_ko",
+   1
+  ],
+  "png": null,
+  "mode": "frame",
+  "text": null,
+  "fn": null,
+  "note": null
+ },
+ {
+  "dat": "BUI",
+  "obj": "bui_sys_block_name_JP_ja",
+  "frames": [
+   3
+  ],
+  "regions": [
+   "b00296_64x32",
+   "b00328_64x32",
+   "b00360_64x32"
+  ],
+  "donor": [
+   "BUI",
+   "bui_sys_block_name_KR_ko",
+   4
+  ],
+  "png": null,
+  "mode": "frame",
+  "text": null,
+  "fn": null,
+  "note": null
+ },
+ {
+  "dat": "BUI",
+  "obj": "bui_sys_block_name_JP_ja",
+  "frames": [
+   4
+  ],
+  "regions": [
+   "b00392_64x32",
+   "b00424_64x32",
+   "b00456_64x32"
+  ],
+  "donor": [
+   "BUI",
+   "bui_sys_block_name_KR_ko",
+   5
+  ],
+  "png": null,
+  "mode": "frame",
+  "text": null,
+  "fn": null,
+  "note": null
+ },
+ {
+  "dat": "BUI",
+  "obj": "bui_tuto_JP_ja",
+  "frames": [
+   0
+  ],
+  "regions": [
+   "b00000_64x32",
+   "b00032_64x32"
+  ],
+  "donor": [
+   "BUI",
+   "bui_tuto_KR_ko",
+   0
+  ],
+  "png": null,
+  "mode": "frame",
+  "text": null,
+  "fn": null,
+  "note": null
+ },
+ {
+  "dat": "BUI",
+  "obj": "bui_tuto_JP_ja",
+  "frames": [
+   1
+  ],
+  "regions": [
+   "b00064_64x32",
+   "b00096_64x32"
+  ],
+  "donor": null,
+  "png": null,
+  "mode": "frame",
+  "text": null,
+  "fn": "tuto_highlight",
+  "note": "1DX 시범 (f0 copy) + 3DX f1 yellow face"
+ },
+ {
+  "dat": "KUI",
+  "obj": "ko_ui_jump_JP_ja",
+  "frames": [
+   0
+  ],
+  "regions": [
+   "b00000_64x32"
+  ],
+  "donor": [
+   "KUI",
+   "ko_ui_jump_KR_ko",
+   0
+  ],
+  "png": null,
+  "mode": "frame",
+  "text": null,
+  "fn": null,
+  "note": null
+ },
+ {
+  "dat": "KUI",
+  "obj": "ko_ui_statname_JP_ja",
+  "frames": [
+   8
+  ],
+  "regions": [
+   "b00000_64x32",
+   "b00040_64x32"
+  ],
+  "donor": [
+   "KUI",
+   "ko_ui_statname_KR_ko",
+   8
+  ],
+  "png": null,
+  "mode": "text",
+  "text": null,
+  "fn": null,
+  "note": null
+ },
+ {
+  "dat": "KUI",
+  "obj": "ko_ui_statname_JP_ja",
+  "frames": [
+   9
+  ],
+  "regions": [
+   "b00000_64x32",
+   "b00040_64x32"
+  ],
+  "donor": [
+   "KUI",
+   "ko_ui_statname_KR_ko",
+   9
+  ],
+  "png": null,
+  "mode": "text",
+  "text": null,
+  "fn": null,
+  "note": null
+ },
+ {
+  "dat": "KUI",
+  "obj": "ko_ui_statname_JP_ja",
+  "frames": [
+   10
+  ],
+  "regions": [
+   "b00092_64x32",
+   "b00124_64x32"
+  ],
+  "donor": [
+   "KUI",
+   "ko_ui_statname_KR_ko",
+   10
+  ],
+  "png": null,
+  "mode": "text",
+  "text": null,
+  "fn": null,
+  "note": null
+ },
+ {
+  "dat": "KUI",
+  "obj": "ko_ui_statname_JP_ja",
+  "frames": [
+   11
+  ],
+  "regions": [
+   "b00092_64x32",
+   "b00124_64x32"
+  ],
+  "donor": [
+   "KUI",
+   "ko_ui_statname_KR_ko",
+   11
+  ],
+  "png": null,
+  "mode": "text",
+  "text": null,
+  "fn": null,
+  "note": null
+ },
+ {
+  "dat": "KUI",
+  "obj": "ko_ui_statname_JP_ja",
+  "frames": [
+   6
+  ],
+  "regions": [
+   "b00276_64x32"
+  ],
+  "donor": null,
+  "png": null,
+  "mode": "text",
+  "text": null,
+  "fn": "gdh_text",
+  "note": "3DX G·D + 1DX H"
+ },
+ {
+  "dat": "KUI",
+  "obj": "ko_ui_statname_JP_ja",
+  "frames": [
+   7
+  ],
+  "regions": [
+   "b00276_64x32"
+  ],
+  "donor": null,
+  "png": null,
+  "mode": "text",
+  "text": null,
+  "fn": "gdh_text",
+  "note": "3DX G·D + 1DX H"
+ },
+ {
+  "dat": "KUI",
+  "obj": "ko_ui_fukubikiblock_JP_ja",
+  "frames": [
+   13
+  ],
+  "regions": [
+   "b00608_64x32",
+   "b00640_64x32"
+  ],
+  "donor": [
+   "KUI",
+   "ko_ui_fukubikiblock_KR_ko",
+   10
+  ],
+  "png": null,
+  "mode": "text",
+  "text": null,
+  "fn": null,
+  "note": null
+ },
+ {
+  "dat": "KUI",
+  "obj": "ko_ui_fukubikiblock_JP_ja",
+  "frames": [
+   14
+  ],
+  "regions": [
+   "b00608_64x32",
+   "b00640_64x32"
+  ],
+  "donor": [
+   "KUI",
+   "ko_ui_fukubikiblock_KR_ko",
+   11
+  ],
+  "png": null,
+  "mode": "text",
+  "text": null,
+  "fn": null,
+  "note": null
+ },
+ {
+  "dat": "KUI",
+  "obj": "ko_ui_fukubikiblock_JP_ja",
+  "frames": [
+   15
+  ],
+  "regions": [
+   "b00736_64x32",
+   "b00768_64x32"
+  ],
+  "donor": [
+   "KUI",
+   "ko_ui_fukubikiblock_KR_ko",
+   12
+  ],
+  "png": null,
+  "mode": "text",
+  "text": null,
+  "fn": null,
+  "note": null
+ },
+ {
+  "dat": "KUI",
+  "obj": "ko_ui_fukubikiblock_JP_ja",
+  "frames": [
+   16
+  ],
+  "regions": [
+   "b00736_64x32",
+   "b00768_64x32"
+  ],
+  "donor": [
+   "KUI",
+   "ko_ui_fukubikiblock_KR_ko",
+   13
+  ],
+  "png": null,
+  "mode": "text",
+  "text": null,
+  "fn": null,
+  "note": null
+ },
+ {
+  "dat": "KUI",
+  "obj": "ko_ui_fukubikiblock_JP_ja",
+  "frames": [
+   23
+  ],
+  "regions": [
+   "b01184_64x32",
+   "b01216_64x32"
+  ],
+  "donor": [
+   "KUI",
+   "ko_ui_fukubikiblock_KR_ko",
+   20
+  ],
+  "png": null,
+  "mode": "text",
+  "text": null,
+  "fn": null,
+  "note": null
+ },
+ {
+  "dat": "KUI",
+  "obj": "ko_ui_fukubikiblock_JP_ja",
+  "frames": [
+   24
+  ],
+  "regions": [
+   "b01312_64x32",
+   "b01344_64x32"
+  ],
+  "donor": [
+   "KUI",
+   "ko_ui_fukubikiblock_KR_ko",
+   21
+  ],
+  "png": null,
+  "mode": "text",
+  "text": null,
+  "fn": null,
+  "note": null
+ },
+ {
+  "dat": "KUI",
+  "obj": "ko_ui_fukubikiblock_JP_ja",
+  "frames": [
+   25
+  ],
+  "regions": [
+   "b01440_64x32",
+   "b01472_64x32"
+  ],
+  "donor": [
+   "KUI",
+   "ko_ui_fukubikiblock_KR_ko",
+   22
+  ],
+  "png": null,
+  "mode": "text",
+  "text": null,
+  "fn": null,
+  "note": null
+ },
+ {
+  "dat": "KUI",
+  "obj": "ko_ui_fukubikiblock_JP_ja",
+  "frames": [
+   26
+  ],
+  "regions": [
+   "b01056_64x32",
+   "b01088_64x32"
+  ],
+  "donor": [
+   "KUI",
+   "ko_ui_fukubikiblock_KR_ko",
+   19
+  ],
+  "png": null,
+  "mode": "text",
+  "text": null,
+  "fn": null,
+  "note": null
+ },
+ {
+  "dat": "BUI",
+  "obj": "bui_score_JP_ja",
+  "frames": [
+   11
+  ],
+  "regions": [
+   "b00224_32x16",
+   "b00232_32x16",
+   "b00240_32x16"
+  ],
+  "donor": null,
+  "png": null,
+  "mode": "text",
+  "text": "콜레미터",
+  "fn": null,
+  "note": null
+ },
+ {
+  "dat": "BUI",
+  "obj": "bui_sys_badstatname_JP_ja",
+  "frames": [
+   3
+  ],
+  "regions": [
+   "b00212_64x32",
+   "b00244_64x32"
+  ],
+  "donor": null,
+  "png": null,
+  "mode": "text",
+  "text": "감기",
+  "fn": null,
+  "note": null
+ },
+ {
+  "dat": "BUI",
+  "obj": "bui_sys_badstatname_JP_ja",
+  "frames": [
+   11
+  ],
+  "regions": [
+   "b00560_64x32",
+   "b00592_64x32"
+  ],
+  "donor": null,
+  "png": null,
+  "mode": "text",
+  "text": "분노",
+  "fn": null,
+  "note": null
+ },
+ {
+  "dat": "BUI",
+  "obj": "bui_sys_badstatname_JP_ja",
+  "frames": [
+   12
+  ],
+  "regions": [
+   "b00624_64x32",
+   "b00656_64x32"
+  ],
+  "donor": null,
+  "png": null,
+  "mode": "text",
+  "text": "필살",
+  "fn": null,
+  "note": null
+ },
+ {
+  "dat": "BUI",
+  "obj": "bui_sys_block_name_JP_ja",
+  "frames": [
+   2
+  ],
+  "regions": [
+   "b00200_64x32",
+   "b00232_64x32",
+   "b00264_64x32"
+  ],
+  "donor": null,
+  "png": null,
+  "mode": "frame",
+  "text": "스페셜 어택",
+  "fn": null,
+  "note": null
+ },
+ {
+  "dat": "BUI",
+  "obj": "bui_sys_block_name_JP_ja",
+  "frames": [
+   5
+  ],
+  "regions": [
+   "b00680_64x32",
+   "b00712_64x32",
+   "b00744_64x32"
+  ],
+  "donor": null,
+  "png": null,
+  "mode": "frame",
+  "text": "펀치",
+  "fn": null,
+  "note": null
+ },
+ {
+  "dat": "BUI",
+  "obj": "bui_sys_block_name_JP_ja",
+  "frames": [
+   6
+  ],
+  "regions": [
+   "b00776_64x32",
+   "b00808_64x32",
+   "b00840_64x32"
+  ],
+  "donor": null,
+  "png": null,
+  "mode": "frame",
+  "text": "파이어",
+  "fn": null,
+  "note": null
+ },
+ {
+  "dat": "BUI",
+  "obj": "bui_sys_block_name_JP_ja",
+  "frames": [
+   7
+  ],
+  "regions": [
+   "b00872_64x32",
+   "b00904_64x32",
+   "b00936_64x32"
+  ],
+  "donor": null,
+  "png": null,
+  "mode": "frame",
+  "text": "스페셜 어택",
+  "fn": null,
+  "note": null
+ },
+ {
+  "dat": "BUI",
+  "obj": "bui_sys_block_name_JP_ja",
+  "frames": [
+   9
+  ],
+  "regions": [
+   "b00968_64x32",
+   "b01000_64x32",
+   "b01032_64x32"
+  ],
+  "donor": null,
+  "png": null,
+  "mode": "frame",
+  "text": "배큐엄",
+  "fn": null,
+  "note": null
+ },
+ {
+  "dat": "BUI",
+  "obj": "bui_sys_block_name_JP_ja",
+  "frames": [
+   10
+  ],
+  "regions": [
+   "b00488_64x32",
+   "b00520_64x32",
+   "b00552_64x32"
+  ],
+  "donor": null,
+  "png": null,
+  "mode": "frame",
+  "text": "가이드",
+  "fn": null,
+  "note": null
+ },
+ {
+  "dat": "BUI",
+  "obj": "bui_sys_block_name_JP_ja",
+  "frames": [
+   11
+  ],
+  "regions": [
+   "b01064_64x32",
+   "b01096_64x32",
+   "b01128_64x32"
+  ],
+  "donor": null,
+  "png": null,
+  "mode": "frame",
+  "text": "힌트",
+  "fn": null,
+  "note": null
+ },
+ {
+  "dat": "BUI",
+  "obj": "bui_sys_button_JP_ja",
+  "frames": [
+   0,
+   1
+  ],
+  "regions": [
+   "b00000_64x32",
+   "b00032_64x32"
+  ],
+  "donor": null,
+  "png": null,
+  "mode": "text",
+  "text": "뒤로",
+  "fn": null,
+  "note": null
+ },
+ {
+  "dat": "BUI",
+  "obj": "bui_sys_button_JP_ja",
+  "frames": [
+   2
+  ],
+  "regions": [
+   "b00452_64x32",
+   "b00484_64x32"
+  ],
+  "donor": null,
+  "png": null,
+  "mode": "text",
+  "text": "이지 모드",
+  "fn": null,
+  "note": null
+ },
+ {
+  "dat": "BUI",
+  "obj": "bui_sys_button_JP_ja",
+  "frames": [
+   3,
+   4
+  ],
+  "regions": [
+   "b00160_64x32",
+   "b00192_64x32"
+  ],
+  "donor": null,
+  "png": null,
+  "mode": "text",
+  "text": "긴급 가드",
+  "fn": null,
+  "note": null
+ },
+ {
+  "dat": "BUI",
+  "obj": "bui_sys_button_JP_ja",
+  "frames": [
+   5
+  ],
+  "regions": [
+   "b00260_64x32",
+   "b00292_64x32"
+  ],
+  "donor": null,
+  "png": null,
+  "mode": "text",
+  "text": "난이도",
+  "fn": null,
+  "note": null
+ },
+ {
+  "dat": "BUI",
+  "obj": "bui_sys_button_JP_ja",
+  "frames": [
+   6
+  ],
+  "regions": [
+   "b00388_32x16",
+   "b00396_32x16"
+  ],
+  "donor": null,
+  "png": null,
+  "mode": "frame",
+  "text": "보통",
+  "fn": null,
+  "note": null
+ },
+ {
+  "dat": "BUI",
+  "obj": "bui_sys_button_JP_ja",
+  "frames": [
+   7
+  ],
+  "regions": [
+   "b00404_32x16",
+   "b00412_32x16"
+  ],
+  "donor": null,
+  "png": null,
+  "mode": "frame",
+  "text": "보통",
+  "fn": null,
+  "note": null
+ },
+ {
+  "dat": "BUI",
+  "obj": "bui_sys_button_JP_ja",
+  "frames": [
+   8
+  ],
+  "regions": [
+   "b00420_32x16",
+   "b00428_32x16"
+  ],
+  "donor": null,
+  "png": null,
+  "mode": "frame",
+  "text": "쉬움",
+  "fn": null,
+  "note": null
+ },
+ {
+  "dat": "BUI",
+  "obj": "bui_sys_button_JP_ja",
+  "frames": [
+   9
+  ],
+  "regions": [
+   "b00436_32x16",
+   "b00444_32x16"
+  ],
+  "donor": null,
+  "png": null,
+  "mode": "frame",
+  "text": "쉬움",
+  "fn": null,
+  "note": null
+ },
+ {
+  "dat": "BUI",
+  "obj": "bui_sys_button_JP_ja",
+  "frames": [
+   10,
+   11
+  ],
+  "regions": [
+   "b00096_32x16",
+   "b00104_32x16",
+   "b00112_32x16",
+   "b00120_32x16"
+  ],
+  "donor": null,
+  "png": null,
+  "mode": "text",
+  "text": "연습 모드",
+  "fn": null,
+  "note": null
+ },
+ {
+  "dat": "BUI",
+  "obj": "bui_sys_button_JP_ja",
+  "frames": [
+   12,
+   13
+  ],
+  "regions": [
+   "b00224_32x16",
+   "b00232_32x16",
+   "b00240_32x16",
+   "b00248_32x16"
+  ],
+  "donor": null,
+  "png": null,
+  "mode": "text",
+  "text": "시범 모드",
+  "fn": null,
+  "note": null
+ },
+ {
+  "dat": "BUI",
+  "obj": "bui_sys_button_JP_ja",
+  "frames": [
+   14,
+   15,
+   18,
+   19
+  ],
+  "regions": [
+   "b00548_32x16",
+   "b00556_32x16",
+   "b00564_32x16",
+   "b00572_32x16"
+  ],
+  "donor": null,
+  "png": null,
+  "mode": "text",
+  "text": "시범",
+  "fn": null,
+  "note": null
+ },
+ {
+  "dat": "BUI",
+  "obj": "bui_sys_button_JP_ja",
+  "frames": [
+   16,
+   17,
+   20
+  ],
+  "regions": [
+   "b00708_32x16",
+   "b00716_32x16",
+   "b00724_32x16",
+   "b00732_32x16"
+  ],
+  "donor": null,
+  "png": null,
+  "mode": "text",
+  "text": "연습",
+  "fn": null,
+  "note": null
+ },
+ {
+  "dat": "BUI",
+  "obj": "bui_touch_start_JP_ja",
+  "frames": [
+   0,
+   1,
+   2,
+   3,
+   4
+  ],
+  "regions": [
+   "b01024_64x32",
+   "b01088_64x32",
+   "b01152_64x32"
+  ],
+  "donor": null,
+  "png": null,
+  "mode": "text",
+  "text": "터치펜을\n꺼내 주세요",
+  "fn": null,
+  "note": null
+ },
+ {
+  "dat": "FUI",
+  "obj": "fui_touch_start_JP_ja",
+  "frames": [
+   0,
+   1,
+   2,
+   3,
+   4
+  ],
+  "regions": [
+   "b01024_64x32",
+   "b01088_64x32",
+   "b01152_64x32"
+  ],
+  "donor": null,
+  "png": null,
+  "mode": "text",
+  "text": "터치펜을\n꺼내 주세요",
+  "fn": null,
+  "note": null
+ },
+ {
+  "dat": "Menu",
+  "obj": "m_touch_start_JP_ja",
+  "frames": [
+   0,
+   1,
+   2,
+   3,
+   4
+  ],
+  "regions": [
+   "b01024_64x32",
+   "b01088_64x32",
+   "b01152_64x32"
+  ],
+  "donor": null,
+  "png": null,
+  "mode": "text",
+  "text": "터치펜을\n꺼내 주세요",
+  "fn": null,
+  "note": null
+ },
+ {
+  "dat": "FUI",
+  "obj": "fui_bodyrot_JP_ja",
+  "frames": [
+   0
+  ],
+  "regions": [
+   "b00000_64x64",
+   "b00064_64x64"
+  ],
+  "donor": null,
+  "png": null,
+  "mode": "frame",
+  "text": "본체를 세로로\n바꿔 들어 주세요",
+  "fn": null,
+  "note": null
+ },
+ {
+  "dat": "Menu",
+  "obj": "m_bodyrot_JP_ja",
+  "frames": [
+   0
+  ],
+  "regions": [
+   "b00000_64x64",
+   "b00064_64x64"
+  ],
+  "donor": null,
+  "png": null,
+  "mode": "frame",
+  "text": "본체를 세로로\n바꿔 들어 주세요",
+  "fn": null,
+  "note": null
+ },
+ {
+  "dat": "KUI",
+  "obj": "ko_ui_change_JP_ja",
+  "frames": [
+   0
+  ],
+  "regions": [
+   "b00000_64x32"
+  ],
+  "donor": null,
+  "png": null,
+  "mode": "frame",
+  "text": "전환",
+  "fn": null,
+  "note": null
+ },
+ {
+  "dat": "KUI",
+  "obj": "ko_ui_return_JP_ja",
+  "frames": [
+   0
+  ],
+  "regions": [
+   "b00000_64x32"
+  ],
+  "donor": null,
+  "png": null,
+  "mode": "frame",
+  "text": "되돌리기",
+  "fn": null,
+  "note": null
+ },
+ {
+  "dat": "KUI",
+  "obj": "ko_ui_onemore_JP_ja",
+  "frames": [
+   0
+  ],
+  "regions": [
+   "b00000_64x32",
+   "b00032_64x32"
+  ],
+  "donor": null,
+  "png": null,
+  "mode": "frame",
+  "text": "결정",
+  "fn": null,
+  "note": null
+ },
+ {
+  "dat": "KUI",
+  "obj": "ko_ui_onemore_JP_ja",
+  "frames": [
+   1
+  ],
+  "regions": [
+   "b00064_64x32",
+   "b00096_64x32"
+  ],
+  "donor": null,
+  "png": null,
+  "mode": "frame",
+  "text": "다시 한번",
+  "fn": null,
+  "note": null
+ },
+ {
+  "dat": "KUI",
+  "obj": "ko_ui_special_JP_ja",
+  "frames": [
+   11
+  ],
+  "regions": [
+   "b00192_64x32"
+  ],
+  "donor": null,
+  "png": null,
+  "mode": "frame",
+  "text": "앞으로",
+  "fn": null,
+  "note": null
+ }
+]

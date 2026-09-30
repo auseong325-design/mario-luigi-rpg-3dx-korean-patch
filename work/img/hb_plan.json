@@ -1,0 +1,3602 @@
+{
+ "items": [
+  {
+   "id": "HB/JP_ja/cyorometer.arc.z:s_ui_cyorometer_base",
+   "arc": "HB/JP_ja/cyorometer.arc.z",
+   "name": "s_ui_cyorometer_base",
+   "fmt": "ETC1A4",
+   "w": 64,
+   "h": 64,
+   "png": "work/img/hb/JP_ja_cyorometer/s_ui_cyorometer_base.png",
+   "hash": "498d5f8e",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/JP_ja/cyorometer.arc.z:s_ui_cyorometer_distance",
+   "arc": "HB/JP_ja/cyorometer.arc.z",
+   "name": "s_ui_cyorometer_distance",
+   "fmt": "ETC1A4",
+   "w": 64,
+   "h": 16,
+   "png": "work/img/hb/JP_ja_cyorometer/s_ui_cyorometer_distance.png",
+   "hash": "4fa8771e",
+   "action": "replace",
+   "jp": "チョロメートル",
+   "ko": "쪼르미터",
+   "ko_basis": "HugeBattle#69 「약 100쪼르미터!」",
+   "family": "hb_white_outline",
+   "kind": "다",
+   "ref_1dx": null,
+   "box": {
+    "ink_box": [
+     2,
+     3,
+     61,
+     14
+    ],
+    "fill_box": [
+     5,
+     6,
+     59,
+     12
+    ],
+    "lines": 1,
+    "line_rows": [
+     [
+      6,
+      12
+     ]
+    ],
+    "fill_height": 7,
+    "align": "center",
+    "outline_px": 2.24,
+    "stroke_px": 2.0,
+    "fill_top": [
+     229,
+     226,
+     226
+    ],
+    "fill_mid": [
+     198,
+     198,
+     198
+    ],
+    "fill_bottom": [
+     160,
+     155,
+     155
+    ],
+    "outline_rgb": [
+     21,
+     16,
+     16
+    ],
+    "soft_edge": true
+   },
+   "erased_png": "work/img/hb_erase/s_ui_cyorometer_distance.png"
+  },
+  {
+   "id": "HB/JP_ja/cyorometer.arc.z:s_ui_cyorometer_station",
+   "arc": "HB/JP_ja/cyorometer.arc.z",
+   "name": "s_ui_cyorometer_station",
+   "fmt": "ETC1A4",
+   "w": 64,
+   "h": 32,
+   "png": "work/img/hb/JP_ja_cyorometer/s_ui_cyorometer_station.png",
+   "hash": "58581d41",
+   "action": "replace",
+   "jp": "駅まで",
+   "ko": "역까지",
+   "ko_basis": "HugeBattle#69 「다리 앞 역까지의 거리는…」",
+   "family": "hb_white_outline",
+   "kind": "다",
+   "ref_1dx": null,
+   "box": {
+    "ink_box": [
+     11,
+     7,
+     51,
+     23
+    ],
+    "fill_box": [
+     14,
+     10,
+     48,
+     20
+    ],
+    "lines": 1,
+    "line_rows": [
+     [
+      10,
+      20
+     ]
+    ],
+    "fill_height": 11,
+    "align": "center",
+    "outline_px": 3.16,
+    "stroke_px": 2.0,
+    "fill_top": [
+     174,
+     174,
+     174
+    ],
+    "fill_mid": [
+     218,
+     218,
+     218
+    ],
+    "fill_bottom": [
+     189,
+     187,
+     187
+    ],
+    "outline_rgb": [
+     22,
+     17,
+     17
+    ],
+    "soft_edge": false
+   },
+   "erased_png": "work/img/hb_erase/s_ui_cyorometer_station.png"
+  },
+  {
+   "id": "HB/JP_ja/demoskip.arc.z:ja_sentaku_no",
+   "arc": "HB/JP_ja/demoskip.arc.z",
+   "name": "ja_sentaku_no",
+   "fmt": "ETC1A4",
+   "w": 128,
+   "h": 64,
+   "png": "work/img/hb/JP_ja_demoskip/ja_sentaku_no.png",
+   "hash": "c5bf815d",
+   "action": "replace",
+   "jp": "いいえ",
+   "ko": "아니요",
+   "ko_basis": "선택지 표준 (Menu#157 등 「아니요/예」)",
+   "family": "hb_white_outline",
+   "kind": "다",
+   "ref_1dx": null,
+   "box": {
+    "ink_box": [
+     38,
+     22,
+     89,
+     40
+    ],
+    "fill_box": [
+     40,
+     24,
+     87,
+     37
+    ],
+    "lines": 1,
+    "line_rows": [
+     [
+      24,
+      37
+     ]
+    ],
+    "fill_height": 14,
+    "align": "center",
+    "outline_px": 2.24,
+    "stroke_px": 4.0,
+    "fill_top": [
+     181,
+     181,
+     181
+    ],
+    "fill_mid": [
+     231,
+     231,
+     230
+    ],
+    "fill_bottom": [
+     231,
+     231,
+     231
+    ],
+    "outline_rgb": [
+     25,
+     17,
+     17
+    ],
+    "soft_edge": true
+   },
+   "erased_png": "work/img/hb_erase/ja_sentaku_no.png"
+  },
+  {
+   "id": "HB/JP_ja/demoskip.arc.z:i_ui_demoskip01a",
+   "arc": "HB/JP_ja/demoskip.arc.z",
+   "name": "i_ui_demoskip01a",
+   "fmt": "ETC1A4",
+   "w": 128,
+   "h": 64,
+   "png": "work/img/hb/JP_ja_demoskip/i_ui_demoskip01a.png",
+   "hash": "f4aec673",
+   "action": "replace",
+   "jp": "スキップ",
+   "ko": "건너뛰기",
+   "ko_basis": "HugeBattle#108 「배틀을 건너뛰고」",
+   "family": "hb_white_outline",
+   "kind": "다",
+   "ref_1dx": null,
+   "box": {
+    "ink_box": [
+     35,
+     23,
+     91,
+     39
+    ],
+    "fill_box": [
+     38,
+     25,
+     89,
+     36
+    ],
+    "lines": 1,
+    "line_rows": [
+     [
+      25,
+      36
+     ]
+    ],
+    "fill_height": 12,
+    "align": "center",
+    "outline_px": 2.24,
+    "stroke_px": 4.0,
+    "fill_top": [
+     197,
+     197,
+     189
+    ],
+    "fill_mid": [
+     230,
+     230,
+     230
+    ],
+    "fill_bottom": [
+     233,
+     231,
+     231
+    ],
+    "outline_rgb": [
+     20,
+     16,
+     16
+    ],
+    "soft_edge": true
+   },
+   "erased_png": "work/img/hb_erase/i_ui_demoskip01a.png"
+  },
+  {
+   "id": "HB/JP_ja/dpunch.arc.z:ja_mukaeute_text",
+   "arc": "HB/JP_ja/dpunch.arc.z",
+   "name": "ja_mukaeute_text",
+   "fmt": "ETC1A4",
+   "w": 256,
+   "h": 32,
+   "png": "work/img/hb/JP_ja_dpunch/ja_mukaeute_text.png",
+   "hash": "279fa0df",
+   "action": "replace",
+   "jp": "むかえうて！",
+   "ko": "맞받아쳐!",
+   "ko_basis": "HugeBattle#6 「액션으로 맞받아쳐요」 (명령형)",
+   "family": "hb_white_outline",
+   "kind": "다",
+   "ref_1dx": null,
+   "box": {
+    "ink_box": [
+     69,
+     5,
+     186,
+     29
+    ],
+    "fill_box": [
+     72,
+     8,
+     182,
+     26
+    ],
+    "lines": 1,
+    "line_rows": [
+     [
+      8,
+      26
+     ]
+    ],
+    "fill_height": 19,
+    "align": "center",
+    "outline_px": 3.16,
+    "stroke_px": 4.0,
+    "fill_top": [
+     156,
+     156,
+     156
+    ],
+    "fill_mid": [
+     241,
+     241,
+     241
+    ],
+    "fill_bottom": [
+     168,
+     168,
+     168
+    ],
+    "outline_rgb": [
+     23,
+     18,
+     18
+    ],
+    "soft_edge": false
+   },
+   "erased_png": "work/img/hb_erase/ja_mukaeute_text.png"
+  },
+  {
+   "id": "HB/JP_ja/dpunch.arc.z:ja_slide_text",
+   "arc": "HB/JP_ja/dpunch.arc.z",
+   "name": "ja_slide_text",
+   "fmt": "ETC1A4",
+   "w": 256,
+   "h": 32,
+   "png": "work/img/hb/JP_ja_dpunch/ja_slide_text.png",
+   "hash": "3f5a165b",
+   "action": "replace",
+   "jp": "スライド！",
+   "ko": "슬라이드!",
+   "ko_basis": "glossary スライド=슬라이드",
+   "family": "hb_white_outline",
+   "kind": "다",
+   "ref_1dx": null,
+   "box": {
+    "ink_box": [
+     79,
+     5,
+     176,
+     29
+    ],
+    "fill_box": [
+     82,
+     8,
+     172,
+     26
+    ],
+    "lines": 1,
+    "line_rows": [
+     [
+      8,
+      26
+     ]
+    ],
+    "fill_height": 19,
+    "align": "center",
+    "outline_px": 3.16,
+    "stroke_px": 4.0,
+    "fill_top": [
+     183,
+     183,
+     183
+    ],
+    "fill_mid": [
+     248,
+     248,
+     248
+    ],
+    "fill_bottom": [
+     163,
+     163,
+     154
+    ],
+    "outline_rgb": [
+     23,
+     18,
+     17
+    ],
+    "soft_edge": false
+   },
+   "erased_png": "work/img/hb_erase/ja_slide_text.png"
+  },
+  {
+   "id": "HB/JP_ja/dpunch.arc.z:ui_arrow_03a",
+   "arc": "HB/JP_ja/dpunch.arc.z",
+   "name": "ui_arrow_03a",
+   "fmt": "ETC1A4",
+   "w": 256,
+   "h": 32,
+   "png": "work/img/hb/JP_ja_dpunch/ui_arrow_03a.png",
+   "hash": "9328b043",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/JP_ja/dpunch.arc.z:ja_renzoku_slide_text",
+   "arc": "HB/JP_ja/dpunch.arc.z",
+   "name": "ja_renzoku_slide_text",
+   "fmt": "ETC1A4",
+   "w": 256,
+   "h": 32,
+   "png": "work/img/hb/JP_ja_dpunch/ja_renzoku_slide_text.png",
+   "hash": "e4740fa0",
+   "action": "replace",
+   "jp": "れんぞくスライド！",
+   "ko": "연속 슬라이드!",
+   "ko_basis": "連続=연속 (b_sys#523 연속 밟기) + 슬라이드",
+   "family": "hb_white_outline",
+   "kind": "다",
+   "ref_1dx": null,
+   "box": {
+    "ink_box": [
+     39,
+     4,
+     216,
+     28
+    ],
+    "fill_box": [
+     42,
+     7,
+     212,
+     25
+    ],
+    "lines": 1,
+    "line_rows": [
+     [
+      7,
+      25
+     ]
+    ],
+    "fill_height": 19,
+    "align": "center",
+    "outline_px": 3.16,
+    "stroke_px": 4.0,
+    "fill_top": [
+     170,
+     159,
+     159
+    ],
+    "fill_mid": [
+     248,
+     247,
+     247
+    ],
+    "fill_bottom": [
+     159,
+     157,
+     157
+    ],
+    "outline_rgb": [
+     23,
+     18,
+     18
+    ],
+    "soft_edge": false
+   },
+   "erased_png": "work/img/hb_erase/ja_renzoku_slide_text.png"
+  },
+  {
+   "id": "HB/JP_ja/fireball.arc.z:ja_touch_text",
+   "arc": "HB/JP_ja/fireball.arc.z",
+   "name": "ja_touch_text",
+   "fmt": "ETC1A4",
+   "w": 256,
+   "h": 32,
+   "png": "work/img/hb/JP_ja_fireball/ja_touch_text.png",
+   "hash": "5db459a5",
+   "action": "replace",
+   "jp": "タッチ！",
+   "ko": "터치!",
+   "ko_basis": "glossary タッチ=터치",
+   "family": "hb_white_outline",
+   "kind": "다",
+   "ref_1dx": null,
+   "box": {
+    "ink_box": [
+     89,
+     5,
+     166,
+     29
+    ],
+    "fill_box": [
+     92,
+     8,
+     162,
+     26
+    ],
+    "lines": 1,
+    "line_rows": [
+     [
+      8,
+      26
+     ]
+    ],
+    "fill_height": 19,
+    "align": "center",
+    "outline_px": 3.16,
+    "stroke_px": 4.0,
+    "fill_top": [
+     172,
+     172,
+     172
+    ],
+    "fill_mid": [
+     239,
+     239,
+     239
+    ],
+    "fill_bottom": [
+     164,
+     164,
+     160
+    ],
+    "outline_rgb": [
+     24,
+     18,
+     18
+    ],
+    "soft_edge": false
+   },
+   "erased_png": "work/img/hb_erase/ja_touch_text.png"
+  },
+  {
+   "id": "HB/JP_ja/fireball.arc.z:ui_fb_base_01a",
+   "arc": "HB/JP_ja/fireball.arc.z",
+   "name": "ui_fb_base_01a",
+   "fmt": "ETC1A4",
+   "w": 128,
+   "h": 256,
+   "png": "work/img/hb/JP_ja_fireball/ui_fb_base_01a.png",
+   "hash": "897b16f0",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/JP_ja/fireball.arc.z:ui_fb_line_01a",
+   "arc": "HB/JP_ja/fireball.arc.z",
+   "name": "ui_fb_line_01a",
+   "fmt": "ETC1A4",
+   "w": 16,
+   "h": 16,
+   "png": "work/img/hb/JP_ja_fireball/ui_fb_line_01a.png",
+   "hash": "ecdd2819",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/JP_ja/get.arc.z:text_comment_get01a",
+   "arc": "HB/JP_ja/get.arc.z",
+   "name": "text_comment_get01a",
+   "fmt": "ETC1A4",
+   "w": 256,
+   "h": 64,
+   "png": "work/img/hb/JP_ja_get/text_comment_get01a.png",
+   "hash": "02bd0d5c",
+   "action": "keep",
+   "jp": "GET!",
+   "ko": "GET!",
+   "notes": "영어 원문 — 0장 규칙: 1DX에 대응 없음 → 영어 유지, 리드 확인"
+  },
+  {
+   "id": "HB/JP_ja/kyusai.arc.z:ui_sentaku_button_01a",
+   "arc": "HB/JP_ja/kyusai.arc.z",
+   "name": "ui_sentaku_button_01a",
+   "fmt": "ETC1A4",
+   "w": 16,
+   "h": 64,
+   "png": "work/img/hb/JP_ja_kyusai/ui_sentaku_button_01a.png",
+   "hash": "40991d8c",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/JP_ja/kyusai.arc.z:ja_modoru_text",
+   "arc": "HB/JP_ja/kyusai.arc.z",
+   "name": "ja_modoru_text",
+   "fmt": "ETC1A4",
+   "w": 256,
+   "h": 32,
+   "png": "work/img/hb/JP_ja_kyusai/ja_modoru_text.png",
+   "hash": "4e303d00",
+   "action": "replace",
+   "jp": "もどる",
+   "ko": "돌아가기",
+   "ko_basis": "b_sys#1821 Retry_easymode_back",
+   "family": "hb_white_outline",
+   "kind": "다",
+   "ref_1dx": null,
+   "box": {
+    "ink_box": [
+     103,
+     6,
+     152,
+     25
+    ],
+    "fill_box": [
+     105,
+     8,
+     150,
+     22
+    ],
+    "lines": 1,
+    "line_rows": [
+     [
+      8,
+      22
+     ]
+    ],
+    "fill_height": 15,
+    "align": "center",
+    "outline_px": 2.24,
+    "stroke_px": 4.0,
+    "fill_top": [
+     232,
+     232,
+     232
+    ],
+    "fill_mid": [
+     235,
+     235,
+     235
+    ],
+    "fill_bottom": [
+     234,
+     234,
+     234
+    ],
+    "outline_rgb": [
+     22,
+     17,
+     17
+    ],
+    "soft_edge": false
+   },
+   "erased_png": "work/img/hb_erase/ja_modoru_text.png"
+  },
+  {
+   "id": "HB/JP_ja/kyusai.arc.z:ja_easymode_text",
+   "arc": "HB/JP_ja/kyusai.arc.z",
+   "name": "ja_easymode_text",
+   "fmt": "ETC1A4",
+   "w": 256,
+   "h": 32,
+   "png": "work/img/hb/JP_ja_kyusai/ja_easymode_text.png",
+   "hash": "4ec7fced",
+   "action": "replace",
+   "jp": "イージーモードでやりなおす",
+   "ko": "이지 모드로 다시 시작",
+   "ko_basis": "b_sys#116 / glossary",
+   "family": "hb_white_outline",
+   "kind": "다",
+   "ref_1dx": null,
+   "box": {
+    "ink_box": [
+     28,
+     6,
+     227,
+     25
+    ],
+    "fill_box": [
+     31,
+     8,
+     224,
+     22
+    ],
+    "lines": 1,
+    "line_rows": [
+     [
+      8,
+      22
+     ]
+    ],
+    "fill_height": 15,
+    "align": "center",
+    "outline_px": 2.24,
+    "stroke_px": 4.0,
+    "fill_top": [
+     205,
+     205,
+     205
+    ],
+    "fill_mid": [
+     244,
+     243,
+     243
+    ],
+    "fill_bottom": [
+     233,
+     232,
+     232
+    ],
+    "outline_rgb": [
+     22,
+     18,
+     18
+    ],
+    "soft_edge": false
+   },
+   "erased_png": "work/img/hb_erase/ja_easymode_text.png"
+  },
+  {
+   "id": "HB/JP_ja/kyusai.arc.z:ui_sentaku_button_01b",
+   "arc": "HB/JP_ja/kyusai.arc.z",
+   "name": "ui_sentaku_button_01b",
+   "fmt": "ETC1A4",
+   "w": 16,
+   "h": 64,
+   "png": "work/img/hb/JP_ja_kyusai/ui_sentaku_button_01b.png",
+   "hash": "68212dd5",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/JP_ja/kyusai.arc.z:ui_sentaku_button_03a",
+   "arc": "HB/JP_ja/kyusai.arc.z",
+   "name": "ui_sentaku_button_03a",
+   "fmt": "ETC1A4",
+   "w": 16,
+   "h": 64,
+   "png": "work/img/hb/JP_ja_kyusai/ui_sentaku_button_03a.png",
+   "hash": "71f5f726",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/JP_ja/kyusai.arc.z:ui_sentaku_button_01c",
+   "arc": "HB/JP_ja/kyusai.arc.z",
+   "name": "ui_sentaku_button_01c",
+   "fmt": "ETC1A4",
+   "w": 16,
+   "h": 64,
+   "png": "work/img/hb/JP_ja_kyusai/ui_sentaku_button_01c.png",
+   "hash": "8fa93e1e",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/JP_ja/kyusai.arc.z:ja_yarinaosu_text",
+   "arc": "HB/JP_ja/kyusai.arc.z",
+   "name": "ja_yarinaosu_text",
+   "fmt": "ETC1A4",
+   "w": 256,
+   "h": 32,
+   "png": "work/img/hb/JP_ja_kyusai/ja_yarinaosu_text.png",
+   "hash": "9701a035",
+   "action": "replace",
+   "jp": "やりなおす",
+   "ko": "다시 시작",
+   "ko_basis": "b_sys#1398 Retry_item_retry",
+   "family": "hb_white_outline",
+   "kind": "다",
+   "ref_1dx": null,
+   "box": {
+    "ink_box": [
+     87,
+     6,
+     168,
+     25
+    ],
+    "fill_box": [
+     90,
+     9,
+     165,
+     22
+    ],
+    "lines": 1,
+    "line_rows": [
+     [
+      9,
+      22
+     ]
+    ],
+    "fill_height": 14,
+    "align": "center",
+    "outline_px": 2.24,
+    "stroke_px": 4.0,
+    "fill_top": [
+     232,
+     229,
+     229
+    ],
+    "fill_mid": [
+     241,
+     241,
+     240
+    ],
+    "fill_bottom": [
+     235,
+     235,
+     235
+    ],
+    "outline_rgb": [
+     23,
+     18,
+     18
+    ],
+    "soft_edge": false
+   },
+   "erased_png": "work/img/hb_erase/ja_yarinaosu_text.png"
+  },
+  {
+   "id": "HB/JP_ja/kyusai.arc.z:ui_sentaku_button_03b",
+   "arc": "HB/JP_ja/kyusai.arc.z",
+   "name": "ui_sentaku_button_03b",
+   "fmt": "ETC1A4",
+   "w": 16,
+   "h": 64,
+   "png": "work/img/hb/JP_ja_kyusai/ui_sentaku_button_03b.png",
+   "hash": "997e076f",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/JP_ja/kyusai.arc.z:ja_title_text",
+   "arc": "HB/JP_ja/kyusai.arc.z",
+   "name": "ja_title_text",
+   "fmt": "ETC1A4",
+   "w": 256,
+   "h": 32,
+   "png": "work/img/hb/JP_ja_kyusai/ja_title_text.png",
+   "hash": "b275bb9c",
+   "action": "replace",
+   "jp": "タイトルにもどる",
+   "ko": "타이틀로 돌아가기",
+   "ko_basis": "b_sys#1694 Retry_item_back_to_title",
+   "family": "hb_white_outline",
+   "kind": "다",
+   "ref_1dx": null,
+   "box": {
+    "ink_box": [
+     65,
+     6,
+     190,
+     25
+    ],
+    "fill_box": [
+     67,
+     8,
+     188,
+     22
+    ],
+    "lines": 1,
+    "line_rows": [
+     [
+      8,
+      22
+     ]
+    ],
+    "fill_height": 15,
+    "align": "center",
+    "outline_px": 2.24,
+    "stroke_px": 4.0,
+    "fill_top": [
+     232,
+     232,
+     232
+    ],
+    "fill_mid": [
+     238,
+     238,
+     238
+    ],
+    "fill_bottom": [
+     233,
+     232,
+     232
+    ],
+    "outline_rgb": [
+     21,
+     17,
+     17
+    ],
+    "soft_edge": true
+   },
+   "erased_png": "work/img/hb_erase/ja_title_text.png"
+  },
+  {
+   "id": "HB/JP_ja/kyusai.arc.z:ja_battleskip_text",
+   "arc": "HB/JP_ja/kyusai.arc.z",
+   "name": "ja_battleskip_text",
+   "fmt": "ETC1A4",
+   "w": 256,
+   "h": 32,
+   "png": "work/img/hb/JP_ja_kyusai/ja_battleskip_text.png",
+   "hash": "c21be67d",
+   "action": "replace",
+   "jp": "バトルをスキップする",
+   "ko": "배틀 건너뛰기",
+   "ko_basis": "HugeBattle#108 「배틀을 건너뛰고」 (메뉴 항목형)",
+   "family": "hb_white_outline",
+   "kind": "다",
+   "ref_1dx": null,
+   "box": {
+    "ink_box": [
+     49,
+     6,
+     205,
+     25
+    ],
+    "fill_box": [
+     51,
+     8,
+     203,
+     22
+    ],
+    "lines": 1,
+    "line_rows": [
+     [
+      8,
+      22
+     ]
+    ],
+    "fill_height": 15,
+    "align": "center",
+    "outline_px": 2.24,
+    "stroke_px": 4.0,
+    "fill_top": [
+     169,
+     169,
+     169
+    ],
+    "fill_mid": [
+     241,
+     241,
+     241
+    ],
+    "fill_bottom": [
+     231,
+     230,
+     230
+    ],
+    "outline_rgb": [
+     23,
+     17,
+     17
+    ],
+    "soft_edge": true
+   },
+   "erased_png": "work/img/hb_erase/ja_battleskip_text.png"
+  },
+  {
+   "id": "HB/JP_ja/kyusai.arc.z:h_ui_beta_white01a",
+   "arc": "HB/JP_ja/kyusai.arc.z",
+   "name": "h_ui_beta_white01a",
+   "fmt": "L8",
+   "w": 8,
+   "h": 8,
+   "png": "work/img/hb/JP_ja_kyusai/h_ui_beta_white01a.png",
+   "hash": "c3003b76",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/JP_ja/kyusai.arc.z:ja_sentaku_no",
+   "arc": "HB/JP_ja/kyusai.arc.z",
+   "name": "ja_sentaku_no",
+   "fmt": "ETC1A4",
+   "w": 128,
+   "h": 64,
+   "png": "work/img/hb/JP_ja_demoskip/ja_sentaku_no.png",
+   "hash": "c5bf815d",
+   "dup_of": "HB/JP_ja/demoskip.arc.z:ja_sentaku_no",
+   "action": "replace",
+   "jp": "いいえ",
+   "ko": "아니요",
+   "ko_basis": "선택지 표준 (Menu#157 등 「아니요/예」)",
+   "family": "hb_white_outline",
+   "kind": "다",
+   "ref_1dx": null,
+   "box": {
+    "ink_box": [
+     38,
+     22,
+     89,
+     40
+    ],
+    "fill_box": [
+     40,
+     24,
+     87,
+     37
+    ],
+    "lines": 1,
+    "line_rows": [
+     [
+      24,
+      37
+     ]
+    ],
+    "fill_height": 14,
+    "align": "center",
+    "outline_px": 2.24,
+    "stroke_px": 4.0,
+    "fill_top": [
+     181,
+     181,
+     181
+    ],
+    "fill_mid": [
+     231,
+     231,
+     230
+    ],
+    "fill_bottom": [
+     231,
+     231,
+     231
+    ],
+    "outline_rgb": [
+     25,
+     17,
+     17
+    ],
+    "soft_edge": true
+   }
+  },
+  {
+   "id": "HB/JP_ja/kyusai.arc.z:ja_kettei_text",
+   "arc": "HB/JP_ja/kyusai.arc.z",
+   "name": "ja_kettei_text",
+   "fmt": "ETC1A4",
+   "w": 256,
+   "h": 32,
+   "png": "work/img/hb/JP_ja_kyusai/ja_kettei_text.png",
+   "hash": "d51a441c",
+   "action": "replace",
+   "jp": "けってい",
+   "ko": "결정",
+   "ko_basis": "b_sys#151 Retry_easymode_enter",
+   "family": "hb_white_outline",
+   "kind": "다",
+   "ref_1dx": null,
+   "box": {
+    "ink_box": [
+     96,
+     7,
+     158,
+     25
+    ],
+    "fill_box": [
+     98,
+     9,
+     155,
+     22
+    ],
+    "lines": 1,
+    "line_rows": [
+     [
+      9,
+      22
+     ]
+    ],
+    "fill_height": 14,
+    "align": "center",
+    "outline_px": 2.24,
+    "stroke_px": 4.0,
+    "fill_top": [
+     216,
+     216,
+     216
+    ],
+    "fill_mid": [
+     221,
+     221,
+     221
+    ],
+    "fill_bottom": [
+     219,
+     213,
+     213
+    ],
+    "outline_rgb": [
+     21,
+     17,
+     17
+    ],
+    "soft_edge": true
+   },
+   "erased_png": "work/img/hb_erase/ja_kettei_text.png"
+  },
+  {
+   "id": "HB/JP_ja/kyusai.arc.z:ui_sentaku_button_02a",
+   "arc": "HB/JP_ja/kyusai.arc.z",
+   "name": "ui_sentaku_button_02a",
+   "fmt": "ETC1A4",
+   "w": 16,
+   "h": 64,
+   "png": "work/img/hb/JP_ja_kyusai/ui_sentaku_button_02a.png",
+   "hash": "d9478a59",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/JP_ja/punch.arc.z:s_ui_sen01a",
+   "arc": "HB/JP_ja/punch.arc.z",
+   "name": "s_ui_sen01a",
+   "fmt": "ETC1",
+   "w": 32,
+   "h": 32,
+   "png": "work/img/hb/JP_ja_punch/s_ui_sen01a.png",
+   "hash": "3f1d4a1b",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/JP_ja/punch.arc.z:hayaku_slide_text",
+   "arc": "HB/JP_ja/punch.arc.z",
+   "name": "hayaku_slide_text",
+   "fmt": "ETC1A4",
+   "w": 256,
+   "h": 32,
+   "png": "work/img/hb/JP_ja_punch/hayaku_slide_text.png",
+   "hash": "b54d4d1b",
+   "action": "replace",
+   "jp": "はやくスライド！",
+   "ko": "빠르게 슬라이드!",
+   "ko_basis": "HugeBattle#112 「빠르게 슬라이드할수록 강력!」",
+   "family": "hb_white_outline",
+   "kind": "다",
+   "ref_1dx": null,
+   "box": {
+    "ink_box": [
+     49,
+     4,
+     206,
+     28
+    ],
+    "fill_box": [
+     53,
+     7,
+     202,
+     25
+    ],
+    "lines": 1,
+    "line_rows": [
+     [
+      7,
+      25
+     ]
+    ],
+    "fill_height": 19,
+    "align": "center",
+    "outline_px": 3.16,
+    "stroke_px": 4.47,
+    "fill_top": [
+     169,
+     161,
+     159
+    ],
+    "fill_mid": [
+     244,
+     244,
+     244
+    ],
+    "fill_bottom": [
+     165,
+     165,
+     165
+    ],
+    "outline_rgb": [
+     23,
+     17,
+     17
+    ],
+    "soft_edge": false
+   },
+   "erased_png": "work/img/hb_erase/hayaku_slide_text.png"
+  },
+  {
+   "id": "HB/JP_ja/result_win.arc.z:text_comment_win01a",
+   "arc": "HB/JP_ja/result_win.arc.z",
+   "name": "text_comment_win01a",
+   "fmt": "ETC1A4",
+   "w": 256,
+   "h": 64,
+   "png": "work/img/hb/JP_ja_result_win/text_comment_win01a.png",
+   "hash": "0a087772",
+   "action": "keep",
+   "jp": "WIN!",
+   "ko": "WIN!",
+   "notes": "영어 원문 — 0장 규칙: 1DX에 대응 없음 → 영어 유지, 리드 확인"
+  },
+  {
+   "id": "HB/JP_ja/rotation.arc.z:ui_boss_button_rotation",
+   "arc": "HB/JP_ja/rotation.arc.z",
+   "name": "ui_boss_button_rotation",
+   "fmt": "ETC1A4",
+   "w": 128,
+   "h": 128,
+   "png": "work/img/hb/JP_ja_rotation/ui_boss_button_rotation.png",
+   "hash": "9aa090be",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/JP_ja/rotation.arc.z:ja_e_ui_boss_rotation_text",
+   "arc": "HB/JP_ja/rotation.arc.z",
+   "name": "ja_e_ui_boss_rotation_text",
+   "fmt": "ETC1A4",
+   "w": 128,
+   "h": 32,
+   "png": "work/img/hb/JP_ja_rotation/ja_e_ui_boss_rotation_text.png",
+   "hash": "b6a182d9",
+   "action": "replace",
+   "jp": "本体をヨコに\nもちかえてください",
+   "ko": "본체를 가로로\n바꿔 들어 주세요",
+   "ko_basis": "신규(대사 번역에 없음)",
+   "family": "hb_white_outline",
+   "kind": "다",
+   "ref_1dx": null,
+   "box": {
+    "ink_box": [
+     10,
+     1,
+     116,
+     30
+    ],
+    "fill_box": [
+     12,
+     3,
+     113,
+     28
+    ],
+    "lines": 2,
+    "line_rows": [
+     [
+      3,
+      13
+     ],
+     [
+      18,
+      28
+     ]
+    ],
+    "fill_height": 26,
+    "align": "center",
+    "outline_px": 2.24,
+    "stroke_px": 2.0,
+    "fill_top": [
+     201,
+     199,
+     195
+    ],
+    "fill_mid": [
+     178,
+     178,
+     178
+    ],
+    "fill_bottom": [
+     193,
+     188,
+     186
+    ],
+    "outline_rgb": [
+     21,
+     17,
+     16
+    ],
+    "soft_edge": true
+   },
+   "erased_png": "work/img/hb_erase/ja_e_ui_boss_rotation_text.png"
+  },
+  {
+   "id": "HB/JP_ja/start.arc.z:s_ui_boss_button_start_base",
+   "arc": "HB/JP_ja/start.arc.z",
+   "name": "s_ui_boss_button_start_base",
+   "fmt": "ETC1A4",
+   "w": 128,
+   "h": 128,
+   "png": "work/img/hb/JP_ja_start/s_ui_boss_button_start_base.png",
+   "hash": "0587c73c",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/JP_ja/start.arc.z:s_ui_boss_button_start02a",
+   "arc": "HB/JP_ja/start.arc.z",
+   "name": "s_ui_boss_button_start02a",
+   "fmt": "ETC1A4",
+   "w": 128,
+   "h": 32,
+   "png": "work/img/hb/JP_ja_start/s_ui_boss_button_start02a.png",
+   "hash": "0e21dbf9",
+   "action": "keep",
+   "jp": "START",
+   "ko": "START",
+   "notes": "영어 원문 — 0장 규칙: 1DX에 대응 없음 → 영어 유지, 리드 확인"
+  },
+  {
+   "id": "HB/JP_ja/start.arc.z:ja_e_ui_boss_button_text",
+   "arc": "HB/JP_ja/start.arc.z",
+   "name": "ja_e_ui_boss_button_text",
+   "fmt": "ETC1A4",
+   "w": 128,
+   "h": 32,
+   "png": "work/img/hb/JP_ja_start/ja_e_ui_boss_button_text.png",
+   "hash": "1046e4ed",
+   "action": "replace",
+   "jp": "タッチペンを\nとりだしてください",
+   "ko": "터치펜을\n꺼내 주세요",
+   "ko_basis": "glossary タッチペン=터치펜 + 신규",
+   "family": "hb_white_outline",
+   "kind": "다",
+   "ref_1dx": null,
+   "box": {
+    "ink_box": [
+     12,
+     1,
+     116,
+     30
+    ],
+    "fill_box": [
+     14,
+     3,
+     113,
+     28
+    ],
+    "lines": 2,
+    "line_rows": [
+     [
+      3,
+      13
+     ],
+     [
+      18,
+      28
+     ]
+    ],
+    "fill_height": 26,
+    "align": "center",
+    "outline_px": 2.24,
+    "stroke_px": 2.0,
+    "fill_top": [
+     241,
+     237,
+     237
+    ],
+    "fill_mid": [
+     197,
+     195,
+     195
+    ],
+    "fill_bottom": [
+     187,
+     184,
+     184
+    ],
+    "outline_rgb": [
+     20,
+     17,
+     17
+    ],
+    "soft_edge": true
+   },
+   "erased_png": "work/img/hb_erase/ja_e_ui_boss_button_text.png"
+  },
+  {
+   "id": "HB/JP_ja/start.arc.z:s_ui_boss_button_pen",
+   "arc": "HB/JP_ja/start.arc.z",
+   "name": "s_ui_boss_button_pen",
+   "fmt": "ETC1A4",
+   "w": 16,
+   "h": 64,
+   "png": "work/img/hb/JP_ja_start/s_ui_boss_button_pen.png",
+   "hash": "3b31d4af",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/JP_ja/start.arc.z:s_ui_boss_button_start01a",
+   "arc": "HB/JP_ja/start.arc.z",
+   "name": "s_ui_boss_button_start01a",
+   "fmt": "ETC1A4",
+   "w": 128,
+   "h": 128,
+   "png": "work/img/hb/JP_ja_start/s_ui_boss_button_start01a.png",
+   "hash": "75736f2c",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/JP_ja/touchpen.arc.z:ja_renda_touch_text",
+   "arc": "HB/JP_ja/touchpen.arc.z",
+   "name": "ja_renda_touch_text",
+   "fmt": "ETC1A4",
+   "w": 256,
+   "h": 32,
+   "png": "work/img/hb/JP_ja_touchpen/ja_renda_touch_text.png",
+   "hash": "313eb8a2",
+   "action": "replace",
+   "jp": "れんだタッチ！",
+   "ko": "연타 터치!",
+   "ko_basis": "HugeBattle#45 「연타 터치와」",
+   "family": "hb_white_outline",
+   "kind": "다",
+   "ref_1dx": null,
+   "box": {
+    "ink_box": [
+     59,
+     4,
+     196,
+     28
+    ],
+    "fill_box": [
+     62,
+     7,
+     192,
+     25
+    ],
+    "lines": 1,
+    "line_rows": [
+     [
+      7,
+      25
+     ]
+    ],
+    "fill_height": 19,
+    "align": "center",
+    "outline_px": 3.16,
+    "stroke_px": 4.0,
+    "fill_top": [
+     173,
+     168,
+     168
+    ],
+    "fill_mid": [
+     234,
+     233,
+     233
+    ],
+    "fill_bottom": [
+     166,
+     166,
+     166
+    ],
+    "outline_rgb": [
+     22,
+     17,
+     17
+    ],
+    "soft_edge": false
+   },
+   "erased_png": "work/img/hb_erase/ja_renda_touch_text.png"
+  },
+  {
+   "id": "HB/JP_ja/touchpen.arc.z:ja_touch_text",
+   "arc": "HB/JP_ja/touchpen.arc.z",
+   "name": "ja_touch_text",
+   "fmt": "ETC1A4",
+   "w": 256,
+   "h": 32,
+   "png": "work/img/hb/JP_ja_fireball/ja_touch_text.png",
+   "hash": "5db459a5",
+   "dup_of": "HB/JP_ja/fireball.arc.z:ja_touch_text",
+   "action": "replace",
+   "jp": "タッチ！",
+   "ko": "터치!",
+   "ko_basis": "glossary タッチ=터치",
+   "family": "hb_white_outline",
+   "kind": "다",
+   "ref_1dx": null,
+   "box": {
+    "ink_box": [
+     89,
+     5,
+     166,
+     29
+    ],
+    "fill_box": [
+     92,
+     8,
+     162,
+     26
+    ],
+    "lines": 1,
+    "line_rows": [
+     [
+      8,
+      26
+     ]
+    ],
+    "fill_height": 19,
+    "align": "center",
+    "outline_px": 3.16,
+    "stroke_px": 4.0,
+    "fill_top": [
+     172,
+     172,
+     172
+    ],
+    "fill_mid": [
+     239,
+     239,
+     239
+    ],
+    "fill_bottom": [
+     164,
+     164,
+     160
+    ],
+    "outline_rgb": [
+     24,
+     18,
+     18
+    ],
+    "soft_edge": false
+   }
+  },
+  {
+   "id": "HB/JP_ja/ui_fa.arc.z:ja_kaiten_slide_text",
+   "arc": "HB/JP_ja/ui_fa.arc.z",
+   "name": "ja_kaiten_slide_text",
+   "fmt": "ETC1A4",
+   "w": 256,
+   "h": 32,
+   "png": "work/img/hb/JP_ja_ui_fa/ja_kaiten_slide_text.png",
+   "hash": "4e18f99a",
+   "action": "replace",
+   "jp": "かいてんスライド！",
+   "ko": "회전 슬라이드!",
+   "ko_basis": "HugeBattle#45 「회전 슬라이드 조작으로」",
+   "family": "hb_white_outline",
+   "kind": "다",
+   "ref_1dx": null,
+   "box": {
+    "ink_box": [
+     39,
+     5,
+     216,
+     29
+    ],
+    "fill_box": [
+     42,
+     8,
+     212,
+     26
+    ],
+    "lines": 1,
+    "line_rows": [
+     [
+      8,
+      26
+     ]
+    ],
+    "fill_height": 19,
+    "align": "center",
+    "outline_px": 3.16,
+    "stroke_px": 4.0,
+    "fill_top": [
+     180,
+     180,
+     180
+    ],
+    "fill_mid": [
+     247,
+     247,
+     247
+    ],
+    "fill_bottom": [
+     163,
+     157,
+     154
+    ],
+    "outline_rgb": [
+     23,
+     18,
+     17
+    ],
+    "soft_edge": false
+   },
+   "erased_png": "work/img/hb_erase/ja_kaiten_slide_text.png"
+  },
+  {
+   "id": "HB/JP_ja/ui_fa.arc.z:ui_arrow_circle_01a",
+   "arc": "HB/JP_ja/ui_fa.arc.z",
+   "name": "ui_arrow_circle_01a",
+   "fmt": "ETC1A4",
+   "w": 256,
+   "h": 128,
+   "png": "work/img/hb/JP_ja_ui_fa/ui_arrow_circle_01a.png",
+   "hash": "d18d9ff6",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/JP_ja/value.arc.z:text_comment_great_01a",
+   "arc": "HB/JP_ja/value.arc.z",
+   "name": "text_comment_great_01a",
+   "fmt": "ETC1A4",
+   "w": 256,
+   "h": 128,
+   "png": "work/img/hb/JP_ja_value/text_comment_great_01a.png",
+   "hash": "050107f2",
+   "action": "keep",
+   "jp": "GREAT!",
+   "ko": "GREAT!",
+   "notes": "영어 원문 — 0장 규칙: 1DX에 대응 없음 → 영어 유지, 리드 확인"
+  },
+  {
+   "id": "HB/JP_ja/value.arc.z:text_comment_good_01a",
+   "arc": "HB/JP_ja/value.arc.z",
+   "name": "text_comment_good_01a",
+   "fmt": "ETC1A4",
+   "w": 256,
+   "h": 128,
+   "png": "work/img/hb/JP_ja_value/text_comment_good_01a.png",
+   "hash": "13b79d64",
+   "action": "keep",
+   "jp": "GOOD!",
+   "ko": "GOOD!",
+   "notes": "영어 원문 — 0장 규칙: 1DX에 대응 없음 → 영어 유지, 리드 확인"
+  },
+  {
+   "id": "HB/JP_ja/value.arc.z:text_comment_ok_01a",
+   "arc": "HB/JP_ja/value.arc.z",
+   "name": "text_comment_ok_01a",
+   "fmt": "ETC1A4",
+   "w": 128,
+   "h": 64,
+   "png": "work/img/hb/JP_ja_value/text_comment_ok_01a.png",
+   "hash": "276cd371",
+   "action": "keep",
+   "jp": "OK",
+   "ko": "OK",
+   "notes": "영어 원문 — 0장 규칙: 1DX에 대응 없음 → 영어 유지, 리드 확인"
+  },
+  {
+   "id": "HB/JP_ja/value.arc.z:text_comment_excellent_01a",
+   "arc": "HB/JP_ja/value.arc.z",
+   "name": "text_comment_excellent_01a",
+   "fmt": "ETC1A4",
+   "w": 256,
+   "h": 128,
+   "png": "work/img/hb/JP_ja_value/text_comment_excellent_01a.png",
+   "hash": "666f3793",
+   "action": "keep",
+   "jp": "EXCELLENT!",
+   "ko": "EXCELLENT!",
+   "notes": "영어 원문 — 0장 규칙: 1DX에 대응 없음 → 영어 유지, 리드 확인"
+  },
+  {
+   "id": "HB/JP_ja/value.arc.z:text_comment_miss_01a",
+   "arc": "HB/JP_ja/value.arc.z",
+   "name": "text_comment_miss_01a",
+   "fmt": "ETC1A4",
+   "w": 256,
+   "h": 128,
+   "png": "work/img/hb/JP_ja_value/text_comment_miss_01a.png",
+   "hash": "aad56907",
+   "action": "keep",
+   "jp": "MISS...",
+   "ko": "MISS...",
+   "notes": "영어 원문 — 0장 규칙: 1DX에 대응 없음 → 영어 유지, 리드 확인"
+  },
+  {
+   "id": "HB/JP_ja/yesno.arc.z:ui_sentaku_button_03a",
+   "arc": "HB/JP_ja/yesno.arc.z",
+   "name": "ui_sentaku_button_03a",
+   "fmt": "ETC1A4",
+   "w": 16,
+   "h": 64,
+   "png": "work/img/hb/JP_ja_kyusai/ui_sentaku_button_03a.png",
+   "hash": "71f5f726",
+   "dup_of": "HB/JP_ja/kyusai.arc.z:ui_sentaku_button_03a",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/JP_ja/yesno.arc.z:ui_sentaku_button_03b",
+   "arc": "HB/JP_ja/yesno.arc.z",
+   "name": "ui_sentaku_button_03b",
+   "fmt": "ETC1A4",
+   "w": 16,
+   "h": 64,
+   "png": "work/img/hb/JP_ja_kyusai/ui_sentaku_button_03b.png",
+   "hash": "997e076f",
+   "dup_of": "HB/JP_ja/kyusai.arc.z:ui_sentaku_button_03b",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/JP_ja/yesno.arc.z:ja_sentaku_no",
+   "arc": "HB/JP_ja/yesno.arc.z",
+   "name": "ja_sentaku_no",
+   "fmt": "ETC1A4",
+   "w": 128,
+   "h": 64,
+   "png": "work/img/hb/JP_ja_demoskip/ja_sentaku_no.png",
+   "hash": "c5bf815d",
+   "dup_of": "HB/JP_ja/demoskip.arc.z:ja_sentaku_no",
+   "action": "replace",
+   "jp": "いいえ",
+   "ko": "아니요",
+   "ko_basis": "선택지 표준 (Menu#157 등 「아니요/예」)",
+   "family": "hb_white_outline",
+   "kind": "다",
+   "ref_1dx": null,
+   "box": {
+    "ink_box": [
+     38,
+     22,
+     89,
+     40
+    ],
+    "fill_box": [
+     40,
+     24,
+     87,
+     37
+    ],
+    "lines": 1,
+    "line_rows": [
+     [
+      24,
+      37
+     ]
+    ],
+    "fill_height": 14,
+    "align": "center",
+    "outline_px": 2.24,
+    "stroke_px": 4.0,
+    "fill_top": [
+     181,
+     181,
+     181
+    ],
+    "fill_mid": [
+     231,
+     231,
+     230
+    ],
+    "fill_bottom": [
+     231,
+     231,
+     231
+    ],
+    "outline_rgb": [
+     25,
+     17,
+     17
+    ],
+    "soft_edge": true
+   }
+  },
+  {
+   "id": "HB/JP_ja/yesno.arc.z:ui_sentaku_button_02a",
+   "arc": "HB/JP_ja/yesno.arc.z",
+   "name": "ui_sentaku_button_02a",
+   "fmt": "ETC1A4",
+   "w": 16,
+   "h": 64,
+   "png": "work/img/hb/JP_ja_kyusai/ui_sentaku_button_02a.png",
+   "hash": "d9478a59",
+   "dup_of": "HB/JP_ja/kyusai.arc.z:ui_sentaku_button_02a",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/JP_ja/yesno.arc.z:ja_sentaku_yes",
+   "arc": "HB/JP_ja/yesno.arc.z",
+   "name": "ja_sentaku_yes",
+   "fmt": "ETC1A4",
+   "w": 128,
+   "h": 64,
+   "png": "work/img/hb/JP_ja_yesno/ja_sentaku_yes.png",
+   "hash": "f9c601b5",
+   "action": "replace",
+   "jp": "はい",
+   "ko": "예",
+   "ko_basis": "선택지 표준 (Menu#157 등 「아니요/예」)",
+   "family": "hb_white_outline",
+   "kind": "다",
+   "ref_1dx": null,
+   "box": {
+    "ink_box": [
+     46,
+     22,
+     80,
+     40
+    ],
+    "fill_box": [
+     48,
+     24,
+     78,
+     37
+    ],
+    "lines": 1,
+    "line_rows": [
+     [
+      24,
+      37
+     ]
+    ],
+    "fill_height": 14,
+    "align": "center",
+    "outline_px": 2.24,
+    "stroke_px": 4.0,
+    "fill_top": [
+     209,
+     209,
+     209
+    ],
+    "fill_mid": [
+     230,
+     230,
+     230
+    ],
+    "fill_bottom": [
+     229,
+     229,
+     229
+    ],
+    "outline_rgb": [
+     26,
+     16,
+     16
+    ],
+    "soft_edge": true
+   },
+   "erased_png": "work/img/hb_erase/ja_sentaku_yes.png"
+  },
+  {
+   "id": "HB/battle_guide.arc.z:ui_window02a",
+   "arc": "HB/battle_guide.arc.z",
+   "name": "ui_window02a",
+   "fmt": "ETC1A4",
+   "w": 8,
+   "h": 8,
+   "png": "work/img/hb/battle_guide/ui_window02a.png",
+   "hash": "05accc6c",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/battle_guide.arc.z:ui_num_07c",
+   "arc": "HB/battle_guide.arc.z",
+   "name": "ui_num_07c",
+   "fmt": "LA4",
+   "w": 16,
+   "h": 18,
+   "png": "work/img/hb/battle_guide/ui_num_07c.png",
+   "hash": "2b79985e",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/battle_guide.arc.z:ui_num_02c",
+   "arc": "HB/battle_guide.arc.z",
+   "name": "ui_num_02c",
+   "fmt": "LA4",
+   "w": 16,
+   "h": 18,
+   "png": "work/img/hb/battle_guide/ui_num_02c.png",
+   "hash": "3011785d",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/battle_guide.arc.z:ui_window04a",
+   "arc": "HB/battle_guide.arc.z",
+   "name": "ui_window04a",
+   "fmt": "ETC1A4",
+   "w": 16,
+   "h": 32,
+   "png": "work/img/hb/battle_guide/ui_window04a.png",
+   "hash": "3709a606",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/battle_guide.arc.z:ui_num_10c",
+   "arc": "HB/battle_guide.arc.z",
+   "name": "ui_num_10c",
+   "fmt": "LA4",
+   "w": 16,
+   "h": 18,
+   "png": "work/img/hb/battle_guide/ui_num_10c.png",
+   "hash": "3b858ba4",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/battle_guide.arc.z:ui_num_09c",
+   "arc": "HB/battle_guide.arc.z",
+   "name": "ui_num_09c",
+   "fmt": "LA4",
+   "w": 16,
+   "h": 18,
+   "png": "work/img/hb/battle_guide/ui_num_09c.png",
+   "hash": "5cd671f8",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/battle_guide.arc.z:ui_num_04c",
+   "arc": "HB/battle_guide.arc.z",
+   "name": "ui_num_04c",
+   "fmt": "LA4",
+   "w": 16,
+   "h": 18,
+   "png": "work/img/hb/battle_guide/ui_num_04c.png",
+   "hash": "616e51f7",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/battle_guide.arc.z:ui_window01a",
+   "arc": "HB/battle_guide.arc.z",
+   "name": "ui_window01a",
+   "fmt": "ETC1A4",
+   "w": 32,
+   "h": 32,
+   "png": "work/img/hb/battle_guide/ui_window01a.png",
+   "hash": "6cfe5f9f",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/battle_guide.arc.z:ui_num_06c",
+   "arc": "HB/battle_guide.arc.z",
+   "name": "ui_num_06c",
+   "fmt": "LA4",
+   "w": 16,
+   "h": 18,
+   "png": "work/img/hb/battle_guide/ui_num_06c.png",
+   "hash": "92cb2b91",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/battle_guide.arc.z:ui_num_01c",
+   "arc": "HB/battle_guide.arc.z",
+   "name": "ui_num_01c",
+   "fmt": "LA4",
+   "w": 16,
+   "h": 18,
+   "png": "work/img/hb/battle_guide/ui_num_01c.png",
+   "hash": "97630b90",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/battle_guide.arc.z:ui_window03a",
+   "arc": "HB/battle_guide.arc.z",
+   "name": "ui_window03a",
+   "fmt": "ETC1A4",
+   "w": 32,
+   "h": 32,
+   "png": "work/img/hb/battle_guide/ui_window03a.png",
+   "hash": "9e5b3939",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/battle_guide.arc.z:ui_num_08c",
+   "arc": "HB/battle_guide.arc.z",
+   "name": "ui_num_08c",
+   "fmt": "LA4",
+   "w": 16,
+   "h": 18,
+   "png": "work/img/hb/battle_guide/ui_num_08c.png",
+   "hash": "c428052b",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/battle_guide.arc.z:ui_num_03c",
+   "arc": "HB/battle_guide.arc.z",
+   "name": "ui_num_03c",
+   "fmt": "LA4",
+   "w": 16,
+   "h": 18,
+   "png": "work/img/hb/battle_guide/ui_num_03c.png",
+   "hash": "c8bfe52a",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/battle_guide.arc.z:ui_num_11c",
+   "arc": "HB/battle_guide.arc.z",
+   "name": "ui_num_11c",
+   "fmt": "LA4",
+   "w": 16,
+   "h": 18,
+   "png": "work/img/hb/battle_guide/ui_num_11c.png",
+   "hash": "d433f871",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/battle_guide.arc.z:ui_beta01a",
+   "arc": "HB/battle_guide.arc.z",
+   "name": "ui_beta01a",
+   "fmt": "L4",
+   "w": 8,
+   "h": 8,
+   "png": "work/img/hb/battle_guide/ui_beta01a.png",
+   "hash": "dd28f6fb",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/battle_guide.arc.z:ui_num_05c",
+   "arc": "HB/battle_guide.arc.z",
+   "name": "ui_num_05c",
+   "fmt": "LA4",
+   "w": 16,
+   "h": 18,
+   "png": "work/img/hb/battle_guide/ui_num_05c.png",
+   "hash": "fa1cbec4",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/battle_guide.arc.z:ui_num_00c",
+   "arc": "HB/battle_guide.arc.z",
+   "name": "ui_num_00c",
+   "fmt": "LA4",
+   "w": 16,
+   "h": 18,
+   "png": "work/img/hb/battle_guide/ui_num_00c.png",
+   "hash": "feb49ec3",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/life1.arc.z:koopa_castle_body01",
+   "arc": "HB/life1.arc.z",
+   "name": "koopa_castle_body01",
+   "fmt": "ETC1A4",
+   "w": 64,
+   "h": 64,
+   "png": "work/img/hb/life1/koopa_castle_body01.png",
+   "hash": "affe1b37",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/life2.arc.z:h7e3d4c46",
+   "arc": "HB/life2.arc.z",
+   "name": "h7e3d4c46",
+   "fmt": "ETC1A4",
+   "w": 64,
+   "h": 64,
+   "png": "work/img/hb/life2/h7e3d4c46.png",
+   "hash": "7e3d4c46",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/life3.arc.z:h09af240e",
+   "arc": "HB/life3.arc.z",
+   "name": "h09af240e",
+   "fmt": "ETC1A4",
+   "w": 64,
+   "h": 64,
+   "png": "work/img/hb/life3/h09af240e.png",
+   "hash": "09af240e",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/life3.arc.z:mountain_body01",
+   "arc": "HB/life3.arc.z",
+   "name": "mountain_body01",
+   "fmt": "ETC1A4",
+   "w": 64,
+   "h": 64,
+   "png": "work/img/hb/life3/mountain_body01.png",
+   "hash": "d11c917d",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/life4.arc.z:hf8daf762",
+   "arc": "HB/life4.arc.z",
+   "name": "hf8daf762",
+   "fmt": "ETC1A4",
+   "w": 64,
+   "h": 64,
+   "png": "work/img/hb/life4/hf8daf762.png",
+   "hash": "f8daf762",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/parts.arc.z:ui_window02a",
+   "arc": "HB/parts.arc.z",
+   "name": "ui_window02a",
+   "fmt": "ETC1A4",
+   "w": 8,
+   "h": 8,
+   "png": "work/img/hb/battle_guide/ui_window02a.png",
+   "hash": "05accc6c",
+   "dup_of": "HB/battle_guide.arc.z:ui_window02a",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/parts.arc.z:e_ui_boss_button_eff01a",
+   "arc": "HB/parts.arc.z",
+   "name": "e_ui_boss_button_eff01a",
+   "fmt": "ETC1A4",
+   "w": 32,
+   "h": 32,
+   "png": "work/img/hb/parts/e_ui_boss_button_eff01a.png",
+   "hash": "0b8f609d",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/parts.arc.z:e_ui_battleguide_eff01b",
+   "arc": "HB/parts.arc.z",
+   "name": "e_ui_battleguide_eff01b",
+   "fmt": "ETC1A4",
+   "w": 32,
+   "h": 64,
+   "png": "work/img/hb/parts/e_ui_battleguide_eff01b.png",
+   "hash": "0d45f75e",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/parts.arc.z:ui_num_09a",
+   "arc": "HB/parts.arc.z",
+   "name": "ui_num_09a",
+   "fmt": "ETC1A4",
+   "w": 16,
+   "h": 16,
+   "png": "work/img/hb/parts/ui_num_09a.png",
+   "hash": "0dc65166",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/parts.arc.z:ui_num_04a",
+   "arc": "HB/parts.arc.z",
+   "name": "ui_num_04a",
+   "fmt": "ETC1A4",
+   "w": 16,
+   "h": 16,
+   "png": "work/img/hb/parts/ui_num_04a.png",
+   "hash": "125e3165",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/parts.arc.z:ui_cyorometer_num07a",
+   "arc": "HB/parts.arc.z",
+   "name": "ui_cyorometer_num07a",
+   "fmt": "ETC1A4",
+   "w": 32,
+   "h": 32,
+   "png": "work/img/hb/parts/ui_cyorometer_num07a.png",
+   "hash": "12c56741",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/parts.arc.z:ui_back_btn01a",
+   "arc": "HB/parts.arc.z",
+   "name": "ui_back_btn01a",
+   "fmt": "ETC1A4",
+   "w": 16,
+   "h": 32,
+   "png": "work/img/hb/parts/ui_back_btn01a.png",
+   "hash": "16009873",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/parts.arc.z:ui_cyorometer_num02a",
+   "arc": "HB/parts.arc.z",
+   "name": "ui_cyorometer_num02a",
+   "fmt": "ETC1A4",
+   "w": 32,
+   "h": 32,
+   "png": "work/img/hb/parts/ui_cyorometer_num02a.png",
+   "hash": "175d4740",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/parts.arc.z:i_ui_result_icon01c",
+   "arc": "HB/parts.arc.z",
+   "name": "i_ui_result_icon01c",
+   "fmt": "ETC1A4",
+   "w": 32,
+   "h": 32,
+   "png": "work/img/hb/parts/i_ui_result_icon01c.png",
+   "hash": "1c90f13c",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/parts.arc.z:ui_cyorometer_num10a",
+   "arc": "HB/parts.arc.z",
+   "name": "ui_cyorometer_num10a",
+   "fmt": "ETC1A4",
+   "w": 32,
+   "h": 32,
+   "png": "work/img/hb/parts/ui_cyorometer_num10a.png",
+   "hash": "22d15a87",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/parts.arc.z:e_ui_battleguide_btn01a",
+   "arc": "HB/parts.arc.z",
+   "name": "e_ui_battleguide_btn01a",
+   "fmt": "LA4",
+   "w": 24,
+   "h": 24,
+   "png": "work/img/hb/parts/e_ui_battleguide_btn01a.png",
+   "hash": "23068b64",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/parts.arc.z:s_ui_boss_gauge02c",
+   "arc": "HB/parts.arc.z",
+   "name": "s_ui_boss_gauge02c",
+   "fmt": "ETC1A4",
+   "w": 8,
+   "h": 16,
+   "png": "work/img/hb/parts/s_ui_boss_gauge02c.png",
+   "hash": "260ced2f",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/parts.arc.z:ui_icon_arrow01a",
+   "arc": "HB/parts.arc.z",
+   "name": "ui_icon_arrow01a",
+   "fmt": "ETC1A4",
+   "w": 32,
+   "h": 32,
+   "png": "work/img/hb/parts/ui_icon_arrow01a.png",
+   "hash": "3324e8fe",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/parts.arc.z:ui_attention_01a",
+   "arc": "HB/parts.arc.z",
+   "name": "ui_attention_01a",
+   "fmt": "ETC1A4",
+   "w": 8,
+   "h": 32,
+   "png": "work/img/hb/parts/ui_attention_01a.png",
+   "hash": "349fca70",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/parts.arc.z:e_ui_battleguide_eff01c",
+   "arc": "HB/parts.arc.z",
+   "name": "e_ui_battleguide_eff01c",
+   "fmt": "ETC1",
+   "w": 32,
+   "h": 64,
+   "png": "work/img/hb/parts/e_ui_battleguide_eff01c.png",
+   "hash": "34ce07a7",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/parts.arc.z:s_ui_boss_gauge06a",
+   "arc": "HB/parts.arc.z",
+   "name": "s_ui_boss_gauge06a",
+   "fmt": "ETC1A4",
+   "w": 16,
+   "h": 32,
+   "png": "work/img/hb/parts/s_ui_boss_gauge06a.png",
+   "hash": "39b67fd1",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/parts.arc.z:s_ui_boss_gauge01a",
+   "arc": "HB/parts.arc.z",
+   "name": "s_ui_boss_gauge01a",
+   "fmt": "ETC1A4",
+   "w": 16,
+   "h": 32,
+   "png": "work/img/hb/parts/s_ui_boss_gauge01a.png",
+   "hash": "3e4e5fd0",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/parts.arc.z:ui_sentaku_button_01a",
+   "arc": "HB/parts.arc.z",
+   "name": "ui_sentaku_button_01a",
+   "fmt": "ETC1A4",
+   "w": 16,
+   "h": 64,
+   "png": "work/img/hb/JP_ja_kyusai/ui_sentaku_button_01a.png",
+   "hash": "40991d8c",
+   "dup_of": "HB/JP_ja/kyusai.arc.z:ui_sentaku_button_01a",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/parts.arc.z:ui_num_06a",
+   "arc": "HB/parts.arc.z",
+   "name": "ui_num_06a",
+   "fmt": "ETC1A4",
+   "w": 16,
+   "h": 16,
+   "png": "work/img/hb/parts/ui_num_06a.png",
+   "hash": "43bb0aff",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/parts.arc.z:i_ui_result_icon01d",
+   "arc": "HB/parts.arc.z",
+   "name": "i_ui_result_icon01d",
+   "fmt": "ETC1A4",
+   "w": 32,
+   "h": 32,
+   "png": "work/img/hb/parts/i_ui_result_icon01d.png",
+   "hash": "44190185",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/parts.arc.z:ui_cyorometer_num09a",
+   "arc": "HB/parts.arc.z",
+   "name": "ui_cyorometer_num09a",
+   "fmt": "ETC1A4",
+   "w": 32,
+   "h": 32,
+   "png": "work/img/hb/parts/ui_cyorometer_num09a.png",
+   "hash": "442240db",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/parts.arc.z:ui_num_01a",
+   "arc": "HB/parts.arc.z",
+   "name": "ui_num_01a",
+   "fmt": "ETC1A4",
+   "w": 16,
+   "h": 16,
+   "png": "work/img/hb/parts/ui_num_01a.png",
+   "hash": "4852eafe",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/parts.arc.z:ui_cyorometer_num04a",
+   "arc": "HB/parts.arc.z",
+   "name": "ui_cyorometer_num04a",
+   "fmt": "ETC1A4",
+   "w": 32,
+   "h": 32,
+   "png": "work/img/hb/parts/ui_cyorometer_num04a.png",
+   "hash": "48ba20da",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/parts.arc.z:e_ui_battleguide_btn01b",
+   "arc": "HB/parts.arc.z",
+   "name": "e_ui_battleguide_btn01b",
+   "fmt": "RGB8",
+   "w": 8,
+   "h": 16,
+   "png": "work/img/hb/parts/e_ui_battleguide_btn01b.png",
+   "hash": "4a8e9bad",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/parts.arc.z:e_ui_eff01a",
+   "arc": "HB/parts.arc.z",
+   "name": "e_ui_eff01a",
+   "fmt": "ETC1",
+   "w": 16,
+   "h": 16,
+   "png": "work/img/hb/parts/e_ui_eff01a.png",
+   "hash": "578a3148",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/parts.arc.z:e_ui_battleguide_eff01d",
+   "arc": "HB/parts.arc.z",
+   "name": "e_ui_battleguide_eff01d",
+   "fmt": "ETC1",
+   "w": 32,
+   "h": 32,
+   "png": "work/img/hb/parts/e_ui_battleguide_eff01d.png",
+   "hash": "5c5617f0",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/parts.arc.z:s_ui_boss_button01a",
+   "arc": "HB/parts.arc.z",
+   "name": "s_ui_boss_button01a",
+   "fmt": "ETC1A4",
+   "w": 64,
+   "h": 64,
+   "png": "work/img/hb/parts/s_ui_boss_button01a.png",
+   "hash": "5f61bd47",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/parts.arc.z:ui_back_icon01a",
+   "arc": "HB/parts.arc.z",
+   "name": "ui_back_icon01a",
+   "fmt": "ETC1A4",
+   "w": 32,
+   "h": 32,
+   "png": "work/img/hb/parts/ui_back_icon01a.png",
+   "hash": "5f63a4a0",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/parts.arc.z:s_ui_boss_gauge06b",
+   "arc": "HB/parts.arc.z",
+   "name": "s_ui_boss_gauge06b",
+   "fmt": "ETC1A4",
+   "w": 16,
+   "h": 32,
+   "png": "work/img/hb/parts/s_ui_boss_gauge06b.png",
+   "hash": "613e901a",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/parts.arc.z:ui_arrow_01a",
+   "arc": "HB/parts.arc.z",
+   "name": "ui_arrow_01a",
+   "fmt": "ETC1A4",
+   "w": 256,
+   "h": 32,
+   "png": "work/img/hb/parts/ui_arrow_01a.png",
+   "hash": "61cbd6a9",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/parts.arc.z:ui_touchpen_01a",
+   "arc": "HB/parts.arc.z",
+   "name": "ui_touchpen_01a",
+   "fmt": "ETC1A4",
+   "w": 32,
+   "h": 32,
+   "png": "work/img/hb/parts/ui_touchpen_01a.png",
+   "hash": "6292ba34",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/parts.arc.z:s_ui_boss_gauge01b",
+   "arc": "HB/parts.arc.z",
+   "name": "s_ui_boss_gauge01b",
+   "fmt": "ETC1A4",
+   "w": 16,
+   "h": 32,
+   "png": "work/img/hb/parts/s_ui_boss_gauge01b.png",
+   "hash": "65d67019",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/parts.arc.z:ui_sentaku_button_01b",
+   "arc": "HB/parts.arc.z",
+   "name": "ui_sentaku_button_01b",
+   "fmt": "ETC1A4",
+   "w": 16,
+   "h": 64,
+   "png": "work/img/hb/JP_ja_kyusai/ui_sentaku_button_01b.png",
+   "hash": "68212dd5",
+   "dup_of": "HB/JP_ja/kyusai.arc.z:ui_sentaku_button_01b",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/parts.arc.z:ui_icon_box01a",
+   "arc": "HB/parts.arc.z",
+   "name": "ui_icon_box01a",
+   "fmt": "ETC1A4",
+   "w": 64,
+   "h": 64,
+   "png": "work/img/hb/parts/ui_icon_box01a.png",
+   "hash": "6aa72d74",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/parts.arc.z:h6fab396a",
+   "arc": "HB/parts.arc.z",
+   "name": "h6fab396a",
+   "fmt": "ETC1A4",
+   "w": 16,
+   "h": 16,
+   "png": "work/img/hb/parts/h6fab396a.png",
+   "hash": "6fab396a",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/parts.arc.z:h71c1810d",
+   "arc": "HB/parts.arc.z",
+   "name": "h71c1810d",
+   "fmt": "ETC1A4",
+   "w": 64,
+   "h": 64,
+   "png": "work/img/hb/parts/h71c1810d.png",
+   "hash": "71c1810d",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/parts.arc.z:ui_sentaku_button_03a",
+   "arc": "HB/parts.arc.z",
+   "name": "ui_sentaku_button_03a",
+   "fmt": "ETC1A4",
+   "w": 16,
+   "h": 64,
+   "png": "work/img/hb/JP_ja_kyusai/ui_sentaku_button_03a.png",
+   "hash": "71f5f726",
+   "dup_of": "HB/JP_ja/kyusai.arc.z:ui_sentaku_button_03a",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/parts.arc.z:e_ui_battleguide_btn01c",
+   "arc": "HB/parts.arc.z",
+   "name": "e_ui_battleguide_btn01c",
+   "fmt": "RGB8",
+   "w": 8,
+   "h": 16,
+   "png": "work/img/hb/parts/e_ui_battleguide_btn01c.png",
+   "hash": "7216abf6",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/parts.arc.z:ui_num_08a",
+   "arc": "HB/parts.arc.z",
+   "name": "ui_num_08a",
+   "fmt": "ETC1A4",
+   "w": 16,
+   "h": 16,
+   "png": "work/img/hb/parts/ui_num_08a.png",
+   "hash": "7517e499",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/parts.arc.z:ui_num_03a",
+   "arc": "HB/parts.arc.z",
+   "name": "ui_num_03a",
+   "fmt": "ETC1A4",
+   "w": 16,
+   "h": 16,
+   "png": "work/img/hb/parts/ui_num_03a.png",
+   "hash": "79afc498",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/parts.arc.z:ui_cyorometer_num06a",
+   "arc": "HB/parts.arc.z",
+   "name": "ui_cyorometer_num06a",
+   "fmt": "ETC1A4",
+   "w": 32,
+   "h": 32,
+   "png": "work/img/hb/parts/ui_cyorometer_num06a.png",
+   "hash": "7a16fa74",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/parts.arc.z:h7b933ea3",
+   "arc": "HB/parts.arc.z",
+   "name": "h7b933ea3",
+   "fmt": "ETC1A4",
+   "w": 16,
+   "h": 16,
+   "png": "work/img/hb/parts/h7b933ea3.png",
+   "hash": "7b933ea3",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/parts.arc.z:ui_cyorometer_num01a",
+   "arc": "HB/parts.arc.z",
+   "name": "ui_cyorometer_num01a",
+   "fmt": "ETC1A4",
+   "w": 32,
+   "h": 32,
+   "png": "work/img/hb/parts/ui_cyorometer_num01a.png",
+   "hash": "7eaeda73",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/parts.arc.z:s_ui_boss_button01b",
+   "arc": "HB/parts.arc.z",
+   "name": "s_ui_boss_button01b",
+   "fmt": "ETC1A4",
+   "w": 64,
+   "h": 64,
+   "png": "work/img/hb/parts/s_ui_boss_button01b.png",
+   "hash": "86e9cd90",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/parts.arc.z:s_ui_boss_gauge06c",
+   "arc": "HB/parts.arc.z",
+   "name": "s_ui_boss_gauge06c",
+   "fmt": "ETC1A4",
+   "w": 16,
+   "h": 32,
+   "png": "work/img/hb/parts/s_ui_boss_gauge06c.png",
+   "hash": "88c6a063",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/parts.arc.z:s_ui_touchpen_02a",
+   "arc": "HB/parts.arc.z",
+   "name": "s_ui_touchpen_02a",
+   "fmt": "ETC1A4",
+   "w": 64,
+   "h": 64,
+   "png": "work/img/hb/parts/s_ui_touchpen_02a.png",
+   "hash": "8a287397",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/parts.arc.z:s_ui_boss_gauge01c",
+   "arc": "HB/parts.arc.z",
+   "name": "s_ui_boss_gauge01c",
+   "fmt": "ETC1A4",
+   "w": 16,
+   "h": 32,
+   "png": "work/img/hb/parts/s_ui_boss_gauge01c.png",
+   "hash": "8d5e8062",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/parts.arc.z:ui_sentaku_button_01c",
+   "arc": "HB/parts.arc.z",
+   "name": "ui_sentaku_button_01c",
+   "fmt": "ETC1A4",
+   "w": 16,
+   "h": 64,
+   "png": "work/img/hb/JP_ja_kyusai/ui_sentaku_button_01c.png",
+   "hash": "8fa93e1e",
+   "dup_of": "HB/JP_ja/kyusai.arc.z:ui_sentaku_button_01c",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/parts.arc.z:ui_icon_box01b",
+   "arc": "HB/parts.arc.z",
+   "name": "ui_icon_box01b",
+   "fmt": "ETC1A4",
+   "w": 64,
+   "h": 64,
+   "png": "work/img/hb/parts/ui_icon_box01b.png",
+   "hash": "922f3dbd",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/parts.arc.z:h973349b3",
+   "arc": "HB/parts.arc.z",
+   "name": "h973349b3",
+   "fmt": "ETC1A4",
+   "w": 16,
+   "h": 16,
+   "png": "work/img/hb/parts/h973349b3.png",
+   "hash": "973349b3",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/parts.arc.z:h99499156",
+   "arc": "HB/parts.arc.z",
+   "name": "h99499156",
+   "fmt": "ETC1A4",
+   "w": 64,
+   "h": 64,
+   "png": "work/img/hb/parts/h99499156.png",
+   "hash": "99499156",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/parts.arc.z:ui_sentaku_button_03b",
+   "arc": "HB/parts.arc.z",
+   "name": "ui_sentaku_button_03b",
+   "fmt": "ETC1A4",
+   "w": 16,
+   "h": 64,
+   "png": "work/img/hb/JP_ja_kyusai/ui_sentaku_button_03b.png",
+   "hash": "997e076f",
+   "dup_of": "HB/JP_ja/kyusai.arc.z:ui_sentaku_button_03b",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/parts.arc.z:e_ui_battleguide_btn01d",
+   "arc": "HB/parts.arc.z",
+   "name": "e_ui_battleguide_btn01d",
+   "fmt": "L8",
+   "w": 8,
+   "h": 16,
+   "png": "work/img/hb/parts/e_ui_battleguide_btn01d.png",
+   "hash": "999ebc3f",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/parts.arc.z:s_ui_boss_gauge05a",
+   "arc": "HB/parts.arc.z",
+   "name": "s_ui_boss_gauge05a",
+   "fmt": "ETC1A4",
+   "w": 16,
+   "h": 32,
+   "png": "work/img/hb/parts/s_ui_boss_gauge05a.png",
+   "hash": "a1081304",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/parts.arc.z:ui_num_05a",
+   "arc": "HB/parts.arc.z",
+   "name": "ui_num_05a",
+   "fmt": "ETC1A4",
+   "w": 16,
+   "h": 16,
+   "png": "work/img/hb/parts/ui_num_05a.png",
+   "hash": "ab0c9e32",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/parts.arc.z:ui_cyorometer_num08a",
+   "arc": "HB/parts.arc.z",
+   "name": "ui_cyorometer_num08a",
+   "fmt": "ETC1A4",
+   "w": 32,
+   "h": 32,
+   "png": "work/img/hb/parts/ui_cyorometer_num08a.png",
+   "hash": "ab73d40e",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/parts.arc.z:ui_num_00a",
+   "arc": "HB/parts.arc.z",
+   "name": "ui_num_00a",
+   "fmt": "ETC1A4",
+   "w": 16,
+   "h": 16,
+   "png": "work/img/hb/parts/ui_num_00a.png",
+   "hash": "afa47e31",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/parts.arc.z:ui_cyorometer_num03a",
+   "arc": "HB/parts.arc.z",
+   "name": "ui_cyorometer_num03a",
+   "fmt": "ETC1A4",
+   "w": 32,
+   "h": 32,
+   "png": "work/img/hb/parts/ui_cyorometer_num03a.png",
+   "hash": "b00bb40d",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/parts.arc.z:s_ui_touchpen_02b",
+   "arc": "HB/parts.arc.z",
+   "name": "s_ui_touchpen_02b",
+   "fmt": "ETC1A4",
+   "w": 64,
+   "h": 64,
+   "png": "work/img/hb/parts/s_ui_touchpen_02b.png",
+   "hash": "b1b083e0",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/parts.arc.z:ui_sentaku_cursor_01a",
+   "arc": "HB/parts.arc.z",
+   "name": "ui_sentaku_cursor_01a",
+   "fmt": "ETC1A4",
+   "w": 32,
+   "h": 64,
+   "png": "work/img/hb/parts/ui_sentaku_cursor_01a.png",
+   "hash": "b8031ee2",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/parts.arc.z:ui_icon_box01c",
+   "arc": "HB/parts.arc.z",
+   "name": "ui_icon_box01c",
+   "fmt": "ETC1A4",
+   "w": 64,
+   "h": 64,
+   "png": "work/img/hb/parts/ui_icon_box01c.png",
+   "hash": "b9b74e06",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/parts.arc.z:i_ui_result_window02a",
+   "arc": "HB/parts.arc.z",
+   "name": "i_ui_result_window02a",
+   "fmt": "ETC1A4",
+   "w": 32,
+   "h": 32,
+   "png": "work/img/hb/parts/i_ui_result_window02a.png",
+   "hash": "bd6284ca",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/parts.arc.z:hbebb59fc",
+   "arc": "HB/parts.arc.z",
+   "name": "hbebb59fc",
+   "fmt": "ETC1A4",
+   "w": 16,
+   "h": 16,
+   "png": "work/img/hb/parts/hbebb59fc.png",
+   "hash": "bebb59fc",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/parts.arc.z:e_ui_battleguide_btn01e",
+   "arc": "HB/parts.arc.z",
+   "name": "e_ui_battleguide_btn01e",
+   "fmt": "LA4",
+   "w": 8,
+   "h": 24,
+   "png": "work/img/hb/parts/e_ui_battleguide_btn01e.png",
+   "hash": "c126cc88",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/parts.arc.z:h_ui_beta_white01a",
+   "arc": "HB/parts.arc.z",
+   "name": "h_ui_beta_white01a",
+   "fmt": "L8",
+   "w": 8,
+   "h": 8,
+   "png": "work/img/hb/JP_ja_kyusai/h_ui_beta_white01a.png",
+   "hash": "c3003b76",
+   "dup_of": "HB/JP_ja/kyusai.arc.z:h_ui_beta_white01a",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/parts.arc.z:ja_sentaku_no",
+   "arc": "HB/parts.arc.z",
+   "name": "ja_sentaku_no",
+   "fmt": "ETC1A4",
+   "w": 128,
+   "h": 64,
+   "png": "work/img/hb/JP_ja_demoskip/ja_sentaku_no.png",
+   "hash": "c5bf815d",
+   "dup_of": "HB/JP_ja/demoskip.arc.z:ja_sentaku_no",
+   "action": "replace",
+   "jp": "いいえ",
+   "ko": "아니요",
+   "ko_basis": "선택지 표준 (Menu#157 등 「아니요/예」)",
+   "family": "hb_white_outline",
+   "kind": "다",
+   "ref_1dx": null,
+   "box": {
+    "ink_box": [
+     38,
+     22,
+     89,
+     40
+    ],
+    "fill_box": [
+     40,
+     24,
+     87,
+     37
+    ],
+    "lines": 1,
+    "line_rows": [
+     [
+      24,
+      37
+     ]
+    ],
+    "fill_height": 14,
+    "align": "center",
+    "outline_px": 2.24,
+    "stroke_px": 4.0,
+    "fill_top": [
+     181,
+     181,
+     181
+    ],
+    "fill_mid": [
+     231,
+     231,
+     230
+    ],
+    "fill_bottom": [
+     231,
+     231,
+     231
+    ],
+    "outline_rgb": [
+     25,
+     17,
+     17
+    ],
+    "soft_edge": true
+   }
+  },
+  {
+   "id": "HB/parts.arc.z:s_ui_boss_gauge05b",
+   "arc": "HB/parts.arc.z",
+   "name": "s_ui_boss_gauge05b",
+   "fmt": "ETC1A4",
+   "w": 16,
+   "h": 32,
+   "png": "work/img/hb/parts/s_ui_boss_gauge05b.png",
+   "hash": "c890234d",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/parts.arc.z:ui_icon_attention01a",
+   "arc": "HB/parts.arc.z",
+   "name": "ui_icon_attention01a",
+   "fmt": "ETC1A4",
+   "w": 16,
+   "h": 16,
+   "png": "work/img/hb/parts/ui_icon_attention01a.png",
+   "hash": "cd5819b9",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/parts.arc.z:i_ui_result_icon01a",
+   "arc": "HB/parts.arc.z",
+   "name": "i_ui_result_icon01a",
+   "fmt": "ETC1A4",
+   "w": 32,
+   "h": 32,
+   "png": "work/img/hb/parts/i_ui_result_icon01a.png",
+   "hash": "cd80d0aa",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/parts.arc.z:ui_window05a",
+   "arc": "HB/parts.arc.z",
+   "name": "ui_window05a",
+   "fmt": "ETC1A4",
+   "w": 16,
+   "h": 16,
+   "png": "work/img/hb/parts/ui_window05a.png",
+   "hash": "cfb812d3",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/parts.arc.z:s_ui_boss_gauge02a",
+   "arc": "HB/parts.arc.z",
+   "name": "s_ui_boss_gauge02a",
+   "fmt": "ETC1A4",
+   "w": 8,
+   "h": 16,
+   "png": "work/img/hb/parts/s_ui_boss_gauge02a.png",
+   "hash": "d6fccc9d",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/parts.arc.z:hdaa97e3f",
+   "arc": "HB/parts.arc.z",
+   "name": "hdaa97e3f",
+   "fmt": "ETC1A4",
+   "w": 32,
+   "h": 32,
+   "png": "work/img/hb/parts/hdaa97e3f.png",
+   "hash": "daa97e3f",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/parts.arc.z:ui_num_07a",
+   "arc": "HB/parts.arc.z",
+   "name": "ui_num_07a",
+   "fmt": "ETC1A4",
+   "w": 16,
+   "h": 16,
+   "png": "work/img/hb/parts/ui_num_07a.png",
+   "hash": "dc6977cc",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/parts.arc.z:ui_beta01a",
+   "arc": "HB/parts.arc.z",
+   "name": "ui_beta01a",
+   "fmt": "L4",
+   "w": 8,
+   "h": 8,
+   "png": "work/img/hb/battle_guide/ui_beta01a.png",
+   "hash": "dd28f6fb",
+   "dup_of": "HB/battle_guide.arc.z:ui_beta01a",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/parts.arc.z:ui_num_02a",
+   "arc": "HB/parts.arc.z",
+   "name": "ui_num_02a",
+   "fmt": "ETC1A4",
+   "w": 16,
+   "h": 16,
+   "png": "work/img/hb/parts/ui_num_02a.png",
+   "hash": "e10157cb",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/parts.arc.z:ui_icon_box01d",
+   "arc": "HB/parts.arc.z",
+   "name": "ui_icon_box01d",
+   "fmt": "ETC1A4",
+   "w": 64,
+   "h": 64,
+   "png": "work/img/hb/parts/ui_icon_box01d.png",
+   "hash": "e13f5e4f",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/parts.arc.z:ui_cyorometer_num05a",
+   "arc": "HB/parts.arc.z",
+   "name": "ui_cyorometer_num05a",
+   "fmt": "ETC1A4",
+   "w": 32,
+   "h": 32,
+   "png": "work/img/hb/parts/ui_cyorometer_num05a.png",
+   "hash": "e1688da7",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/parts.arc.z:i_ui_result_window02b",
+   "arc": "HB/parts.arc.z",
+   "name": "i_ui_result_window02b",
+   "fmt": "ETC1A4",
+   "w": 32,
+   "h": 32,
+   "png": "work/img/hb/parts/i_ui_result_window02b.png",
+   "hash": "e4ea9513",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/parts.arc.z:e_ui_battleguide_eff01a",
+   "arc": "HB/parts.arc.z",
+   "name": "e_ui_battleguide_eff01a",
+   "fmt": "ETC1",
+   "w": 32,
+   "h": 32,
+   "png": "work/img/hb/parts/e_ui_battleguide_eff01a.png",
+   "hash": "e5bde715",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/parts.arc.z:ui_cyorometer_num00a",
+   "arc": "HB/parts.arc.z",
+   "name": "ui_cyorometer_num00a",
+   "fmt": "ETC1A4",
+   "w": 32,
+   "h": 32,
+   "png": "work/img/hb/parts/ui_cyorometer_num00a.png",
+   "hash": "e6006da6",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/parts.arc.z:ui_num_10a",
+   "arc": "HB/parts.arc.z",
+   "name": "ui_num_10a",
+   "fmt": "ETC1A4",
+   "w": 16,
+   "h": 16,
+   "png": "work/img/hb/parts/ui_num_10a.png",
+   "hash": "ec756b12",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/parts.arc.z:s_ui_boss_gauge05c",
+   "arc": "HB/parts.arc.z",
+   "name": "s_ui_boss_gauge05c",
+   "fmt": "ETC1A4",
+   "w": 16,
+   "h": 32,
+   "png": "work/img/hb/parts/s_ui_boss_gauge05c.png",
+   "hash": "f0183396",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/parts.arc.z:i_ui_result_icon01b",
+   "arc": "HB/parts.arc.z",
+   "name": "i_ui_result_icon01b",
+   "fmt": "ETC1A4",
+   "w": 32,
+   "h": 32,
+   "png": "work/img/hb/parts/i_ui_result_icon01b.png",
+   "hash": "f508e0f3",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/parts.arc.z:ja_sentaku_yes",
+   "arc": "HB/parts.arc.z",
+   "name": "ja_sentaku_yes",
+   "fmt": "ETC1A4",
+   "w": 128,
+   "h": 64,
+   "png": "work/img/hb/JP_ja_yesno/ja_sentaku_yes.png",
+   "hash": "f9c601b5",
+   "dup_of": "HB/JP_ja/yesno.arc.z:ja_sentaku_yes",
+   "action": "replace",
+   "jp": "はい",
+   "ko": "예",
+   "ko_basis": "선택지 표준 (Menu#157 등 「아니요/예」)",
+   "family": "hb_white_outline",
+   "kind": "다",
+   "ref_1dx": null,
+   "box": {
+    "ink_box": [
+     46,
+     22,
+     80,
+     40
+    ],
+    "fill_box": [
+     48,
+     24,
+     78,
+     37
+    ],
+    "lines": 1,
+    "line_rows": [
+     [
+      24,
+      37
+     ]
+    ],
+    "fill_height": 14,
+    "align": "center",
+    "outline_px": 2.24,
+    "stroke_px": 4.0,
+    "fill_top": [
+     209,
+     209,
+     209
+    ],
+    "fill_mid": [
+     230,
+     230,
+     230
+    ],
+    "fill_bottom": [
+     229,
+     229,
+     229
+    ],
+    "outline_rgb": [
+     26,
+     16,
+     16
+    ],
+    "soft_edge": true
+   }
+  },
+  {
+   "id": "HB/parts.arc.z:s_ui_boss_gauge02b",
+   "arc": "HB/parts.arc.z",
+   "name": "s_ui_boss_gauge02b",
+   "fmt": "ETC1A4",
+   "w": 8,
+   "h": 16,
+   "png": "work/img/hb/parts/s_ui_boss_gauge02b.png",
+   "hash": "fe84dce6",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/primitive.arc.z:h_ui_beta_white01a",
+   "arc": "HB/primitive.arc.z",
+   "name": "h_ui_beta_white01a",
+   "fmt": "L8",
+   "w": 8,
+   "h": 8,
+   "png": "work/img/hb/JP_ja_kyusai/h_ui_beta_white01a.png",
+   "hash": "c3003b76",
+   "dup_of": "HB/JP_ja/kyusai.arc.z:h_ui_beta_white01a",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/result.arc.z:ui_icon_coin01a",
+   "arc": "HB/result.arc.z",
+   "name": "ui_icon_coin01a",
+   "fmt": "ETC1A4",
+   "w": 32,
+   "h": 32,
+   "png": "work/img/hb/result/ui_icon_coin01a.png",
+   "hash": "3745f35c",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/result.arc.z:ui_window06a",
+   "arc": "HB/result.arc.z",
+   "name": "ui_window06a",
+   "fmt": "ETC1A4",
+   "w": 8,
+   "h": 8,
+   "png": "work/img/hb/result/ui_window06a.png",
+   "hash": "68667fa0",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/result.arc.z:ui_window05a",
+   "arc": "HB/result.arc.z",
+   "name": "ui_window05a",
+   "fmt": "ETC1A4",
+   "w": 16,
+   "h": 16,
+   "png": "work/img/hb/parts/ui_window05a.png",
+   "hash": "cfb812d3",
+   "dup_of": "HB/parts.arc.z:ui_window05a",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/result.arc.z:ui_icon_plus01a",
+   "arc": "HB/result.arc.z",
+   "name": "ui_icon_plus01a",
+   "fmt": "ETC1A4",
+   "w": 16,
+   "h": 16,
+   "png": "work/img/hb/result/ui_icon_plus01a.png",
+   "hash": "daafc487",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/ui.arc.z:ui_num_07b",
+   "arc": "HB/ui.arc.z",
+   "name": "ui_num_07b",
+   "fmt": "ETC1A4",
+   "w": 16,
+   "h": 18,
+   "png": "work/img/hb/ui/ui_num_07b.png",
+   "hash": "03f18815",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/ui.arc.z:ui_num_02b",
+   "arc": "HB/ui.arc.z",
+   "name": "ui_num_02b",
+   "fmt": "ETC1A4",
+   "w": 16,
+   "h": 18,
+   "png": "work/img/hb/ui/ui_num_02b.png",
+   "hash": "08896814",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/ui.arc.z:e_ui_gauge_eff01b",
+   "arc": "HB/ui.arc.z",
+   "name": "e_ui_gauge_eff01b",
+   "fmt": "ETC1",
+   "w": 32,
+   "h": 32,
+   "png": "work/img/hb/ui/e_ui_gauge_eff01b.png",
+   "hash": "1028c225",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/ui.arc.z:ui_num_10b",
+   "arc": "HB/ui.arc.z",
+   "name": "ui_num_10b",
+   "fmt": "LA4",
+   "w": 16,
+   "h": 18,
+   "png": "work/img/hb/battle_guide/ui_num_10c.png",
+   "hash": "13fd7b5b",
+   "dup_of": "HB/battle_guide.arc.z:ui_num_10c",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/ui.arc.z:s_ui_boss_button02b",
+   "arc": "HB/ui.arc.z",
+   "name": "s_ui_boss_button02b",
+   "fmt": "ETC1A4",
+   "w": 64,
+   "h": 64,
+   "png": "work/img/hb/ui/s_ui_boss_button02b.png",
+   "hash": "1f983a5d",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/ui.arc.z:s_ui_boss_button04a",
+   "arc": "HB/ui.arc.z",
+   "name": "s_ui_boss_button04a",
+   "fmt": "ETC1A4",
+   "w": 64,
+   "h": 64,
+   "png": "work/img/hb/ui/s_ui_boss_button04a.png",
+   "hash": "296d03ae",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/ui.arc.z:ui_attention_01a",
+   "arc": "HB/ui.arc.z",
+   "name": "ui_attention_01a",
+   "fmt": "ETC1A4",
+   "w": 8,
+   "h": 32,
+   "png": "work/img/hb/parts/ui_attention_01a.png",
+   "hash": "349fca70",
+   "dup_of": "HB/parts.arc.z:ui_attention_01a",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/ui.arc.z:ui_num_09b",
+   "arc": "HB/ui.arc.z",
+   "name": "ui_num_09b",
+   "fmt": "ETC1A4",
+   "w": 16,
+   "h": 18,
+   "png": "work/img/hb/ui/ui_num_09b.png",
+   "hash": "354e61af",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/ui.arc.z:ui_num_04b",
+   "arc": "HB/ui.arc.z",
+   "name": "ui_num_04b",
+   "fmt": "ETC1A4",
+   "w": 16,
+   "h": 18,
+   "png": "work/img/hb/ui/ui_num_04b.png",
+   "hash": "39e641ae",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/ui.arc.z:ui_num_12b",
+   "arc": "HB/ui.arc.z",
+   "name": "ui_num_12b",
+   "fmt": "A4",
+   "w": 16,
+   "h": 16,
+   "png": "work/img/hb/ui/ui_num_12b.png",
+   "hash": "455a54f5",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/ui.arc.z:s_ui_boss_button04b",
+   "arc": "HB/ui.arc.z",
+   "name": "s_ui_boss_button04b",
+   "fmt": "ETC1A4",
+   "w": 64,
+   "h": 64,
+   "png": "work/img/hb/ui/s_ui_boss_button04b.png",
+   "hash": "50f513f7",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/ui.arc.z:s_ui_boss_button01a",
+   "arc": "HB/ui.arc.z",
+   "name": "s_ui_boss_button01a",
+   "fmt": "ETC1A4",
+   "w": 64,
+   "h": 64,
+   "png": "work/img/hb/ui/s_ui_boss_button01a.png",
+   "hash": "5f61bd47",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/ui.arc.z:koopa_body01",
+   "arc": "HB/ui.arc.z",
+   "name": "koopa_body01",
+   "fmt": "ETC1A4",
+   "w": 64,
+   "h": 64,
+   "png": "work/img/hb/ui/koopa_body01.png",
+   "hash": "629bcb90",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/ui.arc.z:ui_num_06b",
+   "arc": "HB/ui.arc.z",
+   "name": "ui_num_06b",
+   "fmt": "ETC1A4",
+   "w": 16,
+   "h": 18,
+   "png": "work/img/hb/ui/ui_num_06b.png",
+   "hash": "6b431b48",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/ui.arc.z:ui_num_01b",
+   "arc": "HB/ui.arc.z",
+   "name": "ui_num_01b",
+   "fmt": "ETC1A4",
+   "w": 16,
+   "h": 18,
+   "png": "work/img/hb/ui/ui_num_01b.png",
+   "hash": "6fdafb47",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/ui.arc.z:s_ui_boss_button01b",
+   "arc": "HB/ui.arc.z",
+   "name": "s_ui_boss_button01b",
+   "fmt": "ETC1A4",
+   "w": 64,
+   "h": 64,
+   "png": "work/img/hb/parts/s_ui_boss_button01b.png",
+   "hash": "86e9cd90",
+   "dup_of": "HB/parts.arc.z:s_ui_boss_button01b",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/ui.arc.z:s_ui_boss_button03a",
+   "arc": "HB/ui.arc.z",
+   "name": "s_ui_boss_button03a",
+   "fmt": "ETC1A4",
+   "w": 64,
+   "h": 64,
+   "png": "work/img/hb/ui/s_ui_boss_button03a.png",
+   "hash": "90be96e1",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/ui.arc.z:ui_num_08b",
+   "arc": "HB/ui.arc.z",
+   "name": "ui_num_08b",
+   "fmt": "ETC1A4",
+   "w": 16,
+   "h": 18,
+   "png": "work/img/hb/ui/ui_num_08b.png",
+   "hash": "9c9ff4e2",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/ui.arc.z:ui_num_03b",
+   "arc": "HB/ui.arc.z",
+   "name": "ui_num_03b",
+   "fmt": "ETC1A4",
+   "w": 16,
+   "h": 18,
+   "png": "work/img/hb/ui/ui_num_03b.png",
+   "hash": "a137d4e1",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/ui.arc.z:s_ui_boss_button03b",
+   "arc": "HB/ui.arc.z",
+   "name": "s_ui_boss_button03b",
+   "fmt": "ETC1A4",
+   "w": 64,
+   "h": 64,
+   "png": "work/img/hb/ui/s_ui_boss_button03b.png",
+   "hash": "b846a72a",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/ui.arc.z:ui_num_05b",
+   "arc": "HB/ui.arc.z",
+   "name": "ui_num_05b",
+   "fmt": "ETC1A4",
+   "w": 16,
+   "h": 18,
+   "png": "work/img/hb/ui/ui_num_05b.png",
+   "hash": "d294ae7b",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/ui.arc.z:ui_num_00b",
+   "arc": "HB/ui.arc.z",
+   "name": "ui_num_00b",
+   "fmt": "ETC1A4",
+   "w": 16,
+   "h": 18,
+   "png": "work/img/hb/ui/ui_num_00b.png",
+   "hash": "d72c8e7a",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/ui.arc.z:e_ui_gauge_eff01a",
+   "arc": "HB/ui.arc.z",
+   "name": "e_ui_gauge_eff01a",
+   "fmt": "ETC1",
+   "w": 32,
+   "h": 32,
+   "png": "work/img/hb/ui/e_ui_gauge_eff01a.png",
+   "hash": "e8a0b1dc",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  },
+  {
+   "id": "HB/ui.arc.z:s_ui_boss_button02a",
+   "arc": "HB/ui.arc.z",
+   "name": "s_ui_boss_button02a",
+   "fmt": "ETC1A4",
+   "w": 64,
+   "h": 64,
+   "png": "work/img/hb/ui/s_ui_boss_button02a.png",
+   "hash": "f8102a14",
+   "action": "keep",
+   "notes": "글자 없음(아이콘·숫자·판·효과)"
+  }
+ ],
+ "families": {
+  "hb_white_outline": {
+   "desc": "흰~연회색 채움 + 검은 테두리(1.5~4px), 투명 배경의 낱말 텍스처(ETC1A4)",
+   "count": 20,
+   "difficulty": 1
+  }
+ },
+ "summary": {
+  "textures": 187,
+  "replace": 25,
+  "replace_unique": 20,
+  "keep_english": 8,
+  "bch_textures_checked": "work/img/hb_bch/_manifest.json (431 unique, no text)"
+ }
+}

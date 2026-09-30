@@ -1,0 +1,23 @@
+{
+  "ExportDecomposed": false,
+  "SuppressConfirmDialog": false,
+  "OptmizeZeroWeights": true,
+  "UseOldExporter": false,
+  "UseVertexColors": false,
+  "FlipTexCoordsVertical": true,
+  "OnlyExportRiggedBones": false,
+  "UseTextureChannelComponents": true,
+  "TransformColorUVs": false,
+  "ForceZeroShininessFbx": false,
+  "ExportNormalMapsAsFlatColorFbx": true,
+  "AddLeafBones": false,
+  "FileVersion": {
+    "Major": 1,
+    "Minor": 4,
+    "Micro": 1
+  },
+  "Preset": 0,
+  "ExportTextures": true,
+  "ImageExtension": ".png",
+  "ImageFolder": ""
+}

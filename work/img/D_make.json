@@ -1,0 +1,1814 @@
+{
+ "LTIT_GUIDE_4_00_JP_ja": {
+  "text": "배틀 어택",
+  "sources": [
+   [
+    [
+     "배틀",
+     "font:font"
+    ],
+    [
+     "어택",
+     "font:font"
+    ]
+   ]
+  ],
+  "fit": {
+   "hscale": 1.0,
+   "tracking": -1.0,
+   "overflow": false,
+   "width": 49.75,
+   "lines": 1
+  },
+  "em": 12.0,
+  "weight_delta_px": -0.11,
+  "phase": [
+   0.75,
+   -0.5,
+   0.0946
+  ],
+  "compare": {
+   "em_ratio": 1.091,
+   "stroke_ratio": 0.712,
+   "face_color_diff": 0.0,
+   "outline_width_diff": 0.0,
+   "outline_color_diff": null,
+   "layer_count": [
+    0,
+    0
+   ],
+   "shadow_offset_diff": 0.0
+  },
+  "problems": [
+   "획 두께 비 0.712"
+  ]
+ },
+ "LTIT_GUIDE_3_00_JP_ja": {
+  "text": "배틀 기본",
+  "sources": [
+   [
+    [
+     "배틀",
+     "font:font"
+    ],
+    [
+     "기본",
+     "font:font"
+    ]
+   ]
+  ],
+  "fit": {
+   "hscale": 1.0,
+   "tracking": -1.0,
+   "overflow": false,
+   "width": 51.25,
+   "lines": 1
+  },
+  "em": 12.0,
+  "weight_delta_px": -0.081,
+  "phase": [
+   0.75,
+   -0.5,
+   0.0854
+  ],
+  "compare": {
+   "em_ratio": 1.0,
+   "stroke_ratio": 0.707,
+   "face_color_diff": 0.0,
+   "outline_width_diff": 0.0,
+   "outline_color_diff": null,
+   "layer_count": [
+    0,
+    0
+   ],
+   "shadow_offset_diff": 0.0
+  },
+  "problems": [
+   "획 두께 비 0.707"
+  ]
+ },
+ "LTIT_btl_HINT_00_JP_ja": {
+  "text": "힌트",
+  "sources": [
+   [
+    [
+     "힌트",
+     "font:font"
+    ]
+   ]
+  ],
+  "fit": {
+   "hscale": 1.0,
+   "tracking": -1.0,
+   "overflow": false,
+   "width": 23.0,
+   "lines": 1
+  },
+  "em": 12.0,
+  "weight_delta_px": 0.098,
+  "phase": [
+   0.0,
+   -0.25,
+   0.08
+  ],
+  "compare": {
+   "em_ratio": 1.182,
+   "stroke_ratio": 0.722,
+   "face_color_diff": 0.0,
+   "outline_width_diff": 0.0,
+   "outline_color_diff": null,
+   "layer_count": [
+    0,
+    0
+   ],
+   "shadow_offset_diff": 0.0
+  },
+  "problems": [
+   "글자 높이 비 1.182",
+   "획 두께 비 0.722"
+  ]
+ },
+ "btn_text_KJ_GUIDE_pnl_4_00_JP_ja": {
+  "text": "커맨드",
+  "sources": [
+   [
+    [
+     "커맨드",
+     "font:font"
+    ]
+   ]
+  ],
+  "fit": {
+   "hscale": 1.0,
+   "tracking": -1.0,
+   "overflow": false,
+   "width": 33.25,
+   "lines": 1
+  },
+  "em": 12.0,
+  "weight_delta_px": 0.151,
+  "phase": [
+   0.0,
+   -0.5,
+   0.0832
+  ],
+  "compare": {
+   "em_ratio": 1.3,
+   "stroke_ratio": 0.777,
+   "face_color_diff": 0.078,
+   "outline_width_diff": 0.25,
+   "outline_color_diff": 0.0,
+   "layer_count": [
+    1,
+    1
+   ],
+   "shadow_offset_diff": 0.0
+  },
+  "problems": [
+   "글자 높이 비 1.3",
+   "획 두께 비 0.777"
+  ]
+ },
+ "btn_text_KJ_GUIDE_pnl_2_00_JP_ja": {
+  "text": "배틀\n기본",
+  "sources": [
+   [
+    [
+     "배틀",
+     "font:font"
+    ]
+   ],
+   [
+    [
+     "기본",
+     "font:font"
+    ]
+   ]
+  ],
+  "fit": {
+   "hscale": 1.0,
+   "tracking": -1.0,
+   "overflow": false,
+   "width": 23.0,
+   "lines": 2
+  },
+  "em": 12.0,
+  "weight_delta_px": -0.086,
+  "phase": [
+   0.0,
+   0.0,
+   0.0774
+  ],
+  "compare": {
+   "em_ratio": 1.211,
+   "stroke_ratio": 0.762,
+   "face_color_diff": 0.069,
+   "outline_width_diff": 0.25,
+   "outline_color_diff": 0.0,
+   "layer_count": [
+    1,
+    1
+   ],
+   "shadow_offset_diff": 0.0
+  },
+  "problems": [
+   "글자 높이 비 1.211",
+   "획 두께 비 0.762"
+  ]
+ },
+ "btn_text_KJ_GUIDE_pnl_3_00_JP_ja": {
+  "text": "어택",
+  "sources": [
+   [
+    [
+     "어택",
+     "font:font"
+    ]
+   ]
+  ],
+  "fit": {
+   "hscale": 1.0,
+   "tracking": -1.0,
+   "overflow": false,
+   "width": 21.5,
+   "lines": 1
+  },
+  "em": 12.0,
+  "weight_delta_px": 0.056,
+  "phase": [
+   0.0,
+   -0.5,
+   0.0861
+  ],
+  "compare": {
+   "em_ratio": 1.2,
+   "stroke_ratio": 0.723,
+   "face_color_diff": 0.047,
+   "outline_width_diff": 0.0,
+   "outline_color_diff": 0.0,
+   "layer_count": [
+    1,
+    1
+   ],
+   "shadow_offset_diff": 0.0
+  },
+  "problems": [
+   "글자 높이 비 1.2",
+   "획 두께 비 0.723"
+  ]
+ },
+ "btn_text_KJ_GUIDE_pnl_1_00_JP_ja": {
+  "text": "군단\n메뉴",
+  "sources": [
+   [
+    [
+     "군단",
+     "font:font"
+    ]
+   ],
+   [
+    [
+     "메뉴",
+     "font:font"
+    ]
+   ]
+  ],
+  "fit": {
+   "hscale": 1.0,
+   "tracking": -1.0,
+   "overflow": false,
+   "width": 23.75,
+   "lines": 2
+  },
+  "em": 12.0,
+  "weight_delta_px": 0.056,
+  "phase": [
+   0.0,
+   -0.25,
+   0.0815
+  ],
+  "compare": {
+   "em_ratio": 1.158,
+   "stroke_ratio": 0.939,
+   "face_color_diff": 0.069,
+   "outline_width_diff": 0.0,
+   "outline_color_diff": 0.0,
+   "layer_count": [
+    1,
+    1
+   ],
+   "shadow_offset_diff": 0.0
+  },
+  "problems": [
+   "글자 높이 비 1.158"
+  ]
+ },
+ "LTIT_KJ_RECORD_1_00_JP_ja": {
+  "text": "동료",
+  "sources": [
+   [
+    [
+     "동료",
+     "font:font"
+    ]
+   ]
+  ],
+  "fit": {
+   "hscale": 1.0,
+   "tracking": -1.0,
+   "overflow": false,
+   "width": 24.5,
+   "lines": 1
+  },
+  "em": 12.0,
+  "weight_delta_px": -0.034,
+  "phase": [
+   0.75,
+   -0.5,
+   0.0861
+  ],
+  "compare": {
+   "em_ratio": 1.091,
+   "stroke_ratio": 0.752,
+   "face_color_diff": 0.0,
+   "outline_width_diff": 0.0,
+   "outline_color_diff": null,
+   "layer_count": [
+    0,
+    0
+   ],
+   "shadow_offset_diff": 0.0
+  },
+  "problems": [
+   "획 두께 비 0.752"
+  ]
+ },
+ "btn_p_FORMATION_00_JP_ja": {
+  "text": "진형",
+  "sources": [
+   [
+    [
+     "진형",
+     "font:font"
+    ]
+   ]
+  ],
+  "fit": {
+   "hscale": 1.0,
+   "tracking": -1.0,
+   "overflow": false,
+   "width": 21.5,
+   "lines": 1
+  },
+  "em": 12.0,
+  "weight_delta_px": -0.007,
+  "phase": [
+   0.0,
+   0.25,
+   0.0924
+  ],
+  "compare": {
+   "em_ratio": 1.083,
+   "stroke_ratio": 0.81,
+   "face_color_diff": 0.052,
+   "outline_width_diff": 0.0,
+   "outline_color_diff": 0.0,
+   "layer_count": [
+    1,
+    1
+   ],
+   "shadow_offset_diff": 0.0
+  },
+  "problems": []
+ },
+ "LTIT_KJ_RECORD_2_00_JP_ja": {
+  "text": "몬스터",
+  "sources": [
+   [
+    [
+     "몬스터",
+     "font:font"
+    ]
+   ]
+  ],
+  "fit": {
+   "hscale": 1.0,
+   "tracking": -1.0,
+   "overflow": false,
+   "width": 33.75,
+   "lines": 1
+  },
+  "em": 12.0,
+  "weight_delta_px": 0.087,
+  "phase": [
+   0.25,
+   -0.5,
+   0.0838
+  ],
+  "compare": {
+   "em_ratio": 1.091,
+   "stroke_ratio": 0.697,
+   "face_color_diff": 0.0,
+   "outline_width_diff": 0.0,
+   "outline_color_diff": null,
+   "layer_count": [
+    0,
+    0
+   ],
+   "shadow_offset_diff": 0.0
+  },
+  "problems": [
+   "획 두께 비 0.697"
+  ]
+ },
+ "btn_p_MONSTER_00_JP_ja": {
+  "text": "몬스터",
+  "sources": [
+   [
+    [
+     "몬스터",
+     "font:font"
+    ]
+   ]
+  ],
+  "fit": {
+   "hscale": 1.0,
+   "tracking": -1.0,
+   "overflow": false,
+   "width": 33.75,
+   "lines": 1
+  },
+  "em": 12.0,
+  "weight_delta_px": 0.137,
+  "phase": [
+   0.0,
+   0.0,
+   0.0754
+  ],
+  "compare": {
+   "em_ratio": 1.091,
+   "stroke_ratio": 0.715,
+   "face_color_diff": 0.092,
+   "outline_width_diff": 0.25,
+   "outline_color_diff": 0.0,
+   "layer_count": [
+    1,
+    1
+   ],
+   "shadow_offset_diff": 0.0
+  },
+  "problems": [
+   "획 두께 비 0.715"
+  ]
+ },
+ "btn_p_FRIEND_00_JP_ja": {
+  "text": "동료",
+  "sources": [
+   [
+    [
+     "동료",
+     "font:font"
+    ]
+   ]
+  ],
+  "fit": {
+   "hscale": 1.0,
+   "tracking": -1.0,
+   "overflow": false,
+   "width": 24.5,
+   "lines": 1
+  },
+  "em": 12.0,
+  "weight_delta_px": 0.055,
+  "phase": [
+   0.0,
+   -0.5,
+   0.0874
+  ],
+  "compare": {
+   "em_ratio": 1.091,
+   "stroke_ratio": 0.654,
+   "face_color_diff": 0.058,
+   "outline_width_diff": 0.0,
+   "outline_color_diff": 0.0,
+   "layer_count": [
+    1,
+    1
+   ],
+   "shadow_offset_diff": 0.0
+  },
+  "problems": [
+   "획 두께 비 0.654"
+  ]
+ },
+ "btn_p_CHALLENGE_00_JP_ja": {
+  "text": "챌린지",
+  "sources": [
+   [
+    [
+     "챌린지",
+     "font:font"
+    ]
+   ]
+  ],
+  "fit": {
+   "hscale": 1.0,
+   "tracking": -1.0,
+   "overflow": false,
+   "width": 31.5,
+   "lines": 1
+  },
+  "em": 12.0,
+  "weight_delta_px": -0.114,
+  "phase": [
+   0.0,
+   -0.25,
+   0.09
+  ],
+  "compare": {
+   "em_ratio": 1.083,
+   "stroke_ratio": 0.923,
+   "face_color_diff": 0.2,
+   "outline_width_diff": 0.0,
+   "outline_color_diff": 0.0,
+   "layer_count": [
+    1,
+    1
+   ],
+   "shadow_offset_diff": 0.0
+  },
+  "problems": [
+   "채움색 차 0.2"
+  ]
+ },
+ "KJ_LTIT_GUIDE_3_00_JP_ja": {
+  "text": "어택",
+  "sources": [
+   [
+    [
+     "어택",
+     "font:font"
+    ]
+   ]
+  ],
+  "fit": {
+   "hscale": 1.0,
+   "tracking": -1.0,
+   "overflow": false,
+   "width": 21.5,
+   "lines": 1
+  },
+  "em": 12.0,
+  "weight_delta_px": -0.045,
+  "phase": [
+   0.75,
+   -0.5,
+   0.0899
+  ],
+  "compare": {
+   "em_ratio": 1.091,
+   "stroke_ratio": 0.844,
+   "face_color_diff": 0.0,
+   "outline_width_diff": 0.0,
+   "outline_color_diff": null,
+   "layer_count": [
+    0,
+    0
+   ],
+   "shadow_offset_diff": 0.0
+  },
+  "problems": []
+ },
+ "KJ_LTIT_GUIDE_4_00_JP_ja": {
+  "text": "커맨드",
+  "sources": [
+   [
+    [
+     "커맨드",
+     "font:font"
+    ]
+   ]
+  ],
+  "fit": {
+   "hscale": 1.0,
+   "tracking": -1.0,
+   "overflow": false,
+   "width": 33.25,
+   "lines": 1
+  },
+  "em": 12.0,
+  "weight_delta_px": 0.101,
+  "phase": [
+   0.75,
+   -0.5,
+   0.0953
+  ],
+  "compare": {
+   "em_ratio": 1.182,
+   "stroke_ratio": 0.684,
+   "face_color_diff": 0.0,
+   "outline_width_diff": 0.0,
+   "outline_color_diff": null,
+   "layer_count": [
+    0,
+    0
+   ],
+   "shadow_offset_diff": 0.0
+  },
+  "problems": [
+   "글자 높이 비 1.182",
+   "획 두께 비 0.684"
+  ]
+ },
+ "LTIT_ITEM_00_JP_ja": {
+  "text": "아이템",
+  "sources": [
+   [
+    [
+     "아이템",
+     "font:font"
+    ]
+   ]
+  ],
+  "fit": {
+   "hscale": 1.0,
+   "tracking": -1.0,
+   "overflow": false,
+   "width": 33.25,
+   "lines": 1
+  },
+  "em": 12.0,
+  "weight_delta_px": -0.096,
+  "phase": [
+   0.25,
+   -0.5,
+   0.0833
+  ],
+  "compare": {
+   "em_ratio": 1.091,
+   "stroke_ratio": 0.802,
+   "face_color_diff": 0.0,
+   "outline_width_diff": 0.0,
+   "outline_color_diff": null,
+   "layer_count": [
+    0,
+    0
+   ],
+   "shadow_offset_diff": 0.0
+  },
+  "problems": []
+ },
+ "LTIT_EQUIP_00_JP_ja": {
+  "text": "장비",
+  "sources": [
+   [
+    [
+     "장비",
+     "font:font"
+    ]
+   ]
+  ],
+  "fit": {
+   "hscale": 1.0,
+   "tracking": -1.0,
+   "overflow": false,
+   "width": 22.0,
+   "lines": 1
+  },
+  "em": 12.0,
+  "weight_delta_px": 0.004,
+  "phase": [
+   0.75,
+   -0.5,
+   0.0726
+  ],
+  "compare": {
+   "em_ratio": 1.0,
+   "stroke_ratio": 0.794,
+   "face_color_diff": 0.0,
+   "outline_width_diff": 0.0,
+   "outline_color_diff": null,
+   "layer_count": [
+    0,
+    0
+   ],
+   "shadow_offset_diff": 0.0
+  },
+  "problems": [
+   "획 두께 비 0.794"
+  ]
+ },
+ "LTIT_BADGE_00_JP_ja": {
+  "text": "배지",
+  "sources": [
+   [
+    [
+     "배지",
+     "font:font"
+    ]
+   ]
+  ],
+  "fit": {
+   "hscale": 1.0,
+   "tracking": -1.0,
+   "overflow": false,
+   "width": 21.5,
+   "lines": 1
+  },
+  "em": 12.0,
+  "weight_delta_px": -0.061,
+  "phase": [
+   0.75,
+   -0.5,
+   0.0778
+  ],
+  "compare": {
+   "em_ratio": 0.833,
+   "stroke_ratio": 1.258,
+   "face_color_diff": 0.0,
+   "outline_width_diff": 0.0,
+   "outline_color_diff": null,
+   "layer_count": [
+    0,
+    0
+   ],
+   "shadow_offset_diff": 0.0
+  },
+  "problems": [
+   "글자 높이 비 0.833",
+   "획 두께 비 1.258"
+  ]
+ },
+ "LTIT_NOW_EQUIP_00_JP_ja": {
+  "text": "장비 중",
+  "sources": [
+   [
+    [
+     "장비",
+     "font:font"
+    ],
+    [
+     "중",
+     "font:font"
+    ]
+   ]
+  ],
+  "fit": {
+   "hscale": 1.0,
+   "tracking": -1.0,
+   "overflow": false,
+   "width": 40.0,
+   "lines": 1
+  },
+  "em": 12.0,
+  "weight_delta_px": -0.025,
+  "phase": [
+   0.0,
+   -0.5,
+   0.0793
+  ],
+  "compare": {
+   "em_ratio": 1.0,
+   "stroke_ratio": 0.818,
+   "face_color_diff": 0.0,
+   "outline_width_diff": 0.0,
+   "outline_color_diff": null,
+   "layer_count": [
+    0,
+    0
+   ],
+   "shadow_offset_diff": 0.0
+  },
+  "problems": []
+ },
+ "LTIT_SELL_00_JP_ja": {
+  "text": "팔기",
+  "sources": [
+   [
+    [
+     "팔기",
+     "font:font"
+    ]
+   ]
+  ],
+  "fit": {
+   "hscale": 1.0,
+   "tracking": -1.0,
+   "overflow": false,
+   "width": 23.0,
+   "lines": 1
+  },
+  "em": 12.0,
+  "weight_delta_px": -0.126,
+  "phase": [
+   0.0,
+   -0.5,
+   0.0939
+  ],
+  "compare": {
+   "em_ratio": 1.091,
+   "stroke_ratio": 0.782,
+   "face_color_diff": 0.0,
+   "outline_width_diff": 0.0,
+   "outline_color_diff": null,
+   "layer_count": [
+    0,
+    0
+   ],
+   "shadow_offset_diff": 0.0
+  },
+  "problems": [
+   "획 두께 비 0.782"
+  ]
+ },
+ "btn_text_guide_pnl_4_00_JP_ja": {
+  "text": "배틀\n어택",
+  "sources": [
+   [
+    [
+     "배틀",
+     "font:font"
+    ]
+   ],
+   [
+    [
+     "어택",
+     "font:font"
+    ]
+   ]
+  ],
+  "fit": {
+   "hscale": 1.0,
+   "tracking": -1.0,
+   "overflow": false,
+   "width": 23.0,
+   "lines": 2
+  },
+  "em": 12.0,
+  "weight_delta_px": -0.104,
+  "phase": [
+   0.0,
+   0.0,
+   0.083
+  ],
+  "compare": {
+   "em_ratio": 1.263,
+   "stroke_ratio": 0.825,
+   "face_color_diff": 0.044,
+   "outline_width_diff": 0.25,
+   "outline_color_diff": 0.0,
+   "layer_count": [
+    1,
+    1
+   ],
+   "shadow_offset_diff": 0.0
+  },
+  "problems": [
+   "글자 높이 비 1.263"
+  ]
+ },
+ "LTIT_guide_2_00_JP_ja": {
+  "text": "필드 액션",
+  "sources": [
+   [
+    [
+     "필드",
+     "font:font"
+    ],
+    [
+     "액션",
+     "font:font"
+    ]
+   ]
+  ],
+  "fit": {
+   "hscale": 1.0,
+   "tracking": -1.0,
+   "overflow": false,
+   "width": 50.5,
+   "lines": 1
+  },
+  "em": 12.0,
+  "weight_delta_px": -0.078,
+  "phase": [
+   0.0,
+   -0.5,
+   0.0845
+  ],
+  "compare": {
+   "em_ratio": 1.091,
+   "stroke_ratio": 0.894,
+   "face_color_diff": 0.0,
+   "outline_width_diff": 0.0,
+   "outline_color_diff": null,
+   "layer_count": [
+    0,
+    0
+   ],
+   "shadow_offset_diff": 0.0
+  },
+  "problems": []
+ },
+ "btn_text_guide_pnl_2_00_JP_ja": {
+  "text": "필드\n액션",
+  "sources": [
+   [
+    [
+     "필드",
+     "font:font"
+    ]
+   ],
+   [
+    [
+     "액션",
+     "font:font"
+    ]
+   ]
+  ],
+  "fit": {
+   "hscale": 1.0,
+   "tracking": -1.0,
+   "overflow": false,
+   "width": 23.75,
+   "lines": 2
+  },
+  "em": 12.0,
+  "weight_delta_px": -0.031,
+  "phase": [
+   0.0,
+   0.0,
+   0.0961
+  ],
+  "compare": {
+   "em_ratio": 1.263,
+   "stroke_ratio": 0.966,
+   "face_color_diff": 0.088,
+   "outline_width_diff": 0.0,
+   "outline_color_diff": 0.0,
+   "layer_count": [
+    1,
+    1
+   ],
+   "shadow_offset_diff": 0.0
+  },
+  "problems": [
+   "글자 높이 비 1.263"
+  ]
+ },
+ "btn_text_guide_pnl_3_00_JP_ja": {
+  "text": "배틀\n기본",
+  "sources": [
+   [
+    [
+     "배틀",
+     "font:font"
+    ]
+   ],
+   [
+    [
+     "기본",
+     "font:font"
+    ]
+   ]
+  ],
+  "fit": {
+   "hscale": 1.0,
+   "tracking": -1.0,
+   "overflow": false,
+   "width": 23.0,
+   "lines": 2
+  },
+  "em": 12.0,
+  "weight_delta_px": -0.086,
+  "phase": [
+   0.0,
+   0.0,
+   0.0774
+  ],
+  "compare": {
+   "em_ratio": 1.211,
+   "stroke_ratio": 0.762,
+   "face_color_diff": 0.069,
+   "outline_width_diff": 0.25,
+   "outline_color_diff": 0.0,
+   "layer_count": [
+    1,
+    1
+   ],
+   "shadow_offset_diff": 0.0
+  },
+  "problems": [
+   "글자 높이 비 1.211",
+   "획 두께 비 0.762"
+  ]
+ },
+ "LTIT_guide_1_00_JP_ja": {
+  "text": "필드 기본",
+  "sources": [
+   [
+    [
+     "필드",
+     "font:font"
+    ],
+    [
+     "기본",
+     "font:font"
+    ]
+   ]
+  ],
+  "fit": {
+   "hscale": 1.0,
+   "tracking": -1.0,
+   "overflow": false,
+   "width": 52.0,
+   "lines": 1
+  },
+  "em": 12.0,
+  "weight_delta_px": -0.042,
+  "phase": [
+   0.75,
+   -0.5,
+   0.0873
+  ],
+  "compare": {
+   "em_ratio": 1.182,
+   "stroke_ratio": 0.734,
+   "face_color_diff": 0.0,
+   "outline_width_diff": 0.0,
+   "outline_color_diff": null,
+   "layer_count": [
+    0,
+    0
+   ],
+   "shadow_offset_diff": 0.0
+  },
+  "problems": [
+   "글자 높이 비 1.182",
+   "획 두께 비 0.734"
+  ]
+ },
+ "btn_text_guide_pnl_1_00_JP_ja": {
+  "text": "필드\n기본",
+  "sources": [
+   [
+    [
+     "필드",
+     "font:font"
+    ]
+   ],
+   [
+    [
+     "기본",
+     "font:font"
+    ]
+   ]
+  ],
+  "fit": {
+   "hscale": 1.0,
+   "tracking": -1.0,
+   "overflow": false,
+   "width": 23.75,
+   "lines": 2
+  },
+  "em": 12.0,
+  "weight_delta_px": 0.073,
+  "phase": [
+   0.0,
+   -0.5,
+   0.0922
+  ],
+  "compare": {
+   "em_ratio": 1.211,
+   "stroke_ratio": 0.737,
+   "face_color_diff": 0.05,
+   "outline_width_diff": 0.0,
+   "outline_color_diff": 0.0,
+   "layer_count": [
+    1,
+    1
+   ],
+   "shadow_offset_diff": 0.0
+  },
+  "problems": [
+   "글자 높이 비 1.211",
+   "획 두께 비 0.737"
+  ]
+ },
+ "LTIT_record_AP_00_JP_ja": {
+  "text": "어택피스",
+  "sources": [
+   [
+    [
+     "어택피스",
+     "font:font"
+    ]
+   ]
+  ],
+  "fit": {
+   "hscale": 1.0,
+   "tracking": -1.0,
+   "overflow": false,
+   "width": 43.5,
+   "lines": 1
+  },
+  "em": 12.0,
+  "weight_delta_px": -0.045,
+  "phase": [
+   0.0,
+   -0.5,
+   0.0932
+  ],
+  "compare": {
+   "em_ratio": 1.182,
+   "stroke_ratio": 0.791,
+   "face_color_diff": 0.0,
+   "outline_width_diff": 0.0,
+   "outline_color_diff": null,
+   "layer_count": [
+    0,
+    0
+   ],
+   "shadow_offset_diff": 0.0
+  },
+  "problems": [
+   "글자 높이 비 1.182",
+   "획 두께 비 0.791"
+  ]
+ },
+ "LTIT_record_KUBOMI_00_JP_ja": {
+  "text": "홈",
+  "sources": [
+   [
+    [
+     "홈",
+     "font:font"
+    ]
+   ]
+  ],
+  "fit": {
+   "hscale": 1.0,
+   "tracking": -1.0,
+   "overflow": false,
+   "width": 12.5,
+   "lines": 1
+  },
+  "em": 12.0,
+  "weight_delta_px": -0.091,
+  "phase": [
+   0.25,
+   -0.5,
+   0.0847
+  ],
+  "compare": {
+   "em_ratio": 1.091,
+   "stroke_ratio": 0.68,
+   "face_color_diff": 0.0,
+   "outline_width_diff": 0.0,
+   "outline_color_diff": null,
+   "layer_count": [
+    0,
+    0
+   ],
+   "shadow_offset_diff": 0.0
+  },
+  "problems": [
+   "획 두께 비 0.68"
+  ]
+ },
+ "LTIT_record_COLISEUM_00_JP_ja": {
+  "text": "배틀 콜로세움",
+  "sources": [
+   [
+    [
+     "배틀",
+     "font:font"
+    ],
+    [
+     "콜로세움",
+     "font:font"
+    ]
+   ]
+  ],
+  "fit": {
+   "hscale": 1.0,
+   "tracking": -1.0,
+   "overflow": false,
+   "width": 75.75,
+   "lines": 1
+  },
+  "em": 12.0,
+  "weight_delta_px": -0.102,
+  "phase": [
+   0.0,
+   -0.5,
+   0.0851
+  ],
+  "compare": {
+   "em_ratio": 1.182,
+   "stroke_ratio": 0.709,
+   "face_color_diff": 0.0,
+   "outline_width_diff": 0.0,
+   "outline_color_diff": null,
+   "layer_count": [
+    0,
+    0
+   ],
+   "shadow_offset_diff": 0.0
+  },
+  "problems": [
+   "글자 높이 비 1.182",
+   "획 두께 비 0.709"
+  ]
+ },
+ "LTIT_BSCORE_00_JP_ja": {
+  "text": "베스트 스코어",
+  "sources": [
+   [
+    [
+     "베스트",
+     "font:font_btl"
+    ],
+    [
+     "스코어",
+     "font:font_btl"
+    ]
+   ]
+  ],
+  "fit": {
+   "hscale": 1.0,
+   "tracking": -1.0,
+   "overflow": false,
+   "width": 56.75,
+   "lines": 1
+  },
+  "em": 9.0,
+  "weight_delta_px": -0.148,
+  "phase": [
+   0.0,
+   0.0,
+   0.1289
+  ],
+  "compare": {
+   "em_ratio": 1.0,
+   "stroke_ratio": 1.252,
+   "face_color_diff": 0.0,
+   "outline_width_diff": 0.0,
+   "outline_color_diff": null,
+   "layer_count": [
+    0,
+    0
+   ],
+   "shadow_offset_diff": 0.0
+  },
+  "problems": [
+   "획 두께 비 1.252"
+  ]
+ },
+ "btn_p_KUBOMI_00_JP_ja": {
+  "text": "홈",
+  "sources": [
+   [
+    [
+     "홈",
+     "font:font"
+    ]
+   ]
+  ],
+  "fit": {
+   "hscale": 1.0,
+   "tracking": -1.0,
+   "overflow": false,
+   "width": 12.5,
+   "lines": 1
+  },
+  "em": 12.0,
+  "weight_delta_px": -0.082,
+  "phase": [
+   0.0,
+   -0.5,
+   0.0835
+  ],
+  "compare": {
+   "em_ratio": 1.2,
+   "stroke_ratio": 0.721,
+   "face_color_diff": 0.117,
+   "outline_width_diff": 0.25,
+   "outline_color_diff": 0.0,
+   "layer_count": [
+    1,
+    1
+   ],
+   "shadow_offset_diff": 0.0
+  },
+  "problems": [
+   "글자 높이 비 1.2",
+   "획 두께 비 0.721"
+  ]
+ },
+ "LTIT_BTURN_00_JP_ja": {
+  "text": "베스트 턴",
+  "sources": [
+   [
+    [
+     "베스트",
+     "font:font_btl"
+    ],
+    [
+     "턴",
+     "font:font_btl"
+    ]
+   ]
+  ],
+  "fit": {
+   "hscale": 1.0,
+   "tracking": -1.0,
+   "overflow": false,
+   "width": 48.5,
+   "lines": 1
+  },
+  "em": 11.0,
+  "weight_delta_px": -0.165,
+  "phase": [
+   0.0,
+   0.0,
+   0.1376
+  ],
+  "compare": {
+   "em_ratio": 1.1,
+   "stroke_ratio": 0.932,
+   "face_color_diff": 0.0,
+   "outline_width_diff": 0.0,
+   "outline_color_diff": null,
+   "layer_count": [
+    0,
+    0
+   ],
+   "shadow_offset_diff": 0.0
+  },
+  "problems": []
+ },
+ "btn_p_MINIGAME_00_JP_ja": {
+  "text": "어택 미니 게임",
+  "sources": [
+   [
+    [
+     "어택",
+     "font:font"
+    ],
+    [
+     "미니",
+     "font:font"
+    ],
+    [
+     "게임",
+     "font:font"
+    ]
+   ]
+  ],
+  "fit": {
+   "hscale": 1.0,
+   "tracking": -1.0,
+   "overflow": false,
+   "width": 73.25,
+   "lines": 1
+  },
+  "em": 12.0,
+  "weight_delta_px": 0.044,
+  "phase": [
+   0.0,
+   0.0,
+   0.0818
+  ],
+  "compare": {
+   "em_ratio": 1.263,
+   "stroke_ratio": 0.8,
+   "face_color_diff": 0.092,
+   "outline_width_diff": 0.0,
+   "outline_color_diff": 0.0,
+   "layer_count": [
+    1,
+    1
+   ],
+   "shadow_offset_diff": 0.0
+  },
+  "problems": [
+   "글자 높이 비 1.263"
+  ]
+ },
+ "LTIT_record_BLOCK_00_JP_ja": {
+  "text": "블록",
+  "sources": [
+   [
+    [
+     "블록",
+     "font:font"
+    ]
+   ]
+  ],
+  "fit": {
+   "hscale": 1.0,
+   "tracking": -1.0,
+   "overflow": false,
+   "width": 24.5,
+   "lines": 1
+  },
+  "em": 12.0,
+  "weight_delta_px": -0.107,
+  "phase": [
+   0.0,
+   -0.5,
+   0.088
+  ],
+  "compare": {
+   "em_ratio": 1.0,
+   "stroke_ratio": 0.622,
+   "face_color_diff": 0.0,
+   "outline_width_diff": 0.0,
+   "outline_color_diff": null,
+   "layer_count": [
+    0,
+    0
+   ],
+   "shadow_offset_diff": 0.0
+  },
+  "problems": [
+   "획 두께 비 0.622"
+  ]
+ },
+ "btn_p_ATTACK_00_JP_ja": {
+  "text": "어택피스",
+  "sources": [
+   [
+    [
+     "어택피스",
+     "font:font"
+    ]
+   ]
+  ],
+  "fit": {
+   "hscale": 1.0,
+   "tracking": -1.0,
+   "overflow": false,
+   "width": 43.5,
+   "lines": 1
+  },
+  "em": 12.0,
+  "weight_delta_px": 0.063,
+  "phase": [
+   0.0,
+   0.25,
+   0.0779
+  ],
+  "compare": {
+   "em_ratio": 1.263,
+   "stroke_ratio": 0.809,
+   "face_color_diff": 0.062,
+   "outline_width_diff": 0.0,
+   "outline_color_diff": 0.0,
+   "layer_count": [
+    1,
+    1
+   ],
+   "shadow_offset_diff": 0.0
+  },
+  "problems": [
+   "글자 높이 비 1.263"
+  ]
+ },
+ "btn_p_BLOCK_00_JP_ja": {
+  "text": "블록",
+  "sources": [
+   [
+    [
+     "블록",
+     "font:font"
+    ]
+   ]
+  ],
+  "fit": {
+   "hscale": 1.0,
+   "tracking": -1.0,
+   "overflow": false,
+   "width": 24.5,
+   "lines": 1
+  },
+  "em": 12.0,
+  "weight_delta_px": 0.029,
+  "phase": [
+   0.0,
+   0.0,
+   0.0735
+  ],
+  "compare": {
+   "em_ratio": 1.2,
+   "stroke_ratio": 0.641,
+   "face_color_diff": 0.158,
+   "outline_width_diff": 0.25,
+   "outline_color_diff": 0.0,
+   "layer_count": [
+    1,
+    1
+   ],
+   "shadow_offset_diff": 0.0
+  },
+  "problems": [
+   "글자 높이 비 1.2",
+   "획 두께 비 0.641",
+   "채움색 차 0.158"
+  ]
+ },
+ "LTIT_record_MINIGAME_00_JP_ja": {
+  "text": "어택 미니 게임",
+  "sources": [
+   [
+    [
+     "어택",
+     "font:font"
+    ],
+    [
+     "미니",
+     "font:font"
+    ],
+    [
+     "게임",
+     "font:font"
+    ]
+   ]
+  ],
+  "fit": {
+   "hscale": 1.0,
+   "tracking": -1.0,
+   "overflow": false,
+   "width": 73.25,
+   "lines": 1
+  },
+  "em": 12.0,
+  "weight_delta_px": -0.073,
+  "phase": [
+   0.75,
+   -0.5,
+   0.0855
+  ],
+  "compare": {
+   "em_ratio": 1.0,
+   "stroke_ratio": 0.933,
+   "face_color_diff": 0.0,
+   "outline_width_diff": 0.0,
+   "outline_color_diff": null,
+   "layer_count": [
+    0,
+    0
+   ],
+   "shadow_offset_diff": 0.0
+  },
+  "problems": []
+ },
+ "btn_p_COLISEUM_00_JP_ja": {
+  "text": "배틀 콜로세움",
+  "sources": [
+   [
+    [
+     "배틀",
+     "font:font"
+    ],
+    [
+     "콜로세움",
+     "font:font"
+    ]
+   ]
+  ],
+  "fit": {
+   "hscale": 1.0,
+   "tracking": -1.0,
+   "overflow": false,
+   "width": 75.75,
+   "lines": 1
+  },
+  "em": 12.0,
+  "weight_delta_px": -0.102,
+  "phase": [
+   0.0,
+   0.25,
+   0.0796
+  ],
+  "compare": {
+   "em_ratio": 1.368,
+   "stroke_ratio": 0.787,
+   "face_color_diff": 0.05,
+   "outline_width_diff": 0.0,
+   "outline_color_diff": 0.0,
+   "layer_count": [
+    1,
+    1
+   ],
+   "shadow_offset_diff": 0.0
+  },
+  "problems": [
+   "글자 높이 비 1.368",
+   "획 두께 비 0.787"
+  ]
+ },
+ "LIST_ATCMINIGAME_BB_00_jp_ja": {
+  "text": "거대화 배틀",
+  "sources": [
+   [
+    [
+     "거대화",
+     "font:font"
+    ],
+    [
+     "배틀",
+     "font:font"
+    ]
+   ]
+  ],
+  "fit": {
+   "hscale": 1.0,
+   "tracking": -1.0,
+   "overflow": false,
+   "width": 61.5,
+   "lines": 1
+  },
+  "em": 12.0,
+  "weight_delta_px": -0.1,
+  "phase": [
+   0.75,
+   -0.5,
+   0.0846
+  ],
+  "compare": {
+   "em_ratio": 1.182,
+   "stroke_ratio": 0.697,
+   "face_color_diff": 0.0,
+   "outline_width_diff": 0.0,
+   "outline_color_diff": null,
+   "layer_count": [
+    0,
+    0
+   ],
+   "shadow_offset_diff": 0.0
+  },
+  "problems": [
+   "글자 높이 비 1.182",
+   "획 두께 비 0.697"
+  ]
+ },
+ "LIST_ATCMINIGAME_BC_00_jp_ja": {
+  "text": "보스 배틀",
+  "sources": [
+   [
+    [
+     "보스",
+     "font:font"
+    ],
+    [
+     "배틀",
+     "font:font"
+    ]
+   ]
+  ],
+  "fit": {
+   "hscale": 1.0,
+   "tracking": -1.0,
+   "overflow": false,
+   "width": 52.75,
+   "lines": 1
+  },
+  "em": 12.0,
+  "weight_delta_px": -0.115,
+  "phase": [
+   0.0,
+   -0.5,
+   0.081
+  ],
+  "compare": {
+   "em_ratio": 1.0,
+   "stroke_ratio": 0.829,
+   "face_color_diff": 0.0,
+   "outline_width_diff": 0.0,
+   "outline_color_diff": null,
+   "layer_count": [
+    0,
+    0
+   ],
+   "shadow_offset_diff": 0.0
+  },
+  "problems": []
+ },
+ "LTIT_ACTMINIGAME_GUIDE_00_JP_ja": {
+  "text": "규칙",
+  "sources": [
+   [
+    [
+     "규칙",
+     "font:font"
+    ]
+   ]
+  ],
+  "fit": {
+   "hscale": 1.0,
+   "tracking": -1.0,
+   "overflow": false,
+   "width": 23.0,
+   "lines": 1
+  },
+  "em": 12.0,
+  "weight_delta_px": 0.049,
+  "phase": [
+   0.0,
+   -0.5,
+   0.0825
+  ],
+  "compare": {
+   "em_ratio": 1.091,
+   "stroke_ratio": 0.76,
+   "face_color_diff": 0.0,
+   "outline_width_diff": 0.0,
+   "outline_color_diff": null,
+   "layer_count": [
+    0,
+    0
+   ],
+   "shadow_offset_diff": 0.0
+  },
+  "problems": [
+   "획 두께 비 0.76"
+  ]
+ },
+ "LIST_ATCMINIGAME_BR_00_jp_ja": {
+  "text": "블로즈",
+  "sources": [
+   [
+    [
+     "블로즈",
+     "font:font"
+    ]
+   ]
+  ],
+  "fit": {
+   "hscale": 1.0,
+   "tracking": -1.0,
+   "overflow": false,
+   "width": 36.25,
+   "lines": 1
+  },
+  "em": 12.0,
+  "weight_delta_px": -0.095,
+  "phase": [
+   0.5,
+   -0.5,
+   0.0875
+  ],
+  "compare": {
+   "em_ratio": 1.083,
+   "stroke_ratio": 0.871,
+   "face_color_diff": 0.0,
+   "outline_width_diff": 0.0,
+   "outline_color_diff": null,
+   "layer_count": [
+    0,
+    0
+   ],
+   "shadow_offset_diff": 0.0
+  },
+  "problems": []
+ },
+ "LIST_ATCMINIGAME_CT_00_jp_ja": {
+  "text": "콜레스테로드",
+  "sources": [
+   [
+    [
+     "콜레스테로드",
+     "font:font"
+    ]
+   ]
+  ],
+  "fit": {
+   "hscale": 1.0,
+   "tracking": -1.0,
+   "overflow": false,
+   "width": 68.5,
+   "lines": 1
+  },
+  "em": 12.0,
+  "weight_delta_px": -0.05,
+  "phase": [
+   0.25,
+   -0.5,
+   0.0928
+  ],
+  "compare": {
+   "em_ratio": 1.0,
+   "stroke_ratio": 0.816,
+   "face_color_diff": 0.0,
+   "outline_width_diff": 0.0,
+   "outline_color_diff": null,
+   "layer_count": [
+    0,
+    0
+   ],
+   "shadow_offset_diff": 0.0
+  },
+  "problems": []
+ }
+}

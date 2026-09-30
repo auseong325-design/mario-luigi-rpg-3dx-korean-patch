@@ -1,0 +1,3055 @@
+{
+ "source": "ml 1dx/3romfs/Staffroll/KR/Staffroll.bin",
+ "lines": [
+  {
+   "i": 0,
+   "section": 0,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 18.0,
+   "size_bits": "0x41900000",
+   "in_3dx": null
+  },
+  {
+   "i": 1,
+   "section": 0,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": null
+  },
+  {
+   "i": 2,
+   "section": 1,
+   "kind": "name",
+   "text": "마리오&루이지 RPG 1 DX",
+   "color": "0x00000000",
+   "size": 24.0,
+   "size_bits": "0x41C00000",
+   "in_3dx": false
+  },
+  {
+   "i": 3,
+   "section": 1,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": null
+  },
+  {
+   "i": 4,
+   "section": 1,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": null
+  },
+  {
+   "i": 5,
+   "section": 2,
+   "kind": "role",
+   "text": "STAFF CREDITS",
+   "color": "0x07C4A6FF",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": true
+  },
+  {
+   "i": 6,
+   "section": 2,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": null
+  },
+  {
+   "i": 7,
+   "section": 2,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": null
+  },
+  {
+   "i": 8,
+   "section": 2,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": null
+  },
+  {
+   "i": 9,
+   "section": 2,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": null
+  },
+  {
+   "i": 10,
+   "section": 3,
+   "kind": "role",
+   "text": "Director",
+   "color": "0x07C4A6FF",
+   "size": 18.0,
+   "size_bits": "0x41900000",
+   "in_3dx": true
+  },
+  {
+   "i": 11,
+   "section": 3,
+   "kind": "name",
+   "text": "Shunsuke Kobayashi",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": true
+  },
+  {
+   "i": 12,
+   "section": 3,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 10.0,
+   "size_bits": "0x41200000",
+   "in_3dx": null
+  },
+  {
+   "i": 13,
+   "section": 3,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 5.0,
+   "size_bits": "0x40A00000",
+   "in_3dx": null
+  },
+  {
+   "i": 14,
+   "section": 4,
+   "kind": "role",
+   "text": "Main Program",
+   "color": "0x07C4A6FF",
+   "size": 18.0,
+   "size_bits": "0x41900000",
+   "in_3dx": true
+  },
+  {
+   "i": 15,
+   "section": 4,
+   "kind": "name",
+   "text": "Makoto Aioi",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": true
+  },
+  {
+   "i": 16,
+   "section": 4,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 10.0,
+   "size_bits": "0x41200000",
+   "in_3dx": null
+  },
+  {
+   "i": 17,
+   "section": 4,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 5.0,
+   "size_bits": "0x40A00000",
+   "in_3dx": null
+  },
+  {
+   "i": 18,
+   "section": 5,
+   "kind": "role",
+   "text": "Field Design",
+   "color": "0x07C4A6FF",
+   "size": 18.0,
+   "size_bits": "0x41900000",
+   "in_3dx": true
+  },
+  {
+   "i": 19,
+   "section": 5,
+   "kind": "name",
+   "text": "Fumiya Obata",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": true
+  },
+  {
+   "i": 20,
+   "section": 5,
+   "kind": "name",
+   "text": "Asuka Kageyama",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": false
+  },
+  {
+   "i": 21,
+   "section": 5,
+   "kind": "name",
+   "text": "Yoshinori Yano",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": false
+  },
+  {
+   "i": 22,
+   "section": 5,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 10.0,
+   "size_bits": "0x41200000",
+   "in_3dx": null
+  },
+  {
+   "i": 23,
+   "section": 5,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 5.0,
+   "size_bits": "0x40A00000",
+   "in_3dx": null
+  },
+  {
+   "i": 24,
+   "section": 6,
+   "kind": "role",
+   "text": "Battle Design",
+   "color": "0x07C4A6FF",
+   "size": 18.0,
+   "size_bits": "0x41900000",
+   "in_3dx": true
+  },
+  {
+   "i": 25,
+   "section": 6,
+   "kind": "name",
+   "text": "Shintarou Sano",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": true
+  },
+  {
+   "i": 26,
+   "section": 6,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 10.0,
+   "size_bits": "0x41200000",
+   "in_3dx": null
+  },
+  {
+   "i": 27,
+   "section": 6,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 5.0,
+   "size_bits": "0x40A00000",
+   "in_3dx": null
+  },
+  {
+   "i": 28,
+   "section": 7,
+   "kind": "role",
+   "text": "Game Design",
+   "color": "0x07C4A6FF",
+   "size": 18.0,
+   "size_bits": "0x41900000",
+   "in_3dx": true
+  },
+  {
+   "i": 29,
+   "section": 7,
+   "kind": "role",
+   "text": "(Koopa Gundan RPG)",
+   "color": "0x07C4A6FF",
+   "size": 18.0,
+   "size_bits": "0x41900000",
+   "in_3dx": false
+  },
+  {
+   "i": 30,
+   "section": 7,
+   "kind": "name",
+   "text": "Akiko Sugimoto",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": true
+  },
+  {
+   "i": 31,
+   "section": 7,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 10.0,
+   "size_bits": "0x41200000",
+   "in_3dx": null
+  },
+  {
+   "i": 32,
+   "section": 7,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 5.0,
+   "size_bits": "0x40A00000",
+   "in_3dx": null
+  },
+  {
+   "i": 33,
+   "section": 8,
+   "kind": "role",
+   "text": "Field Program",
+   "color": "0x07C4A6FF",
+   "size": 18.0,
+   "size_bits": "0x41900000",
+   "in_3dx": true
+  },
+  {
+   "i": 34,
+   "section": 8,
+   "kind": "name",
+   "text": "Naoya Hashimoto",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": true
+  },
+  {
+   "i": 35,
+   "section": 8,
+   "kind": "name",
+   "text": "Takahiro Akiyama",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": false
+  },
+  {
+   "i": 36,
+   "section": 8,
+   "kind": "name",
+   "text": "Makoto Takei",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": true
+  },
+  {
+   "i": 37,
+   "section": 8,
+   "kind": "name",
+   "text": "Mitsuteru Ozawa",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": true
+  },
+  {
+   "i": 38,
+   "section": 8,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 10.0,
+   "size_bits": "0x41200000",
+   "in_3dx": null
+  },
+  {
+   "i": 39,
+   "section": 8,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 5.0,
+   "size_bits": "0x40A00000",
+   "in_3dx": null
+  },
+  {
+   "i": 40,
+   "section": 9,
+   "kind": "role",
+   "text": "Battle Program",
+   "color": "0x07C4A6FF",
+   "size": 18.0,
+   "size_bits": "0x41900000",
+   "in_3dx": true
+  },
+  {
+   "i": 41,
+   "section": 9,
+   "kind": "name",
+   "text": "Ryunosuke Sugiyama",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": true
+  },
+  {
+   "i": 42,
+   "section": 9,
+   "kind": "name",
+   "text": "Harumi Kamo",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": false
+  },
+  {
+   "i": 43,
+   "section": 9,
+   "kind": "name",
+   "text": "Hiroshi Ohata",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": true
+  },
+  {
+   "i": 44,
+   "section": 9,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 10.0,
+   "size_bits": "0x41200000",
+   "in_3dx": null
+  },
+  {
+   "i": 45,
+   "section": 9,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 5.0,
+   "size_bits": "0x40A00000",
+   "in_3dx": null
+  },
+  {
+   "i": 46,
+   "section": 10,
+   "kind": "role",
+   "text": "Battle Program",
+   "color": "0x07C4A6FF",
+   "size": 18.0,
+   "size_bits": "0x41900000",
+   "in_3dx": true
+  },
+  {
+   "i": 47,
+   "section": 10,
+   "kind": "role",
+   "text": "(Koopa Gundan RPG)",
+   "color": "0x07C4A6FF",
+   "size": 18.0,
+   "size_bits": "0x41900000",
+   "in_3dx": false
+  },
+  {
+   "i": 48,
+   "section": 10,
+   "kind": "name",
+   "text": "Itaru Sato",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": false
+  },
+  {
+   "i": 49,
+   "section": 10,
+   "kind": "name",
+   "text": "Naiki Yano",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": true
+  },
+  {
+   "i": 50,
+   "section": 10,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 10.0,
+   "size_bits": "0x41200000",
+   "in_3dx": null
+  },
+  {
+   "i": 51,
+   "section": 10,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 5.0,
+   "size_bits": "0x40A00000",
+   "in_3dx": null
+  },
+  {
+   "i": 52,
+   "section": 11,
+   "kind": "role",
+   "text": "Minigame Program",
+   "color": "0x07C4A6FF",
+   "size": 18.0,
+   "size_bits": "0x41900000",
+   "in_3dx": false
+  },
+  {
+   "i": 53,
+   "section": 11,
+   "kind": "name",
+   "text": "Yuki Akahori",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": false
+  },
+  {
+   "i": 54,
+   "section": 11,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 10.0,
+   "size_bits": "0x41200000",
+   "in_3dx": null
+  },
+  {
+   "i": 55,
+   "section": 11,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 5.0,
+   "size_bits": "0x40A00000",
+   "in_3dx": null
+  },
+  {
+   "i": 56,
+   "section": 12,
+   "kind": "role",
+   "text": "Menu Program",
+   "color": "0x07C4A6FF",
+   "size": 18.0,
+   "size_bits": "0x41900000",
+   "in_3dx": true
+  },
+  {
+   "i": 57,
+   "section": 12,
+   "kind": "name",
+   "text": "Masaya Ohtomo",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": true
+  },
+  {
+   "i": 58,
+   "section": 12,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 10.0,
+   "size_bits": "0x41200000",
+   "in_3dx": null
+  },
+  {
+   "i": 59,
+   "section": 12,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 5.0,
+   "size_bits": "0x40A00000",
+   "in_3dx": null
+  },
+  {
+   "i": 60,
+   "section": 13,
+   "kind": "role",
+   "text": "Graphic Design Lead",
+   "color": "0x07C4A6FF",
+   "size": 18.0,
+   "size_bits": "0x41900000",
+   "in_3dx": true
+  },
+  {
+   "i": 61,
+   "section": 13,
+   "kind": "name",
+   "text": "Takuji Sasaki",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": true
+  },
+  {
+   "i": 62,
+   "section": 13,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 10.0,
+   "size_bits": "0x41200000",
+   "in_3dx": null
+  },
+  {
+   "i": 63,
+   "section": 13,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 5.0,
+   "size_bits": "0x40A00000",
+   "in_3dx": null
+  },
+  {
+   "i": 64,
+   "section": 14,
+   "kind": "role",
+   "text": "Mario & Luigi Graphics",
+   "color": "0x07C4A6FF",
+   "size": 18.0,
+   "size_bits": "0x41900000",
+   "in_3dx": true
+  },
+  {
+   "i": 65,
+   "section": 14,
+   "kind": "name",
+   "text": "Natsuko Kemi",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": true
+  },
+  {
+   "i": 66,
+   "section": 14,
+   "kind": "name",
+   "text": "Susumu Tomizawa",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": true
+  },
+  {
+   "i": 67,
+   "section": 14,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 10.0,
+   "size_bits": "0x41200000",
+   "in_3dx": null
+  },
+  {
+   "i": 68,
+   "section": 14,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 5.0,
+   "size_bits": "0x40A00000",
+   "in_3dx": null
+  },
+  {
+   "i": 69,
+   "section": 15,
+   "kind": "role",
+   "text": "Enemy Graphics",
+   "color": "0x07C4A6FF",
+   "size": 18.0,
+   "size_bits": "0x41900000",
+   "in_3dx": true
+  },
+  {
+   "i": 70,
+   "section": 15,
+   "kind": "name",
+   "text": "Shuji Kamohara",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": true
+  },
+  {
+   "i": 71,
+   "section": 15,
+   "kind": "name",
+   "text": "Yuichiro Nakayama",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": true
+  },
+  {
+   "i": 72,
+   "section": 15,
+   "kind": "name",
+   "text": "Tomoko Obara",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": false
+  },
+  {
+   "i": 73,
+   "section": 15,
+   "kind": "name",
+   "text": "Akemi Koyama",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": false
+  },
+  {
+   "i": 74,
+   "section": 15,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 10.0,
+   "size_bits": "0x41200000",
+   "in_3dx": null
+  },
+  {
+   "i": 75,
+   "section": 15,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 5.0,
+   "size_bits": "0x40A00000",
+   "in_3dx": null
+  },
+  {
+   "i": 76,
+   "section": 16,
+   "kind": "role",
+   "text": "Field Character Graphics",
+   "color": "0x07C4A6FF",
+   "size": 18.0,
+   "size_bits": "0x41900000",
+   "in_3dx": true
+  },
+  {
+   "i": 77,
+   "section": 16,
+   "kind": "name",
+   "text": "Yoshihiro Matsuyama",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": true
+  },
+  {
+   "i": 78,
+   "section": 16,
+   "kind": "name",
+   "text": "Hiroyuki Yotsutsuji",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": true
+  },
+  {
+   "i": 79,
+   "section": 16,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 10.0,
+   "size_bits": "0x41200000",
+   "in_3dx": null
+  },
+  {
+   "i": 80,
+   "section": 16,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 5.0,
+   "size_bits": "0x40A00000",
+   "in_3dx": null
+  },
+  {
+   "i": 81,
+   "section": 17,
+   "kind": "role",
+   "text": "Effect Design",
+   "color": "0x07C4A6FF",
+   "size": 18.0,
+   "size_bits": "0x41900000",
+   "in_3dx": true
+  },
+  {
+   "i": 82,
+   "section": 17,
+   "kind": "name",
+   "text": "Tetsuya Ohi",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": true
+  },
+  {
+   "i": 83,
+   "section": 17,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 10.0,
+   "size_bits": "0x41200000",
+   "in_3dx": null
+  },
+  {
+   "i": 84,
+   "section": 17,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 5.0,
+   "size_bits": "0x40A00000",
+   "in_3dx": null
+  },
+  {
+   "i": 85,
+   "section": 18,
+   "kind": "role",
+   "text": "BG Graphics Lead",
+   "color": "0x07C4A6FF",
+   "size": 18.0,
+   "size_bits": "0x41900000",
+   "in_3dx": true
+  },
+  {
+   "i": 86,
+   "section": 18,
+   "kind": "name",
+   "text": "Kouichi Fukazawa",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": true
+  },
+  {
+   "i": 87,
+   "section": 18,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 10.0,
+   "size_bits": "0x41200000",
+   "in_3dx": null
+  },
+  {
+   "i": 88,
+   "section": 18,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 5.0,
+   "size_bits": "0x40A00000",
+   "in_3dx": null
+  },
+  {
+   "i": 89,
+   "section": 19,
+   "kind": "role",
+   "text": "BG Graphic Design",
+   "color": "0x07C4A6FF",
+   "size": 18.0,
+   "size_bits": "0x41900000",
+   "in_3dx": true
+  },
+  {
+   "i": 90,
+   "section": 19,
+   "kind": "name",
+   "text": "Osamu Ohguchi",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": false
+  },
+  {
+   "i": 91,
+   "section": 19,
+   "kind": "name",
+   "text": "Masako Kotobuki",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": true
+  },
+  {
+   "i": 92,
+   "section": 19,
+   "kind": "name",
+   "text": "Akira Katsuta",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": false
+  },
+  {
+   "i": 93,
+   "section": 19,
+   "kind": "name",
+   "text": "Yuuki Amano",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": true
+  },
+  {
+   "i": 94,
+   "section": 19,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 10.0,
+   "size_bits": "0x41200000",
+   "in_3dx": null
+  },
+  {
+   "i": 95,
+   "section": 19,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 5.0,
+   "size_bits": "0x40A00000",
+   "in_3dx": null
+  },
+  {
+   "i": 96,
+   "section": 20,
+   "kind": "role",
+   "text": "BG Graphics",
+   "color": "0x07C4A6FF",
+   "size": 18.0,
+   "size_bits": "0x41900000",
+   "in_3dx": true
+  },
+  {
+   "i": 97,
+   "section": 20,
+   "kind": "name",
+   "text": "Reo Nakamura",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": true
+  },
+  {
+   "i": 98,
+   "section": 20,
+   "kind": "name",
+   "text": "Kaori Hitsuda",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": true
+  },
+  {
+   "i": 99,
+   "section": 20,
+   "kind": "name",
+   "text": "Haruka Yamasaki",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": true
+  },
+  {
+   "i": 100,
+   "section": 20,
+   "kind": "name",
+   "text": "Shouko Muramoto",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": true
+  },
+  {
+   "i": 101,
+   "section": 20,
+   "kind": "name",
+   "text": "Masahiko Toda",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": false
+  },
+  {
+   "i": 102,
+   "section": 20,
+   "kind": "name",
+   "text": "Tomoya Hiwatari",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": true
+  },
+  {
+   "i": 103,
+   "section": 20,
+   "kind": "name",
+   "text": "Tatsuya Sugimoto",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": false
+  },
+  {
+   "i": 104,
+   "section": 20,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 10.0,
+   "size_bits": "0x41200000",
+   "in_3dx": null
+  },
+  {
+   "i": 105,
+   "section": 20,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 5.0,
+   "size_bits": "0x40A00000",
+   "in_3dx": null
+  },
+  {
+   "i": 106,
+   "section": 21,
+   "kind": "role",
+   "text": "3D Model & Motion",
+   "color": "0x07C4A6FF",
+   "size": 18.0,
+   "size_bits": "0x41900000",
+   "in_3dx": true
+  },
+  {
+   "i": 107,
+   "section": 21,
+   "kind": "name",
+   "text": "Ryuta Inoue",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": true
+  },
+  {
+   "i": 108,
+   "section": 21,
+   "kind": "name",
+   "text": "Kota Iida",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": true
+  },
+  {
+   "i": 109,
+   "section": 21,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 10.0,
+   "size_bits": "0x41200000",
+   "in_3dx": null
+  },
+  {
+   "i": 110,
+   "section": 21,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 5.0,
+   "size_bits": "0x40A00000",
+   "in_3dx": null
+  },
+  {
+   "i": 111,
+   "section": 22,
+   "kind": "role",
+   "text": "Menu Graphics",
+   "color": "0x07C4A6FF",
+   "size": 18.0,
+   "size_bits": "0x41900000",
+   "in_3dx": true
+  },
+  {
+   "i": 112,
+   "section": 22,
+   "kind": "name",
+   "text": "Akira Noguchi",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": true
+  },
+  {
+   "i": 113,
+   "section": 22,
+   "kind": "name",
+   "text": "Akira Fujii",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": false
+  },
+  {
+   "i": 114,
+   "section": 22,
+   "kind": "name",
+   "text": "Risa Miyamori",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": true
+  },
+  {
+   "i": 115,
+   "section": 22,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 10.0,
+   "size_bits": "0x41200000",
+   "in_3dx": null
+  },
+  {
+   "i": 116,
+   "section": 22,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 5.0,
+   "size_bits": "0x40A00000",
+   "in_3dx": null
+  },
+  {
+   "i": 117,
+   "section": 23,
+   "kind": "role",
+   "text": "Voices",
+   "color": "0x07C4A6FF",
+   "size": 18.0,
+   "size_bits": "0x41900000",
+   "in_3dx": true
+  },
+  {
+   "i": 118,
+   "section": 23,
+   "kind": "name",
+   "text": "Charles Martinet",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": true
+  },
+  {
+   "i": 119,
+   "section": 23,
+   "kind": "name",
+   "text": "Sam Kelly",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": true
+  },
+  {
+   "i": 120,
+   "section": 23,
+   "kind": "name",
+   "text": "Kenny James",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": true
+  },
+  {
+   "i": 121,
+   "section": 23,
+   "kind": "name",
+   "text": "Kazumi Totaka",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": false
+  },
+  {
+   "i": 122,
+   "section": 23,
+   "kind": "name",
+   "text": "Atsushi Masaki",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": true
+  },
+  {
+   "i": 123,
+   "section": 23,
+   "kind": "name",
+   "text": "Caety Sagoian",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": true
+  },
+  {
+   "i": 124,
+   "section": 23,
+   "kind": "name",
+   "text": "Lani Minella",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": false
+  },
+  {
+   "i": 125,
+   "section": 23,
+   "kind": "name",
+   "text": "Mike Vaughn",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": false
+  },
+  {
+   "i": 126,
+   "section": 23,
+   "kind": "name",
+   "text": "Dan Falcone",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": true
+  },
+  {
+   "i": 127,
+   "section": 23,
+   "kind": "name",
+   "text": "Tadd Morgan",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": false
+  },
+  {
+   "i": 128,
+   "section": 23,
+   "kind": "name",
+   "text": "Nate Bihldorff",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": true
+  },
+  {
+   "i": 129,
+   "section": 23,
+   "kind": "name",
+   "text": "Sanae Uchida",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": true
+  },
+  {
+   "i": 130,
+   "section": 23,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 10.0,
+   "size_bits": "0x41200000",
+   "in_3dx": null
+  },
+  {
+   "i": 131,
+   "section": 23,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 5.0,
+   "size_bits": "0x40A00000",
+   "in_3dx": null
+  },
+  {
+   "i": 132,
+   "section": 24,
+   "kind": "role",
+   "text": "Music",
+   "color": "0x07C4A6FF",
+   "size": 18.0,
+   "size_bits": "0x41900000",
+   "in_3dx": true
+  },
+  {
+   "i": 133,
+   "section": 24,
+   "kind": "name",
+   "text": "Yoko Shimomura",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": true
+  },
+  {
+   "i": 134,
+   "section": 24,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 10.0,
+   "size_bits": "0x41200000",
+   "in_3dx": null
+  },
+  {
+   "i": 135,
+   "section": 24,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 5.0,
+   "size_bits": "0x40A00000",
+   "in_3dx": null
+  },
+  {
+   "i": 136,
+   "section": 25,
+   "kind": "role",
+   "text": "Sound Effects",
+   "color": "0x07C4A6FF",
+   "size": 18.0,
+   "size_bits": "0x41900000",
+   "in_3dx": true
+  },
+  {
+   "i": 137,
+   "section": 25,
+   "kind": "name",
+   "text": "Morikazu Aoki",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": true
+  },
+  {
+   "i": 138,
+   "section": 25,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 10.0,
+   "size_bits": "0x41200000",
+   "in_3dx": null
+  },
+  {
+   "i": 139,
+   "section": 25,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 5.0,
+   "size_bits": "0x40A00000",
+   "in_3dx": null
+  },
+  {
+   "i": 140,
+   "section": 26,
+   "kind": "role",
+   "text": "Visual Supervisor",
+   "color": "0x07C4A6FF",
+   "size": 18.0,
+   "size_bits": "0x41900000",
+   "in_3dx": true
+  },
+  {
+   "i": 141,
+   "section": 26,
+   "kind": "name",
+   "text": "Takayoshi Sato",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": true
+  },
+  {
+   "i": 142,
+   "section": 26,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 10.0,
+   "size_bits": "0x41200000",
+   "in_3dx": null
+  },
+  {
+   "i": 143,
+   "section": 26,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 5.0,
+   "size_bits": "0x40A00000",
+   "in_3dx": null
+  },
+  {
+   "i": 144,
+   "section": 27,
+   "kind": "role",
+   "text": "Character Supervisors",
+   "color": "0x07C4A6FF",
+   "size": 18.0,
+   "size_bits": "0x41900000",
+   "in_3dx": true
+  },
+  {
+   "i": 145,
+   "section": 27,
+   "kind": "name",
+   "text": "Aya Oyama",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": true
+  },
+  {
+   "i": 146,
+   "section": 27,
+   "kind": "name",
+   "text": "Kazue Ohara",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": false
+  },
+  {
+   "i": 147,
+   "section": 27,
+   "kind": "name",
+   "text": "Chiaki Ogura",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": false
+  },
+  {
+   "i": 148,
+   "section": 27,
+   "kind": "name",
+   "text": "Tsuyoshi Watanabe",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": true
+  },
+  {
+   "i": 149,
+   "section": 27,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 10.0,
+   "size_bits": "0x41200000",
+   "in_3dx": null
+  },
+  {
+   "i": 150,
+   "section": 27,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 5.0,
+   "size_bits": "0x40A00000",
+   "in_3dx": null
+  },
+  {
+   "i": 151,
+   "section": 28,
+   "kind": "role",
+   "text": "Sound Supervisor",
+   "color": "0x07C4A6FF",
+   "size": 18.0,
+   "size_bits": "0x41900000",
+   "in_3dx": true
+  },
+  {
+   "i": 152,
+   "section": 28,
+   "kind": "name",
+   "text": "Koji Kondo",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": false
+  },
+  {
+   "i": 153,
+   "section": 28,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 10.0,
+   "size_bits": "0x41200000",
+   "in_3dx": null
+  },
+  {
+   "i": 154,
+   "section": 28,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 5.0,
+   "size_bits": "0x40A00000",
+   "in_3dx": null
+  },
+  {
+   "i": 155,
+   "section": 29,
+   "kind": "role",
+   "text": "Artwork",
+   "color": "0x07C4A6FF",
+   "size": 18.0,
+   "size_bits": "0x41900000",
+   "in_3dx": false
+  },
+  {
+   "i": 156,
+   "section": 29,
+   "kind": "name",
+   "text": "Shiori Adachi",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": true
+  },
+  {
+   "i": 157,
+   "section": 29,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 10.0,
+   "size_bits": "0x41200000",
+   "in_3dx": null
+  },
+  {
+   "i": 158,
+   "section": 29,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 5.0,
+   "size_bits": "0x40A00000",
+   "in_3dx": null
+  },
+  {
+   "i": 159,
+   "section": 30,
+   "kind": "role",
+   "text": "Manual Editing",
+   "color": "0x07C4A6FF",
+   "size": 18.0,
+   "size_bits": "0x41900000",
+   "in_3dx": true
+  },
+  {
+   "i": 160,
+   "section": 30,
+   "kind": "name",
+   "text": "Jonghoon Park",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": false
+  },
+  {
+   "i": 161,
+   "section": 30,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 10.0,
+   "size_bits": "0x41200000",
+   "in_3dx": null
+  },
+  {
+   "i": 162,
+   "section": 30,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 5.0,
+   "size_bits": "0x40A00000",
+   "in_3dx": null
+  },
+  {
+   "i": 163,
+   "section": 31,
+   "kind": "role",
+   "text": "NOA Localization Management",
+   "color": "0x07C4A6FF",
+   "size": 16.0,
+   "size_bits": "0x41800000",
+   "in_3dx": true
+  },
+  {
+   "i": 164,
+   "section": 31,
+   "kind": "name",
+   "text": "Nate Bihldorff",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": true
+  },
+  {
+   "i": 165,
+   "section": 31,
+   "kind": "name",
+   "text": "Reiko Ninomiya",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": true
+  },
+  {
+   "i": 166,
+   "section": 31,
+   "kind": "name",
+   "text": "Tim O'Leary",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": true
+  },
+  {
+   "i": 167,
+   "section": 31,
+   "kind": "name",
+   "text": "Scot Ritchey",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": true
+  },
+  {
+   "i": 168,
+   "section": 31,
+   "kind": "name",
+   "text": "Rich Amtower",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": true
+  },
+  {
+   "i": 169,
+   "section": 31,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 10.0,
+   "size_bits": "0x41200000",
+   "in_3dx": null
+  },
+  {
+   "i": 170,
+   "section": 31,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 5.0,
+   "size_bits": "0x40A00000",
+   "in_3dx": null
+  },
+  {
+   "i": 171,
+   "section": 32,
+   "kind": "role",
+   "text": "NOA Localization",
+   "color": "0x07C4A6FF",
+   "size": 18.0,
+   "size_bits": "0x41900000",
+   "in_3dx": true
+  },
+  {
+   "i": 172,
+   "section": 32,
+   "kind": "name",
+   "text": "Ana Celeste Ascanio",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": false
+  },
+  {
+   "i": 173,
+   "section": 32,
+   "kind": "name",
+   "text": "Billy Carroll",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": false
+  },
+  {
+   "i": 174,
+   "section": 32,
+   "kind": "name",
+   "text": "Audrey Drake",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": true
+  },
+  {
+   "i": 175,
+   "section": 32,
+   "kind": "name",
+   "text": "Galia Rodriguez Hornedo",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": false
+  },
+  {
+   "i": 176,
+   "section": 32,
+   "kind": "name",
+   "text": "R Nathaniel Kelley",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": false
+  },
+  {
+   "i": 177,
+   "section": 32,
+   "kind": "name",
+   "text": "Nate Bihldorff",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": true
+  },
+  {
+   "i": 178,
+   "section": 32,
+   "kind": "name",
+   "text": "Bill Trinen",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": false
+  },
+  {
+   "i": 179,
+   "section": 32,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 10.0,
+   "size_bits": "0x41200000",
+   "in_3dx": null
+  },
+  {
+   "i": 180,
+   "section": 32,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 5.0,
+   "size_bits": "0x40A00000",
+   "in_3dx": null
+  },
+  {
+   "i": 181,
+   "section": 33,
+   "kind": "role",
+   "text": "NOE Localisation Producers",
+   "color": "0x07C4A6FF",
+   "size": 16.0,
+   "size_bits": "0x41800000",
+   "in_3dx": true
+  },
+  {
+   "i": 182,
+   "section": 33,
+   "kind": "name",
+   "text": "Daniel Björnström",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": false
+  },
+  {
+   "i": 183,
+   "section": 33,
+   "kind": "name",
+   "text": "Palma Sánchez de Moya Rodríguez",
+   "color": "0x00000000",
+   "size": 15.0,
+   "size_bits": "0x41700000",
+   "in_3dx": false
+  },
+  {
+   "i": 184,
+   "section": 33,
+   "kind": "name",
+   "text": "Barbara Wallace",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": false
+  },
+  {
+   "i": 185,
+   "section": 33,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 10.0,
+   "size_bits": "0x41200000",
+   "in_3dx": null
+  },
+  {
+   "i": 186,
+   "section": 33,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 5.0,
+   "size_bits": "0x40A00000",
+   "in_3dx": null
+  },
+  {
+   "i": 187,
+   "section": 34,
+   "kind": "role",
+   "text": "Translation",
+   "color": "0x07C4A6FF",
+   "size": 18.0,
+   "size_bits": "0x41900000",
+   "in_3dx": false
+  },
+  {
+   "i": 188,
+   "section": 34,
+   "kind": "name",
+   "text": "Michael Frisch",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": false
+  },
+  {
+   "i": 189,
+   "section": 34,
+   "kind": "name",
+   "text": "Daniel Idoine-Shirai",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": false
+  },
+  {
+   "i": 190,
+   "section": 34,
+   "kind": "name",
+   "text": "Sylvain Gsell",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": false
+  },
+  {
+   "i": 191,
+   "section": 34,
+   "kind": "name",
+   "text": "Sabrina Jouillat",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": false
+  },
+  {
+   "i": 192,
+   "section": 34,
+   "kind": "name",
+   "text": "Adriano Antonini",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": true
+  },
+  {
+   "i": 193,
+   "section": 34,
+   "kind": "name",
+   "text": "Giacomo Iacumin",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": false
+  },
+  {
+   "i": 194,
+   "section": 34,
+   "kind": "name",
+   "text": "Gunnar Friedrich",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": true
+  },
+  {
+   "i": 195,
+   "section": 34,
+   "kind": "name",
+   "text": "Katharina Mitteldorf",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": false
+  },
+  {
+   "i": 196,
+   "section": 34,
+   "kind": "name",
+   "text": "Alfonso Díaz Jiménez",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": false
+  },
+  {
+   "i": 197,
+   "section": 34,
+   "kind": "name",
+   "text": "Álex Hernández-Puertas",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": true
+  },
+  {
+   "i": 198,
+   "section": 34,
+   "kind": "name",
+   "text": "Marc Ambler",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": false
+  },
+  {
+   "i": 199,
+   "section": 34,
+   "kind": "name",
+   "text": "Thomas den Haan",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": false
+  },
+  {
+   "i": 200,
+   "section": 34,
+   "kind": "name",
+   "text": "Mark Hoefsteders",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": false
+  },
+  {
+   "i": 201,
+   "section": 34,
+   "kind": "name",
+   "text": "Suzanne Turgeon",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": false
+  },
+  {
+   "i": 202,
+   "section": 34,
+   "kind": "name",
+   "text": "Sarah Kelly",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": false
+  },
+  {
+   "i": 203,
+   "section": 34,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 10.0,
+   "size_bits": "0x41200000",
+   "in_3dx": null
+  },
+  {
+   "i": 204,
+   "section": 34,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 5.0,
+   "size_bits": "0x40A00000",
+   "in_3dx": null
+  },
+  {
+   "i": 205,
+   "section": 35,
+   "kind": "role",
+   "text": "NOK Localization Management",
+   "color": "0x07C4A6FF",
+   "size": 16.0,
+   "size_bits": "0x41800000",
+   "in_3dx": false
+  },
+  {
+   "i": 206,
+   "section": 35,
+   "kind": "name",
+   "text": "Hyokjin Jung",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": false
+  },
+  {
+   "i": 207,
+   "section": 35,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 10.0,
+   "size_bits": "0x41200000",
+   "in_3dx": null
+  },
+  {
+   "i": 208,
+   "section": 35,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 5.0,
+   "size_bits": "0x40A00000",
+   "in_3dx": null
+  },
+  {
+   "i": 209,
+   "section": 36,
+   "kind": "role",
+   "text": "NOK Localization",
+   "color": "0x07C4A6FF",
+   "size": 18.0,
+   "size_bits": "0x41900000",
+   "in_3dx": false
+  },
+  {
+   "i": 210,
+   "section": 36,
+   "kind": "name",
+   "text": "Jongeun Kim",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": false
+  },
+  {
+   "i": 211,
+   "section": 36,
+   "kind": "name",
+   "text": "Dongyeon Kim",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": false
+  },
+  {
+   "i": 212,
+   "section": 36,
+   "kind": "name",
+   "text": "Soonil Kim",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": false
+  },
+  {
+   "i": 213,
+   "section": 36,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 10.0,
+   "size_bits": "0x41200000",
+   "in_3dx": null
+  },
+  {
+   "i": 214,
+   "section": 36,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 5.0,
+   "size_bits": "0x40A00000",
+   "in_3dx": null
+  },
+  {
+   "i": 215,
+   "section": 37,
+   "kind": "role",
+   "text": "Testing & Quality Assurance",
+   "color": "0x07C4A6FF",
+   "size": 16.0,
+   "size_bits": "0x41800000",
+   "in_3dx": true
+  },
+  {
+   "i": 216,
+   "section": 37,
+   "kind": "name",
+   "text": "Mario Club Co., Ltd.",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": true
+  },
+  {
+   "i": 217,
+   "section": 37,
+   "kind": "name",
+   "text": "DIGITAL Hearts Co., Ltd.",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": true
+  },
+  {
+   "i": 218,
+   "section": 37,
+   "kind": "name",
+   "text": "NOA Product Testing",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": true
+  },
+  {
+   "i": 219,
+   "section": 37,
+   "kind": "name",
+   "text": "NOE Quality Assurance",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": true
+  },
+  {
+   "i": 220,
+   "section": 37,
+   "kind": "name",
+   "text": "Keywords Studios",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": false
+  },
+  {
+   "i": 221,
+   "section": 37,
+   "kind": "name",
+   "text": "NOK Quality Control Sect.",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": false
+  },
+  {
+   "i": 222,
+   "section": 37,
+   "kind": "name",
+   "text": "Pole To Win Korea Co., Ltd.",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": false
+  },
+  {
+   "i": 223,
+   "section": 37,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 10.0,
+   "size_bits": "0x41200000",
+   "in_3dx": null
+  },
+  {
+   "i": 224,
+   "section": 37,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 5.0,
+   "size_bits": "0x40A00000",
+   "in_3dx": null
+  },
+  {
+   "i": 225,
+   "section": 38,
+   "kind": "role",
+   "text": "Progress Supervision",
+   "color": "0x07C4A6FF",
+   "size": 18.0,
+   "size_bits": "0x41900000",
+   "in_3dx": true
+  },
+  {
+   "i": 226,
+   "section": 38,
+   "kind": "name",
+   "text": "Kazuyuki Gofuku",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": true
+  },
+  {
+   "i": 227,
+   "section": 38,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 10.0,
+   "size_bits": "0x41200000",
+   "in_3dx": null
+  },
+  {
+   "i": 228,
+   "section": 38,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 5.0,
+   "size_bits": "0x40A00000",
+   "in_3dx": null
+  },
+  {
+   "i": 229,
+   "section": 39,
+   "kind": "role",
+   "text": "Special Thanks",
+   "color": "0x07C4A6FF",
+   "size": 18.0,
+   "size_bits": "0x41900000",
+   "in_3dx": true
+  },
+  {
+   "i": 230,
+   "section": 39,
+   "kind": "name",
+   "text": "Tsuyoshi Masada",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": true
+  },
+  {
+   "i": 231,
+   "section": 39,
+   "kind": "name",
+   "text": "Toru Inage",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": false
+  },
+  {
+   "i": 232,
+   "section": 39,
+   "kind": "name",
+   "text": "Takahiro Kumasaka",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": true
+  },
+  {
+   "i": 233,
+   "section": 39,
+   "kind": "name",
+   "text": "Tsuyoshi Komura",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": true
+  },
+  {
+   "i": 234,
+   "section": 39,
+   "kind": "name",
+   "text": "Rina Watanabe",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": true
+  },
+  {
+   "i": 235,
+   "section": 39,
+   "kind": "name",
+   "text": "Rika Imaeda",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": false
+  },
+  {
+   "i": 236,
+   "section": 39,
+   "kind": "name",
+   "text": "Ed Ridgeway",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": false
+  },
+  {
+   "i": 237,
+   "section": 39,
+   "kind": "name",
+   "text": "Kaylee Lewis",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": false
+  },
+  {
+   "i": 238,
+   "section": 39,
+   "kind": "name",
+   "text": "Ángel Moreno Colmena",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": false
+  },
+  {
+   "i": 239,
+   "section": 39,
+   "kind": "name",
+   "text": "Patrick Thorenz",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": false
+  },
+  {
+   "i": 240,
+   "section": 39,
+   "kind": "name",
+   "text": "Chad York",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": false
+  },
+  {
+   "i": 241,
+   "section": 39,
+   "kind": "name",
+   "text": "Kazumi Totaka",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": false
+  },
+  {
+   "i": 242,
+   "section": 39,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 10.0,
+   "size_bits": "0x41200000",
+   "in_3dx": null
+  },
+  {
+   "i": 243,
+   "section": 40,
+   "kind": "name",
+   "text": "Digital Works Entertainment",
+   "color": "0x00000000",
+   "size": 17.0,
+   "size_bits": "0x41880000",
+   "in_3dx": true
+  },
+  {
+   "i": 244,
+   "section": 40,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 10.0,
+   "size_bits": "0x41200000",
+   "in_3dx": null
+  },
+  {
+   "i": 245,
+   "section": 40,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 5.0,
+   "size_bits": "0x40A00000",
+   "in_3dx": null
+  },
+  {
+   "i": 246,
+   "section": 41,
+   "kind": "role",
+   "text": "BASED ON THE WORK OF",
+   "color": "0x07C4A6FF",
+   "size": 18.0,
+   "size_bits": "0x41900000",
+   "in_3dx": true
+  },
+  {
+   "i": 247,
+   "section": 41,
+   "kind": "role",
+   "text": "Mario&LuigiRPG",
+   "color": "0x07C4A6FF",
+   "size": 18.0,
+   "size_bits": "0x41900000",
+   "in_3dx": false
+  },
+  {
+   "i": 248,
+   "section": 41,
+   "kind": "role",
+   "text": "Development Staff",
+   "color": "0x07C4A6FF",
+   "size": 18.0,
+   "size_bits": "0x41900000",
+   "in_3dx": true
+  },
+  {
+   "i": 249,
+   "section": 41,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 10.0,
+   "size_bits": "0x41200000",
+   "in_3dx": null
+  },
+  {
+   "i": 250,
+   "section": 41,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 5.0,
+   "size_bits": "0x40A00000",
+   "in_3dx": null
+  },
+  {
+   "i": 251,
+   "section": 42,
+   "kind": "role",
+   "text": "Supervisors",
+   "color": "0x07C4A6FF",
+   "size": 18.0,
+   "size_bits": "0x41900000",
+   "in_3dx": true
+  },
+  {
+   "i": 252,
+   "section": 42,
+   "kind": "name",
+   "text": "Shigeru Miyamoto",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": true
+  },
+  {
+   "i": 253,
+   "section": 42,
+   "kind": "name",
+   "text": "Takashi Tezuka",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": true
+  },
+  {
+   "i": 254,
+   "section": 42,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 10.0,
+   "size_bits": "0x41200000",
+   "in_3dx": null
+  },
+  {
+   "i": 255,
+   "section": 42,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 5.0,
+   "size_bits": "0x40A00000",
+   "in_3dx": null
+  },
+  {
+   "i": 256,
+   "section": 43,
+   "kind": "role",
+   "text": "Coordination",
+   "color": "0x07C4A6FF",
+   "size": 18.0,
+   "size_bits": "0x41900000",
+   "in_3dx": true
+  },
+  {
+   "i": 257,
+   "section": 43,
+   "kind": "name",
+   "text": "Lauren Wells",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": true
+  },
+  {
+   "i": 258,
+   "section": 43,
+   "kind": "name",
+   "text": "Masayuki Seino",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": true
+  },
+  {
+   "i": 259,
+   "section": 43,
+   "kind": "name",
+   "text": "Yoko Yamakawa",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": true
+  },
+  {
+   "i": 260,
+   "section": 43,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 10.0,
+   "size_bits": "0x41200000",
+   "in_3dx": null
+  },
+  {
+   "i": 261,
+   "section": 43,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 5.0,
+   "size_bits": "0x40A00000",
+   "in_3dx": null
+  },
+  {
+   "i": 262,
+   "section": 44,
+   "kind": "role",
+   "text": "Assistant Director",
+   "color": "0x07C4A6FF",
+   "size": 18.0,
+   "size_bits": "0x41900000",
+   "in_3dx": false
+  },
+  {
+   "i": 263,
+   "section": 44,
+   "kind": "name",
+   "text": "Tomomi Sano",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": true
+  },
+  {
+   "i": 264,
+   "section": 44,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 10.0,
+   "size_bits": "0x41200000",
+   "in_3dx": null
+  },
+  {
+   "i": 265,
+   "section": 44,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 5.0,
+   "size_bits": "0x40A00000",
+   "in_3dx": null
+  },
+  {
+   "i": 266,
+   "section": 45,
+   "kind": "role",
+   "text": "Producers",
+   "color": "0x07C4A6FF",
+   "size": 18.0,
+   "size_bits": "0x41900000",
+   "in_3dx": true
+  },
+  {
+   "i": 267,
+   "section": 45,
+   "kind": "name",
+   "text": "Akira Otani",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": true
+  },
+  {
+   "i": 268,
+   "section": 45,
+   "kind": "name",
+   "text": "Toshiharu Izuno",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": true
+  },
+  {
+   "i": 269,
+   "section": 45,
+   "kind": "name",
+   "text": "Yoshihiko Maekawa",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": true
+  },
+  {
+   "i": 270,
+   "section": 45,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 10.0,
+   "size_bits": "0x41200000",
+   "in_3dx": null
+  },
+  {
+   "i": 271,
+   "section": 46,
+   "kind": "name",
+   "text": "Keisuke Terasaki",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": true
+  },
+  {
+   "i": 272,
+   "section": 46,
+   "kind": "name",
+   "text": "Toyokazu Nonaka",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": true
+  },
+  {
+   "i": 273,
+   "section": 46,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 10.0,
+   "size_bits": "0x41200000",
+   "in_3dx": null
+  },
+  {
+   "i": 274,
+   "section": 46,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 5.0,
+   "size_bits": "0x40A00000",
+   "in_3dx": null
+  },
+  {
+   "i": 275,
+   "section": 47,
+   "kind": "role",
+   "text": "General Producers",
+   "color": "0x07C4A6FF",
+   "size": 18.0,
+   "size_bits": "0x41900000",
+   "in_3dx": false
+  },
+  {
+   "i": 276,
+   "section": 47,
+   "kind": "name",
+   "text": "Shinya Takahashi",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": true
+  },
+  {
+   "i": 277,
+   "section": 47,
+   "kind": "name",
+   "text": "Tetsuo Mizuno",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": false
+  },
+  {
+   "i": 278,
+   "section": 47,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 10.0,
+   "size_bits": "0x41200000",
+   "in_3dx": null
+  },
+  {
+   "i": 279,
+   "section": 47,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 5.0,
+   "size_bits": "0x40A00000",
+   "in_3dx": null
+  },
+  {
+   "i": 280,
+   "section": 48,
+   "kind": "role",
+   "text": "Executive Producer",
+   "color": "0x07C4A6FF",
+   "size": 18.0,
+   "size_bits": "0x41900000",
+   "in_3dx": true
+  },
+  {
+   "i": 281,
+   "section": 48,
+   "kind": "name",
+   "text": "Tatsumi Kimishima",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": true
+  },
+  {
+   "i": 282,
+   "section": 48,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": null
+  },
+  {
+   "i": 283,
+   "section": 48,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": null
+  },
+  {
+   "i": 284,
+   "section": 48,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": null
+  },
+  {
+   "i": 285,
+   "section": 48,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": null
+  },
+  {
+   "i": 286,
+   "section": 48,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": null
+  },
+  {
+   "i": 287,
+   "section": 48,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": null
+  },
+  {
+   "i": 288,
+   "section": 48,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": null
+  },
+  {
+   "i": 289,
+   "section": 48,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": null
+  },
+  {
+   "i": 290,
+   "section": 48,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": null
+  },
+  {
+   "i": 291,
+   "section": 48,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": null
+  },
+  {
+   "i": 292,
+   "section": 48,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": null
+  },
+  {
+   "i": 293,
+   "section": 48,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": null
+  },
+  {
+   "i": 294,
+   "section": 48,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": null
+  },
+  {
+   "i": 295,
+   "section": 49,
+   "kind": "name",
+   "text": "©2003-2017 Nintendo",
+   "color": "0x00000000",
+   "size": 18.0,
+   "size_bits": "0x41900000",
+   "in_3dx": false
+  },
+  {
+   "i": 296,
+   "section": 49,
+   "kind": "name",
+   "text": "Developed by ALPHADREAM",
+   "color": "0x00000000",
+   "size": 18.0,
+   "size_bits": "0x41900000",
+   "in_3dx": true
+  },
+  {
+   "i": 297,
+   "section": 49,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": null
+  },
+  {
+   "i": 298,
+   "section": 50,
+   "kind": "name",
+   "text": "Nintendo and ALPHADREAM",
+   "color": "0x00000000",
+   "size": 16.0,
+   "size_bits": "0x41800000",
+   "in_3dx": true
+  },
+  {
+   "i": 299,
+   "section": 50,
+   "kind": "name",
+   "text": "are the authors of this software",
+   "color": "0x00000000",
+   "size": 16.0,
+   "size_bits": "0x41800000",
+   "in_3dx": true
+  },
+  {
+   "i": 300,
+   "section": 50,
+   "kind": "name",
+   "text": "for the purpose of copyright.",
+   "color": "0x00000000",
+   "size": 16.0,
+   "size_bits": "0x41800000",
+   "in_3dx": true
+  },
+  {
+   "i": 301,
+   "section": 50,
+   "kind": "name",
+   "text": "All rights reserved.",
+   "color": "0x00000000",
+   "size": 16.0,
+   "size_bits": "0x41800000",
+   "in_3dx": true
+  },
+  {
+   "i": 302,
+   "section": 50,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": null
+  },
+  {
+   "i": 303,
+   "section": 50,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": null
+  },
+  {
+   "i": 304,
+   "section": 50,
+   "kind": "blank",
+   "text": "",
+   "color": "0x00000000",
+   "size": 0.0,
+   "size_bits": "0x00000000",
+   "in_3dx": null
+  }
+ ]
+}

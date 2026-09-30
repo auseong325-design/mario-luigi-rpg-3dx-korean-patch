@@ -1,0 +1,8 @@
+﻿#load,eff_toge
+start
+0,,,tilt,hb_ok
+35,,root,se,HBTL_4_SE_PC_BH_FLY_ATTACK_LAND
+40,,,tilt,land
+45,75,root,se,HBTL_4_SE_K_PC_KNOCKBACK
+45,,loc_smoke01,eff,tobasare_kemuri05c
+45,,loc_smoke02,eff,tobasare_kemuri05c

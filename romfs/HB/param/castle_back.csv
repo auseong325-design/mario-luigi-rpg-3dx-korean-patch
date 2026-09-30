@@ -1,0 +1,10 @@
+start
+0,40,loc_fire00,eff,jet_fire01a
+0,110,loc_fire01,eff,jet_fire01b
+0,110,loc_fire02,eff,jet_fire01b
+0,110,loc_fire03,eff,jet_fire01b
+0,110,loc_fire04,eff,jet_fire01b
+135,,koopa_castle_body,eff,koopa_castle_kemuri14a
+135,,,tilt,land
+130,,koopa_castle_body,se,HBTL_SE_KC_LAND
+

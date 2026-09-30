@@ -1,0 +1,1376 @@
+{
+ "version": 1,
+ "made_by": "I3 scripts/libobj_plan.py",
+ "note": "Inventory of every 3DX Obj/JP sprite with text (IMAGE_TASK.md 5장 I3-3) -> work/img/obj_plan.json\n\n    python scripts/libobj_plan.py      # writes the plan, with status taken from work/img/obj_ko/\n\nEvery object of BUI/FUI/KUI/Menu was looked at frame by frame (survey sheets\nwork/img/review/I3_survey_*.png). Objects not listed here have no text (icons, characters, digits,\nbutton glyphs A/B/X/Y/L/R/START, gauges, cursors).\n\naction : replace = make Korean pixels / keep = text that stays (English kept like 1DX, or digits) /\n         review = unclear whether the game shows it; left as is, listed for the lead\nmethod : donor = 1DX Korean frame copied (libobj_ko.py job) / imgtext = drawn with I2's toolkit /\n         pixel = rebuilt from original sprite pixels (libobj_ko.py fn job) / none\nkind   : 가 (1DX same sprite) / 나 (1DX same role, other look: 1DX letters, 3DX decoration) / 다 (3DX only)",
+ "summary": {
+  "entries": 75,
+  "keep": 17,
+  "replace": 51,
+  "review": 7,
+  "replace_frames": 76,
+  "replace_by_method": {
+   "donor": 18,
+   "imgtext": 31,
+   "pixel": 2
+  },
+  "replace_objects": 17
+ },
+ "items": [
+  {
+   "dat": "BUI",
+   "obj": "bui_challenge_JP_ja",
+   "frames": [
+    0
+   ],
+   "action": "keep",
+   "jp": "CHALLENGE START!",
+   "ko": "",
+   "basis": "영어 원문, 1DX 대응 없음",
+   "kind": "",
+   "method": "none",
+   "ref_1dx": "",
+   "notes": "리드 확인: 영어 유지",
+   "id": "BUI/bui_challenge_JP_ja/f000",
+   "status": "-"
+  },
+  {
+   "dat": "BUI",
+   "obj": "bui_gameover_JP_ja",
+   "frames": [
+    0
+   ],
+   "action": "keep",
+   "jp": "GAME OVER",
+   "ko": "",
+   "basis": "1DX bui_gameover_KR_ko도 영어",
+   "kind": "가",
+   "method": "none",
+   "ref_1dx": "BUI/bui_gameover_KR_ko f0",
+   "notes": "",
+   "id": "BUI/bui_gameover_JP_ja/f000",
+   "status": "-"
+  },
+  {
+   "dat": "BUI",
+   "obj": "bui_score_JP_ja",
+   "frames": [
+    11
+   ],
+   "action": "replace",
+   "jp": "コレメーター",
+   "ko": "콜레미터",
+   "basis": "glossary:コレメーター(coined)",
+   "kind": "다",
+   "method": "imgtext",
+   "ref_1dx": "",
+   "notes": "점프점프헬멧 미니게임 거리 게이지 제목. 숫자 f0-9·빈 막대 f10은 그대로",
+   "id": "BUI/bui_score_JP_ja/f011",
+   "status": "made"
+  },
+  {
+   "dat": "BUI",
+   "obj": "bui_sys_badstatname_JP_ja",
+   "frames": [
+    0
+   ],
+   "action": "replace",
+   "jp": "ころび",
+   "ko": "꽈당",
+   "basis": "1DX bui_sys_badstatname_KR_ko f0(공식 표기) — 리드 결정 2026-09-30, 용어집 coined 「넘어짐」 대신",
+   "kind": "가",
+   "method": "donor",
+   "ref_1dx": "BUI/bui_sys_badstatname_KR_ko f0",
+   "notes": "대사의 「넘어짐」 2줄은 리드가 고침",
+   "id": "BUI/bui_sys_badstatname_JP_ja/f000",
+   "status": "made"
+  },
+  {
+   "dat": "BUI",
+   "obj": "bui_sys_badstatname_JP_ja",
+   "frames": [
+    1
+   ],
+   "action": "replace",
+   "jp": "めまわし",
+   "ko": "어질어질",
+   "basis": "glossary:めまわし(DS)",
+   "kind": "가",
+   "method": "donor",
+   "ref_1dx": "BUI/bui_sys_badstatname_KR_ko f1",
+   "notes": "",
+   "id": "BUI/bui_sys_badstatname_JP_ja/f001",
+   "status": "made"
+  },
+  {
+   "dat": "BUI",
+   "obj": "bui_sys_badstatname_JP_ja",
+   "frames": [
+    2
+   ],
+   "action": "replace",
+   "jp": "やけど",
+   "ko": "화상",
+   "basis": "glossary:やけど(DS)",
+   "kind": "가",
+   "method": "donor",
+   "ref_1dx": "BUI/bui_sys_badstatname_KR_ko f2",
+   "notes": "",
+   "id": "BUI/bui_sys_badstatname_JP_ja/f002",
+   "status": "made"
+  },
+  {
+   "dat": "BUI",
+   "obj": "bui_sys_badstatname_JP_ja",
+   "frames": [
+    3
+   ],
+   "action": "replace",
+   "jp": "かぜ",
+   "ko": "감기",
+   "basis": "glossary:かぜ(DS)",
+   "kind": "나",
+   "method": "imgtext",
+   "ref_1dx": "BUI/bui_sys_badstatname_KR_ko",
+   "notes": "",
+   "id": "BUI/bui_sys_badstatname_JP_ja/f003",
+   "status": "made"
+  },
+  {
+   "dat": "BUI",
+   "obj": "bui_sys_badstatname_JP_ja",
+   "frames": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "action": "keep",
+   "jp": "POW / DEF / SPEED",
+   "ko": "",
+   "basis": "1DX도 영어",
+   "kind": "가",
+   "method": "none",
+   "ref_1dx": "BUI/bui_sys_badstatname_KR_ko f4-9",
+   "notes": "",
+   "id": "BUI/bui_sys_badstatname_JP_ja/f004,f005,f006,f007,f008,f009",
+   "status": "-"
+  },
+  {
+   "dat": "BUI",
+   "obj": "bui_sys_badstatname_JP_ja",
+   "frames": [
+    10
+   ],
+   "action": "replace",
+   "jp": "どく",
+   "ko": "독",
+   "basis": "glossary:どく",
+   "kind": "가",
+   "method": "donor",
+   "ref_1dx": "BUI/bui_sys_badstatname_KR_ko f10",
+   "notes": "",
+   "id": "BUI/bui_sys_badstatname_JP_ja/f010",
+   "status": "made"
+  },
+  {
+   "dat": "BUI",
+   "obj": "bui_sys_badstatname_JP_ja",
+   "frames": [
+    11
+   ],
+   "action": "replace",
+   "jp": "いかり",
+   "ko": "분노",
+   "basis": "glossary:いかり(DS); ko_final Item#79",
+   "kind": "나",
+   "method": "imgtext",
+   "ref_1dx": "BUI/bui_sys_badstatname_KR_ko",
+   "notes": "",
+   "id": "BUI/bui_sys_badstatname_JP_ja/f011",
+   "status": "made"
+  },
+  {
+   "dat": "BUI",
+   "obj": "bui_sys_badstatname_JP_ja",
+   "frames": [
+    12
+   ],
+   "action": "replace",
+   "jp": "ひっさつ",
+   "ko": "필살",
+   "basis": "glossary:ひっさつ(DS); ko_final Item#463",
+   "kind": "나",
+   "method": "imgtext",
+   "ref_1dx": "BUI/bui_sys_badstatname_KR_ko",
+   "notes": "",
+   "id": "BUI/bui_sys_badstatname_JP_ja/f012",
+   "status": "made"
+  },
+  {
+   "dat": "BUI",
+   "obj": "bui_sys_block_name_JP_ja",
+   "frames": [
+    0
+   ],
+   "action": "replace",
+   "jp": "ジャンプ",
+   "ko": "점프",
+   "basis": "ko_final Menu#408; glossary",
+   "kind": "가",
+   "method": "donor",
+   "ref_1dx": "BUI/bui_sys_block_name_KR_ko f0",
+   "notes": "",
+   "id": "BUI/bui_sys_block_name_JP_ja/f000",
+   "status": "made"
+  },
+  {
+   "dat": "BUI",
+   "obj": "bui_sys_block_name_JP_ja",
+   "frames": [
+    1
+   ],
+   "action": "replace",
+   "jp": "ハンマー",
+   "ko": "해머",
+   "basis": "ko_final Menu#69; glossary",
+   "kind": "가",
+   "method": "donor",
+   "ref_1dx": "BUI/bui_sys_block_name_KR_ko f1",
+   "notes": "",
+   "id": "BUI/bui_sys_block_name_JP_ja/f001",
+   "status": "made"
+  },
+  {
+   "dat": "BUI",
+   "obj": "bui_sys_block_name_JP_ja",
+   "frames": [
+    2
+   ],
+   "action": "replace",
+   "jp": "ブラザーアタック",
+   "ko": "스페셜 어택",
+   "basis": "glossary:ブラザーアタック(DS)",
+   "kind": "나",
+   "method": "imgtext",
+   "ref_1dx": "BUI/bui_sys_block_name_KR_ko f3(브라더 어택)",
+   "notes": "리드 확인: 1DX 그림은 '브라더 어택'이지만 용어집·게임 번역은 '스페셜 어택'. 글자 높이·획 = 같은 묶음 1DX 복사본(점프·해머·아이템·도망가기) 중앙값(em 13px, 획 2.2px), 채움·테두리 = 복사본(흰 채움, 갈색 2px), 너비 한도 = 묶음에서 가장 넓은 일본어 상자(x 18~109)",
+   "id": "BUI/bui_sys_block_name_JP_ja/f002",
+   "status": "made"
+  },
+  {
+   "dat": "BUI",
+   "obj": "bui_sys_block_name_JP_ja",
+   "frames": [
+    3
+   ],
+   "action": "replace",
+   "jp": "アイテム",
+   "ko": "아이템",
+   "basis": "ko_final Menu#541",
+   "kind": "가",
+   "method": "donor",
+   "ref_1dx": "BUI/bui_sys_block_name_KR_ko f4",
+   "notes": "",
+   "id": "BUI/bui_sys_block_name_JP_ja/f003",
+   "status": "made"
+  },
+  {
+   "dat": "BUI",
+   "obj": "bui_sys_block_name_JP_ja",
+   "frames": [
+    4
+   ],
+   "action": "replace",
+   "jp": "にげる",
+   "ko": "도망가기",
+   "basis": "glossary:にげる(DS)",
+   "kind": "가",
+   "method": "donor",
+   "ref_1dx": "BUI/bui_sys_block_name_KR_ko f5",
+   "notes": "",
+   "id": "BUI/bui_sys_block_name_JP_ja/f004",
+   "status": "made"
+  },
+  {
+   "dat": "BUI",
+   "obj": "bui_sys_block_name_JP_ja",
+   "frames": [
+    5
+   ],
+   "action": "replace",
+   "jp": "パンチ",
+   "ko": "펀치",
+   "basis": "ko_final Menu#424; glossary",
+   "kind": "나",
+   "method": "imgtext",
+   "ref_1dx": "BUI/bui_sys_block_name_KR_ko",
+   "notes": "글자 높이·획 = 같은 묶음 1DX 복사본(점프·해머·아이템·도망가기) 중앙값(em 13px, 획 2.2px), 채움·테두리 = 복사본(흰 채움, 갈색 2px), 너비 한도 = 묶음에서 가장 넓은 일본어 상자(x 18~109)",
+   "id": "BUI/bui_sys_block_name_JP_ja/f005",
+   "status": "made"
+  },
+  {
+   "dat": "BUI",
+   "obj": "bui_sys_block_name_JP_ja",
+   "frames": [
+    6
+   ],
+   "action": "replace",
+   "jp": "ファイア",
+   "ko": "파이어",
+   "basis": "ko_final Menu#764; glossary",
+   "kind": "나",
+   "method": "imgtext",
+   "ref_1dx": "BUI/bui_sys_block_name_KR_ko",
+   "notes": "글자 높이·획 = 같은 묶음 1DX 복사본(점프·해머·아이템·도망가기) 중앙값(em 13px, 획 2.2px), 채움·테두리 = 복사본(흰 채움, 갈색 2px), 너비 한도 = 묶음에서 가장 넓은 일본어 상자(x 18~109)",
+   "id": "BUI/bui_sys_block_name_JP_ja/f006",
+   "status": "made"
+  },
+  {
+   "dat": "BUI",
+   "obj": "bui_sys_block_name_JP_ja",
+   "frames": [
+    7
+   ],
+   "action": "replace",
+   "jp": "ボコスカアタック",
+   "ko": "스페셜 어택",
+   "basis": "glossary:ボコスカアタック(확정)",
+   "kind": "나",
+   "method": "imgtext",
+   "ref_1dx": "BUI/bui_sys_block_name_KR_ko",
+   "notes": "글자 높이·획 = 같은 묶음 1DX 복사본(점프·해머·아이템·도망가기) 중앙값(em 13px, 획 2.2px), 채움·테두리 = 복사본(흰 채움, 갈색 2px), 너비 한도 = 묶음에서 가장 넓은 일본어 상자(x 18~109)",
+   "id": "BUI/bui_sys_block_name_JP_ja/f007",
+   "status": "made"
+  },
+  {
+   "dat": "BUI",
+   "obj": "bui_sys_block_name_JP_ja",
+   "frames": [
+    9
+   ],
+   "action": "replace",
+   "jp": "バキューム",
+   "ko": "배큐엄",
+   "basis": "glossary:バキューム(DS)",
+   "kind": "나",
+   "method": "imgtext",
+   "ref_1dx": "BUI/bui_sys_block_name_KR_ko",
+   "notes": "글자 높이·획 = 같은 묶음 1DX 복사본(점프·해머·아이템·도망가기) 중앙값(em 13px, 획 2.2px), 채움·테두리 = 복사본(흰 채움, 갈색 2px), 너비 한도 = 묶음에서 가장 넓은 일본어 상자(x 18~109)",
+   "id": "BUI/bui_sys_block_name_JP_ja/f009",
+   "status": "made"
+  },
+  {
+   "dat": "BUI",
+   "obj": "bui_sys_block_name_JP_ja",
+   "frames": [
+    10
+   ],
+   "action": "replace",
+   "jp": "ガイド",
+   "ko": "가이드",
+   "basis": "glossary:ガイド; lyt btn_KJ_GUIDE",
+   "kind": "나",
+   "method": "imgtext",
+   "ref_1dx": "BUI/bui_sys_block_name_KR_ko",
+   "notes": "글자 높이·획 = 같은 묶음 1DX 복사본(점프·해머·아이템·도망가기) 중앙값(em 13px, 획 2.2px), 채움·테두리 = 복사본(흰 채움, 갈색 2px), 너비 한도 = 묶음에서 가장 넓은 일본어 상자(x 18~109)",
+   "id": "BUI/bui_sys_block_name_JP_ja/f010",
+   "status": "made"
+  },
+  {
+   "dat": "BUI",
+   "obj": "bui_sys_block_name_JP_ja",
+   "frames": [
+    11
+   ],
+   "action": "replace",
+   "jp": "ヒント",
+   "ko": "힌트",
+   "basis": "ko_final BMsg/b_sys#1180",
+   "kind": "나",
+   "method": "imgtext",
+   "ref_1dx": "BUI/bui_sys_block_name_KR_ko",
+   "notes": "글자 높이·획 = 같은 묶음 1DX 복사본(점프·해머·아이템·도망가기) 중앙값(em 13px, 획 2.2px), 채움·테두리 = 복사본(흰 채움, 갈색 2px), 너비 한도 = 묶음에서 가장 넓은 일본어 상자(x 18~109)",
+   "id": "BUI/bui_sys_block_name_JP_ja/f011",
+   "status": "made"
+  },
+  {
+   "dat": "BUI",
+   "obj": "bui_sys_button_JP_ja",
+   "frames": [
+    0,
+    1
+   ],
+   "action": "replace",
+   "jp": "もどる",
+   "ko": "뒤로",
+   "basis": "1DX 같은 버튼(뒤로); 선택지 번역 もどる→뒤로",
+   "kind": "나",
+   "method": "imgtext",
+   "ref_1dx": "BUI/bui_sys_button_KR_ko f0/f1",
+   "notes": "1DX는 글자 뒤에 어두운 막대가 있어 디자인이 달라 글자만 1DX에서. 리드 확인: b_sys#1821은 '돌아가기'",
+   "id": "BUI/bui_sys_button_JP_ja/f000,f001",
+   "status": "made"
+  },
+  {
+   "dat": "BUI",
+   "obj": "bui_sys_button_JP_ja",
+   "frames": [
+    2
+   ],
+   "action": "replace",
+   "jp": "イージーモード",
+   "ko": "이지 모드",
+   "basis": "ko_final BMsg/b_sys#603",
+   "kind": "나",
+   "method": "imgtext",
+   "ref_1dx": "BUI/bui_sys_button_KR_ko f2",
+   "notes": "",
+   "id": "BUI/bui_sys_button_JP_ja/f002",
+   "status": "made"
+  },
+  {
+   "dat": "BUI",
+   "obj": "bui_sys_button_JP_ja",
+   "frames": [
+    3,
+    4
+   ],
+   "action": "replace",
+   "jp": "きんきゅうガード",
+   "ko": "긴급 가드",
+   "basis": "ko_final BMsg/b_sys#1129",
+   "kind": "나",
+   "method": "imgtext",
+   "ref_1dx": "BUI/bui_sys_button_KR_ko f3/f4",
+   "notes": "",
+   "id": "BUI/bui_sys_button_JP_ja/f003,f004",
+   "status": "made"
+  },
+  {
+   "dat": "BUI",
+   "obj": "bui_sys_button_JP_ja",
+   "frames": [
+    5
+   ],
+   "action": "replace",
+   "jp": "なんいど",
+   "ko": "난이도",
+   "basis": "1DX bui_sys_button_KR_ko f5",
+   "kind": "나",
+   "method": "imgtext",
+   "ref_1dx": "BUI/bui_sys_button_KR_ko f5",
+   "notes": "1DX는 나무판 디자인. 글자만 1DX",
+   "id": "BUI/bui_sys_button_JP_ja/f005",
+   "status": "made"
+  },
+  {
+   "dat": "BUI",
+   "obj": "bui_sys_button_JP_ja",
+   "frames": [
+    6,
+    7
+   ],
+   "action": "replace",
+   "jp": "ふつう",
+   "ko": "보통",
+   "basis": "1DX bui_sys_button_KR_ko f6/f7",
+   "kind": "나",
+   "method": "imgtext",
+   "ref_1dx": "BUI/bui_sys_button_KR_ko f6/f7",
+   "notes": "1DX 글자(넓게 띄어 있음)를 자간 -3px로 좁혀 「쉬움」과 같은 간격(두 음절 사이 빈 열 0)",
+   "id": "BUI/bui_sys_button_JP_ja/f006,f007",
+   "status": "made"
+  },
+  {
+   "dat": "BUI",
+   "obj": "bui_sys_button_JP_ja",
+   "frames": [
+    8,
+    9
+   ],
+   "action": "replace",
+   "jp": "かんたん",
+   "ko": "쉬움",
+   "basis": "1DX bui_sys_button_KR_ko f8/f9",
+   "kind": "나",
+   "method": "imgtext",
+   "ref_1dx": "BUI/bui_sys_button_KR_ko f8/f9",
+   "notes": "",
+   "id": "BUI/bui_sys_button_JP_ja/f008,f009",
+   "status": "made"
+  },
+  {
+   "dat": "BUI",
+   "obj": "bui_sys_button_JP_ja",
+   "frames": [
+    10,
+    11
+   ],
+   "action": "replace",
+   "jp": "れんしゅうモードへ",
+   "ko": "연습 모드",
+   "basis": "1DX f10/f11; glossary:れんしゅう",
+   "kind": "나",
+   "method": "imgtext",
+   "ref_1dx": "BUI/bui_sys_button_KR_ko f10/f11",
+   "notes": "",
+   "id": "BUI/bui_sys_button_JP_ja/f010,f011",
+   "status": "made"
+  },
+  {
+   "dat": "BUI",
+   "obj": "bui_sys_button_JP_ja",
+   "frames": [
+    12,
+    13
+   ],
+   "action": "replace",
+   "jp": "おてほんモードへ",
+   "ko": "시범 모드",
+   "basis": "1DX f12/f13; glossary:おてほん",
+   "kind": "나",
+   "method": "imgtext",
+   "ref_1dx": "BUI/bui_sys_button_KR_ko f12/f13",
+   "notes": "",
+   "id": "BUI/bui_sys_button_JP_ja/f012,f013",
+   "status": "made"
+  },
+  {
+   "dat": "BUI",
+   "obj": "bui_sys_button_JP_ja",
+   "frames": [
+    14,
+    15,
+    18,
+    19
+   ],
+   "action": "replace",
+   "jp": "おてほん",
+   "ko": "시범",
+   "basis": "glossary:おてほん(DS)",
+   "kind": "다",
+   "method": "imgtext",
+   "ref_1dx": "BUI/bui_sys_button_KR_ko f12(시범)",
+   "notes": "",
+   "id": "BUI/bui_sys_button_JP_ja/f014,f015,f018,f019",
+   "status": "made"
+  },
+  {
+   "dat": "BUI",
+   "obj": "bui_sys_button_JP_ja",
+   "frames": [
+    16,
+    17,
+    20
+   ],
+   "action": "replace",
+   "jp": "れんしゅう",
+   "ko": "연습",
+   "basis": "glossary:れんしゅう(DS)",
+   "kind": "다",
+   "method": "imgtext",
+   "ref_1dx": "BUI/bui_sys_button_KR_ko f10(연습)",
+   "notes": "",
+   "id": "BUI/bui_sys_button_JP_ja/f016,f017,f020",
+   "status": "made"
+  },
+  {
+   "dat": "BUI",
+   "obj": "bui_sys_dam_JP_ja",
+   "frames": [
+    34,
+    36,
+    38
+   ],
+   "action": "keep",
+   "jp": "TOTAL / LUCKY / CRITICAL",
+   "ko": "",
+   "basis": "1DX도 영어",
+   "kind": "가",
+   "method": "none",
+   "ref_1dx": "BUI/bui_sys_dam_KR_ko f34/36/38",
+   "notes": "",
+   "id": "BUI/bui_sys_dam_JP_ja/f034,f036,f038",
+   "status": "-"
+  },
+  {
+   "dat": "BUI",
+   "obj": "bui_sys_font_JP_ja",
+   "frames": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "action": "keep",
+   "jp": "MISS... / OK / GOOD! / GREAT! / EXCELLENT!",
+   "ko": "",
+   "basis": "1DX도 영어",
+   "kind": "가",
+   "method": "none",
+   "ref_1dx": "BUI/bui_sys_font_KR_ko",
+   "notes": "",
+   "id": "BUI/bui_sys_font_JP_ja/f000,f001,f002,f003,f004",
+   "status": "-"
+  },
+  {
+   "dat": "BUI",
+   "obj": "bui_touch_start_JP_ja",
+   "frames": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "action": "replace",
+   "jp": "タッチペンを\nとりだしてください",
+   "ko": "터치펜을\n꺼내 주세요",
+   "basis": "coined(터치펜: ko_final FMsg/i_areanone_puzzle_02_L#14)",
+   "kind": "다",
+   "method": "imgtext",
+   "ref_1dx": "",
+   "notes": "START는 영어 유지. 같은 그림이 FUI·Menu에도 있음",
+   "id": "BUI/bui_touch_start_JP_ja/f000,f001,f002,f003",
+   "status": "made"
+  },
+  {
+   "dat": "BUI",
+   "obj": "bui_tuto_JP_ja",
+   "frames": [
+    0
+   ],
+   "action": "replace",
+   "jp": "おてほん",
+   "ko": "시범",
+   "basis": "glossary:おてほん",
+   "kind": "가",
+   "method": "donor",
+   "ref_1dx": "BUI/bui_tuto_KR_ko f0",
+   "notes": "",
+   "id": "BUI/bui_tuto_JP_ja/f000",
+   "status": "made"
+  },
+  {
+   "dat": "BUI",
+   "obj": "bui_tuto_JP_ja",
+   "frames": [
+    1
+   ],
+   "action": "replace",
+   "jp": "おてほん(강조)",
+   "ko": "시범",
+   "basis": "glossary:おてほん",
+   "kind": "나",
+   "method": "pixel",
+   "ref_1dx": "BUI/bui_tuto_KR_ko f0",
+   "notes": "f0과 같은 1DX 글자·크기·위치, 채움만 3DX f0→f1처럼 노랑(파랑 채널 ×68/255, 3DX f1 채움 100% 재현), 테두리 그대로",
+   "id": "BUI/bui_tuto_JP_ja/f001",
+   "status": "made"
+  },
+  {
+   "dat": "FUI",
+   "obj": "fui_bodyrot_JP_ja",
+   "frames": [
+    0
+   ],
+   "action": "replace",
+   "jp": "本体をタテに\nもちかえてください",
+   "ko": "본체를 세로로\n바꿔 들어 주세요",
+   "basis": "coined",
+   "kind": "다",
+   "method": "imgtext",
+   "ref_1dx": "",
+   "notes": "Menu/m_bodyrot_JP_ja와 같은 그림",
+   "id": "FUI/fui_bodyrot_JP_ja/f000",
+   "status": "made"
+  },
+  {
+   "dat": "FUI",
+   "obj": "fui_end_JP_ja",
+   "frames": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "action": "keep",
+   "jp": "THE END",
+   "ko": "",
+   "basis": "영어 원문, 1DX 대응 없음",
+   "kind": "",
+   "method": "none",
+   "ref_1dx": "",
+   "notes": "리드 확인: 영어 유지",
+   "id": "FUI/fui_end_JP_ja/f000,f001,f002,f003,f004,f005,f006,f007,f008,f009,f010,f011",
+   "status": "-"
+  },
+  {
+   "dat": "FUI",
+   "obj": "fui_touch_start_JP_ja",
+   "frames": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "action": "replace",
+   "jp": "タッチペンを\nとりだしてください",
+   "ko": "터치펜을\n꺼내 주세요",
+   "basis": "coined",
+   "kind": "다",
+   "method": "imgtext",
+   "ref_1dx": "",
+   "notes": "BUI와 같은 그림",
+   "id": "FUI/fui_touch_start_JP_ja/f000,f001,f002,f003",
+   "status": "made"
+  },
+  {
+   "dat": "FUI",
+   "obj": "fui_button",
+   "frames": [
+    16,
+    17
+   ],
+   "action": "keep",
+   "jp": "START",
+   "ko": "",
+   "basis": "본체 버튼 이름(1DX fu_button_push도 START)",
+   "kind": "가",
+   "method": "none",
+   "ref_1dx": "",
+   "notes": "",
+   "id": "FUI/fui_button/f016,f017",
+   "status": "-"
+  },
+  {
+   "dat": "KUI",
+   "obj": "ko_ui_bonusskill_JP_ja",
+   "frames": [
+    0
+   ],
+   "action": "review",
+   "jp": "(ボーナス スキル 모양의 회색 덩어리)",
+   "ko": "보너스 스킬",
+   "basis": "1DX ko_ui_bonusskill_KR_ko",
+   "kind": "",
+   "method": "none",
+   "ref_1dx": "KUI/ko_ui_bonusskill_KR_ko f0",
+   "notes": "3DX 그림에는 글자 없이 단색 실루엣만 있음(RGB 136 한 값). 화면에 쓰이지 않는 것으로 보고 그대로 둠. 리드 확인",
+   "id": "KUI/ko_ui_bonusskill_JP_ja/f000",
+   "status": "-"
+  },
+  {
+   "dat": "KUI",
+   "obj": "ko_ui_fall_JP_ja",
+   "frames": [
+    0
+   ],
+   "action": "review",
+   "jp": "(おとす 모양 실루엣)",
+   "ko": "떨어트리기",
+   "basis": "",
+   "kind": "",
+   "method": "none",
+   "ref_1dx": "KUI/ko_ui_fall_KR_ko f0",
+   "notes": "단색 실루엣만. 그대로 둠. 리드 확인",
+   "id": "KUI/ko_ui_fall_JP_ja/f000",
+   "status": "-"
+  },
+  {
+   "dat": "KUI",
+   "obj": "ko_ui_wakeup_JP_ja",
+   "frames": [
+    0
+   ],
+   "action": "review",
+   "jp": "(おこす 모양 실루엣)",
+   "ko": "일어나기",
+   "basis": "",
+   "kind": "",
+   "method": "none",
+   "ref_1dx": "KUI/ko_ui_wakeup_KR_ko f0",
+   "notes": "단색 실루엣만. 그대로 둠. 리드 확인",
+   "id": "KUI/ko_ui_wakeup_JP_ja/f000",
+   "status": "-"
+  },
+  {
+   "dat": "KUI",
+   "obj": "ko_ui_miss_JP_ja",
+   "frames": [
+    0
+   ],
+   "action": "review",
+   "jp": "(MISS... 모양 실루엣)",
+   "ko": "",
+   "basis": "",
+   "kind": "",
+   "method": "none",
+   "ref_1dx": "",
+   "notes": "단색 실루엣만(영어). 그대로 둠",
+   "id": "KUI/ko_ui_miss_JP_ja/f000",
+   "status": "-"
+  },
+  {
+   "dat": "KUI",
+   "obj": "ko_ui_change_JP_ja",
+   "frames": [
+    0
+   ],
+   "action": "replace",
+   "jp": "きりかえ",
+   "ko": "전환",
+   "basis": "ko_final Menu#396(きりかえる→전환)",
+   "kind": "나",
+   "method": "imgtext",
+   "ref_1dx": "KUI/ko_ui_fall_KR_ko(같은 흰 글자 모양)",
+   "notes": "",
+   "id": "KUI/ko_ui_change_JP_ja/f000",
+   "status": "made"
+  },
+  {
+   "dat": "KUI",
+   "obj": "ko_ui_return_JP_ja",
+   "frames": [
+    0
+   ],
+   "action": "replace",
+   "jp": "もどす",
+   "ko": "되돌리기",
+   "basis": "coined(もどす)",
+   "kind": "나",
+   "method": "imgtext",
+   "ref_1dx": "KUI/ko_ui_fall_KR_ko",
+   "notes": "",
+   "id": "KUI/ko_ui_return_JP_ja/f000",
+   "status": "made"
+  },
+  {
+   "dat": "KUI",
+   "obj": "ko_ui_onemore_JP_ja",
+   "frames": [
+    0
+   ],
+   "action": "replace",
+   "jp": "けってい",
+   "ko": "결정",
+   "basis": "ko_final BMsg/b_sys#151; glossary",
+   "kind": "나",
+   "method": "imgtext",
+   "ref_1dx": "KUI/ko_ui_fall_KR_ko",
+   "notes": "",
+   "id": "KUI/ko_ui_onemore_JP_ja/f000",
+   "status": "made"
+  },
+  {
+   "dat": "KUI",
+   "obj": "ko_ui_onemore_JP_ja",
+   "frames": [
+    1
+   ],
+   "action": "replace",
+   "jp": "もういちど",
+   "ko": "다시 한번",
+   "basis": "ko_final Menu#433; lyt btn_restart",
+   "kind": "나",
+   "method": "imgtext",
+   "ref_1dx": "KUI/ko_ui_fall_KR_ko",
+   "notes": "",
+   "id": "KUI/ko_ui_onemore_JP_ja/f001",
+   "status": "made"
+  },
+  {
+   "dat": "KUI",
+   "obj": "ko_ui_special_JP_ja",
+   "frames": [
+    11
+   ],
+   "action": "replace",
+   "jp": "あと",
+   "ko": "앞으로",
+   "basis": "ko_final FMsg/k_o_koopa_14#132(あと７回→앞으로 7번)",
+   "kind": "다",
+   "method": "imgtext",
+   "ref_1dx": "",
+   "notes": "남은 횟수/시간 앞에 붙는 말. 리드 확인: '남은'도 후보",
+   "id": "KUI/ko_ui_special_JP_ja/f011",
+   "status": "made"
+  },
+  {
+   "dat": "KUI",
+   "obj": "ko_ui_special_JP_ja",
+   "frames": [
+    10
+   ],
+   "action": "keep",
+   "jp": "TIME",
+   "ko": "",
+   "basis": "영어 원문",
+   "kind": "",
+   "method": "none",
+   "ref_1dx": "",
+   "notes": "",
+   "id": "KUI/ko_ui_special_JP_ja/f010",
+   "status": "-"
+  },
+  {
+   "dat": "KUI",
+   "obj": "ko_ui_jump_JP_ja",
+   "frames": [
+    0
+   ],
+   "action": "replace",
+   "jp": "ジャンプ",
+   "ko": "점프",
+   "basis": "ko_final Menu#408",
+   "kind": "가",
+   "method": "donor",
+   "ref_1dx": "KUI/ko_ui_jump_KR_ko f0",
+   "notes": "",
+   "id": "KUI/ko_ui_jump_JP_ja/f000",
+   "status": "made"
+  },
+  {
+   "dat": "KUI",
+   "obj": "ko_ui_statname_JP_ja",
+   "frames": [
+    8,
+    9
+   ],
+   "action": "replace",
+   "jp": "めいちゅう",
+   "ko": "명중",
+   "basis": "glossary:めいちゅう",
+   "kind": "가",
+   "method": "donor",
+   "ref_1dx": "KUI/ko_ui_statname_KR_ko f8/f9",
+   "notes": "",
+   "id": "KUI/ko_ui_statname_JP_ja/f008,f009",
+   "status": "made"
+  },
+  {
+   "dat": "KUI",
+   "obj": "ko_ui_statname_JP_ja",
+   "frames": [
+    10,
+    11
+   ],
+   "action": "replace",
+   "jp": "かいひ",
+   "ko": "회피",
+   "basis": "glossary:かいひ",
+   "kind": "가",
+   "method": "donor",
+   "ref_1dx": "KUI/ko_ui_statname_KR_ko f10/f11",
+   "notes": "",
+   "id": "KUI/ko_ui_statname_JP_ja/f010,f011",
+   "status": "made"
+  },
+  {
+   "dat": "KUI",
+   "obj": "ko_ui_statname_JP_ja",
+   "frames": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "action": "keep",
+   "jp": "POW / DEF / SPEED",
+   "ko": "",
+   "basis": "영어(1DX도 같음)",
+   "kind": "가",
+   "method": "none",
+   "ref_1dx": "KUI/ko_ui_statname_KR_ko f0-5",
+   "notes": "",
+   "id": "KUI/ko_ui_statname_JP_ja/f000,f001,f002,f003,f004,f005",
+   "status": "-"
+  },
+  {
+   "dat": "KUI",
+   "obj": "ko_ui_statname_JP_ja",
+   "frames": [
+    6,
+    7
+   ],
+   "action": "replace",
+   "jp": "GDD",
+   "ko": "GDH",
+   "basis": "리드 결정(22:05); 대사·레이아웃 KJ_ST_GDD도 GDH; 1DX ko_ui_statname_KR_ko f6/f7",
+   "kind": "나",
+   "method": "pixel",
+   "ref_1dx": "KUI/ko_ui_statname_KR_ko f6/f7",
+   "notes": "G·D는 3DX 픽셀 그대로, H는 같은 픽셀 글꼴의 1DX GDH에서(1DX 갈색 테두리 → 3DX 검정, 공통 G·D에서 배운 색 대응)",
+   "id": "KUI/ko_ui_statname_JP_ja/f006,f007",
+   "status": "made"
+  },
+  {
+   "dat": "KUI",
+   "obj": "ko_ui_fukubikiblock_JP_ja",
+   "frames": [
+    13,
+    14
+   ],
+   "action": "replace",
+   "jp": "めいちゅう",
+   "ko": "명중",
+   "basis": "glossary",
+   "kind": "가",
+   "method": "donor",
+   "ref_1dx": "KUI/ko_ui_fukubikiblock_KR_ko f10/f11",
+   "notes": "",
+   "id": "KUI/ko_ui_fukubikiblock_JP_ja/f013,f014",
+   "status": "made"
+  },
+  {
+   "dat": "KUI",
+   "obj": "ko_ui_fukubikiblock_JP_ja",
+   "frames": [
+    15,
+    16
+   ],
+   "action": "replace",
+   "jp": "かいひ",
+   "ko": "회피",
+   "basis": "glossary",
+   "kind": "가",
+   "method": "donor",
+   "ref_1dx": "KUI/ko_ui_fukubikiblock_KR_ko f12/f13",
+   "notes": "",
+   "id": "KUI/ko_ui_fukubikiblock_JP_ja/f015,f016",
+   "status": "made"
+  },
+  {
+   "dat": "KUI",
+   "obj": "ko_ui_fukubikiblock_JP_ja",
+   "frames": [
+    23
+   ],
+   "action": "replace",
+   "jp": "とつげき\nダメージ",
+   "ko": "돌격\n대미지",
+   "basis": "glossary:とつげき; 1DX 같은 그림",
+   "kind": "가",
+   "method": "donor",
+   "ref_1dx": "KUI/ko_ui_fukubikiblock_KR_ko f20",
+   "notes": "리드 확인: 용어집 ダメージ=타격(숫자 문맥 대미지 허용). 1DX 같은 스프라이트는 '대미지'",
+   "id": "KUI/ko_ui_fukubikiblock_JP_ja/f023",
+   "status": "made"
+  },
+  {
+   "dat": "KUI",
+   "obj": "ko_ui_fukubikiblock_JP_ja",
+   "frames": [
+    24
+   ],
+   "action": "replace",
+   "jp": "ひこう\nダメージ",
+   "ko": "비행\n대미지",
+   "basis": "glossary:ひこう; 1DX",
+   "kind": "가",
+   "method": "donor",
+   "ref_1dx": "KUI/ko_ui_fukubikiblock_KR_ko f21",
+   "notes": "",
+   "id": "KUI/ko_ui_fukubikiblock_JP_ja/f024",
+   "status": "made"
+  },
+  {
+   "dat": "KUI",
+   "obj": "ko_ui_fukubikiblock_JP_ja",
+   "frames": [
+    25
+   ],
+   "action": "replace",
+   "jp": "えんきょり\nダメージ",
+   "ko": "원거리\n대미지",
+   "basis": "glossary:えんきょり; 1DX",
+   "kind": "가",
+   "method": "donor",
+   "ref_1dx": "KUI/ko_ui_fukubikiblock_KR_ko f22",
+   "notes": "",
+   "id": "KUI/ko_ui_fukubikiblock_JP_ja/f025",
+   "status": "made"
+  },
+  {
+   "dat": "KUI",
+   "obj": "ko_ui_fukubikiblock_JP_ja",
+   "frames": [
+    26
+   ],
+   "action": "replace",
+   "jp": "ぜんたい\nダメージ",
+   "ko": "전체\n대미지",
+   "basis": "1DX 같은 그림",
+   "kind": "가",
+   "method": "donor",
+   "ref_1dx": "KUI/ko_ui_fukubikiblock_KR_ko f19",
+   "notes": "리드 확인: 용어집 ぜんたい=전부(대상 선택 UI)",
+   "id": "KUI/ko_ui_fukubikiblock_JP_ja/f026",
+   "status": "made"
+  },
+  {
+   "dat": "KUI",
+   "obj": "ko_ui_fukubikiblock_JP_ja",
+   "frames": [
+    5,
+    6,
+    7,
+    8,
+    22
+   ],
+   "action": "keep",
+   "jp": "POW / DEF / EXP",
+   "ko": "",
+   "basis": "1DX도 영어",
+   "kind": "가",
+   "method": "none",
+   "ref_1dx": "",
+   "notes": "",
+   "id": "KUI/ko_ui_fukubikiblock_JP_ja/f005,f006,f007,f008,f022",
+   "status": "-"
+  },
+  {
+   "dat": "KUI",
+   "obj": "ko_ui_clear_JP_ja",
+   "frames": [
+    0,
+    1,
+    2
+   ],
+   "action": "keep",
+   "jp": "CLEAR!! / QUEST COMPLETE!! / YOU ARE A SUPER PLAYER!!",
+   "ko": "",
+   "basis": "1DX ko_ui_clear_KR_ko(CLEAR!!)도 영어",
+   "kind": "가",
+   "method": "none",
+   "ref_1dx": "",
+   "notes": "리드 확인: 나머지 둘은 1DX 대응 없음, 영어 유지",
+   "id": "KUI/ko_ui_clear_JP_ja/f000,f001,f002",
+   "status": "-"
+  },
+  {
+   "dat": "KUI",
+   "obj": "ko_ui_entry_JP_ja",
+   "frames": [
+    0
+   ],
+   "action": "keep",
+   "jp": "E",
+   "ko": "",
+   "basis": "1DX도 같음",
+   "kind": "가",
+   "method": "none",
+   "ref_1dx": "",
+   "notes": "",
+   "id": "KUI/ko_ui_entry_JP_ja/f000",
+   "status": "-"
+  },
+  {
+   "dat": "KUI",
+   "obj": "ko_ui_font_JP_ja",
+   "frames": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "action": "keep",
+   "jp": "MISS... / OK / GOOD! / GREAT! / EXCELLENT!",
+   "ko": "",
+   "basis": "1DX도 영어",
+   "kind": "가",
+   "method": "none",
+   "ref_1dx": "",
+   "notes": "",
+   "id": "KUI/ko_ui_font_JP_ja/f000,f001,f002,f003,f004",
+   "status": "-"
+  },
+  {
+   "dat": "KUI",
+   "obj": "ko_ui_luckyouch_JP_ja",
+   "frames": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "action": "keep",
+   "jp": "LUCKY! / OUCH! / CRITICAL",
+   "ko": "",
+   "basis": "1DX도 영어",
+   "kind": "가",
+   "method": "none",
+   "ref_1dx": "",
+   "notes": "",
+   "id": "KUI/ko_ui_luckyouch_JP_ja/f000,f001,f002,f003",
+   "status": "-"
+  },
+  {
+   "dat": "KUI",
+   "obj": "ko_ui_okexcellent_JP_ja",
+   "frames": [
+    0,
+    1
+   ],
+   "action": "keep",
+   "jp": "OK / EXCELLENT!",
+   "ko": "",
+   "basis": "1DX도 영어",
+   "kind": "가",
+   "method": "none",
+   "ref_1dx": "",
+   "notes": "",
+   "id": "KUI/ko_ui_okexcellent_JP_ja/f000,f001",
+   "status": "-"
+  },
+  {
+   "dat": "KUI",
+   "obj": "ko_ui_start_JP_ja",
+   "frames": [
+    10,
+    11,
+    12
+   ],
+   "action": "keep",
+   "jp": "BATTLE / FINAL BATTLE / START!",
+   "ko": "",
+   "basis": "1DX도 영어",
+   "kind": "가",
+   "method": "none",
+   "ref_1dx": "",
+   "notes": "",
+   "id": "KUI/ko_ui_start_JP_ja/f010,f011,f012",
+   "status": "-"
+  },
+  {
+   "dat": "KUI",
+   "obj": "ko_ui_winlose_JP_ja",
+   "frames": [
+    0,
+    1,
+    2
+   ],
+   "action": "keep",
+   "jp": "WIN! / LOSE... / PERFECT!",
+   "ko": "",
+   "basis": "1DX도 영어",
+   "kind": "가",
+   "method": "none",
+   "ref_1dx": "",
+   "notes": "",
+   "id": "KUI/ko_ui_winlose_JP_ja/f000,f001,f002",
+   "status": "-"
+  },
+  {
+   "dat": "KUI",
+   "obj": "ko_ui_lvup_JP_ja",
+   "frames": [
+    10
+   ],
+   "action": "review",
+   "jp": "(빈 판)",
+   "ko": "",
+   "basis": "",
+   "kind": "",
+   "method": "none",
+   "ref_1dx": "",
+   "notes": "1DX는 LEVEL UP! 3DX는 글자 없는 판. 그대로",
+   "id": "KUI/ko_ui_lvup_JP_ja/f010",
+   "status": "-"
+  },
+  {
+   "dat": "KUI",
+   "obj": "ko_ui_number_JP_ja",
+   "frames": [
+    10
+   ],
+   "action": "review",
+   "jp": "(빈 칸)",
+   "ko": "",
+   "basis": "",
+   "kind": "",
+   "method": "none",
+   "ref_1dx": "",
+   "notes": "1DX는 LV. 3DX는 글자 없음. 그대로",
+   "id": "KUI/ko_ui_number_JP_ja/f010",
+   "status": "-"
+  },
+  {
+   "dat": "Menu",
+   "obj": "m_bodyrot_JP_ja",
+   "frames": [
+    0
+   ],
+   "action": "replace",
+   "jp": "本体をタテに\nもちかえてください",
+   "ko": "본체를 세로로\n바꿔 들어 주세요",
+   "basis": "coined",
+   "kind": "다",
+   "method": "imgtext",
+   "ref_1dx": "",
+   "notes": "FUI/fui_bodyrot_JP_ja와 같은 그림",
+   "id": "Menu/m_bodyrot_JP_ja/f000",
+   "status": "made"
+  },
+  {
+   "dat": "Menu",
+   "obj": "m_touch_start_JP_ja",
+   "frames": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "action": "replace",
+   "jp": "タッチペンを\nとりだしてください",
+   "ko": "터치펜을\n꺼내 주세요",
+   "basis": "coined",
+   "kind": "다",
+   "method": "imgtext",
+   "ref_1dx": "",
+   "notes": "",
+   "id": "Menu/m_touch_start_JP_ja/f000,f001,f002,f003",
+   "status": "made"
+  },
+  {
+   "dat": "Menu",
+   "obj": "m_item_ev_all",
+   "frames": [
+    22,
+    24,
+    26,
+    28,
+    30,
+    34,
+    36,
+    38,
+    40,
+    42,
+    44
+   ],
+   "action": "review",
+   "jp": "ビリリンパ / バキューム / スター赤·青·黄 / マグナムキラー / 1~5 (손글씨 빨간 칸)",
+   "ko": "",
+   "basis": "",
+   "kind": "",
+   "method": "none",
+   "ref_1dx": "",
+   "notes": "개발용 임시 그림으로 보임(빨간 테두리 손글씨). 그대로 둠. 리드 확인",
+   "id": "Menu/m_item_ev_all/f022,f024,f026,f028,f030,f034,f036,f038,f040,f042,f044",
+   "status": "-"
+  }
+ ]
+}

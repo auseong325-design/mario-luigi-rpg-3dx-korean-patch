@@ -1,0 +1,611 @@
+{
+ "LABEL_KJRPG_00_JP_ja": {
+  "jp_stroke": 2.178,
+  "ko_stroke": 2.052,
+  "ink_px": 539,
+  "partial_px": 132,
+  "ink_min_luma": 1.0,
+  "ratio": 0.942,
+  "hangul_partial_px": 0,
+  "hangul_stroke": 1.881,
+  "latin_stroke_ko": 2.437,
+  "hangul_vs_latin": 0.772,
+  "syllables": [
+   {
+    "x": [
+     1,
+     12
+    ],
+    "partial": 0,
+    "ink": 61
+   },
+   {
+    "x": [
+     13,
+     24
+    ],
+    "partial": 0,
+    "ink": 75
+   },
+   {
+    "x": [
+     25,
+     37
+    ],
+    "partial": 0,
+    "ink": 63
+   },
+   {
+    "x": [
+     38,
+     47
+    ],
+    "partial": 0,
+    "ink": 44
+   },
+   {
+    "x": [
+     48,
+     59
+    ],
+    "partial": 0,
+    "ink": 56
+   }
+  ],
+  "sources": [
+   [
+    "grid:font",
+    "쿠파주니어"
+   ],
+   [
+    "orig",
+    53,
+    84
+   ]
+  ]
+ },
+ "LABEL_MLRPG_00_JP_ja": {
+  "jp_stroke": 2.362,
+  "ko_stroke": 2.03,
+  "ink_px": 738,
+  "partial_px": 213,
+  "ink_min_luma": 1.0,
+  "ratio": 0.859,
+  "hangul_partial_px": 0,
+  "hangul_stroke": 1.776,
+  "latin_stroke_ko": 2.477,
+  "hangul_vs_latin": 0.717,
+  "syllables": [
+   {
+    "x": [
+     1,
+     12
+    ],
+    "partial": 0,
+    "ink": 66
+   },
+   {
+    "x": [
+     13,
+     23
+    ],
+    "partial": 0,
+    "ink": 54
+   },
+   {
+    "x": [
+     24,
+     36
+    ],
+    "partial": 0,
+    "ink": 51
+   },
+   {
+    "x": [
+     47,
+     59
+    ],
+    "partial": 0,
+    "ink": 65
+   },
+   {
+    "x": [
+     60,
+     70
+    ],
+    "partial": 0,
+    "ink": 57
+   },
+   {
+    "x": [
+     71,
+     81
+    ],
+    "partial": 0,
+    "ink": 58
+   }
+  ],
+  "sources": [
+   [
+    "grid:font",
+    "마리오"
+   ],
+   [
+    "orig",
+    36,
+    45
+   ],
+   [
+    "grid:font",
+    "루이지"
+   ],
+   [
+    "orig",
+    93,
+    131
+   ]
+  ]
+ },
+ "SHOP_TIT_BADGE_00_JP_ja": {
+  "jp_stroke": 1.988,
+  "ko_stroke": 1.82,
+  "ink_px": 210,
+  "partial_px": 0,
+  "ink_min_luma": 1.0,
+  "ratio": 0.915,
+  "hangul_partial_px": 0,
+  "hangul_stroke": 1.82,
+  "syllables": [
+   {
+    "x": [
+     0,
+     11
+    ],
+    "partial": 0,
+    "ink": 77
+   },
+   {
+    "x": [
+     12,
+     23
+    ],
+    "partial": 0,
+    "ink": 60
+   },
+   {
+    "x": [
+     28,
+     41
+    ],
+    "partial": 0,
+    "ink": 73
+   }
+  ],
+  "sources": [
+   [
+    "grid:font",
+    "배지"
+   ],
+   [
+    "grid:font",
+    "숍"
+   ]
+  ]
+ },
+ "SHOP_TIT_BLILOCK_00_JP_ja": {
+  "jp_stroke": 2.337,
+  "ko_stroke": 1.669,
+  "ink_px": 297,
+  "partial_px": 0,
+  "ink_min_luma": 1.0,
+  "ratio": 0.714,
+  "hangul_partial_px": 0,
+  "hangul_stroke": 1.669,
+  "syllables": [
+   {
+    "x": [
+     0,
+     13
+    ],
+    "partial": 0,
+    "ink": 80
+   },
+   {
+    "x": [
+     14,
+     27
+    ],
+    "partial": 0,
+    "ink": 76
+   },
+   {
+    "x": [
+     28,
+     41
+    ],
+    "partial": 0,
+    "ink": 68
+   },
+   {
+    "x": [
+     46,
+     59
+    ],
+    "partial": 0,
+    "ink": 73
+   }
+  ],
+  "sources": [
+   [
+    "grid:font",
+    "블로크"
+   ],
+   [
+    "grid:font",
+    "숍"
+   ]
+  ]
+ },
+ "SHOP_TIT_BLOCK_00_JP_ja": {
+  "jp_stroke": 2.134,
+  "ko_stroke": 1.564,
+  "ink_px": 299,
+  "partial_px": 0,
+  "ink_min_luma": 1.0,
+  "ratio": 0.733,
+  "hangul_partial_px": 0,
+  "hangul_stroke": 1.564,
+  "syllables": [
+   {
+    "x": [
+     0,
+     13
+    ],
+    "partial": 0,
+    "ink": 64
+   },
+   {
+    "x": [
+     14,
+     25
+    ],
+    "partial": 0,
+    "ink": 79
+   },
+   {
+    "x": [
+     26,
+     39
+    ],
+    "partial": 0,
+    "ink": 80
+   },
+   {
+    "x": [
+     40,
+     53
+    ],
+    "partial": 0,
+    "ink": 76
+   }
+  ],
+  "sources": [
+   [
+    "grid:font",
+    "상점블록"
+   ]
+  ]
+ },
+ "SHOP_TIT_BLODOG_00_JP_ja": {
+  "jp_stroke": 2.337,
+  "ko_stroke": 1.642,
+  "ink_px": 273,
+  "partial_px": 0,
+  "ink_min_luma": 1.0,
+  "ratio": 0.703,
+  "hangul_partial_px": 0,
+  "hangul_stroke": 1.642,
+  "syllables": [
+   {
+    "x": [
+     0,
+     13
+    ],
+    "partial": 0,
+    "ink": 80
+   },
+   {
+    "x": [
+     14,
+     27
+    ],
+    "partial": 0,
+    "ink": 68
+   },
+   {
+    "x": [
+     28,
+     41
+    ],
+    "partial": 0,
+    "ink": 52
+   },
+   {
+    "x": [
+     46,
+     59
+    ],
+    "partial": 0,
+    "ink": 73
+   }
+  ],
+  "sources": [
+   [
+    "grid:font",
+    "블도그"
+   ],
+   [
+    "grid:font",
+    "숍"
+   ]
+  ]
+ },
+ "SHOP_TIT_EQUIP1_00_JP_ja": {
+  "jp_stroke": 2.153,
+  "ko_stroke": 1.734,
+  "ink_px": 203,
+  "partial_px": 0,
+  "ink_min_luma": 1.0,
+  "ratio": 0.805,
+  "hangul_partial_px": 0,
+  "hangul_stroke": 1.734,
+  "syllables": [
+   {
+    "x": [
+     1,
+     14
+    ],
+    "partial": 0,
+    "ink": 70
+   },
+   {
+    "x": [
+     15,
+     25
+    ],
+    "partial": 0,
+    "ink": 60
+   },
+   {
+    "x": [
+     30,
+     43
+    ],
+    "partial": 0,
+    "ink": 73
+   }
+  ],
+  "sources": [
+   [
+    "grid:font",
+    "장비"
+   ],
+   [
+    "grid:font",
+    "숍"
+   ]
+  ]
+ },
+ "SHOP_TIT_EQUIP2_00_JP_ja": {
+  "jp_stroke": 2.216,
+  "ko_stroke": 1.896,
+  "ink_px": 374,
+  "partial_px": 0,
+  "ink_min_luma": 1.0,
+  "ratio": 0.856,
+  "hangul_partial_px": 0,
+  "hangul_stroke": 1.896,
+  "syllables": [
+   {
+    "x": [
+     1,
+     14
+    ],
+    "partial": 0,
+    "ink": 74
+   },
+   {
+    "x": [
+     15,
+     25
+    ],
+    "partial": 0,
+    "ink": 61
+   },
+   {
+    "x": [
+     26,
+     39
+    ],
+    "partial": 0,
+    "ink": 68
+   },
+   {
+    "x": [
+     44,
+     55
+    ],
+    "partial": 0,
+    "ink": 55
+   },
+   {
+    "x": [
+     56,
+     69
+    ],
+    "partial": 0,
+    "ink": 57
+   },
+   {
+    "x": [
+     70,
+     82
+    ],
+    "partial": 0,
+    "ink": 59
+   }
+  ],
+  "sources": [
+   [
+    "grid:font",
+    "부티크"
+   ],
+   [
+    "grid:font",
+    "키노다"
+   ]
+  ]
+ },
+ "SHOP_TIT_EQUIP3_00_JP_ja": {
+  "jp_stroke": 2.163,
+  "ko_stroke": 1.687,
+  "ink_px": 250,
+  "partial_px": 0,
+  "ink_min_luma": 1.0,
+  "ratio": 0.78,
+  "hangul_partial_px": 0,
+  "hangul_stroke": 1.687,
+  "syllables": [
+   {
+    "x": [
+     1,
+     11
+    ],
+    "partial": 0,
+    "ink": 73
+   },
+   {
+    "x": [
+     12,
+     23
+    ],
+    "partial": 0,
+    "ink": 46
+   },
+   {
+    "x": [
+     24,
+     35
+    ],
+    "partial": 0,
+    "ink": 58
+   },
+   {
+    "x": [
+     40,
+     53
+    ],
+    "partial": 0,
+    "ink": 73
+   }
+  ],
+  "sources": [
+   [
+    "grid:font",
+    "럭셔리"
+   ],
+   [
+    "grid:font",
+    "숍"
+   ]
+  ]
+ },
+ "SHOP_TIT_ITEM_00_JP_ja": {
+  "jp_stroke": 2.157,
+  "ko_stroke": 1.724,
+  "ink_px": 279,
+  "partial_px": 0,
+  "ink_min_luma": 1.0,
+  "ratio": 0.799,
+  "hangul_partial_px": 0,
+  "hangul_stroke": 1.724,
+  "syllables": [
+   {
+    "x": [
+     1,
+     14
+    ],
+    "partial": 0,
+    "ink": 52
+   },
+   {
+    "x": [
+     15,
+     25
+    ],
+    "partial": 0,
+    "ink": 57
+   },
+   {
+    "x": [
+     26,
+     38
+    ],
+    "partial": 0,
+    "ink": 97
+   },
+   {
+    "x": [
+     43,
+     56
+    ],
+    "partial": 0,
+    "ink": 73
+   }
+  ],
+  "sources": [
+   [
+    "grid:font",
+    "아이템"
+   ],
+   [
+    "grid:font",
+    "숍"
+   ]
+  ]
+ },
+ "btn_SLOT_00_JP_ja": {
+  "jp_stroke": 2.301,
+  "ko_stroke": 1.267,
+  "ink_px": 131,
+  "partial_px": 0,
+  "ink_min_luma": 1.0,
+  "ratio": 0.551,
+  "hangul_partial_px": 0,
+  "hangul_stroke": 1.267,
+  "syllables": [
+   {
+    "x": [
+     51,
+     64
+    ],
+    "partial": 0,
+    "ink": 65
+   },
+   {
+    "x": [
+     65,
+     78
+    ],
+    "partial": 0,
+    "ink": 66
+   }
+  ],
+  "sources": [
+   [
+    "grid:font",
+    "슬롯*"
+   ]
+  ]
+ }
+}

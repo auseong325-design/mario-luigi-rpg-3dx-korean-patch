@@ -1,0 +1,8594 @@
+{
+ "meta": {
+  "version": "1.0",
+  "glyphs": 412,
+  "images": 127,
+  "syllables": 154,
+  "gap_em": 0.0909,
+  "space_em": 0.5,
+  "problems": [],
+  "ofl_choice": "NanumSquareRoundEB"
+ },
+ "images": {
+  "btn_guide_practice": {
+   "png": "work/img/lyt/1DX/BLyt/btl_attackn_KR_ko/btn_guide_practice_12_KR_ko.png",
+   "text": "연습",
+   "lines": [
+    {
+     "band": [
+      7,
+      19
+     ],
+     "em": 12.0,
+     "glyphs": [
+      0,
+      1
+     ]
+    }
+   ]
+  },
+  "btn_guide_example": {
+   "png": "work/img/lyt/1DX/BLyt/btl_attackn_KR_ko/btn_guide_example_12_KR_ko.png",
+   "text": "시범",
+   "lines": [
+    {
+     "band": [
+      7,
+      19
+     ],
+     "em": 12.0,
+     "glyphs": [
+      2,
+      3
+     ]
+    }
+   ]
+  },
+  "btn_guide_end": {
+   "png": "work/img/lyt/1DX/BLyt/btl_attackn_KR_ko/btn_guide_end_12_KR_ko.png",
+   "text": "마치기",
+   "lines": [
+    {
+     "band": [
+      6,
+      17
+     ],
+     "em": 11.0,
+     "glyphs": [
+      4,
+      5,
+      6
+     ]
+    }
+   ]
+  },
+  "btn_b_HINT": {
+   "png": "work/img/lyt/1DX/BLyt/btl_mainn_KR_ko/btn_b_HINT_12_KR_ko.png",
+   "text": "힌트",
+   "lines": [
+    {
+     "band": [
+      2,
+      14
+     ],
+     "em": 12.0,
+     "glyphs": [
+      7,
+      8
+     ]
+    }
+   ]
+  },
+  "btl_ASSIST": {
+   "png": "work/img/lyt/1DX/BLyt/btl_mainn_KR_ko/btl_ASSIST_12_KR_ko.png",
+   "text": "어시스트",
+   "lines": [
+    {
+     "band": [
+      2,
+      13
+     ],
+     "em": 11.0,
+     "glyphs": [
+      9,
+      10,
+      11,
+      12
+     ]
+    }
+   ]
+  },
+  "btn_KGb_GUIDE": {
+   "png": "work/img/lyt/1DX/BLyt/btl_mainn_KR_ko/btn_KGb_GUIDE_12_KR_ko.png",
+   "text": "가이드",
+   "lines": [
+    {
+     "band": [
+      3,
+      14
+     ],
+     "em": 11.0,
+     "glyphs": [
+      13,
+      14,
+      15
+     ]
+    }
+   ]
+  },
+  "btn_f_action": {
+   "png": "work/img/lyt/1DX/FLyt/fld_actnnn_KR_ko/btn_f_action_12_KR_ko.png",
+   "text": "액션",
+   "lines": [
+    {
+     "band": [
+      4,
+      14
+     ],
+     "em": 10.0,
+     "glyphs": [
+      16,
+      17
+     ]
+    }
+   ]
+  },
+  "fld_text_41": {
+   "png": "work/img/lyt/1DX/FLyt/fld_actnnn_KR_ko/fld_text_41_12_KR_ko.png",
+   "text": "밟기",
+   "lines": [
+    {
+     "band": [
+      4,
+      17
+     ],
+     "em": 13.0,
+     "glyphs": [
+      18,
+      19
+     ]
+    }
+   ]
+  },
+  "fld_text_34": {
+   "png": "work/img/lyt/1DX/FLyt/fld_actnnn_KR_ko/fld_text_34_12_KR_ko.png",
+   "text": "찰싹 붙기",
+   "lines": [
+    {
+     "band": [
+      3,
+      17
+     ],
+     "em": 14.0,
+     "glyphs": [
+      20,
+      21,
+      22,
+      23
+     ]
+    }
+   ]
+  },
+  "btn_fld_save": {
+   "png": "work/img/lyt/1DX/FLyt/fld_actnnn_KR_ko/btn_fld_save_12_KR_ko.png",
+   "text": "저장",
+   "lines": [
+    {
+     "band": [
+      4,
+      16
+     ],
+     "em": 12.0,
+     "glyphs": [
+      24,
+      25
+     ]
+    }
+   ]
+  },
+  "btn_f_map": {
+   "png": "work/img/lyt/1DX/FLyt/fld_actnnn_KR_ko/btn_f_map_12_KR_ko.png",
+   "text": "미니 맵",
+   "lines": [
+    {
+     "band": [
+      4,
+      14
+     ],
+     "em": 10.0,
+     "glyphs": [
+      26,
+      27,
+      28
+     ]
+    }
+   ]
+  },
+  "fld_text_13": {
+   "png": "work/img/lyt/1DX/FLyt/fld_actnnn_KR_ko/fld_text_13_12_KR_ko.png",
+   "text": "스핀",
+   "lines": [
+    {
+     "band": [
+      3,
+      17
+     ],
+     "em": 14.0,
+     "glyphs": [
+      29,
+      30
+     ]
+    }
+   ]
+  },
+  "lbl_fldY": {
+   "png": "work/img/lyt/1DX/FLyt/fld_actnnn_KR_ko/lbl_fldY_12_KR_ko.png",
+   "text": "전환",
+   "lines": [
+    {
+     "band": [
+      6,
+      18
+     ],
+     "em": 12.0,
+     "glyphs": [
+      31,
+      32
+     ]
+    }
+   ]
+  },
+  "fld_text_32": {
+   "png": "work/img/lyt/1DX/FLyt/fld_actnnn_KR_ko/fld_text_32_12_KR_ko.png",
+   "text": "선더",
+   "lines": [
+    {
+     "band": [
+      4,
+      17
+     ],
+     "em": 13.0,
+     "glyphs": [
+      33,
+      34
+     ]
+    }
+   ]
+  },
+  "fld_text_11": {
+   "png": "work/img/lyt/1DX/FLyt/fld_actnnn_KR_ko/fld_text_11_12_KR_ko.png",
+   "text": "점프",
+   "lines": [
+    {
+     "band": [
+      3,
+      17
+     ],
+     "em": 14.0,
+     "glyphs": [
+      35,
+      36
+     ]
+    }
+   ]
+  },
+  "fld_text_51": {
+   "png": "work/img/lyt/1DX/FLyt/fld_actnnn_KR_ko/fld_text_51_12_KR_ko.png",
+   "text": "통 오르기",
+   "lines": [
+    {
+     "band": [
+      3,
+      17
+     ],
+     "em": 14.0,
+     "glyphs": [
+      37,
+      38,
+      39,
+      40
+     ]
+    }
+   ]
+  },
+  "fld_text_23": {
+   "png": "work/img/lyt/1DX/FLyt/fld_actnnn_KR_ko/fld_text_23_12_KR_ko.png",
+   "text": "꼬마",
+   "lines": [
+    {
+     "band": [
+      4,
+      15
+     ],
+     "em": 11.0,
+     "glyphs": [
+      41,
+      42
+     ]
+    }
+   ]
+  },
+  "fld_text_42": {
+   "png": "work/img/lyt/1DX/FLyt/fld_actnnn_KR_ko/fld_text_42_12_KR_ko.png",
+   "text": "해머",
+   "lines": [
+    {
+     "band": [
+      4,
+      15
+     ],
+     "em": 11.0,
+     "glyphs": [
+      43,
+      44
+     ]
+    }
+   ]
+  },
+  "fld_text_33": {
+   "png": "work/img/lyt/1DX/FLyt/fld_actnnn_KR_ko/fld_text_33_12_KR_ko.png",
+   "text": "대시",
+   "lines": [
+    {
+     "band": [
+      5,
+      15
+     ],
+     "em": 10.0,
+     "glyphs": [
+      45,
+      46
+     ]
+    }
+   ]
+  },
+  "fld_text_12": {
+   "png": "work/img/lyt/1DX/FLyt/fld_actnnn_KR_ko/fld_text_12_12_KR_ko.png",
+   "text": "하이",
+   "lines": [
+    {
+     "band": [
+      4,
+      15
+     ],
+     "em": 11.0,
+     "glyphs": [
+      47,
+      48
+     ]
+    }
+   ]
+  },
+  "fld_text_52": {
+   "png": "work/img/lyt/1DX/FLyt/fld_actnnn_KR_ko/fld_text_52_12_KR_ko.png",
+   "text": "내려오기",
+   "lines": [
+    {
+     "band": [
+      3,
+      15
+     ],
+     "em": 12.0,
+     "glyphs": [
+      49,
+      50,
+      51,
+      52
+     ]
+    }
+   ]
+  },
+  "fld_text_31": {
+   "png": "work/img/lyt/1DX/FLyt/fld_actnnn_KR_ko/fld_text_31_12_KR_ko.png",
+   "text": "파이어",
+   "lines": [
+    {
+     "band": [
+      6,
+      15
+     ],
+     "em": 9.0,
+     "glyphs": [
+      53,
+      54,
+      55
+     ]
+    }
+   ]
+  },
+  "fld_text_43": {
+   "png": "work/img/lyt/1DX/FLyt/fld_actnnn_KR_ko/fld_text_43_12_KR_ko.png",
+   "text": "간지럼",
+   "lines": [
+    {
+     "band": [
+      4,
+      17
+     ],
+     "em": 13.0,
+     "glyphs": [
+      56,
+      57,
+      58
+     ]
+    }
+   ]
+  },
+  "fld_text_22": {
+   "png": "work/img/lyt/1DX/FLyt/fld_actnnn_KR_ko/fld_text_22_12_KR_ko.png",
+   "text": "땅굴",
+   "lines": [
+    {
+     "band": [
+      3,
+      17
+     ],
+     "em": 14.0,
+     "glyphs": [
+      59,
+      60
+     ]
+    }
+   ]
+  },
+  "btn_fld_menu": {
+   "png": "work/img/lyt/1DX/FLyt/fld_actnnn_KR_ko/btn_fld_menu_12_KR_ko.png",
+   "text": "메뉴",
+   "lines": [
+    {
+     "band": [
+      5,
+      15
+     ],
+     "em": 10.0,
+     "glyphs": [
+      61,
+      62
+     ]
+    }
+   ]
+  },
+  "GUIDE_WAKE": {
+   "png": "work/img/lyt/1DX/GLyt/G_KGA_26_KR_ko/GUIDE_WAKE_12_KR_ko.png",
+   "text": "일어나기",
+   "lines": [
+    {
+     "band": [
+      10,
+      22
+     ],
+     "em": 12.0,
+     "glyphs": [
+      63,
+      64,
+      65,
+      66
+     ]
+    }
+   ]
+  },
+  "btn_AMB_bonusg": {
+   "png": "work/img/lyt/1DX/GLyt/G_AMB_01_KR_ko/btn_AMB_bonusg_12_KR_ko.png",
+   "text": "친구 보너스",
+   "lines": [
+    {
+     "band": [
+      6,
+      25
+     ],
+     "em": 19.0,
+     "glyphs": [
+      67,
+      68,
+      69,
+      70,
+      71
+     ]
+    }
+   ]
+  },
+  "btn_KGLA_TX_n03": {
+   "png": "work/img/lyt/1DX/GLyt/G_KGH_12_KR_ko/btn_KGLA_TX_n03_12_KR_ko.png",
+   "text": "제비뽑기",
+   "lines": [
+    {
+     "band": [
+      5,
+      21
+     ],
+     "em": 16.0,
+     "glyphs": [
+      72,
+      73,
+      74,
+      75
+     ]
+    }
+   ]
+  },
+  "btn_KGLA_TX_n01": {
+   "png": "work/img/lyt/1DX/GLyt/G_KGH_12_KR_ko/btn_KGLA_TX_n01_12_KR_ko.png",
+   "text": "스킬 지우기",
+   "lines": [
+    {
+     "band": [
+      5,
+      21
+     ],
+     "em": 16.0,
+     "glyphs": [
+      76,
+      77,
+      78,
+      79,
+      80
+     ]
+    }
+   ]
+  },
+  "btn_KG_Q_LACTION": {
+   "png": "work/img/lyt/1DX/GLyt/G_KGH_12_KR_ko/btn_KG_Q_LACTION_12_KR_ko.png",
+   "text": "리더 액션",
+   "lines": [
+    {
+     "band": [
+      8,
+      18
+     ],
+     "em": 10.0,
+     "glyphs": [
+      81,
+      82,
+      83,
+      84
+     ]
+    }
+   ]
+  },
+  "KG_HENSEI_TYPE_01": {
+   "png": "work/img/lyt/1DX/GLyt/G_KGG_05_KR_ko/KG_HENSEI_TYPE_01_12_KR_ko.png",
+   "text": "돌격",
+   "lines": [
+    {
+     "band": [
+      5,
+      19
+     ],
+     "em": 14.0,
+     "glyphs": [
+      85,
+      86
+     ]
+    }
+   ]
+  },
+  "btn_KG_Q_ITEM": {
+   "png": "work/img/lyt/1DX/GLyt/G_KGH_11_KR_ko/btn_KG_Q_ITEM_12_KR_ko.png",
+   "text": "강화",
+   "lines": [
+    {
+     "band": [
+      8,
+      18
+     ],
+     "em": 10.0,
+     "glyphs": [
+      87,
+      88
+     ]
+    }
+   ]
+  },
+  "GUIDE_ACCURACY": {
+   "png": "work/img/lyt/1DX/GLyt/G_KGA_21_KR_ko/GUIDE_ACCURACY_12_KR_ko.png",
+   "text": "명중",
+   "lines": [
+    {
+     "band": [
+      2,
+      15
+     ],
+     "em": 13.0,
+     "glyphs": [
+      89,
+      90
+     ]
+    }
+   ]
+  },
+  "btn_KG_RECORDs": {
+   "png": "work/img/lyt/1DX/GLyt/G_KGH_03_KR_ko/btn_KG_RECORDs_12_KR_ko.png",
+   "text": "기록",
+   "lines": [
+    {
+     "band": [
+      14,
+      30
+     ],
+     "em": 16.0,
+     "glyphs": [
+      91,
+      92
+     ]
+    }
+   ]
+  },
+  "TOP_MENU_TEXT_6": {
+   "png": "work/img/lyt/1DX/GLyt/G_BG_12_KR_ko/TOP_MENU_TEXT_6_12_KR_ko.png",
+   "text": "설정",
+   "lines": [
+    {
+     "band": [
+      4,
+      21
+     ],
+     "em": 17.0,
+     "glyphs": [
+      93,
+      94
+     ]
+    }
+   ]
+  },
+  "TOP_MENU_TEXT_4": {
+   "png": "work/img/lyt/1DX/GLyt/G_BG_12_KR_ko/TOP_MENU_TEXT_4_12_KR_ko.png",
+   "text": "가이드",
+   "lines": [
+    {
+     "band": [
+      4,
+      17
+     ],
+     "em": 13.0,
+     "glyphs": [
+      95,
+      96,
+      97
+     ]
+    }
+   ]
+  },
+  "TOP_MENU_TEXT_2": {
+   "png": "work/img/lyt/1DX/GLyt/G_BG_12_KR_ko/TOP_MENU_TEXT_2_12_KR_ko.png",
+   "text": "장비",
+   "lines": [
+    {
+     "band": [
+      4,
+      21
+     ],
+     "em": 17.0,
+     "glyphs": [
+      98,
+      99
+     ]
+    }
+   ]
+  },
+  "GUIDE_easy": {
+   "png": "work/img/lyt/1DX/GLyt/G_BG_12_KR_ko/GUIDE_easy_12_KR_ko.png",
+   "text": "이지 모드",
+   "lines": [
+    {
+     "band": [
+      7,
+      18
+     ],
+     "em": 11.0,
+     "glyphs": [
+      100,
+      101,
+      102,
+      103
+     ]
+    }
+   ]
+  },
+  "TOP_MENU_TEXT_3": {
+   "png": "work/img/lyt/1DX/GLyt/G_BG_12_KR_ko/TOP_MENU_TEXT_3_12_KR_ko.png",
+   "text": "스테이터스",
+   "lines": [
+    {
+     "band": [
+      4,
+      18
+     ],
+     "em": 14.0,
+     "glyphs": [
+      104,
+      105,
+      106,
+      107,
+      108
+     ]
+    }
+   ]
+  },
+  "TOP_MENU_TEXT_1": {
+   "png": "work/img/lyt/1DX/GLyt/G_BG_12_KR_ko/TOP_MENU_TEXT_1_12_KR_ko.png",
+   "text": "아이템",
+   "lines": [
+    {
+     "band": [
+      4,
+      21
+     ],
+     "em": 17.0,
+     "glyphs": [
+      109,
+      110,
+      111
+     ]
+    }
+   ]
+  },
+  "GUIDE_EVADE": {
+   "png": "work/img/lyt/1DX/GLyt/G_KGA_20_KR_ko/GUIDE_EVADE_12_KR_ko.png",
+   "text": "회피",
+   "lines": [
+    {
+     "band": [
+      3,
+      14
+     ],
+     "em": 11.0,
+     "glyphs": [
+      112,
+      113
+     ]
+    }
+   ]
+  },
+  "LTIT_guide_fieldbasic": {
+   "png": "work/img/lyt/1DX/MLyt/MLYT_GUIDE_KR_ko/LTIT_guide_fieldbasic_12_KR_ko.png",
+   "text": "필드 기본",
+   "lines": [
+    {
+     "band": [
+      6,
+      16
+     ],
+     "em": 10.0,
+     "glyphs": [
+      114,
+      115,
+      116,
+      117
+     ]
+    }
+   ]
+  },
+  "LTIT_guide_fieldaction": {
+   "png": "work/img/lyt/1DX/MLyt/MLYT_GUIDE_KR_ko/LTIT_guide_fieldaction_12_KR_ko.png",
+   "text": "필드 액션",
+   "lines": [
+    {
+     "band": [
+      6,
+      16
+     ],
+     "em": 10.0,
+     "glyphs": [
+      118,
+      119,
+      120,
+      121
+     ]
+    }
+   ]
+  },
+  "btn_text_guide_pnl_3": {
+   "png": "work/img/lyt/1DX/MLyt/MLYT_GUIDE_KR_ko/btn_text_guide_pnl_3_12_KR_ko.png",
+   "text": "배틀\n기본",
+   "lines": [
+    {
+     "band": [
+      6,
+      20
+     ],
+     "em": 14.0,
+     "glyphs": [
+      122,
+      123
+     ]
+    },
+    {
+     "band": [
+      17,
+      35
+     ],
+     "em": 18.0,
+     "glyphs": [
+      124,
+      125
+     ]
+    }
+   ]
+  },
+  "LTIT_guide_battleattack": {
+   "png": "work/img/lyt/1DX/MLyt/MLYT_GUIDE_KR_ko/LTIT_guide_battleattack_12_KR_ko.png",
+   "text": "배틀 어택",
+   "lines": [
+    {
+     "band": [
+      6,
+      16
+     ],
+     "em": 10.0,
+     "glyphs": [
+      126,
+      127,
+      128,
+      129
+     ]
+    }
+   ]
+  },
+  "LTIT_guide_battlebasic": {
+   "png": "work/img/lyt/1DX/MLyt/MLYT_GUIDE_KR_ko/LTIT_guide_battlebasic_12_KR_ko.png",
+   "text": "배틀 기본",
+   "lines": [
+    {
+     "band": [
+      6,
+      16
+     ],
+     "em": 10.0,
+     "glyphs": [
+      130,
+      131,
+      132,
+      133
+     ]
+    }
+   ]
+  },
+  "btn_text_guide_pnl_1": {
+   "png": "work/img/lyt/1DX/MLyt/MLYT_GUIDE_KR_ko/btn_text_guide_pnl_1_12_KR_ko.png",
+   "text": "필드\n기본",
+   "lines": [
+    {
+     "band": [
+      7,
+      23
+     ],
+     "em": 16.0,
+     "glyphs": [
+      134,
+      135
+     ]
+    },
+    {
+     "band": [
+      20,
+      35
+     ],
+     "em": 15.0,
+     "glyphs": [
+      136,
+      137
+     ]
+    }
+   ]
+  },
+  "btn_text_guide_pnl_4": {
+   "png": "work/img/lyt/1DX/MLyt/MLYT_GUIDE_KR_ko/btn_text_guide_pnl_4_12_KR_ko.png",
+   "text": "배틀\n어택",
+   "lines": [
+    {
+     "band": [
+      6,
+      20
+     ],
+     "em": 14.0,
+     "glyphs": [
+      138,
+      139
+     ]
+    },
+    {
+     "band": [
+      17,
+      35
+     ],
+     "em": 18.0,
+     "glyphs": [
+      140,
+      141
+     ]
+    }
+   ]
+  },
+  "btn_text_guide_pnl_2": {
+   "png": "work/img/lyt/1DX/MLyt/MLYT_GUIDE_KR_ko/btn_text_guide_pnl_2_12_KR_ko.png",
+   "text": "필드\n액션",
+   "lines": [
+    {
+     "band": [
+      7,
+      19
+     ],
+     "em": 12.0,
+     "glyphs": [
+      142,
+      143
+     ]
+    },
+    {
+     "band": [
+      17,
+      35
+     ],
+     "em": 18.0,
+     "glyphs": [
+      144,
+      145
+     ]
+    }
+   ]
+  },
+  "btn_SAVE_text": {
+   "png": "work/img/lyt/1DX/MLyt/MLYT_FILE_SAVE_KR_ko/btn_SAVE_text_12_KR_ko.png",
+   "text": "저장",
+   "lines": [
+    {
+     "band": [
+      9,
+      27
+     ],
+     "em": 18.0,
+     "glyphs": [
+      146,
+      147
+     ]
+    }
+   ]
+  },
+  "btn_load_YES_text": {
+   "png": "work/img/lyt/1DX/MLyt/MLYT_FILE_LOAD_KR_ko/btn_load_YES_text_12_KR_ko.png",
+   "text": "예",
+   "lines": [
+    {
+     "band": [
+      7,
+      18
+     ],
+     "em": 11.0,
+     "glyphs": [
+      148
+     ]
+    }
+   ]
+  },
+  "btn_load_FERACE_text": {
+   "png": "work/img/lyt/1DX/MLyt/MLYT_FILE_LOAD_KR_ko/btn_load_FERACE_text_12_KR_ko.png",
+   "text": "파일 삭제",
+   "lines": [
+    {
+     "band": [
+      7,
+      19
+     ],
+     "em": 12.0,
+     "glyphs": [
+      149,
+      150,
+      151,
+      152
+     ]
+    }
+   ]
+  },
+  "btn_load_DONOT_text": {
+   "png": "work/img/lyt/1DX/MLyt/MLYT_FILE_LOAD_KR_ko/btn_load_DONOT_text_12_KR_ko.png",
+   "text": "취소",
+   "lines": [
+    {
+     "band": [
+      7,
+      18
+     ],
+     "em": 11.0,
+     "glyphs": [
+      153,
+      154
+     ]
+    }
+   ]
+  },
+  "btn_load_NO_text": {
+   "png": "work/img/lyt/1DX/MLyt/MLYT_FILE_LOAD_KR_ko/btn_load_NO_text_12_KR_ko.png",
+   "text": "아니요",
+   "lines": [
+    {
+     "band": [
+      7,
+      18
+     ],
+     "em": 11.0,
+     "glyphs": [
+      155,
+      156,
+      157
+     ]
+    }
+   ]
+  },
+  "btn_load_DELETE_text": {
+   "png": "work/img/lyt/1DX/MLyt/MLYT_FILE_LOAD_KR_ko/btn_load_DELETE_text_12_KR_ko.png",
+   "text": "삭제",
+   "lines": [
+    {
+     "band": [
+      7,
+      19
+     ],
+     "em": 12.0,
+     "glyphs": [
+      158,
+      159
+     ]
+    }
+   ]
+  },
+  "btn_load_OWRITE_text": {
+   "png": "work/img/lyt/1DX/MLyt/MLYT_FILE_LOAD_KR_ko/btn_load_OWRITE_text_12_KR_ko.png",
+   "text": "덮어쓰기",
+   "lines": [
+    {
+     "band": [
+      7,
+      19
+     ],
+     "em": 12.0,
+     "glyphs": [
+      160,
+      161,
+      162,
+      163
+     ]
+    }
+   ]
+  },
+  "btn_load_DERACE_text": {
+   "png": "work/img/lyt/1DX/MLyt/MLYT_FILE_LOAD_KR_ko/btn_load_DERACE_text_12_KR_ko.png",
+   "text": "데이터 삭제",
+   "lines": [
+    {
+     "band": [
+      7,
+      19
+     ],
+     "em": 12.0,
+     "glyphs": [
+      164,
+      165,
+      166,
+      167,
+      168
+     ]
+    }
+   ]
+  },
+  "btn_load_COPY_text": {
+   "png": "work/img/lyt/1DX/MLyt/MLYT_FILE_LOAD_KR_ko/btn_load_COPY_text_12_KR_ko.png",
+   "text": "복사",
+   "lines": [
+    {
+     "band": [
+      7,
+      19
+     ],
+     "em": 12.0,
+     "glyphs": [
+      169,
+      170
+     ]
+    }
+   ]
+  },
+  "btn_load_START_text": {
+   "png": "work/img/lyt/1DX/MLyt/MLYT_FILE_LOAD_KR_ko/btn_load_START_text_12_KR_ko.png",
+   "text": "시작하기",
+   "lines": [
+    {
+     "band": [
+      9,
+      26
+     ],
+     "em": 17.0,
+     "glyphs": [
+      171,
+      172,
+      173,
+      174
+     ]
+    }
+   ]
+  },
+  "btn_RECORD_stamp": {
+   "png": "work/img/lyt/1DX/MLyt/MLYT_RECORD_KR_ko/btn_RECORD_stamp_12_KR_ko.png",
+   "text": "스탬프",
+   "lines": [
+    {
+     "band": [
+      4,
+      20
+     ],
+     "em": 16.0,
+     "glyphs": [
+      175,
+      176,
+      177
+     ]
+    }
+   ]
+  },
+  "btn_p_KUBOMI": {
+   "png": "work/img/lyt/1DX/MLyt/MLYT_RECORD_KR_ko/btn_p_KUBOMI_12_KR_ko.png",
+   "text": "구덩이",
+   "lines": [
+    {
+     "band": [
+      5,
+      20
+     ],
+     "em": 15.0,
+     "glyphs": [
+      178,
+      179,
+      180
+     ]
+    }
+   ]
+  },
+  "btn_RECORD_story": {
+   "png": "work/img/lyt/1DX/MLyt/MLYT_RECORD_KR_ko/btn_RECORD_story_12_KR_ko.png",
+   "text": "지난 이야기",
+   "lines": [
+    {
+     "band": [
+      6,
+      20
+     ],
+     "em": 14.0,
+     "glyphs": [
+      181,
+      182,
+      183,
+      184,
+      185
+     ]
+    }
+   ]
+  },
+  "LTIT_record_BLOCK": {
+   "png": "work/img/lyt/1DX/MLyt/MLYT_RECORD_KR_ko/LTIT_record_BLOCK_12_KR_ko.png",
+   "text": "블록",
+   "lines": [
+    {
+     "band": [
+      6,
+      16
+     ],
+     "em": 10.0,
+     "glyphs": [
+      186,
+      187
+     ]
+    }
+   ]
+  },
+  "btn_p_BLOCK": {
+   "png": "work/img/lyt/1DX/MLyt/MLYT_RECORD_KR_ko/btn_p_BLOCK_12_KR_ko.png",
+   "text": "블록",
+   "lines": [
+    {
+     "band": [
+      4,
+      20
+     ],
+     "em": 16.0,
+     "glyphs": [
+      188,
+      189
+     ]
+    }
+   ]
+  },
+  "record_STORY_past": {
+   "png": "work/img/lyt/1DX/MLyt/MLYT_RECORD_KR_ko/record_STORY_past_12_KR_ko.png",
+   "text": "지난 이야기",
+   "lines": [
+    {
+     "band": [
+      6,
+      16
+     ],
+     "em": 10.0,
+     "glyphs": [
+      190,
+      191,
+      192,
+      193,
+      194
+     ]
+    }
+   ]
+  },
+  "LTIT_record_KUBOMI": {
+   "png": "work/img/lyt/1DX/MLyt/MLYT_RECORD_KR_ko/LTIT_record_KUBOMI_12_KR_ko.png",
+   "text": "구덩이",
+   "lines": [
+    {
+     "band": [
+      6,
+      16
+     ],
+     "em": 10.0,
+     "glyphs": [
+      195,
+      196,
+      197
+     ]
+    }
+   ]
+  },
+  "btn_SAVESTART": {
+   "png": "work/img/lyt/1DX/MLyt/MLYT_MAIN_KR_ko/btn_SAVESTART_12_KR_ko.png",
+   "text": "저장하고 시작하기",
+   "lines": [
+    {
+     "band": [
+      9,
+      25
+     ],
+     "em": 16.0,
+     "glyphs": [
+      198,
+      199,
+      200,
+      201,
+      202,
+      203,
+      204,
+      205
+     ]
+    }
+   ]
+  },
+  "TOP_MENU_TEXT_5": {
+   "png": "work/img/lyt/1DX/MLyt/MLYT_MAIN_KR_ko/TOP_MENU_TEXT_5_12_KR_ko.png",
+   "text": "기록",
+   "lines": [
+    {
+     "band": [
+      3,
+      21
+     ],
+     "em": 18.0,
+     "glyphs": [
+      206,
+      207
+     ]
+    }
+   ]
+  },
+  "btn_sell": {
+   "png": "work/img/lyt/1DX/MLyt/MLYT_SHOP_KR_ko/btn_sell_12_KR_ko.png",
+   "text": "팔기",
+   "lines": [
+    {
+     "band": [
+      9,
+      26
+     ],
+     "em": 17.0,
+     "glyphs": [
+      208,
+      209
+     ]
+    }
+   ]
+  },
+  "shop_top_sell_text": {
+   "png": "work/img/lyt/1DX/MLyt/MLYT_SHOP_KR_ko/shop_top_sell_text_12_KR_ko.png",
+   "text": "팔기",
+   "lines": [
+    {
+     "band": [
+      10,
+      24
+     ],
+     "em": 14.0,
+     "glyphs": [
+      210,
+      211
+     ]
+    }
+   ]
+  },
+  "shop_top_badge_text": {
+   "png": "work/img/lyt/1DX/MLyt/MLYT_SHOP_KR_ko/shop_top_badge_text_12_KR_ko.png",
+   "text": "배지",
+   "lines": [
+    {
+     "band": [
+      11,
+      21
+     ],
+     "em": 10.0,
+     "glyphs": [
+      212,
+      213
+     ]
+    }
+   ]
+  },
+  "btn_later": {
+   "png": "work/img/lyt/1DX/MLyt/MLYT_SHOP_KR_ko/btn_later_12_KR_ko.png",
+   "text": "나중에",
+   "lines": [
+    {
+     "band": [
+      9,
+      27
+     ],
+     "em": 18.0,
+     "glyphs": [
+      214,
+      215,
+      216
+     ]
+    }
+   ]
+  },
+  "shop_top_item_text": {
+   "png": "work/img/lyt/1DX/MLyt/MLYT_SHOP_KR_ko/shop_top_item_text_12_KR_ko.png",
+   "text": "아이템",
+   "lines": [
+    {
+     "band": [
+      9,
+      24
+     ],
+     "em": 15.0,
+     "glyphs": [
+      217,
+      218,
+      219
+     ]
+    }
+   ]
+  },
+  "btn_buy": {
+   "png": "work/img/lyt/1DX/MLyt/MLYT_SHOP_KR_ko/btn_buy_12_KR_ko.png",
+   "text": "사기",
+   "lines": [
+    {
+     "band": [
+      9,
+      24
+     ],
+     "em": 15.0,
+     "glyphs": [
+      220,
+      221
+     ]
+    }
+   ]
+  },
+  "shop_top_wear_02_text": {
+   "png": "work/img/lyt/1DX/MLyt/MLYT_SHOP_KR_ko/shop_top_wear_02_text_12_KR_ko.png",
+   "text": "장비품",
+   "lines": [
+    {
+     "band": [
+      8,
+      24
+     ],
+     "em": 16.0,
+     "glyphs": [
+      222,
+      223,
+      224
+     ]
+    }
+   ]
+  },
+  "btn_equip": {
+   "png": "work/img/lyt/1DX/MLyt/MLYT_SHOP_KR_ko/btn_equip_12_KR_ko.png",
+   "text": "장비하기",
+   "lines": [
+    {
+     "band": [
+      9,
+      27
+     ],
+     "em": 18.0,
+     "glyphs": [
+      225,
+      226,
+      227,
+      228
+     ]
+    }
+   ]
+  },
+  "btn_cancel": {
+   "png": "work/img/lyt/1DX/MLyt/MLYT_SHOP_KR_ko/btn_cancel_12_KR_ko.png",
+   "text": "취소",
+   "lines": [
+    {
+     "band": [
+      8,
+      24
+     ],
+     "em": 16.0,
+     "glyphs": [
+      229,
+      230
+     ]
+    }
+   ]
+  },
+  "shop_top_wear_01_text": {
+   "png": "work/img/lyt/1DX/MLyt/MLYT_SHOP_KR_ko/shop_top_wear_01_text_12_KR_ko.png",
+   "text": "웨어",
+   "lines": [
+    {
+     "band": [
+      9,
+      22
+     ],
+     "em": 13.0,
+     "glyphs": [
+      231,
+      232
+     ]
+    }
+   ]
+  },
+  "SET_DECISION": {
+   "png": "work/img/lyt/1DX/MLyt/MLYT_SET_KR_ko/SET_DECISION_12_KR_ko.png",
+   "text": "결정",
+   "lines": [
+    {
+     "band": [
+      6,
+      18
+     ],
+     "em": 12.0,
+     "glyphs": [
+      233,
+      234
+     ]
+    }
+   ]
+  },
+  "btn_push_STAMP": {
+   "png": "work/img/lyt/1DX/MLyt/MLYT_STAMP_KR_ko/btn_push_STAMP_12_KR_ko.png",
+   "text": "스탬프 찍기",
+   "lines": [
+    {
+     "band": [
+      6,
+      18
+     ],
+     "em": 12.0,
+     "glyphs": [
+      235,
+      236,
+      237,
+      238,
+      239
+     ]
+    }
+   ]
+  },
+  "btn_drip": {
+   "png": "work/img/lyt/1DX/MLyt/MLYT_SHOP_CAFE_KR_ko/btn_drip_12_KR_ko.png",
+   "text": "만들기",
+   "lines": [
+    {
+     "band": [
+      9,
+      26
+     ],
+     "em": 17.0,
+     "glyphs": [
+      240,
+      241,
+      242
+     ]
+    }
+   ]
+  },
+  "KG_LIST_TIT_ENEMY": {
+   "png": "work/img/lyt/1DX/SLyt/KG_RECORDnn_KR_ko/KG_LIST_TIT_ENEMY_12_KR_ko.png",
+   "text": "몬스터",
+   "lines": [
+    {
+     "band": [
+      4,
+      14
+     ],
+     "em": 10.0,
+     "glyphs": [
+      243,
+      244,
+      245
+     ]
+    }
+   ]
+  },
+  "KG_LIST_TIT_MEMBER": {
+   "png": "work/img/lyt/1DX/SLyt/KG_RECORDnn_KR_ko/KG_LIST_TIT_MEMBER_12_KR_ko.png",
+   "text": "동료",
+   "lines": [
+    {
+     "band": [
+      4,
+      14
+     ],
+     "em": 10.0,
+     "glyphs": [
+      246,
+      247
+     ]
+    }
+   ]
+  },
+  "KG_HENSEI_TYPE_02": {
+   "png": "work/img/lyt/1DX/SLyt/KG_RECORDnn_KR_ko/KG_HENSEI_TYPE_02_12_KR_ko.png",
+   "text": "비행",
+   "lines": [
+    {
+     "band": [
+      5,
+      19
+     ],
+     "em": 14.0,
+     "glyphs": [
+      248,
+      249
+     ]
+    }
+   ]
+  },
+  "KG_REC_SKILL": {
+   "png": "work/img/lyt/1DX/SLyt/KG_RECORDnn_KR_ko/KG_REC_SKILL_12_KR_ko.png",
+   "text": "스킬",
+   "lines": [
+    {
+     "band": [
+      4,
+      20
+     ],
+     "em": 16.0,
+     "glyphs": [
+      250,
+      251
+     ]
+    }
+   ]
+  },
+  "KG_REC_MEMBER": {
+   "png": "work/img/lyt/1DX/SLyt/KG_RECORDnn_KR_ko/KG_REC_MEMBER_12_KR_ko.png",
+   "text": "동료",
+   "lines": [
+    {
+     "band": [
+      5,
+      20
+     ],
+     "em": 15.0,
+     "glyphs": [
+      252,
+      253
+     ]
+    }
+   ]
+  },
+  "KG_REC_ENEMY": {
+   "png": "work/img/lyt/1DX/SLyt/KG_RECORDnn_KR_ko/KG_REC_ENEMY_12_KR_ko.png",
+   "text": "몬스터",
+   "lines": [
+    {
+     "band": [
+      4,
+      20
+     ],
+     "em": 16.0,
+     "glyphs": [
+      254,
+      255,
+      256
+     ]
+    }
+   ]
+  },
+  "KG_HENSEI_TYPE_03": {
+   "png": "work/img/lyt/1DX/SLyt/KG_RECORDnn_KR_ko/KG_HENSEI_TYPE_03_12_KR_ko.png",
+   "text": "원거리",
+   "lines": [
+    {
+     "band": [
+      5,
+      19
+     ],
+     "em": 14.0,
+     "glyphs": [
+      257,
+      258,
+      259
+     ]
+    }
+   ]
+  },
+  "KG_LIST_TIT_SKILL": {
+   "png": "work/img/lyt/1DX/SLyt/KG_RECORDnn_KR_ko/KG_LIST_TIT_SKILL_12_KR_ko.png",
+   "text": "스킬",
+   "lines": [
+    {
+     "band": [
+      4,
+      14
+     ],
+     "em": 10.0,
+     "glyphs": [
+      260,
+      261
+     ]
+    }
+   ]
+  },
+  "KG_REC_CHA": {
+   "png": "work/img/lyt/1DX/SLyt/KG_RECORDnn_KR_ko/KG_REC_CHA_12_KR_ko.png",
+   "text": "도전",
+   "lines": [
+    {
+     "band": [
+      5,
+      20
+     ],
+     "em": 15.0,
+     "glyphs": [
+      262,
+      263
+     ]
+    }
+   ]
+  },
+  "btn_KGLA_TX_l01": {
+   "png": "work/img/lyt/1DX/SLyt/KG_BATTLEn_KR_ko/btn_KGLA_TX_l01_12_KR_ko.png",
+   "text": "모 아니면 도",
+   "lines": [
+    {
+     "band": [
+      6,
+      21
+     ],
+     "em": 15.0,
+     "glyphs": [
+      264,
+      265,
+      266,
+      267,
+      268
+     ]
+    }
+   ]
+  },
+  "btn_KGLA_TX_n08": {
+   "png": "work/img/lyt/1DX/SLyt/KG_BATTLEn_KR_ko/btn_KGLA_TX_n08_12_KR_ko.png",
+   "text": "쿵쿵\n떨어트리기",
+   "lines": [
+    {
+     "band": [
+      3,
+      16
+     ],
+     "em": 13.0,
+     "glyphs": [
+      269,
+      270
+     ]
+    },
+    {
+     "band": [
+      13,
+      25
+     ],
+     "em": 12.0,
+     "glyphs": [
+      271,
+      272,
+      273,
+      274,
+      275
+     ]
+    }
+   ]
+  },
+  "btn_KGLA_TX_l04": {
+   "png": "work/img/lyt/1DX/SLyt/KG_BATTLEn_KR_ko/btn_KGLA_TX_l04_12_KR_ko.png",
+   "text": "허 찌르기",
+   "lines": [
+    {
+     "band": [
+      6,
+      18
+     ],
+     "em": 12.0,
+     "glyphs": [
+      276,
+      277,
+      278,
+      279
+     ]
+    }
+   ]
+  },
+  "btn_KGLA_TX_n06": {
+   "png": "work/img/lyt/1DX/SLyt/KG_BATTLEn_KR_ko/btn_KGLA_TX_n06_12_KR_ko.png",
+   "text": "회피",
+   "lines": [
+    {
+     "band": [
+      5,
+      18
+     ],
+     "em": 13.0,
+     "glyphs": [
+      280,
+      281
+     ]
+    }
+   ]
+  },
+  "btn_KGb_ESC": {
+   "png": "work/img/lyt/1DX/SLyt/KG_BATTLEn_KR_ko/btn_KGb_ESC_12_KR_ko.png",
+   "text": "도망가기",
+   "lines": [
+    {
+     "band": [
+      3,
+      15
+     ],
+     "em": 12.0,
+     "glyphs": [
+      282,
+      283,
+      284,
+      285
+     ]
+    }
+   ]
+  },
+  "btn_KGLA_TX_l02": {
+   "png": "work/img/lyt/1DX/SLyt/KG_BATTLEn_KR_ko/btn_KGLA_TX_l02_12_KR_ko.png",
+   "text": "등껍질 스핀",
+   "lines": [
+    {
+     "band": [
+      5,
+      21
+     ],
+     "em": 16.0,
+     "glyphs": [
+      286,
+      287,
+      288,
+      289,
+      290
+     ]
+    }
+   ]
+  },
+  "btn_KGLA_TX_n04": {
+   "png": "work/img/lyt/1DX/SLyt/KG_BATTLEn_KR_ko/btn_KGLA_TX_n04_12_KR_ko.png",
+   "text": "죽은 척",
+   "lines": [
+    {
+     "band": [
+      5,
+      21
+     ],
+     "em": 16.0,
+     "glyphs": [
+      291,
+      292,
+      293
+     ]
+    }
+   ]
+  },
+  "btn_KGLA_TX_n02": {
+   "png": "work/img/lyt/1DX/SLyt/KG_BATTLEn_KR_ko/btn_KGLA_TX_n02_12_KR_ko.png",
+   "text": "기합",
+   "lines": [
+    {
+     "band": [
+      5,
+      21
+     ],
+     "em": 16.0,
+     "glyphs": [
+      294,
+      295
+     ]
+    }
+   ]
+  },
+  "btn_KGLA_TX_n07": {
+   "png": "work/img/lyt/1DX/SLyt/KG_BATTLEn_KR_ko/btn_KGLA_TX_n07_12_KR_ko.png",
+   "text": "폭탄병 랠리",
+   "lines": [
+    {
+     "band": [
+      5,
+      21
+     ],
+     "em": 16.0,
+     "glyphs": [
+      296,
+      297,
+      298,
+      299,
+      300
+     ]
+    }
+   ]
+  },
+  "btn_KGLA_TX_l03": {
+   "png": "work/img/lyt/1DX/SLyt/KG_BATTLEn_KR_ko/btn_KGLA_TX_l03_12_KR_ko.png",
+   "text": "도우미",
+   "lines": [
+    {
+     "band": [
+      6,
+      21
+     ],
+     "em": 15.0,
+     "glyphs": [
+      301,
+      302,
+      303
+     ]
+    }
+   ]
+  },
+  "btn_KGLA_TX_n05": {
+   "png": "work/img/lyt/1DX/SLyt/KG_BATTLEn_KR_ko/btn_KGLA_TX_n05_12_KR_ko.png",
+   "text": "선더",
+   "lines": [
+    {
+     "band": [
+      6,
+      21
+     ],
+     "em": 15.0,
+     "glyphs": [
+      304,
+      305
+     ]
+    }
+   ]
+  },
+  "btn_KG_GUIDEs": {
+   "png": "work/img/lyt/1DX/SLyt/KG_MAINnn_TOP_KR_ko/btn_KG_GUIDEs_12_KR_ko.png",
+   "text": "가이드",
+   "lines": [
+    {
+     "band": [
+      15,
+      27
+     ],
+     "em": 12.0,
+     "glyphs": [
+      306,
+      307,
+      308
+     ]
+    }
+   ]
+  },
+  "btn_KG_QUESTs": {
+   "png": "work/img/lyt/1DX/SLyt/KG_MAINnn_TOP_KR_ko/btn_KG_QUESTs_12_KR_ko.png",
+   "text": "퀘스트",
+   "lines": [
+    {
+     "band": [
+      11,
+      30
+     ],
+     "em": 19.0,
+     "glyphs": [
+      309,
+      310,
+      311
+     ]
+    }
+   ]
+  },
+  "btn_AMB_stamp": {
+   "png": "work/img/lyt/1DX/SLyt/KG_AMIIBOn_KR_ko/btn_AMB_stamp_12_KR_ko.png",
+   "text": "스탬프 정보",
+   "lines": [
+    {
+     "band": [
+      7,
+      27
+     ],
+     "em": 20.0,
+     "glyphs": [
+      312,
+      313,
+      314,
+      315,
+      316
+     ]
+    }
+   ]
+  },
+  "btn_GAMESTART": {
+   "png": "work/img/lyt/1DX/SLyt/GAMESTART_KR_ko/btn_GAMESTART_12_KR_ko.png",
+   "text": "게임 시작",
+   "lines": [
+    {
+     "band": [
+      8,
+      27
+     ],
+     "em": 19.0,
+     "glyphs": [
+      317,
+      318,
+      319,
+      320
+     ]
+    }
+   ]
+  },
+  "btn_KG_cancel": {
+   "png": "work/img/lyt/1DX/SLyt/KG_LACTION_KR_ko/btn_KG_cancel_12_KR_ko.png",
+   "text": "취소",
+   "lines": [
+    {
+     "band": [
+      7,
+      18
+     ],
+     "em": 11.0,
+     "glyphs": [
+      321,
+      322
+     ]
+    }
+   ]
+  },
+  "KG_MEM_LV": {
+   "png": "work/img/lyt/1DX/SLyt/KG_LACTION_KR_ko/KG_MEM_LV_12_KR_ko.png",
+   "text": "군단\nLV",
+   "lines": [
+    {
+     "band": [
+      2,
+      14
+     ],
+     "em": 12.0,
+     "glyphs": [
+      323,
+      324
+     ]
+    },
+    {
+     "band": [
+      15,
+      24
+     ],
+     "em": 9.0,
+     "glyphs": [
+      325,
+      326
+     ]
+    }
+   ]
+  },
+  "btn_KG_decision": {
+   "png": "work/img/lyt/1DX/SLyt/KG_LACTION_KR_ko/btn_KG_decision_12_KR_ko.png",
+   "text": "결정",
+   "lines": [
+    {
+     "band": [
+      7,
+      19
+     ],
+     "em": 12.0,
+     "glyphs": [
+      327,
+      328
+     ]
+    }
+   ]
+  },
+  "btn_mini_RETIREn": {
+   "png": "work/img/lyt/1DX/SLyt/minigamen_KR_ko/btn_mini_RETIREn_12_KR_ko.png",
+   "text": "포기",
+   "lines": [
+    {
+     "band": [
+      7,
+      18
+     ],
+     "em": 11.0,
+     "glyphs": [
+      329,
+      330
+     ]
+    }
+   ]
+  },
+  "SORT_TYPE_L": {
+   "png": "work/img/lyt/1DX/SLyt/KG_HENSEInn_KR_ko/SORT_TYPE_L_12_KR_ko.png",
+   "text": "타입",
+   "lines": [
+    {
+     "band": [
+      4,
+      14
+     ],
+     "em": 10.0,
+     "glyphs": [
+      331,
+      332
+     ]
+    }
+   ]
+  },
+  "SORT_CHARA": {
+   "png": "work/img/lyt/1DX/SLyt/KG_HENSEInn_KR_ko/SORT_CHARA_12_KR_ko.png",
+   "text": "캐릭터",
+   "lines": [
+    {
+     "band": [
+      10,
+      22
+     ],
+     "em": 12.0,
+     "glyphs": [
+      333,
+      334,
+      335
+     ]
+    }
+   ]
+  },
+  "SORT_TYPE": {
+   "png": "work/img/lyt/1DX/SLyt/KG_HENSEInn_KR_ko/SORT_TYPE_12_KR_ko.png",
+   "text": "타입",
+   "lines": [
+    {
+     "band": [
+      10,
+      22
+     ],
+     "em": 12.0,
+     "glyphs": [
+      336,
+      337
+     ]
+    }
+   ]
+  },
+  "btn_ENEMYINFO": {
+   "png": "work/img/lyt/1DX/SLyt/KG_HENSEInn_KR_ko/btn_ENEMYINFO_12_KR_ko.png",
+   "text": "적 정보",
+   "lines": [
+    {
+     "band": [
+      6,
+      18
+     ],
+     "em": 12.0,
+     "glyphs": [
+      338,
+      339,
+      340
+     ]
+    }
+   ]
+  },
+  "btn_KG_Q_SORT": {
+   "png": "work/img/lyt/1DX/SLyt/KG_HENSEInn_KR_ko/btn_KG_Q_SORT_12_KR_ko.png",
+   "text": "순서 변경",
+   "lines": [
+    {
+     "band": [
+      1,
+      11
+     ],
+     "em": 10.0,
+     "glyphs": [
+      341,
+      342,
+      343,
+      344
+     ]
+    }
+   ]
+  },
+  "SORT_CHARA_L": {
+   "png": "work/img/lyt/1DX/SLyt/KG_HENSEInn_KR_ko/SORT_CHARA_L_12_KR_ko.png",
+   "text": "캐릭터",
+   "lines": [
+    {
+     "band": [
+      4,
+      14
+     ],
+     "em": 10.0,
+     "glyphs": [
+      345,
+      346,
+      347
+     ]
+    }
+   ]
+  },
+  "btn_KG_p_BS1": {
+   "png": "work/img/lyt/1DX/SLyt/KG_GUIDEnn_KR_ko/btn_KG_p_BS1_12_KR_ko.png",
+   "text": "우당탕탕\n액션",
+   "lines": [
+    {
+     "band": [
+      7,
+      22
+     ],
+     "em": 15.0,
+     "glyphs": [
+      348,
+      349,
+      350,
+      351
+     ]
+    },
+    {
+     "band": [
+      17,
+      35
+     ],
+     "em": 18.0,
+     "glyphs": [
+      352,
+      353
+     ]
+    }
+   ]
+  },
+  "LTIT_KG_BS0": {
+   "png": "work/img/lyt/1DX/SLyt/KG_GUIDEnn_KR_ko/LTIT_KG_BS0_12_KR_ko.png",
+   "text": "우당탕탕 기본",
+   "lines": [
+    {
+     "band": [
+      6,
+      16
+     ],
+     "em": 10.0,
+     "glyphs": [
+      354,
+      355,
+      356,
+      357,
+      358,
+      359
+     ]
+    }
+   ]
+  },
+  "LTIT_KG_HENSEI": {
+   "png": "work/img/lyt/1DX/SLyt/KG_GUIDEnn_KR_ko/LTIT_KG_HENSEI_12_KR_ko.png",
+   "text": "군단 메뉴",
+   "lines": [
+    {
+     "band": [
+      6,
+      16
+     ],
+     "em": 10.0,
+     "glyphs": [
+      360,
+      361,
+      362,
+      363
+     ]
+    }
+   ]
+  },
+  "btn_KG_p_HENSEI": {
+   "png": "work/img/lyt/1DX/SLyt/KG_GUIDEnn_KR_ko/btn_KG_p_HENSEI_12_KR_ko.png",
+   "text": "군단\n메뉴",
+   "lines": [
+    {
+     "band": [
+      6,
+      22
+     ],
+     "em": 16.0,
+     "glyphs": [
+      364,
+      365
+     ]
+    },
+    {
+     "band": [
+      21,
+      35
+     ],
+     "em": 14.0,
+     "glyphs": [
+      366,
+      367
+     ]
+    }
+   ]
+  },
+  "btn_KG_p_BS0": {
+   "png": "work/img/lyt/1DX/SLyt/KG_GUIDEnn_KR_ko/btn_KG_p_BS0_12_KR_ko.png",
+   "text": "우당탕탕\n기본",
+   "lines": [
+    {
+     "band": [
+      7,
+      23
+     ],
+     "em": 16.0,
+     "glyphs": [
+      368,
+      369,
+      370,
+      371
+     ]
+    },
+    {
+     "band": [
+      17,
+      35
+     ],
+     "em": 18.0,
+     "glyphs": [
+      372,
+      373
+     ]
+    }
+   ]
+  },
+  "LTIT_KG_BS1": {
+   "png": "work/img/lyt/1DX/SLyt/KG_GUIDEnn_KR_ko/LTIT_KG_BS1_12_KR_ko.png",
+   "text": "우당탕탕 액션",
+   "lines": [
+    {
+     "band": [
+      6,
+      16
+     ],
+     "em": 10.0,
+     "glyphs": [
+      374,
+      375,
+      376,
+      377,
+      378,
+      379
+     ]
+    }
+   ]
+  },
+  "btn_KG_BSTART": {
+   "png": "work/img/lyt/1DX/SLyt/KG_QUESTnn_KR_ko/btn_KG_BSTART_12_KR_ko.png",
+   "text": "배틀 시작",
+   "lines": [
+    {
+     "band": [
+      9,
+      25
+     ],
+     "em": 16.0,
+     "glyphs": [
+      380,
+      381,
+      382,
+      383
+     ]
+    }
+   ]
+  },
+  "btn_KG_Q_HENSEI": {
+   "png": "work/img/lyt/1DX/SLyt/KG_QUESTnn_KR_ko/btn_KG_Q_HENSEI_12_KR_ko.png",
+   "text": "편성",
+   "lines": [
+    {
+     "band": [
+      8,
+      18
+     ],
+     "em": 10.0,
+     "glyphs": [
+      384,
+      385
+     ]
+    }
+   ]
+  },
+  "btn_ML_KGRPG": {
+   "png": "work/img/lyt/1DX/MLyt/MLYT_MAIN_KR_ko/btn_ML_KGRPG_12_KR_ko.png",
+   "text": "쿠파군단 RPG",
+   "lines": [
+    {
+     "band": [
+      8,
+      18
+     ],
+     "em": 10.0,
+     "glyphs": [
+      386,
+      387,
+      388,
+      389,
+      390,
+      391,
+      392
+     ]
+    }
+   ]
+  },
+  "btn_KG_MaL": {
+   "png": "work/img/lyt/1DX/SLyt/KG_MAINnn_TOP_KR_ko/btn_KG_MaL_12_KR_ko.png",
+   "text": "마리오&루이지",
+   "lines": [
+    {
+     "band": [
+      8,
+      17
+     ],
+     "em": 9.0,
+     "glyphs": [
+      393,
+      394,
+      395,
+      396,
+      397,
+      398,
+      399
+     ]
+    }
+   ]
+  },
+  "btn_AMB_resist": {
+   "png": "work/img/lyt/1DX/GLyt/G_KGH_05_KR_ko/btn_AMB_resist_12_KR_ko.png",
+   "text": "amiibo 등록",
+   "lines": [
+    {
+     "band": [
+      6,
+      26
+     ],
+     "em": 20.0,
+     "glyphs": [
+      400,
+      401,
+      402,
+      403,
+      404,
+      405,
+      406,
+      407
+     ]
+    }
+   ]
+  },
+  "record_STORY_future": {
+   "png": "work/img/lyt/1DX/MLyt/MLYT_RECORD_KR_ko/record_STORY_future_12_KR_ko.png",
+   "text": "그리고…",
+   "lines": [
+    {
+     "band": [
+      6,
+      15
+     ],
+     "em": 9.0,
+     "glyphs": [
+      408,
+      409,
+      410,
+      411
+     ]
+    }
+   ]
+  }
+ },
+ "glyphs": [
+  {
+   "ch": "연",
+   "file": "btn_guide_practice_0_0.png",
+   "image": "btn_guide_practice",
+   "line": 0,
+   "x": 45,
+   "y": 0,
+   "w": 10,
+   "h": 12,
+   "em": 12.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 2.007,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "습",
+   "file": "btn_guide_practice_0_1.png",
+   "image": "btn_guide_practice",
+   "line": 0,
+   "x": 56,
+   "y": 0,
+   "w": 12,
+   "h": 12,
+   "em": 12.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 2.547,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "시",
+   "file": "btn_guide_example_0_0.png",
+   "image": "btn_guide_example",
+   "line": 0,
+   "x": 45,
+   "y": 0,
+   "w": 10,
+   "h": 11,
+   "em": 12.0,
+   "gap_after": 2,
+   "space_after": false,
+   "stroke": 1.96,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "범",
+   "file": "btn_guide_example_0_1.png",
+   "image": "btn_guide_example",
+   "line": 0,
+   "x": 57,
+   "y": 0,
+   "w": 10,
+   "h": 12,
+   "em": 12.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 2.471,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "마",
+   "file": "btn_guide_end_0_0.png",
+   "image": "btn_guide_end",
+   "line": 0,
+   "x": 38,
+   "y": 0,
+   "w": 11,
+   "h": 11,
+   "em": 11.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 1.92,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "치",
+   "file": "btn_guide_end_0_1.png",
+   "image": "btn_guide_end",
+   "line": 0,
+   "x": 50,
+   "y": 0,
+   "w": 10,
+   "h": 11,
+   "em": 11.0,
+   "gap_after": 2,
+   "space_after": false,
+   "stroke": 2.068,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "기",
+   "file": "btn_guide_end_0_2.png",
+   "image": "btn_guide_end",
+   "line": 0,
+   "x": 62,
+   "y": 0,
+   "w": 10,
+   "h": 11,
+   "em": 11.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 1.824,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "힌",
+   "file": "btn_b_HINT_0_0.png",
+   "image": "btn_b_HINT",
+   "line": 0,
+   "x": 20,
+   "y": 0,
+   "w": 11,
+   "h": 12,
+   "em": 12.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 2.175,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "트",
+   "file": "btn_b_HINT_0_1.png",
+   "image": "btn_b_HINT",
+   "line": 0,
+   "x": 32,
+   "y": 1,
+   "w": 12,
+   "h": 8,
+   "em": 12.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 3.242,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "어",
+   "file": "btl_ASSIST_0_0.png",
+   "image": "btl_ASSIST",
+   "line": 0,
+   "x": 9,
+   "y": 0,
+   "w": 10,
+   "h": 11,
+   "em": 11.0,
+   "gap_after": 2,
+   "space_after": false,
+   "stroke": 1.741,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "시",
+   "file": "btl_ASSIST_0_1.png",
+   "image": "btl_ASSIST",
+   "line": 0,
+   "x": 21,
+   "y": 0,
+   "w": 10,
+   "h": 11,
+   "em": 11.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 1.728,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "스",
+   "file": "btl_ASSIST_0_2.png",
+   "image": "btl_ASSIST",
+   "line": 0,
+   "x": 32,
+   "y": 1,
+   "w": 12,
+   "h": 8,
+   "em": 11.0,
+   "gap_after": 0,
+   "space_after": false,
+   "stroke": 1.54,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "트",
+   "file": "btl_ASSIST_0_3.png",
+   "image": "btl_ASSIST",
+   "line": 0,
+   "x": 44,
+   "y": 1,
+   "w": 12,
+   "h": 8,
+   "em": 11.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 3.197,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "가",
+   "file": "btn_KGb_GUIDE_0_0.png",
+   "image": "btn_KGb_GUIDE",
+   "line": 0,
+   "x": 15,
+   "y": 0,
+   "w": 11,
+   "h": 11,
+   "em": 11.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 1.717,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "이",
+   "file": "btn_KGb_GUIDE_0_1.png",
+   "image": "btn_KGb_GUIDE",
+   "line": 0,
+   "x": 27,
+   "y": 0,
+   "w": 10,
+   "h": 11,
+   "em": 11.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 1.838,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "드",
+   "file": "btn_KGb_GUIDE_0_2.png",
+   "image": "btn_KGb_GUIDE",
+   "line": 0,
+   "x": 38,
+   "y": 1,
+   "w": 12,
+   "h": 8,
+   "em": 11.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 1.715,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "액",
+   "file": "btn_f_action_0_0.png",
+   "image": "btn_f_action",
+   "line": 0,
+   "x": 22,
+   "y": 0,
+   "w": 9,
+   "h": 10,
+   "em": 10.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 2.395,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "션",
+   "file": "btn_f_action_0_1.png",
+   "image": "btn_f_action",
+   "line": 0,
+   "x": 32,
+   "y": 0,
+   "w": 9,
+   "h": 10,
+   "em": 10.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 2.114,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "밟",
+   "file": "fld_text_41_0_0.png",
+   "image": "fld_text_41",
+   "line": 0,
+   "x": 26,
+   "y": 0,
+   "w": 13,
+   "h": 13,
+   "em": 13.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 2.338,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "기",
+   "file": "fld_text_41_0_1.png",
+   "image": "fld_text_41",
+   "line": 0,
+   "x": 40,
+   "y": 1,
+   "w": 12,
+   "h": 10,
+   "em": 13.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 1.591,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "찰",
+   "file": "fld_text_34_0_0.png",
+   "image": "fld_text_34",
+   "line": 0,
+   "x": 11,
+   "y": 0,
+   "w": 13,
+   "h": 14,
+   "em": 14.0,
+   "gap_after": 0,
+   "space_after": false,
+   "stroke": 2.335,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "싹",
+   "file": "fld_text_34_0_1.png",
+   "image": "fld_text_34",
+   "line": 0,
+   "x": 24,
+   "y": 1,
+   "w": 14,
+   "h": 13,
+   "em": 14.0,
+   "gap_after": 5,
+   "space_after": true,
+   "stroke": 1.771,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "붙",
+   "file": "fld_text_34_0_2.png",
+   "image": "fld_text_34",
+   "line": 0,
+   "x": 43,
+   "y": 0,
+   "w": 13,
+   "h": 14,
+   "em": 14.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 2.136,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "기",
+   "file": "fld_text_34_0_3.png",
+   "image": "fld_text_34",
+   "line": 0,
+   "x": 57,
+   "y": 2,
+   "w": 12,
+   "h": 10,
+   "em": 14.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 1.561,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "저",
+   "file": "btn_fld_save_0_0.png",
+   "image": "btn_fld_save",
+   "line": 0,
+   "x": 28,
+   "y": 0,
+   "w": 10,
+   "h": 11,
+   "em": 12.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 1.575,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "장",
+   "file": "btn_fld_save_0_1.png",
+   "image": "btn_fld_save",
+   "line": 0,
+   "x": 39,
+   "y": 1,
+   "w": 12,
+   "h": 11,
+   "em": 12.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 1.54,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "미",
+   "file": "btn_f_map_0_0.png",
+   "image": "btn_f_map",
+   "line": 0,
+   "x": 14,
+   "y": 0,
+   "w": 8,
+   "h": 9,
+   "em": 10.0,
+   "gap_after": 3,
+   "space_after": false,
+   "stroke": 1.623,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "니",
+   "file": "btn_f_map_0_1.png",
+   "image": "btn_f_map",
+   "line": 0,
+   "x": 25,
+   "y": 0,
+   "w": 7,
+   "h": 9,
+   "em": 10.0,
+   "gap_after": 7,
+   "space_after": true,
+   "stroke": 1.662,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "맵",
+   "file": "btn_f_map_0_2.png",
+   "image": "btn_f_map",
+   "line": 0,
+   "x": 39,
+   "y": 0,
+   "w": 9,
+   "h": 10,
+   "em": 10.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 2.242,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "스",
+   "file": "fld_text_13_0_0.png",
+   "image": "fld_text_13",
+   "line": 0,
+   "x": 26,
+   "y": 0,
+   "w": 13,
+   "h": 11,
+   "em": 14.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 1.619,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "핀",
+   "file": "fld_text_13_0_1.png",
+   "image": "fld_text_13",
+   "line": 0,
+   "x": 40,
+   "y": 1,
+   "w": 13,
+   "h": 13,
+   "em": 14.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 1.67,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "전",
+   "file": "lbl_fldY_0_0.png",
+   "image": "lbl_fldY",
+   "line": 0,
+   "x": 2,
+   "y": 0,
+   "w": 10,
+   "h": 12,
+   "em": 12.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 1.982,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "환",
+   "file": "lbl_fldY_0_1.png",
+   "image": "lbl_fldY",
+   "line": 0,
+   "x": 13,
+   "y": 0,
+   "w": 12,
+   "h": 12,
+   "em": 12.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 2.198,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "선",
+   "file": "fld_text_32_0_0.png",
+   "image": "fld_text_32",
+   "line": 0,
+   "x": 26,
+   "y": 0,
+   "w": 13,
+   "h": 13,
+   "em": 13.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 1.664,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "더",
+   "file": "fld_text_32_0_1.png",
+   "image": "fld_text_32",
+   "line": 0,
+   "x": 40,
+   "y": 1,
+   "w": 12,
+   "h": 10,
+   "em": 13.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 1.649,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "점",
+   "file": "fld_text_11_0_0.png",
+   "image": "fld_text_11",
+   "line": 0,
+   "x": 26,
+   "y": 1,
+   "w": 13,
+   "h": 13,
+   "em": 14.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 1.868,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "프",
+   "file": "fld_text_11_0_1.png",
+   "image": "fld_text_11",
+   "line": 0,
+   "x": 40,
+   "y": 0,
+   "w": 13,
+   "h": 11,
+   "em": 14.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 1.722,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "통",
+   "file": "fld_text_51_0_0.png",
+   "image": "fld_text_51",
+   "line": 0,
+   "x": 10,
+   "y": 0,
+   "w": 13,
+   "h": 14,
+   "em": 14.0,
+   "gap_after": 5,
+   "space_after": true,
+   "stroke": 2.599,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "오",
+   "file": "fld_text_51_0_1.png",
+   "image": "fld_text_51",
+   "line": 0,
+   "x": 28,
+   "y": 0,
+   "w": 13,
+   "h": 11,
+   "em": 14.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 1.753,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "르",
+   "file": "fld_text_51_0_2.png",
+   "image": "fld_text_51",
+   "line": 0,
+   "x": 42,
+   "y": 0,
+   "w": 13,
+   "h": 11,
+   "em": 14.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 1.756,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "기",
+   "file": "fld_text_51_0_3.png",
+   "image": "fld_text_51",
+   "line": 0,
+   "x": 56,
+   "y": 2,
+   "w": 12,
+   "h": 10,
+   "em": 14.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 1.61,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "꼬",
+   "file": "fld_text_23_0_0.png",
+   "image": "fld_text_23",
+   "line": 0,
+   "x": 26,
+   "y": 0,
+   "w": 13,
+   "h": 11,
+   "em": 11.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 1.771,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "마",
+   "file": "fld_text_23_0_1.png",
+   "image": "fld_text_23",
+   "line": 0,
+   "x": 40,
+   "y": 1,
+   "w": 13,
+   "h": 10,
+   "em": 11.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 1.81,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "해",
+   "file": "fld_text_42_0_0.png",
+   "image": "fld_text_42",
+   "line": 0,
+   "x": 26,
+   "y": 0,
+   "w": 13,
+   "h": 11,
+   "em": 11.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 1.995,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "머",
+   "file": "fld_text_42_0_1.png",
+   "image": "fld_text_42",
+   "line": 0,
+   "x": 40,
+   "y": 1,
+   "w": 12,
+   "h": 10,
+   "em": 11.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 1.904,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "대",
+   "file": "fld_text_33_0_0.png",
+   "image": "fld_text_33",
+   "line": 0,
+   "x": 26,
+   "y": 0,
+   "w": 13,
+   "h": 10,
+   "em": 10.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 1.702,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "시",
+   "file": "fld_text_33_0_1.png",
+   "image": "fld_text_33",
+   "line": 0,
+   "x": 40,
+   "y": 0,
+   "w": 12,
+   "h": 10,
+   "em": 10.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 1.568,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "하",
+   "file": "fld_text_12_0_0.png",
+   "image": "fld_text_12",
+   "line": 0,
+   "x": 26,
+   "y": 0,
+   "w": 13,
+   "h": 11,
+   "em": 11.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 1.886,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "이",
+   "file": "fld_text_12_0_1.png",
+   "image": "fld_text_12",
+   "line": 0,
+   "x": 40,
+   "y": 1,
+   "w": 12,
+   "h": 10,
+   "em": 11.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 1.612,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "내",
+   "file": "fld_text_52_0_0.png",
+   "image": "fld_text_52",
+   "line": 0,
+   "x": 12,
+   "y": 2,
+   "w": 13,
+   "h": 10,
+   "em": 12.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 1.787,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "려",
+   "file": "fld_text_52_0_1.png",
+   "image": "fld_text_52",
+   "line": 0,
+   "x": 26,
+   "y": 2,
+   "w": 12,
+   "h": 10,
+   "em": 12.0,
+   "gap_after": 2,
+   "space_after": false,
+   "stroke": 1.95,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "오",
+   "file": "fld_text_52_0_2.png",
+   "image": "fld_text_52",
+   "line": 0,
+   "x": 40,
+   "y": 0,
+   "w": 13,
+   "h": 12,
+   "em": 12.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 1.72,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "기",
+   "file": "fld_text_52_0_3.png",
+   "image": "fld_text_52",
+   "line": 0,
+   "x": 54,
+   "y": 2,
+   "w": 12,
+   "h": 10,
+   "em": 12.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 1.584,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "파",
+   "file": "fld_text_31_0_0.png",
+   "image": "fld_text_31",
+   "line": 0,
+   "x": 22,
+   "y": 0,
+   "w": 11,
+   "h": 9,
+   "em": 9.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 1.91,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "이",
+   "file": "fld_text_31_0_1.png",
+   "image": "fld_text_31",
+   "line": 0,
+   "x": 34,
+   "y": 0,
+   "w": 10,
+   "h": 9,
+   "em": 9.0,
+   "gap_after": 2,
+   "space_after": false,
+   "stroke": 1.653,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "어",
+   "file": "fld_text_31_0_2.png",
+   "image": "fld_text_31",
+   "line": 0,
+   "x": 46,
+   "y": 0,
+   "w": 10,
+   "h": 9,
+   "em": 9.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 1.768,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "간",
+   "file": "fld_text_43_0_0.png",
+   "image": "fld_text_43",
+   "line": 0,
+   "x": 19,
+   "y": 0,
+   "w": 13,
+   "h": 13,
+   "em": 13.0,
+   "gap_after": 2,
+   "space_after": false,
+   "stroke": 1.622,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "지",
+   "file": "fld_text_43_0_1.png",
+   "image": "fld_text_43",
+   "line": 0,
+   "x": 34,
+   "y": 1,
+   "w": 11,
+   "h": 10,
+   "em": 13.0,
+   "gap_after": 2,
+   "space_after": false,
+   "stroke": 1.608,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "럼",
+   "file": "fld_text_43_0_2.png",
+   "image": "fld_text_43",
+   "line": 0,
+   "x": 47,
+   "y": 0,
+   "w": 13,
+   "h": 13,
+   "em": 13.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 1.963,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "땅",
+   "file": "fld_text_22_0_0.png",
+   "image": "fld_text_22",
+   "line": 0,
+   "x": 25,
+   "y": 1,
+   "w": 14,
+   "h": 13,
+   "em": 14.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 2.064,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "굴",
+   "file": "fld_text_22_0_1.png",
+   "image": "fld_text_22",
+   "line": 0,
+   "x": 40,
+   "y": 0,
+   "w": 13,
+   "h": 14,
+   "em": 14.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 2.242,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "메",
+   "file": "btn_fld_menu_0_0.png",
+   "image": "btn_fld_menu",
+   "line": 0,
+   "x": 52,
+   "y": 0,
+   "w": 10,
+   "h": 10,
+   "em": 10.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 1.767,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "뉴",
+   "file": "btn_fld_menu_0_1.png",
+   "image": "btn_fld_menu",
+   "line": 0,
+   "x": 63,
+   "y": 0,
+   "w": 12,
+   "h": 10,
+   "em": 10.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 1.462,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "일",
+   "file": "GUIDE_WAKE_0_0.png",
+   "image": "GUIDE_WAKE",
+   "line": 0,
+   "x": 2,
+   "y": 0,
+   "w": 11,
+   "h": 12,
+   "em": 12.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 2.39,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "어",
+   "file": "GUIDE_WAKE_0_1.png",
+   "image": "GUIDE_WAKE",
+   "line": 0,
+   "x": 14,
+   "y": 0,
+   "w": 10,
+   "h": 11,
+   "em": 12.0,
+   "gap_after": 2,
+   "space_after": false,
+   "stroke": 1.907,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "나",
+   "file": "GUIDE_WAKE_0_2.png",
+   "image": "GUIDE_WAKE",
+   "line": 0,
+   "x": 26,
+   "y": 0,
+   "w": 10,
+   "h": 11,
+   "em": 12.0,
+   "gap_after": 0,
+   "space_after": false,
+   "stroke": 1.851,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "기",
+   "file": "GUIDE_WAKE_0_3.png",
+   "image": "GUIDE_WAKE",
+   "line": 0,
+   "x": 36,
+   "y": 0,
+   "w": 10,
+   "h": 11,
+   "em": 12.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 1.761,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "친",
+   "file": "btn_AMB_bonusg_0_0.png",
+   "image": "btn_AMB_bonusg",
+   "line": 0,
+   "x": 55,
+   "y": 0,
+   "w": 18,
+   "h": 19,
+   "em": 19.0,
+   "gap_after": 2,
+   "space_after": false,
+   "stroke": 2.28,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "구",
+   "file": "btn_AMB_bonusg_0_1.png",
+   "image": "btn_AMB_bonusg",
+   "line": 0,
+   "x": 75,
+   "y": 2,
+   "w": 18,
+   "h": 17,
+   "em": 19.0,
+   "gap_after": 8,
+   "space_after": true,
+   "stroke": 2.557,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "보",
+   "file": "btn_AMB_bonusg_0_2.png",
+   "image": "btn_AMB_bonusg",
+   "line": 0,
+   "x": 101,
+   "y": 1,
+   "w": 18,
+   "h": 15,
+   "em": 19.0,
+   "gap_after": 2,
+   "space_after": false,
+   "stroke": 2.575,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "너",
+   "file": "btn_AMB_bonusg_0_3.png",
+   "image": "btn_AMB_bonusg",
+   "line": 0,
+   "x": 121,
+   "y": 3,
+   "w": 17,
+   "h": 13,
+   "em": 19.0,
+   "gap_after": 3,
+   "space_after": false,
+   "stroke": 2.236,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "스",
+   "file": "btn_AMB_bonusg_0_4.png",
+   "image": "btn_AMB_bonusg",
+   "line": 0,
+   "x": 141,
+   "y": 0,
+   "w": 18,
+   "h": 16,
+   "em": 19.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 2.161,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "제",
+   "file": "btn_KGLA_TX_n03_0_0.png",
+   "image": "btn_KGLA_TX_n03",
+   "line": 0,
+   "x": 17,
+   "y": 3,
+   "w": 15,
+   "h": 10,
+   "em": 16.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 2.08,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "비",
+   "file": "btn_KGLA_TX_n03_0_1.png",
+   "image": "btn_KGLA_TX_n03",
+   "line": 0,
+   "x": 33,
+   "y": 3,
+   "w": 13,
+   "h": 10,
+   "em": 16.0,
+   "gap_after": 2,
+   "space_after": false,
+   "stroke": 1.973,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "뽑",
+   "file": "btn_KGLA_TX_n03_0_2.png",
+   "image": "btn_KGLA_TX_n03",
+   "line": 0,
+   "x": 48,
+   "y": 0,
+   "w": 15,
+   "h": 16,
+   "em": 16.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 2.409,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "기",
+   "file": "btn_KGLA_TX_n03_0_3.png",
+   "image": "btn_KGLA_TX_n03",
+   "line": 0,
+   "x": 64,
+   "y": 2,
+   "w": 14,
+   "h": 11,
+   "em": 16.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 1.796,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "스",
+   "file": "btn_KGLA_TX_n01_0_0.png",
+   "image": "btn_KGLA_TX_n01",
+   "line": 0,
+   "x": 7,
+   "y": 0,
+   "w": 14,
+   "h": 13,
+   "em": 16.0,
+   "gap_after": 0,
+   "space_after": false,
+   "stroke": 1.772,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "킬",
+   "file": "btn_KGLA_TX_n01_0_1.png",
+   "image": "btn_KGLA_TX_n01",
+   "line": 0,
+   "x": 21,
+   "y": 1,
+   "w": 17,
+   "h": 15,
+   "em": 16.0,
+   "gap_after": 6,
+   "space_after": true,
+   "stroke": 2.157,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "지",
+   "file": "btn_KGLA_TX_n01_0_2.png",
+   "image": "btn_KGLA_TX_n01",
+   "line": 0,
+   "x": 44,
+   "y": 3,
+   "w": 13,
+   "h": 10,
+   "em": 16.0,
+   "gap_after": 2,
+   "space_after": false,
+   "stroke": 1.838,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "우",
+   "file": "btn_KGLA_TX_n01_0_3.png",
+   "image": "btn_KGLA_TX_n01",
+   "line": 0,
+   "x": 59,
+   "y": 1,
+   "w": 14,
+   "h": 15,
+   "em": 16.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 2.027,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "기",
+   "file": "btn_KGLA_TX_n01_0_4.png",
+   "image": "btn_KGLA_TX_n01",
+   "line": 0,
+   "x": 74,
+   "y": 2,
+   "w": 14,
+   "h": 11,
+   "em": 16.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 1.803,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "리",
+   "file": "btn_KG_Q_LACTION_0_0.png",
+   "image": "btn_KG_Q_LACTION",
+   "line": 0,
+   "x": 28,
+   "y": 0,
+   "w": 8,
+   "h": 9,
+   "em": 10.0,
+   "gap_after": 3,
+   "space_after": false,
+   "stroke": 1.437,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "더",
+   "file": "btn_KG_Q_LACTION_0_1.png",
+   "image": "btn_KG_Q_LACTION",
+   "line": 0,
+   "x": 39,
+   "y": 0,
+   "w": 7,
+   "h": 9,
+   "em": 10.0,
+   "gap_after": 7,
+   "space_after": true,
+   "stroke": 1.584,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "액",
+   "file": "btn_KG_Q_LACTION_0_2.png",
+   "image": "btn_KG_Q_LACTION",
+   "line": 0,
+   "x": 53,
+   "y": 0,
+   "w": 9,
+   "h": 10,
+   "em": 10.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 1.976,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "션",
+   "file": "btn_KG_Q_LACTION_0_3.png",
+   "image": "btn_KG_Q_LACTION",
+   "line": 0,
+   "x": 63,
+   "y": 0,
+   "w": 9,
+   "h": 10,
+   "em": 10.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 1.844,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "돌",
+   "file": "KG_HENSEI_TYPE_01_0_0.png",
+   "image": "KG_HENSEI_TYPE_01",
+   "line": 0,
+   "x": 18,
+   "y": 0,
+   "w": 13,
+   "h": 14,
+   "em": 14.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 2.051,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "격",
+   "file": "KG_HENSEI_TYPE_01_0_1.png",
+   "image": "KG_HENSEI_TYPE_01",
+   "line": 0,
+   "x": 32,
+   "y": 1,
+   "w": 13,
+   "h": 13,
+   "em": 14.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 1.874,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "강",
+   "file": "btn_KG_Q_ITEM_0_0.png",
+   "image": "btn_KG_Q_ITEM",
+   "line": 0,
+   "x": 40,
+   "y": 0,
+   "w": 9,
+   "h": 10,
+   "em": 10.0,
+   "gap_after": 0,
+   "space_after": false,
+   "stroke": 1.543,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "화",
+   "file": "btn_KG_Q_ITEM_0_1.png",
+   "image": "btn_KG_Q_ITEM",
+   "line": 0,
+   "x": 49,
+   "y": 0,
+   "w": 11,
+   "h": 9,
+   "em": 10.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 2.162,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "명",
+   "file": "GUIDE_ACCURACY_0_0.png",
+   "image": "GUIDE_ACCURACY",
+   "line": 0,
+   "x": 3,
+   "y": 0,
+   "w": 9,
+   "h": 12,
+   "em": 13.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 2.274,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "중",
+   "file": "GUIDE_ACCURACY_0_1.png",
+   "image": "GUIDE_ACCURACY",
+   "line": 0,
+   "x": 13,
+   "y": 1,
+   "w": 12,
+   "h": 12,
+   "em": 13.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 2.373,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "기",
+   "file": "btn_KG_RECORDs_0_0.png",
+   "image": "btn_KG_RECORDs",
+   "line": 0,
+   "x": 36,
+   "y": 3,
+   "w": 14,
+   "h": 10,
+   "em": 16.0,
+   "gap_after": 3,
+   "space_after": false,
+   "stroke": 1.808,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "록",
+   "file": "btn_KG_RECORDs_0_1.png",
+   "image": "btn_KG_RECORDs",
+   "line": 0,
+   "x": 53,
+   "y": 0,
+   "w": 14,
+   "h": 16,
+   "em": 16.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 2.149,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "설",
+   "file": "TOP_MENU_TEXT_6_0_0.png",
+   "image": "TOP_MENU_TEXT_6",
+   "line": 0,
+   "x": 31,
+   "y": 0,
+   "w": 17,
+   "h": 17,
+   "em": 17.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 2.328,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "정",
+   "file": "TOP_MENU_TEXT_6_0_1.png",
+   "image": "TOP_MENU_TEXT_6",
+   "line": 0,
+   "x": 49,
+   "y": 0,
+   "w": 15,
+   "h": 17,
+   "em": 17.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 2.213,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "가",
+   "file": "TOP_MENU_TEXT_4_0_0.png",
+   "image": "TOP_MENU_TEXT_4",
+   "line": 0,
+   "x": 23,
+   "y": 1,
+   "w": 10,
+   "h": 12,
+   "em": 13.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 2.052,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "이",
+   "file": "TOP_MENU_TEXT_4_0_1.png",
+   "image": "TOP_MENU_TEXT_4",
+   "line": 0,
+   "x": 34,
+   "y": 1,
+   "w": 16,
+   "h": 12,
+   "em": 13.0,
+   "gap_after": 2,
+   "space_after": false,
+   "stroke": 2.113,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "드",
+   "file": "TOP_MENU_TEXT_4_0_2.png",
+   "image": "TOP_MENU_TEXT_4",
+   "line": 0,
+   "x": 52,
+   "y": 0,
+   "w": 20,
+   "h": 13,
+   "em": 13.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 2.037,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "장",
+   "file": "TOP_MENU_TEXT_2_0_0.png",
+   "image": "TOP_MENU_TEXT_2",
+   "line": 0,
+   "x": 32,
+   "y": 0,
+   "w": 15,
+   "h": 17,
+   "em": 17.0,
+   "gap_after": 0,
+   "space_after": false,
+   "stroke": 2.25,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "비",
+   "file": "TOP_MENU_TEXT_2_0_1.png",
+   "image": "TOP_MENU_TEXT_2",
+   "line": 0,
+   "x": 47,
+   "y": 1,
+   "w": 16,
+   "h": 12,
+   "em": 17.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 2.266,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "이",
+   "file": "GUIDE_easy_0_0.png",
+   "image": "GUIDE_easy",
+   "line": 0,
+   "x": 23,
+   "y": 0,
+   "w": 9,
+   "h": 11,
+   "em": 11.0,
+   "gap_after": 2,
+   "space_after": false,
+   "stroke": 1.748,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "지",
+   "file": "GUIDE_easy_0_1.png",
+   "image": "GUIDE_easy",
+   "line": 0,
+   "x": 34,
+   "y": 0,
+   "w": 10,
+   "h": 11,
+   "em": 11.0,
+   "gap_after": 8,
+   "space_after": true,
+   "stroke": 1.768,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "모",
+   "file": "GUIDE_easy_0_2.png",
+   "image": "GUIDE_easy",
+   "line": 0,
+   "x": 52,
+   "y": 1,
+   "w": 11,
+   "h": 8,
+   "em": 11.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 2.023,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "드",
+   "file": "GUIDE_easy_0_3.png",
+   "image": "GUIDE_easy",
+   "line": 0,
+   "x": 64,
+   "y": 1,
+   "w": 11,
+   "h": 8,
+   "em": 11.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 1.739,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "스",
+   "file": "TOP_MENU_TEXT_3_0_0.png",
+   "image": "TOP_MENU_TEXT_3",
+   "line": 0,
+   "x": 7,
+   "y": 0,
+   "w": 16,
+   "h": 14,
+   "em": 14.0,
+   "gap_after": 0,
+   "space_after": false,
+   "stroke": 1.997,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "테",
+   "file": "TOP_MENU_TEXT_3_0_1.png",
+   "image": "TOP_MENU_TEXT_3",
+   "line": 0,
+   "x": 23,
+   "y": 3,
+   "w": 10,
+   "h": 10,
+   "em": 14.0,
+   "gap_after": 0,
+   "space_after": false,
+   "stroke": 2.079,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "이",
+   "file": "TOP_MENU_TEXT_3_0_2.png",
+   "image": "TOP_MENU_TEXT_3",
+   "line": 0,
+   "x": 33,
+   "y": 2,
+   "w": 17,
+   "h": 12,
+   "em": 14.0,
+   "gap_after": 2,
+   "space_after": false,
+   "stroke": 2.763,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "터",
+   "file": "TOP_MENU_TEXT_3_0_3.png",
+   "image": "TOP_MENU_TEXT_3",
+   "line": 0,
+   "x": 52,
+   "y": 2,
+   "w": 19,
+   "h": 12,
+   "em": 14.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 2.22,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "스",
+   "file": "TOP_MENU_TEXT_3_0_4.png",
+   "image": "TOP_MENU_TEXT_3",
+   "line": 0,
+   "x": 72,
+   "y": 0,
+   "w": 17,
+   "h": 14,
+   "em": 14.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 1.994,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "아",
+   "file": "TOP_MENU_TEXT_1_0_0.png",
+   "image": "TOP_MENU_TEXT_1",
+   "line": 0,
+   "x": 23,
+   "y": 2,
+   "w": 11,
+   "h": 10,
+   "em": 17.0,
+   "gap_after": 0,
+   "space_after": false,
+   "stroke": 2.062,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "이",
+   "file": "TOP_MENU_TEXT_1_0_1.png",
+   "image": "TOP_MENU_TEXT_1",
+   "line": 0,
+   "x": 34,
+   "y": 1,
+   "w": 16,
+   "h": 12,
+   "em": 17.0,
+   "gap_after": 2,
+   "space_after": false,
+   "stroke": 2.117,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "템",
+   "file": "TOP_MENU_TEXT_1_0_2.png",
+   "image": "TOP_MENU_TEXT_1",
+   "line": 0,
+   "x": 52,
+   "y": 0,
+   "w": 21,
+   "h": 17,
+   "em": 17.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 2.131,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "회",
+   "file": "GUIDE_EVADE_0_0.png",
+   "image": "GUIDE_EVADE",
+   "line": 0,
+   "x": 2,
+   "y": 0,
+   "w": 10,
+   "h": 11,
+   "em": 11.0,
+   "gap_after": 2,
+   "space_after": false,
+   "stroke": 2.188,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "피",
+   "file": "GUIDE_EVADE_0_1.png",
+   "image": "GUIDE_EVADE",
+   "line": 0,
+   "x": 14,
+   "y": 0,
+   "w": 10,
+   "h": 11,
+   "em": 11.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 2.23,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "필",
+   "file": "LTIT_guide_fieldbasic_0_0.png",
+   "image": "LTIT_guide_fieldbasic",
+   "line": 0,
+   "x": 3,
+   "y": 0,
+   "w": 9,
+   "h": 10,
+   "em": 10.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 2.825,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "드",
+   "file": "LTIT_guide_fieldbasic_0_1.png",
+   "image": "LTIT_guide_fieldbasic",
+   "line": 0,
+   "x": 13,
+   "y": 0,
+   "w": 10,
+   "h": 7,
+   "em": 10.0,
+   "gap_after": 6,
+   "space_after": true,
+   "stroke": 1.426,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "기",
+   "file": "LTIT_guide_fieldbasic_0_2.png",
+   "image": "LTIT_guide_fieldbasic",
+   "line": 0,
+   "x": 29,
+   "y": 0,
+   "w": 8,
+   "h": 9,
+   "em": 10.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 1.424,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "본",
+   "file": "LTIT_guide_fieldbasic_0_3.png",
+   "image": "LTIT_guide_fieldbasic",
+   "line": 0,
+   "x": 38,
+   "y": 0,
+   "w": 10,
+   "h": 10,
+   "em": 10.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 2.393,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "필",
+   "file": "LTIT_guide_fieldaction_0_0.png",
+   "image": "LTIT_guide_fieldaction",
+   "line": 0,
+   "x": 3,
+   "y": 0,
+   "w": 9,
+   "h": 10,
+   "em": 10.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 2.856,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "드",
+   "file": "LTIT_guide_fieldaction_0_1.png",
+   "image": "LTIT_guide_fieldaction",
+   "line": 0,
+   "x": 13,
+   "y": 0,
+   "w": 10,
+   "h": 7,
+   "em": 10.0,
+   "gap_after": 5,
+   "space_after": true,
+   "stroke": 2.011,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "액",
+   "file": "LTIT_guide_fieldaction_0_2.png",
+   "image": "LTIT_guide_fieldaction",
+   "line": 0,
+   "x": 28,
+   "y": 0,
+   "w": 9,
+   "h": 10,
+   "em": 10.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 2.374,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "션",
+   "file": "LTIT_guide_fieldaction_0_3.png",
+   "image": "LTIT_guide_fieldaction",
+   "line": 0,
+   "x": 38,
+   "y": 0,
+   "w": 9,
+   "h": 10,
+   "em": 10.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 2.108,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "배",
+   "file": "btn_text_guide_pnl_3_0_0.png",
+   "image": "btn_text_guide_pnl_3",
+   "line": 0,
+   "x": 33,
+   "y": 3,
+   "w": 15,
+   "h": 10,
+   "em": 14.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 2.045,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "틀",
+   "file": "btn_text_guide_pnl_3_0_1.png",
+   "image": "btn_text_guide_pnl_3",
+   "line": 0,
+   "x": 49,
+   "y": 0,
+   "w": 14,
+   "h": 14,
+   "em": 14.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 2.489,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "기",
+   "file": "btn_text_guide_pnl_3_1_0.png",
+   "image": "btn_text_guide_pnl_3",
+   "line": 1,
+   "x": 32,
+   "y": 5,
+   "w": 14,
+   "h": 10,
+   "em": 18.0,
+   "gap_after": 3,
+   "space_after": false,
+   "stroke": 1.796,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "본",
+   "file": "btn_text_guide_pnl_3_1_1.png",
+   "image": "btn_text_guide_pnl_3",
+   "line": 1,
+   "x": 49,
+   "y": 0,
+   "w": 14,
+   "h": 18,
+   "em": 18.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 2.292,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "배",
+   "file": "LTIT_guide_battleattack_0_0.png",
+   "image": "LTIT_guide_battleattack",
+   "line": 0,
+   "x": 4,
+   "y": 0,
+   "w": 8,
+   "h": 9,
+   "em": 10.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 3.545,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "틀",
+   "file": "LTIT_guide_battleattack_0_1.png",
+   "image": "LTIT_guide_battleattack",
+   "line": 0,
+   "x": 13,
+   "y": 0,
+   "w": 10,
+   "h": 10,
+   "em": 10.0,
+   "gap_after": 6,
+   "space_after": true,
+   "stroke": 3.642,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "어",
+   "file": "LTIT_guide_battleattack_0_2.png",
+   "image": "LTIT_guide_battleattack",
+   "line": 0,
+   "x": 29,
+   "y": 0,
+   "w": 8,
+   "h": 9,
+   "em": 10.0,
+   "gap_after": 2,
+   "space_after": false,
+   "stroke": 1.764,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "택",
+   "file": "LTIT_guide_battleattack_0_3.png",
+   "image": "LTIT_guide_battleattack",
+   "line": 0,
+   "x": 39,
+   "y": 0,
+   "w": 8,
+   "h": 10,
+   "em": 10.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 2.976,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "배",
+   "file": "LTIT_guide_battlebasic_0_0.png",
+   "image": "LTIT_guide_battlebasic",
+   "line": 0,
+   "x": 4,
+   "y": 0,
+   "w": 8,
+   "h": 9,
+   "em": 10.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 3.509,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "틀",
+   "file": "LTIT_guide_battlebasic_0_1.png",
+   "image": "LTIT_guide_battlebasic",
+   "line": 0,
+   "x": 13,
+   "y": 0,
+   "w": 10,
+   "h": 10,
+   "em": 10.0,
+   "gap_after": 6,
+   "space_after": true,
+   "stroke": 3.643,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "기",
+   "file": "LTIT_guide_battlebasic_0_2.png",
+   "image": "LTIT_guide_battlebasic",
+   "line": 0,
+   "x": 29,
+   "y": 0,
+   "w": 8,
+   "h": 9,
+   "em": 10.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 1.427,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "본",
+   "file": "LTIT_guide_battlebasic_0_3.png",
+   "image": "LTIT_guide_battlebasic",
+   "line": 0,
+   "x": 38,
+   "y": 0,
+   "w": 10,
+   "h": 10,
+   "em": 10.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 2.439,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "필",
+   "file": "btn_text_guide_pnl_1_0_0.png",
+   "image": "btn_text_guide_pnl_1",
+   "line": 0,
+   "x": 33,
+   "y": 0,
+   "w": 15,
+   "h": 16,
+   "em": 16.0,
+   "gap_after": 0,
+   "space_after": false,
+   "stroke": 2.478,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "드",
+   "file": "btn_text_guide_pnl_1_0_1.png",
+   "image": "btn_text_guide_pnl_1",
+   "line": 0,
+   "x": 48,
+   "y": 0,
+   "w": 15,
+   "h": 13,
+   "em": 16.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 1.81,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "기",
+   "file": "btn_text_guide_pnl_1_1_0.png",
+   "image": "btn_text_guide_pnl_1",
+   "line": 1,
+   "x": 32,
+   "y": 2,
+   "w": 14,
+   "h": 10,
+   "em": 15.0,
+   "gap_after": 3,
+   "space_after": false,
+   "stroke": 1.772,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "본",
+   "file": "btn_text_guide_pnl_1_1_1.png",
+   "image": "btn_text_guide_pnl_1",
+   "line": 1,
+   "x": 49,
+   "y": 0,
+   "w": 14,
+   "h": 15,
+   "em": 15.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 2.064,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "배",
+   "file": "btn_text_guide_pnl_4_0_0.png",
+   "image": "btn_text_guide_pnl_4",
+   "line": 0,
+   "x": 33,
+   "y": 3,
+   "w": 15,
+   "h": 10,
+   "em": 14.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 2.045,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "틀",
+   "file": "btn_text_guide_pnl_4_0_1.png",
+   "image": "btn_text_guide_pnl_4",
+   "line": 0,
+   "x": 49,
+   "y": 0,
+   "w": 14,
+   "h": 14,
+   "em": 14.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 2.488,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "어",
+   "file": "btn_text_guide_pnl_4_1_0.png",
+   "image": "btn_text_guide_pnl_4",
+   "line": 1,
+   "x": 32,
+   "y": 5,
+   "w": 14,
+   "h": 10,
+   "em": 18.0,
+   "gap_after": 2,
+   "space_after": false,
+   "stroke": 1.96,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "택",
+   "file": "btn_text_guide_pnl_4_1_1.png",
+   "image": "btn_text_guide_pnl_4",
+   "line": 1,
+   "x": 48,
+   "y": 0,
+   "w": 16,
+   "h": 18,
+   "em": 18.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 2.167,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "필",
+   "file": "btn_text_guide_pnl_2_0_0.png",
+   "image": "btn_text_guide_pnl_2",
+   "line": 0,
+   "x": 33,
+   "y": 0,
+   "w": 13,
+   "h": 12,
+   "em": 12.0,
+   "gap_after": 2,
+   "space_after": false,
+   "stroke": 2.528,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "드",
+   "file": "btn_text_guide_pnl_2_0_1.png",
+   "image": "btn_text_guide_pnl_2",
+   "line": 0,
+   "x": 48,
+   "y": 0,
+   "w": 15,
+   "h": 12,
+   "em": 12.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 1.812,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "액",
+   "file": "btn_text_guide_pnl_2_1_0.png",
+   "image": "btn_text_guide_pnl_2",
+   "line": 1,
+   "x": 32,
+   "y": 0,
+   "w": 16,
+   "h": 18,
+   "em": 18.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 2.256,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "션",
+   "file": "btn_text_guide_pnl_2_1_1.png",
+   "image": "btn_text_guide_pnl_2",
+   "line": 1,
+   "x": 49,
+   "y": 3,
+   "w": 14,
+   "h": 15,
+   "em": 18.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 2.015,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "저",
+   "file": "btn_SAVE_text_0_0.png",
+   "image": "btn_SAVE_text",
+   "line": 0,
+   "x": 96,
+   "y": 0,
+   "w": 15,
+   "h": 15,
+   "em": 18.0,
+   "gap_after": 3,
+   "space_after": false,
+   "stroke": 2.386,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "장",
+   "file": "btn_SAVE_text_0_1.png",
+   "image": "btn_SAVE_text",
+   "line": 0,
+   "x": 114,
+   "y": 0,
+   "w": 17,
+   "h": 18,
+   "em": 18.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 2.372,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "예",
+   "file": "btn_load_YES_text_0_0.png",
+   "image": "btn_load_YES_text",
+   "line": 0,
+   "x": 50,
+   "y": 0,
+   "w": 11,
+   "h": 11,
+   "em": 11.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 2.85,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "파",
+   "file": "btn_load_FERACE_text_0_0.png",
+   "image": "btn_load_FERACE_text",
+   "line": 0,
+   "x": 30,
+   "y": 0,
+   "w": 11,
+   "h": 11,
+   "em": 12.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 2.182,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "일",
+   "file": "btn_load_FERACE_text_0_1.png",
+   "image": "btn_load_FERACE_text",
+   "line": 0,
+   "x": 42,
+   "y": 0,
+   "w": 10,
+   "h": 12,
+   "em": 12.0,
+   "gap_after": 7,
+   "space_after": true,
+   "stroke": 2.388,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "삭",
+   "file": "btn_load_FERACE_text_0_2.png",
+   "image": "btn_load_FERACE_text",
+   "line": 0,
+   "x": 59,
+   "y": 0,
+   "w": 12,
+   "h": 12,
+   "em": 12.0,
+   "gap_after": 0,
+   "space_after": false,
+   "stroke": 2.004,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "제",
+   "file": "btn_load_FERACE_text_0_3.png",
+   "image": "btn_load_FERACE_text",
+   "line": 0,
+   "x": 71,
+   "y": 0,
+   "w": 11,
+   "h": 11,
+   "em": 12.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 2.863,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "취",
+   "file": "btn_load_DONOT_text_0_0.png",
+   "image": "btn_load_DONOT_text",
+   "line": 0,
+   "x": 44,
+   "y": 0,
+   "w": 11,
+   "h": 11,
+   "em": 11.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 2.452,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "소",
+   "file": "btn_load_DONOT_text_0_1.png",
+   "image": "btn_load_DONOT_text",
+   "line": 0,
+   "x": 56,
+   "y": 1,
+   "w": 12,
+   "h": 8,
+   "em": 11.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 2.027,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "아",
+   "file": "btn_load_NO_text_0_0.png",
+   "image": "btn_load_NO_text",
+   "line": 0,
+   "x": 39,
+   "y": 0,
+   "w": 11,
+   "h": 11,
+   "em": 11.0,
+   "gap_after": 2,
+   "space_after": false,
+   "stroke": 1.731,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "니",
+   "file": "btn_load_NO_text_0_1.png",
+   "image": "btn_load_NO_text",
+   "line": 0,
+   "x": 52,
+   "y": 0,
+   "w": 9,
+   "h": 11,
+   "em": 11.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 1.879,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "요",
+   "file": "btn_load_NO_text_0_2.png",
+   "image": "btn_load_NO_text",
+   "line": 0,
+   "x": 62,
+   "y": 1,
+   "w": 12,
+   "h": 8,
+   "em": 11.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 1.952,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "삭",
+   "file": "btn_load_DELETE_text_0_0.png",
+   "image": "btn_load_DELETE_text",
+   "line": 0,
+   "x": 44,
+   "y": 0,
+   "w": 12,
+   "h": 12,
+   "em": 12.0,
+   "gap_after": 0,
+   "space_after": false,
+   "stroke": 2.04,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "제",
+   "file": "btn_load_DELETE_text_0_1.png",
+   "image": "btn_load_DELETE_text",
+   "line": 0,
+   "x": 56,
+   "y": 0,
+   "w": 11,
+   "h": 11,
+   "em": 12.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 2.91,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "덮",
+   "file": "btn_load_OWRITE_text_0_0.png",
+   "image": "btn_load_OWRITE_text",
+   "line": 0,
+   "x": 33,
+   "y": 0,
+   "w": 10,
+   "h": 12,
+   "em": 12.0,
+   "gap_after": 2,
+   "space_after": false,
+   "stroke": 2.695,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "어",
+   "file": "btn_load_OWRITE_text_0_1.png",
+   "image": "btn_load_OWRITE_text",
+   "line": 0,
+   "x": 45,
+   "y": 0,
+   "w": 10,
+   "h": 11,
+   "em": 12.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 1.951,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "쓰",
+   "file": "btn_load_OWRITE_text_0_2.png",
+   "image": "btn_load_OWRITE_text",
+   "line": 0,
+   "x": 56,
+   "y": 1,
+   "w": 12,
+   "h": 8,
+   "em": 12.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 1.836,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "기",
+   "file": "btn_load_OWRITE_text_0_3.png",
+   "image": "btn_load_OWRITE_text",
+   "line": 0,
+   "x": 69,
+   "y": 0,
+   "w": 10,
+   "h": 11,
+   "em": 12.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 1.841,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "데",
+   "file": "btn_load_DERACE_text_0_0.png",
+   "image": "btn_load_DERACE_text",
+   "line": 0,
+   "x": 24,
+   "y": 0,
+   "w": 10,
+   "h": 11,
+   "em": 12.0,
+   "gap_after": 2,
+   "space_after": false,
+   "stroke": 2.708,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "이",
+   "file": "btn_load_DERACE_text_0_1.png",
+   "image": "btn_load_DERACE_text",
+   "line": 0,
+   "x": 36,
+   "y": 0,
+   "w": 10,
+   "h": 11,
+   "em": 12.0,
+   "gap_after": 2,
+   "space_after": false,
+   "stroke": 1.921,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "터",
+   "file": "btn_load_DERACE_text_0_2.png",
+   "image": "btn_load_DERACE_text",
+   "line": 0,
+   "x": 48,
+   "y": 0,
+   "w": 10,
+   "h": 11,
+   "em": 12.0,
+   "gap_after": 7,
+   "space_after": true,
+   "stroke": 2.108,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "삭",
+   "file": "btn_load_DERACE_text_0_3.png",
+   "image": "btn_load_DERACE_text",
+   "line": 0,
+   "x": 65,
+   "y": 0,
+   "w": 12,
+   "h": 12,
+   "em": 12.0,
+   "gap_after": 0,
+   "space_after": false,
+   "stroke": 2.041,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "제",
+   "file": "btn_load_DERACE_text_0_4.png",
+   "image": "btn_load_DERACE_text",
+   "line": 0,
+   "x": 77,
+   "y": 0,
+   "w": 11,
+   "h": 11,
+   "em": 12.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 3.017,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "복",
+   "file": "btn_load_COPY_text_0_0.png",
+   "image": "btn_load_COPY_text",
+   "line": 0,
+   "x": 44,
+   "y": 0,
+   "w": 12,
+   "h": 12,
+   "em": 12.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 2.87,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "사",
+   "file": "btn_load_COPY_text_0_1.png",
+   "image": "btn_load_COPY_text",
+   "line": 0,
+   "x": 57,
+   "y": 0,
+   "w": 11,
+   "h": 11,
+   "em": 12.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 1.874,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "시",
+   "file": "btn_load_START_text_0_0.png",
+   "image": "btn_load_START_text",
+   "line": 0,
+   "x": 79,
+   "y": 0,
+   "w": 15,
+   "h": 15,
+   "em": 17.0,
+   "gap_after": 3,
+   "space_after": false,
+   "stroke": 2.398,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "작",
+   "file": "btn_load_START_text_0_1.png",
+   "image": "btn_load_START_text",
+   "line": 0,
+   "x": 97,
+   "y": 0,
+   "w": 17,
+   "h": 17,
+   "em": 17.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 2.503,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "하",
+   "file": "btn_load_START_text_0_2.png",
+   "image": "btn_load_START_text",
+   "line": 0,
+   "x": 115,
+   "y": 0,
+   "w": 17,
+   "h": 15,
+   "em": 17.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 2.77,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "기",
+   "file": "btn_load_START_text_0_3.png",
+   "image": "btn_load_START_text",
+   "line": 0,
+   "x": 133,
+   "y": 0,
+   "w": 15,
+   "h": 15,
+   "em": 17.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 2.333,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "스",
+   "file": "btn_RECORD_stamp_0_0.png",
+   "image": "btn_RECORD_stamp",
+   "line": 0,
+   "x": 64,
+   "y": 0,
+   "w": 15,
+   "h": 13,
+   "em": 16.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 1.77,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "탬",
+   "file": "btn_RECORD_stamp_0_1.png",
+   "image": "btn_RECORD_stamp",
+   "line": 0,
+   "x": 80,
+   "y": 1,
+   "w": 16,
+   "h": 15,
+   "em": 16.0,
+   "gap_after": 0,
+   "space_after": false,
+   "stroke": 2.207,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "프",
+   "file": "btn_RECORD_stamp_0_2.png",
+   "image": "btn_RECORD_stamp",
+   "line": 0,
+   "x": 96,
+   "y": 1,
+   "w": 15,
+   "h": 12,
+   "em": 16.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 1.958,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "구",
+   "file": "btn_p_KUBOMI_0_0.png",
+   "image": "btn_p_KUBOMI",
+   "line": 0,
+   "x": 17,
+   "y": 1,
+   "w": 14,
+   "h": 14,
+   "em": 15.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 1.886,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "덩",
+   "file": "btn_p_KUBOMI_0_1.png",
+   "image": "btn_p_KUBOMI",
+   "line": 0,
+   "x": 32,
+   "y": 0,
+   "w": 15,
+   "h": 15,
+   "em": 15.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 1.982,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "이",
+   "file": "btn_p_KUBOMI_0_2.png",
+   "image": "btn_p_KUBOMI",
+   "line": 0,
+   "x": 48,
+   "y": 2,
+   "w": 14,
+   "h": 10,
+   "em": 15.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 1.798,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "지",
+   "file": "btn_RECORD_story_0_0.png",
+   "image": "btn_RECORD_story",
+   "line": 0,
+   "x": 46,
+   "y": 1,
+   "w": 12,
+   "h": 10,
+   "em": 14.0,
+   "gap_after": 3,
+   "space_after": false,
+   "stroke": 1.85,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "난",
+   "file": "btn_RECORD_story_0_1.png",
+   "image": "btn_RECORD_story",
+   "line": 0,
+   "x": 61,
+   "y": 0,
+   "w": 15,
+   "h": 14,
+   "em": 14.0,
+   "gap_after": 6,
+   "space_after": true,
+   "stroke": 1.877,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "이",
+   "file": "btn_RECORD_story_0_2.png",
+   "image": "btn_RECORD_story",
+   "line": 0,
+   "x": 82,
+   "y": 1,
+   "w": 14,
+   "h": 10,
+   "em": 14.0,
+   "gap_after": 2,
+   "space_after": false,
+   "stroke": 1.819,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "야",
+   "file": "btn_RECORD_story_0_3.png",
+   "image": "btn_RECORD_story",
+   "line": 0,
+   "x": 98,
+   "y": 1,
+   "w": 15,
+   "h": 10,
+   "em": 14.0,
+   "gap_after": 0,
+   "space_after": false,
+   "stroke": 1.922,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "기",
+   "file": "btn_RECORD_story_0_4.png",
+   "image": "btn_RECORD_story",
+   "line": 0,
+   "x": 113,
+   "y": 0,
+   "w": 15,
+   "h": 11,
+   "em": 14.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 1.794,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "블",
+   "file": "LTIT_record_BLOCK_0_0.png",
+   "image": "LTIT_record_BLOCK",
+   "line": 0,
+   "x": 3,
+   "y": 0,
+   "w": 10,
+   "h": 10,
+   "em": 10.0,
+   "gap_after": 0,
+   "space_after": false,
+   "stroke": 3.296,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "록",
+   "file": "LTIT_record_BLOCK_0_1.png",
+   "image": "LTIT_record_BLOCK",
+   "line": 0,
+   "x": 13,
+   "y": 0,
+   "w": 10,
+   "h": 10,
+   "em": 10.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 3.199,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "블",
+   "file": "btn_p_BLOCK_0_0.png",
+   "image": "btn_p_BLOCK",
+   "line": 0,
+   "x": 25,
+   "y": 0,
+   "w": 14,
+   "h": 16,
+   "em": 16.0,
+   "gap_after": 2,
+   "space_after": false,
+   "stroke": 2.022,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "록",
+   "file": "btn_p_BLOCK_0_1.png",
+   "image": "btn_p_BLOCK",
+   "line": 0,
+   "x": 41,
+   "y": 0,
+   "w": 14,
+   "h": 16,
+   "em": 16.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 1.878,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "지",
+   "file": "record_STORY_past_0_0.png",
+   "image": "record_STORY_past",
+   "line": 0,
+   "x": 1,
+   "y": 0,
+   "w": 9,
+   "h": 9,
+   "em": 10.0,
+   "gap_after": 2,
+   "space_after": false,
+   "stroke": 1.518,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "난",
+   "file": "record_STORY_past_0_1.png",
+   "image": "record_STORY_past",
+   "line": 0,
+   "x": 12,
+   "y": 0,
+   "w": 9,
+   "h": 10,
+   "em": 10.0,
+   "gap_after": 6,
+   "space_after": true,
+   "stroke": 1.755,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "이",
+   "file": "record_STORY_past_0_2.png",
+   "image": "record_STORY_past",
+   "line": 0,
+   "x": 27,
+   "y": 0,
+   "w": 8,
+   "h": 9,
+   "em": 10.0,
+   "gap_after": 2,
+   "space_after": false,
+   "stroke": 1.614,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "야",
+   "file": "record_STORY_past_0_3.png",
+   "image": "record_STORY_past",
+   "line": 0,
+   "x": 37,
+   "y": 0,
+   "w": 9,
+   "h": 9,
+   "em": 10.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 1.612,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "기",
+   "file": "record_STORY_past_0_4.png",
+   "image": "record_STORY_past",
+   "line": 0,
+   "x": 47,
+   "y": 0,
+   "w": 8,
+   "h": 9,
+   "em": 10.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 1.417,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "구",
+   "file": "LTIT_record_KUBOMI_0_0.png",
+   "image": "LTIT_record_KUBOMI",
+   "line": 0,
+   "x": 3,
+   "y": 0,
+   "w": 10,
+   "h": 9,
+   "em": 10.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 1.758,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "덩",
+   "file": "LTIT_record_KUBOMI_0_1.png",
+   "image": "LTIT_record_KUBOMI",
+   "line": 0,
+   "x": 14,
+   "y": 0,
+   "w": 8,
+   "h": 10,
+   "em": 10.0,
+   "gap_after": 2,
+   "space_after": false,
+   "stroke": 1.858,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "이",
+   "file": "LTIT_record_KUBOMI_0_2.png",
+   "image": "LTIT_record_KUBOMI",
+   "line": 0,
+   "x": 24,
+   "y": 0,
+   "w": 8,
+   "h": 9,
+   "em": 10.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 1.64,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "저",
+   "file": "btn_SAVESTART_0_0.png",
+   "image": "btn_SAVESTART",
+   "line": 0,
+   "x": 47,
+   "y": 0,
+   "w": 13,
+   "h": 14,
+   "em": 16.0,
+   "gap_after": 3,
+   "space_after": false,
+   "stroke": 2.344,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "장",
+   "file": "btn_SAVESTART_0_1.png",
+   "image": "btn_SAVESTART",
+   "line": 0,
+   "x": 63,
+   "y": 0,
+   "w": 15,
+   "h": 16,
+   "em": 16.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 2.277,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "하",
+   "file": "btn_SAVESTART_0_2.png",
+   "image": "btn_SAVESTART",
+   "line": 0,
+   "x": 79,
+   "y": 0,
+   "w": 15,
+   "h": 14,
+   "em": 16.0,
+   "gap_after": 0,
+   "space_after": false,
+   "stroke": 2.435,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "고",
+   "file": "btn_SAVESTART_0_3.png",
+   "image": "btn_SAVESTART",
+   "line": 0,
+   "x": 94,
+   "y": 1,
+   "w": 16,
+   "h": 11,
+   "em": 16.0,
+   "gap_after": 9,
+   "space_after": true,
+   "stroke": 2.305,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "시",
+   "file": "btn_SAVESTART_0_4.png",
+   "image": "btn_SAVESTART",
+   "line": 0,
+   "x": 119,
+   "y": 0,
+   "w": 13,
+   "h": 14,
+   "em": 16.0,
+   "gap_after": 3,
+   "space_after": false,
+   "stroke": 2.285,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "작",
+   "file": "btn_SAVESTART_0_5.png",
+   "image": "btn_SAVESTART",
+   "line": 0,
+   "x": 135,
+   "y": 0,
+   "w": 15,
+   "h": 16,
+   "em": 16.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 2.272,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "하",
+   "file": "btn_SAVESTART_0_6.png",
+   "image": "btn_SAVESTART",
+   "line": 0,
+   "x": 151,
+   "y": 0,
+   "w": 15,
+   "h": 14,
+   "em": 16.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 2.435,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "기",
+   "file": "btn_SAVESTART_0_7.png",
+   "image": "btn_SAVESTART",
+   "line": 0,
+   "x": 167,
+   "y": 0,
+   "w": 13,
+   "h": 14,
+   "em": 16.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 2.208,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "기",
+   "file": "TOP_MENU_TEXT_5_0_0.png",
+   "image": "TOP_MENU_TEXT_5",
+   "line": 0,
+   "x": 31,
+   "y": 3,
+   "w": 16,
+   "h": 12,
+   "em": 18.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 1.987,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "록",
+   "file": "TOP_MENU_TEXT_5_0_1.png",
+   "image": "TOP_MENU_TEXT_5",
+   "line": 0,
+   "x": 48,
+   "y": 0,
+   "w": 16,
+   "h": 18,
+   "em": 18.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 2.212,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "팔",
+   "file": "btn_sell_0_0.png",
+   "image": "btn_sell",
+   "line": 0,
+   "x": 47,
+   "y": 0,
+   "w": 17,
+   "h": 17,
+   "em": 17.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 3.428,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "기",
+   "file": "btn_sell_0_1.png",
+   "image": "btn_sell",
+   "line": 0,
+   "x": 65,
+   "y": 0,
+   "w": 15,
+   "h": 15,
+   "em": 17.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 2.417,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "팔",
+   "file": "shop_top_sell_text_0_0.png",
+   "image": "shop_top_sell_text",
+   "line": 0,
+   "x": 25,
+   "y": 0,
+   "w": 15,
+   "h": 14,
+   "em": 14.0,
+   "gap_after": 0,
+   "space_after": false,
+   "stroke": 2.429,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "기",
+   "file": "shop_top_sell_text_0_1.png",
+   "image": "shop_top_sell_text",
+   "line": 0,
+   "x": 40,
+   "y": 1,
+   "w": 14,
+   "h": 10,
+   "em": 14.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 1.788,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "배",
+   "file": "shop_top_badge_text_0_0.png",
+   "image": "shop_top_badge_text",
+   "line": 0,
+   "x": 25,
+   "y": 0,
+   "w": 15,
+   "h": 10,
+   "em": 10.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 1.995,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "지",
+   "file": "shop_top_badge_text_0_1.png",
+   "image": "shop_top_badge_text",
+   "line": 0,
+   "x": 41,
+   "y": 0,
+   "w": 13,
+   "h": 10,
+   "em": 10.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 1.834,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "나",
+   "file": "btn_later_0_0.png",
+   "image": "btn_later",
+   "line": 0,
+   "x": 38,
+   "y": 0,
+   "w": 16,
+   "h": 15,
+   "em": 18.0,
+   "gap_after": 0,
+   "space_after": false,
+   "stroke": 2.448,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "중",
+   "file": "btn_later_0_1.png",
+   "image": "btn_later",
+   "line": 0,
+   "x": 54,
+   "y": 0,
+   "w": 18,
+   "h": 18,
+   "em": 18.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 2.876,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "에",
+   "file": "btn_later_0_2.png",
+   "image": "btn_later",
+   "line": 0,
+   "x": 73,
+   "y": 0,
+   "w": 15,
+   "h": 15,
+   "em": 18.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 3.554,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "아",
+   "file": "shop_top_item_text_0_0.png",
+   "image": "shop_top_item_text",
+   "line": 0,
+   "x": 16,
+   "y": 2,
+   "w": 15,
+   "h": 10,
+   "em": 15.0,
+   "gap_after": 0,
+   "space_after": false,
+   "stroke": 1.851,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "이",
+   "file": "shop_top_item_text_0_1.png",
+   "image": "shop_top_item_text",
+   "line": 0,
+   "x": 31,
+   "y": 2,
+   "w": 15,
+   "h": 10,
+   "em": 15.0,
+   "gap_after": 2,
+   "space_after": false,
+   "stroke": 1.802,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "템",
+   "file": "shop_top_item_text_0_2.png",
+   "image": "shop_top_item_text",
+   "line": 0,
+   "x": 48,
+   "y": 0,
+   "w": 16,
+   "h": 15,
+   "em": 15.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 2.023,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "사",
+   "file": "btn_buy_0_0.png",
+   "image": "btn_buy",
+   "line": 0,
+   "x": 47,
+   "y": 0,
+   "w": 17,
+   "h": 15,
+   "em": 15.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 2.475,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "기",
+   "file": "btn_buy_0_1.png",
+   "image": "btn_buy",
+   "line": 0,
+   "x": 65,
+   "y": 0,
+   "w": 15,
+   "h": 15,
+   "em": 15.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 2.347,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "장",
+   "file": "shop_top_wear_02_text_0_0.png",
+   "image": "shop_top_wear_02_text",
+   "line": 0,
+   "x": 17,
+   "y": 1,
+   "w": 15,
+   "h": 15,
+   "em": 16.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 2.021,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "비",
+   "file": "shop_top_wear_02_text_0_1.png",
+   "image": "shop_top_wear_02_text",
+   "line": 0,
+   "x": 33,
+   "y": 3,
+   "w": 13,
+   "h": 10,
+   "em": 16.0,
+   "gap_after": 3,
+   "space_after": false,
+   "stroke": 1.975,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "품",
+   "file": "shop_top_wear_02_text_0_2.png",
+   "image": "shop_top_wear_02_text",
+   "line": 0,
+   "x": 49,
+   "y": 0,
+   "w": 14,
+   "h": 16,
+   "em": 16.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 2.029,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "장",
+   "file": "btn_equip_0_0.png",
+   "image": "btn_equip",
+   "line": 0,
+   "x": 28,
+   "y": 0,
+   "w": 17,
+   "h": 18,
+   "em": 18.0,
+   "gap_after": 2,
+   "space_after": false,
+   "stroke": 2.358,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "비",
+   "file": "btn_equip_0_1.png",
+   "image": "btn_equip",
+   "line": 0,
+   "x": 47,
+   "y": 0,
+   "w": 14,
+   "h": 15,
+   "em": 18.0,
+   "gap_after": 3,
+   "space_after": false,
+   "stroke": 2.501,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "하",
+   "file": "btn_equip_0_2.png",
+   "image": "btn_equip",
+   "line": 0,
+   "x": 64,
+   "y": 0,
+   "w": 17,
+   "h": 15,
+   "em": 18.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 2.752,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "기",
+   "file": "btn_equip_0_3.png",
+   "image": "btn_equip",
+   "line": 0,
+   "x": 82,
+   "y": 0,
+   "w": 15,
+   "h": 15,
+   "em": 18.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 2.271,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "취",
+   "file": "btn_cancel_0_0.png",
+   "image": "btn_cancel",
+   "line": 0,
+   "x": 46,
+   "y": 0,
+   "w": 16,
+   "h": 16,
+   "em": 16.0,
+   "gap_after": 2,
+   "space_after": false,
+   "stroke": 2.827,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "소",
+   "file": "btn_cancel_0_1.png",
+   "image": "btn_cancel",
+   "line": 0,
+   "x": 64,
+   "y": 1,
+   "w": 18,
+   "h": 13,
+   "em": 16.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 2.39,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "웨",
+   "file": "shop_top_wear_01_text_0_0.png",
+   "image": "shop_top_wear_01_text",
+   "line": 0,
+   "x": 24,
+   "y": 0,
+   "w": 15,
+   "h": 13,
+   "em": 13.0,
+   "gap_after": 0,
+   "space_after": false,
+   "stroke": 2.127,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "어",
+   "file": "shop_top_wear_01_text_0_1.png",
+   "image": "shop_top_wear_01_text",
+   "line": 0,
+   "x": 39,
+   "y": 1,
+   "w": 15,
+   "h": 11,
+   "em": 13.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 1.958,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "결",
+   "file": "SET_DECISION_0_0.png",
+   "image": "SET_DECISION",
+   "line": 0,
+   "x": 45,
+   "y": 0,
+   "w": 10,
+   "h": 12,
+   "em": 12.0,
+   "gap_after": 2,
+   "space_after": false,
+   "stroke": 2.341,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "정",
+   "file": "SET_DECISION_0_1.png",
+   "image": "SET_DECISION",
+   "line": 0,
+   "x": 57,
+   "y": 0,
+   "w": 10,
+   "h": 12,
+   "em": 12.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 2.326,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "스",
+   "file": "btn_push_STAMP_0_0.png",
+   "image": "btn_push_STAMP",
+   "line": 0,
+   "x": 31,
+   "y": 1,
+   "w": 12,
+   "h": 8,
+   "em": 12.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 1.722,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "탬",
+   "file": "btn_push_STAMP_0_1.png",
+   "image": "btn_push_STAMP",
+   "line": 0,
+   "x": 44,
+   "y": 0,
+   "w": 10,
+   "h": 12,
+   "em": 12.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 3.1,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "프",
+   "file": "btn_push_STAMP_0_2.png",
+   "image": "btn_push_STAMP",
+   "line": 0,
+   "x": 55,
+   "y": 1,
+   "w": 12,
+   "h": 8,
+   "em": 12.0,
+   "gap_after": 6,
+   "space_after": true,
+   "stroke": 2.529,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "찍",
+   "file": "btn_push_STAMP_0_3.png",
+   "image": "btn_push_STAMP",
+   "line": 0,
+   "x": 73,
+   "y": 0,
+   "w": 11,
+   "h": 12,
+   "em": 12.0,
+   "gap_after": 2,
+   "space_after": false,
+   "stroke": 2.712,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "기",
+   "file": "btn_push_STAMP_0_4.png",
+   "image": "btn_push_STAMP",
+   "line": 0,
+   "x": 86,
+   "y": 0,
+   "w": 10,
+   "h": 11,
+   "em": 12.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 1.834,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "만",
+   "file": "btn_drip_0_0.png",
+   "image": "btn_drip",
+   "line": 0,
+   "x": 39,
+   "y": 0,
+   "w": 16,
+   "h": 17,
+   "em": 17.0,
+   "gap_after": 0,
+   "space_after": false,
+   "stroke": 2.604,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "들",
+   "file": "btn_drip_0_1.png",
+   "image": "btn_drip",
+   "line": 0,
+   "x": 55,
+   "y": 0,
+   "w": 18,
+   "h": 17,
+   "em": 17.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 3.038,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "기",
+   "file": "btn_drip_0_2.png",
+   "image": "btn_drip",
+   "line": 0,
+   "x": 74,
+   "y": 0,
+   "w": 15,
+   "h": 15,
+   "em": 17.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 2.409,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "몬",
+   "file": "KG_LIST_TIT_ENEMY_0_0.png",
+   "image": "KG_LIST_TIT_ENEMY",
+   "line": 0,
+   "x": 3,
+   "y": 0,
+   "w": 9,
+   "h": 10,
+   "em": 10.0,
+   "gap_after": 0,
+   "space_after": false,
+   "stroke": 1.767,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "스",
+   "file": "KG_LIST_TIT_ENEMY_0_1.png",
+   "image": "KG_LIST_TIT_ENEMY",
+   "line": 0,
+   "x": 12,
+   "y": 0,
+   "w": 11,
+   "h": 7,
+   "em": 10.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 1.327,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "터",
+   "file": "KG_LIST_TIT_ENEMY_0_2.png",
+   "image": "KG_LIST_TIT_ENEMY",
+   "line": 0,
+   "x": 24,
+   "y": 0,
+   "w": 8,
+   "h": 9,
+   "em": 10.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 1.558,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "동",
+   "file": "KG_LIST_TIT_MEMBER_0_0.png",
+   "image": "KG_LIST_TIT_MEMBER",
+   "line": 0,
+   "x": 3,
+   "y": 0,
+   "w": 10,
+   "h": 10,
+   "em": 10.0,
+   "gap_after": 0,
+   "space_after": false,
+   "stroke": 2.264,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "료",
+   "file": "KG_LIST_TIT_MEMBER_0_1.png",
+   "image": "KG_LIST_TIT_MEMBER",
+   "line": 0,
+   "x": 13,
+   "y": 0,
+   "w": 10,
+   "h": 8,
+   "em": 10.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 2.543,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "비",
+   "file": "KG_HENSEI_TYPE_02_0_0.png",
+   "image": "KG_HENSEI_TYPE_02",
+   "line": 0,
+   "x": 18,
+   "y": 2,
+   "w": 12,
+   "h": 10,
+   "em": 14.0,
+   "gap_after": 2,
+   "space_after": false,
+   "stroke": 1.807,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "행",
+   "file": "KG_HENSEI_TYPE_02_0_1.png",
+   "image": "KG_HENSEI_TYPE_02",
+   "line": 0,
+   "x": 32,
+   "y": 0,
+   "w": 14,
+   "h": 14,
+   "em": 14.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 1.96,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "스",
+   "file": "KG_REC_SKILL_0_0.png",
+   "image": "KG_REC_SKILL",
+   "line": 0,
+   "x": 24,
+   "y": 0,
+   "w": 15,
+   "h": 13,
+   "em": 16.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 1.765,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "킬",
+   "file": "KG_REC_SKILL_0_1.png",
+   "image": "KG_REC_SKILL",
+   "line": 0,
+   "x": 40,
+   "y": 1,
+   "w": 16,
+   "h": 15,
+   "em": 16.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 2.151,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "동",
+   "file": "KG_REC_MEMBER_0_0.png",
+   "image": "KG_REC_MEMBER",
+   "line": 0,
+   "x": 25,
+   "y": 0,
+   "w": 14,
+   "h": 15,
+   "em": 15.0,
+   "gap_after": 2,
+   "space_after": false,
+   "stroke": 1.944,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "료",
+   "file": "KG_REC_MEMBER_0_1.png",
+   "image": "KG_REC_MEMBER",
+   "line": 0,
+   "x": 41,
+   "y": 0,
+   "w": 14,
+   "h": 12,
+   "em": 15.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 2.108,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "몬",
+   "file": "KG_REC_ENEMY_0_0.png",
+   "image": "KG_REC_ENEMY",
+   "line": 0,
+   "x": 17,
+   "y": 0,
+   "w": 14,
+   "h": 16,
+   "em": 16.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 2.07,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "스",
+   "file": "KG_REC_ENEMY_0_1.png",
+   "image": "KG_REC_ENEMY",
+   "line": 0,
+   "x": 32,
+   "y": 0,
+   "w": 15,
+   "h": 13,
+   "em": 16.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 1.772,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "터",
+   "file": "KG_REC_ENEMY_0_2.png",
+   "image": "KG_REC_ENEMY",
+   "line": 0,
+   "x": 48,
+   "y": 3,
+   "w": 14,
+   "h": 10,
+   "em": 16.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 1.997,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "원",
+   "file": "KG_HENSEI_TYPE_03_0_0.png",
+   "image": "KG_HENSEI_TYPE_03",
+   "line": 0,
+   "x": 11,
+   "y": 0,
+   "w": 13,
+   "h": 14,
+   "em": 14.0,
+   "gap_after": 0,
+   "space_after": false,
+   "stroke": 1.897,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "거",
+   "file": "KG_HENSEI_TYPE_03_0_1.png",
+   "image": "KG_HENSEI_TYPE_03",
+   "line": 0,
+   "x": 24,
+   "y": 2,
+   "w": 13,
+   "h": 10,
+   "em": 14.0,
+   "gap_after": 2,
+   "space_after": false,
+   "stroke": 1.753,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "리",
+   "file": "KG_HENSEI_TYPE_03_0_2.png",
+   "image": "KG_HENSEI_TYPE_03",
+   "line": 0,
+   "x": 39,
+   "y": 2,
+   "w": 12,
+   "h": 10,
+   "em": 14.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 1.733,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "스",
+   "file": "KG_LIST_TIT_SKILL_0_0.png",
+   "image": "KG_LIST_TIT_SKILL",
+   "line": 0,
+   "x": 3,
+   "y": 0,
+   "w": 10,
+   "h": 7,
+   "em": 10.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 1.94,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "킬",
+   "file": "KG_LIST_TIT_SKILL_0_1.png",
+   "image": "KG_LIST_TIT_SKILL",
+   "line": 0,
+   "x": 14,
+   "y": 0,
+   "w": 8,
+   "h": 10,
+   "em": 10.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 2.635,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "도",
+   "file": "KG_REC_CHA_0_0.png",
+   "image": "KG_REC_CHA",
+   "line": 0,
+   "x": 25,
+   "y": 0,
+   "w": 14,
+   "h": 12,
+   "em": 15.0,
+   "gap_after": 2,
+   "space_after": false,
+   "stroke": 1.896,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "전",
+   "file": "KG_REC_CHA_0_1.png",
+   "image": "KG_REC_CHA",
+   "line": 0,
+   "x": 41,
+   "y": 0,
+   "w": 14,
+   "h": 15,
+   "em": 15.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 1.818,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "모",
+   "file": "btn_KGLA_TX_l01_0_0.png",
+   "image": "btn_KGLA_TX_l01",
+   "line": 0,
+   "x": 4,
+   "y": 0,
+   "w": 15,
+   "h": 12,
+   "em": 15.0,
+   "gap_after": 6,
+   "space_after": true,
+   "stroke": 2.001,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "아",
+   "file": "btn_KGLA_TX_l01_0_1.png",
+   "image": "btn_KGLA_TX_l01",
+   "line": 0,
+   "x": 25,
+   "y": 2,
+   "w": 15,
+   "h": 10,
+   "em": 15.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 1.846,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "니",
+   "file": "btn_KGLA_TX_l01_0_2.png",
+   "image": "btn_KGLA_TX_l01",
+   "line": 0,
+   "x": 41,
+   "y": 2,
+   "w": 13,
+   "h": 10,
+   "em": 15.0,
+   "gap_after": 2,
+   "space_after": false,
+   "stroke": 1.877,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "면",
+   "file": "btn_KGLA_TX_l01_0_3.png",
+   "image": "btn_KGLA_TX_l01",
+   "line": 0,
+   "x": 56,
+   "y": 0,
+   "w": 15,
+   "h": 15,
+   "em": 15.0,
+   "gap_after": 6,
+   "space_after": true,
+   "stroke": 2.078,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "도",
+   "file": "btn_KGLA_TX_l01_0_4.png",
+   "image": "btn_KGLA_TX_l01",
+   "line": 0,
+   "x": 77,
+   "y": 0,
+   "w": 15,
+   "h": 12,
+   "em": 15.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 1.896,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "쿵",
+   "file": "btn_KGLA_TX_n08_0_0.png",
+   "image": "btn_KGLA_TX_n08",
+   "line": 0,
+   "x": 34,
+   "y": 0,
+   "w": 12,
+   "h": 13,
+   "em": 13.0,
+   "gap_after": 0,
+   "space_after": false,
+   "stroke": 2.118,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "쿵",
+   "file": "btn_KGLA_TX_n08_0_1.png",
+   "image": "btn_KGLA_TX_n08",
+   "line": 0,
+   "x": 46,
+   "y": 0,
+   "w": 12,
+   "h": 13,
+   "em": 13.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 2.139,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "떨",
+   "file": "btn_KGLA_TX_n08_1_0.png",
+   "image": "btn_KGLA_TX_n08",
+   "line": 1,
+   "x": 18,
+   "y": 0,
+   "w": 11,
+   "h": 12,
+   "em": 12.0,
+   "gap_after": 0,
+   "space_after": false,
+   "stroke": 1.98,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "어",
+   "file": "btn_KGLA_TX_n08_1_1.png",
+   "image": "btn_KGLA_TX_n08",
+   "line": 1,
+   "x": 29,
+   "y": 2,
+   "w": 12,
+   "h": 9,
+   "em": 12.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 1.501,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "트",
+   "file": "btn_KGLA_TX_n08_1_2.png",
+   "image": "btn_KGLA_TX_n08",
+   "line": 1,
+   "x": 42,
+   "y": 0,
+   "w": 11,
+   "h": 9,
+   "em": 12.0,
+   "gap_after": 0,
+   "space_after": false,
+   "stroke": 1.525,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "리",
+   "file": "btn_KGLA_TX_n08_1_3.png",
+   "image": "btn_KGLA_TX_n08",
+   "line": 1,
+   "x": 53,
+   "y": 1,
+   "w": 12,
+   "h": 9,
+   "em": 12.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 1.443,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "기",
+   "file": "btn_KGLA_TX_n08_1_4.png",
+   "image": "btn_KGLA_TX_n08",
+   "line": 1,
+   "x": 66,
+   "y": 1,
+   "w": 11,
+   "h": 9,
+   "em": 12.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 1.379,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "허",
+   "file": "btn_KGLA_TX_l04_0_0.png",
+   "image": "btn_KGLA_TX_l04",
+   "line": 0,
+   "x": 15,
+   "y": 0,
+   "w": 13,
+   "h": 12,
+   "em": 12.0,
+   "gap_after": 7,
+   "space_after": true,
+   "stroke": 2.201,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "찌",
+   "file": "btn_KGLA_TX_l04_0_1.png",
+   "image": "btn_KGLA_TX_l04",
+   "line": 0,
+   "x": 35,
+   "y": 2,
+   "w": 14,
+   "h": 10,
+   "em": 12.0,
+   "gap_after": 2,
+   "space_after": false,
+   "stroke": 2.028,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "르",
+   "file": "btn_KGLA_TX_l04_0_2.png",
+   "image": "btn_KGLA_TX_l04",
+   "line": 0,
+   "x": 51,
+   "y": 0,
+   "w": 14,
+   "h": 12,
+   "em": 12.0,
+   "gap_after": 0,
+   "space_after": false,
+   "stroke": 1.934,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "기",
+   "file": "btn_KGLA_TX_l04_0_3.png",
+   "image": "btn_KGLA_TX_l04",
+   "line": 0,
+   "x": 65,
+   "y": 1,
+   "w": 15,
+   "h": 11,
+   "em": 12.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 1.822,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "회",
+   "file": "btn_KGLA_TX_n06_0_0.png",
+   "image": "btn_KGLA_TX_n06",
+   "line": 0,
+   "x": 32,
+   "y": 0,
+   "w": 14,
+   "h": 13,
+   "em": 13.0,
+   "gap_after": 2,
+   "space_after": false,
+   "stroke": 2.136,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "피",
+   "file": "btn_KGLA_TX_n06_0_1.png",
+   "image": "btn_KGLA_TX_n06",
+   "line": 0,
+   "x": 48,
+   "y": 3,
+   "w": 14,
+   "h": 10,
+   "em": 13.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 2.059,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "도",
+   "file": "btn_KGb_ESC_0_0.png",
+   "image": "btn_KGb_ESC",
+   "line": 0,
+   "x": 8,
+   "y": 1,
+   "w": 12,
+   "h": 8,
+   "em": 12.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 1.809,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "망",
+   "file": "btn_KGb_ESC_0_1.png",
+   "image": "btn_KGb_ESC",
+   "line": 0,
+   "x": 21,
+   "y": 0,
+   "w": 11,
+   "h": 12,
+   "em": 12.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 1.986,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "가",
+   "file": "btn_KGb_ESC_0_2.png",
+   "image": "btn_KGb_ESC",
+   "line": 0,
+   "x": 33,
+   "y": 0,
+   "w": 11,
+   "h": 11,
+   "em": 12.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 1.763,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "기",
+   "file": "btn_KGb_ESC_0_3.png",
+   "image": "btn_KGb_ESC",
+   "line": 0,
+   "x": 45,
+   "y": 0,
+   "w": 10,
+   "h": 11,
+   "em": 12.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 1.824,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "등",
+   "file": "btn_KGLA_TX_l02_0_0.png",
+   "image": "btn_KGLA_TX_l02",
+   "line": 0,
+   "x": 7,
+   "y": 1,
+   "w": 14,
+   "h": 15,
+   "em": 16.0,
+   "gap_after": 0,
+   "space_after": false,
+   "stroke": 1.778,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "껍",
+   "file": "btn_KGLA_TX_l02_0_1.png",
+   "image": "btn_KGLA_TX_l02",
+   "line": 0,
+   "x": 21,
+   "y": 1,
+   "w": 16,
+   "h": 15,
+   "em": 16.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 2.233,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "질",
+   "file": "btn_KGLA_TX_l02_0_2.png",
+   "image": "btn_KGLA_TX_l02",
+   "line": 0,
+   "x": 38,
+   "y": 1,
+   "w": 15,
+   "h": 15,
+   "em": 16.0,
+   "gap_after": 5,
+   "space_after": true,
+   "stroke": 2.338,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "스",
+   "file": "btn_KGLA_TX_l02_0_3.png",
+   "image": "btn_KGLA_TX_l02",
+   "line": 0,
+   "x": 58,
+   "y": 0,
+   "w": 15,
+   "h": 13,
+   "em": 16.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 1.783,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "핀",
+   "file": "btn_KGLA_TX_l02_0_4.png",
+   "image": "btn_KGLA_TX_l02",
+   "line": 0,
+   "x": 74,
+   "y": 1,
+   "w": 15,
+   "h": 15,
+   "em": 16.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 1.969,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "죽",
+   "file": "btn_KGLA_TX_n04_0_0.png",
+   "image": "btn_KGLA_TX_n04",
+   "line": 0,
+   "x": 23,
+   "y": 1,
+   "w": 14,
+   "h": 15,
+   "em": 16.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 1.998,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "은",
+   "file": "btn_KGLA_TX_n04_0_1.png",
+   "image": "btn_KGLA_TX_n04",
+   "line": 0,
+   "x": 38,
+   "y": 0,
+   "w": 15,
+   "h": 16,
+   "em": 16.0,
+   "gap_after": 6,
+   "space_after": true,
+   "stroke": 1.752,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "척",
+   "file": "btn_KGLA_TX_n04_0_2.png",
+   "image": "btn_KGLA_TX_n04",
+   "line": 0,
+   "x": 59,
+   "y": 0,
+   "w": 13,
+   "h": 16,
+   "em": 16.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 1.991,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "기",
+   "file": "btn_KGLA_TX_n02_0_0.png",
+   "image": "btn_KGLA_TX_n02",
+   "line": 0,
+   "x": 32,
+   "y": 2,
+   "w": 14,
+   "h": 11,
+   "em": 16.0,
+   "gap_after": 2,
+   "space_after": false,
+   "stroke": 1.778,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "합",
+   "file": "btn_KGLA_TX_n02_0_1.png",
+   "image": "btn_KGLA_TX_n02",
+   "line": 0,
+   "x": 48,
+   "y": 0,
+   "w": 15,
+   "h": 16,
+   "em": 16.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 2.367,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "폭",
+   "file": "btn_KGLA_TX_n07_0_0.png",
+   "image": "btn_KGLA_TX_n07",
+   "line": 0,
+   "x": 7,
+   "y": 0,
+   "w": 14,
+   "h": 16,
+   "em": 16.0,
+   "gap_after": 0,
+   "space_after": false,
+   "stroke": 1.949,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "탄",
+   "file": "btn_KGLA_TX_n07_0_1.png",
+   "image": "btn_KGLA_TX_n07",
+   "line": 0,
+   "x": 21,
+   "y": 1,
+   "w": 16,
+   "h": 15,
+   "em": 16.0,
+   "gap_after": 0,
+   "space_after": false,
+   "stroke": 1.936,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "병",
+   "file": "btn_KGLA_TX_n07_0_2.png",
+   "image": "btn_KGLA_TX_n07",
+   "line": 0,
+   "x": 37,
+   "y": 1,
+   "w": 15,
+   "h": 15,
+   "em": 16.0,
+   "gap_after": 7,
+   "space_after": true,
+   "stroke": 2.271,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "랠",
+   "file": "btn_KGLA_TX_n07_0_3.png",
+   "image": "btn_KGLA_TX_n07",
+   "line": 0,
+   "x": 59,
+   "y": 1,
+   "w": 15,
+   "h": 15,
+   "em": 16.0,
+   "gap_after": 0,
+   "space_after": false,
+   "stroke": 2.453,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "리",
+   "file": "btn_KGLA_TX_n07_0_4.png",
+   "image": "btn_KGLA_TX_n07",
+   "line": 0,
+   "x": 74,
+   "y": 2,
+   "w": 14,
+   "h": 11,
+   "em": 16.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 1.894,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "도",
+   "file": "btn_KGLA_TX_l03_0_0.png",
+   "image": "btn_KGLA_TX_l03",
+   "line": 0,
+   "x": 25,
+   "y": 0,
+   "w": 15,
+   "h": 12,
+   "em": 15.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 1.976,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "우",
+   "file": "btn_KGLA_TX_l03_0_1.png",
+   "image": "btn_KGLA_TX_l03",
+   "line": 0,
+   "x": 41,
+   "y": 0,
+   "w": 14,
+   "h": 15,
+   "em": 15.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 2.084,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "미",
+   "file": "btn_KGLA_TX_l03_0_2.png",
+   "image": "btn_KGLA_TX_l03",
+   "line": 0,
+   "x": 56,
+   "y": 1,
+   "w": 14,
+   "h": 11,
+   "em": 15.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 2.106,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "선",
+   "file": "btn_KGLA_TX_n05_0_0.png",
+   "image": "btn_KGLA_TX_n05",
+   "line": 0,
+   "x": 33,
+   "y": 0,
+   "w": 14,
+   "h": 15,
+   "em": 15.0,
+   "gap_after": 0,
+   "space_after": false,
+   "stroke": 1.804,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "더",
+   "file": "btn_KGLA_TX_n05_0_1.png",
+   "image": "btn_KGLA_TX_n05",
+   "line": 0,
+   "x": 47,
+   "y": 2,
+   "w": 15,
+   "h": 12,
+   "em": 15.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 1.817,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "가",
+   "file": "btn_KG_GUIDEs_0_0.png",
+   "image": "btn_KG_GUIDEs",
+   "line": 0,
+   "x": 27,
+   "y": 2,
+   "w": 15,
+   "h": 10,
+   "em": 12.0,
+   "gap_after": 0,
+   "space_after": false,
+   "stroke": 1.861,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "이",
+   "file": "btn_KG_GUIDEs_0_1.png",
+   "image": "btn_KG_GUIDEs",
+   "line": 0,
+   "x": 42,
+   "y": 2,
+   "w": 15,
+   "h": 10,
+   "em": 12.0,
+   "gap_after": 2,
+   "space_after": false,
+   "stroke": 1.807,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "드",
+   "file": "btn_KG_GUIDEs_0_2.png",
+   "image": "btn_KG_GUIDEs",
+   "line": 0,
+   "x": 59,
+   "y": 0,
+   "w": 15,
+   "h": 12,
+   "em": 12.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 1.8,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "퀘",
+   "file": "btn_KG_QUESTs_0_0.png",
+   "image": "btn_KG_QUESTs",
+   "line": 0,
+   "x": 82,
+   "y": 2,
+   "w": 21,
+   "h": 17,
+   "em": 19.0,
+   "gap_after": 2,
+   "space_after": false,
+   "stroke": 2.592,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "스",
+   "file": "btn_KG_QUESTs_0_1.png",
+   "image": "btn_KG_QUESTs",
+   "line": 0,
+   "x": 105,
+   "y": 0,
+   "w": 20,
+   "h": 18,
+   "em": 19.0,
+   "gap_after": 2,
+   "space_after": false,
+   "stroke": 2.433,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "트",
+   "file": "btn_KG_QUESTs_0_2.png",
+   "image": "btn_KG_QUESTs",
+   "line": 0,
+   "x": 127,
+   "y": 2,
+   "w": 20,
+   "h": 16,
+   "em": 19.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 2.492,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "스",
+   "file": "btn_AMB_stamp_0_0.png",
+   "image": "btn_AMB_stamp",
+   "line": 0,
+   "x": 54,
+   "y": 0,
+   "w": 19,
+   "h": 16,
+   "em": 20.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 2.359,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "탬",
+   "file": "btn_AMB_stamp_0_1.png",
+   "image": "btn_AMB_stamp",
+   "line": 0,
+   "x": 74,
+   "y": 1,
+   "w": 19,
+   "h": 19,
+   "em": 20.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 3.031,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "프",
+   "file": "btn_AMB_stamp_0_2.png",
+   "image": "btn_AMB_stamp",
+   "line": 0,
+   "x": 94,
+   "y": 0,
+   "w": 19,
+   "h": 16,
+   "em": 20.0,
+   "gap_after": 8,
+   "space_after": true,
+   "stroke": 2.573,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "정",
+   "file": "btn_AMB_stamp_0_3.png",
+   "image": "btn_AMB_stamp",
+   "line": 0,
+   "x": 121,
+   "y": 1,
+   "w": 17,
+   "h": 19,
+   "em": 20.0,
+   "gap_after": 3,
+   "space_after": false,
+   "stroke": 2.719,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "보",
+   "file": "btn_AMB_stamp_0_4.png",
+   "image": "btn_AMB_stamp",
+   "line": 0,
+   "x": 141,
+   "y": 1,
+   "w": 18,
+   "h": 15,
+   "em": 20.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 2.796,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "게",
+   "file": "btn_GAMESTART_0_0.png",
+   "image": "btn_GAMESTART",
+   "line": 0,
+   "x": 71,
+   "y": 2,
+   "w": 19,
+   "h": 13,
+   "em": 19.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 2.303,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "임",
+   "file": "btn_GAMESTART_0_1.png",
+   "image": "btn_GAMESTART",
+   "line": 0,
+   "x": 91,
+   "y": 0,
+   "w": 18,
+   "h": 19,
+   "em": 19.0,
+   "gap_after": 9,
+   "space_after": true,
+   "stroke": 2.419,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "시",
+   "file": "btn_GAMESTART_0_2.png",
+   "image": "btn_GAMESTART",
+   "line": 0,
+   "x": 118,
+   "y": 2,
+   "w": 17,
+   "h": 13,
+   "em": 19.0,
+   "gap_after": 4,
+   "space_after": false,
+   "stroke": 2.117,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "작",
+   "file": "btn_GAMESTART_0_3.png",
+   "image": "btn_GAMESTART",
+   "line": 0,
+   "x": 139,
+   "y": 0,
+   "w": 18,
+   "h": 18,
+   "em": 19.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 2.338,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "취",
+   "file": "btn_KG_cancel_0_0.png",
+   "image": "btn_KG_cancel",
+   "line": 0,
+   "x": 24,
+   "y": 0,
+   "w": 11,
+   "h": 11,
+   "em": 11.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 2.452,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "소",
+   "file": "btn_KG_cancel_0_1.png",
+   "image": "btn_KG_cancel",
+   "line": 0,
+   "x": 36,
+   "y": 1,
+   "w": 12,
+   "h": 8,
+   "em": 11.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 2.027,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "군",
+   "file": "KG_MEM_LV_0_0.png",
+   "image": "KG_MEM_LV",
+   "line": 0,
+   "x": 14,
+   "y": 1,
+   "w": 11,
+   "h": 11,
+   "em": 12.0,
+   "gap_after": 2,
+   "space_after": false,
+   "stroke": 1.517,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "단",
+   "file": "KG_MEM_LV_0_1.png",
+   "image": "KG_MEM_LV",
+   "line": 0,
+   "x": 27,
+   "y": 0,
+   "w": 11,
+   "h": 12,
+   "em": 12.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 1.501,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "L",
+   "file": "KG_MEM_LV_1_0.png",
+   "image": "KG_MEM_LV",
+   "line": 1,
+   "x": 18,
+   "y": 0,
+   "w": 6,
+   "h": 9,
+   "em": 9.0,
+   "gap_after": 0,
+   "space_after": false,
+   "stroke": 1.568,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "V",
+   "file": "KG_MEM_LV_1_1.png",
+   "image": "KG_MEM_LV",
+   "line": 1,
+   "x": 24,
+   "y": 0,
+   "w": 10,
+   "h": 9,
+   "em": 9.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 1.533,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "결",
+   "file": "btn_KG_decision_0_0.png",
+   "image": "btn_KG_decision",
+   "line": 0,
+   "x": 25,
+   "y": 0,
+   "w": 10,
+   "h": 12,
+   "em": 12.0,
+   "gap_after": 2,
+   "space_after": false,
+   "stroke": 2.341,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "정",
+   "file": "btn_KG_decision_0_1.png",
+   "image": "btn_KG_decision",
+   "line": 0,
+   "x": 37,
+   "y": 0,
+   "w": 10,
+   "h": 12,
+   "em": 12.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 2.326,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "포",
+   "file": "btn_mini_RETIREn_0_0.png",
+   "image": "btn_mini_RETIREn",
+   "line": 0,
+   "x": 34,
+   "y": 1,
+   "w": 12,
+   "h": 8,
+   "em": 11.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 1.976,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "기",
+   "file": "btn_mini_RETIREn_0_1.png",
+   "image": "btn_mini_RETIREn",
+   "line": 0,
+   "x": 47,
+   "y": 0,
+   "w": 10,
+   "h": 11,
+   "em": 11.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 1.799,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "타",
+   "file": "SORT_TYPE_L_0_0.png",
+   "image": "SORT_TYPE_L",
+   "line": 0,
+   "x": 3,
+   "y": 0,
+   "w": 9,
+   "h": 9,
+   "em": 10.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 1.496,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "입",
+   "file": "SORT_TYPE_L_0_1.png",
+   "image": "SORT_TYPE_L",
+   "line": 0,
+   "x": 13,
+   "y": 0,
+   "w": 8,
+   "h": 10,
+   "em": 10.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 1.978,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "캐",
+   "file": "SORT_CHARA_0_0.png",
+   "image": "SORT_CHARA",
+   "line": 0,
+   "x": 21,
+   "y": 0,
+   "w": 10,
+   "h": 11,
+   "em": 12.0,
+   "gap_after": 3,
+   "space_after": false,
+   "stroke": 2.765,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "릭",
+   "file": "SORT_CHARA_0_1.png",
+   "image": "SORT_CHARA",
+   "line": 0,
+   "x": 34,
+   "y": 0,
+   "w": 9,
+   "h": 12,
+   "em": 12.0,
+   "gap_after": 3,
+   "space_after": false,
+   "stroke": 2.447,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "터",
+   "file": "SORT_CHARA_0_2.png",
+   "image": "SORT_CHARA",
+   "line": 0,
+   "x": 46,
+   "y": 0,
+   "w": 9,
+   "h": 11,
+   "em": 12.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 1.915,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "타",
+   "file": "SORT_TYPE_0_0.png",
+   "image": "SORT_TYPE",
+   "line": 0,
+   "x": 27,
+   "y": 0,
+   "w": 10,
+   "h": 11,
+   "em": 12.0,
+   "gap_after": 0,
+   "space_after": false,
+   "stroke": 1.958,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "입",
+   "file": "SORT_TYPE_0_1.png",
+   "image": "SORT_TYPE",
+   "line": 0,
+   "x": 37,
+   "y": 0,
+   "w": 11,
+   "h": 12,
+   "em": 12.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 2.312,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "적",
+   "file": "btn_ENEMYINFO_0_0.png",
+   "image": "btn_ENEMYINFO",
+   "line": 0,
+   "x": 36,
+   "y": 0,
+   "w": 10,
+   "h": 12,
+   "em": 12.0,
+   "gap_after": 8,
+   "space_after": true,
+   "stroke": 1.568,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "정",
+   "file": "btn_ENEMYINFO_0_1.png",
+   "image": "btn_ENEMYINFO",
+   "line": 0,
+   "x": 54,
+   "y": 0,
+   "w": 10,
+   "h": 12,
+   "em": 12.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 1.618,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "보",
+   "file": "btn_ENEMYINFO_0_2.png",
+   "image": "btn_ENEMYINFO",
+   "line": 0,
+   "x": 65,
+   "y": 1,
+   "w": 12,
+   "h": 9,
+   "em": 12.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 1.629,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "순",
+   "file": "btn_KG_Q_SORT_0_0.png",
+   "image": "btn_KG_Q_SORT",
+   "line": 0,
+   "x": 24,
+   "y": 0,
+   "w": 9,
+   "h": 10,
+   "em": 10.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 1.248,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "서",
+   "file": "btn_KG_Q_SORT_0_1.png",
+   "image": "btn_KG_Q_SORT",
+   "line": 0,
+   "x": 34,
+   "y": 0,
+   "w": 8,
+   "h": 9,
+   "em": 10.0,
+   "gap_after": 7,
+   "space_after": true,
+   "stroke": 1.387,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "변",
+   "file": "btn_KG_Q_SORT_0_2.png",
+   "image": "btn_KG_Q_SORT",
+   "line": 0,
+   "x": 49,
+   "y": 0,
+   "w": 9,
+   "h": 10,
+   "em": 10.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 1.473,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "경",
+   "file": "btn_KG_Q_SORT_0_3.png",
+   "image": "btn_KG_Q_SORT",
+   "line": 0,
+   "x": 59,
+   "y": 0,
+   "w": 8,
+   "h": 10,
+   "em": 10.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 1.417,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "캐",
+   "file": "SORT_CHARA_L_0_0.png",
+   "image": "SORT_CHARA_L",
+   "line": 0,
+   "x": 3,
+   "y": 0,
+   "w": 9,
+   "h": 9,
+   "em": 10.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 2.239,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "릭",
+   "file": "SORT_CHARA_L_0_1.png",
+   "image": "SORT_CHARA_L",
+   "line": 0,
+   "x": 13,
+   "y": 0,
+   "w": 8,
+   "h": 10,
+   "em": 10.0,
+   "gap_after": 2,
+   "space_after": false,
+   "stroke": 2.498,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "터",
+   "file": "SORT_CHARA_L_0_2.png",
+   "image": "SORT_CHARA_L",
+   "line": 0,
+   "x": 23,
+   "y": 0,
+   "w": 8,
+   "h": 9,
+   "em": 10.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 1.559,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "우",
+   "file": "btn_KG_p_BS1_0_0.png",
+   "image": "btn_KG_p_BS1",
+   "line": 0,
+   "x": 17,
+   "y": 0,
+   "w": 14,
+   "h": 15,
+   "em": 15.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 1.991,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "당",
+   "file": "btn_KG_p_BS1_0_1.png",
+   "image": "btn_KG_p_BS1",
+   "line": 0,
+   "x": 32,
+   "y": 0,
+   "w": 16,
+   "h": 12,
+   "em": 15.0,
+   "gap_after": 0,
+   "space_after": false,
+   "stroke": 2.135,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "탕",
+   "file": "btn_KG_p_BS1_0_2.png",
+   "image": "btn_KG_p_BS1",
+   "line": 0,
+   "x": 48,
+   "y": 0,
+   "w": 16,
+   "h": 14,
+   "em": 15.0,
+   "gap_after": 0,
+   "space_after": false,
+   "stroke": 2.371,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "탕",
+   "file": "btn_KG_p_BS1_0_3.png",
+   "image": "btn_KG_p_BS1",
+   "line": 0,
+   "x": 64,
+   "y": 0,
+   "w": 16,
+   "h": 15,
+   "em": 15.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 2.349,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "액",
+   "file": "btn_KG_p_BS1_1_0.png",
+   "image": "btn_KG_p_BS1",
+   "line": 1,
+   "x": 32,
+   "y": 0,
+   "w": 16,
+   "h": 18,
+   "em": 18.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 2.117,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "션",
+   "file": "btn_KG_p_BS1_1_1.png",
+   "image": "btn_KG_p_BS1",
+   "line": 1,
+   "x": 49,
+   "y": 0,
+   "w": 14,
+   "h": 18,
+   "em": 18.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 2.117,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "우",
+   "file": "LTIT_KG_BS0_0_0.png",
+   "image": "LTIT_KG_BS0",
+   "line": 0,
+   "x": 3,
+   "y": 0,
+   "w": 10,
+   "h": 9,
+   "em": 10.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 1.937,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "당",
+   "file": "LTIT_KG_BS0_0_1.png",
+   "image": "LTIT_KG_BS0",
+   "line": 0,
+   "x": 14,
+   "y": 0,
+   "w": 9,
+   "h": 10,
+   "em": 10.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 1.622,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "탕",
+   "file": "LTIT_KG_BS0_0_2.png",
+   "image": "LTIT_KG_BS0",
+   "line": 0,
+   "x": 24,
+   "y": 0,
+   "w": 9,
+   "h": 10,
+   "em": 10.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 2.37,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "탕",
+   "file": "LTIT_KG_BS0_0_3.png",
+   "image": "LTIT_KG_BS0",
+   "line": 0,
+   "x": 34,
+   "y": 0,
+   "w": 9,
+   "h": 10,
+   "em": 10.0,
+   "gap_after": 6,
+   "space_after": true,
+   "stroke": 2.37,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "기",
+   "file": "LTIT_KG_BS0_0_4.png",
+   "image": "LTIT_KG_BS0",
+   "line": 0,
+   "x": 49,
+   "y": 0,
+   "w": 8,
+   "h": 9,
+   "em": 10.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 1.427,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "본",
+   "file": "LTIT_KG_BS0_0_5.png",
+   "image": "LTIT_KG_BS0",
+   "line": 0,
+   "x": 58,
+   "y": 0,
+   "w": 10,
+   "h": 10,
+   "em": 10.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 2.396,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "군",
+   "file": "LTIT_KG_HENSEI_0_0.png",
+   "image": "LTIT_KG_HENSEI",
+   "line": 0,
+   "x": 3,
+   "y": 0,
+   "w": 10,
+   "h": 10,
+   "em": 10.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 1.812,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "단",
+   "file": "LTIT_KG_HENSEI_0_1.png",
+   "image": "LTIT_KG_HENSEI",
+   "line": 0,
+   "x": 14,
+   "y": 0,
+   "w": 9,
+   "h": 10,
+   "em": 10.0,
+   "gap_after": 6,
+   "space_after": true,
+   "stroke": 1.729,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "메",
+   "file": "LTIT_KG_HENSEI_0_2.png",
+   "image": "LTIT_KG_HENSEI",
+   "line": 0,
+   "x": 29,
+   "y": 0,
+   "w": 8,
+   "h": 9,
+   "em": 10.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 3.443,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "뉴",
+   "file": "LTIT_KG_HENSEI_0_3.png",
+   "image": "LTIT_KG_HENSEI",
+   "line": 0,
+   "x": 38,
+   "y": 0,
+   "w": 10,
+   "h": 9,
+   "em": 10.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 2.041,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "군",
+   "file": "btn_KG_p_HENSEI_0_0.png",
+   "image": "btn_KG_p_HENSEI",
+   "line": 0,
+   "x": 33,
+   "y": 0,
+   "w": 14,
+   "h": 16,
+   "em": 16.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 1.908,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "단",
+   "file": "btn_KG_p_HENSEI_0_1.png",
+   "image": "btn_KG_p_HENSEI",
+   "line": 0,
+   "x": 48,
+   "y": 1,
+   "w": 16,
+   "h": 15,
+   "em": 16.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 1.894,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "메",
+   "file": "btn_KG_p_HENSEI_1_0.png",
+   "image": "btn_KG_p_HENSEI",
+   "line": 1,
+   "x": 33,
+   "y": 0,
+   "w": 15,
+   "h": 11,
+   "em": 14.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 2.357,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "뉴",
+   "file": "btn_KG_p_HENSEI_1_1.png",
+   "image": "btn_KG_p_HENSEI",
+   "line": 1,
+   "x": 49,
+   "y": 0,
+   "w": 14,
+   "h": 14,
+   "em": 14.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 1.904,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "우",
+   "file": "btn_KG_p_BS0_0_0.png",
+   "image": "btn_KG_p_BS0",
+   "line": 0,
+   "x": 17,
+   "y": 0,
+   "w": 14,
+   "h": 15,
+   "em": 16.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 1.991,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "당",
+   "file": "btn_KG_p_BS0_0_1.png",
+   "image": "btn_KG_p_BS0",
+   "line": 0,
+   "x": 32,
+   "y": 0,
+   "w": 16,
+   "h": 16,
+   "em": 16.0,
+   "gap_after": 0,
+   "space_after": false,
+   "stroke": 2.117,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "탕",
+   "file": "btn_KG_p_BS0_0_2.png",
+   "image": "btn_KG_p_BS0",
+   "line": 0,
+   "x": 48,
+   "y": 0,
+   "w": 16,
+   "h": 14,
+   "em": 16.0,
+   "gap_after": 0,
+   "space_after": false,
+   "stroke": 2.378,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "탕",
+   "file": "btn_KG_p_BS0_0_3.png",
+   "image": "btn_KG_p_BS0",
+   "line": 0,
+   "x": 64,
+   "y": 0,
+   "w": 16,
+   "h": 15,
+   "em": 16.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 2.352,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "기",
+   "file": "btn_KG_p_BS0_1_0.png",
+   "image": "btn_KG_p_BS0",
+   "line": 1,
+   "x": 32,
+   "y": 5,
+   "w": 14,
+   "h": 10,
+   "em": 18.0,
+   "gap_after": 3,
+   "space_after": false,
+   "stroke": 1.785,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "본",
+   "file": "btn_KG_p_BS0_1_1.png",
+   "image": "btn_KG_p_BS0",
+   "line": 1,
+   "x": 49,
+   "y": 0,
+   "w": 14,
+   "h": 18,
+   "em": 18.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 2.118,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "우",
+   "file": "LTIT_KG_BS1_0_0.png",
+   "image": "LTIT_KG_BS1",
+   "line": 0,
+   "x": 3,
+   "y": 0,
+   "w": 10,
+   "h": 9,
+   "em": 10.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 1.913,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "당",
+   "file": "LTIT_KG_BS1_0_1.png",
+   "image": "LTIT_KG_BS1",
+   "line": 0,
+   "x": 14,
+   "y": 0,
+   "w": 9,
+   "h": 10,
+   "em": 10.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 1.685,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "탕",
+   "file": "LTIT_KG_BS1_0_2.png",
+   "image": "LTIT_KG_BS1",
+   "line": 0,
+   "x": 24,
+   "y": 0,
+   "w": 9,
+   "h": 10,
+   "em": 10.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 2.394,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "탕",
+   "file": "LTIT_KG_BS1_0_3.png",
+   "image": "LTIT_KG_BS1",
+   "line": 0,
+   "x": 34,
+   "y": 0,
+   "w": 9,
+   "h": 10,
+   "em": 10.0,
+   "gap_after": 5,
+   "space_after": true,
+   "stroke": 2.394,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "액",
+   "file": "LTIT_KG_BS1_0_4.png",
+   "image": "LTIT_KG_BS1",
+   "line": 0,
+   "x": 48,
+   "y": 0,
+   "w": 9,
+   "h": 10,
+   "em": 10.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 2.354,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "션",
+   "file": "LTIT_KG_BS1_0_5.png",
+   "image": "LTIT_KG_BS1",
+   "line": 0,
+   "x": 58,
+   "y": 0,
+   "w": 9,
+   "h": 10,
+   "em": 10.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 2.016,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "배",
+   "file": "btn_KG_BSTART_0_0.png",
+   "image": "btn_KG_BSTART",
+   "line": 0,
+   "x": 70,
+   "y": 0,
+   "w": 13,
+   "h": 14,
+   "em": 16.0,
+   "gap_after": 2,
+   "space_after": false,
+   "stroke": 2.995,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "틀",
+   "file": "btn_KG_BSTART_0_1.png",
+   "image": "btn_KG_BSTART",
+   "line": 0,
+   "x": 85,
+   "y": 1,
+   "w": 16,
+   "h": 15,
+   "em": 16.0,
+   "gap_after": 9,
+   "space_after": true,
+   "stroke": 5.063,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "시",
+   "file": "btn_KG_BSTART_0_2.png",
+   "image": "btn_KG_BSTART",
+   "line": 0,
+   "x": 110,
+   "y": 0,
+   "w": 13,
+   "h": 14,
+   "em": 16.0,
+   "gap_after": 3,
+   "space_after": false,
+   "stroke": 2.308,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "작",
+   "file": "btn_KG_BSTART_0_3.png",
+   "image": "btn_KG_BSTART",
+   "line": 0,
+   "x": 126,
+   "y": 0,
+   "w": 15,
+   "h": 16,
+   "em": 16.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 2.298,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "편",
+   "file": "btn_KG_Q_HENSEI_0_0.png",
+   "image": "btn_KG_Q_HENSEI",
+   "line": 0,
+   "x": 41,
+   "y": 0,
+   "w": 9,
+   "h": 10,
+   "em": 10.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 2.112,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "성",
+   "file": "btn_KG_Q_HENSEI_0_1.png",
+   "image": "btn_KG_Q_HENSEI",
+   "line": 0,
+   "x": 51,
+   "y": 0,
+   "w": 9,
+   "h": 10,
+   "em": 10.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 1.834,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "쿠",
+   "file": "btn_ML_KGRPG_0_0.png",
+   "image": "btn_ML_KGRPG",
+   "line": 0,
+   "x": 20,
+   "y": 0,
+   "w": 9,
+   "h": 9,
+   "em": 10.0,
+   "gap_after": 0,
+   "space_after": false,
+   "stroke": 1.483,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "파",
+   "file": "btn_ML_KGRPG_0_1.png",
+   "image": "btn_ML_KGRPG",
+   "line": 0,
+   "x": 29,
+   "y": 0,
+   "w": 10,
+   "h": 9,
+   "em": 10.0,
+   "gap_after": 0,
+   "space_after": false,
+   "stroke": 1.529,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "군",
+   "file": "btn_ML_KGRPG_0_2.png",
+   "image": "btn_ML_KGRPG",
+   "line": 0,
+   "x": 39,
+   "y": 0,
+   "w": 11,
+   "h": 10,
+   "em": 10.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 1.719,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "단",
+   "file": "btn_ML_KGRPG_0_3.png",
+   "image": "btn_ML_KGRPG",
+   "line": 0,
+   "x": 51,
+   "y": 0,
+   "w": 9,
+   "h": 10,
+   "em": 10.0,
+   "gap_after": 5,
+   "space_after": true,
+   "stroke": 1.588,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "R",
+   "file": "btn_ML_KGRPG_0_4.png",
+   "image": "btn_ML_KGRPG",
+   "line": 0,
+   "x": 65,
+   "y": 1,
+   "w": 7,
+   "h": 7,
+   "em": 10.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 1.594,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "P",
+   "file": "btn_ML_KGRPG_0_5.png",
+   "image": "btn_ML_KGRPG",
+   "line": 0,
+   "x": 73,
+   "y": 1,
+   "w": 6,
+   "h": 7,
+   "em": 10.0,
+   "gap_after": 0,
+   "space_after": false,
+   "stroke": 1.521,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "G",
+   "file": "btn_ML_KGRPG_0_6.png",
+   "image": "btn_ML_KGRPG",
+   "line": 0,
+   "x": 79,
+   "y": 0,
+   "w": 9,
+   "h": 8,
+   "em": 10.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 1.602,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "마",
+   "file": "btn_KG_MaL_0_0.png",
+   "image": "btn_KG_MaL",
+   "line": 0,
+   "x": 20,
+   "y": 0,
+   "w": 9,
+   "h": 9,
+   "em": 9.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 2.024,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "리",
+   "file": "btn_KG_MaL_0_1.png",
+   "image": "btn_KG_MaL",
+   "line": 0,
+   "x": 30,
+   "y": 0,
+   "w": 8,
+   "h": 9,
+   "em": 9.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 1.501,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "오",
+   "file": "btn_KG_MaL_0_2.png",
+   "image": "btn_KG_MaL",
+   "line": 0,
+   "x": 39,
+   "y": 0,
+   "w": 9,
+   "h": 8,
+   "em": 9.0,
+   "gap_after": 0,
+   "space_after": false,
+   "stroke": 1.64,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "&",
+   "file": "btn_KG_MaL_0_3.png",
+   "image": "btn_KG_MaL",
+   "line": 0,
+   "x": 48,
+   "y": 0,
+   "w": 8,
+   "h": 8,
+   "em": 9.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 1.994,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "루",
+   "file": "btn_KG_MaL_0_4.png",
+   "image": "btn_KG_MaL",
+   "line": 0,
+   "x": 57,
+   "y": 0,
+   "w": 10,
+   "h": 9,
+   "em": 9.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 2.883,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "이",
+   "file": "btn_KG_MaL_0_5.png",
+   "image": "btn_KG_MaL",
+   "line": 0,
+   "x": 68,
+   "y": 0,
+   "w": 8,
+   "h": 9,
+   "em": 9.0,
+   "gap_after": 2,
+   "space_after": false,
+   "stroke": 1.729,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "지",
+   "file": "btn_KG_MaL_0_6.png",
+   "image": "btn_KG_MaL",
+   "line": 0,
+   "x": 78,
+   "y": 0,
+   "w": 8,
+   "h": 9,
+   "em": 9.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 1.712,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "a",
+   "file": "btn_AMB_resist_0_0.png",
+   "image": "btn_AMB_resist",
+   "line": 0,
+   "x": 47,
+   "y": 6,
+   "w": 13,
+   "h": 12,
+   "em": 20.0,
+   "gap_after": 2,
+   "space_after": false,
+   "stroke": 2.752,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "m",
+   "file": "btn_AMB_resist_0_1.png",
+   "image": "btn_AMB_resist",
+   "line": 0,
+   "x": 62,
+   "y": 6,
+   "w": 16,
+   "h": 12,
+   "em": 20.0,
+   "gap_after": 3,
+   "space_after": false,
+   "stroke": 2.897,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "i",
+   "file": "btn_AMB_resist_0_2.png",
+   "image": "btn_AMB_resist",
+   "line": 0,
+   "x": 81,
+   "y": 2,
+   "w": 3,
+   "h": 15,
+   "em": 20.0,
+   "gap_after": 5,
+   "space_after": false,
+   "stroke": 1.947,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "i",
+   "file": "btn_AMB_resist_0_3.png",
+   "image": "btn_AMB_resist",
+   "line": 0,
+   "x": 89,
+   "y": 2,
+   "w": 3,
+   "h": 15,
+   "em": 20.0,
+   "gap_after": 3,
+   "space_after": false,
+   "stroke": 1.947,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "b",
+   "file": "btn_AMB_resist_0_4.png",
+   "image": "btn_AMB_resist",
+   "line": 0,
+   "x": 95,
+   "y": 2,
+   "w": 13,
+   "h": 16,
+   "em": 20.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 2.616,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "o",
+   "file": "btn_AMB_resist_0_5.png",
+   "image": "btn_AMB_resist",
+   "line": 0,
+   "x": 109,
+   "y": 6,
+   "w": 11,
+   "h": 12,
+   "em": 20.0,
+   "gap_after": 8,
+   "space_after": true,
+   "stroke": 2.579,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "등",
+   "file": "btn_AMB_resist_0_6.png",
+   "image": "btn_AMB_resist",
+   "line": 0,
+   "x": 128,
+   "y": 0,
+   "w": 19,
+   "h": 20,
+   "em": 20.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 2.17,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "록",
+   "file": "btn_AMB_resist_0_7.png",
+   "image": "btn_AMB_resist",
+   "line": 0,
+   "x": 148,
+   "y": 0,
+   "w": 19,
+   "h": 19,
+   "em": 20.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 2.262,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "그",
+   "file": "record_STORY_future_0_0.png",
+   "image": "record_STORY_future",
+   "line": 0,
+   "x": 2,
+   "y": 0,
+   "w": 10,
+   "h": 7,
+   "em": 9.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 1.531,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "리",
+   "file": "record_STORY_future_0_1.png",
+   "image": "record_STORY_future",
+   "line": 0,
+   "x": 13,
+   "y": 0,
+   "w": 8,
+   "h": 9,
+   "em": 9.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 1.487,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "고",
+   "file": "record_STORY_future_0_2.png",
+   "image": "record_STORY_future",
+   "line": 0,
+   "x": 22,
+   "y": 0,
+   "w": 10,
+   "h": 7,
+   "em": 9.0,
+   "gap_after": 1,
+   "space_after": false,
+   "stroke": 1.327,
+   "fmt": "LA4"
+  },
+  {
+   "ch": "…",
+   "file": "record_STORY_future_0_3.png",
+   "image": "record_STORY_future",
+   "line": 0,
+   "x": 33,
+   "y": 4,
+   "w": 8,
+   "h": 2,
+   "em": 9.0,
+   "gap_after": null,
+   "space_after": false,
+   "stroke": 1.112,
+   "fmt": "LA4"
+  }
+ ]
+}

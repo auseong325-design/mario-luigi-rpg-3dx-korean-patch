@@ -1,0 +1,65 @@
+{
+ "STbr_BP": {
+  "out": "BLyt/btl_RESLT_LYT_JP_ja/STbr_BP_00_JP_ja.png",
+  "how": "model",
+  "model_misses": 0,
+  "ink_x": [
+   1,
+   19
+  ]
+ },
+ "STbr_HIGE": {
+  "out": "BLyt/btl_RESLT_LYT_JP_ja/STbr_HIGE_00_JP_ja.png",
+  "how": "model",
+  "model_misses": 317,
+  "ink_x": [
+   1,
+   56
+  ]
+ },
+ "STbr_TSUNO": {
+  "out": "BLyt/btl_RESLT_LYT_JP_ja/STbr_TSUNO_00_JP_ja.png",
+  "how": "model",
+  "model_misses": 178,
+  "ink_x": [
+   1,
+   37
+  ]
+ },
+ "ST_BP": {
+  "out": "MLyt/MENU_ITEM_Lyt_JP_ja/ST_BP_00_JP_ja.png",
+  "how": "copy_sp",
+  "model_misses": 0,
+  "ink_x": [
+   0,
+   13
+  ]
+ },
+ "KJ_ST_GDD": {
+  "out": "KLyt/KJ_RESULT_JP_ja/KJ_ST_GDD_00_JP_ja.png",
+  "how": "copy_gdh",
+  "model_misses": 0,
+  "ink_x": [
+   0,
+   21
+  ]
+ },
+ "ST_HIGE": {
+  "out": "MLyt/MENU_ITEM_Lyt_JP_ja/ST_HIGE_00_JP_ja.png",
+  "how": "st_word",
+  "model_misses": 0,
+  "ink_x": [
+   0,
+   41
+  ]
+ },
+ "ST_TSUNO": {
+  "out": "MLyt/MENU_ITEM_Lyt_JP_ja/ST_TSUNO_00_JP_ja.png",
+  "how": "st_word",
+  "model_misses": 0,
+  "ink_x": [
+   1,
+   28
+  ]
+ }
+}

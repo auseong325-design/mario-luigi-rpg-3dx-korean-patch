@@ -1,0 +1,15 @@
+﻿#load,eff_toge
+start
+0,,,tilt,long
+0,250,koopa_castle_body,se,HBTL_SE_KC_PDEF_MOV
+0,492,loc_fire00,eff,jet_fire01a
+0,550,loc_fire01,eff,jet_fire01b
+0,550,loc_fire02,eff,jet_fire01b
+0,550,loc_fire03,eff,jet_fire01b
+0,550,loc_fire04,eff,jet_fire01b
+45,,koopa_castle_body,eff,koopa_castle_kemuri14a
+230,350,koopa_castle_body,se,HBTL_SE_KC_PDEF_KAMAE
+350,550,koopa_castle_body,se,HBTL_SE_KC_PDEF_ATTACK
+469,,,tilt,hb_ok
+550,,,tilt,hb_ok
+550,,koopa_castle_body,eff,koopa_castle_kemuri14a

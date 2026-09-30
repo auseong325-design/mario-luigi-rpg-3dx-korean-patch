@@ -805,6 +805,20 @@ def cmd_cmp3(mine, tk, dst):
 
 
 GRID_THR = 0.70      # 1DX 비트맵 덮임: B/15(0.73) 이상 = 획, A/15(0.67) 이하 = 틈(반투명 가장자리)
+# 수정 2라운드(리드: 격자 맞춤이 너무 가늘다, 획 비 0.55~0.92): 1DX 폰트의 가로획은 진한 1px 줄 + 반투명 줄이라
+# 0.70에서 자르면 1px만 남는다. 음절마다 아래 문턱값을 낮은 것부터 시험해, 격자 맞춤 결과의 먹 조각 수와
+# 속공간 수가 원래 크기 글자(0.70)와 같은 가장 낮은 값을 쓴다(획은 굵어지고 ㅁ·ㅂ·ㅇ 속은 막히지 않음).
+# 모양을 손으로 정한 글자(GLYPH_OVERRIDE의 thr·splice·row_groups)는 그 값 그대로.
+GRID_THRS = (0.45, 0.50, 0.55, 0.60, 0.65, 0.70)
+
+
+def _topology(B: np.ndarray) -> tuple[int, int]:
+    """(먹 조각 수(8방향), 속공간 수(4방향)) of a 0/1 glyph."""
+    import cv2
+    X = np.pad((np.asarray(B) >= 0.5).astype(np.uint8), 1)
+    n_ink, _ = cv2.connectedComponents(X, connectivity=8)
+    n_bg, _ = cv2.connectedComponents(1 - X, connectivity=4)
+    return n_ink - 1, n_bg - 1
 
 
 def _partition(A: np.ndarray, n: int, eps: float = 1e-3, eps_ink: float = 1e-2) -> list:
@@ -996,9 +1010,20 @@ def grid_glyph(ch: str, fname: str, em_t: float | None = None, widen=(True, Fals
     """1DX 비트맵 글자 한 자 -> 격자 맞춤 0/1 글자.
     em_t: 목표 한글 높이(px, 없으면 폰트 원래 크기). 글자의 먹 위·아래를 em 기준으로 정수 행에 맞춘다.
     열 수는 올림(세로획 2px + 틈 1px 가 들어갈 자리). widen=(세로획 2px, 가로획 2px).
-    돌려줌: (0/1 덮임, 먹 위 y(em 위 기준), 폰트, 조합 여부)."""
-    thr = GRID_THR if thr is None else thr
+    돌려줌: (0/1 덮임, 먹 위 y(em 위 기준), 폰트, 조합 여부).
+    thr 없음 = GRID_THRS 중 모양(조각·속공간 수)을 지키는 가장 낮은 문턱값."""
     ov = GLYPH_OVERRIDE.get((ch, fname), {})
+    if thr is None and not ({"thr", "splice", "row_groups"} & set(ov)):
+        ref = _source_binary(ch, fname, GRID_THR)
+        if ref is None:
+            return None
+        want = _topology(ref[0])
+        for t in GRID_THRS:
+            r = grid_glyph(ch, fname, em_t, widen, t, extra_cols)
+            if t == GRID_THR or _topology(r[0]) == want:
+                GRID_THR_USED[ch, fname, em_t] = t
+                return r
+    thr = GRID_THR if thr is None else thr
     thr = ov.get("thr", thr)
     extra_cols = ov.get("extra_cols", extra_cols)
     r = _source_binary(ch, fname, thr)
@@ -1026,6 +1051,9 @@ def grid_glyph(ch: str, fname: str, em_t: float | None = None, widen=(True, Fals
     dy = int(yy.min()) - PAD
     B = B[yy.min():yy.max() + 1, xx.min():xx.max() + 1]
     return B, t_top + dy + ov.get("dy", 0), f, comp
+
+
+GRID_THR_USED: dict = {}     # (음절, 폰트, em) -> 고른 문턱값 (make_grid 보고용)
 
 
 # 음절별 조정(격자 맞춤이 모양을 깨는 글자만): (음절, 폰트) -> {thr, extra_cols, extra_rows, row_groups, splice, dy}
@@ -1071,6 +1099,8 @@ def compose_grid(it, pieces, fname="font", em_t=12, widen=(True, False), gap=1, 
             cov, y, f, comp = r
             parts.append([cov, y, gap, True])
             srcs.append(ch + ("*" if comp else ""))
+            info.setdefault("thr", {})[ch] = GRID_THR_USED.get(
+                (ch, word_font, em_t), GLYPH_OVERRIDE.get((ch, word_font), {}).get("thr", GRID_THR))
         info["sources"].append(("grid:%s" % word_font, "".join(srcs)))
     if parts:
         parts[-1][2] = 0

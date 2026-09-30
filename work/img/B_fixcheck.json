@@ -1,55 +1,55 @@
 {
  "LABEL_KJRPG_00_JP_ja": {
   "jp_stroke": 2.178,
-  "ko_stroke": 2.052,
-  "ink_px": 539,
+  "ko_stroke": 2.114,
+  "ink_px": 549,
   "partial_px": 132,
   "ink_min_luma": 1.0,
-  "ratio": 0.942,
+  "ratio": 0.971,
   "hangul_partial_px": 0,
-  "hangul_stroke": 1.881,
+  "hangul_stroke": 1.967,
   "latin_stroke_ko": 2.437,
-  "hangul_vs_latin": 0.772,
+  "hangul_vs_latin": 0.807,
   "syllables": [
    {
     "x": [
      1,
-     12
+     13
     ],
     "partial": 0,
-    "ink": 61
+    "ink": 69
    },
    {
     "x": [
-     13,
-     24
+     14,
+     26
     ],
     "partial": 0,
-    "ink": 75
+    "ink": 71
    },
    {
     "x": [
-     25,
-     37
+     27,
+     39
     ],
     "partial": 0,
     "ink": 63
    },
    {
     "x": [
-     38,
-     47
+     40,
+     49
     ],
     "partial": 0,
-    "ink": 44
+    "ink": 48
    },
    {
     "x": [
-     48,
-     59
+     50,
+     61
     ],
     "partial": 0,
-    "ink": 56
+    "ink": 58
    }
   ],
   "sources": [
@@ -66,15 +66,15 @@
  },
  "LABEL_MLRPG_00_JP_ja": {
   "jp_stroke": 2.362,
-  "ko_stroke": 2.03,
-  "ink_px": 738,
+  "ko_stroke": 2.166,
+  "ink_px": 759,
   "partial_px": 213,
   "ink_min_luma": 1.0,
-  "ratio": 0.859,
+  "ratio": 0.917,
   "hangul_partial_px": 0,
-  "hangul_stroke": 1.776,
+  "hangul_stroke": 1.981,
   "latin_stroke_ko": 2.477,
-  "hangul_vs_latin": 0.717,
+  "hangul_vs_latin": 0.8,
   "syllables": [
    {
     "x": [
@@ -82,7 +82,7 @@
      12
     ],
     "partial": 0,
-    "ink": 66
+    "ink": 65
    },
    {
     "x": [
@@ -90,7 +90,7 @@
      23
     ],
     "partial": 0,
-    "ink": 54
+    "ink": 55
    },
    {
     "x": [
@@ -98,7 +98,7 @@
      36
     ],
     "partial": 0,
-    "ink": 51
+    "ink": 57
    },
    {
     "x": [
@@ -106,23 +106,23 @@
      59
     ],
     "partial": 0,
-    "ink": 65
+    "ink": 77
    },
    {
     "x": [
      60,
-     70
+     71
     ],
     "partial": 0,
-    "ink": 57
+    "ink": 59
    },
    {
     "x": [
-     71,
-     81
+     72,
+     83
     ],
     "partial": 0,
-    "ink": 58
+    "ink": 59
    }
   ],
   "sources": [
@@ -148,34 +148,34 @@
  },
  "SHOP_TIT_BADGE_00_JP_ja": {
   "jp_stroke": 1.988,
-  "ko_stroke": 1.82,
-  "ink_px": 210,
+  "ko_stroke": 1.887,
+  "ink_px": 222,
   "partial_px": 0,
   "ink_min_luma": 1.0,
-  "ratio": 0.915,
+  "ratio": 0.949,
   "hangul_partial_px": 0,
-  "hangul_stroke": 1.82,
+  "hangul_stroke": 1.887,
   "syllables": [
    {
     "x": [
      0,
-     11
+     12
     ],
     "partial": 0,
-    "ink": 77
+    "ink": 80
    },
    {
     "x": [
-     12,
-     23
+     13,
+     25
     ],
     "partial": 0,
-    "ink": 60
+    "ink": 69
    },
    {
     "x": [
-     28,
-     41
+     30,
+     43
     ],
     "partial": 0,
     "ink": 73
@@ -194,13 +194,13 @@
  },
  "SHOP_TIT_BLILOCK_00_JP_ja": {
   "jp_stroke": 2.337,
-  "ko_stroke": 1.669,
-  "ink_px": 297,
+  "ko_stroke": 1.816,
+  "ink_px": 321,
   "partial_px": 0,
   "ink_min_luma": 1.0,
-  "ratio": 0.714,
+  "ratio": 0.777,
   "hangul_partial_px": 0,
-  "hangul_stroke": 1.669,
+  "hangul_stroke": 1.816,
   "syllables": [
    {
     "x": [
@@ -208,7 +208,7 @@
      13
     ],
     "partial": 0,
-    "ink": 80
+    "ink": 81
    },
    {
     "x": [
@@ -216,7 +216,7 @@
      27
     ],
     "partial": 0,
-    "ink": 76
+    "ink": 87
    },
    {
     "x": [
@@ -224,7 +224,7 @@
      41
     ],
     "partial": 0,
-    "ink": 68
+    "ink": 80
    },
    {
     "x": [
@@ -248,13 +248,13 @@
  },
  "SHOP_TIT_BLOCK_00_JP_ja": {
   "jp_stroke": 2.134,
-  "ko_stroke": 1.564,
-  "ink_px": 299,
+  "ko_stroke": 1.802,
+  "ink_px": 324,
   "partial_px": 0,
   "ink_min_luma": 1.0,
-  "ratio": 0.733,
+  "ratio": 0.844,
   "hangul_partial_px": 0,
-  "hangul_stroke": 1.564,
+  "hangul_stroke": 1.802,
   "syllables": [
    {
     "x": [
@@ -262,7 +262,7 @@
      13
     ],
     "partial": 0,
-    "ink": 64
+    "ink": 70
    },
    {
     "x": [
@@ -278,7 +278,7 @@
      39
     ],
     "partial": 0,
-    "ink": 80
+    "ink": 81
    },
    {
     "x": [
@@ -286,7 +286,7 @@
      53
     ],
     "partial": 0,
-    "ink": 76
+    "ink": 94
    }
   ],
   "sources": [
@@ -298,13 +298,13 @@
  },
  "SHOP_TIT_BLODOG_00_JP_ja": {
   "jp_stroke": 2.337,
-  "ko_stroke": 1.642,
-  "ink_px": 273,
+  "ko_stroke": 1.671,
+  "ink_px": 276,
   "partial_px": 0,
   "ink_min_luma": 1.0,
-  "ratio": 0.703,
+  "ratio": 0.715,
   "hangul_partial_px": 0,
-  "hangul_stroke": 1.642,
+  "hangul_stroke": 1.671,
   "syllables": [
    {
     "x": [
@@ -312,7 +312,7 @@
      13
     ],
     "partial": 0,
-    "ink": 80
+    "ink": 81
    },
    {
     "x": [
@@ -320,7 +320,7 @@
      27
     ],
     "partial": 0,
-    "ink": 68
+    "ink": 70
    },
    {
     "x": [
@@ -352,13 +352,13 @@
  },
  "SHOP_TIT_EQUIP1_00_JP_ja": {
   "jp_stroke": 2.153,
-  "ko_stroke": 1.734,
-  "ink_px": 203,
+  "ko_stroke": 1.934,
+  "ink_px": 233,
   "partial_px": 0,
   "ink_min_luma": 1.0,
-  "ratio": 0.805,
+  "ratio": 0.898,
   "hangul_partial_px": 0,
-  "hangul_stroke": 1.734,
+  "hangul_stroke": 1.934,
   "syllables": [
    {
     "x": [
@@ -366,20 +366,20 @@
      14
     ],
     "partial": 0,
-    "ink": 70
+    "ink": 74
    },
    {
     "x": [
      15,
-     25
+     26
     ],
     "partial": 0,
-    "ink": 60
+    "ink": 86
    },
    {
     "x": [
-     30,
-     43
+     31,
+     44
     ],
     "partial": 0,
     "ink": 73
@@ -398,13 +398,13 @@
  },
  "SHOP_TIT_EQUIP2_00_JP_ja": {
   "jp_stroke": 2.216,
-  "ko_stroke": 1.896,
-  "ink_px": 374,
+  "ko_stroke": 2.036,
+  "ink_px": 398,
   "partial_px": 0,
   "ink_min_luma": 1.0,
-  "ratio": 0.856,
+  "ratio": 0.919,
   "hangul_partial_px": 0,
-  "hangul_stroke": 1.896,
+  "hangul_stroke": 2.036,
   "syllables": [
    {
     "x": [
@@ -412,7 +412,7 @@
      14
     ],
     "partial": 0,
-    "ink": 74
+    "ink": 77
    },
    {
     "x": [
@@ -428,7 +428,7 @@
      39
     ],
     "partial": 0,
-    "ink": 68
+    "ink": 80
    },
    {
     "x": [
@@ -436,7 +436,7 @@
      55
     ],
     "partial": 0,
-    "ink": 55
+    "ink": 63
    },
    {
     "x": [
@@ -452,7 +452,7 @@
      82
     ],
     "partial": 0,
-    "ink": 59
+    "ink": 60
    }
   ],
   "sources": [
@@ -468,13 +468,13 @@
  },
  "SHOP_TIT_EQUIP3_00_JP_ja": {
   "jp_stroke": 2.163,
-  "ko_stroke": 1.687,
-  "ink_px": 250,
+  "ko_stroke": 1.692,
+  "ink_px": 251,
   "partial_px": 0,
   "ink_min_luma": 1.0,
-  "ratio": 0.78,
+  "ratio": 0.782,
   "hangul_partial_px": 0,
-  "hangul_stroke": 1.687,
+  "hangul_stroke": 1.692,
   "syllables": [
    {
     "x": [
@@ -498,7 +498,7 @@
      35
     ],
     "partial": 0,
-    "ink": 58
+    "ink": 59
    },
    {
     "x": [
@@ -522,13 +522,13 @@
  },
  "SHOP_TIT_ITEM_00_JP_ja": {
   "jp_stroke": 2.157,
-  "ko_stroke": 1.724,
-  "ink_px": 279,
+  "ko_stroke": 1.881,
+  "ink_px": 298,
   "partial_px": 0,
   "ink_min_luma": 1.0,
-  "ratio": 0.799,
+  "ratio": 0.872,
   "hangul_partial_px": 0,
-  "hangul_stroke": 1.724,
+  "hangul_stroke": 1.881,
   "syllables": [
    {
     "x": [
@@ -536,23 +536,23 @@
      14
     ],
     "partial": 0,
-    "ink": 52
+    "ink": 72
    },
    {
     "x": [
      15,
-     25
+     26
     ],
     "partial": 0,
-    "ink": 57
+    "ink": 59
    },
    {
     "x": [
-     26,
+     27,
      38
     ],
     "partial": 0,
-    "ink": 97
+    "ink": 94
    },
    {
     "x": [
@@ -576,13 +576,13 @@
  },
  "btn_SLOT_00_JP_ja": {
   "jp_stroke": 2.301,
-  "ko_stroke": 1.267,
-  "ink_px": 131,
+  "ko_stroke": 1.307,
+  "ink_px": 135,
   "partial_px": 0,
   "ink_min_luma": 1.0,
-  "ratio": 0.551,
+  "ratio": 0.568,
   "hangul_partial_px": 0,
-  "hangul_stroke": 1.267,
+  "hangul_stroke": 1.307,
   "syllables": [
    {
     "x": [
@@ -590,7 +590,7 @@
      64
     ],
     "partial": 0,
-    "ink": 65
+    "ink": 69
    },
    {
     "x": [

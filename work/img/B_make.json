@@ -27,13 +27,21 @@
    true,
    true
   ],
-  "top": 4,
+  "thr": {
+   "마": 0.45,
+   "리": 0.65,
+   "오": 0.45,
+   "루": 0.45,
+   "이": 0.45,
+   "지": 0.45
+  },
+  "top": 5,
   "ink_rows": [
    4,
-   14
+   15
   ],
-  "width": 123,
-  "x_end": 124,
+  "width": 125,
+  "x_end": 126,
   "spans": [
    [
     1,
@@ -62,23 +70,23 @@
    ],
    [
     60,
-    70,
-    true
-   ],
-   [
     71,
-    81,
     true
    ],
    [
-    86,
-    124,
+    72,
+    83,
+    true
+   ],
+   [
+    88,
+    126,
     false
    ]
   ],
-  "stroke_px": 2.03,
+  "stroke_px": 2.166,
   "problems": [],
-  "out": "work\\img\\ko\\lyt\\MLyt\\MENU_FILE_SAVE_JP_ja\\LABEL_MLRPG_00_JP_ja.png",
+  "out": "work/img/ko/lyt/MLyt/MENU_FILE_SAVE_JP_ja/LABEL_MLRPG_00_JP_ja.png",
   "ko": "마리오&루이지 RPG3"
  },
  "NEW_DATA_text_00_JP_ja": {
@@ -278,6 +286,12 @@
    true,
    true
   ],
+  "thr": {
+   "럭": 0.65,
+   "셔": 0.7,
+   "리": 0.65,
+   "숍": 0.7
+  },
   "top": 1,
   "ink_rows": [
    1,
@@ -307,9 +321,9 @@
     true
    ]
   ],
-  "stroke_px": 1.687,
+  "stroke_px": 1.692,
   "problems": [],
-  "out": "work\\img\\ko\\lyt\\MLyt\\MENU_SHOP_Lyt_JP_ja\\SHOP_TIT_EQUIP3_00_JP_ja.png",
+  "out": "work/img/ko/lyt/MLyt/MENU_SHOP_Lyt_JP_ja/SHOP_TIT_EQUIP3_00_JP_ja.png",
   "ko": "럭셔리 숍"
  },
  "SHOP_TIT_BLODOG_00_JP_ja": {
@@ -330,6 +344,12 @@
    true,
    true
   ],
+  "thr": {
+   "블": 0.65,
+   "도": 0.45,
+   "그": 0.65,
+   "숍": 0.7
+  },
   "top": 1,
   "ink_rows": [
    1,
@@ -359,11 +379,11 @@
     true
    ]
   ],
-  "stroke_px": 1.642,
+  "stroke_px": 1.671,
   "problems": [
-   "획 두께 비 0.649"
+   "획 두께 비 0.66"
   ],
-  "out": "work\\img\\ko\\lyt\\MLyt\\MENU_SHOP_Lyt_JP_ja\\SHOP_TIT_BLODOG_00_JP_ja.png",
+  "out": "work/img/ko/lyt/MLyt/MENU_SHOP_Lyt_JP_ja/SHOP_TIT_BLODOG_00_JP_ja.png",
   "ko": "블도그 숍"
  },
  "btn_scratch_00_JP_ja": {
@@ -401,13 +421,18 @@
    true,
    true
   ],
+  "thr": {
+   "장": 0.65,
+   "비": 0.45,
+   "숍": 0.7
+  },
   "top": 1,
   "ink_rows": [
    1,
    14
   ],
-  "width": 42,
-  "x_end": 43,
+  "width": 43,
+  "x_end": 44,
   "spans": [
    [
     1,
@@ -416,20 +441,18 @@
    ],
    [
     15,
-    25,
+    26,
     true
    ],
    [
-    30,
-    43,
+    31,
+    44,
     true
    ]
   ],
-  "stroke_px": 1.734,
-  "problems": [
-   "획 두께 비 0.743"
-  ],
-  "out": "work\\img\\ko\\lyt\\MLyt\\MENU_SHOP_Lyt_JP_ja\\SHOP_TIT_EQUIP1_00_JP_ja.png",
+  "stroke_px": 1.934,
+  "problems": [],
+  "out": "work/img/ko/lyt/MLyt/MENU_SHOP_Lyt_JP_ja/SHOP_TIT_EQUIP1_00_JP_ja.png",
   "ko": "장비 숍"
  },
  "SHOP_TIT_BADGE_00_JP_ja": {
@@ -450,33 +473,38 @@
    true,
    true
   ],
+  "thr": {
+   "배": 0.5,
+   "지": 0.45,
+   "숍": 0.7
+  },
   "top": 1,
   "ink_rows": [
    1,
    13
   ],
-  "width": 41,
-  "x_end": 41,
+  "width": 43,
+  "x_end": 43,
   "spans": [
    [
     0,
-    11,
-    true
-   ],
-   [
     12,
-    23,
     true
    ],
    [
-    28,
-    41,
+    13,
+    25,
+    true
+   ],
+   [
+    30,
+    43,
     true
    ]
   ],
-  "stroke_px": 1.82,
+  "stroke_px": 1.887,
   "problems": [],
-  "out": "work\\img\\ko\\lyt\\MLyt\\MENU_SHOP_Lyt_JP_ja\\SHOP_TIT_BADGE_00_JP_ja.png",
+  "out": "work/img/ko/lyt/MLyt/MENU_SHOP_Lyt_JP_ja/SHOP_TIT_BADGE_00_JP_ja.png",
   "ko": "배지 숍"
  },
  "SHOP_TIT_BLOCK_00_JP_ja": {
@@ -493,6 +521,12 @@
    true,
    true
   ],
+  "thr": {
+   "상": 0.55,
+   "점": 0.7,
+   "블": 0.65,
+   "록": 0.45
+  },
   "top": 1,
   "ink_rows": [
    1,
@@ -522,11 +556,9 @@
     true
    ]
   ],
-  "stroke_px": 1.564,
-  "problems": [
-   "획 두께 비 0.733"
-  ],
-  "out": "work\\img\\ko\\lyt\\MLyt\\MENU_SHOP_Lyt_JP_ja\\SHOP_TIT_BLOCK_00_JP_ja.png",
+  "stroke_px": 1.802,
+  "problems": [],
+  "out": "work/img/ko/lyt/MLyt/MENU_SHOP_Lyt_JP_ja/SHOP_TIT_BLOCK_00_JP_ja.png",
   "ko": "상점블록"
  },
  "SHOP_TIT_BLILOCK_00_JP_ja": {
@@ -547,6 +579,12 @@
    true,
    true
   ],
+  "thr": {
+   "블": 0.65,
+   "로": 0.45,
+   "크": 0.45,
+   "숍": 0.7
+  },
   "top": 1,
   "ink_rows": [
    1,
@@ -576,11 +614,11 @@
     true
    ]
   ],
-  "stroke_px": 1.669,
+  "stroke_px": 1.816,
   "problems": [
-   "획 두께 비 0.659"
+   "획 두께 비 0.717"
   ],
-  "out": "work\\img\\ko\\lyt\\MLyt\\MENU_SHOP_Lyt_JP_ja\\SHOP_TIT_BLILOCK_00_JP_ja.png",
+  "out": "work/img/ko/lyt/MLyt/MENU_SHOP_Lyt_JP_ja/SHOP_TIT_BLILOCK_00_JP_ja.png",
   "ko": "블로크 숍"
  },
  "shop_top_acce_text_00_JP_ja": {
@@ -667,6 +705,14 @@
    true,
    true
   ],
+  "thr": {
+   "부": 0.45,
+   "티": 0.7,
+   "크": 0.45,
+   "키": 0.45,
+   "노": 0.45,
+   "다": 0.5
+  },
   "top": 2,
   "ink_rows": [
    2,
@@ -706,9 +752,9 @@
     true
    ]
   ],
-  "stroke_px": 1.896,
+  "stroke_px": 2.036,
   "problems": [],
-  "out": "work\\img\\ko\\lyt\\MLyt\\MENU_SHOP_Lyt_JP_ja\\SHOP_TIT_EQUIP2_00_JP_ja.png",
+  "out": "work/img/ko/lyt/MLyt/MENU_SHOP_Lyt_JP_ja/SHOP_TIT_EQUIP2_00_JP_ja.png",
   "ko": "부티크 키노다"
  },
  "shop_top_badge_text_00_JP_ja": {
@@ -818,6 +864,12 @@
    true,
    true
   ],
+  "thr": {
+   "아": 0.45,
+   "이": 0.45,
+   "템": 0.55,
+   "숍": 0.7
+  },
   "top": 1,
   "ink_rows": [
    1,
@@ -833,11 +885,11 @@
    ],
    [
     15,
-    25,
+    26,
     true
    ],
    [
-    26,
+    27,
     38,
     true
    ],
@@ -847,12 +899,12 @@
     true
    ]
   ],
-  "stroke_px": 1.724,
+  "stroke_px": 1.881,
   "problems": [
    "글자 높이 비 1.182",
-   "획 두께 비 0.676"
+   "획 두께 비 0.738"
   ],
-  "out": "work\\img\\ko\\lyt\\MLyt\\MENU_SHOP_Lyt_JP_ja\\SHOP_TIT_ITEM_00_JP_ja.png",
+  "out": "work/img/ko/lyt/MLyt/MENU_SHOP_Lyt_JP_ja/SHOP_TIT_ITEM_00_JP_ja.png",
   "ko": "아이템 숍"
  },
  "TOP_MENU_TEXT_3_00_JP_ja": {
@@ -1028,6 +1080,10 @@
    true,
    false
   ],
+  "thr": {
+   "슬": 0.55,
+   "롯": 0.7
+  },
   "top": 2,
   "ink_rows": [
    2,
@@ -1047,11 +1103,11 @@
     true
    ]
   ],
-  "stroke_px": 1.267,
+  "stroke_px": 1.307,
   "problems": [
-   "획 두께 비 0.505"
+   "획 두께 비 0.521"
   ],
-  "out": "work\\img\\ko\\lyt\\MLyt\\MENU_FILE_LOAD_JP_ja\\btn_SLOT_00_JP_ja.png",
+  "out": "work/img/ko/lyt/MLyt/MENU_FILE_LOAD_JP_ja/btn_SLOT_00_JP_ja.png",
   "ko": "슬롯"
  },
  "btn_DERACE_00_JP_ja": {
@@ -1111,48 +1167,55 @@
    true,
    true
   ],
+  "thr": {
+   "쿠": 0.45,
+   "파": 0.45,
+   "주": 0.65,
+   "니": 0.45,
+   "어": 0.45
+  },
   "top": 5,
   "ink_rows": [
    5,
    15
   ],
-  "width": 94,
-  "x_end": 95,
+  "width": 96,
+  "x_end": 97,
   "spans": [
    [
     1,
-    12,
-    true
-   ],
-   [
     13,
-    24,
     true
    ],
    [
-    25,
-    37,
+    14,
+    26,
     true
    ],
    [
-    38,
-    47,
+    27,
+    39,
     true
    ],
    [
-    48,
-    59,
+    40,
+    49,
     true
    ],
    [
-    64,
-    95,
+    50,
+    61,
+    true
+   ],
+   [
+    66,
+    97,
     false
    ]
   ],
-  "stroke_px": 2.052,
+  "stroke_px": 2.114,
   "problems": [],
-  "out": "work\\img\\ko\\lyt\\MLyt\\MENU_FILE_LOAD_JP_ja\\LABEL_KJRPG_00_JP_ja.png",
+  "out": "work/img/ko/lyt/MLyt/MENU_FILE_LOAD_JP_ja/LABEL_KJRPG_00_JP_ja.png",
   "ko": "쿠파주니어 RPG"
  },
  "btn_FERASE_00_JP_ja": {

@@ -30,7 +30,7 @@ Kiro 사용량 한도로 멈춘 작업을 Claude 클라우드 세션 크레딧�
 
 ## 남은 일
 1. (완료) 로고 설치. 나중에 다듬을 여지: `review_items` 마지막 항목.
-2. 사용자: Azahar에서 전체 패치를 시험한다. 볼 곳은 `work/lead_state.json`의 `next`와 `review_items`(게임 화면 확인 18개)에 적어 두었다.
+2. 사용자: Azahar에서 전체 패치를 시험한다. 볼 곳은 `work/lead_state.json`의 `next`와 `review_items`(게임 화면 확인 19개)에 적어 두었다.
 3. 게임 화면을 보고 결정할 것: 설정 「후리가나 표시」 이름(`font_phase`), `review_items`의 말투·선택지·폭 확인.
 
 ## 하지 말 것

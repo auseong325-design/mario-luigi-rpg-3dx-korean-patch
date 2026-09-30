@@ -504,35 +504,33 @@
    [
     [
      "배틀",
-     "same_word"
+     "font:font"
     ],
     [
      "시작",
-     "same_word"
+     "font:font"
     ]
    ]
   ],
   "levels": [
-   "same_word"
+   "font"
   ],
   "fit": {
    "hscale": 1.0,
    "tracking": 0.0,
    "overflow": false,
-   "width": 71.5,
+   "width": 67.5,
    "lines": 1
   },
-  "em": 16.0,
+  "em": 15.0,
   "weight": {
    "target_px": 2.937,
-   "glyph_px": 2.651,
-   "achieved_px": 2.882,
-   "ratio": 0.981
+   "glyph_px": 2.535,
+   "achieved_px": 2.854,
+   "ratio": 0.972
   },
   "problems": [],
-  "cfg": {
-   "source": "auto"
-  }
+  "cfg": {}
  },
  "btn_KJ_STOPGAME_n_00_JP_ja": {
   "sources": [

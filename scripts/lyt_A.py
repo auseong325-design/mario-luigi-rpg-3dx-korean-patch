@@ -248,8 +248,9 @@ def cmd_try():
 # per-texture overrides: text (default plan ko), source, em, weight, hscale, tracking,
 # keep_rows=(y0,y1) rows copied from the original (e.g. the 'LV' line), lines
 CFG: dict[str, dict] = {
-    # kind 가 that keep the 1DX picture of the same word
-    "btn_KJ_BSTART_00_JP_ja": {"source": "auto"},
+    # kind 가 that keeps the 1DX picture of the same word. (btn_KJ_BSTART 「배틀 시작」 did too until the
+    # wave-3 review: the 1DX picture is em 11, and at em 16 the counters of 틀 and 배 filled in; it now
+    # uses the family font like the other kj_menu_btn, stroke 0.97 of the Japanese.)
     # 「LV」 line: original pixels (rows 14-27), only 「군단」 is new
     "PARTY_LV_00_JP_ja": {"source": "auto", "keep_rows": [14, 28]},
     # one syllable measures too bold (README 6: weight = JP stroke x 0.8)

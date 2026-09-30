@@ -85,3 +85,7 @@ POWダウン	POW 다운	term	DS	BData__mfset_AItmE2#16	스페셜 어택 효과·
 アッチコッチ	아무 데나	other	coined	BMsg/b_sys#1609(SpAtk_07_0)	설명 문장에서는 맞춤법대로 띄어 쓴다. 공격 이름은 DS대로 '아무데나창문'(붙여 씀). '여기저기' 뜻이면 문맥대로(b_sys#910)
 
 アタック	어택	term	DS	BDataMiniGame__mfset_MesDat_MiniGame#5	스페셜 어택을 줄여 부를 때 '어택'. 次のアタック처럼 일반 공격을 뜻하면 '공격'(Item#463·#480, DS BadgeEffectE '다음 공격이 N배로'). 퀴즈의 パンチアタック/ファイアアタック은 DS대로 '~ 공격'
+うちけし	스킬 지우기	ability	official	1DX-KR:BMsg.dat:k_sys#48	RPG1 DX 한국판 리더 액션명(k_sys#48·#316·#641, 버튼 btn_KGLA_TX_n01). 동사 うちけす는 '(스킬을) 지우다' [gl_kj; 리드 2026-09-30, 예전 신조어 '무효화']
+ころび	꽈당	term	official	1DX-KR:BMsg.dat:b_sys#341	RPG1 DX 한국판 상태 이상명(b_sys#341, Item#430 '독/어질어질/꽈당', 스프라이트 bui_sys_badstatname) [gl_attacks; 리드 2026-09-30, 예전 신조어 '넘어짐']
+サンダー	선더	ability	official	1DX-KR:BMsg.dat:k_sys#95	RPG1 DX 한국판 리더 액션명(k_sys#95·#349, 버튼 btn_KGLA_TX_n05; '선더 브러스'도 같은 표기) [gl_kj; 리드 2026-09-30, 예전 '썬더']
+ドッスンおとし	쿵쿵 떨어트리기	ability	official	1DX-KR:BMsg.dat:k_sys#123	RPG1 DX 한국판 리더 액션명(k_sys#123·#847, 설명 #693 '쿵쿵을 떨어트려', 버튼 btn_KGLA_TX_n08) [gl_kj; 리드 2026-09-30, 예전 신조어 '쿵쿵 떨구기']

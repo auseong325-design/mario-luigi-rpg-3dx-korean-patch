@@ -203,7 +203,7 @@
    "textures_replaced": 95,
    "slots_changed": 10,
    "size_orig": 3401160,
-   "size_new": 3384348
+   "size_new": 3384452
   },
   "MLyt": {
    "textures_replaced": 115,
@@ -229,6 +229,17 @@
    "MLyt/MENU_SET_JP_ja/timg/btn_DECISION_00_JP_ja.bflim",
    "MLyt/MENU_BADGE_JP_ja/timg/btn_DECISION_00_JP_ja.bflim"
   ],
+  "a7e69fc2a35c1991": [
+   "BLyt/btl_GUIDE_JP_ja/timg/LTIT_GUIDE_3_00_JP_ja.bflim",
+   "MLyt/MENU_GUIDE_JP_ja/timg/LTIT_GUIDE_3_00_JP_ja.bflim"
+  ],
+  "97624f2da2c26d8c": [
+   "BLyt/btl_GUIDE_JP_ja/timg/LTIT_GUIDE_4_00_JP_ja.bflim",
+   "MLyt/MENU_GUIDE_JP_ja/timg/LTIT_GUIDE_4_00_JP_ja.bflim"
+  ],
+  "0881888e17206662": [
+   "BLyt/btl_GUIDE_JP_ja/timg/LTIT_btl_HINT_00_JP_ja.bflim"
+  ],
   "5e77d4a373b068fc": [
    "BLyt/btl_GUIDE_JP_ja/timg/btn_GUIDE_EXAMPLE_00_JP_ja.bflim",
    "KLyt/KJ_RESULT_JP_ja/timg/btn_GUIDE_EXAMPLE_00_JP_ja.bflim",
@@ -247,27 +258,8 @@
    "MLyt/MENU_GUIDE_JP_ja/timg/btn_GUIDE_PRACTICE_00_JP_ja.bflim",
    "SLyt/COLISEUM_JP_ja/timg/btn_GUIDE_PRACTICE_00_JP_ja.bflim"
   ],
-  "0881888e17206662": [
-   "BLyt/btl_GUIDE_JP_ja/timg/LTIT_btl_HINT_00_JP_ja.bflim"
-  ],
-  "a7e69fc2a35c1991": [
-   "BLyt/btl_GUIDE_JP_ja/timg/LTIT_GUIDE_3_00_JP_ja.bflim",
-   "MLyt/MENU_GUIDE_JP_ja/timg/LTIT_GUIDE_3_00_JP_ja.bflim"
-  ],
-  "97624f2da2c26d8c": [
-   "BLyt/btl_GUIDE_JP_ja/timg/LTIT_GUIDE_4_00_JP_ja.bflim",
-   "MLyt/MENU_GUIDE_JP_ja/timg/LTIT_GUIDE_4_00_JP_ja.bflim"
-  ],
   "f37bd8b3dd5cb1a4": [
    "BLyt/btl_MAIN_JP_ja/timg/btn_USE_00_JP_ja.bflim"
-  ],
-  "605699c01e3eb4f4": [
-   "BLyt/btl_RESLT_LYT_JP_ja/timg/btn_cancel_00_JP_ja.bflim",
-   "MLyt/MENU_SHOP_Lyt_JP_ja/timg/btn_cancel_00_JP_ja.bflim",
-   "SLyt/MINIGAME_JP_ja/timg/btn_quit_00_JP_ja.bflim"
-  ],
-  "b3999664427df7c8": [
-   "BLyt/btl_RESLT_LYT_JP_ja/timg/btn_DECISION2_00_JP_ja.bflim"
   ],
   "fe0be0673a4e582e": [
    "BLyt/btl_RESLT_LYT_JP_ja/timg/RANK_NAME_BOOMERANG_00_JP_ja.bflim",
@@ -322,11 +314,25 @@
   "21dfc40e4742bb0a": [
    "BLyt/btl_RESLT_LYT_JP_ja/timg/STbr_TSUNO_00_JP_ja.bflim"
   ],
+  "b3999664427df7c8": [
+   "BLyt/btl_RESLT_LYT_JP_ja/timg/btn_DECISION2_00_JP_ja.bflim"
+  ],
+  "605699c01e3eb4f4": [
+   "BLyt/btl_RESLT_LYT_JP_ja/timg/btn_cancel_00_JP_ja.bflim",
+   "MLyt/MENU_SHOP_Lyt_JP_ja/timg/btn_cancel_00_JP_ja.bflim",
+   "SLyt/MINIGAME_JP_ja/timg/btn_quit_00_JP_ja.bflim"
+  ],
   "241a94cbf50fd4fa": [
    "FLyt/FLD_ACT_JP_ja/timg/btn_F_MAP_CLOSE_00_JP_ja.bflim"
   ],
   "94f2665ee227c5d0": [
    "FLyt/FLD_ACT_JP_ja/timg/btn_F_MAP_OPEN_00_JP_ja.bflim"
+  ],
+  "a35f50de87867c0b": [
+   "KLyt/KJ_BATTLEn_JP_ja/timg/KJ_LTIT_GUIDE_3_00_JP_ja.bflim"
+  ],
+  "b7b82bb9b2880137": [
+   "KLyt/KJ_BATTLEn_JP_ja/timg/KJ_LTIT_GUIDE_4_00_JP_ja.bflim"
   ],
   "5b043fa54ee769a8": [
    "KLyt/KJ_BATTLEn_JP_ja/timg/btn_KJ_ESC_00_JP_ja.bflim"
@@ -399,12 +405,6 @@
   ],
   "933a061c6382ff82": [
    "KLyt/KJ_BATTLEn_JP_ja/timg/btn_KJ_LA_26_00_JP_ja.bflim"
-  ],
-  "a35f50de87867c0b": [
-   "KLyt/KJ_BATTLEn_JP_ja/timg/KJ_LTIT_GUIDE_3_00_JP_ja.bflim"
-  ],
-  "b7b82bb9b2880137": [
-   "KLyt/KJ_BATTLEn_JP_ja/timg/KJ_LTIT_GUIDE_4_00_JP_ja.bflim"
   ],
   "f1fbf7ab57becbd2": [
    "KLyt/KJ_GUIDE_JP_ja/timg/btn_text_KJ_GUIDE_pnl_1_00_JP_ja.bflim"
@@ -501,6 +501,12 @@
    "KLyt/KJ_DIVORCE_JP_ja/timg/btn_YES1_00_JP_ja.bflim",
    "MLyt/MENU_FILE_LOAD_JP_ja/timg/btn_YES1_00_JP_ja.bflim"
   ],
+  "e2b4dde4d5f0a4f8": [
+   "KLyt/KJ_RECORD_JP_ja/timg/LTIT_KJ_RECORD_1_00_JP_ja.bflim"
+  ],
+  "48155f411e09273a": [
+   "KLyt/KJ_RECORD_JP_ja/timg/LTIT_KJ_RECORD_2_00_JP_ja.bflim"
+  ],
   "64387fb5c09a99b6": [
    "KLyt/KJ_RECORD_JP_ja/timg/btn_p_CHALLENGE_00_JP_ja.bflim"
   ],
@@ -512,12 +518,6 @@
   ],
   "ce32d0c1e6bc3bf7": [
    "KLyt/KJ_RECORD_JP_ja/timg/btn_p_MONSTER_00_JP_ja.bflim"
-  ],
-  "e2b4dde4d5f0a4f8": [
-   "KLyt/KJ_RECORD_JP_ja/timg/LTIT_KJ_RECORD_1_00_JP_ja.bflim"
-  ],
-  "48155f411e09273a": [
-   "KLyt/KJ_RECORD_JP_ja/timg/LTIT_KJ_RECORD_2_00_JP_ja.bflim"
   ],
   "2e1623ecf041d105": [
    "KLyt/KJ_RESULT_JP_ja/timg/KJ_ST_GDD_00_JP_ja.bflim",
@@ -542,6 +542,21 @@
    "KLyt/KJ_RESULT_JP_ja/timg/PARTY_LV_00_JP_ja.bflim",
    "KLyt/KJ_PARTY_JP_ja/timg/PARTY_LV_00_JP_ja.bflim",
    "MLyt/MENU_FILE_LOAD_JP_ja/timg/PARTY_LV_00_JP_ja.bflim"
+  ],
+  "f5d1e3778d2cb1c0": [
+   "MLyt/MENU_FILE_LOAD_JP_ja/timg/LABEL_KJRPG_00_JP_ja.bflim"
+  ],
+  "2f9fc9246964662c": [
+   "MLyt/MENU_FILE_LOAD_JP_ja/timg/LOAD_GAME_IMG_KJ_L_00_JP_ja.bflim"
+  ],
+  "8e5d9345c7b60f54": [
+   "MLyt/MENU_FILE_LOAD_JP_ja/timg/LOAD_GAME_IMG_KJ_R_00_JP_ja.bflim"
+  ],
+  "f442bea9dc7dc82f": [
+   "MLyt/MENU_FILE_LOAD_JP_ja/timg/LOAD_GAME_IMG_ML_L_00_JP_ja.bflim"
+  ],
+  "09e121759cade671": [
+   "MLyt/MENU_FILE_LOAD_JP_ja/timg/LOAD_GAME_IMG_ML_R_00_JP_ja.bflim"
   ],
   "389918c1e7d39bcb": [
    "MLyt/MENU_FILE_LOAD_JP_ja/timg/btn_CANCEL2_00_JP_ja.bflim"
@@ -573,20 +588,13 @@
   "0e4e6f4b952e3409": [
    "MLyt/MENU_FILE_LOAD_JP_ja/timg/btn_START_00_JP_ja.bflim"
   ],
-  "f5d1e3778d2cb1c0": [
-   "MLyt/MENU_FILE_LOAD_JP_ja/timg/LABEL_KJRPG_00_JP_ja.bflim"
+  "ee60138af744bf34": [
+   "MLyt/MENU_FILE_SAVE_JP_ja/timg/LABEL_MLRPG_00_JP_ja.bflim",
+   "MLyt/MENU_FILE_LOAD_JP_ja/timg/LABEL_MLRPG_00_JP_ja.bflim"
   ],
-  "2f9fc9246964662c": [
-   "MLyt/MENU_FILE_LOAD_JP_ja/timg/LOAD_GAME_IMG_KJ_L_00_JP_ja.bflim"
-  ],
-  "8e5d9345c7b60f54": [
-   "MLyt/MENU_FILE_LOAD_JP_ja/timg/LOAD_GAME_IMG_KJ_R_00_JP_ja.bflim"
-  ],
-  "f442bea9dc7dc82f": [
-   "MLyt/MENU_FILE_LOAD_JP_ja/timg/LOAD_GAME_IMG_ML_L_00_JP_ja.bflim"
-  ],
-  "09e121759cade671": [
-   "MLyt/MENU_FILE_LOAD_JP_ja/timg/LOAD_GAME_IMG_ML_R_00_JP_ja.bflim"
+  "181266ad11139988": [
+   "MLyt/MENU_FILE_SAVE_JP_ja/timg/NEW_DATA_text_00_JP_ja.bflim",
+   "MLyt/MENU_FILE_LOAD_JP_ja/timg/NEW_DATA_text_00_JP_ja.bflim"
   ],
   "3f98445e3685dfa0": [
    "MLyt/MENU_FILE_SAVE_JP_ja/timg/btn_CONTINUE_00_JP_ja.bflim"
@@ -597,13 +605,11 @@
   "4770ebe41d04acaa": [
    "MLyt/MENU_FILE_SAVE_JP_ja/timg/btn_SAVE_text_00_JP_ja.bflim"
   ],
-  "ee60138af744bf34": [
-   "MLyt/MENU_FILE_SAVE_JP_ja/timg/LABEL_MLRPG_00_JP_ja.bflim",
-   "MLyt/MENU_FILE_LOAD_JP_ja/timg/LABEL_MLRPG_00_JP_ja.bflim"
+  "89e08cbffd6cac9c": [
+   "MLyt/MENU_GUIDE_JP_ja/timg/LTIT_guide_1_00_JP_ja.bflim"
   ],
-  "181266ad11139988": [
-   "MLyt/MENU_FILE_SAVE_JP_ja/timg/NEW_DATA_text_00_JP_ja.bflim",
-   "MLyt/MENU_FILE_LOAD_JP_ja/timg/NEW_DATA_text_00_JP_ja.bflim"
+  "63eb606336d625b2": [
+   "MLyt/MENU_GUIDE_JP_ja/timg/LTIT_guide_2_00_JP_ja.bflim"
   ],
   "464561aaab9727d1": [
    "MLyt/MENU_GUIDE_JP_ja/timg/btn_text_guide_pnl_1_00_JP_ja.bflim"
@@ -616,12 +622,6 @@
   ],
   "a1b386a19dbbcb2a": [
    "MLyt/MENU_GUIDE_JP_ja/timg/btn_text_guide_pnl_4_00_JP_ja.bflim"
-  ],
-  "89e08cbffd6cac9c": [
-   "MLyt/MENU_GUIDE_JP_ja/timg/LTIT_guide_1_00_JP_ja.bflim"
-  ],
-  "63eb606336d625b2": [
-   "MLyt/MENU_GUIDE_JP_ja/timg/LTIT_guide_2_00_JP_ja.bflim"
   ],
   "224a4b9266453e62": [
    "MLyt/MENU_ITEM_Lyt_JP_ja/timg/LTIT_ITEM_00_JP_ja.bflim",
@@ -666,21 +666,6 @@
   "a189d600253b6e9c": [
    "MLyt/MENU_MAIN_JP_ja/timg/TOP_MENU_TEXT_6_00_JP_ja.bflim"
   ],
-  "a5acc9c31f8ca826": [
-   "MLyt/MENU_RECORD_JP_ja/timg/btn_p_ATTACK_00_JP_ja.bflim"
-  ],
-  "0f78da6aa0ccb88d": [
-   "MLyt/MENU_RECORD_JP_ja/timg/btn_p_BLOCK_00_JP_ja.bflim"
-  ],
-  "2f1fce38f9871c9f": [
-   "MLyt/MENU_RECORD_JP_ja/timg/btn_p_COLISEUM_00_JP_ja.bflim"
-  ],
-  "04f8ba5b3f319f95": [
-   "MLyt/MENU_RECORD_JP_ja/timg/btn_p_KUBOMI_00_JP_ja.bflim"
-  ],
-  "89a5b23835190870": [
-   "MLyt/MENU_RECORD_JP_ja/timg/btn_p_MINIGAME_00_JP_ja.bflim"
-  ],
   "d52248a10b88fafa": [
    "MLyt/MENU_RECORD_JP_ja/timg/LTIT_BSCORE_00_JP_ja.bflim",
    "SLyt/MINIGAME_JP_ja/timg/LTIT_BSCORE_00_JP_ja.bflim"
@@ -704,26 +689,26 @@
   "1dcafbfd1009231b": [
    "MLyt/MENU_RECORD_JP_ja/timg/LTIT_record_MINIGAME_00_JP_ja.bflim"
   ],
+  "a5acc9c31f8ca826": [
+   "MLyt/MENU_RECORD_JP_ja/timg/btn_p_ATTACK_00_JP_ja.bflim"
+  ],
+  "0f78da6aa0ccb88d": [
+   "MLyt/MENU_RECORD_JP_ja/timg/btn_p_BLOCK_00_JP_ja.bflim"
+  ],
+  "2f1fce38f9871c9f": [
+   "MLyt/MENU_RECORD_JP_ja/timg/btn_p_COLISEUM_00_JP_ja.bflim"
+  ],
+  "04f8ba5b3f319f95": [
+   "MLyt/MENU_RECORD_JP_ja/timg/btn_p_KUBOMI_00_JP_ja.bflim"
+  ],
+  "89a5b23835190870": [
+   "MLyt/MENU_RECORD_JP_ja/timg/btn_p_MINIGAME_00_JP_ja.bflim"
+  ],
   "e7018d2c395157fd": [
    "MLyt/MENU_SET_JP_ja/timg/tab_SET_OFF2_00_JP_ja.bflim"
   ],
   "1e332fae8c9faf9e": [
    "MLyt/MENU_SET_JP_ja/timg/tab_SET_ON2_00_JP_ja.bflim"
-  ],
-  "34c4a20a8b670764": [
-   "MLyt/MENU_SHOP_Lyt_JP_ja/timg/btn_buy_00_JP_ja.bflim"
-  ],
-  "09eb03a897463cd8": [
-   "MLyt/MENU_SHOP_Lyt_JP_ja/timg/btn_equip_00_JP_ja.bflim"
-  ],
-  "8c3e83eae4da42e9": [
-   "MLyt/MENU_SHOP_Lyt_JP_ja/timg/btn_later_00_JP_ja.bflim"
-  ],
-  "6d3f2e1c01ca7829": [
-   "MLyt/MENU_SHOP_Lyt_JP_ja/timg/btn_scratch_00_JP_ja.bflim"
-  ],
-  "be8dd7733302c633": [
-   "MLyt/MENU_SHOP_Lyt_JP_ja/timg/btn_sell_00_JP_ja.bflim"
   ],
   "ab31a1de0e55f968": [
    "MLyt/MENU_SHOP_Lyt_JP_ja/timg/LTIT_BADGE_00_JP_ja.bflim"
@@ -763,6 +748,21 @@
   "eea7f2c3a046867c": [
    "MLyt/MENU_SHOP_Lyt_JP_ja/timg/SHOP_TIT_ITEM_00_JP_ja.bflim"
   ],
+  "34c4a20a8b670764": [
+   "MLyt/MENU_SHOP_Lyt_JP_ja/timg/btn_buy_00_JP_ja.bflim"
+  ],
+  "09eb03a897463cd8": [
+   "MLyt/MENU_SHOP_Lyt_JP_ja/timg/btn_equip_00_JP_ja.bflim"
+  ],
+  "8c3e83eae4da42e9": [
+   "MLyt/MENU_SHOP_Lyt_JP_ja/timg/btn_later_00_JP_ja.bflim"
+  ],
+  "6d3f2e1c01ca7829": [
+   "MLyt/MENU_SHOP_Lyt_JP_ja/timg/btn_scratch_00_JP_ja.bflim"
+  ],
+  "be8dd7733302c633": [
+   "MLyt/MENU_SHOP_Lyt_JP_ja/timg/btn_sell_00_JP_ja.bflim"
+  ],
   "93d08f80e09431d1": [
    "MLyt/MENU_SHOP_Lyt_JP_ja/timg/shop_top_acce_text_00_JP_ja.bflim"
   ],
@@ -790,12 +790,6 @@
   "ca3c6640b94c5a17": [
    "MLyt/MENU_STATUS_JP_ja/timg/STATUS_RANKBONUS_00_JP_ja.bflim"
   ],
-  "60d0489c521bc531": [
-   "SLyt/COLISEUM_JP_ja/timg/btn_MGAME_pnl1_00_jp_ja.bflim"
-  ],
-  "b3ebac09fb8f4114": [
-   "SLyt/COLISEUM_JP_ja/timg/btn_MGAME_pnl2_00_jp_ja.bflim"
-  ],
   "1b2e59c352c70a77": [
    "SLyt/COLISEUM_JP_ja/timg/GET_PRIZE_00_JP_ja.bflim",
    "SLyt/MINIGAME_JP_ja/timg/GET_PRIZE_00_JP_ja.bflim"
@@ -812,23 +806,29 @@
   "963275eba6e96ecf": [
    "SLyt/COLISEUM_JP_ja/timg/NEW_BEST_TURN_00_JP_ja.bflim"
   ],
-  "bd6cf9f888f10989": [
-   "SLyt/COLISEUM_JP_ja/timg/pnl_ATCMINIGAME_VCONDITION_00_jp_ja.bflim"
-  ],
   "1eafad75307a3de9": [
    "SLyt/COLISEUM_JP_ja/timg/RECOMMEND_LV_00_JP_ja.bflim"
   ],
-  "2afb8f0eaffac8be": [
-   "SLyt/MINIGAME_JP_ja/timg/btn_MINIGAME_START_00_JP_ja.bflim"
+  "60d0489c521bc531": [
+   "SLyt/COLISEUM_JP_ja/timg/btn_MGAME_pnl1_00_jp_ja.bflim"
   ],
-  "f89615419d7a10f0": [
-   "SLyt/MINIGAME_JP_ja/timg/btn_restart_00_JP_ja.bflim"
+  "b3ebac09fb8f4114": [
+   "SLyt/COLISEUM_JP_ja/timg/btn_MGAME_pnl2_00_jp_ja.bflim"
+  ],
+  "bd6cf9f888f10989": [
+   "SLyt/COLISEUM_JP_ja/timg/pnl_ATCMINIGAME_VCONDITION_00_jp_ja.bflim"
   ],
   "22683b6152036682": [
    "SLyt/MINIGAME_JP_ja/timg/LIST_ATCMINIGAME_BR_00_jp_ja.bflim"
   ],
   "24fef79864cc69a0": [
    "SLyt/MINIGAME_JP_ja/timg/LIST_ATCMINIGAME_CT_00_jp_ja.bflim"
+  ],
+  "2afb8f0eaffac8be": [
+   "SLyt/MINIGAME_JP_ja/timg/btn_MINIGAME_START_00_JP_ja.bflim"
+  ],
+  "f89615419d7a10f0": [
+   "SLyt/MINIGAME_JP_ja/timg/btn_restart_00_JP_ja.bflim"
   ],
   "c3c36cd3dbfe4627": [
    "SLyt/MINIGAME_JP_ja/timg/pnl_ATCMINIGAME_score_00_jp_ja.bflim"

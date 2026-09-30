@@ -90,7 +90,7 @@ STARTx36	keep	START		영어(이름에 _JP_ja 없음, KJ_TUTORIAL 등)	en_keep			
 btn_KJ_CANCEL_00_JP_ja	replace	やめる	취소	1DX btn_KG_cancel(취소); ko_final:FMsg/o_areanone_allmap_01_U#6	kj_small_btn	나	1DX:SLyt/KG_LACTION_KR_ko/timg/btn_KG_cancel_12_KR_ko.bflim	
 btn_KJ_DECISION_00_JP_ja	replace	けってい	결정	1DX btn_KG_decision(결정); glossary	kj_small_btn	나	1DX:SLyt/KG_LACTION_KR_ko/timg/btn_KG_decision_12_KR_ko.bflim	78x12 매우 작음
 btn_KJ_ENEMYINFO_00_JP_ja	replace	てきのじょうほう	적 정보	glossary; ko_final:BMsg/b_sys#1659; 1DX btn_ENEMYINFO(적 정보, 같은 크기 112x24)	kj_faint_label	가	1DX:SLyt/KG_HENSEInn_KR_ko/timg/btn_ENEMYINFO_12_KR_ko.bflim	
-btn_KJ_LA_11_00_JP_ja	replace	やみうち	기습	glossary; ko_final:BMsg/b_sys#683	kj_skill	나	1DX:GLyt/G_KGH_12_KR_ko/timg/btn_KGLA_TX_n01_12_KR_ko.bflim	
+btn_KJ_LA_11_00_JP_ja	replace	やみうち	허 찌르기	TEXT PASS 2(클라우드 2026-09-30, 사용자 승인): 1DX 한국판 같은 버튼 btn_KGLA_TX_l04 = 허 찌르기(공식 > 신조어 기습). 대사도 같이 바꿈(work/review/kj_1dx_terms.md)	kj_skill	가	1DX:SLyt/KG_BATTLEn_KR_ko/timg/btn_KGLA_TX_l04_12_KR_ko.bflim	1DX 같은 낱말 그림
 btn_KJ_LA_25_00_JP_ja	replace	コウラスピン	등껍질 스핀	glossary; ko_final:BMsg/b_sys#1370; 1DX btn_KGLA_TX_l02(등껍질 스핀)	kj_skill	나	1DX:SLyt/KG_BATTLEn_KR_ko/timg/btn_KGLA_TX_l02_12_KR_ko.bflim	
 btn_KJ_LA_04_00_JP_ja	replace	とつげきー！	돌격~!	glossary; ko_final:BMsg/b_sys#1607	kj_skill	나	1DX:GLyt/G_KGH_12_KR_ko/timg/btn_KGLA_TX_n01_12_KR_ko.bflim	
 btn_KJ_ESC_00_JP_ja	replace	やめる	그만두기	ko_final:BMsg/b_sys#496(クエストをやめて→퀘스트를 그만두고)	kj_battle_btn	나	1DX:SLyt/KG_BATTLEn_KR_ko/timg/btn_KGb_ESC_12_KR_ko.bflim	리드 확인: 1DX 같은 버튼은 '도망가기'. 왼쪽 정렬
@@ -115,8 +115,8 @@ mg_PAUSE_OUT_00_JP_ja	keep	PAUSE		1DX mg_PAUSE_OUT 영어 유지	en_keep		1DX:SL
 KJ_LTIT_GUIDE_4_00_JP_ja	replace	コマンド	커맨드	glossary:コマンド	list_title	나	1DX:SLyt/KG_GUIDEnn_KR_ko/timg/LTIT_KG_BS0_12_KR_ko.bflim	
 btn_KJ_LA_22_00_JP_ja	replace	かえりうち	역습	glossary; ko_final:BMsg/b_sys#455	kj_skill	나	1DX:GLyt/G_KGH_12_KR_ko/timg/btn_KGLA_TX_n01_12_KR_ko.bflim	
 btn_KJ_LA_01_00_JP_ja	replace	うちけし	스킬 지우기	리드 결정: 1DX 한국판 같은 커맨드 btn_KGLA_TX_n01 = 스킬 지우기(공식 표기 > 신조어 무효화, AGENTS 0장). 대사 쪽 13곳도 리드가 맞춘다	kj_skill	가	1DX:GLyt/G_KGH_12_KR_ko/timg/btn_KGLA_TX_n01_12_KR_ko.bflim	리드 결정 22:05
-btn_KJ_LA_15_00_JP_ja	replace	みきり	간파	glossary; ko_final:BMsg/b_sys#1193	kj_skill	나	1DX:GLyt/G_KGH_12_KR_ko/timg/btn_KGLA_TX_n01_12_KR_ko.bflim	
-btn_KJ_LA_20_00_JP_ja	replace	すけっと	지원군	glossary; ko_final:BMsg/b_sys#1347	kj_skill	나	1DX:GLyt/G_KGH_12_KR_ko/timg/btn_KGLA_TX_n01_12_KR_ko.bflim	
+btn_KJ_LA_15_00_JP_ja	replace	みきり	회피	TEXT PASS 2(클라우드 2026-09-30, 사용자 승인): 1DX 한국판 같은 버튼 btn_KGLA_TX_n06 = 회피(공식 > 신조어 간파). 대사도 같이 바꿈(work/review/kj_1dx_terms.md)	kj_skill	가	1DX:SLyt/KG_BATTLEn_KR_ko/timg/btn_KGLA_TX_n06_12_KR_ko.bflim	1DX 같은 낱말 그림
+btn_KJ_LA_20_00_JP_ja	replace	すけっと	도우미	TEXT PASS 2(클라우드 2026-09-30, 사용자 승인): 1DX 한국판 같은 버튼 btn_KGLA_TX_l03 = 도우미(공식 > 신조어 지원군). 대사도 같이 바꿈(work/review/kj_1dx_terms.md)	kj_skill	가	1DX:SLyt/KG_BATTLEn_KR_ko/timg/btn_KGLA_TX_l03_12_KR_ko.bflim	1DX 같은 낱말 그림
 btn_KJ_LA_13_00_JP_ja	replace	ばいがえし	배로 갚기	glossary; ko_final:BMsg/b_sys#176	kj_skill	나	1DX:GLyt/G_KGH_12_KR_ko/timg/btn_KGLA_TX_n01_12_KR_ko.bflim	
 btn_KJ_LA_06_00_JP_ja	replace	でかボムバレー	왕폭탄 배구	glossary; ko_final:BMsg/b_sys#1652	kj_skill	나	1DX:GLyt/G_KGH_12_KR_ko/timg/btn_KGLA_TX_n01_12_KR_ko.bflim	
 btn_SET_ON_00_JP_ja	keep	ON		1DX tab_SET_ON 영어 유지	en_keep		1DX:MLyt/MLYT_SET_KR_ko/timg/tab_SET_ON_12_KR_ko.bflim	

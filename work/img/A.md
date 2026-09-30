@@ -19,6 +19,7 @@ python scripts\lyt_A.py variants <base> "source=font,em=14" ...   # 설정 비�
 - [x] 독립 재읽기(스테이지 dat → BG4 → SARC → BFLIM 디코드): 복사본 74곳 모두 PNG와 L·A 완전 일치.
 - [x] 대조표 직접 확인(A_<family>*.png 12장 + A_overview.png).
 - [x] (01:40 리드 결정) btn_KJ_LA_14 「썬더」→「선더」, btn_KJ_LA_24 「쿵쿵 떨구기」→「쿵쿵 떨어뜨리기」 다시 그림(imgtext 1.3, 묶음과 같은 설정: source=font, 묶음 중앙값 꾸밈, 도구 기본 굵기; lyt_A.py에 안쪽 층 굵히기 없음). 「쿵쿵 떨어뜨리기」는 장평 100%, 폭 110.5px(여유 111.5px)로 한 줄에 들어감. 빌드 178장(전 조)·A조 49/49·복사본 74곳, errors 0, 재읽기 74곳 일치.
+- [x] (2026-09-30 클라우드, TEXT PASS 2 사용자 승인) btn_KJ_LA_11 「기습」→「허 찌르기」(1DX btn_KGLA_TX_l04), btn_KJ_LA_15 「간파」→「회피」(n06), btn_KJ_LA_20 「지원군」→「도우미」(l03) 다시 그림. 묶음 설정 그대로(source=font, 묶음 중앙값 꾸밈). 도우미만 weight 3.15: 기본값은 원본 획 3.078px의 0.962(2.96px)라 LA_24와 같은 방식으로 실제 획 3.035px(0.986, 묶음 중앙값)에 맞춤. 회피는 도구 경고 「글자 높이 비 0.875」(두 음절이 가나 세 자보다 낮음, 눈으로 확인해 묶음과 같은 크기). 전체 빌드 178장·복사본 258곳·errors 0·warnings 0 → `work/build/lyt_stage_A`. lyt_stage_B 대비 KLyt의 4장(이 3장 + 수정 2라운드의 LA_24 「떨어트리기」)만 다르고 BLyt·FLyt·MLyt·SLyt는 바이트 동일(ETC 인코딩도 로컬과 같음).
 
 ## 묶음별 원본 꾸밈 (3DX 일본어 원본에서 잰 값)
 

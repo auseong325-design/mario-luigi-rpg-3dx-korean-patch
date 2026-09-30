@@ -734,7 +734,11 @@
   "sources": [
    [
     [
-     "기습",
+     "허",
+     "font:font"
+    ],
+    [
+     "찌르기",
      "font:font"
     ]
    ]
@@ -746,15 +750,15 @@
    "hscale": 1.0,
    "tracking": 0.0,
    "overflow": false,
-   "width": 29.5,
+   "width": 65.5,
    "lines": 1
   },
   "em": 15.0,
   "weight": {
    "target_px": 3.279,
-   "glyph_px": 2.013,
-   "achieved_px": 3.197,
-   "ratio": 0.975
+   "glyph_px": 2.118,
+   "achieved_px": 3.257,
+   "ratio": 0.993
   },
   "problems": [],
   "cfg": {}
@@ -1356,7 +1360,7 @@
   "sources": [
    [
     [
-     "간파",
+     "회피",
      "font:font"
     ]
    ]
@@ -1368,24 +1372,26 @@
    "hscale": 1.0,
    "tracking": 0.0,
    "overflow": false,
-   "width": 31.5,
+   "width": 27.5,
    "lines": 1
   },
   "em": 15.0,
   "weight": {
    "target_px": 3.598,
-   "glyph_px": 1.968,
-   "achieved_px": 3.558,
-   "ratio": 0.989
+   "glyph_px": 2.353,
+   "achieved_px": 3.643,
+   "ratio": 1.013
   },
-  "problems": [],
+  "problems": [
+   "글자 높이 비 0.875"
+  ],
   "cfg": {}
  },
  "btn_KJ_LA_20_00_JP_ja": {
   "sources": [
    [
     [
-     "지원군",
+     "도우미",
      "font:font"
     ]
    ]
@@ -1402,13 +1408,15 @@
   },
   "em": 15.0,
   "weight": {
-   "target_px": 3.078,
-   "glyph_px": 2.042,
-   "achieved_px": 3.033,
-   "ratio": 0.985
+   "target_px": 3.15,
+   "glyph_px": 1.994,
+   "achieved_px": 3.035,
+   "ratio": 0.963
   },
   "problems": [],
-  "cfg": {}
+  "cfg": {
+   "weight": 3.15
+  }
  },
  "btn_KJ_LA_13_00_JP_ja": {
   "sources": [

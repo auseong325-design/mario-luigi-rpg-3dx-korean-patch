@@ -257,6 +257,9 @@ CFG: dict[str, dict] = {
     # 쿵쿵 떨어트리기: the default weight stops at ratio 0.965 (calibration tolerance 4 %), just under
     # the rest of kj_skill (0.973-1.025); 3.15 px (JP stroke 3.10 x 1.02) lands on the family median
     "btn_KJ_LA_24_00_JP_ja": {"weight": 3.15},
+    # 도우미 (TEXT PASS 2): the default weight reaches only 2.96 px of the JP stroke 3.078 px (0.962);
+    # 3.15 puts the achieved stroke (about 3.04 px, 0.99 of JP) on the family median like btn_KJ_LA_24
+    "btn_KJ_LA_20_00_JP_ja": {"weight": 3.15},
 }
 
 # one glyph source per family, so that every texture of a family has the same letter shape

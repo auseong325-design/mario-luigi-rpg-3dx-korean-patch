@@ -279,15 +279,19 @@ def _row_table(rgb, m, H1):
 
 # ------------------------------------------------------------------ rendering
 def render(shape, F_hr, lab_hr, st, elem_style, B_extra_hr=None, ymap=None, gloss_sharp=(0.15, 0.5),
-           knn_k=10, gloss_on=True, face_knn=False):
+           knn_k=10, gloss_on=True, face_knn=False, face_gain=1.0):
     """elem_style: label -> measured element id. ymap: per-element {label: array(H) of source rows}
-    for the face gradient (default identity). Returns (RGBA float, body hi-res mask)."""
+    for the face gradient (default identity). face_gain > 1 steepens the face/outline edge of the
+    downsampled face coverage (the hand-drawn originals have hard pixel edges; the 4x render
+    averaged to 1x looks soft). Returns (RGBA float, body hi-res mask)."""
     H1, W1 = shape
     K, Lb = sweep(F_hr, lab_hr, st.sx)
     B_hr = body(F_hr, K, st.r_o, st.D, st.r_e)
     if B_extra_hr is not None:
         B_hr = B_hr | B_extra_hr
     covF = down(F_hr.astype(float))
+    if face_gain != 1.0:
+        covF = np.clip((covF - 0.5) * face_gain + 0.5, 0.0, 1.0)
     nlab1 = np.rint(centre(nearest_label(F_hr, lab_hr).astype(float))).astype(int)
     sdh = sdf(F_hr)
     sd1 = centre(sdh)
@@ -347,3 +351,19 @@ def render(shape, F_hr, lab_hr, st, elem_style, B_extra_hr=None, ymap=None, glos
 
 
 
+
+
+def clean_kr(F_hr, min_px=60, grow_px=0.0, gap_px=1.5):
+    """Placed Korean face mask: drop stray pieces smaller than min_px (1x px^2; the resampled 1DX
+    mask leaves a thin arc under 마 and specks under 오), then grow the strokes by grow_px (1x px)
+    without letting a gap or counter shrink below gap_px (imgtext.thicken)."""
+    lab, n = ndi.label(F_hr)
+    if n:
+        sizes = ndi.sum(F_hr, lab, range(1, n + 1)) / (HR * HR)
+        F_hr = np.isin(lab, 1 + np.nonzero(sizes >= min_px)[0])
+    if grow_px > 0:
+        import sys as _s
+        _s.path.insert(0, str(__import__("pathlib").Path(__file__).resolve().parents[3] / "scripts"))
+        import imgtext as _T
+        F_hr = _T.thicken(F_hr.astype(np.float32), grow_px * HR, gap_px * HR) >= 0.5
+    return F_hr

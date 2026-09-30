@@ -6,7 +6,7 @@ from scipy import ndimage as ndi
 sys.path.insert(0, str(Path(__file__).parent))
 import logo_lib as L
 
-ROOT = Path(r"C:\mario-luigi-rpg-3dx-korean-patch")
+ROOT = Path(__file__).resolve().parents[3]
 OUTD = ROOT / "work/img/logo/fit"
 OUTD.mkdir(parents=True, exist_ok=True)
 a = L.load(ROOT / "work/img/fmdl/3DX/fmd_title_JP_ja/title_logo_JP_bottom.png")

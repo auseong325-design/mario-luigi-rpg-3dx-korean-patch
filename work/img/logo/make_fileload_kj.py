@@ -13,7 +13,7 @@ sys.path.insert(0, str(Path(__file__).parent))
 import logo_lib as L
 import kj_skeleton as K
 
-ROOT = Path(r"C:\mario-luigi-rpg-3dx-korean-patch")
+ROOT = Path(__file__).resolve().parents[3]
 LOGO = ROOT / "work/img/logo"
 SRC = ROOT / "work/img/lyt/3DX/MLyt/MENU_FILE_LOAD_JP_ja"
 DST = ROOT / "work/img/ko/lyt/MLyt/MENU_FILE_LOAD_JP_ja"
@@ -22,7 +22,7 @@ P = dict(gap=2.0, sy=0.80, ratio=0.86, x_left=60.0, x_right=196.0, baseline=None
          seam=(206, 212), y_top=128, grow_max=0.8, puffs=[(40, 125, 100, 166), (196, 185, 236, 208)],
          # per syllable: (scale x, scale y, rotation deg, bottom y); 쿠파 big, 주니어 smaller (like クッパ / Jr.)
          syll=[(0.78, 0.92, -5.0, 187.0), (0.78, 0.92, 3.0, 185.0), (0.62, 0.74, -4.0, 182.0),
-               (0.62, 0.74, 3.0, 181.0), (0.62, 0.74, -3.0, 179.0)], syll_gap=1.0)
+               (0.62, 0.74, 3.0, 181.0), (0.62, 0.74, -3.0, 179.0)], syll_gap=1.0, puff_reach=4.0, puff_clear=3)
 if len(sys.argv) > 1:
     P.update(json.loads(sys.argv[1]))
 
@@ -204,6 +204,8 @@ def main():
     near = L.down(((L.dist_out(B_hr) <= 10) | (L.dist_out(L.up_hr(B1 & ~art & reg)) <= 10)).astype(float)) > 0
     keep = ~near | art
     # the two smoke puffs are drawn in front of the letters: keep them as they are
+    puffs = np.zeros((H1, W1), bool)
+    puff_list = []
     for (x0, y0, x1, y1) in P["puffs"]:
         box = np.zeros((H1, W1), bool); box[y0:y1, x0:x1] = True
         inner = box & (rgb.min(2) >= 205) & ~glow
@@ -215,9 +217,31 @@ def main():
         yellow = ndi.binary_dilation((R_ > 200) & (G_ > 180) & (B_ < 120), iterations=2)
         ids = [i for i in range(1, npf + 1) if (lab_p == i).sum() >= 12 and not ((lab_p == i) & yellow).any()]
         puff = np.isin(lab_p, ids)
-        puff = ndi.binary_dilation(puff, iterations=3) & box
-        keep |= puff
-    res[keep] = rgb[keep]
+        # the whole puff in front of the new letters: its interior plus the dark outline and tails
+        # joined to it (user review 2026-09-30: a 3 px halo left the outline cut by the new rim)
+        near = ndi.distance_transform_edt(~puff) <= P["puff_reach"]
+        dark = rgb.max(2) < 170
+        full = puff | (near & dark & box)
+        full = ndi.binary_closing(full, iterations=1) & (near | puff)
+        full |= ndi.binary_dilation(full, iterations=1) & near & (rgb.min(2) < 245) & ~yellow
+        puff_list.append(full)
+        puffs |= full
+    res[keep & ~puffs] = rgb[keep & ~puffs]
+    res[puffs] = comp[puffs]                    # the new letters (or white) where a puff was
+    # the new 쿠 stands higher than ク: move each puff by the smallest step up / left that keeps it
+    # off the Korean face and its white-yellow rim, so it sits on the outer corner like the original
+    clear = ndi.binary_dilation(L.down(Fn.astype(float)) > 0.3, iterations=P["puff_clear"])
+    for full in puff_list:
+        best = None
+        for dy in range(0, -13, -1):
+            for dx in range(0, -9, -1):
+                m = np.roll(np.roll(full, dy, 0), dx, 1)
+                if not (m & clear).any() and (best is None or dx * dx + dy * dy < best[0]):
+                    best = (dx * dx + dy * dy, dx, dy)
+        _, dx, dy = best or (0, 0, 0)
+        m = np.roll(np.roll(full, dy, 0), dx, 1)
+        res[m] = np.roll(np.roll(rgb, dy, 0), dx, 1)[m]
+        print("puff moved", (dx, dy))
     res = np.concatenate([res, np.full((H1, W1, 1), 255.0)], 2)
     DST.mkdir(parents=True, exist_ok=True)
     L.save(res[:, :144], DST / f"{NAMES[0]}.png")

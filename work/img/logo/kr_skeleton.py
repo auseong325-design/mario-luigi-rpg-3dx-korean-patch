@@ -7,7 +7,7 @@ from scipy import ndimage as ndi
 sys.path.insert(0, str(Path(__file__).parent))
 import logo_lib as L
 
-ROOT = Path(r"C:\mario-luigi-rpg-3dx-korean-patch")
+ROOT = Path(__file__).resolve().parents[3]
 OUT = ROOT / "work/img/logo/kr_skeleton"
 NAV1DX = (0, 44, 74)
 

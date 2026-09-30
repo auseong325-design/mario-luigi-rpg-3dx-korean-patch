@@ -2,7 +2,7 @@
 import shutil
 from pathlib import Path
 
-ROOT = Path(r"C:\mario-luigi-rpg-3dx-korean-patch")
+ROOT = Path(__file__).resolve().parents[3]
 OUT = ROOT / "work/img/logo/out"
 KO = ROOT / "work/img/fmdl_ko"
 MAP = {

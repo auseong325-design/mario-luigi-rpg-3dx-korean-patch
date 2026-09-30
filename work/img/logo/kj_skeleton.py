@@ -11,7 +11,7 @@ import numpy as np
 from PIL import Image, ImageDraw
 from scipy import ndimage as ndi
 
-ROOT = Path(r"C:\mario-luigi-rpg-3dx-korean-patch")
+ROOT = Path(__file__).resolve().parents[3]
 SS = 8
 
 

@@ -14,14 +14,17 @@ sys.path.insert(0, str(Path(__file__).parent))
 import logo_lib as L
 from kr_skeleton import kr_masks
 
-ROOT = Path(r"C:\mario-luigi-rpg-3dx-korean-patch")
+ROOT = Path(__file__).resolve().parents[3]
 LOGO = ROOT / "work/img/logo"
 (LOGO / "out").mkdir(exist_ok=True)
 (LOGO / "steps").mkdir(exist_ok=True)
 
 # layout (1x texture px). 1DX composition x=6 -> X0, baseline y=82 -> Y0
 P = dict(X0=44.0, Y0=127.0, SX=0.703, SY=0.87, seam=(282, 292), mario_blob_w=42, mario_foot_dx=0,
-         luigi_blob_w=38, luigi_foot_dx=0)
+         luigi_blob_w=38, luigi_foot_dx=0,
+         # user review 2026-09-30: stray arc/specks from the resampled 1DX mask removed (min_px),
+         # thin strokes of 리/이/지 grown (grow, counters kept open) and hard face edges (face_gain)
+         min_px=60, grow=0.75, face_gain=2.0)
 if len(sys.argv) > 1:
     P.update(json.loads(sys.argv[1]))
 
@@ -49,6 +52,8 @@ def main():
     _, words = kr_masks()
     Fm = place(words["mario"], shp)
     Fl = place(words["luigi"], shp)
+    Fm = L.clean_kr(Fm, P["min_px"], P["grow"])
+    Fl = L.clean_kr(Fl, P["min_px"], P["grow"])
     # & : move the Japanese & to where the 1DX composition has its &
     amp_old = lab_jp == 2
     ys, xs = np.nonzero(words["amp"] > 0.5)
@@ -100,9 +105,10 @@ def main():
     # step images
     sk = np.zeros((H1, W1, 4)); sk[..., :3] = 255; sk[..., 3] = L.down(F.astype(float)) * 255
     L.save(sk, LOGO / "steps/bottom_1_skeleton.png")
-    plain, _ = L.render((H1, W1), F, lab, st, elem, B_extra_hr=Bx_new, ymap=ymaps, gloss_on=False)
+    plain, _ = L.render((H1, W1), F, lab, st, elem, B_extra_hr=Bx_new, ymap=ymaps, gloss_on=False,
+                        face_gain=P["face_gain"])
     L.save(plain, LOGO / "steps/bottom_2_body_fill.png")
-    out, B_hr = L.render((H1, W1), F, lab, st, elem, B_extra_hr=Bx_new, ymap=ymaps)
+    out, B_hr = L.render((H1, W1), F, lab, st, elem, B_extra_hr=Bx_new, ymap=ymaps, face_gain=P["face_gain"])
     L.save(out, LOGO / "steps/bottom_3_model.png")
     # paste the original pixels of the kept faces (& moved, RPG)
     covo = L.down(F_jp.astype(float))

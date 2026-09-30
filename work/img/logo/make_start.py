@@ -12,7 +12,7 @@ from scipy import ndimage as ndi
 sys.path.insert(0, str(Path(__file__).parent))
 import logo_lib as L
 
-ROOT = Path(r"C:\mario-luigi-rpg-3dx-korean-patch")
+ROOT = Path(__file__).resolve().parents[3]
 LOGO = ROOT / "work/img/logo"
 P = dict(scale=1.13, sx=1.0, dy=0.0, dx=0.0, grow_max=0.5)
 if len(sys.argv) > 1:

@@ -2,7 +2,7 @@
 import json
 from pathlib import Path
 
-ROOT = Path(r"C:\mario-luigi-rpg-3dx-korean-patch")
+ROOT = Path(__file__).resolve().parents[3]
 man = json.loads((ROOT / "work/img/fmdl_manifest.json").read_text("utf-8"))["3DX"]
 by = {r["id"]: r for r in man}
 T = "fmd_title_JP_ja/"

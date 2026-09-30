@@ -14,7 +14,7 @@ sys.path.insert(0, str(Path(__file__).parent))
 import logo_lib as L
 from kr_skeleton import kr_masks
 
-ROOT = Path(r"C:\mario-luigi-rpg-3dx-korean-patch")
+ROOT = Path(__file__).resolve().parents[3]
 LOGO = ROOT / "work/img/logo"
 SRC = ROOT / "work/img/lyt/3DX/MLyt/MENU_FILE_LOAD_JP_ja"
 DST = ROOT / "work/img/ko/lyt/MLyt/MENU_FILE_LOAD_JP_ja"
@@ -23,7 +23,7 @@ NAMES = ("LOAD_GAME_IMG_ML_L_00_JP_ja", "LOAD_GAME_IMG_ML_R_00_JP_ja")
 KX, KY = (212 - 35) / (274 - 56), (72 - 33) / (128 - 78)
 T = dict(X0=44.0, Y0=127.0, SX=0.703, SY=0.87)       # title layout (make_bottom.P)
 P = dict(X0=35 + (T["X0"] - 56) * KX, Y0=33 + (T["Y0"] - 78) * KY, SX=T["SX"] * KX, SY=T["SY"] * KY,
-         seam=(218, 226), region_y=100)
+         seam=(218, 226), region_y=100, min_px=60, grow=0.75, face_gain=2.0)
 if len(sys.argv) > 1:
     P.update(json.loads(sys.argv[1]))
 
@@ -66,6 +66,8 @@ def main():
     _, words = kr_masks()
     Fm = place(words["mario"], F.shape)
     Fl = place(words["luigi"], F.shape)
+    Fm = L.clean_kr(Fm, P["min_px"], P["grow"])      # the stray arc under 마 (user review 2026-09-30)
+    Fl = L.clean_kr(Fl, P["min_px"], P["grow"])
     amp_old = lab_jp == 2
     ys, xs = np.nonzero(words["amp"] > 0.5)
     cx_new = P["X0"] + ((xs.min() + xs.max() + 1) / 2 - 6) * P["SX"]
@@ -83,7 +85,7 @@ def main():
     L.save(sk, LOGO / "steps/fileML_1_skeleton.png")
     chk, _ = L.render((H1, W1), F, lab_jp, st, elem)
     L.save(chk, LOGO / "fit/rerender_fileML.png")
-    out, B_hr = L.render((H1, W1), Fn, lab, st, elem, ymap={1: ymap, 3: ymap})
+    out, B_hr = L.render((H1, W1), Fn, lab, st, elem, ymap={1: ymap, 3: ymap}, face_gain=P["face_gain"])
     L.save(out, LOGO / "steps/fileML_2_model.png")
     covo = L.down(F.astype(float))
     lab1 = np.rint(L.centre(lab_jp.astype(float))).astype(int)

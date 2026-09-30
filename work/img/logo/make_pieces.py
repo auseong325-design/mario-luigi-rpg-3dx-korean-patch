@@ -12,11 +12,12 @@ sys.path.insert(0, str(Path(__file__).parent))
 import logo_lib as L
 from kr_skeleton import kr_masks
 
-ROOT = Path(r"C:\mario-luigi-rpg-3dx-korean-patch")
+ROOT = Path(__file__).resolve().parents[3]
 LOGO = ROOT / "work/img/logo"
 PIECES = {"title_logo_M_JP": "mario", "title_logo_L_JP": "luigi"}
 MIN_RATIO = 0.8
-OPT = dict(margin=0.0)
+# user review 2026-09-30: same stroke growth / hard face edges as make_bottom.py
+OPT = dict(margin=0.0, min_px=60, grow=0.75, face_gain=2.0)
 if len(sys.argv) > 1:
     OPT.update(json.loads(sys.argv[1]))
 
@@ -62,6 +63,7 @@ def main():
         xs1 = kx0 + ((X + 0.5) / L.HR - X0) / sx
         ys1 = ky1 + ((Y + 0.5) / L.HR - Y0) / sy
         F = ndi.map_coordinates(m, [ys1 - 0.5, xs1 - 0.5], order=1, mode="constant") > 0.5
+        F = L.clean_kr(F, OPT["min_px"], OPT["grow"])
         lab = F.astype(int)
         print(tex, f"JP face box x {jx0:.0f}-{jx1:.0f} y {jy0:.0f}-{jy1:.0f}; scale sx={sx:.3f} sy={sy:.3f} "
                    f"(ratio {sx / sy:.2f})")
@@ -69,9 +71,9 @@ def main():
         ymap = np.clip(jy0 + (np.arange(H1) - ytop) * (jy1 - jy0) / (Y0 - ytop), 0, H1 - 1)
         sk = np.zeros((H1, W1, 4)); sk[..., :3] = 255; sk[..., 3] = L.down(F.astype(float)) * 255
         L.save(sk, LOGO / f"steps/{tex}_1_skeleton.png")
-        plain, _ = L.render((H1, W1), F, lab, st, {1: 1}, ymap={1: ymap}, gloss_on=False)
+        plain, _ = L.render((H1, W1), F, lab, st, {1: 1}, ymap={1: ymap}, gloss_on=False, face_gain=OPT["face_gain"])
         L.save(plain, LOGO / f"steps/{tex}_2_body_fill.png")
-        out, _ = L.render((H1, W1), F, lab, st, {1: 1}, ymap={1: ymap})
+        out, _ = L.render((H1, W1), F, lab, st, {1: 1}, ymap={1: ymap}, face_gain=OPT["face_gain"])
         L.save(out, LOGO / f"steps/{tex}_3_final_unquantised.png")
         q = np.rint(np.clip(out, 0, 255) / 17) * 17          # RGBA4
         L.save(q, LOGO / f"out/{tex}.png")

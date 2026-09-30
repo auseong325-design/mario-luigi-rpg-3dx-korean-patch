@@ -1,27 +1,44 @@
 # 클라우드 세션 인수인계 (2026-09-30)
 
-Kiro 사용량 한도로 중단된 작업을 Claude 클라우드 세션 크레딧으로 잠시 이어간다. **작업 계약서는 `AGENTS.md`**(먼저 읽을 것).
+Kiro 사용량 한도로 멈춘 작업을 Claude 클라우드 세션 크레딧으로 잠시 이어 가고 있다. **작업 계약서는 `AGENTS.md`**다(먼저 읽을 것).
 
-## 클라우드 환경의 한계
-- 이 저장소에는 게임 원본(`romfs/`, `romf2/`, `exefs*/`, `ml 1dx/`, CIA, .nds), 그림·빌드 산출물(`work/img`, `work/build`), `patch/`, `.venv`가 **없다**(저작권·용량). 그래서 패치 빌드, 폰트, 그림·로고, 스태프롤, Azahar 테스트는 **불가능** → 로컬에서 한다.
-- 가능한 것: 텍스트 작업. `text/jp`(원문), `text/ref_ds_ko`(DS 한국판), `text/ko`(번역), `text/glossary.tsv`, `work/ref_1dx_ko.tsv`(1DX 한국판 대사), `work/batches`, `scripts/merge_ko.py`(검증·병합)는 모두 있다. 파이썬 3 표준 라이브러리만으로 돈다.
-- `merge_ko.py`의 줄 폭 계산은 3DX 폰트(`romfs/.../font.bffnt`)가 필요했다. 이제 폰트가 없으면 `work/font_metrics.json`(글자 폭 표)을 쓰고, 그것도 없으면 **추정 폭**으로 돌며 경고를 낸다. 추정 폭으로도 `--check-all` 130/130 0 오류, `--merge` 결과 `work/ko_final.json`이 커밋본과 바이트까지 같았다. 그래도 한도 가까운 줄은 로컬 정확 검사가 기준이다.
-- **`work/ko_final.json`은 `merge_ko.py --merge`의 산출물**이다. 번역을 고쳤으면 `--merge`를 다시 돌려 커밋한다(로컬에서 `build_patch.py --fonts`가 이것을 읽는다). 폰트 글자 집합이 바뀔 수 있으므로 KS X 1001 밖 글자를 쓰지 말 것(검증기가 거른다).
+## 클라우드 환경
+- 사용자가 게임 파일(`romfs/`, `romf2/`, `exefs*/`, `ml 1dx/`, `work/`, `patch/`, `tools/`)을 비공개 저장소 `main`에 올려 두었다(`.gitignore` 주석: 공개 전에 지울 것). 그래서 클라우드에서도 빌드·폰트·그림 작업이 된다. Azahar 테스트만 로컬에서 한다.
+- 파이썬: `uv venv --python /usr/bin/python3.12 .venv` 후 `uv pip install -r requirements.txt`(`.venv`는 커밋하지 않는다). 실행은 `.venv/bin/python scripts/<name>.py`, 늘 `timeout`을 건다.
+- 재현성 확인됨: msbt 왕복 368/368, `build_patch --identity` 7/7. TEXT PASS 2 전의 `ko_final`로 다시 빌드한 Msg·폰트 10개가 설치본과 바이트까지 같다. `build_lyt` 결과도 로컬 스테이지와 바이트가 같다(ETC 인코딩 결정적).
+- `merge_ko.py`의 폭 계산: 실제 폰트가 있으면 그것을 쓰고, 없으면 `work/font_metrics.json`(실제 폰트에서 뽑은 폭 표, 커밋함), 그것도 없으면 추정 폭으로 돈다(`lib3dx.py`).
 
-## 현재 상태 (2026-09-30 09:40 KST, 브랜치 `claude/tender-goldberg-ob76gv`)
-- 번역 130개 배치 9,617메시지 완료·교차 리뷰 완료·`merge_ko --check-all` 130/130 0 오류.
-- **1DX 용어 정렬 리뷰 완료** → `work/review/kj_1dx_terms.md`(요약)·`.tsv`(108행). 라벨 대조 도구 `scripts/align_1dx.py` → `work/review/kj_1dx_pairs.tsv`.
-- **TEXT PASS 2 적용**(사용자 승인 묶음 terms·spacing·amiibo, `work/textpass2_20260930.py`): 도우미·허 찌르기·회피·정수리 깨기·내던지기·튕겨내기·내동댕이·관통 공격·3상성·군단의 혼, 쿠파7인조·로켓 박치기·`HP 콩`/`슈퍼 EXP 콩 S` 등 콩 21종·치킨 9종 띄어쓰기, amiibo 표준 오류 문구 8개. 메시지 81곳(복사본 포함 120개), glossary 46행(`glossary.tsv`와 `glossary_overrides.tsv` 둘 다), 스타일 가이드 1줄. `work/ko_final.json` 다시 병합함. 쿠파주니어 RPG의 **챌린지는 그대로**(사용자 결정).
-- **glossary 재생성 안전**: 첫 텍스트 패스의 4개 행(스킬 지우기·선더·쿵쿵 떨어트리기·꽈당)이 `glossary_overrides.tsv`에 없어 `build_glossary.py`를 돌리면 예전 값으로 돌아가던 문제를 고쳤다.
-- **review_items 정리 완료** → `work/review/review_items_cloud.md`: 38개 중 26개를 텍스트로 닫고, 게임 화면이 필요한 12개만 `work/lead_state.json`의 `review_items`에 남김.
-- 그림 글자 작업(I1~I6, 레이아웃 A~D)은 `work/lead_state.json`의 image_* 항목 참고. **로컬 전용.** 마지막에 중단된 4개 그림 서브에이전트(B 무게 보정, I3 팔레트, I6 작은 글씨, A 떨어트리기 버튼)는 결과가 기록되지 않았다(1DX 용어 리뷰는 클라우드에서 다시 했음).
+## 현재 상태 (2026-09-30 10:30 KST, 브랜치 `claude/tender-goldberg-ob76gv`)
+- 번역: 130개 배치, 9,617개 메시지 번역과 교차 리뷰 완료. `merge_ko --check-all` 130/130, 오류 0.
+- **1DX 용어 정렬과 TEXT PASS 2**
+  - 사용자가 terms·spacing·amiibo 묶음을 승인했고, 챌린지는 그대로 둔다.
+  - 스크립트 `work/textpass2_20260930.py`. 메시지 81곳(복사본 포함 120개), glossary 46행을 바꿨다.
+  - 검토 자료: `work/review/kj_1dx_terms.md`, `.tsv`.
+- **Msg 빌드와 설치**: `build_patch --fonts` 결과를 `patch/`에 설치했다. 이전 파일은 `work/build/prev_msg_before_textpass2_20260930/`에 있다.
+- **그림 수정 2라운드**: Kiro가 기록 없이 멈춘 4개 작업을 확인해 마무리했다. 자세한 내용은 `work/lead_state.json`의 `image_fix_round_2.results`.
+  - A(떨어트리기)는 이미 되어 있었다. TEXT PASS 2로 바뀐 커맨드 버튼 3개(허 찌르기·회피·도우미)는 새로 그렸다.
+  - I3: 1DX에서 가져온 스프라이트 43개를 3DX 색으로 바꿨다(갈색 테두리 → 검정). 「앞으로」는 선명하게 다시 그렸다.
+  - B: 상점 제목·파일 라벨 11장의 굵기를 원본의 0.84~0.97배로 올렸다. 숍·슬롯은 구조상 한계라 더 가늘다.
+  - I6: 쪼르미터와 보스 안내 2장을 흰 채움으로 다시 그렸다(회색·분홍빛이 없어짐).
+- **3차 교차 검수**(`image_wave3`)
+  - 색 검사: 원본에 없는 색이 0.
+  - 레이아웃 178장을 모두 원본과 나란히 봤다. 깨진 「배틀 시작」을 1DX 폰트로 다시 그렸다.
+  - 통합 빌드 `work/build/lyt_stage_A`: 178장, 오류 0.
+- **patch/ 설치본** (`patch/00040000001CA900/romfs/`)
+  - 설치함: Msg 10개(대사 7 + 폰트 3), Staffroll 2개, Lyt/JP 5개, Obj/JP 4개, HB 12개.
+  - MLyt는 파일 선택 로고 4장을 **뺀** 빌드다. 그 4장은 원본 텍스처를 그대로 둔다.
+  - **로고는 사용자 승인 대기**: 타이틀 로고와 게임 시작 버튼은 같은 FMdl.dat에 들어 있고, 파일 선택 로고는 MLyt에 들어 있다.
+  - 확인할 그림: `work/img/review/I4_logo_approval.png`.
+  - 승인하면 두 파일만 복사한다(`lead_state.build.logo_install_after_ok`):
+    - `work/build/fmdl_stage/romfs/FMdl/JP/FMdl.dat` → `patch/.../romfs/FMdl/JP/FMdl.dat`
+    - `work/build/lyt_stage_A/MLyt.dat` → `patch/.../romfs/Lyt/JP/MLyt.dat`
 
-## 로컬로 돌아가면
-1. 이 브랜치를 pull 해서 `text/ko`, `text/glossary.tsv`, `work/ko_final.json`, `work/lead_state.json`을 반영한다.
-2. `python scripts\lib3dx.py --export-font-metrics` → `work/font_metrics.json`(글자 폭 숫자만, 가나·한자 제외)을 커밋하면 다음 클라우드 세션부터 폭 검사가 정확해진다.
-3. `merge_ko.py --check-all`(실제 폰트) → `build_patch.py --fonts`(TEXT PASS 2가 든 `ko_final.json`) → Azahar.
-4. 바뀐 낱말이 든 그림을 다시 그린다: 쿠파주니어 RPG 커맨드 버튼 `btn_KJ_LA_*`의 すけっと→도우미, やみうち→허 찌르기, みきり→회피(`work/img/lyt_plan_src.tsv`의 ko를 고치고 A 빌더로 다시 빌드). 그 밖에 지원군·기습·간파·쿠파 7인조가 그림에 있으면 같이 맞춘다.
+## 남은 일
+1. 사용자: 로고 승인 → 위 두 파일을 설치한다.
+2. 사용자: Azahar에서 전체 패치를 시험한다. 볼 곳은 `work/lead_state.json`의 `next`와 `review_items`(게임 화면 확인 18개)에 적어 두었다.
+3. 게임 화면을 보고 결정할 것: 설정 「후리가나 표시」 이름(`font_phase`), `review_items`의 말투·선택지·폭 확인.
 
 ## 하지 말 것
-- 게임 원본·그림·빌드 산출물 추가·커밋 금지. `text/jp`, `text/ref_ds_ko` 수정 금지.
-- 로컬 전용 작업(그림·폰트·빌드)을 흉내 내지 말 것.
+- `text/jp`, `text/ref_ds_ko`, 원본 게임 파일(`romfs/`, `romf2/`, `exefs*/`, `ml 1dx/`, `*.nds`, `unpacked/`)은 수정하지 않는다.
+- 빌드 결과는 `work/build/<스트림>_stage/`에 먼저 쓰고, 검증한 뒤에만 `patch/`에 설치한다.
+- 로고는 사용자 승인 전에 설치하지 않는다.

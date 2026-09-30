@@ -198,5 +198,6 @@ fonts/              한글 폰트 후보 (OFL)
 
 1. (완료) 방 정렬·용어집·말투 가이드 → 전 배치 번역 → 교차 리뷰 → 1DX 한국판 글리프 폰트 → 패치 빌드.
 2. 그림 속 글자·로고·스태프롤(풀 한글화): `work/IMAGE_TASK.md`. 1차 = I1 레이아웃 빌더·전수 목록, I2 한글 그림 글자 도구, I3 스프라이트, I4 모델 텍스처·로고, I5 스태프롤, I6 거대 전투 UI(HB/JP_ja). 2차 = 레이아웃 한글 그림(I1의 묶음별 분배). 3차 = 교차 검수 → 통합 빌드 → Azahar 테스트.
+   - 2026-09-30: 수정 2라운드(I3 팔레트, B 굵기, I6 작은 글자)와 3차 검수·통합 빌드 완료. Lyt·Obj·HB는 `patch/`에 설치했다(MLyt는 파일 선택 로고를 뺀 빌드). **로고**(타이틀 FMdl, 파일 선택 MLyt)와 게임 시작 버튼은 사용자 승인 뒤 설치한다(`work/lead_state.json` `build.logo_install_after_ok`). 남은 것은 Azahar 테스트.
 3. 글 수정 잔여: 설정 「후리가나 표시」 이름(게임 화면 보고 결정). (「※」 4줄 복원과 1DX 공식 용어 4개 반영은 2026-09-30 완료, `work/textpass_20260930.py`. 1DX 용어 정렬 리뷰(`work/review/kj_1dx_terms.md`)와 TEXT PASS 2(기술명·띄어쓰기·amiibo 문구, `work/textpass2_20260930.py`)도 2026-09-30 완료. TEXT PASS에서 glossary 행을 바꾸면 `text/glossary_overrides.tsv`에도 넣는다 — `build_glossary.py`가 재생성할 때 override만 남는다)
 4. 게임 화면 확인 목록: `work/lead_state.json`의 `review_items`, `font_phase`.

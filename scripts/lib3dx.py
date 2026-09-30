@@ -16,8 +16,10 @@ Text syntax (what translators see):
 
 from __future__ import annotations
 
+import json
 import re
 import struct
+import sys
 import typing
 from dataclasses import dataclass, field
 from pathlib import Path
@@ -26,6 +28,12 @@ ROOT = Path(__file__).resolve().parent.parent
 ROMFS_BASE = ROOT / "romfs"   # v1.0 base game
 ROMFS_UPDATE = ROOT / "romf2"  # v1.2 update (only changed files)
 TITLE_ID = "00040000001CA900"
+# Advance widths for a checkout without the game files (the cloud copy of this repository has no
+# romfs/). `python scripts/lib3dx.py --export-font-metrics` writes them from the real fonts: numbers
+# only (no glyph data), and only for the characters merge_ko measures (it counts kana/kanji as 16).
+FONT_METRICS = ROOT / "work" / "font_metrics.json"
+METRIC_FONTS = ["Msg/JP_ja/font.bffnt"]
+_KANA_KANJI = re.compile(r"[\u3040-\u30ff\u4e00-\u9fff]")
 
 
 def romfs_path(rel: str) -> Path:
@@ -386,8 +394,12 @@ def bffnt_advances(rel: str = "Msg/JP_ja/font.bffnt") -> dict[str, int]:
 
     Follows FINF pointers (ptrWidth/ptrMap point at section data, i.e. magic + 8)
     through the CWDH and CMAP chains instead of searching for magics.
+    Without the game files it falls back to advances_without_romfs().
     """
-    d = romfs_path(rel).read_bytes()
+    path = romfs_path(rel)
+    if not path.exists():
+        return advances_without_romfs(rel)
+    d = path.read_bytes()
     finf = struct.unpack_from("<H", d, 6)[0]  # header size = FINF offset
     if d[finf:finf + 4] != b"FINF":
         raise ValueError("FINF not found")
@@ -423,3 +435,66 @@ def bffnt_advances(rel: str = "Msg/JP_ja/font.bffnt") -> dict[str, int]:
                 cmap[c] = g
         p = nxt
     return {chr(c): widths.get(g, 16) for c, g in cmap.items() if not 0xD800 <= c <= 0xDFFF}
+
+
+# Guessed advances of the ASCII glyphs font.bffnt has (proportional, about 9-14 px; the space's 5 px
+# is known). Only used when neither the game files nor work/font_metrics.json are present.
+_EST_ASCII = {" ": 5, ".": 5, "'": 4, "(": 7, ")": 7, "[": 7, "]": 7, "{": 7, "}": 7, "/": 9,
+              "?": 10, "&": 13, "+": 12, "=": 12,
+              **{c: 10 for c in "0123456789"},
+              **{c: 12 for c in "ABCDEFGHIJKLNOPQRSTUVXYZ"}, "M": 14, "W": 14,
+              **{c: 10 for c in "abcdefghijklnopqrstuvxyz"}, "m": 13, "w": 13}
+_estimate_warned: set[str] = set()
+
+
+def advances_without_romfs(rel: str) -> dict[str, int]:
+    """bffnt_advances() for a checkout without the game files.
+
+    Exact when work/font_metrics.json has the font (export it where the game files are). Otherwise
+    an estimate, with a warning: every character the Japanese script shows is in the font, the
+    full-width ones at 16 px (text/jp's widest lines give the recorded limits 368 px for b_sys style
+    13 and 405 px for style 11 this way), ASCII at the guesses above. Line widths near a limit then
+    need the exact check on a machine with the game files.
+    """
+    if FONT_METRICS.exists():
+        table = json.loads(FONT_METRICS.read_text(encoding="utf-8")).get("fonts", {}).get(rel)
+        if table:
+            return dict(table)
+    if rel not in _estimate_warned:
+        _estimate_warned.add(rel)
+        print(f"lib3dx: {rel} is not here and not in {FONT_METRICS.relative_to(ROOT).as_posix()}: "
+              "ESTIMATED advance widths (ASCII guessed); re-check line widths where the game files are",
+              file=sys.stderr)
+    shown: set[str] = set()
+    for f in (ROOT / "text" / "jp").glob("*.json"):
+        for m in json.loads(f.read_text(encoding="utf-8"))["messages"]:
+            shown.update(re.sub(r"\[[^\]]*\]", "", m["jp"]))
+    est = {c: 8 if "\uff61" <= c <= "\uff9f" else 16
+           for c in shown if c > "\x7f" and not _KANA_KANJI.match(c)}
+    est.update(_EST_ASCII)
+    return est
+
+
+def export_font_metrics() -> None:
+    """Write FONT_METRICS from the game fonts: {"fonts": {rel: {char: advance}}} without kana/kanji."""
+    fonts = {}
+    for rel in METRIC_FONTS:
+        if not romfs_path(rel).exists():
+            raise SystemExit(f"{rel} not found: export the metrics where the game files are")
+        fonts[rel] = {c: w for c, w in sorted(bffnt_advances(rel).items()) if not _KANA_KANJI.match(c)}
+    FONT_METRICS.write_text(json.dumps({
+        "note": "advance widths (px) of the 3DX message fonts for checkouts without the game files; "
+                "written by scripts/lib3dx.py --export-font-metrics; kana/kanji left out (merge_ko counts them as 16)",
+        "fonts": fonts}, ensure_ascii=False, indent=0), encoding="utf-8")
+    print(f"wrote {FONT_METRICS} ({', '.join(f'{r}: {len(t)} chars' for r, t in fonts.items())})")
+
+
+if __name__ == "__main__":
+    import argparse
+    ap = argparse.ArgumentParser(description="lib3dx helpers")
+    ap.add_argument("--export-font-metrics", action="store_true",
+                    help="write work/font_metrics.json from the game fonts (for cloud checkouts)")
+    if ap.parse_args().export_font_metrics:
+        export_font_metrics()
+    else:
+        ap.print_help()

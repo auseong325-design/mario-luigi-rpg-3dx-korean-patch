@@ -60,6 +60,7 @@ fonts/              한글 폰트 후보 (OFL)
 | DS 폰트 표 병합 | `kr_merge_table.py` | 판독 2인 일치 + `kr_table_overrides.json` |
 | DS 한국어 추출 | `extract_nds_kr_text.py` | → `text/ref_ds_ko/` |
 | 1DX 한국어 추출 | `dump_1dx_text.py` | `ml 1dx/3romfs/Msg/KR_ko` 대사 7,867개 → `work/ref_1dx_ko.tsv`(key, index, label, text). 공식 용어 확인용(원본은 읽기만) |
+| 1DX 대조 | `align_1dx.py` | 3DX 메시지를 라벨로 1DX 한국어와 짝지음(`KJGuide_`↔`KGGuide_`, `Menu_KJ_Chr_exp_`↔`KMsgChr_exp_`, 아이템·amiibo 라벨은 같음) → `work/review/kj_1dx_pairs.tsv`(`sim`=문장 유사도). 가이드 번호는 두 게임에서 뒤섞여 있으니 설명문으로 같은 것인지 확인 |
 | 정렬·용어 자료 | `make_digests.py` | → `work/align/`, `work/gloss/` |
 | 번역 배치 생성 | `make_batches.py` | → `work/batches/` (room_map·glossary 반영) |
 | 번역 검증·병합 | `merge_ko.py` | `text/ko/` 검증 → 태그 복원 → 결과 보고 (`--merge` → `work/ko_final.json`) |
@@ -72,6 +73,7 @@ fonts/              한글 폰트 후보 (OFL)
 | 그림·로고·스태프롤 | `work/IMAGE_TASK.md` | 스트림별 빌더(`build_lyt.py`, `build_obj.py`, `build_fmdl.py`, `build_staffroll.py`)는 `work/build/<스트림>_stage/`에 쓰고, 리드가 검증 후 `patch/`에 설치 |
 
 - 파이썬 명령은 반드시 **타임아웃을 걸어** 실행한다(과거 pymsbmnl이 EOF에서 무한루프로 90분 멈춘 적 있음. MSBT는 `lib3dx.py`의 자체 코덱만 사용).
+- 게임 파일이 없는 곳(클라우드)에서도 `merge_ko.py`가 돈다: 폭은 `work/font_metrics.json`(게임 파일이 있는 곳에서 `python scripts/lib3dx.py --export-font-metrics`로 만든 글자 폭 표)을, 그것도 없으면 추정 폭(경고 출력)을 쓴다. 추정 폭으로 검사했으면 한도 가까운 줄은 로컬에서 다시 검사한다.
 - PowerShell에서 환경변수는 `$env:NAME`. 문자열 안의 `"$var:"`는 파싱 오류가 나므로 `"${var}:"`로 쓴다.
 
 ## 4. 번역 규칙

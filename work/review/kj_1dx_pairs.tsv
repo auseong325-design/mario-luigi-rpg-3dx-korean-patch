@@ -1,0 +1,767 @@
+id	label	jp	ko	ref_1dx	label_1dx	ko_1dx	sim
+BMsg/b_sys#0	BtlGuide_02	基本②：ダメージを与えて倒す	기본②: 타격을 입혀 쓰러뜨린다	BMsg.dat:b_sys#2	BtlGuide_02	기본②: 대미지를 주어 격파	0.11
+BMsg/b_sys#4	Hint_use_kinoko	回復のヒント	회복 힌트	BMsg.dat:b_sys#5	Hint_use_kinoko	회복 힌트	1.00
+BMsg/b_sys#5	KJGuide_BA05_1	相手にぶつかる時に / ボタンを押しましょう！	상대에게 부딪칠 때 /  버튼을 누르세요!	BMsg.dat:k_sys#659	KGGuide_BA05_1	상대에게 부딪칠 때 /  버튼을 누르세요!	1.00
+BMsg/b_sys#7	KJMsg_challenge_20	全てのクエストをクリアする	모든 퀘스트를 클리어한다	BMsg.dat:k_sys#692	KMsg_challenge_20	「그 녀석」을 아군으로 만들었다	0.00
+BMsg/b_sys#9	KJ_Msg_quest_66	クッパ城とピーチ城	쿠파 성과 피치 성	BMsg.dat:k_sys#217	KMsg_quest_66	결전의 시간	0.00
+BMsg/b_sys#15	Menu_KJ_Chr_exp_dskuribo	体は重いが チカラと 体力なら負けない。 / しっぽをブン回して敵をなぎ払う。	몸은 무겁지만 힘과 체력이라면 지지 않는다. / 꼬리를 휘둘러 적을 쓸어 버린다.	BMsg.dat:k_sys#943	KMsgChr_exp_dskuribo	몸은 무겁지만 힘과 체력은 뒤지지 않음. / 꼬리를 휘둘러 적을 한 방에 소탕!	0.64
+BMsg/b_sys#20	BtlGuide_03	ジャンプでの攻撃	점프 공격	BMsg.dat:b_sys#9	BtlGuide_03	점프 공격	1.00
+BMsg/b_sys#24	KJMsg_challenge_21	グループアタックを全て発動	그룹 어택을 모두 발동	BMsg.dat:k_sys#701	KMsg_challenge_21	모든 리더 액션을 습득했다	0.00
+BMsg/b_sys#25	KJ_Msg_quest_67	ボクとお父さんの軍団	나와 아빠의 군단	BMsg.dat:k_sys#230	KMsg_quest_67	쿠파님을 믿어요	0.00
+BMsg/b_sys#38	BtlGuide_04	バトルきほんとバトルアタック	배틀 기본과 배틀 어택	BMsg.dat:b_sys#17	BtlGuide_04	시범과 연습	0.00
+BMsg/b_sys#39	BtlGuide_15_0	モンスターの攻撃中にボタンを押し続けると / 攻撃をガードして ダメージを減らせます。	몬스터가 공격하는 동안  버튼을 계속 누르면 / 공격을 방어해서 타격을 줄일 수 있어요.	BMsg.dat:b_sys#18	BtlGuide_15_0	브라더 어택이 어려울 때는 / 간단 어택 모드를 선택해 보세요.	0.00
+BMsg/b_sys#40	E_ItemExpL_S	えんきょりタイプの経験値が１０アップ。 / 他のタイプが食べると効果は半分。	원거리 타입의 EXP가 10 증가. / 다른 타입이 먹으면 효과는 절반.	BMsg.dat:k_sys#16	E_ItemExpL_S	원거리 타입의 경험치가 10 상승. / 다른 타입에게는 효과가 절반.	0.48
+BMsg/b_sys#45	KJMsg_challenge_22	全てのコマンドを発動させる	모든 커맨드를 발동시킨다	BMsg.dat:k_sys#718	KMsg_challenge_22	모든 스킬을 발동시켰다	0.33
+BMsg/b_sys#46	KJ_Msg_quest_10	ルドウィッグのカン	루드윅의 감	BMsg.dat:k_sys#238	KMsg_quest_10	굼바 잔치	0.00
+BMsg/b_sys#47	KJ_Msg_quest_68	裏切り者には…	배신자에게는…	BMsg.dat:k_sys#239	KMsg_quest_68	최강 군단	0.00
+BMsg/b_sys#54	Target_MonAll	ぜんたい	전부	BMsg.dat:b_sys#24	Target_MonAll	전체	0.00
+BMsg/b_sys#55	BtlGuide_05	おてほん と れんしゅう	시범과 연습	BMsg.dat:b_sys#27	BtlGuide_05	기본③: 마리오 형제의 HP에 주의	0.00
+BMsg/b_sys#56	BtlGuide_06_0	モンスターの攻撃で ダメージを受けると / マリオ達のHPが 減っていきます。 / HPがゼロになると 気絶して動けなくなります。	몬스터의 공격으로 타격을 입으면 / 마리오 일행의 HP가 줄어들어요. / HP가 0이 되면 기절해서 움직일 수 없게 돼요.	BMsg.dat:b_sys#28	BtlGuide_06_0	몬스터가 공격할 때에도 / 마리오 형제는 액션이 가능합니다. / 자세를 낮추는 포즈는 점프 방어 신호입니다.	0.12
+BMsg/b_sys#57	BtlGuide_15_1	モンスターの攻撃は 全てかいひできるので / よけられるならば / きんきゅうガードを使う必要はありません。	몬스터의 공격은 모두 회피할 수 있으니까 / 피할 수 있다면 / 긴급 가드를 쓸 필요는 없어요.	BMsg.dat:b_sys#29	BtlGuide_15_1	소모되는 BP가 늘어나는 대신에 / 타이밍을 맞추기 수월해집니다.	0.00
+BMsg/b_sys#61	KJMsg_challenge_23	全てのキャラクターを仲間にする	모든 캐릭터를 동료로 삼는다	BMsg.dat:k_sys#730	KMsg_challenge_23	모든 캐릭터를 아군으로 만들었다	0.45
+BMsg/b_sys#62	KJ_Msg_quest_11	７人衆の仕事	7인조의 일	BMsg.dat:k_sys#245	KMsg_quest_11	들판에 자라난 순무	0.00
+BMsg/b_sys#63	KJ_Msg_quest_69	ミニミニ大行進！	미니미니 대행진!	BMsg.dat:k_sys#246	KMsg_quest_69	대장의 도전(굼바골드)	0.00
+BMsg/b_sys#72	Ns_ItemHp	HPマメ	HP콩	BMsg.dat:k_sys#30	Ns_ItemHp	HP 콩	1.00
+BMsg/b_sys#74	BtlGuide_06	基本③：HPに注意	기본③: HP에 주의	BMsg.dat:b_sys#36	BtlGuide_06	점프 방어	0.00
+BMsg/b_sys#75	BtlGuide_06_1	マリオ と ルイージのバトルでは / ２人ともHPがゼロになって気絶すると / ゲームオーバーになります。	마리오와 루이지의 배틀에서는 / 두 사람 모두 HP가 0이 되어 기절하면 / 게임 오버가 돼요.	BMsg.dat:b_sys#37	BtlGuide_06_1	캐릭터 버튼을 누르면 점프할 수 있습니다.	0.00
+BMsg/b_sys#76	BtlGuide_15_2	どうしても かいひできない / 苦手な攻撃があったら使ってみましょう。	도저히 회피할 수 없는 / 어려운 공격이 있으면 써 보세요.	BMsg.dat:b_sys#38	BtlGuide_15_2	간단 어택 모드를 사용하려면 / 어택 선택 시  버튼을 누릅니다.	0.00
+BMsg/b_sys#81	KJMsg_challenge_24	２００回以上 マメを使う	200회 이상 콩을 사용한다	BMsg.dat:k_sys#736	KMsg_challenge_24	콩 사용 횟수 200번 이상	0.40
+BMsg/b_sys#82	KJ_Msg_quest_12	あやしい森のベジタブル	수상한 숲의 채소	BMsg.dat:k_sys#252	KMsg_quest_12	쿠파군단 VS 쿠파군단	0.00
+BMsg/b_sys#91	BtlGuide_06_2	クッパは１人で行動しているので / HPがゼロになった時点で / ゲームオーバーになります。	쿠파는 혼자서 행동하니까 / HP가 0이 된 시점에서 / 게임 오버가 돼요.	BMsg.dat:b_sys#46	BtlGuide_06_2	점프로 공격을 회피할 수 있습니다. / 이때 몬스터를 밟으면 대미지를 줍니다.	0.00
+BMsg/b_sys#92	BtlGuide_07	防御	방어	BMsg.dat:b_sys#47	BtlGuide_07	기본④: 이길수록 강해진다	0.00
+BMsg/b_sys#95	KJMsg_challenge_25	Excellent回数が５００回を超える	Excellent 횟수가 500회를 넘는다	BMsg.dat:k_sys#743	KMsg_challenge_25	Excellent 횟수가 500번을 넘었다	0.74
+BMsg/b_sys#96	KJ_Msg_quest_13	畑の中のぶつかりあい	밭 한가운데서 격돌	BMsg.dat:k_sys#256	KMsg_quest_13	배고파도 끄떡없어	0.00
+BMsg/b_sys#104	BtlGuide_08	ジャンプ防御	점프 방어	BMsg.dat:b_sys#57	BtlGuide_08	엔카운트	0.00
+BMsg/b_sys#105	E_ItemExpL_DX	えんきょりタイプの経験値が３０００アップ。 / 他のタイプが食べると効果は半分。	원거리 타입의 EXP가 3000 증가. / 다른 타입이 먹으면 효과는 절반.	BMsg.dat:k_sys#50	E_ItemExpL_DX	원거리 타입의 경험치가 3000 상승. / 다른 타입에게는 효과가 절반.	0.52
+BMsg/b_sys#108	KJGuide_BA03_0	敵にぶつかっても止まらずに / 走り抜け もとの場所に戻ります。 / その道中ぶつかった敵全員にダメージ。	적에게 부딪쳐도 멈추지 않고 / 그대로 달려 나가 원래 자리로 돌아와요. / 그 도중에 부딪친 적 전원에게 타격.	BMsg.dat:k_sys#722	KGGuide_BA03_0	상대를 향해 머리부터 뛰어들어 / 강력한 박치기를 펼칩니다.	0.00
+BMsg/b_sys#109	KJMsg_challenge_26	全てのじんけいボーナスを発動	모든 진형 보너스를 발동	BMsg.dat:k_sys#749	KMsg_challenge_26	캐릭터를 레벨 40까지 육성했다	0.00
+BMsg/b_sys#110	KJ_Msg_quest_14	せまりくる魔の手	다가오는 마수	BMsg.dat:k_sys#264	KMsg_quest_14	꼬리 조심!	0.00
+BMsg/b_sys#116	Retry_item_easy_retry	イージーモードでやりなおす	이지 모드로 다시 시작	BMsg.dat:b_sys#62	Retry_item_easy_retry	이지 모드로 재도전	0.57
+BMsg/b_sys#119	BtlGuide_09	基本④：勝利すると強くなる	기본④: 승리하면 강해진다	BMsg.dat:b_sys#66	BtlGuide_09	기본⑤: 스테이터스에 대해	0.11
+BMsg/b_sys#124	KJGuide_BA03_1	相手にぶつかる時に / ボタンを押しましょう！	상대에게 부딪칠 때 /  버튼을 누르세요!	BMsg.dat:k_sys#733	KGGuide_BA03_1	상대에게 부딪칠 때 /  버튼을 누르세요!	1.00
+BMsg/b_sys#125	KJGuide_O12_0	編成時の配置のしかたで / 特別な「じんけい」ができた場合 / バトル中にボーナス効果が生じることがあります。	편성할 때의 배치 방법에 따라 / 특별한 「진형」이 만들어지면 / 배틀 중에 보너스 효과가 생기기도 해요.	BMsg.dat:k_sys#450	KGGuide_O12_0	배틀에서 대장이 사용하는 / 리더 액션을 조합할 수 있습니다.	0.04
+BMsg/b_sys#126	KJMsg_challenge_27	モンスターを１５００体やっつける	몬스터를 1500마리 쓰러뜨린다	BMsg.dat:k_sys#759	KMsg_challenge_27	몬스터를 1500마리 무찔렀다	0.69
+BMsg/b_sys#127	KJ_Msg_quest_15	クッパ城のピンチ？	쿠파 성의 위기?	BMsg.dat:k_sys#275	KMsg_quest_15	라이벌 트리오!	0.00
+BMsg/b_sys#140	KJGuide_O08_0	ボタンを押すとクエストに登場する / 敵の配置を見ることができます。	 버튼을 누르면 퀘스트에 등장하는 / 적의 배치를 볼 수 있어요.	BMsg.dat:k_sys#457	KGGuide_O08_0	「편성」과 「강화」에서  버튼을 누르면 / 선택 중인 캐릭터의 자세한 정보를 / 볼 수 있습니다.	0.35
+BMsg/b_sys#141	KJGuide_O12_1	バトルでボーナスが発生した「じんけい」は / レコードからいつでも確認することができます。	배틀에서 보너스가 발생한 「진형」은 / 기록에서 언제든지 확인할 수 있어요.	BMsg.dat:k_sys#458	KGGuide_O12_1	대장에 따라 사용할 수 있는 / 리더 액션이 다릅니다.	0.11
+BMsg/b_sys#142	KJMsg_challenge_28	クエストを２００回以上クリア	퀘스트를 200회 이상 클리어	BMsg.dat:k_sys#772	KMsg_challenge_28	스테이지 클리어 횟수가 200번을 넘었다 / 	0.33
+BMsg/b_sys#143	KJ_Msg_quest_16	エクボン産のギガニンジン	볼조개산 기가 당근	BMsg.dat:k_sys#285	KMsg_quest_16	대장의 도전(헤이호 편)	0.00
+BMsg/b_sys#151	Retry_easymode_enter	けってい	결정	BMsg.dat:b_sys#76	Retry_easymode_enter	결정	1.00
+BMsg/b_sys#152	SoloHammer_M_00	ハンマー	해머	BMsg.dat:b_sys#77	SoloHammer_M_00	해머	1.00
+BMsg/b_sys#156	BtlGuide_13_0	アシストきのうを ONにすれば  / 狙われるキャラクターにマーカーが表示されます。	어시스트 기능을 ON으로 하면 / 공격받을 캐릭터에게 마커가 표시돼요.	BMsg.dat:b_sys#83	BtlGuide_13_0	이지 모드를 사용하면 마리오 형제가 강해져 / 몬스터를 쉽게 물리칠 수 있습니다.	0.04
+BMsg/b_sys#160	KJGuide_O08_1	敵の配置は「軍団へんせい」中でも / 確認ができます。	적의 배치는 「군단 편성」 중에도 / 확인할 수 있어요.	BMsg.dat:k_sys#466	KGGuide_O08_1	캐릭터가 가진 기술 이름이나 / 어떤 상대에게 강한지 등 여기서만  / 볼 수 있는 정보가 있을지도 모릅니다…	0.06
+BMsg/b_sys#161	KJMsg_challenge_29	仲間にしたキャラクター １５０体	동료로 삼은 캐릭터 150명	BMsg.dat:k_sys#783	KMsg_challenge_29	아군으로 가입한 캐릭터 150마리	0.45
+BMsg/b_sys#162	KJ_Msg_quest_17	シノビよる黒いカゲ	몰래 다가오는 검은 그림자	BMsg.dat:k_sys#298	KMsg_quest_17	래리의 요새	0.00
+BMsg/b_sys#178	BtlGuide_04_0	バトルきほんでは バトルのせつめいや / 戦いかた 勝つためのコツを / かくにんすることができます。	배틀 기본에서는 배틀 설명이나 / 싸우는 법, 이기기 위한 요령을 / 확인할 수 있어요.	BMsg.dat:b_sys#92	BtlGuide_04_0	공격을 선택할 때 아래 화면의 버튼을 터치하면 / 시범을 보거나 연습을 할 수 있습니다.	0.06
+BMsg/b_sys#180	BtlGuide_13_1	マリオの足元に 赤いマーカーが出たら / マリオが狙われています。	마리오의 발밑에 빨간 마커가 나오면 / 마리오를 노리고 있다는 뜻이에요.	BMsg.dat:b_sys#93	BtlGuide_13_1	이지 모드는 메뉴의 「설정」 항목에서 / 또는 게임 오버가 되면 선택할 수 있습니다. / 어렵다고 느낄 때 사용해 보세요.	0.00
+BMsg/b_sys#185	KJGuide_BB15_0	トゲを持ったモンスターに直接攻撃すると / わずかですがダメージを受けます。	가시가 있는 몬스터를 직접 공격하면 / 조금이지만 타격을 입어요.	BMsg.dat:k_sys#432	KGGuide_BB15_0	예를 들면 적이 「돌격」과 「원거리」 / 두 타입일 때 아군은 / 「돌격」과 「비행」 타입을 데려가면…	0.00
+BMsg/b_sys#187	KJ_Msg_quest_18	カワイイしっぽにご用心	귀여운 꼬리 조심	BMsg.dat:k_sys#303	KMsg_quest_18	아라따박사의 조사	0.00
+BMsg/b_sys#193	Menu_KJ_Chr_exp_lemmy	クッパ７人衆の １人。 / 身軽さゆえダントツのかいひ率を誇る。	쿠파 7인조 중 한 명. / 몸이 가벼워서 압도적인 회피율을 자랑한다.	BMsg.dat:k_sys#409	KMsgChr_exp_lemmy	쿠파7인조 중 한 명. / 날렵한 몸놀림으로 높은 회피율을 자랑함.	0.50
+BMsg/b_sys#197	BtlGuide_04_1	バトルアタックでは  / 攻撃のおてほんを見たり / 入力のれんしゅうができます。	배틀 어택에서는 / 공격 시범을 보거나 / 입력 연습을 할 수 있어요.	BMsg.dat:b_sys#101	BtlGuide_04_1	시범에서는 시범 동영상을 볼 수 있습니다. / 액션 성공 타이밍을 확인해 두세요. 	0.17
+BMsg/b_sys#203	KJGuide_BB15_1	トゲを持つモンスターは / 上にだけトゲがあるものと / 全身トゲにおおわれてるものの / ２タイプいます。	가시가 있는 몬스터는 / 위쪽에만 가시가 있는 것과 / 온몸이 가시로 덮인 것 / 두 가지 타입이 있어요.	BMsg.dat:k_sys#441	KGGuide_BB15_1	우선 전방의 돌격 타입끼리 / 배틀을 시작합니다. 그렇기 때문에 / 후방의 비행 타입은 불리한 원거리 타입과 / 배틀을 하게 됩니다.	0.03
+BMsg/b_sys#206	KJ_Msg_quest_19	森のジュゲム軍団	숲의 김수한무 군단	BMsg.dat:k_sys#314	KMsg_quest_19	Hey yo 헤이호	0.00
+BMsg/b_sys#211	Menu_KJ_Chr_exp_bombhei	当たればデカい 一発屋。 / 扱い注意のとつげきタイプ。	맞기만 하면 한 방이 큰 승부사. / 취급 주의가 필요한 돌격 타입.	BMsg.dat:k_sys#395	KMsgChr_exp_bombhei	잘 맞기만 하면 효과 만점. / 다루기 어려운 돌격 타입.	0.37
+BMsg/b_sys#221	KJGuide_BB15_2	上にだけトゲがあるタイプには / 横から攻撃すれば / ダメージを 受けません。	위쪽에만 가시가 있는 타입은 / 옆에서 공격하면 / 타격을 입지 않아요.	BMsg.dat:k_sys#449	KGGuide_BB15_2	이 상황에서 돌격 타입 아군이 / 많이 출격하면 불리한 조합이 / 없어지므로 배틀이 유리해집니다	0.15
+BMsg/b_sys#229	Menu_KJ_Chr_exp_yariho	狙いを定めて得意のヤリ投げ。 / 赤と青の謎の生物を狩るのがマイブームらしい。	목표를 겨냥해 특기인 창 던지기. / 빨갛고 파란 수수께끼 생물 사냥에 푹 빠진 듯하다.	BMsg.dat:k_sys#362	KMsgChr_exp_yariho	촐랑촐랑 움직이다 주특기인 창을 던짐. / 성게송이, 밤송이에게 강하고 펄럭펄럭(빨강)에게 약함.	0.09
+BMsg/b_sys#235	Hint_pcatk	上達のヒント	실력 향상 힌트	BMsg.dat:b_sys#116	Hint_pcatk	실력 향상 힌트	1.00
+BMsg/b_sys#236	KJGuide_BA01_0	戦っている相手に突進し / 体当たりを食らわせます。	싸우고 있는 상대에게 돌진해서 / 몸통 박치기를 먹여요.	BMsg.dat:k_sys#789	KGGuide_BA01_0	배틀 상대에게 돌진하여 / 온몸을 부딪쳐 공격합니다.	0.25
+BMsg/b_sys#237	KJGuide_BB15_3	全身がトゲにおおわれている / 相手だとどこから攻撃しても / トゲのダメージをくらいます。	온몸이 가시로 덮인 / 상대는 어디서 공격해도 / 가시의 타격을 입어요.	BMsg.dat:k_sys#456	KGGuide_BB15_3	편성된 멤버가 / 배틀에서 활약할 수 있을지는 / 배치와 매칭에 의해 결정됩니다.	0.00
+BMsg/b_sys#247	E_ItemExp_DX	どのタイプが食べても / 経験値が５０００アップするマメ。	어느 타입이 먹어도 / EXP가 5000 증가하는 콩.	BMsg.dat:k_sys#131	E_ItemExp_DX	어느 타입이 먹어도 / 경험치가 5000 상승하는 콩.	0.65
+BMsg/b_sys#250	KJGuide_BA01_1	相手にぶつかる時に / ボタンを押しましょう！	상대에게 부딪칠 때 /  버튼을 누르세요!	BMsg.dat:k_sys#802	KGGuide_BA01_1	상대와 부딪칠 때 /  버튼을 누르세요!	0.85
+BMsg/b_sys#251	KJGuide_O10_0	「アイテム」ではキャラクターに / マメをあげて強くすることができます。	「아이템」에서는 캐릭터에게 / 콩을 줘서 강하게 만들 수 있어요.	BMsg.dat:k_sys#515	KGGuide_O10_0	편성 메뉴에서 / 캐릭터를 길게 터치하면 / 즐겨찾기(★)에 등록할 수 있습니다.	0.17
+BMsg/b_sys#257	Ns_ItemExpL_DX	エンキョリEXPマメDX	원거리EXP콩DX	BMsg.dat:k_sys#139	Ns_ItemExpL_DX	원거리 EXP 콩 DX	1.00
+BMsg/b_sys#267	KJGuide_BB01	バトルはオートで進行	배틀은 자동으로 진행	BMsg.dat:k_sys#556	KGGuide_BB01	배틀 자동 진행	0.60
+BMsg/b_sys#268	KJGuide_O06_0	キャラクターが たくさんいる時に / 「メニュー」の中の「おわかれ」アイコンを押すと / キャラクターと わかれる画面になります。	캐릭터가 많을 때 / 「메뉴」 안의 「작별」 아이콘을 누르면 / 캐릭터와 작별하는 화면이 나와요.	BMsg.dat:k_sys#520	KGGuide_O06_0	멤버 조합에 따라서 / 보너스 스킬이 / 발생하는 경우가 있습니다.	0.04
+BMsg/b_sys#269	KJGuide_O10_1	ただしクッパJr.を強くしたい場合は / マメではなくチキンをあげる必要があります。	단, 쿠파주니어를 강하게 하고 싶을 때는 / 콩이 아니라 치킨을 줘야 해요.	BMsg.dat:k_sys#521	KGGuide_O10_1	★이 없는 캐릭터보다 / 강하므로 잘 육성합시다.	0.06
+BMsg/b_sys#280	BtlGuide_11_0	マリオ達の強さは スターメニューの / 「ステータス」で確認できます。	마리오 일행의 강함은 스타 메뉴의 / 「능력」에서 확인할 수 있어요.	BMsg.dat:b_sys#137	BtlGuide_11_0	브라더 어택을 선택하면 / 마리오와 루이지가 협력하여 공격합니다!	0.08
+BMsg/b_sys#282	E_ItemExpF_L	ひこうタイプの経験値が１０００アップ。 / 他のタイプが食べると効果は半分。	비행 타입의 EXP가 1000 증가. / 다른 타입이 먹으면 효과는 절반.	BMsg.dat:k_sys#149	E_ItemExpF_L	비행 타입의 경험치가 1000 상승. / 다른 타입에게는 효과가 절반.	0.50
+BMsg/b_sys#283	E_ItemGdd	食べるとGDDが１アップするマメ。	먹으면 GDH가 1 증가하는 콩.	BMsg.dat:k_sys#150	E_ItemGdd	먹으면 GDH가 1 상승하는 콩.	0.75
+BMsg/b_sys#288	KJGuide_BB02	ダメージを与えて倒す	타격을 입혀 쓰러뜨린다	BMsg.dat:k_sys#565	KGGuide_BB02	대미지를 가해서 쓰러트리기	0.11
+BMsg/b_sys#289	KJGuide_O06_1	おわかれする画面でキャラクターを / 選んで わかれる事ができます。 / わかれる時アイテムを置いていく事があります。	작별 화면에서 캐릭터를 / 골라 작별할 수 있어요. / 작별할 때 아이템을 남기고 가기도 해요.	BMsg.dat:k_sys#531	KGGuide_O06_1	보너스 스킬이 발생하면 / 배틀에 출전하는 부대의 / 능력치가 향상됩니다.	0.00
+BMsg/b_sys#299	Menu_KJ_Chr_exp_patamet	空飛ぶ要塞パタメット。 / ライバル心を燃やすメットと戦うのは苦手。	하늘을 나는 요새 펄럭하잉바. / 라이벌 의식을 불태우는 하잉바와의 싸움은 서툴다.	BMsg.dat:k_sys#146	KMsgChr_exp_patamet	하늘을 나는 요새 펄럭하잉바. 단단한 헬멧이 지켜줌. / 라이벌 의식을 가진 하잉바와의 전투에 약함.	0.62
+BMsg/b_sys#306	BtlGuide_02_0	「ジャンプ」や「パンチ」などで / モンスターを攻撃すれば ダメージを与えられます。 / モンスターのHPをゼロにすれば 倒せます。	「점프」나 「펀치」 등으로 / 몬스터를 공격하면 타격을 입힐 수 있어요. / 몬스터의 HP를 0으로 만들면 쓰러뜨릴 수 있어요.	BMsg.dat:b_sys#143	BtlGuide_02_0	「점프」나 「해머」 등으로 / 몬스터를 공격하면 대미지를 줍니다. / 몬스터의 HP가 0이 되면 승리합니다.	0.45
+BMsg/b_sys#307	BtlGuide_11_1	「HP」「BP」「POW」「DEF」 / 「SPEED」「HIGE」「TSUNO」があります。	「HP」「SP」「POW」「DEF」 / 「SPEED」「SUYEOM」「PPUL」이 있어요.	BMsg.dat:b_sys#144	BtlGuide_11_1	브라더 어택으로 액션에 성공하면 / 몬스터에게 큰 대미지를 줍니다.	0.00
+BMsg/b_sys#309	E_ItemExpF_M	ひこうタイプの経験値が１００アップ。 / 他のタイプが食べると効果は半分。	비행 타입의 EXP가 100 증가. / 다른 타입이 먹으면 효과는 절반.	BMsg.dat:k_sys#162	E_ItemExpF_M	비행 타입의 경험치가 100 상승. / 다른 타입에게는 효과가 절반.	0.48
+BMsg/b_sys#314	KJGuide_BA18_0	自分と周囲の味方をスピードアップさせ / いつもより多く行動できるようにします。	자신과 주변 아군의 스피드를 증가시켜 / 평소보다 더 많이 행동할 수 있게 해요.	BMsg.dat:k_sys#496	KGGuide_BA18_0	자신의 방어력을 업시킵니다.	0.09
+BMsg/b_sys#315	KJGuide_BB03	リーダーを倒せば勝利	리더를 쓰러뜨리면 승리	BMsg.dat:k_sys#577	KGGuide_BB03	대장을 쓰러트리면 승리	0.44
+BMsg/b_sys#316	KJGuide_BB13_0	チャレンジの条件をクリアすると / バトル後の報酬画面で / アイテムを入手することができます。	챌린지 조건을 클리어하면 / 배틀 후의 보상 화면에서 / 아이템을 얻을 수 있어요.	BMsg.dat:k_sys#497	KGGuide_BB13_0	군단 내에는 / 「특정 캐릭터에 강함/약함」이라는 / 특성을 가진 캐릭터도 있습니다.	0.00
+BMsg/b_sys#327	BtlGuide_02_1	攻撃するときに ボタンやスライドパッド / タッチペンをうまく入力できれば / ダメージが増えます。	공격할 때 버튼이나 슬라이드 패드, / 터치펜을 잘 입력하면 / 주는 타격이 커져요.	BMsg.dat:b_sys#150	BtlGuide_02_1	공격 시 버튼과 슬라이드 패드를 / 제때 입력하면 더 큰 대미지를 줍니다.	0.37
+BMsg/b_sys#328	BtlGuide_11_2	HP は 体力。 / ダメージを受けると減り ゼロになると気絶します。	HP는 체력. / 타격을 입으면 줄어들고 0이 되면 기절해요.	BMsg.dat:b_sys#151	BtlGuide_11_2	어택을 사용하면 BP가 소모됩니다. / 아이템 「시럽」 등으로 회복이 가능합니다.	0.00
+BMsg/b_sys#334	KJGuide_BA18_1	サークルがキャラクターの / 真ん中に来たらボタンを押しましょう。	원이 캐릭터의 / 한가운데에 오면  버튼을 누르세요.	BMsg.dat:k_sys#504	KGGuide_BA18_1	미터가 꼭대기까지 다 차면 /  버튼을 누르세요!	0.41
+BMsg/b_sys#335	KJGuide_BB04	勝利すると強くなる	승리하면 강해진다	BMsg.dat:k_sys#591	KGGuide_BB04	이길수록 강해진다	0.43
+BMsg/b_sys#336	KJGuide_BB09_0	キャラクターは必ず / アタックと呼ばれる / 特技を１つ持っています。	캐릭터는 반드시 / 어택이라고 불리는 / 특기를 하나 가지고 있어요.	BMsg.dat:k_sys#835	KGGuide_BB09_0	리더 액션은 대장만 사용 가능한 / 특별한 액션입니다. / 성장함에 따라 늘어납니다.	0.00
+BMsg/b_sys#337	KJGuide_BB13_1	チャレンジの内容や / どのチャレンジを達成できたかなどは / レコードのチャレンジで確認できます。	챌린지의 내용이나 / 어떤 챌린지를 달성했는지 등은 / 기록의 챌린지에서 확인할 수 있어요.	BMsg.dat:k_sys#506	KGGuide_BB13_1	편성 화면 등에서 / 캐릭터를 선택해 자세히를 / 보면 정보가 적혀 있습니다.	0.04
+BMsg/b_sys#348	Menu_KJ_Chr_exp_crusher	真っ赤なグローブはチカラがある証。 / 特にメカ系の敵を壊すのが好きらしい。	새빨간 글러브는 힘이 세다는 증거. / 특히 메카 계열 적을 즐겨 부수는 듯하다.	BMsg.dat:k_sys#167	KMsgChr_exp_crusher	새빨간 글러브는 힘의 상징. / 특히 메카 계열 부수기를 좋아함.	0.57
+BMsg/b_sys#353	BtlGuide_02_2	入力のうまさは４段階で評価されます。 / 最高評価の Excellentをめざしましょう！	입력 솜씨는 4단계로 평가를 받아요. / 최고 평가인 Excellent를 노려 보세요!	BMsg.dat:b_sys#156	BtlGuide_02_2	입력 버튼은 공격에 따라 다릅니다. / 공격을 선택할 때 아래 화면의 설명을 보세요.	0.10
+BMsg/b_sys#361	KJGuide_BB05	ステータスについて	능력에 대해	BMsg.dat:k_sys#604	KGGuide_BB05	스테이터스에 대해	0.50
+BMsg/b_sys#362	KJGuide_BB09_1	バトル中キャラクターの頭に / 「！」が出たらアタックが出る合図です。	배틀 중 캐릭터의 머리 위에 / 「!」가 나오면 어택이 발동한다는 신호예요.	BMsg.dat:k_sys#848	KGGuide_BB09_1	리더 액션은 LP를 소비합니다. / 연속으로 배틀을 할 경우에는 / 다음 배틀 전에 약간 회복됩니다.	0.04
+BMsg/b_sys#364	KJ_Msg_quest_30	マグマの中の冷たい空気	마그마 속의 차가운 공기	BMsg.dat:k_sys#380	KMsg_quest_30	부끄부끄들의 두목	0.00
+BMsg/b_sys#375	Menu_KJ_Chr_exp_morton	クッパ７人衆の １人。 / 動きは遅いがその一撃は岩をも砕く。	쿠파 7인조 중 한 명. / 움직임은 느리지만 그 일격은 바위도 부순다.	BMsg.dat:k_sys#418	KMsgChr_exp_morton	쿠파7인조 중 한 명.  / 움직임은 느리지만 공격력은 바위도 뚫음.	0.75
+BMsg/b_sys#376	Menu_KJ_Chr_exp_pheyho	頭のプロペラで華麗に大空を舞う。 / パタテンテンの弱点を研究中らしい。	머리의 프로펠러로 화려하게 하늘을 누빈다. / 펄럭무당무당의 약점을 연구 중인 듯하다.	BMsg.dat:k_sys#419	KMsgChr_exp_pheyho	드넓은 하늘을 화려하게 나는 헤이호. / 아이스브러스의 약점을 알고 있다고 함.	0.27
+BMsg/b_sys#384	KJGuide_BB06	３すくみについて	삼각 상성에 대해	BMsg.dat:k_sys#616	KGGuide_BB06	행동 순서 순환법	0.00
+BMsg/b_sys#387	KJ_Msg_quest_31	トゲとツノの危険地帯	가시와 뿔의 위험 지대	BMsg.dat:k_sys#391	KMsg_quest_31	쿠파군단은 인기 만점?	0.00
+BMsg/b_sys#395	Ns_ItemDef	DEFマメ	DEF콩	BMsg.dat:k_sys#197	Ns_ItemDef	DEF 콩	1.00
+BMsg/b_sys#396	Ns_ItemExpA_L	トツゲキEXPマメL	돌격EXP콩L	BMsg.dat:k_sys#198	Ns_ItemExpA_L	돌격 EXP 콩 L	1.00
+BMsg/b_sys#408	KJGuide_BB07	マッチングについて	매칭에 대해	BMsg.dat:k_sys#631	KGGuide_BB07	3상성에 대해	0.50
+BMsg/b_sys#410	KJ_Msg_quest_32	ドタバタ！ゲタゲタ―	우당탕탕! 까르까르	BMsg.dat:k_sys#399	KMsg_quest_32	스타븐의 연인	0.00
+BMsg/b_sys#418	Ns_ItemExpA_M	トツゲキEXPマメM	돌격EXP콩M	BMsg.dat:k_sys#206	Ns_ItemExpA_M	돌격 EXP 콩 M	1.00
+BMsg/b_sys#420	Target_Luigi	ルイージ	루이지	BMsg.dat:b_sys#169	Target_Luigi	루이지	1.00
+BMsg/b_sys#424	E_ItemExp_L	どのタイプが食べても / 経験値が２０００アップするマメ。	어느 타입이 먹어도 / EXP가 2000 증가하는 콩.	BMsg.dat:k_sys#207	E_ItemExp_L	어느 타입이 먹어도 / 경험치가 2000 상승하는 콩.	0.65
+BMsg/b_sys#427	KJGuide_BB08	行動順の回り方	행동 순서가 돌아오는 방식	BMsg.dat:k_sys#642	KGGuide_BB08	스페셜 스킬에 대해	0.00
+BMsg/b_sys#429	KJGuide_O04_0	クエストを選んでいるときに / そのクエストに出てくる敵の情報を / 見ることができます。	퀘스트를 선택하고 있을 때 / 그 퀘스트에 나오는 적 정보를 / 볼 수 있어요.	BMsg.dat:k_sys#593	KGGuide_O04_0	스테이지 선택의 위 화면에는 / 배틀에 출전하는 부대의 정보가 있습니다. /  버튼으로 전환이 가능합니다.	0.07
+BMsg/b_sys#430	KJ_Msg_quest_33	ブリローズのお仕事	블로즈의 일	BMsg.dat:k_sys#405	KMsg_quest_33	빛나는 콩바	0.00
+BMsg/b_sys#441	E_ItemExpF_S	ひこうタイプの経験値が１０アップ。 / 他のタイプが食べると効果は半分。	비행 타입의 EXP가 10 증가. / 다른 타입이 먹으면 효과는 절반.	BMsg.dat:k_sys#218	E_ItemExpF_S	비행 타입의 경험치가 10 상승. / 다른 타입에게는 효과가 절반.	0.46
+BMsg/b_sys#442	E_ItemExp_M	どのタイプが食べても / 経験値が３００アップするマメ。	어느 타입이 먹어도 / EXP가 300 증가하는 콩.	BMsg.dat:k_sys#219	E_ItemExp_M	어느 타입이 먹어도 / 경험치가 300 상승하는 콩.	0.63
+BMsg/b_sys#443	Hint_powerup	モンスターが強い時のヒント	몬스터가 강할 때의 힌트	BMsg.dat:b_sys#178	Hint_powerup	강한 몬스터 힌트	0.50
+BMsg/b_sys#444	KJGuide_BA25_0	敵を上空から勢いよくふみつけます。 / 敵の頭上にきたタイミングでボタン！	적을 공중에서 힘차게 밟아요. / 적의 머리 위에 온 타이밍에  버튼!	BMsg.dat:k_sys#547	KGGuide_BA25_0	「클리어 후 EXP 증가」등 / 랜덤으로 한 가지 좋은 일이 생깁니다.	0.00
+BMsg/b_sys#445	KJGuide_BB09	アタックについて	어택에 대해	BMsg.dat:k_sys#651	KGGuide_BB09	리더 액션에 대해	0.50
+BMsg/b_sys#447	KJGuide_O04_1	敵のアイコンをタッチすることで / その敵の よりくわしい情報を / 見ることができます。	적의 아이콘을 터치하면 / 그 적의 더 자세한 정보를 / 볼 수 있어요.	BMsg.dat:k_sys#606	KGGuide_O04_1	배틀에 출전하는 멤버의 / 능력치와 스킬을 볼 수 있습니다.	0.09
+BMsg/b_sys#448	KJ_Msg_quest_34	ギュルギュル！ドリルの嵐	위잉위잉! 드릴의 폭풍	BMsg.dat:k_sys#414	KMsg_quest_34	펄러크부대 출현!	0.00
+BMsg/b_sys#454	Menu_KJ_Chr_exp_fbros	マガツリーなど植物系の敵には強いが / アイスブロスの投げるアイスは大の苦手。	몬트리 같은 식물 계열 적에게는 강하지만 / 아이스브러스가 던지는 얼음은 쥐약이다.	BMsg.dat:k_sys#524	KMsgChr_exp_fbros	파이어 던지기는 마리오와 맞먹는 수준. / 덤부르와 선인이 잘 탄다. 아이스브러스에게 약함.	0.21
+BMsg/b_sys#456	N_ItemExpA_L	トツゲキEXPマメL	돌격EXP콩L	BMsg.dat:k_sys#231	N_ItemExpA_L	돌격 EXP 콩 L	1.00
+BMsg/b_sys#462	KJGuide_BA16_0	投げた武器やビームが / 相手の体を貫通して / 後ろにいる敵全員がダメージを受けます。	던진 무기나 빔이 / 상대의 몸을 관통해서 / 뒤에 있는 적 전원이 타격을 입어요.	BMsg.dat:k_sys#555	KGGuide_BA16_0	회전하면서 적과 부딪칩니다. / 입력에 성공하면 / 최대 세 번까지 대미지를 줄 수 있습니다.	0.00
+BMsg/b_sys#464	KJGuide_BB11_0	リーダーコマンドはリーダーが / 使える特別なアクションです。 / 成長すると増えていきます。	리더 커맨드는 리더가 / 쓸 수 있는 특별한 액션이에요. / 성장하면 점점 늘어나요.	BMsg.dat:k_sys#557	KGGuide_BB11_0	상대편을 향해 돌진하는 / 돌격 타입은 어느 타입과 배치해도 / 반드시 전방에 서게 됩니다.	0.00
+BMsg/b_sys#466	KJ_Msg_quest_35	かわせ！シューリンガン	피해라! 가시철구	BMsg.dat:k_sys#425	KMsg_quest_35	그곳은 배틀 비치	0.00
+BMsg/b_sys#471	N_ItemExpA_M	トツゲキEXPマメM	돌격EXP콩M	BMsg.dat:k_sys#240	N_ItemExpA_M	돌격 EXP 콩 M	1.00
+BMsg/b_sys#474	KJGuide_BA16_1	カーソルが相手の体の真ん中に / 重なったところでボタン。 / チャンスは１回のみ！	커서가 상대의 몸 한가운데에 / 겹쳤을 때  버튼. / 찬스는 한 번뿐!	BMsg.dat:k_sys#564	KGGuide_BA16_1	상대에게 부딪칠 때마다 /  버튼을 누르세요!	0.12
+BMsg/b_sys#475	KJGuide_BB07_0	とつげきタイプとひこうタイプは / 自分に 最も近くて相手のいない敵を / 見つけてバトルを開始します。	돌격 타입과 비행 타입은 / 자신과 가장 가까우면서 상대가 없는 적을 / 찾아서 배틀을 시작해요.	BMsg.dat:k_sys#904	KGGuide_BB07_0	몬스터는 크게 세 가지 / 타입으로 나눌 수 있습니다.	0.05
+BMsg/b_sys#476	KJGuide_BB11_1	リーダーコマンドはリーダーのLPを消費します。 / 続けてバトルを行う場合には / 次のバトルの前に少し回復します。	리더 커맨드는 리더의 LP를 소비해요. / 배틀을 연속으로 할 때는 / 다음 배틀 전에 조금 회복돼요.	BMsg.dat:k_sys#567	KGGuide_BB11_1	반대로 원거리 타입은 배틀 중인 아군을  / 뒤에서 엄호하는 것이 특기이므로 / 어느 타입과 배치해도 반드시 뒤에 섭니다.	0.03
+BMsg/b_sys#478	KJ_Msg_quest_36	湖に舞うハネとホネとハチ	호수 위를 누비는 날개와 뼈와 벌	BMsg.dat:k_sys#430	KMsg_quest_36	배틀 콘테스트 1회전	0.00
+BMsg/b_sys#485	Menu_KJ_Chr_exp_iggy	クッパ７人衆の １人。 / クラウンで出撃する７人衆唯一のひこうタイプ。	쿠파 7인조 중 한 명. / 쿠파피에로로 출격하는 7인조 유일의 비행 타입.	BMsg.dat:k_sys#767	KMsgChr_exp_iggy	쿠파7인조 중 한 명. / 주변 캐릭터를 파워 업시킴.	0.39
+BMsg/b_sys#490	KJGuide_BA10	脳天かちわり	정수리 찍기	BMsg.dat:k_sys#674	KGGuide_BA10	폭발	0.00
+BMsg/b_sys#492	KJGuide_BB07_1	えんきょりタイプは少し特殊で / 近くに戦っている仲間がいる場合は / 後方から援護攻撃をします。	원거리 타입은 조금 특수해서 / 가까이에 싸우고 있는 동료가 있을 때는 / 후방에서 엄호 공격을 해요.	BMsg.dat:k_sys#913	KGGuide_BB07_1	적에게 돌격하는 「돌격 타입」은 / 「원거리 타입」에게 유리하지만 / 「비행 타입」에게 불리합니다.	0.15
+BMsg/b_sys#494	KJ_Msg_quest_37	鉄壁のメット軍団	철벽의 하잉바 군단	BMsg.dat:k_sys#437	KMsg_quest_37	배틀 콘테스트 2회전	0.00
+BMsg/b_sys#504	KJGuide_BA11	ダイブアタック	다이브 어택	BMsg.dat:k_sys#685	KGGuide_BA11	막 던지기	0.00
+BMsg/b_sys#505	KJGuide_BB07_2	近くに戦っている仲間がいない場合や / 敵が近づいてきた場合は / バトルになります。	가까이에 싸우고 있는 동료가 없을 때나 / 적이 다가왔을 때는 / 배틀을 하게 돼요.	BMsg.dat:k_sys#922	KGGuide_BB07_2	하늘을 나는 「비행 타입」은 / 「돌격 타입」에게 유리하지만 / 「원거리 타입」에게 불리합니다.	0.00
+BMsg/b_sys#507	KJ_Msg_quest_38	マリオ＆ルイージ	마리오&루이지	BMsg.dat:k_sys#447	KMsg_quest_38	배틀 콘테스트 준결승	0.00
+BMsg/b_sys#517	Ns_ItemExpA_S	トツゲキEXPマメS	돌격EXP콩S	BMsg.dat:k_sys#257	Ns_ItemExpA_S	돌격 EXP 콩 S	1.00
+BMsg/b_sys#518	Retry_window_dummy			BMsg.dat:b_sys#208	Retry_window_dummy		0.00
+BMsg/b_sys#523	KJGuide_BA12	連続ふみつけ	연속 밟기	BMsg.dat:k_sys#696	KGGuide_BA12	흩뿌리기	0.00
+BMsg/b_sys#525	KJ_Msg_quest_39	お父さんの大きな背中	아빠의 커다란 등	BMsg.dat:k_sys#455	KMsg_quest_39	엉금엉금 집합!	0.00
+BMsg/b_sys#531	N_ItemExpL_DX	エンキョリEXPマメDX	원거리EXP콩DX	BMsg.dat:k_sys#267	N_ItemExpL_DX	원거리 EXP 콩 DX	1.00
+BMsg/b_sys#532	SoloHammer_L_00_0	ハンマーを振りかぶったら ボタン！ / 成功させて Excellent を狙いましょう。	해머를 치켜들면  버튼! / 성공시켜서 Excellent를 노려 보세요.	BMsg.dat:b_sys#214	SoloHammer_L_00_0	해머를 들어 올리며  버튼! / 성공해서 Excellent 를 획득해 보세요.	0.61
+BMsg/b_sys#535	E_ItemExp_S	どのタイプが食べても / 経験値が３０アップするマメ。	어느 타입이 먹어도 / EXP가 30 증가하는 콩.	BMsg.dat:k_sys#268	E_ItemExp_S	어느 타입이 먹어도 / 경험치가 30 상승하는 콩.	0.61
+BMsg/b_sys#539	KJGuide_BA13	ブン投げ	힘껏 던지기	BMsg.dat:k_sys#710	KGGuide_BA13	연사	0.00
+BMsg/b_sys#541	KJGuide_O02_0	クッパJr.RPGで遊んだ内容は / クエストをクリアしたときにセーブされます。	쿠파주니어 RPG에서 플레이한 내용은 / 퀘스트를 클리어했을 때 저장돼요.	BMsg.dat:k_sys#668	KGGuide_O02_0	쿠파군단 RPG에서 플레이한 내용은 / 「기록」에 저장됩니다.	0.57
+BMsg/b_sys#549	SoloJump_M_00_0	ふみつける時にボタン。成功したら もう１回！ / すべて成功させて Excellent を狙いましょう。	밟을 때  버튼. 성공하면 한 번 더! / 모두 성공시켜서 Excellent를 노려 보세요.	BMsg.dat:b_sys#220	SoloJump_M_00_0	밟을 때  버튼. 성공하면 다시 한 번! / 모두 성공해서 Excellent를 획득해 보세요.	0.73
+BMsg/b_sys#554	KJGuide_BA14	乱れ投げ	막 던지기	BMsg.dat:k_sys#724	KGGuide_BA14	내동댕이	0.00
+BMsg/b_sys#555	KJGuide_BA23_0	かいおんぱで近くの相手に小ダメージを与え / さらにステータスをダウンさせます。	괴음파로 가까운 상대에게 작은 타격을 입히고 / 능력까지 감소시켜요.	BMsg.dat:k_sys#630	KGGuide_BA23_0	적 몬스터의 스페셜 스킬 발동을 / 막을 수 있습니다.	0.00
+BMsg/b_sys#557	KJGuide_O02_1	クッパJr.RPGのメニュー画面にある / 「クッパJr.RPGをおわる」を押したときにも / セーブすることができます。	쿠파주니어 RPG의 메뉴 화면에 있는 / 「쿠파주니어 RPG 종료」를 눌렀을 때도 / 저장할 수 있어요.	BMsg.dat:k_sys#675	KGGuide_O02_1	조건을 달성하면 / 메달과 아이템을 받을 수 있습니다.	0.05
+BMsg/b_sys#564	N_ItemExpA_S	トツゲキEXPマメS	돌격EXP콩S	BMsg.dat:k_sys#287	N_ItemExpA_S	돌격 EXP 콩 S	1.00
+BMsg/b_sys#565	N_ItemSpd	SPEEDマメ	SPEED콩	BMsg.dat:k_sys#288	N_ItemSpd	SPEED 콩	1.00
+BMsg/b_sys#573	KJGuide_BA14_0	チカラをためてたくさんの武器を投げつけ / 前方にいる複数の敵にダメージを与えます。	힘을 모아 많은 무기를 던져서 / 앞쪽에 있는 여러 적에게 타격을 입혀요.	BMsg.dat:k_sys#640	KGGuide_BA14_0	상대편을 향해 몸이나 무기를 / 엄청난 기세로 내동댕이쳐서 / 전방에 있는 적에게 대미지를 줍니다.	0.22
+BMsg/b_sys#574	KJGuide_BA15	まきちらし	흩뿌리기	BMsg.dat:k_sys#734	KGGuide_BA15	돌진	0.00
+BMsg/b_sys#575	KJGuide_BA23_1	サークルがキャラクターの / 真ん中に来たらボタンを押しましょう。	원이 캐릭터의 / 한가운데에 오면  버튼을 누르세요.	BMsg.dat:k_sys#641	KGGuide_BA23_1	단, 스킬 지우기는 적의 머리 위에 / 「!」가 떠 있을 때만 사용할 수 있습니다. / 발동한 후에는 효과가 없습니다.	0.00
+BMsg/b_sys#581	Menu_KJ_Chr_exp_ludwig	クッパ７人衆の １人。 / 切れ者で 相手をこうしょうで惑わすのが得意。	쿠파 7인조 중 한 명. / 머리가 좋아서 상대를 협상으로 현혹하는 게 특기.	BMsg.dat:k_sys#525	KMsgChr_exp_ludwig	쿠파7인조 중 한 명.  / 공격 수비 모두 균형이 잘 잡힌 타입.	0.33
+BMsg/b_sys#590	KJGuide_BA14_1	ボタンを連打してチカラをためましょう。 / チカラがたくさん たまるほど / 多くの武器を投げることができます。	 버튼을 연타해서 힘을 모으세요. / 힘이 많이 모일수록 / 많은 무기를 던질 수 있어요.	BMsg.dat:k_sys#650	KGGuide_BA14_1	몸을 완전히 젖혔을 때 / 타이밍에 맞춰  버튼을 누르세요!	0.14
+BMsg/b_sys#591	KJGuide_BA16	ぶちぬき	꿰뚫기	BMsg.dat:k_sys#737	KGGuide_BA16	스핀 어택	0.00
+BMsg/b_sys#593	KJGuide_BB05_0	仲間の強さ・ステータスは / 軍団へんせいで キャラクターを / 選ぶと表示されます。	동료의 강함·능력은 / 군단 편성에서 캐릭터를 / 선택하면 표시돼요.	BMsg.dat:k_sys#18	KGGuide_BB05_0	아군의 능력치, 스테이터스는 / 편성에서 각각 선택해서 / 확인해 볼 수 있습니다.	0.20
+BMsg/b_sys#599	Menu_KJ_Chr_exp_tkuribo	前方にいる敵全体を 攻撃できるアタックが強み。 / 体勢を崩されるブーメラン攻撃が苦手。	앞쪽의 적 전체를 공격할 수 있는 어택이 강점. / 자세를 무너뜨리는 부메랑 공격에 약하다.	BMsg.dat:k_sys#295	KMsgChr_exp_tkuribo	전방에 있는 적 전체를 공격하는 어택이 강점. / 부메랑 계열 적에게 약함.	0.48
+BMsg/b_sys#602	Ns_ItemExpL_L	エンキョリEXPマメL	원거리EXP콩L	BMsg.dat:k_sys#305	Ns_ItemExpL_L	원거리 EXP 콩 L	1.00
+BMsg/b_sys#603	Retry_easymode_title	イージーモード	이지 모드	BMsg.dat:b_sys#239	Retry_easymode_title	이지 모드	1.00
+BMsg/b_sys#611	KJGuide_BA17	れんしゃ	연사	BMsg.dat:k_sys#744	KGGuide_BA17	관통 공격	0.00
+BMsg/b_sys#612	KJGuide_BB05_1	ステータスには「HP」 「POW」 /  「DEF」 「SPEED」 「GDD」 の / ５つがあります。	능력에는 「HP」 「POW」 / 「DEF」 「SPEED」 「GDH」의 / 5가지가 있어요.	BMsg.dat:k_sys#24	KGGuide_BB05_1	「HP」「POW」「DEF」 / 「SPEED」「GDH」 총 다섯 가지가 있습니다.	0.72
+BMsg/b_sys#619	Menu_KJ_Chr_exp_bteresa	世にも珍しい爆発するテレサ。 / 爆発すると次のバトルまでいなくなるので注意。	세상에 보기 드문 폭발하는 부끄부끄. / 폭발하면 다음 배틀까지 사라지니 주의.	BMsg.dat:k_sys#596	KMsgChr_exp_bteresa	보기 드문 폭발하는 부끄부끄. / 스노무우쵸의 약점을 알고 있다고 함.	0.42
+BMsg/b_sys#622	Ns_ItemExpL_M	エンキョリEXPマメM	원거리EXP콩M	BMsg.dat:k_sys#315	Ns_ItemExpL_M	원거리 EXP 콩 M	1.00
+BMsg/b_sys#632	KJGuide_BA18	SPEEDアップ	SPEED 업	BMsg.dat:k_sys#752	KGGuide_BA18	딱딱이	0.00
+BMsg/b_sys#633	KJGuide_BB05_2	HPは体力。 / ダメージを受けると減り / ゼロになるとバトルから退場します。	HP는 체력. / 타격을 입으면 줄어들고 / 0이 되면 배틀에서 퇴장해요.	BMsg.dat:k_sys#31	KGGuide_BB05_2	HP는 체력. / 대미지를 받으면 줄어들고 / 0이 되면 배틀에서 퇴장합니다.	0.73
+BMsg/b_sys#655	KJGuide_BA19	POWアップ	POW 업	BMsg.dat:k_sys#762	KGGuide_BA19	파워 업	0.00
+BMsg/b_sys#656	KJGuide_BB05_3	POWは攻撃力。 / 数字が大きいほど / 与えるダメージが大きくなります。	POW는 공격력. / 숫자가 클수록 / 상대에게 큰 타격을 입혀요.	BMsg.dat:k_sys#38	KGGuide_BB05_3	POW는 공격력. / 숫자가 클수록 / 주는 대미지가 많아집니다.	0.52
+BMsg/b_sys#669	N_ItemExpL_L	エンキョリEXPマメL	원거리EXP콩L	BMsg.dat:k_sys#328	N_ItemExpL_L	원거리 EXP 콩 L	1.00
+BMsg/b_sys#670	Retry_easymode_text	イージーモードを選ぶとマリオ達が強くなり / モンスターを倒しやすくなります。 / ※イージーモードはスターメニューの / 「せってい」で解除できます。	이지 모드를 선택하면 마리오 일행이 / 강해져서 몬스터를 쓰러뜨리기 쉬워져요. / ※이지 모드는 스타 메뉴의 / 「설정」에서 해제할 수 있어요.	BMsg.dat:b_sys#256	Retry_easymode_text	이지 모드를 선택하면 마리오 형제가 강해져서 / 몬스터를 쉽게 물리칠 수 있습니다. / ※이지 모드는 「메뉴」의「설정」에서 / OFF가 가능합니다.	0.56
+BMsg/b_sys#676	KJGuide_BB05_4	DEFは防御力。 / 数字が大きいほど / 受けるダメージが小さくなります。	DEF는 방어력. / 숫자가 클수록 / 타격을 적게 입어요.	BMsg.dat:k_sys#52	KGGuide_BB05_4	DEF는 방어력. / 숫자가 클수록 / 받는 대미지가 적어집니다.	0.60
+BMsg/b_sys#678	KJ_Msg_quest_50	モンスターオールスター！	몬스터 올스타!	BMsg.dat:k_sys#530	KMsg_quest_50	헤이호의 다른 그림 찾기?	0.00
+BMsg/b_sys#685	N_ItemExpL_M	エンキョリEXPマメM	원거리EXP콩M	BMsg.dat:k_sys#337	N_ItemExpL_M	원거리 EXP 콩 M	1.00
+BMsg/b_sys#687	E_ItemDef	食べるとDEFが１アップするマメ。	먹으면 DEF가 1 증가하는 콩.	BMsg.dat:k_sys#338	E_ItemDef	먹으면 DEF가 1 상승하는 콩.	0.75
+BMsg/b_sys#691	KJGuide_BA21_0	自分と周囲の味方の / 攻撃が当たりやすくなります。	자신과 주변 아군의 / 공격이 잘 맞게 돼요.	BMsg.dat:k_sys#697	KGGuide_BA21_0	자신과 주변 아군의 / 명중률을 업시킵니다.	0.47
+BMsg/b_sys#692	KJGuide_BB05_5	SPEEDはすばやさ。 / 数字が大きいほどバトルでの行動間隔が / 短くなりたくさん行動できるようになります。	SPEED는 스피드. / 숫자가 클수록 배틀에서 행동 간격이 / 짧아져서 더 많이 행동할 수 있어요.	BMsg.dat:k_sys#65	KGGuide_BB05_5	SPEED는 속도. / 숫자가 클수록 배틀에서 행동 간격이 / 짧아져서 행동을 자주 하게 됩니다.	0.67
+BMsg/b_sys#695	KJ_Msg_quest_51	最強の軍団	최강의 군단	BMsg.dat:k_sys#537	KMsg_quest_51	제트 파츠를 모으자	0.00
+BMsg/b_sys#704	Ns_ItemExp_L	スーパーEXPマメL	슈퍼EXP콩L	BMsg.dat:k_sys#347	Ns_ItemExp_L	슈퍼 EXP 콩 L	1.00
+BMsg/b_sys#709	KJGuide_BA12_0	相手の頭上めがけてジャンプし / 連続で最大２回 / ふみつけることができます。	상대의 머리 위를 노리고 점프해서 / 연속으로 최대 2번 / 밟을 수 있어요.	BMsg.dat:k_sys#709	KGGuide_BA12_0	입에서 불꽃이나 무기를 흩뿌려 / 전방에 있는 적에게 대미지를 줍니다.	0.00
+BMsg/b_sys#710	KJGuide_BA21_1	サークルがキャラクターの / 真ん中に来たらボタンを押しましょう。	원이 캐릭터의 / 한가운데에 오면  버튼을 누르세요.	BMsg.dat:k_sys#711	KGGuide_BA21_1	미터가 꼭대기까지 다 차면 /  버튼을 누르세요!	0.41
+BMsg/b_sys#711	KJGuide_BB05_6	GDDは軍団魂… / ウワサでは数字が大きいほど / アタックが出やすいとか…	GDH는 군단혼… / 소문에 따르면 숫자가 클수록 / 어택이 잘 나온다나…	BMsg.dat:k_sys#76	KGGuide_BB05_6	GDH는 군단의 혼… / 소문에 의하면 숫자가 클수록 / 스페셜 스킬이 자주 나온다나?	0.65
+BMsg/b_sys#714	KJ_Msg_quest_52	風を切るブーメラン	바람을 가르는 부메랑	BMsg.dat:k_sys#544	KMsg_quest_52	그 파워는 헤비급	0.00
+BMsg/b_sys#723	Ns_ItemExp_M	スーパーEXPマメM	슈퍼EXP콩M	BMsg.dat:k_sys#356	Ns_ItemExp_M	슈퍼 EXP 콩 M	1.00
+BMsg/b_sys#726	KJGuide_BA08_0	回転しながら敵にぶつかります。 / 入力を成功させると最大で / ３回ダメージを与えることができます。	회전하면서 적에게 부딪쳐요. / 입력에 성공하면 최대 / 3번 타격을 입힐 수 있어요.	BMsg.dat:k_sys#86	KGGuide_BA08_0	배틀 중인 상대를 날려버려 / 뒷편에 있는 적과 부딪히게 합니다. / 부딪힌 적도 대미지를 입습니다.	0.03
+BMsg/b_sys#727	KJGuide_BA12_1	ふみつける時にボタン。 / 成功したらもう１回ふみつけのチャンス！	밟을 때  버튼. / 성공하면 한 번 더 밟을 찬스!	BMsg.dat:k_sys#723	KGGuide_BA12_1	 버튼을 연타하여 힘을 모읍시다. / 힘을 많이 모을수록 / 더 많은 불꽃과 무기를 흩뿌립니다.	0.07
+BMsg/b_sys#728	KJGuide_BB03_0	バトルに参加する軍団には / 必ず１体リーダーがいます。	배틀에 참가하는 군단에는 / 반드시 리더가 1명 있어요.	BMsg.dat:k_sys#88	KGGuide_BB03_0	배틀에 참가하는 군단에는 / 반드시 1명의 대장이 존재합니다.	0.67
+BMsg/b_sys#729	KJ_Msg_quest_53	ばくれつ！ばくはつ部隊！	폭렬! 폭발 부대!	BMsg.dat:k_sys#553	KMsg_quest_53	얼음 위 창던지기 축제	0.00
+BMsg/b_sys#733	Menu_KJ_Chr_exp_patapata_rd	赤いコウラと白い羽のシンフォニー。 / 緑のパタパタより少しパワーがある。	빨간 등껍질과 하얀 날개의 심포니. / 초록 펄럭펄럭보다 파워가 조금 더 세다.	BMsg.dat:k_sys#311	KMsgChr_exp_patapata_rd	무거운 등껍질과 가벼운 날개의 하모니. / 창창호와 같이 창을 든 적에게 강함.	0.17
+BMsg/b_sys#734	Ns_ItemExpL_S	エンキョリEXPマメS	원거리EXP콩S	BMsg.dat:k_sys#366	Ns_ItemExpL_S	원거리 EXP 콩 S	1.00
+BMsg/b_sys#740	Hint_powerup_0	モンスターが強いと感じたら / レベル と そうび品 をチェックしましょう。	몬스터가 강하다고 느껴지면 / 레벨과 장비를 확인하세요.	BMsg.dat:b_sys#309	Hint_powerup_0	몬스터가 너무 강하다고 느껴지면 / 레벨과 장비품을 체크해 보세요.	0.73
+BMsg/b_sys#741	KJGuide_BA08_1	相手にぶつかるたびに / ボタンを押しましょう！	상대에게 부딪칠 때마다 /  버튼을 누르세요!	BMsg.dat:k_sys#96	KGGuide_BA08_1	상대에게 부딪칠 때 /  버튼을 누르세요!	0.93
+BMsg/b_sys#743	KJGuide_BB03_1	相手軍団のリーダーのHPを / ゼロにすると勝利になります。	상대 군단 리더의 HP를 / 0으로 만들면 승리해요.	BMsg.dat:k_sys#97	KGGuide_BB03_1	상대편 군단 대장의 HP를 / 0으로 만들면 승리하게 됩니다.	0.68
+BMsg/b_sys#744	KJ_Msg_quest_54	整列！のっぽ軍団！	정렬! 키다리 군단!	BMsg.dat:k_sys#562	KMsg_quest_54	골드콩바의 역습	0.00
+BMsg/b_sys#751	BtlGuide_add_00	バトルガイドに項目が追加されました。	배틀 가이드에 항목이 추가되었습니다.	BMsg.dat:b_sys#316	BtlGuide_add_00	배틀 가이드에 항목이 추가되었습니다.	1.00
+BMsg/b_sys#754	Hint_powerup_1	モンスターのほうが レベルが高ければ / レベルの低い弱いモンスターをやっつけて / レベルアップしましょう。	몬스터의 레벨이 더 높다면 / 레벨이 낮은 약한 몬스터를 물리쳐서 / 레벨 업하세요.	BMsg.dat:b_sys#324	Hint_powerup_1	몬스터 레벨이 마리오브라더스보다 높다면 / 레벨이 낮은 약한 몬스터를 잡아 / 레벨 업하세요.	0.71
+BMsg/b_sys#755	KJ_Msg_quest_55	げきとつ！SSカンパニー！	격돌! SS컴퍼니!	BMsg.dat:k_sys#572	KMsg_quest_55	쿠파제트의 부활	0.00
+BMsg/b_sys#762	BtlGuide_18_0	ブラザーアタックやボコスカアタックが / 難しい時は かんたんアタックモードを / 選んでみましょう。	마리오 형제나 쿠파의 스페셜 어택이 / 어려울 때는 간단 어택 모드를 / 선택해 보세요.	BMsg.dat:b_sys#332	BtlGuide_18_0	핸드를 선택하면 마리오는 파이어,  / 루이지는 선더로 몬스터를 공격합니다.	0.21
+BMsg/b_sys#766	Hint_powerup_2	モンスターのレベルは / モンスターの名前のとなりに 書かれています。	몬스터의 레벨은 / 몬스터 이름 옆에 적혀 있어요.	BMsg.dat:b_sys#338	Hint_powerup_2	몬스터 레벨은 / 몬스터 이름 옆에 적혀 있습니다.	0.78
+BMsg/b_sys#767	KJMsg_challenge_10	とつげきタイプを全て仲間にする	돌격 타입을 모두 동료로 삼는다	BMsg.dat:k_sys#148	KMsg_challenge_10	모든 굼바족이 아군이 되었다	0.00
+BMsg/b_sys#768	KJ_Msg_quest_56	ヘイホーファミリー大集合！	헤이호 패밀리 대집합!	BMsg.dat:k_sys#589	KMsg_quest_56	3인조의 마지막 찬스	0.00
+BMsg/b_sys#773	N_ItemExpL_S	エンキョリEXPマメS	원거리EXP콩S	BMsg.dat:k_sys#392	N_ItemExpL_S	원거리 EXP 콩 S	1.00
+BMsg/b_sys#775	BtlGuide_09_0	モンスターを全滅させて バトルに勝利すれば / マリオ達の EXPがたまっていきます。 / ある程度たまれば レベルが上がります。	몬스터를 전멸시켜서 배틀에서 승리하면 / 마리오 일행의 EXP가 쌓여요. / 어느 정도 쌓이면 레벨이 올라가요.	BMsg.dat:b_sys#346	BtlGuide_09_0	마리오 형제의 능력치는 / 메뉴의 「스테이터스」에서 확인 가능합니다.	0.12
+BMsg/b_sys#776	BtlGuide_18_1	消費BPが 少しだけ増える代わりに / タイミングが成功しやすくなります。	소비 SP가 조금 늘어나는 대신 / 타이밍을 맞추기 쉬워져요.	BMsg.dat:b_sys#347	BtlGuide_18_1	몬스터의 약점일 경우 / 큰 대미지를 줄 수 있습니다.	0.00
+BMsg/b_sys#781	Hint_powerup_3	新しいそうび品を手に入れたら スターメニューの / 「そうび」をチェックしましょう。	새 장비를 획득하면 스타 메뉴의 / 「장비」를 확인하세요.	BMsg.dat:b_sys#350	Hint_powerup_3	새로운 장비품을 획득하면 메뉴의 / 「장비」를 체크해 보세요.	0.50
+BMsg/b_sys#783	KJMsg_challenge_11	ひこうタイプを全て仲間にする	비행 타입을 모두 동료로 삼는다	BMsg.dat:k_sys#159	KMsg_challenge_11	모든 엉금엉금족이 아군이 되었다	0.00
+BMsg/b_sys#784	KJ_Msg_quest_57	迷子の宇宙人	길 잃은 외계인	BMsg.dat:k_sys#602	KMsg_quest_57	대장의 도전(부끄부끄골드)	0.00
+BMsg/b_sys#791	BtlGuide_09_1	レベルが上がると 与えるダメージが上がったり / マリオ達の HPが増えたりして / モンスターを 倒しやすくなります。	레벨이 올라가면 입히는 타격이 커지거나 / 마리오 일행의 HP가 늘어나서 / 몬스터를 쓰러뜨리기 쉬워져요.	BMsg.dat:b_sys#357	BtlGuide_09_1	「HP」「BP」「POW」「DEF」 / 「SPEED」「SUYEOM」총 6종류가 있습니다.	0.03
+BMsg/b_sys#795	Hint_powerup_4	敵の攻撃に当たってしまうなら / HP や DEF が高くなるそうびをしましょう。	적의 공격에 자꾸 맞는다면 / HP나 DEF가 높아지는 장비를 착용하세요.	BMsg.dat:b_sys#361	Hint_powerup_4	적의 공격에 쉽게 당한다면 / HP와 DEF가 상승하는 장비를 활용하세요.	0.55
+BMsg/b_sys#798	KJGuide_O10	アイテムで きょうか	아이템으로 강화	BMsg.dat:k_sys#676	KGGuide_O10	즐겨찾기★	0.00
+BMsg/b_sys#799	KJMsg_challenge_12	えんきょりタイプを全て仲間にする	원거리 타입을 모두 동료로 삼는다	BMsg.dat:k_sys#170	KMsg_challenge_12	모든 헤이호족이 아군이 되었다	0.00
+BMsg/b_sys#800	KJ_Msg_quest_58	１人じゃ戦えない	혼자서는 싸울 수 없어	BMsg.dat:k_sys#613	KMsg_quest_58	헤이호 막 던지기	0.00
+BMsg/b_sys#807	Ns_ItemExp_S	スーパーEXPマメS	슈퍼EXP콩S	BMsg.dat:k_sys#406	Ns_ItemExp_S	슈퍼 EXP 콩 S	1.00
+BMsg/b_sys#808	SoloJump_L_00	ジャンプ	점프	BMsg.dat:b_sys#363	SoloJump_L_00	점프	1.00
+BMsg/b_sys#809	BtlGuide_09_2	モンスターが強いと 感じたら / 倒しやすいモンスターと バトルして / レベルを上げてから 進みましょう。	몬스터가 강하다고 느껴지면 / 쓰러뜨리기 쉬운 몬스터와 배틀해서 / 레벨을 올린 다음 나아가세요.	BMsg.dat:b_sys#366	BtlGuide_09_2	HP는 체력입니다. / 대미지를 받으면 줄어들고 0이 되면 기절합니다.	0.00
+BMsg/b_sys#812	KJGuide_BA10_0	相手の上へ移動してから / 勢いよく落下して / 強力なダメージを与えます。	상대의 위로 이동한 다음 / 힘차게 떨어져서 / 강력한 타격을 입혀요.	BMsg.dat:k_sys#773	KGGuide_BA10_0	상대에게 부딪친 다음 폭발하여 / 그 주변의 적에게도 대미지를 줍니다. / 폭발 후에는 다음 배틀까지 퇴장합니다.	0.08
+BMsg/b_sys#814	KJGuide_O11	はいちがえ	배치 변경	BMsg.dat:k_sys#687	KGGuide_O11	아이템으로 강화하기	0.00
+BMsg/b_sys#815	KJMsg_challenge_13	全てのサブリーダーを仲間にする	모든 서브 리더를 동료로 삼는다	BMsg.dat:k_sys#177	KMsg_challenge_13	모든 부끄부끄족이 아군이 되었다	0.08
+BMsg/b_sys#816	KJ_Msg_quest_01	クリボーの特訓！	굼바의 특훈!	BMsg.dat:k_sys#627	KMsg_quest_01	굼바 출발	0.33
+BMsg/b_sys#817	KJ_Msg_quest_59	クッパ７人衆のチカラ	쿠파 7인조의 힘	BMsg.dat:k_sys#628	KMsg_quest_59	유령 파티!	0.00
+BMsg/b_sys#823	Menu_KJ_Chr_exp_kameck_gr	緑の服を着たカメック。 / 魔法の杖で 近くの味方をスピードアップ！	초록색 옷을 입은 마귀. / 마법 지팡이로 근처 아군을 스피드 업!	BMsg.dat:k_sys#867	KMsgChr_exp_kameck_gr	초록 옷을 입은 마귀. / 마법 지팡이로 주변 캐릭터 명중률 업!	0.55
+BMsg/b_sys#828	Hint_use_kinoko_0	マリオ達のバトルでは アイテム「ナッツ」 が  / ２人同時に 回復できて便利です。	마리오 일행의 배틀에서는 아이템 「너트」로 / 2명을 동시에 회복할 수 있어서 편리해요.	BMsg.dat:b_sys#381	Hint_use_kinoko_0	아이템 「너트」는 / 2명이 동시에 회복할 수 있어 편리합니다.	0.64
+BMsg/b_sys#829	KJGuide_BA06_0	相手に向かって頭から飛びこみ / 強力な頭突きを食らわせます。	상대를 향해 머리부터 날아들어 / 강력한 박치기를 먹여요.	BMsg.dat:k_sys#152	KGGuide_BA06_0	큰 무기를 내던져 / 상대편에 많은 대미지를 줍니다.	0.11
+BMsg/b_sys#830	KJGuide_BA10_1	相手の頭上でくるっと / 回転したら落下の合図。 / ふみつけと同時にボタン！	상대의 머리 위에서 빙글 / 회전하면 떨어진다는 신호. / 밟는 순간  버튼!	BMsg.dat:k_sys#790	KGGuide_BA10_1	상대에게 부딪칠 때 /  버튼을 누르세요!	0.14
+BMsg/b_sys#831	KJGuide_BB01_0	バトルがスタートしたら / 仲間も敵も それぞれ相手を見つけて / オートで戦い始めます。	배틀이 시작되면 / 동료도 적도 각자 상대를 찾아서 / 자동으로 싸우기 시작해요.	BMsg.dat:k_sys#154	KGGuide_BB01_0	배틀이 시작되면 / 아군과 적군이 각각 상대를 찾아 / 자동으로 전투를 합니다.	0.45
+BMsg/b_sys#833	KJGuide_O12	じんけいボーナス	진형 보너스	BMsg.dat:k_sys#698	KGGuide_O12	리더 액션 조합하기	0.00
+BMsg/b_sys#834	KJMsg_challenge_14	１００回以上 マメを使う	100회 이상 콩을 사용한다	BMsg.dat:k_sys#189	KMsg_challenge_14	모든 돌격 타입이 아군이 되었다	0.00
+BMsg/b_sys#835	KJ_Msg_quest_02	ヘイホーの修行！	헤이호의 수행!	BMsg.dat:k_sys#638	KMsg_quest_02	굼바 VS 콩바	0.00
+BMsg/b_sys#851	Hint_use_kinoko_1	アイテムは バトル以外でも使えます。 / 減ってしまったHPは キノコやチキンで / 回復しておきましょう。	아이템은 배틀 밖에서도 쓸 수 있어요. / 줄어든 HP는 버섯이나 치킨으로 / 회복해 두세요.	BMsg.dat:b_sys#390	Hint_use_kinoko_1	아이템은 배틀이 아닐 때도 사용 가능합니다. / HP가 떨어지면 버섯으로 회복해 두세요.	0.41
+BMsg/b_sys#853	KJGuide_BA06_1	相手にぶつかる時に / ボタンを押しましょう！	상대에게 부딪칠 때 /  버튼을 누르세요!	BMsg.dat:k_sys#164	KGGuide_BA06_1	상대편 위에서 움직이는 커서가 / 몸의 정중앙과 겹치면  버튼!	0.14
+BMsg/b_sys#855	KJGuide_BB01_1	戦う相手がいなくなったら / また新たに相手を探して移動し / 戦いをくりかえします。	싸울 상대가 없어지면 / 다시 새로운 상대를 찾아서 이동해 / 싸움을 되풀이해요.	BMsg.dat:k_sys#165	KGGuide_BB01_1	전투 상대가 없어지면  / 또 새로운 상대를 찾아 이동하여 / 전투를 계속합니다.	0.48
+BMsg/b_sys#859	KJMsg_challenge_15	モンスターを１０００体やっつける	몬스터를 1000마리 쓰러뜨린다	BMsg.dat:k_sys#195	KMsg_challenge_15	모든 비행 타입이 아군이 되었다	0.00
+BMsg/b_sys#860	KJ_Msg_quest_03	テレサの試練！	부끄부끄의 시련!	BMsg.dat:k_sys#647	KMsg_quest_03	최강 해머를 찾아서	0.00
+BMsg/b_sys#871	Menu_KJ_Chr_exp_kameck_bl	クッパJr.の世話係。 / ほうきに乗ってくりだされるれんしゃは強力。	쿠파주니어의 돌보미. / 빗자루를 타고 날리는 연사는 강력하다.	BMsg.dat:k_sys#884	KMsgChr_exp_kameck_bl	파란 옷을 입은 마귀. / 빗자루를 타고 적진에 쳐들어감.	0.25
+BMsg/b_sys#881	KJMsg_challenge_16	元隊長の４体を仲間にする	전 대장 4명을 동료로 삼는다	BMsg.dat:k_sys#204	KMsg_challenge_16	모든 원거리 타입이 아군이 되었다	0.00
+BMsg/b_sys#882	KJ_Msg_quest_04	ノコノコの洗礼！	엉금엉금의 세례!	BMsg.dat:k_sys#658	KMsg_quest_04	하늘을 나는 배신자	0.00
+BMsg/b_sys#894	BtlGuide_16_0	イージーモードを使えば マリオ達が強くなり / モンスターを 倒しやすくなります。	이지 모드를 사용하면 마리오 일행이 강해져서 / 몬스터를 쓰러뜨리기 쉬워져요.	BMsg.dat:b_sys#398	BtlGuide_16_0	해머를 선택하면 몬스터를 때려 / 대미지를 줄 수 있습니다.	0.18
+BMsg/b_sys#896	E_ItemHp	食べるとHPが１アップするマメ。	먹으면 HP가 1 증가하는 콩.	BMsg.dat:k_sys#438	E_ItemHp	먹으면 HP가 1 상승하는 콩.	0.73
+BMsg/b_sys#902	KJMsg_challenge_17	SSカンパニーを倒す	SS컴퍼니를 쓰러뜨린다	BMsg.dat:k_sys#215	KMsg_challenge_17	몬스터를 1000마리 무찔렀다	0.00
+BMsg/b_sys#903	KJ_Msg_quest_05	ラリーのひまつぶし	래리의 심심풀이	BMsg.dat:k_sys#666	KMsg_quest_05	후훗 돌격부대	0.00
+BMsg/b_sys#910	Menu_KJ_Chr_exp_jugemu	雲に乗ってアッチコッチ大いそがし。 / トゲゾーには強いがヘイホー隊長のカブが苦手。	구름을 타고 여기저기 바쁘게 돌아다닌다. / 가시돌이엔 강하지만 헤이호 대장 순무엔 약하다.	BMsg.dat:k_sys#715	KMsgChr_exp_jugemu	구름을 타고 여기저기 동분서주. / 가시돌이와 콩바에게 강하고 헤이호의 순무에 약함.	0.45
+BMsg/b_sys#911	Menu_KJ_Chr_exp_kuribo	クッパ軍団の一番バッター。 / すばやく動いて 相手に突撃！	쿠파 군단의 1번 타자. / 재빠르게 움직여 상대에게 돌격!	BMsg.dat:k_sys#716	KMsgChr_exp_kuribo	쿠파군단 첫 타자. / 재빠른 움직임으로 상대를 향해 돌격!	0.43
+BMsg/b_sys#917	Target_ML	マリオ&ルイージ	마리오&루이지	BMsg.dat:b_sys#401	Target_ML	마리오&루이지	1.00
+BMsg/b_sys#919	BtlGuide_07_0	モンスターの攻撃中も アクションでき / そのアクションでモンスターの攻撃を / よけられれば ダメージをゼロにできます。	몬스터가 공격하는 중에도 액션을 할 수 있고 / 그 액션으로 몬스터의 공격을 / 피하면 타격을 0으로 만들 수 있어요.	BMsg.dat:b_sys#403	BtlGuide_07_0	몬스터를 전멸시켜 배틀에서 이기면 / 마리오 형제의 EXP가 쌓입니다. / 일정량이 쌓이면 레벨이 올라갑니다.	0.05
+BMsg/b_sys#920	BtlGuide_16_1	イージーモードは スターメニューの「せってい」か / または ゲームオーバーになると選べます。 / 難しいなと感じたら 使ってみましょう。	이지 모드는 스타 메뉴의 「설정」이나 / 게임 오버가 되었을 때 선택할 수 있어요. / 어렵다고 느껴지면 사용해 보세요.	BMsg.dat:b_sys#405	BtlGuide_16_1	가시 몬스터 등 밟을 수 없는 몬스터는 / 해머로 공격해 보세요.	0.13
+BMsg/b_sys#928	KJMsg_challenge_18	クエストを１００回以上クリア	퀘스트를 100회 이상 클리어	BMsg.dat:k_sys#229	KMsg_challenge_18	스테이지 클리어 횟수 100번 이상	0.42
+BMsg/b_sys#929	KJ_Msg_quest_06	トリッキーコンビ	트리키 콤비	BMsg.dat:k_sys#673	KMsg_quest_06	비행 타입 콩 	0.00
+BMsg/b_sys#934	Kj_Btl_lose_msg_hint_h	とつげきタイプとひこうタイプの / 敵が多くでるようです。ひこうタイプに強い / えんきょりタイプを後ろの方に / できるだけ多く入れてみましょう！	돌격 타입과 비행 타입 / 적이 많이 나오는 것 같아요.비행 타입에 강한 / 원거리 타입을 뒤쪽에 / 되도록 많이 넣어 보세요!	BMsg.dat:k_sys#883	KMsgBtl_lose_msg_hint_h	이 퀘스트에는 비행 타입 / 적이 많이 등장합니다.편성 메뉴에서 비행 타입에 강한 / 원거리 타입을 많이 배치해 보세요!	0.49
+BMsg/b_sys#947	KJMsg_challenge_19	仲間にしたキャラクター １００体	동료로 삼은 캐릭터 100명	BMsg.dat:k_sys#236	KMsg_challenge_19	아군으로 가입한 캐릭터 100마리	0.45
+BMsg/b_sys#948	KJ_Msg_quest_07	ぼっちゃんの実力	도련님의 실력	BMsg.dat:k_sys#683	KMsg_quest_07	해머 막 던지기	0.00
+BMsg/b_sys#959	N_ItemPow	POWマメ	POW콩	BMsg.dat:k_sys#464	N_ItemPow	POW 콩	1.00
+BMsg/b_sys#960	Ns_ItemExp_DX	スーパーEXPマメDX	슈퍼EXP콩DX	BMsg.dat:k_sys#465	Ns_ItemExp_DX	슈퍼 EXP 콩 DX	1.00
+BMsg/b_sys#961	Retry_title	バトルをやりなおしますか？	배틀을 다시 시작할까요?	BMsg.dat:b_sys#414	Retry_title	재도전하시겠습니까?	0.00
+BMsg/b_sys#966	KJ_Msg_quest_08	とつげき！時々ハンマー	돌격! 가끔 해머	BMsg.dat:k_sys#694	KMsg_quest_08	굼바부대 VS 굼바부대	0.00
+BMsg/b_sys#986	KJGuide_BA04_0	相手にぶつかった後 爆発して / 近くの敵にもダメージを与えます。 / 爆発後は次のバトルまでいなくなります。	상대에게 부딪친 뒤 폭발해서 / 근처의 적에게도 타격을 입혀요. / 폭발한 뒤에는 다음 배틀까지 사라져요.	BMsg.dat:k_sys#220	KGGuide_BA04_0	상대편 위로 이동한 뒤 / 엄청난 기세로 낙하하여 / 강력한 대미지를 줍니다.	0.07
+BMsg/b_sys#987	KJ_Msg_quest_09	まかふしぎマガツリー	기기묘묘 몬트리	BMsg.dat:k_sys#705	KMsg_quest_09	모든 것을 잊은 쿠파님	0.00
+BMsg/b_sys#988	KJ_Msg_quest_70	忘れ去られた３兄弟	잊힌 3형제	BMsg.dat:k_sys#707	KMsg_quest_70	따끔따끔 패닉!	0.00
+BMsg/b_sys#993	Menu_KJ_Chr_exp_dteresa	とてつもなく大きなテレサ。 / スピードはないが体力とパワーはダントツ。	엄청나게 커다란 부끄부끄. / 스피드는 없지만 체력과 파워는 압도적이다.	BMsg.dat:k_sys#473	KMsgChr_exp_dteresa	몸이 큰 부끄부끄. 속도는 느리지만 / 체력과 파워가 압도적인 비행 타입.	0.41
+BMsg/b_sys#997	Ns_ItemExpF_L	ヒコウEXPマメL	비행EXP콩L	BMsg.dat:k_sys#483	Ns_ItemExpF_L	비행 EXP 콩 L	1.00
+BMsg/b_sys#1004	KJGuide_BA04_1	相手にぶつかる時に / ボタンを押しましょう！	상대에게 부딪칠 때 /  버튼을 누르세요!	BMsg.dat:k_sys#232	KGGuide_BA04_1	상대편 머리 위에서 빙글 돌면 / 낙하한다는 신호입니다. / 상대를 밟는 동시에  버튼!	0.14
+BMsg/b_sys#1014	Menu_KJ_Chr_exp_ibros	冷たい氷はファイアブロスにバツグンの効果！ / ナイショだがプロペラヘイホーが苦手。	차가운 얼음은 파이어브러스에게 효과 만점! / 비밀이지만 프로펠러헤이호에게 약하다.	BMsg.dat:k_sys#839	KMsgChr_exp_ibros	차가운 얼음은 파이어브러스에게 효과 만점! / 무표정으로 날아오는 프로펠러헤이호에게 약함.	0.76
+BMsg/b_sys#1016	N_ItemExp_DX	スーパーEXPマメDX	슈퍼EXP콩DX	BMsg.dat:k_sys#494	N_ItemExp_DX	슈퍼 EXP 콩 DX	1.00
+BMsg/b_sys#1017	Ns_ItemExpF_M	ヒコウEXPマメM	비행EXP콩M	BMsg.dat:k_sys#495	Ns_ItemExpF_M	비행 EXP 콩 M	1.00
+BMsg/b_sys#1023	KJGuide_O09_0	軍団へんせいでキャラクターを / タッチしつづけると / お気に入り（★）にすることができます。	군단 편성에서 캐릭터를 / 계속 터치하고 있으면 / 즐겨찾기(★)에 등록할 수 있어요.	BMsg.dat:k_sys#923	KGGuide_O09_0	스테이지를 선택했을 때 / 그 스테이지에 출현하는 적의 정보를 / 볼 수 있습니다.	0.03
+BMsg/b_sys#1032	BtlGuide_14_0	ブラザーアタックを選ぶと / マリオとルイージが協力して攻撃します！	스페셜 어택을 선택하면 / 마리오와 루이지가 협력해서 공격해요!	BMsg.dat:b_sys#451	BtlGuide_14_0	이지 모드일 때와 / 마리오 형제 전멸 후 재도전한 배틀일 때는 / 힌트 메시지가 표시됩니다.	0.16
+BMsg/b_sys#1046	N_ItemExpF_L	ヒコウEXPマメL	비행EXP콩L	BMsg.dat:k_sys#511	N_ItemExpF_L	비행 EXP 콩 L	1.00
+BMsg/b_sys#1048	Target_Mario	マリオ	마리오	BMsg.dat:b_sys#454	Target_Mario	마리오	1.00
+BMsg/b_sys#1050	BtlGuide_05_0	おてほんでは おてほんムービーが見られます。 / アクション成功の タイミングを見ておきましょう。	시범에서는 시범 영상을 볼 수 있어요. / 액션이 성공하는 타이밍을 봐 두세요.	BMsg.dat:b_sys#459	BtlGuide_05_0	몬스터의 공격으로 대미지를 받으면 / 마리오와 루이지의 HP가 줄어듭니다. / HP가 0이 되면 기절하여 움직이지 못합니다.	0.00
+BMsg/b_sys#1051	BtlGuide_10	エンカウント	인카운트	BMsg.dat:b_sys#460	BtlGuide_10	공격 대상 캐릭터 구별법	0.00
+BMsg/b_sys#1052	BtlGuide_14_1	ブラザーアタックを使えば アクション成功で / モンスターに 大ダメージを与えられます。	스페셜 어택을 쓰면 액션에 성공했을 때 / 몬스터에게 큰 타격을 입힐 수 있어요.	BMsg.dat:b_sys#461	BtlGuide_14_1	힌트를 보려면 아래 화면 가운데에 있는 / 힌트 버튼을 터치하세요.	0.00
+BMsg/b_sys#1063	N_ItemExpF_M	ヒコウEXPマメM	비행EXP콩M	BMsg.dat:k_sys#518	N_ItemExpF_M	비행 EXP 콩 M	1.00
+BMsg/b_sys#1065	BtlGuide_05_1	れんしゅうでは アタックを実際にためせます。 / 繰り返し れんしゅうしてコツをつかみましょう。	연습에서는 어택을 실제로 해 볼 수 있어요. / 반복해서 연습하며 요령을 익히세요.	BMsg.dat:b_sys#467	BtlGuide_05_1	마리오와 루이지의 HP가 / 모두 0이 되면 게임 오버입니다.	0.00
+BMsg/b_sys#1066	BtlGuide_11	基本⑤：ステータスについて	기본⑤: 능력에 대해	BMsg.dat:b_sys#468	BtlGuide_11	브라더 어택으로 공격하기	0.00
+BMsg/b_sys#1067	BtlGuide_14_2	アタックを使うと BPを消費します。 / アイテムの「シロップ」などで 回復しましょう。	어택을 쓰면 SP를 소비해요. / 아이템 「시럽」 등으로 회복하세요.	BMsg.dat:b_sys#469	BtlGuide_14_2	몬스터를 쓰러트리기 위한 힌트뿐 아니라 / 도움이 되는 정보도 얻을 수 있습니다. / 표시를 발견하면 바로 확인해 보세요.	0.04
+BMsg/b_sys#1076	BtlGuide_12	狙われるキャラクターの見分け方	공격받을 캐릭터 구별법	BMsg.dat:b_sys#478	BtlGuide_12	긴급 가드	0.00
+BMsg/b_sys#1088	Ns_ItemSpd	SPEEDマメ	SPEED콩	BMsg.dat:k_sys#538	Ns_ItemSpd	SPEED 콩	1.00
+BMsg/b_sys#1090	SoloHammer_M_00_0	ハンマーを振りかぶったら ボタン！ / 成功させて Excellent を狙いましょう。	해머를 치켜들면  버튼! / 성공시켜서 Excellent를 노려 보세요.	BMsg.dat:b_sys#480	SoloHammer_M_00_0	해머를 들어 올리면  버튼! / 성공해서 Excellent를 획득해 보세요.	0.64
+BMsg/b_sys#1093	BtlGuide_13	アシストきのう	어시스트 기능	BMsg.dat:b_sys#487	BtlGuide_13	이지 모드	0.00
+BMsg/b_sys#1099	KJGuide_BA02_0	戦っている相手をぶっとばして / 後ろの敵にぶつけます。 / ぶつかった敵もダメージをくらいます。	싸우고 있는 상대를 날려 버려서 / 뒤에 있는 적에게 부딪치게 해요. / 부딪힌 적도 타격을 입어요.	BMsg.dat:k_sys#279	KGGuide_BA02_0	상대의 머리 위를 향해 점프하여 / 연속으로 최대 두 번 / 밟을 수 있습니다.	0.04
+BMsg/b_sys#1105	Menu_KJ_Chr_exp_bbros	華麗にブーメランを操り 敵をしとめる。 / サンボなど背の高い敵のおなかを狙うのが得意。	화려하게 부메랑을 다뤄 적을 해치운다. / 선인 같은 키 큰 적의 배를 노리는 게 특기.	BMsg.dat:k_sys#899	KMsgChr_exp_bbros	화려한 부메랑 기술로 적을 무찌름. / 선인과 타워굼바에게 특히 강함.	0.23
+BMsg/b_sys#1106	N_ItemHp	HPマメ	HP콩	BMsg.dat:k_sys#545	N_ItemHp	HP 콩	1.00
+BMsg/b_sys#1107	Ns_ItemExpF_S	ヒコウEXPマメS	비행EXP콩S	BMsg.dat:k_sys#546	Ns_ItemExpF_S	비행 EXP 콩 S	1.00
+BMsg/b_sys#1111	BtlGuide_14	ブラザーアタックでの攻撃	스페셜 어택으로 공격	BMsg.dat:b_sys#495	BtlGuide_14	힌트	0.00
+BMsg/b_sys#1113	KJGuide_BA02_1	相手にぶつかる時に / ボタンを押しましょう！	상대에게 부딪칠 때 /  버튼을 누르세요!	BMsg.dat:k_sys#290	KGGuide_BA02_1	밟을 때  버튼. / 성공하면 한 번 더 밟을 기회!	0.14
+BMsg/b_sys#1114	KJGuide_O11_0	軍団へんせいでボタンを押すと / 出撃メンバーの配置を変更する / 「はいちがえ」を行うことができます。	군단 편성에서  버튼을 누르면 / 출격 멤버의 자리를 바꾸는 / 「배치 변경」을 할 수 있어요.	BMsg.dat:k_sys#26	KGGuide_O11_0	「강화」에서는 캐릭터에게 / 콩을 주어 강하게 만들 수 있습니다.	0.09
+BMsg/b_sys#1115	KJMsg_challenge_xx	？？？？	????	BMsg.dat:k_sys#322	KMsg_challenge_xx	????	0.00
+BMsg/b_sys#1116	KJ_Msg_quest_20	シュッと強襲！SSカンパニー！	슈슉 기습! SS컴퍼니!	BMsg.dat:k_sys#784	KMsg_quest_20	출격! 등껍질군단	0.00
+BMsg/b_sys#1125	Menu_KJ_Chr_exp_gabon	クチからシューリンガンを出して投げつける。 / ノコノコやパタパタのコウラが狙いやすいとか。	입에서 가시철구를 꺼내 던진다. / 엉금엉금이나 펄럭펄럭의 등껍질이 노리기 쉽다나.	BMsg.dat:k_sys#906	KMsgChr_exp_gabon	입에서 가시기둥을 꺼내 던짐. / 크게 내던지기 기술은 특히 강력함!	0.24
+BMsg/b_sys#1129	BtlGuide_15	きんきゅうガード	긴급 가드	BMsg.dat:b_sys#501	BtlGuide_15	간단 어택 모드	0.00
+BMsg/b_sys#1135	KJGuide_O07_0	「軍団へんせい」や「アイテム」で / プロフィールと書かれているボタンを押すと / 選んでいるキャラクターの情報が見られます。	「군단 편성」이나 「아이템」에서 / 프로필이라고 적힌 버튼을 누르면 / 선택한 캐릭터의 정보를 볼 수 있어요.	BMsg.dat:k_sys#33	KGGuide_O07_0	캐릭터가 너무 많을 때는 / 「편성」에서  버튼을 눌러 / 캐릭터와 작별할 수 있습니다.	0.23
+BMsg/b_sys#1137	KJ_Msg_quest_21	足元にご注意	발밑 조심	BMsg.dat:k_sys#798	KMsg_quest_21	소다 향에 이끌려	0.00
+BMsg/b_sys#1143	Kj_Btl_lose_msg_hint_t	このクエストではとつげきタイプの / 敵が多くでるようです。とつげきタイプに強い / ひこうタイプを前の方に / できるだけ多く入れてみましょう！	이 퀘스트에서는 돌격 타입 / 적이 많이 나오는 것 같아요.돌격 타입에 강한 / 비행 타입을 앞쪽에 / 되도록 많이 넣어 보세요!	BMsg.dat:k_sys#34	KMsgBtl_lose_msg_hint_t	이 퀘스트에는 돌격 타입 / 적이 많이 등장합니다.편성 메뉴에서 돌격 타입에 강한 / 비행 타입을 많이 배치해 보세요!	0.61
+BMsg/b_sys#1153	BtlGuide_12_0	モンスターが攻撃するまでの しぐさの中に / 見わけるサインが あります。 / それを見つけましょう。	몬스터가 공격하기까지의 몸짓 속에 / 알아볼 수 있는 신호가 있어요. / 그것을 찾아보세요.	BMsg.dat:b_sys#510	BtlGuide_12_0	몬스터가 공격할 때  버튼을 누르고 있으면 / 공격을 막아 대미지를 줄일 수 있습니다.	0.19
+BMsg/b_sys#1154	BtlGuide_16	イージーモード	이지 모드	BMsg.dat:b_sys#511	BtlGuide_16	해머로 공격하기	0.00
+BMsg/b_sys#1159	KJGuide_O07_1	キャラクターの持っているアタックの名前や / 得意な相手など ここにしか / 書かれていない情報も…？	캐릭터가 가진 어택의 이름이나 / 자신 있는 상대 등 여기에만 / 적혀 있는 정보도…?	BMsg.dat:k_sys#39	KGGuide_O07_1	작별한 캐릭터는 / 아이템을 두고 가는 경우가 있습니다.	0.10
+BMsg/b_sys#1161	KJ_Msg_quest_22	イギーの置き土産	이기가 남긴 선물	BMsg.dat:k_sys#810	KMsg_quest_22	빨강 글래스는 누구의 손에	0.00
+BMsg/b_sys#1172	N_ItemExpF_S	ヒコウEXPマメS	비행EXP콩S	BMsg.dat:k_sys#573	N_ItemExpF_S	비행 EXP 콩 S	1.00
+BMsg/b_sys#1176	SoloHammer_L_00	ハンマー	해머	BMsg.dat:b_sys#516	SoloHammer_L_00	해머	1.00
+BMsg/b_sys#1179	BtlGuide_03_0	ジャンプを選べば モンスターを / ふみつけて ダメージを与えられます。	점프를 선택하면 몬스터를 / 밟아서 타격을 입힐 수 있어요.	BMsg.dat:b_sys#520	BtlGuide_03_0	점프를 고르면 몬스터를 / 밟아 대미지를 주게 됩니다.	0.40
+BMsg/b_sys#1180	BtlGuide_17	ヒント	힌트	BMsg.dat:b_sys#523	BtlGuide_17	해머 방어	0.00
+BMsg/b_sys#1181	KJGuide_BA19_0	自分と周囲の味方の / 攻撃力をアップさせます。	자신과 주위 아군의 / 공격력을 증가시켜요.	BMsg.dat:k_sys#7	KGGuide_BA19_0	자신과 주변 아군의  / 공격력을 업시킵니다.	0.56
+BMsg/b_sys#1182	KJGuide_BB14_0	軍団の中には / 「特定の相手に強い/弱い」という / 特性を持ったキャラクターもいます。	군단 중에는 / 「특정 상대에게 강하다/약하다」라는 / 특성을 가진 캐릭터도 있어요.	BMsg.dat:k_sys#9	KGGuide_BB14_0	가시가 있는 몬스터를 직접 공격하면 / 미미하긴 하지만 대미지를 입습니다.	0.00
+BMsg/b_sys#1184	KJ_Msg_quest_23	くいしんぼうにご用心	먹보 조심	BMsg.dat:k_sys#818	KMsg_quest_23	금색 콩바?	0.00
+BMsg/b_sys#1197	BtlGuide_03_1	空を飛んでいるモンスターに / とくに有効な攻撃です。	하늘을 날고 있는 몬스터에게 / 특히 효과적인 공격이에요.	BMsg.dat:b_sys#531	BtlGuide_03_1	하늘을 나는 몬스터에게 / 특히 유리한 공격입니다.	0.53
+BMsg/b_sys#1198	BtlGuide_18	かんたんアタックモード	간단 어택 모드	BMsg.dat:b_sys#533	BtlGuide_18	핸드로 공격하기	0.00
+BMsg/b_sys#1200	KJGuide_BA19_1	サークルがキャラクターの / 真ん中に来たらボタンを押しましょう。	원이 캐릭터의 / 한가운데에 오면  버튼을 누르세요.	BMsg.dat:k_sys#17	KGGuide_BA19_1	미터가 꼭대기까지 다 차면 /  버튼을 누르세요!	0.41
+BMsg/b_sys#1201	KJGuide_BB14_1	軍団へんせい画面などで / キャラクターを選びプロフィールを / 見てみると情報がのっています。	군단 편성 화면 등에서 / 캐릭터를 선택해 프로필을 / 보면 정보가 실려 있어요.	BMsg.dat:k_sys#19	KGGuide_BB14_1	가시가 있는 몬스터는 / 위에만 가시가 있는 것과 / 온몸이 가시로 덮힌 / 두 가지 타입이 있습니다.	0.00
+BMsg/b_sys#1203	KJ_Msg_quest_24	岬のチクチク部隊	곶의 따끔따끔 부대	BMsg.dat:k_sys#827	KMsg_quest_24	숲의 가면무도회	0.00
+BMsg/b_sys#1213	Menu_KJ_Chr_exp_teresa	暗い場所が大好きなオバケ。 / かいおんぱで敵にダメージ+SPEEDダウン！	어두운 곳을 아주 좋아하는 유령. / 괴음파로 적에게 타격+SPEED 다운!	BMsg.dat:k_sys#874	KMsgChr_exp_teresa	쿠파를 위해 부끄러워하지 않고 노력함. / 상대를 약올려 공격 회피!	0.00
+BMsg/b_sys#1215	MonName_Lv	 LV	 LV	BMsg.dat:b_sys#535	MonName_Lv	 LV	1.00
+BMsg/b_sys#1218	BtlGuide_19	ハンマーでの攻撃	해머 공격	BMsg.dat:b_sys#539	BtlGuide_19	상태 변화	0.00
+BMsg/b_sys#1221	KJGuide_BB14_2	有利な相手に攻撃が成功すると / 相手のモンスターの上に / 「CRITICAL（クリティカル）」が出ます。	유리한 상대에게 공격이 성공하면 / 상대 몬스터 위에 / 「CRITICAL(크리티컬)」이 나와요.	BMsg.dat:k_sys#25	KGGuide_BB14_2	위에만 가시가 있는 타입은 / 옆에서 공격하면 / 대미지를 입지 않습니다.	0.11
+BMsg/b_sys#1223	KJ_Msg_quest_25	キュウコンとナゾの生物	구근과 수수께끼의 생물	BMsg.dat:k_sys#834	KMsg_quest_25	얼음이 날아온다!	0.00
+BMsg/b_sys#1239	KJ_Msg_quest_26	クッパ軍団じゃない	쿠파 군단이 아니다	BMsg.dat:k_sys#846	KMsg_quest_26	보이지 않는 대장	0.00
+BMsg/b_sys#1247	Menu_KJ_Chr_exp_kricky	エリートを夢見るクリボー。 / 説教や攻撃をかわすのが得意。	엘리트를 꿈꾸는 굼바. / 잔소리나 공격을 피하는 게 특기.	BMsg.dat:k_sys#892	KMsgChr_exp_kricky	엘리트를 꿈꾸는 굼바. / 설교와 공격을 피하는 것이 주특기.	0.67
+BMsg/b_sys#1251	E_ItemExpF_DX	ひこうタイプの経験値が３０００アップ。 / 他のタイプが食べると効果は半分。	비행 타입의 EXP가 3000 증가. / 다른 타입이 먹으면 효과는 절반.	BMsg.dat:k_sys#629	E_ItemExpF_DX	비행 타입의 경험치가 3000 상승. / 다른 타입에게는 효과가 절반.	0.50
+BMsg/b_sys#1256	KJ_Msg_quest_27	ブキミな仮面部隊	으스스한 가면 부대	BMsg.dat:k_sys#859	KMsg_quest_27	숲의 평화를 위해?	0.00
+BMsg/b_sys#1267	Menu_KJ_Chr_exp_heifar	エリートを夢見るヘイホー。 / ビビりゆえに攻撃をよけるのが大得意。	엘리트를 꿈꾸는 헤이호. / 겁쟁이라서 공격을 피하는 게 특기 중의 특기.	BMsg.dat:k_sys#558	KMsgChr_exp_heifar	엘리트를 꿈꾸는 헤이호. / 겁쟁이여서 공격을 잘 피함.	0.75
+BMsg/b_sys#1268	Menu_KJ_Chr_exp_met	カタいメットはダテじゃない。 / 空を飛べるパタメットに闘志を燃やす。	단단한 헬멧은 괜히 쓴 게 아니다. / 하늘을 나는 펄럭하잉바에게 투지를 불태운다.	BMsg.dat:k_sys#728	KMsgChr_exp_met	단단한 헬멧은 장식이 아님. / 하늘을 나는 펄럭하잉바에게 투지를 불사름.	0.71
+BMsg/b_sys#1270	Menu_KJ_Chr_exp_patapata	緑のコウラと白い羽のハーモニー。 / 狙いを定めて 相手の脳天を直撃！	초록 등껍질과 하얀 날개의 하모니. / 잘 겨냥해서 상대의 정수리를 직격!	BMsg.dat:k_sys#622	KMsgChr_exp_patapata	무거운 등껍질과 가벼운 날개의 하모니. / 빙글 돌아 상대편 정수리에 직격탄!	0.44
+BMsg/b_sys#1274	KJGuide_BA01	超体当たり	초몸통박치기	BMsg.dat:k_sys#140	KGGuide_BA01	부딪치기	0.33
+BMsg/b_sys#1276	KJGuide_O05_0	「軍団へんせい」では / バトルに向かうメンバーを / 入れかえることができます。	「군단 편성」에서는 / 배틀에 나갈 멤버를 / 바꿀 수 있어요.	BMsg.dat:k_sys#107	KGGuide_O05_0	「편성」에서는 / 배틀에 출전하는 멤버를 / 교체할 수 있습니다.	0.50
+BMsg/b_sys#1277	KJ_Msg_quest_28	くいとめろ！キカンボー	막아라! 칙폭굼바	BMsg.dat:k_sys#872	KMsg_quest_28	파뇨의 파트너	0.00
+BMsg/b_sys#1284	Menu_KJ_Chr_exp_karon	カルシウム不足で体はちょっぴりモロい。 / ノコノコには負けたくないと思っている。	칼슘 부족으로 몸이 좀 잘 부서진다. / 엉금엉금에게는 지고 싶지 않다고 생각한다.	BMsg.dat:k_sys#334	KMsgChr_exp_karon	칼슘 부족으로 몸이 조금 약함. / 엉금엉금에게는 질 수 없다며 투지를 불태움.	0.45
+BMsg/b_sys#1287	BtlGuide_10_0	モンスターにふれると エンカウント！ / バトル開始です。	몬스터에게 닿으면 인카운트! / 배틀 시작이에요.	BMsg.dat:b_sys#565	BtlGuide_10_0	몬스터가 공격하기 전에 하는 행동에 / 누구를 공격할지 구별할 수 있는 / 힌트가 있습니다. 한 번 찾아 보세요. 	0.11
+BMsg/b_sys#1290	KJGuide_BA02	ぶっとばし	날려버리기	BMsg.dat:k_sys#151	KGGuide_BA02	연속 밟기	0.00
+BMsg/b_sys#1291	KJGuide_BA26_0	頭上のブロックを叩きキノコや武器を出します。 / キノコが出た時は自分が回復し / 武器が出た時は相手にダメージを与えます。	머리 위의 블록을 쳐서 버섯이나 무기를 꺼내요. / 버섯이 나오면 자신을 회복하고 / 무기가 나오면 상대에게 타격을 입혀요.	BMsg.dat:k_sys#63	KGGuide_BA26_0	죽은 척을 하는 동안은 / 적에게서 공격을 받지 않습니다. / HP도 조금씩 회복합니다.	0.09
+BMsg/b_sys#1293	KJGuide_O05_1	下画面のリストの中から / 入れかえたいキャラクターを選んで / 上画面にいるメンバーと入れかえます。	아래 화면의 리스트에서 / 바꾸고 싶은 캐릭터를 선택해서 / 위 화면에 있는 멤버와 바꿔요.	BMsg.dat:k_sys#117	KGGuide_O05_1	아래 화면의 리스트에서 / 바꾸고 싶은 캐릭터를 골라 / 위 화면에 있는 멤버와 교체합니다.	0.76
+BMsg/b_sys#1294	KJ_Msg_quest_29	地下に響く羽音	지하에 울리는 날갯소리	BMsg.dat:k_sys#879	KMsg_quest_29	헤이호가 너무해	0.00
+BMsg/b_sys#1304	BtlGuide_01_0	マリオ達はそれぞれ アクションするボタンが / 決まっています。	마리오 일행은 각자 액션하는 버튼이 / 정해져 있어요.	BMsg.dat:b_sys#574	BtlGuide_01_0	마리오 형제는 각자 조작 버튼이 정해져 있습니다. / 마리오는  버튼 / 루이지는  버튼으로 조작합니다.	0.50
+BMsg/b_sys#1305	BtlGuide_10_1	モンスターを ふんで エンカウントすると / ダメージをあたえて バトルを開始できます。	몬스터를 밟아서 인카운트하면 / 타격을 입히고 배틀을 시작할 수 있어요.	BMsg.dat:b_sys#575	BtlGuide_10_1	아래 화면의 어시스트 버튼을 터치하여 / 어시스트를 켜고 끌 수 있습니다.	0.04
+BMsg/b_sys#1307	KJGuide_BA03	とっしん	돌진	BMsg.dat:k_sys#163	KGGuide_BA03	로켓 박치기	0.00
+BMsg/b_sys#1308	KJGuide_BA17_0	相手の上を行ったり来たりする / カーソルが体の真ん中に / 重なるたびにボタン！	상대 위를 왔다 갔다 하는 / 커서가 몸 한가운데에 / 겹칠 때마다  버튼!	BMsg.dat:k_sys#74	KGGuide_BA17_0	던진 무기나 빔이 상대의 / 몸을 관통하여 뒤에 있는 / 모든 적이 대미지를 입습니다.	0.04
+BMsg/b_sys#1309	KJGuide_BA26_1	グループアタックの場合は / 自分と相手以外の近くにいるキャラクターにも / キノコや武器を投げることができます。	그룹 어택일 때는 / 자신과 상대 외에 근처에 있는 캐릭터에게도 / 버섯이나 무기를 던질 수 있어요.	BMsg.dat:k_sys#75	KGGuide_BA26_1	적에게 죽은 척이 들키면 / 그 순간 효과가 없어집니다. /  버튼으로 먼저 일어날 수도 있습니다.	0.03
+BMsg/b_sys#1310	KJGuide_BB12_0	サブリーダーコマンドはサブリーダーが / 使える特殊なコマンドで / 成長に応じて習得します。	서브 리더 커맨드는 서브 리더가 / 쓸 수 있는 특수한 커맨드로 / 성장에 따라 익혀요.	BMsg.dat:k_sys#77	KGGuide_BB12_0	돌격 타입과 비행 타입은 / 자신과 가장 가까이 있으며 상대가 없는 적을 / 찾아서 배틀을 시작합니다.	0.00
+BMsg/b_sys#1311	KJGuide_O05_2	入れかえるときに下画面では / キャラクターのステータスを / 見比べることができます。	바꿀 때 아래 화면에서는 / 캐릭터의 능력을 / 비교해 볼 수 있어요.	BMsg.dat:k_sys#124	KGGuide_O05_2	교체할 때 아래 화면에서 / 캐릭터의 스테이터스를 / 비교할 수 있습니다.	0.46
+BMsg/b_sys#1314	N_ItemGdd	GDDマメ	GDH콩	BMsg.dat:k_sys#667	N_ItemGdd	GDH 콩	1.00
+BMsg/b_sys#1317	BtlGuide_01_1	マリオはボタン ルイージはボタン / クッパはボタン でアクションをします。	마리오는  버튼, 루이지는  버튼, / 쿠파는  버튼으로 액션을 해요.	BMsg.dat:b_sys#584	BtlGuide_01_1	마리오 형제의 순서가 되면 / 커맨드블록을 선택하여 행동합니다.	0.09
+BMsg/b_sys#1323	KJGuide_BA04	ばくはつ	폭발	BMsg.dat:k_sys#172	KGGuide_BA04	정수리 깨기	0.00
+BMsg/b_sys#1324	KJGuide_BA17_1	ボタン入力を成功させるたびに / うつ弾が増えていき / 最後にまとめて発射します。	버튼 입력을 성공시킬 때마다 / 쏘는 탄이 늘어나고 / 마지막에 한꺼번에 발사해요.	BMsg.dat:k_sys#87	KGGuide_BA17_1	커서가 상대편 몸의 / 정중앙과 겹쳤을 때  버튼! / 찬스는 단 한 번!	0.04
+BMsg/b_sys#1325	KJGuide_BB08_0	バトル中モンスターが行動できる / 間隔はそれぞれ違います。	배틀 중 몬스터가 행동할 수 있는 / 간격은 저마다 달라요.	BMsg.dat:k_sys#383	KGGuide_BB08_0	캐릭터는 반드시 / 스페셜 스킬이라 불리는 / 특기를 한 개씩 갖고 있습니다.	0.00
+BMsg/b_sys#1326	KJGuide_BB12_1	サブリーダーコマンドはサブリーダーのLPを / 消費します。続けてバトルを行う場合には / 次のバトルの前に少しだけ回復します。	서브 리더 커맨드는 서브 리더의 LP를 / 소비해요. 배틀을 연속으로 할 때는 / 다음 배틀 전에 조금 회복돼요.	BMsg.dat:k_sys#89	KGGuide_BB12_1	원거리 타입은 조금 특수한 경우로, / 가까이에 배틀 중인 아군이 있을 때는 / 후방에서 엄호 공격을 합니다.	0.07
+BMsg/b_sys#1331	Menu_KJ_Chr_exp_bull	攻守ともに高いがハズしやすいのが玉にキズ。 / チョコマカ動くメカクッパがどうも苦手らしい。	공수 모두 뛰어나지만 잘 빗나가는 게 옥에 티. / 요리조리 움직이는 메카쿠파가 영 거북한 모양.	BMsg.dat:k_sys#260	KMsgChr_exp_bull	공수가 모두 뛰어나나 명중률이 낮은 것이 옥의 티. / 촐랑촐랑 움직이는 메카쿠파에게 약함.	0.34
+BMsg/b_sys#1332	Menu_KJ_Chr_exp_steresa	世にも珍しいしっぽの生えたテレサ。 / ブン回されるしっぽに当たると結構イタイ！	세상에 보기 드문 꼬리 달린 부끄부끄. / 붕붕 휘두르는 꼬리에 맞으면 꽤 아프다!	BMsg.dat:k_sys#27	KMsgChr_exp_steresa	보기 드문 꼬리가 달린 부끄부끄. / 꼬리에 맞으면 상당히 아픔!	0.65
+BMsg/b_sys#1337	BtlGuide_01_2	行動順がきたら コマンドブロックを選んで / 行動しましょう。	행동 순서가 오면 커맨드 블록을 선택해서 / 행동하세요.	BMsg.dat:b_sys#592	BtlGuide_01_2	슬라이드 패드 좌우로 블록을 선택한 후 / 각 캐릭터 버튼을 눌러 결정합니다.	0.19
+BMsg/b_sys#1341	KJGuide_BA05	ぶちかまし	들이받기	BMsg.dat:k_sys#180	KGGuide_BA05	다이브 어택	0.00
+BMsg/b_sys#1342	KJGuide_BB08_1	SPEEDが高いほど / たくさん行動できるようになります。	SPEED가 높을수록 / 많이 행동할 수 있게 돼요.	BMsg.dat:k_sys#393	KGGuide_BB08_1	배틀 중 캐릭터 머리 위에 / 「!」가 뜨면 스페셜 스킬이 / 발동된다는 신호입니다.	0.00
+BMsg/b_sys#1343	KJGuide_BB10	グループアタックについて	그룹 어택에 대해	BMsg.dat:k_sys#181	KGGuide_BB10	도전에 대해	0.50
+BMsg/b_sys#1352	BtlGuide_01_3	の左右で コマンドブロックを選び / キャラクターのボタンを押せば 決定できます。	 좌우로 커맨드 블록을 고르고 / 캐릭터별 버튼을 누르면 결정할 수 있어요.	BMsg.dat:b_sys#599	BtlGuide_01_3	몬스터를 전멸시키면 승리하게 됩니다. / 우선은 「점프」 블록을 선택하여 / 공격을 해 봅시다.	0.07
+BMsg/b_sys#1361	KJGuide_BA06	ロケットずつき	로켓박치기	BMsg.dat:k_sys#191	KGGuide_BA06	내던지기	0.00
+BMsg/b_sys#1362	KJGuide_BB11	リーダーコマンドについて	리더 커맨드에 대해	BMsg.dat:k_sys#192	KGGuide_BB11	캐릭터 배치에 대해	0.29
+BMsg/b_sys#1368	Menu_KJ_Chr_exp_kameck_rd	赤い服を着たカメック。 / 魔法の杖で 近くの味方をパワーアップ！	빨간색 옷을 입은 마귀. / 마법 지팡이로 근처 아군을 파워 업!	BMsg.dat:k_sys#185	KMsgChr_exp_kameck_rd	빨간 옷을 입은 마귀. / 마법 지팡이로 주변 캐릭터 파워 업!	0.67
+BMsg/b_sys#1377	E_ItemExpA_DX	とつげきタイプの経験値が３０００アップ。 / 他のタイプが食べると効果は半分。	돌격 타입의 EXP가 3000 증가. / 다른 타입이 먹으면 효과는 절반.	BMsg.dat:k_sys#695	E_ItemExpA_DX	돌격 타입의 경험치가 3000 상승. / 다른 타입에게는 효과가 절반.	0.50
+BMsg/b_sys#1385	KJGuide_BA07	ブン回し	휘두르기	BMsg.dat:k_sys#199	KGGuide_BA07	튕겨내기	0.00
+BMsg/b_sys#1386	KJGuide_BB12	サブリーダーコマンドについて	서브 리더 커맨드에 대해	BMsg.dat:k_sys#201	KGGuide_BB12	매칭에 대해	0.50
+BMsg/b_sys#1389	Menu_KJ_Chr_exp_borodo	たくさん動いて 非力をカバー。 / その目で 誰に狙いをつけている？	부지런히 움직여 약한 힘을 커버. / 그 눈으로 누구를 노리고 있을까?	BMsg.dat:k_sys#11	KMsgChr_exp_borodo	힘이 약한 부분을 움직임으로 커버함. / 그 눈으로 누구를 노리고 있는 걸까?	0.52
+BMsg/b_sys#1398	Retry_item_retry	やりなおす	다시 시작	BMsg.dat:b_sys#609	Retry_item_retry	재도전	0.00
+BMsg/b_sys#1403	E_ItemSpd	食べるとSPEEDが１アップするマメ。	먹으면 SPEED가 1 증가하는 콩.	BMsg.dat:k_sys#708	E_ItemSpd	먹으면 SPEED가 1 상승하는 콩.	0.79
+BMsg/b_sys#1406	KJGuide_BA08	スピンアタック	스핀 어택	BMsg.dat:k_sys#208	KGGuide_BA08	날려버리기	0.00
+BMsg/b_sys#1407	KJGuide_BB13	チャレンジについて	챌린지에 대해	BMsg.dat:k_sys#211	KGGuide_BB13	크리티컬	0.00
+BMsg/b_sys#1408	KJGuide_O03_0	クエスト選択の上画面には / バトルに向かう隊の情報があります。 / ボタンで切り替えることができます。	퀘스트를 고를 때 위 화면에는 / 배틀에 나갈 부대의 정보가 나와요. /  버튼으로 전환할 수 있어요.	BMsg.dat:k_sys#173	KGGuide_O03_0	쿠파군단 RPG에서 플레이한 내용은 / 스테이지를 클리어하면 저장됩니다.	0.00
+BMsg/b_sys#1416	Ns_ItemExpF_DX	ヒコウEXPマメDX	비행EXP콩DX	BMsg.dat:k_sys#720	Ns_ItemExpF_DX	비행 EXP 콩 DX	1.00
+BMsg/b_sys#1422	KJGuide_BA09	たたきつけ	내리치기	BMsg.dat:k_sys#221	KGGuide_BA09	휘두르기	0.00
+BMsg/b_sys#1423	KJGuide_BA24_0	ぶつかった相手を頭上へはねとばし / 落ちてきた後ツノやトゲでさらにつきあげます。	부딪친 상대를 머리 위로 튕겨 올리고 / 떨어진 다음 뿔이나 가시로 한 번 더 올려쳐요.	BMsg.dat:k_sys#132	KGGuide_BA24_0	잠시동안 GDH를 높여 / 스페셜 스킬이 쉽게 발동되게 합니다.	0.00
+BMsg/b_sys#1424	KJGuide_BB14	クリティカル	크리티컬	BMsg.dat:k_sys#223	KGGuide_BB14	가시 대미지	0.00
+BMsg/b_sys#1438	KJGuide_BA15_0	クチからほのおをまき散らして / 前方の敵にダメージを与えます。	입에서 화염을 흩뿌려 / 앞쪽 적에게 타격을 입혀요.	BMsg.dat:k_sys#141	KGGuide_BA15_0	적과 부딪쳐도 멈추지 않고 / 계속 달려 원위치로 돌아옵니다. / 달리는 중에 부딪친 모든 적에게 대미지. 	0.11
+BMsg/b_sys#1440	KJGuide_BB10_0	同種のキャラクターを複数 連れて行くと / １体で行うアタックよりもさらに強力な / グループアタックを行います。	같은 종류의 캐릭터를 여럿 데려가면 / 혼자서 하는 어택보다 더 강력한 / 그룹 어택을 해요.	BMsg.dat:k_sys#142	KGGuide_BB10_0	특정 조건을 달성하면 / 배틀 후 보상 화면에서 / 아이템을 획득할 수 있습니다.	0.00
+BMsg/b_sys#1441	KJGuide_BB15	トゲダメージ	가시 대미지	BMsg.dat:k_sys#233	KGGuide_BB15	배치와 매칭 주의점	0.00
+BMsg/b_sys#1444	KJ_Msg_quest_40	はじめてのバトル	첫 배틀	BMsg.dat:k_sys#946	KMsg_quest_40	굼바 정상회담?	0.00
+BMsg/b_sys#1451	Menu_KJ_Chr_exp_wanwan	鎖を離したら最後 誰にも止めることができない。 / ハズしやすいが その破壊力はバツグン。	사슬을 놓는 순간 아무도 막을 수 없다. / 잘 빗나가지만 그 파괴력은 발군.	BMsg.dat:k_sys#670	KMsgChr_exp_wanwan	사슬을 풀면 그 누구도 막을 수 없음. / 명중률은 낮지만 파괴력은 뛰어남.	0.37
+BMsg/b_sys#1457	KJGuide_BA15_1	サークルがキャラクターの / 真ん中に来たらボタンを押しましょう。 / タイミングが良ければ 多くのほのおをまき散らします。	원이 캐릭터의 / 한가운데에 오면  버튼을 누르세요. / 타이밍이 좋으면 화염을 많이 흩뿌려요.	BMsg.dat:k_sys#153	KGGuide_BA15_1	상대에게 부딪칠 때 /  버튼을 누르세요!	0.43
+BMsg/b_sys#1459	KJGuide_BB06_0	モンスターは大きく分けて / ３つのタイプに分けられます。	몬스터는 크게 / 세 가지 타입으로 나뉘어요.	BMsg.dat:k_sys#440	KGGuide_BB06_0	배틀 중에 몬스터가 행동할 수 있는 / 간격은 각각 다릅니다.	0.12
+BMsg/b_sys#1472	Hint_pcatk_0	攻撃が 成功しないときは / 「おてほん」や「れんしゅう」を 使ってみましょう。	공격이 성공하지 않을 때는 / 「시범」이나 「연습」을 이용해 보세요.	BMsg.dat:b_sys#632	Hint_pcatk_0	공격이 좀처럼 성공하지 않는다면 / 「시범」과 「연습」을 활용해 보세요.	0.57
+BMsg/b_sys#1474	KJGuide_BB06_1	敵に突撃する「とつげきタイプ」は / 「えんきょりタイプ」に対して有利ですが / 「ひこうタイプ」が苦手です。	적에게 돌격하는 「돌격 타입」은 / 「원거리 타입」에게 유리하지만 / 「비행 타입」에게는 약해요.	BMsg.dat:k_sys#448	KGGuide_BB06_1	SPEED가 높을수록 / 행동을 많이 하게 됩니다.	0.00
+BMsg/b_sys#1482	Ns_ItemPow	POWマメ	POW콩	BMsg.dat:k_sys#751	Ns_ItemPow	POW 콩	1.00
+BMsg/b_sys#1492	Hint_pcatk_1	それでも うまくできない時は / 「かんたんアタックモード」を 使ってみましょう。	그래도 잘 안될 때는 / 「간단 어택 모드」를 이용해 보세요.	BMsg.dat:b_sys#636	Hint_pcatk_1	그래도 잘 되지 않는다면 / 「간단 어택 모드」를 활용해 보세요.	0.65
+BMsg/b_sys#1495	KJ_Msg_quest_43	ザコも集まれば…	잔챙이도 모이면…	BMsg.dat:k_sys#23	KMsg_quest_43	골드콩바 발견!	0.00
+BMsg/b_sys#1501	Menu_KJ_Chr_exp_togezo	コウラのトゲは守りにも攻撃にも役立つ。 / ジュゲム系の敵と戦うのは苦手なようだ。	등껍질의 가시는 방어에도 공격에도 도움이 된다. / 김수한무 계열 적과 싸우는 건 서툰 듯하다.	BMsg.dat:k_sys#69	KMsgChr_exp_togezo	가시 등껍질로 강력한 스핀 어택! / 김수한무와 싸우면 불리함.	0.30
+BMsg/b_sys#1510	Hint_pcatk_2	くわしくは バトルガイドの / 「おてほん と れんしゅう」 / 「かんたんアタックモード」に書いてあります。	자세히는 배틀 가이드의 / 「시범과 연습」 / 「간단 어택 모드」에 적혀 있어요.	BMsg.dat:b_sys#640	Hint_pcatk_2	자세한 내용은 배틀 가이드의 / 「시범과 연습」 / 「간단 어택 모드」에 있습니다.	0.69
+BMsg/b_sys#1513	KJ_Msg_quest_44	ビーチにかがやく歯とアイス	비치에 빛나는 이빨과 아이스	BMsg.dat:k_sys#29	KMsg_quest_44	굼실굼실 굼비	0.00
+BMsg/b_sys#1518	Menu_KJ_Chr_exp_kameck_wt	白い服を着たカメック。 / 魔法の杖で 近くの味方の防御アップ！	하얀 옷을 입은 마귀. / 마법 지팡이로 근처 아군의 방어력 증가!	BMsg.dat:k_sys#254	KMsgChr_exp_kameck_wt	흰 옷을 입은 마귀. / 마법 지팡이로 주변 캐릭터 스피드 업!	0.52
+BMsg/b_sys#1524	Hint_pcatk_3	モンスターの攻撃を よけられないときは / アイテム「ゴーストクッキー」を使ってみましょう。	몬스터의 공격을 피할 수 없을 때는 / 아이템 「고스트쿠키」를 사용해 보세요.	BMsg.dat:b_sys#644	Hint_pcatk_3	몬스터의 공격을 피하기 어려울 때는 / 아이템 「고스트쿠키」를 사용해 보세요.	0.82
+BMsg/b_sys#1529	KJGuide_O01_0	クッパJr.RPGで遊んだ内容は / 「レコード」にきろくされていきます。	쿠파주니어 RPG에서 플레이한 내용은 / 「기록」에 차곡차곡 남아요.	BMsg.dat:k_sys#241	KGGuide_O01_0	amiibo를 사용하면 / 대장을 늘리거나 / 스탬프 찍기 놀이를 할 수 있습니다.	0.00
+BMsg/b_sys#1530	KJ_Msg_quest_45	ドンドククッパ軍団	독독 쿠파 군단	BMsg.dat:k_sys#37	KMsg_quest_45	엉금엉금은 응큼응큼? 	0.00
+BMsg/b_sys#1535	Menu_KJ_Chr_exp_patabon	エリートを夢見るパタパタ。 / 頭のバケツで守りは固い。	엘리트를 꿈꾸는 펄럭펄럭. / 머리에 쓴 양동이로 방어는 단단하다.	BMsg.dat:k_sys#768	KMsgChr_exp_patabon	엘리트를 꿈꾸는 펄럭펄럭. / 머리에 쓴 양동이로 철벽 방어.	0.86
+BMsg/b_sys#1536	N_ItemExp_L	スーパーEXPマメL	슈퍼EXP콩L	BMsg.dat:k_sys#785	N_ItemExp_L	슈퍼 EXP 콩 L	1.00
+BMsg/b_sys#1537	Ns_ItemExpA_DX	トツゲキEXPマメDX	돌격EXP콩DX	BMsg.dat:k_sys#786	Ns_ItemExpA_DX	돌격 EXP 콩 DX	1.00
+BMsg/b_sys#1539	E_ItemExpA_L	とつげきタイプの経験値が１０００アップ。 / 他のタイプが食べると効果は半分。	돌격 타입의 EXP가 1000 증가. / 다른 타입이 먹으면 효과는 절반.	BMsg.dat:k_sys#787	E_ItemExpA_L	돌격 타입의 경험치가 1000 상승. / 다른 타입에게는 효과가 절반.	0.50
+BMsg/b_sys#1543	Hint_pcatk_4	しばらくダメージを受けなくなるので / モンスターの動きを 観察してみましょう。	한동안 타격을 입지 않게 되니 / 몬스터의 움직임을 관찰해 보세요.	BMsg.dat:b_sys#649	Hint_pcatk_4	잠깐 동안 대미지를 받지 않게 되니 / 그동안 몬스터의 움직임을 관찰해 보세요.	0.72
+BMsg/b_sys#1545	KJGuide_BA22_0	相手の攻撃をかわしやすくします。 / ただしアタックはかわせないので要注意。	상대의 공격을 피하기 쉽게 해 줘요. / 단, 어택은 피할 수 없으니 주의하세요.	BMsg.dat:k_sys#200	KGGuide_BA22_0	자신과 주변 아군의 스피드를 업시켜 / 평소보다 행동을 많이 하게 됩니다.	0.00
+BMsg/b_sys#1549	KJGuide_O01_1	条件を満たすことで / メダルとアイテムがもらえます。	조건을 만족하면 / 메달과 아이템을 받을 수 있어요.	BMsg.dat:k_sys#247	KGGuide_O01_1	대장을 늘리고 싶을 때는 / 「amiibo 등록」에서 / amiibo를 터치하세요.	0.00
+BMsg/b_sys#1550	KJMsg_challenge_00	とつげきタイプを ２０体 仲間にする	돌격 타입을 20명 동료로 삼는다	BMsg.dat:k_sys#517	KMsg_challenge_00	굼바족 20마리가 아군이 되었다 	0.08
+BMsg/b_sys#1552	KJ_Msg_quest_46	なぎさのファイアダンス	해변의 파이어 댄스	BMsg.dat:k_sys#49	KMsg_quest_46	대장의 도전(엉금엉금 편)	0.00
+BMsg/b_sys#1557	N_ItemExp_M	スーパーEXPマメM	슈퍼EXP콩M	BMsg.dat:k_sys#799	N_ItemExp_M	슈퍼 EXP 콩 M	1.00
+BMsg/b_sys#1562	E_ItemExpA_M	とつげきタイプの経験値が１００アップ。 / 他のタイプが食べると効果は半分。	돌격 타입의 EXP가 100 증가. / 다른 타입이 먹으면 효과는 절반.	BMsg.dat:k_sys#800	E_ItemExpA_M	돌격 타입의 경험치가 100 상승. / 다른 타입에게는 효과가 절반.	0.48
+BMsg/b_sys#1566	KJGuide_BA13_0	大きな武器を投げつけて / 相手に強力なダメージを与えます。	커다란 무기를 던져서 / 상대에게 강력한 타격을 입혀요.	BMsg.dat:k_sys#209	KGGuide_BA13_0	상대편 위에서 움직이는 커서가 / 몸의 정중앙과 겹치면  버튼!	0.05
+BMsg/b_sys#1567	KJGuide_BA20	DEFアップ	DEF 업	BMsg.dat:k_sys#291	KGGuide_BA20	투명화	0.00
+BMsg/b_sys#1568	KJGuide_BA22_1	サークルがキャラクターの / 真ん中に来たらボタンを押しましょう。	원이 캐릭터의 / 한가운데에 오면  버튼을 누르세요.	BMsg.dat:k_sys#210	KGGuide_BA22_1	미터가 꼭대기까지 다 차면 /  버튼을 누르세요!	0.41
+BMsg/b_sys#1570	KJGuide_O01_2	いろいろな きろくに / チャレンジしてみましょう。	다양한 기록에 / 도전해 보세요.	BMsg.dat:k_sys#253	KGGuide_O01_2	스탬프 찍기 놀이는  / 마리오&루이지 RPG에서 / 스탬프 시트를 받으면 시작할 수 있습니다.	0.00
+BMsg/b_sys#1571	KJMsg_challenge_01	ひこうタイプを ２０体 仲間にする	비행 타입을 20명 동료로 삼는다	BMsg.dat:k_sys#527	KMsg_challenge_01	엉금엉금족 20마리가 아군이 되었다	0.08
+BMsg/b_sys#1572	KJ_Msg_quest_47	ムッシーバビーチ漂流記	이아파 비치 표류기	BMsg.dat:k_sys#62	KMsg_quest_47	키노피오 구조대	0.00
+BMsg/b_sys#1583	KJGuide_BA09_0	体や武器を相手に向かって / 勢いよく叩きつけ / 前方の敵にダメージを与えます。	몸이나 무기를 상대를 향해 / 힘차게 내리쳐서 / 앞쪽 적에게 타격을 입혀요.	BMsg.dat:k_sys#503	KGGuide_BA09_0	꼬리나 무기를 휘둘러 / 주변에 있는 적에게 대미지를 줍니다.	0.22
+BMsg/b_sys#1584	KJGuide_BA13_1	相手の上を行ったり来たりする / カーソルが体の真ん中に / 重なったらボタン！	상대 위를 왔다 갔다 하는 / 커서가 몸 한가운데에 / 겹치면  버튼!	BMsg.dat:k_sys#222	KGGuide_BA13_1	버튼 입력에 성공할 때마다 / 총알이 늘어나 / 마지막에 한꺼번에 발사합니다.	0.04
+BMsg/b_sys#1585	KJGuide_BA21	めいちゅうアップ	명중 업	BMsg.dat:k_sys#300	KGGuide_BA21	백발백중	0.00
+BMsg/b_sys#1586	KJGuide_BB04_0	相手のリーダーを倒して勝利すると / バトルに参加した仲間の / EXPがたまっていきます。	상대 리더를 쓰러뜨리고 승리하면 / 배틀에 참가한 동료의 / EXP가 쌓여요.	BMsg.dat:k_sys#505	KGGuide_BB04_0	상대편 대장을 쓰러트려 승리하면 / 배틀에 참가한 아군의 / EXP가 쌓이게 됩니다.	0.55
+BMsg/b_sys#1587	KJMsg_challenge_02	えんきょりタイプを ２０体 仲間にする	원거리 타입을 20명 동료로 삼는다	BMsg.dat:k_sys#535	KMsg_challenge_02	헤이호족 20마리가 아군이 되었다	0.07
+BMsg/b_sys#1588	KJ_Msg_quest_48	巨大コンビ結成	거대 콤비 결성	BMsg.dat:k_sys#73	KMsg_quest_48	파뇨의 파트너 2	0.00
+BMsg/b_sys#1595	KJGuide_BA09_1	体をそらしきったところで / タイミングよくボタンを押しましょう！	몸을 끝까지 젖혔을 때 / 알맞은 타이밍에  버튼을 누르세요!	BMsg.dat:k_sys#512	KGGuide_BA09_1	상대에게 부딪칠 때 /  버튼을 누르세요!	0.43
+BMsg/b_sys#1597	KJGuide_BA22	かいひアップ	회피 업	BMsg.dat:k_sys#306	KGGuide_BA22	스피드 업	0.00
+BMsg/b_sys#1598	KJGuide_BB04_1	EXPがある程度たまれば / レベルが上がり仲間が / 強くなっていきます。	EXP가 어느 정도 쌓이면 / 레벨이 올라서 동료가 / 강해져요.	BMsg.dat:k_sys#513	KGGuide_BB04_1	EXP가 어느 정도 모이면 / 레벨이 올라가 아군이 / 강해집니다.	0.61
+BMsg/b_sys#1599	KJGuide_O01	レコードとチャレンジ	기록과 챌린지	BMsg.dat:k_sys#143	KGGuide_O01	amiibo 사용법	0.00
+BMsg/b_sys#1600	KJMsg_challenge_03	じんけいボーナスを発動させる	진형 보너스를 발동시킨다	BMsg.dat:k_sys#543	KMsg_challenge_03	부끄부끄족 20마리가 아군이 되었다	0.00
+BMsg/b_sys#1601	KJ_Msg_quest_49	カミナリには要注意	번개 조심	BMsg.dat:k_sys#85	KMsg_quest_49	꼬리 달린 굼바?	0.00
+BMsg/b_sys#1613	KJGuide_BA23	かいおんぱ	괴음파	BMsg.dat:k_sys#316	KGGuide_BA23	스킬 지우기	0.00
+BMsg/b_sys#1614	KJGuide_BB04_2	モンスターが強いと感じたら / 倒しやすいモンスターとバトルして / レベルを上げてから進みましょう。	몬스터가 강하다고 느껴지면 / 쓰러뜨리기 쉬운 몬스터와 배틀해서 / 레벨을 올린 다음 나아가세요.	BMsg.dat:k_sys#519	KGGuide_BB04_2	몬스터가 너무 강한 것 같으면 / 쓰러트리기 쉬운 몬스터와 배틀을 해서 / 레벨을 올린 후 진행해 보세요.	0.55
+BMsg/b_sys#1615	KJGuide_O02	クッパJr.RPGのセーブ	쿠파주니어 RPG의 저장	BMsg.dat:k_sys#156	KGGuide_O02	기록과 도전	0.00
+BMsg/b_sys#1616	KJMsg_challenge_04	マメを使った回数が５０回を超える	콩을 사용한 횟수가 50회를 넘는다	BMsg.dat:k_sys#551	KMsg_challenge_04	콩 사용 횟수 50번 이상	0.33
+BMsg/b_sys#1624	Menu_KJ_Chr_exp_larry	クッパ７人衆の １人。 / ラケットで撃つほのおは高いめいちゅう率を誇る。	쿠파 7인조 중 한 명. / 라켓으로 쏘는 화염은 높은 명중률을 자랑한다.	BMsg.dat:k_sys#501	KMsgChr_exp_larry	쿠파7인조 중 한 명.  / 명중률이 높음. 숨은 명사수. 	0.56
+BMsg/b_sys#1632	BtlGuide_19_0	ハンマーを選べば モンスターを叩いて / ダメージを与えられます。	해머를 선택하면 몬스터를 때려서 / 타격을 입힐 수 있어요.	BMsg.dat:b_sys#675	BtlGuide_19_0	배틀 중 몬스터의 공격으로 / 상태 변화를 일으키는 경우가 있습니다.	0.09
+BMsg/b_sys#1638	KJGuide_BA24	つきあげ	올려치기	BMsg.dat:k_sys#323	KGGuide_BA24	기합	0.00
+BMsg/b_sys#1639	KJGuide_O03	ぐんだんメニュー	군단 메뉴	BMsg.dat:k_sys#166	KGGuide_O03	쿠파군단 RPG 저장	0.33
+BMsg/b_sys#1640	KJMsg_challenge_05	モンスターを３００体やっつける	몬스터를 300마리 쓰러뜨린다	BMsg.dat:k_sys#561	KMsg_challenge_05	몬스터를 300마리 무찔렀다	0.67
+BMsg/b_sys#1649	Menu_KJ_Chr_exp_hbros	自慢のハンマーで 後方支援。 / 乱れ投げが出れば怖いものなし。	자랑하는 해머로 후방 지원. / 막 던지기가 나오면 무서울 게 없다.	BMsg.dat:k_sys#509	KMsgChr_exp_hbros	자랑스러운 해머로 후방 지원. / 막 던지기만 있으면 무서울 것이 없음.	0.58
+BMsg/b_sys#1650	Menu_KJ_Chr_exp_wendy	クッパ７人衆の １人。 / リングのブーメランが強力。 怒った顔がコワい？	쿠파 7인조 중 한 명. / 링 부메랑이 강력. 화난 얼굴이 무섭다?	BMsg.dat:k_sys#510	KMsgChr_exp_wendy	쿠파7인조 중 한 명. / 홍일점이지만 힘은 뒤지지 않음.	0.35
+BMsg/b_sys#1654	BtlGuide_19_1	トゲが生えているなど ふめないモンスターには / ハンマーで攻撃しましょう。	가시가 돋아 있는 등 밟을 수 없는 몬스터는 / 해머로 공격하세요.	BMsg.dat:b_sys#682	BtlGuide_19_1	상태 변화가 일어나면 행동에 제약이 / 생기거나 HP가 줄어들기도 합니다.	0.00
+BMsg/b_sys#1657	KJGuide_BA25	ふんづけ	짓밟기	BMsg.dat:k_sys#329	KGGuide_BA25	제비뽑기	0.00
+BMsg/b_sys#1659	KJGuide_O04	てきのじょうほう	적 정보	BMsg.dat:k_sys#174	KGGuide_O04	군단 메뉴	0.00
+BMsg/b_sys#1660	KJMsg_challenge_06	トゲつきの仲間が ２０体	가시 달린 동료가 20명	BMsg.dat:k_sys#571	KMsg_challenge_06	가시가 달린 아군을 20마리 모았다	0.33
+BMsg/b_sys#1663	Kj_Btl_lose_msg_hint_he	ひこうタイプの敵が多くでるので / えんきょりタイプをできるだけ / 多く入れてみましょう！敵のえんきょりタイプにそなえて / とつげきタイプを後ろに少しだけ / 入れておくのもおススメです。	비행 타입 적이 많이 나오니 / 원거리 타입을 되도록 / 많이 넣어 보세요!적의 원거리 타입에 대비해서 / 돌격 타입을 뒤쪽에 조금만 / 넣어 두는 것도 추천해요.	BMsg.dat:k_sys#144	KMsgBtl_lose_msg_hint_he	이 퀘스트에는 / 비행 타입과 원거리 타입 / 적이 많이 등장합니다.여기서는 약한 상대가 없는 / 원거리 타입이 유리합니다.	0.33
+BMsg/b_sys#1669	Menu_KJ_Chr_exp_roy	クッパ７人衆の １人。 / 体力があり頑丈さは７人衆でトップクラス。	쿠파 7인조 중 한 명. / 체력이 좋고 튼튼함은 7인조 중 톱클래스.	BMsg.dat:k_sys#935	KMsgChr_exp_roy	쿠파7인조 중 한 명. / 압도적으로 높은 체력을 자랑함.	0.40
+BMsg/b_sys#1672	N_ItemExpF_DX	ヒコウEXPマメDX	비행EXP콩DX	BMsg.dat:k_sys#860	N_ItemExpF_DX	비행 EXP 콩 DX	1.00
+BMsg/b_sys#1673	N_ItemExp_S	スーパーEXPマメS	슈퍼EXP콩S	BMsg.dat:k_sys#861	N_ItemExp_S	슈퍼 EXP 콩 S	1.00
+BMsg/b_sys#1675	SoloJump_M_00	ジャンプ	점프	BMsg.dat:b_sys#683	SoloJump_M_00	점프	1.00
+BMsg/b_sys#1677	E_ItemExpA_S	とつげきタイプの経験値が１０アップ。 / 他のタイプが食べると効果は半分。	돌격 타입의 EXP가 10 증가. / 다른 타입이 먹으면 효과는 절반.	BMsg.dat:k_sys#862	E_ItemExpA_S	돌격 타입의 경험치가 10 상승. / 다른 타입에게는 효과가 절반.	0.46
+BMsg/b_sys#1678	KJGuide_BA20_0	自分 または 周囲の味方の / 防御力をアップします。	자신 또는 주변 아군의 / 방어력을 증가시켜요.	BMsg.dat:k_sys#258	KGGuide_BA20_0	자신의 회피력을 업시킵니다. / 단, 스페셜 스킬은 / 회피하지 못하므로 주의하세요.	0.12
+BMsg/b_sys#1679	KJGuide_BA26	アイテムルーレット	아이템 룰렛	BMsg.dat:k_sys#340	KGGuide_BA26	죽은 척	0.00
+BMsg/b_sys#1682	KJGuide_O05	へんせいのやり方	편성하는 법	BMsg.dat:k_sys#182	KGGuide_O05	편성 방법	0.33
+BMsg/b_sys#1683	KJMsg_challenge_07	Excellent回数が１００回を超える	Excellent 횟수가 100회를 넘는다	BMsg.dat:k_sys#586	KMsg_challenge_07	Excellent 횟수가 100번을 넘었다	0.74
+BMsg/b_sys#1686	Kj_Btl_lose_msg_hint_te	このクエストではとつげきタイプと / えんきょりタイプの敵が多くでるようです。ひこうタイプを前の方に / とつげきタイプを後ろの方に / 入れてみましょう！	이 퀘스트에서는 돌격 타입과 / 원거리 타입 적이 많이 나오는 것 같아요.비행 타입을 앞쪽에 / 돌격 타입을 뒤쪽에 / 넣어 보세요!	BMsg.dat:k_sys#157	KMsgBtl_lose_msg_hint_te	이 퀘스트에는 / 돌격 타입과 원거리 타입 / 적이 많이 등장합니다.여기서는 약한 상대가 없는 / 돌격 타입이 유리합니다.	0.49
+BMsg/b_sys#1694	Retry_item_back_to_title	タイトルにもどる	타이틀로 돌아가기	BMsg.dat:b_sys#693	Retry_item_back_to_title	타이틀로 돌아가기	1.00
+BMsg/b_sys#1699	KJGuide_BA11_0	少し高い所から相手めがけて / 猛スピードで突撃し / そのまま１回転して戻ります。	조금 높은 곳에서 상대를 노리고 / 맹렬한 속도로 돌격해서 / 그대로 한 바퀴 돌아 되돌아와요.	BMsg.dat:k_sys#269	KGGuide_BA11_0	힘을 모은 후 무기를 여러 개 던져 / 전방에 있는 적들에게 대미지를 줍니다.	0.00
+BMsg/b_sys#1700	KJGuide_BA20_1	サークルがキャラクターの / 真ん中に来たらボタンを押しましょう。	원이 캐릭터의 / 한가운데에 오면  버튼을 누르세요.	BMsg.dat:k_sys#270	KGGuide_BA20_1	미터가 꼭대기까지 다 차면 /  버튼을 누르세요!	0.41
+BMsg/b_sys#1702	KJGuide_O06	キャラクターとわかれる	캐릭터와 작별하기	BMsg.dat:k_sys#193	KGGuide_O06	보너스 스킬	0.00
+BMsg/b_sys#1703	KJMsg_challenge_08	クエストを５０回以上クリア	퀘스트를 50회 이상 클리어	BMsg.dat:k_sys#600	KMsg_challenge_08	스테이지 클리어 횟수가 50번을 넘었다	0.27
+BMsg/b_sys#1716	N_ItemDef	DEFマメ	DEF콩	BMsg.dat:k_sys#880	N_ItemDef	DEF 콩	1.00
+BMsg/b_sys#1717	KJGuide_BA07_0	しっぽをブン回して / 周囲の敵にダメージを与えます。	꼬리를 휘둘러서 / 주위의 적에게 타격을 입혀요.	BMsg.dat:k_sys#563	KGGuide_BA07_0	상대를 튕겨내 / 강력한 대미지를 준 후에 / 추가 효과로 방어력을 다운시킵니다.	0.00
+BMsg/b_sys#1718	KJGuide_BA11_1	相手にぶつかる時に / ボタンを押しましょう！	상대에게 부딪칠 때 /  버튼을 누르세요!	BMsg.dat:k_sys#280	KGGuide_BA11_1	 버튼을 연타하여 힘을 모읍시다. / 힘을 많이 모을수록 / 더 많은 무기를 던질 수 있습니다.	0.14
+BMsg/b_sys#1719	KJGuide_BB02_0	モンスター達は / 行動順が来たら相手を攻撃します。	몬스터들은 / 행동 순서가 돌아오면 상대를 공격해요.	BMsg.dat:k_sys#566	KGGuide_BB02_0	몬스터들은  / 행동 순서가 오면 상대를 공격합니다.	0.79
+BMsg/b_sys#1720	KJGuide_O07	プロフィール	프로필	BMsg.dat:k_sys#202	KGGuide_O07	캐릭터와 작별하기	0.00
+BMsg/b_sys#1721	KJMsg_challenge_09	仲間にしたキャラクター ５０体	동료로 삼은 캐릭터 50명	BMsg.dat:k_sys#612	KMsg_challenge_09	아군으로 가입한 캐릭터 50마리	0.40
+BMsg/b_sys#1739	KJGuide_BA07_1	相手にぶつかる時に / ボタンを押しましょう！	상대에게 부딪칠 때 /  버튼을 누르세요!	BMsg.dat:k_sys#575	KGGuide_BA07_1	상대에 부딪칠 때 /  버튼을 누르세요!	0.92
+BMsg/b_sys#1741	KJGuide_BB02_1	相手のHPをゼロにすれば / 倒すことができます。	상대의 HP를 0으로 만들면 / 쓰러뜨릴 수 있어요.	BMsg.dat:k_sys#576	KGGuide_BB02_1	상대의 HP를 0으로 만들면 / 쓰러트릴 수 있습니다.	0.79
+BMsg/b_sys#1742	KJGuide_O08	くわしく	자세히	BMsg.dat:k_sys#212	KGGuide_O08	자세히 보기	1.00
+BMsg/b_sys#1750	Menu_KJ_Chr_exp_patakuribo	自慢の羽で 空を舞うクリボー。 / くるっと回って 脳天かちわり。	자랑하는 날개로 하늘을 누비는 굼바. / 빙글 돌아서 정수리 찍기.	BMsg.dat:k_sys#756	KMsgChr_exp_patakuribo	자랑스런 날개로 하늘을 나는 굼바. / 빙글 돌아 정수리에 직격탄.	0.58
+BMsg/b_sys#1760	KJGuide_O09	お気に入り（★）	즐겨찾기(★)	BMsg.dat:k_sys#224	KGGuide_O09	적 정보	0.00
+BMsg/b_sys#1761	KJ_Msg_quest_60	ホネの嵐・かけぬける鉄	뼈의 폭풍·질주하는 강철	BMsg.dat:k_sys#161	KMsg_quest_60	일가족 총공격	0.00
+BMsg/b_sys#1777	BtlGuide_17_0	イージーモード中や / マリオ達が全員やられて やりなおしたバトルでは / ヒントメッセージが 出現することがあります。	이지 모드일 때나 / 마리오 일행이 전멸해서 다시 시작한 배틀에서는 / 힌트 메시지가 나올 때가 있어요.	BMsg.dat:b_sys#719	BtlGuide_17_0	몬스터가 공격할 때 마리오&루이지가 / 해머를 잡으면 해머 방어 신호입니다.	0.14
+BMsg/b_sys#1781	E_ItemExpL_L	えんきょりタイプの経験値が１０００アップ。 / 他のタイプが食べると効果は半分。	원거리 타입의 EXP가 1000 증가. / 다른 타입이 먹으면 효과는 절반.	BMsg.dat:k_sys#903	E_ItemExpL_L	원거리 타입의 경험치가 1000 상승. / 다른 타입에게는 효과가 절반.	0.52
+BMsg/b_sys#1783	KJ_Msg_quest_61	チカラまかせの大一番	힘으로 밀어붙이는 한판 승부	BMsg.dat:k_sys#171	KMsg_quest_61	회전 빙글빙글 롤링!	0.00
+BMsg/b_sys#1795	BtlGuide_08_0	モンスターの攻撃中 / マリオ達が 腰を落として構えたら / ジャンプ防御の合図です。	몬스터가 공격할 때 / 마리오 일행이 허리를 낮추고 자세를 잡으면 / 점프 방어의 신호예요.	BMsg.dat:b_sys#726	BtlGuide_08_0	몬스터와 부딪히면 엔카운트! / 배틀이 시작됩니다.	0.11
+BMsg/b_sys#1796	BtlGuide_17_1	ヒントを見るには 「ヒント」のコマンドブロックを / えらびましょう。	힌트를 보려면 「힌트」 커맨드 블록을 / 선택하세요.	BMsg.dat:b_sys#727	BtlGuide_17_1	캐릭터 버튼을 길게 눌러  / 해머를 들어 올립니다.	0.00
+BMsg/b_sys#1799	E_ItemExpL_M	えんきょりタイプの経験値が１００アップ。 / 他のタイプが食べると効果は半分。	원거리 타입의 EXP가 100 증가. / 다른 타입이 먹으면 효과는 절반.	BMsg.dat:k_sys#911	E_ItemExpL_M	원거리 타입의 경험치가 100 상승. / 다른 타입에게는 효과가 절반.	0.50
+BMsg/b_sys#1800	E_ItemPow	食べるとPOWが１アップするマメ。	먹으면 POW가 1 증가하는 콩.	BMsg.dat:k_sys#912	E_ItemPow	먹으면 POW가 1 상승하는 콩.	0.75
+BMsg/b_sys#1802	KJ_Msg_quest_62	ピリからチキンを食べて	약간매운치킨을 먹고	BMsg.dat:k_sys#178	KMsg_quest_62	성에서 배틀!	0.00
+BMsg/b_sys#1810	N_ItemExpA_DX	トツゲキEXPマメDX	돌격EXP콩DX	BMsg.dat:k_sys#921	N_ItemExpA_DX	돌격 EXP 콩 DX	1.00
+BMsg/b_sys#1812	BtlGuide_08_1	キャラクターのボタンを押せば ジャンプできます。	캐릭터별 버튼을 누르면 점프할 수 있어요.	BMsg.dat:b_sys#734	BtlGuide_08_1	몬스터를 밟아서 엔카운트하면 / 대미지를 준 상태에서 배틀이 시작됩니다.	0.00
+BMsg/b_sys#1813	BtlGuide_17_2	モンスターを倒すヒントだけでなく お得な / 情報が得られることもあります。 / えらべるようになったら すぐ確認してみましょう。	몬스터를 쓰러뜨리는 힌트뿐 아니라 쏠쏠한 / 정보를 얻을 때도 있어요. / 고를 수 있게 되면 바로 확인해 보세요.	BMsg.dat:b_sys#735	BtlGuide_17_2	들어 올린 후 버튼에서 손을 떼면 / 해머로 내리칠 수 있습니다.	0.04
+BMsg/b_sys#1815	KJ_Msg_quest_63	ブキミな舞踏会	섬뜩한 무도회	BMsg.dat:k_sys#190	KMsg_quest_63	더 라스트 골드콩바	0.00
+BMsg/b_sys#1821	Retry_easymode_back	もどる	돌아가기	BMsg.dat:b_sys#738	Retry_easymode_back	취소	0.00
+BMsg/b_sys#1828	KJ_Msg_quest_64	最強ブロス決定戦！	최강 브러스 결정전!	BMsg.dat:k_sys#196	KMsg_quest_64	대장의 도전(부끄부끄 편)	0.00
+BMsg/b_sys#1838	SoloJump_L_00_0	ふみつける時にボタン。成功したら もう１回！ / すべて成功させて Excellent を狙いましょう。	밟을 때  버튼. 성공하면 한 번 더! / 모두 성공시켜서 Excellent를 노려 보세요.	BMsg.dat:b_sys#744	SoloJump_L_00_0	밟을 때  버튼. 성공하면 다시 한 번! / 모두 성공해서 Excellent를 획득해 보세요.	0.73
+BMsg/b_sys#1840	BtlGuide_01	基本①：コマンドを選んで攻撃	기본①: 커맨드를 골라 공격	BMsg.dat:b_sys#748	BtlGuide_01	기본①: 커맨드 선택으로 공격	0.56
+BMsg/b_sys#1843	KJGuide_BA05_0	相手をはねとばして / 強ダメージを与えた上に / 追加効果で防御力をダウンさせます。	상대를 튕겨 내서 / 강한 타격을 입히고 / 추가 효과로 방어력을 감소시켜요.	BMsg.dat:k_sys#649	KGGuide_BA05_0	약간 높은 곳에서 상대를 향해 / 빠른 속도로 돌격하고 / 그대로 한 번 회전한 후 되돌아옵니다.	0.07
+BMsg/b_sys#1844	KJ_Msg_quest_65	燃えよ！クリボーだましい	불타라! 굼바 혼	BMsg.dat:k_sys#205	KMsg_quest_65	쿠파군단 VS 쿠파7인조	0.00
+BMsg/b_sys#1849	Menu_KJ_Chr_exp_mkoopa	パワーは弱いがチョコマカ動いて手数で勝負！ / メカ系に強い敵には壊されやすい。	파워는 약하지만 요리조리 움직이며 연타로 승부! / 메카 계열에 강한 적에게는 쉽게 부서진다.	BMsg.dat:k_sys#249	KMsgChr_exp_mkoopa	작은 체구로 촐랑거리며 돌아다님. / 불에게는 강하나 클러셔에게 약함.	0.07
+BMsg/b_sys#1852	Ns_ItemGdd	GDDマメ	GDH콩	BMsg.dat:k_sys#947	Ns_ItemGdd	GDH 콩	1.00
+InitLoad#0	SaveAccident	ゲームデータが壊れています。 / ゲームデータを作り直します。	게임 데이터가 손상되었습니다. / 게임 데이터를 새로 만들겠습니다.	InitLoad.msbt#0	SaveAccident	게임 데이터가 손상되었습니다. / 게임 데이터를 다시 작성합니다.	0.76
+InitLoad#1	InitFormat	ゲームを始める準備をしています。 / しばらく そのままでお待ちください。	게임을 시작할 준비 중입니다. / 잠시 기다려 주십시오.	InitLoad.msbt#2	InitFormat	게임을 시작하기 위해 준비하고 있습니다. / 잠시만 기다려 주십시오.	0.70
+InitLoad#2	Data_Clear_00	すべてのゲームデータを 消します。 / よろしいですか？ / いいえはい	모든 게임 데이터가 삭제됩니다. / 계속하시겠습니까? / 아니요예	InitLoad.msbt#3	Data_Clear_00	모든 게임 데이터를 / 정말로 삭제하시겠습니까? / 아니요예	0.73
+InitLoad#3	Data_Clear_01	消したゲームデータは もとに / 戻せませんが よろしいですか？ / いいえはい	삭제한 게임 데이터는 복구할 수 / 없습니다. 계속하시겠습니까? / 아니요예	InitLoad.msbt#4	Data_Clear_01	삭제한 게임 데이터는 원래대로 복구할 수 / 없습니다. 정말로 삭제하시겠습니까? / 아니요예	0.86
+InitLoad#4	Data_Clear_02	ゲームデータを 消しています。 / しばらく そのままでお待ちください。	게임 데이터를 삭제하는 중입니다. / 잠시 기다려 주십시오.	InitLoad.msbt#5	Data_Clear_02	게임 데이터를 삭제하고 있습니다. / 잠시만 기다려 주십시오.	0.77
+Item#8	E_Wear10	着るとムキムキになるウェア。 / クリティカルとラッキーヒットの威力がアップ！	입으면 근육이 울끈불끈해지는 웨어. / 크리티컬과 럭키 히트의 위력이 증가!	Item.msbt#6	E_Wear10	몬스터의 「독」을 완전 가드!	0.00
+Item#13	E_SuperNut	マリオとルイージの / HPが ４０回復。	마리오와 루이지의 / HP를 40 회복.	Item.msbt#14	E_SuperNut	마리오와 루이지의 HP 40 회복.	0.92
+Item#14	E_UltraSyrup	マリオとルイージ どちらかの / BPが ６０回復。	마리오와 루이지 중 한 명의 / SP를 60 회복.	Item.msbt#15	E_UltraSyrup	BP 60 회복.	0.60
+Item#15	E_Wear11	バトルをきわめる人のためのウェア。 / クリティカルとラッキーヒットの威力がアップ！	배틀의 달인을 위한 웨어. / 크리티컬과 럭키 히트의 위력이 증가!	Item.msbt#16	E_Wear11	버섯을 먹으면 상태이상도 같이 회복되는 효과.	0.00
+Item#20	E_Wear12	キングの風格ただようウェア。 / 敵を倒すとPOWがアップ！	왕의 기품이 넘치는 웨어. / 적을 쓰러뜨리면 POW가 증가!	Item.msbt#22	E_Wear12	거북의 등껍질을 이용한 바지. / 긴급 가드를 더 견고히 해주는 효과!	0.00
+Item#28	E_Wear13	真のスターのためのウェア。 / おそいモンスターの攻撃につよくなる効果。	진정한 스타를 위한 웨어. / 느린 몬스터의 공격에 강해지는 효과.	Item.msbt#30	E_Wear13	배틀에서 획득한 코인이 드물게 버섯이 되는 효과!	0.11
+Item#36	E_Wear14	ダークスターのチカラがやどるウェア。 / バッジメーター満タンで全能力アップ！	다크스타의 힘이 깃든 웨어. / 배지 게이지가 가득 차면 모든 능력 증가!	Item.msbt#39	E_Wear14	이것만 입으면 마리오 바로 다음에 행동 가능!	0.00
+Item#46	E_Wear15	完璧なウェア。 / 全てのステータスがアップ！	완벽한 웨어. / 모든 능력이 증가!	Item.msbt#47	E_Wear15	배틀에서 획득한 코인이 드물게 버섯이 되는 효과!	0.00
+Item#47	F_SuperKinoko	スーパーキノコはいっぱいです！	슈퍼버섯 FULL!	Item.msbt#49	F_SuperKinoko	슈퍼버섯 FULL!	1.00
+Item#56	E_Wear16	Excellent評価でバッジパワーが たくさん / もらえるようになるエクセレントなウェア。	Excellent를 내면 배지 파워를 많이 / 얻을 수 있는 엑설런트한 웨어.	Item.msbt#55	E_Wear16	버섯의 수만큼 행운이 돌아오는 팬츠.	0.00
+Item#63	Ns_Template	×	×	Item.msbt#60	Ns_Template	×	0.00
+Item#69	E_Wear17	ぼうぎょアクションでミスしても / ダメージをおさえる 初心者むけのウェア。	방어 액션에서 실수해도 / 타격을 줄여 주는 초보자용 웨어.	Item.msbt#65	E_Wear17	이것만 입으면 마리오보다 먼저 행동 가능!	0.00
+Item#70	F_1upKinokodx	１UPキノコDXはいっぱいです！	1UP버섯DX FULL!	Item.msbt#66	F_1upKinokodx	1UP버섯DX FULL!	1.00
+Item#73	N_Kinoko	キノコ	버섯	Item.msbt#70	N_Kinoko	버섯	1.00
+Item#77	Ns_SuperSyrup	スーパーシロップ	슈퍼시럽	Item.msbt#72	Ns_SuperSyrup	슈퍼시럽	1.00
+Item#82	E_Wear18	ブラザーアタックを使うと消費されるBPを / ふたりで半分ずつにわけることができるウェア。	스페셜 어택을 쓸 때 소비되는 SP를 / 둘이서 반씩 나눠 부담할 수 있는 웨어.	Item.msbt#74	E_Wear18	형제가 기절해도 복수심에 불타오른다! / 남은 사람이 강해지는 청바지.	0.00
+Item#91	E_Wear19	敵の攻撃を何度かバリアが防いでくれるウェア。	방어막이 적의 공격을 몇 번 막아 주는 웨어.	Item.msbt#81	E_Wear19	남국의 정취가 느껴지는 / 남국 콩의 가죽으로 만든 청바지.	0.00
+Item#100	N_SuperSyrup	スーパーシロップ	슈퍼시럽	Item.msbt#89	N_SuperSyrup	슈퍼시럽	1.00
+Item#101	Ns_1upKinoko	１UPキノコ	1UP버섯	Item.msbt#90	Ns_1upKinoko	1UP버섯	1.00
+Item#109	N_UltraKinoko	ウルトラキノコ	울트라버섯	Item.msbt#96	N_UltraKinoko	울트라버섯	1.00
+Item#115	F_SuperSyrup	スーパーシロップはいっぱいです！	슈퍼시럽 FULL!	Item.msbt#98	F_SuperSyrup	슈퍼시럽 FULL!	1.00
+Item#116	F_Wear02	レンジャーウェアはいっぱいです！	레인저웨어 FULL!	Item.msbt#99	F_Wear02	マメーリパンツはいっぱいです！	0.00
+Item#123	F_1upKinoko	１UPキノコはいっぱいです！	1UP버섯 FULL!	Item.msbt#103	F_1upKinoko	1UP버섯 FULL!	1.00
+Item#125	F_Wear03	ファイターウェアはいっぱいです！	파이터웨어 FULL!	Item.msbt#104	F_Wear03	ウフズボンはいっぱいです！	0.00
+Item#130	Ns_GhostCookie	ゴーストクッキー	고스트쿠키	Item.msbt#107	Ns_GhostCookie	고스트쿠키	1.00
+Item#132	F_Wear04	ハートウェアはいっぱいです！	하트웨어 FULL!	Item.msbt#110	F_Wear04	ブルージーンズはいっぱいです！	0.00
+Item#141	F_Wear05	ムキムキウェアはいっぱいです！	우락부락웨어 FULL!	Item.msbt#114	F_Wear05	パラソルパンツはいっぱいです！	0.00
+Item#144	N_SuperNut	スーパーナッツ	슈퍼너트	Item.msbt#115	N_SuperNut	슈퍼너트	1.00
+Item#148	Ns_UltraNut	ウルトラナッツ	울트라너트	Item.msbt#118	Ns_UltraNut	울트라너트	1.00
+Item#167	N_Wear00	ペラペラウェア	헐렁헐렁웨어	Item.msbt#143	N_Wear00	워크팬츠	0.00
+Item#170	E_UltraNut	マリオとルイージの / HPが ６５回復。	마리오와 루이지의 / HP를 65 회복.	Item.msbt#144	E_UltraNut	마리오와 루이지의 HP 65 회복.	0.92
+Item#175	N_Wear01	ピクニックウェア	피크닉웨어	Item.msbt#150	N_Wear01	워크청바지	0.00
+Item#181	F_Nut	ナッツはいっぱいです！	너트 FULL!	Item.msbt#155	F_Nut	너트 FULL!	1.00
+Item#184	N_Wear02	レンジャーウェア	레인저웨어	Item.msbt#157	N_Wear02	콩글리팬츠	0.00
+Item#186	Ns_Wear10	マッスルウェア	울끈불끈웨어	Item.msbt#159	Ns_Wear10	안전바지	0.00
+Item#195	N_Wear03	ファイターウェア	파이터웨어	Item.msbt#165	N_Wear03	후훗바지	0.00
+Item#197	Ns_Wear11	マスターウェア	마스터웨어	Item.msbt#167	Ns_Wear11	버섯팬츠	0.00
+Item#206	N_Wear04	ハートウェア	하트웨어	Item.msbt#175	N_Wear04	블루청바지	0.00
+Item#208	Ns_Wear12	キングウェア	킹웨어	Item.msbt#177	Ns_Wear12	거북바지	0.00
+Item#218	N_Wear05	ムキムキウェア	우락부락웨어	Item.msbt#186	N_Wear05	파라솔팬츠	0.00
+Item#220	Ns_Wear13	スターウェア	스타웨어	Item.msbt#188	Ns_Wear13	버섯슬랙스	0.00
+Item#229	N_Template			Item.msbt#196	N_Template		0.00
+Item#230	N_Wear06	アダルトウェア	어덜트웨어	Item.msbt#197	N_Wear06	하드팬츠	0.00
+Item#232	Ns_Wear14	Dスターウェア	D스타웨어	Item.msbt#199	Ns_Wear14	콩병아리청바지	0.00
+Item#241	N_Wear07	ノコノコウェア	넉넉웨어	Item.msbt#208	N_Wear07	하트청바지	0.00
+Item#243	Ns_Wear15	カンペキウェア	퍼펙트웨어	Item.msbt#210	Ns_Wear15	버섯툭튀바지	0.00
+Item#250	N_SuperKinoko	スーパーキノコ	슈퍼버섯	Item.msbt#217	N_SuperKinoko	슈퍼버섯	1.00
+Item#251	N_Wear08	ヒーローウェア	히어로웨어	Item.msbt#218	N_Wear08	체크바지	0.00
+Item#253	Ns_Wear16	エクセレントウェア	엑설런트웨어	Item.msbt#220	Ns_Wear16	행운버섯팬츠	0.00
+Item#256	E_Kinoko	マリオとルイージ どちらかの / HPが ３０回復。	마리오와 루이지 중 한 명의 / HP를 30 회복.	Item.msbt#222	E_Kinoko	HP 30 회복.	0.80
+Item#264	N_Wear09	セレブウェア	럭셔리웨어	Item.msbt#226	N_Wear09	넘버원바지	0.00
+Item#265	Ns_Wear17	ルーキーウェア	루키웨어	Item.msbt#229	Ns_Wear17	스캔들청바지	0.00
+Item#273	Ns_Wear18	ブラザーウェア	브라더웨어	Item.msbt#235	Ns_Wear18	스트리트청바지	0.00
+Item#278	Ns_Wear19	バリアウェア	방어웨어	Item.msbt#242	Ns_Wear19	트로피칼바지	0.00
+Item#291	E_Syrup	マリオとルイージ どちらかの / BPが １５回復。	마리오와 루이지 중 한 명의 / SP를 15 회복.	Item.msbt#250	E_Syrup	BP 15 회복.	0.60
+Item#294	N_UltraNut	ウルトラナッツ	울트라너트	Item.msbt#254	N_UltraNut	울트라너트	1.00
+Item#296	Ns_MaxSyrup	ミラクルシロップ	미라클시럽	Item.msbt#255	Ns_MaxSyrup	MAX시럽	0.25
+Item#297	F_SuperNut	スーパーナッツはいっぱいです！	슈퍼너트 FULL!	Item.msbt#257	F_SuperNut	슈퍼너트 FULL!	1.00
+Item#300	E_MaxKinoko	マリオとルイージ どちらかの / HPが フル回復。	마리오와 루이지 중 한 명의 / HP를 완전 회복.	Item.msbt#259	E_MaxKinoko	HP 모두 회복.	0.40
+Item#301	F_GhostCookie	ゴーストクッキーはいっぱいです！	고스트쿠키 FULL!	Item.msbt#262	F_GhostCookie	ゴーストクッキーはいっぱいです！	0.00
+Item#304	N_Wear20	メディカルウェア	메디컬웨어	Item.msbt#263	N_Wear20	세이프티팬츠	0.00
+Item#306	E_GhostCookie	しばらく 敵からダメージを受けなくなり / かいひのトレーニングができる。	잠시 동안 적에게 타격을 입지 않게 되어 / 회피 연습을 할 수 있음.	Item.msbt#264	E_GhostCookie	잠시 적으로부터 대미지를 받지 않게 되어 / 회피 연습이 가능함.	0.38
+Item#308	E_SuperSyrup	マリオとルイージ どちらかの / BPが ３５回復。	마리오와 루이지 중 한 명의 / SP를 35 회복.	Item.msbt#266	E_SuperSyrup	BP 35 회복.	0.60
+Item#312	N_Wear21	シンクロウェア	싱크로웨어	Item.msbt#270	N_Wear21	스타빈바지	0.00
+Item#315	Ns_UltraSyrup	ウルトラシロップ	울트라시럽	Item.msbt#271	Ns_UltraSyrup	울트라시럽	1.00
+Item#321	Ns_Nut	ナッツ	너트	Item.msbt#283	Ns_Nut	너트	1.00
+Item#322	N_UltraSyrup	ウルトラシロップ	울트라시럽	Item.msbt#288	N_UltraSyrup	울트라시럽	1.00
+Item#325	E_Wear00	軽くて動きやすいペラペラのウェア。	가볍고 움직이기 편한 헐렁헐렁한 웨어.	Item.msbt#294	E_Wear00	가볍고 움직이기 편한 작업용 팬츠.	0.62
+Item#328	E_Wear01	外で元気に遊ぶ人のためのウェア。 / 状態変化になるとDEFがアップ！	밖에서 신나게 노는 사람을 위한 웨어. / 상태 변화에 걸리면 DEF가 증가!	Item.msbt#303	E_Wear01	튼튼하고 질긴 실용적인 청바지.	0.00
+Item#329	F_UltraSyrup	ウルトラシロップはいっぱいです！	울트라시럽 FULL!	Item.msbt#305	F_UltraSyrup	울트라시럽 FULL!	1.00
+Item#333	E_Wear02	キケンな作業にぴったりなウェア。 / 自動的にHPが少し回復する効果。	위험한 작업에 딱 맞는 웨어. / 자동으로 HP가 조금 회복되는 효과.	Item.msbt#312	E_Wear02	싸고 튼튼하다! / 하지만 멋쟁이들은 입지 않겠지.	0.00
+Item#340	E_Wear03	戦う人のためのウェア。 / 敵を倒すとPOWがアップ！	싸우는 사람을 위한 웨어. / 적을 쓰러뜨리면 POW가 증가!	Item.msbt#322	E_Wear03	후훗 마을 사람들이 모두 입고 있는 세련된 바지.	0.06
+Item#349	E_Wear04	ハートもようの オシャレなウェア。 / Excellent評価でHPが少し回復！	하트 무늬의 멋진 웨어. / Excellent를 내면 HP가 조금 회복!	Item.msbt#334	E_Wear04	HP가 자동으로 회복되는 청바지. / 위험한 작업에 안성맞춤!	0.13
+Item#361	E_Wear05	着るとチカラがみなぎるウェア。 / クリティカルとラッキーヒットの威力がアップ！	입으면 힘이 넘치는 웨어. / 크리티컬과 럭키 히트의 위력이 증가!	Item.msbt#346	E_Wear05	배틀이 시작된 후 잠깐 동안 / DEF 상승 효과.	0.00
+Item#371	E_Wear06	Excellent評価でバッジメーターが / たまりやすくなる ダンディなウェア。	Excellent를 내면 배지 게이지가 / 잘 차는 댄디한 웨어.	Item.msbt#356	E_Wear06	아무 것도 하지 않아도 가드가 가능한 하드한 팬츠.	0.00
+Item#380	E_Wear07	ぼうぎょアクションでミスしてもダメージを / おさえてくれるウェア。	방어 액션에서 실수해도 타격을 / 줄여 주는 웨어.	Item.msbt#367	E_Wear07	하트 무늬가 그려진 세련된 청바지. / 버섯을 먹으면 상태이상도 같이 회복되는 효과.	0.00
+Item#383	N_Nut	ナッツ	너트	Item.msbt#372	N_Nut	너트	1.00
+Item#391	E_Wear08	気絶しても次のターンで立ち上がる！ / いそがしいヒーローのためのウェア。	기절해도 다음 턴에 다시 일어선다! / 바쁜 히어로를 위한 웨어.	Item.msbt#376	E_Wear08	방어 액션에서 실수를 해도 / 대미지를 줄여주는 바지.	0.05
+Item#403	E_Wear09	とってもセレブなウェア。 / めまわしを完全にガード！	아주 럭셔리한 웨어. / 어질어질 상태를 완전히 방어!	Item.msbt#382	E_Wear09	누구보다도 빨리 움직이고 싶은 활발한 당신에게!	0.00
+Item#407	Ns_Kinoko	キノコ	버섯	Item.msbt#389	Ns_Kinoko	버섯	1.00
+Item#417	N_Refleshhb	リフレッシュハーブ	회복허브	Item.msbt#393	N_Refleshhb	회복허브	1.00
+Item#418	Ns_MaxKinoko	ミラクルキノコ	미라클버섯	Item.msbt#395	Ns_MaxKinoko	MAX버섯	0.25
+Item#437	F_MaxKinoko	ミラクルキノコはいっぱいです！	미라클버섯 FULL!	Item.msbt#405	F_MaxKinoko	MAX버섯 FULL!	0.62
+Item#440	N_MaxSyrup	ミラクルシロップ	미라클시럽	Item.msbt#406	N_MaxSyrup	MAX시럽	0.25
+Item#449	F_UltraNut	ウルトラナッツはいっぱいです！	울트라너트 FULL!	Item.msbt#412	F_UltraNut	울트라너트 FULL!	1.00
+Item#450	N_1upKinoko	１UPキノコ	1UP버섯	Item.msbt#413	N_1upKinoko	1UP버섯	1.00
+Item#465	E_Refleshhb	状態変化を治す。 / 心を落ち着かせる効果もある。	상태 변화에서 회복. / 마음을 진정시키는 효과도 있음.	Item.msbt#430	E_Refleshhb	독/어질어질/꽈당 등의 상태에서 회복.	0.29
+Item#467	E_Wear20	体の異常を治してくれるウェア。 / 状態変化を１ターンで治す効果。	몸의 이상을 치료해 주는 웨어. / 상태 변화를 1턴 만에 고치는 효과.	Item.msbt#431	E_Wear20	상태이상이 되면 대미지를 줄여주는 / 안심되는 팬츠.	0.15
+Item#474	E_Wear21	ブラザーアタックでもらえるバッジパワーが / 大幅にアップするウェア。	스페셜 어택으로 얻는 배지 파워가 / 대폭 증가하는 웨어.	Item.msbt#437	E_Wear21	스타 빈즈 무늬 바지. / 배틀 시작 후 잠깐 동안 DEF 상승 효과.	0.00
+Item#476	N_GhostCookie	ゴーストクッキー	고스트쿠키	Item.msbt#439	N_GhostCookie	고스트쿠키	1.00
+Item#478	N_Syrup	シロップ	시럽	Item.msbt#440	N_Syrup	시럽	1.00
+Item#505	Ns_Wear00	ペラペラウェア	헐렁헐렁웨어	Item.msbt#472	Ns_Wear00	워크팬츠	0.00
+Item#506	E_Badge00	HPが回復する効果になるバッジ	HP를 회복하는 효과가 있는 배지.	Item.msbt#473	E_Badge00	POW와 BP가 상승하는 배지.	0.25
+Item#514	Ns_Wear01	ピクニックウェア	피크닉웨어	Item.msbt#482	Ns_Wear01	워크청바지	0.00
+Item#515	E_Badge01	ダメージがアップする効果になるバッジ	공격력을 높이는 효과가 있는 배지.	Item.msbt#483	E_Badge01	콩글리아 성이 그려진 / 관광객을 위한 배지.	0.08
+Item#522	Ns_Wear02	レンジャーウェア	레인저웨어	Item.msbt#496	Ns_Wear02	콩글리팬츠	0.00
+Item#523	E_Badge02	バトルで獲得するものに ボーナスがつく / 効果になるバッジ	배틀에서 획득하는 것에 보너스가 붙는 / 효과가 있는 배지.	Item.msbt#497	E_Badge02	초보자에게 추천하는 배지.	0.30
+Item#530	Ns_Wear03	ファイターウェア	파이터웨어	Item.msbt#505	Ns_Wear03	후훗바지	0.00
+Item#531	E_Badge03	BPが回復する効果になるバッジ	SP를 회복하는 효과가 있는 배지.	Item.msbt#506	E_Badge03	콩글리아에서 가장 대중적인 배지.	0.08
+Item#539	Ns_Wear04	ハートウェア	하트웨어	Item.msbt#515	Ns_Wear04	블루청바지	0.00
+Item#540	E_Badge04	モンスターにダメージをあたえる効果 / になるバッジ	몬스터에게 타격을 입히는 / 효과가 있는 배지.	Item.msbt#516	E_Badge04	방어 액션의 대미지가 상승!	0.00
+Item#544	F_Wear10	マッスルウェアはいっぱいです！	울끈불끈웨어 FULL!	Item.msbt#519	F_Wear10	あんぜんズボンはいっぱいです！	0.00
+Item#551	Ns_Wear05	ムキムキウェア	우락부락웨어	Item.msbt#523	Ns_Wear05	파라솔팬츠	0.00
+Item#552	E_Badge05	モンスターの攻撃をふせぐ / 効果になるバッジ	몬스터의 공격을 막는 / 효과가 있는 배지.	Item.msbt#524	E_Badge05	점장이 추천하는 / 특매 상품!	0.00
+Item#555	F_Wear11	マスターウェアはいっぱいです！	마스터웨어 FULL!	Item.msbt#527	F_Wear11	キノコパンツはいっぱいです！	0.00
+Item#561	Ns_Wear06	アダルトウェア	어덜트웨어	Item.msbt#533	Ns_Wear06	하드팬츠	0.00
+Item#562	E_Badge06	まだまだこれからのビギナーむけバッジ	아직 갈 길이 먼 비기너용 배지.	Item.msbt#534	E_Badge06	BP가 자동으로 회복되는 신비한 배지.	0.09
+Item#563	E_MaxNut	マリオとルイージの / HPが フル回復。	마리오와 루이지의 / HP를 완전 회복.	Item.msbt#535	E_MaxNut	마리오와 루이지의 HP 모두 회복.	0.77
+Item#566	F_Wear12	キングウェアはいっぱいです！	킹웨어 FULL!	Item.msbt#539	F_Wear12	カメズボンはいっぱいです！	0.00
+Item#572	Ns_Wear07	ノコノコウェア	넉넉웨어	Item.msbt#543	Ns_Wear07	하트청바지	0.00
+Item#573	E_Badge07	バトルになれはじめた ベテランむけバッジ	배틀에 익숙해지기 시작한 베테랑용 배지.	Item.msbt#544	E_Badge07	솔로 점프 성공으로 HP가 회복되는 기적의 배지!	0.06
+Item#576	F_MaxNut	ミラクルナッツはいっぱいです！	미라클너트 FULL!	Item.msbt#546	F_MaxNut	MAX너트 FULL!	0.62
+Item#578	F_Wear13	スターウェアはいっぱいです！	스타웨어 FULL!	Item.msbt#547	F_Wear13	キノコスラックスはいっぱいです！	0.00
+Item#583	Ns_Wear08	ヒーローウェア	히어로웨어	Item.msbt#549	Ns_Wear08	체크바지	0.00
+Item#585	E_Badge08	バトルを極めた マスターむけバッジ	배틀을 통달한 마스터용 배지.	Item.msbt#550	E_Badge08	배틀에서 첫 번째로 공격하면 / 럭키 히트가 쉽게 발생하고 대미지도 상승!	0.09
+Item#590	Ns_Wear09	セレブウェア	럭셔리웨어	Item.msbt#555	Ns_Wear09	넘버원바지	0.00
+Item#592	E_Badge09	バトルが全ての エキスパートむけバッジ	배틀이 전부인 엑스퍼트용 배지.	Item.msbt#556	E_Badge09	キノコをもつほどダメージアップするバッジ！	0.00
+Item#593	E_MaxSyrup	マリオとルイージ どちらかの / BPが フル回復。	마리오와 루이지 중 한 명의 / SP를 완전 회복.	Item.msbt#557	E_MaxSyrup	BP 모두 회복.	0.20
+Item#594	E_SuperKinoko	マリオとルイージ どちらかの / HPが ５０回復。	마리오와 루이지 중 한 명의 / HP를 50 회복.	Item.msbt#559	E_SuperKinoko	HP 50 회복.	0.80
+Item#600	Ns_Refleshhb	リフレッシュハーブ	회복허브	Item.msbt#563	Ns_Refleshhb	회복허브	1.00
+Item#608	E_1upKinokodx	倒れた なかまが / HPフルで ふっかつ。	기절한 파트너가 / 완전한 HP로 부활.	Item.msbt#566	E_1upKinokodx	기절한 파트너가 완전한 HP로 부활.	1.00
+Item#609	F_MaxSyrup	ミラクルシロップはいっぱいです！	미라클시럽 FULL!	Item.msbt#569	F_MaxSyrup	MAX시럽 FULL!	0.62
+Item#614	F_Refleshhb	リフレッシュハーブはいっぱいです！	회복허브 FULL!	Item.msbt#574	F_Refleshhb	회복허브 FULL!	1.00
+Item#627	F_Syrup	シロップはいっぱいです！	시럽 FULL!	Item.msbt#584	F_Syrup	시럽 FULL!	1.00
+Item#629	N_Wear10	マッスルウェア	울끈불끈웨어	Item.msbt#586	N_Wear10	안전바지	0.00
+Item#635	N_Wear11	マスターウェア	마스터웨어	Item.msbt#593	N_Wear11	버섯팬츠	0.00
+Item#643	N_Wear12	キングウェア	킹웨어	Item.msbt#598	N_Wear12	거북바지	0.00
+Item#646	Ns_Wear20	メディカルウェア	메디컬웨어	Item.msbt#599	Ns_Wear20	세이프티팬츠	0.00
+Item#651	N_MaxNut	ミラクルナッツ	미라클너트	Item.msbt#606	N_MaxNut	MAX너트	0.25
+Item#653	N_Wear13	スターウェア	스타웨어	Item.msbt#608	N_Wear13	버섯슬랙스	0.00
+Item#656	Ns_SuperKinoko	スーパーキノコ	슈퍼버섯	Item.msbt#610	Ns_SuperKinoko	슈퍼버섯	1.00
+Item#657	Ns_Wear21	シンクロウェア	싱크로웨어	Item.msbt#611	Ns_Wear21	스타빈바지	0.00
+Item#664	N_Wear14	Dスターウェア	D스타웨어	Item.msbt#618	N_Wear14	콩병아리청바지	0.00
+Item#671	N_Wear15	カンペキウェア	퍼펙트웨어	Item.msbt#628	N_Wear15	버섯툭튀바지	0.00
+Item#672	Ns_1upKinokodx	１UPキノコDX	1UP버섯DX	Item.msbt#629	Ns_1upKinokodx	1UP버섯DX	1.00
+Item#684	N_Wear16	エクセレントウェア	엑설런트웨어	Item.msbt#640	N_Wear16	행운버섯팬츠	0.00
+Item#693	N_Wear17	ルーキーウェア	루키웨어	Item.msbt#652	N_Wear17	스캔들청바지	0.00
+Item#700	N_Badge00	キノコバッジ	버섯배지	Item.msbt#659	N_Badge00	빈배지	0.50
+Item#702	N_Wear18	ブラザーウェア	브라더웨어	Item.msbt#663	N_Wear18	스트리트청바지	0.00
+Item#709	N_Badge01	パワフルバッジ	파워풀배지	Item.msbt#669	N_Badge01	캐슬배지	0.33
+Item#711	N_Wear19	バリアウェア	방어웨어	Item.msbt#674	N_Wear19	트로피칼바지	0.00
+Item#718	F_UltraKinoko	ウルトラキノコはいっぱいです！	울트라버섯 FULL!	Item.msbt#680	F_UltraKinoko	울트라버섯 FULL!	1.00
+Item#719	N_Badge02	ボーナスバッジ	보너스배지	Item.msbt#682	N_Badge02	콩삐약배지	0.25
+Item#727	E_Nut	マリオとルイージの / HPが ２０回復。	마리오와 루이지의 / HP를 20 회복.	Item.msbt#689	E_Nut	마리오와 루이지의 HP 20 회복.	0.92
+Item#728	E_UltraKinoko	マリオとルイージ どちらかの / HPが １００回復。	마리오와 루이지 중 한 명의 / HP를 100 회복.	Item.msbt#690	E_UltraKinoko	HP 80 회복.	0.60
+Item#730	N_Badge03	ブラザーバッジ	브라더배지	Item.msbt#693	N_Badge03	콩글리배지	0.25
+Item#738	N_Badge04	ミラクルバッジ	미라클배지	Item.msbt#702	N_Badge04	카운터배지	0.25
+Item#747	N_Badge05	シールドバッジ	실드배지	Item.msbt#708	N_Badge05	자선배지	0.33
+Item#757	N_Badge06	ビギナーバッジ	비기너배지	Item.msbt#712	N_Badge06	브라더배지	0.25
+Item#760	Ns_MaxNut	ミラクルナッツ	미라클너트	Item.msbt#713	Ns_MaxNut	MAX너트	0.25
+Item#769	N_Badge07	ベテランバッジ	베테랑배지	Item.msbt#717	N_Badge07	미라클배지	0.25
+Item#776	N_Badge08	マスターバッジ	마스터배지	Item.msbt#720	N_Badge08	미라클클배지	0.25
+Item#778	E_1upKinoko	倒れた なかまが / HPはんぶんで ふっかつ。	기절한 파트너가 / HP 1/2로 부활.	Item.msbt#721	E_1upKinoko	기절한 파트너가 HP 1/2로 부활.	1.00
+Item#782	N_Badge09	エキスパートバッジ	엑스퍼트배지	Item.msbt#722	N_Badge09	キノコバッジ	0.00
+Item#784	Ns_SuperNut	スーパーナッツ	슈퍼너트	Item.msbt#725	Ns_SuperNut	슈퍼너트	1.00
+Item#790	F_Kinoko	キノコはいっぱいです！	버섯 FULL!	Item.msbt#729	F_Kinoko	버섯 FULL!	1.00
+Item#791	N_1upKinokodx	１UPキノコDX	1UP버섯DX	Item.msbt#730	N_1upKinokodx	1UP버섯DX	1.00
+Item#792	N_MaxKinoko	ミラクルキノコ	미라클버섯	Item.msbt#731	N_MaxKinoko	MAX버섯	0.25
+Item#794	Ns_Syrup	シロップ	시럽	Item.msbt#733	Ns_Syrup	시럽	1.00
+Item#795	Ns_UltraKinoko	ウルトラキノコ	울트라버섯	Item.msbt#734	Ns_UltraKinoko	울트라버섯	1.00
+Menu#0	BtlGuide_02	基本②：ダメージを与えて倒す	기본②: 타격을 입혀 쓰러뜨린다	BMsg.dat:b_sys#2	BtlGuide_02	기본②: 대미지를 주어 격파	0.11
+Menu#9	BtlGuide_03	ジャンプでの攻撃	점프 공격	BMsg.dat:b_sys#9	BtlGuide_03	점프 공격	1.00
+Menu#14	BtlGuide_04	バトルきほんとバトルアタック	배틀 기본과 배틀 어택	BMsg.dat:b_sys#17	BtlGuide_04	시범과 연습	0.00
+Menu#15	BtlGuide_15_0	モンスターの攻撃中にボタンを押し続けると / 攻撃をガードして ダメージを減らせます。	몬스터가 공격하는 동안  버튼을 계속 누르면 / 공격을 방어해서 타격을 줄일 수 있어요.	BMsg.dat:b_sys#18	BtlGuide_15_0	브라더 어택이 어려울 때는 / 간단 어택 모드를 선택해 보세요.	0.00
+Menu#21	BtlGuide_05	おてほん と れんしゅう	시범과 연습	BMsg.dat:b_sys#27	BtlGuide_05	기본③: 마리오 형제의 HP에 주의	0.00
+Menu#22	BtlGuide_06_0	モンスターの攻撃で ダメージを受けると / マリオ達のHPが 減っていきます。 / HPがゼロになると 気絶して動けなくなります。	몬스터의 공격으로 타격을 입으면 / 마리오 일행의 HP가 줄어들어요. / HP가 0이 되면 기절해서 움직일 수 없게 돼요.	BMsg.dat:b_sys#28	BtlGuide_06_0	몬스터가 공격할 때에도 / 마리오 형제는 액션이 가능합니다. / 자세를 낮추는 포즈는 점프 방어 신호입니다.	0.12
+Menu#23	BtlGuide_15_1	モンスターの攻撃は 全てかいひできるので / よけられるならば / きんきゅうガードを使う必要はありません。	몬스터의 공격은 모두 회피할 수 있으니까 / 피할 수 있다면 / 긴급 가드를 쓸 필요는 없어요.	BMsg.dat:b_sys#29	BtlGuide_15_1	소모되는 BP가 늘어나는 대신에 / 타이밍을 맞추기 수월해집니다.	0.00
+Menu#27	BtlGuide_06	基本③：HPに注意	기본③: HP에 주의	BMsg.dat:b_sys#36	BtlGuide_06	점프 방어	0.00
+Menu#28	BtlGuide_06_1	マリオ と ルイージのバトルでは / ２人ともHPがゼロになって気絶すると / ゲームオーバーになります。	마리오와 루이지의 배틀에서는 / 두 사람 모두 HP가 0이 되어 기절하면 / 게임 오버가 돼요.	BMsg.dat:b_sys#37	BtlGuide_06_1	캐릭터 버튼을 누르면 점프할 수 있습니다.	0.00
+Menu#29	BtlGuide_15_2	どうしても かいひできない / 苦手な攻撃があったら使ってみましょう。	도저히 회피할 수 없는 / 어려운 공격이 있으면 써 보세요.	BMsg.dat:b_sys#38	BtlGuide_15_2	간단 어택 모드를 사용하려면 / 어택 선택 시  버튼을 누릅니다.	0.00
+Menu#33	BtlGuide_06_2	クッパは１人で行動しているので / HPがゼロになった時点で / ゲームオーバーになります。	쿠파는 혼자서 행동하니까 / HP가 0이 된 시점에서 / 게임 오버가 돼요.	BMsg.dat:b_sys#46	BtlGuide_06_2	점프로 공격을 회피할 수 있습니다. / 이때 몬스터를 밟으면 대미지를 줍니다.	0.00
+Menu#34	BtlGuide_07	防御	방어	BMsg.dat:b_sys#47	BtlGuide_07	기본④: 이길수록 강해진다	0.00
+Menu#35	FldGuide_02_0	マリオはボタン ルイージはボタン で / アクションができます。	마리오는  버튼, 루이지는  버튼으로 / 액션을 할 수 있어요.	Menu.msbt#28	FldGuide_02_0	획득한 아이템은 / 메뉴를 통해 사용할 수 있습니다.	0.11
+Menu#41	BtlGuide_08	ジャンプ防御	점프 방어	BMsg.dat:b_sys#57	BtlGuide_08	엔카운트	0.00
+Menu#49	BtlGuide_09	基本④：勝利すると強くなる	기본④: 승리하면 강해진다	BMsg.dat:b_sys#66	BtlGuide_09	기본⑤: 스테이터스에 대해	0.11
+Menu#69	SoloHammer_M_00	ハンマー	해머	BMsg.dat:b_sys#77	SoloHammer_M_00	해머	1.00
+Menu#73	BtlGuide_13_0	アシストきのうを ONにすれば  / 狙われるキャラクターにマーカーが表示されます。	어시스트 기능을 ON으로 하면 / 공격받을 캐릭터에게 마커가 표시돼요.	BMsg.dat:b_sys#83	BtlGuide_13_0	이지 모드를 사용하면 마리오 형제가 강해져 / 몬스터를 쉽게 물리칠 수 있습니다.	0.04
+Menu#80	BtlGuide_04_0	バトルきほんでは バトルのせつめいや / 戦いかた 勝つためのコツを / かくにんすることができます。	배틀 기본에서는 배틀 설명이나 / 싸우는 법, 이기기 위한 요령을 / 확인할 수 있어요.	BMsg.dat:b_sys#92	BtlGuide_04_0	공격을 선택할 때 아래 화면의 버튼을 터치하면 / 시범을 보거나 연습을 할 수 있습니다.	0.06
+Menu#82	BtlGuide_13_1	マリオの足元に 赤いマーカーが出たら / マリオが狙われています。	마리오의 발밑에 빨간 마커가 나오면 / 마리오를 노리고 있다는 뜻이에요.	BMsg.dat:b_sys#93	BtlGuide_13_1	이지 모드는 메뉴의 「설정」 항목에서 / 또는 게임 오버가 되면 선택할 수 있습니다. / 어렵다고 느낄 때 사용해 보세요.	0.00
+Menu#87	BtlGuide_04_1	バトルアタックでは  / 攻撃のおてほんを見たり / 入力のれんしゅうができます。	배틀 어택에서는 / 공격 시범을 보거나 / 입력 연습을 할 수 있어요.	BMsg.dat:b_sys#101	BtlGuide_04_1	시범에서는 시범 동영상을 볼 수 있습니다. / 액션 성공 타이밍을 확인해 두세요. 	0.17
+Menu#96	FldGuide_00_0	で 移動できます。	로 이동할 수 있어요.	Menu.msbt#76	FldGuide_00_0	슬라이드 패드로 이동할 수 있습니다. / 뒤에 있는 캐릭터는 자동으로 따라옵니다.	0.71
+Menu#107	amiibo_sys_err_01	対応していないamiiboです。	대응하지 않는 amiibo입니다.	ComErr.msbt#0	amiibo_sys_err_01	대응하지 않는 amiibo입니다.	1.00
+Menu#113	amiibo_sys_err_02	無線通信がOFFになっているため / amiiboを使えません。 / 無線通信をONにしてください。	무선 통신이 OFF로 되어 있어서 / amiibo를 사용할 수 없습니다. / 무선 통신을 ON으로 해 주십시오.	ComErr.msbt#2	amiibo_sys_err_02	무선 통신이 꺼져 있어 / amiibo를 사용할 수 없습니다. / 무선 통신을 켜 주십시오.	0.82
+Menu#120	amiibo_sys_err_03	amiiboのデータ読み込み中に / エラーが発生しました。 / もう１度お試しください。	amiibo 데이터를 읽어 들이는 중에 / 에러가 발생했습니다. / 다시 시도해 주십시오.	ComErr.msbt#3	amiibo_sys_err_03	amiibo 데이터 처리 중에 / 오류가 발생했습니다. / 다시 시도해 주십시오.	0.80
+Menu#122	BtlGuide_11_0	マリオ達の強さは スターメニューの / 「ステータス」で確認できます。	마리오 일행의 강함은 스타 메뉴의 / 「능력」에서 확인할 수 있어요.	BMsg.dat:b_sys#137	BtlGuide_11_0	브라더 어택을 선택하면 / 마리오와 루이지가 협력하여 공격합니다!	0.08
+Menu#131	amiibo_sys_err_04	NFCリーダー/ライターの電源を入れて / 本体の 赤外線受発光部を / 向い合せてください。	NFC 리더/라이터의 전원을 켜고 / 본체의 적외선 송수신부와 / 마주 보게 해 주십시오.	ComErr.msbt#4	amiibo_sys_err_04	이 amiibo에는 다른 게임 데이터가 / 기록되어 있어서 사용할 수 없습니다. / HOME 메뉴 설정의 「amiibo 설정」에서 / 게임 데이터를 삭제하면 사용할 수 있습니다.	0.03
+Menu#133	BtlGuide_02_0	「ジャンプ」や「パンチ」などで / モンスターを攻撃すれば ダメージを与えられます。 / モンスターのHPをゼロにすれば 倒せます。	「점프」나 「펀치」 등으로 / 몬스터를 공격하면 타격을 입힐 수 있어요. / 몬스터의 HP를 0으로 만들면 쓰러뜨릴 수 있어요.	BMsg.dat:b_sys#143	BtlGuide_02_0	「점프」나 「해머」 등으로 / 몬스터를 공격하면 대미지를 줍니다. / 몬스터의 HP가 0이 되면 승리합니다.	0.45
+Menu#134	BtlGuide_11_1	「HP」「BP」「POW」「DEF」 / 「SPEED」「HIGE」「TSUNO」があります。	「HP」「SP」「POW」「DEF」 / 「SPEED」「SUYEOM」「PPUL」이 있어요.	BMsg.dat:b_sys#144	BtlGuide_11_1	브라더 어택으로 액션에 성공하면 / 몬스터에게 큰 대미지를 줍니다.	0.00
+Menu#143	amiibo_sys_err_05	NFCリーダー/ライターの更新が必要です。 / やめる更新する	NFC 리더/라이터의 업데이트가 필요합니다. / 그만두기업데이트하기	ComErr.msbt#5	amiibo_sys_err_05	이 amiibo는 아직 사용할 수 없습니다. / 우선 「amiibo 등록」을 해 주십시오.	0.04
+Menu#146	BtlGuide_02_1	攻撃するときに ボタンやスライドパッド / タッチペンをうまく入力できれば / ダメージが増えます。	공격할 때 버튼이나 슬라이드 패드, / 터치펜을 잘 입력하면 / 주는 타격이 커져요.	BMsg.dat:b_sys#150	BtlGuide_02_1	공격 시 버튼과 슬라이드 패드를 / 제때 입력하면 더 큰 대미지를 줍니다.	0.37
+Menu#147	BtlGuide_11_2	HP は 体力。 / ダメージを受けると減り ゼロになると気絶します。	HP는 체력. / 타격을 입으면 줄어들고 0이 되면 기절해요.	BMsg.dat:b_sys#151	BtlGuide_11_2	어택을 사용하면 BP가 소모됩니다. / 아이템 「시럽」 등으로 회복이 가능합니다.	0.00
+Menu#159	amiibo_sys_err_06	赤外線通信エラーが 発生しました。 / 本体の電源をOFFにしてから / やり直してください。症状が直らない場合は本体の  / 取扱説明書に 記載されている / 任天堂サービスセンターへお問い合わせください。	적외선 통신 에러가 발생했습니다. / 본체의 전원을 끈 다음 / 다시 시도해 주십시오.증상이 해결되지 않을 때는 / 본체 취급설명서에 기재된 / 닌텐도 서비스 센터로 문의해 주십시오.	ComErr.msbt#6	amiibo_sys_err_06	amiibo 데이터가 손상되었습니다. / amiibo 데이터를 복구하시겠습니까? / 복구한다안 한다	0.05
+Menu#161	menu_load_10	データをコピーしました。	데이터를 복사했습니다.	Menu.msbt#103	menu_load_10	데이터를 복사했습니다.	1.00
+Menu#163	BtlGuide_02_2	入力のうまさは４段階で評価されます。 / 最高評価の Excellentをめざしましょう！	입력 솜씨는 4단계로 평가를 받아요. / 최고 평가인 Excellent를 노려 보세요!	BMsg.dat:b_sys#156	BtlGuide_02_2	입력 버튼은 공격에 따라 다릅니다. / 공격을 선택할 때 아래 화면의 설명을 보세요.	0.10
+Menu#177	amiibo_sys_err_07	NFCリーダー/ライターとの / 通信に失敗しました。NFCリーダー/ライターの / 電源をOFFにしてからやり直してください。症状が直らない場合は本体の  / 取扱説明書に 記載されている / 任天堂サービスセンターへお問い合わせください。	NFC 리더/라이터와의 / 통신에 실패했습니다.NFC 리더/라이터의 / 전원을 끈 다음 다시 시도해 주십시오.증상이 해결되지 않을 때는 / 본체 취급설명서에 기재된 / 닌텐도 서비스 센터로 문의해 주십시오.	ComErr.msbt#7	amiibo_sys_err_07	amiibo 데이터가 손상되었습니다. / 이 amiibo를 사용한 적이 있는 / 게임기 본체가 있으면 복구할 수 있습니다.또는 HOME 메뉴 설정의 / 「amiibo 설정」에서 초기화해 주십시오. / 	0.10
+Menu#192	amiibo_sys_err_08	マリオ&ルイージRPG３ DX では / 対応していないキャラクターのamiiboです。	마리오&루이지 RPG3 DX에서는 / 대응하지 않는 캐릭터의 amiibo입니다.	ComErr.msbt#8	amiibo_sys_err_08	amiibo 데이터 처리 중에 / 오류가 발생했습니다. / 다시 시도해 주십시오.	0.20
+Menu#261	SoloHammer_L_00_0	ハンマーを振りかぶったら ボタン！ / 成功させて Excellent を狙いましょう。	해머를 치켜들면  버튼! / 성공시켜서 Excellent를 노려 보세요.	BMsg.dat:b_sys#214	SoloHammer_L_00_0	해머를 들어 올리며  버튼! / 성공해서 Excellent 를 획득해 보세요.	0.61
+Menu#267	SoloJump_M_00_0	ふみつける時にボタン。成功したら もう１回！ / すべて成功させて Excellent を狙いましょう。	밟을 때  버튼. 성공하면 한 번 더! / 모두 성공시켜서 Excellent를 노려 보세요.	BMsg.dat:b_sys#220	SoloJump_M_00_0	밟을 때  버튼. 성공하면 다시 한 번! / 모두 성공해서 Excellent를 획득해 보세요.	0.73
+Menu#277	FldGuide_09_0	くぼみのあるマップは左上にアイコンがつきます。 / マップ内のくぼみを全て取ると消えます。	홈이 있는 지도에는 왼쪽 위에 아이콘이 표시돼요. / 지도 안의 홈을 전부 파면 사라져요.	Menu.msbt#150	FldGuide_09_0	스탬프 시트를 받으면 / amiibo를 터치하여 / 스탬프를 찍어 봅시다.	0.00
+Menu#335	FldGuide_07_0	「セーブブロック」や「一部のヘモグロびん」を / 叩くと セーブすることができます。	「저장블록」이나 「일부 헬로글로빈」을 / 두드리면 저장할 수 있어요.	Menu.msbt#194	FldGuide_07_0	마리오는  버튼으로 액션이 가능합니다.	0.00
+Menu#378	BtlGuide_18_0	ブラザーアタックやボコスカアタックが / 難しい時は かんたんアタックモードを / 選んでみましょう。	마리오 형제나 쿠파의 스페셜 어택이 / 어려울 때는 간단 어택 모드를 / 선택해 보세요.	BMsg.dat:b_sys#332	BtlGuide_18_0	핸드를 선택하면 마리오는 파이어,  / 루이지는 선더로 몬스터를 공격합니다.	0.21
+Menu#385	BtlGuide_09_0	モンスターを全滅させて バトルに勝利すれば / マリオ達の EXPがたまっていきます。 / ある程度たまれば レベルが上がります。	몬스터를 전멸시켜서 배틀에서 승리하면 / 마리오 일행의 EXP가 쌓여요. / 어느 정도 쌓이면 레벨이 올라가요.	BMsg.dat:b_sys#346	BtlGuide_09_0	마리오 형제의 능력치는 / 메뉴의 「스테이터스」에서 확인 가능합니다.	0.12
+Menu#386	BtlGuide_18_1	消費BPが 少しだけ増える代わりに / タイミングが成功しやすくなります。	소비 SP가 조금 늘어나는 대신 / 타이밍을 맞추기 쉬워져요.	BMsg.dat:b_sys#347	BtlGuide_18_1	몬스터의 약점일 경우 / 큰 대미지를 줄 수 있습니다.	0.00
+Menu#398	BtlGuide_09_1	レベルが上がると 与えるダメージが上がったり / マリオ達の HPが増えたりして / モンスターを 倒しやすくなります。	레벨이 올라가면 입히는 타격이 커지거나 / 마리오 일행의 HP가 늘어나서 / 몬스터를 쓰러뜨리기 쉬워져요.	BMsg.dat:b_sys#357	BtlGuide_09_1	「HP」「BP」「POW」「DEF」 / 「SPEED」「SUYEOM」총 6종류가 있습니다.	0.03
+Menu#408	SoloJump_L_00	ジャンプ	점프	BMsg.dat:b_sys#363	SoloJump_L_00	점프	1.00
+Menu#411	BtlGuide_09_2	モンスターが強いと 感じたら / 倒しやすいモンスターと バトルして / レベルを上げてから 進みましょう。	몬스터가 강하다고 느껴지면 / 쓰러뜨리기 쉬운 몬스터와 배틀해서 / 레벨을 올린 다음 나아가세요.	BMsg.dat:b_sys#366	BtlGuide_09_2	HP는 체력입니다. / 대미지를 받으면 줄어들고 0이 되면 기절합니다.	0.00
+Menu#413	FldGuide_05_0	手に入れたアイテムは / スターメニューから 使うことができます。	획득한 아이템은 / 스타 메뉴에서 사용할 수 있어요.	Menu.msbt#245	FldGuide_05_0	아래 화면의 미니 맵 버튼을 터치하면 / 지금 있는 곳이 표시됩니다.	0.00
+Menu#420	FldGuide_05_1	HPやBPが減っていたら / バトルの前に 回復しておきましょう。	HP나 SP가 줄어들었다면 / 배틀 전에 회복해 두세요.	Menu.msbt#252	FldGuide_05_1	아래 화면을 터치하면서 움직이면 / 주변 지도를 확인할 수 있습니다.	0.00
+Menu#425	FldGuide_05_2	バトル中しか使えないアイテムもあります。 / 新しく手に入れたものは / チェックしておきましょう。	배틀 중에만 쓸 수 있는 아이템도 있어요. / 새로 획득한 아이템은 / 확인해 두세요.	Menu.msbt#256	FldGuide_05_2	C스틱으로도 / 주변 지도를 확인할 수 있습니다. / ※C스틱은 New 닌텐도 3DS에만 있습니다.	0.10
+Menu#439	BtlGuide_16_0	イージーモードを使えば マリオ達が強くなり / モンスターを 倒しやすくなります。	이지 모드를 사용하면 마리오 일행이 강해져서 / 몬스터를 쓰러뜨리기 쉬워져요.	BMsg.dat:b_sys#398	BtlGuide_16_0	해머를 선택하면 몬스터를 때려 / 대미지를 줄 수 있습니다.	0.18
+Menu#446	BtlGuide_07_0	モンスターの攻撃中も アクションでき / そのアクションでモンスターの攻撃を / よけられれば ダメージをゼロにできます。	몬스터가 공격하는 중에도 액션을 할 수 있고 / 그 액션으로 몬스터의 공격을 / 피하면 타격을 0으로 만들 수 있어요.	BMsg.dat:b_sys#403	BtlGuide_07_0	몬스터를 전멸시켜 배틀에서 이기면 / 마리오 형제의 EXP가 쌓입니다. / 일정량이 쌓이면 레벨이 올라갑니다.	0.05
+Menu#447	BtlGuide_16_1	イージーモードは スターメニューの「せってい」か / または ゲームオーバーになると選べます。 / 難しいなと感じたら 使ってみましょう。	이지 모드는 스타 메뉴의 「설정」이나 / 게임 오버가 되었을 때 선택할 수 있어요. / 어렵다고 느껴지면 사용해 보세요.	BMsg.dat:b_sys#405	BtlGuide_16_1	가시 몬스터 등 밟을 수 없는 몬스터는 / 해머로 공격해 보세요.	0.13
+Menu#459	FldGuide_03_0	マリオはボタン ルイージはボタン / クッパはボタンでアクションができます。	마리오는  버튼, 루이지는  버튼, / 쿠파는  버튼으로 액션을 할 수 있어요.	Menu.msbt#289	FldGuide_03_0	획득한 장비품은 반드시 장착합시다. / 장비를 해야만 효과를 얻을 수 있습니다.	0.04
+Menu#483	BtlGuide_14_0	ブラザーアタックを選ぶと / マリオとルイージが協力して攻撃します！	스페셜 어택을 선택하면 / 마리오와 루이지가 협력해서 공격해요!	BMsg.dat:b_sys#451	BtlGuide_14_0	이지 모드일 때와 / 마리오 형제 전멸 후 재도전한 배틀일 때는 / 힌트 메시지가 표시됩니다.	0.16
+Menu#489	BtlGuide_05_0	おてほんでは おてほんムービーが見られます。 / アクション成功の タイミングを見ておきましょう。	시범에서는 시범 영상을 볼 수 있어요. / 액션이 성공하는 타이밍을 봐 두세요.	BMsg.dat:b_sys#459	BtlGuide_05_0	몬스터의 공격으로 대미지를 받으면 / 마리오와 루이지의 HP가 줄어듭니다. / HP가 0이 되면 기절하여 움직이지 못합니다.	0.00
+Menu#490	BtlGuide_10	エンカウント	인카운트	BMsg.dat:b_sys#460	BtlGuide_10	공격 대상 캐릭터 구별법	0.00
+Menu#491	BtlGuide_14_1	ブラザーアタックを使えば アクション成功で / モンスターに 大ダメージを与えられます。	스페셜 어택을 쓰면 액션에 성공했을 때 / 몬스터에게 큰 타격을 입힐 수 있어요.	BMsg.dat:b_sys#461	BtlGuide_14_1	힌트를 보려면 아래 화면 가운데에 있는 / 힌트 버튼을 터치하세요.	0.00
+Menu#492	FldGuide_00	キャラクターの移動	캐릭터 이동	Menu.msbt#307	FldGuide_00	캐릭터 이동	1.00
+Menu#497	BtlGuide_05_1	れんしゅうでは アタックを実際にためせます。 / 繰り返し れんしゅうしてコツをつかみましょう。	연습에서는 어택을 실제로 해 볼 수 있어요. / 반복해서 연습하며 요령을 익히세요.	BMsg.dat:b_sys#467	BtlGuide_05_1	마리오와 루이지의 HP가 / 모두 0이 되면 게임 오버입니다.	0.00
+Menu#498	BtlGuide_11	基本⑤：ステータスについて	기본⑤: 능력에 대해	BMsg.dat:b_sys#468	BtlGuide_11	브라더 어택으로 공격하기	0.00
+Menu#499	BtlGuide_14_2	アタックを使うと BPを消費します。 / アイテムの「シロップ」などで 回復しましょう。	어택을 쓰면 SP를 소비해요. / 아이템 「시럽」 등으로 회복하세요.	BMsg.dat:b_sys#469	BtlGuide_14_2	몬스터를 쓰러트리기 위한 힌트뿐 아니라 / 도움이 되는 정보도 얻을 수 있습니다. / 표시를 발견하면 바로 확인해 보세요.	0.04
+Menu#500	FldGuide_01	キャラクターの移動	캐릭터 이동	Menu.msbt#313	FldGuide_01	캐릭터 버튼	0.50
+Menu#506	menu_save_err_01	ゲームデータが壊れています。 / ゲームデータを作り直しますか？ / いいえはい	게임 데이터가 손상되었습니다. / 게임 데이터를 새로 만드시겠습니까? / 아니요예	ComErr.msbt#14	menu_save_err_01	게임 데이터가 손상되었습니다. / 게임 데이터를 다시 작성하시겠습니까? / 아니요예	0.84
+Menu#507	BtlGuide_12	狙われるキャラクターの見分け方	공격받을 캐릭터 구별법	BMsg.dat:b_sys#478	BtlGuide_12	긴급 가드	0.00
+Menu#508	FldGuide_01_0	で 移動できます。	로 이동할 수 있어요.	Menu.msbt#318	FldGuide_01_0	마리오는  버튼, 루이지는  버튼으로 / 액션이 가능합니다.	0.00
+Menu#509	FldGuide_02	キャラクターのボタン	캐릭터별 버튼	Menu.msbt#319	FldGuide_02	아이템	0.00
+Menu#516	SoloHammer_M_00_0	ハンマーを振りかぶったら ボタン！ / 成功させて Excellent を狙いましょう。	해머를 치켜들면  버튼! / 성공시켜서 Excellent를 노려 보세요.	BMsg.dat:b_sys#480	SoloHammer_M_00_0	해머를 들어 올리면  버튼! / 성공해서 Excellent를 획득해 보세요.	0.64
+Menu#517	menu_save_err_02	ゲームデータを作り直しています。 / そのままでお待ちください。	게임 데이터를 새로 만들고 있습니다. / 잠시 기다려 주십시오.	ComErr.msbt#15	menu_save_err_02	게임 데이터를 다시 작성하고 있습니다. / 잠시만 기다려 주십시오.	0.74
+Menu#518	BtlGuide_13	アシストきのう	어시스트 기능	BMsg.dat:b_sys#487	BtlGuide_13	이지 모드	0.00
+Menu#520	FldGuide_03	キャラクターのボタン	캐릭터별 버튼	Menu.msbt#325	FldGuide_03	장비품	0.00
+Menu#528	menu_save_err_03	ゲームを終了します。 / ボタンを押して / HOMEメニューに戻ってください。	게임을 종료합니다. /  버튼을 눌러 / HOME 메뉴로 돌아가 주십시오.	ComErr.msbt#16	menu_save_err_03	게임을 종료합니다. /  버튼을 눌러 / HOME 메뉴로 돌아가 주십시오.	1.00
+Menu#529	BtlGuide_14	ブラザーアタックでの攻撃	스페셜 어택으로 공격	BMsg.dat:b_sys#495	BtlGuide_14	힌트	0.00
+Menu#530	FldGuide_04	キャラクターのボタン	캐릭터별 버튼	Menu.msbt#330	FldGuide_04	저장	0.00
+Menu#540	BtlGuide_15	きんきゅうガード	긴급 가드	BMsg.dat:b_sys#501	BtlGuide_15	간단 어택 모드	0.00
+Menu#541	FldGuide_05	アイテム	아이템	Menu.msbt#334	FldGuide_05	아래 화면의 맵	0.00
+Menu#551	BtlGuide_12_0	モンスターが攻撃するまでの しぐさの中に / 見わけるサインが あります。 / それを見つけましょう。	몬스터가 공격하기까지의 몸짓 속에 / 알아볼 수 있는 신호가 있어요. / 그것을 찾아보세요.	BMsg.dat:b_sys#510	BtlGuide_12_0	몬스터가 공격할 때  버튼을 누르고 있으면 / 공격을 막아 대미지를 줄일 수 있습니다.	0.19
+Menu#552	BtlGuide_16	イージーモード	이지 모드	BMsg.dat:b_sys#511	BtlGuide_16	해머로 공격하기	0.00
+Menu#553	FldGuide_06	そうび品	장비	Menu.msbt#339	FldGuide_06	캐릭터 이동	0.00
+Menu#561	SoloHammer_L_00	ハンマー	해머	BMsg.dat:b_sys#516	SoloHammer_L_00	해머	1.00
+Menu#564	BtlGuide_03_0	ジャンプを選べば モンスターを / ふみつけて ダメージを与えられます。	점프를 선택하면 몬스터를 / 밟아서 타격을 입힐 수 있어요.	BMsg.dat:b_sys#520	BtlGuide_03_0	점프를 고르면 몬스터를 / 밟아 대미지를 주게 됩니다.	0.40
+Menu#565	BtlGuide_17	ヒント	힌트	BMsg.dat:b_sys#523	BtlGuide_17	해머 방어	0.00
+Menu#566	FldGuide_07	セーブ	저장	Menu.msbt#346	FldGuide_07	캐릭터 버튼	0.00
+Menu#578	BtlGuide_03_1	空を飛んでいるモンスターに / とくに有効な攻撃です。	하늘을 날고 있는 몬스터에게 / 특히 효과적인 공격이에요.	BMsg.dat:b_sys#531	BtlGuide_03_1	하늘을 나는 몬스터에게 / 특히 유리한 공격입니다.	0.53
+Menu#579	BtlGuide_18	かんたんアタックモード	간단 어택 모드	BMsg.dat:b_sys#533	BtlGuide_18	핸드로 공격하기	0.00
+Menu#580	FldGuide_08	マップ	지도	Menu.msbt#353	FldGuide_08	스탬프	0.00
+Menu#588	BtlGuide_19	ハンマーでの攻撃	해머 공격	BMsg.dat:b_sys#539	BtlGuide_19	상태 변화	0.00
+Menu#589	FldGuide_09	くぼみアイコン	홈 아이콘	Menu.msbt#357	FldGuide_09	스탬프	0.00
+Menu#614	BtlGuide_10_0	モンスターにふれると エンカウント！ / バトル開始です。	몬스터에게 닿으면 인카운트! / 배틀 시작이에요.	BMsg.dat:b_sys#565	BtlGuide_10_0	몬스터가 공격하기 전에 하는 행동에 / 누구를 공격할지 구별할 수 있는 / 힌트가 있습니다. 한 번 찾아 보세요. 	0.11
+Menu#620	BtlGuide_01_0	マリオ達はそれぞれ アクションするボタンが / 決まっています。	마리오 일행은 각자 액션하는 버튼이 / 정해져 있어요.	BMsg.dat:b_sys#574	BtlGuide_01_0	마리오 형제는 각자 조작 버튼이 정해져 있습니다. / 마리오는  버튼 / 루이지는  버튼으로 조작합니다.	0.50
+Menu#621	BtlGuide_10_1	モンスターを ふんで エンカウントすると / ダメージをあたえて バトルを開始できます。	몬스터를 밟아서 인카운트하면 / 타격을 입히고 배틀을 시작할 수 있어요.	BMsg.dat:b_sys#575	BtlGuide_10_1	아래 화면의 어시스트 버튼을 터치하여 / 어시스트를 켜고 끌 수 있습니다.	0.04
+Menu#626	BtlGuide_01_1	マリオはボタン ルイージはボタン / クッパはボタン でアクションをします。	마리오는  버튼, 루이지는  버튼, / 쿠파는  버튼으로 액션을 해요.	BMsg.dat:b_sys#584	BtlGuide_01_1	마리오 형제의 순서가 되면 / 커맨드블록을 선택하여 행동합니다.	0.09
+Menu#629	BtlGuide_01_2	行動順がきたら コマンドブロックを選んで / 行動しましょう。	행동 순서가 오면 커맨드 블록을 선택해서 / 행동하세요.	BMsg.dat:b_sys#592	BtlGuide_01_2	슬라이드 패드 좌우로 블록을 선택한 후 / 각 캐릭터 버튼을 눌러 결정합니다.	0.19
+Menu#632	BtlGuide_01_3	の左右で コマンドブロックを選び / キャラクターのボタンを押せば 決定できます。	 좌우로 커맨드 블록을 고르고 / 캐릭터별 버튼을 누르면 결정할 수 있어요.	BMsg.dat:b_sys#599	BtlGuide_01_3	몬스터를 전멸시키면 승리하게 됩니다. / 우선은 「점프」 블록을 선택하여 / 공격을 해 봅시다.	0.07
+Menu#717	FldGuide_08_0	下画面の右下にある「ひらく」ボタンを / タッチすると ミニマップが表示されて / 今いる場所がわかるようになります。	아래 화면 오른쪽 아래에 있는 「열기」 버튼을 / 터치하면 미니 지도가 표시되어 / 지금 있는 곳을 알 수 있어요.	Menu.msbt#459	FldGuide_08_0	스탬프 시트를 받으면 / amiibo를 터치하여 / 스탬프를 찍어 봅시다.	0.07
+Menu#746	BtlGuide_19_0	ハンマーを選べば モンスターを叩いて / ダメージを与えられます。	해머를 선택하면 몬스터를 때려서 / 타격을 입힐 수 있어요.	BMsg.dat:b_sys#675	BtlGuide_19_0	배틀 중 몬스터의 공격으로 / 상태 변화를 일으키는 경우가 있습니다.	0.09
+Menu#756	BtlGuide_19_1	トゲが生えているなど ふめないモンスターには / ハンマーで攻撃しましょう。	가시가 돋아 있는 등 밟을 수 없는 몬스터는 / 해머로 공격하세요.	BMsg.dat:b_sys#682	BtlGuide_19_1	상태 변화가 일어나면 행동에 제약이 / 생기거나 HP가 줄어들기도 합니다.	0.00
+Menu#765	SoloJump_M_00	ジャンプ	점프	BMsg.dat:b_sys#683	SoloJump_M_00	점프	1.00
+Menu#776	FldGuide_06_0	手に入れたそうび品は そうびしてみましょう。 / そうびをしないと 効果がありません。	획득한 장비는 착용해 보세요. / 착용하지 않으면 효과가 없어요.	Menu.msbt#507	FldGuide_06_0	슬라이드 패드로 이동할 수 있습니다.	0.00
+Menu#806	BtlGuide_17_0	イージーモード中や / マリオ達が全員やられて やりなおしたバトルでは / ヒントメッセージが 出現することがあります。	이지 모드일 때나 / 마리오 일행이 전멸해서 다시 시작한 배틀에서는 / 힌트 메시지가 나올 때가 있어요.	BMsg.dat:b_sys#719	BtlGuide_17_0	몬스터가 공격할 때 마리오&루이지가 / 해머를 잡으면 해머 방어 신호입니다.	0.14
+Menu#815	BtlGuide_08_0	モンスターの攻撃中 / マリオ達が 腰を落として構えたら / ジャンプ防御の合図です。	몬스터가 공격할 때 / 마리오 일행이 허리를 낮추고 자세를 잡으면 / 점프 방어의 신호예요.	BMsg.dat:b_sys#726	BtlGuide_08_0	몬스터와 부딪히면 엔카운트! / 배틀이 시작됩니다.	0.11
+Menu#816	BtlGuide_17_1	ヒントを見るには 「ヒント」のコマンドブロックを / えらびましょう。	힌트를 보려면 「힌트」 커맨드 블록을 / 선택하세요.	BMsg.dat:b_sys#727	BtlGuide_17_1	캐릭터 버튼을 길게 눌러  / 해머를 들어 올립니다.	0.00
+Menu#824	menu_save_01	セーブ中です。 / 電源をOFFにしないでください。	저장 중입니다. / 전원을 끄지 마십시오.	Menu.msbt#538	menu_save_01	저장 중입니다. / 전원을 끄지 말아 주십시오.	0.86
+Menu#827	BtlGuide_08_1	キャラクターのボタンを押せば ジャンプできます。	캐릭터별 버튼을 누르면 점프할 수 있어요.	BMsg.dat:b_sys#734	BtlGuide_08_1	몬스터를 밟아서 엔카운트하면 / 대미지를 준 상태에서 배틀이 시작됩니다.	0.00
+Menu#828	BtlGuide_17_2	モンスターを倒すヒントだけでなく お得な / 情報が得られることもあります。 / えらべるようになったら すぐ確認してみましょう。	몬스터를 쓰러뜨리는 힌트뿐 아니라 쏠쏠한 / 정보를 얻을 때도 있어요. / 고를 수 있게 되면 바로 확인해 보세요.	BMsg.dat:b_sys#735	BtlGuide_17_2	들어 올린 후 버튼에서 손을 떼면 / 해머로 내리칠 수 있습니다.	0.04
+Menu#836	FldGuide_04_0	マリオはボタン ルイージはボタン  / クッパはボタンでアクションができます。	마리오는  버튼, 루이지는  버튼, / 쿠파는  버튼으로 액션을 할 수 있어요.	Menu.msbt#548	FldGuide_04_0	아래 화면의 저장 버튼을 터치하면 / 언제든 저장이 가능합니다.	0.04
+Menu#843	SoloJump_L_00_0	ふみつける時にボタン。成功したら もう１回！ / すべて成功させて Excellent を狙いましょう。	밟을 때  버튼. 성공하면 한 번 더! / 모두 성공시켜서 Excellent를 노려 보세요.	BMsg.dat:b_sys#744	SoloJump_L_00_0	밟을 때  버튼. 성공하면 다시 한 번! / 모두 성공해서 Excellent를 획득해 보세요.	0.73
+Menu#844	BtlGuide_01	基本①：コマンドを選んで攻撃	기본①: 커맨드를 골라 공격	BMsg.dat:b_sys#748	BtlGuide_01	기본①: 커맨드 선택으로 공격	0.56
+Menu#845	FldGuide_04_1	マリオとルイージがクッパの体内に / いないとき クッパの操作はできません。	마리오와 루이지가 쿠파의 몸속에 / 없을 때는 쿠파를 조작할 수 없어요.	Menu.msbt#555	FldGuide_04_1	게임 오버가 되면 마지막에 저장한 / 장소에서 다시 시작하게 됩니다. / 자주 저장해 둡시다.	0.00
+MenuKJ#0	Menu_KJ_record_title_00	クエストクリア回数	퀘스트 클리어 횟수	BMsg.dat:k_sys#266	KMsg_record_title_00	스테이지 클리어 횟수	0.57
+MenuKJ#2	Menu_KJ_record_title_01	バトルで勝った回数	배틀 승리 횟수	BMsg.dat:k_sys#277	KMsg_record_title_01	배틀에서 이긴 횟수	0.40
+MenuKJ#3	Menu_KJ_record_title_02	やっつけた敵の数	물리친 적의 수	BMsg.dat:k_sys#286	KMsg_record_title_02	물리친 적의 수	1.00
+MenuKJ#5	Menu_KJ_record_title_03	Excellent回数	Excellent 횟수	BMsg.dat:k_sys#299	KMsg_record_title_03	Excellent 횟수	1.00
+MenuKJ#6	Menu_KJ_result_save	セーブ中です。 / 電源をOFFにしないでください。	저장 중입니다. / 전원을 끄지 마십시오.	BMsg.dat:k_sys#15	KMsg_result_save	저장 중입니다. / 전원을 끄지 마십시오.	1.00
+MenuKJ#7	Menu_KJ_record_title_04	仲間にした数	동료로 삼은 수	BMsg.dat:k_sys#304	KMsg_record_title_04	아군 숫자	0.00
+MenuKJ#13	Menu_KJ_record_title	レコード	기록	BMsg.dat:k_sys#614	KMsg_record_title	기록	1.00
+MenuKJ#15	Menu_KJ_organize_divorce_exp	本当にわかれますか？	정말 작별하시겠습니까?	BMsg.dat:k_sys#703	KMsg_organize_divorce_exp	정말로 작별하시겠습니까?	0.89
+MenuKJ#16	Menu_KJ_organize_return_exp	変更を反映せずに戻ります。 / よろしいですか？	변경을 반영하지 않고 돌아갑니다. / 계속하시겠습니까?	BMsg.dat:k_sys#896	KMsg_organize_return_exp	변경 사항을 반영하지 않고 / 돌아가시겠습니까?	0.72
+MenuKJ#17	Menu_KJ_result_get_challenge	チャレンジたっせい！	챌린지 달성!	BMsg.dat:k_sys#731	KMsg_result_get_challenge	도전 달성!	0.33
+MenuKJ#18	Menu_KJ_quest_config_title	１度見たイベントを再生する	한 번 본 이벤트 재생	BMsg.dat:k_sys#179	KMsg_quest_config_title	이미 본 이벤트를 재생합니다.	0.57
+MenuKJ#23	Menu_KJ_item_get_la	は / 「」を覚えた！	, / 「」 습득!	BMsg.dat:k_sys#237	KMsg_item_get_la	 스킬 / 「」 획득!	0.00
+MenuKJ#30	Menu_KJ_result_up_lp	はLPが増えた！	의 LP가  늘었다!	BMsg.dat:k_sys#493	KMsg_result_up_lp	 LP  증가!	0.33
+MenuKJ#41	Menu_KJ_result_get_item	アイテムかくとく！	아이템 획득!	BMsg.dat:k_sys#732	KMsg_result_get_item	아이템 획득!	1.00
+MenuKJ#78	Menu_KJ_result_get_army	なかまがふえた！	동료가 늘었다!	BMsg.dat:k_sys#6	KMsg_result_get_army	아군이 늘었다!	0.40
+MenuKJ#82	Menu_KJ_result_get_la	は「」を覚えた！	, 「」 습득!	BMsg.dat:k_sys#920	KMsg_result_get_la	 스킬 「」 획득!	0.00
+MenuKJ#84	Menu_KJ_organize_warning_01	メンバーが９体そろっていませんが / よろしいですか？	멤버 9명이 다 모이지 않았습니다. / 계속하시겠습니까?	BMsg.dat:k_sys#454	KMsg_organize_warning_01	멤버 8명이 모이지 않았습니다. / 출격하시겠습니까?	0.70
+MenuKJ#85	Menu_KJ_item_up_lp	は / LPが増えた！	의 / LP가  늘었다!	BMsg.dat:k_sys#552	KMsg_item_up_lp	 / LP  증가!	0.33

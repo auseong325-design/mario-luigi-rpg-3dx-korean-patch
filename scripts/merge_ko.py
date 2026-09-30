@@ -372,7 +372,7 @@ def cmd_merge() -> int:
     FINAL.write_text(json.dumps(final, ensure_ascii=False, indent=0), encoding="utf-8")
     REPORT.write_text(json.dumps(report, ensure_ascii=False, indent=1), encoding="utf-8")
     with NEW_TERMS.open("w", encoding="utf-8", newline="") as f:
-        w = csv.writer(f, delimiter="\t")
+        w = csv.writer(f, delimiter="\t", lineterminator="\n")
         w.writerow(["jp", "ko", "conflict", "sources"])
         for jp, kos in sorted(terms.items()):
             for ko, src in kos.items():

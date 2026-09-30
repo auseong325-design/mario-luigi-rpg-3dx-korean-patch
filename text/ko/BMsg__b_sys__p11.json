@@ -42,7 +42,7 @@
   "BMsg/b_sys#1190": "{1:mode}적의 【돌격 타입】에게 타격!",
   "BMsg/b_sys#1191": "{1:align}녀석의 펀치는 {2:color}힘을 모으는 시간이\n길수록{3:color}{4:color} {5:color}큰 타격{6:color}이지롱롱!{7:wait}[Next]{8:align}힘을 끝까지 모은 펀치를\n맞기라도 하면…{9:wait}{10:color}",
   "BMsg/b_sys#1192": "{1:align}{2:align}{3:mode}{4:color}DEF{5:color}는 방어력.\n숫자가 클수록 타격을 적게 입습니다.",
-  "BMsg/b_sys#1193": "간파",
+  "BMsg/b_sys#1193": "회피",
   "BMsg/b_sys#1194": "오? 이 대형…\n왠지 멋있는데!",
   "BMsg/b_sys#1195": "럭키 히트의 위력이 증가!",
   "BMsg/b_sys#1196": "베타카로팅",
@@ -116,6 +116,7 @@
   {"jp": "スターエネルギーガン", "ko": "스타 에너지 건", "type": "attack", "basis": "coined", "note": "다크까르코비츠의 공격"}
  ],
  "notes": {
+  "BMsg/b_sys#1193": "review(클라우드 2026-09-30): みきり = 「회피」(1DX 한국판 공식 리더 액션, k_sys#106 KMsg_la_name_05·#358 KGGuide_BA28, 라벨 la_mikiri).",
   "BMsg/b_sys#1152": "キック은 DS 스페셜 어택 설명대로 '차다'(글로서리 경고는 의도).",
   "BMsg/b_sys#1167": "적은 '마리', 쿠파주니어 쪽 부대원은 '명'(style_guide 5.1). EXP % 업은 p4 BMsg#413에 맞춤.",
   "BMsg/b_sys#1170": "1페이지는 DS BAI__BMes_cf#2.1 '분명 반격을 가할 수 있을 거야!'를 씀.",

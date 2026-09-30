@@ -10,7 +10,7 @@
   "FMsg/k_o_ekubon_80#6": "어라? 무지오 왜 그래용~?{1:pause}\n배 아파용~?{2:wait}",
   "FMsg/k_o_ekubon_80#7": "…수림은?{1:wait}",
   "FMsg/k_o_ekubon_80#8": "자, 가시지요!{1:wait}",
-  "FMsg/k_o_ekubon_80#9": "고라파 레이크에 쿠파 7인조가 있다는\n정보를 입수했습니다.{1:wait}[Next]자, 고라파 레이크로!{2:wait}",
+  "FMsg/k_o_ekubon_80#9": "고라파 레이크에 쿠파7인조가 있다는\n정보를 입수했습니다.{1:wait}[Next]자, 고라파 레이크로!{2:wait}",
   "FMsg/k_o_ekubon_80#10": "{1:align}{2:mode}루드윅이 군단에 돌아왔다!{3:pause}{4:wait}",
   "FMsg/k_o_ekubon_80#11": "어이,{1:pause} 너희들.{2:wait}[Next]왜 갑자기\n덤벼든 거냐고.{3:wait}",
   "FMsg/k_o_ekubon_80#12": "{1:align}{2:align}{3:mode}웬디와 래리가 떠났다!{4:pause}{5:wait}",
@@ -114,6 +114,7 @@
  },
  "new_terms": [],
  "notes": {
+  "FMsg/k_o_ekubon_80#9": "review(클라우드 2026-09-30): クッパ７人衆 = 「쿠파7인조」(1DX 한국판은 43회 모두 붙여 씀, k_sys#409 등).",
   "FMsg/k_o_ekubon_80#73": "review: 리드 결정 -- DS가 일관되게 쓴 띄어쓰기 '숲 속'(DS 3회, '숲속' 0회)에 맞춤(AGENTS 4.6, o_ekubon_18#1·o_ekubon_09_1#37과 같음).",
   "FMsg/k_o_ekubon_80#0": "화자 추정: op01_16~18은 마귀↔로이(마귀가 반말 どうしたんだい를 쓰므로 7인조 상대). 로이는 거친 반말, 마귀는 동료에게 노인풍 해라체.",
   "FMsg/k_o_ekubon_80#2": "#2·#8·#9·#89·#95는 루드윅→쿠파주니어(하십시오체). 루드윅→적(큐티·SS컴퍼니)은 스타일 가이드 제안대로 하게체+'자네', 동료(웬디)에게는 해라체.",

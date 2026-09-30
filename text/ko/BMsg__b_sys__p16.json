@@ -16,7 +16,7 @@
     "BMsg/b_sys#1766": "{1:mode}{2:color}돌격 타입{3:color}과 {4:color}비행 타입{5:color}\n적이 많이 나오는 것 같아요.{6:pause}{7:wait}[Next]{8:mode}{9:color}비행 타입{10:color}을 주력으로 삼고\n{11:color}원거리 타입{12:color}을 {13:color}뒤쪽{14:color}에\n조금 넣어 보세요!{15:pause}{16:wait}[Next]{17:mode}적의 리더는 둘 다\n{18:color}비행 타입{19:color}이니까 이쪽은\n{20:color}원거리 타입{21:color}을 추천해요.{22:pause}{23:wait}",
     "BMsg/b_sys#1767": "{1:mode}적의 회피율 업!",
     "BMsg/b_sys#1768": "{1:mode}우리는 주 5일 근무제라네.",
-    "BMsg/b_sys#1769": "{1:mode}적 군단에 지원군이 왔다!",
+    "BMsg/b_sys#1769": "{1:mode}적 군단에 도우미가 왔다!",
     "BMsg/b_sys#1770": "{1:align}정진하도록 하여라~{2:wait}",
     "BMsg/b_sys#1771": "{1:font}{2:align}{3:align}맞아요! 바로 이것이\n{4:color}배큐엄블록{5:color}{6:color}의 파워입니다!{7:wait}[Next]{8:align}신사! {9:color}{10:color}{11:icon}{12:color}{13:color} 버튼을 연타해서\n미를 빨아들여 보세요!!{14:wait}{15:color}{16:font}",
     "BMsg/b_sys#1772": "{1:align}그러면 {2:color}파이어{3:color}도\n쏘 빅!{4:wait}[Next]{5:align}{6:color}{7:icon}{8:color}{9:color} 버튼을 계속 누르고 있으면{10:color}\n대미지도 쏘 빅입니다!{11:wait}",
@@ -100,6 +100,7 @@
     {"jp": "目隠しプレス", "ko": "눈가림 프레스", "type": "attack", "basis": "coined", "note": "잡동스터의 공격 이름(Hint_Gmonster_0_1). 양동이를 씌우고 쿵쿵으로 누름"}
   ],
   "notes": {
+    "BMsg/b_sys#1769": "review(클라우드 2026-09-30): すけっと = 「도우미」(1DX 한국판 공식, k_sys#587 KMsg_la_name_10·#881 KGGuide_BA33·KMsgBtl_la_suketto_01 '도우미 컴온!!').",
     "BMsg/b_sys#1755": "설명문의 アップする는 glossary note대로 '증가'(#1781·#1799·#1800·#1824도 같음, 업 미사용 경고는 의도)",
     "BMsg/b_sys#1772": "블록 상점 신사 말투라 DS BAI__BMes_cf#8.11(대미지도 쏘 빅입니다)대로 '대미지'(타격 미사용 경고는 의도)",
     "BMsg/b_sys#1843": "설명문의 ダウンさせる는 glossary note대로 '감소'. 용언을 쪼개지 않으려고 색을 '감소시켜요'까지 넓힘",

@@ -36,7 +36,7 @@
   "FMsg/k_o_koopa_80#33": "{1:color}무슨 소리야!{2:wait}[Next]내가\n342승 341패거든!{3:wait}{4:color}",
   "FMsg/k_o_koopa_80#34": "{1:align}모톤!{2:wait}[Next]{3:align}이기!{4:wait}[Next]{5:align}루드윅!{6:wait}",
   "FMsg/k_o_koopa_80#35": "후방 수비는 맡긴다!{1:wait}",
-  "FMsg/k_o_koopa_80#36": "뒤처지지 마!\n쿠파 군단혼{1:pause} 보여 줘라!{2:wait}",
+  "FMsg/k_o_koopa_80#36": "뒤처지지 마!\n쿠파 군단의 혼{1:pause} 보여 줘라!{2:wait}",
   "FMsg/k_o_koopa_80#37": "먹었다.{1:pause} 치킨.{2:wait}",
   "FMsg/k_o_koopa_80#38": "새까맣게 타서\n쓴맛이 났다.{1:wait}",
   "FMsg/k_o_koopa_80#39": "푸하아아…{1:wait}",
@@ -82,6 +82,7 @@
  },
  "new_terms": [],
  "notes": {
+  "FMsg/k_o_koopa_80#36": "review(클라우드 2026-09-30): 軍団魂 = 「군단의 혼」(1DX 한국판 k_sys#76 'GDH는 군단의 혼…'·#443; '군단혼'은 1DX 본문에 없는 나무위키 표기).",
   "FMsg/k_o_koopa_80#32": "쿠파가 주니어 앞에서 자기를 お父さん이라 부름 → 글로서리대로 '아빠'(style_guide 4장 '자칭 아빠·아비'). 웃음 ガハハ는 쿠파 규칙대로 '크핫핫핫핫'.",
   "FMsg/k_o_koopa_80#53": "ウワサをすれば → DS218#8 선례 '호랑이도 제 말 하면 온다더니'.",
   "FMsg/k_o_koopa_80#9": "ギッタギタのケチョンケチョン(도라에몽 퉁퉁이의 관용 협박) → '납작하게 묵사발을 만들어서'로 현지화.",

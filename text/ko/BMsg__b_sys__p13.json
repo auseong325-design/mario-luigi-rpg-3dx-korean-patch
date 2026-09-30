@@ -34,12 +34,12 @@
     "BMsg/b_sys#1413": "마린파이프상",
     "BMsg/b_sys#1414": "굼바를 닮은 통통한 몬스터.\n과자를 먹어서인지 체력은 유난히 많다.",
     "BMsg/b_sys#1415": "고리",
-    "BMsg/b_sys#1416": "비행EXP콩DX",
+    "BMsg/b_sys#1416": "비행 EXP 콩 DX",
     "BMsg/b_sys#1417": "폭탄병부대",
     "BMsg/b_sys#1418": "씨앗군",
     "BMsg/b_sys#1419": "{1:mode}명중10%↑LCK10%↑",
     "BMsg/b_sys#1420": "{1:color}쿠파주니어{2:color}의 EXP가 {3:color}1000{4:color} 증가.\n다른 캐릭터에게는 줄 수 없다",
-    "BMsg/b_sys#1422": "내리치기",
+    "BMsg/b_sys#1422": "내동댕이",
     "BMsg/b_sys#1423": "부딪친 상대를 머리 위로 튕겨 올리고\n떨어진 다음 뿔이나 가시로 한 번 더 올려쳐요.",
     "BMsg/b_sys#1424": "크리티컬",
     "BMsg/b_sys#1425": "배틀에 나갈 멤버들의\n강함과 스킬을 볼 수 있어요.",
@@ -116,6 +116,8 @@
     {"jp": "シューリンガン", "ko": "가시철구", "type": "item", "basis": "coined", "note": "가봉이 던지는 가시 철구. p5 KJ_Msg_quest_35·p10 Menu_KJ_Chr_exp_gabon 표기에 맞춤"}
   ],
   "notes": {
+    "BMsg/b_sys#1416": "review(클라우드 2026-09-30): 콩 아이템 이름은 1DX 한국판의 같은 라벨대로 띄어 씀(k_sys#30 'HP 콩', #406 '슈퍼 EXP 콩 S').",
+    "BMsg/b_sys#1422": "review(클라우드 2026-09-30): たたきつけ = 「내동댕이」(1DX 한국판 공식, k_sys#928 KMsg_cw_15·#724 KGGuide_BA14 '내동댕이쳐서').",
     "BMsg/b_sys#1450": "review(리드): うちけし = 「스킬 지우기」(1DX 한국판 공식, BMsg k_sys#48·#316·#641, 버튼 btn_KGLA_TX_n01). 동사형은 '(스킬을) 지우다'.",
     "BMsg/b_sys#1397": "설명문의 アップ!는 glossary note대로 '증가'(업 미사용 경고는 의도)",
     "BMsg/b_sys#1403": "설명문의 アップする는 glossary note대로 '증가'(업 미사용 경고는 의도)",

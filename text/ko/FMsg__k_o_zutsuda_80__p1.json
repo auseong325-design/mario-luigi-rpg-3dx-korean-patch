@@ -8,7 +8,7 @@
   "FMsg/k_o_zutsuda_80#4": "이 근처가 너희\n영역이라면 물어볼게…{1:wait}",
   "FMsg/k_o_zutsuda_80#5": "우와왓!{1:pause}{2:wait}",
   "FMsg/k_o_zutsuda_80#6": "뭔가 못된 짓을\n하시려는 거죠…{1:wait}",
-  "FMsg/k_o_zutsuda_80#7": "쿠파 7인조를\n못 봤어?{1:wait}[Next]래리…{2:pause} 레미…{3:pause} 웬디…{4:pause}\n로이…{5:pause} 모톤…{6:wait}",
+  "FMsg/k_o_zutsuda_80#7": "쿠파7인조를\n못 봤어?{1:wait}[Next]래리…{2:pause} 레미…{3:pause} 웬디…{4:pause}\n로이…{5:pause} 모톤…{6:wait}",
   "FMsg/k_o_zutsuda_80#8": "하필 이럴 때…!{1:wait}",
   "FMsg/k_o_zutsuda_80#9": "{1:align}안 돼요.{2:wait}[Next]{3:align}지금은 장난이나 치고\n있을 여유가 없어요.{4:wait}",
   "FMsg/k_o_zutsuda_80#10": "쳇.{1:wait}",
@@ -114,6 +114,7 @@
  },
  "new_terms": [],
  "notes": {
+  "FMsg/k_o_zutsuda_80#7": "review(클라우드 2026-09-30): クッパ７人衆 = 「쿠파7인조」(1DX 한국판은 43회 모두 붙여 씀, k_sys#409 등).",
   "FMsg/k_o_zutsuda_80#4": "テリトリー는 p2(#162·166·168·170)의 말장난 정답 낱말 '영역'(DS1AA#4)에 맞춤.",
   "FMsg/k_o_zutsuda_80#27": "全裸는 p2(#127·131·135)의 '벌거숭이'에 맞춤. 옐로스타를 놀리는 쿠파주니어의 말.",
   "FMsg/k_o_zutsuda_80#1": "펄럭펄럭 3형제 두목이 쿠파주니어에게 아첨. 若大将→작은 두목님, 大統領(よっ大統領 식 추어올림)→대통령감이십니다.",

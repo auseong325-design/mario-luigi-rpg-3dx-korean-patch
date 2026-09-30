@@ -18,11 +18,11 @@ LOGO = ROOT / "work/img/logo"
 SRC = ROOT / "work/img/lyt/3DX/MLyt/MENU_FILE_LOAD_JP_ja"
 DST = ROOT / "work/img/ko/lyt/MLyt/MENU_FILE_LOAD_JP_ja"
 NAMES = ("LOAD_GAME_IMG_KJ_L_00_JP_ja", "LOAD_GAME_IMG_KJ_R_00_JP_ja")
-P = dict(gap=2.0, sy=0.80, ratio=0.86, x_left=67.0, x_right=196.0, baseline=None, rot=-3.0,
+P = dict(gap=2.0, sy=0.80, ratio=0.86, x_left=63.0, x_right=196.0, baseline=None, rot=-3.0,
          seam=(206, 212), y_top=128, grow_max=0.8, puffs=[(40, 125, 100, 166), (196, 185, 236, 208)],
          # per syllable: (scale x, scale y, rotation deg, bottom y); 쿠파 big, 주니어 smaller (like クッパ / Jr.)
          syll=[(0.78, 0.92, -5.0, 187.0), (0.78, 0.92, 3.0, 185.0), (0.62, 0.74, -4.0, 182.0),
-               (0.62, 0.74, 3.0, 181.0), (0.62, 0.74, -3.0, 179.0)], syll_gap=1.0, puff_reach=4.0, puff_clear=3, r_zone=(4, 14))
+               (0.62, 0.74, 3.0, 181.0), (0.62, 0.74, -3.0, 179.0)], syll_gap=1.0, puff_reach=4.0, puff_clear=3, y_jr=100, cut_x=203, jr_reach=7)
 if len(sys.argv) > 1:
     P.update(json.loads(sys.argv[1]))
 
@@ -181,64 +181,46 @@ def main():
     if P.get("param_rings", True):
         out, B_hr = ring_render(a, F_all, lab_jp, Fn, F2, st, B1, glow, reg)
     L.save(out, LOGO / "steps/fileKJ_2_model.png")
-    covo = L.down(F2.astype(float))
-    m2 = covo >= 1
-    out[m2] = a[m2]
-    A = out[..., 3:] / 255
-    comp = out[..., :3] * A + 255 * (1 - A)
-    x = np.arange(W1)
-    w = np.clip((x - P["seam"][0]) / (P["seam"][1] - P["seam"][0]), 0, 1)[None, :, None]
-    changed = np.zeros((H1, W1), bool); changed[P["y_top"]:, :] = True
-    wy_ = ndi.gaussian_filter(changed.astype(float), 2)[..., None]
-    wgt = (1 - w) * wy_
-    res = rgb * (1 - wgt) + comp * wgt
-    # seam band: both sides are dark shapes on white -> union of the two = per-channel minimum
-    b0, b1 = P["seam"]
-    band = np.zeros((H1, W1), bool); band[P["y_top"]:, b0:b1] = True
-    res[band] = np.minimum(comp, rgb)[band]
-    res[:, b1:][changed[:, b1:]] = rgb[:, b1:][changed[:, b1:]]
-    # next to R only R's own body stays original (user review 2026-09-30: the band kept the white /
-    # yellow rim of the old Jr. between 어 and R); R is drawn in front of the Korean word
-    K2, _ = L.sweep(F2, F2.astype(int), st.sx)
-    rpgB = ndi.binary_dilation(L.down(L.body(F2, K2, st.r_o, st.D, st.r_e).astype(float)) > 0, iterations=1)
-    zone = np.zeros((H1, W1), bool); zone[P["y_top"]:, b0 - P["r_zone"][0]:b1 + P["r_zone"][1]] = True
-    faceR = ndi.binary_dilation(L.down(F2.astype(float)) > 0, iterations=1)
-    ownR = faceR | (rpgB & (rgb.max(2) < 170))      # R's face and its dark outline / 3D side only
-    res[zone & ~ownR] = comp[zone & ~ownR]
-    res[zone & ownR] = rgb[zone & ownR]
-    labB, _ = ndi.label(B1)
-    logo_ids = np.unique(labB[L.down(F_all.astype(float)) > 0])
-    art = (labB > 0) & ~np.isin(labB, logo_ids[logo_ids > 0])
-    art = ndi.binary_dilation(art, iterations=1)
-    near = L.down(((L.dist_out(B_hr) <= 10) | (L.dist_out(L.up_hr(B1 & ~art & reg)) <= 10)).astype(float)) > 0
-    keep = ~near | art
-    # the two smoke puffs are drawn in front of the letters: keep them as they are
-    puffs = np.zeros((H1, W1), bool)
+    # --- compositing (user review 3, 2026-09-30): a clean plate without クッパJr., then the Korean
+    # word with a transparent background IN FRONT of RPG, as the Japanese letters were; puffs on top.
+    # 1) puffs (drawn in front of the letters in the original)
+    yellow = ndi.binary_dilation((R_ > 200) & (G_ > 180) & (B_ < 120), iterations=2)
     puff_list = []
     for (x0, y0, x1, y1) in P["puffs"]:
         box = np.zeros((H1, W1), bool); box[y0:y1, x0:x1] = True
         inner = box & (rgb.min(2) >= 205) & ~glow
         lab_p, npf = ndi.label(inner)
-        szp = ndi.sum(inner, lab_p, range(1, npf + 1))
-        big = np.isin(lab_p, 1 + np.nonzero(szp >= 12)[0])
         # a puff interior is pinkish white enclosed by its own dark line (not the letter's white ring:
         # that one touches yellow)
-        yellow = ndi.binary_dilation((R_ > 200) & (G_ > 180) & (B_ < 120), iterations=2)
         ids = [i for i in range(1, npf + 1) if (lab_p == i).sum() >= 12 and not ((lab_p == i) & yellow).any()]
         puff = np.isin(lab_p, ids)
-        # the whole puff in front of the new letters: its interior plus the dark outline and tails
-        # joined to it (user review 2026-09-30: a 3 px halo left the outline cut by the new rim)
         near = ndi.distance_transform_edt(~puff) <= P["puff_reach"]
-        dark = rgb.max(2) < 170
-        full = puff | (near & dark & box)
+        full = puff | (near & (rgb.max(2) < 170) & box)
         full = ndi.binary_closing(full, iterations=1) & (near | puff)
         full |= ndi.binary_dilation(full, iterations=1) & near & (rgb.min(2) < 245) & ~yellow
         puff_list.append(full)
-        puffs |= full
-    res[keep & ~puffs] = rgb[keep & ~puffs]
-    res[puffs] = comp[puffs]                    # the new letters (or white) where a puff was
-    # the new 쿠 stands higher than ク: move each puff by the smallest step up / left that keeps it
-    # off the Korean face and its white-yellow rim, so it sits on the outer corner like the original
+    puffs = np.zeros((H1, W1), bool)
+    for f in puff_list:
+        puffs |= f
+    # 2) plate: every non-white pixel left of R that is connected to the Japanese letters -> white.
+    #    R never touches Jr. above its bottom outline (a white column separates them), so cutting at
+    #    cut_x leaves R, its outline and its 3D side exactly as drawn
+    Z = np.zeros((H1, W1), bool); Z[P["y_jr"]:, :P["cut_x"]] = True
+    lab_nw, _ = ndi.label((rgb.min(2) < 245) & Z & ~puffs)
+    faces1 = L.down((F_jp | F9).astype(float)) > 0.5
+    # the letters' white ring is as light as the background, so their yellow line / maroon outline /
+    # 3D side are separate pieces: seed with the faces grown by the ring width
+    seed = ndi.binary_dilation(faces1, iterations=P["jr_reach"]) & Z
+    ids = np.unique(lab_nw[seed]); ids = ids[ids > 0]
+    jr = ndi.binary_dilation(np.isin(lab_nw, ids), iterations=2) & Z
+    plate = rgb.copy()
+    plate[jr & ~puffs] = 255.0
+    plate[puffs] = 255.0                       # puffs are pasted again on top (puff 1 moved)
+    # 3) the Korean word over the plate (alpha = its body coverage)
+    A = out[..., 3:] / 255
+    res = out[..., :3] * A + plate * (1 - A)
+    # 4) puffs on top; the one at 쿠 moves by the smallest step up / left that keeps it off the
+    #    Korean face and its rim (the new 쿠 stands higher than ク)
     clear = ndi.binary_dilation(L.down(Fn.astype(float)) > 0.3, iterations=P["puff_clear"])
     for full in puff_list:
         best = None
@@ -251,6 +233,7 @@ def main():
         m = np.roll(np.roll(full, dy, 0), dx, 1)
         res[m] = np.roll(np.roll(rgb, dy, 0), dx, 1)[m]
         print("puff moved", (dx, dy))
+    print("Jr. pixels removed:", int((jr & ~puffs).sum()))
     res = np.concatenate([res, np.full((H1, W1, 1), 255.0)], 2)
     DST.mkdir(parents=True, exist_ok=True)
     L.save(res[:, :144], DST / f"{NAMES[0]}.png")

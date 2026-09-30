@@ -18,11 +18,11 @@ LOGO = ROOT / "work/img/logo"
 SRC = ROOT / "work/img/lyt/3DX/MLyt/MENU_FILE_LOAD_JP_ja"
 DST = ROOT / "work/img/ko/lyt/MLyt/MENU_FILE_LOAD_JP_ja"
 NAMES = ("LOAD_GAME_IMG_KJ_L_00_JP_ja", "LOAD_GAME_IMG_KJ_R_00_JP_ja")
-P = dict(gap=2.0, sy=0.80, ratio=0.86, x_left=60.0, x_right=196.0, baseline=None, rot=-3.0,
+P = dict(gap=2.0, sy=0.80, ratio=0.86, x_left=67.0, x_right=196.0, baseline=None, rot=-3.0,
          seam=(206, 212), y_top=128, grow_max=0.8, puffs=[(40, 125, 100, 166), (196, 185, 236, 208)],
          # per syllable: (scale x, scale y, rotation deg, bottom y); 쿠파 big, 주니어 smaller (like クッパ / Jr.)
          syll=[(0.78, 0.92, -5.0, 187.0), (0.78, 0.92, 3.0, 185.0), (0.62, 0.74, -4.0, 182.0),
-               (0.62, 0.74, 3.0, 181.0), (0.62, 0.74, -3.0, 179.0)], syll_gap=1.0, puff_reach=4.0, puff_clear=3)
+               (0.62, 0.74, 3.0, 181.0), (0.62, 0.74, -3.0, 179.0)], syll_gap=1.0, puff_reach=4.0, puff_clear=3, r_zone=(4, 14))
 if len(sys.argv) > 1:
     P.update(json.loads(sys.argv[1]))
 
@@ -197,6 +197,15 @@ def main():
     band = np.zeros((H1, W1), bool); band[P["y_top"]:, b0:b1] = True
     res[band] = np.minimum(comp, rgb)[band]
     res[:, b1:][changed[:, b1:]] = rgb[:, b1:][changed[:, b1:]]
+    # next to R only R's own body stays original (user review 2026-09-30: the band kept the white /
+    # yellow rim of the old Jr. between 어 and R); R is drawn in front of the Korean word
+    K2, _ = L.sweep(F2, F2.astype(int), st.sx)
+    rpgB = ndi.binary_dilation(L.down(L.body(F2, K2, st.r_o, st.D, st.r_e).astype(float)) > 0, iterations=1)
+    zone = np.zeros((H1, W1), bool); zone[P["y_top"]:, b0 - P["r_zone"][0]:b1 + P["r_zone"][1]] = True
+    faceR = ndi.binary_dilation(L.down(F2.astype(float)) > 0, iterations=1)
+    ownR = faceR | (rpgB & (rgb.max(2) < 170))      # R's face and its dark outline / 3D side only
+    res[zone & ~ownR] = comp[zone & ~ownR]
+    res[zone & ownR] = rgb[zone & ownR]
     labB, _ = ndi.label(B1)
     logo_ids = np.unique(labB[L.down(F_all.astype(float)) > 0])
     art = (labB > 0) & ~np.isin(labB, logo_ids[logo_ids > 0])

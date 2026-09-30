@@ -1,24 +1,24 @@
 group	jp	ko_now	ko_1dx	decision	evidence_1dx	messages	note
-A	すけっと	지원군	도우미	바꿈	1DX-KR:k_sys#587 KMsg_la_name_10; #881 KGGuide_BA33; #91 KMsgBtl_la_suketto_01 「도우미 컴온!!」(라벨 suketto)	b_sys#409 #973 #1347 #1726 #1745 #1769	헤이호 대장 스킬(1DX) = 래리 커맨드(3DX), 설명 동일. 조사: 지원군이→도우미가, 지원군으로→도우미로
-A	やみうち	기습	허 찌르기	바꿈	1DX-KR:k_sys#601 KMsg_la_name_11; #890 KGGuide_BA34 (설명 동일: 상대 대장 뒤에 몰래 나타나 백 어택); 라벨 la_yamiiuchi	b_sys#683 #1255	기습(奇襲)은 일반어로 계속 씀(Item 등 6곳, JP가 やみうち 아님)
-A	みきり(커맨드)	간파	회피	바꿈	1DX-KR:k_sys#106 KMsg_la_name_05; #358 KGGuide_BA28 (설명 동일: 적의 공격을 반드시 2번 피함); 라벨 la_mikiri	b_sys#1193 #1292	장신구 みきりグラス=간파안경은 별개(유지)
-A	脳天かちわり	정수리 찍기	정수리 깨기	바꿈	1DX-KR:k_sys#355 KMsg_cw_04; #172 KGGuide_BA04 (설명 동일)	b_sys#377 #490 #805 #1750	
-A	ブン投げ	힘껏 던지기	내던지기	바꿈	1DX-KR:k_sys#371 KMsg_cw_06; #191 KGGuide_BA06 (설명 동일)	b_sys#539 #872	
-A	ぶちかまし	들이받기	튕겨내기	바꿈	1DX-KR:k_sys#379 KMsg_cw_07; KGGuide_BA07 (설명 동일: 튕겨 내서 강한 대미지+방어력 다운)	b_sys#1341 #1691	
-A	たたきつけ	내리치기	내동댕이	바꿈	1DX-KR:k_sys#928 KMsg_cw_15; #724 KGGuide_BA14 (설명 동일)	b_sys#172 #1297 #1422 #1774	
-A	ぶちぬき	꿰뚫기	관통 공격	바꿈	1DX-KR:k_sys#4 KMsg_cw_18; #744 KGGuide_BA17 (설명 동일)	b_sys#591 #940 #1061	조사: 꿰뚫기가→관통 공격이
-A	ロケットずつき	로켓박치기	로켓 박치기	바꿈(띄어쓰기)	1DX-KR:k_sys#346 KMsg_cw_03; #163 KGGuide_BA03	b_sys#31 #1361 #1713	
-A	３すくみ	삼각 상성	3상성	바꿈	1DX-KR:k_sys#631 KGGuide_BB07 「3상성에 대해」; #940 KGGuide_BB07_4; #815 KMsgBtl_tuto_ufu_02_10	b_sys#384 #839 #1526, k_o_koopa_r_80#27	
-A	軍団魂 / クッパ軍団魂	군단혼 / 쿠파 군단혼	군단의 혼 / 쿠파 군단의 혼	바꿈	1DX-KR:k_sys#76 KGGuide_BB05_6 「GDH는 군단의 혼…」; #443 KMsgBtl_la_kobusuru_01 「군단의 혼을 보여주겠어!!」; FMsg krpg_koopa_00#59	b_sys#711 #1141, k_o_koopa_r_80#50 #262, k_o_koopa_80#36	「군단혼」은 나무위키 표기이고 1DX 본문에는 없음. GDH(군·단·혼 머리글자)는 그대로
-A	チャレンジ(쿠파주니어 RPG 기능)	챌린지	도전	바꿈	1DX-KR:k_sys#181 KGGuide_BB10 「도전에 대해」; #156 KGGuide_O02 「기록과 도전」; #155 KGGuide_BB10_1; #731 KMsg_result_get_challenge 「도전 달성!」 (조건·보상 설명 동일)	MenuKJ#17 #19, b_sys#17 #316 #337 #1407 #1599	본편 チャレンジホール=챌린지 홀(DS)은 유지. 기록 메뉴의 탭 그림에 「챌린지」가 있으면 그림도 다시 그려야 함(로컬)
-A	クッパ７人衆	쿠파 7인조	쿠파7인조	바꿈(띄어쓰기)	1DX-KR:k_sys#409 KMsgChr_exp_lemmy 외 7인 설명, #205 KMsg_quest_65 「쿠파군단 VS 쿠파7인조」, KMsg_b_skill_38 「우리는 쿠파7인조!」 (43회, 띄어 쓴 예 0회)	12개(b_sys#193 #375 #485 #581 #817 #1624 #1650 #1669, k_o_koopa_39#0, k_o_ekubon_80#9, k_o_gepu_13#24, k_o_zutsuda_80#7)	단독 「７人衆」=7인조는 그대로. 쿠파 군단(DS)은 띄어 씀 유지
-A	HPマメ 등 콩 아이템 31종	HP콩, 슈퍼EXP콩S, 돌격EXP콩DX …	HP 콩, 슈퍼 EXP 콩 S, 돌격 EXP 콩 DX …	바꿈(띄어쓰기)	1DX-KR:k_sys#30 Ns_ItemHp 「HP 콩」; #406 Ns_ItemExp_S 「슈퍼 EXP 콩 S」; #257 Ns_ItemExpA_S 「돌격 EXP 콩 S」; #667 N_ItemGdd 「GDH 콩」 (같은 라벨 N_/Ns_Item* 31종 모두 띄어 씀)	b_sys N_Item*/Ns_Item* (primary 34, 복사본 포함 62)	glossary의 「DS식 붙여 쓰기」 결정을 1DX 공식 표기로 교체
-A	HPチキン 등 치킨 아이템 17종	HP치킨, EXP치킨S …	HP 치킨, EXP 치킨 S …	바꿈(일관성)	1DX에 치킨 아이템 없음 → 같은 목록의 콩 아이템(1DX) 표기에 맞춤	b_sys N_Item*C*/Ns_Item*C* (primary 20, 복사본 포함 48)	본편 DS 아이템(약간매운치킨 등)은 DS 붙여 쓰기 유지
-G	赤外線受発光部	적외선 송수신부	적외선 포트	바꿈	1DX-KR:ComErr.msbt#9 amiibo_sys_err_09 「본체의 적외선 포트에 가까이 가져와 주십시오」	Menu#131	
-G	取扱説明書	취급설명서	사용설명서	바꿈	1DX-KR:ComErr.msbt#25 #26 「본체 사용설명서에 기재되어 있는」	Menu#159 #177	
-G	任天堂サービスセンター	닌텐도 서비스 센터	한국닌텐도 고객지원센터	바꿈	1DX-KR:ComErr.msbt#25 #26 「한국닌텐도 고객지원센터로 문의해 주십시오」	Menu#159 #177	
-G	エラー(시스템 문구)	에러	오류	바꿈	1DX-KR:ComErr.msbt#3 #8 #10 #25 (오류 4회, 에러 0회)	Menu#120 #159	
-G	amiibo 표준 오류 문구 8개	(자체 번역)	1DX 문구	바꿈	1DX-KR:ComErr.msbt amiibo_sys_err_02 #9(err_09) #10(err_10) #11(err_21) #1(err_21_new) #25(err_16) #26(err_17) — 닌텐도 표준 문구	Menu#113 #120 #131 #143 #144 #159 #160 #177	OFF/ON→꺼져/켜, 떼어→떼, 업데이트하기→업데이트, 끈 다음→껐다가, 증상이 해결되지 않을 때는→이 증상이 계속될 경우
+A	すけっと	지원군	도우미	바꿈	1DX-KR:k_sys#587 KMsg_la_name_10; #881 KGGuide_BA33; #91 KMsgBtl_la_suketto_01 「도우미 컴온!!」(라벨 suketto)	b_sys#409 #973 #1347 #1726 #1745 #1769	헤이호 대장 스킬(1DX) = 래리 커맨드(3DX), 설명 동일. 조사: 지원군이→도우미가, 지원군으로→도우미로 [textpass2 --groups terms]
+A	やみうち	기습	허 찌르기	바꿈	1DX-KR:k_sys#601 KMsg_la_name_11; #890 KGGuide_BA34 (설명 동일: 상대 대장 뒤에 몰래 나타나 백 어택); 라벨 la_yamiiuchi	b_sys#683 #1255	기습(奇襲)은 일반어로 계속 씀(Item 등 6곳, JP가 やみうち 아님) [textpass2 --groups terms]
+A	みきり(커맨드)	간파	회피	바꿈	1DX-KR:k_sys#106 KMsg_la_name_05; #358 KGGuide_BA28 (설명 동일: 적의 공격을 반드시 2번 피함); 라벨 la_mikiri	b_sys#1193 #1292	장신구 みきりグラス=간파안경은 별개(유지) [textpass2 --groups terms]
+A	脳天かちわり	정수리 찍기	정수리 깨기	바꿈	1DX-KR:k_sys#355 KMsg_cw_04; #172 KGGuide_BA04 (설명 동일)	b_sys#377 #490 #805 #1750	[textpass2 --groups terms]
+A	ブン投げ	힘껏 던지기	내던지기	바꿈	1DX-KR:k_sys#371 KMsg_cw_06; #191 KGGuide_BA06 (설명 동일)	b_sys#539 #872	[textpass2 --groups terms]
+A	ぶちかまし	들이받기	튕겨내기	바꿈	1DX-KR:k_sys#379 KMsg_cw_07; KGGuide_BA07 (설명 동일: 튕겨 내서 강한 대미지+방어력 다운)	b_sys#1341 #1691	[textpass2 --groups terms]
+A	たたきつけ	내리치기	내동댕이	바꿈	1DX-KR:k_sys#928 KMsg_cw_15; #724 KGGuide_BA14 (설명 동일)	b_sys#172 #1297 #1422 #1774	[textpass2 --groups terms]
+A	ぶちぬき	꿰뚫기	관통 공격	바꿈	1DX-KR:k_sys#4 KMsg_cw_18; #744 KGGuide_BA17 (설명 동일)	b_sys#591 #940 #1061	조사: 꿰뚫기가→관통 공격이 [textpass2 --groups terms]
+A	ロケットずつき	로켓박치기	로켓 박치기	바꿈(띄어쓰기)	1DX-KR:k_sys#346 KMsg_cw_03; #163 KGGuide_BA03	b_sys#31 #1361 #1713	[textpass2 --groups spacing]
+A	３すくみ	삼각 상성	3상성	바꿈	1DX-KR:k_sys#631 KGGuide_BB07 「3상성에 대해」; #940 KGGuide_BB07_4; #815 KMsgBtl_tuto_ufu_02_10	b_sys#384 #839 #1526, k_o_koopa_r_80#27	[textpass2 --groups terms]
+A	軍団魂 / クッパ軍団魂	군단혼 / 쿠파 군단혼	군단의 혼 / 쿠파 군단의 혼	바꿈	1DX-KR:k_sys#76 KGGuide_BB05_6 「GDH는 군단의 혼…」; #443 KMsgBtl_la_kobusuru_01 「군단의 혼을 보여주겠어!!」; FMsg krpg_koopa_00#59	b_sys#711 #1141, k_o_koopa_r_80#50 #262, k_o_koopa_80#36	「군단혼」은 나무위키 표기이고 1DX 본문에는 없음. GDH(군·단·혼 머리글자)는 그대로 [textpass2 --groups terms]
+A	チャレンジ(쿠파주니어 RPG 기능)	챌린지	도전	바꿈	1DX-KR:k_sys#181 KGGuide_BB10 「도전에 대해」; #156 KGGuide_O02 「기록과 도전」; #155 KGGuide_BB10_1; #731 KMsg_result_get_challenge 「도전 달성!」 (조건·보상 설명 동일)	MenuKJ#17 #19, b_sys#17 #316 #337 #1407 #1599	본편 チャレンジホール=챌린지 홀(DS)은 유지. 기록 메뉴의 탭 그림에 「챌린지」가 있으면 그림도 다시 그려야 함(로컬) [textpass2 --groups challenge]
+A	クッパ７人衆	쿠파 7인조	쿠파7인조	바꿈(띄어쓰기)	1DX-KR:k_sys#409 KMsgChr_exp_lemmy 외 7인 설명, #205 KMsg_quest_65 「쿠파군단 VS 쿠파7인조」, KMsg_b_skill_38 「우리는 쿠파7인조!」 (43회, 띄어 쓴 예 0회)	12개(b_sys#193 #375 #485 #581 #817 #1624 #1650 #1669, k_o_koopa_39#0, k_o_ekubon_80#9, k_o_gepu_13#24, k_o_zutsuda_80#7)	단독 「７人衆」=7인조는 그대로. 쿠파 군단(DS)은 띄어 씀 유지 [textpass2 --groups spacing]
+A	HPマメ 등 콩 아이템 21종	HP콩, 슈퍼EXP콩S, 돌격EXP콩DX …	HP 콩, 슈퍼 EXP 콩 S, 돌격 EXP 콩 DX …	바꿈(띄어쓰기)	1DX-KR:k_sys#30 Ns_ItemHp 「HP 콩」; #406 Ns_ItemExp_S 「슈퍼 EXP 콩 S」; #257 Ns_ItemExpA_S 「돌격 EXP 콩 S」; #667 N_ItemGdd 「GDH 콩」 (같은 라벨 N_/Ns_Item* 21종 모두 띄어 씀)	b_sys N_Item*/Ns_Item* 이름 21개(복사본 포함 42)	glossary의 「DS식 붙여 쓰기」 결정을 1DX 공식 표기로 교체 [textpass2 --groups spacing]
+A	HPチキン 등 치킨 아이템 9종	HP치킨, EXP치킨S …	HP 치킨, EXP 치킨 S …	바꿈(일관성)	1DX에 치킨 아이템 없음 → 같은 목록의 콩 아이템(1DX) 표기에 맞춤	b_sys N_Item*_C/Ns_Item*_C 이름 9개(복사본 포함 18)	본편 DS 아이템(약간매운치킨 등)은 DS 붙여 쓰기 유지 [textpass2 --groups spacing]
+G	赤外線受発光部	적외선 송수신부	적외선 포트	바꿈	1DX-KR:ComErr.msbt#9 amiibo_sys_err_09 「본체의 적외선 포트에 가까이 가져와 주십시오」	Menu#131	[textpass2 --groups amiibo]
+G	取扱説明書	취급설명서	사용설명서	바꿈	1DX-KR:ComErr.msbt#25 #26 「본체 사용설명서에 기재되어 있는」	Menu#159 #177	[textpass2 --groups amiibo]
+G	任天堂サービスセンター	닌텐도 서비스 센터	한국닌텐도 고객지원센터	바꿈	1DX-KR:ComErr.msbt#25 #26 「한국닌텐도 고객지원센터로 문의해 주십시오」	Menu#159 #177	[textpass2 --groups amiibo]
+G	エラー(시스템 문구)	에러	오류	바꿈	1DX-KR:ComErr.msbt#3 #8 #10 #25 (오류 4회, 에러 0회)	Menu#120 #159	[textpass2 --groups amiibo]
+G	amiibo 표준 오류 문구 8개	(자체 번역)	1DX 문구	바꿈	1DX-KR:ComErr.msbt amiibo_sys_err_02 #9(err_09) #10(err_10) #11(err_21) #1(err_21_new) #25(err_16) #26(err_17) — 닌텐도 표준 문구	Menu#113 #120 #131 #143 #144 #159 #160 #177	OFF/ON→꺼져/켜, 떼어→떼, 업데이트하기→업데이트, 끈 다음→껐다가, 증상이 해결되지 않을 때는→이 증상이 계속될 경우 [textpass2 --groups amiibo]
 K	仲間(にする)	동료	아군	유지	1DX-KR:k_sys#6 「아군이 늘었다!」, KMsg_record_title_04 「아군 숫자」	MenuKJ#7 #78, b_sys#61 #161 #947 #1721 …	glossary·DS 「仲間=동료」(우선순위 ①②). 영입 시스템 문구만 1DX식으로 바꿀지는 선택
 K	経験値	EXP	경험치	유지	1DX-KR:k_sys E_ItemExp* 「경험치가 10 상승」	b_sys E_ItemExp* 등	DS 표기 EXP(BData WearE#28) 우선
 K	ダメージ	타격	대미지	유지	1DX-KR 가이드 전반		DS 「타격」 32회 우선(glossary)

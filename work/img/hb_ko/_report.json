@@ -3,7 +3,8 @@
   "ko": "쪼르미터",
   "source": "ofl",
   "kw": {
-   "source": "ofl"
+   "source": "ofl",
+   "style": "Style(face_stops=[(0.0, (1.0, 1.0, 1.0)), (1.0, (1.0, 1.0, 1.0))], layers=[Layer(width=1.75, color=(0.0912, 0.0696, 0.0696), alpha=1.0)], shadow=None, box=(4, 5, 60, 13), ink=(2, 3, 62, 15), align='center', valign='center', lines=[(4, 13)], em=9.0, stroke=1.59, size=(64, 16), plate=np.False_, gradient_per_line=True, notes=['fit error 0.0233'])"
   },
   "levels": [
    "ofl"
@@ -24,10 +25,10 @@
    "achieved_px": 1.564,
    "ratio": 0.983
   },
-  "final_stroke_px": 1.644,
+  "final_stroke_px": 1.635,
   "jp_stroke_px": 1.59,
-  "final_stroke_ratio": 1.034,
-  "psnr_etc": 35.49,
+  "final_stroke_ratio": 1.028,
+  "psnr_etc": 34.57,
   "edges_jp": {
    "soft": 0.185,
    "grey": 0.667,
@@ -35,7 +36,7 @@
   },
   "edges_ko": {
    "soft": 0.18,
-   "grey": 0.877,
+   "grey": 0.497,
    "face_rows": 9
   },
   "fit": {
@@ -46,21 +47,21 @@
    "lines": 1
   },
   "problems": [
-   "채움색 차 0.138"
+   "채움색 차 0.194"
   ],
   "summary": {
    "em_ratio": 1.111,
-   "stroke_ratio": 0.931,
-   "face_color_diff": 0.138,
+   "stroke_ratio": 0.925,
+   "face_color_diff": 0.194,
    "outline_width_diff": 0.0,
-   "outline_color_diff": 0.009,
+   "outline_color_diff": 0.007,
    "layer_count": [
     1,
     1
    ],
    "shadow_offset_diff": 0.0
   },
-  "seconds": 1.1,
+  "seconds": 2.3,
   "group": "meter"
  },
  "s_ui_cyorometer_station": {
@@ -1019,7 +1020,8 @@
   "ko": "본체를 가로로\n바꿔 들어 주세요",
   "source": "ofl",
   "kw": {
-   "source": "ofl"
+   "source": "ofl",
+   "style": "Style(face_stops=[(0.0, (1.0, 1.0, 1.0)), (1.0, (1.0, 1.0, 1.0))], layers=[Layer(width=2.0, color=(0.0853, 0.0716, 0.0711), alpha=1.0)], shadow=None, box=(12, 3, 115, 29), ink=(10, 1, 117, 31), align='center', valign='center', lines=[(3, 15), (18, 30)], em=12.0, stroke=1.95, size=(128, 32), plate=np.False_, gradient_per_line=True, notes=['fit error 0.0166'])"
   },
   "levels": [
    "ofl",
@@ -1059,10 +1061,10 @@
    "achieved_px": 1.838,
    "ratio": 0.942
   },
-  "final_stroke_px": 1.907,
+  "final_stroke_px": 1.892,
   "jp_stroke_px": 1.95,
-  "final_stroke_ratio": 0.978,
-  "psnr_etc": 32.97,
+  "final_stroke_ratio": 0.97,
+  "psnr_etc": 33.33,
   "edges_jp": {
    "soft": 0.126,
    "grey": 0.352,
@@ -1070,7 +1072,7 @@
   },
   "edges_ko": {
    "soft": 0.142,
-   "grey": 0.503,
+   "grey": 0.405,
    "face_rows": 27
   },
   "fit": {
@@ -1081,28 +1083,29 @@
    "lines": 2
   },
   "problems": [
-   "채움색 차 0.121"
+   "채움색 차 0.145"
   ],
   "summary": {
    "em_ratio": 1.083,
-   "stroke_ratio": 0.903,
-   "face_color_diff": 0.121,
+   "stroke_ratio": 0.896,
+   "face_color_diff": 0.145,
    "outline_width_diff": 0.0,
-   "outline_color_diff": 0.009,
+   "outline_color_diff": 0.011,
    "layer_count": [
     1,
     1
    ],
    "shadow_offset_diff": 0.0
   },
-  "seconds": 3.3,
+  "seconds": 6.8,
   "group": "boss"
  },
  "ja_e_ui_boss_button_text": {
   "ko": "터치펜을\n꺼내 주세요",
   "source": "ofl",
   "kw": {
-   "source": "ofl"
+   "source": "ofl",
+   "style": "Style(face_stops=[(0.0, (1.0, 1.0, 1.0)), (1.0, (1.0, 1.0, 1.0))], layers=[Layer(width=2.0, color=(0.0853, 0.0725, 0.0721), alpha=1.0)], shadow=None, box=(14, 3, 115, 29), ink=(12, 1, 117, 31), align='center', valign='center', lines=[(3, 14), (17, 30)], em=12.0, stroke=1.848, size=(128, 32), plate=np.False_, gradient_per_line=True, notes=['fit error 0.0157'])"
   },
   "levels": [
    "ofl",
@@ -1134,10 +1137,10 @@
    "achieved_px": 1.67,
    "ratio": 0.904
   },
-  "final_stroke_px": 1.736,
+  "final_stroke_px": 1.71,
   "jp_stroke_px": 1.848,
-  "final_stroke_ratio": 0.939,
-  "psnr_etc": 33.95,
+  "final_stroke_ratio": 0.925,
+  "psnr_etc": 34.07,
   "edges_jp": {
    "soft": 0.132,
    "grey": 0.374,
@@ -1145,7 +1148,7 @@
   },
   "edges_ko": {
    "soft": 0.136,
-   "grey": 0.494,
+   "grey": 0.436,
    "face_rows": 27
   },
   "fit": {
@@ -1156,21 +1159,21 @@
    "lines": 2
   },
   "problems": [
-   "채움색 차 0.123"
+   "채움색 차 0.139"
   ],
   "summary": {
    "em_ratio": 1.083,
-   "stroke_ratio": 0.867,
-   "face_color_diff": 0.123,
+   "stroke_ratio": 0.854,
+   "face_color_diff": 0.139,
    "outline_width_diff": 0.0,
-   "outline_color_diff": 0.007,
+   "outline_color_diff": 0.006,
    "layer_count": [
     1,
     1
    ],
    "shadow_offset_diff": 0.0
   },
-  "seconds": 2.7,
+  "seconds": 5.4,
   "group": "boss"
  },
  "ja_renda_touch_text": {

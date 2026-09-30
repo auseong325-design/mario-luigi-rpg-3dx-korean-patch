@@ -72,6 +72,11 @@ GROUPS = {
 }
 # per-texture render() arguments on top of the group source (documented in work/img/I6.md)
 EXTRA: dict[str, dict] = {}
+# Small ETC1A4 originals with 1-2 px strokes: most of their face pixels are ETC-blended with the
+# outline, so the measured face colour (median per row) comes out grey with a pink cast (172-244),
+# while their stroke centres are white (95th percentile 242-255). Lead review (fix round 2): 쪼르미터
+# and the two boss notices looked soft and grey. Their Korean face is drawn plain white.
+WHITE_FACE = {"s_ui_cyorometer_distance", "ja_e_ui_boss_rotation_text", "ja_e_ui_boss_button_text"}
 
 
 def items() -> dict:
@@ -110,6 +115,10 @@ def draw(it: dict, source: str, extra: dict | None = None) -> tuple[np.ndarray, 
     kw = dict(extra or {})
     if source != "auto":
         kw["source"] = source
+    if it["name"] in WHITE_FACE:
+        st = T.measure_style(jp)
+        st.face_stops = [(0.0, (1.0, 1.0, 1.0)), (1.0, (1.0, 1.0, 1.0))]
+        kw["style"] = st
     t0 = time.time()
     raw, rep = T.redraw(jp, it["ko"], fmt=None, jp_text=it["jp"], **kw)
     ko = T.finalize(raw, it["fmt"])

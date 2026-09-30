@@ -1,19 +1,19 @@
 {
  "mode": "used",
- "used_chars": 1255,
- "used_hangul": 1162,
+ "used_chars": 1254,
+ "used_hangul": 1161,
  "extra_wanted": "※",
- "donor_root": "C:\\mario-luigi-rpg-3dx-korean-patch\\ml 1dx\\3romfs",
+ "donor_root": "/home/user/mario-luigi-rpg-3dx-korean-patch/ml 1dx/3romfs",
  "fonts": {
   "font": {
-   "file": "C:\\mario-luigi-rpg-3dx-korean-patch\\work\\build\\msg_stage\\romfs\\Msg\\JP_ja\\font.bffnt",
+   "file": "/home/user/mario-luigi-rpg-3dx-korean-patch/work/build/msg_stage/romfs/Msg/JP_ja/font.bffnt",
    "size_before": 278792,
-   "size_after": 549104,
+   "size_after": 549096,
    "sheets_before": 1,
    "sheets_after": 2,
    "glyphs_before": 1248,
-   "glyphs_after": 2417,
-   "added": 1169,
+   "glyphs_after": 2416,
+   "added": 1168,
    "added_non_hangul": "!%,:~·※",
    "dropped": "",
    "reclaimed": 0,
@@ -23,7 +23,7 @@
     3
    ],
    "sources": {
-    "1dx": 1006,
+    "1dx": 1005,
     "rendered-NanumSquareRoundEB-16": 1,
     "composed": 152,
     "relaxed": 5,
@@ -44,28 +44,28 @@
     "font: 1DX ',' nudged -1 px vertically to fit the cell",
     "font: original glyphs unchanged (mapping, CWDH, pixels) 1248/1248",
     "font: pixels changed outside new glyph cells: 0",
-    "font: 1006/1006 glyphs identical to Msg/KR_ko/font.bffnt (pixels; Hangul also CWDH), shift cjk +1 latin +3",
-    "font: advances within the merge_ko width model for 1255/1255 required characters",
-    "font: lib3dx.bffnt_advances reads 2417 mapped characters, 1255/1255 required characters with the intended advance"
+    "font: 1005/1005 glyphs identical to Msg/KR_ko/font.bffnt (pixels; Hangul also CWDH), shift cjk +1 latin +3",
+    "font: advances within the merge_ko width model for 1254/1254 required characters",
+    "font: lib3dx.bffnt_advances reads 2416 mapped characters, 1254/1254 required characters with the intended advance"
    ],
    "failures": [],
    "previews": [
-    "C:\\mario-luigi-rpg-3dx-korean-patch\\work\\font_preview\\font_sheet0.png",
-    "C:\\mario-luigi-rpg-3dx-korean-patch\\work\\font_preview\\font_sheet1.png",
-    "C:\\mario-luigi-rpg-3dx-korean-patch\\work\\font_preview\\font_sheet0_diff.png",
-    "C:\\mario-luigi-rpg-3dx-korean-patch\\work\\font_preview\\sample_font.png",
-    "C:\\mario-luigi-rpg-3dx-korean-patch\\work\\font_preview\\not_from_1dx_font.png"
+    "/home/user/mario-luigi-rpg-3dx-korean-patch/work/font_preview/font_sheet0.png",
+    "/home/user/mario-luigi-rpg-3dx-korean-patch/work/font_preview/font_sheet1.png",
+    "/home/user/mario-luigi-rpg-3dx-korean-patch/work/font_preview/font_sheet0_diff.png",
+    "/home/user/mario-luigi-rpg-3dx-korean-patch/work/font_preview/sample_font.png",
+    "/home/user/mario-luigi-rpg-3dx-korean-patch/work/font_preview/not_from_1dx_font.png"
    ]
   },
   "font_l": {
-   "file": "C:\\mario-luigi-rpg-3dx-korean-patch\\work\\build\\msg_stage\\romfs\\Msg\\JP_ja\\font_l.bffnt",
+   "file": "/home/user/mario-luigi-rpg-3dx-korean-patch/work/build/msg_stage/romfs/Msg/JP_ja/font_l.bffnt",
    "size_before": 272560,
-   "size_after": 805196,
+   "size_after": 805188,
    "sheets_before": 1,
    "sheets_after": 3,
    "glyphs_before": 355,
-   "glyphs_after": 1551,
-   "added": 1196,
+   "glyphs_after": 1550,
+   "added": 1195,
    "added_non_hangul": "!%&'()+,/:=~·×―※←↑→↓①②③④⑤■▲●★☆♪」【】",
    "dropped": "",
    "reclaimed": 0,
@@ -77,13 +77,13 @@
    "sources": {
     "1dx": 285,
     "rendered-NanumSquareRoundEB-23": 35,
-    "upscaled-real": 719,
+    "upscaled-real": 718,
     "upscaled-composed": 152,
     "upscaled-relaxed": 5
    },
    "not_from_1dx": {
     "rendered-NanumSquareRoundEB-23": "%&'()+/:=·×―※←↑→↓①②③④⑤■▲●★☆」【】몫쬔췄핥휩",
-    "upscaled-real": "각갇감갑갔강갖갚갛개객걱건걷검겁겐겨견결겹겼곁곡곤과관광괘괜괴굉교국굳굴굿궁권귀규근긋길김깃깊깝깨꺼껍껏께껴꼬꼴꼼꽂꽃꽈꽉꽝꽤꾀꾼꿀꿇꿈꿉꿔꿰뀌뀐뀔끊끌끓끔끗끝낄낌낙낡남납낫났낭낮낯낸낼냄냅냈냉냥널넓넘넣넥념녔노녹높놨뇌눈눌눠뉘늘늙늠능늦늬닉닌닙닝닥닦닫달닮답닿댄댕덕던덜덤덥덮데델독돈돋돌돕동돼됐된됩둔둘둡둥뒀뒤뒷뒹득든듬듭듯등딘딨딩딪딱딴땀땅때땐땡떠떡떤떨떴떻떼또똑뚜뚝뚫뚱뛰뛸뜩뜬뜰뜻띄락란랍랏랐랑랗랙랜랠램랫랬략량럭런럴럿렀렁렇렌렘렛력련렬렴렵렷렸론롤롭롱뢰료룩룰뤄류률륭른름릅릇릎릭린릴림립릿링막많맘맛맡매맥맨맵맹먼멀멈멋멍메멤멧며면멸명몬몰몸묘문묻물뭇뭉뭔뭘므민믿밀밌밍밑밖반받밝밟밤밥밭백뱉번벌범법벗베벤벼벽변볍병볕복본볼봅봇봉봤봬뵙북붓붕붙뷰브블빅빈빌빔빗빙빚빛빠빡빨빴빼뺄뺏뻐뻔뼈뼛뽀뽑뾰뿌뿐뿔뿜쁘쁜삐삭삶삼새샌생샤섞선섬섭섹센셀셈셋셔션셜셨손솔솟송쇠쇼숍숙순술숨숫숭숯숲숴쉬쉽쉿슘슨슬슷식싫심십싱싶싸싹싼쌈쌍쌓써썰썼쎄쏘쏠쏴쑥쓴쓸씀씌씨씩씬앉았앞액앤약얀얄얌얍양얕언얻얼엄업엇엘엥역연열엽였영옆옐옛옥올옮옵옷완왈왓왜왠외왼욕욱운울움웅워월웠웨육율윽읍익읽잃잇잉잊잎잔잡잿쟁저젊접젖제젠져졌족존졸좀좁좋좌죄죠죽준줄줌줍중줘줬쥐쥬즉즐즘증직질짊짐짓징짚짧짱째쨌쩌쩍쩐쩔쩜쪄쪼쪽쬐쭈쭉쭐쯤찔착찬찮찰참찼창찾채책챌챙처척천철첫청체쳇쳤촉촌총최쵸추축춤춰취층칙친칠칩칭칸칼캐캔커컬컸켓켰콜콤쾌쿨쿵퀘퀴퀸큭큰클큼키킥킨킬킴킵탁탈탐탓탕태택탱턱턴털텅텐템텨토톤톱통퇴툭퉁튀튕특튼틀틈팀팅팍팔팠팡패팬펄펌펜펠펴펼평포폼표푸푹풀품풍프픈플핀필핑학핫항햇행향헉헌험헤헬헷혀현협혔혹혼홀홈화확환활획횟훈훌훔훗훨휘휴흉흑흔흘흙흠흡흥흩힌힐힘힙",
+    "upscaled-real": "각갇감갑갔강갖갚갛개객걱건걷검겁겐겨견결겹겼곁곡곤과관광괘괜괴굉교국굳굴굿궁권귀규근긋길김깃깊깝깨꺼껍껏껐께껴꼬꼴꼼꽂꽃꽈꽉꽝꽤꾀꾼꿀꿇꿈꿉꿔뀌뀐뀔끊끌끓끔끗끝낄낌낙낡남납낫났낭낮낯낸낼냄냅냈냉냥널넓넘넣넥념녔노녹높놨뇌눈눌눠뉘늘늙늠능늦늬닉닌닙닝닥닦닫달닮답닿댄댕덕던덜덤덥덮데델독돈돋돌돕동돼됐된됩둔둘둡둥뒀뒤뒷뒹득든듬듭듯등딘딨딩딪딱딴땀땅때땐땡떠떡떤떨떴떻떼또똑뚜뚝뚫뚱뛰뛸뜩뜬뜰뜻띄락란랍랏랐랑랗랙랜랠램랫랬략량럭런럴럿렀렁렇렌렘렛력련렬렴렵렷렸론롤롭롱뢰료룩룰뤄류률륭른름릅릇릎릭린릴림립릿링막많맘맛맡매맥맨맵맹먼멀멈멋멍메멤멧며면멸명몬몰몸묘문묻물뭇뭉뭔뭘므민믿밀밌밍밑밖반받밝밟밤밥밭백뱉번벌범법벗베벤벼벽변볍병볕복본볼봅봇봉봤봬뵙북붕붙뷰브블빅빈빌빔빗빙빚빛빠빡빨빴빼뺄뺏뻐뻔뼈뼛뽀뽑뾰뿌뿐뿔뿜쁘쁜삐삭삶삼새샌생샤섞선섬섭섹센셀셈셋셔션셜셨손솔솟송쇠쇼숍숙순술숨숫숭숯숲숴쉬쉽쉿슘슨슬슷식싫심십싱싶싸싹싼쌈쌍쌓써썰썼쎄쏘쏠쏴쑥쓴쓸씀씌씨씩씬앉았앞액앤약얀얄얌얍양얕언얻얼엄업엇엘엥역연열엽였영옆옐옛옥올옮옵옷완왈왓왜왠외왼욕욱운울움웅워월웠웨육율윽읍익읽잃잇잉잊잎잔잡잿쟁저젊접젖제젠져졌족존졸좀좁좋좌죄죠죽준줄줌줍중줘줬쥐쥬즉즐즘증직질짊짐짓징짚짧짱째쨌쩌쩍쩐쩔쩜쪄쪼쪽쬐쭈쭉쭐쯤찔착찬찮찰참찼창찾채책챌챙처척천철첫청체쳇쳤촉촌총최쵸추축춤춰취층칙친칠칩칭칸칼캐캔커컬컸켓켰콜콤쾌쿨쿵퀘퀴퀸큭큰클큼키킥킨킬킴킵탁탈탐탓탕태택탱턱턴털텅텐템텨토톤톱통퇴툭퉁튀튕특튼틀틈팀팅팍팔팠팡패팬펄펌펜펠펴펼평포폼표푸푹풀품풍프픈플핀필핑학핫항햇행향헉헌험헤헬헷혀현협혔혹혼홀홈화확환활획횟훈훌훔훗훨휘휴흉흑흔흘흙흠흡흥흩힌힐힘힙",
     "upscaled-composed": "갉값갯겉겋겟겪곶굵굶궂긁긍긱깎깥꺽껄껑꾹꿨낀넉넙넛넨넷녁논눕닳댁댓덧덴뎌둠듦딥땜뗏똘뛴뜁랩랭랴렉롯룸룹륵맣몽묵뮤뱅벅벙볶뵌붉붐빵빽뻘뻤뿍쁠쁨샀샘섀섰셰솜쇄숑쉈슉슐슥썩썽쏙씁씹씻암엎엣엾옙옳옹웩웹윤융젓젝좇쥑즙짠짰쪘쫄쫌찐찜찡챘첨춘춥캄캡컨컹켈콰킹탔텍톡톳툰툴튜틸팟펀펑펙펭폐폴핵헐헛헥헴헹혁혈혓훙훤훼휙휭",
     "upscaled-relaxed": "뉜믄좔쯔쾅"
    },
@@ -102,27 +102,27 @@
     "font_l: original glyphs unchanged (mapping, CWDH, pixels) 355/355",
     "font_l: pixels changed outside new glyph cells: 0",
     "font_l: 285/285 glyphs identical to Msg/KR_ko/font_l.bffnt (pixels; Hangul also CWDH), shift cjk +2 latin +4",
-    "font_l: lib3dx.bffnt_advances reads 1551 mapped characters, 1255/1255 required characters with the intended advance"
+    "font_l: lib3dx.bffnt_advances reads 1550 mapped characters, 1254/1254 required characters with the intended advance"
    ],
    "failures": [],
    "previews": [
-    "C:\\mario-luigi-rpg-3dx-korean-patch\\work\\font_preview\\font_l_sheet0.png",
-    "C:\\mario-luigi-rpg-3dx-korean-patch\\work\\font_preview\\font_l_sheet1.png",
-    "C:\\mario-luigi-rpg-3dx-korean-patch\\work\\font_preview\\font_l_sheet2.png",
-    "C:\\mario-luigi-rpg-3dx-korean-patch\\work\\font_preview\\font_l_sheet0_diff.png",
-    "C:\\mario-luigi-rpg-3dx-korean-patch\\work\\font_preview\\sample_font_l.png",
-    "C:\\mario-luigi-rpg-3dx-korean-patch\\work\\font_preview\\not_from_1dx_font_l.png"
+    "/home/user/mario-luigi-rpg-3dx-korean-patch/work/font_preview/font_l_sheet0.png",
+    "/home/user/mario-luigi-rpg-3dx-korean-patch/work/font_preview/font_l_sheet1.png",
+    "/home/user/mario-luigi-rpg-3dx-korean-patch/work/font_preview/font_l_sheet2.png",
+    "/home/user/mario-luigi-rpg-3dx-korean-patch/work/font_preview/font_l_sheet0_diff.png",
+    "/home/user/mario-luigi-rpg-3dx-korean-patch/work/font_preview/sample_font_l.png",
+    "/home/user/mario-luigi-rpg-3dx-korean-patch/work/font_preview/not_from_1dx_font_l.png"
    ]
   },
   "font_btl": {
-   "file": "C:\\mario-luigi-rpg-3dx-korean-patch\\work\\build\\msg_stage\\romfs\\Msg\\JP_ja\\font_btl.bffnt",
+   "file": "/home/user/mario-luigi-rpg-3dx-korean-patch/work/build/msg_stage/romfs/Msg/JP_ja/font_btl.bffnt",
    "size_before": 145624,
-   "size_after": 284944,
+   "size_after": 284936,
    "sheets_before": 1,
    "sheets_after": 2,
    "glyphs_before": 949,
-   "glyphs_after": 2129,
-   "added": 1180,
+   "glyphs_after": 2128,
+   "added": 1179,
    "added_non_hangul": "!%',:~·×↓①②③④⑤■▲●♪",
    "dropped": "",
    "reclaimed": 0,
@@ -132,7 +132,7 @@
     0
    ],
    "sources": {
-    "1dx": 1013,
+    "1dx": 1012,
     "rendered-NanumSquareRoundB-12": 5,
     "composed": 152,
     "relaxed": 5,
@@ -153,16 +153,16 @@
     "font_btl: 1DX ',' nudged -1 px vertically to fit the cell",
     "font_btl: original glyphs unchanged (mapping, CWDH, pixels) 949/949",
     "font_btl: pixels changed outside new glyph cells: 0",
-    "font_btl: 1013/1013 glyphs identical to Msg/KR_ko/font_btl.bffnt (pixels; Hangul also CWDH), shift cjk -1 latin +0",
-    "font_btl: lib3dx.bffnt_advances reads 2129 mapped characters, 1255/1255 required characters with the intended advance"
+    "font_btl: 1012/1012 glyphs identical to Msg/KR_ko/font_btl.bffnt (pixels; Hangul also CWDH), shift cjk -1 latin +0",
+    "font_btl: lib3dx.bffnt_advances reads 2128 mapped characters, 1254/1254 required characters with the intended advance"
    ],
    "failures": [],
    "previews": [
-    "C:\\mario-luigi-rpg-3dx-korean-patch\\work\\font_preview\\font_btl_sheet0.png",
-    "C:\\mario-luigi-rpg-3dx-korean-patch\\work\\font_preview\\font_btl_sheet1.png",
-    "C:\\mario-luigi-rpg-3dx-korean-patch\\work\\font_preview\\font_btl_sheet0_diff.png",
-    "C:\\mario-luigi-rpg-3dx-korean-patch\\work\\font_preview\\sample_font_btl.png",
-    "C:\\mario-luigi-rpg-3dx-korean-patch\\work\\font_preview\\not_from_1dx_font_btl.png"
+    "/home/user/mario-luigi-rpg-3dx-korean-patch/work/font_preview/font_btl_sheet0.png",
+    "/home/user/mario-luigi-rpg-3dx-korean-patch/work/font_preview/font_btl_sheet1.png",
+    "/home/user/mario-luigi-rpg-3dx-korean-patch/work/font_preview/font_btl_sheet0_diff.png",
+    "/home/user/mario-luigi-rpg-3dx-korean-patch/work/font_preview/sample_font_btl.png",
+    "/home/user/mario-luigi-rpg-3dx-korean-patch/work/font_preview/not_from_1dx_font_btl.png"
    ]
   }
  }

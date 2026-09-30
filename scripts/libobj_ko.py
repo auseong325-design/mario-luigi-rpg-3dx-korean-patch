@@ -158,7 +158,61 @@ def FJ(d, obj, frames, fn, keys=None, note=""):
 
 
 OUTLINE_1DX = (51, 34, 17)          # dark-brown outline of the 1DX Korean UI sprites
+OUTLINE_3DX = (17, 17, 17)          # near-black outline of the 3DX sprites
 TUTO_TINT = 68 / 255                # 3DX bui_tuto f0 -> f1: face (v, v, v) -> (v, v, v * 68/255)
+# Lead 2026-09-30: a region copied from a 1DX sprite keeps the 1DX letter shapes but takes the
+# colours of the 3DX original. Both games shade the face with the same greys; only the outline
+# brown and its two dark blends with the face differ, and each maps to the 3DX colour of the same
+# role (68,51,51 = brown + grey 85 half and half -> 51; 85,85,68 = brown + grey 119 -> 68).
+PALETTE_1DX_3DX = {OUTLINE_1DX: OUTLINE_3DX, (68, 51, 51): (51, 51, 51), (85, 85, 68): (68, 68, 68)}
+LUMA = np.array([0.299, 0.587, 0.114])
+
+
+def to_3dx_colours(img: np.ndarray, jp: np.ndarray | None = None) -> np.ndarray:
+    """1DX donor copy (RGBA, frame coordinates) -> the colours of the 3DX original `jp`.
+    RGB: PALETTE_1DX_3DX; every other colour must be one of the shared greys (at most one 4-bit
+    step off neutral). Alpha: where the original draws its outline half transparent (bui_tuto
+    おてほん: outline alpha 170, face/outline blends 187-238, one alpha per colour) its colour ->
+    alpha rule is applied (interpolated over luminance for greys it does not use, the outline's
+    anti-aliased fringe scaled by the same factor); elsewhere the 1DX alpha stays."""
+    from collections import Counter, defaultdict
+    out = img.copy()
+    vis = out[..., 3] > 0
+    for src, dst in PALETTE_1DX_3DX.items():
+        out[vis & np.all(out[..., :3] == np.array(src, np.uint8), axis=-1), :3] = dst
+    rest = out[vis, :3].astype(int)
+    off = rest.max(1) - rest.min(1) > 17
+    if off.any():
+        raise ValueError(f"1DX colours outside the shared greys: {sorted({tuple(c) for c in rest[off].tolist()})[:6]}")
+    if jp is None:
+        return out
+    jv = jp[..., 3] > 0
+    jo = jv & np.all(jp[..., :3] == np.array(OUTLINE_3DX, np.uint8), axis=-1)
+    a_out = int(jp[jo, 3].max()) if jo.any() else 255
+    if a_out == 255:
+        return out
+    votes = defaultdict(Counter)
+    for (r, g, b, a) in jp[jv & ~jo].tolist():
+        votes[(r, g, b)][a] += 1
+    pts: dict[float, list] = {float(np.array(OUTLINE_3DX) @ LUMA): [a_out]}
+    for c, v in votes.items():
+        pts.setdefault(float(np.array(c) @ LUMA), []).append(v.most_common(1)[0][0])
+    xs = np.array(sorted(pts))
+    ys = np.array([np.mean(pts[x]) for x in xs])
+    lum = out[..., :3].astype(np.float64) @ LUMA
+    a = out[..., 3].astype(np.float64) * np.interp(lum, xs, ys) / 255
+    out[..., 3] = np.where(vis, np.clip(17 * np.rint(a / 17), 17, 255), 0).astype(np.uint8)
+    return out
+
+
+def donor_copy(j, od, o, af, fr, size, origin) -> np.ndarray:
+    """Target of a 1DX donor job: the 1DX frame (or its listed parts) placed on the 3DX frame
+    origin, in the colours of the 3DX original (to_3dx_colours)."""
+    gd, gobj, gf = j["donor"]
+    dod, do, daf, dfr = obj_frame("1DX", gd, gobj, gf)
+    src, sorg = render_layer(daf, dod.plain(do.graph), dfr, j["dkeys"])
+    jp, _org = render_layer(af, od.plain(o.graph), fr, set(j["keys"]) if j["mode"] == "text" else None)
+    return to_3dx_colours(place(src, sorg, size, origin, j["dx"], j["dy"]), jp)
 
 
 def _tint_yellow(img: np.ndarray, outline=OUTLINE_1DX) -> np.ndarray:
@@ -180,15 +234,16 @@ def _check_tuto_tint() -> float:
 
 
 def tuto_highlight(od, o, af, fr, fi):
-    """bui_tuto f1 (highlighted おてほん): the same 1DX 「시범」 as the f0 copy, same size and place,
-    face tinted yellow the way 3DX turns f0 into f1; outline unchanged."""
+    """bui_tuto f1 (highlighted おてほん): the same 1DX 「시범」 as the f0 copy, same size, place
+    and 3DX colours, face tinted yellow the way 3DX turns f0 into f1; outline unchanged."""
     ok = _check_tuto_tint()
     if ok < 0.9:
         raise ValueError(f"tint rule reproduces only {ok:.0%} of the 3DX f1 face")
     lay, size, origin = libobj.frame_layout(af, fr)
     dod, do, daf, dfr = obj_frame("1DX", "BUI", "bui_tuto_KR_ko", 0)
     src, sorg = render_layer(daf, dod.plain(do.graph), dfr)
-    return _tint_yellow(place(src, sorg, size, origin))
+    jp0 = libobj.render_frame(af, od.plain(o.graph), af.frames[0])
+    return _tint_yellow(to_3dx_colours(place(src, sorg, size, origin), jp0), outline=OUTLINE_3DX)
 
 
 GDH_KEY3, GDH_KEY1 = "b00276_64x32", "b00244_64x32"      # the GDD / GDH text parts
@@ -320,7 +375,9 @@ def draw_jobs() -> list[dict]:
     js.append(DJ(K, "ko_ui_return_JP_ja", [0], "되돌리기", None))
     js.append(DJ(K, "ko_ui_onemore_JP_ja", [0], "결정", None))
     js.append(DJ(K, "ko_ui_onemore_JP_ja", [1], "다시 한번", None))
-    js.append(DJ(K, "ko_ui_special_JP_ja", [11], "앞으로", None))
+    # 「あと」 is a crisp white label (40 % of its ink opaque); the plain redraw came out soft (22 %):
+    # alpha contrast + pixel phase like lyt_D.py (57 %, stroke 1.01x of the kana, lead 2026-09-30)
+    js.append(DJ(K, "ko_ui_special_JP_ja", [11], "앞으로", None, source="font", sharp=1.5))
     return js
 
 
@@ -350,21 +407,25 @@ BLOCK_TEXT_FRAMES = (0, 1, 2, 3, 4, 5, 6, 7, 9, 10, 11)     # 3DX frames with a 
 def block_family() -> dict:
     """Target of the redrawn command-block names (lead 2026-09-30: same size and weight as the
     1DX copies): median face height and stroke of the 1DX copies, the decoration of 점프 (white
-    face, 2 px dark-brown outline, the look all 1DX block names share), and the widest Japanese
-    face box of the family as the width a name may take (wider -> horizontal scale >= 80 %)."""
+    face, 2 px outline, the look all 1DX block names share) in the 3DX colours the copies take
+    (to_3dx_colours: near-black outline), and the widest Japanese face box of the family as the
+    width a name may take (wider -> horizontal scale >= 80 %). Size and stroke are measured on
+    the 1DX pixels as approved (the recoloured outline shifts the stroke measure by 2 %)."""
     import imgtext as T
     if not _BLOCK_FAMILY:
-        sts = []
+        sts, deco = [], None
         for fi in BLOCK_COPIES:
             od, o, af, fr = obj_frame("1DX", "BUI", "bui_sys_block_name_KR_ko", fi)
             img = libobj.render_frame(af, od.plain(o.graph), fr)
             sts.append(T.measure_style(img.astype(np.float64) / 255))
+            if deco is None:
+                deco = T.measure_style(to_3dx_colours(img).astype(np.float64) / 255)
         od, o, af, _fr = obj_frame("3DX", "BUI", "bui_sys_block_name_JP_ja", 0)
         g = od.plain(o.graph)
         bx = [T.measure_style(libobj.render_frame(af, g, af.frames[fi]).astype(np.float64) / 255).box
               for fi in BLOCK_TEXT_FRAMES]
         _BLOCK_FAMILY.update(em=float(np.median([s.em for s in sts])),
-                             stroke=float(np.median([s.stroke for s in sts])), deco=sts[0],
+                             stroke=float(np.median([s.stroke for s in sts])), deco=deco,
                              x=(min(b[0] for b in bx), max(b[2] for b in bx)),
                              copies={fi: (s.em, round(s.stroke, 3)) for fi, s in zip(BLOCK_COPIES, sts)})
     return _BLOCK_FAMILY
@@ -397,6 +458,41 @@ def donor_rgba(spec) -> np.ndarray:
     return img
 
 
+PHASE_DY = (-0.5, -0.25, 0.0, 0.25, 0.5)
+PHASE_DX = (0.0, 0.25, 0.5, 0.75)
+
+
+def crisp_redraw(jp: np.ndarray, text: str, fmt: str, gain: float, **kw):
+    """White label without outline drawn crisp (lyt_D.py's method, work/img/D.md): imgtext render
+    at quarter-pixel phases, alpha contrast x gain around 0.5, the phase with the least
+    half-transparent ink kept."""
+    import copy
+    import imgtext as T
+    st = T.measure_style(jp)
+    if st.layers or st.shadow or min(min(c) for _t, c in st.face_stops) < 0.9:
+        raise ValueError("crisp_redraw is for white labels without outline or shadow")
+    best = None
+    for dy in PHASE_DY:
+        for dx in PHASE_DX:
+            st2 = copy.deepcopy(st)
+            st2.box = (st.box[0] + dx, st.box[1] + dy, st.box[2] + dx, st.box[3] + dy)
+            st2.lines = [(a + dy, b + dy) for a, b in st.lines]
+            rep = {"style": st.to_json(), "fmt": fmt}
+            k = T.bleed(T.render(text, st2, report=rep, **kw))
+            k[..., :3] = 1.0
+            k[..., 3] = np.clip((k[..., 3] - 0.5) * gain + 0.5, 0, 1)
+            k = T.finalize(k, fmt)
+            a = k[..., 3]
+            m = float((a * (1 - a))[a > 0.02].mean())
+            if best is None or m < best[0] - 1e-9:
+                best = (m, k, rep, dx, dy)
+    m, k, rep, dx, dy = best
+    rep.update(sharp=gain, phase=(dx, dy, round(m, 4)))
+    rep["compare"] = T.compare(jp, k, st)
+    rep["problems"] = T.verdict(rep["compare"])
+    return k, rep
+
+
 def draw_target(od, o, af, fr, j) -> np.ndarray:
     import imgtext as T
     d = j["draw"]
@@ -424,7 +520,11 @@ def draw_target(od, o, af, fr, j) -> np.ndarray:
             kw.setdefault("em", fam["em"])
             kw.setdefault("weight", fam["stroke"])
             kw.setdefault("box", (fam["x"][0] - x0, 0, fam["x"][1] - x0, y1 - y0))
-        ko, rep = T.redraw(jp8.astype(np.float64) / 255, d["text"], fmt=af.fmt, **kw)
+        gain = kw.pop("sharp", None)
+        if gain:
+            ko, rep = crisp_redraw(jp8.astype(np.float64) / 255, d["text"], af.fmt, gain, **kw)
+        else:
+            ko, rep = T.redraw(jp8.astype(np.float64) / 255, d["text"], fmt=af.fmt, **kw)
         _DRAW_CACHE[ck] = T.to_u8(ko)
         DRAW_REPORT[f"{j['dat']}/{j['obj']}/{d['text']}"] = rep
     target = np.zeros((h, w, 4), np.uint8)
@@ -446,10 +546,7 @@ def run_job(j) -> dict:
         elif j["png"]:
             target = np.array(Image.open(ROOT / j["png"]).convert("RGBA"))
         else:
-            gd, gobj, gf = j["donor"]
-            dod, do, daf, dfr = obj_frame("1DX", gd, gobj, gf)
-            src, sorg = render_layer(daf, dod.plain(do.graph), dfr, j["dkeys"])
-            target = place(src, sorg, size, origin, j["dx"], j["dy"])
+            target = donor_copy(j, od, o, af, fr, size, origin)
         keys = j["keys"] if j["mode"] == "text" else None
         regs = decompose(af, fr, target, keys)
         for k, img in regs.items():

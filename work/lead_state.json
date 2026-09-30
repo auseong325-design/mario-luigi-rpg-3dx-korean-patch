@@ -1,13 +1,13 @@
 {
- "updated": "2026-09-30T10:30+09:00",
- "phase": "cloud session 2026-09-30 (branch claude/tender-goldberg-ob76gv): TEXT PASS 2 applied, built and installed; image fix round 2 finished in the cloud (I3 palette, B weight, I6 small text; A's LA_24 was already done); wave 3 review done (배틀 시작 redrawn); image patch installed into patch/ (Lyt without the file-select logos, Obj, HB). Waiting for the user: logo approval (title + file-select), then the Azahar test",
+ "updated": "2026-09-30T12:40+09:00",
+ "phase": "cloud session 2026-09-30: text, fonts and every image stream installed in patch/ (Msg, Lyt incl. file-select logos, Obj, HB, FMdl title logo + 게임 시작, Staffroll). Logos accepted by the user for now with room for improvement. Waiting for the user's Azahar test",
  "build": {
   "latest": "2026-09-30T02:55+09:00: TEXT PASS (work/textpass_20260930.py: 24 edits in 11 batch files + 4 glossary rows) -> merge_ko --check-all 130/130 0 errors -> --merge (28 ids changed incl. dups Menu#81 b_sys#477 #1475 #1556) -> build_patch --fonts --out work/build/msg_stage/romfs (verify 9,623 msgs 0 problems; fonts cover 1,255 chars, 1,162 Hangul; 1DX glyphs pixel-identical) -> Azahar not running -> installed the 6 changed files (BMsg, FMsg, Menu, font, font_l, font_btl) into patch/.../Msg/JP_ja, SHA-256 match incl. the Azahar junction. Replaced files kept in work/build/prev_msg_before_textpass_20260930/.",
   "user_test": "2026-09-29 15:20 user installed base + v1.2 update from the two standard CIAs in the project root (sdmc title/00040000/001ca900 and 0004000e/001ca900). Azahar log (%APPDATA%/Azahar/log/azahar_log.txt, previous run in azahar_log.old.txt) shows Program ID 00040000001CA900 and 'LayeredFS replacement file in use' for all 10 Msg/JP_ja files, on the base RomFS and again on the update RomFS. The user only reached the title screen (run 2) and the file-select CROs SaveLoad/LoadMenu for 5 s (run 1); title logo, ゲームスタート and Ver. 1.2 are images (no message text), so they stay Japanese until the image-text phase. Still waiting for the first-dialogue test.",
   "fallback": "if the game freezes or text breaks: copy work/build/same_size_romfs/Msg/JP_ja/*.bffnt over patch/.../romfs/Msg/JP_ja/ (or build_font.py --same-size --only <font>); rebuilt 17:35 from the 1DX glyphs too (font drops 0 chars, font_l 631, font_btl 103). To go back to the NanumSquareRound look: copy work/build/prev_fonts_nanum/*.bffnt into patch/.../Msg/JP_ja/.",
   "hb_hold": "installed 2026-09-30 10:25+09:00 after the small-text follow-up (white faces for 3 textures)",
   "latest_cloud": "2026-09-30 cloud (Python 3.12 venv, pinned requirements): toolchain reproduces the local builds (msbt round trip 368/368, build_patch --identity 7/7, rebuilding the pre-TEXT-PASS-2 ko_final gives the installed Msg/fonts byte for byte, build_lyt MLyt/BLyt/FLyt/SLyt byte-identical to lyt_stage_B). TEXT PASS 2: build_patch --fonts -> work/build/msg_stage -> installed BMsg/FMsg/Menu + the three fonts (previous files in work/build/prev_msg_before_textpass2_20260930/). Image patch installed 10:25+09:00: Lyt/JP BLyt FLyt KLyt SLyt = work/build/lyt_stage_A (178 textures, 0 errors); Lyt/JP/MLyt = the same build WITHOUT the four LOAD_GAME_IMG file-select logos (their original textures kept byte for byte; 174 textures, 254 copies changed in all Lyt dats); Obj/JP BUI FUI KUI Menu = work/build/obj_stage; HB/JP_ja (11 archives) + HB/parts.arc.z = work/build/hb_stage. Every installed archive was read back independently. Staffroll and Msg in patch/ equal their stages. NOT installed: FMdl (title logo + 게임 시작 share FMdl.dat) and the file-select logos - waiting for the user's OK.",
-  "logo_install_after_ok": "when the user approves work/img/review/I4_logo_approval.png: copy work/build/fmdl_stage/romfs/FMdl/JP/FMdl.dat -> patch/00040000001CA900/romfs/FMdl/JP/FMdl.dat and work/build/lyt_stage_A/MLyt.dat -> patch/.../romfs/Lyt/JP/MLyt.dat (both verified builds; lyt_stage_A holds all 178 textures incl. the logos)"
+  "logos_installed": "2026-09-30T12:40+09:00: user: 'proceed as is, leave room for improvement' -> installed work/build/fmdl_stage FMdl.dat (title logo + pieces + 게임 시작) as patch/.../romfs/FMdl/JP/FMdl.dat and work/build/lyt_stage_A/MLyt.dat (file-select logos) as patch/.../Lyt/JP/MLyt.dat; all five Lyt dats and FMdl byte-equal to their stages; MLyt: 115 textures changed incl. the 4 logos"
  },
  "review_wave": {
   "launched": "2026-09-29T11:48+09:00, keep=true, max_turns=500",
@@ -172,7 +172,8 @@
   "btn_KJ_LA_24 「쿵쿵 떨어트리기」 (after A's re-render): one line at 100% width, the faint outline edge touches both texture edge columns (the original ドキドキボックス also runs to the right edge). If it looks cramped in the Bowser Jr. battle skill list, A can squeeze it to 95% width (about 3 px each side, slightly softer letters).",
   "Giant battles (I6 second pass): action prompts use a bold vector face 13-18% taller than the kana (kept deliberately); check they do not look oversized next to the battle HUD. Small-text follow-up done (white faces): check 쪼르미터 (64x16) and the boss notices read cleanly. The 12 changed HB archives use our own LZH8 compressor - check that every giant battle loads.",
   "Sprites after the palette pass (in game): command-block names, bad-status names, 명중/회피, fortune-block labels and 시범 now use the 3DX near-black outline; check they sit with the untouched sprites around them. 앞으로 (Bowser Jr. special counter) redrawn crisper.",
-  "Layout 배틀 시작 (Bowser Jr. quest menu and the Coliseum battle-start button, same picture): redrawn from the 1DX font in wave 3; check it reads cleanly in both places."
+  "Layout 배틀 시작 (Bowser Jr. quest menu and the Coliseum battle-start button, same picture): redrawn from the 1DX font in wave 3; check it reads cleanly in both places.",
+  "Logos (installed as accepted 'for now', room for improvement): title logo 마리오&루이지 (strokes grown, hard edges), file-select 마리오&루이지 RPG3, file-select 쿠파주니어 RPG (Jr. removed, Korean word in front of RPG, puffs on top). Look at them on the title and file-select screens; possible later work: letter tilt / size closer to クッパJr., puff tail at 어."
  ],
  "wave2_brief_additions": [
   "3 wave-1 translators (T03, T04, 2ccb39a4) ended after a narration-only message ('Reading ... now.') with no tool call: tell agents every message before the final report must contain a tool call; spawn with keep=true so a stalled run can be resumed with spawn_continue instead of restarting",
@@ -180,20 +181,20 @@
   "follow text/style_guide.md 5.1 (lead decisions) and the CURRENT text/glossary.tsv; batch-embedded glossary notes may be older"
  ],
  "font_phase": [
-  "※ is now in all three fonts (1DX glyph; font_l rendered) and in merge_ko's charset: restore it in k_o_koopa_08 #9 #11 (now '*') and b_sys #670 (p6), #1546 (p14) - a text change, left for after the font test",
-  "HUD/status images: BP -> SP",
-  "o_town_31#18 tea-cafe price list is aligned with spaces sized for 16px Hangul / 5px space; re-check the alignment once the Korean font widths are final",
+  "DONE (see the last item): ※ restored",
+  "DONE: STbr/ST BP -> SP images (C stat_en), installed",
+  "CHECKED 2026-09-30 with the real font widths: o_town_31#18 prices start at x 138/136/130 and end at 149/147/150 (right edges within 3 px; the Japanese columns differ by 5 px) - fine",
   "Menu#361 'メッセージにふりがなを表示' is translated literally (후리가나 표시) but Korean text has no ruby: decide in game whether to relabel or hide the option",
-  "lower-screen button image 'ひらく' must read '열기' (Menu#717)",
-  "【】 brackets are used in button descriptions (HugeBattle #59 #93 #112 #140, b_sys p3/p11): the Korean font must contain 【 and 】",
-  "※ also dropped in b_sys #670 (p6) and #1546 (p14, '단,'): restore once ※ is in the font",
-  "KJ menu button 「クッパJr.RPGをおわる」 is not in any MSBT (probably an image): b_sys #557 calls it 「쿠파주니어 RPG 종료」 - make the image match",
-  "b_sys #1706 enemy-profile label 「苦手な仲間」 = 「약점인 동료」 - check the profile screen (label may be an image)",
+  "DONE: btn_F_MAP_OPEN = 열기 (layout image), installed",
+  "DONE: 【 】 ※ are in font, font_l and font_btl (checked in the installed fonts)",
+  "DONE with item 0",
+  "DONE: btn_KJ_STOPGAME = 쿠파주니어 RPG 종료 (layout image), installed",
+  "b_sys#1706 「약점인 동료」: no layout image carries 苦手 (lyt_plan) - it is message text, already translated; check on screen",
   "DONE 2026-09-30T02:55+09:00 (work/textpass_20260930.py): ※ restored in k_o_koopa_08 #9 #11, b_sys #670 #1546; うちけし -> 스킬 지우기 in b_sys #12 #208 #238 #239 #273 #293 #1008 #1055 #1134 #1847 (+dup #1556), verb forms #225 '지워 버렸다', #495 'N마리의 스킬을 지웠다!', #510 'N명의 스킬이 지워졌다!', #528 '스킬을 지우지 못했다!', #1450 '되도록 지우고 싶다'; ころび -> 꽈당 in b_sys#179 (+dup Menu#81); サンダー 선더 in #195 (+dup #477) #969 #990; ドッスンおとし 쿵쿵 떨어트리기 in #600 (+dup #1475); 4 glossary rows. Installed (see build.latest)."
  ],
  "next": [
-  "USER: approve the logos in work/img/review/I4_logo_approval.png (title logo 마리오&루이지 RPG3 DX + 디럭스, file-select logos 마리오&루이지 RPG3 / 쿠파주니어 RPG, 게임 시작 button) -> install per build.logo_install_after_ok",
-  "USER: Azahar test of the installed patch (Msg + fonts + Lyt + Obj + HB + Staffroll): first dialogue, menus, shop, battle command blocks and status names, Bowser Jr. RPG menus and skill list, giant battles (our LZH8 archives must load), staff roll; report anything cut off, overlapping or unreadable",
+  "USER: Azahar test of the full patch (Msg + fonts + Lyt + Obj + HB + FMdl + Staffroll): title screen and file select (logos), first dialogue, menus and shops, battle command blocks and status names, Bowser Jr. RPG menus and skill list, giant battles (our LZH8 archives must load), staff roll; report anything cut off, overlapping or unreadable",
+  "later: logo refinements if wanted (review_items last entry)",
   "still open: in-game review_items, the 「후리가나 표시」 setting label (font_phase), make_batches ref gaps (only before any batch regeneration)"
  ],
  "wave2": {

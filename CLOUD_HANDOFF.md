@@ -24,21 +24,15 @@ Kiro 사용량 한도로 멈춘 작업을 Claude 클라우드 세션 크레딧�
   - 색 검사: 원본에 없는 색이 0.
   - 레이아웃 178장을 모두 원본과 나란히 봤다. 깨진 「배틀 시작」을 1DX 폰트로 다시 그렸다.
   - 통합 빌드 `work/build/lyt_stage_A`: 178장, 오류 0.
-- **patch/ 설치본** (`patch/00040000001CA900/romfs/`)
-  - 설치함: Msg 10개(대사 7 + 폰트 3), Staffroll 2개, Lyt/JP 5개, Obj/JP 4개, HB 12개.
-  - MLyt는 파일 선택 로고 4장을 **뺀** 빌드다. 그 4장은 원본 텍스처를 그대로 둔다.
-  - **로고는 사용자 승인 대기**: 타이틀 로고와 게임 시작 버튼은 같은 FMdl.dat에 들어 있고, 파일 선택 로고는 MLyt에 들어 있다.
-  - 확인할 그림: `work/img/review/I4_logo_approval.png`.
-  - 승인하면 두 파일만 복사한다(`lead_state.build.logo_install_after_ok`):
-    - `work/build/fmdl_stage/romfs/FMdl/JP/FMdl.dat` → `patch/.../romfs/FMdl/JP/FMdl.dat`
-    - `work/build/lyt_stage_A/MLyt.dat` → `patch/.../romfs/Lyt/JP/MLyt.dat`
+- **patch/ 설치본** (`patch/00040000001CA900/romfs/`): Msg 10개(대사 7 + 폰트 3), Staffroll 2개, Lyt/JP 5개, Obj/JP 4개, HB 12개, FMdl/JP/FMdl.dat.
+  - 로고(타이틀·파일 선택 2종)와 게임 시작 버튼은 사용자 검토 3회를 거쳐 「일단 이대로, 개선 여지 남김」으로 설치했다(12:40 KST).
+  - 모든 설치본은 `work/build/` 스테이지와 바이트가 같다(Lyt = `lyt_stage_A`, FMdl = `fmdl_stage`).
 
 ## 남은 일
-1. 사용자: 로고 승인 → 위 두 파일을 설치한다.
+1. (완료) 로고 설치. 나중에 다듬을 여지: `review_items` 마지막 항목.
 2. 사용자: Azahar에서 전체 패치를 시험한다. 볼 곳은 `work/lead_state.json`의 `next`와 `review_items`(게임 화면 확인 18개)에 적어 두었다.
 3. 게임 화면을 보고 결정할 것: 설정 「후리가나 표시」 이름(`font_phase`), `review_items`의 말투·선택지·폭 확인.
 
 ## 하지 말 것
 - `text/jp`, `text/ref_ds_ko`, 원본 게임 파일(`romfs/`, `romf2/`, `exefs*/`, `ml 1dx/`, `*.nds`, `unpacked/`)은 수정하지 않는다.
 - 빌드 결과는 `work/build/<스트림>_stage/`에 먼저 쓰고, 검증한 뒤에만 `patch/`에 설치한다.
-- 로고는 사용자 승인 전에 설치하지 않는다.

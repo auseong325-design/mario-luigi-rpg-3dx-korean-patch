@@ -1,0 +1,358 @@
+Menu#177 amiibo_sys_err_07 dups=0
+JP {1:mode}{2:align}{3:align}NFCリーダー/ライターとの / 通信に失敗しました。{4:wait}[Next]{5:mode}{6:align}{7:align}NFCリーダー/ライターの / 電源をOFFにしてからやり直してください。{8:wait}[Next]{9:mode}{10:align}症状が直らない場合は本体の  / 取扱説明書に 記載されている / 任天堂サービスセンターへお問い合わせください。{11:wait}
+KO {1:mode}{2:align}{3:align}NFC 리더/라이터와의 / 통신에 실패했습니다.{4:wait}[Next]{5:mode}{6:align}{7:align}NFC 리더/라이터의 / 전원을 껐다가 다시 시도해 주십시오.{8:wait}[Next]{9:mode}{10:align}이 증상이 계속될 경우 / 본체 사용설명서에 기재되어 있는 / 한국닌텐도 고객지원센터로 문의해 주십시오.{11:wait}
+NOTE review: 같은 JP 문장(症状が直らない場合は…)을 쓰는 Menu__p1 #159와 문구 통일('증상이 해결되지 않을 때는 / 본체 취급설명서에 기재된'). review(클라우드 2026-09-30): 닌텐도 표준 amiibo 오류 문구를 1DX 한국판 ComErr.msbt에 맞춤(오류, 꺼져/켜, 떼 주십시오, 업데이트, 사용설명서, 한국닌텐도 고객지원센터, 적외선 포트).
+Menu#181 MES_EMesColosseum_class_7_enemy_5 dups=0
+JP 第５回戦 ガラクタモンスターX
+KO 제5회전 잡동스터X
+Menu#182 MES_EMesColosseum_guite_turn_battle_02 dups=0
+JP 全員の行動が １周し終わったら / １ターン目が終了… / 全員の行動が ２周し終わったら / ２ターン目が終了…
+KO 모두의 행동이 한 바퀴 돌면 / 1턴째가 끝나고… / 모두의 행동이 두 바퀴 돌면 / 2턴째가 끝나고…
+Menu#183 MES_EMesOutline_story35 dups=0
+JP ピーチ城のカギを持って逃げたゲラパト３匹を見つけ出そう！
+KO 피치 성의 열쇠를 갖고 도망친 까르트롤 3마리를 찾아보자!
+Menu#184 MES_MenuMes_EventItemE_kokky dups=0
+JP Dr.コキノの ペット。 / 道あんないを してくれる。
+KO 오키노 선생님의 애완동물. / 길 안내를 해 준다.
+Menu#187 MES_bgm_title_13_legacy dups=0
+JP 決戦のとき！
+KO 결전의 때!
+Menu#188 MES_bgm_title_24 dups=0
+JP ワルツ・イン・ザ・レイク DX
+KO 왈츠 인 더 레이크 DX
+Menu#189 MES_tuto_yo_scrratch_tuto_k3_bdog dups=0
+JP ガガガウ ガウ… / （ボーナスカード マス選ぶ…）{1:wait}
+KO 왈왈 왈… / (보너스 카드 칸 고르기…){1:wait}
+Menu#190 Menu_Sys_rem_equip dups=0
+JP そうびをはずす
+KO 장비 해제
+Menu#192 amiibo_sys_err_08 dups=0
+JP {1:mode}{2:align}マリオ&ルイージRPG３ DX では / {3:mode}{4:align}対応していないキャラクターのamiiboです。{5:wait}
+KO {1:mode}{2:align}마리오&루이지 RPG3 DX에서는 / {3:mode}{4:align}대응하지 않는 캐릭터의 amiibo입니다.{5:wait}
+Menu#196 MES_EMesColosseum_class_7_enemy_6 dups=0
+JP 第６回戦 ダークスターX
+KO 제6회전 다크스타X
+Menu#197 MES_EMesColosseum_guite_turn_battle_03 dups=0
+JP バトルが長く続くと / ターン数も ふえていきます。 / １ターンの間に 連続で / 行動をする モンスターもいます。
+KO 배틀이 길게 이어지면 / 턴 수도 늘어나요. / 1턴 동안 연속으로 / 행동하는 몬스터도 있어요.
+NOTE review: 콜로세움 턴 가이드는 5.1-4(안내는 해요체)대로 해요체. 같은 계열 Menu__p1 #151·#167, p2 #209와 같게.
+Menu#198 MES_EMesOutline_story36 dups=0
+JP いよいよピーチ城の奥へ進めるぞ！ ピーチ姫は？ ダークスターは？ いったいどこに？
+KO 드디어 피치 성 안쪽으로 갈 수 있다! 피치공주는? 다크스타는? 대체 어디에 있는 걸까?
+Menu#201 MES_bgm_title_25 dups=0
+JP ドクター・コキノ DX
+KO 닥터 오키노 DX
+Menu#202 MES_tuto_yo_nice_tsuno1 dups=0
+JP オウ！ ムッシュ～ / ムッシュ～の TSUNO / ベリー クールになりましたね！{1:wait}
+KO 오우! 신사~ / 신사의 PPUL이 / 베리 쿨해졌군요!{1:wait}
+Menu#208 MES_EMesColosseum_class_7_enemy_7 dups=0
+JP 第７回戦 クッパX
+KO 제7회전 쿠파X
+Menu#209 MES_EMesColosseum_guite_turn_battle_04 dups=0
+JP ターン数は 常に注意して / 見ておきましょう。
+KO 턴 수는 항상 주의해서 / 지켜보세요.
+Menu#210 MES_EMesOutline_story37 dups=0
+JP ダークスターがクッパの体の中に逃げ込んだ！？ エアースペースの奥へ追っていこう！
+KO 다크스타가 쿠파의 몸속으로 도망갔다!? 에어 스페이스의 안쪽으로 쫓아가 보자!
+Menu#213 MES_bgm_title_26 dups=0
+JP スーパーポンプアップ！ DX
+KO 슈퍼 펌프 업! DX
+Menu#214 MES_tuto_yo_nice_tsuno2 dups=0
+JP クールな ムッシュ～には / ボーナスカードを / プレゼントしているのですよ！{1:wait}[Next]ボーナスカードの / 説明は必要ですか？{2:pause} / {3:align}{4:choice}いいえ{5:tab}{6:choice}はい{7:pause}
+KO 쿨한 신사에게는 / 보너스 카드를 / 선물로 드리고 있습니다!{1:wait}[Next]보너스 카드에 대해 / 설명해 드릴까요?{2:pause} / {3:align}{4:choice}아니요{5:tab}{6:choice}예{7:pause}
+NOTE 용어 불일치(리드 확인): glossary가 ボーナスカード=보너스 카드(3DX 개명)인데 スーパー/ウルトラ/ノーマルボーナスカード는 DS '슈퍼/울트라/보통 스크래치 카드'라서 같은 가게 대사에 두 이름이 섞인다. glossary대로 썼음. 통일하면 --grep '스크래치 카드'로 일괄 수정 가능(스크래치→보너스는 한 글자 짧아 줄 폭 문제 없음).
+Menu#219 MES_EMesOutline_story38 dups=0
+JP ダークスターがクッパ？に変身！ このままでは大変なことに！ やつを追いかけよう！
+KO 다크스타가 쿠파로 변신!? 이대로 두면 큰일이 일어나고 말 거야! 어서 쫓아가 보자!
+Menu#222 MES_bgm_title_27 dups=0
+JP Oki Doki！！ DX
+KO Oki Doki!! DX
+Menu#223 MES_tuto_yo_nice_tsuno3 dups=0
+JP オウ！ ムッシュ～ / さらにステキな TSUNOに / なりましたね！{1:wait}
+KO 오우! 신사~ / 더욱 매력 넘치는 / PPUL이 되었군요!{1:wait}
+Menu#225 ActGuide_07_1 dups=0
+JP 「{1:color}コウラブロック{2:color}」を叩くと / マリオがコウラを着て / {3:color}コウラマリオ{4:color}に変身します。
+KO 「{1:color}등껍질블록{2:color}」을 두드리면 / 마리오가 등껍질을 짊어지고 / {3:color}등껍질 마리오{4:color}로 변신해요.
+NOTE review: 액션 가이드는 5.1-4(안내는 해요체)대로 해요체(Menu__p1 #121·#132, p4~p6 ActGuide와 같게).
+Menu#227 MES_EMesOutline_story39 dups=0
+JP ダーククッパを追いつめろ！ いよいよ最後の決戦だ！ 準備はいいか？
+KO 다크쿠파가 저곳에! 드디어 최후의 결전이다! 준비하고 출발!
+Menu#229 MES_MesDat_MiniGame_end_info25 dups=0
+JP {1:color}賞品は{2:color}{3:color}{4:var}{5:color}{6:color}コイン！{7:color}{8:wait}
+KO {1:color}상품은 {2:color}{3:color}{4:var}{5:color}{6:color}코인!{7:color}{8:wait}
+Menu#230 MES_bgm_title_28 dups=0
+JP SHOW TIME！ DX
+KO SHOW TIME! DX
+Menu#231 MES_tuto_yo_bad_hige3_koukyuu dups=0
+JP これでは 残念ですが / スーパーボーナスカードは / プレゼントできませんね…{1:wait}[Next]でも 安心なさってください。 / ノーマルボーナスカードは / プレゼントできますので。{2:wait}
+KO 죄송한 말씀이지만 이 상태로는 / 슈퍼 보너스 카드를 / 드릴 수가 없습니다…{1:wait}[Next]하지만 실망하진 마십시오. / 대신 보통 보너스 카드를 / 드리도록 하겠습니다.{2:wait}
+NOTE review: 보너스 카드 계열 3DX 이름으로 통일(리드, '스크래치 카드'→'보너스 카드').
+Menu#232 MES_tuto_yo_nice_tsuno4 dups=0
+JP これからは お買い物ごとに / スーパーボーナスカードを / プレゼント！{1:wait}[Next]{2:align}これまでより アタリが / 出やすくなってますよ！{3:wait}
+KO 앞으로는 쇼핑하실 때마다 / 슈퍼 보너스 카드를 / 선물해 드리겠습니다!{1:wait}[Next]{2:align}지금까지보다 당첨 확률이 / 높아질 겁니다!{3:wait}
+NOTE DS 0.110의 '구입하실 때마다'는 glossary お買い物=쇼핑에 맞춰 '쇼핑하실 때마다'로(Menu#245도 같음). review: 보너스 카드 계열 3DX 이름으로 통일(리드, '스크래치 카드'→'보너스 카드').
+Menu#233 MES_tuto_yo_scrratch_tuto_ml2_kinoda dups=0
+JP {1:align}これがボーナスカードです。{2:wait}[Next]ボーナスカードは 買い物ごとに / １まい さしあげてます。{3:wait}
+KO {1:align}이것이 보너스 카드입니다.{2:wait}[Next]보너스 카드는 한 번 쇼핑하실 때 / 1장씩 드릴 겁니다.{3:wait}
+Menu#234 ActGuide_07_2 dups=0
+JP {1:color}{2:icon}{3:color}ボタンで{4:color}コウラマリオ{5:color}を前に飛ばして / 離れた場所のスイッチやブロックなどを / 叩くことができます。
+KO {1:color}{2:icon}{3:color} 버튼으로 {4:color}등껍질 마리오{5:color}를 앞으로 날려서 / 떨어진 곳에 있는 스위치나 블록 등을 / 칠 수 있어요.
+NOTE review: 액션 가이드 해요체 통일(5.1-4).
+Menu#235 MES_MenuMes_EventItemE_starvaccine_r dups=0
+JP １人目の賢者 イモーヌがもっていた / ワクチン。手に入れるまで長い道のりだった…
+KO 첫 번째 현인인 애번느가 갖고 있던 / 백신. 손에 넣기까지 긴 여정이었다…
+Menu#237 MES_MesDat_MiniGame_end_info26 dups=0
+JP {1:mode}{2:color}賞品は{3:color}{4:color}{5:var}{6:color}{7:color}コインと / {8:color}{9:color}おたからゆびわ{10:color}{11:color}！{12:color}{13:wait}
+KO {1:mode}{2:color}상품은 {3:color}{4:color}{5:var}{6:color}{7:color}코인과 / {8:color}{9:color}보물반지{10:color}{11:color}!{12:color}{13:wait}
+Menu#238 MES_bgm_title_29 dups=0
+JP ちょいと強い奴らに要注意！？ DX
+KO 좀 센 녀석들을 조심해!? DX
+Menu#239 MES_tuto_yo_nice_hige2_badge dups=0
+JP アタシんとこでは りっぱな / HIGEの人には ボーナスカードを / あげてるんだけど…{1:wait}[Next]ボーナスカードの / 説明は必要かねぇ？{2:pause} / {3:align}{4:choice}いいえ{5:tab}{6:choice}はい{7:pause}
+KO 우리 가게는 멋진 SUYEOM을 / 가진 사람한테 보너스 카드를 / 주는데 말이야…{1:wait}[Next]보너스 카드에 대해 / 설명해 줄까?{2:pause} / {3:align}{4:choice}아니요{5:tab}{6:choice}예{7:pause}
+Menu#240 MES_tuto_yo_nice_tsuno5 dups=0
+JP オウ！ ムッシュ～ / 最高にステキな TSUNOに / なりましたね！{1:wait}
+KO 오우! 신사~ / 최고로 매력 넘치는 / PPUL이 되었군요!{1:wait}
+Menu#242 ActGuide_07_3 dups=0
+JP {1:color}{2:icon}{3:color}ボタンでコウラを脱ぐことができます。 / {4:color}コウラマリオ{5:color}のとき / 他のアクションをすることはできません。
+KO {1:color}{2:icon}{3:color} 버튼으로 등껍질을 벗을 수 있어요. / {4:color}등껍질 마리오{5:color}일 때는 / 다른 액션을 할 수 없어요.
+NOTE review: 액션 가이드 해요체 통일(5.1-4).
+Menu#243 MES_Menu_reitem_01_Ekubon_brilock_shop_06_hur dups=0
+JP 見つけましたか？ はやくミーのもとへ！
+KO 찾으셨나요? 어서 미에게 와 주세요!
+Menu#244 MES_MesDat_MiniGame_end_info27 dups=0
+JP {1:mode}{2:color}賞品は{3:color}{4:color}{5:var}{6:color}{7:color}コインと / {8:color}{9:color}ほねほねきば{10:color}{11:color}！{12:color}{13:wait}
+KO {1:mode}{2:color}상품은 {3:color}{4:color}{5:var}{6:color}{7:color}코인과 / {8:color}{9:color}탄탄이빨{10:color}{11:color}!{12:color}{13:wait}
+Menu#245 MES_tuto_yo_nice_tsuno6 dups=0
+JP これからは お買い物ごとに / ウルトラボーナスカードを / プレゼント！{1:wait}[Next]{2:align}これまでより アタリが / 出やすくなってますよ！{3:wait}
+KO 앞으로는 쇼핑하실 때마다 / 울트라 보너스 카드를 / 선물해 드리겠습니다!{1:wait}[Next]{2:align}지금까지보다 당첨 확률이 / 높아질 겁니다!{3:wait}
+NOTE review: 보너스 카드 계열 3DX 이름으로 통일(리드, '스크래치 카드'→'보너스 카드').
+Menu#246 MES_tuto_yo_scrratch_tuto_ml4_kinoda dups=2
+JP アタリが出たら…{1:wait}
+KO 당첨되면…{1:wait}
+Menu#247 amiibo_seq_02_a dups=1
+JP amiiboを読み込んでいます。
+KO amiibo를 읽어 들이고 있습니다.
+Menu#249 MES_EMesOutline_story_def dups=0
+JP マリオ＆ルイージ と クッパ（？）の大冒険！
+KO 마리오&루이지와 쿠파(?)의 대모험!
+Menu#250 MES_EMesOutline_story_kj_01 dups=0
+JP メタコロ病に効くサプリの材料を集めるために クッパJr.が立ち上がった！
+KO 뚱뚱데굴병에 잘 듣는 영양제의 재료를 모으기 위해 쿠파주니어가 나섰다!
+Menu#251 MES_MesDat_MiniGame_end_info28 dups=0
+JP {1:mode}{2:color}賞品は{3:color}{4:color}{5:var}{6:color}{7:color}コインと / {8:color}{9:color}いかりうでわ{10:color}{11:color}！{12:color}{13:wait}
+KO {1:mode}{2:color}상품은 {3:color}{4:color}{5:var}{6:color}{7:color}코인과 / {8:color}{9:color}분노팔찌{10:color}{11:color}!{12:color}{13:wait}
+Menu#252 MES_tuto_yo_nice_hige3_koukyuu dups=0
+JP お客様 さらにステキな / おHIGEに なられましたね。{1:wait}
+KO 손님! SUYEOM이 더욱 / 멋져지셨습니다!{1:wait}
+Menu#255 MES_EMesOutline_story_kj_02 dups=0
+JP クッパ軍団の教え（？）を受けながら サプリの材料を求めて進むクッパJr.
+KO 쿠파 군단의 가르침(?)을 받으며 영양제의 재료를 찾아 나아가는 쿠파주니어.
+Menu#256 MES_MenuMes_EventItemE_mkiller dups=0
+JP 大きくてくろびかりした スッゴイやつ！ / これをはっしゃされたら ひとたまりもない！
+KO 커다랗고 검게 빛나는 굉장한 녀석! / 이것에 맞으면 가루도 안 남는다!
+Menu#257 MES_MenuMes_EventItemN_green_key dups=0
+JP 緑のカギ
+KO 초록색 열쇠
+NOTE glossary/DS '초록색 열쇠'(85px)는 원문 '緑のカギ'(64px)보다 넓지만 같은 이름 칸에 더 긴 DS 이름(그린 스타 백신 106px 등)이 들어가므로 그대로 둠.
+Menu#258 MES_MesDat_MiniGame_end_info29 dups=0
+JP {1:mode}{2:color}賞品は{3:color}{4:color}{5:var}{6:color}{7:color}コインと / {8:color}{9:color}ごうかいゆびわ{10:color}{11:color}！{12:color}{13:wait}
+KO {1:mode}{2:color}상품은 {3:color}{4:color}{5:var}{6:color}{7:color}코인과 / {8:color}{9:color}호탕반지{10:color}{11:color}!{12:color}{13:wait}
+Menu#259 MES_bgm_title_19_legacy dups=0
+JP うばわれたクッパ城
+KO 빼앗긴 쿠파 성
+Menu#260 MES_tuto_yo_scrratch_tuto_no_k dups=0
+JP オウ そうですか。 / それでは さっそく ショッピング！{1:wait}[Next]ア～ンド ボーナスカードに / チャレンジしてみてください。{2:wait}
+KO 오우, 그러신가요? / 그럼 쇼핑을 스타트해 주세요!{1:wait}[Next]앤~드 보너스 카드에 / 챌린지해 주세요!{2:wait}
+Menu#262 ActGuide_14_0 dups=4
+JP クッパが行えるアクションです。
+KO 쿠파가 할 수 있는 액션이에요.
+NOTE review: 액션 가이드 해요체 통일(5.1-4). 같은 틀 Menu__p1 #121 '…할 수 있는 액션이에요', p5 #767과 같게. dup #318·#384·#696·#755에도 복사됨.
+Menu#264 MES_EMesOutline_story_kj_03 dups=0
+JP サプリの材料の１つ ギガニンジンを求めてエクボンの森へ向かうクッパJr.達。しかし背後に怪しい影が…
+KO 영양제 재료 중 하나인 기가 당근을 찾아 볼조개 숲으로 가는 쿠파주니어 일행. 그런데 뒤에 수상한 그림자가…
+Menu#265 MES_MenuMes_EventItemN_pazzle1 dups=0
+JP パズルピース１
+KO 퍼즐피스1
+Menu#266 MES_bgm_title_33_legacy dups=0
+JP ザ・ジャイアント
+KO 더 자이언트
+Menu#269 ActGuide_14_1 dups=0
+JP アクションアイコンを「{1:color}スパイクボール{2:color}」に / 切り替えて {3:color}{4:icon}{5:color}ボタンで{6:color}スパイクボール{7:color}を / 行うことができます。
+KO 액션 아이콘을 「{1:color}스파이크 볼{2:color}」로 / 전환하고 {3:color}{4:icon}{5:color} 버튼으로 {6:color}스파이크 볼{7:color}을 / 사용할 수 있어요.
+NOTE review: 액션 가이드 해요체 통일(5.1-4). review(리드): 切り替え는 DS·필드 대사(액션 아이콘을 …로 전환하고, 11곳)와 같게 '전환'으로 통일.
+Menu#270 MES_EMesOutline_story_kj_04 dups=0
+JP 突然襲ってきたクッパ軍団… 乱れつつあるチームワーク… 不安がつのるクッパJr.達の旅…
+KO 갑자기 습격해 온 쿠파 군단… 흐트러지는 팀워크… 불안이 커져 가는 쿠파주니어 일행의 여행…
+Menu#271 MES_EMesPlace_place1 dups=0
+JP ピーチ城
+KO 피치 성
+Menu#272 MES_MenuMes_EventItemN_pazzle2 dups=0
+JP パズルピース２
+KO 퍼즐피스2
+Menu#273 MES_bgm_title_01_legacy dups=0
+JP 新しい冒険へ！
+KO 새로운 모험으로!
+Menu#274 MES_bgm_title_34_legacy dups=0
+JP The Winner is…
+KO The Winner is…
+Menu#275 ActGuide_05_1 dups=0
+JP アクションアイコンを 「ハンマー」に切り替えて / {1:color}{2:icon}{3:color}ボタンを押せば マリオを{4:color}ちびマリオ{5:color}にできます。
+KO 액션 아이콘을 「해머」로 전환하고 / {1:color}{2:icon}{3:color} 버튼을 누르면 마리오가 {4:color}꼬마 마리오{5:color}가 돼요.
+NOTE review: 액션 가이드 해요체 통일(5.1-4). review(리드): 切り替え는 DS·필드 대사(액션 아이콘을 …로 전환하고, 11곳)와 같게 '전환'으로 통일.
+Menu#276 ActGuide_14_2 dups=0
+JP {1:color}スパイクボール{2:color}を行うとクッパが丸まります。 / {3:color}{4:icon}{5:color}で移動することができます。
+KO {1:color}스파이크 볼{2:color}을 사용하면 쿠파가 둥글게 말려요. / {3:color}{4:icon}{5:color}로 이동할 수 있어요.
+NOTE review: 액션 가이드 해요체 통일(5.1-4).
+Menu#277 FldGuide_09_0 dups=0
+JP {1:color}くぼみ{2:color}のあるマップは{3:color}左上にアイコン{4:color}がつきます。 / マップ内のくぼみを全て取ると消えます。
+KO {1:color}홈{2:color}이 있는 지도에는 {3:color}왼쪽 위에 아이콘{4:color}이 표시돼요. / 지도 안의 홈을 전부 파면 사라져요.
+NOTE review: 필드 가이드 해요체 통일(5.1-4, Menu__p1 #96·#101과 같게).
+Menu#278 MES_EMesColosseum_class_4_enemy dups=0
+JP クッパメモリーMLX
+KO 쿠파메모리MLX
+Menu#279 MES_EMesOutline_story_kj_05 dups=0
+JP ギガニンジンを手に入れた！ しかしクッパJr.から次々に離れていく７人衆…
+KO 기가 당근을 획득했다! 하지만 쿠파주니어의 곁을 하나둘 떠나가는 7인조…
+Menu#280 MES_EMesPlace_place2 dups=0
+JP エクボンの森
+KO 볼조개 숲
+Menu#281 MES_MenuMes_EventItemE_birinpa dups=0
+JP いわゆるビリビリしてそうなアレ。こんな / ビリビリしてそうなものは どこで使うんだっけ？
+KO 손대면 찌릿찌릿할 것 같은 물건. / 이런 건 어디에 써야 하는 거지?
+Menu#282 MES_MenuMes_EventItemN_pazzle3 dups=0
+JP パズルピース３
+KO 퍼즐피스3
+Menu#283 MES_tuto_yo_scrratch_tuto_no_ml dups=0
+JP さすが マリオさんと ルイージさん / ものしりですね！{1:wait}[Next]それでは お買い物を / お楽しみください～{2:wait}
+KO 역시 마리오님과 루이지님은 / 뭐든지 알고 계시군요!{1:wait}[Next]그럼 즐거운 쇼핑 / 되시길 바랍니다~{2:wait}
+Menu#284 ActGuide_05_2 dups=0
+JP ちびマリオなら 小さなすきまを通りぬけて / １人で行動することができます。
+KO 꼬마 마리오라면 작은 틈새를 빠져나가 / 혼자서 행동할 수 있어요.
+NOTE review: 액션 가이드 해요체 통일(5.1-4).
+Menu#285 ActGuide_14_3 dups=0
+JP やわらかい壁にトゲを刺してのぼったり / トゲトゲの床でも通れるようになります。
+KO 부드러운 벽에 가시를 박아 올라가거나 / 가시투성이 바닥도 지나갈 수 있게 돼요.
+NOTE review: 액션 가이드 해요체 통일(5.1-4).
+Menu#286 MES_EMesOutline_story_kj_06 dups=0
+JP ゲプーキュウコンを手に入れた！ サプリの材料は残りあと１つ！
+KO 꺼억구근을 획득했다! 영양제의 재료는 이제 하나 남았다!
+Menu#287 MES_EMesPlace_place3 dups=0
+JP ゲプー岬
+KO 꺼억 케이프
+NOTE glossary/DS '꺼억 케이프'(85px)가 원문 'ゲプー岬'(64px)보다 넓음. 장소 칸에는 '잡동사니 스페이스'(133px) 등 더 긴 DS 이름도 들어가므로 그대로 둠.
+Menu#288 MES_MenuMes_EventItemE_starvaccine_y dups=0
+JP クッパ城にあった ２つ目のワクチン。 / クッパがのみこんだおかげで ベッタベタ～！
+KO 쿠파 성에 있었던 두 번째 백신. / 쿠파가 삼킨 탓에 끈적끈적~!
+Menu#289 MES_MenuMes_EventItemN_pazzle4 dups=0
+JP パズルピース４
+KO 퍼즐피스4
+Menu#290 MES_MenuMes_EventItemN_starvaccine_g dups=0
+JP スターワクチン緑
+KO 그린 스타 백신
+Menu#291 MES_tuto_yo_nice_hige6_badge dups=0
+JP これからは 買い物ごとに / ウルトラボーナスカードを / あげようかね！{1:wait}[Next]{2:align}これまでより アタリが / 出やすくなってるよ！{3:wait}
+KO 앞으로는 쇼핑할 때마다 / 울트라 보너스 카드를 / 줄까 해!{1:wait}[Next]{2:align}지금까지보다 더 쉽게 / 당첨될 거야!{3:wait}
+NOTE review: 보너스 카드 계열 3DX 이름으로 통일(리드, '스크래치 카드'→'보너스 카드').
+Menu#292 amiibo_seq_05_a_1 dups=1
+JP マリオがアイテムを持ってきてくれました！
+KO 마리오가 아이템을 가져와 주었습니다!
+Menu#293 ActGuide_05_3 dups=0
+JP マリオが１人で行動しているとき / ルイージを操作することはできません。
+KO 마리오가 혼자 행동하고 있을 때는 / 루이지를 조작할 수 없어요.
+NOTE review: 액션 가이드 해요체 통일(5.1-4).
+Menu#294 ActGuide_14_4 dups=0
+JP ブロックや銅像などを / 転がりながら壊すこともできます。
+KO 블록이나 동상 등을 / 구르면서 부술 수도 있어요.
+NOTE review: 액션 가이드 해요체 통일(5.1-4).
+Menu#295 MES_EMesOutline_story_kj_07 dups=0
+JP マンネンアイスを手に入れた！ ３つの材料を持ってヅツーダレイクへ！
+KO 만년얼음을 획득했다! 3개의 재료를 가지고 고라파 레이크로!
+Menu#296 MES_EMesPlace_place4 dups=0
+JP ムッシーバビーチ
+KO 이아파 비치
+Menu#297 MES_bgm_title_40 dups=0
+JP これがボコスカバトル！
+KO 이것이 난투 배틀!
+Menu#299 amiibo_seq_05_a_2 dups=1
+JP ルイージがアイテムを持ってきてくれました！
+KO 루이지가 아이템을 가져와 주었습니다!
+Menu#300 ActGuide_05_4 dups=0
+JP マリオとルイージが２人いっしょにいるときに / もう一度{1:color}{2:icon}{3:color}ボタンを押すと / ちびマリオから 元に戻せます。
+KO 마리오와 루이지가 둘이 함께 있을 때 / 다시 한번 {1:color}{2:icon}{3:color} 버튼을 누르면 / 꼬마 마리오를 원래대로 되돌릴 수 있어요.
+NOTE review: 액션 가이드 해요체 통일(5.1-4).
+Menu#302 MES_EMesOutline_story_kj_08 dups=0
+JP 仲間の大切さを強く感じたクッパJr.　奪われたサプリと離れていった仲間を探しに 今また旅立つ！
+KO 동료의 소중함을 깊이 느낀 쿠파주니어. 빼앗긴 영양제와 떠나간 동료를 찾으러 지금 다시 여행을 떠난다!
+Menu#303 MES_EMesPlace_place5 dups=0
+JP クッパ城へ続く道
+KO 쿠파 성 가는 길
+Menu#304 MES_bgm_title_41 dups=0
+JP クッパ軍団 行進曲
+KO 쿠파 군단 행진곡
+Menu#305 MES_tuto_yo_scrratch_tuto_end_ml_kinoda dups=1
+JP それでは お買い物を / お楽しみください～{1:wait}
+KO 그럼 즐거운 쇼핑 / 되시길 바랍니다~{1:wait}
+Menu#306 MES_tuto_yo_scrratch_tuto_ml2_koukyuu dups=1
+JP {1:align}これがボーナスカードです。{2:wait}[Next]ボーナスカードは 買い物ごとに / １まい さしあげております。{3:wait}
+KO {1:align}이것이 보너스 카드입니다.{2:wait}[Next]보너스 카드는 쇼핑하실 때마다 / 1장을 증정해 드리고 있습니다.{3:wait}
+NOTE JP가 같은 dup Menu#323(일반 가게)에도 복사됨. 고급 가게 DS 0.67 문장을 써서 두 가게 모두 어울리게 함. Menu#305(→#762)도 같은 이유로 DS 0.93.
+Menu#308 amiibo_seq_05_a_3 dups=1
+JP ピーチ姫がアイテムを持ってきてくれました！
+KO 피치공주가 아이템을 가져와 주었습니다!
+Menu#310 MES_EMesOutline_story_kj_09 dups=0
+JP 記憶をなくしていたイギーがクッパ軍団に戻ってきた！ イカス―！ あと６人！
+KO 기억을 잃었던 이기가 쿠파 군단에 돌아왔다! 캡이다―! 앞으로 6명!
+NOTE イカス― → 이기의 옛 유행어 '캡이다―'(FMsg/k_o_mushiba_16#26 '캡이다~☆'와 맞춤).
+Menu#311 MES_EMesPlace_place10 dups=0
+JP ヅツーダレイク
+KO 고라파 레이크
+Menu#312 MES_EMesPlace_place6 dups=1
+JP クッパ城
+KO 쿠파 성
+Menu#313 MES_record_btl_num dups=0
+JP バトル回数
+KO 배틀 횟수
+Menu#314 MES_tuto_yo_bad_tsuno1 dups=0
+JP オウ！ ムッシュ～ / ワッツハップ～ン！？{1:wait}[Next]ミーの目が / クラウディなのでしょうか？{2:wait}[Next]ムッシュ～の TSUNO / 前より チープなようです！{3:wait}
+KO 오우! 신사~ / 왓 해픈!?{1:wait}[Next]미의 눈에 / 안개가 낀 건가요?{2:wait}[Next]신사의 PPUL이 / 전보다 저렴해 보이네요!{3:wait}
+Menu#315 MES_tuto_yo_scrratch_tuto_ml1 dups=0
+JP コホン それでは / 説明しますね。{1:wait}
+KO 흠흠, 그럼 / 설명해 드릴게요.{1:wait}
+Menu#317 amiibo_seq_05_a_4 dups=1
+JP キノピオがアイテムを持ってきてくれました！
+KO 키노피오가 아이템을 가져와 주었습니다!
+Menu#319 MES_EMesPlace_place11 dups=0
+JP オタプク草原
+KO 귀여미 초원
+Menu#320 MES_EMesPlace_place7 dups=0
+JP 地下トンネル
+KO 지하 터널
+Menu#321 MES_tuto_yo_bad_tsuno2 dups=0
+JP 残念ですが これでは / ボーナスカードは / プレゼントできません。{1:wait}
+KO 죄송하지만 이 상태로는 / 보너스 카드를 / 드릴 수가 없네요.{1:wait}
+Menu#322 MES_tuto_yo_nice_hige1_kinoda dups=0
+JP おや！ お客さん！ / りっぱな HIGEですね！{1:wait}
+KO 어머나! 손님! / SUYEOM이 멋지네요!{1:wait}
+NOTE review: 리드 결정 — DS 말투 우선(AGENTS 4.5). 키노다 점원 감탄사는 DS SAI__SMes_yo#0.21·0.37·0.45·0.53대로 '어머나!'(Menu#57·#608과 같음).
+Menu#324 amiibo_seq_05_a_5 dups=1
+JP クッパがアイテムを持ってきてくれました！
+KO 쿠파가 아이템을 가져와 주었습니다!
+Menu#325 ActGuide_03_0 dups=0
+JP マリオが行えるアクションです。
+KO 마리오가 할 수 있는 액션이에요.
+NOTE review: 액션 가이드 해요체 통일(5.1-4). Menu__p1 #121, p5 #767 '…할 수 있는 액션이에요'와 같게.
+Menu#326 ActGuide_12_1 dups=0
+JP アクションアイコンを「{1:color}パンチ{2:color}」に切り替えて / クッパが歩いているときに{3:color}{4:icon}{5:color}ボタンを押すと / {6:color}スライディングパンチ{7:color}をすることができます。
+KO 액션 아이콘을 「{1:color}펀치{2:color}」로 전환하고 / 쿠파가 걷고 있을 때 {3:color}{4:icon}{5:color} 버튼을 누르면 / {6:color}슬라이딩 펀치{7:color}를 할 수 있어요.
+NOTE review: 액션 가이드 해요체 통일(5.1-4). review(리드): 切り替え는 DS·필드 대사(액션 아이콘을 …로 전환하고, 11곳)와 같게 '전환'으로 통일.
+Menu#327 MES_EMesPlace_place12 dups=0
+JP ガラクタスペース
+KO 잡동사니 스페이스
+Menu#328 MES_EMesPlace_place8 dups=0
+JP キノコタウン
+KO 버섯 타운
+Menu#329 MES_tuto_yo_bad_tsuno3 dups=0
+JP 残念ですが これでは / スーパーボーナスカードは / プレゼントできません。{1:wait}[Next]バット！ 安心してください！ / ノーマルボーナスカードは / プレゼントできます！{2:wait}
+KO 죄송하지만 이 상태로는 / 슈퍼 보너스 카드를 / 드릴 수가 없네요.{1:wait}[Next]벗! 안심해 주세요! / 노멀 보너스 카드는 / 프레젠트하겠습니다!{2:wait}
+NOTE DS SAI__SMes_yo#0.100 그대로. 블로크(신사) 숍 말투라 glossary note대로 '노멀 스크래치 카드' → glossary 기본값 '보통 스크래치 카드' 미사용 경고는 의도한 것. review: 보너스 카드 계열 3DX 이름으로 통일(리드, '스크래치 카드'→'보너스 카드').

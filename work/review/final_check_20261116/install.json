@@ -1,0 +1,20 @@
+{
+  "installed": {
+    "romfs/Msg/JP_ja/FMsg.dat": "9f44163b4da47ed9a252fc1dd65f0949eb483e70be036d64cb8b772b8b92d323",
+    "romfs/Msg/JP_ja/BMsg.dat": "5e5c5faca90040452d6f0824d1fa400e55f303c619ba29122cfe351e033e8f0a",
+    "romfs/Msg/JP_ja/Menu.msbt": "44fdbd7058d04bee2755a77df186da067ae28c19cddba13e111ac6c866d756ba"
+  },
+  "actions": {
+    "patch/romfs/Msg/JP_ja/FMsg.dat": "unchanged",
+    "sd/romfs/Msg/JP_ja/FMsg.dat": "unchanged",
+    "patch/romfs/Msg/JP_ja/BMsg.dat": "unchanged",
+    "sd/romfs/Msg/JP_ja/BMsg.dat": "unchanged",
+    "patch/romfs/Msg/JP_ja/Menu.msbt": "unchanged",
+    "sd/romfs/Msg/JP_ja/Menu.msbt": "unchanged",
+    "zip": "unchanged"
+  },
+  "title_folder_files": 38,
+  "patch_sd_zip_match": true,
+  "zip_sha256": "0071500ea6e5d3ee2d7202627941b0cc9cd629d749b3df7d72ebb54dd853bf40",
+  "backup": "work/build/prev_final_check_20261116"
+}

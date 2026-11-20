@@ -1,0 +1,1295 @@
+{
+ "batch": "FMsg__k_o_gepu_80",
+ "rooms": [
+  "k_o_gepu_80"
+ ],
+ "ds_rooms": [],
+ "ds_reference": [],
+ "glossary": [
+  {
+   "jp": "SSカンパニー",
+   "ko": "SS컴퍼니",
+   "type": "character",
+   "basis": "coined",
+   "source": "BMsg/b_sys#902",
+   "note": "'SS' 두문자 말장난(슈퍼 서플리먼트/순삭)을 살리려고 SS 유지 [gl_kj]"
+  },
+  {
+   "jp": "イギー",
+   "ko": "이기",
+   "type": "character",
+   "basis": "official",
+   "source": "https://www.nintendo.com/kr/switch/aabpa/sp/character/",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "ウェンディ",
+   "ko": "웬디",
+   "type": "character",
+   "basis": "official",
+   "source": "https://www.nintendo.com/kr/switch/aabpa/sp/character/",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "カメック",
+   "ko": "마귀",
+   "type": "character",
+   "basis": "DS",
+   "source": "FEvent:1A3#13",
+   "note": "쿠파주니어의 돌보미(카멕 개인)도 같은 표기. RPG1 DX 한국판 쿠파군단 RPG도 '마귀' [gl_kj]"
+  },
+  {
+   "jp": "クッパ",
+   "ko": "쿠파",
+   "type": "character",
+   "basis": "DS",
+   "source": "BData__mfset_Help#21",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "クッパJr.",
+   "ko": "쿠파주니어",
+   "type": "character",
+   "basis": "official",
+   "source": "https://www.nintendo.com/kr/switch/aabpa/sp/character/",
+   "note": "한국닌텐도 공식 표기(마리오 카트 8 디럭스 등). 부하들이 부를 때는 '쿠파주니어님' [gl_kj]"
+  },
+  {
+   "jp": "ムチオ",
+   "ko": "무지오",
+   "type": "character",
+   "basis": "coined",
+   "source": "BMsg/b_sys#516",
+   "note": "「ムチ…ムチ…無知…」 말장난 → 무지(無知)+오 [gl_kj]"
+  },
+  {
+   "jp": "モートン",
+   "ko": "모톤",
+   "type": "character",
+   "basis": "official",
+   "source": "https://www.nintendo.com/kr/switch/aabpa/sp/character/",
+   "note": "'모턴' 아님 [gl_kj]"
+  },
+  {
+   "jp": "ラリー",
+   "ko": "래리",
+   "type": "character",
+   "basis": "official",
+   "source": "https://www.nintendo.com/kr/switch/aabpa/sp/character/",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "レミー",
+   "ko": "레미",
+   "type": "character",
+   "basis": "official",
+   "source": "https://www.nintendo.com/kr/switch/aabpa/sp/character/",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "７人衆",
+   "ko": "7인조",
+   "type": "character",
+   "basis": "official",
+   "source": "https://namu.wiki/w/%EC%BF%A0%ED%8C%8C%207%EC%9D%B8%EC%A1%B0",
+   "note": "「アタシ達 ７人衆」→'우리 7인조' [gl_kj]"
+  },
+  {
+   "jp": "クリボー",
+   "ko": "굼바",
+   "type": "enemy",
+   "basis": "DS",
+   "source": "BAI__BMes_cf:0#1",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "キノコ",
+   "ko": "버섯",
+   "type": "item",
+   "basis": "DS",
+   "source": "BData__mfset_UItmN#0",
+   "note": "일반 명사 キノコ도 버섯(キノコタウン=버섯 타운) [gl_items]"
+  },
+  {
+   "jp": "ガリナールZ",
+   "ko": "홀쭉해Z",
+   "type": "key_item",
+   "basis": "coined",
+   "source": "FMsg/k_o_koopa_08#4",
+   "note": "ガリ(홀쭉)+ナール(-해지다) 말장난 [gl_kj]"
+  },
+  {
+   "jp": "ゲプーキュウコン",
+   "ko": "꺼억구근",
+   "type": "key_item",
+   "basis": "coined",
+   "source": "FMsg/k_o_ekubon_15#7",
+   "note": "ゲップー(DS '꺼억 케이프')+球根 [gl_kj]"
+  },
+  {
+   "jp": "サプリ",
+   "ko": "영양제",
+   "type": "key_item",
+   "basis": "coined",
+   "source": "Menu#250",
+   "note": "뚱뚱데굴병 치료 영양제. 회사명 속 サプリ만 '서플리먼트' [gl_kj]"
+  },
+  {
+   "jp": "マンネンアイス",
+   "ko": "만년얼음",
+   "type": "key_item",
+   "basis": "coined",
+   "source": "FMsg/k_o_ekubon_15#7",
+   "note": "이름을 틀리는 개그(テンネンボイス 등)는 '만년얼음'에 맞춰 재구성 [gl_kj]"
+  },
+  {
+   "jp": "クッパ軍団",
+   "ko": "쿠파 군단",
+   "type": "other",
+   "basis": "DS",
+   "source": "FEvent#23E.19",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "キノコ王国",
+   "ko": "버섯 왕국",
+   "type": "place",
+   "basis": "DS",
+   "source": "FEvent:011#0",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "クッパ城",
+   "ko": "쿠파 성",
+   "type": "place",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesPlace#6",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "地下",
+   "ko": "지하",
+   "type": "place",
+   "basis": "DS",
+   "source": "DS093#0",
+   "note": "[gl_menu_places]"
+  },
+  {
+   "jp": "溶岩地帯",
+   "ko": "용암 지대",
+   "type": "place",
+   "basis": "coined",
+   "source": "",
+   "note": "place34의 공통부 [gl_menu_places]"
+  },
+  {
+   "jp": "HP",
+   "ko": "HP",
+   "type": "term",
+   "basis": "DS",
+   "source": "BAI__BMes_cf#2.11",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "お父さん",
+   "ko": "아빠",
+   "type": "term",
+   "basis": "coined",
+   "source": "FMsg/k_o_koopa_14#55",
+   "note": "쿠파주니어가 쿠파를 부르는 말(어린이 말투) [gl_kj]"
+  },
+  {
+   "jp": "ひこう",
+   "ko": "비행",
+   "type": "term",
+   "basis": "official",
+   "source": "https://namu.wiki/w/%EB%A7%88%EB%A6%AC%EC%98%A4%26%EB%A3%A8%EC%9D%B4%EC%A7%80%20RPG%201%20DX",
+   "note": "타입명 단독 [gl_kj]"
+  },
+  {
+   "jp": "ひこうタイプ",
+   "ko": "비행 타입",
+   "type": "term",
+   "basis": "official",
+   "source": "https://namu.wiki/w/%EB%A7%88%EB%A6%AC%EC%98%A4%26%EB%A3%A8%EC%9D%B4%EC%A7%80%20RPG%201%20DX",
+   "note": "RPG1 DX 한국판 타입명 [gl_kj]"
+  },
+  {
+   "jp": "ぼっちゃん",
+   "ko": "도련님",
+   "type": "term",
+   "basis": "coined",
+   "source": "MenuKJ#93",
+   "note": "마귀·쿠파 7인조·부하들이 쿠파주니어를 부르는 말. DS에 없음 [gl_kj]"
+  },
+  {
+   "jp": "キュウコン",
+   "ko": "구근",
+   "type": "term",
+   "basis": "coined",
+   "source": "FMsg/k_o_gepu_08#8",
+   "note": "「球の根っこ」는 '알뿌리'로 풀이 [gl_kj]"
+  },
+  {
+   "jp": "クッパ様",
+   "ko": "쿠파님",
+   "type": "term",
+   "basis": "DS",
+   "source": "BAI__BMes_cf:0#0",
+   "note": "부하들이 부를 때 [gl_kj]"
+  },
+  {
+   "jp": "スーさん",
+   "ko": "수림 씨",
+   "type": "term",
+   "basis": "coined",
+   "source": "FMsg/k_o_ekubon_80#115",
+   "note": "큐티가 스ーリム(수림)을 부르는 애칭 [gl_kj]"
+  },
+  {
+   "jp": "バトル",
+   "ko": "배틀",
+   "type": "term",
+   "basis": "DS",
+   "source": "BAI__BMes_cf#2.13",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "レアアイテム",
+   "ko": "레어 아이템",
+   "type": "term",
+   "basis": "coined",
+   "source": "FEvent#283.7",
+   "note": "DS 대사 '레어 장비'에 맞춤 [gl_items]"
+  },
+  {
+   "jp": "軍団",
+   "ko": "군단",
+   "type": "term",
+   "basis": "DS",
+   "source": "BAI__BMes_cf#0.20",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "へんせい",
+   "ko": "편성",
+   "type": "ui",
+   "basis": "coined",
+   "source": "MenuKJ#61",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "を手に入れた！",
+   "ko": "획득했다!",
+   "type": "ui",
+   "basis": "DS",
+   "source": "BAI__BMes_ji#1.0",
+   "note": "시스템 알림 '○○을/를 획득했다!'(조사는 받침에 맞게) [gl_menu_places]"
+  },
+  {
+   "jp": "アイテム",
+   "ko": "아이템",
+   "type": "ui",
+   "basis": "DS",
+   "source": "BData__mfset_Help#13",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "ボタン",
+   "ko": "버튼",
+   "type": "ui",
+   "basis": "DS",
+   "source": "MAI__MMes_yo#1.16",
+   "note": "[gl_menu_places]"
+  },
+  {
+   "jp": "軍団へんせい",
+   "ko": "군단 편성",
+   "type": "ui",
+   "basis": "coined",
+   "source": "MenuKJ#64",
+   "note": "[gl_kj]"
+  }
+ ],
+ "messages": [
+  {
+   "id": "FMsg/k_o_gepu_80#0",
+   "label": "Kjrpg_04_Gepu_qst05_35",
+   "style": 6,
+   "src": "なんだよ{1:pause} カメック。{2:pause}\nノリ 悪いぞ。{3:wait}",
+   "tags": {
+    "1": "[0002:0000:04 00]",
+    "2": "[0002:0000:04 00]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_80#1",
+   "label": "Kjrpg_04_Gepu_qst05_36",
+   "style": 6,
+   "src": "あ。{1:pause}いえいえ。{2:pause}\nさすが ぼっちゃん！{3:wait}[Next]で。{4:pause}ぼっちゃん。{5:pause}\n最後の材料というのは？{6:wait}",
+   "tags": {
+    "1": "[0002:0000:04 00]",
+    "2": "[0002:0000:0A 00]",
+    "3": "[0002:0001:]",
+    "4": "[0002:0000:04 00]",
+    "5": "[0002:0000:0A 00]",
+    "6": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_80#2",
+   "label": "Kjrpg_04_Gepu_qst05_37",
+   "style": 6,
+   "src": "なんだっけ？ {1:wait}[Next]テンネンボイス？{2:wait}[Next]カンテンチョイス？{3:wait}[Next]氷みたいな 名前のヤツ。{4:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0001:]",
+    "4": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_80#3",
+   "label": "Kjrpg_04_Gepu_qst05_38",
+   "style": 6,
+   "src": "マンネンアイスじゃないですか？{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_80#4",
+   "label": "Kjrpg_04_Gepu_qst05_39",
+   "style": 6,
+   "src": "ああ。{1:pause}それそれ。{2:wait}",
+   "tags": {
+    "1": "[0002:0000:04 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_80#5",
+   "label": "Kjrpg_04_Gepu_qst01_01",
+   "style": 6,
+   "src": "そういえば ずいぶん{1:pause}\nなかま 減ったね。{2:wait}",
+   "tags": {
+    "1": "[0002:0000:04 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_80#6",
+   "label": "Kjrpg_04_Gepu_qst01_03",
+   "style": 6,
+   "src": "そうか～{1:pause} じゃあ\nそのへん 散歩してくる。{2:wait}[Next]ちょっとしたら\nまた 戻ってくるね～{3:wait}",
+   "tags": {
+    "1": "[0002:0000:0F 00]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_80#7",
+   "label": "Kjrpg_04_Gepu_qst01_04",
+   "style": 6,
+   "src": "フン！{1:pause} 別に戻って\nこなくてもいいぞ！{2:wait}",
+   "tags": {
+    "1": "[0002:0000:10 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_80#8",
+   "label": "Kjrpg_04_Gepu_qst02_10",
+   "style": 6,
+   "src": "ちょっと！{1:pause}\nぼっちゃん！{2:pause} お待ちを～！{3:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0000:04 00]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_80#9",
+   "label": "Kjrpg_04_Gepu_qst02_11",
+   "style": 6,
+   "src": "イギー だいじょうぶ。{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/k_o_gepu_80#52"
+   ]
+  },
+  {
+   "id": "FMsg/k_o_gepu_80#10",
+   "label": "Kjrpg_04_Gepu_qst02_12",
+   "style": 12,
+   "src": "{1:align}{2:mode}{3:align}軍団へんせいで クッパJr. を\nひこうタイプに変えられるようになった！{4:pause}{5:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0005:0000:]",
+    "3": "[0001:0001:]",
+    "4": "[0002:0000:0A 00]",
+    "5": "[0002:0001:]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_80#11",
+   "label": "Kjrpg_04_Gepu_qst02_13",
+   "style": 12,
+   "src": "{1:align}{2:mode}{3:align}クッパJr.を選んで {4:color}{5:icon}{6:color}ボタンを押せば\nクッパJr.のタイプを変えられます。{7:pause}{8:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0005:0000:]",
+    "3": "[0001:0001:]",
+    "4": "[Color #FF7070]",
+    "5": "[U+E000]",
+    "6": "[Color #E6E6E6]",
+    "7": "[0002:0000:0A 00]",
+    "8": "[0002:0001:]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_80#13",
+   "label": "Kjrpg_04_Gepu_qst05_58",
+   "style": 6,
+   "src": "マンネンアイス！{1:pause}\n取りに行くぞ！{2:wait}",
+   "tags": {
+    "1": "[0002:0000:04 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_80#14",
+   "label": "Kjrpg_04_Gepu_qst05_01",
+   "style": 6,
+   "src": "それ{1:pause} キュウコンか？{2:wait}",
+   "tags": {
+    "1": "[0002:0000:04 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_80#15",
+   "label": "Kjrpg_04_Gepu_qst05_59",
+   "style": 6,
+   "src": "はい。{1:pause}\n帰りましょうかね。{2:wait}[Next]クッパ城へ。{3:wait}",
+   "tags": {
+    "1": "[0002:0000:04 00]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_80#16",
+   "label": "Kjrpg_04_Gepu_qst05_02",
+   "style": 6,
+   "src": "これ{1:pause} ゲプーキュウコン。{2:wait}[Next]ワシ{3:pause} これ食べる。{4:pause}\n元気出る。{5:pause}色々出る。{6:wait}",
+   "tags": {
+    "1": "[0002:0000:04 00]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0000:04 00]",
+    "4": "[0002:0000:12 00]",
+    "5": "[0002:0000:0A 00]",
+    "6": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_80#17",
+   "label": "Kjrpg_04_Gepu_qst05_03",
+   "style": 6,
+   "src": "それ{1:pause} くれ。{2:wait}",
+   "tags": {
+    "1": "[0002:0000:04 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_80#18",
+   "label": "Kjrpg_04_Gepu_qst05_04",
+   "style": 6,
+   "src": "これ{1:pause} あげない。{2:wait}",
+   "tags": {
+    "1": "[0002:0000:04 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_80#19",
+   "label": "Kjrpg_04_Gepu_qst05_05",
+   "style": 6,
+   "src": "オラ{1:pause} それ{2:pause} 必要。{3:wait}",
+   "tags": {
+    "1": "[0002:0000:04 00]",
+    "2": "[0002:0000:04 00]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_80#20",
+   "label": "Kjrpg_04_Gepu_qst05_31_01",
+   "style": 6,
+   "src": "なんだったんだい…？{1:pause}\nあの ブキミな生き物は。{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_80#21",
+   "label": "Kjrpg_04_Gepu_qst05_06",
+   "style": 6,
+   "src": "ワシ{1:pause} これ{2:pause} 必要。{3:wait}",
+   "tags": {
+    "1": "[0002:0000:04 00]",
+    "2": "[0002:0000:04 00]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_80#22",
+   "label": "Kjrpg_04_Gepu_qst05_31_02",
+   "style": 6,
+   "src": "さ。{1:pause}ぼっちゃん。{2:pause}\nそのキュウコンを。{3:wait}",
+   "tags": {
+    "1": "[0002:0000:04 00]",
+    "2": "[0002:0000:04 00]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_80#23",
+   "label": "Kjrpg_04_Gepu_qst05_07",
+   "style": 6,
+   "src": "くれ。{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/k_o_gepu_80#25",
+    "FMsg/k_o_gepu_80#75"
+   ]
+  },
+  {
+   "id": "FMsg/k_o_gepu_80#24",
+   "label": "Kjrpg_04_Gepu_qst05_08",
+   "style": 6,
+   "src": "あげない。{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/k_o_gepu_80#69",
+    "FMsg/k_o_gepu_80#71",
+    "FMsg/k_o_gepu_80#76"
+   ]
+  },
+  {
+   "id": "FMsg/k_o_gepu_80#26",
+   "label": "Kjrpg_04_Gepu_qst05_70",
+   "style": 6,
+   "src": "ムチオが \nめずらしく しゃべった！{1:wait}[Next]ん～？ {2:pause}\nそんな声だったっけ？{3:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0000:0A 00]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_80#27",
+   "label": "Kjrpg_04_Gepu_qst05_72",
+   "style": 6,
+   "src": "ふ～ん。{1:pause}\nなんだか ヘンなの。{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_80#28",
+   "label": "Kjrpg_04_Gepu_qst05_73",
+   "style": 6,
+   "src": "とにかく 急ぐぞ。{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_80#29",
+   "label": "Kjrpg_04_Gepu_qst05_42_01",
+   "style": 6,
+   "src": "マンネンアイスでしょう！？{1:wait}[Next]それは…{2:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_80#30",
+   "label": "Kjrpg_04_Gepu_qst05_42_02",
+   "style": 6,
+   "src": "クッパ城の地下…{1:pause}\n溶岩地帯 にありますよ！{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_80#31",
+   "label": "Kjrpg_04_Gepu_qst05_21",
+   "style": 6,
+   "src": "ワシ…{1:pause} レアアイテム。{2:pause}\n食べて{3:pause} HP回復。{4:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0000:0A 00]",
+    "3": "[0002:0000:04 00]",
+    "4": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_80#32",
+   "label": "Kjrpg_04_Gepu_qst05_55_01",
+   "style": 6,
+   "src": "いつかまた ぼっちゃんが\n欲しいって言うかもしれないからって…{1:wait}[Next]今は クッパ城の地下にある \n冷凍室に置いてある。{2:wait}[Next]ぼっちゃんは 忘れちゃってるだろうね…{3:wait}[Next]ぼっちゃんに喜んでもらおうとして\nクッパ様が持ってきたものを…{4:wait}[Next]クッパ様にほめられようとして\nぼっちゃんが取りに行くなんて… {5:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0001:]",
+    "4": "[0002:0001:]",
+    "5": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_80#33",
+   "label": "Kjrpg_04_Gepu_qst05_22",
+   "style": 6,
+   "src": "ぼっちゃん。{1:pause}\nそっちじゃないと思いますよ。{2:wait}",
+   "tags": {
+    "1": "[0002:0000:04 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_80#34",
+   "label": "Kjrpg_04_Gepu_qst05_55_02",
+   "style": 6,
+   "src": "なんだかねぇ…{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_80#35",
+   "label": "Kjrpg_04_Gepu_qst05_23",
+   "style": 6,
+   "src": "ワシと ボコスカバトる。{1:wait}[Next]ワシ{2:pause} 勝てなかったら{3:pause}\nワシ{4:pause} キュウコン{5:pause} くれる。{6:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0000:04 00]",
+    "3": "[0002:0000:0A 00]",
+    "4": "[0002:0000:04 00]",
+    "5": "[0002:0000:04 00]",
+    "6": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_80#36",
+   "label": "Kjrpg_04_Gepu_qst05_24",
+   "style": 6,
+   "src": "は？{1:pause} なんだって？{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_80#37",
+   "label": "Kjrpg_04_Gepu_qst05_25",
+   "style": 6,
+   "src": "ぼっちゃん{1:pause} こいつとバトル。{2:wait}[Next]ぼっちゃん{3:pause} 負けなかったら{4:pause}\nぼっちゃん{5:pause} キュウコン{6:pause} もらう。{7:wait}",
+   "tags": {
+    "1": "[0002:0000:04 00]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0000:04 00]",
+    "4": "[0002:0000:0A 00]",
+    "5": "[0002:0000:04 00]",
+    "6": "[0002:0000:04 00]",
+    "7": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_80#38",
+   "label": "Kjrpg_04_Gepu_qst05_27",
+   "style": 6,
+   "src": "ワシ伝説。{1:pause}\nここに{2:pause} 生まれる。{3:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0000:04 00]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_80#39",
+   "label": "Kjrpg_04_Gepu_qst05_28",
+   "style": 6,
+   "src": "ワシ伝説。{1:pause}\nここに{2:pause} 終わる。{3:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0000:04 00]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_80#40",
+   "label": "Kjrpg_04_Gepu_qst05_29",
+   "style": 6,
+   "src": "キュウコン…{1:pause}\nもらう{2:pause} 約束。{3:wait}",
+   "tags": {
+    "1": "[0002:0000:04 00]",
+    "2": "[0002:0000:04 00]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_80#41",
+   "label": "Kjrpg_04_Gepu_qst05_20_01",
+   "style": 6,
+   "src": "おーい。{1:pause}モートン。{2:wait}",
+   "tags": {
+    "1": "[0002:0000:04 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_80#42",
+   "label": "Kjrpg_04_Gepu_qst05_20_02",
+   "style": 6,
+   "src": "あ！{1:pause} それが\nゲプーキュウコンか！？{2:wait}",
+   "tags": {
+    "1": "[0002:0000:04 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_80#43",
+   "label": "Kjrpg_04_Gepu_qst05_20_03",
+   "style": 6,
+   "src": "よし！ {1:pause}ゲットー！{2:wait}",
+   "tags": {
+    "1": "[0002:0000:04 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_80#44",
+   "label": "Kjrpg_04_Gepu_qst05_33_01",
+   "style": 6,
+   "src": "あと１個 材料集めて\nサプリってのを作れば…{1:wait}[Next]クリボー達を元に戻して\nお父さんにホメてもらえるぞ。{2:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_80#45",
+   "label": "Kjrpg_04_Gepu_qst05_33_02",
+   "style": 6,
+   "src": "{1:align}ほら見ろ！{2:wait}[Next]{3:align}ボク１人でも\nちゃんと できるじゃん！{4:wait}",
+   "tags": {
+    "1": "[0001:0001:]",
+    "2": "[0002:0001:]",
+    "3": "[0001:0000:]",
+    "4": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_80#46",
+   "label": "Kjrpg_04_Gepu_qst02_01",
+   "style": 6,
+   "src": "あ！{1:wait}[Next]あれ！{2:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_80#47",
+   "label": "Kjrpg_04_Gepu_qst02_02",
+   "style": 6,
+   "src": "これは…{1:pause}\nイギーの乗ってたヤツかい？{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_80#48",
+   "label": "Kjrpg_04_Gepu_qst02_03",
+   "style": 6,
+   "src": "ボクが もらってやる！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_80#49",
+   "label": "Kjrpg_04_Gepu_qst05_40",
+   "style": 6,
+   "src": "ぼっちゃん！{1:pause}\nそれは…{2:wait}",
+   "tags": {
+    "1": "[0002:0000:04 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_80#50",
+   "label": "Kjrpg_04_Gepu_qst02_04",
+   "style": 6,
+   "src": "イギーが心配だね…{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_80#51",
+   "label": "Kjrpg_04_Gepu_qst05_41",
+   "style": 6,
+   "src": "なんだよ カメック。{1:wait}[Next]知ってんのか？{2:pause}\nザンネンナイス。{3:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0000:0A 00]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_80#53",
+   "label": "Kjrpg_04_Gepu_qst02_06",
+   "style": 6,
+   "src": "え？{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/k_o_gepu_80#58",
+    "FMsg/k_o_koopa_19#35",
+    "FMsg/k_o_mushiba_80#64",
+    "FMsg/k_o_zutsuda_80#139"
+   ]
+  },
+  {
+   "id": "FMsg/k_o_gepu_80#54",
+   "label": "Kjrpg_04_Gepu_qst05_43",
+   "style": 6,
+   "src": "なに！？{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/k_o_zutsuda_80#124"
+   ]
+  },
+  {
+   "id": "FMsg/k_o_gepu_80#55",
+   "label": "Kjrpg_04_Gepu_qst02_07",
+   "style": 6,
+   "src": "イギー やられない。{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_80#56",
+   "label": "Kjrpg_04_Gepu_qst02_08",
+   "style": 6,
+   "src": "根拠がないねぇ…{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_80#57",
+   "label": "Kjrpg_04_Gepu_qst02_09",
+   "style": 6,
+   "src": "おい！{1:pause} カメック！{2:pause}\nモートン！{3:pause} 置いてくぞ！{4:wait}",
+   "tags": {
+    "1": "[0002:0000:04 00]",
+    "2": "[0002:0000:0A 00]",
+    "3": "[0002:0000:0A 00]",
+    "4": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_80#59",
+   "label": "Kjrpg_04_Gepu_qst05_57_02",
+   "style": 6,
+   "src": "ああ。{1:pause}はいはい。{2:wait}",
+   "tags": {
+    "1": "[0002:0000:04 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_80#60",
+   "label": "Kjrpg_04_Gepu_qst01_02_01",
+   "style": 9,
+   "src": "うるさい！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:09 00]",
+   "dups": [
+    "FMsg/k_o_koopa_r_27#19",
+    "FMsg/o_gepu_08#5"
+   ]
+  },
+  {
+   "id": "FMsg/k_o_gepu_80#61",
+   "label": "Kjrpg_04_Gepu_qst01_02_02",
+   "style": 6,
+   "src": "もともと ボク１人でも\nやれるんだから…{1:wait}[Next]べつに なかまなんて\nいらないんだ！{2:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_80#62",
+   "label": "Kjrpg_04_Gepu_qst01_02_03",
+   "style": 6,
+   "src": "{1:align}イギー！{2:wait}[Next]{3:align}オマエも どこか\n行ってもいいんだぞ！{4:wait}",
+   "tags": {
+    "1": "[0001:0001:]",
+    "2": "[0002:0001:]",
+    "3": "[0001:0000:]",
+    "4": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_80#63",
+   "label": "Kjrpg_04_Gepu_qst05_60",
+   "style": 6,
+   "src": "ウェンディ{1:pause} レミー{2:pause}\nラリー{3:pause} 心配。{4:wait}",
+   "tags": {
+    "1": "[0002:0000:04 00]",
+    "2": "[0002:0000:04 00]",
+    "3": "[0002:0000:04 00]",
+    "4": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_80#64",
+   "label": "Kjrpg_04_Gepu_qst05_61",
+   "style": 6,
+   "src": "そうだね。{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_80#65",
+   "label": "Kjrpg_04_Gepu_qst05_62",
+   "style": 6,
+   "src": "ちょっと ちょっと～{1:pause}\nスーさん！ スーさ～ん！{2:wait}[Next]最後の材料が\nクッパ城の地下にあるって～！{3:wait}",
+   "tags": {
+    "1": "[0002:0000:04 00]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_80#66",
+   "label": "Kjrpg_04_Gepu_qst05_65",
+   "style": 6,
+   "src": "シナリオは\n少し変わったが関係ない。{1:wait}[Next]我々も クッパ城の\n地下に向かうか。{2:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_80#67",
+   "label": "Kjrpg_04_Gepu_qst05_66",
+   "style": 6,
+   "src": "な～んと 最後の材料は\nクッパ城の地下に！{1:wait}[Next]いそげ！{2:pause} SSカンパニー！{3:pause}\nガリナールZを 奪うのだ！{4:wait}[Next]そして～！{5:pause} ガリナールZには\nとんでもない ヒミツが！{6:wait}[Next]次回！{7:pause}\nクッパ軍団{8:pause}！ 最大のピンチ！{9:wait}[Next]{10:align}乞う ご期待～！{11:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0000:04 00]",
+    "3": "[0002:0000:0A 00]",
+    "4": "[0002:0001:]",
+    "5": "[0002:0000:0A 00]",
+    "6": "[0002:0001:]",
+    "7": "[0002:0000:0A 00]",
+    "8": "[0002:0000:04 00]",
+    "9": "[0002:0001:]",
+    "10": "[0001:0001:]",
+    "11": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_80#68",
+   "label": "Kjrpg_04_Gepu_qst05_67",
+   "style": 6,
+   "src": "オマエ達…{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_80#70",
+   "label": "Kjrpg_04_Gepu_qst05_68",
+   "style": 6,
+   "src": "ん？{1:pause} どうしたムチオ。{2:pause}\n今 なにか言ったか？{3:wait}",
+   "tags": {
+    "1": "[0002:0000:04 00]",
+    "2": "[0002:0000:0A 00]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_80#72",
+   "label": "Kjrpg_04_Gepu_qst05_63_01",
+   "style": 6,
+   "src": "予想外だったな…{1:wait}[Next]ガリナールZの素材は\n入手が困難なものばかり…{2:wait}[Next]キノコ王国を熟知している\n７人衆やクッパJr.が集めたところを…{3:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_80#73",
+   "label": "Kjrpg_04_Gepu_qst05_69",
+   "style": 6,
+   "src": "…！{1:pause}\nなんでもない。{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_80#74",
+   "label": "Kjrpg_04_Gepu_qst05_63_02",
+   "style": 6,
+   "src": "我々が 奪い去る…{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_80#77",
+   "label": "Kjrpg_04_Gepu_qst05_16",
+   "style": 1,
+   "src": "{1:color}３０分後…{2:color}{3:wait}",
+   "tags": {
+    "1": "[Color #FFFAF1]",
+    "2": "[Color #373737]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:01 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_80#78",
+   "label": "Kjrpg_04_Gepu_qst05_26_01",
+   "style": 6,
+   "src": "どっちも なに言ってるか\nわからない！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_80#79",
+   "label": "Kjrpg_04_Gepu_qst05_26_02",
+   "style": 6,
+   "src": "こいつをやっつけて\n無理やり 奪えばいいんだろ！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_80#80",
+   "label": "Kjrpg_04_Gepu_qst05_19",
+   "style": 6,
+   "src": "オマエ{1:pause} ずっといる。{2:pause}\nワシ{3:pause} はずかしい。{4:wait}[Next]しかも{5:pause} 近いし。{6:wait}",
+   "tags": {
+    "1": "[0002:0000:04 00]",
+    "2": "[0002:0000:0A 00]",
+    "3": "[0002:0000:04 00]",
+    "4": "[0002:0001:]",
+    "5": "[0002:0000:04 00]",
+    "6": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_80#81",
+   "label": "Kjrpg_04_Gepu_qst05_30",
+   "style": 6,
+   "src": "ワシ{1:pause} 帰る。{2:wait}",
+   "tags": {
+    "1": "[0002:0000:04 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_80#83",
+   "label": "Kjrpg_04_Gepu_qst05_32",
+   "style": 12,
+   "src": "{1:align}{2:mode}{3:color}ゲプーキュウコン{4:color}を手に入れた！{5:pause}{6:wait}[Next]{7:align}{8:mode}残る材料はマンネンアイス！{9:pause}{10:wait}",
+   "tags": {
+    "1": "[0001:0001:]",
+    "2": "[0005:0000:]",
+    "3": "[Color #4ED4FF]",
+    "4": "[Color #E6E6E6]",
+    "5": "[0002:0000:0A 00]",
+    "6": "[0002:0001:]",
+    "7": "[0001:0001:]",
+    "8": "[0005:0000:]",
+    "9": "[0002:0000:0A 00]",
+    "10": "[0002:0001:]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  }
+ ]
+}

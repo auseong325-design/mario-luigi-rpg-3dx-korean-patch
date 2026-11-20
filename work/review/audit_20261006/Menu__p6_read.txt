@@ -1,0 +1,105 @@
+Menu#802 MES_tuto_yo_scrratch_tuto_ml5_kinoda dups=0
+JP お買い物で 使ったコインの一部が / もどってくる… という しくみ！{1:wait}
+KO 쇼핑에 지불한 코인의 일부를 / 돌려드리는… 그런 시스템입니다!{1:wait}
+Menu#805 ActGuide_07 dups=0
+JP コウラマリオ
+KO 등껍질 마리오
+Menu#809 MES_EMesPlace_place22 dups=0
+JP メタボルスペース
+KO 군살 스페이스
+Menu#810 MES_MenuMes_ml_lank1 dups=0
+JP キノコランク
+KO 버섯 랭크
+Menu#811 MES_tuto_yo_nice_hige4 dups=0
+JP これからは お買い物ごとに / スーパーボーナスカードを / さしあげます！{1:wait}[Next]{2:align}これまでより アタリが / 出やすくなってますよ！{3:wait}
+KO 앞으로는 쇼핑하실 때마다 / 슈퍼 보너스 카드를 / 드리겠습니다!{1:wait}[Next]{2:align}지금까지보다 더 쉽게 / 당첨되실 거예요!{3:wait}
+NOTE glossary 경고는 의도. スーパーボーナスカード의 glossary 값은 DS식 '슈퍼 스크래치 카드'지만, 확정 용어 ボーナスカード=보너스 카드(3DX 개명)와 맞춰 '슈퍼 보너스 카드'로 씀(Menu__p1 #46과 같은 판단). 문장은 DS SAI__SMes_yo#0.48 그대로.
+Menu#812 MES_tuto_yo_scrratch_tuto_ml6_kinoda dups=0
+JP ボーナスカードのしくみ / わかりましたか？{1:pause} / {2:align}{3:choice}いいえ{4:tab}{5:choice}はい{6:pause}
+KO 보너스 카드의 / 시스템을 이해하셨나요?{1:pause} / {2:align}{3:choice}아니요{4:tab}{5:choice}예{6:pause}
+Menu#814 ActGuide_08 dups=0
+JP ブラザードリル
+KO 브라더 드릴
+Menu#818 MES_EMesColosseum_guide_item_02_00 dups=0
+JP このバトルではマリオ達が / 持っているアイテムは使えません。 / コロシアムが用意した / アイテムを使って 戦います。
+KO 이 배틀에서는 마리오 일행이 / 가진 아이템을 쓸 수 없어요. / 콜로세움이 준비한 / 아이템을 사용해서 싸워요.
+Menu#819 MES_EMesPlace_place23 dups=0
+JP エネルギースペース
+KO 에너지 스페이스
+Menu#820 MES_MenuMes_ml_lank2 dups=0
+JP コウラランク
+KO 등껍질 랭크
+Menu#821 MES_menu_tuto_badge_change_badge_change_ok dups=0
+JP バッジの 組み合わせが / 決まったら {1:color}{2:icon}{3:color}{4:color}ボタンで決定だよ！{5:wait}{6:color}
+KO 배지의 조합을 정했다면 / {1:color}{2:icon}{3:color}{4:color} 버튼을 눌러 결정하는 거야!{5:wait}{6:color}
+Menu#822 MES_tuto_yo_bad_hige3_badge dups=0
+JP これじゃ 残念だけど / スーパーボーナスカードは / プレゼントできないね…{1:wait}[Next]{2:align}ノーマルボーナスカードなら / プレゼントできるけどね。{3:wait}
+KO 미안하지만 이 상태로는 / 슈퍼 보너스 카드를 / 줄 수가 없어…{1:wait}[Next]{2:align}보통 보너스 카드라도 / 괜찮다면 이거라도 줄게.{3:wait}
+NOTE glossary 경고는 의도. 슈퍼/보통 스크래치 카드 → 슈퍼/보통 보너스 카드(#811과 같은 이유). 문장은 DS SAI#0.30(배지 가게) 그대로.
+Menu#823 MES_tuto_yo_nice_hige5 dups=0
+JP マリオさん！ ルイージさん！ / 最高にステキな HIGEに / なりましたね！{1:wait}
+KO 마리오님! 루이지님! / 최고로 훌륭한 SUYEOM이 / 되셨네요!{1:wait}
+Menu#824 menu_save_01 dups=0
+JP セーブ中です。 / 電源をOFFにしないでください。
+KO 저장 중입니다. / 전원을 끄지 마십시오.
+Menu#826 ActGuide_09 dups=0
+JP バルーンマリオ
+KO 풍선 마리오
+Menu#829 MES_EMesColosseum_guide_item_02_01 dups=0
+JP クラスによって / 用意されるアイテムは変わります。
+KO 클래스에 따라 / 준비되는 아이템이 달라져요.
+Menu#830 MES_EMesPlace_place24 dups=0
+JP エアースペース
+KO 에어 스페이스
+Menu#831 MES_MenuMes_ml_lank3 dups=0
+JP フラワーランク
+KO 플라워 랭크
+Menu#832 MES_tuto_yo_nice_hige6 dups=0
+JP これからは お買い物ごとに / ウルトラボーナスカードを / さしあげます！{1:wait}[Next]{2:align}これまでより アタリが / 出やすくなってますよ！{3:wait}
+KO 앞으로는 쇼핑하실 때마다 / 울트라 보너스 카드를 / 드리도록 할게요!{1:wait}[Next]{2:align}지금까지보다 더 쉽게 / 당첨되실 거예요!{3:wait}
+NOTE glossary 경고는 의도. 울트라 스크래치 카드 → 울트라 보너스 카드(#811과 같은 이유). 문장은 DS SAI#0.56 그대로(DS가 #0.48과 어미를 다르게 씀).
+Menu#833 MES_tuto_yo_scrres_fail_00 dups=0
+JP ハズレです… / 残念でしたね。
+KO 꽝입니다… / 아쉽네요.
+NOTE 3DX는 네 상점 공통의 한 문장(DS는 상점별 SAI#0.3~0.6). JP '残念でしたね'에 맞춰 '아쉽네요'로 씀.
+Menu#834 ActGuide_00_1 dups=0
+JP {1:color}{2:icon}{3:icon}{4:color}を {5:color}同時に押す{6:color}ことで / マリオとルイージは「{7:color}ジャンプ{8:color}」 / クッパは「{9:color}パンチ{10:color}」へ戻せます。
+KO {1:color}{2:icon}{3:icon}{4:color} 버튼을 {5:color}동시에 누르면{6:color} / 마리오와 루이지는 「{7:color}점프{8:color}」로, / 쿠파는 「{9:color}펀치{10:color}」로 되돌릴 수 있어요.
+NOTE L·R 아이콘 두 개 뒤 조사를 피하려고 '버튼을'을 붙임. 3DX 신규 가이드라 해요체.
+Menu#836 FldGuide_04_0 dups=0
+JP マリオは{1:color}{2:icon}{3:color}ボタン ルイージは{4:color}{5:icon}{6:color}ボタン  / クッパは{7:color}{8:icon}{9:color}ボタンでアクションができます。
+KO 마리오는 {1:color}{2:icon}{3:color} 버튼, 루이지는 {4:color}{5:icon}{6:color} 버튼, / 쿠파는 {7:color}{8:icon}{9:color} 버튼으로 액션을 할 수 있어요.
+Menu#837 MES_EMesColosseum_class_1_prize dups=0
+JP {1:mode}{2:align}{3:align}トロフィーを獲得！ / 賞品は {4:color}{5:var}{6:color}コインと / {7:color}{8:var}{9:color}！{10:pause}{11:wait}
+KO {1:mode}{2:align}{3:align}트로피를 획득! / 상품은 {4:color}{5:var}{6:color}코인과 / {7:color}{8:var}{9:color}!{10:pause}{11:wait}
+Menu#838 MES_EMesColosseum_guide_item_02_02 dups=0
+JP バトルが始まるとき / HPとBPは マンタンになりますが / バッジのメーターは  / ゼロからのスタートとなります。
+KO 배틀이 시작될 때 / HP와 SP는 가득 차지만 / 배지 게이지는 / 0부터 시작해요.
+NOTE BP는 리드 결정대로 SP. 3DX 신규 가이드라 해요체.
+Menu#839 MES_EMesOutline_story10 dups=0
+JP スライディングパンチもできるようになったクッパ。再びクッパ城へ向けて出発だ！
+KO 슬라이딩 펀치를 할 수 있게 된 쿠파. 다시 쿠파 성을 향해 출발!
+Menu#840 MES_EMesPlace_place25 dups=0
+JP パワースペース うで
+KO 파워 스페이스(팔)
+Menu#841 MES_MenuMes_ml_lank4 dups=0
+JP ブーメランランク
+KO 부메랑 랭크
+Menu#842 MES_bgm_title_02_legacy dups=0
+JP 新しいページをめくって
+KO 새로운 페이지를 넘기며
+Menu#845 FldGuide_04_1 dups=0
+JP マリオとルイージがクッパの体内に / いないとき クッパの操作はできません。
+KO 마리오와 루이지가 쿠파의 몸속에 / 없을 때는 쿠파를 조작할 수 없어요.
+Menu#846 MES_EMesOutline_story11 dups=0
+JP やっとクッパ城にたどりついたが… なんとゲラコビッツシアター？に作りかえられていた！
+KO 드디어 쿠파 성에 도착했지만… 뭐? 까르코비츠 홀로 바뀌었다고!?
+Menu#847 MES_EMesPlace_place26 dups=0
+JP パワースペース いぶくろ
+KO 파워 스페이스(위)
+Menu#848 MES_MenuMes_ml_lank5 dups=0
+JP スターランク
+KO 스타 랭크
+Menu#849 MES_bgm_title_03_legacy dups=0
+JP しっかりきっちりばっちりと
+KO 야무지게 꼼꼼하게 완벽하게

@@ -1,0 +1,172 @@
+{
+  "source_main": "C:\\AI-Projects\\mario-luigi-rpg-3dx-korean-patch\\romf2\\RO\\MainMenu.cro",
+  "source_main_sha256": "cc42b47f9041206879da695a88b648f2825373fcf86bf690b8e5deb9f62d7aa6",
+  "source_crr": "C:\\AI-Projects\\mario-luigi-rpg-3dx-korean-patch\\romf2\\.crr\\static.crr",
+  "source_crr_sha256": "97edb62cf31bfbd0d404a5e4baeee36ade056559088897d4b80234ec8ab50b72",
+  "main_size": 225280,
+  "patch_offset": "0x20c38",
+  "before_instruction": "0100a003",
+  "after_instruction": "0000a003",
+  "before_assembly": "moveq r0, #1",
+  "after_assembly": "moveq r0, #0",
+  "patched_main_sha256": "1f227c75ea8d811ac15044884c276f84a06d60585dc372f524128040f9f1bafc",
+  "patched_crr_sha256": "f7a4e687819c726f1900d012df582187c24a324e6a6c61772d75118236c9b074",
+  "cro_hash_ranges": [
+    [
+      "0x80",
+      "0x180"
+    ],
+    [
+      "0x180",
+      "0x29000"
+    ],
+    [
+      "0x29000",
+      "0x360dc"
+    ],
+    [
+      "0x360dc",
+      "0x364ac"
+    ]
+  ],
+  "original_cro_hashes": [
+    "1c046cc96eafcc8217118b1bb04727cc451e50ed147bba47f6b6abb130d2ff14",
+    "01da3f95ec4630c8c285b70759e49c2fe0bf58c99d2d4323d1b2e169dae347f1",
+    "6e18cba93e0b365ec15264c3b5f3bcf0a1ab3606333c5c1d2d2beb44ec3dc00e",
+    "73a5c8e941a708f23bb33bf1f304bb6b128229238f7421db96ed48d0d8d5da68"
+  ],
+  "patched_cro_hashes": [
+    "1c046cc96eafcc8217118b1bb04727cc451e50ed147bba47f6b6abb130d2ff14",
+    "a9351b83673104972a843d24f878d9d943b071ae8a50d843661f8991fd2441f5",
+    "6e18cba93e0b365ec15264c3b5f3bcf0a1ab3606333c5c1d2d2beb44ec3dc00e",
+    "73a5c8e941a708f23bb33bf1f304bb6b128229238f7421db96ed48d0d8d5da68"
+  ],
+  "original_cro_hash_checks": [
+    true,
+    true,
+    true,
+    true
+  ],
+  "patched_cro_hash_checks": [
+    true,
+    true,
+    true,
+    true
+  ],
+  "main_delta_offsets": [
+    "0x20",
+    "0x21",
+    "0x22",
+    "0x23",
+    "0x24",
+    "0x25",
+    "0x26",
+    "0x27",
+    "0x28",
+    "0x29",
+    "0x2a",
+    "0x2b",
+    "0x2c",
+    "0x2d",
+    "0x2e",
+    "0x2f",
+    "0x30",
+    "0x31",
+    "0x32",
+    "0x33",
+    "0x34",
+    "0x35",
+    "0x36",
+    "0x37",
+    "0x38",
+    "0x39",
+    "0x3a",
+    "0x3b",
+    "0x3c",
+    "0x3d",
+    "0x3e",
+    "0x3f",
+    "0x20c38"
+  ],
+  "relocations_checked": 2788,
+  "crr_hash_offset": "0x360",
+  "crr_hash_count": 15,
+  "old_main_crr_digest": "3f809b83220f078bcc50ac27584517619e06b1c0b31385b42e75b90d73f94052",
+  "new_main_crr_digest": "f08bc421c38164ad4504fc94645bac548a2d662311de82c9eb011195830691f8",
+  "old_main_crr_index": 4,
+  "new_main_crr_index": 13,
+  "crr_original_module_signature_valid": true,
+  "crr_patched_module_signature_valid": false,
+  "crr_signatures_preserved": true,
+  "crr_original_other_modules_match": true,
+  "crr_patched_hash_table_sorted": true,
+  "modules": {
+    "AttackMiniGame.cro": {
+      "source_sha256": "2664feee196c60c81943ef3a2e41a2c2b06dc8a519b2cbb8ef0eee25dd47e669",
+      "original_crr_sha256": "0957745697c32d10593d4eb4010fa52dbf79bb422a1dfa381493f0cb7ac146ec"
+    },
+    "Battle.cro": {
+      "source_sha256": "6e3237345eeac8c02dc0d157e1f729482811d60a37e0e2cf9e18a527bba30e51",
+      "original_crr_sha256": "9d07be1790e82396c267d8149ee2f18de7ed9ef24181035035dfa2ded8b3c177"
+    },
+    "BCat.cro": {
+      "source_sha256": "239ab364fed3a19a6f7567aaadb0169b89af9850c3e3ad05d05824e06a559844",
+      "original_crr_sha256": "d2d1fdb7168b01be86a8c544500e78a93784f2b32c1b7910374e624c6e53768f"
+    },
+    "Colosseum.cro": {
+      "source_sha256": "921f3a13a565b99b31416fe4b4ac14698d74848d42a14751d3bf484c8908d8f9",
+      "original_crr_sha256": "3afe29094687ca5a37887b785653516458ac1909d74f97dca193596605ef4ac8"
+    },
+    "Field.cro": {
+      "source_sha256": "21559d37e119e7f7ab623213c678826648bc2300955dc289068e2757953d4902",
+      "original_crr_sha256": "01a79e180eb8067fd143b1e2ba9792a456d8f9b2456f02b91a8198602ff9c0e5"
+    },
+    "HugeBattle.cro": {
+      "source_sha256": "cc77443026fc6b04463754cd08129bebe15da646852e1bd1f92e93d216556c21",
+      "original_crr_sha256": "beb216fedb1be5f7af918c6e41c09afa8d9baf2268d43fa478f2b95f2255a841"
+    },
+    "KJGuide.cro": {
+      "source_sha256": "05f5feb56ef89ef045887abaea6c1074ed1bf928c43528ecb56088127822976e",
+      "original_crr_sha256": "9dbcae2197fbc22d124d33180e9d82beb8d11f229cdc96f2b978dc9844d3108d"
+    },
+    "KJMenu.cro": {
+      "source_sha256": "761dd04598187e98d538285fb7cababc0dc80f19a8b3242640e63238185a326b",
+      "original_crr_sha256": "f29ca298a2e9acc62eb74eec965b95943c447c5c216ed945da0338759a8d452f"
+    },
+    "KJRPG.cro": {
+      "source_sha256": "2904bacf47635be1e7cc3c572829d57638ce9b24e27bd239d1190332de949a81",
+      "original_crr_sha256": "56bc82d828a7e231feee627ff33040e74805b1725e5809aa2755d30a0c85a64a"
+    },
+    "LoadMenu.cro": {
+      "source_sha256": "2cf1a0769ac317b23f65ee8f813353b64a633063329007200a4651eea0bfb46c",
+      "original_crr_sha256": "7f5906052c5193509f467d5089792279139a25d4834a5dc5e7490466f8ab230a"
+    },
+    "MainMenu.cro": {
+      "source_sha256": "cc42b47f9041206879da695a88b648f2825373fcf86bf690b8e5deb9f62d7aa6",
+      "original_crr_sha256": "3f809b83220f078bcc50ac27584517619e06b1c0b31385b42e75b90d73f94052",
+      "patched_crr_sha256": "f08bc421c38164ad4504fc94645bac548a2d662311de82c9eb011195830691f8"
+    },
+    "MenuGuide.cro": {
+      "source_sha256": "01cfdffb92fe3d66a60b035cbe5c6b6371f6ffd2ad2fcf0ef425437892016330",
+      "original_crr_sha256": "d5c83cf9f2020aba87ad676a1410403fc1718e3dce09678c15f3d1740eb3f367"
+    },
+    "SaveLoad.cro": {
+      "source_sha256": "86cf7d3e1fe663fb281913469e29dc2c2c2c9dd9b102d79580191a3c4a9f0539",
+      "original_crr_sha256": "8d1f61afcfb9471364590af9e911d1e49e80242c0bfbce5ddf348d87716a8afb"
+    },
+    "SaveMenu.cro": {
+      "source_sha256": "d1a0babae1cfffb07f05fc6ca4b6bfe73d3ada3d8e0e18960137b8d6a67b4573",
+      "original_crr_sha256": "e7138fc9748d2c47285c9fcf9f9ab92685855266e70ca36c9f28da3af5d170e7"
+    },
+    "ShopMenu.cro": {
+      "source_sha256": "5a7e1456c60cedbc5291586921783bfc88a011099f7512861a0394257bbca672",
+      "original_crr_sha256": "32f6871cd326698d72df64828cb3e5b733f6f797dacbba46ff274e2f23e27cf2"
+    }
+  },
+  "stage": "C:\\AI-Projects\\mario-luigi-rpg-3dx-korean-patch\\work\\build\\furigana_stage\\romfs",
+  "files": [
+    "RO/MainMenu.cro",
+    ".crr/static.crr"
+  ],
+  "game_launched": false
+}

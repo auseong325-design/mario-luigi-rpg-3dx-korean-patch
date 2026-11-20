@@ -1,13 +1,13 @@
 jp	ko	type	basis	source	note
-くぼみ	홈	term	DS	FEvent DS0EC "홈 아래를 파고"	DS 표기
+くぼみ	홈	term	DS	"FEvent DS0EC ""홈 아래를 파고"""	DS 표기
 くぼみアイコン	홈 아이콘	ui	coined	くぼみ=홈	
 ガード	방어	term	DS	DS 대사 '방어' 34회, '가드' 0회	전투 용어('가드 성공' 등)는 '방어'. 본편 대사에서 장애물·장치 뜻(ダークスターのガード 등)이면 DS대로 '방어벽/벽/장치'
 ダメージ	타격	term	DS	DS '타격' 32회 / '대미지' 5회	'타격을 입히다/입다'. 숫자·연속 공격 문맥은 '대미지' 허용(DS: 연속 대미지)
-HIGE	SUYEOM	ui	DS	DS16A#17 "SUYEOM이나 PPUL 포인트"	능력치 로마자 표기. 일본어 ヒゲ(일반 명사)는 '수염'
+HIGE	SUYEOM	ui	DS	"DS16A#17 ""SUYEOM이나 PPUL 포인트"""	능력치 로마자 표기. 일본어 ヒゲ(일반 명사)는 '수염'
 TSUNO	PPUL	ui	DS	DS16A#17	능력치 로마자 표기. 일본어 ツノ(일반 명사)는 '뿔'
 ヒゲ	수염	term	DS	DS '수염' 21회	
 ツノ	뿔	term	DS	DS16A	
-ステータス	능력	ui	DS	DS16A#27	스타 메뉴 항목명도 '능력'
+ステータス	능력	ui	DS	DS16A#27	능력치를 두루 이르는 말. 스타 메뉴 항목 이름과 쿠파주니어 가이드(KJGuide_*)는 「스테이터스」(2026-10-31 사용자 지시, 1DX 한국판)
 ボーナスカード	보너스 카드	item	coined	3DX 개명(DS 스크래치 카드와 방식이 다름)	3DX에서 이름·방식이 바뀌어 3DX 이름을 따름
 ブロンズランク	브론즈 보스 랭크	ui	DS	MData__mfset_MenuMes#121	쿠파 랭크. DS 한국판 표기
 シルバーランク	실버 보스 랭크	ui	DS	MData__mfset_MenuMes	쿠파 랭크
@@ -15,19 +15,19 @@ TSUNO	PPUL	ui	DS	DS16A#17	능력치 로마자 표기. 일본어 ツノ(일반 �
 マスターランク	마스터 보스 랭크	ui	coined	DS 'X 보스 랭크' 체계	
 お気楽ブラザー	여유만만 브라더	ui	coined	랭크 업 보너스(3DX 신규)	
 経験値	EXP	term	DS	BData__mfset_WearE#28 (DS에 '경험치' 표기 없음)	
-リューグー	러즐	character	DS	DS020 "러즐이 있는 곳으로 가져가자!"	퍼즐피스를 받는 캐릭터
+リューグー	러즐	character	DS	"DS020 ""러즐이 있는 곳으로 가져가자!"""	퍼즐피스를 받는 캐릭터
 マメーリア王国	콩글리아 왕국	place	official	https://www.mariowiki.com/Beanbean_Kingdom	마리오&루이지 RPG1 DX 한국판 표기
 マメーリア	콩글리아	place	official	https://www.mariowiki.com/Beanbean_Kingdom	
-ギガニンジン	기가 당근	item	DS	DS033 "기가 당근!!"	
+ギガニンジン	기가 당근	item	DS	"DS033 ""기가 당근!!"""	DS 한국판 표기
 Dr.コキノ	오키노 선생	character	DS	DS 대사 '오키노 선생(님)' 22회	기본 '오키노 선생(님)'. DS대로 첫 소개 장면(o_peach_op_04 #1·#48 ↔ DS218 #21·#22)과 병원 이름('닥터 오키노 병원', DS129#27)만 '닥터 오키노'
 おかえしスカーフ	리턴스카프	gear	coined	DS オカエシシート=리턴시트	3DX에서 시트→스카프로 바뀜
-
 リューギー	러기	character	coined	FMsg/k_o_mushiba_80#39	リューグー=러즐(DS)의 별명. 이기(イギー)와 끝소리를 맞춤(러즐→러기). 구 '용기'는 폐기
 マリオ達	마리오 일행	term	DS	EDataSave__mfset_EMesOutline#16	기본값. 같은 장면의 DS 문장이 '마리오 형제'를 쓰면(쿠파 몸속 터치 미니게임 DS155·1AB) DS대로 '마리오 형제'. 조사 주의(형제를/형제가)
 BP	SP	term	DS	BAI__BMes_cf#4.13	확정: 3DX의 BP는 DS대로 SP(스페셜 어택과 짝). 화면 이미지(HUD·능력치)의 BP도 이미지 작업 때 SP로 고친다
 リタイア	포기	ui	DS	EMesJig#21	미니게임·챌린지를 중단하는 リタイア
 キノノ	느타리	character	DS	FEvent DS09C (3DX o_town_25_before)	3DX와 이름이 다른 NPC. DS 이름 유지
-スーさん	수림씨	character	coined	FMsg/k_o_ekubon_80#115	큐티가 스ーリム(수림)을 부르는 애칭. DS처럼 '씨'를 이름에 붙여 씀(쿠파씨·러즐씨·차크란씨)
+スーさん	슬림씨	character	coined	2026-10-07 사용자 확정	사용자 지정 SS컴퍼니 표기. 슬림의 애칭. DS 관례대로 씨를 붙여 쓴다.
+メッセージにふりがな	메시지에 후리가나 표시	ui	coined	2026-10-07 사용자 후리가나 제거 지침	MainMenu.cro hasRuby=0 경로로 설정 행과 선택 버튼을 숨긴다. 미호출 라벨만 리소스 구조 보존을 위해 유지.
 買い物をする	물건 사기	ui	DS	DS0D2#0 '장비 사기/아이템 사기'	블록 상점 선택지. 3DX는 장비·아이템 사기를 하나로 합침(o_koopa_37#2)
 なにも 買わない	구입하지 않음	ui	DS	DS0D2#0	블록 상점 선택지
 ブロキャットについて	블캐츠에 대해	ui	DS	DS0D2#0	블록 상점 선택지
@@ -81,9 +81,7 @@ POWダウン	POW 다운	term	DS	BData__mfset_AItmE2#16	스페셜 어택 효과·
 スターダッシュ	스타 대시	attack	coined	BMsg b_sys p14	쿠파메모리M의 공격
 フリフリバケツ	흔들흔들 양동이	attack	coined	BMsg b_sys p16	점프점프헬멧 미니게임·적 공격 이름(W05)
 目隠しプレス	눈가림 프레스	attack	coined	BMsg b_sys p16	적 공격 이름(W05)
-
 アッチコッチ	아무 데나	other	coined	BMsg/b_sys#1609(SpAtk_07_0)	설명 문장에서는 맞춤법대로 띄어 쓴다. 공격 이름은 DS대로 '아무데나창문'(붙여 씀). '여기저기' 뜻이면 문맥대로(b_sys#910)
-
 アタック	어택	term	DS	BDataMiniGame__mfset_MesDat_MiniGame#5	스페셜 어택을 줄여 부를 때 '어택'. 次のアタック처럼 일반 공격을 뜻하면 '공격'(Item#463·#480, DS BadgeEffectE '다음 공격이 N배로'). 퀴즈의 パンチアタック/ファイアアタック은 DS대로 '~ 공격'
 うちけし	스킬 지우기	ability	official	1DX-KR:BMsg.dat:k_sys#48	RPG1 DX 한국판 리더 액션명(k_sys#48·#316·#641, 버튼 btn_KGLA_TX_n01). 동사 うちけす는 '(스킬을) 지우다' [gl_kj; 리드 2026-09-30, 예전 신조어 '무효화']
 ころび	꽈당	term	official	1DX-KR:BMsg.dat:b_sys#341	RPG1 DX 한국판 상태 이상명(b_sys#341, Item#430 '독/어질어질/꽈당', 스프라이트 bui_sys_badstatname) [gl_attacks; 리드 2026-09-30, 예전 신조어 '넘어짐']
@@ -135,3 +133,10 @@ EXPチキンS	EXP 치킨 S	item	coined	BMsg/b_sys (3DX 신규)	1DX에 없는 아
 EXPチキンM	EXP 치킨 M	item	coined	BMsg/b_sys (3DX 신규)	1DX에 없는 아이템. 같은 목록의 콩 아이템(1DX 'HP 콩', '슈퍼 EXP 콩 S')처럼 띄어 씀 [gl_kj; 클라우드 2026-09-30]
 EXPチキンL	EXP 치킨 L	item	coined	BMsg/b_sys (3DX 신규)	1DX에 없는 아이템. 같은 목록의 콩 아이템(1DX 'HP 콩', '슈퍼 EXP 콩 S')처럼 띄어 씀 [gl_kj; 클라우드 2026-09-30]
 EXPチキンDX	EXP 치킨 DX	item	coined	BMsg/b_sys (3DX 신규)	1DX에 없는 아이템. 같은 목록의 콩 아이템(1DX 'HP 콩', '슈퍼 EXP 콩 S')처럼 띄어 씀 [gl_kj; 클라우드 2026-09-30]
+トゲダメージ	가시 대미지	term	official	1DX-KR:BMsg.dat:k_sys#223	RPG1 DX 한국판 가이드 제목 KGGuide_BB14; #32·#766 본문에도 같은 표기. 일반 ダメージ=타격과 구분 [gl_kj; review: 2026-10-06 공식 근거 확인]
+スーリム	슬림	boss	coined	2026-10-07 사용자 확정	사용자 지정 SS컴퍼니 표기. 이 표기가 이전 임시 이름보다 우선한다.
+キュット	큐티	boss	coined	2026-10-07 사용자 확정	사용자 지정 SS컴퍼니 표기. 이 표기가 이전 임시 이름보다 우선한다.
+ムチオ	마초	boss	coined	2026-10-07 사용자 확정	사용자 지정 SS컴퍼니 표기. 이 표기가 이전 임시 이름보다 우선한다.
+「ステータス」	「스테이터스」	ui	official	1DX-KR:BMsg.dat:b_sys#346	스타 메뉴 항목 이름(그림 TOP_MENU_TEXT_3도 같음). 2026-10-31 사용자 지시로 1DX 한국판 표기를 따름. 능력치를 두루 이르는 ステータス는 '능력'
+基本⑤：ステータスについて	기본⑤: 스테이터스에 대해	ui	official	1DX-KR:BMsg.dat:b_sys#66	배틀 가이드 제목(BtlGuide_11), 스타 메뉴 「스테이터스」 안내. 2026-10-31 사용자 지시
+ステータスについて	스테이터스에 대해	ui	official	1DX-KR:BMsg.dat:k_sys#604	쿠파주니어 가이드 제목 KJGuide_BB05(1DX KGGuide_BB05와 같음). 2026-10-31 사용자 지시

@@ -1,0 +1,58 @@
+[
+  {
+    "batch": "FMsg__o_ekubon_02__and7",
+    "id": "FMsg/o_ekubon_02#0",
+    "before": "{1:align}{2:align}{3:mode}↑숲 출구&초원 입구\n{4:align}↓이아파 비치{5:wait}",
+    "after": "{1:align}{2:align}{3:mode}↑ 숲 출구&초원 입구\n{4:align}↓ 이아파 비치{5:wait}",
+    "reason": "review: 2026-10-06 DS046#0의 같은 뜻 대사 띄어쓰기 복원. 화살표 뒤/말줄임표 뒤 공백과 어절을 DS대로 유지하고 3DX pause·서식·페이지 태그는 그대로 둠. AGENTS 0·4.6의 DS 보존 원칙이 일반 스타일 권고보다 우선."
+  },
+  {
+    "batch": "FMsg__o_ekubon_02__and7",
+    "id": "FMsg/o_ekubon_04_1#1",
+    "before": "{1:mode}↑숲 출구{2:wait}",
+    "after": "{1:mode}↑ 숲 출구{2:wait}",
+    "reason": "review: 2026-10-06 DS047#0의 같은 뜻 대사 띄어쓰기 복원. 화살표 뒤/말줄임표 뒤 공백과 어절을 DS대로 유지하고 3DX pause·서식·페이지 태그는 그대로 둠. AGENTS 0·4.6의 DS 보존 원칙이 일반 스타일 권고보다 우선."
+  },
+  {
+    "batch": "FMsg__o_ekubon_02__and7",
+    "id": "FMsg/o_ekubon_04_2#0",
+    "before": "{1:mode}→숲 출구{2:wait}",
+    "after": "{1:mode}→ 숲 출구{2:wait}",
+    "reason": "review: 2026-10-06 DS178#0의 같은 뜻 대사 띄어쓰기 복원. 화살표 뒤/말줄임표 뒤 공백과 어절을 DS대로 유지하고 3DX pause·서식·페이지 태그는 그대로 둠. AGENTS 0·4.6의 DS 보존 원칙이 일반 스타일 권고보다 우선."
+  },
+  {
+    "batch": "FMsg__o_gepu_08__and1",
+    "id": "FMsg/o_gepu_11#0",
+    "before": "{1:align}{2:align}{3:mode}↑고라파 레이크\n{4:align}→이아파 비치{5:wait}",
+    "after": "{1:align}{2:align}{3:mode}↑ 고라파 레이크\n{4:align}→ 이아파 비치{5:wait}",
+    "reason": "review: 2026-10-06 DS20C#0의 같은 뜻 대사 띄어쓰기 복원. 화살표 뒤/말줄임표 뒤 공백과 어절을 DS대로 유지하고 3DX pause·서식·페이지 태그는 그대로 둠. AGENTS 0·4.6의 DS 보존 원칙이 일반 스타일 권고보다 우선."
+  },
+  {
+    "batch": "FMsg__o_koopa_13_2__and4",
+    "id": "FMsg/o_koopa_13_2#57",
+    "before": "나{1:pause} 라고{2:pause}",
+    "after": "나{1:pause}라고{2:pause}",
+    "reason": "review: 2026-10-06 DS0D1#53의 같은 뜻 대사 띄어쓰기 복원. 화살표 뒤/말줄임표 뒤 공백과 어절을 DS대로 유지하고 3DX pause·서식·페이지 태그는 그대로 둠. AGENTS 0·4.6의 DS 보존 원칙이 일반 스타일 권고보다 우선."
+  },
+  {
+    "batch": "FMsg__o_peach_1f_03__and3",
+    "id": "FMsg/o_peach_1f_03#41",
+    "before": "{1:align}네놈 여기에서{2:pause}\n끝{3:pause} 이다…{4:pause}{5:wait}",
+    "after": "{1:align}네놈 여기에서{2:pause}\n끝{3:pause}이다…{4:pause}{5:wait}",
+    "reason": "review: 2026-10-06 DS20F#2의 같은 뜻 대사 띄어쓰기 복원. 화살표 뒤/말줄임표 뒤 공백과 어절을 DS대로 유지하고 3DX pause·서식·페이지 태그는 그대로 둠. AGENTS 0·4.6의 DS 보존 원칙이 일반 스타일 권고보다 우선."
+  },
+  {
+    "batch": "FMsg__o_peach_1f_03__and3",
+    "id": "FMsg/o_peach_1f_08#9",
+    "before": "{1:align}너의 능력을 복사한 데다가\n완전한 암흑 파워까지\n손에 넣은 다크쿠파…{2:wait}[Next]{3:align}…{4:pause} 솔직히 말하면\n최악의 사태가 벌어졌어…{5:wait}[Next]{6:align}이렇게 된 이상 어쩔 수 없어!\n다크쿠파를 쓰러뜨려야 해!!{7:wait}",
+    "after": "{1:align}너의 능력을 복사한 데다가\n완전한 암흑 파워까지\n손에 넣은 다크쿠파…{2:wait}[Next]{3:align}…{4:pause}솔직히 말하면\n최악의 사태가 벌어졌어…{5:wait}[Next]{6:align}이렇게 된 이상 어쩔 수 없어!\n다크쿠파를 쓰러뜨려야 해!!{7:wait}",
+    "reason": "review: 2026-10-06 DS298#8의 같은 뜻 대사 띄어쓰기 복원. 화살표 뒤/말줄임표 뒤 공백과 어절을 DS대로 유지하고 3DX pause·서식·페이지 태그는 그대로 둠. AGENTS 0·4.6의 DS 보존 원칙이 일반 스타일 권고보다 우선."
+  },
+  {
+    "batch": "FMsg__o_zutsuda_01__and9",
+    "id": "FMsg/o_zutsuda_15#15",
+    "before": "{1:align}아~{2:pause} 아아~{3:pause} 아~{4:pause}\n…{5:pause} 아!{6:pause} 연결된 건가!?{7:wait}[Next]{8:align}{9:align}…{10:pause} 에헴!{11:wait}",
+    "after": "{1:align}아~{2:pause} 아아~{3:pause} 아~{4:pause}\n…{5:pause}아!{6:pause} 연결된 건가!?{7:wait}[Next]{8:align}{9:align}…{10:pause}에헴!{11:wait}",
+    "reason": "review: 2026-10-06 DS108#30의 같은 뜻 대사 띄어쓰기 복원. 화살표 뒤/말줄임표 뒤 공백과 어절을 DS대로 유지하고 3DX pause·서식·페이지 태그는 그대로 둠. AGENTS 0·4.6의 DS 보존 원칙이 일반 스타일 권고보다 우선."
+  }
+]

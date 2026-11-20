@@ -50,6 +50,11 @@ EXTRA_SYMBOLS = {"·": 8, "♥": 16, "※": 16}
 def charset() -> tuple[dict[str, int], frozenset[str]]:
     adv = {c: w for c, w in bffnt_advances().items() if not re.match(r"[\u3040-\u30ff\u4e00-\u9fff]", c)}
     adv.update(EXTRA_ASCII_WIDTH)
+    # 2026-10-30 (wave 5): the installed font.bffnt draws Latin letters, digits and punctuation with 1DX glyphs and
+    # tighter advances (work/build/menu_font_stage/v2); their widths replace the 3DX ones read above.
+    v2 = Path(__file__).with_name("font_ascii_widths_v2.json")
+    if v2.exists():
+        adv.update(json.loads(v2.read_text(encoding="utf-8"))["font"])
     adv.update(EXTRA_SYMBOLS)
     for c in range(0x20, 0x7F):
         adv.setdefault(chr(c), 10)

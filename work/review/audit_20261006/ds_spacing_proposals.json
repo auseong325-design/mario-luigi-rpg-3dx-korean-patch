@@ -1,0 +1,82 @@
+[
+  {
+    "id": "FMsg/o_ekubon_02#0",
+    "batch": "FMsg__o_ekubon_02__and7",
+    "before": "{1:align}{2:align}{3:mode}↑숲 출구&초원 입구\n{4:align}↓이아파 비치{5:wait}",
+    "after": "{1:align}{2:align}{3:mode}↑ 숲 출구&초원 입구\n{4:align}↓ 이아파 비치{5:wait}",
+    "ds_key": "DS28D#49",
+    "reason": "표지판은 일본어/DS와 동일 내용. style_guide 2.1의 일반 화살표 붙임보다 AGENTS 0·4.6 및 style_guide 첫머리의 같은 DS 문장 그대로 사용 규칙이 우선하므로 DS 간격 복원 후보.",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "id": "FMsg/o_ekubon_04_1#1",
+    "batch": "FMsg__o_ekubon_02__and7",
+    "before": "{1:mode}↑숲 출구{2:wait}",
+    "after": "{1:mode}↑ 숲 출구{2:wait}",
+    "ds_key": "DS047#0",
+    "reason": "표지판은 일본어/DS와 동일 내용. style_guide 2.1의 일반 화살표 붙임보다 AGENTS 0·4.6 및 style_guide 첫머리의 같은 DS 문장 그대로 사용 규칙이 우선하므로 DS 간격 복원 후보.",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "id": "FMsg/o_ekubon_04_2#0",
+    "batch": "FMsg__o_ekubon_02__and7",
+    "before": "{1:mode}→숲 출구{2:wait}",
+    "after": "{1:mode}→ 숲 출구{2:wait}",
+    "ds_key": "DS178#0",
+    "reason": "표지판은 일본어/DS와 동일 내용. style_guide 2.1의 일반 화살표 붙임보다 AGENTS 0·4.6 및 style_guide 첫머리의 같은 DS 문장 그대로 사용 규칙이 우선하므로 DS 간격 복원 후보.",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "id": "FMsg/o_gepu_11#0",
+    "batch": "FMsg__o_gepu_08__and1",
+    "before": "{1:align}{2:align}{3:mode}↑고라파 레이크\n{4:align}→이아파 비치{5:wait}",
+    "after": "{1:align}{2:align}{3:mode}↑ 고라파 레이크\n{4:align}→ 이아파 비치{5:wait}",
+    "ds_key": "DS20C#0",
+    "reason": "표지판은 일본어/DS와 동일 내용. style_guide 2.1의 일반 화살표 붙임보다 AGENTS 0·4.6 및 style_guide 첫머리의 같은 DS 문장 그대로 사용 규칙이 우선하므로 DS 간격 복원 후보.",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "id": "FMsg/o_koopa_13_2#57",
+    "batch": "FMsg__o_koopa_13_2__and4",
+    "before": "나{1:pause} 라고{2:pause}",
+    "after": "나{1:pause}라고{2:pause}",
+    "ds_key": "DS0D1#53",
+    "reason": "DS0D1#53은 나라고. JP의 わ/し 분리 연출은 pause 태그로 유지할 수 있으므로 한 낱말 안의 추가 공백은 제거하는 후보.",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "id": "FMsg/o_peach_1f_03#41",
+    "batch": "FMsg__o_peach_1f_03__and3",
+    "before": "{1:align}네놈 여기에서{2:pause}\n끝{3:pause} 이다…{4:pause}{5:wait}",
+    "after": "{1:align}네놈 여기에서{2:pause}\n끝{3:pause}이다…{4:pause}{5:wait}",
+    "ds_key": "DS20F#2",
+    "reason": "DS20F#2는 끝이다. JP의 オワ/ル 분리 연출은 pause 태그로 유지할 수 있고, 메타보스의 가타카나 말투를 띄어쓰기로 흉내 내지 말라는 style_guide 3.3에도 부합하므로 추가 공백 제거 후보.",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "id": "FMsg/o_peach_1f_08#9",
+    "batch": "FMsg__o_peach_1f_03__and3",
+    "before": "{1:align}너의 능력을 복사한 데다가\n완전한 암흑 파워까지\n손에 넣은 다크쿠파…{2:wait}[Next]{3:align}…{4:pause} 솔직히 말하면\n최악의 사태가 벌어졌어…{5:wait}[Next]{6:align}이렇게 된 이상 어쩔 수 없어!\n다크쿠파를 쓰러뜨려야 해!!{7:wait}",
+    "after": "{1:align}너의 능력을 복사한 데다가\n완전한 암흑 파워까지\n손에 넣은 다크쿠파…{2:wait}[Next]{3:align}…{4:pause}솔직히 말하면\n최악의 사태가 벌어졌어…{5:wait}[Next]{6:align}이렇게 된 이상 어쩔 수 없어!\n다크쿠파를 쓰러뜨려야 해!!{7:wait}",
+    "ds_key": "DS298#8",
+    "reason": "같은 뜻의 DS 대사에 없는 말줄임표 뒤 공백. 일반 문장부호 지침(style_guide 2.1)보다 DS 동일 표현 보존 규칙이 우선하며 pause 태그는 유지하므로 DS 간격 복원 후보.",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "id": "FMsg/o_zutsuda_15#15",
+    "batch": "FMsg__o_zutsuda_01__and9",
+    "before": "{1:align}아~{2:pause} 아아~{3:pause} 아~{4:pause}\n…{5:pause} 아!{6:pause} 연결된 건가!?{7:wait}[Next]{8:align}{9:align}…{10:pause} 에헴!{11:wait}",
+    "after": "{1:align}아~{2:pause} 아아~{3:pause} 아~{4:pause}\n…{5:pause}아!{6:pause} 연결된 건가!?{7:wait}[Next]{8:align}{9:align}…{10:pause}에헴!{11:wait}",
+    "ds_key": "DS108#30",
+    "reason": "같은 뜻의 DS 대사에 없는 말줄임표 뒤 공백. 일반 문장부호 지침(style_guide 2.1)보다 DS 동일 표현 보존 규칙이 우선하며 pause 태그는 유지하므로 DS 간격 복원 후보.",
+    "errors": [],
+    "warnings": []
+  }
+]

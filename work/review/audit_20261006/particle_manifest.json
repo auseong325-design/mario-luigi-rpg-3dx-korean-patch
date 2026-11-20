@@ -1,0 +1,8912 @@
+{
+  "source_sha256": "447e44afedb893aeecb9d3663639791f87bf41f5d7c3064e44bebda7e9d3c935",
+  "compressed_original_sha256": "c0dc735fdf5be978696a0a1ff9e908ab0873cc06f81396c0dd5530594af02f02",
+  "original_unpack_exact_match": true,
+  "version": 51,
+  "effect_sets": 322,
+  "emitters": 849,
+  "texture_refs": 866,
+  "unique_textures": 87,
+  "extra_mips": 7,
+  "texture_base": 1164160,
+  "texture_size": 1088256,
+  "decoded_bytes": 1088256,
+  "gaps": [],
+  "textures": [
+    {
+      "offset": 0,
+      "absolute_offset": 1164160,
+      "size": 2048,
+      "base_size": 2048,
+      "w": 32,
+      "h": 64,
+      "format": "ETC1A4",
+      "surface_format": 18,
+      "mipcount": 1,
+      "index": 0,
+      "uses": 1,
+      "sha256": "aa99a4689b27a3092e7ce582543e89ce7145dfff93a1963e4e88d706cfb71501"
+    },
+    {
+      "offset": 2048,
+      "absolute_offset": 1166208,
+      "size": 4096,
+      "base_size": 4096,
+      "w": 64,
+      "h": 64,
+      "format": "ETC1A4",
+      "surface_format": 18,
+      "mipcount": 1,
+      "index": 1,
+      "uses": 1,
+      "sha256": "f9543307976e05296496f4be8783602bfdb3c8f86f54e17d7fc360aa90d070a1"
+    },
+    {
+      "offset": 6144,
+      "absolute_offset": 1170304,
+      "size": 4096,
+      "base_size": 4096,
+      "w": 64,
+      "h": 64,
+      "format": "ETC1A4",
+      "surface_format": 18,
+      "mipcount": 1,
+      "index": 2,
+      "uses": 1,
+      "sha256": "16d20b7088c21784be3eb9c2df9cfb4207f19c92e41950a43378d5697089efb1"
+    },
+    {
+      "offset": 10240,
+      "absolute_offset": 1174400,
+      "size": 4096,
+      "base_size": 4096,
+      "w": 64,
+      "h": 64,
+      "format": "LA4",
+      "surface_format": 25,
+      "mipcount": 1,
+      "index": 3,
+      "uses": 9,
+      "sha256": "60515110a03f797f53d7b2c460ab69f78a1463597f19c8051003f0dab3d5f49d"
+    },
+    {
+      "offset": 14336,
+      "absolute_offset": 1178496,
+      "size": 1024,
+      "base_size": 1024,
+      "w": 32,
+      "h": 32,
+      "format": "ETC1A4",
+      "surface_format": 18,
+      "mipcount": 1,
+      "index": 4,
+      "uses": 87,
+      "sha256": "1fbcfd7a594e6066ce519c93c3aee27c89ea7e1e43f73a85a3d50038ccd9332f"
+    },
+    {
+      "offset": 15360,
+      "absolute_offset": 1179520,
+      "size": 32768,
+      "base_size": 32768,
+      "w": 128,
+      "h": 128,
+      "format": "LA8",
+      "surface_format": 26,
+      "mipcount": 1,
+      "index": 5,
+      "uses": 12,
+      "sha256": "9ee655457a744879bd051699af744e371eb6d645ccd743329ee97d84ab088267"
+    },
+    {
+      "offset": 48128,
+      "absolute_offset": 1212288,
+      "size": 32768,
+      "base_size": 32768,
+      "w": 128,
+      "h": 128,
+      "format": "LA8",
+      "surface_format": 26,
+      "mipcount": 1,
+      "index": 6,
+      "uses": 7,
+      "sha256": "9b46041897b902b1c71a1ee03bf8ddef8a3d95741ceb3e4fda71dc9f92886e61"
+    },
+    {
+      "offset": 80896,
+      "absolute_offset": 1245056,
+      "size": 4096,
+      "base_size": 4096,
+      "w": 64,
+      "h": 64,
+      "format": "ETC1A4",
+      "surface_format": 18,
+      "mipcount": 1,
+      "index": 7,
+      "uses": 1,
+      "sha256": "5309822d1ee70d8b4bf36dc7e12c615c4302cbfc2b3ae0ae7ccfde8d86d6bbb8"
+    },
+    {
+      "offset": 84992,
+      "absolute_offset": 1249152,
+      "size": 2048,
+      "base_size": 2048,
+      "w": 64,
+      "h": 64,
+      "format": "ETC1",
+      "surface_format": 19,
+      "mipcount": 1,
+      "index": 8,
+      "uses": 3,
+      "sha256": "7862cd10bb3873a7c62683b9dee6ed9695f14f22bbf1abf6684a3ae2289002a4"
+    },
+    {
+      "offset": 87040,
+      "absolute_offset": 1251200,
+      "size": 65536,
+      "base_size": 65536,
+      "w": 256,
+      "h": 256,
+      "format": "ETC1A4",
+      "surface_format": 18,
+      "mipcount": 1,
+      "index": 9,
+      "uses": 8,
+      "sha256": "6482df2850fbb5b84f7e12f4a9ef36c761b3a9c3443aeabc931128f49086d663"
+    },
+    {
+      "offset": 152576,
+      "absolute_offset": 1316736,
+      "size": 32768,
+      "base_size": 32768,
+      "w": 128,
+      "h": 128,
+      "format": "LA8",
+      "surface_format": 26,
+      "mipcount": 1,
+      "index": 10,
+      "uses": 1,
+      "sha256": "f9f1ed235dc1f4f79ce65440f1c5fed7896898930596e4a1fb7183b40ec988d3"
+    },
+    {
+      "offset": 185344,
+      "absolute_offset": 1349504,
+      "size": 16384,
+      "base_size": 16384,
+      "w": 128,
+      "h": 128,
+      "format": "ETC1A4",
+      "surface_format": 18,
+      "mipcount": 1,
+      "index": 11,
+      "uses": 2,
+      "sha256": "b32890bf858c1f62f21d13b2a42bd869f2c67c4acfc02bec0dc8ee0ff5f8d323"
+    },
+    {
+      "offset": 201728,
+      "absolute_offset": 1365888,
+      "size": 256,
+      "base_size": 256,
+      "w": 16,
+      "h": 16,
+      "format": "LA4",
+      "surface_format": 25,
+      "mipcount": 1,
+      "index": 12,
+      "uses": 11,
+      "sha256": "94bb55dc9fa1a817ac4b933c5c722d7115e763ef625db51f5b3f6d56b3766594"
+    },
+    {
+      "offset": 201984,
+      "absolute_offset": 1366144,
+      "size": 16384,
+      "base_size": 16384,
+      "w": 128,
+      "h": 128,
+      "format": "ETC1A4",
+      "surface_format": 18,
+      "mipcount": 1,
+      "index": 13,
+      "uses": 3,
+      "sha256": "6ce2ad07e444d6d363b73ab79bef6cb073aaac7393c05a73ca2f14298383ea4c"
+    },
+    {
+      "offset": 218368,
+      "absolute_offset": 1382528,
+      "size": 32768,
+      "base_size": 32768,
+      "w": 128,
+      "h": 128,
+      "format": "LA8",
+      "surface_format": 26,
+      "mipcount": 1,
+      "index": 14,
+      "uses": 1,
+      "sha256": "350737892475ea91311970e785f6cbd2bc757642b2a967a090d9168c22ced350"
+    },
+    {
+      "offset": 251136,
+      "absolute_offset": 1415296,
+      "size": 2048,
+      "base_size": 2048,
+      "w": 64,
+      "h": 64,
+      "format": "ETC1",
+      "surface_format": 19,
+      "mipcount": 1,
+      "index": 15,
+      "uses": 20,
+      "sha256": "d78a208b46980970c93cffa476886f7851b58d42f4f148a7835b95e22b9ed26a"
+    },
+    {
+      "offset": 253184,
+      "absolute_offset": 1417344,
+      "size": 512,
+      "base_size": 512,
+      "w": 32,
+      "h": 32,
+      "format": "ETC1",
+      "surface_format": 19,
+      "mipcount": 1,
+      "index": 16,
+      "uses": 16,
+      "sha256": "1dde3a16e176a7290d5d613c4e3878b9f62cb5e426f5a6d1f558debcb4281ffd"
+    },
+    {
+      "offset": 253696,
+      "absolute_offset": 1417856,
+      "size": 4096,
+      "base_size": 4096,
+      "w": 64,
+      "h": 64,
+      "format": "ETC1A4",
+      "surface_format": 18,
+      "mipcount": 1,
+      "index": 17,
+      "uses": 165,
+      "sha256": "0e00d19bf333e4f808e1e0d3bfa9fe5a703d7d0b7c9938751866ca9ab784bc1e"
+    },
+    {
+      "offset": 257792,
+      "absolute_offset": 1421952,
+      "size": 8192,
+      "base_size": 8192,
+      "w": 64,
+      "h": 128,
+      "format": "ETC1A4",
+      "surface_format": 18,
+      "mipcount": 1,
+      "index": 18,
+      "uses": 4,
+      "sha256": "d8149384e62f6a8944cd2e515ee1c484cd1e9edbddc958f1c37abff79f36518b"
+    },
+    {
+      "offset": 265984,
+      "absolute_offset": 1430144,
+      "size": 2048,
+      "base_size": 2048,
+      "w": 64,
+      "h": 64,
+      "format": "ETC1",
+      "surface_format": 19,
+      "mipcount": 1,
+      "index": 19,
+      "uses": 11,
+      "sha256": "efb58c355d0699e7300b366fba44f89c687b2a6cb55ce9c7c9d79ed5417e0ef1"
+    },
+    {
+      "offset": 268032,
+      "absolute_offset": 1432192,
+      "size": 512,
+      "base_size": 512,
+      "w": 32,
+      "h": 32,
+      "format": "ETC1",
+      "surface_format": 19,
+      "mipcount": 1,
+      "index": 20,
+      "uses": 9,
+      "sha256": "b2a99fd64735819488216af81230335aec540cc6b40fb423aa7e99620b4d1b9f"
+    },
+    {
+      "offset": 268544,
+      "absolute_offset": 1432704,
+      "size": 65536,
+      "base_size": 65536,
+      "w": 256,
+      "h": 256,
+      "format": "ETC1A4",
+      "surface_format": 18,
+      "mipcount": 1,
+      "index": 21,
+      "uses": 2,
+      "sha256": "16cb80fd4b0a0359a7b8dd9a42cfb5e28ccf1200d1fcd1fb934348600a2eae58"
+    },
+    {
+      "offset": 334080,
+      "absolute_offset": 1498240,
+      "size": 4096,
+      "base_size": 4096,
+      "w": 256,
+      "h": 32,
+      "format": "ETC1",
+      "surface_format": 19,
+      "mipcount": 1,
+      "index": 22,
+      "uses": 13,
+      "sha256": "d3d6f88fa5b214df2a80fb7af83c724d225fbc106bf0eace1e872396b6af9d32"
+    },
+    {
+      "offset": 338176,
+      "absolute_offset": 1502336,
+      "size": 1024,
+      "base_size": 1024,
+      "w": 32,
+      "h": 32,
+      "format": "ETC1A4",
+      "surface_format": 18,
+      "mipcount": 1,
+      "index": 23,
+      "uses": 11,
+      "sha256": "ec8a1f91a094f6254f27d3cecb834fda36ff5faf7af3dd658dda71e4d9af2b27"
+    },
+    {
+      "offset": 339200,
+      "absolute_offset": 1503360,
+      "size": 5376,
+      "base_size": 4096,
+      "w": 128,
+      "h": 64,
+      "format": "ETC1",
+      "surface_format": 19,
+      "mipcount": 3,
+      "index": 24,
+      "uses": 21,
+      "sha256": "391731bc0190e074eefb71227c0be0dc4d6f583ec715bed2c8a5c03e3171a4a0"
+    },
+    {
+      "offset": 344576,
+      "absolute_offset": 1508736,
+      "size": 2048,
+      "base_size": 2048,
+      "w": 64,
+      "h": 64,
+      "format": "ETC1",
+      "surface_format": 19,
+      "mipcount": 1,
+      "index": 25,
+      "uses": 36,
+      "sha256": "77ae3c4c0a001b76c5c4b49377f62861cdb8d360255878216d175c72062c4f14"
+    },
+    {
+      "offset": 346624,
+      "absolute_offset": 1510784,
+      "size": 131072,
+      "base_size": 131072,
+      "w": 512,
+      "h": 256,
+      "format": "ETC1A4",
+      "surface_format": 18,
+      "mipcount": 1,
+      "index": 26,
+      "uses": 17,
+      "sha256": "2e5aec3e23a5db25e8fa10ba18f462aa5770e2e16e8837a92356073ef66ed5c5"
+    },
+    {
+      "offset": 477696,
+      "absolute_offset": 1641856,
+      "size": 32768,
+      "base_size": 32768,
+      "w": 256,
+      "h": 128,
+      "format": "ETC1A4",
+      "surface_format": 18,
+      "mipcount": 1,
+      "index": 27,
+      "uses": 11,
+      "sha256": "55185271163f60b635705d4e27cd88bce84f2a555250d7c23ffb534facf57753"
+    },
+    {
+      "offset": 510464,
+      "absolute_offset": 1674624,
+      "size": 2048,
+      "base_size": 2048,
+      "w": 64,
+      "h": 64,
+      "format": "ETC1",
+      "surface_format": 19,
+      "mipcount": 1,
+      "index": 28,
+      "uses": 17,
+      "sha256": "f838d124cf6901fb207d66623ab9a736c5b5e9ca28d64e441d22d4a73b6efdb5"
+    },
+    {
+      "offset": 512512,
+      "absolute_offset": 1676672,
+      "size": 4096,
+      "base_size": 4096,
+      "w": 64,
+      "h": 64,
+      "format": "ETC1A4",
+      "surface_format": 18,
+      "mipcount": 1,
+      "index": 29,
+      "uses": 31,
+      "sha256": "20c8dab78fb9676085a6e27ee0feef0c0b1ffbe813fecfbf8f999dab4b34e06a"
+    },
+    {
+      "offset": 516608,
+      "absolute_offset": 1680768,
+      "size": 16384,
+      "base_size": 16384,
+      "w": 64,
+      "h": 128,
+      "format": "LA8",
+      "surface_format": 26,
+      "mipcount": 1,
+      "index": 30,
+      "uses": 14,
+      "sha256": "8e076dc8b01a1985adf086ebb1fa49a6a5313aa27819f8da723ec25f2a3168e3"
+    },
+    {
+      "offset": 532992,
+      "absolute_offset": 1697152,
+      "size": 4096,
+      "base_size": 4096,
+      "w": 64,
+      "h": 64,
+      "format": "ETC1A4",
+      "surface_format": 18,
+      "mipcount": 1,
+      "index": 31,
+      "uses": 4,
+      "sha256": "69c16b88b7a1f56e9573d9c5492ba830ec3d182a5c65813ce4000a6e31988aec"
+    },
+    {
+      "offset": 537088,
+      "absolute_offset": 1701248,
+      "size": 32768,
+      "base_size": 32768,
+      "w": 256,
+      "h": 256,
+      "format": "ETC1",
+      "surface_format": 19,
+      "mipcount": 1,
+      "index": 32,
+      "uses": 4,
+      "sha256": "07f5a7fd6924deb374ac86edaab8d3804b21d22c3299fd982ddb01bd9b036b8c"
+    },
+    {
+      "offset": 569856,
+      "absolute_offset": 1734016,
+      "size": 8192,
+      "base_size": 8192,
+      "w": 64,
+      "h": 128,
+      "format": "ETC1A4",
+      "surface_format": 18,
+      "mipcount": 1,
+      "index": 33,
+      "uses": 3,
+      "sha256": "47ef0c1255793524c1a3b14655dc65baa019951b3acfdd178db6b6c56330461a"
+    },
+    {
+      "offset": 578048,
+      "absolute_offset": 1742208,
+      "size": 16384,
+      "base_size": 16384,
+      "w": 128,
+      "h": 128,
+      "format": "LA4",
+      "surface_format": 25,
+      "mipcount": 1,
+      "index": 34,
+      "uses": 8,
+      "sha256": "fb6e274a6f989462194d17a45f412f873af1ee5eafd82aedff0babcbf14b980c"
+    },
+    {
+      "offset": 594432,
+      "absolute_offset": 1758592,
+      "size": 2048,
+      "base_size": 2048,
+      "w": 32,
+      "h": 64,
+      "format": "ETC1A4",
+      "surface_format": 18,
+      "mipcount": 1,
+      "index": 35,
+      "uses": 17,
+      "sha256": "66fc0f70750f2080ee4aeec01cea795c4d72f0040d6295594c0641553102d307"
+    },
+    {
+      "offset": 596480,
+      "absolute_offset": 1760640,
+      "size": 2048,
+      "base_size": 2048,
+      "w": 32,
+      "h": 64,
+      "format": "ETC1A4",
+      "surface_format": 18,
+      "mipcount": 1,
+      "index": 36,
+      "uses": 9,
+      "sha256": "c9ed347167f853d5c027e91ccc18b8884766c4d72da77799cf64a1179a4c1b24"
+    },
+    {
+      "offset": 598528,
+      "absolute_offset": 1762688,
+      "size": 8192,
+      "base_size": 8192,
+      "w": 64,
+      "h": 128,
+      "format": "ETC1A4",
+      "surface_format": 18,
+      "mipcount": 1,
+      "index": 37,
+      "uses": 7,
+      "sha256": "36f2af80cd0f27495e8c8187e5e952cda1fadd828cb5feec8dea4f355227eefe"
+    },
+    {
+      "offset": 606720,
+      "absolute_offset": 1770880,
+      "size": 8192,
+      "base_size": 8192,
+      "w": 64,
+      "h": 128,
+      "format": "ETC1A4",
+      "surface_format": 18,
+      "mipcount": 1,
+      "index": 38,
+      "uses": 1,
+      "sha256": "bf2e9b5111d9870ca8f23b49e0fa75202bd388a636831889d1ff5a7687099400"
+    },
+    {
+      "offset": 614912,
+      "absolute_offset": 1779072,
+      "size": 32768,
+      "base_size": 32768,
+      "w": 256,
+      "h": 128,
+      "format": "ETC1A4",
+      "surface_format": 18,
+      "mipcount": 1,
+      "index": 39,
+      "uses": 1,
+      "sha256": "bd796d06e8881f86c5a250b8a00d2675840c3e39fe981e603df14a927768cd58"
+    },
+    {
+      "offset": 647680,
+      "absolute_offset": 1811840,
+      "size": 8192,
+      "base_size": 8192,
+      "w": 64,
+      "h": 128,
+      "format": "ETC1A4",
+      "surface_format": 18,
+      "mipcount": 1,
+      "index": 40,
+      "uses": 13,
+      "sha256": "c456e59ee7975d1084c1763b63782a31bd4774ce4974657c4b4503e05336db8e"
+    },
+    {
+      "offset": 655872,
+      "absolute_offset": 1820032,
+      "size": 1024,
+      "base_size": 1024,
+      "w": 32,
+      "h": 32,
+      "format": "ETC1A4",
+      "surface_format": 18,
+      "mipcount": 1,
+      "index": 41,
+      "uses": 5,
+      "sha256": "1443337a07d989d8aa53a30b5404c89391e59d9f45c7ff7313bfa246de3cfe46"
+    },
+    {
+      "offset": 656896,
+      "absolute_offset": 1821056,
+      "size": 16384,
+      "base_size": 16384,
+      "w": 128,
+      "h": 128,
+      "format": "ETC1A4",
+      "surface_format": 18,
+      "mipcount": 1,
+      "index": 42,
+      "uses": 5,
+      "sha256": "c696b305948ae7308f3618aac808b4147ee88110c09ae448ce8e0fa3cdea407b"
+    },
+    {
+      "offset": 673280,
+      "absolute_offset": 1837440,
+      "size": 8192,
+      "base_size": 8192,
+      "w": 128,
+      "h": 64,
+      "format": "ETC1A4",
+      "surface_format": 18,
+      "mipcount": 1,
+      "index": 43,
+      "uses": 4,
+      "sha256": "75253ab1031002536597bdaa0cd2c964ffe916227d90610ccbe96240f0454f2d"
+    },
+    {
+      "offset": 681472,
+      "absolute_offset": 1845632,
+      "size": 32768,
+      "base_size": 32768,
+      "w": 256,
+      "h": 128,
+      "format": "ETC1A4",
+      "surface_format": 18,
+      "mipcount": 1,
+      "index": 44,
+      "uses": 1,
+      "sha256": "6c9e413c1a1e6d722fbe2d9c47254546660ec1d1013280dd1f1b6102ef788f0d"
+    },
+    {
+      "offset": 714240,
+      "absolute_offset": 1878400,
+      "size": 8192,
+      "base_size": 8192,
+      "w": 128,
+      "h": 64,
+      "format": "ETC1A4",
+      "surface_format": 18,
+      "mipcount": 1,
+      "index": 45,
+      "uses": 2,
+      "sha256": "b5d797341e99699082026aa177c955529b1af1ea2508a5cddf7f6b42cc1e4fb4"
+    },
+    {
+      "offset": 722432,
+      "absolute_offset": 1886592,
+      "size": 16384,
+      "base_size": 16384,
+      "w": 256,
+      "h": 128,
+      "format": "ETC1",
+      "surface_format": 19,
+      "mipcount": 1,
+      "index": 46,
+      "uses": 1,
+      "sha256": "724f3fbcbc02c19d886dd168607d18c6dd42b26406abd566061aa82e5e7891ad"
+    },
+    {
+      "offset": 738816,
+      "absolute_offset": 1902976,
+      "size": 1024,
+      "base_size": 1024,
+      "w": 32,
+      "h": 32,
+      "format": "ETC1A4",
+      "surface_format": 18,
+      "mipcount": 1,
+      "index": 47,
+      "uses": 7,
+      "sha256": "c9e487dbd08f49bb38aeb49903702b1c25ed0c76b5a4d1a3d83b98e8fb78f523"
+    },
+    {
+      "offset": 739840,
+      "absolute_offset": 1904000,
+      "size": 4096,
+      "base_size": 4096,
+      "w": 64,
+      "h": 128,
+      "format": "ETC1",
+      "surface_format": 19,
+      "mipcount": 1,
+      "index": 48,
+      "uses": 11,
+      "sha256": "825eea228fbf231f90f72c42a77e71329e5295040eff850c410848504670efd0"
+    },
+    {
+      "offset": 743936,
+      "absolute_offset": 1908096,
+      "size": 21760,
+      "base_size": 16384,
+      "w": 256,
+      "h": 128,
+      "format": "ETC1",
+      "surface_format": 19,
+      "mipcount": 4,
+      "index": 49,
+      "uses": 2,
+      "sha256": "4bfeffdcf026c8b8d71898b7f9b108940196d2b61cbbd12009143bc8dccb4525"
+    },
+    {
+      "offset": 765696,
+      "absolute_offset": 1929856,
+      "size": 2048,
+      "base_size": 2048,
+      "w": 32,
+      "h": 32,
+      "format": "RGBA4",
+      "surface_format": 28,
+      "mipcount": 1,
+      "index": 50,
+      "uses": 2,
+      "sha256": "3baf0d213a3d4c606ac3d037274cedfdaab3ca58f745afc6de81c867201c1159"
+    },
+    {
+      "offset": 767744,
+      "absolute_offset": 1931904,
+      "size": 16384,
+      "base_size": 16384,
+      "w": 128,
+      "h": 128,
+      "format": "L8",
+      "surface_format": 23,
+      "mipcount": 1,
+      "index": 51,
+      "uses": 12,
+      "sha256": "e9d6d3ecda00cfb987db181765ae1b1669b9c6bb0179b4b2eadf45aca054c9f9"
+    },
+    {
+      "offset": 784128,
+      "absolute_offset": 1948288,
+      "size": 8192,
+      "base_size": 8192,
+      "w": 64,
+      "h": 128,
+      "format": "ETC1A4",
+      "surface_format": 18,
+      "mipcount": 1,
+      "index": 52,
+      "uses": 2,
+      "sha256": "59e0da5e5d8f3c0d8b83475152c2bf100a2919866efd3d77a4ea8e3287614c9b"
+    },
+    {
+      "offset": 792320,
+      "absolute_offset": 1956480,
+      "size": 8192,
+      "base_size": 8192,
+      "w": 128,
+      "h": 128,
+      "format": "ETC1",
+      "surface_format": 19,
+      "mipcount": 1,
+      "index": 53,
+      "uses": 5,
+      "sha256": "745acdc92d3c232c26fa897f5598c424392aa1f382084f650e75b9645834dafd"
+    },
+    {
+      "offset": 800512,
+      "absolute_offset": 1964672,
+      "size": 4096,
+      "base_size": 4096,
+      "w": 64,
+      "h": 64,
+      "format": "ETC1A4",
+      "surface_format": 18,
+      "mipcount": 1,
+      "index": 54,
+      "uses": 54,
+      "sha256": "1e6783a85b8b06f39878173cdb8a72a50ec3fd2d37be8b4b0161e77251863023"
+    },
+    {
+      "offset": 804608,
+      "absolute_offset": 1968768,
+      "size": 512,
+      "base_size": 512,
+      "w": 32,
+      "h": 32,
+      "format": "ETC1",
+      "surface_format": 19,
+      "mipcount": 1,
+      "index": 55,
+      "uses": 6,
+      "sha256": "d94a5c3578dedfe35b6a1cffbe0ef3b260e8b2ade188708acdb4cf227b5beadb"
+    },
+    {
+      "offset": 805120,
+      "absolute_offset": 1969280,
+      "size": 1024,
+      "base_size": 1024,
+      "w": 64,
+      "h": 32,
+      "format": "ETC1",
+      "surface_format": 19,
+      "mipcount": 1,
+      "index": 56,
+      "uses": 2,
+      "sha256": "7954243b8b02925d1fb40ea0f726dc3aef35d32f1fb9082ee00a246d6a701f52"
+    },
+    {
+      "offset": 806144,
+      "absolute_offset": 1970304,
+      "size": 512,
+      "base_size": 512,
+      "w": 32,
+      "h": 32,
+      "format": "ETC1",
+      "surface_format": 19,
+      "mipcount": 1,
+      "index": 57,
+      "uses": 7,
+      "sha256": "da37f998c63418f667c5c2461db4d42f1870145acbaee37bd937a3a5f087648f"
+    },
+    {
+      "offset": 806656,
+      "absolute_offset": 1970816,
+      "size": 2048,
+      "base_size": 2048,
+      "w": 64,
+      "h": 64,
+      "format": "ETC1",
+      "surface_format": 19,
+      "mipcount": 1,
+      "index": 58,
+      "uses": 2,
+      "sha256": "4f5f8766667ad6f8fbff84d8eb43e4141a8d8816e0c435c92979c39ed3dc580b"
+    },
+    {
+      "offset": 808704,
+      "absolute_offset": 1972864,
+      "size": 16384,
+      "base_size": 16384,
+      "w": 128,
+      "h": 128,
+      "format": "ETC1A4",
+      "surface_format": 18,
+      "mipcount": 1,
+      "index": 59,
+      "uses": 9,
+      "sha256": "813f96e7b46dbc85dea20399a25d64454fbe4c5c18b80127db08c6f0a28e0fde"
+    },
+    {
+      "offset": 825088,
+      "absolute_offset": 1989248,
+      "size": 16384,
+      "base_size": 16384,
+      "w": 128,
+      "h": 128,
+      "format": "ETC1A4",
+      "surface_format": 18,
+      "mipcount": 1,
+      "index": 60,
+      "uses": 3,
+      "sha256": "813f96e7b46dbc85dea20399a25d64454fbe4c5c18b80127db08c6f0a28e0fde"
+    },
+    {
+      "offset": 841472,
+      "absolute_offset": 2005632,
+      "size": 8192,
+      "base_size": 8192,
+      "w": 128,
+      "h": 64,
+      "format": "ETC1A4",
+      "surface_format": 18,
+      "mipcount": 1,
+      "index": 61,
+      "uses": 2,
+      "sha256": "5942ecfb94be3843e66e57c5fcf38e941bc88f2e6423092b4530bd983456db11"
+    },
+    {
+      "offset": 849664,
+      "absolute_offset": 2013824,
+      "size": 8192,
+      "base_size": 8192,
+      "w": 64,
+      "h": 128,
+      "format": "ETC1A4",
+      "surface_format": 18,
+      "mipcount": 1,
+      "index": 62,
+      "uses": 2,
+      "sha256": "ac5515ee73b3bd57e6d161fbea1e91470051df7056aa8de880031920cc49fcbb"
+    },
+    {
+      "offset": 857856,
+      "absolute_offset": 2022016,
+      "size": 16384,
+      "base_size": 16384,
+      "w": 128,
+      "h": 128,
+      "format": "ETC1A4",
+      "surface_format": 18,
+      "mipcount": 1,
+      "index": 63,
+      "uses": 18,
+      "sha256": "c431dd3df20cdc1b94654c3ee7c57c4325f5c04a07c287b949638c239a8f0ab5"
+    },
+    {
+      "offset": 874240,
+      "absolute_offset": 2038400,
+      "size": 8192,
+      "base_size": 8192,
+      "w": 64,
+      "h": 128,
+      "format": "ETC1A4",
+      "surface_format": 18,
+      "mipcount": 1,
+      "index": 64,
+      "uses": 7,
+      "sha256": "1e4541fae29006830937663582cbd1a95c14f2986f634b69dff16d848784e51c"
+    },
+    {
+      "offset": 882432,
+      "absolute_offset": 2046592,
+      "size": 8192,
+      "base_size": 8192,
+      "w": 64,
+      "h": 128,
+      "format": "ETC1A4",
+      "surface_format": 18,
+      "mipcount": 1,
+      "index": 65,
+      "uses": 2,
+      "sha256": "ca061d19846316bd8287df57e70a1a1689ecc84e4a42d42b0fde6dc2c9eaab05"
+    },
+    {
+      "offset": 890624,
+      "absolute_offset": 2054784,
+      "size": 8192,
+      "base_size": 8192,
+      "w": 64,
+      "h": 128,
+      "format": "ETC1A4",
+      "surface_format": 18,
+      "mipcount": 1,
+      "index": 66,
+      "uses": 2,
+      "sha256": "5f9a3e7c698c569c632476b6422bfba576380ab2aed3171d1043b45e62c45603"
+    },
+    {
+      "offset": 898816,
+      "absolute_offset": 2062976,
+      "size": 16384,
+      "base_size": 16384,
+      "w": 128,
+      "h": 128,
+      "format": "ETC1A4",
+      "surface_format": 18,
+      "mipcount": 1,
+      "index": 67,
+      "uses": 4,
+      "sha256": "9e129c3551b8cbe35fd4372cf4d5a3cea94e870ad70ff6e9af40ecced8e85135"
+    },
+    {
+      "offset": 915200,
+      "absolute_offset": 2079360,
+      "size": 1024,
+      "base_size": 1024,
+      "w": 32,
+      "h": 32,
+      "format": "ETC1A4",
+      "surface_format": 18,
+      "mipcount": 1,
+      "index": 68,
+      "uses": 3,
+      "sha256": "e0afc98467be1ecf76dd689dd33d639ffe119f74408389bcd301e92161b3ddf7"
+    },
+    {
+      "offset": 916224,
+      "absolute_offset": 2080384,
+      "size": 1024,
+      "base_size": 1024,
+      "w": 32,
+      "h": 32,
+      "format": "ETC1A4",
+      "surface_format": 18,
+      "mipcount": 1,
+      "index": 69,
+      "uses": 7,
+      "sha256": "ad28d1e616d80aef5e27d779901ced3032c86876f649b3902d8aef12634976bd"
+    },
+    {
+      "offset": 917248,
+      "absolute_offset": 2081408,
+      "size": 16384,
+      "base_size": 16384,
+      "w": 128,
+      "h": 128,
+      "format": "ETC1A4",
+      "surface_format": 18,
+      "mipcount": 1,
+      "index": 70,
+      "uses": 6,
+      "sha256": "a32b2ecbdf7c209beac3494040dc5de981d4ca6fb601a425d9da2feefe0df77c"
+    },
+    {
+      "offset": 933632,
+      "absolute_offset": 2097792,
+      "size": 8192,
+      "base_size": 8192,
+      "w": 64,
+      "h": 128,
+      "format": "ETC1A4",
+      "surface_format": 18,
+      "mipcount": 1,
+      "index": 71,
+      "uses": 6,
+      "sha256": "5a6259831f8eae5e7a028594443a883e60e7fc6f20777b605a85507f281555b7"
+    },
+    {
+      "offset": 941824,
+      "absolute_offset": 2105984,
+      "size": 16384,
+      "base_size": 16384,
+      "w": 128,
+      "h": 128,
+      "format": "ETC1A4",
+      "surface_format": 18,
+      "mipcount": 1,
+      "index": 72,
+      "uses": 9,
+      "sha256": "a64cb1108ecda96ae5975a536513c944503eb1f26f453439c48138c6d7c6a4c7"
+    },
+    {
+      "offset": 958208,
+      "absolute_offset": 2122368,
+      "size": 1024,
+      "base_size": 1024,
+      "w": 32,
+      "h": 32,
+      "format": "ETC1A4",
+      "surface_format": 18,
+      "mipcount": 1,
+      "index": 73,
+      "uses": 14,
+      "sha256": "f8c29243459778c5603232f1d681ed71ac934c2ec0555856340426834f8c4346"
+    },
+    {
+      "offset": 959232,
+      "absolute_offset": 2123392,
+      "size": 4096,
+      "base_size": 4096,
+      "w": 64,
+      "h": 64,
+      "format": "ETC1A4",
+      "surface_format": 18,
+      "mipcount": 1,
+      "index": 74,
+      "uses": 3,
+      "sha256": "1942e0d512328fda32a939e2d36cf7f6da09692fb241056aa2705c21fb2e62c6"
+    },
+    {
+      "offset": 963328,
+      "absolute_offset": 2127488,
+      "size": 32768,
+      "base_size": 32768,
+      "w": 256,
+      "h": 256,
+      "format": "ETC1",
+      "surface_format": 19,
+      "mipcount": 1,
+      "index": 75,
+      "uses": 4,
+      "sha256": "be453c4a4caf709ee4139f8a84c4971d9b9ffffdc99b5a71b7e2b12e8de34393"
+    },
+    {
+      "offset": 996096,
+      "absolute_offset": 2160256,
+      "size": 2048,
+      "base_size": 2048,
+      "w": 64,
+      "h": 64,
+      "format": "ETC1",
+      "surface_format": 19,
+      "mipcount": 1,
+      "index": 76,
+      "uses": 4,
+      "sha256": "ade9599065feb6164912de1d8357e460acd80558394aa5ed7912db79a9269629"
+    },
+    {
+      "offset": 998144,
+      "absolute_offset": 2162304,
+      "size": 8192,
+      "base_size": 8192,
+      "w": 128,
+      "h": 128,
+      "format": "ETC1",
+      "surface_format": 19,
+      "mipcount": 1,
+      "index": 77,
+      "uses": 2,
+      "sha256": "5d032c876310fd10a19d6c704baed86014a901bc4db5905da823f32620eb888e"
+    },
+    {
+      "offset": 1006336,
+      "absolute_offset": 2170496,
+      "size": 8192,
+      "base_size": 8192,
+      "w": 128,
+      "h": 128,
+      "format": "ETC1",
+      "surface_format": 19,
+      "mipcount": 1,
+      "index": 78,
+      "uses": 2,
+      "sha256": "705bfb3152e7c165ee5a5e3ea52ce00ecca38c297528eb733bc0980720aee4cd"
+    },
+    {
+      "offset": 1014528,
+      "absolute_offset": 2178688,
+      "size": 4096,
+      "base_size": 4096,
+      "w": 64,
+      "h": 64,
+      "format": "ETC1A4",
+      "surface_format": 18,
+      "mipcount": 1,
+      "index": 79,
+      "uses": 1,
+      "sha256": "6884ca839422a72d1d22ac7375e78dc7058bde7e5d08b775b583a864c04f8869"
+    },
+    {
+      "offset": 1018624,
+      "absolute_offset": 2182784,
+      "size": 4096,
+      "base_size": 4096,
+      "w": 128,
+      "h": 64,
+      "format": "ETC1",
+      "surface_format": 19,
+      "mipcount": 1,
+      "index": 80,
+      "uses": 2,
+      "sha256": "f934864e44e6093ff7898f53b8975bac62bd2c2d0d2ba84a894c8d21d36d23e8"
+    },
+    {
+      "offset": 1022720,
+      "absolute_offset": 2186880,
+      "size": 4096,
+      "base_size": 4096,
+      "w": 64,
+      "h": 64,
+      "format": "ETC1A4",
+      "surface_format": 18,
+      "mipcount": 1,
+      "index": 81,
+      "uses": 1,
+      "sha256": "c2b4546350493437484b6c4b2890f8adfb36cb3ce2c6db77ab75d91565b8470a"
+    },
+    {
+      "offset": 1026816,
+      "absolute_offset": 2190976,
+      "size": 4096,
+      "base_size": 4096,
+      "w": 64,
+      "h": 64,
+      "format": "ETC1A4",
+      "surface_format": 18,
+      "mipcount": 1,
+      "index": 82,
+      "uses": 1,
+      "sha256": "d35b938b7a0620e1f1ff9e5091955a6817677fcabf5b751c5a3411d0c919ac2e"
+    },
+    {
+      "offset": 1030912,
+      "absolute_offset": 2195072,
+      "size": 8192,
+      "base_size": 8192,
+      "w": 128,
+      "h": 128,
+      "format": "ETC1",
+      "surface_format": 19,
+      "mipcount": 1,
+      "index": 83,
+      "uses": 2,
+      "sha256": "1f1279b9022114ce181d2a4f9b50d5b72aa4d0cb2066d8427611d7cc6bf66339"
+    },
+    {
+      "offset": 1039104,
+      "absolute_offset": 2203264,
+      "size": 43008,
+      "base_size": 32768,
+      "w": 256,
+      "h": 256,
+      "format": "ETC1",
+      "surface_format": 19,
+      "mipcount": 3,
+      "index": 84,
+      "uses": 2,
+      "sha256": "f067a61ec3e1a2b8c0e80628eaed3622664a03efef22991b568cb2ff5b77f633"
+    },
+    {
+      "offset": 1082112,
+      "absolute_offset": 2246272,
+      "size": 4096,
+      "base_size": 4096,
+      "w": 64,
+      "h": 64,
+      "format": "ETC1A4",
+      "surface_format": 18,
+      "mipcount": 1,
+      "index": 85,
+      "uses": 1,
+      "sha256": "453395760fa459c7202baec354aa49122801c2c540441d500348895c0d2387e4"
+    },
+    {
+      "offset": 1086208,
+      "absolute_offset": 2250368,
+      "size": 2048,
+      "base_size": 2048,
+      "w": 64,
+      "h": 64,
+      "format": "ETC1",
+      "surface_format": 19,
+      "mipcount": 1,
+      "index": 86,
+      "uses": 4,
+      "sha256": "cb4aaf006932c62e4b1f5fb69f67bfd2dd920670cb985dda5455b7044a25d2fc"
+    }
+  ],
+  "uses": [
+    {
+      "effect": "ase00a",
+      "emitter": "ase00a_0",
+      "slot": 0,
+      "descriptor": 9160,
+      "offset": 0
+    },
+    {
+      "effect": "ase01a",
+      "emitter": "ase00a_0",
+      "slot": 0,
+      "descriptor": 10520,
+      "offset": 2048
+    },
+    {
+      "effect": "ase02a",
+      "emitter": "ase00a_0",
+      "slot": 0,
+      "descriptor": 11880,
+      "offset": 6144
+    },
+    {
+      "effect": "attack01a",
+      "emitter": "Emitter1",
+      "slot": 0,
+      "descriptor": 13248,
+      "offset": 10240
+    },
+    {
+      "effect": "attack01a",
+      "emitter": "Emitter2",
+      "slot": 0,
+      "descriptor": 14600,
+      "offset": 14336
+    },
+    {
+      "effect": "attack02a",
+      "emitter": "Emitter1",
+      "slot": 0,
+      "descriptor": 15968,
+      "offset": 10240
+    },
+    {
+      "effect": "attack02a",
+      "emitter": "Emitter2",
+      "slot": 0,
+      "descriptor": 17320,
+      "offset": 14336
+    },
+    {
+      "effect": "blackball_ring",
+      "emitter": "laser_ring",
+      "slot": 0,
+      "descriptor": 18680,
+      "offset": 15360
+    },
+    {
+      "effect": "blackball_ring",
+      "emitter": "laser_ring",
+      "slot": 1,
+      "descriptor": 18804,
+      "offset": 15360
+    },
+    {
+      "effect": "blackball_ring01a",
+      "emitter": "laser_ring_Copy1",
+      "slot": 0,
+      "descriptor": 20048,
+      "offset": 15360
+    },
+    {
+      "effect": "blackball_ring01a",
+      "emitter": "laser_ring_Copy1",
+      "slot": 1,
+      "descriptor": 20172,
+      "offset": 15360
+    },
+    {
+      "effect": "blackball_ring01a",
+      "emitter": "laser_ring",
+      "slot": 0,
+      "descriptor": 21400,
+      "offset": 15360
+    },
+    {
+      "effect": "blackball_ring01a",
+      "emitter": "laser_ring",
+      "slot": 1,
+      "descriptor": 21524,
+      "offset": 15360
+    },
+    {
+      "effect": "black_hole03a",
+      "emitter": "ball",
+      "slot": 0,
+      "descriptor": 22760,
+      "offset": 48128
+    },
+    {
+      "effect": "black_hole_charge01a",
+      "emitter": "line",
+      "slot": 0,
+      "descriptor": 24120,
+      "offset": 80896
+    },
+    {
+      "effect": "black_hole_charge02a",
+      "emitter": "core",
+      "slot": 0,
+      "descriptor": 25480,
+      "offset": 84992
+    },
+    {
+      "effect": "black_hole_division01a",
+      "emitter": "ball",
+      "slot": 0,
+      "descriptor": 26848,
+      "offset": 48128
+    },
+    {
+      "effect": "black_hole_division01a",
+      "emitter": "ring",
+      "slot": 0,
+      "descriptor": 28200,
+      "offset": 87040
+    },
+    {
+      "effect": "black_hole_gointo01a",
+      "emitter": "boll",
+      "slot": 0,
+      "descriptor": 29568,
+      "offset": 152576
+    },
+    {
+      "effect": "black_hole_gointo01a",
+      "emitter": "Emitter1",
+      "slot": 0,
+      "descriptor": 30920,
+      "offset": 185344
+    },
+    {
+      "effect": "black_hole_hit01a",
+      "emitter": "ball",
+      "slot": 0,
+      "descriptor": 32296,
+      "offset": 48128
+    },
+    {
+      "effect": "black_hole_hit01a",
+      "emitter": "hinoko",
+      "slot": 0,
+      "descriptor": 33648,
+      "offset": 201728
+    },
+    {
+      "effect": "black_hole_hit01a",
+      "emitter": "hinoko_glow",
+      "slot": 0,
+      "descriptor": 35000,
+      "offset": 201728
+    },
+    {
+      "effect": "black_hole_inout01a",
+      "emitter": "smoke_01",
+      "slot": 0,
+      "descriptor": 36360,
+      "offset": 201984
+    },
+    {
+      "effect": "black_hole_inout01b",
+      "emitter": "smoke_01",
+      "slot": 0,
+      "descriptor": 37720,
+      "offset": 201984
+    },
+    {
+      "effect": "black_hole_move01a",
+      "emitter": "laser_ring",
+      "slot": 0,
+      "descriptor": 39088,
+      "offset": 15360
+    },
+    {
+      "effect": "black_hole_move01a",
+      "emitter": "laser_ring",
+      "slot": 1,
+      "descriptor": 39212,
+      "offset": 15360
+    },
+    {
+      "effect": "black_hole_move01a",
+      "emitter": "boll",
+      "slot": 0,
+      "descriptor": 40440,
+      "offset": 48128
+    },
+    {
+      "effect": "black_hole_move01b",
+      "emitter": "laser_ring",
+      "slot": 0,
+      "descriptor": 41808,
+      "offset": 15360
+    },
+    {
+      "effect": "black_hole_move01b",
+      "emitter": "laser_ring",
+      "slot": 1,
+      "descriptor": 41932,
+      "offset": 15360
+    },
+    {
+      "effect": "black_hole_move01b",
+      "emitter": "boll",
+      "slot": 0,
+      "descriptor": 43160,
+      "offset": 48128
+    },
+    {
+      "effect": "black_hole_spit01a",
+      "emitter": "ball",
+      "slot": 0,
+      "descriptor": 44528,
+      "offset": 48128
+    },
+    {
+      "effect": "black_hole_spit01a",
+      "emitter": "ring",
+      "slot": 0,
+      "descriptor": 45880,
+      "offset": 87040
+    },
+    {
+      "effect": "black_hole_vacuum01a",
+      "emitter": "Emitter1",
+      "slot": 0,
+      "descriptor": 47248,
+      "offset": 218368
+    },
+    {
+      "effect": "black_hole_vacuum01a",
+      "emitter": "light1",
+      "slot": 0,
+      "descriptor": 48656,
+      "offset": 14336
+    },
+    {
+      "effect": "black_hole_wave01a",
+      "emitter": "ring",
+      "slot": 0,
+      "descriptor": 50016,
+      "offset": 87040
+    },
+    {
+      "effect": "black_hole_wave02a",
+      "emitter": "ring",
+      "slot": 0,
+      "descriptor": 51376,
+      "offset": 87040
+    },
+    {
+      "effect": "black_hole_wind01a",
+      "emitter": "kaze_00",
+      "slot": 0,
+      "descriptor": 52736,
+      "offset": 251136
+    },
+    {
+      "effect": "black_hole_wind02a",
+      "emitter": "kaze_00",
+      "slot": 0,
+      "descriptor": 54096,
+      "offset": 251136
+    },
+    {
+      "effect": "black_hole_wind02b",
+      "emitter": "kaze_00",
+      "slot": 0,
+      "descriptor": 55456,
+      "offset": 251136
+    },
+    {
+      "effect": "black_kemuri01a",
+      "emitter": "smoke_00",
+      "slot": 0,
+      "descriptor": 56816,
+      "offset": 253184
+    },
+    {
+      "effect": "black_kemuri02a",
+      "emitter": "kemuri_1",
+      "slot": 0,
+      "descriptor": 58176,
+      "offset": 253696
+    },
+    {
+      "effect": "bomb_spark01a",
+      "emitter": "core_1",
+      "slot": 0,
+      "descriptor": 59560,
+      "offset": 10240
+    },
+    {
+      "effect": "bomb_spark01a",
+      "emitter": "core_2",
+      "slot": 0,
+      "descriptor": 60912,
+      "offset": 10240
+    },
+    {
+      "effect": "bomb_spark01a",
+      "emitter": "line_1",
+      "slot": 0,
+      "descriptor": 62264,
+      "offset": 257792
+    },
+    {
+      "effect": "bomb_spark01a",
+      "emitter": "line_2",
+      "slot": 0,
+      "descriptor": 63616,
+      "offset": 257792
+    },
+    {
+      "effect": "bridge_debris01a",
+      "emitter": "hahen",
+      "slot": 0,
+      "descriptor": 64984,
+      "offset": 265984
+    },
+    {
+      "effect": "bridge_debris01a",
+      "emitter": "kemuri",
+      "slot": 0,
+      "descriptor": 66336,
+      "offset": 253184
+    },
+    {
+      "effect": "bridge_kemuri01a",
+      "emitter": "kemuri_01",
+      "slot": 0,
+      "descriptor": 67704,
+      "offset": 253696
+    },
+    {
+      "effect": "bridge_kemuri01a",
+      "emitter": "hahen",
+      "slot": 0,
+      "descriptor": 69056,
+      "offset": 265984
+    },
+    {
+      "effect": "bridge_kemuri02a",
+      "emitter": "kemuri_01",
+      "slot": 0,
+      "descriptor": 70416,
+      "offset": 253696
+    },
+    {
+      "effect": "canon_fire01a",
+      "emitter": "kemuri1",
+      "slot": 0,
+      "descriptor": 71776,
+      "offset": 253696
+    },
+    {
+      "effect": "castle_kemuri01a",
+      "emitter": "kemuri_01",
+      "slot": 0,
+      "descriptor": 73136,
+      "offset": 253696
+    },
+    {
+      "effect": "castle_kemuri01b",
+      "emitter": "kemuri_01",
+      "slot": 0,
+      "descriptor": 74496,
+      "offset": 253696
+    },
+    {
+      "effect": "castle_kemuri01c",
+      "emitter": "kemuri_01",
+      "slot": 0,
+      "descriptor": 75856,
+      "offset": 253696
+    },
+    {
+      "effect": "castle_kemuri02a",
+      "emitter": "kemuri_01",
+      "slot": 0,
+      "descriptor": 77216,
+      "offset": 253696
+    },
+    {
+      "effect": "castle_kemuri04c",
+      "emitter": "kemuri_01",
+      "slot": 0,
+      "descriptor": 78576,
+      "offset": 253696
+    },
+    {
+      "effect": "castle_kemuri04d",
+      "emitter": "kemuri_01",
+      "slot": 0,
+      "descriptor": 79936,
+      "offset": 253696
+    },
+    {
+      "effect": "castle_kemuri05a",
+      "emitter": "kemuri_01",
+      "slot": 0,
+      "descriptor": 81296,
+      "offset": 253696
+    },
+    {
+      "effect": "castle_kemuri06a",
+      "emitter": "kemuri_01",
+      "slot": 0,
+      "descriptor": 82656,
+      "offset": 253696
+    },
+    {
+      "effect": "castle_kemuri08a",
+      "emitter": "kemuri_01",
+      "slot": 0,
+      "descriptor": 84016,
+      "offset": 253696
+    },
+    {
+      "effect": "castle_kemuri25b",
+      "emitter": "kemuri_01",
+      "slot": 0,
+      "descriptor": 85376,
+      "offset": 253696
+    },
+    {
+      "effect": "choropoo_kemuri01a",
+      "emitter": "kemuri_01",
+      "slot": 0,
+      "descriptor": 86736,
+      "offset": 253696
+    },
+    {
+      "effect": "cloud_rain01a",
+      "emitter": "rain_01",
+      "slot": 0,
+      "descriptor": 88096,
+      "offset": 14336
+    },
+    {
+      "effect": "cloud_thunder01a",
+      "emitter": "core_Copy",
+      "slot": 0,
+      "descriptor": 89472,
+      "offset": 268032
+    },
+    {
+      "effect": "cloud_thunder01a",
+      "emitter": "thunder_1",
+      "slot": 0,
+      "descriptor": 90860,
+      "offset": 268544
+    },
+    {
+      "effect": "cloud_thunder01a",
+      "emitter": "thunder_2",
+      "slot": 0,
+      "descriptor": 92248,
+      "offset": 268544
+    },
+    {
+      "effect": "damage_smoke05a",
+      "emitter": "kemuri",
+      "slot": 0,
+      "descriptor": 93644,
+      "offset": 253696
+    },
+    {
+      "effect": "damage_smoke06a",
+      "emitter": "kemuri",
+      "slot": 0,
+      "descriptor": 95004,
+      "offset": 253696
+    },
+    {
+      "effect": "damage_smork01a",
+      "emitter": "kemuri01",
+      "slot": 0,
+      "descriptor": 96364,
+      "offset": 253696
+    },
+    {
+      "effect": "damage_smork02a",
+      "emitter": "kemuri",
+      "slot": 0,
+      "descriptor": 97724,
+      "offset": 253696
+    },
+    {
+      "effect": "damage_smork03a",
+      "emitter": "kemuri",
+      "slot": 0,
+      "descriptor": 99084,
+      "offset": 253696
+    },
+    {
+      "effect": "damage_smork_04a",
+      "emitter": "kemuri",
+      "slot": 0,
+      "descriptor": 100444,
+      "offset": 253696
+    },
+    {
+      "effect": "debris01a",
+      "emitter": "hahen",
+      "slot": 0,
+      "descriptor": 101812,
+      "offset": 265984
+    },
+    {
+      "effect": "debris01a",
+      "emitter": "kemuri",
+      "slot": 0,
+      "descriptor": 103164,
+      "offset": 253184
+    },
+    {
+      "effect": "debris01b",
+      "emitter": "hahen",
+      "slot": 0,
+      "descriptor": 104532,
+      "offset": 265984
+    },
+    {
+      "effect": "debris01b",
+      "emitter": "kemuri",
+      "slot": 0,
+      "descriptor": 105884,
+      "offset": 253184
+    },
+    {
+      "effect": "debris01c",
+      "emitter": "hahen",
+      "slot": 0,
+      "descriptor": 107252,
+      "offset": 265984
+    },
+    {
+      "effect": "debris01c",
+      "emitter": "kemuri",
+      "slot": 0,
+      "descriptor": 108604,
+      "offset": 253184
+    },
+    {
+      "effect": "explosion01a",
+      "emitter": "kemuri_01",
+      "slot": 0,
+      "descriptor": 110012,
+      "offset": 253696
+    },
+    {
+      "effect": "explosion01a",
+      "emitter": "smoke_01",
+      "slot": 0,
+      "descriptor": 111364,
+      "offset": 253696
+    },
+    {
+      "effect": "explosion01a",
+      "emitter": "bomb_01",
+      "slot": 0,
+      "descriptor": 112716,
+      "offset": 334080
+    },
+    {
+      "effect": "explosion01a",
+      "emitter": "core_01",
+      "slot": 0,
+      "descriptor": 114068,
+      "offset": 14336
+    },
+    {
+      "effect": "explosion01a",
+      "emitter": "ring_01",
+      "slot": 0,
+      "descriptor": 115420,
+      "offset": 338176
+    },
+    {
+      "effect": "explosion01a",
+      "emitter": "core_02",
+      "slot": 0,
+      "descriptor": 116772,
+      "offset": 14336
+    },
+    {
+      "effect": "explosion01a",
+      "emitter": "hibana_01",
+      "slot": 0,
+      "descriptor": 118124,
+      "offset": 14336
+    },
+    {
+      "effect": "explosion01b",
+      "emitter": "kemuri_01",
+      "slot": 0,
+      "descriptor": 119540,
+      "offset": 253696
+    },
+    {
+      "effect": "explosion01b",
+      "emitter": "smoke_01",
+      "slot": 0,
+      "descriptor": 120892,
+      "offset": 253696
+    },
+    {
+      "effect": "explosion01b",
+      "emitter": "hahen",
+      "slot": 0,
+      "descriptor": 122244,
+      "offset": 265984
+    },
+    {
+      "effect": "explosion01b",
+      "emitter": "bomb_01",
+      "slot": 0,
+      "descriptor": 123596,
+      "offset": 334080
+    },
+    {
+      "effect": "explosion01b",
+      "emitter": "core_01",
+      "slot": 0,
+      "descriptor": 124948,
+      "offset": 14336
+    },
+    {
+      "effect": "explosion01b",
+      "emitter": "ring_01",
+      "slot": 0,
+      "descriptor": 126300,
+      "offset": 338176
+    },
+    {
+      "effect": "explosion01b",
+      "emitter": "core_02",
+      "slot": 0,
+      "descriptor": 127652,
+      "offset": 14336
+    },
+    {
+      "effect": "explosion01b",
+      "emitter": "hibana_01",
+      "slot": 0,
+      "descriptor": 129004,
+      "offset": 14336
+    },
+    {
+      "effect": "explosion01c",
+      "emitter": "kemuri_01",
+      "slot": 0,
+      "descriptor": 130412,
+      "offset": 253696
+    },
+    {
+      "effect": "explosion01c",
+      "emitter": "smoke_01",
+      "slot": 0,
+      "descriptor": 131764,
+      "offset": 253696
+    },
+    {
+      "effect": "explosion01c",
+      "emitter": "bomb_01",
+      "slot": 0,
+      "descriptor": 133116,
+      "offset": 334080
+    },
+    {
+      "effect": "explosion01c",
+      "emitter": "core_01",
+      "slot": 0,
+      "descriptor": 134468,
+      "offset": 14336
+    },
+    {
+      "effect": "explosion01c",
+      "emitter": "ring_01",
+      "slot": 0,
+      "descriptor": 135820,
+      "offset": 338176
+    },
+    {
+      "effect": "explosion01c",
+      "emitter": "core_02",
+      "slot": 0,
+      "descriptor": 137172,
+      "offset": 14336
+    },
+    {
+      "effect": "explosion01c",
+      "emitter": "hibana_01",
+      "slot": 0,
+      "descriptor": 138524,
+      "offset": 14336
+    },
+    {
+      "effect": "explosion02a",
+      "emitter": "kemuri_01",
+      "slot": 0,
+      "descriptor": 139940,
+      "offset": 253696
+    },
+    {
+      "effect": "explosion02a",
+      "emitter": "smoke_01",
+      "slot": 0,
+      "descriptor": 141292,
+      "offset": 253696
+    },
+    {
+      "effect": "explosion02a",
+      "emitter": "hahen",
+      "slot": 0,
+      "descriptor": 142644,
+      "offset": 265984
+    },
+    {
+      "effect": "explosion02a",
+      "emitter": "bomb_01",
+      "slot": 0,
+      "descriptor": 143996,
+      "offset": 334080
+    },
+    {
+      "effect": "explosion02a",
+      "emitter": "core_01",
+      "slot": 0,
+      "descriptor": 145348,
+      "offset": 14336
+    },
+    {
+      "effect": "explosion02a",
+      "emitter": "ring_01",
+      "slot": 0,
+      "descriptor": 146700,
+      "offset": 338176
+    },
+    {
+      "effect": "explosion02a",
+      "emitter": "core_02",
+      "slot": 0,
+      "descriptor": 148052,
+      "offset": 14336
+    },
+    {
+      "effect": "explosion02a",
+      "emitter": "hibana_01",
+      "slot": 0,
+      "descriptor": 149404,
+      "offset": 14336
+    },
+    {
+      "effect": "explosion03a",
+      "emitter": "hahen",
+      "slot": 0,
+      "descriptor": 150764,
+      "offset": 265984
+    },
+    {
+      "effect": "explosion04a",
+      "emitter": "kemuri_01",
+      "slot": 0,
+      "descriptor": 152172,
+      "offset": 253696
+    },
+    {
+      "effect": "explosion04a",
+      "emitter": "smoke_01",
+      "slot": 0,
+      "descriptor": 153524,
+      "offset": 253696
+    },
+    {
+      "effect": "explosion04a",
+      "emitter": "bomb_01",
+      "slot": 0,
+      "descriptor": 154876,
+      "offset": 334080
+    },
+    {
+      "effect": "explosion04a",
+      "emitter": "core_01",
+      "slot": 0,
+      "descriptor": 156228,
+      "offset": 14336
+    },
+    {
+      "effect": "explosion04a",
+      "emitter": "ring_01",
+      "slot": 0,
+      "descriptor": 157580,
+      "offset": 338176
+    },
+    {
+      "effect": "explosion04a",
+      "emitter": "core_02",
+      "slot": 0,
+      "descriptor": 158932,
+      "offset": 14336
+    },
+    {
+      "effect": "explosion04a",
+      "emitter": "hibana_01",
+      "slot": 0,
+      "descriptor": 160284,
+      "offset": 14336
+    },
+    {
+      "effect": "explosion05a",
+      "emitter": "kemuri_01",
+      "slot": 0,
+      "descriptor": 161692,
+      "offset": 253696
+    },
+    {
+      "effect": "explosion05a",
+      "emitter": "smoke_01",
+      "slot": 0,
+      "descriptor": 163044,
+      "offset": 253696
+    },
+    {
+      "effect": "explosion05a",
+      "emitter": "bomb_01",
+      "slot": 0,
+      "descriptor": 164396,
+      "offset": 334080
+    },
+    {
+      "effect": "explosion05a",
+      "emitter": "core_01",
+      "slot": 0,
+      "descriptor": 165748,
+      "offset": 14336
+    },
+    {
+      "effect": "explosion05a",
+      "emitter": "ring_01",
+      "slot": 0,
+      "descriptor": 167100,
+      "offset": 338176
+    },
+    {
+      "effect": "explosion05a",
+      "emitter": "core_02",
+      "slot": 0,
+      "descriptor": 168452,
+      "offset": 14336
+    },
+    {
+      "effect": "explosion05a",
+      "emitter": "hibana_01",
+      "slot": 0,
+      "descriptor": 169804,
+      "offset": 14336
+    },
+    {
+      "effect": "explosion_big01a",
+      "emitter": "kemuri_01",
+      "slot": 0,
+      "descriptor": 171212,
+      "offset": 253696
+    },
+    {
+      "effect": "explosion_big01a",
+      "emitter": "smoke_01",
+      "slot": 0,
+      "descriptor": 172564,
+      "offset": 253696
+    },
+    {
+      "effect": "explosion_big01a",
+      "emitter": "bomb_01",
+      "slot": 0,
+      "descriptor": 173916,
+      "offset": 334080
+    },
+    {
+      "effect": "explosion_big01a",
+      "emitter": "core_01",
+      "slot": 0,
+      "descriptor": 175268,
+      "offset": 14336
+    },
+    {
+      "effect": "explosion_big01a",
+      "emitter": "ring_01",
+      "slot": 0,
+      "descriptor": 176620,
+      "offset": 338176
+    },
+    {
+      "effect": "explosion_big01a",
+      "emitter": "core_02",
+      "slot": 0,
+      "descriptor": 177972,
+      "offset": 14336
+    },
+    {
+      "effect": "explosion_big01a",
+      "emitter": "hibana_01",
+      "slot": 0,
+      "descriptor": 179324,
+      "offset": 14336
+    },
+    {
+      "effect": "explosion_big02a",
+      "emitter": "kemuri_01",
+      "slot": 0,
+      "descriptor": 180732,
+      "offset": 253696
+    },
+    {
+      "effect": "explosion_big02a",
+      "emitter": "smoke_01",
+      "slot": 0,
+      "descriptor": 182084,
+      "offset": 253696
+    },
+    {
+      "effect": "explosion_big02a",
+      "emitter": "bomb_01",
+      "slot": 0,
+      "descriptor": 183436,
+      "offset": 334080
+    },
+    {
+      "effect": "explosion_big02a",
+      "emitter": "core_01",
+      "slot": 0,
+      "descriptor": 184788,
+      "offset": 14336
+    },
+    {
+      "effect": "explosion_big02a",
+      "emitter": "ring_01",
+      "slot": 0,
+      "descriptor": 186140,
+      "offset": 338176
+    },
+    {
+      "effect": "explosion_big02a",
+      "emitter": "core_02",
+      "slot": 0,
+      "descriptor": 187492,
+      "offset": 14336
+    },
+    {
+      "effect": "explosion_big02a",
+      "emitter": "hibana_01",
+      "slot": 0,
+      "descriptor": 188844,
+      "offset": 14336
+    },
+    {
+      "effect": "explosion_spark01a",
+      "emitter": "spark",
+      "slot": 0,
+      "descriptor": 190204,
+      "offset": 201728
+    },
+    {
+      "effect": "explosion_spark02a",
+      "emitter": "hibana_01",
+      "slot": 0,
+      "descriptor": 191572,
+      "offset": 14336
+    },
+    {
+      "effect": "explosion_spark02a",
+      "emitter": "hibana_01_glow",
+      "slot": 0,
+      "descriptor": 192924,
+      "offset": 14336
+    },
+    {
+      "effect": "firebreath_erase01a",
+      "emitter": "smoke_01",
+      "slot": 0,
+      "descriptor": 194292,
+      "offset": 253696
+    },
+    {
+      "effect": "firebreath_erase01a",
+      "emitter": "core_01",
+      "slot": 0,
+      "descriptor": 195644,
+      "offset": 14336
+    },
+    {
+      "effect": "fire_01a",
+      "emitter": "core",
+      "slot": 0,
+      "descriptor": 197020,
+      "offset": 253184
+    },
+    {
+      "effect": "fire_01a",
+      "emitter": "fire1",
+      "slot": 0,
+      "descriptor": 198372,
+      "offset": 339200
+    },
+    {
+      "effect": "fire_01a",
+      "emitter": "fire2",
+      "slot": 0,
+      "descriptor": 199724,
+      "offset": 339200
+    },
+    {
+      "effect": "fire_01b",
+      "emitter": "core",
+      "slot": 0,
+      "descriptor": 201092,
+      "offset": 344576
+    },
+    {
+      "effect": "fire_01b",
+      "emitter": "core_Copy1",
+      "slot": 0,
+      "descriptor": 202444,
+      "offset": 339200
+    },
+    {
+      "effect": "fire_01c",
+      "emitter": "core",
+      "slot": 0,
+      "descriptor": 203812,
+      "offset": 346624
+    },
+    {
+      "effect": "fire_01c",
+      "emitter": "core_Copy1",
+      "slot": 0,
+      "descriptor": 205164,
+      "offset": 339200
+    },
+    {
+      "effect": "fire_01d",
+      "emitter": "fire_main1",
+      "slot": 0,
+      "descriptor": 206540,
+      "offset": 346624
+    },
+    {
+      "effect": "fire_01d",
+      "emitter": "core",
+      "slot": 0,
+      "descriptor": 207892,
+      "offset": 346624
+    },
+    {
+      "effect": "fire_01d",
+      "emitter": "fire2",
+      "slot": 0,
+      "descriptor": 209244,
+      "offset": 339200
+    },
+    {
+      "effect": "fire_02a",
+      "emitter": "core",
+      "slot": 0,
+      "descriptor": 210620,
+      "offset": 253184
+    },
+    {
+      "effect": "fire_02a",
+      "emitter": "fire1",
+      "slot": 0,
+      "descriptor": 211972,
+      "offset": 339200
+    },
+    {
+      "effect": "fire_02a",
+      "emitter": "fire2",
+      "slot": 0,
+      "descriptor": 213324,
+      "offset": 339200
+    },
+    {
+      "effect": "fire_03a",
+      "emitter": "core",
+      "slot": 0,
+      "descriptor": 214700,
+      "offset": 253184
+    },
+    {
+      "effect": "fire_03a",
+      "emitter": "fire1",
+      "slot": 0,
+      "descriptor": 216052,
+      "offset": 339200
+    },
+    {
+      "effect": "fire_03a",
+      "emitter": "fire2",
+      "slot": 0,
+      "descriptor": 217404,
+      "offset": 339200
+    },
+    {
+      "effect": "fire_pillar01a",
+      "emitter": "fire_main1",
+      "slot": 0,
+      "descriptor": 218772,
+      "offset": 477696
+    },
+    {
+      "effect": "fire_pillar01a",
+      "emitter": "fire_main1_Copy1",
+      "slot": 0,
+      "descriptor": 220124,
+      "offset": 477696
+    },
+    {
+      "effect": "fire_pillar02a",
+      "emitter": "fire_main1",
+      "slot": 0,
+      "descriptor": 221492,
+      "offset": 477696
+    },
+    {
+      "effect": "fire_pillar02a",
+      "emitter": "fire_main1_Copy1",
+      "slot": 0,
+      "descriptor": 222844,
+      "offset": 477696
+    },
+    {
+      "effect": "fire_pillar03a",
+      "emitter": "fire_main1_Copy1",
+      "slot": 0,
+      "descriptor": 224204,
+      "offset": 477696
+    },
+    {
+      "effect": "fire_pillar04a",
+      "emitter": "fire_main1",
+      "slot": 0,
+      "descriptor": 225572,
+      "offset": 477696
+    },
+    {
+      "effect": "fire_pillar04a",
+      "emitter": "fire_main1_Copy1",
+      "slot": 0,
+      "descriptor": 226924,
+      "offset": 477696
+    },
+    {
+      "effect": "fire_pillar05a",
+      "emitter": "fire_main1",
+      "slot": 0,
+      "descriptor": 228292,
+      "offset": 477696
+    },
+    {
+      "effect": "fire_pillar05a",
+      "emitter": "fire_main1_Copy1",
+      "slot": 0,
+      "descriptor": 229644,
+      "offset": 477696
+    },
+    {
+      "effect": "fire_pillar06a",
+      "emitter": "fire_main1",
+      "slot": 0,
+      "descriptor": 231012,
+      "offset": 477696
+    },
+    {
+      "effect": "fire_pillar06a",
+      "emitter": "fire_main1_Copy1",
+      "slot": 0,
+      "descriptor": 232364,
+      "offset": 477696
+    },
+    {
+      "effect": "flash01a",
+      "emitter": "flash",
+      "slot": 0,
+      "descriptor": 233724,
+      "offset": 14336
+    },
+    {
+      "effect": "flash02a",
+      "emitter": "flash",
+      "slot": 0,
+      "descriptor": 235084,
+      "offset": 14336
+    },
+    {
+      "effect": "flychoropoo_fire01a",
+      "emitter": "fire_main2",
+      "slot": 0,
+      "descriptor": 236460,
+      "offset": 344576
+    },
+    {
+      "effect": "flychoropoo_fire01a",
+      "emitter": "fire_main1",
+      "slot": 0,
+      "descriptor": 237812,
+      "offset": 344576
+    },
+    {
+      "effect": "flychoropoo_fire01a",
+      "emitter": "core",
+      "slot": 0,
+      "descriptor": 239164,
+      "offset": 510464
+    },
+    {
+      "effect": "gerabomb_spark01a",
+      "emitter": "core_1",
+      "slot": 0,
+      "descriptor": 240540,
+      "offset": 10240
+    },
+    {
+      "effect": "gerabomb_spark01a",
+      "emitter": "core_2",
+      "slot": 0,
+      "descriptor": 241892,
+      "offset": 10240
+    },
+    {
+      "effect": "gerabomb_spark01a",
+      "emitter": "line",
+      "slot": 0,
+      "descriptor": 243244,
+      "offset": 257792
+    },
+    {
+      "effect": "geraex_chimney01a",
+      "emitter": "kemuri_up",
+      "slot": 0,
+      "descriptor": 244604,
+      "offset": 253696
+    },
+    {
+      "effect": "geraex_debris01a",
+      "emitter": "hahen",
+      "slot": 0,
+      "descriptor": 245972,
+      "offset": 512512
+    },
+    {
+      "effect": "geraex_debris01a",
+      "emitter": "kemuri",
+      "slot": 0,
+      "descriptor": 247324,
+      "offset": 253184
+    },
+    {
+      "effect": "geraex_fa_kemuri01a",
+      "emitter": "kemuri_01",
+      "slot": 0,
+      "descriptor": 248684,
+      "offset": 253696
+    },
+    {
+      "effect": "geraex_hibana01a",
+      "emitter": "kemuri",
+      "slot": 0,
+      "descriptor": 250052,
+      "offset": 253696
+    },
+    {
+      "effect": "geraex_hibana01a",
+      "emitter": "kemuri_Copy1",
+      "slot": 0,
+      "descriptor": 251404,
+      "offset": 516608
+    },
+    {
+      "effect": "geraex_hibana02a",
+      "emitter": "kemuri",
+      "slot": 0,
+      "descriptor": 252788,
+      "offset": 253696
+    },
+    {
+      "effect": "geraex_hibana02a",
+      "emitter": "kemuri_Copy1",
+      "slot": 0,
+      "descriptor": 254140,
+      "offset": 516608
+    },
+    {
+      "effect": "geraex_hibana02a",
+      "emitter": "light1",
+      "slot": 0,
+      "descriptor": 255492,
+      "offset": 14336
+    },
+    {
+      "effect": "geraex_hibana02a",
+      "emitter": "light1_Copy1",
+      "slot": 0,
+      "descriptor": 256844,
+      "offset": 14336
+    },
+    {
+      "effect": "geraex_hibana03a",
+      "emitter": "kemuri",
+      "slot": 0,
+      "descriptor": 258212,
+      "offset": 253696
+    },
+    {
+      "effect": "geraex_hibana03a",
+      "emitter": "kemuri_Copy1",
+      "slot": 0,
+      "descriptor": 259564,
+      "offset": 516608
+    },
+    {
+      "effect": "geraex_kemuri01a",
+      "emitter": "kemuri_01",
+      "slot": 0,
+      "descriptor": 260924,
+      "offset": 253696
+    },
+    {
+      "effect": "geraex_smork01a",
+      "emitter": "kemuri_01",
+      "slot": 0,
+      "descriptor": 262284,
+      "offset": 253696
+    },
+    {
+      "effect": "geraex_smork02a",
+      "emitter": "kemuri",
+      "slot": 0,
+      "descriptor": 263652,
+      "offset": 253696
+    },
+    {
+      "effect": "geraex_smork02a",
+      "emitter": "kemuri_Copy1",
+      "slot": 0,
+      "descriptor": 265004,
+      "offset": 516608
+    },
+    {
+      "effect": "geraex_smork03a",
+      "emitter": "kemuri",
+      "slot": 0,
+      "descriptor": 266364,
+      "offset": 253696
+    },
+    {
+      "effect": "geraex_smork04a",
+      "emitter": "kemuri_01",
+      "slot": 0,
+      "descriptor": 267724,
+      "offset": 253696
+    },
+    {
+      "effect": "geraex_steam01a",
+      "emitter": "kemuri_01",
+      "slot": 0,
+      "descriptor": 269084,
+      "offset": 253696
+    },
+    {
+      "effect": "geraex_steam02a",
+      "emitter": "kemuri_01",
+      "slot": 0,
+      "descriptor": 270444,
+      "offset": 253696
+    },
+    {
+      "effect": "geraex_tobiagari01a",
+      "emitter": "line_00",
+      "slot": 0,
+      "descriptor": 271804,
+      "offset": 532992
+    },
+    {
+      "effect": "geramountain_death01a",
+      "emitter": "kemuri_01",
+      "slot": 0,
+      "descriptor": 273196,
+      "offset": 253696
+    },
+    {
+      "effect": "geramountain_death01a",
+      "emitter": "hahen04",
+      "slot": 0,
+      "descriptor": 274548,
+      "offset": 537088
+    },
+    {
+      "effect": "geramountain_death01a",
+      "emitter": "hahen03",
+      "slot": 0,
+      "descriptor": 275900,
+      "offset": 537088
+    },
+    {
+      "effect": "geramountain_death01a",
+      "emitter": "hahen02",
+      "slot": 0,
+      "descriptor": 277252,
+      "offset": 537088
+    },
+    {
+      "effect": "geramountain_death01a",
+      "emitter": "hahen01",
+      "slot": 0,
+      "descriptor": 278604,
+      "offset": 537088
+    },
+    {
+      "effect": "geramountain_fire01a",
+      "emitter": "core0",
+      "slot": 0,
+      "descriptor": 279980,
+      "offset": 14336
+    },
+    {
+      "effect": "geramountain_fire01a",
+      "emitter": "core2",
+      "slot": 0,
+      "descriptor": 281332,
+      "offset": 201728
+    },
+    {
+      "effect": "geramountain_fire01a",
+      "emitter": "core1",
+      "slot": 0,
+      "descriptor": 282684,
+      "offset": 201728
+    },
+    {
+      "effect": "geraroket_fire01a",
+      "emitter": "fire_main2",
+      "slot": 0,
+      "descriptor": 284068,
+      "offset": 344576
+    },
+    {
+      "effect": "geraroket_fire01a",
+      "emitter": "fire_main1",
+      "slot": 0,
+      "descriptor": 285420,
+      "offset": 344576
+    },
+    {
+      "effect": "geraroket_fire01a",
+      "emitter": "core",
+      "slot": 0,
+      "descriptor": 286772,
+      "offset": 510464
+    },
+    {
+      "effect": "geraroket_fire01a",
+      "emitter": "kemuri_01",
+      "slot": 0,
+      "descriptor": 288124,
+      "offset": 253696
+    },
+    {
+      "effect": "geraroket_smoke01a",
+      "emitter": "kemuri1",
+      "slot": 0,
+      "descriptor": 289484,
+      "offset": 253696
+    },
+    {
+      "effect": "gera_smoke_05a",
+      "emitter": "kemuri_dwn",
+      "slot": 0,
+      "descriptor": 290860,
+      "offset": 253696
+    },
+    {
+      "effect": "gera_smoke_05a",
+      "emitter": "kemuri_line",
+      "slot": 0,
+      "descriptor": 292212,
+      "offset": 569856
+    },
+    {
+      "effect": "gera_smoke_05a",
+      "emitter": "kemuri_up",
+      "slot": 0,
+      "descriptor": 293564,
+      "offset": 253696
+    },
+    {
+      "effect": "gera_smork_01a",
+      "emitter": "kemuri",
+      "slot": 0,
+      "descriptor": 294924,
+      "offset": 253696
+    },
+    {
+      "effect": "gera_smork_02a",
+      "emitter": "kemuri_up",
+      "slot": 0,
+      "descriptor": 296300,
+      "offset": 253696
+    },
+    {
+      "effect": "gera_smork_02a",
+      "emitter": "kemuri_line",
+      "slot": 0,
+      "descriptor": 297652,
+      "offset": 569856
+    },
+    {
+      "effect": "gera_smork_02a",
+      "emitter": "kemuri_dwn",
+      "slot": 0,
+      "descriptor": 299004,
+      "offset": 253696
+    },
+    {
+      "effect": "hanaiki01a",
+      "emitter": "kemuri",
+      "slot": 0,
+      "descriptor": 300364,
+      "offset": 253696
+    },
+    {
+      "effect": "hanaiki02a",
+      "emitter": "kemuri_01",
+      "slot": 0,
+      "descriptor": 301732,
+      "offset": 253696
+    },
+    {
+      "effect": "hanaiki02a",
+      "emitter": "kemuri_01_Copy2",
+      "slot": 0,
+      "descriptor": 303084,
+      "offset": 253696
+    },
+    {
+      "effect": "hanaiki03a",
+      "emitter": "kemuri_01b",
+      "slot": 0,
+      "descriptor": 304452,
+      "offset": 253696
+    },
+    {
+      "effect": "hanaiki03a",
+      "emitter": "kemuri_01a",
+      "slot": 0,
+      "descriptor": 305804,
+      "offset": 569856
+    },
+    {
+      "effect": "hit_01a",
+      "emitter": "light2",
+      "slot": 0,
+      "descriptor": 307204,
+      "offset": 14336
+    },
+    {
+      "effect": "hit_01a",
+      "emitter": "flash1",
+      "slot": 0,
+      "descriptor": 308556,
+      "offset": 578048
+    },
+    {
+      "effect": "hit_01a",
+      "emitter": "star1_back",
+      "slot": 0,
+      "descriptor": 309908,
+      "offset": 594432
+    },
+    {
+      "effect": "hit_01a",
+      "emitter": "star1_base",
+      "slot": 0,
+      "descriptor": 311260,
+      "offset": 596480
+    },
+    {
+      "effect": "hit_01a",
+      "emitter": "star1_add",
+      "slot": 0,
+      "descriptor": 312612,
+      "offset": 594432
+    },
+    {
+      "effect": "hit_01a",
+      "emitter": "light1",
+      "slot": 0,
+      "descriptor": 313964,
+      "offset": 14336
+    },
+    {
+      "effect": "hit_01b",
+      "emitter": "light2",
+      "slot": 0,
+      "descriptor": 315364,
+      "offset": 14336
+    },
+    {
+      "effect": "hit_01b",
+      "emitter": "flash1",
+      "slot": 0,
+      "descriptor": 316716,
+      "offset": 578048
+    },
+    {
+      "effect": "hit_01b",
+      "emitter": "star1_back",
+      "slot": 0,
+      "descriptor": 318068,
+      "offset": 594432
+    },
+    {
+      "effect": "hit_01b",
+      "emitter": "star1_base",
+      "slot": 0,
+      "descriptor": 319420,
+      "offset": 596480
+    },
+    {
+      "effect": "hit_01b",
+      "emitter": "star1_add",
+      "slot": 0,
+      "descriptor": 320772,
+      "offset": 594432
+    },
+    {
+      "effect": "hit_01b",
+      "emitter": "light1",
+      "slot": 0,
+      "descriptor": 322124,
+      "offset": 14336
+    },
+    {
+      "effect": "hit_01c",
+      "emitter": "light2",
+      "slot": 0,
+      "descriptor": 323524,
+      "offset": 14336
+    },
+    {
+      "effect": "hit_01c",
+      "emitter": "flash1",
+      "slot": 0,
+      "descriptor": 324876,
+      "offset": 578048
+    },
+    {
+      "effect": "hit_01c",
+      "emitter": "star1_back",
+      "slot": 0,
+      "descriptor": 326228,
+      "offset": 594432
+    },
+    {
+      "effect": "hit_01c",
+      "emitter": "star1_base",
+      "slot": 0,
+      "descriptor": 327580,
+      "offset": 596480
+    },
+    {
+      "effect": "hit_01c",
+      "emitter": "star1_add",
+      "slot": 0,
+      "descriptor": 328932,
+      "offset": 594432
+    },
+    {
+      "effect": "hit_01c",
+      "emitter": "light1",
+      "slot": 0,
+      "descriptor": 330284,
+      "offset": 14336
+    },
+    {
+      "effect": "hit_01d",
+      "emitter": "light1",
+      "slot": 0,
+      "descriptor": 331724,
+      "offset": 14336
+    },
+    {
+      "effect": "hit_01d",
+      "emitter": "flash2",
+      "slot": 0,
+      "descriptor": 333076,
+      "offset": 578048
+    },
+    {
+      "effect": "hit_01d",
+      "emitter": "flash1",
+      "slot": 0,
+      "descriptor": 334428,
+      "offset": 598528
+    },
+    {
+      "effect": "hit_01d",
+      "emitter": "flash1_add",
+      "slot": 0,
+      "descriptor": 335780,
+      "offset": 598528
+    },
+    {
+      "effect": "hit_01d",
+      "emitter": "light2",
+      "slot": 0,
+      "descriptor": 337132,
+      "offset": 14336
+    },
+    {
+      "effect": "hit_01d",
+      "emitter": "star1_back",
+      "slot": 0,
+      "descriptor": 338484,
+      "offset": 594432
+    },
+    {
+      "effect": "hit_01d",
+      "emitter": "star1_base",
+      "slot": 0,
+      "descriptor": 339836,
+      "offset": 596480
+    },
+    {
+      "effect": "hit_01d",
+      "emitter": "star1_add",
+      "slot": 0,
+      "descriptor": 341188,
+      "offset": 594432
+    },
+    {
+      "effect": "hit_01d",
+      "emitter": "star2_back",
+      "slot": 0,
+      "descriptor": 342540,
+      "offset": 594432
+    },
+    {
+      "effect": "hit_01d",
+      "emitter": "star2_base",
+      "slot": 0,
+      "descriptor": 343892,
+      "offset": 596480
+    },
+    {
+      "effect": "hit_01d",
+      "emitter": "star2_add",
+      "slot": 0,
+      "descriptor": 345244,
+      "offset": 594432
+    },
+    {
+      "effect": "hit_02a",
+      "emitter": "flash1",
+      "slot": 0,
+      "descriptor": 346612,
+      "offset": 10240
+    },
+    {
+      "effect": "hit_02a",
+      "emitter": "light2",
+      "slot": 0,
+      "descriptor": 347964,
+      "offset": 14336
+    },
+    {
+      "effect": "hit_02b",
+      "emitter": "flash3",
+      "slot": 0,
+      "descriptor": 349356,
+      "offset": 578048
+    },
+    {
+      "effect": "hit_02b",
+      "emitter": "flash1",
+      "slot": 0,
+      "descriptor": 350708,
+      "offset": 10240
+    },
+    {
+      "effect": "hit_02b",
+      "emitter": "flash2",
+      "slot": 0,
+      "descriptor": 352060,
+      "offset": 598528
+    },
+    {
+      "effect": "hit_02b",
+      "emitter": "light2",
+      "slot": 0,
+      "descriptor": 353412,
+      "offset": 14336
+    },
+    {
+      "effect": "hit_02b",
+      "emitter": "light1",
+      "slot": 0,
+      "descriptor": 354764,
+      "offset": 14336
+    },
+    {
+      "effect": "hit_02d",
+      "emitter": "light1",
+      "slot": 0,
+      "descriptor": 356196,
+      "offset": 14336
+    },
+    {
+      "effect": "hit_02d",
+      "emitter": "light2",
+      "slot": 0,
+      "descriptor": 357548,
+      "offset": 14336
+    },
+    {
+      "effect": "hit_02d",
+      "emitter": "flash2",
+      "slot": 0,
+      "descriptor": 358900,
+      "offset": 606720
+    },
+    {
+      "effect": "hit_02d",
+      "emitter": "flash1",
+      "slot": 0,
+      "descriptor": 360252,
+      "offset": 598528
+    },
+    {
+      "effect": "hit_02d",
+      "emitter": "star1_back",
+      "slot": 0,
+      "descriptor": 361604,
+      "offset": 594432
+    },
+    {
+      "effect": "hit_02d",
+      "emitter": "star2_back",
+      "slot": 0,
+      "descriptor": 362956,
+      "offset": 594432
+    },
+    {
+      "effect": "hit_02d",
+      "emitter": "star1_base",
+      "slot": 0,
+      "descriptor": 364308,
+      "offset": 596480
+    },
+    {
+      "effect": "hit_02d",
+      "emitter": "star2_base",
+      "slot": 0,
+      "descriptor": 365660,
+      "offset": 596480
+    },
+    {
+      "effect": "hit_02d",
+      "emitter": "star1_add",
+      "slot": 0,
+      "descriptor": 367012,
+      "offset": 594432
+    },
+    {
+      "effect": "hit_02d",
+      "emitter": "star2_add",
+      "slot": 0,
+      "descriptor": 368364,
+      "offset": 594432
+    },
+    {
+      "effect": "hit_03a",
+      "emitter": "light2",
+      "slot": 0,
+      "descriptor": 369764,
+      "offset": 14336
+    },
+    {
+      "effect": "hit_03a",
+      "emitter": "flash1",
+      "slot": 0,
+      "descriptor": 371116,
+      "offset": 578048
+    },
+    {
+      "effect": "hit_03a",
+      "emitter": "star1_back",
+      "slot": 0,
+      "descriptor": 372468,
+      "offset": 594432
+    },
+    {
+      "effect": "hit_03a",
+      "emitter": "star1_base",
+      "slot": 0,
+      "descriptor": 373820,
+      "offset": 596480
+    },
+    {
+      "effect": "hit_03a",
+      "emitter": "star1_add",
+      "slot": 0,
+      "descriptor": 375172,
+      "offset": 594432
+    },
+    {
+      "effect": "hit_03a",
+      "emitter": "light1",
+      "slot": 0,
+      "descriptor": 376524,
+      "offset": 14336
+    },
+    {
+      "effect": "hit_04a",
+      "emitter": "light2",
+      "slot": 0,
+      "descriptor": 377900,
+      "offset": 14336
+    },
+    {
+      "effect": "hit_04a",
+      "emitter": "flash1",
+      "slot": 0,
+      "descriptor": 379252,
+      "offset": 578048
+    },
+    {
+      "effect": "hit_04a",
+      "emitter": "light1",
+      "slot": 0,
+      "descriptor": 380604,
+      "offset": 14336
+    },
+    {
+      "effect": "ibiki_damage_leakage01a",
+      "emitter": "biri_01",
+      "slot": 0,
+      "descriptor": 381964,
+      "offset": 614912
+    },
+    {
+      "effect": "ibiki_damage_smork01a",
+      "emitter": "kemuri_01",
+      "slot": 0,
+      "descriptor": 383360,
+      "offset": 253696
+    },
+    {
+      "effect": "ibiki_foot_kemuri01a",
+      "emitter": "kemuri1",
+      "slot": 0,
+      "descriptor": 384736,
+      "offset": 253696
+    },
+    {
+      "effect": "ibiki_foot_kemuri01a",
+      "emitter": "kemuri2",
+      "slot": 0,
+      "descriptor": 386088,
+      "offset": 647680
+    },
+    {
+      "effect": "ibiki_foot_kemuri01a",
+      "emitter": "rock1",
+      "slot": 0,
+      "descriptor": 387440,
+      "offset": 512512
+    },
+    {
+      "effect": "ibiki_foot_kemuri02a",
+      "emitter": "kemuri1",
+      "slot": 0,
+      "descriptor": 388816,
+      "offset": 253696
+    },
+    {
+      "effect": "ibiki_foot_kemuri02a",
+      "emitter": "kemuri2",
+      "slot": 0,
+      "descriptor": 390168,
+      "offset": 647680
+    },
+    {
+      "effect": "ibiki_foot_kemuri02a",
+      "emitter": "rock1",
+      "slot": 0,
+      "descriptor": 391520,
+      "offset": 512512
+    },
+    {
+      "effect": "ibiki_foot_kemuri02b",
+      "emitter": "kemuri1",
+      "slot": 0,
+      "descriptor": 392896,
+      "offset": 253696
+    },
+    {
+      "effect": "ibiki_foot_kemuri02b",
+      "emitter": "kemuri2",
+      "slot": 0,
+      "descriptor": 394248,
+      "offset": 647680
+    },
+    {
+      "effect": "ibiki_foot_kemuri02b",
+      "emitter": "rock1",
+      "slot": 0,
+      "descriptor": 395600,
+      "offset": 512512
+    },
+    {
+      "effect": "ibiki_foot_kemuri03a",
+      "emitter": "kemuri2",
+      "slot": 0,
+      "descriptor": 396976,
+      "offset": 647680
+    },
+    {
+      "effect": "ibiki_foot_kemuri03a",
+      "emitter": "kemuri1",
+      "slot": 0,
+      "descriptor": 398328,
+      "offset": 253696
+    },
+    {
+      "effect": "ibiki_foot_kemuri03a",
+      "emitter": "rock1",
+      "slot": 0,
+      "descriptor": 399680,
+      "offset": 512512
+    },
+    {
+      "effect": "ibiki_foot_kemuri04a",
+      "emitter": "kemuri2",
+      "slot": 0,
+      "descriptor": 401056,
+      "offset": 647680
+    },
+    {
+      "effect": "ibiki_foot_kemuri04a",
+      "emitter": "kemuri1",
+      "slot": 0,
+      "descriptor": 402408,
+      "offset": 253696
+    },
+    {
+      "effect": "ibiki_foot_kemuri04a",
+      "emitter": "rock1",
+      "slot": 0,
+      "descriptor": 403760,
+      "offset": 512512
+    },
+    {
+      "effect": "ibiki_kaifuku01a",
+      "emitter": "kira_00",
+      "slot": 0,
+      "descriptor": 405128,
+      "offset": 655872
+    },
+    {
+      "effect": "ibiki_kaifuku01a",
+      "emitter": "line_00",
+      "slot": 0,
+      "descriptor": 406544,
+      "offset": 532992
+    },
+    {
+      "effect": "ibiki_kemuri01a",
+      "emitter": "kemuri_01",
+      "slot": 0,
+      "descriptor": 407904,
+      "offset": 253696
+    },
+    {
+      "effect": "ibiki_kemuri02a",
+      "emitter": "kemuri_01",
+      "slot": 0,
+      "descriptor": 409264,
+      "offset": 253696
+    },
+    {
+      "effect": "ibiki_kemuri03a",
+      "emitter": "kemuri_01",
+      "slot": 0,
+      "descriptor": 410624,
+      "offset": 253696
+    },
+    {
+      "effect": "ibiki_kemuri04a",
+      "emitter": "kemuri_01",
+      "slot": 0,
+      "descriptor": 411984,
+      "offset": 253696
+    },
+    {
+      "effect": "ibiki_kemuri05a",
+      "emitter": "kemuri_01",
+      "slot": 0,
+      "descriptor": 413344,
+      "offset": 253696
+    },
+    {
+      "effect": "ibiki_Landing_kemuri01a",
+      "emitter": "kemuri_1",
+      "slot": 0,
+      "descriptor": 414704,
+      "offset": 253696
+    },
+    {
+      "effect": "ibiki_Landing_kemuri01b",
+      "emitter": "kemuri_1",
+      "slot": 0,
+      "descriptor": 416064,
+      "offset": 253696
+    },
+    {
+      "effect": "ibiki_Landing_kemuri02a",
+      "emitter": "kemuri_1",
+      "slot": 0,
+      "descriptor": 417424,
+      "offset": 253696
+    },
+    {
+      "effect": "ibiki_recovery01a",
+      "emitter": "flash1",
+      "slot": 0,
+      "descriptor": 418808,
+      "offset": 10240
+    },
+    {
+      "effect": "ibiki_recovery01a",
+      "emitter": "flash2",
+      "slot": 0,
+      "descriptor": 420160,
+      "offset": 598528
+    },
+    {
+      "effect": "ibiki_recovery01a",
+      "emitter": "light2",
+      "slot": 0,
+      "descriptor": 421512,
+      "offset": 14336
+    },
+    {
+      "effect": "ibiki_recovery01a",
+      "emitter": "light1",
+      "slot": 0,
+      "descriptor": 422864,
+      "offset": 14336
+    },
+    {
+      "effect": "ibiki_splash01a",
+      "emitter": "splash_1",
+      "slot": 0,
+      "descriptor": 424232,
+      "offset": 656896
+    },
+    {
+      "effect": "ibiki_splash01a",
+      "emitter": "splash_2",
+      "slot": 0,
+      "descriptor": 425584,
+      "offset": 656896
+    },
+    {
+      "effect": "ibiki_splash02a",
+      "emitter": "splash_2",
+      "slot": 0,
+      "descriptor": 426944,
+      "offset": 656896
+    },
+    {
+      "effect": "ibiki_splash02b",
+      "emitter": "kemuri_1",
+      "slot": 0,
+      "descriptor": 428304,
+      "offset": 656896
+    },
+    {
+      "effect": "ibiki_splash03a",
+      "emitter": "wave_1",
+      "slot": 0,
+      "descriptor": 429680,
+      "offset": 673280
+    },
+    {
+      "effect": "ibiki_splash03a",
+      "emitter": "wave_2",
+      "slot": 0,
+      "descriptor": 431032,
+      "offset": 681472
+    },
+    {
+      "effect": "ibiki_splash03a",
+      "emitter": "splash_2",
+      "slot": 0,
+      "descriptor": 432384,
+      "offset": 14336
+    },
+    {
+      "effect": "ibiki_wave01a",
+      "emitter": "circle_1",
+      "slot": 0,
+      "descriptor": 433784,
+      "offset": 14336
+    },
+    {
+      "effect": "ibiki_wave01a",
+      "emitter": "splash_3",
+      "slot": 0,
+      "descriptor": 435136,
+      "offset": 14336
+    },
+    {
+      "effect": "ibiki_wave01a",
+      "emitter": "splash_1",
+      "slot": 0,
+      "descriptor": 436488,
+      "offset": 656896
+    },
+    {
+      "effect": "ibiki_wave01a",
+      "emitter": "wave_1",
+      "slot": 0,
+      "descriptor": 437840,
+      "offset": 673280
+    },
+    {
+      "effect": "ibiki_wave01a",
+      "emitter": "wave_2",
+      "slot": 0,
+      "descriptor": 439192,
+      "offset": 714240
+    },
+    {
+      "effect": "ibiki_wave01a",
+      "emitter": "wave_3",
+      "slot": 0,
+      "descriptor": 440544,
+      "offset": 714240
+    },
+    {
+      "effect": "ibiki_wave01b",
+      "emitter": "wave_0",
+      "slot": 0,
+      "descriptor": 441912,
+      "offset": 673280
+    },
+    {
+      "effect": "ibiki_wave01b",
+      "emitter": "wave_1",
+      "slot": 0,
+      "descriptor": 443264,
+      "offset": 673280
+    },
+    {
+      "effect": "jet_fire01a",
+      "emitter": "fire_main2",
+      "slot": 0,
+      "descriptor": 444640,
+      "offset": 344576
+    },
+    {
+      "effect": "jet_fire01a",
+      "emitter": "fire_main1",
+      "slot": 0,
+      "descriptor": 445992,
+      "offset": 344576
+    },
+    {
+      "effect": "jet_fire01a",
+      "emitter": "core",
+      "slot": 0,
+      "descriptor": 447344,
+      "offset": 510464
+    },
+    {
+      "effect": "jet_fire01b",
+      "emitter": "fire_main2",
+      "slot": 0,
+      "descriptor": 448720,
+      "offset": 344576
+    },
+    {
+      "effect": "jet_fire01b",
+      "emitter": "fire_main1",
+      "slot": 0,
+      "descriptor": 450072,
+      "offset": 344576
+    },
+    {
+      "effect": "jet_fire01b",
+      "emitter": "core",
+      "slot": 0,
+      "descriptor": 451424,
+      "offset": 510464
+    },
+    {
+      "effect": "jet_fire02b",
+      "emitter": "kemuri_01",
+      "slot": 0,
+      "descriptor": 452792,
+      "offset": 253184
+    },
+    {
+      "effect": "jet_fire02b",
+      "emitter": "fire_main3",
+      "slot": 0,
+      "descriptor": 454144,
+      "offset": 722432
+    },
+    {
+      "effect": "jet_fire03a",
+      "emitter": "core2",
+      "slot": 0,
+      "descriptor": 455528,
+      "offset": 738816
+    },
+    {
+      "effect": "jet_fire03a",
+      "emitter": "fire_main2",
+      "slot": 0,
+      "descriptor": 456880,
+      "offset": 344576
+    },
+    {
+      "effect": "jet_fire03a",
+      "emitter": "fire_main1",
+      "slot": 0,
+      "descriptor": 458232,
+      "offset": 344576
+    },
+    {
+      "effect": "jet_fire03a",
+      "emitter": "core",
+      "slot": 0,
+      "descriptor": 459584,
+      "offset": 510464
+    },
+    {
+      "effect": "kaiten_kemuri01a_l",
+      "emitter": "toge_01",
+      "slot": 0,
+      "descriptor": 460960,
+      "offset": 739840
+    },
+    {
+      "effect": "kaiten_kemuri01a_l",
+      "emitter": "kemuri_01",
+      "slot": 0,
+      "descriptor": 462312,
+      "offset": 253696
+    },
+    {
+      "effect": "kaiten_kemuri01a_l",
+      "emitter": "hahen",
+      "slot": 0,
+      "descriptor": 463664,
+      "offset": 512512
+    },
+    {
+      "effect": "kaiten_kemuri01a_r",
+      "emitter": "toge_01",
+      "slot": 0,
+      "descriptor": 465040,
+      "offset": 739840
+    },
+    {
+      "effect": "kaiten_kemuri01a_r",
+      "emitter": "kemuri_01",
+      "slot": 0,
+      "descriptor": 466392,
+      "offset": 253696
+    },
+    {
+      "effect": "kaiten_kemuri01a_r",
+      "emitter": "hahen",
+      "slot": 0,
+      "descriptor": 467744,
+      "offset": 512512
+    },
+    {
+      "effect": "kemuri_mini01a",
+      "emitter": "Emitter1",
+      "slot": 0,
+      "descriptor": 469104,
+      "offset": 253696
+    },
+    {
+      "effect": "kikanbo_explosion01a",
+      "emitter": "kemuri_01",
+      "slot": 0,
+      "descriptor": 470512,
+      "offset": 253696
+    },
+    {
+      "effect": "kikanbo_explosion01a",
+      "emitter": "smoke_01",
+      "slot": 0,
+      "descriptor": 471864,
+      "offset": 253696
+    },
+    {
+      "effect": "kikanbo_explosion01a",
+      "emitter": "bomb_01",
+      "slot": 0,
+      "descriptor": 473216,
+      "offset": 334080
+    },
+    {
+      "effect": "kikanbo_explosion01a",
+      "emitter": "core_01",
+      "slot": 0,
+      "descriptor": 474568,
+      "offset": 14336
+    },
+    {
+      "effect": "kikanbo_explosion01a",
+      "emitter": "ring_01",
+      "slot": 0,
+      "descriptor": 475920,
+      "offset": 338176
+    },
+    {
+      "effect": "kikanbo_explosion01a",
+      "emitter": "core_02",
+      "slot": 0,
+      "descriptor": 477272,
+      "offset": 14336
+    },
+    {
+      "effect": "kikanbo_explosion01a",
+      "emitter": "hibana_01",
+      "slot": 0,
+      "descriptor": 478624,
+      "offset": 14336
+    },
+    {
+      "effect": "kinoko_get01a",
+      "emitter": "kira_00",
+      "slot": 0,
+      "descriptor": 479984,
+      "offset": 655872
+    },
+    {
+      "effect": "koopafire04a",
+      "emitter": "fire1_base",
+      "slot": 0,
+      "descriptor": 481388,
+      "offset": 334080
+    },
+    {
+      "effect": "koopafire04a",
+      "emitter": "core1",
+      "slot": 0,
+      "descriptor": 482740,
+      "offset": 334080
+    },
+    {
+      "effect": "koopafire04b",
+      "emitter": "enemy_fire00a_00",
+      "slot": 0,
+      "descriptor": 484132,
+      "offset": 268032
+    },
+    {
+      "effect": "koopafire04b",
+      "emitter": "enemy_fire00b_00",
+      "slot": 0,
+      "descriptor": 485484,
+      "offset": 743936
+    },
+    {
+      "effect": "koopafire04b",
+      "emitter": "enemy_fire00b_03",
+      "slot": 0,
+      "descriptor": 486836,
+      "offset": 743936
+    },
+    {
+      "effect": "koopafire04b",
+      "emitter": "enemy_fire00b_01",
+      "slot": 0,
+      "descriptor": 488188,
+      "offset": 339200
+    },
+    {
+      "effect": "koopafire04b",
+      "emitter": "enemy_fire00b_02",
+      "slot": 0,
+      "descriptor": 489540,
+      "offset": 339200
+    },
+    {
+      "effect": "koopafire04c",
+      "emitter": "hinoko",
+      "slot": 0,
+      "descriptor": 490924,
+      "offset": 201728
+    },
+    {
+      "effect": "koopafire04c",
+      "emitter": "hinoko_glow",
+      "slot": 0,
+      "descriptor": 492276,
+      "offset": 201728
+    },
+    {
+      "effect": "koopafire04c",
+      "emitter": "glow1",
+      "slot": 0,
+      "descriptor": 493628,
+      "offset": 14336
+    },
+    {
+      "effect": "koopafire04c",
+      "emitter": "glow1_core",
+      "slot": 0,
+      "descriptor": 494980,
+      "offset": 14336
+    },
+    {
+      "effect": "koopafire04d",
+      "emitter": "hit",
+      "slot": 0,
+      "descriptor": 496364,
+      "offset": 765696
+    },
+    {
+      "effect": "koopafire04d",
+      "emitter": "hit_glow",
+      "slot": 0,
+      "descriptor": 497716,
+      "offset": 765696
+    },
+    {
+      "effect": "koopafire04d",
+      "emitter": "hinoko",
+      "slot": 0,
+      "descriptor": 499068,
+      "offset": 201728
+    },
+    {
+      "effect": "koopafire04d",
+      "emitter": "hinoko_glow",
+      "slot": 0,
+      "descriptor": 500420,
+      "offset": 201728
+    },
+    {
+      "effect": "koopafire05a",
+      "emitter": "core_base_black02",
+      "slot": 0,
+      "descriptor": 501812,
+      "offset": 268032
+    },
+    {
+      "effect": "koopafire05a",
+      "emitter": "core_base_02",
+      "slot": 0,
+      "descriptor": 503164,
+      "offset": 268032
+    },
+    {
+      "effect": "koopafire05a",
+      "emitter": "core",
+      "slot": 0,
+      "descriptor": 504516,
+      "offset": 253184
+    },
+    {
+      "effect": "koopafire05a",
+      "emitter": "fire_05a",
+      "slot": 0,
+      "descriptor": 505868,
+      "offset": 339200
+    },
+    {
+      "effect": "koopafire05a",
+      "emitter": "fire_05b",
+      "slot": 0,
+      "descriptor": 507220,
+      "offset": 339200
+    },
+    {
+      "effect": "koopafire05a_excellent",
+      "emitter": "light1",
+      "slot": 0,
+      "descriptor": 508620,
+      "offset": 767744
+    },
+    {
+      "effect": "koopafire05a_excellent",
+      "emitter": "fire_main2",
+      "slot": 0,
+      "descriptor": 509972,
+      "offset": 344576
+    },
+    {
+      "effect": "koopafire05a_excellent",
+      "emitter": "fire_main1",
+      "slot": 0,
+      "descriptor": 511324,
+      "offset": 346624
+    },
+    {
+      "effect": "koopafire05a_excellent",
+      "emitter": "core",
+      "slot": 0,
+      "descriptor": 512676,
+      "offset": 346624
+    },
+    {
+      "effect": "koopafire05a_excellent",
+      "emitter": "fire2",
+      "slot": 0,
+      "descriptor": 514028,
+      "offset": 339200
+    },
+    {
+      "effect": "koopafire05a_excellent",
+      "emitter": "light2",
+      "slot": 0,
+      "descriptor": 515380,
+      "offset": 767744
+    },
+    {
+      "effect": "koopafire05a_good",
+      "emitter": "light1",
+      "slot": 0,
+      "descriptor": 516780,
+      "offset": 767744
+    },
+    {
+      "effect": "koopafire05a_good",
+      "emitter": "fire_main2",
+      "slot": 0,
+      "descriptor": 518132,
+      "offset": 344576
+    },
+    {
+      "effect": "koopafire05a_good",
+      "emitter": "fire_main1",
+      "slot": 0,
+      "descriptor": 519484,
+      "offset": 346624
+    },
+    {
+      "effect": "koopafire05a_good",
+      "emitter": "core",
+      "slot": 0,
+      "descriptor": 520836,
+      "offset": 346624
+    },
+    {
+      "effect": "koopafire05a_good",
+      "emitter": "fire2",
+      "slot": 0,
+      "descriptor": 522188,
+      "offset": 339200
+    },
+    {
+      "effect": "koopafire05a_good",
+      "emitter": "light2",
+      "slot": 0,
+      "descriptor": 523540,
+      "offset": 767744
+    },
+    {
+      "effect": "koopafire05a_great",
+      "emitter": "light1",
+      "slot": 0,
+      "descriptor": 524940,
+      "offset": 767744
+    },
+    {
+      "effect": "koopafire05a_great",
+      "emitter": "fire_main2",
+      "slot": 0,
+      "descriptor": 526292,
+      "offset": 344576
+    },
+    {
+      "effect": "koopafire05a_great",
+      "emitter": "fire_main1",
+      "slot": 0,
+      "descriptor": 527644,
+      "offset": 346624
+    },
+    {
+      "effect": "koopafire05a_great",
+      "emitter": "core",
+      "slot": 0,
+      "descriptor": 528996,
+      "offset": 346624
+    },
+    {
+      "effect": "koopafire05a_great",
+      "emitter": "fire2",
+      "slot": 0,
+      "descriptor": 530348,
+      "offset": 339200
+    },
+    {
+      "effect": "koopafire05a_great",
+      "emitter": "light2",
+      "slot": 0,
+      "descriptor": 531700,
+      "offset": 767744
+    },
+    {
+      "effect": "koopafire05a_miss",
+      "emitter": "fire_main2_1",
+      "slot": 0,
+      "descriptor": 533132,
+      "offset": 344576
+    },
+    {
+      "effect": "koopafire05a_miss",
+      "emitter": "fire_main1",
+      "slot": 0,
+      "descriptor": 534484,
+      "offset": 344576
+    },
+    {
+      "effect": "koopafire05a_miss",
+      "emitter": "core_1",
+      "slot": 0,
+      "descriptor": 535836,
+      "offset": 510464
+    },
+    {
+      "effect": "koopafire05a_miss",
+      "emitter": "fire_main2_2",
+      "slot": 0,
+      "descriptor": 537188,
+      "offset": 344576
+    },
+    {
+      "effect": "koopafire05a_miss",
+      "emitter": "fire_main1_1",
+      "slot": 0,
+      "descriptor": 538540,
+      "offset": 344576
+    },
+    {
+      "effect": "koopafire05a_miss",
+      "emitter": "core_2",
+      "slot": 0,
+      "descriptor": 539892,
+      "offset": 510464
+    },
+    {
+      "effect": "koopafire05a_miss",
+      "emitter": "fire2",
+      "slot": 0,
+      "descriptor": 541244,
+      "offset": 339200
+    },
+    {
+      "effect": "koopafire05a_miss",
+      "emitter": "hinoko",
+      "slot": 0,
+      "descriptor": 542596,
+      "offset": 201728
+    },
+    {
+      "effect": "koopafire05a_miss",
+      "emitter": "hinoko_glow",
+      "slot": 0,
+      "descriptor": 543948,
+      "offset": 201728
+    },
+    {
+      "effect": "koopafire05a_miss",
+      "emitter": "kemuri",
+      "slot": 0,
+      "descriptor": 545300,
+      "offset": 253184
+    },
+    {
+      "effect": "koopafire05a_ok",
+      "emitter": "light1",
+      "slot": 0,
+      "descriptor": 546700,
+      "offset": 767744
+    },
+    {
+      "effect": "koopafire05a_ok",
+      "emitter": "fire_main2",
+      "slot": 0,
+      "descriptor": 548052,
+      "offset": 344576
+    },
+    {
+      "effect": "koopafire05a_ok",
+      "emitter": "fire_main1",
+      "slot": 0,
+      "descriptor": 549404,
+      "offset": 346624
+    },
+    {
+      "effect": "koopafire05a_ok",
+      "emitter": "core",
+      "slot": 0,
+      "descriptor": 550756,
+      "offset": 346624
+    },
+    {
+      "effect": "koopafire05a_ok",
+      "emitter": "fire2",
+      "slot": 0,
+      "descriptor": 552108,
+      "offset": 339200
+    },
+    {
+      "effect": "koopafire05a_ok",
+      "emitter": "light2",
+      "slot": 0,
+      "descriptor": 553460,
+      "offset": 767744
+    },
+    {
+      "effect": "koopafire06a",
+      "emitter": "fire_main2",
+      "slot": 0,
+      "descriptor": 554844,
+      "offset": 344576
+    },
+    {
+      "effect": "koopafire06a",
+      "emitter": "fire_main1",
+      "slot": 0,
+      "descriptor": 556196,
+      "offset": 346624
+    },
+    {
+      "effect": "koopafire06a",
+      "emitter": "core",
+      "slot": 0,
+      "descriptor": 557548,
+      "offset": 346624
+    },
+    {
+      "effect": "koopafire06a",
+      "emitter": "fire2",
+      "slot": 0,
+      "descriptor": 558900,
+      "offset": 339200
+    },
+    {
+      "effect": "koopafire07a",
+      "emitter": "fire_main2",
+      "slot": 0,
+      "descriptor": 560284,
+      "offset": 344576
+    },
+    {
+      "effect": "koopafire07a",
+      "emitter": "fire_main1",
+      "slot": 0,
+      "descriptor": 561636,
+      "offset": 346624
+    },
+    {
+      "effect": "koopafire07a",
+      "emitter": "core",
+      "slot": 0,
+      "descriptor": 562988,
+      "offset": 346624
+    },
+    {
+      "effect": "koopafire07a",
+      "emitter": "fire2",
+      "slot": 0,
+      "descriptor": 564340,
+      "offset": 339200
+    },
+    {
+      "effect": "koopafire_tame01a",
+      "emitter": "fire1_base",
+      "slot": 0,
+      "descriptor": 565756,
+      "offset": 346624
+    },
+    {
+      "effect": "koopafire_tame01a",
+      "emitter": "core1",
+      "slot": 0,
+      "descriptor": 567108,
+      "offset": 346624
+    },
+    {
+      "effect": "koopafire_tame01a",
+      "emitter": "fire2",
+      "slot": 0,
+      "descriptor": 568460,
+      "offset": 339200
+    },
+    {
+      "effect": "koopafire_tame01a",
+      "emitter": "glow1",
+      "slot": 0,
+      "descriptor": 569812,
+      "offset": 344576
+    },
+    {
+      "effect": "koopafire_tame01a",
+      "emitter": "hinoko1",
+      "slot": 0,
+      "descriptor": 571164,
+      "offset": 14336
+    },
+    {
+      "effect": "koopafire_tame01a",
+      "emitter": "flash1",
+      "slot": 0,
+      "descriptor": 572516,
+      "offset": 14336
+    },
+    {
+      "effect": "koopafire_tame01a",
+      "emitter": "flash2_1",
+      "slot": 0,
+      "descriptor": 573868,
+      "offset": 784128
+    },
+    {
+      "effect": "koopafire_tame01a",
+      "emitter": "flash2_2",
+      "slot": 0,
+      "descriptor": 575220,
+      "offset": 784128
+    },
+    {
+      "effect": "koopa_barrier_hit01a",
+      "emitter": "ring",
+      "slot": 0,
+      "descriptor": 576588,
+      "offset": 792320
+    },
+    {
+      "effect": "koopa_barrier_hit01a",
+      "emitter": "kira",
+      "slot": 0,
+      "descriptor": 577940,
+      "offset": 268032
+    },
+    {
+      "effect": "koopa_bellow01a",
+      "emitter": "light01",
+      "slot": 0,
+      "descriptor": 579388,
+      "offset": 800512
+    },
+    {
+      "effect": "koopa_bellow01a",
+      "emitter": "light02",
+      "slot": 0,
+      "descriptor": 580740,
+      "offset": 800512
+    },
+    {
+      "effect": "koopa_bellow01a",
+      "emitter": "light03",
+      "slot": 0,
+      "descriptor": 582092,
+      "offset": 800512
+    },
+    {
+      "effect": "koopa_bellow01a",
+      "emitter": "light04",
+      "slot": 0,
+      "descriptor": 583444,
+      "offset": 800512
+    },
+    {
+      "effect": "koopa_bellow01a",
+      "emitter": "light05",
+      "slot": 0,
+      "descriptor": 584796,
+      "offset": 800512
+    },
+    {
+      "effect": "koopa_bellow01a",
+      "emitter": "light06",
+      "slot": 0,
+      "descriptor": 586148,
+      "offset": 800512
+    },
+    {
+      "effect": "koopa_bellow01a",
+      "emitter": "light07",
+      "slot": 0,
+      "descriptor": 587500,
+      "offset": 800512
+    },
+    {
+      "effect": "koopa_bellow01a",
+      "emitter": "light08",
+      "slot": 0,
+      "descriptor": 588852,
+      "offset": 800512
+    },
+    {
+      "effect": "koopa_bellow01a",
+      "emitter": "light09",
+      "slot": 0,
+      "descriptor": 590204,
+      "offset": 800512
+    },
+    {
+      "effect": "koopa_bellow01a",
+      "emitter": "light10",
+      "slot": 0,
+      "descriptor": 591556,
+      "offset": 800512
+    },
+    {
+      "effect": "koopa_bellow01a",
+      "emitter": "light11",
+      "slot": 0,
+      "descriptor": 592908,
+      "offset": 800512
+    },
+    {
+      "effect": "koopa_bellow01a",
+      "emitter": "ring",
+      "slot": 0,
+      "descriptor": 594260,
+      "offset": 804608
+    },
+    {
+      "effect": "koopa_body_kira01a",
+      "emitter": "hikari",
+      "slot": 0,
+      "descriptor": 595636,
+      "offset": 84992
+    },
+    {
+      "effect": "koopa_body_kira01a",
+      "emitter": "ring",
+      "slot": 0,
+      "descriptor": 596988,
+      "offset": 792320
+    },
+    {
+      "effect": "koopa_body_kira01a",
+      "emitter": "kira_Copy1",
+      "slot": 0,
+      "descriptor": 598340,
+      "offset": 268032
+    },
+    {
+      "effect": "koopa_castle_kemuri01a",
+      "emitter": "kemuri_01",
+      "slot": 0,
+      "descriptor": 599700,
+      "offset": 253696
+    },
+    {
+      "effect": "koopa_castle_kemuri01b",
+      "emitter": "kemuri_01",
+      "slot": 0,
+      "descriptor": 601060,
+      "offset": 253696
+    },
+    {
+      "effect": "koopa_castle_kemuri02a",
+      "emitter": "kemuri_01",
+      "slot": 0,
+      "descriptor": 602420,
+      "offset": 253696
+    },
+    {
+      "effect": "koopa_castle_kemuri03a",
+      "emitter": "kemuri_01",
+      "slot": 0,
+      "descriptor": 603780,
+      "offset": 253696
+    },
+    {
+      "effect": "koopa_castle_kemuri04a",
+      "emitter": "kemuri_01",
+      "slot": 0,
+      "descriptor": 605140,
+      "offset": 253696
+    },
+    {
+      "effect": "koopa_castle_kemuri04b",
+      "emitter": "kemuri_01",
+      "slot": 0,
+      "descriptor": 606500,
+      "offset": 253696
+    },
+    {
+      "effect": "koopa_castle_kemuri04c",
+      "emitter": "kemuri_01",
+      "slot": 0,
+      "descriptor": 607860,
+      "offset": 253696
+    },
+    {
+      "effect": "koopa_castle_kemuri04d",
+      "emitter": "kemuri_01",
+      "slot": 0,
+      "descriptor": 609220,
+      "offset": 253696
+    },
+    {
+      "effect": "koopa_castle_kemuri04e",
+      "emitter": "kemuri_01",
+      "slot": 0,
+      "descriptor": 610580,
+      "offset": 253696
+    },
+    {
+      "effect": "koopa_castle_kemuri04f",
+      "emitter": "kemuri_01",
+      "slot": 0,
+      "descriptor": 611940,
+      "offset": 253696
+    },
+    {
+      "effect": "koopa_castle_kemuri05a",
+      "emitter": "kemuri_01",
+      "slot": 0,
+      "descriptor": 613300,
+      "offset": 253696
+    },
+    {
+      "effect": "koopa_castle_kemuri05b",
+      "emitter": "kemuri_01",
+      "slot": 0,
+      "descriptor": 614660,
+      "offset": 253696
+    },
+    {
+      "effect": "koopa_castle_kemuri06a",
+      "emitter": "kemuri_01",
+      "slot": 0,
+      "descriptor": 616028,
+      "offset": 253696
+    },
+    {
+      "effect": "koopa_castle_kemuri06a",
+      "emitter": "kemuri_02",
+      "slot": 0,
+      "descriptor": 617380,
+      "offset": 253696
+    },
+    {
+      "effect": "koopa_castle_kemuri07a",
+      "emitter": "kemuri_01",
+      "slot": 0,
+      "descriptor": 618740,
+      "offset": 805120
+    },
+    {
+      "effect": "koopa_castle_kemuri08a",
+      "emitter": "kemuri_01",
+      "slot": 0,
+      "descriptor": 620100,
+      "offset": 253696
+    },
+    {
+      "effect": "koopa_castle_kemuri09a",
+      "emitter": "kemuri_01",
+      "slot": 0,
+      "descriptor": 621460,
+      "offset": 805120
+    },
+    {
+      "effect": "koopa_castle_kemuri10a",
+      "emitter": "kemuri_01",
+      "slot": 0,
+      "descriptor": 622820,
+      "offset": 253696
+    },
+    {
+      "effect": "koopa_castle_kemuri11a",
+      "emitter": "kemuri_01",
+      "slot": 0,
+      "descriptor": 624180,
+      "offset": 253696
+    },
+    {
+      "effect": "koopa_castle_kemuri12a",
+      "emitter": "kemuri_01",
+      "slot": 0,
+      "descriptor": 625540,
+      "offset": 253696
+    },
+    {
+      "effect": "koopa_castle_kemuri13a",
+      "emitter": "kemuri_01",
+      "slot": 0,
+      "descriptor": 626908,
+      "offset": 253696
+    },
+    {
+      "effect": "koopa_castle_kemuri13a",
+      "emitter": "kemuri_02",
+      "slot": 0,
+      "descriptor": 628260,
+      "offset": 253696
+    },
+    {
+      "effect": "koopa_castle_kemuri14a",
+      "emitter": "kemuri_01",
+      "slot": 0,
+      "descriptor": 629628,
+      "offset": 253696
+    },
+    {
+      "effect": "koopa_castle_kemuri14a",
+      "emitter": "kemuri_02",
+      "slot": 0,
+      "descriptor": 630980,
+      "offset": 253696
+    },
+    {
+      "effect": "koopa_castle_kemuri15a",
+      "emitter": "kemuri_01",
+      "slot": 0,
+      "descriptor": 632340,
+      "offset": 253696
+    },
+    {
+      "effect": "koopa_castle_kemuri25b",
+      "emitter": "kemuri_01",
+      "slot": 0,
+      "descriptor": 633700,
+      "offset": 253696
+    },
+    {
+      "effect": "koopa_castle_wave01a",
+      "emitter": "aura1",
+      "slot": 0,
+      "descriptor": 635060,
+      "offset": 87040
+    },
+    {
+      "effect": "koopa_castle_wave02a",
+      "emitter": "aura1",
+      "slot": 0,
+      "descriptor": 636420,
+      "offset": 87040
+    },
+    {
+      "effect": "koopa_castle_wave03a",
+      "emitter": "aura1",
+      "slot": 0,
+      "descriptor": 637780,
+      "offset": 87040
+    },
+    {
+      "effect": "koopa_eye_kira01a",
+      "emitter": "kira",
+      "slot": 0,
+      "descriptor": 639164,
+      "offset": 806144
+    },
+    {
+      "effect": "koopa_eye_kira01a",
+      "emitter": "hikari",
+      "slot": 0,
+      "descriptor": 640516,
+      "offset": 84992
+    },
+    {
+      "effect": "koopa_eye_kira01a",
+      "emitter": "ring",
+      "slot": 0,
+      "descriptor": 641868,
+      "offset": 792320
+    },
+    {
+      "effect": "koopa_eye_kira01a",
+      "emitter": "kira_Copy1",
+      "slot": 0,
+      "descriptor": 643220,
+      "offset": 268032
+    },
+    {
+      "effect": "koopa_eye_kira02a",
+      "emitter": "kira",
+      "slot": 0,
+      "descriptor": 644580,
+      "offset": 806144
+    },
+    {
+      "effect": "koopa_eye_kira03a",
+      "emitter": "kira",
+      "slot": 0,
+      "descriptor": 645972,
+      "offset": 806144
+    },
+    {
+      "effect": "koopa_eye_kira03a",
+      "emitter": "hikari",
+      "slot": 0,
+      "descriptor": 647324,
+      "offset": 806656
+    },
+    {
+      "effect": "koopa_eye_kira03a",
+      "emitter": "ring1",
+      "slot": 0,
+      "descriptor": 648676,
+      "offset": 792320
+    },
+    {
+      "effect": "koopa_eye_kira03a",
+      "emitter": "ring2_yellow",
+      "slot": 0,
+      "descriptor": 650028,
+      "offset": 87040
+    },
+    {
+      "effect": "koopa_eye_kira03a",
+      "emitter": "kira2",
+      "slot": 0,
+      "descriptor": 651380,
+      "offset": 268032
+    },
+    {
+      "effect": "koopa_finalattack_renda01a_hit",
+      "emitter": "light2",
+      "slot": 0,
+      "descriptor": 652756,
+      "offset": 14336
+    },
+    {
+      "effect": "koopa_finalattack_renda01a_hit",
+      "emitter": "flash1",
+      "slot": 0,
+      "descriptor": 654108,
+      "offset": 598528
+    },
+    {
+      "effect": "koopa_finalattack_renda01a_hit",
+      "emitter": "light1",
+      "slot": 0,
+      "descriptor": 655460,
+      "offset": 14336
+    },
+    {
+      "effect": "koopa_finalattack_renda01a_wind",
+      "emitter": "kaze_00",
+      "slot": 0,
+      "descriptor": 656828,
+      "offset": 251136
+    },
+    {
+      "effect": "koopa_finalattack_renda01a_wind",
+      "emitter": "kaze_00_Copy1",
+      "slot": 0,
+      "descriptor": 658180,
+      "offset": 251136
+    },
+    {
+      "effect": "koopa_finalattack_renda02a_hit",
+      "emitter": "light2",
+      "slot": 0,
+      "descriptor": 659564,
+      "offset": 14336
+    },
+    {
+      "effect": "koopa_finalattack_renda02a_hit",
+      "emitter": "flash1",
+      "slot": 0,
+      "descriptor": 660916,
+      "offset": 598528
+    },
+    {
+      "effect": "koopa_finalattack_renda02a_hit",
+      "emitter": "light1",
+      "slot": 0,
+      "descriptor": 662268,
+      "offset": 14336
+    },
+    {
+      "effect": "koopa_finalattack_renda02a_hit",
+      "emitter": "rock1",
+      "slot": 0,
+      "descriptor": 663620,
+      "offset": 512512
+    },
+    {
+      "effect": "koopa_finalattack_renda02a_wind",
+      "emitter": "kaze_00",
+      "slot": 0,
+      "descriptor": 664988,
+      "offset": 251136
+    },
+    {
+      "effect": "koopa_finalattack_renda02a_wind",
+      "emitter": "kaze_00_Copy1",
+      "slot": 0,
+      "descriptor": 666340,
+      "offset": 251136
+    },
+    {
+      "effect": "koopa_fumituke01a",
+      "emitter": "kemuri1",
+      "slot": 0,
+      "descriptor": 667716,
+      "offset": 253696
+    },
+    {
+      "effect": "koopa_fumituke01a",
+      "emitter": "kemuri2",
+      "slot": 0,
+      "descriptor": 669068,
+      "offset": 647680
+    },
+    {
+      "effect": "koopa_fumituke01a",
+      "emitter": "rock1",
+      "slot": 0,
+      "descriptor": 670420,
+      "offset": 512512
+    },
+    {
+      "effect": "koopa_kaifuku01a",
+      "emitter": "kira_00",
+      "slot": 0,
+      "descriptor": 671788,
+      "offset": 655872
+    },
+    {
+      "effect": "koopa_kaifuku01a",
+      "emitter": "line_00",
+      "slot": 0,
+      "descriptor": 673204,
+      "offset": 532992
+    },
+    {
+      "effect": "koopa_kemuri01a",
+      "emitter": "kemuri1",
+      "slot": 0,
+      "descriptor": 674580,
+      "offset": 253696
+    },
+    {
+      "effect": "koopa_kemuri01a",
+      "emitter": "kemuri2",
+      "slot": 0,
+      "descriptor": 675932,
+      "offset": 647680
+    },
+    {
+      "effect": "koopa_kemuri01a",
+      "emitter": "rock1",
+      "slot": 0,
+      "descriptor": 677284,
+      "offset": 512512
+    },
+    {
+      "effect": "koopa_kemuri02a",
+      "emitter": "kemuri1",
+      "slot": 0,
+      "descriptor": 678660,
+      "offset": 253696
+    },
+    {
+      "effect": "koopa_kemuri02a",
+      "emitter": "kemuri2",
+      "slot": 0,
+      "descriptor": 680012,
+      "offset": 647680
+    },
+    {
+      "effect": "koopa_kemuri02a",
+      "emitter": "rock1",
+      "slot": 0,
+      "descriptor": 681364,
+      "offset": 512512
+    },
+    {
+      "effect": "koopa_kemuri03a",
+      "emitter": "kemuri1",
+      "slot": 0,
+      "descriptor": 682740,
+      "offset": 253696
+    },
+    {
+      "effect": "koopa_kemuri03a",
+      "emitter": "rock1",
+      "slot": 0,
+      "descriptor": 684092,
+      "offset": 512512
+    },
+    {
+      "effect": "koopa_kemuri03a",
+      "emitter": "kemuri2",
+      "slot": 0,
+      "descriptor": 685444,
+      "offset": 647680
+    },
+    {
+      "effect": "koopa_kemuri03b",
+      "emitter": "kemuri1",
+      "slot": 0,
+      "descriptor": 686820,
+      "offset": 253696
+    },
+    {
+      "effect": "koopa_kemuri03b",
+      "emitter": "rock1",
+      "slot": 0,
+      "descriptor": 688172,
+      "offset": 512512
+    },
+    {
+      "effect": "koopa_kemuri03b",
+      "emitter": "kemuri2",
+      "slot": 0,
+      "descriptor": 689524,
+      "offset": 647680
+    },
+    {
+      "effect": "koopa_kemuri04a",
+      "emitter": "kemuri1",
+      "slot": 0,
+      "descriptor": 690884,
+      "offset": 253696
+    },
+    {
+      "effect": "koopa_kirari03a",
+      "emitter": "kira_00",
+      "slot": 0,
+      "descriptor": 692252,
+      "offset": 655872
+    },
+    {
+      "effect": "koopa_kirari03a",
+      "emitter": "line_00",
+      "slot": 0,
+      "descriptor": 693604,
+      "offset": 532992
+    },
+    {
+      "effect": "koopa_punch01a",
+      "emitter": "dome",
+      "slot": 0,
+      "descriptor": 694972,
+      "offset": 808704
+    },
+    {
+      "effect": "koopa_punch01a",
+      "emitter": "dome",
+      "slot": 1,
+      "descriptor": 695096,
+      "offset": 825088
+    },
+    {
+      "effect": "koopa_punch01a",
+      "emitter": "dome_glow",
+      "slot": 0,
+      "descriptor": 696324,
+      "offset": 808704
+    },
+    {
+      "effect": "koopa_punch01a",
+      "emitter": "dome_glow",
+      "slot": 1,
+      "descriptor": 696448,
+      "offset": 808704
+    },
+    {
+      "effect": "koopa_punch01b",
+      "emitter": "dome",
+      "slot": 0,
+      "descriptor": 697724,
+      "offset": 808704
+    },
+    {
+      "effect": "koopa_punch01b",
+      "emitter": "dome",
+      "slot": 1,
+      "descriptor": 697848,
+      "offset": 825088
+    },
+    {
+      "effect": "koopa_punch01b",
+      "emitter": "dome_glow",
+      "slot": 0,
+      "descriptor": 699076,
+      "offset": 808704
+    },
+    {
+      "effect": "koopa_punch01b",
+      "emitter": "dome_glow",
+      "slot": 1,
+      "descriptor": 699200,
+      "offset": 808704
+    },
+    {
+      "effect": "koopa_punch01b",
+      "emitter": "ita",
+      "slot": 0,
+      "descriptor": 700428,
+      "offset": 841472
+    },
+    {
+      "effect": "koopa_punch01b",
+      "emitter": "ita_glow",
+      "slot": 0,
+      "descriptor": 701780,
+      "offset": 841472
+    },
+    {
+      "effect": "koopa_punch01b",
+      "emitter": "spiral",
+      "slot": 0,
+      "descriptor": 703132,
+      "offset": 849664
+    },
+    {
+      "effect": "koopa_punch01b",
+      "emitter": "spiral_glow",
+      "slot": 0,
+      "descriptor": 704484,
+      "offset": 849664
+    },
+    {
+      "effect": "koopa_punch02a",
+      "emitter": "dome",
+      "slot": 0,
+      "descriptor": 705852,
+      "offset": 808704
+    },
+    {
+      "effect": "koopa_punch02a",
+      "emitter": "dome",
+      "slot": 1,
+      "descriptor": 705976,
+      "offset": 825088
+    },
+    {
+      "effect": "koopa_punch02a",
+      "emitter": "dome_glow",
+      "slot": 0,
+      "descriptor": 707204,
+      "offset": 808704
+    },
+    {
+      "effect": "koopa_punch02a",
+      "emitter": "dome_glow",
+      "slot": 1,
+      "descriptor": 707328,
+      "offset": 808704
+    },
+    {
+      "effect": "koopa_punch_finalattack01a",
+      "emitter": "fire1",
+      "slot": 0,
+      "descriptor": 708580,
+      "offset": 857856
+    },
+    {
+      "effect": "koopa_punch_finalattack01a",
+      "emitter": "fire1_glow",
+      "slot": 0,
+      "descriptor": 709932,
+      "offset": 857856
+    },
+    {
+      "effect": "koopa_punch_finalattack01a",
+      "emitter": "fire0_glow",
+      "slot": 0,
+      "descriptor": 711284,
+      "offset": 857856
+    },
+    {
+      "effect": "koopa_punch_finalattack02a",
+      "emitter": "fire2",
+      "slot": 0,
+      "descriptor": 712668,
+      "offset": 874240
+    },
+    {
+      "effect": "koopa_punch_finalattack02a",
+      "emitter": "fire1",
+      "slot": 0,
+      "descriptor": 714020,
+      "offset": 857856
+    },
+    {
+      "effect": "koopa_punch_finalattack02a",
+      "emitter": "fire1_glow",
+      "slot": 0,
+      "descriptor": 715372,
+      "offset": 857856
+    },
+    {
+      "effect": "koopa_punch_finalattack02a",
+      "emitter": "fire0_glow",
+      "slot": 0,
+      "descriptor": 716724,
+      "offset": 857856
+    },
+    {
+      "effect": "koopa_punch_finalattack03a",
+      "emitter": "fire3",
+      "slot": 0,
+      "descriptor": 718124,
+      "offset": 857856
+    },
+    {
+      "effect": "koopa_punch_finalattack03a",
+      "emitter": "fire2",
+      "slot": 0,
+      "descriptor": 719476,
+      "offset": 874240
+    },
+    {
+      "effect": "koopa_punch_finalattack03a",
+      "emitter": "fire2_glow",
+      "slot": 0,
+      "descriptor": 720828,
+      "offset": 874240
+    },
+    {
+      "effect": "koopa_punch_finalattack03a",
+      "emitter": "fire1",
+      "slot": 0,
+      "descriptor": 722180,
+      "offset": 857856
+    },
+    {
+      "effect": "koopa_punch_finalattack03a",
+      "emitter": "fire1_glow",
+      "slot": 0,
+      "descriptor": 723532,
+      "offset": 857856
+    },
+    {
+      "effect": "koopa_punch_finalattack03a",
+      "emitter": "fire0_glow",
+      "slot": 0,
+      "descriptor": 724884,
+      "offset": 857856
+    },
+    {
+      "effect": "koopa_punch_finalattack04a",
+      "emitter": "fire3",
+      "slot": 0,
+      "descriptor": 726300,
+      "offset": 857856
+    },
+    {
+      "effect": "koopa_punch_finalattack04a",
+      "emitter": "fire2",
+      "slot": 0,
+      "descriptor": 727652,
+      "offset": 874240
+    },
+    {
+      "effect": "koopa_punch_finalattack04a",
+      "emitter": "fire2_glow",
+      "slot": 0,
+      "descriptor": 729004,
+      "offset": 874240
+    },
+    {
+      "effect": "koopa_punch_finalattack04a",
+      "emitter": "fire1",
+      "slot": 0,
+      "descriptor": 730356,
+      "offset": 857856
+    },
+    {
+      "effect": "koopa_punch_finalattack04a",
+      "emitter": "fire1_glow",
+      "slot": 0,
+      "descriptor": 731708,
+      "offset": 857856
+    },
+    {
+      "effect": "koopa_punch_finalattack04a",
+      "emitter": "fire0_glow",
+      "slot": 0,
+      "descriptor": 733060,
+      "offset": 857856
+    },
+    {
+      "effect": "koopa_punch_finalattack04a",
+      "emitter": "spiral",
+      "slot": 0,
+      "descriptor": 734412,
+      "offset": 882432
+    },
+    {
+      "effect": "koopa_punch_finalattack04a",
+      "emitter": "light1",
+      "slot": 0,
+      "descriptor": 735764,
+      "offset": 890624
+    },
+    {
+      "effect": "koopa_punch_finalattack05a",
+      "emitter": "fire3",
+      "slot": 0,
+      "descriptor": 737188,
+      "offset": 857856
+    },
+    {
+      "effect": "koopa_punch_finalattack05a",
+      "emitter": "fire2",
+      "slot": 0,
+      "descriptor": 738540,
+      "offset": 874240
+    },
+    {
+      "effect": "koopa_punch_finalattack05a",
+      "emitter": "fire2_glow",
+      "slot": 0,
+      "descriptor": 739892,
+      "offset": 874240
+    },
+    {
+      "effect": "koopa_punch_finalattack05a",
+      "emitter": "fire1",
+      "slot": 0,
+      "descriptor": 741244,
+      "offset": 857856
+    },
+    {
+      "effect": "koopa_punch_finalattack05a",
+      "emitter": "fire1_glow",
+      "slot": 0,
+      "descriptor": 742596,
+      "offset": 857856
+    },
+    {
+      "effect": "koopa_punch_finalattack05a",
+      "emitter": "fire0_glow",
+      "slot": 0,
+      "descriptor": 743948,
+      "offset": 857856
+    },
+    {
+      "effect": "koopa_punch_finalattack05a",
+      "emitter": "spiral",
+      "slot": 0,
+      "descriptor": 745300,
+      "offset": 882432
+    },
+    {
+      "effect": "koopa_punch_finalattack05a",
+      "emitter": "light1",
+      "slot": 0,
+      "descriptor": 746652,
+      "offset": 890624
+    },
+    {
+      "effect": "koopa_punch_finalattack05a",
+      "emitter": "light2",
+      "slot": 0,
+      "descriptor": 748004,
+      "offset": 257792
+    },
+    {
+      "effect": "koopa_rooling01a",
+      "emitter": "rolling_01",
+      "slot": 0,
+      "descriptor": 749372,
+      "offset": 898816
+    },
+    {
+      "effect": "koopa_rooling01a",
+      "emitter": "rolling_02",
+      "slot": 0,
+      "descriptor": 750724,
+      "offset": 898816
+    },
+    {
+      "effect": "koopa_rooling02a",
+      "emitter": "rolling_01",
+      "slot": 0,
+      "descriptor": 752092,
+      "offset": 898816
+    },
+    {
+      "effect": "koopa_rooling02a",
+      "emitter": "rolling_02",
+      "slot": 0,
+      "descriptor": 753444,
+      "offset": 898816
+    },
+    {
+      "effect": "koopa_scale_kirari01a",
+      "emitter": "kira_00",
+      "slot": 0,
+      "descriptor": 754804,
+      "offset": 655872
+    },
+    {
+      "effect": "koopa_scale_smoke01a",
+      "emitter": "line",
+      "slot": 0,
+      "descriptor": 756188,
+      "offset": 915200
+    },
+    {
+      "effect": "koopa_scale_smoke01a",
+      "emitter": "smoke",
+      "slot": 0,
+      "descriptor": 757540,
+      "offset": 253696
+    },
+    {
+      "effect": "koopa_scale_smoke01a",
+      "emitter": "star1_base",
+      "slot": 0,
+      "descriptor": 758892,
+      "offset": 596480
+    },
+    {
+      "effect": "koopa_scale_smoke01a",
+      "emitter": "star1_base_Copy1",
+      "slot": 0,
+      "descriptor": 760244,
+      "offset": 594432
+    },
+    {
+      "effect": "koopa_shell_kemuri01a",
+      "emitter": "kemuri1",
+      "slot": 0,
+      "descriptor": 761612,
+      "offset": 253696
+    },
+    {
+      "effect": "koopa_shell_kemuri01a",
+      "emitter": "rock",
+      "slot": 0,
+      "descriptor": 762964,
+      "offset": 512512
+    },
+    {
+      "effect": "koopa_shell_kemuri02a",
+      "emitter": "kemuri1",
+      "slot": 0,
+      "descriptor": 764332,
+      "offset": 253696
+    },
+    {
+      "effect": "koopa_shell_kemuri02a",
+      "emitter": "glass",
+      "slot": 0,
+      "descriptor": 765684,
+      "offset": 916224
+    },
+    {
+      "effect": "koopa_shout01a",
+      "emitter": "light01",
+      "slot": 0,
+      "descriptor": 767132,
+      "offset": 800512
+    },
+    {
+      "effect": "koopa_shout01a",
+      "emitter": "light02",
+      "slot": 0,
+      "descriptor": 768484,
+      "offset": 800512
+    },
+    {
+      "effect": "koopa_shout01a",
+      "emitter": "light03",
+      "slot": 0,
+      "descriptor": 769836,
+      "offset": 800512
+    },
+    {
+      "effect": "koopa_shout01a",
+      "emitter": "light04",
+      "slot": 0,
+      "descriptor": 771188,
+      "offset": 800512
+    },
+    {
+      "effect": "koopa_shout01a",
+      "emitter": "light05",
+      "slot": 0,
+      "descriptor": 772540,
+      "offset": 800512
+    },
+    {
+      "effect": "koopa_shout01a",
+      "emitter": "light06",
+      "slot": 0,
+      "descriptor": 773892,
+      "offset": 800512
+    },
+    {
+      "effect": "koopa_shout01a",
+      "emitter": "light07",
+      "slot": 0,
+      "descriptor": 775244,
+      "offset": 800512
+    },
+    {
+      "effect": "koopa_shout01a",
+      "emitter": "light08",
+      "slot": 0,
+      "descriptor": 776596,
+      "offset": 800512
+    },
+    {
+      "effect": "koopa_shout01a",
+      "emitter": "light09",
+      "slot": 0,
+      "descriptor": 777948,
+      "offset": 800512
+    },
+    {
+      "effect": "koopa_shout01a",
+      "emitter": "light10",
+      "slot": 0,
+      "descriptor": 779300,
+      "offset": 800512
+    },
+    {
+      "effect": "koopa_shout01a",
+      "emitter": "light11",
+      "slot": 0,
+      "descriptor": 780652,
+      "offset": 800512
+    },
+    {
+      "effect": "koopa_shout01a",
+      "emitter": "ring",
+      "slot": 0,
+      "descriptor": 782004,
+      "offset": 804608
+    },
+    {
+      "effect": "koopa_shout02a",
+      "emitter": "light01",
+      "slot": 0,
+      "descriptor": 783452,
+      "offset": 800512
+    },
+    {
+      "effect": "koopa_shout02a",
+      "emitter": "light02",
+      "slot": 0,
+      "descriptor": 784804,
+      "offset": 800512
+    },
+    {
+      "effect": "koopa_shout02a",
+      "emitter": "light03",
+      "slot": 0,
+      "descriptor": 786156,
+      "offset": 800512
+    },
+    {
+      "effect": "koopa_shout02a",
+      "emitter": "light04",
+      "slot": 0,
+      "descriptor": 787508,
+      "offset": 800512
+    },
+    {
+      "effect": "koopa_shout02a",
+      "emitter": "light05",
+      "slot": 0,
+      "descriptor": 788860,
+      "offset": 800512
+    },
+    {
+      "effect": "koopa_shout02a",
+      "emitter": "light06",
+      "slot": 0,
+      "descriptor": 790212,
+      "offset": 800512
+    },
+    {
+      "effect": "koopa_shout02a",
+      "emitter": "light07",
+      "slot": 0,
+      "descriptor": 791564,
+      "offset": 800512
+    },
+    {
+      "effect": "koopa_shout02a",
+      "emitter": "light08",
+      "slot": 0,
+      "descriptor": 792916,
+      "offset": 800512
+    },
+    {
+      "effect": "koopa_shout02a",
+      "emitter": "light09",
+      "slot": 0,
+      "descriptor": 794268,
+      "offset": 800512
+    },
+    {
+      "effect": "koopa_shout02a",
+      "emitter": "light10",
+      "slot": 0,
+      "descriptor": 795620,
+      "offset": 800512
+    },
+    {
+      "effect": "koopa_shout02a",
+      "emitter": "light11",
+      "slot": 0,
+      "descriptor": 796972,
+      "offset": 800512
+    },
+    {
+      "effect": "koopa_shout02a",
+      "emitter": "ring",
+      "slot": 0,
+      "descriptor": 798324,
+      "offset": 804608
+    },
+    {
+      "effect": "koopa_shout03a",
+      "emitter": "light01",
+      "slot": 0,
+      "descriptor": 799796,
+      "offset": 800512
+    },
+    {
+      "effect": "koopa_shout03a",
+      "emitter": "light02",
+      "slot": 0,
+      "descriptor": 801148,
+      "offset": 800512
+    },
+    {
+      "effect": "koopa_shout03a",
+      "emitter": "light03",
+      "slot": 0,
+      "descriptor": 802500,
+      "offset": 800512
+    },
+    {
+      "effect": "koopa_shout03a",
+      "emitter": "light04",
+      "slot": 0,
+      "descriptor": 803852,
+      "offset": 800512
+    },
+    {
+      "effect": "koopa_shout03a",
+      "emitter": "light05",
+      "slot": 0,
+      "descriptor": 805204,
+      "offset": 800512
+    },
+    {
+      "effect": "koopa_shout03a",
+      "emitter": "light06",
+      "slot": 0,
+      "descriptor": 806556,
+      "offset": 800512
+    },
+    {
+      "effect": "koopa_shout03a",
+      "emitter": "light07",
+      "slot": 0,
+      "descriptor": 807908,
+      "offset": 800512
+    },
+    {
+      "effect": "koopa_shout03a",
+      "emitter": "light08",
+      "slot": 0,
+      "descriptor": 809260,
+      "offset": 800512
+    },
+    {
+      "effect": "koopa_shout03a",
+      "emitter": "light09",
+      "slot": 0,
+      "descriptor": 810612,
+      "offset": 800512
+    },
+    {
+      "effect": "koopa_shout03a",
+      "emitter": "light10",
+      "slot": 0,
+      "descriptor": 811964,
+      "offset": 800512
+    },
+    {
+      "effect": "koopa_shout03a",
+      "emitter": "light11",
+      "slot": 0,
+      "descriptor": 813316,
+      "offset": 800512
+    },
+    {
+      "effect": "koopa_shout03a",
+      "emitter": "ring",
+      "slot": 0,
+      "descriptor": 814668,
+      "offset": 804608
+    },
+    {
+      "effect": "koopa_shout03a",
+      "emitter": "light11_z",
+      "slot": 0,
+      "descriptor": 816020,
+      "offset": 800512
+    },
+    {
+      "effect": "koopa_shout03a",
+      "emitter": "light11_z02",
+      "slot": 0,
+      "descriptor": 817372,
+      "offset": 800512
+    },
+    {
+      "effect": "koopa_shout03a",
+      "emitter": "light11_z03",
+      "slot": 0,
+      "descriptor": 818724,
+      "offset": 800512
+    },
+    {
+      "effect": "koopa_shout04a",
+      "emitter": "light01",
+      "slot": 0,
+      "descriptor": 820100,
+      "offset": 800512
+    },
+    {
+      "effect": "koopa_shout04a",
+      "emitter": "ring",
+      "slot": 0,
+      "descriptor": 821452,
+      "offset": 804608
+    },
+    {
+      "effect": "koopa_shout04a",
+      "emitter": "ring_Copy1",
+      "slot": 0,
+      "descriptor": 822804,
+      "offset": 804608
+    },
+    {
+      "effect": "koopa_tame_finalattack",
+      "emitter": "light_ita",
+      "slot": 0,
+      "descriptor": 824228,
+      "offset": 915200
+    },
+    {
+      "effect": "koopa_tame_finalattack",
+      "emitter": "spiral2",
+      "slot": 0,
+      "descriptor": 825580,
+      "offset": 917248
+    },
+    {
+      "effect": "koopa_tame_finalattack",
+      "emitter": "spiral2_line",
+      "slot": 0,
+      "descriptor": 826932,
+      "offset": 933632
+    },
+    {
+      "effect": "koopa_tame_finalattack",
+      "emitter": "spiral2_line",
+      "slot": 1,
+      "descriptor": 827056,
+      "offset": 933632
+    },
+    {
+      "effect": "koopa_tame_finalattack",
+      "emitter": "core3",
+      "slot": 0,
+      "descriptor": 828284,
+      "offset": 941824
+    },
+    {
+      "effect": "koopa_tame_finalattack",
+      "emitter": "core2",
+      "slot": 0,
+      "descriptor": 829636,
+      "offset": 941824
+    },
+    {
+      "effect": "koopa_tame_finalattack",
+      "emitter": "ring2",
+      "slot": 0,
+      "descriptor": 830988,
+      "offset": 958208
+    },
+    {
+      "effect": "koopa_tame_finalattack",
+      "emitter": "ring1",
+      "slot": 0,
+      "descriptor": 832340,
+      "offset": 958208
+    },
+    {
+      "effect": "koopa_tame_finalattack",
+      "emitter": "core",
+      "slot": 0,
+      "descriptor": 833692,
+      "offset": 738816
+    },
+    {
+      "effect": "koopa_tame_finalattack",
+      "emitter": "spark",
+      "slot": 0,
+      "descriptor": 835044,
+      "offset": 959232
+    },
+    {
+      "effect": "koopa_tame_finalattack01a",
+      "emitter": "spiral2",
+      "slot": 0,
+      "descriptor": 836428,
+      "offset": 917248
+    },
+    {
+      "effect": "koopa_tame_finalattack01a",
+      "emitter": "ring2",
+      "slot": 0,
+      "descriptor": 837780,
+      "offset": 958208
+    },
+    {
+      "effect": "koopa_tame_finalattack01a",
+      "emitter": "ring1",
+      "slot": 0,
+      "descriptor": 839132,
+      "offset": 958208
+    },
+    {
+      "effect": "koopa_tame_finalattack01a",
+      "emitter": "core",
+      "slot": 0,
+      "descriptor": 840484,
+      "offset": 738816
+    },
+    {
+      "effect": "koopa_tame_finalattack02a",
+      "emitter": "spiral2",
+      "slot": 0,
+      "descriptor": 841876,
+      "offset": 917248
+    },
+    {
+      "effect": "koopa_tame_finalattack02a",
+      "emitter": "core2",
+      "slot": 0,
+      "descriptor": 843228,
+      "offset": 941824
+    },
+    {
+      "effect": "koopa_tame_finalattack02a",
+      "emitter": "ring2",
+      "slot": 0,
+      "descriptor": 844580,
+      "offset": 958208
+    },
+    {
+      "effect": "koopa_tame_finalattack02a",
+      "emitter": "ring1",
+      "slot": 0,
+      "descriptor": 845932,
+      "offset": 958208
+    },
+    {
+      "effect": "koopa_tame_finalattack02a",
+      "emitter": "core",
+      "slot": 0,
+      "descriptor": 847284,
+      "offset": 738816
+    },
+    {
+      "effect": "koopa_tame_finalattack03a",
+      "emitter": "spiral2",
+      "slot": 0,
+      "descriptor": 848684,
+      "offset": 917248
+    },
+    {
+      "effect": "koopa_tame_finalattack03a",
+      "emitter": "core3",
+      "slot": 0,
+      "descriptor": 850036,
+      "offset": 941824
+    },
+    {
+      "effect": "koopa_tame_finalattack03a",
+      "emitter": "core2",
+      "slot": 0,
+      "descriptor": 851388,
+      "offset": 941824
+    },
+    {
+      "effect": "koopa_tame_finalattack03a",
+      "emitter": "ring2",
+      "slot": 0,
+      "descriptor": 852740,
+      "offset": 958208
+    },
+    {
+      "effect": "koopa_tame_finalattack03a",
+      "emitter": "ring1",
+      "slot": 0,
+      "descriptor": 854092,
+      "offset": 958208
+    },
+    {
+      "effect": "koopa_tame_finalattack03a",
+      "emitter": "core",
+      "slot": 0,
+      "descriptor": 855444,
+      "offset": 738816
+    },
+    {
+      "effect": "koopa_tame_finalattack04a",
+      "emitter": "spiral2",
+      "slot": 0,
+      "descriptor": 856860,
+      "offset": 917248
+    },
+    {
+      "effect": "koopa_tame_finalattack04a",
+      "emitter": "spiral2_line",
+      "slot": 0,
+      "descriptor": 858212,
+      "offset": 933632
+    },
+    {
+      "effect": "koopa_tame_finalattack04a",
+      "emitter": "spiral2_line",
+      "slot": 1,
+      "descriptor": 858336,
+      "offset": 933632
+    },
+    {
+      "effect": "koopa_tame_finalattack04a",
+      "emitter": "core3",
+      "slot": 0,
+      "descriptor": 859564,
+      "offset": 941824
+    },
+    {
+      "effect": "koopa_tame_finalattack04a",
+      "emitter": "core2",
+      "slot": 0,
+      "descriptor": 860916,
+      "offset": 941824
+    },
+    {
+      "effect": "koopa_tame_finalattack04a",
+      "emitter": "ring2",
+      "slot": 0,
+      "descriptor": 862268,
+      "offset": 958208
+    },
+    {
+      "effect": "koopa_tame_finalattack04a",
+      "emitter": "ring1",
+      "slot": 0,
+      "descriptor": 863620,
+      "offset": 958208
+    },
+    {
+      "effect": "koopa_tame_finalattack04a",
+      "emitter": "core",
+      "slot": 0,
+      "descriptor": 864972,
+      "offset": 738816
+    },
+    {
+      "effect": "koopa_tame_finalattack04a",
+      "emitter": "spark",
+      "slot": 0,
+      "descriptor": 866324,
+      "offset": 959232
+    },
+    {
+      "effect": "koopa_tame_finalattack05a",
+      "emitter": "light_ita",
+      "slot": 0,
+      "descriptor": 867748,
+      "offset": 915200
+    },
+    {
+      "effect": "koopa_tame_finalattack05a",
+      "emitter": "spiral2",
+      "slot": 0,
+      "descriptor": 869100,
+      "offset": 917248
+    },
+    {
+      "effect": "koopa_tame_finalattack05a",
+      "emitter": "spiral2_line",
+      "slot": 0,
+      "descriptor": 870452,
+      "offset": 933632
+    },
+    {
+      "effect": "koopa_tame_finalattack05a",
+      "emitter": "spiral2_line",
+      "slot": 1,
+      "descriptor": 870576,
+      "offset": 933632
+    },
+    {
+      "effect": "koopa_tame_finalattack05a",
+      "emitter": "core3",
+      "slot": 0,
+      "descriptor": 871804,
+      "offset": 941824
+    },
+    {
+      "effect": "koopa_tame_finalattack05a",
+      "emitter": "core2",
+      "slot": 0,
+      "descriptor": 873156,
+      "offset": 941824
+    },
+    {
+      "effect": "koopa_tame_finalattack05a",
+      "emitter": "ring2",
+      "slot": 0,
+      "descriptor": 874508,
+      "offset": 958208
+    },
+    {
+      "effect": "koopa_tame_finalattack05a",
+      "emitter": "ring1",
+      "slot": 0,
+      "descriptor": 875860,
+      "offset": 958208
+    },
+    {
+      "effect": "koopa_tame_finalattack05a",
+      "emitter": "core",
+      "slot": 0,
+      "descriptor": 877212,
+      "offset": 738816
+    },
+    {
+      "effect": "koopa_tame_finalattack05a",
+      "emitter": "spark",
+      "slot": 0,
+      "descriptor": 878564,
+      "offset": 959232
+    },
+    {
+      "effect": "light_foot01a",
+      "emitter": "Emitter1",
+      "slot": 0,
+      "descriptor": 879924,
+      "offset": 516608
+    },
+    {
+      "effect": "light_foot02a",
+      "emitter": "light09",
+      "slot": 0,
+      "descriptor": 881324,
+      "offset": 800512
+    },
+    {
+      "effect": "light_foot02a",
+      "emitter": "light10",
+      "slot": 0,
+      "descriptor": 882676,
+      "offset": 800512
+    },
+    {
+      "effect": "light_foot02a",
+      "emitter": "light11",
+      "slot": 0,
+      "descriptor": 884028,
+      "offset": 800512
+    },
+    {
+      "effect": "light_foot02a",
+      "emitter": "light11_z",
+      "slot": 0,
+      "descriptor": 885380,
+      "offset": 800512
+    },
+    {
+      "effect": "light_foot02a",
+      "emitter": "light11_z02",
+      "slot": 0,
+      "descriptor": 886732,
+      "offset": 800512
+    },
+    {
+      "effect": "light_foot02a",
+      "emitter": "light11_z03",
+      "slot": 0,
+      "descriptor": 888084,
+      "offset": 800512
+    },
+    {
+      "effect": "light_foot03a",
+      "emitter": "Emitter1",
+      "slot": 0,
+      "descriptor": 889444,
+      "offset": 516608
+    },
+    {
+      "effect": "light_foot04a",
+      "emitter": "Emitter1",
+      "slot": 0,
+      "descriptor": 890804,
+      "offset": 516608
+    },
+    {
+      "effect": "light_foot05a",
+      "emitter": "Emitter1",
+      "slot": 0,
+      "descriptor": 892164,
+      "offset": 516608
+    },
+    {
+      "effect": "line_housyuthu01a",
+      "emitter": "Emitter1",
+      "slot": 0,
+      "descriptor": 893524,
+      "offset": 516608
+    },
+    {
+      "effect": "mekakobittu_fire01a",
+      "emitter": "fire_main2",
+      "slot": 0,
+      "descriptor": 894892,
+      "offset": 344576
+    },
+    {
+      "effect": "mekakobittu_fire01a",
+      "emitter": "fire_main1",
+      "slot": 0,
+      "descriptor": 896244,
+      "offset": 344576
+    },
+    {
+      "effect": "mekakobittu_fire02a",
+      "emitter": "fire_main2",
+      "slot": 0,
+      "descriptor": 897612,
+      "offset": 344576
+    },
+    {
+      "effect": "mekakobittu_fire02a",
+      "emitter": "fire_main1",
+      "slot": 0,
+      "descriptor": 898964,
+      "offset": 344576
+    },
+    {
+      "effect": "metalmountain_death01a",
+      "emitter": "kemuri_01",
+      "slot": 0,
+      "descriptor": 900356,
+      "offset": 253696
+    },
+    {
+      "effect": "metalmountain_death01a",
+      "emitter": "hahen01",
+      "slot": 0,
+      "descriptor": 901708,
+      "offset": 963328
+    },
+    {
+      "effect": "metalmountain_death01a",
+      "emitter": "hahen02",
+      "slot": 0,
+      "descriptor": 903060,
+      "offset": 963328
+    },
+    {
+      "effect": "metalmountain_death01a",
+      "emitter": "hahen03",
+      "slot": 0,
+      "descriptor": 904412,
+      "offset": 963328
+    },
+    {
+      "effect": "metalmountain_death01a",
+      "emitter": "hahen04",
+      "slot": 0,
+      "descriptor": 905764,
+      "offset": 963328
+    },
+    {
+      "effect": "move_kemuri01a",
+      "emitter": "kemuri1",
+      "slot": 0,
+      "descriptor": 907132,
+      "offset": 253696
+    },
+    {
+      "effect": "move_kemuri01a",
+      "emitter": "glass1",
+      "slot": 0,
+      "descriptor": 908484,
+      "offset": 916224
+    },
+    {
+      "effect": "move_kemuri03a",
+      "emitter": "kemuri1",
+      "slot": 0,
+      "descriptor": 909852,
+      "offset": 253696
+    },
+    {
+      "effect": "move_kemuri03a",
+      "emitter": "stone",
+      "slot": 0,
+      "descriptor": 911204,
+      "offset": 512512
+    },
+    {
+      "effect": "move_kemuri03b",
+      "emitter": "kemuri1",
+      "slot": 0,
+      "descriptor": 912572,
+      "offset": 253696
+    },
+    {
+      "effect": "move_kemuri03b",
+      "emitter": "stone",
+      "slot": 0,
+      "descriptor": 913924,
+      "offset": 512512
+    },
+    {
+      "effect": "move_kemuri04a",
+      "emitter": "kemuri1",
+      "slot": 0,
+      "descriptor": 915292,
+      "offset": 253696
+    },
+    {
+      "effect": "move_kemuri04a",
+      "emitter": "stone",
+      "slot": 0,
+      "descriptor": 916644,
+      "offset": 512512
+    },
+    {
+      "effect": "oshiai_kemuri01a",
+      "emitter": "kemuri_01",
+      "slot": 0,
+      "descriptor": 918004,
+      "offset": 253696
+    },
+    {
+      "effect": "peach_castle_beam_tame01a",
+      "emitter": "core2",
+      "slot": 0,
+      "descriptor": 919372,
+      "offset": 578048
+    },
+    {
+      "effect": "peach_castle_beam_tame01a",
+      "emitter": "core2_Copy1",
+      "slot": 0,
+      "descriptor": 920724,
+      "offset": 806656
+    },
+    {
+      "effect": "peach_castle_burning01a",
+      "emitter": "fire_main2",
+      "slot": 0,
+      "descriptor": 922108,
+      "offset": 344576
+    },
+    {
+      "effect": "peach_castle_burning01a",
+      "emitter": "fire_main1",
+      "slot": 0,
+      "descriptor": 923460,
+      "offset": 344576
+    },
+    {
+      "effect": "peach_castle_burning01a",
+      "emitter": "core",
+      "slot": 0,
+      "descriptor": 924812,
+      "offset": 510464
+    },
+    {
+      "effect": "peach_castle_burning01a",
+      "emitter": "kemuri_01",
+      "slot": 0,
+      "descriptor": 926164,
+      "offset": 253696
+    },
+    {
+      "effect": "peach_castle_burning02a",
+      "emitter": "fire_main2",
+      "slot": 0,
+      "descriptor": 927548,
+      "offset": 344576
+    },
+    {
+      "effect": "peach_castle_burning02a",
+      "emitter": "fire_main1",
+      "slot": 0,
+      "descriptor": 928900,
+      "offset": 344576
+    },
+    {
+      "effect": "peach_castle_burning02a",
+      "emitter": "core",
+      "slot": 0,
+      "descriptor": 930252,
+      "offset": 510464
+    },
+    {
+      "effect": "peach_castle_burning02a",
+      "emitter": "kemuri_01",
+      "slot": 0,
+      "descriptor": 931604,
+      "offset": 253696
+    },
+    {
+      "effect": "peach_castle_explosion01a",
+      "emitter": "kemuri",
+      "slot": 0,
+      "descriptor": 933020,
+      "offset": 253184
+    },
+    {
+      "effect": "peach_castle_explosion01a",
+      "emitter": "smoke_01",
+      "slot": 0,
+      "descriptor": 934372,
+      "offset": 253696
+    },
+    {
+      "effect": "peach_castle_explosion01a",
+      "emitter": "hahen",
+      "slot": 0,
+      "descriptor": 935724,
+      "offset": 265984
+    },
+    {
+      "effect": "peach_castle_explosion01a",
+      "emitter": "bomb_01",
+      "slot": 0,
+      "descriptor": 937076,
+      "offset": 334080
+    },
+    {
+      "effect": "peach_castle_explosion01a",
+      "emitter": "core_01",
+      "slot": 0,
+      "descriptor": 938428,
+      "offset": 14336
+    },
+    {
+      "effect": "peach_castle_explosion01a",
+      "emitter": "ring_01",
+      "slot": 0,
+      "descriptor": 939780,
+      "offset": 338176
+    },
+    {
+      "effect": "peach_castle_explosion01a",
+      "emitter": "core_02",
+      "slot": 0,
+      "descriptor": 941132,
+      "offset": 14336
+    },
+    {
+      "effect": "peach_castle_explosion01a",
+      "emitter": "hibana_01",
+      "slot": 0,
+      "descriptor": 942484,
+      "offset": 14336
+    },
+    {
+      "effect": "peach_castle_explosion01b",
+      "emitter": "kemuri",
+      "slot": 0,
+      "descriptor": 943900,
+      "offset": 253184
+    },
+    {
+      "effect": "peach_castle_explosion01b",
+      "emitter": "smoke_01",
+      "slot": 0,
+      "descriptor": 945252,
+      "offset": 253696
+    },
+    {
+      "effect": "peach_castle_explosion01b",
+      "emitter": "hahen",
+      "slot": 0,
+      "descriptor": 946604,
+      "offset": 265984
+    },
+    {
+      "effect": "peach_castle_explosion01b",
+      "emitter": "bomb_01",
+      "slot": 0,
+      "descriptor": 947956,
+      "offset": 334080
+    },
+    {
+      "effect": "peach_castle_explosion01b",
+      "emitter": "core_01",
+      "slot": 0,
+      "descriptor": 949308,
+      "offset": 14336
+    },
+    {
+      "effect": "peach_castle_explosion01b",
+      "emitter": "ring_01",
+      "slot": 0,
+      "descriptor": 950660,
+      "offset": 338176
+    },
+    {
+      "effect": "peach_castle_explosion01b",
+      "emitter": "core_02",
+      "slot": 0,
+      "descriptor": 952012,
+      "offset": 14336
+    },
+    {
+      "effect": "peach_castle_explosion01b",
+      "emitter": "hibana_01",
+      "slot": 0,
+      "descriptor": 953364,
+      "offset": 14336
+    },
+    {
+      "effect": "peach_castle_eye_light01a",
+      "emitter": "ring",
+      "slot": 0,
+      "descriptor": 954748,
+      "offset": 958208
+    },
+    {
+      "effect": "peach_castle_eye_light01a",
+      "emitter": "ring_Copy1",
+      "slot": 0,
+      "descriptor": 956100,
+      "offset": 958208
+    },
+    {
+      "effect": "peach_castle_eye_light01a",
+      "emitter": "line",
+      "slot": 0,
+      "descriptor": 957452,
+      "offset": 14336
+    },
+    {
+      "effect": "peach_castle_eye_light01a",
+      "emitter": "line_Copy1",
+      "slot": 0,
+      "descriptor": 958804,
+      "offset": 14336
+    },
+    {
+      "effect": "peach_castle_fire01a",
+      "emitter": "fire_main2",
+      "slot": 0,
+      "descriptor": 960188,
+      "offset": 344576
+    },
+    {
+      "effect": "peach_castle_fire01a",
+      "emitter": "fire_main1",
+      "slot": 0,
+      "descriptor": 961540,
+      "offset": 344576
+    },
+    {
+      "effect": "peach_castle_fire01a",
+      "emitter": "core",
+      "slot": 0,
+      "descriptor": 962892,
+      "offset": 510464
+    },
+    {
+      "effect": "peach_castle_fire01a",
+      "emitter": "kemuri_01",
+      "slot": 0,
+      "descriptor": 964244,
+      "offset": 253696
+    },
+    {
+      "effect": "peach_castle_hibana01a",
+      "emitter": "hibana",
+      "slot": 0,
+      "descriptor": 965620,
+      "offset": 516608
+    },
+    {
+      "effect": "peach_castle_hibana01a",
+      "emitter": "light1",
+      "slot": 0,
+      "descriptor": 966972,
+      "offset": 14336
+    },
+    {
+      "effect": "peach_castle_hibana01a",
+      "emitter": "light2",
+      "slot": 0,
+      "descriptor": 968324,
+      "offset": 14336
+    },
+    {
+      "effect": "peach_castle_jet01a",
+      "emitter": "frea",
+      "slot": 0,
+      "descriptor": 969708,
+      "offset": 344576
+    },
+    {
+      "effect": "peach_castle_jet01a",
+      "emitter": "fire_main2",
+      "slot": 0,
+      "descriptor": 971060,
+      "offset": 510464
+    },
+    {
+      "effect": "peach_castle_jet01a",
+      "emitter": "fire_main1",
+      "slot": 0,
+      "descriptor": 972412,
+      "offset": 510464
+    },
+    {
+      "effect": "peach_castle_jet01a",
+      "emitter": "core",
+      "slot": 0,
+      "descriptor": 973764,
+      "offset": 510464
+    },
+    {
+      "effect": "peach_castle_jet02a",
+      "emitter": "frea",
+      "slot": 0,
+      "descriptor": 975148,
+      "offset": 344576
+    },
+    {
+      "effect": "peach_castle_jet02a",
+      "emitter": "fire_main2",
+      "slot": 0,
+      "descriptor": 976500,
+      "offset": 510464
+    },
+    {
+      "effect": "peach_castle_jet02a",
+      "emitter": "fire_main1",
+      "slot": 0,
+      "descriptor": 977852,
+      "offset": 510464
+    },
+    {
+      "effect": "peach_castle_jet02a",
+      "emitter": "core",
+      "slot": 0,
+      "descriptor": 979204,
+      "offset": 510464
+    },
+    {
+      "effect": "peach_castle_jet_kemuri01a",
+      "emitter": "kemuri",
+      "slot": 0,
+      "descriptor": 980564,
+      "offset": 253696
+    },
+    {
+      "effect": "peach_castle_kemuri01",
+      "emitter": "kemuri02",
+      "slot": 0,
+      "descriptor": 981932,
+      "offset": 253696
+    },
+    {
+      "effect": "peach_castle_kemuri01",
+      "emitter": "kemuri01",
+      "slot": 0,
+      "descriptor": 983284,
+      "offset": 253696
+    },
+    {
+      "effect": "peach_castle_kemuri01a",
+      "emitter": "kemuri1",
+      "slot": 0,
+      "descriptor": 984660,
+      "offset": 253696
+    },
+    {
+      "effect": "peach_castle_kemuri01a",
+      "emitter": "kemuri2",
+      "slot": 0,
+      "descriptor": 986012,
+      "offset": 647680
+    },
+    {
+      "effect": "peach_castle_kemuri01a",
+      "emitter": "rock1",
+      "slot": 0,
+      "descriptor": 987364,
+      "offset": 512512
+    },
+    {
+      "effect": "peach_castle_kemuri02",
+      "emitter": "kemuri",
+      "slot": 0,
+      "descriptor": 988724,
+      "offset": 253696
+    },
+    {
+      "effect": "peach_castle_kemuri02a",
+      "emitter": "kemuri1",
+      "slot": 0,
+      "descriptor": 990100,
+      "offset": 253696
+    },
+    {
+      "effect": "peach_castle_kemuri02a",
+      "emitter": "kemuri2",
+      "slot": 0,
+      "descriptor": 991452,
+      "offset": 647680
+    },
+    {
+      "effect": "peach_castle_kemuri02a",
+      "emitter": "rock1",
+      "slot": 0,
+      "descriptor": 992804,
+      "offset": 512512
+    },
+    {
+      "effect": "peach_castle_kemuri03",
+      "emitter": "kemuri",
+      "slot": 0,
+      "descriptor": 994164,
+      "offset": 253696
+    },
+    {
+      "effect": "peach_castle_kemuri04a",
+      "emitter": "kemuri_01",
+      "slot": 0,
+      "descriptor": 995524,
+      "offset": 253696
+    },
+    {
+      "effect": "peach_castle_kemuri04b",
+      "emitter": "kemuri_01",
+      "slot": 0,
+      "descriptor": 996884,
+      "offset": 253696
+    },
+    {
+      "effect": "peach_castle_kemuri05a",
+      "emitter": "kemuri",
+      "slot": 0,
+      "descriptor": 998244,
+      "offset": 253184
+    },
+    {
+      "effect": "peach_castle_kemuri06a",
+      "emitter": "kemuri1",
+      "slot": 0,
+      "descriptor": 999604,
+      "offset": 253696
+    },
+    {
+      "effect": "peach_castle_kemuri07a",
+      "emitter": "kemuri",
+      "slot": 0,
+      "descriptor": 1000964,
+      "offset": 253696
+    },
+    {
+      "effect": "peach_castle_kira01a",
+      "emitter": "hikari",
+      "slot": 0,
+      "descriptor": 1002356,
+      "offset": 996096
+    },
+    {
+      "effect": "peach_castle_kira01a",
+      "emitter": "hikari_w2",
+      "slot": 0,
+      "descriptor": 1003708,
+      "offset": 996096
+    },
+    {
+      "effect": "peach_castle_kira01a",
+      "emitter": "hikari2",
+      "slot": 0,
+      "descriptor": 1005060,
+      "offset": 996096
+    },
+    {
+      "effect": "peach_castle_kira01a",
+      "emitter": "hikari2_w",
+      "slot": 0,
+      "descriptor": 1006412,
+      "offset": 996096
+    },
+    {
+      "effect": "peach_castle_kira01a",
+      "emitter": "ring",
+      "slot": 0,
+      "descriptor": 1007764,
+      "offset": 792320
+    },
+    {
+      "effect": "peach_castle_kira02a",
+      "emitter": "kira",
+      "slot": 0,
+      "descriptor": 1009124,
+      "offset": 806144
+    },
+    {
+      "effect": "peach_castle_landing01a",
+      "emitter": "kemuri2",
+      "slot": 0,
+      "descriptor": 1010492,
+      "offset": 647680
+    },
+    {
+      "effect": "peach_castle_landing01a",
+      "emitter": "kemuri_01",
+      "slot": 0,
+      "descriptor": 1011844,
+      "offset": 253696
+    },
+    {
+      "effect": "peach_castle_landing02a",
+      "emitter": "kemuri_01",
+      "slot": 0,
+      "descriptor": 1013204,
+      "offset": 253696
+    },
+    {
+      "effect": "peach_castle_laser",
+      "emitter": "laser_ring",
+      "slot": 0,
+      "descriptor": 1014580,
+      "offset": 15360
+    },
+    {
+      "effect": "peach_castle_laser",
+      "emitter": "laser_ring",
+      "slot": 1,
+      "descriptor": 1014704,
+      "offset": 15360
+    },
+    {
+      "effect": "peach_castle_laser",
+      "emitter": "laser_Copy2",
+      "slot": 0,
+      "descriptor": 1015932,
+      "offset": 767744
+    },
+    {
+      "effect": "peach_castle_laser",
+      "emitter": "laser_Copy2",
+      "slot": 1,
+      "descriptor": 1016056,
+      "offset": 767744
+    },
+    {
+      "effect": "peach_castle_laser",
+      "emitter": "laser",
+      "slot": 0,
+      "descriptor": 1017284,
+      "offset": 767744
+    },
+    {
+      "effect": "peach_castle_laser",
+      "emitter": "laser",
+      "slot": 1,
+      "descriptor": 1017408,
+      "offset": 767744
+    },
+    {
+      "effect": "peach_castle_laser_out",
+      "emitter": "line",
+      "slot": 0,
+      "descriptor": 1018652,
+      "offset": 516608
+    },
+    {
+      "effect": "peach_castle_laser_out",
+      "emitter": "line_halo",
+      "slot": 0,
+      "descriptor": 1020004,
+      "offset": 516608
+    },
+    {
+      "effect": "peach_castle_laser_taiki",
+      "emitter": "line",
+      "slot": 0,
+      "descriptor": 1021372,
+      "offset": 516608
+    },
+    {
+      "effect": "peach_castle_laser_taiki",
+      "emitter": "line_halo",
+      "slot": 0,
+      "descriptor": 1022724,
+      "offset": 516608
+    },
+    {
+      "effect": "peach_castle_missile_fire01a",
+      "emitter": "fire_main2",
+      "slot": 0,
+      "descriptor": 1024108,
+      "offset": 344576
+    },
+    {
+      "effect": "peach_castle_missile_fire01a",
+      "emitter": "fire_main1",
+      "slot": 0,
+      "descriptor": 1025460,
+      "offset": 344576
+    },
+    {
+      "effect": "peach_castle_missile_fire01a",
+      "emitter": "core",
+      "slot": 0,
+      "descriptor": 1026812,
+      "offset": 510464
+    },
+    {
+      "effect": "peach_castle_missile_fire01a",
+      "emitter": "kemuri_01",
+      "slot": 0,
+      "descriptor": 1028164,
+      "offset": 253696
+    },
+    {
+      "effect": "peach_castle_smoke01a",
+      "emitter": "kemuri1",
+      "slot": 0,
+      "descriptor": 1029524,
+      "offset": 253696
+    },
+    {
+      "effect": "peach_castle_spark01a",
+      "emitter": "spark",
+      "slot": 0,
+      "descriptor": 1030892,
+      "offset": 185344
+    },
+    {
+      "effect": "peach_castle_spark01a",
+      "emitter": "light1",
+      "slot": 0,
+      "descriptor": 1032244,
+      "offset": 14336
+    },
+    {
+      "effect": "robo_release01a",
+      "emitter": "boll",
+      "slot": 0,
+      "descriptor": 1033620,
+      "offset": 48128
+    },
+    {
+      "effect": "robo_release01a",
+      "emitter": "boll_2",
+      "slot": 0,
+      "descriptor": 1034972,
+      "offset": 201984
+    },
+    {
+      "effect": "robo_release01a",
+      "emitter": "boll_hi",
+      "slot": 0,
+      "descriptor": 1036324,
+      "offset": 14336
+    },
+    {
+      "effect": "rock01a",
+      "emitter": "rock1",
+      "slot": 0,
+      "descriptor": 1037684,
+      "offset": 512512
+    },
+    {
+      "effect": "tobasare2_iwa01a",
+      "emitter": "kemuri_01",
+      "slot": 0,
+      "descriptor": 1039060,
+      "offset": 253696
+    },
+    {
+      "effect": "tobasare2_iwa01a",
+      "emitter": "hahen01",
+      "slot": 0,
+      "descriptor": 1040412,
+      "offset": 998144
+    },
+    {
+      "effect": "tobasare2_iwa01a",
+      "emitter": "hahen02",
+      "slot": 0,
+      "descriptor": 1041764,
+      "offset": 998144
+    },
+    {
+      "effect": "tobasare2_oka02a",
+      "emitter": "kemuri_01",
+      "slot": 0,
+      "descriptor": 1043140,
+      "offset": 253696
+    },
+    {
+      "effect": "tobasare2_oka02a",
+      "emitter": "hahen01",
+      "slot": 0,
+      "descriptor": 1044492,
+      "offset": 1006336
+    },
+    {
+      "effect": "tobasare2_oka02a",
+      "emitter": "hahen02",
+      "slot": 0,
+      "descriptor": 1045844,
+      "offset": 1006336
+    },
+    {
+      "effect": "tobasare2_tree02a",
+      "emitter": "kemuri_01",
+      "slot": 0,
+      "descriptor": 1047212,
+      "offset": 253696
+    },
+    {
+      "effect": "tobasare2_tree02a",
+      "emitter": "tree01",
+      "slot": 0,
+      "descriptor": 1048564,
+      "offset": 1014528
+    },
+    {
+      "effect": "tobasare3_mountain01a",
+      "emitter": "kemuri_01",
+      "slot": 0,
+      "descriptor": 1049940,
+      "offset": 253696
+    },
+    {
+      "effect": "tobasare3_mountain01a",
+      "emitter": "hahen01",
+      "slot": 0,
+      "descriptor": 1051292,
+      "offset": 1018624
+    },
+    {
+      "effect": "tobasare3_mountain01a",
+      "emitter": "hahen02",
+      "slot": 0,
+      "descriptor": 1052644,
+      "offset": 1018624
+    },
+    {
+      "effect": "tobasare3_tree03a",
+      "emitter": "kemuri_01",
+      "slot": 0,
+      "descriptor": 1054012,
+      "offset": 253696
+    },
+    {
+      "effect": "tobasare3_tree03a",
+      "emitter": "tree01",
+      "slot": 0,
+      "descriptor": 1055364,
+      "offset": 1022720
+    },
+    {
+      "effect": "tobasare4_tree04a",
+      "emitter": "kemuri_01",
+      "slot": 0,
+      "descriptor": 1056732,
+      "offset": 253696
+    },
+    {
+      "effect": "tobasare4_tree04a",
+      "emitter": "tree01",
+      "slot": 0,
+      "descriptor": 1058084,
+      "offset": 1026816
+    },
+    {
+      "effect": "tobasare4_wall01a",
+      "emitter": "kemuri_01",
+      "slot": 0,
+      "descriptor": 1059460,
+      "offset": 253696
+    },
+    {
+      "effect": "tobasare4_wall01a",
+      "emitter": "hahen01",
+      "slot": 0,
+      "descriptor": 1060812,
+      "offset": 1030912
+    },
+    {
+      "effect": "tobasare4_wall01a",
+      "emitter": "hahen02",
+      "slot": 0,
+      "descriptor": 1062164,
+      "offset": 1030912
+    },
+    {
+      "effect": "tobasare_kemuri01a",
+      "emitter": "kemuri_01",
+      "slot": 0,
+      "descriptor": 1063540,
+      "offset": 253696
+    },
+    {
+      "effect": "tobasare_kemuri01a",
+      "emitter": "toge_01",
+      "slot": 0,
+      "descriptor": 1064892,
+      "offset": 739840
+    },
+    {
+      "effect": "tobasare_kemuri01a",
+      "emitter": "hahen",
+      "slot": 0,
+      "descriptor": 1066244,
+      "offset": 265984
+    },
+    {
+      "effect": "tobasare_kemuri01a_l",
+      "emitter": "kemuri_01",
+      "slot": 0,
+      "descriptor": 1067620,
+      "offset": 253696
+    },
+    {
+      "effect": "tobasare_kemuri01a_l",
+      "emitter": "toge_01",
+      "slot": 0,
+      "descriptor": 1068972,
+      "offset": 739840
+    },
+    {
+      "effect": "tobasare_kemuri01a_l",
+      "emitter": "hahen",
+      "slot": 0,
+      "descriptor": 1070324,
+      "offset": 916224
+    },
+    {
+      "effect": "tobasare_kemuri01a_r",
+      "emitter": "kemuri_01",
+      "slot": 0,
+      "descriptor": 1071700,
+      "offset": 253696
+    },
+    {
+      "effect": "tobasare_kemuri01a_r",
+      "emitter": "toge_01",
+      "slot": 0,
+      "descriptor": 1073052,
+      "offset": 739840
+    },
+    {
+      "effect": "tobasare_kemuri01a_r",
+      "emitter": "hahen",
+      "slot": 0,
+      "descriptor": 1074404,
+      "offset": 916224
+    },
+    {
+      "effect": "tobasare_kemuri02a_l",
+      "emitter": "kemuri_01",
+      "slot": 0,
+      "descriptor": 1075780,
+      "offset": 253696
+    },
+    {
+      "effect": "tobasare_kemuri02a_l",
+      "emitter": "toge_01",
+      "slot": 0,
+      "descriptor": 1077132,
+      "offset": 739840
+    },
+    {
+      "effect": "tobasare_kemuri02a_l",
+      "emitter": "hahen",
+      "slot": 0,
+      "descriptor": 1078484,
+      "offset": 512512
+    },
+    {
+      "effect": "tobasare_kemuri02a_r",
+      "emitter": "kemuri_01",
+      "slot": 0,
+      "descriptor": 1079860,
+      "offset": 253696
+    },
+    {
+      "effect": "tobasare_kemuri02a_r",
+      "emitter": "toge_01",
+      "slot": 0,
+      "descriptor": 1081212,
+      "offset": 739840
+    },
+    {
+      "effect": "tobasare_kemuri02a_r",
+      "emitter": "hahen",
+      "slot": 0,
+      "descriptor": 1082564,
+      "offset": 512512
+    },
+    {
+      "effect": "tobasare_kemuri03a",
+      "emitter": "kemuri_01",
+      "slot": 0,
+      "descriptor": 1083932,
+      "offset": 253696
+    },
+    {
+      "effect": "tobasare_kemuri03a",
+      "emitter": "hahen",
+      "slot": 0,
+      "descriptor": 1085284,
+      "offset": 916224
+    },
+    {
+      "effect": "tobasare_kemuri03a_l",
+      "emitter": "kemuri_01",
+      "slot": 0,
+      "descriptor": 1086660,
+      "offset": 253696
+    },
+    {
+      "effect": "tobasare_kemuri03a_l",
+      "emitter": "toge_01",
+      "slot": 0,
+      "descriptor": 1088012,
+      "offset": 739840
+    },
+    {
+      "effect": "tobasare_kemuri03a_l",
+      "emitter": "hahen",
+      "slot": 0,
+      "descriptor": 1089364,
+      "offset": 512512
+    },
+    {
+      "effect": "tobasare_kemuri03a_r",
+      "emitter": "kemuri_01",
+      "slot": 0,
+      "descriptor": 1090740,
+      "offset": 253696
+    },
+    {
+      "effect": "tobasare_kemuri03a_r",
+      "emitter": "toge_01",
+      "slot": 0,
+      "descriptor": 1092092,
+      "offset": 739840
+    },
+    {
+      "effect": "tobasare_kemuri03a_r",
+      "emitter": "hahen",
+      "slot": 0,
+      "descriptor": 1093444,
+      "offset": 512512
+    },
+    {
+      "effect": "tobasare_kemuri03b",
+      "emitter": "kemuri_01",
+      "slot": 0,
+      "descriptor": 1094812,
+      "offset": 253696
+    },
+    {
+      "effect": "tobasare_kemuri03b",
+      "emitter": "hahen",
+      "slot": 0,
+      "descriptor": 1096164,
+      "offset": 916224
+    },
+    {
+      "effect": "tobasare_kemuri03c",
+      "emitter": "kemuri_01",
+      "slot": 0,
+      "descriptor": 1097548,
+      "offset": 253696
+    },
+    {
+      "effect": "tobasare_kemuri03c",
+      "emitter": "toge_01",
+      "slot": 0,
+      "descriptor": 1098900,
+      "offset": 739840
+    },
+    {
+      "effect": "tobasare_kemuri03c",
+      "emitter": "toge_02",
+      "slot": 0,
+      "descriptor": 1100252,
+      "offset": 739840
+    },
+    {
+      "effect": "tobasare_kemuri03c",
+      "emitter": "hahen",
+      "slot": 0,
+      "descriptor": 1101604,
+      "offset": 512512
+    },
+    {
+      "effect": "tobasare_kemuri04a",
+      "emitter": "kemuri_01",
+      "slot": 0,
+      "descriptor": 1102972,
+      "offset": 253696
+    },
+    {
+      "effect": "tobasare_kemuri04a",
+      "emitter": "hahen",
+      "slot": 0,
+      "descriptor": 1104324,
+      "offset": 916224
+    },
+    {
+      "effect": "tobasare_kemuri05a",
+      "emitter": "kemuri_01",
+      "slot": 0,
+      "descriptor": 1105692,
+      "offset": 253696
+    },
+    {
+      "effect": "tobasare_kemuri05a",
+      "emitter": "hahen",
+      "slot": 0,
+      "descriptor": 1107044,
+      "offset": 512512
+    },
+    {
+      "effect": "tobasare_kemuri05b",
+      "emitter": "kemuri_01",
+      "slot": 0,
+      "descriptor": 1108412,
+      "offset": 253696
+    },
+    {
+      "effect": "tobasare_kemuri05b",
+      "emitter": "hahen",
+      "slot": 0,
+      "descriptor": 1109764,
+      "offset": 512512
+    },
+    {
+      "effect": "tobasare_kemuri05c",
+      "emitter": "kemuri_01",
+      "slot": 0,
+      "descriptor": 1111132,
+      "offset": 253696
+    },
+    {
+      "effect": "tobasare_kemuri05c",
+      "emitter": "hahen",
+      "slot": 0,
+      "descriptor": 1112484,
+      "offset": 512512
+    },
+    {
+      "effect": "tobasare_kemuri06a",
+      "emitter": "kemuri_01",
+      "slot": 0,
+      "descriptor": 1113852,
+      "offset": 253696
+    },
+    {
+      "effect": "tobasare_kemuri06a",
+      "emitter": "hahen",
+      "slot": 0,
+      "descriptor": 1115204,
+      "offset": 512512
+    },
+    {
+      "effect": "tobasare_oka01a",
+      "emitter": "kemuri_01",
+      "slot": 0,
+      "descriptor": 1116580,
+      "offset": 253696
+    },
+    {
+      "effect": "tobasare_oka01a",
+      "emitter": "hahen01",
+      "slot": 0,
+      "descriptor": 1117932,
+      "offset": 1039104
+    },
+    {
+      "effect": "tobasare_oka01a",
+      "emitter": "hahen02",
+      "slot": 0,
+      "descriptor": 1119284,
+      "offset": 1039104
+    },
+    {
+      "effect": "tobasare_tree01a",
+      "emitter": "kemuri_01",
+      "slot": 0,
+      "descriptor": 1120652,
+      "offset": 253696
+    },
+    {
+      "effect": "tobasare_tree01a",
+      "emitter": "tree01",
+      "slot": 0,
+      "descriptor": 1122004,
+      "offset": 1082112
+    },
+    {
+      "effect": "togezo_kira01a",
+      "emitter": "kira",
+      "slot": 0,
+      "descriptor": 1123380,
+      "offset": 806144
+    },
+    {
+      "effect": "togezo_kira01a",
+      "emitter": "kira_Copy1",
+      "slot": 0,
+      "descriptor": 1124732,
+      "offset": 806144
+    },
+    {
+      "effect": "togezo_kira01a",
+      "emitter": "kira_Copy2",
+      "slot": 0,
+      "descriptor": 1126084,
+      "offset": 806144
+    },
+    {
+      "effect": "vacuum_move_kemuri01a",
+      "emitter": "kemuri_01",
+      "slot": 0,
+      "descriptor": 1127452,
+      "offset": 253696
+    },
+    {
+      "effect": "vacuum_move_kemuri01a",
+      "emitter": "hahen",
+      "slot": 0,
+      "descriptor": 1128804,
+      "offset": 512512
+    },
+    {
+      "effect": "white_kemuri01a",
+      "emitter": "smoke_00",
+      "slot": 0,
+      "descriptor": 1130164,
+      "offset": 253184
+    },
+    {
+      "effect": "white_out01a",
+      "emitter": "light1",
+      "slot": 0,
+      "descriptor": 1131524,
+      "offset": 268032
+    },
+    {
+      "effect": "wind01a_koopa",
+      "emitter": "wind_front",
+      "slot": 0,
+      "descriptor": 1132884,
+      "offset": 14336
+    },
+    {
+      "effect": "wind01b_pcastle",
+      "emitter": "wind_front",
+      "slot": 0,
+      "descriptor": 1134244,
+      "offset": 14336
+    },
+    {
+      "effect": "wind02a_koopa_hole",
+      "emitter": "wind_front",
+      "slot": 0,
+      "descriptor": 1135612,
+      "offset": 14336
+    },
+    {
+      "effect": "wind02a_koopa_hole",
+      "emitter": "wind_rear",
+      "slot": 0,
+      "descriptor": 1136964,
+      "offset": 14336
+    },
+    {
+      "effect": "wind02b_pcastle_hole",
+      "emitter": "wind_front",
+      "slot": 0,
+      "descriptor": 1138332,
+      "offset": 14336
+    },
+    {
+      "effect": "wind02b_pcastle_hole",
+      "emitter": "wind_rear",
+      "slot": 0,
+      "descriptor": 1139684,
+      "offset": 14336
+    },
+    {
+      "effect": "wind_line01a",
+      "emitter": "kaze_uzu_l",
+      "slot": 0,
+      "descriptor": 1141044,
+      "offset": 1086208
+    },
+    {
+      "effect": "wind_line01b",
+      "emitter": "kaze_uzu_l",
+      "slot": 0,
+      "descriptor": 1142404,
+      "offset": 1086208
+    },
+    {
+      "effect": "wind_line02a",
+      "emitter": "kaze_uzu_l",
+      "slot": 0,
+      "descriptor": 1143764,
+      "offset": 1086208
+    },
+    {
+      "effect": "wind_line02b",
+      "emitter": "kaze_uzu_l",
+      "slot": 0,
+      "descriptor": 1145124,
+      "offset": 1086208
+    },
+    {
+      "effect": "wind_line_curve01a",
+      "emitter": "kaze_00_start",
+      "slot": 0,
+      "descriptor": 1146484,
+      "offset": 251136
+    },
+    {
+      "effect": "wind_line_curve01b",
+      "emitter": "kaze_00_start",
+      "slot": 0,
+      "descriptor": 1147844,
+      "offset": 251136
+    },
+    {
+      "effect": "wind_line_curve01c",
+      "emitter": "kaze_00_start",
+      "slot": 0,
+      "descriptor": 1149204,
+      "offset": 251136
+    },
+    {
+      "effect": "wind_line_curve02a",
+      "emitter": "kaze_00_start",
+      "slot": 0,
+      "descriptor": 1150564,
+      "offset": 251136
+    },
+    {
+      "effect": "wind_line_curve02b",
+      "emitter": "kaze_00_start",
+      "slot": 0,
+      "descriptor": 1151924,
+      "offset": 251136
+    },
+    {
+      "effect": "wind_line_curve03a",
+      "emitter": "kaze_00_start",
+      "slot": 0,
+      "descriptor": 1153284,
+      "offset": 251136
+    },
+    {
+      "effect": "wind_line_curve04a",
+      "emitter": "kaze_00_start",
+      "slot": 0,
+      "descriptor": 1154644,
+      "offset": 251136
+    },
+    {
+      "effect": "wind_line_curve05a",
+      "emitter": "kaze_00_start",
+      "slot": 0,
+      "descriptor": 1156004,
+      "offset": 251136
+    },
+    {
+      "effect": "wind_line_curve06a",
+      "emitter": "kaze_00_start",
+      "slot": 0,
+      "descriptor": 1157364,
+      "offset": 251136
+    },
+    {
+      "effect": "wind_line_curve07a",
+      "emitter": "kaze_00_start",
+      "slot": 0,
+      "descriptor": 1158724,
+      "offset": 251136
+    },
+    {
+      "effect": "wind_line_curve08a",
+      "emitter": "kaze_00_start",
+      "slot": 0,
+      "descriptor": 1160084,
+      "offset": 251136
+    },
+    {
+      "effect": "wind_line_map01a",
+      "emitter": "kaze_00",
+      "slot": 0,
+      "descriptor": 1161452,
+      "offset": 251136
+    },
+    {
+      "effect": "wind_line_map01a",
+      "emitter": "kaze_00_start",
+      "slot": 0,
+      "descriptor": 1162804,
+      "offset": 251136
+    }
+  ],
+  "effects": [
+    {
+      "index": 0,
+      "name": "ase00a",
+      "emitters": 1
+    },
+    {
+      "index": 1,
+      "name": "ase01a",
+      "emitters": 1
+    },
+    {
+      "index": 2,
+      "name": "ase02a",
+      "emitters": 1
+    },
+    {
+      "index": 3,
+      "name": "attack01a",
+      "emitters": 2
+    },
+    {
+      "index": 4,
+      "name": "attack02a",
+      "emitters": 2
+    },
+    {
+      "index": 5,
+      "name": "blackball_ring",
+      "emitters": 1
+    },
+    {
+      "index": 6,
+      "name": "blackball_ring01a",
+      "emitters": 2
+    },
+    {
+      "index": 7,
+      "name": "black_hole03a",
+      "emitters": 1
+    },
+    {
+      "index": 8,
+      "name": "black_hole_charge01a",
+      "emitters": 1
+    },
+    {
+      "index": 9,
+      "name": "black_hole_charge02a",
+      "emitters": 1
+    },
+    {
+      "index": 10,
+      "name": "black_hole_division01a",
+      "emitters": 2
+    },
+    {
+      "index": 11,
+      "name": "black_hole_gointo01a",
+      "emitters": 2
+    },
+    {
+      "index": 12,
+      "name": "black_hole_hit01a",
+      "emitters": 3
+    },
+    {
+      "index": 13,
+      "name": "black_hole_inout01a",
+      "emitters": 1
+    },
+    {
+      "index": 14,
+      "name": "black_hole_inout01b",
+      "emitters": 1
+    },
+    {
+      "index": 15,
+      "name": "black_hole_move01a",
+      "emitters": 2
+    },
+    {
+      "index": 16,
+      "name": "black_hole_move01b",
+      "emitters": 2
+    },
+    {
+      "index": 17,
+      "name": "black_hole_spit01a",
+      "emitters": 2
+    },
+    {
+      "index": 18,
+      "name": "black_hole_vacuum01a",
+      "emitters": 2
+    },
+    {
+      "index": 19,
+      "name": "black_hole_wave01a",
+      "emitters": 1
+    },
+    {
+      "index": 20,
+      "name": "black_hole_wave02a",
+      "emitters": 1
+    },
+    {
+      "index": 21,
+      "name": "black_hole_wind01a",
+      "emitters": 1
+    },
+    {
+      "index": 22,
+      "name": "black_hole_wind02a",
+      "emitters": 1
+    },
+    {
+      "index": 23,
+      "name": "black_hole_wind02b",
+      "emitters": 1
+    },
+    {
+      "index": 24,
+      "name": "black_kemuri01a",
+      "emitters": 1
+    },
+    {
+      "index": 25,
+      "name": "black_kemuri02a",
+      "emitters": 1
+    },
+    {
+      "index": 26,
+      "name": "bomb_spark01a",
+      "emitters": 4
+    },
+    {
+      "index": 27,
+      "name": "bridge_debris01a",
+      "emitters": 2
+    },
+    {
+      "index": 28,
+      "name": "bridge_kemuri01a",
+      "emitters": 2
+    },
+    {
+      "index": 29,
+      "name": "bridge_kemuri02a",
+      "emitters": 1
+    },
+    {
+      "index": 30,
+      "name": "canon_fire01a",
+      "emitters": 1
+    },
+    {
+      "index": 31,
+      "name": "castle_kemuri01a",
+      "emitters": 1
+    },
+    {
+      "index": 32,
+      "name": "castle_kemuri01b",
+      "emitters": 1
+    },
+    {
+      "index": 33,
+      "name": "castle_kemuri01c",
+      "emitters": 1
+    },
+    {
+      "index": 34,
+      "name": "castle_kemuri02a",
+      "emitters": 1
+    },
+    {
+      "index": 35,
+      "name": "castle_kemuri04c",
+      "emitters": 1
+    },
+    {
+      "index": 36,
+      "name": "castle_kemuri04d",
+      "emitters": 1
+    },
+    {
+      "index": 37,
+      "name": "castle_kemuri05a",
+      "emitters": 1
+    },
+    {
+      "index": 38,
+      "name": "castle_kemuri06a",
+      "emitters": 1
+    },
+    {
+      "index": 39,
+      "name": "castle_kemuri08a",
+      "emitters": 1
+    },
+    {
+      "index": 40,
+      "name": "castle_kemuri25b",
+      "emitters": 1
+    },
+    {
+      "index": 41,
+      "name": "choropoo_kemuri01a",
+      "emitters": 1
+    },
+    {
+      "index": 42,
+      "name": "cloud_rain01a",
+      "emitters": 1
+    },
+    {
+      "index": 43,
+      "name": "cloud_thunder01a",
+      "emitters": 3
+    },
+    {
+      "index": 44,
+      "name": "damage_smoke05a",
+      "emitters": 1
+    },
+    {
+      "index": 45,
+      "name": "damage_smoke06a",
+      "emitters": 1
+    },
+    {
+      "index": 46,
+      "name": "damage_smork01a",
+      "emitters": 1
+    },
+    {
+      "index": 47,
+      "name": "damage_smork02a",
+      "emitters": 1
+    },
+    {
+      "index": 48,
+      "name": "damage_smork03a",
+      "emitters": 1
+    },
+    {
+      "index": 49,
+      "name": "damage_smork_04a",
+      "emitters": 1
+    },
+    {
+      "index": 50,
+      "name": "debris01a",
+      "emitters": 2
+    },
+    {
+      "index": 51,
+      "name": "debris01b",
+      "emitters": 2
+    },
+    {
+      "index": 52,
+      "name": "debris01c",
+      "emitters": 2
+    },
+    {
+      "index": 53,
+      "name": "explosion01a",
+      "emitters": 7
+    },
+    {
+      "index": 54,
+      "name": "explosion01b",
+      "emitters": 8
+    },
+    {
+      "index": 55,
+      "name": "explosion01c",
+      "emitters": 7
+    },
+    {
+      "index": 56,
+      "name": "explosion02a",
+      "emitters": 8
+    },
+    {
+      "index": 57,
+      "name": "explosion03a",
+      "emitters": 1
+    },
+    {
+      "index": 58,
+      "name": "explosion04a",
+      "emitters": 7
+    },
+    {
+      "index": 59,
+      "name": "explosion05a",
+      "emitters": 7
+    },
+    {
+      "index": 60,
+      "name": "explosion_big01a",
+      "emitters": 7
+    },
+    {
+      "index": 61,
+      "name": "explosion_big02a",
+      "emitters": 7
+    },
+    {
+      "index": 62,
+      "name": "explosion_spark01a",
+      "emitters": 1
+    },
+    {
+      "index": 63,
+      "name": "explosion_spark02a",
+      "emitters": 2
+    },
+    {
+      "index": 64,
+      "name": "firebreath_erase01a",
+      "emitters": 2
+    },
+    {
+      "index": 65,
+      "name": "fire_01a",
+      "emitters": 3
+    },
+    {
+      "index": 66,
+      "name": "fire_01b",
+      "emitters": 2
+    },
+    {
+      "index": 67,
+      "name": "fire_01c",
+      "emitters": 2
+    },
+    {
+      "index": 68,
+      "name": "fire_01d",
+      "emitters": 3
+    },
+    {
+      "index": 69,
+      "name": "fire_02a",
+      "emitters": 3
+    },
+    {
+      "index": 70,
+      "name": "fire_03a",
+      "emitters": 3
+    },
+    {
+      "index": 71,
+      "name": "fire_pillar01a",
+      "emitters": 2
+    },
+    {
+      "index": 72,
+      "name": "fire_pillar02a",
+      "emitters": 2
+    },
+    {
+      "index": 73,
+      "name": "fire_pillar03a",
+      "emitters": 1
+    },
+    {
+      "index": 74,
+      "name": "fire_pillar04a",
+      "emitters": 2
+    },
+    {
+      "index": 75,
+      "name": "fire_pillar05a",
+      "emitters": 2
+    },
+    {
+      "index": 76,
+      "name": "fire_pillar06a",
+      "emitters": 2
+    },
+    {
+      "index": 77,
+      "name": "flash01a",
+      "emitters": 1
+    },
+    {
+      "index": 78,
+      "name": "flash02a",
+      "emitters": 1
+    },
+    {
+      "index": 79,
+      "name": "flychoropoo_fire01a",
+      "emitters": 3
+    },
+    {
+      "index": 80,
+      "name": "gerabomb_spark01a",
+      "emitters": 3
+    },
+    {
+      "index": 81,
+      "name": "geraex_chimney01a",
+      "emitters": 1
+    },
+    {
+      "index": 82,
+      "name": "geraex_debris01a",
+      "emitters": 2
+    },
+    {
+      "index": 83,
+      "name": "geraex_fa_kemuri01a",
+      "emitters": 1
+    },
+    {
+      "index": 84,
+      "name": "geraex_hibana01a",
+      "emitters": 2
+    },
+    {
+      "index": 85,
+      "name": "geraex_hibana02a",
+      "emitters": 4
+    },
+    {
+      "index": 86,
+      "name": "geraex_hibana03a",
+      "emitters": 2
+    },
+    {
+      "index": 87,
+      "name": "geraex_kemuri01a",
+      "emitters": 1
+    },
+    {
+      "index": 88,
+      "name": "geraex_smork01a",
+      "emitters": 1
+    },
+    {
+      "index": 89,
+      "name": "geraex_smork02a",
+      "emitters": 2
+    },
+    {
+      "index": 90,
+      "name": "geraex_smork03a",
+      "emitters": 1
+    },
+    {
+      "index": 91,
+      "name": "geraex_smork04a",
+      "emitters": 1
+    },
+    {
+      "index": 92,
+      "name": "geraex_steam01a",
+      "emitters": 1
+    },
+    {
+      "index": 93,
+      "name": "geraex_steam02a",
+      "emitters": 1
+    },
+    {
+      "index": 94,
+      "name": "geraex_tobiagari01a",
+      "emitters": 1
+    },
+    {
+      "index": 95,
+      "name": "geramountain_death01a",
+      "emitters": 5
+    },
+    {
+      "index": 96,
+      "name": "geramountain_fire01a",
+      "emitters": 3
+    },
+    {
+      "index": 97,
+      "name": "geraroket_fire01a",
+      "emitters": 4
+    },
+    {
+      "index": 98,
+      "name": "geraroket_smoke01a",
+      "emitters": 1
+    },
+    {
+      "index": 99,
+      "name": "gera_smoke_05a",
+      "emitters": 3
+    },
+    {
+      "index": 100,
+      "name": "gera_smork_01a",
+      "emitters": 1
+    },
+    {
+      "index": 101,
+      "name": "gera_smork_02a",
+      "emitters": 3
+    },
+    {
+      "index": 102,
+      "name": "hanaiki01a",
+      "emitters": 1
+    },
+    {
+      "index": 103,
+      "name": "hanaiki02a",
+      "emitters": 2
+    },
+    {
+      "index": 104,
+      "name": "hanaiki03a",
+      "emitters": 2
+    },
+    {
+      "index": 105,
+      "name": "hit_01a",
+      "emitters": 6
+    },
+    {
+      "index": 106,
+      "name": "hit_01b",
+      "emitters": 6
+    },
+    {
+      "index": 107,
+      "name": "hit_01c",
+      "emitters": 6
+    },
+    {
+      "index": 108,
+      "name": "hit_01d",
+      "emitters": 11
+    },
+    {
+      "index": 109,
+      "name": "hit_02a",
+      "emitters": 2
+    },
+    {
+      "index": 110,
+      "name": "hit_02b",
+      "emitters": 5
+    },
+    {
+      "index": 111,
+      "name": "hit_02d",
+      "emitters": 10
+    },
+    {
+      "index": 112,
+      "name": "hit_03a",
+      "emitters": 6
+    },
+    {
+      "index": 113,
+      "name": "hit_04a",
+      "emitters": 3
+    },
+    {
+      "index": 114,
+      "name": "ibiki_damage_leakage01a",
+      "emitters": 1
+    },
+    {
+      "index": 115,
+      "name": "ibiki_damage_smork01a",
+      "emitters": 1
+    },
+    {
+      "index": 116,
+      "name": "ibiki_foot_kemuri01a",
+      "emitters": 3
+    },
+    {
+      "index": 117,
+      "name": "ibiki_foot_kemuri02a",
+      "emitters": 3
+    },
+    {
+      "index": 118,
+      "name": "ibiki_foot_kemuri02b",
+      "emitters": 3
+    },
+    {
+      "index": 119,
+      "name": "ibiki_foot_kemuri03a",
+      "emitters": 3
+    },
+    {
+      "index": 120,
+      "name": "ibiki_foot_kemuri04a",
+      "emitters": 3
+    },
+    {
+      "index": 121,
+      "name": "ibiki_kaifuku01a",
+      "emitters": 2
+    },
+    {
+      "index": 122,
+      "name": "ibiki_kemuri01a",
+      "emitters": 1
+    },
+    {
+      "index": 123,
+      "name": "ibiki_kemuri02a",
+      "emitters": 1
+    },
+    {
+      "index": 124,
+      "name": "ibiki_kemuri03a",
+      "emitters": 1
+    },
+    {
+      "index": 125,
+      "name": "ibiki_kemuri04a",
+      "emitters": 1
+    },
+    {
+      "index": 126,
+      "name": "ibiki_kemuri05a",
+      "emitters": 1
+    },
+    {
+      "index": 127,
+      "name": "ibiki_Landing_kemuri01a",
+      "emitters": 1
+    },
+    {
+      "index": 128,
+      "name": "ibiki_Landing_kemuri01b",
+      "emitters": 1
+    },
+    {
+      "index": 129,
+      "name": "ibiki_Landing_kemuri02a",
+      "emitters": 1
+    },
+    {
+      "index": 130,
+      "name": "ibiki_recovery01a",
+      "emitters": 4
+    },
+    {
+      "index": 131,
+      "name": "ibiki_splash01a",
+      "emitters": 2
+    },
+    {
+      "index": 132,
+      "name": "ibiki_splash02a",
+      "emitters": 1
+    },
+    {
+      "index": 133,
+      "name": "ibiki_splash02b",
+      "emitters": 1
+    },
+    {
+      "index": 134,
+      "name": "ibiki_splash03a",
+      "emitters": 3
+    },
+    {
+      "index": 135,
+      "name": "ibiki_wave01a",
+      "emitters": 6
+    },
+    {
+      "index": 136,
+      "name": "ibiki_wave01b",
+      "emitters": 2
+    },
+    {
+      "index": 137,
+      "name": "jet_fire01a",
+      "emitters": 3
+    },
+    {
+      "index": 138,
+      "name": "jet_fire01b",
+      "emitters": 3
+    },
+    {
+      "index": 139,
+      "name": "jet_fire02b",
+      "emitters": 2
+    },
+    {
+      "index": 140,
+      "name": "jet_fire03a",
+      "emitters": 4
+    },
+    {
+      "index": 141,
+      "name": "kaiten_kemuri01a_l",
+      "emitters": 3
+    },
+    {
+      "index": 142,
+      "name": "kaiten_kemuri01a_r",
+      "emitters": 3
+    },
+    {
+      "index": 143,
+      "name": "kemuri_mini01a",
+      "emitters": 1
+    },
+    {
+      "index": 144,
+      "name": "kikanbo_explosion01a",
+      "emitters": 7
+    },
+    {
+      "index": 145,
+      "name": "kinoko_get01a",
+      "emitters": 1
+    },
+    {
+      "index": 146,
+      "name": "koopafire04a",
+      "emitters": 2
+    },
+    {
+      "index": 147,
+      "name": "koopafire04b",
+      "emitters": 5
+    },
+    {
+      "index": 148,
+      "name": "koopafire04c",
+      "emitters": 4
+    },
+    {
+      "index": 149,
+      "name": "koopafire04d",
+      "emitters": 4
+    },
+    {
+      "index": 150,
+      "name": "koopafire05a",
+      "emitters": 5
+    },
+    {
+      "index": 151,
+      "name": "koopafire05a_excellent",
+      "emitters": 6
+    },
+    {
+      "index": 152,
+      "name": "koopafire05a_good",
+      "emitters": 6
+    },
+    {
+      "index": 153,
+      "name": "koopafire05a_great",
+      "emitters": 6
+    },
+    {
+      "index": 154,
+      "name": "koopafire05a_miss",
+      "emitters": 10
+    },
+    {
+      "index": 155,
+      "name": "koopafire05a_ok",
+      "emitters": 6
+    },
+    {
+      "index": 156,
+      "name": "koopafire06a",
+      "emitters": 4
+    },
+    {
+      "index": 157,
+      "name": "koopafire07a",
+      "emitters": 4
+    },
+    {
+      "index": 158,
+      "name": "koopafire_tame01a",
+      "emitters": 8
+    },
+    {
+      "index": 159,
+      "name": "koopa_barrier_hit01a",
+      "emitters": 2
+    },
+    {
+      "index": 160,
+      "name": "koopa_bellow01a",
+      "emitters": 12
+    },
+    {
+      "index": 161,
+      "name": "koopa_body_kira01a",
+      "emitters": 3
+    },
+    {
+      "index": 162,
+      "name": "koopa_castle_kemuri01a",
+      "emitters": 1
+    },
+    {
+      "index": 163,
+      "name": "koopa_castle_kemuri01b",
+      "emitters": 1
+    },
+    {
+      "index": 164,
+      "name": "koopa_castle_kemuri02a",
+      "emitters": 1
+    },
+    {
+      "index": 165,
+      "name": "koopa_castle_kemuri03a",
+      "emitters": 1
+    },
+    {
+      "index": 166,
+      "name": "koopa_castle_kemuri04a",
+      "emitters": 1
+    },
+    {
+      "index": 167,
+      "name": "koopa_castle_kemuri04b",
+      "emitters": 1
+    },
+    {
+      "index": 168,
+      "name": "koopa_castle_kemuri04c",
+      "emitters": 1
+    },
+    {
+      "index": 169,
+      "name": "koopa_castle_kemuri04d",
+      "emitters": 1
+    },
+    {
+      "index": 170,
+      "name": "koopa_castle_kemuri04e",
+      "emitters": 1
+    },
+    {
+      "index": 171,
+      "name": "koopa_castle_kemuri04f",
+      "emitters": 1
+    },
+    {
+      "index": 172,
+      "name": "koopa_castle_kemuri05a",
+      "emitters": 1
+    },
+    {
+      "index": 173,
+      "name": "koopa_castle_kemuri05b",
+      "emitters": 1
+    },
+    {
+      "index": 174,
+      "name": "koopa_castle_kemuri06a",
+      "emitters": 2
+    },
+    {
+      "index": 175,
+      "name": "koopa_castle_kemuri07a",
+      "emitters": 1
+    },
+    {
+      "index": 176,
+      "name": "koopa_castle_kemuri08a",
+      "emitters": 1
+    },
+    {
+      "index": 177,
+      "name": "koopa_castle_kemuri09a",
+      "emitters": 1
+    },
+    {
+      "index": 178,
+      "name": "koopa_castle_kemuri10a",
+      "emitters": 1
+    },
+    {
+      "index": 179,
+      "name": "koopa_castle_kemuri11a",
+      "emitters": 1
+    },
+    {
+      "index": 180,
+      "name": "koopa_castle_kemuri12a",
+      "emitters": 1
+    },
+    {
+      "index": 181,
+      "name": "koopa_castle_kemuri13a",
+      "emitters": 2
+    },
+    {
+      "index": 182,
+      "name": "koopa_castle_kemuri14a",
+      "emitters": 2
+    },
+    {
+      "index": 183,
+      "name": "koopa_castle_kemuri15a",
+      "emitters": 1
+    },
+    {
+      "index": 184,
+      "name": "koopa_castle_kemuri25b",
+      "emitters": 1
+    },
+    {
+      "index": 185,
+      "name": "koopa_castle_wave01a",
+      "emitters": 1
+    },
+    {
+      "index": 186,
+      "name": "koopa_castle_wave02a",
+      "emitters": 1
+    },
+    {
+      "index": 187,
+      "name": "koopa_castle_wave03a",
+      "emitters": 1
+    },
+    {
+      "index": 188,
+      "name": "koopa_eye_kira01a",
+      "emitters": 4
+    },
+    {
+      "index": 189,
+      "name": "koopa_eye_kira02a",
+      "emitters": 1
+    },
+    {
+      "index": 190,
+      "name": "koopa_eye_kira03a",
+      "emitters": 5
+    },
+    {
+      "index": 191,
+      "name": "koopa_finalattack_renda01a_hit",
+      "emitters": 3
+    },
+    {
+      "index": 192,
+      "name": "koopa_finalattack_renda01a_wind",
+      "emitters": 2
+    },
+    {
+      "index": 193,
+      "name": "koopa_finalattack_renda02a_hit",
+      "emitters": 4
+    },
+    {
+      "index": 194,
+      "name": "koopa_finalattack_renda02a_wind",
+      "emitters": 2
+    },
+    {
+      "index": 195,
+      "name": "koopa_fumituke01a",
+      "emitters": 3
+    },
+    {
+      "index": 196,
+      "name": "koopa_kaifuku01a",
+      "emitters": 2
+    },
+    {
+      "index": 197,
+      "name": "koopa_kemuri01a",
+      "emitters": 3
+    },
+    {
+      "index": 198,
+      "name": "koopa_kemuri02a",
+      "emitters": 3
+    },
+    {
+      "index": 199,
+      "name": "koopa_kemuri03a",
+      "emitters": 3
+    },
+    {
+      "index": 200,
+      "name": "koopa_kemuri03b",
+      "emitters": 3
+    },
+    {
+      "index": 201,
+      "name": "koopa_kemuri04a",
+      "emitters": 1
+    },
+    {
+      "index": 202,
+      "name": "koopa_kirari03a",
+      "emitters": 2
+    },
+    {
+      "index": 203,
+      "name": "koopa_punch01a",
+      "emitters": 2
+    },
+    {
+      "index": 204,
+      "name": "koopa_punch01b",
+      "emitters": 6
+    },
+    {
+      "index": 205,
+      "name": "koopa_punch02a",
+      "emitters": 2
+    },
+    {
+      "index": 206,
+      "name": "koopa_punch_finalattack01a",
+      "emitters": 3
+    },
+    {
+      "index": 207,
+      "name": "koopa_punch_finalattack02a",
+      "emitters": 4
+    },
+    {
+      "index": 208,
+      "name": "koopa_punch_finalattack03a",
+      "emitters": 6
+    },
+    {
+      "index": 209,
+      "name": "koopa_punch_finalattack04a",
+      "emitters": 8
+    },
+    {
+      "index": 210,
+      "name": "koopa_punch_finalattack05a",
+      "emitters": 9
+    },
+    {
+      "index": 211,
+      "name": "koopa_rooling01a",
+      "emitters": 2
+    },
+    {
+      "index": 212,
+      "name": "koopa_rooling02a",
+      "emitters": 2
+    },
+    {
+      "index": 213,
+      "name": "koopa_scale_kirari01a",
+      "emitters": 1
+    },
+    {
+      "index": 214,
+      "name": "koopa_scale_smoke01a",
+      "emitters": 4
+    },
+    {
+      "index": 215,
+      "name": "koopa_shell_kemuri01a",
+      "emitters": 2
+    },
+    {
+      "index": 216,
+      "name": "koopa_shell_kemuri02a",
+      "emitters": 2
+    },
+    {
+      "index": 217,
+      "name": "koopa_shout01a",
+      "emitters": 12
+    },
+    {
+      "index": 218,
+      "name": "koopa_shout02a",
+      "emitters": 12
+    },
+    {
+      "index": 219,
+      "name": "koopa_shout03a",
+      "emitters": 15
+    },
+    {
+      "index": 220,
+      "name": "koopa_shout04a",
+      "emitters": 3
+    },
+    {
+      "index": 221,
+      "name": "koopa_tame_finalattack",
+      "emitters": 9
+    },
+    {
+      "index": 222,
+      "name": "koopa_tame_finalattack01a",
+      "emitters": 4
+    },
+    {
+      "index": 223,
+      "name": "koopa_tame_finalattack02a",
+      "emitters": 5
+    },
+    {
+      "index": 224,
+      "name": "koopa_tame_finalattack03a",
+      "emitters": 6
+    },
+    {
+      "index": 225,
+      "name": "koopa_tame_finalattack04a",
+      "emitters": 8
+    },
+    {
+      "index": 226,
+      "name": "koopa_tame_finalattack05a",
+      "emitters": 9
+    },
+    {
+      "index": 227,
+      "name": "light_foot01a",
+      "emitters": 1
+    },
+    {
+      "index": 228,
+      "name": "light_foot02a",
+      "emitters": 6
+    },
+    {
+      "index": 229,
+      "name": "light_foot03a",
+      "emitters": 1
+    },
+    {
+      "index": 230,
+      "name": "light_foot04a",
+      "emitters": 1
+    },
+    {
+      "index": 231,
+      "name": "light_foot05a",
+      "emitters": 1
+    },
+    {
+      "index": 232,
+      "name": "line_housyuthu01a",
+      "emitters": 1
+    },
+    {
+      "index": 233,
+      "name": "mekakobittu_fire01a",
+      "emitters": 2
+    },
+    {
+      "index": 234,
+      "name": "mekakobittu_fire02a",
+      "emitters": 2
+    },
+    {
+      "index": 235,
+      "name": "metalmountain_death01a",
+      "emitters": 5
+    },
+    {
+      "index": 236,
+      "name": "move_kemuri01a",
+      "emitters": 2
+    },
+    {
+      "index": 237,
+      "name": "move_kemuri03a",
+      "emitters": 2
+    },
+    {
+      "index": 238,
+      "name": "move_kemuri03b",
+      "emitters": 2
+    },
+    {
+      "index": 239,
+      "name": "move_kemuri04a",
+      "emitters": 2
+    },
+    {
+      "index": 240,
+      "name": "oshiai_kemuri01a",
+      "emitters": 1
+    },
+    {
+      "index": 241,
+      "name": "peach_castle_beam_tame01a",
+      "emitters": 2
+    },
+    {
+      "index": 242,
+      "name": "peach_castle_burning01a",
+      "emitters": 4
+    },
+    {
+      "index": 243,
+      "name": "peach_castle_burning02a",
+      "emitters": 4
+    },
+    {
+      "index": 244,
+      "name": "peach_castle_explosion01a",
+      "emitters": 8
+    },
+    {
+      "index": 245,
+      "name": "peach_castle_explosion01b",
+      "emitters": 8
+    },
+    {
+      "index": 246,
+      "name": "peach_castle_eye_light01a",
+      "emitters": 4
+    },
+    {
+      "index": 247,
+      "name": "peach_castle_fire01a",
+      "emitters": 4
+    },
+    {
+      "index": 248,
+      "name": "peach_castle_hibana01a",
+      "emitters": 3
+    },
+    {
+      "index": 249,
+      "name": "peach_castle_jet01a",
+      "emitters": 4
+    },
+    {
+      "index": 250,
+      "name": "peach_castle_jet02a",
+      "emitters": 4
+    },
+    {
+      "index": 251,
+      "name": "peach_castle_jet_kemuri01a",
+      "emitters": 1
+    },
+    {
+      "index": 252,
+      "name": "peach_castle_kemuri01",
+      "emitters": 2
+    },
+    {
+      "index": 253,
+      "name": "peach_castle_kemuri01a",
+      "emitters": 3
+    },
+    {
+      "index": 254,
+      "name": "peach_castle_kemuri02",
+      "emitters": 1
+    },
+    {
+      "index": 255,
+      "name": "peach_castle_kemuri02a",
+      "emitters": 3
+    },
+    {
+      "index": 256,
+      "name": "peach_castle_kemuri03",
+      "emitters": 1
+    },
+    {
+      "index": 257,
+      "name": "peach_castle_kemuri04a",
+      "emitters": 1
+    },
+    {
+      "index": 258,
+      "name": "peach_castle_kemuri04b",
+      "emitters": 1
+    },
+    {
+      "index": 259,
+      "name": "peach_castle_kemuri05a",
+      "emitters": 1
+    },
+    {
+      "index": 260,
+      "name": "peach_castle_kemuri06a",
+      "emitters": 1
+    },
+    {
+      "index": 261,
+      "name": "peach_castle_kemuri07a",
+      "emitters": 1
+    },
+    {
+      "index": 262,
+      "name": "peach_castle_kira01a",
+      "emitters": 5
+    },
+    {
+      "index": 263,
+      "name": "peach_castle_kira02a",
+      "emitters": 1
+    },
+    {
+      "index": 264,
+      "name": "peach_castle_landing01a",
+      "emitters": 2
+    },
+    {
+      "index": 265,
+      "name": "peach_castle_landing02a",
+      "emitters": 1
+    },
+    {
+      "index": 266,
+      "name": "peach_castle_laser",
+      "emitters": 3
+    },
+    {
+      "index": 267,
+      "name": "peach_castle_laser_out",
+      "emitters": 2
+    },
+    {
+      "index": 268,
+      "name": "peach_castle_laser_taiki",
+      "emitters": 2
+    },
+    {
+      "index": 269,
+      "name": "peach_castle_missile_fire01a",
+      "emitters": 4
+    },
+    {
+      "index": 270,
+      "name": "peach_castle_smoke01a",
+      "emitters": 1
+    },
+    {
+      "index": 271,
+      "name": "peach_castle_spark01a",
+      "emitters": 2
+    },
+    {
+      "index": 272,
+      "name": "robo_release01a",
+      "emitters": 3
+    },
+    {
+      "index": 273,
+      "name": "rock01a",
+      "emitters": 1
+    },
+    {
+      "index": 274,
+      "name": "tobasare2_iwa01a",
+      "emitters": 3
+    },
+    {
+      "index": 275,
+      "name": "tobasare2_oka02a",
+      "emitters": 3
+    },
+    {
+      "index": 276,
+      "name": "tobasare2_tree02a",
+      "emitters": 2
+    },
+    {
+      "index": 277,
+      "name": "tobasare3_mountain01a",
+      "emitters": 3
+    },
+    {
+      "index": 278,
+      "name": "tobasare3_tree03a",
+      "emitters": 2
+    },
+    {
+      "index": 279,
+      "name": "tobasare4_tree04a",
+      "emitters": 2
+    },
+    {
+      "index": 280,
+      "name": "tobasare4_wall01a",
+      "emitters": 3
+    },
+    {
+      "index": 281,
+      "name": "tobasare_kemuri01a",
+      "emitters": 3
+    },
+    {
+      "index": 282,
+      "name": "tobasare_kemuri01a_l",
+      "emitters": 3
+    },
+    {
+      "index": 283,
+      "name": "tobasare_kemuri01a_r",
+      "emitters": 3
+    },
+    {
+      "index": 284,
+      "name": "tobasare_kemuri02a_l",
+      "emitters": 3
+    },
+    {
+      "index": 285,
+      "name": "tobasare_kemuri02a_r",
+      "emitters": 3
+    },
+    {
+      "index": 286,
+      "name": "tobasare_kemuri03a",
+      "emitters": 2
+    },
+    {
+      "index": 287,
+      "name": "tobasare_kemuri03a_l",
+      "emitters": 3
+    },
+    {
+      "index": 288,
+      "name": "tobasare_kemuri03a_r",
+      "emitters": 3
+    },
+    {
+      "index": 289,
+      "name": "tobasare_kemuri03b",
+      "emitters": 2
+    },
+    {
+      "index": 290,
+      "name": "tobasare_kemuri03c",
+      "emitters": 4
+    },
+    {
+      "index": 291,
+      "name": "tobasare_kemuri04a",
+      "emitters": 2
+    },
+    {
+      "index": 292,
+      "name": "tobasare_kemuri05a",
+      "emitters": 2
+    },
+    {
+      "index": 293,
+      "name": "tobasare_kemuri05b",
+      "emitters": 2
+    },
+    {
+      "index": 294,
+      "name": "tobasare_kemuri05c",
+      "emitters": 2
+    },
+    {
+      "index": 295,
+      "name": "tobasare_kemuri06a",
+      "emitters": 2
+    },
+    {
+      "index": 296,
+      "name": "tobasare_oka01a",
+      "emitters": 3
+    },
+    {
+      "index": 297,
+      "name": "tobasare_tree01a",
+      "emitters": 2
+    },
+    {
+      "index": 298,
+      "name": "togezo_kira01a",
+      "emitters": 3
+    },
+    {
+      "index": 299,
+      "name": "vacuum_move_kemuri01a",
+      "emitters": 2
+    },
+    {
+      "index": 300,
+      "name": "white_kemuri01a",
+      "emitters": 1
+    },
+    {
+      "index": 301,
+      "name": "white_out01a",
+      "emitters": 1
+    },
+    {
+      "index": 302,
+      "name": "wind01a_koopa",
+      "emitters": 1
+    },
+    {
+      "index": 303,
+      "name": "wind01b_pcastle",
+      "emitters": 1
+    },
+    {
+      "index": 304,
+      "name": "wind02a_koopa_hole",
+      "emitters": 2
+    },
+    {
+      "index": 305,
+      "name": "wind02b_pcastle_hole",
+      "emitters": 2
+    },
+    {
+      "index": 306,
+      "name": "wind_line01a",
+      "emitters": 1
+    },
+    {
+      "index": 307,
+      "name": "wind_line01b",
+      "emitters": 1
+    },
+    {
+      "index": 308,
+      "name": "wind_line02a",
+      "emitters": 1
+    },
+    {
+      "index": 309,
+      "name": "wind_line02b",
+      "emitters": 1
+    },
+    {
+      "index": 310,
+      "name": "wind_line_curve01a",
+      "emitters": 1
+    },
+    {
+      "index": 311,
+      "name": "wind_line_curve01b",
+      "emitters": 1
+    },
+    {
+      "index": 312,
+      "name": "wind_line_curve01c",
+      "emitters": 1
+    },
+    {
+      "index": 313,
+      "name": "wind_line_curve02a",
+      "emitters": 1
+    },
+    {
+      "index": 314,
+      "name": "wind_line_curve02b",
+      "emitters": 1
+    },
+    {
+      "index": 315,
+      "name": "wind_line_curve03a",
+      "emitters": 1
+    },
+    {
+      "index": 316,
+      "name": "wind_line_curve04a",
+      "emitters": 1
+    },
+    {
+      "index": 317,
+      "name": "wind_line_curve05a",
+      "emitters": 1
+    },
+    {
+      "index": 318,
+      "name": "wind_line_curve06a",
+      "emitters": 1
+    },
+    {
+      "index": 319,
+      "name": "wind_line_curve07a",
+      "emitters": 1
+    },
+    {
+      "index": 320,
+      "name": "wind_line_curve08a",
+      "emitters": 1
+    },
+    {
+      "index": 321,
+      "name": "wind_line_map01a",
+      "emitters": 2
+    }
+  ],
+  "format_knowledge": "https://github.com/KillzXGaming/Switch-Toolbox/blob/master/File_Format_Library/FileFormats/Effects/PTCL_3DS.cs"
+}

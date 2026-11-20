@@ -1,0 +1,64 @@
+Item#256 E_Kinoko score=0.857 <- BData__mfset_UItmE2:12
+JP マリオとルイージ どちらかの / HPが ３０回復。
+KO 마리오와 루이지 중 한 명의 / HP를 30 회복.
+DS 마리오와 루이지의 / HP를 20 회복.
+Item#258 F_Ring17 score=0.7 <- BData__mfset_WearN:302
+JP {1:color}ラッキーゆびわDX{2:color}はいっぱいです！
+KO {1:color}럭키반지DX{2:color} FULL!
+DS 럭키팔찌 FULL!
+Item#291 E_Syrup score=0.778 <- BData__mfset_UItmE2:15
+JP マリオとルイージ どちらかの / BPが １５回復。
+KO 마리오와 루이지 중 한 명의 / SP를 15 회복.
+DS 마리오와 루이지의 / HP를 160 회복.
+Item#300 E_MaxKinoko score=0.8 <- BData__mfset_UItmE2:12
+JP マリオとルイージ どちらかの / HPが フル回復。
+KO 마리오와 루이지 중 한 명의 / HP를 완전 회복.
+DS 마리오와 루이지의 / HP를 20 회복.
+Item#301 F_GhostCookie score=0.706 <- BData__mfset_UItmN:38
+JP {1:color}ゴーストクッキー{2:color}はいっぱいです！
+KO {1:color}고스트쿠키{2:color} FULL!
+DS 너트 FULL!
+Item#308 E_SuperSyrup score=0.743 <- BData__mfset_UItmE2:12
+JP マリオとルイージ どちらかの / BPが ３５回復。
+KO 마리오와 루이지 중 한 명의 / SP를 35 회복.
+DS 마리오와 루이지의 / HP를 20 회복.
+Item#324 E_CheeseChicken score=0.88 <- BData__mfset_UItmE2:11
+JP クッパのHPとBPが フル回復。
+KO 쿠파의 HP와 SP를 완전 회복.
+DS HP와 SP를 완전 회복.
+Item#338 E_AItm10 score=0.857 <- BData__mfset_AItmE:10
+JP {1:align}スライドでクッパを上下に動かし ノコノコを / はじき返してラリーが続けばダメージアップ！ / ターゲット：{2:color}ランダム{3:color}　効果：{4:color}なし{5:color}
+KO {1:align}쿠파를 위아래로 슬라이드해서 엉금엉금을 / 튕기자! 랠리가 계속되면 타격도 커진다! / 공격 대상: {2:color}랜덤{3:color}   효과: {4:color}없음{5:color}
+DS 쿠파를 위아래로 슬라이드해서 엉금엉금을 / 튕기자! 랠리가 계속되면 타격도 커진다!
+Item#341 F_Accessory10 score=0.727 <- BData__mfset_WearN:221
+JP {1:color}はんげきスカーフ{2:color}はいっぱいです！
+KO {1:color}반격스카프{2:color} FULL!
+DS 기진맥진스카프 FULL!
+Item#359 E_StarCandy score=0.737 <- BData__mfset_UItmE2:12
+JP マリオとルイージ どちらかの / HPとBPが フル回復。
+KO 마리오와 루이지 중 한 명의 / HP와 SP를 완전 회복.
+DS 마리오와 루이지의 / HP를 20 회복.
+Item#360 E_SuperCheese score=0.783 <- BData__mfset_UItmE2:23
+JP クッパのBPが ３５回復。
+KO 쿠파의 SP를 35 회복.
+DS 쿠파의 HP를 150 회복.
+Item#377 EFF_Badge_03_06 score=0.8 <- BData__mfset_UItmE2:4
+JP {1:color}２人{2:color}のBPを {3:color}２０{4:color}％回復。
+KO {1:color}2명{2:color}의 SP를 {3:color}20{4:color}% 회복.
+DS SP를 20 회복.
+Item#387 EFF_Badge_03_07 score=0.8 <- BData__mfset_UItmE2:6
+JP {1:color}２人{2:color}のBPを {3:color}４０{4:color}％回復。
+KO {1:color}2명{2:color}의 SP를 {3:color}40{4:color}% 회복.
+DS SP를 40 회복.
+Item#389 E_Boots10 score=0.706 <- BData__mfset_WearE:57
+JP ジャンプで攻撃すると / HPが少し回復するブーツ。
+KO 점프로 공격하면 / HP가 조금 회복되는 부츠.
+DS [HP 회복 점프] / 점프 공격을 하면 HP가 5% 회복.
+Item#398 EFF_Badge_03_08 score=0.7 <- BData__mfset_UItmE2:1
+JP {1:color}２人{2:color}のBPを {3:color}６０{4:color}％回復。
+KO {1:color}2명{2:color}의 SP를 {3:color}60{4:color}% 회복.
+DS HP를 60 회복.
+Item#399 E_AItm16 score=0.707 <- BData__mfset_AItmE:16
+JP {1:align}{2:color}{3:icon}の左右{4:color}でダッシュ！{5:color} {6:icon}{7:color}（{8:color}{9:icon}{10:color}）を押し続けて / パワーをためて ボタンをはなしてスマッシュ！ / ターゲット：{11:color}ランダム{12:color}　効果：{13:color}POWダウン{14:color}
+KO {1:align}{2:color}{3:icon} 좌우{4:color}로 대시!{5:color} {6:icon}{7:color}({8:color}{9:icon}{10:color})를 길게 눌러서 / 파워를 모았다가 버튼에서 손을 떼서 스매시! / 공격 대상: {11:color}랜덤{12:color}   효과: {13:color}POW 다운{14:color}
+DS ⇦ ⇨ 로 대시! Ⓐ)(Ⓑ))를 길게 눌러서 / 파워를 모았다가 버튼에서 손을 떼서 공격!

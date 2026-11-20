@@ -1,0 +1,61 @@
+{
+ "icon": "C:\\AI-Projects\\mario-luigi-rpg-3dx-korean-patch\\work\\review\\remaining_20261030\\home_assets\\icon48_x4.png",
+ "cbmd_cgfx_offsets": [
+  "0x88",
+  "0x0",
+  "0x0",
+  "0x0",
+  "0x0",
+  "0x0",
+  "0x0",
+  "0x0",
+  "0x0",
+  "0x0",
+  "0x0",
+  "0x0",
+  "0x0",
+  "0x0"
+ ],
+ "banner_textures": [
+  {
+   "slot": 0,
+   "name": "bunner_rem3_base",
+   "w": 64,
+   "h": 64,
+   "fmt": "ETC1A4",
+   "png": "C:\\AI-Projects\\mario-luigi-rpg-3dx-korean-patch\\work\\review\\remaining_20261030\\home_assets\\banner_s0_bunner_rem3_base.png"
+  },
+  {
+   "slot": 0,
+   "name": "bunner_rem3_bg",
+   "w": 128,
+   "h": 128,
+   "fmt": "ETC1A4",
+   "png": "C:\\AI-Projects\\mario-luigi-rpg-3dx-korean-patch\\work\\review\\remaining_20261030\\home_assets\\banner_s0_bunner_rem3_bg.png"
+  },
+  {
+   "slot": 0,
+   "name": "bunner_rem3_bk",
+   "w": 64,
+   "h": 32,
+   "fmt": "A4",
+   "png": "C:\\AI-Projects\\mario-luigi-rpg-3dx-korean-patch\\work\\review\\remaining_20261030\\home_assets\\banner_s0_bunner_rem3_bk.png"
+  },
+  {
+   "slot": 0,
+   "name": "bunner_rem3_chara",
+   "w": 128,
+   "h": 128,
+   "fmt": "RGBA4",
+   "png": "C:\\AI-Projects\\mario-luigi-rpg-3dx-korean-patch\\work\\review\\remaining_20261030\\home_assets\\banner_s0_bunner_rem3_chara.png"
+  },
+  {
+   "slot": 0,
+   "name": "COMMON_jp",
+   "w": 256,
+   "h": 128,
+   "fmt": "RGBA4",
+   "png": "C:\\AI-Projects\\mario-luigi-rpg-3dx-korean-patch\\work\\review\\remaining_20261030\\home_assets\\banner_s0_COMMON_jp.png"
+  }
+ ]
+}

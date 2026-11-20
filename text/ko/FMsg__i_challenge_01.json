@@ -99,7 +99,7 @@
   "FMsg/i_challenge_01#107": "{1:align}~ 배틀 콜로세움 ~\n{2:align}새로운 클래스가 생겼음로빈!{3:wait}[Next]{4:align}{5:align}어서 가 보길로빈!{6:wait}",
   "FMsg/i_challenge_01#108": "{1:mode}렛츠 고!{2:pause}",
   "FMsg/i_challenge_01#110": "{1:align}~ 콜레스테로드 ~\n{2:align}새로운 챌린지가 생겼음로빈!{3:wait}[Next]{4:align}~ 배틀 콜로세움 ~\n{5:align}새로운 클래스가 생겼음로빈!{6:wait}[Next]{7:align}{8:align}어서 가 보길로빈!{9:wait}",
-  "FMsg/i_challenge_01#111": "{1:mode}「{2:color}콜레스테론{3:color}{4:color}」\n볼록볼록하게 생긴 지방 덩어리 몬스터.\n쉽게 쓰러뜨릴 수 있지만 그 수가 많다.{5:color}",
+  "FMsg/i_challenge_01#111": "{1:mode}「{2:color}콜레스테론{3:color}{4:color}」\n볼록볼록한 지방 덩어리 몬스터.\n쉽게 쓰러뜨릴 수 있지만 수가 많다.{5:color}",
   "FMsg/i_challenge_01#112": "후후…",
   "FMsg/i_challenge_01#113": "게다가! 이 챌린지에서\n높은 스코어를 낸다면…",
   "FMsg/i_challenge_01#114": "너~무너무{1:wait}",
@@ -110,6 +110,7 @@
  },
  "new_terms": [],
  "notes": {
+  "FMsg/i_challenge_01#111": "review(2026-11-16 배포 전 최종 확인): 실제 폰트 폭으로 재니 2·3줄이 280·274px로 같은 말풍선 종류(FMsg style 5) 일본어 최대 261px보다 넓어 '볼록볼록하게 생긴'→'볼록볼록한', '그 수가'→'수가'로 줄임(227·254px). 뜻은 같음.",
   "FMsg/i_challenge_01#63": "ようこそ！ is shared by btl_01_up/btl_24_up/mini_01_up/mini_15_up (dups #71 #93 #99), so DS28A#0-1 '챌린지 홀에 오신 걸 / 환영합니다!' cannot be reproduced; used the DS28A#45-46 pattern '어서 오세요! / ○○입니다!' for all four greetings.",
   "FMsg/i_challenge_01#60": "Paired with the shared '어서 오세요!' (see #63): '챌린지 홀입니다!' instead of DS28A#1 '환영합니다!'.",
   "FMsg/i_challenge_01#31": "Shared by btl_11_up and mini_22_up; DS used 다음에(#20)/나중에(#91) → '나중에 다시 와로빈!' for both.",

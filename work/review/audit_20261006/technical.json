@@ -1,0 +1,406 @@
+{
+  "date": "2026-10-06",
+  "issues": [],
+  "text": {
+    "jp_files": 368,
+    "jp_messages": 9623,
+    "final_messages": 9617,
+    "unmerged": [
+      "BMsg/b_sys#518",
+      "FMsg/i_kinopio_01#24",
+      "FMsg/i_power_nose_01#6",
+      "FMsg/i_power_nose_SA_peppansy_01_L#6",
+      "Item#229",
+      "Menu#611"
+    ],
+    "japanese_residue": [],
+    "absolute_dialogue_width_errors": [],
+    "extra_rule_candidates": {
+      "style punctuation": 3
+    },
+    "rule_exception_counts": {
+      "original choice-menu layout": 93,
+      "runtime variable fills source row": 2
+    },
+    "installed_read_back_messages": 9623,
+    "installed_read_back_errors": []
+  },
+  "fonts": {
+    "used_chars": 1254,
+    "used_hangul": 1161,
+    "roles": {
+      "font": {
+        "installed_equals_rebuilt": true,
+        "sha256": "461125b999e098fcdb9a746ea7fdd8de2b90d25bc7360f0f2f71a58bf4209941",
+        "errors": [],
+        "sources": {
+          "1dx": 1005,
+          "rendered-NanumSquareRoundEB-16": 1,
+          "composed": 152,
+          "relaxed": 5,
+          "rendered-NotoSansKR-Bold-15": 5
+        },
+        "fallback_hangul": {
+          "rendered-NanumSquareRoundEB-16": "",
+          "rendered-NotoSansKR-Bold-15": "몫쬔췄핥휩"
+        },
+        "verification_notes": [
+          "font: original glyphs unchanged (mapping, CWDH, pixels) 1248/1248",
+          "font: pixels changed outside new glyph cells: 0",
+          "font: 1005/1005 glyphs identical to Msg/KR_ko/font.bffnt (pixels; Hangul also CWDH), shift cjk +1 latin +3",
+          "font: advances within the merge_ko width model for 1254/1254 required characters"
+        ]
+      },
+      "font_l": {
+        "installed_equals_rebuilt": true,
+        "sha256": "e18dc2b62212a010c7b549e3ea19a42983e5398eef56dc7c6ab5893d4ce72a5a",
+        "errors": [],
+        "sources": {
+          "1dx": 285,
+          "rendered-NanumSquareRoundEB-23": 35,
+          "upscaled-real": 718,
+          "upscaled-composed": 152,
+          "upscaled-relaxed": 5
+        },
+        "fallback_hangul": {
+          "rendered-NanumSquareRoundEB-23": "몫쬔췄핥휩"
+        },
+        "verification_notes": [
+          "font_l: original glyphs unchanged (mapping, CWDH, pixels) 355/355",
+          "font_l: pixels changed outside new glyph cells: 0",
+          "font_l: 285/285 glyphs identical to Msg/KR_ko/font_l.bffnt (pixels; Hangul also CWDH), shift cjk +2 latin +4"
+        ]
+      },
+      "font_btl": {
+        "installed_equals_rebuilt": true,
+        "sha256": "874281604410fbb00acfb1d9c09d35128d8ab399f123e8726840ee92ba117681",
+        "errors": [],
+        "sources": {
+          "1dx": 1012,
+          "rendered-NanumSquareRoundB-12": 5,
+          "composed": 152,
+          "relaxed": 5,
+          "rendered-NanumSquareRoundEB-12": 5
+        },
+        "fallback_hangul": {
+          "rendered-NanumSquareRoundB-12": "",
+          "rendered-NanumSquareRoundEB-12": "몫쬔췄핥휩"
+        },
+        "verification_notes": [
+          "font_btl: original glyphs unchanged (mapping, CWDH, pixels) 949/949",
+          "font_btl: pixels changed outside new glyph cells: 0",
+          "font_btl: 1012/1012 glyphs identical to Msg/KR_ko/font_btl.bffnt (pixels; Hangul also CWDH), shift cjk -1 latin +0"
+        ]
+      }
+    }
+  },
+  "plans": {
+    "lyt": {
+      "items": 1158,
+      "actions": {
+        "keep": 980,
+        "replace": 178
+      },
+      "kept_japanese": []
+    },
+    "obj": {
+      "items": 75,
+      "actions": {
+        "keep": 17,
+        "replace": 51,
+        "review": 7
+      },
+      "kept_japanese": [
+        {
+          "dat": "KUI",
+          "obj": "ko_ui_bonusskill_JP_ja",
+          "frames": [
+            0
+          ],
+          "action": "review",
+          "jp": "(ボーナス スキル 모양의 회색 덩어리)",
+          "ko": "보너스 스킬",
+          "basis": "1DX ko_ui_bonusskill_KR_ko",
+          "kind": "",
+          "method": "none",
+          "ref_1dx": "KUI/ko_ui_bonusskill_KR_ko f0",
+          "notes": "3DX 그림에는 글자 없이 단색 실루엣만 있음(RGB 136 한 값). 화면에 쓰이지 않는 것으로 보고 그대로 둠. 리드 확인",
+          "id": "KUI/ko_ui_bonusskill_JP_ja/f000",
+          "status": "-"
+        },
+        {
+          "dat": "KUI",
+          "obj": "ko_ui_fall_JP_ja",
+          "frames": [
+            0
+          ],
+          "action": "review",
+          "jp": "(おとす 모양 실루엣)",
+          "ko": "떨어트리기",
+          "basis": "",
+          "kind": "",
+          "method": "none",
+          "ref_1dx": "KUI/ko_ui_fall_KR_ko f0",
+          "notes": "단색 실루엣만. 그대로 둠. 리드 확인",
+          "id": "KUI/ko_ui_fall_JP_ja/f000",
+          "status": "-"
+        },
+        {
+          "dat": "KUI",
+          "obj": "ko_ui_wakeup_JP_ja",
+          "frames": [
+            0
+          ],
+          "action": "review",
+          "jp": "(おこす 모양 실루엣)",
+          "ko": "일어나기",
+          "basis": "",
+          "kind": "",
+          "method": "none",
+          "ref_1dx": "KUI/ko_ui_wakeup_KR_ko f0",
+          "notes": "단색 실루엣만. 그대로 둠. 리드 확인",
+          "id": "KUI/ko_ui_wakeup_JP_ja/f000",
+          "status": "-"
+        },
+        {
+          "dat": "Menu",
+          "obj": "m_item_ev_all",
+          "frames": [
+            22,
+            24,
+            26,
+            28,
+            30,
+            34,
+            36,
+            38,
+            40,
+            42,
+            44
+          ],
+          "action": "review",
+          "jp": "ビリリンパ / バキューム / スター赤·青·黄 / マグナムキラー / 1~5 (손글씨 빨간 칸)",
+          "ko": "",
+          "basis": "",
+          "kind": "",
+          "method": "none",
+          "ref_1dx": "",
+          "notes": "개발용 임시 그림으로 보임(빨간 테두리 손글씨). 그대로 둠. 리드 확인",
+          "id": "Menu/m_item_ev_all/f022,f024,f026,f028,f030,f034,f036,f038,f040,f042,f044",
+          "status": "-"
+        }
+      ]
+    },
+    "hb": {
+      "items": 187,
+      "actions": {
+        "keep": 162,
+        "replace": 25
+      },
+      "kept_japanese": []
+    },
+    "fmdl": {
+      "items": 27,
+      "actions": {
+        "replace": 5,
+        "keep": 22
+      },
+      "kept_japanese": [
+        {
+          "id": "fmd_o_dv_pch_catapult/cpdm",
+          "action": "keep",
+          "jp": "仮",
+          "family": "placeholder",
+          "notes": "개발용 임시(仮) 텍스처 — 어느 재질도 이 이름을 참조하지 않음(화면에 안 나옴)",
+          "w": 128,
+          "h": 256,
+          "fmt": "ETC1A4",
+          "copies": 1
+        },
+        {
+          "id": "fmd_o_dv_kpa_gera_bronze/gera_bronze_01_dm",
+          "action": "keep",
+          "jp": "仮",
+          "family": "placeholder",
+          "notes": "개발용 임시(仮) 텍스처 — 어느 재질도 이 이름을 참조하지 않음(화면에 안 나옴)",
+          "w": 256,
+          "h": 256,
+          "fmt": "ETC1A4",
+          "copies": 1
+        },
+        {
+          "id": "fmd_o_dv_kpa_gera_bronze/gera_bronze_02_dm",
+          "action": "keep",
+          "jp": "仮",
+          "family": "placeholder",
+          "notes": "개발용 임시(仮) 텍스처 — 어느 재질도 이 이름을 참조하지 않음(화면에 안 나옴)",
+          "w": 256,
+          "h": 256,
+          "fmt": "ETC1A4",
+          "copies": 1
+        },
+        {
+          "id": "fmd_o_dv_kpa_seesaw/seesaw_dm",
+          "action": "keep",
+          "jp": "仮",
+          "family": "placeholder",
+          "notes": "개발용 임시(仮) 텍스처 — 어느 재질도 이 이름을 참조하지 않음(화면에 안 나옴)",
+          "w": 128,
+          "h": 128,
+          "fmt": "ETC1A4",
+          "copies": 1
+        },
+        {
+          "id": "fmd_o_dv_kpa_k_chair/k_chair",
+          "action": "keep",
+          "jp": "仮",
+          "family": "placeholder",
+          "notes": "개발용 임시(仮) 텍스처 — 어느 재질도 이 이름을 참조하지 않음(화면에 안 나옴)",
+          "w": 128,
+          "h": 128,
+          "fmt": "ETC1A4",
+          "copies": 1
+        },
+        {
+          "id": "fmd_o_dv_kpa_floordoor/floordoor_dm",
+          "action": "keep",
+          "jp": "仮",
+          "family": "placeholder",
+          "notes": "개발용 임시(仮) 텍스처 — 어느 재질도 이 이름을 참조하지 않음(화면에 안 나옴)",
+          "w": 128,
+          "h": 128,
+          "fmt": "ETC1A4",
+          "copies": 1
+        },
+        {
+          "id": "fmd_o_dv_kpa_floordoor/floordoor_open_dm",
+          "action": "keep",
+          "jp": "仮",
+          "family": "placeholder",
+          "notes": "개발용 임시(仮) 텍스처 — 어느 재질도 이 이름을 참조하지 않음(화면에 안 나옴)",
+          "w": 64,
+          "h": 256,
+          "fmt": "ETC1A4",
+          "copies": 1
+        },
+        {
+          "id": "fmd_kks_bronze_kpa/bronze_kpa_dm",
+          "action": "keep",
+          "jp": "仮",
+          "family": "placeholder",
+          "notes": "개발용 임시(仮) 텍스처 — 어느 재질도 이 이름을 참조하지 않음(화면에 안 나옴)",
+          "w": 256,
+          "h": 256,
+          "fmt": "ETC1A4",
+          "copies": 1
+        }
+      ]
+    }
+  },
+  "lyt": {
+    "unique_replacements": 178,
+    "planned": 178,
+    "missing": [],
+    "textures": 4485,
+    "replacement_copies": 258,
+    "min_etc_psnr": 51.69573831758193
+  },
+  "obj": {
+    "BUI": {
+      "input_pngs": 90,
+      "regions": 90,
+      "errors": []
+    },
+    "FUI": {
+      "input_pngs": 5,
+      "regions": 5,
+      "errors": []
+    },
+    "KUI": {
+      "input_pngs": 25,
+      "regions": 25,
+      "errors": []
+    },
+    "Menu": {
+      "input_pngs": 5,
+      "regions": 5,
+      "errors": []
+    }
+  },
+  "fmdl": {
+    "input_pngs": 5,
+    "installed_equals_rebuilt": true
+  },
+  "hb": {
+    "archives": 23,
+    "installed_archives": 12,
+    "replacement_copies": 25,
+    "input_pngs": 20,
+    "min_etc_psnr": 47.387311006416994
+  },
+  "staffroll": {
+    "lines": 416,
+    "changed_lines": [
+      28
+    ],
+    "new_glyphs": "루리마오이지",
+    "errors": [],
+    "layout_warnings": [],
+    "roles": [
+      "(Koopa Jr. RPG)",
+      "3D Model & Motion",
+      "Assistant Directors",
+      "BASED ON THE WORK OF",
+      "BG Graphic Design",
+      "BG Graphics",
+      "BG Graphics Lead",
+      "Battle Design",
+      "Battle Program",
+      "Character Graphics",
+      "Character Supervisors",
+      "Coordination",
+      "Development Staff",
+      "Director",
+      "Effect Design",
+      "Enemy Graphics",
+      "Event",
+      "Executive Producer",
+      "Field Character Graphics",
+      "Field Design",
+      "Field Program",
+      "Game Design",
+      "General Producer",
+      "Giant Battle Director",
+      "Giant Battles",
+      "Graphic Design Lead",
+      "Illustration",
+      "Koopa Graphics",
+      "Main Program",
+      "Manual Editing",
+      "Mario & Luigi Graphics",
+      "Mario＆LuigiRPG3",
+      "Menu Graphics",
+      "Menu Program",
+      "Music",
+      "Music & Arrangement",
+      "NOA Localization",
+      "NOA Localization Management",
+      "NOE Localisation",
+      "NOE Localisation Producers",
+      "Package Design",
+      "Producers",
+      "Production Management",
+      "Program Lead",
+      "Progress Supervision",
+      "STAFF CREDITS",
+      "Sound Effects",
+      "Sound Supervisor",
+      "Special Thanks",
+      "Supervisors",
+      "Testing & Quality Assurance",
+      "Tool Program",
+      "Visual Supervisor",
+      "Voices"
+    ]
+  }
+}

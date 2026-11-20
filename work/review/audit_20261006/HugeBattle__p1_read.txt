@@ -1,0 +1,341 @@
+HugeBattle#0 3_battle_10 dups=0
+JP さすが アニキ！{1:wait}[Next]あいつの くやしがる顔が / 目に浮かぶようだぜ！{2:wait}
+KO 역시 형이야!{1:wait}[Next]저 녀석 억울해하는 얼굴이 / 벌써 보이는 것 같아!{2:wait}
+HugeBattle#1 3_battle_11 dups=0
+JP こいつが 戦っている間に / さっさと修理するんだ！{1:wait}
+KO 이 녀석이 싸우는 동안에 / 얼른 수리하는 거야!{1:wait}
+HugeBattle#3 3_battle_12 dups=0
+JP あちち！{1:pause}
+KO 아뜨뜨!{1:pause}
+HugeBattle#4 4_event_end_01 dups=0
+JP ガッハッハッ！{1:pause} / ワガハイにかなうわけが / なかろう！
+KO 크핫핫핫!{1:pause} / 이 몸을 당해 낼 수 / 있을 리가 없지!
+HugeBattle#5 tutorial_p010 dups=0
+JP Excellentが 出せれば / 相手に 大ダメージを / あたえられます！{1:wait}[Next]でっかくなったときの / {2:color}パンチ{3:color}の説明を / しておきましょうか？{4:pause}
+KO Excellent가 나오면 / 상대에게 큰 타격을 / 입힐 수 있습니다!{1:wait}[Next]커지셨을 때의 / {2:color}펀치{3:color}에 대해 / 설명해 드릴까요?{4:pause}
+HugeBattle#6 battleguide_punch_d dups=0
+JP 敵の攻撃をクッパの / アクションで迎え撃ちます。 / 成功するとクッパはダメージを / 受けず さらに敵にダメージを / 与えることができます。
+KO 적의 공격을 쿠파의 / 액션으로 맞받아쳐요. / 성공하면 쿠파는 타격을 / 입지 않을 뿐 아니라 적에게 / 타격을 입힐 수 있어요.
+NOTE review: 배틀 가이드 본문은 해요체(style_guide 5.1 전투 문구 말투. b_sys BtlGuide_* 본문도 해요체). 같은 배틀 가이드에 추가되는 거대 전투 항목 #22 #45 #61 #64(p2 #142 #146)도 맞춤.
+HugeBattle#7 tutorial_p011 dups=0
+JP わかりました！{1:wait}
+KO 알겠습니다!{1:wait}
+HugeBattle#8 1_battle_01 dups=0
+JP クッパ様 ファイト！{1:pause}
+KO 쿠파님! 파이팅!{1:pause}
+HugeBattle#9 tutorial_fb010 dups=3
+JP もう一度 やりますか？
+KO 다시 한번 할까요?
+HugeBattle#10 tutorial_p012 dups=0
+JP こいつで / 練習してみましょう！{1:wait}
+KO 이 녀석으로 / 연습해 보세요!{1:wait}
+HugeBattle#11 1_battle_02 dups=0
+JP クッパ様 負けないで！{1:pause}
+KO 쿠파님! 힘내세요!{1:pause}
+HugeBattle#12 tutorial_p013 dups=0
+JP {1:mode}{2:color}パンチボタン{3:color}を / {4:color}タッチ{5:color}してください。{6:wait}
+KO {1:mode}{2:color}펀치 버튼{3:color}을 / {4:color}터치{5:color}해 주세요.{6:wait}
+HugeBattle#13 1_battle_03 dups=0
+JP {1:speed}まかせろ！{2:pause}
+KO {1:speed}걱정 마라!{2:pause}
+HugeBattle#14 tutorial_p014 dups=0
+JP {1:pause}クッパ様が こぶしを / ふりかぶれば {2:color}やじるし{3:color}が / 画面に表示されます。{4:wait}
+KO {1:pause}쿠파님이 머리 뒤로 / 손을 젖히면 {2:color}화살표{3:color}가 / 화면에 나타납니다.{4:wait}
+HugeBattle#15 finalattack_pata01 dups=0
+JP クッパ様！{1:pause} / 相手が弱っています！{2:wait}
+KO 쿠파님!{1:pause} / 상대가 약해졌습니다!{2:wait}
+HugeBattle#16 tutorial_p015 dups=0
+JP {1:mode}そこで{2:color}タッチペン{3:color}を / すばやく {4:color}左にスライド{5:color} / してください！
+KO {1:mode}그때 {2:color}터치펜{3:color}을 빠르게 / {4:color}왼쪽으로 슬라이드{5:color}해 / 주세요!
+NOTE DS는 '오른쪽으로 슬라이드'(DS 조작)지만 3DX는 '左'라서 '왼쪽'. #39·#84도 같음
+HugeBattle#17 finalattack_pata02 dups=0
+JP 必殺技で とどめを / さしましょう！{1:wait}
+KO 필살기로 끝장을 / 내 주세요!{1:wait}
+HugeBattle#18 tutorial_pd_success dups=0
+JP さすが クッパ様！ / 防御成功です！{1:wait}
+KO 역시 쿠파님! / 방어 성공입니다!{1:wait}
+HugeBattle#19 finalattack_pata03 dups=0
+JP ファイナルアタックの / アイコンをタッチです！{1:wait}
+KO 파이널 어택 / 아이콘을 터치하세요!{1:wait}
+HugeBattle#21 4_battle_10 dups=0
+JP アツク{1:pause} ナッタラ{2:pause} / ステマショウ！{3:pause}{4:color}{5:wait}{6:color} 
+KO 뜨겁게{1:pause} 되면{2:pause} / 버릴 것!{3:pause}{4:color}{5:wait}{6:color}
+NOTE 로봇 음성의 표어식 'ステマショウ'를 '~할 것!'(규칙 조문투)으로 옮김(DS에 없는 '~합시다' 회피). p2 #116도 같음. 원문 줄 끝·메시지 끝의 공백은 뺌(#25·#28·#41·#44·#114도 같음)
+HugeBattle#22 battleguide_kihon dups=0
+JP 巨大化したクッパと敵が / 交互に行動を決めて戦います。 / 攻撃を与えて 相手の{1:color}HPを / ゼロにすれば勝利{2:color}です。 / 攻撃を受けるとHPが減ります。 / {3:color}クッパのHPがゼロになったら / ゲームオーバー{4:color}です。
+KO 거대화한 쿠파와 적이 / 번갈아 행동을 정해 싸워요. / 공격해서 상대의 {1:color}HP를 / 0으로 만들면 승리{2:color}예요. / 공격받으면 HP가 줄어들어요. / {3:color}쿠파의 HP가 0이 되면 / 게임 오버{4:color}예요.
+NOTE review: 배틀 가이드 본문 해요체로 맞춤(#6과 같은 이유).
+HugeBattle#23 tutorial_guide dups=0
+JP わからないことがあれば / ここを 見てくださいね！{1:wait}
+KO 모르는 게 있으시면 / 여기를 봐 주세요!{1:wait}
+HugeBattle#24 tutorial_f010 dups=0
+JP Excellentが 出せれば / 相手に 大ダメージを / あたえられます！{1:wait}[Next]{2:color}ファイアブレス{3:color}の説明を / しておきましょうか？{4:pause}
+KO Excellent가 나오면 / 상대에게 큰 타격을 / 입힐 수 있습니다!{1:wait}[Next]{2:color}파이어 브레스{3:color}에 대해 / 설명해 드릴까요?{4:pause}
+HugeBattle#25 4_battle_12 dups=0
+JP イマノ{1:pause} コウゲキ{2:pause} / ナカナカ{3:pause} キイタゾ！{4:pause} {5:color}{6:wait}[Next]{7:color}ブラックホール ヲ{8:pause} / ツカッテ{9:pause} タイアタリ{10:pause} / スルトハ…{11:pause} {12:color}{13:wait}{14:color}
+KO 방금의{1:pause} 공격{2:pause} / 꽤{3:pause} 효과적이었다!{4:pause}{5:color}{6:wait}[Next]{7:color}블랙홀을{8:pause} / 이용해{9:pause} 몸통 박치기를{10:pause} / 하다니…{11:pause}{12:color}{13:wait}{14:color}
+HugeBattle#26 4_battle_13 dups=0
+JP ナカナカ ヤルナ{1:pause} / シカシ{2:pause} コノ コウゲキハ{3:pause} / サケラレナイ…{4:pause}
+KO 제법 하는군{1:pause} / 하지만{2:pause} 이 공격은{3:pause} / 피할 수 없다…{4:pause}
+HugeBattle#27 tutorial_f012 dups=0
+JP こいつでファイアブレスの / 練習をしてみましょう！{1:wait}
+KO 이 녀석으로 파이어 브레스 / 연습을 해 보세요!{1:wait}
+HugeBattle#28 4_battle_14 dups=0
+JP イクラ{1:pause} テイコウ シテモ{2:pause} / ムダダゾ！{3:pause} クラエ！{4:pause} 
+KO 아무리{1:pause} 저항해도{2:pause} / 소용없다!{3:pause} 받아라!{4:pause}
+HugeBattle#29 4_battle_15 dups=0
+JP また アレを / 出すつもりだな！？
+KO 또 그걸 / 꺼낼 셈이냐!?
+HugeBattle#30 battleguide_title_kihon dups=0
+JP バトルの基本
+KO 배틀의 기본
+HugeBattle#31 tutorial_f014 dups=0
+JP くちもとの ファイアが / どんどん 大きくなるので…{1:wait}
+KO 입가의 파이어가 / 점점 커지니까…{1:wait}
+HugeBattle#32 tutorial_pd010 dups=0
+JP {1:color}パンチ防御{2:color}の / 説明をしておきましょうか？
+KO {1:color}펀치 방어{2:color}에 대해 / 설명해 드릴까요?
+HugeBattle#33 4_battle_16 dups=0
+JP フン！{1:pause} あんなもの / ワガハイの ほのおで / うち落として くれるわ！
+KO 흥!{1:pause} 저런 것쯤이야 / 이 몸의 화염으로 / 쏘아 떨어뜨려 주마!
+HugeBattle#34 tutorial_f015 dups=0
+JP よく 見ててください！{1:wait}
+KO 잘 보고 계세요!{1:wait}
+HugeBattle#35 tutorial_pd011 dups=0
+JP 敵がクッパ様の / 近くまで来たら…{1:wait}
+KO 적이 쿠파님 가까이 / 다가오면…{1:wait}
+HugeBattle#36 2_battle_01 dups=0
+JP 湖か…{1:wait}
+KO 호수인가…{1:wait}
+HugeBattle#37 4_battle_17 dups=0
+JP ガハハハ！{1:pause} 見たか！{2:pause} / ワガハイの チカラを！
+KO 크핫핫핫!{1:pause} 보았느냐!{2:pause} / 이 몸의 힘을!
+HugeBattle#38 tutorial_f016 dups=0
+JP まだまだ / 大きくなりますよ！{1:wait}
+KO 아직 더 / 커질 거예요!{1:wait}
+HugeBattle#39 tutorial_pd012 dups=0
+JP {1:color}タッチペン{2:color}を / すばやく {3:color}左にスライド{4:color} / してください！{5:wait}
+KO {1:color}터치펜{2:color}을 / 빠르게 {3:color}왼쪽으로 슬라이드{4:color}해 / 주세요!{5:wait}
+HugeBattle#40 2_battle_02 dups=0
+JP こっちもか！{1:wait}
+KO 이쪽도냐!{1:wait}
+HugeBattle#41 4_battle_18 dups=0
+JP セイフティー システム{1:pause} / プログラム{2:pause} サドウ！{3:pause} {4:color}{5:wait}{6:color}
+KO 세이프티 시스템{1:pause} / 프로그램{2:pause} 작동!{3:pause}{4:color}{5:wait}{6:color}
+HugeBattle#42 tutorial_f017 dups=0
+JP あと少し！{1:wait}
+KO 조금만 더!{1:wait}
+HugeBattle#43 tutorial_pd013 dups=0
+JP 敵が{1:color}右画面{2:color}に入ってきたら / すかさず{3:color}スライド{4:color}です！{5:wait}
+KO 적이 {1:color}오른쪽 화면{2:color}에 들어오면 / 재빨리 {3:color}슬라이드{4:color}하세요!{5:wait}
+HugeBattle#44 4_battle_19 dups=0
+JP コレデ{1:pause} ショウメン / カラノ{2:pause} コウゲキハ{3:pause} / カンゼンニ{4:pause} ガードダ！{5:pause} {6:color}{7:wait}{8:color}
+KO 이것으로{1:pause} 정면에서 / 오는{2:pause} 공격은{3:pause} / 완벽하게{4:pause} 방어한다!{5:pause}{6:color}{7:wait}{8:color}
+HugeBattle#45 battleguide_finalattack dups=0
+JP 敵のHPが 残りわずかに / なったときに繰り出す / クッパの必殺技です。 / 連打タッチと / 回転スライドの操作で / かっこよく 豪快に / バトルを終わらせましょう。
+KO 적의 HP가 얼마 남지 / 않았을 때 펼치는 / 쿠파의 필살기예요. / 연타 터치와 / 회전 슬라이드 조작으로 / 멋지고 호쾌하게 / 배틀을 끝내 보세요.
+NOTE review: 배틀 가이드 본문 해요체로 맞춤(#6과 같은 이유).
+HugeBattle#46 tutorial_f018 dups=0
+JP ここです！{1:pause} この時に画面を / タッチすれば一番強い / ファイアブレスが出ます！{2:wait}
+KO 지금이에요!{1:pause} 이때 화면을 / 터치하면 가장 강한 / 파이어 브레스가 나옵니다!{2:wait}
+HugeBattle#47 tutorial_pd014 dups=0
+JP よーく 敵を / 見ててくださいね！{1:wait}
+KO 적을 자~알 / 보고 계세요!{1:wait}
+HugeBattle#48 2_battle_04 dups=0
+JP 抜け出す気だな！ / そうはさせんぞ！{1:wait}
+KO 빠져나갈 셈이구나! / 그렇게 둘 것 같으냐!{1:wait}
+HugeBattle#49 tutorial_f019 dups=0
+JP タッチしてみてください！{1:wait}
+KO 터치해 보세요!{1:wait}
+HugeBattle#50 2_battle_05 dups=0
+JP よし！{1:pause} 湖に落ちたぞ！{2:wait}
+KO 좋아!{1:pause} 호수에 빠졌다!{2:wait}
+HugeBattle#52 2_battle_06 dups=0
+JP {1:color}あたま{2:color}を狙う / チャンス だな！{3:wait}
+KO {1:color}머리{2:color}를 노릴 / 기회로군!{3:wait}
+HugeBattle#53 2_battle_07 dups=0
+JP 攻撃がきかないな…{1:wait}[Next]コイツを 湖に落として / {2:color}あたま{3:color}を 狙えないか…{4:wait}
+KO 공격이 안 먹히는군…{1:wait}[Next]이 녀석을 호수에 빠뜨려서 / {2:color}머리{3:color}를 노릴 수는 없을까…{4:wait}
+HugeBattle#54 3_event_start_10 dups=0
+JP 全力前進～！
+KO 전속력 전진~!
+HugeBattle#55 2_battle_08 dups=0
+JP みんなで 修理だ！{1:wait}
+KO 다 같이 수리하자!{1:wait}
+HugeBattle#56 3_event_start_11 dups=0
+JP …って やっぱり / デカ～い！！！ / 
+KO …는 무슨! 역시 / 엄~청 크잖아!!! / 
+NOTE 원문 끝의 빈 줄(\n)을 그대로 둠
+HugeBattle#58 tutorial_p_GREAT_OK dups=0
+JP まっすぐ！ はやく！ / 長めに{1:color}スライド{2:color}すれば / もっと よくなりますよ！{3:wait}
+KO 곧바로! 빠르고 길게! / {1:color}슬라이드{2:color}하면 / 더 좋아질 겁니다!{3:wait}
+HugeBattle#59 firebless_button dups=0
+JP {1:mode}【ファイア】 / チカラがたまるほど強力！
+KO {1:mode}【파이어】 / 힘이 모일수록 강력!
+HugeBattle#60 1_event_start_02_b dups=0
+JP 浮かんでいるであります！！
+KO 공중에 떠 있습니다!!
+HugeBattle#61 battleguide_firebless dups=0
+JP タイミングよく画面をタッチして / ファイアブレスを出します。 / タッチするタイミングを / 逃すと失敗してしまいます。 / クッパが{1:color}ファイアを / ためきるときを見計らって / 画面をタッチ{2:color}しましょう。
+KO 타이밍 좋게 화면을 터치해서 / 파이어 브레스를 내뿜어요. / 터치하는 타이밍을 / 놓치면 실패해요. / 쿠파가 {1:color}파이어를 / 다 모으는 순간을 노려 / 화면을 터치{2:color}하세요.
+NOTE review: 배틀 가이드 본문 해요체로 맞춤(#6과 같은 이유).
+HugeBattle#62 buttleguide_add dups=0
+JP {1:mode}{2:color}バトルガイド{3:color}に項目が / 追加されました。{4:pause}{5:wait}
+KO {1:mode}{2:color}배틀 가이드{3:color}에 항목이 / 추가되었습니다.{4:pause}{5:wait}
+HugeBattle#63 3_battle_01 dups=0
+JP やばいぜ！ / どうする！？{1:wait}
+KO 위험해! / 어쩌지!?{1:wait}
+HugeBattle#64 battleguide_fireball dups=0
+JP クッパの目の前の範囲を / タッチするとファイアボールが / その方向へ飛んでいきます。 / {1:color}ファイアボールは続けて飛ばすと / 小さくなっていく{2:color}ので / よく狙って飛ばしましょう。[Next]少し待てば 元の大きさの / ファイアボールを / 飛ばせるようになります。
+KO 쿠파 눈앞의 범위를 / 터치하면 파이어볼이 / 그 방향으로 날아가요. / {1:color}파이어볼을 계속 날리면 / 점점 작아지니까{2:color} / 잘 노려서 날리세요.[Next]조금 기다리면 원래 크기의 / 파이어볼을 / 날릴 수 있게 돼요.
+NOTE review: 배틀 가이드 본문 해요체로 맞춤(#6과 같은 이유).
+HugeBattle#65 3_battle_02 dups=0
+JP だいじょうぶだ！ / あれを見ろ！{1:wait}
+KO 괜찮아! / 저길 봐!{1:wait}
+HugeBattle#66 3_battle_03 dups=0
+JP ほら！ あそこに / {1:color}ボロボロの橋{2:color}{3:color}が / 見えるだろう！{4:wait}[Next]あいつが のれば / あの橋は 重さで / カンタンに こわれるぞ！{5:wait}[Next]そうすれば あいつは / ふか～い 谷底に / まっさかさまだ！{6:wait}[Next]いくら体が でかくても / イチコロだぜ！{7:wait}{8:color}
+KO 봐 봐! 저기에 / {1:color}낡아 빠진 다리{2:color}{3:color}가 / 보이지?{4:wait}[Next]저 녀석이 오르면 / 무게를 견디지 못하고 / 다리가 무너질 거야!{5:wait}[Next]그럼 저 녀석은 / 깊~은 골짜기 아래로 / 곤두박질치겠지!{6:wait}[Next]제아무리 몸이 커도 / 한 번에 박살이야!{7:wait}{8:color}
+HugeBattle#67 3_battle_04 dups=0
+JP さすが アニキ！ / あたま いい～！{1:wait}
+KO 역시 형은 / 머리가 좋아~!{1:wait}
+HugeBattle#68 3_battle_05 dups=0
+JP 急いで あの / {1:color}橋の手前の駅{2:color}{3:color} まで / 行くんだ！{4:wait}[Next]あの駅を 通過すれば / オレ達の 勝利は / 確実だぜ！{5:wait}{6:color}
+KO 어서 저기에 있는 / {1:color}다리 앞의 역{2:color}{3:color}까지 / 가야 돼!{4:wait}[Next]저 역만 통과하면 / 우리의 승리는 / 확실해!{5:wait}{6:color}
+HugeBattle#69 3_battle_06 dups=0
+JP {1:color}橋の手前の駅{2:color}までの / 距離…{3:pause} およそ / {4:color}１００{5:color}チョロメーター！{6:wait}
+KO {1:color}다리 앞 역{2:color}까지의 / 거리는…{3:pause} / 약 {4:color}100{5:color}쪼르미터!{6:wait}
+HugeBattle#70 tutorial_p001 dups=0
+JP クッパ様！{1:wait}
+KO 쿠파님!{1:wait}
+HugeBattle#71 3_battle_07 dups=0
+JP くるぞ！ / 急げ～！！{1:wait}
+KO 온다! / 서둘러~!!{1:wait}
+HugeBattle#72 tutorial_p002 dups=0
+JP 急に でっかく / なっちゃいましたけど / だいじょうぶですか？{1:wait}
+KO 갑자기 몸이 / 무지 커지셨는데 / 괜찮으십니까?{1:wait}
+HugeBattle#73 3_battle_08 dups=0
+JP 止まっちまって… / だいじょうぶなのか！？{1:wait}
+KO 멈췄는데… / 괜찮은 걸까!?{1:wait}
+HugeBattle#74 gameover_easy_retry_check dups=0
+JP {1:mode}{2:color}イージーモード{3:color}を選ぶと / クッパが強くなり / 敵を倒しやすくなります。 / 進行に影響はありません。
+KO {1:mode}{2:color}이지 모드{3:color}를 선택하면 / 쿠파가 강해져서 / 적을 쓰러뜨리기 쉬워져요. / 진행에는 영향이 없어요.
+NOTE review: 같은 역할의 일반 전투 문구 b_sys#670(Retry_easymode_text '…쓰러뜨리기 쉬워져요')과 말투를 맞춰 해요체로.
+HugeBattle#75 tutorial_fb001 dups=0
+JP こいつらでファイアボールの / 練習をしてみましょう！{1:wait}
+KO 이 녀석들로 파이어볼 / 연습을 해 보세요!{1:wait}
+HugeBattle#76 tutorial_p003 dups=0
+JP クッパ…{1:pause}ノヨウニ ミエルガ{2:pause} / オオキスギル ヨウナ…{3:wait}[Next]テイサツブタイ！{4:wait}[Next]イッテ アレガ ナンナノカ / シラベテ クルノダ！{5:wait}
+KO 쿠파…{1:pause}처럼 보이지만{2:pause} / 너무 큰 것 같고…{3:wait}[Next]정찰 부대 출동!{4:wait}[Next]저것 대체 무엇인지 / 조사하고 오너라!{5:wait}
+HugeBattle#77 3_battle_09 dups=0
+JP 心配すんな！{1:wait}[Next]あいつの{2:color}パンチ{3:color}{4:color}は / めちゃくちゃ大ぶりだ！{5:wait}[Next]{6:color}{7:color}ファイア{8:color}{9:color}さえ / はかれなければ…{10:wait}[Next]オレ達は ダメージを / 全く うけないってことよ！{11:wait}{12:color}
+KO 걱정 마!{1:wait}[Next]저 녀석 {2:color}펀치{3:color}{4:color}는 / 동작이 엄청 커서 뻔해!{5:wait}[Next]{6:color}{7:color}파이어{8:color}{9:color}만 / 쏘지 않으면…{10:wait}[Next]우리는 하나도 타격을 / 입지 않을 거야!{11:wait}{12:color}
+NOTE DS#3.10 '저 녀석 펀치는 우리한테 닿지도 않아'는 3DX에서 '大ぶり(크게 휘두름)'로 바뀌어 3DX 뜻대로 옮김. 나머지는 DS 문장 재사용
+HugeBattle#78 tutorial_fb002 dups=0
+JP この範囲内のどこを / タッチするかでファイアを / 飛ばす方向が決まります。{1:wait}
+KO 이 범위 안의 어디를 / 터치하느냐에 따라 파이어를 / 날리는 방향이 정해집니다.{1:wait}
+HugeBattle#79 tutorial_p004 dups=0
+JP あっ！{1:pause} ちょうどいい！{2:wait}[Next]こいつで {3:color}パンチ{4:color}の / 練習をしてみましょう！{5:wait}
+KO 앗!{1:pause} 마침 잘됐습니다!{2:wait}[Next]이 녀석으로 {3:color}펀치{4:color} / 연습을 해 보세요!{5:wait}
+HugeBattle#81 tutorial_fb003 dups=0
+JP {1:color}飛ばしたい方向{2:color}に{3:color}タッチ{4:color}して / {5:color}ファイアボール{6:color}を / 飛ばしてみましょう！{7:wait}
+KO {1:color}날리고 싶은 방향{2:color}을 {3:color}터치{4:color}해서 / {5:color}파이어볼{6:color}을 / 날려 보세요!{7:wait}
+HugeBattle#82 tutorial_p005 dups=0
+JP {1:mode}{2:color}パンチボタン{3:color}を / {4:color}タッチ{5:color}してください。
+KO {1:mode}{2:color}펀치 버튼{3:color}을 / {4:color}터치{5:color}해 주세요.
+HugeBattle#83 tutorial_fb004 dups=0
+JP そうだ。ファイアボールは / 飛ばし続けていると / 小さくなってしまって…{1:wait}
+KO 참, 파이어볼은 / 계속 날리면 / 점점 작아지다가…{1:wait}
+HugeBattle#84 tutorial_p006 dups=0
+JP {1:mode}{2:color}タッチペン{3:color}を / すばやく {4:color}左にスライド{5:color} / してください！
+KO {1:mode}{2:color}터치펜{3:color}을 / 빠르게 {4:color}왼쪽으로 슬라이드{5:color}해 / 주세요!
+HugeBattle#85 tutorial_fb005 dups=0
+JP しまいには 出せなく / なってしまいます。{1:wait}
+KO 나중에는 아예 / 쏠 수 없게 됩니다.{1:wait}
+HugeBattle#86 tutorial_fb_success dups=0
+JP さすがは クッパ様！{1:pause} / すべて やっつけましたね！{2:wait}
+KO 역시 쿠파님!{1:pause} / 전부 해치우셨군요!{2:wait}
+HugeBattle#87 tutorial_fb006 dups=0
+JP ムダに出さず 狙いをつけて / しっかり当てましょう！{1:wait}
+KO 마구 쏘지 말고 잘 노려서 / 확실하게 맞히세요!{1:wait}
+HugeBattle#88 battleguide_title_finalattack dups=0
+JP ファイナルアタック
+KO 파이널 어택
+HugeBattle#89 battleguide_title_firebless dups=0
+JP ファイアブレス
+KO 파이어 브레스
+HugeBattle#90 tutorial_fb007 dups=0
+JP ファイアボールの / 説明をしておきましょうか？
+KO 파이어볼에 대해 / 설명해 드릴까요?
+HugeBattle#91 battleguide_title_kinoko dups=2
+JP キノコ
+KO 버섯
+HugeBattle#92 tutorial_fb008 dups=0
+JP またまた 小さいのが / たくさん きます！{1:wait}[Next]{2:color}ファイアボール{3:color}で / 倒しちゃいましょう！{4:wait}
+KO 또다시 작은 녀석 / 여럿이 옵니다!{1:wait}[Next]{2:color}파이어볼{3:color}로 / 해치워 버리세요!{4:wait}
+HugeBattle#93 kinoko_button dups=0
+JP {1:mode}【キノコ】 / 食べるとクッパのHPが回復！
+KO {1:mode}【버섯】 / 먹으면 쿠파의 HP가 회복!
+HugeBattle#94 tutorial_f_GOOD_OK dups=0
+JP 光ったら すぐに / {1:color}タッチ{2:color}してみましょう！{3:wait}
+KO 빛나면 곧바로 / {1:color}터치{2:color}해 보세요!{3:wait}
+HugeBattle#95 tutorial_fb009 dups=0
+JP {1:color}飛ばしたい方向{2:color}に{3:color}タッチ{4:color}して / {5:color}ファイアボール{6:color}を / 飛ばしてみてください！{7:wait}
+KO {1:color}날리고 싶은 방향{2:color}을 {3:color}터치{4:color}해서 / {5:color}파이어볼{6:color}을 / 날려 보세요!{7:wait}
+HugeBattle#96 4_battle_01 dups=0
+JP なにを するつもりだ？
+KO 무슨 짓을 할 셈이냐?
+HugeBattle#97 4_battle_02 dups=0
+JP なんだ？ 花火か？ / おめでたいヤツだな…
+KO 뭐냐? 불꽃놀이냐? / 속 편한 녀석이군…
+HugeBattle#98 tutorial_f001 dups=0
+JP 今度は 小さいのが / たくさん きました！{1:wait}[Next]{2:color}ファイアブレス{3:color}で まとめて / 倒しちゃいましょう！{4:wait}
+KO 이번엔 작은 녀석 / 여럿이 왔습니다!{1:wait}[Next]{2:color}파이어 브레스{3:color}로 단숨에 / 쓰러뜨려 보세요!{4:wait}
+HugeBattle#99 1_event_end_01 dups=0
+JP ソンナニ デッカク / ナレルナンテ キタナイゾ！
+KO 그렇게 커질 수 있다니 / 반칙이다!
+NOTE DS#2.4 '그렇게 커질 줄 전혀 몰랐다!'와 달리 3DX는 'キタナイゾ(치사하다)'라서 3DX를 따름
+HugeBattle#100 4_battle_03 dups=0
+JP ん？{1:pause} なにも起きんぞ。 / 失敗したのか？
+KO 응?{1:pause} 아무 일도 없군. / 실패한 거냐?
+HugeBattle#101 tutorial_f002 dups=0
+JP {1:mode}{2:color}ファイアボタン{3:color}を / {4:color}タッチ{5:color}してください！
+KO {1:mode}{2:color}파이어 버튼{3:color}을 / {4:color}터치{5:color}해 주세요!
+HugeBattle#102 1_event_end_02 dups=0
+JP くやしかったら オマエも / でっかく なってみろ！
+KO 부러우면 네놈도 / 커지면 될 것 아니냐!
+HugeBattle#103 4_battle_04 dups=0
+JP かわった 花火だな…{1:pause} / まぁいい{2:pause} 花火は / ほっといて…
+KO 별난 불꽃놀이로군…{1:pause} / 뭐, 됐다.{2:pause} 불꽃놀이는 / 내버려 두고…
+HugeBattle#104 result_item_question dups=0
+JP ??????
+KO ??????
+HugeBattle#105 tutorial_f003 dups=0
+JP くちもとのファイアが / たまりきったら / 画面を{1:color}タッチ{2:color}です！{3:wait}
+KO 입가에 파이어가 / 다 모이면 / 화면을 {1:color}터치{2:color}하세요!{3:wait}
+HugeBattle#106 1_event_end_03 dups=0
+JP {1:align}コノ ヒキョウモノ！
+KO {1:align}이런 비겁한 녀석!
+HugeBattle#107 4_battle_05 dups=0
+JP コイツを / なんとかしないとな！
+KO 이 녀석을 / 어떻게든 해야겠군!
+HugeBattle#108 easymode_gameover_battleskip_check dups=0
+JP バトルをスキップして / 次に進みますか？
+KO 배틀을 건너뛰고 / 다음으로 진행하시겠습니까?
+HugeBattle#109 4_battle_06 dups=0
+JP ぬおー！{1:pause} ワガハイを / 吸い込む気か！{2:color}{3:wait}{4:color}
+KO 크아―!{1:pause} 이 몸을 / 빨아들일 셈이냐!{2:color}{3:wait}{4:color}
+HugeBattle#110 tutorial_pd001 dups=0
+JP ナニヲ モタモタ / シテイル！？{1:wait}[Next]モット セッキンシテ / ヨ～ク カンサツ / スルノダ！{2:wait}
+KO 뭘 우물쭈물대느냐!?{1:wait}[Next]더욱 접근해서 / 자~알 관찰하고 와라!{2:wait}
+HugeBattle#111 4_battle_07 dups=0
+JP そうは いくか！{1:color}{2:wait}{3:color}
+KO 그렇게는 안 되지!{1:color}{2:wait}{3:color}
+HugeBattle#112 punch_button dups=0
+JP {1:mode}【パンチ】 / はやくスライドするほど強力！
+KO {1:mode}【펀치】 / 빠르게 슬라이드할수록 강력!
+HugeBattle#113 tutorial_pd002 dups=0
+JP 敵が 攻撃してきます！ / {1:color}パンチ防御{2:color}の / 練習を してみましょう！{3:wait}
+KO 적이 공격해 옵니다! / {1:color}펀치 방어{2:color}를 / 연습해 볼까요?{3:wait}
+HugeBattle#114 4_battle_08 dups=0
+JP アツイ！{1:pause} アツイ！{2:pause}  / カジダ！{3:pause} カジダ！{4:pause} {5:color}{6:wait}{7:color}
+KO 뜨겁다!{1:pause} 뜨겁다!{2:pause} / 불이야!{3:pause} 불이야!{4:pause}{5:color}{6:wait}{7:color}

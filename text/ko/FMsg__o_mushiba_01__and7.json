@@ -44,7 +44,7 @@
   "FMsg/o_mushiba_05_before#23": "뭐냐…{1:pause}\n그냥 블록이잖아!{2:wait}",
   "FMsg/o_mushiba_05_before#24": "오우!{1:pause} 언빌리버블!!{2:pause}\n이 뷰티풀 블록을\n하찮게 생각하시면 안 됩니다!{3:wait}[Next]이 블록은 컬렉터들 사이에서\n1000000코인에 거래되는\n베리 레어한 블록이니까요!{4:wait}[Next]두드려 보면 원더풀!{5:pause}\n엄청난 비밀에\n서프라이즈하고도 남을걸요!!{6:wait}",
   "FMsg/o_mushiba_05_before#25": "흐음…{1:pause} 비밀이라…{2:pause}{3:wait}[Next]그래서…{4:pause} 어떻게 하면 되는데?{5:wait}",
-  "FMsg/o_mushiba_05_before#26": "오우!{1:pause} 땡큐!{2:pause} 베리 머치!{3:wait}[Next]역시 당신은 젠틀맨!{4:wait}",
+  "FMsg/o_mushiba_05_before#26": "오우!{1:pause} 땡큐{2:pause} 베리 머치!{3:wait}[Next]역시 당신은 젠틀맨!{4:wait}",
   "FMsg/o_mushiba_11#0": "{1:align}그러냐? 그렇다면 얼마든지\n물을 마셔 주고말고!{2:wait}",
   "FMsg/o_mushiba_11#1": "{1:align}{2:align}{3:mode}윽!{4:wait}",
   "FMsg/o_mushiba_11#3": "{1:align}{2:align}이게 뭐지?{3:wait}",
@@ -117,6 +117,7 @@
   "FMsg/o_mushiba_05_before#11": "3DX는 'そこのロープを'(2줄)로 줄어서 DS '비치와 연결된 그 로프를'(3줄) 대신 2줄로 다시 씀",
   "FMsg/o_mushiba_11#16": "DS '내 부하가'를 글로서리(ワガハイ=이 몸)에 맞춰 '이 몸의 부하가'로 바꿈",
   "FMsg/o_mushiba_11#31": "DS28B#16의 셋째 줄 '갑자기 폭주하기 시작했어!'는 3DX 원문에 없어서 뺌",
-  "FMsg/o_mushiba_12#14": "3DX 원문(恋しい / アイ ミス ユ～)을 따라 DS '역시 사랑스럽네요~', '포기브 미~~~~!!' 대신 '역시 보고 싶어요~', '아이 미스 유~~~~!!'로 씀"
+  "FMsg/o_mushiba_12#14": "3DX 원문(恋しい / アイ ミス ユ～)을 따라 DS '역시 사랑스럽네요~', '포기브 미~~~~!!' 대신 '역시 보고 싶어요~', '아이 미스 유~~~~!!'로 씀",
+  "FMsg/o_mushiba_05_before#26": "review: 2026-10-06 DS03E#20의 땡큐 베리 머치 문장부호 복원. 3DX 뜸 태그 유지."
  }
 }

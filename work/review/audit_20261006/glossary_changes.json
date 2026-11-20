@@ -1,0 +1,35 @@
+[
+  {
+    "file": "glossary.tsv",
+    "before": [
+      {
+        "jp": "トゲダメージ",
+        "ko": "가시 대미지",
+        "type": "term",
+        "basis": "coined",
+        "source": "BMsg/b_sys:KJGuide_BB15",
+        "note": "[gl_kj]"
+      }
+    ],
+    "after": {
+      "jp": "トゲダメージ",
+      "ko": "가시 대미지",
+      "type": "term",
+      "basis": "official",
+      "source": "1DX-KR:BMsg.dat:k_sys#223",
+      "note": "RPG1 DX 한국판 가이드 제목 KGGuide_BB14; #32·#766 본문에도 같은 표기. 일반 ダメージ=타격과 구분 [gl_kj; review: 2026-10-06 공식 근거 확인]"
+    }
+  },
+  {
+    "file": "glossary_overrides.tsv",
+    "before": [],
+    "after": {
+      "jp": "トゲダメージ",
+      "ko": "가시 대미지",
+      "type": "term",
+      "basis": "official",
+      "source": "1DX-KR:BMsg.dat:k_sys#223",
+      "note": "RPG1 DX 한국판 가이드 제목 KGGuide_BB14; #32·#766 본문에도 같은 표기. 일반 ダメージ=타격과 구분 [gl_kj; review: 2026-10-06 공식 근거 확인]"
+    }
+  }
+]

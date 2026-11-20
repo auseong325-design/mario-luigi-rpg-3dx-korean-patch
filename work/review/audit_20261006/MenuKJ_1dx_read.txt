@@ -1,0 +1,68 @@
+MenuKJ#0 Menu_KJ_record_title_00 <- BMsg.dat:k_sys#266
+JP クエストクリア回数
+KO 퀘스트 클리어 횟수
+1DX 스테이지 클리어 횟수
+MenuKJ#2 Menu_KJ_record_title_01 <- BMsg.dat:k_sys#277
+JP バトルで勝った回数
+KO 배틀 승리 횟수
+1DX 배틀에서 이긴 횟수
+MenuKJ#3 Menu_KJ_record_title_02 <- BMsg.dat:k_sys#286
+JP やっつけた敵の数
+KO 물리친 적의 수
+1DX 물리친 적의 수
+MenuKJ#6 Menu_KJ_result_save <- BMsg.dat:k_sys#15
+JP セーブ中です。 / 電源をOFFにしないでください。
+KO 저장 중입니다. / 전원을 끄지 마십시오.
+1DX 저장 중입니다. / 전원을 끄지 마십시오.
+MenuKJ#7 Menu_KJ_record_title_04 <- BMsg.dat:k_sys#304
+JP 仲間にした数
+KO 동료로 삼은 수
+1DX 아군 숫자
+MenuKJ#13 Menu_KJ_record_title <- BMsg.dat:k_sys#614
+JP レコード
+KO 기록
+1DX 기록
+MenuKJ#15 Menu_KJ_organize_divorce_exp <- BMsg.dat:k_sys#703
+JP 本当にわかれますか？
+KO 정말 작별하시겠습니까?
+1DX 정말로 작별하시겠습니까?
+MenuKJ#16 Menu_KJ_organize_return_exp <- BMsg.dat:k_sys#896
+JP 変更を反映せずに戻ります。 / よろしいですか？
+KO 변경을 반영하지 않고 돌아갑니다. / 계속하시겠습니까?
+1DX 변경 사항을 반영하지 않고 / 돌아가시겠습니까?
+MenuKJ#17 Menu_KJ_result_get_challenge <- BMsg.dat:k_sys#731
+JP チャレンジたっせい！
+KO 챌린지 달성!
+1DX 도전 달성!
+MenuKJ#18 Menu_KJ_quest_config_title <- BMsg.dat:k_sys#179
+JP １度見たイベントを再生する
+KO 한 번 본 이벤트 재생
+1DX 이미 본 이벤트를 재생합니다.
+MenuKJ#23 Menu_KJ_item_get_la <- BMsg.dat:k_sys#237
+JP は / 「」を覚えた！
+KO , / 「」 습득!
+1DX  스킬 / 「」 획득!
+MenuKJ#30 Menu_KJ_result_up_lp <- BMsg.dat:k_sys#493
+JP はLPが増えた！
+KO 의 LP가  늘었다!
+1DX  LP  증가!
+MenuKJ#41 Menu_KJ_result_get_item <- BMsg.dat:k_sys#732
+JP アイテムかくとく！
+KO 아이템 획득!
+1DX 아이템 획득!
+MenuKJ#78 Menu_KJ_result_get_army <- BMsg.dat:k_sys#6
+JP なかまがふえた！
+KO 동료가 늘었다!
+1DX 아군이 늘었다!
+MenuKJ#82 Menu_KJ_result_get_la <- BMsg.dat:k_sys#920
+JP は「」を覚えた！
+KO , 「」 습득!
+1DX  스킬 「」 획득!
+MenuKJ#84 Menu_KJ_organize_warning_01 <- BMsg.dat:k_sys#454
+JP メンバーが９体そろっていませんが / よろしいですか？
+KO 멤버 9명이 다 모이지 않았습니다. / 계속하시겠습니까?
+1DX 멤버 8명이 모이지 않았습니다. / 출격하시겠습니까?
+MenuKJ#85 Menu_KJ_item_up_lp <- BMsg.dat:k_sys#552
+JP は / LPが増えた！
+KO 의 / LP가  늘었다!
+1DX  / LP  증가!

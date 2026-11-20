@@ -1,0 +1,14 @@
+{
+  "installed": {
+    "romfs/Msg/JP_ja/BMsg.dat": "029d915cb92367fa344c3e149f6ac2915cd5868b2eb14fe9fc7efcac482310e0"
+  },
+  "actions": {
+    "patch/romfs/Msg/JP_ja/BMsg.dat": "replaced b44a2098f715",
+    "sd/romfs/Msg/JP_ja/BMsg.dat": "replaced b44a2098f715",
+    "zip": "replaced ['romfs/Msg/JP_ja/BMsg.dat']"
+  },
+  "title_folder_files": 38,
+  "patch_junction_sd_zip_match": true,
+  "zip_sha256": "f9498c41c2000b3bd99f55b69cc41c9d42448a7f71cb02ac4ad5c4582c71fe1e",
+  "backup": "C:\\AI-Projects\\mario-luigi-rpg-3dx-korean-patch\\work\\build\\prev_kj_guide_status_20261031"
+}

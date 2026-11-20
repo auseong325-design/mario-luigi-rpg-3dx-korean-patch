@@ -1,0 +1,16 @@
+Item#763 E_AItm07 score=0.854 <- BData__mfset_AItmE:7
+JP {1:align}←向きに 素早く何度もスライドして / ヒモを引っ張り ダメージアップ！ / ターゲット：{2:color}１体　{3:color}効果：{4:color}なし{5:color}
+KO {1:align}←방향으로 빠르게 여러 번 슬라이드해서 / 끈을 당기자! 많이 당기면 타격도 커진다! / 공격 대상: {2:color}하나   {3:color}효과: {4:color}없음{5:color}
+DS ←방향으로 빠르게 여러 번 슬라이드해서 / 끈을 당기자! 많이 당기면 타격도 커진다!
+Item#765 E_Boots02 score=0.875 <- BData__mfset_WearE:49
+JP HPが満タンの時に POWがアップするブーツ。
+KO HP가 가득일 때 POW가 증가하는 부츠.
+DS [POW 30% UP] / HP가 가득일 때 POW가 증가.
+Item#774 E_Boots03 score=0.727 <- BData__mfset_WearE:11
+JP ブラザーアタックの威力が少しアップするブーツ。
+KO 스페셜 어택의 위력이 조금 증가하는 부츠.
+DS [파워풀 스페셜] / 스페셜 어택의 위력이 25% 증가.
+Item#781 F_MaxCheese score=0.8 <- BData__mfset_UItmN:11
+JP {1:color}ミラクルチーズ{2:color}はいっぱいです！
+KO {1:color}미라클치즈{2:color} FULL!
+DS 미라클버섯 FULL!

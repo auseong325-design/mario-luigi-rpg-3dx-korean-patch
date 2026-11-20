@@ -1,0 +1,27 @@
+{
+ "merge": {
+  "batches": 130,
+  "missing": [],
+  "failed": {},
+  "warnings": 184,
+  "dup_override_errors": []
+ },
+ "ko_final": {
+  "in_memory": 9617,
+  "on_disk": 9617,
+  "differs": []
+ },
+ "installed_vs_build_from_ko_final": {
+  "Msg/JP_ja/FMsg.dat": "same",
+  "Msg/JP_ja/BMsg.dat": "same",
+  "Msg/JP_ja/HugeBattle.msbt": "same",
+  "Msg/JP_ja/InitLoad.msbt": "same",
+  "Msg/JP_ja/Item.msbt": "same",
+  "Msg/JP_ja/Menu.msbt": "same",
+  "Msg/JP_ja/MenuKJ.msbt": "same"
+ },
+ "ko_final_ids_applied": [
+  9617,
+  9617
+ ]
+}

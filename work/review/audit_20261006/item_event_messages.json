@@ -1,0 +1,471 @@
+[
+  {
+    "id": "Menu#37",
+    "label": "MES_MenuMes_EventItemE_vacuum_blk",
+    "style": 13,
+    "attr": "00000000",
+    "jp": "[0009:0000:0D 00]ブリロックからもらった レアなブロック。\nバトルで[Ruby 使;つか]うと クッパがすいこみ～！"
+  },
+  {
+    "id": "Menu#52",
+    "label": "MES_MenuMes_EventItemE_pazzle1",
+    "style": 13,
+    "attr": "00000000",
+    "jp": "[0009:0000:0D 00]パズルが[Ruby 入;はい]ったふくろ リューグーにわたそう。"
+  },
+  {
+    "id": "Menu#53",
+    "label": "MES_MenuMes_EventItemNs_kinoko_capsule",
+    "style": 13,
+    "attr": "00000000",
+    "jp": "[0009:0000:0D 00]キノコボール"
+  },
+  {
+    "id": "Menu#64",
+    "label": "MES_MenuMes_EventItemE_pazzle2",
+    "style": 13,
+    "attr": "00000000",
+    "jp": "[0009:0000:0D 00]パズルが[Ruby 入;はい]ったふくろ リューグーにわたそう。"
+  },
+  {
+    "id": "Menu#75",
+    "label": "MES_MenuMes_EventItemE_pazzle3",
+    "style": 13,
+    "attr": "00000000",
+    "jp": "[0009:0000:0D 00]パズルが[Ruby 入;はい]ったふくろ リューグーにわたそう。"
+  },
+  {
+    "id": "Menu#84",
+    "label": "MES_MenuMes_EventItemE_pazzle4",
+    "style": 13,
+    "attr": "00000000",
+    "jp": "[0009:0000:0D 00]パズルが[Ruby 入;はい]ったふくろ リューグーにわたそう。"
+  },
+  {
+    "id": "Menu#110",
+    "label": "MES_MenuMes_EventItemE_starvaccine_g",
+    "style": 13,
+    "attr": "00000000",
+    "jp": "[0009:0000:0D 00]ムッシーバビーチの チャクランが\nもっていた １０００ねんモノのワクチン。"
+  },
+  {
+    "id": "Menu#116",
+    "label": "MES_MenuMes_EventItemN_buri_cat1",
+    "style": 13,
+    "attr": "00000000",
+    "jp": "[0009:0000:0D 00]ブロキャット"
+  },
+  {
+    "id": "Menu#126",
+    "label": "MES_MenuMes_EventItemN_buri_cat2",
+    "style": 13,
+    "attr": "00000000",
+    "jp": "[0009:0000:0D 00]ブロキャット"
+  },
+  {
+    "id": "Menu#138",
+    "label": "MES_MenuMes_EventItemN_buri_cat3",
+    "style": 13,
+    "attr": "00000000",
+    "jp": "[0009:0000:0D 00]ブロキャット"
+  },
+  {
+    "id": "Menu#153",
+    "label": "MES_MenuMes_EventItemN_buri_cat4",
+    "style": 13,
+    "attr": "00000000",
+    "jp": "[0009:0000:0D 00]ブロキャット"
+  },
+  {
+    "id": "Menu#169",
+    "label": "MES_MenuMes_EventItemE_kinoko_capsule",
+    "style": 13,
+    "attr": "00000000",
+    "jp": "[0009:0000:0D 00]キノコタウンにいる キノコボールおじさんに\nわたせば なかみがもらえるぞ！"
+  },
+  {
+    "id": "Menu#170",
+    "label": "MES_MenuMes_EventItemN_blue_key",
+    "style": 13,
+    "attr": "00000000",
+    "jp": "[0009:0000:0D 00]青のカギ"
+  },
+  {
+    "id": "Menu#171",
+    "label": "MES_MenuMes_EventItemN_buri_cat5",
+    "style": 13,
+    "attr": "00000000",
+    "jp": "[0009:0000:0D 00]ブロキャット"
+  },
+  {
+    "id": "Menu#184",
+    "label": "MES_MenuMes_EventItemE_kokky",
+    "style": 13,
+    "attr": "00000000",
+    "jp": "[0009:0000:0D 00]Dr.コキノの ペット。\n[Ruby 道;みち]あんないを してくれる。"
+  },
+  {
+    "id": "Menu#185",
+    "label": "MES_MenuMes_EventItemN_buri_cat10",
+    "style": 13,
+    "attr": "00000000",
+    "jp": "[0009:0000:0D 00]ブロキャット"
+  },
+  {
+    "id": "Menu#186",
+    "label": "MES_MenuMes_EventItemN_buri_cat6",
+    "style": 13,
+    "attr": "00000000",
+    "jp": "[0009:0000:0D 00]ブロキャット"
+  },
+  {
+    "id": "Menu#199",
+    "label": "MES_MenuMes_EventItemN_buri_cat11",
+    "style": 13,
+    "attr": "00000000",
+    "jp": "[0009:0000:0D 00]ブロキャット"
+  },
+  {
+    "id": "Menu#200",
+    "label": "MES_MenuMes_EventItemN_buri_cat7",
+    "style": 13,
+    "attr": "00000000",
+    "jp": "[0009:0000:0D 00]ブロキャット"
+  },
+  {
+    "id": "Menu#211",
+    "label": "MES_MenuMes_EventItemN_buri_cat12",
+    "style": 13,
+    "attr": "00000000",
+    "jp": "[0009:0000:0D 00]ブロキャット"
+  },
+  {
+    "id": "Menu#212",
+    "label": "MES_MenuMes_EventItemN_buri_cat8",
+    "style": 13,
+    "attr": "00000000",
+    "jp": "[0009:0000:0D 00]ブロキャット"
+  },
+  {
+    "id": "Menu#220",
+    "label": "MES_MenuMes_EventItemN_buri_cat13",
+    "style": 13,
+    "attr": "00000000",
+    "jp": "[0009:0000:0D 00]ブロキャット"
+  },
+  {
+    "id": "Menu#221",
+    "label": "MES_MenuMes_EventItemN_buri_cat9",
+    "style": 13,
+    "attr": "00000000",
+    "jp": "[0009:0000:0D 00]ブロキャット"
+  },
+  {
+    "id": "Menu#228",
+    "label": "MES_MenuMes_EventItemN_buri_cat14",
+    "style": 13,
+    "attr": "00000000",
+    "jp": "[0009:0000:0D 00]ブロキャット"
+  },
+  {
+    "id": "Menu#235",
+    "label": "MES_MenuMes_EventItemE_starvaccine_r",
+    "style": 13,
+    "attr": "00000000",
+    "jp": "[0009:0000:0D 00][Ruby １人目;ひとりめ]の[Ruby 賢者;けんじゃ] イモーヌがもっていた\nワクチン。[Ruby 手;て]に[Ruby 入;い]れるまで[Ruby 長;なが]い[Ruby 道;みち]のりだった…"
+  },
+  {
+    "id": "Menu#236",
+    "label": "MES_MenuMes_EventItemN_buri_cat15",
+    "style": 13,
+    "attr": "00000000",
+    "jp": "[0009:0000:0D 00]ブロキャット"
+  },
+  {
+    "id": "Menu#256",
+    "label": "MES_MenuMes_EventItemE_mkiller",
+    "style": 13,
+    "attr": "00000000",
+    "jp": "[0009:0000:0D 00][Ruby 大;おお]きくてくろびかりした スッゴイやつ！\nこれをはっしゃされたら ひとたまりもない！"
+  },
+  {
+    "id": "Menu#257",
+    "label": "MES_MenuMes_EventItemN_green_key",
+    "style": 13,
+    "attr": "00000000",
+    "jp": "[0009:0000:0D 00]緑のカギ"
+  },
+  {
+    "id": "Menu#265",
+    "label": "MES_MenuMes_EventItemN_pazzle1",
+    "style": 13,
+    "attr": "00000000",
+    "jp": "[0009:0000:0D 00]パズルピース１"
+  },
+  {
+    "id": "Menu#272",
+    "label": "MES_MenuMes_EventItemN_pazzle2",
+    "style": 13,
+    "attr": "00000000",
+    "jp": "[0009:0000:0D 00]パズルピース２"
+  },
+  {
+    "id": "Menu#281",
+    "label": "MES_MenuMes_EventItemE_birinpa",
+    "style": 13,
+    "attr": "00000000",
+    "jp": "[0009:0000:0D 00]いわゆるビリビリしてそうなアレ。こんな\nビリビリしてそうなものは どこで[Ruby 使;つか]うんだっけ？"
+  },
+  {
+    "id": "Menu#282",
+    "label": "MES_MenuMes_EventItemN_pazzle3",
+    "style": 13,
+    "attr": "00000000",
+    "jp": "[0009:0000:0D 00]パズルピース３"
+  },
+  {
+    "id": "Menu#288",
+    "label": "MES_MenuMes_EventItemE_starvaccine_y",
+    "style": 13,
+    "attr": "00000000",
+    "jp": "[0009:0000:0D 00]クッパ[Ruby 城;じょう]にあった ２つ[Ruby 目;め]のワクチン。\nクッパがのみこんだおかげで ベッタベタ～！"
+  },
+  {
+    "id": "Menu#289",
+    "label": "MES_MenuMes_EventItemN_pazzle4",
+    "style": 13,
+    "attr": "00000000",
+    "jp": "[0009:0000:0D 00]パズルピース４"
+  },
+  {
+    "id": "Menu#290",
+    "label": "MES_MenuMes_EventItemN_starvaccine_g",
+    "style": 13,
+    "attr": "00000000",
+    "jp": "[0009:0000:0D 00]スターワクチン緑"
+  },
+  {
+    "id": "Menu#338",
+    "label": "MES_MenuMes_EventItemE_blue_key",
+    "style": 13,
+    "attr": "00000000",
+    "jp": "[0009:0000:0D 00]ピーチ[Ruby 城;じょう]の ２かいにある\n[Ruby 青;あお]のトビラを あけるためのカギ。"
+  },
+  {
+    "id": "Menu#371",
+    "label": "MES_MenuMes_EventItemN_kinoko_capsule",
+    "style": 13,
+    "attr": "00000000",
+    "jp": "[0009:0000:0D 00]キノコボール"
+  },
+  {
+    "id": "Menu#389",
+    "label": "MES_MenuMes_EventItemN_starvaccine_r",
+    "style": 13,
+    "attr": "00000000",
+    "jp": "[0009:0000:0D 00]スターワクチン赤"
+  },
+  {
+    "id": "Menu#449",
+    "label": "MES_MenuMes_EventItemN_mkiller",
+    "style": 13,
+    "attr": "00000000",
+    "jp": "[0009:0000:0D 00]マグナムキラー"
+  },
+  {
+    "id": "Menu#450",
+    "label": "MES_MenuMes_EventItemN_starvaccine_y",
+    "style": 13,
+    "attr": "00000000",
+    "jp": "[0009:0000:0D 00]スターワクチン黄"
+  },
+  {
+    "id": "Menu#478",
+    "label": "MES_MenuMes_EventItemE_buri_cat1",
+    "style": 13,
+    "attr": "00000000",
+    "jp": "[0009:0000:0D 00]クリシンボーの[Ruby 中;なか]にいた ブロキャット。"
+  },
+  {
+    "id": "Menu#479",
+    "label": "MES_MenuMes_EventItemN_starpanel",
+    "style": 13,
+    "attr": "00000000",
+    "jp": "[0009:0000:0D 00]スターパネル"
+  },
+  {
+    "id": "Menu#486",
+    "label": "MES_MenuMes_EventItemE_buri_cat2",
+    "style": 13,
+    "attr": "00000000",
+    "jp": "[0009:0000:0D 00]ハガサンボンの[Ruby 中;なか]にいた ブロキャット。"
+  },
+  {
+    "id": "Menu#495",
+    "label": "MES_MenuMes_EventItemE_buri_cat3",
+    "style": 13,
+    "attr": "00000000",
+    "jp": "[0009:0000:0D 00]マガツリーの[Ruby 中;なか]にいた ブロキャット。"
+  },
+  {
+    "id": "Menu#503",
+    "label": "MES_MenuMes_EventItemE_buri_cat4",
+    "style": 13,
+    "attr": "00000000",
+    "jp": "[0009:0000:0D 00]トレジャンの[Ruby 中;なか]にいた ブロキャット。"
+  },
+  {
+    "id": "Menu#512",
+    "label": "MES_MenuMes_EventItemE_buri_cat5",
+    "style": 13,
+    "attr": "00000000",
+    "jp": "[0009:0000:0D 00]ハナムーチョの[Ruby 中;なか]にいた ブロキャット。"
+  },
+  {
+    "id": "Menu#523",
+    "label": "MES_MenuMes_EventItemE_buri_cat6",
+    "style": 13,
+    "attr": "00000000",
+    "jp": "[0009:0000:0D 00]ゲラワンワンの[Ruby 中;なか]にいた ブロキャット。"
+  },
+  {
+    "id": "Menu#533",
+    "label": "MES_MenuMes_EventItemE_buri_cat7",
+    "style": 13,
+    "attr": "00000000",
+    "jp": "[0009:0000:0D 00]キカンボーの[Ruby 中;なか]にいた ブロキャット。"
+  },
+  {
+    "id": "Menu#545",
+    "label": "MES_MenuMes_EventItemE_buri_cat8",
+    "style": 13,
+    "attr": "00000000",
+    "jp": "[0009:0000:0D 00]ビーハウスの[Ruby 中;なか]にいた ブロキャット。"
+  },
+  {
+    "id": "Menu#558",
+    "label": "MES_MenuMes_EventItemE_buri_cat9",
+    "style": 13,
+    "attr": "00000000",
+    "jp": "[0009:0000:0D 00]ゲタゲターの[Ruby 中;なか]にいた ブロキャット。"
+  },
+  {
+    "id": "Menu#603",
+    "label": "MES_MenuMes_EventItemE_green_key",
+    "style": 13,
+    "attr": "00000000",
+    "jp": "[0009:0000:0D 00]ピーチ[Ruby 城;じょう]の ２かいにある\n[Ruby 緑;みどり]のトビラを あけるためのカギ。"
+  },
+  {
+    "id": "Menu#616",
+    "label": "MES_MenuMes_EventItemE_mvaccine",
+    "style": 13,
+    "attr": "00000000",
+    "jp": "[0009:0000:0D 00]３つのスターワクチンを ごうせいして[Ruby 作;つく]りあげた\nまさにミラクルなワクチン！ ききめはきょうれつ！"
+  },
+  {
+    "id": "Menu#623",
+    "label": "MES_MenuMes_EventItemE_red_key",
+    "style": 13,
+    "attr": "00000000",
+    "jp": "[0009:0000:0D 00]ピーチ[Ruby 城;じょう]の ２かいにある\n[Ruby 赤;あか]のトビラを あけるためのカギ。"
+  },
+  {
+    "id": "Menu#656",
+    "label": "MES_MenuMes_EventItemN_kokky",
+    "style": 13,
+    "attr": "00000000",
+    "jp": "[0009:0000:0D 00]コッキーちゃん"
+  },
+  {
+    "id": "Menu#657",
+    "label": "MES_MenuMes_EventItemN_vacuum_blk",
+    "style": 13,
+    "attr": "00000000",
+    "jp": "[0009:0000:0D 00]バキュームブロック"
+  },
+  {
+    "id": "Menu#678",
+    "label": "MES_MenuMes_EventItemE_buri_cat10",
+    "style": 13,
+    "attr": "00000000",
+    "jp": "[0009:0000:0D 00]ジェイルンの[Ruby 中;なか]にいた ブロキャット。"
+  },
+  {
+    "id": "Menu#688",
+    "label": "MES_MenuMes_EventItemE_buri_cat11",
+    "style": 13,
+    "attr": "00000000",
+    "jp": "[0009:0000:0D 00]ヅッツンの[Ruby 中;なか]にいた ブロキャット。"
+  },
+  {
+    "id": "Menu#697",
+    "label": "MES_MenuMes_EventItemE_buri_cat12",
+    "style": 13,
+    "attr": "00000000",
+    "jp": "[0009:0000:0D 00]メカコビッツの[Ruby 中;なか]にいた ブロキャット。"
+  },
+  {
+    "id": "Menu#698",
+    "label": "MES_MenuMes_EventItemE_hammer",
+    "style": 13,
+    "attr": "00000000",
+    "jp": "[0009:0000:0D 00]ガラクタスペースで [Ruby 見;み]つけたハンマー。\nこれでかたいものを ガツンとこわせるぞ！"
+  },
+  {
+    "id": "Menu#708",
+    "label": "MES_MenuMes_EventItemE_buri_cat13",
+    "style": 13,
+    "attr": "00000000",
+    "jp": "[0009:0000:0D 00]ゴーネムの[Ruby 中;なか]にいた ブロキャット。"
+  },
+  {
+    "id": "Menu#709",
+    "label": "MES_MenuMes_EventItemN_mvaccine",
+    "style": 13,
+    "attr": "00000000",
+    "jp": "[0009:0000:0D 00]ミラクルワクチン"
+  },
+  {
+    "id": "Menu#720",
+    "label": "MES_MenuMes_EventItemE_buri_cat14",
+    "style": 13,
+    "attr": "00000000",
+    "jp": "[0009:0000:0D 00]ダークトレジャンの[Ruby 中;なか]にいた\nブロキャット。"
+  },
+  {
+    "id": "Menu#727",
+    "label": "MES_MenuMes_EventItemE_buri_cat15",
+    "style": 13,
+    "attr": "00000000",
+    "jp": "[0009:0000:0D 00]ダークメカコビッツの[Ruby 中;なか]にいた\nブロキャット。"
+  },
+  {
+    "id": "Menu#728",
+    "label": "MES_MenuMes_EventItemN_birinpa",
+    "style": 13,
+    "attr": "00000000",
+    "jp": "[0009:0000:0D 00]ビリビリンパ"
+  },
+  {
+    "id": "Menu#783",
+    "label": "MES_MenuMes_EventItemN_red_key",
+    "style": 13,
+    "attr": "00000000",
+    "jp": "[0009:0000:0D 00]赤のカギ"
+  },
+  {
+    "id": "Menu#790",
+    "label": "MES_MenuMes_EventItemN_hammer",
+    "style": 13,
+    "attr": "00000000",
+    "jp": "[0009:0000:0D 00]ハンマー"
+  },
+  {
+    "id": "Menu#798",
+    "label": "MES_MenuMes_EventItemE_starpanel",
+    "style": 13,
+    "attr": "00000000",
+    "jp": "[0009:0000:0D 00]エネルギースペースの スターのパネルから\nうまれおちたスターパネル。かたちはさまざま。"
+  }
+]

@@ -40,7 +40,7 @@
   "FMsg/o_peach_1f_03#38": "{1:align}{2:align}뭐,{3:pause} 뭐냐! 이것은!{4:wait}",
   "FMsg/o_peach_1f_03#39": "{1:align}나…{2:pause} 나에게 이겼다고 해도\n까르코비츠님은{3:pause} 못 당할 거다…{4:wait}",
   "FMsg/o_peach_1f_03#40": "{1:align}{2:align}누구냐 넌!?{3:wait}[Next]{4:align}{5:align}이 몸을 복사했다고!?\n누가 멋대로 그런 짓 하라더냐?{6:wait}",
-  "FMsg/o_peach_1f_03#41": "{1:align}네놈 여기에서{2:pause}\n끝{3:pause} 이다…{4:pause}{5:wait}",
+  "FMsg/o_peach_1f_03#41": "{1:align}네놈 여기에서{2:pause}\n끝{3:pause}이다…{4:pause}{5:wait}",
   "FMsg/o_peach_1f_03#43": "{1:align}뭐라고? 부족하다고?{2:wait}",
   "FMsg/o_peach_1f_03#44": "{1:align}다크스타는 어디지롱롱!?{2:wait}[Next]{3:align}나머지 암흑 파워를\n흡수할 거지롱롱롱!!{4:wait}",
   "FMsg/o_peach_1f_03#45": "{1:align}{2:align}빼앗겼다고?{3:wait}",
@@ -76,7 +76,7 @@
   "FMsg/o_peach_1f_08#5": "{1:align}흥. 이 몸의 가짜 따위에는\n전혀 관심이 없다만.{2:wait}[Next]{3:align}이 몸이 원하는 건\n피치공주와 암흑 파워뿐이다.{4:wait}",
   "FMsg/o_peach_1f_08#7": "{1:align}설마…!{2:pause} 다크쿠파가\n까르코비츠를…?{3:wait}",
   "FMsg/o_peach_1f_08#8": "{1:align}큰일이야…!{2:pause} 그렇다는 건\n암흑 파워가 완전체로…{3:wait}",
-  "FMsg/o_peach_1f_08#9": "{1:align}너의 능력을 복사한 데다가\n완전한 암흑 파워까지\n손에 넣은 다크쿠파…{2:wait}[Next]{3:align}…{4:pause} 솔직히 말하면\n최악의 사태가 벌어졌어…{5:wait}[Next]{6:align}이렇게 된 이상 어쩔 수 없어!\n다크쿠파를 쓰러뜨려야 해!!{7:wait}",
+  "FMsg/o_peach_1f_08#9": "{1:align}너의 능력을 복사한 데다가\n완전한 암흑 파워까지\n손에 넣은 다크쿠파…{2:wait}[Next]{3:align}…{4:pause}솔직히 말하면\n최악의 사태가 벌어졌어…{5:wait}[Next]{6:align}이렇게 된 이상 어쩔 수 없어!\n다크쿠파를 쓰러뜨려야 해!!{7:wait}",
   "FMsg/o_peach_1f_09#0": "{1:align}{2:align}어이!{3:pause}",
   "FMsg/o_peach_1f_09#2": "{1:align}그따위 걸로\n쓰러질 줄 아느냐!{2:wait}[Next]{3:align}이 몸이 누군 줄 알고!\n대마왕쿠파님이란 말이다!{4:wait}",
   "FMsg/o_peach_1f_09#3": "{1:align}흥! 너 같은 놈은\n다시 태어나도 세계를\n지배할 수 없을 거다!{2:wait}",
@@ -117,6 +117,8 @@
   "FMsg/o_peach_1f_03#55": "3DX 신규 대사(とっておき中の とっておき). 원문에 るる가 없어서 롱롱을 붙이지 않음",
   "FMsg/o_peach_1f_08#4": "3DX 'ワガハイの ニセモノ'에 맞춰 DS '가짜 쿠파가'를 '이 몸의 가짜가'로 바꿈",
   "FMsg/o_peach_1f_08#5": "3DX 문장 구성이 DS298#9('…관심이 없다. 하지만! / …내가 접수해야겠다!')와 달라서 3DX 원문대로 새로 씀",
-  "FMsg/o_peach_1f_08#8": "원문이 暗黒パワー라서 DS '암흑의 파워'를 글로서리 '암흑 파워'로 바꿈(1f_09#7도 같음)"
+  "FMsg/o_peach_1f_08#8": "원문이 暗黒パワー라서 DS '암흑의 파워'를 글로서리 '암흑 파워'로 바꿈(1f_09#7도 같음)",
+  "FMsg/o_peach_1f_03#41": "review: 2026-10-06 DS20F#2의 같은 뜻 대사 띄어쓰기 복원. 화살표 뒤/말줄임표 뒤 공백과 어절을 DS대로 유지하고 3DX pause·서식·페이지 태그는 그대로 둠. AGENTS 0·4.6의 DS 보존 원칙이 일반 스타일 권고보다 우선.",
+  "FMsg/o_peach_1f_08#9": "review: 2026-10-06 DS298#8의 같은 뜻 대사 띄어쓰기 복원. 화살표 뒤/말줄임표 뒤 공백과 어절을 DS대로 유지하고 3DX pause·서식·페이지 태그는 그대로 둠. AGENTS 0·4.6의 DS 보존 원칙이 일반 스타일 권고보다 우선."
  }
 }

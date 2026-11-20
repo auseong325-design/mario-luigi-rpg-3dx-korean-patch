@@ -1,0 +1,839 @@
+{
+ "batch": "FMsg__k_o_gepu_08__and1",
+ "rooms": [
+  "k_o_gepu_08",
+  "k_o_gepu_13"
+ ],
+ "ds_rooms": [],
+ "ds_reference": [],
+ "glossary": [
+  {
+   "jp": "SSカンパニー",
+   "ko": "SS컴퍼니",
+   "type": "character",
+   "basis": "coined",
+   "source": "BMsg/b_sys#902",
+   "note": "'SS' 두문자 말장난(슈퍼 서플리먼트/순삭)을 살리려고 SS 유지 [gl_kj]"
+  },
+  {
+   "jp": "イギー",
+   "ko": "이기",
+   "type": "character",
+   "basis": "official",
+   "source": "https://www.nintendo.com/kr/switch/aabpa/sp/character/",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "クッパ",
+   "ko": "쿠파",
+   "type": "character",
+   "basis": "DS",
+   "source": "BData__mfset_Help#21",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "クッパ７人衆",
+   "ko": "쿠파 7인조",
+   "type": "character",
+   "basis": "official",
+   "source": "https://namu.wiki/w/%EC%BF%A0%ED%8C%8C%207%EC%9D%B8%EC%A1%B0",
+   "note": "마리오 카트 8 이후 한국 공식 명칭(나무위키 기재). 3DX 원문에 'コクッパ'는 나오지 않음 [gl_kj]"
+  },
+  {
+   "jp": "ゲラコビッツ",
+   "ko": "까르코비츠",
+   "type": "character",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesOutline#5",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "スーパーサプリカンパニー",
+   "ko": "슈퍼 서플리먼트 컴퍼니",
+   "type": "character",
+   "basis": "coined",
+   "source": "FMsg/k_o_koopa_14#94",
+   "note": "SS = 슈퍼 서플리먼트. 일반 명사 サプリ는 '영양제' [gl_kj]"
+  },
+  {
+   "jp": "ムチオ",
+   "ko": "무지오",
+   "type": "character",
+   "basis": "coined",
+   "source": "BMsg/b_sys#516",
+   "note": "「ムチ…ムチ…無知…」 말장난 → 무지(無知)+오 [gl_kj]"
+  },
+  {
+   "jp": "モートン",
+   "ko": "모톤",
+   "type": "character",
+   "basis": "official",
+   "source": "https://www.nintendo.com/kr/switch/aabpa/sp/character/",
+   "note": "'모턴' 아님 [gl_kj]"
+  },
+  {
+   "jp": "ロイ",
+   "ko": "로이",
+   "type": "character",
+   "basis": "official",
+   "source": "https://www.nintendo.com/kr/switch/aabpa/sp/character/",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "瞬殺カンパニー",
+   "ko": "순삭 컴퍼니",
+   "type": "character",
+   "basis": "coined",
+   "source": "FMsg/k_o_gepu_13#35",
+   "note": "瞬殺(SHUN SATSU)→순삭(SUN SAK)으로 SS 두문자 유지. 「SHUN！ SATSU！」→'SUN! SAK!' [gl_kj]"
+  },
+  {
+   "jp": "７人衆",
+   "ko": "7인조",
+   "type": "character",
+   "basis": "official",
+   "source": "https://namu.wiki/w/%EC%BF%A0%ED%8C%8C%207%EC%9D%B8%EC%A1%B0",
+   "note": "「アタシ達 ７人衆」→'우리 7인조' [gl_kj]"
+  },
+  {
+   "jp": "キノコ",
+   "ko": "버섯",
+   "type": "item",
+   "basis": "DS",
+   "source": "BData__mfset_UItmN#0",
+   "note": "일반 명사 キノコ도 버섯(キノコタウン=버섯 타운) [gl_items]"
+  },
+  {
+   "jp": "ゲプーキュウコン",
+   "ko": "꺼억구근",
+   "type": "key_item",
+   "basis": "coined",
+   "source": "FMsg/k_o_ekubon_15#7",
+   "note": "ゲップー(DS '꺼억 케이프')+球根 [gl_kj]"
+  },
+  {
+   "jp": "サプリ",
+   "ko": "영양제",
+   "type": "key_item",
+   "basis": "coined",
+   "source": "Menu#250",
+   "note": "뚱뚱데굴병 치료 영양제. 회사명 속 サプリ만 '서플리먼트' [gl_kj]"
+  },
+  {
+   "jp": "クッパ軍団",
+   "ko": "쿠파 군단",
+   "type": "other",
+   "basis": "DS",
+   "source": "FEvent#23E.19",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "スペクタクルカンパニー",
+   "ko": "스펙터클 컴퍼니",
+   "type": "other",
+   "basis": "coined",
+   "source": "FMsg/k_o_gepu_13#17",
+   "note": "큐티가 원한 회사명 「想像を絶する スペクタクルカンパニー」→'상상 초월 스펙터클 컴퍼니'(SS 두문자 유지) [gl_kj]"
+  },
+  {
+   "jp": "キノコ王国",
+   "ko": "버섯 왕국",
+   "type": "place",
+   "basis": "DS",
+   "source": "FEvent:011#0",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "クッパ城",
+   "ko": "쿠파 성",
+   "type": "place",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesPlace#6",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "ピーチ城",
+   "ko": "피치 성",
+   "type": "place",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesPlace#1",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "ぼっちゃん",
+   "ko": "도련님",
+   "type": "term",
+   "basis": "coined",
+   "source": "MenuKJ#93",
+   "note": "마귀·쿠파 7인조·부하들이 쿠파주니어를 부르는 말. DS에 없음 [gl_kj]"
+  },
+  {
+   "jp": "アタック",
+   "ko": "어택",
+   "type": "term",
+   "basis": "DS",
+   "source": "BDataMiniGame__mfset_MesDat_MiniGame#5",
+   "note": "스페셜 어택을 줄여 부를 때. 단 퀴즈의 パンチアタック/ファイアアタック은 DS대로 '~ 공격' [gl_attacks]"
+  },
+  {
+   "jp": "キュウコン",
+   "ko": "구근",
+   "type": "term",
+   "basis": "coined",
+   "source": "FMsg/k_o_gepu_08#8",
+   "note": "「球の根っこ」는 '알뿌리'로 풀이 [gl_kj]"
+  },
+  {
+   "jp": "クッパ様",
+   "ko": "쿠파님",
+   "type": "term",
+   "basis": "DS",
+   "source": "BAI__BMes_cf:0#0",
+   "note": "부하들이 부를 때 [gl_kj]"
+  },
+  {
+   "jp": "グループアタック",
+   "ko": "그룹 어택",
+   "type": "term",
+   "basis": "coined",
+   "source": "BMsg/b_sys#24",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "ゲラコビッツ様",
+   "ko": "까르코비츠님",
+   "type": "term",
+   "basis": "DS",
+   "source": "FEvent:070#17",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "コイン",
+   "ko": "코인",
+   "type": "term",
+   "basis": "DS",
+   "source": "BData__mfset_WearE#22",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "ワガハイ",
+   "ko": "이 몸",
+   "type": "term",
+   "basis": "DS",
+   "source": "FEvent:025#7",
+   "note": "쿠파의 1인칭 [gl_kj]"
+  },
+  {
+   "jp": "瞬殺",
+   "ko": "순삭",
+   "type": "term",
+   "basis": "coined",
+   "source": "FMsg/k_o_gepu_13#9",
+   "note": "「瞬！ 殺！」→'순! 삭!' [gl_kj]"
+  },
+  {
+   "jp": "軍団",
+   "ko": "군단",
+   "type": "term",
+   "basis": "DS",
+   "source": "BAI__BMes_cf#0.20",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "へんせい",
+   "ko": "편성",
+   "type": "ui",
+   "basis": "coined",
+   "source": "MenuKJ#61",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "キャラクター",
+   "ko": "캐릭터",
+   "type": "ui",
+   "basis": "coined",
+   "source": "",
+   "note": "[gl_menu_places]"
+  }
+ ],
+ "messages": [
+  {
+   "id": "FMsg/k_o_gepu_08#0",
+   "label": "Kjrpg_03_Gepu_op01_07_2",
+   "style": 6,
+   "src": "７人衆も\nこの２人だけじゃ…{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_08#1",
+   "label": "Kjrpg_03_Gepu_op01_10",
+   "style": 6,
+   "src": "わたしは しばらく\nぼっちゃんを見ていよう。{1:wait}[Next]クッパ様…{2:pause}\nどうか ご無事で…{3:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0000:0A 00]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_08#2",
+   "label": "Kjrpg_03_Gepu_op01_12",
+   "style": 6,
+   "src": "{1:align}なかなか おもしろいぞ！{2:wait}[Next]おい！{3:pause} これで\nワガハイを クッパ城まで…{4:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0000:0A 00]",
+    "4": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_08#3",
+   "label": "Kjrpg_03_Gepu_op01_06_01",
+   "style": 6,
+   "src": "そうか。{1:pause}\nわかった。{2:wait}",
+   "tags": {
+    "1": "[0002:0000:04 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_08#4",
+   "label": "Kjrpg_03_Gepu_op01_06_02",
+   "style": 6,
+   "src": "た～{1:pause}まの根っこ♪{2:pause}\nた～{3:pause}まの根っこ♪{4:wait}",
+   "tags": {
+    "1": "[0002:0000:04 00]",
+    "2": "[0002:0000:0A 00]",
+    "3": "[0002:0000:04 00]",
+    "4": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_08#5",
+   "label": "Kjrpg_03_Gepu_op01_01_01",
+   "style": 6,
+   "src": "はあ…{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_08#6",
+   "label": "Kjrpg_03_Gepu_op01_01_02",
+   "style": 6,
+   "src": "「ゲプーキュウコン」って名前で\nどこにあるか わからないかねぇ…{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_08#7",
+   "label": "Kjrpg_03_Gepu_op01_02",
+   "style": 6,
+   "src": "なんか{1:pause} 言ったか～？{2:wait}",
+   "tags": {
+    "1": "[0002:0000:04 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_08#8",
+   "label": "Kjrpg_03_Gepu_op01_03",
+   "style": 6,
+   "src": "いえいえ！{1:wait}[Next]さて…{2:pause}\nキュウコンですよね…{3:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0000:0A 00]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_08#9",
+   "label": "Kjrpg_03_Gepu_op01_04",
+   "style": 6,
+   "src": "なあ モートン。{1:pause}\nキュウコンってなんだ？{2:wait}",
+   "tags": {
+    "1": "[0002:0000:04 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_08#10",
+   "label": "Kjrpg_03_Gepu_op01_05",
+   "style": 6,
+   "src": "キュウコン…{1:pause}\n球の根っこ。{2:wait}",
+   "tags": {
+    "1": "[0002:0000:04 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_08#11",
+   "label": "Kjrpg_03_Gepu_op01_07",
+   "style": 6,
+   "src": "{1:align}はあ… {2:wait}[Next]{3:align}クッパ様も\nクッパ城も心配だけど…{4:wait}[Next]やっぱり ぼっちゃんが\n一番心配だね…{5:wait}",
+   "tags": {
+    "1": "[0001:0001:]",
+    "2": "[0002:0001:]",
+    "3": "[0001:0000:]",
+    "4": "[0002:0001:]",
+    "5": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_08#12",
+   "label": "Kjrpg_03_Gepu_op01_08",
+   "style": 6,
+   "src": "ワシャシャ…{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/k_o_koopa_80#72"
+   ]
+  },
+  {
+   "id": "FMsg/k_o_gepu_13#0",
+   "label": "Kjrpg_04_Gepu_qst01_08_01",
+   "style": 6,
+   "src": "ん～？{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/k_o_koopa_14#227",
+    "FMsg/k_o_koopa_r_80#322"
+   ]
+  },
+  {
+   "id": "FMsg/k_o_gepu_13#1",
+   "label": "Kjrpg_04_Gepu_qst01_08_02",
+   "style": 6,
+   "src": "なにか{1:pause}\n聞こえたような…{2:wait}",
+   "tags": {
+    "1": "[0002:0000:04 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_13#2",
+   "label": "Kjrpg_04_Gepu_qst01_21_a",
+   "style": 6,
+   "src": "瞬く間に！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_13#3",
+   "label": "Kjrpg_04_Gepu_qst01_21_b",
+   "style": 6,
+   "src": "確実に！{1:pause}\nやりとげる！{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_13#4",
+   "label": "Kjrpg_04_Gepu_qst01_06",
+   "style": 6,
+   "src": "うひゃー 高いな～{1:pause}\n落ちたら 大変だぁ。{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_13#5",
+   "label": "Kjrpg_04_Gepu_qst01_07",
+   "style": 6,
+   "src": "落ちるかね。{1:pause}\nポトリと。{2:wait}",
+   "tags": {
+    "1": "[0002:0000:04 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_13#6",
+   "label": "Kjrpg_04_Gepu_qst01_09",
+   "style": 6,
+   "src": "うひゃー{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_13#7",
+   "label": "Kjrpg_04_Gepu_qst01_20",
+   "style": 6,
+   "src": "我ら SSカンパニー！{1:wait}[Next]スーパーサプリカンパニーとは\nかりそめの名前。その正体は…{2:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_13#8",
+   "label": "Kjrpg_04_Gepu_qst01_21",
+   "style": 6,
+   "src": "コインさえ受け取れば\nどんな仕事も…{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_13#9",
+   "label": "Kjrpg_04_Gepu_qst01_22",
+   "style": 6,
+   "src": "そう！ {1:pause}\nすべて 瞬殺！{2:wait}",
+   "tags": {
+    "1": "[0002:0000:04 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_13#10",
+   "label": "Kjrpg_04_Gepu_qst01_34_a",
+   "style": 6,
+   "src": "７人衆が減ってきてる…{1:wait}[Next]今後の へんせいも\nちょっと 考えないとね…{2:wait}[Next]{3:color}同じキャラクターを 集めて{4:color}\n{5:color}グループアタック{6:color}を狙うかねぇ…{7:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]",
+    "3": "[Color #2C64FF]",
+    "4": "[Color #373737]",
+    "5": "[Color #2C64FF]",
+    "6": "[Color #373737]",
+    "7": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_13#11",
+   "label": "Kjrpg_04_Gepu_qst01_24",
+   "style": 6,
+   "src": "{1:align}我らの本当の名は…{2:wait}",
+   "tags": {
+    "1": "[0001:0001:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_13#12",
+   "label": "Kjrpg_04_Gepu_qst01_25",
+   "style": 5,
+   "src": "ダサい…{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:05 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_13#13",
+   "label": "Kjrpg_04_Gepu_qst01_26",
+   "style": 6,
+   "src": "ん？{1:pause}ムチオ？{2:wait}[Next]いま ダサイ\nって言った？{3:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_13#14",
+   "label": "Kjrpg_04_Gepu_qst01_28",
+   "style": 6,
+   "src": "ん？{1:pause}ムチオ…{2:pause}\nなんかヘン？ {3:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0000:0A 00]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_13#15",
+   "label": "Kjrpg_04_Gepu_qst01_29",
+   "style": 6,
+   "src": "いくぞ。{1:pause}\n次は ロイを瞬殺だ。{2:wait}",
+   "tags": {
+    "1": "[0002:0000:04 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_13#16",
+   "label": "Kjrpg_04_Gepu_qst01_27_01",
+   "style": 6,
+   "src": "ムチオが 考えた\nネーミングだよ～ {1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_13#17",
+   "label": "Kjrpg_04_Gepu_qst01_27_02",
+   "style": 6,
+   "src": "アタシは 「想像を絶する\nスペクタクルカンパニー」…{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_13#18",
+   "label": "Kjrpg_04_Gepu_qst01_27_03",
+   "style": 6,
+   "src": "がよかったのに。{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_13#19",
+   "label": "Kjrpg_04_Gepu_qst01_10",
+   "style": 10,
+   "src": "キャーッ！",
+   "tags": {},
+   "header": "[0009:0000:0A 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_13#20",
+   "label": "Kjrpg_04_Gepu_qst01_12",
+   "style": 6,
+   "src": "あらら？{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_13#21",
+   "label": "Kjrpg_04_Gepu_qst01_13",
+   "style": 6,
+   "src": "あーれー{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_13#22",
+   "label": "Kjrpg_04_Gepu_qst01_14",
+   "style": 5,
+   "src": "イギー…{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:05 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_13#23",
+   "label": "Kjrpg_04_Gepu_qst01_15",
+   "style": 6,
+   "src": "ばーいばーい。{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_13#24",
+   "label": "Kjrpg_04_Gepu_qst01_16",
+   "style": 6,
+   "src": "{1:align}ククク…{2:wait}[Next]{3:align}順調に クッパ７人衆を\n減らしているな…{4:wait}",
+   "tags": {
+    "1": "[0001:0001:]",
+    "2": "[0002:0001:]",
+    "3": "[0001:0000:]",
+    "4": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_13#25",
+   "label": "Kjrpg_04_Gepu_qst01_17",
+   "style": 6,
+   "src": "アタシ達が クッパ軍団を\nやっつけて…{1:wait}[Next]ゲラコビッツ様が\nキノコ王国を 支配したら～{2:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_13#26",
+   "label": "Kjrpg_04_Gepu_qst01_18",
+   "style": 6,
+   "src": "ピーチ城は \nゲラコビッツ様のもの！{1:wait}[Next]そして クッパ城は\n我らがもらいうける！{2:wait}[Next]クッパ軍団が 全員\n我らのしもべとなるのだ！{3:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_13#27",
+   "label": "Kjrpg_04_Gepu_qst01_30",
+   "style": 6,
+   "src": "イギー！{1:pause} イギー！{2:wait}[Next]どこいったんだい！？{3:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_13#28",
+   "label": "Kjrpg_04_Gepu_qst01_31",
+   "style": 6,
+   "src": "また キマグレで遠くのほうまで\n行ったんじゃないか？{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_13#29",
+   "label": "Kjrpg_04_Gepu_qst01_33",
+   "style": 6,
+   "src": "フン。{1:pause}別に戻って\nこなくてもいいよ。{2:wait}",
+   "tags": {
+    "1": "[0002:0000:04 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_13#30",
+   "label": "Kjrpg_04_Gepu_qst01_32_1",
+   "style": 6,
+   "src": "まったく…{1:pause} イギーは\n何を考えてんだか… {2:wait}[Next]うっかり 海に落ちてたり\nしていないでしょうかねぇ。{3:wait}",
+   "tags": {
+    "1": "[0002:0000:04 00]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_13#32",
+   "label": "Kjrpg_04_Gepu_qst01_32_2",
+   "style": 6,
+   "src": "また「アハハ～☆」って\nひょっこり戻ってくるだろうけど… {1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_13#33",
+   "label": "Kjrpg_04_Gepu_qst01_35",
+   "style": 12,
+   "src": "{1:align}{2:mode}イギーが いなくなった…！{3:pause}{4:wait}",
+   "tags": {
+    "1": "[0001:0001:]",
+    "2": "[0005:0000:]",
+    "3": "[0002:0000:0A 00]",
+    "4": "[0002:0001:]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_gepu_13#35",
+   "label": "Kjrpg_04_Gepu_qst01_24_1",
+   "style": 10,
+   "src": "{1:align}{2:mode}SHUN！{3:pause} SATSU！{4:pause} {5:wait}[Next]{6:mode}そう！{7:pause} 瞬殺カンパニー！{8:pause}{9:wait}",
+   "tags": {
+    "1": "[0001:0001:]",
+    "2": "[0005:0000:]",
+    "3": "[0002:0000:0A 00]",
+    "4": "[0002:0000:0A 00]",
+    "5": "[0002:0001:]",
+    "6": "[0005:0001:]",
+    "7": "[0002:0000:0A 00]",
+    "8": "[0002:0000:1E 00]",
+    "9": "[0002:0001:]"
+   },
+   "header": "[0009:0000:0A 00]",
+   "dups": []
+  }
+ ]
+}

@@ -1,2341 +1,2341 @@
 {
- "batch": "BMsg__b_sys__p6",
- "rooms": [
-  "b_sys"
- ],
- "ds_rooms": [],
- "ds_reference": [
-  "@file work/batches/_refs_BMsg.txt (460 DS lines shared by all BMsg batches - read it once)"
- ],
- "glossary": [
-  {
-   "jp": "かばう",
-   "ko": "감싸기",
-   "type": "ability",
-   "basis": "coined",
-   "source": "BMsg/b_sys#582",
-   "note": "[gl_kj]"
-  },
-  {
-   "jp": "こうしょう",
-   "ko": "협상",
-   "type": "ability",
-   "basis": "coined",
-   "source": "BMsg/b_sys#436",
-   "note": "[gl_kj]"
-  },
-  {
-   "jp": "ジャンプ",
-   "ko": "점프",
-   "type": "ability",
-   "basis": "DS",
-   "source": "BData__mfset_Help#9",
-   "note": "필드 액션·배틀 커맨드 공통 [gl_attacks]"
-  },
-  {
-   "jp": "ドッスンおとし",
-   "ko": "쿵쿵 떨구기",
-   "type": "ability",
-   "basis": "coined",
-   "source": "BMsg/b_sys#600",
-   "note": "DS '쿵쿵'(ドッスン) [gl_kj]"
-  },
-  {
-   "jp": "バキューム",
-   "ko": "배큐엄",
-   "type": "ability",
-   "basis": "DS",
-   "source": "BData__mfset_Help#16",
-   "note": "쿠파의 배틀 커맨드 [gl_attacks]"
-  },
-  {
-   "jp": "パンチ",
-   "ko": "펀치",
-   "type": "ability",
-   "basis": "DS",
-   "source": "BData__mfset_Help#14",
-   "note": "필드 액션·배틀 커맨드 공통 [gl_attacks]"
-  },
-  {
-   "jp": "POWアップ",
-   "ko": "POW 업",
-   "type": "attack",
-   "basis": "coined",
-   "source": "BMsg/b_sys#994",
-   "note": "[gl_kj]"
-  },
-  {
-   "jp": "SPEEDアップ",
-   "ko": "SPEED 업",
-   "type": "attack",
-   "basis": "coined",
-   "source": "BMsg/b_sys#977",
-   "note": "[gl_kj]"
-  },
-  {
-   "jp": "あちこちウィンドウ",
-   "ko": "아무데나창문",
-   "type": "attack",
-   "basis": "DS",
-   "source": "BData__mfset_AItmN#19",
-   "note": "[gl_attacks]"
-  },
-  {
-   "jp": "かいおんぱ",
-   "ko": "괴음파",
-   "type": "attack",
-   "basis": "coined",
-   "source": "BMsg/b_sys#100",
-   "note": "[gl_kj]"
-  },
-  {
-   "jp": "ぶちぬき",
-   "ko": "꿰뚫기",
-   "type": "attack",
-   "basis": "coined",
-   "source": "BMsg/b_sys#940",
-   "note": "[gl_kj]"
-  },
-  {
-   "jp": "まきちらし",
-   "ko": "흩뿌리기",
-   "type": "attack",
-   "basis": "coined",
-   "source": "BMsg/b_sys#912",
-   "note": "[gl_kj]"
-  },
-  {
-   "jp": "れんしゃ",
-   "ko": "연사",
-   "type": "attack",
-   "basis": "coined",
-   "source": "BMsg/b_sys#957",
-   "note": "[gl_kj]"
-  },
-  {
-   "jp": "ファイア",
-   "ko": "파이어",
-   "type": "attack",
-   "basis": "DS",
-   "source": "BData__mfset_Help#15",
-   "note": "쿠파의 배틀 커맨드. 파이어플라워 설명의 불덩이는 DS '파이어볼'(AItmE#17) [gl_attacks]"
-  },
-  {
-   "jp": "ファイアフラワー",
-   "ko": "파이어플라워",
-   "type": "attack",
-   "basis": "DS",
-   "source": "BData__mfset_AItmN#17",
-   "note": "[gl_attacks]"
-  },
-  {
-   "jp": "ブラザーアタック",
-   "ko": "스페셜 어택",
-   "type": "attack",
-   "basis": "DS",
-   "source": "BAI__BMes_cf#4.1",
-   "note": "DS 대응문(어택피스로 스페셜 어택을↔アタックパーツでブラザーアタックが)으로 같은 대상 확인. 3DX에서 スペシャルアタック을 개칭한 것. 후속작 공식 표기는 '브라더 어택'(https://www.nintendo.com/kr/switch/a8e6a/battle/index.html) — 개칭 반영 여부 확인 필요 [gl_attacks]"
-  },
-  {
-   "jp": "超体当たり",
-   "ko": "초몸통박치기",
-   "type": "attack",
-   "basis": "coined",
-   "source": "BMsg/b_sys#1606",
-   "note": "[gl_kj]"
-  },
-  {
-   "jp": "クッパ",
-   "ko": "쿠파",
-   "type": "boss",
-   "basis": "DS",
-   "source": "BData__mfset_MonN#65",
-   "note": "마리오 일행이 싸우는 쿠파. glossary 확정값과 동일 [gl_enemies]"
-  },
-  {
-   "jp": "スーリム",
-   "ko": "수림",
-   "type": "boss",
-   "basis": "coined",
-   "source": "BMsg/b_sys#567",
-   "note": "glossary 확정값. 3DX 신규(SS컴퍼니의 두뇌). 발음 유지 [gl_enemies]"
-  },
-  {
-   "jp": "ダークスター",
-   "ko": "다크스타",
-   "type": "boss",
-   "basis": "DS",
-   "source": "BData__mfset_MonN#70",
-   "note": "glossary 확정값과 동일 [gl_enemies]"
-  },
-  {
-   "jp": "ブロドッグ",
-   "ko": "블도그",
-   "type": "boss",
-   "basis": "DS",
-   "source": "BData__mfset_MonN#23",
-   "note": "glossary 확정값과 동일 [gl_enemies]"
-  },
-  {
-   "jp": "ベタリーノ",
-   "ko": "넙적충이",
-   "type": "boss",
-   "basis": "DS",
-   "source": "BData__mfset_MonN#8",
-   "note": "화염 파이프 보스. 마리오위키 Scutlet (boss) 항목도 일본어 ベタリーノ = 한국어 넙적충이. 일반형 ペタリーノ=납작충이(#1) [gl_enemies]"
-  },
-  {
-   "jp": "メタボス",
-   "ko": "메타보스",
-   "type": "boss",
-   "basis": "DS",
-   "source": "BData__mfset_MonN#34",
-   "note": "glossary 확정값과 동일 [gl_enemies]"
-  },
-  {
-   "jp": "イエロースター",
-   "ko": "옐로스타",
-   "type": "character",
-   "basis": "DS",
-   "source": "i_metaboru_03#8 ↔ DS04E#5",
-   "note": "room-align"
-  },
-  {
-   "jp": "ウェンディ",
-   "ko": "웬디",
-   "type": "character",
-   "basis": "official",
-   "source": "https://www.nintendo.com/kr/switch/aabpa/sp/character/",
-   "note": "glossary 확정값. 쿠파 7인조 [gl_enemies]"
-  },
-  {
-   "jp": "クッパ（えんきょり）",
-   "ko": "쿠파(원거리)",
-   "type": "character",
-   "basis": "coined",
-   "source": "BMsg/b_sys#660",
-   "note": "[gl_kj]"
-  },
-  {
-   "jp": "クッパ７人衆",
-   "ko": "쿠파 7인조",
-   "type": "character",
-   "basis": "official",
-   "source": "https://namu.wiki/w/%EC%BF%A0%ED%8C%8C%207%EC%9D%B8%EC%A1%B0",
-   "note": "마리오 카트 8 이후 한국 공식 명칭(나무위키 기재). 3DX 원문에 'コクッパ'는 나오지 않음 [gl_kj]"
-  },
-  {
-   "jp": "ブロドッグちゃん",
-   "ko": "우리 블도그",
-   "type": "character",
-   "basis": "DS",
-   "source": "o_mushiba_12#4 <-> DS035#6 ; o_mushiba_12#12 <-> DS035#14 ; o_ekubon_02_after#13 <-> DS28D#1",
-   "note": "블록 상점 신사의 말. ちゃん은 '우리'로 살림. 앞에 소유격이 있으면 '블도그'만(DS035#3) [gl_characters]"
-  },
-  {
-   "jp": "マリオ",
-   "ko": "마리오",
-   "type": "character",
-   "basis": "DS",
-   "source": "BData__mfset_Help#19",
-   "note": "[gl_kj]"
-  },
-  {
-   "jp": "ルイージ",
-   "ko": "루이지",
-   "type": "character",
-   "basis": "DS",
-   "source": "BData__mfset_Help#20",
-   "note": "[gl_kj]"
-  },
-  {
-   "jp": "ルドウィッグ",
-   "ko": "루드윅",
-   "type": "character",
-   "basis": "official",
-   "source": "https://www.nintendo.com/kr/switch/aabpa/sp/character/",
-   "note": "glossary 확정값. 쿠파 7인조 [gl_enemies]"
-  },
-  {
-   "jp": "７人衆",
-   "ko": "7인조",
-   "type": "character",
-   "basis": "official",
-   "source": "https://namu.wiki/w/%EC%BF%A0%ED%8C%8C%207%EC%9D%B8%EC%A1%B0",
-   "note": "「アタシ達 ７人衆」→'우리 7인조' [gl_kj]"
-  },
-  {
-   "jp": "ウルヘイ",
-   "ko": "알람병",
-   "type": "enemy",
-   "basis": "DS",
-   "source": "BData__mfset_MonN#31",
-   "note": "うるさい+ヘイ(병, DS 폭탄병). 폭발하면 ゴーネム=쿨쿨렘(#32)을 깨움 [gl_enemies]"
-  },
-  {
-   "jp": "エアプン",
-   "ko": "에어냅스",
-   "type": "enemy",
-   "basis": "DS",
-   "source": "BData__mfset_MonN#79",
-   "note": "シナプン(냅스, #42)의 에어 스페이스판(공격 패턴 동일) [gl_enemies]"
-  },
-  {
-   "jp": "クリボー",
-   "ko": "굼바",
-   "type": "enemy",
-   "basis": "DS",
-   "source": "BAI__BMes_cf:0#1",
-   "note": "glossary 확정값 [gl_enemies]"
-  },
-  {
-   "jp": "ゲラワンワン",
-   "ko": "까르멍멍이",
-   "type": "enemy",
-   "basis": "DS",
-   "source": "BData__mfset_MonN#20",
-   "note": "블캐츠 설명 대응(3DX Menu#523 ↔ DS MData__mfset_MenuMes#78). ワンワン=멍멍이 [gl_enemies]"
-  },
-  {
-   "jp": "コレステロン",
-   "ko": "콜레스테론",
-   "type": "enemy",
-   "basis": "DS",
-   "source": "i_challenge_01#111 ↔ DS28A#58",
-   "note": "room-align"
-  },
-  {
-   "jp": "ゴーネム",
-   "ko": "쿨쿨렘",
-   "type": "enemy",
-   "basis": "DS",
-   "source": "BData__mfset_MonN#32",
-   "note": "블캐츠 설명 대응(3DX Menu#708 ↔ DS MData__mfset_MenuMes#92) [gl_enemies]"
-  },
-  {
-   "jp": "ダークサテライト",
-   "ko": "다크위성",
-   "type": "enemy",
-   "basis": "DS",
-   "source": "BData__mfset_MonN#71",
-   "note": "다크스타전의 부하 [gl_enemies]"
-  },
-  {
-   "jp": "ダークトレジャン",
-   "ko": "다크트레전",
-   "type": "enemy",
-   "basis": "DS",
-   "source": "BData__mfset_MonN#86",
-   "note": "블캐츠 설명 대응(3DX Menu#720 ↔ DS MData__mfset_MenuMes#94) [gl_enemies]"
-  },
-  {
-   "jp": "ダークメカコビッツ",
-   "ko": "다크메카코비츠",
-   "type": "enemy",
-   "basis": "DS",
-   "source": "BData__mfset_MonN#68",
-   "note": "블캐츠 설명 대응(3DX Menu#727 ↔ DS MData__mfset_MenuMes#96) [gl_enemies]"
-  },
-  {
-   "jp": "ヅッツン",
-   "ko": "훌쩍쿵쿵",
-   "type": "enemy",
-   "basis": "DS",
-   "source": "BData__mfset_MonN#59",
-   "note": "블캐츠 설명 대응(3DX Menu#688 ↔ DS MData__mfset_MenuMes#88). ドッスン=쿵쿵 [gl_enemies]"
-  },
-  {
-   "jp": "テレサ",
-   "ko": "부끄부끄",
-   "type": "enemy",
-   "basis": "DS",
-   "source": "FEvent:063#44",
-   "note": "glossary 확정값 [gl_enemies]"
-  },
-  {
-   "jp": "ドッスン",
-   "ko": "쿵쿵",
-   "type": "enemy",
-   "basis": "DS",
-   "source": "FEvent:063#45",
-   "note": "「ドッスンおとし」에 사용 [gl_kj]"
-  },
-  {
-   "jp": "ノコノコ",
-   "ko": "엉금엉금",
-   "type": "enemy",
-   "basis": "DS",
-   "source": "BData__mfset_AItmE#10",
-   "note": "[gl_kj]"
-  },
-  {
-   "jp": "ノコノコ（赤）",
-   "ko": "엉금엉금(빨강)",
-   "type": "enemy",
-   "basis": "coined",
-   "source": "BMsg/b_sys#644",
-   "note": "[gl_kj]"
-  },
-  {
-   "jp": "パタテンテン（紫）",
-   "ko": "펄럭무당무당(보라)",
-   "type": "enemy",
-   "basis": "coined",
-   "source": "BMsg/b_sys#584",
-   "note": "[gl_kj]"
-  },
-  {
-   "jp": "パタテンテン（赤）",
-   "ko": "펄럭무당무당(빨강)",
-   "type": "enemy",
-   "basis": "coined",
-   "source": "BMsg/b_sys#623",
-   "note": "[gl_kj]"
-  },
-  {
-   "jp": "ヘイホー",
-   "ko": "헤이호",
-   "type": "enemy",
-   "basis": "DS",
-   "source": "FEvent:048#35",
-   "note": "[gl_kj]"
-  },
-  {
-   "jp": "ペタリーノ",
-   "ko": "납작충이",
-   "type": "enemy",
-   "basis": "DS",
-   "source": "BData__mfset_MonN#1",
-   "note": "볼조개 숲의 벌레. 보스형 ベタリーノ=넙적충이(#8)와 짝(ぺた=납작, べた=넙적) [gl_enemies]"
-  },
-  {
-   "jp": "マガツリー",
-   "ko": "몬트리",
-   "type": "enemy",
-   "basis": "DS",
-   "source": "BData__mfset_MonN#0",
-   "note": "블캐츠 설명 대응(3DX Menu#495 ↔ DS MData__mfset_MenuMes#72) [gl_enemies]"
-  },
-  {
-   "jp": "メカクッパ",
-   "ko": "메카쿠파",
-   "type": "enemy",
-   "basis": "official",
-   "source": "https://namu.wiki/w/%EB%A7%88%EB%A6%AC%EC%98%A4%26%EB%A3%A8%EC%9D%B4%EC%A7%80%20RPG%201%20DX",
-   "note": "glossary 확정값. 3DX 신규 [gl_enemies]"
-  },
-  {
-   "jp": "ワンワン",
-   "ko": "멍멍이",
-   "type": "enemy",
-   "basis": "DS",
-   "source": "FEvent:063#45",
-   "note": "glossary 확정값 [gl_enemies]"
-  },
-  {
-   "jp": "おやつ",
-   "ko": "간식",
-   "type": "item",
-   "basis": "coined",
-   "source": "BMsg/b_sys#1590",
-   "note": "「おやつのじかん」 [gl_kj]"
-  },
-  {
-   "jp": "エンキョリEXPマメL",
-   "ko": "원거리EXP콩L",
-   "type": "item",
-   "basis": "coined",
-   "source": "BMsg/b_sys#669",
-   "note": "[gl_kj]"
-  },
-  {
-   "jp": "エンキョリEXPマメM",
-   "ko": "원거리EXP콩M",
-   "type": "item",
-   "basis": "coined",
-   "source": "BMsg/b_sys#685",
-   "note": "[gl_kj]"
-  },
-  {
-   "jp": "キノコ",
-   "ko": "버섯",
-   "type": "item",
-   "basis": "DS",
-   "source": "BData__mfset_UItmN#0",
-   "note": "일반 명사 キノコ도 버섯(キノコタウン=버섯 타운) [gl_items]"
-  },
-  {
-   "jp": "コゲコゲピリからチキン",
-   "ko": "새까만약간매운치킨",
-   "type": "item",
-   "basis": "coined",
-   "source": "BMsg/b_sys#1693",
-   "note": "DS '약간매운치킨' + 새까맣게 탐. DS식 붙여 쓰기 [gl_kj]"
-  },
-  {
-   "jp": "バキュームブロック",
-   "ko": "배큐엄블록",
-   "type": "key_item",
-   "basis": "DS",
-   "source": "MData__mfset_MenuMes#43",
-   "note": "붙여 씀 [gl_attacks]"
-  },
-  {
-   "jp": "ブロキャット",
-   "ko": "블캐츠",
-   "type": "key_item",
-   "basis": "DS",
-   "source": "MData__mfset_MenuMes#67",
-   "note": "15마리 공통 이름 [gl_items]"
-  },
-  {
-   "jp": "エンドレス",
-   "ko": "엔드리스",
-   "type": "other",
-   "basis": "DS",
-   "source": "BData__mfset_MiniGame#0",
-   "note": "DS 모드명 '엔드리스 모드' [gl_attacks]"
-  },
-  {
-   "jp": "クリボー軍団",
-   "ko": "굼바 군단",
-   "type": "other",
-   "basis": "DS",
-   "source": "FEvent#048.29",
-   "note": "[gl_attacks]"
-  },
-  {
-   "jp": "ムッシュ",
-   "ko": "신사",
-   "type": "other",
-   "basis": "DS",
-   "source": "o_ibiki_01#3 <-> DS134#7 ; o_koopa_r_33#8 <-> DS145#7",
-   "note": "correction(note만): 블록 상점 신사가 쿠파(전투 중엔 마리오도)를 부르는 말. 기존 note의 '블로크'는 DS 표기가 아님(상점 주인의 본명은 JP·DS 대사에 없음) [gl_characters]"
-  },
-  {
-   "jp": "DEF",
-   "ko": "DEF",
-   "type": "term",
-   "basis": "DS",
-   "source": "BData__mfset_WearE#23",
-   "note": "[gl_attacks]"
-  },
-  {
-   "jp": "EXP",
-   "ko": "EXP",
-   "type": "term",
-   "basis": "DS",
-   "source": "BData__mfset_BadgeEffectE#11",
-   "note": "[gl_attacks]"
-  },
-  {
-   "jp": "GDD",
-   "ko": "GDH",
-   "type": "term",
-   "basis": "official",
-   "source": "https://namu.wiki/w/%EB%A7%88%EB%A6%AC%EC%98%A4%26%EB%A3%A8%EC%9D%B4%EC%A7%80%20RPG%201%20DX",
-   "note": "軍団魂(군단혼)의 약자. RPG1 DX 한국판 'GDH'(나무위키 기재) — 확인 필요 [gl_kj]"
-  },
-  {
-   "jp": "HP",
-   "ko": "HP",
-   "type": "term",
-   "basis": "DS",
-   "source": "BAI__BMes_cf#2.11",
-   "note": "[gl_attacks]"
-  },
-  {
-   "jp": "POW",
-   "ko": "POW",
-   "type": "term",
-   "basis": "DS",
-   "source": "BData__mfset_WearE#35",
-   "note": "[gl_attacks]"
-  },
-  {
-   "jp": "SPEED",
-   "ko": "SPEED",
-   "type": "term",
-   "basis": "DS",
-   "source": "BData__mfset_MonN#52",
-   "note": "DS 설명문은 '스피드'(RankUpE#22) [gl_attacks]"
-  },
-  {
-   "jp": "えんきょり",
-   "ko": "원거리",
-   "type": "term",
-   "basis": "official",
-   "source": "https://namu.wiki/w/%EB%A7%88%EB%A6%AC%EC%98%A4%26%EB%A3%A8%EC%9D%B4%EC%A7%80%20RPG%201%20DX",
-   "note": "타입명 단독 [gl_kj]"
-  },
-  {
-   "jp": "じんけい",
-   "ko": "진형",
-   "type": "term",
-   "basis": "coined",
-   "source": "BMsg/b_sys:KJGuide_O12",
-   "note": "[gl_kj]"
-  },
-  {
-   "jp": "じんけいボーナス",
-   "ko": "진형 보너스",
-   "type": "term",
-   "basis": "coined",
-   "source": "BMsg/b_sys#1600",
-   "note": "[gl_kj]"
-  },
-  {
-   "jp": "ひこうき",
-   "ko": "비행기",
-   "type": "term",
-   "basis": "coined",
-   "source": "BMsg/b_sys#667",
-   "note": "진형 이름 [gl_kj]"
-  },
-  {
-   "jp": "ぼっちゃん",
-   "ko": "도련님",
-   "type": "term",
-   "basis": "coined",
-   "source": "MenuKJ#93",
-   "note": "마귀·쿠파 7인조·부하들이 쿠파주니어를 부르는 말. DS에 없음 [gl_kj]"
-  },
-  {
-   "jp": "やけど",
-   "ko": "화상",
-   "type": "term",
-   "basis": "DS",
-   "source": "BData__mfset_AItmE2#6",
-   "note": "[gl_attacks]"
-  },
-  {
-   "jp": "アタック",
-   "ko": "어택",
-   "type": "term",
-   "basis": "DS",
-   "source": "BDataMiniGame__mfset_MesDat_MiniGame#5",
-   "note": "스페셜 어택을 줄여 부를 때. 단 퀴즈의 パンチアタック/ファイアアタック은 DS대로 '~ 공격' [gl_attacks]"
-  },
-  {
-   "jp": "アップ",
-   "ko": "업",
-   "type": "term",
-   "basis": "DS",
-   "source": "FEvent:0EC#11",
-   "note": "이름 안의 アップ는 '업'(POW 업, 파워 업). 설명 문장의 'アップする/アップ!'는 DS 장비·아이템 설명대로 '증가'"
-  },
-  {
-   "jp": "カウンター",
-   "ko": "반격",
-   "type": "term",
-   "basis": "DS",
-   "source": "BAI__BMes_cf#2.1",
-   "note": "カウンターする→반격하다 [gl_attacks]"
-  },
-  {
-   "jp": "クッパ様",
-   "ko": "쿠파님",
-   "type": "term",
-   "basis": "DS",
-   "source": "BAI__BMes_cf:0#0",
-   "note": "부하들이 부를 때 [gl_kj]"
-  },
-  {
-   "jp": "グループアタック",
-   "ko": "그룹 어택",
-   "type": "term",
-   "basis": "coined",
-   "source": "BMsg/b_sys#24",
-   "note": "[gl_kj]"
-  },
-  {
-   "jp": "コイン",
-   "ko": "코인",
-   "type": "term",
-   "basis": "DS",
-   "source": "BData__mfset_WearE#22",
-   "note": "[gl_items]"
-  },
-  {
-   "jp": "コウラ",
-   "ko": "등껍질",
-   "type": "term",
-   "basis": "DS",
-   "source": "BAI__BMes_cf#8.1",
-   "note": "쿠파의 방어 커맨드(Y)·등껍질 일반 [gl_attacks]"
-  },
-  {
-   "jp": "タイミング",
-   "ko": "타이밍",
-   "type": "term",
-   "basis": "DS",
-   "source": "BAI__BMes_cf#4.12",
-   "note": "[gl_attacks]"
-  },
-  {
-   "jp": "ダイヤ",
-   "ko": "다이아",
-   "type": "term",
-   "basis": "coined",
-   "source": "BMsg/b_sys#601",
-   "note": "진형 이름 [gl_kj]"
-  },
-  {
-   "jp": "ダウン",
-   "ko": "다운",
-   "type": "term",
-   "basis": "DS",
-   "source": "BData__mfset_AItmE2#16",
-   "note": "이름 안의 ダウン은 '다운'(POW 다운). 설명 문장의 'ダウンする/させる'는 DS대로 '감소/줄여 주는'"
-  },
-  {
-   "jp": "ダメージ",
-   "ko": "타격",
-   "type": "term",
-   "basis": "DS",
-   "source": "DS '타격' 32회 / '대미지' 5회",
-   "note": "'타격을 입히다/입다'. 숫자·연속 공격 문맥은 '대미지' 허용(DS: 연속 대미지)"
-  },
-  {
-   "jp": "チキン",
-   "ko": "치킨",
-   "type": "term",
-   "basis": "DS",
-   "source": "BData__mfset_WearE#98",
-   "note": "[gl_items]"
-  },
-  {
-   "jp": "ドカン",
-   "ko": "토관",
-   "type": "term",
-   "basis": "DS",
-   "source": "BData__mfset_AItmE#3",
-   "note": "진형 이름 [gl_kj]"
-  },
-  {
-   "jp": "バトル",
-   "ko": "배틀",
-   "type": "term",
-   "basis": "DS",
-   "source": "BAI__BMes_cf#2.13",
-   "note": "명사는 '배틀'. 동사 'バトルする/した'는 DS처럼 '싸우다'로 써도 된다"
-  },
-  {
-   "jp": "バブル",
-   "ko": "버블",
-   "type": "term",
-   "basis": "coined",
-   "source": "BMsg/b_sys#583",
-   "note": "진형 이름. DS '버블징오징오'의 '버블' [gl_kj]"
-  },
-  {
-   "jp": "ヒゲ",
-   "ko": "수염",
-   "type": "term",
-   "basis": "DS",
-   "source": "DS '수염' 21회",
-   "note": ""
-  },
-  {
-   "jp": "ブーメラン",
-   "ko": "부메랑",
-   "type": "term",
-   "basis": "coined",
-   "source": "BMsg/b_sys#1628",
-   "note": "진형 이름 [gl_kj]"
-  },
-  {
-   "jp": "マメ",
-   "ko": "콩",
-   "type": "term",
-   "basis": "DS",
-   "source": "MData__mfset_MenuMes#136",
-   "note": "DS '콩이라는 아이템', '획득한 콩의 수' [gl_items]"
-  },
-  {
-   "jp": "マリオ達",
-   "ko": "마리오 일행",
-   "type": "term",
-   "basis": "DS",
-   "source": "EDataSave__mfset_EMesOutline#16",
-   "note": "기본값. 같은 장면의 DS 문장이 다른 표현을 쓰면 DS대로(쿠파 몸속 터치 미니게임 DS155·1AB '마리오 형제', DS0F4 '마리오와 루이지'). 조사 주의(형제를/형제가)"
-  },
-  {
-   "jp": "ミー",
-   "ko": "미",
-   "type": "term",
-   "basis": "DS",
-   "source": "o_areanone_allmap_bcat_U#4 ↔ DS283#2",
-   "note": "room-align"
-  },
-  {
-   "jp": "ムッシュ～",
-   "ko": "신사",
-   "type": "term",
-   "basis": "DS",
-   "source": "o_koopa_37#3 ↔ DS23C#8",
-   "note": "room-align"
-  },
-  {
-   "jp": "メガネ",
-   "ko": "안경",
-   "type": "term",
-   "basis": "DS",
-   "source": "BData__mfset_WearN#231",
-   "note": "DS オタカラメガネ=보물안경 [gl_items]"
-  },
-  {
-   "jp": "メンバー",
-   "ko": "멤버",
-   "type": "term",
-   "basis": "coined",
-   "source": "MenuKJ#93",
-   "note": "[gl_kj]"
-  },
-  {
-   "jp": "モンスター",
-   "ko": "몬스터",
-   "type": "term",
-   "basis": "DS",
-   "source": "BAI__BMes_cf#2.1",
-   "note": "[gl_attacks]"
-  },
-  {
-   "jp": "仲間",
-   "ko": "동료",
-   "type": "term",
-   "basis": "DS",
-   "source": "FEvent:048#29",
-   "note": "「仲間になった」→'동료가 되었다' [gl_kj]"
-  },
-  {
-   "jp": "体力",
-   "ko": "체력",
-   "type": "term",
-   "basis": "DS",
-   "source": "BData__mfset_RankUpE#14",
-   "note": "[gl_attacks]"
-  },
-  {
-   "jp": "復活",
-   "ko": "부활",
-   "type": "term",
-   "basis": "DS",
-   "source": "BData__mfset_UItmE2#2",
-   "note": "[gl_items]"
-  },
-  {
-   "jp": "攻撃",
-   "ko": "공격",
-   "type": "term",
-   "basis": "DS",
-   "source": "BAI__BMes_cf#2.1",
-   "note": "[gl_attacks]"
-  },
-  {
-   "jp": "攻撃力",
-   "ko": "공격력",
-   "type": "term",
-   "basis": "DS",
-   "source": "BData__mfset_RankUpE#18",
-   "note": "[gl_attacks]"
-  },
-  {
-   "jp": "星空",
-   "ko": "별하늘",
-   "type": "term",
-   "basis": "coined",
-   "source": "BMsg/b_sys#620",
-   "note": "쿠파Jr. RPG 진형 이름일 때만 '별하늘'. 보통 '별이 가득한 하늘'은 문맥대로"
-  },
-  {
-   "jp": "軍団",
-   "ko": "군단",
-   "type": "term",
-   "basis": "DS",
-   "source": "BAI__BMes_cf#0.20",
-   "note": "[gl_attacks]"
-  },
-  {
-   "jp": "連打",
-   "ko": "연타",
-   "type": "term",
-   "basis": "DS",
-   "source": "BData__mfset_AItmE#17",
-   "note": "[gl_attacks]"
-  },
-  {
-   "jp": "配置",
-   "ko": "배치",
-   "type": "term",
-   "basis": "coined",
-   "source": "MenuKJ#50",
-   "note": "[gl_kj]"
-  },
-  {
-   "jp": "防御",
-   "ko": "방어",
-   "type": "term",
-   "basis": "DS",
-   "source": "BAI__BMes_cf#3.8",
-   "note": "[gl_attacks]"
-  },
-  {
-   "jp": "防御力",
-   "ko": "방어력",
-   "type": "term",
-   "basis": "DS",
-   "source": "BData__mfset_RankUpE#20",
-   "note": "[gl_attacks]"
-  },
-  {
-   "jp": "おてほん",
-   "ko": "시범",
-   "type": "ui",
-   "basis": "DS",
-   "source": "MAI__MMes_yo#2.12",
-   "note": "[gl_attacks]"
-  },
-  {
-   "jp": "せってい",
-   "ko": "설정",
-   "type": "ui",
-   "basis": "coined",
-   "source": "",
-   "note": "3DX 신규 스타 메뉴 항목 [gl_menu_places]"
-  },
-  {
-   "jp": "へんせい",
-   "ko": "편성",
-   "type": "ui",
-   "basis": "coined",
-   "source": "MenuKJ#61",
-   "note": "[gl_kj]"
-  },
-  {
-   "jp": "れんしゅう",
-   "ko": "연습",
-   "type": "ui",
-   "basis": "DS",
-   "source": "MAI__MMes_yo#2.12",
-   "note": "[gl_attacks]"
-  },
-  {
-   "jp": "を手に入れた！",
-   "ko": "획득했다!",
-   "type": "ui",
-   "basis": "DS",
-   "source": "BAI__BMes_ji#1.0",
-   "note": "시스템 알림 '○○을/를 획득했다!'(조사는 받침에 맞게) [gl_menu_places]"
-  },
-  {
-   "jp": "アイテム",
-   "ko": "아이템",
-   "type": "ui",
-   "basis": "DS",
-   "source": "BData__mfset_Help#13",
-   "note": "[gl_attacks]"
-  },
-  {
-   "jp": "イージーモード",
-   "ko": "이지 모드",
-   "type": "ui",
-   "basis": "coined",
-   "source": "",
-   "note": "3DX 신규 설정 [gl_attacks]"
-  },
-  {
-   "jp": "ガイド",
-   "ko": "가이드",
-   "type": "ui",
-   "basis": "coined",
-   "source": "",
-   "note": "3DX 신규 커맨드 블록(배틀 가이드를 연다) [gl_attacks]"
-  },
-  {
-   "jp": "キャラクター",
-   "ko": "캐릭터",
-   "type": "ui",
-   "basis": "coined",
-   "source": "",
-   "note": "[gl_menu_places]"
-  },
-  {
-   "jp": "クリア",
-   "ko": "클리어",
-   "type": "ui",
-   "basis": "coined",
-   "source": "",
-   "note": "[gl_menu_places]"
-  },
-  {
-   "jp": "コマンド",
-   "ko": "커맨드",
-   "type": "ui",
-   "basis": "DS",
-   "source": "BAI__BMes_cf#2.12",
-   "note": "[gl_menu_places]"
-  },
-  {
-   "jp": "コマンドブロック",
-   "ko": "커맨드 블록",
-   "type": "ui",
-   "basis": "DS",
-   "source": "BAI__BMes_cf#2.12",
-   "note": "[gl_attacks]"
-  },
-  {
-   "jp": "ゴールド",
-   "ko": "골드",
-   "type": "ui",
-   "basis": "DS",
-   "source": "BData__mfset_RankUpE#10",
-   "note": "[gl_kj]"
-  },
-  {
-   "jp": "スターメニュー",
-   "ko": "스타 메뉴",
-   "type": "ui",
-   "basis": "DS",
-   "source": "MAI__MMes_yo#1.0",
-   "note": "[gl_menu_places]"
-  },
-  {
-   "jp": "ステータス",
-   "ko": "능력",
-   "type": "ui",
-   "basis": "DS",
-   "source": "DS16A#27",
-   "note": "스타 메뉴 항목명도 '능력'"
-  },
-  {
-   "jp": "ボコスカきほんガイド",
-   "ko": "배틀 기본 가이드",
-   "type": "ui",
-   "basis": "coined",
-   "source": "BMsg/b_sys#625",
-   "note": "[gl_kj]"
-  },
-  {
-   "jp": "ボコスカアタックガイド",
-   "ko": "배틀 어택 가이드",
-   "type": "ui",
-   "basis": "coined",
-   "source": "BMsg/b_sys#604",
-   "note": "본편 ボコスカアタック(DS '스페셜 어택')과 다른 쿠파주니어 RPG 전투 가이드 [gl_kj]"
-  },
-  {
-   "jp": "ボコスカコマンドガイド",
-   "ko": "배틀 커맨드 가이드",
-   "type": "ui",
-   "basis": "coined",
-   "source": "BMsg/b_sys#647",
-   "note": "[gl_kj]"
-  },
-  {
-   "jp": "ボタン",
-   "ko": "버튼",
-   "type": "ui",
-   "basis": "DS",
-   "source": "MAI__MMes_yo#1.16",
-   "note": "[gl_menu_places]"
-  },
-  {
-   "jp": "上画面",
-   "ko": "위 화면",
-   "type": "ui",
-   "basis": "DS",
-   "source": "BDataMiniGame__mfset_MesDat_MiniGame#9",
-   "note": "[gl_kj]"
-  },
-  {
-   "jp": "下画面",
-   "ko": "아래 화면",
-   "type": "ui",
-   "basis": "DS",
-   "source": "BAI__BMes_cf:7#7",
-   "note": "[gl_kj]"
-  },
-  {
-   "jp": "軍団へんせい",
-   "ko": "군단 편성",
-   "type": "ui",
-   "basis": "coined",
-   "source": "MenuKJ#64",
-   "note": "[gl_kj]"
-  },
-  {
-   "jp": "項目が追加されました。",
-   "ko": "항목이 추가되었습니다.",
-   "type": "ui",
-   "basis": "coined",
-   "source": "",
-   "note": "가이드 추가 알림 [gl_menu_places]"
-  }
- ],
- "messages": [
-  {
-   "id": "BMsg/b_sys#566",
-   "label": "Petari",
-   "style": 13,
-   "src": "ペタリーノ",
-   "tags": {},
-   "header": "[0009:0000:0D 00]",
-   "dups": []
-  },
-  {
-   "id": "BMsg/b_sys#567",
-   "label": "Sulim",
-   "style": 13,
-   "src": "スーリム",
-   "tags": {},
-   "header": "[0009:0000:0D 00]",
-   "dups": []
-  },
-  {
-   "id": "BMsg/b_sys#568",
-   "label": "Dstllite",
-   "style": 13,
-   "src": "ダークサテライト",
-   "tags": {},
-   "header": "[0009:0000:0D 00]",
-   "dups": []
-  },
-  {
-   "id": "BMsg/b_sys#569",
-   "label": "Gmonster_ko_x",
-   "style": 13,
-   "src": "ガラクタコブンX",
-   "tags": {},
-   "header": "[0009:0000:0D 00]",
-   "dups": []
-  },
-  {
-   "id": "BMsg/b_sys#570",
-   "label": "Hint_Dmechaco_0_0",
-   "style": 11,
-   "src": "ダークメカコビッツは\n倒しても頭だけで逃げてしまい\nそのままにすると復活してしまいます。",
-   "tags": {},
-   "header": "[0009:0000:0B 00]",
-   "dups": []
-  },
-  {
-   "id": "BMsg/b_sys#571",
-   "label": "Hint_Dstar_0_1",
-   "style": 11,
-   "src": "ダークサテライトを攻撃すると\nその場にダウンします。\nダークスターがダークサテライトと\n爆弾を投げるので\nダークサテライトだけ打ち返しましょう。",
-   "tags": {},
-   "header": "[0009:0000:0B 00]",
-   "dups": []
-  },
-  {
-   "id": "BMsg/b_sys#572",
-   "label": "Hint_Mboss_0_0",
-   "style": 11,
-   "src": "メタボスの攻撃を食らってしまうと\n観客に食べ物を投げ込まれ\nメタボスが回復してしまいます。\nメタボスが食べてしまう前に\nバキュームしましょう。",
-   "tags": {},
-   "header": "[0009:0000:0B 00]",
-   "dups": []
-  },
-  {
-   "id": "BMsg/b_sys#573",
-   "label": "KJGuide_BA14_0",
-   "style": 11,
-   "src": "チカラをためてたくさんの武器を投げつけ\n{1:color}前方にいる複数の敵にダメージ{2:color}を与えます。",
-   "tags": {
-    "1": "[Color #2C64FF]",
-    "2": "[Color #E6E6E6]"
-   },
-   "header": "[0009:0000:0B 00]",
-   "dups": []
-  },
-  {
-   "id": "BMsg/b_sys#574",
-   "label": "KJGuide_BA15",
-   "style": 12,
-   "src": "まきちらし",
-   "tags": {},
-   "header": "[0009:0000:0C 00]",
-   "dups": [
-    "BMsg/b_sys#912"
-   ]
-  },
-  {
-   "id": "BMsg/b_sys#576",
-   "label": "Kj_Btl_slc_bai_08",
-   "style": 9,
-   "src": "倍返しだ～！{1:pause}",
-   "tags": {
-    "1": "[0002:0000:1E 00]"
-   },
-   "header": "[0009:0000:09 00]",
-   "dups": []
-  },
-  {
-   "id": "BMsg/b_sys#577",
-   "label": "MES_KGarakuta_01_mes_01",
-   "style": 6,
-   "src": "{1:align}２人そろうと\nそれなりに 頼もしいわね。{2:wait}",
-   "tags": {
-    "1": "[0001:0004:]",
-    "2": "[0002:0001:]"
-   },
-   "header": "[0009:0000:06 00]",
-   "dups": []
-  },
-  {
-   "id": "BMsg/b_sys#578",
-   "label": "MES_KGarakuta_02_mes_00",
-   "style": 6,
-   "src": "{1:align}マリオ！ ルイージ！{2:wait}",
-   "tags": {
-    "1": "[0001:0004:]",
-    "2": "[0002:0001:]"
-   },
-   "header": "[0009:0000:06 00]",
-   "dups": []
-  },
-  {
-   "id": "BMsg/b_sys#579",
-   "label": "MES_Mushiba_04_mes_01",
-   "style": 6,
-   "src": "{1:align}まずはバキュームブロックを ルック！{2:wait}[Next]{3:align}はげしく 反応しますね！\nバキュームブロックをチョイス！{4:wait}",
-   "tags": {
-    "1": "[0001:0004:]",
-    "2": "[0002:0001:]",
-    "3": "[0001:0004:]",
-    "4": "[0002:0001:]"
-   },
-   "header": "[0009:0000:06 00]",
-   "dups": []
-  },
-  {
-   "id": "BMsg/b_sys#580",
-   "label": "MES_Mushiba_05_mes_00",
-   "style": 6,
-   "src": "{1:align}ヘイ！ ムッシュ～！{2:wait}",
-   "tags": {
-    "1": "[0001:0004:]",
-    "2": "[0002:0001:]"
-   },
-   "header": "[0009:0000:06 00]",
-   "dups": []
-  },
-  {
-   "id": "BMsg/b_sys#581",
-   "label": "Menu_KJ_Chr_exp_ludwig",
-   "style": 13,
-   "src": "クッパ７人衆の １人。\n切れ者で 相手をこうしょうで惑わすのが得意。",
-   "tags": {},
-   "header": "[0009:0000:0D 00]",
-   "dups": []
-  },
-  {
-   "id": "BMsg/b_sys#582",
-   "label": "Menu_KJ_cmd_morton_00",
-   "style": 13,
-   "src": "かばう",
-   "tags": {},
-   "header": "[0009:0000:0D 00]",
-   "dups": [
-    "BMsg/b_sys#1460"
-   ]
-  },
-  {
-   "id": "BMsg/b_sys#583",
-   "label": "Menu_KJ_fb_name_14",
-   "style": 13,
-   "src": "バブル",
-   "tags": {},
-   "header": "[0009:0000:0D 00]",
-   "dups": []
-  },
-  {
-   "id": "BMsg/b_sys#584",
-   "label": "Ptenten_p",
-   "style": 13,
-   "src": "パタテンテン（紫）",
-   "tags": {},
-   "header": "[0009:0000:0D 00]",
-   "dups": []
-  },
-  {
-   "id": "BMsg/b_sys#585",
-   "label": "kj_Btl_sys_massage_01",
-   "style": 12,
-   "src": "{1:mode}{2:align}ガイドは下画面のポーズボタンから\nいつでも確認できます。",
-   "tags": {
-    "1": "[0005:0000:]",
-    "2": "[0001:0001:]"
-   },
-   "header": "[0009:0000:0C 00]",
-   "dups": []
-  },
-  {
-   "id": "BMsg/b_sys#586",
-   "label": "Hint_Dmechaco_0_1",
-   "style": 11,
-   "src": "復活すると より強力な\nダークメカコビッツV２に\nなることがありますが\nV２で倒すと\nレアなアイテムを落とすことがあります。",
-   "tags": {},
-   "header": "[0009:0000:0B 00]",
-   "dups": []
-  },
-  {
-   "id": "BMsg/b_sys#587",
-   "label": "Hint_Dstar_0_2",
-   "style": 11,
-   "src": "ダークサテライトを２回 \nダークスターにぶつけると\nダークスターは眠ってしまいます。\n攻撃のチャンスは このタイミングだけです。",
-   "tags": {},
-   "header": "[0009:0000:0B 00]",
-   "dups": []
-  },
-  {
-   "id": "BMsg/b_sys#588",
-   "label": "Hint_Mboss_0_1",
-   "style": 11,
-   "src": "鉄球の 回転攻撃は\nしゃがむタイミングが早すぎると\n回っている最中に 立ち上がってしまうので\nギリギリまで引きつけてからしゃがみましょう。",
-   "tags": {},
-   "header": "[0009:0000:0B 00]",
-   "dups": []
-  },
-  {
-   "id": "BMsg/b_sys#589",
-   "label": "Hint_WanwanG_0_0",
-   "style": 11,
-   "src": "ゲラワンワンは頭のムシを クッパのバキュームで\n吸い込むとワンワンが正気に戻り\n簡単にバトルを終了させることができます。",
-   "tags": {},
-   "header": "[0009:0000:0B 00]",
-   "dups": []
-  },
-  {
-   "id": "BMsg/b_sys#590",
-   "label": "KJGuide_BA14_1",
-   "style": 11,
-   "src": "{1:color}{2:icon}{3:color}ボタンを連打してチカラをためましょう。\nチカラがたくさん たまるほど\n多くの武器を投げることができます。",
-   "tags": {
-    "1": "[Color #FF4343]",
-    "2": "[U+E000]",
-    "3": "[Color #E6E6E6]"
-   },
-   "header": "[0009:0000:0B 00]",
-   "dups": []
-  },
-  {
-   "id": "BMsg/b_sys#591",
-   "label": "KJGuide_BA16",
-   "style": 12,
-   "src": "ぶちぬき",
-   "tags": {},
-   "header": "[0009:0000:0C 00]",
-   "dups": [
-    "BMsg/b_sys#940"
-   ]
-  },
-  {
-   "id": "BMsg/b_sys#592",
-   "label": "KJGuide_BA23_2",
-   "style": 11,
-   "src": "グループアタックの場合は\n１体ずつ入力を行った後に\n一斉にかいおんぱを放ちます。",
-   "tags": {},
-   "header": "[0009:0000:0B 00]",
-   "dups": []
-  },
-  {
-   "id": "BMsg/b_sys#593",
-   "label": "KJGuide_BB05_0",
-   "style": 11,
-   "src": "仲間の強さ・ステータスは\n軍団へんせいで キャラクターを\n選ぶと表示されます。",
-   "tags": {},
-   "header": "[0009:0000:0B 00]",
-   "dups": []
-  },
-  {
-   "id": "BMsg/b_sys#594",
-   "label": "Kj_Btl_cmd_msg_patabroth5_1",
-   "style": 6,
-   "src": "アニキ！\n誰にやられたんですか！",
-   "tags": {},
-   "header": "[0009:0000:06 00]",
-   "dups": []
-  },
-  {
-   "id": "BMsg/b_sys#595",
-   "label": "Kj_Btl_cmd_msg_sulim_1",
-   "style": 6,
-   "src": "クックック… 遊んであげよう。",
-   "tags": {},
-   "header": "[0009:0000:06 00]",
-   "dups": []
-  },
-  {
-   "id": "BMsg/b_sys#596",
-   "label": "Kj_Btl_slc_bai_09",
-   "style": 9,
-   "src": "キミもついでだ～！{1:pause}",
-   "tags": {
-    "1": "[0002:0000:1E 00]"
-   },
-   "header": "[0009:0000:09 00]",
-   "dups": []
-  },
-  {
-   "id": "BMsg/b_sys#597",
-   "label": "Ludwig",
-   "style": 13,
-   "src": "ルドウィッグ",
-   "tags": {},
-   "header": "[0009:0000:0D 00]",
-   "dups": []
-  },
-  {
-   "id": "BMsg/b_sys#598",
-   "label": "MES_Mushiba_05_mes_01",
-   "style": 6,
-   "src": "{1:align}ブロドッグちゃんがジャンプしたら\nそのグレイトなコウラを使うのです！{2:wait}[Next]{3:color}{4:align}ミーがレクチャーしましょうか？{5:pause}\n{6:align}{7:choice}いらん{8:tab}{9:choice}やってくれ{10:color}{11:pause}",
-   "tags": {
-    "1": "[0001:0004:]",
-    "2": "[0002:0001:]",
-    "3": "[Color #373737]",
-    "4": "[0001:0004:]",
-    "5": "[0002:0000:0A 00]",
-    "6": "[0001:0001:]",
-    "7": "[0004:0001:]",
-    "8": "[0006:0000:28 00]",
-    "9": "[0004:0001:]",
-    "10": "[Color #373737]",
-    "11": "[0002:0000:0A 00]"
-   },
-   "header": "[0009:0000:06 00]",
-   "dups": []
-  },
-  {
-   "id": "BMsg/b_sys#599",
-   "label": "Menu_KJ_Chr_exp_tkuribo",
-   "style": 13,
-   "src": "前方にいる敵全体を 攻撃できるアタックが強み。\n体勢を崩される{1:color}ブーメラン攻撃{2:color}が苦手。",
-   "tags": {
-    "1": "[Color #4ED4FF]",
-    "2": "[Color #E6E6E6]"
-   },
-   "header": "[0009:0000:0D 00]",
-   "dups": []
-  },
-  {
-   "id": "BMsg/b_sys#600",
-   "label": "Menu_KJ_cmd_morton_01",
-   "style": 13,
-   "src": "ドッスンおとし",
-   "tags": {},
-   "header": "[0009:0000:0D 00]",
-   "dups": [
-    "BMsg/b_sys#1475"
-   ]
-  },
-  {
-   "id": "BMsg/b_sys#601",
-   "label": "Menu_KJ_fb_name_15",
-   "style": 13,
-   "src": "ダイヤ",
-   "tags": {},
-   "header": "[0009:0000:0D 00]",
-   "dups": []
-  },
-  {
-   "id": "BMsg/b_sys#602",
-   "label": "Ns_ItemExpL_L",
-   "style": 4,
-   "src": "エンキョリEXPマメL",
-   "tags": {},
-   "header": "[0009:0000:04 00]",
-   "dups": [
-    "BMsg/b_sys#669"
-   ]
-  },
-  {
-   "id": "BMsg/b_sys#603",
-   "label": "Retry_easymode_title",
-   "style": 1,
-   "src": "イージーモード",
-   "tags": {},
-   "header": "[0009:0000:01 00]",
-   "dups": [
-    "BMsg/b_sys#1154",
-    "Menu#427",
-    "Menu#552"
-   ]
-  },
-  {
-   "id": "BMsg/b_sys#604",
-   "label": "kj_Btl_sys_massage_02",
-   "style": 12,
-   "src": "{1:mode}{2:align}{3:color}ボコスカアタックガイド{4:color}に\n項目が追加されました。",
-   "tags": {
-    "1": "[0005:0000:]",
-    "2": "[0001:0001:]",
-    "3": "[Color #4ED4FF]",
-    "4": "[Color #E6E6E6]"
-   },
-   "header": "[0009:0000:0C 00]",
-   "dups": []
-  },
-  {
-   "id": "BMsg/b_sys#605",
-   "label": "Hint_Dmechaco_0_2",
-   "style": 11,
-   "src": "「カウントパンチ」は\nカウント０になった瞬間を\n狙ってみましょう。",
-   "tags": {},
-   "header": "[0009:0000:0B 00]",
-   "dups": []
-  },
-  {
-   "id": "BMsg/b_sys#606",
-   "label": "Hint_Dstar_0_3",
-   "style": 11,
-   "src": "ダークスターがマリオ達の\n影に向かって発射する\n「シャドービーム」は当たってしまうと\nマリオ達にもダメージが入ってしまいます。",
-   "tags": {},
-   "header": "[0009:0000:0B 00]",
-   "dups": []
-  },
-  {
-   "id": "BMsg/b_sys#607",
-   "label": "Hint_Mboss_0_2",
-   "style": 11,
-   "src": "メタボスゆっくり近づいてきたら\nふくらんだお腹に パンチの\nカウンターを何度も当ててみましょう。",
-   "tags": {},
-   "header": "[0009:0000:0B 00]",
-   "dups": []
-  },
-  {
-   "id": "BMsg/b_sys#608",
-   "label": "Hint_Mtree_0_0",
-   "style": 11,
-   "src": "火に弱く 「{1:color}やけど{2:color}」にもなりやすいので\nファイアフラワーや ファイアで攻撃しましょう。",
-   "tags": {
-    "1": "[Color #2C64FF]",
-    "2": "[Color #E6E6E6]"
-   },
-   "header": "[0009:0000:0B 00]",
-   "dups": []
-  },
-  {
-   "id": "BMsg/b_sys#609",
-   "label": "Hint_WanwanG_0_1",
-   "style": 11,
-   "src": "クッパのバキュームで吸い込むことができるのは\n頭のムシが顔を出している時だけです。\n出ていない場合は ファイアを使ってみましょう。",
-   "tags": {},
-   "header": "[0009:0000:0B 00]",
-   "dups": []
-  },
-  {
-   "id": "BMsg/b_sys#610",
-   "label": "KJGuide_BA14_2",
-   "style": 11,
-   "src": "グループアタックの場合は\n全員が一斉に武器を投げます。",
-   "tags": {},
-   "header": "[0009:0000:0B 00]",
-   "dups": []
-  },
-  {
-   "id": "BMsg/b_sys#611",
-   "label": "KJGuide_BA17",
-   "style": 12,
-   "src": "れんしゃ",
-   "tags": {},
-   "header": "[0009:0000:0C 00]",
-   "dups": [
-    "BMsg/b_sys#957"
-   ]
-  },
-  {
-   "id": "BMsg/b_sys#612",
-   "label": "KJGuide_BB05_1",
-   "style": 11,
-   "src": "ステータスには「{1:color}HP{2:color}」 「{3:color}POW{4:color}」\n 「{5:color}DEF{6:color}」 「{7:color}SPEED{8:color}」 「{9:color}GDD{10:color}」 の\n５つがあります。",
-   "tags": {
-    "1": "[Color #2C64FF]",
-    "2": "[Color #E6E6E6]",
-    "3": "[Color #2C64FF]",
-    "4": "[Color #E6E6E6]",
-    "5": "[Color #2C64FF]",
-    "6": "[Color #E6E6E6]",
-    "7": "[Color #2C64FF]",
-    "8": "[Color #E6E6E6]",
-    "9": "[Color #2C64FF]",
-    "10": "[Color #E6E6E6]"
-   },
-   "header": "[0009:0000:0B 00]",
-   "dups": []
-  },
-  {
-   "id": "BMsg/b_sys#613",
-   "label": "Kj_Btl_cmd_msg_sulim_2",
-   "style": 6,
-   "src": "させると思うか？",
-   "tags": {},
-   "header": "[0009:0000:06 00]",
-   "dups": []
-  },
-  {
-   "id": "BMsg/b_sys#614",
-   "label": "Kj_Btl_slc_koushou_20",
-   "style": 6,
-   "src": "{1:mode}ワタシの下で働かないか？",
-   "tags": {
-    "1": "[0005:0000:]"
-   },
-   "header": "[0009:0000:06 00]",
-   "dups": []
-  },
-  {
-   "id": "BMsg/b_sys#615",
-   "label": "MES_KGarakuta_01_mes_03",
-   "style": 6,
-   "src": "{1:align}ルイージ あなたは{2:color}{3:icon}{4:color}を{5:color}\n使って攻撃するのよ。{6:wait}[Next]{7:align}マリオは{8:color}{9:icon} {10:color}ルイージは{11:color}{12:icon}{13:color}。\nまちがえないでね。{14:wait}{15:color}",
-   "tags": {
-    "1": "[0001:0004:]",
-    "2": "[Color #00BB27]",
-    "3": "[U+E001]",
-    "4": "[Color #373737]",
-    "5": "[Color #373737]",
-    "6": "[0002:0001:]",
-    "7": "[0001:0004:]",
-    "8": "[Color #FF4343]",
-    "9": "[U+E000]",
-    "10": "[Color #373737]",
-    "11": "[Color #00BB27]",
-    "12": "[U+E001]",
-    "13": "[Color #373737]",
-    "14": "[0002:0001:]",
-    "15": "[Color #373737]"
-   },
-   "header": "[0009:0000:06 00]",
-   "dups": []
-  },
-  {
-   "id": "BMsg/b_sys#616",
-   "label": "MES_KGarakuta_02_mes_02",
-   "style": 6,
-   "src": "{1:align}そう…{2:pause} それじゃ気をつけて！{3:wait}",
-   "tags": {
-    "1": "[0001:0004:]",
-    "2": "[0002:0000:14 00]",
-    "3": "[0002:0001:]"
-   },
-   "header": "[0009:0000:06 00]",
-   "dups": []
-  },
-  {
-   "id": "BMsg/b_sys#617",
-   "label": "MES_Mushiba_04_mes_03",
-   "style": 6,
-   "src": "{1:align}ワ～ンダフル！！！{2:pause}",
-   "tags": {
-    "1": "[0001:0004:]",
-    "2": "[0002:0000:0A 00]"
-   },
-   "header": "[0009:0000:06 00]",
-   "dups": []
-  },
-  {
-   "id": "BMsg/b_sys#618",
-   "label": "MES_Mushiba_05_mes_08_no",
-   "style": 6,
-   "src": "{1:align}オ～ウ… ミーは必要ないのね…{2:wait}",
-   "tags": {
-    "1": "[0001:0004:]",
-    "2": "[0002:0001:]"
-   },
-   "header": "[0009:0000:06 00]",
-   "dups": []
-  },
-  {
-   "id": "BMsg/b_sys#619",
-   "label": "Menu_KJ_Chr_exp_bteresa",
-   "style": 13,
-   "src": "世にも珍しい爆発するテレサ。\n爆発すると次のバトルまでいなくなるので注意。",
-   "tags": {},
-   "header": "[0009:0000:0D 00]",
-   "dups": []
-  },
-  {
-   "id": "BMsg/b_sys#620",
-   "label": "Menu_KJ_fb_name_16",
-   "style": 13,
-   "src": "星空",
-   "tags": {},
-   "header": "[0009:0000:0D 00]",
-   "dups": []
-  },
-  {
-   "id": "BMsg/b_sys#621",
-   "label": "Mkoopa",
-   "style": 13,
-   "src": "メカクッパ",
-   "tags": {},
-   "header": "[0009:0000:0D 00]",
-   "dups": []
-  },
-  {
-   "id": "BMsg/b_sys#622",
-   "label": "Ns_ItemExpL_M",
-   "style": 4,
-   "src": "エンキョリEXPマメM",
-   "tags": {},
-   "header": "[0009:0000:04 00]",
-   "dups": [
-    "BMsg/b_sys#685"
-   ]
-  },
-  {
-   "id": "BMsg/b_sys#623",
-   "label": "Ptenten_r",
-   "style": 13,
-   "src": "パタテンテン（赤）",
-   "tags": {},
-   "header": "[0009:0000:0D 00]",
-   "dups": []
-  },
-  {
-   "id": "BMsg/b_sys#624",
-   "label": "SpAtk_08_0",
-   "style": 11,
-   "src": "{1:icon}で{2:color}イエロースター{3:color}が変身した\n{4:color}目印{5:color}を動かして 上画面 を移動する\n大きなスターを 追いかけましょう。",
-   "tags": {
-    "1": "[U+E077]",
-    "2": "[Color #2C64FF]",
-    "3": "[Color #E6E6E6]",
-    "4": "[Color #2C64FF]",
-    "5": "[Color #E6E6E6]"
-   },
-   "header": "[0009:0000:0B 00]",
-   "dups": [
-    "Menu#298"
-   ]
-  },
-  {
-   "id": "BMsg/b_sys#625",
-   "label": "kj_Btl_sys_massage_03",
-   "style": 12,
-   "src": "{1:mode}{2:align}{3:color}ボコスカきほんガイド{4:color}に\n項目が追加されました。",
-   "tags": {
-    "1": "[0005:0000:]",
-    "2": "[0001:0001:]",
-    "3": "[Color #4ED4FF]",
-    "4": "[Color #E6E6E6]"
-   },
-   "header": "[0009:0000:0C 00]",
-   "dups": []
-  },
-  {
-   "id": "BMsg/b_sys#626",
-   "label": "BtlGuide_24_0",
-   "style": 11,
-   "src": "モンスターの攻撃中{1:color} {2:icon}{3:color}ボタンを押すと\n{4:color}パンチ{5:color}します。",
-   "tags": {
-    "1": "[Color #FF9600]",
-    "2": "[U+E002]",
-    "3": "[Color #E6E6E6]",
-    "4": "[Color #2C64FF]",
-    "5": "[Color #E6E6E6]"
-   },
-   "header": "[0009:0000:0B 00]",
-   "dups": [
-    "Menu#301"
-   ]
-  },
-  {
-   "id": "BMsg/b_sys#627",
-   "label": "Hint_Dmechaco_0_3",
-   "style": 11,
-   "src": "頭からビームを発射する\n「ダークビームパンチ」はビームをよけても\nさらにパンチをしてきます。\nそちらはカウンターする必要があります。",
-   "tags": {},
-   "header": "[0009:0000:0B 00]",
-   "dups": []
-  },
-  {
-   "id": "BMsg/b_sys#628",
-   "label": "Hint_Dstar_0_4",
-   "style": 11,
-   "src": "マリオ達がジャンプすると\nそれぞれ連動している影も\nジャンプするので うまく避けましょう。",
-   "tags": {},
-   "header": "[0009:0000:0B 00]",
-   "dups": []
-  },
-  {
-   "id": "BMsg/b_sys#630",
-   "label": "Hint_Mtree_0_1",
-   "style": 11,
-   "src": "木の実をつけたマガツリーは手ごわいので\nバキュームで 実を吸い込んでみましょう。",
-   "tags": {},
-   "header": "[0009:0000:0B 00]",
-   "dups": []
-  },
-  {
-   "id": "BMsg/b_sys#631",
-   "label": "Imonu_straw",
-   "style": 13,
-   "src": "ストロー",
-   "tags": {},
-   "header": "[0009:0000:0D 00]",
-   "dups": [
-    "BMsg/b_sys#1544"
-   ]
-  },
-  {
-   "id": "BMsg/b_sys#632",
-   "label": "KJGuide_BA18",
-   "style": 12,
-   "src": "SPEEDアップ",
-   "tags": {},
-   "header": "[0009:0000:0C 00]",
-   "dups": [
-    "BMsg/b_sys#977"
-   ]
-  },
-  {
-   "id": "BMsg/b_sys#633",
-   "label": "KJGuide_BB05_2",
-   "style": 11,
-   "src": "{1:color}HPは体力{2:color}。\nダメージを受けると減り\nゼロになるとバトルから退場します。",
-   "tags": {
-    "1": "[Color #2C64FF]",
-    "2": "[Color #E6E6E6]"
-   },
-   "header": "[0009:0000:0B 00]",
-   "dups": []
-  },
-  {
-   "id": "BMsg/b_sys#634",
-   "label": "Kj_Btl_cmd_msg_sulim_3",
-   "style": 6,
-   "src": "さあショーの始まりだ。",
-   "tags": {},
-   "header": "[0009:0000:06 00]",
-   "dups": []
-  },
-  {
-   "id": "BMsg/b_sys#635",
-   "label": "Kj_Btl_param_change_10",
-   "style": 12,
-   "src": "{1:mode}敵のSPEEDアップ！",
-   "tags": {
-    "1": "[0005:0000:]"
-   },
-   "header": "[0009:0000:0C 00]",
-   "dups": []
-  },
-  {
-   "id": "BMsg/b_sys#636",
-   "label": "Kj_Btl_slc_koura_01",
-   "style": 6,
-   "src": "ぼっちゃん\n下がってな！",
-   "tags": {},
-   "header": "[0009:0000:06 00]",
-   "dups": []
-  },
-  {
-   "id": "BMsg/b_sys#637",
-   "label": "Kj_Btl_slc_koushou_21",
-   "style": 6,
-   "src": "{1:mode}我々と一緒に行こう。",
-   "tags": {
-    "1": "[0005:0000:]"
-   },
-   "header": "[0009:0000:06 00]",
-   "dups": []
-  },
-  {
-   "id": "BMsg/b_sys#638",
-   "label": "MES_KGarakuta_01_mes_04",
-   "style": 6,
-   "src": "{1:align}{2:align}ちょっと 待って！！{3:wait}",
-   "tags": {
-    "1": "[0001:0004:]",
-    "2": "[0001:0001:]",
-    "3": "[0002:0001:]"
-   },
-   "header": "[0009:0000:06 00]",
-   "dups": []
-  },
-  {
-   "id": "BMsg/b_sys#639",
-   "label": "MES_KGarakuta_02_mes_03",
-   "style": 6,
-   "src": "{1:align}じゃあ まずはコマンドブロックの\n{2:color}ブラザーアタック{3:color}{4:color}を 選んで！{5:wait}{6:color}",
-   "tags": {
-    "1": "[0001:0004:]",
-    "2": "[Color #2C64FF]",
-    "3": "[Color #373737]",
-    "4": "[Color #373737]",
-    "5": "[0002:0001:]",
-    "6": "[Color #373737]"
-   },
-   "header": "[0009:0000:06 00]",
-   "dups": []
-  },
-  {
-   "id": "BMsg/b_sys#640",
-   "label": "MES_Mushiba_04_mes_04",
-   "style": 6,
-   "src": "{1:align}これは サプライズ！ ビッグムッシュ\nの中に ヒゲのムッシュが…{2:wait}[Next]{3:align}ハウ アー ユー？{4:wait}",
-   "tags": {
-    "1": "[0001:0004:]",
-    "2": "[0002:0001:]",
-    "3": "[0001:0004:]",
-    "4": "[0002:0001:]"
-   },
-   "header": "[0009:0000:06 00]",
-   "dups": []
-  },
-  {
-   "id": "BMsg/b_sys#641",
-   "label": "MES_Mushiba_05_mes_03",
-   "style": 6,
-   "src": "{1:align}{2:color}ジャンプしてきたら{3:color}{4:color}{5:icon}{6:color}{7:color}を押し続けて{8:color}\nしゃがむのです！{9:font}{10:color}{11:wait}{12:color}{13:font}",
-   "tags": {
-    "1": "[0001:0004:]",
-    "2": "[Color #2C64FF]",
-    "3": "[Color #373737]",
-    "4": "[Color #FF9600]",
-    "5": "[U+E003]",
-    "6": "[Color #373737]",
-    "7": "[Color #2C64FF]",
-    "8": "[Color #373737]",
-    "9": "[0000:0001:01 00]",
-    "10": "[Color #373737]",
-    "11": "[0002:0001:]",
-    "12": "[Color #373737]",
-    "13": "[0000:0001:FF FF]"
-   },
-   "header": "[0009:0000:06 00]",
-   "dups": []
-  },
-  {
-   "id": "BMsg/b_sys#642",
-   "label": "Menu_KJ_Chr_exp_betari",
-   "style": 13,
-   "src": "普段は森でひっそり暮らしているモンスター。\nカサカサ動いては超体当たりをしかけてくる。",
-   "tags": {},
-   "header": "[0009:0000:0D 00]",
-   "dups": []
-  },
-  {
-   "id": "BMsg/b_sys#643",
-   "label": "Menu_KJ_fb_name_17",
-   "style": 13,
-   "src": "ドカン",
-   "tags": {},
-   "header": "[0009:0000:0D 00]",
-   "dups": []
-  },
-  {
-   "id": "BMsg/b_sys#644",
-   "label": "Nokonoko_rd",
-   "style": 13,
-   "src": "ノコノコ（赤）",
-   "tags": {},
-   "header": "[0009:0000:0D 00]",
-   "dups": []
-  },
-  {
-   "id": "BMsg/b_sys#645",
-   "label": "Ns_ItemEv",
-   "style": 4,
-   "src": "{1:color}コゲコゲピリからチキン{2:color}",
-   "tags": {
-    "1": "[Color #F0F0F0]",
-    "2": "[Color #E6E6E6]"
-   },
-   "header": "[0009:0000:04 00]",
-   "dups": [
-    "BMsg/b_sys#1693"
-   ]
-  },
-  {
-   "id": "BMsg/b_sys#646",
-   "label": "SpAtk_08_1",
-   "style": 11,
-   "src": "大きいスターが{1:color}赤{2:color}なら{3:color}{4:icon}{5:color} {6:color}緑{7:color}なら{8:color}{9:icon}{10:color}を押して\n小さいスターを投げ 大きいスターにくっつけます。\n{11:color}目印{12:color}が光った時に投げると 当たりやすくなります。",
-   "tags": {
-    "1": "[Color #FF4343]",
-    "2": "[Color #E6E6E6]",
-    "3": "[Color #FF4343]",
-    "4": "[U+E000]",
-    "5": "[Color #E6E6E6]",
-    "6": "[Color #00BB27]",
-    "7": "[Color #E6E6E6]",
-    "8": "[Color #00BB27]",
-    "9": "[U+E001]",
-    "10": "[Color #E6E6E6]",
-    "11": "[Color #2C64FF]",
-    "12": "[Color #E6E6E6]"
-   },
-   "header": "[0009:0000:0B 00]",
-   "dups": [
-    "Menu#307"
-   ]
-  },
-  {
-   "id": "BMsg/b_sys#647",
-   "label": "kj_Btl_sys_massage_04",
-   "style": 12,
-   "src": "{1:mode}{2:align}{3:color}ボコスカコマンドガイド{4:color}に\n項目が追加されました。",
-   "tags": {
-    "1": "[0005:0000:]",
-    "2": "[0001:0001:]",
-    "3": "[Color #4ED4FF]",
-    "4": "[Color #E6E6E6]"
-   },
-   "header": "[0009:0000:0C 00]",
-   "dups": []
-  },
-  {
-   "id": "BMsg/b_sys#648",
-   "label": "BtlGuide_24_1",
-   "style": 11,
-   "src": "モンスターの体当たりを 止めたり\n飛んできたものを 打ち落とせます。",
-   "tags": {},
-   "header": "[0009:0000:0B 00]",
-   "dups": [
-    "Menu#309"
-   ]
-  },
-  {
-   "id": "BMsg/b_sys#649",
-   "label": "Dgerako_grass",
-   "style": 13,
-   "src": "メガネ",
-   "tags": {},
-   "header": "[0009:0000:0D 00]",
-   "dups": []
-  },
-  {
-   "id": "BMsg/b_sys#650",
-   "label": "Hint_Airpun_0",
-   "style": 12,
-   "src": "エアプンは１体ずつ倒そう",
-   "tags": {},
-   "header": "[0009:0000:0C 00]",
-   "dups": []
-  },
-  {
-   "id": "BMsg/b_sys#651",
-   "label": "Hint_Betari_0",
-   "style": 12,
-   "src": "ベタリーノの目の動きに注目",
-   "tags": {},
-   "header": "[0009:0000:0C 00]",
-   "dups": []
-  },
-  {
-   "id": "BMsg/b_sys#652",
-   "label": "Hint_Gonem_0",
-   "style": 12,
-   "src": "ゴーネムはウルヘイで爆破！",
-   "tags": {},
-   "header": "[0009:0000:0C 00]",
-   "dups": []
-  },
-  {
-   "id": "BMsg/b_sys#653",
-   "label": "Hint_Zuttsun_0_0",
-   "style": 11,
-   "src": "上から落ちてくる攻撃は 早めに防御すると\nヅッツンが途中で止まってしまうので\n引きつけてカウンターを狙ってみましょう。",
-   "tags": {},
-   "header": "[0009:0000:0B 00]",
-   "dups": []
-  },
-  {
-   "id": "BMsg/b_sys#655",
-   "label": "KJGuide_BA19",
-   "style": 12,
-   "src": "POWアップ",
-   "tags": {},
-   "header": "[0009:0000:0C 00]",
-   "dups": [
-    "BMsg/b_sys#994"
-   ]
-  },
-  {
-   "id": "BMsg/b_sys#656",
-   "label": "KJGuide_BB05_3",
-   "style": 11,
-   "src": "{1:color}POWは攻撃力{2:color}。\n数字が大きいほど\n与えるダメージが大きくなります。",
-   "tags": {
-    "1": "[Color #2C64FF]",
-    "2": "[Color #E6E6E6]"
-   },
-   "header": "[0009:0000:0B 00]",
-   "dups": []
-  },
-  {
-   "id": "BMsg/b_sys#657",
-   "label": "Kj_Btl_param_change_11",
-   "style": 12,
-   "src": "{1:mode}味方のSPEEDダウン！",
-   "tags": {
-    "1": "[0005:0000:]"
-   },
-   "header": "[0009:0000:0C 00]",
-   "dups": []
-  },
-  {
-   "id": "BMsg/b_sys#658",
-   "label": "Kj_Btl_slc_koura_02",
-   "style": 6,
-   "src": "カラダが温まってきたぜ！",
-   "tags": {},
-   "header": "[0009:0000:06 00]",
-   "dups": []
-  },
-  {
-   "id": "BMsg/b_sys#659",
-   "label": "Kj_Btl_slc_koushou_22",
-   "style": 6,
-   "src": "{1:mode}３食プラスおやつをつけよう。",
-   "tags": {
-    "1": "[0005:0000:]"
-   },
-   "header": "[0009:0000:06 00]",
-   "dups": []
-  },
-  {
-   "id": "BMsg/b_sys#660",
-   "label": "Koopa_e",
-   "style": 13,
-   "src": "クッパ（えんきょり）",
-   "tags": {},
-   "header": "[0009:0000:0D 00]",
-   "dups": []
-  },
-  {
-   "id": "BMsg/b_sys#661",
-   "label": "MES_KGarakuta_01_mes_05",
-   "style": 6,
-   "src": "{1:align}そのモンスターの特徴が\nわかったわ！{2:wait}[Next]{3:align}聞いてくれる？{4:pause}\n{5:align}{6:choice}いいえ{7:tab}{8:choice}はい{9:pause}",
-   "tags": {
-    "1": "[0001:0004:]",
-    "2": "[0002:0001:]",
-    "3": "[0001:0004:]",
-    "4": "[0002:0000:0A 00]",
-    "5": "[0001:0001:]",
-    "6": "[0004:0001:]",
-    "7": "[0006:0000:28 00]",
-    "8": "[0004:0001:]",
-    "9": "[0002:0000:0A 00]"
-   },
-   "header": "[0009:0000:06 00]",
-   "dups": []
-  },
-  {
-   "id": "BMsg/b_sys#662",
-   "label": "MES_KGarakuta_02_mes_04",
-   "style": 6,
-   "src": "{1:align}マリオとルイージが{2:color}コウラを\n{3:color}{4:color}{5:color}交互にけっとばすアタック{6:color}ね！{7:wait}[Next]{8:align}マリオとルイージが{9:color}{10:icon}{11:color}{12:color}{13:icon}{14:color}{15:icon}{16:color}{17:icon}{18:color}と\nリズムよく押すのがコツよ！{19:wait}[Next]{20:align}わかんなくなったら {21:color}ガイドに\nおてほんとれんしゅうがある{22:color}わ！{23:wait}{24:color}",
-   "tags": {
-    "1": "[0001:0004:]",
-    "2": "[Color #2C64FF]",
-    "3": "[Color #373737]",
-    "4": "[Color #373737]",
-    "5": "[Color #2C64FF]",
-    "6": "[Color #373737]",
-    "7": "[0002:0001:]",
-    "8": "[0001:0004:]",
-    "9": "[Color #FF4343]",
-    "10": "[U+E000]",
-    "11": "[Color #373737]",
-    "12": "[Color #00BB27]",
-    "13": "[U+E001]",
-    "14": "[Color #FF4343]",
-    "15": "[U+E000]",
-    "16": "[Color #00BB27]",
-    "17": "[U+E001]",
-    "18": "[Color #373737]",
-    "19": "[0002:0001:]",
-    "20": "[0001:0004:]",
-    "21": "[Color #2C64FF]",
-    "22": "[Color #373737]",
-    "23": "[0002:0001:]",
-    "24": "[Color #373737]"
-   },
-   "header": "[0009:0000:06 00]",
-   "dups": []
-  },
-  {
-   "id": "BMsg/b_sys#663",
-   "label": "MES_Mushiba_05_mes_04",
-   "style": 6,
-   "src": "{1:align}ネクスト 後ろからきます！\n引き付けて しゃがみましょう！{2:wait}",
-   "tags": {
-    "1": "[0001:0004:]",
-    "2": "[0002:0001:]"
-   },
-   "header": "[0009:0000:06 00]",
-   "dups": []
-  },
-  {
-   "id": "BMsg/b_sys#664",
-   "label": "MES_SPeach_12_kuribo_mes_01",
-   "style": 6,
-   "src": "{1:align}クッパ様！{2:pause} この攻撃は\nなにか 危険な感じがしますよ！{3:wait}[Next]{4:align}クッパ様を 危険な目に\nあわせるわけにはいきません！{5:wait}[Next]クリボー軍団に\nおまかせください！{6:wait}[Next]{7:align}我々を ぶつけてくれれば\nアイツを絶対に止めてみせます！！{8:wait}[Next]{9:align}クッパ様の ためなら そのくらい\nなんてことないですよ！{10:wait}[Next]えんりょせず 飛ばしてください！{11:wait}",
-   "tags": {
-    "1": "[0001:0004:]",
-    "2": "[0002:0000:0A 00]",
-    "3": "[0002:0001:]",
-    "4": "[0001:0004:]",
-    "5": "[0002:0001:]",
-    "6": "[0002:0001:]",
-    "7": "[0001:0004:]",
-    "8": "[0002:0001:]",
-    "9": "[0001:0004:]",
-    "10": "[0002:0001:]",
-    "11": "[0002:0001:]"
-   },
-   "header": "[0009:0000:06 00]",
-   "dups": []
-  },
-  {
-   "id": "BMsg/b_sys#665",
-   "label": "MES_ji_ComMes_mes_00",
-   "style": 12,
-   "src": "{1:mode}{2:color}ブロキャット{3:color}を手に入れた！{4:pause}",
-   "tags": {
-    "1": "[0005:0000:]",
-    "2": "[Color #4ED4FF]",
-    "3": "[Color #E6E6E6]",
-    "4": "[0002:0000:32 00]"
-   },
-   "header": "[0009:0000:0C 00]",
-   "dups": []
-  },
-  {
-   "id": "BMsg/b_sys#666",
-   "label": "Menu_KJ_Chr_exp_pukupuku",
-   "style": 13,
-   "src": "跳躍力を活かした攻撃が得意。\n水際から離れられないので仲間にはならない。",
-   "tags": {},
-   "header": "[0009:0000:0D 00]",
-   "dups": []
-  },
-  {
-   "id": "BMsg/b_sys#667",
-   "label": "Menu_KJ_fb_name_18",
-   "style": 13,
-   "src": "ひこうき",
-   "tags": {},
-   "header": "[0009:0000:0D 00]",
-   "dups": []
-  },
-  {
-   "id": "BMsg/b_sys#668",
-   "label": "Minigame_ML_Expl_achikochi",
-   "style": 11,
-   "src": "{1:mode}「あちこちウィンドウ」を失敗するまでエンドレスで\n続けてコレステロンをやっつけよう！\nゴールドたっせいで 特別なアイテムをプレゼント！",
-   "tags": {
-    "1": "[0005:0000:]"
-   },
-   "header": "[0009:0000:0B 00]",
-   "dups": []
-  },
-  {
-   "id": "BMsg/b_sys#670",
-   "label": "Retry_easymode_text",
-   "style": 0,
-   "src": "イージーモードを選ぶとマリオ達が強くなり\nモンスターを倒しやすくなります。\n※イージーモードはスターメニューの\n「せってい」で解除できます。",
-   "tags": {},
-   "header": "[0009:0000:00 00]",
-   "dups": []
-  },
-  {
-   "id": "BMsg/b_sys#671",
-   "label": "SpAtk_08_2",
-   "style": 11,
-   "src": "小さいスターをくっつけた数が多いほど\nモンスターに与えるダメージがアップするので\nボタンを連打して どんどんくっつけましょう。",
-   "tags": {},
-   "header": "[0009:0000:0B 00]",
-   "dups": [
-    "Menu#316"
-   ]
-  },
-  {
-   "id": "BMsg/b_sys#672",
-   "label": "kj_Btl_sys_massage_05",
-   "style": 12,
-   "src": "{1:mode}{2:align}メンバーの配置のしかたによっては\n{3:color}じんけいボーナス{4:color}が生じて バトル中に\nステータスがアップすることがあります。",
-   "tags": {
-    "1": "[0005:0000:]",
-    "2": "[0001:0001:]",
-    "3": "[Color #4ED4FF]",
-    "4": "[Color #E6E6E6]"
-   },
-   "header": "[0009:0000:0C 00]",
-   "dups": []
-  },
-  {
-   "id": "BMsg/b_sys#673",
-   "label": "Dgerako_legs",
-   "style": 13,
-   "src": "あし",
-   "tags": {},
-   "header": "[0009:0000:0D 00]",
-   "dups": []
-  },
-  {
-   "id": "BMsg/b_sys#674",
-   "label": "Hint_DTreajan_0_0",
-   "style": 11,
-   "src": "ダークトレジャンの口から出た物が\nコインやキノコの場合は\nカウンターせずにゲットしましょう。",
-   "tags": {},
-   "header": "[0009:0000:0B 00]",
-   "dups": []
-  },
-  {
-   "id": "BMsg/b_sys#675",
-   "label": "Hint_Zuttsun_0_1",
-   "style": 11,
-   "src": "たおれたヅッツンを ヘイホーが持ち上げた時の\n向いている方向で 有効な防御が変わります。\nよく観察してみましょう。",
-   "tags": {},
-   "header": "[0009:0000:0B 00]",
-   "dups": []
-  },
-  {
-   "id": "BMsg/b_sys#676",
-   "label": "KJGuide_BB05_4",
-   "style": 11,
-   "src": "{1:color}DEFは防御力{2:color}。\n数字が大きいほど\n受けるダメージが小さくなります。",
-   "tags": {
-    "1": "[Color #2C64FF]",
-    "2": "[Color #E6E6E6]"
-   },
-   "header": "[0009:0000:0B 00]",
-   "dups": []
-  },
-  {
-   "id": "BMsg/b_sys#677",
-   "label": "KJGuide_BC17_0",
-   "style": 11,
-   "src": "ウェンディが使えるコマンドです。\n「クリア後のEXPが増える」など\nランダムで１つだけいいことがおきます。",
-   "tags": {},
-   "header": "[0009:0000:0B 00]",
-   "dups": []
-  },
-  {
-   "id": "BMsg/b_sys#678",
-   "label": "KJ_Msg_quest_50",
-   "style": 13,
-   "src": "モンスターオールスター！",
-   "tags": {},
-   "header": "[0009:0000:0D 00]",
-   "dups": []
-  },
-  {
-   "id": "BMsg/b_sys#679",
-   "label": "Kj_Btl_cmd_msg_sulim_5",
-   "style": 9,
-   "src": "グガァア サセルカ！",
-   "tags": {},
-   "header": "[0009:0000:09 00]",
-   "dups": []
-  }
- ]
+  "batch": "BMsg__b_sys__p6",
+  "rooms": [
+    "b_sys"
+  ],
+  "ds_rooms": [],
+  "ds_reference": [
+    "@file work/batches/_refs_BMsg.txt (460 DS lines shared by all BMsg batches - read it once)"
+  ],
+  "glossary": [
+    {
+      "jp": "かばう",
+      "ko": "감싸기",
+      "type": "ability",
+      "basis": "coined",
+      "source": "BMsg/b_sys#582",
+      "note": "[gl_kj]"
+    },
+    {
+      "jp": "こうしょう",
+      "ko": "협상",
+      "type": "ability",
+      "basis": "coined",
+      "source": "BMsg/b_sys#436",
+      "note": "[gl_kj]"
+    },
+    {
+      "jp": "ジャンプ",
+      "ko": "점프",
+      "type": "ability",
+      "basis": "DS",
+      "source": "BData__mfset_Help#9",
+      "note": "필드 액션·배틀 커맨드 공통 [gl_attacks]"
+    },
+    {
+      "jp": "ドッスンおとし",
+      "ko": "쿵쿵 떨구기",
+      "type": "ability",
+      "basis": "coined",
+      "source": "BMsg/b_sys#600",
+      "note": "DS '쿵쿵'(ドッスン) [gl_kj]"
+    },
+    {
+      "jp": "バキューム",
+      "ko": "배큐엄",
+      "type": "ability",
+      "basis": "DS",
+      "source": "BData__mfset_Help#16",
+      "note": "쿠파의 배틀 커맨드 [gl_attacks]"
+    },
+    {
+      "jp": "パンチ",
+      "ko": "펀치",
+      "type": "ability",
+      "basis": "DS",
+      "source": "BData__mfset_Help#14",
+      "note": "필드 액션·배틀 커맨드 공통 [gl_attacks]"
+    },
+    {
+      "jp": "POWアップ",
+      "ko": "POW 업",
+      "type": "attack",
+      "basis": "coined",
+      "source": "BMsg/b_sys#994",
+      "note": "[gl_kj]"
+    },
+    {
+      "jp": "SPEEDアップ",
+      "ko": "SPEED 업",
+      "type": "attack",
+      "basis": "coined",
+      "source": "BMsg/b_sys#977",
+      "note": "[gl_kj]"
+    },
+    {
+      "jp": "あちこちウィンドウ",
+      "ko": "아무데나창문",
+      "type": "attack",
+      "basis": "DS",
+      "source": "BData__mfset_AItmN#19",
+      "note": "[gl_attacks]"
+    },
+    {
+      "jp": "かいおんぱ",
+      "ko": "괴음파",
+      "type": "attack",
+      "basis": "coined",
+      "source": "BMsg/b_sys#100",
+      "note": "[gl_kj]"
+    },
+    {
+      "jp": "ぶちぬき",
+      "ko": "꿰뚫기",
+      "type": "attack",
+      "basis": "coined",
+      "source": "BMsg/b_sys#940",
+      "note": "[gl_kj]"
+    },
+    {
+      "jp": "まきちらし",
+      "ko": "흩뿌리기",
+      "type": "attack",
+      "basis": "coined",
+      "source": "BMsg/b_sys#912",
+      "note": "[gl_kj]"
+    },
+    {
+      "jp": "れんしゃ",
+      "ko": "연사",
+      "type": "attack",
+      "basis": "coined",
+      "source": "BMsg/b_sys#957",
+      "note": "[gl_kj]"
+    },
+    {
+      "jp": "ファイア",
+      "ko": "파이어",
+      "type": "attack",
+      "basis": "DS",
+      "source": "BData__mfset_Help#15",
+      "note": "쿠파의 배틀 커맨드. 파이어플라워 설명의 불덩이는 DS '파이어볼'(AItmE#17) [gl_attacks]"
+    },
+    {
+      "jp": "ファイアフラワー",
+      "ko": "파이어플라워",
+      "type": "attack",
+      "basis": "DS",
+      "source": "BData__mfset_AItmN#17",
+      "note": "[gl_attacks]"
+    },
+    {
+      "jp": "ブラザーアタック",
+      "ko": "스페셜 어택",
+      "type": "attack",
+      "basis": "DS",
+      "source": "BAI__BMes_cf#4.1",
+      "note": "DS 대응문(어택피스로 스페셜 어택을↔アタックパーツでブラザーアタックが)으로 같은 대상 확인. 3DX에서 スペシャルアタック을 개칭한 것. 후속작 공식 표기는 '브라더 어택'(https://www.nintendo.com/kr/switch/a8e6a/battle/index.html) — 개칭 반영 여부 확인 필요 [gl_attacks]"
+    },
+    {
+      "jp": "超体当たり",
+      "ko": "초몸통박치기",
+      "type": "attack",
+      "basis": "coined",
+      "source": "BMsg/b_sys#1606",
+      "note": "[gl_kj]"
+    },
+    {
+      "jp": "クッパ",
+      "ko": "쿠파",
+      "type": "boss",
+      "basis": "DS",
+      "source": "BData__mfset_MonN#65",
+      "note": "마리오 일행이 싸우는 쿠파. glossary 확정값과 동일 [gl_enemies]"
+    },
+    {
+      "jp": "スーリム",
+      "ko": "슬림",
+      "type": "boss",
+      "basis": "coined",
+      "source": "BMsg/b_sys#567",
+      "note": "glossary 확정값. 3DX 신규(SS컴퍼니의 두뇌). 발음 유지 [gl_enemies]"
+    },
+    {
+      "jp": "ダークスター",
+      "ko": "다크스타",
+      "type": "boss",
+      "basis": "DS",
+      "source": "BData__mfset_MonN#70",
+      "note": "glossary 확정값과 동일 [gl_enemies]"
+    },
+    {
+      "jp": "ブロドッグ",
+      "ko": "블도그",
+      "type": "boss",
+      "basis": "DS",
+      "source": "BData__mfset_MonN#23",
+      "note": "glossary 확정값과 동일 [gl_enemies]"
+    },
+    {
+      "jp": "ベタリーノ",
+      "ko": "넙적충이",
+      "type": "boss",
+      "basis": "DS",
+      "source": "BData__mfset_MonN#8",
+      "note": "화염 파이프 보스. 마리오위키 Scutlet (boss) 항목도 일본어 ベタリーノ = 한국어 넙적충이. 일반형 ペタリーノ=납작충이(#1) [gl_enemies]"
+    },
+    {
+      "jp": "メタボス",
+      "ko": "메타보스",
+      "type": "boss",
+      "basis": "DS",
+      "source": "BData__mfset_MonN#34",
+      "note": "glossary 확정값과 동일 [gl_enemies]"
+    },
+    {
+      "jp": "イエロースター",
+      "ko": "옐로스타",
+      "type": "character",
+      "basis": "DS",
+      "source": "i_metaboru_03#8 ↔ DS04E#5",
+      "note": "room-align"
+    },
+    {
+      "jp": "ウェンディ",
+      "ko": "웬디",
+      "type": "character",
+      "basis": "official",
+      "source": "https://www.nintendo.com/kr/switch/aabpa/sp/character/",
+      "note": "glossary 확정값. 쿠파 7인조 [gl_enemies]"
+    },
+    {
+      "jp": "クッパ（えんきょり）",
+      "ko": "쿠파(원거리)",
+      "type": "character",
+      "basis": "coined",
+      "source": "BMsg/b_sys#660",
+      "note": "[gl_kj]"
+    },
+    {
+      "jp": "クッパ７人衆",
+      "ko": "쿠파 7인조",
+      "type": "character",
+      "basis": "official",
+      "source": "https://namu.wiki/w/%EC%BF%A0%ED%8C%8C%207%EC%9D%B8%EC%A1%B0",
+      "note": "마리오 카트 8 이후 한국 공식 명칭(나무위키 기재). 3DX 원문에 'コクッパ'는 나오지 않음 [gl_kj]"
+    },
+    {
+      "jp": "ブロドッグちゃん",
+      "ko": "우리 블도그",
+      "type": "character",
+      "basis": "DS",
+      "source": "o_mushiba_12#4 <-> DS035#6 ; o_mushiba_12#12 <-> DS035#14 ; o_ekubon_02_after#13 <-> DS28D#1",
+      "note": "블록 상점 신사의 말. ちゃん은 '우리'로 살림. 앞에 소유격이 있으면 '블도그'만(DS035#3) [gl_characters]"
+    },
+    {
+      "jp": "マリオ",
+      "ko": "마리오",
+      "type": "character",
+      "basis": "DS",
+      "source": "BData__mfset_Help#19",
+      "note": "[gl_kj]"
+    },
+    {
+      "jp": "ルイージ",
+      "ko": "루이지",
+      "type": "character",
+      "basis": "DS",
+      "source": "BData__mfset_Help#20",
+      "note": "[gl_kj]"
+    },
+    {
+      "jp": "ルドウィッグ",
+      "ko": "루드윅",
+      "type": "character",
+      "basis": "official",
+      "source": "https://www.nintendo.com/kr/switch/aabpa/sp/character/",
+      "note": "glossary 확정값. 쿠파 7인조 [gl_enemies]"
+    },
+    {
+      "jp": "７人衆",
+      "ko": "7인조",
+      "type": "character",
+      "basis": "official",
+      "source": "https://namu.wiki/w/%EC%BF%A0%ED%8C%8C%207%EC%9D%B8%EC%A1%B0",
+      "note": "「アタシ達 ７人衆」→'우리 7인조' [gl_kj]"
+    },
+    {
+      "jp": "ウルヘイ",
+      "ko": "알람병",
+      "type": "enemy",
+      "basis": "DS",
+      "source": "BData__mfset_MonN#31",
+      "note": "うるさい+ヘイ(병, DS 폭탄병). 폭발하면 ゴーネム=쿨쿨렘(#32)을 깨움 [gl_enemies]"
+    },
+    {
+      "jp": "エアプン",
+      "ko": "에어냅스",
+      "type": "enemy",
+      "basis": "DS",
+      "source": "BData__mfset_MonN#79",
+      "note": "シナプン(냅스, #42)의 에어 스페이스판(공격 패턴 동일) [gl_enemies]"
+    },
+    {
+      "jp": "クリボー",
+      "ko": "굼바",
+      "type": "enemy",
+      "basis": "DS",
+      "source": "BAI__BMes_cf:0#1",
+      "note": "glossary 확정값 [gl_enemies]"
+    },
+    {
+      "jp": "ゲラワンワン",
+      "ko": "까르멍멍이",
+      "type": "enemy",
+      "basis": "DS",
+      "source": "BData__mfset_MonN#20",
+      "note": "블캐츠 설명 대응(3DX Menu#523 ↔ DS MData__mfset_MenuMes#78). ワンワン=멍멍이 [gl_enemies]"
+    },
+    {
+      "jp": "コレステロン",
+      "ko": "콜레스테론",
+      "type": "enemy",
+      "basis": "DS",
+      "source": "i_challenge_01#111 ↔ DS28A#58",
+      "note": "room-align"
+    },
+    {
+      "jp": "ゴーネム",
+      "ko": "쿨쿨렘",
+      "type": "enemy",
+      "basis": "DS",
+      "source": "BData__mfset_MonN#32",
+      "note": "블캐츠 설명 대응(3DX Menu#708 ↔ DS MData__mfset_MenuMes#92) [gl_enemies]"
+    },
+    {
+      "jp": "ダークサテライト",
+      "ko": "다크위성",
+      "type": "enemy",
+      "basis": "DS",
+      "source": "BData__mfset_MonN#71",
+      "note": "다크스타전의 부하 [gl_enemies]"
+    },
+    {
+      "jp": "ダークトレジャン",
+      "ko": "다크트레전",
+      "type": "enemy",
+      "basis": "DS",
+      "source": "BData__mfset_MonN#86",
+      "note": "블캐츠 설명 대응(3DX Menu#720 ↔ DS MData__mfset_MenuMes#94) [gl_enemies]"
+    },
+    {
+      "jp": "ダークメカコビッツ",
+      "ko": "다크메카코비츠",
+      "type": "enemy",
+      "basis": "DS",
+      "source": "BData__mfset_MonN#68",
+      "note": "블캐츠 설명 대응(3DX Menu#727 ↔ DS MData__mfset_MenuMes#96) [gl_enemies]"
+    },
+    {
+      "jp": "ヅッツン",
+      "ko": "훌쩍쿵쿵",
+      "type": "enemy",
+      "basis": "DS",
+      "source": "BData__mfset_MonN#59",
+      "note": "블캐츠 설명 대응(3DX Menu#688 ↔ DS MData__mfset_MenuMes#88). ドッスン=쿵쿵 [gl_enemies]"
+    },
+    {
+      "jp": "テレサ",
+      "ko": "부끄부끄",
+      "type": "enemy",
+      "basis": "DS",
+      "source": "FEvent:063#44",
+      "note": "glossary 확정값 [gl_enemies]"
+    },
+    {
+      "jp": "ドッスン",
+      "ko": "쿵쿵",
+      "type": "enemy",
+      "basis": "DS",
+      "source": "FEvent:063#45",
+      "note": "「ドッスンおとし」에 사용 [gl_kj]"
+    },
+    {
+      "jp": "ノコノコ",
+      "ko": "엉금엉금",
+      "type": "enemy",
+      "basis": "DS",
+      "source": "BData__mfset_AItmE#10",
+      "note": "[gl_kj]"
+    },
+    {
+      "jp": "ノコノコ（赤）",
+      "ko": "엉금엉금(빨강)",
+      "type": "enemy",
+      "basis": "coined",
+      "source": "BMsg/b_sys#644",
+      "note": "[gl_kj]"
+    },
+    {
+      "jp": "パタテンテン（紫）",
+      "ko": "펄럭무당무당(보라)",
+      "type": "enemy",
+      "basis": "coined",
+      "source": "BMsg/b_sys#584",
+      "note": "[gl_kj]"
+    },
+    {
+      "jp": "パタテンテン（赤）",
+      "ko": "펄럭무당무당(빨강)",
+      "type": "enemy",
+      "basis": "coined",
+      "source": "BMsg/b_sys#623",
+      "note": "[gl_kj]"
+    },
+    {
+      "jp": "ヘイホー",
+      "ko": "헤이호",
+      "type": "enemy",
+      "basis": "DS",
+      "source": "FEvent:048#35",
+      "note": "[gl_kj]"
+    },
+    {
+      "jp": "ペタリーノ",
+      "ko": "납작충이",
+      "type": "enemy",
+      "basis": "DS",
+      "source": "BData__mfset_MonN#1",
+      "note": "볼조개 숲의 벌레. 보스형 ベタリーノ=넙적충이(#8)와 짝(ぺた=납작, べた=넙적) [gl_enemies]"
+    },
+    {
+      "jp": "マガツリー",
+      "ko": "몬트리",
+      "type": "enemy",
+      "basis": "DS",
+      "source": "BData__mfset_MonN#0",
+      "note": "블캐츠 설명 대응(3DX Menu#495 ↔ DS MData__mfset_MenuMes#72) [gl_enemies]"
+    },
+    {
+      "jp": "メカクッパ",
+      "ko": "메카쿠파",
+      "type": "enemy",
+      "basis": "official",
+      "source": "https://namu.wiki/w/%EB%A7%88%EB%A6%AC%EC%98%A4%26%EB%A3%A8%EC%9D%B4%EC%A7%80%20RPG%201%20DX",
+      "note": "glossary 확정값. 3DX 신규 [gl_enemies]"
+    },
+    {
+      "jp": "ワンワン",
+      "ko": "멍멍이",
+      "type": "enemy",
+      "basis": "DS",
+      "source": "FEvent:063#45",
+      "note": "glossary 확정값 [gl_enemies]"
+    },
+    {
+      "jp": "おやつ",
+      "ko": "간식",
+      "type": "item",
+      "basis": "coined",
+      "source": "BMsg/b_sys#1590",
+      "note": "「おやつのじかん」 [gl_kj]"
+    },
+    {
+      "jp": "エンキョリEXPマメL",
+      "ko": "원거리EXP콩L",
+      "type": "item",
+      "basis": "coined",
+      "source": "BMsg/b_sys#669",
+      "note": "[gl_kj]"
+    },
+    {
+      "jp": "エンキョリEXPマメM",
+      "ko": "원거리EXP콩M",
+      "type": "item",
+      "basis": "coined",
+      "source": "BMsg/b_sys#685",
+      "note": "[gl_kj]"
+    },
+    {
+      "jp": "キノコ",
+      "ko": "버섯",
+      "type": "item",
+      "basis": "DS",
+      "source": "BData__mfset_UItmN#0",
+      "note": "일반 명사 キノコ도 버섯(キノコタウン=버섯 타운) [gl_items]"
+    },
+    {
+      "jp": "コゲコゲピリからチキン",
+      "ko": "새까만약간매운치킨",
+      "type": "item",
+      "basis": "coined",
+      "source": "BMsg/b_sys#1693",
+      "note": "DS '약간매운치킨' + 새까맣게 탐. DS식 붙여 쓰기 [gl_kj]"
+    },
+    {
+      "jp": "バキュームブロック",
+      "ko": "배큐엄블록",
+      "type": "key_item",
+      "basis": "DS",
+      "source": "MData__mfset_MenuMes#43",
+      "note": "붙여 씀 [gl_attacks]"
+    },
+    {
+      "jp": "ブロキャット",
+      "ko": "블캐츠",
+      "type": "key_item",
+      "basis": "DS",
+      "source": "MData__mfset_MenuMes#67",
+      "note": "15마리 공통 이름 [gl_items]"
+    },
+    {
+      "jp": "エンドレス",
+      "ko": "엔드리스",
+      "type": "other",
+      "basis": "DS",
+      "source": "BData__mfset_MiniGame#0",
+      "note": "DS 모드명 '엔드리스 모드' [gl_attacks]"
+    },
+    {
+      "jp": "クリボー軍団",
+      "ko": "굼바 군단",
+      "type": "other",
+      "basis": "DS",
+      "source": "FEvent#048.29",
+      "note": "[gl_attacks]"
+    },
+    {
+      "jp": "ムッシュ",
+      "ko": "신사",
+      "type": "other",
+      "basis": "DS",
+      "source": "o_ibiki_01#3 <-> DS134#7 ; o_koopa_r_33#8 <-> DS145#7",
+      "note": "correction(note만): 블록 상점 신사가 쿠파(전투 중엔 마리오도)를 부르는 말. 기존 note의 '블로크'는 DS 표기가 아님(상점 주인의 본명은 JP·DS 대사에 없음) [gl_characters]"
+    },
+    {
+      "jp": "DEF",
+      "ko": "DEF",
+      "type": "term",
+      "basis": "DS",
+      "source": "BData__mfset_WearE#23",
+      "note": "[gl_attacks]"
+    },
+    {
+      "jp": "EXP",
+      "ko": "EXP",
+      "type": "term",
+      "basis": "DS",
+      "source": "BData__mfset_BadgeEffectE#11",
+      "note": "[gl_attacks]"
+    },
+    {
+      "jp": "GDD",
+      "ko": "GDH",
+      "type": "term",
+      "basis": "official",
+      "source": "https://namu.wiki/w/%EB%A7%88%EB%A6%AC%EC%98%A4%26%EB%A3%A8%EC%9D%B4%EC%A7%80%20RPG%201%20DX",
+      "note": "軍団魂(군단혼)의 약자. RPG1 DX 한국판 'GDH'(나무위키 기재) — 확인 필요 [gl_kj]"
+    },
+    {
+      "jp": "HP",
+      "ko": "HP",
+      "type": "term",
+      "basis": "DS",
+      "source": "BAI__BMes_cf#2.11",
+      "note": "[gl_attacks]"
+    },
+    {
+      "jp": "POW",
+      "ko": "POW",
+      "type": "term",
+      "basis": "DS",
+      "source": "BData__mfset_WearE#35",
+      "note": "[gl_attacks]"
+    },
+    {
+      "jp": "SPEED",
+      "ko": "SPEED",
+      "type": "term",
+      "basis": "DS",
+      "source": "BData__mfset_MonN#52",
+      "note": "DS 설명문은 '스피드'(RankUpE#22) [gl_attacks]"
+    },
+    {
+      "jp": "えんきょり",
+      "ko": "원거리",
+      "type": "term",
+      "basis": "official",
+      "source": "https://namu.wiki/w/%EB%A7%88%EB%A6%AC%EC%98%A4%26%EB%A3%A8%EC%9D%B4%EC%A7%80%20RPG%201%20DX",
+      "note": "타입명 단독 [gl_kj]"
+    },
+    {
+      "jp": "じんけい",
+      "ko": "진형",
+      "type": "term",
+      "basis": "coined",
+      "source": "BMsg/b_sys:KJGuide_O12",
+      "note": "[gl_kj]"
+    },
+    {
+      "jp": "じんけいボーナス",
+      "ko": "진형 보너스",
+      "type": "term",
+      "basis": "coined",
+      "source": "BMsg/b_sys#1600",
+      "note": "[gl_kj]"
+    },
+    {
+      "jp": "ひこうき",
+      "ko": "비행기",
+      "type": "term",
+      "basis": "coined",
+      "source": "BMsg/b_sys#667",
+      "note": "진형 이름 [gl_kj]"
+    },
+    {
+      "jp": "ぼっちゃん",
+      "ko": "도련님",
+      "type": "term",
+      "basis": "coined",
+      "source": "MenuKJ#93",
+      "note": "마귀·쿠파 7인조·부하들이 쿠파주니어를 부르는 말. DS에 없음 [gl_kj]"
+    },
+    {
+      "jp": "やけど",
+      "ko": "화상",
+      "type": "term",
+      "basis": "DS",
+      "source": "BData__mfset_AItmE2#6",
+      "note": "[gl_attacks]"
+    },
+    {
+      "jp": "アタック",
+      "ko": "어택",
+      "type": "term",
+      "basis": "DS",
+      "source": "BDataMiniGame__mfset_MesDat_MiniGame#5",
+      "note": "스페셜 어택을 줄여 부를 때. 단 퀴즈의 パンチアタック/ファイアアタック은 DS대로 '~ 공격' [gl_attacks]"
+    },
+    {
+      "jp": "アップ",
+      "ko": "업",
+      "type": "term",
+      "basis": "DS",
+      "source": "FEvent:0EC#11",
+      "note": "이름 안의 アップ는 '업'(POW 업, 파워 업). 설명 문장의 'アップする/アップ!'는 DS 장비·아이템 설명대로 '증가'"
+    },
+    {
+      "jp": "カウンター",
+      "ko": "반격",
+      "type": "term",
+      "basis": "DS",
+      "source": "BAI__BMes_cf#2.1",
+      "note": "カウンターする→반격하다 [gl_attacks]"
+    },
+    {
+      "jp": "クッパ様",
+      "ko": "쿠파님",
+      "type": "term",
+      "basis": "DS",
+      "source": "BAI__BMes_cf:0#0",
+      "note": "부하들이 부를 때 [gl_kj]"
+    },
+    {
+      "jp": "グループアタック",
+      "ko": "그룹 어택",
+      "type": "term",
+      "basis": "coined",
+      "source": "BMsg/b_sys#24",
+      "note": "[gl_kj]"
+    },
+    {
+      "jp": "コイン",
+      "ko": "코인",
+      "type": "term",
+      "basis": "DS",
+      "source": "BData__mfset_WearE#22",
+      "note": "[gl_items]"
+    },
+    {
+      "jp": "コウラ",
+      "ko": "등껍질",
+      "type": "term",
+      "basis": "DS",
+      "source": "BAI__BMes_cf#8.1",
+      "note": "쿠파의 방어 커맨드(Y)·등껍질 일반 [gl_attacks]"
+    },
+    {
+      "jp": "タイミング",
+      "ko": "타이밍",
+      "type": "term",
+      "basis": "DS",
+      "source": "BAI__BMes_cf#4.12",
+      "note": "[gl_attacks]"
+    },
+    {
+      "jp": "ダイヤ",
+      "ko": "다이아",
+      "type": "term",
+      "basis": "coined",
+      "source": "BMsg/b_sys#601",
+      "note": "진형 이름 [gl_kj]"
+    },
+    {
+      "jp": "ダウン",
+      "ko": "다운",
+      "type": "term",
+      "basis": "DS",
+      "source": "BData__mfset_AItmE2#16",
+      "note": "이름 안의 ダウン은 '다운'(POW 다운). 설명 문장의 'ダウンする/させる'는 DS대로 '감소/줄여 주는'"
+    },
+    {
+      "jp": "ダメージ",
+      "ko": "타격",
+      "type": "term",
+      "basis": "DS",
+      "source": "DS '타격' 32회 / '대미지' 5회",
+      "note": "'타격을 입히다/입다'. 숫자·연속 공격 문맥은 '대미지' 허용(DS: 연속 대미지)"
+    },
+    {
+      "jp": "チキン",
+      "ko": "치킨",
+      "type": "term",
+      "basis": "DS",
+      "source": "BData__mfset_WearE#98",
+      "note": "[gl_items]"
+    },
+    {
+      "jp": "ドカン",
+      "ko": "토관",
+      "type": "term",
+      "basis": "DS",
+      "source": "BData__mfset_AItmE#3",
+      "note": "진형 이름 [gl_kj]"
+    },
+    {
+      "jp": "バトル",
+      "ko": "배틀",
+      "type": "term",
+      "basis": "DS",
+      "source": "BAI__BMes_cf#2.13",
+      "note": "명사는 '배틀'. 동사 'バトルする/した'는 DS처럼 '싸우다'로 써도 된다"
+    },
+    {
+      "jp": "バブル",
+      "ko": "버블",
+      "type": "term",
+      "basis": "coined",
+      "source": "BMsg/b_sys#583",
+      "note": "진형 이름. DS '버블징오징오'의 '버블' [gl_kj]"
+    },
+    {
+      "jp": "ヒゲ",
+      "ko": "수염",
+      "type": "term",
+      "basis": "DS",
+      "source": "DS '수염' 21회",
+      "note": ""
+    },
+    {
+      "jp": "ブーメラン",
+      "ko": "부메랑",
+      "type": "term",
+      "basis": "coined",
+      "source": "BMsg/b_sys#1628",
+      "note": "진형 이름 [gl_kj]"
+    },
+    {
+      "jp": "マメ",
+      "ko": "콩",
+      "type": "term",
+      "basis": "DS",
+      "source": "MData__mfset_MenuMes#136",
+      "note": "DS '콩이라는 아이템', '획득한 콩의 수' [gl_items]"
+    },
+    {
+      "jp": "マリオ達",
+      "ko": "마리오 일행",
+      "type": "term",
+      "basis": "DS",
+      "source": "EDataSave__mfset_EMesOutline#16",
+      "note": "기본값. 같은 장면의 DS 문장이 다른 표현을 쓰면 DS대로(쿠파 몸속 터치 미니게임 DS155·1AB '마리오 형제', DS0F4 '마리오와 루이지'). 조사 주의(형제를/형제가)"
+    },
+    {
+      "jp": "ミー",
+      "ko": "미",
+      "type": "term",
+      "basis": "DS",
+      "source": "o_areanone_allmap_bcat_U#4 ↔ DS283#2",
+      "note": "room-align"
+    },
+    {
+      "jp": "ムッシュ～",
+      "ko": "신사",
+      "type": "term",
+      "basis": "DS",
+      "source": "o_koopa_37#3 ↔ DS23C#8",
+      "note": "room-align"
+    },
+    {
+      "jp": "メガネ",
+      "ko": "안경",
+      "type": "term",
+      "basis": "DS",
+      "source": "BData__mfset_WearN#231",
+      "note": "DS オタカラメガネ=보물안경 [gl_items]"
+    },
+    {
+      "jp": "メンバー",
+      "ko": "멤버",
+      "type": "term",
+      "basis": "coined",
+      "source": "MenuKJ#93",
+      "note": "[gl_kj]"
+    },
+    {
+      "jp": "モンスター",
+      "ko": "몬스터",
+      "type": "term",
+      "basis": "DS",
+      "source": "BAI__BMes_cf#2.1",
+      "note": "[gl_attacks]"
+    },
+    {
+      "jp": "仲間",
+      "ko": "동료",
+      "type": "term",
+      "basis": "DS",
+      "source": "FEvent:048#29",
+      "note": "「仲間になった」→'동료가 되었다' [gl_kj]"
+    },
+    {
+      "jp": "体力",
+      "ko": "체력",
+      "type": "term",
+      "basis": "DS",
+      "source": "BData__mfset_RankUpE#14",
+      "note": "[gl_attacks]"
+    },
+    {
+      "jp": "復活",
+      "ko": "부활",
+      "type": "term",
+      "basis": "DS",
+      "source": "BData__mfset_UItmE2#2",
+      "note": "[gl_items]"
+    },
+    {
+      "jp": "攻撃",
+      "ko": "공격",
+      "type": "term",
+      "basis": "DS",
+      "source": "BAI__BMes_cf#2.1",
+      "note": "[gl_attacks]"
+    },
+    {
+      "jp": "攻撃力",
+      "ko": "공격력",
+      "type": "term",
+      "basis": "DS",
+      "source": "BData__mfset_RankUpE#18",
+      "note": "[gl_attacks]"
+    },
+    {
+      "jp": "星空",
+      "ko": "별하늘",
+      "type": "term",
+      "basis": "coined",
+      "source": "BMsg/b_sys#620",
+      "note": "쿠파Jr. RPG 진형 이름일 때만 '별하늘'. 보통 '별이 가득한 하늘'은 문맥대로"
+    },
+    {
+      "jp": "軍団",
+      "ko": "군단",
+      "type": "term",
+      "basis": "DS",
+      "source": "BAI__BMes_cf#0.20",
+      "note": "[gl_attacks]"
+    },
+    {
+      "jp": "連打",
+      "ko": "연타",
+      "type": "term",
+      "basis": "DS",
+      "source": "BData__mfset_AItmE#17",
+      "note": "[gl_attacks]"
+    },
+    {
+      "jp": "配置",
+      "ko": "배치",
+      "type": "term",
+      "basis": "coined",
+      "source": "MenuKJ#50",
+      "note": "[gl_kj]"
+    },
+    {
+      "jp": "防御",
+      "ko": "방어",
+      "type": "term",
+      "basis": "DS",
+      "source": "BAI__BMes_cf#3.8",
+      "note": "[gl_attacks]"
+    },
+    {
+      "jp": "防御力",
+      "ko": "방어력",
+      "type": "term",
+      "basis": "DS",
+      "source": "BData__mfset_RankUpE#20",
+      "note": "[gl_attacks]"
+    },
+    {
+      "jp": "おてほん",
+      "ko": "시범",
+      "type": "ui",
+      "basis": "DS",
+      "source": "MAI__MMes_yo#2.12",
+      "note": "[gl_attacks]"
+    },
+    {
+      "jp": "せってい",
+      "ko": "설정",
+      "type": "ui",
+      "basis": "coined",
+      "source": "",
+      "note": "3DX 신규 스타 메뉴 항목 [gl_menu_places]"
+    },
+    {
+      "jp": "へんせい",
+      "ko": "편성",
+      "type": "ui",
+      "basis": "coined",
+      "source": "MenuKJ#61",
+      "note": "[gl_kj]"
+    },
+    {
+      "jp": "れんしゅう",
+      "ko": "연습",
+      "type": "ui",
+      "basis": "DS",
+      "source": "MAI__MMes_yo#2.12",
+      "note": "[gl_attacks]"
+    },
+    {
+      "jp": "を手に入れた！",
+      "ko": "획득했다!",
+      "type": "ui",
+      "basis": "DS",
+      "source": "BAI__BMes_ji#1.0",
+      "note": "시스템 알림 '○○을/를 획득했다!'(조사는 받침에 맞게) [gl_menu_places]"
+    },
+    {
+      "jp": "アイテム",
+      "ko": "아이템",
+      "type": "ui",
+      "basis": "DS",
+      "source": "BData__mfset_Help#13",
+      "note": "[gl_attacks]"
+    },
+    {
+      "jp": "イージーモード",
+      "ko": "이지 모드",
+      "type": "ui",
+      "basis": "coined",
+      "source": "",
+      "note": "3DX 신규 설정 [gl_attacks]"
+    },
+    {
+      "jp": "ガイド",
+      "ko": "가이드",
+      "type": "ui",
+      "basis": "coined",
+      "source": "",
+      "note": "3DX 신규 커맨드 블록(배틀 가이드를 연다) [gl_attacks]"
+    },
+    {
+      "jp": "キャラクター",
+      "ko": "캐릭터",
+      "type": "ui",
+      "basis": "coined",
+      "source": "",
+      "note": "[gl_menu_places]"
+    },
+    {
+      "jp": "クリア",
+      "ko": "클리어",
+      "type": "ui",
+      "basis": "coined",
+      "source": "",
+      "note": "[gl_menu_places]"
+    },
+    {
+      "jp": "コマンド",
+      "ko": "커맨드",
+      "type": "ui",
+      "basis": "DS",
+      "source": "BAI__BMes_cf#2.12",
+      "note": "[gl_menu_places]"
+    },
+    {
+      "jp": "コマンドブロック",
+      "ko": "커맨드 블록",
+      "type": "ui",
+      "basis": "DS",
+      "source": "BAI__BMes_cf#2.12",
+      "note": "[gl_attacks]"
+    },
+    {
+      "jp": "ゴールド",
+      "ko": "골드",
+      "type": "ui",
+      "basis": "DS",
+      "source": "BData__mfset_RankUpE#10",
+      "note": "[gl_kj]"
+    },
+    {
+      "jp": "スターメニュー",
+      "ko": "스타 메뉴",
+      "type": "ui",
+      "basis": "DS",
+      "source": "MAI__MMes_yo#1.0",
+      "note": "[gl_menu_places]"
+    },
+    {
+      "jp": "ステータス",
+      "ko": "능력",
+      "type": "ui",
+      "basis": "DS",
+      "source": "DS16A#27",
+      "note": "스타 메뉴 항목명도 '능력'"
+    },
+    {
+      "jp": "ボコスカきほんガイド",
+      "ko": "배틀 기본 가이드",
+      "type": "ui",
+      "basis": "coined",
+      "source": "BMsg/b_sys#625",
+      "note": "[gl_kj]"
+    },
+    {
+      "jp": "ボコスカアタックガイド",
+      "ko": "배틀 어택 가이드",
+      "type": "ui",
+      "basis": "coined",
+      "source": "BMsg/b_sys#604",
+      "note": "본편 ボコスカアタック(DS '스페셜 어택')과 다른 쿠파주니어 RPG 전투 가이드 [gl_kj]"
+    },
+    {
+      "jp": "ボコスカコマンドガイド",
+      "ko": "배틀 커맨드 가이드",
+      "type": "ui",
+      "basis": "coined",
+      "source": "BMsg/b_sys#647",
+      "note": "[gl_kj]"
+    },
+    {
+      "jp": "ボタン",
+      "ko": "버튼",
+      "type": "ui",
+      "basis": "DS",
+      "source": "MAI__MMes_yo#1.16",
+      "note": "[gl_menu_places]"
+    },
+    {
+      "jp": "上画面",
+      "ko": "위 화면",
+      "type": "ui",
+      "basis": "DS",
+      "source": "BDataMiniGame__mfset_MesDat_MiniGame#9",
+      "note": "[gl_kj]"
+    },
+    {
+      "jp": "下画面",
+      "ko": "아래 화면",
+      "type": "ui",
+      "basis": "DS",
+      "source": "BAI__BMes_cf:7#7",
+      "note": "[gl_kj]"
+    },
+    {
+      "jp": "軍団へんせい",
+      "ko": "군단 편성",
+      "type": "ui",
+      "basis": "coined",
+      "source": "MenuKJ#64",
+      "note": "[gl_kj]"
+    },
+    {
+      "jp": "項目が追加されました。",
+      "ko": "항목이 추가되었습니다.",
+      "type": "ui",
+      "basis": "coined",
+      "source": "",
+      "note": "가이드 추가 알림 [gl_menu_places]"
+    }
+  ],
+  "messages": [
+    {
+      "id": "BMsg/b_sys#566",
+      "label": "Petari",
+      "style": 13,
+      "src": "ペタリーノ",
+      "tags": {},
+      "header": "[0009:0000:0D 00]",
+      "dups": []
+    },
+    {
+      "id": "BMsg/b_sys#567",
+      "label": "Sulim",
+      "style": 13,
+      "src": "スーリム",
+      "tags": {},
+      "header": "[0009:0000:0D 00]",
+      "dups": []
+    },
+    {
+      "id": "BMsg/b_sys#568",
+      "label": "Dstllite",
+      "style": 13,
+      "src": "ダークサテライト",
+      "tags": {},
+      "header": "[0009:0000:0D 00]",
+      "dups": []
+    },
+    {
+      "id": "BMsg/b_sys#569",
+      "label": "Gmonster_ko_x",
+      "style": 13,
+      "src": "ガラクタコブンX",
+      "tags": {},
+      "header": "[0009:0000:0D 00]",
+      "dups": []
+    },
+    {
+      "id": "BMsg/b_sys#570",
+      "label": "Hint_Dmechaco_0_0",
+      "style": 11,
+      "src": "ダークメカコビッツは\n倒しても頭だけで逃げてしまい\nそのままにすると復活してしまいます。",
+      "tags": {},
+      "header": "[0009:0000:0B 00]",
+      "dups": []
+    },
+    {
+      "id": "BMsg/b_sys#571",
+      "label": "Hint_Dstar_0_1",
+      "style": 11,
+      "src": "ダークサテライトを攻撃すると\nその場にダウンします。\nダークスターがダークサテライトと\n爆弾を投げるので\nダークサテライトだけ打ち返しましょう。",
+      "tags": {},
+      "header": "[0009:0000:0B 00]",
+      "dups": []
+    },
+    {
+      "id": "BMsg/b_sys#572",
+      "label": "Hint_Mboss_0_0",
+      "style": 11,
+      "src": "メタボスの攻撃を食らってしまうと\n観客に食べ物を投げ込まれ\nメタボスが回復してしまいます。\nメタボスが食べてしまう前に\nバキュームしましょう。",
+      "tags": {},
+      "header": "[0009:0000:0B 00]",
+      "dups": []
+    },
+    {
+      "id": "BMsg/b_sys#573",
+      "label": "KJGuide_BA14_0",
+      "style": 11,
+      "src": "チカラをためてたくさんの武器を投げつけ\n{1:color}前方にいる複数の敵にダメージ{2:color}を与えます。",
+      "tags": {
+        "1": "[Color #2C64FF]",
+        "2": "[Color #E6E6E6]"
+      },
+      "header": "[0009:0000:0B 00]",
+      "dups": []
+    },
+    {
+      "id": "BMsg/b_sys#574",
+      "label": "KJGuide_BA15",
+      "style": 12,
+      "src": "まきちらし",
+      "tags": {},
+      "header": "[0009:0000:0C 00]",
+      "dups": [
+        "BMsg/b_sys#912"
+      ]
+    },
+    {
+      "id": "BMsg/b_sys#576",
+      "label": "Kj_Btl_slc_bai_08",
+      "style": 9,
+      "src": "倍返しだ～！{1:pause}",
+      "tags": {
+        "1": "[0002:0000:1E 00]"
+      },
+      "header": "[0009:0000:09 00]",
+      "dups": []
+    },
+    {
+      "id": "BMsg/b_sys#577",
+      "label": "MES_KGarakuta_01_mes_01",
+      "style": 6,
+      "src": "{1:align}２人そろうと\nそれなりに 頼もしいわね。{2:wait}",
+      "tags": {
+        "1": "[0001:0004:]",
+        "2": "[0002:0001:]"
+      },
+      "header": "[0009:0000:06 00]",
+      "dups": []
+    },
+    {
+      "id": "BMsg/b_sys#578",
+      "label": "MES_KGarakuta_02_mes_00",
+      "style": 6,
+      "src": "{1:align}マリオ！ ルイージ！{2:wait}",
+      "tags": {
+        "1": "[0001:0004:]",
+        "2": "[0002:0001:]"
+      },
+      "header": "[0009:0000:06 00]",
+      "dups": []
+    },
+    {
+      "id": "BMsg/b_sys#579",
+      "label": "MES_Mushiba_04_mes_01",
+      "style": 6,
+      "src": "{1:align}まずはバキュームブロックを ルック！{2:wait}[Next]{3:align}はげしく 反応しますね！\nバキュームブロックをチョイス！{4:wait}",
+      "tags": {
+        "1": "[0001:0004:]",
+        "2": "[0002:0001:]",
+        "3": "[0001:0004:]",
+        "4": "[0002:0001:]"
+      },
+      "header": "[0009:0000:06 00]",
+      "dups": []
+    },
+    {
+      "id": "BMsg/b_sys#580",
+      "label": "MES_Mushiba_05_mes_00",
+      "style": 6,
+      "src": "{1:align}ヘイ！ ムッシュ～！{2:wait}",
+      "tags": {
+        "1": "[0001:0004:]",
+        "2": "[0002:0001:]"
+      },
+      "header": "[0009:0000:06 00]",
+      "dups": []
+    },
+    {
+      "id": "BMsg/b_sys#581",
+      "label": "Menu_KJ_Chr_exp_ludwig",
+      "style": 13,
+      "src": "クッパ７人衆の １人。\n切れ者で 相手をこうしょうで惑わすのが得意。",
+      "tags": {},
+      "header": "[0009:0000:0D 00]",
+      "dups": []
+    },
+    {
+      "id": "BMsg/b_sys#582",
+      "label": "Menu_KJ_cmd_morton_00",
+      "style": 13,
+      "src": "かばう",
+      "tags": {},
+      "header": "[0009:0000:0D 00]",
+      "dups": [
+        "BMsg/b_sys#1460"
+      ]
+    },
+    {
+      "id": "BMsg/b_sys#583",
+      "label": "Menu_KJ_fb_name_14",
+      "style": 13,
+      "src": "バブル",
+      "tags": {},
+      "header": "[0009:0000:0D 00]",
+      "dups": []
+    },
+    {
+      "id": "BMsg/b_sys#584",
+      "label": "Ptenten_p",
+      "style": 13,
+      "src": "パタテンテン（紫）",
+      "tags": {},
+      "header": "[0009:0000:0D 00]",
+      "dups": []
+    },
+    {
+      "id": "BMsg/b_sys#585",
+      "label": "kj_Btl_sys_massage_01",
+      "style": 12,
+      "src": "{1:mode}{2:align}ガイドは下画面のポーズボタンから\nいつでも確認できます。",
+      "tags": {
+        "1": "[0005:0000:]",
+        "2": "[0001:0001:]"
+      },
+      "header": "[0009:0000:0C 00]",
+      "dups": []
+    },
+    {
+      "id": "BMsg/b_sys#586",
+      "label": "Hint_Dmechaco_0_1",
+      "style": 11,
+      "src": "復活すると より強力な\nダークメカコビッツV２に\nなることがありますが\nV２で倒すと\nレアなアイテムを落とすことがあります。",
+      "tags": {},
+      "header": "[0009:0000:0B 00]",
+      "dups": []
+    },
+    {
+      "id": "BMsg/b_sys#587",
+      "label": "Hint_Dstar_0_2",
+      "style": 11,
+      "src": "ダークサテライトを２回 \nダークスターにぶつけると\nダークスターは眠ってしまいます。\n攻撃のチャンスは このタイミングだけです。",
+      "tags": {},
+      "header": "[0009:0000:0B 00]",
+      "dups": []
+    },
+    {
+      "id": "BMsg/b_sys#588",
+      "label": "Hint_Mboss_0_1",
+      "style": 11,
+      "src": "鉄球の 回転攻撃は\nしゃがむタイミングが早すぎると\n回っている最中に 立ち上がってしまうので\nギリギリまで引きつけてからしゃがみましょう。",
+      "tags": {},
+      "header": "[0009:0000:0B 00]",
+      "dups": []
+    },
+    {
+      "id": "BMsg/b_sys#589",
+      "label": "Hint_WanwanG_0_0",
+      "style": 11,
+      "src": "ゲラワンワンは頭のムシを クッパのバキュームで\n吸い込むとワンワンが正気に戻り\n簡単にバトルを終了させることができます。",
+      "tags": {},
+      "header": "[0009:0000:0B 00]",
+      "dups": []
+    },
+    {
+      "id": "BMsg/b_sys#590",
+      "label": "KJGuide_BA14_1",
+      "style": 11,
+      "src": "{1:color}{2:icon}{3:color}ボタンを連打してチカラをためましょう。\nチカラがたくさん たまるほど\n多くの武器を投げることができます。",
+      "tags": {
+        "1": "[Color #FF4343]",
+        "2": "[U+E000]",
+        "3": "[Color #E6E6E6]"
+      },
+      "header": "[0009:0000:0B 00]",
+      "dups": []
+    },
+    {
+      "id": "BMsg/b_sys#591",
+      "label": "KJGuide_BA16",
+      "style": 12,
+      "src": "ぶちぬき",
+      "tags": {},
+      "header": "[0009:0000:0C 00]",
+      "dups": [
+        "BMsg/b_sys#940"
+      ]
+    },
+    {
+      "id": "BMsg/b_sys#592",
+      "label": "KJGuide_BA23_2",
+      "style": 11,
+      "src": "グループアタックの場合は\n１体ずつ入力を行った後に\n一斉にかいおんぱを放ちます。",
+      "tags": {},
+      "header": "[0009:0000:0B 00]",
+      "dups": []
+    },
+    {
+      "id": "BMsg/b_sys#593",
+      "label": "KJGuide_BB05_0",
+      "style": 11,
+      "src": "仲間の強さ・ステータスは\n軍団へんせいで キャラクターを\n選ぶと表示されます。",
+      "tags": {},
+      "header": "[0009:0000:0B 00]",
+      "dups": []
+    },
+    {
+      "id": "BMsg/b_sys#594",
+      "label": "Kj_Btl_cmd_msg_patabroth5_1",
+      "style": 6,
+      "src": "アニキ！\n誰にやられたんですか！",
+      "tags": {},
+      "header": "[0009:0000:06 00]",
+      "dups": []
+    },
+    {
+      "id": "BMsg/b_sys#595",
+      "label": "Kj_Btl_cmd_msg_sulim_1",
+      "style": 6,
+      "src": "クックック… 遊んであげよう。",
+      "tags": {},
+      "header": "[0009:0000:06 00]",
+      "dups": []
+    },
+    {
+      "id": "BMsg/b_sys#596",
+      "label": "Kj_Btl_slc_bai_09",
+      "style": 9,
+      "src": "キミもついでだ～！{1:pause}",
+      "tags": {
+        "1": "[0002:0000:1E 00]"
+      },
+      "header": "[0009:0000:09 00]",
+      "dups": []
+    },
+    {
+      "id": "BMsg/b_sys#597",
+      "label": "Ludwig",
+      "style": 13,
+      "src": "ルドウィッグ",
+      "tags": {},
+      "header": "[0009:0000:0D 00]",
+      "dups": []
+    },
+    {
+      "id": "BMsg/b_sys#598",
+      "label": "MES_Mushiba_05_mes_01",
+      "style": 6,
+      "src": "{1:align}ブロドッグちゃんがジャンプしたら\nそのグレイトなコウラを使うのです！{2:wait}[Next]{3:color}{4:align}ミーがレクチャーしましょうか？{5:pause}\n{6:align}{7:choice}いらん{8:tab}{9:choice}やってくれ{10:color}{11:pause}",
+      "tags": {
+        "1": "[0001:0004:]",
+        "2": "[0002:0001:]",
+        "3": "[Color #373737]",
+        "4": "[0001:0004:]",
+        "5": "[0002:0000:0A 00]",
+        "6": "[0001:0001:]",
+        "7": "[0004:0001:]",
+        "8": "[0006:0000:28 00]",
+        "9": "[0004:0001:]",
+        "10": "[Color #373737]",
+        "11": "[0002:0000:0A 00]"
+      },
+      "header": "[0009:0000:06 00]",
+      "dups": []
+    },
+    {
+      "id": "BMsg/b_sys#599",
+      "label": "Menu_KJ_Chr_exp_tkuribo",
+      "style": 13,
+      "src": "前方にいる敵全体を 攻撃できるアタックが強み。\n体勢を崩される{1:color}ブーメラン攻撃{2:color}が苦手。",
+      "tags": {
+        "1": "[Color #4ED4FF]",
+        "2": "[Color #E6E6E6]"
+      },
+      "header": "[0009:0000:0D 00]",
+      "dups": []
+    },
+    {
+      "id": "BMsg/b_sys#600",
+      "label": "Menu_KJ_cmd_morton_01",
+      "style": 13,
+      "src": "ドッスンおとし",
+      "tags": {},
+      "header": "[0009:0000:0D 00]",
+      "dups": [
+        "BMsg/b_sys#1475"
+      ]
+    },
+    {
+      "id": "BMsg/b_sys#601",
+      "label": "Menu_KJ_fb_name_15",
+      "style": 13,
+      "src": "ダイヤ",
+      "tags": {},
+      "header": "[0009:0000:0D 00]",
+      "dups": []
+    },
+    {
+      "id": "BMsg/b_sys#602",
+      "label": "Ns_ItemExpL_L",
+      "style": 4,
+      "src": "エンキョリEXPマメL",
+      "tags": {},
+      "header": "[0009:0000:04 00]",
+      "dups": [
+        "BMsg/b_sys#669"
+      ]
+    },
+    {
+      "id": "BMsg/b_sys#603",
+      "label": "Retry_easymode_title",
+      "style": 1,
+      "src": "イージーモード",
+      "tags": {},
+      "header": "[0009:0000:01 00]",
+      "dups": [
+        "BMsg/b_sys#1154",
+        "Menu#427",
+        "Menu#552"
+      ]
+    },
+    {
+      "id": "BMsg/b_sys#604",
+      "label": "kj_Btl_sys_massage_02",
+      "style": 12,
+      "src": "{1:mode}{2:align}{3:color}ボコスカアタックガイド{4:color}に\n項目が追加されました。",
+      "tags": {
+        "1": "[0005:0000:]",
+        "2": "[0001:0001:]",
+        "3": "[Color #4ED4FF]",
+        "4": "[Color #E6E6E6]"
+      },
+      "header": "[0009:0000:0C 00]",
+      "dups": []
+    },
+    {
+      "id": "BMsg/b_sys#605",
+      "label": "Hint_Dmechaco_0_2",
+      "style": 11,
+      "src": "「カウントパンチ」は\nカウント０になった瞬間を\n狙ってみましょう。",
+      "tags": {},
+      "header": "[0009:0000:0B 00]",
+      "dups": []
+    },
+    {
+      "id": "BMsg/b_sys#606",
+      "label": "Hint_Dstar_0_3",
+      "style": 11,
+      "src": "ダークスターがマリオ達の\n影に向かって発射する\n「シャドービーム」は当たってしまうと\nマリオ達にもダメージが入ってしまいます。",
+      "tags": {},
+      "header": "[0009:0000:0B 00]",
+      "dups": []
+    },
+    {
+      "id": "BMsg/b_sys#607",
+      "label": "Hint_Mboss_0_2",
+      "style": 11,
+      "src": "メタボスゆっくり近づいてきたら\nふくらんだお腹に パンチの\nカウンターを何度も当ててみましょう。",
+      "tags": {},
+      "header": "[0009:0000:0B 00]",
+      "dups": []
+    },
+    {
+      "id": "BMsg/b_sys#608",
+      "label": "Hint_Mtree_0_0",
+      "style": 11,
+      "src": "火に弱く 「{1:color}やけど{2:color}」にもなりやすいので\nファイアフラワーや ファイアで攻撃しましょう。",
+      "tags": {
+        "1": "[Color #2C64FF]",
+        "2": "[Color #E6E6E6]"
+      },
+      "header": "[0009:0000:0B 00]",
+      "dups": []
+    },
+    {
+      "id": "BMsg/b_sys#609",
+      "label": "Hint_WanwanG_0_1",
+      "style": 11,
+      "src": "クッパのバキュームで吸い込むことができるのは\n頭のムシが顔を出している時だけです。\n出ていない場合は ファイアを使ってみましょう。",
+      "tags": {},
+      "header": "[0009:0000:0B 00]",
+      "dups": []
+    },
+    {
+      "id": "BMsg/b_sys#610",
+      "label": "KJGuide_BA14_2",
+      "style": 11,
+      "src": "グループアタックの場合は\n全員が一斉に武器を投げます。",
+      "tags": {},
+      "header": "[0009:0000:0B 00]",
+      "dups": []
+    },
+    {
+      "id": "BMsg/b_sys#611",
+      "label": "KJGuide_BA17",
+      "style": 12,
+      "src": "れんしゃ",
+      "tags": {},
+      "header": "[0009:0000:0C 00]",
+      "dups": [
+        "BMsg/b_sys#957"
+      ]
+    },
+    {
+      "id": "BMsg/b_sys#612",
+      "label": "KJGuide_BB05_1",
+      "style": 11,
+      "src": "ステータスには「{1:color}HP{2:color}」 「{3:color}POW{4:color}」\n 「{5:color}DEF{6:color}」 「{7:color}SPEED{8:color}」 「{9:color}GDD{10:color}」 の\n５つがあります。",
+      "tags": {
+        "1": "[Color #2C64FF]",
+        "2": "[Color #E6E6E6]",
+        "3": "[Color #2C64FF]",
+        "4": "[Color #E6E6E6]",
+        "5": "[Color #2C64FF]",
+        "6": "[Color #E6E6E6]",
+        "7": "[Color #2C64FF]",
+        "8": "[Color #E6E6E6]",
+        "9": "[Color #2C64FF]",
+        "10": "[Color #E6E6E6]"
+      },
+      "header": "[0009:0000:0B 00]",
+      "dups": []
+    },
+    {
+      "id": "BMsg/b_sys#613",
+      "label": "Kj_Btl_cmd_msg_sulim_2",
+      "style": 6,
+      "src": "させると思うか？",
+      "tags": {},
+      "header": "[0009:0000:06 00]",
+      "dups": []
+    },
+    {
+      "id": "BMsg/b_sys#614",
+      "label": "Kj_Btl_slc_koushou_20",
+      "style": 6,
+      "src": "{1:mode}ワタシの下で働かないか？",
+      "tags": {
+        "1": "[0005:0000:]"
+      },
+      "header": "[0009:0000:06 00]",
+      "dups": []
+    },
+    {
+      "id": "BMsg/b_sys#615",
+      "label": "MES_KGarakuta_01_mes_03",
+      "style": 6,
+      "src": "{1:align}ルイージ あなたは{2:color}{3:icon}{4:color}を{5:color}\n使って攻撃するのよ。{6:wait}[Next]{7:align}マリオは{8:color}{9:icon} {10:color}ルイージは{11:color}{12:icon}{13:color}。\nまちがえないでね。{14:wait}{15:color}",
+      "tags": {
+        "1": "[0001:0004:]",
+        "2": "[Color #00BB27]",
+        "3": "[U+E001]",
+        "4": "[Color #373737]",
+        "5": "[Color #373737]",
+        "6": "[0002:0001:]",
+        "7": "[0001:0004:]",
+        "8": "[Color #FF4343]",
+        "9": "[U+E000]",
+        "10": "[Color #373737]",
+        "11": "[Color #00BB27]",
+        "12": "[U+E001]",
+        "13": "[Color #373737]",
+        "14": "[0002:0001:]",
+        "15": "[Color #373737]"
+      },
+      "header": "[0009:0000:06 00]",
+      "dups": []
+    },
+    {
+      "id": "BMsg/b_sys#616",
+      "label": "MES_KGarakuta_02_mes_02",
+      "style": 6,
+      "src": "{1:align}そう…{2:pause} それじゃ気をつけて！{3:wait}",
+      "tags": {
+        "1": "[0001:0004:]",
+        "2": "[0002:0000:14 00]",
+        "3": "[0002:0001:]"
+      },
+      "header": "[0009:0000:06 00]",
+      "dups": []
+    },
+    {
+      "id": "BMsg/b_sys#617",
+      "label": "MES_Mushiba_04_mes_03",
+      "style": 6,
+      "src": "{1:align}ワ～ンダフル！！！{2:pause}",
+      "tags": {
+        "1": "[0001:0004:]",
+        "2": "[0002:0000:0A 00]"
+      },
+      "header": "[0009:0000:06 00]",
+      "dups": []
+    },
+    {
+      "id": "BMsg/b_sys#618",
+      "label": "MES_Mushiba_05_mes_08_no",
+      "style": 6,
+      "src": "{1:align}オ～ウ… ミーは必要ないのね…{2:wait}",
+      "tags": {
+        "1": "[0001:0004:]",
+        "2": "[0002:0001:]"
+      },
+      "header": "[0009:0000:06 00]",
+      "dups": []
+    },
+    {
+      "id": "BMsg/b_sys#619",
+      "label": "Menu_KJ_Chr_exp_bteresa",
+      "style": 13,
+      "src": "世にも珍しい爆発するテレサ。\n爆発すると次のバトルまでいなくなるので注意。",
+      "tags": {},
+      "header": "[0009:0000:0D 00]",
+      "dups": []
+    },
+    {
+      "id": "BMsg/b_sys#620",
+      "label": "Menu_KJ_fb_name_16",
+      "style": 13,
+      "src": "星空",
+      "tags": {},
+      "header": "[0009:0000:0D 00]",
+      "dups": []
+    },
+    {
+      "id": "BMsg/b_sys#621",
+      "label": "Mkoopa",
+      "style": 13,
+      "src": "メカクッパ",
+      "tags": {},
+      "header": "[0009:0000:0D 00]",
+      "dups": []
+    },
+    {
+      "id": "BMsg/b_sys#622",
+      "label": "Ns_ItemExpL_M",
+      "style": 4,
+      "src": "エンキョリEXPマメM",
+      "tags": {},
+      "header": "[0009:0000:04 00]",
+      "dups": [
+        "BMsg/b_sys#685"
+      ]
+    },
+    {
+      "id": "BMsg/b_sys#623",
+      "label": "Ptenten_r",
+      "style": 13,
+      "src": "パタテンテン（赤）",
+      "tags": {},
+      "header": "[0009:0000:0D 00]",
+      "dups": []
+    },
+    {
+      "id": "BMsg/b_sys#624",
+      "label": "SpAtk_08_0",
+      "style": 11,
+      "src": "{1:icon}で{2:color}イエロースター{3:color}が変身した\n{4:color}目印{5:color}を動かして 上画面 を移動する\n大きなスターを 追いかけましょう。",
+      "tags": {
+        "1": "[U+E077]",
+        "2": "[Color #2C64FF]",
+        "3": "[Color #E6E6E6]",
+        "4": "[Color #2C64FF]",
+        "5": "[Color #E6E6E6]"
+      },
+      "header": "[0009:0000:0B 00]",
+      "dups": [
+        "Menu#298"
+      ]
+    },
+    {
+      "id": "BMsg/b_sys#625",
+      "label": "kj_Btl_sys_massage_03",
+      "style": 12,
+      "src": "{1:mode}{2:align}{3:color}ボコスカきほんガイド{4:color}に\n項目が追加されました。",
+      "tags": {
+        "1": "[0005:0000:]",
+        "2": "[0001:0001:]",
+        "3": "[Color #4ED4FF]",
+        "4": "[Color #E6E6E6]"
+      },
+      "header": "[0009:0000:0C 00]",
+      "dups": []
+    },
+    {
+      "id": "BMsg/b_sys#626",
+      "label": "BtlGuide_24_0",
+      "style": 11,
+      "src": "モンスターの攻撃中{1:color} {2:icon}{3:color}ボタンを押すと\n{4:color}パンチ{5:color}します。",
+      "tags": {
+        "1": "[Color #FF9600]",
+        "2": "[U+E002]",
+        "3": "[Color #E6E6E6]",
+        "4": "[Color #2C64FF]",
+        "5": "[Color #E6E6E6]"
+      },
+      "header": "[0009:0000:0B 00]",
+      "dups": [
+        "Menu#301"
+      ]
+    },
+    {
+      "id": "BMsg/b_sys#627",
+      "label": "Hint_Dmechaco_0_3",
+      "style": 11,
+      "src": "頭からビームを発射する\n「ダークビームパンチ」はビームをよけても\nさらにパンチをしてきます。\nそちらはカウンターする必要があります。",
+      "tags": {},
+      "header": "[0009:0000:0B 00]",
+      "dups": []
+    },
+    {
+      "id": "BMsg/b_sys#628",
+      "label": "Hint_Dstar_0_4",
+      "style": 11,
+      "src": "マリオ達がジャンプすると\nそれぞれ連動している影も\nジャンプするので うまく避けましょう。",
+      "tags": {},
+      "header": "[0009:0000:0B 00]",
+      "dups": []
+    },
+    {
+      "id": "BMsg/b_sys#630",
+      "label": "Hint_Mtree_0_1",
+      "style": 11,
+      "src": "木の実をつけたマガツリーは手ごわいので\nバキュームで 実を吸い込んでみましょう。",
+      "tags": {},
+      "header": "[0009:0000:0B 00]",
+      "dups": []
+    },
+    {
+      "id": "BMsg/b_sys#631",
+      "label": "Imonu_straw",
+      "style": 13,
+      "src": "ストロー",
+      "tags": {},
+      "header": "[0009:0000:0D 00]",
+      "dups": [
+        "BMsg/b_sys#1544"
+      ]
+    },
+    {
+      "id": "BMsg/b_sys#632",
+      "label": "KJGuide_BA18",
+      "style": 12,
+      "src": "SPEEDアップ",
+      "tags": {},
+      "header": "[0009:0000:0C 00]",
+      "dups": [
+        "BMsg/b_sys#977"
+      ]
+    },
+    {
+      "id": "BMsg/b_sys#633",
+      "label": "KJGuide_BB05_2",
+      "style": 11,
+      "src": "{1:color}HPは体力{2:color}。\nダメージを受けると減り\nゼロになるとバトルから退場します。",
+      "tags": {
+        "1": "[Color #2C64FF]",
+        "2": "[Color #E6E6E6]"
+      },
+      "header": "[0009:0000:0B 00]",
+      "dups": []
+    },
+    {
+      "id": "BMsg/b_sys#634",
+      "label": "Kj_Btl_cmd_msg_sulim_3",
+      "style": 6,
+      "src": "さあショーの始まりだ。",
+      "tags": {},
+      "header": "[0009:0000:06 00]",
+      "dups": []
+    },
+    {
+      "id": "BMsg/b_sys#635",
+      "label": "Kj_Btl_param_change_10",
+      "style": 12,
+      "src": "{1:mode}敵のSPEEDアップ！",
+      "tags": {
+        "1": "[0005:0000:]"
+      },
+      "header": "[0009:0000:0C 00]",
+      "dups": []
+    },
+    {
+      "id": "BMsg/b_sys#636",
+      "label": "Kj_Btl_slc_koura_01",
+      "style": 6,
+      "src": "ぼっちゃん\n下がってな！",
+      "tags": {},
+      "header": "[0009:0000:06 00]",
+      "dups": []
+    },
+    {
+      "id": "BMsg/b_sys#637",
+      "label": "Kj_Btl_slc_koushou_21",
+      "style": 6,
+      "src": "{1:mode}我々と一緒に行こう。",
+      "tags": {
+        "1": "[0005:0000:]"
+      },
+      "header": "[0009:0000:06 00]",
+      "dups": []
+    },
+    {
+      "id": "BMsg/b_sys#638",
+      "label": "MES_KGarakuta_01_mes_04",
+      "style": 6,
+      "src": "{1:align}{2:align}ちょっと 待って！！{3:wait}",
+      "tags": {
+        "1": "[0001:0004:]",
+        "2": "[0001:0001:]",
+        "3": "[0002:0001:]"
+      },
+      "header": "[0009:0000:06 00]",
+      "dups": []
+    },
+    {
+      "id": "BMsg/b_sys#639",
+      "label": "MES_KGarakuta_02_mes_03",
+      "style": 6,
+      "src": "{1:align}じゃあ まずはコマンドブロックの\n{2:color}ブラザーアタック{3:color}{4:color}を 選んで！{5:wait}{6:color}",
+      "tags": {
+        "1": "[0001:0004:]",
+        "2": "[Color #2C64FF]",
+        "3": "[Color #373737]",
+        "4": "[Color #373737]",
+        "5": "[0002:0001:]",
+        "6": "[Color #373737]"
+      },
+      "header": "[0009:0000:06 00]",
+      "dups": []
+    },
+    {
+      "id": "BMsg/b_sys#640",
+      "label": "MES_Mushiba_04_mes_04",
+      "style": 6,
+      "src": "{1:align}これは サプライズ！ ビッグムッシュ\nの中に ヒゲのムッシュが…{2:wait}[Next]{3:align}ハウ アー ユー？{4:wait}",
+      "tags": {
+        "1": "[0001:0004:]",
+        "2": "[0002:0001:]",
+        "3": "[0001:0004:]",
+        "4": "[0002:0001:]"
+      },
+      "header": "[0009:0000:06 00]",
+      "dups": []
+    },
+    {
+      "id": "BMsg/b_sys#641",
+      "label": "MES_Mushiba_05_mes_03",
+      "style": 6,
+      "src": "{1:align}{2:color}ジャンプしてきたら{3:color}{4:color}{5:icon}{6:color}{7:color}を押し続けて{8:color}\nしゃがむのです！{9:font}{10:color}{11:wait}{12:color}{13:font}",
+      "tags": {
+        "1": "[0001:0004:]",
+        "2": "[Color #2C64FF]",
+        "3": "[Color #373737]",
+        "4": "[Color #FF9600]",
+        "5": "[U+E003]",
+        "6": "[Color #373737]",
+        "7": "[Color #2C64FF]",
+        "8": "[Color #373737]",
+        "9": "[0000:0001:01 00]",
+        "10": "[Color #373737]",
+        "11": "[0002:0001:]",
+        "12": "[Color #373737]",
+        "13": "[0000:0001:FF FF]"
+      },
+      "header": "[0009:0000:06 00]",
+      "dups": []
+    },
+    {
+      "id": "BMsg/b_sys#642",
+      "label": "Menu_KJ_Chr_exp_betari",
+      "style": 13,
+      "src": "普段は森でひっそり暮らしているモンスター。\nカサカサ動いては超体当たりをしかけてくる。",
+      "tags": {},
+      "header": "[0009:0000:0D 00]",
+      "dups": []
+    },
+    {
+      "id": "BMsg/b_sys#643",
+      "label": "Menu_KJ_fb_name_17",
+      "style": 13,
+      "src": "ドカン",
+      "tags": {},
+      "header": "[0009:0000:0D 00]",
+      "dups": []
+    },
+    {
+      "id": "BMsg/b_sys#644",
+      "label": "Nokonoko_rd",
+      "style": 13,
+      "src": "ノコノコ（赤）",
+      "tags": {},
+      "header": "[0009:0000:0D 00]",
+      "dups": []
+    },
+    {
+      "id": "BMsg/b_sys#645",
+      "label": "Ns_ItemEv",
+      "style": 4,
+      "src": "{1:color}コゲコゲピリからチキン{2:color}",
+      "tags": {
+        "1": "[Color #F0F0F0]",
+        "2": "[Color #E6E6E6]"
+      },
+      "header": "[0009:0000:04 00]",
+      "dups": [
+        "BMsg/b_sys#1693"
+      ]
+    },
+    {
+      "id": "BMsg/b_sys#646",
+      "label": "SpAtk_08_1",
+      "style": 11,
+      "src": "大きいスターが{1:color}赤{2:color}なら{3:color}{4:icon}{5:color} {6:color}緑{7:color}なら{8:color}{9:icon}{10:color}を押して\n小さいスターを投げ 大きいスターにくっつけます。\n{11:color}目印{12:color}が光った時に投げると 当たりやすくなります。",
+      "tags": {
+        "1": "[Color #FF4343]",
+        "2": "[Color #E6E6E6]",
+        "3": "[Color #FF4343]",
+        "4": "[U+E000]",
+        "5": "[Color #E6E6E6]",
+        "6": "[Color #00BB27]",
+        "7": "[Color #E6E6E6]",
+        "8": "[Color #00BB27]",
+        "9": "[U+E001]",
+        "10": "[Color #E6E6E6]",
+        "11": "[Color #2C64FF]",
+        "12": "[Color #E6E6E6]"
+      },
+      "header": "[0009:0000:0B 00]",
+      "dups": [
+        "Menu#307"
+      ]
+    },
+    {
+      "id": "BMsg/b_sys#647",
+      "label": "kj_Btl_sys_massage_04",
+      "style": 12,
+      "src": "{1:mode}{2:align}{3:color}ボコスカコマンドガイド{4:color}に\n項目が追加されました。",
+      "tags": {
+        "1": "[0005:0000:]",
+        "2": "[0001:0001:]",
+        "3": "[Color #4ED4FF]",
+        "4": "[Color #E6E6E6]"
+      },
+      "header": "[0009:0000:0C 00]",
+      "dups": []
+    },
+    {
+      "id": "BMsg/b_sys#648",
+      "label": "BtlGuide_24_1",
+      "style": 11,
+      "src": "モンスターの体当たりを 止めたり\n飛んできたものを 打ち落とせます。",
+      "tags": {},
+      "header": "[0009:0000:0B 00]",
+      "dups": [
+        "Menu#309"
+      ]
+    },
+    {
+      "id": "BMsg/b_sys#649",
+      "label": "Dgerako_grass",
+      "style": 13,
+      "src": "メガネ",
+      "tags": {},
+      "header": "[0009:0000:0D 00]",
+      "dups": []
+    },
+    {
+      "id": "BMsg/b_sys#650",
+      "label": "Hint_Airpun_0",
+      "style": 12,
+      "src": "エアプンは１体ずつ倒そう",
+      "tags": {},
+      "header": "[0009:0000:0C 00]",
+      "dups": []
+    },
+    {
+      "id": "BMsg/b_sys#651",
+      "label": "Hint_Betari_0",
+      "style": 12,
+      "src": "ベタリーノの目の動きに注目",
+      "tags": {},
+      "header": "[0009:0000:0C 00]",
+      "dups": []
+    },
+    {
+      "id": "BMsg/b_sys#652",
+      "label": "Hint_Gonem_0",
+      "style": 12,
+      "src": "ゴーネムはウルヘイで爆破！",
+      "tags": {},
+      "header": "[0009:0000:0C 00]",
+      "dups": []
+    },
+    {
+      "id": "BMsg/b_sys#653",
+      "label": "Hint_Zuttsun_0_0",
+      "style": 11,
+      "src": "上から落ちてくる攻撃は 早めに防御すると\nヅッツンが途中で止まってしまうので\n引きつけてカウンターを狙ってみましょう。",
+      "tags": {},
+      "header": "[0009:0000:0B 00]",
+      "dups": []
+    },
+    {
+      "id": "BMsg/b_sys#655",
+      "label": "KJGuide_BA19",
+      "style": 12,
+      "src": "POWアップ",
+      "tags": {},
+      "header": "[0009:0000:0C 00]",
+      "dups": [
+        "BMsg/b_sys#994"
+      ]
+    },
+    {
+      "id": "BMsg/b_sys#656",
+      "label": "KJGuide_BB05_3",
+      "style": 11,
+      "src": "{1:color}POWは攻撃力{2:color}。\n数字が大きいほど\n与えるダメージが大きくなります。",
+      "tags": {
+        "1": "[Color #2C64FF]",
+        "2": "[Color #E6E6E6]"
+      },
+      "header": "[0009:0000:0B 00]",
+      "dups": []
+    },
+    {
+      "id": "BMsg/b_sys#657",
+      "label": "Kj_Btl_param_change_11",
+      "style": 12,
+      "src": "{1:mode}味方のSPEEDダウン！",
+      "tags": {
+        "1": "[0005:0000:]"
+      },
+      "header": "[0009:0000:0C 00]",
+      "dups": []
+    },
+    {
+      "id": "BMsg/b_sys#658",
+      "label": "Kj_Btl_slc_koura_02",
+      "style": 6,
+      "src": "カラダが温まってきたぜ！",
+      "tags": {},
+      "header": "[0009:0000:06 00]",
+      "dups": []
+    },
+    {
+      "id": "BMsg/b_sys#659",
+      "label": "Kj_Btl_slc_koushou_22",
+      "style": 6,
+      "src": "{1:mode}３食プラスおやつをつけよう。",
+      "tags": {
+        "1": "[0005:0000:]"
+      },
+      "header": "[0009:0000:06 00]",
+      "dups": []
+    },
+    {
+      "id": "BMsg/b_sys#660",
+      "label": "Koopa_e",
+      "style": 13,
+      "src": "クッパ（えんきょり）",
+      "tags": {},
+      "header": "[0009:0000:0D 00]",
+      "dups": []
+    },
+    {
+      "id": "BMsg/b_sys#661",
+      "label": "MES_KGarakuta_01_mes_05",
+      "style": 6,
+      "src": "{1:align}そのモンスターの特徴が\nわかったわ！{2:wait}[Next]{3:align}聞いてくれる？{4:pause}\n{5:align}{6:choice}いいえ{7:tab}{8:choice}はい{9:pause}",
+      "tags": {
+        "1": "[0001:0004:]",
+        "2": "[0002:0001:]",
+        "3": "[0001:0004:]",
+        "4": "[0002:0000:0A 00]",
+        "5": "[0001:0001:]",
+        "6": "[0004:0001:]",
+        "7": "[0006:0000:28 00]",
+        "8": "[0004:0001:]",
+        "9": "[0002:0000:0A 00]"
+      },
+      "header": "[0009:0000:06 00]",
+      "dups": []
+    },
+    {
+      "id": "BMsg/b_sys#662",
+      "label": "MES_KGarakuta_02_mes_04",
+      "style": 6,
+      "src": "{1:align}マリオとルイージが{2:color}コウラを\n{3:color}{4:color}{5:color}交互にけっとばすアタック{6:color}ね！{7:wait}[Next]{8:align}マリオとルイージが{9:color}{10:icon}{11:color}{12:color}{13:icon}{14:color}{15:icon}{16:color}{17:icon}{18:color}と\nリズムよく押すのがコツよ！{19:wait}[Next]{20:align}わかんなくなったら {21:color}ガイドに\nおてほんとれんしゅうがある{22:color}わ！{23:wait}{24:color}",
+      "tags": {
+        "1": "[0001:0004:]",
+        "2": "[Color #2C64FF]",
+        "3": "[Color #373737]",
+        "4": "[Color #373737]",
+        "5": "[Color #2C64FF]",
+        "6": "[Color #373737]",
+        "7": "[0002:0001:]",
+        "8": "[0001:0004:]",
+        "9": "[Color #FF4343]",
+        "10": "[U+E000]",
+        "11": "[Color #373737]",
+        "12": "[Color #00BB27]",
+        "13": "[U+E001]",
+        "14": "[Color #FF4343]",
+        "15": "[U+E000]",
+        "16": "[Color #00BB27]",
+        "17": "[U+E001]",
+        "18": "[Color #373737]",
+        "19": "[0002:0001:]",
+        "20": "[0001:0004:]",
+        "21": "[Color #2C64FF]",
+        "22": "[Color #373737]",
+        "23": "[0002:0001:]",
+        "24": "[Color #373737]"
+      },
+      "header": "[0009:0000:06 00]",
+      "dups": []
+    },
+    {
+      "id": "BMsg/b_sys#663",
+      "label": "MES_Mushiba_05_mes_04",
+      "style": 6,
+      "src": "{1:align}ネクスト 後ろからきます！\n引き付けて しゃがみましょう！{2:wait}",
+      "tags": {
+        "1": "[0001:0004:]",
+        "2": "[0002:0001:]"
+      },
+      "header": "[0009:0000:06 00]",
+      "dups": []
+    },
+    {
+      "id": "BMsg/b_sys#664",
+      "label": "MES_SPeach_12_kuribo_mes_01",
+      "style": 6,
+      "src": "{1:align}クッパ様！{2:pause} この攻撃は\nなにか 危険な感じがしますよ！{3:wait}[Next]{4:align}クッパ様を 危険な目に\nあわせるわけにはいきません！{5:wait}[Next]クリボー軍団に\nおまかせください！{6:wait}[Next]{7:align}我々を ぶつけてくれれば\nアイツを絶対に止めてみせます！！{8:wait}[Next]{9:align}クッパ様の ためなら そのくらい\nなんてことないですよ！{10:wait}[Next]えんりょせず 飛ばしてください！{11:wait}",
+      "tags": {
+        "1": "[0001:0004:]",
+        "2": "[0002:0000:0A 00]",
+        "3": "[0002:0001:]",
+        "4": "[0001:0004:]",
+        "5": "[0002:0001:]",
+        "6": "[0002:0001:]",
+        "7": "[0001:0004:]",
+        "8": "[0002:0001:]",
+        "9": "[0001:0004:]",
+        "10": "[0002:0001:]",
+        "11": "[0002:0001:]"
+      },
+      "header": "[0009:0000:06 00]",
+      "dups": []
+    },
+    {
+      "id": "BMsg/b_sys#665",
+      "label": "MES_ji_ComMes_mes_00",
+      "style": 12,
+      "src": "{1:mode}{2:color}ブロキャット{3:color}を手に入れた！{4:pause}",
+      "tags": {
+        "1": "[0005:0000:]",
+        "2": "[Color #4ED4FF]",
+        "3": "[Color #E6E6E6]",
+        "4": "[0002:0000:32 00]"
+      },
+      "header": "[0009:0000:0C 00]",
+      "dups": []
+    },
+    {
+      "id": "BMsg/b_sys#666",
+      "label": "Menu_KJ_Chr_exp_pukupuku",
+      "style": 13,
+      "src": "跳躍力を活かした攻撃が得意。\n水際から離れられないので仲間にはならない。",
+      "tags": {},
+      "header": "[0009:0000:0D 00]",
+      "dups": []
+    },
+    {
+      "id": "BMsg/b_sys#667",
+      "label": "Menu_KJ_fb_name_18",
+      "style": 13,
+      "src": "ひこうき",
+      "tags": {},
+      "header": "[0009:0000:0D 00]",
+      "dups": []
+    },
+    {
+      "id": "BMsg/b_sys#668",
+      "label": "Minigame_ML_Expl_achikochi",
+      "style": 11,
+      "src": "{1:mode}「あちこちウィンドウ」を失敗するまでエンドレスで\n続けてコレステロンをやっつけよう！\nゴールドたっせいで 特別なアイテムをプレゼント！",
+      "tags": {
+        "1": "[0005:0000:]"
+      },
+      "header": "[0009:0000:0B 00]",
+      "dups": []
+    },
+    {
+      "id": "BMsg/b_sys#670",
+      "label": "Retry_easymode_text",
+      "style": 0,
+      "src": "イージーモードを選ぶとマリオ達が強くなり\nモンスターを倒しやすくなります。\n※イージーモードはスターメニューの\n「せってい」で解除できます。",
+      "tags": {},
+      "header": "[0009:0000:00 00]",
+      "dups": []
+    },
+    {
+      "id": "BMsg/b_sys#671",
+      "label": "SpAtk_08_2",
+      "style": 11,
+      "src": "小さいスターをくっつけた数が多いほど\nモンスターに与えるダメージがアップするので\nボタンを連打して どんどんくっつけましょう。",
+      "tags": {},
+      "header": "[0009:0000:0B 00]",
+      "dups": [
+        "Menu#316"
+      ]
+    },
+    {
+      "id": "BMsg/b_sys#672",
+      "label": "kj_Btl_sys_massage_05",
+      "style": 12,
+      "src": "{1:mode}{2:align}メンバーの配置のしかたによっては\n{3:color}じんけいボーナス{4:color}が生じて バトル中に\nステータスがアップすることがあります。",
+      "tags": {
+        "1": "[0005:0000:]",
+        "2": "[0001:0001:]",
+        "3": "[Color #4ED4FF]",
+        "4": "[Color #E6E6E6]"
+      },
+      "header": "[0009:0000:0C 00]",
+      "dups": []
+    },
+    {
+      "id": "BMsg/b_sys#673",
+      "label": "Dgerako_legs",
+      "style": 13,
+      "src": "あし",
+      "tags": {},
+      "header": "[0009:0000:0D 00]",
+      "dups": []
+    },
+    {
+      "id": "BMsg/b_sys#674",
+      "label": "Hint_DTreajan_0_0",
+      "style": 11,
+      "src": "ダークトレジャンの口から出た物が\nコインやキノコの場合は\nカウンターせずにゲットしましょう。",
+      "tags": {},
+      "header": "[0009:0000:0B 00]",
+      "dups": []
+    },
+    {
+      "id": "BMsg/b_sys#675",
+      "label": "Hint_Zuttsun_0_1",
+      "style": 11,
+      "src": "たおれたヅッツンを ヘイホーが持ち上げた時の\n向いている方向で 有効な防御が変わります。\nよく観察してみましょう。",
+      "tags": {},
+      "header": "[0009:0000:0B 00]",
+      "dups": []
+    },
+    {
+      "id": "BMsg/b_sys#676",
+      "label": "KJGuide_BB05_4",
+      "style": 11,
+      "src": "{1:color}DEFは防御力{2:color}。\n数字が大きいほど\n受けるダメージが小さくなります。",
+      "tags": {
+        "1": "[Color #2C64FF]",
+        "2": "[Color #E6E6E6]"
+      },
+      "header": "[0009:0000:0B 00]",
+      "dups": []
+    },
+    {
+      "id": "BMsg/b_sys#677",
+      "label": "KJGuide_BC17_0",
+      "style": 11,
+      "src": "ウェンディが使えるコマンドです。\n「クリア後のEXPが増える」など\nランダムで１つだけいいことがおきます。",
+      "tags": {},
+      "header": "[0009:0000:0B 00]",
+      "dups": []
+    },
+    {
+      "id": "BMsg/b_sys#678",
+      "label": "KJ_Msg_quest_50",
+      "style": 13,
+      "src": "モンスターオールスター！",
+      "tags": {},
+      "header": "[0009:0000:0D 00]",
+      "dups": []
+    },
+    {
+      "id": "BMsg/b_sys#679",
+      "label": "Kj_Btl_cmd_msg_sulim_5",
+      "style": 9,
+      "src": "グガァア サセルカ！",
+      "tags": {},
+      "header": "[0009:0000:09 00]",
+      "dups": []
+    }
+  ]
 }

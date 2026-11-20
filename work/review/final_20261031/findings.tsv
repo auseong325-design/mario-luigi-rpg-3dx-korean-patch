@@ -1,0 +1,543 @@
+check	sev	id	label	style	batch	cat	detail	jp	ko
+samejp	check	BMsg/b_sys#11	Kj_Btl_koopa_e_1_12	6	BMsg__b_sys__p1	short	wording: [2] 오오―! || [1] 오오~!	おおー！	오오~!
+samejp	check	FMsg/k_o_koopa_08#7	Kjrpg_01_Koopa_op02_22	9	FMsg__k_o_koopa_08__and1	short	wording: [2] 오오―! || [1] 오오~!	おおー！	오오―!
+samejp	check	FMsg/k_o_koopa_80#60	Kjrpg_11_Koopa_qst03_29	10	FMsg__k_o_koopa_80	short	wording: [2] 오오―! || [1] 오오~!	おおー！	오오―!
+samejp	check	BMsg/b_sys#30	MES_RankUpE_State_SPEED	11	BMsg__b_sys__p1	new	wording: [1] SPEED는 스피드. 숫자가 클수록 몬스터보다 먼저 행동할 수 있게 됩니다. || [1] SPEED는 스피드. 숫자가 클수록 몬스터보다 먼저 행동할 수 있게 돼요.	SPEED は すばやさ。 数字が大きいほど モンスターよりも先に 行動できるように なります。	SPEED는 스피드. 숫자가 클수록 몬스터보다 먼저 행동할 수 있게 됩니다.
+samejp	check	BMsg/b_sys#421	BtlGuide_11_6	11	BMsg__b_sys__p4	new	wording: [1] SPEED는 스피드. 숫자가 클수록 몬스터보다 먼저 행동할 수 있게 됩니다. || [1] SPEED는 스피드. 숫자가 클수록 몬스터보다 먼저 행동할 수 있게 돼요.	SPEED は すばやさ。 数字が大きいほど モンスターよりも先に 行動できるように なります。	SPEED는 스피드. 숫자가 클수록 몬스터보다 먼저 행동할 수 있게 돼요.
+samejp	check	BMsg/b_sys#209	Kj_Btl_slc_mamoru_ouen_b3	6	BMsg__b_sys__p2	short	wording: [1] 뭐 하는 거야! || [1] 뭐 하고 있어!	なにやってんだ！	뭐 하는 거야!
+samejp	check	FMsg/k_o_koopa_19#14	Kjrpg_11_Koopa_qst07_36	7	FMsg__k_o_koopa_19__and4	short	wording: [1] 뭐 하는 거야! || [1] 뭐 하고 있어!	なにやってんだ！	뭐 하고 있어!
+samejp	check	BMsg/b_sys#328	BtlGuide_11_2	11	BMsg__b_sys__p3	edited	wording: [1] HP는 체력. 타격을 입으면 줄어들고 0이 되면 기절해요. || [1] HP는 체력. 타격을 입으면 줄어들고 0이 되면 기절합니다.	HP は 体力。 ダメージを受けると減り ゼロになると気絶します。	HP는 체력. 타격을 입으면 줄어들고 0이 되면 기절해요.
+samejp	check	BMsg/b_sys#499	MES_RankUpE_State_HP	11	BMsg__b_sys__p5	edited	wording: [1] HP는 체력. 타격을 입으면 줄어들고 0이 되면 기절해요. || [1] HP는 체력. 타격을 입으면 줄어들고 0이 되면 기절합니다.	HP は 体力。 ダメージを受けると減り ゼロになると気絶します。	HP는 체력. 타격을 입으면 줄어들고 0이 되면 기절합니다.
+samejp	check	BMsg/b_sys#379	BtlGuide_11_4	11	BMsg__b_sys__p4	edited	wording: [2] POW는 공격력. 숫자가 클수록 상대에게 큰 타격을 입혀요. || [1] POW는 공격력. 숫자가 클수록 상대에게 큰 타격을 입힙니다.	POW は 攻撃力。 数字が大きいほど 与えるダメージが大きくなります。	POW는 공격력. 숫자가 클수록 상대에게 큰 타격을 입혀요.
+samejp	check	BMsg/b_sys#453	MES_RankUpE_State_POW	11	BMsg__b_sys__p5	edited	wording: [2] POW는 공격력. 숫자가 클수록 상대에게 큰 타격을 입혀요. || [1] POW는 공격력. 숫자가 클수록 상대에게 큰 타격을 입힙니다.	POW は 攻撃力。 数字が大きいほど 与えるダメージが大きくなります。	POW는 공격력. 숫자가 클수록 상대에게 큰 타격을 입힙니다.
+samejp	check	BMsg/b_sys#656	KJGuide_BB05_3	11	BMsg__b_sys__p6	edited	wording: [2] POW는 공격력. 숫자가 클수록 상대에게 큰 타격을 입혀요. || [1] POW는 공격력. 숫자가 클수록 상대에게 큰 타격을 입힙니다.	POWは攻撃力。 数字が大きいほど 与えるダメージが大きくなります。	POW는 공격력. 숫자가 클수록 상대에게 큰 타격을 입혀요.
+samejp	check	BMsg/b_sys#401	BtlGuide_11_5	11	BMsg__b_sys__p4	edited	wording: [2] DEF는 방어력. 숫자가 클수록 타격을 적게 입어요. || [1] DEF는 방어력. 숫자가 클수록 타격을 적게 입습니다.	DEF は 防御力。 数字が大きいほど 受けるダメージが 小さくなります。	DEF는 방어력. 숫자가 클수록 타격을 적게 입어요.
+samejp	check	BMsg/b_sys#676	KJGuide_BB05_4	11	BMsg__b_sys__p6	edited	wording: [2] DEF는 방어력. 숫자가 클수록 타격을 적게 입어요. || [1] DEF는 방어력. 숫자가 클수록 타격을 적게 입습니다.	DEFは防御力。 数字が大きいほど 受けるダメージが小さくなります。	DEF는 방어력. 숫자가 클수록 타격을 적게 입어요.
+samejp	check	BMsg/b_sys#1192	MES_RankUpE_State_DEF	11	BMsg__b_sys__p11	edited	wording: [2] DEF는 방어력. 숫자가 클수록 타격을 적게 입어요. || [1] DEF는 방어력. 숫자가 클수록 타격을 적게 입습니다.	DEF は 防御力。 数字が大きいほど 受けるダメージが 小さくなります。	DEF는 방어력. 숫자가 클수록 타격을 적게 입습니다.
+samejp	check	FMsg/i_energy_01#5	MES_KEnergy_01_KE01_ystar_01	6	FMsg__i_energy_01__and11	short	wording: [1] 어? 뭐지? || [1] 앗! 저거!	あ！ あれ！	어? 뭐지?
+samejp	check	FMsg/k_o_gepu_80#46	Kjrpg_04_Gepu_qst02_01	6	FMsg__k_o_gepu_80	short	wording: [1] 어? 뭐지? || [1] 앗! 저거!	あ！ あれ！	앗! 저거!
+samejp	check	FMsg/i_power_leg_SA_push_01_L#5	MES_SA_SUB_KPower_leg_01_SA_LEG_TUT_06	6	FMsg__i_power_leg_SA_push_01_L	short	wording: [2] 앗! || [1] 아!	あ！	아!
+samejp	check	FMsg/k_o_ekubon_15#16	Kjrpg_03_Ekubon_qst08_14_01	6	FMsg__k_o_ekubon_15__and1	short	wording: [2] 앗! || [1] 아!	あ！	앗!
+samejp	check	FMsg/k_o_zutsuda_80#35	Kjrpg_06_Zutsuda_qst04_05	6	FMsg__k_o_zutsuda_80__p1	short	wording: [2] 앗! || [1] 아!	あ！	앗!
+samejp	check	FMsg/i_power_lungs_SA_fire_01_L#9	MES_SA_SUB_KPower_lungs_01_SA_LUG_TUT_01AT	6	FMsg__i_power_lungs_SA_fire_01_L	short	wording: [1] 저기! || [1] 들려?	ねえ！	저기!
+samejp	check	FMsg/i_pump_01#7	MES_KPump_01_Kpump_01_ystar_07	7	FMsg__i_pump_01__and6	short	wording: [1] 저기! || [1] 들려?	ねえ！	들려?
+samejp	check	FMsg/i_power_nose_01#7	MES_SA_SUB_KPower_nose_02_SA_NOSE_TUT_6AT	6	FMsg__i_power_nose_01	short	wording: [3] 뭐라고!? || [1] 뭐야!?	なに！？	뭐야!?
+samejp	check	FMsg/k_o_gepu_80#54	Kjrpg_04_Gepu_qst05_43	6	FMsg__k_o_gepu_80	short	wording: [3] 뭐라고!? || [1] 뭐야!?	なに！？	뭐라고!?
+samejp	check	FMsg/o_ekubon_09_1#7	MES_Ekubon_09_Ekubon_killer_dx_30	6	FMsg__o_ekubon_09_1__and3	short	wording: [3] 뭐라고!? || [1] 뭐야!?	なに！？	뭐라고!?
+samejp	check	FMsg/o_koopa_18#9	MES_SKoopa_18_SK18_cash2_koopa_07	6	FMsg__o_koopa_18__and2	short	wording: [3] 뭐라고!? || [1] 뭐야!?	なに！？	뭐라고!?
+samejp	check	FMsg/i_power_stomach_15_SA_giganin_01_L#26	MES_Ekubon_15_SA_Ekubon_gcarrot_tut_h2	6	FMsg__i_power_stomach_02__and1	short	wording: [3] 아. || [1] 아! || [1] 앗.	あ。	아!
+samejp	check	FMsg/k_o_koopa_14#139	Kjrpg_12_Koopa_exqst_2_12	6	FMsg__k_o_koopa_14__p2	short	wording: [3] 아. || [1] 아! || [1] 앗.	あ。	앗.
+samejp	check	FMsg/o_chika_09_before#5	MES_Chika_09_before_Chika_drill_macine_25	6	FMsg__o_chika_01__and3	short	wording: [3] 아. || [1] 아! || [1] 앗.	あ。	아.
+samejp	check	FMsg/o_chika_geraexpress_04#6	MES_EV_Chika_16_1_EVCH16_1_koopa_ev	6	FMsg__o_chika_geraexpress_04	short	wording: [3] 아. || [1] 아! || [1] 앗.	あ。	아.
+samejp	check	FMsg/o_town_23#5	MES_TKinoko_23_Kinoko_town_koura_tut_26	6	FMsg__o_town_23__and7	short	wording: [3] 아. || [1] 아! || [1] 앗.	あ。	아.
+samejp	check	FMsg/i_tainai_01#0	MES_GPeach_06_Big_k_peach_21	6	FMsg__i_tainai_01	new	wording: [1] 들었어? 마리오! 루이지! || [1] 듣고 있어? 마리오! 루이지!	聞いてる？ マリオ ルイージ。	들었어? 마리오! 루이지!
+samejp	check	FMsg/i_tainai_01#23	MES_Gepu_02_Gepu_koopa_20_2	6	FMsg__i_tainai_01	new	wording: [1] 들었어? 마리오! 루이지! || [1] 듣고 있어? 마리오! 루이지!	聞いてる？ マリオ ルイージ。	듣고 있어? 마리오! 루이지!
+samejp	check	FMsg/i_tainai_01#53	MES_EV_SPeach_1F_08_SP1F08_ystar_01	9	FMsg__i_tainai_01	short	wording: [1] 왜 그래!? || [1] 무슨 일이니!?	どうしたの！？	왜 그래!?
+samejp	check	FMsg/o_town_25_before#0	MES_TKinoko_25_before_Opening_Tkinoko_10	6	FMsg__o_town_23__and7	short	wording: [1] 왜 그래!? || [1] 무슨 일이니!?	どうしたの！？	무슨 일이니!?
+samejp	check	FMsg/k_o_gepu_80#53	Kjrpg_04_Gepu_qst02_06	6	FMsg__k_o_gepu_80	short	wording: [1] 어? || [1] 네?	え？	어?
+samejp	check	FMsg/o_koopa_18#35	MES_SKoopa_18_SK18_cash_heyfa_02	6	FMsg__o_koopa_18__and2	short	wording: [1] 어? || [1] 네?	え？	네?
+samejp	check	FMsg/k_o_gepu_80#60	Kjrpg_04_Gepu_qst01_02_01	9	FMsg__k_o_gepu_80	short	wording: [2] 시끄럽다! || [1] 시끄러워!	うるさい！	시끄럽다!
+samejp	check	FMsg/k_o_koopa_r_80#314	Kjrpg_02_Koopa_qst01_24	10	FMsg__k_o_koopa_r_80__p3	short	wording: [2] 시끄럽다! || [1] 시끄러워!	うるさい！	시끄러워!
+samejp	check	FMsg/o_ekubon_14#13	MES_Ekubon_14_Ekubon_warm_06	10	FMsg__o_ekubon_09_1__and3	short	wording: [2] 시끄럽다! || [1] 시끄러워!	うるさい！	시끄럽다!
+samejp	check	FMsg/k_o_koopa_14#93	Kjrpg_01_Koopa_op01_08	6	FMsg__k_o_koopa_14__p1	short	wording: [1] 으와와와와와! || [1] 우와와와와와!	うわわわわわ！	으와와와와와!
+samejp	check	FMsg/k_o_zutsuda_16_after#7	Kjrpg_09_Zutsuda_qst07_11	9	FMsg__k_o_zutsuda_16_after__and2	short	wording: [1] 으와와와와와! || [1] 우와와와와와!	うわわわわわ！	우와와와와와!
+samejp	check	FMsg/k_o_koopa_14#136	Kjrpg_05_Koopa_op01_11	6	FMsg__k_o_koopa_14__p2	short	wording: [1] 그럼… || [1] 근데…	さて…	그럼…
+samejp	check	FMsg/o_chika_geraexpress_04#2	MES_EV_Chika_16_1_EVCH16_1_koopa_03	6	FMsg__o_chika_geraexpress_04	short	wording: [1] 그럼… || [1] 근데…	さて…	근데…
+samejp	check	FMsg/k_o_koopa_80#15	Kjrpg_12_Koopa_exqst_1_14	6	FMsg__k_o_koopa_80	short	wording: [1] 어이! 너희들! || [1] 어이! 이놈들!	おい！ オマエら！	어이! 너희들!
+samejp	check	FMsg/o_koopa_24#0	MES_SKoopa_24_SK24_koopa_01	6	FMsg__o_koopa_19__and10	short	wording: [1] 어이! 너희들! || [1] 어이! 이놈들!	おい！ オマエら！	어이! 이놈들!
+samejp	check	FMsg/k_o_koopa_80#66	Kjrpg_11_Koopa_qst03_25_04	6	FMsg__k_o_koopa_80	short	wording: [1] 그래그래. || [1] 응응.	うんうん。	그래그래.
+samejp	check	FMsg/k_o_koopa_r_80#24	Kjrpg_02_Koopa_qst04_17	6	FMsg__k_o_koopa_r_80__p1	short	wording: [1] 그래그래. || [1] 응응.	うんうん。	응응.
+samejp	check	FMsg/k_o_koopa_r_27#13	Kjrpg_05_Koopa_qst01_14	6	FMsg__k_o_koopa_r_27__and2	short	wording: [1] 님~ || [1] 손님~	さま～	님~
+samejp	check	FMsg/o_koopa_01#41	MES_SKoopa_01_Skoopa_01_kuri_04	6	FMsg__o_koopa_01__and6	short	wording: [1] 님~ || [1] 손님~	さま～	손님~
+samejp	check	FMsg/k_o_koopa_r_28#25	Kjrpg_02_Koopa_op01_15	6	FMsg__k_o_koopa_r_27__and2	short	wording: [1] 옙! || [1] 하!	は！	옙!
+samejp	check	FMsg/k_o_koopa_r_80#281	Kjrpg_10_Koopa_qst04_13	9	FMsg__k_o_koopa_r_80__p3	short	wording: [1] 옙! || [1] 하!	は！	하!
+samejp	check	FMsg/k_o_koopa_r_31#16	Kjrpg_01_Koopa_op01_26	9	FMsg__k_o_koopa_r_27__and2	short	wording: [1] 히익―! || [1] 히익!	ひー！	히익―!
+samejp	check	FMsg/k_o_koopa_r_80#300	Kjrpg_12_Koopa_exqst_1_45	9	FMsg__k_o_koopa_r_80__p3	short	wording: [1] 히익―! || [1] 히익!	ひー！	히익!
+samejp	check	FMsg/k_o_koopa_r_80#61	Kjrpg_10_Koopa_qst04_52	6	FMsg__k_o_koopa_r_80__p1	short	wording: [1] 응? || [1] 어?	ん？	응?
+samejp	check	FMsg/o_peach_1f_03#34	MES_EV_SPeach_1F_03_2_INORI2_koopa_01	6	FMsg__o_peach_1f_03__and3	short	wording: [1] 응? || [1] 어?	ん？	어?
+samejp	check	FMsg/k_o_zutsuda_80#14	Kjrpg_06_Zutsuda_qst04_51	6	FMsg__k_o_zutsuda_80__p1	short	wording: [1] 바이바~이. || [1] 바이바이.	ばいばーい。	바이바~이.
+samejp	check	FMsg/o_town_23#32	MES_TKinoko_23_Kinoko_town_koura_tut_37	6	FMsg__o_town_23__and7	short	wording: [1] 바이바~이. || [1] 바이바이.	ばいばーい。	바이바이.
+samejp	check	FMsg/k_o_zutsuda_80#72	Kjrpg_09_Zutsuda_qst07_76	9	FMsg__k_o_zutsuda_80__p1	short	wording: [2] 네! || [1] 예!	はい！	네!
+samejp	check	FMsg/o_ekubon_07_1#14	MES_Ekubon_07_Ekubon_bokosuka_k_31	6	FMsg__o_ekubon_02__and7	short	wording: [2] 네! || [1] 예!	はい！	네!
+samejp	check	FMsg/o_zutsuda_15#31	MES_LZutsuda_15_LZ15_kuriki_11	6	FMsg__o_zutsuda_01__and9	short	wording: [2] 네! || [1] 예!	はい！	예!
+samejp	check	FMsg/o_ekubon_07_1#1	MES_Ekubon_07_Ekubon_bokosuka_k_41	10	FMsg__o_ekubon_02__and7	short	wording: [1] 롱롱롱롱롱롱롱!! || [1] 롱롱롱롱롱롱롱롱!!	ふるるるるるるる！！	롱롱롱롱롱롱롱!!
+samejp	check	FMsg/o_koopa_13_2#9	MES_SKoopa_13_2_SK13_geraco_01	10	FMsg__o_koopa_13_2__and4	short	wording: [1] 롱롱롱롱롱롱롱!! || [1] 롱롱롱롱롱롱롱롱!!	ふるるるるるるる！！	롱롱롱롱롱롱롱롱!!
+samejp	check	FMsg/o_koopa_01#44	MES_SKoopa_01_Skoopa_01_kuri_07	6	FMsg__o_koopa_01__and6	short	wording: [1] 주십시오~ || [1] 바랍니다~	さ～い。	주십시오~
+samejp	check	FMsg/o_koopa_07_after#3	MES_SKoopa_07_after_SK07A_kuribo_04	6	FMsg__o_koopa_01__and6	short	wording: [1] 주십시오~ || [1] 바랍니다~	さ～い。	바랍니다~
+samejp	check	FMsg/o_koopa_09_2_gerashow_01_U#11	MES_SKoopa_09_EV_SK_gera_11	10	FMsg__o_koopa_09_2_gerashow_01_U__and3	short	wording: [2] 롱롱롱롱롱롱!! || [1] 롱롱롱롱롱!!	ふるるるるる！！	롱롱롱롱롱롱!!
+samejp	check	FMsg/o_mushiba_11#40	MES_EV_Mushiba_11_Mushi_11_gerapato_01	10	FMsg__o_mushiba_01__and7	short	wording: [2] 롱롱롱롱롱롱!! || [1] 롱롱롱롱롱!!	ふるるるるる！！	롱롱롱롱롱!!
+samejp	check	FMsg/o_peach_1f_03#30	MES_EV_SPeach_1F_03_2_INORI_geraco_08	10	FMsg__o_peach_1f_03__and3	short	wording: [2] 롱롱롱롱롱롱!! || [1] 롱롱롱롱롱!!	ふるるるるる！！	롱롱롱롱롱롱!!
+samejp	check	FMsg/o_koopa_24#2	MES_SKoopa_24_SK24_koopa_03	6	FMsg__o_koopa_19__and10	short	wording: [1] 어이!!!! || [1] 어이!!	おい！！	어이!!!!
+samejp	check	FMsg/o_zutsuda_15#18	MES_LZutsuda_15_LZ15_koopa_01	9	FMsg__o_zutsuda_01__and9	short	wording: [1] 어이!!!! || [1] 어이!!	おい！！	어이!!
+samejp	check	FMsg/o_koopa_r_31#3	MES_EOtapuku_31_EO31_koopa_02	10	FMsg__o_koopa_r_20__and5	short	wording: [1] 크으으으으!!! || [1] 크허어어억!!!	ぐおおおおお！！！	크으으으으!!!
+samejp	check	FMsg/o_peach_t_06_lastboss_03_U#2	MES_EV_MAIN_TPeach_06_2_Last_battle_42	9	FMsg__o_peach_t_02__and6	short	wording: [1] 크으으으으!!! || [1] 크허어어억!!!	ぐおおおおお！！！	크허어어억!!!
+samejp	check	FMsg/o_peach_g_04#33	MES_GPeach_04_Gpeach_pata_05	6	FMsg__o_peach_g_02__and6	short	wording: [1] 내―놔―라! || [1] 찾―아―와!	かーえーせ。	내―놔―라!
+samejp	check	FMsg/o_town_23#43	MES_TKinoko_23_Kinoko_town_koura_tut_09	6	FMsg__o_town_23__and7	short	wording: [1] 내―놔―라! || [1] 찾―아―와!	かーえーせ。	찾―아―와!
+glossary	check	BMsg/b_sys#40	E_ItemExpL_S	3	BMsg__b_sys__p1	new	glossary: アップ → 업 not used	えんきょりタイプの経験値が１０アップ。 他のタイプが食べると効果は半分。	원거리 타입의 EXP가 10 증가. 다른 타입이 먹으면 효과는 절반.
+glossary	check	BMsg/b_sys#60	KJGuide_BC21_1	11	BMsg__b_sys__p1	new	glossary: ステータス → 능력 not used	モートンがかばっている間 クッパJr.の応援でモートンの ステータスが少し上がります。	모톤이 감싸 주는 동안 쿠파주니어의 응원으로 모톤의 스테이터스가 조금 올라가요.
+glossary	check	BMsg/b_sys#105	E_ItemExpL_DX	3	BMsg__b_sys__p1	new	glossary: アップ → 업 not used	えんきょりタイプの経験値が３０００アップ。 他のタイプが食べると効果は半分。	원거리 타입의 EXP가 3000 증가. 다른 타입이 먹으면 효과는 절반.
+glossary	check	BMsg/b_sys#137	Hint_Coalant_0_1	11	BMsg__b_sys__p2	new	glossary: 吸い込み → 빨아들이기 not used	キカンボーがパワーアップする前に バキュームでコールアントを吸い込み 体内でマリオ達と 戦わせましょう。	칙폭굼바가 파워 업하기 전에 배큐엄으로 집게탄을 빨아들여서 몸속에서 마리오 일행과 싸우게 하세요.
+glossary	check	BMsg/b_sys#177	SpAtk_01_2	11	BMsg__b_sys__p2	new	glossary: アップ → 업 not used	ファイアをたくさん投げるほど モンスターにあたえるダメージはアップします。 がんばって連打しましょう。	파이어볼을 많이 던질수록 몬스터에게 입히는 타격이 증가해요. 열심히 연타하세요.
+glossary	check	BMsg/b_sys#247	E_ItemExp_DX	3	BMsg__b_sys__p3	new	glossary: アップ → 업 not used	どのタイプが食べても 経験値が５０００アップするマメ。	어느 타입이 먹어도 EXP가 5000 증가하는 콩.
+glossary	check	BMsg/b_sys#282	E_ItemExpF_L	3	BMsg__b_sys__p3	new	glossary: アップ → 업 not used	ひこうタイプの経験値が１０００アップ。 他のタイプが食べると効果は半分。	비행 타입의 EXP가 1000 증가. 다른 타입이 먹으면 효과는 절반.
+glossary	check	BMsg/b_sys#283	E_ItemGdd	3	BMsg__b_sys__p3	new	glossary: アップ → 업 not used	食べるとGDDが１アップするマメ。	먹으면 GDH가 1 증가하는 콩.
+glossary	check	BMsg/b_sys#309	E_ItemExpF_M	3	BMsg__b_sys__p3	new	glossary: アップ → 업 not used	ひこうタイプの経験値が１００アップ。 他のタイプが食べると効果は半分。	비행 타입의 EXP가 100 증가. 다른 타입이 먹으면 효과는 절반.
+glossary	check	BMsg/b_sys#381	BtlGuide_28_0	11	BMsg__b_sys__p4	new	glossary: 吸い込み → 빨아들이기 not used	大きく息を吸い込み続けて 体の小さいモンスターや モンスターの体の 一部を 吸い込むことができます。	숨을 크게 계속 들이마셔서 몸집이 작은 몬스터나 몬스터 몸의 일부를 빨아들일 수 있어요.
+glossary	check	BMsg/b_sys#424	E_ItemExp_L	3	BMsg__b_sys__p4	new	glossary: アップ → 업 not used	どのタイプが食べても 経験値が２０００アップするマメ。	어느 타입이 먹어도 EXP가 2000 증가하는 콩.
+glossary	check	BMsg/b_sys#441	E_ItemExpF_S	3	BMsg__b_sys__p4	new	glossary: アップ → 업 not used	ひこうタイプの経験値が１０アップ。 他のタイプが食べると効果は半分。	비행 타입의 EXP가 10 증가. 다른 타입이 먹으면 효과는 절반.
+glossary	check	BMsg/b_sys#442	E_ItemExp_M	3	BMsg__b_sys__p4	new	glossary: アップ → 업 not used	どのタイプが食べても 経験値が３００アップするマメ。	어느 타입이 먹어도 EXP가 300 증가하는 콩.
+glossary	check	BMsg/b_sys#496	Kj_Btl_lludui_escape_01	1	BMsg__b_sys__p5	new	glossary: よろしいですか？ → 계속하시겠습니까? not used	クエストをやめて 始める前の 状態に戻ります。よろしいですか？	퀘스트를 그만두고 시작 전 상태로 돌아가시겠습니까?
+glossary	check	BMsg/b_sys#535	E_ItemExp_S	3	BMsg__b_sys__p5	new	glossary: アップ → 업 not used	どのタイプが食べても 経験値が３０アップするマメ。	어느 타입이 먹어도 EXP가 30 증가하는 콩.
+glossary	check	BMsg/b_sys#555	KJGuide_BA23_0	11	BMsg__b_sys__p5	new	glossary: ダウン → 다운 not used	かいおんぱで近くの相手に小ダメージを与え さらにステータスをダウンさせます。	괴음파로 가까운 상대에게 작은 타격을 입히고 스테이터스까지 감소시켜요.
+glossary	check	BMsg/b_sys#555	KJGuide_BA23_0	11	BMsg__b_sys__p5	new	glossary: ステータス → 능력 not used	かいおんぱで近くの相手に小ダメージを与え さらにステータスをダウンさせます。	괴음파로 가까운 상대에게 작은 타격을 입히고 스테이터스까지 감소시켜요.
+glossary	check	BMsg/b_sys#593	KJGuide_BB05_0	11	BMsg__b_sys__p6	new	glossary: ステータス → 능력 not used	仲間の強さ・ステータスは 軍団へんせいで キャラクターを 選ぶと表示されます。	동료의 강함·스테이터스는 군단 편성에서 캐릭터를 선택하면 표시돼요.
+glossary	check	BMsg/b_sys#612	KJGuide_BB05_1	11	BMsg__b_sys__p6	new	glossary: ステータス → 능력 not used	ステータスには「HP」 「POW」 「DEF」 「SPEED」 「GDD」 の ５つがあります。	스테이터스에는 「HP」 「POW」 「DEF」 「SPEED」 「GDH」의 5가지가 있어요.
+glossary	check	BMsg/b_sys#671	SpAtk_08_2	11	BMsg__b_sys__p6	new	glossary: アップ → 업 not used	小さいスターをくっつけた数が多いほど モンスターに与えるダメージがアップするので ボタンを連打して どんどんくっつけましょう。	작은 스타를 붙인 수가 많을수록 몬스터에게 입히는 타격이 증가하니까 버튼을 연타해서 계속 붙이세요.
+glossary	check	BMsg/b_sys#672	kj_Btl_sys_massage_05	12	BMsg__b_sys__p6	new	glossary: アップ → 업 not used	メンバーの配置のしかたによっては じんけいボーナスが生じて バトル中に ステータスがアップすることがあります。	멤버를 배치하는 방법에 따라서는 진형 보너스가 발생해서 배틀 중에 능력이 증가하는 경우가 있습니다.
+glossary	check	BMsg/b_sys#687	E_ItemDef	3	BMsg__b_sys__p7	new	glossary: アップ → 업 not used	食べるとDEFが１アップするマメ。	먹으면 DEF가 1 증가하는 콩.
+checker	check	BMsg/b_sys#746	MES_KGarakuta_02_mes_09	6	BMsg__b_sys__p7	edited	page 1: line much longer than the original (292px): '스페셜 어택의 사용 방법을 설명해 줄까?'	ブラザーアタックの説明 する？ いいえはい	스페셜 어택의 사용 방법을 설명해 줄까? 아니요예
+glossary	check	BMsg/b_sys#749	SpAtk_15_1	11	BMsg__b_sys__p7	new	glossary: アップ → 업 not used	ブロドッグをきれいにするほど アタックのダメージがアップするので 全身をまんべんなく こすりましょう。	블도그를 깨끗하게 할수록 어택의 타격이 증가하니까 온몸을 골고루 문지르세요.
+glossary	check	BMsg/b_sys#876	SpAtk_13_1	11	BMsg__b_sys__p8	new	glossary: アップ → 업 not used	１体のモンスターにボムへいを集中させるほど 爆発が大きくなり あたえるダメージもアップします。	몬스터 한 마리에게 폭탄병을 집중시킬수록 폭발이 커지고 입히는 타격도 증가해요.
+glossary	check	BMsg/b_sys#896	E_ItemHp	3	BMsg__b_sys__p8	new	glossary: アップ → 업 not used	食べるとHPが１アップするマメ。	먹으면 HP가 1 증가하는 콩.
+glossary	check	BMsg/b_sys#897	E_ItemHp_C	3	BMsg__b_sys__p8	new	glossary: アップ → 업 not used	クッパJr.が食べると HPが１アップするチキン。	쿠파주니어가 먹으면 HP가 1 증가하는 치킨.
+glossary	check	BMsg/b_sys#910	Menu_KJ_Chr_exp_jugemu	13	BMsg__b_sys__p9	new	glossary: アッチコッチ → 아무 데나 not used	雲に乗ってアッチコッチ大いそがし。 トゲゾーには強いがヘイホー隊長のカブが苦手。	구름을 타고 여기저기 바쁘게 돌아다닌다. 가시돌이엔 강하지만 헤이호 대장 순무엔 약하다.
+glossary	check	BMsg/b_sys#923	Hint_Treajan_0_1	11	BMsg__b_sys__p9	new	glossary: カギ → 열쇠 not used	ダメージをあたえていくと カギが壊れて 口が開いたままになります。 バキュームしてみましょう。	타격을 계속 입히면 자물쇠가 부서져서 입이 열린 채로 있게 돼요. 배큐엄해 보세요.
+glossary	check	BMsg/b_sys#1019	SpAtk_11_1	11	BMsg__b_sys__p9	new	glossary: アップ → 업 not used	ヒモを引っ張るほど モンスターにあたえる ダメージがアップ！	끈을 많이 당길수록 몬스터에게 입히는 타격이 증가!
+glossary	check	BMsg/b_sys#1034	Hint_Tanpa_0_0	11	BMsg__b_sys__p10	new	glossary: アップ → 업 not used	タンパくんは攻撃されると巨大化し 攻撃力がアップしますが 攻撃の動きが遅くなるので 避けやすくなります。	프로프는 공격을 받으면 거대화해서 공격력이 증가하지만 공격 동작이 느려지기 때문에 피하기 쉬워져요.
+glossary	check	BMsg/b_sys#1040	Kj_Btl_slc_odateru_06	6	BMsg__b_sys__p10	new	glossary: お父さん → 아빠 not used	さすが ぼっちゃん お父さんに似て頼れます！	역시 도련님! 아버님을 닮아서 믿음직해요!
+glossary	check	BMsg/b_sys#1123	Kj_Btl_slc_roulette_06	12	BMsg__b_sys__p10	new	glossary: ラッキー！ → LUCKY not used	超ラッキー！何かがおこるぞ！	완전 럭키! 뭔가 일어난다!
+glossary	check	BMsg/b_sys#1128	SpAtk_00_0	11	BMsg__b_sys__p10	edited	glossary: キック → 킥 not used	マリオが ◆ボタン ルイージが ◆ボタンで みどりコウラを 交互に キックします。	마리오는 ◆ 버튼, 루이지는 ◆ 버튼으로 초록등껍질을 번갈아 차요.
+glossary	check	BMsg/b_sys#1152	SpAtk_00_1	11	BMsg__b_sys__p11	new	glossary: キック → 킥 not used	みどりコウラは キックするたびにスピードアップ するので ボタンを押すタイミングには注意！	초록등껍질은 찰 때마다 스피드가 빨라지니까 버튼을 누르는 타이밍에 주의!
+glossary	check	BMsg/b_sys#1175	RankUpBonusExp_ML_4	5	BMsg__b_sys__p11	new	glossary: アップ → 업 not used	バッジパワーがたまる量を ちょっとアップ！	배지 파워가 쌓이는 양이 조금 증가!
+glossary	check	BMsg/b_sys#1177	SpAtk_00_2	11	BMsg__b_sys__p11	new	glossary: キック → 킥 not used	さいごに パスされたみどりコウラを キックして フィニッシュ！ すべて成功させて Excellentを狙いましょう！	마지막으로 패스된 초록등껍질을 차서 피니시! 모두 성공시켜서 Excellent를 노려 보세요!
+glossary	check	BMsg/b_sys#1181	KJGuide_BA19_0	11	BMsg__b_sys__p11	new	glossary: アップ → 업 not used	自分と周囲の味方の 攻撃力をアップさせます。	자신과 주위 아군의 공격력을 증가시켜요.
+glossary	check	BMsg/b_sys#1251	E_ItemExpF_DX	3	BMsg__b_sys__p11	new	glossary: アップ → 업 not used	ひこうタイプの経験値が３０００アップ。 他のタイプが食べると効果は半分。	비행 타입의 EXP가 3000 증가. 다른 타입이 먹으면 효과는 절반.
+glossary	check	BMsg/b_sys#1311	KJGuide_O05_2	11	BMsg__b_sys__p12	new	glossary: ステータス → 능력 not used	入れかえるときに下画面では キャラクターのステータスを 見比べることができます。	바꿀 때 아래 화면에서는 캐릭터의 스테이터스를 비교해 볼 수 있어요.
+glossary	check	BMsg/b_sys#1350	RankUpBonusExp_K_3	5	BMsg__b_sys__p12	new	glossary: アップ → 업 not used	「パンチ」と「ファイア」の いりょくがアップ！	「펀치」와 「파이어」의 위력이 증가!
+glossary	check	BMsg/b_sys#1372	RankUpBonusExp_K_4	5	BMsg__b_sys__p12	new	glossary: アップ → 업 not used	「ボコスカアタック」のいりょくがアップ！	「스페셜 어택」의 위력이 증가!
+glossary	check	BMsg/b_sys#1377	E_ItemExpA_DX	3	BMsg__b_sys__p12	new	glossary: アップ → 업 not used	とつげきタイプの経験値が３０００アップ。 他のタイプが食べると効果は半分。	돌격 타입의 EXP가 3000 증가. 다른 타입이 먹으면 효과는 절반.
+glossary	check	BMsg/b_sys#1397	RankUpBonusExp_K_5	5	BMsg__b_sys__p13	new	glossary: アップ → 업 not used	ラッキーヒットの いりょくがアップ！	럭키 히트의 위력이 증가!
+glossary	check	BMsg/b_sys#1403	E_ItemSpd	3	BMsg__b_sys__p13	new	glossary: アップ → 업 not used	食べるとSPEEDが１アップするマメ。	먹으면 SPEED가 1 증가하는 콩.
+glossary	check	BMsg/b_sys#1420	E_ItemExpC_L	3	BMsg__b_sys__p13	new	glossary: アップ → 업 not used	クッパJr.の経験値が１０００アップ。 他のキャラにはあげられない	쿠파주니어의 EXP가 1000 증가. 다른 캐릭터에게는 줄 수 없다
+glossary	check	BMsg/b_sys#1436	E_ItemExpC_M	3	BMsg__b_sys__p13	new	glossary: アップ → 업 not used	クッパJr.の経験値が１００アップ。 他のキャラにはあげられない	쿠파주니어의 EXP가 100 증가. 다른 캐릭터에게는 줄 수 없다
+glossary	check	BMsg/b_sys#1488	E_ItemGdd_C	3	BMsg__b_sys__p13	new	glossary: アップ → 업 not used	クッパJr.が食べると GDDが１アップするチキン。	쿠파주니어가 먹으면 GDH가 1 증가하는 치킨.
+glossary	check	BMsg/b_sys#1489	E_ItemSpd_C	3	BMsg__b_sys__p13	new	glossary: アップ → 업 not used	クッパJr.が食べると SPEEDが１アップするチキン。	쿠파주니어가 먹으면 SPEED가 1 증가하는 치킨.
+glossary	check	BMsg/b_sys#1518	Menu_KJ_Chr_exp_kameck_wt	13	BMsg__b_sys__p14	new	glossary: アップ → 업 not used	白い服を着たカメック。 魔法の杖で 近くの味方の防御アップ！	하얀 옷을 입은 마귀. 마법 지팡이로 근처 아군의 방어력 증가!
+glossary	check	BMsg/b_sys#1539	E_ItemExpA_L	3	BMsg__b_sys__p14	new	glossary: アップ → 업 not used	とつげきタイプの経験値が１０００アップ。 他のタイプが食べると効果は半分。	돌격 타입의 EXP가 1000 증가. 다른 타입이 먹으면 효과는 절반.
+glossary	check	BMsg/b_sys#1540	E_ItemExpC_S	3	BMsg__b_sys__p14	new	glossary: アップ → 업 not used	クッパJr.の経験値が１０アップ。 他のキャラにはあげられない	쿠파주니어의 EXP가 10 증가. 다른 캐릭터에게는 줄 수 없다
+glossary	check	BMsg/b_sys#1562	E_ItemExpA_M	3	BMsg__b_sys__p14	new	glossary: アップ → 업 not used	とつげきタイプの経験値が１００アップ。 他のタイプが食べると効果は半分。	돌격 타입의 EXP가 100 증가. 다른 타입이 먹으면 효과는 절반.
+glossary	check	BMsg/b_sys#1569	KJGuide_BC09_1	11	BMsg__b_sys__p14	new	glossary: 攻撃 → 공격 not used	かわす時にタイミングよく ◆ボタンを入力すると かわした後に カウンター攻撃ができます。	피할 때 알맞은 타이밍에 ◆ 버튼을 입력하면 피한 뒤에 반격할 수 있어요.
+glossary	check	BMsg/b_sys#1570	KJGuide_O01_2	11	BMsg__b_sys__p14	new	glossary: チャレンジ → 챌린지 not used	いろいろな きろくに チャレンジしてみましょう。	다양한 기록에 도전해 보세요.
+glossary	check	BMsg/b_sys#1634	E_ItemDef_C	3	BMsg__b_sys__p15	new	glossary: アップ → 업 not used	クッパJr.が食べると DEFが１アップするチキン。	쿠파주니어가 먹으면 DEF가 1 증가하는 치킨.
+glossary	check	BMsg/b_sys#1635	E_ItemPow_C	3	BMsg__b_sys__p15	new	glossary: アップ → 업 not used	クッパJr.が食べると POWが１アップするチキン。	쿠파주니어가 먹으면 POW가 1 증가하는 치킨.
+glossary	check	BMsg/b_sys#1677	E_ItemExpA_S	3	BMsg__b_sys__p15	new	glossary: アップ → 업 not used	とつげきタイプの経験値が１０アップ。 他のタイプが食べると効果は半分。	돌격 타입의 EXP가 10 증가. 다른 타입이 먹으면 효과는 절반.
+glossary	check	BMsg/b_sys#1678	KJGuide_BA20_0	11	BMsg__b_sys__p15	new	glossary: アップ → 업 not used	自分 または 周囲の味方の 防御力をアップします。	자신 또는 주변 아군의 방어력을 증가시켜요.
+glossary	check	BMsg/b_sys#1681	KJGuide_BC16_1	11	BMsg__b_sys__p15	new	glossary: ダウン → 다운 not used	小さくなっている間は すべてのステータスがダウンします。	작아져 있는 동안은 모든 스테이터스가 감소해요.
+glossary	check	BMsg/b_sys#1681	KJGuide_BC16_1	11	BMsg__b_sys__p15	new	glossary: ステータス → 능력 not used	小さくなっている間は すべてのステータスがダウンします。	작아져 있는 동안은 모든 스테이터스가 감소해요.
+glossary	check	BMsg/b_sys#1711	MES_Mushiba_05_mes_12	6	BMsg__b_sys__p15	new	glossary: ダメージ → 타격 not used	ファイアは ボタンをロ～ングタイム 押し続けましょう！ どんどんダメージが ビッグになっていきますよ！	파이어는 버튼을 로~옹 타임 계속 눌러 주세요! 점점 대미지가 빅해질 거예요!
+glossary	check	BMsg/b_sys#1746	Kj_Btl_slc_suketto_02a	12	BMsg__b_sys__p15	new	glossary: ラッキー！ → LUCKY not used	ラッキー！Ⓥも来てくれた！	럭키! Ⓥ도 와 주었다!
+glossary	check	BMsg/b_sys#1755	SpAtk_14_1	11	BMsg__b_sys__p16	new	glossary: アップ → 업 not used	強くなった光が多いほど カメックのはなつ 魔法のダメージがアップします。	강해진 빛이 많을수록 마귀가 쏘는 마법의 타격이 증가해요.
+glossary	check	BMsg/b_sys#1772	MES_Mushiba_05_mes_15	6	BMsg__b_sys__p16	new	glossary: ダメージ → 타격 not used	そうすれば ファイアも ソービッグ！ ◆を押しっぱなしにすれば ダメージもソービッグです！	그러면 파이어도 쏘 빅! ◆ 버튼을 계속 누르고 있으면 대미지도 쏘 빅입니다!
+glossary	check	BMsg/b_sys#1781	E_ItemExpL_L	3	BMsg__b_sys__p16	new	glossary: アップ → 업 not used	えんきょりタイプの経験値が１０００アップ。 他のタイプが食べると効果は半分。	원거리 타입의 EXP가 1000 증가. 다른 타입이 먹으면 효과는 절반.
+glossary	check	BMsg/b_sys#1799	E_ItemExpL_M	3	BMsg__b_sys__p16	new	glossary: アップ → 업 not used	えんきょりタイプの経験値が１００アップ。 他のタイプが食べると効果は半分。	원거리 타입의 EXP가 100 증가. 다른 타입이 먹으면 효과는 절반.
+glossary	check	BMsg/b_sys#1800	E_ItemPow	3	BMsg__b_sys__p16	new	glossary: アップ → 업 not used	食べるとPOWが１アップするマメ。	먹으면 POW가 1 증가하는 콩.
+glossary	check	BMsg/b_sys#1824	E_ItemExpC_DX	3	BMsg__b_sys__p16	new	glossary: アップ → 업 not used	クッパJr.の経験値が３０００アップ。 他のキャラにはあげられない	쿠파주니어의 EXP가 3000 증가. 다른 캐릭터에게는 줄 수 없다
+glossary	check	BMsg/b_sys#1843	KJGuide_BA05_0	11	BMsg__b_sys__p16	new	glossary: ダウン → 다운 not used	相手をはねとばして 強ダメージを与えた上に 追加効果で防御力をダウンさせます。	상대를 튕겨 내서 강한 타격을 입히고 추가 효과로 방어력을 감소시켜요.
+glossary	check	FMsg/i_air_14#8	MES_KAir_14_KAir_14_mes_01	6	FMsg__i_air_01__and7	ds	glossary: ガード → 방어 not used	我ら トーテムヘモグロびんの ガードは とーてもかたいびん。 我らが みとめた者でなければ この先には 進ませないびん。 この先に どーしても進みたいなら 我らの とーても難しい 試練を 受けるがいいびん。 とーても 難しい試練を 受けますか？ いいえはい	우리 토템헬로글로빈의 벽은 아주 단단해로빈. 우리가 인정한 사람이 아니면 이 앞으로 안 보낼 거야로빈. 무조건 이 앞으로 가야 한다면 우리가 내는 아~주 어려운 시험을 치러야 돼로빈. 아~주 어려운 시험을 치를래로빈? 아니요예
+glossary	check	FMsg/i_air_14#13	MES_KAir_14_KAir_14_mes_04	6	FMsg__i_air_01__and7	ds	glossary: ガード → 방어 not used	我ら トーテムヘモグロびんの ガードは とーてもかたいびん。 我らの とーても難しい 試練を受けて 先に進むびんか？ いいえはい	우리 토템헬로글로빈의 벽은 아주 단단해로빈. 우리가 내는 아~주 어려운 시험을 치르고 앞으로 갈래로빈? 아니요예
+glossary	check	FMsg/i_energy_11#0	MES_KEnergy_11_KEnergy_11_mes_01	6	FMsg__i_energy_01__and11	ds	glossary: タイトル → 타이틀 not used	♪はずかしがりやの テレサさん ♪明るい光で 止まっちゃう～ ♪はずかしがりやの テレサさん ♪明るい光で かたまっちゃう～ 作詞 ヘモグロびん 作曲 ヘモグロびん タイトル 「テレていてもいいですか？」	♪부끄럼쟁이 부끄부끄씨 ♪밝은 빛에 멈춰 버리네~ ♪부끄럼쟁이 부끄부끄씨 ♪밝은 빛에 굳어 버리네~ 작사 헬로글로빈 작곡 헬로글로빈 제목 부끄부끄해도 될까요?
+glossary	check	FMsg/i_energy_32#7	MES_KEnergy_32_KEnergy_32_mes_17	6	FMsg__i_energy_01__and11	ds	glossary: ガード → 방어 not used	お願いです！ 賢者様！ ダークスターのガードを 破るため スターワクチンを おわたしください！	부탁이에요! 현인님! 다크스타의 벽을 부숴야 해요! 스타 백신을 저희에게 주세요!
+glossary	check	FMsg/i_energy_32#7	MES_KEnergy_32_KEnergy_32_mes_17	6	FMsg__i_energy_01__and11	ds	glossary: ダークスターのガード → 다크스타의 방어벽 not used	お願いです！ 賢者様！ ダークスターのガードを 破るため スターワクチンを おわたしください！	부탁이에요! 현인님! 다크스타의 벽을 부숴야 해요! 스타 백신을 저희에게 주세요!
+glossary	check	FMsg/i_kinopio_01#16	MES_KHatena_f_01_KHatena_f_01_mes_16	7	FMsg__i_kinopio_01	ds	glossary: 姫様 → 공주님 not used	姫様～～っ！！ あううううう…	공주니임~~~!! 아흐흐흐흑…
+glossary	check	FMsg/i_kinopio_01#19	MES_KHatena_f_01_KHatena_f_01_mes_13_j	6	FMsg__i_kinopio_01	ds	glossary: ほのお → 화염 not used	モンスターにふれると バトルが 始まりますよね。 実は このモンスターに どうやって ふれるかによって バトルの始まりが かわるんです。 ジャンプして モンスターを上から ふみつけてバトルに入ると… バトルの いちばん最初で モンスターに ダメージを あたえることが できるんです。 モンスターを ハンマーで叩いて バトルに入っても 同じですよ。 少しでも多く ダメージをあたえれば バトルが 有利になりますから ぜひ ためしてみてください。 あ ちなみに… トゲやほのおの モンスターを ふみつけて バトルに入ると 逆に自分が ダメージをうけますよ。 くれぐれも 気をつけてください。	몬스터와 닿게 되면 배틀이 시작되잖아요? 실은 몬스터와 어떻게 닿느냐에 따라 배틀의 시작이 달라져요. 점프해서 몬스터의 머리 위를 밟고 배틀에 들어가면… 배틀을 시작할 때 몬스터에게 타격을 줄 수가 있어요. 몬스터를 해머로 두드려서 배틀에 들어가도 똑같아요. 조금이라도 많은 타격을 주면 배틀이 유리해지니까 꼭 시도해 보세요. 아, 참고로… 가시가 있거나 불이 있는 몬스터를 밟고 배틀에 들어가면 반대로 여러분이 타격을 입어요. 아무쪼록 주의해 주세요.
+glossary	check	FMsg/i_kinopio_01#26	MES_KHatena_f_01_KHatena_f_01_mes_02	6	FMsg__i_kinopio_01	ds	glossary: マリオ → 마리오 not used	マリオさん達も クッパに 吸い込まれたんですね！ なんだか 少し安心しました。 マリオさん達が いてくれると こころ強いですよ～	여러분도 쿠파 몸속으로 빨려 들어오고 말았군요! 왠지 모르게 안심이 됩니다. 여러분이 계신다고 생각하니 아주 든든하네요~
+glossary	check	FMsg/i_kinopio_01#26	MES_KHatena_f_01_KHatena_f_01_mes_02	6	FMsg__i_kinopio_01	ds	glossary: マリオさん → 마리오님 not used	マリオさん達も クッパに 吸い込まれたんですね！ なんだか 少し安心しました。 マリオさん達が いてくれると こころ強いですよ～	여러분도 쿠파 몸속으로 빨려 들어오고 말았군요! 왠지 모르게 안심이 됩니다. 여러분이 계신다고 생각하니 아주 든든하네요~
+glossary	check	FMsg/i_kinopio_01#30	MES_KHatena_f_01_KHatena_f_01_mes_06	6	FMsg__i_kinopio_01	ds	glossary: マリオ → 마리오 not used	まぁ ここでじっと していても 不安なだけですからね… お店でも開いて 気を まぎらわしてるんですよ。 マリオさん達も なにか 買ってあげてください。 ボクはこれから 他にもなにか 使えそうなものがないか 探しに 行ってきます。	하긴, 여기에서 가만히 있다 보면 괜히 불안해지기만 하니… 가게라도 열어서 잡생각을 없애 보자는 취지겠지요. 여러분도 필요한 게 있다면 구입해 주세요. 저는 쓸 만한 물건이 어디 없나 지금부터 찾으러 다녀오겠습니다.
+glossary	check	FMsg/i_kinopio_01#30	MES_KHatena_f_01_KHatena_f_01_mes_06	6	FMsg__i_kinopio_01	ds	glossary: マリオさん → 마리오님 not used	まぁ ここでじっと していても 不安なだけですからね… お店でも開いて 気を まぎらわしてるんですよ。 マリオさん達も なにか 買ってあげてください。 ボクはこれから 他にもなにか 使えそうなものがないか 探しに 行ってきます。	하긴, 여기에서 가만히 있다 보면 괜히 불안해지기만 하니… 가게라도 열어서 잡생각을 없애 보자는 취지겠지요. 여러분도 필요한 게 있다면 구입해 주세요. 저는 쓸 만한 물건이 어디 없나 지금부터 찾으러 다녀오겠습니다.
+glossary	check	FMsg/i_metaboru_06#3	MES_KMetaboru_06_Kmetaboru_06_q_m_health	6	FMsg__i_metaboru_02__and9	ds	glossary: バトル → 배틀 not used	クッパは ゲラコビッツとのバトルを なにで 終わらせるつもりでしょう？ パンチアタック ファイアアタック ボコスカアタック 吸い込み	쿠파는 까르코비츠와의 대결에서 무엇으로 이길 생각일까요? 펀치 공격 파이어 공격 스페셜 어택 빨아들이기 능력
+glossary	check	FMsg/i_metaboru_06#9	MES_KMetaboru_06_Kmetaboru_06_q_n_sports	6	FMsg__i_metaboru_02__and9	ds	glossary: ジューシー → 쥬시 not used	クッパは ゲラコビッツのチキンの なにを ほめているでしょう？ まろやかさとコク やきぐあいとボリューム ジューシーさと歯ごたえ カラさとあぶらっぽさ	쿠파는 까르코비츠 치킨의 어떤 점을 칭찬하고 있을까요? 부드럽고 깊은 맛 구운 정도와 양 육즙과 씹는 맛 매운맛과 기름진 맛
+glossary	check	FMsg/i_metaboru_06#22	MES_KMetaboru_06_Kmetaboru_06_q_l_food	6	FMsg__i_metaboru_02__and9	ds	glossary: クッパの体の中 → 쿠파의 몸속 not used	クッパの体の中で かわいてきた ところは どこでしょう？ 目 はだ ハナ ノド	쿠파의 몸 중에 마르기 시작한 곳은 어디일까요? 눈 피부 코 목
+glossary	check	FMsg/i_metaboru_06#40	MES_KMetaboru_06_Kmetaboru_06_quiz_25_02	6	FMsg__i_metaboru_02__and9	short	glossary: ハズレ → 꽝 not used	ハズレ！	땡!
+glossary	check	FMsg/i_power_lungs_SA_fire_01_L#0	MES_SA_SUB_KPower_lungs_01_SA_LUG_TUT_8BT	6	FMsg__i_power_lungs_SA_fire_01_L	edited	glossary: マリオ達 → 마리오 일행 not used	マリオ達を いろんな方向に はじいて クッパを 上まで 行かせましょう！	마리오 형제를 다양한 방향으로 튕겨서 쿠파를 위쪽까지 올려 보내 주자!
+glossary	check	FMsg/i_power_lungs_SA_fire_01_L#5	MES_SA_SUB_KPower_lungs_01_SA_LUG_TUT_8AT	6	FMsg__i_power_lungs_SA_fire_01_L	ds	glossary: マリオ達 → 마리오 일행 not used	マリオ達を はじいた方向に クッパが 飛ぶみたいだから…	마리오 형제를 튕기는 방향으로 쿠파가 올라가는 것 같으니까…
+glossary	check	FMsg/i_power_lungs_SA_fire_01_L#6	MES_SA_SUB_KPower_lungs_01_SA_LUG_TUT_4T	6	FMsg__i_power_lungs_SA_fire_01_L	edited	glossary: マリオ達 → 마리오 일행 not used	タッチペンを はなすと マリオ達が はじかれて クッパも 飛び上がるわ！	터치펜을 떼면 마리오 형제가 튕겨 나가는 반동으로 쿠파도 튕겨 올라가!
+glossary	check	FMsg/i_power_lungs_SA_fire_01_L#10	MES_SA_SUB_KPower_lungs_01_SA_LUG_TUT_02BT	6	FMsg__i_power_lungs_SA_fire_01_L	ds	glossary: マリオ達 → 마리오 일행 not used	マリオ達を はじくと その反動で クッパが 飛び上がるのよ！	마리오 형제를 튕기면 그 반동으로 쿠파가 튕겨 올라가나 봐!
+glossary	check	FMsg/i_power_lungs_SA_fire_01_L#11	MES_SA_SUB_KPower_lungs_01_SA_LUG_TUT_3T	6	FMsg__i_power_lungs_SA_fire_01_L	edited	glossary: マリオ達 → 마리오 일행 not used	タッチペンで マリオ達を 引っ張って…	터치펜으로 마리오 형제를 이렇게 당겼다가…
+glossary	check	FMsg/i_power_nose_01#0	MES_SA_SUB_KPower_nose_02_SA_NOSE_TUT_11AT	6	FMsg__i_power_nose_01	ds	glossary: マリオ達 → 마리오 일행 not used	こんなふうに マリオ達を 動かして…	이런 식으로 마리오 형제를 움직여서…
+glossary	check	FMsg/i_power_nose_01#1	MES_SA_SUB_KPower_nose_02_SA_NOSE_TUT_3AT	6	FMsg__i_power_nose_01	ds	glossary: マリオ達 → 마리오 일행 not used	マリオ達を タッチペンで すばやく スライドすれば 花粉を はじき飛ばせそうね。	터치펜으로 마리오 형제를 빠르게 슬라이드하면 꽃가루를 튕겨 낼 수 있겠어.
+glossary	check	FMsg/i_power_nose_01#10	MES_SA_SUB_KPower_nose_02_SA_NOSE_TUT_5BT	6	FMsg__i_power_nose_01	ds	glossary: マリオ達 → 마리오 일행 not used	次は このかべをマリオ達で 直接 シゲキしちゃいましょう！	이번엔 이 벽을 마리오 형제가 직접 자극해 보자!
+glossary	check	FMsg/i_power_nose_01#13	MES_SA_SUB_KPower_nose_02_SA_NOSE_TUT_9T	6	FMsg__i_power_nose_01	ds	glossary: マリオ達 → 마리오 일행 not used	たとえば こうやって マリオ達を なぞると…	예를 들면 이렇게 마리오 형제를 슬라이드하면…
+glossary	check	FMsg/i_press_01#5	MES_KHatena_d_01_BP_EV_kinoku_13	6	FMsg__i_press_01	ds	glossary: マリオ → 마리오 not used	マ… マリオさん達も がんばって くださいね！	여… 여러분도 힘내세요!
+glossary	check	FMsg/i_press_01#5	MES_KHatena_d_01_BP_EV_kinoku_13	6	FMsg__i_press_01	ds	glossary: マリオさん → 마리오님 not used	マ… マリオさん達も がんばって くださいね！	여… 여러분도 힘내세요!
+glossary	check	FMsg/i_press_01#7	MES_KHatena_d_01_KHd01_kinoku_02	6	FMsg__i_press_01	ds	glossary: マリオ → 마리오 not used	マリオさん達も いらしてたんですね！	여러분도 이곳에 오셨군요!
+glossary	check	FMsg/i_press_01#7	MES_KHatena_d_01_KHd01_kinoku_02	6	FMsg__i_press_01	ds	glossary: マリオさん → 마리오님 not used	マリオさん達も いらしてたんですね！	여러분도 이곳에 오셨군요!
+glossary	check	FMsg/i_shinkei_01#0	MES_KHatena_c_01_Khatena_c_01_mes_1	6	FMsg__i_shinkei_01__and1	ds	glossary: 仲間 → 동료 not used	これ さっきの畑にいた イモムシの仲間？	이건 아까 밭에 있던 애벌레의 일종인가?
+glossary	check	FMsg/k_o_ekubon_80#152	Kjrpg_03_Ekubon_qst05_09_01	6	FMsg__k_o_ekubon_80__p2	new	glossary: プクプク → 뽀꾸뽀꾸 not used	あ～ヤダ。そんなんだと プクプクのボテボテの体になっちゃうわよ。	어머 얘. 그러다간 뒤룩뒤룩 퉁퉁한 몸이 되고 만단다.
+glossary	check	FMsg/k_o_ekubon_80#221	Kjrpg_08_Ekubon_qst04_06	6	FMsg__k_o_ekubon_80__p2	new	glossary: コリ → 뭉친 근육 not used	コリないこいつら やっつけちゃいましょ～	정신 못 차리는 이 녀석들 해치워 버려용~
+glossary	check	FMsg/o_areanone_allmap_bcat_U#2	MES_EVnog_kinoko_all_map_bcat_Ekubon_brilock_shop_05_1	6	FMsg__o_areanone_allmap_bcat_U	ds	glossary: ブロキャットちゃん → 귀여운 블캐츠 not used	ブロキャットちゃんとは スーパーレアな ブロックのことです！ キューティー アンド プリティー！ ぜひとも お店番にウォンテッド！！ 全部で１５匹！ キノコ王国中に います！！	블캐츠란 슈퍼 레어한 블록을 말합니다! 큐티 앤드 프리티! 우리 숍의 얼굴로 딱이죠!! 전부 합하면 15마리! 버섯 왕국 어딘가에 있습니다!!
+glossary	check	FMsg/o_ekubon_02_after#16	MES_Ekubon_02_after_Ekubon_brilock_shop_05_g	6	FMsg__o_ekubon_02__and7	ds	glossary: いつでもハッピー → 언제나 해피 not used	まず カゼ！ カゼに注意です！ カゼをひくと 行動を起こすたびに HPが 減っていってしまいます！ カゼになったら リフレッシュハーブを 飲みましょう！ ウチにも おいてあります！ ぜひ お買い上げシルブプレ！ それから おこりすぎに 注意です！ 攻撃を 受けつづけると イライラと ストレスがたまります！ イライラが 頂点に達すると… そう！ おこります！ おこると POWがアップするのです！ モンスターも 倒しやすいでしょう！ バット！ しかし！ おこると DEFはダウンするのです！ 倒しやすく！ 倒されやすい！ デンジャラスな 状態なのです！ ブロドッグちゃんも おこりすぎで やられちゃうことがしばしば… できれば いつでもハッピーに 笑っていたいものです… ということで 攻撃を受けつづけると おこりやすくなることに 注意です！	먼저 감기! 감기를 조심하세요! 감기에 걸리면 행동할 때마다 HP가 줄어들게 되거든요! 감기에 걸리면 바로 회복허브를 먹어 주세요! 우리 숍에도 있으니까 구입해 주세요, 플리즈! 그리고 너무 분노하면 안 좋아요! 공격을 계속 당하면 초조해지고 스트레스도 쌓일 거예요! 초조함이 극도에 도달하면… 그래요! 분노하게 되죠! 분노하면 POW가 세집니다! 몬스터도 쉽게 물리칠 수 있죠! 벗! 하지만! 분노하면 DEF는 약해집니다! 쓰러뜨리기 쉬우나 쓰러지기도 쉬운 덴저러스한 상태인 것입니다! 우리 블도그도 화를 주체하지 못하고 종종 당하곤 하죠… 되도록 항상 해피하게 웃으며 지내면 좋잖아요… 그러니까 공격을 계속 당해서 분노하지 않도록 주의하세요!
+glossary	check	FMsg/o_ekubon_02_after#16	MES_Ekubon_02_after_Ekubon_brilock_shop_05_g	6	FMsg__o_ekubon_02__and7	ds	glossary: POWがアップ → POW가 증가 not used	まず カゼ！ カゼに注意です！ カゼをひくと 行動を起こすたびに HPが 減っていってしまいます！ カゼになったら リフレッシュハーブを 飲みましょう！ ウチにも おいてあります！ ぜひ お買い上げシルブプレ！ それから おこりすぎに 注意です！ 攻撃を 受けつづけると イライラと ストレスがたまります！ イライラが 頂点に達すると… そう！ おこります！ おこると POWがアップするのです！ モンスターも 倒しやすいでしょう！ バット！ しかし！ おこると DEFはダウンするのです！ 倒しやすく！ 倒されやすい！ デンジャラスな 状態なのです！ ブロドッグちゃんも おこりすぎで やられちゃうことがしばしば… できれば いつでもハッピーに 笑っていたいものです… ということで 攻撃を受けつづけると おこりやすくなることに 注意です！	먼저 감기! 감기를 조심하세요! 감기에 걸리면 행동할 때마다 HP가 줄어들게 되거든요! 감기에 걸리면 바로 회복허브를 먹어 주세요! 우리 숍에도 있으니까 구입해 주세요, 플리즈! 그리고 너무 분노하면 안 좋아요! 공격을 계속 당하면 초조해지고 스트레스도 쌓일 거예요! 초조함이 극도에 도달하면… 그래요! 분노하게 되죠! 분노하면 POW가 세집니다! 몬스터도 쉽게 물리칠 수 있죠! 벗! 하지만! 분노하면 DEF는 약해집니다! 쓰러뜨리기 쉬우나 쓰러지기도 쉬운 덴저러스한 상태인 것입니다! 우리 블도그도 화를 주체하지 못하고 종종 당하곤 하죠… 되도록 항상 해피하게 웃으며 지내면 좋잖아요… 그러니까 공격을 계속 당해서 분노하지 않도록 주의하세요!
+glossary	check	FMsg/o_ekubon_02_after#16	MES_Ekubon_02_after_Ekubon_brilock_shop_05_g	6	FMsg__o_ekubon_02__and7	ds	glossary: アップ → 업 not used	まず カゼ！ カゼに注意です！ カゼをひくと 行動を起こすたびに HPが 減っていってしまいます！ カゼになったら リフレッシュハーブを 飲みましょう！ ウチにも おいてあります！ ぜひ お買い上げシルブプレ！ それから おこりすぎに 注意です！ 攻撃を 受けつづけると イライラと ストレスがたまります！ イライラが 頂点に達すると… そう！ おこります！ おこると POWがアップするのです！ モンスターも 倒しやすいでしょう！ バット！ しかし！ おこると DEFはダウンするのです！ 倒しやすく！ 倒されやすい！ デンジャラスな 状態なのです！ ブロドッグちゃんも おこりすぎで やられちゃうことがしばしば… できれば いつでもハッピーに 笑っていたいものです… ということで 攻撃を受けつづけると おこりやすくなることに 注意です！	먼저 감기! 감기를 조심하세요! 감기에 걸리면 행동할 때마다 HP가 줄어들게 되거든요! 감기에 걸리면 바로 회복허브를 먹어 주세요! 우리 숍에도 있으니까 구입해 주세요, 플리즈! 그리고 너무 분노하면 안 좋아요! 공격을 계속 당하면 초조해지고 스트레스도 쌓일 거예요! 초조함이 극도에 도달하면… 그래요! 분노하게 되죠! 분노하면 POW가 세집니다! 몬스터도 쉽게 물리칠 수 있죠! 벗! 하지만! 분노하면 DEF는 약해집니다! 쓰러뜨리기 쉬우나 쓰러지기도 쉬운 덴저러스한 상태인 것입니다! 우리 블도그도 화를 주체하지 못하고 종종 당하곤 하죠… 되도록 항상 해피하게 웃으며 지내면 좋잖아요… 그러니까 공격을 계속 당해서 분노하지 않도록 주의하세요!
+glossary	check	FMsg/o_ekubon_02_after#16	MES_Ekubon_02_after_Ekubon_brilock_shop_05_g	6	FMsg__o_ekubon_02__and7	ds	glossary: ダウン → 다운 not used	まず カゼ！ カゼに注意です！ カゼをひくと 行動を起こすたびに HPが 減っていってしまいます！ カゼになったら リフレッシュハーブを 飲みましょう！ ウチにも おいてあります！ ぜひ お買い上げシルブプレ！ それから おこりすぎに 注意です！ 攻撃を 受けつづけると イライラと ストレスがたまります！ イライラが 頂点に達すると… そう！ おこります！ おこると POWがアップするのです！ モンスターも 倒しやすいでしょう！ バット！ しかし！ おこると DEFはダウンするのです！ 倒しやすく！ 倒されやすい！ デンジャラスな 状態なのです！ ブロドッグちゃんも おこりすぎで やられちゃうことがしばしば… できれば いつでもハッピーに 笑っていたいものです… ということで 攻撃を受けつづけると おこりやすくなることに 注意です！	먼저 감기! 감기를 조심하세요! 감기에 걸리면 행동할 때마다 HP가 줄어들게 되거든요! 감기에 걸리면 바로 회복허브를 먹어 주세요! 우리 숍에도 있으니까 구입해 주세요, 플리즈! 그리고 너무 분노하면 안 좋아요! 공격을 계속 당하면 초조해지고 스트레스도 쌓일 거예요! 초조함이 극도에 도달하면… 그래요! 분노하게 되죠! 분노하면 POW가 세집니다! 몬스터도 쉽게 물리칠 수 있죠! 벗! 하지만! 분노하면 DEF는 약해집니다! 쓰러뜨리기 쉬우나 쓰러지기도 쉬운 덴저러스한 상태인 것입니다! 우리 블도그도 화를 주체하지 못하고 종종 당하곤 하죠… 되도록 항상 해피하게 웃으며 지내면 좋잖아요… 그러니까 공격을 계속 당해서 분노하지 않도록 주의하세요!
+glossary	check	FMsg/o_ekubon_02_after#26	MES_Ekubon_02_after_Ekubon_brilock_shop_04_4	6	FMsg__o_ekubon_02__and7	ds	glossary: ブロキャットちゃん → 귀여운 블캐츠 not used	ご存知のとおり ミーは いち ブロックコレクターです！ コレクターのあいだでも ミーの名を 知らない者はいません！ そんなミーも まだ 手に入れてない ブロックがあります！ それは 生きたブロック… ブロキャットちゃん！！！	아시다시피 미는 블록 컬렉터입니다! 이래 봬도 컬렉터 사이에서는 미의 명성이 높죠! 하지만 미가 아직 갖지 못한 블록이 있습니다! 그것은 살아 있는 블록… 바로 블캐츠!!!
+glossary	check	FMsg/o_ekubon_02_after#47	MES_Ekubon_02_after_Ekubon_brilock_shop_06_18	6	FMsg__o_ekubon_02__and7	ds	glossary: ブロキャットちゃん → 귀여운 블캐츠 not used	最後の ブロキャットちゃん カミーーング！！	마지막 블캐츠까지 다 모였네~!!
+glossary	check	FMsg/o_ekubon_09_2#0	MES_Ekubon_09_2_Ekubon_koopa_giant_18	6	FMsg__o_ekubon_09_1__and3	ds	glossary: ワガハイ → 이 몸 not used	す すごいぞ！ ワガハイの体に なにが起きたんだ！？	괴, 굉장했다! 내 몸에 무슨 일이 일어난 거냐!?
+glossary	check	FMsg/o_ekubon_15#11	MES_Ekubon_15_Ekubon_giga_carrot_29_1	6	FMsg__o_ekubon_15__and6	ds	glossary: チャレンジ → 챌린지 not used	残念です～ あきらめるですか？ それとも もう１度 チャレンジですか？ ニンジンなら た～くさん あるです。	실패했습니다~ 포기하시겠습니까? 아니면 다시 한번 도전하시겠습니까? 당근이라면 아주 많~이 있습니다.
+glossary	check	FMsg/o_ekubon_15#14	MES_Ekubon_15_Ekubon_giga_carrot_22	6	FMsg__o_ekubon_15__and6	ds	glossary: チャレンジ → 챌린지 not used	１分以内に 食べきれなかったら ダメです。 何度でも チャレンジ してもらうです。	1분 안에 못 드시면 아웃입니다. 대신 몇 번이고 도전하실 수 있습니다.
+glossary	check	FMsg/o_ekubon_15#21	MES_Ekubon_15_Ekubon_giga_carrot_29	6	FMsg__o_ekubon_15__and6	ds	glossary: チャレンジ → 챌린지 not used	残念です～ あきらめるですか？ それとも もう１度 チャレンジですか？ こんどは ふつうのニンジンを ギガニンジン分 用意するです。	실패했습니다~ 포기하시겠습니까? 아니면 다시 한번 도전하시겠습니까? 이번엔 보통 당근을 기가 당근만큼 준비하겠습니다.
+glossary	check	FMsg/o_ekubon_15#29	MES_Ekubon_15_Ekubon_giga_carrot_11	6	FMsg__o_ekubon_15__and6	ds	glossary: ハナチャン → 꽃충이 not used	昔 この畑にキラーが 落っこちてきたです。 それを このハナチャンが こっそり持っていますよ。 あなた ほしいんですか？	옛날에 이 밭에 킬러가 떨어졌습니다. 그걸 제가 몰래 숨겨 두었습니다. 갖고 싶으신가요?
+glossary	check	FMsg/o_ekubon_15#41	MES_Ekubon_15_Ekubon_giga_carrot_30	6	FMsg__o_ekubon_15__and6	edited	glossary: チャレンジ → 챌린지 not used	チャレンジする？ もう１度 チャレンジ あきらめる	도전하실래요? 다시 도전하겠다 포기하겠다
+glossary	check	FMsg/o_ekubon_15#43	MES_Ekubon_15_Ekubon_giga_carrot_32	6	FMsg__o_ekubon_15__and6	ds	glossary: チャレンジ → 챌린지 not used	食いまくりに チャレンジするですか？ チャレンジする チャレンジしない	마구 먹기에 도전하실래요? 도전하겠다 하지 않겠다
+glossary	check	FMsg/o_ekubon_19#21	MES_Ekubon_19_Ekubon_opening_26	6	FMsg__o_ekubon_15__and6	ds	glossary: アタック → 어택 not used	本当に 本当！！ バトルでアタックするたびに ラッキーヒットが 出まくるる！ もう バッコバコのボッコボコ！ どんなに強い相手でも あっというまに 倒せるる！	정말이고말고요!! 배틀에서 공격할 때마다 럭키 히트가 마구 나오지롱롱! 상대는 먼지 나도록 맞는 거지!! 아무리 강한 상대라도 순식간에 물리치지롱롱!
+glossary	check	FMsg/o_koopa_13_2#46	MES_SKoopa_13_2_Skoopa_13_a_health	6	FMsg__o_koopa_13_2__and4	ds	glossary: バトル → 배틀 not used	なに？ ゲラコビッツを 倒す方法についてだと？ ガハハハハ！ もちろん いろいろと 考えているぞ！！ もう１度 ゲラコビッツシアターの ステージに上がって こんどは ゲラコビッツと バトルするのだ！ あいつが どんな手を使ってきても ワガハイの吸いこみで すぐに 決着がつくはずだぞ！！ あいつが へんな乗り物で 飛んで逃げようとしても ムダだ！ パタパタ軍団が いてくれれば 飛んで逃げても あっというまに 追いつけるぞ！ そういえば あいつはへんなマシンを いろいろ 使っているようだが… これも ボムへい達を使って ドカ～ン！と 全部こわしてやる！ ガハハハハ！ ワガハイをなめるなよ！ しかし… まずはここから 抜け出すことが 先なんだが…	뭐? 까르코비츠를 쓰러뜨릴 방법 말이냐? 크핫핫핫핫! 물론 여러 가지로 생각하고 있지!! 다시 한번 까르코비츠 홀의 무대에 올라가서 이번엔 까르코비츠와 대결하는 거다! 그놈이 어떤 수작을 부려도 이 몸의 빨아들이기 능력으로 승패는 금세 갈리게 되겠지!! 만약 희한한 걸 타고 도망가려고 해도 소용없다! 펄럭펄럭 군단만 있다면 날아서 도망가도 순식간에 쫓아갈 수 있거든! 그러고 보니 그놈은 이상한 기계를 많이 사용하던데… 그것 역시 폭탄병을 사용해서 펑! 하고 모두 부숴 버릴 테다! 크핫핫핫핫! 이 몸을 얕보지 마라! 하긴… 일단은 여기에서 빠져나가는 게 먼저겠지만…
+glossary	check	FMsg/o_koopa_14#4	MES_SKoopa_14_SK14_EO31_EV_01	6	FMsg__o_koopa_13_2__and4	ds	glossary: クッパ → 쿠파 not used	ノコノコト アラワレタナ イイ ドキョウ ダ クッパ！！	여기가 어딘 줄 알고 엉금엉금 기어들어 오다니!!
+glossary	check	FMsg/o_koopa_39#6	MES_SKoopa_39_SK39_ystar_07	6	FMsg__o_koopa_19__and10	ds	glossary: 保存 → 저장 not used	きっと そのときに 生きのこっていた 宇宙人を クッパが 保存していたんだわ… あいかわらず シュミが わるいわね…	아마 그 당시에 살아남은 외계인을 쿠파가 보관해 두고 있었나 봐… 역시 취향 한번 독특해…
+glossary	check	FMsg/o_koopa_end_01#9	MES_EV_MAIN_SKoopa_last_Ending_11	6	FMsg__o_koopa_end_01	ds	glossary: ダメージ → 타격 not used	ふん！！！ こんどのことで ワガハイの城も ダメージを うけているんだ。 しばらくは おとなしくしているぞ！	흥!!! 이번 일로 이 몸의 성도 많이 부서지고 말았다. 잠시 동안은 얌전히 있어 주마!
+glossary	check	FMsg/o_koopa_end_01#24	MES_EV_MAIN_SKoopa_last_Ending_07	6	FMsg__o_koopa_end_01	edited	glossary: らんぼうものさん → 난폭한 분 not used	おとどけ おとどけ～！ ピーチ姫から 体のでかい らんぼうものさんに おとどけ～！	배달입니다~ 배달입니다~! 피치공주님에게서 몸집이 큰 괴팍한 분에게 배달 왔습니다~!
+glossary	check	FMsg/o_mushiba_12#2	MES_Mushiba_12_Mushiba_brilock_2_03	6	FMsg__o_mushiba_01__and7	ds	glossary: ブロドッグちゃん → 우리 블도그 not used	ミーのペットの ブロドッグちゃんが 迷子に なっちゃったのですよ～	미의 애완동물인 블도그가 미아가 되고 말았어요~
+glossary	check	FMsg/o_mushiba_24#13	MES_Mushiba_24_Chackran_talk_07	6	FMsg__o_mushiba_16__and2	ds	glossary: ポーズ → 일시 정지 not used	あの空と このポーズ見ても わからんっちゅうんか？ しゃあないなぁ これやから シロートさんは こまるわ。 これな 宇宙の波動を 吸収しとるポーズなんや。 こうしてな 宇宙の波動を 体内に送っとんねん と。 宇宙のパワーがあれば なんでも できるで～ 最近は でっかいやつを ぴゅーっと 飛ばしたりしとるんや。 これがなかなか 楽しいんや～ これ何年やってると 思う？ １０００年やで １０００年。	저 하늘과 이 자세를 보고도 모르겠다 카는 기가? 참말로 피곤하구만! 이래서 초짜랑 못 놀겠다 카는 기다. 이기 바로 우주의 파동을 흡수하는 자세라 이 말이다. 이래가 우주의 파동을 몸속으로 보내는 기다. 알긋나? 우주의 파워가 있으면 뭐든지 할 수 있는 기라~ 요즘엔 커다란 녀석을 휘융~ 하고 날려 보내기도 한다. 그거 아주 재미나데~ 내가 얼마간 이라고 있었는지 아나? 1000년이다, 1000년.
+glossary	check	FMsg/o_mushiba_24#24	MES_Mushiba_24_Chackran_talk_28	6	FMsg__o_mushiba_16__and2	ds	glossary: ポーズ → 일시 정지 not used	お。このポーズ なかなか ええなぁ。 大地や 大地の波動を ごっつい 感じるで～！ あと１００年は これで いってみよ。 ほな またな。 ジャマせんといてな。	와! 이 자세… 은근히 괜찮은데? 대지와 대지의 파동이 고마 확 느껴져뿌네~! 앞으로 100년쯤 이라고 있어야겠다. 그라모 또 보재이. 방해하지 말그래이.
+glossary	check	FMsg/o_mushiba_24#28	MES_Mushiba_24_Chackran_talk_12	6	FMsg__o_mushiba_16__and2	ds	glossary: アタック → 어택 not used	もーお！ しかたないわね！ マリオ ルイージ！ なんかこう ガツーンと きっつい アタックで 倒しちゃいましょう！	에휴! 할 수 없지! 마리오! 루이지! 쿵! 하고 한 대 먹여서 쓰러뜨리자!
+glossary	check	FMsg/o_mushiba_25#14	MES_Mushiba_25_Ryugu_talk_28	6	FMsg__o_mushiba_16__and2	ds	glossary: ふしぎな窓 → 신기한 창 not used	おお… これで ヤングなギャルに モテモテじゃ！ なんとも ふしぎな窓じゃが みすてりあすな かんじがええのう。	오오… 이제 젊은 걸들에게 인기를 끌겠구만! 창이 어쩜 이리도 신기한지 미스터리한 느낌이 아주 좋구만…
+glossary	check	FMsg/o_mushiba_25#17	MES_Mushiba_25_Ryugu_talk_08_1	6	FMsg__o_mushiba_16__and2	ds	glossary: スコア → 스코어 not used	おお パズルピースを持ってきたか。 では ワシがあずかるとしよう。 さっそく パズルで あそんでみては どうじゃ？ すでに 完成させたものも あそべるぞい。 どれだけ はやくできるか ちゃれんじ してもよかろう。 ワシが １００点満点で スコアを つけてやろう。	오오! 퍼즐피스를 가져왔는가? 그럼 내가 맡아 두도록 하지. 가져온 김에 퍼즐을 풀고 가는 건 어떤가? 이미 완성한 것도 다시 풀 수 있네만… 얼마나 빨리 풀 수 있을지 도전해 보는 것도 좋겠지. 내가 100점 만점으로 점수도 매겨 주도록 하지.
+glossary	check	FMsg/o_mushiba_25#27	MES_Mushiba_25_Ryugu_talk_08_6	6	FMsg__o_mushiba_16__and2	ds	glossary: スコア → 스코어 not used	あたっくぱーつのパズルじゃ。 たいむあたっくを やってみるか？ ワシが スコアをつけてやるぞい。	어택피스 퍼즐이라네. 타임 어택을 해 볼 텐가? 내가 점수를 매겨 주도록 하지.
+glossary	check	FMsg/o_mushiba_25#56	MES_Mushiba_25_Ryugu_talk_33	6	FMsg__o_mushiba_16__and2	ds	glossary: スコア → 스코어 not used	パズルを あそびたくなったら いつでも くるがよいぞ。 どれくらい はやくできるか ちゃれんじ してみるのもよいな。 ワシが １００点満点で スコアを つけてやろう。	퍼즐이 풀고 싶어지면 언제든지 오도록 하게나. 얼마나 빨리 풀 수 있을지 도전해 보는 것도 좋겠지. 내가 100점 만점으로 점수도 매겨 주도록 하지.
+glossary	check	FMsg/o_peach_g_04#23	MES_GPeach_04_Gpeach_pata_34	6	FMsg__o_peach_g_02__and6	ds	glossary: くわしく → 자세히 not used	なに？ もっとくわしく 教えろだって？	뭐? 더 자세하게 알려 달라고?
+glossary	check	FMsg/o_peach_op_04#1	MES_OPeach_04_Opening_opeach_11	6	FMsg__o_peach_op_01__and3	ds	glossary: Dr.コキノ → 오키노 선생 not used	Dr.コキノの 助手ですよ。	닥터 오키노의 조수예요.
+glossary	check	FMsg/o_peach_op_04#48	MES_OPeach_04_Opening_opeach_11_2	6	FMsg__o_peach_op_01__and3	short	glossary: Dr.コキノ → 오키노 선생 not used	Dr.コキノ？	닥터 오키노?
+glossary	check	FMsg/o_test_fh_01#1	MES_work_fh_02	5	FMsg__o_test_fh_01	new	glossary: とじる → 닫기 not used	Yボタンをおすと とじるよ	Y 버튼을 누르면 닫혀
+glossary	check	FMsg/o_town_25_after#4	MES_TKinoko_25_after_Kinoko_town_kinopio_02_2	6	FMsg__o_town_23__and7	ds	glossary: お父さん → 아빠 not used	お父さん！ もう へんな キノコ食べたらだめよ！	여보! 앞으로는 이상한 버섯 드시면 안 돼요!
+glossary	check	FMsg/o_town_32#11	MES_TKinoko_32_Kinoko_street_37	6	FMsg__o_town_31__and1	ds	glossary: お気に入り → 즐겨찾기 not used	うわ～！ 前と同じところなら わからないと 思ったのに～！ あ～ 楽しかった！ ありがとう マリオさん！ お礼に これあげるね！ ボクの お気に入りだよ！	우와~! 같은 곳에 숨으면 절대로 모를 줄 알았는데~! 아~ 재밌었어요! 고마워요, 마리오님! 이걸 선물로 드릴게요! 내가 좋아하는 거예요!
+glossary	check	FMsg/o_town_34#4	MES_TKinoko_34_Kinoko_town_clinic_c_20	6	FMsg__o_town_33__and1	ds	glossary: マリオ達 → 마리오 일행 not used	メタコロ病が 治ったのね！！ でも… スターワクチンを 集めたのは マリオ達よ…	뚱뚱데굴병이 고쳐졌구나!? 하지만… 스타 백신을 모은 건 마리오와 루이지야…
+glossary	check	FMsg/o_town_34_suishou_01_U#0	MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_a_54_2	6	FMsg__o_town_34_suishou_01_U__and7	ds	glossary: ハズレ → 꽝 not used	私のうらないは ハズレたことがないでしょう。 まちがいなく このイモムシが １人目の 賢者でしょう。 このイモムシが スターワクチンを １００％ 持っているでしょう。	제가 보는 점은 틀린 적이 없습니다. 틀림없이 이 애벌레가 첫 번째 현인입니다. 이 애벌레가 스타 백신을 100% 갖고 있을 것입니다.
+glossary	check	FMsg/o_town_34_suishou_01_U#1	MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_a_54_3	6	FMsg__o_town_34_suishou_01_U__and7	ds	glossary: ハズレ → 꽝 not used	森じゃないわよ！ このイモムシは クッパの体の中に いるのよ！ エクボンの森で クッパに食べられて クッパの体の中を ウロウロしてるの！ あなたの うらない ハズレまくってるわよ！	숲에는 없어! 이 애벌레는 쿠파의 몸속에 있다고! 볼조개 숲에서 쿠파에게 먹혔어! 쿠파의 몸속을 돌아다닌다고! 당신이 보는 점은 엉망진창이잖아!
+glossary	check	FMsg/o_town_34_suishou_01_U#45	MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_a_53	6	FMsg__o_town_34_suishou_01_U__and7	ds	glossary: バトル → 배틀 not used	え？ このイモムシ… クッパの体の中で バトルした イモムシなの？	어라? 이 애벌레… 쿠파의 몸속에서 싸웠던 그 애벌레인가?
+glossary	check	FMsg/o_town_41#2	MES_TKinoko_41_Kinoko_town_kinopio_24	6	FMsg__o_town_34_suishou_01_U__and7	edited	glossary: 星空 → 별하늘 not used	満天の星空の下で お時間のゆるす限り お買いものを お楽しみになってください。 では ご注文をうけたまわります。	별이 빛나는 하늘 아래에서 시간이 허락하는 한 편안하게 쇼핑을 즐겨 주시기 바랍니다. 그럼 주문을 받겠습니다.
+glossary	check	FMsg/o_zutsuda_01#8	MES_LZutsuda_01_LZ01_koopa_03	6	FMsg__o_zutsuda_01__and9	ds	glossary: マリオ達 → 마리오 일행 not used	ふん！ マリオ達よりも先に スターワクチンを 手に入れるぞ！ エクボンの森は どっちだ！？	흥! 어쨌든 마리오보다 먼저 스타 백신을 손에 넣을 테다! 볼조개 숲은 어디냐!?
+glossary	check	FMsg/o_zutsuda_30#4	MES_LZutsuda_30_LZ30_rose_ml_yes_a	6	FMsg__o_zutsuda_30	ds	glossary: リューグーさん → 러즐님 not used	ぼうや達… リューグーさんって ご存知…？ うふ… だいぶお年を めしてらっしゃるんだけど… それは 元気なかたでね… 特に あたまを使うような… パズルとかが お好きみたい… あと… うふ… 女の子もね… いつも わたくしの店に くるたびに パズルじゃー！ とか… ナウなヤングに バカうけじゃー！ とか… うふふ… でもあのかたの おかげで… たいくつは しなかったわね… でも… ある日を さかいに 突然 お店に こなくなって しまってね… さびしかったわ… うわさだけど… なにかを うばわれてしまったとか… なんとかワクチン… って 言ってたかしら… それで リューグーさんとは それっきり… 今は どうしてるのかしら… 海が 好きなかただったから… ビーチあたりで のんびり してるのかも しれないわね…	우리 친구들… 러즐씨라고 알아…? 우훗… 나이는 꽤 많이 드신 분인데… 어쩜 그리 정정하신지… 특히 머리를 쓰는… 퍼즐 같은 걸 좋아한다나 봐… 그리고… 우훗… 여자도… 항상 우리 가게에 올 때마다 퍼즐이라네―! 하고… 젊은이들한테 인기라네―! 하고… 우후훗… 그분 덕분에… 심심하진 않았어… 하지만… 어느 날부턴가 갑자기 우리 가게에 발을 끊으셨어… 외롭더군… 소문을 듣자 하니… 뭔가를 빼앗겼다나…? 무슨 백신…이라고 한 것 같기도 해… 그리고 그 이후로는 러즐씨를 본 적이 없어… 요즘은 뭘 하고 계시는지… 바다를 좋아하는 분이셨으니… 비치 어딘가에서 호젓하게 살고 있을지도 모르지…
+glossary	check	FMsg/o_zutsuda_30#14	MES_LZutsuda_30_LZ30_koopa_13	6	FMsg__o_zutsuda_30	ds	glossary: アタック → 어택 not used	よし。ブリ… なんとか！ 話は まとまったぞ。 ワガハイの 軍団のアタックで オマエのコリを なんとかしてやれば いいんだな？	좋다. 블… 어쩌구! 이야기는 끝났다. 이 몸의 군단이 출동해서 너의 뭉친 근육을 때려 주면 된다는 말이지?
+glossary	check	FMsg/o_zutsuda_30#23	MES_LZutsuda_30_LZ30_rose_27	6	FMsg__o_zutsuda_30	ds	glossary: アタック → 어택 not used	あら… いらっしゃい… マッサージして いただけるの…？ あなたの 軍団さんのアタック… どこまで 長く続けられるかしら…？ あなたが できるところまで アタックを 続けてちょうだい…	어머나… 어서 와요… 마사지해 주러 오셨나요…? 당신네 군단의 마사지… 얼마나 오래 할 수 있을까요…? 할 수 있는 만큼 열심히 마사지해 주세요…
+glossary	check	FMsg/o_zutsuda_30#43	MES_LZutsuda_30_LZ30_rose_11	6	FMsg__o_zutsuda_30	ds	glossary: コリ → 뭉친 근육 not used	最近ね… はげしいのよ… コリが… ツラくてね… 肩とか… こしとか… だからね… 待っているの… マッサージして いただけるかたを…	요즘… 많이 뭉쳐요… 결리고… 힘들어요… 어깨도… 허리도… 그래서… 기다리고 있어요… 마사지해 줄 분을…
+glossary	check	FMsg/o_zutsuda_30#47	MES_LZutsuda_30_LZ30_rose_23_1	6	FMsg__o_zutsuda_30	ds	glossary: アタック → 어택 not used	うふふ… そう… よかった… 軍団さんの アタックを できるだけ 長く続けて… わたくしの コリを… ほぐしてちょうだい… えんりょは いらないわ…	우후훗… 맞아요… 다행이네요… 되도록 오랫동안 군단을 보내서… 저의 뭉친 근육을… 풀어 주세요… 살살 할 필요는 없어요…
+glossary	check	FMsg/o_zutsuda_30#48	MES_LZutsuda_30_LZ30_rose_17	6	FMsg__o_zutsuda_30	ds	glossary: コリ → 뭉친 근육 not used	あら… うふふ… 若いって いいわね… でもね… わたくしの コリは ひどすぎて… 手で もんだくらいじゃ きかなくなって しまっているのよ…	어머나… 우후훗… 젊음이란 좋은 거군요… 하지만… 제 몸이 너무 많이 뭉쳐서… 손 마사지로는 느낌도 오지 않아요…
+glossary	check	Item#33	E_Accessory20	3	Item__p1	new	glossary: アップ → 업 not used	与えるダメージも受けるダメージも大幅アップ！ とってもチャレンジブルなメダル。	입히는 타격도 입는 타격도 대폭 증가! 도전 정신이 가득한 메달.
+glossary	check	Item#36	E_Wear14	3	Item__p1	new	glossary: アップ → 업 not used	ダークスターのチカラがやどるウェア。 バッジメーター満タンで全能力アップ！	다크스타의 힘이 깃든 웨어. 배지 게이지가 가득 차면 모든 능력 증가!
+glossary	check	Item#46	E_Wear15	3	Item__p1	new	glossary: アップ → 업 not used	完璧なウェア。 全てのステータスがアップ！	완벽한 웨어. 모든 능력이 증가!
+glossary	check	Item#96	E_Bracelet12	3	Item__p1	new	glossary: アップ → 업 not used	バキュームに成功するとHPが回復し POWもアップする お得なうでわ。	배큐엄에 성공하면 HP가 회복되고 POW도 증가하는 알찬 팔찌.
+glossary	check	Item#211	E_Ring14	3	Item__p2	new	glossary: アップ → 업 not used	カウンターダメージがアップするゆびわ。	반격으로 입히는 타격이 증가하는 반지.
+glossary	check	Item#235	E_Ring16	3	Item__p2	new	glossary: アップ → 업 not used	クリティカルとラッキーヒットの威力が アップするゆびわ。	크리티컬과 럭키 히트의 위력이 증가하는 반지.
+glossary	check	Item#332	E_Fung11	3	Item__p3	new	glossary: アップ → 업 not used	HPが半分になる代わりに ４ターンの間 全てのステータスがアップするきば。	HP가 절반이 되는 대신 4턴 동안 모든 능력이 증가하는 이빨.
+glossary	check	Item#338	E_AItm10	5	Item__p3	new	glossary: ラリー → 래리 not used	スライドでクッパを上下に動かし ノコノコを はじき返してラリーが続けばダメージアップ！ ターゲット：ランダム 効果：なし	쿠파를 위아래로 슬라이드해서 엉금엉금을 튕기자! 랠리가 계속되면 타격도 커진다! 공격 대상: 랜덤 효과: 없음
+glossary	check	Item#368	E_AItm13	5	Item__p3	new	glossary: メット → 하잉바 not used	メットをふんだら ◆でジャンプ！ ◆の左右で 落下地点にダッシュ！！ ターゲット：１体 効果：なし	헬멧을 밟을 때 ◆를 눌러 점프! ◆ 좌우로 낙하지점까지 대시!! 공격 대상: 하나 효과: 없음
+glossary	check	Item#370	E_Fung15	3	Item__p3	new	glossary: ダウン → 다운 not used	ランダムでボコスカアタックの威力がアップし 消費BPはダウンする きば。	랜덤으로 스페셜 어택의 위력이 증가하고 소비 SP는 감소하는 이빨.
+glossary	check	Item#424	E_AItm19	5	Item__p4	new	glossary: ダメージ → 타격 not used	マリオ◆ ルイージ◆ マリオ＆ルイージなら◆◆ で連続ダメージ！ ターゲット：ランダム 効果：めまわし	마리오라면 ◆, 루이지라면 ◆ 마리오&루이지라면 ◆◆로 연속 대미지! 공격 대상: 랜덤 효과: 어질어질
+glossary	check	Item#433	E_Accessory19	3	Item__p4	edited	glossary: POWアップ → POW 업 not used	ダメージを受けるたびに POWアップするスカーフ。	타격을 입을 때마다 POW가 증가하는 스카프.
+glossary	check	Item#433	E_Accessory19	3	Item__p4	edited	glossary: アップ → 업 not used	ダメージを受けるたびに POWアップするスカーフ。	타격을 입을 때마다 POW가 증가하는 스카프.
+glossary	check	Item#463	EFF_Badge_01_07	13	Item__p4	new	glossary: アタック → 어택 not used	「ひっさつ」発動！ 次のアタックの威力 ３倍！！	「필살」 발동! 다음 공격의 위력 3배!!
+glossary	check	Item#480	EFF_Badge_01_09	13	Item__p4	new	glossary: アタック → 어택 not used	「ひっさつ」発動！ 次のアタックの威力 ６倍！！	「필살」 발동! 다음 공격의 위력 6배!!
+glossary	check	Item#485	E_Shell11	3	Item__p4	new	glossary: アップ → 업 not used	ラッキーヒットが出やすくなるコウラ。 TSUNOがアップする効果。	럭키 히트가 잘 나오는 등껍질. PPUL이 증가하는 효과.
+glossary	check	Item#515	E_Badge01	13	Item__p4	ds	glossary: アップ → 업 not used	ダメージがアップする効果になるバッジ	공격력을 높이는 효과가 있는 배지.
+glossary	check	Item#515	E_Badge01	13	Item__p4	ds	glossary: ダメージ → 타격 not used	ダメージがアップする効果になるバッジ	공격력을 높이는 효과가 있는 배지.
+glossary	check	Item#525	E_Shell16	3	Item__p4	new	glossary: ダウン → 다운 not used	軍団にやる気を出させ ランダムでボコスカアタックの 威力をあげ 消費BPはダウンさせるコウラ。	군단의 사기를 올려 랜덤으로 스페셜 어택의 위력을 높이고 소비 SP는 줄여 주는 등껍질.
+glossary	check	Item#526	E_Socks19	3	Item__p4	new	glossary: 攻撃 → 공격 not used	カウンター攻撃が成功すると BPが回復するソックス。	반격에 성공하면 SP가 회복되는 양말.
+glossary	check	Item#715	E_Accessory01	3	Item__p5	new	glossary: アップ → 업 not used	幸運をひきよせるストラップ。 HIGEが大きくアップ！	행운을 끌어당기는 스트랩. SUYEOM이 크게 증가!
+glossary	check	Item#772	E_AItm08	5	Item__p6	new	glossary: ラリー → 래리 not used	マリオ◆ ルイージ◆ でキック！ ラリーを続けるほどダメージアップ！ ターゲット：１体 効果：なし	마리오는 ◆, 루이지는 ◆로 킥! 랠리가 계속될수록 타격도 커진다! 공격 대상: 하나 효과: 없음
+glossary	check	Menu#4	MES_ShopMes_Menu_no_equip_acce	12	Menu__p1	ds	glossary: そうび → 장비 not used	アクセサリーは ２つそうび できません。	액세서리는 2개를 하지 못합니다.
+glossary	check	Menu#37	MES_MenuMes_EventItemE_vacuum_blk	13	Menu__p1	ds	glossary: すいこみ → 빨아들이기 not used	ブリロックからもらった レアなブロック。 バトルで使うと クッパがすいこみ～！	블로크에게 받은 진귀한 블록. 쿠파가 배틀에서 사용하면 마구 빨아들인다~!
+glossary	check	Menu#50	MES_EMesOutline_story19	4	Menu__p1	ds	glossary: ピーチ城の暗黒パワーガードを打ち破る３つのスターワクチン… １つ目はクッパ体内にいるイモムシが持っている？ → 피치 성의 방어벽을 부수려면 3개의 스타 백신을 찾아야 한다… 그중 하나는 쿠파 몸속에 있는 애벌레가 갖고 있다는데…? not used	ピーチ城の暗黒パワーガードを打ち破る３つのスターワクチン… １つ目はクッパ体内にいるイモムシが持っている？	피치 성의 방어벽을 부수려면 3개의 스타 백신을 찾아야 한다… 그중 하나는 쿠파 몸속의 애벌레가 갖고 있다는데…?
+glossary	check	Menu#132	ActGuide_09_1	11	Menu__p1	new	glossary: 吸い込み → 빨아들이기 not used	空気が出ている管に近づくと マリオが空気を吸い込み バルーンマリオになります。	공기가 나오는 관에 다가가면 마리오가 공기를 빨아들여 풍선 마리오가 돼요.
+glossary	check	Menu#232	MES_tuto_yo_nice_tsuno4	6	Menu__p2	edited	glossary: お買い物 → 쇼핑 not used	これからは お買い物ごとに スーパーボーナスカードを プレゼント！ これまでより アタリが 出やすくなってますよ！	앞으로는 구입하실 때마다 슈퍼 보너스 카드를 선물해 드리겠습니다! 지금까지보다 당첨 확률이 높아질 겁니다!
+glossary	check	Menu#232	MES_tuto_yo_nice_tsuno4	6	Menu__p2	edited	glossary: 買い物 → 쇼핑 not used	これからは お買い物ごとに スーパーボーナスカードを プレゼント！ これまでより アタリが 出やすくなってますよ！	앞으로는 구입하실 때마다 슈퍼 보너스 카드를 선물해 드리겠습니다! 지금까지보다 당첨 확률이 높아질 겁니다!
+glossary	check	Menu#245	MES_tuto_yo_nice_tsuno6	6	Menu__p2	edited	glossary: お買い物 → 쇼핑 not used	これからは お買い物ごとに ウルトラボーナスカードを プレゼント！ これまでより アタリが 出やすくなってますよ！	앞으로는 구입하실 때마다 울트라 보너스 카드를 선물해 드리겠습니다! 지금까지보다 당첨 확률이 높아질 겁니다!
+glossary	check	Menu#245	MES_tuto_yo_nice_tsuno6	6	Menu__p2	edited	glossary: 買い物 → 쇼핑 not used	これからは お買い物ごとに ウルトラボーナスカードを プレゼント！ これまでより アタリが 出やすくなってますよ！	앞으로는 구입하실 때마다 울트라 보너스 카드를 선물해 드리겠습니다! 지금까지보다 당첨 확률이 높아질 겁니다!
+glossary	check	Menu#329	MES_tuto_yo_bad_tsuno3	6	Menu__p2	edited	glossary: ノーマルボーナスカード → 보통 보너스 카드 not used	残念ですが これでは スーパーボーナスカードは プレゼントできません。 バット！ 安心してください！ ノーマルボーナスカードは プレゼントできます！	죄송하지만 이 상태로는 슈퍼 보너스 카드를 드릴 수가 없네요. 벗! 안심해 주세요! 노멀 보너스 카드는 프레젠트하겠습니다!
+glossary	check	Menu#433	MES_MesDat_MiniGame_end_info3	4	Menu__p3	new	glossary: チャレンジ → 챌린지 not used	もう一度チャレンジしますか？	다시 한번 도전하시겠습니까?
+glossary	check	Menu#454	MES_tuto_yo_scrratch_tuto_end_ml_badge	6	Menu__p3	new	glossary: 買い物 → 쇼핑 not used	それじゃ 買い物を 楽しんでおいき。	그럼 천천히 골라 봐.
+glossary	check	Menu#471	MES_tuto_yo_scrratch_tuto_no_ml_badge	6	Menu__p3	edited	glossary: 買い物 → 쇼핑 not used	お！ アンタ達 ものしりだね！ それじゃ 買い物を 楽しんでおいき。	오! 당신들 똑똑한가 보네! 그럼 천천히 골라 봐.
+checker	check	Menu#534	MES_MesDat_MiniGame_end_info10	12	Menu__p4	new	page 1: 2 lines vs original 1	Ⓥ で 銀メダルを獲得！ 賞品はⓋコイン！	Ⓥ에서 은메달을 획득! 상품은 Ⓥ코인!
+checker	check	Menu#535	MES_MesDat_MiniGame_end_info10_add	12	Menu__p4	new	page 1: 2 lines vs original 1	Ⓥ で 銅メダルを獲得！ 賞品はⓋコイン！	Ⓥ에서 동메달을 획득! 상품은 Ⓥ코인!
+glossary	check	Menu#594	menu_load_06	4	Menu__p4	new	glossary: 上書き → 덮어쓰기 not used	ファイル２はすでにデータが 保存されています。 ファイル１のゲームデータを コピーしてファイル２に 上書きしてもよいですか？	파일 2에는 이미 데이터가 저장되어 있습니다. 파일 1의 게임 데이터를 복사해서 파일 2에 덮어써도 되겠습니까?
+glossary	check	Menu#599	menu_load_07	4	Menu__p4	new	glossary: 上書き → 덮어쓰기 not used	ファイル１はすでにデータが 保存されています。 ファイル２のゲームデータを コピーしてファイル１に 上書きしてもよいですか？	파일 1에는 이미 데이터가 저장되어 있습니다. 파일 2의 게임 데이터를 복사해서 파일 1에 덮어써도 되겠습니까?
+glossary	check	Menu#605	menu_load_08	4	Menu__p4	new	glossary: 上書き → 덮어쓰기 not used	上書きされたデータは もとに戻りませんがよろしいですか？	덮어쓴 데이터는 복구할 수 없습니다. 계속하시겠습니까?
+glossary	check	Menu#649	MES_tuto_yo_scrratch_tuto_no_ml_kinoda	6	Menu__p5	edited	glossary: お買い物 → 쇼핑 not used	さすが お客さん ものしりですね！ それでは お買い物を お楽しみください～	역시 손님들은 잘 알고 계시군요! 그럼 천천히 둘러보세요~
+glossary	check	Menu#649	MES_tuto_yo_scrratch_tuto_no_ml_kinoda	6	Menu__p5	edited	glossary: 買い物 → 쇼핑 not used	さすが お客さん ものしりですね！ それでは お買い物を お楽しみください～	역시 손님들은 잘 알고 계시군요! 그럼 천천히 둘러보세요~
+glossary	check	Menu#735	MES_tuto_yo_scrconf_00	5	Menu__p5	new	glossary: チャレンジ → 챌린지 not used	ボーナスカードに チャレンジしますか？	보너스 카드에 도전하시겠습니까?
+glossary	check	MenuKJ#65	Menu_KJ_quest_exit_warning	1	MenuKJ	new	glossary: よろしいですか？ → 계속하시겠습니까? not used	クッパJr.RPGを終了します。 よろしいですか？	쿠파주니어 RPG를 종료하시겠습니까?
+space	check	BMsg/b_sys#64	Kj_Btl_koopa_8_10	6	BMsg__b_sys__p1	new	'마셨 다' x1 vs '마셨다' x1	ググググ… ハハハハハ…！！ ワタシタチも イタダイタ… ゾ！ ドンドクドンダZ！ コノ… パワーデ… ゲラコ… ビッツも… キノコ… オウコクも… キサマタチ クッパグンダンも…	크으으으… 하하하하하…!! 우리도 마셨… 다! 독독파워Z! 이… 파워로… 까르코… 비츠도… 버섯… 왕국도… 네놈들 쿠파 군단도…
+space	check	BMsg/b_sys#64	Kj_Btl_koopa_8_10	6	BMsg__b_sys__p1	new	'까르코 비츠' x1 vs '까르코비츠' x149	ググググ… ハハハハハ…！！ ワタシタチも イタダイタ… ゾ！ ドンドクドンダZ！ コノ… パワーデ… ゲラコ… ビッツも… キノコ… オウコクも… キサマタチ クッパグンダンも…	크으으으… 하하하하하…!! 우리도 마셨… 다! 독독파워Z! 이… 파워로… 까르코… 비츠도… 버섯… 왕국도… 네놈들 쿠파 군단도…
+space	check	BMsg/b_sys#153	SpAtk_01_1	11	BMsg__b_sys__p2	new	'던질 수' x3 vs '던질수' x1	ファイアをたくさん投げることができたら さいごに ２人同時に大きいファイアを 投げることが できるようになります。	파이어볼을 많이 던지면 마지막에 두 사람이 동시에 큰 파이어볼을 던질 수 있게 돼요.
+space	check	BMsg/b_sys#590	KJGuide_BA14_1	11	BMsg__b_sys__p6	new	'던질 수' x3 vs '던질수' x1	◆ボタンを連打してチカラをためましょう。 チカラがたくさん たまるほど 多くの武器を投げることができます。	◆ 버튼을 연타해서 힘을 모으세요. 힘이 많이 모일수록 많은 무기를 던질 수 있어요.
+space	check	BMsg/b_sys#1309	KJGuide_BA26_1	11	BMsg__b_sys__p12	new	'던질 수' x3 vs '던질수' x1	グループアタックの場合は 自分と相手以外の近くにいるキャラクターにも キノコや武器を投げることができます。	그룹 어택일 때는 자신과 상대 외에 근처에 있는 캐릭터에게도 버섯이나 무기를 던질 수 있어요.
+space	check	BMsg/b_sys#175	Menu_KJ_Chr_exp_nokonoko_gr	13	BMsg__b_sys__p2	new	'초록 등껍질' x2 vs '초록등껍질' x7	とぼけた顔でも 緑のコウラでがっちりガード！ ホネっぽい姿の敵が少し苦手らしい。	멍한 얼굴이지만 초록 등껍질로 철벽 방어! 뼈다귀 같은 모습의 적에게 조금 약한 듯하다.
+space	check	BMsg/b_sys#1270	Menu_KJ_Chr_exp_patapata	13	BMsg__b_sys__p12	new	'초록 등껍질' x2 vs '초록등껍질' x7	緑のコウラと白い羽のハーモニー。 狙いを定めて 相手の脳天を直撃！	초록 등껍질과 하얀 날개의 하모니. 잘 겨냥해서 상대의 정수리를 직격!
+space	check	BMsg/b_sys#306	BtlGuide_02_0	11	BMsg__b_sys__p3	new	'쓰러뜨릴 수' x10 vs '쓰러뜨릴수' x1	「ジャンプ」や「パンチ」などで モンスターを攻撃すれば ダメージを与えられます。 モンスターのHPをゼロにすれば 倒せます。	「점프」나 「펀치」 등으로 몬스터를 공격하면 타격을 입힐 수 있어요. 몬스터의 HP를 0으로 만들면 쓰러뜨릴 수 있어요.
+space	check	BMsg/b_sys#383	Hint_Dkoopa_0_4	11	BMsg__b_sys__p4	new	'쓰러뜨릴 수' x10 vs '쓰러뜨릴수' x1	はき出されたダークスターコアを なんとかしなければダーククッパは 倒せないので ダークスターコアが はき出されたら コマンドブロックに注目しましょう。	토해 낸 다크스타코어를 어떻게든 처리하지 않으면 다크쿠파를 쓰러뜨릴 수 없으니 다크스타코어가 튀어나오면 커맨드 블록에 주목하세요.
+space	check	BMsg/b_sys#406	Hint_Jailun_0_0	11	BMsg__b_sys__p4	new	'쓰러뜨릴 수' x10 vs '쓰러뜨릴수' x1	ボムへいが入っているジェイルンは マリオ達のファイアフラワーや クッパのファイアで簡単に倒すことができます。	폭탄병이 들어 있는 제이른은 마리오 일행의 파이어플라워나 쿠파의 파이어로 쉽게 쓰러뜨릴 수 있어요.
+space	check	BMsg/b_sys#1741	KJGuide_BB02_1	11	BMsg__b_sys__p15	new	'쓰러뜨릴 수' x10 vs '쓰러뜨릴수' x1	相手のHPをゼロにすれば 倒すことができます。	상대의 HP를 0으로 만들면 쓰러뜨릴 수 있어요.
+space	check	FMsg/i_challenge_01#111	MES_KCharenge_01_Kcharenge_mini_04_down	5	FMsg__i_challenge_01	ds	'쓰러뜨릴 수' x10 vs '쓰러뜨릴수' x1	「コレステロン」 ブヨブヨした 脂肪だらけのやつ。 かんたんに倒せるが かずがおおい。	「콜레스테론」 볼록볼록하게 생긴 지방 덩어리 몬스터. 쉽게 쓰러뜨릴 수 있지만 그 수가 많다.
+space	check	FMsg/o_ekubon_09_2#2	MES_Ekubon_09_2_Ekubon_koopa_giant_20	6	FMsg__o_ekubon_09_1__and3	ds	'쓰러뜨릴 수' x10 vs '쓰러뜨릴수' x1	本当か！？ それなら ゲラコビッツの やつも イチコロで 倒せるではないか！	정말이냐!? 그렇다면 까르코비츠 놈도 한 방에 쓰러뜨릴 수 있겠군!
+space	check	Item#112	E_Bracelet14	3	Item__p2	new	'쓰러뜨릴 수' x10 vs '쓰러뜨릴수' x1	パンチ攻撃で 敵をたまに 一撃で倒せるようになるうでわ。	펀치 공격으로 적을 가끔 일격에 쓰러뜨릴 수 있게 되는 팔찌.
+space	check	Item#255	E_Glove07	3	Item__p3	new	'쓰러뜨릴 수' x10 vs '쓰러뜨릴수' x1	ハンマーで攻撃した敵を たまに一撃で倒せるようになるグラブ。	해머로 공격한 적을 가끔 일격에 쓰러뜨릴 수 있게 되는 글러브.
+space	check	Item#648	E_Glove11	3	Item__p5	edited	'쓰러뜨릴 수' x10 vs '쓰러뜨릴수' x1	ハンマーエンカウントで 敵をたまに 一撃で倒せるようになるグラブ。	해머로 선제공격하면 가끔 적을 일격에 쓰러뜨릴 수 있게 되는 글러브.
+space	check	Menu#115	MES_EMesOutline_story30	4	Menu__p1	ds	'쓰러뜨릴 수' x10 vs '쓰러뜨릴수' x1	新しいブラザーアタック「スイーツバスケット」をゲットした！ これで３人目の賢者を倒せるぞ！	새로운 스페셜 어택, 스위트바스켓이 완성되었다! 이제 세 번째 현인을 쓰러뜨릴 수 있게 되었다!
+space	check	BMsg/b_sys#578	MES_KGarakuta_02_mes_00	6	BMsg__b_sys__p6	ds	'마리오 루이지' x22 vs '마리오루이지' x6	マリオ！ ルイージ！	마리오! 루이지!
+space	check	FMsg/i_air_07#0	MES_KAir_07_KAir_07_mes_01	6	FMsg__i_air_01__and7	ds	'마리오 루이지' x22 vs '마리오루이지' x6	いたわ！ マリオ ルイージ 気をつけて！！	저기 있어! 마리오! 루이지! 조심해!!
+space	check	FMsg/i_areanone_puzzle_01_L#8	MES_EMesJig_tutorial9	6	FMsg__i_areanone_puzzle_01_L__and1	ds	'마리오 루이지' x22 vs '마리오루이지' x6	マリオ！ ルイージ！	마리오! 루이지!
+space	check	BMsg/b_sys#664	MES_SPeach_12_kuribo_mes_01	6	BMsg__b_sys__p6	edited	'쿠파님 이' x1 vs '쿠파님이' x30	クッパ様！ この攻撃は なにか 危険な感じがしますよ！ クッパ様を 危険な目に あわせるわけにはいきません！ クリボー軍団に おまかせください！ 我々を ぶつけてくれれば アイツを絶対に止めてみせます！！ クッパ様の ためなら そのくらい なんてことないですよ！ えんりょせず 飛ばしてください！	쿠파님! 이 공격은 왠지 위험한 냄새가 납니다! 쿠파님을 위험에 처하게 할 순 없습니다! 굼바 군단에 맡겨 주십시오! 저희를 저 녀석에게 부딪치게 해 주시면 반드시 막아 내겠습니다!! 쿠파님을 위해서라면 이 정도쯤 아무것도 아닙니다! 사양하지 말고 날려 주십시오!
+space	check	BMsg/b_sys#837	Kj_Btl_koopa_8_01	6	BMsg__b_sys__p8	new	'궁극 합체' x1 vs '궁극합체' x1	SSカンパニー… 究極… 合体…！	SS컴퍼니… 궁극… 합체…!
+space	check	BMsg/b_sys#876	SpAtk_13_1	11	BMsg__b_sys__p8	new	'몬스터 한' x1 vs '몬스터한' x2	１体のモンスターにボムへいを集中させるほど 爆発が大きくなり あたえるダメージもアップします。	몬스터 한 마리에게 폭탄병을 집중시킬수록 폭발이 커지고 입히는 타격도 증가해요.
+space	check	BMsg/b_sys#1162	Kj_Btl_cmd_msg_msg_patabroth5_5	6	BMsg__b_sys__p11	new	'못 하지' x2 vs '못하지' x1	させんぞ！	그렇게는 못 하지!
+space	check	FMsg/o_koopa_13_2#0	MES_SKoopa_13_2_Skoopa_13_a_dislike	6	FMsg__o_koopa_13_2__and4	ds	'못 하지' x2 vs '못하지' x1	なに？ 今の ワガハイの体型？ そんなことは… みればわかるだろ～～っ！！ こんな体では わるさをしたくても できないじゃないか！ このままでは はずかしくて ピーチ姫達の前に あらわれる ことすら できないぞ！ 特にマリオ！ あいつの 前にだけは この姿では 絶対に 出たくはないぞ！ …しかし 考えようによっては 今のワガハイの体重で マリオを ペチャンコに できそうだな。 ガハハハハ！ 我ながら 前向きな アイディアだな！！	뭐? 지금의 이 몸의 체형? 그건… 보면 알지 않느냐~~!! 이런 몸으로는 나쁜 짓을 하려고 해도 못 하지 않겠느냐! 이대로는 부끄러워서 피치공주나 남들 앞에 서지조차 못 하겠다! 특히 마리오! 그 녀석에게는 절대로 이 모습을 보이고 싶지 않다! …하긴, 생각하기 나름이지만 이 몸으로는 마리오를 납작하게 할 수 있겠군. 크핫핫핫핫! 내가 생각해도 긍정적인 아이디어야!!
+space	check	BMsg/b_sys#1609	SpAtk_07_0	11	BMsg__b_sys__p14	new	'아무 데' x3 vs '아무데' x3	アッチコッチに出現する窓から つぎつぎと マリオとルイージがあらわれては モンスターを ふんでいくので 出てきたほうのボタンを押します。	아무 데나 생기는 창문에서 차례차례 마리오와 루이지가 나타나 몬스터를 밟고 가니 나온 쪽의 버튼을 눌러요.
+space	check	FMsg/k_o_ekubon_80#19	Kjrpg_03_Ekubon_qst05_01_02	6	FMsg__k_o_ekubon_80__p1	new	'아무 데' x3 vs '아무데' x3	ニンジンなんて どこにもないじゃないか～！	당근 같은 건 아무 데도 없잖아~!
+space	check	FMsg/o_ekubon_09_1#35	MES_Ekubon_09_Ekubon_koopa_giant_01_3	6	FMsg__o_ekubon_09_1__and3	ds	'아무 데' x3 vs '아무데' x3	どこにもないよ…	아무 데도 없더라…
+space	check	BMsg/b_sys#1754	SpAtk_05_0	11	BMsg__b_sys__p16	new	'낙하 지점' x1 vs '낙하지점' x1	上からふってくる隕石の 落下地点に マリオとルイージを ◆の左右で移動させます。	위에서 떨어지는 운석의 낙하 지점으로 마리오와 루이지를 ◆ 좌우로 이동시켜요.
+space	check	FMsg/i_dokan_01#8	MES_KHatena_e_01_KHE1_return_ystar_01	6	FMsg__i_dokan_01	ds	'어디 가' x2 vs '어디가' x2	待って！！ どこへ行くの！！ はやく あのイモムシを 追いかけるわよ！！	기다려!! 어디 가는 거야!! 어서 저 애벌레를 쫓아야지!!
+space	check	FMsg/i_metaboru_10#5	MES_KMetaboru_10_Kmetaboru_10_mes_05_add_02	6	FMsg__i_metaboru_02__and9	new	'어디 가' x2 vs '어디가' x2	どこへ行くの？ アクションを ためしてみましょ！	어디 가? 액션을 시험해 보자!
+space	check	FMsg/i_energy_14#0	MES_KEnergy_14_KEnergy_14_aparts_01	6	FMsg__i_energy_01__and11	ds	'당신들 이' x1 vs '당신들이' x7	あなた達 このパーツを 集めてるびん？	당신들 이 피스를 모으는 거야로빈?
+space	check	FMsg/i_garakuta_13#3	MES_KGarakuta_13_KG13_ystar_03	6	FMsg__i_garakuta_02__and7	short	'잘 됐다' x1 vs '잘됐다' x1	ちょうど いいわね。	마침 잘 됐다.
+space	check	FMsg/i_kinopio_01#13	MES_KHatena_f_01_KHatena_f_01_mes_15	6	FMsg__i_kinopio_01	ds	'이상 하' x1 vs '이상하' x7	マリオどの！ ルイージどの～！ 聞きましたぞ～！！ ひ ひ 姫さまがっ！ し し しめさまがっ！！ し し しめさばがっ！！！ 何者かにっ 連れさられてしまったと いうではっ ないですかぁ～～っ！！ こっ これ以上 じいをっ じいをっ 心配させないで くだされ～っ！！	마리오님! 루이지님~! 듣고 말았습니다~!! 고, 고, 공주님이! 보, 보, 봉주님이!! 보, 보, 봉자님이!!! 어떤 놈한테 끌려갔다던데 그 말이 사실입니까아~~~! 더, 더 이상 하, 하, 할아범을 걱정시키지 마십시오오~!!
+space	check	FMsg/i_power_nose_01#12	MES_SA_SUB_KPower_nose_02_SA_NOSE_TUT_11BT	6	FMsg__i_power_nose_01	ds	'튕겨 내' x1 vs '튕겨내' x1	花粉を かべの方に はじき飛ばしてみましょう！	꽃가루를 벽 쪽으로 튕겨 내 보자!
+space	check	FMsg/i_tainai_01#37	MES_Gepu_05_Gepu_gerako_39	6	FMsg__i_tainai_01	new	'못 하게' x1 vs '못하게' x2	次に会う時は タダではすまさんぞ。 モンスターを倒して レベルアップして… 何もさせずに コテンパンに やっつけてくれるわ。	다음에 만나면 가만두지 않겠다. 몬스터를 쓰러뜨리고 레벨 업해서… 손 하나 까딱 못 하게 납작하게 만들어 주마.
+space	check	FMsg/k_o_ekubon_80#73	Kjrpg_03_Ekubon_op01_01	6	FMsg__k_o_ekubon_80__p1	new	'속의 당근' x1 vs '속의당근' x1	森の～ニン～ジン～♪ 森のニンジン～♪	숲 속의~당~근~♪ 숲 속의 당근~♪
+space	check	FMsg/k_o_ekubon_80#97	Kjrpg_03_Ekubon_qst06_11	6	FMsg__k_o_ekubon_80__p1	new	'그래 로' x1 vs '그래로' x2	そうだよ ロイ…！ 気持ちは わからなくもないけど…	그래, 로이…! 네 기분도 모르는 건 아니지만…
+space	check	FMsg/k_o_gepu_80#37	Kjrpg_04_Gepu_qst05_25	6	FMsg__k_o_gepu_80	new	'도련님 이' x1 vs '도련님이' x23	ぼっちゃん こいつとバトル。 ぼっちゃん 負けなかったら ぼっちゃん キュウコン もらう。	도련님 이 녀석이랑 배틀. 도련님 안 지면 도련님 구근 받는다.
+space	check	FMsg/k_o_koopa_14#18	Kjrpg_01_Koopa_op01_37	6	FMsg__k_o_koopa_14__p1	new	'못 한다' x2 vs '못한다' x1	ワガハイを ノケモノにしおって！ ゆるさんぞ！	이 몸을 따돌리다니! 용서 못 한다!
+space	check	FMsg/o_ekubon_07_1#22	MES_Ekubon_07_Ekubon_bokosuka_k_39	6	FMsg__o_ekubon_02__and7	ds	'못 한다' x2 vs '못한다' x1	くっ くそ～～～！！ 絶対に ゆるさん！！	제, 젠장~~~!! 절대로 용서 못 한다!!
+space	check	FMsg/k_o_koopa_14#47	Kjrpg_11_Koopa_ed07_03_01	6	FMsg__k_o_koopa_14__p1	new	'군단 다' x1 vs '군단다' x2	ボクもがんばったけど クッパ軍団 みんなでがんばったよ！	나도 열심히 했지만 쿠파 군단 다 같이 힘냈어!
+space	check	FMsg/k_o_koopa_14#130	Kjrpg_01_Koopa_op02_01_1	6	FMsg__k_o_koopa_14__p2	new	'좋아 한' x1 vs '좋아한' x3	イエーイ！！！！ どーだー！ みたか！ よし！ もう１回やるぞ！ ボクが１０回勝つまでだ！	예~이!!!! 어떠냐―! 봤냐! 좋아! 한 번 더 한다! 내가 10번 이길 때까지야!
+space	check	FMsg/k_o_koopa_14#183	Kjrpg_12_Koopa_exqst_2_34	6	FMsg__k_o_koopa_14__p2	new	'지금 이' x1 vs '지금이' x10	ヅツーダレイクで 出会ったこと… ７人衆の居場所を教えたこと… そのあと 実はオレ達が ゲラコビッツに寝返っていたこと… いまのいままで 語られずに オレ達は 忘れ去られてたってのか？	고라파 레이크에서 만난 거… 7인조가 있는 곳을 알려 준 거… 그 뒤에 사실 우리가 까르코비츠 편으로 돌아섰던 거… 지금 이 순간까지 아무도 말 안 해서 우린 완전히 잊혀 있었단 거냐?
+space	check	FMsg/k_o_koopa_14#232	Kjrpg_12_Koopa_exqst_2_01	6	FMsg__k_o_koopa_14__p3	short	'저기 로' x1 vs '저기로' x1	なあ。ロイ。	저기. 로이.
+space	check	FMsg/k_o_koopa_19#53	Kjrpg_01_Koopa_op01_16	6	FMsg__k_o_koopa_19__and4	new	'굼바 부대' x1 vs '굼바부대' x4	よーし！ クリボー隊！ ばんごう！	좋~아! 굼바 부대! 번호!
+space	check	FMsg/k_o_koopa_38#1	Kjrpg_05_Koopa_qst05_02	6	FMsg__k_o_koopa_19__and4	new	'앞에 서' x1 vs '앞에서' x7	はい。ぼっちゃん。 トビラの前に立ってみてください。	네. 도련님. 문 앞에 서 보세요.
+space	check	FMsg/k_o_koopa_80#50	Kjrpg_12_Koopa_exqst_1_04	6	FMsg__k_o_koopa_80	new	'있을 수' x1 vs '있을수' x1	でも… クッパ様を裏切るなんて クッパ軍団として ありえないよな。	그래도… 쿠파님을 배신하다니 쿠파 군단으로서 있을 수 없는 일이지.
+space	check	FMsg/k_o_koopa_80#53	Kjrpg_12_Koopa_exqst_1_06	6	FMsg__k_o_koopa_80	new	'말 하면' x2 vs '말하면' x7	ウワサを すれば…	호랑이도 제 말 하면 온다더니…
+space	check	FMsg/o_peach_op_04#42	MES_OPeach_04_Opening_opeach_06_8	6	FMsg__o_peach_op_01__and3	ds	'말 하면' x2 vs '말하면' x7	お！ ウワサをすれば スターの精のご到着ですな！！	오! 호랑이도 제 말 하면 온다더니 스타의 정령이 오셨습니다!!
+space	check	FMsg/k_o_mushiba_16#49	Kjrpg_07_Mushiba_qst05_28	6	FMsg__k_o_mushiba_07__and1	new	'아니 다' x1 vs '아니다' x5	いやー みなまでいうな。 オッケイじゃ。 多くは語らんでもよいぞ。	아니~ 다 말하지 않아도 되네. 오케이일세. 긴말은 필요 없다네.
+space	check	FMsg/k_o_mushiba_16#61	Kjrpg_07_Mushiba_qst05_48	6	FMsg__k_o_mushiba_07__and1	new	'기억 나' x1 vs '기억나' x16	記憶？ ボクチャン記憶なかったの？	기억? 나 기억이 없었어?
+space	check	FMsg/k_o_mushiba_80#104	Kjrpg_07_Mushiba_qst01_24	6	FMsg__k_o_mushiba_80	new	'하 하하' x1 vs '하하하' x7	は… はは… そうですか。 ぼっちゃんらしい お考え。	하… 하하… 그러시군요. 도련님다운 생각이시네요.
+space	check	FMsg/k_o_mushiba_80#147	Kjrpg_07_Mushiba_op01_01	6	FMsg__k_o_mushiba_80	short	'으 으음' x1 vs '으으음' x1	う… うーん…	으… 으음…
+space	check	FMsg/k_o_zutsuda_80#39	Kjrpg_09_Zutsuda_qst05_24	6	FMsg__k_o_zutsuda_80__p1	new	'어머 나' x1 vs '어머나' x18	あら やだ。 取り乱しちゃったわ。 いきましょう！ マリオ！ ルイージ！	어머, 나도 참. 흥분해 버렸네. 가자! 마리오! 루이지!
+space	check	FMsg/o_ekubon_09_1#2	MES_Ekubon_09_Ekubon_killer_dx_17	6	FMsg__o_ekubon_09_1__and3	ds	'너희들 이' x1 vs '너희들이' x8	で オマエ達 このたいほうを どうするつもりだ？	그래서… 너희들, 이 대포로 뭘 어떻게 할 작정이냐?
+space	check	FMsg/o_ekubon_09_1#26	MES_Ekubon_09_Ekubon_killer_dx_25	6	FMsg__o_ekubon_09_1__and3	ds	'찾아 와라' x1 vs '찾아와라' x1	ふん！ キラーがないなら 探してこい！！！ この森にも 昔 ワガハイが発射した キラーの １つや２つ ころがっているだろう！！	흥! 킬러가 없다면 당장 찾아 와라!!! 이 숲에 옛날 이 몸이 발사한 킬러 한두 개쯤은 나뒹굴고 있을 거 아니냐!!
+space	check	FMsg/o_ekubon_14#31	MES_Ekubon_14_Ekubon_koopa_stm_11	6	FMsg__o_ekubon_09_1__and3	ds	'어떻 게든' x1 vs '어떻게든' x12	お おいっ！ チッピー！ ま 前より くるしくなったぞ！！ なにを してるんだ！！ はや く なんと か しろ…	어, 어이! 치피! 토, 통증이 더 심해졌다!! 뭘 하는 거야!! 빨 리 어떻 게든 해 봐…
+space	check	FMsg/o_gepu_01#9	MES_Gepu_01_Gepu_koopa_10	6	FMsg__o_gepu_01__and3	ds	'그 다음' x3 vs '그다음' x4	その先は 覚えていないぞ…	그 다음은 기억나지 않는다…
+space	check	FMsg/o_town_33#26	MES_TKinoko_33_Kinoko_town_clinic_adv_01	6	FMsg__o_town_33__and1	ds	'그 다음' x3 vs '그다음' x4	ムッシーバビーチで へんな家を見つけて… ムッシーバビーチで へんな家を見つけて～ ん～！！ その先が どうしても 思い出せない！ それと クッパ城！！ クッパ城の 寒い部屋！ クッパ城の 寒い部屋で… キノコ型の… キノコ… ん～！！ その先が どうしても 思い出せない！ くやしい～～～！！	이아파 비치에서 이상한 집을 봤는데… 이아파 비치에서 이상한 집을 봤는데~ 음~!! 그 다음이 도무지 기억나지 않아! 그리고 쿠파 성!! 쿠파 성의 차가운 방! 쿠파 성의 차가운 방에서… 버섯 모양의… 버섯… 음~!! 그 다음이 도무지 기억나지 않아! 혼란스러워~~~!!
+space	check	FMsg/o_town_33#26	MES_TKinoko_33_Kinoko_town_clinic_adv_01	6	FMsg__o_town_33__and1	ds	'그 다음' x3 vs '그다음' x4	ムッシーバビーチで へんな家を見つけて… ムッシーバビーチで へんな家を見つけて～ ん～！！ その先が どうしても 思い出せない！ それと クッパ城！！ クッパ城の 寒い部屋！ クッパ城の 寒い部屋で… キノコ型の… キノコ… ん～！！ その先が どうしても 思い出せない！ くやしい～～～！！	이아파 비치에서 이상한 집을 봤는데… 이아파 비치에서 이상한 집을 봤는데~ 음~!! 그 다음이 도무지 기억나지 않아! 그리고 쿠파 성!! 쿠파 성의 차가운 방! 쿠파 성의 차가운 방에서… 버섯 모양의… 버섯… 음~!! 그 다음이 도무지 기억나지 않아! 혼란스러워~~~!!
+space	check	FMsg/o_gepu_03#10	MES_Gepu_03_Gepu_koopa_46	6	FMsg__o_gepu_01__and3	short	'어이 어' x2 vs '어이어' x2	おい！！ おいっ！！！	어이!! 어이!!!
+space	check	FMsg/o_koopa_18_2_kinko_01#4	MES_EV_SKoopa_18_2_ESK182_koopa_03	9	FMsg__o_koopa_18__and2	short	'어이 어' x2 vs '어이어' x2	おいっ！ おいっ！	어이! 어이!
+space	check	FMsg/o_gepu_05_1#10	MES_Gepu_05_Gepu_gerako_15	6	FMsg__o_gepu_01__and3	ds	'그 다음엔' x1 vs '그다음엔' x1	まずは ピーチ城を 乗っ取るるるる！！！ そしてさらに！！！	우선 피치 성을 빼앗을 거지롱롱롱롱!!! 그 다음엔!!!
+space	check	FMsg/o_ibiki_03#12	MES_EV_Ibiki_03_BP_EV_ystar_04_3	6	FMsg__o_ibiki_01__and1	edited	'콜록 콜록' x1 vs '콜록콜록' x1	そそそそそそ そんなこと ないわよ！！ あ！ ちょっとカゼっぽいかも！！ コ… コホン！！ コホン！！ いやぁねぇ！！ ア… アハハ！！ あなたも 気をつけなさいよ！！	그그그그그그 그런 거 아니야!! 아! 감기 기운이 있거든!! 코… 콜록!! 콜록!! 그렇게 됐어! 아… 아하하!! 너도 감기 조심해!!
+space	check	FMsg/o_ibiki_03#26	MES_Ibiki_03_IB03_ibiki_03	6	FMsg__o_ibiki_01__and1	ds	'이렇게 나' x1 vs '이렇게나' x1	私はすでに この世から消えた身… 今はこうして 自分の本の中に たましいとなって ねむっている 存在にすぎないのだ。 …しかし このタワーの中に 入れたということは そなた ただ者ではないな？	나는 이미 이 세상에서 사라진 몸… 지금은 이렇게 나의 책 속에 영혼으로 남아 잠들어 있는 존재에 지나지 않지. …그나저나 이 타워 안으로 들어온 걸 보니 자네는 보통 인물이 아닌가 보군!
+space	check	FMsg/o_koopa_01#16	MES_SKoopa_01_SK2nd_teresa_01	6	FMsg__o_koopa_01__and6	ds	'그런 데' x1 vs '그런데' x18	え？ 地下の金庫室？ ケケケ！ 知らないよ。そんなの。 地下っていう くらいだから 地下に 行ってみれば いいじゃないか。 あ。でも 地下へ行く道は 工事中だったかな？ それより バルコニーにある ゲラコビッツ様の 像でも 見ていくと いいよ。	어? 지하 금고실? 케케케! 그런 데 난 몰라! 지하 뭐시기라고 이름이 붙을 정도니 지하로 가 보면 되는 거 아니겠어? 아. 근데 지하 가는 길이 공사 중이던가? 그것보다 발코니에 있는 까르코비츠님의 상이라도 보고 가는 게 어때?
+space	check	FMsg/o_koopa_01#39	MES_SKoopa_01_Skoopa_01_kuri_02	6	FMsg__o_koopa_01__and6	new	'손님 한' x1 vs '손님한' x1	１名様 ご来場で～す！！	손님 한 분 입장하십니다~!!
+space	check	FMsg/o_koopa_07_after#9	MES_SKoopa_07_after_SK07A_baka_05	6	FMsg__o_koopa_01__and6	ds	'넘버 원' x1 vs '넘버원' x1	ナンバ～ワ～ン ゲラコビッツ様～◆	넘버 원~ 까르코비츠님~◆
+space	check	FMsg/o_koopa_09_2_gerashow_01_U#4	MES_SKoopa_09_EV_SK_koopa_05	6	FMsg__o_koopa_09_2_gerashow_01_U__and3	new	'그래 그래' x2 vs '그래그래' x3	そうだそうだ！！！ みんな その調子だ！！ ワガハイのことを 思い出したか！ この クッパ様は 無敵だぞ！！	그래, 그래!!! 다들 그렇게 외쳐라!! 이제 이 몸을 기억해 냈느냐? 이 쿠파님은 무적이시다!!
+space	check	FMsg/o_mushiba_25#67	MES_Mushiba_25_Ryugu_talk_02	6	FMsg__o_mushiba_16__and2	ds	'그래 그래' x2 vs '그래그래' x3	おー おー ワシャ リューグーじゃあ。	그래, 그래. 나는 러즐이라고 하네.
+space	check	FMsg/o_koopa_13_2#62	MES_SKoopa_13_2_Skoopa_13_koopa_18	6	FMsg__o_koopa_13_2__and4	ds	'못 하고' x5 vs '못하고' x2	床にはまって 身動きできないんだ！ オマエが なんとかしろ！！ ムダにふえた 脂肪を燃やせ！！	바닥에 끼어서 꼼짝 못 하고 있다! 거기서 어떻게든 해 봐!! 방금 들어간 지방을 태워 버려!!
+space	check	FMsg/o_town_06#0	MES_TKinoko_06_Kinoko_town_chka_bridge_01	6	FMsg__o_town_01_after__and10	ds	'못 하고' x5 vs '못하고' x2	うわ～ マリオさーん！ 地下のガード装置の 様子を 見にきたんですけど… 迷っちゃったし 橋は動かせないし 帰れないんですよ～！ 橋を回すにはレバーを 叩いて回せば いいんだけど… レバーを回す道具を なくしちゃって どうしようも できないんですよ～ マリオさん 遠くのものを叩く アクション… できませんか～？	우와~ 마리오님! 지하의 방어 장치를 점검하러 내려왔는데… 길도 잃었고 다리도 움직이게 하지 못해서 못 돌아가게 생겼어요~! 다리를 돌릴 때는 레버를 두드려서 돌리면 되는데… 레버 돌리는 도구를 잃어버려서 아무것도 못 하고 있어요~ 마리오님! 먼 물체를 두드리는 액션은… 할 줄 모르시나요~?
+space	check	FMsg/o_town_06#1	MES_TKinoko_06_Kinoko_town_chka_bridge_02	6	FMsg__o_town_01_after__and10	ds	'못 하고' x5 vs '못하고' x2	うわー！ マリオさーん！ 地下のガード装置の 様子を 見にきたんですけど… 迷っちゃったし 橋は動かないし 帰れないんですよ～！ 橋を回すにはレバーを 叩いて回せば いいんだけど… レバーを回す道具を なくしちゃって どうしようも できないんですよ～ どうしよう…	우와~ 마리오님! 지하의 방어 장치를 점검하러 내려왔는데… 길도 잃었고 다리도 움직이게 하지 못해서 못 돌아가게 생겼어요~! 다리를 돌릴 때는 레버를 두드려서 돌리면 되는데… 레버 돌리는 도구를 잃어버려서 아무것도 못 하고 있어요~ 어쩌죠…
+space	check	FMsg/o_town_06#2	MES_TKinoko_06_Kinoko_town_chka_bridge_03	6	FMsg__o_town_01_after__and10	edited	'못 하고' x5 vs '못하고' x2	橋を回すにはレバーを 叩いて回せば いいんだけど… レバーを回す道具を なくしちゃって どうしようも できないんですよ～ マリオさん どこかで遠くのものを叩く アクションを 覚えてきてくれませんか？ お願いします！	다리를 돌릴 때는 레버를 두드려서 돌리면 되는데… 레버 돌리는 도구를 잃어버려서 아무것도 못 하고 있어요~ 마리오님, 어디서 먼 물체를 두드리는 액션을 배워 와 주실래요? 부탁드려요!
+space	check	FMsg/o_town_06#3	MES_TKinoko_06_Kinoko_town_chka_bridge_04	6	FMsg__o_town_01_after__and10	ds	'못 하고' x5 vs '못하고' x2	橋を回すにはレバーを 叩いて回せば いいんだけど… レバーを回す道具を なくしちゃって どうしようも できないんですよ～ どうしよう…	다리를 돌릴 때는 레버를 두드려서 돌리면 되는데… 레버 돌리는 도구를 잃어버려서 아무것도 못 하고 있어요~ 어쩌죠…
+space	check	FMsg/o_koopa_18#36	MES_SKoopa_18_SK18_cash2_zukoke_01	10	FMsg__o_koopa_18__and2	short	'하나 둘' x1 vs '하나둘' x1	せ～の～っ！！	하나~ 둘~ 셋!!
+space	check	FMsg/o_mushiba_11#44	MES_EV_Mushiba_11_Mushi_11_gerapato_05	6	FMsg__o_mushiba_01__and7	ds	'롱롱 롱롱' x2 vs '롱롱롱롱' x28	ふる ふる… 長い人生 より道も必要るるよ。 そんなに あせらないで ワレが改造した その石像と 遊んでいくが いいるるよ！	롱롱 롱롱… 길고 긴 인생, 때로는 돌아갈 필요도 있지롱롱. 너무 서두르지 말고 내가 개조한 이 석상이랑 즐겁게 놀다 가롱롱!
+space	check	FMsg/o_peach_1f_03#22	MES_SPeach_1F_03_INORI_geraco_08_5	6	FMsg__o_peach_1f_03__and3	short	'롱롱 롱롱' x2 vs '롱롱롱롱' x28	ふる… ふる…	롱롱… 롱롱…
+space	check	FMsg/o_mushiba_25#4	MES_Mushiba_25_Ryugu_talk_07	6	FMsg__o_mushiba_16__and2	ds	'어택피스 라' x1 vs '어택피스라' x3	ワシは 自分で パズルを 作るんじゃがの… あたっくぱーつ？ だかなんだかを パズルに してみたんじゃが… 自分で作っておいて どうしても 完成させることが できんのじゃ。 このパズル… やってみるかの？ パズルをやる パズルの説明を聞く やらない	나는 퍼즐을 만들 줄 알거든… 그래서 어택피스? 라는 걸 퍼즐로 만들어 봤는데… 내가 만들긴 했지만 도저히 완성을 못 하겠는 거야. 이 퍼즐… 풀어 보겠는가? 퍼즐 풀기 퍼즐 설명 듣기 풀지 않기
+space	check	FMsg/o_mushiba_25#9	MES_Mushiba_25_Ryugu_talk_23	6	FMsg__o_mushiba_16__and2	ds	'그래 그' x1 vs '그래그' x3	ワシは こう見えても 賢者と 呼ばれていてのう… そりゃあ モテモテじゃった… きょうび 若いモンは かっこうにばかり こだわる… その点 ワシはちがった… クイズやら パズルやら あたまを使うものを たやすく とき明かしては じまんしておった… すてきー！ リューグーさん！ イカすー！ リューグーさん！ ナウいー！ リューグーさん… いまでも モテモテだったころの 思い出が せんめいに ワシのあたまを よぎるわい… この家も そりゃあ ごうかに かざりたてて 毎日が ぱーてぃーじゃった… むかし話は さておき… つい このあいだのことじゃ。 ワシは いつものように パズルを 楽しんでおった。 なかなかの けっさくじゃった。 さいごのピースを はめようとした そのとき… そう… そのときじゃった… やつはやってきたのじゃ…	내가 이래 봬도 현인으로 불리던 때가 있었지… 그땐 어찌나 인기가 많았는지… 요즘 젊은것들은 외모를 치장하느라 바쁘지만… 그런 면에서 난 달랐다네… 퀴즈나 퍼즐 등 머리 쓰는 문제를 뚝딱 풀고는 자랑하느라 바빴지… 멋져요―! 러즐님! 최고―! 러즐님! 멋쟁이―! 러즐님… 지금도 인기 절정이었던 그때의 기억이 생생하게 머리를 스쳐 지나간다네… 이 집도 그땐 화려하게 장식해 놓았고 매일매일이 파티였다네… 지나간 얘기는 이쯤에서 마치고… 최근 얘기를 하자면… 어느 날 나는 평소처럼 퍼즐을 즐기고 있었다네… 그 퍼즐은 걸작이었지… 마지막 피스를 끼우려던 그 순간… 그래… 그 순간… 녀석이 들이닥친 거야…
+space	check	FMsg/o_peach_op_04#22	MES_OPeach_04_Opening_opeach_51	6	FMsg__o_peach_op_01__and3	short	'하하하하 하하' x1 vs '하하하하하하' x2	…ハハハハ …ハハ	…하하하하 …하하
+space	check	FMsg/o_peach_op_04#23	MES_OPeach_04_Opening_opeach_06_10	6	FMsg__o_peach_op_01__and3	ds	'공주님 이' x1 vs '공주님이' x3	姫様… この小さいのが…	공주님… 이 작은 것이…
+space	check	FMsg/o_town_20#8	MES_TKinoko_20_Kinoko_town_out_kino_06_6	6	FMsg__o_town_01_after__and10	ds	'도와 주세' x1 vs '도와주세' x1	マリオさ～ん 助けてください～	마리오니~임 도와 주세요~
+space	check	FMsg/o_town_33#20	MES_TKinoko_33_Kinoko_town_clinic_b_25	6	FMsg__o_town_33__and1	ds	'아이 참' x1 vs '아이참' x3	コッキーちゃ～ん！ おりてらっしゃ～い！！ も～う！ こんなときに限って キゲンわるくなるんだから！	오키오키~! 어서 내려와~!! 아이, 참~! 왜 하필 이럴 때 성질을 부리는 거야!
+space	check	FMsg/o_town_34_suishou_01_U#2	MES_EV_SUB_TKinoko_34_Kinoko_town_clinic_a_40	6	FMsg__o_town_34_suishou_01_U__and7	ds	'스타 스타' x1 vs '스타스타' x2	スター… スターワクチン… ３つのスターワクチン… ３人の賢者が持つ ３つのスターワクチン… あらゆる 悪しきパワーを ふきとばすことが できるワクチン…	스타… 스타 백신… 3개의 스타 백신… 3명의 현인이 갖고 있는 3개의 스타 백신… 온갖 사악한 파워를 제압할 수 있는 백신…
+space	check	FMsg/o_zutsuda_15#15	MES_LZutsuda_15_LZ15_bird_03	6	FMsg__o_zutsuda_01__and9	ds	'아아 아' x1 vs '아아아' x3	あ～ ああ～ あ～ … あ！ これつながってる！？ … コホン。	아~ 아아~ 아~ …아! 연결된 건가!? …에헴!
+space	check	FMsg/o_zutsuda_30#3	MES_LZutsuda_30_LZ30_rose_ml08	6	FMsg__o_zutsuda_30	ds	'들어 줘서' x2 vs '들어줘서' x1	ぼうや達… バカな女の話に つきあってくれて… ありがとう… また きてちょうだいね… こんどは お話でもしましょ…	우리 친구들… 바보 같은 여자의 말을 들어 줘서… 고마워… 다음에 또 와… 다음엔 이야기를 들려줄게…
+space	check	FMsg/o_zutsuda_30#37	MES_LZutsuda_30_LZ30_rose_ml_yes_end	6	FMsg__o_zutsuda_30	ds	'들어 줘서' x2 vs '들어줘서' x1	うふふ… これで わたくしの 話は おしまい… つきあってくれて ありがとう… ぼうや達… また きてちょうだいね…	우후훗… 이걸로 내 이야기는 끝이야… 들어 줘서 고마워… 우리 친구들… 다음에 또 와…
+space	check	Item#378	E_AItm14	5	Item__p3	new	'움직여 로' x1 vs '움직여로' x2	◆で高～くつきあげて ◆の左右でルイージを 落とさないようにボールを動かし ◆で押しつぶし！ ターゲット：ランダム 効果：めまわし	◆로 높~이 올리고 ◆ 좌우로 루이지를 떨어뜨리지 않게 볼을 움직여 ◆로 눌러 버리자! 공격 대상: 랜덤 효과: 어질어질
+space	check	Item#779	E_Accessory08	3	Item__p6	new	'작은 방패' x1 vs '작은방패' x2	敵の攻撃を１度だけ防いでくれる小さな貝殻。	적의 공격을 한 번만 막아 주는 작은 방패.
+space	check	Item#785	E_Accessory09	3	Item__p6	new	'큰 방패' x1 vs '큰방패' x3	敵の攻撃を何回か防いでくれる大きな貝殻。	적의 공격을 몇 번 막아 주는 큰 방패.
+space	check	Menu#99	MES_tuto_yo_scrratch_tuto_k6_bdog	6	Menu__p1	edited	'왈 왈왈' x6 vs '왈왈왈' x2	ガウ？ ガウガウ？ （どうだ？ わかったか？） いいえはい	왈? 왈왈? (어때? 알았어?) 아니요예
+space	check	Menu#363	MES_tuto_yo_bad_tsuno3_bdog_2	6	Menu__p3	new	'왈 왈왈' x6 vs '왈왈왈' x2	ガウ ガウ ガガガウ ガウ。 （でも 安心 あげる。 ノーマルボーナスカード。）	왈 왈 왈왈 왈. (그래도 안심. 줄게. 보통 보너스 카드.)
+space	check	Menu#375	MES_tuto_yo_bad_tsuno4_bdog_2	6	Menu__p3	new	'왈 왈왈' x6 vs '왈왈왈' x2	ガウ ガウ ガガガウ ガウ。 （でも 安心 あげる。 スーパーボーナスカード。）	왈 왈 왈왈 왈. (그래도 안심. 줄게. 슈퍼 보너스 카드.)
+space	check	Menu#393	MES_tuto_yo_nice_tsuno4_bdog_1	6	Menu__p3	edited	'왈 왈왈' x6 vs '왈왈왈' x2	ガウ ガウ ガガガウ。 （買い物する プレゼント スーパーボーナスカード。）	왈 왈 왈왈. (쇼핑 선물 슈퍼 보너스 카드.)
+space	check	Menu#419	MES_tuto_yo_nice_tsuno6_bdog_1	6	Menu__p3	edited	'왈 왈왈' x6 vs '왈왈왈' x2	ガウ ガウ ガガガウ。 （買い物する プレゼント ウルトラボーナスカード。）	왈 왈 왈왈. (쇼핑 선물 울트라 보너스 카드.)
+space	check	Menu#763	MES_tuto_yo_scrratch_tuto_k2_bdog	6	Menu__p5	edited	'왈 왈왈' x6 vs '왈왈왈' x2	ガウガガガウ ガウガウガウ。 （これ ボーナスカード。 買い物した プレゼント。）	왈 왈왈 왈 왈. (이거 보너스 카드. 쇼핑 선물.)
+space	check	Menu#140	MES_tuto_yo_scrratch_tuto_end_k_bdog	6	Menu__p1	edited	'왈왈 왈' x7 vs '왈왈왈' x2	ガウガウ ガウガウガウ。 （買い物して ボーナス チャレンジ。）	왈왈 왈왈 왈. (쇼핑 보너스 챌린지.)
+space	check	Menu#189	MES_tuto_yo_scrratch_tuto_k3_bdog	6	Menu__p2	new	'왈왈 왈' x7 vs '왈왈왈' x2	ガガガウ ガウ… （ボーナスカード マス選ぶ…）	왈왈 왈… (보너스 카드 칸 고르기…)
+space	check	Menu#363	MES_tuto_yo_bad_tsuno3_bdog_2	6	Menu__p3	new	'왈왈 왈' x7 vs '왈왈왈' x2	ガウ ガウ ガガガウ ガウ。 （でも 安心 あげる。 ノーマルボーナスカード。）	왈 왈 왈왈 왈. (그래도 안심. 줄게. 보통 보너스 카드.)
+space	check	Menu#375	MES_tuto_yo_bad_tsuno4_bdog_2	6	Menu__p3	new	'왈왈 왈' x7 vs '왈왈왈' x2	ガウ ガウ ガガガウ ガウ。 （でも 安心 あげる。 スーパーボーナスカード。）	왈 왈 왈왈 왈. (그래도 안심. 줄게. 슈퍼 보너스 카드.)
+space	check	Menu#394	MES_tuto_yo_scrratch_tuto_k7_bdog	6	Menu__p3	ds	'왈왈 왈' x7 vs '왈왈왈' x2	ガルルル… ガウガウ ガウ！ （しょうがない 説明 もう１回！）	으르렁… 왈왈 왈! (쳇… 설명 다시 한번!)
+space	check	Menu#647	MES_tuto_yo_nice_tsuno2_bdog_3	6	Menu__p4	edited	'왈왈 왈' x7 vs '왈왈왈' x2	ガガガウガウガウ ガウ ガウ？ （ボーナスカード 説明 必要？） いいえはい	왈왈 왈 왈? (보너스 카드 설명 필요?) 아니요예
+space	check	Menu#763	MES_tuto_yo_scrratch_tuto_k2_bdog	6	Menu__p5	edited	'왈왈 왈' x7 vs '왈왈왈' x2	ガウガガガウ ガウガウガウ。 （これ ボーナスカード。 買い物した プレゼント。）	왈 왈왈 왈 왈. (이거 보너스 카드. 쇼핑 선물.)
+space	check	Menu#450	MES_MenuMes_EventItemN_starvaccine_y	13	Menu__p3	ds	'옐로 스타' x1 vs '옐로스타' x7	スターワクチン黄	옐로 스타 백신
+glossvar	check	BMsg/b_sys#175	Menu_KJ_Chr_exp_nokonoko_gr	13	BMsg__b_sys__p2	new	glossary '초록등껍질' (みどりコウラ) written '초록 등껍질'	とぼけた顔でも 緑のコウラでがっちりガード！ ホネっぽい姿の敵が少し苦手らしい。	멍한 얼굴이지만 초록 등껍질로 철벽 방어! 뼈다귀 같은 모습의 적에게 조금 약한 듯하다.
+glossvar	check	BMsg/b_sys#1270	Menu_KJ_Chr_exp_patapata	13	BMsg__b_sys__p12	new	glossary '초록등껍질' (みどりコウラ) written '초록 등껍질'	緑のコウラと白い羽のハーモニー。 狙いを定めて 相手の脳天を直撃！	초록 등껍질과 하얀 날개의 하모니. 잘 겨냥해서 상대의 정수리를 직격!
+glossvar	check	FMsg/k_o_koopa_19#53	Kjrpg_01_Koopa_op01_16	6	FMsg__k_o_koopa_19__and4	new	glossary '굼바부대' (ボコスカクリボー) written '굼바 부대'	よーし！ クリボー隊！ ばんごう！	좋~아! 굼바 부대! 번호!
+glossvar	check	Menu#450	MES_MenuMes_EventItemN_starvaccine_y	13	Menu__p3	ds	glossary '옐로스타' (イエロースター) written '옐로 스타'	スターワクチン黄	옐로 스타 백신
+glossvar	check	Item#779	E_Accessory08	3	Item__p6	new	glossary '작은방패' (スモールシェル) written '작은 방패'	敵の攻撃を１度だけ防いでくれる小さな貝殻。	적의 공격을 한 번만 막아 주는 작은 방패.
+glossvar	check	Item#785	E_Accessory09	3	Item__p6	new	glossary '큰방패' (ビッグシェル) written '큰 방패'	敵の攻撃を何回か防いでくれる大きな貝殻。	적의 공격을 몇 번 막아 주는 큰 방패.
+glossvar	check	BMsg/b_sys#419	SpAtk_07	12	BMsg__b_sys__p4	ds	glossary '아무 데나' (アッチコッチ) written '아무데나'	あちこちウィンドウ	아무데나창문
+glossvar	check	BMsg/b_sys#668	Minigame_ML_Expl_achikochi	11	BMsg__b_sys__p6	new	glossary '아무 데나' (アッチコッチ) written '아무데나'	「あちこちウィンドウ」を失敗するまでエンドレスで 続けてコレステロンをやっつけよう！ ゴールドたっせいで 特別なアイテムをプレゼント！	「아무데나창문」을 실패할 때까지 엔드리스로 계속해서 콜레스테론을 물리치자! 골드 달성 시 특별한 아이템 증정!
+glossvar	check	Menu#457	MES_spatk_00_yo_test_08	6	Menu__p3	new	glossary '아무 데나' (アッチコッチ) written '아무데나'	あちこちウィンドウが 使えるようになったわ！	아무데나창문을 사용할 수 있게 됐어!
+particle	check	BMsg/b_sys#731	MES_KGarakuta_02_mes_08	6	BMsg__b_sys__p7	ds	모은 (은 after a vowel)	さっき集めた アタックパーツで ブラザーアタックが使えるわ！	조금 전 모은 어택피스로 스페셜 어택을 구사할 수 있게 됐어!
+particle	check	BMsg/b_sys#1059	MES_KGarakuta_08_mes_03_yes2	6	BMsg__b_sys__p10	new	모은 (은 after a vowel)	ハンマーはギリギリまで ためたタイミングで ボタンを押すの！	해머는 파워를 한계까지 모은 타이밍에 버튼을 누르는 거야!
+particle	check	BMsg/b_sys#1191	MES_Gepu_00_mes_03	6	BMsg__b_sys__p11	edited	모은 (은 after a vowel)	やつのパンチはためる時間が 長いほどダメージもでかいるるよ！ ギリギリまで ためたパンチ なんて 食らったら…	녀석의 펀치는 힘을 모으는 시간이 길수록 큰 타격이지롱롱! 힘을 끝까지 모은 펀치를 맞기라도 하면…
+particle	check	FMsg/i_kinopio_01#2	MES_KHatena_f_01_KHatena_f_01_mes_13_c	6	FMsg__i_kinopio_01	edited	모을 (을 after a vowel)	もし自分達が どこにいるのか わからなくなって しまったら… 下画面右下の「ひらく」ボタンを 押すと 今いるエリアの全体マップが 見られるように なりますよ。 これで自分達が どこにいるのか ひと目でわかります。 ついでに アタックパーツがある場所も 確認できるから べんりですよ。 アタックパーツを 全部集めるときは 「ひらく」ボタンで どこにあるのか チェック！ …あ ちなみに その全体マップは ◆ボタンで スクロールさせることが できますよ！ いろいろ ためしてみてください！	만약 여러분이 모험 도중에 길을 잃어버리고 말았다면… 아래 화면 오른쪽 아래의 「열기」 버튼을 누르면 현재 지역의 전체 지도를 볼 수 있어요. 그러면 여러분이 어디에 있는지 한눈에 알 수 있을 거예요. 게다가 어택피스가 있는 장소까지 확인할 수 있어서 편리해요. 어택피스를 모두 모을 때는 「열기」 버튼을 눌러 어디에 있는지 확인해 보세요! …아, 참고로 전체 지도는 ◆ 버튼으로 스크롤할 수 있어요! 직접 한번 확인해 보세요!
+particle	check	FMsg/k_o_gepu_80#72	Kjrpg_04_Gepu_qst05_63_01	6	FMsg__k_o_gepu_80	new	모은 (은 after a vowel)	予想外だったな… ガリナールZの素材は 入手が困難なものばかり… キノコ王国を熟知している ７人衆やクッパJr.が集めたところを…	예상 밖이었군… 홀쭉해Z의 재료는 구하기 힘든 것들뿐… 버섯 왕국을 훤히 아는 7인조와 쿠파주니어가 모은 것을…
+particle	check	FMsg/o_town_34#4	MES_TKinoko_34_Kinoko_town_clinic_c_20	6	FMsg__o_town_33__and1	ds	모은 (은 after a vowel)	メタコロ病が 治ったのね！！ でも… スターワクチンを 集めたのは マリオ達よ…	뚱뚱데굴병이 고쳐졌구나!? 하지만… 스타 백신을 모은 건 마리오와 루이지야…
+particle	check	FMsg/o_town_39#0	MES_TKinoko_39_Kinoko_street_27_4	6	FMsg__o_town_34_suishou_01_U__and7	edited	들를 (를 after a final consonant)	いらっしゃい。 ここは だれでも手軽に 入れる そうび品屋だよ。	어서 오세요. 여기는 누구나 부담 없이 들를 수 있는 장비 가게입니다.
+punct	check	BMsg/b_sys#856	KJGuide_BC06_3	11	BMsg__b_sys__p8	new	space before punctuation: '아군에게 ! 마크가 나'	味方に！マークが出現したらチャンスです。 でかボムを速い速度で打ち返すと 強力な一撃を放つことができます。	아군에게 ! 마크가 나타나면 찬스예요. 왕폭탄을 빠른 속도로 받아치면 강력한 일격을 날릴 수 있어요.
+punct	check	BMsg/b_sys#1115	KJMsg_challenge_xx	13	BMsg__b_sys__p10	short	?! / ?? (style: !?): '????'	？？？？	????
+punct	check	FMsg/o_areanone_allmap_01_U#6	MES_EVnog_kinoko_all_map_bcat_K_warp_selsect_14	11	FMsg__o_areanone_allmap_01_U	new	double space: ' 버튼: 취소    ◆ 버튼: 결'	◆ボタン：やめる ◆ボタン：けってい	◆ 버튼: 취소 ◆ 버튼: 결정
+punct	check	FMsg/o_koopa_18#29	MES_SKoopa_18_SK18_cash_ystar_04	6	FMsg__o_koopa_18__and2	short	space at a line edge: ' / / ………'	……………	……………
+punct	check	FMsg/o_koopa_18#29	MES_SKoopa_18_SK18_cash_ystar_04	6	FMsg__o_koopa_18__and2	short	space at a line edge: ' / / ……………'	……………	……………
+punct	check	FMsg/o_otapuku_02#1	MES_EOtapuku_02_EO02_kocky_ev_00	6	FMsg__o_otapuku_02__and1	short	space at a line edge: ' / /알립니다'	おしらせ おしらせ～！	알립니다! 알립니다~!
+punct	check	FMsg/o_otapuku_02#1	MES_EOtapuku_02_EO02_kocky_ev_00	6	FMsg__o_otapuku_02__and1	short	space at a line edge: ' / /알립니다! '	おしらせ おしらせ～！	알립니다! 알립니다~!
+punct	check	FMsg/o_otapuku_02#3	MES_EOtapuku_02_EO02_kocky_ev_02	6	FMsg__o_otapuku_02__and1	ds	space at a line edge: ' / /  이아'	ムッシーバビーチは 南だよ！	이아파 비치는 남쪽이야!
+punct	check	FMsg/o_otapuku_02#3	MES_EOtapuku_02_EO02_kocky_ev_02	6	FMsg__o_otapuku_02__and1	ds	space at a line edge: ' / /  이아파 '	ムッシーバビーチは 南だよ！	이아파 비치는 남쪽이야!
+punct	check	FMsg/o_peach_1f_03#16	MES_SPeach_1F_03_INORI_ystar_02	6	FMsg__o_peach_1f_03__and3	short	space at a line edge: ' / /정말!?'	本当に！？	정말!?
+punct	check	FMsg/o_peach_1f_09#26	MES_SPeach_1F_09_SP1F_09_ystar_05	6	FMsg__o_peach_1f_03__and3	ds	space at a line edge: ' / /그러면 '	だと いいんだけどね…	그러면 정말 좋겠다…
+punct	check	FMsg/o_peach_1f_09#26	MES_SPeach_1F_09_SP1F_09_ystar_05	6	FMsg__o_peach_1f_03__and3	ds	space at a line edge: ' / /그러면 정말'	だと いいんだけどね…	그러면 정말 좋겠다…
+punct	check	FMsg/o_peach_g_06#8	MES_GPeach_06_Big_k_peach_18	6	FMsg__o_peach_g_02__and6	short	space at a line edge: ' / /뭐라고!'	なんですって！！	뭐라고!?
+punct	check	FMsg/o_peach_g_06#8	MES_GPeach_06_Big_k_peach_18	6	FMsg__o_peach_g_02__and6	short	space at a line edge: ' / /뭐라고!?'	なんですって！！	뭐라고!?
+punct	check	FMsg/o_town_31#18	MES_TKinoko_31_Kinoko_street_27	6	FMsg__o_town_31__and1	edited	double space: '밀크 버섯 티  8코인/로열 '	マリオさん！ ちょっと 一息ついて 元気に なってくださいな！！ いらない キノコティー５コイン ミルクキノコティー８コイン ロイヤルキノコティー １０コイン	마리오님! 잠깐 한숨 돌리고 기운을 회복하세요!! 필요 없어요 버섯 티5코인 밀크 버섯 티 8코인 로열 버섯 티 10코인
+punct	check	FMsg/o_town_31#18	MES_TKinoko_31_Kinoko_street_27	6	FMsg__o_town_31__and1	edited	double space: '로열 버섯 티        10코인'	マリオさん！ ちょっと 一息ついて 元気に なってくださいな！！ いらない キノコティー５コイン ミルクキノコティー８コイン ロイヤルキノコティー １０コイン	마리오님! 잠깐 한숨 돌리고 기운을 회복하세요!! 필요 없어요 버섯 티5코인 밀크 버섯 티 8코인 로열 버섯 티 10코인
+punct	check	FMsg/o_zutsuda_01#9	MES_LZutsuda_01_LZ01_kocky_ev_00	6	FMsg__o_zutsuda_01__and9	short	space at a line edge: ' / /  알립'	おしらせ おしらせ～！	알립니다! 알립니다~!
+punct	check	FMsg/o_zutsuda_01#9	MES_LZutsuda_01_LZ01_kocky_ev_00	6	FMsg__o_zutsuda_01__and9	short	space at a line edge: ' / /  알립니다'	おしらせ おしらせ～！	알립니다! 알립니다~!
+punct	check	HugeBattle#104	result_item_question	3	HugeBattle__p1	short	?! / ?? (style: !?): '??????'	??????	??????
+punct	check	Item#25	E_AItm20	5	Item__p1	new	double space: ' 대상: 랜덤   효과: 화상'	カメックの杖の光を素早く なぞって クッパのファイアで 魔法がパワーアップ！ ターゲット：ランダム 効果：やけど	마귀 지팡이의 빛을 빠르게 따라 그리고 쿠파의 파이어로 마법이 파워 업! 공격 대상: 랜덤 효과: 화상
+punct	check	Item#32	E_AItm21	5	Item__p1	new	double space: ' 적은 무효)   효과: 없음'	◆左右でルイージを動かし スイーツゲット！ 太ったルイージを◆連打で投げ飛ばし ◆でプレス！ ターゲット：全体 （空中の敵は無効） 効果：なし	◆ 좌우로 루이지를 움직여 스위트 겟! 살찐 루이지를 ◆ 연타로 던지고 ◆로 바디프레스! 공격 대상: 전부(공중의 적은 무효) 효과: 없음
+punct	check	Item#52	E_AItm23	5	Item__p1	new	double space: ' 대상: 하나   효과: 어질어'	ブロドッグをこすって 泡で汚れを落としてあげると キレイになって大喜び！ そしてみんなで大暴れ！ ターゲット：１体 効果：めまわし	블도그를 문질러서 거품으로 때를 씻어 주면 깨끗해져서 대만족! 그리고 다 함께 대난동! 공격 대상: 하나 효과: 어질어질
+punct	check	Item#64	E_AItm24	5	Item__p1	new	double space: ' 대상: 하나   효과: DEF'	◆でイエロースターを動かして 大きなスターが 赤なら◆ 緑なら◆ で小さいスターを投げましょう！ ターゲット：１体 効果：DEFダウン	◆로 옐로스타를 움직여서 큰 스타가 빨강이면 ◆, 초록이면 ◆로 작은 스타를 던지자! 공격 대상: 하나 효과: DEF 다운
+punct	check	Item#338	E_AItm10	5	Item__p3	new	double space: ' 대상: 랜덤   효과: 없음'	スライドでクッパを上下に動かし ノコノコを はじき返してラリーが続けばダメージアップ！ ターゲット：ランダム 効果：なし	쿠파를 위아래로 슬라이드해서 엉금엉금을 튕기자! 랠리가 계속되면 타격도 커진다! 공격 대상: 랜덤 효과: 없음
+punct	check	Item#368	E_AItm13	5	Item__p3	new	double space: ' 대상: 하나   효과: 없음'	メットをふんだら ◆でジャンプ！ ◆の左右で 落下地点にダッシュ！！ ターゲット：１体 効果：なし	헬멧을 밟을 때 ◆를 눌러 점프! ◆ 좌우로 낙하지점까지 대시!! 공격 대상: 하나 효과: 없음
+punct	check	Item#378	E_AItm14	5	Item__p3	new	double space: ' 대상: 랜덤   효과: 어질어'	◆で高～くつきあげて ◆の左右でルイージを 落とさないようにボールを動かし ◆で押しつぶし！ ターゲット：ランダム 効果：めまわし	◆로 높~이 올리고 ◆ 좌우로 루이지를 떨어뜨리지 않게 볼을 움직여 ◆로 눌러 버리자! 공격 대상: 랜덤 효과: 어질어질
+punct	check	Item#399	E_AItm16	5	Item__p3	new	double space: ' 대상: 랜덤   효과: POW'	◆の左右でダッシュ！ ◆（◆）を押し続けて パワーをためて ボタンをはなしてスマッシュ！ ターゲット：ランダム 効果：POWダウン	◆ 좌우로 대시! ◆(◆)를 길게 눌러서 파워를 모았다가 버튼에서 손을 떼서 스매시! 공격 대상: 랜덤 효과: POW 다운
+punct	check	Item#411	E_AItm17	5	Item__p4	new	double space: ' 대상: 랜덤   효과: 화상'	大きいファイアをもった キャラクターの ボタン連打で ファイアを連射！ ターゲット：ランダム 効果：やけど	큰 파이어볼을 든 캐릭터의 버튼 연타로 파이어볼을 연사! 공격 대상: 랜덤 효과: 화상
+punct	check	Item#424	E_AItm19	5	Item__p4	new	double space: ' 대상: 랜덤   효과: 어질어'	マリオ◆ ルイージ◆ マリオ＆ルイージなら◆◆ で連続ダメージ！ ターゲット：ランダム 効果：めまわし	마리오라면 ◆, 루이지라면 ◆ 마리오&루이지라면 ◆◆로 연속 대미지! 공격 대상: 랜덤 효과: 어질어질
+punct	check	Item#463	EFF_Badge_01_07	13	Item__p4	new	space at a line edge: '살」 발동!/ 다음 공격의'	「ひっさつ」発動！ 次のアタックの威力 ３倍！！	「필살」 발동! 다음 공격의 위력 3배!!
+punct	check	Item#480	EFF_Badge_01_09	13	Item__p4	new	space at a line edge: '살」 발동!/ 다음 공격의'	「ひっさつ」発動！ 次のアタックの威力 ６倍！！	「필살」 발동! 다음 공격의 위력 6배!!
+punct	check	Item#724	E_AItm03	5	Item__p5	new	double space: ' 대상: 하나   효과: 어질어'	どかんに入ったキャラクターをよく見て マリオ◆ ルイージ◆ でふみつけ！ 対象：１体 効果：めまわし	토관에 들어간 캐릭터를 잘~ 보고 마리오는 ◆, 루이지는 ◆로 밟아라! 공격 대상: 하나 효과: 어질어질
+punct	check	Item#735	E_AItm04	5	Item__p5	new	double space: ' 대상: 랜덤   효과: 없음'	タルに入った キャラクターを覚えて マリオ◆ ルイージ◆ で発射！ ターゲット：ランダム 効果：なし	나무통에 들어간 캐릭터를 기억했다가 마리오는 ◆, 루이지는 ◆로 발사! 공격 대상: 랜덤 효과: 없음
+punct	check	Item#742	E_AItm05	5	Item__p5	new	double space: ': 자유 설정   효과: 어질어'	ボムへいを 素早くスライドさせて移動！ モンスターの前に 並べて突撃！ ターゲット：自由に設定 効果：めまわし	폭탄병을 빠르게 슬라이드해서 이동! 몬스터 앞으로 줄 맞춰서 돌격! 공격 대상: 자유 설정 효과: 어질어질
+punct	check	Item#752	E_AItm06	5	Item__p5	new	double space: ' 대상: 하나   효과: 화상'	クリボーにタッチして 着火！ 落下とファイアで ダメージアップ！ ターゲット：１体 効果：やけど	굼바를 터치해서 불을 붙여라! 낙하와 파이어 효과로 큰 타격을 입힌다! 공격 대상: 하나 효과: 화상
+punct	check	Item#763	E_AItm07	5	Item__p6	new	double space: ' 대상: 하나   효과: 없음'	←向きに 素早く何度もスライドして ヒモを引っ張り ダメージアップ！ ターゲット：１体 効果：なし	←방향으로 빠르게 여러 번 슬라이드해서 끈을 당기자! 많이 당기면 타격도 커진다! 공격 대상: 하나 효과: 없음
+punct	check	Item#772	E_AItm08	5	Item__p6	new	double space: ' 대상: 하나   효과: 없음'	マリオ◆ ルイージ◆ でキック！ ラリーを続けるほどダメージアップ！ ターゲット：１体 効果：なし	마리오는 ◆, 루이지는 ◆로 킥! 랠리가 계속될수록 타격도 커진다! 공격 대상: 하나 효과: 없음
+spell	check	BMsg/b_sys#341	Kj_Btl_prod_start_13	6	BMsg__b_sys__p4	new	bound noun '뿐' glued: '둘뿐'	２人だけか～ がんばろっと！	둘뿐인가~ 힘내야지!
+spell	check	FMsg/k_o_gepu_08#0	Kjrpg_03_Gepu_op01_07_2	6	FMsg__k_o_gepu_08__and1	new	bound noun '뿐' glued: '둘뿐'	７人衆も この２人だけじゃ…	7인조도 이 둘뿐이니…
+spell	check	FMsg/k_o_gepu_13#7	Kjrpg_04_Gepu_qst01_20	6	FMsg__k_o_gepu_08__and1	new	bound noun '뿐' glued: '허울뿐'	我ら SSカンパニー！ スーパーサプリカンパニーとは かりそめの名前。その正体は…	우리는 SS컴퍼니! 슈퍼 서플리먼트 컴퍼니란 허울뿐인 이름. 그 정체는…
+spell	check	FMsg/o_areanone_lastboss_03_L#6	MES_EV_MAIN_TPeach_06_2_Last_battle_40_3	5	FMsg__o_areanone_lastboss_01_L__and1	ds	-데로 (대로?): ' 싶었을 뿐인데로로…/나름대'	ワレは… ただ… このくにを せいふく したいだけリュリュ… それなりに… がんばってリュ… のに…	나는… 단지… 이 나라를 정복하고 싶었을 뿐인데로로… 나름대로… 노력했는데로로…
+spell	check	FMsg/o_areanone_lastboss_03_L#6	MES_EV_MAIN_TPeach_06_2_Last_battle_40_3	5	FMsg__o_areanone_lastboss_01_L__and1	ds	-데로 (대로?): '로…/노력했는데로로…'	ワレは… ただ… このくにを せいふく したいだけリュリュ… それなりに… がんばってリュ… のに…	나는… 단지… 이 나라를 정복하고 싶었을 뿐인데로로… 나름대로… 노력했는데로로…
+number	check	BMsg/b_sys#56	BtlGuide_06_0	11	BMsg__b_sys__p1	new	Korean has {'0': 1} not in the Japanese	モンスターの攻撃で ダメージを受けると マリオ達のHPが 減っていきます。 HPがゼロになると 気絶して動けなくなります。	몬스터의 공격으로 타격을 입으면 마리오 일행의 HP가 줄어들어요. HP가 0이 되면 기절해서 움직일 수 없게 돼요.
+number	check	BMsg/b_sys#75	BtlGuide_06_1	11	BMsg__b_sys__p1	new	Korean has {'0': 1} not in the Japanese	マリオ と ルイージのバトルでは ２人ともHPがゼロになって気絶すると ゲームオーバーになります。	마리오와 루이지의 배틀에서는 두 사람 모두 HP가 0이 되어 기절하면 게임 오버가 돼요.
+number	check	BMsg/b_sys#91	BtlGuide_06_2	11	BMsg__b_sys__p1	new	Korean has {'0': 1} not in the Japanese	クッパは１人で行動しているので HPがゼロになった時点で ゲームオーバーになります。	쿠파는 혼자서 행동하니까 HP가 0이 된 시점에서 게임 오버가 돼요.
+number	check	BMsg/b_sys#306	BtlGuide_02_0	11	BMsg__b_sys__p3	new	Korean has {'0': 1} not in the Japanese	「ジャンプ」や「パンチ」などで モンスターを攻撃すれば ダメージを与えられます。 モンスターのHPをゼロにすれば 倒せます。	「점프」나 「펀치」 등으로 몬스터를 공격하면 타격을 입힐 수 있어요. 몬스터의 HP를 0으로 만들면 쓰러뜨릴 수 있어요.
+number	check	BMsg/b_sys#328	BtlGuide_11_2	11	BMsg__b_sys__p3	edited	Korean has {'0': 1} not in the Japanese	HP は 体力。 ダメージを受けると減り ゼロになると気絶します。	HP는 체력. 타격을 입으면 줄어들고 0이 되면 기절해요.
+number	check	BMsg/b_sys#499	MES_RankUpE_State_HP	11	BMsg__b_sys__p5	edited	Korean has {'0': 1} not in the Japanese	HP は 体力。 ダメージを受けると減り ゼロになると気絶します。	HP는 체력. 타격을 입으면 줄어들고 0이 되면 기절합니다.
+number	check	BMsg/b_sys#586	Hint_Dmechaco_0_1	11	BMsg__b_sys__p6	new	Korean has {'0': 2} not in the Japanese	復活すると より強力な ダークメカコビッツV２に なることがありますが V２で倒すと レアなアイテムを落とすことがあります。	부활하면 더 강력한 다크메카코비츠2.0이 되기도 하지만 2.0 상태에서 쓰러뜨리면 레어 아이템을 떨어뜨리기도 해요.
+number	check	BMsg/b_sys#633	KJGuide_BB05_2	11	BMsg__b_sys__p6	new	Korean has {'0': 1} not in the Japanese	HPは体力。 ダメージを受けると減り ゼロになるとバトルから退場します。	HP는 체력. 타격을 입으면 줄어들고 0이 되면 배틀에서 퇴장해요.
+number	check	BMsg/b_sys#743	KJGuide_BB03_1	11	BMsg__b_sys__p7	new	Korean has {'0': 1} not in the Japanese	相手軍団のリーダーのHPを ゼロにすると勝利になります。	상대 군단 리더의 HP를 0으로 만들면 승리해요.
+number	check	BMsg/b_sys#849	Dmechaco_v2	13	BMsg__b_sys__p8	new	Korean has {'0': 1} not in the Japanese	ダークメカコビッツV２	다크메카코비츠2.0
+number	check	BMsg/b_sys#911	Menu_KJ_Chr_exp_kuribo	13	BMsg__b_sys__p9	new	Korean has {'1': 1} not in the Japanese	クッパ軍団の一番バッター。 すばやく動いて 相手に突撃！	쿠파 군단의 1번 타자. 재빠르게 움직여 상대에게 돌격!
+number	check	BMsg/b_sys#919	BtlGuide_07_0	11	BMsg__b_sys__p9	new	Korean has {'0': 1} not in the Japanese	モンスターの攻撃中も アクションでき そのアクションでモンスターの攻撃を よけられれば ダメージをゼロにできます。	몬스터가 공격하는 중에도 액션을 할 수 있고 그 액션으로 몬스터의 공격을 피하면 타격을 0으로 만들 수 있어요.
+number	check	BMsg/b_sys#1263	Kj_Btl_opening_00	6	BMsg__b_sys__p11	new	Korean has {'0': 1} not in the Japanese	とにかくガンガンぶつかりあって 戦えばいいんだよな。 あの奥にいるヤツの体力をゼロにしちゃえば ボクの勝ちだ！ いくぞー！	아무튼 팍팍 부딪치면서 싸우면 되는 거지? 저 안쪽에 있는 녀석의 체력을 0으로 만들면 내가 이기는 거야! 간다~!
+number	check	BMsg/b_sys#1741	KJGuide_BB02_1	11	BMsg__b_sys__p15	new	Korean has {'0': 1} not in the Japanese	相手のHPをゼロにすれば 倒すことができます。	상대의 HP를 0으로 만들면 쓰러뜨릴 수 있어요.
+number	check	BMsg/b_sys#1768	Kj_Btl_slc_koushou_33	6	BMsg__b_sys__p16	new	Korean has {'5': 1} not in the Japanese	ウチは週休２日制だ。	우리는 주 5일 근무제라네.
+number	check	FMsg/k_o_koopa_r_80#163	Kjrpg_10_Koopa_qst04_76_3	10	FMsg__k_o_koopa_r_80__p2	new	Korean has {'4': 1} not in the Japanese	クッパ様筆頭 隊長カルテット！	쿠파님 직속 대장 4총사!
+number	check	FMsg/k_o_koopa_r_80#217	Kjrpg_02_Koopa_qst06_01	6	FMsg__k_o_koopa_r_80__p2	new	Japanese {'1000': 1} missing in the Korean	やい ラリー！ ボクに 勝とうなんて １０００万年 早いぞ！	야, 래리! 나를 이기려는 건 천만 년은 이르다!
+number	check	FMsg/o_ekubon_34#1	MES_Ekubon_34_Ekubon_hana_stop_14_2_pl	6	FMsg__o_ekubon_15__and6	ds	Korean has {'6': 1} not in the Japanese	まだまだ こんなのじゃ 森の平和は 約束されないです。 全部で １０個あるらしいので 半分以上は 回収してほしいです～ あとⓋ個！ がんばるです～	이 정도로 숲의 평화는 지켜지지 않습니다. 모두 10개가 있다고 하니 적어도 6개는 회수해 오셔야 합니다~ 앞으로 Ⓥ개! 힘내십시오~
+number	check	FMsg/o_ekubon_34#4	MES_Ekubon_34_Ekubon_hana_stop_11	6	FMsg__o_ekubon_15__and6	ds	Korean has {'6': 1} not in the Japanese	よろしいです。 じゃあ 責任もって アタックパーツ 回収してくるです～ 全部で １０個あるらしいので 半分以上は 回収してほしいです～ ６個 回収できたら けーかいたいせいも 解除するです～	좋습니다. 그럼 책임지고 어택피스를 회수해 오십시오~ 모두 10개가 있다고 하니 적어도 6개는 회수해 오셔야 합니다~ 6개 회수해 오면 경계 태세를 해제하겠습니다~
+number	check	FMsg/o_koopa_01#24	MES_SKoopa_01_SKoopa_01_karon02_talk	6	FMsg__o_koopa_01__and6	ds	Japanese {'10': 1} missing in the Korean	いちばん前で ゲラコビッツ様の ステージを 見たくて １０日もならんでるんだよ！ おかげで お腹がからっぽだよ… あ！ もともと からっぽだった！	맨 첫 줄에서 까르코비츠님 무대를 보고 싶어서 열흘 전부터 기다리고 있어! 덕분에 쫄쫄 굶었지 뭐야… 아! 원래 난 안 먹는구나!
+number	check	FMsg/o_koopa_07#3	MES_SKoopa_07_Skoopa_07_karon01_talk	6	FMsg__o_koopa_01__and6	ds	Japanese {'10': 2} missing in the Korean	くるとちゅうに 転んじゃって… 結局 すわれなかったんだ… せっかく １０日もならんだのに… １０日も… ならんだのに…	들어오는 도중에 넘어져서… 결국 자리를 못 잡았어… 무려 열흘이나 기다렸는데… 열흘이나… 기다렸는데…
+number	check	FMsg/o_koopa_18#6	MES_SKoopa_18_SK18_cash2_koopa_04	6	FMsg__o_koopa_18__and2	ds	Korean has {'9898': 1, '88241': 1, '983': 1} not in the Japanese	９ ８ ９ ８ クッパ クッパ ８ ８ ２４１ やっぱり つよい ９ ８ ３！ クッパ さま！	9898 쿠파님 쿠파님 88241 멋있고 힘센 983 우리 쿠파님!
+number	check	FMsg/o_koopa_18#6	MES_SKoopa_18_SK18_cash2_koopa_04	6	FMsg__o_koopa_18__and2	ds	Japanese {'241': 1} missing in the Korean	９ ８ ９ ８ クッパ クッパ ８ ８ ２４１ やっぱり つよい ９ ８ ３！ クッパ さま！	9898 쿠파님 쿠파님 88241 멋있고 힘센 983 우리 쿠파님!
+number	check	FMsg/o_peach_1f_09#3	MES_SPeach_1F_09_SP1F_09_koopa_04	6	FMsg__o_peach_1f_03__and3	ds	Japanese {'100': 1} missing in the Korean	ふん！ オマエごときが 世界を 支配しようなどと １００年 はやいわ！	흥! 너 같은 놈은 다시 태어나도 세계를 지배할 수 없을 거다!
+number	check	FMsg/o_town_41#10	MES_TKinoko_41_Kinoko_town_kinopio_19	6	FMsg__o_town_34_suishou_01_U__and7	ds	Japanese {'100': 1} missing in the Korean	本日は 当店をご指名 ご来店いただき まことに ありがとうございます。 お客様の 担当をさせていただく キノーピオンです。 どうぞ お見知りおきを。 さて 当店では お客様のために １００点満点の サービスを 用意しております。 まずは こちらの席へ おかけくださいませ。 さあ どうぞどうぞ。	저희 가게를 찾아 주신 데 대해 진심으로 감사드립니다. 두 분을 담당하게 된 키노피온입니다. 앞으로 잘 부탁드립니다. 저희 숍에서는 두 분을 위해 빈틈없는 서비스를 준비했습니다. 우선 제 뒤쪽 좌석에 편히 앉아 주십시오. 자, 이쪽으로 오십시오.
+number	check	HugeBattle#22	battleguide_kihon	5	HugeBattle__p1	new	Korean has {'0': 2} not in the Japanese	巨大化したクッパと敵が 交互に行動を決めて戦います。 攻撃を与えて 相手のHPを ゼロにすれば勝利です。 攻撃を受けるとHPが減ります。 クッパのHPがゼロになったら ゲームオーバーです。	거대화한 쿠파와 적이 번갈아 행동을 정해 싸워요. 공격해서 상대의 HP를 0으로 만들면 승리예요. 공격받으면 HP가 줄어들어요. 쿠파의 HP가 0이 되면 게임 오버예요.
+number	check	Item#778	E_1upKinoko	13	Item__p6	ds	Korean has {'1': 1, '2': 1} not in the Japanese	倒れた なかまが HPはんぶんで ふっかつ。	기절한 파트너가 HP 1/2로 부활.
+number	check	Menu#838	MES_EMesColosseum_guide_item_02_02	3	Menu__p6	new	Korean has {'0': 1} not in the Japanese	バトルが始まるとき HPとBPは マンタンになりますが バッジのメーターは ゼロからのスタートとなります。	배틀이 시작될 때 HP와 SP는 가득 차지만 배지 게이지는 0부터 시작해요.
+length	info	-					median ratio 0.82 over 2742 messages		
+voice	check	FMsg/i_garakuta_03#19	MES_KGarakuta_03_hemogro_mes_04	6	FMsg__i_garakuta_02__and7	short	헬로글로빈 びん -> 로빈	さらば び～ん！	바이로~빈!
+voice	check	FMsg/k_o_koopa_14#87	Kjrpg_12_Koopa_exqst_3_12	7	FMsg__k_o_koopa_14__p1	short	쿠파 ガハハ -> 크핫핫	ガーッハッハッハ！	크하―핫핫핫!
+choice	check	FMsg/o_town_33#36	MES_TKinoko_33_Kinoko_town_clinic_adv_05	6	FMsg__o_town_33__and1	ds	choice いいえ -> '싫어요'	ムッシーバビーチで へんな家を見つけて… え～っと… へんな ノコノコ… ノコノコ…？ ノコノコが… パズル…？ あ～ どうしても 思い出せない！！ くやしい～～～！！ マリオさん！ 行ってみてください！ いいえはい	이아파 비치에서 이상한 집을 봤는데… 음… 이상한 엉금엉금… 엉금엉금…? 엉금엉금이… 퍼즐…? 아~ 도무지 기억나지 않아!!! 혼란스러워~~~!! 마리오님이 가셔서 확인해 주세요! 싫어요예
+choice	check	FMsg/o_town_33#44	MES_TKinoko_33_Kinoko_town_clinic_adv_09	6	FMsg__o_town_33__and1	ds	choice いいえ -> '싫어요'	クッパ城の 寒い部屋で アタックパーツを 見つけて… むらさき色の バケモノが… キノコ型の バケモノが… あ～！！ ダメだ！！ 思い出せない！！ くやしい～～～！！ マリオさん！ 行ってみてください！ いいえはい	쿠파 성의 차가운 방에서 어택피스를 발견했는데… 보라색 괴물이… 버섯 모양의 괴물이… 아~!! 모르겠어!! 기억나지 않아!! 혼란스러워~~~!! 마리오님이 가셔서 확인해 주세요! 싫어요예
+names	check	FMsg/k_o_ekubon_80#152	Kjrpg_03_Ekubon_qst05_09_01	6	FMsg__k_o_ekubon_80__p2	new	name プクプク = '뽀꾸뽀꾸' not found	あ～ヤダ。そんなんだと プクプクのボテボテの体になっちゃうわよ。	어머 얘. 그러다간 뒤룩뒤룩 퉁퉁한 몸이 되고 만단다.
+names	check	FMsg/o_ekubon_15#29	MES_Ekubon_15_Ekubon_giga_carrot_11	6	FMsg__o_ekubon_15__and6	ds	name ハナチャン = '꽃충이' not found	昔 この畑にキラーが 落っこちてきたです。 それを このハナチャンが こっそり持っていますよ。 あなた ほしいんですか？	옛날에 이 밭에 킬러가 떨어졌습니다. 그걸 제가 몰래 숨겨 두었습니다. 갖고 싶으신가요?
+oldname	check	Menu#702	MES_bgm_title_38	6	Menu__p5	new	Jr. spelling: ' me! Jr.!'	It's me！ Jr.！	It's me! Jr.!
+oldname	check	Menu#713	MES_bgm_title_39	6	Menu__p5	new	Jr. spelling: ' me! Jr.! 오르골'	It's me！ Jr.！ オルゴールVer.	It's me! Jr.! 오르골 Ver.
+latin	info	BMsg/b_sys#56,BMsg/b_sys#56,BMsg/b_sys#72					x113		HP
+latin	info	FMsg/o_koopa_r_20#1,FMsg/o_koopa_r_20#3,FMsg/o_koopa_r_20#5					x108		FULL!
+latin	info	BMsg/b_sys#307,BMsg/b_sys#354,BMsg/b_sys#533					x92		SP
+latin	info	BMsg/b_sys#28,BMsg/b_sys#73,BMsg/b_sys#122					x62		POW
+latin	info	BMsg/b_sys#115,BMsg/b_sys#257,BMsg/b_sys#960					x56		DX
+latin	info	BMsg/b_sys#40,BMsg/b_sys#105,BMsg/b_sys#115					x52		EXP
+latin	info	BMsg/b_sys#51,BMsg/b_sys#71,BMsg/b_sys#138					x42		DEF
+latin	info	BMsg/b_sys#227,BMsg/b_sys#307,BMsg/b_sys#439					x29		SUYEOM
+latin	info	BMsg/b_sys#30,BMsg/b_sys#159,BMsg/b_sys#213					x24		SPEED
+latin	info	BMsg/b_sys#95,BMsg/b_sys#120,BMsg/b_sys#303					x24		Excellent
+latin	info	BMsg/b_sys#307,BMsg/b_sys#439,BMsg/b_sys#1315					x18		PPUL
+latin	info	BMsg/b_sys#500,BMsg/b_sys#701,BMsg/b_sys#755					x17		SS
+latin	info	BMsg/b_sys#12,BMsg/b_sys#1494,BMsg/b_sys#1589					x16		Z
+latin	info	BMsg/b_sys#220,BMsg/b_sys#260,BMsg/b_sys#501					x16		X
+latin	info	BMsg/b_sys#239,BMsg/b_sys#239,BMsg/b_sys#390					x16		LP
+latin	info	BMsg/b_sys#283,BMsg/b_sys#339,BMsg/b_sys#612					x15		GDH
+latin	info	Menu#71,Menu#79,Menu#107					x10		amiibo
+latin	info	BMsg/b_sys#244,BMsg/b_sys#396,BMsg/b_sys#602					x8		L
+latin	info	BMsg/b_sys#256,BMsg/b_sys#418,BMsg/b_sys#622					x8		M
+latin	info	BMsg/b_sys#541,BMsg/b_sys#557,BMsg/b_sys#557					x7		RPG
+latin	info	BMsg/b_sys#155,FMsg/o_town_31#12,Item#70					x6		UP
+latin	info	BMsg/b_sys#397,BMsg/b_sys#517,BMsg/b_sys#734					x5		S
+latin	info	BMsg/b_sys#1667,BMsg/b_sys#1818,BMsg/b_sys#1835					x5		OK
+latin	info	Menu#131,Menu#143,Menu#144					x5		NFC
+latin	info	BMsg/b_sys#64,BMsg/b_sys#98,FMsg/k_o_koopa_08#4					x4		Z!
+latin	info	BMsg/b_sys#154,BMsg/b_sys#514,Menu#731					x3		C
+latin	info	BMsg/b_sys#156,BMsg/b_sys#231,BMsg/b_sys#246					x3		ON
+latin	info	BMsg/b_sys#324,BMsg/b_sys#958,BMsg/b_sys#1419					x3		LCK
+latin	info	BMsg/b_sys#1227,FMsg/i_garakuta_06#2,MenuKJ#64					x3		START
+latin	info	FMsg/o_ekubon_07_1#20,FMsg/o_ekubon_07_1#20,FMsg/o_ekubon_07_1#20					x3		SOS!
+latin	info	BMsg/b_sys#449,BMsg/b_sys#1215					x2		LV
+latin	info	FMsg/i_pump_08#2,FMsg/i_pump_08#3					x2		DNA
+latin	info	Item#452,Menu#584					x2		EX
+latin	info	Menu#38,Menu#617					x2		What
+latin	info	Menu#38,Menu#617					x2		a
+latin	info	Menu#38,Menu#617					x2		news!
+latin	info	Menu#44,Menu#340					x2		I'm
+latin	info	Menu#44,Menu#340					x2		the
+latin	info	Menu#44,Menu#340					x2		rule!
+latin	info	Menu#54,Menu#350					x2		Music
+latin	info	Menu#86,Menu#528					x2		HOME
+latin	info	Menu#155,Menu#360					x2		Area
+latin	info	Menu#155,Menu#360					x2		of
+latin	info	Menu#155,Menu#360					x2		dark
+latin	info	Menu#166,Menu#278					x2		MLX
+latin	info	Menu#222,Menu#671					x2		Oki
+latin	info	Menu#222,Menu#671					x2		Doki!!
+latin	info	Menu#230,Menu#434					x2		SHOW
+latin	info	Menu#230,Menu#434					x2		TIME!
+latin	info	Menu#274,Menu#665					x2		The
+latin	info	Menu#274,Menu#665					x2		Winner
+latin	info	Menu#274,Menu#665					x2		is
+latin	info	Menu#547,Menu#752					x2		Peaceful
+latin	info	Menu#702,Menu#713					x2		It's
+latin	info	Menu#702,Menu#713					x2		me!
+latin	info	Menu#702,Menu#713					x2		Jr.!
+latin	info	BMsg/b_sys#154					x1		KGS
+latin	info	BMsg/b_sys#246					x1		OFF
+latin	info	BMsg/b_sys#546					x1		LX
+latin	info	BMsg/b_sys#1221					x1		CRITICAL
+latin	info	BMsg/b_sys#1412					x1		MX
+latin	info	FMsg/i_kinopio_01#7					x1		LUCKY
+latin	info	FMsg/k_o_gepu_13#35					x1		SUN!
+latin	info	FMsg/k_o_gepu_13#35					x1		SAK!
+latin	info	FMsg/k_o_koopa_r_28#10					x1		GO!
+latin	info	FMsg/k_o_koopa_r_80#265					x1		ABC
+latin	info	FMsg/o_chika_09_before#16					x1		K!
+latin	info	FMsg/o_ekubon_02_after#37					x1		OK?
+latin	info	FMsg/o_koopa_12#0					x1		VIP
+latin	info	FMsg/o_test_fh_01#1					x1		Y
+latin	info	Item#232					x1		D
+latin	info	Menu#592					x1		DX!
+latin	info	Menu#682					x1		Go
+latin	info	Menu#682					x1		Forward!
+latin	info	Menu#713					x1		Ver.
+latin	info	Menu#731					x1		New
+latin	info	Menu#731					x1		DS

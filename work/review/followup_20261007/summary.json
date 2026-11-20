@@ -1,0 +1,48 @@
+{
+ "date": "2026-10-07",
+ "user_decisions": {
+  "execution": "main agent directly completed resumed work; no subagents used after the latest instruction",
+  "ss_company_names": {
+   "スーリム": "슬림",
+   "キュット": "큐티",
+   "ムチオ": "마초",
+   "スーさん": "슬림씨"
+  },
+  "wording_candidates": "retain current translation; no further expression change requested",
+  "six_temporary_item_images": "retain previous handling; actual exposure not claimed verified",
+  "furigana": "remove unnecessary Korean-output furigana and its settings entry",
+  "speech": "recurring characters use official Korean examples; original characters follow established character traits; identical DS lines remain DS"
+ },
+ "changed_merged_messages": 42,
+ "merged_messages": 9617,
+ "batches": 130,
+ "merge_errors": 0,
+ "ss_name_changes": 29,
+ "furigana": {
+  "build": "work/review/followup_20261007/furigana_build.json",
+  "verification": "work/review/followup_20261007/furigana_verify.json",
+  "report": "work/review/followup_20261007/furigana.md",
+  "runtime_verified": false
+ },
+ "report": "work/review/followup_20261007/REPORT.md",
+ "speech_reports": [
+  "work/review/followup_20261007/main_speech.md",
+  "work/review/followup_20261007/kj_speech.md"
+ ],
+ "install": {
+  "changed_patch_files": [
+   "Msg/JP_ja/BMsg.dat",
+   "Msg/JP_ja/FMsg.dat",
+   ".crr/static.crr",
+   "RO/MainMenu.cro"
+  ],
+  "stage_patch_junction_match": true,
+  "sd_and_zip_match": true,
+  "backup": "C:\\AI-Projects\\mario-luigi-rpg-3dx-korean-patch\\work\\build\\prev_followup_20261007"
+ },
+ "technical": {
+  "issues": []
+ },
+ "azahar_launched": false,
+ "timestamp": "2026-10-07T13:47:42.072676+09:00"
+}

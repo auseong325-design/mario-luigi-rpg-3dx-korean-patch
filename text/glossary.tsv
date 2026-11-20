@@ -135,11 +135,11 @@ KGS３C	KGS3C	boss	coined	BMsg/b_sys#154	glossary 확정값. 3DX 신규(쿠파�
 アルカロテン	알파카로팅	boss	DS	BData__mfset_MonN#45	アルファ+カロテン. ベタカロテン(베타카로팅)과 한 쌍의 보스 [gl_enemies]
 イモーヌ	애번느	boss	DS	BData__mfset_MonN#38	glossary 확정값과 동일. 부하 ストロー=빨대(#39) [gl_enemies]
 ガラクタモンスター	잡동스터	boss	DS	BData__mfset_MonN#73	ガラクタ=잡동사니. 부하 ガラクタコブン=잡동부대(#89) [gl_enemies]
-キュット	큐티	boss	coined	BMsg/b_sys#1463	glossary 확정값. 3DX 신규(SS컴퍼니의 '큐트' 담당) [gl_enemies]
+キュット	큐티	boss	coined	2026-10-07 사용자 확정	사용자 지정 SS컴퍼니 표기. 이 표기가 이전 임시 이름보다 우선한다.
 クッパ	쿠파	boss	DS	BData__mfset_MonN#65	마리오 일행이 싸우는 쿠파. glossary 확정값과 동일 [gl_enemies]
 クッパメモリー	쿠파메모리	boss	DS	BData__mfset_MonN#66·67	DS '쿠파메모리M/L'(붙여 씀). 콜로세움 クッパメモリーMLX=쿠파메모리MLX
 ゲッソーの像	징오징오상	boss	DS	BData__mfset_MonN#4	DS 이름
-スーリム	수림	boss	coined	BMsg/b_sys#567	glossary 확정값. 3DX 신규(SS컴퍼니의 두뇌). 발음 유지 [gl_enemies]
+スーリム	슬림	boss	coined	2026-10-07 사용자 확정	사용자 지정 SS컴퍼니 표기. 이 표기가 이전 임시 이름보다 우선한다.
 ダーククッパ	다크쿠파	boss	DS	BData__mfset_MonN#75	glossary 확정값과 동일 [gl_enemies]
 ダークゲラコビッツ	다크까르코비츠	boss	DS	BData__mfset_MonN#105	ゲラコビッツ=까르코비츠(DS) [gl_enemies]
 ダークスター	다크스타	boss	DS	BData__mfset_MonN#70	glossary 확정값과 동일 [gl_enemies]
@@ -153,7 +153,7 @@ KGS３C	KGS3C	boss	coined	BMsg/b_sys#154	glossary 확정값. 3DX 신규(쿠파�
 ベタカロテン	베타카로팅	boss	DS	BData__mfset_MonN#46	アルカロテン(알파카로팅)과 한 쌍의 보스 [gl_enemies]
 ベタリーノ	넙적충이	boss	DS	BData__mfset_MonN#8	화염 파이프 보스. 마리오위키 Scutlet (boss) 항목도 일본어 ベタリーノ = 한국어 넙적충이. 일반형 ペタリーノ=납작충이(#1) [gl_enemies]
 ボムキング	킹폭탄	boss	official	https://namu.wiki/w/%EC%BF%A0%ED%8C%8C%EA%B5%B0%EB%8B%A8	glossary 확정값. 3DX 신규(쿠파주니어 RPG 보스). DS '폭탄병'과도 일치 [gl_enemies]
-ムチオ	무지오	boss	coined	BMsg/b_sys#516	glossary 확정값. 3DX 신규(SS컴퍼니). 「ムチ…無知…」 말장난 → 무지(無知)+오 [gl_enemies]
+ムチオ	마초	boss	coined	2026-10-07 사용자 확정	사용자 지정 SS컴퍼니 표기. 이 표기가 이전 임시 이름보다 우선한다.
 メタボス	메타보스	boss	DS	BData__mfset_MonN#34	glossary 확정값과 동일 [gl_enemies]
 賢者イモーヌ	현인애번느	boss	DS	BData__mfset_MonN#53	賢者=현인(DS). イモーヌ=애번느(#38) [gl_enemies]
 Dr.コキノ	오키노 선생	character	DS	DS 대사 '오키노 선생(님)' 22회	기본 '오키노 선생(님)'. DS대로 첫 소개 장면(o_peach_op_04 #1·#48 ↔ DS218 #21·#22)과 병원 이름('닥터 오키노 병원', DS129#27)만 '닥터 오키노'
@@ -197,7 +197,7 @@ SSカンパニー	SS컴퍼니	character	coined	BMsg/b_sys#902	'SS' 두문자 말
 ゲラコビッツサマ	까르코비츠님	character	DS	o_gepu_05_1#2 <-> DS277#10	메타보스의 가타카나 말투 표기. 한국어는 보통 표기로 [gl_characters]
 コキノ先生	오키노 선생님	character	DS	o_town_20#11 ↔ DS0CC#8	room-align
 コッキー	오키오키	character	DS	o_town_33#22 ↔ DS0F2#36	room-align
-スーさん	수림씨	character	coined	FMsg/k_o_ekubon_80#115	큐티가 스ーリム(수림)을 부르는 애칭. DS처럼 '씨'를 이름에 붙여 씀(쿠파씨·러즐씨·차크란씨)
+スーさん	슬림씨	character	coined	2026-10-07 사용자 확정	사용자 지정 SS컴퍼니 표기. 슬림의 애칭. DS 관례대로 씨를 붙여 쓴다.
 スーパーサプリカンパニー	슈퍼 서플리먼트 컴퍼니	character	coined	FMsg/k_o_koopa_14#94	SS = 슈퍼 서플리먼트. 일반 명사 サプリ는 '영양제' [gl_kj]
 ダーリン	달링	character	DS	o_koopa_01#3 <-> DS025#20 ; o_koopa_07#37 <-> DS02B#2	커플(여자 쪽 말버릇). DS는 '달링♥'(♥는 DS가 덧붙임) [gl_characters]
 チッピー	치피	character	DS	i_fire_02#1 ↔ DS039#10	room-align
@@ -1082,7 +1082,7 @@ SPEED	SPEED	term	DS	BData__mfset_MonN#52	DS 설명문은 '스피드'(RankUpE#22)
 チャレンジ	챌린지	term	DS	FEvent#28A.60	챌린지 홀 등 이름은 '챌린지'. 일반 '도전하다' 뜻(もう１度 チャレンジ)은 DS대로 '도전'
 ツノ	뿔	term	DS	DS16A	
 ツボ	급소	term	DS	i_press_01#11 ↔ DS13A#5	room-align
-トゲダメージ	가시 대미지	term	coined	BMsg/b_sys:KJGuide_BB15	[gl_kj]
+トゲダメージ	가시 대미지	term	official	1DX-KR:BMsg.dat:k_sys#223	RPG1 DX 한국판 가이드 제목 KGGuide_BB14; #32·#766 본문에도 같은 표기. 일반 ダメージ=타격과 구분 [gl_kj; review: 2026-10-06 공식 근거 확인]
 トゲ花粉	가시 꽃가루	term	DS	i_power_nose_01#15 ↔ DS155#11	room-align
 ドカン	토관	term	DS	BData__mfset_AItmE#3	진형 이름 [gl_kj]
 ドラゴン	드래곤	term	coined	BMsg/b_sys#547	진형 이름 [gl_kj]
@@ -1227,6 +1227,7 @@ STARTボタン	START 버튼	ui	DS	MAI__MMes_yo#1.28	[gl_menu_places]
 TSUNO	PPUL	ui	DS	DS16A#17	능력치 로마자 표기. 일본어 ツノ(일반 명사)는 '뿔'
 amiibo	amiibo	ui	official	https://www.nintendo.com/kr/switch/aea2a/	한국닌텐도도 영문 'amiibo' 그대로 표기 [gl_kj]
 「ひらく」	「열기」	ui	coined		아래 화면 지도 버튼 [gl_menu_places]
+「ステータス」	「스테이터스」	ui	official	1DX-KR:BMsg.dat:b_sys#346	스타 메뉴 항목 이름(그림 TOP_MENU_TEXT_3도 같음). 2026-10-31 사용자 지시로 1DX 한국판 표기를 따름. 능력치를 두루 이르는 ステータス는 '능력'
 いまそうびしますか？	지금 착용할까요?	ui	DS	MData__mfset_ShopMes#14	[gl_menu_places]
 うでわは ２つそうびできません。	팔찌는 2개를 차지 못합니다.	ui	DS	MData__mfset_ShopMes#48	[gl_menu_places]
 えんきょり隊	원거리대	ui	coined	MenuKJ#73	파티 이름 [gl_kj]
@@ -1316,7 +1317,8 @@ amiibo	amiibo	ui	official	https://www.nintendo.com/kr/switch/aea2a/	한국닌텐
 シルバーランク	실버 보스 랭크	ui	DS	MData__mfset_MenuMes	쿠파 랭크
 スコア	스코어	ui	DS	BDataMiniGame__mfset_MesDat_MiniGame#24	[gl_attacks]
 スターメニュー	스타 메뉴	ui	DS	MAI__MMes_yo#1.0	[gl_menu_places]
-ステータス	능력	ui	DS	DS16A#27	스타 메뉴 항목명도 '능력'
+ステータス	능력	ui	DS	DS16A#27	능력치를 두루 이르는 말. 스타 메뉴 항목 이름과 쿠파주니어 가이드(KJGuide_*)는 「스테이터스」(2026-10-31 사용자 지시, 1DX 한국판)
+ステータスについて	스테이터스에 대해	ui	official	1DX-KR:BMsg.dat:k_sys#604	쿠파주니어 가이드 제목 KJGuide_BB05(1DX KGGuide_BB05와 같음). 2026-10-31 사용자 지시
 スピーディな	재빠른	ui	coined	MenuKJ#88	서브 리더 수식어(레미) [gl_kj]
 スライドパッド	슬라이드 패드	ui	coined		3DS 한국판 관례 표기(공식 출처 미확인) [gl_menu_places]
 スロット	점수 표	ui	DS	FEvent#16A.19	레벨 업 보너스 슬롯(DS '점수 표에서 돌아가는 숫자') [gl_attacks]
@@ -1373,7 +1375,7 @@ amiibo	amiibo	ui	official	https://www.nintendo.com/kr/switch/aea2a/	한국닌텐
 マーカー	마커	ui	coined		어시스트 기능의 표적 표시 [gl_attacks]
 ミニマップ	미니 지도	ui	coined		3DX 신규. 지도(DS)에 맞춤 [gl_menu_places]
 メダル	메달	ui	DS	BData__mfset_WearN#237	DS '챌린지메달' [gl_kj]
-メッセージにふりがな	메시지에 후리가나 표시	ui	coined		확인 필요: 한국어 문장엔 후리가나가 없어 기능이 무의미. 항목명을 그대로 둘지 결정 [gl_menu_places]
+メッセージにふりがな	메시지에 후리가나 표시	ui	coined	2026-10-07 사용자 후리가나 제거 지침	MainMenu.cro hasRuby=0 경로로 설정 행과 선택 버튼을 숨긴다. 미호출 라벨만 리소스 구조 보존을 위해 유지.
 ラッキー！	LUCKY	ui	DS	FEvent#16A.17	공격할 때 뜨는 표시 [gl_attacks]
 リタイア	포기	ui	DS	EMesJig#21	미니게임·챌린지를 중단하는 リタイア
 リーダーコマンド	리더 커맨드	ui	coined	BMsg/b_sys:KJGuide_BB11	[gl_kj]
@@ -1389,6 +1391,7 @@ amiibo	amiibo	ui	official	https://www.nintendo.com/kr/switch/aea2a/	한국닌텐
 回復アイテム	회복 아이템	ui	coined		[gl_menu_places]
 回戦	회전	ui	coined		第１回戦 → 제1회전 [gl_menu_places]
 回数	횟수	ui	coined		기록 화면 [gl_menu_places]
+基本⑤：ステータスについて	기본⑤: 스테이터스에 대해	ui	official	1DX-KR:BMsg.dat:b_sys#66	배틀 가이드 제목(BtlGuide_11), 스타 메뉴 「스테이터스」 안내. 2026-10-31 사용자 지시
 必中の	백발백중	ui	coined	MenuKJ#59	서브 리더 수식어(래리) [gl_kj]
 本体	본체	ui	coined	Menu#131	[gl_kj]
 無線通信	무선 통신	ui	coined	Menu#113	[gl_kj]

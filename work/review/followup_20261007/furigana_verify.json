@@ -1,0 +1,681 @@
+{
+  "predicate": [
+    {
+      "region": 0,
+      "original_has_ruby": 1,
+      "patched_has_ruby": 0
+    },
+    {
+      "region": 1,
+      "original_has_ruby": 0,
+      "patched_has_ruby": 0
+    },
+    {
+      "region": 2,
+      "original_has_ruby": 0,
+      "patched_has_ruby": 0
+    },
+    {
+      "region": 3,
+      "original_has_ruby": 0,
+      "patched_has_ruby": 0
+    },
+    {
+      "region": 4,
+      "original_has_ruby": 0,
+      "patched_has_ruby": 0
+    },
+    {
+      "region": 5,
+      "original_has_ruby": 0,
+      "patched_has_ruby": 0
+    },
+    {
+      "region": 6,
+      "original_has_ruby": 0,
+      "patched_has_ruby": 0
+    },
+    {
+      "region": 255,
+      "original_has_ruby": 0,
+      "patched_has_ruby": 0
+    }
+  ],
+  "cursor": [
+    {
+      "has_ruby": 0,
+      "row": 1,
+      "direction": "up",
+      "after": 3
+    },
+    {
+      "has_ruby": 0,
+      "row": 1,
+      "direction": "down",
+      "after": 2
+    },
+    {
+      "has_ruby": 0,
+      "row": 2,
+      "direction": "up",
+      "after": 1
+    },
+    {
+      "has_ruby": 0,
+      "row": 2,
+      "direction": "down",
+      "after": 3
+    },
+    {
+      "has_ruby": 0,
+      "row": 3,
+      "direction": "up",
+      "after": 2
+    },
+    {
+      "has_ruby": 0,
+      "row": 3,
+      "direction": "down",
+      "after": 1
+    },
+    {
+      "has_ruby": 1,
+      "row": 0,
+      "direction": "up",
+      "after": 3
+    },
+    {
+      "has_ruby": 1,
+      "row": 0,
+      "direction": "down",
+      "after": 1
+    },
+    {
+      "has_ruby": 1,
+      "row": 1,
+      "direction": "up",
+      "after": 0
+    },
+    {
+      "has_ruby": 1,
+      "row": 1,
+      "direction": "down",
+      "after": 2
+    },
+    {
+      "has_ruby": 1,
+      "row": 2,
+      "direction": "up",
+      "after": 1
+    },
+    {
+      "has_ruby": 1,
+      "row": 2,
+      "direction": "down",
+      "after": 3
+    },
+    {
+      "has_ruby": 1,
+      "row": 3,
+      "direction": "up",
+      "after": 2
+    },
+    {
+      "has_ruby": 1,
+      "row": 3,
+      "direction": "down",
+      "after": 0
+    }
+  ],
+  "focus": [
+    {
+      "has_ruby": 0,
+      "column": 0,
+      "row": 1,
+      "button_index": 2,
+      "virtual_0x28_calls": [
+        {
+          "button": 0,
+          "boolean": 1
+        },
+        {
+          "button": 1,
+          "boolean": 1
+        },
+        {
+          "button": 2,
+          "boolean": 1
+        },
+        {
+          "button": 3,
+          "boolean": 1
+        },
+        {
+          "button": 4,
+          "boolean": 1
+        },
+        {
+          "button": 5,
+          "boolean": 1
+        },
+        {
+          "button": 6,
+          "boolean": 1
+        },
+        {
+          "button": 1,
+          "boolean": 0
+        },
+        {
+          "button": 0,
+          "boolean": 0
+        }
+      ]
+    },
+    {
+      "has_ruby": 1,
+      "column": 0,
+      "row": 0,
+      "button_index": 0,
+      "virtual_0x28_calls": [
+        {
+          "button": 0,
+          "boolean": 1
+        },
+        {
+          "button": 1,
+          "boolean": 1
+        },
+        {
+          "button": 2,
+          "boolean": 1
+        },
+        {
+          "button": 3,
+          "boolean": 1
+        },
+        {
+          "button": 4,
+          "boolean": 1
+        },
+        {
+          "button": 5,
+          "boolean": 1
+        },
+        {
+          "button": 6,
+          "boolean": 1
+        }
+      ]
+    }
+  ],
+  "animations": [
+    {
+      "file": "C:\\AI-Projects\\mario-luigi-rpg-3dx-korean-patch\\work\\review\\followup_20261007\\MENU_SET_JP_ja_MENU_SET_L_SET_PNL_hurigana.bflan",
+      "sha256": "17a95b9c1850a2545db8f90dc06b4e439f504c61b310bd28235127736c3390d6",
+      "panes": [
+        {
+          "pane": "PNL_easymode",
+          "tracks": [
+            {
+              "kind": "FLPA",
+              "index": 0,
+              "target": 1,
+              "target_name": "translation_y",
+              "keys": [
+                {
+                  "frame": 0.0,
+                  "value": 5.0,
+                  "slope": 0.0
+                },
+                {
+                  "frame": 1.0,
+                  "value": 5.0,
+                  "slope": 0.0
+                },
+                {
+                  "frame": 1.0,
+                  "value": 25.0,
+                  "slope": 0.0
+                }
+              ],
+              "frame0_first_value": 5.0,
+              "frame1_last_value": 25.0
+            }
+          ]
+        },
+        {
+          "pane": "PANEL_BGo",
+          "tracks": [
+            {
+              "kind": "FLPA",
+              "index": 0,
+              "target": 1,
+              "target_name": "translation_y",
+              "keys": [
+                {
+                  "frame": 0.0,
+                  "value": 0.0,
+                  "slope": 0.0
+                },
+                {
+                  "frame": 1.0,
+                  "value": 0.0,
+                  "slope": 0.0
+                },
+                {
+                  "frame": 1.0,
+                  "value": -8.0,
+                  "slope": 0.0
+                }
+              ],
+              "frame0_first_value": 0.0,
+              "frame1_last_value": -8.0
+            },
+            {
+              "kind": "FLPA",
+              "index": 0,
+              "target": 9,
+              "target_name": "height",
+              "keys": [
+                {
+                  "frame": 0.0,
+                  "value": 208.0,
+                  "slope": 0.0
+                },
+                {
+                  "frame": 1.0,
+                  "value": 208.0,
+                  "slope": 0.0
+                },
+                {
+                  "frame": 1.0,
+                  "value": 152.0,
+                  "slope": 0.0
+                }
+              ],
+              "frame0_first_value": 208.0,
+              "frame1_last_value": 152.0
+            }
+          ]
+        },
+        {
+          "pane": "PANEL_BGi",
+          "tracks": [
+            {
+              "kind": "FLPA",
+              "index": 0,
+              "target": 1,
+              "target_name": "translation_y",
+              "keys": [
+                {
+                  "frame": 0.0,
+                  "value": 0.0,
+                  "slope": 0.0
+                },
+                {
+                  "frame": 1.0,
+                  "value": 0.0,
+                  "slope": 0.0
+                },
+                {
+                  "frame": 1.0,
+                  "value": -8.0,
+                  "slope": 0.0
+                }
+              ],
+              "frame0_first_value": 0.0,
+              "frame1_last_value": -8.0
+            },
+            {
+              "kind": "FLPA",
+              "index": 0,
+              "target": 9,
+              "target_name": "height",
+              "keys": [
+                {
+                  "frame": 0.0,
+                  "value": 206.0,
+                  "slope": 0.0
+                },
+                {
+                  "frame": 1.0,
+                  "value": 206.0,
+                  "slope": 0.0
+                },
+                {
+                  "frame": 1.0,
+                  "value": 150.0,
+                  "slope": 0.0
+                }
+              ],
+              "frame0_first_value": 206.0,
+              "frame1_last_value": 150.0
+            }
+          ]
+        },
+        {
+          "pane": "PANEL_BG_EASYMODE",
+          "tracks": [
+            {
+              "kind": "FLPA",
+              "index": 0,
+              "target": 1,
+              "target_name": "translation_y",
+              "keys": [
+                {
+                  "frame": 0.0,
+                  "value": 15.0,
+                  "slope": 0.0
+                },
+                {
+                  "frame": 1.0,
+                  "value": 15.0,
+                  "slope": 0.0
+                },
+                {
+                  "frame": 1.0,
+                  "value": 35.0,
+                  "slope": 0.0
+                }
+              ],
+              "frame0_first_value": 15.0,
+              "frame1_last_value": 35.0
+            }
+          ]
+        },
+        {
+          "pane": "PANEL_BG_texture",
+          "tracks": [
+            {
+              "kind": "FLPA",
+              "index": 0,
+              "target": 1,
+              "target_name": "translation_y",
+              "keys": [
+                {
+                  "frame": 0.0,
+                  "value": -0.0,
+                  "slope": 0.0
+                },
+                {
+                  "frame": 1.0,
+                  "value": -0.0,
+                  "slope": 0.0
+                },
+                {
+                  "frame": 1.0,
+                  "value": -8.0,
+                  "slope": 0.0
+                }
+              ],
+              "frame0_first_value": -0.0,
+              "frame1_last_value": -8.0
+            },
+            {
+              "kind": "FLPA",
+              "index": 0,
+              "target": 9,
+              "target_name": "height",
+              "keys": [
+                {
+                  "frame": 0.0,
+                  "value": 206.0,
+                  "slope": 0.0
+                },
+                {
+                  "frame": 1.0,
+                  "value": 206.0,
+                  "slope": 0.0
+                },
+                {
+                  "frame": 1.0,
+                  "value": 150.0,
+                  "slope": 0.0
+                }
+              ],
+              "frame0_first_value": 206.0,
+              "frame1_last_value": 150.0
+            }
+          ]
+        },
+        {
+          "pane": "PANEL_BG_ASSIST",
+          "tracks": [
+            {
+              "kind": "FLPA",
+              "index": 0,
+              "target": 1,
+              "target_name": "translation_y",
+              "keys": [
+                {
+                  "frame": 0.0,
+                  "value": -41.0,
+                  "slope": 0.0
+                },
+                {
+                  "frame": 1.0,
+                  "value": -41.0,
+                  "slope": 0.0
+                },
+                {
+                  "frame": 1.0,
+                  "value": -21.0,
+                  "slope": 0.0
+                }
+              ],
+              "frame0_first_value": -41.0,
+              "frame1_last_value": -21.0
+            }
+          ]
+        },
+        {
+          "pane": "PNL_ASSIST",
+          "tracks": [
+            {
+              "kind": "FLPA",
+              "index": 0,
+              "target": 1,
+              "target_name": "translation_y",
+              "keys": [
+                {
+                  "frame": 0.0,
+                  "value": -51.0,
+                  "slope": 0.0
+                },
+                {
+                  "frame": 1.0,
+                  "value": -51.0,
+                  "slope": 0.0
+                },
+                {
+                  "frame": 1.0,
+                  "value": -31.0,
+                  "slope": 0.0
+                }
+              ],
+              "frame0_first_value": -51.0,
+              "frame1_last_value": -31.0
+            }
+          ]
+        },
+        {
+          "pane": "btn_DECISION",
+          "tracks": [
+            {
+              "kind": "FLPA",
+              "index": 0,
+              "target": 1,
+              "target_name": "translation_y",
+              "keys": [
+                {
+                  "frame": 0.0,
+                  "value": -85.0,
+                  "slope": 0.0
+                },
+                {
+                  "frame": 1.0,
+                  "value": -85.0,
+                  "slope": 0.0
+                },
+                {
+                  "frame": 1.0,
+                  "value": -65.0,
+                  "slope": 0.0
+                }
+              ],
+              "frame0_first_value": -85.0,
+              "frame1_last_value": -65.0
+            }
+          ]
+        },
+        {
+          "pane": "PNL_RUBI",
+          "tracks": [
+            {
+              "kind": "FLVI",
+              "index": 0,
+              "target": 0,
+              "target_name": "visibility",
+              "keys": [
+                {
+                  "frame": 0.0,
+                  "value": 1
+                },
+                {
+                  "frame": 1.0,
+                  "value": 0
+                }
+              ],
+              "frame0_first_value": 1,
+              "frame1_last_value": 0
+            }
+          ]
+        },
+        {
+          "pane": "PANEL_BG_RUBI",
+          "tracks": [
+            {
+              "kind": "FLVI",
+              "index": 0,
+              "target": 0,
+              "target_name": "visibility",
+              "keys": [
+                {
+                  "frame": 0.0,
+                  "value": 1
+                },
+                {
+                  "frame": 1.0,
+                  "value": 0
+                }
+              ],
+              "frame0_first_value": 1,
+              "frame1_last_value": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "C:\\AI-Projects\\mario-luigi-rpg-3dx-korean-patch\\work\\review\\followup_20261007\\1DX_MLYT_SET_KR_ko_MENU_SET_L_SET_PNL_hurigana.bflan",
+      "sha256": "efcb1364516cf2119c059ddaf2bfca003b3c8d7fcf6ad4dbf6fded5591f70178",
+      "panes": [
+        {
+          "pane": "BTN_ON_OFF",
+          "tracks": [
+            {
+              "kind": "FLPA",
+              "index": 0,
+              "target": 1,
+              "target_name": "translation_y",
+              "keys": [
+                {
+                  "frame": 0.0,
+                  "value": -38.0,
+                  "slope": 0.0
+                },
+                {
+                  "frame": 1.0,
+                  "value": -38.0,
+                  "slope": 0.0
+                },
+                {
+                  "frame": 1.0,
+                  "value": 2.0,
+                  "slope": 0.0
+                }
+              ],
+              "frame0_first_value": -38.0,
+              "frame1_last_value": 2.0
+            }
+          ]
+        },
+        {
+          "pane": "TEXT_easymode",
+          "tracks": [
+            {
+              "kind": "FLPA",
+              "index": 0,
+              "target": 1,
+              "target_name": "translation_y",
+              "keys": [
+                {
+                  "frame": 0.0,
+                  "value": 0.0,
+                  "slope": 0.0
+                },
+                {
+                  "frame": 1.0,
+                  "value": 0.0,
+                  "slope": 0.0
+                },
+                {
+                  "frame": 1.0,
+                  "value": 82.0,
+                  "slope": 0.0
+                }
+              ],
+              "frame0_first_value": 0.0,
+              "frame1_last_value": 82.0
+            }
+          ]
+        },
+        {
+          "pane": "PNL_hurigana",
+          "tracks": [
+            {
+              "kind": "FLVI",
+              "index": 0,
+              "target": 0,
+              "target_name": "visibility",
+              "keys": [
+                {
+                  "frame": 0.0,
+                  "value": 1
+                },
+                {
+                  "frame": 1.0,
+                  "value": 0
+                }
+              ],
+              "frame0_first_value": 1,
+              "frame1_last_value": 0
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "relevant_imports": {
+    "0x274": "_ZN2ad3lyt7LytAnim4initEPNS0_6LayoutEPKcS5_",
+    "0x28c": "_ZN2ad3lyt7LytAnim13stopAndSetFrmEf",
+    "0x294": "_ZN2ad3lyt7LytAnim4termEb",
+    "0xb54": "_ZN2ad9GetRegionEv"
+  },
+  "arm_emulation_only": true,
+  "no_game_execution": true,
+  "stage_hash_checks": true,
+  "layout_files_changed": 0,
+  "translation_files_changed": 0
+}

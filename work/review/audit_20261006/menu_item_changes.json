@@ -1,0 +1,274 @@
+[
+  {
+    "batch": "Menu__p3",
+    "id": "Menu#333",
+    "before": "액션 아이콘을 「{1:color}해머{2:color}」로 바꾸고\n{3:color}{4:icon}{5:color} 버튼으로 해머를 휘두를 수 있어요.",
+    "after": "액션 아이콘을 「{1:color}해머{2:color}」로 전환하고\n{3:color}{4:icon}{5:color} 버튼으로 해머를 휘두를 수 있어요.",
+    "reason": "액션 아이콘 切り替える/きりかえる는 DS 공통 조작 용어 전환으로 통일. 히라가나 표기 때문에 앞선 용어 점검에서 빠진 곳을 수정.",
+    "duplicates": 0
+  },
+  {
+    "batch": "Menu__p2",
+    "id": "Menu#232",
+    "before": "앞으로는 쇼핑하실 때마다\n슈퍼 보너스 카드를\n선물해 드리겠습니다!{1:wait}[Next]{2:align}지금까지보다 당첨 확률이\n높아질 겁니다!{3:wait}",
+    "after": "앞으로는 구입하실 때마다\n슈퍼 보너스 카드를\n선물해 드리겠습니다!{1:wait}[Next]{2:align}지금까지보다 당첨 확률이\n높아질 겁니다!{3:wait}",
+    "reason": "DS SAI__SMes_yo 표0#110와 같은 상점 보너스 안내의 공통 문장 복원. 쇼핑 단독 명칭을 맞추느라 재번역한 서술문을 DS대로 쓰며, 3DX에서 바뀐 카드 명칭은 유지.",
+    "duplicates": 0
+  },
+  {
+    "batch": "Menu__p2",
+    "id": "Menu#245",
+    "before": "앞으로는 쇼핑하실 때마다\n울트라 보너스 카드를\n선물해 드리겠습니다!{1:wait}[Next]{2:align}지금까지보다 당첨 확률이\n높아질 겁니다!{3:wait}",
+    "after": "앞으로는 구입하실 때마다\n울트라 보너스 카드를\n선물해 드리겠습니다!{1:wait}[Next]{2:align}지금까지보다 당첨 확률이\n높아질 겁니다!{3:wait}",
+    "reason": "DS SAI__SMes_yo 표0#112와 같은 상점 보너스 안내의 공통 문장 복원. 쇼핑 단독 명칭을 맞추느라 재번역한 서술문을 DS대로 쓰며, 3DX에서 바뀐 카드 명칭은 유지.",
+    "duplicates": 0
+  },
+  {
+    "batch": "Menu__p5",
+    "id": "Menu#649",
+    "before": "역시 손님들은\n잘 알고 계시군요!{1:wait}[Next]그럼 즐거운 쇼핑\n되시길 바랍니다~{2:wait}",
+    "after": "역시 손님들은\n잘 알고 계시군요!{1:wait}[Next]그럼 천천히\n둘러보세요~{2:wait}",
+    "reason": "DS SAI__SMes_yo 표0#90와 같은 상점 설명 마무리 대사를 그대로 복원. 기존 note의 お買い物=쇼핑 경고 회피보다 DS 공통 문장 그대로 쓰기 원칙을 적용.",
+    "duplicates": 0
+  },
+  {
+    "batch": "Menu__p5",
+    "id": "Menu#731",
+    "before": "{1:color}C스틱{2:color}으로도\n주변 지도를 볼 수 있어요.\n(New 닌텐도 3DS 전용)",
+    "after": "{1:color}C스틱{2:color}으로도\n주변 지도를 볼 수 있어요.\n※New 닌텐도 3DS 전용",
+    "reason": "원문 주석 기호 ※ 복원. 기존 note의 폰트 미지원 사유는 2026-09-30 기호 글리프 반영 이후 해소됨.",
+    "duplicates": 0
+  },
+  {
+    "batch": "Menu__p2",
+    "id": "Menu#322",
+    "before": "어머나! 손님!\nSUYEOM이 멋지네요!{1:wait}",
+    "after": "어머나! 손님!\nSUYEOM 멋진 것 좀 봐!{1:wait}",
+    "reason": "DS SAI__SMes_yo 표0#37와 같은 부티크 상점 첫 보너스 안내의 공통 대사를 띄어쓰기·문장부호까지 복원.",
+    "duplicates": 0
+  },
+  {
+    "batch": "Menu__p3",
+    "id": "Menu#343",
+    "before": "어머나! 손님!\nSUYEOM이 더욱\n멋져지셨네요!{1:wait}",
+    "after": "어머나! 손님!\nSUYEOM이 더 멋져진 것\n같은데 맞죠?{1:wait}",
+    "reason": "DS SAI__SMes_yo 표0#45와 같은 부티크 상점 보너스 업그레이드의 공통 대사를 그대로 복원.",
+    "duplicates": 0
+  },
+  {
+    "batch": "Menu__p5",
+    "id": "Menu#801",
+    "before": "어라? 마리오님, 루이지님.\nSUYEOM이 훨씬 더\n멋져지셨네요!{1:wait}",
+    "after": "우와! 마리오님! 루이지님!\nSUYEOM이 훨씬 더\n멋져지셨네요!{1:wait}",
+    "reason": "DS SAI__SMes_yo 표0#44와 같은 상점 보너스 업그레이드의 공통 대사를 감탄사·문장부호까지 복원.",
+    "duplicates": 0
+  },
+  {
+    "batch": "Menu__p3",
+    "id": "Menu#458",
+    "before": "왈 왈…\n(당첨 되면…){1:wait}",
+    "after": "왈 왈…\n(당첨되면…){1:wait}",
+    "reason": "DS 오기 수정: SAI__SMes_yo 표0#130의 당첨 되면을 합성 동사 당첨되다에 맞춰 붙여 씀.",
+    "duplicates": 0
+  },
+  {
+    "batch": "HugeBattle__p1",
+    "id": "HugeBattle#21",
+    "before": "뜨겁게{1:pause} 되면{2:pause}\n버릴 것!{3:pause}{4:color}{5:wait}{6:color}",
+    "after": "뜨거워{1:pause}지면{2:pause}\n버리자!{3:pause}{4:color}{5:wait}{6:color}",
+    "reason": "배치 참조에 누락된 DS BAI__BMes_yo 표2#14의 같은 장면·같은 뜻 한국어를 복원. 3DX 자리표시자·페이지 수 유지.",
+    "duplicates": 0
+  },
+  {
+    "batch": "HugeBattle__p1",
+    "id": "HugeBattle#26",
+    "before": "제법 하는군{1:pause}\n하지만{2:pause} 이 공격은{3:pause}\n피할 수 없다…{4:pause}",
+    "after": "싸울 줄 아는걸?{1:pause}\n하지만{2:pause} 이 공격은{3:pause}\n피할 수 없을 거다…{4:pause}",
+    "reason": "배치 참조에 누락된 DS BAI__BMes_yo 표2#20의 같은 장면·같은 뜻 한국어를 복원. 3DX 자리표시자·페이지 수 유지.",
+    "duplicates": 0
+  },
+  {
+    "batch": "HugeBattle__p1",
+    "id": "HugeBattle#29",
+    "before": "또 그걸\n꺼낼 셈이냐!?",
+    "after": "또 그것을\n쏠 작정이냐!?",
+    "reason": "배치 참조에 누락된 DS BAI__BMes_yo 표2#6의 같은 장면·같은 뜻 한국어를 복원. 3DX 자리표시자·페이지 수 유지.",
+    "duplicates": 0
+  },
+  {
+    "batch": "HugeBattle__p1",
+    "id": "HugeBattle#33",
+    "before": "흥!{1:pause} 저런 것쯤이야\n이 몸의 화염으로\n쏘아 떨어뜨려 주마!",
+    "after": "흥!{1:pause} 저따위 건\n이 몸이 화염으로\n떨어뜨려 주겠다!",
+    "reason": "배치 참조에 누락된 DS BAI__BMes_yo 표2#7의 같은 장면·같은 뜻 한국어를 복원. 3DX 자리표시자·페이지 수 유지.",
+    "duplicates": 0
+  },
+  {
+    "batch": "HugeBattle__p1",
+    "id": "HugeBattle#37",
+    "before": "크핫핫핫!{1:pause} 보았느냐!{2:pause}\n이 몸의 힘을!",
+    "after": "크핫핫핫!{1:pause} 봤느냐?{2:pause}\n이 몸의 힘을!",
+    "reason": "배치 참조에 누락된 DS BAI__BMes_yo 표2#8의 같은 장면·같은 뜻 한국어를 복원. 3DX 자리표시자·페이지 수 유지.",
+    "duplicates": 0
+  },
+  {
+    "batch": "HugeBattle__p1",
+    "id": "HugeBattle#41",
+    "before": "세이프티 시스템{1:pause}\n프로그램{2:pause} 작동!{3:pause}{4:color}{5:wait}{6:color}",
+    "after": "방어 시스템{1:pause}\n프로그램{2:pause} 가동!{3:pause}{4:color}{5:wait}{6:color}",
+    "reason": "배치 참조에 누락된 DS BAI__BMes_yo 표2#18의 같은 장면·같은 뜻 한국어를 복원. 3DX 자리표시자·페이지 수 유지.",
+    "duplicates": 0
+  },
+  {
+    "batch": "HugeBattle__p1",
+    "id": "HugeBattle#44",
+    "before": "이것으로{1:pause} 정면에서\n오는{2:pause} 공격은{3:pause}\n완벽하게{4:pause} 방어한다!{5:pause}{6:color}{7:wait}{8:color}",
+    "after": "이제{1:pause} 정면에서\n오는{2:pause} 공격은{3:pause}\n완전히{4:pause} 막는다!{5:pause}{6:color}{7:wait}{8:color}",
+    "reason": "배치 참조에 누락된 DS BAI__BMes_yo 표2#19의 같은 장면·같은 뜻 한국어를 복원. 3DX 자리표시자·페이지 수 유지.",
+    "duplicates": 0
+  },
+  {
+    "batch": "HugeBattle__p1",
+    "id": "HugeBattle#96",
+    "before": "무슨 짓을 할 셈이냐?",
+    "after": "무슨 속셈이냐?",
+    "reason": "배치 참조에 누락된 DS BAI__BMes_yo 표2#0의 같은 장면·같은 뜻 한국어를 복원. 3DX 자리표시자·페이지 수 유지.",
+    "duplicates": 0
+  },
+  {
+    "batch": "HugeBattle__p1",
+    "id": "HugeBattle#97",
+    "before": "뭐냐? 불꽃놀이냐?\n속 편한 녀석이군…",
+    "after": "뭐냐? 불꽃이냐?\n어수룩한 녀석이군…",
+    "reason": "배치 참조에 누락된 DS BAI__BMes_yo 표2#1의 같은 장면·같은 뜻 한국어를 복원. 3DX 자리표시자·페이지 수 유지.",
+    "duplicates": 0
+  },
+  {
+    "batch": "HugeBattle__p1",
+    "id": "HugeBattle#100",
+    "before": "응?{1:pause} 아무 일도 없군.\n실패한 거냐?",
+    "after": "응?{1:pause} 터지질 않는데?\n불발탄인가?",
+    "reason": "배치 참조에 누락된 DS BAI__BMes_yo 표2#2의 같은 장면·같은 뜻 한국어를 복원. 3DX 자리표시자·페이지 수 유지.",
+    "duplicates": 0
+  },
+  {
+    "batch": "HugeBattle__p1",
+    "id": "HugeBattle#103",
+    "before": "별난 불꽃놀이로군…{1:pause}\n뭐, 됐다.{2:pause} 불꽃놀이는\n내버려 두고…",
+    "after": "특이한 불꽃이군…{1:pause}\n상관없다!{2:pause}\n불꽃은 신경 끄고…",
+    "reason": "배치 참조에 누락된 DS BAI__BMes_yo 표2#3의 같은 장면·같은 뜻 한국어를 복원. 3DX 자리표시자·페이지 수 유지.",
+    "duplicates": 0
+  },
+  {
+    "batch": "HugeBattle__p1",
+    "id": "HugeBattle#107",
+    "before": "이 녀석을\n어떻게든 해야겠군!",
+    "after": "이 녀석부터\n해치워야겠군!",
+    "reason": "배치 참조에 누락된 DS BAI__BMes_yo 표2#4의 같은 장면·같은 뜻 한국어를 복원. 3DX 자리표시자·페이지 수 유지.",
+    "duplicates": 0
+  },
+  {
+    "batch": "HugeBattle__p1",
+    "id": "HugeBattle#109",
+    "before": "크아―!{1:pause} 이 몸을\n빨아들일 셈이냐!{2:color}{3:wait}{4:color}",
+    "after": "허억―!{1:pause} 이 몸을\n빨아들일 작정이냐?{2:color}{3:wait}{4:color}",
+    "reason": "배치 참조에 누락된 DS BAI__BMes_yo 표2#5의 같은 장면·같은 뜻 한국어를 복원. 3DX 자리표시자·페이지 수 유지.",
+    "duplicates": 0
+  },
+  {
+    "batch": "HugeBattle__p1",
+    "id": "HugeBattle#111",
+    "before": "그렇게는 안 되지!{1:color}{2:wait}{3:color}",
+    "after": "당할 것 같으냐!?{1:color}{2:wait}{3:color}",
+    "reason": "배치 참조에 누락된 DS BAI__BMes_yo 표2#9의 같은 장면·같은 뜻 한국어를 복원. 3DX 자리표시자·페이지 수 유지.",
+    "duplicates": 0
+  },
+  {
+    "batch": "HugeBattle__p1",
+    "id": "HugeBattle#114",
+    "before": "뜨겁다!{1:pause} 뜨겁다!{2:pause}\n불이야!{3:pause} 불이야!{4:pause}{5:color}{6:wait}{7:color}",
+    "after": "뜨거워!{1:pause} 뜨거워!{2:pause}\n불이야!{3:pause} 불이야!{4:pause}{5:color}{6:wait}{7:color}",
+    "reason": "배치 참조에 누락된 DS BAI__BMes_yo 표2#12의 같은 장면·같은 뜻 한국어를 복원. 3DX 자리표시자·페이지 수 유지.",
+    "duplicates": 0
+  },
+  {
+    "batch": "HugeBattle__p2",
+    "id": "HugeBattle#116",
+    "before": "타기 쉬운{1:pause} 물건은{2:pause}\n버릴 것!{3:pause}{4:color}{5:wait}{6:color}",
+    "after": "타 버릴 만한{1:pause} 물건은{2:pause}\n버려야겠다!{3:pause}{4:color}{5:wait}{6:color}",
+    "reason": "배치 참조에 누락된 DS BAI__BMes_yo 표2#13의 같은 장면·같은 뜻 한국어를 복원. 3DX 자리표시자·페이지 수 유지.",
+    "duplicates": 0
+  },
+  {
+    "batch": "HugeBattle__p2",
+    "id": "HugeBattle#122",
+    "before": "세이프티 시스템{1:pause}\n프로그램{2:pause} 에러!{3:pause}\n방어벽{4:pause} 소멸!{5:pause}{6:color}{7:wait}{8:color}",
+    "after": "방어 시스템{1:pause}\n프로그램{2:pause} 에러!{3:pause}\n방어{4:pause} 소멸!{5:pause}{6:color}{7:wait}{8:color}",
+    "reason": "배치 참조에 누락된 DS BAI__BMes_yo 표2#17의 같은 장면·같은 뜻 한국어를 복원. 3DX 자리표시자·페이지 수 유지. 피치로봇의 이 문맥은 DS에서 방어 소멸이며 용어집 전투 ガード=방어와도 일치하므로 기존 방어벽을 복원.",
+    "duplicates": 0
+  },
+  {
+    "batch": "HugeBattle__p2",
+    "id": "HugeBattle#124",
+    "before": "부끄부끄 시스템{1:pause} 작동!{2:pause}\n도중에{3:pause} 모습이{4:pause}\n안 보이게{5:pause} 되면…{6:pause}{7:color}{8:wait}{9:color}",
+    "after": "부끄부끄 시스템{1:pause} 가동!{2:pause}\n중간에{3:pause} 모습이{4:pause}\n보이지 않게{5:pause} 된다면…{6:pause}{7:color}{8:wait}{9:color}",
+    "reason": "배치 참조에 누락된 DS BAI__BMes_yo 표2#22의 같은 장면·같은 뜻 한국어를 복원. 3DX 자리표시자·페이지 수 유지.",
+    "duplicates": 0
+  },
+  {
+    "batch": "HugeBattle__p2",
+    "id": "HugeBattle#125",
+    "before": "반격할{1:pause} 타이밍도{2:pause}\n알 수 없게 될{3:pause} 것이다!{4:pause}{5:color}{6:wait}{7:color}",
+    "after": "반격의{1:pause} 타이밍도{2:pause}\n알 수 없게{3:pause} 되겠지!{4:pause}{5:color}{6:wait}{7:color}",
+    "reason": "배치 참조에 누락된 DS BAI__BMes_yo 표2#23의 같은 장면·같은 뜻 한국어를 복원. 3DX 자리표시자·페이지 수 유지.",
+    "duplicates": 0
+  },
+  {
+    "batch": "HugeBattle__p2",
+    "id": "HugeBattle#127",
+    "before": "제법 하는군{1:pause}\n하지만{2:pause} 이것을{3:pause}\n견딜 수 있을까?{4:pause}",
+    "after": "생각보단 세군.{1:pause}\n하지만{2:pause} 이걸{3:pause}\n견뎌 낼 수 있을까?{4:pause}",
+    "reason": "배치 참조에 누락된 DS BAI__BMes_yo 표2#24의 같은 장면·같은 뜻 한국어를 복원. 3DX 자리표시자·페이지 수 유지.",
+    "duplicates": 0
+  },
+  {
+    "batch": "HugeBattle__p2",
+    "id": "HugeBattle#134",
+    "before": "블랙홀로{1:pause} 가는{2:pause}\n데스매치다!{3:pause}",
+    "after": "블랙홀로{1:pause} 빠지는{2:pause}\n데스 매치다!{3:pause}",
+    "reason": "배치 참조에 누락된 DS BAI__BMes_yo 표2#26의 같은 장면·같은 뜻 한국어를 복원. 3DX 자리표시자·페이지 수 유지.",
+    "duplicates": 0
+  },
+  {
+    "batch": "HugeBattle__p2",
+    "id": "HugeBattle#135",
+    "before": "네놈의{1:pause} 강함은{2:pause}\n잘 알았다!{3:pause}{4:color}{5:wait}{6:color}[Next]하지만{7:pause} 네놈도{8:pause}\n이것으로 끝이다!{9:pause}{10:color}{11:wait}{12:color}",
+    "after": "네가{1:pause} 강하다는 건{2:pause}\n인정하겠다!{3:pause}{4:color}{5:wait}{6:color}[Next]하지만{7:pause} 너도{8:pause}\n이걸로 끝이다!{9:pause}{10:color}{11:wait}{12:color}",
+    "reason": "배치 참조에 누락된 DS BAI__BMes_yo 표2#27~28의 같은 장면·같은 뜻 한국어를 복원. 3DX 자리표시자·페이지 수 유지.",
+    "duplicates": 0
+  },
+  {
+    "batch": "HugeBattle__p1",
+    "id": "HugeBattle#1",
+    "before": "이 녀석이 싸우는 동안에\n얼른 수리하는 거야!{1:wait}",
+    "after": "이 녀석이 싸우는 동안에\n수리하는 거야!{1:wait}",
+    "reason": "DS BAI__BMes_ji 표3#7의 같은 장면·같은 뜻 대사를 그대로 복원.",
+    "duplicates": 0
+  },
+  {
+    "batch": "HugeBattle__p1",
+    "id": "HugeBattle#25",
+    "before": "방금의{1:pause} 공격{2:pause}\n꽤{3:pause} 효과적이었다!{4:pause}{5:color}{6:wait}[Next]{7:color}블랙홀을{8:pause}\n이용해{9:pause} 몸통 박치기를{10:pause}\n하다니…{11:pause}{12:color}{13:wait}{14:color}",
+    "after": "방금{1:pause} 공격은{2:pause}\n제법{3:pause} 위협적이군!{4:pause}{5:color}{6:wait}[Next]{7:color}블랙홀을{8:pause}\n사용해서{9:pause} 몸으로{10:pause}\n공격해 올 줄이야…{11:pause}{12:color}{13:wait}{14:color}",
+    "reason": "배치 참조에 누락된 DS BAI__BMes_yo 표2#15~16의 공통 대사를 두 페이지 모두 복원. 단독 タイアタリ/体当たり의 확정 glossary 행은 없으며 行列体当たり·超体当たり는 별도 기술명이다. 이 문장의 타격 방식은 DS의 몸으로 공격해 올 줄이야와 같은 뜻이므로 DS 공통 문장 그대로 쓰기 원칙 적용.",
+    "duplicates": 0
+  },
+  {
+    "batch": "HugeBattle__p1",
+    "id": "HugeBattle#101",
+    "before": "{1:mode}{2:color}파이어 버튼{3:color}을\n{4:color}터치{5:color}해 주세요!",
+    "after": "{1:mode}{2:color}파이어 버튼{3:color}을\n{4:color}터치{5:color}해 주세요.",
+    "reason": "DS BAI__BMes_ji 표2#30와 같은 파이어 버튼 터치 안내의 문장부호를 DS대로 복원.",
+    "duplicates": 0
+  }
+]

@@ -1,0 +1,232 @@
+batch	id	before	after	note
+BMsg__b_sys__p5	BMsg/b_sys#452	역시 마리오님이십니다!{1:wait}	역시 마리오님!{1:wait}	review: 2026-10-06 DS 동일 의미 복원. さすがですぞ マリオどの는 DS BAI__BMes_cf#9.9의 '역시 마리오님!' 그대로. 3DX 원문에 없는 뒤의 '실례했습니다!'는 가져오지 않음.
+BMsg__b_sys__p7	BMsg/b_sys#746	"{1:color}{2:align}{3:color}{4:color}스페셜 어택{5:color}{6:color}에 대해 설명해 줄까?{7:pause}
+{8:align}{9:choice}아니요{10:tab}{11:choice}예{12:color}{13:pause}"	"{1:color}{2:align}{3:color}{4:color}스페셜 어택{5:color}{6:color}의 사용 방법을 설명해 줄까?{7:pause}
+{8:align}{9:choice}아니요{10:tab}{11:choice}예{12:color}{13:pause}"	review: 2026-10-06 DS 동일 의미 복원. ブラザーアタックの説明 する？는 DS BAI__BMes_cf#4.1의 '스페셜 어택의 사용 방법을 설명해 줄까?' 그대로. 태그 및 아니요/예 선택지 순서는 3DX를 유지.
+BMsg__b_sys__p8	BMsg/b_sys#869	"{1:align}그럼 우리 블도그의
+움직임을 자~알 루킹!{2:wait}"	"{1:align}그럼 우리 블도그의 움직임을
+자~알 관찰해 주십시오!{2:wait}"	review: 2026-10-06 DS 동일 의미 복원. ブロドッグちゃんの動きをよ～くルッキンッ는 DS BAI__BMes_cf#8.3의 '그럼 우리 블도그의 움직임을 자~알 관찰해 주십시오!' 그대로 쓰고 줄바꿈만 3DX 2줄에 맞춤. 신사의 영어 혼용도 같은 뜻의 DS 대사가 있으면 DS 표기를 우선.
+FMsg__i_energy_01__and11	FMsg/i_energy_11#0	"{1:align}♪부끄럼쟁이 부끄부끄씨
+♪밝은 빛에 멈춰 버리네~{2:wait}[Next]{3:align}♪부끄럼쟁이 부끄부끄씨
+♪밝은 빛에 굳어 버리네~{4:wait}[Next]작사 헬로글로빈
+작곡 헬로글로빈{5:wait}[Next]제목
+「부끄부끄해도 될까요?」{6:wait}"	"{1:align}♪부끄럼쟁이 부끄부끄씨
+♪밝은 빛에 멈춰 버리네~{2:wait}[Next]{3:align}♪부끄럼쟁이 부끄부끄씨
+♪밝은 빛에 굳어 버리네~{4:wait}[Next]작사 헬로글로빈
+작곡 헬로글로빈{5:wait}[Next]제목
+부끄부끄해도 될까요?{6:wait}"	review: 2026-10-06 DS0BD#0의 노래 제목 따옴표 없음 복원. 뜻이 같은 DS 번역의 문장부호 보존(AGENTS 0·4.6); 페이지 수와 태그 유지. | 기존 메모: タイトル은 UI 용어(글로서리 '타이틀')가 아니라 노래 제목이라 DS0BD#0대로 '제목'을 씀 → 글로서리 경고는 의도됨
+FMsg__i_metaboru_19	FMsg/i_metaboru_19#6	"앗! 혹시 지금…{1:wait}[Next]{2:color}굉장한 보물{3:color}{4:color}을 선택하고 싶은
+충동에 사로잡히지 않았느냐?{5:wait}{6:color}"	"앗! 혹시 지금{1:wait}[Next]{2:color}굉장한 보물{3:color}{4:color}을 선택하고 싶은
+충동에 사로잡히지 않았느냐?{5:wait}{6:color}"	review: 2026-10-06 DS0B8#6의 동일 문구에 없던 말줄임표 제거. 3DX 페이지 분할·태그는 유지하면서 DS 문장부호 보존. | 기존 메모: 3DX 2페이지 나눔에 맞춰 DS0B8#6을 나눔.
+FMsg__o_ekubon_02__and7	FMsg/o_ekubon_02#0	"{1:align}{2:align}{3:mode}↑숲 출구&초원 입구
+{4:align}↓이아파 비치{5:wait}"	"{1:align}{2:align}{3:mode}↑ 숲 출구&초원 입구
+{4:align}↓ 이아파 비치{5:wait}"	review: 2026-10-06 DS046#0의 같은 뜻 대사 띄어쓰기 복원. 화살표 뒤/말줄임표 뒤 공백과 어절을 DS대로 유지하고 3DX pause·서식·페이지 태그는 그대로 둠. AGENTS 0·4.6의 DS 보존 원칙이 일반 스타일 권고보다 우선. | 이전 검토 메모(띄어쓰기 판정은 이번 검토로 대체): DS046#0 그대로(草原へ = '초원 입구'). 이 방의 DS 표지판(DS046·047·178)은 화살표 뒤를 띄어 써서 그대로 둠.
+FMsg__o_ekubon_02__and7	FMsg/o_ekubon_04_1#1	{1:mode}↑숲 출구{2:wait}	{1:mode}↑ 숲 출구{2:wait}	review: 2026-10-06 DS047#0의 같은 뜻 대사 띄어쓰기 복원. 화살표 뒤/말줄임표 뒤 공백과 어절을 DS대로 유지하고 3DX pause·서식·페이지 태그는 그대로 둠. AGENTS 0·4.6의 DS 보존 원칙이 일반 스타일 권고보다 우선.
+FMsg__o_ekubon_02__and7	FMsg/o_ekubon_04_2#0	{1:mode}→숲 출구{2:wait}	{1:mode}→ 숲 출구{2:wait}	review: 2026-10-06 DS178#0의 같은 뜻 대사 띄어쓰기 복원. 화살표 뒤/말줄임표 뒤 공백과 어절을 DS대로 유지하고 3DX pause·서식·페이지 태그는 그대로 둠. AGENTS 0·4.6의 DS 보존 원칙이 일반 스타일 권고보다 우선.
+FMsg__o_ekubon_02__and7	FMsg/o_ekubon_06#0	"{1:align}{2:align}{3:mode}요즘 버섯 왕국에서 선풍적 인기!
+{4:color}발사 다이어트{5:color}{6:color}!{7:wait}[Next]{8:align}{9:align}{10:mode}방법은 초간단!{11:pause}
+{12:color}{13:color}발사대에 올라서면{14:color}{15:color} 끝!{16:wait}[Next]{17:align}{18:align}{19:mode}아차차! 그 전에
+발사대 {20:color}{21:color}준비{22:color}{23:color}가 필요하다!{24:wait}[Next]{25:align}{26:align}{27:mode}준비 방법은…
+이미 알고 있겠지?{28:wait}[Next]{29:align}{30:align}{31:mode}준비된 발사대에 올라서면
+퍼엉! 하고 {32:color}{33:color}폭발{34:color}{35:color}!
+피융! 하고 발사!{36:wait}[Next]{37:align}{38:align}{39:mode}엄청난 공기의 압력으로
+군살 속 지방을 태워 준다!!
+즐겁게 시작하는 {40:color}{41:color}발사 다이어트{42:color}{43:color}!!{44:wait}{45:color}"	"{1:align}{2:align}{3:mode}요즘 버섯 왕국에서 선풍적 인기!
+{4:color}발사 다이어트{5:color}{6:color}!{7:wait}[Next]{8:align}{9:align}{10:mode}방법은 초간단!{11:pause}
+{12:color}{13:color}발사대에 올라서면{14:color}{15:color} 끝!{16:wait}[Next]{17:align}{18:align}{19:mode}아차차! 그 전에
+발사대 {20:color}{21:color}준비{22:color}{23:color}가 필요하다!{24:wait}[Next]{25:align}{26:align}{27:mode}준비 방법은…
+이미 알고 있겠지?{28:wait}[Next]{29:align}{30:align}{31:mode}준비된 발사대에 올라서면
+퍼엉! 하고 {32:color}{33:color}폭발{34:color}{35:color}!
+피융! 하고 발사!{36:wait}[Next]{37:align}{38:align}{39:mode}엄청난 공기의 압력으로
+군살 속 지방을 태워 준다!!
+즐겁게 시작하는 {40:color}{41:color}발사 다이어트{42:color}{43:color}!{44:wait}{45:color}"	review: 2026-10-06 DS053#0과 뜻이 같은 마지막 문장의 느낌표를 DS대로 한 개로 복원.
+FMsg__o_ekubon_02__and7	FMsg/o_ekubon_07_1#0	"롱롱롱롱!!{1:pause} 쿠파 성이
+내 차지가 되는 건
+시간문제지롱롱롱!!{2:wait}[Next]{3:align}네가 와도
+네 편은 하나도 없지롱롱!{4:wait}[Next]{5:align}하긴, 쿠파 성까지
+올 수나 있으려나 모르겠지롱…{6:wait}"	"롱롱롱롱!!{1:pause} 쿠파 성이
+내 차지가 되는 건
+시간문제지롱롱롱!{2:wait}[Next]{3:align}네가 와도
+네 편은 하나도 없지롱롱!{4:wait}[Next]{5:align}하긴, 쿠파 성까지
+올 수나 있으려나 모르겠지롱…{6:wait}"	review: 2026-10-06 DS048#37과 뜻이 같은 문장의 느낌표를 DS대로 한 개로 복원. 뜸 태그 유지. | 기존 메모: 롱 개수는 같은 장면 DS048#37·38대로(#0 '롱롱롱롱', #1 '롱롱롱롱롱롱롱').
+FMsg__o_ekubon_02__and7	FMsg/o_ekubon_07_1#7	"뭐라고!{1:pause}
+무슨 꼴이냐!!{2:wait}[Next]적이 쳐들어오면
+가장 먼저 달려들어야지!{3:wait}[Next]그게 너희 굼바 군단의
+사명 아니었느냐!!{4:wait}"	"뭐라고?{1:pause}
+무슨 꼴이냐!!{2:wait}[Next]적이 쳐들어오면
+가장 먼저 달려들어야지!{3:wait}[Next]그게 너희 굼바 군단의
+사명 아니었느냐!!{4:wait}"	review: 2026-10-06 DS048#13의 동일 발화 문장부호 복원. 뜸 태그 유지.
+FMsg__o_ekubon_02__and7	FMsg/o_ekubon_07_1#12	"너희들은 기강이 해이해졌다!{1:pause}
+그러니까 마리오에게 매번 지지!!{2:wait}"	"너희들은 기강이 해이해졌다!{1:pause}
+그러니까 마리오에게 매번 지지!{2:wait}"	review: 2026-10-06 DS048#18과 뜻이 같은 문장의 느낌표를 DS대로 한 개로 복원.
+FMsg__o_ekubon_02__and7	FMsg/o_ekubon_07_1#30	"{1:align}이 몸의 성이 비상사태다!{2:wait}[Next]지금 그런 곳에서 한가하게
+놀고 있을 땐 줄 아느냐!?{3:wait}"	"{1:align}이 몸의 성이 비상사태다!{2:wait}[Next]지금 그런 곳에서 한가하게
+놀고 있을 땐 줄 아느냐?{3:wait}"	review: 2026-10-06 DS048#7의 동일 질문 문장부호 복원.
+FMsg__o_gepu_08__and1	FMsg/o_gepu_11#0	"{1:align}{2:align}{3:mode}↑고라파 레이크
+{4:align}→이아파 비치{5:wait}"	"{1:align}{2:align}{3:mode}↑ 고라파 레이크
+{4:align}→ 이아파 비치{5:wait}"	review: 2026-10-06 DS20C#0의 같은 뜻 대사 띄어쓰기 복원. 화살표 뒤/말줄임표 뒤 공백과 어절을 DS대로 유지하고 3DX pause·서식·페이지 태그는 그대로 둠. AGENTS 0·4.6의 DS 보존 원칙이 일반 스타일 권고보다 우선. | 이전 검토 메모(띄어쓰기 판정은 이번 검토로 대체): review: 표지판 화살표를 뒤 글자에 붙임(style_guide 2.1, o_ekubon_02#0·o_koopa_22#0 등 다른 표지판과 통일).
+FMsg__o_koopa_09_2_gerashow_01_U__and3	FMsg/o_koopa_13_1#6	"{1:align}{2:align}에이~ 그런 말씀 마시고…{3:wait}[Next]{4:align}{5:align}그럼!{6:pause} 저희가 직접
+먹여 드리죠!{7:wait}[Next]{8:align}{9:align}자!{10:pause} 어서!{11:pause} 이쪽으로 오세요!{12:wait}"	"{1:align}{2:align}에이~ 그런 말씀 마시고…{3:wait}[Next]{4:align}{5:align}그럼{6:pause} 저희가 직접
+먹여 드리죠!{7:wait}[Next]{8:align}{9:align}자!{10:pause} 어서!{11:pause} 이쪽으로 오세요!{12:wait}"	review: 2026-10-06 DS041#13과 뜻이 같은 문구에 추가된 느낌표 제거. 3DX 뜸 태그 유지.
+FMsg__o_koopa_13_2__and4	FMsg/o_koopa_13_2#57	나{1:pause} 라고{2:pause}	나{1:pause}라고{2:pause}	review: 2026-10-06 DS0D1#53의 같은 뜻 대사 띄어쓰기 복원. 화살표 뒤/말줄임표 뒤 공백과 어절을 DS대로 유지하고 3DX pause·서식·페이지 태그는 그대로 둠. AGENTS 0·4.6의 DS 보존 원칙이 일반 스타일 권고보다 우선. | 이전 검토 메모(띄어쓰기 판정은 이번 검토로 대체): 'わ{pause} し{pause}'의 뜸을 살리려고 DS0D1#53 '나라고'를 '나 / 라고'로 나눔.
+FMsg__o_mushiba_01__and7	FMsg/o_mushiba_05_before#26	오우!{1:pause} 땡큐!{2:pause} 베리 머치!{3:wait}[Next]역시 당신은 젠틀맨!{4:wait}	오우!{1:pause} 땡큐{2:pause} 베리 머치!{3:wait}[Next]역시 당신은 젠틀맨!{4:wait}	review: 2026-10-06 DS03E#20의 땡큐 베리 머치 문장부호 복원. 3DX 뜸 태그 유지.
+FMsg__o_peach_1f_03__and3	FMsg/o_peach_1f_03#41	"{1:align}네놈 여기에서{2:pause}
+끝{3:pause} 이다…{4:pause}{5:wait}"	"{1:align}네놈 여기에서{2:pause}
+끝{3:pause}이다…{4:pause}{5:wait}"	review: 2026-10-06 DS20F#2의 같은 뜻 대사 띄어쓰기 복원. 화살표 뒤/말줄임표 뒤 공백과 어절을 DS대로 유지하고 3DX pause·서식·페이지 태그는 그대로 둠. AGENTS 0·4.6의 DS 보존 원칙이 일반 스타일 권고보다 우선.
+FMsg__o_peach_1f_03__and3	FMsg/o_peach_1f_08#9	"{1:align}너의 능력을 복사한 데다가
+완전한 암흑 파워까지
+손에 넣은 다크쿠파…{2:wait}[Next]{3:align}…{4:pause} 솔직히 말하면
+최악의 사태가 벌어졌어…{5:wait}[Next]{6:align}이렇게 된 이상 어쩔 수 없어!
+다크쿠파를 쓰러뜨려야 해!!{7:wait}"	"{1:align}너의 능력을 복사한 데다가
+완전한 암흑 파워까지
+손에 넣은 다크쿠파…{2:wait}[Next]{3:align}…{4:pause}솔직히 말하면
+최악의 사태가 벌어졌어…{5:wait}[Next]{6:align}이렇게 된 이상 어쩔 수 없어!
+다크쿠파를 쓰러뜨려야 해!!{7:wait}"	review: 2026-10-06 DS298#8의 같은 뜻 대사 띄어쓰기 복원. 화살표 뒤/말줄임표 뒤 공백과 어절을 DS대로 유지하고 3DX pause·서식·페이지 태그는 그대로 둠. AGENTS 0·4.6의 DS 보존 원칙이 일반 스타일 권고보다 우선.
+FMsg__o_zutsuda_01__and9	FMsg/o_zutsuda_15#15	"{1:align}아~{2:pause} 아아~{3:pause} 아~{4:pause}
+…{5:pause} 아!{6:pause} 연결된 건가!?{7:wait}[Next]{8:align}{9:align}…{10:pause} 에헴!{11:wait}"	"{1:align}아~{2:pause} 아아~{3:pause} 아~{4:pause}
+…{5:pause}아!{6:pause} 연결된 건가!?{7:wait}[Next]{8:align}{9:align}…{10:pause}에헴!{11:wait}"	review: 2026-10-06 DS108#30의 같은 뜻 대사 띄어쓰기 복원. 화살표 뒤/말줄임표 뒤 공백과 어절을 DS대로 유지하고 3DX pause·서식·페이지 태그는 그대로 둠. AGENTS 0·4.6의 DS 보존 원칙이 일반 스타일 권고보다 우선.
+HugeBattle__p1	HugeBattle#1	"이 녀석이 싸우는 동안에
+얼른 수리하는 거야!{1:wait}"	"이 녀석이 싸우는 동안에
+수리하는 거야!{1:wait}"	review: DS BAI__BMes_ji 표3#7의 같은 장면·같은 뜻 대사를 그대로 복원.
+HugeBattle__p1	HugeBattle#21	"뜨겁게{1:pause} 되면{2:pause}
+버릴 것!{3:pause}{4:color}{5:wait}{6:color}"	"뜨거워{1:pause}지면{2:pause}
+버리자!{3:pause}{4:color}{5:wait}{6:color}"	"로봇 음성의 표어식 'ステマショウ'를 '~할 것!'(규칙 조문투)으로 옮김(DS에 없는 '~합시다' 회피). p2 #116도 같음. 원문 줄 끝·메시지 끝의 공백은 뺌(#25·#28·#41·#44·#114도 같음)
+review: 배치 참조에 누락된 DS BAI__BMes_yo 표2#14의 같은 장면·같은 뜻 한국어를 복원. 3DX 자리표시자·페이지 수 유지."
+HugeBattle__p1	HugeBattle#25	"방금의{1:pause} 공격{2:pause}
+꽤{3:pause} 효과적이었다!{4:pause}{5:color}{6:wait}[Next]{7:color}블랙홀을{8:pause}
+이용해{9:pause} 몸통 박치기를{10:pause}
+하다니…{11:pause}{12:color}{13:wait}{14:color}"	"방금{1:pause} 공격은{2:pause}
+제법{3:pause} 위협적이군!{4:pause}{5:color}{6:wait}[Next]{7:color}블랙홀을{8:pause}
+사용해서{9:pause} 몸으로{10:pause}
+공격해 올 줄이야…{11:pause}{12:color}{13:wait}{14:color}"	review: 배치 참조에 누락된 DS BAI__BMes_yo 표2#15~16의 공통 대사를 두 페이지 모두 복원. 단독 タイアタリ/体当たり의 확정 glossary 행은 없으며 行列体当たり·超体当たり는 별도 기술명이다. 이 문장의 타격 방식은 DS의 몸으로 공격해 올 줄이야와 같은 뜻이므로 DS 공통 문장 그대로 쓰기 원칙 적용.
+HugeBattle__p1	HugeBattle#26	"제법 하는군{1:pause}
+하지만{2:pause} 이 공격은{3:pause}
+피할 수 없다…{4:pause}"	"싸울 줄 아는걸?{1:pause}
+하지만{2:pause} 이 공격은{3:pause}
+피할 수 없을 거다…{4:pause}"	review: 배치 참조에 누락된 DS BAI__BMes_yo 표2#20의 같은 장면·같은 뜻 한국어를 복원. 3DX 자리표시자·페이지 수 유지.
+HugeBattle__p1	HugeBattle#29	"또 그걸
+꺼낼 셈이냐!?"	"또 그것을
+쏠 작정이냐!?"	review: 배치 참조에 누락된 DS BAI__BMes_yo 표2#6의 같은 장면·같은 뜻 한국어를 복원. 3DX 자리표시자·페이지 수 유지.
+HugeBattle__p1	HugeBattle#33	"흥!{1:pause} 저런 것쯤이야
+이 몸의 화염으로
+쏘아 떨어뜨려 주마!"	"흥!{1:pause} 저따위 건
+이 몸이 화염으로
+떨어뜨려 주겠다!"	review: 배치 참조에 누락된 DS BAI__BMes_yo 표2#7의 같은 장면·같은 뜻 한국어를 복원. 3DX 자리표시자·페이지 수 유지.
+HugeBattle__p1	HugeBattle#37	"크핫핫핫!{1:pause} 보았느냐!{2:pause}
+이 몸의 힘을!"	"크핫핫핫!{1:pause} 봤느냐?{2:pause}
+이 몸의 힘을!"	review: 배치 참조에 누락된 DS BAI__BMes_yo 표2#8의 같은 장면·같은 뜻 한국어를 복원. 3DX 자리표시자·페이지 수 유지.
+HugeBattle__p1	HugeBattle#41	"세이프티 시스템{1:pause}
+프로그램{2:pause} 작동!{3:pause}{4:color}{5:wait}{6:color}"	"방어 시스템{1:pause}
+프로그램{2:pause} 가동!{3:pause}{4:color}{5:wait}{6:color}"	review: 배치 참조에 누락된 DS BAI__BMes_yo 표2#18의 같은 장면·같은 뜻 한국어를 복원. 3DX 자리표시자·페이지 수 유지.
+HugeBattle__p1	HugeBattle#44	"이것으로{1:pause} 정면에서
+오는{2:pause} 공격은{3:pause}
+완벽하게{4:pause} 방어한다!{5:pause}{6:color}{7:wait}{8:color}"	"이제{1:pause} 정면에서
+오는{2:pause} 공격은{3:pause}
+완전히{4:pause} 막는다!{5:pause}{6:color}{7:wait}{8:color}"	review: 배치 참조에 누락된 DS BAI__BMes_yo 표2#19의 같은 장면·같은 뜻 한국어를 복원. 3DX 자리표시자·페이지 수 유지.
+HugeBattle__p1	HugeBattle#96	무슨 짓을 할 셈이냐?	무슨 속셈이냐?	review: 배치 참조에 누락된 DS BAI__BMes_yo 표2#0의 같은 장면·같은 뜻 한국어를 복원. 3DX 자리표시자·페이지 수 유지.
+HugeBattle__p1	HugeBattle#97	"뭐냐? 불꽃놀이냐?
+속 편한 녀석이군…"	"뭐냐? 불꽃이냐?
+어수룩한 녀석이군…"	review: 배치 참조에 누락된 DS BAI__BMes_yo 표2#1의 같은 장면·같은 뜻 한국어를 복원. 3DX 자리표시자·페이지 수 유지.
+HugeBattle__p1	HugeBattle#100	"응?{1:pause} 아무 일도 없군.
+실패한 거냐?"	"응?{1:pause} 터지질 않는데?
+불발탄인가?"	review: 배치 참조에 누락된 DS BAI__BMes_yo 표2#2의 같은 장면·같은 뜻 한국어를 복원. 3DX 자리표시자·페이지 수 유지.
+HugeBattle__p1	HugeBattle#101	"{1:mode}{2:color}파이어 버튼{3:color}을
+{4:color}터치{5:color}해 주세요!"	"{1:mode}{2:color}파이어 버튼{3:color}을
+{4:color}터치{5:color}해 주세요."	review: DS BAI__BMes_ji 표2#30와 같은 파이어 버튼 터치 안내의 문장부호를 DS대로 복원.
+HugeBattle__p1	HugeBattle#103	"별난 불꽃놀이로군…{1:pause}
+뭐, 됐다.{2:pause} 불꽃놀이는
+내버려 두고…"	"특이한 불꽃이군…{1:pause}
+상관없다!{2:pause}
+불꽃은 신경 끄고…"	review: 배치 참조에 누락된 DS BAI__BMes_yo 표2#3의 같은 장면·같은 뜻 한국어를 복원. 3DX 자리표시자·페이지 수 유지.
+HugeBattle__p1	HugeBattle#107	"이 녀석을
+어떻게든 해야겠군!"	"이 녀석부터
+해치워야겠군!"	review: 배치 참조에 누락된 DS BAI__BMes_yo 표2#4의 같은 장면·같은 뜻 한국어를 복원. 3DX 자리표시자·페이지 수 유지.
+HugeBattle__p1	HugeBattle#109	"크아―!{1:pause} 이 몸을
+빨아들일 셈이냐!{2:color}{3:wait}{4:color}"	"허억―!{1:pause} 이 몸을
+빨아들일 작정이냐?{2:color}{3:wait}{4:color}"	review: 배치 참조에 누락된 DS BAI__BMes_yo 표2#5의 같은 장면·같은 뜻 한국어를 복원. 3DX 자리표시자·페이지 수 유지.
+HugeBattle__p1	HugeBattle#111	그렇게는 안 되지!{1:color}{2:wait}{3:color}	당할 것 같으냐!?{1:color}{2:wait}{3:color}	review: 배치 참조에 누락된 DS BAI__BMes_yo 표2#9의 같은 장면·같은 뜻 한국어를 복원. 3DX 자리표시자·페이지 수 유지.
+HugeBattle__p1	HugeBattle#114	"뜨겁다!{1:pause} 뜨겁다!{2:pause}
+불이야!{3:pause} 불이야!{4:pause}{5:color}{6:wait}{7:color}"	"뜨거워!{1:pause} 뜨거워!{2:pause}
+불이야!{3:pause} 불이야!{4:pause}{5:color}{6:wait}{7:color}"	review: 배치 참조에 누락된 DS BAI__BMes_yo 표2#12의 같은 장면·같은 뜻 한국어를 복원. 3DX 자리표시자·페이지 수 유지.
+HugeBattle__p2	HugeBattle#116	"타기 쉬운{1:pause} 물건은{2:pause}
+버릴 것!{3:pause}{4:color}{5:wait}{6:color}"	"타 버릴 만한{1:pause} 물건은{2:pause}
+버려야겠다!{3:pause}{4:color}{5:wait}{6:color}"	"로봇 음성의 표어식 'ステマショウ'를 '~할 것!'으로 옮김(p1 #21과 같음). 원문 메시지 끝 공백은 뺌(#122·#124·#125·#127·#130·#133·#135도 같음)
+review: 배치 참조에 누락된 DS BAI__BMes_yo 표2#13의 같은 장면·같은 뜻 한국어를 복원. 3DX 자리표시자·페이지 수 유지."
+HugeBattle__p2	HugeBattle#122	"세이프티 시스템{1:pause}
+프로그램{2:pause} 에러!{3:pause}
+방어벽{4:pause} 소멸!{5:pause}{6:color}{7:wait}{8:color}"	"방어 시스템{1:pause}
+프로그램{2:pause} 에러!{3:pause}
+방어{4:pause} 소멸!{5:pause}{6:color}{7:wait}{8:color}"	"ガード는 장치(방패) 뜻이라 glossary note대로 '방어벽'
+review: 배치 참조에 누락된 DS BAI__BMes_yo 표2#17의 같은 장면·같은 뜻 한국어를 복원. 3DX 자리표시자·페이지 수 유지. 피치로봇의 이 문맥은 DS에서 방어 소멸이며 용어집 전투 ガード=방어와도 일치하므로 기존 방어벽을 복원."
+HugeBattle__p2	HugeBattle#124	"부끄부끄 시스템{1:pause} 작동!{2:pause}
+도중에{3:pause} 모습이{4:pause}
+안 보이게{5:pause} 되면…{6:pause}{7:color}{8:wait}{9:color}"	"부끄부끄 시스템{1:pause} 가동!{2:pause}
+중간에{3:pause} 모습이{4:pause}
+보이지 않게{5:pause} 된다면…{6:pause}{7:color}{8:wait}{9:color}"	review: 배치 참조에 누락된 DS BAI__BMes_yo 표2#22의 같은 장면·같은 뜻 한국어를 복원. 3DX 자리표시자·페이지 수 유지.
+HugeBattle__p2	HugeBattle#125	"반격할{1:pause} 타이밍도{2:pause}
+알 수 없게 될{3:pause} 것이다!{4:pause}{5:color}{6:wait}{7:color}"	"반격의{1:pause} 타이밍도{2:pause}
+알 수 없게{3:pause} 되겠지!{4:pause}{5:color}{6:wait}{7:color}"	review: 배치 참조에 누락된 DS BAI__BMes_yo 표2#23의 같은 장면·같은 뜻 한국어를 복원. 3DX 자리표시자·페이지 수 유지.
+HugeBattle__p2	HugeBattle#127	"제법 하는군{1:pause}
+하지만{2:pause} 이것을{3:pause}
+견딜 수 있을까?{4:pause}"	"생각보단 세군.{1:pause}
+하지만{2:pause} 이걸{3:pause}
+견뎌 낼 수 있을까?{4:pause}"	review: 배치 참조에 누락된 DS BAI__BMes_yo 표2#24의 같은 장면·같은 뜻 한국어를 복원. 3DX 자리표시자·페이지 수 유지.
+HugeBattle__p2	HugeBattle#134	"블랙홀로{1:pause} 가는{2:pause}
+데스매치다!{3:pause}"	"블랙홀로{1:pause} 빠지는{2:pause}
+데스 매치다!{3:pause}"	review: 배치 참조에 누락된 DS BAI__BMes_yo 표2#26의 같은 장면·같은 뜻 한국어를 복원. 3DX 자리표시자·페이지 수 유지.
+HugeBattle__p2	HugeBattle#135	"네놈의{1:pause} 강함은{2:pause}
+잘 알았다!{3:pause}{4:color}{5:wait}{6:color}[Next]하지만{7:pause} 네놈도{8:pause}
+이것으로 끝이다!{9:pause}{10:color}{11:wait}{12:color}"	"네가{1:pause} 강하다는 건{2:pause}
+인정하겠다!{3:pause}{4:color}{5:wait}{6:color}[Next]하지만{7:pause} 너도{8:pause}
+이걸로 끝이다!{9:pause}{10:color}{11:wait}{12:color}"	review: 배치 참조에 누락된 DS BAI__BMes_yo 표2#27~28의 같은 장면·같은 뜻 한국어를 복원. 3DX 자리표시자·페이지 수 유지.
+Menu__p2	Menu#232	"앞으로는 쇼핑하실 때마다
+슈퍼 보너스 카드를
+선물해 드리겠습니다!{1:wait}[Next]{2:align}지금까지보다 당첨 확률이
+높아질 겁니다!{3:wait}"	"앞으로는 구입하실 때마다
+슈퍼 보너스 카드를
+선물해 드리겠습니다!{1:wait}[Next]{2:align}지금까지보다 당첨 확률이
+높아질 겁니다!{3:wait}"	"DS 0.110의 '구입하실 때마다'는 glossary お買い物=쇼핑에 맞춰 '쇼핑하실 때마다'로(Menu#245도 같음). review: 보너스 카드 계열 3DX 이름으로 통일(리드, '스크래치 카드'→'보너스 카드').
+review: DS SAI__SMes_yo 표0#110와 같은 상점 보너스 안내의 공통 문장 복원. 쇼핑 단독 명칭을 맞추느라 재번역한 서술문을 DS대로 쓰며, 3DX에서 바뀐 카드 명칭은 유지."
+Menu__p2	Menu#245	"앞으로는 쇼핑하실 때마다
+울트라 보너스 카드를
+선물해 드리겠습니다!{1:wait}[Next]{2:align}지금까지보다 당첨 확률이
+높아질 겁니다!{3:wait}"	"앞으로는 구입하실 때마다
+울트라 보너스 카드를
+선물해 드리겠습니다!{1:wait}[Next]{2:align}지금까지보다 당첨 확률이
+높아질 겁니다!{3:wait}"	"review: 보너스 카드 계열 3DX 이름으로 통일(리드, '스크래치 카드'→'보너스 카드').
+review: DS SAI__SMes_yo 표0#112와 같은 상점 보너스 안내의 공통 문장 복원. 쇼핑 단독 명칭을 맞추느라 재번역한 서술문을 DS대로 쓰며, 3DX에서 바뀐 카드 명칭은 유지."
+Menu__p2	Menu#322	"어머나! 손님!
+SUYEOM이 멋지네요!{1:wait}"	"어머나! 손님!
+SUYEOM 멋진 것 좀 봐!{1:wait}"	"review: 리드 결정 — DS 말투 우선(AGENTS 4.5). 키노다 점원 감탄사는 DS SAI__SMes_yo#0.21·0.37·0.45·0.53대로 '어머나!'(Menu#57·#608과 같음).
+review: DS SAI__SMes_yo 표0#37와 같은 부티크 상점 첫 보너스 안내의 공통 대사를 띄어쓰기·문장부호까지 복원."
+Menu__p3	Menu#333	"액션 아이콘을 「{1:color}해머{2:color}」로 바꾸고
+{3:color}{4:icon}{5:color} 버튼으로 해머를 휘두를 수 있어요."	"액션 아이콘을 「{1:color}해머{2:color}」로 전환하고
+{3:color}{4:icon}{5:color} 버튼으로 해머를 휘두를 수 있어요."	"review: 액션 가이드는 5.1-4(안내는 해요체)대로 해요체(Menu__p1·p4~p6 가이드와 같게).
+review: 액션 아이콘 切り替える/きりかえる는 DS 공통 조작 용어 전환으로 통일. 히라가나 표기 때문에 앞선 용어 점검에서 빠진 곳을 수정."
+Menu__p3	Menu#343	"어머나! 손님!
+SUYEOM이 더욱
+멋져지셨네요!{1:wait}"	"어머나! 손님!
+SUYEOM이 더 멋져진 것
+같은데 맞죠?{1:wait}"	"review: 리드 결정 — DS 말투 우선(AGENTS 4.5). 키노다 점원 감탄사는 DS SAI__SMes_yo#0.21·0.37·0.45·0.53대로 '어머나!'(Menu#57·#608과 같음).
+review: DS SAI__SMes_yo 표0#45와 같은 부티크 상점 보너스 업그레이드의 공통 대사를 그대로 복원."
+Menu__p3	Menu#458	"왈 왈…
+(당첨 되면…){1:wait}"	"왈 왈…
+(당첨되면…){1:wait}"	review: DS 오기 수정: SAI__SMes_yo 표0#130의 당첨 되면을 합성 동사 당첨되다에 맞춰 붙여 씀.
+Menu__p5	Menu#649	"역시 손님들은
+잘 알고 계시군요!{1:wait}[Next]그럼 즐거운 쇼핑
+되시길 바랍니다~{2:wait}"	"역시 손님들은
+잘 알고 계시군요!{1:wait}[Next]그럼 천천히
+둘러보세요~{2:wait}"	"1쪽은 DS #0.90 그대로. 2쪽 お買い物をお楽しみください～는 DS #0.90의 '천천히 둘러보세요~'가 glossary お買い物=쇼핑을 빠뜨려서, 같은 일본어 문장의 DS 번역(#0.89·#0.93 '그럼 즐거운 쇼핑 되시길 바랍니다~')을 씀.
+review: DS SAI__SMes_yo 표0#90와 같은 상점 설명 마무리 대사를 그대로 복원. 기존 note의 お買い物=쇼핑 경고 회피보다 DS 공통 문장 그대로 쓰기 원칙을 적용."
+Menu__p5	Menu#731	"{1:color}C스틱{2:color}으로도
+주변 지도를 볼 수 있어요.
+(New 닌텐도 3DS 전용)"	"{1:color}C스틱{2:color}으로도
+주변 지도를 볼 수 있어요.
+※New 닌텐도 3DS 전용"	"※는 게임 폰트에 없어(검사기 오류) 괄호로 바꿈.
+review: 원문 주석 기호 ※ 복원. 기존 note의 폰트 미지원 사유는 2026-09-30 기호 글리프 반영 이후 해소됨."
+Menu__p5	Menu#801	"어라? 마리오님, 루이지님.
+SUYEOM이 훨씬 더
+멋져지셨네요!{1:wait}"	"우와! 마리오님! 루이지님!
+SUYEOM이 훨씬 더
+멋져지셨네요!{1:wait}"	"DS #0.44는 '우와!'지만 3DX 원문 おや？에 맞춰 '어라?'로 바꿈. 나머지는 DS 그대로.
+review: DS SAI__SMes_yo 표0#44와 같은 상점 보너스 업그레이드의 공통 대사를 감탄사·문장부호까지 복원."

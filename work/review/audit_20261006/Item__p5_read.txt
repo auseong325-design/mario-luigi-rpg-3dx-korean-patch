@@ -1,0 +1,339 @@
+Item#544 F_Wear10 dups=0
+JP {1:color}マッスルウェア{2:color}はいっぱいです！
+KO {1:color}울끈불끈웨어{2:color} FULL!
+Item#552 E_Badge05 dups=0
+JP モンスターの攻撃をふせぐ / 効果になるバッジ
+KO 몬스터의 공격을 막는 / 효과가 있는 배지.
+Item#553 E_Cheese dups=0
+JP クッパのBPが １５回復。
+KO 쿠파의 SP를 15 회복.
+Item#554 E_Ring07 dups=0
+JP BPが自動的にちょっぴり回復するゆびわ。
+KO SP가 자동으로 아주 조금 회복되는 반지.
+Item#555 F_Wear11 dups=0
+JP {1:color}マスターウェア{2:color}はいっぱいです！
+KO {1:color}마스터웨어{2:color} FULL!
+Item#562 E_Badge06 dups=0
+JP まだまだこれからのビギナーむけバッジ
+KO 아직 갈 길이 먼 비기너용 배지.
+NOTE E_Badge 설명은 DS BadgeE 형식대로 마침표로 끝냄(원문엔 마침표 없음). #573·585·592도 같음.
+Item#563 E_MaxNut dups=0
+JP マリオとルイージの / HPが フル回復。
+KO 마리오와 루이지의 / HP를 완전 회복.
+Item#564 E_Ring08 dups=0
+JP HPとBPが自動的に回復するゆびわ。
+KO HP와 SP가 자동으로 회복되는 반지.
+Item#565 F_Cheese dups=0
+JP {1:color}チーズ{2:color}はいっぱいです！
+KO {1:color}치즈{2:color} FULL!
+Item#566 F_Wear12 dups=0
+JP {1:color}キングウェア{2:color}はいっぱいです！
+KO {1:color}킹웨어{2:color} FULL!
+Item#573 E_Badge07 dups=0
+JP バトルになれはじめた ベテランむけバッジ
+KO 배틀에 익숙해지기 시작한 베테랑용 배지.
+Item#574 E_Ring09 dups=0
+JP 小さい敵を吹っ飛ばすともらえるコインが増えるゆびわ。 / フィールド行動中のみ有効な効果。
+KO 작은 적을 날려 버리면 얻는 코인이 늘어나는 반지. / 필드에서 행동할 때만 유효한 효과.
+Item#575 F_Boots11 dups=0
+JP {1:color}フミフミブーツ{2:color}はいっぱいです！
+KO {1:color}콩콩부츠{2:color} FULL!
+Item#576 F_MaxNut dups=0
+JP {1:color}ミラクルナッツ{2:color}はいっぱいです！
+KO {1:color}미라클너트{2:color} FULL!
+Item#577 F_Ring08 dups=0
+JP {1:color}さいせいゆびわ{2:color}はいっぱいです！
+KO {1:color}재생반지{2:color} FULL!
+Item#578 F_Wear13 dups=0
+JP {1:color}スターウェア{2:color}はいっぱいです！
+KO {1:color}스타웨어{2:color} FULL!
+Item#584 EFF_Badge_05_06 dups=0
+JP {1:color}２{2:color}ターンの間 モンスターの攻撃で / うけるダメージを 半分ほどにする。
+KO {1:color}2{2:color}턴 동안 몬스터의 공격으로 / 입는 타격을 절반 정도로 줄임.
+Item#585 E_Badge08 dups=0
+JP バトルを極めた マスターむけバッジ
+KO 배틀을 통달한 마스터용 배지.
+Item#586 F_Boots12 dups=0
+JP {1:color}ルーキーブーツ{2:color}はいっぱいです！
+KO {1:color}루키부츠{2:color} FULL!
+Item#591 EFF_Badge_05_07 dups=0
+JP {1:color}４{2:color}ターンの間 モンスターの攻撃で / うけるダメージを {3:color}７０{4:color}％にする。
+KO {1:color}4{2:color}턴 동안 몬스터의 공격으로 / 입는 타격을 {3:color}70{4:color}%로 줄임.
+Item#592 E_Badge09 dups=0
+JP バトルが全ての エキスパートむけバッジ
+KO 배틀이 전부인 엑스퍼트용 배지.
+Item#593 E_MaxSyrup dups=0
+JP マリオとルイージ どちらかの / BPが フル回復。
+KO 마리오와 루이지 중 한 명의 / SP를 완전 회복.
+Item#594 E_SuperKinoko dups=0
+JP マリオとルイージ どちらかの / HPが ５０回復。
+KO 마리오와 루이지 중 한 명의 / HP를 50 회복.
+Item#595 F_Boots13 dups=0
+JP {1:color}キノコブーツ{2:color}はいっぱいです！
+KO {1:color}버섯부츠{2:color} FULL!
+Item#596 F_Glove15 dups=0
+JP {1:color}グルメグラブ{2:color}はいっぱいです！
+KO {1:color}미식가글러브{2:color} FULL!
+Item#597 F_LuckyMame dups=0
+JP {1:color}ジェントルマメ{2:color}はいっぱいです！
+KO {1:color}젠틀콩{2:color} FULL!
+Item#599 N_Ring00 dups=1
+JP きまぐれゆびわ
+KO 변덕반지
+Item#601 EFF_Badge_05_08 dups=0
+JP 敵の攻撃を バリアで{1:color}５{2:color}回ふせぐ効果。
+KO 적의 공격을 방어막으로 {1:color}5{2:color}번 막는 효과.
+NOTE バリア→'방어막'(글로서리 バリア=방어를 포함), 回→'번'.
+Item#602 F_Boots14 dups=0
+JP {1:color}ポロリブーツ{2:color}はいっぱいです！
+KO {1:color}툭툭부츠{2:color} FULL!
+Item#604 N_Ring01 dups=1
+JP せつやくゆびわ
+KO 절약반지
+Item#607 EFF_Badge_05_09 dups=0
+JP {1:color}３{2:color}ターンの間 不利な{3:color}状態変化{4:color}をふせぎ / {5:color}気絶 {6:color}もしなくなる効果。
+KO {1:color}3{2:color}턴 동안 불리한 {3:color}상태 변화{4:color}를 막고 / {5:color}기절{6:color}도 하지 않게 되는 효과.
+Item#608 E_1upKinokodx dups=0
+JP 倒れた なかまが / HPフルで ふっかつ。
+KO 기절한 파트너가 / 완전한 HP로 부활.
+Item#609 F_MaxSyrup dups=0
+JP {1:color}ミラクルシロップ{2:color}はいっぱいです！
+KO {1:color}미라클시럽{2:color} FULL!
+Item#611 N_Ring02 dups=1
+JP ごうかいゆびわ
+KO 호탕반지
+Item#613 F_Boots16 dups=0
+JP {1:color}よくばりブーツ{2:color}はいっぱいです！
+KO {1:color}욕심쟁이부츠{2:color} FULL!
+Item#614 F_Refleshhb dups=0
+JP {1:color}リフレッシュハーブ{2:color}はいっぱいです！
+KO {1:color}회복허브{2:color} FULL!
+Item#616 N_Ring03 dups=1
+JP おおぐいゆびわ
+KO 대식가반지
+Item#618 E_MaxCheese dups=0
+JP クッパのBPが フル回復。
+KO 쿠파의 SP를 완전 회복.
+Item#619 F_GekiChicken dups=0
+JP {1:color}げきからチキン{2:color}はいっぱいです！
+KO {1:color}아주매운치킨{2:color} FULL!
+Item#620 N_Ring04 dups=1
+JP おちょうしゆびわ
+KO 기세등등반지
+Item#623 Ns_Bracelet10 dups=1
+JP いかりうでわ
+KO 분노팔찌
+Item#624 E_GekiChicken dups=0
+JP クッパのHPが １５０回復。
+KO 쿠파의 HP를 150 회복.
+Item#625 F_Socks10 dups=0
+JP {1:color}ゴツゴツソックス{2:color}はいっぱいです！
+KO {1:color}울퉁불퉁양말{2:color} FULL!
+Item#626 F_SuperCheese dups=0
+JP {1:color}スーパーチーズ{2:color}はいっぱいです！
+KO {1:color}슈퍼치즈{2:color} FULL!
+Item#627 F_Syrup dups=0
+JP {1:color}シロップ{2:color}はいっぱいです！
+KO {1:color}시럽{2:color} FULL!
+Item#628 N_Ring05 dups=1
+JP チキンゆびわ
+KO 치킨반지
+Item#631 Ns_Bracelet11 dups=1
+JP はんげきうでわ
+KO 반격팔찌
+Item#632 EFF_Badge_00_06 dups=0
+JP ２人のHPを {1:color}２０{2:color}％回復。
+KO 2명의 HP를 {1:color}20{2:color}% 회복.
+Item#633 F_Socks11 dups=0
+JP {1:color}EXPソックス{2:color}はいっぱいです！
+KO {1:color}EXP양말{2:color} FULL!
+Item#634 N_Ring06 dups=1
+JP やすらぎゆびわ
+KO 평온반지
+Item#637 Ns_Bracelet12 dups=1
+JP すいこみうでわ
+KO 흡입팔찌
+Item#638 EFF_Badge_00_07 dups=0
+JP ２人のHPを {1:color}２０{2:color}％回復。 / {3:color}状態変化{4:color} を 回復。
+KO 2명의 HP를 {1:color}20{2:color}% 회복. / {3:color}상태 변화{4:color}를 회복.
+Item#639 E_Glove10 dups=0
+JP ハンマーで攻撃すると / BPが少し回復するグラブ。
+KO 해머로 공격하면 / SP가 조금 회복되는 글러브.
+Item#641 N_Cheese dups=1
+JP チーズ
+KO 치즈
+Item#642 N_Ring07 dups=1
+JP みなぎりゆびわ
+KO 활력반지
+Item#645 Ns_Bracelet13 dups=1
+JP グルメうでわ
+KO 미식가팔찌
+Item#647 EFF_Badge_00_08 dups=0
+JP ２人のHPを {1:color}７０{2:color}％ + {3:color}状態変化 {4:color}を / 回復。{5:color}気絶{6:color}していても復活。
+KO 2명의 HP를 {1:color}70{2:color}% + {3:color}상태 변화{4:color}를 / 회복. {5:color}기절{6:color}해 있어도 부활.
+Item#648 E_Glove11 dups=0
+JP ハンマーエンカウントで 敵をたまに / 一撃で倒せるようになるグラブ。
+KO 해머로 선제공격하면 가끔 적을 / 일격에 쓰러뜨릴 수 있게 되는 글러브.
+Item#651 N_MaxNut dups=1
+JP ミラクルナッツ
+KO 미라클너트
+Item#652 N_Ring08 dups=1
+JP さいせいゆびわ
+KO 재생반지
+Item#655 Ns_Bracelet14 dups=1
+JP ひっさつうでわ
+KO 필살팔찌
+Item#658 EFF_Badge_00_09 dups=0
+JP ２人のHPを{1:color}満タン {2:color}+ {3:color}状態変化 {4:color}を / 回復。{5:color}気絶していても復活する{6:color}。
+KO 2명의 HP를 {1:color}가득{2:color} + {3:color}상태 변화{4:color}를 / 회복. {5:color}기절해 있어도 부활함{6:color}.
+NOTE 満タン→'가득'(DS WearE#49 'HP가 가득일 때').
+Item#659 E_Glove12 dups=0
+JP ハンマーで攻撃すると / BPが回復するグラブ。
+KO 해머로 공격하면 / SP가 회복되는 글러브.
+Item#662 N_Ring09 dups=1
+JP なりきんゆびわ
+KO 졸부반지
+Item#666 Ns_Bracelet15 dups=1
+JP ふいうちうでわ
+KO 기습팔찌
+Item#668 E_Glove13 dups=0
+JP Excellent評価でバッジメーターが / たまりやすくなるグラブ。
+KO Excellent를 내면 배지 게이지가 / 잘 차는 글러브.
+Item#672 Ns_1upKinokodx dups=1
+JP １UPキノコDX
+KO 1UP버섯DX
+Item#675 E_Fung00 dups=0
+JP POWが少しアップするきば。
+KO POW가 조금 증가하는 이빨.
+Item#676 E_Glove14 dups=0
+JP ブラザーアタックを使うと消費されるBPを / ふたりで半分ずつにわけることができるグラブ。
+KO 스페셜 어택을 쓸 때 소비되는 SP를 / 둘이서 반씩 나눠 부담할 수 있는 글러브.
+Item#677 E_HeartMame dups=0
+JP さいだいHPが １ポイントアップ。
+KO 최대 HP가 1포인트 증가.
+Item#678 F_Bracelet12 dups=0
+JP {1:color}すいこみうでわ{2:color}はいっぱいです！
+KO {1:color}흡입팔찌{2:color} FULL!
+Item#679 F_Socks16 dups=0
+JP {1:color}メキメキソックス{2:color}はいっぱいです！
+KO {1:color}부쩍부쩍양말{2:color} FULL!
+Item#687 E_Fung01 dups=0
+JP POWがアップするきば。
+KO POW가 증가하는 이빨.
+Item#688 E_Glove15 dups=0
+JP キノコを食べると 状態変化も治っちゃう / グルメな人のためのグラブ。
+KO 버섯을 먹으면 상태 변화까지 낫는 / 미식가를 위한 글러브.
+Item#689 F_Socks17 dups=0
+JP {1:color}エンジェルソックス{2:color}はいっぱいです！
+KO {1:color}엔젤양말{2:color} FULL!
+Item#697 E_Fung02 dups=0
+JP BPが少しアップするきば。
+KO SP가 조금 증가하는 이빨.
+Item#698 E_Glove16 dups=0
+JP ブラザーアタックの威力がアップするグラブ。
+KO 스페셜 어택의 위력이 증가하는 글러브.
+Item#699 F_Bracelet14 dups=0
+JP {1:color}ひっさつうでわ{2:color}はいっぱいです！
+KO {1:color}필살팔찌{2:color} FULL!
+Item#700 N_Badge00 dups=0
+JP キノコバッジ
+KO 버섯배지
+Item#706 E_Accessory00 dups=0
+JP 幸運をよぶストラップ。 / HIGEが少しアップ！
+KO 행운을 부르는 스트랩. / SUYEOM이 조금 증가!
+NOTE HIGE=SUYEOM(glossary ui, DS16A#17). Item__p4 #446 노트 참고.
+Item#707 E_Fung03 dups=0
+JP BPがアップするきば。
+KO SP가 증가하는 이빨.
+Item#708 F_Bracelet15 dups=0
+JP {1:color}ふいうちうでわ{2:color}はいっぱいです！
+KO {1:color}기습팔찌{2:color} FULL!
+Item#709 N_Badge01 dups=0
+JP パワフルバッジ
+KO 파워풀배지
+Item#715 E_Accessory01 dups=0
+JP 幸運をひきよせるストラップ。 / HIGEが大きくアップ！
+KO 행운을 끌어당기는 스트랩. / SUYEOM이 크게 증가!
+NOTE HIGE=SUYEOM. 大きくアップ→'크게 증가'(DS 'アップ=증가' 문형, 大幅にアップ→대폭 증가와 같은 짜임) → アップ→업 경고는 의도.
+Item#716 E_Fung04 dups=0
+JP ファイアの威力が少しアップするきば。
+KO 파이어의 위력이 조금 증가하는 이빨.
+Item#717 F_Accessory02 dups=0
+JP {1:color}キマグレベルト{2:color}はいっぱいです！
+KO {1:color}변덕벨트{2:color} FULL!
+Item#718 F_UltraKinoko dups=0
+JP {1:color}ウルトラキノコ{2:color}はいっぱいです！
+KO {1:color}울트라버섯{2:color} FULL!
+Item#719 N_Badge02 dups=0
+JP ボーナスバッジ
+KO 보너스배지
+Item#724 E_AItm03 dups=0
+JP {1:align}どかんに入ったキャラクターをよく見て / マリオ{2:color}{3:icon}{4:color} ルイージ{5:color}{6:icon}{7:color} でふみつけ！ / 対象：{8:color}１体{9:color}　効果：{10:color}めまわし{11:color}
+KO {1:align}토관에 들어간 캐릭터를 잘~ 보고 / 마리오는 {2:color}{3:icon}{4:color}, 루이지는 {5:color}{6:icon}{7:color}로 밟아라! / 공격 대상: {8:color}하나{9:color}   효과: {10:color}어질어질{11:color}
+NOTE DS AItmE#3 문형 + 3DX의 ふみつけ→'밟아라!'(DS AItmE#19). 1体→'하나'(DS AItmE2). 전각 공백은 반각 공백 3칸(Item__p1~p3과 같게).
+Item#725 E_Accessory02 dups=0
+JP ランダムでブラザーアタックの消費BPが / 大きく減少する気まぐれなベルト。
+KO 랜덤으로 스페셜 어택의 소비 SP가 / 크게 감소하는 변덕스러운 벨트.
+Item#726 E_Fung05 dups=0
+JP ファイアで攻撃したときに / 敵がやけど状態になりやすくなるきば。
+KO 파이어로 공격하면 / 적이 쉽게 화상 상태가 되는 이빨.
+Item#727 E_Nut dups=0
+JP マリオとルイージの / HPが ２０回復。
+KO 마리오와 루이지의 / HP를 20 회복.
+Item#728 E_UltraKinoko dups=0
+JP マリオとルイージ どちらかの / HPが １００回復。
+KO 마리오와 루이지 중 한 명의 / HP를 100 회복.
+Item#729 F_Accessory03 dups=0
+JP {1:color}セツヤクベルト{2:color}はいっぱいです！
+KO {1:color}절약벨트{2:color} FULL!
+Item#730 N_Badge03 dups=0
+JP ブラザーバッジ
+KO 브라더배지
+Item#735 E_AItm04 dups=0
+JP {1:align}タルに入った キャラクターを覚えて / マリオ{2:color}{3:icon}{4:color} ルイージ{5:color}{6:icon}{7:color} で発射！ / ターゲット：{8:color}ランダム{9:color}　効果：{10:color}なし{11:color}
+KO {1:align}나무통에 들어간 캐릭터를 기억했다가 / 마리오는 {2:color}{3:icon}{4:color}, 루이지는 {5:color}{6:icon}{7:color}로 발사! / 공격 대상: {8:color}랜덤{9:color}   효과: {10:color}없음{11:color}
+NOTE DS AItmE#4 그대로. ランダム→'랜덤'(3DX 원문대로. DS AItmE2#4는 '전부(랜덤)').
+Item#736 E_Accessory03 dups=0
+JP ブラザーアタックの消費BPが / 少し減少するベルト。
+KO 스페셜 어택의 소비 SP가 / 조금 감소하는 벨트.
+Item#737 E_Fung06 dups=0
+JP イライラしていかり状態になりやすくなるきば。
+KO 속이 부글부글 끓어 쉽게 분노 상태가 되는 이빨.
+Item#738 N_Badge04 dups=0
+JP ミラクルバッジ
+KO 미라클배지
+Item#742 E_AItm05 dups=0
+JP {1:align}ボムへいを 素早くスライドさせて移動！ / モンスターの前に 並べて突撃！ / ターゲット：{2:color}自由に設定{3:color}　効果：{4:color}めまわし{5:color}
+KO {1:align}폭탄병을 빠르게 슬라이드해서 이동! / 몬스터 앞으로 줄 맞춰서 돌격! / 공격 대상: {2:color}자유 설정{3:color}   효과: {4:color}어질어질{5:color}
+NOTE DS AItmE#5 + 3DX의 移動. 自由に設定→'자유 설정'(DS AItmE2#5는 '전부(선택)').
+Item#743 E_Accessory04 dups=0
+JP ブラザーアタックの消費BPが / 減少するベルト。
+KO 스페셜 어택의 소비 SP가 / 감소하는 벨트.
+Item#744 E_Boots00 dups=0
+JP POWが少しアップするブーツ。
+KO POW가 조금 증가하는 부츠.
+Item#745 E_DefMame dups=0
+JP さいだいDEFが １ポイントアップ。
+KO 최대 DEF가 1포인트 증가.
+Item#746 E_Fung07 dups=0
+JP チキンを食べるとDEFがアップするきば。
+KO 치킨을 먹으면 DEF가 증가하는 이빨.
+Item#747 N_Badge05 dups=0
+JP シールドバッジ
+KO 실드배지
+Item#752 E_AItm06 dups=0
+JP {1:align}クリボーにタッチして 着火！ / 落下とファイアで ダメージアップ！ / ターゲット：{2:color}１体{3:color}　効果：{4:color}やけど{5:color}
+KO {1:align}굼바를 터치해서 불을 붙여라! / 낙하와 파이어 효과로 큰 타격을 입힌다! / 공격 대상: {2:color}하나{3:color}   효과: {4:color}화상{5:color}
+NOTE DS AItmE#6 그대로.
+Item#753 E_Accessory05 dups=0
+JP ランダムでブラザーアタックの威力がアップし / 消費BPも減少するワッペン。
+KO 랜덤으로 스페셜 어택의 위력이 증가하고 / 소비 SP도 감소하는 패치.
+Item#754 E_Boots01 dups=0
+JP POWがアップするブーツ。
+KO POW가 증가하는 부츠.
+Item#755 E_Fung08 dups=0
+JP ２回行動ができるようになるきば。
+KO 2번 행동할 수 있게 되는 이빨.
+Item#756 F_Accessory06 dups=0
+JP {1:color}ゼイタクワッペン{2:color}はいっぱいです！
+KO {1:color}사치패치{2:color} FULL!

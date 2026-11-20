@@ -1,0 +1,137 @@
+jp	ko	type	basis	source	note
+くぼみ	홈	term	DS	FEvent DS0EC "홈 아래를 파고"	DS 표기
+くぼみアイコン	홈 아이콘	ui	coined	くぼみ=홈	
+ガード	방어	term	DS	DS 대사 '방어' 34회, '가드' 0회	전투 용어('가드 성공' 등)는 '방어'. 본편 대사에서 장애물·장치 뜻(ダークスターのガード 등)이면 DS대로 '방어벽/벽/장치'
+ダメージ	타격	term	DS	DS '타격' 32회 / '대미지' 5회	'타격을 입히다/입다'. 숫자·연속 공격 문맥은 '대미지' 허용(DS: 연속 대미지)
+HIGE	SUYEOM	ui	DS	DS16A#17 "SUYEOM이나 PPUL 포인트"	능력치 로마자 표기. 일본어 ヒゲ(일반 명사)는 '수염'
+TSUNO	PPUL	ui	DS	DS16A#17	능력치 로마자 표기. 일본어 ツノ(일반 명사)는 '뿔'
+ヒゲ	수염	term	DS	DS '수염' 21회	
+ツノ	뿔	term	DS	DS16A	
+ステータス	능력	ui	DS	DS16A#27	스타 메뉴 항목명도 '능력'
+ボーナスカード	보너스 카드	item	coined	3DX 개명(DS 스크래치 카드와 방식이 다름)	3DX에서 이름·방식이 바뀌어 3DX 이름을 따름
+ブロンズランク	브론즈 보스 랭크	ui	DS	MData__mfset_MenuMes#121	쿠파 랭크. DS 한국판 표기
+シルバーランク	실버 보스 랭크	ui	DS	MData__mfset_MenuMes	쿠파 랭크
+ゴールドランク	골드 보스 랭크	ui	DS	MData__mfset_MenuMes	쿠파 랭크
+マスターランク	마스터 보스 랭크	ui	coined	DS 'X 보스 랭크' 체계	
+お気楽ブラザー	여유만만 브라더	ui	coined	랭크 업 보너스(3DX 신규)	
+経験値	EXP	term	DS	BData__mfset_WearE#28 (DS에 '경험치' 표기 없음)	
+リューグー	러즐	character	DS	DS020 "러즐이 있는 곳으로 가져가자!"	퍼즐피스를 받는 캐릭터
+マメーリア王国	콩글리아 왕국	place	official	https://www.mariowiki.com/Beanbean_Kingdom	마리오&루이지 RPG1 DX 한국판 표기
+マメーリア	콩글리아	place	official	https://www.mariowiki.com/Beanbean_Kingdom	
+ギガニンジン	기가 당근	item	DS	DS033 "기가 당근!!"	
+Dr.コキノ	오키노 선생	character	DS	DS 대사 '오키노 선생(님)' 22회	기본 '오키노 선생(님)'. DS대로 첫 소개 장면(o_peach_op_04 #1·#48 ↔ DS218 #21·#22)과 병원 이름('닥터 오키노 병원', DS129#27)만 '닥터 오키노'
+おかえしスカーフ	리턴스카프	gear	coined	DS オカエシシート=리턴시트	3DX에서 시트→스카프로 바뀜
+
+リューギー	러기	character	coined	FMsg/k_o_mushiba_80#39	リューグー=러즐(DS)의 별명. 이기(イギー)와 끝소리를 맞춤(러즐→러기). 구 '용기'는 폐기
+マリオ達	마리오 일행	term	DS	EDataSave__mfset_EMesOutline#16	기본값. 같은 장면의 DS 문장이 '마리오 형제'를 쓰면(쿠파 몸속 터치 미니게임 DS155·1AB) DS대로 '마리오 형제'. 조사 주의(형제를/형제가)
+BP	SP	term	DS	BAI__BMes_cf#4.13	확정: 3DX의 BP는 DS대로 SP(스페셜 어택과 짝). 화면 이미지(HUD·능력치)의 BP도 이미지 작업 때 SP로 고친다
+リタイア	포기	ui	DS	EMesJig#21	미니게임·챌린지를 중단하는 リタイア
+キノノ	느타리	character	DS	FEvent DS09C (3DX o_town_25_before)	3DX와 이름이 다른 NPC. DS 이름 유지
+スーさん	수림씨	character	coined	FMsg/k_o_ekubon_80#115	큐티가 스ーリム(수림)을 부르는 애칭. DS처럼 '씨'를 이름에 붙여 씀(쿠파씨·러즐씨·차크란씨)
+買い物をする	물건 사기	ui	DS	DS0D2#0 '장비 사기/아이템 사기'	블록 상점 선택지. 3DX는 장비·아이템 사기를 하나로 합침(o_koopa_37#2)
+なにも 買わない	구입하지 않음	ui	DS	DS0D2#0	블록 상점 선택지
+ブロキャットについて	블캐츠에 대해	ui	DS	DS0D2#0	블록 상점 선택지
+さいだいHIGEが １ポイントアップ	최대 SUYEOM이 1포인트 증가	term	DS	UItmE2#16 문형 + HIGE=SUYEOM(DS16A#17)	능력치 로마자 표기(HIGE=SUYEOM)에 맞춤
+さいだいTSUNOが １ポイントアップ	최대 PPUL이 1포인트 증가	term	DS	UItmE2#16 문형 + TSUNO=PPUL(DS16A#17)	능력치 로마자 표기(TSUNO=PPUL)에 맞춤
+アップ	업	term	DS	FEvent:0EC#11	이름 안의 アップ는 '업'(POW 업, 파워 업). 설명 문장의 'アップする/アップ!'는 DS 장비·아이템 설명대로 '증가'
+ダウン	다운	term	DS	BData__mfset_AItmE2#16	이름 안의 ダウン은 '다운'(POW 다운). 설명 문장의 'ダウンする/させる'는 DS대로 '감소/줄여 주는'
+チャレンジ	챌린지	term	DS	FEvent#28A.60	챌린지 홀 등 이름은 '챌린지'. 일반 '도전하다' 뜻(もう１度 チャレンジ)은 DS대로 '도전'
+お父さん	아빠	term	coined	FMsg/k_o_koopa_14#55	쿠파주니어가 쿠파를 부를 때 '아빠'. 다른 장면은 문맥대로(아내가 남편을 부르면 DS09D대로 '여보')
+お気に入り	즐겨찾기	ui	coined	BMsg/b_sys:KJGuide_O09	메뉴 기능 이름「お気に入り（★）」만 '즐겨찾기'. 대사 속 '마음에 드는 것'은 문맥대로
+らんぼうものさん	난폭한 분	character	DS	o_zutsuda_15#14 <-> DS108#29	전령이 쿠파를 부르는 말. 엔딩 배달 장면(o_koopa_end_01#24)은 DS23E#6대로 '괴팍한 분'
+マリオ達	마리오 일행	term	DS	EDataSave__mfset_EMesOutline#16	기본값. 같은 장면의 DS 문장이 다른 표현을 쓰면 DS대로(쿠파 몸속 터치 미니게임 DS155·1AB '마리오 형제', DS0F4 '마리오와 루이지'). 조사 주의(형제를/형제가)
+すべてのゲームデータを 消します。	모든 게임 데이터가 삭제됩니다.	ui	DS	MData__mfset_InitLoadMes#5	DS '이 게임의 모든 저장 데이터가 삭제됩니다.'는 3DX 화면 한 줄(277px)에 들어가지 않아 줄임
+ハズレ	꽝	ui	DS	SAI__SMes_yo#0.3	보너스 카드·추첨 결과의 '꽝'. 동사 'ハズレる/ハズレまくる'(빗나가다)는 문맥대로(DS13E '틀린 적이 없습니다')
+バトル	배틀	term	DS	BAI__BMes_cf#2.13	명사는 '배틀'. 동사 'バトルする/した'는 DS처럼 '싸우다'로 써도 된다
+星空	별하늘	term	coined	BMsg/b_sys#620	쿠파Jr. RPG 진형 이름일 때만 '별하늘'. 보통 '별이 가득한 하늘'은 문맥대로
+スーパーボーナスカード	슈퍼 보너스 카드	item	coined	ボーナスカード=보너스 카드(3DX 개명)	DS '슈퍼 스크래치 카드'(SAI__SMes_yo#0.28) 대신 3DX 이름. 3DX에는 긁는 방식 설명 없이 アタリ(당첨)만 나온다
+ウルトラボーナスカード	울트라 보너스 카드	item	coined	ボーナスカード=보너스 카드(3DX 개명)	DS '울트라 스크래치 카드'(SAI__SMes_yo#0.32) 대신 3DX 이름
+ノーマルボーナスカード	보통 보너스 카드	item	coined	ボーナスカード=보너스 카드(3DX 개명)	DS '보통 스크래치 카드' 대신 3DX 이름. 블록 상점 신사 말투에서는 '노멀 보너스 카드'(DS SAI__SMes_yo#0.100 '노멀 스크래치 카드')
+ラリー	래리	character	official	https://www.nintendo.com/kr/switch/aabpa/sp/character/	쿠파 7인조. 등껍질을 주고받는 'ラリー'(rally)는 DS AItmE#10대로 '랠리'
+POWダウン	POW 다운	term	DS	BData__mfset_AItmE2#16	스페셜 어택 효과·상태 이름. 장비 설명의 'POW DOWN状態'도 'POW 다운 상태'(DEF·SPEED도 같고, UP은 '업': 'POW 업 상태')
+メット	하잉바	enemy	official	https://namu.wiki/w/%EB%A7%88%EB%A6%AC%EC%98%A4%26%EB%A3%A8%EC%9D%B4%EC%A7%80%20RPG%201%20DX	적 이름. 점프점프헬멧(はね～るメット) 설명처럼 일반명사 헬멧을 가리키면 '헬멧'
+よろしいですか？	계속하시겠습니까?	ui	DS	MData__mfset_InitLoadMes#5	경고 뒤에 묻는 확인(삭제·덮어쓰기·되돌아가기 등). 종료 확인처럼 '계속'이 '더 한다'로 읽히면 '~하시겠습니까?'로 합친다(MenuKJ#65 '쿠파주니어 RPG를 종료하시겠습니까?')
+てきのじょうほう	적 정보	ui	coined	MenuKJ(1차 번역)	쿠파Jr. RPG 메뉴 이름. 가이드 제목(b_sys KJGuide_O04)도 같게
+せいとん	정렬	ui	coined	MenuKJ(1차 번역)	쿠파Jr. RPG 부대 정렬. せいとんのルール=정렬 규칙
+クッパメモリー	쿠파메모리	boss	DS	BData__mfset_MonN#66·67	DS '쿠파메모리M/L'(붙여 씀). 콜로세움 クッパメモリーMLX=쿠파메모리MLX
+ハナちゃん	꽃충이	boss	DS	BData__mfset_MonN#36	ハナチャン과 같은 캐릭터
+リューグーさん	러즐님	character	DS	o_mushiba_25#9 <-> DS287#43	팬들이 환호할 때 '러즐님'('すてきー！ リューグーさん！' → '멋져요―! 러즐님!'). 블로즈처럼 아는 사이가 부를 때는 DS289#57대로 '러즐씨'
+ボコスカアタック	스페셜 어택	attack	DS	BAI__BMes_cf#0.3	확정: DS대로 쿠파 쪽도 '스페셜 어택'. 마리오 쪽(ブラザーアタック)과 한 문장에 함께 나오면 '마리오 형제의/쿠파의 스페셜 어택'처럼 임자로 구분
+ボコスカポイント	스페셜 포인트	term	DS	BData__mfset_RankUpE#17	확정: 쿠파용 포인트도 DS대로 '스페셜 포인트'(약칭 SP, BP=SP 결정)
+ブラザーポイント	스페셜 포인트	term	DS	BData__mfset_RankUpE#16	확정: 마리오·루이지용 '스페셜 포인트'(약칭 SP, BP=SP 결정)
+ダークメカコビッツV２	다크메카코비츠2.0	enemy	DS	BData__mfset_MonN#69	DS 이름(V２ → 2.0)
+ゲッソーの像	징오징오상	boss	DS	BData__mfset_MonN#4	DS 이름
+パイポ	가시돌이 알	enemy	coined	BMsg/b_sys#42·#537	김수한무 계열이 던지는 가시돌이(トゲゾー)의 알. 띄어 씀
+シューリンガン	가시철구	attack	coined	BMsg/b_sys#466(퀘스트 제목)·#1125	가봉이 입에서 꺼내 던지는 가시 쇠공
+マジカルロッド	요술지팡이	enemy	DS	BData__mfset_MonN#54·#96	애번느·현인애번느의 지팡이. 힌트 문장도 같게
+ガラクタコブン	잡동부대	enemy	DS	BData__mfset_MonN#89	잡동스터(ガラクタモンスター)의 부하. 문장 속 コブン은 '부하'
+ストロー	빨대	enemy	DS	BData__mfset_MonN#39	애번느의 부하
+どうたい	몸통	enemy	DS	BData__mfset_MonN#37	꽃충이의 몸통. 힌트의 胴体도 '몸통'
+おてほん	시범	ui	DS	MAI__MMes_yo#2.12	배틀 가이드 'おてほん と れんしゅう'='시범과 연습', おてほんムービー='시범 영상'
+れんしゅう	연습	ui	DS	MAI__MMes_yo#2.12	배틀 가이드 항목
+かんたんアタックモード	간단 어택 모드	ui	coined	BMsg/b_sys#1198(BtlGuide_18)	3DX 신규
+ブーメランランク	부메랑 랭크	term	coined	Menu#841, FMsg/o_areanone_end_03_L#7	확정: 3DX 개명을 따름(DS 'シャインランク'=샤인 랭크). 보너스 카드와 같은 원칙
+カウントパンチ	카운트 펀치	attack	coined	BMsg/b_sys#605	다크메카코비츠의 공격
+ダークビームパンチ	다크 빔 펀치	attack	coined	BMsg/b_sys#627	다크메카코비츠의 공격
+シャドービーム	섀도 빔	attack	coined	BMsg/b_sys#606	다크스타의 공격
+弾吐きノック	탄 뱉어 치기	attack	coined	BMsg/b_sys#1053	프로프가 탄을 뱉어 몽둥이로 치는 공격
+行列体当たり	행렬 몸통 박치기	attack	coined	BMsg/b_sys#1053·#1157	납작충이 무리의 공격. 体当たり=몸통 박치기
+スターエネルギーガン	스타 에너지 건	attack	coined	BMsg b_sys p11	다크까르코비츠의 공격
+イモーヌウェップ	애번느 웹	attack	coined	BMsg b_sys p12	애번느가 입으로 실을 뱉는 공격
+スターダッシュ	스타 대시	attack	coined	BMsg b_sys p14	쿠파메모리M의 공격
+フリフリバケツ	흔들흔들 양동이	attack	coined	BMsg b_sys p16	점프점프헬멧 미니게임·적 공격 이름(W05)
+目隠しプレス	눈가림 프레스	attack	coined	BMsg b_sys p16	적 공격 이름(W05)
+
+アッチコッチ	아무 데나	other	coined	BMsg/b_sys#1609(SpAtk_07_0)	설명 문장에서는 맞춤법대로 띄어 쓴다. 공격 이름은 DS대로 '아무데나창문'(붙여 씀). '여기저기' 뜻이면 문맥대로(b_sys#910)
+
+アタック	어택	term	DS	BDataMiniGame__mfset_MesDat_MiniGame#5	스페셜 어택을 줄여 부를 때 '어택'. 次のアタック처럼 일반 공격을 뜻하면 '공격'(Item#463·#480, DS BadgeEffectE '다음 공격이 N배로'). 퀴즈의 パンチアタック/ファイアアタック은 DS대로 '~ 공격'
+うちけし	스킬 지우기	ability	official	1DX-KR:BMsg.dat:k_sys#48	RPG1 DX 한국판 리더 액션명(k_sys#48·#316·#641, 버튼 btn_KGLA_TX_n01). 동사 うちけす는 '(스킬을) 지우다' [gl_kj; 리드 2026-09-30, 예전 신조어 '무효화']
+ころび	꽈당	term	official	1DX-KR:BMsg.dat:b_sys#341	RPG1 DX 한국판 상태 이상명(b_sys#341, Item#430 '독/어질어질/꽈당', 스프라이트 bui_sys_badstatname) [gl_attacks; 리드 2026-09-30, 예전 신조어 '넘어짐']
+サンダー	선더	ability	official	1DX-KR:BMsg.dat:k_sys#95	RPG1 DX 한국판 리더 액션명(k_sys#95·#349, 버튼 btn_KGLA_TX_n05; '선더 브러스'도 같은 표기) [gl_kj; 리드 2026-09-30, 예전 '썬더']
+ドッスンおとし	쿵쿵 떨어트리기	ability	official	1DX-KR:BMsg.dat:k_sys#123	RPG1 DX 한국판 리더 액션명(k_sys#123·#847, 설명 #693 '쿵쿵을 떨어트려', 버튼 btn_KGLA_TX_n08) [gl_kj; 리드 2026-09-30, 예전 신조어 '쿵쿵 떨구기']
+すけっと	도우미	ability	official	1DX-KR:BMsg.dat:k_sys#587	RPG1 DX 한국판 헤이호 대장 스킬명(k_sys#587 KMsg_la_name_10, #881 KGGuide_BA33, 전투 KMsgBtl_la_suketto_01 '도우미 컴온!!'). 「がすけっとに来てくれた！」→'가 도우미로 와 주었다!' [gl_kj; 클라우드 2026-09-30, 예전 신조어 '지원군']
+やみうち	허 찌르기	ability	official	1DX-KR:BMsg.dat:k_sys#601	RPG1 DX 한국판 부끄부끄 대장 스킬명(k_sys#601 KMsg_la_name_11, #890 KGGuide_BA34, 라벨 la_yamiiuchi) [gl_kj; 클라우드 2026-09-30, 예전 신조어 '기습']
+みきり	회피	ability	official	1DX-KR:BMsg.dat:k_sys#106	RPG1 DX 한국판 리더 액션명(k_sys#106 KMsg_la_name_05, #358 KGGuide_BA28, 라벨 la_mikiri). 장신구 みきりグラス는 '간파안경'(따로 행) [gl_kj; 클라우드 2026-09-30, 예전 신조어 '간파']
+脳天かちわり	정수리 깨기	attack	official	1DX-KR:BMsg.dat:k_sys#355	RPG1 DX 한국판 공격명(k_sys#355 KMsg_cw_04, #172 KGGuide_BA04, 설명 같음) [gl_kj; 클라우드 2026-09-30, 예전 신조어 '정수리 찍기']
+ブン投げ	내던지기	attack	official	1DX-KR:BMsg.dat:k_sys#371	RPG1 DX 한국판 공격명(k_sys#371 KMsg_cw_06, #191 KGGuide_BA06 '큰 무기를 내던져') [gl_kj; 클라우드 2026-09-30, 예전 신조어 '힘껏 던지기']
+ぶちかまし	튕겨내기	attack	official	1DX-KR:BMsg.dat:k_sys#379	RPG1 DX 한국판 공격명(k_sys#379 KMsg_cw_07, KGGuide_BA07, 설명 같음) [gl_kj; 클라우드 2026-09-30, 예전 신조어 '들이받기']
+たたきつけ	내동댕이	attack	official	1DX-KR:BMsg.dat:k_sys#928	RPG1 DX 한국판 공격명(k_sys#928 KMsg_cw_15, #724 KGGuide_BA14 '내동댕이쳐서'). 동사 叩きつける는 '내동댕이치다' [gl_kj; 클라우드 2026-09-30, 예전 신조어 '내리치기']
+ぶちぬき	관통 공격	attack	official	1DX-KR:BMsg.dat:k_sys#4	RPG1 DX 한국판 공격명(k_sys#4 KMsg_cw_18, #744 KGGuide_BA17, 설명 같음) [gl_kj; 클라우드 2026-09-30, 예전 신조어 '꿰뚫기']
+ロケットずつき	로켓 박치기	attack	official	1DX-KR:BMsg.dat:k_sys#346	RPG1 DX 한국판 공격명(k_sys#346 KMsg_cw_03, #163 KGGuide_BA03) [gl_kj; 클라우드 2026-09-30, 예전 '로켓박치기']
+３すくみ	3상성	term	official	1DX-KR:BMsg.dat:k_sys#631	RPG1 DX 한국판(k_sys#631 KGGuide_BB07 '3상성에 대해', #940, #815 '이게 3상성이라는 거야'). 가위바위보식 상성 [gl_kj; 클라우드 2026-09-30, 예전 신조어 '삼각 상성']
+軍団魂	군단의 혼	term	official	1DX-KR:BMsg.dat:k_sys#76	RPG1 DX 한국판(k_sys#76 KGGuide_BB05_6 'GDH는 군단의 혼…', #443 '군단의 혼을 보여주겠어!!'). GDD=GDH는 이 말의 머리글자 [gl_kj; 클라우드 2026-09-30, 예전 '군단혼'(나무위키 표기, 1DX 본문에 없음)]
+クッパ軍団魂	쿠파 군단의 혼	term	official	1DX-KR:BMsg.dat:k_sys#76	軍団魂=군단의 혼(1DX) + クッパ軍団=쿠파 군단(DS) [gl_kj; 클라우드 2026-09-30, 예전 '쿠파 군단혼']
+クッパ７人衆	쿠파7인조	character	official	1DX-KR:BMsg.dat:k_sys#409	RPG1 DX 한국판은 43회 모두 붙여 씀(KMsgChr_exp_lemmy 등 7인 설명, KMsg_quest_65 '쿠파군단 VS 쿠파7인조', KMsg_b_skill_38 '우리는 쿠파7인조!'). 3DX 원문에 'コクッパ'는 나오지 않음 [gl_kj; 클라우드 2026-09-30, 예전 '쿠파 7인조'(나무위키)]
+取扱説明書	사용설명서	ui	official	1DX-KR:ComErr.msbt#25	닌텐도 표준 문구 '본체 사용설명서에 기재되어 있는'(1DX ComErr#25·#26) [gl_kj; 클라우드 2026-09-30, 예전 추정 '취급설명서']
+任天堂サービスセンター	한국닌텐도 고객지원센터	ui	official	1DX-KR:ComErr.msbt#25	닌텐도 표준 문구 '한국닌텐도 고객지원센터로 문의해 주십시오'(1DX ComErr#25·#26) [gl_kj; 클라우드 2026-09-30, 예전 추정 '닌텐도 서비스 센터']
+赤外線受発光部	적외선 포트	ui	official	1DX-KR:ComErr.msbt#9	닌텐도 표준 문구 '본체의 적외선 포트에'(1DX ComErr#9) [gl_kj; 클라우드 2026-09-30, 예전 신조어 '적외선 송수신부']
+HPマメ	HP 콩	item	official	1DX-KR:BMsg.dat:k_sys#30	RPG1 DX 한국판 같은 라벨(N_/Ns_Item*)의 표기, 띄어 씀 [gl_kj; 클라우드 2026-09-30, 예전 DS식 붙여 쓰기]
+POWマメ	POW 콩	item	official	1DX-KR:BMsg.dat:k_sys#751	RPG1 DX 한국판 같은 라벨(N_/Ns_Item*)의 표기, 띄어 씀 [gl_kj; 클라우드 2026-09-30, 예전 DS식 붙여 쓰기]
+DEFマメ	DEF 콩	item	official	1DX-KR:BMsg.dat:k_sys#197	RPG1 DX 한국판 같은 라벨(N_/Ns_Item*)의 표기, 띄어 씀 [gl_kj; 클라우드 2026-09-30, 예전 DS식 붙여 쓰기]
+SPEEDマメ	SPEED 콩	item	official	1DX-KR:BMsg.dat:k_sys#538	RPG1 DX 한국판 같은 라벨(N_/Ns_Item*)의 표기, 띄어 씀 [gl_kj; 클라우드 2026-09-30, 예전 DS식 붙여 쓰기]
+GDDマメ	GDH 콩	item	official	1DX-KR:BMsg.dat:k_sys#947	RPG1 DX 한국판 같은 라벨(N_/Ns_Item*)의 표기, 띄어 씀 [gl_kj; 클라우드 2026-09-30, 예전 DS식 붙여 쓰기]
+スーパーEXPマメS	슈퍼 EXP 콩 S	item	official	1DX-KR:BMsg.dat:k_sys#406	RPG1 DX 한국판 같은 라벨(N_/Ns_Item*)의 표기, 띄어 씀 [gl_kj; 클라우드 2026-09-30, 예전 DS식 붙여 쓰기]
+トツゲキEXPマメS	돌격 EXP 콩 S	item	official	1DX-KR:BMsg.dat:k_sys#257	RPG1 DX 한국판 같은 라벨(N_/Ns_Item*)의 표기, 띄어 씀 [gl_kj; 클라우드 2026-09-30, 예전 DS식 붙여 쓰기]
+エンキョリEXPマメS	원거리 EXP 콩 S	item	official	1DX-KR:BMsg.dat:k_sys#366	RPG1 DX 한국판 같은 라벨(N_/Ns_Item*)의 표기, 띄어 씀 [gl_kj; 클라우드 2026-09-30, 예전 DS식 붙여 쓰기]
+ヒコウEXPマメS	비행 EXP 콩 S	item	official	1DX-KR:BMsg.dat:k_sys#546	RPG1 DX 한국판 같은 라벨(N_/Ns_Item*)의 표기, 띄어 씀 [gl_kj; 클라우드 2026-09-30, 예전 DS식 붙여 쓰기]
+スーパーEXPマメM	슈퍼 EXP 콩 M	item	official	1DX-KR:BMsg.dat:k_sys#356	RPG1 DX 한국판 같은 라벨(N_/Ns_Item*)의 표기, 띄어 씀 [gl_kj; 클라우드 2026-09-30, 예전 DS식 붙여 쓰기]
+トツゲキEXPマメM	돌격 EXP 콩 M	item	official	1DX-KR:BMsg.dat:k_sys#206	RPG1 DX 한국판 같은 라벨(N_/Ns_Item*)의 표기, 띄어 씀 [gl_kj; 클라우드 2026-09-30, 예전 DS식 붙여 쓰기]
+エンキョリEXPマメM	원거리 EXP 콩 M	item	official	1DX-KR:BMsg.dat:k_sys#315	RPG1 DX 한국판 같은 라벨(N_/Ns_Item*)의 표기, 띄어 씀 [gl_kj; 클라우드 2026-09-30, 예전 DS식 붙여 쓰기]
+ヒコウEXPマメM	비행 EXP 콩 M	item	official	1DX-KR:BMsg.dat:k_sys#495	RPG1 DX 한국판 같은 라벨(N_/Ns_Item*)의 표기, 띄어 씀 [gl_kj; 클라우드 2026-09-30, 예전 DS식 붙여 쓰기]
+スーパーEXPマメL	슈퍼 EXP 콩 L	item	official	1DX-KR:BMsg.dat:k_sys#347	RPG1 DX 한국판 같은 라벨(N_/Ns_Item*)의 표기, 띄어 씀 [gl_kj; 클라우드 2026-09-30, 예전 DS식 붙여 쓰기]
+トツゲキEXPマメL	돌격 EXP 콩 L	item	official	1DX-KR:BMsg.dat:k_sys#198	RPG1 DX 한국판 같은 라벨(N_/Ns_Item*)의 표기, 띄어 씀 [gl_kj; 클라우드 2026-09-30, 예전 DS식 붙여 쓰기]
+エンキョリEXPマメL	원거리 EXP 콩 L	item	official	1DX-KR:BMsg.dat:k_sys#305	RPG1 DX 한국판 같은 라벨(N_/Ns_Item*)의 표기, 띄어 씀 [gl_kj; 클라우드 2026-09-30, 예전 DS식 붙여 쓰기]
+ヒコウEXPマメL	비행 EXP 콩 L	item	official	1DX-KR:BMsg.dat:k_sys#483	RPG1 DX 한국판 같은 라벨(N_/Ns_Item*)의 표기, 띄어 씀 [gl_kj; 클라우드 2026-09-30, 예전 DS식 붙여 쓰기]
+スーパーEXPマメDX	슈퍼 EXP 콩 DX	item	official	1DX-KR:BMsg.dat:k_sys#465	RPG1 DX 한국판 같은 라벨(N_/Ns_Item*)의 표기, 띄어 씀 [gl_kj; 클라우드 2026-09-30, 예전 DS식 붙여 쓰기]
+トツゲキEXPマメDX	돌격 EXP 콩 DX	item	official	1DX-KR:BMsg.dat:k_sys#786	RPG1 DX 한국판 같은 라벨(N_/Ns_Item*)의 표기, 띄어 씀 [gl_kj; 클라우드 2026-09-30, 예전 DS식 붙여 쓰기]
+エンキョリEXPマメDX	원거리 EXP 콩 DX	item	official	1DX-KR:BMsg.dat:k_sys#139	RPG1 DX 한국판 같은 라벨(N_/Ns_Item*)의 표기, 띄어 씀 [gl_kj; 클라우드 2026-09-30, 예전 DS식 붙여 쓰기]
+ヒコウEXPマメDX	비행 EXP 콩 DX	item	official	1DX-KR:BMsg.dat:k_sys#720	RPG1 DX 한국판 같은 라벨(N_/Ns_Item*)의 표기, 띄어 씀 [gl_kj; 클라우드 2026-09-30, 예전 DS식 붙여 쓰기]
+HPチキン	HP 치킨	item	coined	BMsg/b_sys (3DX 신규)	1DX에 없는 아이템. 같은 목록의 콩 아이템(1DX 'HP 콩', '슈퍼 EXP 콩 S')처럼 띄어 씀 [gl_kj; 클라우드 2026-09-30]
+POWチキン	POW 치킨	item	coined	BMsg/b_sys (3DX 신규)	1DX에 없는 아이템. 같은 목록의 콩 아이템(1DX 'HP 콩', '슈퍼 EXP 콩 S')처럼 띄어 씀 [gl_kj; 클라우드 2026-09-30]
+DEFチキン	DEF 치킨	item	coined	BMsg/b_sys (3DX 신규)	1DX에 없는 아이템. 같은 목록의 콩 아이템(1DX 'HP 콩', '슈퍼 EXP 콩 S')처럼 띄어 씀 [gl_kj; 클라우드 2026-09-30]
+SPEEDチキン	SPEED 치킨	item	coined	BMsg/b_sys (3DX 신규)	1DX에 없는 아이템. 같은 목록의 콩 아이템(1DX 'HP 콩', '슈퍼 EXP 콩 S')처럼 띄어 씀 [gl_kj; 클라우드 2026-09-30]
+GDDチキン	GDH 치킨	item	coined	BMsg/b_sys (3DX 신규)	1DX에 없는 아이템. 같은 목록의 콩 아이템(1DX 'HP 콩', '슈퍼 EXP 콩 S')처럼 띄어 씀 [gl_kj; 클라우드 2026-09-30]
+EXPチキンS	EXP 치킨 S	item	coined	BMsg/b_sys (3DX 신규)	1DX에 없는 아이템. 같은 목록의 콩 아이템(1DX 'HP 콩', '슈퍼 EXP 콩 S')처럼 띄어 씀 [gl_kj; 클라우드 2026-09-30]
+EXPチキンM	EXP 치킨 M	item	coined	BMsg/b_sys (3DX 신규)	1DX에 없는 아이템. 같은 목록의 콩 아이템(1DX 'HP 콩', '슈퍼 EXP 콩 S')처럼 띄어 씀 [gl_kj; 클라우드 2026-09-30]
+EXPチキンL	EXP 치킨 L	item	coined	BMsg/b_sys (3DX 신규)	1DX에 없는 아이템. 같은 목록의 콩 아이템(1DX 'HP 콩', '슈퍼 EXP 콩 S')처럼 띄어 씀 [gl_kj; 클라우드 2026-09-30]
+EXPチキンDX	EXP 치킨 DX	item	coined	BMsg/b_sys (3DX 신규)	1DX에 없는 아이템. 같은 목록의 콩 아이템(1DX 'HP 콩', '슈퍼 EXP 콩 S')처럼 띄어 씀 [gl_kj; 클라우드 2026-09-30]

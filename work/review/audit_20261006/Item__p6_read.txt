@@ -1,0 +1,80 @@
+Item#757 N_Badge06 dups=0
+JP ビギナーバッジ
+KO 비기너배지
+Item#763 E_AItm07 dups=0
+JP {1:align}←向きに 素早く何度もスライドして / ヒモを引っ張り ダメージアップ！ / ターゲット：{2:color}１体　{3:color}効果：{4:color}なし{5:color}
+KO {1:align}←방향으로 빠르게 여러 번 슬라이드해서 / 끈을 당기자! 많이 당기면 타격도 커진다! / 공격 대상: {2:color}하나   {3:color}효과: {4:color}없음{5:color}
+NOTE DS AItmE#7 그대로. 1体→'하나'(DS AItmE2). 전각 공백은 반각 공백 3칸(Item__p1~p3과 같게).
+Item#764 E_Accessory06 dups=0
+JP ブラザーアタックの消費BPが増えるが / 威力も上がるワッペン。
+KO 스페셜 어택의 소비 SP가 늘지만 / 위력도 올라가는 패치.
+Item#765 E_Boots02 dups=0
+JP HPが満タンの時に POWがアップするブーツ。
+KO HP가 가득일 때 POW가 증가하는 부츠.
+Item#766 E_Fung09 dups=0
+JP ブリロックからもらったきば。 / DEFがアップする効果。
+KO 블로크에게 받은 이빨. / DEF가 증가하는 효과.
+NOTE ブリロック=블로크(glossary; DS MenuMes#44 '블로크에게 받은…').
+Item#767 F_Accessory07 dups=0
+JP {1:color}ゴーカイワッペン{2:color}はいっぱいです！
+KO {1:color}호탕패치{2:color} FULL!
+Item#768 F_Shell03 dups=0
+JP {1:color}けっせんコウラ{2:color}はいっぱいです！
+KO {1:color}결전등껍질{2:color} FULL!
+Item#769 N_Badge07 dups=0
+JP ベテランバッジ
+KO 베테랑배지
+Item#772 E_AItm08 dups=0
+JP {1:align}マリオ{2:color}{3:icon}{4:color} ルイージ{5:color}{6:icon}{7:color} でキック！ / ラリーを続けるほどダメージアップ！ / ターゲット：{8:color}１体　{9:color}効果：{10:color}なし{11:color}
+KO {1:align}마리오는 {2:color}{3:icon}{4:color}, 루이지는 {5:color}{6:icon}{7:color}로 킥! / 랠리가 계속될수록 타격도 커진다! / 공격 대상: {8:color}하나   {9:color}효과: {10:color}없음{11:color}
+NOTE 여기 ラリー는 캐릭터 래리가 아니라 등껍질 주고받기(rally) → DS AItmE#10의 '랠리'. ラリー→래리 경고는 오탐. 1행은 DS AItmE#8 그대로, 3DX에서 바뀐 2행은 DS AItmE#10 문형.
+Item#773 E_Accessory07 dups=0
+JP ブラザーアタックの消費BPと / 威力を大幅に上げるワッペン。
+KO 스페셜 어택의 소비 SP와 / 위력을 대폭 올리는 패치.
+Item#774 E_Boots03 dups=0
+JP ブラザーアタックの威力が少しアップするブーツ。
+KO 스페셜 어택의 위력이 조금 증가하는 부츠.
+Item#775 F_Shell04 dups=0
+JP {1:color}がんせきコウラ{2:color}はいっぱいです！
+KO {1:color}암석등껍질{2:color} FULL!
+Item#776 N_Badge08 dups=0
+JP マスターバッジ
+KO 마스터배지
+Item#778 E_1upKinoko dups=0
+JP 倒れた なかまが / HPはんぶんで ふっかつ。
+KO 기절한 파트너가 / HP 1/2로 부활.
+Item#779 E_Accessory08 dups=0
+JP 敵の攻撃を１度だけ防いでくれる小さな貝殻。
+KO 적의 공격을 한 번만 막아 주는 작은 방패.
+NOTE 貝殻→'방패'(glossary スモールシェル 주석). #785도 같음.
+Item#780 E_Boots04 dups=0
+JP ずっしり重たいヘビィなブーツ。 / ジャンプの威力がアップする効果。
+KO 묵직하고 무거운 헤비한 부츠. / 점프의 위력이 증가하는 효과.
+NOTE ずっしり重たいヘビィな(같은 뜻을 겹친 말장난)→'묵직하고 무거운 헤비한'.
+Item#781 F_MaxCheese dups=0
+JP {1:color}ミラクルチーズ{2:color}はいっぱいです！
+KO {1:color}미라클치즈{2:color} FULL!
+Item#782 N_Badge09 dups=0
+JP エキスパートバッジ
+KO 엑스퍼트배지
+Item#785 E_Accessory09 dups=0
+JP 敵の攻撃を何回か防いでくれる大きな貝殻。
+KO 적의 공격을 몇 번 막아 주는 큰 방패.
+Item#786 E_Boots05 dups=0
+JP POWが大幅にアップするが ダメージを受けると / 一発でたおれてしまう とっても危険なブーツ。
+KO POW가 대폭 증가하지만 타격을 입으면 / 한 방에 쓰러져 버리는 아주 위험한 부츠.
+Item#787 F_Shell06 dups=0
+JP {1:color}あばれんぼコウラ{2:color}はいっぱいです！
+KO {1:color}난폭등껍질{2:color} FULL!
+Item#789 E_Boots06 dups=0
+JP ブラザーアタック「みどりコウラ」の / 威力がアップするブーツ。
+KO 스페셜 어택 「초록등껍질」의 / 위력이 증가하는 부츠.
+Item#790 F_Kinoko dups=0
+JP {1:color}キノコ{2:color}はいっぱいです！
+KO {1:color}버섯{2:color} FULL!
+Item#796 E_Boots07 dups=0
+JP ジャンプで攻撃した敵を たまに / めまわし状態にするブーツ。
+KO 점프로 공격한 적을 가끔 / 어질어질 상태로 만드는 부츠.
+Item#797 F_Shell08 dups=0
+JP {1:color}まじんコウラ{2:color}はいっぱいです！
+KO {1:color}괴물등껍질{2:color} FULL!

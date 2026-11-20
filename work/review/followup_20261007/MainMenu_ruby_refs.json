@@ -1,0 +1,134 @@
+{
+  "path": "C:\\AI-Projects\\mario-luigi-rpg-3dx-korean-patch\\romf2\\RO\\MainMenu.cro",
+  "sha256": "cc42b47f9041206879da695a88b648f2825373fcf86bf690b8e5deb9f62d7aa6",
+  "fields": [
+    810504771,
+    167936,
+    0,
+    0,
+    225280,
+    88,
+    0,
+    0,
+    2319104,
+    4294967295,
+    4294967295,
+    4294967295,
+    384,
+    167552,
+    221404,
+    976,
+    167936,
+    9,
+    167948,
+    5,
+    168008,
+    2,
+    168040,
+    0,
+    168040,
+    29,
+    168024,
+    2,
+    168072,
+    0,
+    168072,
+    1004,
+    180120,
+    447,
+    183696,
+    0,
+    183696,
+    0,
+    183696,
+    16299,
+    199996,
+    0,
+    199996,
+    1784,
+    199996,
+    0
+  ],
+  "segments": [
+    [
+      384,
+      145484,
+      0
+    ],
+    [
+      147456,
+      17548,
+      1
+    ],
+    [
+      221404,
+      976,
+      2
+    ],
+    [
+      0,
+      56,
+      3
+    ],
+    [
+      0,
+      0,
+      0
+    ]
+  ],
+  "strings": {
+    "44240": "SET_TAB_EQUIP",
+    "135152": "MENU_SET_L.bflyt",
+    "135224": "MES_setting_ruby",
+    "135276": "MES_setting_easy",
+    "135324": "MES_setting_assist",
+    "137221": "MENU_SET",
+    "154611": "N9main_menu20MainMenu_SettingPage4CoreE",
+    "154651": "N9main_menu20MainMenu_SettingPageE",
+    "184220": "_ZN10MessageSys11_RubyEnableE"
+  },
+  "refs": [
+    {
+      "site": 43544,
+      "target": 44240,
+      "text": "SET_TAB_EQUIP",
+      "type": "ADR"
+    },
+    {
+      "site": 134376,
+      "target": 135152,
+      "text": "MENU_SET_L.bflyt",
+      "type": "ADR"
+    },
+    {
+      "site": 134636,
+      "target": 135224,
+      "text": "MES_setting_ruby",
+      "type": "ADR"
+    },
+    {
+      "site": 134844,
+      "target": 135276,
+      "text": "MES_setting_easy",
+      "type": "ADR"
+    },
+    {
+      "site": 135056,
+      "target": 135324,
+      "text": "MES_setting_assist",
+      "type": "ADR"
+    },
+    {
+      "site": 152640,
+      "target": 154611,
+      "text": "N9main_menu20MainMenu_SettingPage4CoreE",
+      "type": "REL2"
+    },
+    {
+      "site": 152652,
+      "target": 154651,
+      "text": "N9main_menu20MainMenu_SettingPageE",
+      "type": "REL2"
+    }
+  ]
+}

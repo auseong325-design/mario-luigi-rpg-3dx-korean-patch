@@ -45,7 +45,7 @@
   "FMsg/o_koopa_13_1#3": "{1:align}저런! 벌써\n식사를 마치시게요?{2:wait}",
   "FMsg/o_koopa_13_1#4": "{1:align}모처럼 쿠파님을 위해\n고칼로리 고지방 요리를…{2:wait}[Next]잔~뜩 준비했는걸요.{3:wait}",
   "FMsg/o_koopa_13_1#5": "{1:align}자~\n더 많이 드세요!{2:wait}",
-  "FMsg/o_koopa_13_1#6": "{1:align}{2:align}에이~ 그런 말씀 마시고…{3:wait}[Next]{4:align}{5:align}그럼!{6:pause} 저희가 직접\n먹여 드리죠!{7:wait}[Next]{8:align}{9:align}자!{10:pause} 어서!{11:pause} 이쪽으로 오세요!{12:wait}",
+  "FMsg/o_koopa_13_1#6": "{1:align}{2:align}에이~ 그런 말씀 마시고…{3:wait}[Next]{4:align}{5:align}그럼{6:pause} 저희가 직접\n먹여 드리죠!{7:wait}[Next]{8:align}{9:align}자!{10:pause} 어서!{11:pause} 이쪽으로 오세요!{12:wait}",
   "FMsg/o_koopa_13_1#7": "{1:align}{2:align}우왓!{3:wait}",
   "FMsg/o_koopa_13_1#8": "{1:align}{2:align}진수성찬이구나!!{3:wait}",
   "FMsg/o_koopa_13_1#10": "{1:align}기름 좔좔 흐르는, 몸에 안 좋아\n보이는 요리가 잔뜩이구나!{2:wait}",
@@ -61,6 +61,7 @@
   "FMsg/o_koopa_09_2_gerashow_01_U#33": "3DX 'もと！{pause} 大魔王の！！'의 멈춤에 맞춰 DS02D#8 '원래 대마왕이었던!!'을 '원래!{pause} 대마왕이었던!!'으로 나눔.",
   "FMsg/o_koopa_13_1#0": "DS041#2는 한 페이지 3줄, 3DX는 2페이지라 페이지 경계만 3DX에 맞춤(#4도 같음).",
   "FMsg/o_koopa_13_1#4": "2페이지 'た～くさん'은 DS041#10에 없어서 '잔~뜩'을 더함.",
-  "FMsg/o_koopa_13_1#10": "DS041#5 뒷부분 '그동안 그토록 먹고 싶었던'은 3DX 원문에 없어 빼고, 3DX처럼 2줄로 맞춤."
+  "FMsg/o_koopa_13_1#10": "DS041#5 뒷부분 '그동안 그토록 먹고 싶었던'은 3DX 원문에 없어 빼고, 3DX처럼 2줄로 맞춤.",
+  "FMsg/o_koopa_13_1#6": "review: 2026-10-06 DS041#13과 뜻이 같은 문구에 추가된 느낌표 제거. 3DX 뜸 태그 유지."
  }
 }

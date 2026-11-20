@@ -1,0 +1,338 @@
+Item#0 E_Boots08 dups=0
+JP ジャンプで攻撃した敵を たまに / POW DOWN状態にするブーツ。
+KO 점프로 공격한 적을 가끔 / POW 다운 상태로 만드는 부츠.
+NOTE glossary 'POW DOWN=POW 다운'을 따름. 그런데 'POWダウン' 항목 note에는 '장비 설명의 POW DOWN状態는 로마자 유지'라고 되어 있어 서로 충돌함. 로마자로 바꾸면 'POW DOWN 상태' — 리드 확인 필요 review: 리드 결정(style_guide 5.1 '능력치 상태 이름')과 지금 glossary 'POWダウン' 주석이 모두 'POW 다운 상태'라 질문 해소, 번역 유지.
+Item#1 E_Socks00 dups=0
+JP HPが少しアップするソックス。
+KO HP가 조금 증가하는 양말.
+Item#2 F_Shell09 dups=0
+JP {1:color}さいきょうコウラ{2:color}はいっぱいです！
+KO {1:color}최강등껍질{2:color} FULL!
+Item#3 Ns_Accessory04 dups=1
+JP ヒキシメベルト
+KO 초절약벨트
+Item#4 Ns_HeartMame dups=1
+JP ハートマメ
+KO 하트콩
+Item#5 Ns_Socks20 dups=1
+JP まんタンソックス
+KO 가득양말
+Item#6 E_Boots09 dups=0
+JP ぼうぎょアクションに成功すると / 敵を やけどにすることがあるブーツ。
+KO 방어 액션에 성공하면 / 적에게 화상을 입히기도 하는 부츠.
+Item#7 E_Socks01 dups=0
+JP HPがアップするソックス。
+KO HP가 증가하는 양말.
+Item#8 E_Wear10 dups=0
+JP 着るとムキムキになるウェア。 / クリティカルとラッキーヒットの威力がアップ！
+KO 입으면 근육이 울끈불끈해지는 웨어. / 크리티컬과 럭키 히트의 위력이 증가!
+Item#9 N_GekiChicken dups=1
+JP げきからチキン
+KO 아주매운치킨
+Item#10 Ns_Accessory05 dups=1
+JP オススメワッペン
+KO 추천패치
+Item#11 Ns_Socks21 dups=1
+JP キノコソックス
+KO 버섯양말
+Item#12 E_Socks02 dups=0
+JP BPが少しアップするソックス。
+KO SP가 조금 증가하는 양말.
+Item#13 E_SuperNut dups=0
+JP マリオとルイージの / HPが ４０回復。
+KO 마리오와 루이지의 / HP를 40 회복.
+Item#14 E_UltraSyrup dups=0
+JP マリオとルイージ どちらかの / BPが ６０回復。
+KO 마리오와 루이지 중 한 명의 / SP를 60 회복.
+Item#15 E_Wear11 dups=0
+JP バトルをきわめる人のためのウェア。 / クリティカルとラッキーヒットの威力がアップ！
+KO 배틀의 달인을 위한 웨어. / 크리티컬과 럭키 히트의 위력이 증가!
+Item#16 Ns_Accessory06 dups=1
+JP ゼイタクワッペン
+KO 사치패치
+Item#17 Ns_Socks22 dups=1
+JP バッジソックス
+KO 배지양말
+Item#18 E_Shell00 dups=0
+JP クッパ専用のトゲつきコウラ。
+KO 쿠파 전용 가시 달린 등껍질.
+Item#19 E_Socks03 dups=0
+JP BPがアップするソックス。
+KO SP가 증가하는 양말.
+Item#20 E_Wear12 dups=0
+JP キングの風格ただようウェア。 / 敵を倒すとPOWがアップ！
+KO 왕의 기품이 넘치는 웨어. / 적을 쓰러뜨리면 POW가 증가!
+Item#21 F_HeartMame dups=0
+JP {1:color}ハートマメ{2:color}はいっぱいです！
+KO {1:color}하트콩{2:color} FULL!
+Item#22 N_Glove10 dups=1
+JP ドレイングラブ
+KO 드레인글러브
+Item#23 Ns_Accessory07 dups=1
+JP ゴーカイワッペン
+KO 호탕패치
+Item#24 EFF_Badge_02_06 dups=0
+JP バトル終了時に獲得コインが {1:color}２{2:color}倍。
+KO 배틀 종료 시 획득 코인이 {1:color}2{2:color}배.
+Item#25 E_AItm20 dups=0
+JP {1:align}カメックの杖の光を素早く なぞって / クッパのファイアで 魔法がパワーアップ！ / ターゲット：{2:color}ランダム{3:color}　効果：{4:color}やけど{5:color}
+KO {1:align}마귀 지팡이의 빛을 빠르게 따라 그리고 / 쿠파의 파이어로 마법이 파워 업! / 공격 대상: {2:color}랜덤{3:color}   효과: {4:color}화상{5:color}
+NOTE ターゲット：ランダム → '랜덤'(3DX 표기). DS AItmE2는 '전부(랜덤)'
+Item#26 E_Shell01 dups=0
+JP オーダーメイドで発注した コウラ。 / めまわしを完全ガードする効果。
+KO 특별히 주문 제작한 등껍질. / 어질어질 상태를 완전히 방어하는 효과.
+Item#27 E_Socks04 dups=0
+JP チョコマカ動ける不思議なソックス。 / バトルで誰よりも早い最初の攻撃を強化！
+KO 후다닥 움직일 수 있는 신기한 양말. / 배틀에서 누구보다 빠른 첫 공격을 강화!
+Item#28 E_Wear13 dups=0
+JP 真のスターのためのウェア。 / おそいモンスターの攻撃につよくなる効果。
+KO 진정한 스타를 위한 웨어. / 느린 몬스터의 공격에 강해지는 효과.
+Item#29 N_Glove11 dups=1
+JP ポコポコグラブ
+KO 우당탕글러브
+Item#30 Ns_Accessory08 dups=1
+JP スモールシェル
+KO 작은방패
+Item#31 EFF_Badge_02_07 dups=0
+JP {1:color}３{2:color}ターンの間 モンスターを倒すと / アイテムを かならず落とす。
+KO {1:color}3{2:color}턴 동안 몬스터를 쓰러뜨리면 / 반드시 아이템을 떨어뜨림.
+Item#32 E_AItm21 dups=0
+JP {1:align}{2:color}{3:icon}左右{4:color}でルイージを動かし スイーツゲット！ / 太ったルイージを{5:color}{6:icon}{7:color}連打で投げ飛ばし {8:color}{9:icon}{10:color}でプレス！ / ターゲット：{11:color}全体 （空中の敵は無効）{12:color}　効果：{13:color}なし{14:color}
+KO {1:align}{2:color}{3:icon} 좌우{4:color}로 루이지를 움직여 스위트 겟! / 살찐 루이지를 {5:color}{6:icon}{7:color} 연타로 던지고 {8:color}{9:icon}{10:color}로 바디프레스! / 공격 대상: {11:color}전부(공중의 적은 무효){12:color}   효과: {13:color}없음{14:color}
+NOTE review: 끝 동작 プレス '프레스' → '바디프레스'. 같은 동작을 DS AItmE#21('Ⓑ)로 바디프레스!')과 3DX 전투 가이드 b_sys#774(SpAtk_06_2 ボディプレス, '바디프레스!')가 바디프레스로 부르고, glossary ボディプレス 주석도 스위트바스켓의 루이지 동작이 같다고 적음. 줄이 넓어지지 않게 太った '뚱뚱해진' → '살찐'(b_sys#774 '살찐 정도'와 같은 말).
+Item#33 E_Accessory20 dups=0
+JP 与えるダメージも受けるダメージも大幅アップ！ / とってもチャレンジブルなメダル。
+KO 입히는 타격도 입는 타격도 대폭 증가! / 도전 정신이 가득한 메달.
+NOTE W(アップ→업)는 의도: '大幅アップ'을 glossary '大幅にアップ=대폭 증가' 문형으로 옮김. チャレンジブル 말장난은 '도전 정신이 가득한'으로 풀어 씀
+Item#34 E_Shell02 dups=0
+JP ぼうぎょアクションで失敗してもダメージを / おさえてくれる 安全安心のコウラ。
+KO 방어 액션에 실패해도 타격을 / 줄여 주는 안전하고 든든한 등껍질.
+Item#35 E_Socks05 dups=0
+JP ノーダメージでバトルを終えると / もらえるコインが増えるソックス。
+KO 노 대미지로 배틀을 끝내면 / 얻는 코인이 늘어나는 양말.
+Item#36 E_Wear14 dups=0
+JP ダークスターのチカラがやどるウェア。 / バッジメーター満タンで全能力アップ！
+KO 다크스타의 힘이 깃든 웨어. / 배지 게이지가 가득 차면 모든 능력 증가!
+NOTE W(アップ→업)는 의도: DS 장비 설명 문형 'アップ=증가'(모든 능력 증가)
+Item#37 F_Accessory21 dups=0
+JP {1:color}リベンジワッペン{2:color}はいっぱいです！
+KO {1:color}리벤지패치{2:color} FULL!
+Item#38 N_Boots10 dups=1
+JP ドレインブーツ
+KO 드레인부츠
+Item#39 N_Glove12 dups=1
+JP ドレイングラブDX
+KO 드레인글러브DX
+Item#40 Ns_Accessory09 dups=1
+JP ビッグシェル
+KO 큰방패
+Item#41 Ns_CheeseChicken dups=1
+JP チーズチキン
+KO 치즈치킨
+Item#42 EFF_Badge_02_08 dups=0
+JP バトル終了時に獲得EXPが {1:color}２{2:color}倍。
+KO 배틀 종료 시 획득 EXP가 {1:color}2{2:color}배.
+Item#43 E_Accessory21 dups=0
+JP 兄弟がたおれると全ステータスアップする / リベンジするためのワッペン。
+KO 브라더가 쓰러지면 모든 능력이 증가하는 / 복수를 위한 패치.
+NOTE 兄弟 → '브라더'. 장비 설명에서 동료 한 사람을 가리키는 兄弟는 DS 장비 효과문(WearE#25 '브라더를 부축할 때')대로 '브라더'(Item#434·#518과 같음). review: 리드 결정(style_guide 5.1).
+Item#44 E_Shell03 dups=0
+JP バトルで怒ると さらに強くなれるコウラ。
+KO 배틀에서 분노하면 더욱 강해지는 등껍질.
+Item#45 E_Socks06 dups=0
+JP DEFが少しアップするゴワゴワのソックス。
+KO DEF가 조금 증가하는 꼬깃꼬깃한 양말.
+Item#46 E_Wear15 dups=0
+JP 完璧なウェア。 / 全てのステータスがアップ！
+KO 완벽한 웨어. / 모든 능력이 증가!
+NOTE W(アップ→업)는 의도: DS 장비 설명 문형 'アップ=증가'(모든 능력이 증가)
+Item#47 F_SuperKinoko dups=0
+JP {1:color}スーパーキノコ{2:color}はいっぱいです！
+KO {1:color}슈퍼버섯{2:color} FULL!
+Item#48 N_Boots11 dups=1
+JP フミフミブーツ
+KO 콩콩부츠
+Item#49 N_Glove13 dups=1
+JP エクセレントグラブ
+KO 엑설런트글러브
+Item#50 Ns_Glove00 dups=1
+JP POWグラブ
+KO POW글러브
+Item#51 EFF_Badge_02_09 dups=0
+JP {1:color}３{2:color}ターンの間 モンスターを倒すと / 必ず レアなアイテムを落とす。
+KO {1:color}3{2:color}턴 동안 몬스터를 쓰러뜨리면 / 반드시 레어 아이템을 떨어뜨림.
+Item#52 E_AItm23 dups=0
+JP {1:align}ブロドッグをこすって 泡で汚れを落としてあげると / キレイになって大喜び！ そしてみんなで大暴れ！ / ターゲット：{2:color}１体{3:color}　効果：{4:color}めまわし{5:color}
+KO {1:align}블도그를 문질러서 거품으로 때를 씻어 주면 / 깨끗해져서 대만족! 그리고 다 함께 대난동! / 공격 대상: {2:color}하나{3:color}   효과: {4:color}어질어질{5:color}
+Item#53 E_Accessory22 dups=0
+JP 敵を早く倒すほど もらえるものがいつもより / 増えて アイテムも出やすくなるアクセサリー。
+KO 적을 빨리 쓰러뜨릴수록 보상이 평소보다 / 늘어나고 아이템도 잘 나오는 액세서리.
+Item#54 E_Shell04 dups=0
+JP 不利になる状態変化を完全ガード！ / 岩のように がんじょうなコウラ。
+KO 불리한 상태 변화를 완전 방어! / 바위처럼 튼튼한 등껍질.
+Item#55 E_Socks07 dups=0
+JP バトルで気絶しても 次のターンでよみがえる / 根性が身につくソックス。
+KO 배틀에서 기절해도 다음 턴에 되살아나는 / 근성이 생기는 양말.
+Item#56 E_Wear16 dups=0
+JP Excellent評価でバッジパワーが たくさん / もらえるようになるエクセレントなウェア。
+KO Excellent를 내면 배지 파워를 많이 / 얻을 수 있는 엑설런트한 웨어.
+Item#57 F_Accessory23 dups=0
+JP {1:color}みきりグラス{2:color}はいっぱいです！
+KO {1:color}간파안경{2:color} FULL!
+Item#58 F_SpecialMame dups=0
+JP {1:color}スペシャルマメ{2:color}はいっぱいです！
+KO {1:color}스페셜콩{2:color} FULL!
+Item#59 N_Boots12 dups=1
+JP ルーキーブーツ
+KO 루키부츠
+Item#60 N_Glove14 dups=1
+JP わけっこグラブ
+KO 반반글러브
+Item#61 Ns_Fung00 dups=1
+JP パワーきば
+KO 파워이빨
+Item#62 Ns_Glove01 dups=1
+JP POWグラブDX
+KO POW글러브DX
+Item#63 Ns_Template dups=0
+JP {1:var}×{2:var}
+KO {1:var}×{2:var}
+Item#64 E_AItm24 dups=0
+JP {1:align}{2:icon}でイエロースターを動かして 大きなスターが / {3:color}赤なら{4:icon}{5:color} {6:color}緑なら{7:icon}{8:color} で小さいスターを投げましょう！ / ターゲット：{9:color}１体　{10:color}効果：{11:color}DEFダウン{12:color}
+KO {1:align}{2:icon}로 옐로스타를 움직여서 큰 스타가 / {3:color}빨강이면 {4:icon}{5:color}, {6:color}초록이면 {7:icon}{8:color}로 작은 스타를 던지자! / 공격 대상: {9:color}하나   {10:color}효과: {11:color}DEF 다운{12:color}
+Item#65 E_Accessory23 dups=0
+JP 敵の動きがよく見えるようになるメガネ。 / 自動的にガードする効果。
+KO 적의 움직임이 잘 보이게 되는 안경. / 자동으로 방어하는 효과.
+Item#66 E_Shell05 dups=0
+JP ヨロイのようにカタいコウラ。 / ひん死になるとDEFが２倍になる効果。
+KO 갑옷처럼 단단한 등껍질. / 빈사 상태가 되면 DEF가 2배가 되는 효과.
+Item#67 E_Socks08 dups=0
+JP ブラザーアタックでExcellent評価になると / 消費したBPが回復するソックス。
+KO 스페셜 어택에서 Excellent를 내면 / 소비한 SP가 회복되는 양말.
+Item#68 E_SpecialMame dups=0
+JP さいだいBPが １ポイントアップ。
+KO 최대 SP가 1포인트 증가.
+Item#69 E_Wear17 dups=0
+JP ぼうぎょアクションでミスしても / ダメージをおさえる 初心者むけのウェア。
+KO 방어 액션에서 실수해도 / 타격을 줄여 주는 초보자용 웨어.
+Item#70 F_1upKinokodx dups=0
+JP {1:color}１UPキノコDX{2:color}はいっぱいです！
+KO {1:color}1UP버섯DX{2:color} FULL!
+Item#71 N_Boots13 dups=1
+JP キノコブーツ
+KO 버섯부츠
+Item#72 N_Glove15 dups=1
+JP グルメグラブ
+KO 미식가글러브
+Item#74 N_StarCandy dups=1
+JP スターキャンディ
+KO 스타캔디
+Item#75 Ns_Fung01 dups=1
+JP パワーきばSP
+KO 파워이빨SP
+Item#76 Ns_Glove02 dups=1
+JP キノコグラブ
+KO 버섯글러브
+Item#77 Ns_SuperSyrup dups=1
+JP スーパーシロップ
+KO 슈퍼시럽
+Item#78 E_Accessory24 dups=0
+JP やけど や めまわし状態の敵に攻撃すると / クリティカルになるスカーフ。
+KO 화상이나 어질어질 상태인 적을 공격하면 / 크리티컬이 되는 스카프.
+Item#79 E_Bracelet10 dups=0
+JP クッパのいかりが さらに強くなるうでわ。 / いかり状態を 強くする効果。
+KO 쿠파의 분노가 더욱 강해지는 팔찌. / 분노 상태를 강화하는 효과.
+Item#80 E_Shell06 dups=0
+JP とってもイライラするコウラ。 / いかり状態になりやすくなる効果。
+KO 무척 짜증이 나는 등껍질. / 쉽게 분노 상태가 되는 효과.
+Item#81 E_Socks09 dups=0
+JP Excellent評価になるとBPが回復する / エクセレントなソックス。
+KO Excellent를 내면 SP가 회복되는 / 엑설런트한 양말.
+Item#82 E_Wear18 dups=0
+JP ブラザーアタックを使うと消費されるBPを / ふたりで半分ずつにわけることができるウェア。
+KO 스페셜 어택을 쓸 때 소비되는 SP를 / 둘이서 반씩 나눠 부담할 수 있는 웨어.
+Item#83 F_Accessory25 dups=0
+JP {1:color}ふいうちスカーフ{2:color}はいっぱいです！
+KO {1:color}기습스카프{2:color} FULL!
+Item#84 N_Boots14 dups=1
+JP ポロリブーツ
+KO 툭툭부츠
+Item#85 N_Glove16 dups=1
+JP スペシャルグラブDX
+KO 스페셜글러브DX
+Item#86 Ns_Fung02 dups=1
+JP スペシャルきば
+KO 스페셜이빨
+Item#87 Ns_Glove03 dups=1
+JP スペシャルグラブ
+KO 스페셜글러브
+Item#88 E_Accessory25 dups=0
+JP エンカウント攻撃の威力がアップするスカーフ。
+KO 선제공격의 위력이 증가하는 스카프.
+Item#89 E_Bracelet11 dups=0
+JP カウンターに成功すると BPが回復するうでわ。
+KO 반격에 성공하면 SP가 회복되는 팔찌.
+Item#90 E_Shell07 dups=0
+JP うでにチカラがみなぎるコウラ。 / パンチの威力がアップ！
+KO 팔에 힘이 넘치는 등껍질. / 펀치의 위력이 증가!
+Item#91 E_Wear19 dups=0
+JP 敵の攻撃を何度かバリアが防いでくれるウェア。
+KO 방어막이 적의 공격을 몇 번 막아 주는 웨어.
+Item#92 N_Accessory00 dups=1
+JP ハッピーストラップ
+KO 해피스트랩
+Item#93 N_Boots15 dups=1
+JP ヒラリンブーツ
+KO 사뿐사뿐부츠
+Item#94 Ns_Fung03 dups=1
+JP スペシャルきばSP
+KO 스페셜이빨SP
+Item#95 Ns_Glove04 dups=1
+JP へビィグラブ
+KO 헤비글러브
+Item#96 E_Bracelet12 dups=0
+JP バキュームに成功するとHPが回復し / POWもアップする お得なうでわ。
+KO 배큐엄에 성공하면 HP가 회복되고 / POW도 증가하는 알찬 팔찌.
+NOTE W(アップ→업)는 의도: DS 장비 설명 문형 'アップ=증가'(POW도 증가)
+Item#97 E_Shell08 dups=0
+JP クッパのいかりがパワーアップするコウラ。 / いかり状態を 大幅に強くする効果。
+KO 쿠파의 분노가 파워 업되는 등껍질. / 분노 상태를 대폭 강화하는 효과.
+Item#98 N_Accessory01 dups=1
+JP ラッキーストラップ
+KO 럭키스트랩
+Item#99 N_Boots16 dups=1
+JP よくばりブーツ
+KO 욕심쟁이부츠
+Item#101 Ns_1upKinoko dups=1
+JP １UPキノコ
+KO 1UP버섯
+Item#102 Ns_Fung04 dups=1
+JP しゃくねつきば
+KO 이글이빨
+Item#103 Ns_Glove05 dups=1
+JP デリシャスグラブ
+KO 딜리셔스글러브
+Item#104 E_Bracelet13 dups=0
+JP チキンを食べると HP回復時に / いっしょに状態変化をも治してしまう うでわ。
+KO 치킨을 먹으면 HP 회복과 함께 / 상태 변화까지 치료해 주는 팔찌.
+Item#105 E_Shell09 dups=0
+JP 最強の大魔王のためのコウラ。 / クリティカルやラッキーヒットの威力がアップ！
+KO 최강의 대마왕을 위한 등껍질. / 크리티컬과 럭키 히트의 위력이 증가!
+Item#106 F_Fung10 dups=0
+JP {1:color}きんきらきば{2:color}はいっぱいです！
+KO {1:color}반짝반짝이빨{2:color} FULL!
+Item#107 F_Glove01 dups=0
+JP {1:color}POWグラブDX{2:color}はいっぱいです！
+KO {1:color}POW글러브DX{2:color} FULL!
+Item#108 N_Accessory02 dups=1
+JP キマグレベルト
+KO 변덕벨트
+Item#109 N_UltraKinoko dups=1
+JP ウルトラキノコ
+KO 울트라버섯
+Item#110 Ns_Fung05 dups=1
+JP もえもえきば
+KO 아뜨뜨이빨
+Item#111 Ns_Glove06 dups=1
+JP フラワーグラブ
+KO 플라워글러브

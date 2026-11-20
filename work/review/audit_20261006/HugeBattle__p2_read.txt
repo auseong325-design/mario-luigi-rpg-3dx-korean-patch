@@ -1,0 +1,100 @@
+HugeBattle#115 tutorial_pd003 dups=0
+JP 敵が近くまできたら / タッチペンを すばやく / {1:color}左にスライド{2:color}です！{3:wait}
+KO 적이 가까이 오면 / 터치펜을 빠르게 / {1:color}왼쪽으로 슬라이드{2:color}하세요!{3:wait}
+NOTE DS는 '오른쪽'이지만 3DX 조작('左', #146 '右から左')대로 '왼쪽'
+HugeBattle#116 4_battle_09 dups=0
+JP モエソウナ{1:pause} モノハ{2:pause} / ステマショウ！{3:pause} {4:color}{5:wait}{6:color}
+KO 타기 쉬운{1:pause} 물건은{2:pause} / 버릴 것!{3:pause}{4:color}{5:wait}{6:color}
+NOTE 로봇 음성의 표어식 'ステマショウ'를 '~할 것!'으로 옮김(p1 #21과 같음). 원문 메시지 끝 공백은 뺌(#122·#124·#125·#127·#130·#133·#135도 같음)
+HugeBattle#117 finalattack_koopa01 dups=0
+JP {1:speed}まかせておけ！{2:wait}
+KO {1:speed}이 몸에게 맡겨라!{2:wait}
+HugeBattle#118 3_event_start_01 dups=0
+JP 案外 クッパのやつも / チョロかったな～
+KO 쿠파 녀석도 / 의외로 만만했네~
+HugeBattle#119 3_event_start_02 dups=0
+JP これで ゲラコビッツ様も / 喜んでくれるだろ。
+KO 이걸로 까르코비츠님도 / 기뻐하시겠지.
+HugeBattle#120 3_event_start_03 dups=0
+JP このゲラエクスプレスに / 比べたら クッパのやつも / ちっちゃく 見えるもんだね～
+KO 이 까르열차에 비하면 / 쿠파 녀석도 / 쪼그맣게 보이는걸~
+HugeBattle#121 3_event_start_04 dups=0
+JP ハハハハハハ！！
+KO 하하하하하하!!
+HugeBattle#122 4_battle_20 dups=0
+JP セイフティー システム{1:pause} / プログラム{2:pause} エラー！{3:pause} / ガード{4:pause} ショウメツ！{5:pause} {6:color}{7:wait}{8:color}
+KO 세이프티 시스템{1:pause} / 프로그램{2:pause} 에러!{3:pause} / 방어벽{4:pause} 소멸!{5:pause}{6:color}{7:wait}{8:color}
+NOTE ガード는 장치(방패) 뜻이라 glossary note대로 '방어벽'
+HugeBattle#123 3_event_start_05 dups=0
+JP ななな なんだ～！？
+KO 뭐, 뭐, 뭐야~!?
+HugeBattle#124 4_battle_21 dups=0
+JP テレサ システム{1:pause} サドウ！{2:pause} / トチュウデ{3:pause} スガタ ガ{4:pause} / ミエナク{5:pause} ナレバ…{6:pause} {7:color}{8:wait}{9:color}
+KO 부끄부끄 시스템{1:pause} 작동!{2:pause} / 도중에{3:pause} 모습이{4:pause} / 안 보이게{5:pause} 되면…{6:pause}{7:color}{8:wait}{9:color}
+HugeBattle#125 4_battle_22 dups=0
+JP ハンゲキノ{1:pause} タイミングモ{2:pause} / ワカラ ナク ナル{3:pause} ハズダ！{4:pause} {5:color}{6:wait}{7:color}
+KO 반격할{1:pause} 타이밍도{2:pause} / 알 수 없게 될{3:pause} 것이다!{4:pause}{5:color}{6:wait}{7:color}
+HugeBattle#126 3_event_start_07 dups=0
+JP に 逃げろー！
+KO 도, 도망쳐―!
+HugeBattle#127 4_battle_23 dups=0
+JP ナカナカ ヤルナ{1:pause} / シカシ{2:pause} コレニ{3:pause} / タエラレル カナ？{4:pause} 
+KO 제법 하는군{1:pause} / 하지만{2:pause} 이것을{3:pause} / 견딜 수 있을까?{4:pause}
+HugeBattle#129 tutorial_f_EXCELLENT_GREAT_01 dups=1
+JP すごい はくりょく！{1:pause}
+KO 굉장한 박력!{1:pause}
+HugeBattle#130 3_event_start_08 dups=0
+JP 待てよ！？{1:pause}  / よく見たらそんなに / デカくもないか！？
+KO 잠깐!?{1:pause} / 잘 보니 그렇게 / 크지도 않잖아!?
+HugeBattle#131 4_battle_24 dups=0
+JP ウシロニ{1:pause} サガッタラ / サイゴ…{2:pause}
+KO 뒤로{1:pause} 물러나면 / 끝장…{2:pause}
+HugeBattle#132 tutorial_f_EXCELLENT_GREAT_02 dups=0
+JP さすが クッパ様！ / かんぺきな / ファイアでしたね！{1:wait}
+KO 역시 쿠파님! / 완벽한 / 파이어였어요!{1:wait}
+HugeBattle#133 3_event_start_09 dups=0
+JP そうだ！ビビるな！{1:pause}  / もういちど / つぶしてやる！
+KO 그래! 겁먹지 마!{1:pause} / 다시 한번 / 깔아뭉개 주겠어!
+HugeBattle#134 4_battle_25 dups=0
+JP ブラックホール{1:pause} イキノ{2:pause} / デスマッチダ！{3:pause}
+KO 블랙홀로{1:pause} 가는{2:pause} / 데스매치다!{3:pause}
+HugeBattle#135 4_battle_26 dups=0
+JP オマエノ{1:pause} ツヨサ ハ{2:pause} / ヨク ワカッタ！{3:pause} {4:color}{5:wait}{6:color}[Next]ダガ{7:pause} オマエモ{8:pause} / コレデ オワリダ！{9:pause}{10:color}{11:wait}{12:color} 
+KO 네놈의{1:pause} 강함은{2:pause} / 잘 알았다!{3:pause}{4:color}{5:wait}{6:color}[Next]하지만{7:pause} 네놈도{8:pause} / 이것으로 끝이다!{9:pause}{10:color}{11:wait}{12:color}
+HugeBattle#136 tutorial_fb_failure dups=0
+JP おちついて… 狙って / {1:color}タッチ{2:color}しましょう！{3:wait}
+KO 침착하게… 잘 노려서 / {1:color}터치{2:color}하세요!{3:wait}
+HugeBattle#138 tutorial_pd011_a dups=0
+JP ストーップ！{1:wait}
+KO 스토~옵!{1:wait}
+HugeBattle#139 1_event_end_03_b dups=0
+JP モトノ オオキサニ / モドルマデ ショウブハ / オアズケダ！
+KO 이번 승부 무효다! / 나와 같은 크기일 때 / 다시 붙자!
+NOTE DS#2.6 뒷부분('이번 승부 무효다! 나와 같은 크기일 때 다시 붙자!')을 그대로 씀. 3DX 'オアズケダ(보류다)'와 같은 장면·같은 뜻으로 봄
+HugeBattle#140 FA_button dups=0
+JP {1:mode}【ファイナルアタック】 / とどめの大技！
+KO {1:mode}【파이널 어택】 / 마무리 대기술!
+HugeBattle#141 tutorial_p_EXCELLENT_GREAT_02 dups=0
+JP さすが クッパ様！ / かんぺきな / パンチでしたね！{1:wait}
+KO 역시 쿠파님! / 완벽한 / 펀치였습니다!{1:wait}
+HugeBattle#142 battleguide_kinoko dups=0
+JP 巨大化バトル中に キノコを / 手に入れることがあります。 / {1:color}キノコを食べれば / クッパのHPが回復{2:color}します。 / キノコを使うと 次は / 相手の行動になります。 / 状況をよく考えて使いましょう。
+KO 거대화 배틀 중에 버섯을 / 얻을 때가 있어요. / {1:color}버섯을 먹으면 / 쿠파의 HP가 회복{2:color}돼요. / 버섯을 사용하면 다음은 / 상대의 차례가 돼요. / 상황을 잘 생각해서 사용하세요.
+NOTE review: 배틀 가이드 본문은 해요체(style_guide 5.1 전투 문구 말투, b_sys BtlGuide_*와 같음). p1 #6 #22 #45 #61 #64와 함께 맞춤.
+HugeBattle#143 1_event_start_01 dups=0
+JP {1:align}ナ{2:pause} ナニゴトダ！！
+KO {1:align}무,{2:pause} 무슨 일이냐!!
+HugeBattle#144 1_event_start_02 dups=0
+JP ししししし… 城が勝手に…
+KO 서서서서서… 성이 멋대로…
+NOTE し 더듬기를 '성'의 첫소리 '서'로 맞춤(style_guide 2.5)
+HugeBattle#145 1_event_start_03 dups=0
+JP {1:align}ナ！{2:pause} ナンダアレハー！！{3:pause}
+KO {1:align}저!{2:pause} 저건 뭐냐―!!{3:pause}
+HugeBattle#146 battleguide_punch dups=0
+JP タッチペンを{1:color}右から左に / スライドするとパンチ{2:color}します。 / 速くスライドするほど 相手に / 多くのダメージを与えられます。 / 速く長くスライドをして / Excellentを狙いましょう。
+KO 터치펜을 {1:color}오른쪽에서 왼쪽으로 / 슬라이드하면 펀치{2:color}해요. / 빠르게 슬라이드할수록 상대에게 / 큰 타격을 입힐 수 있어요. / 빠르고 길게 슬라이드해서 / Excellent를 노려 보세요.
+NOTE review: 배틀 가이드 본문 해요체로 맞춤(#142와 같은 이유). 방향 右から左=오른쪽에서 왼쪽은 원문대로.
+HugeBattle#147 battleguide_title_fireball dups=0
+JP ファイアボール
+KO 파이어볼

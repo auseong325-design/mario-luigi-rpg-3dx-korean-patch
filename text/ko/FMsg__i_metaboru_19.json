@@ -7,7 +7,7 @@
   "FMsg/i_metaboru_19#3": "아니면 이\n{1:color}흐느적거리는 초록색 수염{2:color}{3:color}이냐?{4:wait}{5:color}",
   "FMsg/i_metaboru_19#4": "지금부터 둘 중 하나를\n선택하면 되느니라.{1:wait}",
   "FMsg/i_metaboru_19#5": "{1:mode}그대가 떨어뜨린 것은\n어느 것이더냐?{2:pause}\n{3:mode}{4:indent}굉장한 보물\n{5:mode}{6:indent}흐느적거리는 초록색 수염{7:pause}",
-  "FMsg/i_metaboru_19#6": "앗! 혹시 지금…{1:wait}[Next]{2:color}굉장한 보물{3:color}{4:color}을 선택하고 싶은\n충동에 사로잡히지 않았느냐?{5:wait}{6:color}",
+  "FMsg/i_metaboru_19#6": "앗! 혹시 지금{1:wait}[Next]{2:color}굉장한 보물{3:color}{4:color}을 선택하고 싶은\n충동에 사로잡히지 않았느냐?{5:wait}{6:color}",
   "FMsg/i_metaboru_19#7": "예끼!{1:wait}",
   "FMsg/i_metaboru_19#8": "{1:color}굉장한 보물{2:color}{3:color}에\n마음을 빼앗겼으렷다!{4:wait}[Next]그대의 작은 표정 변화로\n알아챘느니라!{5:wait}{6:color}",
   "FMsg/i_metaboru_19#9": "또 다른 것도 들어 있나?{1:wait}",
@@ -24,7 +24,7 @@
  "new_terms": [],
  "notes": {
   "FMsg/i_metaboru_19#2": "3DX는 2줄이라 DS0B8#2의 '이 지방바닥에'를 빼고 3DX 문장대로 줄임.",
-  "FMsg/i_metaboru_19#6": "3DX 2페이지 나눔에 맞춰 DS0B8#6을 나눔.",
+  "FMsg/i_metaboru_19#6": "review: 2026-10-06 DS0B8#6의 동일 문구에 없던 말줄임표 제거. 3DX 페이지 분할·태그는 유지하면서 DS 문장부호 보존. | 기존 메모: 3DX 2페이지 나눔에 맞춰 DS0B8#6을 나눔.",
   "FMsg/i_metaboru_19#8": "3DX 2페이지에 맞춰 DS0B8#8을 두 문장으로 나눔(であろう → '~으렷다').",
   "FMsg/i_metaboru_19#10": "3DX 2페이지에 맞춰 DS0B8#9를 나눔.",
   "FMsg/i_metaboru_19#11": "3DX 2줄에 맞춰 DS0B8#10 줄바꿈을 다시 잡음.",

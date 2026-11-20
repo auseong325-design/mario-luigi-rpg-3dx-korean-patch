@@ -1,0 +1,170 @@
+[
+  {
+    "ldr": 150652,
+    "add": 150652,
+    "literal": 150652,
+    "target": 163552,
+    "label": "N_vacuum_blk",
+    "reltype": 2
+  },
+  {
+    "ldr": 150656,
+    "add": 150656,
+    "literal": 150656,
+    "target": 163536,
+    "label": "E_vacuum_blk",
+    "reltype": 2
+  },
+  {
+    "ldr": 150672,
+    "add": 150672,
+    "literal": 150672,
+    "target": 163312,
+    "label": "N_birinpa",
+    "reltype": 2
+  },
+  {
+    "ldr": 150676,
+    "add": 150676,
+    "literal": 150676,
+    "target": 163300,
+    "label": "E_birinpa",
+    "reltype": 2
+  },
+  {
+    "ldr": 150692,
+    "add": 150692,
+    "literal": 150692,
+    "target": 163828,
+    "label": "N_mkiller",
+    "reltype": 2
+  },
+  {
+    "ldr": 150696,
+    "add": 150696,
+    "literal": 150696,
+    "target": 163816,
+    "label": "E_mkiller",
+    "reltype": 2
+  },
+  {
+    "ldr": 150732,
+    "add": 150732,
+    "literal": 150732,
+    "target": 163784,
+    "label": "N_starvaccine_r",
+    "reltype": 2
+  },
+  {
+    "ldr": 150736,
+    "add": 150736,
+    "literal": 150736,
+    "target": 163768,
+    "label": "E_starvaccine_r",
+    "reltype": 2
+  },
+  {
+    "ldr": 150752,
+    "add": 150752,
+    "literal": 150752,
+    "target": 163904,
+    "label": "N_starvaccine_y",
+    "reltype": 2
+  },
+  {
+    "ldr": 150756,
+    "add": 150756,
+    "literal": 150756,
+    "target": 163888,
+    "label": "E_starvaccine_y",
+    "reltype": 2
+  },
+  {
+    "ldr": 150772,
+    "add": 150772,
+    "literal": 150772,
+    "target": 163484,
+    "label": "N_starvaccine_g",
+    "reltype": 2
+  },
+  {
+    "ldr": 150776,
+    "add": 150776,
+    "literal": 150776,
+    "target": 163468,
+    "label": "E_starvaccine_g",
+    "reltype": 2
+  },
+  {
+    "ldr": 151212,
+    "add": 151212,
+    "literal": 151212,
+    "target": 158424,
+    "label": "N_pazzle1",
+    "reltype": 2
+  },
+  {
+    "ldr": 151216,
+    "add": 151216,
+    "literal": 151216,
+    "target": 158412,
+    "label": "E_pazzle1",
+    "reltype": 2
+  },
+  {
+    "ldr": 151232,
+    "add": 151232,
+    "literal": 151232,
+    "target": 159156,
+    "label": "N_pazzle2",
+    "reltype": 2
+  },
+  {
+    "ldr": 151236,
+    "add": 151236,
+    "literal": 151236,
+    "target": 159144,
+    "label": "E_pazzle2",
+    "reltype": 2
+  },
+  {
+    "ldr": 151252,
+    "add": 151252,
+    "literal": 151252,
+    "target": 159864,
+    "label": "N_pazzle3",
+    "reltype": 2
+  },
+  {
+    "ldr": 151256,
+    "add": 151256,
+    "literal": 151256,
+    "target": 159852,
+    "label": "E_pazzle3",
+    "reltype": 2
+  },
+  {
+    "ldr": 151272,
+    "add": 151272,
+    "literal": 151272,
+    "target": 160532,
+    "label": "N_pazzle4",
+    "reltype": 2
+  },
+  {
+    "ldr": 151276,
+    "add": 151276,
+    "literal": 151276,
+    "target": 160520,
+    "label": "E_pazzle4",
+    "reltype": 2
+  },
+  {
+    "ldr": 122372,
+    "add": 122372,
+    "literal": 122372,
+    "target": 122752,
+    "label": "m_item_ev_all",
+    "adr": true
+  }
+]

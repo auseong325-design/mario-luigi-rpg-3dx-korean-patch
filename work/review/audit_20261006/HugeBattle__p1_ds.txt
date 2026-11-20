@@ -1,0 +1,56 @@
+HugeBattle#1 3_battle_11 score=0.944 <- BAI__BMes_ji:3#7
+JP こいつが 戦っている間に / さっさと修理するんだ！{1:wait}
+KO 이 녀석이 싸우는 동안에 / 얼른 수리하는 거야!{1:wait}
+DS 이 녀석이 싸우는 동안에 / 수리하는 거야!
+HugeBattle#26 4_battle_13 score=0.7 <- BAI__BMes_yo:2#20
+JP ナカナカ ヤルナ{1:pause} / シカシ{2:pause} コノ コウゲキハ{3:pause} / サケラレナイ…{4:pause}
+KO 제법 하는군{1:pause} / 하지만{2:pause} 이 공격은{3:pause} / 피할 수 없다…{4:pause}
+DS 싸울 줄 아는걸? / 하지만 이 공격은 / 피할 수 없을 거다…
+HugeBattle#37 4_battle_17 score=0.839 <- BAI__BMes_yo:2#8
+JP ガハハハ！{1:pause} 見たか！{2:pause} / ワガハイの チカラを！
+KO 크핫핫핫!{1:pause} 보았느냐!{2:pause} / 이 몸의 힘을!
+DS 크핫핫핫! 봤느냐? / 이 몸의 힘을!
+HugeBattle#39 tutorial_pd012 score=0.711 <- BAI__BMes_ji:2#53
+JP {1:color}タッチペン{2:color}を / すばやく {3:color}左にスライド{4:color} / してください！{5:wait}
+KO {1:color}터치펜{2:color}을 / 빠르게 {3:color}왼쪽으로 슬라이드{4:color}해 / 주세요!{5:wait}
+DS 터치펜을 오른쪽으로 / 빠르게 슬라이드해서 / 펀치해 주세요!
+HugeBattle#77 3_battle_09 score=0.791 <- BAI__BMes_ji:3#10
+JP 心配すんな！{1:wait}[Next]あいつの{2:color}パンチ{3:color}{4:color}は / めちゃくちゃ大ぶりだ！{5:wait}[Next]{6:color}{7:color}ファイア{8:color}{9:color}さえ / はかれなければ…{10:wait}[Next]オレ達は ダメージを / 全く うけないってことよ！{11:wait}{12:color}
+KO 걱정 마!{1:wait}[Next]저 녀석 {2:color}펀치{3:color}{4:color}는 / 동작이 엄청 커서 뻔해!{5:wait}[Next]{6:color}{7:color}파이어{8:color}{9:color}만 / 쏘지 않으면…{10:wait}[Next]우리는 하나도 타격을 / 입지 않을 거야!{11:wait}{12:color}
+DS 걱정 마! / 저 녀석 펀치는 / 우리한테 닿지도 않아![Next]파이어만 쏘지 않으면 / 우리는 하나도 타격을 / 입지 않을 거야!
+HugeBattle#84 tutorial_p006 score=0.711 <- BAI__BMes_ji:2#53
+JP {1:mode}{2:color}タッチペン{3:color}を / すばやく {4:color}左にスライド{5:color} / してください！
+KO {1:mode}{2:color}터치펜{3:color}을 / 빠르게 {4:color}왼쪽으로 슬라이드{5:color}해 / 주세요!
+DS 터치펜을 오른쪽으로 / 빠르게 슬라이드해서 / 펀치해 주세요!
+HugeBattle#92 tutorial_fb008 score=0.889 <- BAI__BMes_ji:2#58
+JP またまた 小さいのが / たくさん きます！{1:wait}[Next]{2:color}ファイアボール{3:color}で / 倒しちゃいましょう！{4:wait}
+KO 또다시 작은 녀석 / 여럿이 옵니다!{1:wait}[Next]{2:color}파이어볼{3:color}로 / 해치워 버리세요!{4:wait}
+DS 이번엔 작은 녀석 / 여럿이 옵니다![Next]파이어볼로 / 해치워 버리세요!
+HugeBattle#97 4_battle_02 score=0.824 <- BAI__BMes_yo:2#1
+JP なんだ？ 花火か？ / おめでたいヤツだな…
+KO 뭐냐? 불꽃놀이냐? / 속 편한 녀석이군…
+DS 뭐냐? 불꽃이냐? / 어수룩한 녀석이군…
+HugeBattle#98 tutorial_f001 score=0.952 <- BAI__BMes_ji:2#28
+JP 今度は 小さいのが / たくさん きました！{1:wait}[Next]{2:color}ファイアブレス{3:color}で まとめて / 倒しちゃいましょう！{4:wait}
+KO 이번엔 작은 녀석 / 여럿이 왔습니다!{1:wait}[Next]{2:color}파이어 브레스{3:color}로 단숨에 / 쓰러뜨려 보세요!{4:wait}
+DS 이번엔 작은 녀석 / 여럿이 왔습니다![Next]파이어로 단숨에 / 쓰러뜨려 보세요!
+HugeBattle#101 tutorial_f002 score=0.923 <- BAI__BMes_ji:2#30
+JP {1:mode}{2:color}ファイアボタン{3:color}を / {4:color}タッチ{5:color}してください！
+KO {1:mode}{2:color}파이어 버튼{3:color}을 / {4:color}터치{5:color}해 주세요!
+DS 파이어 버튼을 / 터치해 주세요.
+HugeBattle#109 4_battle_06 score=0.71 <- BAI__BMes_yo:2#5
+JP ぬおー！{1:pause} ワガハイを / 吸い込む気か！{2:color}{3:wait}{4:color}
+KO 크아―!{1:pause} 이 몸을 / 빨아들일 셈이냐!{2:color}{3:wait}{4:color}
+DS 허억―! 이 몸을 / 빨아들일 작정이냐?
+HugeBattle#110 tutorial_pd001 score=0.762 <- BAI__BMes_ji:2#25
+JP ナニヲ モタモタ / シテイル！？{1:wait}[Next]モット セッキンシテ / ヨ～ク カンサツ / スルノダ！{2:wait}
+KO 뭘 우물쭈물대느냐!?{1:wait}[Next]더욱 접근해서 / 자~알 관찰하고 와라!{2:wait}
+DS 더욱 접근해서 / 자~알 관찰하고 와라!
+HugeBattle#113 tutorial_pd002 score=0.714 <- BAI__BMes_ji:2#51
+JP 敵が 攻撃してきます！ / {1:color}パンチ防御{2:color}の / 練習を してみましょう！{3:wait}
+KO 적이 공격해 옵니다! / {1:color}펀치 방어{2:color}를 / 연습해 볼까요?{3:wait}
+DS 다가오고 있습니다! / 펀치 방어를 / 연습해 볼까요?
+HugeBattle#114 4_battle_08 score=0.75 <- BAI__BMes_yo:2#12
+JP アツイ！{1:pause} アツイ！{2:pause}  / カジダ！{3:pause} カジダ！{4:pause} {5:color}{6:wait}{7:color}
+KO 뜨겁다!{1:pause} 뜨겁다!{2:pause} / 불이야!{3:pause} 불이야!{4:pause}{5:color}{6:wait}{7:color}
+DS 뜨거워! 뜨거워! / 불이야! 불이야!

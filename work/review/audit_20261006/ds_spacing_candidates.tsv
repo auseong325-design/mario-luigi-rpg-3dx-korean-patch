@@ -1,0 +1,106 @@
+batch	id	ds_key	boundaries	src	ko_current	ds	note_current
+FMsg__i_challenge_01	FMsg/i_challenge_01#51	DS28A#105	"[{""position"": 86, ""left"": ""면2배로해줄까로빈?나중에2배"", ""right"": ""지금바로2배"", ""ko_gap"": """", ""ds_gap"": ""  ""}]"	"{1:align}{2:align}おめでとうだびん！{3:wait}[Next]{4:align}約束どおり キミ達の
+持っているコインを {5:color}２{6:color}{7:color}倍に
+してあげるびんよ！{8:wait}[Next]ちなみに このごほうびは
+これ１回きりびん。
+今すぐ {9:color}{10:color}２{11:color}{12:color}倍にしたいびん？{13:wait}[Next]それとも もう少しコインをためてから
+{14:color}{15:color}２{16:color}{17:color}倍にするびん？{18:pause}
+{19:align}{20:choice}後で２倍{21:tab}{22:choice}今すぐ２倍{23:pause}{24:color}"	"{1:align}{2:align}축하해로빈!{3:wait}[Next]{4:align}약속대로 당신들이
+갖고 있는 코인을
+{5:color}2{6:color}{7:color}배로 만들어 줄게로빈!{8:wait}[Next]참고로 이 선물은
+이번 한 번뿐로빈.
+지금 바로 {9:color}{10:color}2{11:color}{12:color}배로 해 줄까로빈?{13:wait}[Next]아니면 좀 더 코인을 모아 오면
+{14:color}{15:color}2{16:color}{17:color}배로 해 줄까로빈?{18:pause}
+{19:align}{20:choice}나중에 2배{21:tab}{22:choice}지금 바로 2배{23:pause}{24:color}"	"축하해로빈![Next]약속대로 당신들이
+갖고 있는 코인을
+2배로 만들어 줄게로빈![Next]참고로 이 선물은
+이번 한 번뿐로빈.
+지금 바로 2배로 해 줄까로빈?[Next]아니면 좀 더 코인을 모아 오면
+2배로 해 줄까로빈?
+나중에 2배  지금 바로 2배"	Colour pairs wrap only the digit 2 (same as source ２); expected checker warnings.
+FMsg__i_challenge_01	FMsg/i_challenge_01#53	DS28A#106	"[{""position"": 64, ""left"": ""면2배로해줄까로빈?나중에2배"", ""right"": ""지금바로2배"", ""ko_gap"": """", ""ds_gap"": ""  ""}]"	"ザ・ブロック９９の ごほうびは
+持っているコインの{1:color}２{2:color}{3:color}倍！
+今すぐ {4:color}{5:color}２{6:color}{7:color}倍にしたいびん？{8:wait}[Next]それとも もう少しコインをためてから
+{9:color}{10:color}２{11:color}{12:color}倍にするびん？{13:pause}
+{14:align}{15:choice}後で２倍{16:tab}{17:choice}今すぐ２倍{18:pause}{19:color}"	"블록99의 선물은 갖고 있는
+코인을 {1:color}2{2:color}{3:color}배로 만들어 주는 것!
+지금 바로 {4:color}{5:color}2{6:color}{7:color}배로 해 줄까로빈?{8:wait}[Next]아니면 좀 더 코인을 모아 오면
+{9:color}{10:color}2{11:color}{12:color}배로 해 줄까로빈?{13:pause}
+{14:align}{15:choice}나중에 2배{16:tab}{17:choice}지금 바로 2배{18:pause}{19:color}"	"블록99의 선물은 갖고 있는
+코인을 2배로 만들어 주는 것!
+지금 바로 2배로 해 줄까로빈?[Next]아니면 좀 더 코인을 모아 오면
+2배로 해 줄까로빈?
+나중에 2배  지금 바로 2배"	Colour pairs wrap only the digit 2 (same as source ２); expected checker warnings.
+FMsg__i_challenge_01	FMsg/i_challenge_01#54	DS28A#107	"[{""position"": 18, ""left"": ""지금2배로해줄까로빈?나중에…"", ""right"": ""지금바로2배!"", ""ko_gap"": """", ""ds_gap"": ""  ""}]"	"本当に 今すぐ{1:color}２{2:color}{3:color}倍にするびん？{4:pause}
+{5:align}{6:indent}{7:choice}やっぱり後で…{8:tab}{9:choice}今すぐ２倍！{10:pause}{11:color}"	"정말로 지금 {1:color}2{2:color}{3:color}배로 해 줄까로빈?{4:pause}
+{5:align}{6:indent}{7:choice}나중에…{8:tab}{9:choice}지금 바로 2배!{10:pause}{11:color}"	"정말로 지금 2배로 해 줄까로빈?
+나중에…  지금 바로 2배!"	Colour pair wraps only the digit 2 (same as source ２); expected checker warning. DS28A#107 choice '나중에…' kept for やっぱり後で….
+FMsg__i_koopa_13_beam_01_L__and1	FMsg/i_koopa_13_escape_01_L#19	DS05E#16	"[{""position"": 2, ""left"": ""가만"", ""right"": ""있자…근데여기가어디였지…?"", ""ko_gap"": """", ""ds_gap"": "" ""}]"	"{1:align}そういえば
+ここは なんの部屋だったか…？{2:wait}"	"{1:align}가만있자…
+근데 여기가 어디였지…?{2:wait}"	"가만 있자…
+근데 여기가 어디였지…?"	DS 오기 수정: '가만 있자' → '가만있자'(가만있다는 한 낱말).
+FMsg__i_metaboru_19	FMsg/i_metaboru_19#14	DS0B8#13	"[{""position"": 32, ""left"": ""비슷한말을듣게된다면나를기억할"", ""right"": ""지어다."", ""ko_gap"": """", ""ds_gap"": "" ""}]"	"{1:align}{2:align}正直者は いつも得をする…{3:wait}[Next]{4:align}どこかで にたような話を聞いたなら
+われのことを 思い出すがよいぞよ。{5:wait}"	"{1:align}{2:align}정직한 자에게는 복이 오나니…{3:wait}[Next]{4:align}어디선가 비슷한 말을 듣게 된다면
+나를 기억할지어다.{5:wait}"	"정직한 자에게는 복이 오나니…[Next]어디선가 비슷한 말을 듣게 된다면
+나를 기억할 지어다."	DS 오기 수정: '기억할 지어다' → '기억할지어다'.
+FMsg__o_chika_01__and3	FMsg/o_chika_09_before#25	DS0DA#29	"[{""position"": 5, ""left"": ""1분30초"", ""right"": ""만에다닳아버리는뭐이런전지가다"", ""ko_gap"": "" "", ""ds_gap"": """"}]"	"{1:color}１{2:color}{3:color}分{4:color}{5:color}３０{6:color}{7:color}秒しかもたない 電池なんて
+聞いたことないぞ！！{8:wait}{9:color}"	"{1:color}1{2:color}{3:color}분{4:color} {5:color}30{6:color}{7:color}초 만에 다 닳아 버리는
+뭐 이런 전지가 다 있느냐!!{8:wait}{9:color}"	"1분 30초만에 다 닳아 버리는
+뭐 이런 전지가 다 있느냐!!"	DS 오기 수정: DS0DA#29 '30초만에' → '30초 만에'.
+FMsg__o_ekubon_02__and7	FMsg/o_ekubon_02#0	DS28D#49	"[{""position"": 1, ""left"": ""↑"", ""right"": ""숲출구&초원입구↓이아파비치"", ""ko_gap"": """", ""ds_gap"": "" ""}, {""position"": 10, ""left"": ""↑숲출구&초원입구↓"", ""right"": ""이아파비치"", ""ko_gap"": """", ""ds_gap"": "" ""}]"	"{1:align}{2:align}{3:mode}↑ 森の出口 草原へ
+{4:align}↓ ムッシーバビーチ{5:wait}"	"{1:align}{2:align}{3:mode}↑숲 출구&초원 입구
+{4:align}↓이아파 비치{5:wait}"	"↑ 숲 출구&초원 입구
+↓ 이아파 비치"	DS046#0 그대로(草原へ = '초원 입구'). 이 방의 DS 표지판(DS046·047·178)은 화살표 뒤를 띄어 써서 그대로 둠.
+FMsg__o_ekubon_02__and7	FMsg/o_ekubon_04_1#1	DS047#0	"[{""position"": 1, ""left"": ""↑"", ""right"": ""숲출구"", ""ko_gap"": """", ""ds_gap"": "" ""}]"	{1:mode}↑ 森の出口{2:wait}	{1:mode}↑숲 출구{2:wait}	↑ 숲 출구	
+FMsg__o_ekubon_02__and7	FMsg/o_ekubon_04_2#0	DS178#0	"[{""position"": 1, ""left"": ""→"", ""right"": ""숲출구"", ""ko_gap"": """", ""ds_gap"": "" ""}]"	{1:mode}→ 森の出口{2:wait}	{1:mode}→숲 출구{2:wait}	→ 숲 출구	
+FMsg__o_gepu_08__and1	FMsg/o_gepu_11#0	DS20C#0	"[{""position"": 1, ""left"": ""↑"", ""right"": ""고라파레이크→이아파비치"", ""ko_gap"": """", ""ds_gap"": "" ""}, {""position"": 8, ""left"": ""↑고라파레이크→"", ""right"": ""이아파비치"", ""ko_gap"": """", ""ds_gap"": "" ""}]"	"{1:align}{2:align}{3:mode}↑ ヅツーダレイク
+{4:align}→ ムッシーバビーチ{5:wait}"	"{1:align}{2:align}{3:mode}↑고라파 레이크
+{4:align}→이아파 비치{5:wait}"	"↑ 고라파 레이크
+→ 이아파 비치"	review: 표지판 화살표를 뒤 글자에 붙임(style_guide 2.1, o_ekubon_02#0·o_koopa_22#0 등 다른 표지판과 통일).
+FMsg__o_koopa_13_2__and4	FMsg/o_koopa_13_2#57	DS0D1#53	"[{""position"": 1, ""left"": ""나"", ""right"": ""라고"", ""ko_gap"": "" "", ""ds_gap"": """"}]"	わ{1:pause} し{2:pause}	나{1:pause} 라고{2:pause}	나라고	'わ{pause} し{pause}'의 뜸을 살리려고 DS0D1#53 '나라고'를 '나 / 라고'로 나눔.
+FMsg__o_peach_1f_03__and3	FMsg/o_peach_1f_03#41	DS20F#2	"[{""position"": 7, ""left"": ""네놈여기에서끝"", ""right"": ""이다…"", ""ko_gap"": "" "", ""ds_gap"": """"}]"	"{1:align}オマエ ココ デ{2:pause}
+オワ{3:pause} ル…{4:pause}{5:wait}"	"{1:align}네놈 여기에서{2:pause}
+끝{3:pause} 이다…{4:pause}{5:wait}"	"네놈 여기에서
+끝이다…"	
+FMsg__o_peach_1f_03__and3	FMsg/o_peach_1f_08#9	DS298#8	"[{""position"": 30, ""left"": ""흑파워까지손에넣은다크쿠파……"", ""right"": ""솔직히말하면최악의사태가벌어졌"", ""ko_gap"": "" "", ""ds_gap"": """"}]"	"{1:align}あなたの能力を コピーした上に
+完全な 暗黒パワーもそろった
+ダーククッパ…{2:wait}[Next]{3:align}…{4:pause} これは
+最悪の事態に なったわね…{5:wait}[Next]{6:align}こうなったら やるしかないわ！！
+ダーククッパを 倒すのよ！！{7:wait}"	"{1:align}너의 능력을 복사한 데다가
+완전한 암흑 파워까지
+손에 넣은 다크쿠파…{2:wait}[Next]{3:align}…{4:pause} 솔직히 말하면
+최악의 사태가 벌어졌어…{5:wait}[Next]{6:align}이렇게 된 이상 어쩔 수 없어!
+다크쿠파를 쓰러뜨려야 해!!{7:wait}"	"너의 능력을 복사한 데다가
+완전한 암흑 파워까지
+손에 넣은 다크쿠파…[Next]…솔직히 말하면
+최악의 사태가 벌어졌어…[Next]이렇게 된 이상 어쩔 수 없어!
+다크쿠파를 쓰러뜨려야 해!!"	
+FMsg__o_town_01_after__and10	FMsg/o_town_14#4	DS0EC#5	"[{""position"": 5, ""left"": ""아까피치성"", ""right"": ""쪽에서롱롱롱롱롱!하는소리가들"", ""ko_gap"": "" "", ""ds_gap"": """"}]"	"さっき ピーチ城の方から
+るるるるる！{1:pause} って
+声が聞こえたような…{2:wait}[Next]お城の中には
+だれも いないはずなのに…{3:pause}
+まさか おばけ…？{4:wait}"	"아까 피치 성 쪽에서
+롱롱롱롱롱!{1:pause} 하는
+소리가 들린 것 같아요…{2:wait}[Next]성 안에는
+아무도 없을 텐데…{3:pause}
+설마 유령인가…?{4:wait}"	"아까 피치 성쪽에서
+롱롱롱롱롱! 하는
+소리가 들린 것 같아요…[Next]성 안에는
+아무도 없을 텐데…
+설마 유령인가…?"	DS0EC#5 그대로라 띄어쓰기 '피치 성쪽에서'(표준은 '성 쪽에서')도 DS를 따름. review: DS 오기 수정('성쪽에서'→'성 쪽에서').
+FMsg__o_town_34_suishou_01_U__and7	FMsg/o_town_37#1	DS12B#2	"[{""position"": 19, ""left"": ""배지교환은할줄아는거야?몰라요"", ""right"": ""알아요"", ""ko_gap"": """", ""ds_gap"": ""  ""}]"	"アンタ達…{1:pause}
+{2:color}バッジのつけかえ{3:color}{4:color}は
+ちゃんと できるのかい？{5:pause}
+{6:indent}{7:choice}できない{8:tab}{9:choice}できる{10:color}{11:pause}"	"당신들…{1:pause}
+{2:color}배지 교환{3:color}{4:color}은
+할 줄 아는 거야?{5:pause}
+{6:indent}{7:choice}몰라요{8:tab}{9:choice}알아요{10:color}{11:pause}"	"당신들…
+배지 교환은
+할 줄 아는 거야?
+몰라요  알아요"	
+FMsg__o_zutsuda_01__and9	FMsg/o_zutsuda_04_after#14	DS0F9#13	"[{""position"": 1, ""left"": ""뭐"", ""right"": ""하러왔냐!!"", ""ko_gap"": "" "", ""ds_gap"": """"}]"	{1:align}{2:align}なにしに きたんだ！！{3:wait}	{1:align}{2:align}뭐 하러 왔냐!!{3:wait}	뭐하러 왔냐!!	DS 오기 수정: '뭐하러'→'뭐 하러'(DS0F9#13).
+FMsg__o_zutsuda_01__and9	FMsg/o_zutsuda_04_before#7	DS0F9#11	"[{""position"": 1, ""left"": ""쿠"", ""right"": ""파님!!"", ""ko_gap"": """", ""ds_gap"": "" ""}, {""position"": 2, ""left"": ""쿠파"", ""right"": ""님!!"", ""ko_gap"": """", ""ds_gap"": "" ""}]"	{1:align}{2:align}クッパ様！！{3:pause}	{1:align}{2:align}쿠파님!!{3:pause}	쿠 파 님!!	
+FMsg__o_zutsuda_01__and9	FMsg/o_zutsuda_15#15	DS108#30	"[{""position"": 8, ""left"": ""아~아아~아~…"", ""right"": ""아!연결된건가!?…에헴!"", ""ko_gap"": "" "", ""ds_gap"": """"}, {""position"": 18, ""left"": ""아~아~…아!연결된건가!?…"", ""right"": ""에헴!"", ""ko_gap"": "" "", ""ds_gap"": """"}]"	"{1:align}あ～{2:pause} ああ～{3:pause} あ～{4:pause}
+…{5:pause} あ！{6:pause} これつながってる！？{7:wait}[Next]{8:align}{9:align}…{10:pause} コホン。{11:wait}"	"{1:align}아~{2:pause} 아아~{3:pause} 아~{4:pause}
+…{5:pause} 아!{6:pause} 연결된 건가!?{7:wait}[Next]{8:align}{9:align}…{10:pause} 에헴!{11:wait}"	"아~ 아아~ 아~
+…아! 연결된 건가!?[Next]…에헴!"	

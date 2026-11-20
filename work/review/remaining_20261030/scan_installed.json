@@ -1,0 +1,589 @@
+{
+ "text": {
+  "files_missing": [],
+  "files_extra": [],
+  "count_mismatch": [],
+  "japanese_left": [],
+  "identical_to_jp": [
+   [
+    "Msg/JP_ja/BMsg.dat:b_sys#1215",
+    " LV"
+   ],
+   [
+    "Msg/JP_ja/Menu.msbt#155",
+    "Area of dark DX"
+   ],
+   [
+    "Msg/JP_ja/Menu.msbt#274",
+    "The Winner is…"
+   ],
+   [
+    "Msg/JP_ja/Menu.msbt#360",
+    "Area of dark"
+   ],
+   [
+    "Msg/JP_ja/Menu.msbt#547",
+    "Peaceful DX"
+   ],
+   [
+    "Msg/JP_ja/Menu.msbt#665",
+    "The Winner is… DX"
+   ],
+   [
+    "Msg/JP_ja/Menu.msbt#752",
+    "Peaceful"
+   ]
+  ],
+  "no_hangul_but_jp_had_kana": [],
+  "ruby_tags": 0,
+  "messages": 9623,
+  "translated_differs": 9597,
+  "distinct_chars": 1254,
+  "hangul_used": 1161,
+  "hangul_outside_ksx1001": [],
+  "missing_in_font": {
+   "font": [],
+   "font_l": [],
+   "font_btl": []
+  },
+  "other_symbols": {
+   "…": 3286,
+   "―": 277,
+   "「": 216,
+   "」": 216,
+   "↑": 46,
+   "☆": 35,
+   "♪": 29,
+   "·": 23,
+   "【": 10,
+   "】": 10,
+   "→": 9,
+   "↓": 6,
+   "■": 6,
+   "●": 6,
+   "※": 5,
+   "←": 4,
+   "▲": 4,
+   "×": 3,
+   "②": 2,
+   "③": 2,
+   "④": 2,
+   "★": 2,
+   "⑤": 2,
+   "①": 2
+  }
+ },
+ "lyt": {
+  "per_dat": {
+   "BLyt": "5 entries changed",
+   "FLyt": "1 entries changed",
+   "GLyt": "not installed (original used)",
+   "KLyt": "10 entries changed",
+   "MLyt": "11 entries changed",
+   "SLyt": "2 entries changed"
+  },
+  "changed_textures": 258,
+  "changed_not_in_plan": [],
+  "changed_non_texture_files": [],
+  "replace_not_fully_installed": [],
+  "keep_items_changed": [],
+  "keep_items_with_text": [
+   [
+    "3DX:BLyt/btl_RESLT_LYT_JP_ja/timg/BR_RANKUP_o_00_JP_ja.bflim",
+    "RANK UP!!",
+    "리드 확인: RANK UP!! 영어 유지(1DX에 대응 없음)"
+   ],
+   [
+    "3DX:BLyt/btl_RESLT_LYT_JP_ja/timg/STbr_POW_00_JP_ja.bflim",
+    "POW",
+    ""
+   ],
+   [
+    "3DX:BLyt/btl_RESLT_LYT_JP_ja/timg/name_MARIO18056_00_JP_ja.bflim",
+    "MARIO",
+    ""
+   ],
+   [
+    "3DX:BLyt/btl_RESLT_LYT_JP_ja/timg/EXP2812_00_JP_ja.bflim",
+    "EXP",
+    ""
+   ],
+   [
+    "3DX:BLyt/btl_RESLT_LYT_JP_ja/timg/pnl_ATCMINIGAME_CONGRATULATIONS_00_JP_ja.bflim",
+    "CONGRATULATIONS!",
+    "리드 확인: 1DX 대응 없음"
+   ],
+   [
+    "3DX:BLyt/btl_RESLT_LYT_JP_ja/timg/name_KOOPA18056_00_JP_ja.bflim",
+    "KOOPA",
+    "리드 확인: KOOPA 영어 유지"
+   ],
+   [
+    "3DX:BLyt/btl_RESLT_LYT_JP_ja/timg/name_LUIGI18056_00_JP_ja.bflim",
+    "LUIGI",
+    ""
+   ],
+   [
+    "3DX:BLyt/btl_RESLT_LYT_JP_ja/timg/STbr_SPEED_00_JP_ja.bflim",
+    "SPEED",
+    ""
+   ],
+   [
+    "3DX:BLyt/btl_RESLT_LYT_JP_ja/timg/STbr_HP_00_JP_ja.bflim",
+    "HP",
+    ""
+   ],
+   [
+    "3DX:BLyt/btl_RESLT_LYT_JP_ja/timg/STbr_DEF_00_JP_ja.bflim",
+    "DEF",
+    ""
+   ],
+   [
+    "3DX:BLyt/btl_RESLT_LYT_JP_ja/timg/BR_LVUP_i_00_JP_ja.bflim",
+    "LEVEL UP!",
+    ""
+   ],
+   [
+    "3DX:BLyt/btl_RESLT_LYT_JP_ja/timg/BR_RANKUP_i_00_JP_ja.bflim",
+    "RANK UP!!",
+    ""
+   ],
+   [
+    "3DX:BLyt/btl_RESLT_LYT_JP_ja/timg/BR_LVUP_hi_00_JP_ja.bflim",
+    "LEVEL UP!",
+    ""
+   ],
+   [
+    "3DX:BLyt/btl_RESLT_LYT_JP_ja/timg/BR_RANKUP_hi_00_JP_ja.bflim",
+    "RANK UP!!",
+    ""
+   ],
+   [
+    "3DX:BLyt/btl_RESLT_LYT_JP_ja/timg/btl_RESULT_LV_00_JP_ja.bflim",
+    "LV",
+    ""
+   ],
+   [
+    "3DX:BLyt/btl_RESLT_LYT_JP_ja/timg/BR_LVUP_o_00_JP_ja.bflim",
+    "LEVEL UP!",
+    ""
+   ],
+   [
+    "3DX:KLyt/KJ_RESULT_JP_ja/timg/KJ_LEVEL_UP_00_JP_ja.bflim",
+    "LEVEL\nUP!",
+    ""
+   ],
+   [
+    "3DX:KLyt/KJ_RESULT_JP_ja/timg/EXP3216_00_JP_ja.bflim",
+    "EXP",
+    ""
+   ],
+   [
+    "3DX:KLyt/KJ_RESULT_JP_ja/timg/KJ_ST_DEF_00_JP_ja.bflim",
+    "DEF",
+    ""
+   ],
+   [
+    "3DX:KLyt/KJ_RESULT_JP_ja/timg/KJ_ST_SPEED_00_JP_ja.bflim",
+    "SPEED",
+    ""
+   ],
+   [
+    "3DX:KLyt/KJ_RESULT_JP_ja/timg/KJ_NEW_00_JP_ja.bflim",
+    "NEW",
+    ""
+   ],
+   [
+    "3DX:KLyt/KJ_RESULT_JP_ja/timg/KJ_ST_HP_00_JP_ja.bflim",
+    "HP",
+    ""
+   ],
+   [
+    "3DX:KLyt/KJ_RESULT_JP_ja/timg/LV1208_00_JP_ja.bflim",
+    "LV",
+    ""
+   ],
+   [
+    "3DX:KLyt/KJ_RESULT_JP_ja/timg/KJ_ST_POW_00_JP_ja.bflim",
+    "POW",
+    ""
+   ],
+   [
+    "3DX:KLyt/KJ_RECORD_JP_ja/timg/pnl_ATCMINIGAME_COMPLETE_00_JP_ja.bflim",
+    "COMPLETE",
+    "리드 확인: 1DX 대응 없음"
+   ],
+   [
+    "3DX:KLyt/KJ_RECORD_JP_ja/timg/btn_p_HATENA_00_JP_ja.bflim",
+    "？？？",
+    ""
+   ],
+   [
+    "3DX:KLyt/KJ_ITEM_JP_ja/timg/EXP_s_L_00_JP_ja.bflim",
+    "EXP",
+    ""
+   ],
+   [
+    "3DX:KLyt/KJ_ITEM_JP_ja/timg/NEXT_s_L_00_JP_ja.bflim",
+    "NEXT",
+    ""
+   ],
+   [
+    "3DX:KLyt/KJ_QUEST_JP_ja/timg/STARTx36.bflim",
+    "START",
+    "리드 확인: START 영어 유지"
+   ],
+   [
+    "3DX:KLyt/KJ_BATTLEn_JP_ja/timg/mg_PAUSE_IN_00_JP_ja.bflim",
+    "PAUSE",
+    ""
+   ],
+   [
+    "3DX:KLyt/KJ_BATTLEn_JP_ja/timg/btn_KJ_LA_00_00_JP_ja.bflim",
+    "？？？",
+    ""
+   ],
+   [
+    "3DX:KLyt/KJ_BATTLEn_JP_ja/timg/mg_PAUSE_OUT_00_JP_ja.bflim",
+    "PAUSE",
+    ""
+   ],
+   [
+    "3DX:KLyt/KJ_SET_JP_ja/timg/btn_SET_ON_00_JP_ja.bflim",
+    "ON",
+    ""
+   ],
+   [
+    "3DX:KLyt/KJ_SET_JP_ja/timg/btn_SET_OFF_00_JP_ja.bflim",
+    "OFF",
+    ""
+   ],
+   [
+    "3DX:KLyt/KJ_PARTY_JP_ja/timg/KJ_BONUS_00_JP_ja.bflim",
+    "BONUS",
+    ""
+   ],
+   [
+    "3DX:MLyt/MENU_ITEM_Lyt_JP_ja/timg/name_MARIO9624_00_JP_ja.bflim",
+    "MARIO",
+    ""
+   ],
+   [
+    "3DX:MLyt/MENU_ITEM_Lyt_JP_ja/timg/name_LUIGI9624_00_JP_ja.bflim",
+    "LUIGI",
+    ""
+   ],
+   [
+    "3DX:MLyt/MENU_ITEM_Lyt_JP_ja/timg/name_KOOPA9624_00_JP_ja.bflim",
+    "KOOPA",
+    "리드 확인: KOOPA 영어 유지"
+   ],
+   [
+    "3DX:MLyt/MENU_SHOP_Lyt_JP_ja/timg/E_KOOPA_00_JP_ja.bflim",
+    "E",
+    ""
+   ],
+   [
+    "3DX:MLyt/MENU_SHOP_Lyt_JP_ja/timg/LIST_SOLDOUT_00_JP_ja.bflim",
+    "SOLD OUT",
+    "리드 확인: 1DX 대응 없음"
+   ],
+   [
+    "3DX:MLyt/MENU_SHOP_Lyt_JP_ja/timg/E_LUIGI_00_JP_ja.bflim",
+    "E",
+    ""
+   ],
+   [
+    "3DX:MLyt/MENU_SHOP_Lyt_JP_ja/timg/E_MARIO_00_JP_ja.bflim",
+    "E",
+    ""
+   ],
+   [
+    "3DX:MLyt/MENU_RECORD_JP_ja/timg/btn_p_BGM_00_JP_ja.bflim",
+    "BGM",
+    ""
+   ],
+   [
+    "3DX:MLyt/MENU_RECORD_JP_ja/timg/LTIT_record_BGM_00_JP_ja.bflim",
+    "BGM",
+    ""
+   ],
+   [
+    "3DX:SLyt/COLISEUM_JP_ja/timg/COLISEUM_RESULT_WIN_00_jp_ja.bflim",
+    "WIN!",
+    "리드 확인: 1DX 대응 없음"
+   ],
+   [
+    "3DX:SLyt/COLISEUM_JP_ja/timg/COLISEUM_RESULT_LOSE_00_jp_ja.bflim",
+    "LOSE...",
+    "리드 확인: 1DX 대응 없음"
+   ],
+   [
+    "3DX:SLyt/MINIGAME_JP_ja/timg/pnl_ATCMINIGAME_BSCORE_00_JP_ja.bflim",
+    "BEST SCORE",
+    ""
+   ]
+  ],
+  "glyt_items": []
+ },
+ "obj": {
+  "BUI.dat": [
+   "00B",
+   "00F",
+   "00H",
+   "00L",
+   "00N",
+   "00`"
+  ],
+  "FUI.dat": [
+   "00Z",
+   "013"
+  ],
+  "KUI.dat": [
+   "00N",
+   "00P",
+   "00R",
+   "00T",
+   "00Z",
+   "00`",
+   "01I"
+  ],
+  "Menu.dat": [
+   "00W",
+   "00Y"
+  ]
+ },
+ "fmdl": {
+  "FMdl.dat": [
+   "fmd_title_JP_ja",
+   "fmd_title_start_JP_ja"
+  ]
+ },
+ "hb": {
+  "arcs": {
+   "HB/JP_ja/cyorometer.arc.z": "installed, differs",
+   "HB/JP_ja/demoskip.arc.z": "installed, differs",
+   "HB/JP_ja/dpunch.arc.z": "installed, differs",
+   "HB/JP_ja/fireball.arc.z": "installed, differs",
+   "HB/JP_ja/get.arc.z": "not installed",
+   "HB/JP_ja/kyusai.arc.z": "installed, differs",
+   "HB/JP_ja/punch.arc.z": "installed, differs",
+   "HB/JP_ja/result_win.arc.z": "not installed",
+   "HB/JP_ja/rotation.arc.z": "installed, differs",
+   "HB/JP_ja/start.arc.z": "installed, differs",
+   "HB/JP_ja/touchpen.arc.z": "installed, differs",
+   "HB/JP_ja/ui_fa.arc.z": "installed, differs",
+   "HB/JP_ja/value.arc.z": "not installed",
+   "HB/JP_ja/yesno.arc.z": "installed, differs",
+   "HB/battle_guide.arc.z": "not installed",
+   "HB/life1.arc.z": "not installed",
+   "HB/life2.arc.z": "not installed",
+   "HB/life3.arc.z": "not installed",
+   "HB/life4.arc.z": "not installed",
+   "HB/parts.arc.z": "installed, differs",
+   "HB/primitive.arc.z": "not installed",
+   "HB/result.arc.z": "not installed",
+   "HB/ui.arc.z": "not installed"
+  },
+  "replace_arcs_not_installed": []
+ },
+ "staffroll": {
+  "lines": [
+   416,
+   416
+  ],
+  "japanese_left": [
+   [
+    344,
+    "Mario＆LuigiRPG3"
+   ]
+  ],
+  "changed_lines": [
+   [
+    28,
+    "Mario&LuigiRPG3 DX",
+    "마리오&루이지 RPG3 DX"
+   ]
+  ],
+  "japanese_in_original": [
+   [
+    344,
+    "Mario＆LuigiRPG3"
+   ]
+  ]
+ },
+ "smdh": {
+  "exefs/icon": {
+   "titles": {
+    "Japanese": [
+     "マリオ＆ルイージRPG3 DX",
+     "マリオ＆ルイージRPG3 DX",
+     "Nintendo"
+    ],
+    "English": [
+     "Mario & Luigi: Bowser's Inside…",
+     "Mario & Luigi: Bowser's Inside\nStory + Bowser Jr.'s Journey",
+     "Nintendo"
+    ],
+    "French": [
+     "Mario & Luigi: Voyage au…",
+     "Mario & Luigi: Bowser's Inside\nStory + Bowser Jr.'s Journey",
+     "Nintendo"
+    ],
+    "German": [
+     "Mario & Luigi: Abenteuer…",
+     "Mario & Luigi: Abenteuer\nBowser + Bowser Jr.s Reise",
+     "Nintendo"
+    ],
+    "Italian": [
+     "Mario & Luigi: Viaggio al…",
+     "Mario & Luigi: Viaggio al centro\ndi Bowser + Le avventure di…",
+     "Nintendo"
+    ],
+    "Spanish": [
+     "Mario & Luigi: Viaje al centro…",
+     "Mario & Luigi: Bowser's Inside\nStory + Bowser Jr.'s Journey",
+     "Nintendo"
+    ],
+    "SimpChinese": [
+     "Mario & Luigi: Bowser's In…",
+     "Mario & Luigi: Bowser's Inside\nStory + Bowser Jr.'s Journey",
+     "Nintendo"
+    ],
+    "Korean": [
+     "Mario & Luigi: Bowser's In…",
+     "Mario & Luigi: Bowser's Inside\nStory + Bowser Jr.'s Journey",
+     "Nintendo"
+    ],
+    "Dutch": [
+     "Mario & Luigi: Bowser's In…",
+     "Mario & Luigi: Bowser's Inside\nStory + Bowser Jr.'s Journey",
+     "Nintendo"
+    ],
+    "Portuguese": [
+     "Mario & Luigi: Bowser's In…",
+     "Mario & Luigi: Bowser's Inside\nStory + Bowser Jr.'s Journey",
+     "Nintendo"
+    ],
+    "Russian": [
+     "Mario & Luigi: Bowser's In…",
+     "Mario & Luigi: Bowser's Inside\nStory + Bowser Jr.'s Journey",
+     "Nintendo"
+    ],
+    "TradChinese": [
+     "Mario & Luigi: Bowser's In…",
+     "Mario & Luigi: Bowser's Inside\nStory + Bowser Jr.'s Journey",
+     "Nintendo"
+    ],
+    "?12": [
+     "",
+     "",
+     ""
+    ],
+    "?13": [
+     "",
+     "",
+     ""
+    ],
+    "?14": [
+     "",
+     "",
+     ""
+    ],
+    "?15": [
+     "",
+     "",
+     ""
+    ]
+   },
+   "region_lockout": "0x1",
+   "sha1": "86b8dc87bd13b2fc79c8ddeb4b0f87c136802c21"
+  },
+  "exefs2/icon": {
+   "titles": {
+    "Japanese": [
+     "マリオ＆ルイージRPG3 DX",
+     "マリオ＆ルイージRPG3 DX",
+     "Nintendo"
+    ],
+    "English": [
+     "Mario & Luigi: Bowser's Inside…",
+     "Mario & Luigi: Bowser's Inside\nStory + Bowser Jr.'s Journey",
+     "Nintendo"
+    ],
+    "French": [
+     "Mario & Luigi: Voyage au…",
+     "Mario & Luigi: Bowser's Inside\nStory + Bowser Jr.'s Journey",
+     "Nintendo"
+    ],
+    "German": [
+     "Mario & Luigi: Abenteuer…",
+     "Mario & Luigi: Abenteuer\nBowser + Bowser Jr.s Reise",
+     "Nintendo"
+    ],
+    "Italian": [
+     "Mario & Luigi: Viaggio al…",
+     "Mario & Luigi: Viaggio al centro\ndi Bowser + Le avventure di…",
+     "Nintendo"
+    ],
+    "Spanish": [
+     "Mario & Luigi: Viaje al centro…",
+     "Mario & Luigi: Bowser's Inside\nStory + Bowser Jr.'s Journey",
+     "Nintendo"
+    ],
+    "SimpChinese": [
+     "Mario & Luigi: Bowser's In…",
+     "Mario & Luigi: Bowser's Inside\nStory + Bowser Jr.'s Journey",
+     "Nintendo"
+    ],
+    "Korean": [
+     "Mario & Luigi: Bowser's In…",
+     "Mario & Luigi: Bowser's Inside\nStory + Bowser Jr.'s Journey",
+     "Nintendo"
+    ],
+    "Dutch": [
+     "Mario & Luigi: Bowser's In…",
+     "Mario & Luigi: Bowser's Inside\nStory + Bowser Jr.'s Journey",
+     "Nintendo"
+    ],
+    "Portuguese": [
+     "Mario & Luigi: Bowser's In…",
+     "Mario & Luigi: Bowser's Inside\nStory + Bowser Jr.'s Journey",
+     "Nintendo"
+    ],
+    "Russian": [
+     "Mario & Luigi: Bowser's In…",
+     "Mario & Luigi: Bowser's Inside\nStory + Bowser Jr.'s Journey",
+     "Nintendo"
+    ],
+    "TradChinese": [
+     "Mario & Luigi: Bowser's In…",
+     "Mario & Luigi: Bowser's Inside\nStory + Bowser Jr.'s Journey",
+     "Nintendo"
+    ],
+    "?12": [
+     "",
+     "",
+     ""
+    ],
+    "?13": [
+     "",
+     "",
+     ""
+    ],
+    "?14": [
+     "",
+     "",
+     ""
+    ],
+    "?15": [
+     "",
+     "",
+     ""
+    ]
+   },
+   "region_lockout": "0x1",
+   "sha1": "86b8dc87bd13b2fc79c8ddeb4b0f87c136802c21"
+  }
+ }
+}

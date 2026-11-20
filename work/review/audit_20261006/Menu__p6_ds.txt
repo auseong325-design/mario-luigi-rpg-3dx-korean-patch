@@ -1,0 +1,20 @@
+Menu#811 MES_tuto_yo_nice_hige4 score=0.943 <- SAI__SMes_yo:0#48
+JP これからは お買い物ごとに / スーパーボーナスカードを / さしあげます！{1:wait}[Next]{2:align}これまでより アタリが / 出やすくなってますよ！{3:wait}
+KO 앞으로는 쇼핑하실 때마다 / 슈퍼 보너스 카드를 / 드리겠습니다!{1:wait}[Next]{2:align}지금까지보다 더 쉽게 / 당첨되실 거예요!{3:wait}
+DS 앞으로는 쇼핑하실 때마다 / 슈퍼 스크래치 카드를 / 드리겠습니다![Next]지금까지보다 더 쉽게 / 당첨되실 거예요!
+Menu#821 MES_menu_tuto_badge_change_badge_change_ok score=0.884 <- MAI__MMes_yo:0#8
+JP バッジの 組み合わせが / 決まったら {1:color}{2:icon}{3:color}{4:color}ボタンで決定だよ！{5:wait}{6:color}
+KO 배지의 조합을 정했다면 / {1:color}{2:icon}{3:color}{4:color} 버튼을 눌러 결정하는 거야!{5:wait}{6:color}
+DS 배지의 조합을 정했다면 / Ⓐ)를 눌러 결정하는 거야!
+Menu#822 MES_tuto_yo_bad_hige3_badge score=0.889 <- SAI__SMes_yo:0#30
+JP これじゃ 残念だけど / スーパーボーナスカードは / プレゼントできないね…{1:wait}[Next]{2:align}ノーマルボーナスカードなら / プレゼントできるけどね。{3:wait}
+KO 미안하지만 이 상태로는 / 슈퍼 보너스 카드를 / 줄 수가 없어…{1:wait}[Next]{2:align}보통 보너스 카드라도 / 괜찮다면 이거라도 줄게.{3:wait}
+DS 미안하지만 이 상태로는 / 슈퍼 스크래치 카드를 / 줄 수가 없어…[Next]보통 스크래치 카드라도 / 괜찮다면 이거라도 줄게.
+Menu#824 menu_save_01 score=0.81 <- EDataSave__mfset_EMesSys:11
+JP セーブ中です。 / 電源をOFFにしないでください。
+KO 저장 중입니다. / 전원을 끄지 마십시오.
+DS 저장 중입니다. / 전원을 끄거나 / DS 카드를 / 뽑지 마십시오.
+Menu#832 MES_tuto_yo_nice_hige6 score=0.945 <- SAI__SMes_yo:0#56
+JP これからは お買い物ごとに / ウルトラボーナスカードを / さしあげます！{1:wait}[Next]{2:align}これまでより アタリが / 出やすくなってますよ！{3:wait}
+KO 앞으로는 쇼핑하실 때마다 / 울트라 보너스 카드를 / 드리도록 할게요!{1:wait}[Next]{2:align}지금까지보다 더 쉽게 / 당첨되실 거예요!{3:wait}
+DS 앞으로는 쇼핑하실 때마다 / 울트라 스크래치 카드를 / 드리도록 할게요![Next]지금까지보다 더 쉽게 / 당첨되실 거예요!

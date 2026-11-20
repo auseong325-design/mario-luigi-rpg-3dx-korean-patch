@@ -1,0 +1,135 @@
+﻿batch	id	before	after	reason	duplicates
+Menu__p3	Menu#333	"액션 아이콘을 「{1:color}해머{2:color}」로 바꾸고
+{3:color}{4:icon}{5:color} 버튼으로 해머를 휘두를 수 있어요."	"액션 아이콘을 「{1:color}해머{2:color}」로 전환하고
+{3:color}{4:icon}{5:color} 버튼으로 해머를 휘두를 수 있어요."	액션 아이콘 切り替える/きりかえる는 DS 공통 조작 용어 전환으로 통일. 히라가나 표기 때문에 앞선 용어 점검에서 빠진 곳을 수정.	0
+Menu__p2	Menu#232	"앞으로는 쇼핑하실 때마다
+슈퍼 보너스 카드를
+선물해 드리겠습니다!{1:wait}[Next]{2:align}지금까지보다 당첨 확률이
+높아질 겁니다!{3:wait}"	"앞으로는 구입하실 때마다
+슈퍼 보너스 카드를
+선물해 드리겠습니다!{1:wait}[Next]{2:align}지금까지보다 당첨 확률이
+높아질 겁니다!{3:wait}"	DS SAI__SMes_yo 표0#110와 같은 상점 보너스 안내의 공통 문장 복원. 쇼핑 단독 명칭을 맞추느라 재번역한 서술문을 DS대로 쓰며, 3DX에서 바뀐 카드 명칭은 유지.	0
+Menu__p2	Menu#245	"앞으로는 쇼핑하실 때마다
+울트라 보너스 카드를
+선물해 드리겠습니다!{1:wait}[Next]{2:align}지금까지보다 당첨 확률이
+높아질 겁니다!{3:wait}"	"앞으로는 구입하실 때마다
+울트라 보너스 카드를
+선물해 드리겠습니다!{1:wait}[Next]{2:align}지금까지보다 당첨 확률이
+높아질 겁니다!{3:wait}"	DS SAI__SMes_yo 표0#112와 같은 상점 보너스 안내의 공통 문장 복원. 쇼핑 단독 명칭을 맞추느라 재번역한 서술문을 DS대로 쓰며, 3DX에서 바뀐 카드 명칭은 유지.	0
+Menu__p5	Menu#649	"역시 손님들은
+잘 알고 계시군요!{1:wait}[Next]그럼 즐거운 쇼핑
+되시길 바랍니다~{2:wait}"	"역시 손님들은
+잘 알고 계시군요!{1:wait}[Next]그럼 천천히
+둘러보세요~{2:wait}"	DS SAI__SMes_yo 표0#90와 같은 상점 설명 마무리 대사를 그대로 복원. 기존 note의 お買い物=쇼핑 경고 회피보다 DS 공통 문장 그대로 쓰기 원칙을 적용.	0
+Menu__p5	Menu#731	"{1:color}C스틱{2:color}으로도
+주변 지도를 볼 수 있어요.
+(New 닌텐도 3DS 전용)"	"{1:color}C스틱{2:color}으로도
+주변 지도를 볼 수 있어요.
+※New 닌텐도 3DS 전용"	원문 주석 기호 ※ 복원. 기존 note의 폰트 미지원 사유는 2026-09-30 기호 글리프 반영 이후 해소됨.	0
+Menu__p2	Menu#322	"어머나! 손님!
+SUYEOM이 멋지네요!{1:wait}"	"어머나! 손님!
+SUYEOM 멋진 것 좀 봐!{1:wait}"	DS SAI__SMes_yo 표0#37와 같은 부티크 상점 첫 보너스 안내의 공통 대사를 띄어쓰기·문장부호까지 복원.	0
+Menu__p3	Menu#343	"어머나! 손님!
+SUYEOM이 더욱
+멋져지셨네요!{1:wait}"	"어머나! 손님!
+SUYEOM이 더 멋져진 것
+같은데 맞죠?{1:wait}"	DS SAI__SMes_yo 표0#45와 같은 부티크 상점 보너스 업그레이드의 공통 대사를 그대로 복원.	0
+Menu__p5	Menu#801	"어라? 마리오님, 루이지님.
+SUYEOM이 훨씬 더
+멋져지셨네요!{1:wait}"	"우와! 마리오님! 루이지님!
+SUYEOM이 훨씬 더
+멋져지셨네요!{1:wait}"	DS SAI__SMes_yo 표0#44와 같은 상점 보너스 업그레이드의 공통 대사를 감탄사·문장부호까지 복원.	0
+Menu__p3	Menu#458	"왈 왈…
+(당첨 되면…){1:wait}"	"왈 왈…
+(당첨되면…){1:wait}"	DS 오기 수정: SAI__SMes_yo 표0#130의 당첨 되면을 합성 동사 당첨되다에 맞춰 붙여 씀.	0
+HugeBattle__p1	HugeBattle#21	"뜨겁게{1:pause} 되면{2:pause}
+버릴 것!{3:pause}{4:color}{5:wait}{6:color}"	"뜨거워{1:pause}지면{2:pause}
+버리자!{3:pause}{4:color}{5:wait}{6:color}"	배치 참조에 누락된 DS BAI__BMes_yo 표2#14의 같은 장면·같은 뜻 한국어를 복원. 3DX 자리표시자·페이지 수 유지.	0
+HugeBattle__p1	HugeBattle#26	"제법 하는군{1:pause}
+하지만{2:pause} 이 공격은{3:pause}
+피할 수 없다…{4:pause}"	"싸울 줄 아는걸?{1:pause}
+하지만{2:pause} 이 공격은{3:pause}
+피할 수 없을 거다…{4:pause}"	배치 참조에 누락된 DS BAI__BMes_yo 표2#20의 같은 장면·같은 뜻 한국어를 복원. 3DX 자리표시자·페이지 수 유지.	0
+HugeBattle__p1	HugeBattle#29	"또 그걸
+꺼낼 셈이냐!?"	"또 그것을
+쏠 작정이냐!?"	배치 참조에 누락된 DS BAI__BMes_yo 표2#6의 같은 장면·같은 뜻 한국어를 복원. 3DX 자리표시자·페이지 수 유지.	0
+HugeBattle__p1	HugeBattle#33	"흥!{1:pause} 저런 것쯤이야
+이 몸의 화염으로
+쏘아 떨어뜨려 주마!"	"흥!{1:pause} 저따위 건
+이 몸이 화염으로
+떨어뜨려 주겠다!"	배치 참조에 누락된 DS BAI__BMes_yo 표2#7의 같은 장면·같은 뜻 한국어를 복원. 3DX 자리표시자·페이지 수 유지.	0
+HugeBattle__p1	HugeBattle#37	"크핫핫핫!{1:pause} 보았느냐!{2:pause}
+이 몸의 힘을!"	"크핫핫핫!{1:pause} 봤느냐?{2:pause}
+이 몸의 힘을!"	배치 참조에 누락된 DS BAI__BMes_yo 표2#8의 같은 장면·같은 뜻 한국어를 복원. 3DX 자리표시자·페이지 수 유지.	0
+HugeBattle__p1	HugeBattle#41	"세이프티 시스템{1:pause}
+프로그램{2:pause} 작동!{3:pause}{4:color}{5:wait}{6:color}"	"방어 시스템{1:pause}
+프로그램{2:pause} 가동!{3:pause}{4:color}{5:wait}{6:color}"	배치 참조에 누락된 DS BAI__BMes_yo 표2#18의 같은 장면·같은 뜻 한국어를 복원. 3DX 자리표시자·페이지 수 유지.	0
+HugeBattle__p1	HugeBattle#44	"이것으로{1:pause} 정면에서
+오는{2:pause} 공격은{3:pause}
+완벽하게{4:pause} 방어한다!{5:pause}{6:color}{7:wait}{8:color}"	"이제{1:pause} 정면에서
+오는{2:pause} 공격은{3:pause}
+완전히{4:pause} 막는다!{5:pause}{6:color}{7:wait}{8:color}"	배치 참조에 누락된 DS BAI__BMes_yo 표2#19의 같은 장면·같은 뜻 한국어를 복원. 3DX 자리표시자·페이지 수 유지.	0
+HugeBattle__p1	HugeBattle#96	무슨 짓을 할 셈이냐?	무슨 속셈이냐?	배치 참조에 누락된 DS BAI__BMes_yo 표2#0의 같은 장면·같은 뜻 한국어를 복원. 3DX 자리표시자·페이지 수 유지.	0
+HugeBattle__p1	HugeBattle#97	"뭐냐? 불꽃놀이냐?
+속 편한 녀석이군…"	"뭐냐? 불꽃이냐?
+어수룩한 녀석이군…"	배치 참조에 누락된 DS BAI__BMes_yo 표2#1의 같은 장면·같은 뜻 한국어를 복원. 3DX 자리표시자·페이지 수 유지.	0
+HugeBattle__p1	HugeBattle#100	"응?{1:pause} 아무 일도 없군.
+실패한 거냐?"	"응?{1:pause} 터지질 않는데?
+불발탄인가?"	배치 참조에 누락된 DS BAI__BMes_yo 표2#2의 같은 장면·같은 뜻 한국어를 복원. 3DX 자리표시자·페이지 수 유지.	0
+HugeBattle__p1	HugeBattle#103	"별난 불꽃놀이로군…{1:pause}
+뭐, 됐다.{2:pause} 불꽃놀이는
+내버려 두고…"	"특이한 불꽃이군…{1:pause}
+상관없다!{2:pause}
+불꽃은 신경 끄고…"	배치 참조에 누락된 DS BAI__BMes_yo 표2#3의 같은 장면·같은 뜻 한국어를 복원. 3DX 자리표시자·페이지 수 유지.	0
+HugeBattle__p1	HugeBattle#107	"이 녀석을
+어떻게든 해야겠군!"	"이 녀석부터
+해치워야겠군!"	배치 참조에 누락된 DS BAI__BMes_yo 표2#4의 같은 장면·같은 뜻 한국어를 복원. 3DX 자리표시자·페이지 수 유지.	0
+HugeBattle__p1	HugeBattle#109	"크아―!{1:pause} 이 몸을
+빨아들일 셈이냐!{2:color}{3:wait}{4:color}"	"허억―!{1:pause} 이 몸을
+빨아들일 작정이냐?{2:color}{3:wait}{4:color}"	배치 참조에 누락된 DS BAI__BMes_yo 표2#5의 같은 장면·같은 뜻 한국어를 복원. 3DX 자리표시자·페이지 수 유지.	0
+HugeBattle__p1	HugeBattle#111	그렇게는 안 되지!{1:color}{2:wait}{3:color}	당할 것 같으냐!?{1:color}{2:wait}{3:color}	배치 참조에 누락된 DS BAI__BMes_yo 표2#9의 같은 장면·같은 뜻 한국어를 복원. 3DX 자리표시자·페이지 수 유지.	0
+HugeBattle__p1	HugeBattle#114	"뜨겁다!{1:pause} 뜨겁다!{2:pause}
+불이야!{3:pause} 불이야!{4:pause}{5:color}{6:wait}{7:color}"	"뜨거워!{1:pause} 뜨거워!{2:pause}
+불이야!{3:pause} 불이야!{4:pause}{5:color}{6:wait}{7:color}"	배치 참조에 누락된 DS BAI__BMes_yo 표2#12의 같은 장면·같은 뜻 한국어를 복원. 3DX 자리표시자·페이지 수 유지.	0
+HugeBattle__p2	HugeBattle#116	"타기 쉬운{1:pause} 물건은{2:pause}
+버릴 것!{3:pause}{4:color}{5:wait}{6:color}"	"타 버릴 만한{1:pause} 물건은{2:pause}
+버려야겠다!{3:pause}{4:color}{5:wait}{6:color}"	배치 참조에 누락된 DS BAI__BMes_yo 표2#13의 같은 장면·같은 뜻 한국어를 복원. 3DX 자리표시자·페이지 수 유지.	0
+HugeBattle__p2	HugeBattle#122	"세이프티 시스템{1:pause}
+프로그램{2:pause} 에러!{3:pause}
+방어벽{4:pause} 소멸!{5:pause}{6:color}{7:wait}{8:color}"	"방어 시스템{1:pause}
+프로그램{2:pause} 에러!{3:pause}
+방어{4:pause} 소멸!{5:pause}{6:color}{7:wait}{8:color}"	배치 참조에 누락된 DS BAI__BMes_yo 표2#17의 같은 장면·같은 뜻 한국어를 복원. 3DX 자리표시자·페이지 수 유지. 피치로봇의 이 문맥은 DS에서 방어 소멸이며 용어집 전투 ガード=방어와도 일치하므로 기존 방어벽을 복원.	0
+HugeBattle__p2	HugeBattle#124	"부끄부끄 시스템{1:pause} 작동!{2:pause}
+도중에{3:pause} 모습이{4:pause}
+안 보이게{5:pause} 되면…{6:pause}{7:color}{8:wait}{9:color}"	"부끄부끄 시스템{1:pause} 가동!{2:pause}
+중간에{3:pause} 모습이{4:pause}
+보이지 않게{5:pause} 된다면…{6:pause}{7:color}{8:wait}{9:color}"	배치 참조에 누락된 DS BAI__BMes_yo 표2#22의 같은 장면·같은 뜻 한국어를 복원. 3DX 자리표시자·페이지 수 유지.	0
+HugeBattle__p2	HugeBattle#125	"반격할{1:pause} 타이밍도{2:pause}
+알 수 없게 될{3:pause} 것이다!{4:pause}{5:color}{6:wait}{7:color}"	"반격의{1:pause} 타이밍도{2:pause}
+알 수 없게{3:pause} 되겠지!{4:pause}{5:color}{6:wait}{7:color}"	배치 참조에 누락된 DS BAI__BMes_yo 표2#23의 같은 장면·같은 뜻 한국어를 복원. 3DX 자리표시자·페이지 수 유지.	0
+HugeBattle__p2	HugeBattle#127	"제법 하는군{1:pause}
+하지만{2:pause} 이것을{3:pause}
+견딜 수 있을까?{4:pause}"	"생각보단 세군.{1:pause}
+하지만{2:pause} 이걸{3:pause}
+견뎌 낼 수 있을까?{4:pause}"	배치 참조에 누락된 DS BAI__BMes_yo 표2#24의 같은 장면·같은 뜻 한국어를 복원. 3DX 자리표시자·페이지 수 유지.	0
+HugeBattle__p2	HugeBattle#134	"블랙홀로{1:pause} 가는{2:pause}
+데스매치다!{3:pause}"	"블랙홀로{1:pause} 빠지는{2:pause}
+데스 매치다!{3:pause}"	배치 참조에 누락된 DS BAI__BMes_yo 표2#26의 같은 장면·같은 뜻 한국어를 복원. 3DX 자리표시자·페이지 수 유지.	0
+HugeBattle__p2	HugeBattle#135	"네놈의{1:pause} 강함은{2:pause}
+잘 알았다!{3:pause}{4:color}{5:wait}{6:color}[Next]하지만{7:pause} 네놈도{8:pause}
+이것으로 끝이다!{9:pause}{10:color}{11:wait}{12:color}"	"네가{1:pause} 강하다는 건{2:pause}
+인정하겠다!{3:pause}{4:color}{5:wait}{6:color}[Next]하지만{7:pause} 너도{8:pause}
+이걸로 끝이다!{9:pause}{10:color}{11:wait}{12:color}"	배치 참조에 누락된 DS BAI__BMes_yo 표2#27~28의 같은 장면·같은 뜻 한국어를 복원. 3DX 자리표시자·페이지 수 유지.	0
+HugeBattle__p1	HugeBattle#1	"이 녀석이 싸우는 동안에
+얼른 수리하는 거야!{1:wait}"	"이 녀석이 싸우는 동안에
+수리하는 거야!{1:wait}"	DS BAI__BMes_ji 표3#7의 같은 장면·같은 뜻 대사를 그대로 복원.	0
+HugeBattle__p1	HugeBattle#25	"방금의{1:pause} 공격{2:pause}
+꽤{3:pause} 효과적이었다!{4:pause}{5:color}{6:wait}[Next]{7:color}블랙홀을{8:pause}
+이용해{9:pause} 몸통 박치기를{10:pause}
+하다니…{11:pause}{12:color}{13:wait}{14:color}"	"방금{1:pause} 공격은{2:pause}
+제법{3:pause} 위협적이군!{4:pause}{5:color}{6:wait}[Next]{7:color}블랙홀을{8:pause}
+사용해서{9:pause} 몸으로{10:pause}
+공격해 올 줄이야…{11:pause}{12:color}{13:wait}{14:color}"	배치 참조에 누락된 DS BAI__BMes_yo 표2#15~16의 공통 대사를 두 페이지 모두 복원. 단독 タイアタリ/体当たり의 확정 glossary 행은 없으며 行列体当たり·超体当たり는 별도 기술명이다. 이 문장의 타격 방식은 DS의 몸으로 공격해 올 줄이야와 같은 뜻이므로 DS 공통 문장 그대로 쓰기 원칙 적용.	0
+HugeBattle__p1	HugeBattle#101	"{1:mode}{2:color}파이어 버튼{3:color}을
+{4:color}터치{5:color}해 주세요!"	"{1:mode}{2:color}파이어 버튼{3:color}을
+{4:color}터치{5:color}해 주세요."	DS BAI__BMes_ji 표2#30와 같은 파이어 버튼 터치 안내의 문장부호를 DS대로 복원.	0

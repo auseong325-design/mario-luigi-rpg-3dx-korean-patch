@@ -1,0 +1,32 @@
+Menu#649 MES_tuto_yo_scrratch_tuto_no_ml_kinoda score=0.788 <- SAI__SMes_yo:0#89
+JP さすが お客さん / ものしりですね！{1:wait}[Next]それでは お買い物を / お楽しみください～{2:wait}
+KO 역시 손님들은 / 잘 알고 계시군요!{1:wait}[Next]그럼 즐거운 쇼핑 / 되시길 바랍니다~{2:wait}
+DS 역시 마리오님과 루이지님은 / 뭐든지 알고 계시군요![Next]그럼 즐거운 쇼핑 / 되시길 바랍니다~
+Menu#761 MES_tuto_yo_nice_hige6_koukyuu score=0.954 <- SAI__SMes_yo:0#59
+JP これからは お買い物ごとに / ウルトラボーナスカードを / さしあげます。{1:wait}[Next]{2:align}これまでより アタリが / 出やすくなっておりますよ。{3:wait}
+KO 앞으로는 쇼핑하실 때마다 / 울트라 보너스 카드를 / 증정해 드리도록 하겠습니다.{1:wait}[Next]{2:align}지금까지보다는 당첨될 / 확률이 더 높을 것입니다!{3:wait}
+DS 앞으로는 쇼핑하실 때마다 / 울트라 스크래치 카드를 / 증정해 드리도록 하겠습니다.[Next]지금까지보다는 당첨될 / 확률이 더 높을 것입니다!
+Menu#763 MES_tuto_yo_scrratch_tuto_k2_bdog score=0.884 <- SAI__SMes_yo:0#126
+JP ガウガガガウ ガウガウガウ。 / （これ ボーナスカード。 / 買い物した プレゼント。）{1:wait}
+KO 왈 왈왈 왈 왈. / (이거 보너스 카드. / 쇼핑 선물.){1:wait}
+DS 왈 왈왈 왈 왈. / (이거 스크래치 카드. / 쇼핑 선물.)
+Menu#771 MES_menu_tuto_badge_change_badge_change_l score=0.895 <- MAI__MMes_yo:0#4
+JP {1:color}{2:icon}{3:color}{4:color}ボタンで {5:color}{6:color}緑のアンタ{7:color}{8:color}の / バッジを 選ぶ！{9:wait}{10:color}
+KO {1:color}{2:icon}{3:color}{4:color} 버튼으로는 {5:color}{6:color}초록색 쪽{7:color}{8:color}의 / 배지를 선택하는 거야!{9:wait}{10:color}
+DS Ⓛ]로는 초록색 쪽의 / 배지를 선택하는 거야!
+Menu#778 MES_menu_tuto_badge_change_badge_change_m score=0.895 <- MAI__MMes_yo:0#5
+JP {1:color}{2:icon}{3:color}{4:color}ボタンで {5:color}{6:color}赤いアンタ{7:color}{8:color}の / バッジを 選ぶ！{9:wait}{10:color}
+KO {1:color}{2:icon}{3:color}{4:color} 버튼으로는 {5:color}{6:color}빨간색 쪽{7:color}{8:color}의 / 배지를 선택하는 거야!{9:wait}{10:color}
+DS Ⓡ)로는 빨간색 쪽의 / 배지를 선택하는 거야!
+Menu#791 MES_tuto_yo_nice_hige2 score=0.807 <- SAI__SMes_yo:0#40
+JP 当店では りっぱな / HIGEの方に ボーナスカードを / さしあげているんですが…{1:wait}[Next]ボーナスカードの / 説明は いたしましょうか？{2:pause} / {3:align}{4:choice}いいえ{5:tab}{6:choice}はい{7:pause}
+KO 저희 가게에서는 멋진 / SUYEOM을 가진 분께 / 보너스 카드를 드리는데…{1:wait}[Next]보너스 카드에 대해 / 설명해 드릴까요?{2:pause} / {3:align}{4:choice}아니요{5:tab}{6:choice}예{7:pause}
+DS 저희 가게에서는 멋진 / SUYEOM을 가진 분께 / 스크래치 카드를 드리는데…[Next]스크래치 카드에 대해 / 설명해 드릴까요? / {opt}예  {opt}아니요
+Menu#798 MES_MenuMes_EventItemE_starpanel score=0.935 <- MData__mfset_MenuMes:49
+JP エネルギースペースの スターのパネルから / うまれおちたスターパネル。かたちはさまざま。
+KO 에너지 스페이스의 별 모양 패널에서 / 떨어져 나온 스타 패널. 모양은 제각각.
+DS 에너지 스페이스의 별 모양 패널에서 / 떨어져 나온 패널로 모양은 제각각.
+Menu#801 MES_tuto_yo_nice_hige3 score=0.833 <- SAI__SMes_yo:0#44
+JP おや？ マリオさん ルイージさん。 / さらにステキな HIGEに / なりましたね！{1:wait}
+KO 어라? 마리오님, 루이지님. / SUYEOM이 훨씬 더 / 멋져지셨네요!{1:wait}
+DS 우와! 마리오님! 루이지님! / SUYEOM이 훨씬 더 / 멋져지셨네요!

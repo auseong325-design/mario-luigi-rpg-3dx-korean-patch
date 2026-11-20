@@ -1,0 +1,90 @@
+[
+  {
+    "batch": "BMsg__b_sys__p11",
+    "id": "BMsg/b_sys#1165",
+    "label": "Kj_Btl_ldc_totsugeki_03",
+    "src": "じゃあ ボクチャンが\nカベになってあげるよ！",
+    "before": "그럼 나님이\n벽이 되어 줄게!",
+    "after": "그럼 내가\n벽이 되어 줄게!",
+    "reason": "review: 2026-10-07 사용자 공식 한국어 말투 지침에 따라 이기의 1인칭을 나/내로 교정. 1DX KR FMsg:krpg_gera_02 krpg_gera_qst7_8 '난 강하다구~', qst7_17 '아~ 그런 거야? / 아하하하~'가 근거. 이전 임의 결정 '나님'을 대체한다. 3DX ボクチャン의 유아적 느낌은 기존 태평한 말투·유행어로 살린다.",
+    "dups": []
+  },
+  {
+    "batch": "FMsg__k_o_ekubon_80__p1",
+    "id": "FMsg/k_o_ekubon_80#106",
+    "label": "Kjrpg_03_Ekubon_qst07_20",
+    "src": "ボクチャンも\nニンジン食うよ～{1:wait}",
+    "before": "나님도\n당근 먹을래~{1:wait}",
+    "after": "나도\n당근 먹을래~{1:wait}",
+    "reason": "review: 2026-10-07 사용자 공식 한국어 말투 지침에 따라 이기의 1인칭을 나/내로 교정. 1DX KR FMsg:krpg_gera_02 krpg_gera_qst7_8 '난 강하다구~', qst7_17 '아~ 그런 거야? / 아하하하~'가 근거. 이전 임의 결정 '나님'을 대체한다. 3DX ボクチャン의 유아적 느낌은 기존 태평한 말투·유행어로 살린다.",
+    "dups": []
+  },
+  {
+    "batch": "FMsg__k_o_mushiba_07__and1",
+    "id": "FMsg/k_o_mushiba_07#0",
+    "label": "Kjrpg_07_Mushiba_qst05_19",
+    "src": "{1:color}{2:align}ああ チャーリーはワシの孫での。\n今は 記憶を失っているようでな。{3:wait}[Next]{4:align}何を聞いても ここはどこ？{5:pause}\nボクチャンはダレ？{6:pause} としか言わんでのう。{7:wait}{8:color}",
+    "before": "{1:color}{2:align}아아, 찰리는 내 손주라네.\n지금은 기억을 잃은 것 같네.{3:wait}[Next]{4:align}뭘 물어봐도 여긴 어디?{5:pause}\n나님은 누구?{6:pause} 라는 말만 한다네.{7:wait}{8:color}",
+    "after": "{1:color}{2:align}아아, 찰리는 내 손주라네.\n지금은 기억을 잃은 것 같네.{3:wait}[Next]{4:align}뭘 물어봐도 여긴 어디?{5:pause}\n나는 누구?{6:pause} 라는 말만 한다네.{7:wait}{8:color}",
+    "reason": "화자 러즐(リューグー). 초면인 쿠파주니어·마귀에게는 하게체, 손주로 여기는 이기·큐티에게는 해라체. 이기의 자기소개를 인용한 부분도 나/내로 맞춘다. review: 2026-10-07 사용자 공식 한국어 말투 지침에 따라 이기의 1인칭을 나/내로 교정. 1DX KR FMsg:krpg_gera_02 krpg_gera_qst7_8 '난 강하다구~', qst7_17 '아~ 그런 거야? / 아하하하~'가 근거. 이전 임의 결정 '나님'을 대체한다. 3DX ボクチャン의 유아적 느낌은 기존 태평한 말투·유행어로 살린다.",
+    "dups": [
+      "FMsg/k_o_mushiba_80#36"
+    ]
+  },
+  {
+    "batch": "FMsg__k_o_mushiba_07__and1",
+    "id": "FMsg/k_o_mushiba_16#38",
+    "label": "Kjrpg_07_Mushiba_qst05_30_1",
+    "src": "{1:color}ヤ～ダベンベン！{2:pause} ボクチャンはここで \nイカしたマイライフをジョイエンするんだ～{3:wait}{4:color}",
+    "before": "{1:color}싫어염~!{2:pause} 나님은 여기서\n쌈박한 마이 라이프를 엔조이할 거라구~{3:wait}{4:color}",
+    "after": "{1:color}싫어염~!{2:pause} 나는 여기서\n쌈박한 마이 라이프를 엔조이할 거라구~{3:wait}{4:color}",
+    "reason": "review: 2026-10-07 사용자 공식 한국어 말투 지침에 따라 이기의 1인칭을 나/내로 교정. 1DX KR FMsg:krpg_gera_02 krpg_gera_qst7_8 '난 강하다구~', qst7_17 '아~ 그런 거야? / 아하하하~'가 근거. 이전 임의 결정 '나님'을 대체한다. 3DX ボクチャン의 유아적 느낌은 기존 태평한 말투·유행어로 살린다.",
+    "dups": [
+      "FMsg/k_o_mushiba_80#107"
+    ]
+  },
+  {
+    "batch": "FMsg__k_o_mushiba_07__and1",
+    "id": "FMsg/k_o_mushiba_16#52",
+    "label": "Kjrpg_07_Mushiba_qst05_41",
+    "src": "うーん…{1:pause}\nあれれ？{2:wait}[Next]ボクチャンは…{3:wait}",
+    "before": "으음…{1:pause}\n어라라?{2:wait}[Next]나님은…{3:wait}",
+    "after": "으음…{1:pause}\n어라라?{2:wait}[Next]나는…{3:wait}",
+    "reason": "review: 2026-10-07 사용자 공식 한국어 말투 지침에 따라 이기의 1인칭을 나/내로 교정. 1DX KR FMsg:krpg_gera_02 krpg_gera_qst7_8 '난 강하다구~', qst7_17 '아~ 그런 거야? / 아하하하~'가 근거. 이전 임의 결정 '나님'을 대체한다. 3DX ボクチャン의 유아적 느낌은 기존 태평한 말투·유행어로 살린다.",
+    "dups": [
+      "FMsg/k_o_mushiba_80#155"
+    ]
+  },
+  {
+    "batch": "FMsg__k_o_mushiba_07__and1",
+    "id": "FMsg/k_o_mushiba_16#61",
+    "label": "Kjrpg_07_Mushiba_qst05_48",
+    "src": "記憶？{1:pause} ボクチャン記憶なかったの？{2:wait}",
+    "before": "기억?{1:pause} 나님 기억이 없었어?{2:wait}",
+    "after": "기억?{1:pause} 나 기억이 없었어?{2:wait}",
+    "reason": "review: 2026-10-07 사용자 공식 한국어 말투 지침에 따라 이기의 1인칭을 나/내로 교정. 1DX KR FMsg:krpg_gera_02 krpg_gera_qst7_8 '난 강하다구~', qst7_17 '아~ 그런 거야? / 아하하하~'가 근거. 이전 임의 결정 '나님'을 대체한다. 3DX ボクチャン의 유아적 느낌은 기존 태평한 말투·유행어로 살린다.",
+    "dups": [
+      "FMsg/k_o_mushiba_80#167"
+    ]
+  },
+  {
+    "batch": "FMsg__k_o_mushiba_80",
+    "id": "FMsg/k_o_mushiba_80#44",
+    "label": "Kjrpg_07_Mushiba_qst05_05_2",
+    "src": "ボクチャンは これから\nマブい ワンレンギャルと…{1:wait}",
+    "before": "나님은 이제부터\n끝내주는 생머리 퀸카랑…{1:wait}",
+    "after": "나는 이제부터\n끝내주는 생머리 퀸카랑…{1:wait}",
+    "reason": "review: 2026-10-07 사용자 공식 한국어 말투 지침에 따라 이기의 1인칭을 나/내로 교정. 1DX KR FMsg:krpg_gera_02 krpg_gera_qst7_8 '난 강하다구~', qst7_17 '아~ 그런 거야? / 아하하하~'가 근거. 이전 임의 결정 '나님'을 대체한다. 3DX ボクチャン의 유아적 느낌은 기존 태평한 말투·유행어로 살린다.",
+    "dups": []
+  },
+  {
+    "batch": "BMsg__b_sys__p14",
+    "id": "BMsg/b_sys#1604",
+    "label": "Kj_Btl_slc_mikiri_01",
+    "src": "ケケッ 全部かわしてやる！",
+    "before": "키킥, 전부 피해 주마!",
+    "after": "케케, 전부 피해 주마!",
+    "reason": "review: 2026-10-07 공식 한국어 말투 대조. 1DX KR FMsg:krpg_gera_00#109 krpg_gera_qst6_10에서 레미가 '케케케'라고 웃는다고 직접 명시한다. ケケッ은 그 짧은 형태로 '케케'로 맞춤. 기존 '키킥' 제안은 대체한다.",
+    "dups": []
+  }
+]

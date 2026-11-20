@@ -1,0 +1,316 @@
+MenuKJ#0 Menu_KJ_record_title_00 dups=0
+JP クエストクリア回数
+KO 퀘스트 클리어 횟수
+MenuKJ#1 Menu_KJ_manu_gide_17_00 dups=0
+JP 前の列にいると苦手なとつげきタイプと / すぐ戦うことになっちゃう。{1:wait}
+KO 앞줄에 있으면 상성이 안 좋은 / 돌격 타입과 바로 싸우게 되거든.{1:wait}
+MenuKJ#2 Menu_KJ_record_title_01 dups=0
+JP バトルで勝った回数
+KO 배틀 승리 횟수
+MenuKJ#3 Menu_KJ_record_title_02 dups=0
+JP やっつけた敵の数
+KO 물리친 적의 수
+MenuKJ#4 Menu_KJ_com_sub_morton  dups=0
+JP むてきの
+KO 무적의 
+NOTE 서브 리더 수식어 8개(#4·#12·#25·#26·#59·#60·#62·#88)는 끝에 공백 1칸을 넣었다. 파티 이름 {1:var}{2:var}돌격대에서 {1:var}=번호('1. ', 원문도 끝 공백 포함), {2:var}=수식어로 보여 '1. 무적의 돌격대'가 되게 했다. 템플릿 쪽에 공백을 두면 수식어가 빌 때 빈칸이 두 번 생긴다. 게임에서 확인 필요
+MenuKJ#6 Menu_KJ_result_save dups=0
+JP {1:mode}{2:align}セーブ中です。 / 電源をOFFにしないでください。
+KO {1:mode}{2:align}저장 중입니다. / 전원을 끄지 마십시오.
+MenuKJ#7 Menu_KJ_record_title_04 dups=0
+JP 仲間にした数
+KO 동료로 삼은 수
+MenuKJ#8 Menu_KJ_manu_gide_h08 dups=0
+JP {1:color}ぐんだんメニューガイド{2:color}に / 項目が追加されました！{3:wait}
+KO {1:color}군단 메뉴 가이드{2:color}에 / 항목이 추가되었습니다!{3:wait}
+MenuKJ#9 Menu_KJ_manu_gide_20 dups=0
+JP {1:color}配置によっては何か発動する{2:color}とか / ルドウィッグが言ってた気もするけれど…{3:wait}[Next]忘れちゃった。 / イロイロとやってみてよ。{4:wait}[Next]配置が決まったら また / {5:color}{6:icon}{7:color}ボタンで戻ってね。じゃあね！{8:wait}
+KO {1:color}배치에 따라서는 뭔가 발동한다{2:color}고 / 루드윅이 말했던 것 같은데…{3:wait}[Next]까먹었어. / 이것저것 해 봐.{4:wait}[Next]배치가 정해지면 다시 / {5:color}{6:icon}{7:color} 버튼으로 돌아와. 그럼 안녕!{8:wait}
+MenuKJ#10 Menu_KJ_manu_gide_32_00 dups=0
+JP {1:color}{2:icon}{3:color}ボタンで はいちがえを選んで。
+KO {1:color}{2:icon}{3:color} 버튼으로 배치 변경을 선택해.
+MenuKJ#11 Menu_KJ_manu_gide_21 dups=0
+JP バトル参加メンバーは{1:color}{2:color}最大９体{3:color}{4:color}だよ{5:color}{6:color}。 / …ありゃ {7:pause}もうイッパイだね。{8:wait}[Next]とつげきタイプと入れかえよう。 / ヘイホーを クリボーの上に移動するね。{9:wait}
+KO 배틀 참가 멤버는 {1:color}{2:color}최대 9명{3:color}{4:color}이야{5:color}{6:color}. / …어라 {7:pause}벌써 꽉 찼네.{8:wait}[Next]돌격 타입이랑 바꾸자. / 헤이호를 굼바 위로 옮길게.{9:wait}
+NOTE 体(마릿수)는 멤버·캐릭터 수라서 '명'으로 통일했다(#11·#20·#28·#69·#80·#84). DS는 몬스터에 '마리'를 썼지만 '멤버 9마리'가 어색하다
+MenuKJ#12 Menu_KJ_com_sub_iggy  dups=0
+JP トリッキー
+KO 트리키한 
+MenuKJ#13 Menu_KJ_record_title dups=0
+JP レコード
+KO 기록
+MenuKJ#14 Menu_KJ_organize_leader_type_change dups=0
+JP {1:color}タイプがえ{2:color}
+KO {1:color}타입 변경{2:color}
+MenuKJ#15 Menu_KJ_organize_divorce_exp dups=0
+JP 本当にわかれますか？
+KO 정말 작별하시겠습니까?
+MenuKJ#16 Menu_KJ_organize_return_exp dups=0
+JP 変更を反映せずに戻ります。 / よろしいですか？
+KO 변경을 반영하지 않고 돌아갑니다. / 계속하시겠습니까?
+MenuKJ#17 Menu_KJ_result_get_challenge dups=0
+JP {1:color}チャレンジたっせい！{2:color}
+KO {1:color}챌린지 달성!{2:color}
+MenuKJ#18 Menu_KJ_quest_config_title dups=0
+JP １度見たイベントを再生する
+KO 한 번 본 이벤트 재생
+MenuKJ#19 Menu_KJ_result_challenge_ex dups=0
+JP {1:mode}{2:color}{3:color}レコードの{4:color}チャレンジ{5:color}で / 内容を確認することができます。{6:wait}
+KO {1:mode}{2:color}{3:color}기록의 {4:color}챌린지{5:color}에서 / 내용을 확인할 수 있습니다.{6:wait}
+MenuKJ#20 Menu_KJ_manu_gide_40 dups=0
+JP さあここからは ぼっちゃんが / へんせいしてみてください！{1:wait}[Next]次はとつげきタイプが多いので / ひこうタイプを入れるのがいいでしょう。{2:wait}[Next]さっき仲間になったテレサが / ３体もいれば まあ十分勝てる…{3:wait}[Next]…っと もう分かってますよね。 / それでは よろしくお願いします。{4:wait}[Next]得意な相手と戦えるよう味方を / 配置をすることをお忘れなく！{5:wait}
+KO 자, 이제부터는 도련님이 / 직접 편성해 보세요!{1:wait}[Next]다음은 돌격 타입이 많으니까 / 비행 타입을 넣는 게 좋을 거예요.{2:wait}[Next]아까 동료가 된 부끄부끄가 3명이나 / 있으면 뭐, 충분히 이길 거예요…{3:wait}[Next]…앗, 이미 다 아시죠? / 그럼 잘 부탁드려요.{4:wait}[Next]유리한 상대와 싸울 수 있도록 / 아군을 배치하는 걸 잊지 마세요!{5:wait}
+NOTE 화자 추정: 마귀(도련님+해요체). 루드윅이면 하십시오체로 바꿀 것
+MenuKJ#21 Menu_KJ_quest_config_title2 dups=0
+JP せいとんのルール
+KO 정렬 규칙
+NOTE せいとん=정돈. 목록 정렬 설정으로 보고 '정렬 규칙'
+MenuKJ#22 Menu_KJ_manu_gide_41 dups=0
+JP {1:mode}アイテムを１つも持っていません。{2:wait}
+KO {1:mode}아이템이 하나도 없습니다.{2:wait}
+MenuKJ#23 Menu_KJ_item_get_la dups=0
+JP {1:mode}{2:align}{3:var}は / 「{4:var}」を覚えた！{5:pause}{6:wait}
+KO {1:mode}{2:align}{3:var}, / 「{4:var}」 습득!{5:pause}{6:wait}
+NOTE 변수 뒤 조사를 피하려고 '{이름}, 「{기술}」 습득!' 형식으로 썼다(#82도 같음)
+MenuKJ#24 Menu_KJ_quest_musshiba_clear dups=0
+JP {1:color}クッパ城{2:color}に 新たなクエストが出現しました！ / メンバーを揃えて挑戦してみましょう！{3:wait}
+KO {1:color}쿠파 성{2:color}에 새로운 퀘스트가 나타났습니다! / 멤버를 모아서 도전해 보세요!{3:wait}
+MenuKJ#25 Menu_KJ_com_sub_kameck_bl dups=0
+JP わるがしこい
+KO 교활한 
+MenuKJ#26 Menu_KJ_com_sub_ludwig dups=0
+JP 知てきな
+KO 지적인 
+MenuKJ#27 Menu_KJ_manu_gide_34_00 dups=0
+JP {1:color}{2:color}{3:icon}{4:color}{5:color}ボタン{6:color}{7:color}{8:color}で戻{9:color}ってみて。
+KO {1:color}{2:color}{3:icon}{4:color}{5:color} 버튼{6:color}{7:color}{8:color}으로 돌아와{9:color} 봐.
+NOTE review: 색 태그가 용언 '돌아|와'를 쪼개서 {9:color}를 '돌아와' 뒤(어절 경계)로 옮김(AGENTS 4.1).
+MenuKJ#28 Menu_KJ_result_add_member dups=0
+JP {1:mode}仲間にできる数が / {2:var}から{3:var}になりました！
+KO {1:mode}동료로 삼을 수 있는 인원이 / {2:var}명에서 {3:var}명이 되었습니다!
+MenuKJ#29 Menu_KJ_com_party_num_01 dups=0
+JP １. 
+KO 1. 
+MenuKJ#30 Menu_KJ_result_up_lp dups=0
+JP {1:color}{2:var}はLPが{3:var}増えた！{4:color}
+KO {1:color}{2:var}의 LP가 {3:var} 늘었다!{4:color}
+MenuKJ#31 Menu_KJ_com_party_num_02 dups=0
+JP ２. 
+KO 2. 
+MenuKJ#32 Menu_KJ_com_party_num_03 dups=0
+JP ３. 
+KO 3. 
+MenuKJ#33 Menu_KJ_com_party_num_04 dups=0
+JP ４. 
+KO 4. 
+MenuKJ#34 Menu_KJ_com_party_num_05 dups=0
+JP ５. 
+KO 5. 
+MenuKJ#35 Menu_KJ_com_party_num_06 dups=0
+JP ６. 
+KO 6. 
+MenuKJ#36 Menu_KJ_com_party_num_07 dups=0
+JP ７. 
+KO 7. 
+MenuKJ#37 Menu_KJ_com_party_num_08 dups=0
+JP ８. 
+KO 8. 
+MenuKJ#38 Menu_KJ_com_party_num_09 dups=0
+JP ９. 
+KO 9. 
+MenuKJ#39 Menu_KJ_manu_gide_10 dups=0
+JP ルドウィッグが / 「バトンタッチだ…」だってさ。{1:wait}[Next]ぼっちゃん 聞いてるー？ / {2:color}参加メンバーの変え方{3:color} 教えるよ。{4:wait}[Next]次のクエストに出てくるのは…{5:wait}
+KO 루드윅이 / 「바통 터치다…」라고 하더라.{1:wait}[Next]도련님, 듣고 있어~? / {2:color}참가 멤버 바꾸는 법{3:color} 알려 줄게.{4:wait}[Next]다음 퀘스트에 나오는 건…{5:wait}
+NOTE 가이드 10~21의 화자는 확인하지 못했다(7인조 중 한 명, 반말). 1인칭·말버릇이 없어 평이한 반말로 썼다. 가이드 30~36은 アタシ+〜わ라서 웬디(반말, ます형 문장만 해요체)
+MenuKJ#40 Menu_KJ_manu_gide_11 dups=0
+JP 飛んでいる敵だね。{1:wait}
+KO 날아다니는 적이야.{1:wait}
+MenuKJ#41 Menu_KJ_result_get_item dups=0
+JP {1:color}アイテムかくとく！{2:color}
+KO {1:color}아이템 획득!{2:color}
+MenuKJ#42 Menu_KJ_manu_gide_12 dups=0
+JP ここではバトルに参加させるメンバーを / 入れかえることができるんだ。{1:wait}[Next]次のクエストには / ひこうタイプの敵が出てくる。{2:wait}[Next]ひこうタイプに強い / えんきょりタイプを入れよう。{3:wait}[Next]明るくなっているヘイホーを / {4:color}{5:icon}{6:color}ボタンで選んでくれる？
+KO 여기서는 배틀에 참가시킬 멤버를 / 바꿀 수 있어.{1:wait}[Next]다음 퀘스트에는 / 비행 타입 적이 나와.{2:wait}[Next]비행 타입에 강한 / 원거리 타입을 넣자.{3:wait}[Next]밝게 표시된 헤이호를 / {4:color}{5:icon}{6:color} 버튼으로 선택해 줄래?
+MenuKJ#43 Menu_KJ_com_enemy_detail dups=0
+JP {1:color}くわしく{2:color}
+KO {1:color}자세히{2:color}
+MenuKJ#44 Menu_KJ_manu_gide_13 dups=0
+JP {1:color}{2:icon}{3:color}ボタンで ヘイホーとクリボーを / 入れかえてみて。
+KO {1:color}{2:icon}{3:color} 버튼으로 헤이호와 굼바를 / 바꿔 봐.
+MenuKJ#45 Menu_KJ_quest_koopa_clear dups=0
+JP {1:color}ムッシーバビーチ{2:color}に / 新たなクエストが出現しました！ / レベルを上げて挑戦してみましょう！{3:wait}
+KO {1:color}이아파 비치{2:color}에 / 새로운 퀘스트가 나타났습니다! / 레벨을 올려서 도전해 보세요!{3:wait}
+MenuKJ#46 Menu_KJ_manu_gide_14 dups=0
+JP えんきょりタイプが増えたね。 / ひこうタイプの敵に さらに有利になったよ。{1:wait}[Next]へんせいに入れた仲間を / リストに戻したいという時は…{2:wait}[Next]下画面で外す仲間を選んで  / {3:color}{4:icon}{5:color}ボタンを押せば 戻ってくるからね。{6:wait}[Next]へんせいのやり方は分かった？ / 色々試してみてね！{7:wait}
+KO 원거리 타입이 늘었네. / 비행 타입 적에게 더 유리해졌어.{1:wait}[Next]편성에 넣은 동료를 / 리스트로 되돌리고 싶을 때는…{2:wait}[Next]아래 화면에서 뺄 동료를 선택하고 / {3:color}{4:icon}{5:color} 버튼을 누르면 돌아오니까.{6:wait}[Next]편성하는 법 알겠어? / 이것저것 시험해 봐!{7:wait}
+MenuKJ#47 Menu_KJ_manu_gide_33_00 dups=0
+JP ここに  / アタシを入れて。
+KO 여기에 / 나를 넣어 줘.
+MenuKJ#48 Menu_KJ_manu_gide_it_open dups=0
+JP {1:color}キャラクターの強化{2:color}ができるようになりました！ / バトルで{3:color}マメ{4:color}など{5:color}アイテム{6:color}を手に入れたら / 軍団キャラクターに使ってみましょう。{7:wait}
+KO {1:color}캐릭터 강화{2:color}를 할 수 있게 되었습니다! / 배틀에서 {3:color}콩{4:color} 등의 {5:color}아이템{6:color}을 획득하면 / 군단 캐릭터에게 사용해 보세요.{7:wait}
+MenuKJ#49 Menu_KJ_manu_gide_15 dups=0
+JP あー！ 忘れてた！{1:wait}
+KO 아―! 깜빡했다!{1:wait}
+MenuKJ#50 Menu_KJ_manu_gide_16 dups=0
+JP これは / これから戦う敵の配置図だよ。{1:wait}
+KO 이건 / 앞으로 싸울 적의 배치도야.{1:wait}
+MenuKJ#51 Menu_KJ_manu_gide_17 dups=0
+JP いま入れたヘイホーなんだけど…{1:pause}{2:wait}
+KO 방금 넣은 헤이호 말인데…{1:pause}{2:wait}
+MenuKJ#52 Menu_KJ_manu_typechg_01 dups=0
+JP 軍団へんせいで クッパJr. を / {1:color}えんきょりタイプ{2:color}に変えられるようになった！{3:wait}
+KO 군단 편성에서 쿠파주니어를 / {1:color}원거리 타입{2:color}으로 바꿀 수 있게 되었다!{3:wait}
+MenuKJ#53 Menu_KJ_manu_gide_18 dups=0
+JP 前の列にいるヘイホーを{1:color}{2:icon}{3:color}ボタンで / つかんで 後ろの列に移動しよう。
+KO 앞줄에 있는 헤이호를 {1:color}{2:icon}{3:color} 버튼으로 / 잡아서 뒷줄로 옮기자.
+MenuKJ#54 Menu_KJ_manu_typechg_02 dups=0
+JP 軍団へんせいで クッパJr. を / {1:color}ひこうタイプ{2:color}に変えられるようになった！{3:wait}
+KO 군단 편성에서 쿠파주니어를 / {1:color}비행 타입{2:color}으로 바꿀 수 있게 되었다!{3:wait}
+MenuKJ#55 Menu_KJ_manu_gide_19 dups=0
+JP オッケー！ {1:pause} / これでヘイホー達は / ぞんぶんにチカラを発揮できるぞ！{2:wait}[Next]へんせいした味方を どの列に置くか…{3:pause} / けっこう 大事だよ。{4:wait}[Next]敵のじょうほうを見て / {5:color}味方が相性のよい敵に当たる{6:color}ように / 調整してね。{7:wait}
+KO 오케이!{1:pause} / 이제 헤이호들은 / 마음껏 힘을 발휘할 수 있어!{2:wait}[Next]편성한 아군을 어느 줄에 둘지…{3:pause} / 꽤 중요해.{4:wait}[Next]적 정보를 보고 / {5:color}아군이 상성 좋은 적과 맞붙도록{6:color} / 조정해 줘.{7:wait}
+NOTE review: 색 태그가 용언 '맞붙|도록'을 쪼개서 {6:color}를 '맞붙도록' 뒤로 옮김(AGENTS 4.1).
+MenuKJ#56 Menu_KJ_manu_typechg_03 dups=0
+JP クッパJr.を選んで {1:color}{2:icon}{3:color}ボタンを押せば / クッパJr.のタイプを変えられます。{4:wait}
+KO 쿠파주니어를 선택하고 {1:color}{2:icon}{3:color} 버튼을 누르면 / 쿠파주니어의 타입을 바꿀 수 있습니다.{4:wait}
+MenuKJ#57 Menu_KJ_com_party_name_a dups=0
+JP {1:var}{2:var}とつげき隊
+KO {1:var}{2:var}돌격대
+MenuKJ#58 Menu_KJ_organize_leader_rearrange dups=0
+JP {1:color}はいちがえ{2:color}
+KO {1:color}배치 변경{2:color}
+MenuKJ#59 Menu_KJ_com_sub_larry dups=0
+JP 必中の
+KO 백발백중 
+MenuKJ#60 Menu_KJ_com_sub_roy dups=0
+JP パワフル
+KO 파워풀 
+MenuKJ#61 Menu_KJ_manu_gide_31_00 dups=0
+JP アタシを / へんせいに入れて。
+KO 나를 / 편성에 넣어 줘.
+MenuKJ#62 Menu_KJ_com_sub_wendy dups=0
+JP オトメな
+KO 소녀 같은 
+MenuKJ#63 Menu_KJ_com_party_name_f dups=0
+JP {1:var}{2:var}ひこう隊
+KO {1:var}{2:var}비행대
+MenuKJ#64 Menu_KJ_manu_gide_11_00 dups=0
+JP STARTボタンか タッチで / {1:color}軍団へんせい{2:color}を選んで。
+KO START 버튼이나 터치로 / {1:color}군단 편성{2:color}을 선택해.
+MenuKJ#65 Menu_KJ_quest_exit_warning dups=0
+JP クッパJr.RPGを終了します。 / よろしいですか？
+KO 쿠파주니어 RPG를 / 종료하시겠습니까?
+NOTE review: 리드 결정 — 종료 확인이라 '계속하시겠습니까?'가 '게임을 계속한다'로 읽혀 '종료하시겠습니까?'로 합침(glossary よろしいですか？ note). #16·#84는 그대로.
+MenuKJ#66 Menu_KJ_manu_gide_30 dups=0
+JP ルドウィッグ… 様子が変だったわ… / なにか胸騒ぎがする…{1:wait}[Next]ぼっちゃん。 / 少し気を引き締めていきましょう。{2:wait}[Next]{3:color}{4:color}サブリーダー{5:color}{6:color}について教えるわ。{7:color}{8:color}{9:wait}
+KO 루드윅… 상태가 이상했어… / 왠지 불길한 예감이 들어…{1:wait}[Next]도련님. / 마음을 조금 다잡고 가요.{2:wait}[Next]{3:color}{4:color}서브 리더{5:color}{6:color}에 대해 알려 줄게.{7:color}{8:color}{9:wait}
+MenuKJ#67 Menu_KJ_quest_Farewell dups=0
+JP {1:color}メニュー{2:color}の中にある{3:color}「キャラクターおわかれ」 / {4:color}から仲間にしたキャラクターと / {5:color}お別れが{6:color}できるようになりました。{7:wait}
+KO {1:color}메뉴{2:color} 안에 있는 {3:color}「캐릭터 작별」{4:color}에서 / 동료로 삼은 캐릭터와 / {5:color}작별{6:color}할 수 있게 되었습니다.{7:wait}
+MenuKJ#68 Menu_KJ_manu_gide_31 dups=0
+JP 軍団へんせいを選んで。
+KO 군단 편성을 선택해.
+MenuKJ#69 Menu_KJ_record_form_num dups=0
+JP {1:color}（{2:var}体）{3:color}
+KO {1:color}({2:var}명){3:color}
+MenuKJ#70 Menu_KJ_manu_gide_32 dups=0
+JP アタシ達 ７人衆が / ぼっちゃんのサポートに回ります。{1:wait}
+KO 우리 7인조가 / 도련님의 서포트를 맡을게요.{1:wait}
+MenuKJ#71 Menu_KJ_manu_gide_33 dups=0
+JP ここが“{1:color}サブリーダー{2:color}”のマスよ。{3:wait}
+KO 여기가 「{1:color}서브 리더{2:color}」 칸이야.{3:wait}
+NOTE 원문의 “ ”는 폰트에 없어서 「 」로 바꿨다
+MenuKJ#73 Menu_KJ_com_party_name_l dups=0
+JP {1:var}{2:var}えんきょり隊
+KO {1:var}{2:var}원거리대
+MenuKJ#74 Menu_KJ_manu_gide_34 dups=0
+JP ここはアタシ達７人衆クラスしか / 入れられない特別なマスなの。{1:wait}
+KO 여기는 우리 7인조 클래스만 / 넣을 수 있는 특별한 칸이야.{1:wait}
+MenuKJ#75 Menu_KJ_com_party_name_m dups=0
+JP {1:var}{2:var}こんせい隊
+KO {1:var}{2:var}혼성대
+MenuKJ#76 Menu_KJ_manu_gide_35 dups=0
+JP これが {1:color}サブリーダースキル{2:color}。 / サブリーダーを誰にするかによって / スキルの内容が変わるわ。{3:wait}
+KO 이게 {1:color}서브 리더 스킬{2:color}. / 서브 리더를 누구로 하느냐에 따라 / 스킬 내용이 달라져.{3:wait}
+MenuKJ#77 Menu_KJ_manu_gide_36 dups=0
+JP 敵のリーダーのタイプに合わせて / 他のメンバーも試すといいわね。{1:wait}[Next]あ… {2:pause}そうそう！{3:wait}[Next]ついでに 便利な / コマンドを教えておくわね！{4:wait}[Next]{5:color}{6:icon}{7:icon}{8:color}ボタンを同時押しすると / {9:color}へんせいをリセット{10:color}できるの。{11:wait}[Next]イチからへんせいをやり直したい / 時なんかに使うといいわ。{12:wait}[Next]さ！ 先を急ぎましょ！{13:wait}
+KO 적 리더의 타입에 맞춰서 / 다른 멤버도 시험해 보면 좋을 거야.{1:wait}[Next]아… {2:pause}맞다!{3:wait}[Next]하는 김에 편리한 / 커맨드도 알려 줄게!{4:wait}[Next]{5:color}{6:icon}{7:icon}{8:color} 버튼을 동시에 누르면 / {9:color}편성을 리셋{10:color}할 수 있어.{11:wait}[Next]처음부터 편성을 다시 짜고 싶을 때 / 쓰면 좋아.{12:wait}[Next]자! 서둘러 가요!{13:wait}
+MenuKJ#78 Menu_KJ_result_get_army dups=0
+JP {1:color}なかまがふえた！{2:color}
+KO {1:color}동료가 늘었다!{2:color}
+MenuKJ#79 Menu_KJ_organize_wnd_warning_00 dups=0
+JP {1:mode}{2:align}軍団の数がいっぱいです。 / 誰かとおわかれしなければなりません。{3:wait}
+KO {1:mode}{2:align}군단 인원이 가득 찼습니다. / 누군가와 작별해야 합니다.{3:wait}
+MenuKJ#80 Menu_KJ_organize_wnd_warning_01 dups=0
+JP {1:mode}{2:align}{3:color}{4:var}{5:color}は{6:color}{7:var}{8:color}体までしか / 仲間にできません。 / おわかれしなければなりません。{9:wait}
+KO {1:mode}{2:align}{3:color}{4:var}{5:color} 동료는 {6:color}{7:var}{8:color}명까지만 / 둘 수 있습니다. / 작별해야 합니다.{9:wait}
+NOTE 변수 뒤 조사를 피하려고 '{종류} 동료는 N명까지만' 구조로 바꿨다
+MenuKJ#81 Menu_KJ_result_add_party_firsttime dups=0
+JP {1:color}{2:icon} {3:icon}{4:color}ボタンで上画面のパーティを / 切り替えることができます。
+KO {1:color}{2:icon} {3:icon}{4:color} 버튼으로 위 화면의 파티를 / 전환할 수 있습니다.
+MenuKJ#82 Menu_KJ_result_get_la dups=0
+JP {1:color}{2:var}は「{3:var}」を覚えた！{4:color}
+KO {1:color}{2:var}, 「{3:var}」 습득!{4:color}
+MenuKJ#83 Menu_KJ_manu_gide_15_00 dups=0
+JP {1:color}メンバーの配置{2:color}も変えられるよ！{3:wait}
+KO {1:color}멤버 배치{2:color}도 바꿀 수 있어!{3:wait}
+MenuKJ#84 Menu_KJ_organize_warning_01 dups=0
+JP メンバーが９体そろっていませんが / よろしいですか？
+KO 멤버 9명이 다 모이지 않았습니다. / 계속하시겠습니까?
+MenuKJ#85 Menu_KJ_item_up_lp dups=0
+JP {1:mode}{2:align}{3:var}は / LPが{4:var}増えた！{5:pause}{6:wait}
+KO {1:mode}{2:align}{3:var}의 / LP가 {4:var} 늘었다!{5:pause}{6:wait}
+MenuKJ#86 Menu_KJ_manu_gide_15_01 dups=0
+JP {1:color}{2:icon}{3:color}ボタンを押してみて！
+KO {1:color}{2:icon}{3:color} 버튼을 눌러 봐!
+MenuKJ#87 Menu_KJ_organize_warning_02 dups=0
+JP {1:mode}{2:align}クッパJr.以外の参加メンバーを / すべてはずしますか？ / {3:align}{4:choice}いいえ{5:tab}{6:choice}はい
+KO {1:mode}{2:align}쿠파주니어 이외의 참가 멤버를 / 모두 빼시겠습니까? / {3:align}{4:choice}아니요{5:tab}{6:choice}예
+MenuKJ#88 Menu_KJ_com_sub_lemmy dups=0
+JP スピーディな
+KO 재빠른 
+MenuKJ#89 Menu_KJ_organize_wnd_divorce_bonus_00 dups=0
+JP {1:var}は / {2:color}{3:var}{4:color}を / 置いて去っていきました。{5:wait}
+KO {1:var} 동료가 / {2:color}{3:var}{4:color} 아이템을 / 남기고 떠났습니다.{5:wait}
+NOTE 변수 뒤 조사를 피하려고 '{이름} 동료가 {아이템} 아이템을' 구조로 바꿨다
+MenuKJ#90 Menu_KJ_record_medal_00 dups=0
+JP ゴールド
+KO 골드
+MenuKJ#91 Menu_KJ_com_enemy_detail_close dups=0
+JP {1:color}とじる{2:color}
+KO {1:color}닫기{2:color}
+MenuKJ#92 Menu_KJ_record_medal_01 dups=0
+JP シルバー
+KO 실버
+MenuKJ#93 Menu_KJ_manu_gide_00 dups=0
+JP ぼっちゃん。軍団を率いるためです。 / 今から話すことを しっかり聞いてください。{1:wait}[Next]上画面ではバトルに参加する / メンバーの強さを見ることができます。{2:wait}
+KO 도련님. 군단을 이끄시기 위해서입니다. / 지금부터 드릴 말씀을 잘 들어 주십시오.{1:wait}[Next]위 화면에서는 배틀에 참가하는 / 멤버의 강함을 볼 수 있습니다.{2:wait}
+NOTE 가이드 00~07의 화자는 #39('루드윅이 「바통 터치다…」라고 하더라')로 보아 루드윅. 도련님에게 하십시오체
+MenuKJ#94 Menu_KJ_record_medal_02 dups=0
+JP ブロンズ
+KO 브론즈
+MenuKJ#95 Menu_KJ_manu_gide_01 dups=0
+JP これが{1:color}軍団のレベル{2:color}です。{3:wait}[Next]メンバーが強くなると / このレベルも上がります。{4:wait}
+KO 이것이 {1:color}군단의 레벨{2:color}입니다.{3:wait}[Next]멤버가 강해지면 / 이 레벨도 올라갑니다.{4:wait}
+MenuKJ#96 Menu_KJ_result_add_party dups=0
+JP {1:mode}保存できるパーティの数が / {2:var}から{3:var}になりました！
+KO {1:mode}저장할 수 있는 파티 수가 / {2:var}개에서 {3:var}개가 되었습니다!
+MenuKJ#97 Menu_KJ_manu_gide_02 dups=0
+JP 下画面で次に進むクエストを選びます。 / このときに…{1:wait}
+KO 아래 화면에서 다음에 진행할 / 퀘스트를 선택합니다. 이때…{1:wait}
+MenuKJ#98 Menu_KJ_manu_gide_03 dups=0
+JP これが登場する{1:color}敵のレベル{2:color}… / 敵の強さの目安になりますね。{3:wait}
+KO 이것이 등장하는 {1:color}적의 레벨{2:color}… / 적의 강함을 가늠하는 기준이지요.{3:wait}
+MenuKJ#99 Menu_KJ_manu_gide_04 dups=0
+JP 少し位 負けていても / へんせいに自信があるなら / 思いきって進むのもいいでしょう。{1:wait}[Next]それでも勝てない時は / 前のクエストで なかま集めや / レベルを上げてみるのもいいですね。{2:wait}[Next]他にも相手の情報がほしい場合は…{3:wait}
+KO 조금쯤 뒤처지더라도 / 편성에 자신이 있다면 / 과감하게 나아가는 것도 좋을 겁니다.{1:wait}[Next]그래도 이길 수 없을 때는 / 이전 퀘스트에서 동료를 모으거나 / 레벨을 올려 보는 것도 좋겠지요.{2:wait}[Next]그 밖에도 상대의 정보를 원하실 때는…{3:wait}
+MenuKJ#100 Menu_KJ_manu_gide_05 dups=0
+JP 敵をタッチすると / {1:color}敵のプロフィール{2:color}が見られます。{3:wait}
+KO 적을 터치하면 / {1:color}적의 프로필{2:color}을 볼 수 있습니다.{3:wait}
+MenuKJ#101 Menu_KJ_manu_gide_06 dups=0
+JP {1:color}{2:icon}{3:color}ボタンで {4:color}敵のじょうほう{5:color}を / 確認するのもいいでしょう。{6:wait}[Next]敵の配置やバトルの回数など… / 色々なことが分かります。{7:wait}
+KO {1:color}{2:icon}{3:color} 버튼으로 {4:color}적 정보{5:color}를 / 확인하는 것도 좋을 겁니다.{6:wait}[Next]적의 배치나 배틀 횟수 등… / 여러 가지를 알 수 있습니다.{7:wait}
+MenuKJ#102 Menu_KJ_manu_gide_07 dups=0
+JP ぼっちゃん… / 聞いてます…{1:pause}よね？{2:wait}[Next]{3:speed}…{4:speed}それでは。{5:wait}
+KO 도련님… / 듣고 계신…{1:pause} 거지요?{2:wait}[Next]{3:speed}…{4:speed}그럼 이만.{5:wait}

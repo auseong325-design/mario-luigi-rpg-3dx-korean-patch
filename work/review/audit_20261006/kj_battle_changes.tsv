@@ -1,0 +1,4 @@
+id	batch	before	after	ds_reference	reason	validation
+BMsg/b_sys#452	BMsg__b_sys__p5	역시 마리오님이십니다!	역시 마리오님!	BAI__BMes_cf#9.9	DS 동일 의미 대사 복원; 3DX에 없는 후속 대사는 추가하지 않음	check 오류 0
+BMsg/b_sys#746	BMsg__b_sys__p7	스페셜 어택에 대해 설명해 줄까?	스페셜 어택의 사용 방법을 설명해 줄까?	BAI__BMes_cf#4.1	DS 동일 의미 질문 복원; 태그·선택지 순서 유지	check 오류 0; 292px 상대 길이 경고 1건
+BMsg/b_sys#869	BMsg__b_sys__p8	그럼 우리 블도그의 / 움직임을 자~알 루킹!	그럼 우리 블도그의 움직임을 / 자~알 관찰해 주십시오!	BAI__BMes_cf#8.3	DS 동일 의미 관찰 지시 복원; 줄바꿈만 3DX 2줄에 맞춤	check 오류 0

@@ -1,0 +1,58 @@
+== タッチ/터치: JP-only 0, KO-only 0
+== ペン/펜: JP-only 18, KO-only 4
+   BMsg/b_sys#313 | KO: 드릴펭이 땅에서 튀어나왔을 때 바위를 들고 있으면 손대지 말고 흘려보내세요. | JP: ドリペンが地面から飛び出したときに岩を持っていた場合は手を出さず 見送りましょう。
+   BMsg/b_sys#536 | KO: 드릴펭의 함정을 조심하자 | JP: ドリペンの罠に気を付けよう
+   BMsg/b_sys#1798 | KO: 드릴펭 | JP: ドリペン
+   Item#10 | KO: 추천패치 | JP: オススメワッペン
+   Item#133 | KO: 추천패치 | JP: オススメワッペン
+   Item#16 | KO: 사치패치 | JP: ゼイタクワッペン
+   Item#142 | KO: 사치패치 | JP: ゼイタクワッペン
+   Item#23 | KO: 호탕패치 | JP: ゴーカイワッペン
+== 下画面/아래 화면: JP-only 0, KO-only 0
+== 上画面/위 화면: JP-only 0, KO-only 0
+== マイク/마이크: JP-only 0, KO-only 0
+== スライドパッド/슬라이드: JP-only 0, KO-only 27
+   BMsg/b_sys#846 | KO: [Color #2C64FF]줄지어 선 폭탄병을 슬라이드[Color #E6E6E6]해서 공격하고 싶은 몬스터 정면으로 옮기세요. | JP: [Color #2C64FF]整列したボムへいを スライド[Color #E6E6E6]させて攻撃したいモンスターの正面に移動させましょう。
+   Menu#423 | KO: [Color #2C64FF]줄지어 선 폭탄병을 슬라이드[Color #E6E6E6]해서 공격하고 싶은 몬스터 정면으로 옮기세요. | JP: [Color #2C64FF]整列したボムへいを スライド[Color #E6E6E6]させて攻撃したいモンスターの正面に移動させましょう。
+   BMsg/b_sys#998 | KO: 스파이크 볼이 된 [Color #2C64FF]쿠파를 왼쪽으로 슬라이드[Color #E6E6E6]하면 헤이호 군단이 끈을 당겨요. | JP: スパイクボールになった[Color #2C64FF]クッパを左に向かってスライド[Color #E6E6E6]すると ヘイホー軍団がヒモを引っ張ります。
+   Menu#467 | KO: 스파이크 볼이 된 [Color #2C64FF]쿠파를 왼쪽으로 슬라이드[Color #E6E6E6]하면 헤이호 군단이 끈을 당겨요. | JP: スパイクボールになった[Color #2C64FF]クッパを左に向かってスライド[Color #E6E6E6]すると ヘイホー軍団がヒモを引っ張ります。
+   BMsg/b_sys#1853 | KO: 몬스터에게 부딪치고 튕겨 나온 엉금엉금을 [Color #2C64FF]쿠파를 슬라이드해서 위아래로 움직여[Color #E6E6E6] 다시 몬스터를 향해 튕겨 보내세요. | JP: モンスターに体当たりして はね返ってきたノコノコを[Color #2C64FF]クッパをスライドさせて上下に動かし[Color #E6E6E6] ふたたびモンスターにむかって はね返しましょう。
+   Menu#850 | KO: 몬스터에게 부딪치고 튕겨 나온 엉금엉금을 [Color #2C64FF]쿠파를 슬라이드해서 위아래로 움직여[Color #E6E6E6] 다시 몬스터를 향해 튕겨 보내세요. | JP: モンスターに体当たりして はね返ってきたノコノコを[Color #2C64FF]クッパをスライドさせて上下に動かし[Color #E6E6E6] ふたたびモンスターにむかって はね返しましょう。
+   FMsg/i_air_13#2 | KO: 예를 들면 이렇게 리프트로빈을 슬라이드해서 갈 방향을 알려 주면… | JP: 例えば こんなふうにリフトロびんを なぞって行きたい方向を 知らせると…
+   FMsg/i_air_13#3 | KO: 슬라이드한 방향으로 움직여로빈! | JP: なぞった方向へ 動き出すびん！
+== 十字ボタン/십자: JP-only 0, KO-only 0
+== Ｌ/L: JP-only 0, KO-only 177
+   BMsg/b_sys#239 | KO: 근데 커맨드는 [Color #2C64FF]LP[Color #373737]… [Color #2C64FF]리더 포인트[Color #373737]를 소비하니까 조심해야겠어.[Next]「[Color #2C64FF]스킬 지우기[Color #373737]」는 필요한 LP가 [Co | JP: ただ コマンドは[Color #2C64FF]LP[Color #373737]…[Color #2C64FF]リーダーポイント[Color #373737]を消費するから 注意しなくちゃな。[Next]「[Color #2C64FF]うちけし[Color #373737]」は必要なLPが[Colo
+   BMsg/b_sys#244 | KO: EXP 치킨 L | JP: EXPチキンL
+   BMsg/b_sys#302 | KO: EXP 치킨 L | JP: EXPチキンL
+   BMsg/b_sys#307 | KO: 「[Color #2C64FF]HP[Color #E6E6E6]」「[Color #2C64FF]SP[Color #E6E6E6]」「[Color #2C64FF]POW[Color #E6E6E6]」「[Color #2C64FF]DEF[Color #E6E6E6]」 「[Color #2C | JP: 「[Color #2C64FF]HP[Color #E6E6E6]」「[Color #2C64FF]BP[Color #E6E6E6]」「[Color #2C64FF]POW[Color #E6E6E6]」「[Color #2C64FF]DEF[Color #E6E6E6]」「[Color #2C6
+   Menu#134 | KO: 「[Color #2C64FF]HP[Color #E6E6E6]」「[Color #2C64FF]SP[Color #E6E6E6]」「[Color #2C64FF]POW[Color #E6E6E6]」「[Color #2C64FF]DEF[Color #E6E6E6]」 「[Color #2C | JP: 「[Color #2C64FF]HP[Color #E6E6E6]」「[Color #2C64FF]BP[Color #E6E6E6]」「[Color #2C64FF]POW[Color #E6E6E6]」「[Color #2C64FF]DEF[Color #E6E6E6]」「[Color #2C6
+   BMsg/b_sys#324 | KO: LCK5%↑ | JP: LCK５％↑
+   BMsg/b_sys#390 | KO: 의 LP 회복! | JP: のLP回復！
+   BMsg/b_sys#396 | KO: 돌격 EXP 콩 L | JP: トツゲキEXPマメL
+== Ｒ/R: JP-only 0, KO-only 10
+   BMsg/b_sys#541 | KO: 쿠파주니어 RPG에서 플레이한 내용은 퀘스트를 클리어했을 때 저장돼요. | JP: クッパJr.RPGで遊んだ内容はクエストをクリアしたときにセーブされます。
+   BMsg/b_sys#557 | KO: 쿠파주니어 RPG의 메뉴 화면에 있는 「쿠파주니어 RPG 종료」를 눌렀을 때도 저장할 수 있어요. | JP: クッパJr.RPGのメニュー画面にある「クッパJr.RPGをおわる」を押したときにもセーブすることができます。
+   BMsg/b_sys#1221 | KO: 유리한 상대에게 공격이 성공하면 상대 몬스터 위에 「CRITICAL(크리티컬)」이 나와요. | JP: 有利な相手に攻撃が成功すると相手のモンスターの上に「CRITICAL（クリティカル）」が出ます。
+   BMsg/b_sys#1227 | KO: [Color #2C64FF]START[Color #373737] 버튼 일시 정지한다. 배틀 길이 알 수 있다.[Next]그리고 도망치고 싶을 때랑 가이드 볼 때도 일시 정지.[Next]일시 정지 [Color #2C64FF]아래 화면 파란 버튼[Color #373737] | JP: [Color #2C64FF]START[Color #373737]ボタン ポーズする。バトルの長さ 分かる。[Next]あと 逃げたい時と ガイド 見る時にも ポーズ。[Next]ポーズ [Color #2C64FF]下画面の青いボタン[Color #373737]でもできる。試すといい。
+   BMsg/b_sys#1529 | KO: 쿠파주니어 RPG에서 플레이한 내용은 「기록」에 차곡차곡 남아요. | JP: クッパJr.RPGで遊んだ内容は「レコード」にきろくされていきます。
+   BMsg/b_sys#1615 | KO: 쿠파주니어 RPG의 저장 | JP: クッパJr.RPGのセーブ
+   FMsg/i_garakuta_06#2 | KO: [Color #2C64FF]스타 메뉴[Color #373737][Color #373737]에서는 다양한 정보를 확인할 수가 있거든.[Next][Color #2C64FF]START 버튼[Color #373737]으로 열 수 있으니까 나중에 한번 열어 봐![Color #3 | JP: [Color #2C64FF]スターメニュー[Color #373737][Color #373737]では 色々な 情報を見ることができるのよ。[Next][Color #2C64FF]STARTボタン[Color #373737]で開けるからあとで 見てみてね！[Color #373737]
+   Menu#192 | KO: 마리오&루이지 RPG3 DX에서는 대응하지 않는 캐릭터의 amiibo입니다. | JP: マリオ&ルイージRPG３ DX では対応していないキャラクターのamiiboです。
+== ＳＴＡＲＴ/START: JP-only 0, KO-only 3
+   BMsg/b_sys#1227 | KO: [Color #2C64FF]START[Color #373737] 버튼 일시 정지한다. 배틀 길이 알 수 있다.[Next]그리고 도망치고 싶을 때랑 가이드 볼 때도 일시 정지.[Next]일시 정지 [Color #2C64FF]아래 화면 파란 버튼[Color #373737] | JP: [Color #2C64FF]START[Color #373737]ボタン ポーズする。バトルの長さ 分かる。[Next]あと 逃げたい時と ガイド 見る時にも ポーズ。[Next]ポーズ [Color #2C64FF]下画面の青いボタン[Color #373737]でもできる。試すといい。
+   FMsg/i_garakuta_06#2 | KO: [Color #2C64FF]스타 메뉴[Color #373737][Color #373737]에서는 다양한 정보를 확인할 수가 있거든.[Next][Color #2C64FF]START 버튼[Color #373737]으로 열 수 있으니까 나중에 한번 열어 봐![Color #3 | JP: [Color #2C64FF]スターメニュー[Color #373737][Color #373737]では 色々な 情報を見ることができるのよ。[Next][Color #2C64FF]STARTボタン[Color #373737]で開けるからあとで 見てみてね！[Color #373737]
+   MenuKJ#64 | KO: START 버튼이나 터치로 [Color #2C64FF]군단 편성[Color #373737]을 선택해. | JP: STARTボタンか タッチで[Color #2C64FF]軍団へんせい[Color #373737]を選んで。
+== ＳＥＬＥＣＴ/SELECT: JP-only 0, KO-only 0
+== ＨＯＭＥ/HOME: JP-only 0, KO-only 2
+   Menu#86 | KO: [U+E073]을 누르면 HOME 메뉴로 돌아갑니다 | JP: [U+E073]を押すとHOMEメニューにもどります
+   Menu#528 | KO: 게임을 종료합니다. [U+E073] 버튼을 눌러 HOME 메뉴로 돌아가 주십시오. | JP: ゲームを終了します。[U+E073]ボタンを押してHOMEメニューに戻ってください。
+== amiibo/amiibo: JP-only 0, KO-only 0
+== セーブ/저장: JP-only 0, KO-only 4
+   FMsg/i_kioku_03#16 | KO: 예. 그렇습니다. 당신들과 교신하기 쉬운 모습으로 저는 변화합니다.[Next]이 모습은 이 창고 안에서 가장 소중히 저장되어 있는 기억을 토대로 만든 것입니다. | JP: はい。そうです。あなた達と 交信しやすい姿に私は 変化します。[Next]この姿は この倉庫の中で最も 大切に保存されているきおくをもとに 作りました。
+   Menu#594 | KO: 파일 2에는 이미 데이터가 저장되어 있습니다. 파일 1의 게임 데이터를 복사해서 파일 2에 덮어써도 되겠습니까? | JP: ファイル２はすでにデータが保存されています。ファイル１のゲームデータをコピーしてファイル２に上書きしてもよいですか？
+   Menu#599 | KO: 파일 1에는 이미 데이터가 저장되어 있습니다. 파일 2의 게임 데이터를 복사해서 파일 1에 덮어써도 되겠습니까? | JP: ファイル１はすでにデータが保存されています。ファイル２のゲームデータをコピーしてファイル１に上書きしてもよいですか？
+   MenuKJ#96 | KO: 저장할 수 있는 파티 수가 개에서 개가 되었습니다! | JP: 保存できるパーティの数がからになりました！
+== ニンテンドー/닌텐도: JP-only 0, KO-only 2
+   Menu#159 | KO: 적외선 통신 오류가 발생했습니다. 본체 전원을 껐다가 다시 시도해 주십시오.[Next]이 증상이 계속될 경우 본체 사용설명서에 기재되어 있는 한국닌텐도 고객지원센터로 문의해 주십시오. | JP: 赤外線通信エラーが 発生しました。本体の電源をOFFにしてからやり直してください。[Next]症状が直らない場合は本体の 取扱説明書に 記載されている任天堂サービスセンターへお問い合わせください。
+   Menu#177 | KO: NFC 리더/라이터와의 통신에 실패했습니다.[Next]NFC 리더/라이터의 전원을 껐다가 다시 시도해 주십시오.[Next]이 증상이 계속될 경우 본체 사용설명서에 기재되어 있는 한국닌텐도 고객지원센터로 문의해 주십시오. | JP: NFCリーダー/ライターとの通信に失敗しました。[Next]NFCリーダー/ライターの電源をOFFにしてからやり直してください。[Next]症状が直らない場合は本体の 取扱説明書に 記載されている任天堂サービスセンターへお問い合わせください。

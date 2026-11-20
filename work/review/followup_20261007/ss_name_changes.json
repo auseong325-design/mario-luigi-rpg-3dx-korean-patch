@@ -1,0 +1,186 @@
+{
+  "translation_changes": [
+    {
+      "batch": "BMsg__b_sys__p15",
+      "id": "BMsg/b_sys#1704",
+      "before": "감히… 수림님께…!!",
+      "after": "감히… 슬림님께…!!"
+    },
+    {
+      "batch": "BMsg__b_sys__p5",
+      "id": "BMsg/b_sys#516",
+      "before": "무지오",
+      "after": "마초"
+    },
+    {
+      "batch": "BMsg__b_sys__p6",
+      "id": "BMsg/b_sys#567",
+      "before": "수림",
+      "after": "슬림"
+    },
+    {
+      "batch": "BMsg__b_sys__p9",
+      "id": "BMsg/b_sys#989",
+      "before": "!{1:pause}\n수림…!{2:wait}",
+      "after": "!{1:pause}\n슬림…!{2:wait}"
+    },
+    {
+      "batch": "FMsg__k_o_ekubon_15__and1",
+      "id": "FMsg/k_o_ekubon_19#4",
+      "before": "수림!{1:wait}",
+      "after": "슬림!{1:wait}"
+    },
+    {
+      "batch": "FMsg__k_o_ekubon_80__p1",
+      "id": "FMsg/k_o_ekubon_80#6",
+      "before": "어라? 무지오 왜 그래용~?{1:pause}\n배 아파용~?{2:wait}",
+      "after": "어라? 마초 왜 그래용~?{1:pause}\n배 아파용~?{2:wait}"
+    },
+    {
+      "batch": "FMsg__k_o_ekubon_80__p1",
+      "id": "FMsg/k_o_ekubon_80#7",
+      "before": "…수림은?{1:wait}",
+      "after": "…슬림은?{1:wait}"
+    },
+    {
+      "batch": "FMsg__k_o_ekubon_80__p1",
+      "id": "FMsg/k_o_ekubon_80#18",
+      "before": "앗…{1:pause} 무지오가…{2:wait}[Next]무지오가 아니에용…?{3:wait}",
+      "after": "앗…{1:pause} 마초가…{2:wait}[Next]마초가 아니에용…?{3:wait}"
+    },
+    {
+      "batch": "FMsg__k_o_ekubon_80__p1",
+      "id": "FMsg/k_o_ekubon_80#21",
+      "before": "무지오는?{1:pause}\n무지…{2:pause}무지…{3:pause}무지…{4:wait}",
+      "after": "마초는?{1:pause}\n마…{2:pause}마…{3:pause}몰라…{4:wait}"
+    },
+    {
+      "batch": "FMsg__k_o_ekubon_80__p1",
+      "id": "FMsg/k_o_ekubon_80#24",
+      "before": "앗!{1:wait}[Next]무지오는…?{2:wait}",
+      "after": "앗!{1:wait}[Next]마초는…?{2:wait}"
+    },
+    {
+      "batch": "FMsg__k_o_ekubon_80__p1",
+      "id": "FMsg/k_o_ekubon_80#27",
+      "before": "무지오는\n어디다 치운 거예용!{1:wait}",
+      "after": "마초는\n어디다 치운 거예용!{1:wait}"
+    },
+    {
+      "batch": "FMsg__k_o_ekubon_80__p1",
+      "id": "FMsg/k_o_ekubon_80#71",
+      "before": "7인조와 쿠파주니어는\n한 명씩…{1:pause} 친다.{2:wait}[Next]루드윅은 이미\n무지오가 처리했을 테고…{3:wait}",
+      "after": "7인조와 쿠파주니어는\n한 명씩…{1:pause} 친다.{2:wait}[Next]루드윅은 이미\n마초가 처리했을 테고…{3:wait}"
+    },
+    {
+      "batch": "FMsg__k_o_ekubon_80__p2",
+      "id": "FMsg/k_o_ekubon_80#115",
+      "before": "어머 얘도 참~\n무슨 소리예용~{1:wait}[Next]수림씨는\n지금 쿠파 성을 지키고 있잖아용~{2:wait}",
+      "after": "어머 얘도 참~\n무슨 소리예용~{1:wait}[Next]슬림씨는\n지금 쿠파 성을 지키고 있잖아용~{2:wait}"
+    },
+    {
+      "batch": "FMsg__k_o_ekubon_80__p2",
+      "id": "FMsg/k_o_ekubon_80#145",
+      "before": "어이~ 무지오~!{1:pause}\n지원 부탁해용~{2:wait}",
+      "after": "어이~ 마초~!{1:pause}\n지원 부탁해용~{2:wait}"
+    },
+    {
+      "batch": "FMsg__k_o_gepu_08__and1",
+      "id": "FMsg/k_o_gepu_13#13",
+      "before": "응?{1:pause} 무지오?{2:wait}[Next]방금 촌스럽다고\n했어용?{3:wait}",
+      "after": "응?{1:pause} 마초?{2:wait}[Next]방금 촌스럽다고\n했어용?{3:wait}"
+    },
+    {
+      "batch": "FMsg__k_o_gepu_08__and1",
+      "id": "FMsg/k_o_gepu_13#14",
+      "before": "응?{1:pause} 무지오…{2:pause}\n뭔가 이상해용?{3:wait}",
+      "after": "응?{1:pause} 마초…{2:pause}\n뭔가 이상해용?{3:wait}"
+    },
+    {
+      "batch": "FMsg__k_o_gepu_08__and1",
+      "id": "FMsg/k_o_gepu_13#16",
+      "before": "무지오가 생각한\n이름이잖아용~{1:wait}",
+      "after": "마초가 생각한\n이름이잖아용~{1:wait}"
+    },
+    {
+      "batch": "FMsg__k_o_gepu_80",
+      "id": "FMsg/k_o_gepu_80#26",
+      "before": "무지오가\n웬일로 말을 했네용!{1:wait}[Next]응~?{2:pause}\n원래 그런 목소리였나용?{3:wait}",
+      "after": "마초가\n웬일로 말을 했네용!{1:wait}[Next]응~?{2:pause}\n원래 그런 목소리였나용?{3:wait}"
+    },
+    {
+      "batch": "FMsg__k_o_gepu_80",
+      "id": "FMsg/k_o_gepu_80#65",
+      "before": "저기요 저기요~{1:pause}\n수림씨! 수림씨~!{2:wait}[Next]마지막 재료가\n쿠파 성 지하에 있대용~!{3:wait}",
+      "after": "저기요 저기요~{1:pause}\n슬림씨! 슬림씨~!{2:wait}[Next]마지막 재료가\n쿠파 성 지하에 있대용~!{3:wait}"
+    },
+    {
+      "batch": "FMsg__k_o_gepu_80",
+      "id": "FMsg/k_o_gepu_80#70",
+      "before": "응?{1:pause} 무슨 일이냐, 무지오.{2:pause}\n방금 뭐라고 했나?{3:wait}",
+      "after": "응?{1:pause} 무슨 일이냐, 마초.{2:pause}\n방금 뭐라고 했나?{3:wait}"
+    },
+    {
+      "batch": "FMsg__k_o_koopa_08__and1",
+      "id": "FMsg/k_o_koopa_12#11",
+      "before": "어이, 무지오!{1:pause}\n이 통을 옮겨라!{2:wait}",
+      "after": "어이, 마초!{1:pause}\n이 통을 옮겨라!{2:wait}"
+    },
+    {
+      "batch": "FMsg__k_o_koopa_r_27__and2",
+      "id": "FMsg/k_o_koopa_r_31#20",
+      "before": "{1:align}그리고…{2:wait}[Next]{3:align}{4:color}수림!{5:pause} 무지오!{6:pause} 큐티!{7:color}{8:wait}[Next]{9:align}나오거라롱롱!{10:wait}",
+      "after": "{1:align}그리고…{2:wait}[Next]{3:align}{4:color}슬림!{5:pause} 마초!{6:pause} 큐티!{7:color}{8:wait}[Next]{9:align}나오거라롱롱!{10:wait}"
+    },
+    {
+      "batch": "FMsg__k_o_koopa_r_80__p1",
+      "id": "FMsg/k_o_koopa_r_80#29",
+      "before": "칭찬 고맙군.{1:wait}[Next]자, 큐티여.{2:pause}\n자, 무지오여.{3:wait}[Next]이 녀석들에게 마음껏\n복수하도록 해라.{4:wait}",
+      "after": "칭찬 고맙군.{1:wait}[Next]자, 큐티여.{2:pause}\n자, 마초여.{3:wait}[Next]이 녀석들에게 마음껏\n복수하도록 해라.{4:wait}"
+    },
+    {
+      "batch": "FMsg__k_o_koopa_r_80__p1",
+      "id": "FMsg/k_o_koopa_r_80#76",
+      "before": "수림씨.{1:pause}\n슬슬 때가 되지 않았어용~?{2:wait}",
+      "after": "슬림씨.{1:pause}\n슬슬 때가 되지 않았어용~?{2:wait}"
+    },
+    {
+      "batch": "FMsg__k_o_koopa_r_80__p2",
+      "id": "FMsg/k_o_koopa_r_80#147",
+      "before": "{1:align}흥.{2:wait}[Next]{3:align}「진짜」\n무지오 아닌가.{4:wait}[Next]창고에서\n빠져나온 겐가?{5:wait}",
+      "after": "{1:align}흥.{2:wait}[Next]{3:align}「진짜」\n마초 아닌가.{4:wait}[Next]창고에서\n빠져나온 겐가?{5:wait}"
+    },
+    {
+      "batch": "FMsg__k_o_koopa_r_80__p3",
+      "id": "FMsg/k_o_koopa_r_80#323",
+      "before": "수림씨.{1:pause}\n어때용~?{2:wait}",
+      "after": "슬림씨.{1:pause}\n어때용~?{2:wait}"
+    },
+    {
+      "batch": "FMsg__k_o_mushiba_07__and1",
+      "id": "FMsg/k_o_mushiba_16#32",
+      "before": "{1:align}무지오―!{2:wait}[Next]{3:align}정말 이쪽에\n루드윅이 있는 거예용~?{4:wait}",
+      "after": "{1:align}마초―!{2:wait}[Next]{3:align}정말 이쪽에\n루드윅이 있는 거예용~?{4:wait}"
+    },
+    {
+      "batch": "FMsg__k_o_zutsuda_80__p1",
+      "id": "FMsg/k_o_zutsuda_80#94",
+      "before": "…어라?{1:pause}\n그러고 보니 무지오는?{2:wait}",
+      "after": "…어라?{1:pause}\n그러고 보니 마초는?{2:wait}"
+    },
+    {
+      "batch": "FMsg__k_o_zutsuda_80__p2",
+      "id": "FMsg/k_o_zutsuda_80#161",
+      "before": "아~{1:pause}\n넌 이제 쓸모없어졌네용~{2:wait}[Next]수림씨, 이 꼬마\n후딱 해치워 버릴까용?{3:wait}",
+      "after": "아~{1:pause}\n넌 이제 쓸모없어졌네용~{2:wait}[Next]슬림씨, 이 꼬마\n후딱 해치워 버릴까용?{3:wait}"
+    }
+  ],
+  "representatives": 29,
+  "batch_metadata_files": 16,
+  "new_names": {
+    "スーリム": "슬림",
+    "キュット": "큐티",
+    "ムチオ": "마초",
+    "スーさん": "슬림씨"
+  }
+}

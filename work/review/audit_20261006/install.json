@@ -1,0 +1,36 @@
+{
+  "changed_patch_files": [
+    "FMsg.dat",
+    "BMsg.dat",
+    "Menu.msbt",
+    "HugeBattle.msbt"
+  ],
+  "all_message_hashes": {
+    "FMsg.dat": "1866f9b55ddc311e493158a9bb9a610b8165e31b6633254a0d15aac0f7b7ba08",
+    "BMsg.dat": "e27f8f950bee012960b63a67a66c8e835985b0feafa6bb275ee81ff81a04ec6c",
+    "Item.msbt": "b037d8a580621394c2cc6b75ba09fb36a7292d638ce075f35aded6abd49143b2",
+    "Menu.msbt": "bd3e4866cdc83fb2f73852697a6e22fb8571ac2cdf591850ab5fdc5e523c0554",
+    "MenuKJ.msbt": "60e666cc6b8d2f3d6d5c97a4d6ee4a9ec004ea8c5327b82522fcbd325eac721e",
+    "HugeBattle.msbt": "584f5728f35b282d486c79d9d984fff869c26b1e574eaecee18a28f9c60a6331",
+    "InitLoad.msbt": "a8e1c7b9a00ac0cde86c3c2c52f2b5fd4cefa207d652643464daaf7a1b4d75ab",
+    "font.bffnt": "461125b999e098fcdb9a746ea7fdd8de2b90d25bc7360f0f2f71a58bf4209941",
+    "font_l.bffnt": "e18dc2b62212a010c7b549e3ea19a42983e5398eef56dc7c6ab5893d4ce72a5a",
+    "font_btl.bffnt": "874281604410fbb00acfb1d9c09d35128d8ab399f123e8726840ee92ba117681"
+  },
+  "azahar_junction_matches": true,
+  "distribution_changed": [
+    "Msg/JP_ja/BMsg.dat",
+    "Msg/JP_ja/FMsg.dat",
+    "Msg/JP_ja/HugeBattle.msbt",
+    "Msg/JP_ja/Menu.msbt"
+  ],
+  "zip_members_updated": [
+    "luma/titles/00040000001CA900/romfs/Msg/JP_ja/BMsg.dat",
+    "luma/titles/00040000001CA900/romfs/Msg/JP_ja/FMsg.dat",
+    "luma/titles/00040000001CA900/romfs/Msg/JP_ja/HugeBattle.msbt",
+    "luma/titles/00040000001CA900/romfs/Msg/JP_ja/Menu.msbt"
+  ],
+  "zip_crc_check": "PASS",
+  "all_package_patch_bytes_match": true,
+  "previous_files": "C:\\AI-Projects\\mario-luigi-rpg-3dx-korean-patch\\work\\build\\prev_msg_before_audit_20261006"
+}

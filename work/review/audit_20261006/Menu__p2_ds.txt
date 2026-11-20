@@ -1,0 +1,60 @@
+Menu#189 MES_tuto_yo_scrratch_tuto_k3_bdog score=0.71 <- SAI__SMes_yo:0#128
+JP ガガガウ ガウ… / （ボーナスカード マス選ぶ…）{1:wait}
+KO 왈왈 왈… / (보너스 카드 칸 고르기…){1:wait}
+DS 왈왈 왈… / (스크래치 카드 긁기…)
+Menu#202 MES_tuto_yo_nice_tsuno1 score=0.93 <- SAI__SMes_yo:0#107
+JP オウ！ ムッシュ～ / ムッシュ～の TSUNO / ベリー クールになりましたね！{1:wait}
+KO 오우! 신사~ / 신사의 PPUL이 / 베리 쿨해졌군요!{1:wait}
+DS 오우! 신사~ / 신사의 PPUL이 / 베리 쿨하군요!
+Menu#214 MES_tuto_yo_nice_tsuno2 score=0.78 <- SAI__SMes_yo:0#108
+JP クールな ムッシュ～には / ボーナスカードを / プレゼントしているのですよ！{1:wait}[Next]ボーナスカードの / 説明は必要ですか？{2:pause} / {3:align}{4:choice}いいえ{5:tab}{6:choice}はい{7:pause}
+KO 쿨한 신사에게는 / 보너스 카드를 / 선물로 드리고 있습니다!{1:wait}[Next]보너스 카드에 대해 / 설명해 드릴까요?{2:pause} / {3:align}{4:choice}아니요{5:tab}{6:choice}예{7:pause}
+DS 쿨한 신사에게는 / 스크래치 카드를 / 선물로 드리고 있습니다![Next]스크래치 카드에 대해 / 설명해 드릴까요? / {opt}예  {opt}아니요
+Menu#223 MES_tuto_yo_nice_tsuno3 score=0.933 <- SAI__SMes_yo:0#109
+JP オウ！ ムッシュ～ / さらにステキな TSUNOに / なりましたね！{1:wait}
+KO 오우! 신사~ / 더욱 매력 넘치는 / PPUL이 되었군요!{1:wait}
+DS 오우! 신사~ / 매력이 넘치는 PPUL이 / 되었군요!
+Menu#231 MES_tuto_yo_bad_hige3_koukyuu score=0.921 <- SAI__SMes_yo:0#31
+JP これでは 残念ですが / スーパーボーナスカードは / プレゼントできませんね…{1:wait}[Next]でも 安心なさってください。 / ノーマルボーナスカードは / プレゼントできますので。{2:wait}
+KO 죄송한 말씀이지만 이 상태로는 / 슈퍼 보너스 카드를 / 드릴 수가 없습니다…{1:wait}[Next]하지만 실망하진 마십시오. / 대신 보통 보너스 카드를 / 드리도록 하겠습니다.{2:wait}
+DS 죄송한 말씀이지만 이 상태로는 / 슈퍼 스크래치 카드를 / 드릴 수가 없습니다…[Next]하지만 실망하진 마십시오. / 대신 보통 스크래치 카드를 / 드리도록 하겠습니다.
+Menu#232 MES_tuto_yo_nice_tsuno4 score=0.905 <- SAI__SMes_yo:0#110
+JP これからは お買い物ごとに / スーパーボーナスカードを / プレゼント！{1:wait}[Next]{2:align}これまでより アタリが / 出やすくなってますよ！{3:wait}
+KO 앞으로는 쇼핑하실 때마다 / 슈퍼 보너스 카드를 / 선물해 드리겠습니다!{1:wait}[Next]{2:align}지금까지보다 당첨 확률이 / 높아질 겁니다!{3:wait}
+DS 앞으로는 구입하실 때마다 / 슈퍼 스크래치 카드를 / 선물해 드리겠습니다![Next]지금까지보다 당첨 확률이 / 높아질 겁니다!
+Menu#233 MES_tuto_yo_scrratch_tuto_ml2_kinoda score=0.857 <- SAI__SMes_yo:0#65
+JP {1:align}これがボーナスカードです。{2:wait}[Next]ボーナスカードは 買い物ごとに / １まい さしあげてます。{3:wait}
+KO {1:align}이것이 보너스 카드입니다.{2:wait}[Next]보너스 카드는 한 번 쇼핑하실 때 / 1장씩 드릴 겁니다.{3:wait}
+DS 이것이 스크래치 카드입니다.[Next]스크래치 카드는 한 번 쇼핑하실 때 / 1장씩 드릴 겁니다.
+Menu#239 MES_tuto_yo_nice_hige2_badge score=0.807 <- SAI__SMes_yo:0#42
+JP アタシんとこでは りっぱな / HIGEの人には ボーナスカードを / あげてるんだけど…{1:wait}[Next]ボーナスカードの / 説明は必要かねぇ？{2:pause} / {3:align}{4:choice}いいえ{5:tab}{6:choice}はい{7:pause}
+KO 우리 가게는 멋진 SUYEOM을 / 가진 사람한테 보너스 카드를 / 주는데 말이야…{1:wait}[Next]보너스 카드에 대해 / 설명해 줄까?{2:pause} / {3:align}{4:choice}아니요{5:tab}{6:choice}예{7:pause}
+DS 우리 가게는 멋진 SUYEOM을 / 가진 사람한테 스크래치 / 카드를 주는데 말이야…[Next]스크래치 카드에 대해 / 설명해 줄까? / {opt}예  {opt}아니요
+Menu#245 MES_tuto_yo_nice_tsuno6 score=0.907 <- SAI__SMes_yo:0#112
+JP これからは お買い物ごとに / ウルトラボーナスカードを / プレゼント！{1:wait}[Next]{2:align}これまでより アタリが / 出やすくなってますよ！{3:wait}
+KO 앞으로는 쇼핑하실 때마다 / 울트라 보너스 카드를 / 선물해 드리겠습니다!{1:wait}[Next]{2:align}지금까지보다 당첨 확률이 / 높아질 겁니다!{3:wait}
+DS 앞으로는 구입하실 때마다 / 울트라 스크래치 카드를 / 선물해 드리겠습니다![Next]지금까지보다 당첨 확률이 / 높아질 겁니다!
+Menu#260 MES_tuto_yo_scrratch_tuto_no_k score=0.937 <- SAI__SMes_yo:0#138
+JP オウ そうですか。 / それでは さっそく ショッピング！{1:wait}[Next]ア～ンド ボーナスカードに / チャレンジしてみてください。{2:wait}
+KO 오우, 그러신가요? / 그럼 쇼핑을 스타트해 주세요!{1:wait}[Next]앤~드 보너스 카드에 / 챌린지해 주세요!{2:wait}
+DS 오우, 그러신가요? / 그럼 쇼핑을 스타트해 주세요![Next]앤~드 스크래치 카드에 / 챌린지해 주세요!
+Menu#291 MES_tuto_yo_nice_hige6_badge score=0.822 <- SAI__SMes_yo:0#58
+JP これからは 買い物ごとに / ウルトラボーナスカードを / あげようかね！{1:wait}[Next]{2:align}これまでより アタリが / 出やすくなってるよ！{3:wait}
+KO 앞으로는 쇼핑할 때마다 / 울트라 보너스 카드를 / 줄까 해!{1:wait}[Next]{2:align}지금까지보다 더 쉽게 / 당첨될 거야!{3:wait}
+DS 앞으로는 쇼핑할 때마다 / 울트라 스크래치 카드를 / 줄까 해![Next]아마 더 쉽게 / 당첨될 거야!
+Menu#306 MES_tuto_yo_scrratch_tuto_ml2_koukyuu score=0.875 <- SAI__SMes_yo:0#67
+JP {1:align}これがボーナスカードです。{2:wait}[Next]ボーナスカードは 買い物ごとに / １まい さしあげております。{3:wait}
+KO {1:align}이것이 보너스 카드입니다.{2:wait}[Next]보너스 카드는 쇼핑하실 때마다 / 1장을 증정해 드리고 있습니다.{3:wait}
+DS 이것이 스크래치 카드입니다.[Next]스크래치 카드는 쇼핑하실 때마다 / 1장을 증정해 드리고 있습니다.
+Menu#321 MES_tuto_yo_bad_tsuno2 score=0.898 <- SAI__SMes_yo:0#99
+JP 残念ですが これでは / ボーナスカードは / プレゼントできません。{1:wait}
+KO 죄송하지만 이 상태로는 / 보너스 카드를 / 드릴 수가 없네요.{1:wait}
+DS 죄송하지만 이 상태로는 / 스크래치 카드를 / 드릴 수가 없네요.
+Menu#322 MES_tuto_yo_nice_hige1_kinoda score=0.789 <- SAI__SMes_yo:0#37
+JP おや！ お客さん！ / りっぱな HIGEですね！{1:wait}
+KO 어머나! 손님! / SUYEOM이 멋지네요!{1:wait}
+DS 어머나! 손님! / SUYEOM 멋진 것 좀 봐!
+Menu#329 MES_tuto_yo_bad_tsuno3 score=0.907 <- SAI__SMes_yo:0#100
+JP 残念ですが これでは / スーパーボーナスカードは / プレゼントできません。{1:wait}[Next]バット！ 安心してください！ / ノーマルボーナスカードは / プレゼントできます！{2:wait}
+KO 죄송하지만 이 상태로는 / 슈퍼 보너스 카드를 / 드릴 수가 없네요.{1:wait}[Next]벗! 안심해 주세요! / 노멀 보너스 카드는 / 프레젠트하겠습니다!{2:wait}
+DS 죄송하지만 이 상태로는 / 슈퍼 스크래치 카드를 / 드릴 수가 없네요.[Next]벗! 안심해 주세요! / 노멀 스크래치 카드는 / 프레젠트하겠습니다!

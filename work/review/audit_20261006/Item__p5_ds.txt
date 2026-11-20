@@ -1,0 +1,100 @@
+Item#552 E_Badge05 score=0.75 <- BData__mfset_BadgeE:1
+JP モンスターの攻撃をふせぐ / 効果になるバッジ
+KO 몬스터의 공격을 막는 / 효과가 있는 배지.
+DS 공격력을 높이는 / 효과가 있는 배지.
+Item#553 E_Cheese score=0.87 <- BData__mfset_UItmE2:23
+JP クッパのBPが １５回復。
+KO 쿠파의 SP를 15 회복.
+DS 쿠파의 HP를 150 회복.
+Item#563 E_MaxNut score=0.875 <- BData__mfset_UItmE2:12
+JP マリオとルイージの / HPが フル回復。
+KO 마리오와 루이지의 / HP를 완전 회복.
+DS 마리오와 루이지의 / HP를 20 회복.
+Item#593 E_MaxSyrup score=0.743 <- BData__mfset_UItmE2:12
+JP マリオとルイージ どちらかの / BPが フル回復。
+KO 마리오와 루이지 중 한 명의 / SP를 완전 회복.
+DS 마리오와 루이지의 / HP를 20 회복.
+Item#594 E_SuperKinoko score=0.857 <- BData__mfset_UItmE2:12
+JP マリオとルイージ どちらかの / HPが ５０回復。
+KO 마리오와 루이지 중 한 명의 / HP를 50 회복.
+DS 마리오와 루이지의 / HP를 20 회복.
+Item#596 F_Glove15 score=0.762 <- BData__mfset_WearN:113
+JP {1:color}グルメグラブ{2:color}はいっぱいです！
+KO {1:color}미식가글러브{2:color} FULL!
+DS 버섯글러브 FULL!
+Item#613 F_Boots16 score=0.7 <- BData__mfset_WearN:149
+JP {1:color}よくばりブーツ{2:color}はいっぱいです！
+KO {1:color}욕심쟁이부츠{2:color} FULL!
+DS 튼튼부츠 FULL!
+Item#618 E_MaxCheese score=0.727 <- BData__mfset_UItmE2:11
+JP クッパのBPが フル回復。
+KO 쿠파의 SP를 완전 회복.
+DS HP와 SP를 완전 회복.
+Item#632 EFF_Badge_00_06 score=0.762 <- BData__mfset_UItmE2:7
+JP ２人のHPを {1:color}２０{2:color}％回復。
+KO 2명의 HP를 {1:color}20{2:color}% 회복.
+DS HP를 120 회복.
+Item#659 E_Glove12 score=0.706 <- BData__mfset_WearE:45
+JP ハンマーで攻撃すると / BPが回復するグラブ。
+KO 해머로 공격하면 / SP가 회복되는 글러브.
+DS [SP 회복 해머] / 해머 공격을 하면 SP가 10% 회복.
+Item#675 E_Fung00 score=0.7 <- BData__mfset_WearE:35
+JP POWが少しアップするきば。
+KO POW가 조금 증가하는 이빨.
+DS [POW 10% UP] / POW가 증가.
+Item#687 E_Fung01 score=0.778 <- BData__mfset_WearE:35
+JP POWがアップするきば。
+KO POW가 증가하는 이빨.
+DS [POW 10% UP] / POW가 증가.
+Item#698 E_Glove16 score=0.75 <- BData__mfset_WearE:11
+JP ブラザーアタックの威力がアップするグラブ。
+KO 스페셜 어택의 위력이 증가하는 글러브.
+DS [파워풀 스페셜] / 스페셜 어택의 위력이 25% 증가.
+Item#707 E_Fung03 score=0.75 <- BData__mfset_WearE:19
+JP BPがアップするきば。
+KO SP가 증가하는 이빨.
+DS [SP 20% UP] / SP가 증가.
+Item#724 E_AItm03 score=0.74 <- BData__mfset_AItmE:3
+JP {1:align}どかんに入ったキャラクターをよく見て / マリオ{2:color}{3:icon}{4:color} ルイージ{5:color}{6:icon}{7:color} でふみつけ！ / 対象：{8:color}１体{9:color}　効果：{10:color}めまわし{11:color}
+KO {1:align}토관에 들어간 캐릭터를 잘~ 보고 / 마리오는 {2:color}{3:icon}{4:color}, 루이지는 {5:color}{6:icon}{7:color}로 밟아라! / 공격 대상: {8:color}하나{9:color}   효과: {10:color}어질어질{11:color}
+DS 토관에 들어간 캐릭터를 잘~ 보고 / 마리오는 Ⓐ), 루이지는 Ⓑ)로 공격하자!
+Item#728 E_UltraKinoko score=0.865 <- BData__mfset_UItmE2:15
+JP マリオとルイージ どちらかの / HPが １００回復。
+KO 마리오와 루이지 중 한 명의 / HP를 100 회복.
+DS 마리오와 루이지의 / HP를 160 회복.
+Item#735 E_AItm04 score=0.806 <- BData__mfset_AItmE:4
+JP {1:align}タルに入った キャラクターを覚えて / マリオ{2:color}{3:icon}{4:color} ルイージ{5:color}{6:icon}{7:color} で発射！ / ターゲット：{8:color}ランダム{9:color}　効果：{10:color}なし{11:color}
+KO {1:align}나무통에 들어간 캐릭터를 기억했다가 / 마리오는 {2:color}{3:icon}{4:color}, 루이지는 {5:color}{6:icon}{7:color}로 발사! / 공격 대상: {8:color}랜덤{9:color}   효과: {10:color}없음{11:color}
+DS 나무통에 들어간 캐릭터를 기억했다가 / 마리오는 Ⓐ), 루이지는 Ⓑ)로 발사!
+Item#736 E_Accessory03 score=0.824 <- BData__mfset_WearE:62
+JP ブラザーアタックの消費BPが / 少し減少するベルト。
+KO 스페셜 어택의 소비 SP가 / 조금 감소하는 벨트.
+DS [소비 SP 30% DOWN] / 스페셜 어택의 소비 SP가 감소.
+Item#742 E_AItm05 score=0.714 <- BData__mfset_AItmE:5
+JP {1:align}ボムへいを 素早くスライドさせて移動！ / モンスターの前に 並べて突撃！ / ターゲット：{2:color}自由に設定{3:color}　効果：{4:color}めまわし{5:color}
+KO {1:align}폭탄병을 빠르게 슬라이드해서 이동! / 몬스터 앞으로 줄 맞춰서 돌격! / 공격 대상: {2:color}자유 설정{3:color}   효과: {4:color}어질어질{5:color}
+DS 폭탄병을 빠르게 슬라이드! / 몬스터 앞으로 줄 맞춰서 돌격!
+Item#743 E_Accessory04 score=0.875 <- BData__mfset_WearE:62
+JP ブラザーアタックの消費BPが / 減少するベルト。
+KO 스페셜 어택의 소비 SP가 / 감소하는 벨트.
+DS [소비 SP 30% DOWN] / 스페셜 어택의 소비 SP가 감소.
+Item#744 E_Boots00 score=0.7 <- BData__mfset_WearE:35
+JP POWが少しアップするブーツ。
+KO POW가 조금 증가하는 부츠.
+DS [POW 10% UP] / POW가 증가.
+Item#745 E_DefMame score=0.8 <- BData__mfset_UItmE2:16
+JP さいだいDEFが １ポイントアップ。
+KO 최대 DEF가 1포인트 증가.
+DS 최대 HP가 1포인트 증가.
+Item#746 E_Fung07 score=0.867 <- BData__mfset_WearE:110
+JP チキンを食べるとDEFがアップするきば。
+KO 치킨을 먹으면 DEF가 증가하는 이빨.
+DS [치킨 DEF 30% UP] / 치킨을 먹으면 DEF가 증가.
+Item#752 E_AItm06 score=0.833 <- BData__mfset_AItmE:6
+JP {1:align}クリボーにタッチして 着火！ / 落下とファイアで ダメージアップ！ / ターゲット：{2:color}１体{3:color}　効果：{4:color}やけど{5:color}
+KO {1:align}굼바를 터치해서 불을 붙여라! / 낙하와 파이어 효과로 큰 타격을 입힌다! / 공격 대상: {2:color}하나{3:color}   효과: {4:color}화상{5:color}
+DS 굼바를 터치해서 불을 붙여라! / 낙하와 파이어 효과로 큰 타격을 입힌다!
+Item#754 E_Boots01 score=0.778 <- BData__mfset_WearE:35
+JP POWがアップするブーツ。
+KO POW가 증가하는 부츠.
+DS [POW 10% UP] / POW가 증가.

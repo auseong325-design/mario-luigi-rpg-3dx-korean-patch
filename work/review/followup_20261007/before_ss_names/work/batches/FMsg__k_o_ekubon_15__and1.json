@@ -1,0 +1,689 @@
+{
+ "batch": "FMsg__k_o_ekubon_15__and1",
+ "rooms": [
+  "k_o_ekubon_15",
+  "k_o_ekubon_19"
+ ],
+ "ds_rooms": [],
+ "ds_reference": [],
+ "glossary": [
+  {
+   "jp": "SSカンパニー",
+   "ko": "SS컴퍼니",
+   "type": "character",
+   "basis": "coined",
+   "source": "BMsg/b_sys#902",
+   "note": "'SS' 두문자 말장난(슈퍼 서플리먼트/순삭)을 살리려고 SS 유지 [gl_kj]"
+  },
+  {
+   "jp": "イギー",
+   "ko": "이기",
+   "type": "character",
+   "basis": "official",
+   "source": "https://www.nintendo.com/kr/switch/aabpa/sp/character/",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "ウェンディ",
+   "ko": "웬디",
+   "type": "character",
+   "basis": "official",
+   "source": "https://www.nintendo.com/kr/switch/aabpa/sp/character/",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "カメック",
+   "ko": "마귀",
+   "type": "character",
+   "basis": "DS",
+   "source": "FEvent:1A3#13",
+   "note": "쿠파주니어의 돌보미(카멕 개인)도 같은 표기. RPG1 DX 한국판 쿠파군단 RPG도 '마귀' [gl_kj]"
+  },
+  {
+   "jp": "クッパ",
+   "ko": "쿠파",
+   "type": "character",
+   "basis": "DS",
+   "source": "BData__mfset_Help#21",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "スーリム",
+   "ko": "수림",
+   "type": "character",
+   "basis": "coined",
+   "source": "BMsg/b_sys#567",
+   "note": "SS컴퍼니의 두뇌. 발음 유지 [gl_kj]"
+  },
+  {
+   "jp": "メタボス",
+   "ko": "메타보스",
+   "type": "character",
+   "basis": "DS",
+   "source": "BData__mfset_MonN#34",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "モートン",
+   "ko": "모톤",
+   "type": "character",
+   "basis": "official",
+   "source": "https://www.nintendo.com/kr/switch/aabpa/sp/character/",
+   "note": "'모턴' 아님 [gl_kj]"
+  },
+  {
+   "jp": "ラリー",
+   "ko": "래리",
+   "type": "character",
+   "basis": "official",
+   "source": "https://www.nintendo.com/kr/switch/aabpa/sp/character/",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "ルドウィッグ",
+   "ko": "루드윅",
+   "type": "character",
+   "basis": "official",
+   "source": "https://www.nintendo.com/kr/switch/aabpa/sp/character/",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "ロイ",
+   "ko": "로이",
+   "type": "character",
+   "basis": "official",
+   "source": "https://www.nintendo.com/kr/switch/aabpa/sp/character/",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "ギガニンジン",
+   "ko": "기가 당근",
+   "type": "item",
+   "basis": "DS",
+   "source": "DS033 \"기가 당근!!\"",
+   "note": ""
+  },
+  {
+   "jp": "ゲプーキュウコン",
+   "ko": "꺼억구근",
+   "type": "key_item",
+   "basis": "coined",
+   "source": "FMsg/k_o_ekubon_15#7",
+   "note": "ゲップー(DS '꺼억 케이프')+球根 [gl_kj]"
+  },
+  {
+   "jp": "マンネンアイス",
+   "ko": "만년얼음",
+   "type": "key_item",
+   "basis": "coined",
+   "source": "FMsg/k_o_ekubon_15#7",
+   "note": "이름을 틀리는 개그(テンネンボイス 등)는 '만년얼음'에 맞춰 재구성 [gl_kj]"
+  },
+  {
+   "jp": "クッパ軍団",
+   "ko": "쿠파 군단",
+   "type": "other",
+   "basis": "DS",
+   "source": "FEvent#23E.19",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "クッパ城",
+   "ko": "쿠파 성",
+   "type": "place",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesPlace#6",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "ピーチ城",
+   "ko": "피치 성",
+   "type": "place",
+   "basis": "DS",
+   "source": "EDataSave__mfset_EMesPlace#1",
+   "note": "[gl_kj]"
+  },
+  {
+   "jp": "ぼっちゃん",
+   "ko": "도련님",
+   "type": "term",
+   "basis": "coined",
+   "source": "MenuKJ#93",
+   "note": "마귀·쿠파 7인조·부하들이 쿠파주니어를 부르는 말. DS에 없음 [gl_kj]"
+  },
+  {
+   "jp": "キュウコン",
+   "ko": "구근",
+   "type": "term",
+   "basis": "coined",
+   "source": "FMsg/k_o_gepu_08#8",
+   "note": "「球の根っこ」는 '알뿌리'로 풀이 [gl_kj]"
+  },
+  {
+   "jp": "クッパ様",
+   "ko": "쿠파님",
+   "type": "term",
+   "basis": "DS",
+   "source": "BAI__BMes_cf:0#0",
+   "note": "부하들이 부를 때 [gl_kj]"
+  },
+  {
+   "jp": "コイン",
+   "ko": "코인",
+   "type": "term",
+   "basis": "DS",
+   "source": "BData__mfset_WearE#22",
+   "note": "[gl_items]"
+  },
+  {
+   "jp": "仲間",
+   "ko": "동료",
+   "type": "term",
+   "basis": "DS",
+   "source": "FEvent:048#29",
+   "note": "「仲間になった」→'동료가 되었다' [gl_kj]"
+  },
+  {
+   "jp": "軍団",
+   "ko": "군단",
+   "type": "term",
+   "basis": "DS",
+   "source": "BAI__BMes_cf#0.20",
+   "note": "[gl_attacks]"
+  },
+  {
+   "jp": "を手に入れた！",
+   "ko": "획득했다!",
+   "type": "ui",
+   "basis": "DS",
+   "source": "BAI__BMes_ji#1.0",
+   "note": "시스템 알림 '○○을/를 획득했다!'(조사는 받침에 맞게) [gl_menu_places]"
+  }
+ ],
+ "messages": [
+  {
+   "id": "FMsg/k_o_ekubon_15#0",
+   "label": "Kjrpg_03_Ekubon_qst08_11_01",
+   "style": 6,
+   "src": "わかんない。{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_ekubon_15#1",
+   "label": "Kjrpg_03_Ekubon_qst08_11_02",
+   "style": 6,
+   "src": "ルドウィッグも ロイも\nラリーも ウェンディも…{1:wait}[Next]み～んな\nいなくなっちゃったしね～{2:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_ekubon_15#2",
+   "label": "Kjrpg_03_Ekubon_qst08_11_03",
+   "style": 6,
+   "src": "アハハ～☆{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": [
+    "FMsg/k_o_ekubon_80#15",
+    "FMsg/k_o_gepu_08#13",
+    "FMsg/k_o_gepu_13#34",
+    "FMsg/k_o_gepu_80#82",
+    "FMsg/k_o_koopa_14#12",
+    "FMsg/k_o_koopa_14#182",
+    "FMsg/k_o_koopa_80#14",
+    "FMsg/k_o_koopa_80#49",
+    "FMsg/k_o_koopa_r_80#5",
+    "FMsg/k_o_koopa_r_80#236",
+    "FMsg/k_o_mushiba_16#37",
+    "FMsg/k_o_mushiba_80#96",
+    "FMsg/k_o_zutsuda_80#107"
+   ]
+  },
+  {
+   "id": "FMsg/k_o_ekubon_15#3",
+   "label": "Kjrpg_03_Ekubon_qst08_03",
+   "style": 6,
+   "src": "これ…{1:pause} 運べるか？{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_ekubon_15#4",
+   "label": "Kjrpg_03_Ekubon_qst08_04",
+   "style": 6,
+   "src": "アハハ～☆{1:wait}[Next]重たいね～{2:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_ekubon_15#5",
+   "label": "Kjrpg_03_Ekubon_qst08_06",
+   "style": 6,
+   "src": "あーん…{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_ekubon_15#6",
+   "label": "Kjrpg_03_Ekubon_qst08_07",
+   "style": 10,
+   "src": "はぐ！！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:0A 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_ekubon_15#7",
+   "label": "Kjrpg_03_Ekubon_qst08_08",
+   "style": 12,
+   "src": "{1:align}{2:align}{3:mode}{4:color}ギガニンジン{5:color}を手に入れた！{6:pause}{7:wait}[Next]{8:align}{9:align}{10:mode}残る材料は\n{11:align}ゲプーキュウコンとマンネンアイス！{12:pause}{13:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0005:0000:]",
+    "4": "[Color #4ED4FF]",
+    "5": "[Color #E6E6E6]",
+    "6": "[0002:0000:0A 00]",
+    "7": "[0002:0001:]",
+    "8": "[0001:0004:]",
+    "9": "[0001:0001:]",
+    "10": "[0005:0000:]",
+    "11": "[0001:0004:]",
+    "12": "[0002:0000:0A 00]",
+    "13": "[0002:0001:]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_ekubon_15#8",
+   "label": "Kjrpg_03_Ekubon_qst08_02_01",
+   "style": 6,
+   "src": "これ でかい！{1:pause} でかいニンジン！{2:pause}\nこれだな！{3:pause} ギガニンジン！{4:wait}",
+   "tags": {
+    "1": "[0002:0000:04 00]",
+    "2": "[0002:0000:0A 00]",
+    "3": "[0002:0000:04 00]",
+    "4": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_ekubon_15#9",
+   "label": "Kjrpg_03_Ekubon_qst08_09",
+   "style": 6,
+   "src": "次は どこいくんだ？{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_ekubon_15#10",
+   "label": "Kjrpg_03_Ekubon_qst08_02_02",
+   "style": 6,
+   "src": "モートン！{1:pause} イギー！{2:pause}\nこっちこい！{3:wait}",
+   "tags": {
+    "1": "[0002:0000:04 00]",
+    "2": "[0002:0000:04 00]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_ekubon_15#11",
+   "label": "Kjrpg_03_Ekubon_qst08_10",
+   "style": 6,
+   "src": "わからない。{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_ekubon_15#12",
+   "label": "Kjrpg_03_Ekubon_qst08_12",
+   "style": 6,
+   "src": "うるさい！{1:pause}\nボク １人でやるんだ！{2:wait}",
+   "tags": {
+    "1": "[0002:0000:04 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_ekubon_15#13",
+   "label": "Kjrpg_03_Ekubon_qst08_13",
+   "style": 6,
+   "src": "クッパ様ー どこですかー{1:wait}[Next]いないなら\nいないと言ってくださーい。{2:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_ekubon_15#14",
+   "label": "Kjrpg_03_Ekubon_qst08_15",
+   "style": 12,
+   "src": "{1:align}{2:align}{3:mode}カメックが仲間になった！{4:pause}{5:wait}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[0005:0000:]",
+    "4": "[0002:0000:0A 00]",
+    "5": "[0002:0001:]"
+   },
+   "header": "[0009:0000:0C 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_ekubon_15#15",
+   "label": "Kjrpg_03_Ekubon_qst08_16",
+   "style": 1,
+   "src": "{1:align}{2:align}{3:color}ぼっちゃんのまわりから\n仲間が減っていってましたね…{4:wait}{5:color}",
+   "tags": {
+    "1": "[0001:0004:]",
+    "2": "[0001:0001:]",
+    "3": "[Color #FFFAF1]",
+    "4": "[0002:0001:]",
+    "5": "[Color #373737]"
+   },
+   "header": "[0009:0000:01 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_ekubon_15#16",
+   "label": "Kjrpg_03_Ekubon_qst08_14_01",
+   "style": 6,
+   "src": "あ！ {1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_ekubon_15#17",
+   "label": "Kjrpg_03_Ekubon_qst08_17",
+   "style": 1,
+   "src": "{1:color}{2:align}{3:align}ケンカしたり\nワガママを言ってしまったんでしょうね… {4:wait}{5:color}",
+   "tags": {
+    "1": "[Color #FFFAF1]",
+    "2": "[0001:0004:]",
+    "3": "[0001:0001:]",
+    "4": "[0002:0001:]",
+    "5": "[Color #373737]"
+   },
+   "header": "[0009:0000:01 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_ekubon_15#18",
+   "label": "Kjrpg_03_Ekubon_qst08_14_02",
+   "style": 6,
+   "src": "{1:align}ぼっちゃん！{2:wait}[Next]{3:align}また お会いしましたね！{4:wait}",
+   "tags": {
+    "1": "[0001:0001:]",
+    "2": "[0002:0001:]",
+    "3": "[0001:0000:]",
+    "4": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_ekubon_15#19",
+   "label": "Kjrpg_03_Ekubon_qst08_18",
+   "style": 1,
+   "src": "{1:color}{2:align}{3:align}でもわたしは信じてましたよ。\nぼっちゃんがいつか分かってくれることを…{4:color}{5:wait}",
+   "tags": {
+    "1": "[Color #FFFAF1]",
+    "2": "[0001:0004:]",
+    "3": "[0001:0001:]",
+    "4": "[Color #373737]",
+    "5": "[0002:0001:]"
+   },
+   "header": "[0009:0000:01 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_ekubon_15#20",
+   "label": "Kjrpg_03_Ekubon_qst08_05_01",
+   "style": 6,
+   "src": "ん～{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_ekubon_15#21",
+   "label": "Kjrpg_03_Ekubon_qst08_05_02",
+   "style": 6,
+   "src": "あ！{1:pause} いいこと考えたぞ！{2:wait}",
+   "tags": {
+    "1": "[0002:0000:04 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_ekubon_19#0",
+   "label": "Kjrpg_03_Ekubon_qst01_20",
+   "style": 6,
+   "src": "さて…{1:pause}\nメタボス！{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_ekubon_19#1",
+   "label": "Kjrpg_03_Ekubon_qst01_21",
+   "style": 6,
+   "src": "ハ…{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_ekubon_19#2",
+   "label": "Kjrpg_03_Ekubon_qst01_22",
+   "style": 6,
+   "src": "クッパは またピーチ城へ\n向かったはずるる。{1:wait}[Next]ワレらも \nすぐに追うるるるるる！{2:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_ekubon_19#3",
+   "label": "Kjrpg_03_Ekubon_qst01_23",
+   "style": 6,
+   "src": "ハ…！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_ekubon_19#4",
+   "label": "Kjrpg_03_Ekubon_qst01_24",
+   "style": 6,
+   "src": "スーリム！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_ekubon_19#5",
+   "label": "Kjrpg_03_Ekubon_qst01_25",
+   "style": 6,
+   "src": "は… {1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_ekubon_19#6",
+   "label": "Kjrpg_03_Ekubon_qst01_26",
+   "style": 6,
+   "src": "クッパ城や クッパ軍団は\n我ら SSカンパニーにお任せを。{1:wait}[Next]といっても…{2:pause} 作戦は\nほぼ 完了しているようなもの… {3:wait}[Next]もうすぐ\nクッパ城は 我々の手に落ち… {4:wait}[Next]クッパ軍団も すぐに\n我々の手駒となるでしょう。{5:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0000:0A 00]",
+    "3": "[0002:0001:]",
+    "4": "[0002:0001:]",
+    "5": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_ekubon_19#7",
+   "label": "Kjrpg_03_Ekubon_qst01_27",
+   "style": 6,
+   "src": "大量のコインを \n支払っただけあって…{1:wait}[Next]仕事が 早いるるね。{2:wait}",
+   "tags": {
+    "1": "[0002:0001:]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_ekubon_19#8",
+   "label": "Kjrpg_03_Ekubon_qst01_28",
+   "style": 6,
+   "src": "ええ… {1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_ekubon_19#9",
+   "label": "Kjrpg_03_Ekubon_qst01_29",
+   "style": 6,
+   "src": "仕事のスピーディさが\n我々の モットーですから。{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_ekubon_19#10",
+   "label": "Kjrpg_03_Ekubon_qst01_30",
+   "style": 6,
+   "src": "どこかの \nブタさんと違って… {1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_ekubon_19#11",
+   "label": "Kjrpg_03_Ekubon_qst01_31",
+   "style": 6,
+   "src": "ナニ！？{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_ekubon_19#12",
+   "label": "Kjrpg_03_Ekubon_qst01_32",
+   "style": 6,
+   "src": "おっと。{1:pause}\n聞こえましたか。{2:wait}[Next]これは 失礼。{3:wait}",
+   "tags": {
+    "1": "[0002:0000:04 00]",
+    "2": "[0002:0001:]",
+    "3": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_ekubon_19#13",
+   "label": "Kjrpg_03_Ekubon_qst01_33",
+   "style": 6,
+   "src": "メタボス！\n急ぐるるよ！{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_ekubon_19#14",
+   "label": "Kjrpg_03_Ekubon_qst01_34",
+   "style": 6,
+   "src": "それでは{1:pause}\n私も…{2:wait}",
+   "tags": {
+    "1": "[0002:0000:0A 00]",
+    "2": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  },
+  {
+   "id": "FMsg/k_o_ekubon_19#15",
+   "label": "Kjrpg_03_Ekubon_qst01_35",
+   "style": 6,
+   "src": "イケスカナイヤツ…{1:wait}",
+   "tags": {
+    "1": "[0002:0001:]"
+   },
+   "header": "[0009:0000:06 00]",
+   "dups": []
+  }
+ ]
+}

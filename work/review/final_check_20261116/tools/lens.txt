@@ -1,0 +1,21 @@
+per file: max encoded bytes JP vs KO
+  BMsg         JP    990 (BMsg/b_sys#969)  KO    614 (BMsg/b_sys#1573)
+  Menu         JP    602 (Menu#177)  KO    336 (Menu#177)
+  Item         JP    472 (Item#32)  KO    298 (Item#32)
+  HugeBattle   JP    508 (HugeBattle#64)  KO    328 (HugeBattle#66)
+  FMsg         JP   1970 (FMsg/o_ekubon_02_after#16)  KO   1608 (FMsg/o_ekubon_02_after#16)
+  MenuKJ       JP    628 (MenuKJ#20)  KO    408 (MenuKJ#77)
+  InitLoad     JP    200 (InitLoad#3)  KO    174 (InitLoad#3)
+messages where KO encodes longer than JP: 519 of 9617
+  +24 bytes  KO 162 JP 138  FMsg/o_town_24#1
+  +20 bytes  KO 138 JP 118  Menu#50
+  +20 bytes  KO 132 JP 112  Menu#264
+  +20 bytes  KO 126 JP 106  Menu#302
+  +20 bytes  KO 114 JP 94  Menu#31
+  +18 bytes  KO 120 JP 102  Menu#543
+  +16 bytes  KO 194 JP 178  FMsg/o_town_23#28
+  +16 bytes  KO 122 JP 106  FMsg/i_fire_02#6
+  +16 bytes  KO 118 JP 102  Menu#493
+  +16 bytes  KO 118 JP 102  Menu#115
+  +16 bytes  KO 110 JP 94  Menu#198
+  +16 bytes  KO 94 JP 78  FMsg/o_gepu_05_after#9

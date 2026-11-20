@@ -1,0 +1,17 @@
+InitLoad#0 SaveAccident dups=0
+JP {1:align}{2:align}{3:mode}ゲームデータが壊れています。 / {4:align}ゲームデータを作り直します。{5:wait}
+KO {1:align}{2:align}{3:mode}게임 데이터가 손상되었습니다. / {4:align}게임 데이터를 새로 만들겠습니다.{5:wait}
+InitLoad#1 InitFormat dups=0
+JP {1:align}{2:align}{3:mode}ゲームを始める準備をしています。 / {4:align}しばらく そのままでお待ちください。
+KO {1:align}{2:align}{3:mode}게임을 시작할 준비 중입니다. / {4:align}잠시 기다려 주십시오.
+InitLoad#2 Data_Clear_00 dups=0
+JP {1:align}{2:align}{3:mode}すべてのゲームデータを 消します。 / {4:align}よろしいですか？{5:pause} / {6:align}{7:choice}いいえ{8:tab}{9:choice}はい{10:pause}
+KO {1:align}{2:align}{3:mode}모든 게임 데이터가 삭제됩니다. / {4:align}계속하시겠습니까?{5:pause} / {6:align}{7:choice}아니요{8:tab}{9:choice}예{10:pause}
+NOTE glossary 경고는 의도. 'すべてのゲームデータを 消します。'의 확정 번역 '이 게임의 모든 저장 데이터가 삭제됩니다.'는 302px로 이 파일의 줄 한도(277px)를 넘고, 두 줄로 나누면 페이지 줄 수 한도(3줄)를 넘음. 그래서 '모든 게임 데이터가 삭제됩니다.'로 줄이고 용어는 glossary ゲームデータ=게임 데이터에 맞춤.
+InitLoad#3 Data_Clear_01 dups=0
+JP {1:align}{2:align}{3:mode}消したゲームデータは もとに / {4:align}戻せませんが よろしいですか？{5:pause} / {6:align}{7:choice}いいえ{8:tab}{9:choice}はい{10:pause}
+KO {1:align}{2:align}{3:mode}삭제한 게임 데이터는 복구할 수 / {4:align}없습니다. 계속하시겠습니까?{5:pause} / {6:align}{7:choice}아니요{8:tab}{9:choice}예{10:pause}
+NOTE 한 줄로 쓰면 302px로 한도(277px)를 넘어서 원문처럼 '복구할 수 / 없습니다.'에서 끊음.
+InitLoad#4 Data_Clear_02 dups=0
+JP {1:align}{2:align}{3:mode}ゲームデータを 消しています。 / {4:align}しばらく そのままでお待ちください。
+KO {1:align}{2:align}{3:mode}게임 데이터를 삭제하는 중입니다. / {4:align}잠시 기다려 주십시오.

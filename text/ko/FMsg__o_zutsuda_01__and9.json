@@ -76,7 +76,7 @@
   "FMsg/o_zutsuda_15#12": "{1:align}{2:color}쿠파 성{3:color}{4:color}에 스타 백신이\n하나 있습니다!!{5:wait}{6:color}",
   "FMsg/o_zutsuda_15#13": "{1:align}알립니다! 알립니다~!{2:pause}",
   "FMsg/o_zutsuda_15#14": "{1:align}마리오님, 루이지님,\n난폭한 분 들으세요~{2:wait}[Next]{3:align}버섯 타운의\n오키노 선생님으로부터~{4:wait}[Next]{5:align}{6:align}메시지가 도착했습니다~!!{7:wait}",
-  "FMsg/o_zutsuda_15#15": "{1:align}아~{2:pause} 아아~{3:pause} 아~{4:pause}\n…{5:pause} 아!{6:pause} 연결된 건가!?{7:wait}[Next]{8:align}{9:align}…{10:pause} 에헴!{11:wait}",
+  "FMsg/o_zutsuda_15#15": "{1:align}아~{2:pause} 아아~{3:pause} 아~{4:pause}\n…{5:pause}아!{6:pause} 연결된 건가!?{7:wait}[Next]{8:align}{9:align}…{10:pause}에헴!{11:wait}",
   "FMsg/o_zutsuda_15#16": "{1:align}실은 방금\n두 번째 현인이 누구인지\n알게 되었습니다.{2:wait}[Next]{3:align}두 번째 현인은\n바닷가에 있는\n바다거북 {4:color}러즐{5:color}{6:color}이지요.{7:wait}{8:color}",
   "FMsg/o_zutsuda_15#17": "{1:align}참고로 첫 번째 스타 백신은\n마리오님과 루이지님이\n손에 넣었습니다.{2:wait}[Next]{3:align}{4:align}축하합니다!!{5:wait}",
   "FMsg/o_zutsuda_15#18": "{1:align}{2:align}어이!!{3:pause}",
@@ -119,6 +119,7 @@
   "FMsg/o_zutsuda_04_after#14": "DS 오기 수정: '뭐하러'→'뭐 하러'(DS0F9#13).",
   "FMsg/o_zutsuda_04_after#18": "3DX 의성어 ズゴ～ン에 맞춰 '콰광~! 하고'(DS0F9#17은 '슥~ 슥~').",
   "FMsg/o_zutsuda_04_after#26": "#26·#27: DS0F9#23·24('왜 그러셨을까…?'/'뭣 때문일까…?')는 3DX 원문(それは…/なんだよ…)과 뜻이 달라 원문대로 씀.",
-  "FMsg/o_zutsuda_15#29": "3DX의 そうか!를 살려 '그러냐!'를 붙임(DS108#43은 '마음대로 해라!'만)."
+  "FMsg/o_zutsuda_15#29": "3DX의 そうか!를 살려 '그러냐!'를 붙임(DS108#43은 '마음대로 해라!'만).",
+  "FMsg/o_zutsuda_15#15": "review: 2026-10-06 DS108#30의 같은 뜻 대사 띄어쓰기 복원. 화살표 뒤/말줄임표 뒤 공백과 어절을 DS대로 유지하고 3DX pause·서식·페이지 태그는 그대로 둠. AGENTS 0·4.6의 DS 보존 원칙이 일반 스타일 권고보다 우선."
  }
 }

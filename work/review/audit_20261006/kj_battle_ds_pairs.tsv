@@ -1,0 +1,577 @@
+batch	id	label	src	ko	note	dups	ds_key	ds_ko	coverage	ratio
+BMsg__b_sys__p1	BMsg/b_sys#29	MES_KGarakuta_08_mes_03_no2	"{1:align}まちがえて ジャンプ攻撃
+しないように気をつけてね。{2:wait}"	"{1:align}실수로 점프 공격을
+하는 일이 없도록 주의해.{2:wait}"	DS BAI__BMes_cf#5.4 그대로	[]	DS:BAI__BMes_cf#5.4	"실수로 점프 공격을
+하는 일이 없도록 주의해."	1.0	1.0
+BMsg__b_sys__p1	BMsg/b_sys#68	MES_ji_scn_koopa2_yellow_star_iyana	なにか イヤな予感がするわ！{1:wait}	왠지 불길한 예감이 들어!{1:wait}	DS BAI__BMes_yo#1.1 그대로	[]	DS:BAI__BMes_yo#1.1	왠지 불길한 예감이 들어!	1.0	1.0
+BMsg__b_sys__p2	BMsg/b_sys#147	MES_Mushiba_05_mes_08_yes	"{1:align}では {2:color}ファイア{3:color}{4:color}を
+チョイスして シルブプレ。{5:wait}{6:color}"	"{1:align}그럼 {2:color}파이어{3:color}{4:color}를
+초이스하세요, 플리즈!{5:wait}{6:color}"	DS BAI__BMes_cf#8.10 그대로(シルブプレ → 플리즈)	[]	DS:BAI__BMes_cf#8.10	"그럼 파이어를
+초이스하세요, 플리즈!"	1.0	1.0
+BMsg__b_sys__p3	BMsg/b_sys#274	MES_Ekubon_09_mes_00	"{1:align}クッパ様！{2:pause}
+我らクリボー軍団も 共に戦います！{3:wait}"	"{1:align}쿠파님!{2:pause}
+저희 굼바 군단도 함께 싸우겠습니다!{3:wait}"	DS BAI__BMes_cf#0.0·0.1 그대로(style_guide 3.6 예문)	[]	DS:BAI__BMes_cf#0.1	"저희 굼바 군단도
+함께 싸우겠습니다![Next]이런 녀석들 따위는
+우리 굼바부대로
+시원하게 해치우겠습니다![Next]다만… 잠시 동안 철창 안에
+갇힌 탓에 제대로 공격이 될지
+불안한 감이…[Next]그래서 말인데…
+평소처럼 구령을 붙여
+훈련해 봐도 되겠습니까?[Next]어떠신가요…?
+좋다   귀찮다"	0.824	0.248
+BMsg__b_sys__p3	BMsg/b_sys#279	SpAtk_01	ファイアフラワー	파이어플라워		['Item#269', 'Menu#119']	DS:BData__mfset_AItmN#17	파이어플라워	1.0	1.0
+BMsg__b_sys__p3	BMsg/b_sys#294	MES_Ekubon_09_mes_01	"{1:align}こんなやつら {2:color}ボコスカクリボー{3:color}{4:color}で
+けちらしてやりましょう！{5:wait}[Next]{6:align}号令をお願いします！{7:pause}
+{8:align}{9:indent}{10:choice}めんどうだ{11:tab}{12:choice}かまわんぞ{13:color}{14:pause}"	"{1:align}이런 녀석들 따위는 {2:color}굼바부대{3:color}{4:color}로
+시원하게 해치우겠습니다!{5:wait}[Next]{6:align}구령을 부탁드립니다!{7:pause}
+{8:align}{9:indent}{10:choice}귀찮다{11:tab}{12:choice}좋다{13:color}{14:pause}"	DS BAI__BMes_cf#0.1 문장에서 3DX에 없는 '우리'를 뺌. 선택지는 DS(좋다/귀찮다)를 3DX 순서(めんどうだ/かまわんぞ)로	[]	DS:BAI__BMes_cf#0.1	"저희 굼바 군단도
+함께 싸우겠습니다![Next]이런 녀석들 따위는
+우리 굼바부대로
+시원하게 해치우겠습니다![Next]다만… 잠시 동안 철창 안에
+갇힌 탓에 제대로 공격이 될지
+불안한 감이…[Next]그래서 말인데…
+평소처럼 구령을 붙여
+훈련해 봐도 되겠습니까?[Next]어떠신가요…?
+좋다   귀찮다"	0.778	0.454
+BMsg__b_sys__p3	BMsg/b_sys#295	MES_Mushiba_05_mes_11_3	{1:align}言うこと ナッシング！！！{2:wait}	{1:align}퍼펙트 퍼포먼스입니다!!!{2:wait}	DS BAI__BMes_cf#8.13 '퍼펙트 퍼포먼스입니다!'(言うこと ナッシング). 3DX가 셋으로 나눈 감탄(#255·#275·#295)이라 느낌표 수는 3DX를 따름	[]	DS:BAI__BMes_cf#8.13	"원~더풀!
+뷰~티풀!
+퍼펙트 퍼포먼스입니다![Next]우리 블도그의
+프리티한 엉덩이가
+마구 보이네요![Next]이 기회에 엉덩이를 때려서
+매너를 똑바로 가르쳐야
+할 텐데요![Next]참고로 파이어는
+눈앞에 있는 모든 몬스터가
+공격 대상입니다.[Next]게다가 Ⓧ)를 길게 눌러서
+파이어를 길게 내뿜으면
+연속 대미지를 줄 수 있어서 굿![Next]몬스터가
+많을 땐 파이어!
+이게 베이직입니다!"	1.0	0.137
+BMsg__b_sys__p3	BMsg/b_sys#297	MES_ji_scn_koopa2_yesno	"いいわね！ わかった？{1:pause}
+{2:align}{3:choice}いいえ{4:tab}{5:choice}はい{6:pause}"	"알았지? 할 수 있지?{1:pause}
+{2:align}{3:choice}아니요{4:tab}{5:choice}예{6:pause}"	DS BAI__BMes_ji#5.3 그대로(알았지? 할 수 있지?). 선택지는 3DX 순서(아니요/예)	[]	DS:BAI__BMes_ji#5.3	"알았지? 할 수 있지?
+예   아니요"	0.8	0.909
+BMsg__b_sys__p3	BMsg/b_sys#304	SpAtk_02	はね～るメット	점프점프헬멧		['Item#224', 'Menu#130']	DS:BData__mfset_AItmN#13	점프점프헬멧	1.0	1.0
+BMsg__b_sys__p3	BMsg/b_sys#323	MES_Ekubon_09_mes_02	"{1:align}わかりました。{2:color}{3:pause}{4:color}
+それでは私も攻撃に参加してきます！{5:wait}"	"{1:align}알겠습니다.{2:color}{3:pause}{4:color}
+그럼 저도 공격에 참가하겠습니다!!{5:wait}"	DS BAI__BMes_cf#0.21 그대로(느낌표 2개)	[]	DS:BAI__BMes_cf#0.21	"그럼 저도
+공격에 참가하겠습니다!!"	0.867	0.848
+BMsg__b_sys__p3	BMsg/b_sys#326	SpAtk_03	ぶんしんタルたいほう	분신나무통대포		['Item#545', 'Menu#142']	DS:BData__mfset_AItmN#4	분신나무통대포	1.0	1.0
+BMsg__b_sys__p3	BMsg/b_sys#328	BtlGuide_11_2	"{1:color}HP{2:color} は 体力。
+ダメージを受けると減り ゼロになると気絶します。"	"{1:color}HP{2:color}는 체력.
+타격을 입으면 줄어들고 0이 되면 기절해요."	DS BData__mfset_RankUpE#14(체력 포인트입니다. 타격을 입으면 줄어들고 0이 되면 기절합니다.) 문장을 3DX 짜임에 맞춤	['Menu#147']	DS:BData__mfset_RankUpE#14	"체력 포인트입니다.
+타격을 입으면 줄어들고
+0이 되면 기절합니다."	0.727	0.72
+BMsg__b_sys__p4	BMsg/b_sys#343	Kj_Btl_slc_roulette_15	{1:mode}味方のHP{2:var}％回復！	{1:mode}아군의 HP {2:var}% 회복!		[]	DS:BData__mfset_BadgeEffectE#1	"Good~Excellent를 내면 쌓임.
+효과: 2명의 HP를 20% 회복"	0.571	0.3
+BMsg__b_sys__p4	BMsg/b_sys#344	Kj_Btl_slc_yarareru_05	オマエなにやってんだ？	너 뭐 하는 거야?	화자 추정: 쿠파주니어(#370 루드윅의 '…훗, 몸풀기입니다'와 짝)	[]	DS:BAI__BMes_cf#3.3	"그건 그렇고 루이지!
+공격 방법은 알고 있겠지?[Next]너는 Ⓑ)를 눌러서
+공격하는 거야.[Next]마리오는 Ⓐ)!
+루이지는 Ⓑ)!
+헷갈리지 마!"	0.6	0.192
+BMsg__b_sys__p4	BMsg/b_sys#346	MES_Ekubon_09_mes_03	"{1:align}では {2:color}ボコスカアタック{3:color}{4:color}を
+選ぶところから 始めましょう！{5:wait}{6:color}"	"{1:align}그럼 {2:color}스페셜 어택{3:color}{4:color}부터
+선택해 주십시오!{5:wait}{6:color}"	DS BAI__BMes_cf#0.3 문장. 3DX 원문에 없는 '평소처럼'은 뺌	[]	DS:BAI__BMes_cf#0.3	"그럼 평소처럼
+스페셜 어택부터
+선택해 주십시오!"	1.0	0.889
+BMsg__b_sys__p4	BMsg/b_sys#347	MES_OP_SPeach_00_mes_2	"さすが マリオどの！
+じいが 説明するまでもありませんな！{1:wait}"	"역시 마리오님!
+제가 설명하지 않아도 이미 알고 계시군요!{1:wait}"		[]	DS:BAI__BMes_cf#9.2	"역시 마리오님!
+제가 설명하지 않아도
+이미 알고 계시군요!"	1.0	1.0
+BMsg__b_sys__p4	BMsg/b_sys#367	Kj_Btl_prod_start_14	{1:mode}ワタシがお供しましょう！	{1:mode}제가 모시겠습니다!		[]	DS:BData__mfset_BadgeEffectE#17	"배지를 교환하면 게이지가
+리셋됩니다. 괜찮으시겠습니까?
+ 예             아니요"	0.571	0.278
+BMsg__b_sys__p4	BMsg/b_sys#369	Kj_Btl_slc_roulette_16	{1:mode}敵のHP{2:var}％回復！	{1:mode}적의 HP {2:var}% 회복!		[]	DS:BData__mfset_BadgeEffectE#1	"Good~Excellent를 내면 쌓임.
+효과: 2명의 HP를 20% 회복"	0.667	0.308
+BMsg__b_sys__p4	BMsg/b_sys#379	BtlGuide_11_4	"{1:color}POW{2:color} は 攻撃力。
+数字が大きいほど 与えるダメージが大きくなります。"	"{1:color}POW{2:color}는 공격력.
+숫자가 클수록 상대에게 큰 타격을 입혀요."	BtlGuide 본문은 해요체(style_guide 5.1-4). 같은 JP의 RankUpE_State는 DS 하십시오체	['Menu#178']	DS:BData__mfset_RankUpE#18	"공격력입니다.
+숫자가 클수록 상대에게
+큰 타격을 입힙니다."	0.696	0.75
+BMsg__b_sys__p4	BMsg/b_sys#392	MES_Ekubon_09_mes_05	{1:align}みんな！{2:pause} 気合を入れていけよ！{3:wait}	{1:align}다들!{2:pause} 각오는 됐겠지!?{3:wait}	DS BAI__BMes_cf#0.7 그대로(다들! 각오는 됐겠지!?)	[]	DS:BAI__BMes_cf#0.7	다들! 각오는 됐겠지!?	1.0	1.0
+BMsg__b_sys__p4	BMsg/b_sys#400	SpAtk_06	スイーツバスケット	스위트바스켓		['Item#660', 'Menu#191']	DS:BData__mfset_AItmN#21	스위트바스켓	1.0	1.0
+BMsg__b_sys__p4	BMsg/b_sys#401	BtlGuide_11_5	"{1:color}DEF{2:color} は 防御力。
+数字が大きいほど 受けるダメージが
+小さくなります。"	"{1:color}DEF{2:color}는 방어력.
+숫자가 클수록 타격을 적게 입어요."		['Menu#193']	DS:BData__mfset_RankUpE#20	"방어력입니다.
+숫자가 클수록
+타격을 적게 입습니다."	0.65	0.714
+BMsg__b_sys__p4	BMsg/b_sys#402	BtlGuide_26	ボコスカアタックでの攻撃	스페셜 어택으로 공격		['Menu#194']	DS:BAI__BMes_cf#0.5	"아시다시피 저희들의
+스페셜 어택은
+터치펜으로 조작합니다."	0.625	0.412
+BMsg__b_sys__p4	BMsg/b_sys#416	MES_KMetaboru_06_mes_h00	そこの ヒゲ兄弟！{1:wait}	거기 수염 형제!{1:wait}		[]	DS:BAI__BMes_cf#6.21	거기 수염 형제!	1.0	1.0
+BMsg__b_sys__p4	BMsg/b_sys#417	MES_OP_SPeach_00_mes_5	"{1:mode}うまく押すとダメージが
+増えますぞ！{2:wait}"	"{1:mode}잘 누르면 상대가
+더 큰 타격을 입습니다!{2:wait}"		[]	DS:BAI__BMes_cf#9.7	"지금처럼 알맞은 타이밍에
+버튼을 누르면
+상대가 큰 타격을 입습니다![Next]밟기 조금 전에
+버튼을 누른다!
+이렇게 기억해 주십시오!"	0.8	0.424
+BMsg__b_sys__p4	BMsg/b_sys#419	SpAtk_07	あちこちウィンドウ	아무데나창문		['Item#280', 'Menu#204']	DS:BData__mfset_AItmN#19	아무데나창문	1.0	1.0
+BMsg__b_sys__p4	BMsg/b_sys#434	MES_Gepu_00_mes_13	"{1:align}クッパが ここまでできるとは
+予想外るるよ。{2:wait}[Next]{3:align}メタボス！ こんなやつ
+さっさとやっつけて 帰るるるよ！{4:wait}"	"{1:align}쿠파가 이 정도까지 하다니
+뜻밖이지롱롱.{2:wait}[Next]{3:align}메타보스! 이따위 녀석
+빨리 해치우고 돌아오거라롱롱롱!{4:wait}"	DS BAI__BMes_cf#1.13·1.15 문장을 3DX 페이지 구성에 맞춤	[]	DS:BAI__BMes_cf#1.15	"메타보스!
+이따위 녀석 빨리 해치우고
+돌아오거라롱롱롱!"	0.568	0.73
+BMsg__b_sys__p5	BMsg/b_sys#452	MES_OP_SPeach_00_mes_7	さすがですぞ マリオどの！{1:wait}	역시 마리오님!{1:wait}	review: 2026-10-06 DS 동일 의미 복원. さすがですぞ マリオどの는 DS BAI__BMes_cf#9.9의 '역시 마리오님!' 그대로. 3DX 원문에 없는 뒤의 '실례했습니다!'는 가져오지 않음.	['BMsg/b_sys#842']	DS:BAI__BMes_cf#9.9	"역시 마리오님!
+실례했습니다!"	1.0	0.667
+BMsg__b_sys__p5	BMsg/b_sys#453	MES_RankUpE_State_POW	"{1:align}{2:align}{3:mode}{4:color}POW {5:color}は 攻撃力。
+数字が大きいほど 与えるダメージが大きくなります。"	"{1:align}{2:align}{3:mode}{4:color}POW{5:color}는 공격력.
+숫자가 클수록 상대에게 큰 타격을 입힙니다."	RankUpE 화면은 DS RankUpE#18 문장(하십시오체). BtlGuide·KJGuide의 같은 JP는 해요체	[]	DS:BData__mfset_RankUpE#18	"공격력입니다.
+숫자가 클수록 상대에게
+큰 타격을 입힙니다."	0.792	0.857
+BMsg__b_sys__p5	BMsg/b_sys#459	BtlGuide_29	バッジメーターについて	배지 게이지에 대해		['Menu#226']	DS:BAI__BMes_cf#6.12	"아! 그리고
+배지의 기능을 사용한 후에는
+게이지가 없어져 버려.[Next]위급할 때에 대비해서
+게이지를 가득 채워 놓고
+사용은 하지 않든…[Next]그때그때 게이지를 쌓아서
+그때그때 배지를 사용하든…[Next]배지의 사용 방법은
+네 자유야!"	0.571	0.172
+BMsg__b_sys__p5	BMsg/b_sys#469	MES_Ekubon_09_mes_09	"{1:align}クッパ様！{2:pause} 訓練に 付き合って
+いただき ありがとうございます！ {3:wait}"	"{1:align}쿠파님!{2:pause} 저희들의 훈련에
+동참해 주셔서 감사합니다!{3:wait}"	DS BAI__BMes_cf#0.19 그대로	[]	DS:BAI__BMes_cf#0.19	"저희들의 훈련에
+동참해 주셔서
+감사합니다!"	0.85	0.923
+BMsg__b_sys__p5	BMsg/b_sys#480	Kj_Btl_slc_bai_02	アイツらだ！	저 녀석들이야!		[]	DS:BAI__BMes_ji#3.1	"봐 봐! 저기에
+낡아 빠진 다리가
+보이지?[Next]저 녀석이 오르면
+무게를 견디지 못하고
+다리가 무너질 거야![Next]그럼 저 녀석은
+깊~은 골짜기 아래로
+곤두박질치겠지![Next]제아무리 몸이 커도
+한 번에 박살이야!"	0.6	0.123
+BMsg__b_sys__p5	BMsg/b_sys#499	MES_RankUpE_State_HP	"{1:align}{2:align}{3:mode}{4:color}HP{5:color} は 体力。
+ダメージを受けると減り ゼロになると気絶します。"	"{1:align}{2:align}{3:mode}{4:color}HP{5:color}는 체력.
+타격을 입으면 줄어들고 0이 되면 기절합니다."	DS RankUpE#14 문장(하십시오체)	[]	DS:BData__mfset_RankUpE#14	"체력 포인트입니다.
+타격을 입으면 줄어들고
+0이 되면 기절합니다."	0.826	0.824
+BMsg__b_sys__p5	BMsg/b_sys#507	KJ_Msg_quest_38	マリオ＆ルイージ	마리오&루이지		[]	DS:BAI__BMes_cf#4.0	마리오! 루이지!	0.667	0.923
+BMsg__b_sys__p6	BMsg/b_sys#577	MES_KGarakuta_01_mes_01	"{1:align}２人そろうと
+それなりに 頼もしいわね。{2:wait}"	"{1:align}둘이 모이니
+그럭저럭 든든한걸…!{2:wait}"	DS BAI__BMes_cf#3.2 그대로	[]	DS:BAI__BMes_cf#3.2	"둘이 모이니
+그럭저럭 든든한걸…!"	1.0	1.0
+BMsg__b_sys__p6	BMsg/b_sys#578	MES_KGarakuta_02_mes_00	{1:align}マリオ！ ルイージ！{2:wait}	{1:align}마리오! 루이지!{2:wait}	DS BAI__BMes_cf#4.0 그대로	[]	DS:BAI__BMes_cf#4.0	마리오! 루이지!	1.0	1.0
+BMsg__b_sys__p6	BMsg/b_sys#579	MES_Mushiba_04_mes_01	"{1:align}まずはバキュームブロックを ルック！{2:wait}[Next]{3:align}はげしく 反応しますね！
+バキュームブロックをチョイス！{4:wait}"	"{1:align}우선 배큐엄블록을 룩!{2:wait}[Next]{3:align}격렬하게 반응하고 있네요!
+배큐엄블록을 초이스!{4:wait}"		[]	DS:BAI__BMes_cf#7.0	"자! 렛츠 비긴!
+잇츠 쇼 타임![Next]그 배큐엄블록을 사용하면
+몸이 스몰한 몬스터를
+빨아들일 수가 있습니다![Next]빨아들일 것이 있을 때는
+배큐엄블록이
+격렬하게 반응합니다![Next]지금 바로 배큐엄을
+초이스해 주세요, 플리즈!"	0.565	0.339
+BMsg__b_sys__p6	BMsg/b_sys#598	MES_Mushiba_05_mes_01	"{1:align}ブロドッグちゃんがジャンプしたら
+そのグレイトなコウラを使うのです！{2:wait}[Next]{3:color}{4:align}ミーがレクチャーしましょうか？{5:pause}
+{6:align}{7:choice}いらん{8:tab}{9:choice}やってくれ{10:color}{11:pause}"	"{1:align}우리 블도그가 점프를 하면
+그 그레이트한 등껍질을 사용하는 겁니다!{2:wait}[Next]{3:color}{4:align}미가 설명해 드릴까요?{5:pause}
+{6:align}{7:choice}필요 없어{8:tab}{9:choice}해 줘{10:color}{11:pause}"	1쪽은 DS BAI__BMes_cf#8.1 말투, 2쪽 질문·선택지는 DS 그대로(선택지 순서는 3DX)	[]	DS:BAI__BMes_cf#8.1	"우리 블도그가
+점프를 하면
+비 케어풀![Next]펀치로는 도저히
+당해 낼 수 없습니다.[Next]그럴 때는 당신의
+그레이트한 등껍질을
+사용해 보십시오![Next]Ⓨ)를 계속 누르고 있으면
+등껍질로 방어를
+할 수 있게 되거든요![Next]미가 설명해 드릴까요?
+해 줘   필요 없어"	0.786	0.529
+BMsg__b_sys__p6	BMsg/b_sys#615	MES_KGarakuta_01_mes_03	"{1:align}ルイージ あなたは{2:color}{3:icon}{4:color}を{5:color}
+使って攻撃するのよ。{6:wait}[Next]{7:align}マリオは{8:color}{9:icon} {10:color}ルイージは{11:color}{12:icon}{13:color}。
+まちがえないでね。{14:wait}{15:color}"	"{1:align}루이지, 너는 {2:color}{3:icon}{4:color}를{5:color}
+눌러서 공격하는 거야.{6:wait}[Next]{7:align}마리오는 {8:color}{9:icon}{10:color}! 루이지는 {11:color}{12:icon}{13:color}!
+헷갈리지 마!{14:wait}{15:color}"	DS BAI__BMes_cf#3.3의 '너는 Ⓑ를 눌러서 공격하는 거야', '마리오는 Ⓐ! 루이지는 Ⓑ! 헷갈리지 마!'	[]	DS:BAI__BMes_cf#3.3	"그건 그렇고 루이지!
+공격 방법은 알고 있겠지?[Next]너는 Ⓑ)를 눌러서
+공격하는 거야.[Next]마리오는 Ⓐ)!
+루이지는 Ⓑ)!
+헷갈리지 마!"	0.88	0.757
+BMsg__b_sys__p6	BMsg/b_sys#618	MES_Mushiba_05_mes_08_no	{1:align}オ～ウ… ミーは必要ないのね…{2:wait}	{1:align}오~우… 미는 필요 없나 보군요…{2:wait}	DS BAI__BMes_cf#8.9 그대로	[]	DS:BAI__BMes_cf#8.9	"오~우… 미는
+필요 없나 보군요…"	1.0	1.0
+BMsg__b_sys__p6	BMsg/b_sys#639	MES_KGarakuta_02_mes_03	"{1:align}じゃあ まずはコマンドブロックの
+{2:color}ブラザーアタック{3:color}{4:color}を 選んで！{5:wait}{6:color}"	"{1:align}그럼 우선 커맨드 블록에서
+{2:color}스페셜 어택{3:color}{4:color}을 선택해 봐!{5:wait}{6:color}"	DS BAI__BMes_cf#4.3 그대로	[]	DS:BAI__BMes_cf#4.3	"그럼 우선
+커맨드 블록에서
+스페셜 어택을 선택해 봐!"	1.0	1.0
+BMsg__b_sys__p6	BMsg/b_sys#640	MES_Mushiba_04_mes_04	"{1:align}これは サプライズ！ ビッグムッシュ
+の中に ヒゲのムッシュが…{2:wait}[Next]{3:align}ハウ アー ユー？{4:wait}"	"{1:align}이것은 쏘 서프라이즈! 빅한 신사
+안에 수염 신사가…{2:wait}[Next]{3:align}하우 아 유?{4:wait}"	DS BAI__BMes_cf#7.4에 3DX의 ビッグムッシュ/ヒゲのムッシュ를 반영	[]	DS:BAI__BMes_cf#7.4	"이것은 쏘 서프라이즈!
+신사 안에 또 다른 신사가…[Next]하우 아 유?"	0.727	0.851
+BMsg__b_sys__p6	BMsg/b_sys#641	MES_Mushiba_05_mes_03	"{1:align}{2:color}ジャンプしてきたら{3:color}{4:color}{5:icon}{6:color}{7:color}を押し続けて{8:color}
+しゃがむのです！{9:font}{10:color}{11:wait}{12:color}{13:font}"	"{1:align}{2:color}점프해 오면{3:color} {4:color}{5:icon}{6:color}{7:color}를 길게 눌러서{8:color}
+웅크려 주세요!{9:font}{10:color}{11:wait}{12:color}{13:font}"	DS BAI__BMes_cf#8.4 '길게 눌러서 웅크려 주세요'	[]	DS:BAI__BMes_cf#8.4	"나우!![Next]Ⓨ)를 길게 눌러서
+웅크려 주세요!!"	0.688	0.75
+BMsg__b_sys__p6	BMsg/b_sys#656	KJGuide_BB05_3	"{1:color}POWは攻撃力{2:color}。
+数字が大きいほど
+与えるダメージが大きくなります。"	"{1:color}POW는 공격력{2:color}.
+숫자가 클수록
+상대에게 큰 타격을 입혀요."		[]	DS:BData__mfset_RankUpE#18	"공격력입니다.
+숫자가 클수록 상대에게
+큰 타격을 입힙니다."	0.696	0.75
+BMsg__b_sys__p6	BMsg/b_sys#661	MES_KGarakuta_01_mes_05	"{1:align}そのモンスターの特徴が
+わかったわ！{2:wait}[Next]{3:align}聞いてくれる？{4:pause}
+{5:align}{6:choice}いいえ{7:tab}{8:choice}はい{9:pause}"	"{1:align}그 몬스터의 특징을
+파악했어!{2:wait}[Next]{3:align}잠깐 들어 볼래!?{4:pause}
+{5:align}{6:choice}아니요{7:tab}{8:choice}예{9:pause}"	DS BAI__BMes_cf#3.5 문장. 3DX의 特徴는 '특징'	[]	DS:BAI__BMes_cf#3.5	"이 몬스터의 행동 패턴을
+파악했어![Next]잠깐 들어 볼래!?
+예   아니요"	0.714	0.783
+BMsg__b_sys__p6	BMsg/b_sys#662	MES_KGarakuta_02_mes_04	"{1:align}マリオとルイージが{2:color}コウラを
+{3:color}{4:color}{5:color}交互にけっとばすアタック{6:color}ね！{7:wait}[Next]{8:align}マリオとルイージが{9:color}{10:icon}{11:color}{12:color}{13:icon}{14:color}{15:icon}{16:color}{17:icon}{18:color}と
+リズムよく押すのがコツよ！{19:wait}[Next]{20:align}わかんなくなったら {21:color}ガイドに
+おてほんとれんしゅうがある{22:color}わ！{23:wait}{24:color}"	"{1:align}마리오와 루이지가 {2:color}등껍질을
+{3:color}{4:color}{5:color}교대로 차서 공격하는 어택{6:color}이야!{7:wait}[Next]{8:align}마리오와 루이지가 {9:color}{10:icon}{11:color}{12:color}{13:icon}{14:color}{15:icon}{16:color}{17:icon}{18:color} 이렇게
+리듬감 있게 누르는 게 요령이야!{19:wait}[Next]{20:align}모르겠으면 {21:color}가이드에
+시범과 연습이 있어{22:color}!{23:wait}{24:color}"	DS BAI__BMes_cf#4.5의 '교대로 차서', 'ABAB 이렇게 리듬감 있게 누르는'을 살림	[]	DS:BAI__BMes_cf#4.5	"지금 사용 가능한 건
+초록등껍질이야.[Next]이건 마리오와 루이지가
+등껍질을 교대로 계속
+차서 공격하는 기술이야![Next]마리오는 Ⓐ) 버튼,
+루이지는 Ⓑ) 버튼으로
+등껍질을 차야 돼.[Next]Ⓐ)Ⓑ)Ⓐ)Ⓑ) 이렇게
+리듬감 있게 누르는 게 중요해!"	0.571	0.553
+BMsg__b_sys__p6	BMsg/b_sys#663	MES_Mushiba_05_mes_04	"{1:align}ネクスト 後ろからきます！
+引き付けて しゃがみましょう！{2:wait}"	"{1:align}넥스트! 뒤에서 옵니다!
+되도록 많이 다가왔을 때 웅크리세요!{2:wait}"	DS BAI__BMes_cf#8.5 문장을 3DX(웅크리세요)에 맞춤	[]	DS:BAI__BMes_cf#8.5	"아직 우리 블도그는
+포기하지 않았습니다![Next]넥스트! 뒤에서 옵니다!
+되도록 많이 다가왔을 때
+웅크리지 않으면 덴저러스예요!"	0.913	0.63
+BMsg__b_sys__p6	BMsg/b_sys#664	MES_SPeach_12_kuribo_mes_01	"{1:align}クッパ様！{2:pause} この攻撃は
+なにか 危険な感じがしますよ！{3:wait}[Next]{4:align}クッパ様を 危険な目に
+あわせるわけにはいきません！{5:wait}[Next]クリボー軍団に
+おまかせください！{6:wait}[Next]{7:align}我々を ぶつけてくれれば
+アイツを絶対に止めてみせます！！{8:wait}[Next]{9:align}クッパ様の ためなら そのくらい
+なんてことないですよ！{10:wait}[Next]えんりょせず 飛ばしてください！{11:wait}"	"{1:align}쿠파님!{2:pause} 이 공격은
+왠지 위험한 냄새가 납니다!{3:wait}[Next]{4:align}쿠파님을 위험에
+처하게 할 순 없습니다!{5:wait}[Next]굼바 군단에
+맡겨 주십시오!{6:wait}[Next]{7:align}저희를 저 녀석에게 부딪치게 해 주시면
+반드시 막아 내겠습니다!!{8:wait}[Next]{9:align}쿠파님을 위해서라면 이 정도쯤
+아무것도 아닙니다!{10:wait}[Next]사양하지 말고 날려 주십시오!{11:wait}"	DS BAI__BMes_cf#10.0을 3DX 6쪽에 나눠 씀. 4쪽은 3DX가 내용을 바꿔 새로 씀(1인칭 저희)	[]	DS:BAI__BMes_cf#10.0	"쿠파님! 이 공격은
+왠지 위험한 냄새가 납니다![Next]쿠파님을 위험에
+처하게 할 순 없습니다!
+굼바 군단에 맡겨 주십시오![Next]우리를 위로 높이 날려
+저 녀석 머리 위로 떨어지게 하면
+반드시 막을 수 있을 겁니다!![Next]쿠파님을 위해서라면
+이 정도쯤 아무것도 아닙니다!
+사양하지 말고 날려 주십시오!"	0.795	0.837
+BMsg__b_sys__p6	BMsg/b_sys#665	MES_ji_ComMes_mes_00	{1:mode}{2:color}ブロキャット{3:color}を手に入れた！{4:pause}	{1:mode}{2:color}블캐츠{3:color}를 획득했다!{4:pause}	DS BAI__BMes_ji#1.0 그대로	[]	DS:BAI__BMes_ji#1.0	블캐츠를 획득했다!	1.0	1.0
+BMsg__b_sys__p6	BMsg/b_sys#676	KJGuide_BB05_4	"{1:color}DEFは防御力{2:color}。
+数字が大きいほど
+受けるダメージが小さくなります。"	"{1:color}DEF는 방어력{2:color}.
+숫자가 클수록
+타격을 적게 입어요."		[]	DS:BData__mfset_RankUpE#20	"방어력입니다.
+숫자가 클수록
+타격을 적게 입습니다."	0.65	0.714
+BMsg__b_sys__p7	BMsg/b_sys#682	MES_KGarakuta_02_mes_05	{1:align}さっそくやってみましょう！！{2:wait}	{1:align}그럼 한번 해 볼까!?{2:wait}		[]	DS:BAI__BMes_cf#4.7	그럼 한번 해 볼까!?	1.0	1.0
+BMsg__b_sys__p7	BMsg/b_sys#698	MES_KGarakuta_02_mes_06	"{1:align}{2:color}ブラザーアタックを使うと
+BPを消費{3:color}するの{4:color}。{5:wait}[Next]{6:align}{7:color}BPが足りないと使えない{8:color}から
+気をつけてね！{9:wait}{10:color}"	"{1:align}{2:color}스페셜 어택을 사용하면
+SP가 줄어드는{3:color} 거야{4:color}.{5:wait}[Next]{6:align}{7:color}SP가 부족하면 사용할 수 없으니까{8:color}
+조심해야 돼!{9:wait}{10:color}"		[]	DS:BAI__BMes_cf#4.13	"등껍질 옆에 있는
+숫자가 몇쯤 줄어들게 돼.
+이 숫자는 SP라고 하는 건데…[Next]이 SP가 부족하면
+스페셜 어택을
+사용할 수 없으니까 조심해야 돼!"	0.735	0.505
+BMsg__b_sys__p7	BMsg/b_sys#699	MES_Mushiba_04_mes_07	"{1:align}このようにバキュームすれば…{2:wait}[Next]モンスターや アイテムを
+吸い込めることがあるのです！{3:wait}"	"{1:align}지금처럼 배큐엄하시면…{2:wait}[Next]몬스터나 아이템을
+빨아들이는 경우가 있습니다!{3:wait}"		[]	DS:BAI__BMes_cf#7.7	"에헴…
+잊을 뻔했습니다.[Next]지금처럼 하시면
+몬스터나 아이템을
+빨아들이는 경우가 있습니다.[Next]하늘에 떠 있는 위 화면의
+몬스터도 빨아들이기 파워로
+아래 화면으로 컴온~!![Next]또 쉽게 빨아들이지 못하는
+몬스터도 버튼을 많이 연타
+하면 빨아들일 수 있지요![Next]이렇게 빨아들이면
+베리 하드한 배틀이
+이지해질지도… 모르죠![Next]배틀 중에는 항상
+배큐엄블록을
+룩! 룩하세요![Next]그리고 또 하나…"	0.931	0.305
+BMsg__b_sys__p7	BMsg/b_sys#700	MES_Mushiba_05_mes_06	{1:align}ヘイ！ ちょっとストップ！{2:wait}	{1:align}헤이! 잠깐 스톱!{2:wait}		[]	DS:BAI__BMes_cf#8.7	헤이! 잠깐 스톱!	1.0	1.0
+BMsg__b_sys__p7	BMsg/b_sys#721	MES_Mushiba_05_mes_07	"{1:align}ムッシュ～ さっきパンチ
+しましたよね？{2:wait}[Next]{3:align}ノンノン！ {4:wait}[Next]ブロドッグちゃんに
+パンチはノーよ！{5:wait}[Next]{6:align}ブロドッグちゃんは
+おアツいのが苦手！{7:wait}[Next]{8:color}ファイア{9:color}こそが
+ベストチョイスよ！{10:wait}[Next]{11:align}ミーが教えるスペシャルな
+{12:color}ファイア{13:color}の出し方…{14:wait}[Next]聞きたくありませんか？{15:pause}
+{16:align}{17:choice}必要ない{18:tab}{19:choice}ああ頼む{20:pause}"	"{1:align}신사~ 방금 펀치를
+날리셨죠?{2:wait}[Next]{3:align}노노!{4:wait}[Next]우리 블도그에게
+펀치는 낫 굿 초이스!{5:wait}[Next]{6:align}우리 블도그는
+뜨거운 게 질색이에요.{7:wait}[Next]{8:color}파이어{9:color}로 어택하는 게
+베스트 초이스죠!{10:wait}[Next]{11:align}미가 가르쳐 드리는 스페셜한
+{12:color}파이어{13:color} 쓰는 법…{14:wait}[Next]듣고 싶지 않으세요?{15:pause}
+{16:align}{17:choice}필요 없다{18:tab}{19:choice}부탁한다{20:pause}"		[]	DS:BAI__BMes_cf#8.8	"당신, 혹시 지금
+펀치를 날리려고 씽킹했죠?[Next]노노! 말했잖아요.[Next]우리 블도그에게
+펀치는 낫 굿 초이스![Next]우리 블도그는
+뜨거운 게 질색이에요.[Next]파이어로 어택하는 게
+베스트 초이스죠![Next]신사는 파이어가
+특기일 테지만…[Next]혹시 모르니 설명해 볼까요?
+설명해라   필요 없다"	0.59	0.677
+BMsg__b_sys__p7	BMsg/b_sys#731	MES_KGarakuta_02_mes_08	"{1:align}さっき集めた アタックパーツで
+{2:color}ブラザーアタック{3:color}{4:color}が使えるわ！{5:wait}{6:color}"	"{1:align}조금 전 모은 어택피스로
+{2:color}스페셜 어택{3:color}{4:color}을 구사할 수 있게 됐어!{5:wait}{6:color}"		[]	DS:BAI__BMes_cf#4.1	"조금 전 모은 어택피스로
+스페셜 어택을
+구사할 수 있게 됐어![Next]스페셜 어택의 사용 방법을
+설명해 줄까?
+예   아니요"	1.0	0.706
+BMsg__b_sys__p7	BMsg/b_sys#732	MES_Mushiba_04_mes_09	"{1:align}このように空飛ぶモンスターも
+{2:color}バキュームパワーで下画面へカモ～ン{3:color}！{4:wait}[Next]{5:align}しぶといモンスターも ボタンを
+メニープッシュで吸い込めます！{6:wait}[Next]{7:align}このパワーを使いこなせば…{8:wait}[Next]ストロングモンスターとのバトルも
+イージーになる…かも。{9:wait}[Next]{10:align}だからバトル中は
+バキュームブロックをルック！{11:wait}[Next]{12:align}さて…このまま続けていきますよ！{13:wait}"	"{1:align}이렇게 하늘을 나는 몬스터도
+{2:color}빨아들이기 파워로 아래 화면으로 컴온~{3:color}!!{4:wait}[Next]{5:align}끈질긴 몬스터도 버튼을
+매니 푸시하면 빨아들일 수 있지요!{6:wait}[Next]{7:align}이 파워를 마스터하면…{8:wait}[Next]스트롱한 몬스터와의 배틀도
+이지해질지도… 모르죠.{9:wait}[Next]{10:align}그러니 배틀 중에는
+배큐엄블록을 룩! 룩하세요!{11:wait}[Next]{12:align}자… 이대로 계속 진행하겠습니다!{13:wait}"		[]	DS:BAI__BMes_cf#7.7	"에헴…
+잊을 뻔했습니다.[Next]지금처럼 하시면
+몬스터나 아이템을
+빨아들이는 경우가 있습니다.[Next]하늘에 떠 있는 위 화면의
+몬스터도 빨아들이기 파워로
+아래 화면으로 컴온~!![Next]또 쉽게 빨아들이지 못하는
+몬스터도 버튼을 많이 연타
+하면 빨아들일 수 있지요![Next]이렇게 빨아들이면
+베리 하드한 배틀이
+이지해질지도… 모르죠![Next]배틀 중에는 항상
+배큐엄블록을
+룩! 룩하세요![Next]그리고 또 하나…"	0.569	0.552
+BMsg__b_sys__p7	BMsg/b_sys#746	MES_KGarakuta_02_mes_09	"{1:color}{2:align}{3:color}{4:color}ブラザーアタック{5:color}{6:color}の説明 する？{7:pause}
+{8:align}{9:choice}いいえ{10:tab}{11:choice}はい{12:color}{13:pause}"	"{1:color}{2:align}{3:color}{4:color}스페셜 어택{5:color}{6:color}의 사용 방법을 설명해 줄까?{7:pause}
+{8:align}{9:choice}아니요{10:tab}{11:choice}예{12:color}{13:pause}"	review: 2026-10-06 DS 동일 의미 복원. ブラザーアタックの説明 する？는 DS BAI__BMes_cf#4.1의 '스페셜 어택의 사용 방법을 설명해 줄까?' 그대로. 태그 및 아니요/예 선택지 순서는 3DX를 유지.	[]	DS:BAI__BMes_cf#4.1	"조금 전 모은 어택피스로
+스페셜 어택을
+구사할 수 있게 됐어![Next]스페셜 어택의 사용 방법을
+설명해 줄까?
+예   아니요"	0.895	0.594
+BMsg__b_sys__p8	BMsg/b_sys#869	MES_Mushiba_05_mes_02_yes	"{1:align}では ブロドッグちゃんの
+動きを よ～く ルッキンッ！{2:wait}"	"{1:align}그럼 우리 블도그의 움직임을
+자~알 관찰해 주십시오!{2:wait}"	review: 2026-10-06 DS 동일 의미 복원. ブロドッグちゃんの動きをよ～くルッキンッ는 DS BAI__BMes_cf#8.3의 '그럼 우리 블도그의 움직임을 자~알 관찰해 주십시오!' 그대로 쓰고 줄바꿈만 3DX 2줄에 맞춤. 신사의 영어 혼용도 같은 뜻의 DS 대사가 있으면 DS 표기를 우선.	[]	DS:BAI__BMes_cf#8.3	"그럼 우리 블도그의
+움직임을 자~알
+관찰해 주십시오!"	1.0	1.0
+BMsg__b_sys__p8	BMsg/b_sys#908	MES_OP_SPeach_00_mes_14	{1:align}言い忘れておりました！{2:wait}	{1:align}잊고 있었습니다!{2:wait}	DS BAI__BMes_cf#9.16 '잊고 있었습니다!' 재사용.	[]	DS:BAI__BMes_cf#9.16	"잊고 있었습니다!
+쿠파의 공격은
+피할 수 있어요![Next]공격을 피하는 방법에 대해
+설명해 드릴까요?
+예   아니요"	1.0	0.292
+BMsg__b_sys__p8	BMsg/b_sys#909	MES_ji_scn15_mes_1	"どうした？
+顔色が わるいぞ！{1:wait}[Next]…どうやら この勝負
+ワガハイの勝ちのようだな！{2:wait}"	"어떠냐?
+얼굴색이 안 좋군!{1:wait}[Next]…아무래도 이 승부는
+이 몸이 이긴 것 같다!{2:wait}"	DS BAI__BMes_ji#4.1 그대로.	[]	DS:BAI__BMes_ji#4.1	"어떠냐?
+얼굴색이 안 좋군![Next]…아무래도 이 승부는
+이 몸이 이긴 것 같다!"	1.0	1.0
+BMsg__b_sys__p9	BMsg/b_sys#917	Target_ML	マリオ&ルイージ	마리오&루이지		[]	DS:BAI__BMes_cf#4.0	마리오! 루이지!	0.667	0.923
+BMsg__b_sys__p9	BMsg/b_sys#937	MES_OP_SPeach_00_mes_15	"{1:align}攻撃のしかたを
+ご説明しましょうかの？{2:pause}
+{3:align}{4:choice}いいえ{5:tab}{6:choice}はい{7:pause}"	"{1:align}공격 방법에 대해
+설명해 드릴까요?{2:pause}
+{3:align}{4:choice}아니요{5:tab}{6:choice}예{7:pause}"	DS BAI__BMes_cf#9.1 재사용(선택지 순서는 3DX).	[]	DS:BAI__BMes_cf#9.24	"다시 한번 공격 방법에 대해
+설명해 드릴까요?
+예   아니요"	0.941	0.85
+BMsg__b_sys__p9	BMsg/b_sys#938	MES_ji_scn15_mes_2	"さいごは {1:color}ひっさつパンチ{2:color}{3:color}で
+トドメを さしてやる！{4:wait}{5:color}"	"마지막은 {1:color}필살 펀치{2:color}{3:color}로
+끝장을 내 주마!{4:wait}{5:color}"	DS BAI__BMes_ji#4.2 그대로.	[]	DS:BAI__BMes_ji#4.2	"마지막은 필살 펀치로
+끝장을 내 주마!"	1.0	1.0
+BMsg__b_sys__p9	BMsg/b_sys#949	Kj_Btl_koopa_8_06	{1:mode}LPが全回復！	{1:mode}LP가 완전 회복!		[]	DS:BAI__BMes_cf#7.9	"그것은 재도전시계라고 하는
+언빌리버블한 놀라운
+아이템입니다!![Next]그 재도전시계를 갖고 있으면
+배틀에서 HP가 0이 되었을 때…[Next]배틀 처음으로 시간이 백!!
+즉, 배틀을[Next]처음부터 다시~~!![Next]…할 수 있는 겁니다.
+물론 아이템도 모두
+배틀 전으로 돌아갑니다.[Next]또한 HP와 SP가
+완전 회복되기 때문에
+안심하고 배틀할 수 있습니다.[Next]단! 재도전시계는
+개수에 제한이 있기 때문에
+마구잡이로 쓰시면 노노노![Next]잘 생각해서 사용하세요, 플리즈!
+이번엔 그것까지 사례로써
+신사에게 드립니다.[Next]자… 당신의
+블록 혼도 머지않아
+퍼펙트가 될 것입니다![Next]그럼 계속 해 볼까요!?"	0.833	0.054
+BMsg__b_sys__p9	BMsg/b_sys#961	Retry_title	バトルをやりなおしますか？	배틀을 다시 시작할까요?		[]	DS:BData__mfset_Help#26	"재도전시계를 사용해서
+이 배틀을 처음부터
+다시 시작할까요?"	0.889	0.571
+BMsg__b_sys__p10	BMsg/b_sys#1045	MES_KGarakuta_08_mes_03_yes1	"{1:align}{2:color}それじゃ まずは
+{3:color}ハンマー{4:color}を選ぶのよ！{5:wait}{6:color}"	"{1:align}{2:color}그럼 우선
+{3:color}해머{4:color}를 선택해 봐!{5:wait}{6:color}"		[]	DS:BAI__BMes_cf#5.7	"그럼 우선
+해머를 선택해 봐!"	1.0	1.0
+BMsg__b_sys__p10	BMsg/b_sys#1074	MES_KGarakuta_08_mes_03_yes3	{1:align}上手よ！ その調子！{2:color}{3:wait}{4:color}	{1:align}잘했어! 바로 그거야!{2:color}{3:wait}{4:color}		[]	DS:BAI__BMes_cf#2.8	"잘했어! 바로 이거야!
+몸으로 밀고 들어오는 상대에겐
+반격을 가할 수 있어![Next]적의 움직임을 잘 보고
+반격의 기회를
+잘 잡아 봐!"	0.714	0.25
+BMsg__b_sys__p10	BMsg/b_sys#1111	BtlGuide_14	ブラザーアタックでの攻撃	스페셜 어택으로 공격		['Menu#529']	DS:BAI__BMes_cf#0.5	"아시다시피 저희들의
+스페셜 어택은
+터치펜으로 조작합니다."	0.625	0.412
+BMsg__b_sys__p10	BMsg/b_sys#1128	SpAtk_00_0	"マリオが {1:color}{2:icon}{3:color}ボタン ルイージが {4:color}{5:icon}{6:color}ボタンで
+みどりコウラを 交互に キックします。"	"마리오는 {1:color}{2:icon}{3:color} 버튼, 루이지는 {4:color}{5:icon}{6:color} 버튼으로
+초록등껍질을 번갈아 차요."	キック은 DS 스페셜 어택 설명(BAI__BMes_cf#4.5 '등껍질을 교대로 계속 차서')대로 '차다'(글로서리 경고는 의도).	['Menu#538']	DS:BAI__BMes_cf#4.5	"지금 사용 가능한 건
+초록등껍질이야.[Next]이건 마리오와 루이지가
+등껍질을 교대로 계속
+차서 공격하는 기술이야![Next]마리오는 Ⓐ) 버튼,
+루이지는 Ⓑ) 버튼으로
+등껍질을 차야 돼.[Next]Ⓐ)Ⓑ)Ⓐ)Ⓑ) 이렇게
+리듬감 있게 누르는 게 중요해!"	0.682	0.36
+BMsg__b_sys__p11	BMsg/b_sys#1148	MES_Gepu_00_mes_01	"{1:align}{2:align}メタボス！{3:wait}[Next]{4:align}{5:align}こいつの {6:color}パンチ{7:color}{8:color}には
+気をつけるるよ！{9:wait}{10:color}"	"{1:align}{2:align}메타보스!{3:wait}[Next]{4:align}{5:align}이 녀석의 {6:color}펀치{7:color}{8:color}를
+조심해야 하지롱롱!{9:wait}{10:color}"		[]	DS:BAI__BMes_cf#1.1	"메타보스![Next]이 녀석의 펀치를
+조심해야 하지롱롱!"	1.0	1.0
+BMsg__b_sys__p11	BMsg/b_sys#1168	Kj_Btl_slc_mamoru_06	でも さいごに…！	그래도 마지막으로…!		[]	DS:BAI__BMes_cf#2.9	"마지막으로 이 하트 마크
+옆에 있는 숫자에 대해
+설명해 줄게."	0.571	0.312
+BMsg__b_sys__p11	BMsg/b_sys#1191	MES_Gepu_00_mes_03	"{1:align}やつのパンチは{2:color}ためる時間が
+長いほど{3:color}{4:color}{5:color}ダメージもでかい{6:color}るるよ！{7:wait}[Next]{8:align}ギリギリまで ためたパンチ
+なんて 食らったら…{9:wait}{10:color}"	"{1:align}녀석의 펀치는 {2:color}힘을 모으는 시간이
+길수록{3:color}{4:color} {5:color}큰 타격{6:color}이지롱롱!{7:wait}[Next]{8:align}힘을 끝까지 모은 펀치를
+맞기라도 하면…{9:wait}{10:color}"	DS BAI__BMes_cf#1.3을 바탕으로 3DX 원문(ダメージもでかい)에 맞춤. 색 경계에서 용언을 쪼개지 않으려고 '큰 타격이지롱롱'으로 씀.	[]	DS:BAI__BMes_cf#1.3	"녀석의 펀치는
+힘을 모으는 시간이 길수록
+세지롱롱![Next]힘을 끝까지 모은 펀치를
+맞기라도 하면…"	0.865	0.935
+BMsg__b_sys__p11	BMsg/b_sys#1192	MES_RankUpE_State_DEF	"{1:align}{2:align}{3:mode}{4:color}DEF {5:color}は 防御力。
+数字が大きいほど 受けるダメージが
+小さくなります。"	"{1:align}{2:align}{3:mode}{4:color}DEF{5:color}는 방어력.
+숫자가 클수록 타격을 적게 입습니다."	DS BData__mfset_RankUpE#20과 같은 계열(p1/p5의 MES_RankUpE_State_*)에 맞춰 합니다체.	[]	DS:BData__mfset_RankUpE#20	"방어력입니다.
+숫자가 클수록
+타격을 적게 입습니다."	0.762	0.837
+BMsg__b_sys__p12	BMsg/b_sys#1266	MES_Gepu_00_mes_07	"{1:align}ふるる～
+やっぱりパンチは危険るる！{2:wait}"	"{1:align}롱롱~
+역시 펀치는 위험하지롱롱!{2:wait}"		[]	DS:BAI__BMes_cf#1.13	"롱롱롱… 역시
+펀치는 위험하지롱롱…[Next]쿠파! 이 정도까지
+하다니 뜻밖이지롱롱."	1.0	0.605
+BMsg__b_sys__p12	BMsg/b_sys#1279	Kj_Btl_koopa_e_3_05	な{1:pause} なんだアイツ。{2:wait}	뭐,{1:pause} 뭐야 저 녀석.{2:wait}		[]	DS:BAI__BMes_ji#3.11	"역시 형이야! 저 녀석
+억울해하는 얼굴이
+벌써 보이는 것 같아!"	0.6	0.267
+BMsg__b_sys__p12	BMsg/b_sys#1300	MES_Gepu_00_mes_09	"{1:align}メタボス！ あいつのカウンター
+には気をつけるるるよ！{2:wait}"	"{1:align}메타보스! 저 녀석의 반격은
+조심해야 하지롱롱롱!{2:wait}"		[]	DS:BAI__BMes_cf#1.10	"하지만 저 녀석의 반격은
+조심해야 하지롱롱롱!"	0.778	0.821
+BMsg__b_sys__p12	BMsg/b_sys#1320	Hint_Gmonster_0	ガラクタモンスターの倒し方	잡동스터 쓰러뜨리는 법		[]	DS:BAI__BMes_cf#4.15	"이번에는 HP나 SP가 줄었을 때
+회복시켜 줄 테니까 안심해![Next]이제 남은 건 마음껏 싸우고
+몬스터를 쓰러뜨리는 일이야!!"	0.556	0.241
+BMsg__b_sys__p12	BMsg/b_sys#1366	MES_KGarakuta_08_mes_02	"{1:align}さっき手に入れた{2:color}ハンマー{3:color}が
+使えそう{4:color}。{5:wait}[Next]使いかたを 説明しておく？{6:pause}
+{7:align}{8:choice}いいえ{9:tab}{10:choice}はい{11:color}{12:pause}"	"{1:align}조금 전에 획득한 {2:color}해머{3:color}를
+쓰면 될 것 같아{4:color}.{5:wait}[Next]사용 방법을 설명해 줄까?{6:pause}
+{7:align}{8:choice}아니요{9:tab}{10:choice}예{11:color}{12:pause}"	DS BAI__BMes_cf#5.2를 바탕으로 3DX 원문에 맞춤. 선택지 순서는 원문대로 아니요/예.	[]	DS:BAI__BMes_cf#5.2	"그 대신 조금 전에 획득한
+해머를 쓰는 게 어때?[Next]사용 방법을 설명해 줄까?
+예   아니요"	0.724	0.774
+BMsg__b_sys__p13	BMsg/b_sys#1399	SpAtk_12	ボコスカノコノコ	엉금엉금부대		['Item#192', 'Menu#642']	DS:BData__mfset_AItmN#10	엉금엉금부대	1.0	1.0
+BMsg__b_sys__p13	BMsg/b_sys#1431	MES_KGarakuta_08_mes_05	"{1:align}ハンマーはパワーをためすぎても{2:color}
+失敗しちゃうからほどほどにね。{3:wait}{4:color}"	"{1:align}해머는 파워를 너무 많이 모아도{2:color}
+실패하니까 적당히 조절해.{3:wait}{4:color}"		[]	DS:BAI__BMes_cf#5.9	"지금처럼 해머 공격은
+파워를 모으는 게 중요해.[Next]하지만 너무 많이 모으면
+실패하니까 적당히 조절해.[Next]그리고 마리오가 Ⓐ) 버튼
+루이지가 Ⓑ) 버튼을 사용하는 건
+지금까지랑 똑같아."	0.739	0.442
+BMsg__b_sys__p13	BMsg/b_sys#1461	Kj_Btl_param_change_03	{1:mode}味方のPOWダウン！	{1:mode}아군의 POW 다운!		[]	DS:BData__mfset_AItmE2#16	"공격 대상: 전부(랜덤)
+효과: POW 다운"	0.571	0.4
+BMsg__b_sys__p13	BMsg/b_sys#1462	Kj_Btl_slc_koushou_14	{1:mode}よく考えるんだ。	{1:mode}잘 생각해 보게.		[]	DS:BAI__BMes_cf#7.9	"그것은 재도전시계라고 하는
+언빌리버블한 놀라운
+아이템입니다!![Next]그 재도전시계를 갖고 있으면
+배틀에서 HP가 0이 되었을 때…[Next]배틀 처음으로 시간이 백!!
+즉, 배틀을[Next]처음부터 다시~~!![Next]…할 수 있는 겁니다.
+물론 아이템도 모두
+배틀 전으로 돌아갑니다.[Next]또한 HP와 SP가
+완전 회복되기 때문에
+안심하고 배틀할 수 있습니다.[Next]단! 재도전시계는
+개수에 제한이 있기 때문에
+마구잡이로 쓰시면 노노노![Next]잘 생각해서 사용하세요, 플리즈!
+이번엔 그것까지 사례로써
+신사에게 드립니다.[Next]자… 당신의
+블록 혼도 머지않아
+퍼펙트가 될 것입니다![Next]그럼 계속 해 볼까요!?"	0.6	0.045
+BMsg__b_sys__p13	BMsg/b_sys#1478	Kj_Btl_param_change_04	{1:mode}敵のPOWダウン！	{1:mode}적의 POW 다운!		[]	DS:BData__mfset_AItmE2#16	"공격 대상: 전부(랜덤)
+효과: POW 다운"	0.667	0.417
+BMsg__b_sys__p14	BMsg/b_sys#1500	MES_KGarakuta_08_mes_09	"{1:align}{2:color}ハンマー{3:color}{4:color}で 防御する
+必要があるわね。{5:wait}[Next]{6:align}説明しておいた方がいい？{7:pause}
+{8:align}{9:choice}いいえ{10:tab}{11:choice}はい{12:color}{13:pause}"	"{1:align}{2:color}해머{3:color}{4:color}로 방어해야
+할 것 같은데…{5:wait}[Next]{6:align}설명해 줄까?{7:pause}
+{8:align}{9:choice}아니요{10:tab}{11:choice}예{12:color}{13:pause}"	DS BAI__BMes_cf#5.12(해머로 방어해야 할 것 같은데…/설명해 줄까?) 그대로. 선택지 순서는 원문대로 아니요→예	[]	DS:BAI__BMes_cf#5.12	"이 몬스터의 가시 공격은
+지금까지처럼 점프로
+피할 수 없을 것 같아.[Next]해머로 방어해야
+할 것 같은데…[Next]설명해 줄까?
+예   아니요"	0.9	0.58
+BMsg__b_sys__p14	BMsg/b_sys#1532	Kj_Btl_param_change_07	{1:mode}味方のDEFダウン！	{1:mode}아군의 DEF 다운!		[]	DS:BData__mfset_AItmE2#24	"공격 대상: 하나
+효과: DEF 다운"	0.571	0.435
+BMsg__b_sys__p14	BMsg/b_sys#1554	Kj_Btl_param_change_08	{1:mode}敵のDEFダウン！	{1:mode}적의 DEF 다운!		[]	DS:BData__mfset_AItmE2#24	"공격 대상: 하나
+효과: DEF 다운"	0.667	0.455
+BMsg__b_sys__p15	BMsg/b_sys#1645	MES_KGarakuta_01_mes_10	"{1:align}このモンスターは {2:color}右足をあげたら
+マリオに攻撃{3:color}するようね。{4:wait}"	"{1:align}이 몬스터는 {2:color}오른발을 들면
+마리오를 공격하나 봐{3:color}.{4:wait}"	색은 동사 끝까지 감싸 '공격하나 봐' 전체를 강조(원문은 攻撃까지). DS BAI__BMes_cf#3.12 내용을 3DX 문장 구조로	[]	DS:BAI__BMes_cf#3.12	"이 몬스터는 공격하기 직전에
+다리를 들어 올려.[Next]마리오를 공격할 때는 오른쪽,
+루이지 때는
+왼쪽 다리를 들어 올리더라고!"	0.632	0.353
+BMsg__b_sys__p15	BMsg/b_sys#1648	MES_ji_scn_koopa2_koopa_shibutoi	"しぶといやつらめ！{1:pause}
+燃えカスに してくれるわ！{2:wait}"	"끈질긴 녀석들!{1:pause}
+잿더미로 만들어 줄 테다!{2:wait}"	DS BAI__BMes_ji#5.2 그대로	[]	DS:BAI__BMes_ji#5.2	"끈질긴 녀석들!
+잿더미로 만들어 줄 테다!"	1.0	1.0
+BMsg__b_sys__p15	BMsg/b_sys#1667	MES_Mushiba_04_mes_11	{1:align}スト～ップ！ もうOKです！{2:wait}	{1:align}스토~옵! 이제 OK입니다!{2:wait}		[]	DS:BAI__BMes_cf#7.12	스토~옵! 이제 OK입니다!	1.0	1.0
+BMsg__b_sys__p15	BMsg/b_sys#1709	MES_KMetaboru_06_mes_04	"{1:align}ふむ。{2:pause}
+ではまず特別サービスするぞよ！{3:wait}"	"{1:align}흠.{2:pause}
+그럼 먼저 특별 서비스를 하노라!{3:wait}"		[]	DS:BAI__BMes_cf#6.2	"흐음…
+자세가 마음에 드는구나.[Next]형제를 사랑하는 정직한 자에게
+특별 서비스를 하노라!"	0.615	0.375
+BMsg__b_sys__p15	BMsg/b_sys#1710	MES_Mushiba_04_mes_13	"{1:align}レッツビギン！
+イッツ ショータイム！{2:wait}"	"{1:align}렛츠 비긴!
+잇츠 쇼 타임!{2:wait}"		[]	DS:BAI__BMes_cf#7.0	"자! 렛츠 비긴!
+잇츠 쇼 타임![Next]그 배큐엄블록을 사용하면
+몸이 스몰한 몬스터를
+빨아들일 수가 있습니다![Next]빨아들일 것이 있을 때는
+배큐엄블록이
+격렬하게 반응합니다![Next]지금 바로 배큐엄을
+초이스해 주세요, 플리즈!"	1.0	0.196
+BMsg__b_sys__p15	BMsg/b_sys#1712	MES_ji_ColosseumMes_system_mes_00	"{1:align}{2:mode}のこりターンが {3:color}０{4:color}になったので
+バトル終了です{5:pause}{6:wait}"	"{1:align}{2:mode}남은 턴이 {3:color}0{4:color}이 되어
+배틀을 마칩니다.{5:pause}{6:wait}"	DS BAI__BMes_ji#0.0 그대로	[]	DS:BAI__BMes_ji#0.0	"남은 턴이 0이 되어
+배틀을 마칩니다."	1.0	1.0
+BMsg__b_sys__p15	BMsg/b_sys#1729	MES_Mushiba_05_mes_13	"{1:align}ブロドッグちゃんのプリティな
+おシリが まる見えね！{2:wait}[Next]{3:align}ナウ ムッシュ～のパンチを
+おみまいしましょう！！{4:wait}"	"{1:align}우리 블도그의 프리티한
+엉덩이가 마구 보이네요!{2:wait}[Next]{3:align}나우! 신사~의 펀치를
+먹여 주세요!!{4:wait}"	DS BAI__BMes_cf#8.13 앞부분 + 3DX에서 바뀐 펀치 권유	[]	DS:BAI__BMes_cf#8.13	"원~더풀!
+뷰~티풀!
+퍼펙트 퍼포먼스입니다![Next]우리 블도그의
+프리티한 엉덩이가
+마구 보이네요![Next]이 기회에 엉덩이를 때려서
+매너를 똑바로 가르쳐야
+할 텐데요![Next]참고로 파이어는
+눈앞에 있는 모든 몬스터가
+공격 대상입니다.[Next]게다가 Ⓧ)를 길게 눌러서
+파이어를 길게 내뿜으면
+연속 대미지를 줄 수 있어서 굿![Next]몬스터가
+많을 땐 파이어!
+이게 베이직입니다!"	0.594	0.26
+BMsg__b_sys__p16	BMsg/b_sys#1770	MES_KMetaboru_06_mes_07	{1:align}精進するぞよ～{2:wait}	{1:align}정진하도록 하여라~{2:wait}		[]	DS:BAI__BMes_cf#6.5	"갑자기 모두 줘 버리는 건
+교육상 좋지 않느니라.[Next]젊어 고생은
+사서도 한다잖는가?[Next]나머지는 그대들이
+공격을 성공시켜서
+스스로 채우도록 하여라!"	0.571	0.152
+BMsg__b_sys__p16	BMsg/b_sys#1771	MES_Mushiba_04_mes_16	"{1:font}{2:align}{3:align}そう！ これこそが
+{4:color}バキュームブロック{5:color}{6:color}のパワーです！{7:wait}[Next]{8:align}ムッシュ～！ {9:color}{10:color}{11:icon}{12:color}{13:color}を連打して
+ミーを 吸い込むのです！！{14:wait}{15:color}{16:font}"	"{1:font}{2:align}{3:align}맞아요! 바로 이것이
+{4:color}배큐엄블록{5:color}{6:color}의 파워입니다!{7:wait}[Next]{8:align}신사! {9:color}{10:color}{11:icon}{12:color}{13:color} 버튼을 연타해서
+미를 빨아들여 보세요!!{14:wait}{15:color}{16:font}"	DS BAI__BMes_cf#7.2(맞아요! 바로 이것이 배큐엄블록의 파워입니다! / 신사! 버튼을 연타해서 미를 빨아들여 보세요!!) 그대로	[]	DS:BAI__BMes_cf#7.2	"어메이징!!![Next]맞아요! 바로 이것이
+배큐엄블록의 파워입니다![Next]신사! Ⓧ) 버튼을 연타해서
+미를 빨아들여 보세요!!"	0.972	0.937
+BMsg__b_sys__p16	BMsg/b_sys#1773	MES_ji_scn_koopa2_yellow_star_tsukamatte	"２人とも{1:pause} {2:color}ジャンプ{3:color}{4:color}で
+私に つかまって！{5:wait}[Next]つかまったら ボタンを
+{6:color}{7:color}押しっぱなし{8:color}{9:color}に するのよ！{10:wait}[Next]ボタンを はなしたら
+落ちちゃうから 気をつけて！ {11:wait}{12:color}"	"둘 다{1:pause} {2:color}점프{3:color}{4:color}해서
+날 붙잡아!{5:wait}[Next]붙잡은 다음에 버튼을
+{6:color}{7:color}누른 채로{8:color}{9:color} 있어야 돼!{10:wait}[Next]버튼에서 손을 떼면
+떨어져 버리니까 조심해!{11:wait}{12:color}"	DS BAI__BMes_ji#5.1 그대로(화자 옐로스타)	[]	DS:BAI__BMes_ji#5.1	"둘 다 점프해서
+날 붙잡아![Next]붙잡은 다음에 버튼을
+누른 채로 있어야 돼![Next]버튼에서 손을 떼면
+떨어져 버리니까 조심해!"	1.0	1.0
+BMsg__b_sys__p16	BMsg/b_sys#1788	MES_KMetaboru_06_mes_08	"{1:align}この{2:color}メーター{3:color}は あなた達が
+{4:color}攻撃{5:color}{6:color}{7:color}する{8:color}たびにふえるようね。{9:wait}[Next]{10:align}まずは {11:color}メーター{12:color}を
+いっぱいにしてみましょ！{13:wait}{14:color}"	"{1:align}이 {2:color}게이지{3:color}는 너희들이
+{4:color}공격{5:color}{6:color}{7:color}할{8:color} 때마다 쌓이나 봐.{9:wait}[Next]{10:align}우선 {11:color}게이지{12:color}를
+가득 채워 보자!{13:wait}{14:color}"	MES_KMetaboru_06_mes_08~09 화자 = 옐로스타(p8 mes_10~13과 같은 반말). DS BAI__BMes_cf#6.7을 3DX(攻撃するたびに)에 맞춤	[]	DS:BAI__BMes_cf#6.7	"게이지는 너희들이
+공격에 성공할 때마다
+채워질 거야.[Next]마리오! 루이지!
+우선 게이지를
+가득 채워 보자!"	0.75	0.761
+BMsg__b_sys__p16	BMsg/b_sys#1789	MES_Mushiba_04_mes_17	"{1:align}バット！ ミーはビッグムッシュ～の
+ブロックだましいを引き出し中！{2:wait}"	"{1:align}벗! 미는 몸이 커다란 신사의
+블록 혼을 끌어내는 중입니다!{2:wait}"	DS BAI__BMes_cf#7.5(몸이 커다란 신사의 블록 혼을) 기반. 引き出し中은 3DX대로 '끌어내는 중'	[]	DS:BAI__BMes_cf#7.5	"벗! 미는 몸이 커다란 신사의
+블록 혼을
+트레이닝하던 중입니다![Next]밖으로 나가 보겠습니다.
+방해하지 말아 주세요, 플리즈!!"	0.773	0.543
+BMsg__b_sys__p16	BMsg/b_sys#1809	MES_Mushiba_04_mes_18	{1:align}外にもどりますよ！ アデュー！{2:wait}	{1:align}밖으로 나가 보겠습니다! 바이바이!{2:wait}	DS BAI__BMes_cf#7.5(밖으로 나가 보겠습니다). 프랑스어 アデュー는 DS 신사 말투대로 영어 '바이바이'(DS 블록 상점 '순식간에 바이바이랍니다')	[]	DS:BAI__BMes_cf#7.5	"벗! 미는 몸이 커다란 신사의
+블록 혼을
+트레이닝하던 중입니다![Next]밖으로 나가 보겠습니다.
+방해하지 말아 주세요, 플리즈!!"	0.75	0.328
+BMsg__b_sys__p16	BMsg/b_sys#1818	MES_Mushiba_04_mes_19	{1:align}スト～ップ！ OKです！{2:wait}	{1:align}스토~옵! OK입니다!{2:wait}	p15 MES_Mushiba_04_mes_11(스토~옵! 이제 OK입니다!)에서 もう만 뺌	[]	DS:BAI__BMes_cf#7.12	스토~옵! 이제 OK입니다!	0.857	0.889

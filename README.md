@@ -10,7 +10,7 @@
   릴리스 페이지의 `ml3dx_ko_luma_20261116.zip`을 받으세요. [이전 버전](https://github.com/auseong325-design/mario-luigi-rpg-3dx-korean-patch/releases)도 릴리스에 판별로 있습니다.
 - [자세한 설치 안내](설치%20안내.md)
 - 직접 복사하기 어렵다면: [3DS 한글패치 매니저](https://github.com/auseong325-design/3ds-patch-universal-tool/releases)(통합 툴)를 실행하고 받은 ZIP을 창에 끌어다 놓은 뒤 「닌텐도 3DS」나 「PC」를 고르면 SD 카드나 Azahar 폴더에 넣어 줍니다. [자세히](설치%20안내.md#8-프로그램으로-설치하기-선택)
-- HOME 메뉴의 배너와 게임 이름까지 한글로 바꾸고 싶다면: [통합판 패키지 (2026-11-20, 사전 공개)](https://github.com/auseong325-design/mario-luigi-rpg-3dx-korean-patch/releases/tag/v2026.11.20-merged)를 통합 툴에 넣어 3DS용 CIA를 만들 수 있습니다. 공식 업데이트를 지우고 설치하는 방식이며, 3DS 설치는 아직 확인하지 못했습니다.
+- HOME 메뉴의 배너와 게임 이름까지 한글로 바꾸고 싶다면: [통합판 패키지 (2026-11-20)](https://github.com/auseong325-design/mario-luigi-rpg-3dx-korean-patch/releases/tag/v2026.11.20-merged)를 [통합 툴](https://github.com/auseong325-design/3ds-patch-universal-tool/releases) v0.3.2 이상에 넣어 3DS용 CIA를 만들 수 있습니다. 공식 업데이트를 지우고 설치하는 방식이며, 3DS 본체에서 설치·실행을 확인했습니다.
 
 **일본판 게임과 공식 Ver. 1.2 업데이트가 필요합니다.** 게임 본편, 업데이트, 설치툴은 ZIP에 들어 있지 않습니다. 파일은 Luma3DS용 SD 카드 경로로 구성되어 있으며 Azahar에도 수동 설치할 수 있습니다.
 
@@ -31,7 +31,7 @@
 ## 알려진 사항
 
 - 일본판 Ver. 1.2 전용이며 북미판·유럽판에는 적용할 수 없습니다.
-- 이 저장소의 LayeredFS ZIP은 3DS HOME 메뉴의 게임 이름과 배너를 변경하지 않습니다. [통합 툴](https://github.com/auseong325-design/3ds-patch-universal-tool/releases) v0.3.1부터는 한글 배너와 한국어 본체용 한글 게임 이름을 넣은 통합판(CIA)을 만들 수 있지만, 이 저장소에는 통합용 패키지와 배너 파일이 포함되어 있지 않습니다. 통합 CIA는 실제 게임으로 만들어 내용을 확인했으나 3DS에 설치해 실행해 보지는 못했습니다.
+- 이 저장소의 LayeredFS ZIP은 3DS HOME 메뉴의 게임 이름과 배너를 변경하지 않습니다. 한글 배너와 한국어 본체용 한글 게임 이름은 위의 통합판(CIA)으로만 바뀝니다.
 - 게임 화면의 일부 임시 아이콘 6종은 원본 상태로 유지했습니다. 장면별 표시와 최신 60fps 수정의 실기 동작은 추가 확인이 필요합니다.
 - 2026-10-31에 번역 자동 검토와 일부 장면의 Azahar 실행을 확인했고, 2026-11-16에 배포 전 최종 확인(DS 번역 대조·글자 폭)을 다시 했습니다. 모든 장면의 정상 작동을 보장하지 않습니다.
 

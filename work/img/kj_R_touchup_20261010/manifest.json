@@ -1,0 +1,145 @@
+{
+  "date": "2026-10-10",
+  "status": "second R stem/bottom touch-up installed and runtime verified",
+  "standalone_R_check": {
+    "R_changed_pixels": 300,
+    "R_alpha_and_outer_silhouette_identical": true,
+    "cropped_and_aligned_RGBA_equal": true,
+    "edit_region": [
+      206,
+      154,
+      227,
+      198
+    ],
+    "dark_pixels_inside_widened_stem_before": 16,
+    "dark_pixels_inside_widened_stem_after": 0,
+    "bottom_interior_max_row_colour_step_before": 24.385927691760163,
+    "bottom_interior_max_row_colour_step_after": 6.939975886566356,
+    "supplied_crop_positions": [
+      {
+        "file": "d30a54bc-0364-4df5-9126-a74631d03d23",
+        "size": [
+          10,
+          25
+        ],
+        "proof_crop": [
+          369,
+          197,
+          379,
+          222
+        ],
+        "original_R_region": [
+          210.75,
+          183.25,
+          213.25,
+          189.5
+        ],
+        "RGB_rmse": 0.0
+      },
+      {
+        "file": "81c1edf3-5564-4361-90e0-2e862fdb0c39",
+        "size": [
+          18,
+          97
+        ],
+        "proof_crop": [
+          362,
+          110,
+          380,
+          207
+        ],
+        "original_R_region": [
+          209.0,
+          161.5,
+          213.5,
+          185.75
+        ],
+        "RGB_rmse": 0.0
+      },
+      {
+        "file": "b864b1bd-cad0-4f57-9a43-d38003fc092d",
+        "size": [
+          28,
+          34
+        ],
+        "proof_crop": [
+          383,
+          206,
+          411,
+          240
+        ],
+        "original_R_region": [
+          214.25,
+          185.5,
+          221.25,
+          194.0
+        ],
+        "RGB_rmse": 0.0
+      }
+    ],
+    "visual_review": "Native Affinity proof: remaining stem gaps covered; horizontal pale repair ridge removed"
+  },
+  "assembly_check": {
+    "R_asset_changed_pixels": 300,
+    "final_changed_pixels": 96,
+    "final_changed_bbox": [
+      208,
+      155,
+      227,
+      193
+    ],
+    "R_alpha_and_outer_silhouette_identical": true,
+    "Hangul_18_percent_scale_position_material_unchanged": true,
+    "both_wind_images_position_and_pixels_unchanged": true,
+    "P_G_and_character_art_identical": true,
+    "preserved_asset_files": [
+      "vectors.json",
+      "word_render.png",
+      "wind_top.png",
+      "wind_bottom.png"
+    ]
+  },
+  "archive": {
+    "changed_texture_copies": [
+      "MENU_FILE_LOAD_JP_ja/timg/LOAD_GAME_IMG_KJ_R_00_JP_ja.bflim",
+      "MENU_FILE_LOAD_JP_ja/timg/LOAD_GAME_IMG_KJ_L_00_JP_ja.bflim"
+    ],
+    "only_two_KJ_textures_changed": true,
+    "actual_changed_texture_copies": [
+      "MENU_FILE_LOAD_JP_ja/timg/LOAD_GAME_IMG_KJ_R_00_JP_ja.bflim"
+    ],
+    "all_other_SARC_files_and_archive_entries_unchanged": true,
+    "decoded_RGB565_matches_inputs": true,
+    "before_sha256": "2c0c382189a4737b419bb37e6595855a71962346fcce8c8bece1dc7f5917f374",
+    "after_sha256": "c3acd2cf8c91e813db48b12a2de968893cfeea60290fccb316a4d9942e403bd3"
+  },
+  "install": {
+    "changed_patch_files": [
+      "Lyt/JP/MLyt.dat"
+    ],
+    "MLyt_sha256": "c3acd2cf8c91e813db48b12a2de968893cfeea60290fccb316a4d9942e403bd3",
+    "zip_sha256": "568f0a33457eae514e17ca753881c1eeb110f2570237c97cb947add3a36aeca7",
+    "checked_files": 36,
+    "backup": "C:\\AI-Projects\\mario-luigi-rpg-3dx-korean-patch\\work\\build\\prev_kj_R_touchup_20261010"
+  },
+  "runtime": {
+    "method": "Codex built-in @oai/sky computer-use",
+    "emulator": "Azahar 2126.1.2",
+    "capture": "Mario & Luigi Bowser's Inside…_10.10.26_01.05.39.294.png",
+    "observed_mode": "slot 1, 쿠파주니어 RPG mode selection",
+    "native_capture_max_channel_difference": 1,
+    "native_capture_mean_channel_difference": 0.03424278846153846,
+    "input_profile_unchanged": true,
+    "normal_stop": "F5",
+    "subagents_used": false,
+    "Orca_used": false
+  },
+  "change": "left face widened to cover residual gaps and maroon intrusions; artificial bottom rim removed; surface/hatch continued smoothly",
+  "R_png": "R_clean.png",
+  "R_aligned_png": "R_clean_aligned.png",
+  "R_affinity": "R_touchup_20261010.af",
+  "assembly_affinity": "KJ_assembled_R_touchup_20261010.af",
+  "R_sha256": "f7ff969b9a309b91385b640304f2962fc1914222879d95154c6f4628162a7f64",
+  "original_OA_document_and_title_intro_FMdl_identical": true,
+  "recipe": "work/img/kj_R_touchup_20261010/build_touchup_assembly.py"
+}

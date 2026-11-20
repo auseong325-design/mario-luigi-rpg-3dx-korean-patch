@@ -1,0 +1,23 @@
+{
+  "installed": {
+    "romfs/Msg/JP_ja/font.bffnt": "a786316c26fe260f8c1ddee90ba9fff5494eee67155be2ad67fa37845fe569b2",
+    "romfs/Msg/JP_ja/font_btl.bffnt": "6c058d36905fc09cabf7da95d54f9132a285054205d357f086ff1029ea9f62b7",
+    "romfs/Lyt/JP/MLyt.dat": "14f0aa9a6c228d990babad0802d910e42f7efd70619fea983333c9fa4cdf5987",
+    "romfs/BAI/BAI.dat": "8f3c1928b91f3b851c3f437bd06a0a200663822538967491a83794f025827261"
+  },
+  "actions": {
+    "patch/romfs/Msg/JP_ja/font.bffnt": "replaced",
+    "sd/romfs/Msg/JP_ja/font.bffnt": "replaced",
+    "patch/romfs/Msg/JP_ja/font_btl.bffnt": "replaced",
+    "sd/romfs/Msg/JP_ja/font_btl.bffnt": "replaced",
+    "patch/romfs/Lyt/JP/MLyt.dat": "replaced",
+    "sd/romfs/Lyt/JP/MLyt.dat": "replaced",
+    "patch/romfs/BAI/BAI.dat": "replaced",
+    "sd/romfs/BAI/BAI.dat": "replaced",
+    "zip": "replaced ['romfs/Msg/JP_ja/font.bffnt', 'romfs/Msg/JP_ja/font_btl.bffnt', 'romfs/Lyt/JP/MLyt.dat', 'romfs/BAI/BAI.dat']"
+  },
+  "title_folder_files": 38,
+  "patch_junction_sd_zip_match": true,
+  "zip_sha256": "2bc005f1c0049ca59f81d26d8f0df44217404f39cf5bef611c11bb76db7f01f6",
+  "backup": "C:\\AI-Projects\\mario-luigi-rpg-3dx-korean-patch\\work\\build\\prev_wave5_20261030"
+}

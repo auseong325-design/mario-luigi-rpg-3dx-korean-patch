@@ -1,0 +1,84 @@
+{
+  "date": "2026-10-10",
+  "status": "R inner face repaired, reassembled, installed and runtime verified",
+  "standalone_R_check": {
+    "R_changed_pixels": 110,
+    "edit_region": [
+      206,
+      164,
+      224,
+      196
+    ],
+    "maroon_pixels_inside_intended_green_face_before": 10,
+    "maroon_pixels_inside_intended_green_face_after": 0,
+    "corrected_face_green_channel_above_145": true,
+    "alpha_and_outer_silhouette_identical": true,
+    "counter_bowl_right_leg_and_unaffected_face_pixels_identical": true,
+    "cropped_and_aligned_RGBA_equal": true
+  },
+  "assembly_check": {
+    "R_asset_changed_pixels": 110,
+    "final_changed_pixels": 25,
+    "final_changed_bbox": [
+      217,
+      180,
+      224,
+      193
+    ],
+    "R_alpha_and_outer_silhouette_identical": true,
+    "Hangul_18_percent_scale_position_material_unchanged": true,
+    "both_wind_images_position_and_pixels_unchanged": true,
+    "P_G_and_character_art_identical": true,
+    "preserved_asset_files": [
+      "vectors.json",
+      "word_render.png",
+      "wind_top.png",
+      "wind_bottom.png"
+    ]
+  },
+  "archive": {
+    "changed_texture_copies": [
+      "MENU_FILE_LOAD_JP_ja/timg/LOAD_GAME_IMG_KJ_R_00_JP_ja.bflim",
+      "MENU_FILE_LOAD_JP_ja/timg/LOAD_GAME_IMG_KJ_L_00_JP_ja.bflim"
+    ],
+    "only_two_KJ_textures_changed": true,
+    "actual_changed_texture_copies": [
+      "MENU_FILE_LOAD_JP_ja/timg/LOAD_GAME_IMG_KJ_R_00_JP_ja.bflim"
+    ],
+    "all_other_SARC_files_and_archive_entries_unchanged": true,
+    "decoded_RGB565_matches_inputs": true,
+    "before_sha256": "cac646cfc32ac2b8dd00cba015724b6df59fcf5b03b19df1aa3a5b11f33fdc69",
+    "after_sha256": "2c0c382189a4737b419bb37e6595855a71962346fcce8c8bece1dc7f5917f374"
+  },
+  "install": {
+    "changed_patch_files": [
+      "Lyt/JP/MLyt.dat"
+    ],
+    "MLyt_sha256": "2c0c382189a4737b419bb37e6595855a71962346fcce8c8bece1dc7f5917f374",
+    "zip_sha256": "a25e5abbbc0b99a8f4e526b70878e456fb028c49f1181e37bf4514ea1b8d7c5b",
+    "checked_files": 36,
+    "backup": "C:\\AI-Projects\\mario-luigi-rpg-3dx-korean-patch\\work\\build\\prev_kj_R_polish_20261010"
+  },
+  "runtime": {
+    "method": "Codex built-in @oai/sky computer-use",
+    "emulator": "Azahar 2126.1.2",
+    "capture": "Mario & Luigi Bowser's Inside…_10.10.26_00.43.23.654.png",
+    "observed_mode": "slot 1, 쿠파주니어 RPG mode selection",
+    "R_fix_applied_without_assembly_shift_or_seam": true,
+    "native_capture_max_channel_difference": 1,
+    "native_capture_mean_channel_difference": 0.034270833333333334,
+    "input_profile_unchanged": true,
+    "normal_stop": "F5",
+    "subagents_used": false,
+    "Orca_used": false
+  },
+  "reference": "user-supplied Korean 1DX 쿠파군단 RPG R: straight stem and clean face/bevel boundary",
+  "colours": "original 3DX yellow-green gradient/hatch; only damaged edge pixels reconstructed",
+  "R_png": "R_clean.png",
+  "R_aligned_png": "R_clean_aligned.png",
+  "R_affinity": "R_refined_20261010.af",
+  "assembly_affinity": "KJ_assembled_R_refined_20261010.af",
+  "R_sha256": "781fd4a261bfd5d8443b2f6e5ccd586beb1fb0d02cd6465e164c7c32bfac5a85",
+  "original_OA_document_and_title_intro_FMdl_identical": true,
+  "recipe": "work/img/kj_R_polish_20261010/build_refined_assembly.py"
+}

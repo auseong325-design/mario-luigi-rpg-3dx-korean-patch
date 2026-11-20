@@ -1,0 +1,63 @@
+{
+  "document_session_uuid": "D3C1D10D-8D76-491A-8926-7F1C2E57CDAD",
+  "source": "original.png",
+  "assets": [
+    {
+      "name": "R_clean",
+      "bounds": [
+        201,
+        140,
+        261,
+        203
+      ],
+      "size": [
+        60,
+        63
+      ],
+      "restored_pixels": 266,
+      "preserved_pixels": 2166,
+      "fractional_alpha_pixels": 234,
+      "opaque_white_interior_pixels": 0
+    },
+    {
+      "name": "wind_top",
+      "bounds": [
+        49,
+        127,
+        89,
+        157
+      ],
+      "size": [
+        40,
+        30
+      ],
+      "restored_pixels": 49,
+      "preserved_pixels": 612,
+      "fractional_alpha_pixels": 132,
+      "opaque_white_interior_pixels": 292
+    },
+    {
+      "name": "wind_bottom",
+      "bounds": [
+        202,
+        187,
+        223,
+        208
+      ],
+      "size": [
+        21,
+        21
+      ],
+      "restored_pixels": 74,
+      "preserved_pixels": 167,
+      "fractional_alpha_pixels": 66,
+      "opaque_white_interior_pixels": 98
+    }
+  ],
+  "original_OA_document_untouched": true,
+  "patch_installed": false,
+  "completed_date": "2026-10-10",
+  "method": "Affinity MCP native Bitmap / PixelReaderWriterRGBA8 / PNG export",
+  "generative_recreation_used": false,
+  "subagents_used": false
+}

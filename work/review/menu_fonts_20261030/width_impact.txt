@@ -1,0 +1,14 @@
+18510 Korean lines checked (all batches, translator view, merge_ko width model)
+current model: 0 lines over their limit (should be 0)
+
+== staged: lines that grow 992, max growth 18 px; new over-limit lines 0
+  grow +18 FMsg/i_areanone_puzzle_01_L#12 ('FMsg', 6) limit 336: '9898 88241 983'
+  grow +13 Menu#665 ('Menu', 6) limit 298: 'The Winner is… DX'
+  grow +13 BMsg/b_sys#307 ('BMsg', 11) limit 405: '「SPEED」「SUYEOM」「PPUL」이 있어요.'
+  grow +12 Menu#38 ('Menu', 6) limit 298: 'What a news! DX'
+  grow +12 Menu#155 ('Menu', 6) limit 298: 'Area of dark DX'
+  grow +12 Item#172 ('Item', 12) limit 279: 'HP양말DX FULL!'
+  grow +12 FMsg/o_mushiba_24#13 ('FMsg', 6) limit 336: '1000년이다, 1000년.'
+  grow +12 FMsg/o_mushiba_05_before#24 ('FMsg', 6) limit 336: '1000000코인에 거래되는'
+  grow +12 BMsg/b_sys#95 ('BMsg', 13) limit 368: 'Excellent 횟수가 500회를 넘는다'
+  grow +12 BMsg/b_sys#612 ('BMsg', 11) limit 405: '「DEF」 「SPEED」 「GDH」의'

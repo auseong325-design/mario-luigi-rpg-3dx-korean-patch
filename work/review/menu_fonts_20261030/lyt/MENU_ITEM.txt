@@ -1,0 +1,270 @@
+### BADGE_GAUGE  layout {'center': 1, 'w': 320.0, 'h': 240.0}
+pan1 RootPane t=(0.0,0.0) s=(1.000,1.000) size=(320.0,240.0) world=(0.0,0.0) ws=(1.000,1.000) org=0 a=255 fl=1
+  pan1 BADGE_GAUGE_BASE t=(0.0,0.0) s=(1.000,1.000) size=(0.0,0.0) world=(0.0,0.0) ws=(1.000,1.000) org=0 a=255 fl=3
+    wnd1 BADGE_GAUGE_sdw t=(0.0,0.0) s=(1.000,1.000) size=(150.0,16.0) world=(0.0,0.0) ws=(1.000,1.000) org=0 a=255 fl=0
+    wnd1 BADGE_GAUGE_o t=(0.0,0.0) s=(1.000,1.000) size=(144.0,12.0) world=(0.0,0.0) ws=(1.000,1.000) org=0 a=255 fl=1
+    pic1 BADGE_GAUGE_i t=(0.0,0.0) s=(1.000,1.000) size=(128.0,8.0) world=(0.0,0.0) ws=(1.000,1.000) org=0 a=255 fl=1
+  pan1 BADGE_GAUGE_L t=(0.0,0.0) s=(1.000,1.000) size=(0.0,0.0) world=(0.0,0.0) ws=(1.000,1.000) org=1 a=255 fl=3
+    pic1 BADGE_POWER_L_0 t=(-69.0,-0.0) s=(0.000,1.000) size=(6.0,8.0) world=(-69.0,0.0) ws=(0.000,1.000) org=1 a=255 fl=1
+    pic1 BADGE_POWER_L t=(-63.0,-0.0) s=(1.000,1.000) size=(0.0,8.0) world=(-63.0,0.0) ws=(1.000,1.000) org=1 a=255 fl=1
+    pic1 BADGE_GAUGE_ICON_L t=(-58.0,-0.0) s=(1.000,1.000) size=(18.0,18.0) world=(-58.0,0.0) ws=(1.000,1.000) org=2 a=255 fl=1
+  pan1 BADGE_GAUGE_M t=(0.0,0.0) s=(1.000,1.000) size=(0.0,0.0) world=(0.0,0.0) ws=(1.000,1.000) org=2 a=255 fl=3
+    pic1 BADGE_POWER_M_0 t=(69.0,0.0) s=(0.000,1.000) size=(6.0,8.0) world=(69.0,0.0) ws=(0.000,1.000) org=2 a=255 fl=1
+    pic1 BADGE_POWER_M t=(63.0,0.0) s=(1.000,1.000) size=(0.0,8.0) world=(63.0,0.0) ws=(1.000,1.000) org=2 a=255 fl=1
+    pic1 BADGE_GAUGE_ICON_M t=(58.0,0.0) s=(1.000,1.000) size=(18.0,18.0) world=(58.0,0.0) ws=(1.000,1.000) org=1 a=255 fl=1
+### CHARA_PANEL_STATUS_MULTI  layout {'center': 1, 'w': 400.0, 'h': 240.0}
+pan1 RootPane t=(0.0,0.0) s=(1.000,1.000) size=(400.0,240.0) world=(0.0,0.0) ws=(1.000,1.000) org=0 a=255 fl=1
+  pan1 INS_STATUS_CHARA_OBJ t=(0.0,0.0) s=(1.000,1.000) size=(0.0,0.0) world=(0.0,0.0) ws=(1.000,1.000) org=0 a=255 fl=3
+  pan1 CHARA_PANEL_STATUS t=(0.0,0.0) s=(1.000,1.000) size=(0.0,0.0) world=(0.0,0.0) ws=(1.000,1.000) org=0 a=255 fl=3
+    pan1 STATUS_PANEL t=(0.0,0.0) s=(1.000,1.000) size=(0.0,0.0) world=(0.0,0.0) ws=(1.000,1.000) org=0 a=255 fl=3
+      pan1 STATUS_PANEL_BG t=(0.0,0.0) s=(1.000,1.000) size=(0.0,0.0) world=(0.0,0.0) ws=(1.000,1.000) org=0 a=255 fl=3
+        wnd1 STATUS_PANEL_BG_sdw t=(0.0,0.0) s=(1.000,1.000) size=(134.0,154.0) world=(0.0,0.0) ws=(1.000,1.000) org=0 a=255 fl=1
+        wnd1 STATUS_PANEL_BG_i t=(0.0,0.0) s=(1.000,1.000) size=(132.0,152.0) world=(0.0,0.0) ws=(1.000,1.000) org=0 a=255 fl=1
+        wnd1 STATUS_PANEL_BG_grd t=(0.0,0.0) s=(1.000,1.000) size=(134.0,154.0) world=(0.0,0.0) ws=(1.000,1.000) org=0 a=255 fl=1
+      pan1 STATUS_PANEL_i_all t=(-0.0,-4.0) s=(1.000,1.000) size=(0.0,0.0) world=(0.0,-4.0) ws=(1.000,1.000) org=0 a=255 fl=3
+        wnd1 STATUS_PANEL_i_sdw t=(0.0,0.0) s=(1.000,1.000) size=(126.0,112.0) world=(0.0,-4.0) ws=(1.000,1.000) org=0 a=255 fl=1
+        wnd1 STATUS_PANEL_i t=(0.0,0.0) s=(1.000,1.000) size=(122.0,108.0) world=(0.0,-4.0) ws=(1.000,1.000) org=0 a=255 fl=1
+    pic1 CHARA_STATUS_h t=(-24.0,52.0) s=(1.000,1.000) size=(84.0,48.0) world=(-24.0,52.0) ws=(1.000,1.000) org=0 a=255 fl=1
+  pan1 CHARA_NAME t=(0.0,63.0) s=(1.000,1.000) size=(0.0,0.0) world=(0.0,63.0) ws=(1.000,1.000) org=0 a=255 fl=3
+    pic1 CHARA_NAME_M t=(0.0,0.0) s=(1.000,1.000) size=(96.0,24.0) world=(0.0,63.0) ws=(1.000,1.000) org=0 a=255 fl=1
+    pic1 CHARA_NAME_L t=(0.0,0.0) s=(1.000,1.000) size=(96.0,24.0) world=(0.0,63.0) ws=(1.000,1.000) org=0 a=255 fl=0
+    pic1 CHARA_NAME_K t=(0.0,0.0) s=(1.000,1.000) size=(108.0,24.0) world=(0.0,63.0) ws=(1.000,1.000) org=0 a=255 fl=0
+  pan1 STATUS_SET_all t=(-52.0,39.0) s=(1.000,1.000) size=(0.0,0.0) world=(-52.0,39.0) ws=(1.000,1.000) org=0 a=255 fl=3
+    prt1 STATUS_SET t=(0.0,0.0) s=(1.000,1.000) size=(308.0,226.0) world=(-52.0,39.0) ws=(1.000,1.000) org=0 a=255 fl=3 part=STATUS_SET mag=(1.0, 1.0)
+    pan1 STATUS_SET_HT t=(-0.0,-86.0) s=(1.000,1.000) size=(0.0,0.0) world=(-52.0,-47.0) ws=(1.000,1.000) org=0 a=255 fl=3
+      pan1 STATUS_HIGE t=(0.0,0.0) s=(1.000,1.000) size=(0.0,0.0) world=(-52.0,-47.0) ws=(1.000,1.000) org=1 a=255 fl=3
+        pic1 STATUS_HIGE_TEXT t=(14.0,0.0) s=(1.000,1.000) size=(42.0,12.0) world=(-38.0,-47.0) ws=(1.000,1.000) org=1 a=255 fl=1
+        pic1 STATUS_iconm_HIGE t=(0.0,0.5) s=(1.000,1.000) size=(16.0,16.0) world=(-52.0,-46.5) ws=(1.000,1.000) org=1 a=255 fl=1
+      pan1 STATUS_TSUNO t=(0.0,0.0) s=(1.000,1.000) size=(0.0,0.0) world=(-52.0,-47.0) ws=(1.000,1.000) org=1 a=255 fl=2
+        pic1 STATUS_TSUNO_TEXT t=(14.0,0.0) s=(1.000,1.000) size=(42.0,12.0) world=(-38.0,-47.0) ws=(1.000,1.000) org=1 a=255 fl=1
+        pic1 STATUS_iconm_TSUNO t=(0.0,0.0) s=(1.000,1.000) size=(16.0,16.0) world=(-52.0,-47.0) ws=(1.000,1.000) org=1 a=255 fl=1
+### EXP_PNL_U  layout {'center': 1, 'w': 400.0, 'h': 240.0}
+pan1 RootPane t=(0.0,0.0) s=(1.000,1.000) size=(400.0,240.0) world=(0.0,0.0) ws=(1.000,1.000) org=0 a=255 fl=1
+  pan1 EXP_PANEL_all t=(-0.0,-3.0) s=(1.000,1.000) size=(0.0,0.0) world=(0.0,-3.0) ws=(1.000,1.000) org=0 a=255 fl=3
+    pan1 TOP_PANEL_anim t=(-0.0,-120.0) s=(1.000,1.000) size=(0.0,0.0) world=(0.0,-123.0) ws=(1.000,1.000) org=8 a=0 fl=2
+      pan1 TOP_PANEL t=(0.0,47.0) s=(1.000,1.000) size=(0.0,0.0) world=(0.0,-76.0) ws=(1.000,1.000) org=0 a=255 fl=3
+        pan1 EXP_PANEL_U_base t=(-0.0,-7.0) s=(1.000,1.000) size=(0.0,0.0) world=(0.0,-83.0) ws=(1.000,1.000) org=0 a=255 fl=3
+          wnd1 EXP_PNL_U_base_s t=(0.0,2.0) s=(1.000,1.000) size=(318.0,63.0) world=(0.0,-81.0) ws=(1.000,1.000) org=0 a=255 fl=1
+          wnd1 EXP_PNL_U_base_o t=(0.0,2.0) s=(1.000,1.000) size=(316.0,61.0) world=(0.0,-81.0) ws=(1.000,1.000) org=0 a=255 fl=1
+          wnd1 EXP_PNL_U_base_i t=(0.0,2.0) s=(1.000,1.000) size=(314.0,59.0) world=(0.0,-81.0) ws=(1.000,1.000) org=0 a=255 fl=1
+        pan1 EXP_PNL_U_arrow_s t=(-0.0,-36.0) s=(1.000,1.000) size=(0.0,0.0) world=(0.0,-112.0) ws=(1.000,1.000) org=0 a=255 fl=3
+          pic1 EXP_PNL_U_arrow_s_base t=(0.0,0.0) s=(1.000,1.000) size=(28.0,8.0) world=(0.0,-112.0) ws=(1.000,1.000) org=4 a=255 fl=1
+        pan1 EXP_PNL_U_arrow t=(-0.0,-35.0) s=(1.000,1.000) size=(0.0,0.0) world=(0.0,-111.0) ws=(1.000,1.000) org=0 a=255 fl=3
+          pic1 EXP_PNL_U_arrow_base t=(0.0,0.0) s=(1.000,1.000) size=(28.0,8.0) world=(0.0,-111.0) ws=(1.000,1.000) org=4 a=255 fl=1
+        pan1 INS_TOP_PANEL_TEXT t=(-0.0,-5.0) s=(1.000,1.000) size=(0.0,0.0) world=(0.0,-81.0) ws=(1.000,1.000) org=0 a=255 fl=3
+        pan1 EXP_PNL_U_ELEMENT t=(0.0,0.0) s=(1.000,1.000) size=(0.0,0.0) world=(0.0,-76.0) ws=(1.000,1.000) org=0 a=255 fl=3
+          wnd1 EXP_PNL_U_ELEMENT_base t=(-0.0,-35.0) s=(1.000,1.000) size=(314.0,14.0) world=(0.0,-111.0) ws=(1.000,1.000) org=8 a=255 fl=0
+          pan1 EXP_PNL_BADGE_GAUGE t=(-0.0,-28.0) s=(1.000,1.000) size=(0.0,0.0) world=(0.0,-104.0) ws=(1.000,1.000) org=0 a=255 fl=2
+            prt1 PNL_BADGE_GAUGE t=(0.0,0.0) s=(1.000,1.000) size=(156.0,18.0) world=(0.0,-104.0) ws=(1.000,1.000) org=0 a=255 fl=3 part=BADGE_GAUGE mag=(1.0, 1.0)
+          pan1 EXP_PNL_U_STATUS t=(-0.0,-26.0) s=(1.000,1.000) size=(0.0,0.0) world=(0.0,-102.0) ws=(1.000,1.000) org=0 a=255 fl=2
+            prt1 PNL_STATUS_SET t=(0.0,0.0) s=(1.000,1.000) size=(302.0,56.0) world=(0.0,-102.0) ws=(1.000,1.000) org=0 a=255 fl=3 part=STATUS_SET_LINE mag=(1.0, 1.0)
+### MENU_ITEM_L  layout {'center': 1, 'w': 320.0, 'h': 240.0}
+pan1 RootPane t=(0.0,0.0) s=(1.000,1.000) size=(320.0,240.0) world=(0.0,0.0) ws=(1.000,1.000) org=0 a=255 fl=1
+  pan1 PAGE_1 t=(0.0,0.0) s=(1.000,1.000) size=(0.0,0.0) world=(0.0,0.0) ws=(1.000,1.000) org=0 a=255 fl=3
+    pan1 LIST_ITEM t=(0.0,14.0) s=(1.000,1.000) size=(0.0,0.0) world=(0.0,14.0) ws=(1.000,1.000) org=0 a=255 fl=3
+      pan1 INS_LIST_ITEM t=(0.0,0.0) s=(1.000,1.000) size=(0.0,0.0) world=(0.0,14.0) ws=(1.000,1.000) org=0 a=255 fl=3
+      pic1 LIST_ITEM_TITLE t=(-157.0,96.0) s=(1.000,1.000) size=(128.0,16.0) world=(-157.0,110.0) ws=(1.000,1.000) org=1 a=255 fl=1
+    pan1 tab_btn_LOW t=(89.0,-105.0) s=(1.000,1.000) size=(0.0,0.0) world=(89.0,-105.0) ws=(1.000,1.000) org=0 a=255 fl=3
+      prt1 tab_btn_01 t=(-47.0,-0.0) s=(1.000,1.000) size=(46.0,28.0) world=(42.0,-105.0) ws=(1.000,1.000) org=0 a=255 fl=3 part=tab_ITEM mag=(1.0, 1.0)
+      prt1 tab_btn_02 t=(0.0,0.0) s=(1.000,1.000) size=(46.0,28.0) world=(89.0,-105.0) ws=(1.000,1.000) org=0 a=255 fl=3 part=tab_ITEM mag=(1.0, 1.0)
+      prt1 tab_btn_03 t=(47.0,0.0) s=(1.000,1.000) size=(46.0,28.0) world=(136.0,-105.0) ws=(1.000,1.000) org=0 a=255 fl=3 part=tab_ITEM mag=(1.0, 1.0)
+  pan1 SELECT t=(-0.0,-29.0) s=(1.000,1.000) size=(0.0,0.0) world=(0.0,-29.0) ws=(1.000,1.000) org=0 a=255 fl=2
+    pan1 SELECT_POS t=(0.0,356.0) s=(1.000,1.000) size=(0.0,0.0) world=(0.0,327.0) ws=(1.000,1.000) org=0 a=255 fl=3
+      pan1 STATUS_ML_all t=(0.0,0.0) s=(1.000,1.000) size=(0.0,0.0) world=(0.0,327.0) ws=(1.000,1.000) org=0 a=255 fl=3
+        pan1 STATUS_L_POS t=(-68.0,-0.0) s=(1.000,1.000) size=(0.0,0.0) world=(-68.0,327.0) ws=(1.000,1.000) org=0 a=255 fl=3
+          prt1 STATUS_L t=(0.0,0.0) s=(1.000,1.000) size=(412.0,304.0) world=(-68.0,327.0) ws=(1.000,1.000) org=0 a=255 fl=3 part=CHARA_PANEL_STATUS_MULTI mag=(1.0, 1.0)
+          prt1 hit_L t=(-0.0,-4.0) s=(1.000,1.000) size=(126.0,112.0) world=(-68.0,323.0) ws=(1.000,1.000) org=0 a=255 fl=3 part=btn_pnl1_hit mag=(1.0, 1.0)
+          prt1 hit_s_L t=(-0.0,-4.0) s=(1.000,1.000) size=(100.0,112.0) world=(-68.0,323.0) ws=(1.000,1.000) org=0 a=255 fl=3 part=btn_pnl1_s_hit mag=(1.0, 1.0)
+        pan1 STATUS_M_POS t=(68.0,0.0) s=(1.000,1.000) size=(0.0,0.0) world=(68.0,327.0) ws=(1.000,1.000) org=0 a=255 fl=3
+          prt1 STATUS_M t=(0.0,0.0) s=(1.000,1.000) size=(412.0,304.0) world=(68.0,327.0) ws=(1.000,1.000) org=0 a=255 fl=3 part=CHARA_PANEL_STATUS_MULTI mag=(1.0, 1.0)
+          prt1 hit_M t=(-0.0,-4.0) s=(1.000,1.000) size=(126.0,112.0) world=(68.0,323.0) ws=(1.000,1.000) org=0 a=255 fl=3 part=btn_pnl1_hit mag=(1.0, 1.0)
+          prt1 hit_s_M t=(-0.0,-4.0) s=(1.000,1.000) size=(100.0,112.0) world=(68.0,323.0) ws=(1.000,1.000) org=0 a=255 fl=3 part=btn_pnl1_s_hit mag=(1.0, 1.0)
+        prt1 hit_ML t=(-0.0,-4.0) s=(1.000,1.000) size=(262.0,112.0) world=(0.0,323.0) ws=(1.000,1.000) org=0 a=255 fl=3 part=btn_pnl2_hit mag=(1.0, 1.0)
+      pan1 STATUS_K_all t=(0.0,0.0) s=(1.000,1.000) size=(0.0,0.0) world=(0.0,327.0) ws=(1.000,1.000) org=0 a=255 fl=2
+        prt1 STATUS_K t=(0.0,0.0) s=(1.000,1.000) size=(412.0,304.0) world=(0.0,327.0) ws=(1.000,1.000) org=0 a=255 fl=3 part=CHARA_PANEL_STATUS_MULTI mag=(1.0, 1.0)
+        prt1 hit_K t=(-0.0,-4.0) s=(1.000,1.000) size=(126.0,112.0) world=(0.0,323.0) ws=(1.000,1.000) org=0 a=255 fl=3 part=btn_pnl1_hit mag=(1.0, 1.0)
+        prt1 hit_s_K t=(-0.0,-4.0) s=(1.000,1.000) size=(100.0,112.0) world=(0.0,323.0) ws=(1.000,1.000) org=0 a=255 fl=3 part=btn_pnl1_s_hit mag=(1.0, 1.0)
+  pan1 NAME_BAR t=(0.0,32.0) s=(1.000,1.000) size=(0.0,0.0) world=(0.0,32.0) ws=(1.000,1.000) org=0 a=0 fl=2
+    pan1 list_cursor t=(0.0,0.0) s=(1.000,1.000) size=(0.0,0.0) world=(0.0,32.0) ws=(1.000,1.000) org=0 a=255 fl=3
+      pic1 cursor_o t=(0.0,0.0) s=(1.000,1.000) size=(294.0,28.0) world=(0.0,32.0) ws=(1.000,1.000) org=0 a=255 fl=1
+      pic1 cursor_i t=(0.0,0.0) s=(1.000,1.000) size=(292.0,26.0) world=(0.0,32.0) ws=(1.000,1.000) org=0 a=255 fl=1
+    pan1 ICON_ITEM t=(-124.0,-0.0) s=(1.000,1.000) size=(0.0,0.0) world=(-124.0,32.0) ws=(1.000,1.000) org=0 a=255 fl=3
+    pan1 ICONL t=(-141.0,-0.0) s=(1.000,1.000) size=(0.0,0.0) world=(-141.0,32.0) ws=(1.000,1.000) org=0 a=255 fl=3
+      pic1 ICON_L t=(0.0,0.0) s=(1.000,1.000) size=(16.0,16.0) world=(-141.0,32.0) ws=(1.000,1.000) org=0 a=255 fl=0
+    pan1 COUNT t=(137.0,-9.0) s=(1.000,1.000) size=(0.0,0.0) world=(137.0,23.0) ws=(1.000,1.000) org=0 a=255 fl=1
+    pan1 list_text t=(-110.0,-0.0) s=(1.000,1.000) size=(204.0,28.0) world=(-110.0,32.0) ws=(1.000,1.000) org=1 a=255 fl=3
+  pan1 btn_LOW t=(-0.0,-106.0) s=(1.000,1.000) size=(0.0,0.0) world=(0.0,-106.0) ws=(1.000,1.000) org=0 a=255 fl=3
+    prt1 btn_RETURN t=(-160.0,-0.0) s=(1.000,1.000) size=(130.0,28.0) world=(-160.0,-106.0) ws=(1.000,1.000) org=0 a=255 fl=3 part=btn_RETURN mag=(1.0, 1.0)
+  pic1 system_fade t=(0.0,0.0) s=(1.000,1.000) size=(336.0,256.0) world=(0.0,0.0) ws=(1.000,1.000) org=0 a=0 fl=0
+### MENU_ITEM_L_LIST  layout {'center': 1, 'w': 320.0, 'h': 240.0}
+pan1 RootPane t=(0.0,0.0) s=(1.000,1.000) size=(320.0,240.0) world=(0.0,0.0) ws=(1.000,1.000) org=0 a=255 fl=1
+  pan1 LIST t=(0.0,0.0) s=(1.000,1.000) size=(0.0,0.0) world=(0.0,0.0) ws=(1.000,1.000) org=0 a=255 fl=3
+    pan1 FRAME t=(0.0,0.0) s=(1.000,1.000) size=(0.0,0.0) world=(0.0,0.0) ws=(1.000,1.000) org=0 a=255 fl=3
+      pan1 FRAME_locate t=(0.0,0.0) s=(1.000,1.000) size=(0.0,0.0) world=(0.0,0.0) ws=(1.000,1.000) org=0 a=255 fl=3
+        wnd1 FRAME_sdw t=(0.0,0.0) s=(1.000,1.000) size=(318.0,211.0) world=(0.0,0.0) ws=(1.000,1.000) org=0 a=127 fl=1
+        wnd1 FRAME_i t=(0.0,0.0) s=(1.000,1.000) size=(316.0,209.0) world=(0.0,0.0) ws=(1.000,1.000) org=0 a=255 fl=1
+        wnd1 FRAME_o t=(0.0,0.0) s=(1.000,1.000) size=(316.0,209.0) world=(0.0,0.0) ws=(1.000,1.000) org=0 a=255 fl=1
+    pan1 list_cursor t=(0.0,0.0) s=(1.000,1.000) size=(-0.0,0.0) world=(0.0,0.0) ws=(1.000,1.000) org=0 a=255 fl=3
+      pic1 cursor_o t=(0.0,0.0) s=(1.000,1.000) size=(294.0,28.0) world=(0.0,0.0) ws=(1.000,1.000) org=0 a=255 fl=1
+      pic1 cursor_i t=(0.0,0.0) s=(1.000,1.000) size=(292.0,26.0) world=(0.0,0.0) ws=(1.000,1.000) org=0 a=255 fl=1
+    pan1 list_scroll t=(152.0,0.0) s=(1.000,1.000) size=(8.0,36.0) world=(152.0,0.0) ws=(1.000,1.000) org=5 a=255 fl=3
+      wnd1 scroll_o t=(0.0,0.0) s=(1.000,1.000) size=(8.0,36.0) world=(152.0,0.0) ws=(1.000,1.000) org=4 a=255 fl=1
+      wnd1 scroll_t t=(0.0,0.0) s=(1.000,1.000) size=(8.0,36.0) world=(152.0,0.0) ws=(1.000,1.000) org=4 a=255 fl=1
+    pan1 ICON t=(-124.0,-0.0) s=(1.000,1.000) size=(0.0,0.0) world=(-124.0,0.0) ws=(1.000,1.000) org=0 a=255 fl=3
+      pic1 ICON_K t=(0.0,-0.0) s=(1.000,1.000) size=(22.0,22.0) world=(-124.0,0.0) ws=(1.000,1.000) org=0 a=255 fl=1
+    pan1 ICONL t=(-141.0,-0.0) s=(1.000,1.000) size=(0.0,0.0) world=(-141.0,0.0) ws=(1.000,1.000) org=0 a=255 fl=3
+      pic1 ICON_L t=(0.0,0.0) s=(1.000,1.000) size=(16.0,16.0) world=(-141.0,0.0) ws=(1.000,1.000) org=0 a=255 fl=0
+    pan1 list_text t=(-110.0,-0.0) s=(1.000,1.000) size=(260.0,28.0) world=(-110.0,0.0) ws=(1.000,1.000) org=1 a=255 fl=3
+### MENU_ITEM_U  layout {'center': 1, 'w': 400.0, 'h': 240.0}
+pan1 RootPane t=(0.0,0.0) s=(1.000,1.000) size=(400.0,240.0) world=(0.0,0.0) ws=(1.000,1.000) org=0 a=255 fl=1
+  pan1 SELECT t=(0.0,8.0) s=(1.000,1.000) size=(0.0,0.0) world=(0.0,8.0) ws=(1.000,1.000) org=0 a=255 fl=3
+    pan1 STATUS t=(0.0,0.0) s=(1.000,1.000) size=(0.0,0.0) world=(0.0,8.0) ws=(1.000,1.000) org=0 a=255 fl=3
+      pan1 STATUS_ML_all t=(0.0,0.0) s=(1.000,1.000) size=(0.0,0.0) world=(0.0,8.0) ws=(1.000,1.000) org=0 a=255 fl=3
+        pan1 STATUS_L_POS t=(-136.0,-0.0) s=(1.000,1.000) size=(0.0,0.0) world=(-136.0,8.0) ws=(1.000,1.000) org=0 a=255 fl=3
+          prt1 STATUS_L t=(0.0,0.0) s=(1.000,1.000) size=(410.0,304.0) world=(-136.0,8.0) ws=(1.000,1.000) org=0 a=255 fl=3 part=CHARA_PANEL_STATUS_MULTI mag=(1.0, 1.0)
+        pan1 STATUS_M_POS t=(0.0,0.0) s=(1.000,1.000) size=(0.0,0.0) world=(0.0,8.0) ws=(1.000,1.000) org=0 a=255 fl=3
+          prt1 STATUS_M t=(0.0,0.0) s=(1.000,1.000) size=(410.0,304.0) world=(0.0,8.0) ws=(1.000,1.000) org=0 a=255 fl=3 part=CHARA_PANEL_STATUS_MULTI mag=(1.0, 1.0)
+      pan1 STATUS_K_all t=(136.0,0.0) s=(1.000,1.000) size=(0.0,0.0) world=(136.0,8.0) ws=(1.000,1.000) org=0 a=255 fl=3
+        prt1 STATUS_K t=(0.0,0.0) s=(1.000,1.000) size=(410.0,304.0) world=(136.0,8.0) ws=(1.000,1.000) org=0 a=255 fl=3 part=CHARA_PANEL_STATUS_MULTI mag=(1.0, 1.0)
+  prt1 EXP_PNL_U t=(0.0,0.0) s=(1.000,1.000) size=(318.0,260.0) world=(0.0,0.0) ws=(1.000,1.000) org=0 a=255 fl=3 part=EXP_PNL_U mag=(1.0, 1.0)
+  pic1 system_fade t=(0.0,0.0) s=(1.000,1.000) size=(416.0,256.0) world=(0.0,0.0) ws=(1.000,1.000) org=0 a=0 fl=0
+### NUM_G_s  layout {'center': 1, 'w': 320.0, 'h': 240.0}
+pan1 RootPane t=(0.0,0.0) s=(1.000,1.000) size=(320.0,240.0) world=(0.0,0.0) ws=(1.000,1.000) org=0 a=255 fl=1
+  pan1 UPPER t=(0.0,0.0) s=(1.000,1.000) size=(0.0,0.0) world=(0.0,0.0) ws=(1.000,1.000) org=0 a=255 fl=3
+    pic1 top_i_sdw t=(1.0,16.0) s=(1.000,1.000) size=(16.0,18.0) world=(1.0,16.0) ws=(1.000,1.000) org=4 a=255 fl=0
+    pic1 top_i t=(0.0,18.0) s=(1.000,1.000) size=(16.0,18.0) world=(0.0,18.0) ws=(1.000,1.000) org=4 a=255 fl=1
+  pan1 LOWER t=(0.0,0.0) s=(1.000,1.000) size=(0.0,0.0) world=(0.0,0.0) ws=(1.000,1.000) org=0 a=255 fl=2
+    pic1 under_i_sdw t=(1.0,-2.0) s=(1.000,0.000) size=(16.0,18.0) world=(1.0,-2.0) ws=(1.000,0.000) org=8 a=255 fl=0
+    pic1 under_i t=(0.0,0.0) s=(1.000,0.000) size=(16.0,18.0) world=(0.0,0.0) ws=(1.000,0.000) org=8 a=255 fl=1
+### NUM_G_s_slash  layout {'center': 1, 'w': 320.0, 'h': 240.0}
+pan1 RootPane t=(0.0,0.0) s=(1.000,1.000) size=(320.0,240.0) world=(0.0,0.0) ws=(1.000,1.000) org=0 a=255 fl=1
+  pan1 slash_ALL t=(0.0,0.0) s=(1.000,1.000) size=(0.0,0.0) world=(0.0,0.0) ws=(1.000,1.000) org=0 a=255 fl=3
+    pic1 shash_s t=(1.0,-2.0) s=(1.000,1.000) size=(16.0,18.0) world=(1.0,-2.0) ws=(1.000,1.000) org=0 a=0 fl=1
+    pic1 shash_i t=(0.0,0.0) s=(1.000,1.000) size=(16.0,18.0) world=(0.0,0.0) ws=(1.000,1.000) org=0 a=255 fl=1
+### STATUS_SET  layout {'center': 1, 'w': 320.0, 'h': 240.0}
+pan1 RootPane t=(0.0,0.0) s=(1.000,1.000) size=(320.0,240.0) world=(0.0,0.0) ws=(1.000,1.000) org=0 a=255 fl=1
+  pan1 MENU_STATUS t=(0.0,0.0) s=(1.000,1.000) size=(0.0,0.0) world=(0.0,0.0) ws=(1.000,1.000) org=0 a=255 fl=3
+    pan1 STATUS_HP t=(0.0,0.0) s=(1.000,1.000) size=(30.0,40.0) world=(0.0,0.0) ws=(1.000,1.000) org=0 a=255 fl=3
+      wnd1 STATUS_base_HP t=(0.0,0.0) s=(1.000,1.000) size=(104.0,16.0) world=(0.0,0.0) ws=(1.000,1.000) org=1 a=255 fl=1
+      pic1 STATUS_icon_HP t=(8.0,-1.0) s=(1.000,1.000) size=(16.0,16.0) world=(8.0,-1.0) ws=(1.000,1.000) org=0 a=255 fl=1
+      prt1 SNUM_DENO_HP_SLASH t=(68.0,-1.0) s=(1.000,1.000) size=(18.0,22.0) world=(68.0,-1.0) ws=(1.000,1.000) org=0 a=255 fl=3 part=NUM_G_s_slash mag=(1.0, 1.0)
+      pan1 SNUM_HP t=(97.0,-10.0) s=(1.000,1.000) size=(0.0,0.0) world=(97.0,-10.0) ws=(1.000,1.000) org=0 a=255 fl=3
+      pan1 SNUM_DENO_HP t=(60.0,-10.0) s=(1.000,1.000) size=(0.0,0.0) world=(60.0,-10.0) ws=(1.000,1.000) org=0 a=255 fl=3
+      pic1 STATUS_TEXT_HP t=(14.0,-1.0) s=(1.000,1.000) size=(42.0,12.0) world=(14.0,-1.0) ws=(1.000,1.000) org=1 a=255 fl=1
+    pan1 STATUS_BP t=(-0.0,-17.0) s=(1.000,1.000) size=(30.0,40.0) world=(0.0,-17.0) ws=(1.000,1.000) org=0 a=255 fl=3
+      wnd1 STATUS_base_BP t=(0.0,0.0) s=(1.000,1.000) size=(104.0,16.0) world=(0.0,-17.0) ws=(1.000,1.000) org=1 a=255 fl=1
+      pic1 STATUS_TEXT_BP t=(14.0,-1.0) s=(1.000,1.000) size=(42.0,12.0) world=(14.0,-18.0) ws=(1.000,1.000) org=1 a=255 fl=1
+      pic1 STATUS_icon_BP t=(8.0,-1.0) s=(1.000,1.000) size=(16.0,16.0) world=(8.0,-18.0) ws=(1.000,1.000) org=0 a=255 fl=1
+      prt1 SNUM_DENO_BP_SLASH t=(68.0,-1.0) s=(1.000,1.000) size=(18.0,22.0) world=(68.0,-18.0) ws=(1.000,1.000) org=0 a=255 fl=3 part=NUM_G_s_slash mag=(1.0, 1.0)
+      pan1 SNUM_BP t=(97.0,-10.0) s=(1.000,1.000) size=(0.0,0.0) world=(97.0,-27.0) ws=(1.000,1.000) org=0 a=255 fl=3
+      pan1 SNUM_DENO_BP t=(60.0,-10.0) s=(1.000,1.000) size=(0.0,0.0) world=(60.0,-27.0) ws=(1.000,1.000) org=0 a=255 fl=3
+    pan1 STATUS_POW t=(-0.0,-34.0) s=(1.000,1.000) size=(30.0,40.0) world=(0.0,-34.0) ws=(1.000,1.000) org=0 a=255 fl=3
+      wnd1 STATUS_base_POW t=(0.0,0.0) s=(1.000,1.000) size=(104.0,16.0) world=(0.0,-34.0) ws=(1.000,1.000) org=1 a=255 fl=1
+      pic1 STATUS_TEXT_POW t=(14.0,-1.0) s=(1.000,1.000) size=(42.0,12.0) world=(14.0,-35.0) ws=(1.000,1.000) org=1 a=255 fl=1
+      pic1 STATUS_icon_POW t=(8.0,0.0) s=(1.000,1.000) size=(16.0,16.0) world=(8.0,-34.0) ws=(1.000,1.000) org=0 a=255 fl=1
+      pan1 SNUM_POW t=(97.0,-10.0) s=(1.000,1.000) size=(0.0,0.0) world=(97.0,-44.0) ws=(1.000,1.000) org=0 a=255 fl=3
+    pan1 STATUS_DEF t=(-0.0,-51.0) s=(1.000,1.000) size=(30.0,40.0) world=(0.0,-51.0) ws=(1.000,1.000) org=0 a=255 fl=3
+      wnd1 STATUS_base_DEF t=(0.0,0.0) s=(1.000,1.000) size=(104.0,16.0) world=(0.0,-51.0) ws=(1.000,1.000) org=1 a=255 fl=1
+      pic1 STATUS_TEXT_DEF t=(14.0,-1.0) s=(1.000,1.000) size=(42.0,12.0) world=(14.0,-52.0) ws=(1.000,1.000) org=1 a=255 fl=1
+      pic1 STATUS_icon_DEF t=(8.0,0.0) s=(1.000,1.000) size=(16.0,16.0) world=(8.0,-51.0) ws=(1.000,1.000) org=0 a=255 fl=1
+      pan1 SNUM_DEF t=(97.0,-10.0) s=(1.000,1.000) size=(0.0,0.0) world=(97.0,-61.0) ws=(1.000,1.000) org=0 a=255 fl=3
+    pan1 STATUS_SPEED t=(-0.0,-68.0) s=(1.000,1.000) size=(30.0,40.0) world=(0.0,-68.0) ws=(1.000,1.000) org=0 a=255 fl=3
+      wnd1 STATUS_base_SPEED t=(0.0,0.0) s=(1.000,1.000) size=(104.0,16.0) world=(0.0,-68.0) ws=(1.000,1.000) org=1 a=255 fl=1
+      pic1 STATUS_TEXT_SPEED t=(14.0,-1.0) s=(1.000,1.000) size=(42.0,12.0) world=(14.0,-69.0) ws=(1.000,1.000) org=1 a=255 fl=1
+      pic1 STATUS_icon_SPEED t=(8.0,0.0) s=(1.000,1.000) size=(16.0,16.0) world=(8.0,-68.0) ws=(1.000,1.000) org=0 a=255 fl=1
+      pan1 SNUM_SPEED t=(97.0,-10.0) s=(1.000,1.000) size=(0.0,0.0) world=(97.0,-78.0) ws=(1.000,1.000) org=0 a=255 fl=3
+    pan1 STATUS_HT t=(-0.0,-85.0) s=(1.000,1.000) size=(30.0,40.0) world=(0.0,-85.0) ws=(1.000,1.000) org=0 a=255 fl=3
+      wnd1 STATUS_base_HT t=(0.0,0.0) s=(1.000,1.000) size=(104.0,16.0) world=(0.0,-85.0) ws=(1.000,1.000) org=1 a=255 fl=1
+      pan1 SNUM_HT t=(97.0,-10.0) s=(1.000,1.000) size=(0.0,0.0) world=(97.0,-95.0) ws=(1.000,1.000) org=0 a=255 fl=3
+  pan1 STATUS_UD t=(151.0,0.0) s=(1.000,1.000) size=(0.0,0.0) world=(151.0,0.0) ws=(1.000,1.000) org=0 a=255 fl=3
+    pan1 STATUS_UD_HP t=(0.0,0.0) s=(1.000,1.000) size=(0.0,0.0) world=(151.0,0.0) ws=(1.000,1.000) org=0 a=255 fl=3
+      wnd1 STATUS_UD_base_HP t=(0.0,0.0) s=(1.000,1.000) size=(42.0,16.0) world=(151.0,0.0) ws=(1.000,1.000) org=2 a=255 fl=1
+      pan1 UDNUM_HP t=(-6.0,-10.0) s=(1.000,1.000) size=(0.0,0.0) world=(145.0,-10.0) ws=(1.000,1.000) org=0 a=255 fl=3
+      pan1 UD_HP_ t=(-36.0,-0.0) s=(1.000,1.000) size=(0.0,0.0) world=(115.0,0.0) ws=(1.000,1.000) org=0 a=255 fl=1
+        prt1 UD_HP t=(0.0,0.0) s=(1.000,1.000) size=(12.8,12.8) world=(115.0,0.0) ws=(1.000,1.000) org=0 a=255 fl=3 part=STATUS_UD mag=(1.0, 1.0)
+    pan1 STATUS_UD_BP t=(-0.0,-17.0) s=(1.000,1.000) size=(0.0,0.0) world=(151.0,-17.0) ws=(1.000,1.000) org=0 a=255 fl=3
+      wnd1 STATUS_UD_base_BP t=(0.0,0.0) s=(1.000,1.000) size=(42.0,16.0) world=(151.0,-17.0) ws=(1.000,1.000) org=2 a=255 fl=1
+      pan1 UDNUM_BP t=(-6.0,-10.0) s=(1.000,1.000) size=(0.0,0.0) world=(145.0,-27.0) ws=(1.000,1.000) org=0 a=255 fl=3
+      pan1 UD_BP_ t=(-36.0,-0.0) s=(1.000,1.000) size=(0.0,0.0) world=(115.0,-17.0) ws=(1.000,1.000) org=0 a=255 fl=1
+        prt1 UD_BP t=(0.0,0.0) s=(1.000,1.000) size=(12.8,12.8) world=(115.0,-17.0) ws=(1.000,1.000) org=0 a=255 fl=3 part=STATUS_UD mag=(1.0, 1.0)
+    pan1 STATUS_UD_POW t=(-0.0,-34.0) s=(1.000,1.000) size=(0.0,0.0) world=(151.0,-34.0) ws=(1.000,1.000) org=0 a=255 fl=3
+      wnd1 STATUS_UD_base_POW t=(0.0,0.0) s=(1.000,1.000) size=(42.0,16.0) world=(151.0,-34.0) ws=(1.000,1.000) org=2 a=255 fl=1
+      pan1 UDNUM_POW t=(-6.0,-10.0) s=(1.000,1.000) size=(0.0,0.0) world=(145.0,-44.0) ws=(1.000,1.000) org=0 a=255 fl=3
+      pan1 UD_POW_ t=(-36.0,-0.0) s=(1.000,1.000) size=(0.0,0.0) world=(115.0,-34.0) ws=(1.000,1.000) org=0 a=255 fl=1
+        prt1 UD_POW t=(0.0,0.0) s=(1.000,1.000) size=(12.8,12.8) world=(115.0,-34.0) ws=(1.000,1.000) org=0 a=255 fl=3 part=STATUS_UD mag=(1.0, 1.0)
+    pan1 STATUS_UD_DEF t=(-0.0,-51.0) s=(1.000,1.000) size=(0.0,0.0) world=(151.0,-51.0) ws=(1.000,1.000) org=0 a=255 fl=3
+      wnd1 STATUS_UD_base_DEF t=(0.0,0.0) s=(1.000,1.000) size=(42.0,16.0) world=(151.0,-51.0) ws=(1.000,1.000) org=2 a=255 fl=1
+      pan1 UDNUM_DEF t=(-6.0,-10.0) s=(1.000,1.000) size=(0.0,0.0) world=(145.0,-61.0) ws=(1.000,1.000) org=0 a=255 fl=3
+      pan1 UD_DEF_ t=(-36.0,-0.0) s=(1.000,1.000) size=(0.0,0.0) world=(115.0,-51.0) ws=(1.000,1.000) org=0 a=255 fl=1
+        prt1 UD_DEF t=(0.0,0.0) s=(1.000,1.000) size=(12.8,12.8) world=(115.0,-51.0) ws=(1.000,1.000) org=0 a=255 fl=3 part=STATUS_UD mag=(1.0, 1.0)
+    pan1 STATUS_UD_SPEED t=(-0.0,-68.0) s=(1.000,1.000) size=(0.0,0.0) world=(151.0,-68.0) ws=(1.000,1.000) org=0 a=255 fl=3
+      wnd1 STATUS_UD_base_SPEED t=(0.0,0.0) s=(1.000,1.000) size=(42.0,16.0) world=(151.0,-68.0) ws=(1.000,1.000) org=2 a=255 fl=1
+      pan1 UDNUM_SPEED t=(-6.0,-10.0) s=(1.000,1.000) size=(0.0,0.0) world=(145.0,-78.0) ws=(1.000,1.000) org=0 a=255 fl=3
+      pan1 UD_SPEED_ t=(-36.0,-0.0) s=(1.000,1.000) size=(0.0,0.0) world=(115.0,-68.0) ws=(1.000,1.000) org=0 a=255 fl=1
+        prt1 UD_SPEED t=(0.0,0.0) s=(1.000,1.000) size=(12.8,12.8) world=(115.0,-68.0) ws=(1.000,1.000) org=0 a=255 fl=3 part=STATUS_UD mag=(1.0, 1.0)
+    pan1 STATUS_UD_HT t=(-0.0,-85.0) s=(1.000,1.000) size=(0.0,0.0) world=(151.0,-85.0) ws=(1.000,1.000) org=0 a=255 fl=3
+      wnd1 STATUS_UD_base_HT t=(0.0,0.0) s=(1.000,1.000) size=(42.0,16.0) world=(151.0,-85.0) ws=(1.000,1.000) org=2 a=255 fl=1
+      pan1 UDNUM_HT t=(-6.0,-10.0) s=(1.000,1.000) size=(0.0,0.0) world=(145.0,-95.0) ws=(1.000,1.000) org=0 a=255 fl=3
+      pan1 UD_HT_ t=(-36.0,-0.0) s=(1.000,1.000) size=(0.0,0.0) world=(115.0,-85.0) ws=(1.000,1.000) org=0 a=255 fl=1
+        prt1 UD_HT t=(0.0,0.0) s=(1.000,1.000) size=(12.8,12.8) world=(115.0,-85.0) ws=(1.000,1.000) org=0 a=255 fl=3 part=STATUS_UD mag=(1.0, 1.0)
+### STATUS_SET_LINE  layout {'center': 1, 'w': 320.0, 'h': 240.0}
+pan1 RootPane t=(0.0,0.0) s=(1.000,1.000) size=(320.0,240.0) world=(0.0,0.0) ws=(1.000,1.000) org=0 a=255 fl=1
+  pan1 MENU_STATUS t=(-148.0,-0.0) s=(1.000,1.000) size=(0.0,0.0) world=(-148.0,0.0) ws=(1.000,1.000) org=0 a=255 fl=3
+    pan1 STATUS_HP t=(0.0,0.0) s=(1.000,1.000) size=(0.0,0.0) world=(-148.0,0.0) ws=(1.000,1.000) org=0 a=255 fl=3
+      wnd1 STATUS_base_HP t=(0.0,0.0) s=(1.000,1.000) size=(48.0,16.0) world=(-148.0,0.0) ws=(1.000,1.000) org=1 a=255 fl=1
+      pic1 STATUS_icon_HP t=(8.0,-1.0) s=(1.000,1.000) size=(16.0,16.0) world=(-140.0,-1.0) ws=(1.000,1.000) org=0 a=255 fl=1
+      pan1 SNUM_HP t=(41.0,-10.0) s=(1.000,1.000) size=(0.0,0.0) world=(-107.0,-10.0) ws=(1.000,1.000) org=0 a=255 fl=3
+    pan1 STATUS_BP t=(50.0,0.0) s=(1.000,1.000) size=(0.0,0.0) world=(-98.0,0.0) ws=(1.000,1.000) org=0 a=255 fl=3
+      wnd1 STATUS_base_BP t=(0.0,0.0) s=(1.000,1.000) size=(48.0,16.0) world=(-98.0,0.0) ws=(1.000,1.000) org=1 a=255 fl=1
+      pic1 STATUS_icon_BP t=(8.0,-1.0) s=(1.000,1.000) size=(16.0,16.0) world=(-90.0,-1.0) ws=(1.000,1.000) org=0 a=255 fl=1
+      pan1 SNUM_BP t=(41.0,-10.0) s=(1.000,1.000) size=(0.0,0.0) world=(-57.0,-10.0) ws=(1.000,1.000) org=0 a=255 fl=3
+    pan1 STATUS_POW t=(100.0,0.0) s=(1.000,1.000) size=(0.0,0.0) world=(-48.0,0.0) ws=(1.000,1.000) org=0 a=255 fl=3
+      wnd1 STATUS_base_POW t=(0.0,0.0) s=(1.000,1.000) size=(48.0,16.0) world=(-48.0,0.0) ws=(1.000,1.000) org=1 a=255 fl=1
+      pic1 STATUS_icon_POW t=(8.0,0.0) s=(1.000,1.000) size=(16.0,16.0) world=(-40.0,0.0) ws=(1.000,1.000) org=0 a=255 fl=1
+      pan1 SNUM_POW t=(41.0,-10.0) s=(1.000,1.000) size=(0.0,0.0) world=(-7.0,-10.0) ws=(1.000,1.000) org=0 a=255 fl=3
+    pan1 STATUS_DEF t=(150.0,0.0) s=(1.000,1.000) size=(0.0,0.0) world=(2.0,0.0) ws=(1.000,1.000) org=0 a=255 fl=3
+      wnd1 STATUS_base_DEF t=(0.0,0.0) s=(1.000,1.000) size=(48.0,16.0) world=(2.0,0.0) ws=(1.000,1.000) org=1 a=255 fl=1
+      pic1 STATUS_icon_DEF t=(8.0,0.0) s=(1.000,1.000) size=(16.0,16.0) world=(10.0,0.0) ws=(1.000,1.000) org=0 a=255 fl=1
+      pan1 SNUM_DEF t=(41.0,-10.0) s=(1.000,1.000) size=(0.0,0.0) world=(43.0,-10.0) ws=(1.000,1.000) org=0 a=255 fl=3
+    pan1 STATUS_SPEED t=(200.0,0.0) s=(1.000,1.000) size=(0.0,0.0) world=(52.0,0.0) ws=(1.000,1.000) org=0 a=255 fl=3
+      wnd1 STATUS_base_SPEED t=(0.0,0.0) s=(1.000,1.000) size=(48.0,16.0) world=(52.0,0.0) ws=(1.000,1.000) org=1 a=255 fl=1
+      pic1 STATUS_icon_SPEED t=(8.0,0.0) s=(1.000,1.000) size=(16.0,16.0) world=(60.0,0.0) ws=(1.000,1.000) org=0 a=255 fl=1
+      pan1 SNUM_SPEED t=(41.0,-10.0) s=(1.000,1.000) size=(0.0,0.0) world=(93.0,-10.0) ws=(1.000,1.000) org=0 a=255 fl=3
+    pan1 STATUS_HT t=(250.0,0.0) s=(1.000,1.000) size=(0.0,0.0) world=(102.0,0.0) ws=(1.000,1.000) org=0 a=255 fl=3
+      wnd1 STATUS_base_HT t=(0.0,0.0) s=(1.000,1.000) size=(48.0,16.0) world=(102.0,0.0) ws=(1.000,1.000) org=1 a=255 fl=1
+      pic1 STATUS_icon_HT t=(8.0,0.0) s=(1.000,1.000) size=(16.0,16.0) world=(110.0,0.0) ws=(1.000,1.000) org=0 a=255 fl=1
+      pan1 SNUM_HT t=(41.0,-10.0) s=(1.000,1.000) size=(0.0,0.0) world=(143.0,-10.0) ws=(1.000,1.000) org=0 a=255 fl=3
+### STATUS_UD  layout {'center': 1, 'w': 320.0, 'h': 240.0}
+pan1 RootPane t=(0.0,0.0) s=(1.000,1.000) size=(320.0,240.0) world=(0.0,0.0) ws=(1.000,1.000) org=0 a=255 fl=1
+  pan1 STATUS_UD t=(0.0,0.0) s=(0.800,0.800) size=(0.0,0.0) world=(0.0,0.0) ws=(0.800,0.800) org=0 a=255 fl=3
+    pic1 STATUS_UD_icon t=(0.0,0.0) s=(1.000,1.000) size=(16.0,16.0) world=(0.0,0.0) ws=(0.800,0.800) org=0 a=255 fl=1
+### btn_RETURN  layout {'center': 1, 'w': 320.0, 'h': 240.0}
+pan1 RootPane t=(0.0,0.0) s=(1.000,1.000) size=(320.0,240.0) world=(0.0,0.0) ws=(1.000,1.000) org=0 a=255 fl=1
+  bnd1 hit t=(0.0,2.0) s=(1.000,1.000) size=(64.0,24.0) world=(0.0,2.0) ws=(1.000,1.000) org=1 a=255 fl=1
+  pan1 btn t=(0.0,0.0) s=(1.000,1.000) size=(0.0,0.0) world=(0.0,0.0) ws=(1.000,1.000) org=0 a=255 fl=3
+    wnd1 base_s t=(-4.0,-0.0) s=(1.000,1.000) size=(69.0,24.0) world=(-4.0,0.0) ws=(1.000,1.000) org=1 a=255 fl=1
+    wnd1 base_o t=(-4.0,2.0) s=(1.000,1.000) size=(68.0,24.0) world=(-4.0,2.0) ws=(1.000,1.000) org=1 a=255 fl=1
+    pic1 base_i t=(-2.0,2.0) s=(1.000,1.000) size=(64.0,20.0) world=(-2.0,2.0) ws=(1.000,1.000) org=1 a=255 fl=1
+    pic1 MARK t=(20.0,1.5) s=(1.000,1.000) size=(20.0,20.0) world=(20.0,1.5) ws=(1.000,1.000) org=1 a=255 fl=1
+### btn_pnl1_hit  layout {'center': 1, 'w': 320.0, 'h': 240.0}
+pan1 RootPane t=(0.0,0.0) s=(1.000,1.000) size=(320.0,240.0) world=(0.0,0.0) ws=(1.000,1.000) org=0 a=255 fl=1
+  bnd1 hit t=(0.0,0.0) s=(1.000,1.000) size=(126.0,112.0) world=(0.0,0.0) ws=(1.000,1.000) org=0 a=0 fl=1
+  wnd1 base t=(0.0,0.0) s=(1.000,1.000) size=(126.0,112.0) world=(0.0,0.0) ws=(1.000,1.000) org=0 a=0 fl=1
+### btn_pnl1_s_hit  layout {'center': 1, 'w': 320.0, 'h': 240.0}
+pan1 RootPane t=(0.0,0.0) s=(1.000,1.000) size=(320.0,240.0) world=(0.0,0.0) ws=(1.000,1.000) org=0 a=255 fl=1
+  bnd1 hit t=(0.0,0.0) s=(1.000,1.000) size=(100.0,112.0) world=(0.0,0.0) ws=(1.000,1.000) org=0 a=0 fl=1
+  wnd1 base t=(0.0,0.0) s=(1.000,1.000) size=(100.0,112.0) world=(0.0,0.0) ws=(1.000,1.000) org=0 a=0 fl=1
+### btn_pnl2_hit  layout {'center': 1, 'w': 320.0, 'h': 240.0}
+pan1 RootPane t=(0.0,0.0) s=(1.000,1.000) size=(320.0,240.0) world=(0.0,0.0) ws=(1.000,1.000) org=0 a=255 fl=1
+  bnd1 hit t=(0.0,0.0) s=(1.000,1.000) size=(262.0,112.0) world=(0.0,0.0) ws=(1.000,1.000) org=0 a=0 fl=1
+  pan1 base_ML t=(0.0,0.0) s=(1.000,1.000) size=(0.0,0.0) world=(0.0,0.0) ws=(1.000,1.000) org=0 a=0 fl=3
+    wnd1 base_L t=(-68.0,-0.0) s=(1.000,1.000) size=(126.0,112.0) world=(-68.0,0.0) ws=(1.000,1.000) org=0 a=255 fl=1
+    wnd1 base_M t=(68.0,0.0) s=(1.000,1.000) size=(126.0,112.0) world=(68.0,0.0) ws=(1.000,1.000) org=0 a=255 fl=1
+### tab_ITEM  layout {'center': 1, 'w': 320.0, 'h': 240.0}
+pan1 RootPane t=(0.0,0.0) s=(1.000,1.000) size=(320.0,240.0) world=(0.0,0.0) ws=(1.000,1.000) org=0 a=255 fl=1
+  bnd1 hit t=(0.0,0.0) s=(1.000,1.000) size=(44.0,24.0) world=(0.0,0.0) ws=(1.000,1.000) org=0 a=255 fl=1
+  pan1 btn t=(0.0,0.0) s=(1.000,1.000) size=(0.0,0.0) world=(0.0,0.0) ws=(1.000,1.000) org=0 a=255 fl=3
+    wnd1 base_s t=(-0.0,-2.0) s=(1.000,1.000) size=(46.0,24.0) world=(0.0,-2.0) ws=(1.000,1.000) org=0 a=255 fl=1
+    wnd1 base_o t=(0.0,0.0) s=(1.000,1.000) size=(44.0,24.0) world=(0.0,0.0) ws=(1.000,1.000) org=0 a=255 fl=1
+    pic1 base_i t=(0.0,0.0) s=(1.000,1.000) size=(40.0,20.0) world=(0.0,0.0) ws=(1.000,1.000) org=0 a=255 fl=1
+    pic1 MARK t=(0.0,0.0) s=(1.000,1.000) size=(22.0,22.0) world=(0.0,0.0) ws=(1.000,1.000) org=0 a=255 fl=1

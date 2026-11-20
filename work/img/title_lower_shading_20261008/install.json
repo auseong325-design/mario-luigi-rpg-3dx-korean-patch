@@ -1,0 +1,19 @@
+{
+  "changed_patch_files": [
+    "FMdl/JP/FMdl.dat"
+  ],
+  "changed_title_textures": [
+    "title_logo_JP_bottom"
+  ],
+  "stage_patch_junction_match": true,
+  "all_sd_and_zip_files_match": true,
+  "checked_patch_files": 36,
+  "zip_crc_check": "PASS",
+  "sd_install_method": "same-directory atomic replacement after retry",
+  "backup": "C:\\AI-Projects\\mario-luigi-rpg-3dx-korean-patch\\work\\build\\prev_title_lower_shading_20261008",
+  "fmdl_sha256": "6fb2b50bd8ef259ace157a4c623de3e808a14c0d7b604c00d4d3ed353eb63119",
+  "zip_sha256": "3f7e63b4cddb9af5f122529eab221e72de63e491ca16be755ebc1d1025a4b396",
+  "source_files_modified": false,
+  "azahar_launched": false,
+  "runtime_verified": false
+}

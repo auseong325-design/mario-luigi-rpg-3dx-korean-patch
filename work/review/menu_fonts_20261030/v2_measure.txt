@@ -1,0 +1,219 @@
+######## font
+--- ink threshold alpha >= 1/15
+Hangul (shipped, by use) left bearing : median 1 mean 0.73 p10 0 p90 2  [0:40% 1:46% 2:13%]
+Hangul (shipped, by use) right bearing: median 1 mean 1.20 p10 0 p90 2  [0:20% 1:39% 2:40% 3:0%]
+Hangul ink width                     : median 14 mean 14.01 p10 13 p90 15  [12:7% 13:30% 14:16% 15:46% 16:0%]
+Hangul-Hangul gap (pairs by use)     : median 2 mean 1.96 p10 1 p90 3  [0:8% 1:23% 2:38% 3:25% 4:6%]
+JP kana-kana gap (JP text)           : median 2 mean 1.94 p10 1 p90 3  [-1:1% 0:9% 1:28% 2:35% 3:19% 4:7% 5:2% 6:0% 7:0%]
+JP       Latin-Latin gap : median 1 mean 1.00 p10 0 p90 1  [0:12% 1:79% 2:7% 3:2%]
+JP       Latin-H/kana gap: median 1 mean 1.45 p10 1 p90 2  [0:8% 1:45% 2:41% 3:6% 4:1%]
+JP       H/kana-Latin gap: median 1 mean 1.05 p10 0 p90 2  [0:34% 1:34% 2:25% 3:7%]
+shipped  Latin-Latin gap : median 1 mean 1.11 p10 0 p90 2  [0:16% 1:67% 2:11% 3:3% 4:3%]
+shipped  Latin-H/kana gap: median 2 mean 1.76 p10 1 p90 3  [0:3% 1:36% 2:47% 3:13% 4:2% 5:0%]
+shipped  H/kana-Latin gap: median 1 mean 1.29 p10 0 p90 2  [0:23% 1:27% 2:47% 3:2%]
+v1       Latin-Latin gap : median 2 mean 2.32 p10 2 p90 3  [0:0% 1:6% 2:57% 3:38%]
+v1       Latin-H/kana gap: median 2 mean 1.95 p10 1 p90 3  [1:28% 2:51% 3:20% 4:1%]
+v1       H/kana-Latin gap: median 2 mean 1.89 p10 0 p90 3  [0:10% 1:18% 2:45% 3:27%]
+--- ink threshold alpha >= 4/15
+Hangul (shipped, by use) left bearing : median 1 mean 0.73 p10 0 p90 2  [0:40% 1:46% 2:13%]
+Hangul (shipped, by use) right bearing: median 1 mean 1.39 p10 0 p90 3  [0:17% 1:39% 2:32% 3:12%]
+Hangul ink width                     : median 14 mean 13.83 p10 12 p90 15  [11:2% 12:15% 13:25% 14:15% 15:43%]
+Hangul-Hangul gap (pairs by use)     : median 2 mean 2.17 p10 1 p90 4  [0:7% 1:21% 2:35% 3:24% 4:11% 5:3%]
+JP kana-kana gap (JP text)           : median 2 mean 2.11 p10 1 p90 4  [-1:0% 0:5% 1:26% 2:35% 3:22% 4:9% 5:2% 6:0% 7:0%]
+JP       Latin-Latin gap : median 1 mean 1.06 p10 0 p90 2  [0:11% 1:77% 2:8% 3:2% 4:2%]
+JP       Latin-H/kana gap: median 2 mean 1.56 p10 1 p90 2  [0:2% 1:47% 2:44% 3:6% 4:1%]
+JP       H/kana-Latin gap: median 1 mean 1.10 p10 0 p90 2  [0:31% 1:35% 2:27% 3:7%]
+shipped  Latin-Latin gap : median 1 mean 1.16 p10 0 p90 2  [0:15% 1:67% 2:10% 3:4% 4:5%]
+shipped  Latin-H/kana gap: median 2 mean 1.90 p10 1 p90 3  [0:1% 1:34% 2:46% 3:16% 4:4% 5:0%]
+shipped  H/kana-Latin gap: median 2 mean 1.38 p10 0 p90 2  [0:23% 1:25% 2:43% 3:9%]
+v1       Latin-Latin gap : median 2 mean 2.46 p10 2 p90 3  [1:1% 2:56% 3:37% 4:6%]
+v1       Latin-H/kana gap: median 2 mean 2.05 p10 1 p90 3  [1:27% 2:46% 3:24% 4:4% 5:0%]
+v1       H/kana-Latin gap: median 2 mean 1.98 p10 0 p90 3  [0:10% 1:18% 2:36% 3:36%]
+--- ink threshold alpha >= 8/15
+Hangul (shipped, by use) left bearing : median 1 mean 0.79 p10 0 p90 2  [0:39% 1:43% 2:18%]
+Hangul (shipped, by use) right bearing: median 1 mean 1.55 p10 1 p90 3  [0:6% 1:50% 2:28% 3:17%]
+Hangul ink width                     : median 14 mean 13.60 p10 12 p90 15  [11:2% 12:24% 13:23% 14:15% 15:36%]
+Hangul-Hangul gap (pairs by use)     : median 2 mean 2.40 p10 1 p90 4  [0:2% 1:21% 2:33% 3:27% 4:12% 5:5%]
+JP kana-kana gap (JP text)           : median 2 mean 2.41 p10 1 p90 4  [-1:0% 0:2% 1:21% 2:32% 3:26% 4:14% 5:3% 6:1% 7:0%]
+JP       Latin-Latin gap : median 1 mean 1.48 p10 1 p90 2  [1:61% 2:33% 3:5% 4:2%]
+JP       Latin-H/kana gap: median 2 mean 1.72 p10 1 p90 3  [0:0% 1:47% 2:36% 3:15% 4:2%]
+JP       H/kana-Latin gap: median 1 mean 1.24 p10 0 p90 2  [0:26% 1:33% 2:31% 3:10%]
+shipped  Latin-Latin gap : median 1 mean 1.61 p10 1 p90 3  [0:1% 1:57% 2:26% 3:11% 4:5%]
+shipped  Latin-H/kana gap: median 2 mean 2.22 p10 1 p90 3  [1:25% 2:37% 3:29% 4:8% 5:0%]
+shipped  H/kana-Latin gap: median 2 mean 1.60 p10 1 p90 3  [0:9% 1:40% 2:36% 3:14% 4:2%]
+v1       Latin-Latin gap : median 3 mean 2.88 p10 2 p90 3  [1:0% 2:20% 3:71% 4:9%]
+v1       Latin-H/kana gap: median 3 mean 2.62 p10 2 p90 3  [1:3% 2:41% 3:48% 4:9% 5:0%]
+v1       H/kana-Latin gap: median 2 mean 2.27 p10 1 p90 3  [0:1% 1:19% 2:39% 3:36% 4:5%]
+--- per glyph (alpha>=1 box / alpha>=4 core): lb rb ink adv   [shipped 3DX | v1 1DX]
+  0 x  283  |  shipped:  1  1  9 11 /  1  1  9  |  v1:  1  1 11 13 /  1  1 11
+  1 x  179  |  shipped:  1  3  5  9 /  1  3  5  |  v1:  1  2  6  9 /  1  3  5
+  2 x  108  |  shipped:  0  1 10 11 /  0  2  9  |  v1:  1  1  9 11 /  1  1  9
+  3 x  105  |  shipped:  0  1 10 11 /  0  1 10  |  v1:  1  2  9 12 /  1  2  9
+  4 x   22  |  shipped:  0  1 10 11 /  0  1 10  |  v1:  0  2 10 12 /  0  2 10
+  5 x   69  |  shipped:  0  2  9 11 /  0  2  9  |  v1:  1  2  9 12 /  1  2  9
+  6 x   23  |  shipped:  0  1  9 10 /  0  1  9  |  v1:  1  1 10 12 /  1  2  9
+  7 x   52  |  shipped:  0  1  9 10 /  0  1  9  |  v1:  0  1 10 11 /  0  1 10
+  8 x   27  |  shipped:  0  1  9 10 /  0  1  9  |  v1:  1  1 10 12 /  1  1 10
+  9 x   33  |  shipped:  0  1  9 10 /  0  1  9  |  v1:  1  1 10 12 /  1  2  9
+  A x   10  |  shipped:  0  1 13 14 /  0  1 13  |  v1:  0  2 12 14 /  0  2 12
+  B x    1  |  shipped:  0  1 11 12 /  0  1 11  |  v1:  1  2 10 13 /  1  2 10
+  C x   15  |  shipped:  0  1 12 13 /  0  1 12  |  v1:  1  2 11 14 /  1  2 11
+  D x  173  |  shipped:  0  1 11 12 /  0  1 11  |  v1:  1  2 10 13 /  1  2 10
+  E x  254  |  shipped:  0  1 10 11 /  0  1 10  |  v1:  1  1 10 12 /  1  1 10
+  F x  181  |  shipped:  0  1  9 10 /  0  1  9  |  v1:  1  1 10 12 /  1  1 10
+  G x   27  |  shipped:  0  1 12 13 /  0  1 12  |  v1:  1  2 11 14 /  1  2 11
+  H x  220  |  shipped:  0  1 10 11 /  0  1 10  |  v1:  1  2 10 13 /  1  2 10
+  I x    9  |  shipped:  1  1  3  5 /  1  2  2  |  v1:  1  2  3  6 /  1  2  3
+  J x    2  |  shipped:  0  1  9 10 /  0  1  9  |  v1:  0  2  8 10 /  0  2  8
+  K x   13  |  shipped:  0  0 11 11 /  0  1 10  |  v1:  1  2 10 13 /  1  2 10
+  L x  305  |  shipped:  0  0  9  9 /  0  0  9  |  v1:  1  1  9 11 /  1  1  9
+  M x   53  |  shipped:  0  1 13 14 /  0  1 13  |  v1:  1  2 12 15 /  1  2 12
+  N x   15  |  shipped:  0  1 10 11 /  0  1 10  |  v1:  1  2 10 13 /  1  2 10
+  O x  127  |  shipped:  0  0 13 13 /  0  0 13  |  v1:  1  2 11 14 /  1  2 11
+  P x  622  |  shipped:  0  1 10 11 /  0  1 10  |  v1:  1  1 10 12 /  1  1 10
+  Q x    0  |  shipped:  0  0 13 13 /  0  1 12  |  v1:  1  2 11 14 /  1  2 11
+  R x   11  |  shipped:  0  1 11 12 /  0  1 11  |  v1:  1  2 10 13 /  1  2 10
+  S x  292  |  shipped:  0  1 11 12 /  0  1 11  |  v1:  0  1 11 12 /  0  1 11
+  T x   11  |  shipped:  0  0 11 11 /  0  0 11  |  v1:  0  1 11 12 /  0  1 11
+  U x  185  |  shipped:  0  1 11 12 /  0  1 11  |  v1:  1  2 10 13 /  1  2 10
+  V x    4  |  shipped:  0  0 12 12 /  0  0 12  |  v1:  0  1 12 13 /  0  1 12
+  W x   78  |  shipped:  0  0 16 16 /  0  1 15  |  v1:  0  1 15 16 /  0  1 15
+  X x  174  |  shipped:  0  0 11 11 /  0  0 11  |  v1:  1  1 10 12 /  1  1 10
+  Y x   34  |  shipped:  0  0 12 12 /  0  0 12  |  v1:  1  0 11 12 /  1  1 10
+  Z x   20  |  shipped:  0  0 11 11 /  0  1 10  |  v1:  0  1 11 12 /  0  2 10
+  a x   23  |  shipped:  0  1  9 10 /  0  1  9  |  v1:  1  1 10 12 /  1  1 10
+  b x   12  |  shipped:  0  1  9 10 /  0  1  9  |  v1:  1  1 10 12 /  1  2  9
+  c x   40  |  shipped:  0  1  9 10 /  0  1  9  |  v1:  1  1  9 11 /  1  1  9
+  d x    3  |  shipped:  0  1 10 11 /  0  1 10  |  v1:  1  1 10 12 /  1  2  9
+  e x   92  |  shipped:  0  1 10 11 /  0  1 10  |  v1:  1  0 10 11 /  1  1  9
+  f x    4  |  shipped:  0  1  7  8 /  0  2  6  |  v1:  1  1  6  8 /  1  1  6
+  g x    0  |  shipped:  0  1 10 11 /  0  1 10  |  v1:  1  1 10 12 /  1  2  9
+  h x    6  |  shipped:  0  1  9 10 /  0  1  9  |  v1:  1  2  9 12 /  1  3  8
+  i x   34  |  shipped:  1  1  3  5 /  1  1  3  |  v1:  1  2  3  6 /  1  2  3
+  j x    0  |  shipped:  0  2  4  6 /  0  2  4  |  v1:  0  1  5  6 /  0  1  5
+  k x    6  |  shipped:  0  0  9  9 /  0  1  8  |  v1:  1  1  9 11 /  1  1  9
+  l x   76  |  shipped:  1  2  3  6 /  1  3  2  |  v1:  1  2  3  6 /  1  2  3
+  m x   16  |  shipped:  0  1 13 14 /  0  1 13  |  v1:  1  2 13 16 /  1  3 12
+  n x   42  |  shipped:  0  1  9 10 /  0  1  9  |  v1:  1  2  9 12 /  1  3  8
+  o x   18  |  shipped:  0  1 10 11 /  0  1 10  |  v1:  1  1 10 12 /  1  2  9
+  p x    0  |  shipped:  0  1  9 10 /  0  1  9  |  v1:  1  1 10 12 /  1  2  9
+  q x    0  |  shipped:  0  1 10 11 /  0  1 10  |  v1:  1  1 10 12 /  1  2  9
+  r x   13  |  shipped:  0  1  6  7 /  0  1  6  |  v1:  1  1  6  8 /  1  1  6
+  s x    8  |  shipped:  0  1  9 10 /  0  1  9  |  v1:  1  1  9 11 /  1  1  9
+  t x   42  |  shipped:  0  1  6  7 /  0  1  6  |  v1:  0  2  6  8 /  0  2  6
+  u x    6  |  shipped:  0  1  9 10 /  0  1  9  |  v1:  1  2  9 12 /  1  3  8
+  v x    0  |  shipped:  0  1  9 10 /  0  1  9  |  v1:  1  1  9 11 /  1  1  9
+  w x    4  |  shipped:  0  1 13 14 /  0  1 13  |  v1:  0  1 13 14 /  0  1 13
+  x x   36  |  shipped:  0  1  8  9 /  0  1  8  |  v1:  1  1  9 11 /  1  2  8
+  y x    0  |  shipped:  0  1  9 10 /  0  1  9  |  v1:  1  1  9 11 /  1  1  9
+  z x    0  |  shipped:  0  0  9  9 /  0  1  8  |  v1:  0  2  9 11 /  0  2  9
+
+######## font_btl
+--- ink threshold alpha >= 1/15
+Hangul (shipped, by use) left bearing : median 0 mean 0.47 p10 0 p90 1  [0:55% 1:44% 2:2%]
+Hangul (shipped, by use) right bearing: median 1 mean 0.88 p10 0 p90 2  [0:27% 1:57% 2:16% 3:0%]
+Hangul ink width                     : median 11 mean 10.59 p10 10 p90 12  [8:0% 9:8% 10:36% 11:46% 12:10%]
+Hangul-Hangul gap (pairs by use)     : median 1 mean 1.35 p10 0 p90 2  [0:15% 1:43% 2:35% 3:7% 4:0%]
+JP kana-kana gap (JP text)           : median 1 mean 1.41 p10 0 p90 3  [-1:1% 0:15% 1:40% 2:34% 3:10% 4:1% 5:0%]
+JP       Latin-Latin gap : median 1 mean 1.01 p10 1 p90 1  [0:1% 1:97% 2:2%]
+JP       Latin-H/kana gap: median 1 mean 1.27 p10 1 p90 2  [1:74% 2:25% 3:1%]
+JP       H/kana-Latin gap: median 1 mean 0.71 p10 0 p90 1  [-1:0% 0:38% 1:54% 2:9%]
+shipped  Latin-Latin gap : median 1 mean 1.04 p10 1 p90 1  [0:1% 1:94% 2:5%]
+shipped  Latin-H/kana gap: median 1 mean 1.40 p10 1 p90 2  [0:0% 1:60% 2:38% 3:1%]
+shipped  H/kana-Latin gap: median 1 mean 1.12 p10 0 p90 2  [0:34% 1:20% 2:45% 3:1%]
+v1       Latin-Latin gap : median 2 mean 1.74 p10 1 p90 2  [0:1% 1:31% 2:62% 3:6%]
+v1       Latin-H/kana gap: median 1 mean 1.14 p10 0 p90 2  [0:30% 1:35% 2:27% 3:9%]
+v1       H/kana-Latin gap: median 1 mean 1.40 p10 0 p90 3  [0:20% 1:31% 2:37% 3:12%]
+--- ink threshold alpha >= 4/15
+Hangul (shipped, by use) left bearing : median 0 mean 0.47 p10 0 p90 1  [0:54% 1:44% 2:2%]
+Hangul (shipped, by use) right bearing: median 1 mean 1.24 p10 0 p90 2  [0:11% 1:54% 2:35% 3:0%]
+Hangul ink width                     : median 10 mean 10.23 p10 9 p90 11  [8:2% 9:23% 10:26% 11:49% 12:0%]
+Hangul-Hangul gap (pairs by use)     : median 2 mean 1.71 p10 1 p90 3  [0:6% 1:34% 2:42% 3:17% 4:1%]
+JP kana-kana gap (JP text)           : median 2 mean 1.55 p10 0 p90 3  [-1:0% 0:11% 1:38% 2:39% 3:11% 4:1% 5:0% 6:0%]
+JP       Latin-Latin gap : median 1 mean 1.02 p10 1 p90 1  [0:0% 1:98% 2:2%]
+JP       Latin-H/kana gap: median 1 mean 1.27 p10 1 p90 2  [1:74% 2:25% 3:1%]
+JP       H/kana-Latin gap: median 1 mean 0.74 p10 0 p90 2  [0:36% 1:54% 2:10%]
+shipped  Latin-Latin gap : median 1 mean 1.05 p10 1 p90 1  [0:0% 1:95% 2:5%]
+shipped  Latin-H/kana gap: median 1 mean 1.41 p10 1 p90 2  [1:60% 2:39% 3:1%]
+shipped  H/kana-Latin gap: median 2 mean 1.33 p10 0 p90 2  [0:20% 1:29% 2:49% 3:2%]
+v1       Latin-Latin gap : median 2 mean 1.91 p10 1 p90 3  [0:0% 1:21% 2:67% 3:11% 4:0%]
+v1       Latin-H/kana gap: median 2 mean 1.75 p10 1 p90 3  [1:45% 2:36% 3:18% 4:1%]
+v1       H/kana-Latin gap: median 2 mean 1.61 p10 1 p90 3  [0:7% 1:41% 2:36% 3:16%]
+--- ink threshold alpha >= 8/15
+Hangul (shipped, by use) left bearing : median 1 mean 0.58 p10 0 p90 1  [0:44% 1:54% 2:2%]
+Hangul (shipped, by use) right bearing: median 1 mean 1.32 p10 1 p90 2  [0:8% 1:51% 2:41% 3:0%]
+Hangul ink width                     : median 10 mean 10.04 p10 9 p90 11  [8:2% 9:32% 10:26% 11:40%]
+Hangul-Hangul gap (pairs by use)     : median 2 mean 1.91 p10 1 p90 3  [0:4% 1:26% 2:45% 3:24% 4:1%]
+JP kana-kana gap (JP text)           : median 2 mean 2.00 p10 1 p90 3  [-1:0% 0:3% 1:27% 2:43% 3:21% 4:5% 5:0% 6:0%]
+JP       Latin-Latin gap : median 1 mean 1.02 p10 1 p90 1  [1:98% 2:2% 3:0%]
+JP       Latin-H/kana gap: median 1 mean 1.35 p10 1 p90 2  [1:66% 2:33% 3:0% 4:1%]
+JP       H/kana-Latin gap: median 1 mean 0.84 p10 0 p90 2  [0:29% 1:58% 2:13%]
+shipped  Latin-Latin gap : median 1 mean 1.15 p10 1 p90 2  [1:89% 2:7% 3:4%]
+shipped  Latin-H/kana gap: median 2 mean 1.92 p10 1 p90 3  [1:30% 2:50% 3:19% 4:2%]
+shipped  H/kana-Latin gap: median 2 mean 1.47 p10 1 p90 2  [0:9% 1:40% 2:49% 3:3%]
+v1       Latin-Latin gap : median 2 mean 2.27 p10 1 p90 3  [1:10% 2:54% 3:35% 4:1%]
+v1       Latin-H/kana gap: median 2 mean 2.09 p10 1 p90 3  [1:22% 2:49% 3:28% 4:2%]
+v1       H/kana-Latin gap: median 2 mean 1.90 p10 1 p90 3  [0:2% 1:26% 2:50% 3:21%]
+--- per glyph (alpha>=1 box / alpha>=4 core): lb rb ink adv   [shipped 3DX | v1 1DX]
+  0 x  283  |  shipped:  0  1  7  8 /  0  1  7  |  v1:  0  1  9 10 /  0  2  8
+  1 x  179  |  shipped:  1  2  4  7 /  1  2  4  |  v1:  0  2  5  7 /  0  3  4
+  2 x  108  |  shipped:  0  1  7  8 /  0  1  7  |  v1:  0  2  7  9 /  0  2  7
+  3 x  105  |  shipped:  0  1  7  8 /  0  1  7  |  v1:  1  1  7  9 /  1  1  7
+  4 x   22  |  shipped:  0  0  8  8 /  0  1  7  |  v1:  0  1  8  9 /  0  1  8
+  5 x   69  |  shipped:  0  1  7  8 /  0  1  7  |  v1:  0  2  7  9 /  0  2  7
+  6 x   23  |  shipped:  0  1  7  8 /  0  1  7  |  v1:  1  1  7  9 /  1  1  7
+  7 x   52  |  shipped:  0  1  7  8 /  0  1  7  |  v1:  0  0  8  8 /  0  1  7
+  8 x   27  |  shipped:  0  1  7  8 /  0  1  7  |  v1:  0  1  8  9 /  0  1  8
+  9 x   33  |  shipped:  0  1  7  8 /  0  1  7  |  v1:  0  1  8  9 /  0  2  7
+  A x   10  |  shipped:  0  1 10 11 /  0  1 10  |  v1:  0  1  9 10 /  0  1  9
+  B x    1  |  shipped:  0  1  8  9 /  0  1  8  |  v1:  1  1  8 10 /  1  1  8
+  C x   15  |  shipped:  0  1  9 10 /  0  1  9  |  v1:  1  1  8 10 /  1  1  8
+  D x  173  |  shipped:  0  1  8  9 /  0  1  8  |  v1:  1  1  8 10 /  1  1  8
+  E x  254  |  shipped:  0  1  7  8 /  0  1  7  |  v1:  1  1  7  9 /  1  1  7
+  F x  181  |  shipped:  0  1  6  7 /  0  1  6  |  v1:  1  1  7  9 /  1  1  7
+  G x   27  |  shipped:  0  1  9 10 /  0  1  9  |  v1:  1  1  9 11 /  1  1  9
+  H x  220  |  shipped:  0  1  8  9 /  0  1  8  |  v1:  1  1  8 10 /  1  1  8
+  I x    9  |  shipped:  1  1  2  4 /  1  1  2  |  v1:  1  2  2  5 /  1  2  2
+  J x    2  |  shipped:  0  1  7  8 /  0  1  7  |  v1:  0  2  6  8 /  0  2  6
+  K x   13  |  shipped:  0  1  7  8 /  0  1  7  |  v1:  1  1  8 10 /  1  1  8
+  L x  305  |  shipped:  0  1  6  7 /  0  1  6  |  v1:  1  1  7  9 /  1  1  7
+  M x   53  |  shipped:  0  1 10 11 /  0  1 10  |  v1:  1  1  9 11 /  1  1  9
+  N x   15  |  shipped:  0  1  8  9 /  0  1  8  |  v1:  1  1  8 10 /  1  1  8
+  O x  127  |  shipped:  0  1  9 10 /  0  1  9  |  v1:  1  1  9 11 /  1  1  9
+  P x  622  |  shipped:  0  1  7  8 /  0  1  7  |  v1:  1  0  8  9 /  1  1  7
+  Q x    0  |  shipped:  0  1  9 10 /  0  1  9  |  v1:  1  1  9 11 /  1  1  9
+  R x   11  |  shipped:  0  0  9  9 /  0  1  8  |  v1:  1  1  8 10 /  1  2  7
+  S x  292  |  shipped:  0  1  8  9 /  0  1  8  |  v1:  0  1  8  9 /  0  1  8
+  T x   11  |  shipped:  0  1  7  8 /  0  1  7  |  v1:  0  1  8  9 /  0  1  8
+  U x  185  |  shipped:  0  1  8  9 /  0  1  8  |  v1:  1  1  8 10 /  1  1  8
+  V x    4  |  shipped:  0  1  9 10 /  0  1  9  |  v1:  0  1  9 10 /  0  1  9
+  W x   78  |  shipped:  0  1 11 12 /  0  1 11  |  v1:  0  1 11 12 /  0  1 11
+  X x  174  |  shipped:  0  1  8  9 /  0  1  8  |  v1:  0  1  8  9 /  0  1  8
+  Y x   34  |  shipped:  0  1  8  9 /  0  1  8  |  v1:  0  1  8  9 /  0  1  8
+  Z x   20  |  shipped:  0  1  8  9 /  0  1  8  |  v1:  0  1  8  9 /  0  1  8
+  a x   23  |  shipped:  0  1  7  8 /  0  1  7  |  v1:  1  1  7  9 /  1  1  7
+  b x   12  |  shipped:  0  1  7  8 /  0  1  7  |  v1:  1  1  7  9 /  1  1  7
+  c x   40  |  shipped:  0  1  6  7 /  0  1  6  |  v1:  0  2  7  9 /  0  2  7
+  d x    3  |  shipped:  0  1  7  8 /  0  1  7  |  v1:  0  1  8  9 /  0  2  7
+  e x   92  |  shipped:  0  1  7  8 /  0  1  7  |  v1:  0  2  7  9 /  0  2  7
+  f x    4  |  shipped:  0  1  5  6 /  0  1  5  |  v1:  0  1  5  6 /  0  2  4
+  g x    0  |  shipped:  0  1  7  8 /  0  1  7  |  v1:  0  1  8  9 /  0  2  7
+  h x    6  |  shipped:  0  1  6  7 /  0  1  6  |  v1:  1  1  7  9 /  1  2  6
+  i x   34  |  shipped:  0  1  2  3 /  0  1  2  |  v1:  1  2  2  5 /  1  2  2
+  j x    0  |  shipped:  0  1  3  4 /  0  1  3  |  v1:  0  1  4  5 /  0  1  4
+  k x    6  |  shipped:  0  1  6  7 /  0  1  6  |  v1:  1  0  7  8 /  1  0  7
+  l x   76  |  shipped:  0  1  2  3 /  0  1  2  |  v1:  1  2  2  5 /  1  2  2
+  m x   16  |  shipped:  0  1  9 10 /  0  1  9  |  v1:  1  1 10 12 /  1  2  9
+  n x   42  |  shipped:  0  1  6  7 /  0  1  6  |  v1:  1  1  7  9 /  1  1  7
+  o x   18  |  shipped:  0  1  7  8 /  0  1  7  |  v1:  0  1  8  9 /  0  2  7
+  p x    0  |  shipped:  0  1  7  8 /  0  1  7  |  v1:  1  1  7  9 /  1  1  7
+  q x    0  |  shipped:  0  1  7  8 /  0  1  7  |  v1:  0  1  8  9 /  0  2  7
+  r x   13  |  shipped:  0  1  4  5 /  0  1  4  |  v1:  1  0  5  6 /  1  0  5
+  s x    8  |  shipped:  0  0  7  7 /  0  0  7  |  v1:  0  1  7  8 /  0  1  7
+  t x   42  |  shipped:  0  1  5  6 /  0  1  5  |  v1:  0  1  5  6 /  0  2  4
+  u x    6  |  shipped:  0  1  6  7 /  0  1  6  |  v1:  1  1  7  9 /  1  2  6
+  v x    0  |  shipped:  0  1  7  8 /  0  1  7  |  v1:  0  1  7  8 /  0  1  7
+  w x    4  |  shipped:  0  1  9 10 /  0  1  9  |  v1:  0  1 10 11 /  0  2  9
+  x x   36  |  shipped:  0  1  6  7 /  0  1  6  |  v1:  0  1  7  8 /  0  1  7
+  y x    0  |  shipped:  0  1  7  8 /  0  1  7  |  v1:  0  1  7  8 /  0  1  7
+  z x    0  |  shipped:  0  1  6  7 /  0  1  6  |  v1:  0  1  7  8 /  0  1  7

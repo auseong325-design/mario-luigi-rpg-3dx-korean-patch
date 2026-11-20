@@ -1,0 +1,7 @@
+font.bffnt vs font_sys.bffnt: common 1385 identical 20 different 1365 (hangul same 0 diff 1103) width-diff 268 e.g. '!%&()+,-./01'; only-in-font.bffnt: 0 only-in-font_sys.bffnt: 0
+font_btl.bffnt vs font_sys_btl.bffnt: common 1385 identical 20 different 1365 (hangul same 0 diff 1103) width-diff 304 e.g. '!%&()+,-./01'; only-in-font_btl.bffnt: 0 only-in-font_sys_btl.bffnt: 0
+  1dx_kr.code.bin: 'font_sys.bffnt' at file 0x3963DC (addr 0x004963DC)
+  1dx_kr.code.bin: 'font_sys_btl.bffnt' at file 0x396394 (addr 0x00496394)
+  1dx_kr.code.bin: 'font_l.bffnt' at file 0x396378 (addr 0x00496378)
+  1dx_kr.code.bin: 'font.bffnt' at file 0x3963FC (addr 0x004963FC)
+  1dx_kr.code.bin: 'font_btl.bffnt' at file 0x3963BC (addr 0x004963BC)

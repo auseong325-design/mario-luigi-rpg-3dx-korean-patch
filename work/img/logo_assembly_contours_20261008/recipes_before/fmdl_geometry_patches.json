@@ -1,0 +1,57 @@
+{
+  "description": "2026-10-08 intro &: Korean title spacing and baseline; two copies of the & mesh.",
+  "derivation": {
+    "final_scale": 0.6600000262260437,
+    "intro_scale": 0.75,
+    "final_amp_shift_px": 15.5,
+    "local_dx": 13.640000542004904,
+    "local_dz": -23.88000003496806,
+    "world_dx": 10.230000406503677,
+    "world_dz": -17.910000026226044,
+    "ma_face_bottom": 130.5,
+    "amp_face_bottom": 131.5
+  },
+  "models": {
+    "fmd_title_JP_ja": {
+      "original_command_sha256": "ba4360720341a8c30a87da13a2f9dcf454c6fbc4200bf47472b94b832f316e53",
+      "edits": [
+        {
+          "mesh": "logo_L/title_logo_and_JP",
+          "axis": "X",
+          "offset": 17924,
+          "before": "010080c2",
+          "after": "a67049c2",
+          "old": -64.00000762939453,
+          "new": -50.360008239746094
+        },
+        {
+          "mesh": "logo_L/title_logo_and_JP",
+          "axis": "Z",
+          "offset": 17916,
+          "before": "00004041",
+          "after": "7b143ec1",
+          "old": 12.0,
+          "new": -11.880000114440918
+        },
+        {
+          "mesh": "logo_pch/title_logo_and_JP",
+          "axis": "X",
+          "offset": 22596,
+          "before": "0000a036",
+          "after": "763d5a41",
+          "old": 4.76837158203125e-06,
+          "new": 13.640005111694336
+        },
+        {
+          "mesh": "logo_pch/title_logo_and_JP",
+          "axis": "Z",
+          "offset": 22588,
+          "before": "0000a036",
+          "after": "3b0abfc1",
+          "old": 4.76837158203125e-06,
+          "new": -23.879995346069336
+        }
+      ]
+    }
+  }
+}

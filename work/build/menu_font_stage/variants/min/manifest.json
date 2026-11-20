@@ -1,0 +1,4209 @@
+{
+ "rule": ", for font.bffnt and font_btl.bffnt (font_l untouched):\n  * Hangul and every other glyph stay as installed, except the characters in CHARS (ASCII letters, digits,\n    ASCII punctuation) that both the installed font and the 1DX KR font of the same role have.\n  * Those get the 1DX glyph pixels unchanged (alpha > 0 ink box), moved vertically by the same whole-pixel shift\n    the installed Hangul got (TGLP baseline difference - 1: font +1, font_btl -1), so Latin, digits, punctuation\n    and Hangul keep exactly the 1DX relation to each other (one baseline, one design).\n  * Advance (CWDH.char) stays the installed one (= the scripts/merge_ko.py width model) when the 1DX ink leaves\n    at least 1 px of side bearing; otherwise it grows to ink + 1 px, never beyond the 1DX advance. The free\n    bearing is split in the 1DX proportions. The space keeps its 3DX width.\n  * Nothing else changes: sheet count/size/format, CMAP, every other CWDH entry and glyph cell.",
+ "spacing": "min",
+ "fonts": {
+  "font": {
+   "input": "patch\\00040000001CA900\\romfs\\Msg\\JP_ja\\font.bffnt",
+   "input_sha256": "461125B999E098FCDB9A746EA7FDD8DE2B90D25BC7360F0F2F71A58BF4209941",
+   "donor": "ml 1dx\\3romfs\\Msg\\KR_ko\\font.bffnt",
+   "donor_sha256": "3B04D13FC2478590D4FD44AAAFE41DE7AF5934859DBB941A5E0DED78E0D8418D",
+   "output": "work\\build\\menu_font_stage\\variants\\min\\font.bffnt",
+   "output_sha256": "F81ACA37400B27A9E3388E41B57E38773086E28216B844CCFAA71ABCBAF71320",
+   "size": 549096,
+   "vertical_shift_vs_1dx_cell": 1,
+   "changed": [
+    {
+     "char": "0",
+     "code": "U+0030",
+     "glyph": 8,
+     "donor_glyph": 11,
+     "was_from": "3DX",
+     "cwdh_old": [
+      1,
+      9,
+      11
+     ],
+     "cwdh_new": [
+      1,
+      11,
+      12
+     ],
+     "donor_cwdh": [
+      1,
+      11,
+      13
+     ],
+     "rows": [
+      2,
+      14
+     ],
+     "advance_delta": 1
+    },
+    {
+     "char": "1",
+     "code": "U+0031",
+     "glyph": 9,
+     "donor_glyph": 12,
+     "was_from": "3DX",
+     "cwdh_old": [
+      1,
+      5,
+      9
+     ],
+     "cwdh_new": [
+      1,
+      6,
+      9
+     ],
+     "donor_cwdh": [
+      1,
+      6,
+      9
+     ],
+     "rows": [
+      2,
+      13
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "2",
+     "code": "U+0032",
+     "glyph": 10,
+     "donor_glyph": 13,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      10,
+      11
+     ],
+     "cwdh_new": [
+      1,
+      9,
+      11
+     ],
+     "donor_cwdh": [
+      1,
+      9,
+      11
+     ],
+     "rows": [
+      2,
+      13
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "3",
+     "code": "U+0033",
+     "glyph": 11,
+     "donor_glyph": 14,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      10,
+      11
+     ],
+     "cwdh_new": [
+      1,
+      9,
+      11
+     ],
+     "donor_cwdh": [
+      1,
+      9,
+      12
+     ],
+     "rows": [
+      2,
+      13
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "4",
+     "code": "U+0034",
+     "glyph": 12,
+     "donor_glyph": 15,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      10,
+      11
+     ],
+     "cwdh_new": [
+      0,
+      10,
+      11
+     ],
+     "donor_cwdh": [
+      0,
+      10,
+      12
+     ],
+     "rows": [
+      2,
+      13
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "5",
+     "code": "U+0035",
+     "glyph": 13,
+     "donor_glyph": 16,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      9,
+      11
+     ],
+     "cwdh_new": [
+      1,
+      9,
+      11
+     ],
+     "donor_cwdh": [
+      1,
+      9,
+      12
+     ],
+     "rows": [
+      2,
+      13
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "6",
+     "code": "U+0036",
+     "glyph": 14,
+     "donor_glyph": 17,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      9,
+      10
+     ],
+     "cwdh_new": [
+      1,
+      10,
+      10
+     ],
+     "donor_cwdh": [
+      1,
+      10,
+      12
+     ],
+     "rows": [
+      2,
+      13
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "7",
+     "code": "U+0037",
+     "glyph": 15,
+     "donor_glyph": 18,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      9,
+      10
+     ],
+     "cwdh_new": [
+      0,
+      10,
+      11
+     ],
+     "donor_cwdh": [
+      0,
+      10,
+      11
+     ],
+     "rows": [
+      2,
+      14
+     ],
+     "advance_delta": 1
+    },
+    {
+     "char": "8",
+     "code": "U+0038",
+     "glyph": 16,
+     "donor_glyph": 19,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      9,
+      10
+     ],
+     "cwdh_new": [
+      1,
+      10,
+      11
+     ],
+     "donor_cwdh": [
+      1,
+      10,
+      12
+     ],
+     "rows": [
+      2,
+      13
+     ],
+     "advance_delta": 1
+    },
+    {
+     "char": "9",
+     "code": "U+0039",
+     "glyph": 17,
+     "donor_glyph": 20,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      9,
+      10
+     ],
+     "cwdh_new": [
+      1,
+      10,
+      10
+     ],
+     "donor_cwdh": [
+      1,
+      10,
+      12
+     ],
+     "rows": [
+      2,
+      13
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "A",
+     "code": "U+0041",
+     "glyph": 20,
+     "donor_glyph": 24,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      13,
+      14
+     ],
+     "cwdh_new": [
+      0,
+      12,
+      14
+     ],
+     "donor_cwdh": [
+      0,
+      12,
+      14
+     ],
+     "rows": [
+      2,
+      14
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "B",
+     "code": "U+0042",
+     "glyph": 21,
+     "donor_glyph": 25,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      11,
+      12
+     ],
+     "cwdh_new": [
+      1,
+      10,
+      12
+     ],
+     "donor_cwdh": [
+      1,
+      10,
+      13
+     ],
+     "rows": [
+      2,
+      13
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "C",
+     "code": "U+0043",
+     "glyph": 22,
+     "donor_glyph": 26,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      12,
+      13
+     ],
+     "cwdh_new": [
+      1,
+      11,
+      13
+     ],
+     "donor_cwdh": [
+      1,
+      11,
+      14
+     ],
+     "rows": [
+      2,
+      13
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "D",
+     "code": "U+0044",
+     "glyph": 23,
+     "donor_glyph": 27,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      11,
+      12
+     ],
+     "cwdh_new": [
+      1,
+      10,
+      12
+     ],
+     "donor_cwdh": [
+      1,
+      10,
+      13
+     ],
+     "rows": [
+      2,
+      13
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "E",
+     "code": "U+0045",
+     "glyph": 24,
+     "donor_glyph": 28,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      10,
+      11
+     ],
+     "cwdh_new": [
+      1,
+      10,
+      11
+     ],
+     "donor_cwdh": [
+      1,
+      10,
+      12
+     ],
+     "rows": [
+      2,
+      13
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "F",
+     "code": "U+0046",
+     "glyph": 25,
+     "donor_glyph": 29,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      9,
+      10
+     ],
+     "cwdh_new": [
+      1,
+      10,
+      11
+     ],
+     "donor_cwdh": [
+      1,
+      10,
+      12
+     ],
+     "rows": [
+      2,
+      13
+     ],
+     "advance_delta": 1
+    },
+    {
+     "char": "G",
+     "code": "U+0047",
+     "glyph": 26,
+     "donor_glyph": 30,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      12,
+      13
+     ],
+     "cwdh_new": [
+      1,
+      11,
+      13
+     ],
+     "donor_cwdh": [
+      1,
+      11,
+      14
+     ],
+     "rows": [
+      2,
+      13
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "H",
+     "code": "U+0048",
+     "glyph": 27,
+     "donor_glyph": 31,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      10,
+      11
+     ],
+     "cwdh_new": [
+      1,
+      10,
+      11
+     ],
+     "donor_cwdh": [
+      1,
+      10,
+      13
+     ],
+     "rows": [
+      2,
+      14
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "I",
+     "code": "U+0049",
+     "glyph": 28,
+     "donor_glyph": 32,
+     "was_from": "3DX",
+     "cwdh_old": [
+      1,
+      3,
+      5
+     ],
+     "cwdh_new": [
+      1,
+      3,
+      5
+     ],
+     "donor_cwdh": [
+      1,
+      3,
+      6
+     ],
+     "rows": [
+      2,
+      14
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "J",
+     "code": "U+004A",
+     "glyph": 29,
+     "donor_glyph": 33,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      9,
+      10
+     ],
+     "cwdh_new": [
+      0,
+      8,
+      10
+     ],
+     "donor_cwdh": [
+      0,
+      8,
+      10
+     ],
+     "rows": [
+      2,
+      13
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "K",
+     "code": "U+004B",
+     "glyph": 30,
+     "donor_glyph": 34,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      11,
+      11
+     ],
+     "cwdh_new": [
+      1,
+      10,
+      11
+     ],
+     "donor_cwdh": [
+      1,
+      10,
+      13
+     ],
+     "rows": [
+      2,
+      14
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "L",
+     "code": "U+004C",
+     "glyph": 31,
+     "donor_glyph": 35,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      9,
+      9
+     ],
+     "cwdh_new": [
+      1,
+      9,
+      10
+     ],
+     "donor_cwdh": [
+      1,
+      9,
+      11
+     ],
+     "rows": [
+      2,
+      13
+     ],
+     "advance_delta": 1
+    },
+    {
+     "char": "M",
+     "code": "U+004D",
+     "glyph": 32,
+     "donor_glyph": 36,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      13,
+      14
+     ],
+     "cwdh_new": [
+      1,
+      12,
+      14
+     ],
+     "donor_cwdh": [
+      1,
+      12,
+      15
+     ],
+     "rows": [
+      2,
+      13
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "N",
+     "code": "U+004E",
+     "glyph": 33,
+     "donor_glyph": 37,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      10,
+      11
+     ],
+     "cwdh_new": [
+      1,
+      10,
+      11
+     ],
+     "donor_cwdh": [
+      1,
+      10,
+      13
+     ],
+     "rows": [
+      2,
+      13
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "O",
+     "code": "U+004F",
+     "glyph": 34,
+     "donor_glyph": 38,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      13,
+      13
+     ],
+     "cwdh_new": [
+      1,
+      11,
+      13
+     ],
+     "donor_cwdh": [
+      1,
+      11,
+      14
+     ],
+     "rows": [
+      2,
+      13
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "P",
+     "code": "U+0050",
+     "glyph": 35,
+     "donor_glyph": 39,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      10,
+      11
+     ],
+     "cwdh_new": [
+      1,
+      10,
+      11
+     ],
+     "donor_cwdh": [
+      1,
+      10,
+      12
+     ],
+     "rows": [
+      2,
+      13
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "Q",
+     "code": "U+0051",
+     "glyph": 36,
+     "donor_glyph": 40,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      13,
+      13
+     ],
+     "cwdh_new": [
+      1,
+      11,
+      13
+     ],
+     "donor_cwdh": [
+      1,
+      11,
+      14
+     ],
+     "rows": [
+      2,
+      14
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "R",
+     "code": "U+0052",
+     "glyph": 37,
+     "donor_glyph": 41,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      11,
+      12
+     ],
+     "cwdh_new": [
+      1,
+      10,
+      12
+     ],
+     "donor_cwdh": [
+      1,
+      10,
+      13
+     ],
+     "rows": [
+      2,
+      13
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "S",
+     "code": "U+0053",
+     "glyph": 38,
+     "donor_glyph": 42,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      11,
+      12
+     ],
+     "cwdh_new": [
+      0,
+      11,
+      12
+     ],
+     "donor_cwdh": [
+      0,
+      11,
+      12
+     ],
+     "rows": [
+      2,
+      14
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "T",
+     "code": "U+0054",
+     "glyph": 39,
+     "donor_glyph": 43,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      11,
+      11
+     ],
+     "cwdh_new": [
+      0,
+      11,
+      12
+     ],
+     "donor_cwdh": [
+      0,
+      11,
+      12
+     ],
+     "rows": [
+      2,
+      14
+     ],
+     "advance_delta": 1
+    },
+    {
+     "char": "U",
+     "code": "U+0055",
+     "glyph": 40,
+     "donor_glyph": 44,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      11,
+      12
+     ],
+     "cwdh_new": [
+      1,
+      10,
+      12
+     ],
+     "donor_cwdh": [
+      1,
+      10,
+      13
+     ],
+     "rows": [
+      2,
+      13
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "V",
+     "code": "U+0056",
+     "glyph": 41,
+     "donor_glyph": 45,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      12,
+      12
+     ],
+     "cwdh_new": [
+      0,
+      12,
+      13
+     ],
+     "donor_cwdh": [
+      0,
+      12,
+      13
+     ],
+     "rows": [
+      2,
+      13
+     ],
+     "advance_delta": 1
+    },
+    {
+     "char": "W",
+     "code": "U+0057",
+     "glyph": 42,
+     "donor_glyph": 46,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      16,
+      16
+     ],
+     "cwdh_new": [
+      0,
+      15,
+      16
+     ],
+     "donor_cwdh": [
+      0,
+      15,
+      16
+     ],
+     "rows": [
+      2,
+      13
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "X",
+     "code": "U+0058",
+     "glyph": 43,
+     "donor_glyph": 47,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      11,
+      11
+     ],
+     "cwdh_new": [
+      1,
+      10,
+      11
+     ],
+     "donor_cwdh": [
+      1,
+      10,
+      12
+     ],
+     "rows": [
+      2,
+      13
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "Y",
+     "code": "U+0059",
+     "glyph": 44,
+     "donor_glyph": 48,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      12,
+      12
+     ],
+     "cwdh_new": [
+      1,
+      11,
+      12
+     ],
+     "donor_cwdh": [
+      1,
+      11,
+      12
+     ],
+     "rows": [
+      2,
+      13
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "Z",
+     "code": "U+005A",
+     "glyph": 45,
+     "donor_glyph": 49,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      11,
+      11
+     ],
+     "cwdh_new": [
+      0,
+      11,
+      11
+     ],
+     "donor_cwdh": [
+      0,
+      11,
+      12
+     ],
+     "rows": [
+      2,
+      13
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "a",
+     "code": "U+0061",
+     "glyph": 46,
+     "donor_glyph": 52,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      9,
+      10
+     ],
+     "cwdh_new": [
+      1,
+      10,
+      11
+     ],
+     "donor_cwdh": [
+      1,
+      10,
+      12
+     ],
+     "rows": [
+      4,
+      14
+     ],
+     "advance_delta": 1
+    },
+    {
+     "char": "b",
+     "code": "U+0062",
+     "glyph": 47,
+     "donor_glyph": 53,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      9,
+      10
+     ],
+     "cwdh_new": [
+      1,
+      10,
+      10
+     ],
+     "donor_cwdh": [
+      1,
+      10,
+      12
+     ],
+     "rows": [
+      2,
+      13
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "c",
+     "code": "U+0063",
+     "glyph": 48,
+     "donor_glyph": 54,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      9,
+      10
+     ],
+     "cwdh_new": [
+      1,
+      9,
+      10
+     ],
+     "donor_cwdh": [
+      1,
+      9,
+      11
+     ],
+     "rows": [
+      5,
+      13
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "d",
+     "code": "U+0064",
+     "glyph": 49,
+     "donor_glyph": 55,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      10,
+      11
+     ],
+     "cwdh_new": [
+      1,
+      10,
+      11
+     ],
+     "donor_cwdh": [
+      1,
+      10,
+      12
+     ],
+     "rows": [
+      2,
+      13
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "e",
+     "code": "U+0065",
+     "glyph": 50,
+     "donor_glyph": 56,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      10,
+      11
+     ],
+     "cwdh_new": [
+      1,
+      10,
+      11
+     ],
+     "donor_cwdh": [
+      1,
+      10,
+      11
+     ],
+     "rows": [
+      5,
+      13
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "f",
+     "code": "U+0066",
+     "glyph": 51,
+     "donor_glyph": 57,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      7,
+      8
+     ],
+     "cwdh_new": [
+      1,
+      6,
+      8
+     ],
+     "donor_cwdh": [
+      1,
+      6,
+      8
+     ],
+     "rows": [
+      2,
+      13
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "g",
+     "code": "U+0067",
+     "glyph": 52,
+     "donor_glyph": 58,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      10,
+      11
+     ],
+     "cwdh_new": [
+      1,
+      10,
+      11
+     ],
+     "donor_cwdh": [
+      1,
+      10,
+      12
+     ],
+     "rows": [
+      5,
+      17
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "h",
+     "code": "U+0068",
+     "glyph": 53,
+     "donor_glyph": 59,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      9,
+      10
+     ],
+     "cwdh_new": [
+      1,
+      9,
+      10
+     ],
+     "donor_cwdh": [
+      1,
+      9,
+      12
+     ],
+     "rows": [
+      2,
+      13
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "i",
+     "code": "U+0069",
+     "glyph": 54,
+     "donor_glyph": 60,
+     "was_from": "3DX",
+     "cwdh_old": [
+      1,
+      3,
+      5
+     ],
+     "cwdh_new": [
+      1,
+      3,
+      5
+     ],
+     "donor_cwdh": [
+      1,
+      3,
+      6
+     ],
+     "rows": [
+      2,
+      14
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "j",
+     "code": "U+006A",
+     "glyph": 55,
+     "donor_glyph": 61,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      4,
+      6
+     ],
+     "cwdh_new": [
+      0,
+      5,
+      6
+     ],
+     "donor_cwdh": [
+      0,
+      5,
+      6
+     ],
+     "rows": [
+      2,
+      16
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "k",
+     "code": "U+006B",
+     "glyph": 56,
+     "donor_glyph": 62,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      9,
+      9
+     ],
+     "cwdh_new": [
+      1,
+      9,
+      10
+     ],
+     "donor_cwdh": [
+      1,
+      9,
+      11
+     ],
+     "rows": [
+      2,
+      14
+     ],
+     "advance_delta": 1
+    },
+    {
+     "char": "l",
+     "code": "U+006C",
+     "glyph": 57,
+     "donor_glyph": 63,
+     "was_from": "3DX",
+     "cwdh_old": [
+      1,
+      3,
+      6
+     ],
+     "cwdh_new": [
+      1,
+      3,
+      6
+     ],
+     "donor_cwdh": [
+      1,
+      3,
+      6
+     ],
+     "rows": [
+      2,
+      14
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "m",
+     "code": "U+006D",
+     "glyph": 58,
+     "donor_glyph": 64,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      13,
+      14
+     ],
+     "cwdh_new": [
+      1,
+      13,
+      14
+     ],
+     "donor_cwdh": [
+      1,
+      13,
+      16
+     ],
+     "rows": [
+      5,
+      14
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "n",
+     "code": "U+006E",
+     "glyph": 59,
+     "donor_glyph": 65,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      9,
+      10
+     ],
+     "cwdh_new": [
+      1,
+      9,
+      10
+     ],
+     "donor_cwdh": [
+      1,
+      9,
+      12
+     ],
+     "rows": [
+      5,
+      14
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "o",
+     "code": "U+006F",
+     "glyph": 60,
+     "donor_glyph": 66,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      10,
+      11
+     ],
+     "cwdh_new": [
+      1,
+      10,
+      11
+     ],
+     "donor_cwdh": [
+      1,
+      10,
+      12
+     ],
+     "rows": [
+      5,
+      13
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "p",
+     "code": "U+0070",
+     "glyph": 61,
+     "donor_glyph": 67,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      9,
+      10
+     ],
+     "cwdh_new": [
+      1,
+      10,
+      10
+     ],
+     "donor_cwdh": [
+      1,
+      10,
+      12
+     ],
+     "rows": [
+      5,
+      17
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "q",
+     "code": "U+0071",
+     "glyph": 62,
+     "donor_glyph": 68,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      10,
+      11
+     ],
+     "cwdh_new": [
+      1,
+      10,
+      11
+     ],
+     "donor_cwdh": [
+      1,
+      10,
+      12
+     ],
+     "rows": [
+      5,
+      16
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "r",
+     "code": "U+0072",
+     "glyph": 63,
+     "donor_glyph": 69,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      6,
+      7
+     ],
+     "cwdh_new": [
+      1,
+      6,
+      7
+     ],
+     "donor_cwdh": [
+      1,
+      6,
+      8
+     ],
+     "rows": [
+      5,
+      13
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "s",
+     "code": "U+0073",
+     "glyph": 64,
+     "donor_glyph": 70,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      9,
+      10
+     ],
+     "cwdh_new": [
+      1,
+      9,
+      10
+     ],
+     "donor_cwdh": [
+      1,
+      9,
+      11
+     ],
+     "rows": [
+      5,
+      14
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "t",
+     "code": "U+0074",
+     "glyph": 65,
+     "donor_glyph": 71,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      6,
+      7
+     ],
+     "cwdh_new": [
+      0,
+      6,
+      7
+     ],
+     "donor_cwdh": [
+      0,
+      6,
+      8
+     ],
+     "rows": [
+      2,
+      13
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "u",
+     "code": "U+0075",
+     "glyph": 66,
+     "donor_glyph": 72,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      9,
+      10
+     ],
+     "cwdh_new": [
+      1,
+      9,
+      10
+     ],
+     "donor_cwdh": [
+      1,
+      9,
+      12
+     ],
+     "rows": [
+      5,
+      13
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "v",
+     "code": "U+0076",
+     "glyph": 67,
+     "donor_glyph": 73,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      9,
+      10
+     ],
+     "cwdh_new": [
+      1,
+      9,
+      10
+     ],
+     "donor_cwdh": [
+      1,
+      9,
+      11
+     ],
+     "rows": [
+      5,
+      13
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "w",
+     "code": "U+0077",
+     "glyph": 68,
+     "donor_glyph": 74,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      13,
+      14
+     ],
+     "cwdh_new": [
+      0,
+      13,
+      14
+     ],
+     "donor_cwdh": [
+      0,
+      13,
+      14
+     ],
+     "rows": [
+      5,
+      13
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "x",
+     "code": "U+0078",
+     "glyph": 69,
+     "donor_glyph": 75,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      8,
+      9
+     ],
+     "cwdh_new": [
+      1,
+      9,
+      9
+     ],
+     "donor_cwdh": [
+      1,
+      9,
+      11
+     ],
+     "rows": [
+      5,
+      14
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "y",
+     "code": "U+0079",
+     "glyph": 70,
+     "donor_glyph": 76,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      9,
+      10
+     ],
+     "cwdh_new": [
+      1,
+      9,
+      10
+     ],
+     "donor_cwdh": [
+      1,
+      9,
+      11
+     ],
+     "rows": [
+      5,
+      17
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "z",
+     "code": "U+007A",
+     "glyph": 71,
+     "donor_glyph": 77,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      9,
+      9
+     ],
+     "cwdh_new": [
+      0,
+      9,
+      10
+     ],
+     "donor_cwdh": [
+      0,
+      9,
+      11
+     ],
+     "rows": [
+      5,
+      13
+     ],
+     "advance_delta": 1
+    },
+    {
+     "char": "!",
+     "code": "U+0021",
+     "glyph": 1248,
+     "donor_glyph": 1,
+     "was_from": "3DX",
+     "cwdh_old": [
+      1,
+      4,
+      6
+     ],
+     "cwdh_new": [
+      2,
+      4,
+      6
+     ],
+     "donor_cwdh": [
+      2,
+      4,
+      8
+     ],
+     "rows": [
+      1,
+      15
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "%",
+     "code": "U+0025",
+     "glyph": 1249,
+     "donor_glyph": 2,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      15,
+      16
+     ],
+     "cwdh_new": [
+      0,
+      15,
+      16
+     ],
+     "donor_cwdh": [
+      0,
+      15,
+      16
+     ],
+     "rows": [
+      2,
+      13
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "&",
+     "code": "U+0026",
+     "glyph": 1,
+     "donor_glyph": 3,
+     "was_from": "3DX",
+     "cwdh_old": [
+      1,
+      11,
+      12
+     ],
+     "cwdh_new": [
+      1,
+      11,
+      12
+     ],
+     "donor_cwdh": [
+      1,
+      11,
+      14
+     ],
+     "rows": [
+      2,
+      13
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "(",
+     "code": "U+0028",
+     "glyph": 3,
+     "donor_glyph": 4,
+     "was_from": "3DX",
+     "cwdh_old": [
+      1,
+      5,
+      7
+     ],
+     "cwdh_new": [
+      1,
+      5,
+      7
+     ],
+     "donor_cwdh": [
+      1,
+      5,
+      7
+     ],
+     "rows": [
+      1,
+      17
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": ")",
+     "code": "U+0029",
+     "glyph": 4,
+     "donor_glyph": 5,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      5,
+      7
+     ],
+     "cwdh_new": [
+      0,
+      6,
+      7
+     ],
+     "donor_cwdh": [
+      0,
+      6,
+      7
+     ],
+     "rows": [
+      1,
+      17
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "+",
+     "code": "U+002B",
+     "glyph": 5,
+     "donor_glyph": 6,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      10,
+      11
+     ],
+     "cwdh_new": [
+      0,
+      11,
+      12
+     ],
+     "donor_cwdh": [
+      0,
+      11,
+      13
+     ],
+     "rows": [
+      2,
+      13
+     ],
+     "advance_delta": 1
+    },
+    {
+     "char": ",",
+     "code": "U+002C",
+     "glyph": 1250,
+     "donor_glyph": 7,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      4,
+      5
+     ],
+     "cwdh_new": [
+      1,
+      4,
+      5
+     ],
+     "donor_cwdh": [
+      1,
+      4,
+      7
+     ],
+     "rows": [
+      12,
+      16
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": ".",
+     "code": "U+002E",
+     "glyph": 6,
+     "donor_glyph": 9,
+     "was_from": "3DX",
+     "cwdh_old": [
+      1,
+      3,
+      5
+     ],
+     "cwdh_new": [
+      1,
+      4,
+      5
+     ],
+     "donor_cwdh": [
+      1,
+      4,
+      7
+     ],
+     "rows": [
+      12,
+      15
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "/",
+     "code": "U+002F",
+     "glyph": 7,
+     "donor_glyph": 10,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      6,
+      7
+     ],
+     "cwdh_new": [
+      0,
+      8,
+      9
+     ],
+     "donor_cwdh": [
+      0,
+      8,
+      10
+     ],
+     "rows": [
+      2,
+      16
+     ],
+     "advance_delta": 2
+    },
+    {
+     "char": ":",
+     "code": "U+003A",
+     "glyph": 1251,
+     "donor_glyph": 21,
+     "was_from": "3DX",
+     "cwdh_old": [
+      1,
+      3,
+      5
+     ],
+     "cwdh_new": [
+      2,
+      3,
+      5
+     ],
+     "donor_cwdh": [
+      2,
+      3,
+      7
+     ],
+     "rows": [
+      3,
+      12
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "=",
+     "code": "U+003D",
+     "glyph": 18,
+     "donor_glyph": 22,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      10,
+      11
+     ],
+     "cwdh_new": [
+      1,
+      10,
+      11
+     ],
+     "donor_cwdh": [
+      1,
+      10,
+      12
+     ],
+     "rows": [
+      5,
+      11
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "?",
+     "code": "U+003F",
+     "glyph": 19,
+     "donor_glyph": 23,
+     "was_from": "3DX",
+     "cwdh_old": [
+      1,
+      8,
+      11
+     ],
+     "cwdh_new": [
+      2,
+      9,
+      11
+     ],
+     "donor_cwdh": [
+      2,
+      9,
+      13
+     ],
+     "rows": [
+      1,
+      15
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "~",
+     "code": "U+007E",
+     "glyph": 1252,
+     "donor_glyph": 78,
+     "was_from": "3DX",
+     "cwdh_old": [
+      1,
+      14,
+      16
+     ],
+     "cwdh_new": [
+      1,
+      14,
+      16
+     ],
+     "donor_cwdh": [
+      1,
+      14,
+      16
+     ],
+     "rows": [
+      5,
+      9
+     ],
+     "advance_delta": 0
+    }
+   ],
+   "skipped": [],
+   "advance_changes": {
+    "0": [
+     11,
+     12
+    ],
+    "7": [
+     10,
+     11
+    ],
+    "8": [
+     10,
+     11
+    ],
+    "F": [
+     10,
+     11
+    ],
+    "L": [
+     9,
+     10
+    ],
+    "T": [
+     11,
+     12
+    ],
+    "V": [
+     12,
+     13
+    ],
+    "a": [
+     10,
+     11
+    ],
+    "k": [
+     9,
+     10
+    ],
+    "z": [
+     9,
+     10
+    ],
+    "+": [
+     11,
+     12
+    ],
+    "/": [
+     7,
+     9
+    ]
+   },
+   "verify_errors": []
+  },
+  "font_btl": {
+   "input": "patch\\00040000001CA900\\romfs\\Msg\\JP_ja\\font_btl.bffnt",
+   "input_sha256": "874281604410FBB00ACFB1D9C09D35128D8AB399F123E8726840EE92BA117681",
+   "donor": "ml 1dx\\3romfs\\Msg\\KR_ko\\font_btl.bffnt",
+   "donor_sha256": "9776B8F9E8E9147D2E6FF783BDB738A5C0FEA2A8F3B2C44A83E9CC9CB7FC1258",
+   "output": "work\\build\\menu_font_stage\\variants\\min\\font_btl.bffnt",
+   "output_sha256": "53857605E2876C683D8E99EC4F07CB1061D254780BFF4E85AA6FCBA6B6DAB4B1",
+   "size": 284936,
+   "vertical_shift_vs_1dx_cell": -1,
+   "changed": [
+    {
+     "char": "0",
+     "code": "U+0030",
+     "glyph": 7,
+     "donor_glyph": 11,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      7,
+      8
+     ],
+     "cwdh_new": [
+      0,
+      9,
+      9
+     ],
+     "donor_cwdh": [
+      0,
+      9,
+      10
+     ],
+     "rows": [
+      1,
+      9
+     ],
+     "advance_delta": 1
+    },
+    {
+     "char": "1",
+     "code": "U+0031",
+     "glyph": 8,
+     "donor_glyph": 12,
+     "was_from": "3DX",
+     "cwdh_old": [
+      1,
+      4,
+      7
+     ],
+     "cwdh_new": [
+      0,
+      5,
+      7
+     ],
+     "donor_cwdh": [
+      0,
+      5,
+      7
+     ],
+     "rows": [
+      1,
+      9
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "2",
+     "code": "U+0032",
+     "glyph": 9,
+     "donor_glyph": 13,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      7,
+      8
+     ],
+     "cwdh_new": [
+      0,
+      7,
+      8
+     ],
+     "donor_cwdh": [
+      0,
+      7,
+      9
+     ],
+     "rows": [
+      1,
+      9
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "3",
+     "code": "U+0033",
+     "glyph": 10,
+     "donor_glyph": 14,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      7,
+      8
+     ],
+     "cwdh_new": [
+      1,
+      7,
+      8
+     ],
+     "donor_cwdh": [
+      1,
+      7,
+      9
+     ],
+     "rows": [
+      1,
+      9
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "4",
+     "code": "U+0034",
+     "glyph": 11,
+     "donor_glyph": 15,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      8,
+      8
+     ],
+     "cwdh_new": [
+      0,
+      8,
+      9
+     ],
+     "donor_cwdh": [
+      0,
+      8,
+      9
+     ],
+     "rows": [
+      1,
+      9
+     ],
+     "advance_delta": 1
+    },
+    {
+     "char": "5",
+     "code": "U+0035",
+     "glyph": 12,
+     "donor_glyph": 16,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      7,
+      8
+     ],
+     "cwdh_new": [
+      0,
+      7,
+      8
+     ],
+     "donor_cwdh": [
+      0,
+      7,
+      9
+     ],
+     "rows": [
+      1,
+      9
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "6",
+     "code": "U+0036",
+     "glyph": 13,
+     "donor_glyph": 17,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      7,
+      8
+     ],
+     "cwdh_new": [
+      1,
+      7,
+      8
+     ],
+     "donor_cwdh": [
+      1,
+      7,
+      9
+     ],
+     "rows": [
+      1,
+      9
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "7",
+     "code": "U+0037",
+     "glyph": 14,
+     "donor_glyph": 18,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      7,
+      8
+     ],
+     "cwdh_new": [
+      0,
+      8,
+      8
+     ],
+     "donor_cwdh": [
+      0,
+      8,
+      8
+     ],
+     "rows": [
+      1,
+      9
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "8",
+     "code": "U+0038",
+     "glyph": 15,
+     "donor_glyph": 19,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      7,
+      8
+     ],
+     "cwdh_new": [
+      0,
+      8,
+      9
+     ],
+     "donor_cwdh": [
+      0,
+      8,
+      9
+     ],
+     "rows": [
+      1,
+      9
+     ],
+     "advance_delta": 1
+    },
+    {
+     "char": "9",
+     "code": "U+0039",
+     "glyph": 16,
+     "donor_glyph": 20,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      7,
+      8
+     ],
+     "cwdh_new": [
+      0,
+      8,
+      8
+     ],
+     "donor_cwdh": [
+      0,
+      8,
+      9
+     ],
+     "rows": [
+      1,
+      9
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "A",
+     "code": "U+0041",
+     "glyph": 19,
+     "donor_glyph": 24,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      10,
+      11
+     ],
+     "cwdh_new": [
+      0,
+      9,
+      11
+     ],
+     "donor_cwdh": [
+      0,
+      9,
+      10
+     ],
+     "rows": [
+      1,
+      9
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "B",
+     "code": "U+0042",
+     "glyph": 20,
+     "donor_glyph": 25,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      8,
+      9
+     ],
+     "cwdh_new": [
+      1,
+      8,
+      9
+     ],
+     "donor_cwdh": [
+      1,
+      8,
+      10
+     ],
+     "rows": [
+      1,
+      9
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "C",
+     "code": "U+0043",
+     "glyph": 21,
+     "donor_glyph": 26,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      9,
+      10
+     ],
+     "cwdh_new": [
+      1,
+      8,
+      10
+     ],
+     "donor_cwdh": [
+      1,
+      8,
+      10
+     ],
+     "rows": [
+      1,
+      9
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "D",
+     "code": "U+0044",
+     "glyph": 22,
+     "donor_glyph": 27,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      8,
+      9
+     ],
+     "cwdh_new": [
+      1,
+      8,
+      9
+     ],
+     "donor_cwdh": [
+      1,
+      8,
+      10
+     ],
+     "rows": [
+      1,
+      9
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "E",
+     "code": "U+0045",
+     "glyph": 23,
+     "donor_glyph": 28,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      7,
+      8
+     ],
+     "cwdh_new": [
+      1,
+      7,
+      8
+     ],
+     "donor_cwdh": [
+      1,
+      7,
+      9
+     ],
+     "rows": [
+      1,
+      9
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "F",
+     "code": "U+0046",
+     "glyph": 24,
+     "donor_glyph": 29,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      6,
+      7
+     ],
+     "cwdh_new": [
+      1,
+      7,
+      8
+     ],
+     "donor_cwdh": [
+      1,
+      7,
+      9
+     ],
+     "rows": [
+      1,
+      9
+     ],
+     "advance_delta": 1
+    },
+    {
+     "char": "G",
+     "code": "U+0047",
+     "glyph": 25,
+     "donor_glyph": 30,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      9,
+      10
+     ],
+     "cwdh_new": [
+      1,
+      9,
+      10
+     ],
+     "donor_cwdh": [
+      1,
+      9,
+      11
+     ],
+     "rows": [
+      1,
+      9
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "H",
+     "code": "U+0048",
+     "glyph": 26,
+     "donor_glyph": 31,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      8,
+      9
+     ],
+     "cwdh_new": [
+      1,
+      8,
+      9
+     ],
+     "donor_cwdh": [
+      1,
+      8,
+      10
+     ],
+     "rows": [
+      1,
+      9
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "I",
+     "code": "U+0049",
+     "glyph": 27,
+     "donor_glyph": 32,
+     "was_from": "3DX",
+     "cwdh_old": [
+      1,
+      2,
+      4
+     ],
+     "cwdh_new": [
+      1,
+      2,
+      4
+     ],
+     "donor_cwdh": [
+      1,
+      2,
+      5
+     ],
+     "rows": [
+      1,
+      9
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "J",
+     "code": "U+004A",
+     "glyph": 28,
+     "donor_glyph": 33,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      7,
+      8
+     ],
+     "cwdh_new": [
+      0,
+      6,
+      8
+     ],
+     "donor_cwdh": [
+      0,
+      6,
+      8
+     ],
+     "rows": [
+      1,
+      9
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "K",
+     "code": "U+004B",
+     "glyph": 29,
+     "donor_glyph": 34,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      7,
+      8
+     ],
+     "cwdh_new": [
+      1,
+      8,
+      9
+     ],
+     "donor_cwdh": [
+      1,
+      8,
+      10
+     ],
+     "rows": [
+      1,
+      9
+     ],
+     "advance_delta": 1
+    },
+    {
+     "char": "L",
+     "code": "U+004C",
+     "glyph": 30,
+     "donor_glyph": 35,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      6,
+      7
+     ],
+     "cwdh_new": [
+      1,
+      7,
+      8
+     ],
+     "donor_cwdh": [
+      1,
+      7,
+      9
+     ],
+     "rows": [
+      1,
+      9
+     ],
+     "advance_delta": 1
+    },
+    {
+     "char": "M",
+     "code": "U+004D",
+     "glyph": 31,
+     "donor_glyph": 36,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      10,
+      11
+     ],
+     "cwdh_new": [
+      1,
+      9,
+      11
+     ],
+     "donor_cwdh": [
+      1,
+      9,
+      11
+     ],
+     "rows": [
+      1,
+      9
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "N",
+     "code": "U+004E",
+     "glyph": 32,
+     "donor_glyph": 37,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      8,
+      9
+     ],
+     "cwdh_new": [
+      1,
+      8,
+      9
+     ],
+     "donor_cwdh": [
+      1,
+      8,
+      10
+     ],
+     "rows": [
+      1,
+      9
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "O",
+     "code": "U+004F",
+     "glyph": 33,
+     "donor_glyph": 38,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      9,
+      10
+     ],
+     "cwdh_new": [
+      1,
+      9,
+      10
+     ],
+     "donor_cwdh": [
+      1,
+      9,
+      11
+     ],
+     "rows": [
+      1,
+      9
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "P",
+     "code": "U+0050",
+     "glyph": 34,
+     "donor_glyph": 39,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      7,
+      8
+     ],
+     "cwdh_new": [
+      1,
+      8,
+      8
+     ],
+     "donor_cwdh": [
+      1,
+      8,
+      9
+     ],
+     "rows": [
+      1,
+      9
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "Q",
+     "code": "U+0051",
+     "glyph": 35,
+     "donor_glyph": 40,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      9,
+      10
+     ],
+     "cwdh_new": [
+      1,
+      9,
+      10
+     ],
+     "donor_cwdh": [
+      1,
+      9,
+      11
+     ],
+     "rows": [
+      1,
+      10
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "R",
+     "code": "U+0052",
+     "glyph": 36,
+     "donor_glyph": 41,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      9,
+      9
+     ],
+     "cwdh_new": [
+      1,
+      8,
+      9
+     ],
+     "donor_cwdh": [
+      1,
+      8,
+      10
+     ],
+     "rows": [
+      1,
+      9
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "S",
+     "code": "U+0053",
+     "glyph": 37,
+     "donor_glyph": 42,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      8,
+      9
+     ],
+     "cwdh_new": [
+      0,
+      8,
+      9
+     ],
+     "donor_cwdh": [
+      0,
+      8,
+      9
+     ],
+     "rows": [
+      1,
+      10
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "T",
+     "code": "U+0054",
+     "glyph": 38,
+     "donor_glyph": 43,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      7,
+      8
+     ],
+     "cwdh_new": [
+      0,
+      8,
+      9
+     ],
+     "donor_cwdh": [
+      0,
+      8,
+      9
+     ],
+     "rows": [
+      1,
+      9
+     ],
+     "advance_delta": 1
+    },
+    {
+     "char": "U",
+     "code": "U+0055",
+     "glyph": 39,
+     "donor_glyph": 44,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      8,
+      9
+     ],
+     "cwdh_new": [
+      1,
+      8,
+      9
+     ],
+     "donor_cwdh": [
+      1,
+      8,
+      10
+     ],
+     "rows": [
+      1,
+      9
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "V",
+     "code": "U+0056",
+     "glyph": 40,
+     "donor_glyph": 45,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      9,
+      10
+     ],
+     "cwdh_new": [
+      0,
+      9,
+      10
+     ],
+     "donor_cwdh": [
+      0,
+      9,
+      10
+     ],
+     "rows": [
+      1,
+      9
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "W",
+     "code": "U+0057",
+     "glyph": 41,
+     "donor_glyph": 46,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      11,
+      12
+     ],
+     "cwdh_new": [
+      0,
+      11,
+      12
+     ],
+     "donor_cwdh": [
+      0,
+      11,
+      12
+     ],
+     "rows": [
+      1,
+      9
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "X",
+     "code": "U+0058",
+     "glyph": 42,
+     "donor_glyph": 47,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      8,
+      9
+     ],
+     "cwdh_new": [
+      0,
+      8,
+      9
+     ],
+     "donor_cwdh": [
+      0,
+      8,
+      9
+     ],
+     "rows": [
+      1,
+      9
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "Y",
+     "code": "U+0059",
+     "glyph": 43,
+     "donor_glyph": 48,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      8,
+      9
+     ],
+     "cwdh_new": [
+      0,
+      8,
+      9
+     ],
+     "donor_cwdh": [
+      0,
+      8,
+      9
+     ],
+     "rows": [
+      1,
+      9
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "Z",
+     "code": "U+005A",
+     "glyph": 44,
+     "donor_glyph": 49,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      8,
+      9
+     ],
+     "cwdh_new": [
+      0,
+      8,
+      9
+     ],
+     "donor_cwdh": [
+      0,
+      8,
+      9
+     ],
+     "rows": [
+      1,
+      9
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "a",
+     "code": "U+0061",
+     "glyph": 45,
+     "donor_glyph": 52,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      7,
+      8
+     ],
+     "cwdh_new": [
+      1,
+      7,
+      8
+     ],
+     "donor_cwdh": [
+      1,
+      7,
+      9
+     ],
+     "rows": [
+      3,
+      10
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "b",
+     "code": "U+0062",
+     "glyph": 46,
+     "donor_glyph": 53,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      7,
+      8
+     ],
+     "cwdh_new": [
+      1,
+      7,
+      8
+     ],
+     "donor_cwdh": [
+      1,
+      7,
+      9
+     ],
+     "rows": [
+      1,
+      9
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "c",
+     "code": "U+0063",
+     "glyph": 47,
+     "donor_glyph": 54,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      6,
+      7
+     ],
+     "cwdh_new": [
+      0,
+      7,
+      8
+     ],
+     "donor_cwdh": [
+      0,
+      7,
+      9
+     ],
+     "rows": [
+      3,
+      9
+     ],
+     "advance_delta": 1
+    },
+    {
+     "char": "d",
+     "code": "U+0064",
+     "glyph": 48,
+     "donor_glyph": 55,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      7,
+      8
+     ],
+     "cwdh_new": [
+      0,
+      8,
+      8
+     ],
+     "donor_cwdh": [
+      0,
+      8,
+      9
+     ],
+     "rows": [
+      1,
+      9
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "e",
+     "code": "U+0065",
+     "glyph": 49,
+     "donor_glyph": 56,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      7,
+      8
+     ],
+     "cwdh_new": [
+      0,
+      7,
+      8
+     ],
+     "donor_cwdh": [
+      0,
+      7,
+      9
+     ],
+     "rows": [
+      3,
+      9
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "f",
+     "code": "U+0066",
+     "glyph": 50,
+     "donor_glyph": 57,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      5,
+      6
+     ],
+     "cwdh_new": [
+      0,
+      5,
+      6
+     ],
+     "donor_cwdh": [
+      0,
+      5,
+      6
+     ],
+     "rows": [
+      1,
+      9
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "g",
+     "code": "U+0067",
+     "glyph": 51,
+     "donor_glyph": 58,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      7,
+      8
+     ],
+     "cwdh_new": [
+      0,
+      8,
+      8
+     ],
+     "donor_cwdh": [
+      0,
+      8,
+      9
+     ],
+     "rows": [
+      3,
+      12
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "h",
+     "code": "U+0068",
+     "glyph": 52,
+     "donor_glyph": 59,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      6,
+      7
+     ],
+     "cwdh_new": [
+      1,
+      7,
+      7
+     ],
+     "donor_cwdh": [
+      1,
+      7,
+      9
+     ],
+     "rows": [
+      1,
+      9
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "i",
+     "code": "U+0069",
+     "glyph": 53,
+     "donor_glyph": 60,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      2,
+      3
+     ],
+     "cwdh_new": [
+      1,
+      2,
+      3
+     ],
+     "donor_cwdh": [
+      1,
+      2,
+      5
+     ],
+     "rows": [
+      1,
+      9
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "j",
+     "code": "U+006A",
+     "glyph": 54,
+     "donor_glyph": 61,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      3,
+      4
+     ],
+     "cwdh_new": [
+      0,
+      4,
+      5
+     ],
+     "donor_cwdh": [
+      0,
+      4,
+      5
+     ],
+     "rows": [
+      1,
+      12
+     ],
+     "advance_delta": 1
+    },
+    {
+     "char": "k",
+     "code": "U+006B",
+     "glyph": 55,
+     "donor_glyph": 62,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      6,
+      7
+     ],
+     "cwdh_new": [
+      1,
+      7,
+      8
+     ],
+     "donor_cwdh": [
+      1,
+      7,
+      8
+     ],
+     "rows": [
+      1,
+      9
+     ],
+     "advance_delta": 1
+    },
+    {
+     "char": "l",
+     "code": "U+006C",
+     "glyph": 56,
+     "donor_glyph": 63,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      2,
+      3
+     ],
+     "cwdh_new": [
+      1,
+      2,
+      3
+     ],
+     "donor_cwdh": [
+      1,
+      2,
+      5
+     ],
+     "rows": [
+      1,
+      9
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "m",
+     "code": "U+006D",
+     "glyph": 57,
+     "donor_glyph": 64,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      9,
+      10
+     ],
+     "cwdh_new": [
+      1,
+      10,
+      10
+     ],
+     "donor_cwdh": [
+      1,
+      10,
+      12
+     ],
+     "rows": [
+      3,
+      9
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "n",
+     "code": "U+006E",
+     "glyph": 58,
+     "donor_glyph": 65,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      6,
+      7
+     ],
+     "cwdh_new": [
+      1,
+      7,
+      8
+     ],
+     "donor_cwdh": [
+      1,
+      7,
+      9
+     ],
+     "rows": [
+      3,
+      9
+     ],
+     "advance_delta": 1
+    },
+    {
+     "char": "o",
+     "code": "U+006F",
+     "glyph": 59,
+     "donor_glyph": 66,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      7,
+      8
+     ],
+     "cwdh_new": [
+      0,
+      8,
+      8
+     ],
+     "donor_cwdh": [
+      0,
+      8,
+      9
+     ],
+     "rows": [
+      3,
+      9
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "p",
+     "code": "U+0070",
+     "glyph": 60,
+     "donor_glyph": 67,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      7,
+      8
+     ],
+     "cwdh_new": [
+      1,
+      7,
+      8
+     ],
+     "donor_cwdh": [
+      1,
+      7,
+      9
+     ],
+     "rows": [
+      3,
+      12
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "q",
+     "code": "U+0071",
+     "glyph": 61,
+     "donor_glyph": 68,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      7,
+      8
+     ],
+     "cwdh_new": [
+      0,
+      8,
+      8
+     ],
+     "donor_cwdh": [
+      0,
+      8,
+      9
+     ],
+     "rows": [
+      3,
+      12
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "r",
+     "code": "U+0072",
+     "glyph": 62,
+     "donor_glyph": 69,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      4,
+      5
+     ],
+     "cwdh_new": [
+      1,
+      5,
+      6
+     ],
+     "donor_cwdh": [
+      1,
+      5,
+      6
+     ],
+     "rows": [
+      3,
+      9
+     ],
+     "advance_delta": 1
+    },
+    {
+     "char": "s",
+     "code": "U+0073",
+     "glyph": 63,
+     "donor_glyph": 70,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      7,
+      7
+     ],
+     "cwdh_new": [
+      0,
+      7,
+      8
+     ],
+     "donor_cwdh": [
+      0,
+      7,
+      8
+     ],
+     "rows": [
+      3,
+      10
+     ],
+     "advance_delta": 1
+    },
+    {
+     "char": "t",
+     "code": "U+0074",
+     "glyph": 64,
+     "donor_glyph": 71,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      5,
+      6
+     ],
+     "cwdh_new": [
+      0,
+      5,
+      6
+     ],
+     "donor_cwdh": [
+      0,
+      5,
+      6
+     ],
+     "rows": [
+      1,
+      9
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "u",
+     "code": "U+0075",
+     "glyph": 65,
+     "donor_glyph": 72,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      6,
+      7
+     ],
+     "cwdh_new": [
+      1,
+      7,
+      7
+     ],
+     "donor_cwdh": [
+      1,
+      7,
+      9
+     ],
+     "rows": [
+      3,
+      9
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "v",
+     "code": "U+0076",
+     "glyph": 66,
+     "donor_glyph": 73,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      7,
+      8
+     ],
+     "cwdh_new": [
+      0,
+      7,
+      8
+     ],
+     "donor_cwdh": [
+      0,
+      7,
+      8
+     ],
+     "rows": [
+      3,
+      9
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "w",
+     "code": "U+0077",
+     "glyph": 67,
+     "donor_glyph": 74,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      9,
+      10
+     ],
+     "cwdh_new": [
+      0,
+      10,
+      10
+     ],
+     "donor_cwdh": [
+      0,
+      10,
+      11
+     ],
+     "rows": [
+      3,
+      9
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "x",
+     "code": "U+0078",
+     "glyph": 68,
+     "donor_glyph": 75,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      6,
+      7
+     ],
+     "cwdh_new": [
+      0,
+      7,
+      8
+     ],
+     "donor_cwdh": [
+      0,
+      7,
+      8
+     ],
+     "rows": [
+      3,
+      9
+     ],
+     "advance_delta": 1
+    },
+    {
+     "char": "y",
+     "code": "U+0079",
+     "glyph": 69,
+     "donor_glyph": 76,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      7,
+      8
+     ],
+     "cwdh_new": [
+      0,
+      7,
+      8
+     ],
+     "donor_cwdh": [
+      0,
+      7,
+      8
+     ],
+     "rows": [
+      3,
+      12
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "z",
+     "code": "U+007A",
+     "glyph": 70,
+     "donor_glyph": 77,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      6,
+      7
+     ],
+     "cwdh_new": [
+      0,
+      7,
+      8
+     ],
+     "donor_cwdh": [
+      0,
+      7,
+      8
+     ],
+     "rows": [
+      3,
+      9
+     ],
+     "advance_delta": 1
+    },
+    {
+     "char": "!",
+     "code": "U+0021",
+     "glyph": 949,
+     "donor_glyph": 1,
+     "was_from": "3DX",
+     "cwdh_old": [
+      1,
+      3,
+      5
+     ],
+     "cwdh_new": [
+      1,
+      3,
+      5
+     ],
+     "donor_cwdh": [
+      1,
+      3,
+      6
+     ],
+     "rows": [
+      0,
+      10
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "%",
+     "code": "U+0025",
+     "glyph": 950,
+     "donor_glyph": 2,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      11,
+      12
+     ],
+     "cwdh_new": [
+      0,
+      11,
+      12
+     ],
+     "donor_cwdh": [
+      0,
+      11,
+      12
+     ],
+     "rows": [
+      1,
+      9
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "&",
+     "code": "U+0026",
+     "glyph": 1,
+     "donor_glyph": 3,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      9,
+      9
+     ],
+     "cwdh_new": [
+      1,
+      8,
+      9
+     ],
+     "donor_cwdh": [
+      1,
+      8,
+      10
+     ],
+     "rows": [
+      1,
+      9
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "(",
+     "code": "U+0028",
+     "glyph": 2,
+     "donor_glyph": 4,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      4,
+      5
+     ],
+     "cwdh_new": [
+      1,
+      4,
+      5
+     ],
+     "donor_cwdh": [
+      1,
+      4,
+      6
+     ],
+     "rows": [
+      1,
+      12
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": ")",
+     "code": "U+0029",
+     "glyph": 3,
+     "donor_glyph": 5,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      4,
+      5
+     ],
+     "cwdh_new": [
+      0,
+      4,
+      5
+     ],
+     "donor_cwdh": [
+      0,
+      4,
+      6
+     ],
+     "rows": [
+      1,
+      12
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "+",
+     "code": "U+002B",
+     "glyph": 4,
+     "donor_glyph": 6,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      8,
+      8
+     ],
+     "cwdh_new": [
+      0,
+      9,
+      9
+     ],
+     "donor_cwdh": [
+      0,
+      9,
+      10
+     ],
+     "rows": [
+      1,
+      9
+     ],
+     "advance_delta": 1
+    },
+    {
+     "char": ",",
+     "code": "U+002C",
+     "glyph": 952,
+     "donor_glyph": 7,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      3,
+      4
+     ],
+     "cwdh_new": [
+      1,
+      3,
+      4
+     ],
+     "donor_cwdh": [
+      1,
+      3,
+      5
+     ],
+     "rows": [
+      8,
+      12
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": ".",
+     "code": "U+002E",
+     "glyph": 5,
+     "donor_glyph": 9,
+     "was_from": "3DX",
+     "cwdh_old": [
+      1,
+      2,
+      4
+     ],
+     "cwdh_new": [
+      1,
+      3,
+      4
+     ],
+     "donor_cwdh": [
+      1,
+      3,
+      5
+     ],
+     "rows": [
+      8,
+      11
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "/",
+     "code": "U+002F",
+     "glyph": 6,
+     "donor_glyph": 10,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      5,
+      5
+     ],
+     "cwdh_new": [
+      0,
+      6,
+      7
+     ],
+     "donor_cwdh": [
+      0,
+      6,
+      7
+     ],
+     "rows": [
+      1,
+      11
+     ],
+     "advance_delta": 2
+    },
+    {
+     "char": ":",
+     "code": "U+003A",
+     "glyph": 953,
+     "donor_glyph": 21,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      3,
+      4
+     ],
+     "cwdh_new": [
+      1,
+      3,
+      4
+     ],
+     "donor_cwdh": [
+      1,
+      3,
+      5
+     ],
+     "rows": [
+      2,
+      8
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "=",
+     "code": "U+003D",
+     "glyph": 17,
+     "donor_glyph": 22,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      7,
+      8
+     ],
+     "cwdh_new": [
+      0,
+      8,
+      9
+     ],
+     "donor_cwdh": [
+      0,
+      8,
+      9
+     ],
+     "rows": [
+      3,
+      7
+     ],
+     "advance_delta": 1
+    },
+    {
+     "char": "?",
+     "code": "U+003F",
+     "glyph": 18,
+     "donor_glyph": 23,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      6,
+      7
+     ],
+     "cwdh_new": [
+      1,
+      7,
+      7
+     ],
+     "donor_cwdh": [
+      1,
+      7,
+      9
+     ],
+     "rows": [
+      0,
+      10
+     ],
+     "advance_delta": 0
+    },
+    {
+     "char": "~",
+     "code": "U+007E",
+     "glyph": 954,
+     "donor_glyph": 78,
+     "was_from": "3DX",
+     "cwdh_old": [
+      0,
+      11,
+      12
+     ],
+     "cwdh_new": [
+      0,
+      11,
+      12
+     ],
+     "donor_cwdh": [
+      0,
+      11,
+      12
+     ],
+     "rows": [
+      3,
+      6
+     ],
+     "advance_delta": 0
+    }
+   ],
+   "skipped": [],
+   "advance_changes": {
+    "0": [
+     8,
+     9
+    ],
+    "4": [
+     8,
+     9
+    ],
+    "8": [
+     8,
+     9
+    ],
+    "F": [
+     7,
+     8
+    ],
+    "K": [
+     8,
+     9
+    ],
+    "L": [
+     7,
+     8
+    ],
+    "T": [
+     8,
+     9
+    ],
+    "c": [
+     7,
+     8
+    ],
+    "j": [
+     4,
+     5
+    ],
+    "k": [
+     7,
+     8
+    ],
+    "n": [
+     7,
+     8
+    ],
+    "r": [
+     5,
+     6
+    ],
+    "s": [
+     7,
+     8
+    ],
+    "x": [
+     7,
+     8
+    ],
+    "z": [
+     7,
+     8
+    ],
+    "+": [
+     8,
+     9
+    ],
+    "/": [
+     5,
+     7
+    ],
+    "=": [
+     8,
+     9
+    ]
+   },
+   "verify_errors": []
+  }
+ },
+ "ok": true
+}

@@ -1,0 +1,21 @@
+{
+  "changed_models": [
+    {
+      "slot": 78,
+      "name": "fmd_title_JP_ja",
+      "changed_textures": [
+        "title_logo_JP_bottom",
+        "title_logo_JP_top"
+      ],
+      "bch_size": 626980
+    }
+  ],
+  "only_two_title_textures_changed": true,
+  "all_other_bch_bytes_identical": true,
+  "intro_textures_and_coordinates_preserved": true,
+  "all_textures_decoded_equal_to_inputs": true,
+  "equal_x_y_glyph_scale": true,
+  "no_alpha64_body_clipping_at_texture_edges": true,
+  "before_fmdl_sha256": "4f7c4210672c0478cacb33c368e90e3e3ee344b8b283e8508763540b3cde0ab1",
+  "stage_sha256": "19b7eb8bae312a2e0b56f16ff73a058b745fdeb7c071d892ca87d3f9c11dc4af"
+}

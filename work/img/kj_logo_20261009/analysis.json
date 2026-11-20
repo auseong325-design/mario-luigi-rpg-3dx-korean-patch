@@ -1,0 +1,135 @@
+{
+ "letters": [
+  {
+   "letter": "ク",
+   "bbox": [
+    71,
+    154,
+    103,
+    187
+   ],
+   "height": 33,
+   "width": 32,
+   "rotation_deg": -0.0,
+   "font_em_px": 41.2,
+   "iou": 0.844,
+   "ink_px": 478
+  },
+  {
+   "letter": "ッ",
+   "bbox": [
+    101,
+    168,
+    123,
+    187
+   ],
+   "height": 19,
+   "width": 22,
+   "rotation_deg": 4.0,
+   "font_em_px": 34.1,
+   "iou": 0.898,
+   "ink_px": 198
+  },
+  {
+   "letter": "パ",
+   "bbox": [
+    121,
+    155,
+    157,
+    185
+   ],
+   "height": 30,
+   "width": 36,
+   "rotation_deg": -7.0,
+   "font_em_px": 36.9,
+   "iou": 0.895,
+   "ink_px": 466
+  },
+  {
+   "letter": "J",
+   "bbox": [
+    154,
+    155,
+    182,
+    182
+   ],
+   "height": 27,
+   "width": 28,
+   "rotation_deg": 5.0,
+   "font_em_px": 39.0,
+   "iou": 0.877,
+   "ink_px": 376
+  },
+  {
+   "letter": "r",
+   "bbox": [
+    182,
+    167,
+    201,
+    181
+   ],
+   "height": 14,
+   "width": 19,
+   "rotation_deg": 3.0,
+   "font_em_px": 32.5,
+   "iou": 0.803,
+   "ink_px": 153
+  },
+  {
+   "letter": ".",
+   "bbox": [
+    198,
+    181,
+    205,
+    187
+   ],
+   "height": 6,
+   "width": 7,
+   "rotation_deg": 2.0,
+   "font_em_px": 33.4,
+   "iou": 0.89,
+   "ink_px": 39
+  }
+ ],
+ "ruby": {
+  "text": "ジュニア",
+  "bbox": [
+   162,
+   180,
+   192,
+   188
+  ],
+  "height": 8,
+  "colour": "red on the white ring"
+ },
+ "rings": {
+  "face": "orange (239, 72..92, 0), darker at the top; fine diagonal hatching; 1 px red rim (214, 18, 0) on edges facing down/right; pink anti-aliasing into the white",
+  "white": "0 .. 2.4 px from the face (last px tinted yellow)",
+  "yellow": "2.4 .. 3.6 px (255, 255, 112), olive where it meets the maroon",
+  "maroon": "3.6 .. 6.9 px, darker inside and on top edges, redder outside / at the bottom",
+  "corners": "every ring is a sharp (mitre) offset of the letter outline"
+ },
+ "layout": {
+  "word_bbox": [
+   71,
+   154,
+   205,
+   187
+  ],
+  "R_face_left": 212,
+  "puffs": [
+   [
+    44,
+    122,
+    92,
+    162
+   ],
+   [
+    196,
+    184,
+    230,
+    208
+   ]
+  ]
+ }
+}

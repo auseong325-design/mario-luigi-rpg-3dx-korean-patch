@@ -27061,12 +27061,12 @@
    "identical_1dx": [],
    "action": "replace",
    "jp": "ステータス",
-   "ko": "능력",
-   "basis": "glossary:ステータス; ko_final:BMsg/b_sys#280(「ステータス」→「능력」)",
+   "ko": "스테이터스",
+   "basis": "2026-10-31 사용자 지시: 1DX 한국판 TOP_MENU_TEXT_3(스테이터스); ko_final:BMsg/b_sys#280(「ステータス」→「스테이터스」)",
    "family": "menu_top",
    "kind": "나",
    "ref_1dx": "1DX:GLyt/G_BG_12_KR_ko/timg/TOP_MENU_TEXT_3_12_KR_ko.bflim",
-   "notes": "1DX는 '스테이터스'. 대사 번역 우선",
+   "notes": "2026-10-31: 메뉴 6개를 1DX 대사 비트맵 폰트(font, em 13, 옛 배지·능력과 같은 방식)로 통일, 세로 중심 12 (work/img/pause_menu_20261031)",
    "box": {
     "x": 10,
     "y": 4,
@@ -27199,7 +27199,7 @@
    "family": "menu_top",
    "kind": "나",
    "ref_1dx": "1DX:GLyt/G_BG_12_KR_ko/timg/TOP_MENU_TEXT_1_12_KR_ko.bflim",
-   "notes": "80x24(1DX 96x24)",
+   "notes": "80x24(1DX 96x24). 2026-10-31: 메뉴 6개를 1DX 대사 비트맵 폰트(font, em 13, 옛 배지·능력과 같은 방식)로 통일, 세로 중심 12 (work/img/pause_menu_20261031)",
    "box": {
     "x": 16,
     "y": 4,
@@ -27436,7 +27436,7 @@
    "family": "menu_top",
    "kind": "나",
    "ref_1dx": "1DX:GLyt/G_BG_12_KR_ko/timg/TOP_MENU_TEXT_4_12_KR_ko.bflim",
-   "notes": "",
+   "notes": "2026-10-31: 메뉴 6개를 1DX 대사 비트맵 폰트(font, em 13, 옛 배지·능력과 같은 방식)로 통일, 세로 중심 12 (work/img/pause_menu_20261031)",
    "box": {
     "x": 21,
     "y": 4,
@@ -27648,7 +27648,7 @@
    "family": "menu_top",
    "kind": "나",
    "ref_1dx": "1DX:MLyt/MLYT_MAIN_KR_ko/timg/TOP_MENU_TEXT_5_12_KR_ko.bflim",
-   "notes": "",
+   "notes": "2026-10-31: 메뉴 6개를 1DX 대사 비트맵 폰트(font, em 13, 옛 배지·능력과 같은 방식)로 통일, 세로 중심 12 (work/img/pause_menu_20261031)",
    "box": {
     "x": 16,
     "y": 4,
@@ -27858,9 +27858,9 @@
    "ko": "장비",
    "basis": "glossary; 1DX TOP_MENU_TEXT_2(장비)",
    "family": "menu_top",
-   "kind": "가",
+   "kind": "나",
    "ref_1dx": "1DX:GLyt/G_BG_12_KR_ko/timg/TOP_MENU_TEXT_2_12_KR_ko.bflim",
-   "notes": "",
+   "notes": "2026-10-31: 메뉴 6개를 1DX 대사 비트맵 폰트(font, em 13, 옛 배지·능력과 같은 방식)로 통일, 세로 중심 12 (work/img/pause_menu_20261031)",
    "box": {
     "x": 20,
     "y": 4,
@@ -28296,7 +28296,7 @@
    "family": "menu_top",
    "kind": "나",
    "ref_1dx": "1DX:GLyt/G_BG_12_KR_ko/timg/TOP_MENU_TEXT_1_12_KR_ko.bflim",
-   "notes": "",
+   "notes": "2026-10-31: 메뉴 6개를 1DX 대사 비트맵 폰트(font, em 13, 옛 배지·능력과 같은 방식)로 통일, 세로 중심 12 (work/img/pause_menu_20261031)",
    "box": {
     "x": 20,
     "y": 4,

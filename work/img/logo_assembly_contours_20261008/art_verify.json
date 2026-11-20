@@ -1,0 +1,21 @@
+{
+  "all_main_title_face_masks_and_silhouettes_equal": true,
+  "accepted_face_color_and_gloss_pixels_equal": 10092,
+  "dx_deluxe_number_texture_equal": true,
+  "approved_ru_ji_lower_contours_restored": true,
+  "other_1dx_underside_contours_preserved": true,
+  "rpg_surrounding_pixels_rebuilt": 3753,
+  "raw_japanese_right_strip_composition_removed": true,
+  "intro_common_scale_and_baseline": true,
+  "intro_no_hard_edge_clipping": true,
+  "animation_checks": {
+    "assembled_frames_checked": 160,
+    "full_animation_frames_checked": 371,
+    "max_assembly_baseline_difference_world": 0.08635289233544086,
+    "assembly_face_overlap_mario_amp": 0,
+    "assembly_face_overlap_luigi_amp": 0,
+    "attached_and_assembled_relative_positions_match": true,
+    "runtime_verified": false
+  },
+  "runtime_verified": false
+}

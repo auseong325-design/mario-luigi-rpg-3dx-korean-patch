@@ -1,0 +1,15 @@
+{
+  "title_donor_mask_iou": {
+    "ma": 0.9985288709084222,
+    "ri": 0.9982316534040672,
+    "o": 0.9981884057971014,
+    "amp": 1.0,
+    "ru": 0.9966348850252383,
+    "i": 0.9969543147208122,
+    "ji": 0.9943767572633552
+  },
+  "intro_amp_donor_mask_iou": 0.9984375,
+  "single_uniform_affine_for_entire_title_word": true,
+  "no_glyph_growth_or_stem_redesign": true,
+  "shared_1dx_amp_shape_in_title_and_intro": true
+}

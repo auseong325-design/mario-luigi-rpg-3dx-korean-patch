@@ -1,0 +1,58 @@
+{
+  "config": {
+    "glyph_scale": 0.94,
+    "x_left": 18.0,
+    "title_down": 10.0,
+    "dx_center": 256.0,
+    "silhouette_syllables": [
+      "ri",
+      "i"
+    ]
+  },
+  "old_glyph_scale_x": 0.695,
+  "old_glyph_scale_y": 0.94,
+  "new_glyph_scale_x": 0.94,
+  "new_glyph_scale_y": 0.94,
+  "rpg_and_3_shift_x": 40.75,
+  "amp_shift_x": 27.75,
+  "silhouette_moves": [
+    [
+      -10.25,
+      8.25
+    ],
+    [
+      87.75,
+      6.5
+    ]
+  ],
+  "silhouette_texture_box": [
+    78.75,
+    50.5,
+    266.75,
+    96.25
+  ],
+  "dx_shift_x": 3.5,
+  "dx_texture_center": 256.0,
+  "main_title_alpha64_box": [
+    7.0,
+    46.0,
+    506.0,
+    175.0
+  ],
+  "main_title_center": 256.5,
+  "center_difference_texture_px": 0.5,
+  "alpha64_boxes": {
+    "title_logo_JP_bottom": [
+      7.0,
+      46.0,
+      432.0,
+      159.0
+    ],
+    "title_logo_JP_top": [
+      166.0,
+      51.0,
+      506.0,
+      234.0
+    ]
+  }
+}

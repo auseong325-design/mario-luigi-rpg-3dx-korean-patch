@@ -1,0 +1,19 @@
+{
+  "changed_models": [
+    {
+      "model": "fmd_title_JP_ja",
+      "textures": [
+        "title_logo_and_JP",
+        "title_logo_JP_bottom",
+        "title_logo_JP_top"
+      ]
+    }
+  ],
+  "only_three_title_textures_changed": true,
+  "geometry_and_animation_bytes_equal": true,
+  "dx_deluxe_pixels_preserved": true,
+  "both_silhouettes_remain_over_mario": true,
+  "decoded_pixels_match_inputs": true,
+  "before_fmdl_sha256": "8c9e609f3446d7fecfd444303e6ad661f59c35ce6d615ed210f19376cd9bbcb4",
+  "stage_sha256": "fcc503f1896f6f34580692db499d5efd7ad03f4a034b508d3d0b72f95cd5ce2c"
+}

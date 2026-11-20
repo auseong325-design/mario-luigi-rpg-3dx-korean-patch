@@ -1,0 +1,56 @@
+## 1. real widths: 22868 (line, font) pairs
+  ship: lines wider than the widest JP line of their (source, style): 1
+      Menu#628 font_btl: '\ue000 버튼이나 \ue001 버튼으로 튀어나와 원래대로 돌아와요.'
+  v1: lines wider than the widest JP line of their (source, style): 1
+      Menu#628 font_btl: '\ue000 버튼이나 \ue001 버튼으로 튀어나와 원래대로 돌아와요.'
+  v2: lines wider than the widest JP line of their (source, style): 1
+      Menu#628 font_btl: '\ue000 버튼이나 \ue001 버튼으로 튀어나와 원래대로 돌아와요.'
+  v2 newly over vs shipped: 0
+  v2 vs ship: wider 698, narrower 210; max growth +6 px, max shrink -6 px
+      +6px FMsg/fcommon#0 font_btl: '=== 알림 ==='
+      +6px BMsg/b_sys#95 font_btl: 'Excellent 횟수가 500회를 넘는다'
+      +6px BMsg/b_sys#1683 font_btl: 'Excellent 횟수가 100회를 넘는다'
+      +5px Item#81 font_btl: 'Excellent를 내면 SP가 회복되는'
+      +5px Item#524 font_btl: 'Excellent를 내면 SP가 회복되는'
+      +5px Item#387 font_btl: '2명의 SP를 40% 회복.'
+  v2 vs v1: wider 38, narrower 1205; max growth +2 px, max shrink -17 px
+      +2px BMsg/b_sys#902 font_btl: 'SS컴퍼니를 쓰러뜨린다'
+      +2px BMsg/b_sys#824 font_btl: 'SS컴퍼니의 큐트 담당.'
+      +2px BMsg/b_sys#755 font_btl: '격돌! SS컴퍼니!'
+      +2px BMsg/b_sys#701 font_btl: 'SS컴퍼니의 두뇌.'
+      +2px BMsg/b_sys#500 font_btl: 'SS컴퍼니의 파워 담당.'
+      +2px BMsg/b_sys#1393 font_btl: '정식 명칭은 「궁극합체 슈퍼 SS컴퍼니」.'
+  smallest headroom (JP max - v2 width) among lines with letters/digits:
+      +6px Menu#50 font: '피치 성의 방어벽을 부수려면 3개의 스타 백신을 찾아야 한다… 그중 하나는 쿠파 몸속의 애벌레가 갖고 있다는데…?'
+      +9px Menu#86 font_btl: '\ue073을 누르면 HOME 메뉴로 돌아갑니다'
+      +13px MenuKJ#84 font: '멤버 9명이 다 모이지 않았습니다.'
+      +18px BMsg/b_sys#485 font_btl: '쿠파피에로로 출격하는 7인조 유일의 비행 타입.'
+      +19px HugeBattle#22 font_btl: '공격받으면 HP가 줄어들어요.'
+      +20px Item#601 font_btl: '적의 공격을 방어막으로 5번 막는 효과.'
+      +25px BMsg/b_sys#485 font: '쿠파피에로로 출격하는 7인조 유일의 비행 타입.'
+      +29px Item#601 font: '적의 공격을 방어막으로 5번 막는 효과.'
+
+## 2. merge_ko model: 18510 translator lines; over limit: current model 0, with v2 advances 0
+  v2 vs current model: max growth +5 px (FMsg/o_mushiba_05_before#24 '1000000코인에 거래되는'); lines wider 361, narrower 264
+  v2 advances that differ from the current model: {"+": 12, "/": 9, "0": 12, "1": 8, "4": 12, "5": 10, "7": 11, "8": 11, "A": 13, "B": 10, "F": 11, "G": 12, "J": 9, "L": 10, "M": 13, "O": 12, "Q": 12, "R": 11, "T": 12, "U": 11, "V": 13, "Y": 11, "a": 11, "d": 10, "e": 10, "f": 7, "g": 10, "h": 9, "k": 10, "l": 5, "m": 13, "n": 9, "o": 10, "q": 10, "u": 9, "z": 10}
+
+## 3. HugeBattle (font.bffnt, TextBox 240 px; widest JP line 240 px)
+  HugeBattle#5 tutorial_p010: shipped 149 / v1 156 / v2 144 px: 'Excellent가 나오면'
+  HugeBattle#22 battleguide_kihon: shipped 170 / v1 172 / v2 171 px: '0으로 만들면 승리예요.'
+  HugeBattle#22 battleguide_kihon: shipped 160 / v1 165 / v2 161 px: '쿠파의 HP가 0이 되면'
+  HugeBattle#24 tutorial_f010: shipped 149 / v1 156 / v2 144 px: 'Excellent가 나오면'
+  HugeBattle#69 3_battle_06: shipped 122 / v1 126 / v2 123 px: '약 100쪼르미터!'
+  HugeBattle#146 battleguide_punch: shipped 191 / v1 198 / v2 186 px: 'Excellent를 노려 보세요.'
+  widest HugeBattle Korean line with v2: 234 px (box 240)
+
+## 4. runtime number MonName_Lv (BMsg/b_sys#1215 '{name} LV{level}', font_btl), 140 battle names
+  JP original  widest:  154 px  'ガラクタモンスターX LV99' (BMsg/b_sys#1470)
+  JP original  widest:  161 px  'ガラクタモンスターX LV100' (BMsg/b_sys#1470)
+  KO shipped   widest:  132 px  '블리자드메타보스 LV99' (BMsg/b_sys#1217)
+  KO shipped   widest:  139 px  '블리자드메타보스 LV100' (BMsg/b_sys#1217)
+  KO v1        widest:  136 px  '블리자드메타보스 LV99' (BMsg/b_sys#1217)
+  KO v1        widest:  145 px  '블리자드메타보스 LV100' (BMsg/b_sys#1217)
+  KO v2        widest:  133 px  '블리자드메타보스 LV99' (BMsg/b_sys#1217)
+  KO v2        widest:  142 px  '블리자드메타보스 LV100' (BMsg/b_sys#1217)
+  ' LV100' alone: shipped 44 px, v1 50 px, v2 47 px
+  full-width digits U+FF10..FF19 in v2 font: True, font_btl: True (unchanged 3DX glyphs, advance 16 / 12 px)

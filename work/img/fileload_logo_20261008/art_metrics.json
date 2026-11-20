@@ -1,0 +1,31 @@
+{
+  "donor_layout": {
+    "donor_left": 6,
+    "donor_right": 332,
+    "scale_x": 0.6180981595092024,
+    "scale_y": 0.6180981595092024,
+    "left": 26.0,
+    "baseline": 71.0,
+    "source_baseline": 81.0,
+    "preserve_donor_letter_positions": true,
+    "stroke_growth": 0.0,
+    "stem_redesign": false,
+    "amp_source": "1DX Korean title, same affine transform as all six Hangul glyphs"
+  },
+  "same_uniform_scale_x_y": true,
+  "amp_source": "1DX",
+  "ji_stem": "latest rounded cap",
+  "underside": "latest 1DX light pattern with approved ru/ji contours",
+  "material": "latest measured Japanese 3DX title material",
+  "RPG_shape_gloss_preserved_with_uniform_scale": 0.78,
+  "number3_and_character_art_preserved": true,
+  "split_x": 144,
+  "rpg_extraction": "two complete face components; numeral fragments excluded",
+  "number_composition": "curved silhouette from semantic face ownership; no vertical crop",
+  "body_bounds": [
+    23,
+    27,
+    302,
+    81
+  ]
+}

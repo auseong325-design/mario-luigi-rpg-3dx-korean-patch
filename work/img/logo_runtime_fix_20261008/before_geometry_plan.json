@@ -1,0 +1,11 @@
+{
+  "description": "2026-10-08: intro alignment now uses all three textures on the original animated quads. Previous ampersand-only offsets retired.",
+  "derivation": {
+    "recipe": "work/img/logo_assembly_contours_20261008/build_intro.py",
+    "uniform_texture_scale": 0.6,
+    "original_intro_parent_scale": 0.75,
+    "common_world_donor_baseline": 111.375,
+    "original_coordinates_and_animation": true
+  },
+  "models": {}
+}

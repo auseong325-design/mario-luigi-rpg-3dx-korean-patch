@@ -1,0 +1,56 @@
+{
+  "proof_document_uuid": "08451BD2-E4FC-4F12-8C38-3A0E3B4C1A7B",
+  "checks": [
+    {
+      "name": "R_clean",
+      "size": [
+        60,
+        63
+      ],
+      "origin": [
+        201,
+        140
+      ],
+      "transparent_pixels": 1348,
+      "fractional_alpha_pixels": 234,
+      "opaque_white_interior_pixels": 0,
+      "unmodified_opaque_source_pixels": 2025,
+      "crop_aligned_RGBA_equal": true
+    },
+    {
+      "name": "wind_top",
+      "size": [
+        40,
+        30
+      ],
+      "origin": [
+        49,
+        127
+      ],
+      "transparent_pixels": 539,
+      "fractional_alpha_pixels": 132,
+      "opaque_white_interior_pixels": 292,
+      "unmodified_opaque_source_pixels": 512,
+      "crop_aligned_RGBA_equal": true
+    },
+    {
+      "name": "wind_bottom",
+      "size": [
+        21,
+        21
+      ],
+      "origin": [
+        202,
+        187
+      ],
+      "transparent_pixels": 200,
+      "fractional_alpha_pixels": 66,
+      "opaque_white_interior_pixels": 98,
+      "unmodified_opaque_source_pixels": 129,
+      "crop_aligned_RGBA_equal": true
+    }
+  ],
+  "R_face_colour_and_hatching_preserved": true,
+  "source_OA_document_unchanged": true,
+  "patch_installed": false
+}

@@ -1,0 +1,35 @@
+{
+  "composition": "kj_assembly_20261010 (OA x1.18, 4 deg, winds at (36, 139) / (214, 187))",
+  "r_material": "work\\img\\kj_R_faithful_20261010\\R_clean.png",
+  "stem_edge_fit": {
+    "rows": [
+      148,
+      161
+    ],
+    "edge_at_148": 202.945,
+    "edge_at_172": 204.995,
+    "slope_px_per_row": 0.0854,
+    "max_fit_residual": 0.07
+  },
+  "stem_edge_replaced_pixels": 67,
+  "no_Jr_remnant_left_of_stem": true,
+  "zone_Z_pixels": 733,
+  "zone_Z_visible_pixels": 155,
+  "zone_Z_visible_bbox": [
+    196,
+    159,
+    226,
+    207
+  ],
+  "changed_vs_installed": 185,
+  "changed_vs_installed_bbox": [
+    202,
+    143,
+    259,
+    201
+  ],
+  "unchanged_outside_R_area": true,
+  "fully_covered_pixels_unchanged": true,
+  "visible_R_P_pixels_outside_Z_equal_original": true,
+  "R_P_seam_not_lighter_than_original": true
+}

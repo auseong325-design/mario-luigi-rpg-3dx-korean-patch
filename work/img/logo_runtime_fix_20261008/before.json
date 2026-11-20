@@ -1,0 +1,18 @@
+{
+  "before_fmdl_sha256": "f90441b674466bbd50c74a63e7ddcb61ffb13849a24d03bf40cb3fcb9704e3db",
+  "codex_computer_use_error": "Windows Computer Use Sky runtime is unavailable",
+  "orca_computer_use_error": "runtime_open_timeout; orca-runtime.json unavailable",
+  "gui_fallback": "stopped at explicit user instruction; Codex built-in Computer Use only",
+  "user_authorized_azahar": true,
+  "native_input_used": false,
+  "azahar_window_opened": true,
+  "game_started": false,
+  "codex_runtime_reinitialization": "same error after js_reset and re-import",
+  "node_repl_connections": {
+    "nativePipe": false,
+    "config": false,
+    "runtimeModules": false,
+    "nativePipePath": false
+  },
+  "installed_patch_changed": false
+}

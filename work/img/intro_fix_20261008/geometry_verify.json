@@ -1,0 +1,28 @@
+{
+  "independent_spica_readback": true,
+  "changed_meshes": [
+    {
+      "model": "logo_L",
+      "mesh": 0,
+      "texture": "title_logo_and_JP",
+      "local_delta": [
+        13.639999389648438,
+        0.0,
+        -23.880000114440918,
+        0.0
+      ]
+    },
+    {
+      "model": "logo_pch",
+      "mesh": 1,
+      "texture": "title_logo_and_JP",
+      "local_delta": [
+        13.640000343322754,
+        0.0,
+        -23.880000114440918,
+        0.0
+      ]
+    }
+  ],
+  "all_other_geometry_and_animation_equal": true
+}

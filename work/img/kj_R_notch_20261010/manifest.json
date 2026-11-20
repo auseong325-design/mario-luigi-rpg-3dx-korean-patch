@@ -1,0 +1,71 @@
+{
+  "date": "2026-10-10",
+  "status": "R inner notch edge polished, assembled, installed and runtime verified",
+  "R": {
+    "changed_pixels": 100,
+    "changed_bbox": [
+      222,
+      180,
+      235,
+      194
+    ],
+    "alpha_and_aligned_export_identical": true
+  },
+  "assembly": {
+    "R_asset_changed_pixels": 100,
+    "final_changed_pixels": 84,
+    "final_changed_bbox": [
+      223,
+      180,
+      235,
+      194
+    ],
+    "R_alpha_and_outer_silhouette_identical": true,
+    "Hangul_18_percent_scale_position_material_unchanged": true,
+    "both_wind_images_position_and_pixels_unchanged": true,
+    "P_G_and_character_art_identical": true,
+    "preserved_asset_files": [
+      "vectors.json",
+      "word_render.png",
+      "wind_top.png",
+      "wind_bottom.png"
+    ]
+  },
+  "archive": {
+    "changed_texture_copies": [
+      "MENU_FILE_LOAD_JP_ja/timg/LOAD_GAME_IMG_KJ_R_00_JP_ja.bflim",
+      "MENU_FILE_LOAD_JP_ja/timg/LOAD_GAME_IMG_KJ_L_00_JP_ja.bflim"
+    ],
+    "only_two_KJ_textures_changed": true,
+    "actual_changed_texture_copies": [
+      "MENU_FILE_LOAD_JP_ja/timg/LOAD_GAME_IMG_KJ_R_00_JP_ja.bflim"
+    ],
+    "all_other_SARC_files_and_archive_entries_unchanged": true,
+    "decoded_RGB565_matches_inputs": true,
+    "before_sha256": "c3acd2cf8c91e813db48b12a2de968893cfeea60290fccb316a4d9942e403bd3",
+    "after_sha256": "44625133d32b03eab61904736a06d5b078c63505175632eac5b06905359b2149"
+  },
+  "install": {
+    "changed_patch_files": [
+      "Lyt/JP/MLyt.dat"
+    ],
+    "MLyt_sha256": "44625133d32b03eab61904736a06d5b078c63505175632eac5b06905359b2149",
+    "zip_sha256": "6d4112ff29455637f02771f8d0d4b8c8097d391c4eae07e46c975784d53b556e",
+    "checked_files": 36,
+    "backup": "C:\\AI-Projects\\mario-luigi-rpg-3dx-korean-patch\\work\\build\\prev_kj_R_notch_20261010"
+  },
+  "runtime": {
+    "method": "Codex built-in @oai/sky computer-use",
+    "emulator": "Azahar 2126.1.2",
+    "capture": "Mario & Luigi Bowser's Inside…_10.10.26_01.23.09.829.png",
+    "max_channel_difference": 1,
+    "mean_channel_difference": 0.03424679487179487,
+    "input_profile_unchanged": true,
+    "normal_stop": "F5",
+    "subagents_used": false,
+    "Orca_used": false
+  },
+  "recipe": "work/img/kj_R_notch_20261010/build_notch_assembly.py",
+  "R_affinity": "R_notch_20261010.af",
+  "assembly_affinity": "KJ_assembled_R_notch_20261010.af"
+}

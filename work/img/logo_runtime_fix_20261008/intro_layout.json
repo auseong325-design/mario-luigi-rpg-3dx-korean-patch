@@ -1,0 +1,84 @@
+{
+  "title_logo_M_JP": {
+    "scale_x": 0.6,
+    "scale_y": 0.6,
+    "left_anchor": 20.0,
+    "baseline": 43.5,
+    "world_donor_baseline": 176.625,
+    "edge_alpha_max": 17.0,
+    "params": {
+      "r_o": 3.0,
+      "r_e": 3.0,
+      "sx": 0.75,
+      "D": 3.5,
+      "gl_a": 0.8,
+      "gl_d": 1.5,
+      "gl_k": 1.0,
+      "gl_soft": 0.25,
+      "rim_k": 0.25,
+      "rim_w": 1.5,
+      "navy": [
+        0,
+        34,
+        68
+      ],
+      "glow": false,
+      "blur": 0.5
+    }
+  },
+  "title_logo_and_JP": {
+    "scale_x": 0.6,
+    "scale_y": 0.6,
+    "left_anchor": -62.66666666666667,
+    "baseline": 31.5,
+    "world_donor_baseline": 176.625,
+    "edge_alpha_max": 0.0,
+    "params": {
+      "r_o": 3.0,
+      "r_e": 3.0,
+      "sx": 0.75,
+      "D": 3.0,
+      "gl_a": 0.8,
+      "gl_d": 1.5,
+      "gl_k": 1.0,
+      "gl_soft": 0.25,
+      "rim_k": 0.25,
+      "rim_w": 1.5,
+      "navy": [
+        0,
+        34,
+        68
+      ],
+      "glow": false,
+      "blur": 0.5
+    }
+  },
+  "title_logo_L_JP": {
+    "scale_x": 0.6,
+    "scale_y": 0.6,
+    "left_anchor": -94.66666666666667,
+    "baseline": 43.5,
+    "world_donor_baseline": 176.625,
+    "edge_alpha_max": 0.0,
+    "params": {
+      "r_o": 3.0,
+      "r_e": 3.0,
+      "sx": 0.75,
+      "D": 3.5,
+      "gl_a": 0.8,
+      "gl_d": 1.5,
+      "gl_k": 1.0,
+      "gl_soft": 0.25,
+      "rim_k": 0.25,
+      "rim_w": 1.5,
+      "navy": [
+        0,
+        34,
+        68
+      ],
+      "glow": false,
+      "blur": 0.5
+    }
+  },
+  "method": "Azahar-verified texture row direction; same source affine; original coordinates and animation keys"
+}

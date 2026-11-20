@@ -1,0 +1,3295 @@
+{
+ "rule": "pixels and rows stay exactly as v1 = 1DX shapes on the Hangul baseline; only CWDH left/char change):\n  1. Base letterfit = the Japanese original's Latin box metrics: core ink (alpha >= 4/15) starts at the pen\n     (left bearing 0) and leaves 1 px on the right, so two letters/digits are 1 px apart, like 3DX JP Latin\n     (JP: Latin-Latin core gap mean 1.06 px next to kana-kana 2.11; Hangul-Hangul in the Korean fonts 2.17).\n     One-stroke glyphs get more white, as the JP original gives them: I, i, l = 1/1, digit 1 = 1/2.\n  2. Ink never leaves its advance box (any alpha > 0 pixel lies inside [pen, pen + advance)): nothing can be\n     clipped at a box edge and no glyph image overlaps its neighbour.\n  3. Hard limit: no touching. Two neighbours touch when a core pixel of one is 8-adjacent to (or on) a core\n     pixel of the other. Checked for every pair that occurs in the Korean text drawn with that font\n     (work/ko_final.json, style -> font as MessageSimple::GetFont; 13/255 -> both), the pairs created at\n     runtime around string variables (one-line style-13 names x the characters next to [0003:0001] tags),\n     the characters next to number variables x every digit, and every digit x digit pair.\n  4. Fit: start from 1 + 2, add 1 px where 3 fails, then a local search over each glyph's two core bearings\n     (any value that keeps 2 and 3) minimising, over the text pairs that contain a Latin glyph,\n     sum n * (core gap - core gap under rules 1 + 2)^2  +  0.3 * uses * ((left - base)^2 + (right - base)^2),\n     i.e. a pixel that 3 forces onto one side is taken back from the partner where that is safe.\n  Candidates kept for the record (REPORT.md section 10): \"optical\" / \"jpchar\" (white-area model D = 2, targets\n  = median / per-character side white of the JP Latin), \"box\" (rule 1 without the one-stroke exception),\n  \"stem\" (rules 1-3 without the fit); those also apply the no-touch limit to all letter x letter pairs.",
+ "mode": "box",
+ "D": 2,
+ "core_alpha": 4,
+ "lambda": 0.3,
+ "fonts": {
+  "font": {
+   "band_v1": [
+    2,
+    13
+   ],
+   "band_jp": [
+    2,
+    14
+   ],
+   "jp_side_white_median": [
+    0.923,
+    1.923
+   ],
+   "constraint_pairs": 4246,
+   "still_touching": [],
+   "fit_moves": [],
+   "chars": {
+    "0": {
+     "cwdh": [
+      0,
+      11,
+      12
+     ],
+     "v1_cwdh": [
+      1,
+      11,
+      13
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 195,
+     "side_white": [
+      0.75,
+      2.0
+     ],
+     "notes": []
+    },
+    "1": {
+     "cwdh": [
+      0,
+      6,
+      6
+     ],
+     "v1_cwdh": [
+      1,
+      6,
+      9
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 122,
+     "side_white": [
+      1.67,
+      1.0
+     ],
+     "notes": []
+    },
+    "2": {
+     "cwdh": [
+      1,
+      9,
+      11
+     ],
+     "v1_cwdh": [
+      1,
+      9,
+      11
+     ],
+     "core_bearings": [
+      1,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 82,
+     "side_white": [
+      1.92,
+      2.0
+     ],
+     "notes": [
+      "+1 left for 스2 (x1)"
+     ]
+    },
+    "3": {
+     "cwdh": [
+      1,
+      9,
+      11
+     ],
+     "v1_cwdh": [
+      1,
+      9,
+      12
+     ],
+     "core_bearings": [
+      1,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 89,
+     "side_white": [
+      2.0,
+      1.5
+     ],
+     "notes": [
+      "+1 left for 스3 (x1)"
+     ]
+    },
+    "4": {
+     "cwdh": [
+      1,
+      10,
+      12
+     ],
+     "v1_cwdh": [
+      0,
+      10,
+      12
+     ],
+     "core_bearings": [
+      1,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 16,
+     "side_white": [
+      2.42,
+      2.67
+     ],
+     "notes": [
+      "+1 left for 스4 (x1)"
+     ]
+    },
+    "5": {
+     "cwdh": [
+      0,
+      9,
+      10
+     ],
+     "v1_cwdh": [
+      1,
+      9,
+      12
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 49,
+     "side_white": [
+      0.75,
+      1.83
+     ],
+     "notes": []
+    },
+    "6": {
+     "cwdh": [
+      0,
+      10,
+      10
+     ],
+     "v1_cwdh": [
+      1,
+      10,
+      12
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 22,
+     "side_white": [
+      0.67,
+      1.5
+     ],
+     "notes": []
+    },
+    "7": {
+     "cwdh": [
+      0,
+      10,
+      11
+     ],
+     "v1_cwdh": [
+      0,
+      10,
+      11
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 51,
+     "side_white": [
+      1.58,
+      2.67
+     ],
+     "notes": []
+    },
+    "8": {
+     "cwdh": [
+      0,
+      10,
+      11
+     ],
+     "v1_cwdh": [
+      1,
+      10,
+      12
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 25,
+     "side_white": [
+      0.75,
+      2.25
+     ],
+     "notes": []
+    },
+    "9": {
+     "cwdh": [
+      0,
+      10,
+      10
+     ],
+     "v1_cwdh": [
+      1,
+      10,
+      12
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 25,
+     "side_white": [
+      0.67,
+      1.5
+     ],
+     "notes": []
+    },
+    "A": {
+     "cwdh": [
+      0,
+      12,
+      13
+     ],
+     "v1_cwdh": [
+      0,
+      12,
+      14
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 8,
+     "side_white": [
+      1.5,
+      2.33
+     ],
+     "notes": []
+    },
+    "B": {
+     "cwdh": [
+      0,
+      10,
+      11
+     ],
+     "v1_cwdh": [
+      1,
+      10,
+      13
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 1,
+     "side_white": [
+      0.08,
+      2.0
+     ],
+     "notes": []
+    },
+    "C": {
+     "cwdh": [
+      1,
+      11,
+      13
+     ],
+     "v1_cwdh": [
+      1,
+      11,
+      14
+     ],
+     "core_bearings": [
+      1,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 9,
+     "side_white": [
+      1.92,
+      1.83
+     ],
+     "notes": [
+      "+1 left for 라C (x1)"
+     ]
+    },
+    "D": {
+     "cwdh": [
+      1,
+      10,
+      12
+     ],
+     "v1_cwdh": [
+      1,
+      10,
+      13
+     ],
+     "core_bearings": [
+      1,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 118,
+     "side_white": [
+      1.08,
+      1.83
+     ],
+     "notes": [
+      "+1 left for 브D (x8)"
+     ]
+    },
+    "E": {
+     "cwdh": [
+      0,
+      10,
+      11
+     ],
+     "v1_cwdh": [
+      1,
+      10,
+      12
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 127,
+     "side_white": [
+      0.08,
+      2.33
+     ],
+     "notes": []
+    },
+    "F": {
+     "cwdh": [
+      0,
+      10,
+      11
+     ],
+     "v1_cwdh": [
+      1,
+      10,
+      12
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 145,
+     "side_white": [
+      0.08,
+      2.5
+     ],
+     "notes": []
+    },
+    "G": {
+     "cwdh": [
+      0,
+      11,
+      12
+     ],
+     "v1_cwdh": [
+      1,
+      11,
+      14
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 16,
+     "side_white": [
+      0.75,
+      1.58
+     ],
+     "notes": []
+    },
+    "H": {
+     "cwdh": [
+      0,
+      10,
+      11
+     ],
+     "v1_cwdh": [
+      1,
+      10,
+      13
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 141,
+     "side_white": [
+      0.0,
+      1.0
+     ],
+     "notes": []
+    },
+    "I": {
+     "cwdh": [
+      0,
+      3,
+      4
+     ],
+     "v1_cwdh": [
+      1,
+      3,
+      6
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 7,
+     "side_white": [
+      0.08,
+      1.0
+     ],
+     "notes": []
+    },
+    "J": {
+     "cwdh": [
+      0,
+      8,
+      9
+     ],
+     "v1_cwdh": [
+      0,
+      8,
+      10
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 2,
+     "side_white": [
+      1.42,
+      1.25
+     ],
+     "notes": []
+    },
+    "K": {
+     "cwdh": [
+      0,
+      10,
+      11
+     ],
+     "v1_cwdh": [
+      1,
+      10,
+      13
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 9,
+     "side_white": [
+      0.0,
+      2.33
+     ],
+     "notes": []
+    },
+    "L": {
+     "cwdh": [
+      0,
+      9,
+      10
+     ],
+     "v1_cwdh": [
+      1,
+      9,
+      11
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 286,
+     "side_white": [
+      0.0,
+      2.67
+     ],
+     "notes": []
+    },
+    "M": {
+     "cwdh": [
+      0,
+      12,
+      13
+     ],
+     "v1_cwdh": [
+      1,
+      12,
+      15
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 42,
+     "side_white": [
+      0.0,
+      1.0
+     ],
+     "notes": []
+    },
+    "N": {
+     "cwdh": [
+      0,
+      10,
+      11
+     ],
+     "v1_cwdh": [
+      1,
+      10,
+      13
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 7,
+     "side_white": [
+      0.08,
+      1.0
+     ],
+     "notes": []
+    },
+    "O": {
+     "cwdh": [
+      0,
+      11,
+      12
+     ],
+     "v1_cwdh": [
+      1,
+      11,
+      14
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 69,
+     "side_white": [
+      0.75,
+      1.75
+     ],
+     "notes": []
+    },
+    "P": {
+     "cwdh": [
+      0,
+      10,
+      11
+     ],
+     "v1_cwdh": [
+      1,
+      10,
+      12
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 394,
+     "side_white": [
+      0.08,
+      2.42
+     ],
+     "notes": []
+    },
+    "Q": {
+     "cwdh": [
+      0,
+      11,
+      12
+     ],
+     "v1_cwdh": [
+      1,
+      11,
+      14
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 0,
+     "side_white": [
+      0.75,
+      1.5
+     ],
+     "notes": []
+    },
+    "R": {
+     "cwdh": [
+      0,
+      10,
+      11
+     ],
+     "v1_cwdh": [
+      1,
+      10,
+      13
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 6,
+     "side_white": [
+      0.08,
+      2.08
+     ],
+     "notes": []
+    },
+    "S": {
+     "cwdh": [
+      0,
+      11,
+      12
+     ],
+     "v1_cwdh": [
+      0,
+      11,
+      12
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 215,
+     "side_white": [
+      1.08,
+      2.17
+     ],
+     "notes": []
+    },
+    "T": {
+     "cwdh": [
+      0,
+      11,
+      12
+     ],
+     "v1_cwdh": [
+      0,
+      11,
+      12
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 10,
+     "side_white": [
+      1.58,
+      2.67
+     ],
+     "notes": []
+    },
+    "U": {
+     "cwdh": [
+      0,
+      10,
+      11
+     ],
+     "v1_cwdh": [
+      1,
+      10,
+      13
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 166,
+     "side_white": [
+      0.25,
+      1.25
+     ],
+     "notes": []
+    },
+    "V": {
+     "cwdh": [
+      0,
+      12,
+      13
+     ],
+     "v1_cwdh": [
+      0,
+      12,
+      13
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 3,
+     "side_white": [
+      1.5,
+      2.33
+     ],
+     "notes": []
+    },
+    "W": {
+     "cwdh": [
+      0,
+      15,
+      16
+     ],
+     "v1_cwdh": [
+      0,
+      15,
+      16
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 37,
+     "side_white": [
+      1.17,
+      2.25
+     ],
+     "notes": []
+    },
+    "X": {
+     "cwdh": [
+      1,
+      10,
+      12
+     ],
+     "v1_cwdh": [
+      1,
+      10,
+      12
+     ],
+     "core_bearings": [
+      1,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 148,
+     "side_white": [
+      2.17,
+      2.0
+     ],
+     "notes": [
+      "+1 left for 스X (x1)"
+     ]
+    },
+    "Y": {
+     "cwdh": [
+      0,
+      11,
+      11
+     ],
+     "v1_cwdh": [
+      1,
+      11,
+      12
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 24,
+     "side_white": [
+      1.42,
+      2.42
+     ],
+     "notes": []
+    },
+    "Z": {
+     "cwdh": [
+      0,
+      11,
+      11
+     ],
+     "v1_cwdh": [
+      0,
+      11,
+      12
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 18,
+     "side_white": [
+      1.17,
+      2.17
+     ],
+     "notes": []
+    },
+    "a": {
+     "cwdh": [
+      0,
+      10,
+      11
+     ],
+     "v1_cwdh": [
+      1,
+      10,
+      12
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 23,
+     "side_white": [
+      1.08,
+      2.08
+     ],
+     "notes": []
+    },
+    "b": {
+     "cwdh": [
+      0,
+      10,
+      10
+     ],
+     "v1_cwdh": [
+      1,
+      10,
+      12
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 12,
+     "side_white": [
+      0.0,
+      2.0
+     ],
+     "notes": []
+    },
+    "c": {
+     "cwdh": [
+      0,
+      9,
+      10
+     ],
+     "v1_cwdh": [
+      1,
+      9,
+      11
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 10,
+     "side_white": [
+      1.0,
+      2.17
+     ],
+     "notes": []
+    },
+    "d": {
+     "cwdh": [
+      0,
+      10,
+      10
+     ],
+     "v1_cwdh": [
+      1,
+      10,
+      12
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 3,
+     "side_white": [
+      1.0,
+      1.0
+     ],
+     "notes": []
+    },
+    "e": {
+     "cwdh": [
+      0,
+      10,
+      10
+     ],
+     "v1_cwdh": [
+      1,
+      10,
+      11
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 31,
+     "side_white": [
+      1.0,
+      2.0
+     ],
+     "notes": []
+    },
+    "f": {
+     "cwdh": [
+      0,
+      6,
+      7
+     ],
+     "v1_cwdh": [
+      1,
+      6,
+      8
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 4,
+     "side_white": [
+      1.0,
+      2.42
+     ],
+     "notes": []
+    },
+    "g": {
+     "cwdh": [
+      0,
+      10,
+      10
+     ],
+     "v1_cwdh": [
+      1,
+      10,
+      12
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 0,
+     "side_white": [
+      1.08,
+      1.5
+     ],
+     "notes": []
+    },
+    "h": {
+     "cwdh": [
+      0,
+      9,
+      9
+     ],
+     "v1_cwdh": [
+      1,
+      9,
+      12
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 6,
+     "side_white": [
+      0.0,
+      1.58
+     ],
+     "notes": []
+    },
+    "i": {
+     "cwdh": [
+      0,
+      3,
+      4
+     ],
+     "v1_cwdh": [
+      1,
+      3,
+      6
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 34,
+     "side_white": [
+      0.17,
+      1.17
+     ],
+     "notes": []
+    },
+    "j": {
+     "cwdh": [
+      0,
+      5,
+      6
+     ],
+     "v1_cwdh": [
+      0,
+      5,
+      6
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 0,
+     "side_white": [
+      2.0,
+      1.17
+     ],
+     "notes": []
+    },
+    "k": {
+     "cwdh": [
+      0,
+      9,
+      10
+     ],
+     "v1_cwdh": [
+      1,
+      9,
+      11
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 6,
+     "side_white": [
+      0.0,
+      2.58
+     ],
+     "notes": []
+    },
+    "l": {
+     "cwdh": [
+      0,
+      3,
+      4
+     ],
+     "v1_cwdh": [
+      1,
+      3,
+      6
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 16,
+     "side_white": [
+      0.0,
+      1.08
+     ],
+     "notes": []
+    },
+    "m": {
+     "cwdh": [
+      0,
+      13,
+      13
+     ],
+     "v1_cwdh": [
+      1,
+      13,
+      16
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 16,
+     "side_white": [
+      0.5,
+      1.58
+     ],
+     "notes": []
+    },
+    "n": {
+     "cwdh": [
+      0,
+      9,
+      9
+     ],
+     "v1_cwdh": [
+      1,
+      9,
+      12
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 12,
+     "side_white": [
+      0.5,
+      1.58
+     ],
+     "notes": []
+    },
+    "o": {
+     "cwdh": [
+      0,
+      10,
+      10
+     ],
+     "v1_cwdh": [
+      1,
+      10,
+      12
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 18,
+     "side_white": [
+      1.0,
+      1.92
+     ],
+     "notes": []
+    },
+    "p": {
+     "cwdh": [
+      0,
+      10,
+      10
+     ],
+     "v1_cwdh": [
+      1,
+      10,
+      12
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 0,
+     "side_white": [
+      0.5,
+      1.92
+     ],
+     "notes": []
+    },
+    "q": {
+     "cwdh": [
+      0,
+      10,
+      10
+     ],
+     "v1_cwdh": [
+      1,
+      10,
+      12
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 0,
+     "side_white": [
+      1.08,
+      1.5
+     ],
+     "notes": []
+    },
+    "r": {
+     "cwdh": [
+      0,
+      6,
+      7
+     ],
+     "v1_cwdh": [
+      1,
+      6,
+      8
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 13,
+     "side_white": [
+      0.5,
+      2.58
+     ],
+     "notes": []
+    },
+    "s": {
+     "cwdh": [
+      0,
+      9,
+      10
+     ],
+     "v1_cwdh": [
+      1,
+      9,
+      11
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 8,
+     "side_white": [
+      0.92,
+      2.42
+     ],
+     "notes": []
+    },
+    "t": {
+     "cwdh": [
+      0,
+      6,
+      7
+     ],
+     "v1_cwdh": [
+      0,
+      6,
+      8
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 12,
+     "side_white": [
+      1.67,
+      2.33
+     ],
+     "notes": []
+    },
+    "u": {
+     "cwdh": [
+      0,
+      9,
+      9
+     ],
+     "v1_cwdh": [
+      1,
+      9,
+      12
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 6,
+     "side_white": [
+      0.58,
+      1.5
+     ],
+     "notes": []
+    },
+    "v": {
+     "cwdh": [
+      0,
+      9,
+      10
+     ],
+     "v1_cwdh": [
+      1,
+      9,
+      11
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 0,
+     "side_white": [
+      1.33,
+      2.42
+     ],
+     "notes": []
+    },
+    "w": {
+     "cwdh": [
+      0,
+      13,
+      14
+     ],
+     "v1_cwdh": [
+      0,
+      13,
+      14
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 3,
+     "side_white": [
+      1.5,
+      2.42
+     ],
+     "notes": []
+    },
+    "x": {
+     "cwdh": [
+      0,
+      9,
+      9
+     ],
+     "v1_cwdh": [
+      1,
+      9,
+      11
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 6,
+     "side_white": [
+      1.17,
+      1.83
+     ],
+     "notes": []
+    },
+    "y": {
+     "cwdh": [
+      0,
+      9,
+      10
+     ],
+     "v1_cwdh": [
+      1,
+      9,
+      11
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 0,
+     "side_white": [
+      1.33,
+      2.42
+     ],
+     "notes": []
+    },
+    "z": {
+     "cwdh": [
+      0,
+      9,
+      10
+     ],
+     "v1_cwdh": [
+      0,
+      9,
+      11
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 0,
+     "side_white": [
+      1.33,
+      2.33
+     ],
+     "notes": []
+    }
+   }
+  },
+  "font_btl": {
+   "band_v1": [
+    1,
+    9
+   ],
+   "band_jp": [
+    1,
+    10
+   ],
+   "jp_side_white_median": [
+    0.6,
+    1.8
+   ],
+   "constraint_pairs": 4038,
+   "still_touching": [],
+   "fit_moves": [],
+   "chars": {
+    "0": {
+     "cwdh": [
+      0,
+      9,
+      9
+     ],
+     "v1_cwdh": [
+      0,
+      9,
+      10
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 141,
+     "side_white": [
+      0.78,
+      1.56
+     ],
+     "notes": []
+    },
+    "1": {
+     "cwdh": [
+      0,
+      5,
+      5
+     ],
+     "v1_cwdh": [
+      0,
+      5,
+      7
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 83,
+     "side_white": [
+      1.78,
+      1.0
+     ],
+     "notes": []
+    },
+    "2": {
+     "cwdh": [
+      1,
+      7,
+      9
+     ],
+     "v1_cwdh": [
+      0,
+      7,
+      9
+     ],
+     "core_bearings": [
+      1,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 53,
+     "side_white": [
+      2.0,
+      1.67
+     ],
+     "notes": [
+      "+1 left for 스2 (x1)"
+     ]
+    },
+    "3": {
+     "cwdh": [
+      1,
+      7,
+      9
+     ],
+     "v1_cwdh": [
+      1,
+      7,
+      9
+     ],
+     "core_bearings": [
+      1,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 31,
+     "side_white": [
+      1.44,
+      1.89
+     ],
+     "notes": [
+      "+1 left for 스3 (x1)"
+     ]
+    },
+    "4": {
+     "cwdh": [
+      1,
+      8,
+      10
+     ],
+     "v1_cwdh": [
+      0,
+      8,
+      9
+     ],
+     "core_bearings": [
+      1,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 11,
+     "side_white": [
+      2.44,
+      2.78
+     ],
+     "notes": [
+      "+1 left for 스4 (x1)"
+     ]
+    },
+    "5": {
+     "cwdh": [
+      0,
+      7,
+      8
+     ],
+     "v1_cwdh": [
+      0,
+      7,
+      9
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 34,
+     "side_white": [
+      1.0,
+      1.44
+     ],
+     "notes": []
+    },
+    "6": {
+     "cwdh": [
+      0,
+      7,
+      8
+     ],
+     "v1_cwdh": [
+      1,
+      7,
+      9
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 6,
+     "side_white": [
+      0.44,
+      1.78
+     ],
+     "notes": []
+    },
+    "7": {
+     "cwdh": [
+      0,
+      8,
+      8
+     ],
+     "v1_cwdh": [
+      0,
+      8,
+      8
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 14,
+     "side_white": [
+      1.67,
+      2.22
+     ],
+     "notes": []
+    },
+    "8": {
+     "cwdh": [
+      0,
+      8,
+      9
+     ],
+     "v1_cwdh": [
+      0,
+      8,
+      9
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 5,
+     "side_white": [
+      0.67,
+      2.11
+     ],
+     "notes": []
+    },
+    "9": {
+     "cwdh": [
+      0,
+      8,
+      8
+     ],
+     "v1_cwdh": [
+      0,
+      8,
+      9
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 0,
+     "side_white": [
+      0.78,
+      1.22
+     ],
+     "notes": []
+    },
+    "A": {
+     "cwdh": [
+      0,
+      9,
+      10
+     ],
+     "v1_cwdh": [
+      0,
+      9,
+      10
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 1,
+     "side_white": [
+      1.33,
+      2.33
+     ],
+     "notes": []
+    },
+    "B": {
+     "cwdh": [
+      0,
+      8,
+      9
+     ],
+     "v1_cwdh": [
+      1,
+      8,
+      10
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 0,
+     "side_white": [
+      0.0,
+      2.11
+     ],
+     "notes": []
+    },
+    "C": {
+     "cwdh": [
+      0,
+      8,
+      9
+     ],
+     "v1_cwdh": [
+      1,
+      8,
+      10
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 8,
+     "side_white": [
+      0.67,
+      1.56
+     ],
+     "notes": []
+    },
+    "D": {
+     "cwdh": [
+      1,
+      8,
+      10
+     ],
+     "v1_cwdh": [
+      1,
+      8,
+      10
+     ],
+     "core_bearings": [
+      1,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 86,
+     "side_white": [
+      1.0,
+      1.89
+     ],
+     "notes": [
+      "+1 left for 브D (x6)"
+     ]
+    },
+    "E": {
+     "cwdh": [
+      0,
+      7,
+      8
+     ],
+     "v1_cwdh": [
+      1,
+      7,
+      9
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 148,
+     "side_white": [
+      0.0,
+      1.89
+     ],
+     "notes": []
+    },
+    "F": {
+     "cwdh": [
+      0,
+      7,
+      8
+     ],
+     "v1_cwdh": [
+      1,
+      7,
+      9
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 42,
+     "side_white": [
+      0.11,
+      2.22
+     ],
+     "notes": []
+    },
+    "G": {
+     "cwdh": [
+      0,
+      9,
+      10
+     ],
+     "v1_cwdh": [
+      1,
+      9,
+      11
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 12,
+     "side_white": [
+      0.67,
+      1.67
+     ],
+     "notes": []
+    },
+    "H": {
+     "cwdh": [
+      0,
+      8,
+      9
+     ],
+     "v1_cwdh": [
+      1,
+      8,
+      10
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 104,
+     "side_white": [
+      0.0,
+      1.11
+     ],
+     "notes": []
+    },
+    "I": {
+     "cwdh": [
+      0,
+      2,
+      3
+     ],
+     "v1_cwdh": [
+      1,
+      2,
+      5
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 2,
+     "side_white": [
+      0.0,
+      1.0
+     ],
+     "notes": []
+    },
+    "J": {
+     "cwdh": [
+      0,
+      6,
+      7
+     ],
+     "v1_cwdh": [
+      0,
+      6,
+      8
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 0,
+     "side_white": [
+      1.22,
+      1.11
+     ],
+     "notes": []
+    },
+    "K": {
+     "cwdh": [
+      0,
+      8,
+      9
+     ],
+     "v1_cwdh": [
+      1,
+      8,
+      10
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 4,
+     "side_white": [
+      0.0,
+      2.44
+     ],
+     "notes": []
+    },
+    "L": {
+     "cwdh": [
+      0,
+      7,
+      8
+     ],
+     "v1_cwdh": [
+      1,
+      7,
+      9
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 24,
+     "side_white": [
+      0.0,
+      2.56
+     ],
+     "notes": []
+    },
+    "M": {
+     "cwdh": [
+      0,
+      9,
+      10
+     ],
+     "v1_cwdh": [
+      1,
+      9,
+      11
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 14,
+     "side_white": [
+      0.0,
+      1.0
+     ],
+     "notes": []
+    },
+    "N": {
+     "cwdh": [
+      0,
+      8,
+      9
+     ],
+     "v1_cwdh": [
+      1,
+      8,
+      10
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 7,
+     "side_white": [
+      0.0,
+      1.0
+     ],
+     "notes": []
+    },
+    "O": {
+     "cwdh": [
+      0,
+      9,
+      10
+     ],
+     "v1_cwdh": [
+      1,
+      9,
+      11
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 74,
+     "side_white": [
+      0.67,
+      2.11
+     ],
+     "notes": []
+    },
+    "P": {
+     "cwdh": [
+      0,
+      8,
+      8
+     ],
+     "v1_cwdh": [
+      1,
+      8,
+      9
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 309,
+     "side_white": [
+      0.0,
+      2.0
+     ],
+     "notes": []
+    },
+    "Q": {
+     "cwdh": [
+      0,
+      9,
+      10
+     ],
+     "v1_cwdh": [
+      1,
+      9,
+      11
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 0,
+     "side_white": [
+      0.67,
+      2.0
+     ],
+     "notes": []
+    },
+    "R": {
+     "cwdh": [
+      0,
+      8,
+      8
+     ],
+     "v1_cwdh": [
+      1,
+      8,
+      10
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 5,
+     "side_white": [
+      0.0,
+      1.44
+     ],
+     "notes": []
+    },
+    "S": {
+     "cwdh": [
+      1,
+      8,
+      10
+     ],
+     "v1_cwdh": [
+      0,
+      8,
+      9
+     ],
+     "core_bearings": [
+      1,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 123,
+     "side_white": [
+      1.56,
+      1.67
+     ],
+     "notes": [
+      "+1 left for 빨S (x4)"
+     ]
+    },
+    "T": {
+     "cwdh": [
+      0,
+      8,
+      9
+     ],
+     "v1_cwdh": [
+      0,
+      8,
+      9
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 1,
+     "side_white": [
+      1.56,
+      2.56
+     ],
+     "notes": []
+    },
+    "U": {
+     "cwdh": [
+      0,
+      8,
+      9
+     ],
+     "v1_cwdh": [
+      1,
+      8,
+      10
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 25,
+     "side_white": [
+      0.11,
+      1.44
+     ],
+     "notes": []
+    },
+    "V": {
+     "cwdh": [
+      0,
+      9,
+      10
+     ],
+     "v1_cwdh": [
+      0,
+      9,
+      10
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 1,
+     "side_white": [
+      1.11,
+      2.33
+     ],
+     "notes": []
+    },
+    "W": {
+     "cwdh": [
+      0,
+      11,
+      12
+     ],
+     "v1_cwdh": [
+      0,
+      11,
+      12
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 56,
+     "side_white": [
+      0.89,
+      2.0
+     ],
+     "notes": []
+    },
+    "X": {
+     "cwdh": [
+      1,
+      8,
+      10
+     ],
+     "v1_cwdh": [
+      0,
+      8,
+      9
+     ],
+     "core_bearings": [
+      1,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 63,
+     "side_white": [
+      2.11,
+      1.89
+     ],
+     "notes": [
+      "+1 left for 스X (x1)"
+     ]
+    },
+    "Y": {
+     "cwdh": [
+      0,
+      8,
+      9
+     ],
+     "v1_cwdh": [
+      0,
+      8,
+      9
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 11,
+     "side_white": [
+      1.44,
+      2.44
+     ],
+     "notes": []
+    },
+    "Z": {
+     "cwdh": [
+      0,
+      8,
+      9
+     ],
+     "v1_cwdh": [
+      0,
+      8,
+      9
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 0,
+     "side_white": [
+      1.0,
+      2.33
+     ],
+     "notes": []
+    },
+    "a": {
+     "cwdh": [
+      0,
+      7,
+      8
+     ],
+     "v1_cwdh": [
+      1,
+      7,
+      9
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 0,
+     "side_white": [
+      0.78,
+      1.44
+     ],
+     "notes": []
+    },
+    "b": {
+     "cwdh": [
+      0,
+      7,
+      8
+     ],
+     "v1_cwdh": [
+      1,
+      7,
+      9
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 0,
+     "side_white": [
+      0.0,
+      1.89
+     ],
+     "notes": []
+    },
+    "c": {
+     "cwdh": [
+      0,
+      7,
+      8
+     ],
+     "v1_cwdh": [
+      0,
+      7,
+      9
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 32,
+     "side_white": [
+      1.11,
+      2.0
+     ],
+     "notes": []
+    },
+    "d": {
+     "cwdh": [
+      0,
+      8,
+      8
+     ],
+     "v1_cwdh": [
+      0,
+      8,
+      9
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 0,
+     "side_white": [
+      1.11,
+      1.0
+     ],
+     "notes": []
+    },
+    "e": {
+     "cwdh": [
+      0,
+      7,
+      8
+     ],
+     "v1_cwdh": [
+      0,
+      7,
+      9
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 65,
+     "side_white": [
+      1.11,
+      1.78
+     ],
+     "notes": []
+    },
+    "f": {
+     "cwdh": [
+      0,
+      5,
+      5
+     ],
+     "v1_cwdh": [
+      0,
+      5,
+      6
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 0,
+     "side_white": [
+      1.0,
+      1.56
+     ],
+     "notes": []
+    },
+    "g": {
+     "cwdh": [
+      0,
+      8,
+      8
+     ],
+     "v1_cwdh": [
+      0,
+      8,
+      9
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 0,
+     "side_white": [
+      1.0,
+      1.44
+     ],
+     "notes": []
+    },
+    "h": {
+     "cwdh": [
+      0,
+      7,
+      7
+     ],
+     "v1_cwdh": [
+      1,
+      7,
+      9
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 0,
+     "side_white": [
+      0.0,
+      1.56
+     ],
+     "notes": []
+    },
+    "i": {
+     "cwdh": [
+      0,
+      2,
+      3
+     ],
+     "v1_cwdh": [
+      1,
+      2,
+      5
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 0,
+     "side_white": [
+      0.11,
+      1.0
+     ],
+     "notes": []
+    },
+    "j": {
+     "cwdh": [
+      0,
+      4,
+      5
+     ],
+     "v1_cwdh": [
+      0,
+      4,
+      5
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 0,
+     "side_white": [
+      2.0,
+      1.11
+     ],
+     "notes": []
+    },
+    "k": {
+     "cwdh": [
+      0,
+      7,
+      8
+     ],
+     "v1_cwdh": [
+      1,
+      7,
+      8
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 0,
+     "side_white": [
+      0.0,
+      2.44
+     ],
+     "notes": []
+    },
+    "l": {
+     "cwdh": [
+      0,
+      2,
+      3
+     ],
+     "v1_cwdh": [
+      1,
+      2,
+      5
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 64,
+     "side_white": [
+      0.0,
+      1.0
+     ],
+     "notes": []
+    },
+    "m": {
+     "cwdh": [
+      0,
+      10,
+      10
+     ],
+     "v1_cwdh": [
+      1,
+      10,
+      12
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 0,
+     "side_white": [
+      0.56,
+      1.56
+     ],
+     "notes": []
+    },
+    "n": {
+     "cwdh": [
+      0,
+      7,
+      8
+     ],
+     "v1_cwdh": [
+      1,
+      7,
+      9
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 32,
+     "side_white": [
+      0.44,
+      1.89
+     ],
+     "notes": []
+    },
+    "o": {
+     "cwdh": [
+      0,
+      8,
+      8
+     ],
+     "v1_cwdh": [
+      0,
+      8,
+      9
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 0,
+     "side_white": [
+      1.0,
+      1.78
+     ],
+     "notes": []
+    },
+    "p": {
+     "cwdh": [
+      0,
+      7,
+      8
+     ],
+     "v1_cwdh": [
+      1,
+      7,
+      9
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 0,
+     "side_white": [
+      0.44,
+      1.89
+     ],
+     "notes": []
+    },
+    "q": {
+     "cwdh": [
+      0,
+      8,
+      8
+     ],
+     "v1_cwdh": [
+      0,
+      8,
+      9
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 0,
+     "side_white": [
+      1.0,
+      1.44
+     ],
+     "notes": []
+    },
+    "r": {
+     "cwdh": [
+      0,
+      5,
+      6
+     ],
+     "v1_cwdh": [
+      1,
+      5,
+      6
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 0,
+     "side_white": [
+      0.44,
+      2.67
+     ],
+     "notes": []
+    },
+    "s": {
+     "cwdh": [
+      0,
+      7,
+      8
+     ],
+     "v1_cwdh": [
+      0,
+      7,
+      8
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 0,
+     "side_white": [
+      1.0,
+      2.11
+     ],
+     "notes": []
+    },
+    "t": {
+     "cwdh": [
+      0,
+      5,
+      5
+     ],
+     "v1_cwdh": [
+      0,
+      5,
+      6
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 32,
+     "side_white": [
+      1.11,
+      1.67
+     ],
+     "notes": []
+    },
+    "u": {
+     "cwdh": [
+      0,
+      7,
+      7
+     ],
+     "v1_cwdh": [
+      1,
+      7,
+      9
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 0,
+     "side_white": [
+      0.56,
+      1.44
+     ],
+     "notes": []
+    },
+    "v": {
+     "cwdh": [
+      0,
+      7,
+      8
+     ],
+     "v1_cwdh": [
+      0,
+      7,
+      8
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 0,
+     "side_white": [
+      1.22,
+      2.22
+     ],
+     "notes": []
+    },
+    "w": {
+     "cwdh": [
+      0,
+      10,
+      10
+     ],
+     "v1_cwdh": [
+      0,
+      10,
+      11
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 1,
+     "side_white": [
+      1.0,
+      1.78
+     ],
+     "notes": []
+    },
+    "x": {
+     "cwdh": [
+      0,
+      7,
+      8
+     ],
+     "v1_cwdh": [
+      0,
+      7,
+      8
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 32,
+     "side_white": [
+      1.11,
+      2.33
+     ],
+     "notes": []
+    },
+    "y": {
+     "cwdh": [
+      0,
+      7,
+      8
+     ],
+     "v1_cwdh": [
+      0,
+      7,
+      8
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 0,
+     "side_white": [
+      1.33,
+      2.22
+     ],
+     "notes": []
+    },
+    "z": {
+     "cwdh": [
+      0,
+      7,
+      8
+     ],
+     "v1_cwdh": [
+      0,
+      7,
+      8
+     ],
+     "core_bearings": [
+      0,
+      1
+     ],
+     "base": [
+      0,
+      1
+     ],
+     "uses": 0,
+     "side_white": [
+      1.11,
+      2.22
+     ],
+     "notes": []
+    }
+   }
+  }
+ }
+}

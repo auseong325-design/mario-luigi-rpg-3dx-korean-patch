@@ -3,10 +3,10 @@
  "used_chars": 1254,
  "used_hangul": 1161,
  "extra_wanted": "※",
- "donor_root": "/home/user/mario-luigi-rpg-3dx-korean-patch/ml 1dx/3romfs",
+ "donor_root": "C:\\AI-Projects\\mario-luigi-rpg-3dx-korean-patch\\ml 1dx\\3romfs",
  "fonts": {
   "font": {
-   "file": "/home/user/mario-luigi-rpg-3dx-korean-patch/work/build/msg_stage/romfs/Msg/JP_ja/font.bffnt",
+   "file": "C:\\AI-Projects\\mario-luigi-rpg-3dx-korean-patch\\work\\build\\msg_stage\\romfs\\Msg\\JP_ja\\font.bffnt",
    "size_before": 278792,
    "size_after": 549096,
    "sheets_before": 1,
@@ -49,16 +49,10 @@
     "font: lib3dx.bffnt_advances reads 2416 mapped characters, 1254/1254 required characters with the intended advance"
    ],
    "failures": [],
-   "previews": [
-    "/home/user/mario-luigi-rpg-3dx-korean-patch/work/font_preview/font_sheet0.png",
-    "/home/user/mario-luigi-rpg-3dx-korean-patch/work/font_preview/font_sheet1.png",
-    "/home/user/mario-luigi-rpg-3dx-korean-patch/work/font_preview/font_sheet0_diff.png",
-    "/home/user/mario-luigi-rpg-3dx-korean-patch/work/font_preview/sample_font.png",
-    "/home/user/mario-luigi-rpg-3dx-korean-patch/work/font_preview/not_from_1dx_font.png"
-   ]
+   "previews": []
   },
   "font_l": {
-   "file": "/home/user/mario-luigi-rpg-3dx-korean-patch/work/build/msg_stage/romfs/Msg/JP_ja/font_l.bffnt",
+   "file": "C:\\AI-Projects\\mario-luigi-rpg-3dx-korean-patch\\work\\build\\msg_stage\\romfs\\Msg\\JP_ja\\font_l.bffnt",
    "size_before": 272560,
    "size_after": 805188,
    "sheets_before": 1,
@@ -105,17 +99,10 @@
     "font_l: lib3dx.bffnt_advances reads 1550 mapped characters, 1254/1254 required characters with the intended advance"
    ],
    "failures": [],
-   "previews": [
-    "/home/user/mario-luigi-rpg-3dx-korean-patch/work/font_preview/font_l_sheet0.png",
-    "/home/user/mario-luigi-rpg-3dx-korean-patch/work/font_preview/font_l_sheet1.png",
-    "/home/user/mario-luigi-rpg-3dx-korean-patch/work/font_preview/font_l_sheet2.png",
-    "/home/user/mario-luigi-rpg-3dx-korean-patch/work/font_preview/font_l_sheet0_diff.png",
-    "/home/user/mario-luigi-rpg-3dx-korean-patch/work/font_preview/sample_font_l.png",
-    "/home/user/mario-luigi-rpg-3dx-korean-patch/work/font_preview/not_from_1dx_font_l.png"
-   ]
+   "previews": []
   },
   "font_btl": {
-   "file": "/home/user/mario-luigi-rpg-3dx-korean-patch/work/build/msg_stage/romfs/Msg/JP_ja/font_btl.bffnt",
+   "file": "C:\\AI-Projects\\mario-luigi-rpg-3dx-korean-patch\\work\\build\\msg_stage\\romfs\\Msg\\JP_ja\\font_btl.bffnt",
    "size_before": 145624,
    "size_after": 284936,
    "sheets_before": 1,
@@ -157,13 +144,7 @@
     "font_btl: lib3dx.bffnt_advances reads 2128 mapped characters, 1254/1254 required characters with the intended advance"
    ],
    "failures": [],
-   "previews": [
-    "/home/user/mario-luigi-rpg-3dx-korean-patch/work/font_preview/font_btl_sheet0.png",
-    "/home/user/mario-luigi-rpg-3dx-korean-patch/work/font_preview/font_btl_sheet1.png",
-    "/home/user/mario-luigi-rpg-3dx-korean-patch/work/font_preview/font_btl_sheet0_diff.png",
-    "/home/user/mario-luigi-rpg-3dx-korean-patch/work/font_preview/sample_font_btl.png",
-    "/home/user/mario-luigi-rpg-3dx-korean-patch/work/font_preview/not_from_1dx_font_btl.png"
-   ]
+   "previews": []
   }
  }
 }

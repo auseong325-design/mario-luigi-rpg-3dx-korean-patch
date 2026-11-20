@@ -1,0 +1,23 @@
+{
+  "changed_models": [
+    {
+      "model": "fmd_title_JP_ja",
+      "textures": [
+        "title_logo_and_JP",
+        "title_logo_JP_bottom",
+        "title_logo_L_JP",
+        "title_logo_M_JP"
+      ]
+    }
+  ],
+  "decoded_pixels_match_input": true,
+  "only_four_textures_and_four_restored_coordinates_changed": true,
+  "original_command_section_restored": true,
+  "all_other_bch_bytes_equal": true,
+  "independent_spica_original_geometry_match": true,
+  "skeletal_and_visibility_animations_equal": true,
+  "dx_deluxe_number_texture_equal": true,
+  "before_fmdl_sha256": "6fb2b50bd8ef259ace157a4c623de3e808a14c0d7b604c00d4d3ed353eb63119",
+  "stage_sha256": "f90441b674466bbd50c74a63e7ddcb61ffb13849a24d03bf40cb3fcb9704e3db",
+  "runtime_verified": false
+}

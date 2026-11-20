@@ -1,0 +1,259 @@
+{
+ "recipe": {
+  "font": "1DX KR font (dialogue)",
+  "em": 13,
+  "outline": 1.85,
+  "stroke": 2.4,
+  "cy": 12.0
+ },
+ "reproduce_old": {
+  "TOP_MENU_TEXT_3_00_JP_ja 능력": true,
+  "TOP_MENU_TEXT_5_00_JP_ja 배지": true
+ },
+ "labels": {
+  "TOP_MENU_TEXT_1_00_JP_ja": {
+   "word": "아이템",
+   "sources": [
+    [
+     "font:font",
+     "아이템",
+     0.867
+    ]
+   ],
+   "hscale": 1.0,
+   "tracking": 0.0,
+   "width": 37.27,
+   "avail": 75.3,
+   "fill": [
+    21,
+    5,
+    58,
+    18
+   ],
+   "fill_w": 37,
+   "fill_h": 13,
+   "ink": [
+    19,
+    3,
+    60,
+    20
+   ],
+   "stroke": 2.5,
+   "soft_fill_share": 0.354,
+   "png": "work\\img\\pause_menu_20261031\\ko\\lyt\\MLyt\\MENU_MAIN_JP_ja\\TOP_MENU_TEXT_1_00_JP_ja.png",
+   "png_sha256": "3EC06E32CA32FC39CB7BF73AC821F25ADCA7F0BED4F5E8AAE2F7229EF40FD4E1"
+  },
+  "TOP_MENU_TEXT_2_00_JP_ja": {
+   "word": "장비",
+   "sources": [
+    [
+     "font:font",
+     "장비",
+     0.867
+    ]
+   ],
+   "hscale": 1.0,
+   "tracking": 0.0,
+   "width": 24.27,
+   "avail": 75.3,
+   "fill": [
+    28,
+    5,
+    52,
+    19
+   ],
+   "fill_w": 24,
+   "fill_h": 14,
+   "ink": [
+    26,
+    3,
+    54,
+    21
+   ],
+   "stroke": 2.33,
+   "soft_fill_share": 0.405,
+   "png": "work\\img\\pause_menu_20261031\\ko\\lyt\\MLyt\\MENU_MAIN_JP_ja\\TOP_MENU_TEXT_2_00_JP_ja.png",
+   "png_sha256": "A9CD28CA305ED07BD9F42E83F5A9AA7E45CF20794677D125004AAF5A1CCC2103"
+  },
+  "TOP_MENU_TEXT_3_00_JP_ja": {
+   "word": "스테이터스",
+   "sources": [
+    [
+     "font:font",
+     "스테이터스",
+     0.867
+    ]
+   ],
+   "hscale": 1.0,
+   "tracking": 0.0,
+   "width": 62.4,
+   "avail": 75.3,
+   "fill": [
+    8,
+    5,
+    72,
+    17
+   ],
+   "fill_w": 64,
+   "fill_h": 12,
+   "ink": [
+    6,
+    3,
+    74,
+    19
+   ],
+   "stroke": 2.29,
+   "soft_fill_share": 0.417,
+   "png": "work\\img\\pause_menu_20261031\\ko\\lyt\\MLyt\\MENU_MAIN_JP_ja\\TOP_MENU_TEXT_3_00_JP_ja.png",
+   "png_sha256": "E915680CAD471571C947A5AD1197181B0FD7F23B2A2734484E83237641F6AEBB"
+  },
+  "TOP_MENU_TEXT_4_00_JP_ja": {
+   "word": "기록",
+   "sources": [
+    [
+     "font:font",
+     "기록",
+     0.867
+    ]
+   ],
+   "hscale": 1.0,
+   "tracking": 0.0,
+   "width": 25.13,
+   "avail": 75.3,
+   "fill": [
+    28,
+    5,
+    53,
+    19
+   ],
+   "fill_w": 25,
+   "fill_h": 14,
+   "ink": [
+    26,
+    3,
+    55,
+    21
+   ],
+   "stroke": 2.66,
+   "soft_fill_share": 0.292,
+   "png": "work\\img\\pause_menu_20261031\\ko\\lyt\\MLyt\\MENU_MAIN_JP_ja\\TOP_MENU_TEXT_4_00_JP_ja.png",
+   "png_sha256": "16ACDDC5BCB2E049046A6D109A628DCCAE3D989F017DE7EA13A924765DB4845E"
+  },
+  "TOP_MENU_TEXT_5_00_JP_ja": {
+   "word": "배지",
+   "sources": [
+    [
+     "font:font",
+     "배지",
+     0.867
+    ]
+   ],
+   "hscale": 1.0,
+   "tracking": 0.0,
+   "width": 23.4,
+   "avail": 75.3,
+   "fill": [
+    28,
+    5,
+    52,
+    17
+   ],
+   "fill_w": 24,
+   "fill_h": 12,
+   "ink": [
+    26,
+    3,
+    54,
+    19
+   ],
+   "stroke": 2.47,
+   "soft_fill_share": 0.364,
+   "png": "work\\img\\pause_menu_20261031\\ko\\lyt\\MLyt\\MENU_MAIN_JP_ja\\TOP_MENU_TEXT_5_00_JP_ja.png",
+   "png_sha256": "27ED0CCD77D1C3DACBE27E37A3D6B895E1D2E3DB955569517047C469C0A435EB"
+  },
+  "TOP_MENU_TEXT_6_00_JP_ja": {
+   "word": "가이드",
+   "sources": [
+    [
+     "font:font",
+     "가이드",
+     0.867
+    ]
+   ],
+   "hscale": 1.0,
+   "tracking": 0.0,
+   "width": 39.0,
+   "avail": 75.3,
+   "fill": [
+    20,
+    5,
+    60,
+    17
+   ],
+   "fill_w": 40,
+   "fill_h": 12,
+   "ink": [
+    18,
+    3,
+    62,
+    19
+   ],
+   "stroke": 2.14,
+   "soft_fill_share": 0.431,
+   "png": "work\\img\\pause_menu_20261031\\ko\\lyt\\MLyt\\MENU_MAIN_JP_ja\\TOP_MENU_TEXT_6_00_JP_ja.png",
+   "png_sha256": "4892953744919193CA845C4ECA22E8F6C9FF321519F7596D383409AA6FDD3676"
+  }
+ },
+ "archive": {
+  "baseline": "patch\\00040000001CA900\\romfs\\Lyt\\JP\\MLyt.dat",
+  "baseline_sha256": "9102588B7E5B06FC6EA34D92D55C38D4EC81B24A7DD23E3F4354BBF3857E464C",
+  "output": "work\\img\\pause_menu_20261031\\romfs\\Lyt\\JP\\MLyt.dat",
+  "output_sha256": "305DA71BDA64CBC50DDA0C62927CEB807F07CE2DB80D7823B301DCE51716372B",
+  "size": [
+   5110500,
+   5110280
+  ],
+  "texture_copies_written": [
+   "MENU_MAIN_JP_ja/timg/TOP_MENU_TEXT_3_00_JP_ja.bflim",
+   "MENU_MAIN_JP_ja/timg/TOP_MENU_TEXT_1_00_JP_ja.bflim",
+   "MENU_MAIN_JP_ja/timg/TOP_MENU_TEXT_6_00_JP_ja.bflim",
+   "MENU_MAIN_JP_ja/timg/TOP_MENU_TEXT_4_00_JP_ja.bflim",
+   "MENU_MAIN_JP_ja/timg/TOP_MENU_TEXT_2_00_JP_ja.bflim",
+   "MENU_MAIN_JP_ja/timg/TOP_MENU_TEXT_5_00_JP_ja.bflim"
+  ],
+  "changed_files": [
+   "MENU_MAIN_JP_ja/timg/TOP_MENU_TEXT_3_00_JP_ja.bflim",
+   "MENU_MAIN_JP_ja/timg/TOP_MENU_TEXT_1_00_JP_ja.bflim",
+   "MENU_MAIN_JP_ja/timg/TOP_MENU_TEXT_6_00_JP_ja.bflim",
+   "MENU_MAIN_JP_ja/timg/TOP_MENU_TEXT_4_00_JP_ja.bflim",
+   "MENU_MAIN_JP_ja/timg/TOP_MENU_TEXT_2_00_JP_ja.bflim",
+   "MENU_MAIN_JP_ja/timg/TOP_MENU_TEXT_5_00_JP_ja.bflim"
+  ],
+  "written_but_identical": [],
+  "distinct_baseline_texture_sha1": {
+   "TOP_MENU_TEXT_3_00_JP_ja": [
+    "c9e82eb28f2ac10c82e224ff5a15b79bcd705fbc"
+   ],
+   "TOP_MENU_TEXT_1_00_JP_ja": [
+    "b95faeab3c6e6b950ec73afc140a51a632190297"
+   ],
+   "TOP_MENU_TEXT_6_00_JP_ja": [
+    "eda4be48c78a1e393940b7c46460d053880e14bc"
+   ],
+   "TOP_MENU_TEXT_4_00_JP_ja": [
+    "7fc2410f20940a2b70cc01a45439e86c2d70ca60"
+   ],
+   "TOP_MENU_TEXT_2_00_JP_ja": [
+    "deccea7ef34990f46937ab928eec2af52f47274b"
+   ],
+   "TOP_MENU_TEXT_5_00_JP_ja": [
+    "549ca276b41efb5bca117c3a7e4f2133c4fc4ebb"
+   ]
+  },
+  "empty_rebuild_equals_baseline": true,
+  "baseline_copies_decode_to_installed_png": true,
+  "unchanged_reencode_identical": true,
+  "new_bflims_decode_to_new_png": true,
+  "all_other_files_and_entries_identical": true
+ }
+}

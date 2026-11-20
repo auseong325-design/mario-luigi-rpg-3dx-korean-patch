@@ -1,0 +1,29 @@
+{
+  "timestamp": "2026-10-08T16:51:06+09:00",
+  "method": "Codex built-in computer-use @oai/sky in node_repl",
+  "azahar_version": "2126.1.2",
+  "game_update": "v1.2 visible on title screen",
+  "screen": "slot 1 / game mode selection / Mario & Luigi RPG3 illustration",
+  "runtime_verified": true,
+  "latest_1DX_word_and_amp_shape_visible": true,
+  "no_visible_texture_split_seam": true,
+  "no_letter_clipping": true,
+  "character_art_and_number3_preserved": true,
+  "navigation": "game start, slot 1, start button via built-in Computer Use touch drag/double-click",
+  "native_screenshot": "Mario & Luigi Bowser's Inside…_08.10.26_16.51.06.774.png",
+  "screenshots": ["runtime_before.png", "runtime_after.png"],
+  "input_settings": {
+    "original_profile": "Default",
+    "qa_profile_created": "Codex Logo QA",
+    "qa_profile_mapping": "built-in keyboard defaults",
+    "original_gamepad_profile_restored": true,
+    "qa_profile_retained_inactive": true,
+    "original_Default_mapping_preserved": true
+  },
+  "emulation_stopped_normally_after_verification": true,
+  "subagents_used": false,
+  "orca_used": false,
+  "native_input_scripts_used": false,
+  "MLyt_sha256": "0e6519193d9b62d4951bee9b3f2fa02f6e0c3cea81b1ab4551223da3ff698f26",
+  "FMdl_unchanged_sha256": "2d7819214886f6e973810940ff69f4096c254cd8da30381983e52ac519cefcad"
+}

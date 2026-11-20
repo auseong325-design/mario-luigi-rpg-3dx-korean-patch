@@ -1,0 +1,78 @@
+{
+  "R_changed_pixels": 300,
+  "R_alpha_and_outer_silhouette_identical": true,
+  "cropped_and_aligned_RGBA_equal": true,
+  "edit_region": [
+    206,
+    154,
+    227,
+    198
+  ],
+  "dark_pixels_inside_widened_stem_before": 16,
+  "dark_pixels_inside_widened_stem_after": 0,
+  "bottom_interior_max_row_colour_step_before": 24.385927691760163,
+  "bottom_interior_max_row_colour_step_after": 6.939975886566356,
+  "supplied_crop_positions": [
+    {
+      "file": "d30a54bc-0364-4df5-9126-a74631d03d23",
+      "size": [
+        10,
+        25
+      ],
+      "proof_crop": [
+        369,
+        197,
+        379,
+        222
+      ],
+      "original_R_region": [
+        210.75,
+        183.25,
+        213.25,
+        189.5
+      ],
+      "RGB_rmse": 0.0
+    },
+    {
+      "file": "81c1edf3-5564-4361-90e0-2e862fdb0c39",
+      "size": [
+        18,
+        97
+      ],
+      "proof_crop": [
+        362,
+        110,
+        380,
+        207
+      ],
+      "original_R_region": [
+        209.0,
+        161.5,
+        213.5,
+        185.75
+      ],
+      "RGB_rmse": 0.0
+    },
+    {
+      "file": "b864b1bd-cad0-4f57-9a43-d38003fc092d",
+      "size": [
+        28,
+        34
+      ],
+      "proof_crop": [
+        383,
+        206,
+        411,
+        240
+      ],
+      "original_R_region": [
+        214.25,
+        185.5,
+        221.25,
+        194.0
+      ],
+      "RGB_rmse": 0.0
+    }
+  ],
+  "visual_review": "Native Affinity proof: remaining stem gaps covered; horizontal pale repair ridge removed"
+}

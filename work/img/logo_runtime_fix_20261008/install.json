@@ -1,0 +1,19 @@
+{
+  "changed_patch_files": [
+    "FMdl/JP/FMdl.dat"
+  ],
+  "changed_title_textures": [
+    "title_logo_and_JP"
+  ],
+  "stage_patch_junction_match": true,
+  "all_sd_and_zip_files_match": true,
+  "default_stage_matches_installed": true,
+  "checked_patch_files": 36,
+  "zip_crc_check": "PASS",
+  "backup": "C:\\AI-Projects\\mario-luigi-rpg-3dx-korean-patch\\work\\build\\prev_logo_runtime_fix_20261008",
+  "fmdl_sha256": "2d7819214886f6e973810940ff69f4096c254cd8da30381983e52ac519cefcad",
+  "zip_sha256": "428da773908cad063ab94c7343efcf9150d920fe6d84a0981e4a162bb4531450",
+  "source_files_modified": false,
+  "azahar_launched": true,
+  "runtime_verified": true
+}

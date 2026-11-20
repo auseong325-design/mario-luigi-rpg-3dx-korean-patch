@@ -1,0 +1,14 @@
+name addrs: {'0x004963DC': 'font_sys.bffnt', '0x00496394': 'font_sys_btl.bffnt', '0x00496378': 'font_l.bffnt', '0x004963FC': 'font.bffnt', '0x004963BC': 'font_btl.bffnt', '0x00496360': 'gaizi.bffnt', '0x00496414': 'font_ruby.bffnt'}
+run at 0x0049C6BC:
+  0x0049C6BC: 0x00456B04 
+  0x0049C6C0: 0x00456B0C 
+  0x0049C6C4: 0x00496378 font_l.bffnt
+  0x0049C6C8: 0x004963FC font.bffnt
+  0x0049C6CC: 0x004963BC font_btl.bffnt
+  0x0049C6D0: 0x004963DC font_sys.bffnt
+  0x0049C6D4: 0x00496394 font_sys_btl.bffnt
+  0x0049C6D8: 0x00496930 
+  0x0049C6DC: 0x00496360 gaizi.bffnt
+  0x0049C6E0: 0x00496414 font_ruby.bffnt
+  0x0049C6E4: 0x00000000 
+  0x0049C6E8: 0x00000200 

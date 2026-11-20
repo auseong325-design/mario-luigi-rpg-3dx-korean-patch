@@ -1,0 +1,15 @@
+{
+  "method": "Codex built-in computer-use, @oai/sky",
+  "emulator": "Azahar 2126.1.2",
+  "screenshot": "runtime_after.png",
+  "screenshot_source": "Mario & Luigi Bowser's Inside…_10.10.26_00.20.00.511.png",
+  "mode": "쿠파주니어 RPG, file slot 1, mode selection",
+  "observed_R_repairs_hidden_by_Hangul": true,
+  "observed_no_clipping_or_L_R_seam": true,
+  "native_capture_max_channel_difference": 1,
+  "native_capture_mean_channel_difference": 0.034298878205128204,
+  "input_profile_changed": false,
+  "normal_emulation_stop": "F5",
+  "subagents_used": false,
+  "Orca_used": false
+}

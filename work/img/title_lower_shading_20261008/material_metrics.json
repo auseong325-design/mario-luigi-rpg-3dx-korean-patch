@@ -1,0 +1,22 @@
+{
+  "geometry_source": "1DX alpha silhouette, same affine as all seven main-title glyphs",
+  "pattern_source": "1DX underside color progression, converted to measured Japanese 3DX palettes",
+  "palette_rows": {
+    "mario": [
+      120,
+      138
+    ],
+    "amp": [
+      128,
+      142
+    ],
+    "luigi": [
+      118,
+      136
+    ]
+  },
+  "gradient_mapping": "2D donor light field; no destination global-row cutoff",
+  "color_field_smoothing_source_px": 0.65,
+  "shade_pixels_hr": 72571,
+  "contour_repairs": "approved 3DX sweep below ru vowel and ji; 1DX light pattern retained"
+}

@@ -164,12 +164,12 @@ btn_buy_00_JP_ja	replace	かう	사기	1DX btn_buy(사기)	shop_btn	나	1DX:MLyt
 shop_top_equip_text_00_JP_ja	replace	そうび	장비	glossary:そうび(명사); 1DX shop_top_wear_02_text는 '장비품'	shop_top	나	1DX:MLyt/MLYT_SHOP_KR_ko/timg/shop_top_wear_02_text_12_KR_ko.bflim	
 SHOP_TIT_ITEM_00_JP_ja	replace	アイテムショップ	아이템 숍	glossary:アイテムショップ	shop_title	다		
 LTIT_SELL_00_JP_ja	replace	うる	팔기	1DX btn_sell(팔기)	list_title	나	1DX:MLyt/MLYT_GUIDE_KR_ko/timg/LTIT_guide_fieldbasic_12_KR_ko.bflim	
-TOP_MENU_TEXT_3_00_JP_ja	replace	ステータス	능력	glossary:ステータス; ko_final:BMsg/b_sys#280(「ステータス」→「능력」)	menu_top	나	1DX:GLyt/G_BG_12_KR_ko/timg/TOP_MENU_TEXT_3_12_KR_ko.bflim	1DX는 '스테이터스'. 대사 번역 우선
-TOP_MENU_TEXT_1_00_JP_ja	replace	アイテム	아이템	glossary; 1DX TOP_MENU_TEXT_1(아이템)	menu_top	나	1DX:GLyt/G_BG_12_KR_ko/timg/TOP_MENU_TEXT_1_12_KR_ko.bflim	80x24(1DX 96x24)
-TOP_MENU_TEXT_6_00_JP_ja	replace	ガイド	가이드	glossary; 1DX TOP_MENU_TEXT_4(가이드)	menu_top	나	1DX:GLyt/G_BG_12_KR_ko/timg/TOP_MENU_TEXT_4_12_KR_ko.bflim	
-TOP_MENU_TEXT_4_00_JP_ja	replace	レコード	기록	glossary:レコード; 1DX TOP_MENU_TEXT_5(기록)	menu_top	나	1DX:MLyt/MLYT_MAIN_KR_ko/timg/TOP_MENU_TEXT_5_12_KR_ko.bflim	
-TOP_MENU_TEXT_2_00_JP_ja	replace	そうび	장비	glossary; 1DX TOP_MENU_TEXT_2(장비)	menu_top	가	1DX:GLyt/G_BG_12_KR_ko/timg/TOP_MENU_TEXT_2_12_KR_ko.bflim	
-TOP_MENU_TEXT_5_00_JP_ja	replace	バッジ	배지	glossary:バッジ	menu_top	나	1DX:GLyt/G_BG_12_KR_ko/timg/TOP_MENU_TEXT_1_12_KR_ko.bflim	
+TOP_MENU_TEXT_3_00_JP_ja	replace	ステータス	스테이터스	2026-10-31 사용자 지시: 1DX 한국판 TOP_MENU_TEXT_3(스테이터스); ko_final:BMsg/b_sys#280(「ステータス」→「스테이터스」)	menu_top	나	1DX:GLyt/G_BG_12_KR_ko/timg/TOP_MENU_TEXT_3_12_KR_ko.bflim	2026-10-31: 메뉴 6개를 1DX 대사 비트맵 폰트(font, em 13, 옛 배지·능력과 같은 방식)로 통일, 세로 중심 12 (work/img/pause_menu_20261031)
+TOP_MENU_TEXT_1_00_JP_ja	replace	アイテム	아이템	glossary; 1DX TOP_MENU_TEXT_1(아이템)	menu_top	나	1DX:GLyt/G_BG_12_KR_ko/timg/TOP_MENU_TEXT_1_12_KR_ko.bflim	80x24(1DX 96x24). 2026-10-31: 메뉴 6개를 1DX 대사 비트맵 폰트(font, em 13, 옛 배지·능력과 같은 방식)로 통일, 세로 중심 12 (work/img/pause_menu_20261031)
+TOP_MENU_TEXT_6_00_JP_ja	replace	ガイド	가이드	glossary; 1DX TOP_MENU_TEXT_4(가이드)	menu_top	나	1DX:GLyt/G_BG_12_KR_ko/timg/TOP_MENU_TEXT_4_12_KR_ko.bflim	2026-10-31: 메뉴 6개를 1DX 대사 비트맵 폰트(font, em 13, 옛 배지·능력과 같은 방식)로 통일, 세로 중심 12 (work/img/pause_menu_20261031)
+TOP_MENU_TEXT_4_00_JP_ja	replace	レコード	기록	glossary:レコード; 1DX TOP_MENU_TEXT_5(기록)	menu_top	나	1DX:MLyt/MLYT_MAIN_KR_ko/timg/TOP_MENU_TEXT_5_12_KR_ko.bflim	2026-10-31: 메뉴 6개를 1DX 대사 비트맵 폰트(font, em 13, 옛 배지·능력과 같은 방식)로 통일, 세로 중심 12 (work/img/pause_menu_20261031)
+TOP_MENU_TEXT_2_00_JP_ja	replace	そうび	장비	glossary; 1DX TOP_MENU_TEXT_2(장비)	menu_top	나	1DX:GLyt/G_BG_12_KR_ko/timg/TOP_MENU_TEXT_2_12_KR_ko.bflim	2026-10-31: 메뉴 6개를 1DX 대사 비트맵 폰트(font, em 13, 옛 배지·능력과 같은 방식)로 통일, 세로 중심 12 (work/img/pause_menu_20261031)
+TOP_MENU_TEXT_5_00_JP_ja	replace	バッジ	배지	glossary:バッジ	menu_top	나	1DX:GLyt/G_BG_12_KR_ko/timg/TOP_MENU_TEXT_1_12_KR_ko.bflim	2026-10-31: 메뉴 6개를 1DX 대사 비트맵 폰트(font, em 13, 옛 배지·능력과 같은 방식)로 통일, 세로 중심 12 (work/img/pause_menu_20261031)
 tab_SET_OFF2_00_JP_ja	replace	なし	없음	coined(あり→있음: ko_final FMsg/i_challenge_01#57)	set_tab	나	1DX:MLyt/MLYT_SET_KR_ko/timg/tab_SET_OFF_12_KR_ko.bflim	리드 확인: 설정 항목(후리가나 표시?) 화면 보고 확인
 tab_SET_ON2_00_JP_ja	replace	あり	있음	ko_final:FMsg/i_challenge_01#57(あり!→있음!)	set_tab	나	1DX:MLyt/MLYT_SET_KR_ko/timg/tab_SET_ON_12_KR_ko.bflim	
 LOAD_GAME_IMG_ML_L_00_JP_ja	replace	マリオ&ルイージRPG3 (로고 왼쪽 조각)	마리오&루이지 RPG3	IMAGE_TASK 0장; 로고	logo	다	1DX:MGMap/KR/MGMap.dat:mg_map_title_logo_KR_ko	파일 선택 그림(RGB565). 로고가 L(144x208)+R(256x208)에 걸쳐 있음 → I4

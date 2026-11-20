@@ -1,0 +1,22 @@
+{
+  "timestamp": "2026-10-08T16:24:12.479655+09:00",
+  "method": "Codex built-in computer-use @oai/sky in node_repl",
+  "azahar_version": "2126.1.2",
+  "game_update": "v1.2 visible on title screen",
+  "before_problem_reproduced": true,
+  "after_assembly_alignment_verified": true,
+  "held_assembly_and_attached_ampersand_verified": true,
+  "original_separation_and_rotation_observed": true,
+  "main_title_verified": true,
+  "runtime_verified": true,
+  "subagents_used": false,
+  "orca_used_this_run": false,
+  "native_input_scripts_used": false,
+  "screenshots": [
+    "runtime_before.png",
+    "runtime_after_assembly.png",
+    "runtime_after_title.png"
+  ],
+  "sequence": "runtime_sequence.json",
+  "fmdl_sha256": "2d7819214886f6e973810940ff69f4096c254cd8da30381983e52ac519cefcad"
+}

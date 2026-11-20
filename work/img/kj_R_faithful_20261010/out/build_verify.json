@@ -1,0 +1,14 @@
+{
+  "changed_texture_copies": [
+    "MENU_FILE_LOAD_JP_ja/timg/LOAD_GAME_IMG_KJ_R_00_JP_ja.bflim",
+    "MENU_FILE_LOAD_JP_ja/timg/LOAD_GAME_IMG_KJ_L_00_JP_ja.bflim"
+  ],
+  "only_two_KJ_textures_changed": true,
+  "actual_changed_texture_copies": [
+    "MENU_FILE_LOAD_JP_ja/timg/LOAD_GAME_IMG_KJ_R_00_JP_ja.bflim"
+  ],
+  "all_other_SARC_files_and_archive_entries_unchanged": true,
+  "decoded_RGB565_matches_inputs": true,
+  "before_sha256": "d0004b045186dd5a1c720862eddc8fe6a00b8d4bfba7c4e7bb34a5986d4e4091",
+  "after_sha256": "cb172fbe843269aa75a675752cdf94a9a6e30d611bc7f4a26931f38330d41664"
+}

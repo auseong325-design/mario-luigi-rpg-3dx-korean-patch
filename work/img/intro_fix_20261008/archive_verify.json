@@ -1,0 +1,19 @@
+{
+  "changed_models": [
+    {
+      "slot": 78,
+      "name": "fmd_title_JP_ja",
+      "changed_bytes": 15,
+      "bch_length": 626980,
+      "before_sha256": "3b39966df021bd6796a57bdfa1c05953149ff6e8bb37538c54bc87a0f25d836e",
+      "after_sha256": "4902179395e943f1cd0aaad3f71c3532f98abab9983cd827ca929168106a7c13"
+    }
+  ],
+  "model_count": 366,
+  "only_four_coordinate_fields_changed": true,
+  "all_texture_bytes_preserved": true,
+  "all_other_model_and_animation_bytes_preserved": true,
+  "original_v12_title_unchanged": true,
+  "stage_sha256": "4f7c4210672c0478cacb33c368e90e3e3ee344b8b283e8508763540b3cde0ab1",
+  "before_fmdl_sha256": "f882547057d34b9dd13b6ab8b3465c4eed9622994731ed35ae83dd6a4007f27d"
+}

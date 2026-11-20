@@ -10,7 +10,8 @@ Korean textures: work/img/fmdl_ko/<model>/<texture>.png (RGBA, the texture's own
 first). Every copy of the same original texture (same pixel bytes, in any model) gets the same
 replacement. Output: work/build/fmdl_stage/romfs/FMdl/JP/FMdl.dat (source: v1.2 romf2 version).
 Only changed models are BLZ-compressed again (lib3dx.rebuild_bg4); pixel bytes are replaced in
-place, so each BCH keeps its length and layout.
+place, so each BCH keeps its length and layout. Optional verified model-coordinate edits are
+loaded from work/img/fmdl_geometry_patches.json (excluded by --identity and --selftest).
 """
 
 from __future__ import annotations
@@ -33,6 +34,7 @@ ROOT = lib3dx.ROOT
 SRC_REL = "FMdl/JP/FMdl.dat"
 KO_DIR = ROOT / "work/img/fmdl_ko"
 OUT = ROOT / "work/build/fmdl_stage/romfs/FMdl/JP/FMdl.dat"
+GEOMETRY_PLAN = ROOT / "work/img/fmdl_geometry_patches.json"
 GAMES = {"3DX": lambda: lib3dx.romfs_path(SRC_REL),
          "1DX": lambda: ROOT / "ml 1dx/3romfs/FMdl/KR/FMdl.dat"}
 
@@ -90,7 +92,35 @@ def ko_images() -> dict[str, np.ndarray]:
     return out
 
 
-def build(replace: dict[str, np.ndarray], out: Path | None, verbose=True) -> bytes:
+def apply_geometry(models, new_slots):
+    """Apply exact, guarded byte edits without changing pointers, textures, or animations."""
+    if not GEOMETRY_PLAN.exists():
+        return {}
+    plan = json.loads(GEOMETRY_PLAN.read_text(encoding="utf-8"))
+    applied = {}
+    for name, rule in plan["models"].items():
+        slot, plain, bch = models[name]
+        # The complete command section is checked against the v1.2 source before any edit.
+        digest = hashlib.sha256(plain[bch.cmds:bch.cmds + bch.cmd_len]).hexdigest()
+        if digest != rule["original_command_sha256"]:
+            raise ValueError(f"{name}: geometry command section differs from the verified source")
+        buf = bytearray(new_slots.get(slot, plain))
+        for edit in rule["edits"]:
+            offset = edit["offset"]
+            before, after = bytes.fromhex(edit["before"]), bytes.fromhex(edit["after"])
+            if len(before) != len(after) or not before:
+                raise ValueError(f"{name}: invalid geometry edit size")
+            if not bch.cmds <= offset < offset + len(before) <= bch.cmds + bch.cmd_len:
+                raise ValueError(f"{name}: geometry edit outside command section")
+            if buf[offset:offset + len(before)] != before:
+                raise ValueError(f"{name}: unexpected original bytes at {offset:#x}")
+            buf[offset:offset + len(after)] = after
+        new_slots[slot] = bytes(buf)
+        applied[name] = rule["edits"]
+    return applied
+
+
+def build(replace: dict[str, np.ndarray], out: Path | None, verbose=True, geometry=True) -> bytes:
     raw, models = load(GAMES["3DX"]())
     # sha of every requested original -> image
     want = {}
@@ -113,9 +143,14 @@ def build(replace: dict[str, np.ndarray], out: Path | None, verbose=True) -> byt
                 applied.setdefault(want[s][0], []).append(f"{name}/{t.name}")
         if items:
             new_slots[slot] = bch.replace_many(items)
+    geometry_applied = apply_geometry(models, new_slots) if geometry else {}
     data = lib3dx.rebuild_bg4(raw, new_slots)
     # verify: read back every replaced texture
     _, es = lib3dx.read_bg4(data)
+    for name in geometry_applied:
+        slot = models[name][0]
+        if lib3dx.bg4_plain(es[slot]) != new_slots[slot]:
+            raise ValueError(f"{name}: geometry read-back differs")
     for key, copies in applied.items():
         img = want[[s for s, v in want.items() if v[0] == key][0]][1]
         for c in copies:
@@ -134,6 +169,8 @@ def build(replace: dict[str, np.ndarray], out: Path | None, verbose=True) -> byt
             if len(b.data) != len(models[model][1]):
                 raise ValueError(f"{c}: BCH length changed")
     if verbose:
+        for name, edits in geometry_applied.items():
+            print(f"adjusted geometry {name}: {len(edits)} guarded coordinate edits")
         for key, copies in applied.items():
             print(f"replaced {key}: {len(copies)} copies ({', '.join(copies)})")
         missing = set(replace) - set(applied)
@@ -158,7 +195,7 @@ def main() -> None:
         return extract()
     if a.identity:
         raw = GAMES["3DX"]().read_bytes()
-        data = build({}, None, verbose=False)
+        data = build({}, None, verbose=False, geometry=False)
         # also re-encode every model with every lossless texture replaced by itself
         _, models = load(GAMES["3DX"]())
         same = {slot: bch.replace_many({t.name: bch.decode(t) for t in bch.textures
@@ -178,7 +215,7 @@ def main() -> None:
             img = bch.decode(t).copy()
             img[: t.h // 2, : t.w // 2, :3] = 255 - img[: t.h // 2, : t.w // 2, :3]
             fake[f"{name}/{t.name}"] = img
-        build(fake, None)
+        build(fake, None, geometry=False)
         print("selftest OK")
         return
     build(ko_images(), Path(a.out))

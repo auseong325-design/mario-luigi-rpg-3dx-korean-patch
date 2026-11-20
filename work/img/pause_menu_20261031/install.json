@@ -1,0 +1,26 @@
+{
+  "installed": {
+    "romfs/Lyt/JP/MLyt.dat": "305da71bda64cbc50dda0c62927ceb807f07ce2db80d7823b301dce51716372b",
+    "romfs/Msg/JP_ja/BMsg.dat": "b44a2098f715b712436ad228d4bf5e63256cffc774e96d933bb1b528efbec01f",
+    "romfs/Msg/JP_ja/Menu.msbt": "0838bc67601516a75955e9e67b90964351f027b09ad8b2a7589e013f5d5cfbca"
+  },
+  "actions": {
+    "patch/romfs/Lyt/JP/MLyt.dat": "replaced 9102588b7e5b",
+    "sd/romfs/Lyt/JP/MLyt.dat": "replaced 9102588b7e5b",
+    "patch/romfs/Msg/JP_ja/BMsg.dat": "unchanged",
+    "sd/romfs/Msg/JP_ja/BMsg.dat": "unchanged",
+    "patch/romfs/Msg/JP_ja/Menu.msbt": "unchanged",
+    "sd/romfs/Msg/JP_ja/Menu.msbt": "unchanged",
+    "zip": "replaced ['romfs/Lyt/JP/MLyt.dat']",
+    "png/TOP_MENU_TEXT_1_00_JP_ja": "replaced",
+    "png/TOP_MENU_TEXT_2_00_JP_ja": "replaced",
+    "png/TOP_MENU_TEXT_3_00_JP_ja": "replaced",
+    "png/TOP_MENU_TEXT_4_00_JP_ja": "replaced",
+    "png/TOP_MENU_TEXT_5_00_JP_ja": "replaced",
+    "png/TOP_MENU_TEXT_6_00_JP_ja": "replaced"
+  },
+  "title_folder_files": 38,
+  "patch_junction_sd_zip_match": true,
+  "zip_sha256": "b10eb44e0680c3add184dedcc6bc0766aefea7ab16df0a65292d3b50cb8550d3",
+  "backup": "C:\\AI-Projects\\mario-luigi-rpg-3dx-korean-patch\\work\\build\\prev_pause_menu_20261031b"
+}

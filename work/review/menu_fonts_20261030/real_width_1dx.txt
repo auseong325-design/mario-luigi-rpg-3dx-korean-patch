@@ -1,0 +1,20 @@
+22868 (line, font) pairs; width changed in 12200; over the JP max of their group before: 1 (shipped, for reference); newly over because of the candidate: 3
+  NEW-OVER BMsg/b_sys#299 ('BMsg', 13) font_btl: JP max 276px, shipped 276px -> 277px: '라이벌 의식을 불태우는 하잉바와의 싸움은 서툴다.'
+  NEW-OVER FMsg/i_challenge_01#111 ('FMsg', 5) font_btl: JP max 211px, shipped 211px -> 212px: '볼록볼록하게 생긴 지방 덩어리 몬스터.'
+  NEW-OVER HugeBattle#104 ('HugeBattle', 3) font_btl: JP max 42px, shipped 42px -> 54px: '??????'
+largest growth:
+  +18px FMsg/i_areanone_puzzle_01_U#12 font: '9898 88241 983'
+  +18px FMsg/i_areanone_puzzle_01_L#12 font: '9898 88241 983'
+  +17px BMsg/b_sys#95 font_btl: 'Excellent 횟수가 500회를 넘는다'
+  +16px Menu#713 font: "It's me! Jr.! 오르골 Ver."
+  +16px FMsg/o_mushiba_24#13 font: '1000년이다, 1000년.'
+  +16px BMsg/b_sys#1683 font_btl: 'Excellent 횟수가 100회를 넘는다'
+  +15px Menu#222 font: 'Oki Doki!! DX'
+  +15px Item#349 font_btl: 'Excellent를 내면 HP가 조금 회복!'
+  +14px Menu#38 font: 'What a news! DX'
+  +14px Item#172 font: 'HP양말DX FULL!'
+  +13px Menu#843 font_btl: '모두 성공시켜서 Excellent를 노려 보세요.'
+  +13px Menu#671 font: 'Oki Doki!!'
+  +13px Menu#665 font: 'The Winner is… DX'
+  +13px Menu#562 font_btl: '모두 성공시켜서 Excellent를 노려 보세요!'
+  +13px Menu#527 font_btl: '성공시켜서 Excellent를 노려 보세요.'

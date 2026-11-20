@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-10",
+  "status": "fresh R material extracted/restored in Affinity; existing installed composition retained",
+  "source_ROM": "C:\\AI-Projects\\mario-luigi-rpg-3dx-korean-patch\\romfs\\Lyt\\JP\\MLyt.dat",
+  "source_ROM_sha256": "bfa702d82de8431db15f0b4f494aa45c47c818cf26ca4aa47e06e2ffd9e9d25c",
+  "fresh_source_not_previous_repaired_R": true,
+  "unchanged_original_face_rim_counter_and_legs_pixels": 1482,
+  "original_cutout_nontransparent_pixels": 1899,
+  "restoration_underlay_pixels": 823,
+  "restoration_only_in_covered_regions": true,
+  "reference": "user-supplied Korean 1DX 쿠파군단 RPG R; silhouette only",
+  "reference_fit": {
+    "parameters": [
+      0.627337716297119,
+      0.6310575335687423,
+      0.22285250356818698,
+      1.268363473052605,
+      1.3237382576243428
+    ],
+    "face_iou": 0.9139504563233377
+  },
+  "layered_composite_max_difference": 7.105427357601002e-15,
+  "aligned_export_exact": true,
+  "R_sha256": "d0afe8abfd8928ed96e27dcaf969bc597559f23a6a8013fa7c665298efd47b9e",
+  "installed_patch_sha256": "cb172fbe843269aa75a675752cdf94a9a6e30d611bc7f4a26931f38330d41664",
+  "distribution_zip_sha256": "beff425ef955f1d3148daf600e971e7647f7d2f17e198da154fdf9b76340c7be",
+  "installed_patch_and_distribution_unchanged": true,
+  "subagents_used": false,
+  "Affinity_documents": [
+    "R_recut_20261010.af",
+    "R_recut_aligned_20261010.af"
+  ]
+}

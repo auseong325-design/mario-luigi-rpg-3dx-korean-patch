@@ -1,0 +1,484 @@
+## 3DX ko:font advances vs 1dx:font ink (fits = 1DX ink <= 3DX adv - 1)
+too wide: +/06789FLTVZabkpxz
+  '!': 3dx adv  6 ink  4 | 1dx adv  8 ink  4 rows 13..-1 (3dx 12..-2) ok
+  '"': 3dx=False 1dx=False
+  '#': 3dx=False 1dx=False
+  '$': 3dx=False 1dx=False
+  '%': 3dx adv 16 ink 15 | 1dx adv 16 ink 15 rows 12..1 (3dx 11..0) ok
+  '&': 3dx adv 12 ink 11 | 1dx adv 14 ink 11 rows 12..1 (3dx 13..0) ok
+  "'": 3dx=True 1dx=False
+  '(': 3dx adv  7 ink  5 | 1dx adv  7 ink  5 rows 13..-3 (3dx 13..-2) ok
+  ')': 3dx adv  7 ink  5 | 1dx adv  7 ink  6 rows 13..-3 (3dx 13..-2) ok
+  '*': 3dx=False 1dx=False
+  '+': 3dx adv 11 ink 10 | 1dx adv 13 ink 11 rows 12..1 (3dx 10..1) WIDE
+  ',': 3dx adv  5 ink  4 | 1dx adv  7 ink  4 rows 2..-2 (3dx 2..-2) ok
+  '-': 3dx=False 1dx=True
+  '.': 3dx adv  5 ink  3 | 1dx adv  7 ink  4 rows 2..-1 (3dx 3..0) ok
+  '/': 3dx adv  7 ink  6 | 1dx adv 10 ink  8 rows 12..-2 (3dx 13..-2) WIDE
+  '0': 3dx adv 11 ink  9 | 1dx adv 13 ink 11 rows 12..0 (3dx 13..0) WIDE
+  '1': 3dx adv  9 ink  5 | 1dx adv  9 ink  6 rows 12..1 (3dx 13..0) ok
+  '2': 3dx adv 11 ink 10 | 1dx adv 11 ink  9 rows 12..1 (3dx 13..1) ok
+  '3': 3dx adv 11 ink 10 | 1dx adv 12 ink  9 rows 12..1 (3dx 13..0) ok
+  '4': 3dx adv 11 ink 10 | 1dx adv 12 ink 10 rows 12..1 (3dx 13..1) ok
+  '5': 3dx adv 11 ink  9 | 1dx adv 12 ink  9 rows 12..1 (3dx 13..0) ok
+  '6': 3dx adv 10 ink  9 | 1dx adv 12 ink 10 rows 12..1 (3dx 13..0) WIDE
+  '7': 3dx adv 10 ink  9 | 1dx adv 11 ink 10 rows 12..0 (3dx 13..1) WIDE
+  '8': 3dx adv 10 ink  9 | 1dx adv 12 ink 10 rows 12..1 (3dx 13..0) WIDE
+  '9': 3dx adv 10 ink  9 | 1dx adv 12 ink 10 rows 12..1 (3dx 13..0) WIDE
+  ':': 3dx adv  5 ink  3 | 1dx adv  7 ink  3 rows 11..2 (3dx 10..1) ok
+  ';': 3dx=False 1dx=False
+  '<': 3dx=False 1dx=False
+  '=': 3dx adv 11 ink 10 | 1dx adv 12 ink 10 rows 9..3 (3dx 8..3) ok
+  '>': 3dx=False 1dx=False
+  '?': 3dx adv 11 ink  8 | 1dx adv 13 ink  9 rows 13..-1 (3dx 13..1) ok
+  '@': 3dx=False 1dx=False
+  'A': 3dx adv 14 ink 13 | 1dx adv 14 ink 12 rows 12..0 (3dx 13..0) ok
+  'B': 3dx adv 12 ink 11 | 1dx adv 13 ink 10 rows 12..1 (3dx 13..1) ok
+  'C': 3dx adv 13 ink 12 | 1dx adv 14 ink 11 rows 12..1 (3dx 13..0) ok
+  'D': 3dx adv 12 ink 11 | 1dx adv 13 ink 10 rows 12..1 (3dx 13..1) ok
+  'E': 3dx adv 11 ink 10 | 1dx adv 12 ink 10 rows 12..1 (3dx 13..1) ok
+  'F': 3dx adv 10 ink  9 | 1dx adv 12 ink 10 rows 12..1 (3dx 13..0) WIDE
+  'G': 3dx adv 13 ink 12 | 1dx adv 14 ink 11 rows 12..1 (3dx 13..0) ok
+  'H': 3dx adv 11 ink 10 | 1dx adv 13 ink 10 rows 12..0 (3dx 13..0) ok
+  'I': 3dx adv  5 ink  3 | 1dx adv  6 ink  3 rows 12..0 (3dx 13..0) ok
+  'J': 3dx adv 10 ink  9 | 1dx adv 10 ink  8 rows 12..1 (3dx 13..0) ok
+  'K': 3dx adv 11 ink 11 | 1dx adv 13 ink 10 rows 12..0 (3dx 13..0) ok
+  'L': 3dx adv  9 ink  9 | 1dx adv 11 ink  9 rows 12..1 (3dx 13..1) WIDE
+  'M': 3dx adv 14 ink 13 | 1dx adv 15 ink 12 rows 12..1 (3dx 13..0) ok
+  'N': 3dx adv 11 ink 10 | 1dx adv 13 ink 10 rows 12..1 (3dx 13..0) ok
+  'O': 3dx adv 13 ink 13 | 1dx adv 14 ink 11 rows 12..1 (3dx 13..0) ok
+  'P': 3dx adv 11 ink 10 | 1dx adv 12 ink 10 rows 12..1 (3dx 13..1) ok
+  'Q': 3dx adv 13 ink 13 | 1dx adv 14 ink 11 rows 12..0 (3dx 13..-1) ok
+  'R': 3dx adv 12 ink 11 | 1dx adv 13 ink 10 rows 12..1 (3dx 13..0) ok
+  'S': 3dx adv 12 ink 11 | 1dx adv 12 ink 11 rows 12..0 (3dx 13..0) ok
+  'T': 3dx adv 11 ink 11 | 1dx adv 12 ink 11 rows 12..0 (3dx 13..0) WIDE
+  'U': 3dx adv 12 ink 11 | 1dx adv 13 ink 10 rows 12..1 (3dx 13..0) ok
+  'V': 3dx adv 12 ink 12 | 1dx adv 13 ink 12 rows 12..1 (3dx 13..0) WIDE
+  'W': 3dx adv 16 ink 16 | 1dx adv 16 ink 15 rows 12..1 (3dx 13..0) ok
+  'X': 3dx adv 11 ink 11 | 1dx adv 12 ink 10 rows 12..1 (3dx 13..0) ok
+  'Y': 3dx adv 12 ink 12 | 1dx adv 12 ink 11 rows 12..1 (3dx 13..1) ok
+  'Z': 3dx adv 11 ink 11 | 1dx adv 12 ink 11 rows 12..1 (3dx 13..1) WIDE
+  '[': 3dx=False 1dx=True
+  '\\': 3dx=False 1dx=False
+  ']': 3dx=False 1dx=True
+  '^': 3dx=False 1dx=False
+  '_': 3dx=False 1dx=False
+  '`': 3dx=False 1dx=False
+  'a': 3dx adv 10 ink  9 | 1dx adv 12 ink 10 rows 10..0 (3dx 10..0) WIDE
+  'b': 3dx adv 10 ink  9 | 1dx adv 12 ink 10 rows 12..1 (3dx 13..1) WIDE
+  'c': 3dx adv 10 ink  9 | 1dx adv 11 ink  9 rows 9..1 (3dx 10..0) ok
+  'd': 3dx adv 11 ink 10 | 1dx adv 12 ink 10 rows 12..1 (3dx 13..1) ok
+  'e': 3dx adv 11 ink 10 | 1dx adv 11 ink 10 rows 9..1 (3dx 10..0) ok
+  'f': 3dx adv  8 ink  7 | 1dx adv  8 ink  6 rows 12..1 (3dx 13..1) ok
+  'g': 3dx adv 11 ink 10 | 1dx adv 12 ink 10 rows 9..-3 (3dx 10..-2) ok
+  'h': 3dx adv 10 ink  9 | 1dx adv 12 ink  9 rows 12..1 (3dx 13..1) ok
+  'i': 3dx adv  5 ink  3 | 1dx adv  6 ink  3 rows 12..0 (3dx 13..1) ok
+  'j': 3dx adv  6 ink  4 | 1dx adv  6 ink  5 rows 12..-2 (3dx 13..-2) ok
+  'k': 3dx adv  9 ink  9 | 1dx adv 11 ink  9 rows 12..0 (3dx 13..0) WIDE
+  'l': 3dx adv  6 ink  3 | 1dx adv  6 ink  3 rows 12..0 (3dx 13..0) ok
+  'm': 3dx adv 14 ink 13 | 1dx adv 16 ink 13 rows 9..0 (3dx 10..1) ok
+  'n': 3dx adv 10 ink  9 | 1dx adv 12 ink  9 rows 9..0 (3dx 10..1) ok
+  'o': 3dx adv 11 ink 10 | 1dx adv 12 ink 10 rows 9..1 (3dx 10..0) ok
+  'p': 3dx adv 10 ink  9 | 1dx adv 12 ink 10 rows 9..-3 (3dx 10..-2) WIDE
+  'q': 3dx adv 11 ink 10 | 1dx adv 12 ink 10 rows 9..-2 (3dx 10..-2) ok
+  'r': 3dx adv  7 ink  6 | 1dx adv  8 ink  6 rows 9..1 (3dx 10..1) ok
+  's': 3dx adv 10 ink  9 | 1dx adv 11 ink  9 rows 9..0 (3dx 10..0) ok
+  't': 3dx adv  7 ink  6 | 1dx adv  8 ink  6 rows 12..1 (3dx 13..1) ok
+  'u': 3dx adv 10 ink  9 | 1dx adv 12 ink  9 rows 9..1 (3dx 10..1) ok
+  'v': 3dx adv 10 ink  9 | 1dx adv 11 ink  9 rows 9..1 (3dx 10..0) ok
+  'w': 3dx adv 14 ink 13 | 1dx adv 14 ink 13 rows 9..1 (3dx 10..1) ok
+  'x': 3dx adv  9 ink  8 | 1dx adv 11 ink  9 rows 9..0 (3dx 10..0) WIDE
+  'y': 3dx adv 10 ink  9 | 1dx adv 11 ink  9 rows 9..-3 (3dx 10..-2) ok
+  'z': 3dx adv  9 ink  9 | 1dx adv 11 ink  9 rows 9..1 (3dx 10..1) WIDE
+  '{': 3dx=False 1dx=False
+  '|': 3dx=False 1dx=False
+  '}': 3dx=False 1dx=False
+  '~': 3dx adv 16 ink 14 | 1dx adv 16 ink 14 rows 9..5 (3dx 8..4) ok
+
+## 3DX ko:font_btl advances vs 1dx:font_btl ink (fits = 1DX ink <= 3DX adv - 1)
+too wide: +/04789=?FKLPTcdghjkmnoqrsuwxz
+  '!': 3dx adv  5 ink  3 | 1dx adv  6 ink  3 rows 10..0 (3dx 10..0) ok
+  '"': 3dx=False 1dx=False
+  '#': 3dx=False 1dx=False
+  '$': 3dx=False 1dx=False
+  '%': 3dx adv 12 ink 11 | 1dx adv 12 ink 11 rows 9..1 (3dx 9..1) ok
+  '&': 3dx adv  9 ink  9 | 1dx adv 10 ink  8 rows 9..1 (3dx 10..1) ok
+  "'": 3dx=True 1dx=False
+  '(': 3dx adv  5 ink  4 | 1dx adv  6 ink  4 rows 9..-2 (3dx 10..-1) ok
+  ')': 3dx adv  5 ink  4 | 1dx adv  6 ink  4 rows 9..-2 (3dx 10..-1) ok
+  '*': 3dx=False 1dx=False
+  '+': 3dx adv  8 ink  8 | 1dx adv 10 ink  9 rows 9..1 (3dx 8..1) WIDE
+  ',': 3dx adv  4 ink  3 | 1dx adv  5 ink  3 rows 2..-2 (3dx 3..-1) ok
+  '-': 3dx=False 1dx=True
+  '.': 3dx adv  4 ink  2 | 1dx adv  5 ink  3 rows 2..-1 (3dx 2..1) ok
+  '/': 3dx adv  5 ink  5 | 1dx adv  7 ink  6 rows 9..-1 (3dx 10..-1) WIDE
+  '0': 3dx adv  8 ink  7 | 1dx adv 10 ink  9 rows 9..1 (3dx 10..1) WIDE
+  '1': 3dx adv  7 ink  4 | 1dx adv  7 ink  5 rows 9..1 (3dx 10..1) ok
+  '2': 3dx adv  8 ink  7 | 1dx adv  9 ink  7 rows 9..1 (3dx 10..1) ok
+  '3': 3dx adv  8 ink  7 | 1dx adv  9 ink  7 rows 9..1 (3dx 10..1) ok
+  '4': 3dx adv  8 ink  8 | 1dx adv  9 ink  8 rows 9..1 (3dx 10..1) WIDE
+  '5': 3dx adv  8 ink  7 | 1dx adv  9 ink  7 rows 9..1 (3dx 10..1) ok
+  '6': 3dx adv  8 ink  7 | 1dx adv  9 ink  7 rows 9..1 (3dx 10..1) ok
+  '7': 3dx adv  8 ink  7 | 1dx adv  8 ink  8 rows 9..1 (3dx 10..1) WIDE
+  '8': 3dx adv  8 ink  7 | 1dx adv  9 ink  8 rows 9..1 (3dx 10..1) WIDE
+  '9': 3dx adv  8 ink  7 | 1dx adv  9 ink  8 rows 9..1 (3dx 10..1) WIDE
+  ':': 3dx adv  4 ink  3 | 1dx adv  5 ink  3 rows 8..2 (3dx 8..2) ok
+  ';': 3dx=False 1dx=False
+  '<': 3dx=False 1dx=False
+  '=': 3dx adv  8 ink  7 | 1dx adv  9 ink  8 rows 7..3 (3dx 6..2) WIDE
+  '>': 3dx=False 1dx=False
+  '?': 3dx adv  7 ink  6 | 1dx adv  9 ink  7 rows 10..0 (3dx 10..1) WIDE
+  '@': 3dx=False 1dx=False
+  'A': 3dx adv 11 ink 10 | 1dx adv 10 ink  9 rows 9..1 (3dx 10..1) ok
+  'B': 3dx adv  9 ink  8 | 1dx adv 10 ink  8 rows 9..1 (3dx 10..1) ok
+  'C': 3dx adv 10 ink  9 | 1dx adv 10 ink  8 rows 9..1 (3dx 10..1) ok
+  'D': 3dx adv  9 ink  8 | 1dx adv 10 ink  8 rows 9..1 (3dx 10..1) ok
+  'E': 3dx adv  8 ink  7 | 1dx adv  9 ink  7 rows 9..1 (3dx 10..1) ok
+  'F': 3dx adv  7 ink  6 | 1dx adv  9 ink  7 rows 9..1 (3dx 10..1) WIDE
+  'G': 3dx adv 10 ink  9 | 1dx adv 11 ink  9 rows 9..1 (3dx 10..1) ok
+  'H': 3dx adv  9 ink  8 | 1dx adv 10 ink  8 rows 9..1 (3dx 10..1) ok
+  'I': 3dx adv  4 ink  2 | 1dx adv  5 ink  2 rows 9..1 (3dx 10..1) ok
+  'J': 3dx adv  8 ink  7 | 1dx adv  8 ink  6 rows 9..1 (3dx 10..1) ok
+  'K': 3dx adv  8 ink  7 | 1dx adv 10 ink  8 rows 9..1 (3dx 10..1) WIDE
+  'L': 3dx adv  7 ink  6 | 1dx adv  9 ink  7 rows 9..1 (3dx 10..1) WIDE
+  'M': 3dx adv 11 ink 10 | 1dx adv 11 ink  9 rows 9..1 (3dx 10..1) ok
+  'N': 3dx adv  9 ink  8 | 1dx adv 10 ink  8 rows 9..1 (3dx 10..1) ok
+  'O': 3dx adv 10 ink  9 | 1dx adv 11 ink  9 rows 9..1 (3dx 10..1) ok
+  'P': 3dx adv  8 ink  7 | 1dx adv  9 ink  8 rows 9..1 (3dx 10..1) WIDE
+  'Q': 3dx adv 10 ink  9 | 1dx adv 11 ink  9 rows 9..0 (3dx 10..0) ok
+  'R': 3dx adv  9 ink  9 | 1dx adv 10 ink  8 rows 9..1 (3dx 10..1) ok
+  'S': 3dx adv  9 ink  8 | 1dx adv  9 ink  8 rows 9..0 (3dx 10..1) ok
+  'T': 3dx adv  8 ink  7 | 1dx adv  9 ink  8 rows 9..1 (3dx 10..1) WIDE
+  'U': 3dx adv  9 ink  8 | 1dx adv 10 ink  8 rows 9..1 (3dx 10..1) ok
+  'V': 3dx adv 10 ink  9 | 1dx adv 10 ink  9 rows 9..1 (3dx 10..1) ok
+  'W': 3dx adv 12 ink 11 | 1dx adv 12 ink 11 rows 9..1 (3dx 10..1) ok
+  'X': 3dx adv  9 ink  8 | 1dx adv  9 ink  8 rows 9..1 (3dx 10..1) ok
+  'Y': 3dx adv  9 ink  8 | 1dx adv  9 ink  8 rows 9..1 (3dx 10..1) ok
+  'Z': 3dx adv  9 ink  8 | 1dx adv  9 ink  8 rows 9..1 (3dx 10..1) ok
+  '[': 3dx=False 1dx=True
+  '\\': 3dx=False 1dx=False
+  ']': 3dx=False 1dx=True
+  '^': 3dx=False 1dx=False
+  '_': 3dx=False 1dx=False
+  '`': 3dx=False 1dx=False
+  'a': 3dx adv  8 ink  7 | 1dx adv  9 ink  7 rows 7..0 (3dx 8..1) ok
+  'b': 3dx adv  8 ink  7 | 1dx adv  9 ink  7 rows 9..1 (3dx 10..1) ok
+  'c': 3dx adv  7 ink  6 | 1dx adv  9 ink  7 rows 7..1 (3dx 8..1) WIDE
+  'd': 3dx adv  8 ink  7 | 1dx adv  9 ink  8 rows 9..1 (3dx 10..1) WIDE
+  'e': 3dx adv  8 ink  7 | 1dx adv  9 ink  7 rows 7..1 (3dx 8..1) ok
+  'f': 3dx adv  6 ink  5 | 1dx adv  6 ink  5 rows 9..1 (3dx 10..1) ok
+  'g': 3dx adv  8 ink  7 | 1dx adv  9 ink  8 rows 7..-2 (3dx 8..-1) WIDE
+  'h': 3dx adv  7 ink  6 | 1dx adv  9 ink  7 rows 9..1 (3dx 10..1) WIDE
+  'i': 3dx adv  3 ink  2 | 1dx adv  5 ink  2 rows 9..1 (3dx 10..1) ok
+  'j': 3dx adv  4 ink  3 | 1dx adv  5 ink  4 rows 9..-2 (3dx 10..-1) WIDE
+  'k': 3dx adv  7 ink  6 | 1dx adv  8 ink  7 rows 9..1 (3dx 10..1) WIDE
+  'l': 3dx adv  3 ink  2 | 1dx adv  5 ink  2 rows 9..1 (3dx 10..1) ok
+  'm': 3dx adv 10 ink  9 | 1dx adv 12 ink 10 rows 7..1 (3dx 8..1) WIDE
+  'n': 3dx adv  7 ink  6 | 1dx adv  9 ink  7 rows 7..1 (3dx 8..1) WIDE
+  'o': 3dx adv  8 ink  7 | 1dx adv  9 ink  8 rows 7..1 (3dx 8..1) WIDE
+  'p': 3dx adv  8 ink  7 | 1dx adv  9 ink  7 rows 7..-2 (3dx 8..-1) ok
+  'q': 3dx adv  8 ink  7 | 1dx adv  9 ink  8 rows 7..-2 (3dx 8..-1) WIDE
+  'r': 3dx adv  5 ink  4 | 1dx adv  6 ink  5 rows 7..1 (3dx 8..1) WIDE
+  's': 3dx adv  7 ink  7 | 1dx adv  8 ink  7 rows 7..0 (3dx 8..1) WIDE
+  't': 3dx adv  6 ink  5 | 1dx adv  6 ink  5 rows 9..1 (3dx 9..1) ok
+  'u': 3dx adv  7 ink  6 | 1dx adv  9 ink  7 rows 7..1 (3dx 8..1) WIDE
+  'v': 3dx adv  8 ink  7 | 1dx adv  8 ink  7 rows 7..1 (3dx 8..1) ok
+  'w': 3dx adv 10 ink  9 | 1dx adv 11 ink 10 rows 7..1 (3dx 8..1) WIDE
+  'x': 3dx adv  7 ink  6 | 1dx adv  8 ink  7 rows 7..1 (3dx 8..1) WIDE
+  'y': 3dx adv  8 ink  7 | 1dx adv  8 ink  7 rows 7..-2 (3dx 8..-1) ok
+  'z': 3dx adv  7 ink  6 | 1dx adv  8 ink  7 rows 7..1 (3dx 8..1) WIDE
+  '{': 3dx=False 1dx=False
+  '|': 3dx=False 1dx=False
+  '}': 3dx=False 1dx=False
+  '~': 3dx adv 12 ink 11 | 1dx adv 12 ink 11 rows 7..4 (3dx 7..4) ok
+
+## 3DX ko:font_l advances vs 1dx:font_l ink (fits = 1DX ink <= 3DX adv - 1)
+too wide: 056789
+  '!': 3dx adv  9 ink  5 | 1dx adv 12 ink  5 rows 19..-1 (3dx 18..-2) ok
+  '"': 3dx=False 1dx=False
+  '#': 3dx=False 1dx=False
+  '$': 3dx=False 1dx=False
+  '%': 3dx=True 1dx=False
+  '&': 3dx=True 1dx=False
+  "'": 3dx=True 1dx=False
+  '(': 3dx=True 1dx=False
+  ')': 3dx=True 1dx=False
+  '*': 3dx=False 1dx=False
+  '+': 3dx=True 1dx=False
+  ',': 3dx adv  8 ink  5 | 1dx adv 10 ink  5 rows 3..-4 (3dx 4..-3) ok
+  '-': 3dx=False 1dx=False
+  '.': 3dx adv  8 ink  4 | 1dx adv 11 ink  5 rows 3..-2 (3dx 4..1) ok
+  '/': 3dx=True 1dx=False
+  '0': 3dx adv 16 ink 14 | 1dx adv 19 ink 16 rows 18..0 (3dx 20..0) WIDE
+  '1': 3dx adv 12 ink  8 | 1dx adv 14 ink  8 rows 18..0 (3dx 19..0) ok
+  '2': 3dx adv 15 ink 14 | 1dx adv 17 ink 14 rows 18..1 (3dx 19..1) ok
+  '3': 3dx adv 15 ink 14 | 1dx adv 17 ink 13 rows 18..1 (3dx 19..0) ok
+  '4': 3dx adv 16 ink 15 | 1dx adv 17 ink 15 rows 18..0 (3dx 19..0) ok
+  '5': 3dx adv 14 ink 13 | 1dx adv 17 ink 14 rows 18..1 (3dx 19..0) WIDE
+  '6': 3dx adv 14 ink 13 | 1dx adv 17 ink 14 rows 18..1 (3dx 19..0) WIDE
+  '7': 3dx adv 14 ink 13 | 1dx adv 16 ink 15 rows 18..0 (3dx 19..0) WIDE
+  '8': 3dx adv 15 ink 14 | 1dx adv 18 ink 15 rows 18..1 (3dx 19..0) WIDE
+  '9': 3dx adv 14 ink 13 | 1dx adv 17 ink 14 rows 18..1 (3dx 20..0) WIDE
+  ':': 3dx=True 1dx=False
+  ';': 3dx=False 1dx=False
+  '<': 3dx=False 1dx=False
+  '=': 3dx=True 1dx=False
+  '>': 3dx=False 1dx=False
+  '?': 3dx adv 16 ink 13 | 1dx adv 19 ink 13 rows 19..-1 (3dx 19..0) ok
+  '@': 3dx=False 1dx=False
+  'A': 3dx adv 20 ink 20 | 1dx adv 20 ink 18 rows 18..1 (3dx 20..1) ok
+  'B': 3dx adv 18 ink 16 | 1dx adv 19 ink 15 rows 17..1 (3dx 19..1) ok
+  'C': 3dx adv 18 ink 18 | 1dx adv 20 ink 17 rows 18..1 (3dx 19..0) ok
+  'D': 3dx adv 19 ink 17 | 1dx adv 20 ink 15 rows 17..1 (3dx 19..1) ok
+  'E': 3dx adv 16 ink 15 | 1dx adv 18 ink 14 rows 17..1 (3dx 19..1) ok
+  'F': 3dx adv 15 ink 14 | 1dx adv 18 ink 14 rows 17..1 (3dx 19..0) ok
+  'G': 3dx adv 19 ink 18 | 1dx adv 21 ink 17 rows 18..1 (3dx 19..0) ok
+  'H': 3dx adv 18 ink 16 | 1dx adv 20 ink 15 rows 18..0 (3dx 19..0) ok
+  'I': 3dx adv  8 ink  4 | 1dx adv  9 ink  4 rows 18..0 (3dx 19..0) ok
+  'J': 3dx adv 15 ink 14 | 1dx adv 15 ink 12 rows 18..1 (3dx 19..0) ok
+  'K': 3dx adv 17 ink 16 | 1dx adv 19 ink 15 rows 18..0 (3dx 19..0) ok
+  'L': 3dx adv 15 ink 13 | 1dx adv 17 ink 13 rows 18..1 (3dx 19..1) ok
+  'M': 3dx adv 22 ink 20 | 1dx adv 23 ink 18 rows 18..0 (3dx 19..0) ok
+  'N': 3dx adv 18 ink 16 | 1dx adv 20 ink 15 rows 18..1 (3dx 19..0) ok
+  'O': 3dx adv 22 ink 20 | 1dx adv 21 ink 17 rows 18..1 (3dx 19..0) ok
+  'P': 3dx adv 17 ink 15 | 1dx adv 18 ink 14 rows 18..0 (3dx 19..0) ok
+  'Q': 3dx adv 21 ink 19 | 1dx adv 21 ink 17 rows 18..0 (3dx 19..-1) ok
+  'R': 3dx adv 19 ink 17 | 1dx adv 19 ink 15 rows 18..0 (3dx 19..0) ok
+  'S': 3dx adv 18 ink 16 | 1dx adv 18 ink 16 rows 18..0 (3dx 19..0) ok
+  'T': 3dx adv 18 ink 16 | 1dx adv 18 ink 16 rows 17..0 (3dx 19..1) ok
+  'U': 3dx adv 17 ink 15 | 1dx adv 20 ink 15 rows 18..1 (3dx 20..0) ok
+  'V': 3dx adv 19 ink 18 | 1dx adv 20 ink 18 rows 18..1 (3dx 19..0) ok
+  'W': 3dx adv 23 ink 23 | 1dx adv 24 ink 22 rows 18..1 (3dx 19..0) ok
+  'X': 3dx adv 18 ink 16 | 1dx adv 19 ink 16 rows 18..0 (3dx 19..0) ok
+  'Y': 3dx adv 20 ink 18 | 1dx adv 18 ink 16 rows 18..0 (3dx 19..0) ok
+  'Z': 3dx adv 18 ink 16 | 1dx adv 17 ink 15 rows 17..1 (3dx 19..1) ok
+  '[': 3dx=False 1dx=False
+  '\\': 3dx=False 1dx=False
+  ']': 3dx=False 1dx=False
+  '^': 3dx=False 1dx=False
+  '_': 3dx=False 1dx=False
+  '`': 3dx=False 1dx=False
+  'a': 3dx adv 16 ink 14 | 1dx adv 18 ink 15 rows 14..0 (3dx 15..0) ok
+  'b': 3dx adv 16 ink 14 | 1dx adv 18 ink 14 rows 18..0 (3dx 19..0) ok
+  'c': 3dx adv 15 ink 14 | 1dx adv 17 ink 14 rows 13..1 (3dx 15..0) ok
+  'd': 3dx adv 16 ink 14 | 1dx adv 18 ink 14 rows 18..0 (3dx 19..0) ok
+  'e': 3dx adv 16 ink 15 | 1dx adv 17 ink 14 rows 13..1 (3dx 15..0) ok
+  'f': 3dx adv 11 ink  9 | 1dx adv 11 ink  8 rows 17..1 (3dx 20..1) ok
+  'g': 3dx adv 16 ink 14 | 1dx adv 18 ink 14 rows 14..-4 (3dx 15..-3) ok
+  'h': 3dx adv 15 ink 13 | 1dx adv 17 ink 12 rows 18..0 (3dx 19..0) ok
+  'i': 3dx adv  6 ink  4 | 1dx adv  9 ink  4 rows 18..0 (3dx 20..1) ok
+  'j': 3dx adv  8 ink  6 | 1dx adv  9 ink  7 rows 18..-4 (3dx 20..-3) ok
+  'k': 3dx adv 15 ink 13 | 1dx adv 17 ink 13 rows 18..0 (3dx 19..0) ok
+  'l': 3dx adv  6 ink  4 | 1dx adv  9 ink  4 rows 18..0 (3dx 19..0) ok
+  'm': 3dx adv 21 ink 19 | 1dx adv 23 ink 18 rows 14..0 (3dx 15..0) ok
+  'n': 3dx adv 15 ink 13 | 1dx adv 18 ink 13 rows 14..0 (3dx 15..0) ok
+  'o': 3dx adv 17 ink 15 | 1dx adv 17 ink 14 rows 13..1 (3dx 15..0) ok
+  'p': 3dx adv 16 ink 14 | 1dx adv 18 ink 14 rows 14..-4 (3dx 15..-3) ok
+  'q': 3dx adv 16 ink 14 | 1dx adv 18 ink 14 rows 14..-4 (3dx 15..-3) ok
+  'r': 3dx adv 11 ink  9 | 1dx adv 12 ink  9 rows 14..1 (3dx 15..0) ok
+  's': 3dx adv 14 ink 13 | 1dx adv 16 ink 13 rows 14..0 (3dx 15..0) ok
+  't': 3dx adv 11 ink  9 | 1dx adv 11 ink  9 rows 17..1 (3dx 19..0) ok
+  'u': 3dx adv 15 ink 13 | 1dx adv 17 ink 12 rows 14..1 (3dx 15..0) ok
+  'v': 3dx adv 15 ink 14 | 1dx adv 17 ink 13 rows 14..1 (3dx 15..0) ok
+  'w': 3dx adv 20 ink 19 | 1dx adv 21 ink 19 rows 14..1 (3dx 15..0) ok
+  'x': 3dx adv 14 ink 13 | 1dx adv 16 ink 13 rows 14..0 (3dx 15..0) ok
+  'y': 3dx adv 15 ink 14 | 1dx adv 16 ink 14 rows 14..-4 (3dx 15..-3) ok
+  'z': 3dx adv 15 ink 13 | 1dx adv 16 ink 14 rows 13..1 (3dx 15..1) ok
+  '{': 3dx=False 1dx=False
+  '|': 3dx=False 1dx=False
+  '}': 3dx=False 1dx=False
+  '~': 3dx adv 24 ink 21 | 1dx adv 24 ink 21 rows 14..7 (3dx 13..6) ok
+
+## 3DX ko:font advances vs 1dx:font_sys ink (fits = 1DX ink <= 3DX adv - 1)
+too wide: +/08LTkz
+  '!': 3dx adv  6 ink  4 | 1dx adv  8 ink  3 rows 12..0 (3dx 12..-2) ok
+  '"': 3dx=False 1dx=False
+  '#': 3dx=False 1dx=False
+  '$': 3dx=False 1dx=False
+  '%': 3dx adv 16 ink 15 | 1dx adv 16 ink 13 rows 12..1 (3dx 11..0) ok
+  '&': 3dx adv 12 ink 11 | 1dx adv 14 ink 10 rows 12..1 (3dx 13..0) ok
+  "'": 3dx=True 1dx=False
+  '(': 3dx adv  7 ink  5 | 1dx adv  7 ink  5 rows 13..-2 (3dx 13..-2) ok
+  ')': 3dx adv  7 ink  5 | 1dx adv  7 ink  5 rows 13..-2 (3dx 13..-2) ok
+  '*': 3dx=False 1dx=False
+  '+': 3dx adv 11 ink 10 | 1dx adv 13 ink 11 rows 11..1 (3dx 10..1) WIDE
+  ',': 3dx adv  5 ink  4 | 1dx adv  7 ink  3 rows 2..-2 (3dx 2..-2) ok
+  '-': 3dx=False 1dx=True
+  '.': 3dx adv  5 ink  3 | 1dx adv  7 ink  3 rows 2..-1 (3dx 3..0) ok
+  '/': 3dx adv  7 ink  6 | 1dx adv 10 ink  8 rows 12..-2 (3dx 13..-2) WIDE
+  '0': 3dx adv 11 ink  9 | 1dx adv 13 ink 11 rows 12..1 (3dx 13..0) WIDE
+  '1': 3dx adv  9 ink  5 | 1dx adv  9 ink  5 rows 12..1 (3dx 13..0) ok
+  '2': 3dx adv 11 ink 10 | 1dx adv 11 ink  9 rows 12..1 (3dx 13..1) ok
+  '3': 3dx adv 11 ink 10 | 1dx adv 12 ink  9 rows 12..1 (3dx 13..0) ok
+  '4': 3dx adv 11 ink 10 | 1dx adv 12 ink 10 rows 12..1 (3dx 13..1) ok
+  '5': 3dx adv 11 ink  9 | 1dx adv 12 ink  9 rows 12..1 (3dx 13..0) ok
+  '6': 3dx adv 10 ink  9 | 1dx adv 12 ink  9 rows 12..1 (3dx 13..0) ok
+  '7': 3dx adv 10 ink  9 | 1dx adv 11 ink  9 rows 12..1 (3dx 13..1) ok
+  '8': 3dx adv 10 ink  9 | 1dx adv 12 ink 10 rows 12..1 (3dx 13..0) WIDE
+  '9': 3dx adv 10 ink  9 | 1dx adv 12 ink  9 rows 12..1 (3dx 13..0) ok
+  ':': 3dx adv  5 ink  3 | 1dx adv  7 ink  3 rows 11..2 (3dx 10..1) ok
+  ';': 3dx=False 1dx=False
+  '<': 3dx=False 1dx=False
+  '=': 3dx adv 11 ink 10 | 1dx adv 12 ink 10 rows 9..4 (3dx 8..3) ok
+  '>': 3dx=False 1dx=False
+  '?': 3dx adv 11 ink  8 | 1dx adv 13 ink  8 rows 12..0 (3dx 13..1) ok
+  '@': 3dx=False 1dx=False
+  'A': 3dx adv 14 ink 13 | 1dx adv 14 ink 12 rows 12..1 (3dx 13..0) ok
+  'B': 3dx adv 12 ink 11 | 1dx adv 13 ink 10 rows 12..1 (3dx 13..1) ok
+  'C': 3dx adv 13 ink 12 | 1dx adv 14 ink 11 rows 12..1 (3dx 13..0) ok
+  'D': 3dx adv 12 ink 11 | 1dx adv 13 ink 10 rows 12..1 (3dx 13..1) ok
+  'E': 3dx adv 11 ink 10 | 1dx adv 12 ink 10 rows 12..1 (3dx 13..1) ok
+  'F': 3dx adv 10 ink  9 | 1dx adv 12 ink  9 rows 12..1 (3dx 13..0) ok
+  'G': 3dx adv 13 ink 12 | 1dx adv 14 ink 11 rows 12..1 (3dx 13..0) ok
+  'H': 3dx adv 11 ink 10 | 1dx adv 13 ink 10 rows 12..1 (3dx 13..0) ok
+  'I': 3dx adv  5 ink  3 | 1dx adv  6 ink  2 rows 12..1 (3dx 13..0) ok
+  'J': 3dx adv 10 ink  9 | 1dx adv 10 ink  7 rows 12..1 (3dx 13..0) ok
+  'K': 3dx adv 11 ink 11 | 1dx adv 13 ink 10 rows 12..1 (3dx 13..0) ok
+  'L': 3dx adv  9 ink  9 | 1dx adv 11 ink  9 rows 12..1 (3dx 13..1) WIDE
+  'M': 3dx adv 14 ink 13 | 1dx adv 15 ink 12 rows 12..1 (3dx 13..0) ok
+  'N': 3dx adv 11 ink 10 | 1dx adv 13 ink 10 rows 12..1 (3dx 13..0) ok
+  'O': 3dx adv 13 ink 13 | 1dx adv 14 ink 11 rows 12..1 (3dx 13..0) ok
+  'P': 3dx adv 11 ink 10 | 1dx adv 12 ink 10 rows 12..1 (3dx 13..1) ok
+  'Q': 3dx adv 13 ink 13 | 1dx adv 14 ink 11 rows 12..1 (3dx 13..-1) ok
+  'R': 3dx adv 12 ink 11 | 1dx adv 13 ink 10 rows 12..1 (3dx 13..0) ok
+  'S': 3dx adv 12 ink 11 | 1dx adv 12 ink 10 rows 12..0 (3dx 13..0) ok
+  'T': 3dx adv 11 ink 11 | 1dx adv 12 ink 11 rows 12..1 (3dx 13..0) WIDE
+  'U': 3dx adv 12 ink 11 | 1dx adv 13 ink 10 rows 12..1 (3dx 13..0) ok
+  'V': 3dx adv 12 ink 12 | 1dx adv 13 ink 11 rows 12..1 (3dx 13..0) ok
+  'W': 3dx adv 16 ink 16 | 1dx adv 16 ink 15 rows 12..1 (3dx 13..0) ok
+  'X': 3dx adv 11 ink 11 | 1dx adv 12 ink 10 rows 12..1 (3dx 13..0) ok
+  'Y': 3dx adv 12 ink 12 | 1dx adv 12 ink 10 rows 12..1 (3dx 13..1) ok
+  'Z': 3dx adv 11 ink 11 | 1dx adv 12 ink 10 rows 12..1 (3dx 13..1) ok
+  '[': 3dx=False 1dx=True
+  '\\': 3dx=False 1dx=False
+  ']': 3dx=False 1dx=True
+  '^': 3dx=False 1dx=False
+  '_': 3dx=False 1dx=False
+  '`': 3dx=False 1dx=False
+  'a': 3dx adv 10 ink  9 | 1dx adv 12 ink  9 rows 10..1 (3dx 10..0) ok
+  'b': 3dx adv 10 ink  9 | 1dx adv 12 ink  9 rows 12..1 (3dx 13..1) ok
+  'c': 3dx adv 10 ink  9 | 1dx adv 11 ink  9 rows 9..1 (3dx 10..0) ok
+  'd': 3dx adv 11 ink 10 | 1dx adv 12 ink  9 rows 12..1 (3dx 13..1) ok
+  'e': 3dx adv 11 ink 10 | 1dx adv 11 ink  9 rows 9..1 (3dx 10..0) ok
+  'f': 3dx adv  8 ink  7 | 1dx adv  8 ink  5 rows 12..1 (3dx 13..1) ok
+  'g': 3dx adv 11 ink 10 | 1dx adv 12 ink  9 rows 9..-2 (3dx 10..-2) ok
+  'h': 3dx adv 10 ink  9 | 1dx adv 12 ink  8 rows 12..1 (3dx 13..1) ok
+  'i': 3dx adv  5 ink  3 | 1dx adv  6 ink  3 rows 12..1 (3dx 13..1) ok
+  'j': 3dx adv  6 ink  4 | 1dx adv  6 ink  4 rows 12..-2 (3dx 13..-2) ok
+  'k': 3dx adv  9 ink  9 | 1dx adv 11 ink  9 rows 12..1 (3dx 13..0) WIDE
+  'l': 3dx adv  6 ink  3 | 1dx adv  6 ink  2 rows 12..1 (3dx 13..0) ok
+  'm': 3dx adv 14 ink 13 | 1dx adv 16 ink 12 rows 9..1 (3dx 10..1) ok
+  'n': 3dx adv 10 ink  9 | 1dx adv 12 ink  8 rows 9..1 (3dx 10..1) ok
+  'o': 3dx adv 11 ink 10 | 1dx adv 12 ink  9 rows 9..1 (3dx 10..0) ok
+  'p': 3dx adv 10 ink  9 | 1dx adv 12 ink  9 rows 9..-2 (3dx 10..-2) ok
+  'q': 3dx adv 11 ink 10 | 1dx adv 12 ink  9 rows 9..-2 (3dx 10..-2) ok
+  'r': 3dx adv  7 ink  6 | 1dx adv  8 ink  5 rows 9..1 (3dx 10..1) ok
+  's': 3dx adv 10 ink  9 | 1dx adv 11 ink  9 rows 9..0 (3dx 10..0) ok
+  't': 3dx adv  7 ink  6 | 1dx adv  8 ink  5 rows 11..1 (3dx 13..1) ok
+  'u': 3dx adv 10 ink  9 | 1dx adv 12 ink  8 rows 9..1 (3dx 10..1) ok
+  'v': 3dx adv 10 ink  9 | 1dx adv 11 ink  9 rows 9..1 (3dx 10..0) ok
+  'w': 3dx adv 14 ink 13 | 1dx adv 14 ink 12 rows 9..1 (3dx 10..1) ok
+  'x': 3dx adv  9 ink  8 | 1dx adv 11 ink  8 rows 9..1 (3dx 10..0) ok
+  'y': 3dx adv 10 ink  9 | 1dx adv 11 ink  9 rows 9..-2 (3dx 10..-2) ok
+  'z': 3dx adv  9 ink  9 | 1dx adv 11 ink  9 rows 9..1 (3dx 10..1) WIDE
+  '{': 3dx=False 1dx=False
+  '|': 3dx=False 1dx=False
+  '}': 3dx=False 1dx=False
+  '~': 3dx adv 16 ink 14 | 1dx adv 16 ink 14 rows 9..5 (3dx 8..4) ok
+
+## 3DX ko:font_btl advances vs 1dx:font_sys_btl ink (fits = 1DX ink <= 3DX adv - 1)
+too wide: +/04FKLTchkmuz
+  '!': 3dx adv  5 ink  3 | 1dx adv  6 ink  3 rows 9..0 (3dx 10..0) ok
+  '"': 3dx=False 1dx=False
+  '#': 3dx=False 1dx=False
+  '$': 3dx=False 1dx=False
+  '%': 3dx adv 12 ink 11 | 1dx adv 12 ink 10 rows 9..1 (3dx 9..1) ok
+  '&': 3dx adv  9 ink  9 | 1dx adv 10 ink  8 rows 9..1 (3dx 10..1) ok
+  "'": 3dx=True 1dx=False
+  '(': 3dx adv  5 ink  4 | 1dx adv  6 ink  4 rows 10..-2 (3dx 10..-1) ok
+  ')': 3dx adv  5 ink  4 | 1dx adv  6 ink  4 rows 10..-2 (3dx 10..-1) ok
+  '*': 3dx=False 1dx=False
+  '+': 3dx adv  8 ink  8 | 1dx adv 10 ink  8 rows 9..1 (3dx 8..1) WIDE
+  ',': 3dx adv  4 ink  3 | 1dx adv  5 ink  2 rows 2..-2 (3dx 3..-1) ok
+  '-': 3dx=False 1dx=True
+  '.': 3dx adv  4 ink  2 | 1dx adv  5 ink  2 rows 1..0 (3dx 2..1) ok
+  '/': 3dx adv  5 ink  5 | 1dx adv  7 ink  6 rows 9..-1 (3dx 10..-1) WIDE
+  '0': 3dx adv  8 ink  7 | 1dx adv 10 ink  8 rows 9..1 (3dx 10..1) WIDE
+  '1': 3dx adv  7 ink  4 | 1dx adv  7 ink  4 rows 9..1 (3dx 10..1) ok
+  '2': 3dx adv  8 ink  7 | 1dx adv  9 ink  7 rows 9..1 (3dx 10..1) ok
+  '3': 3dx adv  8 ink  7 | 1dx adv  9 ink  7 rows 9..1 (3dx 10..1) ok
+  '4': 3dx adv  8 ink  8 | 1dx adv  9 ink  8 rows 9..1 (3dx 10..1) WIDE
+  '5': 3dx adv  8 ink  7 | 1dx adv  9 ink  7 rows 9..1 (3dx 10..1) ok
+  '6': 3dx adv  8 ink  7 | 1dx adv  9 ink  7 rows 9..1 (3dx 10..1) ok
+  '7': 3dx adv  8 ink  7 | 1dx adv  8 ink  7 rows 9..1 (3dx 10..1) ok
+  '8': 3dx adv  8 ink  7 | 1dx adv  9 ink  7 rows 9..1 (3dx 10..1) ok
+  '9': 3dx adv  8 ink  7 | 1dx adv  9 ink  7 rows 9..1 (3dx 10..1) ok
+  ':': 3dx adv  4 ink  3 | 1dx adv  5 ink  2 rows 8..2 (3dx 8..2) ok
+  ';': 3dx=False 1dx=False
+  '<': 3dx=False 1dx=False
+  '=': 3dx adv  8 ink  7 | 1dx adv  9 ink  7 rows 7..3 (3dx 6..2) ok
+  '>': 3dx=False 1dx=False
+  '?': 3dx adv  7 ink  6 | 1dx adv  9 ink  6 rows 9..0 (3dx 10..1) ok
+  '@': 3dx=False 1dx=False
+  'A': 3dx adv 11 ink 10 | 1dx adv 10 ink  9 rows 9..1 (3dx 10..1) ok
+  'B': 3dx adv  9 ink  8 | 1dx adv 10 ink  8 rows 9..1 (3dx 10..1) ok
+  'C': 3dx adv 10 ink  9 | 1dx adv 10 ink  8 rows 9..1 (3dx 10..1) ok
+  'D': 3dx adv  9 ink  8 | 1dx adv 10 ink  8 rows 9..1 (3dx 10..1) ok
+  'E': 3dx adv  8 ink  7 | 1dx adv  9 ink  7 rows 9..1 (3dx 10..1) ok
+  'F': 3dx adv  7 ink  6 | 1dx adv  9 ink  7 rows 9..1 (3dx 10..1) WIDE
+  'G': 3dx adv 10 ink  9 | 1dx adv 11 ink  9 rows 9..1 (3dx 10..1) ok
+  'H': 3dx adv  9 ink  8 | 1dx adv 10 ink  8 rows 9..1 (3dx 10..1) ok
+  'I': 3dx adv  4 ink  2 | 1dx adv  5 ink  2 rows 9..1 (3dx 10..1) ok
+  'J': 3dx adv  8 ink  7 | 1dx adv  8 ink  6 rows 9..1 (3dx 10..1) ok
+  'K': 3dx adv  8 ink  7 | 1dx adv 10 ink  8 rows 9..1 (3dx 10..1) WIDE
+  'L': 3dx adv  7 ink  6 | 1dx adv  9 ink  7 rows 9..1 (3dx 10..1) WIDE
+  'M': 3dx adv 11 ink 10 | 1dx adv 11 ink  9 rows 9..1 (3dx 10..1) ok
+  'N': 3dx adv  9 ink  8 | 1dx adv 10 ink  7 rows 9..1 (3dx 10..1) ok
+  'O': 3dx adv 10 ink  9 | 1dx adv 11 ink  9 rows 9..1 (3dx 10..1) ok
+  'P': 3dx adv  8 ink  7 | 1dx adv  9 ink  7 rows 9..1 (3dx 10..1) ok
+  'Q': 3dx adv 10 ink  9 | 1dx adv 11 ink  9 rows 9..1 (3dx 10..0) ok
+  'R': 3dx adv  9 ink  9 | 1dx adv 10 ink  8 rows 9..1 (3dx 10..1) ok
+  'S': 3dx adv  9 ink  8 | 1dx adv  9 ink  8 rows 9..0 (3dx 10..1) ok
+  'T': 3dx adv  8 ink  7 | 1dx adv  9 ink  8 rows 9..1 (3dx 10..1) WIDE
+  'U': 3dx adv  9 ink  8 | 1dx adv 10 ink  8 rows 9..1 (3dx 10..1) ok
+  'V': 3dx adv 10 ink  9 | 1dx adv 10 ink  9 rows 9..1 (3dx 10..1) ok
+  'W': 3dx adv 12 ink 11 | 1dx adv 12 ink 11 rows 9..1 (3dx 10..1) ok
+  'X': 3dx adv  9 ink  8 | 1dx adv  9 ink  8 rows 9..1 (3dx 10..1) ok
+  'Y': 3dx adv  9 ink  8 | 1dx adv  9 ink  8 rows 9..1 (3dx 10..1) ok
+  'Z': 3dx adv  9 ink  8 | 1dx adv  9 ink  8 rows 9..1 (3dx 10..1) ok
+  '[': 3dx=False 1dx=True
+  '\\': 3dx=False 1dx=False
+  ']': 3dx=False 1dx=True
+  '^': 3dx=False 1dx=False
+  '_': 3dx=False 1dx=False
+  '`': 3dx=False 1dx=False
+  'a': 3dx adv  8 ink  7 | 1dx adv  9 ink  7 rows 7..1 (3dx 8..1) ok
+  'b': 3dx adv  8 ink  7 | 1dx adv  9 ink  7 rows 9..1 (3dx 10..1) ok
+  'c': 3dx adv  7 ink  6 | 1dx adv  9 ink  7 rows 7..1 (3dx 8..1) WIDE
+  'd': 3dx adv  8 ink  7 | 1dx adv  9 ink  7 rows 9..1 (3dx 10..1) ok
+  'e': 3dx adv  8 ink  7 | 1dx adv  9 ink  7 rows 7..1 (3dx 8..1) ok
+  'f': 3dx adv  6 ink  5 | 1dx adv  6 ink  4 rows 9..1 (3dx 10..1) ok
+  'g': 3dx adv  8 ink  7 | 1dx adv  9 ink  7 rows 7..-2 (3dx 8..-1) ok
+  'h': 3dx adv  7 ink  6 | 1dx adv  9 ink  7 rows 9..1 (3dx 10..1) WIDE
+  'i': 3dx adv  3 ink  2 | 1dx adv  5 ink  2 rows 9..1 (3dx 10..1) ok
+  'j': 3dx adv  4 ink  3 | 1dx adv  5 ink  3 rows 9..-2 (3dx 10..-1) ok
+  'k': 3dx adv  7 ink  6 | 1dx adv  8 ink  7 rows 9..1 (3dx 10..1) WIDE
+  'l': 3dx adv  3 ink  2 | 1dx adv  5 ink  2 rows 9..1 (3dx 10..1) ok
+  'm': 3dx adv 10 ink  9 | 1dx adv 12 ink 10 rows 7..1 (3dx 8..1) WIDE
+  'n': 3dx adv  7 ink  6 | 1dx adv  9 ink  6 rows 7..1 (3dx 8..1) ok
+  'o': 3dx adv  8 ink  7 | 1dx adv  9 ink  7 rows 7..1 (3dx 8..1) ok
+  'p': 3dx adv  8 ink  7 | 1dx adv  9 ink  7 rows 7..-2 (3dx 8..-1) ok
+  'q': 3dx adv  8 ink  7 | 1dx adv  9 ink  7 rows 7..-2 (3dx 8..-1) ok
+  'r': 3dx adv  5 ink  4 | 1dx adv  6 ink  4 rows 7..1 (3dx 8..1) ok
+  's': 3dx adv  7 ink  7 | 1dx adv  8 ink  6 rows 7..0 (3dx 8..1) ok
+  't': 3dx adv  6 ink  5 | 1dx adv  6 ink  4 rows 9..1 (3dx 9..1) ok
+  'u': 3dx adv  7 ink  6 | 1dx adv  9 ink  7 rows 7..1 (3dx 8..1) WIDE
+  'v': 3dx adv  8 ink  7 | 1dx adv  8 ink  7 rows 7..1 (3dx 8..1) ok
+  'w': 3dx adv 10 ink  9 | 1dx adv 11 ink  9 rows 7..1 (3dx 8..1) ok
+  'x': 3dx adv  7 ink  6 | 1dx adv  8 ink  6 rows 7..1 (3dx 8..1) ok
+  'y': 3dx adv  8 ink  7 | 1dx adv  8 ink  7 rows 7..-2 (3dx 8..-1) ok
+  'z': 3dx adv  7 ink  6 | 1dx adv  8 ink  7 rows 7..1 (3dx 8..1) WIDE
+  '{': 3dx=False 1dx=False
+  '|': 3dx=False 1dx=False
+  '}': 3dx=False 1dx=False
+  '~': 3dx adv 12 ink 11 | 1dx adv 12 ink 11 rows 7..4 (3dx 7..4) ok

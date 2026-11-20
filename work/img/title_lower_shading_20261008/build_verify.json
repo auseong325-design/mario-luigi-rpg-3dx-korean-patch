@@ -1,0 +1,18 @@
+{
+  "changed_models": [
+    {
+      "model": "fmd_title_JP_ja",
+      "textures": [
+        "title_logo_JP_bottom"
+      ]
+    }
+  ],
+  "only_bottom_title_texture_changed": true,
+  "all_other_bch_bytes_equal": true,
+  "decoded_pixels_match_input": true,
+  "intro_textures_coordinates_and_animation_equal": true,
+  "dx_deluxe_and_number_texture_equal": true,
+  "rpg_original_pixels_after_seam_equal": true,
+  "before_fmdl_sha256": "fcc503f1896f6f34580692db499d5efd7ad03f4a034b508d3d0b72f95cd5ce2c",
+  "stage_sha256": "6fb2b50bd8ef259ace157a4c623de3e808a14c0d7b604c00d4d3ed353eb63119"
+}

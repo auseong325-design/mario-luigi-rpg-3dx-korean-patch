@@ -1,0 +1,23 @@
+{
+  "changed_patch_files": [
+    "FMdl/JP/FMdl.dat"
+  ],
+  "changed_title_textures": [
+    "title_logo_and_JP",
+    "title_logo_JP_bottom",
+    "title_logo_L_JP",
+    "title_logo_M_JP"
+  ],
+  "original_intro_coordinates_restored": true,
+  "animation_data_unchanged": true,
+  "stage_patch_junction_match": true,
+  "all_sd_and_zip_files_match": true,
+  "checked_patch_files": 36,
+  "zip_crc_check": "PASS",
+  "backup": "C:\\AI-Projects\\mario-luigi-rpg-3dx-korean-patch\\work\\build\\prev_logo_assembly_contours_20261008",
+  "fmdl_sha256": "f90441b674466bbd50c74a63e7ddcb61ffb13849a24d03bf40cb3fcb9704e3db",
+  "zip_sha256": "366bb7fe35bc2bf85d809830883e35d3004c443ac971c32bfca20ac6952e3a09",
+  "source_files_modified": false,
+  "azahar_launched": false,
+  "runtime_verified": false
+}

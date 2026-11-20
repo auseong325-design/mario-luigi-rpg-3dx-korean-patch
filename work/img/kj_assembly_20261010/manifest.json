@@ -1,0 +1,125 @@
+{
+  "date": "2026-10-10",
+  "status": "assembled, installed and directly verified in Azahar",
+  "assembly": {
+    "word_uniform_scale": 1.18,
+    "word_rotation_delta_degrees": 4.0,
+    "previous_face_bounds": [
+      67.0,
+      156.7583871575817,
+      199.9999969033787,
+      186.8771444040771
+    ],
+    "assembled_face_bounds": [
+      53.45295470935322,
+      165.20226440327517,
+      211.0,
+      197.0
+    ],
+    "glyphs_unchanged_except_uniform_transform": true,
+    "old_geometry_scale": 0.9239418983459472,
+    "new_geometry_scale": 1.0902514400482177,
+    "letter_bounds": {
+      "쿠": [
+        53.45295470935322,
+        165.20226440327517,
+        83.90081613052787,
+        195.8587596867345
+      ],
+      "파": [
+        86.44789325487326,
+        168.45690329337458,
+        118.0534893804651,
+        191.36193539094225
+      ],
+      "주": [
+        120.13143405892978,
+        166.36838701113837,
+        150.99943340600583,
+        197.0
+      ],
+      "니": [
+        151.82372013781637,
+        169.97937900938507,
+        179.6579743934878,
+        192.42929618603713
+      ],
+      "어": [
+        181.8246744486906,
+        170.1592125826978,
+        211.0,
+        192.96370405369015
+      ]
+    },
+    "layer_order": [
+      "plate",
+      "restored R",
+      "upper wind",
+      "Hangul word",
+      "lower wind"
+    ],
+    "top_wind_origin": [
+      36,
+      139
+    ],
+    "bottom_wind_origin": [
+      214,
+      187
+    ],
+    "changed_pixels": 8018,
+    "changed_bbox": [
+      38,
+      138,
+      259,
+      206
+    ],
+    "P_G_and_character_art_unchanged": true,
+    "R_left_strip_word_coverage": {
+      "206,165": 1.0,
+      "207,175": 1.0,
+      "209,193": 1.0,
+      "210,196": 1.0
+    }
+  },
+  "archive": {
+    "changed_texture_copies": [
+      "MENU_FILE_LOAD_JP_ja/timg/LOAD_GAME_IMG_KJ_R_00_JP_ja.bflim",
+      "MENU_FILE_LOAD_JP_ja/timg/LOAD_GAME_IMG_KJ_L_00_JP_ja.bflim"
+    ],
+    "only_two_KJ_textures_changed": true,
+    "all_other_SARC_files_and_archive_entries_unchanged": true,
+    "decoded_RGB565_matches_inputs": true,
+    "before_sha256": "b4838b8b204d922611a9adc5e01b0ca9c42c5008deb78899855f4ab7d03aa0c6",
+    "after_sha256": "cac646cfc32ac2b8dd00cba015724b6df59fcf5b03b19df1aa3a5b11f33fdc69"
+  },
+  "install": {
+    "changed_patch_files": [
+      "Lyt/JP/MLyt.dat"
+    ],
+    "MLyt_sha256": "cac646cfc32ac2b8dd00cba015724b6df59fcf5b03b19df1aa3a5b11f33fdc69",
+    "zip_sha256": "495ce0be41b415e65971cbb6861af6e1a5ac2b63e5d9e38bba06bce3e61f1a88",
+    "checked_files": 36,
+    "backup": "C:\\AI-Projects\\mario-luigi-rpg-3dx-korean-patch\\work\\build\\prev_kj_assembly_20261010"
+  },
+  "runtime": {
+    "method": "Codex built-in computer-use, @oai/sky",
+    "emulator": "Azahar 2126.1.2",
+    "screenshot": "runtime_after.png",
+    "screenshot_source": "Mario & Luigi Bowser's Inside…_10.10.26_00.20.00.511.png",
+    "mode": "쿠파주니어 RPG, file slot 1, mode selection",
+    "observed_R_repairs_hidden_by_Hangul": true,
+    "observed_no_clipping_or_L_R_seam": true,
+    "native_capture_max_channel_difference": 1,
+    "native_capture_mean_channel_difference": 0.034298878205128204,
+    "input_profile_changed": false,
+    "normal_emulation_stop": "F5",
+    "subagents_used": false,
+    "Orca_used": false
+  },
+  "original_OA_Affinity_unchanged": true,
+  "main_title_and_intro_FMdl_unchanged": true,
+  "editable_affinity": "KJ_assembled_20261010.af",
+  "affinity_sha256": "25e463de347ffecdda1e6a6d149f073a4f2f7c92dfe4efbe3de280fe243c42e4",
+  "recipe": "work/img/kj_assembly_20261010/build_assembly.py",
+  "canonical_pipeline": "work/img/logo2/run_all.py"
+}

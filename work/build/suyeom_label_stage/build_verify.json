@@ -1,0 +1,120 @@
+{
+ "baseline": "patch\\00040000001CA900\\romfs\\Lyt\\JP\\MLyt.dat",
+ "baseline_sha256": "FEC2BAC8300FD706B392492685621055011ABAA34FB8FF4AFA0DB1EF2E4C62F7",
+ "output": "work\\build\\suyeom_label_stage\\romfs\\Lyt\\JP\\MLyt.dat",
+ "output_sha256": "14F0AA9A6C228D990BABAD0802D910E42F7EFD70619FEA983333C9FA4CDF5987",
+ "size": [
+  5110100,
+  5110228
+ ],
+ "texture_copies_replaced": [
+  "MENU_ITEM_Lyt_JP_ja/timg/ST_HIGE_00_JP_ja.bflim",
+  "MENU_SHOP_Lyt_JP_ja/timg/ST_HIGE_00_JP_ja.bflim",
+  "MENU_MAIN_JP_ja/timg/ST_HIGE_00_JP_ja.bflim",
+  "MENU_EQUIP_JP_ja/timg/ST_HIGE_00_JP_ja.bflim",
+  "MENU_STATUS_JP_ja/timg/ST_HIGE_00_JP_ja.bflim"
+ ],
+ "changed_files": [
+  "MENU_ITEM_Lyt_JP_ja/timg/ST_HIGE_00_JP_ja.bflim",
+  "MENU_SHOP_Lyt_JP_ja/timg/ST_HIGE_00_JP_ja.bflim",
+  "MENU_MAIN_JP_ja/timg/ST_HIGE_00_JP_ja.bflim",
+  "MENU_EQUIP_JP_ja/timg/ST_HIGE_00_JP_ja.bflim",
+  "MENU_STATUS_JP_ja/timg/ST_HIGE_00_JP_ja.bflim"
+ ],
+ "distinct_baseline_texture_sha1": [
+  "c30a9c8762d64bbdb06c93896a303f477319b67a"
+ ],
+ "empty_rebuild_equals_baseline": true,
+ "baseline_copies_decode_to_installed_png": true,
+ "unchanged_reencode_identical": true,
+ "new_bflims_decode_to_new_png": true,
+ "all_other_files_and_entries_identical": true,
+ "label": {
+  "png": "work\\build\\suyeom_label_stage\\ko\\lyt\\MLyt\\MENU_ITEM_Lyt_JP_ja\\ST_HIGE_00_JP_ja.png",
+  "png_sha256": "CCBFE25EA5826BA57DF2A081C7F1D57B09B4E8383D3E80F7FAEDB9818C7D9755",
+  "ink_x": [
+   0,
+   32
+  ],
+  "gap_to_hundreds_digit_texels": 7.5
+ },
+ "candidates": {
+  "installed": {
+   "ink_x": [
+    0,
+    41
+   ],
+   "gap_to_hundreds_digit_texels": -1.5
+  },
+  "A_squeeze_installed_81pct": {
+   "ink_x": [
+    0,
+    34
+   ],
+   "gap_to_hundreds_digit_texels": 5.5
+  },
+  "B_condensed_crisp": {
+   "ink_x": [
+    0,
+    37
+   ],
+   "gap_to_hundreds_digit_texels": 2.5
+  },
+  "C_condensed_87pct (chosen)": {
+   "ink_x": [
+    0,
+    32
+   ],
+   "gap_to_hundreds_digit_texels": 7.5
+  },
+  "JP SPEED": {
+   "ink_x": [
+    0,
+    32
+   ],
+   "gap_to_hundreds_digit_texels": 7.5
+  },
+  "JP TSUNO": {
+   "ink_x": [
+    0,
+    34
+   ],
+   "gap_to_hundreds_digit_texels": 5.5
+  },
+  "JP HIGE": {
+   "ink_x": [
+    1,
+    23
+   ],
+   "gap_to_hundreds_digit_texels": 16.5
+  },
+  "JP DEF": {
+   "ink_x": [
+    1,
+    19
+   ],
+   "gap_to_hundreds_digit_texels": 20.5
+  },
+  "JP POW": {
+   "ink_x": [
+    1,
+    22
+   ],
+   "gap_to_hundreds_digit_texels": 17.5
+  },
+  "JP HP": {
+   "ink_x": [
+    1,
+    14
+   ],
+   "gap_to_hundreds_digit_texels": 25.5
+  },
+  "JP BP": {
+   "ink_x": [
+    1,
+    13
+   ],
+   "gap_to_hundreds_digit_texels": 26.5
+  }
+ }
+}

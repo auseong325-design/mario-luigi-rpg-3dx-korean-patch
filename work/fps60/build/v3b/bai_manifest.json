@@ -1,0 +1,18 @@
+{
+  "tool": "work/fps60/star/star2_baifix.py",
+  "source": "patch/00040000001CA900/romfs/BAI/BAI.dat",
+  "source_sha256": "c681a963b8428128a2d9133c39911f9f2acf5a53e83dff0a097de8fbe750fbb6",
+  "output": "work/fps60/build/v3b/romfs/BAI/BAI.dat",
+  "output_size": 2861904,
+  "output_sha256": "8f3c1928b91f3b851c3f437bd06a0a200663822538967491a83794f025827261",
+  "scripts_changed": [
+    "atk_pc_sp_ml_star.bai",
+    "atk_pc_sp_ml_star_easy.bai"
+  ],
+  "region": [
+    "0x30ce",
+    "0x31db"
+  ],
+  "demo_window": "0x727a op003(5, $708a, 51f, 0, 0x7484)",
+  "install": "LayeredFS romfs/BAI/BAI.dat (replaces the shipped BTL2 file)"
+}

@@ -1,0 +1,41 @@
+; |static| ad::fw::TaskBase::func+0x0
+0013dbcc: f04f2de9 push     {r4, r5, r6, r7, r8, sb, sl, fp, lr}
+0013dbd0: 0040a0e1 mov      r4, r0
+0013dbd4: 3cd04de2 sub      sp, sp, #0x3c
+0013dbd8: 010b80e2 add      r0, r0, #0x400
+0013dbdc: 5e0f80e2 add      r0, r0, #0x178
+0013dbe0: 20008de5 str      r0, [sp, #0x20]
+0013dbe4: 901194e5 ldr      r1, [r4, #0x190]
+0013dbe8: 9c1184e5 str      r1, [r4, #0x19c]
+0013dbec: 941194e5 ldr      r1, [r4, #0x194]
+0013dbf0: a01184e5 str      r1, [r4, #0x1a0]
+0013dbf4: 981194e5 ldr      r1, [r4, #0x198]
+0013dbf8: a41184e5 str      r1, [r4, #0x1a4]
+0013dbfc: 000094e5 ldr      r0, [r4]
+0013dc00: 141090e5 ldr      r1, [r0, #0x14]
+0013dc04: 0400a0e1 mov      r0, r4
+0013dc08: 31ff2fe1 blx      r1
+0013dc0c: da5f84e2 add      r5, r4, #0x368
+0013dc10: de6f84e2 add      r6, r4, #0x378
+0013dc14: 060055e1 cmp      r5, r6
+0013dc18: 0400000a beq      #0x13dc30
+0013dc1c: 0500a0e1 mov      r0, r5
+0013dc20: 59eb04eb bl       #0x27898c  ; nn::os::LightEvent::ClearSignal
+0013dc24: 085085e2 add      r5, r5, #8
+0013dc28: 060055e1 cmp      r5, r6
+0013dc2c: faffff1a bne      #0x13dc1c
+0013dc30: 0070a0e3 mov      r7, #0
+0013dc34: 010b84e2 add      r0, r4, #0x400
+0013dc38: 1c0080e2 add      r0, r0, #0x1c
+0013dc3c: 7873c4e5 strb     r7, [r4, #0x378]
+0013dc40: aabf04eb bl       #0x26daf0
+0013dc44: 4400d4e5 ldrb     r0, [r4, #0x44]
+0013dc48: 841194e5 ldr      r1, [r4, #0x184]
+0013dc4c: 0150a0e3 mov      r5, #1
+0013dc50: 010050e3 cmp      r0, #1
+0013dc54: 4500d415 ldrbne   r0, [r4, #0x45]
+0013dc58: 02005013 cmpne    r0, #2
+0013dc5c: 03005013 cmpne    r0, #3
+0013dc60: 2b00000a beq      #0x13dd14
+0013dc64: 0000a0e3 mov      r0, #0
+0013dc68: 000051e3 cmp      r1, #0

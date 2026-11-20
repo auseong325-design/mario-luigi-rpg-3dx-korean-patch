@@ -1,0 +1,16 @@
+{
+  "tag": "v1cb",
+  "created": "2026-10-30T15:31:46+0900",
+  "code_from": "v1c",
+  "code_manifest_sha256": "b933271c116593e7e7104ddc44c50b93bfc370f31585a747fd19344b22388396",
+  "files": {
+    "code.bps": "ec4189b9f1cbbdc1d8147779b1b9cd5a17197eab6efc8cd3f8b656327fc2c0c6",
+    "code.ips": "780dd5d20d564358e8c00376e894abab47a45a16fca07d1bcc1112ab56d545e2",
+    "romfs/BAI/BAI.dat": "c681a963b8428128a2d9133c39911f9f2acf5a53e83dff0a097de8fbe750fbb6"
+  },
+  "overlays": {
+    "work\\fps60\\build\\bai\\romfs": [
+      "BAI/BAI.dat"
+    ]
+  }
+}

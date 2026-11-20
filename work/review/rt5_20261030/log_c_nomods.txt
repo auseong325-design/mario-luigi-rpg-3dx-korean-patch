@@ -1,0 +1,152 @@
+[   0.202552] Input <Info> input_common/udp/client.cpp:StartCommunication:206: Starting communication with UDP input server on 127.0.0.1:26760
+[   0.209990] Frontend <Info> citra_qt/citra_qt.cpp:GMainWindow:462: Azahar Version: 2126.1.2 | HEAD-9e6f523
+[   0.209995] Frontend <Info> citra_qt/citra_qt.cpp:GMainWindow:467: Build Variant: MXE
+[   0.209996] Frontend <Info> citra_qt/citra_qt.cpp:GMainWindow:482: Host CPU: AMD Ryzen 7 9700X 8-Core Processor              | AVX512 | FMA
+[   0.210123] Frontend <Info> citra_qt/citra_qt.cpp:GMainWindow:484: Host OS: Windows 11 Version 26H2 (Build 26300.9818)
+[   0.210134] Frontend <Info> citra_qt/citra_qt.cpp:GMainWindow:487: Host RAM: 31.41 GiB
+[   0.210136] Frontend <Info> citra_qt/citra_qt.cpp:GMainWindow:488: Host Swap: 69.25 GiB
+[   0.678112] Frontend <Info> citra_qt/citra_qt.cpp:BootGame:1495: Azahar starting...
+[   0.678327] Frontend <Info> citra_qt/citra_qt.cpp:BootGame:1519: Loading per application config file for title 00040000001CA900
+[   0.686788] Config <Info> common/settings.cpp:LogSettings:88: Azahar Configuration:
+[   0.686793] Config <Info> common/settings.cpp:operator():85: Core_UseCpuJit: true
+[   0.686793] Config <Info> common/settings.cpp:operator():85: Core_CPUClockPercentage: 100
+[   0.686795] Config <Info> common/settings.cpp:operator():85: Controller_UseArticController: false
+[   0.686796] Config <Info> common/settings.cpp:operator():85: Renderer_UseGLES: false
+[   0.686797] Config <Info> common/settings.cpp:operator():85: Renderer_GraphicsAPI: OpenGL
+[   0.686797] Config <Info> common/settings.cpp:operator():85: Renderer_AsyncShaders: false
+[   0.686797] Config <Info> common/settings.cpp:operator():85: Renderer_AsyncPresentation: true
+[   0.686798] Config <Info> common/settings.cpp:operator():85: Renderer_SpirvShaderGen: true
+[   0.686798] Config <Info> common/settings.cpp:operator():85: Renderer_DisableSpirvOptimizer: true
+[   0.686798] Config <Info> common/settings.cpp:operator():85: Renderer_Debug: false
+[   0.686799] Config <Info> common/settings.cpp:operator():85: Renderer_PicaDebugging: false
+[   0.686799] Config <Info> common/settings.cpp:operator():85: Renderer_UseHwShader: true
+[   0.686799] Config <Info> common/settings.cpp:operator():85: Renderer_ShadersAccurateMul: true
+[   0.686799] Config <Info> common/settings.cpp:operator():85: Renderer_UseShaderJit: true
+[   0.686800] Config <Info> common/settings.cpp:operator():85: Renderer_UseResolutionFactor: 1
+[   0.686800] Config <Info> common/settings.cpp:operator():85: Renderer_UseIntegerScaling: false
+[   0.686804] Config <Info> common/settings.cpp:operator():85: Renderer_FrameLimit: 100
+[   0.686804] Config <Info> common/settings.cpp:operator():85: Renderer_VSyncNew: true
+[   0.686804] Config <Info> common/settings.cpp:operator():85: Renderer_SkipDuplicateFrames: false
+[   0.686805] Config <Info> common/settings.cpp:operator():85: Renderer_PostProcessingShader: None (builtin)
+[   0.686805] Config <Info> common/settings.cpp:operator():85: Renderer_FilterMode: true
+[   0.686805] Config <Info> common/settings.cpp:operator():85: Renderer_TextureFilter: None
+[   0.686805] Config <Info> common/settings.cpp:operator():85: Renderer_TextureSampling: GameControlled
+[   0.686807] Config <Info> common/settings.cpp:operator():85: Renderer_DelayGameRenderThreadUs: 0
+[   0.686807] Config <Info> common/settings.cpp:operator():85: Renderer_Simulate3DSGPUTimings: false
+[   0.686807] Config <Info> common/settings.cpp:operator():85: Renderer_DisableRightEyeRender: false
+[   0.686808] Config <Info> common/settings.cpp:operator():85: Stereoscopy_Render3d: 0
+[   0.686808] Config <Info> common/settings.cpp:operator():85: Stereoscopy_Factor3d: 0
+[   0.686808] Config <Info> common/settings.cpp:operator():85: Stereoscopy_Swap_Eyes: false
+[   0.686808] Config <Info> common/settings.cpp:operator():85: Stereoscopy_Render_3d_to_which_display: 0
+[   0.686809] Config <Info> common/settings.cpp:operator():85: Stereoscopy_MonoRenderOption: 0
+[   0.686809] Config <Info> common/settings.cpp:operator():85: Layout_LayoutOption: 0
+[   0.686809] Config <Info> common/settings.cpp:operator():85: Layout_PortraitLayoutOption: 0
+[   0.686810] Config <Info> common/settings.cpp:operator():85: Layout_SecondaryDisplayLayout: 4
+[   0.686810] Config <Info> common/settings.cpp:operator():85: Layout_SwapScreen: false
+[   0.686810] Config <Info> common/settings.cpp:operator():85: Layout_UprightScreen: false
+[   0.686810] Config <Info> common/settings.cpp:operator():85: Layout_ScreenGap: 0
+[   0.686811] Config <Info> common/settings.cpp:operator():85: Layout_LargeScreenProportion: 4
+[   0.686811] Config <Info> common/settings.cpp:operator():85: Layout_SmallScreenPosition: 2
+[   0.686812] Config <Info> common/settings.cpp:operator():85: Utility_DumpTextures: false
+[   0.686812] Config <Info> common/settings.cpp:operator():85: Utility_CustomTextures: false
+[   0.686812] Config <Info> common/settings.cpp:operator():85: Utility_PreloadTextures: false
+[   0.686812] Config <Info> common/settings.cpp:operator():85: Utility_AsyncCustomLoading: true
+[   0.686812] Config <Info> common/settings.cpp:operator():85: Utility_UseDiskShaderCache: true
+[   0.686813] Config <Info> common/settings.cpp:operator():85: Audio_Emulation: HLE
+[   0.686813] Config <Info> common/settings.cpp:operator():85: Audio_OutputType: 0
+[   0.686814] Config <Info> common/settings.cpp:operator():85: Audio_OutputDevice: Auto
+[   0.686815] Config <Info> common/settings.cpp:operator():85: Audio_InputType: 0
+[   0.686815] Config <Info> common/settings.cpp:operator():85: Audio_InputDevice: Auto
+[   0.686815] Config <Info> common/settings.cpp:operator():85: Audio_EnableAudioStretching: true
+[   0.686815] Config <Info> common/settings.cpp:operator():85: Audio_EnableRealtime: false
+[   0.686815] Config <Info> common/settings.cpp:operator():85: Camera_OuterRightName: blank
+[   0.686816] Config <Info> common/settings.cpp:operator():85: Camera_OuterRightConfig: 
+[   0.686816] Config <Info> common/settings.cpp:operator():85: Camera_OuterRightFlip: 0
+[   0.686816] Config <Info> common/settings.cpp:operator():85: Camera_InnerName: blank
+[   0.686816] Config <Info> common/settings.cpp:operator():85: Camera_InnerConfig: 
+[   0.686816] Config <Info> common/settings.cpp:operator():85: Camera_InnerFlip: 0
+[   0.686817] Config <Info> common/settings.cpp:operator():85: Camera_OuterLeftName: blank
+[   0.686817] Config <Info> common/settings.cpp:operator():85: Camera_OuterLeftConfig: 
+[   0.686817] Config <Info> common/settings.cpp:operator():85: Camera_OuterLeftFlip: 0
+[   0.686817] Config <Info> common/settings.cpp:operator():85: DataStorage_UseVirtualSd: true
+[   0.686817] Config <Info> common/settings.cpp:operator():85: DataStorage_UseCustomStorage: false
+[   0.686818] Config <Info> common/settings.cpp:operator():85: System_IsNew3ds: true
+[   0.686818] Config <Info> common/settings.cpp:operator():85: System_LLEApplets: false
+[   0.686818] Config <Info> common/settings.cpp:operator():85: System_RegionValue: 5
+[   0.686818] Config <Info> common/settings.cpp:operator():85: System_PluginLoader: false
+[   0.686818] Config <Info> common/settings.cpp:operator():85: System_PluginLoaderAllowed: true
+[   0.686818] Config <Info> common/settings.cpp:operator():85: System_ApplyRegionFreePatch: true
+[   0.686819] Config <Info> common/settings.cpp:operator():85: Debugging_DelayStartForLLEModules: true
+[   0.686819] Config <Info> common/settings.cpp:operator():85: Debugging_UseGdbstub: true
+[   0.686819] Config <Info> common/settings.cpp:operator():85: Debugging_GdbstubPort: 24689
+[   0.686819] Config <Info> common/settings.cpp:operator():85: Debugging_InstantDebugLog: false
+[   0.686820] Config <Info> common/settings.cpp:operator():85: Debugging_ToggleUniqueDataConsoleType: false
+[   0.686820] Config <Info> common/settings.cpp:operator():85: Debugging_EnableExceptionHandler: false
+[   0.950224] Audio.Sink <Info> audio_core/cubeb_sink.cpp:StateCallback:136: Cubeb Audio Stream Started
+[   0.953333] Service.HTTP <Error> core/hle/service/http/http_c.cpp:DecryptClCertA:2127: ClCertA file missing, using default
+[   0.953394] Render.OpenGL <Info> video_core/renderer_opengl/gl_driver.cpp:ReportDriverInfo:133: GL_VERSION: 4.3.0 NVIDIA 621.01
+[   0.953394] Render.OpenGL <Info> video_core/renderer_opengl/gl_driver.cpp:ReportDriverInfo:134: GL_VENDOR: NVIDIA Corporation
+[   0.953394] Render.OpenGL <Info> video_core/renderer_opengl/gl_driver.cpp:ReportDriverInfo:135: GL_RENDERER: NVIDIA GeForce RTX 4060 Ti/PCIe/SSE2
+[   0.971092] Loader <Info> core/loader/ncch.cpp:Load:300: Program ID: 00040000001CA900
+[   0.983456] Loader <Info> core/hle/kernel/process.cpp:ParseKernelCaps:201: ExHeader kernel version: 2.52
+[   0.988929] Core.Cheats <Info> core/cheats/cheats.cpp:LoadCheatFile:92: Attempting to load cheats file: C:\AI-Projects\mario-luigi-rpg-3dx-korean-patch\tools\azahar-test/user/cheats/00040000001CA900.txt
+[   0.989064] Core.Cheats <Info> core/cheats/gateway_cheat.cpp:LoadFile:491: GatewayCheat::LoadFile failed, file doesn't exist: C:\AI-Projects\mario-luigi-rpg-3dx-korean-patch\tools\azahar-test/user/cheats/00040000001CA900.txt
+[   1.004748] Service.CAM <Info> citra_qt/camera/qt_multimedia_camera.cpp:ResumeCameras:50: Resuming all cameras
+[   1.011132] Render.OpenGL <Info> video_core/renderer_opengl/gl_shader_disk_cache.cpp:LoadTransferable:177: Found a transferable disk cache with 846 entries
+[   1.030947] Render.OpenGL <Info> video_core/renderer_opengl/gl_shader_disk_cache.cpp:LoadPrecompiledFile:284: Found a precompiled disk cache with 846 decompiled entries and 846 binary entries
+[   1.650713] Debug.GDBStub <Info> core/gdbstub/gdbstub.cpp:Init:1664: Starting GDB server on port 24689...
+[   1.679491] Service.SRV <Warning> core/hle/service/sm/srv.cpp:RegisterClient:64: (STUBBED) called. Caller PID=11
+[   1.719262] Service.SRV <Warning> core/hle/service/sm/srv.cpp:EnableNotification:86: (STUBBED) called
+[   1.722174] Service.NDM <Warning> core/hle/service/ndm/ndm_u.cpp:OverrideDefaultDaemons:195: (STUBBED) bit_mask=0x0000000F
+[   1.722218] Service.NDM <Warning> core/hle/service/ndm/ndm_u.cpp:SuspendDaemons:74: (STUBBED) bit_mask=0x00000006
+[   1.722509] Service.APT <Warning> core/hle/service/apt/apt.cpp:NotifyToWait:362: (STUBBED) app_id=768
+[   1.723355] Service.APT <Warning> core/hle/service/apt/apt.cpp:AppletUtility:735: (STUBBED) called command=0X00000007, input_size=0X00000004, output_size=0X00000001
+[   1.723468] Service.APT <Warning> core/hle/service/apt/apt.cpp:AppletUtility:735: (STUBBED) called command=0X00000004, input_size=0X00000001, output_size=0X00000001
+[   1.725685] Service.FS <Warning> core/hle/service/fs/fs_user.cpp:InitializeWithSdkVersion:1092: (STUBBED) called, version: 0x0B0600C8
+[   1.726176] Service.FS <Error> ./core/file_sys/archive_backend.h:GetOpenDelayNs:221: Delay generator was not initalized. Using default
+[   1.728611] Service.FS <Error> ./core/file_sys/archive_backend.h:GetOpenDelayNs:221: Delay generator was not initalized. Using default
+[   1.738426] Service.FS <Error> ./core/file_sys/archive_backend.h:GetOpenDelayNs:221: Delay generator was not initalized. Using default
+[   1.772070] Service.FS <Error> ./core/file_sys/archive_backend.h:GetOpenDelayNs:221: Delay generator was not initalized. Using default
+[   1.805578] Service.LDR <Warning> core/hle/service/ldr_ro/ldr_ro.cpp:LoadCRR:155: (STUBBED) called, crr_buffer_ptr=0x08042000, crr_size=0x00002000
+[   1.838428] Service.DSP <Info> audio_core/hle/hle.cpp:LoadComponent:514: Firmware hash: 0x60af809bc5b32916
+[   1.838435] Service.DSP <Info> audio_core/hle/hle.cpp:LoadComponent:519: Structures hash: 0x3fe31c7be0d849ca
+[   1.838436] Service.DSP <Info> core/hle/service/dsp/dsp_dsp.cpp:LoadComponent:192: called size=0x35388, prog_mask=0x00FF, data_mask=0x00FF
+[   1.838823] Service.DSP <Info> core/hle/service/dsp/dsp_dsp.cpp:RegisterInterruptEvents:259: Registered interrupt=2, channel=2, event=event-00115fb0
+[   1.838915] Service.DSP <Warning> core/hle/service/dsp/dsp_dsp.cpp:GetSemaphoreEventHandle:275: (STUBBED) called
+[   1.839002] Service.DSP <Warning> core/hle/service/dsp/dsp_dsp.cpp:SetSemaphoreMask:285: (STUBBED) called mask=0x2000
+[   1.839131] Audio.DSP <Info> audio_core/hle/hle.cpp:PipeWrite:235: Application has requested initialization of DSP hardware
+[   1.839215] Service.DSP <Info> core/hle/service/dsp/dsp_dsp.cpp:SetSemaphore:57: called, semaphore_value=4000
+[   1.839836] Service.DSP <Info> core/hle/service/dsp/dsp_dsp.cpp:SetSemaphore:57: called, semaphore_value=4000
+[   2.098286] Service.IR <Info> core/hle/service/ir/ir_user.cpp:InitializeIrNopShared:304: called, shared_buff_size=4096, recv_buff_size=82, recv_buff_packet_count=1, send_buff_size=18, send_buff_packet_count=1, baud_rate=4
+[   2.098551] Service.IR <Info> core/hle/service/ir/ir_user.cpp:GetConnectionStatusEvent:375: called
+[   2.098675] Service.IR <Info> core/hle/service/ir/ir_user.cpp:RequireConnection:331: called, device_id = 1
+[   2.098902] Service.IR <Info> core/hle/service/ir/ir_user.cpp:GetReceiveEvent:340: called
+[   2.099644] Service.IR <Info> core/hle/service/ir/ir_user.cpp:Disconnect:366: called
+[   2.099707] Service.IR <Info> core/hle/service/ir/ir_user.cpp:FinalizeIrNop:390: called
+[   2.100227] Service.IR <Info> core/hle/service/ir/ir_user.cpp:InitializeIrNopShared:304: called, shared_buff_size=4096, recv_buff_size=3280, recv_buff_packet_count=160, send_buff_size=768, send_buff_packet_count=32, baud_rate=4
+[   2.100265] Service.IR <Info> core/hle/service/ir/ir_user.cpp:GetConnectionStatusEvent:375: called
+[   2.100272] Service.IR <Info> core/hle/service/ir/ir_user.cpp:RequireConnection:331: called, device_id = 1
+[   2.100449] Service.IR <Info> core/hle/service/ir/ir_user.cpp:GetReceiveEvent:340: called
+[   2.100529] Service.IR <Info> core/hle/service/ir/ir_user.cpp:GetSendEvent:349: called
+[   2.499382] Service.APT <Warning> core/hle/service/apt/apt.cpp:AppletUtility:735: (STUBBED) called command=0X00000004, input_size=0X00000001, output_size=0X00000001
+[   2.516117] Service.FS <Error> core/file_sys/archive_ncch.cpp:OpenFile:192: CHN/KOR/TWN shared font file missing. Loading open source replacement, but text will not display properly
+[   2.666682] Service.FS <Error> ./core/file_sys/archive_backend.h:GetOpenDelayNs:221: Delay generator was not initalized. Using default
+[   3.083271] Service.LDR <Info> core/hle/service/ldr_ro/cro_helper.cpp:ApplyStaticAnonymousSymbolToCRS:555: CRO "Field" exports 0 static anonymous symbols
+[   3.083493] Service.LDR <Info> core/hle/service/ldr_ro/ldr_ro.cpp:LoadCRO:331: CRO "Field" loaded at 0x0063A000, fixed_end=0x0063E000
+[   8.805778] Service.FS <Warning> core/hle/service/fs/file.cpp:OpenLinkFile:382: (STUBBED) File command OpenLinkFile Path: [Binary: 000000000000000000000000]
+[  58.555553] Service.LDR <Info> core/hle/service/ldr_ro/ldr_ro.cpp:UnloadCRO:369: Unloading CRO "Field"
+[  58.575319] Service.LDR <Info> core/hle/service/ldr_ro/cro_helper.cpp:ApplyStaticAnonymousSymbolToCRS:555: CRO "SaveLoad" exports 0 static anonymous symbols
+[  58.575654] Service.LDR <Info> core/hle/service/ldr_ro/ldr_ro.cpp:LoadCRO:331: CRO "SaveLoad" loaded at 0x0047A000, fixed_end=0x00481000
+[  58.592784] Service.LDR <Info> core/hle/service/ldr_ro/cro_helper.cpp:ApplyStaticAnonymousSymbolToCRS:555: CRO "LoadMenu" exports 0 static anonymous symbols
+[  58.593678] Service.LDR <Info> core/hle/service/ldr_ro/ldr_ro.cpp:LoadCRO:331: CRO "LoadMenu" loaded at 0x00482000, fixed_end=0x0049A000
+[  60.952209] Service.FS <Error> ./core/file_sys/archive_backend.h:GetOpenDelayNs:221: Delay generator was not initalized. Using default
+[  66.286130] Service.LDR <Info> core/hle/service/ldr_ro/ldr_ro.cpp:UnloadCRO:369: Unloading CRO "SaveLoad"
+[  66.286642] Service.LDR <Info> core/hle/service/ldr_ro/ldr_ro.cpp:UnloadCRO:369: Unloading CRO "LoadMenu"
+[  66.531522] Service.LDR <Info> core/hle/service/ldr_ro/cro_helper.cpp:ApplyStaticAnonymousSymbolToCRS:555: CRO "Field" exports 0 static anonymous symbols
+[  66.531677] Service.LDR <Info> core/hle/service/ldr_ro/ldr_ro.cpp:LoadCRO:331: CRO "Field" loaded at 0x0063A000, fixed_end=0x0063E000
+[  78.623742] Service.LDR <Info> core/hle/service/ldr_ro/ldr_ro.cpp:UnloadCRO:369: Unloading CRO "Field"
+[  78.666812] Service.LDR <Info> core/hle/service/ldr_ro/cro_helper.cpp:ApplyStaticAnonymousSymbolToCRS:555: CRO "MainMenu" exports 0 static anonymous symbols
+[  78.668199] Service.LDR <Info> core/hle/service/ldr_ro/ldr_ro.cpp:LoadCRO:331: CRO "MainMenu" loaded at 0x0047A000, fixed_end=0x004B1000
+[  78.683051] Service.LDR <Info> core/hle/service/ldr_ro/cro_helper.cpp:ApplyStaticAnonymousSymbolToCRS:555: CRO "MenuGuide" exports 0 static anonymous symbols
+[  78.683167] Service.LDR <Info> core/hle/service/ldr_ro/ldr_ro.cpp:LoadCRO:331: CRO "MenuGuide" loaded at 0x004B2000, fixed_end=0x004B5000
+[ 167.654168] HW.Memory <Error> core/memory.cpp:ReadBlockImpl:193: unmapped ReadBlock @ 0x05000000 (start address = 0x05000000, size = 4) at PC 0x0012E41C

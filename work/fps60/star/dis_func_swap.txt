@@ -1,0 +1,35 @@
+; |static| ad::fw::TaskBase::func+0xab0
+0013e67c: 000058e3 cmp      r8, #0
+0013e680: 1d00000a beq      #0x13e6fc
+0013e684: da5f84e2 add      r5, r4, #0x368
+0013e688: 060055e1 cmp      r5, r6
+0013e68c: 0400000a beq      #0x13e6a4
+0013e690: 0500a0e1 mov      r0, r5
+0013e694: bce804eb bl       #0x27898c  ; nn::os::LightEvent::ClearSignal
+0013e698: 085085e2 add      r5, r5, #8
+0013e69c: 060055e1 cmp      r5, r6
+0013e6a0: faffff1a bne      #0x13e690
+0013e6a4: 010b84e2 add      r0, r4, #0x400
+0013e6a8: 1c0080e2 add      r0, r0, #0x1c
+0013e6ac: 7873c4e5 strb     r7, [r4, #0x378]
+0013e6b0: 0ebd04eb bl       #0x26daf0
+0013e6b4: cc009fe5 ldr      r0, [pc, #0xcc]  ; =0x42506c gDisplayBufSet
+0013e6b8: 0910a0e1 mov      r1, sb
+0013e6bc: ee2505eb bl       #0x287e7c  ; DisplayBufSet::swapAll
+0013e6c0: c0009fe5 ldr      r0, [pc, #0xc0]  ; =0x42506c gDisplayBufSet
+0013e6c4: 00f020e3 nop      
+0013e6c8: e62505eb bl       #0x287e68  ; DisplayBufSet::swapBufNo
+0013e6cc: 010ba0e3 mov      r0, #0x400
+0013e6d0: 00f020e3 nop      
+0013e6d4: 470205eb bl       #0x27eff8  ; nngxCheckVSync
+0013e6d8: 8c0184e5 str      r0, [r4, #0x18c]
+0013e6dc: 740594e5 ldr      r0, [r4, #0x574]
+0013e6e0: 000050e3 cmp      r0, #0
+0013e6e4: 10009015 ldrne    r0, [r0, #0x10]
+0013e6e8: 382f001b blne     #0x14a3d0  ; ad::dfx::RenderBuffer::swapAndClear
+0013e6ec: 000094e5 ldr      r0, [r4]
+0013e6f0: 401090e5 ldr      r1, [r0, #0x40]
+0013e6f4: 0400a0e1 mov      r0, r4
+0013e6f8: 31ff2fe1 blx      r1
+0013e6fc: 4a00d4e5 ldrb     r0, [r4, #0x4a]
+0013e700: 010050e3 cmp      r0, #1

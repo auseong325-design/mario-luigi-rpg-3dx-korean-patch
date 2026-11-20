@@ -1,0 +1,19 @@
+// FUNC 0x0024d0c4 FUN_0024d0c4 (static)
+//   size 0x64 | callers(3) 0x00195d94 0x0028b67c 0x00306bc4
+
+void FUN_0024d0c4(undefined4 param_1,int param_2)
+
+{
+  int iVar1;
+  
+  for (iVar1 = *(int *)(param_2 + 0xc); iVar1 != 0; iVar1 = *(int *)(iVar1 + 4)) {
+    if (*(undefined4 **)(iVar1 + 0x18) != (undefined4 *)0x0) {
+      (**(code **)**(undefined4 **)(iVar1 + 0x18))(param_1);
+    }
+    if (*(undefined4 **)(iVar1 + 0x1c) != (undefined4 *)0x0) {
+      (**(code **)**(undefined4 **)(iVar1 + 0x1c))(param_1);
+    }
+  }
+  return;
+}
+

@@ -1,0 +1,246 @@
+{
+ "cmd": "counters",
+ "label": "01_title_m1",
+ "time": "2026-10-30 14:31:48",
+ "ranges": [
+  {
+   "name": "static_data_bss",
+   "start": "0x003ef000",
+   "size": "0x45d40"
+  },
+  {
+   "name": "task",
+   "start": "0x320da370",
+   "size": "0x10000"
+  }
+ ],
+ "secs": 2.047,
+ "hits": [
+  {
+   "range": "static_data_bss",
+   "addr": "0x00425258",
+   "off": "0x36258",
+   "kind": "u32",
+   "v0": 15821,
+   "v2": 15883,
+   "rate": 30.29
+  },
+  {
+   "range": "static_data_bss",
+   "addr": "0x004291e4",
+   "off": "0x3a1e4",
+   "kind": "u32",
+   "v0": 31734,
+   "v2": 31857,
+   "rate": 60.09
+  },
+  {
+   "range": "static_data_bss",
+   "addr": "0x004291e8",
+   "off": "0x3a1e8",
+   "kind": "u32",
+   "v0": 31732,
+   "v2": 31855,
+   "rate": 60.09
+  },
+  {
+   "range": "static_data_bss",
+   "addr": "0x0042c6b8",
+   "off": "0x3d6b8",
+   "kind": "u32",
+   "v0": 44462,
+   "v2": 44632,
+   "rate": 83.06
+  },
+  {
+   "range": "static_data_bss",
+   "addr": "0x0042ecac",
+   "off": "0x3fcac",
+   "kind": "u32",
+   "v0": 1111,
+   "v2": 1116,
+   "rate": 2.44
+  },
+  {
+   "range": "static_data_bss",
+   "addr": "0x0042ed4c",
+   "off": "0x3fd4c",
+   "kind": "u32",
+   "v0": 1111,
+   "v2": 1116,
+   "rate": 2.44
+  },
+  {
+   "range": "static_data_bss",
+   "addr": "0x004300b4",
+   "off": "0x410b4",
+   "kind": "u32",
+   "v0": 15293,
+   "v2": 15355,
+   "rate": 30.29
+  },
+  {
+   "range": "static_data_bss",
+   "addr": "0x004300b8",
+   "off": "0x410b8",
+   "kind": "u32",
+   "v0": 15291,
+   "v2": 15353,
+   "rate": 30.29
+  },
+  {
+   "range": "static_data_bss",
+   "addr": "0x004301a8",
+   "off": "0x411a8",
+   "kind": "u32",
+   "v0": 27,
+   "v2": 32,
+   "rate": 2.44
+  },
+  {
+   "range": "static_data_bss",
+   "addr": "0x00430244",
+   "off": "0x41244",
+   "kind": "u32",
+   "v0": 1150,
+   "v2": 1155,
+   "rate": 2.44
+  },
+  {
+   "range": "static_data_bss",
+   "addr": "0x00430248",
+   "off": "0x41248",
+   "kind": "u32",
+   "v0": 1148,
+   "v2": 1153,
+   "rate": 2.44
+  },
+  {
+   "range": "static_data_bss",
+   "addr": "0x0043451c",
+   "off": "0x4551c",
+   "kind": "u32",
+   "v0": 26,
+   "v2": 31,
+   "rate": 2.44
+  },
+  {
+   "range": "static_data_bss",
+   "addr": "0x00430a88",
+   "off": "0x41a88",
+   "kind": "f32",
+   "v0": 0.0,
+   "v2": 63.1935,
+   "rate": 30.87
+  },
+  {
+   "range": "static_data_bss",
+   "addr": "0x004324a8",
+   "off": "0x434a8",
+   "kind": "f32",
+   "v0": -0.5472,
+   "v2": 1.7739,
+   "rate": 1.13
+  },
+  {
+   "range": "static_data_bss",
+   "addr": "0x00434438",
+   "off": "0x45438",
+   "kind": "f32",
+   "v0": 0.0,
+   "v2": 31.4875,
+   "rate": 15.38
+  },
+  {
+   "range": "task",
+   "addr": "0x320da434",
+   "off": "0xc4",
+   "kind": "u32",
+   "v0": 15818,
+   "v2": 15880,
+   "rate": 30.29
+  },
+  {
+   "range": "task",
+   "addr": "0x320da4c0",
+   "off": "0x150",
+   "kind": "u32",
+   "v0": 15817,
+   "v2": 15879,
+   "rate": 30.29
+  },
+  {
+   "range": "task",
+   "addr": "0x320da4fc",
+   "off": "0x18c",
+   "kind": "u32",
+   "v0": 31734,
+   "v2": 31856,
+   "rate": 59.61
+  },
+  {
+   "range": "task",
+   "addr": "0x320da500",
+   "off": "0x190",
+   "kind": "u32",
+   "v0": 15819,
+   "v2": 15881,
+   "rate": 30.29
+  },
+  {
+   "range": "task",
+   "addr": "0x320da504",
+   "off": "0x194",
+   "kind": "u32",
+   "v0": 15817,
+   "v2": 15879,
+   "rate": 30.29
+  },
+  {
+   "range": "task",
+   "addr": "0x320da508",
+   "off": "0x198",
+   "kind": "u32",
+   "v0": 15817,
+   "v2": 15879,
+   "rate": 30.29
+  },
+  {
+   "range": "task",
+   "addr": "0x320da50c",
+   "off": "0x19c",
+   "kind": "u32",
+   "v0": 15818,
+   "v2": 15880,
+   "rate": 30.29
+  },
+  {
+   "range": "task",
+   "addr": "0x320da510",
+   "off": "0x1a0",
+   "kind": "u32",
+   "v0": 15816,
+   "v2": 15878,
+   "rate": 30.29
+  },
+  {
+   "range": "task",
+   "addr": "0x320da514",
+   "off": "0x1a4",
+   "kind": "u32",
+   "v0": 15816,
+   "v2": 15878,
+   "rate": 30.29
+  },
+  {
+   "range": "task",
+   "addr": "0x320da8e8",
+   "off": "0x578",
+   "kind": "u32",
+   "v0": 15817,
+   "v2": 15879,
+   "rate": 30.29
+  }
+ ],
+ "pid": 11
+}

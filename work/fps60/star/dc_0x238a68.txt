@@ -1,0 +1,49 @@
+// FUNC 0x00238a68 FUN_00238a68 (static)
+//   size 0xf0 | callers(11) 0x001e8e70 0x001ea790 0x0022eaf4 0x0028aaf0 0x0028b67c 0x0029e318 0x00289e18 0x001eadf8 ...
+
+void FUN_00238a68(int param_1)
+
+{
+  uint uVar1;
+  uint uVar2;
+  char cVar3;
+  int iVar4;
+  uint *puVar5;
+  uint uVar6;
+  
+  uVar6 = 0;
+  puVar5 = *(uint **)(param_1 + 0x80);
+  if (*(uint **)(param_1 + 0x84) != puVar5) {
+    do {
+      if (*(char *)((int)puVar5 + 6) == '\0') {
+        cVar3 = *(char *)(param_1 + 0x8c);
+        if (((cVar3 == '\x02') ||
+            ((cVar3 != '\0' && ((cVar3 != '\x01' || (*(byte *)((int)puVar5 + 5) < 2)))))) &&
+           (uVar6 < 4)) {
+          if (*puVar5 == 0) {
+            *(undefined1 *)(puVar5 + 1) = 0;
+          }
+          FUN_00251e0c(&gSndSys,*puVar5,0,(int)(char)puVar5[1],0);
+          uVar6 = uVar6 + 1;
+          *(undefined1 *)((int)puVar5 + 6) = 1;
+        }
+      }
+      else if (*(char *)((int)puVar5 + 6) == '\x01') {
+        iVar4 = SndSys::isLoaded((SndSys *)&gSndSys,*puVar5);
+        if (iVar4 == 0) {
+          uVar6 = uVar6 + 1;
+        }
+        else {
+          *(undefined1 *)((int)puVar5 + 6) = 2;
+          uVar2 = (int)puVar5 - *(int *)(param_1 + 0x80) >> 3;
+          uVar1 = uVar2 >> 5;
+          *(uint *)(param_1 + 0x88 + uVar1 * 4) =
+               *(uint *)(param_1 + 0x88 + uVar1 * 4) & ~(1 << (uVar2 & 0x1f));
+        }
+      }
+      puVar5 = puVar5 + 2;
+    } while (*(uint **)(param_1 + 0x84) != puVar5);
+  }
+  return;
+}
+

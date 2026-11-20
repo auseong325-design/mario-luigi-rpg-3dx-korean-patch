@@ -1,0 +1,131 @@
+entry	loop	n	body_inputs	calls	callee_instructions	callee_inputs	pulse_body	pulse_callee	other_waits
+i_air_08.fme	0x0089f-0x009fb	28		0	0				
+i_air_09.fme	0x010b9-0x01215	28		0	0				
+i_air_11.fme	0x0089f-0x009fb	28		0	0				
+i_air_13.fme	0x00df7-0x00e70	10		0	0				
+i_air_15.fme	0x00e03-0x00e7c	10		0	0				
+i_air_15.fme	0x01aae-0x01b27	10		0	0				
+i_air_16.fme	0x008d3-0x00a2f	28		0	0				
+i_air_16.fme	0x01a3f-0x01ab8	10		0	0				
+i_air_16.fme	0x026ea-0x02763	10		0	0				
+i_air_18.fme	0x00e07-0x00e80	10		0	0				
+i_air_18.fme	0x01ab2-0x01b2b	10		0	0				
+i_air_19.fme	0x01335-0x013ae	10		0	0				
+i_air_20.fme	0x01331-0x013aa	10		0	0				
+i_dokan_01.fev	0x0e9c6-0x0ea59	14		0	0				
+i_dokan_01.fev	0x0ea81-0x0eb14	14		0	0				
+i_energy_02.fme	0x00dbc-0x00e35	10		0	0				
+i_energy_03.fme	0x00dbc-0x00e35	10		0	0				
+i_energy_04.fme	0x00dbc-0x00e35	10		0	0				
+i_energy_07.fme	0x00dc4-0x00e3d	10		0	0				
+i_energy_12.fme	0x00de0-0x00e59	10		0	0				
+i_energy_12.fme	0x016a0-0x01719	10		0	0				
+i_energy_12.fme	0x01c0b-0x01e0f	40		0	0				20
+i_energy_12.fme	0x02557-0x0275b	40		0	0				48
+i_energy_15.fme	0x009a3-0x00ba7	40		0	0				20
+i_energy_15.fme	0x012ef-0x014f3	40		0	0				48
+i_energy_20.fme	0x00e97-0x00f10	10		0	0				
+i_energy_22.fme	0x009a3-0x00ba7	40		0	0				20
+i_energy_22.fme	0x012ef-0x014f3	40		0	0				48
+i_energy_24.fme	0x00dc4-0x00e3d	10		0	0				
+i_energy_25.fme	0x00941-0x00b45	40		0	0				20
+i_energy_25.fme	0x0128d-0x01491	40		0	0				48
+i_energy_27.fme	0x00aa6-0x00aeb	6		0	0				
+i_energy_27.fme	0x00b78-0x00bbd	6		0	0				
+i_energy_28.fme	0x00e9f-0x00f18	10		0	0				
+i_energy_30.fme	0x00aae-0x00af3	6		0	0				
+i_energy_30.fme	0x00b80-0x00bc5	6		0	0				
+i_garakuta_15.fme	0x00a77-0x00b72	19		0	0				
+i_metaboru_02.fme	0x0116d-0x014be	61		0	0				var
+i_metaboru_06.fme	0x0086b-0x00bbc	61		0	0				var
+i_metaboru_08.fme	0x01171-0x014c2	61		0	0				var
+i_metaboru_11.fme	0x01171-0x014c2	61		0	0				var
+i_metaboru_13.fme	0x00877-0x00bc8	61		0	0				var
+i_power_arm_02.fev	0x06ab1-0x06b3e	12		0	0				
+i_power_arm_02.fev	0x06ca0-0x06cd1	5		1	2				
+i_power_arm_02.fev	0x06f68-0x071bb	45		1	2				var
+i_power_arm_02.fev	0x0703d-0x0706e	5		1	2				
+i_power_arm_02.fev	0x0720d-0x0723e	5		1	2				
+i_power_arm_02.fev	0x0725c-0x07282	4		0	0				
+i_power_arm_02.fev	0x076b8-0x076e9	5		1	2				
+i_power_hip_SA_adorena_01_L.fev	0x05221-0x05247	4		0	0				
+i_power_hip_SA_adorena_01_L.fev	0x05487-0x054ed	9		0	0				
+i_power_hip_SA_adorena_01_L.fev	0x087ba-0x088c9	22		0	0				var
+i_power_hip_SA_adorena_01_L.fev	0x08aaf-0x08c0a	25		0	0				
+i_power_hip_SA_adorena_01_L.fev	0x08d4c-0x08eb9	26		0	0				
+i_power_hip_SA_adorena_01_L.fev	0x0c621-0x0c68b	9		0	0				
+i_power_lungs_SA_fire_01_L.fev	0x02fab-0x02fca	4		0	0				
+i_power_nose_SA_peppansy_01_L.fev	0x044fc-0x04541	6		0	0				
+i_power_nose_SA_peppansy_01_L.fev	0x04f84-0x04f98	3		0	0				
+i_power_nose_SA_peppansy_01_L.fev	0x0b249-0x0b53d	57		0	0				
+i_power_nose_SA_peppansy_01_L.fev	0x0bcd6-0x0bd51	10		0	0				
+i_power_nose_SA_peppansy_01_L.fev	0x0beeb-0x0c033	27		1	19				var
+i_power_stomach_15_SA_giganin_01_L.fev	0x09793-0x0996a	34		1	4				
+i_pump_04.fme	0x00a6f-0x00b6a	19		0	0				
+i_pump_05.fme	0x00a73-0x00b6e	19		0	0				
+i_pump_11.fme	0x00ac2-0x00b07	6		0	0				
+i_pump_11.fme	0x00b94-0x00bd9	6		0	0				
+i_pump_13.fme	0x00aaa-0x00aef	6		0	0				
+i_pump_13.fme	0x00b7c-0x00bc1	6		0	0				
+i_pump_14.fme	0x00abe-0x00b03	6		0	0				
+i_pump_14.fme	0x00b90-0x00bd5	6		0	0				
+i_pump_15.fme	0x00aba-0x00aff	6		0	0				
+i_pump_15.fme	0x00b8c-0x00bd1	6		0	0				
+i_pump_17.fme	0x00abe-0x00b03	6		0	0				
+i_pump_17.fme	0x00b90-0x00bd5	6		0	0				
+i_tainai_01.fev	0x05cc0-0x05d1f	8	hold	0	0				
+o_ekubon_02.fev	0x023d3-0x02408	5		0	0				
+o_ekubon_07_2.fev	0x04e13-0x050bd	53		2	60				
+o_ekubon_08.fme	0x00796-0x008c7	25		1	63				
+o_ekubon_11.fev	0x01a23-0x01a58	5		0	0				
+o_ekubon_11.fme	0x0131a-0x0144b	25		1	63				
+o_ekubon_12.fme	0x00796-0x008c7	25		1	63				
+o_ekubon_15_SA_giganin_01_U.fev	0x03d7e-0x03f3e	32		0	0				
+o_ekubon_20.fme	0x013d0-0x01501	25		1	63				
+o_ekubon_21.fme	0x013d8-0x01509	25		1	63				
+o_ekubon_24.fev	0x02b33-0x02d69	44		3	24				
+o_ekubon_30.fme	0x01963-0x01a94	25		1	63				
+o_ekubon_32.fme	0x0131e-0x0144f	25		1	63				
+o_evselect_U.fev	0x27341-0x273a7	9		0	0				
+o_gepu_02.fev	0x09a39-0x09a8b	8		0	0				
+o_gepu_03.fev	0x05bea-0x05c3c	8		0	0				
+o_gepu_05_after.fev	0x08137-0x08189	8		0	0				
+o_koopa_19.fev	0x08045-0x08079	5		0	0				
+o_koopa_23.fme	0x0149c-0x014ec	7		0	0				
+o_koopa_26.fev	0x069f8-0x06df1	76		2	29				
+o_koopa_27.fev	0x073e0-0x077d9	76		2	29				
+o_koopa_27.fme	0x014a0-0x014f0	7		0	0				
+o_koopa_28.fev	0x0788f-0x07901	10		0	0				
+o_koopa_31.fme	0x014bc-0x0150c	7		0	0				
+o_koopa_32.fme	0x014b0-0x01500	7		0	0				
+o_koopa_33.fme	0x014c0-0x01510	7		0	0				
+o_koopa_40.fev	0x02b33-0x02d69	44		3	24				
+o_peach_2f_07.fme	0x00e91-0x00fc2	25		1	63				
+o_peach_2f_11.fme	0x00e91-0x00fc2	25		1	63				
+o_peach_2f_15.fme	0x00e8d-0x00fbe	25		1	63				
+o_peach_2f_19.fev	0x03003-0x03324	62		1	38				
+o_peach_2f_21.fme	0x00e8d-0x00fbe	25		1	63				
+o_peach_2f_24.fme	0x0079a-0x008cb	25		1	63				
+o_peach_3f_04.fme	0x0122c-0x0135d	25		1	63				
+o_peach_3f_08.fme	0x0122c-0x0135d	25		1	63				
+o_peach_3f_09.fme	0x0079e-0x008cf	25		1	63				
+o_peach_3f_10.fev	0x069f0-0x06de9	76		2	29				
+o_peach_3f_11.fme	0x0079a-0x008cb	25		1	63				
+o_peach_3f_15_SA_fire_packun_01_U.fev	0x03496-0x03569	15		0	0				
+o_peach_3f_15_SA_fire_packun_01_U.fev	0x05e7a-0x06231	67		0	0				
+o_peach_3f_15_SA_fire_packun_01_U.fev	0x05f9b-0x05fdf	6		0	0				
+o_peach_3f_15_SA_fire_packun_01_U.fev	0x06d06-0x06e67	26		1	58				
+o_peach_3f_15_SA_fire_packun_01_U.fev	0x0719e-0x071c4	4		0	0				
+o_peach_3f_15_SA_fire_packun_01_U.fev	0x07564-0x0758a	4		0	0				
+o_peach_g_16.fev	0x03fc7-0x041fd	44		3	24				
+o_peach_t_SA_fire_dkoopa_01_U.fev	0x03ef9-0x03f8d	12		0	0				
+o_peach_t_SA_fire_dkoopa_01_U.fev	0x04789-0x04827	13		1	16				
+o_peach_t_SA_fire_dkoopa_01_U.fev	0x04850-0x048ec	13		0	0				
+o_town_04.fev	0x0600f-0x06245	44		3	24				
+o_town_32.fev	0x02c67-0x02e9d	44		3	24				
+o_town_41.fev	0x032ee-0x03524	44		3	24				
+o_zutsuda_01.fme	0x009b2-0x00a4d	14		0	0				
+o_zutsuda_02.fme	0x0182f-0x018ca	14		0	0				
+o_zutsuda_03.fme	0x0182f-0x018ca	14		0	0				
+o_zutsuda_07.fev	0x02b33-0x02d69	44		3	24				
+o_zutsuda_17.fev	0x02b33-0x02d69	44		3	24				

@@ -1,0 +1,49 @@
+{
+ "probed_at": "2026-10-30 15:03:23",
+ "runs": [
+  {
+   "region": "image",
+   "start": "0x00100000",
+   "end": "0x00436000"
+  },
+  {
+   "region": "heap",
+   "start": "0x08000000",
+   "end": "0x08540000"
+  },
+  {
+   "region": "shared",
+   "start": "0x10000000",
+   "end": "0x10003000"
+  },
+  {
+   "region": "linear_old",
+   "start": "0x1bc00000",
+   "end": "0x1bf32000"
+  },
+  {
+   "region": "cfg_shared_tls",
+   "start": "0x1ff80000",
+   "end": "0x1ff84000"
+  },
+  {
+   "region": "linear",
+   "start": "0x30000000",
+   "end": "0x37382000"
+  }
+ ],
+ "data_ranges": [
+  {
+   "start": "0x08000000",
+   "size": "0x540000"
+  },
+  {
+   "start": "0x1bc00000",
+   "size": "0x332000"
+  },
+  {
+   "start": "0x30000000",
+   "size": "0x7382000"
+  }
+ ]
+}

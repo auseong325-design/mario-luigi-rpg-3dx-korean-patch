@@ -1,0 +1,17 @@
+{
+  "code.ips": {
+    "sha256": "e5aa7d60686a9129508600e0a43f4391290dd09e9a9661db1c9de1d3b05d998a",
+    "bytes": 552
+  },
+  "actions": {
+    "patch/code.bps": "removed (backup kept)",
+    "patch/code.ips": "added",
+    "sd/code.bps": "removed (backup kept)",
+    "sd/code.ips": "added",
+    "zip": "code.bps entry dropped, code.ips added"
+  },
+  "title_folder_files": 38,
+  "patch_junction_sd_zip_match": true,
+  "zip_sha256": "0e4f3ee4e7372e3c56ba0c4ea4cefdfe58259284943fac00a415c0fbe2d3b6ac",
+  "backup": "C:\\AI-Projects\\mario-luigi-rpg-3dx-korean-patch\\work\\build\\prev_fps60_ips_20261030"
+}

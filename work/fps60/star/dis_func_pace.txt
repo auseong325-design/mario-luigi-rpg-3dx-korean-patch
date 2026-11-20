@@ -1,0 +1,41 @@
+; |static| ad::fw::TaskBase::func+0x8a4
+0013e470: 0200008a bhi      #0x13e480
+0013e474: 000051e3 cmp      r1, #0
+0013e478: 00008115 strne    r0, [r1]
+0013e47c: eaffffea b        #0x13e42c
+0013e480: 847184e5 str      r7, [r4, #0x184]
+0013e484: 020000ea b        #0x13e494
+0013e488: 4600d4e5 ldrb     r0, [r4, #0x46]
+0013e48c: 000050e3 cmp      r0, #0
+0013e490: b500001a bne      #0x13e76c
+0013e494: 4500d4e5 ldrb     r0, [r4, #0x45]
+0013e498: 010050e3 cmp      r0, #1
+0013e49c: 1300001a bne      #0x13e4f0
+0013e4a0: daaf84e2 add      sl, r4, #0x368
+0013e4a4: 06005ae1 cmp      sl, r6
+0013e4a8: 0400000a beq      #0x13e4c0
+0013e4ac: 0a00a0e1 mov      r0, sl
+0013e4b0: 151905eb bl       #0x28490c
+0013e4b4: 08a08ae2 add      sl, sl, #8
+0013e4b8: 06005ae1 cmp      sl, r6
+0013e4bc: faffff1a bne      #0x13e4ac
+0013e4c0: daaf84e2 add      sl, r4, #0x368
+0013e4c4: 06005ae1 cmp      sl, r6
+0013e4c8: 0400000a beq      #0x13e4e0
+0013e4cc: 0a00a0e1 mov      r0, sl
+0013e4d0: 2de904eb bl       #0x27898c  ; nn::os::LightEvent::ClearSignal
+0013e4d4: 08a08ae2 add      sl, sl, #8
+0013e4d8: 06005ae1 cmp      sl, r6
+0013e4dc: faffff1a bne      #0x13e4cc
+0013e4e0: 010b84e2 add      r0, r4, #0x400
+0013e4e4: 1c0080e2 add      r0, r0, #0x1c
+0013e4e8: 7873c4e5 strb     r7, [r4, #0x378]
+0013e4ec: 7fbd04eb bl       #0x26daf0
+0013e4f0: 840194e5 ldr      r0, [r4, #0x184]
+0013e4f4: 01bb84e2 add      fp, r4, #0x400
+0013e4f8: 1cb08be2 add      fp, fp, #0x1c
+0013e4fc: 000050e3 cmp      r0, #0
+0013e500: 7d00d015 ldrbne   r0, [r0, #0x7d]
+0013e504: 02a0a0e3 mov      sl, #2
+0013e508: 00005013 cmpne    r0, #0
+0013e50c: 5a00000a beq      #0x13e67c

@@ -1,0 +1,16 @@
+[
+ {
+  "addr": "0x320da370",
+  "vptr": "0x003e3b3c",
+  "module": "static",
+  "class": "fld::System",
+  "bases": [
+   "ad::fw::TaskBase",
+   "TaskMainBase",
+   "Task"
+  ],
+  "b3c_48": "01 01 00 01 01 00 00 00 01 01 00 00 00",
+  "fps_mode": 1,
+  "pattern_44": "01010000"
+ }
+]

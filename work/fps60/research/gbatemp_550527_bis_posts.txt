@@ -1,0 +1,2346 @@
+# BIS-related posts extracted verbatim from GBAtemp thread pages (fetched 2026-10-30)
+# source dir: t550527
+
+===== post-8831461 | Hazerou | 2019-10-20T04:14:14+0100 | https://gbatemp.net/threads/60-fps-patches-cheat-codes-releases-and-discussion.550527/post-8831461
+[...cheat list, BIS section only...]
+Spoiler: Mario & Luigi: Bowsers Inside Story + Bowser Jrs Journey
+
+USA 00040000001D1400EUR 00040000001D1500
+
+		Code:
+
+[CODE]
+[60FPS (L+R) v1.2 Less Crashes]
+DD000000 00000300
+D3000000 30000000
+6000007C 00000001
+60000044 01000101
+60000044 01000001
+50000074 01000101
+5000007C 00000101
+20000075 00000000
+D2000000 00000000
+DD000000 00000300
+D3000000 30000000
+620DA3B4 00000001
+60000044 01000101
+60000044 01000001
+60000064 01000101
+60000064 01000001
+60000074 00000300
+60000074 01000101
+60000074 01000001
+520DA3AC 01000101
+520DA3B4 00000101
+220DA3AD 00000000
+D2000000 00000000
+D3000000 30000000
+50000074 00000300
+520DA3AC 01000001
+520DA3B4 00000001
+220DA3AD 00000001
+220DA3B5 00000001
+D2000000 00000000
+D3000000 30000000
+50000064 01000101
+520DA3AC 01000001
+520DA3B4 00000001
+220DA3AD 00000001
+220DA3B5 00000001
+D2000000 00000000
+D3000000 30000000
+50000044 01000101
+520DA3AC 01000001
+520DA3B4 00000001
+220DA3AD 00000001
+220DA3B5 00000001
+D2000000 00000000
+D3000000 30000000
+50000074 01000101
+520DA3AC 01000001
+520DA3B4 00000001
+220DA3AD 00000001
+220DA3B5 00000001
+D2000000 00000000
+DD000000 00000300
+D3000000 30000000
+6000006C 00000001
+60000044 01000101
+60000044 01000001
+60000074 01000101
+60000074 01000001
+50000064 01000101
+5000006C 00000101
+20000065 01000000
+D2000000 00000000
+DD000000 00000300
+D3000000 30000000
+6000004C 00000001
+60000074 01000101
+60000074 01000001
+50000044 01000101
+5000004C 00000101
+20000045 00000000
+D2000000 00000000
+
+[30 FPS (L+UP) v1.2 Less Crashes]
+DD000000 00000240
+D3000000 30000000
+520DA3AC 01000001
+220DA3AD 00000001
+220DA3B5 00000001
+D2000000 00000000
+DD000000 00000240
+D3000000 30000000
+50000044 01000001
+20000045 00000001
+2000004D 00000001
+D2000000 00000000
+DD000000 00000240
+D3000000 30000000
+50000064 01000001
+20000065 00000001
+2000006D 00000001
+D2000000 00000000
+DD000000 00000240
+D3000000 30000000
+50000074 01000001
+20000075 00000001
+2000007D 00000001
+D2000000 00000000
+
+[60FPS (Hold R button for default 30FPS) v1.2]
+D3000000 30000000
+50000074 01000101
+20000075 00000000
+D0000000 00000000
+520DA3AC 01000101
+220DA3AD 00000000
+D0000000 00000000
+50000064 01000101
+20000065 01000000
+D0000000 00000000
+50000044 01000101
+20000045 00000000
+D0000000 00000000
+DD000000 00000100
+50000074 01000001
+20000075 00000001
+D0000000 00000000
+520DA3AC 01000001
+220DA3AD 00000001
+D0000000 00000000
+50000064 01000001
+20000065 01000001
+D0000000 00000000
+50000044 01000001
+20000045 00000001
+D0000000 00000000
+D0000000 00000000
+
+[60FPS v1.2]
+D3000000 30000000
+50000074 01000101
+20000075 00000000
+D0000000 00000000
+520DA3AC 01000101
+220DA3AD 00000000
+D0000000 00000000
+50000064 01000101
+20000065 01000000
+D0000000 00000000
+50000044 01000101
+20000045 00000000
+D0000000 00000000
+D2000000 00000000
+
+[Default 30FPS v1.2]
+D3000000 30000000
+50000074 01000001
+20000075 00000001
+D0000000 00000000
+520DA3AC 01000001
+220DA3AD 00000001
+D0000000 00000000
+50000064 01000001
+20000065 01000001
+D0000000 00000000
+50000044 01000001
+20000045 00000001
+D0000000 00000000
+D2000000 00000000
+[/CODE]
+
+Original Codes By @Shay#4684 from Discord
+
+Less Crashes by <https://gbatemp.net/members/458768/> @Hazerou
+
+		Code:
+
+[CODE]
+EUR v1.2
+
+[60FPS (L+R) v1.2 Less Crashes]
+DD000000 00000300
+D3000000 30000000
+6000007C 00000001
+60000044 01000101
+60000044 01000001
+50000074 01000101
+5000007C 00000101
+20000075 00000000
+D2000000 00000000
+DD000000 00000300
+D3000000 30000000
+620DA3B4 00000001
+60000044 01000101
+60000044 01000001
+60000064 01000101
+60000064 01000001
+60000074 00000300
+60000074 01000101
+60000074 01000001
+520DA3AC 01000101
+520DA3B4 00000101
+220DA3AD 00000000
+D2000000 00000000
+D3000000 30000000
+50000074 00000300
+520DA3AC 01000001
+520DA3B4 00000001
+220DA3AD 00000001
+220DA3B5 00000001
+D2000000 00000000
+D3000000 30000000
+50000064 01000101
+520DA3AC 01000001
+520DA3B4 00000001
+220DA3AD 00000001
+220DA3B5 00000001
+D2000000 00000000
+D3000000 30000000
+50000044 01000101
+520DA3AC 01000001
+520DA3B4 00000001
+220DA3AD 00000001
+220DA3B5 00000001
+D2000000 00000000
+D3000000 30000000
+50000074 01000101
+520DA3AC 01000001
+520DA3B4 00000001
+220DA3AD 00000001
+220DA3B5 00000001
+D2000000 00000000
+DD000000 00000300
+D3000000 30000000
+6000006C 00000001
+60000044 01000101
+60000044 01000001
+60000074 01000101
+60000074 01000001
+50000064 01000101
+5000006C 00000101
+20000065 01000000
+D2000000 00000000
+DD000000 00000300
+D3000000 30000000
+6000004C 00000001
+60000074 01000101
+60000074 01000001
+50000044 01000101
+5000004C 00000101
+20000045 00000000
+D2000000 00000000
+
+[30 FPS (L+UP) v1.2 Less Crashes]
+DD000000 00000240
+D3000000 30000000
+520DA3AC 01000001
+220DA3AD 00000001
+220DA3B5 00000001
+D2000000 00000000
+DD000000 00000240
+D3000000 30000000
+50000044 01000001
+20000045 00000001
+2000004D 00000001
+D2000000 00000000
+DD000000 00000240
+D3000000 30000000
+50000064 01000001
+20000065 00000001
+2000006D 00000001
+D2000000 00000000
+DD000000 00000240
+D3000000 30000000
+50000074 01000001
+20000075 00000001
+2000007D 00000001
+D2000000 00000000
+
+[Game Speed slower]
+D3000000 32000000
+000DBDB8 3F000000
+D2000000 00000000
+
+[Game Speed normal]
+D3000000 32000000
+000DBDB8 3F800000
+D2000000 00000000
+
+[Game Speed faster]
+D3000000 32000000
+000DBDB8 40000000
+D2000000 00000000
+
+[60FPS (Hold R button for default 30FPS) v1.2]
+D3000000 30000000
+50000074 01000101
+20000075 00000000
+D0000000 00000000
+520DA3AC 01000101
+220DA3AD 00000000
+D0000000 00000000
+50000064 01000101
+20000065 01000000
+D0000000 00000000
+50000044 01000101
+20000045 00000000
+D0000000 00000000
+DD000000 00000100
+50000074 01000001
+20000075 00000001
+D0000000 00000000
+520DA3AC 01000001
+220DA3AD 00000001
+D0000000 00000000
+50000064 01000001
+20000065 01000001
+D0000000 00000000
+50000044 01000001
+20000045 00000001
+D0000000 00000000
+D0000000 00000000
+
+[60FPS v1.2]
+D3000000 30000000
+50000074 01000101
+20000075 00000000
+D0000000 00000000
+520DA3AC 01000101
+220DA3AD 00000000
+D0000000 00000000
+50000064 01000101
+20000065 01000000
+D0000000 00000000
+50000044 01000101
+20000045 00000000
+D0000000 00000000
+D2000000 00000000
+
+[Default 30FPS v1.2]
+D3000000 30000000
+50000074 01000001
+20000075 00000001
+D0000000 00000000
+520DA3AC 01000001
+220DA3AD 00000001
+D0000000 00000000
+50000064 01000001
+20000065 01000001
+D0000000 00000000
+50000044 01000001
+20000045 00000001
+D0000000 00000000
+D2000000 00000000
+[/CODE]
+
+Game Speed Codes by <https://gbatemp.net/members/448590/> @Reshiban
+
+Original FPS Codes By @Shay#4684 from Discord
+
+Less Crashes by <https://gbatemp.net/members/458768/> @Hazerou
+
+===== post-8834844 | Nehpets700 | 2019-10-23T02:55:55+0100 | https://gbatemp.net/threads/60-fps-patches-cheat-codes-releases-and-discussion.550527/post-8834844
+Man, these are great.
+
+I would donate an organ for a 60 FPS code for the M&L:BIS remake.
+
+===== post-8841659 | ShootingStar | 2019-10-29T21:42:52+0000 | https://gbatemp.net/threads/60-fps-patches-cheat-codes-releases-and-discussion.550527/post-8841659
+[QUOTE]
+
+				Nehpets700 said:
+
+			Man, these are great.
+
+I would donate an organ for a 60 FPS code for the M&L:BIS remake.
+
+Click to expand...
+
+ [/QUOTE]
+Agreed. Hope Hazerou can find the 60FPS code for that game. Hopefully it's not one of those games where all game logic is tied to the FPS. Otherwise a game speed code would need to be found.
+
+(Game speed codes can exist. Kingdom Hearts II on PS2 has a game speed code that was used for a rather primitive 60FPS code before the game had a proper 60FPS code found.)
+
+--------------------- MERGED ---------------------------
+
+[QUOTE]
+
+				Hazerou said:
+
+			Found another one using this <https://gbatemp.net/threads/60-fps-patches-cheat-codes-releases-and-discussion.550527/#post-8834118> method .
+
+This time The FPS Code's address is below the Game Runtime's address.
+
+Mononoke Forest
+
+USA 00040000001BD300
+
+08003BE4 = Game Runtime (It's value increases faster than I mentioned in the guide)
+
+[Default 30 FPS]
+
+28003C1C 00000001
+
+[60 FPS]
+
+28003C1C 00000000
+
+{Will make the game runs faster}
+
+The only thing I hate is that most games run faster when 60 FPS is activated. I wonder if there's a way to find their Game Speed Code:unsure:.
+
+Click to expand...
+
+ [/QUOTE]
+That's definitely a possibility. I actually just brought up the idea of game speed codes, using Kingdom Hearts II as an example.
+
+For Kingdom Hearts II, its default game speed value is 3F800000 (In hex). The first 60FPS code made for the game required that you set it to 3F000000 and enable fast forward (2x speed) in PCSX2.
+
+Though nowadays KHII has a proper 60FPS code, 00349E1C 00000000 (Default value is 00000001 for 30FPS)
+
+As well, in the case of Kingdom Hearts II, the game speed value actually gets modified for some slow-motion effects, I.E: When you defeat bosses, or for certain cutscenes.
+
+Perhaps finding any situation where games go into slow motion or fast forward would help with finding game speed values?
+
+===== post-8872310 | ShootingStar | 2019-11-25T02:50:51+0000 | https://gbatemp.net/threads/60-fps-patches-cheat-codes-releases-and-discussion.550527/post-8872310
+Still wondering, is it possible that we could get a 60FPS code for either Mario & Luigi Dream Team or the Bowser's Inside Story remake?
+
+===== post-8872316 | NanashiFinal13 | 2019-11-25T02:56:37+0000 | https://gbatemp.net/threads/60-fps-patches-cheat-codes-releases-and-discussion.550527/post-8872316
+[QUOTE]
+
+				ShootingStar said:
+
+			Still wondering, is it possible that we could get a 60FPS code for either Mario & Luigi Dream Team or the Bowser's Inside Story remake?
+
+Click to expand...
+
+ [/QUOTE]
+It should be possible, but unitil now i have no luck finding fps adress for Bowser's Inside Story (i didnt try Mario & Luigi Dream). Maybe <https://gbatemp.net/members/458768/> @Hazerou  or <https://gbatemp.net/members/510713/> @Reshiban can look it for you.
+
+===== post-8872317 | Reshiban | 2019-11-25T02:57:33+0000 | https://gbatemp.net/threads/60-fps-patches-cheat-codes-releases-and-discussion.550527/post-8872317
+[QUOTE]
+
+				ShootingStar said:
+
+			Still wondering, is it possible that we could get a 60FPS code for either Mario & Luigi Dream Team or the Bowser's Inside Story remake?
+
+Click to expand...
+
+ [/QUOTE]
+I've already searched for them but without success, but I can research, I need theses code too :)
+
+===== post-8901471 | Shinespark | 2019-12-27T19:25:40+0000 | https://gbatemp.net/threads/60-fps-patches-cheat-codes-releases-and-discussion.550527/post-8901471
+This thread is amazing!
+
+Might there be some of these for the Mario & Luigi games that don't run at 60 FPS for some reason?
+
+Talking about Mario & Luigi: Bowser's Inside Story and Mario & Luigi: Dream Team.
+
+===== post-8943281 | Hazerou | 2020-02-10T12:06:06+0000 | https://gbatemp.net/threads/60-fps-patches-cheat-codes-releases-and-discussion.550527/post-8943281
+Added;
+
+* Mario & Luigi: Bowsers Inside Story + Bowser Jrs Journey v1.2
+
+EUR 00040000001D1500
+
+By <https://gbatemp.net/members/448590/> @Reshiban
+
+====================
+
+* Mario & Luigi: Paper Jam
+
+USA 0004000000132700
+
+By me
+
+No FPS on both of them, But Game Speed Code is better than nothing.
+
+===== post-8956027 | Nehpets700 | 2020-02-23T19:14:44+0000 | https://gbatemp.net/threads/60-fps-patches-cheat-codes-releases-and-discussion.550527/post-8956027
+Oh hey, the Bowser's Inside Story remake finally got a speed up code and 60 fps code, nice!
+
+US version when?
+
+===== post-8963011 | Hazerou | 2020-03-02T08:54:29+0000 | https://gbatemp.net/threads/60-fps-patches-cheat-codes-releases-and-discussion.550527/post-8963011
+Added;
+
+* Mario & Luigi: Bowser's Inside Story + Bowser Jr.'s Journey (v1.2)
+
+USA 00040000001D1400
+
+EUR 00040000001D1500
+
+FPS Codes
+
+Codes By @Shay#4684 from Discord with help of <https://gbatemp.net/members/448590/> @Reshiban
+
+====================
+
+<https://gbatemp.net/members/518511/> @SeaKitty
+
+* Super Smash Bros. For 3DS
+
+USA 00040000000EDF00
+
+* Radiant Historia - Perfect Chronology
+
+USA 00040000001C8F00
+
+Edit: Also Added;
+
+* Conception II: Children of the Seven Stars
+
+USA 0004000000112C00
+
+By me and Thanks to discord user = @LuccaXIV#6076 for testing it on Citra MMJ
+
+===== post-8963141 | SeaKitty | 2020-03-02T12:58:58+0000 | https://gbatemp.net/threads/60-fps-patches-cheat-codes-releases-and-discussion.550527/post-8963141
+[QUOTE]
+
+				Hazerou said:
+
+			Added;
+
+* Mario & Luigi: Bowser's Inside Story + Bowser Jr.'s Journey (v1.2)
+
+USA 00040000001D1400
+
+EUR 00040000001D1500
+
+FPS Codes
+
+Codes By @Shay#4684 from Discord with help of <https://gbatemp.net/members/448590/> @Reshiban
+
+====================
+
+<https://gbatemp.net/members/518511/> @SeaKitty
+
+* Super Smash Bros. For 3DS
+
+USA 00040000000EDF00
+
+* Radiant Historia - Perfect Chronology
+
+USA 00040000001C8F00
+
+Edit: Also Added;
+
+* Conception II: Children of the Seven Stars
+
+USA 0004000000112C00
+
+By me and Thanks to discord user = @LuccaXIV#6076 for testing it on Citra MMJ
+
+Click to expand...
+
+ [/QUOTE]
+
+<https://gbatemp.net/members/458768/> @Hazerou and to anyone else continuing  this work :
+
+Thank you  so much for findint time.
+
+Have a great day and have a great year  you total geniuses.
+
+Thank you so much !!!
+
+===== post-8963178 | MarioKartFan | 2020-03-02T13:40:36+0000 | https://gbatemp.net/threads/60-fps-patches-cheat-codes-releases-and-discussion.550527/post-8963178
+Thanks again for the great work. How do we know which codes are “true” 60fps vs just a 2x speed up?  Both are impressive but “true” 60 FPS with proper timing etc. is obviously the best. It’s not always clear from the entries which codes are which.
+
+For example for Bowsers Inside Story: is that really running at 60fps with proper timing or is it just sped up?
+
+===== post-8968140 | selcuk | 2020-03-07T09:22:02+0000 | https://gbatemp.net/threads/60-fps-patches-cheat-codes-releases-and-discussion.550527/post-8968140
+[QUOTE]
+
+				Hazerou said:
+
+			Added;
+
+* Mario & Luigi: Bowser's Inside Story + Bowser Jr.'s Journey (v1.2)
+
+USA 00040000001D1400
+
+EUR 00040000001D1500
+
+FPS Codes
+
+Codes By @Shay#4684 from Discord with help of <https://gbatemp.net/members/448590/> @Reshiban
+
+====================
+
+<https://gbatemp.net/members/518511/> @SeaKitty
+
+* Super Smash Bros. For 3DS
+
+USA 00040000000EDF00
+
+* Radiant Historia - Perfect Chronology
+
+USA 00040000001C8F00
+
+Edit: Also Added;
+
+* Conception II: Children of the Seven Stars
+
+USA 0004000000112C00
+
+By me and Thanks to discord user = @LuccaXIV#6076 for testing it on Citra MMJ
+
+Click to expand...
+
+ [/QUOTE]
+can you add the radiant historia perfect chronology for EUR?
+
+edit: nvrmind just found it
+
+===== post-8968634 | MarioKartFan | 2020-03-07T21:29:30+0000 | https://gbatemp.net/threads/60-fps-patches-cheat-codes-releases-and-discussion.550527/post-8968634
+Happy to report that M&L Bowser’s Inside Story works wonderfully at 60 FPS.
+
+Luigi’s Mansion is a mixed bag. The cutscenes all run far too fast and fall out of sync with the sound. Gameplay itself is much smoother and based on the audio seems to be in sync but it almost feels too smooth, like its sped up.
+
+Great work though. Especially on Bowser’s Inside Story, which is a revelation at 60 FPS.
+
+===== post-9087997 | MarioKartFan | 2020-06-09T02:47:36+0100 | https://gbatemp.net/threads/60-fps-patches-cheat-codes-releases-and-discussion.550527/post-9087997
+[QUOTE]
+
+				persephone said:
+
+			what games run (near) perfectly with the 60fps cheat
+
+Click to expand...
+
+ [/QUOTE]
+Mario & Luigi Bowsers Inside Story
+
+===== post-9178013 | CraftyCamerupt | 2020-08-24T17:53:05+0100 | https://gbatemp.net/threads/60-fps-patches-cheat-codes-releases-and-discussion.550527/post-9178013
+I've played Mario and Luigi: Bowser's Inside Story + Bowser Jr.'s Journey with 60 FPS on on my New 3DS XL and sometimes, I get a error for something relating to translation. Is there anyway that you might be able to help me with that?
+
+===== post-9178093 | MarioKartFan | 2020-08-24T19:10:39+0100 | https://gbatemp.net/threads/60-fps-patches-cheat-codes-releases-and-discussion.550527/post-9178093
+[QUOTE]
+
+				CraftyCamerupt said:
+
+			I've played Mario and Luigi: Bowser's Inside Story + Bowser Jr.'s Journey with 60 FPS on on my New 3DS XL and sometimes, I get a error for something relating to translation. Is there anyway that you might be able to help me with that?
+
+Click to expand...
+
+ [/QUOTE]
+
+Not much to be done about it. The crashes are random and at least in my experience on a N3DS very infrequent.
+
+===== post-9180854 | CraftyCamerupt | 2020-08-27T17:48:27+0100 | https://gbatemp.net/threads/60-fps-patches-cheat-codes-releases-and-discussion.550527/post-9180854
+[QUOTE]
+
+				MarioKartFan said:
+
+			Not much to be done about it. The crashes are random and at least in my experience on a N3DS very infrequent.
+
+Click to expand...
+
+ [/QUOTE]
+
+If I were to play Mario and Luigi: Bowser's Inside Story + Bowser Jr.'s Journey on Citra with the 60FPS Patch, will I get the same error?
+
+===== post-9280825 | jesus96 | 2020-11-29T21:54:13+0000 | https://gbatemp.net/threads/60-fps-patches-cheat-codes-releases-and-discussion.550527/post-9280825
+Is there any list of games who actually get a really good improvement for using these cheats? Let's say Mario & Luigi Bowser inside story
+
+I'm talking about real diferent experience and not just game going faster
+
+===== post-9280872 | MarioKartFan | 2020-11-29T22:45:20+0000 | https://gbatemp.net/threads/60-fps-patches-cheat-codes-releases-and-discussion.550527/post-9280872
+[QUOTE]
+
+				jesus96 said:
+
+			Is there any list of games who actually get a really good improvement for using these cheats? Let's say Mario & Luigi Bowser inside story
+
+I'm talking about real diferent experience and not just game going faster
+
+Click to expand...
+
+ [/QUOTE]
+Kingdom Hearts 3DS is like the poster child.  Runs amazing with a 60FPS code on a New 3DS.  And while the improvement is nice in Bowser’s Inside Story, it’s game changing in Kingdom Hearts given the different playstyles.
+
+You can figure it out for yourself by going to the first post.  If the note says “Game Runs Faster” Then it won’t be what you want.
+
+===== post-9318368 | BlazeHeatnix | 2021-01-05T16:39:09+0000 | https://gbatemp.net/threads/60-fps-patches-cheat-codes-releases-and-discussion.550527/post-9318368
+The M&L:BiS DX code does not play well, at least on console. The game risks crashing during basically any scene transition, including pausing, saving, battle scenes, and giant battles.
+
+I hope someone comes up with something more stable for it. Until then, I request the OP be edited to mark this one as unstable on console.
+
+EDIT: So here's my strategy for playing BISDX at 60fps:
+
+-Hold R when touching/hitting enemy to start battle.
+
+-Hold R when last enemy is defeated, but before the results screen. Holding R does nothing on results, unless it's a levelup.
+
+-Hold R when hitting save blocks.
+
+-Hold R when doing the muscle minigame.
+
+-For giant battles, turn the code off before it says "Tilt screen vertically". Holding R does nothing there.
+
+That should prevent 95% of all crashes. The other 5% are going to be caused by either pausing or cutscenes, but those seem to be pretty rare. Also, it might just crash anyway for no good reason.
+
+Point is, it's extremely difficult to play this at 60fps and not have a ton of anxiety, since the game doesn't allow you to save anywhere.
+
+EDIT 2: Actually scratch all of that, because I don't think holding R actually helps.
+
+===== post-9319920 | Hazerou | 2021-01-06T20:47:44+0000 | https://gbatemp.net/threads/60-fps-patches-cheat-codes-releases-and-discussion.550527/post-9319920
+[QUOTE]
+
+				BlazeHeatnix said:
+
+			The M&L:BiS DX code does not play well, at least on console. The game risks crashing during basically any scene transition, including pausing, saving, battle scenes, and giant battles.
+
+I hope someone comes up with something more stable for it. Until then, I request the OP be edited to mark this one as unstable on console.
+
+EDIT: So here's my strategy for playing BISDX at 60fps:
+
+-Hold R when touching/hitting enemy to start battle.
+
+-Hold R when last enemy is defeated, but before the results screen. Holding R does nothing on results, unless it's a levelup.
+
+-Hold R when hitting save blocks.
+
+-Hold R when doing the muscle minigame.
+
+-For giant battles, turn the code off before it says "Tilt screen vertically". Holding R does nothing there.
+
+That should prevent 95% of all crashes. The other 5% are going to be caused by either pausing or cutscenes, but those seem to be pretty rare. Also, it might just crash anyway for no good reason.
+
+Point is, it's extremely difficult to play this at 60fps and not have a ton of anxiety, since the game doesn't allow you to save anywhere.
+
+Click to expand...
+
+ [/QUOTE]
+I will look into this later. Maybe adding more conditional codes will fix this.
+
+===== post-9320065 | MarioKartFan | 2021-01-06T22:15:04+0000 | https://gbatemp.net/threads/60-fps-patches-cheat-codes-releases-and-discussion.550527/post-9320065
+I had one crash in BIS in like ten hours of play time. It was during a giant bowser scene. Seemed to work really well otherwise.
+
+===== post-9320180 | BlazeHeatnix | 2021-01-07T00:17:49+0000 | https://gbatemp.net/threads/60-fps-patches-cheat-codes-releases-and-discussion.550527/post-9320180
+[QUOTE]
+
+				MarioKartFan said:
+
+			I had one crash in BIS in like ten hours of play time. It was during a giant bowser scene. Seemed to work really well otherwise.
+
+Click to expand...
+
+ [/QUOTE]
+
+I know it isn't just me, since in the patch showcase video, other people are reporting multiple crashes as well for the same reason: battle and menu transitions. It's inconsistent since there was a large span of time in my last playthrough where it didn't crash once, but when I booted it up the next day, I got two in a row, without a giant battle.
+
+===== post-9320576 | Hazerou | 2021-01-07T10:05:45+0000 | https://gbatemp.net/threads/60-fps-patches-cheat-codes-releases-and-discussion.550527/post-9320576
+Ok, don't know if this will help fix the crashing but, here it is;
+
+Mario & Luigi: Bowsers Inside Story + Bowser Jrs Journey
+
+USA 00040000001D1400
+
+EUR 00040000001D1500
+
+		Code:
+
+[CODE]
+[60FPS (Hold R button for default 30FPS) v1.2 FIX]
+D3000000 30000000
+6000007C 00000001
+50000074 01000101
+5000007C 00000101
+20000075 00000000
+D2000000 00000000
+D3000000 30000000
+620DA3B4 00000001
+520DA3AC 01000101
+520DA3B4 00000101
+220DA3AD 00000000
+D2000000 00000000
+D3000000 30000000
+6000006C 00000001
+50000064 01000101
+5000006C 00000101
+20000065 01000000
+D2000000 00000000
+D3000000 30000000
+6000004C 00000001
+50000044 01000101
+5000004C 00000101
+20000045 00000000
+D2000000 00000000
+DD000000 00000100
+D3000000 30000000
+6000007C 00000101
+50000074 01000001
+5000007C 00000001
+20000075 00000001
+D2000000 00000000
+DD000000 00000100
+D3000000 30000000
+620DA3B4 00000101
+520DA3AC 01000001
+520DA3B4 00000001
+220DA3AD 00000001
+D2000000 00000000
+DD000000 00000100
+D3000000 30000000
+6000006C 00000101
+50000064 01000001
+5000006C 00000001
+20000065 01000001
+D2000000 00000000
+DD000000 00000100
+D3000000 30000000
+6000004C 00000101
+50000044 01000001
+5000004C 00000001
+20000045 00000001
+D2000000 00000000
+
+[60FPS v1.2 FIX]
+D3000000 30000000
+6000007C 00000001
+50000074 01000101
+5000007C 00000101
+20000075 00000000
+D2000000 00000000
+D3000000 30000000
+620DA3B4 00000001
+520DA3AC 01000101
+520DA3B4 00000101
+220DA3AD 00000000
+D2000000 00000000
+D3000000 30000000
+6000006C 00000001
+50000064 01000101
+5000006C 00000101
+20000065 01000000
+D2000000 00000000
+D3000000 30000000
+6000004C 00000001
+50000044 01000101
+5000004C 00000101
+20000045 00000000
+D2000000 00000000
+[/CODE]
+
+Just let me know if it works, ill add it to the main post once it is.
+
+===== post-9320775 | CraftyCamerupt | 2021-01-07T15:09:24+0000 | https://gbatemp.net/threads/60-fps-patches-cheat-codes-releases-and-discussion.550527/post-9320775
+I will look into it and start a new game to see if there is any crashes. Thanks for the code though. The previous code mainly worked wonders on citra, but not the hardware too well.
+
+===== post-9320851 | BlazeHeatnix | 2021-01-07T16:38:30+0000 | https://gbatemp.net/threads/60-fps-patches-cheat-codes-releases-and-discussion.550527/post-9320851
+The strange part is that according to Shay, the guy who discovered the code, he's had no crashes whatsoever when using it. A couple of other people claim to have no crashes at all. And yet I, and several other people using the same methods, the same Luma settings, and the same 3DS version, are getting crashes left and right.
+
+Anyway, I'll test this sometime today and see what happens.
+
+===== post-9320873 | CraftyCamerupt | 2021-01-07T16:53:46+0000 | https://gbatemp.net/threads/60-fps-patches-cheat-codes-releases-and-discussion.550527/post-9320873
+[QUOTE]
+
+				CraftyCamerupt said:
+
+			I will look into it and start a new game to see if there is any crashes. Thanks for the code though. The previous code mainly worked wonders on citra, but not the hardware too well.
+
+Click to expand...
+
+ [/QUOTE]
+
+I tested it out for a bit, started a new game, and a little bit after the first Mibus fight in which you have to lose, the game crashes. I honestly don't know on why this happened, but I can personally say that the exact crash happened after I was fighting my third Chubby Goomba.
+
+===== post-9320885 | BlazeHeatnix | 2021-01-07T17:06:04+0000 | https://gbatemp.net/threads/60-fps-patches-cheat-codes-releases-and-discussion.550527/post-9320885
+[QUOTE]
+
+				CraftyCamerupt said:
+
+			I tested it out for a bit, started a new game, and a little bit after the first Mibus fight in which you have to lose, the game crashes. I honestly don't know on why this happened, but I can personally say that the exact crash happened after I was fighting my third Chubby Goomba.
+
+Click to expand...
+
+ [/QUOTE]
+
+Same thing happened to me, at the same location, during my first playthrough with the original code.
+
+===== post-9320889 | CraftyCamerupt | 2021-01-07T17:09:58+0000 | https://gbatemp.net/threads/60-fps-patches-cheat-codes-releases-and-discussion.550527/post-9320889
+[QUOTE]
+
+				BlazeHeatnix said:
+
+			Same thing happened to me, at the same location, during my first playthrough with the original code.
+
+Click to expand...
+
+ [/QUOTE]
+
+I was trying out the new code for the game. This is really odd to me because the original code and the new code don't seem to work well with the game.
+
+===== post-9321249 | Hazerou | 2021-01-07T22:21:51+0000 | https://gbatemp.net/threads/60-fps-patches-cheat-codes-releases-and-discussion.550527/post-9321249
+Ok, so for me, I'm using CTRPF Plugin and it crashes on Giant Battles using or without using the 60 FPS cheat.
+
+Using Luma 9.0 (plugin loader)
+
+N3DS XL : Sys 11.6.0-39U
+
+Edit : The game won't crash if I don't use the CTRPF Plugin.
+
+===== post-9321259 | BlazeHeatnix | 2021-01-07T22:37:09+0000 | https://gbatemp.net/threads/60-fps-patches-cheat-codes-releases-and-discussion.550527/post-9321259
+[QUOTE]
+
+				Hazerou said:
+
+			Ok, so for me, I'm using CTRPF Plugin and it crashes on Giant Battles using or without using the 60 FPS cheat.
+
+Using Luma 9.0 (plugin loader)
+
+N3DS XL : Sys 11.6.0-39U
+
+Edit : The game won't crash if I don't use the CTRPF Plugin.
+
+Click to expand...
+
+ [/QUOTE]
+
+I'm not using the CTRPF plugin, or any plugins. I'm just using Luma's built-in cheat engine.
+
+Incidentally, I've tried this with both the basic 10.2.1, and the 3GX Loader Edition. Both have the same result.
+
+===== post-9321268 | Hazerou | 2021-01-07T22:46:20+0000 | https://gbatemp.net/threads/60-fps-patches-cheat-codes-releases-and-discussion.550527/post-9321268
+[QUOTE]
+
+				BlazeHeatnix said:
+
+			I'm not using the CTRPF plugin, or any plugins. I'm just using Luma's built-in cheat engine.
+
+Incidentally, I've tried this with both the basic 10.2.1, and the 3GX Loader Edition. Both have the same result.
+
+Click to expand...
+
+ [/QUOTE]
+My Luma also has a built-in cheat engine but the cheats I want to activate are not staying active. For example : activating max money will max the money of the game but it doesn't freeze the value of it. That's why I don't use it much.
+
+===== post-9321310 | CraftyCamerupt | 2021-01-07T23:32:13+0000 | https://gbatemp.net/threads/60-fps-patches-cheat-codes-releases-and-discussion.550527/post-9321310
+I do use the Luma built-in cheat engine as my main way for using these types of codes. From what I understand, the only programs that you can use cheats for in games are the one mentioned above, The 3GX Loader Edition and the CTRPF Plugin. Is there like any other ways to use the codes in game besides these methods?
+
+===== post-9325144 | Hazerou | 2021-01-11T09:38:37+0000 | https://gbatemp.net/threads/60-fps-patches-cheat-codes-releases-and-discussion.550527/post-9325144
+Added;
+
+Mario & Luigi: Bowsers Inside Story + Bowser Jrs Journey
+
+USA 00040000001D1400
+
+EUR 00040000001D1500
+
++ [60FPS (L+R) v1.2 Less Crashes]
+
++ [30 FPS (L+UP) v1.2 Less Crashes]
+
+Thanks to <https://gbatemp.net/members/367855/> @BlazeHeatnix for testing and reports.
+
+We did our best but we still can't find what's causing the crashes...
+
+===== post-9325512 | BlazeHeatnix | 2021-01-11T17:38:14+0000 | https://gbatemp.net/threads/60-fps-patches-cheat-codes-releases-and-discussion.550527/post-9325512
+This code will make it so 30fps is on by default and you'll have to hit L+R to turn on 60 whenever you switch to a new menu, the overworld, battles, or cutscenes. This might seem cumbersome, but it means you can enjoy the game without having to worry about crashes for the most part. It even works with giant battles.
+
+The only exception is the credits. If you don't toggle 30 before the credits, it will crash without fail.
+
+===== post-9558787 | Deleted User | 2021-08-20T08:14:06+0100 | https://gbatemp.net/threads/60-fps-patches-cheat-codes-releases-and-discussion.550527/post-9558787
+this code is a adjusted version of the bowser inside story usa 1.2 60fps code. It adds a delay to when the code kicks in. this is likely only works on CTRPF action replay code plugin
+
+It takes advantage of the data registers and storage registers which as far as I remember, Luma does not have in their cheat system.
+
+[60fps]
+
+D3000000 30000000
+
+50000074 01000101
+
+DF000002 00010000
+
+D4000000 00000001
+
+DF000002 00020000
+
+DFFFFFFF 00000003
+
+80000000 00000055
+
+D5000000 00000000
+
+DF000002 00020000
+
+DFFFFFFF 00000000
+
+20000075 00000000
+
+D0000000 00000000
+
+D0000000 00000000
+
+520DA3AC 01000101
+
+DF000002 00010000
+
+D4000000 00000001
+
+DF000002 00020000
+
+DFFFFFFF 00000003
+
+80000000 00000055
+
+D5000000 00000000
+
+DF000002 00020000
+
+DFFFFFFF 00000000
+
+220DA3AD 00000000
+
+D0000000 00000000
+
+D0000000 00000000
+
+50000064 01000101
+
+DF000002 00010000
+
+D4000000 00000001
+
+DF000002 00020000
+
+DFFFFFFF 00000003
+
+80000000 00000055
+
+D5000000 00000000
+
+DF000002 00020000
+
+DFFFFFFF 00000000
+
+20000065 01000000
+
+D0000000 00000000
+
+D0000000 00000000
+
+50000044 01000101
+
+DF000002 00010000
+
+D4000000 00000001
+
+DF000002 00020000
+
+DFFFFFFF 00000003
+
+80000000 00000055
+
+D5000000 00000000
+
+DF000002 00020000
+
+DFFFFFFF 00000000
+
+20000045 00000000
+
+D0000000 00000000
+
+D0000000 00000000
+
+D2000000 00000000
+
+If you want to adjust the timings, since it can be noticable regarding the switch (though the risk of crashing does increase the lower you go likely) change each instance of: 80000000 00000055
+
+more specifically, change 55 to something lower.
+
+===== post-9644396 | playsaves3 | 2021-11-01T15:31:25+0000 | https://gbatemp.net/threads/60-fps-patches-cheat-codes-releases-and-discussion.550527/post-9644396
+[...cheat list, BIS section only...]
+Spoiler: Mario & Luigi: Bowsers Inside Story + Bowser Jrs Journey
+
+USA 00040000001D1400EUR 00040000001D1500
+
+		Code:
+
+[CODE]
+[60FPS (L+R) v1.2 Less Crashes]
+DD000000 00000300
+D3000000 30000000
+6000007C 00000001
+60000044 01000101
+60000044 01000001
+50000074 01000101
+5000007C 00000101
+20000075 00000000
+D2000000 00000000
+DD000000 00000300
+D3000000 30000000
+620DA3B4 00000001
+60000044 01000101
+60000044 01000001
+60000064 01000101
+60000064 01000001
+60000074 00000300
+60000074 01000101
+60000074 01000001
+520DA3AC 01000101
+520DA3B4 00000101
+220DA3AD 00000000
+D2000000 00000000
+D3000000 30000000
+50000074 00000300
+520DA3AC 01000001
+520DA3B4 00000001
+220DA3AD 00000001
+220DA3B5 00000001
+D2000000 00000000
+D3000000 30000000
+50000064 01000101
+520DA3AC 01000001
+520DA3B4 00000001
+220DA3AD 00000001
+220DA3B5 00000001
+D2000000 00000000
+D3000000 30000000
+50000044 01000101
+520DA3AC 01000001
+520DA3B4 00000001
+220DA3AD 00000001
+220DA3B5 00000001
+D2000000 00000000
+D3000000 30000000
+50000074 01000101
+520DA3AC 01000001
+520DA3B4 00000001
+220DA3AD 00000001
+220DA3B5 00000001
+D2000000 00000000
+DD000000 00000300
+D3000000 30000000
+6000006C 00000001
+60000044 01000101
+60000044 01000001
+60000074 01000101
+60000074 01000001
+50000064 01000101
+5000006C 00000101
+20000065 01000000
+D2000000 00000000
+DD000000 00000300
+D3000000 30000000
+6000004C 00000001
+60000074 01000101
+60000074 01000001
+50000044 01000101
+5000004C 00000101
+20000045 00000000
+D2000000 00000000
+
+[30 FPS (L+UP) v1.2 Less Crashes]
+DD000000 00000240
+D3000000 30000000
+520DA3AC 01000001
+220DA3AD 00000001
+220DA3B5 00000001
+D2000000 00000000
+DD000000 00000240
+D3000000 30000000
+50000044 01000001
+20000045 00000001
+2000004D 00000001
+D2000000 00000000
+DD000000 00000240
+D3000000 30000000
+50000064 01000001
+20000065 00000001
+2000006D 00000001
+D2000000 00000000
+DD000000 00000240
+D3000000 30000000
+50000074 01000001
+20000075 00000001
+2000007D 00000001
+D2000000 00000000
+
+[60FPS (Hold R button for default 30FPS) v1.2]
+D3000000 30000000
+50000074 01000101
+20000075 00000000
+D0000000 00000000
+520DA3AC 01000101
+220DA3AD 00000000
+D0000000 00000000
+50000064 01000101
+20000065 01000000
+D0000000 00000000
+50000044 01000101
+20000045 00000000
+D0000000 00000000
+DD000000 00000100
+50000074 01000001
+20000075 00000001
+D0000000 00000000
+520DA3AC 01000001
+220DA3AD 00000001
+D0000000 00000000
+50000064 01000001
+20000065 01000001
+D0000000 00000000
+50000044 01000001
+20000045 00000001
+D0000000 00000000
+D0000000 00000000
+
+[60FPS v1.2]
+D3000000 30000000
+50000074 01000101
+20000075 00000000
+D0000000 00000000
+520DA3AC 01000101
+220DA3AD 00000000
+D0000000 00000000
+50000064 01000101
+20000065 01000000
+D0000000 00000000
+50000044 01000101
+20000045 00000000
+D0000000 00000000
+D2000000 00000000
+
+[Default 30FPS v1.2]
+D3000000 30000000
+50000074 01000001
+20000075 00000001
+D0000000 00000000
+520DA3AC 01000001
+220DA3AD 00000001
+D0000000 00000000
+50000064 01000001
+20000065 01000001
+D0000000 00000000
+50000044 01000001
+20000045 00000001
+D0000000 00000000
+D2000000 00000000
+[/CODE]
+
+Original Codes By @Shay#4684 from Discord
+
+Less Crashes by <https://gbatemp.net/members/458768/> @Hazerou
+
+		Code:
+
+[CODE]
+EUR v1.2
+
+[60FPS (L+R) v1.2 Less Crashes]
+DD000000 00000300
+D3000000 30000000
+6000007C 00000001
+60000044 01000101
+60000044 01000001
+50000074 01000101
+5000007C 00000101
+20000075 00000000
+D2000000 00000000
+DD000000 00000300
+D3000000 30000000
+620DA3B4 00000001
+60000044 01000101
+60000044 01000001
+60000064 01000101
+60000064 01000001
+60000074 00000300
+60000074 01000101
+60000074 01000001
+520DA3AC 01000101
+520DA3B4 00000101
+220DA3AD 00000000
+D2000000 00000000
+D3000000 30000000
+50000074 00000300
+520DA3AC 01000001
+520DA3B4 00000001
+220DA3AD 00000001
+220DA3B5 00000001
+D2000000 00000000
+D3000000 30000000
+50000064 01000101
+520DA3AC 01000001
+520DA3B4 00000001
+220DA3AD 00000001
+220DA3B5 00000001
+D2000000 00000000
+D3000000 30000000
+50000044 01000101
+520DA3AC 01000001
+520DA3B4 00000001
+220DA3AD 00000001
+220DA3B5 00000001
+D2000000 00000000
+D3000000 30000000
+50000074 01000101
+520DA3AC 01000001
+520DA3B4 00000001
+220DA3AD 00000001
+220DA3B5 00000001
+D2000000 00000000
+DD000000 00000300
+D3000000 30000000
+6000006C 00000001
+60000044 01000101
+60000044 01000001
+60000074 01000101
+60000074 01000001
+50000064 01000101
+5000006C 00000101
+20000065 01000000
+D2000000 00000000
+DD000000 00000300
+D3000000 30000000
+6000004C 00000001
+60000074 01000101
+60000074 01000001
+50000044 01000101
+5000004C 00000101
+20000045 00000000
+D2000000 00000000
+
+[30 FPS (L+UP) v1.2 Less Crashes]
+DD000000 00000240
+D3000000 30000000
+520DA3AC 01000001
+220DA3AD 00000001
+220DA3B5 00000001
+D2000000 00000000
+DD000000 00000240
+D3000000 30000000
+50000044 01000001
+20000045 00000001
+2000004D 00000001
+D2000000 00000000
+DD000000 00000240
+D3000000 30000000
+50000064 01000001
+20000065 00000001
+2000006D 00000001
+D2000000 00000000
+DD000000 00000240
+D3000000 30000000
+50000074 01000001
+20000075 00000001
+2000007D 00000001
+D2000000 00000000
+
+[Game Speed slower]
+D3000000 32000000
+000DBDB8 3F000000
+D2000000 00000000
+
+[Game Speed normal]
+D3000000 32000000
+000DBDB8 3F800000
+D2000000 00000000
+
+[Game Speed faster]
+D3000000 32000000
+000DBDB8 40000000
+D2000000 00000000
+
+[60FPS (Hold R button for default 30FPS) v1.2]
+D3000000 30000000
+50000074 01000101
+20000075 00000000
+D0000000 00000000
+520DA3AC 01000101
+220DA3AD 00000000
+D0000000 00000000
+50000064 01000101
+20000065 01000000
+D0000000 00000000
+50000044 01000101
+20000045 00000000
+D0000000 00000000
+DD000000 00000100
+50000074 01000001
+20000075 00000001
+D0000000 00000000
+520DA3AC 01000001
+220DA3AD 00000001
+D0000000 00000000
+50000064 01000001
+20000065 01000001
+D0000000 00000000
+50000044 01000001
+20000045 00000001
+D0000000 00000000
+D0000000 00000000
+
+[60FPS v1.2]
+D3000000 30000000
+50000074 01000101
+20000075 00000000
+D0000000 00000000
+520DA3AC 01000101
+220DA3AD 00000000
+D0000000 00000000
+50000064 01000101
+20000065 01000000
+D0000000 00000000
+50000044 01000101
+20000045 00000000
+D0000000 00000000
+D2000000 00000000
+
+[Default 30FPS v1.2]
+D3000000 30000000
+50000074 01000001
+20000075 00000001
+D0000000 00000000
+520DA3AC 01000001
+220DA3AD 00000001
+D0000000 00000000
+50000064 01000001
+20000065 01000001
+D0000000 00000000
+50000044 01000001
+20000045 00000001
+D0000000 00000000
+D2000000 00000000
+[/CODE]
+
+Game Speed Codes by <https://gbatemp.net/members/448590/> @Reshiban
+
+Original FPS Codes By @Shay#4684 from Discord
+
+Less Crashes by <https://gbatemp.net/members/458768/> @Hazerou
+
+===== post-9686529 | cloudlinkin | 2021-12-10T22:37:59+0000 | https://gbatemp.net/threads/60-fps-patches-cheat-codes-releases-and-discussion.550527/post-9686529
+Anyone know why these codes sometimes cause crashes? Running latest version of Luma on N3DSXL.
+
+[QUOTE]
+
+			An exception occurred
+
+Processor: Arm11 (core 0)
+
+Exception type: data abort
+
+Fault status: Translation - Page
+
+Click to expand...
+
+ [/QUOTE]
+
+===== post-9690304 | CinnamonMina | 2021-12-15T02:25:07+0000 | https://gbatemp.net/threads/60-fps-patches-cheat-codes-releases-and-discussion.550527/post-9690304
+[...cheat list, BIS section only...]
+Spoiler: Mario & Luigi: Bowsers Inside Story + Bowser Jrs Journey
+
+USA 00040000001D1400EUR 00040000001D1500
+
+		Code:
+
+[CODE]
+[60FPS (L+R) v1.2 Less Crashes]
+DD000000 00000300
+D3000000 30000000
+6000007C 00000001
+60000044 01000101
+60000044 01000001
+50000074 01000101
+5000007C 00000101
+20000075 00000000
+D2000000 00000000
+DD000000 00000300
+D3000000 30000000
+620DA3B4 00000001
+60000044 01000101
+60000044 01000001
+60000064 01000101
+60000064 01000001
+60000074 00000300
+60000074 01000101
+60000074 01000001
+520DA3AC 01000101
+520DA3B4 00000101
+220DA3AD 00000000
+D2000000 00000000
+D3000000 30000000
+50000074 00000300
+520DA3AC 01000001
+520DA3B4 00000001
+220DA3AD 00000001
+220DA3B5 00000001
+D2000000 00000000
+D3000000 30000000
+50000064 01000101
+520DA3AC 01000001
+520DA3B4 00000001
+220DA3AD 00000001
+220DA3B5 00000001
+D2000000 00000000
+D3000000 30000000
+50000044 01000101
+520DA3AC 01000001
+520DA3B4 00000001
+220DA3AD 00000001
+220DA3B5 00000001
+D2000000 00000000
+D3000000 30000000
+50000074 01000101
+520DA3AC 01000001
+520DA3B4 00000001
+220DA3AD 00000001
+220DA3B5 00000001
+D2000000 00000000
+DD000000 00000300
+D3000000 30000000
+6000006C 00000001
+60000044 01000101
+60000044 01000001
+60000074 01000101
+60000074 01000001
+50000064 01000101
+5000006C 00000101
+20000065 01000000
+D2000000 00000000
+DD000000 00000300
+D3000000 30000000
+6000004C 00000001
+60000074 01000101
+60000074 01000001
+50000044 01000101
+5000004C 00000101
+20000045 00000000
+D2000000 00000000
+
+[30 FPS (L+UP) v1.2 Less Crashes]
+DD000000 00000240
+D3000000 30000000
+520DA3AC 01000001
+220DA3AD 00000001
+220DA3B5 00000001
+D2000000 00000000
+DD000000 00000240
+D3000000 30000000
+50000044 01000001
+20000045 00000001
+2000004D 00000001
+D2000000 00000000
+DD000000 00000240
+D3000000 30000000
+50000064 01000001
+20000065 00000001
+2000006D 00000001
+D2000000 00000000
+DD000000 00000240
+D3000000 30000000
+50000074 01000001
+20000075 00000001
+2000007D 00000001
+D2000000 00000000
+
+[60FPS (Hold R button for default 30FPS) v1.2]
+D3000000 30000000
+50000074 01000101
+20000075 00000000
+D0000000 00000000
+520DA3AC 01000101
+220DA3AD 00000000
+D0000000 00000000
+50000064 01000101
+20000065 01000000
+D0000000 00000000
+50000044 01000101
+20000045 00000000
+D0000000 00000000
+DD000000 00000100
+50000074 01000001
+20000075 00000001
+D0000000 00000000
+520DA3AC 01000001
+220DA3AD 00000001
+D0000000 00000000
+50000064 01000001
+20000065 01000001
+D0000000 00000000
+50000044 01000001
+20000045 00000001
+D0000000 00000000
+D0000000 00000000
+
+[60FPS v1.2]
+D3000000 30000000
+50000074 01000101
+20000075 00000000
+D0000000 00000000
+520DA3AC 01000101
+220DA3AD 00000000
+D0000000 00000000
+50000064 01000101
+20000065 01000000
+D0000000 00000000
+50000044 01000101
+20000045 00000000
+D0000000 00000000
+D2000000 00000000
+
+[Default 30FPS v1.2]
+D3000000 30000000
+50000074 01000001
+20000075 00000001
+D0000000 00000000
+520DA3AC 01000001
+220DA3AD 00000001
+D0000000 00000000
+50000064 01000001
+20000065 01000001
+D0000000 00000000
+50000044 01000001
+20000045 00000001
+D0000000 00000000
+D2000000 00000000
+[/CODE]
+
+Original Codes By @Shay#4684 from Discord
+
+Less Crashes by <https://gbatemp.net/members/458768/> @Hazerou
+
+		Code:
+
+[CODE]
+EUR v1.2
+
+[60FPS (L+R) v1.2 Less Crashes]
+DD000000 00000300
+D3000000 30000000
+6000007C 00000001
+60000044 01000101
+60000044 01000001
+50000074 01000101
+5000007C 00000101
+20000075 00000000
+D2000000 00000000
+DD000000 00000300
+D3000000 30000000
+620DA3B4 00000001
+60000044 01000101
+60000044 01000001
+60000064 01000101
+60000064 01000001
+60000074 00000300
+60000074 01000101
+60000074 01000001
+520DA3AC 01000101
+520DA3B4 00000101
+220DA3AD 00000000
+D2000000 00000000
+D3000000 30000000
+50000074 00000300
+520DA3AC 01000001
+520DA3B4 00000001
+220DA3AD 00000001
+220DA3B5 00000001
+D2000000 00000000
+D3000000 30000000
+50000064 01000101
+520DA3AC 01000001
+520DA3B4 00000001
+220DA3AD 00000001
+220DA3B5 00000001
+D2000000 00000000
+D3000000 30000000
+50000044 01000101
+520DA3AC 01000001
+520DA3B4 00000001
+220DA3AD 00000001
+220DA3B5 00000001
+D2000000 00000000
+D3000000 30000000
+50000074 01000101
+520DA3AC 01000001
+520DA3B4 00000001
+220DA3AD 00000001
+220DA3B5 00000001
+D2000000 00000000
+DD000000 00000300
+D3000000 30000000
+6000006C 00000001
+60000044 01000101
+60000044 01000001
+60000074 01000101
+60000074 01000001
+50000064 01000101
+5000006C 00000101
+20000065 01000000
+D2000000 00000000
+DD000000 00000300
+D3000000 30000000
+6000004C 00000001
+60000074 01000101
+60000074 01000001
+50000044 01000101
+5000004C 00000101
+20000045 00000000
+D2000000 00000000
+
+[30 FPS (L+UP) v1.2 Less Crashes]
+DD000000 00000240
+D3000000 30000000
+520DA3AC 01000001
+220DA3AD 00000001
+220DA3B5 00000001
+D2000000 00000000
+DD000000 00000240
+D3000000 30000000
+50000044 01000001
+20000045 00000001
+2000004D 00000001
+D2000000 00000000
+DD000000 00000240
+D3000000 30000000
+50000064 01000001
+20000065 00000001
+2000006D 00000001
+D2000000 00000000
+DD000000 00000240
+D3000000 30000000
+50000074 01000001
+20000075 00000001
+2000007D 00000001
+D2000000 00000000
+
+[Game Speed slower]
+D3000000 32000000
+000DBDB8 3F000000
+D2000000 00000000
+
+[Game Speed normal]
+D3000000 32000000
+000DBDB8 3F800000
+D2000000 00000000
+
+[Game Speed faster]
+D3000000 32000000
+000DBDB8 40000000
+D2000000 00000000
+
+[60FPS (Hold R button for default 30FPS) v1.2]
+D3000000 30000000
+50000074 01000101
+20000075 00000000
+D0000000 00000000
+520DA3AC 01000101
+220DA3AD 00000000
+D0000000 00000000
+50000064 01000101
+20000065 01000000
+D0000000 00000000
+50000044 01000101
+20000045 00000000
+D0000000 00000000
+DD000000 00000100
+50000074 01000001
+20000075 00000001
+D0000000 00000000
+520DA3AC 01000001
+220DA3AD 00000001
+D0000000 00000000
+50000064 01000001
+20000065 01000001
+D0000000 00000000
+50000044 01000001
+20000045 00000001
+D0000000 00000000
+D0000000 00000000
+
+[60FPS v1.2]
+D3000000 30000000
+50000074 01000101
+20000075 00000000
+D0000000 00000000
+520DA3AC 01000101
+220DA3AD 00000000
+D0000000 00000000
+50000064 01000101
+20000065 01000000
+D0000000 00000000
+50000044 01000101
+20000045 00000000
+D0000000 00000000
+D2000000 00000000
+
+[Default 30FPS v1.2]
+D3000000 30000000
+50000074 01000001
+20000075 00000001
+D0000000 00000000
+520DA3AC 01000001
+220DA3AD 00000001
+D0000000 00000000
+50000064 01000001
+20000065 01000001
+D0000000 00000000
+50000044 01000001
+20000045 00000001
+D0000000 00000000
+D2000000 00000000
+[/CODE]
+
+Game Speed Codes by <https://gbatemp.net/members/448590/> @Reshiban
+
+Original FPS Codes By @Shay#4684 from Discord
+
+Less Crashes by <https://gbatemp.net/members/458768/> @Hazerou
+
+===== post-10093531 | Phenj | 2023-03-07T16:15:38+0000 | https://gbatemp.net/threads/60-fps-patches-cheat-codes-releases-and-discussion.550527/post-10093531
+Is it possible to make a game by default have a cheat on? I mean
+
+I want my game (Bowser inside story) to have 60fps cheat on by default. Is it possible? thx
+
+===== post-10093736 | NanashiFinal13 | 2023-03-07T20:31:37+0000 | https://gbatemp.net/threads/60-fps-patches-cheat-codes-releases-and-discussion.550527/post-10093736
+[QUOTE]
+
+				Phenj said:
+
+			Is it possible to make a game by default have a cheat on? I mean
+
+I want my game (Bowser inside story) to have 60fps cheat on by default. Is it possible? thx
+
+Click to expand...
+
+ [/QUOTE]
+ Its possible, you can use ctrpf plugin and set a cheat to auto load at starts, but keep in mind that not all the games like this, if you activate a cheat as soon as the game boot, it can crash the console.
+
+===== post-10237658 | pancha_rub | 2023-09-02T08:56:46+0100 | https://gbatemp.net/threads/60-fps-patches-cheat-codes-releases-and-discussion.550527/post-10237658
+[QUOTE]
+
+				DAVYSGAMING said:
+
+			So listen iv been following some tutorials
+
+From optantic just like to learn new stuff but when i follow everything i get this code
+
+580F0000 0C0E6648
+
+780F0000 00000F24
+
+640F0000 00000000 00000001
+
+580F0000 09189DE0
+
+780F0000 00000044
+
+640F0000 00000000 42700000
+
+this is the code i created but still 30 fps when i checked old cheat files it had something like that
+
+580F0000 0825EBA0
+
+580F1000 00000018
+
+580F1000 000000A0
+
+780F0000 00000F14
+
+640F0000 00000000 00000001
+
+580F0000 0825A0A0
+
+780F0000 00000034
+
+680F0000 00000000 00000000
+
+580F0000 08DEDD40
+
+780F0000 00000034
+
+680F0000 42700000 42700000
+
+580F0000 08DED498
+
+780F0000 00000814
+
+640F0000 00000000 42700000
+
+This one has way more lines then mine haha. So i could use some help bc i am realy interested thanks a lot already!
+
+Click to expand...
+
+ [/QUOTE]
+is this for the mario & luigi dt? because if yes the patch doesn't work
+
+===== post-10237699 | DAVYSGAMING | 2023-09-02T10:43:07+0100 | https://gbatemp.net/threads/60-fps-patches-cheat-codes-releases-and-discussion.550527/post-10237699
+[QUOTE]
+
+				pancha_rub said:
+
+			is this for the mario & luigi dt? because if yes the patch doesn't work
+
+Click to expand...
+
+ [/QUOTE]
+Started doing some more research and i did managed to make a working patch haha still working on it ;)
+
+	Post automatically merged: Sep 2, 2023
+
+[QUOTE]
+
+				DAVYSGAMING said:
+
+			Started doing some more research and i did managed to make a working patch haha still working on it ;)
+
+Click to expand...
+
+ [/QUOTE]
+Cheat*
+
+	Post automatically merged: Sep 3, 2023
+
+Here is the dragon ball kakarot cheat i created for v1.40 enjoy big thanks to the tutorials from optantic and hazerou couldn't have done it without those tutorials! Im not saying it works 100% but i tried the 60 fps vsync and it all works great even the resolutions work enjoy :D Let me know if i did a good job
+
+===== post-10380453 | PGames09 | 2024-03-16T23:22:14+0000 | https://gbatemp.net/threads/60-fps-patches-cheat-codes-releases-and-discussion.550527/post-10380453
+[...cheat list, BIS section only...]
+Spoiler: Mario & Luigi: Bowsers Inside Story + Bowser Jrs Journey
+
+USA 00040000001D1400EUR 00040000001D1500
+
+		Code:
+
+[CODE]
+[60FPS (L+R) v1.2 Less Crashes]
+DD000000 00000300
+D3000000 30000000
+6000007C 00000001
+60000044 01000101
+60000044 01000001
+50000074 01000101
+5000007C 00000101
+20000075 00000000
+D2000000 00000000
+DD000000 00000300
+D3000000 30000000
+620DA3B4 00000001
+60000044 01000101
+60000044 01000001
+60000064 01000101
+60000064 01000001
+60000074 00000300
+60000074 01000101
+60000074 01000001
+520DA3AC 01000101
+520DA3B4 00000101
+220DA3AD 00000000
+D2000000 00000000
+D3000000 30000000
+50000074 00000300
+520DA3AC 01000001
+520DA3B4 00000001
+220DA3AD 00000001
+220DA3B5 00000001
+D2000000 00000000
+D3000000 30000000
+50000064 01000101
+520DA3AC 01000001
+520DA3B4 00000001
+220DA3AD 00000001
+220DA3B5 00000001
+D2000000 00000000
+D3000000 30000000
+50000044 01000101
+520DA3AC 01000001
+520DA3B4 00000001
+220DA3AD 00000001
+220DA3B5 00000001
+D2000000 00000000
+D3000000 30000000
+50000074 01000101
+520DA3AC 01000001
+520DA3B4 00000001
+220DA3AD 00000001
+220DA3B5 00000001
+D2000000 00000000
+DD000000 00000300
+D3000000 30000000
+6000006C 00000001
+60000044 01000101
+60000044 01000001
+60000074 01000101
+60000074 01000001
+50000064 01000101
+5000006C 00000101
+20000065 01000000
+D2000000 00000000
+DD000000 00000300
+D3000000 30000000
+6000004C 00000001
+60000074 01000101
+60000074 01000001
+50000044 01000101
+5000004C 00000101
+20000045 00000000
+D2000000 00000000
+
+[30 FPS (L+UP) v1.2 Less Crashes]
+DD000000 00000240
+D3000000 30000000
+520DA3AC 01000001
+220DA3AD 00000001
+220DA3B5 00000001
+D2000000 00000000
+DD000000 00000240
+D3000000 30000000
+50000044 01000001
+20000045 00000001
+2000004D 00000001
+D2000000 00000000
+DD000000 00000240
+D3000000 30000000
+50000064 01000001
+20000065 00000001
+2000006D 00000001
+D2000000 00000000
+DD000000 00000240
+D3000000 30000000
+50000074 01000001
+20000075 00000001
+2000007D 00000001
+D2000000 00000000
+
+[60FPS (Hold R button for default 30FPS) v1.2]
+D3000000 30000000
+50000074 01000101
+20000075 00000000
+D0000000 00000000
+520DA3AC 01000101
+220DA3AD 00000000
+D0000000 00000000
+50000064 01000101
+20000065 01000000
+D0000000 00000000
+50000044 01000101
+20000045 00000000
+D0000000 00000000
+DD000000 00000100
+50000074 01000001
+20000075 00000001
+D0000000 00000000
+520DA3AC 01000001
+220DA3AD 00000001
+D0000000 00000000
+50000064 01000001
+20000065 01000001
+D0000000 00000000
+50000044 01000001
+20000045 00000001
+D0000000 00000000
+D0000000 00000000
+
+[60FPS v1.2]
+D3000000 30000000
+50000074 01000101
+20000075 00000000
+D0000000 00000000
+520DA3AC 01000101
+220DA3AD 00000000
+D0000000 00000000
+50000064 01000101
+20000065 01000000
+D0000000 00000000
+50000044 01000101
+20000045 00000000
+D0000000 00000000
+D2000000 00000000
+
+[Default 30FPS v1.2]
+D3000000 30000000
+50000074 01000001
+20000075 00000001
+D0000000 00000000
+520DA3AC 01000001
+220DA3AD 00000001
+D0000000 00000000
+50000064 01000001
+20000065 01000001
+D0000000 00000000
+50000044 01000001
+20000045 00000001
+D0000000 00000000
+D2000000 00000000
+[/CODE]
+
+Original Codes By @Shay#4684 from Discord
+
+Less Crashes by <https://gbatemp.net/members/458768/> @Hazerou
+
+		Code:
+
+[CODE]
+EUR v1.2
+
+[60FPS (L+R) v1.2 Less Crashes]
+DD000000 00000300
+D3000000 30000000
+6000007C 00000001
+60000044 01000101
+60000044 01000001
+50000074 01000101
+5000007C 00000101
+20000075 00000000
+D2000000 00000000
+DD000000 00000300
+D3000000 30000000
+620DA3B4 00000001
+60000044 01000101
+60000044 01000001
+60000064 01000101
+60000064 01000001
+60000074 00000300
+60000074 01000101
+60000074 01000001
+520DA3AC 01000101
+520DA3B4 00000101
+220DA3AD 00000000
+D2000000 00000000
+D3000000 30000000
+50000074 00000300
+520DA3AC 01000001
+520DA3B4 00000001
+220DA3AD 00000001
+220DA3B5 00000001
+D2000000 00000000
+D3000000 30000000
+50000064 01000101
+520DA3AC 01000001
+520DA3B4 00000001
+220DA3AD 00000001
+220DA3B5 00000001
+D2000000 00000000
+D3000000 30000000
+50000044 01000101
+520DA3AC 01000001
+520DA3B4 00000001
+220DA3AD 00000001
+220DA3B5 00000001
+D2000000 00000000
+D3000000 30000000
+50000074 01000101
+520DA3AC 01000001
+520DA3B4 00000001
+220DA3AD 00000001
+220DA3B5 00000001
+D2000000 00000000
+DD000000 00000300
+D3000000 30000000
+6000006C 00000001
+60000044 01000101
+60000044 01000001
+60000074 01000101
+60000074 01000001
+50000064 01000101
+5000006C 00000101
+20000065 01000000
+D2000000 00000000
+DD000000 00000300
+D3000000 30000000
+6000004C 00000001
+60000074 01000101
+60000074 01000001
+50000044 01000101
+5000004C 00000101
+20000045 00000000
+D2000000 00000000
+
+[30 FPS (L+UP) v1.2 Less Crashes]
+DD000000 00000240
+D3000000 30000000
+520DA3AC 01000001
+220DA3AD 00000001
+220DA3B5 00000001
+D2000000 00000000
+DD000000 00000240
+D3000000 30000000
+50000044 01000001
+20000045 00000001
+2000004D 00000001
+D2000000 00000000
+DD000000 00000240
+D3000000 30000000
+50000064 01000001
+20000065 00000001
+2000006D 00000001
+D2000000 00000000
+DD000000 00000240
+D3000000 30000000
+50000074 01000001
+20000075 00000001
+2000007D 00000001
+D2000000 00000000
+
+[Game Speed slower]
+D3000000 32000000
+000DBDB8 3F000000
+D2000000 00000000
+
+[Game Speed normal]
+D3000000 32000000
+000DBDB8 3F800000
+D2000000 00000000
+
+[Game Speed faster]
+D3000000 32000000
+000DBDB8 40000000
+D2000000 00000000
+
+[60FPS (Hold R button for default 30FPS) v1.2]
+D3000000 30000000
+50000074 01000101
+20000075 00000000
+D0000000 00000000
+520DA3AC 01000101
+220DA3AD 00000000
+D0000000 00000000
+50000064 01000101
+20000065 01000000
+D0000000 00000000
+50000044 01000101
+20000045 00000000
+D0000000 00000000
+DD000000 00000100
+50000074 01000001
+20000075 00000001
+D0000000 00000000
+520DA3AC 01000001
+220DA3AD 00000001
+D0000000 00000000
+50000064 01000001
+20000065 01000001
+D0000000 00000000
+50000044 01000001
+20000045 00000001
+D0000000 00000000
+D0000000 00000000
+
+[60FPS v1.2]
+D3000000 30000000
+50000074 01000101
+20000075 00000000
+D0000000 00000000
+520DA3AC 01000101
+220DA3AD 00000000
+D0000000 00000000
+50000064 01000101
+20000065 01000000
+D0000000 00000000
+50000044 01000101
+20000045 00000000
+D0000000 00000000
+D2000000 00000000
+
+[Default 30FPS v1.2]
+D3000000 30000000
+50000074 01000001
+20000075 00000001
+D0000000 00000000
+520DA3AC 01000001
+220DA3AD 00000001
+D0000000 00000000
+50000064 01000001
+20000065 01000001
+D0000000 00000000
+50000044 01000001
+20000045 00000001
+D0000000 00000000
+D2000000 00000000
+[/CODE]
+
+Game Speed Codes by <https://gbatemp.net/members/448590/> @Reshiban
+
+Original FPS Codes By @Shay#4684 from Discord
+
+Less Crashes by <https://gbatemp.net/members/458768/> @Hazerou
+
+===== post-10448252 | DewottMaster | 2024-06-29T14:55:24+0100 | https://gbatemp.net/threads/60-fps-patches-cheat-codes-releases-and-discussion.550527/post-10448252
+When using the 60fps code for "Mario & Luigi: Bowser's Inside Story + Bowser Jr's Journey" , when I enter/leave a battle or open the menu the game goes back to 30fps and I need to activate the code again each time. Is there any at all fixes for this?
+
+===== post-10660899 | NiteDumper | 2025-05-28T17:00:31+0100 | https://gbatemp.net/threads/60-fps-patches-cheat-codes-releases-and-discussion.550527/post-10660899
+Ey, how come all the cheat codes for mario and luigi bowsers inside story dx eur work EXCEPT for the ones that crash the game less often?
+
+===== post-10660933 | moomeow96 | 2025-05-28T17:50:16+0100 | https://gbatemp.net/threads/60-fps-patches-cheat-codes-releases-and-discussion.550527/post-10660933
+[QUOTE]
+
+				NiteDumper said:
+
+			Ey, how come all the cheat codes for mario and luigi bowsers inside story dx eur work EXCEPT for the ones that crash the game less often?
+
+Click to expand...
+
+ [/QUOTE]
+Typically, there's no crashes. Just don't fight Dark Star X unless you're extremely overleveled...
+
+	Post automatically merged: May 28, 2025
+
+[QUOTE]
+
+				Maeson said:
+
+			Out of curiosity, is there a code (not here, at least) to limit fps to 30 for Luigi's Mansion 2? Is it feasible?
+
+I ask because it'd be nice to have it more stable instead of jumping all around, but I haven't seen any code such as that on the net.
+
+Click to expand...
+
+ [/QUOTE]
+Assuming you're using emulator, might be an emulator issue. What are you using, and if emulator, which one?
+
+	Post automatically merged: May 28, 2025
+
+[QUOTE]
+
+				Joom said:
+
+			That likely won't ever happen if this one is anything like the N64 version. The game's physics are tied to the frames, so the entirety of it has to be sped up to compensate. This is why codes for the N64 stop at 30, because 60 is practically unplayable. Your best bet is going to be hoping that somebody ports one of the decomp projects to the 3DS, and there's a rather small chance of that happening, unfortunately.
+
+Click to expand...
+
+ [/QUOTE]
+If that's true, then imagine 120 FPS 💀
+
+===== post-10662685 | NiteDumper | 2025-05-30T15:47:25+0100 | https://gbatemp.net/threads/60-fps-patches-cheat-codes-releases-and-discussion.550527/post-10662685
+[QUOTE]
+
+				moomeow96 said:
+
+			Typically, there's no crashes. Just don't fight Dark Star X unless you're extremely overleveled...
+
+	Post automatically merged: May 28, 2025
+
+Assuming you're using emulator, might be an emulator issue. What are you using, and if emulator, which one?
+
+	Post automatically merged: May 28, 2025
+
+If that's true, then imagine 120 FPS 💀
+
+Click to expand...
+
+ [/QUOTE]
+Naw I hit one crash when I started a battle in dimble wood and now I'm scared to try again in case I lose more than 5 minutes of progress

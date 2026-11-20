@@ -1,0 +1,50 @@
+// FUNC 0x002a1acc FUN_002a1acc (static)
+//   size 0xe4 | callers(1) 0x0028b67c
+
+void FUN_002a1acc(float param_1,int *param_2)
+
+{
+  float fVar1;
+  int *piVar2;
+  int iVar3;
+  void *pvVar4;
+  int *piVar5;
+  bool bVar6;
+  
+  piVar2 = (int *)param_2[1];
+  while (piVar2 != param_2) {
+    fVar1 = param_1;
+    if ((float)piVar2[0x17] != -INFINITY) {
+      fVar1 = (float)piVar2[0x17];
+    }
+    FUN_00249d74(param_1,piVar2 + 5);
+    MoveFBase::update((MoveFBase *)(piVar2 + 0x19),param_1);
+    if (*(char *)(piVar2[6] + 0xe) != '\0') {
+      FUN_00340e5c(piVar2[0x1a],piVar2 + 5,0);
+    }
+    iVar3 = SndSeCtrl::isValid((SndSeCtrl *)(piVar2 + 5));
+    param_1 = fVar1;
+    if (iVar3 == 0) {
+      piVar5 = (int *)piVar2[1];
+      if (piVar5 != piVar2) {
+        *(int **)(*piVar2 + 4) = piVar5;
+        *piVar5 = *piVar2;
+        if (piVar2 != (int *)0x0) {
+          *piVar2 = (int)piVar2;
+          piVar2[1] = (int)piVar2;
+        }
+      }
+      bVar6 = piVar2 != (int *)&SupervisorCall;
+      piVar2 = piVar5;
+      if (bVar6) {
+        pvVar4 = (void *)FUN_0022e408();
+        operator_delete(pvVar4);
+      }
+    }
+    else {
+      piVar2 = (int *)piVar2[1];
+    }
+  }
+  return;
+}
+

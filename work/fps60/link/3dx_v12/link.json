@@ -1,0 +1,1214 @@
+{
+ "game": "3dx_v12",
+ "base0": 268435456,
+ "stride": 8388608,
+ "modules": {
+  "AttackMiniGame": {
+   "file": "romf2/RO/AttackMiniGame.cro",
+   "base": 268435456,
+   "size": 61440,
+   "bss": [
+    268496896,
+    56
+   ],
+   "segments": [
+    {
+     "index": 0,
+     "type": "text",
+     "addr": 268435840,
+     "size": 31140
+    },
+    {
+     "index": 1,
+     "type": "rodata",
+     "addr": 268468224,
+     "size": 4092
+    },
+    {
+     "index": 2,
+     "type": "data",
+     "addr": 268494264,
+     "size": 276
+    },
+    {
+     "index": 3,
+     "type": "bss",
+     "addr": 268496896,
+     "size": 24
+    },
+    {
+     "index": 4,
+     "type": "text",
+     "addr": 0,
+     "size": 0
+    }
+   ],
+   "exports": {
+    "EntryTask": 268437416,
+    "nnroControlObject_": 268466568
+   },
+   "onload": 4294967295,
+   "onexit": 4294967295
+  },
+  "BCat": {
+   "file": "romf2/RO/BCat.cro",
+   "base": 276824064,
+   "size": 40960,
+   "bss": [
+    276865024,
+    56
+   ],
+   "segments": [
+    {
+     "index": 0,
+     "type": "text",
+     "addr": 276824448,
+     "size": 14376
+    },
+    {
+     "index": 1,
+     "type": "rodata",
+     "addr": 276840448,
+     "size": 4592
+    },
+    {
+     "index": 2,
+     "type": "data",
+     "addr": 276862712,
+     "size": 168
+    },
+    {
+     "index": 3,
+     "type": "bss",
+     "addr": 276865024,
+     "size": 24
+    },
+    {
+     "index": 4,
+     "type": "text",
+     "addr": 0,
+     "size": 0
+    }
+   ],
+   "exports": {
+    "EntryTask": 276825384,
+    "nnroControlObject_": 276838412
+   },
+   "onload": 4294967295,
+   "onexit": 4294967295
+  },
+  "Battle": {
+   "file": "romf2/RO/Battle.cro",
+   "base": 285212672,
+   "size": 536576,
+   "bss": [
+    285749248,
+    148
+   ],
+   "segments": [
+    {
+     "index": 0,
+     "type": "text",
+     "addr": 285213056,
+     "size": 382452
+    },
+    {
+     "index": 1,
+     "type": "rodata",
+     "addr": 285597696,
+     "size": 28968
+    },
+    {
+     "index": 2,
+     "type": "data",
+     "addr": 285747736,
+     "size": 648
+    },
+    {
+     "index": 3,
+     "type": "bss",
+     "addr": 285749248,
+     "size": 116
+    },
+    {
+     "index": 4,
+     "type": "text",
+     "addr": 0,
+     "size": 0
+    }
+   ],
+   "exports": {
+    "_ZN3btl14CreateObjScoreEjjP10MemAlcBase": 285239252,
+    "_ZN3btl14CreateObjTimerEjP10MemAlcBase": 285239320,
+    "_ZN3btl15HintListBuilder5buildEv": 285247448,
+    "_ZN3btl15HintListBuilderC1Ev": 285249060,
+    "_ZN3btl15ObjTimer_setPosEPNS_7ObjMoveERKN2nn4math4VEC3E": 285253692,
+    "_ZN3btl16ObjScore_decTurnEPNS_7ObjMoveE": 285264708,
+    "_ZN3btl16ObjScore_getTurnEPKNS_7ObjMoveE": 285264764,
+    "_ZN3btl16ObjScore_setTurnEPNS_7ObjMoveEjb": 285264772,
+    "_ZN3btl16ObjTimer_getTimeEPKNS_7ObjMoveE": 285264828,
+    "_ZN3btl16ObjTimer_isPauseEPKNS_7ObjMoveE": 285264860,
+    "_ZN3btl16ObjTimer_setTimeEPNS_7ObjMoveEf": 285264880,
+    "_ZN3btl17GetSeGroupByMonIdEj": 285290248,
+    "_ZN3btl17ObjScore_getScoreEPKNS_7ObjMoveE": 285294636,
+    "_ZN3btl18CreateChrPcDmgDownEPNS_5ChrPcE": 285303072,
+    "_ZN3btl18CreateTaskPcEscapeEP10MemAlcBase": 285303132,
+    "_ZN3btl18ObjTimer_isVisibleEPKNS_7ObjMoveE": 285315924,
+    "_ZN3btl19CreateChrMonDmgDownEPNS_6ChrMonENS_8eDmgTypeEb": 285355160,
+    "_ZN3btl19CreateChrMonDmgPoseEPNS_6ChrMonENS_8eDmgTypeENS_11eHitDirTypeE": 285355288,
+    "_ZN3btl19CreateChrPcCmdSpAtkEPNS_5ChrPcEt18eDBPcAtkDifficulty": 285355436,
+    "_ZN3btl19ObjScore_setBaseClsEPNS_7ObjMoveE": 285356080,
+    "_ZN3btl19ObjTimer_pauseTimerEPNS_7ObjMoveE": 285356092,
+    "_ZN3btl19ObjTimer_setVisibleEPNS_7ObjMoveEb": 285356108,
+    "_ZN3btl20ChrPcDmgAbnEntryDoku15InstantNoMotionEPNS_5ChrPcE": 285369700,
+    "_ZN3btl20ChrPcDmgAbnEntryKaze15InstantNoMotionEPNS_5ChrPcE": 285370700,
+    "_ZN3btl20CreateChrPcCmdVacuumEPNS_5ChrPcE": 285371656,
+    "_ZN3btl20CreateDrawTaskInBodyEP10MemAlcBaseb": 285371744,
+    "_ZN3btl20ObjScore_getMedalObjEPNS_7ObjMoveE": 285374116,
+    "_ZN3btl20ObjTimer_getTimerSeqEPKNS_7ObjMoveENS_15eObjTimerSeqIdxE": 285374124,
+    "_ZN3btl20ObjTimer_resumeTimerEPNS_7ObjMoveE": 285374136,
+    "_ZN3btl20ObjTimer_setTimerSeqEPNS_7ObjMoveENS_15eObjTimerSeqIdxEh": 285374156,
+    "_ZN3btl6AIUnit7startAIEPKhS2_NS_7eAITypeE": 285381792,
+    "_ZN3btl6AIUnitC1EPNS_5AISysEj": 285382072,
+    "_ZN3btl38NeedExecTaskEquipFxPenaltyPostPcActionEPNS_5ChrPcE": 285390288,
+    "_ZN3btl17ObjScore_addScoreEPNS_7ObjMoveEj": 285412096,
+    "_ZN3btl21AbnormalKeepOkoriTaskC1ERN2ad8LinkListINS_20AbnormalKeepTaskBaseELj24EEEPNS_3ChrE": 285433912,
+    "_ZN3btl21CreateChrPcCmdUseItemEPNS_5ChrPcE": 285435312,
+    "_ZN3btl21CreateTaskEncountBackEPNS_5ChrPcE": 285435400,
+    "_ZN3btl21CreateTaskEncountFireEPNS_5ChrPcE": 285435480,
+    "_ZN3btl21CreateTaskEncountJumpEPNS_5ChrPcE": 285435668,
+    "_ZN3btl21CreateTaskEncountTogeEPNS_5ChrPcE": 285435828,
+    "_ZN3btl21CreateTaskResultPcWinEP10MemAlcBase": 285435976,
+    "_ZN3btl22ChrDmgAbnRecoverYakedo15InstantNoMotionEPNS_3ChrE": 285436020,
+    "_ZN3btl22ChrPcDmgAbnEntryKorobi15InstantNoMotionEPNS_5ChrPcE": 285436300,
+    "_ZN3btl22CreateChrPcCmdMiniGameEPNS_5ChrPcEt": 285436760,
+    "_ZN3btl22CreateChrPcCmdSoloFireEPNS_5ChrPcE": 285436848,
+    "_ZN3btl22CreateChrPcCmdSoloJumpEPNS_5ChrPcE": 285436952,
+    "_ZN3btl22CreateObjMiniGameMedalEjP10MemAlcBase": 285437056,
+    "_ZN3btl22CreateTaskAbnormalBaseEPNS_11AbnormalActE": 285437116,
+    "_ZN3btl22CreateTaskEncountPunchEPNS_5ChrPcE": 285437196,
+    "_ZN3btl22CreateTaskResultPcLoseEP10MemAlcBase": 285437380,
+    "_ZN3btl23CreateChrCmdPcCmdSelectEP10MemAlcBasePNS_5ChrPcEb": 285449296,
+    "_ZN3btl23CreateChrPcCmdSoloPunchEPNS_5ChrPcE": 285449356,
+    "_ZN3btl23CreateChrPcDmgCarryFallEPNS_5ChrPcE": 285449460,
+    "_ZN3btl23CreateTaskEncountHammerEPNS_5ChrPcE": 285449576,
+    "_ZN3btl24ChrPcDmgAbnRecoverKorobi15InstantNoMotionEPNS_5ChrPcE": 285456340,
+    "_ZN3btl24CreateChrPcCmdSoloHammerEPNS_5ChrPcE": 285457004,
+    "_ZN3btl24CreateChrPcDmgPoseNormalEPNS_5ChrPcENS_8eDmgTypeENS_11eHitDirTypeEb": 285457108,
+    "_ZN3btl25ChrDmgAbnRecoverMemawashi15InstantNoMotionEPNS_3ChrE": 285461104,
+    "_ZN3btl25CreateChrPcCmdEqFxRebirthEPNS_5ChrPcE": 285462284,
+    "_ZN3btl25CreateTaskEncountStandardEPNS_5ChrPcE": 285462376,
+    "_ZN3btl26CreateChrDmgAbnEntryKorobiEPNS_5ChrPcE": 285468968,
+    "_ZN3btl26CreateChrDmgAbnRecoverDokuEPNS_5ChrPcENS_6eAbnIdE": 285469108,
+    "_ZN3btl26CreateChrDmgAbnRecoverKazeEPNS_5ChrPcENS_6eAbnIdE": 285469244,
+    "_ZN3btl26CreateChrPcDmgAbnEntryDokuEPNS_5ChrPcENS_6eAbnIdE": 285469312,
+    "_ZN3btl26CreateChrPcDmgAbnEntryKazeEPNS_5ChrPcENS_6eAbnIdE": 285469380,
+    "_ZN3btl26CreateTaskPartyDeadEmotionEv": 285469448,
+    "_ZN3btl26ObjMiniGameMedal_disappearEPNS_7ObjMoveE": 285469500,
+    "_ZN3btl26ObjTimer_getBlinkStartTimeEPKNS_7ObjMoveE": 285469564,
+    "_ZN3btl26ObjTimer_setBlinkStartTimeEPNS_7ObjMoveEf": 285469576,
+    "_ZN3btl28CreateChrDmgAbnRecoverYakedoEPNS_5ChrPcE": 285475864,
+    "_ZN3btl28CreateTaskAbnormalDokuUpdateEPNS_11AbnormalActE": 285475924,
+    "_ZN3btl28CreateTaskAbnormalEntryOkoriEPNS_8ChrKoopaE": 285475984,
+    "_ZN3btl28CreateTaskAbnormalKazeUpdateEPNS_11AbnormalActE": 285476104,
+    "_ZN3btl28CreateTaskChrMonInstantDeathEPNS_6ChrMonEfPNS_3ChrEj": 285476224,
+    "_ZN3btl28CreateTaskPartyCarryOnActionEj": 285476384,
+    "_ZN3btl29CreateTaskPartyCarryOffActionEv": 285476756,
+    "_ZN3btl30CreateChrPcDmgAbnRecoverKorobiEPNS_5ChrPcE": 285476868,
+    "_ZN3btl30CreateTaskAbnormalRecoverOkoriEPNS_8ChrKoopaE": 285476928,
+    "_ZN3btl30CreateTaskAbnormalYakedoUpdateEPNS_11AbnormalActE": 285477080,
+    "_ZN3btl30CreateTaskNotifyNewBattleGuideEv": 285477276,
+    "_ZN3btl30ObjMiniGameMedal_GetMedalScoreEjNS_14eMiniGameMedalE": 285477400,
+    "_ZN3btl31CreateTaskAbnormalEntryHissatsuEPNS_11AbnormalActE": 285479572,
+    "_ZN3btl32CreateChrPcDmgSpikeStompReactionEPNS_5ChrPcEbRKNS_12ChrDmgResultE": 285479692,
+    "_ZN3btl33CreateChrPcDmgAbnRecoverMemawashiEPNS_5ChrPcE": 285480240,
+    "_ZN3btl35ChrDmgAbnEntryYakedoInstantNoMotionEPNS_3ChrE": 285480300,
+    "_ZN3btl36CreateTaskEquipFxPenaltyPostPcActionEP10MemAlcBasePNS_5ChrPcE": 285480304,
+    "_ZN3btl36ObjMiniGameMedal_GetMedalAnimeDataNoEj": 285480560,
+    "_ZN3btl38ChrDmgAbnEntryMemawashiInstantNoMotionEPNS_3ChrE": 285480628,
+    "_ZN3btl38CreateTaskNotifyColosseumTurnLimitOverEv": 285480632,
+    "_ZN3btl5AISys10startAtkAIEjPKv": 285488464,
+    "_ZN3btl5AISys10startCmdAIEjPKvjNS_7eAITypeEPNS_6AIUnitE": 285488520,
+    "_ZN3btl5AISys10startScnAIEPNS_6AIUnitEPKv": 285488552,
+    "_ZN3btl5AISys12clearFrmInfoEv": 285505460,
+    "_ZN3btl5AISys14clearAttackRegEv": 285528124,
+    "_ZN3btl5AISys14startOneShotAIEjPKvjNS_7eAITypeE": 285528244,
+    "_ZN3btl5AISys17GetCodeOfsByLabelEPKvNS_12eAILabelTypeE": 285539128,
+    "_ZN3btl5AISys4initEPNS_4MainEP10MemAlcBase": 285566876,
+    "_ZN3btl5AISys6execAIEPNS_6AIUnitEb": 285567752,
+    "_ZN3btl5AISysC1Ev": 285579832,
+    "_ZN3btl6AIUnit11setBootInfoEPKS0_": 285580484,
+    "_ZN3btl6AIUnit14setReserveInfoEPKS0_PKhS4_": 285580552,
+    "_ZN3btl6AIUnit16clearReserveInfoEv": 285580640,
+    "nnroControlObject_": 285594768,
+    "gBtlGuideData": 285613440,
+    "gAtkGuideData": 285613920,
+    "gBtlGuideDataNum": 285747736,
+    "gAtkGuideDataNum": 285747740
+   },
+   "onload": 4294967295,
+   "onexit": 4294967295
+  },
+  "Colosseum": {
+   "file": "romf2/RO/Colosseum.cro",
+   "base": 293601280,
+   "size": 86016,
+   "bss": [
+    293687296,
+    116
+   ],
+   "segments": [
+    {
+     "index": 0,
+     "type": "text",
+     "addr": 293601664,
+     "size": 48556
+    },
+    {
+     "index": 1,
+     "type": "rodata",
+     "addr": 293650432,
+     "size": 5568
+    },
+    {
+     "index": 2,
+     "type": "data",
+     "addr": 293684200,
+     "size": 280
+    },
+    {
+     "index": 3,
+     "type": "bss",
+     "addr": 293687296,
+     "size": 84
+    },
+    {
+     "index": 4,
+     "type": "text",
+     "addr": 0,
+     "size": 0
+    }
+   ],
+   "exports": {
+    "EntryTask": 293603400,
+    "nnroControlObject_": 293648872
+   },
+   "onload": 4294967295,
+   "onexit": 4294967295
+  },
+  "Field": {
+   "file": "romf2/RO/Field.cro",
+   "base": 301989888,
+   "size": 16384,
+   "bss": [
+    302006272,
+    32
+   ],
+   "segments": [
+    {
+     "index": 0,
+     "type": "text",
+     "addr": 301990272,
+     "size": 3924
+    },
+    {
+     "index": 1,
+     "type": "rodata",
+     "addr": 301998080,
+     "size": 636
+    },
+    {
+     "index": 2,
+     "type": "data",
+     "addr": 302004780,
+     "size": 4
+    },
+    {
+     "index": 3,
+     "type": "text",
+     "addr": 0,
+     "size": 0
+    },
+    {
+     "index": 4,
+     "type": "text",
+     "addr": 0,
+     "size": 0
+    }
+   ],
+   "exports": {
+    "CreateStaffrollCtrl": 301990464,
+    "_ZN3fld13StaffrollCtrl4initEPNS_6SystemEP10MemAlcBasej": 301990824,
+    "_ZN3fld13StaffrollCtrl6updateEv": 301992332,
+    "_ZNK3fld13StaffrollCtrl8isFinishEv": 301993984,
+    "nnroControlObject_": 301994024
+   },
+   "onload": 4294967295,
+   "onexit": 4294967295
+  },
+  "HugeBattle": {
+   "file": "romf2/RO/HugeBattle.cro",
+   "base": 310378496,
+   "size": 1871872,
+   "bss": [
+    312250368,
+    297520
+   ],
+   "segments": [
+    {
+     "index": 0,
+     "type": "text",
+     "addr": 310378880,
+     "size": 1445556
+    },
+    {
+     "index": 1,
+     "type": "rodata",
+     "addr": 311828480,
+     "size": 99504
+    },
+    {
+     "index": 2,
+     "type": "data",
+     "addr": 312239648,
+     "size": 6676
+    },
+    {
+     "index": 3,
+     "type": "bss",
+     "addr": 312250368,
+     "size": 295104
+    },
+    {
+     "index": 4,
+     "type": "text",
+     "addr": 0,
+     "size": 0
+    }
+   ],
+   "exports": {
+    "EntryTask": 310383836,
+    "nnroControlObject_": 311726724
+   },
+   "onload": 4294967295,
+   "onexit": 4294967295
+  },
+  "KJGuide": {
+   "file": "romf2/RO/KJGuide.cro",
+   "base": 318767104,
+   "size": 12288,
+   "bss": [
+    318779392,
+    32
+   ],
+   "segments": [
+    {
+     "index": 0,
+     "type": "text",
+     "addr": 318767488,
+     "size": 172
+    },
+    {
+     "index": 1,
+     "type": "rodata",
+     "addr": 318771200,
+     "size": 2436
+    },
+    {
+     "index": 2,
+     "type": "data",
+     "addr": 318776728,
+     "size": 20
+    },
+    {
+     "index": 3,
+     "type": "text",
+     "addr": 0,
+     "size": 0
+    },
+    {
+     "index": 4,
+     "type": "text",
+     "addr": 0,
+     "size": 0
+    }
+   ],
+   "exports": {
+    "nnroControlObject_": 318767488,
+    "gKJMenuGuideData": 318771200,
+    "gKJBtlGuideData": 318771440,
+    "gKJAtcGuideData": 318771680,
+    "gKJCmdGuideData": 318772096,
+    "gKJMenuGuideDataNum": 318776728,
+    "gKJBtlGuideDataNum": 318776732,
+    "gKJAtcGuideDataNum": 318776736,
+    "gKJCmdGuideDataNum": 318776740
+   },
+   "onload": 4294967295,
+   "onexit": 4294967295
+  },
+  "KJMenu": {
+   "file": "romf2/RO/KJMenu.cro",
+   "base": 327155712,
+   "size": 401408,
+   "bss": [
+    327557120,
+    104
+   ],
+   "segments": [
+    {
+     "index": 0,
+     "type": "text",
+     "addr": 327156096,
+     "size": 299656
+    },
+    {
+     "index": 1,
+     "type": "rodata",
+     "addr": 327458816,
+     "size": 17500
+    },
+    {
+     "index": 2,
+     "type": "data",
+     "addr": 327554236,
+     "size": 1272
+    },
+    {
+     "index": 3,
+     "type": "bss",
+     "addr": 327557120,
+     "size": 72
+    },
+    {
+     "index": 4,
+     "type": "text",
+     "addr": 0,
+     "size": 0
+    }
+   ],
+   "exports": {
+    "EntryTask": 327159096,
+    "nnroControlObject_": 327453676
+   },
+   "onload": 4294967295,
+   "onexit": 4294967295
+  },
+  "KJRPG": {
+   "file": "romf2/RO/KJRPG.cro",
+   "base": 335544320,
+   "size": 401408,
+   "bss": [
+    335945728,
+    56
+   ],
+   "segments": [
+    {
+     "index": 0,
+     "type": "text",
+     "addr": 335544704,
+     "size": 314208
+    },
+    {
+     "index": 1,
+     "type": "rodata",
+     "addr": 335859712,
+     "size": 13104
+    },
+    {
+     "index": 2,
+     "type": "data",
+     "addr": 335943456,
+     "size": 32
+    },
+    {
+     "index": 3,
+     "type": "bss",
+     "addr": 335945728,
+     "size": 24
+    },
+    {
+     "index": 4,
+     "type": "text",
+     "addr": 0,
+     "size": 0
+    }
+   ],
+   "exports": {
+    "CreateCmdAtkAssult": 335547716,
+    "CreateCmdAtkCvr": 335547844,
+    "CreateCmdAtkFlight": 335548012,
+    "CreateCmdAtkLong": 335548140,
+    "CreateCmdAtkMissMove": 335548328,
+    "CreateCmdAtkRecoilMove": 335548372,
+    "CreateCmdDefAssult": 335548464,
+    "CreateCmdDefEvasionMove": 335548624,
+    "CreateCmdDefFlight": 335548668,
+    "CreateCmdDefKnockBackMove": 335548828,
+    "CreateCmdDefLong": 335548872,
+    "CreateCmdEtcDamage": 335549012,
+    "CreateCmdEtcDie": 335549156,
+    "CreateCmdLcTotsugekiBackMove": 335549200,
+    "CreateCmdLcTotsugekiCheerMove": 335549376,
+    "CreateCmdLcTotsugekiPreAtk": 335549420,
+    "CreateCmdLcUchikeshiReaction": 335549636,
+    "CreateCmdMLcDondokuMadStart": 335549844,
+    "CreateCmdMLcSpBreathMove": 335549888,
+    "CreateCmdMoveAdjust": 335549932,
+    "CreateCmdMoveAdjustTurn": 335549976,
+    "CreateCmdMoveForward": 335550140,
+    "CreateCmdMoveMatch": 335550184,
+    "CreateCmdMoveMatchToLeader": 335550228,
+    "CreateCmdMoveMatchToLong": 335550280,
+    "CreateCmdProdClearCall": 335550428,
+    "CreateCmdProdClearMove": 335550552,
+    "CreateCmdProdEntryAquaticChr": 335550732,
+    "CreateCmdProdJoinMove": 335550844,
+    "CreateCmdProdJoinWait": 335551056,
+    "CreateCmdProdKnockUp": 335551100,
+    "CreateCmdProdLoseMove": 335551144,
+    "CreateCmdProdMoveAdjust": 335551188,
+    "CreateCmdProdMoveY": 335551240,
+    "CreateCmdProdStomp": 335551284,
+    "CreateCmdProdWinAssistMove": 335551404,
+    "CreateCmdProdWinJump": 335551476,
+    "CreateCmdSLcDossunKnockBack": 335551588,
+    "CreateCmdSLcKoushouDispOut": 335551632,
+    "CreateCmdSLcMamoruCheer": 335551676,
+    "CreateCmdSLcMamoruLastAtk": 335551824,
+    "CreateCmdSLcMikiriParamChange": 335551868,
+    "CreateCmdSLcMikiriPreAtk": 335552004,
+    "CreateCmdSLcRallyAngerMove": 335552212,
+    "CreateCmdSLcRallyDamage": 335552256,
+    "CreateCmdSLcRallyKick": 335552460,
+    "CreateCmdSLcRallyKickMon": 335552564,
+    "CreateCmdSLcRallySetupKick": 335552744,
+    "CreateCmdSLcRallySorryMove": 335552844,
+    "CreateCmdSLcSukettoEntryAssistChr": 335552888,
+    "CreateCmdSLcThunderHit": 335553036,
+    "CreateCmdSLcThunderPanic": 335553244,
+    "CreateLeaderCmdDekaBombData": 335553368,
+    "CreateLeaderCmdKantaiData": 335553412,
+    "CreateLeaderCmdKiaiData": 335553592,
+    "CreateLeaderCmdOyatsuData": 335553684,
+    "CreateLeaderCmdTotsugekiData": 335553832,
+    "CreateLeaderCmdUchikeshiData": 335553972,
+    "CreateMonLeaderCmdDondokuData": 335554016,
+    "CreateMonLeaderCmdRemoteCtrlData": 335554112,
+    "CreateMonLeaderCmdSpBreathData": 335554176,
+    "CreateMonLeaderCmdSpDondokuData": 335554220,
+    "CreateSubLeaderCmdBaigaeshiData": 335554284,
+    "CreateSubLeaderCmdBunshinData": 335554328,
+    "CreateSubLeaderCmdDossunData": 335554472,
+    "CreateSubLeaderCmdKillerData": 335554592,
+    "CreateSubLeaderCmdKouraData": 335554732,
+    "CreateSubLeaderCmdKoushouData": 335554860,
+    "CreateSubLeaderCmdMamoruData": 335555056,
+    "CreateSubLeaderCmdMikiriData": 335555100,
+    "CreateSubLeaderCmdOdateruData": 335555244,
+    "CreateSubLeaderCmdRallyData": 335555324,
+    "CreateSubLeaderCmdRouletteData": 335555456,
+    "CreateSubLeaderCmdSukettoData": 335555616,
+    "CreateSubLeaderCmdTamanoriData": 335555720,
+    "CreateSubLeaderCmdThunderData": 335555816,
+    "CreateSubLeaderCmdYamiuchiData": 335555928,
+    "CreateSubLeaderCmdYarareruData": 335556012,
+    "CreateTaskBtlAtk": 335556124,
+    "CreateTaskBtlSp": 335556168,
+    "CreateTaskInitAssist": 335556332,
+    "CreateTaskInitJoin": 335556480,
+    "CreateTaskInitMon": 335556820,
+    "CreateTaskInitPc": 335556932,
+    "CreateTaskLdCmdDekaBomb": 335557096,
+    "CreateTaskLdCmdKantai": 335557144,
+    "CreateTaskLdCmdKiai": 335557192,
+    "CreateTaskLdCmdOyatsu": 335557308,
+    "CreateTaskLdCmdTotsugeki": 335557352,
+    "CreateTaskLdCmdTotsugekiCheerStart": 335557448,
+    "CreateTaskLdCmdUchikeshi": 335557492,
+    "CreateTaskMonLdCmdDondoku": 335557600,
+    "CreateTaskMonLdCmdRemoteCtrl": 335557684,
+    "CreateTaskMonLdCmdSpBreath": 335557800,
+    "CreateTaskMonLdCmdSpBreathWaitRet": 335557896,
+    "CreateTaskMonLdCmdSpDondoku": 335557992,
+    "CreateTaskProdClear": 335558104,
+    "CreateTaskProdCmdName": 335558148,
+    "CreateTaskProdEscape": 335558192,
+    "CreateTaskProdLastBoss": 335558336,
+    "CreateTaskProdMove": 335558380,
+    "CreateTaskProdStart": 335558424,
+    "CreateTaskProdWinLose": 335558468,
+    "CreateTaskSubLdCmdBaigaeshi": 335558512,
+    "CreateTaskSubLdCmdBunshin": 335558688,
+    "CreateTaskSubLdCmdDossun": 335558780,
+    "CreateTaskSubLdCmdKiller": 335558824,
+    "CreateTaskSubLdCmdKoura": 335558868,
+    "CreateTaskSubLdCmdKoushou": 335558912,
+    "CreateTaskSubLdCmdMamoru": 335559096,
+    "CreateTaskSubLdCmdMamoruWaitEnd": 335559192,
+    "CreateTaskSubLdCmdMikiri": 335559312,
+    "CreateTaskSubLdCmdMikiriInput": 335559396,
+    "CreateTaskSubLdCmdOdateru": 335559532,
+    "CreateTaskSubLdCmdRally": 335559576,
+    "CreateTaskSubLdCmdRoulette": 335559620,
+    "CreateTaskSubLdCmdSuketto": 335559664,
+    "CreateTaskSubLdCmdTamanori": 335559764,
+    "CreateTaskSubLdCmdThunder": 335559808,
+    "CreateTaskSubLdCmdYamiuchi": 335559904,
+    "CreateTaskSubLdCmdYarareru": 335560096,
+    "_ZN2kj10TaskBtlAtk14calcExclDfxPosERN2nn4math4VEC3E": 335562888,
+    "_ZN2kj10TaskBtlAtk14reportJudgeEstENS_9eJudgeEstE": 335563324,
+    "_ZN2kj10TaskBtlAtk15pauseSignUpdateEv": 335563940,
+    "_ZN2kj10TaskBtlAtk21initFontEstStackParamERKN2nn4math4VEC3E": 335564436,
+    "_ZN2kj10TaskBtlAtk4initEPNS_3ChrES2_": 335564668,
+    "_ZN2kj12TaskProdBase12CalcDispOutXEa": 335575824,
+    "_ZN2kj9TaskBtlSp22changePhaseTimerAppearEv": 335852948,
+    "_ZN2kj9TaskBtlSp4initENS_10eSpBtlTypeEjj": 335853468,
+    "_ZN2kj9TaskBtlSp8endForceEv": 335853736,
+    "_ZNK2kj10TaskBtlAtk14calcPearCntPosERN2nn4math4VEC3E": 335854172,
+    "_ZNK2kj10TaskBtlAtk15calcEstTotalPosERN2nn4math4VEC3E": 335854452,
+    "_ZNK2kj10TaskBtlAtk15calcStackCntPosERN2nn4math4VEC3E": 335854540,
+    "_ZNK2kj10TaskBtlAtk19calcEstPearTotalPosERN2nn4math4VEC3E": 335854760,
+    "nnroControlObject_": 335858592
+   },
+   "onload": 4294967295,
+   "onexit": 4294967295
+  },
+  "LoadMenu": {
+   "file": "romf2/RO/LoadMenu.cro",
+   "base": 343932928,
+   "size": 98304,
+   "bss": [
+    344031232,
+    248
+   ],
+   "segments": [
+    {
+     "index": 0,
+     "type": "text",
+     "addr": 343933312,
+     "size": 55736
+    },
+    {
+     "index": 1,
+     "type": "rodata",
+     "addr": 343990272,
+     "size": 6580
+    },
+    {
+     "index": 2,
+     "type": "data",
+     "addr": 344028456,
+     "size": 428
+    },
+    {
+     "index": 3,
+     "type": "bss",
+     "addr": 344031232,
+     "size": 216
+    },
+    {
+     "index": 4,
+     "type": "text",
+     "addr": 0,
+     "size": 0
+    }
+   ],
+   "exports": {
+    "EntryTask": 343935168,
+    "nnroControlObject_": 343988632
+   },
+   "onload": 4294967295,
+   "onexit": 4294967295
+  },
+  "MainMenu": {
+   "file": "romf2/RO/MainMenu.cro",
+   "base": 352321536,
+   "size": 225280,
+   "bss": [
+    352546816,
+    88
+   ],
+   "segments": [
+    {
+     "index": 0,
+     "type": "text",
+     "addr": 352321920,
+     "size": 145484
+    },
+    {
+     "index": 1,
+     "type": "rodata",
+     "addr": 352468992,
+     "size": 17548
+    },
+    {
+     "index": 2,
+     "type": "data",
+     "addr": 352542940,
+     "size": 976
+    },
+    {
+     "index": 3,
+     "type": "bss",
+     "addr": 352546816,
+     "size": 56
+    },
+    {
+     "index": 4,
+     "type": "text",
+     "addr": 0,
+     "size": 0
+    }
+   ],
+   "exports": {
+    "EntryTask": 352324712,
+    "nnroControlObject_": 352466864
+   },
+   "onload": 4294967295,
+   "onexit": 4294967295
+  },
+  "MenuGuide": {
+   "file": "romf2/RO/MenuGuide.cro",
+   "base": 360710144,
+   "size": 12288,
+   "bss": [
+    360722432,
+    32
+   ],
+   "segments": [
+    {
+     "index": 0,
+     "type": "text",
+     "addr": 360710528,
+     "size": 172
+    },
+    {
+     "index": 1,
+     "type": "rodata",
+     "addr": 360714240,
+     "size": 2176
+    },
+    {
+     "index": 2,
+     "type": "data",
+     "addr": 360719748,
+     "size": 20
+    },
+    {
+     "index": 3,
+     "type": "text",
+     "addr": 0,
+     "size": 0
+    },
+    {
+     "index": 4,
+     "type": "text",
+     "addr": 0,
+     "size": 0
+    }
+   ],
+   "exports": {
+    "nnroControlObject_": 360710528,
+    "gFldGuideData": 360714240,
+    "gFldActGuideData": 360714400,
+    "gBtlGuideData": 360714640,
+    "gAtkGuideData": 360715120,
+    "gFldGuideDataNum": 360719748,
+    "gFldActGuideDataNum": 360719752,
+    "gBtlGuideDataNum": 360719756,
+    "gAtkGuideDataNum": 360719760
+   },
+   "onload": 4294967295,
+   "onexit": 4294967295
+  },
+  "SaveLoad": {
+   "file": "romf2/RO/SaveLoad.cro",
+   "base": 369098752,
+   "size": 28672,
+   "bss": [
+    369127424,
+    56
+   ],
+   "segments": [
+    {
+     "index": 0,
+     "type": "text",
+     "addr": 369099136,
+     "size": 9504
+    },
+    {
+     "index": 1,
+     "type": "rodata",
+     "addr": 369111040,
+     "size": 2684
+    },
+    {
+     "index": 2,
+     "type": "data",
+     "addr": 369125868,
+     "size": 60
+    },
+    {
+     "index": 3,
+     "type": "bss",
+     "addr": 369127424,
+     "size": 24
+    },
+    {
+     "index": 4,
+     "type": "text",
+     "addr": 0,
+     "size": 0
+    }
+   ],
+   "exports": {
+    "_ZN9save_load11SaveLoadSys10saveFormatEv": 369100864,
+    "_ZN9save_load11SaveLoadSys13funcDrawLowerEP7CmdList": 369101012,
+    "_ZN9save_load11SaveLoadSys13funcDrawUpperEP7CmdList": 369101076,
+    "_ZN9save_load11SaveLoadSys16funcCalcLoadDataEv": 369101080,
+    "_ZN9save_load11SaveLoadSys17funcCalcCreateChrEv": 369101912,
+    "_ZN9save_load11SaveLoadSys17saveIsBusyWritingEv": 369102788,
+    "_ZN9save_load11SaveLoadSys17saveWriteInitDataEv": 369102836,
+    "_ZN9save_load11SaveLoadSysC1Ev": 369104140,
+    "_ZN9save_load11SaveLoadSysD1Ev": 369104456,
+    "_ZN9save_load12SaveDateTime4initERNS_11SaveLoadSysERN4msys4MLytEPKcS7_": 369105020,
+    "_ZN9save_load12SaveDateTime5buildERK11GameWorkPOD": 369105224,
+    "_ZN9save_load6MsgWnd4initERN4msys9MPageBaseEPKvP10MemAlcBasej": 369105472,
+    "_ZN9save_load6MsgWnd4playEPKcPKN13MessageSimple8InsParamE": 369105820,
+    "_ZN9save_load7Summary11updateInputEPKN4msys6MInputE": 369105924,
+    "_ZN9save_load7Summary4initEP10MemAlcBaseRN2ad3lyt6LayoutEPPKc": 369106108,
+    "_ZN9save_load7Summary5buildERNS_11SaveLoadSysEj": 369106396,
+    "_ZN9save_load9FilePanel4initENS0_5eModeERNS_11SaveLoadSysERN4msys4MLytEPKc": 369106884,
+    "_ZN9save_load9FilePanel5buildERK11GameWorkPOD": 369107468,
+    "nnroControlObject_": 369108468,
+    "_ZTIN9save_load11SaveLoadSysE": 369111872,
+    "_ZTIN9save_load7SummaryE": 369111884,
+    "_ZTVN9save_load7SummaryE": 369112532
+   },
+   "onload": 4294967295,
+   "onexit": 4294967295
+  },
+  "SaveMenu": {
+   "file": "romf2/RO/SaveMenu.cro",
+   "base": 377487360,
+   "size": 40960,
+   "bss": [
+    377528320,
+    56
+   ],
+   "segments": [
+    {
+     "index": 0,
+     "type": "text",
+     "addr": 377487744,
+     "size": 16872
+    },
+    {
+     "index": 1,
+     "type": "rodata",
+     "addr": 377507840,
+     "size": 2560
+    },
+    {
+     "index": 2,
+     "type": "data",
+     "addr": 377526972,
+     "size": 72
+    },
+    {
+     "index": 3,
+     "type": "bss",
+     "addr": 377528320,
+     "size": 24
+    },
+    {
+     "index": 4,
+     "type": "text",
+     "addr": 0,
+     "size": 0
+    }
+   ],
+   "exports": {
+    "EntryTask": 377488832,
+    "nnroControlObject_": 377504204
+   },
+   "onload": 4294967295,
+   "onexit": 4294967295
+  },
+  "ShopMenu": {
+   "file": "romf2/RO/ShopMenu.cro",
+   "base": 385875968,
+   "size": 139264,
+   "bss": [
+    386015232,
+    56
+   ],
+   "segments": [
+    {
+     "index": 0,
+     "type": "text",
+     "addr": 385876352,
+     "size": 85864
+    },
+    {
+     "index": 1,
+     "type": "rodata",
+     "addr": 385966080,
+     "size": 9412
+    },
+    {
+     "index": 2,
+     "type": "data",
+     "addr": 386014320,
+     "size": 900
+    },
+    {
+     "index": 3,
+     "type": "bss",
+     "addr": 386015232,
+     "size": 24
+    },
+    {
+     "index": 4,
+     "type": "text",
+     "addr": 0,
+     "size": 0
+    }
+   ],
+   "exports": {
+    "EntryTask": 385878184,
+    "nnroControlObject_": 385961352
+   },
+   "onload": 4294967295,
+   "onexit": 4294967295
+  }
+ },
+ "static_imports_bound": {
+  "_ZN2kj10TaskBtlAtk14calcExclDfxPosERN2nn4math4VEC3E": 335562888,
+  "_ZN2kj10TaskBtlAtk14reportJudgeEstENS_9eJudgeEstE": 335563324,
+  "_ZN2kj10TaskBtlAtk15pauseSignUpdateEv": 335563940,
+  "_ZN2kj10TaskBtlAtk21initFontEstStackParamERKN2nn4math4VEC3E": 335564436,
+  "_ZN2kj10TaskBtlAtk4initEPNS_3ChrES2_": 335564668,
+  "_ZN2kj12TaskProdBase12CalcDispOutXEa": 335575824,
+  "_ZN2kj9TaskBtlSp22changePhaseTimerAppearEv": 335852948,
+  "_ZN2kj9TaskBtlSp4initENS_10eSpBtlTypeEjj": 335853468,
+  "_ZN2kj9TaskBtlSp8endForceEv": 335853736,
+  "_ZN3btl14CreateObjScoreEjjP10MemAlcBase": 285239252,
+  "_ZN3btl14CreateObjTimerEjP10MemAlcBase": 285239320,
+  "_ZN3btl15HintListBuilder5buildEv": 285247448,
+  "_ZN3btl15HintListBuilderC1Ev": 285249060,
+  "_ZN3btl16ObjScore_decTurnEPNS_7ObjMoveE": 285264708,
+  "_ZN3btl16ObjScore_getTurnEPKNS_7ObjMoveE": 285264764,
+  "_ZN3btl16ObjScore_setTurnEPNS_7ObjMoveEjb": 285264772,
+  "_ZN3btl17GetSeGroupByMonIdEj": 285290248,
+  "_ZN3btl17ObjScore_getScoreEPKNS_7ObjMoveE": 285294636,
+  "_ZN3btl18CreateChrPcDmgDownEPNS_5ChrPcE": 285303072,
+  "_ZN3btl18CreateTaskPcEscapeEP10MemAlcBase": 285303132,
+  "_ZN3btl19CreateChrMonDmgDownEPNS_6ChrMonENS_8eDmgTypeEb": 285355160,
+  "_ZN3btl19CreateChrMonDmgPoseEPNS_6ChrMonENS_8eDmgTypeENS_11eHitDirTypeE": 285355288,
+  "_ZN3btl19CreateChrPcCmdSpAtkEPNS_5ChrPcEt18eDBPcAtkDifficulty": 285355436,
+  "_ZN3btl20ChrPcDmgAbnEntryDoku15InstantNoMotionEPNS_5ChrPcE": 285369700,
+  "_ZN3btl20ChrPcDmgAbnEntryKaze15InstantNoMotionEPNS_5ChrPcE": 285370700,
+  "_ZN3btl20CreateChrPcCmdVacuumEPNS_5ChrPcE": 285371656,
+  "_ZN3btl20CreateDrawTaskInBodyEP10MemAlcBaseb": 285371744,
+  "_ZN3btl20ObjScore_getMedalObjEPNS_7ObjMoveE": 285374116,
+  "_ZN3btl21AbnormalKeepOkoriTaskC1ERN2ad8LinkListINS_20AbnormalKeepTaskBaseELj24EEEPNS_3ChrE": 285433912,
+  "_ZN3btl21CreateChrPcCmdUseItemEPNS_5ChrPcE": 285435312,
+  "_ZN3btl21CreateTaskEncountBackEPNS_5ChrPcE": 285435400,
+  "_ZN3btl21CreateTaskEncountFireEPNS_5ChrPcE": 285435480,
+  "_ZN3btl21CreateTaskEncountJumpEPNS_5ChrPcE": 285435668,
+  "_ZN3btl21CreateTaskEncountTogeEPNS_5ChrPcE": 285435828,
+  "_ZN3btl21CreateTaskResultPcWinEP10MemAlcBase": 285435976,
+  "_ZN3btl22ChrDmgAbnRecoverYakedo15InstantNoMotionEPNS_3ChrE": 285436020,
+  "_ZN3btl22ChrPcDmgAbnEntryKorobi15InstantNoMotionEPNS_5ChrPcE": 285436300,
+  "_ZN3btl22CreateChrPcCmdMiniGameEPNS_5ChrPcEt": 285436760,
+  "_ZN3btl22CreateChrPcCmdSoloFireEPNS_5ChrPcE": 285436848,
+  "_ZN3btl22CreateChrPcCmdSoloJumpEPNS_5ChrPcE": 285436952,
+  "_ZN3btl22CreateObjMiniGameMedalEjP10MemAlcBase": 285437056,
+  "_ZN3btl22CreateTaskAbnormalBaseEPNS_11AbnormalActE": 285437116,
+  "_ZN3btl22CreateTaskEncountPunchEPNS_5ChrPcE": 285437196,
+  "_ZN3btl22CreateTaskResultPcLoseEP10MemAlcBase": 285437380,
+  "_ZN3btl23CreateChrCmdPcCmdSelectEP10MemAlcBasePNS_5ChrPcEb": 285449296,
+  "_ZN3btl23CreateChrPcCmdSoloPunchEPNS_5ChrPcE": 285449356,
+  "_ZN3btl23CreateChrPcDmgCarryFallEPNS_5ChrPcE": 285449460,
+  "_ZN3btl23CreateTaskEncountHammerEPNS_5ChrPcE": 285449576,
+  "_ZN3btl24ChrPcDmgAbnRecoverKorobi15InstantNoMotionEPNS_5ChrPcE": 285456340,
+  "_ZN3btl24CreateChrPcCmdSoloHammerEPNS_5ChrPcE": 285457004,
+  "_ZN3btl24CreateChrPcDmgPoseNormalEPNS_5ChrPcENS_8eDmgTypeENS_11eHitDirTypeEb": 285457108,
+  "_ZN3btl25ChrDmgAbnRecoverMemawashi15InstantNoMotionEPNS_3ChrE": 285461104,
+  "_ZN3btl25CreateChrPcCmdEqFxRebirthEPNS_5ChrPcE": 285462284,
+  "_ZN3btl25CreateTaskEncountStandardEPNS_5ChrPcE": 285462376,
+  "_ZN3btl26CreateChrDmgAbnEntryKorobiEPNS_5ChrPcE": 285468968,
+  "_ZN3btl26CreateChrDmgAbnRecoverDokuEPNS_5ChrPcENS_6eAbnIdE": 285469108,
+  "_ZN3btl26CreateChrDmgAbnRecoverKazeEPNS_5ChrPcENS_6eAbnIdE": 285469244,
+  "_ZN3btl26CreateChrPcDmgAbnEntryDokuEPNS_5ChrPcENS_6eAbnIdE": 285469312,
+  "_ZN3btl26CreateChrPcDmgAbnEntryKazeEPNS_5ChrPcENS_6eAbnIdE": 285469380,
+  "_ZN3btl26CreateTaskPartyDeadEmotionEv": 285469448,
+  "_ZN3btl28CreateChrDmgAbnRecoverYakedoEPNS_5ChrPcE": 285475864,
+  "_ZN3btl28CreateTaskAbnormalDokuUpdateEPNS_11AbnormalActE": 285475924,
+  "_ZN3btl28CreateTaskAbnormalEntryOkoriEPNS_8ChrKoopaE": 285475984,
+  "_ZN3btl28CreateTaskAbnormalKazeUpdateEPNS_11AbnormalActE": 285476104,
+  "_ZN3btl28CreateTaskChrMonInstantDeathEPNS_6ChrMonEfPNS_3ChrEj": 285476224,
+  "_ZN3btl29CreateTaskPartyCarryOffActionEv": 285476756,
+  "_ZN3btl30CreateChrPcDmgAbnRecoverKorobiEPNS_5ChrPcE": 285476868,
+  "_ZN3btl30CreateTaskAbnormalRecoverOkoriEPNS_8ChrKoopaE": 285476928,
+  "_ZN3btl30CreateTaskAbnormalYakedoUpdateEPNS_11AbnormalActE": 285477080,
+  "_ZN3btl30CreateTaskNotifyNewBattleGuideEv": 285477276,
+  "_ZN3btl31CreateTaskAbnormalEntryHissatsuEPNS_11AbnormalActE": 285479572,
+  "_ZN3btl32CreateChrPcDmgSpikeStompReactionEPNS_5ChrPcEbRKNS_12ChrDmgResultE": 285479692,
+  "_ZN3btl33CreateChrPcDmgAbnRecoverMemawashiEPNS_5ChrPcE": 285480240,
+  "_ZN3btl35ChrDmgAbnEntryYakedoInstantNoMotionEPNS_3ChrE": 285480300,
+  "_ZN3btl36CreateTaskEquipFxPenaltyPostPcActionEP10MemAlcBasePNS_5ChrPcE": 285480304,
+  "_ZN3btl38ChrDmgAbnEntryMemawashiInstantNoMotionEPNS_3ChrE": 285480628,
+  "_ZN3btl38CreateTaskNotifyColosseumTurnLimitOverEv": 285480632,
+  "_ZN3btl38NeedExecTaskEquipFxPenaltyPostPcActionEPNS_5ChrPcE": 285390288,
+  "_ZN3btl5AISys10startAtkAIEjPKv": 285488464,
+  "_ZN3btl5AISys10startCmdAIEjPKvjNS_7eAITypeEPNS_6AIUnitE": 285488520,
+  "_ZN3btl5AISys10startScnAIEPNS_6AIUnitEPKv": 285488552,
+  "_ZN3btl5AISys12clearFrmInfoEv": 285505460,
+  "_ZN3btl5AISys14clearAttackRegEv": 285528124,
+  "_ZN3btl5AISys14startOneShotAIEjPKvjNS_7eAITypeE": 285528244,
+  "_ZN3btl5AISys17GetCodeOfsByLabelEPKvNS_12eAILabelTypeE": 285539128,
+  "_ZN3btl5AISys4initEPNS_4MainEP10MemAlcBase": 285566876,
+  "_ZN3btl5AISys6execAIEPNS_6AIUnitEb": 285567752,
+  "_ZN3btl5AISysC1Ev": 285579832,
+  "_ZN3btl6AIUnit11setBootInfoEPKS0_": 285580484,
+  "_ZN3btl6AIUnit14setReserveInfoEPKS0_PKhS4_": 285580552,
+  "_ZN3btl6AIUnit16clearReserveInfoEv": 285580640,
+  "_ZN3btl6AIUnit7startAIEPKhS2_NS_7eAITypeE": 285381792,
+  "_ZN3btl6AIUnitC1EPNS_5AISysEj": 285382072,
+  "_ZN3fld13StaffrollCtrl4initEPNS_6SystemEP10MemAlcBasej": 301990824,
+  "_ZN3fld13StaffrollCtrl6updateEv": 301992332,
+  "_ZNK2kj10TaskBtlAtk14calcPearCntPosERN2nn4math4VEC3E": 335854172,
+  "_ZNK2kj10TaskBtlAtk15calcEstTotalPosERN2nn4math4VEC3E": 335854452,
+  "_ZNK2kj10TaskBtlAtk15calcStackCntPosERN2nn4math4VEC3E": 335854540,
+  "_ZNK2kj10TaskBtlAtk19calcEstPearTotalPosERN2nn4math4VEC3E": 335854760,
+  "_ZNK3fld13StaffrollCtrl8isFinishEv": 301993984,
+  "CreateCmdAtkAssult": 335547716,
+  "CreateCmdAtkCvr": 335547844,
+  "CreateCmdAtkFlight": 335548012,
+  "CreateCmdAtkLong": 335548140,
+  "CreateCmdAtkMissMove": 335548328,
+  "CreateCmdAtkRecoilMove": 335548372,
+  "CreateCmdDefAssult": 335548464,
+  "CreateCmdDefEvasionMove": 335548624,
+  "CreateCmdDefFlight": 335548668,
+  "CreateCmdDefKnockBackMove": 335548828,
+  "CreateCmdDefLong": 335548872,
+  "CreateCmdEtcDamage": 335549012,
+  "CreateCmdEtcDie": 335549156,
+  "CreateCmdLcTotsugekiBackMove": 335549200,
+  "CreateCmdLcTotsugekiCheerMove": 335549376,
+  "CreateCmdLcTotsugekiPreAtk": 335549420,
+  "CreateCmdLcUchikeshiReaction": 335549636,
+  "CreateCmdMLcDondokuMadStart": 335549844,
+  "CreateCmdMLcSpBreathMove": 335549888,
+  "CreateCmdMoveAdjust": 335549932,
+  "CreateCmdMoveAdjustTurn": 335549976,
+  "CreateCmdMoveForward": 335550140,
+  "CreateCmdMoveMatch": 335550184,
+  "CreateCmdMoveMatchToLeader": 335550228,
+  "CreateCmdMoveMatchToLong": 335550280,
+  "CreateCmdProdClearCall": 335550428,
+  "CreateCmdProdClearMove": 335550552,
+  "CreateCmdProdEntryAquaticChr": 335550732,
+  "CreateCmdProdJoinMove": 335550844,
+  "CreateCmdProdJoinWait": 335551056,
+  "CreateCmdProdKnockUp": 335551100,
+  "CreateCmdProdLoseMove": 335551144,
+  "CreateCmdProdMoveAdjust": 335551188,
+  "CreateCmdProdMoveY": 335551240,
+  "CreateCmdProdStomp": 335551284,
+  "CreateCmdProdWinAssistMove": 335551404,
+  "CreateCmdProdWinJump": 335551476,
+  "CreateCmdSLcDossunKnockBack": 335551588,
+  "CreateCmdSLcKoushouDispOut": 335551632,
+  "CreateCmdSLcMamoruCheer": 335551676,
+  "CreateCmdSLcMamoruLastAtk": 335551824,
+  "CreateCmdSLcMikiriParamChange": 335551868,
+  "CreateCmdSLcMikiriPreAtk": 335552004,
+  "CreateCmdSLcRallyAngerMove": 335552212,
+  "CreateCmdSLcRallyDamage": 335552256,
+  "CreateCmdSLcRallyKick": 335552460,
+  "CreateCmdSLcRallyKickMon": 335552564,
+  "CreateCmdSLcRallySetupKick": 335552744,
+  "CreateCmdSLcRallySorryMove": 335552844,
+  "CreateCmdSLcSukettoEntryAssistChr": 335552888,
+  "CreateCmdSLcThunderHit": 335553036,
+  "CreateCmdSLcThunderPanic": 335553244,
+  "CreateLeaderCmdDekaBombData": 335553368,
+  "CreateLeaderCmdKantaiData": 335553412,
+  "CreateLeaderCmdKiaiData": 335553592,
+  "CreateLeaderCmdOyatsuData": 335553684,
+  "CreateLeaderCmdTotsugekiData": 335553832,
+  "CreateLeaderCmdUchikeshiData": 335553972,
+  "CreateMonLeaderCmdDondokuData": 335554016,
+  "CreateMonLeaderCmdRemoteCtrlData": 335554112,
+  "CreateMonLeaderCmdSpBreathData": 335554176,
+  "CreateMonLeaderCmdSpDondokuData": 335554220,
+  "CreateStaffrollCtrl": 301990464,
+  "CreateSubLeaderCmdBaigaeshiData": 335554284,
+  "CreateSubLeaderCmdBunshinData": 335554328,
+  "CreateSubLeaderCmdDossunData": 335554472,
+  "CreateSubLeaderCmdKillerData": 335554592,
+  "CreateSubLeaderCmdKouraData": 335554732,
+  "CreateSubLeaderCmdKoushouData": 335554860,
+  "CreateSubLeaderCmdMamoruData": 335555056,
+  "CreateSubLeaderCmdMikiriData": 335555100,
+  "CreateSubLeaderCmdOdateruData": 335555244,
+  "CreateSubLeaderCmdRallyData": 335555324,
+  "CreateSubLeaderCmdRouletteData": 335555456,
+  "CreateSubLeaderCmdSukettoData": 335555616,
+  "CreateSubLeaderCmdTamanoriData": 335555720,
+  "CreateSubLeaderCmdThunderData": 335555816,
+  "CreateSubLeaderCmdYamiuchiData": 335555928,
+  "CreateSubLeaderCmdYarareruData": 335556012,
+  "CreateTaskBtlAtk": 335556124,
+  "CreateTaskBtlSp": 335556168,
+  "CreateTaskInitAssist": 335556332,
+  "CreateTaskInitJoin": 335556480,
+  "CreateTaskInitMon": 335556820,
+  "CreateTaskInitPc": 335556932,
+  "CreateTaskLdCmdDekaBomb": 335557096,
+  "CreateTaskLdCmdKantai": 335557144,
+  "CreateTaskLdCmdKiai": 335557192,
+  "CreateTaskLdCmdOyatsu": 335557308,
+  "CreateTaskLdCmdTotsugeki": 335557352,
+  "CreateTaskLdCmdTotsugekiCheerStart": 335557448,
+  "CreateTaskLdCmdUchikeshi": 335557492,
+  "CreateTaskMonLdCmdDondoku": 335557600,
+  "CreateTaskMonLdCmdRemoteCtrl": 335557684,
+  "CreateTaskMonLdCmdSpBreath": 335557800,
+  "CreateTaskMonLdCmdSpBreathWaitRet": 335557896,
+  "CreateTaskMonLdCmdSpDondoku": 335557992,
+  "CreateTaskProdClear": 335558104,
+  "CreateTaskProdCmdName": 335558148,
+  "CreateTaskProdEscape": 335558192,
+  "CreateTaskProdLastBoss": 335558336,
+  "CreateTaskProdMove": 335558380,
+  "CreateTaskProdStart": 335558424,
+  "CreateTaskProdWinLose": 335558468,
+  "CreateTaskSubLdCmdBaigaeshi": 335558512,
+  "CreateTaskSubLdCmdBunshin": 335558688,
+  "CreateTaskSubLdCmdDossun": 335558780,
+  "CreateTaskSubLdCmdKiller": 335558824,
+  "CreateTaskSubLdCmdKoura": 335558868,
+  "CreateTaskSubLdCmdKoushou": 335558912,
+  "CreateTaskSubLdCmdMamoru": 335559096,
+  "CreateTaskSubLdCmdMamoruWaitEnd": 335559192,
+  "CreateTaskSubLdCmdMikiri": 335559312,
+  "CreateTaskSubLdCmdMikiriInput": 335559396,
+  "CreateTaskSubLdCmdOdateru": 335559532,
+  "CreateTaskSubLdCmdRally": 335559576,
+  "CreateTaskSubLdCmdRoulette": 335559620,
+  "CreateTaskSubLdCmdSuketto": 335559664,
+  "CreateTaskSubLdCmdTamanori": 335559764,
+  "CreateTaskSubLdCmdThunder": 335559808,
+  "CreateTaskSubLdCmdYamiuchi": 335559904,
+  "CreateTaskSubLdCmdYarareru": 335560096
+ },
+ "unresolved": [],
+ "problems": [],
+ "problem_count": 0
+}

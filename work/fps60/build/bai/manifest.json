@@ -1,0 +1,27 @@
+{
+  "tool": "scripts/fps60/btl_baifix.py",
+  "source": "romfs/BAI/BAI.dat",
+  "source_size": 2862248,
+  "source_sha256": "12be16cd099b69aee84b9f5fa6cd07342eccb112f1ddc21d440187061de0c2f2",
+  "output": "work/fps60/build/bai/romfs/BAI/BAI.dat",
+  "output_size": 2862076,
+  "output_sha256": "c681a963b8428128a2d9133c39911f9f2acf5a53e83dff0a097de8fbe750fbb6",
+  "groups": [
+    "hold",
+    "orbit",
+    "step2"
+  ],
+  "sites": 15,
+  "scripts_changed": [
+    "atk_dgeraco_4.bai",
+    "atk_dgeraco_5.bai",
+    "atk_dstar_4.bai",
+    "atk_dstar_x_4.bai",
+    "atk_geraco2_3.bai",
+    "atk_geraco2_4.bai",
+    "atk_koopa2_2.bai",
+    "atk_koopax_2.bai",
+    "atk_koopax_5.bai"
+  ],
+  "install": "LayeredFS: copy romfs/BAI/BAI.dat to <mods>/00040000001CA900/romfs/BAI/BAI.dat"
+}

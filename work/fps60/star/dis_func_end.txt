@@ -1,0 +1,41 @@
+; |static| ad::fw::TaskBase::func+0xb34
+0013e700: 010050e3 cmp      r0, #1
+0013e704: 0200000a beq      #0x13e714
+0013e708: 030050e3 cmp      r0, #3
+0013e70c: 0500000a beq      #0x13e728
+0013e710: 080000ea b        #0x13e738
+0013e714: 84009fe5 ldr      r0, [pc, #0x84]  ; =0x702
+0013e718: 5fbc04eb bl       #0x26d89c
+0013e71c: 4aa0c4e5 strb     sl, [r4, #0x4a]
+0013e720: 00f020e3 nop      
+0013e724: 030000ea b        #0x13e738
+0013e728: 070ca0e3 mov      r0, #0x700
+0013e72c: 5abc04eb bl       #0x26d89c
+0013e730: 0400a0e3 mov      r0, #4
+0013e734: 4a00c4e5 strb     r0, [r4, #0x4a]
+0013e738: 840194e5 ldr      r0, [r4, #0x184]
+0013e73c: 000050e3 cmp      r0, #0
+0013e740: 0100001a bne      #0x13e74c
+0013e744: 0b00a0e1 mov      r0, fp
+0013e748: 85daffeb bl       #0x135164  ; VramTransfer::transfer
+0013e74c: da5f84e2 add      r5, r4, #0x368
+0013e750: 060055e1 cmp      r5, r6
+0013e754: 0400000a beq      #0x13e76c
+0013e758: 0500a0e1 mov      r0, r5
+0013e75c: 6a1805eb bl       #0x28490c
+0013e760: 085085e2 add      r5, r5, #8
+0013e764: 060055e1 cmp      r5, r6
+0013e768: faffff1a bne      #0x13e758
+0013e76c: 4670c4e5 strb     r7, [r4, #0x46]
+0013e770: 20009de5 ldr      r0, [sp, #0x20]
+0013e774: 001090e5 ldr      r1, [r0]
+0013e778: 011081e2 add      r1, r1, #1
+0013e77c: 001080e5 str      r1, [r0]
+0013e780: 3cd08de2 add      sp, sp, #0x3c
+0013e784: f08fbde8 pop      {r4, r5, r6, r7, r8, sb, sl, fp, pc}
+0013e788: 6c504200 subeq    r5, r2, ip, rrx
+0013e78c: b87d3f00 ldrhteq  r7, [pc], -r8
+0013e790: bc7d3f00 ldrhteq  r7, [pc], -ip
+0013e794: eba00eea b        #0x4e6b48
+0013e798: 50403f00 eorseq   r4, pc, r0, asr r0
+0013e79c: 70880200 andeq    r8, r2, r0, ror r8

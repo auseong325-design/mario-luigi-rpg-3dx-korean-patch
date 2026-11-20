@@ -1,0 +1,25 @@
+{
+  "installed": {
+    "code.bps": {
+      "sha256": "c3922b9dcaafb5edacee2eda93ae13bd4c49f49c256495fbc456baf19a405be2",
+      "bytes": 559
+    },
+    "romfs/BAI/BAI.dat": {
+      "sha256": "c681a963b8428128a2d9133c39911f9f2acf5a53e83dff0a097de8fbe750fbb6",
+      "bytes": 2862076
+    }
+  },
+  "actions": {
+    "patch/code.bps": "unchanged",
+    "sd/code.bps": "unchanged",
+    "patch/romfs/BAI/BAI.dat": "unchanged",
+    "sd/romfs/BAI/BAI.dat": "unchanged",
+    "zip": "unchanged"
+  },
+  "title_folder_files": 38,
+  "romfs_files": 37,
+  "patch_junction_sd_zip_match": true,
+  "zip_sha256": "7dfeeb036e30898d8c056e73e8a3de81b11fbc5990a1eb45b40a7a4cd920e360",
+  "zip_backup": "C:\\AI-Projects\\mario-luigi-rpg-3dx-korean-patch\\work\\build\\prev_fps60_20261030\\ml3dx_ko_luma.zip",
+  "korean_patch_files_unchanged": 36
+}

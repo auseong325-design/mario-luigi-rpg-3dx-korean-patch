@@ -1,0 +1,107 @@
+{
+ "label": "taps_v2b",
+ "hold_ms": 17.0,
+ "taps": [
+  {
+   "i": 1,
+   "btn": "A",
+   "held_ms": 17.1,
+   "frame0": 6159,
+   "before": 1,
+   "after": 0,
+   "registered": true,
+   "react_s": 0.7
+  },
+  {
+   "i": 2,
+   "btn": "X",
+   "held_ms": 17.2,
+   "frame0": 6292,
+   "before": 0,
+   "after": 1,
+   "registered": true,
+   "react_s": 0.03
+  },
+  {
+   "i": 3,
+   "btn": "A",
+   "held_ms": 17.3,
+   "frame0": 6385,
+   "before": 1,
+   "after": 0,
+   "registered": true,
+   "react_s": 0.67
+  },
+  {
+   "i": 4,
+   "btn": "X",
+   "held_ms": 17.3,
+   "frame0": 6516,
+   "before": 0,
+   "after": 1,
+   "registered": true,
+   "react_s": 0.03
+  },
+  {
+   "i": 5,
+   "btn": "A",
+   "held_ms": 17.3,
+   "frame0": 6608,
+   "before": 1,
+   "after": 0,
+   "registered": true,
+   "react_s": 0.7
+  },
+  {
+   "i": 6,
+   "btn": "X",
+   "held_ms": 17.3,
+   "frame0": 6741,
+   "before": 0,
+   "after": 1,
+   "registered": true,
+   "react_s": 0.03
+  },
+  {
+   "i": 7,
+   "btn": "A",
+   "held_ms": 17.5,
+   "frame0": 6834,
+   "before": 1,
+   "after": 0,
+   "registered": true,
+   "react_s": 0.67
+  },
+  {
+   "i": 8,
+   "btn": "X",
+   "held_ms": 17.4,
+   "frame0": 6964,
+   "before": 0,
+   "after": 1,
+   "registered": true,
+   "react_s": 0.03
+  },
+  {
+   "i": 9,
+   "btn": "A",
+   "held_ms": 17.6,
+   "frame0": 7057,
+   "before": 1,
+   "after": 0,
+   "registered": true,
+   "react_s": 0.67
+  },
+  {
+   "i": 10,
+   "btn": "X",
+   "held_ms": 17.4,
+   "frame0": 7188,
+   "before": 0,
+   "after": 1,
+   "registered": true,
+   "react_s": 0.06
+  }
+ ],
+ "registered": 10
+}

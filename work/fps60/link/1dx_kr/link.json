@@ -1,0 +1,199 @@
+{
+ "game": "1dx_kr",
+ "base0": 268435456,
+ "stride": 8388608,
+ "modules": {
+  "EtcSys": {
+   "file": "ml 1dx/3romfs/RO/EtcSys.cro",
+   "base": 268435456,
+   "size": 454656,
+   "bss": [
+    268890112,
+    244
+   ],
+   "segments": [
+    {
+     "index": 0,
+     "type": "text",
+     "addr": 268435840,
+     "size": 368488
+    },
+    {
+     "index": 1,
+     "type": "rodata",
+     "addr": 268808192,
+     "size": 18004
+    },
+    {
+     "index": 2,
+     "type": "data",
+     "addr": 268887576,
+     "size": 1708
+    },
+    {
+     "index": 3,
+     "type": "bss",
+     "addr": 268890112,
+     "size": 212
+    },
+    {
+     "index": 4,
+     "type": "text",
+     "addr": 0,
+     "size": 0
+    }
+   ],
+   "exports": {
+    "_ZN2mg8MGSystemC1Ev": 268726844,
+    "nnroControlObject_": 268794836
+   },
+   "onload": 4294967295,
+   "onexit": 4294967295
+  },
+  "MiniGame": {
+   "file": "ml 1dx/3romfs/RO/MiniGame.cro",
+   "base": 276824064,
+   "size": 8192,
+   "bss": [
+    276832256,
+    32
+   ],
+   "segments": [
+    {
+     "index": 0,
+     "type": "text",
+     "addr": 276824448,
+     "size": 260
+    },
+    {
+     "index": 1,
+     "type": "rodata",
+     "addr": 276828160,
+     "size": 0
+    },
+    {
+     "index": 2,
+     "type": "data",
+     "addr": 276828608,
+     "size": 4
+    },
+    {
+     "index": 3,
+     "type": "text",
+     "addr": 0,
+     "size": 0
+    },
+    {
+     "index": 4,
+     "type": "text",
+     "addr": 0,
+     "size": 0
+    }
+   ],
+   "exports": {
+    "EntryTask": 276824472,
+    "nnroControlObject_": 276824536
+   },
+   "onload": 4294967295,
+   "onexit": 4294967295
+  },
+  "Staffroll": {
+   "file": "ml 1dx/3romfs/RO/Staffroll.cro",
+   "base": 285212672,
+   "size": 8192,
+   "bss": [
+    285220864,
+    32
+   ],
+   "segments": [
+    {
+     "index": 0,
+     "type": "text",
+     "addr": 285213056,
+     "size": 272
+    },
+    {
+     "index": 1,
+     "type": "rodata",
+     "addr": 285216768,
+     "size": 0
+    },
+    {
+     "index": 2,
+     "type": "data",
+     "addr": 285217268,
+     "size": 4
+    },
+    {
+     "index": 3,
+     "type": "text",
+     "addr": 0,
+     "size": 0
+    },
+    {
+     "index": 4,
+     "type": "text",
+     "addr": 0,
+     "size": 0
+    }
+   ],
+   "exports": {
+    "EntryTask": 285213088,
+    "nnroControlObject_": 285213156
+   },
+   "onload": 4294967295,
+   "onexit": 4294967295
+  },
+  "Title": {
+   "file": "ml 1dx/3romfs/RO/Title.cro",
+   "base": 293601280,
+   "size": 8192,
+   "bss": [
+    293609472,
+    32
+   ],
+   "segments": [
+    {
+     "index": 0,
+     "type": "text",
+     "addr": 293601664,
+     "size": 272
+    },
+    {
+     "index": 1,
+     "type": "rodata",
+     "addr": 293605376,
+     "size": 0
+    },
+    {
+     "index": 2,
+     "type": "data",
+     "addr": 293605868,
+     "size": 4
+    },
+    {
+     "index": 3,
+     "type": "text",
+     "addr": 0,
+     "size": 0
+    },
+    {
+     "index": 4,
+     "type": "text",
+     "addr": 0,
+     "size": 0
+    }
+   ],
+   "exports": {
+    "EntryTask": 293601696,
+    "nnroControlObject_": 293601764
+   },
+   "onload": 4294967295,
+   "onexit": 4294967295
+  }
+ },
+ "static_imports_bound": {},
+ "unresolved": [],
+ "problems": [],
+ "problem_count": 0
+}

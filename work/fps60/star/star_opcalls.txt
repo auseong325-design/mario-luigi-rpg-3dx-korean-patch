@@ -1,0 +1,86 @@
+op04e x42 -> 0x1102acd0 FUN_1102acd0 cases=0x4e,0x4f,0x51,0x53,0x55,0x57,0x58,0x59,0x5a,0x5b,0x5d: btl::Main::entryAIAct, btl::Main::createOrFindAIAct, ScriptSystem::rewind, PutRegFlag, VectorUnsignedToFloat, VectorFloatToUnsigned
+op04f x17 -> 0x1102acd0 FUN_1102acd0 cases=0x4e,0x4f,0x51,0x53,0x55,0x57,0x58,0x59,0x5a,0x5b,0x5d: btl::Main::entryAIAct, btl::Main::createOrFindAIAct, ScriptSystem::rewind, PutRegFlag, VectorUnsignedToFloat, VectorFloatToUnsigned
+op050 x1 -> 0x1102b070 FUN_1102b070: ScriptSystem::rewind
+op051 x17 -> 0x1102acd0 FUN_1102acd0 cases=0x4e,0x4f,0x51,0x53,0x55,0x57,0x58,0x59,0x5a,0x5b,0x5d: btl::Main::entryAIAct, btl::Main::createOrFindAIAct, ScriptSystem::rewind, PutRegFlag, VectorUnsignedToFloat, VectorFloatToUnsigned
+op059 x19 handler 0x1102accc: no decomp
+op065 x6 -> 0x1104499c FUN_1104499c: btl::Main::loadCA, btl::Main::getAlcSetById
+op066 x1 -> 0x11044c30 FUN_11044c30: btl::Main::loadMdl, btl::Main::getAlcSetById
+op072 x1 -> 0x11044308 FUN_11044308: btl::Main::loadDfxSymbolArray
+op078 x6 -> 0x11047128 FUN_11047128: btl::Main::getDtGraphics, ScriptSystem::rewind
+op07c x1 -> 0x110470a0 FUN_110470a0: btl::Main::isLoadingDfxSymbol, ScriptSystem::rewind
+op0af x10 -> 0x11058b80 FUN_11058b80: btl::IsPc, btl::IsMon, btl::IsScn, btl::Main::allocObjBySlot, btl::ObjMove::setForType, btl::Main::entryObj
+op0b3 x2 -> 0x11043f90 FUN_11043f90: btl::IsMon, btl::IsScn, btl::Main::freeObjOnSlot, btl::ChrMon::release
+op0b9 x1 -> 0x11058ec0 FUN_11058ec0: btl::Main::getChr, btl::ChrPc::DoDamageML
+op0bb x11 -> 0x11042a94 FUN_11042a94 cases=0xb,0xc,0xd,0xe: btl::ChrDmgParam::ChrDmgParam, VectorFloatToUnsigned
+op0cc x1 -> 0x11048cf8 FUN_11048cf8: btl::Main::getChr, btl::AbnormalEntryParam::reset, FUN_110297cc, btl::Chr::entryAbnormalWithRoll, btl::Chr::entryAbnormalMute, btl::Chr::entryAbnormalWithOption
+op0d3 x137 -> 0x11045d44 FUN_11045d44: FUN_1102a2b8, PutRegFlag
+op0d4 x84 -> 0x11045d88 FUN_11045d88: btl::Main::getChr, FUN_11052c58, btl::Main::getObjBySlot, FUN_11055654, FUN_11053750, FUN_11053ea0, FUN_110548a4
+op0de x1 -> 0x110466ac FUN_110466ac cases=0x10,0x11,0x12,0x13,0x14,0x15,0x16,0x17,0x18,0xb,0xc,0xd,0xe,0xf: VectorUnsignedToFloat, PutRegFlag
+op0ea x11 -> 0x11057830 FUN_11057830: btl::Main::getObjBySlot, btl::Main::getDtGraphics, ad::fw::Resource::getResType, btl::ObjMove::getAnmType, btl::Main::getAlcSetById, ad::fw::Resource::getH3dRes, FUN_11028384, CONCAT31, btl::ObjMove::initMdl
+op0eb x7 -> 0x11058878 FUN_11058878: btl::Main::getObjBySlot, btl::ObjMove::isAnmBusy, ScriptSystem::rewind
+op0f5 x2 -> 0x110464f0 FUN_110464f0: btl::Main::getObjBySlot
+op0f7 x7 -> 0x11057b68 FUN_11057b68: btl::Main::getObjBySlot, btl::ObjMove::changeMdl
+op0fb x2 -> 0x1104d3b8 FUN_1104d3b8: btl::Main::getObjBySlot, btl::ObjMove::getMdl, Frm::setSpd, FUN_1102bebc, Frm::setFrm
+op101 x24 -> 0x1105882c FUN_1105882c: btl::Main::getObjBySlot, btl::ObjMove::playAnm
+op103 x11 -> 0x110440e0 FUN_110440e0: btl::Main::getObjBySlot, MoveVBase::stop, btl::MoveV1MoveAbsByCurveType
+op104 x6 -> 0x11046e78 FUN_11046e78: btl::Main::getObjBySlot, MoveVBase::isBusy, ScriptSystem::rewind
+op106 x2 -> 0x1104d878 FUN_1104d878: btl::Main::getObjBySlot, MoveVBase::isBusy, PutRegFlag
+op107 x2 -> 0x1104280c FUN_1104280c: btl::Main::getObjBySlot, MoveVBase::stop, btl::MoveV3MoveAbsByCurveType
+op108 x1 -> 0x110441f0 FUN_110441f0: btl::Main::getObjBySlot, MoveVBase::isBusy, ScriptSystem::rewind
+op10b x9 -> 0x1104912c FUN_1104912c: btl::Main::getObjBySlot, btl::MoveCMoveAbsByCurveType
+op10d x8 -> 0x1104c604 FUN_1104c604: btl::Main::getObjBySlot, ScriptSystem::rewind
+op117 x8 -> 0x11029880 FUN_11029880 cases=0x117,0x118,0x119,0x11a,0x11b: btl::Main::getObjBySlot, btl::ObjMove::calcForPos, MoveVBase::move, MoveVBase::moveFrm, MoveVBase::stop, btl::MoveV3MoveRelByCurveType
+op118 x11 -> 0x11029880 FUN_11029880 cases=0x117,0x118,0x119,0x11a,0x11b: btl::Main::getObjBySlot, btl::ObjMove::calcForPos, MoveVBase::move, MoveVBase::moveFrm, MoveVBase::stop, btl::MoveV3MoveRelByCurveType
+op119 x3 -> 0x11029880 FUN_11029880 cases=0x117,0x118,0x119,0x11a,0x11b: btl::Main::getObjBySlot, btl::ObjMove::calcForPos, MoveVBase::move, MoveVBase::moveFrm, MoveVBase::stop, btl::MoveV3MoveRelByCurveType
+op11b x1 handler 0x1102987c: no decomp
+op11c x17 -> 0x11042624 FUN_11042624: btl::Main::getObjBySlot, MoveVBase::isBusy, ScriptSystem::rewind
+op11d x1 -> 0x110425dc FUN_110425dc: btl::Main::getObjBySlot, MoveVBase::stop
+op11e x12 -> 0x11057bb0 FUN_11057bb0: btl::Main::getObjBySlot, MoveVBase::stop
+op120 x3 -> 0x11044040 FUN_11044040: btl::Main::getObjBySlot, btl::ObjMove::calcForPos, MoveVBase::stop
+op12f x4 -> 0x11029ae4 FUN_11029ae4 cases=0x12d,0x12e,0x12f,0x130,0x131,0x132,0x133,0x134,0x135: btl::Main::getObjBySlot, MoveVBase::jumpTS, MoveVBase::jumpTA, MoveVBase::jumpFT, MoveVBase::jumpSA, MoveVBase::jumpFS, MoveVBase::jumpFA, PutRegFlag
+op134 x4 -> 0x11029ae4 FUN_11029ae4 cases=0x12d,0x12e,0x12f,0x130,0x131,0x132,0x133,0x134,0x135: btl::Main::getObjBySlot, MoveVBase::jumpTS, MoveVBase::jumpTA, MoveVBase::jumpFT, MoveVBase::jumpSA, MoveVBase::jumpFS, MoveVBase::jumpFA, PutRegFlag
+op161 x4 -> 0x110570f0 FUN_110570f0: btl::Main::getObjBySlot, btl::ColDataAcs::ColDataAcs, btl::Obj::getColFrame, btl::Obj::makeColDataAcs, btl::ColDataAcs::getConnoteCol, btl::ColDataAcs::getCol, PutRegFlag
+op165 x1 -> 0x11058f50 FUN_11058f50: btl::Main::entryDfxPos, FUN_1102a404
+op169 x4 -> 0x11046eec FUN_11046eec: btl::Main::getObjBySlot, btl::Main::entryDfxObj, FUN_1102a404
+op16a x11 -> 0x11049678 FUN_11049678: btl::Main::getObjBySlot, btl::Main::entryDfxObj, FUN_1102a404
+op16e x10 -> 0x110497b4 FUN_110497b4: btl::GetCamera, btl::Camera::calcWldOfsFromObjLocalOfs, btl::Main::getObjBySlot, btl::Main::entryDfxShake, FUN_1102a404
+op16f x1 -> 0x110506ac FUN_110506ac: btl::GetCamera, btl::Camera::calcWldOfsFromObjLocalOfs, btl::Main::getChr, btl::Main::entryDfxShake, FUN_1102a404
+op172 x15 -> 0x1104ebf8 FUN_1104ebf8: btl::Main::getObjBySlot, btl::Main::entryDfxFollowObj, FUN_1102a404
+op174 x23 -> 0x11057ccc FUN_11057ccc: ad::dfx::Unit::kill, ad::dfx::Unit::killForce
+op17c x2 -> 0x11057d1c FUN_11057d1c: ScriptSystem::rewind
+op17e x1 -> 0x11044350 FUN_11044350 cases=0x10,0xb,0xc,0xd,0xe,0xf: VectorSignedToFloat, btl::DfxUnit::getAttachObj, btl::DfxUnit::getVisibleLcd, VectorUnsignedToFloat, PutRegFlag
+op17f x54 -> 0x1104450c FUN_1104450c cases=0x10,0xb,0xc,0xd,0xe: FrmFixed::setSpd, ad::dfx::Unit::setPause, VectorSignedToFloat, FrmFixed::setFrm, VectorFloatToUnsigned, btl::DfxUnit::detachObj, btl::Main::getObjBySlot, btl::DfxUnit::attachObj, btl::Main::changeVisibleLcd
+op181 x4 -> 0x1104d9b8 FUN_1104d9b8: btl::Main::getObjBySlot, btl::DfxUnit::setPosParamObj, btl::DfxUnit::setPosSlotObj
+op192 x1 -> 0x1104b2f0 FUN_1104b2f0: btl::Main::resetSPadClampSetting, CtrBtn::GetPadReader, nn::hid::CTR::ExtraPadReader::SetStickClampMode, nn::hid::CTR::ExtraPadReader::SetStickClamp
+op193 x2 -> 0x11043058 FUN_11043058: FUN_1102a2b8, GlobalEvent::Cmp
+op194 x26 -> 0x11044e54 FUN_11044e54: btl::Main::getChr, btl::Chr::isEntry, btl::IsPc, btl::IsMon, btl::Main::getObjBySlot, btl::Chr::canBeAtkTgt
+op195 x3 -> 0x11042fac FUN_11042fac: btl::Main::getObjBySlot, MoveVBase::isBusy
+op197 x4 -> 0x11057d6c FUN_11057d6c: FUN_1102abe0
+op19c x27 -> 0x110457b4 FUN_110457b4: btl::Main::playSeObj, SUB41, FUN_11029d3c
+op19d x5 -> 0x11047544 FUN_11047544: btl::Main::playSeObj, SUB41, FUN_11029d3c
+op19e x6 -> 0x11057304 FUN_11057304: btl::SeTask::stop
+op1b8 x27 -> 0x110588cc FUN_110588cc: btl::Main::getObjBySlot, PutRegFlag
+op1b9 x37 -> 0x1105891c FUN_1105891c: btl::Main::getObjBySlot
+op1d8 x1 -> 0x1104c9d4 FUN_1104c9d4: btl::Main::entryEstimate
+op1da x4 -> 0x110585a0 FUN_110585a0: btl::GetMain, btl::AI2DArray::init, btl::AI2DArray::setBootInfo, VectorUnsignedToFloat, PutRegFlag
+op1db x6 -> 0x11043714 FUN_11043714: btl::GetMain, btl::AI2DArray::term
+op1dc x8 -> 0x11057068 FUN_11057068: btl::GetMain, btl::AI2DArray::set
+op1dd x21 -> 0x11056fcc FUN_11056fcc: btl::GetMain, btl::AI2DArray::get, PutRegFlag
+op1df x1 -> 0x11041818 FUN_11041818: btl::GetMain, VectorUnsignedToFloat, PutRegFlag
+op1e4 x2 -> 0x110418d8 FUN_110418d8: btl::GetMain, btl::AI2DArray::rotate
+op1e5 x1 -> 0x110575d0 FUN_110575d0: btl::GetCamera, VectorUnsignedToFloat, btl::Camera::movePos, btl::Camera::movePosU
+op1e7 x1 -> 0x11043a60 FUN_11043a60: case, btl::GetCamera, ScriptSystem::rewind
+op1e8 x1 -> 0x11043898 FUN_11043898: btl::GetCamera, ScriptSystem::rewind
+op1ee x1 -> 0x11041cb8 FUN_11041cb8 cases=0x10,0x11,0x12,0xb,0xc,0xd,0xe,0xf: btl::GetCamera, VectorUnsignedToFloat, btl::Camera::movePos, btl::Camera::moveTwist, btl::Camera::moveWidth, btl::Camera::setNear, btl::Camera::setFar, btl::Camera::moveLcdGapRate, btl::Camera::moveAutoWeightU, btl::Camera::movePosU, btl::Camera::moveTwistU, btl::Camera::moveWidthU
+op1ef x2 -> 0x11041a5c FUN_11041a5c cases=0x10,0x11,0x12,0x13,0x14,0x15,0x16,0xb,0xc,0xd,0xe,0xf: btl::GetCamera, btl::Camera::getRealPosU, btl::WldToBtl, btl::Camera::getRealWidthU, btl::Camera::getProjMtxUlcd2DCenterPos, PutRegFlag
+op1f0 x1 -> 0x110438d4 FUN_110438d4: btl::GetCamera, VectorUnsignedToFloat, btl::Camera::moveParamToDefault
+op1ff x3 -> 0x11045880 FUN_11045880: btl::Main::getObjBySlot, btl::Obj::setAutoDirAnmOff
+op200 x3 -> 0x11048c38 FUN_11048c38: btl::Main::getObjBySlot, FUN_11029ee0, btl::Obj::setAutoDirAnmDataTbl_, btl::Obj::setAutoDirAnmMoveDir
+op202 x1 -> 0x11043778 FUN_11043778: btl::Main::getObjBySlot, FUN_11029ee0, btl::Obj::playDirAnmOneshot
+op203 x3 -> 0x11041950 FUN_11041950: btl::Main::getObjBySlot, btl::ObjMove::attachObj
+op204 x3 -> 0x110428ec FUN_110428ec: btl::Main::getObjBySlot, btl::ObjMove::detachObj
+op205 x1 -> 0x1104df4c FUN_1104df4c: btl::Main::getObjBySlot, btl::ObjMove::calcAttachObjPos, PutRegFlag
+op233 x7 -> 0x11051078 FUN_11051078: btl::Main::getChr, btl::ChrMon::playDmgAnm
+op245 x7 -> 0x1104f004 FUN_1104f004 cases=0x10,0x11,0xb,0xc,0xd,0xe,0xf: GetRegFlag, FUN_11034d74, SQRT, ad::math::VEC3TransformQuaternion, PutRegFlag
+op24b x2 -> 0x1104a1e8 FUN_1104a1e8 cases=0x11,0x12,0x13,0x14,0x15,0x17,0x18,0x19,0x1b,0x1c,0x1d,0x1e,0x21,0x22,0x23,0x24,0x25,0x26,0x28,0x29,0x2a,0x2b,0x2d,0x2e,0x2f,0x33,0x34,0x35,0x37,0x38,0x3d,0xb,0xc,0xd,0xe,0xf: VectorFloatToUnsigned, btl::Main::setEasyMode, btl::Main::setHidSimKeyEnable, Prim::enableDepthTest, Prim::disableDepthTest, btl::Main::setSavedCmdParamBlkId, btl::Main::setSavedCmdParamTgtMonId, btl::Main::setUseablePcAtk, btl::Main::setVisiblePcAtk, btl::GetBootInfo, btl::ChrKoopa::storeVacuumRecoverHp, btl::ChrKoopa::storeVacuumRecoverBp, btl::ChrKoopa::setVacuumDefUpRate, btl::ChrKoopa::setVacuumPowUpRate
+op24d x1 -> 0x110591b8 FUN_110591b8: btl::Main::saveToGameWorkWithoutExp, btl::Main::entryTotalDmgNumAll, btl::Main::applyPcUniqueFxBattleStartPostDisplay, btl::ItemStockData::clearUseItemStock, btl::ObjBadgeLlcd::setGaugeValueInstant, btl::Main::setPcBadgeDataBadgeGauge, DataPc::setBadgeGauge, btl::ObjBadgeLlcd::clearEffStockAll

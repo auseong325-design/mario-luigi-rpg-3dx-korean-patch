@@ -1,0 +1,10 @@
+; |static| ad::fw::TaskBase::isFps30+0x0
+0025edd0: 4500d0e5 ldrb     r0, [r0, #0x45]
+0025edd4: 000050e3 cmp      r0, #0
+0025edd8: 0100000a beq      #0x25ede4
+0025eddc: 010050e3 cmp      r0, #1
+0025ede0: 0000000a beq      #0x25ede8
+0025ede4: 0000a0e3 mov      r0, #0
+0025ede8: 1eff2fe1 bx       lr
+<btl::Camera::stopAllAnm>
+0025edec: 10402de9 push     {r4, lr}

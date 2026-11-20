@@ -1,0 +1,926 @@
+{
+  "tool": "scripts/fps60/fev_build.py",
+  "source": "romf2/FEvent/FEvent.dat",
+  "source_size": 6395308,
+  "source_sha256": "a0fecd0fc48ecf8c63df2498bfe233a35d6c89001fe7d7d1e99a939141bd40aa",
+  "output": "work/fps60/build/fev/romfs/FEvent/FEvent.dat",
+  "output_size": 6394504,
+  "output_sha256": "2e1175813e7627002d499d0a8accbe2a5221bba72b2c73158bdb6eff343a5e72",
+  "compressor": "ndspy 4.2.0 codeCompression via lib3dx.blz_compress (deterministic)",
+  "site_list": "python scripts/fps60/fld_fev.py waitsites (sites.txt)",
+  "site_list_sha256": "fd568c9a205ab5064bfd13d1f337bb1dffaf325a261a38b3ed0e1809d1d97248",
+  "summary": "136 wait(1) sites in 90 entries (u16 param at instruction+6: 1 -> 2)",
+  "not_patched": [
+    "not patched (reads edges): i_areanone_puzzle_02_U.fev 00655-0079d in=['hold', 'trg']"
+  ],
+  "sites": 136,
+  "entries_changed": 90,
+  "slots": 1428,
+  "slots_unchanged_bytes": 1338,
+  "transform": "wait(1) -> wait(2): u16 at instruction+6, 1 -> 2",
+  "decoded_entries": 854,
+  "decoded_instructions": 1162910,
+  "changed": [
+    {
+      "entry": "i_energy_07.fme",
+      "slot": 24,
+      "stored_old": 2076,
+      "stored_new": 2088,
+      "plain_size": 5390,
+      "plain_sha256_old": "f529db65d98fb67c5d5b790fb485f175172ef10633b2b9b6501a5aa93c72a474",
+      "plain_sha256_new": "e41d6f601209b128b67db7a147711d6f9dd403cb1992f478be3d0814e900b11d",
+      "sites": 1
+    },
+    {
+      "entry": "i_energy_22.fme",
+      "slot": 25,
+      "stored_old": 2172,
+      "stored_new": 2164,
+      "plain_size": 6473,
+      "plain_sha256_old": "4d7e46e1e2c9a1e73b851160ee5cc988bf0c7841001b0ee4ae2b77b208e388c3",
+      "plain_sha256_new": "a40881e29a6dcafa950bef09c576d97de9dae8d311a03db226e243a085733e5a",
+      "sites": 2
+    },
+    {
+      "entry": "o_koopa_33.fme",
+      "slot": 68,
+      "stored_old": 4316,
+      "stored_new": 4348,
+      "plain_size": 13387,
+      "plain_sha256_old": "d81036053a71b7ce5ad79a0508d98c4f79b16bcbfe03fb8fd7b5793f5b706a0c",
+      "plain_sha256_new": "6421d0c711723b64c05e21afa086cacde8debe8ecc57939216c6c3d678a249fd",
+      "sites": 1
+    },
+    {
+      "entry": "o_ekubon_32.fme",
+      "slot": 73,
+      "stored_old": 3020,
+      "stored_new": 3032,
+      "plain_size": 8910,
+      "plain_sha256_old": "ab712ac40b9939795b036fcf586190710c5df12ebd438fa0d255a7c75f0bf07c",
+      "plain_sha256_new": "b13fcd8ae570166f150a57ee3d6c4fc2b0cfd69b6f9adf5396b250d1d1a757ba",
+      "sites": 1
+    },
+    {
+      "entry": "i_energy_12.fme",
+      "slot": 80,
+      "stored_old": 3904,
+      "stored_new": 3900,
+      "plain_size": 12119,
+      "plain_sha256_old": "c20f1efad8e9e6d526b932a88f02938fddbbaca99c5fb63a16d1df0f9af693b4",
+      "plain_sha256_new": "02480802956e41d4bdab018c5f9a7bba5e1557967668d0af272e85a568d99128",
+      "sites": 4
+    },
+    {
+      "entry": "o_town_41.fev",
+      "slot": 83,
+      "stored_old": 15044,
+      "stored_new": 14896,
+      "plain_size": 50380,
+      "plain_sha256_old": "070fe6341a96a5791ab6f20741cfcd07e468d843b60642374ad7ab870fdbfc15",
+      "plain_sha256_new": "bbeb1e1d8eed8b34c73251ca9132ae0322a960e7dc100f1f96607c38e3d24e9d",
+      "sites": 1
+    },
+    {
+      "entry": "o_gepu_02.fev",
+      "slot": 86,
+      "stored_old": 12968,
+      "stored_new": 12864,
+      "plain_size": 40542,
+      "plain_sha256_old": "10825ab8a1996cf2c9b446dc0130f8641ca404f253e7a8fa583ce171e9aa9fd4",
+      "plain_sha256_new": "58e242c4f9fd5f440728e5a284a832c994af1253eb7739dc8365998311d766fe",
+      "sites": 1
+    },
+    {
+      "entry": "o_ekubon_07_2.fev",
+      "slot": 91,
+      "stored_old": 7404,
+      "stored_new": 7408,
+      "plain_size": 22529,
+      "plain_sha256_old": "9e58fb47d70d1ff9e916a1d5e005126b1ea40624fce83660113d72e31231281a",
+      "plain_sha256_new": "4f90a7868ae4478fd2ad69270c926b627bdb99852dc2a3514e3c4e0c8443063f",
+      "sites": 1
+    },
+    {
+      "entry": "i_air_11.fme",
+      "slot": 99,
+      "stored_old": 1836,
+      "stored_new": 1844,
+      "plain_size": 5262,
+      "plain_sha256_old": "61d30c799b2573f6cb48d2e167063f34ac92d9c681f0dda145e1cd3750771524",
+      "plain_sha256_new": "07180261574d4819b5f7959cf07ff0db29a0a97ca6993d8b8184a11713601dbf",
+      "sites": 1
+    },
+    {
+      "entry": "o_koopa_32.fme",
+      "slot": 136,
+      "stored_old": 3988,
+      "stored_new": 4024,
+      "plain_size": 12226,
+      "plain_sha256_old": "4ed271d23f06204da0a008b84bfda8541c7e29b9d8736f1ca2db570f3f5914cf",
+      "plain_sha256_new": "f1ad8c17c39fcaa6acb4cf018b17fd7f653442f027e6ecc9d816932a9574e5e6",
+      "sites": 1
+    },
+    {
+      "entry": "o_ekubon_02.fev",
+      "slot": 143,
+      "stored_old": 5104,
+      "stored_new": 5068,
+      "plain_size": 14843,
+      "plain_sha256_old": "60d21a9cf977ee2839864edc8e9ea16339725bccfa15c501b9f8f5844e9c9e0d",
+      "plain_sha256_new": "6ac9f2dbbdb31e10c68ee40b07ad228f7f8a89cf2ad9cc669a7b9e6e7df8b4ca",
+      "sites": 1
+    },
+    {
+      "entry": "i_air_16.fme",
+      "slot": 144,
+      "stored_old": 3916,
+      "stored_new": 3924,
+      "plain_size": 12456,
+      "plain_sha256_old": "2e456f2c7992059209d0541964d9c0f6272817641b3d78e19e9d83947e018ea4",
+      "plain_sha256_new": "ce92a2607586659de4f94d1091b453eedab8a7a73c518d852fbf252b463d3d7a",
+      "sites": 3
+    },
+    {
+      "entry": "i_energy_02.fme",
+      "slot": 150,
+      "stored_old": 1892,
+      "stored_new": 1900,
+      "plain_size": 4738,
+      "plain_sha256_old": "e65356351fec979a22dbe4ea9075070fd1de11f1d64e815035a63f9e0e389389",
+      "plain_sha256_new": "2022bd2badfd34c292f545240b79ad0e5c6c0ceadd9076d428225f0fd8fdab1d",
+      "sites": 1
+    },
+    {
+      "entry": "i_air_09.fme",
+      "slot": 154,
+      "stored_old": 2516,
+      "stored_new": 2524,
+      "plain_size": 7788,
+      "plain_sha256_old": "659e05f4694c87a0fd10f65af7811664ecc7443051ba45154c7435b94e9015a6",
+      "plain_sha256_new": "bc7916424eb348f000a58dc38e80a8a382fb98da182898fc6ad144a5c8635dda",
+      "sites": 1
+    },
+    {
+      "entry": "o_evselect_U.fev",
+      "slot": 156,
+      "stored_old": 43172,
+      "stored_new": 43064,
+      "plain_size": 161066,
+      "plain_sha256_old": "98becc8c6e8e6a2f27d550eee6f9c4c21ba5ebd6dbb9fc18afcf01c04eb75fbe",
+      "plain_sha256_new": "b071661852f7aa3ab827a2cbfc3e0d0e518ba76d757e33d74f93569dde41ae85",
+      "sites": 1
+    },
+    {
+      "entry": "i_metaboru_13.fme",
+      "slot": 190,
+      "stored_old": 2432,
+      "stored_new": 2436,
+      "plain_size": 6952,
+      "plain_sha256_old": "e8e99dd2db8ee090f655de013a4be78edf622c6ae6a73539f1683141f403d357",
+      "plain_sha256_new": "69c43538cb3b7eaa1d28d0048c81cb4801603eca577cf30ee2311b956420552d",
+      "sites": 1
+    },
+    {
+      "entry": "o_koopa_31.fme",
+      "slot": 204,
+      "stored_old": 4164,
+      "stored_new": 4176,
+      "plain_size": 13093,
+      "plain_sha256_old": "a45766d99e9d991f59145eaff4df9366171c4ad1304500f659bb03937b34e975",
+      "plain_sha256_new": "584ac7c505f639cd33b67ea303d72473ad046895dba13c16c0717a0a39614049",
+      "sites": 1
+    },
+    {
+      "entry": "o_ekubon_12.fme",
+      "slot": 205,
+      "stored_old": 2492,
+      "stored_new": 2488,
+      "plain_size": 6890,
+      "plain_sha256_old": "a490843cb837dbbb7c2e05d33edc30f458cd917ec9eea49f025e49b3c4e260af",
+      "plain_sha256_new": "041a0fe0d64c794410215f81c93cd7d3b7061cb23d2c83d99ed356cc6882d1d8",
+      "sites": 1
+    },
+    {
+      "entry": "o_koopa_19.fev",
+      "slot": 235,
+      "stored_old": 13092,
+      "stored_new": 13076,
+      "plain_size": 40187,
+      "plain_sha256_old": "3df77c27ae3475ae3dd5bb3efe50d54af1a114372774565a5024a7002d3d6724",
+      "plain_sha256_new": "f6d6c525709d7e717ccda7822a7527da7452337fd57f838b96945afc68eae1d5",
+      "sites": 1
+    },
+    {
+      "entry": "i_pump_05.fme",
+      "slot": 243,
+      "stored_old": 1836,
+      "stored_new": 1852,
+      "plain_size": 4816,
+      "plain_sha256_old": "7dfd0849cfd00891e18fcea49cc0829e59594c7fab5f1850c5ed79e1bcb7aacf",
+      "plain_sha256_new": "caa0f1c71b8d695f0bfddec35f308714b893fa311b407c443fdf34a31972aede",
+      "sites": 1
+    },
+    {
+      "entry": "i_metaboru_02.fme",
+      "slot": 245,
+      "stored_old": 2268,
+      "stored_new": 2276,
+      "plain_size": 6574,
+      "plain_sha256_old": "e49feb1f8c963350fafb225eee0800d5ee3a93d4b5aa6ae4c0342bd5b7bae5ff",
+      "plain_sha256_new": "655f9234f410805d80f7ea3723d2b8f1e0d400b09d546a8a8b9009ea2620213e",
+      "sites": 1
+    },
+    {
+      "entry": "o_ekubon_24.fev",
+      "slot": 249,
+      "stored_old": 8984,
+      "stored_new": 8872,
+      "plain_size": 29103,
+      "plain_sha256_old": "c2510f9a95eb3309ed7dde0e92c37bcf2c03a9530029e5852e45216578cca399",
+      "plain_sha256_new": "8797feb0c89604e93a8a6a02a7292822fd867e97a51fb3fd52cb5541b3f0f32b",
+      "sites": 1
+    },
+    {
+      "entry": "i_energy_24.fme",
+      "slot": 254,
+      "stored_old": 2088,
+      "stored_new": 2096,
+      "plain_size": 5390,
+      "plain_sha256_old": "c3b37a0d2fc83ff985e16a6f566fbb7e8569a29d2c4b170f27575489b64b77f6",
+      "plain_sha256_new": "50be14dce44ca1a2ff65be1699a4c2cd335273e2019caa7db1d9dfc62ffba581",
+      "sites": 1
+    },
+    {
+      "entry": "o_town_04.fev",
+      "slot": 257,
+      "stored_old": 16368,
+      "stored_new": 16228,
+      "plain_size": 54104,
+      "plain_sha256_old": "7acecd29a9f440ad529a5fe8b065bdea47c2217250ba654dec0043d9abd3a5b6",
+      "plain_sha256_new": "43b69652b46e3c2f81340d9e0187d02d7bff81d95d881190119d368d11e2a796",
+      "sites": 1
+    },
+    {
+      "entry": "o_peach_2f_07.fme",
+      "slot": 292,
+      "stored_old": 2944,
+      "stored_new": 2948,
+      "plain_size": 8141,
+      "plain_sha256_old": "60e241aacb454c4709d7978861b26b5b3af9a9f3ed4ec010f9eb9758fba526c3",
+      "plain_sha256_new": "533e6b36a06b508bc759005fc6f8b73107a14d3ebfbb3b93188186be105cc34d",
+      "sites": 1
+    },
+    {
+      "entry": "o_peach_3f_11.fme",
+      "slot": 319,
+      "stored_old": 2844,
+      "stored_new": 2848,
+      "plain_size": 8117,
+      "plain_sha256_old": "315603918d5ea845864e2338dd34ee38a30aa510c5895e62b34b15f3ff37017a",
+      "plain_sha256_new": "36e6e5c97f34211b08789965370f46095a51c3a4dc9093a18c4cd65fe5b888bd",
+      "sites": 1
+    },
+    {
+      "entry": "o_zutsuda_07.fev",
+      "slot": 320,
+      "stored_old": 8988,
+      "stored_new": 8880,
+      "plain_size": 29103,
+      "plain_sha256_old": "d0b3d0e4a5ddfce1b250cb6656130fd7d4dbff84f3a52289f40905ec8d5006b1",
+      "plain_sha256_new": "7aa000d18d7424d0d8597f61ec245a554d20d8c1e08191e9b39cfcf4f3313c51",
+      "sites": 1
+    },
+    {
+      "entry": "o_town_32.fev",
+      "slot": 338,
+      "stored_old": 28740,
+      "stored_new": 28584,
+      "plain_size": 95211,
+      "plain_sha256_old": "3dc587083840a95a01cea64450371e235af59e3f70c10e571306a0fb699409c4",
+      "plain_sha256_new": "f5e0867f89cb3f882818fb116a9a1b3ad73645036e8f324f5e1f011b1de984a1",
+      "sites": 1
+    },
+    {
+      "entry": "i_power_hip_SA_adorena_01_L.fev",
+      "slot": 343,
+      "stored_old": 18116,
+      "stored_new": 18056,
+      "plain_size": 56808,
+      "plain_sha256_old": "64b099376889e9da4faaf97d91861a2a334dd785eebf4bd3c6f2ff499c22b5a2",
+      "plain_sha256_new": "f47a175ff4f9126cf1a804492899a761dc2bdeb16c5accb19a16e9db61aad1ed",
+      "sites": 7
+    },
+    {
+      "entry": "i_pump_11.fme",
+      "slot": 365,
+      "stored_old": 2480,
+      "stored_new": 2492,
+      "plain_size": 7157,
+      "plain_sha256_old": "7770063453d6830a98a248d8cc20fae442328f381b8bb63177ae94b0e04ec600",
+      "plain_sha256_new": "5907160f31187d68033b3d8d2c798b4745813dc92a99c41dca3920ed9d89556c",
+      "sites": 2
+    },
+    {
+      "entry": "i_energy_04.fme",
+      "slot": 377,
+      "stored_old": 1892,
+      "stored_new": 1900,
+      "plain_size": 4738,
+      "plain_sha256_old": "be7cc34e414e494317a8919df07c594dae26da2ae1c3dad7da2040b5d45ae3e1",
+      "plain_sha256_new": "e7b097ba81a9b175c5774c90eb47159735877e9e4d5476b10c66ca1988f4a2c5",
+      "sites": 1
+    },
+    {
+      "entry": "i_metaboru_11.fme",
+      "slot": 379,
+      "stored_old": 2424,
+      "stored_new": 2436,
+      "plain_size": 6952,
+      "plain_sha256_old": "8306780a2de1f525f4fbbb99991566a31c36b7bc8508dec750d93be779d95343",
+      "plain_sha256_new": "7d9fe8ad6c349bb517966f4297bb5aa3a029ad1a56a1e1177d1b4836bb4fe506",
+      "sites": 1
+    },
+    {
+      "entry": "o_koopa_27.fme",
+      "slot": 416,
+      "stored_old": 3100,
+      "stored_new": 3116,
+      "plain_size": 8972,
+      "plain_sha256_old": "318802ce8de9d85b886de988ba1de7cce5318c329b22a0d18837161d2ab9e065",
+      "plain_sha256_new": "a6e69aa50b578f04443fe1f7aabe6a83732a499f53fb7e9406907618e647cca0",
+      "sites": 1
+    },
+    {
+      "entry": "i_power_stomach_15_SA_giganin_01_L.fev",
+      "slot": 417,
+      "stored_old": 12268,
+      "stored_new": 12300,
+      "plain_size": 42907,
+      "plain_sha256_old": "652b93dcbc418057a9091d4306367c1b61e4711e439da28c18b60a3ab67d0ba6",
+      "plain_sha256_new": "6f82ff5b74dc33258163050df281b2fcad471f4931607b898f62f5cb421eacd1",
+      "sites": 2
+    },
+    {
+      "entry": "i_power_arm_02.fev",
+      "slot": 450,
+      "stored_old": 13232,
+      "stored_new": 13296,
+      "plain_size": 41222,
+      "plain_sha256_old": "04ba101743be315b7d41c867caf5754a49665f012ea4e1c6751056721111f5df",
+      "plain_sha256_new": "1d07cbc8cdb92bfac6a55eba84d7786f040acb5b0e0b35137830d3869e07902c",
+      "sites": 7
+    },
+    {
+      "entry": "o_koopa_40.fev",
+      "slot": 458,
+      "stored_old": 8992,
+      "stored_new": 8880,
+      "plain_size": 29103,
+      "plain_sha256_old": "2b7f869d0a075615de4879d094c34baef95fbbf2650ad319e166ed283508baaa",
+      "plain_sha256_new": "58bb9da5c0619eba74eb0f7793690f04aecda7bb235765585327155e3ec1270a",
+      "sites": 1
+    },
+    {
+      "entry": "i_air_19.fme",
+      "slot": 464,
+      "stored_old": 2268,
+      "stored_new": 2288,
+      "plain_size": 6126,
+      "plain_sha256_old": "0ada8207337fd2a38300c383636555ffd41e308229a9c1578985c9c177bd4289",
+      "plain_sha256_new": "5cbec1a9fb9cacc47d22939c33a86e7e5d7bd5948dabf96b2a95e0e0126c9355",
+      "sites": 1
+    },
+    {
+      "entry": "i_garakuta_15.fme",
+      "slot": 515,
+      "stored_old": 1908,
+      "stored_new": 1928,
+      "plain_size": 5052,
+      "plain_sha256_old": "6142f6f447d4faab38e5fa19bc56ebe71243b9d5f9b12fb2dd78cc21e30f829d",
+      "plain_sha256_new": "62843171f7eaf393f2bdc056e73c66ae0b6dfe5d580b1bf96d84230387a0daa0",
+      "sites": 1
+    },
+    {
+      "entry": "o_peach_2f_15.fme",
+      "slot": 529,
+      "stored_old": 2840,
+      "stored_new": 2840,
+      "plain_size": 7681,
+      "plain_sha256_old": "bcd7c53bf489bbb31ddcf6813e060c0f931168bfa49cb4225ff666c9fa72fe9d",
+      "plain_sha256_new": "617465aca1eeeac00f594b12f735b25118e6f6ad8d757fb0283a2e08b6c71141",
+      "sites": 1
+    },
+    {
+      "entry": "o_peach_2f_19.fev",
+      "slot": 579,
+      "stored_old": 6428,
+      "stored_new": 6408,
+      "plain_size": 18639,
+      "plain_sha256_old": "5940fd14a4a4715375147a81680fb3f7af4c6025fa8696f42ffa677263b4bd04",
+      "plain_sha256_new": "4d51c87cce7e536f35ae7a9bc8c3a389c1bf0de893940920f49aba89d4eb4301",
+      "sites": 1
+    },
+    {
+      "entry": "i_pump_13.fme",
+      "slot": 597,
+      "stored_old": 1484,
+      "stored_new": 1496,
+      "plain_size": 3644,
+      "plain_sha256_old": "9a720de456e19a381a66606d697360c9caf6a0a00ac8cbef732828b8e97125b4",
+      "plain_sha256_new": "b8a0ed7fc75740f76dffd3bfe36fa9ed664f79079d9fbb7d48a788d69bf9aa0e",
+      "sites": 2
+    },
+    {
+      "entry": "o_peach_g_16.fev",
+      "slot": 609,
+      "stored_old": 12520,
+      "stored_new": 12424,
+      "plain_size": 39731,
+      "plain_sha256_old": "8bdbdf3c311b51360e8ffce08c83ea3dc524aad5e2ffef3b8faca3bf1324c009",
+      "plain_sha256_new": "04b70726fb0505f022467cea1d0f7081770095d426007f3611709453150f0b40",
+      "sites": 1
+    },
+    {
+      "entry": "o_peach_2f_24.fme",
+      "slot": 679,
+      "stored_old": 2844,
+      "stored_new": 2852,
+      "plain_size": 8117,
+      "plain_sha256_old": "c53a173857c762bbbf2f8dc338b66f304b6c9db06e7444e7595d6417c03726fc",
+      "plain_sha256_new": "9684f0073fc634a1d7e0fb8ce77ba23068a9404902ec1f5857417176502252cd",
+      "sites": 1
+    },
+    {
+      "entry": "o_koopa_23.fme",
+      "slot": 683,
+      "stored_old": 3020,
+      "stored_new": 3028,
+      "plain_size": 8692,
+      "plain_sha256_old": "d231533a5a85dae237dd8445053cd2f7dc17c5ae31ef4b63debbb65d31c464ca",
+      "plain_sha256_new": "ecc902234ef913d23833510640694c24806896cda985f601d071d5dc069bd466",
+      "sites": 1
+    },
+    {
+      "entry": "o_ekubon_11.fev",
+      "slot": 684,
+      "stored_old": 4116,
+      "stored_new": 4108,
+      "plain_size": 12395,
+      "plain_sha256_old": "ab94b2e7cc9c9542db903d7010cd2be52a71e2b98ede887cab847ce83d8a1861",
+      "plain_sha256_new": "5c7272d0888341b06039b0788453666823eb6390d0a7770926100adba53ac2a7",
+      "sites": 1
+    },
+    {
+      "entry": "i_energy_28.fme",
+      "slot": 728,
+      "stored_old": 2236,
+      "stored_new": 2244,
+      "plain_size": 5946,
+      "plain_sha256_old": "76cf89c8077bc99d2221e06a6a3c9faaecdd98e9244c412aebd197c3a071dfd6",
+      "plain_sha256_new": "45ca8f3170bb275a4be37dd306c65391ae5c5ab28e18ac95ca82319590f2a429",
+      "sites": 1
+    },
+    {
+      "entry": "o_ekubon_21.fme",
+      "slot": 753,
+      "stored_old": 3284,
+      "stored_new": 3304,
+      "plain_size": 9309,
+      "plain_sha256_old": "9d7b5886286b778e953db6182efc1d8a616c656a3879b933fc16ec1dc1392862",
+      "plain_sha256_new": "5bd129fb4efb095c1d544e88e79a59fa75525858b532a4126256d2944ccc50b7",
+      "sites": 1
+    },
+    {
+      "entry": "o_ekubon_15_SA_giganin_01_U.fev",
+      "slot": 764,
+      "stored_old": 5480,
+      "stored_new": 5460,
+      "plain_size": 18791,
+      "plain_sha256_old": "8d54c485020fb7e4d2ca03ff237fc1335819cb716ee7cceb36193fe59b8f045e",
+      "plain_sha256_new": "52898bf5c366dd2b84bcf2808f36e865a414749d3e8e28d2b24dbcd113d22e14",
+      "sites": 1
+    },
+    {
+      "entry": "i_dokan_01.fev",
+      "slot": 773,
+      "stored_old": 21784,
+      "stored_new": 21576,
+      "plain_size": 76525,
+      "plain_sha256_old": "82b522ed5785e533e02d4b3fc5b2dfe5d7e95c20765bf50cf6eb0be669211746",
+      "plain_sha256_new": "1a414f75654f96367cfd24bef0848b8edd66a84fcf576513932408f0a8135d6b",
+      "sites": 2
+    },
+    {
+      "entry": "o_ekubon_11.fme",
+      "slot": 812,
+      "stored_old": 2936,
+      "stored_new": 2940,
+      "plain_size": 8616,
+      "plain_sha256_old": "7cffeebfcec720082f601deb04ffab1427d3a3571fbfed75a5f184906220fa2d",
+      "plain_sha256_new": "ed921cacc3934efda23a7a61b34fe223d486c978320c0903715e7808bf2b761f",
+      "sites": 1
+    },
+    {
+      "entry": "i_pump_15.fme",
+      "slot": 827,
+      "stored_old": 2360,
+      "stored_new": 2364,
+      "plain_size": 6795,
+      "plain_sha256_old": "115b968442019eedd292e2a0259d67ac944fd03549bb311b14a245ecf37a322c",
+      "plain_sha256_new": "87a27700f20c9baf62ab2239b8aede5a2ee4d149081ee37da6c2fdfa9890208b",
+      "sites": 2
+    },
+    {
+      "entry": "i_pump_04.fme",
+      "slot": 852,
+      "stored_old": 1780,
+      "stored_new": 1788,
+      "plain_size": 4635,
+      "plain_sha256_old": "d6cc351ca84aad36f36b74c466686ca4b155641871191df2e9281155fe235bb9",
+      "plain_sha256_new": "8e4f8a7df33c15ffe226ec4eb46cfbb9357c976a930ed6aa86537084da42e7f2",
+      "sites": 1
+    },
+    {
+      "entry": "o_peach_3f_10.fev",
+      "slot": 865,
+      "stored_old": 12584,
+      "stored_new": 12644,
+      "plain_size": 38733,
+      "plain_sha256_old": "0c765575732edff1f9f350b8b6918ddfefddd13c78105a514bbd82ecc276f941",
+      "plain_sha256_new": "462663debe5f5132a3c74d53c73a3c40b69c506af9546937e25c2e18ff78874b",
+      "sites": 1
+    },
+    {
+      "entry": "o_gepu_03.fev",
+      "slot": 920,
+      "stored_old": 7088,
+      "stored_new": 7044,
+      "plain_size": 24131,
+      "plain_sha256_old": "ef8751e708d81fa2ad7174e36ec46faf30fc6737f0759fece78618948b197b75",
+      "plain_sha256_new": "5996cad0d46dbf8c089307a31677fb66a84b2fee7ba08c6864f661d9121cf3c3",
+      "sites": 1
+    },
+    {
+      "entry": "o_peach_2f_11.fme",
+      "slot": 922,
+      "stored_old": 2960,
+      "stored_new": 2960,
+      "plain_size": 8141,
+      "plain_sha256_old": "a0e0c5863121309b3a39b85f4533bf4392bfe2ac11ccd4b0b72313afeb69170c",
+      "plain_sha256_new": "0bc7d59570f35261aa1ab690c1ce6257d42f76dbd175fa659d28b5cf8c04fac7",
+      "sites": 1
+    },
+    {
+      "entry": "o_peach_3f_09.fme",
+      "slot": 923,
+      "stored_old": 2896,
+      "stored_new": 2916,
+      "plain_size": 8321,
+      "plain_sha256_old": "a1f9be682db7a39361404b97df152bc32021fd90e302060f7af52fbed48ac925",
+      "plain_sha256_new": "ac3063ebfa3f7c75338df5af9a3c79d6caade9ed8b8517ef5e64d9a2ce91869d",
+      "sites": 1
+    },
+    {
+      "entry": "i_tainai_01.fev",
+      "slot": 955,
+      "stored_old": 14700,
+      "stored_new": 14716,
+      "plain_size": 47454,
+      "plain_sha256_old": "3ae825185546aaf6b14f65d8039a0b2e18ac7ce37e4530d48482035b836a60fc",
+      "plain_sha256_new": "b4e7801950a6ff8351ae4b1e7ab1c36e60dd8c4949c6de701be3ca089d22a360",
+      "sites": 1
+    },
+    {
+      "entry": "o_peach_2f_21.fme",
+      "slot": 957,
+      "stored_old": 2836,
+      "stored_new": 2836,
+      "plain_size": 7681,
+      "plain_sha256_old": "078bc307355f9a9b134497fd5969b578034e70bfc7ac2a671621de8296651482",
+      "plain_sha256_new": "7e0fd31d6621b0333d77adeb73ea871d88064a38f66bf26ff69cdd885686aba8",
+      "sites": 1
+    },
+    {
+      "entry": "o_ekubon_08.fme",
+      "slot": 966,
+      "stored_old": 2484,
+      "stored_new": 2484,
+      "plain_size": 6890,
+      "plain_sha256_old": "d5d545d5b95b737f83e01096897300bc0c4908e082ff09dee6f833fa5acde7a1",
+      "plain_sha256_new": "fe95c65e78c78e9730840675c39488d10a271074c022f603be4c63e6df2426d6",
+      "sites": 1
+    },
+    {
+      "entry": "i_energy_03.fme",
+      "slot": 976,
+      "stored_old": 1896,
+      "stored_new": 1900,
+      "plain_size": 4738,
+      "plain_sha256_old": "1ea399ba1c5f2354d4c21fdaabc606b77258d32e71a242e43e93c62509cb3dc7",
+      "plain_sha256_new": "141c14ed02784af584bd1d0b591e45fa1a09575a0a972c6def1042d5c7611781",
+      "sites": 1
+    },
+    {
+      "entry": "i_air_15.fme",
+      "slot": 992,
+      "stored_old": 2908,
+      "stored_new": 2908,
+      "plain_size": 8457,
+      "plain_sha256_old": "7a4b3dc08d9929f0db28b47754eddd7bba46b8e4897e4bd7c5a8456a631bb3b7",
+      "plain_sha256_new": "33b6ff39d0b171366c81d3b41ef1d22e185406434c1a357add84a260403962a7",
+      "sites": 2
+    },
+    {
+      "entry": "i_power_lungs_SA_fire_01_L.fev",
+      "slot": 998,
+      "stored_old": 8068,
+      "stored_new": 7992,
+      "plain_size": 29089,
+      "plain_sha256_old": "94e7a0fd3e61eaf9cb39f71dcca8e17465eab32cc6929d14bdcd481d29d50566",
+      "plain_sha256_new": "1cd9ebb2b9b15d4076cae3f1fe5207d61b0621e671b61a8c5f1604a8cb48933d",
+      "sites": 1
+    },
+    {
+      "entry": "i_air_08.fme",
+      "slot": 1008,
+      "stored_old": 1840,
+      "stored_new": 1844,
+      "plain_size": 5262,
+      "plain_sha256_old": "7b9fbdb98bde3d09cee3c17567988f15ba3dec415e713cc133ee36f37f0aa697",
+      "plain_sha256_new": "62fff76269905c8a021df46af5d62b25e14a68cab63a621e845f47491a8a47c5",
+      "sites": 1
+    },
+    {
+      "entry": "o_peach_3f_08.fme",
+      "slot": 1024,
+      "stored_old": 2672,
+      "stored_new": 2676,
+      "plain_size": 7903,
+      "plain_sha256_old": "846a36f2bb3065aa28400857a8ad2a0144864abc4df8dd39f1ba9adceb2ce771",
+      "plain_sha256_new": "9b55e50ac78160b5db7a932489d68e692f9f4c2f94156b8ea2cd90f7ad78fbc3",
+      "sites": 1
+    },
+    {
+      "entry": "i_pump_17.fme",
+      "slot": 1053,
+      "stored_old": 2416,
+      "stored_new": 2424,
+      "plain_size": 6976,
+      "plain_sha256_old": "e8ecefdc3f1ee04d53bbc1939f146d8514a7a34191be7c315d025314099519a4",
+      "plain_sha256_new": "aeb613974f9d0e174968e86cd11623991db48a8205a0c77befba56b24cde82fa",
+      "sites": 2
+    },
+    {
+      "entry": "o_peach_3f_15_SA_fire_packun_01_U.fev",
+      "slot": 1070,
+      "stored_old": 12360,
+      "stored_new": 12532,
+      "plain_size": 36717,
+      "plain_sha256_old": "84d769ccefe4f07c1ff67578155546c6864de144865fa6d4e1e960b7a57a3e52",
+      "plain_sha256_new": "979fa085663acd3c177533ed4b1caa37429a37460d3351ce780c5d153c644e37",
+      "sites": 8
+    },
+    {
+      "entry": "i_energy_25.fme",
+      "slot": 1087,
+      "stored_old": 2112,
+      "stored_new": 2100,
+      "plain_size": 6281,
+      "plain_sha256_old": "66afbed22bb267a92c53856d72cd023d2e057bebaf5f0206899c880bf522fbd4",
+      "plain_sha256_new": "559a6d53ec74d750a3fb04be04dad0c9fddcbcd3bc174a034ca911ec1b2a66fa",
+      "sites": 2
+    },
+    {
+      "entry": "i_metaboru_08.fme",
+      "slot": 1095,
+      "stored_old": 2420,
+      "stored_new": 2436,
+      "plain_size": 6952,
+      "plain_sha256_old": "1b5881a457415ba70d74f95dcad7ee6600d5463a5e8243ff7e049679cc685729",
+      "plain_sha256_new": "9ee8f579ff245013777c03a765b6a260048866bd600db5c27ef6c2bb9911e6ce",
+      "sites": 1
+    },
+    {
+      "entry": "o_koopa_28.fev",
+      "slot": 1130,
+      "stored_old": 10120,
+      "stored_new": 10116,
+      "plain_size": 31875,
+      "plain_sha256_old": "2e76cc96b723a38d1943312fa09bd5546fb6a7dee4da5c6b521a3e242fe96128",
+      "plain_sha256_new": "9fd042094d7e784295c19f79470cf4698358996e2c0192670df5bda31b976045",
+      "sites": 1
+    },
+    {
+      "entry": "i_energy_15.fme",
+      "slot": 1157,
+      "stored_old": 2176,
+      "stored_new": 2164,
+      "plain_size": 6473,
+      "plain_sha256_old": "dcabbe5cc165082290d6de40e3d2bdf815a3f950641a13b91a5e48d7af20788b",
+      "plain_sha256_new": "f7a8134f04ffad4f6db90300f2bdb2a716b53b25b9e5f48bc12a5fab9e8b5249",
+      "sites": 2
+    },
+    {
+      "entry": "i_energy_30.fme",
+      "slot": 1158,
+      "stored_old": 1548,
+      "stored_new": 1556,
+      "plain_size": 3879,
+      "plain_sha256_old": "1912ea78a950f409c55f89f11c21f6469f783c5fb6c3b6fbe65b8b00c3197ac5",
+      "plain_sha256_new": "1c0e4e9eb8813de257967aeba41d0f4925136e7df053be0507d32f12c40ea940",
+      "sites": 2
+    },
+    {
+      "entry": "o_zutsuda_17.fev",
+      "slot": 1162,
+      "stored_old": 8992,
+      "stored_new": 8884,
+      "plain_size": 29103,
+      "plain_sha256_old": "eab23ec1aed58197b24c3c5993cb5a7c0b78332e7e40f768a5fe54d03201c078",
+      "plain_sha256_new": "3661cf2852425244ee18d7590e7dfbbc7b09387fa13a2edb32d9c9957d160e57",
+      "sites": 1
+    },
+    {
+      "entry": "o_koopa_27.fev",
+      "slot": 1200,
+      "stored_old": 15176,
+      "stored_new": 15100,
+      "plain_size": 47300,
+      "plain_sha256_old": "24d4d5a0072e8c16353415b2d65c1e4877848e1b8b0890053b0e975d2e037e22",
+      "plain_sha256_new": "02ca9512243ab39638d0795ec6e33196bc02a6bf0e2b3aab682b49c16bc5c18f",
+      "sites": 1
+    },
+    {
+      "entry": "i_energy_20.fme",
+      "slot": 1224,
+      "stored_old": 2052,
+      "stored_new": 2052,
+      "plain_size": 5330,
+      "plain_sha256_old": "0246f44de39764839e62ad6844e69f7e9950dbe40465856fa840538c675509e0",
+      "plain_sha256_new": "589e19f4bd5d26a52521249d374db4554e44593bb86f2bf05848be353ec479b2",
+      "sites": 1
+    },
+    {
+      "entry": "i_air_20.fme",
+      "slot": 1255,
+      "stored_old": 2164,
+      "stored_new": 2172,
+      "plain_size": 5764,
+      "plain_sha256_old": "32c7fa07e91453457af4824b6ddca7eb20e309fb623fff2fd753c82ec2ccafc5",
+      "plain_sha256_new": "f98ca367f666bd543c324866b4f40209f14c43dce0fbaff231420fc07aed8847",
+      "sites": 1
+    },
+    {
+      "entry": "o_zutsuda_01.fme",
+      "slot": 1257,
+      "stored_old": 1972,
+      "stored_new": 1976,
+      "plain_size": 5371,
+      "plain_sha256_old": "c1785022e0d8847d203d42c30cf096581301b109f5aba01f1c6da1e77ae84fc7",
+      "plain_sha256_new": "0633206240092c7911576bc4d5c8dc49b1c6b312d369d2f052f19f6ea5264623",
+      "sites": 1
+    },
+    {
+      "entry": "o_koopa_26.fev",
+      "slot": 1270,
+      "stored_old": 12256,
+      "stored_new": 12256,
+      "plain_size": 38238,
+      "plain_sha256_old": "b9019dfb9adad8bc7bedcfcd8cb020b899cf656ed483ed385ec21e2016803777",
+      "plain_sha256_new": "96d03ae5bacf3f5fa4253aace8b47bd0fd19a3e808935f675bdc54bb0c9bac4b",
+      "sites": 1
+    },
+    {
+      "entry": "i_air_13.fme",
+      "slot": 1273,
+      "stored_old": 2060,
+      "stored_new": 2072,
+      "plain_size": 5236,
+      "plain_sha256_old": "90fae724b4c63c72f37dcf97b2f6cd5ba09521125ce489bd3a6baeae4184a35c",
+      "plain_sha256_new": "65bf11416d62f094959f3113643bd7f38bc3309bd33029b89ff9a9d12756c968",
+      "sites": 1
+    },
+    {
+      "entry": "o_ekubon_30.fme",
+      "slot": 1288,
+      "stored_old": 3388,
+      "stored_new": 3400,
+      "plain_size": 10280,
+      "plain_sha256_old": "7d84158d7a5347980b3b86f2a91820a2fd0f55f991fb540fba4b397d25ea8b5a",
+      "plain_sha256_new": "bef7c90a0a77e4e67048b3bc0ba6e54ab02336702a1e2705738adfbd94f6ef33",
+      "sites": 1
+    },
+    {
+      "entry": "o_peach_t_SA_fire_dkoopa_01_U.fev",
+      "slot": 1293,
+      "stored_old": 6580,
+      "stored_new": 6588,
+      "plain_size": 19468,
+      "plain_sha256_old": "59695eb7d5ffd3f4523241216f11c24a6ef2c5ce37df583da7fa213ca2f4abec",
+      "plain_sha256_new": "51b615747eb17af80333191c4c99f135e1297d55074946e61ceb1dcb64082c18",
+      "sites": 3
+    },
+    {
+      "entry": "i_metaboru_06.fme",
+      "slot": 1297,
+      "stored_old": 1740,
+      "stored_new": 1744,
+      "plain_size": 4421,
+      "plain_sha256_old": "41f587ba0dbe7f197bcd77bdd8edbb021299f7e0b2c341223def5444fb6877c9",
+      "plain_sha256_new": "a3030f241b92f30d77423caaa8df1efe6c01eb4eb0db848bd8b1c51ef41da952",
+      "sites": 1
+    },
+    {
+      "entry": "o_zutsuda_02.fme",
+      "slot": 1305,
+      "stored_old": 3472,
+      "stored_new": 3468,
+      "plain_size": 10758,
+      "plain_sha256_old": "77119d23bbcf0e4cc874374afba4baf2344282e53e6f28e10275cf4ee20c9184",
+      "plain_sha256_new": "f1392b6822549ba3b75fe000f8cbccc3f873bbd5d3de0aaeeb33a12fcdff0861",
+      "sites": 1
+    },
+    {
+      "entry": "i_air_18.fme",
+      "slot": 1316,
+      "stored_old": 3004,
+      "stored_new": 3012,
+      "plain_size": 8819,
+      "plain_sha256_old": "9cf00dd03079ff7038647bf40f71a3de3cb50b4450d7276c3c8224006f6687db",
+      "plain_sha256_new": "964835d60154d4f08e2bec1ebb4ab50d6c9122bc44c658d728c2b4e349ce3ea4",
+      "sites": 2
+    },
+    {
+      "entry": "i_energy_27.fme",
+      "slot": 1332,
+      "stored_old": 1432,
+      "stored_new": 1432,
+      "plain_size": 3519,
+      "plain_sha256_old": "c0d3d48b6b1b3a44f015f252f57ff7b494cea294a0ac953c09a22a2e618edd5c",
+      "plain_sha256_new": "8c305e6041f02c160511d845f7357d8569dd6820d6b380efcfd3bf14bcb3679c",
+      "sites": 2
+    },
+    {
+      "entry": "o_zutsuda_03.fme",
+      "slot": 1350,
+      "stored_old": 3588,
+      "stored_new": 3588,
+      "plain_size": 11156,
+      "plain_sha256_old": "08f688b486f150cf064fcbd6c43b05d9aa3fad63c4e047e0f99a852f3ecf1059",
+      "plain_sha256_new": "e60a8e07c003b68f30c36473a54c20b00488256f9bfbac73538d311f098557a0",
+      "sites": 1
+    },
+    {
+      "entry": "o_ekubon_20.fme",
+      "slot": 1354,
+      "stored_old": 3124,
+      "stored_new": 3148,
+      "plain_size": 8751,
+      "plain_sha256_old": "8d72c29c234e190402f07c1fcdf926ca2ef2556d5448728815976f893ad22618",
+      "plain_sha256_new": "be21f118961546d0d63e73dcd43da8783723ad0c2c34d49ae81ff629a1a4d937",
+      "sites": 1
+    },
+    {
+      "entry": "o_gepu_05_after.fev",
+      "slot": 1393,
+      "stored_old": 9916,
+      "stored_new": 9884,
+      "plain_size": 34111,
+      "plain_sha256_old": "49d82b5a1b758eb8d5b294b5ee6e92734fe793afbc6dd0745790f5927ddf171c",
+      "plain_sha256_new": "9bbac387f831deb1fa9a43327bf674755833b1fc49d9bc264b8a606bd294e2a0",
+      "sites": 1
+    },
+    {
+      "entry": "i_power_nose_SA_peppansy_01_L.fev",
+      "slot": 1413,
+      "stored_old": 16364,
+      "stored_new": 16548,
+      "plain_size": 55698,
+      "plain_sha256_old": "be317d33f0dd463e05997ccb8f9c275909bd9ed3c86fc0f505af3d7562b47cd8",
+      "plain_sha256_new": "76e43a4a2930785137369d7748b52309a661a05f70545b925426cf12cffd9f7f",
+      "sites": 7
+    },
+    {
+      "entry": "o_peach_3f_04.fme",
+      "slot": 1415,
+      "stored_old": 2680,
+      "stored_new": 2684,
+      "plain_size": 7903,
+      "plain_sha256_old": "499f967b3fe49b199ae540b206823e6e633b1ed01e70470f7f94b950fd319269",
+      "plain_sha256_new": "a4a7c9c510e8b161883fe4cb7185b5d19167f2c0b9a212983c97f4ec1dff77dc",
+      "sites": 1
+    },
+    {
+      "entry": "i_pump_14.fme",
+      "slot": 1425,
+      "stored_old": 2412,
+      "stored_new": 2424,
+      "plain_size": 6976,
+      "plain_sha256_old": "be6f9c451c3b97cd0c1bc8e84575fc8e879ffb96b52260ae5641675d0e20a54e",
+      "plain_sha256_new": "21fc44bb53cc0bf0e230d693694beb7a1b3bb778c25173477c94420272d90b4d",
+      "sites": 2
+    }
+  ],
+  "install": "LayeredFS: copy romfs/FEvent/FEvent.dat to <mods>/00040000001CA900/romfs/FEvent/FEvent.dat"
+}

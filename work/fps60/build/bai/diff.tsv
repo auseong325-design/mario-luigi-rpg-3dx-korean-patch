@@ -1,0 +1,16 @@
+script	offset	group	transform	old_bytes	new_bytes	old	new	reason
+atk_dstar_4.bai	0x3454	hold	add2	250000000000128000000040	160003000000128012801270	$8012 = op025(2f)	$8012 = op016($8012, $7012)	hold grace +2/frame, ends at >=16
+atk_dstar_x_4.bai	0x3454	hold	add2	250000000000128000000040	160003000000128012801270	$8012 = op025(2f)	$8012 = op016($8012, $7012)	hold grace +2/frame, ends at >=16
+atk_koopa2_2.bai	0x2b78	hold	add2	250000000000128000000040	160003000000128012801270	$8012 = op025(2f)	$8012 = op016($8012, $7012)	hold grace +2/frame, ends at >=16
+atk_koopax_2.bai	0x2742	hold	add2	250000000000128000000040	160003000000128012801270	$8012 = op025(2f)	$8012 = op016($8012, $7012)	hold grace +2/frame, ends at >=16
+atk_dgeraco_5.bai	0x298e	hold	add2	250000000000128000000040	160003000000128012801270	$8012 = op025(2f)	$8012 = op016($8012, $7012)	hold grace +2/frame, ends at >=16
+atk_geraco2_4.bai	0x2560	step2	add2	250000000000188000000040	160003000000188018801270	$8018 = op025(2f)	$8018 = op016($8018, $7012)	wait loop: +2/frame until >= $707e
+atk_koopax_5.bai	0x4b82	step2	add2	250000000000118000000040	160003000000118011801270	$8011 = op025(2f)	$8011 = op016($8011, $7012)	timeout loop: +2/frame until >= $8001
+atk_geraco2_3.bai	0x2e66	step2	add2	250000000000108000000040	160003000000108010801270	$8010 = op025(2f)	$8010 = op016($8010, $7012)	interpolation $8013=$8010/50 per frame
+atk_geraco2_3.bai	0x2ec9	step2	add2	250000000000108000000040	160003000000108010801270	$8010 = op025(2f)	$8010 = op016($8010, $7012)	idle animation toggle every 80 units
+atk_dgeraco_4.bai	0x22d8	step2	add2	2500000000007e7000000040	1600030000007e707e701270	$707e = op025(2f)	$707e = op016($707e, $7012)	orbit radius ramp +2/frame to 192
+atk_dstar_4.bai	0x2f7c	orbit	wait2	0500000000000100	0500000000000200	wait(1)	wait(2)	orbit loop 0x2e09: angle += 7.4 deg/frame
+atk_dstar_x_4.bai	0x2f7c	orbit	wait2	0500000000000100	0500000000000200	wait(1)	wait(2)	orbit loop 0x2e09: angle += 8 deg/frame
+atk_koopa2_2.bai	0x27d8	orbit	wait2	0500000000000100	0500000000000200	wait(1)	wait(2)	orbit loop 0x2659: angle += 6.8 deg/frame
+atk_koopax_2.bai	0x23a2	orbit	wait2	0500000000000100	0500000000000200	wait(1)	wait(2)	orbit loop 0x2223: angle += 7 deg/frame
+atk_dgeraco_5.bai	0x25cf	orbit	wait2	0500000000000100	0500000000000200	wait(1)	wait(2)	orbit loop 0x2450: angle += 7.4 deg/frame

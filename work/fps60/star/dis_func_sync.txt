@@ -1,0 +1,61 @@
+; |static| ad::fw::TaskBase::func+0x74
+0013dc40: aabf04eb bl       #0x26daf0
+0013dc44: 4400d4e5 ldrb     r0, [r4, #0x44]
+0013dc48: 841194e5 ldr      r1, [r4, #0x184]
+0013dc4c: 0150a0e3 mov      r5, #1
+0013dc50: 010050e3 cmp      r0, #1
+0013dc54: 4500d415 ldrbne   r0, [r4, #0x45]
+0013dc58: 02005013 cmpne    r0, #2
+0013dc5c: 03005013 cmpne    r0, #3
+0013dc60: 2b00000a beq      #0x13dd14
+0013dc64: 0000a0e3 mov      r0, #0
+0013dc68: 000051e3 cmp      r1, #0
+0013dc6c: 28008de5 str      r0, [sp, #0x28]
+0013dc70: 3500000a beq      #0x13dd4c
+0013dc74: 432705eb bl       #0x287988  ; CmdListBase::WaitDoneAndStop
+0013dc78: 840194e5 ldr      r0, [r4, #0x184]
+0013dc7c: 781090e5 ldr      r1, [r0, #0x78]
+0013dc80: 981184e5 str      r1, [r4, #0x198]
+0013dc84: 701194e5 ldr      r1, [r4, #0x170]
+0013dc88: 6c2194e5 ldr      r2, [r4, #0x16c]
+0013dc8c: 022041e0 sub      r2, r1, r2
+0013dc90: 422185e0 add      r2, r5, r2, asr #2
+0013dc94: 020052e3 cmp      r2, #2
+0013dc98: 0400008a bhi      #0x13dcb0
+0013dc9c: 000051e3 cmp      r1, #0
+0013dca0: 00008115 strne    r0, [r1]
+0013dca4: 700194e5 ldr      r0, [r4, #0x170]
+0013dca8: 040080e2 add      r0, r0, #4
+0013dcac: 700184e5 str      r0, [r4, #0x170]
+0013dcb0: 5f0f84e2 add      r0, r4, #0x17c
+0013dcb4: 847184e5 str      r7, [r4, #0x184]
+0013dcb8: 090090e8 ldm      r0, {r0, r3}
+0013dcbc: 030050e1 cmp      r0, r3
+0013dcc0: 1000000a beq      #0x13dd08
+0013dcc4: 701194e5 ldr      r1, [r4, #0x170]
+0013dcc8: 6cc194e5 ldr      ip, [r4, #0x16c]
+0013dccc: 592f84e2 add      r2, r4, #0x164
+0013dcd0: 0cc041e0 sub      ip, r1, ip
+0013dcd4: 4cc185e0 add      ip, r5, ip, asr #2
+0013dcd8: 02005ce3 cmp      ip, #2
+0013dcdc: 0600008a bhi      #0x13dcfc
+0013dce0: 000051e3 cmp      r1, #0
+0013dce4: 00c09015 ldrne    ip, [r0]
+0013dce8: 082082e2 add      r2, r2, #8
+0013dcec: 00c08115 strne    ip, [r1]
+0013dcf0: 041092e5 ldr      r1, [r2, #4]
+0013dcf4: 041081e2 add      r1, r1, #4
+0013dcf8: 041082e5 str      r1, [r2, #4]
+0013dcfc: 040080e2 add      r0, r0, #4
+0013dd00: 030050e1 cmp      r0, r3
+0013dd04: eeffff1a bne      #0x13dcc4
+0013dd08: 7c0194e5 ldr      r0, [r4, #0x17c]
+0013dd0c: 800184e5 str      r0, [r4, #0x180]
+0013dd10: 0d0000ea b        #0x13dd4c
+0013dd14: 0100a0e3 mov      r0, #1
+0013dd18: 000051e3 cmp      r1, #0
+0013dd1c: 28008de5 str      r0, [sp, #0x28]
+0013dd20: 0400000a beq      #0x13dd38
+0013dd24: 5c0a9fe5 ldr      r0, [pc, #0xa5c]  ; =0x42506c gDisplayBufSet
+0013dd28: b800d0e5 ldrb     r0, [r0, #0xb8]
+0013dd2c: 00f020e3 nop      

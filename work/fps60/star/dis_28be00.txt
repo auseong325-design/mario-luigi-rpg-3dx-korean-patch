@@ -1,0 +1,31 @@
+; |static| btl::Main::entryObj+0x7b0
+0028be00: 74849de5 ldr      r8, [sp, #0x474]
+0028be04: 080050e1 cmp      r0, r8
+0028be08: 8400000a beq      #0x28c020
+0028be0c: 740594e5 ldr      r0, [r4, #0x574]
+0028be10: 0010d8e5 ldrb     r1, [r8]
+0028be14: 698ab0ee vmov.f32 s16, s19
+0028be18: 8c2090e5 ldr      r2, [r0, #0x8c]
+0028be1c: 810081e0 add      r0, r1, r1, lsl #1
+0028be20: ff1000e2 and      r1, r0, #0xff
+0028be24: 013080e2 add      r3, r0, #1
+0028be28: 020080e2 add      r0, r0, #2
+0028be2c: ff9000e2 and      sb, r0, #0xff
+0028be30: 810382e0 add      r0, r2, r1, lsl #7
+0028be34: 5c7080e2 add      r7, r0, #0x5c
+0028be38: 605090e5 ldr      r5, [r0, #0x60]
+0028be3c: ffa003e2 and      sl, r3, #0xff
+0028be40: 070055e1 cmp      r5, r7
+0028be44: 2000000a beq      #0x28becc
+0028be48: 480ab0ee vmov.f32 s0, s16
+0028be4c: 92bf45e2 sub      fp, r5, #0x248
+0028be50: 0b00a0e1 mov      r0, fp
+0028be54: b103ffeb bl       #0x24cd20
+0028be58: 7311dbe5 ldrb     r1, [fp, #0x173]
+0028be5c: 0b00a0e1 mov      r0, fp
+0028be60: 000051e3 cmp      r1, #0
+0028be64: 1500000a beq      #0x28bec0
+0028be68: 041090e5 ldr      r1, [r0, #4]
+0028be6c: 04008be2 add      r0, fp, #4
+0028be70: 000051e1 cmp      r1, r0
+0028be74: 1100001a bne      #0x28bec0

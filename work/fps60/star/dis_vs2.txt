@@ -1,0 +1,25 @@
+; |static| nngxBindCmdlist+0x788
+00112f4c: 34409fe5 ldr      r4, [pc, #0x34]  ; =0x429090
+00112f50: 601194e5 ldr      r1, [r4, #0x160]
+00112f54: 000051e3 cmp      r1, #0
+00112f58: 2c009f15 ldrne    r0, [pc, #0x2c]  ; =0x401
+00112f5c: 31ff2f11 blxne    r1
+00112f60: 580194e5 ldr      r0, [r4, #0x158]
+00112f64: 0511a0e3 mov      r1, #0x40000001
+00112f68: 010080e2 add      r0, r0, #1
+00112f6c: 9120c1e0 smull    r2, r1, r1, r0
+00112f70: c12ea0e1 asr      r2, r1, #0x1d
+00112f74: c11f42e0 sub      r1, r2, r1, asr #31
+00112f78: 811f81e0 add      r1, r1, r1, lsl #31
+00112f7c: 010080e0 add      r0, r0, r1
+00112f80: 580184e5 str      r0, [r4, #0x158]
+00112f84: 1080bde8 pop      {r4, pc}
+00112f88: 90904200 umaaleq  sb, r2, r0, r0
+00112f8c: 01040000 andeq    r0, r0, r1, lsl #8
+00112f90: 1aa305ea b        #0x27bc00
+00112f94: 19a305ea b        #0x27bc00
+00112f98: 18a305ea b        #0x27bc00
+00112f9c: 000080e5 str      r0, [r0]
+00112fa0: 040080e5 str      r0, [r0, #4]
+00112fa4: 1eff2fe1 bx       lr
+00112fa8: 000080e5 str      r0, [r0]

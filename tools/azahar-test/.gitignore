@@ -1,0 +1,5 @@
+# RT test instance: emulator binaries, game content, saves, system data.
+# Never commit any of it.
+*
+!.gitignore
+!rt_launch.ps1

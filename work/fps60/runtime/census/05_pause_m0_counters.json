@@ -1,0 +1,246 @@
+{
+ "cmd": "counters",
+ "label": "05_pause_m0",
+ "time": "2026-10-30 14:53:42",
+ "ranges": [
+  {
+   "name": "static_data_bss",
+   "start": "0x003ef000",
+   "size": "0x45d40"
+  },
+  {
+   "name": "task",
+   "start": "0x30000028",
+   "size": "0x10000"
+  }
+ ],
+ "secs": 2.034,
+ "hits": [
+  {
+   "range": "static_data_bss",
+   "addr": "0x00425258",
+   "off": "0x36258",
+   "kind": "u32",
+   "v0": 76260,
+   "v2": 76381,
+   "rate": 59.5
+  },
+  {
+   "range": "static_data_bss",
+   "addr": "0x004291e4",
+   "off": "0x3a1e4",
+   "kind": "u32",
+   "v0": 110332,
+   "v2": 110453,
+   "rate": 59.5
+  },
+  {
+   "range": "static_data_bss",
+   "addr": "0x004291e8",
+   "off": "0x3a1e8",
+   "kind": "u32",
+   "v0": 110330,
+   "v2": 110451,
+   "rate": 59.5
+  },
+  {
+   "range": "static_data_bss",
+   "addr": "0x0042c6b8",
+   "off": "0x3d6b8",
+   "kind": "u32",
+   "v0": 153576,
+   "v2": 153744,
+   "rate": 82.61
+  },
+  {
+   "range": "static_data_bss",
+   "addr": "0x0042eb6c",
+   "off": "0x3fb6c",
+   "kind": "u32",
+   "v0": 1274,
+   "v2": 1279,
+   "rate": 2.46
+  },
+  {
+   "range": "static_data_bss",
+   "addr": "0x0042ec0c",
+   "off": "0x3fc0c",
+   "kind": "u32",
+   "v0": 1274,
+   "v2": 1279,
+   "rate": 2.46
+  },
+  {
+   "range": "static_data_bss",
+   "addr": "0x0042ecac",
+   "off": "0x3fcac",
+   "kind": "u32",
+   "v0": 1274,
+   "v2": 1279,
+   "rate": 2.46
+  },
+  {
+   "range": "static_data_bss",
+   "addr": "0x0042ed4c",
+   "off": "0x3fd4c",
+   "kind": "u32",
+   "v0": 1274,
+   "v2": 1279,
+   "rate": 2.46
+  },
+  {
+   "range": "static_data_bss",
+   "addr": "0x004300b4",
+   "off": "0x410b4",
+   "kind": "u32",
+   "v0": 75715,
+   "v2": 75836,
+   "rate": 59.5
+  },
+  {
+   "range": "static_data_bss",
+   "addr": "0x004300b8",
+   "off": "0x410b8",
+   "kind": "u32",
+   "v0": 75713,
+   "v2": 75834,
+   "rate": 59.5
+  },
+  {
+   "range": "static_data_bss",
+   "addr": "0x004300f4",
+   "off": "0x410f4",
+   "kind": "u32",
+   "v0": 12,
+   "v2": 22,
+   "rate": 4.92
+  },
+  {
+   "range": "static_data_bss",
+   "addr": "0x004301a8",
+   "off": "0x411a8",
+   "kind": "u32",
+   "v0": 7,
+   "v2": 17,
+   "rate": 4.92
+  },
+  {
+   "range": "static_data_bss",
+   "addr": "0x00430244",
+   "off": "0x41244",
+   "kind": "u32",
+   "v0": 5388,
+   "v2": 5398,
+   "rate": 4.92
+  },
+  {
+   "range": "static_data_bss",
+   "addr": "0x00430248",
+   "off": "0x41248",
+   "kind": "u32",
+   "v0": 5385,
+   "v2": 5395,
+   "rate": 4.92
+  },
+  {
+   "range": "static_data_bss",
+   "addr": "0x0043451c",
+   "off": "0x4551c",
+   "kind": "u32",
+   "v0": 8,
+   "v2": 18,
+   "rate": 4.92
+  },
+  {
+   "range": "task",
+   "addr": "0x300000ec",
+   "off": "0xc4",
+   "kind": "u32",
+   "v0": 2206,
+   "v2": 2326,
+   "rate": 59.0
+  },
+  {
+   "range": "task",
+   "addr": "0x30000178",
+   "off": "0x150",
+   "kind": "u32",
+   "v0": 2205,
+   "v2": 2327,
+   "rate": 59.99
+  },
+  {
+   "range": "task",
+   "addr": "0x300001b4",
+   "off": "0x18c",
+   "kind": "u32",
+   "v0": 110332,
+   "v2": 110453,
+   "rate": 59.5
+  },
+  {
+   "range": "task",
+   "addr": "0x300001b8",
+   "off": "0x190",
+   "kind": "u32",
+   "v0": 2207,
+   "v2": 2328,
+   "rate": 59.5
+  },
+  {
+   "range": "task",
+   "addr": "0x300001bc",
+   "off": "0x194",
+   "kind": "u32",
+   "v0": 2206,
+   "v2": 2327,
+   "rate": 59.5
+  },
+  {
+   "range": "task",
+   "addr": "0x300001c0",
+   "off": "0x198",
+   "kind": "u32",
+   "v0": 2205,
+   "v2": 2326,
+   "rate": 59.5
+  },
+  {
+   "range": "task",
+   "addr": "0x300001c4",
+   "off": "0x19c",
+   "kind": "u32",
+   "v0": 2207,
+   "v2": 2328,
+   "rate": 59.5
+  },
+  {
+   "range": "task",
+   "addr": "0x300001c8",
+   "off": "0x1a0",
+   "kind": "u32",
+   "v0": 2205,
+   "v2": 2326,
+   "rate": 59.5
+  },
+  {
+   "range": "task",
+   "addr": "0x300001cc",
+   "off": "0x1a4",
+   "kind": "u32",
+   "v0": 2205,
+   "v2": 2326,
+   "rate": 59.5
+  },
+  {
+   "range": "task",
+   "addr": "0x300005a0",
+   "off": "0x578",
+   "kind": "u32",
+   "v0": 2206,
+   "v2": 2327,
+   "rate": 59.5
+  }
+ ],
+ "pid": 11
+}

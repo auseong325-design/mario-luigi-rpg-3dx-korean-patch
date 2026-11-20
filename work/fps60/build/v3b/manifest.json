@@ -1,0 +1,284 @@
+{
+ "tool": "scripts/fps60/build_fps60.py",
+ "built": "2026-10-30T23:01:38+09:00",
+ "tag": "v3b",
+ "flags": {
+  "credits_fix": true,
+  "allow": [
+   "fld",
+   "btl",
+   "kj",
+   "menu"
+  ],
+  "new3ds_test": true,
+  "emu_tests": true,
+  "field_vm30": true,
+  "with_bai": false
+ },
+ "credits": "covered by --field-vm30: update() runs once per script tick, 30/s; crd60_fix not installed",
+ "target": {
+  "game": "Mario & Luigi RPG3 DX JP",
+  "version": "v1.2",
+  "title_id": "00040000001CA900",
+  "update_id": "0004000E001CA900"
+ },
+ "install": {
+  "file": "code.bps",
+  "luma3ds": "SD:/luma/titles/00040000001CA900/code.bps (Luma3DS >= v10.1, 'Enable game patching')",
+  "azahar": "<user>/load/mods/00040000001CA900/code.bps (or exefs/code.bps)",
+  "romfs": "copy romfs/ overlay files (if any) into the same title folder's romfs/",
+  "never_both": "do not install code.ips next to code.bps (Azahar uses only exefs/code.ips if present; Luma applies BPS then IPS)"
+ },
+ "input": {
+  "path": "work/fps60/bin/3dx_v12.code.bin",
+  "size": 3117056,
+  "sha256": "3e9d5c52f4dd585b4c45b96eb9fce47995d31eaeedc5801f761e72fe99df1816",
+  "crc32": "BD87889C"
+ },
+ "outputs": {
+  "code.bps": {
+   "size": 559,
+   "sha256": "c3922b9dcaafb5edacee2eda93ae13bd4c49f49c256495fbc456baf19a405be2"
+  },
+  "code.ips": {
+   "size": 552,
+   "sha256": "e5aa7d60686a9129508600e0a43f4391290dd09e9a9661db1c9de1d3b05d998a"
+  },
+  "patched.code.bin": {
+   "size": 3117056,
+   "sha256": "4bd714f2a5f68337ae8966f263ce59b6e9415c9a0c968d1daea68e6ed5d7a7e2"
+  }
+ },
+ "romfs": {},
+ "patches": [
+  {
+   "id": "init_hook",
+   "addr": "0x28092c",
+   "orig": "3d00d4e5",
+   "orig_asm": "ldrb r0, [r4, #0x3d]",
+   "new": "372104eb",
+   "new_asm": "bl #0x388e10",
+   "why": "decide the fps mode inside ad::fw::TaskBase::init, before the first frame (D1)",
+   "file_offset": "0x18092c"
+  },
+  {
+   "id": "cave",
+   "addr": "0x388e10",
+   "orig": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+   "orig_asm": "476 zero bytes (.text page padding)",
+   "new": "0e402de90000a0e34100c4e53d00d4e5010050e30f00001a002094e538308fe2041093e4000051e30900000a020051e1faffff1a98edfbeb000050e30400000a0000a0e33d00c4e50110a0e34110c4e5000000ea3d00d4e50e80bde83c3b3e00c4103e00d8eb3d0074483e000000000058c19fe5000000ea54c19fe5041090e5000051e31cff2f01301191e5000051e31cff2f014510d1e5000051e3000a300e1cff2fe10dc041e002095ce3b9bcfc3a04c090e500005ce3b6bcfc0a30c19ce500005ce3b3bcfc0a4520dce5000052e3b0bcfc1a78259ce5010012e3adbcfc0af0309fe50c2083e501ca8ce2000b9ce5082090e5002083e50c2090e5042083e5080b9ce5082090e53c2002e2082083e5140891e58002a0e1200fa0e11eff2fe107ca43e22fc04ce212005ce3c664fd8a04c090e500005ce3c364fd0a30c19ce500005ce3c064fd0af0412de94540dce5000054e31b00001a78459ce5010014e31800001a6c509fe50c6095e5014044e2040056e11300001a01ca8ce2006b9ce5087b9ce5084096e500e095e504e08ee108e086e50c8096e504e095e508e08ee10ce086e508e095e5085097e505e08ee108e087e5a464fdeb084086e50c8086e5085087e5f081bde8f041bde89e64fdeaf08a2a0014992d00004f4300",
+   "new_asm": "eng60_init + allow-list + fld60_step_es/res + fld60_exec + fld60_sysvar",
+   "why": "code cave in the last RX page of .text, above Luma's LayeredFS payload (D2)",
+   "file_offset": "0x288e10"
+  },
+  {
+   "id": "vt_es_step",
+   "addr": "0x3e17b8",
+   "orig": "f08a2a00",
+   "orig_asm": ".word 0x002a8af0 (N3fld11EventSystemE slot +0x34)",
+   "new": "808e3800",
+   "new_asm": ".word 0x00388e80 (fld60_step_es)",
+   "why": "F1: event step x2 under G (wait(n) on the 30fps schedule)",
+   "file_offset": "0x2e17b8"
+  },
+  {
+   "id": "vt_res_step",
+   "addr": "0x3e3070",
+   "orig": "14992d00",
+   "orig_asm": ".word 0x002d9914 (N3fld19ResidentEventSystemE slot +0x34)",
+   "new": "888e3800",
+   "new_asm": ".word 0x00388e88 (fld60_step_res)",
+   "why": "F1: event step x2 under G (wait(n) on the 30fps schedule)",
+   "file_offset": "0x2e3070"
+  },
+  {
+   "id": "vt_es_exec",
+   "addr": "0x3e17a4",
+   "orig": "a8812b00",
+   "orig_asm": ".word 0x002b81a8 (N3fld11EventSystemE slot +0x20)",
+   "new": "b48e3800",
+   "new_asm": ".word 0x00388eb4 (fld60_exec)",
+   "why": "F2: run the LocalEvent only on even fld::System+0x578 frames under G; latch odd-frame edges",
+   "file_offset": "0x2e17a4"
+  },
+  {
+   "id": "vt_res_exec",
+   "addr": "0x3e305c",
+   "orig": "a8812b00",
+   "orig_asm": ".word 0x002b81a8 (N3fld19ResidentEventSystemE slot +0x20)",
+   "new": "b48e3800",
+   "new_asm": ".word 0x00388eb4 (fld60_exec)",
+   "why": "F2: run the LocalEvent only on even fld::System+0x578 frames under G; latch odd-frame edges",
+   "file_offset": "0x2e305c"
+  },
+  {
+   "id": "vt_es_sysvar",
+   "addr": "0x3e17b0",
+   "orig": "5c222e00",
+   "orig_asm": ".word 0x002e225c (N3fld11EventSystemE slot +0x2c)",
+   "new": "308f3800",
+   "new_asm": ".word 0x00388f30 (fld60_sysvar)",
+   "why": "F3: OR the latched pad/touch edges into the structs around system-variable reads",
+   "file_offset": "0x2e17b0"
+  },
+  {
+   "id": "vt_res_sysvar",
+   "addr": "0x3e3068",
+   "orig": "5c222e00",
+   "orig_asm": ".word 0x002e225c (N3fld19ResidentEventSystemE slot +0x2c)",
+   "new": "308f3800",
+   "new_asm": ".word 0x00388f30 (fld60_sysvar)",
+   "why": "F3: OR the latched pad/touch edges into the structs around system-variable reads",
+   "file_offset": "0x2e3068"
+  }
+ ],
+ "allow_list": [
+  {
+   "name": "fld",
+   "vptr": "0x3e3b3c",
+   "rtti": [
+    "N3fld6SystemE",
+    "N2ad2fw8TaskBaseE",
+    "12TaskMainBase",
+    "4Task",
+    "�"
+   ],
+   "covers": "fld::System: field, events, title screen, staff roll"
+  },
+  {
+   "name": "btl",
+   "vptr": "0x3e10c4",
+   "rtti": [
+    "N3btl4MainE",
+    "N2ad2fw8TaskBaseE",
+    "12TaskMainBase",
+    "4Task",
+    "�"
+   ],
+   "covers": "btl::Main: battles"
+  },
+  {
+   "name": "kj",
+   "vptr": "0x3debd8",
+   "rtti": [
+    "N2kj8KJSystemE",
+    "N2ad2fw8TaskBaseE",
+    "12TaskMainBase",
+    "4Task",
+    "�"
+   ],
+   "covers": "kj::KJSystem: Bowser Jr.'s Journey"
+  },
+  {
+   "name": "menu",
+   "vptr": "0x3e4874",
+   "rtti": [
+    "N4msys9MTaskBaseE",
+    "N2ad2fw8TaskBaseE",
+    "12TaskMainBase",
+    "4Task",
+    "�"
+   ],
+   "covers": "msys::MTaskBase: MainMenu/KJMenu/ShopMenu/BCat/LoadMenu/SaveMenu/AttackMiniGame/Colosseum (init runs inside the MTaskBase ctor)"
+  }
+ ],
+ "labels": {
+  "eng60_init": "0x388e10",
+  "eng60_scan": "0x388e30",
+  "eng60_keep": "0x388e64",
+  "eng60_done": "0x388e68",
+  "eng60_allow": "0x388e6c",
+  "fld60_step_es": "0x388e80",
+  "fld60_step_res": "0x388e88",
+  "fld60_step": "0x388e8c",
+  "fld60_exec": "0x388eb4",
+  "fld60_sysvar": "0x388f30",
+  "fld60_sv_plain": "0x388fd8",
+  "fld60_lit_step_es": "0x388fe0",
+  "fld60_lit_step_res": "0x388fe4",
+  "fld60_lit_latch": "0x388fe8"
+ },
+ "cave": {
+  "start": "0x388e10",
+  "end": "0x388fec",
+  "size": 476,
+  "free_after": 20
+ },
+ "latch": {
+  "addr": "0x434f00",
+  "size": 16,
+  "layout": "+0 trg, +4 rls, +8 touch bits 2..5, +0xC frame tag"
+ },
+ "verification": {
+  "selftest": {
+   "ok": true,
+   "detail": "writer/applier self-test: IPS x3 appliers, BPS (diff and range writers) x2 appliers, CRC bitwise==zlib, BPS source-CRC refusal leaves the buffer untouched (Luma, Azahar): OK"
+  },
+  "exheader": {
+   "ok": true,
+   "detail": "update CIA 0004000E001CA900 v2: text 0x288bd8 (649 pages), ro 0x65e50, data 0x9170, bss 0x3cbd0; Luma code buffer 0x2f9000; ACI title id 00040000001CA900 (Luma folder); base CIA v1.0 text 0x288aa0"
+  },
+  "decompress": {
+   "ok": true,
+   "detail": "exefs2/.code (1913800 B) -> Luma lzss port 0x2f9000 B == Azahar port == work/fps60/bin/3dx_v12.code.bin; exefs/.code (v1.0) -> 0x2f9000 B == work/fps60/bin/3dx_v10.code.bin. CRC32 v1.2 BD87889C, v1.0 19D8D342"
+  },
+  "crc32_v12": "BD87889C",
+  "crc32_v10": "19D8D342",
+  "ro_relocs": {
+   "ok": true,
+   "detail": "222 static.crs relocation targets, none inside the patched bytes"
+  },
+  "apply_v12": {
+   "ok": true,
+   "detail": "v1.2 code -> patched.code.bin byte-exact with: luma_v10.1-v13.4_ips ok, luma_master_ips ok, azahar_ips ok, luma_bps ok, azahar_bps ok"
+  },
+  "refuse_v10": {
+   "ok": true,
+   "detail": "BPS on v1.0: Luma 'source_crc -> svcBreak(USERBREAK_PANIC) in loader (title does not start)' (buffer untouched True); Azahar ErrorPatchesInvalidTitle (buffer untouched True). IPS on v1.0 would apply silently (True): v1.0 has 'add r0, r0, #0x15c' at 0x28092c, so code.ips on a v1.0 install corrupts the game"
+  },
+  "v10_at_hook": "add r0, r0, #0x15c",
+  "luma_layeredfs": {
+   "ok": true,
+   "detail": "LayeredFS symbols found 5/5, identical before/after patch (fsOpenFileDirectly 0x114d74, fsTryOpenFile 0x28598c, fsMountArchive 0x114cb4, fsRegisterArchive 0x283098, fsUnMountArchive 0x28049c); payload 0x388bd8..0x388cf4 (worst case 0x11c B), path 0x3eee50..; cave 0x388e10 = payload end + 0x11c; ExeFS->lzss->BPS->LayeredFS chain leaves all patched bytes intact: True"
+  },
+  "layeredfs_symbols": {
+   "fsMountArchive": "0x114cb4",
+   "fsRegisterArchive": "0x283098",
+   "fsTryOpenFile": "0x28598c",
+   "fsOpenFileDirectly": "0x114d74",
+   "fsUnMountArchive": "0x28049c",
+   "found": 5
+  },
+  "azahar_chain": {
+   "ok": true,
+   "detail": "ExeFS -> LZSS -> code+bss (0x336000 B) -> mods/00040000001CA900/code.bps: Success, result == patched + zero bss"
+  },
+  "cave": {
+   "ok": true,
+   "detail": "cave 0x388e10..0x388fec (0x1dc B) inside the RX page 0x388000..0x389000; free after the cave: 0x14 B (0x388fec..0x389000); free between Luma payload end and cave: 0x11c B (keep it free)"
+  },
+  "fieldvm_slots": {
+   "ok": true,
+   "detail": "vtable slots -> wrappers: es_step 0x3e17b8=0x388e80, res_step 0x3e3070=0x388e88, es_exec 0x3e17a4=0x388eb4, res_exec 0x3e305c=0x388eb4, es_sysvar 0x3e17b0=0x388f30, res_sysvar 0x3e3068=0x388f30; RTTI of both vtables unchanged: True"
+  },
+  "latch": {
+   "ok": true,
+   "detail": "latch 0x434f00..0x434f10: above bss end 0x434d40, inside the last RW page (..0x435000); impl_rwscan: RESULT: no reference reaches the latch range"
+  },
+  "stack_window": {
+   "ok": true,
+   "detail": "F2 never gates a LocalEvent in [sp, sp+0x8000) = exheader main-thread stack size 0x8000"
+  },
+  "credits_by_vm": {
+   "ok": true,
+   "detail": "fld::StaffrollCtrl::update stub 0x1317a0 is called only from 0x2e8bb8 (field command 0x280 sub-op 1, a VM command), so under --field-vm30 the roll updates 30/s as at 30fps; crd60_fix not installed, 0x2E8B9C still nop: True"
+  },
+  "all_ok": true,
+  "emu": {
+   "ok": true
+  },
+  "emu_fieldvm": {
+   "ok": true
+  }
+ }
+}

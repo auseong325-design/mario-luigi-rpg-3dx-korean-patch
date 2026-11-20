@@ -1,0 +1,255 @@
+{
+ "cmd": "counters",
+ "label": "04_field_m1",
+ "time": "2026-10-30 14:46:25",
+ "ranges": [
+  {
+   "name": "static_data_bss",
+   "start": "0x003ef000",
+   "size": "0x45d40"
+  },
+  {
+   "name": "task",
+   "start": "0x320da370",
+   "size": "0x10000"
+  }
+ ],
+ "secs": 3.047,
+ "hits": [
+  {
+   "range": "static_data_bss",
+   "addr": "0x00425258",
+   "off": "0x36258",
+   "kind": "u32",
+   "v0": 58576,
+   "v2": 58667,
+   "rate": 29.86
+  },
+  {
+   "range": "static_data_bss",
+   "addr": "0x004291e4",
+   "off": "0x3a1e4",
+   "kind": "u32",
+   "v0": 84176,
+   "v2": 84358,
+   "rate": 59.73
+  },
+  {
+   "range": "static_data_bss",
+   "addr": "0x004291e8",
+   "off": "0x3a1e8",
+   "kind": "u32",
+   "v0": 84174,
+   "v2": 84356,
+   "rate": 59.73
+  },
+  {
+   "range": "static_data_bss",
+   "addr": "0x0042c6b8",
+   "off": "0x3d6b8",
+   "kind": "u32",
+   "v0": 117265,
+   "v2": 117517,
+   "rate": 82.7
+  },
+  {
+   "range": "static_data_bss",
+   "addr": "0x0042eb6c",
+   "off": "0x3fb6c",
+   "kind": "u32",
+   "v0": 293,
+   "v2": 300,
+   "rate": 2.3
+  },
+  {
+   "range": "static_data_bss",
+   "addr": "0x0042ec0c",
+   "off": "0x3fc0c",
+   "kind": "u32",
+   "v0": 293,
+   "v2": 300,
+   "rate": 2.3
+  },
+  {
+   "range": "static_data_bss",
+   "addr": "0x0042ecac",
+   "off": "0x3fcac",
+   "kind": "u32",
+   "v0": 293,
+   "v2": 300,
+   "rate": 2.3
+  },
+  {
+   "range": "static_data_bss",
+   "addr": "0x0042ed4c",
+   "off": "0x3fd4c",
+   "kind": "u32",
+   "v0": 293,
+   "v2": 300,
+   "rate": 2.3
+  },
+  {
+   "range": "static_data_bss",
+   "addr": "0x004300b4",
+   "off": "0x410b4",
+   "kind": "u32",
+   "v0": 58028,
+   "v2": 58119,
+   "rate": 29.86
+  },
+  {
+   "range": "static_data_bss",
+   "addr": "0x004300b8",
+   "off": "0x410b8",
+   "kind": "u32",
+   "v0": 58026,
+   "v2": 58117,
+   "rate": 29.86
+  },
+  {
+   "range": "static_data_bss",
+   "addr": "0x004300f4",
+   "off": "0x410f4",
+   "kind": "u32",
+   "v0": 2,
+   "v2": 16,
+   "rate": 4.59
+  },
+  {
+   "range": "static_data_bss",
+   "addr": "0x00430244",
+   "off": "0x41244",
+   "kind": "u32",
+   "v0": 3426,
+   "v2": 3440,
+   "rate": 4.59
+  },
+  {
+   "range": "static_data_bss",
+   "addr": "0x00430248",
+   "off": "0x41248",
+   "kind": "u32",
+   "v0": 3423,
+   "v2": 3437,
+   "rate": 4.59
+  },
+  {
+   "range": "static_data_bss",
+   "addr": "0x00430254",
+   "off": "0x41254",
+   "kind": "u32",
+   "v0": 1550,
+   "v2": 1900,
+   "rate": 114.86
+  },
+  {
+   "range": "static_data_bss",
+   "addr": "0x00430258",
+   "off": "0x41258",
+   "kind": "u32",
+   "v0": 1500,
+   "v2": 1850,
+   "rate": 114.86
+  },
+  {
+   "range": "static_data_bss",
+   "addr": "0x0043288c",
+   "off": "0x4388c",
+   "kind": "f32",
+   "v0": -1.8251,
+   "v2": 1.3697,
+   "rate": 1.05
+  },
+  {
+   "range": "task",
+   "addr": "0x320da434",
+   "off": "0xc4",
+   "kind": "u32",
+   "v0": 3950,
+   "v2": 4040,
+   "rate": 29.53
+  },
+  {
+   "range": "task",
+   "addr": "0x320da4c0",
+   "off": "0x150",
+   "kind": "u32",
+   "v0": 3949,
+   "v2": 4041,
+   "rate": 30.19
+  },
+  {
+   "range": "task",
+   "addr": "0x320da4fc",
+   "off": "0x18c",
+   "kind": "u32",
+   "v0": 84177,
+   "v2": 84359,
+   "rate": 59.73
+  },
+  {
+   "range": "task",
+   "addr": "0x320da500",
+   "off": "0x190",
+   "kind": "u32",
+   "v0": 3951,
+   "v2": 4042,
+   "rate": 29.86
+  },
+  {
+   "range": "task",
+   "addr": "0x320da504",
+   "off": "0x194",
+   "kind": "u32",
+   "v0": 3949,
+   "v2": 4040,
+   "rate": 29.86
+  },
+  {
+   "range": "task",
+   "addr": "0x320da508",
+   "off": "0x198",
+   "kind": "u32",
+   "v0": 3949,
+   "v2": 4040,
+   "rate": 29.86
+  },
+  {
+   "range": "task",
+   "addr": "0x320da50c",
+   "off": "0x19c",
+   "kind": "u32",
+   "v0": 3950,
+   "v2": 4041,
+   "rate": 29.86
+  },
+  {
+   "range": "task",
+   "addr": "0x320da510",
+   "off": "0x1a0",
+   "kind": "u32",
+   "v0": 3948,
+   "v2": 4039,
+   "rate": 29.86
+  },
+  {
+   "range": "task",
+   "addr": "0x320da514",
+   "off": "0x1a4",
+   "kind": "u32",
+   "v0": 3948,
+   "v2": 4039,
+   "rate": 29.86
+  },
+  {
+   "range": "task",
+   "addr": "0x320da8e8",
+   "off": "0x578",
+   "kind": "u32",
+   "v0": 3949,
+   "v2": 4040,
+   "rate": 29.86
+  }
+ ],
+ "pid": 11
+}

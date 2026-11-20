@@ -1,0 +1,235 @@
+{
+ "tool": "scripts/fps60/tb_build.py",
+ "beds": {
+  "t1_battle": {
+   "fevent": {
+    "source": "romf2/FEvent/FEvent.dat",
+    "source_sha256": "a0fecd0fc48ecf8c63df2498bfe233a35d6c89001fe7d7d1e99a939141bd40aa",
+    "host": "i_tainai_01.fev",
+    "host_slot": 955,
+    "host_plain_len": 47454,
+    "host_new_len": 47682,
+    "default_entry": 55,
+    "battle_from": [
+     "i_metaboru_06.fev",
+     "0xe83f",
+     "0e83f: op240(0, 7, 0, 1, 0, 3, 0x13cf6, 0x13d06, 2, 0x1000352, 0x64, 0x64, 1)"
+    ],
+    "battle_bytes": "400200000000000700010003f63c0100063d010002520300016400640001",
+    "scene": "scn_meta_05.bai",
+    "strings": [
+     "73636e5f6d6574615f30352e62616900",
+     "00"
+    ],
+    "templates": {
+     "call": [
+      "0xf0b",
+      "0400000000000136100000"
+     ],
+     "wait": [
+      "0x9c29",
+      "0500000000003c00"
+     ],
+     "return": [
+      "0x25c",
+      "01000000000000000000"
+     ]
+    },
+    "wrappers": [
+     {
+      "entry": 53,
+      "table_slot": 304,
+      "old_rel": 14881,
+      "old_abs": 14905,
+      "new_rel": 47430,
+      "code_offset": 47454,
+      "code_len": 76,
+      "strings_offset": 47513
+     },
+     {
+      "entry": 54,
+      "table_slot": 308,
+      "old_rel": 14904,
+      "old_abs": 14928,
+      "new_rel": 47506,
+      "code_offset": 47530,
+      "code_len": 76,
+      "strings_offset": 47589
+     },
+     {
+      "entry": 55,
+      "table_slot": 312,
+      "old_rel": 14927,
+      "old_abs": 14951,
+      "new_rel": 47582,
+      "code_offset": 47606,
+      "code_len": 76,
+      "strings_offset": 47665
+     }
+    ],
+    "output_sha256": "4113131346705c5fb5b22ace27ac56d12278fb733d870a98892961c9cf972c74",
+    "output_size": 6410112,
+    "output": "work/fps60/testbeds/t1_battle/romfs/FEvent/FEvent.dat"
+   }
+  },
+  "t2_hold": {
+   "fevent": {
+    "source": "romf2/FEvent/FEvent.dat",
+    "source_sha256": "a0fecd0fc48ecf8c63df2498bfe233a35d6c89001fe7d7d1e99a939141bd40aa",
+    "host": "i_tainai_01.fev",
+    "host_slot": 955,
+    "host_plain_len": 47454,
+    "host_new_len": 47685,
+    "default_entry": 55,
+    "battle_from": [
+     "i_air_21.fev",
+     "0xb0bd",
+     "0b0bd: op240(0, 4, 0, 2, 0, 3, 0xd2ae, 0xd2bf, 2, 0x1000357, 0x64, 0x64, 1)"
+    ],
+    "battle_bytes": "400200000000000400020003aed20000bfd2000002570300016400640001",
+    "scene": "scn_air_boss.bai",
+    "strings": [
+     "73636e5f6169725f626f73732e62616900",
+     "00"
+    ],
+    "templates": {
+     "call": [
+      "0xf0b",
+      "0400000000000136100000"
+     ],
+     "wait": [
+      "0x9c29",
+      "0500000000003c00"
+     ],
+     "return": [
+      "0x25c",
+      "01000000000000000000"
+     ]
+    },
+    "wrappers": [
+     {
+      "entry": 53,
+      "table_slot": 304,
+      "old_rel": 14881,
+      "old_abs": 14905,
+      "new_rel": 47430,
+      "code_offset": 47454,
+      "code_len": 77,
+      "strings_offset": 47513
+     },
+     {
+      "entry": 54,
+      "table_slot": 308,
+      "old_rel": 14904,
+      "old_abs": 14928,
+      "new_rel": 47507,
+      "code_offset": 47531,
+      "code_len": 77,
+      "strings_offset": 47590
+     },
+     {
+      "entry": 55,
+      "table_slot": 312,
+      "old_rel": 14927,
+      "old_abs": 14951,
+      "new_rel": 47584,
+      "code_offset": 47608,
+      "code_len": 77,
+      "strings_offset": 47667
+     }
+    ],
+    "output_sha256": "2d5b0a3b6edab9cd14264e2af21b765f9ca5e443ba866782f238446de184219b",
+    "output_size": 6410116,
+    "output": "work/fps60/testbeds/t2_hold/romfs/FEvent/FEvent.dat"
+   },
+   "bai_fix": {
+    "source": "work/fps60/build/bai/romfs/BAI/BAI.dat",
+    "source_sha256": "c681a963b8428128a2d9133c39911f9f2acf5a53e83dff0a097de8fbe750fbb6",
+    "entry": "mon_dstar.bai",
+    "slot": 423,
+    "changed_plain_offsets": [
+     "0x476a",
+     "0x476d",
+     "0x4770",
+     "0x4773",
+     "0x4776",
+     "0x4777",
+     "0x4781",
+     "0x4784",
+     "0x478b",
+     "0x478d",
+     "0x478e",
+     "0x4790",
+     "0x4793",
+     "0x4794",
+     "0x4796",
+     "0x479f",
+     "0x47a1",
+     "0x47a5",
+     "0x47a7",
+     "0x47a8",
+     "0x47aa"
+    ],
+    "forced_attack": 4,
+    "output_sha256": "9ea3e47319402a2d259a492a0a230debadf96223e1c192171d1e2a5f7de04467",
+    "output_size": 2862000,
+    "output": "work/fps60/testbeds/t2_hold/romfs/BAI/BAI.dat"
+   },
+   "bai_orig": {
+    "source": "romfs/BAI/BAI.dat",
+    "source_sha256": "12be16cd099b69aee84b9f5fa6cd07342eccb112f1ddc21d440187061de0c2f2",
+    "entry": "mon_dstar.bai",
+    "slot": 423,
+    "changed_plain_offsets": [
+     "0x476a",
+     "0x476d",
+     "0x4770",
+     "0x4773",
+     "0x4776",
+     "0x4777",
+     "0x4781",
+     "0x4784",
+     "0x478b",
+     "0x478d",
+     "0x478e",
+     "0x4790",
+     "0x4793",
+     "0x4794",
+     "0x4796",
+     "0x479f",
+     "0x47a1",
+     "0x47a5",
+     "0x47a7",
+     "0x47a8",
+     "0x47aa"
+    ],
+    "forced_attack": 4,
+    "output_sha256": "1ee8bd60cc87f68d205738037c9e9c8afad27f49c3354c53fc3ade2e0ebfff77",
+    "output_size": 2862172,
+    "output": "work/fps60/testbeds/t2_hold/romfs_nofix/BAI/BAI.dat"
+   }
+  },
+  "t3_minigame": {
+   "save": {
+    "source": "tools/azahar-test/user/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/00040000/001ca900/data/00000001/ML3R_001.sav",
+    "source_sha256": "43c2ca72cb6a5ff26174906c62506ae27743eace6648e4ad2f49ab6ed8eed7cb",
+    "source_copy": "work/fps60/testbeds/_source/ML3R_001.sav",
+    "room_block_offset": 10620,
+    "old_rooms": [
+     "0x24d o_peach_t_04",
+     "0xa8 i_tainai_01"
+    ],
+    "new_rooms": [
+     "0x24d o_peach_t_04",
+     "0x86 i_power_hip_SA_adorena_01_L"
+    ],
+    "changed_bytes": [
+     10624,
+     10625
+    ],
+    "output": "work/fps60/testbeds/t3_minigame/save/ML3R_001.sav",
+    "output_sha256": "bfa48f829543e9cc020d1b6d3349aaaba5bc6aee3abef69dd41c094e7517668f"
+   }
+  }
+ }
+}

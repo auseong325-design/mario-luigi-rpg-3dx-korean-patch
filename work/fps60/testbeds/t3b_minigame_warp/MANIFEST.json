@@ -1,0 +1,224 @@
+{
+ "bed": "t3b_minigame_warp",
+ "use_with": "v2 (Option A), v2n (control), smoke (30fps reference)",
+ "source": "romf2/FEvent/FEvent.dat",
+ "source_sha256": "a0fecd0fc48ecf8c63df2498bfe233a35d6c89001fe7d7d1e99a939141bd40aa",
+ "host": "i_tainai_01.fev",
+ "host_slot": 955,
+ "host_plain_len": 47454,
+ "host_new_len": 48315,
+ "host_default_entry": 55,
+ "target": [
+  "0x86",
+  "i_power_hip_SA_adorena_01_L",
+  "default entry",
+  26
+ ],
+ "templates": {
+  "call": [
+   "0xf0b",
+   "0400000000000136100000"
+  ],
+  "wait": [
+   "0x9c29",
+   "0500000000003c00"
+  ]
+ },
+ "body": [
+  [
+   "host",
+   "0x60b4",
+   "$c39e = set(0f)",
+   "1500000000009ec300000000"
+  ],
+  [
+   "host",
+   "0x613b",
+   "$500d = set(3f)",
+   "1500000000000d5000004040"
+  ],
+  [
+   "lead",
+   "0x3ba8",
+   "$c59c = set(1f)",
+   "1500000000009cc50000803f"
+  ],
+  [
+   "lead",
+   "0x3bb4",
+   "op199(0)",
+   "99010000000000"
+  ],
+  [
+   "lead",
+   "0x3bbb",
+   "op198(1)",
+   "98010000000001"
+  ],
+  [
+   "lead",
+   "0x3cfc",
+   "jmpif(0, $c59d, 1f, 0, 0x3d21)",
+   "030002000000009dc50000803f00213d0000"
+  ],
+  [
+   "lead",
+   "0x3d0e",
+   "wait(1)",
+   "0500000000000100"
+  ],
+  [
+   "lead",
+   "0x3d16",
+   "jump(2, 0x3cfc)",
+   "04000000000002fc3c0000"
+  ],
+  [
+   "lead",
+   "0x3d83",
+   "op270(0)",
+   "70020000000000"
+  ],
+  [
+   "lead",
+   "0x3d8a",
+   "op26a($7021, 0, 0, $705a, 0, 0xff, 0, 1, 55f)",
+   "6a0209000000217000000000005a7000000000ff000100005c42"
+  ],
+  [
+   "lead",
+   "0x3da4",
+   "op26b($7021)",
+   "6b02010000002170"
+  ],
+  [
+   "lead",
+   "0x3dac",
+   "$c08f = set(0f)",
+   "1500000000008fc000000000"
+  ],
+  [
+   "lead",
+   "0x3db8",
+   "op150(0, 0)",
+   "5001000000000000"
+  ],
+  [
+   "lead",
+   "0x3dc0",
+   "op150(1, 0)",
+   "5001000000000100"
+  ],
+  [
+   "lead",
+   "0x3dc8",
+   "op150(2, 0)",
+   "5001000000000200"
+  ],
+  [
+   "lead",
+   "0x3dd0",
+   "op06b(1, 0x3e2e, 4)",
+   "6b0000000000012e3e000004"
+  ],
+  [
+   "lead",
+   "0x3ddc",
+   "op061(4, $7022)",
+   "610002000000042270"
+  ],
+  [
+   "lead",
+   "0x3dfd",
+   "op18a(0x86, 0f, 0f, 0f, 0, 0, 0x1a, 3, 0)",
+   "8a0100000000860000000000000000000000000000001a000300000000"
+  ],
+  [
+   "lead",
+   "0x3e1a",
+   "return(0f)",
+   "01000000000000000000"
+  ]
+ ],
+ "upper": [
+  [
+   "lead",
+   "0x3e2e",
+   "op26a($7021, 0, 0, $705a, 0, 0xff, 0, 1, 16f)"
+  ],
+  [
+   "lead",
+   "0x3e48",
+   "op26b($7021)"
+  ],
+  [
+   "lead",
+   "0x3e50",
+   "return(0f)"
+  ]
+ ],
+ "relocated": {
+  "0x3cfc": [
+   4,
+   "lead 0x3d83"
+  ],
+  "0x3d16": [
+   1,
+   "lead 0x3cfc"
+  ],
+  "0x3dd0": [
+   1,
+   "lead 0x3e2e"
+  ]
+ },
+ "left_out": [
+  "lead 0x3BC2..0x3CF4 camera op1a6/op1a7, wait(0x14), op097(0/1,0x63,0f), op1ec/op1f0/op0df/op0aa on actors 0/1/6/7, wait(0x50): the hip room's jump-in animation (its positions and helper actors)",
+  "lead 0x3D21..0x3D7A poll $7070, op195($7022), op194 if $702e == 3, op0e1(1), op195($7022), op061(1, $7022): readiness polls of the interaction context; the minigame room syncs the upper screen itself (#27 +0x35DB..)",
+  "lead 0x3DE5/0x3DF1 op097(0/1, 0x63, 1f): undoes the left-out 0x3BEA/0x3BF6"
+ ],
+ "wrappers": [
+  {
+   "entry": 53,
+   "table_slot": 304,
+   "old_rel": 14881,
+   "old_abs": 14905,
+   "new_rel": 47430,
+   "code_offset": 47454,
+   "code_len": 287,
+   "upper_offset": 47697,
+   "poll_offset": 47523,
+   "after_poll_offset": 47560,
+   "warp_offset": 47658
+  },
+  {
+   "entry": 54,
+   "table_slot": 308,
+   "old_rel": 14904,
+   "old_abs": 14928,
+   "new_rel": 47717,
+   "code_offset": 47741,
+   "code_len": 287,
+   "upper_offset": 47984,
+   "poll_offset": 47810,
+   "after_poll_offset": 47847,
+   "warp_offset": 47945
+  },
+  {
+   "entry": 55,
+   "table_slot": 312,
+   "old_rel": 14927,
+   "old_abs": 14951,
+   "new_rel": 48004,
+   "code_offset": 48028,
+   "code_len": 287,
+   "upper_offset": 48271,
+   "poll_offset": 48097,
+   "after_poll_offset": 48134,
+   "warp_offset": 48232
+  }
+ ],
+ "output_sha256": "993a55293f642461c0a4b49d5a06c98ded0f958c8c7eae16bcae188c8cd637fd",
+ "output_size": 6410248,
+ "output": "work/fps60/testbeds/t3b_minigame_warp/romfs/FEvent/FEvent.dat",
+ "tool": "scripts/fps60/tb_warp.py"
+}

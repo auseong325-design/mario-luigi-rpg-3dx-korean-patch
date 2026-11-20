@@ -1,0 +1,237 @@
+{
+ "cmd": "counters",
+ "label": "02_fileselect_m1",
+ "time": "2026-10-30 14:41:58",
+ "ranges": [
+  {
+   "name": "static_data_bss",
+   "start": "0x003ef000",
+   "size": "0x45d40"
+  },
+  {
+   "name": "task",
+   "start": "0x30000038",
+   "size": "0x10000"
+  }
+ ],
+ "secs": 2.031,
+ "hits": [
+  {
+   "range": "static_data_bss",
+   "addr": "0x00425258",
+   "off": "0x36258",
+   "kind": "u32",
+   "v0": 46701,
+   "v2": 46762,
+   "rate": 30.03
+  },
+  {
+   "range": "static_data_bss",
+   "addr": "0x004291e4",
+   "off": "0x3a1e4",
+   "kind": "u32",
+   "v0": 68271,
+   "v2": 68392,
+   "rate": 59.57
+  },
+  {
+   "range": "static_data_bss",
+   "addr": "0x004291e8",
+   "off": "0x3a1e8",
+   "kind": "u32",
+   "v0": 68269,
+   "v2": 68390,
+   "rate": 59.57
+  },
+  {
+   "range": "static_data_bss",
+   "addr": "0x0042c6b8",
+   "off": "0x3d6b8",
+   "kind": "u32",
+   "v0": 95183,
+   "v2": 95353,
+   "rate": 83.69
+  },
+  {
+   "range": "static_data_bss",
+   "addr": "0x0042eb6c",
+   "off": "0x3fb6c",
+   "kind": "u32",
+   "v0": 303,
+   "v2": 307,
+   "rate": 1.97
+  },
+  {
+   "range": "static_data_bss",
+   "addr": "0x0042ec0c",
+   "off": "0x3fc0c",
+   "kind": "u32",
+   "v0": 303,
+   "v2": 307,
+   "rate": 1.97
+  },
+  {
+   "range": "static_data_bss",
+   "addr": "0x004300b4",
+   "off": "0x410b4",
+   "kind": "u32",
+   "v0": 46175,
+   "v2": 46235,
+   "rate": 29.54
+  },
+  {
+   "range": "static_data_bss",
+   "addr": "0x004300b8",
+   "off": "0x410b8",
+   "kind": "u32",
+   "v0": 46173,
+   "v2": 46233,
+   "rate": 29.54
+  },
+  {
+   "range": "static_data_bss",
+   "addr": "0x004300f4",
+   "off": "0x410f4",
+   "kind": "u32",
+   "v0": 0,
+   "v2": 4,
+   "rate": 1.97
+  },
+  {
+   "range": "static_data_bss",
+   "addr": "0x004301a8",
+   "off": "0x411a8",
+   "kind": "u32",
+   "v0": 19,
+   "v2": 23,
+   "rate": 1.97
+  },
+  {
+   "range": "static_data_bss",
+   "addr": "0x00430244",
+   "off": "0x41244",
+   "kind": "u32",
+   "v0": 2528,
+   "v2": 2532,
+   "rate": 1.97
+  },
+  {
+   "range": "static_data_bss",
+   "addr": "0x00430248",
+   "off": "0x41248",
+   "kind": "u32",
+   "v0": 2526,
+   "v2": 2530,
+   "rate": 1.97
+  },
+  {
+   "range": "static_data_bss",
+   "addr": "0x00430254",
+   "off": "0x41254",
+   "kind": "u32",
+   "v0": 1400,
+   "v2": 1500,
+   "rate": 49.23
+  },
+  {
+   "range": "static_data_bss",
+   "addr": "0x00430258",
+   "off": "0x41258",
+   "kind": "u32",
+   "v0": 1375,
+   "v2": 1475,
+   "rate": 49.23
+  },
+  {
+   "range": "task",
+   "addr": "0x300000fc",
+   "off": "0xc4",
+   "kind": "u32",
+   "v0": 4028,
+   "v2": 4088,
+   "rate": 29.54
+  },
+  {
+   "range": "task",
+   "addr": "0x30000188",
+   "off": "0x150",
+   "kind": "u32",
+   "v0": 4029,
+   "v2": 4089,
+   "rate": 29.54
+  },
+  {
+   "range": "task",
+   "addr": "0x300001c4",
+   "off": "0x18c",
+   "kind": "u32",
+   "v0": 68270,
+   "v2": 68392,
+   "rate": 60.06
+  },
+  {
+   "range": "task",
+   "addr": "0x300001c8",
+   "off": "0x190",
+   "kind": "u32",
+   "v0": 4030,
+   "v2": 4090,
+   "rate": 29.54
+  },
+  {
+   "range": "task",
+   "addr": "0x300001cc",
+   "off": "0x194",
+   "kind": "u32",
+   "v0": 4028,
+   "v2": 4088,
+   "rate": 29.54
+  },
+  {
+   "range": "task",
+   "addr": "0x300001d0",
+   "off": "0x198",
+   "kind": "u32",
+   "v0": 4028,
+   "v2": 4088,
+   "rate": 29.54
+  },
+  {
+   "range": "task",
+   "addr": "0x300001d4",
+   "off": "0x19c",
+   "kind": "u32",
+   "v0": 4029,
+   "v2": 4089,
+   "rate": 29.54
+  },
+  {
+   "range": "task",
+   "addr": "0x300001d8",
+   "off": "0x1a0",
+   "kind": "u32",
+   "v0": 4027,
+   "v2": 4087,
+   "rate": 29.54
+  },
+  {
+   "range": "task",
+   "addr": "0x300001dc",
+   "off": "0x1a4",
+   "kind": "u32",
+   "v0": 4027,
+   "v2": 4087,
+   "rate": 29.54
+  },
+  {
+   "range": "task",
+   "addr": "0x300005b0",
+   "off": "0x578",
+   "kind": "u32",
+   "v0": 4028,
+   "v2": 4088,
+   "rate": 29.54
+  }
+ ],
+ "pid": 11
+}

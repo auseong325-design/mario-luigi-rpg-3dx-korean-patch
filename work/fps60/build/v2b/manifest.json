@@ -1,0 +1,20 @@
+{
+  "tag": "v2b",
+  "created": "2026-10-30T16:24:51+0900",
+  "code_from": "v2n",
+  "code_manifest_sha256": "f0cf0b5eb1246cd203f93465d66516d6b1ac77bdbfa1e2667b6ba9f46e99e64d",
+  "files": {
+    "code.bps": "ec4189b9f1cbbdc1d8147779b1b9cd5a17197eab6efc8cd3f8b656327fc2c0c6",
+    "code.ips": "780dd5d20d564358e8c00376e894abab47a45a16fca07d1bcc1112ab56d545e2",
+    "romfs/BAI/BAI.dat": "c681a963b8428128a2d9133c39911f9f2acf5a53e83dff0a097de8fbe750fbb6",
+    "romfs/FEvent/FEvent.dat": "2e1175813e7627002d499d0a8accbe2a5221bba72b2c73158bdb6eff343a5e72"
+  },
+  "overlays": {
+    "work\\fps60\\build\\bai\\romfs": [
+      "BAI/BAI.dat"
+    ],
+    "work\\fps60\\build\\fev\\romfs": [
+      "FEvent/FEvent.dat"
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+; |static| CmdListBase::clear+0x2e0
+0011406c: 0010a0e1 mov      r1, r0
+00114070: 18009fe5 ldr      r0, [pc, #0x18]  ; =0x3f4050 MessageSys::_RubyEnable
+00114074: 640090e5 ldr      r0, [r0, #0x64]
+00114078: 000050e3 cmp      r0, #0
+0011407c: 0200000a beq      #0x11408c
+00114080: 002090e5 ldr      r2, [r0]
+00114084: 482092e5 ldr      r2, [r2, #0x48]
+00114088: 12ff2fe1 bx       r2
+0011408c: 1eff2fe1 bx       lr
+00114090: 50403f00 eorseq   r4, pc, r0, asr r0
+00114094: 0110a0e3 mov      r1, #1
+00114098: 0010c0e5 strb     r1, [r0]
+0011409c: 1eff2fe1 bx       lr
+001140a0: 0000a0e1 mov      r0, r0
+001140a4: f04f2de9 push     {r4, r5, r6, r7, r8, sb, sl, fp, lr}
+001140a8: 5cd04de2 sub      sp, sp, #0x5c
+001140ac: 0040a0e1 mov      r4, r0
+001140b0: 0c6a9fe5 ldr      r6, [pc, #0xa0c]  ; =0xe7e3ffff
+001140b4: 00608de5 str      r6, [sp]
+001140b8: 40608de5 str      r6, [sp, #0x40]
+001140bc: c49e05eb bl       #0x27bbd4
+001140c0: 40008de5 str      r0, [sp, #0x40]
+001140c4: b59e05eb bl       #0x27bba0
+001140c8: 000050e3 cmp      r0, #0

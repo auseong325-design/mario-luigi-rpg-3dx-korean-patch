@@ -1,0 +1,16 @@
+AttackMiniGame	functions 349	ok 145	failed 0	timeout 0	thunks 204	files AttackMiniGame.c	1s
+Battle	functions 2019	ok 1075	failed 0	timeout 0	thunks 944	files Battle.c	14s
+Field	functions 46	ok 21	failed 0	timeout 0	thunks 25	files Field.c	0s
+KJGuide	functions 1	ok 1	failed 0	timeout 0	thunks 0	files KJGuide.c	0s
+KJRPG	functions 1618	ok 1192	failed 0	timeout 0	thunks 426	files KJRPG.c	4s
+MainMenu	functions 793	ok 422	failed 0	timeout 0	thunks 371	files MainMenu.c	1s
+SaveLoad	functions 154	ok 60	failed 0	timeout 0	thunks 94	files SaveLoad.c	0s
+ShopMenu	functions 556	ok 315	failed 0	timeout 0	thunks 241	files ShopMenu.c	1s
+BCat	functions 218	ok 95	failed 0	timeout 0	thunks 123	files BCat.c	1s
+Colosseum	functions 401	ok 178	failed 0	timeout 0	thunks 223	files Colosseum.c	1s
+HugeBattle	functions 6189	ok 5687	failed 0	timeout 0	thunks 502	files HugeBattle.c	20s
+KJMenu	functions 1245	ok 847	failed 0	timeout 0	thunks 398	files KJMenu.c	2s
+LoadMenu	functions 462	ok 224	failed 0	timeout 0	thunks 238	files LoadMenu.c	1s
+MenuGuide	functions 1	ok 1	failed 0	timeout 0	thunks 0	files MenuGuide.c	0s
+SaveMenu	functions 234	ok 95	failed 0	timeout 0	thunks 139	files SaveMenu.c	0s
+static	functions 11643	ok 11230	failed 0	timeout 0	thunks 413	files static.c	38s

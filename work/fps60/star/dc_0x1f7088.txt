@@ -1,0 +1,87 @@
+// FUNC 0x001f7088 FUN_001f7088 (static)
+//   size 0x154 | callers(1) 0x0028b67c
+
+void FUN_001f7088(int param_1)
+
+{
+  int *piVar1;
+  int *piVar2;
+  int *piVar3;
+  int *piVar4;
+  int *extraout_r2;
+  int *piVar5;
+  int iVar6;
+  int *piVar7;
+  int *piVar8;
+  int *piVar9;
+  int *piVar10;
+  int *piVar11;
+  
+  piVar7 = *(int **)(param_1 + 0x134a0);
+  if (*(int **)(param_1 + 0x134a4) != piVar7) {
+    do {
+      if ((int *)piVar7[2] == piVar7 + 1) {
+        piVar9 = *(int **)(param_1 + 0x134a4);
+        piVar10 = piVar9 + -3;
+        piVar8 = piVar7;
+        piVar3 = piVar7;
+        while (piVar1 = piVar3 + 3, piVar1 != piVar9) {
+          piVar2 = (int *)*piVar8;
+          if (piVar2 != (int *)*piVar1) {
+            piVar4 = (int *)piVar8[2];
+            piVar5 = piVar8 + 1;
+            if (piVar4 == piVar5) {
+              if (piVar2 != (int *)0x0) {
+                (**(code **)(*piVar2 + 4))();
+                piVar5 = extraout_r2;
+              }
+            }
+            else {
+              piVar5 = (int *)piVar8[1];
+              piVar5[1] = (int)piVar4;
+              *piVar4 = (int)piVar5;
+              piVar8[1] = (int)(piVar8 + 1);
+              piVar8[2] = (int)(piVar8 + 1);
+            }
+            piVar4 = piVar3 + 4;
+            piVar2 = piVar8 + 1;
+            *piVar8 = *piVar1;
+            if (piVar4 != piVar2) {
+              piVar5 = (int *)piVar3[5];
+            }
+            if (piVar4 != piVar2 && piVar5 != piVar2) {
+              iVar6 = *piVar2;
+              piVar11 = (int *)piVar8[2];
+              *(int **)(iVar6 + 4) = piVar11;
+              *piVar11 = iVar6;
+              piVar8[2] = (int)piVar5;
+              *piVar5 = (int)piVar2;
+              piVar3[5] = (int)piVar2;
+              *piVar2 = (int)piVar4;
+            }
+          }
+          piVar8 = piVar8 + 3;
+          piVar3 = piVar1;
+        }
+        piVar8 = *(int **)(param_1 + 0x134a4);
+        while (piVar10 != piVar8) {
+          if (((int *)piVar8[-1] == piVar8 + -2) &&
+             (piVar3 = (int *)piVar8[-3], piVar3 != (int *)0x0)) {
+            (**(code **)(*piVar3 + 4))();
+          }
+          iVar6 = piVar8[-2];
+          piVar3 = (int *)piVar8[-1];
+          *(int **)(iVar6 + 4) = piVar3;
+          *piVar3 = iVar6;
+          piVar8 = piVar8 + -3;
+        }
+        *(int **)(param_1 + 0x134a4) = piVar10;
+      }
+      else {
+        piVar7 = piVar7 + 3;
+      }
+    } while (*(int **)(param_1 + 0x134a4) != piVar7);
+  }
+  return;
+}
+

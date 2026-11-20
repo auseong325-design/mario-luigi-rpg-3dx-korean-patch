@@ -1,0 +1,271 @@
+[   0.237849] Input <Info> input_common/udp/client.cpp:StartCommunication:206: Starting communication with UDP input server on 127.0.0.1:26760
+[   0.246143] Frontend <Info> citra_qt/citra_qt.cpp:GMainWindow:462: Azahar Version: 2126.1.2 | HEAD-9e6f523
+[   0.246149] Frontend <Info> citra_qt/citra_qt.cpp:GMainWindow:467: Build Variant: MXE
+[   0.246151] Frontend <Info> citra_qt/citra_qt.cpp:GMainWindow:482: Host CPU: AMD Ryzen 7 9700X 8-Core Processor              | AVX512 | FMA
+[   0.246285] Frontend <Info> citra_qt/citra_qt.cpp:GMainWindow:484: Host OS: Windows 11 Version 26H2 (Build 26300.9818)
+[   0.246298] Frontend <Info> citra_qt/citra_qt.cpp:GMainWindow:487: Host RAM: 31.41 GiB
+[   0.246299] Frontend <Info> citra_qt/citra_qt.cpp:GMainWindow:488: Host Swap: 69.25 GiB
+[   0.724770] Frontend <Info> citra_qt/citra_qt.cpp:BootGame:1495: Azahar starting...
+[   0.724988] Frontend <Info> citra_qt/citra_qt.cpp:BootGame:1519: Loading per application config file for title 00040000001CA900
+[   0.733339] Config <Info> common/settings.cpp:LogSettings:88: Azahar Configuration:
+[   0.733346] Config <Info> common/settings.cpp:operator():85: Core_UseCpuJit: true
+[   0.733346] Config <Info> common/settings.cpp:operator():85: Core_CPUClockPercentage: 100
+[   0.733347] Config <Info> common/settings.cpp:operator():85: Controller_UseArticController: false
+[   0.733347] Config <Info> common/settings.cpp:operator():85: Renderer_UseGLES: false
+[   0.733350] Config <Info> common/settings.cpp:operator():85: Renderer_GraphicsAPI: OpenGL
+[   0.733350] Config <Info> common/settings.cpp:operator():85: Renderer_AsyncShaders: false
+[   0.733352] Config <Info> common/settings.cpp:operator():85: Renderer_AsyncPresentation: true
+[   0.733352] Config <Info> common/settings.cpp:operator():85: Renderer_SpirvShaderGen: true
+[   0.733352] Config <Info> common/settings.cpp:operator():85: Renderer_DisableSpirvOptimizer: true
+[   0.733352] Config <Info> common/settings.cpp:operator():85: Renderer_Debug: false
+[   0.733353] Config <Info> common/settings.cpp:operator():85: Renderer_PicaDebugging: false
+[   0.733353] Config <Info> common/settings.cpp:operator():85: Renderer_UseHwShader: true
+[   0.733354] Config <Info> common/settings.cpp:operator():85: Renderer_ShadersAccurateMul: true
+[   0.733354] Config <Info> common/settings.cpp:operator():85: Renderer_UseShaderJit: true
+[   0.733354] Config <Info> common/settings.cpp:operator():85: Renderer_UseResolutionFactor: 1
+[   0.733355] Config <Info> common/settings.cpp:operator():85: Renderer_UseIntegerScaling: false
+[   0.733359] Config <Info> common/settings.cpp:operator():85: Renderer_FrameLimit: 100
+[   0.733360] Config <Info> common/settings.cpp:operator():85: Renderer_VSyncNew: true
+[   0.733360] Config <Info> common/settings.cpp:operator():85: Renderer_SkipDuplicateFrames: false
+[   0.733360] Config <Info> common/settings.cpp:operator():85: Renderer_PostProcessingShader: None (builtin)
+[   0.733361] Config <Info> common/settings.cpp:operator():85: Renderer_FilterMode: true
+[   0.733361] Config <Info> common/settings.cpp:operator():85: Renderer_TextureFilter: None
+[   0.733362] Config <Info> common/settings.cpp:operator():85: Renderer_TextureSampling: GameControlled
+[   0.733367] Config <Info> common/settings.cpp:operator():85: Renderer_DelayGameRenderThreadUs: 0
+[   0.733367] Config <Info> common/settings.cpp:operator():85: Renderer_Simulate3DSGPUTimings: false
+[   0.733368] Config <Info> common/settings.cpp:operator():85: Renderer_DisableRightEyeRender: false
+[   0.733369] Config <Info> common/settings.cpp:operator():85: Stereoscopy_Render3d: 0
+[   0.733369] Config <Info> common/settings.cpp:operator():85: Stereoscopy_Factor3d: 0
+[   0.733369] Config <Info> common/settings.cpp:operator():85: Stereoscopy_Swap_Eyes: false
+[   0.733370] Config <Info> common/settings.cpp:operator():85: Stereoscopy_Render_3d_to_which_display: 0
+[   0.733370] Config <Info> common/settings.cpp:operator():85: Stereoscopy_MonoRenderOption: 0
+[   0.733370] Config <Info> common/settings.cpp:operator():85: Layout_LayoutOption: 0
+[   0.733371] Config <Info> common/settings.cpp:operator():85: Layout_PortraitLayoutOption: 0
+[   0.733371] Config <Info> common/settings.cpp:operator():85: Layout_SecondaryDisplayLayout: 4
+[   0.733371] Config <Info> common/settings.cpp:operator():85: Layout_SwapScreen: false
+[   0.733372] Config <Info> common/settings.cpp:operator():85: Layout_UprightScreen: false
+[   0.733372] Config <Info> common/settings.cpp:operator():85: Layout_ScreenGap: 0
+[   0.733373] Config <Info> common/settings.cpp:operator():85: Layout_LargeScreenProportion: 4
+[   0.733374] Config <Info> common/settings.cpp:operator():85: Layout_SmallScreenPosition: 2
+[   0.733374] Config <Info> common/settings.cpp:operator():85: Utility_DumpTextures: false
+[   0.733375] Config <Info> common/settings.cpp:operator():85: Utility_CustomTextures: false
+[   0.733375] Config <Info> common/settings.cpp:operator():85: Utility_PreloadTextures: false
+[   0.733376] Config <Info> common/settings.cpp:operator():85: Utility_AsyncCustomLoading: true
+[   0.733376] Config <Info> common/settings.cpp:operator():85: Utility_UseDiskShaderCache: true
+[   0.733376] Config <Info> common/settings.cpp:operator():85: Audio_Emulation: HLE
+[   0.733377] Config <Info> common/settings.cpp:operator():85: Audio_OutputType: 0
+[   0.733378] Config <Info> common/settings.cpp:operator():85: Audio_OutputDevice: Auto
+[   0.733379] Config <Info> common/settings.cpp:operator():85: Audio_InputType: 0
+[   0.733379] Config <Info> common/settings.cpp:operator():85: Audio_InputDevice: Auto
+[   0.733380] Config <Info> common/settings.cpp:operator():85: Audio_EnableAudioStretching: true
+[   0.733380] Config <Info> common/settings.cpp:operator():85: Audio_EnableRealtime: false
+[   0.733380] Config <Info> common/settings.cpp:operator():85: Camera_OuterRightName: blank
+[   0.733380] Config <Info> common/settings.cpp:operator():85: Camera_OuterRightConfig: 
+[   0.733381] Config <Info> common/settings.cpp:operator():85: Camera_OuterRightFlip: 0
+[   0.733381] Config <Info> common/settings.cpp:operator():85: Camera_InnerName: blank
+[   0.733381] Config <Info> common/settings.cpp:operator():85: Camera_InnerConfig: 
+[   0.733382] Config <Info> common/settings.cpp:operator():85: Camera_InnerFlip: 0
+[   0.733382] Config <Info> common/settings.cpp:operator():85: Camera_OuterLeftName: blank
+[   0.733382] Config <Info> common/settings.cpp:operator():85: Camera_OuterLeftConfig: 
+[   0.733383] Config <Info> common/settings.cpp:operator():85: Camera_OuterLeftFlip: 0
+[   0.733383] Config <Info> common/settings.cpp:operator():85: DataStorage_UseVirtualSd: true
+[   0.733383] Config <Info> common/settings.cpp:operator():85: DataStorage_UseCustomStorage: false
+[   0.733384] Config <Info> common/settings.cpp:operator():85: System_IsNew3ds: true
+[   0.733384] Config <Info> common/settings.cpp:operator():85: System_LLEApplets: false
+[   0.733384] Config <Info> common/settings.cpp:operator():85: System_RegionValue: 5
+[   0.733384] Config <Info> common/settings.cpp:operator():85: System_PluginLoader: false
+[   0.733384] Config <Info> common/settings.cpp:operator():85: System_PluginLoaderAllowed: true
+[   0.733385] Config <Info> common/settings.cpp:operator():85: System_ApplyRegionFreePatch: true
+[   0.733385] Config <Info> common/settings.cpp:operator():85: Debugging_DelayStartForLLEModules: true
+[   0.733385] Config <Info> common/settings.cpp:operator():85: Debugging_UseGdbstub: true
+[   0.733386] Config <Info> common/settings.cpp:operator():85: Debugging_GdbstubPort: 24689
+[   0.733386] Config <Info> common/settings.cpp:operator():85: Debugging_InstantDebugLog: false
+[   0.733386] Config <Info> common/settings.cpp:operator():85: Debugging_ToggleUniqueDataConsoleType: false
+[   0.733387] Config <Info> common/settings.cpp:operator():85: Debugging_EnableExceptionHandler: false
+[   1.007026] Audio.Sink <Info> audio_core/cubeb_sink.cpp:StateCallback:136: Cubeb Audio Stream Started
+[   1.010246] Service.HTTP <Error> core/hle/service/http/http_c.cpp:DecryptClCertA:2127: ClCertA file missing, using default
+[   1.010304] Render.OpenGL <Info> video_core/renderer_opengl/gl_driver.cpp:ReportDriverInfo:133: GL_VERSION: 4.3.0 NVIDIA 621.01
+[   1.010305] Render.OpenGL <Info> video_core/renderer_opengl/gl_driver.cpp:ReportDriverInfo:134: GL_VENDOR: NVIDIA Corporation
+[   1.010305] Render.OpenGL <Info> video_core/renderer_opengl/gl_driver.cpp:ReportDriverInfo:135: GL_RENDERER: NVIDIA GeForce RTX 4060 Ti/PCIe/SSE2
+[   1.028090] Loader <Info> core/loader/ncch.cpp:Load:300: Program ID: 00040000001CA900
+[   1.040553] Loader <Info> core/hle/kernel/process.cpp:ParseKernelCaps:201: ExHeader kernel version: 2.52
+[   1.042110] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():183: LayeredFS replacement file in use for /.crr/static.crr
+[   1.042316] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():183: LayeredFS replacement file in use for /BAI/BAI.dat
+[   1.042585] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():183: LayeredFS replacement file in use for /FMdl/JP/FMdl.dat
+[   1.042867] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():183: LayeredFS replacement file in use for /HB/JP_ja/cyorometer.arc.z
+[   1.043005] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():183: LayeredFS replacement file in use for /HB/JP_ja/demoskip.arc.z
+[   1.043130] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():183: LayeredFS replacement file in use for /HB/JP_ja/dpunch.arc.z
+[   1.043256] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():183: LayeredFS replacement file in use for /HB/JP_ja/fireball.arc.z
+[   1.043397] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():183: LayeredFS replacement file in use for /HB/JP_ja/kyusai.arc.z
+[   1.043522] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():183: LayeredFS replacement file in use for /HB/JP_ja/punch.arc.z
+[   1.043645] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():183: LayeredFS replacement file in use for /HB/JP_ja/rotation.arc.z
+[   1.043769] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():183: LayeredFS replacement file in use for /HB/JP_ja/start.arc.z
+[   1.043892] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():183: LayeredFS replacement file in use for /HB/JP_ja/touchpen.arc.z
+[   1.044014] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():183: LayeredFS replacement file in use for /HB/JP_ja/ui_fa.arc.z
+[   1.044149] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():183: LayeredFS replacement file in use for /HB/JP_ja/yesno.arc.z
+[   1.044268] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():183: LayeredFS replacement file in use for /HB/parts.arc.z
+[   1.044545] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():183: LayeredFS replacement file in use for /Lyt/JP/BLyt.dat
+[   1.044671] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():183: LayeredFS replacement file in use for /Lyt/JP/FLyt.dat
+[   1.044795] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():183: LayeredFS replacement file in use for /Lyt/JP/KLyt.dat
+[   1.044912] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():183: LayeredFS replacement file in use for /Lyt/JP/MLyt.dat
+[   1.045031] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():183: LayeredFS replacement file in use for /Lyt/JP/SLyt.dat
+[   1.045309] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():183: LayeredFS replacement file in use for /Msg/JP_ja/BMsg.dat
+[   1.045428] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():183: LayeredFS replacement file in use for /Msg/JP_ja/FMsg.dat
+[   1.045561] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():183: LayeredFS replacement file in use for /Msg/JP_ja/font.bffnt
+[   1.045684] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():183: LayeredFS replacement file in use for /Msg/JP_ja/font_btl.bffnt
+[   1.045807] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():183: LayeredFS replacement file in use for /Msg/JP_ja/font_l.bffnt
+[   1.045928] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():183: LayeredFS replacement file in use for /Msg/JP_ja/HugeBattle.msbt
+[   1.046048] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():183: LayeredFS replacement file in use for /Msg/JP_ja/InitLoad.msbt
+[   1.046166] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():183: LayeredFS replacement file in use for /Msg/JP_ja/Item.msbt
+[   1.046284] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():183: LayeredFS replacement file in use for /Msg/JP_ja/Menu.msbt
+[   1.046430] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():183: LayeredFS replacement file in use for /Msg/JP_ja/MenuKJ.msbt
+[   1.046690] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():183: LayeredFS replacement file in use for /Obj/JP/BUI.dat
+[   1.046805] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():183: LayeredFS replacement file in use for /Obj/JP/FUI.dat
+[   1.046921] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():183: LayeredFS replacement file in use for /Obj/JP/KUI.dat
+[   1.047035] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():183: LayeredFS replacement file in use for /Obj/JP/Menu.dat
+[   1.047222] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():183: LayeredFS replacement file in use for /RO/MainMenu.cro
+[   1.047486] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():183: LayeredFS replacement file in use for /Staffroll/JP/Staffroll.bin
+[   1.047609] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():183: LayeredFS replacement file in use for /Staffroll/mario_font.bffnt
+[   1.048933] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():183: LayeredFS replacement file in use for /.crr/static.crr
+[   1.048966] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():162: LayeredFS created directory /BAI/
+[   1.049046] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():176: LayeredFS created file /BAI/BAI.dat
+[   1.049131] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():183: LayeredFS replacement file in use for /BAI/BAI.dat
+[   1.049391] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():183: LayeredFS replacement file in use for /FMdl/JP/FMdl.dat
+[   1.049421] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():162: LayeredFS created directory /HB/
+[   1.049492] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():162: LayeredFS created directory /HB/JP_ja/
+[   1.049568] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():176: LayeredFS created file /HB/JP_ja/cyorometer.arc.z
+[   1.049658] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():183: LayeredFS replacement file in use for /HB/JP_ja/cyorometer.arc.z
+[   1.049691] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():176: LayeredFS created file /HB/JP_ja/demoskip.arc.z
+[   1.049784] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():183: LayeredFS replacement file in use for /HB/JP_ja/demoskip.arc.z
+[   1.049815] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():176: LayeredFS created file /HB/JP_ja/dpunch.arc.z
+[   1.049903] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():183: LayeredFS replacement file in use for /HB/JP_ja/dpunch.arc.z
+[   1.049935] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():176: LayeredFS created file /HB/JP_ja/fireball.arc.z
+[   1.050024] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():183: LayeredFS replacement file in use for /HB/JP_ja/fireball.arc.z
+[   1.050056] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():176: LayeredFS created file /HB/JP_ja/kyusai.arc.z
+[   1.050146] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():183: LayeredFS replacement file in use for /HB/JP_ja/kyusai.arc.z
+[   1.050189] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():176: LayeredFS created file /HB/JP_ja/punch.arc.z
+[   1.050274] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():183: LayeredFS replacement file in use for /HB/JP_ja/punch.arc.z
+[   1.050305] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():176: LayeredFS created file /HB/JP_ja/rotation.arc.z
+[   1.050392] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():183: LayeredFS replacement file in use for /HB/JP_ja/rotation.arc.z
+[   1.050423] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():176: LayeredFS created file /HB/JP_ja/start.arc.z
+[   1.050509] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():183: LayeredFS replacement file in use for /HB/JP_ja/start.arc.z
+[   1.050540] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():176: LayeredFS created file /HB/JP_ja/touchpen.arc.z
+[   1.050627] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():183: LayeredFS replacement file in use for /HB/JP_ja/touchpen.arc.z
+[   1.050658] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():176: LayeredFS created file /HB/JP_ja/ui_fa.arc.z
+[   1.050746] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():183: LayeredFS replacement file in use for /HB/JP_ja/ui_fa.arc.z
+[   1.050778] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():176: LayeredFS created file /HB/JP_ja/yesno.arc.z
+[   1.050877] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():183: LayeredFS replacement file in use for /HB/JP_ja/yesno.arc.z
+[   1.050909] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():176: LayeredFS created file /HB/parts.arc.z
+[   1.050994] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():183: LayeredFS replacement file in use for /HB/parts.arc.z
+[   1.051024] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():162: LayeredFS created directory /Lyt/
+[   1.051095] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():162: LayeredFS created directory /Lyt/JP/
+[   1.051165] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():176: LayeredFS created file /Lyt/JP/BLyt.dat
+[   1.051251] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():183: LayeredFS replacement file in use for /Lyt/JP/BLyt.dat
+[   1.051281] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():176: LayeredFS created file /Lyt/JP/FLyt.dat
+[   1.051367] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():183: LayeredFS replacement file in use for /Lyt/JP/FLyt.dat
+[   1.051398] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():176: LayeredFS created file /Lyt/JP/KLyt.dat
+[   1.051483] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():183: LayeredFS replacement file in use for /Lyt/JP/KLyt.dat
+[   1.051514] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():176: LayeredFS created file /Lyt/JP/MLyt.dat
+[   1.051601] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():183: LayeredFS replacement file in use for /Lyt/JP/MLyt.dat
+[   1.051632] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():176: LayeredFS created file /Lyt/JP/SLyt.dat
+[   1.051717] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():183: LayeredFS replacement file in use for /Lyt/JP/SLyt.dat
+[   1.051747] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():162: LayeredFS created directory /Msg/
+[   1.051820] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():162: LayeredFS created directory /Msg/JP_ja/
+[   1.051894] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():176: LayeredFS created file /Msg/JP_ja/BMsg.dat
+[   1.051979] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():183: LayeredFS replacement file in use for /Msg/JP_ja/BMsg.dat
+[   1.052010] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():176: LayeredFS created file /Msg/JP_ja/FMsg.dat
+[   1.052096] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():183: LayeredFS replacement file in use for /Msg/JP_ja/FMsg.dat
+[   1.052127] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():176: LayeredFS created file /Msg/JP_ja/font.bffnt
+[   1.052213] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():183: LayeredFS replacement file in use for /Msg/JP_ja/font.bffnt
+[   1.052244] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():176: LayeredFS created file /Msg/JP_ja/font_btl.bffnt
+[   1.052336] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():183: LayeredFS replacement file in use for /Msg/JP_ja/font_btl.bffnt
+[   1.052367] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():176: LayeredFS created file /Msg/JP_ja/font_l.bffnt
+[   1.052454] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():183: LayeredFS replacement file in use for /Msg/JP_ja/font_l.bffnt
+[   1.052487] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():176: LayeredFS created file /Msg/JP_ja/HugeBattle.msbt
+[   1.052576] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():183: LayeredFS replacement file in use for /Msg/JP_ja/HugeBattle.msbt
+[   1.052610] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():176: LayeredFS created file /Msg/JP_ja/InitLoad.msbt
+[   1.052696] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():183: LayeredFS replacement file in use for /Msg/JP_ja/InitLoad.msbt
+[   1.052728] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():176: LayeredFS created file /Msg/JP_ja/Item.msbt
+[   1.052876] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():183: LayeredFS replacement file in use for /Msg/JP_ja/Item.msbt
+[   1.052920] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():176: LayeredFS created file /Msg/JP_ja/Menu.msbt
+[   1.053029] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():183: LayeredFS replacement file in use for /Msg/JP_ja/Menu.msbt
+[   1.053063] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():176: LayeredFS created file /Msg/JP_ja/MenuKJ.msbt
+[   1.053156] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():183: LayeredFS replacement file in use for /Msg/JP_ja/MenuKJ.msbt
+[   1.053187] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():162: LayeredFS created directory /Obj/
+[   1.053266] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():162: LayeredFS created directory /Obj/JP/
+[   1.053342] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():176: LayeredFS created file /Obj/JP/BUI.dat
+[   1.053434] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():183: LayeredFS replacement file in use for /Obj/JP/BUI.dat
+[   1.053466] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():176: LayeredFS created file /Obj/JP/FUI.dat
+[   1.053552] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():183: LayeredFS replacement file in use for /Obj/JP/FUI.dat
+[   1.053582] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():176: LayeredFS created file /Obj/JP/KUI.dat
+[   1.053667] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():183: LayeredFS replacement file in use for /Obj/JP/KUI.dat
+[   1.053698] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():176: LayeredFS created file /Obj/JP/Menu.dat
+[   1.053785] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():183: LayeredFS replacement file in use for /Obj/JP/Menu.dat
+[   1.054018] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():183: LayeredFS replacement file in use for /RO/MainMenu.cro
+[   1.054056] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():162: LayeredFS created directory /Staffroll/
+[   1.054169] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():162: LayeredFS created directory /Staffroll/JP/
+[   1.054258] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():176: LayeredFS created file /Staffroll/JP/Staffroll.bin
+[   1.054356] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():183: LayeredFS replacement file in use for /Staffroll/JP/Staffroll.bin
+[   1.054391] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():176: LayeredFS created file /Staffroll/mario_font.bffnt
+[   1.054483] Service.FS <Info> core/file_sys/layered_fs.cpp:operator():183: LayeredFS replacement file in use for /Staffroll/mario_font.bffnt
+[   1.059156] Core.Cheats <Info> core/cheats/cheats.cpp:LoadCheatFile:92: Attempting to load cheats file: C:\AI-Projects\mario-luigi-rpg-3dx-korean-patch\tools\azahar-test/user/cheats/00040000001CA900.txt
+[   1.059253] Core.Cheats <Info> core/cheats/gateway_cheat.cpp:LoadFile:491: GatewayCheat::LoadFile failed, file doesn't exist: C:\AI-Projects\mario-luigi-rpg-3dx-korean-patch\tools\azahar-test/user/cheats/00040000001CA900.txt
+[   1.074932] Service.CAM <Info> citra_qt/camera/qt_multimedia_camera.cpp:ResumeCameras:50: Resuming all cameras
+[   1.080698] Render.OpenGL <Info> video_core/renderer_opengl/gl_shader_disk_cache.cpp:LoadTransferable:177: Found a transferable disk cache with 846 entries
+[   1.100488] Render.OpenGL <Info> video_core/renderer_opengl/gl_shader_disk_cache.cpp:LoadPrecompiledFile:284: Found a precompiled disk cache with 845 decompiled entries and 845 binary entries
+[   1.736626] Debug.GDBStub <Info> core/gdbstub/gdbstub.cpp:Init:1664: Starting GDB server on port 24689...
+[   1.763037] Service.SRV <Warning> core/hle/service/sm/srv.cpp:RegisterClient:64: (STUBBED) called. Caller PID=11
+[   1.801395] Service.SRV <Warning> core/hle/service/sm/srv.cpp:EnableNotification:86: (STUBBED) called
+[   1.804041] Service.NDM <Warning> core/hle/service/ndm/ndm_u.cpp:OverrideDefaultDaemons:195: (STUBBED) bit_mask=0x0000000F
+[   1.804083] Service.NDM <Warning> core/hle/service/ndm/ndm_u.cpp:SuspendDaemons:74: (STUBBED) bit_mask=0x00000006
+[   1.804373] Service.APT <Warning> core/hle/service/apt/apt.cpp:NotifyToWait:362: (STUBBED) app_id=768
+[   1.805224] Service.APT <Warning> core/hle/service/apt/apt.cpp:AppletUtility:735: (STUBBED) called command=0X00000007, input_size=0X00000004, output_size=0X00000001
+[   1.805346] Service.APT <Warning> core/hle/service/apt/apt.cpp:AppletUtility:735: (STUBBED) called command=0X00000004, input_size=0X00000001, output_size=0X00000001
+[   1.807537] Service.FS <Warning> core/hle/service/fs/fs_user.cpp:InitializeWithSdkVersion:1092: (STUBBED) called, version: 0x0B0600C8
+[   1.807956] Service.FS <Error> ./core/file_sys/archive_backend.h:GetOpenDelayNs:221: Delay generator was not initalized. Using default
+[   1.810148] Service.FS <Error> ./core/file_sys/archive_backend.h:GetOpenDelayNs:221: Delay generator was not initalized. Using default
+[   1.820507] Service.FS <Error> ./core/file_sys/archive_backend.h:GetOpenDelayNs:221: Delay generator was not initalized. Using default
+[   1.853407] Service.FS <Error> ./core/file_sys/archive_backend.h:GetOpenDelayNs:221: Delay generator was not initalized. Using default
+[   1.887335] Service.LDR <Warning> core/hle/service/ldr_ro/ldr_ro.cpp:LoadCRR:155: (STUBBED) called, crr_buffer_ptr=0x08043000, crr_size=0x00002000
+[   1.921030] Service.DSP <Info> audio_core/hle/hle.cpp:LoadComponent:514: Firmware hash: 0x60af809bc5b32916
+[   1.921035] Service.DSP <Info> audio_core/hle/hle.cpp:LoadComponent:519: Structures hash: 0x3fe31c7be0d849ca
+[   1.921036] Service.DSP <Info> core/hle/service/dsp/dsp_dsp.cpp:LoadComponent:192: called size=0x35388, prog_mask=0x00FF, data_mask=0x00FF
+[   1.921450] Service.DSP <Info> core/hle/service/dsp/dsp_dsp.cpp:RegisterInterruptEvents:259: Registered interrupt=2, channel=2, event=event-00115fb0
+[   1.921540] Service.DSP <Warning> core/hle/service/dsp/dsp_dsp.cpp:GetSemaphoreEventHandle:275: (STUBBED) called
+[   1.921699] Service.DSP <Warning> core/hle/service/dsp/dsp_dsp.cpp:SetSemaphoreMask:285: (STUBBED) called mask=0x2000
+[   1.921885] Audio.DSP <Info> audio_core/hle/hle.cpp:PipeWrite:235: Application has requested initialization of DSP hardware
+[   1.921972] Service.DSP <Info> core/hle/service/dsp/dsp_dsp.cpp:SetSemaphore:57: called, semaphore_value=4000
+[   1.922567] Service.DSP <Info> core/hle/service/dsp/dsp_dsp.cpp:SetSemaphore:57: called, semaphore_value=4000
+[   2.135000] Service.IR <Info> core/hle/service/ir/ir_user.cpp:InitializeIrNopShared:304: called, shared_buff_size=4096, recv_buff_size=82, recv_buff_packet_count=1, send_buff_size=18, send_buff_packet_count=1, baud_rate=4
+[   2.135451] Service.IR <Info> core/hle/service/ir/ir_user.cpp:GetConnectionStatusEvent:375: called
+[   2.135666] Service.IR <Info> core/hle/service/ir/ir_user.cpp:RequireConnection:331: called, device_id = 1
+[   2.135949] Service.IR <Info> core/hle/service/ir/ir_user.cpp:GetReceiveEvent:340: called
+[   2.136788] Service.IR <Info> core/hle/service/ir/ir_user.cpp:Disconnect:366: called
+[   2.136865] Service.IR <Info> core/hle/service/ir/ir_user.cpp:FinalizeIrNop:390: called
+[   2.137431] Service.IR <Info> core/hle/service/ir/ir_user.cpp:InitializeIrNopShared:304: called, shared_buff_size=4096, recv_buff_size=3280, recv_buff_packet_count=160, send_buff_size=768, send_buff_packet_count=32, baud_rate=4
+[   2.137500] Service.IR <Info> core/hle/service/ir/ir_user.cpp:GetConnectionStatusEvent:375: called
+[   2.137510] Service.IR <Info> core/hle/service/ir/ir_user.cpp:RequireConnection:331: called, device_id = 1
+[   2.137757] Service.IR <Info> core/hle/service/ir/ir_user.cpp:GetReceiveEvent:340: called
+[   2.137881] Service.IR <Info> core/hle/service/ir/ir_user.cpp:GetSendEvent:349: called
+[   2.535749] Service.APT <Warning> core/hle/service/apt/apt.cpp:AppletUtility:735: (STUBBED) called command=0X00000004, input_size=0X00000001, output_size=0X00000001
+[   2.542046] Service.FS <Error> core/file_sys/archive_ncch.cpp:OpenFile:192: CHN/KOR/TWN shared font file missing. Loading open source replacement, but text will not display properly
+[   2.718307] Service.FS <Error> ./core/file_sys/archive_backend.h:GetOpenDelayNs:221: Delay generator was not initalized. Using default
+[   2.957925] Service.LDR <Info> core/hle/service/ldr_ro/cro_helper.cpp:ApplyStaticAnonymousSymbolToCRS:555: CRO "Field" exports 0 static anonymous symbols
+[   2.958094] Service.LDR <Info> core/hle/service/ldr_ro/ldr_ro.cpp:LoadCRO:331: CRO "Field" loaded at 0x0063B000, fixed_end=0x0063F000
+[   7.606590] Service.FS <Warning> core/hle/service/fs/file.cpp:OpenLinkFile:382: (STUBBED) File command OpenLinkFile Path: [Binary: 000000000000000000000000]
+[  73.701192] Service.LDR <Info> core/hle/service/ldr_ro/ldr_ro.cpp:UnloadCRO:369: Unloading CRO "Field"
+[  73.709867] Service.LDR <Info> core/hle/service/ldr_ro/cro_helper.cpp:ApplyStaticAnonymousSymbolToCRS:555: CRO "SaveLoad" exports 0 static anonymous symbols
+[  73.710213] Service.LDR <Info> core/hle/service/ldr_ro/ldr_ro.cpp:LoadCRO:331: CRO "SaveLoad" loaded at 0x0047B000, fixed_end=0x00482000
+[  73.722438] Service.LDR <Info> core/hle/service/ldr_ro/cro_helper.cpp:ApplyStaticAnonymousSymbolToCRS:555: CRO "LoadMenu" exports 0 static anonymous symbols
+[  73.723310] Service.LDR <Info> core/hle/service/ldr_ro/ldr_ro.cpp:LoadCRO:331: CRO "LoadMenu" loaded at 0x00483000, fixed_end=0x0049B000
+[  76.097025] Service.FS <Error> ./core/file_sys/archive_backend.h:GetOpenDelayNs:221: Delay generator was not initalized. Using default
+[  81.432485] Service.LDR <Info> core/hle/service/ldr_ro/ldr_ro.cpp:UnloadCRO:369: Unloading CRO "SaveLoad"
+[  81.433012] Service.LDR <Info> core/hle/service/ldr_ro/ldr_ro.cpp:UnloadCRO:369: Unloading CRO "LoadMenu"
+[  81.510500] Service.LDR <Info> core/hle/service/ldr_ro/cro_helper.cpp:ApplyStaticAnonymousSymbolToCRS:555: CRO "Field" exports 0 static anonymous symbols
+[  81.510653] Service.LDR <Info> core/hle/service/ldr_ro/ldr_ro.cpp:LoadCRO:331: CRO "Field" loaded at 0x0063B000, fixed_end=0x0063F000
+[  93.752287] Service.LDR <Info> core/hle/service/ldr_ro/ldr_ro.cpp:UnloadCRO:369: Unloading CRO "Field"
+[  93.779458] Service.LDR <Info> core/hle/service/ldr_ro/cro_helper.cpp:ApplyStaticAnonymousSymbolToCRS:555: CRO "MainMenu" exports 0 static anonymous symbols
+[  93.780689] Service.LDR <Info> core/hle/service/ldr_ro/ldr_ro.cpp:LoadCRO:331: CRO "MainMenu" loaded at 0x0047B000, fixed_end=0x004B2000
+[  93.782669] Service.LDR <Info> core/hle/service/ldr_ro/cro_helper.cpp:ApplyStaticAnonymousSymbolToCRS:555: CRO "MenuGuide" exports 0 static anonymous symbols
+[  93.782778] Service.LDR <Info> core/hle/service/ldr_ro/ldr_ro.cpp:LoadCRO:331: CRO "MenuGuide" loaded at 0x004B3000, fixed_end=0x004B6000
+[ 184.678756] HW.Memory <Error> core/memory.cpp:ReadBlockImpl:193: unmapped ReadBlock @ 0x05000000 (start address = 0x05000000, size = 4) at PC 0x0012E41C

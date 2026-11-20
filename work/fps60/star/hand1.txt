@@ -1,0 +1,171 @@
+===== op117 handler 0x11058c18  (Battle Battle:btl::AISys::execAI+0x2110)
+11058c18: 1843ffea b        #0x11029880
+11058c1c: 70402de9 push     {r4, r5, r6, lr}
+11058c20: 0060a0e1 mov      r6, r0
+11058c24: 180090e5 ldr      r0, [r0, #0x18]
+11058c28: 0150a0e1 mov      r5, r1
+11058c2c: 081092e5 ldr      r1, [r2, #8]
+11058c30: 220b80e2 add      r0, r0, #0x8800
+11058c34: 0240a0e1 mov      r4, r2
+11058c38: b80080e2 add      r0, r0, #0xb8
+11058c3c: 0aa4feeb bl       #0x11001c6c  ; ->btl::CoinStockData::addBase
+11058c40: 100a00ee vmov     s0, r0
+11058c44: b230d4e1 ldrh     r3, [r4, #2]
+11058c48: 000055e3 cmp      r5, #0
+11058c4c: 04208512 addne    r2, r5, #4
+11058c50: 0020a003 moveq    r2, #0
+11058c54: 0610a0e1 mov      r1, r6
+11058c58: c00ab8ee vcvt.f32.s32 s0, s0
+11058c5c: 0300a0e1 mov      r0, r3
+11058c60: 479ffeeb bl       #0x11000984  ; ->PutRegFlag
+11058c64: 0000a0e3 mov      r0, #0
+11058c68: 7080bde8 pop      {r4, r5, r6, pc}
+
+===== op118 handler 0x11058c14  (Battle Battle:btl::AISys::execAI+0x210c)
+11058c14: 1943ffea b        #0x11029880
+11058c18: 1843ffea b        #0x11029880
+11058c1c: 70402de9 push     {r4, r5, r6, lr}
+11058c20: 0060a0e1 mov      r6, r0
+11058c24: 180090e5 ldr      r0, [r0, #0x18]
+11058c28: 0150a0e1 mov      r5, r1
+11058c2c: 081092e5 ldr      r1, [r2, #8]
+11058c30: 220b80e2 add      r0, r0, #0x8800
+11058c34: 0240a0e1 mov      r4, r2
+11058c38: b80080e2 add      r0, r0, #0xb8
+11058c3c: 0aa4feeb bl       #0x11001c6c  ; ->btl::CoinStockData::addBase
+11058c40: 100a00ee vmov     s0, r0
+11058c44: b230d4e1 ldrh     r3, [r4, #2]
+11058c48: 000055e3 cmp      r5, #0
+11058c4c: 04208512 addne    r2, r5, #4
+11058c50: 0020a003 moveq    r2, #0
+11058c54: 0610a0e1 mov      r1, r6
+11058c58: c00ab8ee vcvt.f32.s32 s0, s0
+11058c5c: 0300a0e1 mov      r0, r3
+11058c60: 479ffeeb bl       #0x11000984  ; ->PutRegFlag
+11058c64: 0000a0e3 mov      r0, #0
+11058c68: 7080bde8 pop      {r4, r5, r6, pc}
+
+===== op0d3 handler 0x11045d44  (Battle Battle:btl::AISys::startScnAI+0x279c)
+11045d44: 70402de9 push     {r4, r5, r6, lr}
+11045d48: 0060a0e1 mov      r6, r0
+11045d4c: bc00d2e1 ldrh     r0, [r2, #0xc]
+11045d50: 0240a0e1 mov      r4, r2
+11045d54: 082092e5 ldr      r2, [r2, #8]
+11045d58: 0150a0e1 mov      r5, r1
+11045d5c: 7030ffe6 uxth     r3, r0
+11045d60: 0600a0e1 mov      r0, r6
+11045d64: 5391ffeb bl       #0x1102a2b8
+11045d68: 000055e3 cmp      r5, #0
+11045d6c: b200d4e1 ldrh     r0, [r4, #2]
+11045d70: 04208512 addne    r2, r5, #4
+11045d74: 0020a003 moveq    r2, #0
+11045d78: 0610a0e1 mov      r1, r6
+11045d7c: 00ebfeeb bl       #0x11000984  ; ->PutRegFlag
+11045d80: 0000a0e3 mov      r0, #0
+11045d84: 7080bde8 pop      {r4, r5, r6, pc}
+
+===== op0d4 handler 0x11045d88  (Battle Battle:btl::AISys::startScnAI+0x27e0)
+11045d88: 70402de9 push     {r4, r5, r6, lr}
+11045d8c: 0040a0e1 mov      r4, r0
+11045d90: 0160a0e1 mov      r6, r1
+11045d94: 028b2ded vpush    {d8}
+11045d98: bc00d2e1 ldrh     r0, [r2, #0xc]
+11045d9c: 081092e5 ldr      r1, [r2, #8]
+11045da0: 1c8a92ed vldr     s16, [r2, #0x70]
+11045da4: 7050ffe6 uxth     r5, r0
+11045da8: 0f0a05e2 and      r0, r5, #0xf000
+11045dac: 030a50e3 cmp      r0, #0x3000
+11045db0: 2700000a beq      #0x11045e54
+11045db4: 060000ca bgt      #0x11045dd4
+11045db8: 000050e3 cmp      r0, #0
+11045dbc: 0900000a beq      #0x11045de8
+11045dc0: 010a50e3 cmp      r0, #0x1000
+11045dc4: 0c00000a beq      #0x11045dfc
+11045dc8: 020a50e3 cmp      r0, #0x2000
+11045dcc: 1500000a beq      #0x11045e28
+11045dd0: 430000ea b        #0x11045ee4
+11045dd4: 010950e3 cmp      r0, #0x4000
+11045dd8: 2800000a beq      #0x11045e80
+11045ddc: 050a50e3 cmp      r0, #0x5000
+11045de0: 3400000a beq      #0x11045eb8
+11045de4: 3e0000ea b        #0x11045ee4
+11045de8: 180094e5 ldr      r0, [r4, #0x18]
+11045dec: d8ebfeeb bl       #0x11000d54  ; ->btl::Main::getObjBySlot
+11045df0: 00f020e3 nop      
+11045df4: 00f020e3 nop      
+11045df8: 390000ea b        #0x11045ee4
+11045dfc: 180094e5 ldr      r0, [r4, #0x18]
+11045e00: d3ebfeeb bl       #0x11000d54  ; ->btl::Main::getObjBySlot
+11045e04: 480ab0ee vmov.f32 s0, s16
+11045e08: 0020a0e1 mov      r2, r0
+11045e0c: 0530a0e1 mov      r3, r5
+11045e10: 0610a0e1 mov      r1, r6
+11045e14: 0400a0e1 mov      r0, r4
+11045e18: 0d3e00eb bl       #0x11055654
+11045e1c: 00f020e3 nop      
+11045e20: 00f020e3 nop      
+11045e24: 2e0000ea b        #0x11045ee4
+11045e28: 180094e5 ldr      r0, [r4, #0x18]
+11045e2c: c8ebfeeb bl       #0x11000d54  ; ->btl::Main::getObjBySlot
+11045e30: 480ab0ee vmov.f32 s0, s16
+11045e34: 0020a0e1 mov      r2, r0
+11045e38: 0530a0e1 mov      r3, r5
+11045e3c: 0610a0e1 mov      r1, r6
+11045e40: 0400a0e1 mov      r0, r4
+11045e44: 413600eb bl       #0x11053750
+11045e48: 00f020e3 nop      
+11045e4c: 00f020e3 nop      
+11045e50: 230000ea b        #0x11045ee4
+11045e54: 180094e5 ldr      r0, [r4, #0x18]
+11045e58: 29ecfeeb bl       #0x11000f04  ; ->btl::Main::getChr
+11045e5c: 480ab0ee vmov.f32 s0, s16
+11045e60: 0020a0e1 mov      r2, r0
+11045e64: 0530a0e1 mov      r3, r5
+11045e68: 0610a0e1 mov      r1, r6
+11045e6c: 0400a0e1 mov      r0, r4
+11045e70: 783300eb bl       #0x11052c58
+11045e74: 00f020e3 nop      
+
+===== op101 handler 0x1105882c  (Battle Battle:btl::AISys::execAI+0x1d24)
+1105882c: 70402de9 push     {r4, r5, r6, lr}
+11058830: 028b2ded vpush    {d8}
+11058834: b031d2e1 ldrh     r3, [r2, #0x10]
+11058838: 0cc0d2e5 ldrb     ip, [r2, #0xc]
+1105883c: 081092e5 ldr      r1, [r2, #8]
+11058840: 180090e5 ldr      r0, [r0, #0x18]
+11058844: 7350bfe6 sxth     r5, r3
+11058848: 184092e5 ldr      r4, [r2, #0x18]
+1105884c: 1d8a92ed vldr     s16, [r2, #0x74]
+11058850: ff600ce2 and      r6, ip, #0xff
+11058854: 3ea1feeb bl       #0x11000d54  ; ->btl::Main::getObjBySlot
+11058858: 480ab0ee vmov.f32 s0, s16
+1105885c: 0430a0e1 mov      r3, r4
+11058860: 0520a0e1 mov      r2, r5
+11058864: 0610a0e1 mov      r1, r6
+11058868: 979efeeb bl       #0x110002cc  ; ->btl::ObjMove::playAnm
+1105886c: 028bbdec vpop     {d8}
+11058870: 0000a0e3 mov      r0, #0
+11058874: 7080bde8 pop      {r4, r5, r6, pc}
+
+===== op17f handler 0x1104450c  (Battle Battle:btl::AISys::startScnAI+0xf64)
+1104450c: 10402de9 push     {r4, lr}
+11044510: 028b2ded vpush    {d8}
+11044514: 10d04de2 sub      sp, sp, #0x10
+11044518: 081092e5 ldr      r1, [r2, #8]
+1104451c: 000051e3 cmp      r1, #0
+11044520: 0030a003 moveq    r3, #0
+11044524: 0300000a beq      #0x11044538
+11044528: 7110ffe6 uxth     r1, r1
+1104452c: 813081e0 add      r3, r1, r1, lsl #1
+11044530: 031180e0 add      r1, r0, r3, lsl #2
+11044534: 393e81e2 add      r3, r1, #0x390
+11044538: 000053e3 cmp      r3, #0
+1104453c: 08409315 ldrne    r4, [r3, #8]
+11044540: 0c10d2e5 ldrb     r1, [r2, #0xc]
+11044544: 00005413 cmpne    r4, #0
+11044548: 7400000a beq      #0x11044720
+1104454c: 1c8a92ed vldr     s16, [r2, #0x70]
+11044550: 110051e3 cmp      r1, #0x11
+11044554: 01f19f37 ldrlo    pc, [pc, r1, lsl #2]
+11044558: 700000ea b        #0x11044720
+

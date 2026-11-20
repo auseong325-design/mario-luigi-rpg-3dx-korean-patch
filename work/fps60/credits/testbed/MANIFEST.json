@@ -1,0 +1,70 @@
+{
+  "tool": "scripts/fps60/crd_testbed.py",
+  "variants": {
+    "A_save_redirect": {
+      "source": "tools\\azahar-test\\user\\sdmc\\Nintendo 3DS\\00000000000000000000000000000000\\00000000000000000000000000000000\\title\\00040000\\001ca900\\data\\00000001\\ML3R_001.sav",
+      "source_sha256": "43c2ca72cb6a5ff26174906c62506ae27743eace6648e4ad2f49ab6ed8eed7cb",
+      "output": "work\\fps60\\credits\\testbed\\save_credits\\ML3R_001.sav",
+      "output_sha256": "289ebb5746d734f9752c7851a0c1a1dbdda497b7db86d8cb4479d80e6508ee10",
+      "room_block_offset": 10620,
+      "old_rooms": [
+        589,
+        168,
+        "o_peach_t_04",
+        "i_tainai_01"
+      ],
+      "new_rooms": [
+        706,
+        705,
+        "zi_areanone_staffroll_01_U",
+        "zi_areanone_staffroll_01_L"
+      ],
+      "changed_bytes": [
+        10622,
+        10623,
+        10624,
+        10625
+      ]
+    },
+    "B_room_warp": {
+      "source": "romf2\\FEvent\\FEvent.dat",
+      "source_sha256": "a0fecd0fc48ecf8c63df2498bfe233a35d6c89001fe7d7d1e99a939141bd40aa",
+      "output": "work\\fps60\\credits\\testbed\\romfs\\FEvent\\FEvent.dat",
+      "output_sha256": "872427f64dfaf5b09f857c0404f93963aaaa9e5c41026db5da1d2ba2d8f1a52c",
+      "rooms": {
+        "o_peach_t_04.fev": {
+          "default_entry": 24,
+          "table_slot_offset": 188,
+          "old_rel": 10247,
+          "new_rel": 14744,
+          "code_offset": 14768,
+          "code_len": 39,
+          "room": [
+            589,
+            "o_peach_t_04"
+          ],
+          "warp": [
+            "039b0: op18a(0x2c2, 0f, 0f, 0f, 8, 0, -1, 3, 0)",
+            "039cd: return(0f)"
+          ]
+        },
+        "i_tainai_01.fev": {
+          "default_entry": 55,
+          "table_slot_offset": 312,
+          "old_rel": 14927,
+          "new_rel": 47430,
+          "code_offset": 47454,
+          "code_len": 39,
+          "room": [
+            168,
+            "i_tainai_01"
+          ],
+          "warp": [
+            "0b95e: op18a(0x2c1, 0f, 0f, 0f, 8, 0, -1, 3, 0)",
+            "0b97b: return(0f)"
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+ "certs": [
+  "Root-CA00000003",
+  "Root-CA00000003-XS0000000c",
+  "Root-CA00000003-CP0000000b"
+ ],
+ "tmd_signed_by": "Root-CA00000003-CP0000000b",
+ "tmd_signature_valid": false,
+ "ticket_signed_by": "Root-CA00000003-XS0000000c",
+ "ticket_signature_valid": false,
+ "cert_Root-CA00000003-XS0000000c_valid": true,
+ "cert_Root-CA00000003-CP0000000b_valid": true,
+ "ncch_header_signature_valid": false
+}

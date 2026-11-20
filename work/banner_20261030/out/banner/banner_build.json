@@ -1,0 +1,41 @@
+{
+ "source": "C:\\AI-Projects\\mario-luigi-rpg-3dx-korean-patch\\exefs\\banner",
+ "source_sha256": "d6b5df0f23a46ec8fd5df1ce441f55be1ff7897919d3bd01f0f4a488b5e9449f",
+ "source_size": 153096,
+ "align": 64,
+ "identity_equal": true,
+ "identity_sha256": "d6b5df0f23a46ec8fd5df1ce441f55be1ff7897919d3bd01f0f4a488b5e9449f",
+ "cgfx_changed_bytes": 28687,
+ "cgfx_changed_range": [
+  80254,
+  142889
+ ],
+ "cgfx_texture_range": [
+  79104,
+  144640
+ ],
+ "layout": "kept: header, BCWAV offset 0xA840 and file size unchanged; zero padding after the CGFX",
+ "ko_padding_after_cgfx": {
+  "bytes": 4283,
+  "all_zero": true
+ },
+ "ko_size": 153096,
+ "ko_sha256": "d659b9fe55429b0b099c00777443348ce0a3dac8f0a55cd40266e7fa6072c8b6",
+ "ko_cgfx_comp_len": 38653,
+ "ko_bcwav_off": "0xa840",
+ "ko_readback_cgfx_equal": true,
+ "ko_bcwav_equal": true,
+ "ko_header_changed_bytes": [],
+ "ko_cgfx_decompressed_size": 144640,
+ "ko_cgfx_size_limit_ok": true,
+ "texture_bytes_unchanged": {
+  "bunner_rem3_base": true,
+  "bunner_rem3_bg": true,
+  "bunner_rem3_bk": true,
+  "bunner_rem3_chara": true,
+  "COMMON_jp": false
+ },
+ "ko_texture_equals_logo_png": true,
+ "exefs_slot_bytes": 153600,
+ "fits_original_exefs_slot": true
+}

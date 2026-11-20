@@ -1,0 +1,105 @@
+{
+ "label": "merge_ko_noupd",
+ "start": "2026-10-31 15:54:45",
+ "stops": {
+  "title": {
+   "cur_task": "0x320da370",
+   "vptr": "0x003e3b3c",
+   "class": [
+    "[static]",
+    "fld::System",
+    "ad::fw::TaskBase",
+    "TaskMainBase",
+    "Task"
+   ],
+   "fps_init_3D": 1,
+   "fps_live_45": 1,
+   "ctr_578_per_s": 29.96,
+   "png": "runtime_merge_ko_noupd_title.png"
+  },
+  "file_select": {
+   "cur_task": "0x30000038",
+   "vptr": "0x004acb60",
+   "class": [
+    "[LoadMenu.rodata]",
+    "load_menu::LoadMenuTask",
+    "msys::MTaskBase",
+    "ad::fw::TaskBase",
+    "TaskMainBase",
+    "Task"
+   ],
+   "fps_init_3D": 1,
+   "fps_live_45": 1,
+   "ctr_578_per_s": 29.46,
+   "png": "runtime_merge_ko_noupd_file.png"
+  },
+  "mode_select": {
+   "cur_task": "0x320da370",
+   "vptr": "0x003e3b3c",
+   "class": [
+    "[static]",
+    "fld::System",
+    "ad::fw::TaskBase",
+    "TaskMainBase",
+    "Task"
+   ],
+   "fps_init_3D": 1,
+   "fps_live_45": 1,
+   "ctr_578_per_s": 29.94,
+   "png": "runtime_merge_ko_noupd_mode.png"
+  },
+  "field": {
+   "cur_task": "0x320da370",
+   "vptr": "0x003e3b3c",
+   "class": [
+    "[static]",
+    "fld::System",
+    "ad::fw::TaskBase",
+    "TaskMainBase",
+    "Task"
+   ],
+   "fps_init_3D": 1,
+   "fps_live_45": 1,
+   "ctr_578_per_s": 29.93,
+   "png": "runtime_merge_ko_noupd_field.png"
+  },
+  "pause": {
+   "cur_task": "0x30000028",
+   "vptr": "0x004bbfac",
+   "class": [
+    "[None]"
+   ],
+   "fps_init_3D": 1,
+   "fps_live_45": 1,
+   "ctr_578_per_s": 29.93,
+   "png": "runtime_merge_ko_noupd_pause.png"
+  }
+ },
+ "presses": [
+  {
+   "press": "A",
+   "try": 0,
+   "task": "0x30000038",
+   "class": "[None]"
+  },
+  {
+   "press": "A",
+   "try": 1,
+   "task": "0x30000038",
+   "class": "Task"
+  },
+  {
+   "press": "A",
+   "try": 0,
+   "task": "0x320da370",
+   "class": "Task"
+  },
+  {
+   "press": "START",
+   "try": 0,
+   "task": "0x30000028",
+   "class": "[None]"
+  }
+ ],
+ "end": "2026-10-31 15:56:23"
+}

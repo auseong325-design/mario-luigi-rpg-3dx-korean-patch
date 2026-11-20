@@ -1,0 +1,10 @@
+3dx bunner_rem3_base 64 64 ETC1A4 None [4, 4, 60, 60] {'0': 1664, '255': 2056, 'mid': 376}
+3dx bunner_rem3_bg 128 128 ETC1A4 None [7, 6, 123, 126] {'0': 8634, '255': 5904, 'mid': 1846}
+3dx bunner_rem3_bk 64 32 A4 True [5, 3, 61, 32] {'0': 1340, '255': 428, 'mid': 280}
+3dx bunner_rem3_chara 128 128 RGBA4 True [1, 0, 128, 128] {'0': 7490, '255': 8889, 'mid': 5}
+3dx COMMON_jp 256 128 RGBA4 True [2, 5, 254, 122] {'0': 15192, '255': 13695, 'mid': 3881}
+1dx COMMON_kr 256 128 RGBA4 True [2, 7, 255, 109] {'0': 21676, '255': 10013, 'mid': 1079}
+1dx re_banner_a 128 64 A8 True [0, 0, 128, 64] {'0': 2997, '255': 3197, 'mid': 1998}
+1dx re_banner_chara 128 256 RGBA4 True [0, 0, 128, 251] {'0': 11866, '255': 20789, 'mid': 113}
+1dx re_banner_ef 32 8 A4 True [5, 1, 26, 6] {'0': 195, '255': 5, 'mid': 56}
+1dx re_banner_l 32 16 A8 True [0, 0, 15, 15] {'0': 327, '255': 0, 'mid': 185}

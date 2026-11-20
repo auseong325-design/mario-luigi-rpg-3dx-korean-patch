@@ -1,0 +1,39 @@
+{
+ "size": [
+  256,
+  128
+ ],
+ "format": "RGBA4",
+ "bytes": 65536,
+ "sha256": "cb05583970973dac73541823fef43fdd32ad2f49ceeff5fc92fd8c7fb1667e23",
+ "alpha_bbox": [
+  3,
+  15,
+  254,
+  113
+ ],
+ "scale": 0.5,
+ "shift_up_title_px": 10,
+ "tm_title_box_erased": [
+  484,
+  145,
+  496,
+  151
+ ],
+ "jp_tm_box": [
+  240,
+  68,
+  251,
+  74
+ ],
+ "tm_shift": [
+  1,
+  -2
+ ],
+ "tm_ink_pixels": 31,
+ "sources": {
+  "title_bottom": "C:\\AI-Projects\\mario-luigi-rpg-3dx-korean-patch\\work\\banner_20261030\\extract\\title_kr_title_logo_JP_bottom.png",
+  "title_top": "C:\\AI-Projects\\mario-luigi-rpg-3dx-korean-patch\\work\\banner_20261030\\extract\\title_kr_title_logo_JP_top.png",
+  "jp_banner": "C:\\AI-Projects\\mario-luigi-rpg-3dx-korean-patch\\work\\banner_20261030\\extract\\3dx_COMMON_jp.png"
+ }
+}

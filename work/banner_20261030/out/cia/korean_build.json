@@ -1,0 +1,56 @@
+{
+ "input": "C:\\AI-Projects\\mario-luigi-rpg-3dx-korean-patch\\00040000001CA900.00000002 Mario & Luigi Bowser's Inside\u2026 (CTR-P-A3RJ) (J).standard.cia",
+ "output": "work\\banner_20261030\\out\\00040000001CA900_ML3DX_KoreanBanner.cia",
+ "output_sha256": "7e70eaee4d262f7669aeb03d4c4b217edfd7f79ee1e2edd0c301e92d0ae00f2d",
+ "output_size": 699835328,
+ "banner_size": 153096,
+ "banner_slot": [
+  1913856,
+  2067456
+ ],
+ "new_content0_sha256": "3c3c28e22908dd2a8d4dfd3d6982dc92868ed59e1250fe204b9abe99926e0f0e",
+ "old_content0_sha256": "da54842716b953bd5c487aa5110b54d0eeff7be64079f3ee0a5d1e02811eb1e7",
+ "new_exefs_hash": "a8b6c46b01cda4390a28e279f3aac80d4972092df1b8f608f34e797d0a62f173",
+ "changed_ranges": [
+  {
+   "range": [
+    "0x2fa4",
+    "0x2fe8"
+   ],
+   "bytes": 68,
+   "where": "TMD"
+  },
+  {
+   "range": [
+    "0x38d4",
+    "0x38f4"
+   ],
+   "bytes": 32,
+   "where": "TMD"
+  },
+  {
+   "range": [
+    "0x3ac0",
+    "0x3ae0"
+   ],
+   "bytes": 32,
+   "where": "NCCH header"
+  },
+  {
+   "range": [
+    "0x66c1",
+    "0x66e0"
+   ],
+   "bytes": 31,
+   "where": "ExeFS header"
+  },
+  {
+   "range": [
+    "0x1df3db",
+    "0x1e4336"
+   ],
+   "bytes": 20315,
+   "where": "ExeFS banner slot"
+  }
+ ]
+}

@@ -1,0 +1,324 @@
+{
+ "3dx": {
+  "file": "C:\\AI-Projects\\mario-luigi-rpg-3dx-korean-patch\\exefs\\banner",
+  "sha256": "d6b5df0f23a46ec8fd5df1ce441f55be1ff7897919d3bd01f0f4a488b5e9449f",
+  "size": 153096,
+  "cgfx_sha256": "7863898559770fa50bb4b2a48f5e3a9db99b64b59e03c0cdbb8fe5c63f59548e",
+  "cgfx_size": 144640,
+  "cgfx_comp_len": 42926,
+  "bcwav_off": 43072,
+  "bcwav_size": 110024,
+  "textures": [
+   {
+    "name": "bunner_rem3_base",
+    "txob_off": 17860,
+    "flags": "0x20000011",
+    "w": 64,
+    "h": 64,
+    "gl_format": "0x675b",
+    "gl_type": "0x0",
+    "mipmaps": 1,
+    "pica_format": 13,
+    "fmt": "ETC1A4",
+    "img": {
+     "struct_off": 17920,
+     "ptr_field": 17916,
+     "data_off": 24832,
+     "data_len": 4096
+    },
+    "alpha_hist": {
+     "0": 1664,
+     "255": 2056,
+     "mid": 376
+    },
+    "alpha_bbox": [
+     4,
+     4,
+     60,
+     60
+    ]
+   },
+   {
+    "name": "bunner_rem3_bg",
+    "txob_off": 17952,
+    "flags": "0x20000011",
+    "w": 128,
+    "h": 128,
+    "gl_format": "0x675b",
+    "gl_type": "0x0",
+    "mipmaps": 1,
+    "pica_format": 13,
+    "fmt": "ETC1A4",
+    "img": {
+     "struct_off": 18012,
+     "ptr_field": 18008,
+     "data_off": 28928,
+     "data_len": 16384
+    },
+    "alpha_hist": {
+     "0": 8634,
+     "255": 5904,
+     "mid": 1846
+    },
+    "alpha_bbox": [
+     7,
+     6,
+     123,
+     126
+    ]
+   },
+   {
+    "name": "bunner_rem3_bk",
+    "txob_off": 18044,
+    "flags": "0x20000011",
+    "w": 64,
+    "h": 32,
+    "gl_format": "0x6756",
+    "gl_type": "0x6761",
+    "mipmaps": 1,
+    "pica_format": 11,
+    "fmt": "A4",
+    "img": {
+     "struct_off": 18104,
+     "ptr_field": 18100,
+     "data_off": 45312,
+     "data_len": 1024
+    },
+    "reencode_identical": true,
+    "alpha_hist": {
+     "0": 1340,
+     "255": 428,
+     "mid": 280
+    },
+    "alpha_bbox": [
+     5,
+     3,
+     61,
+     32
+    ]
+   },
+   {
+    "name": "bunner_rem3_chara",
+    "txob_off": 18136,
+    "flags": "0x20000011",
+    "w": 128,
+    "h": 128,
+    "gl_format": "0x6752",
+    "gl_type": "0x8033",
+    "mipmaps": 1,
+    "pica_format": 4,
+    "fmt": "RGBA4",
+    "img": {
+     "struct_off": 18196,
+     "ptr_field": 18192,
+     "data_off": 46336,
+     "data_len": 32768
+    },
+    "reencode_identical": true,
+    "alpha_hist": {
+     "0": 7490,
+     "255": 8889,
+     "mid": 5
+    },
+    "alpha_bbox": [
+     1,
+     0,
+     128,
+     128
+    ]
+   },
+   {
+    "name": "COMMON_jp",
+    "txob_off": 18228,
+    "flags": "0x20000011",
+    "w": 256,
+    "h": 128,
+    "gl_format": "0x6752",
+    "gl_type": "0x8033",
+    "mipmaps": 1,
+    "pica_format": 4,
+    "fmt": "RGBA4",
+    "img": {
+     "struct_off": 18288,
+     "ptr_field": 18284,
+     "data_off": 79104,
+     "data_len": 65536
+    },
+    "reencode_identical": true,
+    "alpha_hist": {
+     "0": 15192,
+     "255": 13695,
+     "mid": 3881
+    },
+    "alpha_bbox": [
+     2,
+     5,
+     254,
+     122
+    ]
+   }
+  ]
+ },
+ "1dx": {
+  "file": "C:\\AI-Projects\\mario-luigi-rpg-3dx-korean-patch\\ml 1dx\\3exefs\\banner",
+  "sha256": "42dc68bcf3347e025330d90a5dec7d44860ad824f15949ce5b07a51e8f99c3e4",
+  "size": 149336,
+  "cgfx_sha256": "ba92ab736f0dc600a96f63b187f6744aa013cee96bdbc556a01cfe88103d43f5",
+  "cgfx_size": 170240,
+  "cgfx_comp_len": 39288,
+  "bcwav_off": 39424,
+  "bcwav_size": 109912,
+  "textures": [
+   {
+    "name": "COMMON_kr",
+    "txob_off": 17840,
+    "flags": "0x20000011",
+    "w": 256,
+    "h": 128,
+    "gl_format": "0x6752",
+    "gl_type": "0x8033",
+    "mipmaps": 1,
+    "pica_format": 4,
+    "fmt": "RGBA4",
+    "img": {
+     "struct_off": 17900,
+     "ptr_field": 17896,
+     "data_off": 30336,
+     "data_len": 65536
+    },
+    "reencode_identical": true,
+    "alpha_hist": {
+     "0": 21676,
+     "255": 10013,
+     "mid": 1079
+    },
+    "alpha_bbox": [
+     2,
+     7,
+     255,
+     109
+    ]
+   },
+   {
+    "name": "re_banner_a",
+    "txob_off": 17932,
+    "flags": "0x20000011",
+    "w": 128,
+    "h": 64,
+    "gl_format": "0x6756",
+    "gl_type": "0x1401",
+    "mipmaps": 1,
+    "pica_format": 8,
+    "fmt": "A8",
+    "img": {
+     "struct_off": 17992,
+     "ptr_field": 17988,
+     "data_off": 95872,
+     "data_len": 8192
+    },
+    "reencode_identical": true,
+    "alpha_hist": {
+     "0": 2997,
+     "255": 3197,
+     "mid": 1998
+    },
+    "alpha_bbox": [
+     0,
+     0,
+     128,
+     64
+    ]
+   },
+   {
+    "name": "re_banner_chara",
+    "txob_off": 18024,
+    "flags": "0x20000011",
+    "w": 128,
+    "h": 256,
+    "gl_format": "0x6752",
+    "gl_type": "0x8033",
+    "mipmaps": 1,
+    "pica_format": 4,
+    "fmt": "RGBA4",
+    "img": {
+     "struct_off": 18084,
+     "ptr_field": 18080,
+     "data_off": 104064,
+     "data_len": 65536
+    },
+    "reencode_identical": true,
+    "alpha_hist": {
+     "0": 11866,
+     "255": 20789,
+     "mid": 113
+    },
+    "alpha_bbox": [
+     0,
+     0,
+     128,
+     251
+    ]
+   },
+   {
+    "name": "re_banner_ef",
+    "txob_off": 18116,
+    "flags": "0x20000011",
+    "w": 32,
+    "h": 8,
+    "gl_format": "0x6756",
+    "gl_type": "0x6761",
+    "mipmaps": 1,
+    "pica_format": 11,
+    "fmt": "A4",
+    "img": {
+     "struct_off": 18176,
+     "ptr_field": 18172,
+     "data_off": 169600,
+     "data_len": 128
+    },
+    "reencode_identical": true,
+    "alpha_hist": {
+     "0": 195,
+     "255": 5,
+     "mid": 56
+    },
+    "alpha_bbox": [
+     5,
+     1,
+     26,
+     6
+    ]
+   },
+   {
+    "name": "re_banner_l",
+    "txob_off": 18208,
+    "flags": "0x20000011",
+    "w": 32,
+    "h": 16,
+    "gl_format": "0x6756",
+    "gl_type": "0x1401",
+    "mipmaps": 1,
+    "pica_format": 8,
+    "fmt": "A8",
+    "img": {
+     "struct_off": 18268,
+     "ptr_field": 18264,
+     "data_off": 169728,
+     "data_len": 512
+    },
+    "reencode_identical": true,
+    "alpha_hist": {
+     "0": 327,
+     "255": 0,
+     "mid": 185
+    },
+    "alpha_bbox": [
+     0,
+     0,
+     15,
+     15
+    ]
+   }
+  ]
+ }
+}

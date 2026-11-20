@@ -1,0 +1,2267 @@
+﻿{
+    "models":  [
+                   {
+                       "materials":  [
+                                         {
+                                             "texcoords":  [
+                                                               {
+                                                                   "refcam":  0,
+                                                                   "translation":  [
+                                                                                       0,
+                                                                                       0
+                                                                                   ],
+                                                                   "rotation":  0,
+                                                                   "mapping":  "UvCoordinateMap",
+                                                                   "scale":  [
+                                                                                 1,
+                                                                                 1
+                                                                             ],
+                                                                   "transform":  "DccMaya"
+                                                               },
+                                                               {
+                                                                   "refcam":  0,
+                                                                   "translation":  [
+                                                                                       0,
+                                                                                       0
+                                                                                   ],
+                                                                   "rotation":  0,
+                                                                   "mapping":  "UvCoordinateMap",
+                                                                   "scale":  [
+                                                                                 0,
+                                                                                 0
+                                                                             ],
+                                                                   "transform":  "DccMaya"
+                                                               },
+                                                               {
+                                                                   "refcam":  0,
+                                                                   "translation":  [
+                                                                                       0,
+                                                                                       0
+                                                                                   ],
+                                                                   "rotation":  0,
+                                                                   "mapping":  "UvCoordinateMap",
+                                                                   "scale":  [
+                                                                                 0,
+                                                                                 0
+                                                                             ],
+                                                                   "transform":  "DccMaya"
+                                                               }
+                                                           ],
+                                             "name":  "Mat_jp",
+                                             "blend":  "",
+                                             "tex1":  null,
+                                             "tex0":  "COMMON_jp",
+                                             "layer":  "",
+                                             "tex2":  null
+                                         },
+                                         {
+                                             "texcoords":  [
+                                                               {
+                                                                   "refcam":  0,
+                                                                   "translation":  [
+                                                                                       0,
+                                                                                       0
+                                                                                   ],
+                                                                   "rotation":  0,
+                                                                   "mapping":  "UvCoordinateMap",
+                                                                   "scale":  [
+                                                                                 1,
+                                                                                 1
+                                                                             ],
+                                                                   "transform":  "DccMaya"
+                                                               },
+                                                               {
+                                                                   "refcam":  0,
+                                                                   "translation":  [
+                                                                                       0,
+                                                                                       0
+                                                                                   ],
+                                                                   "rotation":  0,
+                                                                   "mapping":  "UvCoordinateMap",
+                                                                   "scale":  [
+                                                                                 0,
+                                                                                 0
+                                                                             ],
+                                                                   "transform":  "DccMaya"
+                                                               },
+                                                               {
+                                                                   "refcam":  0,
+                                                                   "translation":  [
+                                                                                       0,
+                                                                                       0
+                                                                                   ],
+                                                                   "rotation":  0,
+                                                                   "mapping":  "UvCoordinateMap",
+                                                                   "scale":  [
+                                                                                 0,
+                                                                                 0
+                                                                             ],
+                                                                   "transform":  "DccMaya"
+                                                               }
+                                                           ],
+                                             "name":  "Mat_rem3_base",
+                                             "blend":  "",
+                                             "tex1":  null,
+                                             "tex0":  "bunner_rem3_base",
+                                             "layer":  "",
+                                             "tex2":  null
+                                         },
+                                         {
+                                             "texcoords":  [
+                                                               {
+                                                                   "refcam":  0,
+                                                                   "translation":  [
+                                                                                       0,
+                                                                                       0
+                                                                                   ],
+                                                                   "rotation":  0,
+                                                                   "mapping":  "UvCoordinateMap",
+                                                                   "scale":  [
+                                                                                 1,
+                                                                                 1
+                                                                             ],
+                                                                   "transform":  "DccMaya"
+                                                               },
+                                                               {
+                                                                   "refcam":  0,
+                                                                   "translation":  [
+                                                                                       0,
+                                                                                       0
+                                                                                   ],
+                                                                   "rotation":  0,
+                                                                   "mapping":  "UvCoordinateMap",
+                                                                   "scale":  [
+                                                                                 0,
+                                                                                 0
+                                                                             ],
+                                                                   "transform":  "DccMaya"
+                                                               },
+                                                               {
+                                                                   "refcam":  0,
+                                                                   "translation":  [
+                                                                                       0,
+                                                                                       0
+                                                                                   ],
+                                                                   "rotation":  0,
+                                                                   "mapping":  "UvCoordinateMap",
+                                                                   "scale":  [
+                                                                                 0,
+                                                                                 0
+                                                                             ],
+                                                                   "transform":  "DccMaya"
+                                                               }
+                                                           ],
+                                             "name":  "Mat_rem3_bg",
+                                             "blend":  "",
+                                             "tex1":  null,
+                                             "tex0":  "bunner_rem3_bg",
+                                             "layer":  "",
+                                             "tex2":  null
+                                         },
+                                         {
+                                             "texcoords":  [
+                                                               {
+                                                                   "refcam":  0,
+                                                                   "translation":  [
+                                                                                       0,
+                                                                                       0
+                                                                                   ],
+                                                                   "rotation":  0,
+                                                                   "mapping":  "UvCoordinateMap",
+                                                                   "scale":  [
+                                                                                 1,
+                                                                                 1
+                                                                             ],
+                                                                   "transform":  "DccMaya"
+                                                               },
+                                                               {
+                                                                   "refcam":  0,
+                                                                   "translation":  [
+                                                                                       0,
+                                                                                       0
+                                                                                   ],
+                                                                   "rotation":  0,
+                                                                   "mapping":  "UvCoordinateMap",
+                                                                   "scale":  [
+                                                                                 0,
+                                                                                 0
+                                                                             ],
+                                                                   "transform":  "DccMaya"
+                                                               },
+                                                               {
+                                                                   "refcam":  0,
+                                                                   "translation":  [
+                                                                                       0,
+                                                                                       0
+                                                                                   ],
+                                                                   "rotation":  0,
+                                                                   "mapping":  "UvCoordinateMap",
+                                                                   "scale":  [
+                                                                                 0,
+                                                                                 0
+                                                                             ],
+                                                                   "transform":  "DccMaya"
+                                                               }
+                                                           ],
+                                             "name":  "Mat_rem3_bk",
+                                             "blend":  "",
+                                             "tex1":  null,
+                                             "tex0":  "bunner_rem3_bk",
+                                             "layer":  "",
+                                             "tex2":  null
+                                         },
+                                         {
+                                             "texcoords":  [
+                                                               {
+                                                                   "refcam":  0,
+                                                                   "translation":  [
+                                                                                       0,
+                                                                                       0
+                                                                                   ],
+                                                                   "rotation":  0,
+                                                                   "mapping":  "UvCoordinateMap",
+                                                                   "scale":  [
+                                                                                 1,
+                                                                                 1
+                                                                             ],
+                                                                   "transform":  "DccMaya"
+                                                               },
+                                                               {
+                                                                   "refcam":  0,
+                                                                   "translation":  [
+                                                                                       0,
+                                                                                       0
+                                                                                   ],
+                                                                   "rotation":  0,
+                                                                   "mapping":  "UvCoordinateMap",
+                                                                   "scale":  [
+                                                                                 0,
+                                                                                 0
+                                                                             ],
+                                                                   "transform":  "DccMaya"
+                                                               },
+                                                               {
+                                                                   "refcam":  0,
+                                                                   "translation":  [
+                                                                                       0,
+                                                                                       0
+                                                                                   ],
+                                                                   "rotation":  0,
+                                                                   "mapping":  "UvCoordinateMap",
+                                                                   "scale":  [
+                                                                                 0,
+                                                                                 0
+                                                                             ],
+                                                                   "transform":  "DccMaya"
+                                                               }
+                                                           ],
+                                             "name":  "Mat_rem3_chara",
+                                             "blend":  "",
+                                             "tex1":  null,
+                                             "tex0":  "bunner_rem3_chara",
+                                             "layer":  "",
+                                             "tex2":  null
+                                         }
+                                     ],
+                       "bones":  [
+                                     {
+                                         "parent":  -1,
+                                         "rotation":  [
+                                                          0,
+                                                          0,
+                                                          0
+                                                      ],
+                                         "name":  "COMMON_jp",
+                                         "translation":  [
+                                                             0,
+                                                             0,
+                                                             0
+                                                         ],
+                                         "scale":  [
+                                                       1,
+                                                       1,
+                                                       1
+                                                   ]
+                                     }
+                                 ],
+                       "meshes":  [
+                                      {
+                                          "layer":  1,
+                                          "tex0":  "bunner_rem3_bk",
+                                          "submeshes":  [
+                                                            {
+                                                                "indices":  [
+                                                                                0,
+                                                                                1,
+                                                                                2,
+                                                                                2,
+                                                                                1,
+                                                                                3,
+                                                                                4,
+                                                                                5,
+                                                                                6,
+                                                                                6,
+                                                                                5,
+                                                                                7
+                                                                            ],
+                                                                "bones":  [
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0
+                                                                          ],
+                                                                "skinning":  "None"
+                                                            }
+                                                        ],
+                                          "material":  "Mat_rem3_bk",
+                                          "index":  0,
+                                          "position_offset":  [
+                                                                  0.06741,
+                                                                  -3.64392,
+                                                                  0.14251,
+                                                                  0
+                                                              ],
+                                          "vertices":  [
+                                                           {
+                                                               "p":  [
+                                                                         -5.68195,
+                                                                         -7.60409,
+                                                                         -0.20631,
+                                                                         0
+                                                                     ],
+                                                               "col":  [
+                                                                           0,
+                                                                           0,
+                                                                           0,
+                                                                           0
+                                                                       ],
+                                                               "uv0":  [
+                                                                           0,
+                                                                           0,
+                                                                           -0.06067,
+                                                                           0
+                                                                       ]
+                                                           },
+                                                           {
+                                                               "p":  [
+                                                                         4.94069,
+                                                                         -7.60409,
+                                                                         -0.20631,
+                                                                         0
+                                                                     ],
+                                                               "col":  [
+                                                                           0,
+                                                                           0,
+                                                                           0,
+                                                                           0
+                                                                       ],
+                                                               "uv0":  [
+                                                                           0.63549,
+                                                                           0,
+                                                                           -0.06067,
+                                                                           0
+                                                                       ]
+                                                           },
+                                                           {
+                                                               "p":  [
+                                                                         -5.68195,
+                                                                         0.75386,
+                                                                         -0.20631,
+                                                                         0
+                                                                     ],
+                                                               "col":  [
+                                                                           0,
+                                                                           0,
+                                                                           0,
+                                                                           0
+                                                                       ],
+                                                               "uv0":  [
+                                                                           0,
+                                                                           1,
+                                                                           -0.06067,
+                                                                           0
+                                                                       ]
+                                                           },
+                                                           {
+                                                               "p":  [
+                                                                         4.94069,
+                                                                         0.75386,
+                                                                         -0.20631,
+                                                                         0
+                                                                     ],
+                                                               "col":  [
+                                                                           0,
+                                                                           0,
+                                                                           0,
+                                                                           0
+                                                                       ],
+                                                               "uv0":  [
+                                                                           0.63549,
+                                                                           1,
+                                                                           -0.06067,
+                                                                           0
+                                                                       ]
+                                                           },
+                                                           {
+                                                               "p":  [
+                                                                         0.09899,
+                                                                         -8.0417,
+                                                                         0.49133,
+                                                                         0
+                                                                     ],
+                                                               "col":  [
+                                                                           0,
+                                                                           0,
+                                                                           0,
+                                                                           0
+                                                                       ],
+                                                               "uv0":  [
+                                                                           0.65795,
+                                                                           0,
+                                                                           0.06067,
+                                                                           0
+                                                                       ]
+                                                           },
+                                                           {
+                                                               "p":  [
+                                                                         5.81677,
+                                                                         -8.0417,
+                                                                         0.49133,
+                                                                         0
+                                                                     ],
+                                                               "col":  [
+                                                                           0,
+                                                                           0,
+                                                                           0,
+                                                                           0
+                                                                       ],
+                                                               "uv0":  [
+                                                                           1,
+                                                                           0,
+                                                                           0.06067,
+                                                                           0
+                                                                       ]
+                                                           },
+                                                           {
+                                                               "p":  [
+                                                                         0.09899,
+                                                                         -2.95471,
+                                                                         0.49133,
+                                                                         0
+                                                                     ],
+                                                               "col":  [
+                                                                           0,
+                                                                           0,
+                                                                           0,
+                                                                           0
+                                                                       ],
+                                                               "uv0":  [
+                                                                           0.65795,
+                                                                           0.60866,
+                                                                           0.06067,
+                                                                           0
+                                                                       ]
+                                                           },
+                                                           {
+                                                               "p":  [
+                                                                         5.81677,
+                                                                         -2.95471,
+                                                                         0.49133,
+                                                                         0
+                                                                     ],
+                                                               "col":  [
+                                                                           0,
+                                                                           0,
+                                                                           0,
+                                                                           0
+                                                                       ],
+                                                               "uv0":  [
+                                                                           1,
+                                                                           0.60866,
+                                                                           0.06067,
+                                                                           0
+                                                                       ]
+                                                           }
+                                                       ],
+                                          "priority":  0,
+                                          "node":  0
+                                      },
+                                      {
+                                          "layer":  1,
+                                          "tex0":  "bunner_rem3_base",
+                                          "submeshes":  [
+                                                            {
+                                                                "indices":  [
+                                                                                0,
+                                                                                1,
+                                                                                2,
+                                                                                2,
+                                                                                1,
+                                                                                3
+                                                                            ],
+                                                                "bones":  [
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0
+                                                                          ],
+                                                                "skinning":  "None"
+                                                            }
+                                                        ],
+                                          "material":  "Mat_rem3_base",
+                                          "index":  1,
+                                          "position_offset":  [
+                                                                  0.64613,
+                                                                  -6.5357,
+                                                                  -1.42735,
+                                                                  0
+                                                              ],
+                                          "vertices":  [
+                                                           {
+                                                               "p":  [
+                                                                         -5.53948,
+                                                                         -7.62776,
+                                                                         2.45539,
+                                                                         0
+                                                                     ],
+                                                               "col":  [
+                                                                           0,
+                                                                           0,
+                                                                           0,
+                                                                           0
+                                                                       ],
+                                                               "uv0":  [
+                                                                           0,
+                                                                           0,
+                                                                           0.6277,
+                                                                           0
+                                                                       ]
+                                                           },
+                                                           {
+                                                               "p":  [
+                                                                         6.83175,
+                                                                         -7.62776,
+                                                                         2.45539,
+                                                                         0
+                                                                     ],
+                                                               "col":  [
+                                                                           0,
+                                                                           0,
+                                                                           0,
+                                                                           0
+                                                                       ],
+                                                               "uv0":  [
+                                                                           1,
+                                                                           0,
+                                                                           0.6277,
+                                                                           0
+                                                                       ]
+                                                           },
+                                                           {
+                                                               "p":  [
+                                                                         -5.53948,
+                                                                         -5.44363,
+                                                                         -5.3101,
+                                                                         0
+                                                                     ],
+                                                               "col":  [
+                                                                           0,
+                                                                           0,
+                                                                           0,
+                                                                           0
+                                                                       ],
+                                                               "uv0":  [
+                                                                           0,
+                                                                           1,
+                                                                           -0.6277,
+                                                                           0
+                                                                       ]
+                                                           },
+                                                           {
+                                                               "p":  [
+                                                                         6.83175,
+                                                                         -5.44363,
+                                                                         -5.3101,
+                                                                         0
+                                                                     ],
+                                                               "col":  [
+                                                                           0,
+                                                                           0,
+                                                                           0,
+                                                                           0
+                                                                       ],
+                                                               "uv0":  [
+                                                                           1,
+                                                                           1,
+                                                                           -0.6277,
+                                                                           0
+                                                                       ]
+                                                           }
+                                                       ],
+                                          "priority":  0,
+                                          "node":  1
+                                      },
+                                      {
+                                          "layer":  1,
+                                          "tex0":  "bunner_rem3_bk",
+                                          "submeshes":  [
+                                                            {
+                                                                "indices":  [
+                                                                                0,
+                                                                                1,
+                                                                                2,
+                                                                                2,
+                                                                                1,
+                                                                                3,
+                                                                                4,
+                                                                                5,
+                                                                                6,
+                                                                                6,
+                                                                                5,
+                                                                                7,
+                                                                                8,
+                                                                                9,
+                                                                                10,
+                                                                                10,
+                                                                                9,
+                                                                                11
+                                                                            ],
+                                                                "bones":  [
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0
+                                                                          ],
+                                                                "skinning":  "None"
+                                                            }
+                                                        ],
+                                          "material":  "Mat_rem3_bk",
+                                          "index":  2,
+                                          "position_offset":  [
+                                                                  0.76126,
+                                                                  -6.32827,
+                                                                  0.2249,
+                                                                  0
+                                                              ],
+                                          "vertices":  [
+                                                           {
+                                                               "p":  [
+                                                                         1.39399,
+                                                                         -6.94107,
+                                                                         1.26719,
+                                                                         0
+                                                                     ],
+                                                               "col":  [
+                                                                           0,
+                                                                           0,
+                                                                           0,
+                                                                           0
+                                                                       ],
+                                                               "uv0":  [
+                                                                           0.67509,
+                                                                           0.72415,
+                                                                           0.00132,
+                                                                           0
+                                                                       ]
+                                                           },
+                                                           {
+                                                               "p":  [
+                                                                         4.292,
+                                                                         -6.94107,
+                                                                         1.26719,
+                                                                         0
+                                                                     ],
+                                                               "col":  [
+                                                                           0,
+                                                                           0,
+                                                                           0,
+                                                                           0
+                                                                       ],
+                                                               "uv0":  [
+                                                                           0.9779,
+                                                                           0.72415,
+                                                                           0.00132,
+                                                                           0
+                                                                       ]
+                                                           },
+                                                           {
+                                                               "p":  [
+                                                                         1.39399,
+                                                                         -6.42945,
+                                                                         -0.55179,
+                                                                         0
+                                                                     ],
+                                                               "col":  [
+                                                                           0,
+                                                                           0,
+                                                                           0,
+                                                                           0
+                                                                       ],
+                                                               "uv0":  [
+                                                                           0.67509,
+                                                                           1.27584,
+                                                                           0.00132,
+                                                                           0
+                                                                       ]
+                                                           },
+                                                           {
+                                                               "p":  [
+                                                                         4.292,
+                                                                         -6.42945,
+                                                                         -0.55179,
+                                                                         0
+                                                                     ],
+                                                               "col":  [
+                                                                           0,
+                                                                           0,
+                                                                           0,
+                                                                           0
+                                                                       ],
+                                                               "uv0":  [
+                                                                           0.9779,
+                                                                           1.27584,
+                                                                           0.00132,
+                                                                           0
+                                                                       ]
+                                                           },
+                                                           {
+                                                               "p":  [
+                                                                         -2.76948,
+                                                                         -6.80745,
+                                                                         0.792,
+                                                                         0
+                                                                     ],
+                                                               "col":  [
+                                                                           0,
+                                                                           0,
+                                                                           0,
+                                                                           0
+                                                                       ],
+                                                               "uv0":  [
+                                                                           0.67509,
+                                                                           0.72415,
+                                                                           0.00132,
+                                                                           0
+                                                                       ]
+                                                           },
+                                                           {
+                                                               "p":  [
+                                                                         3.41565,
+                                                                         -6.80745,
+                                                                         0.792,
+                                                                         0
+                                                                     ],
+                                                               "col":  [
+                                                                           0,
+                                                                           0,
+                                                                           0,
+                                                                           0
+                                                                       ],
+                                                               "uv0":  [
+                                                                           0.9779,
+                                                                           0.72415,
+                                                                           0.00132,
+                                                                           0
+                                                                       ]
+                                                           },
+                                                           {
+                                                               "p":  [
+                                                                         -2.76948,
+                                                                         -5.71548,
+                                                                         -3.09034,
+                                                                         0
+                                                                     ],
+                                                               "col":  [
+                                                                           0,
+                                                                           0,
+                                                                           0,
+                                                                           0
+                                                                       ],
+                                                               "uv0":  [
+                                                                           0.67509,
+                                                                           1.27584,
+                                                                           0.00132,
+                                                                           0
+                                                                       ]
+                                                           },
+                                                           {
+                                                               "p":  [
+                                                                         3.41565,
+                                                                         -5.71548,
+                                                                         -3.09034,
+                                                                         0
+                                                                     ],
+                                                               "col":  [
+                                                                           0,
+                                                                           0,
+                                                                           0,
+                                                                           0
+                                                                       ],
+                                                               "uv0":  [
+                                                                           0.9779,
+                                                                           1.27584,
+                                                                           0.00132,
+                                                                           0
+                                                                       ]
+                                                           },
+                                                           {
+                                                               "p":  [
+                                                                         1.39399,
+                                                                         -6.06126,
+                                                                         3.53377,
+                                                                         0
+                                                                     ],
+                                                               "col":  [
+                                                                           0,
+                                                                           0,
+                                                                           0,
+                                                                           0
+                                                                       ],
+                                                               "uv0":  [
+                                                                           0,
+                                                                           0,
+                                                                           -0.00494,
+                                                                           0
+                                                                       ]
+                                                           },
+                                                           {
+                                                               "p":  [
+                                                                         1.61606,
+                                                                         -6.06126,
+                                                                         3.53377,
+                                                                         0
+                                                                     ],
+                                                               "col":  [
+                                                                           0,
+                                                                           0,
+                                                                           0,
+                                                                           0
+                                                                       ],
+                                                               "uv0":  [
+                                                                           0.07663,
+                                                                           4E-05,
+                                                                           -0.00494,
+                                                                           0
+                                                                       ]
+                                                           },
+                                                           {
+                                                               "p":  [
+                                                                         1.39399,
+                                                                         -6.18152,
+                                                                         3.54013,
+                                                                         0
+                                                                     ],
+                                                               "col":  [
+                                                                           0,
+                                                                           0,
+                                                                           0,
+                                                                           0
+                                                                       ],
+                                                               "uv0":  [
+                                                                           0.00012,
+                                                                           0.03193,
+                                                                           -0.00494,
+                                                                           0
+                                                                       ]
+                                                           },
+                                                           {
+                                                               "p":  [
+                                                                         1.61606,
+                                                                         -6.18152,
+                                                                         3.54013,
+                                                                         0
+                                                                     ],
+                                                               "col":  [
+                                                                           0,
+                                                                           0,
+                                                                           0,
+                                                                           0
+                                                                       ],
+                                                               "uv0":  [
+                                                                           0.07651,
+                                                                           0.03193,
+                                                                           -0.00494,
+                                                                           0
+                                                                       ]
+                                                           }
+                                                       ],
+                                          "priority":  0,
+                                          "node":  2
+                                      },
+                                      {
+                                          "layer":  0,
+                                          "tex0":  "bunner_rem3_chara",
+                                          "submeshes":  [
+                                                            {
+                                                                "indices":  [
+                                                                                0,
+                                                                                1,
+                                                                                2,
+                                                                                2,
+                                                                                1,
+                                                                                3,
+                                                                                4,
+                                                                                5,
+                                                                                6,
+                                                                                6,
+                                                                                5,
+                                                                                7,
+                                                                                8,
+                                                                                9,
+                                                                                10,
+                                                                                10,
+                                                                                9,
+                                                                                11,
+                                                                                12,
+                                                                                13,
+                                                                                14,
+                                                                                13,
+                                                                                15,
+                                                                                14,
+                                                                                16,
+                                                                                17,
+                                                                                18,
+                                                                                19,
+                                                                                17,
+                                                                                20,
+                                                                                20,
+                                                                                17,
+                                                                                16,
+                                                                                14,
+                                                                                15,
+                                                                                21,
+                                                                                22,
+                                                                                23,
+                                                                                24,
+                                                                                24,
+                                                                                23,
+                                                                                25,
+                                                                                26,
+                                                                                27,
+                                                                                28,
+                                                                                28,
+                                                                                27,
+                                                                                24,
+                                                                                29,
+                                                                                30,
+                                                                                31,
+                                                                                31,
+                                                                                30,
+                                                                                32,
+                                                                                33,
+                                                                                34,
+                                                                                22,
+                                                                                22,
+                                                                                34,
+                                                                                35,
+                                                                                33,
+                                                                                32,
+                                                                                30,
+                                                                                32,
+                                                                                24,
+                                                                                27,
+                                                                                24,
+                                                                                32,
+                                                                                22,
+                                                                                22,
+                                                                                32,
+                                                                                33
+                                                                            ],
+                                                                "bones":  [
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0
+                                                                          ],
+                                                                "skinning":  "None"
+                                                            }
+                                                        ],
+                                          "material":  "Mat_rem3_chara",
+                                          "index":  3,
+                                          "position_offset":  [
+                                                                  0.46199,
+                                                                  -3.35063,
+                                                                  -1.3547,
+                                                                  0
+                                                              ],
+                                          "vertices":  [
+                                                           {
+                                                               "p":  [
+                                                                         3.19835,
+                                                                         -4.28534,
+                                                                         -3.35559,
+                                                                         0
+                                                                     ],
+                                                               "col":  [
+                                                                           0,
+                                                                           0,
+                                                                           0,
+                                                                           0
+                                                                       ],
+                                                               "uv0":  [
+                                                                           0,
+                                                                           0.57811,
+                                                                           -0.34971,
+                                                                           0
+                                                                       ]
+                                                           },
+                                                           {
+                                                               "p":  [
+                                                                         6.18354,
+                                                                         -2.65061,
+                                                                         -3.35559,
+                                                                         0
+                                                                     ],
+                                                               "col":  [
+                                                                           0,
+                                                                           0,
+                                                                           0,
+                                                                           0
+                                                                       ],
+                                                               "uv0":  [
+                                                                           0.32814,
+                                                                           0.75781,
+                                                                           -0.34971,
+                                                                           0
+                                                                       ]
+                                                           },
+                                                           {
+                                                               "p":  [
+                                                                         3.19835,
+                                                                         -0.44734,
+                                                                         -3.35559,
+                                                                         0
+                                                                     ],
+                                                               "col":  [
+                                                                           0,
+                                                                           0,
+                                                                           0,
+                                                                           0
+                                                                       ],
+                                                               "uv0":  [
+                                                                           0,
+                                                                           1,
+                                                                           -0.34971,
+                                                                           0
+                                                                       ]
+                                                           },
+                                                           {
+                                                               "p":  [
+                                                                         6.18354,
+                                                                         -0.44734,
+                                                                         -3.35559,
+                                                                         0
+                                                                     ],
+                                                               "col":  [
+                                                                           0,
+                                                                           0,
+                                                                           0,
+                                                                           0
+                                                                       ],
+                                                               "uv0":  [
+                                                                           0.32814,
+                                                                           1,
+                                                                           -0.34971,
+                                                                           0
+                                                                       ]
+                                                           },
+                                                           {
+                                                               "p":  [
+                                                                         -5.25956,
+                                                                         -3.29039,
+                                                                         -3.35559,
+                                                                         0
+                                                                     ],
+                                                               "col":  [
+                                                                           0,
+                                                                           0,
+                                                                           0,
+                                                                           0
+                                                                       ],
+                                                               "uv0":  [
+                                                                           0.35939,
+                                                                           0.83593,
+                                                                           -0.34971,
+                                                                           0
+                                                                       ]
+                                                           },
+                                                           {
+                                                               "p":  [
+                                                                         -3.4827,
+                                                                         -3.29039,
+                                                                         -3.35559,
+                                                                         0
+                                                                     ],
+                                                               "col":  [
+                                                                           0,
+                                                                           0,
+                                                                           0,
+                                                                           0
+                                                                       ],
+                                                               "uv0":  [
+                                                                           0.55467,
+                                                                           0.83593,
+                                                                           -0.34971,
+                                                                           0
+                                                                       ]
+                                                           },
+                                                           {
+                                                               "p":  [
+                                                                         -5.25956,
+                                                                         -2.15314,
+                                                                         -3.35559,
+                                                                         0
+                                                                     ],
+                                                               "col":  [
+                                                                           0,
+                                                                           0,
+                                                                           0,
+                                                                           0
+                                                                       ],
+                                                               "uv0":  [
+                                                                           0.35939,
+                                                                           0.96094,
+                                                                           -0.34971,
+                                                                           0
+                                                                       ]
+                                                           },
+                                                           {
+                                                               "p":  [
+                                                                         -3.4827,
+                                                                         -2.15314,
+                                                                         -3.35559,
+                                                                         0
+                                                                     ],
+                                                               "col":  [
+                                                                           0,
+                                                                           0,
+                                                                           0,
+                                                                           0
+                                                                       ],
+                                                               "uv0":  [
+                                                                           0.55467,
+                                                                           0.96094,
+                                                                           -0.34971,
+                                                                           0
+                                                                       ]
+                                                           },
+                                                           {
+                                                               "p":  [
+                                                                         -5.25956,
+                                                                         -2.15314,
+                                                                         -3.35559,
+                                                                         0
+                                                                     ],
+                                                               "col":  [
+                                                                           0,
+                                                                           0,
+                                                                           0,
+                                                                           0
+                                                                       ],
+                                                               "uv0":  [
+                                                                           0,
+                                                                           0.07031,
+                                                                           -0.34971,
+                                                                           0
+                                                                       ]
+                                                           },
+                                                           {
+                                                               "p":  [
+                                                                         -3.4827,
+                                                                         -2.15314,
+                                                                         -3.35559,
+                                                                         0
+                                                                     ],
+                                                               "col":  [
+                                                                           0,
+                                                                           0,
+                                                                           0,
+                                                                           0
+                                                                       ],
+                                                               "uv0":  [
+                                                                           0.19532,
+                                                                           0.07031,
+                                                                           -0.34971,
+                                                                           0
+                                                                       ]
+                                                           },
+                                                           {
+                                                               "p":  [
+                                                                         -5.25956,
+                                                                         -0.80268,
+                                                                         -3.35559,
+                                                                         0
+                                                                     ],
+                                                               "col":  [
+                                                                           0,
+                                                                           0,
+                                                                           0,
+                                                                           0
+                                                                       ],
+                                                               "uv0":  [
+                                                                           0,
+                                                                           0.21876,
+                                                                           -0.34971,
+                                                                           0
+                                                                       ]
+                                                           },
+                                                           {
+                                                               "p":  [
+                                                                         -3.4827,
+                                                                         -0.80268,
+                                                                         -3.35559,
+                                                                         0
+                                                                     ],
+                                                               "col":  [
+                                                                           0,
+                                                                           0,
+                                                                           0,
+                                                                           0
+                                                                       ],
+                                                               "uv0":  [
+                                                                           0.19532,
+                                                                           0.21876,
+                                                                           -0.34971,
+                                                                           0
+                                                                       ]
+                                                           },
+                                                           {
+                                                               "p":  [
+                                                                         2.58459,
+                                                                         -6.86804,
+                                                                         0.6462,
+                                                                         0
+                                                                     ],
+                                                               "col":  [
+                                                                           0,
+                                                                           0,
+                                                                           0,
+                                                                           0
+                                                                       ],
+                                                               "uv0":  [
+                                                                           0.62499,
+                                                                           0.68749,
+                                                                           0.34971,
+                                                                           0
+                                                                       ]
+                                                           },
+                                                           {
+                                                               "p":  [
+                                                                         4.52297,
+                                                                         -6.86804,
+                                                                         0.6462,
+                                                                         0
+                                                                     ],
+                                                               "col":  [
+                                                                           0,
+                                                                           0,
+                                                                           0,
+                                                                           0
+                                                                       ],
+                                                               "uv0":  [
+                                                                           0.85937,
+                                                                           0.68749,
+                                                                           0.34971,
+                                                                           0
+                                                                       ]
+                                                           },
+                                                           {
+                                                               "p":  [
+                                                                         2.58459,
+                                                                         -6.73883,
+                                                                         0.6462,
+                                                                         0
+                                                                     ],
+                                                               "col":  [
+                                                                           0,
+                                                                           0,
+                                                                           0,
+                                                                           0
+                                                                       ],
+                                                               "uv0":  [
+                                                                           0.62499,
+                                                                           0.70312,
+                                                                           0.34971,
+                                                                           0
+                                                                       ]
+                                                           },
+                                                           {
+                                                               "p":  [
+                                                                         4.52297,
+                                                                         -4.28342,
+                                                                         0.6462,
+                                                                         0
+                                                                     ],
+                                                               "col":  [
+                                                                           0,
+                                                                           0,
+                                                                           0,
+                                                                           0
+                                                                       ],
+                                                               "uv0":  [
+                                                                           0.85937,
+                                                                           1,
+                                                                           0.34971,
+                                                                           0
+                                                                       ]
+                                                           },
+                                                           {
+                                                               "p":  [
+                                                                         1.03385,
+                                                                         -3.89578,
+                                                                         0.6462,
+                                                                         0
+                                                                     ],
+                                                               "col":  [
+                                                                           0,
+                                                                           0,
+                                                                           0,
+                                                                           0
+                                                                       ],
+                                                               "uv0":  [
+                                                                           0.79687,
+                                                                           0.43751,
+                                                                           0.34971,
+                                                                           0
+                                                                       ]
+                                                           },
+                                                           {
+                                                               "p":  [
+                                                                         2.58459,
+                                                                         -4.28342,
+                                                                         0.6462,
+                                                                         0
+                                                                     ],
+                                                               "col":  [
+                                                                           0,
+                                                                           0,
+                                                                           0,
+                                                                           0
+                                                                       ],
+                                                               "uv0":  [
+                                                                           0.98437,
+                                                                           0.39064,
+                                                                           0.34971,
+                                                                           0
+                                                                       ]
+                                                           },
+                                                           {
+                                                               "p":  [
+                                                                         2.58459,
+                                                                         -3.50813,
+                                                                         0.6462,
+                                                                         0
+                                                                     ],
+                                                               "col":  [
+                                                                           0,
+                                                                           0,
+                                                                           0,
+                                                                           0
+                                                                       ],
+                                                               "uv0":  [
+                                                                           0.98437,
+                                                                           0.48439,
+                                                                           0.34971,
+                                                                           0
+                                                                       ]
+                                                           },
+                                                           {
+                                                               "p":  [
+                                                                         2.58459,
+                                                                         -6.73883,
+                                                                         0.6462,
+                                                                         0
+                                                                     ],
+                                                               "col":  [
+                                                                           0,
+                                                                           0,
+                                                                           0,
+                                                                           0
+                                                                       ],
+                                                               "uv0":  [
+                                                                           0.98437,
+                                                                           0.09375,
+                                                                           0.34971,
+                                                                           0
+                                                                       ]
+                                                           },
+                                                           {
+                                                               "p":  [
+                                                                         1.03385,
+                                                                         -6.73883,
+                                                                         0.6462,
+                                                                         0
+                                                                     ],
+                                                               "col":  [
+                                                                           0,
+                                                                           0,
+                                                                           0,
+                                                                           0
+                                                                       ],
+                                                               "uv0":  [
+                                                                           0.79687,
+                                                                           0.09375,
+                                                                           0.34971,
+                                                                           0
+                                                                       ]
+                                                           },
+                                                           {
+                                                               "p":  [
+                                                                         2.58459,
+                                                                         -4.28342,
+                                                                         0.6462,
+                                                                         0
+                                                                     ],
+                                                               "col":  [
+                                                                           0,
+                                                                           0,
+                                                                           0,
+                                                                           0
+                                                                       ],
+                                                               "uv0":  [
+                                                                           0.62499,
+                                                                           1,
+                                                                           0.34971,
+                                                                           0
+                                                                       ]
+                                                           },
+                                                           {
+                                                               "p":  [
+                                                                         -2.45527,
+                                                                         -1.62074,
+                                                                         -5E-05,
+                                                                         0
+                                                                     ],
+                                                               "col":  [
+                                                                           0,
+                                                                           0,
+                                                                           0,
+                                                                           0
+                                                                       ],
+                                                               "uv0":  [
+                                                                           0.21876,
+                                                                           0.59539,
+                                                                           0.23676,
+                                                                           0
+                                                                       ]
+                                                           },
+                                                           {
+                                                               "p":  [
+                                                                         -4.26444,
+                                                                         -1.62074,
+                                                                         -5E-05,
+                                                                         0
+                                                                     ],
+                                                               "col":  [
+                                                                           0,
+                                                                           0,
+                                                                           0,
+                                                                           0
+                                                                       ],
+                                                               "uv0":  [
+                                                                           0,
+                                                                           0.59539,
+                                                                           0.23676,
+                                                                           0
+                                                                       ]
+                                                           },
+                                                           {
+                                                               "p":  [
+                                                                         -2.45527,
+                                                                         -4.60663,
+                                                                         -5E-05,
+                                                                         0
+                                                                     ],
+                                                               "col":  [
+                                                                           0,
+                                                                           0,
+                                                                           0,
+                                                                           0
+                                                                       ],
+                                                               "uv0":  [
+                                                                           0.21876,
+                                                                           0.23438,
+                                                                           0.23676,
+                                                                           0
+                                                                       ]
+                                                           },
+                                                           {
+                                                               "p":  [
+                                                                         -4.26444,
+                                                                         -4.60663,
+                                                                         -5E-05,
+                                                                         0
+                                                                     ],
+                                                               "col":  [
+                                                                           0,
+                                                                           0,
+                                                                           0,
+                                                                           0
+                                                                       ],
+                                                               "uv0":  [
+                                                                           0,
+                                                                           0.23438,
+                                                                           0.23676,
+                                                                           0
+                                                                       ]
+                                                           },
+                                                           {
+                                                               "p":  [
+                                                                         3.03142,
+                                                                         -6.54501,
+                                                                         -5E-05,
+                                                                         0
+                                                                     ],
+                                                               "col":  [
+                                                                           0,
+                                                                           0,
+                                                                           0,
+                                                                           0
+                                                                       ],
+                                                               "uv0":  [
+                                                                           0.88214,
+                                                                           0,
+                                                                           0.23676,
+                                                                           0
+                                                                       ]
+                                                           },
+                                                           {
+                                                               "p":  [
+                                                                         2.14107,
+                                                                         -4.60663,
+                                                                         -5E-05,
+                                                                         0
+                                                                     ],
+                                                               "col":  [
+                                                                           0,
+                                                                           0,
+                                                                           0,
+                                                                           0
+                                                                       ],
+                                                               "uv0":  [
+                                                                           0.7745,
+                                                                           0.23438,
+                                                                           0.23676,
+                                                                           0
+                                                                       ]
+                                                           },
+                                                           {
+                                                               "p":  [
+                                                                         -2.45527,
+                                                                         -6.54501,
+                                                                         -5E-05,
+                                                                         0
+                                                                     ],
+                                                               "col":  [
+                                                                           0,
+                                                                           0,
+                                                                           0,
+                                                                           0
+                                                                       ],
+                                                               "uv0":  [
+                                                                           0.21876,
+                                                                           0,
+                                                                           0.23676,
+                                                                           0
+                                                                       ]
+                                                           },
+                                                           {
+                                                               "p":  [
+                                                                         4.00611,
+                                                                         -0.48698,
+                                                                         -5E-05,
+                                                                         0
+                                                                     ],
+                                                               "col":  [
+                                                                           0,
+                                                                           0,
+                                                                           0,
+                                                                           0
+                                                                       ],
+                                                               "uv0":  [
+                                                                           1,
+                                                                           0.73247,
+                                                                           0.23676,
+                                                                           0
+                                                                       ]
+                                                           },
+                                                           {
+                                                               "p":  [
+                                                                         2.14107,
+                                                                         -1.00959,
+                                                                         -5E-05,
+                                                                         0
+                                                                     ],
+                                                               "col":  [
+                                                                           0,
+                                                                           0,
+                                                                           0,
+                                                                           0
+                                                                       ],
+                                                               "uv0":  [
+                                                                           0.7745,
+                                                                           0.66927,
+                                                                           0.23676,
+                                                                           0
+                                                                       ]
+                                                           },
+                                                           {
+                                                               "p":  [
+                                                                         4.00611,
+                                                                         -2.21547,
+                                                                         -5E-05,
+                                                                         0
+                                                                     ],
+                                                               "col":  [
+                                                                           0,
+                                                                           0,
+                                                                           0,
+                                                                           0
+                                                                       ],
+                                                               "uv0":  [
+                                                                           1,
+                                                                           0.52348,
+                                                                           0.23676,
+                                                                           0
+                                                                       ]
+                                                           },
+                                                           {
+                                                               "p":  [
+                                                                         2.14107,
+                                                                         -3.01241,
+                                                                         -5E-05,
+                                                                         0
+                                                                     ],
+                                                               "col":  [
+                                                                           0,
+                                                                           0,
+                                                                           0,
+                                                                           0
+                                                                       ],
+                                                               "uv0":  [
+                                                                           0.7745,
+                                                                           0.42711,
+                                                                           0.23676,
+                                                                           0
+                                                                       ]
+                                                           },
+                                                           {
+                                                               "p":  [
+                                                                         1.26399,
+                                                                         -1.25545,
+                                                                         -5E-05,
+                                                                         0
+                                                                     ],
+                                                               "col":  [
+                                                                           0,
+                                                                           0,
+                                                                           0,
+                                                                           0
+                                                                       ],
+                                                               "uv0":  [
+                                                                           0.66848,
+                                                                           0.63958,
+                                                                           0.23676,
+                                                                           0
+                                                                       ]
+                                                           },
+                                                           {
+                                                               "p":  [
+                                                                         -0.86507,
+                                                                         0.16677,
+                                                                         -5E-05,
+                                                                         0
+                                                                     ],
+                                                               "col":  [
+                                                                           0,
+                                                                           0,
+                                                                           0,
+                                                                           0
+                                                                       ],
+                                                               "uv0":  [
+                                                                           0.41102,
+                                                                           0.81152,
+                                                                           0.23676,
+                                                                           0
+                                                                       ]
+                                                           },
+                                                           {
+                                                               "p":  [
+                                                                         -2.45527,
+                                                                         -0.8617,
+                                                                         -5E-05,
+                                                                         0
+                                                                     ],
+                                                               "col":  [
+                                                                           0,
+                                                                           0,
+                                                                           0,
+                                                                           0
+                                                                       ],
+                                                               "uv0":  [
+                                                                           0.21876,
+                                                                           0.68715,
+                                                                           0.23676,
+                                                                           0
+                                                                       ]
+                                                           }
+                                                       ],
+                                          "priority":  0,
+                                          "node":  4
+                                      },
+                                      {
+                                          "layer":  1,
+                                          "tex0":  "bunner_rem3_bg",
+                                          "submeshes":  [
+                                                            {
+                                                                "indices":  [
+                                                                                0,
+                                                                                1,
+                                                                                2,
+                                                                                2,
+                                                                                1,
+                                                                                3,
+                                                                                4,
+                                                                                5,
+                                                                                6,
+                                                                                6,
+                                                                                5,
+                                                                                7,
+                                                                                8,
+                                                                                9,
+                                                                                10,
+                                                                                10,
+                                                                                9,
+                                                                                11
+                                                                            ],
+                                                                "bones":  [
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0
+                                                                          ],
+                                                                "skinning":  "None"
+                                                            }
+                                                        ],
+                                          "material":  "Mat_rem3_bg",
+                                          "index":  4,
+                                          "position_offset":  [
+                                                                  0.5686,
+                                                                  1.96925,
+                                                                  -3.56183,
+                                                                  0
+                                                              ],
+                                          "vertices":  [
+                                                           {
+                                                               "p":  [
+                                                                         -10.3777,
+                                                                         -5.04311,
+                                                                         -3.63031,
+                                                                         0
+                                                                     ],
+                                                               "col":  [
+                                                                           0,
+                                                                           0,
+                                                                           0,
+                                                                           0
+                                                                       ],
+                                                               "uv0":  [
+                                                                           0,
+                                                                           0,
+                                                                           -0.00626,
+                                                                           0
+                                                                       ]
+                                                           },
+                                                           {
+                                                               "p":  [
+                                                                         11.5149,
+                                                                         -5.04311,
+                                                                         -3.63031,
+                                                                         0
+                                                                     ],
+                                                               "col":  [
+                                                                           0,
+                                                                           0,
+                                                                           0,
+                                                                           0
+                                                                       ],
+                                                               "uv0":  [
+                                                                           1,
+                                                                           0,
+                                                                           -0.00626,
+                                                                           0
+                                                                       ]
+                                                           },
+                                                           {
+                                                               "p":  [
+                                                                         -10.3777,
+                                                                         8.9816,
+                                                                         -3.63031,
+                                                                         0
+                                                                     ],
+                                                               "col":  [
+                                                                           0,
+                                                                           0,
+                                                                           0,
+                                                                           0
+                                                                       ],
+                                                               "uv0":  [
+                                                                           0,
+                                                                           0.64061,
+                                                                           -0.00626,
+                                                                           0
+                                                                       ]
+                                                           },
+                                                           {
+                                                               "p":  [
+                                                                         11.5149,
+                                                                         8.9816,
+                                                                         -3.63031,
+                                                                         0
+                                                                     ],
+                                                               "col":  [
+                                                                           0,
+                                                                           0,
+                                                                           0,
+                                                                           0
+                                                                       ],
+                                                               "uv0":  [
+                                                                           1,
+                                                                           0.64061,
+                                                                           -0.00626,
+                                                                           0
+                                                                       ]
+                                                           },
+                                                           {
+                                                               "p":  [
+                                                                         2.0612,
+                                                                         -3.43258,
+                                                                         -3.49335,
+                                                                         0
+                                                                     ],
+                                                               "col":  [
+                                                                           0,
+                                                                           0,
+                                                                           0,
+                                                                           0
+                                                                       ],
+                                                               "uv0":  [
+                                                                           0.50002,
+                                                                           0.64843,
+                                                                           0.00626,
+                                                                           0
+                                                                       ]
+                                                           },
+                                                           {
+                                                               "p":  [
+                                                                         6.60983,
+                                                                         -3.43258,
+                                                                         -3.49335,
+                                                                         0
+                                                                     ],
+                                                               "col":  [
+                                                                           0,
+                                                                           0,
+                                                                           0,
+                                                                           0
+                                                                       ],
+                                                               "uv0":  [
+                                                                           1,
+                                                                           0.64843,
+                                                                           0.00626,
+                                                                           0
+                                                                       ]
+                                                           },
+                                                           {
+                                                               "p":  [
+                                                                         2.0612,
+                                                                         -0.23425,
+                                                                         -3.49335,
+                                                                         0
+                                                                     ],
+                                                               "col":  [
+                                                                           0,
+                                                                           0,
+                                                                           0,
+                                                                           0
+                                                                       ],
+                                                               "uv0":  [
+                                                                           0.50002,
+                                                                           1,
+                                                                           0.00626,
+                                                                           0
+                                                                       ]
+                                                           },
+                                                           {
+                                                               "p":  [
+                                                                         6.60983,
+                                                                         -0.23425,
+                                                                         -3.49335,
+                                                                         0
+                                                                     ],
+                                                               "col":  [
+                                                                           0,
+                                                                           0,
+                                                                           0,
+                                                                           0
+                                                                       ],
+                                                               "uv0":  [
+                                                                           1,
+                                                                           1,
+                                                                           0.00626,
+                                                                           0
+                                                                       ]
+                                                           },
+                                                           {
+                                                               "p":  [
+                                                                         -5.82807,
+                                                                         -3.5034,
+                                                                         -3.49335,
+                                                                         0
+                                                                     ],
+                                                               "col":  [
+                                                                           0,
+                                                                           0,
+                                                                           0,
+                                                                           0
+                                                                       ],
+                                                               "uv0":  [
+                                                                           0,
+                                                                           0.64843,
+                                                                           0.00626,
+                                                                           0
+                                                                       ]
+                                                           },
+                                                           {
+                                                               "p":  [
+                                                                         -1.27945,
+                                                                         -3.5034,
+                                                                         -3.49335,
+                                                                         0
+                                                                     ],
+                                                               "col":  [
+                                                                           0,
+                                                                           0,
+                                                                           0,
+                                                                           0
+                                                                       ],
+                                                               "uv0":  [
+                                                                           0.50002,
+                                                                           0.64843,
+                                                                           0.00626,
+                                                                           0
+                                                                       ]
+                                                           },
+                                                           {
+                                                               "p":  [
+                                                                         -5.82807,
+                                                                         -0.30507,
+                                                                         -3.49335,
+                                                                         0
+                                                                     ],
+                                                               "col":  [
+                                                                           0,
+                                                                           0,
+                                                                           0,
+                                                                           0
+                                                                       ],
+                                                               "uv0":  [
+                                                                           0,
+                                                                           1,
+                                                                           0.00626,
+                                                                           0
+                                                                       ]
+                                                           },
+                                                           {
+                                                               "p":  [
+                                                                         -1.27945,
+                                                                         -0.30507,
+                                                                         -3.49335,
+                                                                         0
+                                                                     ],
+                                                               "col":  [
+                                                                           0,
+                                                                           0,
+                                                                           0,
+                                                                           0
+                                                                       ],
+                                                               "uv0":  [
+                                                                           0.50002,
+                                                                           1,
+                                                                           0.00626,
+                                                                           0
+                                                                       ]
+                                                           }
+                                                       ],
+                                          "priority":  0,
+                                          "node":  6
+                                      },
+                                      {
+                                          "layer":  1,
+                                          "tex0":  "COMMON_jp",
+                                          "submeshes":  [
+                                                            {
+                                                                "indices":  [
+                                                                                0,
+                                                                                1,
+                                                                                2,
+                                                                                2,
+                                                                                1,
+                                                                                3
+                                                                            ],
+                                                                "bones":  [
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0,
+                                                                              0
+                                                                          ],
+                                                                "skinning":  "None"
+                                                            }
+                                                        ],
+                                          "material":  "Mat_jp",
+                                          "index":  5,
+                                          "position_offset":  [
+                                                                  0,
+                                                                  3.60318,
+                                                                  2.07694,
+                                                                  0
+                                                              ],
+                                          "vertices":  [
+                                                           {
+                                                               "p":  [
+                                                                         -9.08865,
+                                                                         8.14764,
+                                                                         2.07694,
+                                                                         0
+                                                                     ],
+                                                               "col":  [
+                                                                           0,
+                                                                           0,
+                                                                           0,
+                                                                           0
+                                                                       ],
+                                                               "uv0":  [
+                                                                           0,
+                                                                           1,
+                                                                           0,
+                                                                           0
+                                                                       ]
+                                                           },
+                                                           {
+                                                               "p":  [
+                                                                         -9.08865,
+                                                                         -0.94128,
+                                                                         2.07694,
+                                                                         0
+                                                                     ],
+                                                               "col":  [
+                                                                           0,
+                                                                           0,
+                                                                           0,
+                                                                           0
+                                                                       ],
+                                                               "uv0":  [
+                                                                           0,
+                                                                           0,
+                                                                           0,
+                                                                           0
+                                                                       ]
+                                                           },
+                                                           {
+                                                               "p":  [
+                                                                         9.08865,
+                                                                         8.14764,
+                                                                         2.07694,
+                                                                         0
+                                                                     ],
+                                                               "col":  [
+                                                                           0,
+                                                                           0,
+                                                                           0,
+                                                                           0
+                                                                       ],
+                                                               "uv0":  [
+                                                                           1,
+                                                                           1,
+                                                                           0,
+                                                                           0
+                                                                       ]
+                                                           },
+                                                           {
+                                                               "p":  [
+                                                                         9.08865,
+                                                                         -0.94128,
+                                                                         2.07694,
+                                                                         0
+                                                                     ],
+                                                               "col":  [
+                                                                           0,
+                                                                           0,
+                                                                           0,
+                                                                           0
+                                                                       ],
+                                                               "uv0":  [
+                                                                           1,
+                                                                           0,
+                                                                           0,
+                                                                           0
+                                                                       ]
+                                                           }
+                                                       ],
+                                          "priority":  0,
+                                          "node":  11
+                                      }
+                                  ],
+                       "name":  "COMMON"
+                   }
+               ],
+    "animations":  [
+                       {
+                           "frames":  200,
+                           "loop":  "IsLooping",
+                           "name":  "COMMON",
+                           "elements":  [
+
+                                        ],
+                           "kind":  "material"
+                       }
+                   ],
+    "textures":  [
+                     {
+                         "raw_sha256":  "755ce7be4b053bb268de53b760eee01f808e53d5ad66832f409e229e7d4c0375",
+                         "name":  "bunner_rem3_base",
+                         "h":  64,
+                         "raw_len":  4096,
+                         "fmt":  "ETC1A4",
+                         "w":  64
+                     },
+                     {
+                         "raw_sha256":  "ec8c8c76e7bae0cbc36bf91e7f86d35a90eec3ad7219f2093ce4a018f817a633",
+                         "name":  "bunner_rem3_bg",
+                         "h":  128,
+                         "raw_len":  16384,
+                         "fmt":  "ETC1A4",
+                         "w":  128
+                     },
+                     {
+                         "raw_sha256":  "9cb6b6d2865d97d78f63c60754c73e0b5e7e25093492c9a2d48adce13fc312e2",
+                         "name":  "bunner_rem3_bk",
+                         "h":  32,
+                         "raw_len":  1024,
+                         "fmt":  "A4",
+                         "w":  64
+                     },
+                     {
+                         "raw_sha256":  "ce1853d402676debd2499a532793b0382b9df95b5a8ba28415cd0f1b94640d64",
+                         "name":  "bunner_rem3_chara",
+                         "h":  128,
+                         "raw_len":  32768,
+                         "fmt":  "RGBA4",
+                         "w":  128
+                     },
+                     {
+                         "raw_sha256":  "b610e6b9a3f7daa2e1263caa943066edc341a5543979efd6c0ada6848cf6ec8c",
+                         "name":  "COMMON_jp",
+                         "h":  128,
+                         "raw_len":  65536,
+                         "fmt":  "RGBA4",
+                         "w":  256
+                     }
+                 ]
+}

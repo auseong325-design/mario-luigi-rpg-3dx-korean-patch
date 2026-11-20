@@ -1,0 +1,102 @@
+{
+ "file": "C:\\AI-Projects\\mario-luigi-rpg-3dx-korean-patch\\00040000001CA900.00000002 Mario & Luigi Bowser's Inside\u2026 (CTR-P-A3RJ) (J).standard.cia",
+ "file_size": 699835328,
+ "header_size": 8224,
+ "cert_size": 2560,
+ "ticket_size": 848,
+ "tmd_size": 2868,
+ "meta_size": 15040,
+ "content_size": 699805696,
+ "offsets": {
+  "cert": 8256,
+  "ticket": 10816,
+  "tmd": 11712,
+  "content": 14592,
+  "meta": 699820288
+ },
+ "end_check": 699835328,
+ "title_id": "00040000001CA900",
+ "title_version": 0,
+ "tmd_sig_type": "0x10004",
+ "tmd_issuer": "Root-CA00000003-CP0000000b",
+ "ticket_issuer": "Root-CA00000003-XS0000000c",
+ "content_count": 1,
+ "chunks": [
+  {
+   "id": 0,
+   "index": 0,
+   "type": 0,
+   "size": 699805696,
+   "sha256": "da54842716b953bd5c487aa5110b54d0eeff7be64079f3ee0a5d1e02811eb1e7",
+   "rec_off": 2820,
+   "cia_off": 14592
+  }
+ ],
+ "info_records_hash_ok": true,
+ "chunk_records_hash_ok": true,
+ "content0_encrypted_flag": false,
+ "ncch": {
+  "content_size": 699805696,
+  "program_id": "0x40000001ca900",
+  "partition_id": "0x40000001ca900",
+  "product_code": "CTR-P-A3RJ",
+  "flags": "0000000001030004",
+  "media_unit": 512,
+  "no_crypto": true,
+  "fixed_key": false,
+  "seed_crypto": false,
+  "exheader_size": 1024,
+  "logo": [
+   2560,
+   8192
+  ],
+  "plain": [
+   10752,
+   512
+  ],
+  "exefs_off": 11264,
+  "exefs_size": 2082304,
+  "exefs_hash_size": 512,
+  "romfs_off": 2097152,
+  "romfs_size": 697708544,
+  "romfs_hash_size": 512,
+  "exefs_hash": "ff9f2a4f3b637442a98f0d00d57deb3f9f185f75b361b634cfc68b9e5782c816",
+  "romfs_hash": "b0a89b067aa30f4fa3ccf783869a39597cc37b5b9302812129c119270be253ac"
+ },
+ "exefs_superblock_hash_ok": true,
+ "exefs": [
+  {
+   "slot": 0,
+   "name": ".code",
+   "off": 0,
+   "size": 1913764,
+   "sha256": "ff72b64956be004b8934981c4b83c6ba0bf5a49c14676b0eca75817997a4c67d",
+   "hash_ok": true,
+   "equals_project_exefs_file": true
+  },
+  {
+   "slot": 1,
+   "name": "banner",
+   "off": 1913856,
+   "size": 153096,
+   "sha256": "d6b5df0f23a46ec8fd5df1ce441f55be1ff7897919d3bd01f0f4a488b5e9449f",
+   "hash_ok": true,
+   "equals_project_exefs_file": true
+  },
+  {
+   "slot": 2,
+   "name": "icon",
+   "off": 2067456,
+   "size": 14016,
+   "sha256": "4287af570fef00d3c74de47ccae5b8137fd2f9aeb56bcd06d9b39852d690ef9e",
+   "hash_ok": true,
+   "equals_project_exefs_file": true
+  }
+ ],
+ "exefs_packed": true,
+ "exefs_data_end": 2082304,
+ "romfs_superblock_hash_ok": true,
+ "content0_sha256": "da54842716b953bd5c487aa5110b54d0eeff7be64079f3ee0a5d1e02811eb1e7",
+ "content0_hash_ok": true,
+ "file_sha256": "850f61d322080c6cc52f22ff4e5d2e4a877ec5bfd6e94f086249baa41e97610a"
+}

@@ -1,0 +1,38 @@
+{
+ "new_cia": "C:\\AI-Projects\\mario-luigi-rpg-3dx-korean-patch\\work\\banner_20261030\\out\\00040000001CA900_ML3DX_KoreanBanner.cia",
+ "orig_cia": "C:\\AI-Projects\\mario-luigi-rpg-3dx-korean-patch\\00040000001CA900.00000002 Mario & Luigi Bowser's Inside\u2026 (CTR-P-A3RJ) (J).standard.cia",
+ "banner_equals_build": true,
+ "other_exefs_files_identical": {
+  ".code": true,
+  "icon": true
+ },
+ "ncch_layout_identical": {
+  "content_size": true,
+  "program_id": true,
+  "partition_id": true,
+  "product_code": true,
+  "flags": true,
+  "media_unit": true,
+  "no_crypto": true,
+  "fixed_key": true,
+  "seed_crypto": true,
+  "exheader_size": true,
+  "logo": true,
+  "plain": true,
+  "exefs_off": true,
+  "exefs_size": true,
+  "exefs_hash_size": true,
+  "romfs_off": true,
+  "romfs_size": true,
+  "romfs_hash_size": true,
+  "romfs_hash": true
+ },
+ "romfs_region_identical": true,
+ "exheader_logo_plain_identical": true,
+ "cert_ticket_identical": true,
+ "meta_identical": true,
+ "logo_from_cia_equals_png": true,
+ "logo_raw_sha256": "cb05583970973dac73541823fef43fdd32ad2f49ceeff5fc92fd8c7fb1667e23",
+ "ko_cgfx_sha256": "57e1d7edce2a95524d92705d7768cb6b92996a686f599e41afebec8db1a9e91c",
+ "all_ok": true
+}

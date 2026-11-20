@@ -1,0 +1,506 @@
+{
+ "tag": "v2",
+ "steps": {
+  "M1": {
+   "title": "작업 폴더 준비: 본편·업데이트 CIA (빈 키 폴더)",
+   "base": {
+    "ok": true,
+    "seconds": 12.0,
+    "files": 1282,
+    "title_id": "00040000001CA900",
+    "components": [
+     "original_banner.bin",
+     "original_code.bin",
+     "original_exheader.bin"
+    ]
+   },
+   "update": {
+    "ok": true,
+    "seconds": 0.4,
+    "files": 19,
+    "title_id": "0004000E001CA900",
+    "components": [
+     "original_code.bin",
+     "original_exheader.bin"
+    ]
+   },
+   "base_romfs_vs_romfs": {
+    "only_a": [],
+    "only_b": [],
+    "bytes_differ": [],
+    "equal": true
+   },
+   "update_romfs_vs_romf2": {
+    "only_a": [],
+    "only_b": [],
+    "bytes_differ": [],
+    "equal": true
+   },
+   "base_edited_equals_original": true,
+   "base_code_is_v10": true,
+   "update_code_is_v12": true,
+   "base_exheader_matches_cia": true,
+   "update_exheader_matches_cia": true,
+   "base_banner_matches_exefs": true,
+   "update_has_banner": false,
+   "ok": true,
+   "seconds": 16.4
+  },
+  "M2": {
+   "title": "통합 패키지 만들기: 전체 / 한글만 / 60fps만",
+   "full": {
+    "ok": true,
+    "seconds": 3.5,
+    "bytes": 6522661,
+    "sha256": "de38a22bf4d9fc5110213cd571f4af2bbc4e504d254fe27bee302d740c4b533f",
+    "romfs_changes": 39,
+    "changed_paths": [
+     ".crr/static.crr",
+     "BAI/BAI.dat",
+     "FEvent/FEvent.dat",
+     "FMdl/JP/FMdl.dat",
+     "HB/JP_ja/cyorometer.arc.z",
+     "HB/JP_ja/demoskip.arc.z",
+     "HB/JP_ja/dpunch.arc.z",
+     "HB/JP_ja/fireball.arc.z",
+     "HB/JP_ja/kyusai.arc.z",
+     "HB/JP_ja/punch.arc.z",
+     "HB/JP_ja/rotation.arc.z",
+     "HB/JP_ja/start.arc.z",
+     "HB/JP_ja/touchpen.arc.z",
+     "HB/JP_ja/ui_fa.arc.z",
+     "HB/JP_ja/yesno.arc.z",
+     "HB/parts.arc.z",
+     "Lyt/JP/BLyt.dat",
+     "Lyt/JP/FLyt.dat",
+     "Lyt/JP/KLyt.dat",
+     "Lyt/JP/MLyt.dat",
+     "Lyt/JP/SLyt.dat",
+     "Msg/JP_ja/BMsg.dat",
+     "Msg/JP_ja/FMsg.dat",
+     "Msg/JP_ja/HugeBattle.msbt",
+     "Msg/JP_ja/InitLoad.msbt",
+     "Msg/JP_ja/Item.msbt",
+     "Msg/JP_ja/Menu.msbt",
+     "Msg/JP_ja/MenuKJ.msbt",
+     "Msg/JP_ja/font.bffnt",
+     "Msg/JP_ja/font_btl.bffnt",
+     "Msg/JP_ja/font_l.bffnt",
+     "Obj/JP/BUI.dat",
+     "Obj/JP/FUI.dat",
+     "Obj/JP/KUI.dat",
+     "Obj/JP/Menu.dat",
+     "RO/MainMenu.cro",
+     "RO/static.crs",
+     "Staffroll/JP/Staffroll.bin",
+     "Staffroll/mario_font.bffnt"
+    ],
+    "components": [
+     "banner",
+     "code",
+     "exheader"
+    ],
+    "entries": 44,
+    "includes_ips": true,
+    "root_entries": [
+     "manifest.json",
+     "사용 안내.txt"
+    ]
+   },
+   "ko": {
+    "ok": true,
+    "seconds": 3.5,
+    "bytes": 6522327,
+    "sha256": "86e7c01da04e06e6dea2e8fa105bc087965ab026d5b970d6de592d3a2415fdb6",
+    "romfs_changes": 39,
+    "changed_paths": [
+     ".crr/static.crr",
+     "BAI/BAI.dat",
+     "FEvent/FEvent.dat",
+     "FMdl/JP/FMdl.dat",
+     "HB/JP_ja/cyorometer.arc.z",
+     "HB/JP_ja/demoskip.arc.z",
+     "HB/JP_ja/dpunch.arc.z",
+     "HB/JP_ja/fireball.arc.z",
+     "HB/JP_ja/kyusai.arc.z",
+     "HB/JP_ja/punch.arc.z",
+     "HB/JP_ja/rotation.arc.z",
+     "HB/JP_ja/start.arc.z",
+     "HB/JP_ja/touchpen.arc.z",
+     "HB/JP_ja/ui_fa.arc.z",
+     "HB/JP_ja/yesno.arc.z",
+     "HB/parts.arc.z",
+     "Lyt/JP/BLyt.dat",
+     "Lyt/JP/FLyt.dat",
+     "Lyt/JP/KLyt.dat",
+     "Lyt/JP/MLyt.dat",
+     "Lyt/JP/SLyt.dat",
+     "Msg/JP_ja/BMsg.dat",
+     "Msg/JP_ja/FMsg.dat",
+     "Msg/JP_ja/HugeBattle.msbt",
+     "Msg/JP_ja/InitLoad.msbt",
+     "Msg/JP_ja/Item.msbt",
+     "Msg/JP_ja/Menu.msbt",
+     "Msg/JP_ja/MenuKJ.msbt",
+     "Msg/JP_ja/font.bffnt",
+     "Msg/JP_ja/font_btl.bffnt",
+     "Msg/JP_ja/font_l.bffnt",
+     "Obj/JP/BUI.dat",
+     "Obj/JP/FUI.dat",
+     "Obj/JP/KUI.dat",
+     "Obj/JP/Menu.dat",
+     "RO/MainMenu.cro",
+     "RO/static.crs",
+     "Staffroll/JP/Staffroll.bin",
+     "Staffroll/mario_font.bffnt"
+    ],
+    "components": [
+     "banner",
+     "code",
+     "exheader"
+    ],
+    "entries": 44,
+    "includes_ips": false,
+    "root_entries": [
+     "manifest.json",
+     "사용 안내.txt"
+    ]
+   },
+   "fps60": {
+    "ok": true,
+    "seconds": 1.5,
+    "bytes": 222158,
+    "sha256": "88761125cff31564771da9932327b0374798e210ea0247fa47ab868099922d11",
+    "romfs_changes": 5,
+    "changed_paths": [
+     ".crr/static.crr",
+     "BAI/BAI.dat",
+     "FEvent/FEvent.dat",
+     "FMdl/JP/FMdl.dat",
+     "RO/static.crs"
+    ],
+    "components": [
+     "code",
+     "exheader"
+    ],
+    "entries": 9,
+    "includes_ips": true,
+    "root_entries": [
+     "manifest.json",
+     "사용 안내.txt"
+    ]
+   },
+   "full_code_equals_v3b_patched": true,
+   "ok": true,
+   "seconds": 8.6
+  },
+  "M3": {
+   "title": "만든 사람의 통합 패키지와 비교",
+   "ours_entries": 44,
+   "theirs_entries": 44,
+   "entries": {
+    "only_a": [],
+    "only_b": [],
+    "bytes_differ": [],
+    "equal": true
+   },
+   "manifest_equal": true,
+   "manifest_keys_differ": [],
+   "ok": true,
+   "seconds": 0.0
+  },
+  "M4": {
+   "title": "통합 패키지 → CCI (전체, 한글만) + CIA 시도",
+   "full": {
+    "ok": true,
+    "seconds": 7.0,
+    "sha256": "4f02f1accfaa17d84651190b853a926bb8282bf9c75ba71ba44317b122d85b69",
+    "checked_files": 39,
+    "code_checked": true,
+    "bytes": 701513728
+   },
+   "ko": {
+    "ok": true,
+    "seconds": 6.9,
+    "sha256": "443d86ff139cc14abd118f9412a8e64b49b517067e27f30e126a67a01ba17562",
+    "checked_files": 39,
+    "code_checked": true,
+    "bytes": 701513728
+   },
+   "cia_with_empty_keys": {
+    "ok": false,
+    "seconds": 4.3,
+    "error": "RuntimeError: RomForge 리팩 실패: certs.bin 추출 필요 / 유틸 - certs.bin 추출을 진행하세요",
+    "output_exists": false
+   },
+   "ok": true,
+   "seconds": 18.3
+  },
+  "M5": {
+   "title": "CCI 독립 검사 (해시·RomFS 전체·확장 헤더·코드·배너)",
+   "full": {
+    "file": "C:\\Users\\woose\\.kiro\\crew\\scratch\\runtime-346931e3\\dt\\v2\\merge\\merged_full.cci",
+    "container": "NCSD",
+    "ncch_off": 16384,
+    "partitions": [
+     {
+      "index": 0,
+      "offset": 16384,
+      "size": 701497344
+     }
+    ],
+    "image_size": 701513728,
+    "file_size": 701513728,
+    "media_id": "00040000001CA900",
+    "ncsd_flags": "0000000001010000",
+    "partition_fs_types": "0000000000000000",
+    "partition_crypt_types": "0000000000000000",
+    "ncch": {
+     "program_id": "00040000001CA900",
+     "partition_id": "00040000001CA900",
+     "product_code": "CTR-P-A3RJ",
+     "maker_code": "00",
+     "version": 2,
+     "flags": "0000000001030004",
+     "no_crypto": true,
+     "content_size": 701497344,
+     "exheader_size": 1024,
+     "plain": [
+      10752,
+      512
+     ],
+     "logo": [
+      2560,
+      8192
+     ],
+     "exefs": [
+      11264,
+      3285504,
+      512
+     ],
+     "romfs": [
+      3297280,
+      698200064,
+      512
+     ]
+    },
+    "checks": {
+     "exheader_hash": true,
+     "logo_hash": true,
+     "exefs_superblock_hash": true,
+     "exefs_file_hashes": true,
+     "romfs_superblock_hash": true,
+     "ivfc_levels": true
+    },
+    "exefs": {
+     ".code": {
+      "offset": 0,
+      "size": 3117056,
+      "sha256": "4bd714f2a5f68337ae8966f263ce59b6e9415c9a0c968d1daea68e6ed5d7a7e2",
+      "hash_ok": true
+     },
+     "banner": {
+      "offset": 3117056,
+      "size": 153096,
+      "sha256": "d659b9fe55429b0b099c00777443348ce0a3dac8f0a55cd40266e7fa6072c8b6",
+      "hash_ok": true
+     },
+     "icon": {
+      "offset": 3270656,
+      "size": 14016,
+      "sha256": "4287af570fef00d3c74de47ccae5b8137fd2f9aeb56bcd06d9b39852d690ef9e",
+      "hash_ok": true
+     }
+    },
+    "ivfc": {
+     "master_hash_size": 352,
+     "levels": [
+      {
+       "level": 1,
+       "physical_offset": 692740096,
+       "logical_offset": 0,
+       "size": 42304,
+       "block": 4096,
+       "blocks": 11,
+       "bad_blocks": 0,
+       "first_bad": null
+      },
+      {
+       "level": 2,
+       "physical_offset": 692785152,
+       "logical_offset": 45056,
+       "size": 5412000,
+       "block": 4096,
+       "blocks": 1322,
+       "bad_blocks": 0,
+       "first_bad": null
+      },
+      {
+       "level": 3,
+       "physical_offset": 4096,
+       "logical_offset": 5459968,
+       "size": 692735320,
+       "block": 4096,
+       "blocks": 169125,
+       "bad_blocks": 0,
+       "first_bad": null
+      }
+     ],
+     "ok": true,
+     "level3_abs": 3317760
+    },
+    "romfs_files": 1282,
+    "romfs_bytes": 692619572,
+    "tree_vs_expected": {
+     "expected_files": 1282,
+     "only_image": [],
+     "only_expected": [],
+     "bytes_differ": [],
+     "equal": true
+    },
+    "ok": true,
+    "exheader_equals_expected_merge": true,
+    "exheader_diff_offsets": [],
+    "code_equals_expected": true,
+    "code_uncompressed_size": 3117056,
+    "banner_equals_korean": true,
+    "icon_equals_base": true,
+    "verdict": true
+   },
+   "ko": {
+    "file": "C:\\Users\\woose\\.kiro\\crew\\scratch\\runtime-346931e3\\dt\\v2\\merge\\merged_ko.cci",
+    "container": "NCSD",
+    "ncch_off": 16384,
+    "partitions": [
+     {
+      "index": 0,
+      "offset": 16384,
+      "size": 701497344
+     }
+    ],
+    "image_size": 701513728,
+    "file_size": 701513728,
+    "media_id": "00040000001CA900",
+    "ncsd_flags": "0000000001010000",
+    "partition_fs_types": "0000000000000000",
+    "partition_crypt_types": "0000000000000000",
+    "ncch": {
+     "program_id": "00040000001CA900",
+     "partition_id": "00040000001CA900",
+     "product_code": "CTR-P-A3RJ",
+     "maker_code": "00",
+     "version": 2,
+     "flags": "0000000001030004",
+     "no_crypto": true,
+     "content_size": 701497344,
+     "exheader_size": 1024,
+     "plain": [
+      10752,
+      512
+     ],
+     "logo": [
+      2560,
+      8192
+     ],
+     "exefs": [
+      11264,
+      3285504,
+      512
+     ],
+     "romfs": [
+      3297280,
+      698200064,
+      512
+     ]
+    },
+    "checks": {
+     "exheader_hash": true,
+     "logo_hash": true,
+     "exefs_superblock_hash": true,
+     "exefs_file_hashes": true,
+     "romfs_superblock_hash": true,
+     "ivfc_levels": true
+    },
+    "exefs": {
+     ".code": {
+      "offset": 0,
+      "size": 3117056,
+      "sha256": "3e9d5c52f4dd585b4c45b96eb9fce47995d31eaeedc5801f761e72fe99df1816",
+      "hash_ok": true
+     },
+     "banner": {
+      "offset": 3117056,
+      "size": 153096,
+      "sha256": "d659b9fe55429b0b099c00777443348ce0a3dac8f0a55cd40266e7fa6072c8b6",
+      "hash_ok": true
+     },
+     "icon": {
+      "offset": 3270656,
+      "size": 14016,
+      "sha256": "4287af570fef00d3c74de47ccae5b8137fd2f9aeb56bcd06d9b39852d690ef9e",
+      "hash_ok": true
+     }
+    },
+    "ivfc": {
+     "master_hash_size": 352,
+     "levels": [
+      {
+       "level": 1,
+       "physical_offset": 692740096,
+       "logical_offset": 0,
+       "size": 42304,
+       "block": 4096,
+       "blocks": 11,
+       "bad_blocks": 0,
+       "first_bad": null
+      },
+      {
+       "level": 2,
+       "physical_offset": 692785152,
+       "logical_offset": 45056,
+       "size": 5412000,
+       "block": 4096,
+       "blocks": 1322,
+       "bad_blocks": 0,
+       "first_bad": null
+      },
+      {
+       "level": 3,
+       "physical_offset": 4096,
+       "logical_offset": 5459968,
+       "size": 692735320,
+       "block": 4096,
+       "blocks": 169125,
+       "bad_blocks": 0,
+       "first_bad": null
+      }
+     ],
+     "ok": true,
+     "level3_abs": 3317760
+    },
+    "romfs_files": 1282,
+    "romfs_bytes": 692619572,
+    "tree_vs_expected": {
+     "expected_files": 1282,
+     "only_image": [],
+     "only_expected": [],
+     "bytes_differ": [],
+     "equal": true
+    },
+    "ok": true,
+    "exheader_equals_expected_merge": true,
+    "exheader_diff_offsets": [],
+    "code_equals_expected": true,
+    "code_uncompressed_size": 3117056,
+    "banner_equals_korean": true,
+    "icon_equals_base": true,
+    "verdict": true
+   },
+   "ok": true,
+   "seconds": 3.5
+  }
+ },
+ "run": "C:\\Users\\woose\\.kiro\\crew\\scratch\\runtime-346931e3\\dt\\v2\\merge",
+ "bridge": "C:\\AI-Projects\\3ds-patch-universal-tool\\RomForge-reference\\KpmBridge\\bin\\Release\\net10.0\\KpmBridge.dll",
+ "key_folder_empty": true
+}

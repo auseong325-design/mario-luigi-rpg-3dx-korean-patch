@@ -1,0 +1,105 @@
+{
+ "label": "merge_full_withupd",
+ "start": "2026-10-31 15:52:36",
+ "stops": {
+  "title": {
+   "cur_task": "0x320da370",
+   "vptr": "0x003e3b3c",
+   "class": [
+    "[static]",
+    "fld::System",
+    "ad::fw::TaskBase",
+    "TaskMainBase",
+    "Task"
+   ],
+   "fps_init_3D": 1,
+   "fps_live_45": 1,
+   "ctr_578_per_s": 29.94,
+   "png": "runtime_merge_full_withupd_title.png"
+  },
+  "file_select": {
+   "cur_task": "0x30000038",
+   "vptr": "0x00490b60",
+   "class": [
+    "[LoadMenu.rodata]",
+    "load_menu::LoadMenuTask",
+    "msys::MTaskBase",
+    "ad::fw::TaskBase",
+    "TaskMainBase",
+    "Task"
+   ],
+   "fps_init_3D": 1,
+   "fps_live_45": 1,
+   "ctr_578_per_s": 29.94,
+   "png": "runtime_merge_full_withupd_file.png"
+  },
+  "mode_select": {
+   "cur_task": "0x320da370",
+   "vptr": "0x003e3b3c",
+   "class": [
+    "[static]",
+    "fld::System",
+    "ad::fw::TaskBase",
+    "TaskMainBase",
+    "Task"
+   ],
+   "fps_init_3D": 1,
+   "fps_live_45": 1,
+   "ctr_578_per_s": 29.93,
+   "png": "runtime_merge_full_withupd_mode.png"
+  },
+  "field": {
+   "cur_task": "0x320da370",
+   "vptr": "0x003e3b3c",
+   "class": [
+    "[static]",
+    "fld::System",
+    "ad::fw::TaskBase",
+    "TaskMainBase",
+    "Task"
+   ],
+   "fps_init_3D": 1,
+   "fps_live_45": 1,
+   "ctr_578_per_s": 29.94,
+   "png": "runtime_merge_full_withupd_field.png"
+  },
+  "pause": {
+   "cur_task": "0x30000028",
+   "vptr": "0x0049ffac",
+   "class": [
+    "[None]"
+   ],
+   "fps_init_3D": 1,
+   "fps_live_45": 1,
+   "ctr_578_per_s": 29.94,
+   "png": "runtime_merge_full_withupd_pause.png"
+  }
+ },
+ "presses": [
+  {
+   "press": "A",
+   "try": 0,
+   "task": "0x30000038",
+   "class": "[None]"
+  },
+  {
+   "press": "A",
+   "try": 1,
+   "task": "0x30000038",
+   "class": "Task"
+  },
+  {
+   "press": "A",
+   "try": 0,
+   "task": "0x320da370",
+   "class": "Task"
+  },
+  {
+   "press": "START",
+   "try": 0,
+   "task": "0x30000028",
+   "class": "[None]"
+  }
+ ],
+ "end": "2026-10-31 15:54:14"
+}

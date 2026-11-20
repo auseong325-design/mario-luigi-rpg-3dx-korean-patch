@@ -1,13 +1,14 @@
 {
- "updated": "2026-09-30T12:40+09:00",
- "phase": "cloud session 2026-09-30: text, fonts and every image stream installed in patch/ (Msg, Lyt incl. file-select logos, Obj, HB, FMdl title logo + 게임 시작, Staffroll). Logos accepted by the user for now with room for improvement. Waiting for the user's Azahar test",
+ "updated": "2026-11-16T09:00:00+09:00",
+ "phase": "2026-10-08: 모드 선택 로고 G·3 접합부의 흰색 각·잔점 수정. Codex 내장 computer-use로 Azahar v1.2 실제 화면 검증 완료, patch·정션·SD·ZIP 36파일 일치.",
  "build": {
-  "latest": "2026-09-30T02:55+09:00: TEXT PASS (work/textpass_20260930.py: 24 edits in 11 batch files + 4 glossary rows) -> merge_ko --check-all 130/130 0 errors -> --merge (28 ids changed incl. dups Menu#81 b_sys#477 #1475 #1556) -> build_patch --fonts --out work/build/msg_stage/romfs (verify 9,623 msgs 0 problems; fonts cover 1,255 chars, 1,162 Hangul; 1DX glyphs pixel-identical) -> Azahar not running -> installed the 6 changed files (BMsg, FMsg, Menu, font, font_l, font_btl) into patch/.../Msg/JP_ja, SHA-256 match incl. the Azahar junction. Replaced files kept in work/build/prev_msg_before_textpass_20260930/.",
+  "latest": "2026-10-08: Removed angular white cuts, isolated white speck and lower seam at the file/mode-selection G/3 outline. Only 203 RGB565 pixels changed in the right MLyt texture; RPG/numeral front colors and gloss, Hangul/amp and character art preserved. Verified actual Azahar v1.2 mode-selection screen via Codex built-in Computer Use without changing input settings. Main-title/intro FMdl unchanged. All 36 patch/junction/SD/ZIP files equal; ZIP CRC PASS. See work/img/fileload_outline_fix_20261008/REPORT.md.",
   "user_test": "2026-09-29 15:20 user installed base + v1.2 update from the two standard CIAs in the project root (sdmc title/00040000/001ca900 and 0004000e/001ca900). Azahar log (%APPDATA%/Azahar/log/azahar_log.txt, previous run in azahar_log.old.txt) shows Program ID 00040000001CA900 and 'LayeredFS replacement file in use' for all 10 Msg/JP_ja files, on the base RomFS and again on the update RomFS. The user only reached the title screen (run 2) and the file-select CROs SaveLoad/LoadMenu for 5 s (run 1); title logo, ゲームスタート and Ver. 1.2 are images (no message text), so they stay Japanese until the image-text phase. Still waiting for the first-dialogue test.",
   "fallback": "if the game freezes or text breaks: copy work/build/same_size_romfs/Msg/JP_ja/*.bffnt over patch/.../romfs/Msg/JP_ja/ (or build_font.py --same-size --only <font>); rebuilt 17:35 from the 1DX glyphs too (font drops 0 chars, font_l 631, font_btl 103). To go back to the NanumSquareRound look: copy work/build/prev_fonts_nanum/*.bffnt into patch/.../Msg/JP_ja/.",
   "hb_hold": "installed 2026-09-30 10:25+09:00 after the small-text follow-up (white faces for 3 textures)",
   "latest_cloud": "2026-09-30 cloud (Python 3.12 venv, pinned requirements): toolchain reproduces the local builds (msbt round trip 368/368, build_patch --identity 7/7, rebuilding the pre-TEXT-PASS-2 ko_final gives the installed Msg/fonts byte for byte, build_lyt MLyt/BLyt/FLyt/SLyt byte-identical to lyt_stage_B). TEXT PASS 2: build_patch --fonts -> work/build/msg_stage -> installed BMsg/FMsg/Menu + the three fonts (previous files in work/build/prev_msg_before_textpass2_20260930/). Image patch installed 10:25+09:00: Lyt/JP BLyt FLyt KLyt SLyt = work/build/lyt_stage_A (178 textures, 0 errors); Lyt/JP/MLyt = the same build WITHOUT the four LOAD_GAME_IMG file-select logos (their original textures kept byte for byte; 174 textures, 254 copies changed in all Lyt dats); Obj/JP BUI FUI KUI Menu = work/build/obj_stage; HB/JP_ja (11 archives) + HB/parts.arc.z = work/build/hb_stage. Every installed archive was read back independently. Staffroll and Msg in patch/ equal their stages. NOT installed: FMdl (title logo + 게임 시작 share FMdl.dat) and the file-select logos - waiting for the user's OK.",
-  "logos_installed": "2026-09-30T12:40+09:00: user: 'proceed as is, leave room for improvement' -> installed work/build/fmdl_stage FMdl.dat (title logo + pieces + 게임 시작) as patch/.../romfs/FMdl/JP/FMdl.dat and work/build/lyt_stage_A/MLyt.dat (file-select logos) as patch/.../Lyt/JP/MLyt.dat; all five Lyt dats and FMdl byte-equal to their stages; MLyt: 115 textures changed incl. the 4 logos"
+  "logos_installed": "2026-09-30T12:40+09:00: user: 'proceed as is, leave room for improvement' -> installed work/build/fmdl_stage FMdl.dat (title logo + pieces + 게임 시작) as patch/.../romfs/FMdl/JP/FMdl.dat and work/build/lyt_stage_A/MLyt.dat (file-select logos) as patch/.../Lyt/JP/MLyt.dat; all five Lyt dats and FMdl byte-equal to their stages; MLyt: 115 textures changed incl. the 4 logos",
+  "before_audit_20261006": "2026-09-30T02:55+09:00: TEXT PASS (work/textpass_20260930.py: 24 edits in 11 batch files + 4 glossary rows) -> merge_ko --check-all 130/130 0 errors -> --merge (28 ids changed incl. dups Menu#81 b_sys#477 #1475 #1556) -> build_patch --fonts --out work/build/msg_stage/romfs (verify 9,623 msgs 0 problems; fonts cover 1,255 chars, 1,162 Hangul; 1DX glyphs pixel-identical) -> Azahar not running -> installed the 6 changed files (BMsg, FMsg, Menu, font, font_l, font_btl) into patch/.../Msg/JP_ja, SHA-256 match incl. the Azahar junction. Replaced files kept in work/build/prev_msg_before_textpass_20260930/."
  },
  "review_wave": {
   "launched": "2026-09-29T11:48+09:00, keep=true, max_turns=500",
@@ -164,7 +165,7 @@
   "o_zutsuda (in game): o_zutsuda_30#20 choice order 싫다!/좋다! (DS reversed) starts the minigame on 좋다!; o_zutsuda_01#13 sneeze (style 10) fits one line; o_zutsuda_01#9 two leading spaces",
   "o_chika (in game): warp line leading space; recovery choices '회복하지 않는다 / 회복한다' fit one line; speaker of chika_09_before #30 #31",
   "b_sys speakers (in game; current wording fits the guesses): p1 #10 모톤, #26 로이, #27 마귀, #64 KGS3C; p2 #111 koopa_8_13-19 (neutral); p4 #341 래리, #344 쿠파주니어; p9 #950 (if Kamek: '나는 좀 지쳤구먼…'); p10 #1070 마귀; p11 #1186 루드윅; p13/p14 koopa_e_7_01-03; p7 #720 'ハッ!' = '앗!'",
-  "KJ field speakers (in game; current wording works either way): k_o_ekubon_80 #2 #89 (Roy's fake honorific?), #21; k_o_koopa_80#70 'ええ。' (Wendy '그럼.' / Kamek '그럼요.'); k_o_koopa_r_31#7 (Cutie -> '맡겨 주세용~!'); k_o_koopa_r_28#3 (Junior -> '~뿐이잖아.'); k_o_gepu_08#12 laugh owner; k_o_koopa_r_80#246 size-06 {2:font} tag on '마' looks broken?",
+  "KJ field speakers (in game; current wording works either way): k_o_ekubon_80 #2 #89 (Roy's fake honorific?), #21; k_o_koopa_80#70 'ええ。' (Wendy '그럼.' / Kamek '그럼요.'); k_o_koopa_r_31#7 (Cutie -> '맡겨 주세용~!'); k_o_koopa_r_28#3 (Junior -> '~뿐이잖아.'); k_o_gepu_08#12 laugh owner; k_o_koopa_r_80#246 size-06 {2:font} tag on '마' looks broken? [2026-11-16: size code 06 maps to the normal font (code table DAT_003a02f4), so '마' renders normally - closed]",
   "Staff roll: in game, check the ending title line '마리오&루이지 RPG3 DX' (thin 1DX hangul next to the bold Latin face, same as 1DX KR) and that the scroll timing is unchanged.",
   "C layout art: ST_HIGE 42x12 'SUYEOM' fills the whole 42 px texture (JP TSUNO 35 px) - check it does not touch the number beside it in the item/shop/equip/status menus; if it does, use the 88% width variant (scripts/lyt_C_stat.py JOBS fit). Rank names (battle result + status screen) read slightly lighter than the kana on dense syllables (랭·등·껍); boss rank names are 3-5 px wider than the Japanese lettering. 'GET!' and 'LV' are the original pixels.",
   "I3/B image checks in game: bui_sys_button もどる = 「뒤로」 (1DX) while BMsg/b_sys#1821 says 「돌아가기」 - if both show on one screen, change the text to 뒤로; 힌트/배큐엄 block names legible at 1x; set_tab 있음/없음 - which setting it is (후리가나 표시?); where 「슬롯」 (btn_SLOT) appears. B fix round 2: shop titles and file labels are now bolder (0.84-0.97 of the kana) except 숍 (0.71-0.95 per title) and 슬롯 (0.57) - check they still read solid at 1x.",
@@ -173,7 +174,16 @@
   "Giant battles (I6 second pass): action prompts use a bold vector face 13-18% taller than the kana (kept deliberately); check they do not look oversized next to the battle HUD. Small-text follow-up done (white faces): check 쪼르미터 (64x16) and the boss notices read cleanly. The 12 changed HB archives use our own LZH8 compressor - check that every giant battle loads.",
   "Sprites after the palette pass (in game): command-block names, bad-status names, 명중/회피, fortune-block labels and 시범 now use the 3DX near-black outline; check they sit with the untouched sprites around them. 앞으로 (Bowser Jr. special counter) redrawn crisper.",
   "Layout 배틀 시작 (Bowser Jr. quest menu and the Coliseum battle-start button, same picture): redrawn from the 1DX font in wave 3; check it reads cleanly in both places.",
-  "Logos (installed as accepted 'for now', room for improvement): title logo 마리오&루이지 (strokes grown, hard edges), file-select 마리오&루이지 RPG3, file-select 쿠파주니어 RPG (Jr. removed, Korean word in front of RPG, puffs on top). Look at them on the title and file-select screens; possible later work: letter tilt / size closer to クッパJr., puff tail at 어."
+  "File-select logo: Mario & Luigi RPG3 updated and verified in actual Azahar v1.2 on 2026-10-08 via Codex built-in Computer Use (fileload_logo_20261008). Remaining check: unchanged 쿠파주니어 RPG illustration. Main-title/intro verified earlier the same day (logo_runtime_fix_20261008).",
+  "2026-10-07 USER DECISION: Six temporary event-item images retain their previous handling; no additional translation requested. Actual exposure remains unverified.",
+  "2026-10-06 NEW: BMsg/b_sys#746 restored DS question 스페셜 어택의 사용 방법을 설명해 줄까?;292px,source one question row+choice row preserved,check0errors but relative-length warning. Confirm actual balloon fit. See work/review/audit_20261006/GAME_CHECKS.md.",
+  "2026-10-07 CHECK: Open settings after loading the patched MainMenu CRO; confirm the furigana row is absent, remaining rows align and D-pad/touch selection plus confirm/return work. Verify the patch loads on Azahar and Luma with v1.2.",
+  "2026-10-30 CHECK (60fps mode, real New 3DS, Luma any version, v1.2 update): the game boots to the title (code.ips; the first code.bps build made Luma v13.4 loader panic, findings 8.10); field/battle/menu transitions do not freeze; Bowser-body minigames run at the original speed; credits end with the music; note frame drops in heavy scenes. Old 3DS must stay at 30fps. SD must not keep an old code.bps. Disable = delete luma/titles/00040000001CA900/code.ips.",
+  "2026-10-30 CHECK (wave 5 fonts, real New 3DS): item/gear/badge/stats/records menus and dialogues: Latin letters, digits and punctuation look like the Hangul (same height/weight/baseline, natural spacing); nothing clipped; SUYEOM stat label no longer touches its number.",
+  "2026-10-30 CHECK (wave 5 star fix, real New 3DS): Bros. Attack 스타&스타 drop/hit phase no longer drags compared to the 30fps game; report any remaining short slowdown (would be GPU load, not logic).",
+  "2026-10-30 CHECK (HOME banner CIA, real New 3DS, installed SD copy only): after installing work/banner_20261030/out/00040000001CA900_ML3DX_KoreanBanner.cia with FBI over the game (save backed up first), the HOME Menu top banner shows the Korean logo and the game still starts with the patch and the old save.",
+  "2026-10-31 CHECK (star menu labels, real New 3DS): START menu shows 아이템 장비 스테이터스 기록 배지 가이드 in one lettering (1DX KR dialogue bitmap font, the old 배지/능력 style), one size and one height; 스테이터스 fits; battle guide 배틀 기본 > 「기본⑤: 스테이터스에 대해」 page 1 reads 「스테이터스」.",
+  "2026-10-31 CHECK (Bowser Jr. guide, real New 3DS): 쿠파주니어 RPG menu > 가이드 shows the title 「스테이터스에 대해」 and its pages (동료의 강함·스테이터스는 / 스테이터스에는 「HP」…) without clipping; other KJ guide pages with 스테이터스: 모톤 감싸기, 괴음파, 멤버 교체, 작아짐."
  ],
  "wave2_brief_additions": [
   "3 wave-1 translators (T03, T04, 2ccb39a4) ended after a narration-only message ('Reading ... now.') with no tool call: tell agents every message before the final report must contain a tool call; spawn with keep=true so a stalled run can be resumed with spawn_continue instead of restarting",
@@ -184,18 +194,19 @@
   "DONE (see the last item): ※ restored",
   "DONE: STbr/ST BP -> SP images (C stat_en), installed",
   "CHECKED 2026-09-30 with the real font widths: o_town_31#18 prices start at x 138/136/130 and end at 149/147/150 (right edges within 3 px; the Japanese columns differ by 5 px) - fine",
-  "Menu#361 'メッセージにふりがなを表示' is translated literally (후리가나 표시) but Korean text has no ruby: decide in game whether to relabel or hide the option",
+  "DONE 2026-10-07: Korean messages have no ruby. The furigana settings row, buttons and cursor entry use the native hasRuby=0 path; CRO/CRR installed and statically verified. Actual game screen confirmation remains with the user.",
   "DONE: btn_F_MAP_OPEN = 열기 (layout image), installed",
   "DONE: 【 】 ※ are in font, font_l and font_btl (checked in the installed fonts)",
   "DONE with item 0",
   "DONE: btn_KJ_STOPGAME = 쿠파주니어 RPG 종료 (layout image), installed",
   "b_sys#1706 「약점인 동료」: no layout image carries 苦手 (lyt_plan) - it is message text, already translated; check on screen",
-  "DONE 2026-09-30T02:55+09:00 (work/textpass_20260930.py): ※ restored in k_o_koopa_08 #9 #11, b_sys #670 #1546; うちけし -> 스킬 지우기 in b_sys #12 #208 #238 #239 #273 #293 #1008 #1055 #1134 #1847 (+dup #1556), verb forms #225 '지워 버렸다', #495 'N마리의 스킬을 지웠다!', #510 'N명의 스킬이 지워졌다!', #528 '스킬을 지우지 못했다!', #1450 '되도록 지우고 싶다'; ころび -> 꽈당 in b_sys#179 (+dup Menu#81); サンダー 선더 in #195 (+dup #477) #969 #990; ドッスンおとし 쿵쿵 떨어트리기 in #600 (+dup #1475); 4 glossary rows. Installed (see build.latest)."
+  "DONE 2026-09-30T02:55+09:00 (work/textpass_20260930.py): ※ restored in k_o_koopa_08 #9 #11, b_sys #670 #1546; うちけし -> 스킬 지우기 in b_sys #12 #208 #238 #239 #273 #293 #1008 #1055 #1134 #1847 (+dup #1556), verb forms #225 '지워 버렸다', #495 'N마리의 스킬을 지웠다!', #510 'N명의 스킬이 지워졌다!', #528 '스킬을 지우지 못했다!', #1450 '되도록 지우고 싶다'; ころび -> 꽈당 in b_sys#179 (+dup Menu#81); サンダー 선더 in #195 (+dup #477) #969 #990; ドッスンおとし 쿵쿵 떨어트리기 in #600 (+dup #1475); 4 glossary rows. Installed (see build.latest).",
+  "DONE2026-10-06: Menu#731 ※New 닌텐도3DS전용 marker restored; all3 installed message fonts rebuilt byte-identically and all1254usedchars covered. Direct1DX copies remain pixel/Hangul-width identical;5 last-resort Hangul 몫쬔췄핥휩 remain documented. Staffroll6newHangul direct1DX verified."
  ],
  "next": [
-  "USER: Azahar test of the full patch (Msg + fonts + Lyt + Obj + HB + FMdl + Staffroll): title screen and file select (logos), first dialogue, menus and shops, battle command blocks and status names, Bowser Jr. RPG menus and skill list, giant battles (our LZH8 archives must load), staff roll; report anything cut off, overlapping or unreadable",
+  "USER: Remaining full-patch checks: file select, first dialogue, menus/shops, battle command blocks/status names, Bowser Jr. RPG, giant battles and staff roll. Intro assembly and main title verified directly in Azahar 2026-10-08.",
   "later: logo refinements if wanted (review_items last entry)",
-  "still open: in-game review_items, the 「후리가나 표시」 setting label (font_phase), make_batches ref gaps (only before any batch regeneration)"
+  "still open: in-game review_items, make_batches ref gaps (only before any batch regeneration)"
  ],
  "wave2": {
   "assignment": "work/batches/_assign_round2.json (13 translators W01-W13, 42 batches, 2,744 messages)",
@@ -326,7 +337,10 @@
    "term review f3678bee": "redone in the cloud: work/review/kj_1dx_terms.md/.tsv"
   }
  },
- "review_items_closed": "2026-09-30 cloud: 26 of the 38 items closed from text (JP/DS/1DX + the R01-R13 notes) and the text parts of the rest; list with reasons in work/review/review_items_cloud.md. Enemy names でかテレサ/ブル/Fテクテクパックン confirmed by 1DX b_sys mon_name_216/200/217; バサバサ=스우푸 is not in 1DX (kept). No translation changed for this.",
+ "review_items_closed": [
+  "2026-09-30 cloud: 26 of the 38 items closed from text (JP/DS/1DX + the R01-R13 notes) and the text parts of the rest; list with reasons in work/review/review_items_cloud.md. Enemy names でかテレサ/ブル/Fテクテクパックン confirmed by 1DX b_sys mon_name_216/200/217; バサバサ=스우푸 is not in 1DX (kept). No translation changed for this.",
+  "2026-10-08: Intro Mario/&/Luigi alignment and main-title ru/ji contours verified directly in Azahar v1.2 via Codex built-in Computer Use; see logo_runtime_fix_20261008/REPORT.md."
+ ],
  "cloud_20260930": {
   "term_review": "work/review/kj_1dx_terms.md/.tsv (108 rows: A switch 15, G amiibo standard messages 5, K keep 10, C confirmed by 1DX 61, N not in 1DX 17). User approved terms/spacing/amiibo, kept 챌린지.",
   "review_items": "work/review/review_items_cloud.md (26 closed, 12 in-game remain in review_items).",
@@ -345,5 +359,1358 @@
   "overview": "all 178 layout textures viewed at 1-2x (4 pages); one broken word: btn_KJ_BSTART 배틀 시작 (1DX em-11 picture enlarged to em 16 filled the counters of 틀/배) -> redrawn with the family font (stroke 0.97); its pixel twin SLyt COLISEUM btn_MINGAME_BSTART follows",
   "combined_build": "build_lyt --out work/build/lyt_stage_A: 178 textures, 258 copies, 0 errors, 0 warnings (all groups' PNGs)",
   "logo_sheet": "work/img/review/I4_logo_approval.png (title logo, both file-select logos, 게임 시작) for the user"
+ },
+ "audit_20261006": {
+  "status": "file_audit_complete; in_game_checks_pending",
+  "report": "work/review/audit_20261006/REPORT.md",
+  "game_checks": "work/review/audit_20261006/GAME_CHECKS.md",
+  "batches": 130,
+  "representatives": 8090,
+  "duplicate_links": 1527,
+  "merged_ids": 9617,
+  "original_messages": 9623,
+  "tag_only_originals": [
+   "BMsg/b_sys#518",
+   "FMsg/i_kinopio_01#24",
+   "FMsg/i_power_nose_01#6",
+   "FMsg/i_power_nose_SA_peppansy_01_L#6",
+   "Item#229",
+   "Menu#611"
+  ],
+  "changed_representatives": 54,
+  "changed_final_ids": 56,
+  "changed_batch_files": [
+   "BMsg__b_sys__p5",
+   "BMsg__b_sys__p7",
+   "BMsg__b_sys__p8",
+   "FMsg__i_energy_01__and11",
+   "FMsg__i_metaboru_19",
+   "FMsg__o_ekubon_02__and7",
+   "FMsg__o_gepu_08__and1",
+   "FMsg__o_koopa_09_2_gerashow_01_U__and3",
+   "FMsg__o_koopa_13_2__and4",
+   "FMsg__o_mushiba_01__and7",
+   "FMsg__o_peach_1f_03__and3",
+   "FMsg__o_zutsuda_01__and9",
+   "HugeBattle__p1",
+   "HugeBattle__p2",
+   "Menu__p2",
+   "Menu__p3",
+   "Menu__p5"
+  ],
+  "automatic_errors": 0,
+  "technical_issues": 0,
+  "japanese_message_residue": 0,
+  "manual_scope": "5220 representative JP/KO texts directly compared (4757 KJ/BMsg/menus +463 field DS differences);2870 DS-identical field texts automatically aligned with direct samples and complete interior-spacing audit. All8090 batch representatives+1527copies covered. Known text-bearing replacement art and localized kept art directly viewed; do not claim every non-text texture or every scene replayed.",
+  "fonts": {
+   "used_chars": 1254,
+   "used_hangul": 1161,
+   "all_three_cover_required": true,
+   "donor_pixels_and_hangul_widths_match": true,
+   "fallback_hangul": "몫쬔췄핥휩"
+  },
+  "images": {
+   "lyt_unique_replacements": 178,
+   "lyt_replacement_copies": 258,
+   "lyt_kept_directly_reviewed": 48,
+   "obj_replacement_regions": 125,
+   "fmdl_inputs": 5,
+   "hb_input_images": 20,
+   "hb_replacement_copies": 25,
+   "particle_base_textures": 87,
+   "particle_extra_mips": 7,
+   "particle_full_texture_region_accounted": true,
+   "particle_text_found": false
+  },
+  "remaining_japanese_art": {
+   "resource": "Obj/JP/Menu.dat:m_item_ev_all",
+   "unique_japanese_images": 6,
+   "representative_frames": [
+    22,
+    24,
+    26,
+    28,
+    30,
+    34
+   ],
+   "paired_odd_frames_share_pixels": true,
+   "actual_exposure": "not_confirmed; resource code and corresponding item texts exist",
+   "numeric_only_images": 5
+  },
+  "unconfirmed_wording": [
+   {
+    "id": "FMsg/i_metaboru_06#43",
+    "issue": "ボケーッとしてきた as 멍청해졌다; quiz distractor/function versus literal meaning"
+   },
+   {
+    "id": "FMsg/i_energy_32#19",
+    "issue": "失笑 as 코웃음; surrounding sarcasm versus involuntary laugh. DS110#8 correspondence verified."
+   }
+  ],
+  "glossary_evidence": "トゲダメージ=가시 대미지 basis official,1DX BMsg:k_sys#223 (+#32/#766), persisted in overrides; Korean term unchanged",
+  "reference_gap": "HugeBattle SOURCE_DS misses BAI__BMes_yo table2; field MAX_REF_LINES400 truncates refs. Audit used complete originals and documented fixes; generator code unchanged.",
+  "install": {
+   "changed_patch_files": [
+    "FMsg.dat",
+    "BMsg.dat",
+    "Menu.msbt",
+    "HugeBattle.msbt"
+   ],
+   "all_message_hashes": {
+    "FMsg.dat": "1866f9b55ddc311e493158a9bb9a610b8165e31b6633254a0d15aac0f7b7ba08",
+    "BMsg.dat": "e27f8f950bee012960b63a67a66c8e835985b0feafa6bb275ee81ff81a04ec6c",
+    "Item.msbt": "b037d8a580621394c2cc6b75ba09fb36a7292d638ce075f35aded6abd49143b2",
+    "Menu.msbt": "bd3e4866cdc83fb2f73852697a6e22fb8571ac2cdf591850ab5fdc5e523c0554",
+    "MenuKJ.msbt": "60e666cc6b8d2f3d6d5c97a4d6ee4a9ec004ea8c5327b82522fcbd325eac721e",
+    "HugeBattle.msbt": "584f5728f35b282d486c79d9d984fff869c26b1e574eaecee18a28f9c60a6331",
+    "InitLoad.msbt": "a8e1c7b9a00ac0cde86c3c2c52f2b5fd4cefa207d652643464daaf7a1b4d75ab",
+    "font.bffnt": "461125b999e098fcdb9a746ea7fdd8de2b90d25bc7360f0f2f71a58bf4209941",
+    "font_l.bffnt": "e18dc2b62212a010c7b549e3ea19a42983e5398eef56dc7c6ab5893d4ce72a5a",
+    "font_btl.bffnt": "874281604410fbb00acfb1d9c09d35128d8ab399f123e8726840ee92ba117681"
+   },
+   "azahar_junction_matches": true,
+   "distribution_changed": [
+    "Msg/JP_ja/BMsg.dat",
+    "Msg/JP_ja/FMsg.dat",
+    "Msg/JP_ja/HugeBattle.msbt",
+    "Msg/JP_ja/Menu.msbt"
+   ],
+   "zip_members_updated": [
+    "luma/titles/00040000001CA900/romfs/Msg/JP_ja/BMsg.dat",
+    "luma/titles/00040000001CA900/romfs/Msg/JP_ja/FMsg.dat",
+    "luma/titles/00040000001CA900/romfs/Msg/JP_ja/HugeBattle.msbt",
+    "luma/titles/00040000001CA900/romfs/Msg/JP_ja/Menu.msbt"
+   ],
+   "zip_crc_check": "PASS",
+   "all_package_patch_bytes_match": true,
+   "previous_files": "C:\\AI-Projects\\mario-luigi-rpg-3dx-korean-patch\\work\\build\\prev_msg_before_audit_20261006"
+  },
+  "source_files_modified": false,
+  "azahar_launched": false,
+  "timestamp": "2026-10-06T16:43:59+09:00",
+  "unconfirmed_wording_disposition": "2026-10-07 user decided to retain both current expressions",
+  "temporary_item_image_disposition": "2026-10-07 user decided to retain previous handling"
+ },
+ "followup_20261007": {
+  "date": "2026-10-07",
+  "user_decisions": {
+   "execution": "main agent directly completed resumed work; no subagents used after the latest instruction",
+   "ss_company_names": {
+    "スーリム": "슬림",
+    "キュット": "큐티",
+    "ムチオ": "마초",
+    "スーさん": "슬림씨"
+   },
+   "wording_candidates": "retain current translation; no further expression change requested",
+   "six_temporary_item_images": "retain previous handling; actual exposure not claimed verified",
+   "furigana": "remove unnecessary Korean-output furigana and its settings entry",
+   "speech": "recurring characters use official Korean examples; original characters follow established character traits; identical DS lines remain DS"
+  },
+  "changed_merged_messages": 42,
+  "merged_messages": 9617,
+  "batches": 130,
+  "merge_errors": 0,
+  "ss_name_changes": 29,
+  "furigana": {
+   "build": "work/review/followup_20261007/furigana_build.json",
+   "verification": "work/review/followup_20261007/furigana_verify.json",
+   "report": "work/review/followup_20261007/furigana.md",
+   "runtime_verified": false
+  },
+  "report": "work/review/followup_20261007/REPORT.md",
+  "speech_reports": [
+   "work/review/followup_20261007/main_speech.md",
+   "work/review/followup_20261007/kj_speech.md"
+  ],
+  "install": {
+   "changed_patch_files": [
+    "Msg/JP_ja/BMsg.dat",
+    "Msg/JP_ja/FMsg.dat",
+    ".crr/static.crr",
+    "RO/MainMenu.cro"
+   ],
+   "stage_patch_junction_match": true,
+   "sd_and_zip_match": true,
+   "backup": "C:\\AI-Projects\\mario-luigi-rpg-3dx-korean-patch\\work\\build\\prev_followup_20261007"
+  },
+  "technical": {
+   "issues": []
+  },
+  "azahar_launched": false,
+  "timestamp": "2026-10-07T13:47:42.072676+09:00"
+ },
+ "intro_fix_20261008": {
+  "report": "work/img/intro_fix_20261008/REPORT.md",
+  "recipe": "work/img/fmdl_geometry_patches.json",
+  "preview": "work/img/intro_fix_20261008/assembly_verified.png",
+  "verification": [
+   "work/img/intro_fix_20261008/archive_verify.json",
+   "work/img/intro_fix_20261008/geometry_verify.json",
+   "work/img/intro_fix_20261008/preview_metrics.json"
+  ],
+  "install": {
+   "changed_patch_files": [
+    "FMdl/JP/FMdl.dat"
+   ],
+   "stage_patch_junction_match": true,
+   "all_sd_and_zip_files_match": true,
+   "zip_crc_check": "PASS",
+   "backup": "C:\\AI-Projects\\mario-luigi-rpg-3dx-korean-patch\\work\\build\\prev_intro_fix_20261008",
+   "fmdl_sha256": "4f7c4210672c0478cacb33c368e90e3e3ee344b8b283e8508763540b3cde0ab1",
+   "zip_sha256": "8ad1618534937b6b821cb0a7408ea4d2ab2b6850e14b38c4afc39bc00f3416e5",
+   "azahar_launched": false,
+   "runtime_verified": false
+  },
+  "runtime_verified": false,
+  "subagents_used": false,
+  "timestamp": "2026-10-08T12:07:13.484437+09:00"
+ },
+ "title_layout_20261008": {
+  "report": "work/img/title_layout_20261008/REPORT.md",
+  "recipe": "work/img/title_layout_20261008/build_title.py",
+  "preview": "work/img/title_layout_20261008/title_before_after.png",
+  "reference": "user-supplied 1DX Korean title screenshot; official extracted 1DX glyph masks",
+  "install": {
+   "changed_patch_files": [
+    "FMdl/JP/FMdl.dat"
+   ],
+   "stage_patch_junction_match": true,
+   "all_sd_and_zip_files_match": true,
+   "zip_crc_check": "PASS",
+   "backup": "C:\\AI-Projects\\mario-luigi-rpg-3dx-korean-patch\\work\\build\\prev_title_layout_20261008",
+   "fmdl_sha256": "19b7eb8bae312a2e0b56f16ff73a058b745fdeb7c071d892ca87d3f9c11dc4af",
+   "zip_sha256": "34cfadda6cb2428336d0dce702964d555202d79b1d6b835b2006a57bf6dc1938",
+   "azahar_launched": false,
+   "runtime_verified": false
+  },
+  "runtime_verified": false,
+  "subagents_used": false,
+  "timestamp": "2026-10-08T12:31:24.448322+09:00"
+ },
+ "title_silhouettes_20261008": {
+  "report": "work/img/title_silhouettes_20261008/REPORT.md",
+  "preview": "work/img/title_silhouettes_20261008/title_before_after.png",
+  "positions": {
+   "mario": "리",
+   "luigi": "오"
+  },
+  "install": {
+   "changed_patch_files": [
+    "FMdl/JP/FMdl.dat"
+   ],
+   "stage_patch_junction_match": true,
+   "all_sd_and_zip_files_match": true,
+   "zip_crc_check": "PASS",
+   "backup": "C:\\AI-Projects\\mario-luigi-rpg-3dx-korean-patch\\work\\build\\prev_title_silhouettes_20261008",
+   "fmdl_sha256": "8c9e609f3446d7fecfd444303e6ad661f59c35ce6d615ed210f19376cd9bbcb4",
+   "zip_sha256": "cad107350cf81ac13a5be2ccdcec54022391bae8b6ba10b260f71ea4b245b468",
+   "azahar_launched": false,
+   "runtime_verified": false
+  },
+  "runtime_verified": false,
+  "subagents_used": false,
+  "timestamp": "2026-10-08T12:38:04.832841+09:00"
+ },
+ "title_1dx_shapes_20261008": {
+  "report": "work/img/title_1dx_shapes_20261008/REPORT.md",
+  "preview": "work/img/title_1dx_shapes_20261008/title_before_after.png",
+  "intro_preview": "work/img/title_1dx_shapes_20261008/intro_before_after.png",
+  "donor": "work/img/logo/src/1DX/kr_logo_rgba.png",
+  "donor_layout": "work/img/title_1dx_shapes_20261008/donor_layout.py",
+  "glyphs": [
+   "마",
+   "리",
+   "오",
+   "&",
+   "루",
+   "이",
+   "지"
+  ],
+  "uniform_scale": 0.9095092024539877,
+  "donor_relative_positions_preserved": true,
+  "stroke_growth": 0,
+  "stem_redesign": false,
+  "material": "3DX measured face/extrusion gradients, gloss, navy outline and glow",
+  "silhouette_positions": {
+   "mario": "리",
+   "luigi": "오"
+  },
+  "dx_deluxe_pixels_preserved": true,
+  "verification": [
+   "work/img/title_1dx_shapes_20261008/shape_verify.json",
+   "work/img/title_1dx_shapes_20261008/build_verify.json",
+   "work/img/title_1dx_shapes_20261008/intro_preview_verify.json"
+  ],
+  "install": {
+   "changed_patch_files": [
+    "FMdl/JP/FMdl.dat"
+   ],
+   "changed_title_textures": [
+    "title_logo_and_JP",
+    "title_logo_JP_bottom",
+    "title_logo_JP_top"
+   ],
+   "stage_patch_junction_match": true,
+   "all_sd_and_zip_files_match": true,
+   "checked_patch_files": 36,
+   "zip_crc_check": "PASS",
+   "backup": "C:\\AI-Projects\\mario-luigi-rpg-3dx-korean-patch\\work\\build\\prev_title_1dx_shapes_20261008",
+   "fmdl_sha256": "fcc503f1896f6f34580692db499d5efd7ad03f4a034b508d3d0b72f95cd5ce2c",
+   "zip_sha256": "bf31fed22849bf645070283eb92cb95e255a1ae397bcf8e983719a42f5fa88a3",
+   "source_files_modified": false,
+   "azahar_launched": false,
+   "runtime_verified": false
+  },
+  "runtime_verified": false,
+  "subagents_used": false,
+  "timestamp": "2026-10-08T13:54:07.080256+09:00"
+ },
+ "title_lower_shading_20261008": {
+  "report": "work/img/title_lower_shading_20261008/REPORT.md",
+  "recipe": "work/img/title_lower_shading_20261008/material.py",
+  "preview": "work/img/title_lower_shading_20261008/title_before_after.png",
+  "stem_preview": "work/img/title_lower_shading_20261008/stem_before_after.png",
+  "underside_preview": "work/img/title_lower_shading_20261008/underside_before_after.png",
+  "stem_reference": "work/img/title_lower_shading_20261008/ref/luigi_stem.png",
+  "stem_change": "rounded cap added to ji; color and gloss remain 3DX",
+  "underside_shape_and_pattern": "actual 1DX contour and 2D light pattern",
+  "underside_palette": "measured Japanese 3DX gradients",
+  "positions_unchanged": true,
+  "install": {
+   "changed_patch_files": [
+    "FMdl/JP/FMdl.dat"
+   ],
+   "changed_title_textures": [
+    "title_logo_JP_bottom"
+   ],
+   "stage_patch_junction_match": true,
+   "all_sd_and_zip_files_match": true,
+   "checked_patch_files": 36,
+   "zip_crc_check": "PASS",
+   "sd_install_method": "same-directory atomic replacement after retry",
+   "backup": "C:\\AI-Projects\\mario-luigi-rpg-3dx-korean-patch\\work\\build\\prev_title_lower_shading_20261008",
+   "fmdl_sha256": "6fb2b50bd8ef259ace157a4c623de3e808a14c0d7b604c00d4d3ed353eb63119",
+   "zip_sha256": "3f7e63b4cddb9af5f122529eab221e72de63e491ca16be755ebc1d1025a4b396",
+   "source_files_modified": false,
+   "azahar_launched": false,
+   "runtime_verified": false
+  },
+  "runtime_verified": false,
+  "subagents_used": false,
+  "timestamp": "2026-10-08T14:18:04.506696+09:00",
+  "superseded_by": "logo_assembly_contours_20261008"
+ },
+ "logo_assembly_contours_20261008": {
+  "status": "title fixes accepted; intro recipe superseded after actual-game texture-row direction correction",
+  "report": "work/img/logo_assembly_contours_20261008/REPORT.md",
+  "intro_recipe": "work/img/logo_assembly_contours_20261008/build_intro.py",
+  "intro_preview": "work/img/logo_assembly_contours_20261008/intro_fix_preview.png",
+  "contour_preview": "work/img/logo_assembly_contours_20261008/title_details_before_after.png",
+  "main_title_face_masks_and_silhouettes_unchanged": true,
+  "original_mesh_commands_restored": true,
+  "animation_checks": {
+   "assembled_frames_checked": 160,
+   "full_animation_frames_checked": 371,
+   "max_assembly_baseline_difference_world": 0.08635289233544086,
+   "assembly_face_overlap_mario_amp": 0,
+   "assembly_face_overlap_luigi_amp": 0,
+   "attached_and_assembled_relative_positions_match": true,
+   "runtime_verified": false,
+   "projection_valid_for_actual_alignment": false
+  },
+  "install": {
+   "changed_patch_files": [
+    "FMdl/JP/FMdl.dat"
+   ],
+   "changed_title_textures": [
+    "title_logo_and_JP",
+    "title_logo_JP_bottom",
+    "title_logo_L_JP",
+    "title_logo_M_JP"
+   ],
+   "original_intro_coordinates_restored": true,
+   "animation_data_unchanged": true,
+   "stage_patch_junction_match": true,
+   "all_sd_and_zip_files_match": true,
+   "checked_patch_files": 36,
+   "zip_crc_check": "PASS",
+   "backup": "C:\\AI-Projects\\mario-luigi-rpg-3dx-korean-patch\\work\\build\\prev_logo_assembly_contours_20261008",
+   "fmdl_sha256": "f90441b674466bbd50c74a63e7ddcb61ffb13849a24d03bf40cb3fcb9704e3db",
+   "zip_sha256": "366bb7fe35bc2bf85d809830883e35d3004c443ac971c32bfca20ac6952e3a09",
+   "source_files_modified": false,
+   "azahar_launched": false,
+   "runtime_verified": false
+  },
+  "default_stage_matches_installed": true,
+  "superseded_by": "logo_runtime_fix_20261008"
+ },
+ "logo_runtime_fix_20261008": {
+  "status": "complete; installed; verified in actual Azahar game via Codex built-in Computer Use",
+  "report": "work/img/logo_runtime_fix_20261008/REPORT.md",
+  "intro_recipe": "work/img/logo_runtime_fix_20261008/build_intro.py",
+  "runtime_comparison": "work/img/logo_runtime_fix_20261008/runtime_before_after.png",
+  "runtime": {
+   "timestamp": "2026-10-08T16:24:12.479655+09:00",
+   "method": "Codex built-in computer-use @oai/sky in node_repl",
+   "azahar_version": "2126.1.2",
+   "game_update": "v1.2 visible on title screen",
+   "before_problem_reproduced": true,
+   "after_assembly_alignment_verified": true,
+   "held_assembly_and_attached_ampersand_verified": true,
+   "original_separation_and_rotation_observed": true,
+   "main_title_verified": true,
+   "runtime_verified": true,
+   "subagents_used": false,
+   "orca_used_this_run": false,
+   "native_input_scripts_used": false,
+   "screenshots": [
+    "runtime_before.png",
+    "runtime_after_assembly.png",
+    "runtime_after_title.png"
+   ],
+   "sequence": "runtime_sequence.json",
+   "fmdl_sha256": "2d7819214886f6e973810940ff69f4096c254cd8da30381983e52ac519cefcad"
+  },
+  "install": {
+   "changed_patch_files": [
+    "FMdl/JP/FMdl.dat"
+   ],
+   "changed_title_textures": [
+    "title_logo_and_JP"
+   ],
+   "stage_patch_junction_match": true,
+   "all_sd_and_zip_files_match": true,
+   "default_stage_matches_installed": true,
+   "checked_patch_files": 36,
+   "zip_crc_check": "PASS",
+   "backup": "C:\\AI-Projects\\mario-luigi-rpg-3dx-korean-patch\\work\\build\\prev_logo_runtime_fix_20261008",
+   "fmdl_sha256": "2d7819214886f6e973810940ff69f4096c254cd8da30381983e52ac519cefcad",
+   "zip_sha256": "428da773908cad063ab94c7343efcf9150d920fe6d84a0981e4a162bb4531450",
+   "source_files_modified": false,
+   "azahar_launched": true,
+   "runtime_verified": true
+  },
+  "timestamp": "2026-10-08T16:26:18.049109+09:00",
+  "previous_connection_attempt": {
+   "status": "awaiting Codex built-in Computer Use runtime connection; intro unresolved",
+   "report": "work/img/logo_runtime_fix_20261008/CONNECTION_STATUS.md",
+   "user_issue": "work/img/logo_runtime_fix_20261008/user_issue.png",
+   "computer_use_error": "Windows Computer Use Sky runtime is unavailable",
+   "runtime_reinitialized": true,
+   "game_started": false,
+   "installed_patch_changed": false,
+   "allowed_gui_method": "Codex built-in computer-use only; no Orca/native-script substitute"
+  },
+  "subagents_used": false
+ },
+ "fileload_logo_20261008": {
+  "status": "complete; installed; verified in actual Azahar game via Codex built-in Computer Use",
+  "report": "work/img/fileload_logo_20261008/REPORT.md",
+  "recipe": "work/img/fileload_logo_20261008/build_fileload.py",
+  "runtime_comparison": "work/img/fileload_logo_20261008/runtime_before_after.png",
+  "runtime": {
+   "timestamp": "2026-10-08T16:51:06+09:00",
+   "method": "Codex built-in computer-use @oai/sky in node_repl",
+   "azahar_version": "2126.1.2",
+   "game_update": "v1.2 visible on title screen",
+   "screen": "slot 1 / game mode selection / Mario & Luigi RPG3 illustration",
+   "runtime_verified": true,
+   "latest_1DX_word_and_amp_shape_visible": true,
+   "no_visible_texture_split_seam": true,
+   "no_letter_clipping": true,
+   "character_art_and_number3_preserved": true,
+   "navigation": "game start, slot 1, start button via built-in Computer Use touch drag/double-click",
+   "native_screenshot": "Mario & Luigi Bowser's Inside…_08.10.26_16.51.06.774.png",
+   "screenshots": [
+    "runtime_before.png",
+    "runtime_after.png"
+   ],
+   "input_settings": {
+    "original_profile": "Default",
+    "qa_profile_created": "Codex Logo QA",
+    "qa_profile_mapping": "built-in keyboard defaults",
+    "original_gamepad_profile_restored": true,
+    "qa_profile_retained_inactive": true,
+    "original_Default_mapping_preserved": true
+   },
+   "emulation_stopped_normally_after_verification": true,
+   "subagents_used": false,
+   "orca_used": false,
+   "native_input_scripts_used": false,
+   "MLyt_sha256": "0e6519193d9b62d4951bee9b3f2fa02f6e0c3cea81b1ab4551223da3ff698f26",
+   "FMdl_unchanged_sha256": "2d7819214886f6e973810940ff69f4096c254cd8da30381983e52ac519cefcad"
+  },
+  "install": {
+   "changed_patch_files": [
+    "Lyt/JP/MLyt.dat"
+   ],
+   "changed_texture_copies": [
+    "MENU_FILE_LOAD_JP_ja/timg/LOAD_GAME_IMG_ML_L_00_JP_ja.bflim",
+    "MENU_FILE_LOAD_JP_ja/timg/LOAD_GAME_IMG_ML_R_00_JP_ja.bflim"
+   ],
+   "all_patch_junction_sd_zip_files_match": true,
+   "checked_patch_files": 36,
+   "zip_crc_check": "PASS",
+   "MLyt_sha256": "0e6519193d9b62d4951bee9b3f2fa02f6e0c3cea81b1ab4551223da3ff698f26",
+   "zip_sha256": "a23f3090f53a183596a3f7a7258505721e96f236c200b8630e6f3f3566d03498",
+   "FMdl_unchanged": true,
+   "backup": "C:\\AI-Projects\\mario-luigi-rpg-3dx-korean-patch\\work\\build\\prev_fileload_logo_20261008",
+   "source_files_modified": false,
+   "runtime_verified": true
+  },
+  "subagents_used": false,
+  "timestamp": "2026-10-08T16:55:19.175945+09:00",
+  "contour_followup": "fileload_outline_fix_20261008"
+ },
+ "fileload_outline_fix_20261008": {
+  "status": "complete; installed; verified in actual Azahar game via Codex built-in Computer Use",
+  "timestamp": "2026-10-08T17:24:40.255652+09:00",
+  "report": "work/img/fileload_outline_fix_20261008/REPORT.md",
+  "recipe": "work/img/fileload_logo_20261008/build_fileload.py",
+  "runtime_comparison": "work/img/fileload_outline_fix_20261008/runtime_detail_before_after.png",
+  "art": {
+   "change_bounds": [
+    289,
+    24,
+    310,
+    84
+   ],
+   "changed_RGB565_pixels": 203,
+   "left_texture_and_hangul_amp_art_unchanged": true,
+   "characters_and_right_number_face_art_unchanged": true,
+   "no_isolated_white_specks_at_join": true
+  },
+  "build": {
+   "changed_texture_copies": [
+    "MENU_FILE_LOAD_JP_ja/timg/LOAD_GAME_IMG_ML_R_00_JP_ja.bflim"
+   ],
+   "only_ML_right_texture_changed": true,
+   "all_other_SARC_files_and_archive_entries_unchanged": true,
+   "layouts_animations_character_art_and_KJ_logo_unchanged": true,
+   "decoded_RGB565_matches_inputs": true,
+   "before_sha256": "0e6519193d9b62d4951bee9b3f2fa02f6e0c3cea81b1ab4551223da3ff698f26",
+   "after_sha256": "e389a915a35ad6484262d3b763bb83c123cd620f37bb8616e0748c72b20abbb7"
+  },
+  "runtime": {
+   "timestamp": "2026-10-08T17:21:36.201+09:00",
+   "method": "Codex built-in computer-use @oai/sky in node_repl",
+   "azahar_version": "2126.1.2",
+   "game_update": "v1.2 visible on title screen",
+   "screen": "slot 1 / game mode selection / Mario & Luigi RPG3 illustration",
+   "runtime_verified": true,
+   "no_angular_white_cut_at_G_number3_join": true,
+   "no_isolated_white_speck_at_join": true,
+   "rounded_continuous_outline_visible": true,
+   "RPG_and_number3_front_colors_and_gloss_preserved": true,
+   "navigation": "game start, slot 1, start button via built-in Computer Use touch drag/double-click",
+   "native_screenshot": "Mario & Luigi Bowser's Inside…_08.10.26_17.21.36.201.png",
+   "screenshots": [
+    "runtime_before.png",
+    "runtime_after.png"
+   ],
+   "input_settings_modified_this_run": false,
+   "emulation_not_running_during_trial_install": true,
+   "emulation_stopped_normally_with_F5_after_verification": true,
+   "save_data_deleted_copied_or_gameplay_started": false,
+   "subagents_used": false,
+   "orca_used": false,
+   "native_input_scripts_used": false,
+   "MLyt_sha256": "e389a915a35ad6484262d3b763bb83c123cd620f37bb8616e0748c72b20abbb7",
+   "FMdl_unchanged_sha256": "2d7819214886f6e973810940ff69f4096c254cd8da30381983e52ac519cefcad"
+  },
+  "install": {
+   "changed_patch_files": [
+    "Lyt/JP/MLyt.dat"
+   ],
+   "changed_texture_copies": [
+    "MENU_FILE_LOAD_JP_ja/timg/LOAD_GAME_IMG_ML_R_00_JP_ja.bflim"
+   ],
+   "all_patch_junction_sd_zip_files_match": true,
+   "checked_patch_files": 36,
+   "zip_crc_check": "PASS",
+   "MLyt_sha256": "e389a915a35ad6484262d3b763bb83c123cd620f37bb8616e0748c72b20abbb7",
+   "zip_sha256": "208ef79237e749794f3342a91555bb3a17e563467a82f76d90bdcf7894ffbae4",
+   "FMdl_unchanged": true,
+   "backup": "C:\\AI-Projects\\mario-luigi-rpg-3dx-korean-patch\\work\\build\\prev_fileload_outline_fix_20261008",
+   "source_files_modified": false,
+   "runtime_verified": true
+  },
+  "subagents_used": false
+ },
+ "kj_parts_20261009": {
+  "status": "completed independent asset extraction; final logo composition is the next step",
+  "report": "work/img/kj_parts_20261009/README.md",
+  "manifest": "work/img/kj_parts_20261009/manifest.json",
+  "extraction": {
+   "document_session_uuid": "D3C1D10D-8D76-491A-8926-7F1C2E57CDAD",
+   "source": "original.png",
+   "assets": [
+    {
+     "name": "R_clean",
+     "bounds": [
+      201,
+      140,
+      261,
+      203
+     ],
+     "size": [
+      60,
+      63
+     ],
+     "restored_pixels": 266,
+     "preserved_pixels": 2166,
+     "fractional_alpha_pixels": 234,
+     "opaque_white_interior_pixels": 0
+    },
+    {
+     "name": "wind_top",
+     "bounds": [
+      49,
+      127,
+      89,
+      157
+     ],
+     "size": [
+      40,
+      30
+     ],
+     "restored_pixels": 49,
+     "preserved_pixels": 612,
+     "fractional_alpha_pixels": 132,
+     "opaque_white_interior_pixels": 292
+    },
+    {
+     "name": "wind_bottom",
+     "bounds": [
+      202,
+      187,
+      223,
+      208
+     ],
+     "size": [
+      21,
+      21
+     ],
+     "restored_pixels": 74,
+     "preserved_pixels": 167,
+     "fractional_alpha_pixels": 66,
+     "opaque_white_interior_pixels": 98
+    }
+   ],
+   "original_OA_document_untouched": true,
+   "patch_installed": false,
+   "completed_date": "2026-10-10",
+   "method": "Affinity MCP native Bitmap / PixelReaderWriterRGBA8 / PNG export",
+   "generative_recreation_used": false,
+   "subagents_used": false
+  },
+  "verify": {
+   "proof_document_uuid": "08451BD2-E4FC-4F12-8C38-3A0E3B4C1A7B",
+   "checks": [
+    {
+     "name": "R_clean",
+     "size": [
+      60,
+      63
+     ],
+     "origin": [
+      201,
+      140
+     ],
+     "transparent_pixels": 1348,
+     "fractional_alpha_pixels": 234,
+     "opaque_white_interior_pixels": 0,
+     "unmodified_opaque_source_pixels": 2025,
+     "crop_aligned_RGBA_equal": true
+    },
+    {
+     "name": "wind_top",
+     "size": [
+      40,
+      30
+     ],
+     "origin": [
+      49,
+      127
+     ],
+     "transparent_pixels": 539,
+     "fractional_alpha_pixels": 132,
+     "opaque_white_interior_pixels": 292,
+     "unmodified_opaque_source_pixels": 512,
+     "crop_aligned_RGBA_equal": true
+    },
+    {
+     "name": "wind_bottom",
+     "size": [
+      21,
+      21
+     ],
+     "origin": [
+      202,
+      187
+     ],
+     "transparent_pixels": 200,
+     "fractional_alpha_pixels": 66,
+     "opaque_white_interior_pixels": 98,
+     "unmodified_opaque_source_pixels": 129,
+     "crop_aligned_RGBA_equal": true
+    }
+   ],
+   "R_face_colour_and_hatching_preserved": true,
+   "source_OA_document_unchanged": true,
+   "patch_installed": false
+  },
+  "patch_installed": false,
+  "source_OA_document_untouched": true,
+  "subagents_used": false
+ },
+ "kj_assembly_20261010": {
+  "date": "2026-10-10",
+  "status": "assembled, installed and directly verified in Azahar",
+  "assembly": {
+   "word_uniform_scale": 1.18,
+   "word_rotation_delta_degrees": 4.0,
+   "previous_face_bounds": [
+    67.0,
+    156.7583871575817,
+    199.9999969033787,
+    186.8771444040771
+   ],
+   "assembled_face_bounds": [
+    53.45295470935322,
+    165.20226440327517,
+    211.0,
+    197.0
+   ],
+   "glyphs_unchanged_except_uniform_transform": true,
+   "old_geometry_scale": 0.9239418983459472,
+   "new_geometry_scale": 1.0902514400482177,
+   "letter_bounds": {
+    "쿠": [
+     53.45295470935322,
+     165.20226440327517,
+     83.90081613052787,
+     195.8587596867345
+    ],
+    "파": [
+     86.44789325487326,
+     168.45690329337458,
+     118.0534893804651,
+     191.36193539094225
+    ],
+    "주": [
+     120.13143405892978,
+     166.36838701113837,
+     150.99943340600583,
+     197.0
+    ],
+    "니": [
+     151.82372013781637,
+     169.97937900938507,
+     179.6579743934878,
+     192.42929618603713
+    ],
+    "어": [
+     181.8246744486906,
+     170.1592125826978,
+     211.0,
+     192.96370405369015
+    ]
+   },
+   "layer_order": [
+    "plate",
+    "restored R",
+    "upper wind",
+    "Hangul word",
+    "lower wind"
+   ],
+   "top_wind_origin": [
+    36,
+    139
+   ],
+   "bottom_wind_origin": [
+    214,
+    187
+   ],
+   "changed_pixels": 8018,
+   "changed_bbox": [
+    38,
+    138,
+    259,
+    206
+   ],
+   "P_G_and_character_art_unchanged": true,
+   "R_left_strip_word_coverage": {
+    "206,165": 1.0,
+    "207,175": 1.0,
+    "209,193": 1.0,
+    "210,196": 1.0
+   }
+  },
+  "archive": {
+   "changed_texture_copies": [
+    "MENU_FILE_LOAD_JP_ja/timg/LOAD_GAME_IMG_KJ_R_00_JP_ja.bflim",
+    "MENU_FILE_LOAD_JP_ja/timg/LOAD_GAME_IMG_KJ_L_00_JP_ja.bflim"
+   ],
+   "only_two_KJ_textures_changed": true,
+   "all_other_SARC_files_and_archive_entries_unchanged": true,
+   "decoded_RGB565_matches_inputs": true,
+   "before_sha256": "b4838b8b204d922611a9adc5e01b0ca9c42c5008deb78899855f4ab7d03aa0c6",
+   "after_sha256": "cac646cfc32ac2b8dd00cba015724b6df59fcf5b03b19df1aa3a5b11f33fdc69"
+  },
+  "install": {
+   "changed_patch_files": [
+    "Lyt/JP/MLyt.dat"
+   ],
+   "MLyt_sha256": "cac646cfc32ac2b8dd00cba015724b6df59fcf5b03b19df1aa3a5b11f33fdc69",
+   "zip_sha256": "495ce0be41b415e65971cbb6861af6e1a5ac2b63e5d9e38bba06bce3e61f1a88",
+   "checked_files": 36,
+   "backup": "C:\\AI-Projects\\mario-luigi-rpg-3dx-korean-patch\\work\\build\\prev_kj_assembly_20261010"
+  },
+  "runtime": {
+   "method": "Codex built-in computer-use, @oai/sky",
+   "emulator": "Azahar 2126.1.2",
+   "screenshot": "runtime_after.png",
+   "screenshot_source": "Mario & Luigi Bowser's Inside…_10.10.26_00.20.00.511.png",
+   "mode": "쿠파주니어 RPG, file slot 1, mode selection",
+   "observed_R_repairs_hidden_by_Hangul": true,
+   "observed_no_clipping_or_L_R_seam": true,
+   "native_capture_max_channel_difference": 1,
+   "native_capture_mean_channel_difference": 0.034298878205128204,
+   "input_profile_changed": false,
+   "normal_emulation_stop": "F5",
+   "subagents_used": false,
+   "Orca_used": false
+  },
+  "original_OA_Affinity_unchanged": true,
+  "main_title_and_intro_FMdl_unchanged": true,
+  "editable_affinity": "KJ_assembled_20261010.af",
+  "affinity_sha256": "25e463de347ffecdda1e6a6d149f073a4f2f7c92dfe4efbe3de280fe243c42e4",
+  "recipe": "work/img/kj_assembly_20261010/build_assembly.py",
+  "canonical_pipeline": "work/img/logo2/run_all.py",
+  "report": "work/img/kj_assembly_20261010/REPORT.md"
+ },
+ "kj_R_polish_20261010": {
+  "date": "2026-10-10",
+  "status": "R inner face repaired, reassembled, installed and runtime verified",
+  "standalone_R_check": {
+   "R_changed_pixels": 110,
+   "edit_region": [
+    206,
+    164,
+    224,
+    196
+   ],
+   "maroon_pixels_inside_intended_green_face_before": 10,
+   "maroon_pixels_inside_intended_green_face_after": 0,
+   "corrected_face_green_channel_above_145": true,
+   "alpha_and_outer_silhouette_identical": true,
+   "counter_bowl_right_leg_and_unaffected_face_pixels_identical": true,
+   "cropped_and_aligned_RGBA_equal": true
+  },
+  "assembly_check": {
+   "R_asset_changed_pixels": 110,
+   "final_changed_pixels": 25,
+   "final_changed_bbox": [
+    217,
+    180,
+    224,
+    193
+   ],
+   "R_alpha_and_outer_silhouette_identical": true,
+   "Hangul_18_percent_scale_position_material_unchanged": true,
+   "both_wind_images_position_and_pixels_unchanged": true,
+   "P_G_and_character_art_identical": true,
+   "preserved_asset_files": [
+    "vectors.json",
+    "word_render.png",
+    "wind_top.png",
+    "wind_bottom.png"
+   ]
+  },
+  "archive": {
+   "changed_texture_copies": [
+    "MENU_FILE_LOAD_JP_ja/timg/LOAD_GAME_IMG_KJ_R_00_JP_ja.bflim",
+    "MENU_FILE_LOAD_JP_ja/timg/LOAD_GAME_IMG_KJ_L_00_JP_ja.bflim"
+   ],
+   "only_two_KJ_textures_changed": true,
+   "actual_changed_texture_copies": [
+    "MENU_FILE_LOAD_JP_ja/timg/LOAD_GAME_IMG_KJ_R_00_JP_ja.bflim"
+   ],
+   "all_other_SARC_files_and_archive_entries_unchanged": true,
+   "decoded_RGB565_matches_inputs": true,
+   "before_sha256": "cac646cfc32ac2b8dd00cba015724b6df59fcf5b03b19df1aa3a5b11f33fdc69",
+   "after_sha256": "2c0c382189a4737b419bb37e6595855a71962346fcce8c8bece1dc7f5917f374"
+  },
+  "install": {
+   "changed_patch_files": [
+    "Lyt/JP/MLyt.dat"
+   ],
+   "MLyt_sha256": "2c0c382189a4737b419bb37e6595855a71962346fcce8c8bece1dc7f5917f374",
+   "zip_sha256": "a25e5abbbc0b99a8f4e526b70878e456fb028c49f1181e37bf4514ea1b8d7c5b",
+   "checked_files": 36,
+   "backup": "C:\\AI-Projects\\mario-luigi-rpg-3dx-korean-patch\\work\\build\\prev_kj_R_polish_20261010"
+  },
+  "runtime": {
+   "method": "Codex built-in @oai/sky computer-use",
+   "emulator": "Azahar 2126.1.2",
+   "capture": "Mario & Luigi Bowser's Inside…_10.10.26_00.43.23.654.png",
+   "observed_mode": "slot 1, 쿠파주니어 RPG mode selection",
+   "R_fix_applied_without_assembly_shift_or_seam": true,
+   "native_capture_max_channel_difference": 1,
+   "native_capture_mean_channel_difference": 0.034270833333333334,
+   "input_profile_unchanged": true,
+   "normal_stop": "F5",
+   "subagents_used": false,
+   "Orca_used": false
+  },
+  "reference": "user-supplied Korean 1DX 쿠파군단 RPG R: straight stem and clean face/bevel boundary",
+  "colours": "original 3DX yellow-green gradient/hatch; only damaged edge pixels reconstructed",
+  "R_png": "R_clean.png",
+  "R_aligned_png": "R_clean_aligned.png",
+  "R_affinity": "R_refined_20261010.af",
+  "assembly_affinity": "KJ_assembled_R_refined_20261010.af",
+  "R_sha256": "781fd4a261bfd5d8443b2f6e5ccd586beb1fb0d02cd6465e164c7c32bfac5a85",
+  "original_OA_document_and_title_intro_FMdl_identical": true,
+  "recipe": "work/img/kj_R_polish_20261010/build_refined_assembly.py",
+  "report": "work/img/kj_R_polish_20261010/REPORT.md"
+ },
+ "kj_R_touchup_20261010": {
+  "date": "2026-10-10",
+  "status": "second R stem/bottom touch-up installed and runtime verified",
+  "standalone_R_check": {
+   "R_changed_pixels": 300,
+   "R_alpha_and_outer_silhouette_identical": true,
+   "cropped_and_aligned_RGBA_equal": true,
+   "edit_region": [
+    206,
+    154,
+    227,
+    198
+   ],
+   "dark_pixels_inside_widened_stem_before": 16,
+   "dark_pixels_inside_widened_stem_after": 0,
+   "bottom_interior_max_row_colour_step_before": 24.385927691760163,
+   "bottom_interior_max_row_colour_step_after": 6.939975886566356,
+   "supplied_crop_positions": [
+    {
+     "file": "d30a54bc-0364-4df5-9126-a74631d03d23",
+     "size": [
+      10,
+      25
+     ],
+     "proof_crop": [
+      369,
+      197,
+      379,
+      222
+     ],
+     "original_R_region": [
+      210.75,
+      183.25,
+      213.25,
+      189.5
+     ],
+     "RGB_rmse": 0.0
+    },
+    {
+     "file": "81c1edf3-5564-4361-90e0-2e862fdb0c39",
+     "size": [
+      18,
+      97
+     ],
+     "proof_crop": [
+      362,
+      110,
+      380,
+      207
+     ],
+     "original_R_region": [
+      209.0,
+      161.5,
+      213.5,
+      185.75
+     ],
+     "RGB_rmse": 0.0
+    },
+    {
+     "file": "b864b1bd-cad0-4f57-9a43-d38003fc092d",
+     "size": [
+      28,
+      34
+     ],
+     "proof_crop": [
+      383,
+      206,
+      411,
+      240
+     ],
+     "original_R_region": [
+      214.25,
+      185.5,
+      221.25,
+      194.0
+     ],
+     "RGB_rmse": 0.0
+    }
+   ],
+   "visual_review": "Native Affinity proof: remaining stem gaps covered; horizontal pale repair ridge removed"
+  },
+  "assembly_check": {
+   "R_asset_changed_pixels": 300,
+   "final_changed_pixels": 96,
+   "final_changed_bbox": [
+    208,
+    155,
+    227,
+    193
+   ],
+   "R_alpha_and_outer_silhouette_identical": true,
+   "Hangul_18_percent_scale_position_material_unchanged": true,
+   "both_wind_images_position_and_pixels_unchanged": true,
+   "P_G_and_character_art_identical": true,
+   "preserved_asset_files": [
+    "vectors.json",
+    "word_render.png",
+    "wind_top.png",
+    "wind_bottom.png"
+   ]
+  },
+  "archive": {
+   "changed_texture_copies": [
+    "MENU_FILE_LOAD_JP_ja/timg/LOAD_GAME_IMG_KJ_R_00_JP_ja.bflim",
+    "MENU_FILE_LOAD_JP_ja/timg/LOAD_GAME_IMG_KJ_L_00_JP_ja.bflim"
+   ],
+   "only_two_KJ_textures_changed": true,
+   "actual_changed_texture_copies": [
+    "MENU_FILE_LOAD_JP_ja/timg/LOAD_GAME_IMG_KJ_R_00_JP_ja.bflim"
+   ],
+   "all_other_SARC_files_and_archive_entries_unchanged": true,
+   "decoded_RGB565_matches_inputs": true,
+   "before_sha256": "2c0c382189a4737b419bb37e6595855a71962346fcce8c8bece1dc7f5917f374",
+   "after_sha256": "c3acd2cf8c91e813db48b12a2de968893cfeea60290fccb316a4d9942e403bd3"
+  },
+  "install": {
+   "changed_patch_files": [
+    "Lyt/JP/MLyt.dat"
+   ],
+   "MLyt_sha256": "c3acd2cf8c91e813db48b12a2de968893cfeea60290fccb316a4d9942e403bd3",
+   "zip_sha256": "568f0a33457eae514e17ca753881c1eeb110f2570237c97cb947add3a36aeca7",
+   "checked_files": 36,
+   "backup": "C:\\AI-Projects\\mario-luigi-rpg-3dx-korean-patch\\work\\build\\prev_kj_R_touchup_20261010"
+  },
+  "runtime": {
+   "method": "Codex built-in @oai/sky computer-use",
+   "emulator": "Azahar 2126.1.2",
+   "capture": "Mario & Luigi Bowser's Inside…_10.10.26_01.05.39.294.png",
+   "observed_mode": "slot 1, 쿠파주니어 RPG mode selection",
+   "native_capture_max_channel_difference": 1,
+   "native_capture_mean_channel_difference": 0.03424278846153846,
+   "input_profile_unchanged": true,
+   "normal_stop": "F5",
+   "subagents_used": false,
+   "Orca_used": false
+  },
+  "change": "left face widened to cover residual gaps and maroon intrusions; artificial bottom rim removed; surface/hatch continued smoothly",
+  "R_png": "R_clean.png",
+  "R_aligned_png": "R_clean_aligned.png",
+  "R_affinity": "R_touchup_20261010.af",
+  "assembly_affinity": "KJ_assembled_R_touchup_20261010.af",
+  "R_sha256": "f7ff969b9a309b91385b640304f2962fc1914222879d95154c6f4628162a7f64",
+  "original_OA_document_and_title_intro_FMdl_identical": true,
+  "recipe": "work/img/kj_R_touchup_20261010/build_touchup_assembly.py",
+  "report": "work/img/kj_R_touchup_20261010/REPORT.md"
+ },
+ "kj_R_notch_20261010": {
+  "date": "2026-10-10",
+  "status": "R inner notch edge polished, assembled, installed and runtime verified",
+  "R": {
+   "changed_pixels": 100,
+   "changed_bbox": [
+    222,
+    180,
+    235,
+    194
+   ],
+   "alpha_and_aligned_export_identical": true
+  },
+  "assembly": {
+   "R_asset_changed_pixels": 100,
+   "final_changed_pixels": 84,
+   "final_changed_bbox": [
+    223,
+    180,
+    235,
+    194
+   ],
+   "R_alpha_and_outer_silhouette_identical": true,
+   "Hangul_18_percent_scale_position_material_unchanged": true,
+   "both_wind_images_position_and_pixels_unchanged": true,
+   "P_G_and_character_art_identical": true,
+   "preserved_asset_files": [
+    "vectors.json",
+    "word_render.png",
+    "wind_top.png",
+    "wind_bottom.png"
+   ]
+  },
+  "archive": {
+   "changed_texture_copies": [
+    "MENU_FILE_LOAD_JP_ja/timg/LOAD_GAME_IMG_KJ_R_00_JP_ja.bflim",
+    "MENU_FILE_LOAD_JP_ja/timg/LOAD_GAME_IMG_KJ_L_00_JP_ja.bflim"
+   ],
+   "only_two_KJ_textures_changed": true,
+   "actual_changed_texture_copies": [
+    "MENU_FILE_LOAD_JP_ja/timg/LOAD_GAME_IMG_KJ_R_00_JP_ja.bflim"
+   ],
+   "all_other_SARC_files_and_archive_entries_unchanged": true,
+   "decoded_RGB565_matches_inputs": true,
+   "before_sha256": "c3acd2cf8c91e813db48b12a2de968893cfeea60290fccb316a4d9942e403bd3",
+   "after_sha256": "44625133d32b03eab61904736a06d5b078c63505175632eac5b06905359b2149"
+  },
+  "install": {
+   "changed_patch_files": [
+    "Lyt/JP/MLyt.dat"
+   ],
+   "MLyt_sha256": "44625133d32b03eab61904736a06d5b078c63505175632eac5b06905359b2149",
+   "zip_sha256": "6d4112ff29455637f02771f8d0d4b8c8097d391c4eae07e46c975784d53b556e",
+   "checked_files": 36,
+   "backup": "C:\\AI-Projects\\mario-luigi-rpg-3dx-korean-patch\\work\\build\\prev_kj_R_notch_20261010"
+  },
+  "runtime": {
+   "method": "Codex built-in @oai/sky computer-use",
+   "emulator": "Azahar 2126.1.2",
+   "capture": "Mario & Luigi Bowser's Inside…_10.10.26_01.23.09.829.png",
+   "max_channel_difference": 1,
+   "mean_channel_difference": 0.03424679487179487,
+   "input_profile_unchanged": true,
+   "normal_stop": "F5",
+   "subagents_used": false,
+   "Orca_used": false
+  },
+  "recipe": "work/img/kj_R_notch_20261010/build_notch_assembly.py",
+  "R_affinity": "R_notch_20261010.af",
+  "assembly_affinity": "KJ_assembled_R_notch_20261010.af"
+ },
+ "kj_R_recut_20261010": {
+  "date": "2026-10-10",
+  "status": "fresh R material extracted/restored in Affinity; existing installed composition retained",
+  "source_ROM": "C:\\AI-Projects\\mario-luigi-rpg-3dx-korean-patch\\romfs\\Lyt\\JP\\MLyt.dat",
+  "source_ROM_sha256": "bfa702d82de8431db15f0b4f494aa45c47c818cf26ca4aa47e06e2ffd9e9d25c",
+  "fresh_source_not_previous_repaired_R": true,
+  "unchanged_original_face_rim_counter_and_legs_pixels": 1482,
+  "original_cutout_nontransparent_pixels": 1899,
+  "restoration_underlay_pixels": 823,
+  "restoration_only_in_covered_regions": true,
+  "reference": "user-supplied Korean 1DX 쿠파군단 RPG R; silhouette only",
+  "reference_fit": {
+   "parameters": [
+    0.627337716297119,
+    0.6310575335687423,
+    0.22285250356818698,
+    1.268363473052605,
+    1.3237382576243428
+   ],
+   "face_iou": 0.9139504563233377
+  },
+  "layered_composite_max_difference": 7.105427357601002e-15,
+  "aligned_export_exact": true,
+  "R_sha256": "d0afe8abfd8928ed96e27dcaf969bc597559f23a6a8013fa7c665298efd47b9e",
+  "installed_patch_sha256": "cb172fbe843269aa75a675752cdf94a9a6e30d611bc7f4a26931f38330d41664",
+  "distribution_zip_sha256": "beff425ef955f1d3148daf600e971e7647f7d2f17e198da154fdf9b76340c7be",
+  "installed_patch_and_distribution_unchanged": true,
+  "subagents_used": false,
+  "Affinity_documents": [
+   "R_recut_20261010.af",
+   "R_recut_aligned_20261010.af"
+  ],
+  "report": "work/img/kj_R_recut_20261010/REPORT.md"
+ },
+ "kj_logo_natural_20261030": {
+  "date": "2026-10-30",
+  "status": "installed; Azahar check is the user's",
+  "request": "mode-select 쿠파주니어 RPG logo still looked edited; keep Hangul and RPG lettering, remove Japanese remnants on RPG",
+  "finding": "attached final.png = Desktop ml3dx_kj_affinity/final.png (2026-10-09 Claude version, before the 10-10 assembly); its R-left r. traces were already under 어 in the install. Real leftovers in the install: white zigzag between R and P, re-traced R outer edge.",
+  "fix": "plate keeps JP original pixels for R, P, star, clown car; separated R only where Jr./old puff covered it; R stem edge above 어 continues the original slanted line, 67 r-contact pixels replaced",
+  "checks": {
+   "changed_vs_installed": 185,
+   "changed_vs_installed_bbox": [
+    202,
+    143,
+    259,
+    201
+   ],
+   "stem_edge_fit": {
+    "rows": [
+     148,
+     161
+    ],
+    "edge_at_148": 202.945,
+    "edge_at_172": 204.995,
+    "slope_px_per_row": 0.0854,
+    "max_fit_residual": 0.07
+   },
+   "no_Jr_remnant_left_of_stem": true,
+   "visible_R_P_pixels_outside_Z_equal_original": true,
+   "R_P_seam_not_lighter_than_original": true,
+   "fully_covered_pixels_unchanged": true
+  },
+  "MLyt_sha256": "fec2bac8300fd706b392492685621055011abaa34fb8ff4afa0db1ef2e4c62f7",
+  "zip_sha256": "8302096fa55b48815aaff2e2b2669691a18cb28d1e4529fde427ec5991d283ea",
+  "checked_files": 36,
+  "backup": "work/build/prev_kj_logo_natural_20261030",
+  "recipe": "work/img/kj_logo_natural_20261030/build_natural.py",
+  "canonical_pipeline": "work/img/logo2/run_all.py",
+  "report": "work/img/kj_logo_natural_20261030/REPORT.md",
+  "subagents_used": false
+ },
+ "remaining_review_20261030": {
+  "date": "2026-10-30",
+  "status": "review only; no game or patch file changed",
+  "request": "check remaining unfinished work and un-Koreanized remnants",
+  "method": "installed patch files compared with v1.2 originals (not the plans)",
+  "text": {
+   "messages": 9623,
+   "japanese_left": 0,
+   "ruby_tags": 0,
+   "chars_used": 1254,
+   "hangul_used": 1161,
+   "outside_ksx1001": 0,
+   "missing_in_fonts": 0,
+   "batches": "130/130, 0 errors, 184 warnings (181 glossary-not-used, 3 known line-count)",
+   "pipeline": "text/ko merge == work/ko_final.json; build from ko_final == installed 7 message files",
+   "english_kept": "BGM titles Menu#752 #547 Peaceful, #360 #155 Area of dark, #274 #665 The Winner is... (JP uses Latin letters too); b_sys#1215 LV"
+  },
+  "images": {
+   "lyt": "258 copies changed = all 178 planned replacements; 0 unplanned; 47 kept textures are English/symbols; GLyt has no textures",
+   "obj": "17 objects changed = plan",
+   "hb": "12 planned archives installed; get/result_win/value are English only",
+   "fmdl": "fmd_title_JP_ja, fmd_title_start_JP_ja",
+   "staffroll": "only #28 changed; #344 Mario＆LuigiRPG3 kept English like 1DX KR #247"
+  },
+  "japanese_left_in_game_files": [
+   "Obj/JP/Menu.dat m_item_ev_all 6 handwritten placeholder icons (kept by 2026-10-07 user decision; exposure unconfirmed; f000-f021/f032 are finished icons)",
+   "FMdl 8 unreferenced 仮 textures",
+   "HB csv parameter names, HugeBattle.cro debug strings (never shown)"
+  ],
+  "outside_layeredfs": [
+   "exefs/banner CGFX COMMON_jp = Japanese logo on the real-HW HOME 3D banner (only banner, all languages)",
+   "SMDH Japanese title マリオ＆ルイージRPG3 DX on a Japanese-language console (Korean slot holds the English title); icon picture has no text",
+   "Azahar game list shows the SMDH English title; base CIA has no e-manual (content 0 only)"
+  ],
+  "left": "only in-game checks (review_items, GAME_CHECKS.md) and copying the latest SD ZIP to the card",
+  "report": "work/review/remaining_20261030/REPORT.md",
+  "scripts": [
+   "work/review/remaining_20261030/scan_installed.py",
+   "work/review/remaining_20261030/check_pipeline.py",
+   "work/review/remaining_20261030/home_assets.py"
+  ],
+  "subagents_used": false
+ },
+ "fps60_20261030": {
+  "status": "installed (Option A = work/fps60/build/v2)",
+  "files": {
+   "code.ips": "e5aa7d60686a9129508600e0a43f4391290dd09e9a9661db1c9de1d3b05d998a",
+   "romfs/BAI/BAI.dat": "c681a963b8428128a2d9133c39911f9f2acf5a53e83dff0a097de8fbe750fbb6"
+  },
+  "patch_sd_zip_files": 38,
+  "install": "work/fps60/install_20261030/install.py",
+  "backup": "work/build/prev_fps60_20261030/",
+  "report": "work/fps60/REPORT.md",
+  "runtime": "work/fps60/runtime/findings.md section 8",
+  "fallback": "Option B work/fps60/build/v2b (FEvent.dat 136 sites), not installed",
+  "code_patch_note": "code.bps withdrawn 2026-10-30: Luma v13.4 BPS ScopedAppHeap allocates all free APPLICATION memory (0x07907000 in the 124 MB mode) and panics; code.ips gives identical bytes",
+  "install_ips": "work/fps60/install_ips_20261030/install.py",
+  "backup_ips": "work/build/prev_fps60_ips_20261030/"
+ },
+ "wave5_20261030": {
+  "brief": "work/BRIEF5_20261030.md",
+  "guide": "cancelled: original game shows nothing on the guide top screen (user, real cartridge)",
+  "fonts": "installed work/build/menu_font_stage/v2 (font a786316c, font_btl 6c058d36); merge_ko widths scripts/font_ascii_widths_v2.json; rerun build_menu_font(_v2).py after build_font.py",
+  "suyeom_label": "installed work/build/suyeom_label_stage MLyt.dat 14f0aa9a",
+  "star_fix": "installed BAI.dat v3b 8f3c1928 (throw cycle 22 units at 60fps), code.ips unchanged e5aa7d60",
+  "banner_cia": "work/banner_20261030/out/00040000001CA900_ML3DX_KoreanBanner.cia (user installs with FBI)",
+  "install": "work/wave5_install_20261030/install.py, backup work/build/prev_wave5_20261030/",
+  "files": 38
+ },
+ "pause_menu_20261031": {
+  "request": "user 2026-10-31: star-menu label lettering irregular; rename 능력 -> 스테이터스 (1DX KR); then (steer) all six labels in the old 배지/능력 lettering and size",
+  "cause": "lyt_B made 아이템/장비/기록/가이드 from 1DX menu pictures scaled by bbox (0.812/0.812/0.765/1.0: 가이드 larger, 1 px lower) and 배지/능력 from the 1DX dialogue bitmap font",
+  "recipe": "work/img/pause_menu_20261031/build_pause_menu.py: lyt_B.compose font:font em 13 (x0.867), stroke 2.4, outline 1.85, LA4, cy 12.0 for all six; reproduces the old 배지/능력 PNGs pixel-identically with lyt_B's own cy",
+  "text": "BMsg/b_sys#1066 + Menu#498 (기본⑤: 스테이터스에 대해), BMsg/b_sys#280 + Menu#122 (「스테이터스」); other ステータス lines keep DS 능력; glossary rows 「ステータス」 and 基本⑤：ステータスについて (+ overrides)",
+  "installed": {
+   "romfs/Lyt/JP/MLyt.dat": "305da71bda64",
+   "romfs/Msg/JP_ja/BMsg.dat": "b44a2098f715",
+   "romfs/Msg/JP_ja/Menu.msbt": "0838bc676015"
+  },
+  "install": "work/img/pause_menu_20261031/install.py (v2), v1 record install_v1.json; backups work/build/prev_pause_menu_20261031/ (before 10-31) and work/build/prev_pause_menu_20261031b/ (v1)",
+  "runtime": "tools/azahar-test builds pm20261031 (v1, guide page checked) and pm20261031b (v2, star menu checked); saves unchanged; instance back on use-patch",
+  "files": 38,
+  "rerun_note": "scripts/lyt_B.py make would restore the old six labels: rerun build_pause_menu.py and install.py after it",
+  "report": "work/img/pause_menu_20261031/REPORT.md"
+ },
+ "kj_guide_status_20261031": {
+  "request": "user 2026-10-31: 쿠파주니어 가이드의 능력도 스테이터스로",
+  "changed": "BMsg/b_sys #60 #361 #555 #593 #612 #1311 #1681 (KJGuide_*, no dups): ステータス 능력 -> 스테이터스 (1DX KGGuide_BB05/_BB05_0/_O05_2)",
+  "kept": "outside the guide 능력: #432 #672 #892 #1355 #1621, FMsg/k_o_koopa_39#2, main-story stat lines",
+  "glossary": "ステータス row note (star menu + KJ guide = 스테이터스), new row ステータスについて = 스테이터스에 대해 (+ overrides); kj_1dx_terms.md K updated",
+  "checks": "merge_ko --check 0 errors (6 intended 'ステータス -> 능력 not used' warnings), --merge 7 ids changed, build_patch: only BMsg.dat, only these 7 messages",
+  "installed": {
+   "romfs/Msg/JP_ja/BMsg.dat": "029d915cb923"
+  },
+  "install": "work/review/kj_guide_status_20261031/install.py, backup work/build/prev_kj_guide_status_20261031/",
+  "runtime": "not checked in Azahar: the test save's Bowser Jr. RPG is a new game (guide not reachable)",
+  "files": 38,
+  "report": "work/review/kj_guide_status_20261031/REPORT.md"
+ },
+ "final_review_20261031": {
+  "request": "user 2026-10-31: final pre-release review of all translations and terms (translation / consistency errors)",
+  "method": "work/review/final_20261031/audit.py over all 9,623 messages (8,090 representatives): samejp, glossary, spacing, glossary variants, particles, punctuation, spelling/bound nouns, numbers, length ratio, voice tics, choices, style-13 names, old names, Latin inventory; every hit judged in context. Plus all 92 choice sets, coined glossary names, label-family endings, honorifics/titles, 204 rare syllables, same-Korean-different-Japanese, and a 242-line stratified meaning sample (new/edited, seed 20261031)",
+  "result": "0 meaning errors in the sample; all hits intended / DS / false positives except one DS spacing error",
+  "fixed": {
+   "FMsg/o_ekubon_34#4": "책임 지고 -> 책임지고",
+   "FMsg/o_ekubon_34#9": "책임 지고 -> 책임지고"
+  },
+  "kept_with_reason": "큰방패 = gear ビッグシェル and KJ formation 大盾 (different modes); らんぼうものさん 괴팍한 분 / 난폭한 분 both DS; choice 싫어요/예 (DS); BGM English titles with Jr.",
+  "installed": {
+   "romfs/Msg/JP_ja/FMsg.dat": "f1effac5c8a6"
+  },
+  "checks": "merge 130/130 0 failed; ko_final changed 2 ids; build: only FMsg.dat, only room o_ekubon_34 #4 #9; pipeline same; Japanese 0; missing glyphs 0; 190 warnings (187 glossary judged, 3 known line-count); 38 files patch/junction/SD/ZIP",
+  "install": "work/review/final_20261031/install.py, backup work/build/prev_final_review_20261031/",
+  "report": "work/review/final_20261031/REPORT.md"
+ },
+ "dist_tool_20261031": {
+  "request": "user 2026-10-31: open C:/AI-Projects/3ds-patch-universal-tool and check directly whether it really works with this patch and whether 60fps can be chosen",
+  "method": "called the tool's own functions (the GUI buttons call the same ones) on the real files: original = full v1.2 RomFS (1,282 files), edited = copy + patch files, code.ips, 3dx_v12.code.bin, base CIA; inputs in scratch only; tool project read-only (2,972 files, 0 changed); boots of the tool's azahar.zip in tools/azahar-test",
+  "works": "LayeredFS ZIP build (luma.zip 38 files = patch/ = SD folder = ml3dx_ko_luma.zip byte for byte; azahar.zip same with exefs/code.ips), xdelta bundle 6.3 MB -> apply -> install ZIPs byte-identical, Azahar direct install (fresh only), FTP (fresh only, local pyftpdlib server)",
+  "not_usable": "RomForge repack: needs aes_keys.txt common0 even for these decrypted CIAs; RomForge refuses update titles (CiaBuilder.cs 41-42) and this patch needs v1.2 (3 update files + code.ips for v1.2 code)",
+  "fps60_choice": "no per-component option; separate edited folders -> Korean-only 36 files (30fps, 29.96/s) and 60fps-only 2 files (59.88/s, Japanese) built and booted; no overlap, union = full 38 (59.91/s). Users can turn 60fps off by deleting code.ips only (BAI v3b same at 30fps)",
+  "limits": "edited folder must be a full RomFS copy (patch folder alone = '1,245 deleted' -> refused); IPS check is size-only (v1.0 code same size, 7 of 8 records hit different v1.0 bytes); both CIAs have TMD version 0 (shown 0.0.0); update CIA + 'read game info' sets title ID 0004000E... (wrong folder); direct install/FTP refuse an existing install (no update path); junctions not detected; ZIP root gets 설치 안내.txt + manifest.json",
+  "files_unchanged": "patch/, SD folder, release ZIP, user Azahar; test instance back on use-patch (38), saves unchanged",
+  "report": "work/review/dist_tool_20261031/REPORT.md (results.json, romforge_results.json, runtime_*_title.png)",
+  "merge_followup": "user 2026-10-31: merge base + update so RomForge can be used? -> feasible. exheader base vs v1.2 differs only in text/ro sizes (same pages 649/102), remaster 0->2, jump ID, signature; RomFS: 4 of the update's 19 files differ (static.crr, FEvent.dat, FMdl.dat, static.crs; the first and third are already in the patch). Upstream RomForge repack can replace exheader.bin (0x800), exefs code.bin or patch it (.bps/.xdelta/.ips, recompressing), exefs banner/icon, romfs files or per-file .xdelta -> one base-CIA package (exheader + code diff + 37 + FEvent/static.crs [+ Korean banner]). Azahar simulation (dt_mods.py use-merge + update hide): v1.2 code with code.ips as exefs/code.bin, 39 romfs files, no update: title Korean 'Ver. 1.2' 59.91/s, file/mode select, field 59.88/s, pause menu 59.88/s. Restored update + use-patch, saves unchanged. Conditions: official update must be uninstalled; RomForge needs keys; the universal tool cannot carry the package yet (needs a change, user OK). Not done: real package, RomForge run, real-HW test.",
+  "rereview_v2": "user 2026-10-31 afternoon: tool updated (merge.py new; core/romforge/GUI/README; RomForge fork CiaReader no common key for decrypted CIAs; bridge saves/verifies exheader+banner). Unit tests 27/27 with all optional deps. Real-file T1-T6/T8 identical to the morning; T7: junction now refused (0 files), identical re-install accepted, older version still refused. Merge: empty-key workspaces OK; bundles full 6,522,661 B (39 romfs + code/exheader/banner) == tool author's bundle, ko (no IPS), fps60 222 KB; CCI full sha 4f02f1ac == author's; independent cci_verify.py: all NCCH/ExeFS/IVFC hashes OK, RomFS 1282 == v1.2+patch, exheader == expected merge, code == v3b / v12, banner Korean; CIA stops at certs.bin (keys needed). Azahar (CCI direct, no mods): full no update 60/s Korean title/mode/field/pause; full WITH official update 30/s, Japanese title logo/button, original MainMenu.cro, Korean text; ko 30/s Korean; ko + 60fps-only LayeredFS (code.ips, BAI.dat) 60/s. Restored update + use-patch, saves unchanged, tool project 2,986 entries 0 changed. Pending Windows Security firewall dialog (PickerHost) is for the author's deleted temp azahar copy (Block rules exist); not clicked. Report section 'rereview' in work/review/dist_tool_20261031/REPORT.md."
+ },
+ "release_guide_20261031": {
+  "request": "user 2026-10-31: separate, easy-to-handle distribution guide",
+  "file": "work/sd_package/설치 안내.md (UTF-8, Markdown, readable as plain text; next to ml3dx_ko_luma.zip, not inside it)",
+  "covers": "LayeredFS ZIP release: requirements (JP game, v1.2 update, Luma3DS or Azahar), 3DS install (luma folder to SD root, SELECT boot, Enable game patching, START), Azahar install (File > CIA 설치하기..., 열기 > Mods Location, copy romfs + code.ips; %APPDATA% fallback), 60fps on/off by code.ips (New 3DS family only, Azahar App: 60 FPS / New 3DS mode 활성화), cheat off, 60fps-only, update/remove, FAQ, notes",
+  "sources": "Azahar labels from dist/languages/ko.ts at tag 2126.1.2; Luma option text/START behaviour from LumaTeam/Luma3DS arm9/source/config.c; facts from work/fps60/REPORT.md, CHEAT_COMPARISON.md, findings.md",
+  "not_included": "merged RomForge route (its release files do not exist yet); HOME banner CIA (contains the whole game, not for public distribution); credits/contact (user to add)",
+  "zip_unchanged": "ml3dx_ko_luma.zip sha256 ec2c0226..., 38 files; patch/ 38"
+ },
+ "final_check_20261116": {
+  "request": "user 2026-11-16: last pre-release check - follows the DS Korean translation, reflects remake changes, Bowser Jr. RPG consistent with the RPG3 part, nothing overflows its box or causes conflicts",
+  "method": "new checks beside the 10-31 audit: unused DS lines in room order (585, 39 partial matches read), every char-level DS deviation in DS-based lines (111), DS-copy length ratio tails, DS-basis glossary terms present in DS text (842/859, 17 intentional), hardware/control terms JP vs KO, KJ vs main names/honorifics/tics, guide/hint endings, real per-font line widths incl. inline size codes (code table DAT_003a02f4: 00 font_btl, 01 font, 02 font_l, 03 font_btl#2, 04 font#2, 06 font), layout box of KJ character text (pnl_KJ_INFO 354x62), inserted-name widths, encoded string sizes",
+  "result": "DS fidelity / remake changes / KJ consistency: nothing to fix. Widths: 3 messages wider than the widest Japanese of their window kind fixed; remaining over-max lines are auto-sized balloons (+5/+1/+1 px) or windows with a larger Japanese maximum. k_o_koopa_r_80#246 size code 06 = normal font, no broken glyph.",
+  "fixed": {
+   "FMsg/i_challenge_01#111": "볼록볼록하게 생긴→볼록볼록한, 그 수가→수가 (280/274 -> 227/254 px, style-5 JP max 261)",
+   "Menu#628": "line breaks only (316 -> 208/104/267 px font_btl, guide JP max 312)",
+   "BMsg/b_sys#1199": "들이마시는→들이쉬는 (276 -> 260 px, hint-title JP max 272)"
+  },
+  "installed": "FMsg.dat 9f44163b, BMsg.dat 5e5c5fac, Menu.msbt 44fdbd70 in patch/, SD folder, SD ZIP (0071500e); 38 files match; check_pipeline and scan_installed unchanged from 10-30",
+  "not_done": "public release repo work/distribution_20261102 still has the 10-31 ZIP (ec2c0226) - update ZIP, SHA256SUMS, README date only after the user agrees; no emulator on this Linux machine, so the 3 fixes are not seen on screen",
+  "report": "work/review/final_check_20261116/REPORT.md",
+  "backup": "work/build/prev_final_check_20261116/"
  }
 }

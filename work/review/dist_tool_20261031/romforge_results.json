@@ -1,0 +1,36 @@
+{
+ "when": "2026-10-31 11:37:44",
+ "bridge": "C:\\AI-Projects\\3ds-patch-universal-tool\\RomForge-reference\\KpmBridge\\bin\\Release\\net10.0\\KpmBridge.dll",
+ "key_folder_empty": true,
+ "tool_project_changed": [],
+ "results": [
+  {
+   "id": "R1",
+   "title": "작업 폴더 준비: 본편 CIA",
+   "exception": "RuntimeError: 게임 추출 실패: Common Key index 0 없음 — aes_keys.txt에 common0=<hex> 추가 필요",
+   "traceback": "Traceback (most recent call last):\n  File \"C:\\AI-Projects\\mario-luigi-rpg-3dx-korean-patch\\work\\review\\dist_tool_20261031\\romforge_check.py\", line 41, in record\n    e.update(fn())\n             ^^^^\n  File \"C:\\AI-Projects\\mario-luigi-rpg-3dx-korean-patch\\work\\review\\dist_tool_20261031\\romforge_check.py\", line 51, in r1\n    r = romforge.setup_workspace(rt.BASE_CIA, KEYS, DT / \"ws_base\", BRIDGE)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\AI-Projects\\3ds-patch-universal-tool\\upstream\\TranslationToolkit\\korean_patch_manager\\romforge.py\", line 137, in setup_workspace\n    if proc.returncode or not result.get('ok'): raise RuntimeError(f\"게임 추출 실패: {result.get('error', stderr)}\")\n                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: 게임 추출 실패: Common Key index 0 없음 — aes_keys.txt에 common0=<hex> 추가 필요\n",
+   "seconds": 0.7
+  },
+  {
+   "id": "R2",
+   "title": "작업 폴더 준비: 업데이트 CIA",
+   "exception": "RuntimeError: 게임 추출 실패: Common Key index 0 없음 — aes_keys.txt에 common0=<hex> 추가 필요",
+   "traceback": "Traceback (most recent call last):\n  File \"C:\\AI-Projects\\mario-luigi-rpg-3dx-korean-patch\\work\\review\\dist_tool_20261031\\romforge_check.py\", line 41, in record\n    e.update(fn())\n             ^^^^\n  File \"C:\\AI-Projects\\mario-luigi-rpg-3dx-korean-patch\\work\\review\\dist_tool_20261031\\romforge_check.py\", line 63, in r2\n    r = romforge.setup_workspace(rt.UPD_CIA, KEYS, DT / \"ws_upd\", BRIDGE)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\AI-Projects\\3ds-patch-universal-tool\\upstream\\TranslationToolkit\\korean_patch_manager\\romforge.py\", line 137, in setup_workspace\n    if proc.returncode or not result.get('ok'): raise RuntimeError(f\"게임 추출 실패: {result.get('error', stderr)}\")\n                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: 게임 추출 실패: Common Key index 0 없음 — aes_keys.txt에 common0=<hex> 추가 필요\n",
+   "seconds": 0.1
+  },
+  {
+   "id": "R3",
+   "title": "RomForge 리팩: 본편 CIA + v1.2 기준 패치",
+   "error": "RuntimeError: RomForge 리팩 실패: Common Key index 0 없음 — aes_keys.txt에 common0=<hex> 추가 필요",
+   "output_exists": false,
+   "seconds": 3.6
+  },
+  {
+   "id": "R4",
+   "title": "RomForge 리팩: 업데이트 CIA + 업데이트 파일 3개 + code.ips",
+   "exception": "FileNotFoundError: [WinError 3] 지정된 경로를 찾을 수 없습니다: 'C:\\\\Users\\\\woose\\\\.kiro\\\\crew\\\\scratch\\\\runtime-71da2732\\\\dt\\\\ws_upd\\\\original'",
+   "traceback": "Traceback (most recent call last):\n  File \"C:\\AI-Projects\\mario-luigi-rpg-3dx-korean-patch\\work\\review\\dist_tool_20261031\\romforge_check.py\", line 41, in record\n    e.update(fn())\n             ^^^^\n  File \"C:\\AI-Projects\\mario-luigi-rpg-3dx-korean-patch\\work\\review\\dist_tool_20261031\\romforge_check.py\", line 77, in r4\n    shutil.copytree(DT / \"ws_upd\" / \"original\", ed)\n  File \"C:\\Users\\woose\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\shutil.py\", line 598, in copytree\n    with os.scandir(src) as itr:\n         ^^^^^^^^^^^^^^^\nFileNotFoundError: [WinError 3] 지정된 경로를 찾을 수 없습니다: 'C:\\\\Users\\\\woose\\\\.kiro\\\\crew\\\\scratch\\\\runtime-71da2732\\\\dt\\\\ws_upd\\\\original'\n",
+   "seconds": 0.0
+  }
+ ]
+}

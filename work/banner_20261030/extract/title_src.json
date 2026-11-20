@@ -1,0 +1,46 @@
+{
+ "jp": {
+  "file": "C:\\AI-Projects\\mario-luigi-rpg-3dx-korean-patch\\romf2\\FMdl\\JP\\FMdl.dat",
+  "sha256": "9587448462583cce28a7ee06dddd5a83873902fb814a6dc5c9ac5b7f985570c6",
+  "textures": {
+   "title_logo_JP_bottom": {
+    "w": 512,
+    "h": 256,
+    "fmt": "RGBA4",
+    "levels": 1,
+    "sha1": "7f2a17f4a81aecd0470644c933777f7fe6e49111",
+    "equals_work_img_fmdl_png": true
+   },
+   "title_logo_JP_top": {
+    "w": 512,
+    "h": 256,
+    "fmt": "RGBA4",
+    "levels": 1,
+    "sha1": "d59fdbc73cea8417ca74c7a2e5d060385515e60c",
+    "equals_work_img_fmdl_png": true
+   }
+  }
+ },
+ "kr": {
+  "file": "C:\\AI-Projects\\mario-luigi-rpg-3dx-korean-patch\\patch\\00040000001CA900\\romfs\\FMdl\\JP\\FMdl.dat",
+  "sha256": "2d7819214886f6e973810940ff69f4096c254cd8da30381983e52ac519cefcad",
+  "textures": {
+   "title_logo_JP_bottom": {
+    "w": 512,
+    "h": 256,
+    "fmt": "RGBA4",
+    "levels": 1,
+    "sha1": "3fb74f4c59807d4dc460840586787328324a9537",
+    "equals_logo2_out_png": true
+   },
+   "title_logo_JP_top": {
+    "w": 512,
+    "h": 256,
+    "fmt": "RGBA4",
+    "levels": 1,
+    "sha1": "e298a57e961540eef77d70b63efdfcd05e0dad65",
+    "equals_logo2_out_png": true
+   }
+  }
+ }
+}

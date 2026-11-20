@@ -20,3 +20,6 @@ __pycache__/
 /work/img/kj_logo_20261009/ref/
 # The distribution repository is its own git checkout (auseong325-design/mario-luigi-rpg-3dx-korean-patch).
 /work/distribution_20261102/
+
+# Raw emulator captures for the post (about 240MB); the curated set is under work/post_20261120/images
+/work/post_20261120/raw/

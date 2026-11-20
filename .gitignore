@@ -16,3 +16,7 @@ __pycache__/
 *.pyc
 *.log
 /.kiro/settings/*.lock
+/work/img/logo2/ref/
+/work/img/kj_logo_20261009/ref/
+# The distribution repository is its own git checkout (auseong325-design/mario-luigi-rpg-3dx-korean-patch).
+/work/distribution_20261102/

@@ -6,7 +6,7 @@
 
 ## 다운로드와 설치
 
-- [한글패치 다운로드 (최신 릴리스)](https://github.com/auseong325-design/mario-luigi-rpg-3dx-korean-patch/releases/latest) · 패치 기준일: 2026-11-16
+- [한글패치 다운로드 (2026-11-16판)](https://github.com/auseong325-design/mario-luigi-rpg-3dx-korean-patch/releases/tag/v2026.11.16) · 패치 기준일: 2026-11-16
   릴리스 페이지의 `ml3dx_ko_luma_20261116.zip`을 받으세요. [이전 버전](https://github.com/auseong325-design/mario-luigi-rpg-3dx-korean-patch/releases)도 릴리스에 판별로 있습니다.
 - [자세한 설치 안내](설치%20안내.md)
 - 직접 복사하기 어렵다면: [3DS 한글패치 매니저](https://github.com/auseong325-design/3ds-patch-universal-tool/releases)(통합 툴)를 실행하고 받은 ZIP을 창에 끌어다 놓은 뒤 「닌텐도 3DS」나 「PC」를 고르면 SD 카드나 Azahar 폴더에 넣어 줍니다. [자세히](설치%20안내.md#8-프로그램으로-설치하기-선택)

@@ -1,0 +1,69 @@
+{
+ "input": "0004000E001CA900.00000001 Mario & Luigi Bowser's Inside\u2026 (CTR-U-A3RJ) (J).standard.cia",
+ "output": "work\\banner_20261030\\out\\0004000E001CA900_ML3DX_v1.2_KoreanName.cia",
+ "output_sha256": "a2a0047d37c185956f3d26c5baaa5a1d7ed00e23f894a0111b48908fa15f1db5",
+ "output_size": 28738496,
+ "files": {
+  "icon": {
+   "size": 14016,
+   "slot": [
+    1913856,
+    1928192
+   ],
+   "sha256": "11fdb0596a443568fe0dab6d5ae4294c39ff045ec95cc648c9579bf7f0fa4518"
+  }
+ },
+ "new_content0_sha256": "3ad932402a8ee1ea12787f9018912513a005198891005658cdfa380606b193ed",
+ "old_content0_sha256": "5d8e0534a8d32888b1ddb19b0aa034d93e3ed591959df72513ed93abc13eb0fc",
+ "new_exefs_hash": "0ad0f2026ef51bff33fc38a843aa3d95cd20e0c37b60a4177b0d2c3deae32b07",
+ "changed_ranges": [
+  {
+   "range": [
+    "0x2fa4",
+    "0x2fe8"
+   ],
+   "bytes": 68,
+   "where": "TMD"
+  },
+  {
+   "range": [
+    "0x38d4",
+    "0x38f4"
+   ],
+   "bytes": 32,
+   "where": "TMD"
+  },
+  {
+   "range": [
+    "0x3ac0",
+    "0x3ae0"
+   ],
+   "bytes": 32,
+   "where": "NCCH header"
+  },
+  {
+   "range": [
+    "0x66c0",
+    "0x66e0"
+   ],
+   "bytes": 32,
+   "where": "ExeFS header"
+  },
+  {
+   "range": [
+    "0x1da908",
+    "0x1da93e"
+   ],
+   "bytes": 54,
+   "where": "ExeFS icon slot"
+  },
+  {
+   "range": [
+    "0x1da988",
+    "0x1da9fd"
+   ],
+   "bytes": 117,
+   "where": "ExeFS icon slot"
+  }
+ ]
+}

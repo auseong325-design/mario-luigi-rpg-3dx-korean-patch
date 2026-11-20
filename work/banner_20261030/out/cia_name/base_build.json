@@ -1,0 +1,85 @@
+{
+ "input": "00040000001CA900.00000002 Mario & Luigi Bowser's Inside\u2026 (CTR-P-A3RJ) (J).standard.cia",
+ "output": "work\\banner_20261030\\out\\00040000001CA900_ML3DX_KoreanBanner_Name.cia",
+ "output_sha256": "c25d7dc735874d7ba4add56e6bde5949adc8b8f265e05871a70622045a741bd1",
+ "output_size": 699835328,
+ "files": {
+  "banner": {
+   "size": 153096,
+   "slot": [
+    1913856,
+    2067456
+   ],
+   "sha256": "d659b9fe55429b0b099c00777443348ce0a3dac8f0a55cd40266e7fa6072c8b6"
+  },
+  "icon": {
+   "size": 14016,
+   "slot": [
+    2067456,
+    2081792
+   ],
+   "sha256": "11fdb0596a443568fe0dab6d5ae4294c39ff045ec95cc648c9579bf7f0fa4518"
+  }
+ },
+ "new_content0_sha256": "6c3610f2127cbff21c994c1a09bd98bc3652cb2ebeabb9106f8a07a25145b519",
+ "old_content0_sha256": "da54842716b953bd5c487aa5110b54d0eeff7be64079f3ee0a5d1e02811eb1e7",
+ "new_exefs_hash": "d5beb9e7eef2562a9f85e1b2833570318f9f586a6e31daacf7b908599815cf9a",
+ "changed_ranges": [
+  {
+   "range": [
+    "0x2fa4",
+    "0x2fe8"
+   ],
+   "bytes": 68,
+   "where": "TMD"
+  },
+  {
+   "range": [
+    "0x38d4",
+    "0x38f4"
+   ],
+   "bytes": 32,
+   "where": "TMD"
+  },
+  {
+   "range": [
+    "0x3ac0",
+    "0x3ae0"
+   ],
+   "bytes": 32,
+   "where": "NCCH header"
+  },
+  {
+   "range": [
+    "0x66a0",
+    "0x66e0"
+   ],
+   "bytes": 64,
+   "where": "ExeFS header"
+  },
+  {
+   "range": [
+    "0x1df3db",
+    "0x1e4336"
+   ],
+   "bytes": 20315,
+   "where": "ExeFS banner slot"
+  },
+  {
+   "range": [
+    "0x200108",
+    "0x20013e"
+   ],
+   "bytes": 54,
+   "where": "ExeFS icon slot"
+  },
+  {
+   "range": [
+    "0x200188",
+    "0x2001fd"
+   ],
+   "bytes": 117,
+   "where": "ExeFS icon slot"
+  }
+ ]
+}

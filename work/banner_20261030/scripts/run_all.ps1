@@ -22,3 +22,9 @@ $j = Start-Job -ScriptBlock { param($r, $w) Set-Location $r
 if (-not (Wait-Job $j -Timeout 150)) { Stop-Job $j; throw "SPICA timeout" }
 Remove-Job $j -Force
 & "$s\run.ps1" 300 work/banner_20261030/scripts/mockup.py
+# 2026-11-20: Korean HOME title (SMDH icon) + base CIA with banner and icon + v1.2 update CIA with icon
+$upd = (Get-ChildItem "$root\0004000E001CA900*.cia").FullName
+& "$s\run.ps1" 120 work/banner_20261030/scripts/make_icon.py
+& "$s\run.ps1" 1500 work/banner_20261030/scripts/cia.py replace "$cia" "$out/00040000001CA900_ML3DX_KoreanBanner_Name.cia" "$out/cia_name/base_build.json" "banner=$out/banner/banner_ko.bin" "icon=$out/icon/icon_ko.bin"
+& "$s\run.ps1" 900 work/banner_20261030/scripts/cia.py replace "$upd" "$out/0004000E001CA900_ML3DX_v1.2_KoreanName.cia" "$out/cia_name/update_build.json" "icon=$out/icon/icon_ko.bin"
+& "$s\run.ps1" 600 work/banner_20261030/scripts/preview_home.py

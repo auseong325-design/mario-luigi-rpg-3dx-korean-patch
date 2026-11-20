@@ -1,0 +1,28 @@
+{
+ "source": "exefs/icon (== exefs2/icon)",
+ "source_sha256": "4287af570fef00d3c74de47ccae5b8137fd2f9aeb56bcd06d9b39852d690ef9e",
+ "output": "out/icon/icon_ko.bin",
+ "output_sha256": "11fdb0596a443568fe0dab6d5ae4294c39ff045ec95cc648c9579bf7f0fa4518",
+ "changed_bytes": 97,
+ "changed_range": [
+  "0xe08",
+  "0xefd"
+ ],
+ "korean_slot_before": {
+  "short": "Mario & Luigi: Bowser's In…",
+  "long": "Mario & Luigi: Bowser's Inside\nStory + Bowser Jr.'s Journey",
+  "publisher": "Nintendo"
+ },
+ "korean_slot_after": {
+  "short": "마리오&루이지 RPG3 DX",
+  "long": "마리오&루이지 RPG3 DX",
+  "publisher": "Nintendo"
+ },
+ "reference_1dx_korean_slot": {
+  "short": "마리오&루이지 RPG 1 DX",
+  "long": "마리오&루이지 RPG 1 DX",
+  "publisher": "Nintendo"
+ },
+ "hangul_also_in_1dx_name": "6/6 (루리마오이지)",
+ "unchanged": "icons (24x24, 48x48), other 11 languages, ratings, region lockout, flags"
+}

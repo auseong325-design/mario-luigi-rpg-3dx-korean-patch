@@ -3,11 +3,13 @@
   cia.py info  <cia>                         parse + verify every hash, compare ExeFS with exefs/
   cia.py build <cia> <banner> <out|->        rebuild with this ExeFS banner. '-' = do not write,
                                              only stream-hash the output and compare with <cia>
+  cia.py replace <cia> <out|-> <report|-> name=file [name=file ...]
+                                             rebuild with any ExeFS files replaced (banner, icon, ...)
 Layout rules (3dbrew CIA/Title_metadata/NCCH/ExeFS): CIA sections aligned to 64 bytes; TMD and
 CIA header fields big/little-endian as documented; NCCH media unit 0x200 << flags[6].
-Rebuild recomputes (never copies): ExeFS header entry size + SHA-256 of the banner, NCCH ExeFS
+Rebuild recomputes (never copies): ExeFS header entry size + SHA-256 of each replaced file, NCCH ExeFS
 superblock hash, TMD content size + SHA-256, TMD content-info-record hash. ExeFS file offsets
-are kept (the banner gets more zero padding if it shrinks; it must fit its old 0x200 slot), so
+are kept (a file gets more zero padding if it shrinks; it must fit its old 0x200 slot), so
 the ExeFS, NCCH and CIA sizes stay the same. Signatures are kept as they are.
 """
 from __future__ import annotations
@@ -176,7 +178,14 @@ def info(path: Path) -> dict:
 
 
 def build(path: Path, banner: bytes, out: Path | None) -> dict:
-    """Rebuild the CIA with ExeFS:/banner = banner. Returns a report incl. output SHA-256 and the
+    """Rebuild the CIA with ExeFS:/banner = banner (kept for the original command line)."""
+    rep = replace(path, {"banner": banner}, out)
+    rep["banner_size"], rep["banner_slot"] = rep["files"]["banner"]["size"], rep["files"]["banner"]["slot"]
+    return rep
+
+
+def replace(path: Path, files: dict[str, bytes], out: Path | None) -> dict:
+    """Rebuild the CIA with the named ExeFS files replaced. Returns a report incl. output SHA-256 and the
     exact list of changed byte ranges (relative to the input)."""
     c = Cia(path)
     ch = c.chunks[0]
@@ -186,19 +195,26 @@ def build(path: Path, banner: bytes, out: Path | None) -> dict:
     exo = base + n["exefs_off"]
     exh = bytearray(c.read(exo, 0x200))
     ents = exefs_entries(bytes(exh))
-    ban = next(e for e in ents if e["name"] == "banner")
-    nxt = min([e["off"] for e in ents if e["off"] > ban["off"]] + [n["exefs_size"] - 0x200])
-    if ban["off"] + len(banner) > nxt:
-        raise SystemExit(f"banner {len(banner)} B does not fit its ExeFS slot ({nxt - ban['off']} B)")
-    # ExeFS header: size + hash of the banner entry (recomputed)
-    struct.pack_into("<I", exh, ban["slot"] * 16 + 12, len(banner))
-    exh[0xC0 + (9 - ban["slot"]) * 0x20:0xC0 + (10 - ban["slot"]) * 0x20] = hashlib.sha256(banner).digest()
-    # banner slot bytes: banner + zero padding up to the next file
-    slot = bytes(banner) + bytes(nxt - ban["off"] - len(banner))
+    patches = {base: b"", exo: b""}   # filled in below; absolute CIA offsets
+    slots = {}
+    for name, data in files.items():
+        ent = next((e for e in ents if e["name"] == name), None)
+        if ent is None:
+            raise SystemExit(f"ExeFS has no '{name}' ({[e['name'] for e in ents]})")
+        nxt = min([e["off"] for e in ents if e["off"] > ent["off"]] + [n["exefs_size"] - 0x200])
+        if ent["off"] + len(data) > nxt:
+            raise SystemExit(f"{name} {len(data)} B does not fit its ExeFS slot ({nxt - ent['off']} B)")
+        # ExeFS header: size + hash of the entry (recomputed)
+        struct.pack_into("<I", exh, ent["slot"] * 16 + 12, len(data))
+        exh[0xC0 + (9 - ent["slot"]) * 0x20:0xC0 + (10 - ent["slot"]) * 0x20] = hashlib.sha256(data).digest()
+        # slot bytes: file + zero padding up to the next file
+        patches[exo + 0x200 + ent["off"]] = bytes(data) + bytes(nxt - ent["off"] - len(data))
+        slots[name] = {"size": len(data), "slot": [ent["off"], nxt], "sha256": hashlib.sha256(data).hexdigest(),
+                       "range": (exo + 0x200 + ent["off"], exo + 0x200 + nxt)}
     # NCCH: ExeFS superblock hash over the first exefs_hash_size bytes (the header is 0x200)
     assert n["exefs_hash_size"] == 0x200, n["exefs_hash_size"]
     nh[0x1C0:0x1E0] = hashlib.sha256(bytes(exh)).digest()
-    patches = {base: bytes(nh), exo: bytes(exh), exo + 0x200 + ban["off"]: slot}   # absolute CIA offsets
+    patches[base], patches[exo] = bytes(nh), bytes(exh)
 
     def content_stream():
         """yield content-0 bytes with patches applied."""
@@ -297,13 +313,12 @@ def build(path: Path, banner: bytes, out: Path | None) -> dict:
             what = "NCCH header"
         elif exo <= a < exo + 0x200:
             what = "ExeFS header"
-        elif exo + 0x200 + ban["off"] <= a < exo + 0x200 + nxt:
-            what = "ExeFS banner slot"
         else:
-            what = "OTHER"
+            what = next((f"ExeFS {name} slot" for name, s in slots.items() if s["range"][0] <= a < s["range"][1]), "OTHER")
         labels.append({"range": [hex(a), hex(b)], "bytes": b - a, "where": what})
     return {"input": str(path), "output": str(out) if out else None, "output_sha256": out_h.hexdigest(),
-            "output_size": c.file_size, "banner_size": len(banner), "banner_slot": [ban["off"], nxt],
+            "output_size": c.file_size,
+            "files": {k: {kk: vv for kk, vv in v.items() if kk != "range"} for k, v in slots.items()},
             "new_content0_sha256": new_content_hash.hex(), "old_content0_sha256": ch["sha256"],
             "new_exefs_hash": nh[0x1C0:0x1E0].hex(), "changed_ranges": labels}
 
@@ -321,6 +336,17 @@ def main(argv: list[str]) -> int:
         print(json.dumps(rep, indent=1))
         if len(argv) > 5:
             Path(argv[5]).write_text(json.dumps(rep, indent=1), encoding="utf-8")
+        return 0
+    if argv[1] == "replace":
+        out = None if argv[3] == "-" else Path(argv[3])
+        files = {}
+        for spec in argv[5:]:
+            name, _, file = spec.partition("=")
+            files[name] = Path(file).read_bytes()
+        rep = replace(Path(argv[2]), files, out)
+        print(json.dumps(rep, indent=1))
+        if argv[4] != "-":
+            Path(argv[4]).write_text(json.dumps(rep, indent=1), encoding="utf-8")
         return 0
     raise SystemExit("usage")
 

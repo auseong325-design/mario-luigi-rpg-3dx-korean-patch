@@ -1,0 +1,93 @@
+{
+ "file": "work\\banner_20261030\\out\\0004000E001CA900_ML3DX_v1.2_KoreanName.cia",
+ "file_size": 28738496,
+ "header_size": 8224,
+ "cert_size": 2560,
+ "ticket_size": 848,
+ "tmd_size": 2868,
+ "meta_size": 15040,
+ "content_size": 28708864,
+ "offsets": {
+  "cert": 8256,
+  "ticket": 10816,
+  "tmd": 11712,
+  "content": 14592,
+  "meta": 28723456
+ },
+ "end_check": 28738496,
+ "title_id": "0004000E001CA900",
+ "title_version": 0,
+ "tmd_sig_type": "0x10004",
+ "tmd_issuer": "Root-CA00000003-CP0000000b",
+ "ticket_issuer": "Root-CA00000003-XS0000000c",
+ "content_count": 1,
+ "chunks": [
+  {
+   "id": 0,
+   "index": 0,
+   "type": 0,
+   "size": 28708864,
+   "sha256": "3ad932402a8ee1ea12787f9018912513a005198891005658cdfa380606b193ed",
+   "rec_off": 2820,
+   "cia_off": 14592
+  }
+ ],
+ "info_records_hash_ok": true,
+ "chunk_records_hash_ok": true,
+ "content0_encrypted_flag": false,
+ "ncch": {
+  "content_size": 28708864,
+  "program_id": "0x4000e001ca900",
+  "partition_id": "0x4000e001ca900",
+  "product_code": "CTR-U-A3RJ",
+  "flags": "0000000001030004",
+  "media_unit": 512,
+  "no_crypto": true,
+  "fixed_key": false,
+  "seed_crypto": false,
+  "exheader_size": 1024,
+  "logo": [
+   2560,
+   8192
+  ],
+  "plain": [
+   10752,
+   512
+  ],
+  "exefs_off": 11264,
+  "exefs_size": 1928704,
+  "exefs_hash_size": 512,
+  "romfs_off": 1941504,
+  "romfs_size": 26767360,
+  "romfs_hash_size": 512,
+  "exefs_hash": "0ad0f2026ef51bff33fc38a843aa3d95cd20e0c37b60a4177b0d2c3deae32b07",
+  "romfs_hash": "ffd3157ba05c761ad0567febdbdbcde1ef609c7ea493705fc567b006247ada15"
+ },
+ "exefs_superblock_hash_ok": true,
+ "exefs": [
+  {
+   "slot": 0,
+   "name": ".code",
+   "off": 0,
+   "size": 1913800,
+   "sha256": "6626878db2388e378f55af907489a83eb050c2cc328bf6a1730ab4d2f320e822",
+   "hash_ok": true,
+   "equals_project_exefs_file": false
+  },
+  {
+   "slot": 1,
+   "name": "icon",
+   "off": 1913856,
+   "size": 14016,
+   "sha256": "11fdb0596a443568fe0dab6d5ae4294c39ff045ec95cc648c9579bf7f0fa4518",
+   "hash_ok": true,
+   "equals_project_exefs_file": false
+  }
+ ],
+ "exefs_packed": true,
+ "exefs_data_end": 1928704,
+ "romfs_superblock_hash_ok": true,
+ "content0_sha256": "3ad932402a8ee1ea12787f9018912513a005198891005658cdfa380606b193ed",
+ "content0_hash_ok": true,
+ "file_sha256": "a2a0047d37c185956f3d26c5baaa5a1d7ed00e23f894a0111b48908fa15f1db5"
+}

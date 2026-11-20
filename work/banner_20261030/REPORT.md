@@ -191,3 +191,27 @@ inspection helpers (previews `preview/v1_*`, `tm_title_kr_jp_x8.png`).
 3. Not in scope, unchanged: the HOME Menu title text (SMDH `icon`, Japanese column 「マリオ＆ルイージRPG3 DX」).
    The same builder could replace ExeFS `icon` in the same way if wanted (the v1.2 update also carries an icon,
    `exefs2/icon`, so which one HOME shows would need checking first).
+
+## 13. Korean HOME title (2026-11-20, user request)
+
+- The game's SMDH (`exefs/icon`, identical to the v1.2 update's `exefs2/icon`) had English text in the Korean
+  column (「Mario & Luigi: Bowser's In…」), so a Korean-language console showed the English name.
+  `scripts/make_icon.py` writes 「마리오&루이지 RPG3 DX」 into the Korean short and long title and keeps
+  「Nintendo」 as publisher, like the 1DX Korean SMDH. Only that slot changes (97 bytes, 0xE08–0xEFD); icons,
+  other languages, ratings, region lockout (Japan only) and flags are unchanged (`out/icon/icon.json`).
+  The title text is the AGENTS.md form (no space before 3); all 6 Hangul also occur in the 1DX name.
+- `scripts/cia.py` now replaces any ExeFS files (`cia.py replace <cia> <out> <report> name=file ...`);
+  `build` calls it. Regression: replacing only the banner reproduces the 10-30 CIA byte for byte
+  (sha256 `7e70eaee…2f2d`).
+- `out/00040000001CA900_ML3DX_KoreanBanner_Name.cia` (banner + icon, sha256 `c25d7dc7…41bd1`) and
+  `out/0004000E001CA900_ML3DX_v1.2_KoreanName.cia` (icon only, sha256 `a2a0047d…1db5`). Changed bytes = the
+  replaced ExeFS slots and the dependent hashes only (`out/cia_name/*_build.json`). Read back with
+  `cia.py info`: every hash verifies, sizes equal the originals, ticket, certs, `.code` and RomFS hash
+  unchanged, the Korean title reads back from both (`out/cia_name/*_info.json`).
+- The update gets the same icon because which title's SMDH the HOME Menu shows when an update is installed
+  is **unconfirmed**; with both replaced it does not matter. Not checked on hardware (no console here).
+- Hangul in the SMDH shows only on Korean-region consoles (their system font has Hangul).
+- `preview/home_preview_ko.png` (`scripts/preview_home.py`): JP vs Korean banner scene plus the HOME title
+  text. Same front-view approximation as `mockup.py`, but `bunner_rem3_bk` is drawn as a dark drop shadow
+  under the characters (an alpha-only silhouette texture; the shade is assumed, the combiner is not in the
+  dump). `out/INSTALL_KO.md` now covers both CIAs and replaces the banner-only CIA.
